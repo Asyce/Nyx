@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "0a0034eb4edaeeaa3c6bc4be9b184f617247db743fee814e07ed2a3d1ea023d2",
-  "generatedAt": "2026-08-01T20:05:45.219Z",
+  "revision": "ffb6752447d0453c7d21465e1f0f1d462e81982af7cdd043d691971351f68c46",
+  "generatedAt": "2026-08-01T21:03:27.765Z",
   "health": {
     "status": "ok",
     "games": {
@@ -43,7 +43,7 @@
         "remaining": {
           "startsAt": "2026-07-21T17:00:00.000Z",
           "endsAt": "2026-08-11T13:59:00.000Z",
-          "durationSeconds": 841994
+          "durationSeconds": 838532
         },
         "characters": [
           {
@@ -348,9 +348,33 @@
       ],
       "codes": [
         {
+          "code": "ODETTE0812",
+          "added": "2026-08-01",
+          "amount": 100,
+          "currency": "Primogems"
+        },
+        {
           "code": "LEGEDILJKSGM",
-          "added": "2026-07-29",
+          "added": "2026-08-01",
           "amount": 60,
+          "currency": "Primogems"
+        },
+        {
+          "code": "2BJ64QRZ7RT8",
+          "added": "2026-07-31",
+          "amount": 60,
+          "currency": "Primogems"
+        },
+        {
+          "code": "Everwinter",
+          "added": "2026-07-31",
+          "amount": 100,
+          "currency": "Primogems"
+        },
+        {
+          "code": "Odettte0812",
+          "added": "2026-07-31",
+          "amount": 100,
           "currency": "Primogems"
         }
       ]
@@ -365,7 +389,7 @@
         "remaining": {
           "startsAt": "2026-07-15T03:00:00.000Z",
           "endsAt": "2026-08-05T03:59:00.000Z",
-          "durationSeconds": 287594
+          "durationSeconds": 284132
         },
         "characters": [
           {
@@ -783,31 +807,31 @@
       "codes": [
         {
           "code": "5S6ZHRWTDNJB",
-          "added": "2026-07-29",
+          "added": "2026-08-01",
           "amount": 60,
           "currency": "Stellar Jade"
         },
         {
           "code": "4TKSX77Y58QK",
-          "added": "2026-07-29",
+          "added": "2026-08-01",
           "amount": 30,
           "currency": "Stellar Jade"
         },
         {
           "code": "CREATIONNYMPH",
-          "added": "2026-07-29",
+          "added": "2026-08-01",
           "amount": 60,
           "currency": "Stellar Jade"
         },
         {
           "code": "FAREWELL",
-          "added": "2026-07-29",
+          "added": "2026-08-01",
           "amount": 60,
           "currency": "Stellar Jade"
         },
         {
           "code": "IFYOUAREREADINGTHIS",
-          "added": "2026-07-29",
+          "added": "2026-08-01",
           "amount": 60,
           "currency": "Stellar Jade"
         }
@@ -823,7 +847,7 @@
         "remaining": {
           "startsAt": "2026-07-29T03:00:00.000Z",
           "endsAt": "2026-08-19T03:59:59.000Z",
-          "durationSeconds": 1497253
+          "durationSeconds": 1493791
         },
         "characters": [
           {
@@ -1128,32 +1152,20 @@
       ],
       "codes": [
         {
-          "code": "ROSCAELIFER0617",
-          "added": "2026-07-29",
-          "amount": 30,
-          "currency": "Polychrome"
-        },
-        {
           "code": "ZENLESSGIFT",
-          "added": "2026-07-29",
+          "added": "2026-08-01",
           "amount": 50,
           "currency": "Polychrome"
         },
         {
-          "code": "ZZZ30BANGBOO",
-          "added": "2026-07-29",
-          "amount": 60,
-          "currency": "Polychrome"
-        },
-        {
-          "code": "ZZZSEASON3",
-          "added": "2026-07-29",
+          "code": "ZZZ2YEAR",
+          "added": "2026-07-23",
           "amount": 50,
           "currency": "Polychrome"
         },
         {
-          "code": "ZZZSTEAM",
-          "added": "2026-07-29",
+          "code": "ZZZ31REMIELLE",
+          "added": "2026-07-23",
           "amount": 60,
           "currency": "Polychrome"
         }
@@ -1169,7 +1181,7 @@
         "remaining": {
           "startsAt": "2026-07-30T09:00:00.000Z",
           "endsAt": "2026-08-19T10:59:00.000Z",
-          "durationSeconds": 1522394
+          "durationSeconds": 1518932
         },
         "characters": [
           {
@@ -1484,7 +1496,7 @@
         "remaining": {
           "startsAt": "2026-07-16T04:00:00.000Z",
           "endsAt": "2026-08-09T03:59:59.000Z",
-          "durationSeconds": 633253
+          "durationSeconds": 629791
         },
         "characters": [
           {

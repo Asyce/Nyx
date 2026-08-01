@@ -4,9 +4,9 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-08-01T20:05:43.446Z",
+  "generatedAt": "2026-08-01T21:03:24.995Z",
   "codes": {
-    "updated": "2026-07-29T12:07:42.286Z",
+    "updated": "2026-08-01T21:03:08.107Z",
     "maxAgeDays": 28,
     "games": {
       "gi": [
@@ -19,10 +19,94 @@ var NYX_DB = {
             "needle": "primogem",
             "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
           },
-          "added": "2026-07-29",
+          "added": "2026-08-01",
           "firstSeen": "2026-07-05T17:19:20.440Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=LEGEDILJKSGM",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=LEGEDILJKSGM"
+        },
+        {
+          "code": "ODETTE0812",
+          "reward": "Primogem x 100, Mora x 50000",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Primogems",
+            "needle": "primogem",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
+          },
+          "added": "2026-08-01",
+          "firstSeen": "2026-08-01T21:03:08.107Z",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=ODETTE0812",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=ODETTE0812"
+        },
+        {
+          "code": "UIVIBUQM6Q8A",
+          "reward": "Mora x 10000, Adventurer's Experience x 10, Fine Enhancement Ore x 5, Jueyun Chili Chicken x 5, Stir-Fried Fish Noodles x 5",
+          "premium": false,
+          "premiumCurrency": {
+            "name": "Primogems",
+            "needle": "primogem",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
+          },
+          "added": "2026-08-01",
+          "firstSeen": "2026-08-01T21:03:08.107Z",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=UIVIBUQM6Q8A",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=UIVIBUQM6Q8A"
+        },
+        {
+          "code": "2BJ64QRZ7RT8",
+          "reward": "60 Primogem, 5 Adventurer's Experience",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Primogems",
+            "needle": "primogem",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
+          },
+          "added": "2026-07-31",
+          "firstSeen": "2026-08-01T21:03:08.107Z",
+          "sourceUrl": "https://www.crimsonwitch.com/codes/Genshin_Impact",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=2BJ64QRZ7RT8"
+        },
+        {
+          "code": "Everwinter",
+          "reward": "x100 Primogems and x10 Mystic Enchancement Ore",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Primogems",
+            "needle": "primogem",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
+          },
+          "added": "2026-07-31",
+          "firstSeen": "2026-08-01T21:03:08.107Z",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=Everwinter",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=Everwinter"
+        },
+        {
+          "code": "Odettte0812",
+          "reward": "x100 Primogems and x50,000 Mora",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Primogems",
+            "needle": "primogem",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
+          },
+          "added": "2026-07-31",
+          "firstSeen": "2026-08-01T21:03:08.107Z",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=Odettte0812",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=Odettte0812"
+        },
+        {
+          "code": "OntoSnezhnaya",
+          "reward": "x100 Primogems and x5 Hero S Wit",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Primogems",
+            "needle": "primogem",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
+          },
+          "added": "2026-07-31",
+          "firstSeen": "2026-08-01T21:03:08.107Z",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=OntoSnezhnaya",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=OntoSnezhnaya"
         },
         {
           "code": "UIVI13C8X156",
@@ -37,20 +121,6 @@ var NYX_DB = {
           "firstSeen": "2026-07-22T18:21:43.993Z",
           "sourceUrl": "https://www.crimsonwitch.com/codes/Genshin_Impact",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=UIVI13C8X156"
-        },
-        {
-          "code": "EZSB8889C2BZ",
-          "reward": "10k Mora, Ten Adventurer S Experience, Five Fine Enhancement Ore, Five Jueyun Chili Chicken, and Five Stir Fried Fish Noodles",
-          "premium": false,
-          "premiumCurrency": {
-            "name": "Primogems",
-            "needle": "primogem",
-            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
-          },
-          "added": "2026-07-03",
-          "firstSeen": "2026-07-21T19:50:38.169Z",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=EZSB8889C2BZ",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=EZSB8889C2BZ"
         }
       ],
       "hsr": [
@@ -63,7 +133,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-29",
+          "added": "2026-08-01",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=4TKSX77Y58QK",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=4TKSX77Y58QK"
@@ -77,7 +147,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-29",
+          "added": "2026-08-01",
           "firstSeen": "2026-07-15T09:16:06.610Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=5S6ZHRWTDNJB",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=5S6ZHRWTDNJB"
@@ -91,7 +161,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-29",
+          "added": "2026-08-01",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=CREATIONNYMPH",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=CREATIONNYMPH"
@@ -105,7 +175,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-29",
+          "added": "2026-08-01",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=FAREWELL",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=FAREWELL"
@@ -119,7 +189,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-29",
+          "added": "2026-08-01",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=IFYOUAREREADINGTHIS",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=IFYOUAREREADINGTHIS"
@@ -133,7 +203,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-29",
+          "added": "2026-08-01",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=OMEGA",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=OMEGA"
@@ -147,7 +217,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-29",
+          "added": "2026-08-01",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=STARRAILGIFT",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=STARRAILGIFT"
@@ -197,20 +267,6 @@ var NYX_DB = {
       ],
       "zzz": [
         {
-          "code": "ROSCAELIFER0617",
-          "reward": "Polychrome x 30",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Polychrome",
-            "needle": "polychrome",
-            "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
-          },
-          "added": "2026-07-29",
-          "firstSeen": "2026-07-05T17:19:07.479Z",
-          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ROSCAELIFER0617",
-          "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ROSCAELIFER0617"
-        },
-        {
           "code": "ZENLESSGIFT",
           "reward": "50 polychrome, two official investigator logs, three w-engine power supplies, and one bangboo algorithm module",
           "premium": true,
@@ -219,52 +275,10 @@ var NYX_DB = {
             "needle": "polychrome",
             "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
           },
-          "added": "2026-07-29",
+          "added": "2026-08-01",
           "firstSeen": "2026-07-05T17:19:07.479Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZENLESSGIFT",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZENLESSGIFT"
-        },
-        {
-          "code": "ZZZ30BANGBOO",
-          "reward": "Polychrome x 60, Denny x 6,666",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Polychrome",
-            "needle": "polychrome",
-            "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
-          },
-          "added": "2026-07-29",
-          "firstSeen": "2026-07-05T17:19:07.479Z",
-          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ30BANGBOO",
-          "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ30BANGBOO"
-        },
-        {
-          "code": "ZZZSEASON3",
-          "reward": "Polychrome x 50",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Polychrome",
-            "needle": "polychrome",
-            "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
-          },
-          "added": "2026-07-29",
-          "firstSeen": "2026-07-05T17:19:07.479Z",
-          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSEASON3",
-          "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSEASON3"
-        },
-        {
-          "code": "ZZZSTEAM",
-          "reward": "60 polychrome, two w",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Polychrome",
-            "needle": "polychrome",
-            "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
-          },
-          "added": "2026-07-29",
-          "firstSeen": "2026-07-05T17:19:07.479Z",
-          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSTEAM",
-          "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSTEAM"
         },
         {
           "code": "ZZZMEIJI",
@@ -4336,10 +4350,94 @@ var NYX_DB = {
             "needle": "primogem",
             "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
           },
-          "added": "2026-07-29",
+          "added": "2026-08-01",
           "firstSeen": "2026-07-05T17:19:20.440Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=LEGEDILJKSGM",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=LEGEDILJKSGM"
+        },
+        {
+          "code": "ODETTE0812",
+          "reward": "Primogem x 100, Mora x 50000",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Primogems",
+            "needle": "primogem",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
+          },
+          "added": "2026-08-01",
+          "firstSeen": "2026-08-01T21:03:08.107Z",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=ODETTE0812",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=ODETTE0812"
+        },
+        {
+          "code": "UIVIBUQM6Q8A",
+          "reward": "Mora x 10000, Adventurer's Experience x 10, Fine Enhancement Ore x 5, Jueyun Chili Chicken x 5, Stir-Fried Fish Noodles x 5",
+          "premium": false,
+          "premiumCurrency": {
+            "name": "Primogems",
+            "needle": "primogem",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
+          },
+          "added": "2026-08-01",
+          "firstSeen": "2026-08-01T21:03:08.107Z",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=UIVIBUQM6Q8A",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=UIVIBUQM6Q8A"
+        },
+        {
+          "code": "2BJ64QRZ7RT8",
+          "reward": "60 Primogem, 5 Adventurer's Experience",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Primogems",
+            "needle": "primogem",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
+          },
+          "added": "2026-07-31",
+          "firstSeen": "2026-08-01T21:03:08.107Z",
+          "sourceUrl": "https://www.crimsonwitch.com/codes/Genshin_Impact",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=2BJ64QRZ7RT8"
+        },
+        {
+          "code": "Everwinter",
+          "reward": "x100 Primogems and x10 Mystic Enchancement Ore",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Primogems",
+            "needle": "primogem",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
+          },
+          "added": "2026-07-31",
+          "firstSeen": "2026-08-01T21:03:08.107Z",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=Everwinter",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=Everwinter"
+        },
+        {
+          "code": "Odettte0812",
+          "reward": "x100 Primogems and x50,000 Mora",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Primogems",
+            "needle": "primogem",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
+          },
+          "added": "2026-07-31",
+          "firstSeen": "2026-08-01T21:03:08.107Z",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=Odettte0812",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=Odettte0812"
+        },
+        {
+          "code": "OntoSnezhnaya",
+          "reward": "x100 Primogems and x5 Hero S Wit",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Primogems",
+            "needle": "primogem",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
+          },
+          "added": "2026-07-31",
+          "firstSeen": "2026-08-01T21:03:08.107Z",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=OntoSnezhnaya",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=OntoSnezhnaya"
         },
         {
           "code": "UIVI13C8X156",
@@ -4354,20 +4452,6 @@ var NYX_DB = {
           "firstSeen": "2026-07-22T18:21:43.993Z",
           "sourceUrl": "https://www.crimsonwitch.com/codes/Genshin_Impact",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=UIVI13C8X156"
-        },
-        {
-          "code": "EZSB8889C2BZ",
-          "reward": "10k Mora, Ten Adventurer S Experience, Five Fine Enhancement Ore, Five Jueyun Chili Chicken, and Five Stir Fried Fish Noodles",
-          "premium": false,
-          "premiumCurrency": {
-            "name": "Primogems",
-            "needle": "primogem",
-            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
-          },
-          "added": "2026-07-03",
-          "firstSeen": "2026-07-21T19:50:38.169Z",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=EZSB8889C2BZ",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=EZSB8889C2BZ"
         }
       ],
       "banners": {
@@ -150738,7 +150822,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-29",
+          "added": "2026-08-01",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=4TKSX77Y58QK",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=4TKSX77Y58QK"
@@ -150752,7 +150836,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-29",
+          "added": "2026-08-01",
           "firstSeen": "2026-07-15T09:16:06.610Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=5S6ZHRWTDNJB",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=5S6ZHRWTDNJB"
@@ -150766,7 +150850,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-29",
+          "added": "2026-08-01",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=CREATIONNYMPH",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=CREATIONNYMPH"
@@ -150780,7 +150864,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-29",
+          "added": "2026-08-01",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=FAREWELL",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=FAREWELL"
@@ -150794,7 +150878,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-29",
+          "added": "2026-08-01",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=IFYOUAREREADINGTHIS",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=IFYOUAREREADINGTHIS"
@@ -150808,7 +150892,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-29",
+          "added": "2026-08-01",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=OMEGA",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=OMEGA"
@@ -150822,7 +150906,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-29",
+          "added": "2026-08-01",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=STARRAILGIFT",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=STARRAILGIFT"
@@ -156350,20 +156434,6 @@ var NYX_DB = {
       ],
       "codes": [
         {
-          "code": "ROSCAELIFER0617",
-          "reward": "Polychrome x 30",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Polychrome",
-            "needle": "polychrome",
-            "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
-          },
-          "added": "2026-07-29",
-          "firstSeen": "2026-07-05T17:19:07.479Z",
-          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ROSCAELIFER0617",
-          "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ROSCAELIFER0617"
-        },
-        {
           "code": "ZENLESSGIFT",
           "reward": "50 polychrome, two official investigator logs, three w-engine power supplies, and one bangboo algorithm module",
           "premium": true,
@@ -156372,52 +156442,10 @@ var NYX_DB = {
             "needle": "polychrome",
             "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
           },
-          "added": "2026-07-29",
+          "added": "2026-08-01",
           "firstSeen": "2026-07-05T17:19:07.479Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZENLESSGIFT",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZENLESSGIFT"
-        },
-        {
-          "code": "ZZZ30BANGBOO",
-          "reward": "Polychrome x 60, Denny x 6,666",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Polychrome",
-            "needle": "polychrome",
-            "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
-          },
-          "added": "2026-07-29",
-          "firstSeen": "2026-07-05T17:19:07.479Z",
-          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ30BANGBOO",
-          "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ30BANGBOO"
-        },
-        {
-          "code": "ZZZSEASON3",
-          "reward": "Polychrome x 50",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Polychrome",
-            "needle": "polychrome",
-            "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
-          },
-          "added": "2026-07-29",
-          "firstSeen": "2026-07-05T17:19:07.479Z",
-          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSEASON3",
-          "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSEASON3"
-        },
-        {
-          "code": "ZZZSTEAM",
-          "reward": "60 polychrome, two w",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Polychrome",
-            "needle": "polychrome",
-            "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
-          },
-          "added": "2026-07-29",
-          "firstSeen": "2026-07-05T17:19:07.479Z",
-          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSTEAM",
-          "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSTEAM"
         },
         {
           "code": "ZZZMEIJI",

@@ -1,75 +1,87 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-29T12:07:42.286Z",
+  "generatedAt": "2026-08-01T21:03:08.107Z",
   "games": {
     "gi": [
       {
+        "code": "ODETTE0812",
+        "added": "2026-08-01",
+        "amount": 100,
+        "currency": "Primogems"
+      },
+      {
         "code": "LEGEDILJKSGM",
-        "added": "2026-07-29",
+        "added": "2026-08-01",
         "amount": 60,
+        "currency": "Primogems"
+      },
+      {
+        "code": "2BJ64QRZ7RT8",
+        "added": "2026-07-31",
+        "amount": 60,
+        "currency": "Primogems"
+      },
+      {
+        "code": "Everwinter",
+        "added": "2026-07-31",
+        "amount": 100,
+        "currency": "Primogems"
+      },
+      {
+        "code": "Odettte0812",
+        "added": "2026-07-31",
+        "amount": 100,
         "currency": "Primogems"
       }
     ],
     "hsr": [
       {
         "code": "5S6ZHRWTDNJB",
-        "added": "2026-07-29",
+        "added": "2026-08-01",
         "amount": 60,
         "currency": "Stellar Jade"
       },
       {
         "code": "4TKSX77Y58QK",
-        "added": "2026-07-29",
+        "added": "2026-08-01",
         "amount": 30,
         "currency": "Stellar Jade"
       },
       {
         "code": "CREATIONNYMPH",
-        "added": "2026-07-29",
+        "added": "2026-08-01",
         "amount": 60,
         "currency": "Stellar Jade"
       },
       {
         "code": "FAREWELL",
-        "added": "2026-07-29",
+        "added": "2026-08-01",
         "amount": 60,
         "currency": "Stellar Jade"
       },
       {
         "code": "IFYOUAREREADINGTHIS",
-        "added": "2026-07-29",
+        "added": "2026-08-01",
         "amount": 60,
         "currency": "Stellar Jade"
       }
     ],
     "zzz": [
       {
-        "code": "ROSCAELIFER0617",
-        "added": "2026-07-29",
-        "amount": 30,
-        "currency": "Polychrome"
-      },
-      {
         "code": "ZENLESSGIFT",
-        "added": "2026-07-29",
+        "added": "2026-08-01",
         "amount": 50,
         "currency": "Polychrome"
       },
       {
-        "code": "ZZZ30BANGBOO",
-        "added": "2026-07-29",
-        "amount": 60,
-        "currency": "Polychrome"
-      },
-      {
-        "code": "ZZZSEASON3",
-        "added": "2026-07-29",
+        "code": "ZZZ2YEAR",
+        "added": "2026-07-23",
         "amount": 50,
         "currency": "Polychrome"
       },
       {
-        "code": "ZZZSTEAM",
-        "added": "2026-07-29",
+        "code": "ZZZ31REMIELLE",
+        "added": "2026-07-23",
         "amount": 60,
         "currency": "Polychrome"
       }
@@ -84,5 +96,5 @@
       }
     ]
   },
-  "revision": "71787390f732abfd7ba8bf6cfc5781777aaf31b687eb2a7813b1ad8feae0fb04"
+  "revision": "a702b5465c0cfb9ba0ed7820a92c630fde428c6ae7fc3f1f1330da7148a30d37"
 }

@@ -43,14 +43,19 @@ test('every scheduled deploy pushes the exact commit before publishing R2 manife
 test('manual rollout never mutates repository variables and has mode-aware rollback paths', async () => {
   const source = await fs.readFile(path.resolve(workflowDir, 'r2-database-reconcile.yml'), 'utf8');
   assert.doesNotMatch(source, /github\.token|gh variable set|actions:\s*write/);
-  assert.doesNotMatch(source, /npm run (?:build:deploy|smoke:deploy)(?:\s|&&|$)/m);
-  assert.match(source, /npm run build:deploy:generated/);
-  assert.match(source, /npm run smoke:deploy:generated/);
+  assert.match(source, /permissions:\s*\n\s*contents: write/);
+  assert.match(source, /id: launcher_snapshot/);
+  assert.match(source, /npm run generate:data && npm run refresh:launcher/);
+  assert.match(source, /PENGO_DEPLOY_COMMIT: \$\{\{ steps\.launcher_snapshot\.outputs\.sha \}\}/);
+  assert.doesNotMatch(source, /npm run (?:build:deploy|smoke:deploy):generated/);
+  assert.match(source, /npm run build:deploy/);
+  assert.match(source, /npm run smoke:deploy/);
+  assert(source.indexOf('git push') < source.indexOf('- name: Additively reconcile Database assets and manifests'));
   for (const id of ['deploy_dual', 'verify_dual', 'restore_local', 'deploy_r2', 'verify_r2', 'restore_dual', 'rollback_r2']) {
     assert.match(source, new RegExp(`id: ${id}\\b`));
   }
   assert.match(source, /DATABASE_ASSET_MODE: \$\{\{ vars\.DATABASE_ASSET_MODE \|\| 'local' \}\}/);
-  for (const name of ['Build exact dual deploy artifact', 'Smoke exact dual deploy artifact', 'Deploy exact dual artifact', 'Live-check dual rollout']) {
+  for (const name of ['Build exact dual deploy artifact', 'Smoke exact dual deploy artifact', 'Deploy to Cloudflare exact dual artifact', 'Live-check dual rollout']) {
     const block = source.match(new RegExp(`- name: ${name}[\\s\\S]*?(?=\\n      - name:)`))?.[0] || '';
     assert.match(block, /env\.DATABASE_ASSET_MODE != 'r2-only'/);
   }

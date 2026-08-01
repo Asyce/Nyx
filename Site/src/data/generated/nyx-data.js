@@ -4,7 +4,7 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-07-29T21:29:53.335Z",
+  "generatedAt": "2026-08-01T19:49:48.059Z",
   "codes": {
     "updated": "2026-07-29T12:07:42.286Z",
     "maxAgeDays": 28,
@@ -509,32 +509,7 @@ var NYX_DB = {
           ],
           "subBanners": []
         },
-        "next": {
-          "phase": null,
-          "start": "2026-07-30T10:00:00.000Z",
-          "end": "2026-08-19T10:00:00.000Z",
-          "characters": [
-            {
-              "name": "Suisui",
-              "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_71_UI.webp",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleSuisui.webp",
-              "namecard": null,
-              "rarity": 5
-            },
-            {
-              "name": "Aemeath",
-              "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_53_UI.webp",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleAimisi.webp",
-              "namecard": null,
-              "rarity": 5
-            }
-          ],
-          "subBanners": []
-        },
+        "next": null,
         "upcoming": []
       },
       "zzz": {
@@ -161362,32 +161337,7 @@ var NYX_DB = {
           ],
           "subBanners": []
         },
-        "next": {
-          "phase": null,
-          "start": "2026-07-30T10:00:00.000Z",
-          "end": "2026-08-19T10:00:00.000Z",
-          "characters": [
-            {
-              "name": "Suisui",
-              "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_71_UI.webp",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleSuisui.webp",
-              "namecard": null,
-              "rarity": 5
-            },
-            {
-              "name": "Aemeath",
-              "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_53_UI.webp",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleAimisi.webp",
-              "namecard": null,
-              "rarity": 5
-            }
-          ],
-          "subBanners": []
-        },
+        "next": null,
         "upcoming": []
       },
       "roster": [

@@ -16,7 +16,7 @@ concurrency:
   cancel-in-progress: false
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   reconcile:
@@ -45,40 +45,69 @@ jobs:
         working-directory: Site
         run: npm ci --no-audit --no-fund
 
-      - name: Record exact main commit
-        id: commit
-        shell: bash
-        run: echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+      - name: Refresh committed launcher snapshot
+        working-directory: Site
+        run: npm run generate:data && npm run refresh:launcher
+
+      - name: Commit refreshed launcher snapshot
+        id: launcher_snapshot
+        run: |
+          git config user.name "pengo-bot"
+          git config user.email "bot@pengo.gg"
+          git add Site/src/data/generated/nyx-data.js Site/src/data/generated/launcher-codes-v1.json Site/src/data/generated/launcher-banners-v1.json
+          git add -A Site/src/data/generated/launcher-art
+          if ! git diff --cached --quiet; then
+            git commit -m "chore(data): refresh launcher snapshot for R2 reconcile [skip ci]"
+          fi
+          echo "fresh=true" >> "$GITHUB_OUTPUT"
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
 
       - name: Test migration controls
         working-directory: Site
         run: npm run test:database-assets
 
       - name: Build exact dual deploy artifact
-        if: ${{ env.DATABASE_ASSET_MODE != 'r2-only' }}
+        if: ${{ steps.launcher_snapshot.outputs.fresh == 'true' && env.DATABASE_ASSET_MODE != 'r2-only' }}
         working-directory: Site
         env:
-          PENGO_DEPLOY_COMMIT: ${{ steps.commit.outputs.sha }}
+          PENGO_DEPLOY_COMMIT: ${{ steps.launcher_snapshot.outputs.sha }}
           PENGO_DATABASE_ASSET_MODE: dual
-        run: npm run build:deploy:generated
+        run: npm run build:deploy
 
       - name: Smoke exact dual deploy artifact
-        if: ${{ env.DATABASE_ASSET_MODE != 'r2-only' }}
+        if: ${{ steps.launcher_snapshot.outputs.fresh == 'true' && env.DATABASE_ASSET_MODE != 'r2-only' }}
         working-directory: Site
-        run: npm run smoke:deploy:generated
+        run: npm run smoke:deploy
+
+      - name: Build exact current R2-only artifact
+        if: ${{ steps.launcher_snapshot.outputs.fresh == 'true' && env.DATABASE_ASSET_MODE == 'r2-only' }}
+        working-directory: Site
+        env:
+          PENGO_DEPLOY_COMMIT: ${{ steps.launcher_snapshot.outputs.sha }}
+          PENGO_DATABASE_ASSET_MODE: r2-only
+        run: npm run build:deploy
+
+      - name: Smoke exact current R2-only artifact
+        if: ${{ steps.launcher_snapshot.outputs.fresh == 'true' && env.DATABASE_ASSET_MODE == 'r2-only' }}
+        working-directory: Site
+        run: npm run smoke:deploy
+
+      - name: Push verified launcher snapshot
+        if: ${{ steps.launcher_snapshot.outputs.fresh == 'true' }}
+        run: git push
 
       - name: Additively reconcile Database assets and manifests
         working-directory: Site
         env:
-          PENGO_DEPLOY_COMMIT: ${{ steps.commit.outputs.sha }}
+          PENGO_DEPLOY_COMMIT: ${{ steps.launcher_snapshot.outputs.sha }}
           R2_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
           R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
           R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
         run: npm run sync:database-assets:r2 -- --apply --verify-all
 
-      - name: Deploy exact dual artifact
+      - name: Deploy to Cloudflare exact dual artifact
         id: deploy_dual
-        if: ${{ env.DATABASE_ASSET_MODE != 'r2-only' }}
+        if: ${{ steps.launcher_snapshot.outputs.fresh == 'true' && env.DATABASE_ASSET_MODE != 'r2-only' }}
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         run: npx --yes wrangler deploy
@@ -88,7 +117,7 @@ jobs:
         if: ${{ env.DATABASE_ASSET_MODE != 'r2-only' }}
         working-directory: Site
         env:
-          PENGO_DEPLOY_COMMIT: ${{ steps.commit.outputs.sha }}
+          PENGO_DEPLOY_COMMIT: ${{ steps.launcher_snapshot.outputs.sha }}
           PENGO_LIVE_CHECK_CONCURRENCY: "24"
         run: node ./tools/live-check-database-assets.mjs --full
 
@@ -99,12 +128,12 @@ jobs:
         if: ${{ failure() && env.DATABASE_ASSET_MODE != 'r2-only' && (steps.deploy_dual.outcome == 'failure' || (steps.deploy_dual.outcome == 'success' && steps.verify_dual.outcome != 'success')) }}
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          PENGO_DEPLOY_COMMIT: ${{ steps.commit.outputs.sha }}
+          PENGO_DEPLOY_COMMIT: ${{ steps.launcher_snapshot.outputs.sha }}
           PENGO_DATABASE_ASSET_MODE: local
         run: |
           cd Site
-          npm run build:deploy:generated
-          npm run smoke:deploy:generated
+          npm run build:deploy
+          npm run smoke:deploy
           cd ..
           npx --yes wrangler deploy
 
@@ -112,13 +141,13 @@ jobs:
         if: ${{ inputs.cutover_to_r2_only || env.DATABASE_ASSET_MODE == 'r2-only' }}
         working-directory: Site
         env:
-          PENGO_DEPLOY_COMMIT: ${{ steps.commit.outputs.sha }}
+          PENGO_DEPLOY_COMMIT: ${{ steps.launcher_snapshot.outputs.sha }}
           PENGO_DATABASE_ASSET_MODE: r2-only
-        run: npm run build:deploy:generated && npm run smoke:deploy:generated
+        run: npm run build:deploy && npm run smoke:deploy
 
       - name: Deploy exact R2-only artifact
         id: deploy_r2
-        if: ${{ inputs.cutover_to_r2_only || env.DATABASE_ASSET_MODE == 'r2-only' }}
+        if: ${{ steps.launcher_snapshot.outputs.fresh == 'true' && (inputs.cutover_to_r2_only || env.DATABASE_ASSET_MODE == 'r2-only') }}
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         run: npx --yes wrangler deploy
@@ -128,7 +157,7 @@ jobs:
         if: ${{ inputs.cutover_to_r2_only || env.DATABASE_ASSET_MODE == 'r2-only' }}
         working-directory: Site
         env:
-          PENGO_DEPLOY_COMMIT: ${{ steps.commit.outputs.sha }}
+          PENGO_DEPLOY_COMMIT: ${{ steps.launcher_snapshot.outputs.sha }}
         run: node ./tools/live-check-database-assets.mjs --full
 
       - name: Restore verified dual artifact after a failed cutover
@@ -136,12 +165,12 @@ jobs:
         if: ${{ failure() && env.DATABASE_ASSET_MODE != 'r2-only' && (steps.deploy_r2.outcome == 'failure' || (steps.deploy_r2.outcome == 'success' && steps.verify_r2.outcome != 'success')) }}
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          PENGO_DEPLOY_COMMIT: ${{ steps.commit.outputs.sha }}
+          PENGO_DEPLOY_COMMIT: ${{ steps.launcher_snapshot.outputs.sha }}
           PENGO_DATABASE_ASSET_MODE: dual
         run: |
           cd Site
-          npm run build:deploy:generated
-          npm run smoke:deploy:generated
+          npm run build:deploy
+          npm run smoke:deploy
           cd ..
           npx --yes wrangler deploy
 

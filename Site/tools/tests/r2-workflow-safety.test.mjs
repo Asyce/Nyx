@@ -53,6 +53,19 @@ test('manual rollout never mutates repository variables and has mode-aware rollb
   assert(source.indexOf('git push') < source.indexOf('- name: Additively reconcile Database assets and manifests'));
   const currentR2Smoke = source.match(/- name: Smoke exact current R2-only artifact[\s\S]*?(?=\n      - name:)/)?.[0] || '';
   assert.match(currentR2Smoke, /PENGO_DATABASE_ASSET_MODE: r2-only/);
+  const audit = source.indexOf('- name: Additively reconcile Database assets and manifests');
+  const refreshAfterAudit = source.indexOf('- name: Refresh deployment launcher snapshot after R2 audit');
+  const deploymentCommit = source.indexOf('id: deployment_snapshot');
+  const finalR2Build = source.indexOf('- name: Build and smoke exact R2-only artifact');
+  const finalPush = source.indexOf('- name: Push verified deployment launcher snapshot');
+  const firstDeploy = source.indexOf('- name: Deploy to Cloudflare exact dual artifact');
+  assert(audit >= 0 && refreshAfterAudit > audit, 'launcher freshness is renewed after the exhaustive R2 audit');
+  assert(deploymentCommit > refreshAfterAudit, 'the post-audit launcher snapshot is committed');
+  assert(finalR2Build > deploymentCommit, 'the exact deployment artifact uses the post-audit snapshot');
+  assert(finalPush > finalR2Build && firstDeploy > finalPush, 'the verified post-audit snapshot is pushed before deployment');
+  const finalR2Block = source.match(/- name: Build and smoke exact R2-only artifact[\s\S]*?(?=\n      - name:)/)?.[0] || '';
+  assert.match(finalR2Block, /PENGO_DEPLOY_COMMIT: \$\{\{ steps\.deployment_snapshot\.outputs\.sha \}\}/);
+  assert.match(finalR2Block, /PENGO_DATABASE_ASSET_MODE: r2-only/);
   for (const id of ['deploy_dual', 'verify_dual', 'restore_local', 'deploy_r2', 'verify_r2', 'restore_dual', 'rollback_r2']) {
     assert.match(source, new RegExp(`id: ${id}\\b`));
   }

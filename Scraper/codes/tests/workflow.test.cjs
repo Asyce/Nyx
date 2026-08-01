@@ -11,7 +11,7 @@ const workflow = fs.readFileSync(
   'utf8',
 );
 
-test('code watch verifies every automated commit before its only push', () => {
+test('code watch verifies every automated commit before each push', () => {
   const livestreamCommit = workflow.indexOf('git commit -m "chore(codes): update livestream windows [skip ci]"');
   const codesCommit = workflow.indexOf('git commit -m "chore(data): codes watch refresh [skip ci]"');
   const refresh = workflow.indexOf('- name: Refresh committed launcher snapshot');
@@ -19,6 +19,8 @@ test('code watch verifies every automated commit before its only push', () => {
   const build = workflow.indexOf('- name: Build site');
   const smoke = workflow.indexOf('- name: Smoke deploy artifact');
   const push = workflow.indexOf('- name: Push verified changes');
+  const finalSmoke = workflow.indexOf('- name: Smoke exact final deployment artifact');
+  const finalPush = workflow.indexOf('- name: Push exact final deployment snapshot');
   const deploy = workflow.indexOf('- name: Deploy to Cloudflare');
   const pushCommands = workflow.match(/\bgit push\b/g) || [];
   const freshCondition = "if: ${{ steps.launcher_snapshot.outputs.fresh == 'true' }}";
@@ -30,8 +32,9 @@ test('code watch verifies every automated commit before its only push', () => {
   assert(snapshot >= 0 && snapshot < build);
   assert(build >= 0 && build < smoke);
   assert(smoke >= 0 && smoke < push);
-  assert(push >= 0 && push < deploy);
-  assert.equal(pushCommands.length, 1, 'workflow must have one push after verification');
+  assert(push >= 0 && push < finalSmoke);
+  assert(finalSmoke < finalPush && finalPush < deploy);
+  assert.equal(pushCommands.length, 2, 'workflow must verify both the pre-sync and final deployment pushes');
 
   for (const name of verifiedSteps) {
     const start = workflow.indexOf('- name: ' + name);
@@ -41,7 +44,7 @@ test('code watch verifies every automated commit before its only push', () => {
     assert(condition > start && (end < 0 || condition < end), name + ' must require a fresh committed launcher snapshot');
   }
   const deployBlock = workflow.slice(deploy, workflow.indexOf('\n        run:', deploy));
-  assert.match(deployBlock, /steps\.launcher_snapshot\.outputs\.fresh == 'true'/);
+  assert.match(deployBlock, /steps\.deployment_snapshot\.outputs\.fresh == 'true'/);
   assert.match(deployBlock, /steps\.changes\.outputs\.changed == 'true'/);
 });
 
@@ -85,12 +88,14 @@ test('every scheduled publishing workflow pushes only after a deploy smoke test'
   for (const file of workflows) {
     const source = fs.readFileSync(path.join(root, '.github/workflows', file), 'utf8');
     const pushes = [...source.matchAll(/\bgit push\b/g)];
-    assert.equal(pushes.length, 1, `${file} must have exactly one push`);
-    const push = pushes[0].index;
-    const smoke = source.lastIndexOf('npm run smoke:deploy', push);
-    const deploy = source.indexOf('wrangler deploy', push);
-    assert(smoke >= 0 && smoke < push, `${file} must smoke-test before push`);
-    assert(deploy < 0 || push < deploy, `${file} must push before deploy`);
+    assert.equal(pushes.length, 2, `${file} must push the verified pre-sync commit and the exact final deployment commit`);
+    for (const match of pushes) {
+      const smoke = source.lastIndexOf('npm run smoke:deploy', match.index);
+      assert(smoke >= 0 && smoke < match.index, `${file} must smoke-test before each push`);
+    }
+    const finalPush = pushes.at(-1).index;
+    const deploy = source.indexOf('wrangler deploy', finalPush);
+    assert(deploy < 0 || finalPush < deploy, `${file} must push the exact final commit before deploy`);
   }
 });
 
@@ -142,7 +147,7 @@ test('every production deploy requires a freshly committed launcher snapshot', (
   assert.ok(workflows.length > 0, 'expected at least one production deploy workflow');
   for (const file of workflows) {
     const source = fs.readFileSync(path.join(workflowDir, file), 'utf8');
-    const snapshotId = file === 'r2-database-reconcile.yml' ? 'deployment_snapshot' : 'launcher_snapshot';
+    const snapshotId = source.includes('id: deployment_snapshot') ? 'deployment_snapshot' : 'launcher_snapshot';
     const snapshot = source.indexOf(`id: ${snapshotId}`);
     const refresh = Math.max(
       source.lastIndexOf('npm run refresh:launcher', snapshot),

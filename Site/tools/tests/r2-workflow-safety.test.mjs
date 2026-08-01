@@ -36,7 +36,18 @@ test('every scheduled deploy pushes the exact commit before publishing R2 manife
     const syncBlock = source.slice(sync, deploy);
     assert.match(syncBlock, /env\.DATABASE_ASSET_MODE != 'local'/);
     const deployBlock = source.slice(deploy);
-    assert.match(deployBlock, /env\.DATABASE_ASSET_MODE == 'local' \|\| steps\.r2_sync\.outputs\.ready == 'true'/);
+    assert.match(deployBlock, /steps\.deployment_snapshot\.outputs\.fresh == 'true'/);
+    const finalRefresh = source.indexOf('- name: Refresh final deployment launcher snapshot');
+    const finalCommit = source.indexOf('id: deployment_snapshot');
+    const finalBuild = source.indexOf('- name: Build exact final deployment artifact');
+    const finalSmoke = source.indexOf('- name: Smoke exact final deployment artifact');
+    const finalPush = source.indexOf('- name: Push exact final deployment snapshot');
+    assert(finalRefresh > sync, `${name} renews launcher freshness after the potentially slow R2 sync`);
+    assert(finalCommit > finalRefresh && finalBuild > finalCommit && finalSmoke > finalBuild, `${name} commits, builds, and smokes the renewed snapshot`);
+    assert(finalPush > finalSmoke && deploy > finalPush, `${name} pushes the exact renewed snapshot before deployment`);
+    const finalBuildBlock = source.slice(finalBuild, finalSmoke);
+    assert.match(finalBuildBlock, /PENGO_DEPLOY_COMMIT: \$\{\{ steps\.deployment_snapshot\.outputs\.sha \}\}/);
+    assert.match(finalBuildBlock, /PENGO_DATABASE_ASSET_MODE: \$\{\{ vars\.DATABASE_ASSET_MODE \|\| 'local' \}\}/);
     const smokeBlocks = source.match(/- name: Smoke[^\n]*[\s\S]*?(?=\n      - name:)/g) || [];
     assert(smokeBlocks.length > 0, `${name} has a deploy smoke step`);
     for (const block of smokeBlocks.filter((entry) => entry.includes('smoke:deploy'))) {

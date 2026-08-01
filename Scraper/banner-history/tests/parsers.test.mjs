@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { mergeEndfieldOfficialWindow, parseEndfieldYear, parseFandomRun, parseGryphlineOfficial, parseKuroOfficial } from '../sources.mjs';
+import { mergeEndfieldOfficialWindow, mergeKuroOfficialFallbacks, parseEndfieldYear, parseFandomRun, parseGryphlineOfficial, parseKuroOfficial, parseKuroOfficialBanners } from '../sources.mjs';
 
 const cases = [
   ['gi','Wish','Wish Pool','Character Event','character_5_F','character_4_F','Hero','Friend'],
@@ -31,6 +31,32 @@ test('official Kuro and Gryphline extractors are deterministic', () => {
   assert.equal(kuro.id, '4916'); assert.equal(kuro.start, '2026-06-18T02:00:00.000Z'); assert.equal(kuro.end, '2026-07-09T03:59:00.000Z');
   const gryph = parseGryphlineOfficial({cid:758,title:'Update',data:'<p>“Fists of No Regrets” Headhunting 2026/06/05 12:00</p>'});
   assert.deepEqual(gryph.bannerNames, ['Fists of No Regrets']); assert.equal(gryph.dates.length, 1);
+});
+
+test('official Kuro banner notices fill a current wiki rollover gap without guessing dates', () => {
+  const records = parseKuroOfficialBanners({
+    articleId: 5220,
+    articleTitle: '[Version 3.5 Featured Resonator/Weapon Convene: Phase II]',
+    articleContent: '[Take Flight in Spring] Featured Resonator Convene During the event, 5-Star Resonator: Aemeath, 4-Star Resonators: Baizhi, Mortefi, and Lumi receive boosted drop rates! Duration 2026-07-30 10:00 - 2026-08-19 11:59 (server time) [Everbright Polestar] Featured Weapon Convene During the event, 5-Star Weapon: Everbright Polestar, 4-Star Weapons: Variation, Endless Collapse, and Relativistic Jet receive boosted drop rates! Duration 2026-07-30 10:00 - 2026-08-19 11:59 (server time)',
+  }, { fetchedAt: '2026-08-01T00:00:00.000Z' });
+  assert.equal(records.length, 2);
+  assert.equal(records[0].version, '3.5');
+  assert.equal(records[0].featured[0].name, 'Aemeath');
+  assert.deepEqual(records[0].featured.slice(1).map((row) => row.name), ['Baizhi', 'Mortefi', 'Lumi']);
+  assert.equal(records[0].windowsByRegion.asia.start, '2026-07-30T02:00:00.000Z');
+  assert.equal(records[0].windowsByRegion.europe.start, '2026-07-30T09:00:00.000Z');
+  assert.equal(records[0].source.url, 'https://wutheringwaves.kurogames.com/en/main/news/detail/5220');
+  assert.equal(records[0].confirmed, true);
+
+  const wikiRecord = { ...structuredClone(records[0]), version: undefined, source: { url: 'https://wutheringwaves.fandom.com/wiki/Take_Flight_in_Spring/2026-07-30', kind: 'maintained-wiki', revision: 7 } };
+  mergeKuroOfficialFallbacks([wikiRecord], records);
+  assert.equal(wikiRecord.version, '3.5', 'the exact official notice fills a missing wiki version');
+
+  assert.deepEqual(parseKuroOfficialBanners({
+    articleId: 5039,
+    articleTitle: '[Version 3.5 Featured Resonator/Weapon Convene: Phase I]',
+    articleContent: '[When Winter Thaws] Featured Resonator Convene During the event, 5-Star Resonator: Luuk Herssen, 4-Star Resonators: Danjin, Chixia, and Aalto receive boosted drop rates! Duration Version 3.5 update - 2026-07-30 09:59 (server time)',
+  }), [], 'a missing official start is rejected instead of inferred');
 });
 
 test('Endfield official availability merges exact regional starts/ends without inventing rule-based ends', () => {

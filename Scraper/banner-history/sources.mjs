@@ -2,7 +2,7 @@ import fs from 'node:fs/promises';
 import crypto from 'node:crypto';
 import os from 'node:os';
 import path from 'node:path';
-import { connectPairs, list, localIso, sourceUrl, stableId, templateBlock, templateBlocks, templateFields, windowFrom } from './core.mjs';
+import { connectPairs, list, localIso, sameRegionWindow, sourceUrl, stableId, templateBlock, templateBlocks, templateFields, windowFrom } from './core.mjs';
 
 const CONFIG = {
   gi:{ host:'https://genshin-impact.fandom.com', category:'Wish', template:'Wish', pool:'Wish Pool', entity:'character', typeMap:{'character event':'character','weapon event':'weapon','chronicled':'mixed','lightrace':'mixed'} },
@@ -158,8 +158,8 @@ export async function scrapeFandomGame(game) {
   });
   await Promise.all(workers);
   records.sort((a, b) => (Object.values(a.windowsByRegion)[0]?.start || '').localeCompare(Object.values(b.windowsByRegion)[0]?.start || '') || a.id.localeCompare(b.id));
-  connectPairs(records);
   await applyOfficialLatest(game, records);
+  connectPairs(records);
   for (const row of records) delete row._officialLink;
   return records;
 }
@@ -185,6 +185,85 @@ function addServerLocalRegions(row, officialUrl) {
   }
 }
 
+function kuroText(value) {
+  return String(value || '')
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/&(?:nbsp|ensp|emsp);/gi, ' ')
+    .replace(/&amp;/gi, '&')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function kuroNames(value) {
+  return String(value || '').split(/\s*,\s*|\s+and\s+/i).map((name) => name.replace(/^and\s+/i, '').trim()).filter(Boolean);
+}
+
+export function parseKuroOfficialBanners(article, { fetchedAt = new Date().toISOString() } = {}) {
+  const articleId = String(article?.articleId || '');
+  if (!/^\d+$/.test(articleId)) return [];
+  const text = kuroText(article?.articleContent);
+  const headings = [...text.matchAll(/\[([^\]\n]{1,120})\]\s+Featured\s+(Resonator|Weapon)\s+Convene/gi)];
+  const officialUrl = `https://wutheringwaves.kurogames.com/en/main/news/detail/${articleId}`;
+  const versionValue = String(article?.articleTitle || '').match(/\bVersion\s+([0-9]+(?:\.[0-9]+)*)/i)?.[1];
+  const records = [];
+  for (let index = 0; index < headings.length; index += 1) {
+    const heading = headings[index];
+    const entityLabel = heading[2].toLowerCase();
+    const entityType = entityLabel === 'resonator' ? 'character' : 'weapon';
+    const segment = text.slice(heading.index, headings[index + 1]?.index ?? text.length);
+    const dates = [...segment.matchAll(/(20\d{2})[-/](\d{2})[-/](\d{2})\s+(\d{2}):(\d{2})/g)]
+      .map((match) => `${match[1]}-${match[2]}-${match[3]} ${match[4]}:${match[5]}:00`);
+    if (dates.length < 2) continue;
+    const primaryMatch = segment.match(new RegExp(`5-Star\\s+${heading[2]}:\\s*([^,.;]+?)(?=,\\s*4-Star|\\s+receive\\s+boosted)`, 'i'));
+    if (!primaryMatch?.[1]) continue;
+    const secondaryMatch = segment.match(new RegExp(`4-Star\\s+${heading[2]}s?:\\s*(.*?)\\s+receive\\s+boosted`, 'i'));
+    const start = localIso(dates[0], '+08:00');
+    const end = localIso(dates[1], '+08:00');
+    if (!start || !end || Date.parse(end) <= Date.parse(start)) continue;
+    const windowsByRegion = {};
+    for (const [region, offset] of [['asia', '+08:00'], ['europe', '+01:00'], ['america', '-05:00']]) {
+      windowsByRegion[region] = {
+        start: localIso(dates[0], offset),
+        end: localIso(dates[1], offset),
+        timezone: `UTC${offset}`,
+        sourceUrl: officialUrl,
+      };
+    }
+    const source = { url: officialUrl, kind: 'official-latest', revision: articleId };
+    const rawName = heading[1].trim();
+    const name = rawName.replace(/(?:\/|\s+)20\d{2}-\d{2}-\d{2}$/, '').trim();
+    const record = {
+      id: 'pending', game: 'wuwa', bannerType: entityType,
+      category: entityType === 'character' ? 'Featured Resonator' : 'Featured Weapon',
+      name, ...(versionValue ? { version: versionValue } : {}), windowsByRegion,
+      permanent: false,
+      featured: [
+        { entityType, name: primaryMatch[1].trim(), rarity: 5, primary: true },
+        ...kuroNames(secondaryMatch?.[1]).map((name) => ({ entityType, name, rarity: 4, primary: false })),
+      ],
+      pairedBannerIds: [], source, officialSource: source, fetchedAt, confirmed: true,
+    };
+    record.id = stableId(record);
+    if (name !== rawName) record.legacyIds = [stableId({ ...record, name: rawName })];
+    records.push(record);
+  }
+  return records;
+}
+
+export function mergeKuroOfficialFallbacks(records, officialFallbacks) {
+  for (const row of [...officialFallbacks].sort((a, b) => a.id.localeCompare(b.id))) {
+    const duplicate = records.find((candidate) => candidate.game === row.game
+      && candidate.bannerType === row.bannerType
+      && candidate.name.toLowerCase() === row.name.toLowerCase()
+      && sameRegionWindow(candidate, row));
+    if (duplicate) {
+      if (!duplicate.version && row.version) duplicate.version = row.version;
+      if (!duplicate.officialSource) duplicate.officialSource = row.officialSource;
+    } else records.push(row);
+  }
+  return records;
+}
+
 async function hoyolabPost(url) {
   const id = String(url).match(/hoyolab\.com\/article\/(\d+)/i)?.[1];
   if (!id) return null;
@@ -202,13 +281,17 @@ export async function applyOfficialLatest(game, records) {
   if (game === 'wuwa') {
     const menu = await getJson('https://hw-media-cdn-mingchao.kurogame.com/akiwebsite/website2.0/json/G152/en/ArticleMenu.json');
     const candidates = menu.filter((row) => /convene/i.test(row.articleTitle || '') && Date.parse(String(row.startTime || '').replace(' ', 'T') + '+08:00') >= cutoff).slice(0, 40);
-    await Promise.all(candidates.map(async (item) => {
+    const officialArticles = await Promise.all(candidates.map(async (item) => {
       const detail = await getJson(`https://hw-media-cdn-mingchao.kurogame.com/akiwebsite/website2.0/json/G152/en/article/${item.articleId}.json`);
       const text = String(detail.articleContent || '').replace(/<[^>]+>/g, ' ');
       const url = `https://wutheringwaves.kurogames.com/en/main/news/detail/${item.articleId}`;
       const matched = records.filter((row) => text.toLowerCase().includes(row.name.toLowerCase()) && (String(row._officialLink).includes(`/detail/${item.articleId}`) || officialMentionsWindow(text, row)));
       for (const row of matched) { row.confirmed = true; row.officialSource = { url, kind:'official-latest', revision:String(item.articleId) }; if (officialMentionsWindow(text, row)) addServerLocalRegions(row, url); }
+      return { ...detail, articleId:item.articleId, articleTitle:item.articleTitle || detail.articleTitle };
     }));
+    const officialFallbacks = officialArticles.flatMap((article) => parseKuroOfficialBanners(article));
+    mergeKuroOfficialFallbacks(records, officialFallbacks);
+    records.sort((a, b) => (Object.values(a.windowsByRegion)[0]?.start || '').localeCompare(Object.values(b.windowsByRegion)[0]?.start || '') || a.id.localeCompare(b.id));
     return;
   }
   if (game === 'gi') {

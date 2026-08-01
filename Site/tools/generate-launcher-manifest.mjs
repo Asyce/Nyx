@@ -106,15 +106,25 @@ function loadPremiumCodes(db = DATABASE) {
 function hasTrustedBannerHistoryIdentity(history, record, game) {
   if (history?.schemaVersion !== 1 || history?.game !== game || record?.game !== game) return false;
   if (typeof record?.id !== 'string' || !record.id.startsWith(`${game}:`)) return false;
-  if (record?.source?.kind !== 'maintained-wiki' || !Number.isSafeInteger(record?.source?.revision) || record.source.revision <= 0) return false;
   try {
     const source = new URL(record.source.url);
-    return source.protocol === 'https:'
+    const safeUrl = source.protocol === 'https:'
       && !source.username
       && !source.password
       && !source.port
-      && !source.hash
-      && source.hostname.toLowerCase() === BANNER_HISTORY_HOSTS[game];
+      && !source.hash;
+    if (!safeUrl) return false;
+    if (record?.source?.kind === 'maintained-wiki') {
+      return Number.isSafeInteger(record?.source?.revision)
+        && record.source.revision > 0
+        && source.hostname.toLowerCase() === BANNER_HISTORY_HOSTS[game];
+    }
+    const officialRevision = String(record?.source?.revision || '');
+    return game === 'wuwa'
+      && record?.source?.kind === 'official-latest'
+      && /^\d+$/.test(officialRevision)
+      && source.hostname.toLowerCase() === 'wutheringwaves.kurogames.com'
+      && source.pathname === `/en/main/news/detail/${officialRevision}`;
   } catch {
     return false;
   }

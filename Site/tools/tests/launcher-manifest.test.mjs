@@ -564,6 +564,40 @@ test('fresh independent raw current corroborates only an exact unconfirmed prima
   }
 });
 
+test('an exact official Kuro banner can bridge a maintained-wiki rollover gap', () => {
+  const db = fs.mkdtempSync(path.join(ROOT, 'Site', 'banner-history-kuro-fallback-test-'));
+  try {
+    fs.mkdirSync(path.join(db, 'BannerHistory'));
+    fs.writeFileSync(path.join(db, 'BannerHistory', 'wuwa.json'), JSON.stringify({
+      schemaVersion: 1,
+      game: 'wuwa',
+      records: [{
+        id: 'wuwa:character:Featured Resonator:take-flight-in-spring:2026-07-30t02-00-00-000z',
+        game: 'wuwa', bannerType: 'character', category: 'Featured Resonator', version: '3.5', permanent: false, confirmed: true,
+        windowsByRegion: {
+          europe: { start: '2026-07-30T09:00:00.000Z', end: '2026-08-19T10:59:00.000Z' },
+          asia: { start: '2026-07-30T02:00:00.000Z', end: '2026-08-19T03:59:00.000Z' },
+          america: { start: '2026-07-30T15:00:00.000Z', end: '2026-08-19T16:59:00.000Z' },
+        },
+        featured: [{ name: 'Aemeath', rarity: 5, primary: true }],
+        source: { url: 'https://wutheringwaves.kurogames.com/en/main/news/detail/5220', kind: 'official-latest', revision: '5220' },
+      }],
+    }));
+    const raw = { games: [{ id: 'wuwa', current: phase('2026-07-01T00:00:00Z', '2026-07-02T00:00:00Z') }] };
+    const normalized = applySourcedBannerWindows(raw, db, Date.parse('2026-08-01T00:00:00.000Z'));
+    assert.equal(normalized.games[0].current.phase, '3.5');
+    assert.equal(normalized.games[0].current._sourceRegion, 'europe');
+    assert.deepEqual(normalized.games[0].current.characters.map((entry) => entry.name), ['Aemeath']);
+
+    const history = JSON.parse(fs.readFileSync(path.join(db, 'BannerHistory', 'wuwa.json'), 'utf8'));
+    history.records[0].source.url = 'https://wutheringwaves.kurogames.com/en/main/news/detail/9999';
+    fs.writeFileSync(path.join(db, 'BannerHistory', 'wuwa.json'), JSON.stringify(history));
+    assert.equal(applySourcedBannerWindows(raw, db, Date.parse('2026-08-01T00:00:00.000Z')).games[0].current, null);
+  } finally {
+    fs.rmSync(db, { recursive: true, force: true });
+  }
+});
+
 test('trusted overlapping channels require one agreeing non-empty version', () => {
   const db = fs.mkdtempSync(path.join(ROOT, 'Site', 'banner-history-version-test-'));
   const source = { url: 'https://genshin-impact.fandom.com/wiki/Wish', kind: 'maintained-wiki', revision: 7 };
@@ -631,7 +665,7 @@ test('production snapshot selects the newest splash art and exposes future patch
   }
   assert.ok(manifest.games.gi.upcoming.some((phase) => phase.characters.some((character) => character.name === 'Columbina')));
   assert.deepEqual(manifest.games.zzz.upcoming, []);
-  assert.deepEqual(manifest.games.wuwa.upcoming, []);
+  assert.deepEqual(manifest.games.wuwa.upcoming[0].characters.map((character) => character.name), ['Suisui', 'Aemeath']);
   assert.deepEqual(manifest.games.ae.upcoming, []);
 });
 
@@ -659,7 +693,9 @@ test('WuWa banner icon sources stay tied to exact character identity', () => {
   assert.equal(current['Yangyang: Xuanling'].id, '1610');
   assert.match(current['Yangyang: Xuanling'].icon.path, /T_IconRoleHead256_70_UI\.webp$/);
   assert.equal(current['Yangyang: Xuanling'].icon.sourceUrl, undefined);
-  assert.deepEqual(manifest.games.wuwa.upcoming, []);
+  const upcoming = Object.fromEntries(manifest.games.wuwa.upcoming[0].characters.map((character) => [character.name, character]));
+  assert.match(upcoming.Suisui.icon.path, /T_IconRoleHead256_71_UI\.webp$/);
+  assert.match(upcoming.Aemeath.icon.path, /T_IconRoleHead256_53_UI\.webp$/);
 });
 
 test('WuWa icon identity beats a Yangyang name-prefix collision', () => {

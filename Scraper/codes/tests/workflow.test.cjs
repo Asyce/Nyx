@@ -142,13 +142,14 @@ test('every production deploy requires a freshly committed launcher snapshot', (
   assert.ok(workflows.length > 0, 'expected at least one production deploy workflow');
   for (const file of workflows) {
     const source = fs.readFileSync(path.join(workflowDir, file), 'utf8');
-    const snapshot = source.indexOf('id: launcher_snapshot');
+    const snapshotId = file === 'r2-database-reconcile.yml' ? 'deployment_snapshot' : 'launcher_snapshot';
+    const snapshot = source.indexOf(`id: ${snapshotId}`);
     const refresh = Math.max(
       source.lastIndexOf('npm run refresh:launcher', snapshot),
       source.lastIndexOf('npm run build:deploy:generated', snapshot),
     );
     const shaOutput = source.indexOf('echo "sha=$(git rev-parse HEAD)"', snapshot);
-    const commitEnv = source.indexOf('PENGO_DEPLOY_COMMIT: ${{ steps.launcher_snapshot.outputs.sha }}', snapshot);
+    const commitEnv = source.indexOf(`PENGO_DEPLOY_COMMIT: \${{ steps.${snapshotId}.outputs.sha }}`, snapshot);
     const packageCommand = Math.min(
       ...[
         source.indexOf('npm run build:deploy', commitEnv),
@@ -167,7 +168,7 @@ test('every production deploy requires a freshly committed launcher snapshot', (
     assert(shaOutput > snapshot && shaOutput < commitEnv, `${file} must export the exact post-refresh HEAD`);
     assert(commitEnv < packageCommand && packageCommand < exactSmoke, `${file} production packaging must receive the post-refresh HEAD`);
     assert(exactSmoke > snapshot && push > exactSmoke && deploy > push, `${file} must smoke, push, then deploy the committed snapshot`);
-    assert.match(deployBlock, /steps\.launcher_snapshot\.outputs\.fresh == 'true'/, `${file} deploy must fail closed without a fresh snapshot`);
+    assert.match(deployBlock, new RegExp(`steps\\.${snapshotId}\\.outputs\\.fresh == 'true'`), `${file} deploy must fail closed without a fresh snapshot`);
   }
 });
 

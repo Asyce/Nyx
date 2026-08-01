@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "768a227cc3dc396859b92dd60d319057e5bd7b512fa903a893cf675bbabbe256",
-  "generatedAt": "2026-08-01T19:51:09.566Z",
+  "revision": "0a0034eb4edaeeaa3c6bc4be9b184f617247db743fee814e07ed2a3d1ea023d2",
+  "generatedAt": "2026-08-01T20:05:45.219Z",
   "health": {
     "status": "ok",
     "games": {
@@ -43,7 +43,7 @@
         "remaining": {
           "startsAt": "2026-07-21T17:00:00.000Z",
           "endsAt": "2026-08-11T13:59:00.000Z",
-          "durationSeconds": 842870
+          "durationSeconds": 841994
         },
         "characters": [
           {
@@ -51,7 +51,7 @@
             "name": "Raiden Shogun",
             "rarity": 5,
             "limited": true,
-            "debut": "2021-08-31T22:00:00.000Z",
+            "debut": "2021-09-01T00:00:00.000Z",
             "icon": {
               "id": "10000052-icon",
               "source": "character-icon",
@@ -110,7 +110,7 @@
             "name": "Columbina",
             "rarity": 5,
             "limited": true,
-            "debut": "2026-01-12T23:00:00.000Z",
+            "debut": "2026-01-13T00:00:00.000Z",
             "icon": {
               "id": "10000125-icon",
               "source": "character-icon",
@@ -170,7 +170,7 @@
           "name": "Columbina",
           "rarity": 5,
           "limited": true,
-          "debut": "2026-01-12T23:00:00.000Z",
+          "debut": "2026-01-13T00:00:00.000Z",
           "icon": {
             "id": "10000125-icon",
             "source": "character-icon",
@@ -365,7 +365,7 @@
         "remaining": {
           "startsAt": "2026-07-15T03:00:00.000Z",
           "endsAt": "2026-08-05T03:59:00.000Z",
-          "durationSeconds": 288470
+          "durationSeconds": 287594
         },
         "characters": [
           {
@@ -823,7 +823,7 @@
         "remaining": {
           "startsAt": "2026-07-29T03:00:00.000Z",
           "endsAt": "2026-08-19T03:59:59.000Z",
-          "durationSeconds": 1498129
+          "durationSeconds": 1497253
         },
         "characters": [
           {
@@ -1169,7 +1169,7 @@
         "remaining": {
           "startsAt": "2026-07-30T09:00:00.000Z",
           "endsAt": "2026-08-19T10:59:00.000Z",
-          "durationSeconds": 1523270
+          "durationSeconds": 1522394
         },
         "characters": [
           {
@@ -1484,7 +1484,7 @@
         "remaining": {
           "startsAt": "2026-07-16T04:00:00.000Z",
           "endsAt": "2026-08-09T03:59:59.000Z",
-          "durationSeconds": 634129
+          "durationSeconds": 633253
         },
         "characters": [
           {

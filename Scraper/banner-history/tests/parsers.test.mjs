@@ -19,6 +19,22 @@ for (const [game, info, pool, type, primaryKey, secondaryKey, primary, secondary
   assert.equal(record.windowsByRegion.asia.start, '2024-01-01T02:00:00.000Z'); assert.equal(record.source.revision, 7); assert.equal(record.confirmed, true);
 });
 
+test('unfinished future wiki placeholders are ignored without accepting tentative dates', () => {
+  const text = `{{Wish
+|name = Astral Actuation 7.0
+|type = Character Event
+|duration = unknown<!--event-->
+|time_start = <!--2026-09-01 18:00:00-->
+|time_end = <!--2026-09-22 14:59:59-->
+}}
+{{Wish Pool
+|character_5_F = Ineffa
+  |character_4_F = Unknown Character; Unknown Character; Unknown Character
+}}`;
+  assert.equal(parseFandomRun('gi', { title:'Astral Actuation/7.0', revision:2137972, text }), null);
+  assert.notEqual(parseFandomRun('gi', { title:'Broken Event', revision:1, text:text.replace('unknown<!--event-->', 'event') }), null, 'other malformed finite rows still reach fail-closed dataset validation');
+});
+
 test('Endfield parses operator and weapon rows, region fields, and rejects provisional ends', () => {
   const operators = parseEndfieldYear({title:'Headhunting/Banners/2026',revision:10,text:`{{Banners cell\n|name = Alpha\n|start = 2026/01/22 11:00:00\n|end = 2026/02/07 11:59:59\n|start synced = yes\n|end synced = yes\n|operators = Alpha, Beta\n|rateup = Alpha\n|quota = Gamma\n}}`}, 'character');
   assert.deepEqual(Object.keys(operators[0].windowsByRegion), ['global']); assert.equal(operators[0].featured[0].rarity, 6);

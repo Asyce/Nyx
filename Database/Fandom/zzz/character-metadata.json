@@ -475,17 +475,14 @@
   },
   {
     "name": "Lucy",
-    "pageTitle": "Agent Focus: Lucy",
+    "pageTitle": "Tutorial/(Character Intro) Lucy",
     "aliases": [
       "Lucy",
       "1151"
     ],
     "releaseDate": null,
-    "releasePatch": "1.0",
-    "categories": [
-      "Category:Released in Version 1.0",
-      "Category:Version"
-    ]
+    "releasePatch": null,
+    "categories": []
   },
   {
     "name": "Lycaon",
@@ -572,15 +569,15 @@
   },
   {
     "name": "Nekomata",
-    "pageTitle": "Nekomata's Promise",
+    "pageTitle": "Nekomata's Namecard",
     "aliases": [
       "Nekomata",
       "1021"
     ],
     "releaseDate": null,
-    "releasePatch": "1.0",
+    "releasePatch": "1.1",
     "categories": [
-      "Category:Released in Version 1.0",
+      "Category:Released in Version 1.1",
       "Category:Version"
     ]
   },
@@ -625,7 +622,7 @@
   },
   {
     "name": "Orphie & Magus",
-    "pageTitle": "Agent Focus: Orphie & Magus",
+    "pageTitle": "Orphie & Magus' Namecard",
     "aliases": [
       "Orphie & Magus",
       "1301"
@@ -757,6 +754,27 @@
     ]
   },
   {
+    "name": "Remielle",
+    "pageTitle": "Remielle Dan",
+    "aliases": [
+      "Remielle",
+      "1581"
+    ],
+    "releaseDate": "2026-07-29",
+    "releasePatch": "3.1",
+    "voiceActors": {
+      "english": "Amber Lee Connors",
+      "chinese": "https://zh.moegirl.org.cn/醋醋|Cucu (醋醋)",
+      "japanese": "Saori Ōnishi|Ōnishi Saori (大西 沙織)",
+      "korean": "https://namu.wiki/w/채림(성우)|Chae-rim (채림)"
+    },
+    "categories": [
+      "Category:Introduced in Version 1.0",
+      "Category:Released in Version 3.1",
+      "Category:Version"
+    ]
+  },
+  {
     "name": "Rina",
     "pageTitle": "Alexandrina Sebastiane",
     "aliases": [
@@ -815,6 +833,25 @@
     "categories": [
       "Category:Released in Version 1.1",
       "Category:Version"
+    ]
+  },
+  {
+    "name": "Sigrid",
+    "pageTitle": "Sigrid de L'Azur",
+    "aliases": [
+      "Sigrid",
+      "1591"
+    ],
+    "releaseDate": "|name = Sigrid de L'Azur",
+    "releasePatch": "2.7",
+    "voiceActors": {
+      "english": "imdb:nm8792229|Dani Chambers",
+      "chinese": "https://zh.moegirl.org.cn/贺若帆|He Ruofan (贺若帆)",
+      "japanese": "Yūko Kaida|Kaida Yūko (甲斐田 裕子)",
+      "korean": "https://namu.wiki/w/강해나|Kang Hae-na (강해나)"
+    },
+    "categories": [
+      "Category:Introduced in Version 2.7"
     ]
   },
   {

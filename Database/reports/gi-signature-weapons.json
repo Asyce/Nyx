@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-28T09:29:55.223Z",
-  "startedAt": "2026-07-28T09:29:11.290Z",
+  "generatedAt": "2026-08-02T09:03:59.522Z",
+  "startedAt": "2026-08-02T09:03:27.699Z",
   "dryRun": false,
   "source": "GameWith character build pages + web consensus fallback",
   "sourcePage": "https://gamewith.net/genshin-impact/article/show/22357",
@@ -32,6 +32,29 @@
       "characterPage": "https://gamewith.net/genshin-impact/article/show/76471",
       "consensusStatus": "no-consensus-signature",
       "consensusCandidates": [
+        {
+          "weaponId": "13514",
+          "weaponName": "Symphonist of Scents",
+          "sourceCount": 1,
+          "signatureSourceCount": 1,
+          "score": 2,
+          "sources": [
+            {
+              "character": "Alyosha",
+              "weaponId": "13514",
+              "weaponName": "Symphonist of Scents",
+              "matchedAlias": "Symphonist of Scents",
+              "kind": "signature",
+              "strength": 2,
+              "matchedText": "anner.- It increases both Energy Recharge and ATK.- It provides a large amount of ER, allowing you to build the other stats Alyosha needs to maximize his Burst DMG and healing.2nd Symphonist Of ScentsGet from Limited Banner- This is Escoffier's signature weapon, only available when she is featured on a rate-up banner.- It has a CRIT DMG substat for a Sub-DPS",
+              "title": "Genshin Impact | Alyosha Release Date & Best Build Guide",
+              "url": "https://gamewith.net/genshin-impact/article/show/76471",
+              "domain": "gamewith.net",
+              "query": "Alyosha Genshin Impact signature weapon",
+              "searchProvider": "bing-rss"
+            }
+          ]
+        },
         {
           "weaponId": "13509",
           "weaponName": "Engulfing Lightning",
@@ -118,28 +141,16 @@
           "matchedText": "w are Alyosha's best weapons. Alyosha mainly wants Energy Recharge to use his Elemental Burst every rotation, while also benefiting from ATK due to his healing and damage scaling. Engulfing Lightning R1 Timeless Dream: Eternal Stove Base ATK: 608 Energy Recharge: 55.1% ATK increased by 28% / 35% / 42% / 49% / 56% of Energy Recharge over the base 100%. You ca"
         },
         {
-          "title": "Genshin Impact | Alyosha Release Date & Known Information",
+          "title": "Genshin Impact | Alyosha Release Date & Best Build Guide",
           "url": "https://gamewith.net/genshin-impact/article/show/76471",
           "domain": "gamewith.net",
           "query": "Alyosha Genshin Impact signature weapon",
           "searchProvider": "bing-rss",
-          "status": "no-match"
-        },
-        {
-          "title": "Genshin 7.0 Banners: Odette, Alyosha, Reruns & Pull Guide",
-          "url": "https://www.gamsgo.com/blog/genshin-impact-7-0-banners",
-          "domain": "gamsgo.com",
-          "query": "Alyosha Genshin Impact signature weapon",
-          "searchProvider": "bing-rss",
-          "status": "no-match"
-        },
-        {
-          "title": "Genshin Impact Alyosha Leaks: Electro Polearm Kit, Talents, and ...",
-          "url": "https://allthings.how/genshin-impact-alyosha-leaks-electro-polearm-kit-talents-and-constellations/",
-          "domain": "allthings.how",
-          "query": "Alyosha Genshin Impact signature weapon",
-          "searchProvider": "bing-rss",
-          "status": "no-match"
+          "status": "matched",
+          "weaponId": "13514",
+          "weaponName": "Symphonist of Scents",
+          "kind": "signature",
+          "matchedText": "anner.- It increases both Energy Recharge and ATK.- It provides a large amount of ER, allowing you to build the other stats Alyosha needs to maximize his Burst DMG and healing.2nd Symphonist Of ScentsGet from Limited Banner- This is Escoffier's signature weapon, only available when she is featured on a rate-up banner.- It has a CRIT DMG substat for a Sub-DPS"
         }
       ],
       "consensusSearchQueries": [

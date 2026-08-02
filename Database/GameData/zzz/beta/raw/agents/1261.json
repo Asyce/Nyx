@@ -50,11 +50,13 @@
     "3112610": {
       "name": "Jane: Hidden Nightfade",
       "desc": "Her everyday look when she isn't putting on a disguise. Maybe it's just one of the countless faces she wears. The night becomes her cover, and her mask is the one truth she never sets aside.",
+      "obtain_desc": "",
       "image": "IconRole24"
     },
     "3112611": {
       "name": "Jane: Nocturne of Light",
       "desc": "Who says sunlight must accompany a seaside stroll? For lurkers with names unknown, the night is their most faithful companion. The anonymous lady says the evening sea holds unspeakable secrets — is this the truth, or another deception?",
+      "obtain_desc": "",
       "image": "IconRole24_01"
     }
   },
@@ -98,7 +100,10 @@
       "EtherEyesSize3"
     ],
     "rp_max": 0,
-    "rp_recover": 0
+    "rp_recover": 0,
+    "ep_max": 0,
+    "ep_recover": 0,
+    "sharp_critical_damage": 0
   },
   "level": {
     "1": {
@@ -2294,6 +2299,33 @@
       }
     }
   },
+  "skill_priority": [
+    {
+      "id": 1261001,
+      "avatar_id": 1261,
+      "first_priority": [
+        5,
+        0
+      ],
+      "second_priority": [
+        1,
+        3,
+        2
+      ],
+      "third_priority": [
+        6
+      ],
+      "potential_levels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ],
   "skill_list": {
     "1261001": {
       "name": "Basic Attack: Dancing Blades",
@@ -2584,6 +2616,7 @@
       31203,
       12102
     ],
+    "alt_build": [],
     "part4": {
       "prop": 31203,
       "name": "Anomaly Proficiency",

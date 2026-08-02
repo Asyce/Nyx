@@ -50,6 +50,7 @@
     "3110210": {
       "name": "Nekomata: Cat's Gratitude",
       "desc": "A lost cat doesn't know where to go — only that it has to keep moving.\nShe wandered through the vast streets of New Eridu, her thin clothes offering no protection from the elements, until a tiny odd-job agency finally took her in.",
+      "obtain_desc": "",
       "image": "IconRole11"
     }
   },
@@ -93,7 +94,10 @@
       "EtherEyesSize1"
     ],
     "rp_max": 0,
-    "rp_recover": 0
+    "rp_recover": 0,
+    "ep_max": 0,
+    "ep_recover": 0,
+    "sharp_critical_damage": 0
   },
   "level": {
     "1": {
@@ -1762,6 +1766,33 @@
       }
     }
   },
+  "skill_priority": [
+    {
+      "id": 1021001,
+      "avatar_id": 1021,
+      "first_priority": [
+        5,
+        1,
+        0
+      ],
+      "second_priority": [
+        3,
+        2
+      ],
+      "third_priority": [
+        6
+      ],
+      "potential_levels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ],
   "skill_list": {
     "1021001": {
       "name": "Basic Attack: Kitty Slash",
@@ -2207,6 +2238,7 @@
       21103,
       12102
     ],
+    "alt_build": [],
     "part4": {
       "prop": 20103,
       "name": "CRIT Rate",
@@ -2251,7 +2283,7 @@
       "id": 102100,
       "name": "",
       "desc": "",
-      "image": "Nekomata",
+      "image": "Nekomiya",
       "level_show_name": "Cat's Gratitude I",
       "level": 1,
       "ability_list": [
@@ -2270,7 +2302,7 @@
       "id": 102101,
       "name": "Awakened Potential: Nightborne Instinct",
       "desc": "While Nekomata is in the Pawpad Ambush state, her CRIT DMG increases by <color=#2BAD00>20%</color>.",
-      "image": "Nekomata",
+      "image": "Nekomiya",
       "level_show_name": "Cat's Gratitude II",
       "level": 2,
       "ability_list": [
@@ -2290,7 +2322,7 @@
       "id": 102102,
       "name": "Awakened Potential: Nightborne Instinct",
       "desc": "While Nekomata is in the Pawpad Ambush state, her CRIT DMG increases by <color=#2BAD00>30%</color>.",
-      "image": "Nekomata",
+      "image": "Nekomiya",
       "level_show_name": "Cat's Gratitude III",
       "level": 3,
       "ability_list": [
@@ -2310,7 +2342,7 @@
       "id": 102103,
       "name": "Awakened Potential: Nightborne Instinct",
       "desc": "While Nekomata is in the Pawpad Ambush state, her CRIT DMG increases by <color=#2BAD00>40%</color>.",
-      "image": "Nekomata",
+      "image": "Nekomiya",
       "level_show_name": "Cat's Gratitude IV",
       "level": 4,
       "ability_list": [
@@ -2330,7 +2362,7 @@
       "id": 102104,
       "name": "Awakened Potential: Nightborne Instinct",
       "desc": "While Nekomata is in the Pawpad Ambush state, her CRIT DMG increases by <color=#2BAD00>50%</color>.",
-      "image": "Nekomata",
+      "image": "Nekomiya",
       "level_show_name": "Cat's Gratitude V",
       "level": 5,
       "ability_list": [
@@ -2350,7 +2382,7 @@
       "id": 102105,
       "name": "Awakened Potential: Nightborne Instinct",
       "desc": "While Nekomata is in the Pawpad Ambush state, her CRIT DMG increases by <color=#2BAD00>60%</color>.",
-      "image": "Nekomata",
+      "image": "Nekomiya",
       "level_show_name": "Cat's Gratitude VI",
       "level": 6,
       "ability_list": [

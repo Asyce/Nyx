@@ -10,7 +10,8 @@
         "Ether",
         "Large",
         "Boss",
-        "GirReborn_P2"
+        "GirReborn_P2",
+        "MainStoryBoss"
       ],
       "type": "Monster",
       "element": {
@@ -505,7 +506,8 @@
         "Large",
         "Boss",
         "HighCorruptiveBarrier",
-        "GirReborn_P2"
+        "GirReborn_P2",
+        "MainStoryBoss"
       ],
       "type": "Monster",
       "element": {

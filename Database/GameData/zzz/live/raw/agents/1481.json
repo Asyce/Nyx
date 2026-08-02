@@ -1828,6 +1828,33 @@
       }
     }
   },
+  "skill_priority": [
+    {
+      "id": 1481001,
+      "avatar_id": 1481,
+      "first_priority": [
+        5,
+        1
+      ],
+      "second_priority": [
+        3,
+        0
+      ],
+      "third_priority": [
+        6,
+        2
+      ],
+      "potential_levels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ],
   "skill_list": {
     "1481001": {
       "name": "Basic Attack: Happy to Be of Service",

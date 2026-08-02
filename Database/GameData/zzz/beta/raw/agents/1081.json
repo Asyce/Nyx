@@ -49,6 +49,7 @@
     "3110810": {
       "name": "Billy: Shining Starlight Costume",
       "desc": "Style is justice, justice is style. That's the eternal creed of a true knight! Though, yeah... those joint screws really do wear down fast...",
+      "obtain_desc": "",
       "image": "IconRole10"
     }
   },
@@ -92,7 +93,10 @@
       "EtherEyesSize2"
     ],
     "rp_max": 0,
-    "rp_recover": 0
+    "rp_recover": 0,
+    "ep_max": 0,
+    "ep_recover": 0,
+    "sharp_critical_damage": 0
   },
   "level": {
     "1": {
@@ -1585,6 +1589,33 @@
       }
     }
   },
+  "skill_priority": [
+    {
+      "id": 1081001,
+      "avatar_id": 1081,
+      "first_priority": [
+        5,
+        0,
+        3
+      ],
+      "second_priority": [
+        1,
+        2
+      ],
+      "third_priority": [
+        6
+      ],
+      "potential_levels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ],
   "skill_list": {
     "1081001": {
       "name": "Basic Attack: Full Firepower",
@@ -1841,6 +1872,7 @@
       20103,
       21103
     ],
+    "alt_build": [],
     "part4": {
       "prop": 20103,
       "name": "CRIT Rate",

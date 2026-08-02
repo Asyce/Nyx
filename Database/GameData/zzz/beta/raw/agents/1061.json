@@ -50,6 +50,7 @@
     "3110610": {
       "name": "Corin: Matcha Profiterole",
       "desc": "From that small frame bursts surprising strength, her roaring chainsaw drowning out her soft whimpers. The well-behaved, ever-professional maid is always short on confidence... so take a moment to wait for her.",
+      "obtain_desc": "",
       "image": "IconRole09"
     }
   },
@@ -93,7 +94,10 @@
       "EtherEyesSize1"
     ],
     "rp_max": 0,
-    "rp_recover": 0
+    "rp_recover": 0,
+    "ep_max": 0,
+    "ep_recover": 0,
+    "sharp_critical_damage": 0
   },
   "level": {
     "1": {
@@ -1756,6 +1760,33 @@
       }
     }
   },
+  "skill_priority": [
+    {
+      "id": 1061001,
+      "avatar_id": 1061,
+      "first_priority": [
+        5,
+        1,
+        3
+      ],
+      "second_priority": [
+        0
+      ],
+      "third_priority": [
+        6,
+        2
+      ],
+      "potential_levels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ],
   "skill_list": {
     "1061001": {
       "name": "Basic Attack: Wipeout",
@@ -2005,6 +2036,7 @@
       20103,
       21103
     ],
+    "alt_build": [],
     "part4": {
       "prop": 20103,
       "name": "CRIT Rate",

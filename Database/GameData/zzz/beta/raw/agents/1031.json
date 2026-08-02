@@ -49,11 +49,13 @@
     "3110310": {
       "name": "Nicole: Lil Sassy",
       "desc": "The classic outfit of the leader of the Cunning Hares, hiding a hint of playful cunning, both mischievous and cute.",
+      "obtain_desc": "",
       "image": "IconRole12"
     },
     "3110311": {
       "name": "Nicole: Cunning Cutie",
       "desc": "Pink! Pink! Pink! Pink is Nicole's signature color. So are you feeling it?",
+      "obtain_desc": "",
       "image": "IconRole12_01"
     }
   },
@@ -97,7 +99,10 @@
       "EtherEyesSize2"
     ],
     "rp_max": 0,
-    "rp_recover": 0
+    "rp_recover": 0,
+    "ep_max": 0,
+    "ep_recover": 0,
+    "sharp_critical_damage": 0
   },
   "level": {
     "1": {
@@ -2346,6 +2351,33 @@
       }
     }
   },
+  "skill_priority": [
+    {
+      "id": 1031001,
+      "avatar_id": 1031,
+      "first_priority": [
+        5,
+        1
+      ],
+      "second_priority": [
+        3
+      ],
+      "third_priority": [
+        6,
+        0,
+        2
+      ],
+      "potential_levels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ],
   "skill_list": {
     "1031001": {
       "name": "Basic Attack: Cunning Combo",
@@ -2615,6 +2647,7 @@
       12102,
       31203
     ],
+    "alt_build": [],
     "part4": {
       "prop": 20103,
       "name": "CRIT Rate",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T21:29:55.061Z",
+  "generatedAt": "2026-08-02T20:09:35.801Z",
   "policy": "Every generated Database row is counted. Released rows remain visible when art or description is missing; only rows with no usable localized display name or proven internal/test provenance are quarantined.",
   "coverage": {
     "before": {
@@ -9,7 +9,7 @@
         "special"
       ],
       "summaryCount": 25,
-      "missingArtCount": 765,
+      "missingArtCount": 756,
       "quarantinedCount": 574
     },
     "after": {
@@ -19,9 +19,9 @@
         "special"
       ],
       "summaryCount": 25,
-      "missingArtCount": 765,
+      "missingArtCount": 756,
       "quarantinedCount": 574,
-      "intentionalFallbackCount": 765,
+      "intentionalFallbackCount": 756,
       "displayArtMissingCount": 0
     }
   },
@@ -89,8 +89,8 @@
       "quarantinedCount": 219,
       "approvedSourceCount": 5471,
       "generatedCount": 5471,
-      "localArtCount": 5192,
-      "missingArtCount": 279
+      "localArtCount": 5201,
+      "missingArtCount": 270
     },
     {
       "game": "wuwa",
@@ -178,12 +178,12 @@
       "scope": "inline",
       "game": "zzz",
       "collection": "disk-drives",
-      "sourceCount": 28,
-      "normalizedCount": 28,
+      "sourceCount": 29,
+      "normalizedCount": 29,
       "quarantinedCount": 0,
-      "approvedSourceCount": 28,
-      "generatedCount": 28,
-      "localArtCount": 28,
+      "approvedSourceCount": 29,
+      "generatedCount": 29,
+      "localArtCount": 29,
       "missingArtCount": 0
     },
     {
@@ -319,7 +319,7 @@
       "missingArtCount": 74
     }
   ],
-  "missingArtCount": 765,
+  "missingArtCount": 756,
   "records": [
     {
       "scope": "inline",
@@ -8550,66 +8550,6 @@
     {
       "game": "zzz",
       "collection": "items",
-      "recordId": "2090034",
-      "name": "\"PSBoo\" Themed Console",
-      "releaseStatus": "live",
-      "sourceIconField": {
-        "field": "icon_path",
-        "value": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/PS_PhysicalSKU.png"
-      },
-      "sourceUrl": "https://static.nanoka.cc/assets/zzz/PS_PhysicalSKU.webp",
-      "localDestination": "GameData/zzz/assets/items/PS_PhysicalSKU.webp",
-      "result": "unavailable",
-      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
-    },
-    {
-      "game": "zzz",
-      "collection": "items",
-      "recordId": "2090035",
-      "name": "\"PSBoo\" Commemorative Console",
-      "releaseStatus": "live",
-      "sourceIconField": {
-        "field": "icon_path",
-        "value": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/PS_PhysicalSKU_Mark.png"
-      },
-      "sourceUrl": "https://static.nanoka.cc/assets/zzz/PS_PhysicalSKU_Mark.webp",
-      "localDestination": "GameData/zzz/assets/items/PS_PhysicalSKU_Mark.webp",
-      "result": "unavailable",
-      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
-    },
-    {
-      "game": "zzz",
-      "collection": "items",
-      "recordId": "2090036",
-      "name": "\"XBoo\" Themed Console",
-      "releaseStatus": "live",
-      "sourceIconField": {
-        "field": "icon_path",
-        "value": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/Xbox_PhysicalSKU.png"
-      },
-      "sourceUrl": "https://static.nanoka.cc/assets/zzz/Xbox_PhysicalSKU.webp",
-      "localDestination": "GameData/zzz/assets/items/Xbox_PhysicalSKU.webp",
-      "result": "unavailable",
-      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
-    },
-    {
-      "game": "zzz",
-      "collection": "items",
-      "recordId": "2090037",
-      "name": "\"XBoo\" Commemorative Console",
-      "releaseStatus": "live",
-      "sourceIconField": {
-        "field": "icon_path",
-        "value": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/Xbox_PhysicalSKU_Mark.png"
-      },
-      "sourceUrl": "https://static.nanoka.cc/assets/zzz/Xbox_PhysicalSKU_Mark.webp",
-      "localDestination": "GameData/zzz/assets/items/Xbox_PhysicalSKU_Mark.webp",
-      "result": "unavailable",
-      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
-    },
-    {
-      "game": "zzz",
-      "collection": "items",
       "recordId": "3031551",
       "name": "Belle and Pyrois' Namecard",
       "releaseStatus": "live",
@@ -10368,81 +10308,6 @@
       },
       "sourceUrl": "https://static.nanoka.cc/assets/zzz/Zenkov_WeaponB_006_Blueprint.webp",
       "localDestination": "GameData/zzz/assets/items/Zenkov_WeaponB_006_Blueprint.webp",
-      "result": "unavailable",
-      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
-    },
-    {
-      "game": "zzz",
-      "collection": "items",
-      "recordId": "4360041",
-      "name": "Ruby Ring",
-      "releaseStatus": "live",
-      "sourceIconField": {
-        "field": "icon_path",
-        "value": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_044.png"
-      },
-      "sourceUrl": "https://static.nanoka.cc/assets/zzz/Zenkov_Collection_044.webp",
-      "localDestination": "GameData/zzz/assets/items/Zenkov_Collection_044.webp",
-      "result": "unavailable",
-      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
-    },
-    {
-      "game": "zzz",
-      "collection": "items",
-      "recordId": "4360042",
-      "name": "\"Blood Cicada\" Accessory",
-      "releaseStatus": "live",
-      "sourceIconField": {
-        "field": "icon_path",
-        "value": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_043.png"
-      },
-      "sourceUrl": "https://static.nanoka.cc/assets/zzz/Zenkov_Collection_043.webp",
-      "localDestination": "GameData/zzz/assets/items/Zenkov_Collection_043.webp",
-      "result": "unavailable",
-      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
-    },
-    {
-      "game": "zzz",
-      "collection": "items",
-      "recordId": "4360043",
-      "name": "En O'Clock (Icedawn White)",
-      "releaseStatus": "live",
-      "sourceIconField": {
-        "field": "icon_path",
-        "value": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_041.png"
-      },
-      "sourceUrl": "https://static.nanoka.cc/assets/zzz/Zenkov_Collection_041.webp",
-      "localDestination": "GameData/zzz/assets/items/Zenkov_Collection_041.webp",
-      "result": "unavailable",
-      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
-    },
-    {
-      "game": "zzz",
-      "collection": "items",
-      "recordId": "4360044",
-      "name": "Boo-rick Phone (Amber Orange)",
-      "releaseStatus": "live",
-      "sourceIconField": {
-        "field": "icon_path",
-        "value": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_042.png"
-      },
-      "sourceUrl": "https://static.nanoka.cc/assets/zzz/Zenkov_Collection_042.webp",
-      "localDestination": "GameData/zzz/assets/items/Zenkov_Collection_042.webp",
-      "result": "unavailable",
-      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
-    },
-    {
-      "game": "zzz",
-      "collection": "items",
-      "recordId": "4360045",
-      "name": "CCTV",
-      "releaseStatus": "live",
-      "sourceIconField": {
-        "field": "icon_path",
-        "value": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_045.png"
-      },
-      "sourceUrl": "https://static.nanoka.cc/assets/zzz/Zenkov_Collection_045.webp",
-      "localDestination": "GameData/zzz/assets/items/Zenkov_Collection_045.webp",
       "result": "unavailable",
       "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
     },
@@ -19256,6 +19121,6 @@
       "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
     }
   ],
-  "intentionalFallbackCount": 765,
+  "intentionalFallbackCount": 756,
   "displayArtMissingCount": 0
 }

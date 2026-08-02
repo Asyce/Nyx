@@ -50,6 +50,7 @@
     "3113510": {
       "name": "Pulchra: Rest for a Weary Tail",
       "desc": "A wandering mercenary should be out roaming the world, but the sunlight here is warm — perfect for a nap.",
+      "obtain_desc": "",
       "image": "IconRole38"
     }
   },
@@ -93,7 +94,10 @@
       "EtherEyesSize3"
     ],
     "rp_max": 0,
-    "rp_recover": 0
+    "rp_recover": 0,
+    "ep_max": 0,
+    "ep_recover": 0,
+    "sharp_critical_damage": 0
   },
   "level": {
     "1": {
@@ -1452,6 +1456,33 @@
       }
     }
   },
+  "skill_priority": [
+    {
+      "id": 1351001,
+      "avatar_id": 1351,
+      "first_priority": [
+        5,
+        1,
+        6
+      ],
+      "second_priority": [
+        3
+      ],
+      "third_priority": [
+        0,
+        2
+      ],
+      "potential_levels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ],
   "skill_list": {
     "1351001": {
       "name": "Basic Attack: Swift Strike",
@@ -1707,6 +1738,7 @@
       12102,
       20103
     ],
+    "alt_build": [],
     "part4": {
       "prop": 20103,
       "name": "CRIT Rate",

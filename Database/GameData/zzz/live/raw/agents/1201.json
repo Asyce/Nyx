@@ -2073,6 +2073,33 @@
       }
     }
   },
+  "skill_priority": [
+    {
+      "id": 1201001,
+      "avatar_id": 1201,
+      "first_priority": [
+        5,
+        2
+      ],
+      "second_priority": [
+        3,
+        0,
+        1
+      ],
+      "third_priority": [
+        6
+      ],
+      "potential_levels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ],
   "skill_list": {
     "1201001": {
       "name": "Basic Attack: Cloud Piercer (1st, 2nd, and 3rd hit)",

@@ -1571,6 +1571,51 @@
       }
     }
   },
+  "skill_priority": [
+    {
+      "id": 1121001,
+      "avatar_id": 1121,
+      "first_priority": [
+        5,
+        1
+      ],
+      "second_priority": [
+        3
+      ],
+      "third_priority": [
+        6,
+        0,
+        2
+      ],
+      "potential_levels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": 1121002,
+      "avatar_id": 1121,
+      "first_priority": [
+        5,
+        1,
+        0
+      ],
+      "second_priority": [
+        3
+      ],
+      "third_priority": [
+        6,
+        2
+      ],
+      "potential_levels": [
+        6
+      ]
+    }
+  ],
   "skill_list": {
     "1121001": {
       "name": "Basic Attack: Debt Reconciliation",

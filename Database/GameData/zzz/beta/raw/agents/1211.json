@@ -50,6 +50,7 @@
     "3112110": {
       "name": "Rina: Head Maid's Perfection",
       "desc": "Her skirt is immaculate and her appearance flawlessly composed — such is the head maid's standard of perfection. Yet in the kitchen, her definition of \"perfect\" appears to be something else entirely...",
+      "obtain_desc": "",
       "image": "IconRole22"
     }
   },
@@ -93,7 +94,10 @@
       "EtherEyesSize3"
     ],
     "rp_max": 0,
-    "rp_recover": 0
+    "rp_recover": 0,
+    "ep_max": 0,
+    "ep_recover": 0,
+    "sharp_critical_damage": 0
   },
   "level": {
     "1": {
@@ -1703,6 +1707,33 @@
       }
     }
   },
+  "skill_priority": [
+    {
+      "id": 1211001,
+      "avatar_id": 1211,
+      "first_priority": [
+        5,
+        1
+      ],
+      "second_priority": [
+        3
+      ],
+      "third_priority": [
+        6,
+        0,
+        2
+      ],
+      "potential_levels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ],
   "skill_list": {
     "1211001": {
       "name": "Basic Attack: Whack the Dimwit",
@@ -1958,6 +1989,7 @@
       12102,
       31203
     ],
+    "alt_build": [],
     "part4": {
       "prop": 23103,
       "name": "PEN Ratio",

@@ -8,8 +8,56 @@
     "gamedataAssetPath": "Monster_EvolvedBee.webp"
   },
   {
+    "path": "GameData/zzz/assets/monsters/Monster_Greatsworder.webp",
+    "gamedataAssetPath": "Monster_Greatsworder.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/monsters/Monster_Halberdier.webp",
+    "gamedataAssetPath": "Monster_Halberdier.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/monsters/Monster_RoscaSolider.webp",
+    "gamedataAssetPath": "Monster_RoscaSolider.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/monsters/Monster_EvolvedCannoneer.webp",
+    "gamedataAssetPath": "Monster_EvolvedCannoneer.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/monsters/Monster_EvolvedRifleman.webp",
+    "gamedataAssetPath": "Monster_EvolvedRifleman.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/monsters/Monster_EvolvedBlader.webp",
+    "gamedataAssetPath": "Monster_EvolvedBlader.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/monsters/Monster_EvolvedHeavyJaeger.webp",
+    "gamedataAssetPath": "Monster_EvolvedHeavyJaeger.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/monsters/Monster_EvolvedFootRover.webp",
+    "gamedataAssetPath": "Monster_EvolvedFootRover.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/monsters/Monster_EvolvedHeavyStriker.webp",
+    "gamedataAssetPath": "Monster_EvolvedHeavyStriker.webp"
+  },
+  {
     "path": "GameData/zzz/assets/monsters/Monster_MazingerGoldenBomb.webp",
     "gamedataAssetPath": "Monster_MazingerGoldenBomb.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/monsters/Monster_PcyHACMecha.webp",
+    "gamedataAssetPath": "Monster_PcyHACMecha.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/monsters/Monster_HACMecha.webp",
+    "gamedataAssetPath": "Monster_HACMecha.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/monsters/Monster_Mutant_HC.webp",
+    "gamedataAssetPath": "Monster_Mutant_HC.webp"
   },
   {
     "path": "GameData/zzz/assets/monsters/Monster_HeavySoldierPro.webp",
@@ -30,6 +78,14 @@
   {
     "path": "GameData/zzz/assets/items/Zenkov_Currency_Season.webp",
     "gamedataAssetPath": "Zenkov_Currency_Season.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/items/IconFood.webp",
+    "gamedataAssetPath": "IconFood.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/items/IconSnack.webp",
+    "gamedataAssetPath": "IconSnack.webp"
   },
   {
     "path": "GameData/zzz/assets/items/Analeptic.webp",
@@ -88,20 +144,8 @@
     "gamedataAssetPath": "CardDailyUse1651.webp"
   },
   {
-    "path": "GameData/zzz/assets/items/PS_PhysicalSKU.webp",
-    "gamedataAssetPath": "PS_PhysicalSKU.webp"
-  },
-  {
-    "path": "GameData/zzz/assets/items/PS_PhysicalSKU_Mark.webp",
-    "gamedataAssetPath": "PS_PhysicalSKU_Mark.webp"
-  },
-  {
-    "path": "GameData/zzz/assets/items/Xbox_PhysicalSKU.webp",
-    "gamedataAssetPath": "Xbox_PhysicalSKU.webp"
-  },
-  {
-    "path": "GameData/zzz/assets/items/Xbox_PhysicalSKU_Mark.webp",
-    "gamedataAssetPath": "Xbox_PhysicalSKU_Mark.webp"
+    "path": "GameData/zzz/assets/items/BPWeaponSelectNew.webp",
+    "gamedataAssetPath": "BPWeaponSelectNew.webp"
   },
   {
     "path": "GameData/zzz/assets/items/ItemProfile2014.webp",
@@ -136,35 +180,19 @@
     "gamedataAssetPath": "Zenkov_WeaponB_006_Blueprint.webp"
   },
   {
-    "path": "GameData/zzz/assets/items/Zenkov_Collection_044.webp",
-    "gamedataAssetPath": "Zenkov_Collection_044.webp"
-  },
-  {
-    "path": "GameData/zzz/assets/items/Zenkov_Collection_043.webp",
-    "gamedataAssetPath": "Zenkov_Collection_043.webp"
-  },
-  {
-    "path": "GameData/zzz/assets/items/Zenkov_Collection_041.webp",
-    "gamedataAssetPath": "Zenkov_Collection_041.webp"
-  },
-  {
-    "path": "GameData/zzz/assets/items/Zenkov_Collection_042.webp",
-    "gamedataAssetPath": "Zenkov_Collection_042.webp"
-  },
-  {
-    "path": "GameData/zzz/assets/items/Zenkov_Collection_045.webp",
-    "gamedataAssetPath": "Zenkov_Collection_045.webp"
-  },
-  {
     "path": "GameData/zzz/assets/items/Zenkov_CollectionA_004.webp",
     "gamedataAssetPath": "Zenkov_CollectionA_004.webp"
   },
   {
-    "path": "GameData/zzz/assets/items/Zenkov_Box_Blueprint_Blueprint.webp",
-    "gamedataAssetPath": "Zenkov_Box_Blueprint_Blueprint.webp"
-  },
-  {
     "path": "GameData/zzz/assets/items/icon_Wise_Back_WaistOrnament_Default.webp",
     "gamedataAssetPath": "icon_Wise_Back_WaistOrnament_Default.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/items/icon_Wise_Chest_WaistOrnament_04.webp",
+    "gamedataAssetPath": "icon_Wise_Chest_WaistOrnament_04.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/items/icon_Belle_Chest_WaistOrnament_04.webp",
+    "gamedataAssetPath": "icon_Belle_Chest_WaistOrnament_04.webp"
   }
 ]

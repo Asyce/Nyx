@@ -25,6 +25,7 @@
     "3115510": {
       "name": "Pyrois: Dawn's Guardian",
       "desc": "The dying heat haze extinguished within the valley will one day be reborn from the sea. The beast that trampled fate beneath its feet will become the chariot that clears the path ahead.",
+      "obtain_desc": "",
       "image": "IconRole63"
     }
   },
@@ -68,7 +69,10 @@
       "EtherEyesSize3"
     ],
     "rp_max": 0,
-    "rp_recover": 0
+    "rp_recover": 0,
+    "ep_max": 0,
+    "ep_recover": 0,
+    "sharp_critical_damage": 0
   },
   "level": {
     "1": {
@@ -1866,6 +1870,33 @@
       }
     }
   },
+  "skill_priority": [
+    {
+      "id": 1551001,
+      "avatar_id": 1551,
+      "first_priority": [
+        5,
+        3,
+        0
+      ],
+      "second_priority": [
+        1
+      ],
+      "third_priority": [
+        6,
+        2
+      ],
+      "potential_levels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ],
   "skill_list": {
     "1551001": {
       "name": "Basic Attack: Emberglow",
@@ -2143,6 +2174,7 @@
       21103,
       12102
     ],
+    "alt_build": [],
     "part4": {
       "prop": 20103,
       "name": "CRIT Rate",

@@ -50,11 +50,13 @@
     "3115610": {
       "name": "Velina: Elegant Silver Cascade",
       "desc": "Some busybodies claim the Administrative Director rejected the External Strategy Department's official uniform to show off her prestigious upbringing, but Velina has always had little interest in lavish fashion. Rather than the elaborate glamour of ceremonial wear, she favors simple clothing: sharp, proper, and suited to dealing with never-ending administrative work.",
+      "obtain_desc": "",
       "image": "IconRole64"
     },
     "3115611": {
       "name": "Velina: Shade of Leisure",
       "desc": "Outside of work, Velina occasionally invites close friends to afternoon tea parties. During such moments, she changes into relatively casual attire to enjoy her free time... though to the Bangboo, it's merely the Grim Reaper in a different terrifying disguise.",
+      "obtain_desc": "",
       "image": "IconRole64_01"
     }
   },
@@ -98,7 +100,10 @@
       "EtherEyesSize3"
     ],
     "rp_max": 0,
-    "rp_recover": 0
+    "rp_recover": 0,
+    "ep_max": 0,
+    "ep_recover": 0,
+    "sharp_critical_damage": 0
   },
   "level": {
     "1": {
@@ -1745,6 +1750,33 @@
       }
     }
   },
+  "skill_priority": [
+    {
+      "id": 1561001,
+      "avatar_id": 1561,
+      "first_priority": [
+        5,
+        1
+      ],
+      "second_priority": [
+        3
+      ],
+      "third_priority": [
+        0,
+        6,
+        2
+      ],
+      "potential_levels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ],
   "skill_list": {
     "1561001": {
       "name": "Basic Attack: Dancing Fans",
@@ -2006,6 +2038,41 @@
     "part_sub_list": [
       31203,
       12102
+    ],
+    "alt_build": [
+      {
+        "suit_list": [
+          33900,
+          31600
+        ],
+        "part_sub_list": [
+          31203,
+          12102,
+          20103
+        ]
+      },
+      {
+        "suit_list": [
+          33900,
+          33400
+        ],
+        "part_sub_list": [
+          32303,
+          12102,
+          32203
+        ]
+      },
+      {
+        "suit_list": [
+          33900,
+          33000
+        ],
+        "part_sub_list": [
+          30502,
+          31402,
+          12102
+        ]
+      }
     ],
     "part4": {
       "prop": 30502,

@@ -1452,6 +1452,33 @@
       }
     }
   },
+  "skill_priority": [
+    {
+      "id": 1351001,
+      "avatar_id": 1351,
+      "first_priority": [
+        5,
+        1,
+        6
+      ],
+      "second_priority": [
+        3
+      ],
+      "third_priority": [
+        0,
+        2
+      ],
+      "potential_levels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ],
   "skill_list": {
     "1351001": {
       "name": "Basic Attack: Swift Strike",

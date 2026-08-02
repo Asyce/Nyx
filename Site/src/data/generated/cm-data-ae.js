@@ -32245,7 +32245,7 @@
               },
               {
                 "name": "Turbid Avatar",
-                "type": "Contrary to the in-game text, Lifeng will apply both Knock Down and Physical Sus",
+                "type": "Combat Skill",
                 "desc": "SKILL DESCRIPTION: Swings the polearm multiple times to deal 2 hits of Physical DMG, then slams the ground to deal Physical DMG and Knock Down to all enemies in the area of effect.\nIf the enemy struck by the last hit of this skill has no Vulnerable stacks, apply Physical Susceptibility to the said enemy as well.",
                 "stats": [
                   {

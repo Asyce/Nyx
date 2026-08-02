@@ -50,11 +50,13 @@
     "3114010": {
       "name": "Alice: Celestian Etiquette",
       "desc": "The young woman's perfect symmetry is only ever slightly compromised when she wears the school crest — such is the elegant and noble Thymefield spirit.",
+      "obtain_desc": "",
       "image": "IconRole46"
     },
     "3114011": {
       "name": "Alice: Sea of Thyme",
       "desc": "Though it wasn't completely symmetrical, she did not mind this gift from a dear friend.\nThe girl pushed open the locked door and walked along the pink beach after the sudden downpour, the cool waves brushing over her ankles. There were no unknowns left to frighten her.",
+      "obtain_desc": "",
       "image": "IconRole46_01"
     }
   },
@@ -98,7 +100,10 @@
       "EtherEyesSize2"
     ],
     "rp_max": 0,
-    "rp_recover": 0
+    "rp_recover": 0,
+    "ep_max": 0,
+    "ep_recover": 0,
+    "sharp_critical_damage": 0
   },
   "level": {
     "1": {
@@ -1832,6 +1837,33 @@
       }
     }
   },
+  "skill_priority": [
+    {
+      "id": 1401001,
+      "avatar_id": 1401,
+      "first_priority": [
+        5,
+        0
+      ],
+      "second_priority": [
+        1,
+        3
+      ],
+      "third_priority": [
+        6,
+        2
+      ],
+      "potential_levels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ],
   "skill_list": {
     "1401001": {
       "name": "Basic Attack: Celestial Overture",
@@ -2101,6 +2133,7 @@
       31203,
       12102
     ],
+    "alt_build": [],
     "part4": {
       "prop": 31203,
       "name": "Anomaly Proficiency",

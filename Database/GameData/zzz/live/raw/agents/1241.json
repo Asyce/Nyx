@@ -1816,6 +1816,33 @@
       }
     }
   },
+  "skill_priority": [
+    {
+      "id": 1241001,
+      "avatar_id": 1241,
+      "first_priority": [
+        5,
+        0,
+        3
+      ],
+      "second_priority": [
+        1,
+        6
+      ],
+      "third_priority": [
+        2
+      ],
+      "potential_levels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ],
   "skill_list": {
     "1241001": {
       "name": "Basic Attack: Don't Move!",

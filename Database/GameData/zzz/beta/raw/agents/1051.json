@@ -50,6 +50,7 @@
     "3110510": {
       "name": "Yidhari: Stream of Consciousness",
       "desc": "Past recollections and novel dreams spill over, inviting her to drown in them as they entwine on paper. With a blank page before her, she pens the opening line at the crossroads of reality and illusion.",
+      "obtain_desc": "",
       "image": "IconRole52"
     }
   },
@@ -93,7 +94,10 @@
       "EtherEyesSize3"
     ],
     "rp_max": 120,
-    "rp_recover": 200
+    "rp_recover": 200,
+    "ep_max": 0,
+    "ep_recover": 0,
+    "sharp_critical_damage": 0
   },
   "level": {
     "1": {
@@ -1906,6 +1910,33 @@
       }
     }
   },
+  "skill_priority": [
+    {
+      "id": 1051001,
+      "avatar_id": 1051,
+      "first_priority": [
+        5,
+        0,
+        1
+      ],
+      "second_priority": [
+        3
+      ],
+      "third_priority": [
+        6,
+        2
+      ],
+      "potential_levels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ],
   "skill_list": {
     "1051001": {
       "name": "Basic Attack: Crushing Strike",
@@ -2274,6 +2305,7 @@
       21103,
       11102
     ],
+    "alt_build": [],
     "part4": {
       "prop": 20103,
       "name": "CRIT Rate",

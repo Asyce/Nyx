@@ -50,6 +50,7 @@
     "3111210": {
       "name": "Ben: Fluffy Beastking",
       "desc": "Ignoring the intimidating look meant to cow outsiders, even the Beast King struggles with grooming his fur and sorting out the bills.",
+      "obtain_desc": "",
       "image": "IconRole16"
     }
   },
@@ -93,7 +94,10 @@
       "EtherEyesSize3"
     ],
     "rp_max": 0,
-    "rp_recover": 0
+    "rp_recover": 0,
+    "ep_max": 0,
+    "ep_recover": 0,
+    "sharp_critical_damage": 0
   },
   "level": {
     "1": {
@@ -1571,6 +1575,51 @@
       }
     }
   },
+  "skill_priority": [
+    {
+      "id": 1121001,
+      "avatar_id": 1121,
+      "first_priority": [
+        5,
+        1
+      ],
+      "second_priority": [
+        3
+      ],
+      "third_priority": [
+        6,
+        0,
+        2
+      ],
+      "potential_levels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": 1121002,
+      "avatar_id": 1121,
+      "first_priority": [
+        5,
+        1,
+        0
+      ],
+      "second_priority": [
+        3
+      ],
+      "third_priority": [
+        6,
+        2
+      ],
+      "potential_levels": [
+        6
+      ]
+    }
+  ],
   "skill_list": {
     "1121001": {
       "name": "Basic Attack: Debt Reconciliation",
@@ -1854,6 +1903,7 @@
       13102,
       12102
     ],
+    "alt_build": [],
     "part4": {
       "prop": 13102,
       "name": "DEF",
@@ -1880,7 +1930,7 @@
     }
   },
   "strategy": [
-    "05",
+    "04",
     "<IconMap:Icon_GeneralBuff_Fire>Fire, defense support",
     "Grants shield Retaliation to all squad members"
   ],

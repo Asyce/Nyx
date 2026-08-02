@@ -49,6 +49,7 @@
     "3110110": {
       "name": "Anby: Street Streak",
       "desc": "These casual clothes were hand-picked and styled for Anby by Nicole. They're designed for easy movement and ideal for moving about the streets. The fabrics and accessories cost a lot more than they seem, so (?) Anby treats the outfit with real care.",
+      "obtain_desc": "",
       "image": "IconRole01"
     }
   },
@@ -92,7 +93,10 @@
       "EtherEyesSize2"
     ],
     "rp_max": 0,
-    "rp_recover": 0
+    "rp_recover": 0,
+    "ep_max": 0,
+    "ep_recover": 0,
+    "sharp_critical_damage": 0
   },
   "level": {
     "1": {
@@ -1472,6 +1476,33 @@
       }
     }
   },
+  "skill_priority": [
+    {
+      "id": 1011001,
+      "avatar_id": 1011,
+      "first_priority": [
+        5,
+        1
+      ],
+      "second_priority": [
+        0,
+        3
+      ],
+      "third_priority": [
+        2,
+        6
+      ],
+      "potential_levels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ],
   "skill_list": {
     "1011001": {
       "name": "Basic Attack: Turbo Volt",
@@ -1741,6 +1772,7 @@
       12102,
       20103
     ],
+    "alt_build": [],
     "part4": {
       "prop": 20103,
       "name": "CRIT Rate",

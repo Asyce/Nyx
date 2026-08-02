@@ -409,6 +409,76 @@
     "zh": "蜕生·骸蜂",
     "ja": "羽化・ホーネット"
   },
+  "10041": {
+    "icon": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_Greatsworder.png",
+    "rarity": 1,
+    "group": 290,
+    "en": "Air Patrol Vanguard",
+    "desc": "CardDesc_10041",
+    "ko": "BriefName_Monster_Greatsworder",
+    "zh": "空巡先锋",
+    "ja": "空巡先遣隊"
+  },
+  "10042": {
+    "icon": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_Halberdier.png",
+    "rarity": 1,
+    "group": 290,
+    "en": "Sky Lancer",
+    "desc": "CardDesc_10042",
+    "ko": "BriefName_Monster_Halberdier",
+    "zh": "空巡枪骑",
+    "ja": "空巡キャバリー"
+  },
+  "10043": {
+    "icon": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_RoscaSolider.png",
+    "rarity": 1,
+    "group": 290,
+    "en": "Sky Patrol Guard",
+    "desc": "CardDesc_10043",
+    "ko": "BriefName_Monster_RoscaSolider",
+    "zh": "空巡近卫",
+    "ja": "空巡近衛"
+  },
+  "10044": {
+    "icon": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_EvolvedCannoneer.png",
+    "rarity": 1,
+    "group": 205,
+    "en": "Special Offensive · Grenadier Jaeger",
+    "desc": "CardDesc_10044",
+    "ko": "BriefName_Monster_EvolvedCannoneer",
+    "zh": "特战·掷弹猎兵",
+    "ja": "特戦・擲弾猟兵"
+  },
+  "10045": {
+    "icon": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_EvolvedRifleman.png",
+    "rarity": 1,
+    "group": 205,
+    "en": "Special Offensive·Light Jaeger",
+    "desc": "CardDesc_10045",
+    "ko": "BriefName_Monster_EvolvedRifleman",
+    "zh": "特战·轻装猎兵",
+    "ja": "特戦・軽装猟兵"
+  },
+  "10046": {
+    "icon": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_EvolvedBlader.png",
+    "rarity": 1,
+    "group": 205,
+    "en": "Special Offensive·Strike Jaeger",
+    "desc": "CardDesc_10046",
+    "ko": "BriefName_Monster_EvolvedBlader",
+    "zh": "特战·掠袭猎兵",
+    "ja": "特戦・突撃猟兵"
+  },
+  "10047": {
+    "icon": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_EvolvedHeavyJaeger.png",
+    "rarity": 1,
+    "group": 205,
+    "en": "Special Offensive · Guard Jaeger",
+    "desc": "CardDesc_10047",
+    "ko": "BriefName_Monster_EvolvedHeavyJaeger",
+    "zh": "特战·戍卫猎兵",
+    "ja": "特戦・守備猟兵"
+  },
   "19999": {
     "icon": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/CardResources/Unknown.png",
     "rarity": 1,
@@ -778,6 +848,26 @@
     "ko": "탈피·성곽 수호부",
     "zh": "蜕生·城防戍卫布",
     "ja": "羽化・シティー・ガーディアンナ"
+  },
+  "20037": {
+    "icon": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_EvolvedFootRover.png",
+    "rarity": 2,
+    "group": 205,
+    "en": "Special Offensive · \"Lightfoot Rover\"",
+    "desc": "CardDesc_20037",
+    "ko": "BriefName_Monster_EvolvedFootRover",
+    "zh": "特战·「捷足巡游者」",
+    "ja": "特戦・「駿足ローバー」"
+  },
+  "20038": {
+    "icon": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_EvolvedHeavyStriker.png",
+    "rarity": 2,
+    "group": 205,
+    "en": "Special Offensive · \"Heavy Striker\"",
+    "desc": "CardDesc_20038",
+    "ko": "BriefName_Monster_EvolvedHeavyStriker",
+    "zh": "特战·「重装侵袭者」",
+    "ja": "特戦・「重装ストライカー」"
   },
   "29999": {
     "icon": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/CardResources/Unknown.png",
@@ -1319,6 +1409,26 @@
     "zh": "乌利迪姆",
     "ja": "ウリディンム"
   },
+  "30054": {
+    "icon": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_PcyHACMecha.png",
+    "rarity": 3,
+    "group": 290,
+    "en": "Autonomous Tactical Unit · \"Ares\"",
+    "desc": "CardDesc_30054",
+    "ko": "BriefName_Monster_PcyHACMecha",
+    "zh": "自律战术单位·「阿瑞斯」",
+    "ja": "自律戦術ユニット・「アレス」"
+  },
+  "30055": {
+    "icon": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_HACMecha.png",
+    "rarity": 3,
+    "group": 290,
+    "en": "Autonomous Tactical Unit · \"Conqueror\"",
+    "desc": "CardDesc_30055",
+    "ko": "BriefName_Monster_HACMecha",
+    "zh": "自律战术单位·「征服者」",
+    "ja": "自律戦術ユニット・「征服者」"
+  },
   "35001": {
     "icon": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_Nineveh.png",
     "rarity": 4,
@@ -1438,6 +1548,26 @@
     "ko": "융합·기르타블리르",
     "zh": "异构·基塔布鲁",
     "ja": "異性体・ギルタブルル"
+  },
+  "40010": {
+    "icon": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv04/Monster_Larval.png",
+    "rarity": 4,
+    "group": 201,
+    "en": "Kusarikku",
+    "desc": "CardDesc_40010",
+    "ko": "BriefName_Monster_Larval",
+    "zh": "库萨里库",
+    "ja": "クサリク"
+  },
+  "40011": {
+    "icon": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv04/Monster_Mutant_HC.png",
+    "rarity": 4,
+    "group": 290,
+    "en": "Integrated: Scorched Horizon",
+    "desc": "CardDesc_40011",
+    "ko": "BriefName_Monster_Mutant_HC",
+    "zh": "异构·焚昼余火",
+    "ja": "異性体・焦天残火"
   },
   "100001": {
     "icon": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_ClaymoreGreyPro.png",

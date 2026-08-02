@@ -1585,6 +1585,33 @@
       }
     }
   },
+  "skill_priority": [
+    {
+      "id": 1081001,
+      "avatar_id": 1081,
+      "first_priority": [
+        5,
+        0,
+        3
+      ],
+      "second_priority": [
+        1,
+        2
+      ],
+      "third_priority": [
+        6
+      ],
+      "potential_levels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ],
   "skill_list": {
     "1081001": {
       "name": "Basic Attack: Full Firepower",

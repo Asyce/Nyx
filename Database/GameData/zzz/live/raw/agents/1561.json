@@ -1745,6 +1745,33 @@
       }
     }
   },
+  "skill_priority": [
+    {
+      "id": 1561001,
+      "avatar_id": 1561,
+      "first_priority": [
+        5,
+        1
+      ],
+      "second_priority": [
+        3
+      ],
+      "third_priority": [
+        0,
+        6,
+        2
+      ],
+      "potential_levels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ],
   "skill_list": {
     "1561001": {
       "name": "Basic Attack: Dancing Fans",

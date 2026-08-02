@@ -18104,8 +18104,8 @@
       "skill": "GameData/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.webp"
     },
     "skill": {
-      "desc": "Summon a Skywatch Gunner to attack the target, dealing {0} Havoc DMG 6 times.\nCD: {1}s",
-      "simple_desc": "Summon a Skywatch Gunner to deal Havoc DMG to the target.",
+      "desc": "Summon a Skywatch Lancer to attack the target, dealing {0} Havoc DMG 6 times.\nCD: {1}s",
+      "simple_desc": "Summon a Skywatch Lancer to deal Havoc DMG to the target.",
       "param": [
         [
           "17.83%",
@@ -18151,7 +18151,7 @@
     },
     "monsterInfo": 320000690,
     "liveComparison": {
-      "currentHash": "2d83e8576e5a3ecdbbc1c5d7086e1d5c50be66b79539e8ebd91756402b6e1433"
+      "currentHash": "bfbd09be6ca5971771cc93f064f09eecb4a459aa242664a5bf45183bada354ff"
     }
   },
   {
@@ -18198,40 +18198,35 @@
       "simple_desc": "Transform into Calamity Effigy to deal Aero DMG.\nResonators with this Echo equipped in the main slot gain Aero DMG Bonus, and an additional Aero DMG Bonus upon inflicting Tune Strain - Shifting on the target.",
       "param": [
         [
-          "45.00%",
-          "135.00%",
+          "225.00%",
           "10.00%",
           "10.00%",
           "15",
           "25"
         ],
         [
-          "54.00%",
-          "162.00%",
+          "270.00%",
           "10.00%",
           "10.00%",
           "15",
           "25"
         ],
         [
-          "63.00%",
-          "189.00%",
+          "315.00%",
           "10.00%",
           "10.00%",
           "15",
           "25"
         ],
         [
-          "72.00%",
-          "216.00%",
+          "360.00%",
           "10.00%",
           "10.00%",
           "15",
           "25"
         ],
         [
-          "81.00%",
-          "243.00%",
+          "405.00%",
           "10.00%",
           "10.00%",
           "15",
@@ -18261,7 +18256,7 @@
     },
     "monsterInfo": 340000320,
     "liveComparison": {
-      "currentHash": "38fb85b8aeb8df4b28699f3009000782b0a29556039defb6ff90ff07734802c9"
+      "currentHash": "822a81192babafe1eb1d200485f0188870d31490fecf1915d8465389a029a2cf"
     }
   },
   {

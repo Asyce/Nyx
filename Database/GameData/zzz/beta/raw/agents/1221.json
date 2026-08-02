@@ -51,6 +51,7 @@
     "3112210": {
       "name": "Tsukishiro Yanagi: Flowing Moonshade",
       "desc": "Even reflective lenses can't hide the sharp gleam in the Deputy Chief's eyes. She has to constantly keep watch over a warrior obsessed with training, a scout who slacks off whenever possible, and a little one who's forever getting stomachaches.",
+      "obtain_desc": "",
       "image": "IconRole31"
     }
   },
@@ -94,7 +95,10 @@
       "EtherEyesSize3"
     ],
     "rp_max": 0,
-    "rp_recover": 0
+    "rp_recover": 0,
+    "ep_max": 0,
+    "ep_recover": 0,
+    "sharp_critical_damage": 0
   },
   "level": {
     "1": {
@@ -1791,6 +1795,33 @@
       }
     }
   },
+  "skill_priority": [
+    {
+      "id": 1221001,
+      "avatar_id": 1221,
+      "first_priority": [
+        5,
+        1,
+        0
+      ],
+      "second_priority": [
+        3
+      ],
+      "third_priority": [
+        6,
+        2
+      ],
+      "potential_levels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ],
   "skill_list": {
     "1221001": {
       "name": "Basic Attack: Tsukuyomi Kagura (1st, 2nd Hit)",
@@ -2060,6 +2091,7 @@
       31203,
       12102
     ],
+    "alt_build": [],
     "part4": {
       "prop": 31203,
       "name": "Anomaly Proficiency",

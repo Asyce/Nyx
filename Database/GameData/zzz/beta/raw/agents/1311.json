@@ -51,11 +51,13 @@
     "3113110": {
       "name": "Astra Yao: Scarlet Rock",
       "desc": "The bold red is only to ignite the freedom deep within. On stage, nothing can overshadow her brilliance.",
+      "obtain_desc": "",
       "image": "IconRole36"
     },
     "3113111": {
       "name": "Astra Yao: Chandelier",
       "desc": "The black-and-white dress glimmers in both light and shadows. Every smile of hers seems to sink into the flowing light of the night, becoming a timeless classic.",
+      "obtain_desc": "",
       "image": "IconRole36_01"
     }
   },
@@ -99,7 +101,10 @@
       "EtherEyesSize3"
     ],
     "rp_max": 0,
-    "rp_recover": 0
+    "rp_recover": 0,
+    "ep_max": 0,
+    "ep_recover": 0,
+    "sharp_critical_damage": 0
   },
   "level": {
     "1": {
@@ -1801,6 +1806,51 @@
       }
     }
   },
+  "skill_priority": [
+    {
+      "id": 1311001,
+      "avatar_id": 1311,
+      "first_priority": [
+        5,
+        1
+      ],
+      "second_priority": [
+        3
+      ],
+      "third_priority": [
+        6,
+        0,
+        2
+      ],
+      "potential_levels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": 1311002,
+      "avatar_id": 1311,
+      "first_priority": [
+        5,
+        1
+      ],
+      "second_priority": [
+        0,
+        3
+      ],
+      "third_priority": [
+        6,
+        2
+      ],
+      "potential_levels": [
+        6
+      ]
+    }
+  ],
   "skill_list": {
     "1311001": {
       "name": "Basic Attack: \"Capriccio\"",
@@ -2070,6 +2120,7 @@
       12102,
       31203
     ],
+    "alt_build": [],
     "part4": {
       "prop": 30502,
       "name": "Energy Regen",

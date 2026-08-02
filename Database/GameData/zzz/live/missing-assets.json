@@ -88,22 +88,6 @@
     "gamedataAssetPath": "CardDailyUse1651.webp"
   },
   {
-    "path": "GameData/zzz/assets/items/PS_PhysicalSKU.webp",
-    "gamedataAssetPath": "PS_PhysicalSKU.webp"
-  },
-  {
-    "path": "GameData/zzz/assets/items/PS_PhysicalSKU_Mark.webp",
-    "gamedataAssetPath": "PS_PhysicalSKU_Mark.webp"
-  },
-  {
-    "path": "GameData/zzz/assets/items/Xbox_PhysicalSKU.webp",
-    "gamedataAssetPath": "Xbox_PhysicalSKU.webp"
-  },
-  {
-    "path": "GameData/zzz/assets/items/Xbox_PhysicalSKU_Mark.webp",
-    "gamedataAssetPath": "Xbox_PhysicalSKU_Mark.webp"
-  },
-  {
     "path": "GameData/zzz/assets/items/ItemProfile2014.webp",
     "gamedataAssetPath": "ItemProfile2014.webp"
   },
@@ -134,26 +118,6 @@
   {
     "path": "GameData/zzz/assets/items/Zenkov_WeaponB_006_Blueprint.webp",
     "gamedataAssetPath": "Zenkov_WeaponB_006_Blueprint.webp"
-  },
-  {
-    "path": "GameData/zzz/assets/items/Zenkov_Collection_044.webp",
-    "gamedataAssetPath": "Zenkov_Collection_044.webp"
-  },
-  {
-    "path": "GameData/zzz/assets/items/Zenkov_Collection_043.webp",
-    "gamedataAssetPath": "Zenkov_Collection_043.webp"
-  },
-  {
-    "path": "GameData/zzz/assets/items/Zenkov_Collection_041.webp",
-    "gamedataAssetPath": "Zenkov_Collection_041.webp"
-  },
-  {
-    "path": "GameData/zzz/assets/items/Zenkov_Collection_042.webp",
-    "gamedataAssetPath": "Zenkov_Collection_042.webp"
-  },
-  {
-    "path": "GameData/zzz/assets/items/Zenkov_Collection_045.webp",
-    "gamedataAssetPath": "Zenkov_Collection_045.webp"
   },
   {
     "path": "GameData/zzz/assets/items/Zenkov_CollectionA_004.webp",

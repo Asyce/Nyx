@@ -1805,6 +1805,33 @@
       }
     }
   },
+  "skill_priority": [
+    {
+      "id": 1581001,
+      "avatar_id": 1581,
+      "first_priority": [
+        5,
+        3,
+        0
+      ],
+      "second_priority": [
+        1
+      ],
+      "third_priority": [
+        6,
+        2
+      ],
+      "potential_levels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ],
   "skill_list": {
     "1581001": {
       "name": "Basic Attack: Leap",

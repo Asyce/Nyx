@@ -28478,7 +28478,7 @@
           "simpleDescription": "When the target's <color=Highlight>Off-Tune Level</color> is full, the Resonator may cast <color=Highlight><te href=100001>Tune Break</te></color> on the target.",
           "params": [],
           "assets": {
-            "icon": "GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconWeakPointBreakFist.webp"
+            "icon": "GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconWeakPointBreakMagic.webp"
           },
           "levels": []
         }
@@ -28864,7 +28864,7 @@
     },
     "liveComparison": {
       "liveHash": "cac7c0d0939d552e4ccd71ce04d63bacecaae6fa35dc7d0609d8807f77d74ed8",
-      "currentHash": "c059275df8c5d67443c9d33d9e948c07651658c48e24846858bee0fcae151e35"
+      "currentHash": "36f68bd84205009c65f3836780707128ba9148a58e57ba2a05234ba98a10aeb7"
     }
   },
   {

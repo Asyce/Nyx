@@ -1801,6 +1801,51 @@
       }
     }
   },
+  "skill_priority": [
+    {
+      "id": 1311001,
+      "avatar_id": 1311,
+      "first_priority": [
+        5,
+        1
+      ],
+      "second_priority": [
+        3
+      ],
+      "third_priority": [
+        6,
+        0,
+        2
+      ],
+      "potential_levels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": 1311002,
+      "avatar_id": 1311,
+      "first_priority": [
+        5,
+        1
+      ],
+      "second_priority": [
+        0,
+        3
+      ],
+      "third_priority": [
+        6,
+        2
+      ],
+      "potential_levels": [
+        6
+      ]
+    }
+  ],
   "skill_list": {
     "1311001": {
       "name": "Basic Attack: \"Capriccio\"",

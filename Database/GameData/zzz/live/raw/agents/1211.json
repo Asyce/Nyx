@@ -1703,6 +1703,33 @@
       }
     }
   },
+  "skill_priority": [
+    {
+      "id": 1211001,
+      "avatar_id": 1211,
+      "first_priority": [
+        5,
+        1
+      ],
+      "second_priority": [
+        3
+      ],
+      "third_priority": [
+        6,
+        0,
+        2
+      ],
+      "potential_levels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ],
   "skill_list": {
     "1211001": {
       "name": "Basic Attack: Whack the Dimwit",

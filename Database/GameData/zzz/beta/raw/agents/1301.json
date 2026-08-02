@@ -50,6 +50,7 @@
     "3113010": {
       "name": "Orphie & Magus: Two Banks of the River",
       "desc": "A soul of mirrored halves, having twice crossed the river of the dead. One side forged in fire, the other shaped into ice; one looking back on where it came from, the other watching for a new dawn. They wander on — never lost, never ceasing.",
+      "obtain_desc": "",
       "image": "IconRole49"
     }
   },
@@ -94,7 +95,10 @@
       "EtherEyesSize2"
     ],
     "rp_max": 0,
-    "rp_recover": 0
+    "rp_recover": 0,
+    "ep_max": 0,
+    "ep_recover": 0,
+    "sharp_critical_damage": 0
   },
   "level": {
     "1": {
@@ -1824,6 +1828,33 @@
       }
     }
   },
+  "skill_priority": [
+    {
+      "id": 1301001,
+      "avatar_id": 1301,
+      "first_priority": [
+        5,
+        1
+      ],
+      "second_priority": [
+        3
+      ],
+      "third_priority": [
+        6,
+        0,
+        2
+      ],
+      "potential_levels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ],
   "skill_list": {
     "1301001": {
       "name": "Basic Attack: High-Pressure Flamethrower",
@@ -2080,6 +2111,7 @@
       21103,
       12102
     ],
+    "alt_build": [],
     "part4": {
       "prop": 21103,
       "name": "CRIT DMG",

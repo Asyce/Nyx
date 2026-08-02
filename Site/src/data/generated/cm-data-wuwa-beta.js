@@ -7,10 +7,10 @@
 (function(){
   window.CM_CFG_BETA = window.CM_CFG_BETA || {};
   window.CM_CFG_BETA["wuwa"] = {
-  "version": "3.6.1",
+  "version": "3.6.1+8296177",
   "liveVersion": "3.5",
-  "newCount": 1,
-  "changedCount": 1,
+  "newCount": 0,
+  "changedCount": 2,
   "roster": [
     {
       "id": "ww-zani",
@@ -25,7 +25,7 @@
       "slug": "zani",
       "release": 1745884800000,
       "releasePatch": "2.3",
-      "updated": 1783641600000,
+      "updated": 1785369600000,
       "sourceOrder": 1507,
       "voiceActors": {
         "english": "imdb:nm3229078|Alexandra Metaxa",
@@ -77,7 +77,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "3.6.1",
+        "version": "3.6.1+8296177",
         "sections": [
           {
             "title": "Skills",
@@ -1671,7 +1671,7 @@
       "slug": "suisui",
       "release": 1785369600000,
       "releasePatch": "3.5",
-      "updated": 1781740800000,
+      "updated": 1785542400000,
       "sourceOrder": 1110,
       "voiceActors": {
         "english": "imdb:nm5069067|Emily Piggford",
@@ -1682,9 +1682,17 @@
       "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_71_UI.webp",
       "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleSuisui.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/suisui-6c2f0381f367.webp",
-      "status": "beta",
+      "signatureWeapon": {
+        "id": "21050096",
+        "name": "Firstlight's Herald",
+        "type": "Rectifier",
+        "educated": false
+      },
+      "signatureWeaponId": "21050096",
+      "signatureWeaponName": "Firstlight's Herald",
+      "status": "live",
       "labels": [
-        "3.5"
+        "New"
       ],
       "r": 5,
       "el": "Glacio",
@@ -1717,7 +1725,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "3.6.1",
+        "version": "3.6.1+8296177",
         "sections": [
           {
             "title": "Skills",
@@ -2673,7 +2681,7 @@
                 "name": "Tune Break: Rectifier",
                 "type": "Tune Break",
                 "desc": "When the target's Off-Tune Level is full, the Resonator may cast Tune Break on the target.",
-                "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconWeakPointBreakFist.webp"
+                "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconWeakPointBreakMagic.webp"
               }
             ]
           },
@@ -2971,9 +2979,147 @@
         ],
         "ascCost": 170000,
         "talentCost": 2030000,
-        "currency": 2200000
+        "currency": 2530000,
+        "weapon": {
+          "name": "Firstlight's Herald",
+          "icon": "../../Database/GameData/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050096_UI.webp",
+          "art": "../../Database/GameData/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050096_UI.webp",
+          "items": [
+            {
+              "id": "41100061",
+              "name": "LF Exoswarm Core",
+              "qty": 6,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_021_UI.webp",
+              "source": "Exoswarm / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Exoswarm"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100062",
+              "name": "MF Exoswarm Core",
+              "qty": 6,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_022_UI.webp",
+              "source": "Exoswarm / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Exoswarm"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100063",
+              "name": "HF Exoswarm Core",
+              "qty": 10,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_023_UI.webp",
+              "source": "Exoswarm",
+              "sourceDetails": [
+                {
+                  "name": "Exoswarm"
+                }
+              ]
+            },
+            {
+              "id": "41100064",
+              "name": "FF Exoswarm Core",
+              "qty": 12,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_024_UI.webp",
+              "source": "Exoswarm",
+              "sourceDetails": [
+                {
+                  "name": "Exoswarm"
+                }
+              ]
+            },
+            {
+              "id": "43021031",
+              "name": "Spliced String",
+              "qty": 6,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_1_UI.webp",
+              "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Sunset",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Cloudfall Chasm"
+                },
+                {
+                  "name": "Forgery Challenge: Lesson in Sunset"
+                }
+              ]
+            },
+            {
+              "id": "43021032",
+              "name": "Broken String",
+              "qty": 8,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_2_UI.webp",
+              "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Sunset",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Cloudfall Chasm"
+                },
+                {
+                  "name": "Forgery Challenge: Lesson in Sunset"
+                }
+              ]
+            },
+            {
+              "id": "43021033",
+              "name": "Solidified String",
+              "qty": 6,
+              "rar": 4,
+              "kind": "book",
+              "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_3_UI.webp",
+              "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Sunset",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Cloudfall Chasm"
+                },
+                {
+                  "name": "Forgery Challenge: Lesson in Sunset"
+                }
+              ]
+            },
+            {
+              "id": "43021034",
+              "name": "Melodic String",
+              "qty": 20,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_4_UI.webp",
+              "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Sunset",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Cloudfall Chasm"
+                },
+                {
+                  "name": "Forgery Challenge: Lesson in Sunset"
+                }
+              ]
+            }
+          ],
+          "cost": 330000
+        }
       },
-      "betaStatus": "new"
+      "betaStatus": "changed"
     }
   ],
   "weapons": [

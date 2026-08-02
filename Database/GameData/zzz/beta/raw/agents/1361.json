@@ -50,6 +50,7 @@
     "3113610": {
       "name": "Trigger: Gaze Into the Light",
       "desc": "In the Hollows, her aim never wavers. She's a teammate one can rely on to cover their back without question. But once she returns to Sixth Street, that constant watchfulness softens, lingering for a moment before disappearing the instant it's sensed.",
+      "obtain_desc": "",
       "image": "IconRole39"
     }
   },
@@ -93,7 +94,10 @@
       "EtherEyesSize3"
     ],
     "rp_max": 0,
-    "rp_recover": 0
+    "rp_recover": 0,
+    "ep_max": 0,
+    "ep_recover": 0,
+    "sharp_critical_damage": 0
   },
   "level": {
     "1": {
@@ -1755,6 +1759,33 @@
       }
     }
   },
+  "skill_priority": [
+    {
+      "id": 1361001,
+      "avatar_id": 1361,
+      "first_priority": [
+        5,
+        0
+      ],
+      "second_priority": [
+        1,
+        3
+      ],
+      "third_priority": [
+        6,
+        2
+      ],
+      "potential_levels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ],
   "skill_list": {
     "1361001": {
       "name": "Basic Attack: Cold-Bore Shot (1st, 2nd, and 3rd hit)",
@@ -2018,6 +2049,7 @@
       12102,
       21103
     ],
+    "alt_build": [],
     "part4": {
       "prop": 20103,
       "name": "CRIT Rate",

@@ -50,6 +50,7 @@
     "3114510": {
       "name": "Lucia: Whispering Dreams",
       "desc": "Her cloak is the curtain of night, and beneath her hood rests the world's quiet whispers. She sings for the dusk and speaks in dreams, gathering the thoughts sleepers leave behind and weaving them into halos and riddles across the stars.",
+      "obtain_desc": "",
       "image": "IconRole50"
     }
   },
@@ -93,7 +94,10 @@
       "EtherEyesSize2"
     ],
     "rp_max": 0,
-    "rp_recover": 0
+    "rp_recover": 0,
+    "ep_max": 0,
+    "ep_recover": 0,
+    "sharp_critical_damage": 0
   },
   "level": {
     "1": {
@@ -1893,6 +1897,33 @@
       }
     }
   },
+  "skill_priority": [
+    {
+      "id": 1451001,
+      "avatar_id": 1451,
+      "first_priority": [
+        5,
+        1
+      ],
+      "second_priority": [
+        3,
+        0,
+        6
+      ],
+      "third_priority": [
+        2
+      ],
+      "potential_levels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ],
   "skill_list": {
     "1451001": {
       "name": "Basic Attack: Orbital Combo",
@@ -2141,6 +2172,7 @@
       11102,
       11103
     ],
+    "alt_build": [],
     "part4": {
       "prop": 11102,
       "name": "HP",

@@ -50,6 +50,7 @@
     "3113410": {
       "name": "Zhao: Cuddly Executor",
       "desc": "Warm, woolly ears and a small build may invite underestimation, but the Judge of \"Value\" won't think twice about bringing her branch down on anyone who tries.",
+      "obtain_desc": "",
       "image": "IconRole56"
     }
   },
@@ -93,7 +94,10 @@
       "EtherEyesSize0"
     ],
     "rp_max": 0,
-    "rp_recover": 0
+    "rp_recover": 0,
+    "ep_max": 0,
+    "ep_recover": 0,
+    "sharp_critical_damage": 0
   },
   "level": {
     "1": {
@@ -1679,6 +1683,33 @@
       }
     }
   },
+  "skill_priority": [
+    {
+      "id": 1341001,
+      "avatar_id": 1341,
+      "first_priority": [
+        5,
+        1,
+        0
+      ],
+      "second_priority": [
+        3,
+        6
+      ],
+      "third_priority": [
+        2
+      ],
+      "potential_levels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ],
   "skill_list": {
     "1341001": {
       "name": "Basic Attack: Glacial Judgment",
@@ -1941,6 +1972,7 @@
       11102,
       11103
     ],
+    "alt_build": [],
     "part4": {
       "prop": 11102,
       "name": "HP",
@@ -1967,7 +1999,7 @@
     }
   },
   "strategy": [
-    "05",
+    "04",
     "<IconMap:Icon_GeneralBuff_Ice>Ice, versatile quick-swap support",
     "Can reliably activate Ether Veil",
     "Boosts all squad members' ATK"

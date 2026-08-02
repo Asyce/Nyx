@@ -50,6 +50,7 @@
     "3111710": {
       "name": "Burnice: Wildfire Rave",
       "desc": "An outfit hotter than any Nitro-Fuel. Wander into a party in the Outer Ring, and odds are you'll bump into Burnice... but drink her signature cocktails at your own risk...\nWait, you've already taken a sip? Well then — 3, 2, 1... fire!",
+      "obtain_desc": "",
       "image": "IconRole32"
     }
   },
@@ -93,7 +94,10 @@
       "EtherEyesSize2"
     ],
     "rp_max": 0,
-    "rp_recover": 0
+    "rp_recover": 0,
+    "ep_max": 0,
+    "ep_recover": 0,
+    "sharp_critical_damage": 0
   },
   "level": {
     "1": {
@@ -1968,6 +1972,33 @@
       }
     }
   },
+  "skill_priority": [
+    {
+      "id": 1171001,
+      "avatar_id": 1171,
+      "first_priority": [
+        5,
+        1
+      ],
+      "second_priority": [
+        0,
+        3
+      ],
+      "third_priority": [
+        6,
+        2
+      ],
+      "potential_levels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ],
   "skill_list": {
     "1171001": {
       "name": "Basic Attack: Direct Flame Blend",
@@ -2244,6 +2275,7 @@
       31203,
       12102
     ],
+    "alt_build": [],
     "part4": {
       "prop": 30502,
       "name": "Energy Regen",

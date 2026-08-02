@@ -46900,7 +46900,9 @@
     },
     "description": "Obtained with the purchase of the PS5 physical game disc",
     "secondaryDescription": "A limited-edition console featuring an exclusive startup screen and theme.\n\"From the very first press of the power button to adventures across countless game worlds, PSBoo has never been absent from your journey.\"",
-    "assets": {}
+    "assets": {
+      "icon": "GameData/zzz/assets/items/PS_PhysicalSKU.webp"
+    }
   },
   {
     "id": "2090035",
@@ -46912,7 +46914,9 @@
     },
     "description": "Obtained with the purchase of the PS5 physical game disc",
     "secondaryDescription": "A limited-edition console featuring an exclusive startup screen and theme.\n\"From the very first press of the power button to adventures across countless game worlds, PSBoo has never been absent from your journey.\"",
-    "assets": {}
+    "assets": {
+      "icon": "GameData/zzz/assets/items/PS_PhysicalSKU_Mark.webp"
+    }
   },
   {
     "id": "2090036",
@@ -46924,7 +46928,9 @@
     },
     "description": "Obtained with the purchase of the Xbox physical game disc",
     "secondaryDescription": "A limited-edition console featuring an exclusive startup screen and theme.\n\"From the very first press of the power button to adventures across countless game worlds, XBoo has never been absent from your journey.\"",
-    "assets": {}
+    "assets": {
+      "icon": "GameData/zzz/assets/items/Xbox_PhysicalSKU.webp"
+    }
   },
   {
     "id": "2090037",
@@ -46936,7 +46942,9 @@
     },
     "description": "Obtained with the purchase of the Xbox physical game disc",
     "secondaryDescription": "A limited-edition console featuring an exclusive startup screen and theme.\n\"From the very first press of the power button to adventures across countless game worlds, XBoo has never been absent from your journey.\"",
-    "assets": {}
+    "assets": {
+      "icon": "GameData/zzz/assets/items/Xbox_PhysicalSKU_Mark.webp"
+    }
   },
   {
     "id": "2100001",
@@ -68808,7 +68816,9 @@
     "rarity": 5,
     "type": {},
     "description": "A large ring crafted from ruby. A certified Buyan antique from Eridu. Slip it on your finger, and it's like a neon sign flashes above your head reading \"Old Money\" and \"Aristocrat.\"",
-    "assets": {}
+    "assets": {
+      "icon": "GameData/zzz/assets/items/Zenkov_Collection_044.webp"
+    }
   },
   {
     "id": "4360042",
@@ -68817,7 +68827,9 @@
     "rarity": 5,
     "type": {},
     "description": "A custom pendant called \"Blood Cicada,\" certified by Buyan as authentic Waifei Peninsula-style jewelry. Unlike the cicada's traditional symbolism of good fortune, the Blood Cicada carries a cautionary meaning — a warning to guard what you've built and protect what you call home.",
-    "assets": {}
+    "assets": {
+      "icon": "GameData/zzz/assets/items/Zenkov_Collection_043.webp"
+    }
   },
   {
     "id": "4360043",
@@ -68826,7 +68838,9 @@
     "rarity": 5,
     "type": {},
     "description": "A desk alarm clock from Sān-Z STUDIO. Early-winter Day Break white, with an \"mm-hmm\" chime on the hour. The perfect way to mark a whole year of hard work.",
-    "assets": {}
+    "assets": {
+      "icon": "GameData/zzz/assets/items/Zenkov_Collection_041.webp"
+    }
   },
   {
     "id": "4360044",
@@ -68835,7 +68849,9 @@
     "rarity": 5,
     "type": {},
     "description": "A long-range radio phone from Sān-Z STUDIO. Making a call? Make it on a Boo-rick Phone! Whether it's gossip, complaints, or whispered secrets, it'll blow you away!",
-    "assets": {}
+    "assets": {
+      "icon": "GameData/zzz/assets/items/Zenkov_Collection_042.webp"
+    }
   },
   {
     "id": "4360045",
@@ -68844,7 +68860,9 @@
     "rarity": 5,
     "type": {},
     "description": "A no-name vintage CCTV monitor. The label says it needs a signal cable connected to output video, but no matter how hard you look, there's not a single signal input port anywhere on the thing…",
-    "assets": {}
+    "assets": {
+      "icon": "GameData/zzz/assets/items/Zenkov_Collection_045.webp"
+    }
   },
   {
     "id": "4360085",

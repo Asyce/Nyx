@@ -50,11 +50,13 @@
     "3113310": {
       "name": "Vivian: Fluttering Violet",
       "desc": "Maintain your elegance, Miss Vivian, from the point of your parasol, right down to your flowing skirt. Maintain your courage, Miss Vivian, through last night's lonely walk, or here today at my side.",
+      "obtain_desc": "",
       "image": "IconRole41"
     },
     "3113311": {
       "name": "Vivian: Iris of the Shore",
       "desc": "Birds soar into the starlit skies, while irises bloom by the pond. Though this enchanting moonlit night may be brief, please let me see the lingering anticipation in your eyes in the moment I bloom.",
+      "obtain_desc": "",
       "image": "IconRole41_01"
     }
   },
@@ -98,7 +100,10 @@
       "EtherEyesSize2"
     ],
     "rp_max": 0,
-    "rp_recover": 0
+    "rp_recover": 0,
+    "ep_max": 0,
+    "ep_recover": 0,
+    "sharp_critical_damage": 0
   },
   "level": {
     "1": {
@@ -1609,6 +1614,33 @@
       }
     }
   },
+  "skill_priority": [
+    {
+      "id": 1331001,
+      "avatar_id": 1331,
+      "first_priority": [
+        5,
+        0
+      ],
+      "second_priority": [
+        1,
+        3,
+        6
+      ],
+      "third_priority": [
+        2
+      ],
+      "potential_levels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ],
   "skill_list": {
     "1331001": {
       "name": "Basic Attack: Feathered Strike (1st, 2nd, and 3rd hit)",
@@ -1878,6 +1910,7 @@
       31203,
       12102
     ],
+    "alt_build": [],
     "part4": {
       "prop": 31203,
       "name": "Anomaly Proficiency",

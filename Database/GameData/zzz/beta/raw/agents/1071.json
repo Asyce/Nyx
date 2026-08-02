@@ -50,6 +50,7 @@
     "3110710": {
       "name": "Caesar: Inferno Joyride",
       "desc": "A ruler ready to ready to sound the triumphal anthem anew, a hero poised to reignite her legend. The not-yet-seasoned leader has finally met the flames of her coronation, yet she still walks the gritty sands of the Outer Ring.\nA light tap on the piano keys sends her desert-tinged song drifting across this land that bears the weight of hope.",
+      "obtain_desc": "",
       "image": "IconRole25"
     }
   },
@@ -94,7 +95,10 @@
       "EtherEyesSize3"
     ],
     "rp_max": 0,
-    "rp_recover": 0
+    "rp_recover": 0,
+    "ep_max": 0,
+    "ep_recover": 0,
+    "sharp_critical_damage": 0
   },
   "level": {
     "1": {
@@ -1917,6 +1921,33 @@
       }
     }
   },
+  "skill_priority": [
+    {
+      "id": 1071001,
+      "avatar_id": 1071,
+      "first_priority": [
+        5,
+        1,
+        6
+      ],
+      "second_priority": [
+        3,
+        0
+      ],
+      "third_priority": [
+        2
+      ],
+      "potential_levels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ],
   "skill_list": {
     "1071001": {
       "name": "Basic Attack: Rampaging Slash",
@@ -2193,6 +2224,7 @@
       12102,
       20103
     ],
+    "alt_build": [],
     "part4": {
       "prop": 12202,
       "name": "Impact",
@@ -2219,7 +2251,7 @@
     }
   },
   "strategy": [
-    "05",
+    "04",
     "<IconMap:Icon_GeneralBuff_PhysDmg>Physical, off-field support",
     "Grants shields and Anti-Interrupt to all squad members",
     "Provides attack boosts to on-field squadmates"

@@ -1866,6 +1866,33 @@
       }
     }
   },
+  "skill_priority": [
+    {
+      "id": 1411001,
+      "avatar_id": 1411,
+      "first_priority": [
+        5,
+        0
+      ],
+      "second_priority": [
+        1,
+        3,
+        6
+      ],
+      "third_priority": [
+        2
+      ],
+      "potential_levels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ],
   "skill_list": {
     "1411001": {
       "name": "Basic Attack: Tanuki Claws (1st, 2nd, 3rd, 4th, and 5th hit)",

@@ -635,6 +635,18 @@
     "class": 1,
     "name": "Gear Bottle Cap"
   },
+  "462": {
+    "icon": "Assets/NapResources/UI/Sprite/Activity/Ver3_2/Digiboo/Packer/IconFood.png",
+    "rank": 3,
+    "class": 1,
+    "name": "Staple Foods"
+  },
+  "463": {
+    "icon": "Assets/NapResources/UI/Sprite/Activity/Ver3_2/Digiboo/Packer/IconSnack.png",
+    "rank": 3,
+    "class": 1,
+    "name": "Snacks"
+  },
   "501": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/IconStamina.png",
     "rank": 3,
@@ -1091,6 +1103,18 @@
     "class": 3,
     "name": "Sigrid"
   },
+  "1611": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconRolePiece/UnPacker/IconRolePiece30.png",
+    "rank": 4,
+    "class": 3,
+    "name": "Claret"
+  },
+  "1621": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconRolePiece/UnPacker/IconRolePiece58.png",
+    "rank": 4,
+    "class": 3,
+    "name": "Avatar_Female_Size01_Pryce"
+  },
   "2011": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconRolePiece/UnPacker/IconRolePiece01.png",
     "rank": 2,
@@ -1469,6 +1493,18 @@
     "class": 4,
     "name": "Agent Focus: Sigrid"
   },
+  "5611": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconRolePiece/UnPacker/IconRolePiece24.png",
+    "rank": 4,
+    "class": 4,
+    "name": "Agent Focus: Claret"
+  },
+  "5621": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconRolePiece/UnPacker/IconRolePiece58.png",
+    "rank": 4,
+    "class": 4,
+    "name": "Avatar_Female_Size01_Pryce_Piece"
+  },
   "6011": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconRolePiece/UnPacker/IconRolePiece01.png",
     "rank": 2,
@@ -1577,6 +1613,12 @@
     "class": 5,
     "name": "[Cinder] Cobalt"
   },
+  "12016": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIconWeapon/UnPacker/Weapon_B_Common_16.png",
+    "rank": 2,
+    "class": 5,
+    "name": "[Lunar] Semiluna"
+  },
   "13001": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIconWeapon/UnPacker/Weapon_A_Common_01.png",
     "rank": 3,
@@ -1673,6 +1715,12 @@
     "class": 5,
     "name": "Reel Projector"
   },
+  "13017": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIconWeapon/UnPacker/Weapon_A_Common_17.png",
+    "rank": 3,
+    "class": 5,
+    "name": "Catty Luck"
+  },
   "13018": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIconWeapon/UnPacker/Weapon_A_Common_18.png",
     "rank": 3,
@@ -1690,6 +1738,12 @@
     "rank": 3,
     "class": 5,
     "name": "The Simmering Pot"
+  },
+  "13021": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIconWeapon/UnPacker/Weapon_A_Common_21.png",
+    "rank": 3,
+    "class": 5,
+    "name": "Bloodmarrow Coffer"
   },
   "13101": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIconWeapon/UnPacker/Weapon_A_1011.png",
@@ -2057,6 +2111,18 @@
     "class": 5,
     "name": "Knight's Extolment"
   },
+  "14161": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIconWeapon/UnPacker/Weapon_S_1611.png",
+    "rank": 4,
+    "class": 5,
+    "name": "Crimson Thirst"
+  },
+  "14162": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIconWeapon/UnPacker/Weapon_S_1621.png",
+    "rank": 4,
+    "class": 5,
+    "name": "..."
+  },
   "20102": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/IconRoleAwaken_1021.png",
     "rank": 4,
@@ -2068,6 +2134,12 @@
     "rank": 4,
     "class": 6,
     "name": "Potential Silhouette: Soldier 11"
+  },
+  "20110": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/IconRoleAwaken_1101.png",
+    "rank": 4,
+    "class": 6,
+    "name": "Potential Silhouette: Koleda"
   },
   "20114": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/IconRoleAwaken_1141.png",
@@ -5777,6 +5849,12 @@
     "class": 10,
     "name": "Basic Rupture Certification Seal"
   },
+  "100217": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/AvatarRankArmorer01.png",
+    "rank": 1,
+    "class": 10,
+    "name": "Item_AvatarBreakMaterial_17_name"
+  },
   "100221": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/AvatarRankDamage02.png",
     "rank": 2,
@@ -5813,6 +5891,12 @@
     "class": 10,
     "name": "Advanced Rupture Certification Seal"
   },
+  "100227": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/AvatarRankArmorer02.png",
+    "rank": 2,
+    "class": 10,
+    "name": "Item_AvatarBreakMaterial_27_name"
+  },
   "100231": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/AvatarRankDamage03.png",
     "rank": 3,
@@ -5848,6 +5932,12 @@
     "rank": 3,
     "class": 10,
     "name": "Arbiter Certification Seal"
+  },
+  "100237": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/AvatarRankArmorer03.png",
+    "rank": 3,
+    "class": 10,
+    "name": "Item_AvatarBreakMaterial_37_name"
   },
   "100941": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/UltimateSkill.png",
@@ -5909,6 +5999,12 @@
     "class": 10,
     "name": "Rupture Component"
   },
+  "101016": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankArmorer01.png",
+    "rank": 1,
+    "class": 10,
+    "name": "Item_WeaponBreak_16_name"
+  },
   "101020": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankDamage02.png",
     "rank": 2,
@@ -5945,6 +6041,12 @@
     "class": 10,
     "name": "Reinforced Rupture Component"
   },
+  "101026": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankArmorer02.png",
+    "rank": 2,
+    "class": 10,
+    "name": "Item_WeaponBreak_26_name"
+  },
   "101030": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankDamage03.png",
     "rank": 3,
@@ -5980,6 +6082,12 @@
     "rank": 3,
     "class": 10,
     "name": "Specialized Rupture Component"
+  },
+  "101036": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankArmorer03.png",
+    "rank": 3,
+    "class": 10,
+    "name": "Item_WeaponBreak_36_name"
   },
   "102010": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/BangbooBreakthrough01.png",
@@ -6105,6 +6213,13 @@
     "name": "Timeworn Husk",
     "boss": true
   },
+  "110011": {
+    "icon": "",
+    "rank": 4,
+    "class": 10,
+    "name": "Item_BigBoss011_name",
+    "boss": true
+  },
   "110501": {
     "icon": "ExSmallBoss001",
     "rank": 3,
@@ -6208,6 +6323,13 @@
     "rank": 3,
     "class": 10,
     "name": "Higher Dimensional Data: Deep Erosion Circuit",
+    "boss": true
+  },
+  "110516": {
+    "icon": "",
+    "rank": 3,
+    "class": 10,
+    "name": "Item_SmallBoss016_name",
     "boss": true
   },
   "120001": {
@@ -21487,7 +21609,7 @@
     "name": "City Fund Experience"
   },
   "3000104": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/BPWeaponSelect.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/BPWeaponSelectNew.png",
     "rank": 3,
     "class": 62,
     "name": "Great Builder's Certificate"
@@ -22007,6 +22129,18 @@
     "rank": 4,
     "class": 63,
     "name": "Majestic Wavechaser"
+  },
+  "3116110": {
+    "icon": "",
+    "rank": 4,
+    "class": 63,
+    "name": "Skin_3116110_name"
+  },
+  "3116210": {
+    "icon": "",
+    "rank": 4,
+    "class": 63,
+    "name": "Skin_3116210_name"
   },
   "3131551": {
     "icon": "",
@@ -29062,13 +29196,13 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_004.png",
     "rank": 3,
     "class": 130,
-    "name": "Specialized Support"
+    "name": "$$$Specialized Support$$$"
   },
   "4300122": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_005.png",
     "rank": 3,
     "class": 130,
-    "name": "Specialized Connector"
+    "name": "$$$Specialized Connector$$$"
   },
   "4300201": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_018.png",
@@ -29092,19 +29226,19 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_021.png",
     "rank": 3,
     "class": 130,
-    "name": "Lumite Crystal"
+    "name": "$$$Lumite Crystal$$$"
   },
   "4300222": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_022.png",
     "rank": 3,
     "class": 130,
-    "name": "Eerie Powder"
+    "name": "$$$Eerie Powder$$$"
   },
   "4300223": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_023.png",
     "rank": 3,
     "class": 130,
-    "name": "Weak Acid Droplet"
+    "name": "$$$Weak Acid Droplet$$$"
   },
   "4300301": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_008.png",
@@ -29128,253 +29262,259 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_011.png",
     "rank": 3,
     "class": 130,
-    "name": "Specialized Cable Reel"
+    "name": "$$$Specialized Cable Reel$$$"
   },
   "4300322": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_012.png",
     "rank": 3,
     "class": 130,
-    "name": "Composite Cable Reel"
+    "name": "$$$Composite Cable Reel$$$"
   },
   "4300323": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_013.png",
     "rank": 3,
     "class": 130,
-    "name": "Specialized Cable"
+    "name": "$$$Specialized Cable$$$"
   },
   "4300401": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_028.png",
     "rank": 2,
     "class": 130,
-    "name": "Stable Explosive"
+    "name": "$$$Stable Explosive$$$"
   },
   "4300402": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_031.png",
     "rank": 2,
     "class": 130,
-    "name": "Crude Fiber"
+    "name": "$$$Crude Fiber$$$"
   },
   "4300403": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_034.png",
     "rank": 2,
     "class": 130,
-    "name": "Sensor Element"
+    "name": "$$$Sensor Element$$$"
   },
   "4300404": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_037.png",
     "rank": 2,
     "class": 130,
-    "name": "Ball Bearing"
+    "name": "$$$Ball Bearing$$$"
   },
   "4300405": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_040.png",
     "rank": 2,
     "class": 130,
-    "name": "Low-Frequency Transmitter"
+    "name": "$$$Low-Frequency Transmitter$$$"
   },
   "4300406": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_043.png",
     "rank": 2,
     "class": 130,
-    "name": "Single-Sided Circuit Board"
+    "name": "$$$Single-Sided Circuit Board$$$"
   },
   "4300421": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_029.png",
     "rank": 3,
     "class": 130,
-    "name": "High-Energy Explosive"
+    "name": "$$$High-Energy Explosive$$$"
   },
   "4300422": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_032.png",
     "rank": 3,
     "class": 130,
-    "name": "High-Carbon Fiber"
+    "name": "$$$High-Carbon Fiber$$$"
   },
   "4300423": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_035.png",
     "rank": 3,
     "class": 130,
-    "name": "Sensor Assembly"
+    "name": "$$$Sensor Assembly$$$"
   },
   "4300424": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_038.png",
     "rank": 3,
     "class": 130,
-    "name": "High-Speed Bearing"
+    "name": "$$$High-Speed Bearing$$$"
   },
   "4300425": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_041.png",
     "rank": 3,
     "class": 130,
-    "name": "High-Frequency Transmitter"
+    "name": "$$$High-Frequency Transmitter$$$"
   },
   "4300426": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_044.png",
     "rank": 3,
     "class": 130,
-    "name": "Multilayer Circuit Board"
+    "name": "$$$Multilayer Circuit Board$$$"
   },
   "4300451": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_030.png",
     "rank": 4,
     "class": 130,
-    "name": "Volatile Explosive"
+    "name": "$$$Volatile Explosive$$$"
   },
   "4300452": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_033.png",
     "rank": 4,
     "class": 130,
-    "name": "Nanofiber"
+    "name": "$$$Nanofiber$$$"
   },
   "4300453": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_036.png",
     "rank": 4,
     "class": 130,
-    "name": "Sensor Suite"
+    "name": "$$$Sensor Suite$$$"
   },
   "4300454": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_039.png",
     "rank": 4,
     "class": 130,
-    "name": "Fluid Bearing"
+    "name": "$$$Fluid Bearing$$$"
   },
   "4300455": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_042.png",
     "rank": 4,
     "class": 130,
-    "name": "Microwave Transmitter"
+    "name": "$$$Microwave Transmitter$$$"
   },
   "4300456": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_045.png",
     "rank": 4,
     "class": 130,
-    "name": "High-Density Circuit Board"
+    "name": "$$$High-Density Circuit Board$$$"
   },
   "4301301": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_Monster_1.png",
     "rank": 1,
     "class": 130,
-    "name": "Inert Crystal"
+    "name": "$$$Inert Crystal$$$"
   },
   "4301302": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_Monster_4.png",
     "rank": 1,
     "class": 130,
-    "name": "Single-Component Fuel"
+    "name": "$$$Single-Component Fuel$$$"
   },
   "4301303": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_Monster_7.png",
     "rank": 1,
     "class": 130,
-    "name": "Battery Cell"
+    "name": "$$$Battery Cell$$$"
   },
   "4301311": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_Monster_2.png",
     "rank": 2,
     "class": 130,
-    "name": "Stable Crystal"
+    "name": "$$$Stable Crystal$$$"
   },
   "4301312": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_Monster_5.png",
     "rank": 2,
     "class": 130,
-    "name": "Composite Fuel"
+    "name": "$$$Composite Fuel$$$"
   },
   "4301313": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_Monster_8.png",
     "rank": 2,
     "class": 130,
-    "name": "Battery Pack"
+    "name": "$$$Battery Pack$$$"
   },
   "4301321": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_Monster_3.png",
     "rank": 3,
     "class": 130,
-    "name": "Reactive Crystal"
+    "name": "$$$Reactive Crystal$$$"
   },
   "4301322": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_Monster_6.png",
     "rank": 3,
     "class": 130,
-    "name": "Linked Fuel"
+    "name": "$$$Linked Fuel$$$"
   },
   "4301323": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_Monster_9.png",
     "rank": 3,
     "class": 130,
-    "name": "Battery Array"
+    "name": "$$$Battery Array$$$"
   },
   "4301401": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_Monster_10.png",
     "rank": 2,
     "class": 130,
-    "name": "Decaying Core"
+    "name": "$$$Decaying Core$$$"
   },
   "4301402": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_Monster_11.png",
     "rank": 3,
     "class": 130,
-    "name": "Mutated Core"
+    "name": "$$$Mutated Core$$$"
   },
   "4301403": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_Monster_12.png",
     "rank": 4,
     "class": 130,
-    "name": "Malignant Core"
+    "name": "$$$Malignant Core$$$"
   },
   "4311000": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Consumables_001.png",
     "rank": 1,
     "class": 131,
-    "name": "Minor Trauma Medicine"
+    "name": "$$$Minor Trauma Medicine$$$"
   },
   "4311001": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Consumables_002.png",
     "rank": 2,
     "class": 131,
-    "name": "Wound-Mending Medicine"
+    "name": "$$$Wound-Mending Medicine$$$"
   },
   "4311002": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Consumables_003.png",
     "rank": 3,
     "class": 131,
-    "name": "Restoration Medicine"
+    "name": "$$$Restoration Medicine$$$"
   },
   "4311003": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Consumables_004.png",
     "rank": 4,
     "class": 131,
-    "name": "Revival Medicine"
+    "name": "$$$Revival Medicine$$$"
   },
   "4311010": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Consumables_005.png",
     "rank": 1,
     "class": 131,
-    "name": "Corrosion-Inhibiting Medicine"
+    "name": "$$$Corrosion-Inhibiting Medicine$$$"
   },
   "4311011": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Consumables_006.png",
     "rank": 2,
     "class": 131,
-    "name": "Corrosion Resistance Medicine"
+    "name": "$$$Corrosion Resistance Medicine$$$"
   },
   "4311012": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Consumables_007.png",
     "rank": 3,
     "class": 131,
-    "name": "Corrosion Purge Medicine"
+    "name": "$$$Corrosion Purge Medicine$$$"
   },
   "4311013": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Consumables_008.png",
     "rank": 4,
     "class": 131,
-    "name": "Corrosion Cleanse Medicine"
+    "name": "$$$Corrosion Cleanse Medicine$$$"
+  },
+  "4311022": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Consumables_010.png",
+    "rank": 4,
+    "class": 131,
+    "name": "$$$Break-Even Beacon$$$"
   },
   "4320100": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponC_001.png",
     "rank": 1,
     "class": 132,
-    "name": "[Weakened] Base Gear - General - Lv.5"
+    "name": ""
   },
   "4320101": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponC_001.png",
@@ -29386,13 +29526,13 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponC_001.png",
     "rank": 1,
     "class": 132,
-    "name": "[Fragile] Base Gear - General - Lv.10"
+    "name": "[Fragile] Base Gear · General - Lv.10"
   },
   "4320103": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponC_001.png",
     "rank": 1,
     "class": 132,
-    "name": "[Weakened] Base Gear - General - Lv.20"
+    "name": ""
   },
   "4320104": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponB_001.png",
@@ -29548,7 +29688,7 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponB_007.png",
     "rank": 2,
     "class": 132,
-    "name": "[Weakened] Specialized Gear - General - Lv.40"
+    "name": ""
   },
   "4320151": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_001.png",
@@ -29662,61 +29802,61 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponZ_001.png",
     "rank": 5,
     "class": 132,
-    "name": "Legendary Gear - Attack - Lv. 60"
+    "name": "$$$Legendary Gear$$$ - Attack - Lv. 60"
   },
   "4320272": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponZ_006.png",
     "rank": 5,
     "class": 132,
-    "name": "Legendary Gear - Stun - Lv. 60"
+    "name": "$$$Legendary Gear$$$ - Stun - Lv. 60"
   },
   "4320273": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponZ_003.png",
     "rank": 5,
     "class": 132,
-    "name": "Legendary Gear - Anomaly - Lv. 60"
+    "name": "$$$Legendary Gear$$$ - Anomaly - Lv. 60"
   },
   "4320274": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponZ_007.png",
     "rank": 5,
     "class": 132,
-    "name": "Legendary Gear - Support - Lv. 60"
+    "name": "$$$Legendary Gear$$$ - Support - Lv. 60"
   },
   "4320275": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponZ_005.png",
     "rank": 5,
     "class": 132,
-    "name": "Legendary Gear - Rupture - Lv. 60"
+    "name": "$$$Legendary Gear$$$ - Rupture - Lv. 60"
   },
   "4320276": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponZ_009.png",
     "rank": 5,
     "class": 132,
-    "name": "Legendary Gear - Defense - Lv. 60"
+    "name": "$$$Legendary Gear$$$ - Defense - Lv. 60"
   },
   "4320277": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponZ_002.png",
     "rank": 5,
     "class": 132,
-    "name": "Legendary Gear - Attack - Modified - Lv. 60"
+    "name": "$$$Legendary Gear$$$ - Attack - Modified - Lv. 60"
   },
   "4320278": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponZ_004.png",
     "rank": 5,
     "class": 132,
-    "name": "Legendary Gear - Anomaly - Modified - Lv. 60"
+    "name": "$$$Legendary Gear$$$ - Anomaly - Modified - Lv. 60"
   },
   "4320279": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponZ_008.png",
     "rank": 5,
     "class": 132,
-    "name": "Legendary Gear - Support - Modified - Lv. 60"
+    "name": "$$$Legendary Gear$$$ - Support - Modified - Lv. 60"
   },
   "4321001": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_008.png",
     "rank": 4,
     "class": 132,
-    "name": "[Fragile] Frost-Drawn Blade - Lv.50"
+    "name": "[Fragile] Frost-Drawing Sword-Lv.50"
   },
   "4321002": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_001.png",
@@ -29734,13 +29874,13 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_012.png",
     "rank": 4,
     "class": 132,
-    "name": "[Fragile] Highlight Solo Dance-Lv.50"
+    "name": "[Vulnerable] Highlight Solo Dance-Lv.50"
   },
   "4321005": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_022.png",
     "rank": 4,
     "class": 132,
-    "name": "[Fragile] Moxiang Falling Cut - Lv.50"
+    "name": "[Fragile] Death's Plummeting Shear - Lv.50"
   },
   "4321006": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_007.png",
@@ -29764,13 +29904,13 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_016.png",
     "rank": 4,
     "class": 132,
-    "name": "[Fragile] Drifting Wind Crown-Lv.50"
+    "name": "[Fragile] Splendid Crown of Wind-Lv.50"
   },
   "4321010": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_018.png",
     "rank": 4,
     "class": 132,
-    "name": "[Fragile] Hollow Wing Pilgrimage-Lv.50"
+    "name": "[Fragile] Void Wing Pilgrimage - Lv.50"
   },
   "4321011": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_019.png",
@@ -29782,7 +29922,7 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_017.png",
     "rank": 4,
     "class": 132,
-    "name": "[Vulnerable] Grand Finale Precinct-Lv.50"
+    "name": "[Fragile] Grand Finale Precinct-Lv.50"
   },
   "4321013": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_021.png",
@@ -29794,7 +29934,7 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_014.png",
     "rank": 4,
     "class": 132,
-    "name": "[Vulnerable] Cyclone Condemnation-Lv.50"
+    "name": "[Fragile] Necessary Restraint-Lv.50"
   },
   "4321015": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_013.png",
@@ -29806,7 +29946,7 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_011.png",
     "rank": 4,
     "class": 132,
-    "name": "[Vulnerable] Delusional Radiance-Lv.50"
+    "name": "[Fragile] Delusional Radiance-Lv.50"
   },
   "4321017": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_009.png",
@@ -29818,19 +29958,19 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_006.png",
     "rank": 4,
     "class": 132,
-    "name": "[Vulnerable] Mountain Lord Break煞-Lv.50"
+    "name": "[Fragile] Mountain Lord Break-Lv.50"
   },
   "4321019": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_004.png",
     "rank": 4,
     "class": 132,
-    "name": "[Fragile] Lethal Etiquette-Lv.50"
+    "name": "[Vulnerable] Lethal Etiquette-Lv.50"
   },
   "4321020": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_020.png",
     "rank": 4,
     "class": 132,
-    "name": "[Vulnerable] Encircle Prey Time-Lv.50"
+    "name": "[Fragile] Encircle Prey Time-Lv.50"
   },
   "4321021": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002.png",
@@ -29860,13 +30000,13 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_012.png",
     "rank": 5,
     "class": 132,
-    "name": "Spotlight Solo Dance-Lv.60"
+    "name": "Highlight Solo Dance-Lv.60"
   },
   "4322005": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_022.png",
     "rank": 5,
     "class": 132,
-    "name": "殁相坠裁-Lv.60"
+    "name": "Demise Cascade Slash-Lv.60"
   },
   "4322006": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_007.png",
@@ -29890,7 +30030,7 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_016.png",
     "rank": 5,
     "class": 132,
-    "name": "Huaguan Liufeng-Lv.60"
+    "name": "Huaguan Drifting Wind-Lv.60"
   },
   "4322010": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_018.png",
@@ -29914,13 +30054,13 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_021.png",
     "rank": 5,
     "class": 132,
-    "name": "Insight Flame-Lv.60"
+    "name": "Enlightened Flame-Lv.60"
   },
   "4322014": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_014.png",
     "rank": 5,
     "class": 132,
-    "name": "Whirlwind Conviction-Lv.60"
+    "name": "Necessary Restraint-Lv.60"
   },
   "4322015": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_013.png",
@@ -29932,13 +30072,13 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_011.png",
     "rank": 5,
     "class": 132,
-    "name": "Delusional Radiance-Lv.60"
+    "name": "Delusion Glow-Lv.60"
   },
   "4322017": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_009.png",
     "rank": 5,
     "class": 132,
-    "name": "Spirit Shaman Ward-Lv.60"
+    "name": "Spirit Witch Talisman-Lv.60"
   },
   "4322018": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_006.png",
@@ -29968,13 +30108,13 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponC_001.png",
     "rank": 1,
     "class": 132,
-    "name": "[Fragile] Base Gear · General - Lv.15"
+    "name": ""
   },
   "4323102": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponC_001.png",
     "rank": 1,
     "class": 132,
-    "name": "Basic Gear - General - Lv.20"
+    "name": "$$$Basic Gear$$$ - General - Lv.20"
   },
   "4323103": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponC_001.png",
@@ -29986,205 +30126,205 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponB_001.png",
     "rank": 2,
     "class": 132,
-    "name": "[Fragile] Advanced Gear - Attack - Lv.25"
+    "name": ""
   },
   "4323105": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponB_004.png",
     "rank": 2,
     "class": 132,
-    "name": "[Fragile] Advanced Gear - Stun - Lv.25"
+    "name": ""
   },
   "4323106": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponB_002.png",
     "rank": 2,
     "class": 132,
-    "name": "[Fragile] Advanced Gear - Anomaly - Lv.25"
+    "name": ""
   },
   "4323107": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponB_005.png",
     "rank": 2,
     "class": 132,
-    "name": "[Fragile] Advanced Gear - Support - Lv.25"
+    "name": ""
   },
   "4323108": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponB_003.png",
     "rank": 2,
     "class": 132,
-    "name": "[Fragile] Advanced Gear - Rupture - Lv.25"
+    "name": ""
   },
   "4323109": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponB_006.png",
     "rank": 2,
     "class": 132,
-    "name": "[Fragile] Advanced Gear - Defense - Lv.25"
+    "name": ""
   },
   "4323110": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponC_001.png",
     "rank": 1,
     "class": 132,
-    "name": "[Weakened] Base Gear · General - Lv.15"
+    "name": "[Weakened] Base Gear - General - Lv.15"
   },
   "4323121": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponA_001.png",
     "rank": 3,
     "class": 132,
-    "name": "[Fragile] Specialized Gear - Attack - Lv.35"
+    "name": ""
   },
   "4323122": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponA_004.png",
     "rank": 3,
     "class": 132,
-    "name": "[Fragile] Specialized Gear - Stun - Lv.35"
+    "name": ""
   },
   "4323123": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponA_002.png",
     "rank": 3,
     "class": 132,
-    "name": "[Fragile] Specialized Gear - Anomaly - Lv.35"
+    "name": ""
   },
   "4323124": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponA_005.png",
     "rank": 3,
     "class": 132,
-    "name": "[Fragile] Specialized Gear - Support - Lv.35"
+    "name": ""
   },
   "4323125": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponA_003.png",
     "rank": 3,
     "class": 132,
-    "name": "[Fragile] Specialized Gear - Rupture - Lv.35"
+    "name": ""
   },
   "4323126": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponA_006.png",
     "rank": 3,
     "class": 132,
-    "name": "[Fragile] Specialized Gear - Defense - Lv.35"
+    "name": ""
   },
   "4323151": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_001.png",
     "rank": 4,
     "class": 132,
-    "name": "[Fragile] Advanced Gear - Attack - Lv.45"
+    "name": ""
   },
   "4323152": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_006.png",
     "rank": 4,
     "class": 132,
-    "name": "[Fragile] Advanced Gear - Stun - Lv.45"
+    "name": ""
   },
   "4323153": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_003.png",
     "rank": 4,
     "class": 132,
-    "name": "[Fragile] Advanced Gear - Anomaly - Lv.45"
+    "name": ""
   },
   "4323154": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_007.png",
     "rank": 4,
     "class": 132,
-    "name": "[Fragile] Advanced Gear - Support - Lv.45"
+    "name": ""
   },
   "4323155": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_005.png",
     "rank": 4,
     "class": 132,
-    "name": "[Fragile] Advanced Gear - Rupture - Lv.45"
+    "name": ""
   },
   "4323156": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_009.png",
     "rank": 4,
     "class": 132,
-    "name": "[Fragile] Advanced Gear - Defense - Lv.45"
+    "name": ""
   },
   "4323157": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_002.png",
     "rank": 4,
     "class": 132,
-    "name": "[Fragile] Advanced Gear - Attack - Modified - Lv.45"
+    "name": ""
   },
   "4323158": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_004.png",
     "rank": 4,
     "class": 132,
-    "name": "[Fragile] Advanced Gear - Anomaly - Modified - Lv.45"
+    "name": ""
   },
   "4323159": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_008.png",
     "rank": 4,
     "class": 132,
-    "name": "[Fragile] Advanced Gear - Support - Modified - Lv.45"
+    "name": ""
   },
   "4325201": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponB_001.png",
     "rank": 2,
     "class": 132,
-    "name": "Advanced Gear - Attack - Lv.20"
+    "name": ""
   },
   "4325202": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponB_004.png",
     "rank": 2,
     "class": 132,
-    "name": "Advanced Gear - Stun - Lv.20"
+    "name": ""
   },
   "4325203": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponB_002.png",
     "rank": 2,
     "class": 132,
-    "name": "Advanced Gear - Anomaly - Lv.20"
+    "name": ""
   },
   "4325204": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponB_005.png",
     "rank": 2,
     "class": 132,
-    "name": "Advanced Gear - Support - Lv.20"
+    "name": ""
   },
   "4325205": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponB_003.png",
     "rank": 2,
     "class": 132,
-    "name": "Advanced Gear - Rupture - Lv.20"
+    "name": ""
   },
   "4325206": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponB_006.png",
     "rank": 2,
     "class": 132,
-    "name": "Advanced Gear - Defense - Lv.20"
+    "name": ""
   },
   "4325301": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponA_001.png",
     "rank": 3,
     "class": 132,
-    "name": "Specialized Gear - Attack - Lv.30"
+    "name": ""
   },
   "4325302": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponA_004.png",
     "rank": 3,
     "class": 132,
-    "name": "Specialized Gear - Stun - Lv.30"
+    "name": ""
   },
   "4325303": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponA_002.png",
     "rank": 3,
     "class": 132,
-    "name": "Specialized Gear - Anomaly - Lv.30"
+    "name": ""
   },
   "4325304": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponA_005.png",
     "rank": 3,
     "class": 132,
-    "name": "Specialized Gear - Support - Lv.30"
+    "name": ""
   },
   "4325305": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponA_003.png",
     "rank": 3,
     "class": 132,
-    "name": "Specialized Gear - Rupture - Lv.30"
+    "name": ""
   },
   "4325306": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponA_006.png",
     "rank": 3,
     "class": 132,
-    "name": "Specialized Gear - Defense - Lv.30"
+    "name": ""
   },
   "4325401": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_001.png",
@@ -30196,7 +30336,7 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_006.png",
     "rank": 4,
     "class": 132,
-    "name": "Advanced Gear - Stun - Lv.40"
+    "name": ""
   },
   "4325403": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_003.png",
@@ -30214,13 +30354,13 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_005.png",
     "rank": 4,
     "class": 132,
-    "name": "Advanced Gear - Rupture - Lv.40"
+    "name": ""
   },
   "4325406": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_009.png",
     "rank": 4,
     "class": 132,
-    "name": "Advanced Gear - Defense - Lv.40"
+    "name": ""
   },
   "4325407": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_002.png",
@@ -30298,85 +30438,85 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_008.png",
     "rank": 4,
     "class": 132,
-    "name": "Frost-Draw Blade-Lv.50"
+    "name": ""
   },
   "4326002": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_001.png",
     "rank": 4,
     "class": 132,
-    "name": "Frost Inferno-Lv.50"
+    "name": ""
   },
   "4326003": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_005.png",
     "rank": 4,
     "class": 132,
-    "name": "Xuanling Jin Lu-Lv.50"
+    "name": ""
   },
   "4326004": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_012.png",
     "rank": 4,
     "class": 132,
-    "name": "Spotlight Solo Dance-Lv.50"
+    "name": ""
   },
   "4326005": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_022.png",
     "rank": 4,
     "class": 132,
-    "name": "殁相坠裁-Lv.50"
+    "name": ""
   },
   "4326006": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_007.png",
     "rank": 4,
     "class": 132,
-    "name": "Dream Surge-Lv.50"
+    "name": ""
   },
   "4326007": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_010.png",
     "rank": 4,
     "class": 132,
-    "name": "Bubble Planet-Lv.50"
+    "name": ""
   },
   "4326008": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_003.png",
     "rank": 4,
     "class": 132,
-    "name": "Rainbow Concerto-Lv.50"
+    "name": ""
   },
   "4326009": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_016.png",
     "rank": 4,
     "class": 132,
-    "name": "Sovereign Windflow-Lv.50"
+    "name": ""
   },
   "4326010": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_018.png",
     "rank": 4,
     "class": 132,
-    "name": "Sky Wing Pilgrimage-Lv.50"
+    "name": ""
   },
   "4326011": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_019.png",
     "rank": 4,
     "class": 132,
-    "name": "Chaotic Spearhead-Lv.50"
+    "name": ""
   },
   "4326012": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_017.png",
     "rank": 4,
     "class": 132,
-    "name": "Grand Finale Precinct-Lv.50"
+    "name": ""
   },
   "4326013": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_021.png",
     "rank": 4,
     "class": 132,
-    "name": "Insight Flame-Lv.50"
+    "name": "Illuminated Flame-Lv.50"
   },
   "4326014": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_014.png",
     "rank": 4,
     "class": 132,
-    "name": "Whirlwind Conviction-Lv.50"
+    "name": "Necessary Shackles-Lv.50"
   },
   "4326015": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_013.png",
@@ -30388,7 +30528,7 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_011.png",
     "rank": 4,
     "class": 132,
-    "name": "Delusional Radiance-Lv.50"
+    "name": "Delusion Glow-Lv.50"
   },
   "4326017": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_009.png",
@@ -30436,7 +30576,7 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_EquipErosion_003.png",
     "rank": 3,
     "class": 133,
-    "name": "[Fragile] Blasting Anti-Corrosion Device"
+    "name": "[Fragile] Blasting Corrosion Resistor"
   },
   "4331004": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_EquipErosion_004.png",
@@ -30472,31 +30612,31 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_EquipBag_001.png",
     "rank": 1,
     "class": 133,
-    "name": "Basic Inventory"
+    "name": "$$$Basic Inventory$$$"
   },
   "4333002": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_EquipBag_002.png",
     "rank": 2,
     "class": 133,
-    "name": "Expanded Inventory"
+    "name": "$$$Expanded Inventory$$$"
   },
   "4333003": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_EquipBag_003.png",
     "rank": 3,
     "class": 133,
-    "name": "Heavy Inventory"
+    "name": "$$$Heavy Inventory$$$"
   },
   "4333004": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_EquipBag_004.png",
     "rank": 4,
     "class": 133,
-    "name": "Bangboo Big Inventory"
+    "name": "$$$Bangboo Big Inventory$$$"
   },
   "4333011": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_EquipPyrois_001.png",
     "rank": 1,
     "class": 133,
-    "name": "[Fragile] Base Blade of the Other·Block"
+    "name": "[Fragile] Base Blade of the Other · Block"
   },
   "4333012": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_EquipPyrois_002.png",
@@ -30520,13 +30660,13 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_EquipPyrois_005.png",
     "rank": 2,
     "class": 133,
-    "name": "[Fragile] Advanced Blade of the Other: Powerful Slash"
+    "name": "[Fragile] Advanced Blade of the Other: Heavy Slash"
   },
   "4333023": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_EquipPyrois_006.png",
     "rank": 3,
     "class": 133,
-    "name": "[Vulnerable] Blasting Blade of the Other: Powerful Slash"
+    "name": "[Fragile] Blasting Blade of the Other: Powerful Slash"
   },
   "4333024": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_EquipPyrois_007.png",
@@ -30544,7 +30684,7 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_EquipPyrois_009.png",
     "rank": 3,
     "class": 133,
-    "name": "[Fragile] Specialized Blade of the Other: Phase Dash"
+    "name": "[Fragile] Blasting Blade of the Other: Phase Dash"
   },
   "4333034": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_EquipPyrois_010.png",
@@ -30604,7 +30744,7 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_EquipPyrois_009.png",
     "rank": 3,
     "class": 133,
-    "name": "Specialized Blade of the Other: Phase Dash"
+    "name": "Blasting Blade of the Other: Phase Dash"
   },
   "4333534": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_EquipPyrois_010.png",
@@ -30694,37 +30834,37 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_EquipErosion_001.png",
     "rank": 1,
     "class": 133,
-    "name": "[Weakened] Base Corrosion Inhibitor"
+    "name": ""
   },
   "4336002": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_EquipErosion_002.png",
     "rank": 2,
     "class": 133,
-    "name": "[Weakened] Advanced Corrosion Resistor"
+    "name": ""
   },
   "4336003": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_EquipErosion_003.png",
     "rank": 3,
     "class": 133,
-    "name": "[Weakened] Blasting Corrosion Resistor"
+    "name": ""
   },
   "4338011": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_EquipPyrois_001.png",
     "rank": 1,
     "class": 133,
-    "name": "[Weakened] Base Blade of the Other·Block"
+    "name": ""
   },
   "4338012": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_EquipPyrois_002.png",
     "rank": 2,
     "class": 133,
-    "name": "[Weakened] Advanced Blade of the Other: Block"
+    "name": ""
   },
   "4338013": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_EquipPyrois_003.png",
     "rank": 3,
     "class": 133,
-    "name": "[Weakened] Blasting Blade of the Other: Block"
+    "name": ""
   },
   "4340100": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Key_025.png",
@@ -30736,13 +30876,13 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Key_001.png",
     "rank": 3,
     "class": 130,
-    "name": "Windworn Highway Motel, 1F"
+    "name": "Windworn Highway Motel, 1st Floor"
   },
   "4340102": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Key_002.png",
     "rank": 4,
     "class": 130,
-    "name": "Windworn Highway Motel, 2F"
+    "name": "$$$Windworn Highway Motel$$$, 2F"
   },
   "4340103": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Key_003.png",
@@ -30754,7 +30894,7 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Key_014.png",
     "rank": 3,
     "class": 130,
-    "name": "Six Dusk Street Warehouse, Side Entrance (1F)"
+    "name": "Six Dusk Street Warehouse, Side Door – 1F"
   },
   "4340105": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Key_015.png",
@@ -30778,37 +30918,37 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Key_020.png",
     "rank": 3,
     "class": 130,
-    "name": "Lumina Central, Lounge 2"
+    "name": "Lumina Central Lounge 2"
   },
   "4340109": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Key_021.png",
     "rank": 3,
     "class": 130,
-    "name": "Lumina Central, Lounge 3"
+    "name": "Lumina Central Lounge 3"
   },
   "4340201": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Key_005.png",
     "rank": 4,
     "class": 130,
-    "name": "Cheezburg Bistro, Withered Wildswood"
+    "name": "$$$Cheezburg Bistro$$$, Withered Wildswood"
   },
   "4340202": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Key_004.png",
     "rank": 4,
     "class": 130,
-    "name": "Windworn Highway Gas Station"
+    "name": "$$$Windworn Highway Gas Station$$$"
   },
   "4340203": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Key_006.png",
     "rank": 4,
     "class": 130,
-    "name": "Withered Wildswood Storage Center, 2F Prefab Building"
+    "name": "$$$Withered Wildswood Storage Center$$$, 2F Prefab Building"
   },
   "4340204": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Key_011.png",
     "rank": 4,
     "class": 130,
-    "name": "Phantom Aquarium West Gate, Fantasy Beach"
+    "name": "$$$Phantom Aquarium$$$ West Gate, Fantasy Beach"
   },
   "4340205": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Key_014.png",
@@ -30826,7 +30966,7 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Key_019.png",
     "rank": 4,
     "class": 130,
-    "name": "Paloma Construction Site: Phase II, Rooftop"
+    "name": "$$$Paloma Construction Site: Phase II, Rooftop$$$"
   },
   "4340208": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Key_022.png",
@@ -30856,13 +30996,13 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_EquipErosion_003_Blueprint.png",
     "rank": 3,
     "class": 130,
-    "name": "[Blueprint] Specialized Anti-Corrosion Device"
+    "name": ""
   },
   "4350002": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_EquipErosion_004_Blueprint.png",
     "rank": 4,
     "class": 130,
-    "name": "[Blueprint] Advanced Anti-Corrosion Device"
+    "name": ""
   },
   "4350003": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_EquipBag_003_Blueprint.png",
@@ -30880,67 +31020,67 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_EquipPyrois_003_Blueprint.png",
     "rank": 3,
     "class": 130,
-    "name": "[Blueprint] Specialized Variant Blade: Block"
+    "name": "[Blueprint] $$$Specialized Variant Blade: Block$$$"
   },
   "4350006": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_EquipPyrois_004_Blueprint.png",
     "rank": 4,
     "class": 130,
-    "name": "[Blueprint] Advanced Variant Blade: Block"
+    "name": "[Blueprint] $$$Advanced Variant Blade: Block$$$"
   },
   "4350007": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_EquipPyrois_003_Blueprint.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_EquipPyrois_006_Blueprint.png",
     "rank": 3,
     "class": 130,
-    "name": "[Blueprint] Specialized Variant Blade: Powerful Slash"
+    "name": "[Blueprint] $$$Specialized Variant Blade: Powerful Slash$$$"
   },
   "4350008": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_EquipPyrois_004_Blueprint.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_EquipPyrois_007_Blueprint.png",
     "rank": 4,
     "class": 130,
-    "name": "[Blueprint] Advanced Variant Blade: Powerful Slash"
+    "name": "[Blueprint] $$$Advanced Variant Blade: Powerful Slash$$$"
   },
   "4350009": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_EquipPyrois_009_Blueprint.png",
     "rank": 3,
     "class": 130,
-    "name": "[Blueprint] Specialized Variant Blade: Phase Dash"
+    "name": "[Blueprint] $$$Specialized Variant Blade: Phase Dash$$$"
   },
   "4350010": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_EquipPyrois_010_Blueprint.png",
     "rank": 4,
     "class": 130,
-    "name": "[Blueprint] Advanced Variant Blade: Phase Dash"
+    "name": "[Blueprint] $$$Advanced Variant Blade: Phase Dash$$$"
   },
   "4350011": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_EquipPyrois_002_Blueprint.png",
     "rank": 2,
     "class": 130,
-    "name": "[Blueprint] Advanced Variant Blade: Block"
+    "name": "[Blueprint] $$$Advanced Variant Blade: Block$$$"
   },
   "4350012": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_EquipPyrois_002_Blueprint.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_EquipPyrois_005_Blueprint.png",
     "rank": 2,
     "class": 130,
-    "name": "[Blueprint] Advanced Variant Blade: Powerful Slash"
+    "name": "[Blueprint] $$$Advanced Variant Blade: Powerful Slash$$$"
   },
   "4350013": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_EquipPyrois_002_Blueprint.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_EquipPyrois_008_Blueprint.png",
     "rank": 2,
     "class": 130,
-    "name": "[Blueprint] Advanced Variant Blade: Phase Dash"
+    "name": "[Blueprint] $$$Advanced Variant Blade: Phase Dash$$$"
   },
   "4350014": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_EquipErosion_002_Blueprint.png",
     "rank": 2,
     "class": 130,
-    "name": "[Blueprint] Advanced Anti-Corrosion Device"
+    "name": "[Blueprint] $$$Advanced Anti-Corrosion Device$$$"
   },
   "4350015": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_EquipBag_002_Blueprint.png",
     "rank": 2,
     "class": 130,
-    "name": "[Blueprint] Expanded Inventory"
+    "name": "[Blueprint] $$$Expanded Inventory$$$"
   },
   "4350112": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_MonsterSkill_013_Blueprint.png",
@@ -31018,37 +31158,37 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponB_001_Blueprint.png",
     "rank": 2,
     "class": 130,
-    "name": "[Blueprint] Advanced Gear - Attack - Lv.20"
+    "name": ""
   },
   "4350182": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponB_004_Blueprint.png",
     "rank": 2,
     "class": 130,
-    "name": "[Blueprint] Advanced Gear - Stun - Lv.20"
+    "name": ""
   },
   "4350183": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponB_002_Blueprint.png",
     "rank": 2,
     "class": 130,
-    "name": "[Blueprint] Advanced Gear - Anomaly - Lv.20"
+    "name": ""
   },
   "4350184": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponB_005_Blueprint.png",
     "rank": 2,
     "class": 130,
-    "name": "[Blueprint] Advanced Gear - Support - Lv.20"
+    "name": ""
   },
   "4350185": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponB_003_Blueprint.png",
     "rank": 2,
     "class": 130,
-    "name": "[Blueprint] Advanced Gear - Rupture - Lv.20"
+    "name": ""
   },
   "4350186": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponB_006_Blueprint.png",
     "rank": 2,
     "class": 130,
-    "name": "[Blueprint] Advanced Gear - Defense - Lv.20"
+    "name": ""
   },
   "4350201": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponA_001_Blueprint.png",
@@ -31144,109 +31284,109 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_001_Blueprint.png",
     "rank": 4,
     "class": 130,
-    "name": "[Blueprint] Advanced Gear - Attack - Lv. 50"
+    "name": ""
   },
   "4350222": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_006_Blueprint.png",
     "rank": 4,
     "class": 130,
-    "name": "[Blueprint] Advanced Gear - Stun - Lv. 50"
+    "name": ""
   },
   "4350223": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_003_Blueprint.png",
     "rank": 4,
     "class": 130,
-    "name": "[Blueprint] Advanced Gear - Anomaly - Lv. 50"
+    "name": ""
   },
   "4350224": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_007_Blueprint.png",
     "rank": 4,
     "class": 130,
-    "name": "[Blueprint] Advanced Gear - Support - Lv. 50"
+    "name": ""
   },
   "4350225": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_005_Blueprint.png",
     "rank": 4,
     "class": 130,
-    "name": "[Blueprint] Advanced Gear - Rupture - Lv. 50"
+    "name": ""
   },
   "4350226": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_009_Blueprint.png",
     "rank": 4,
     "class": 130,
-    "name": "[Blueprint] Advanced Gear - Defense - Lv. 50"
+    "name": ""
   },
   "4350227": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_002_Blueprint.png",
     "rank": 4,
     "class": 130,
-    "name": "[Blueprint] Advanced Gear - Attack - Modified - Lv. 50"
+    "name": ""
   },
   "4350228": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_004_Blueprint.png",
     "rank": 4,
     "class": 130,
-    "name": "[Blueprint] Advanced Gear - Anomaly - Modified - Lv. 50"
+    "name": ""
   },
   "4350229": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_008_Blueprint.png",
     "rank": 4,
     "class": 130,
-    "name": "[Blueprint] Advanced Gear - Support - Modified - Lv. 50"
+    "name": ""
   },
   "4350231": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponZ_001_Blueprint.png",
     "rank": 5,
     "class": 130,
-    "name": "[Blueprint] Legendary Gear - Attack - Lv. 60"
+    "name": "[Blueprint] $$$Legendary Gear$$$ - Attack - Lv. 60"
   },
   "4350232": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponZ_006_Blueprint.png",
     "rank": 5,
     "class": 130,
-    "name": "[Blueprint] Legendary Gear - Stun - Lv. 60"
+    "name": "[Blueprint] $$$Legendary Gear$$$ - Stun - Lv. 60"
   },
   "4350233": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponZ_003_Blueprint.png",
     "rank": 5,
     "class": 130,
-    "name": "[Blueprint] Legendary Gear - Anomaly - Lv. 60"
+    "name": "[Blueprint] $$$Legendary Gear$$$ - Anomaly - Lv. 60"
   },
   "4350234": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponZ_007_Blueprint.png",
     "rank": 5,
     "class": 130,
-    "name": "[Blueprint] Legendary Gear - Support - Lv. 60"
+    "name": "[Blueprint] $$$Legendary Gear$$$ - Support - Lv. 60"
   },
   "4350235": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponZ_005_Blueprint.png",
     "rank": 5,
     "class": 130,
-    "name": "[Blueprint] Legendary Gear - Rupture - Lv. 60"
+    "name": "[Blueprint] $$$Legendary Gear$$$ - Rupture - Lv. 60"
   },
   "4350236": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponZ_009_Blueprint.png",
     "rank": 5,
     "class": 130,
-    "name": "[Blueprint] Legendary Gear - Defense - Lv. 60"
+    "name": "[Blueprint] $$$Legendary Gear$$$ - Defense - Lv. 60"
   },
   "4350237": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponZ_002_Blueprint.png",
     "rank": 5,
     "class": 130,
-    "name": "[Blueprint] Legendary Gear - Attack - Modified - Lv. 60"
+    "name": "[Blueprint] $$$Legendary Gear$$$ - Attack - Modified - Lv. 60"
   },
   "4350238": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponZ_004_Blueprint.png",
     "rank": 5,
     "class": 130,
-    "name": "[Blueprint] Legendary Gear - Anomaly - Modified - Lv. 60"
+    "name": "[Blueprint] $$$Legendary Gear$$$ - Anomaly - Modified - Lv. 60"
   },
   "4350239": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponZ_008_Blueprint.png",
     "rank": 5,
     "class": 130,
-    "name": "[Blueprint] Legendary Gear - Support - Modified - Lv. 60"
+    "name": "[Blueprint] $$$Legendary Gear$$$ - Support - Modified - Lv. 60"
   },
   "4350301": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_008_Blueprint.png",
@@ -31276,7 +31416,7 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_022_Blueprint.png",
     "rank": 4,
     "class": 130,
-    "name": "[Blueprint] Vanishing Phase Drop-Cut - Lv.50"
+    "name": "[Blueprint] Death Phase Falling Cut - Lv.50"
   },
   "4350306": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_007_Blueprint.png",
@@ -31294,25 +31434,25 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_003_Blueprint.png",
     "rank": 4,
     "class": 130,
-    "name": "[Blueprint] Neon Concerto - Lv.50"
+    "name": "[Blueprint] Neon Concerto-Lv.50"
   },
   "4350309": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_016_Blueprint.png",
     "rank": 4,
     "class": 130,
-    "name": "[Blueprint] Hua Guan Flow Wind - Lv.50"
+    "name": "[Blueprint] Huaguan Flowing Wind - Lv.50"
   },
   "4350310": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_018_Blueprint.png",
     "rank": 4,
     "class": 130,
-    "name": "[Blueprint] Sky Wing Pilgrimage - Lv.50"
+    "name": "[Blueprint] Void Wing Pilgrimage - Lv.50"
   },
   "4350311": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_019_Blueprint.png",
     "rank": 4,
     "class": 130,
-    "name": "[Blueprint] Chaotic Gunpoint-Lv.50"
+    "name": "[Blueprint] Chaotic Spearpoint-Lv.50"
   },
   "4350312": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_017_Blueprint.png",
@@ -31330,7 +31470,7 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_014_Blueprint.png",
     "rank": 4,
     "class": 130,
-    "name": "[Blueprint] Whirlwind Conviction - Lv.50"
+    "name": "[Blueprint] Necessary Restraints - Lv.50"
   },
   "4350315": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_013_Blueprint.png",
@@ -31348,13 +31488,13 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_009_Blueprint.png",
     "rank": 4,
     "class": 130,
-    "name": "[Blueprint] Spirit Shaman Ward - Lv.50"
+    "name": "[Blueprint] Spirit Witch Ward - Lv.50"
   },
   "4350318": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_006_Blueprint.png",
     "rank": 4,
     "class": 130,
-    "name": "[Blueprint] Mountain Lord Break-Lv.50"
+    "name": "[Blueprint] Mountain Lord Break Evil-Lv.50"
   },
   "4350319": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_004_Blueprint.png",
@@ -31378,7 +31518,7 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_008_Blueprint.png",
     "rank": 5,
     "class": 130,
-    "name": "[Blueprint] Frost-Drawn Blade - Lv.60"
+    "name": "[Blueprint] Frostbite Blade-Lv.60"
   },
   "4350502": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_001_Blueprint.png",
@@ -31402,7 +31542,7 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_022_Blueprint.png",
     "rank": 5,
     "class": 130,
-    "name": "[Blueprint] Death Aspect: Falling Cut - Lv.60"
+    "name": "[Blueprint] Twilight Verdict - Lv.60"
   },
   "4350506": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_007_Blueprint.png",
@@ -31426,7 +31566,7 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_016_Blueprint.png",
     "rank": 5,
     "class": 130,
-    "name": "[Blueprint] Regal Wind Crown - Lv.60"
+    "name": "[Blueprint] Glorious Crown Windflow - Lv.60"
   },
   "4350510": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_018_Blueprint.png",
@@ -31438,13 +31578,13 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_019_Blueprint.png",
     "rank": 5,
     "class": 130,
-    "name": "[Blueprint] Chaotic Spearhead - Lv.60"
+    "name": "[Blueprint] Chaotic Spearpoint - Lv.60"
   },
   "4350512": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_017_Blueprint.png",
     "rank": 5,
     "class": 130,
-    "name": "[Blueprint] Grand Finale - Lv.60"
+    "name": "[Blueprint] Grand Finale-Lv.60"
   },
   "4350513": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_021_Blueprint.png",
@@ -31456,7 +31596,7 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_014_Blueprint.png",
     "rank": 5,
     "class": 130,
-    "name": "[Blueprint] Whirlwind Conviction - Lv.60"
+    "name": "[Blueprint] Necessary Restraints-Lv.60"
   },
   "4350515": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_013_Blueprint.png",
@@ -31480,7 +31620,7 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_006_Blueprint.png",
     "rank": 5,
     "class": 130,
-    "name": "[Blueprint] Mountain Lord's Break·Lv.60"
+    "name": "[Blueprint] Mountain Lord Break-Lv.60"
   },
   "4350519": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_004_Blueprint.png",
@@ -31528,7 +31668,7 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_005.png",
     "rank": 3,
     "class": 130,
-    "name": "Storage Unit"
+    "name": "$$$Storage Unit$$$"
   },
   "4360006": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_006.png",
@@ -31624,7 +31764,7 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_024.png",
     "rank": 5,
     "class": 130,
-    "name": "Gold Figurine: Lordly Trashcan"
+    "name": "$$$Gold Figurine: Lordly Trashcan$$$"
   },
   "4360022": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_025.png",
@@ -31726,7 +31866,7 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_CollectionA_001.png",
     "rank": 3,
     "class": 130,
-    "name": "Hound Fang"
+    "name": "$$$Hound Fang$$$"
   },
   "4360039": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_CollectionA_002.png",
@@ -31738,7 +31878,7 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_CollectionA_003.png",
     "rank": 3,
     "class": 130,
-    "name": "Mystic Conch"
+    "name": "$$$Mystic Conch$$$"
   },
   "4360041": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_044.png",
@@ -31770,29 +31910,35 @@
     "class": 130,
     "name": "CCTV"
   },
+  "4360046": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_CollectionA_005.png",
+    "rank": 3,
+    "class": 130,
+    "name": "ZKItem_4360046_Name"
+  },
   "4360085": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_EquipPyrois_001.png",
     "rank": 1,
     "class": 133,
-    "name": "[Fragile] Base Blade of the Other·Block"
+    "name": "[Fragile] Base Blade of the Other · Block"
   },
   "4360086": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_EquipPyrois_001.png",
     "rank": 1,
     "class": 133,
-    "name": "[Fragile] Base Blade of the Other·Block"
+    "name": "[Fragile] Base Blade of the Other · Block"
   },
   "4360087": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_006.png",
     "rank": 4,
     "class": 130,
-    "name": "[Commission] Complete Hematite Signal Detector"
+    "name": "[Commission] Hematite Signal Detector"
   },
   "4360088": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_CollectionA_004.png",
     "rank": 5,
     "class": 130,
-    "name": "[Commission] Treasure Radar"
+    "name": ""
   },
   "4360089": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_013.png",
@@ -31816,7 +31962,7 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_006.png",
     "rank": 2,
     "class": 130,
-    "name": "[Commission] Broken Hematite Signal Detector"
+    "name": ""
   },
   "4360093": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Key_025.png",
@@ -31828,37 +31974,37 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_022.png",
     "rank": 4,
     "class": 130,
-    "name": "[Commission] Labyrinth Carrot Shard"
+    "name": "[Commission] $$$Labyrinth Carrot Shard$$$"
   },
   "4360095": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Material_040.png",
     "rank": 2,
     "class": 130,
-    "name": "[Commission] Signal Transmitters"
+    "name": "[Commission] $$$Signal Transmitters$$$"
   },
   "4360096": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/SuibianTemple/UnPacker/SuibianProspectingMaterial03.png",
     "rank": 2,
     "class": 130,
-    "name": "[Commission] Hematite Crystal Shards"
+    "name": "[Commission] $$$Hematite Crystal Shards$$$"
   },
   "4360097": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_005.png",
     "rank": 3,
     "class": 130,
-    "name": "[Commission] Special Storage Unit"
+    "name": "[Commission] Blasting Storage Unit"
   },
   "4360098": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_001.png",
     "rank": 4,
     "class": 130,
-    "name": "[Commission] Hematite Core"
+    "name": "[Commission] $$$Hematite Core$$$"
   },
   "4360099": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Key_007.png",
     "rank": 4,
     "class": 130,
-    "name": "[Commission] Elevator Access Card"
+    "name": "[Commission] $$$Elevator Access Card$$$"
   },
   "4361001": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Activity/Ver2_8/Bangkov/UnPacker/ItemIconBig/BangkovCoinSpecialBig.png",
@@ -31939,7 +32085,7 @@
     "name": "BKItem_4361013_Name"
   },
   "4362001": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Box_Blueprint_Blueprint.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Box_Blueprint.png",
     "rank": 4,
     "class": 130,
     "name": "Blueprint"
@@ -31972,13 +32118,13 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Key_009.png",
     "rank": 4,
     "class": 130,
-    "name": "Bunless Bae Town - Unloading Zone Key"
+    "name": "Bunless Bae Town - Unloading Dock Key"
   },
   "4364003": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Key_012.png",
     "rank": 3,
     "class": 130,
-    "name": "Phantom Aquarium East Gate, Fantasy Beach"
+    "name": "$$$Phantom Aquarium$$$ East Gate, Fantasy Beach"
   },
   "4364004": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Key_013.png",
@@ -31990,13 +32136,13 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Key_016.png",
     "rank": 4,
     "class": 130,
-    "name": "Sixth Twilight Street Warehouse"
+    "name": "$$$Sixth Twilight Street Warehouse$$$"
   },
   "4364006": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Key_018.png",
     "rank": 4,
     "class": 130,
-    "name": "Paloma Construction Site: Phase I Access Route"
+    "name": "$$$Paloma Construction Site: Phase I Access Route$$$"
   },
   "4364007": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Key_024.png",
@@ -32008,7 +32154,7 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Key_012.png",
     "rank": 3,
     "class": 130,
-    "name": "Phantom Aquarium East Gate, Fantasy Beach"
+    "name": "$$$Phantom Aquarium$$$ East Gate, Fantasy Beach"
   },
   "4370001": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Activity/Ver3_1/SummerTideTreasure/UnPacker/Drop/SummerTideTreasure_DroopItemIcon_03.png",
@@ -32435,6 +32581,18 @@
     "rank": 3,
     "class": 72,
     "name": "Item_SummerTideTreasure_019"
+  },
+  "4390000": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/Activity_RunLetter01.png",
+    "rank": 3,
+    "class": 144,
+    "name": "Commemoration Item A"
+  },
+  "4390001": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/Activity_RunLetter03.png",
+    "rank": 3,
+    "class": 144,
+    "name": "Commemoration Item B"
   },
   "10007030": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardBlunt09.png",
@@ -33126,6 +33284,12 @@
     "class": 96,
     "name": "Accessoriy_412001317"
   },
+  "412001322": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/Skin_EllenOnCampus.png",
+    "rank": 3,
+    "class": 96,
+    "name": "Accessoriy_412001322"
+  },
   "412001381": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/Skin_EllenOnCampus.png",
     "rank": 3,
@@ -33468,6 +33632,12 @@
     "class": 95,
     "name": "Magic Shades"
   },
+  "412011322": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/PlayerAccessory/UnPacker/icon_Wise_Chest_WaistOrnament_04.png",
+    "rank": 3,
+    "class": 95,
+    "name": "Accessoriy_412011322"
+  },
   "412011381": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/PlayerAccessory/UnPacker/icon_Wise_Back_Pendant_Default.png",
     "rank": 3,
@@ -33809,6 +33979,12 @@
     "rank": 3,
     "class": 95,
     "name": "Magic Shades"
+  },
+  "412021322": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/PlayerAccessory/UnPacker/icon_Belle_Chest_WaistOrnament_04.png",
+    "rank": 3,
+    "class": 95,
+    "name": "Accessoriy_412021322"
   },
   "412021381": {
     "icon": "Assets/NapResources/UI/Sprite/A5DynamicLoad/PlayerAccessory/UnPacker/icon_Belle_Back_Pendant_Default.png",

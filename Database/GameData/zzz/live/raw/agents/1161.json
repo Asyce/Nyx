@@ -2091,6 +2091,33 @@
       }
     }
   },
+  "skill_priority": [
+    {
+      "id": 1161001,
+      "avatar_id": 1161,
+      "first_priority": [
+        5,
+        0,
+        1
+      ],
+      "second_priority": [
+        3
+      ],
+      "third_priority": [
+        6,
+        2
+      ],
+      "potential_levels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ],
   "skill_list": {
     "1161001": {
       "name": "Basic Attack: L-Form Thundering Fist",

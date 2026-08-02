@@ -1797,6 +1797,33 @@
       }
     }
   },
+  "skill_priority": [
+    {
+      "id": 1531001,
+      "avatar_id": 1531,
+      "first_priority": [
+        5,
+        1,
+        0
+      ],
+      "second_priority": [
+        3,
+        2
+      ],
+      "third_priority": [
+        6
+      ],
+      "potential_levels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ],
   "skill_list": {
     "1531001": {
       "name": "Basic Attack: Knight's Technique",

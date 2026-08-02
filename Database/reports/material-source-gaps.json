@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T10:13:37.724Z",
+  "generatedAt": "2026-08-02T20:09:34.538Z",
   "note": "Generic shops, crafting, exchanges, and event rewards are intentionally filtered. Rows here need scraper/wiki-specific source data.",
   "count": 214,
   "missing": [
@@ -1377,14 +1377,14 @@
     },
     {
       "game": "zzz",
-      "context": "Velina weapon",
+      "context": "Alice weapon",
       "id": "101012",
       "name": "Anomaly Component",
       "kind": "mob"
     },
     {
       "game": "zzz",
-      "context": "Pyrois weapon",
+      "context": "Cissia weapon",
       "id": "101010",
       "name": "Attack Component",
       "kind": "mob"
@@ -1398,14 +1398,14 @@
     },
     {
       "game": "zzz",
-      "context": "Velina weapon",
+      "context": "Alice weapon",
       "id": "101022",
       "name": "Reinforced Anomaly Component",
       "kind": "mob"
     },
     {
       "game": "zzz",
-      "context": "Pyrois weapon",
+      "context": "Cissia weapon",
       "id": "101020",
       "name": "Reinforced Attack Component",
       "kind": "mob"
@@ -1426,7 +1426,7 @@
     },
     {
       "game": "zzz",
-      "context": "Lycaon weapon",
+      "context": "Dialyn weapon",
       "id": "101021",
       "name": "Reinforced Stun Component",
       "kind": "mob"
@@ -1447,14 +1447,14 @@
     },
     {
       "game": "zzz",
-      "context": "Velina weapon",
+      "context": "Alice weapon",
       "id": "101032",
       "name": "Specialized Anomaly Component",
       "kind": "mob"
     },
     {
       "game": "zzz",
-      "context": "Pyrois weapon",
+      "context": "Cissia weapon",
       "id": "101030",
       "name": "Specialized Attack Component",
       "kind": "mob"
@@ -1475,7 +1475,7 @@
     },
     {
       "game": "zzz",
-      "context": "Lycaon weapon",
+      "context": "Dialyn weapon",
       "id": "101031",
       "name": "Specialized Stun Component",
       "kind": "mob"
@@ -1489,7 +1489,7 @@
     },
     {
       "game": "zzz",
-      "context": "Lycaon weapon",
+      "context": "Dialyn weapon",
       "id": "101011",
       "name": "Stun Component",
       "kind": "mob"

@@ -50,21 +50,25 @@
     "3115810": {
       "name": "Remielle: Feathered Murmurs",
       "desc": "An angel of old fell to the mortal world, their feathers drifting down as they sank into silent slumber.\nAwaken from the pale wasteland, beyond the edge of all sound, and begin the journey anew.",
+      "obtain_desc": "",
       "image": "IconRole67"
     },
     "3115811": {
       "name": "Remielle: Moonlight Whispers",
       "desc": "Since the sun has never shown mercy, let us embrace the fall alongside the moonlit night.\nYou say it's difficult to differentiate between jokes and deception?\nThen let's have another round of our Q&A game, my dear partner in crime.",
+      "obtain_desc": "",
       "image": "IconRole67_02"
     },
     "3115812": {
       "name": "Remielle: Seashade Pas Seul",
       "desc": "This was originally a solo dance, yet a ray of light has illuminated the secrecy and solitude shrouded in darkness. Now, would you care to join me for a pas de deux, my partner in crime?",
+      "obtain_desc": "",
       "image": "IconRole67_01"
     },
     "3115813": {
       "name": "Remielle: Moonlight Whispers (Veil)",
       "desc": "Since the sun has never shown mercy, let us embrace the fall alongside the moonlit night.\nYou say it's difficult to differentiate between jokes and deception?\nThen let's have another round of our Q&A game, my dear partner in crime.",
+      "obtain_desc": "Unlocked after obtaining the\"Moonlight Whispers\" Outfit",
       "image": "IconRole67_03"
     }
   },
@@ -108,7 +112,10 @@
       "EtherEyesSize2"
     ],
     "rp_max": 0,
-    "rp_recover": 0
+    "rp_recover": 0,
+    "ep_max": 0,
+    "ep_recover": 0,
+    "sharp_critical_damage": 0
   },
   "level": {
     "1": {
@@ -1805,6 +1812,33 @@
       }
     }
   },
+  "skill_priority": [
+    {
+      "id": 1581001,
+      "avatar_id": 1581,
+      "first_priority": [
+        5,
+        3,
+        0
+      ],
+      "second_priority": [
+        1
+      ],
+      "third_priority": [
+        6,
+        2
+      ],
+      "potential_levels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ],
   "skill_list": {
     "1581001": {
       "name": "Basic Attack: Leap",
@@ -2089,6 +2123,7 @@
       31203,
       12103
     ],
+    "alt_build": [],
     "part4": {
       "prop": 31203,
       "name": "Anomaly Proficiency",

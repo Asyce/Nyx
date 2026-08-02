@@ -45,6 +45,7 @@ const CM_GAME_LABELS = {
 const CM_BETA_FILES = {
   "gi": "../dist/cm-data-gi-beta.js",
   "hsr": "../dist/cm-data-hsr-beta.js",
+  "zzz": "../dist/cm-data-zzz-beta.js",
   "wuwa": "../dist/cm-data-wuwa-beta.js"
 };
 const CM_BETA_META = {
@@ -60,11 +61,17 @@ const CM_BETA_META = {
     "newCount": 2,
     "changedCount": 17
   },
-  "wuwa": {
-    "version": "3.6.1",
-    "liveVersion": "3.5",
-    "newCount": 1,
+  "zzz": {
+    "version": "3.2.1+17919471",
+    "liveVersion": "3.1",
+    "newCount": 2,
     "changedCount": 1
+  },
+  "wuwa": {
+    "version": "3.6.1+8296177",
+    "liveVersion": "3.5",
+    "newCount": 0,
+    "changedCount": 2
   }
 };
 const CM_LOADS = window.__NYX_CM_LOADS || {};

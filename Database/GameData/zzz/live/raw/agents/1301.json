@@ -1824,6 +1824,33 @@
       }
     }
   },
+  "skill_priority": [
+    {
+      "id": 1301001,
+      "avatar_id": 1301,
+      "first_priority": [
+        5,
+        1
+      ],
+      "second_priority": [
+        3
+      ],
+      "third_priority": [
+        6,
+        0,
+        2
+      ],
+      "potential_levels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ],
   "skill_list": {
     "1301001": {
       "name": "Basic Attack: High-Pressure Flamethrower",

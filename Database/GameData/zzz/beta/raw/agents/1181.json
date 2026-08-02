@@ -50,6 +50,7 @@
     "3111810": {
       "name": "Grace: The Iron Witch",
       "desc": "A clean, no-nonsense work uniform. What the genius mechanic loves most are the many pockets on the outside — big ones, small ones — all perfect for holding screws, gears, and even wrenches of every size.",
+      "obtain_desc": "",
       "image": "IconRole20"
     }
   },
@@ -93,7 +94,10 @@
       "EtherEyesSize3"
     ],
     "rp_max": 0,
-    "rp_recover": 0
+    "rp_recover": 0,
+    "ep_max": 0,
+    "ep_recover": 0,
+    "sharp_critical_damage": 0
   },
   "level": {
     "1": {
@@ -1643,6 +1647,33 @@
       }
     }
   },
+  "skill_priority": [
+    {
+      "id": 1181001,
+      "avatar_id": 1181,
+      "first_priority": [
+        5,
+        1,
+        0
+      ],
+      "second_priority": [
+        3
+      ],
+      "third_priority": [
+        6,
+        2
+      ],
+      "potential_levels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ],
   "skill_list": {
     "1181001": {
       "name": "Basic Attack: High-Pressure Spike",
@@ -2052,6 +2083,7 @@
       12102,
       31203
     ],
+    "alt_build": [],
     "part4": {
       "prop": 31203,
       "name": "Anomaly Proficiency",

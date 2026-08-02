@@ -50,11 +50,13 @@
     "3114210": {
       "name": "Pan Yinhu: Hundred Flavors",
       "desc": "Yunkui Summit's largest disciple uniform, spacious enough for this senior brother's belly and all his seasonings. And that iron wok on top is a first of its kind. But... putting a pan you just used for stir-frying on your head? Doesn't it burn?",
+      "obtain_desc": "",
       "image": "IconRole45"
     },
     "3114211": {
       "name": "Pan Yinhu: Culinary Jewel",
       "desc": "Senior Yinhu once dreamed of becoming a renowned chef, but in this day and age, there's always some thug looking to smash your bowl.\n—\"Go on, try smashing one.\"",
+      "obtain_desc": "",
       "image": "IconRole45_01"
     }
   },
@@ -98,7 +100,10 @@
       "EtherEyesSize3"
     ],
     "rp_max": 0,
-    "rp_recover": 0
+    "rp_recover": 0,
+    "ep_max": 0,
+    "ep_recover": 0,
+    "sharp_critical_damage": 0
   },
   "level": {
     "1": {
@@ -1592,6 +1597,33 @@
       }
     }
   },
+  "skill_priority": [
+    {
+      "id": 1421001,
+      "avatar_id": 1421,
+      "first_priority": [
+        5,
+        3
+      ],
+      "second_priority": [
+        1
+      ],
+      "third_priority": [
+        6,
+        0,
+        2
+      ],
+      "potential_levels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ],
   "skill_list": {
     "1421001": {
       "name": "Basic Attack: Unyielding Strikes",
@@ -1847,6 +1879,7 @@
       12102,
       20103
     ],
+    "alt_build": [],
     "part4": {
       "prop": 12102,
       "name": "ATK",
@@ -1873,7 +1906,7 @@
     }
   },
   "strategy": [
-    "05",
+    "04",
     "<IconMap:Icon_GeneralBuff_PhysDmg>Physical, Rupture-based support",
     "Provides Sheer Force to squadmates"
   ],

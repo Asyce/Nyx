@@ -1592,6 +1592,33 @@
       }
     }
   },
+  "skill_priority": [
+    {
+      "id": 1421001,
+      "avatar_id": 1421,
+      "first_priority": [
+        5,
+        3
+      ],
+      "second_priority": [
+        1
+      ],
+      "third_priority": [
+        6,
+        0,
+        2
+      ],
+      "potential_levels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ],
   "skill_list": {
     "1421001": {
       "name": "Basic Attack: Unyielding Strikes",

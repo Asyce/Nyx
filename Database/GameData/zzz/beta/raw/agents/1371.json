@@ -55,11 +55,13 @@
     "3113710": {
       "name": "Yixuan: Summit of Clouds",
       "desc": "As the Master of Yunkui Summit, one's fashion and accessories need only be what feels natural. Stay true to one's self.",
+      "obtain_desc": "",
       "image": "IconRole44"
     },
     "3113711": {
       "name": "Yixuan: Trails of Ink",
       "desc": "A custom attire in shades of ink. Like an elusive shadow, gone in a flash.",
+      "obtain_desc": "",
       "image": "IconRole44_01"
     }
   },
@@ -103,7 +105,10 @@
       "EtherEyesSize3"
     ],
     "rp_max": 120,
-    "rp_recover": 200
+    "rp_recover": 200,
+    "ep_max": 0,
+    "ep_recover": 0,
+    "sharp_critical_damage": 0
   },
   "level": {
     "1": {
@@ -2026,6 +2031,33 @@
       }
     }
   },
+  "skill_priority": [
+    {
+      "id": 1371001,
+      "avatar_id": 1371,
+      "first_priority": [
+        5,
+        3,
+        1
+      ],
+      "second_priority": [
+        0
+      ],
+      "third_priority": [
+        2,
+        6
+      ],
+      "potential_levels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ],
   "skill_list": {
     "1371001": {
       "name": "Basic Attack: Cirrus Strike (1st, 2nd, 3rd, 4th, and 5th hit)",
@@ -2373,6 +2405,7 @@
       21103,
       11102
     ],
+    "alt_build": [],
     "part4": {
       "prop": 20103,
       "name": "CRIT Rate",

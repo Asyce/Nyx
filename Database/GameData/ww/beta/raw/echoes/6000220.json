@@ -7,8 +7,8 @@
   "place": "",
   "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32069_UI.T_IconMonsterHead_32069_UI",
   "skill": {
-    "desc": "Summon a Skywatch Gunner to attack the target, dealing {0} Havoc DMG 6 times.\nCD: {1}s",
-    "simple_desc": "Summon a Skywatch Gunner to deal Havoc DMG to the target.",
+    "desc": "Summon a Skywatch Lancer to attack the target, dealing {0} Havoc DMG 6 times.\nCD: {1}s",
+    "simple_desc": "Summon a Skywatch Lancer to deal Havoc DMG to the target.",
     "param": [
       [
         "17.83%",

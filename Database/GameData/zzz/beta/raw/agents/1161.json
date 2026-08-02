@@ -50,6 +50,7 @@
     "3111610": {
       "name": "Lighter: Everburn Embers",
       "desc": "The undefeated champion never takes off his sunglasses... or his scarf. Glory stopped mattering long ago, but the countless dusks shared with his companions are still worth waiting for.",
+      "obtain_desc": "",
       "image": "IconRole26"
     }
   },
@@ -93,7 +94,10 @@
       "EtherEyesSize2"
     ],
     "rp_max": 0,
-    "rp_recover": 0
+    "rp_recover": 0,
+    "ep_max": 0,
+    "ep_recover": 0,
+    "sharp_critical_damage": 0
   },
   "level": {
     "1": {
@@ -2091,6 +2095,33 @@
       }
     }
   },
+  "skill_priority": [
+    {
+      "id": 1161001,
+      "avatar_id": 1161,
+      "first_priority": [
+        5,
+        0,
+        1
+      ],
+      "second_priority": [
+        3
+      ],
+      "third_priority": [
+        6,
+        2
+      ],
+      "potential_levels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ],
   "skill_list": {
     "1161001": {
       "name": "Basic Attack: L-Form Thundering Fist",
@@ -2360,6 +2391,7 @@
       12102,
       20103
     ],
+    "alt_build": [],
     "part4": {
       "prop": 12202,
       "name": "Impact",

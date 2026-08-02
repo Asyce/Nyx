@@ -7995,6 +7995,538 @@
     }
   },
   {
+    "id": "12016",
+    "contentStatus": "beta",
+    "name": "[Lunar] Semiluna",
+    "codeName": "Weapon_B_Common_16",
+    "rarity": 2,
+    "type": {
+      "7": "Armorer"
+    },
+    "description": "...",
+    "shortDescription": "...",
+    "assets": {
+      "icon": "GameData/zzz/assets/w-engines/Weapon_B_Common_16.webp"
+    },
+    "baseProperty": {
+      "name": "Base DEF",
+      "name2": "Base DEF",
+      "format": "{0:0.#}",
+      "value": 18
+    },
+    "randomProperty": {
+      "name": "DEF",
+      "name2": "Percent DEF",
+      "format": "{0:0.#%}",
+      "value": 1280
+    },
+    "levels": {
+      "0": {
+        "exp": 30,
+        "rate": 0,
+        "rate2": 10000
+      },
+      "1": {
+        "exp": 60,
+        "rate": 1568,
+        "rate2": 10000
+      },
+      "2": {
+        "exp": 90,
+        "rate": 3136,
+        "rate2": 10000
+      },
+      "3": {
+        "exp": 120,
+        "rate": 4705,
+        "rate2": 10000
+      },
+      "4": {
+        "exp": 180,
+        "rate": 6273,
+        "rate2": 10000
+      },
+      "5": {
+        "exp": 240,
+        "rate": 7841,
+        "rate2": 10000
+      },
+      "6": {
+        "exp": 300,
+        "rate": 9409,
+        "rate2": 10000
+      },
+      "7": {
+        "exp": 360,
+        "rate": 10977,
+        "rate2": 10000
+      },
+      "8": {
+        "exp": 450,
+        "rate": 12545,
+        "rate2": 10000
+      },
+      "9": {
+        "exp": 570,
+        "rate": 14114,
+        "rate2": 10000
+      },
+      "10": {
+        "exp": 720,
+        "rate": 15682,
+        "rate2": 9500
+      },
+      "11": {
+        "exp": 770,
+        "rate": 17250,
+        "rate2": 9500
+      },
+      "12": {
+        "exp": 830,
+        "rate": 18818,
+        "rate2": 9500
+      },
+      "13": {
+        "exp": 880,
+        "rate": 20386,
+        "rate2": 9500
+      },
+      "14": {
+        "exp": 935,
+        "rate": 21954,
+        "rate2": 9500
+      },
+      "15": {
+        "exp": 985,
+        "rate": 23523,
+        "rate2": 9500
+      },
+      "16": {
+        "exp": 1040,
+        "rate": 25091,
+        "rate2": 9500
+      },
+      "17": {
+        "exp": 1095,
+        "rate": 26659,
+        "rate2": 9500
+      },
+      "18": {
+        "exp": 1145,
+        "rate": 28227,
+        "rate2": 9500
+      },
+      "19": {
+        "exp": 1200,
+        "rate": 29795,
+        "rate2": 9500
+      },
+      "20": {
+        "exp": 1870,
+        "rate": 31363,
+        "rate2": 9000
+      },
+      "21": {
+        "exp": 1990,
+        "rate": 32932,
+        "rate2": 9000
+      },
+      "22": {
+        "exp": 2105,
+        "rate": 34500,
+        "rate2": 9000
+      },
+      "23": {
+        "exp": 2225,
+        "rate": 36068,
+        "rate2": 9000
+      },
+      "24": {
+        "exp": 2340,
+        "rate": 37636,
+        "rate2": 9000
+      },
+      "25": {
+        "exp": 2460,
+        "rate": 39204,
+        "rate2": 9000
+      },
+      "26": {
+        "exp": 2575,
+        "rate": 40772,
+        "rate2": 9000
+      },
+      "27": {
+        "exp": 2695,
+        "rate": 42341,
+        "rate2": 9000
+      },
+      "28": {
+        "exp": 2810,
+        "rate": 43909,
+        "rate2": 9000
+      },
+      "29": {
+        "exp": 2930,
+        "rate": 45477,
+        "rate2": 9000
+      },
+      "30": {
+        "exp": 4320,
+        "rate": 47045,
+        "rate2": 8500
+      },
+      "31": {
+        "exp": 4560,
+        "rate": 48613,
+        "rate2": 8500
+      },
+      "32": {
+        "exp": 4800,
+        "rate": 50181,
+        "rate2": 8500
+      },
+      "33": {
+        "exp": 5040,
+        "rate": 51750,
+        "rate2": 8500
+      },
+      "34": {
+        "exp": 5280,
+        "rate": 53318,
+        "rate2": 8500
+      },
+      "35": {
+        "exp": 5520,
+        "rate": 54886,
+        "rate2": 8500
+      },
+      "36": {
+        "exp": 5760,
+        "rate": 56454,
+        "rate2": 8500
+      },
+      "37": {
+        "exp": 6000,
+        "rate": 58022,
+        "rate2": 8500
+      },
+      "38": {
+        "exp": 6240,
+        "rate": 59590,
+        "rate2": 8500
+      },
+      "39": {
+        "exp": 6480,
+        "rate": 61159,
+        "rate2": 8500
+      },
+      "40": {
+        "exp": 6840,
+        "rate": 62727,
+        "rate2": 8000
+      },
+      "41": {
+        "exp": 7320,
+        "rate": 64295,
+        "rate2": 8000
+      },
+      "42": {
+        "exp": 7800,
+        "rate": 65863,
+        "rate2": 8000
+      },
+      "43": {
+        "exp": 8280,
+        "rate": 67431,
+        "rate2": 8000
+      },
+      "44": {
+        "exp": 8760,
+        "rate": 68999,
+        "rate2": 8000
+      },
+      "45": {
+        "exp": 9240,
+        "rate": 70568,
+        "rate2": 8000
+      },
+      "46": {
+        "exp": 9720,
+        "rate": 72136,
+        "rate2": 8000
+      },
+      "47": {
+        "exp": 10200,
+        "rate": 73704,
+        "rate2": 8000
+      },
+      "48": {
+        "exp": 10680,
+        "rate": 75272,
+        "rate2": 8000
+      },
+      "49": {
+        "exp": 11160,
+        "rate": 76840,
+        "rate2": 8000
+      },
+      "50": {
+        "exp": 13680,
+        "rate": 78408,
+        "rate2": 7500
+      },
+      "51": {
+        "exp": 14640,
+        "rate": 79977,
+        "rate2": 7500
+      },
+      "52": {
+        "exp": 15600,
+        "rate": 81545,
+        "rate2": 7500
+      },
+      "53": {
+        "exp": 16560,
+        "rate": 83113,
+        "rate2": 7500
+      },
+      "54": {
+        "exp": 17520,
+        "rate": 84681,
+        "rate2": 7500
+      },
+      "55": {
+        "exp": 18480,
+        "rate": 86249,
+        "rate2": 7500
+      },
+      "56": {
+        "exp": 19440,
+        "rate": 87817,
+        "rate2": 7500
+      },
+      "57": {
+        "exp": 20400,
+        "rate": 89386,
+        "rate2": 7500
+      },
+      "58": {
+        "exp": 21360,
+        "rate": 90954,
+        "rate2": 7500
+      },
+      "59": {
+        "exp": 22320,
+        "rate": 92522,
+        "rate2": 7500
+      },
+      "60": {
+        "exp": 0,
+        "rate": 94090,
+        "rate2": 7000
+      }
+    },
+    "stars": {
+      "0": {
+        "star_rate": 0,
+        "rand_rate": 0
+      },
+      "1": {
+        "star_rate": 8922,
+        "rand_rate": 3000
+      },
+      "2": {
+        "star_rate": 17844,
+        "rand_rate": 6000
+      },
+      "3": {
+        "star_rate": 26766,
+        "rand_rate": 9000
+      },
+      "4": {
+        "star_rate": 35688,
+        "rand_rate": 12000
+      },
+      "5": {
+        "star_rate": 44610,
+        "rand_rate": 15000
+      }
+    },
+    "materials": [
+      {
+        "group": 1,
+        "materials": [
+          {
+            "itemId": "10",
+            "quantity": 7200,
+            "name": "Denny",
+            "rarity": 2,
+            "type": {
+              "1": "CURRENCY"
+            },
+            "assets": {
+              "icon": "GameData/zzz/assets/items/IconCoin.webp"
+            }
+          },
+          {
+            "itemId": "101015",
+            "quantity": 2,
+            "name": "Rupture Component",
+            "rarity": 1,
+            "type": {
+              "10": "RESOURCE"
+            },
+            "assets": {
+              "icon": "GameData/zzz/assets/items/WeaponRankRuin01.webp"
+            }
+          }
+        ]
+      },
+      {
+        "group": 2,
+        "materials": [
+          {
+            "itemId": "10",
+            "quantity": 16800,
+            "name": "Denny",
+            "rarity": 2,
+            "type": {
+              "1": "CURRENCY"
+            },
+            "assets": {
+              "icon": "GameData/zzz/assets/items/IconCoin.webp"
+            }
+          },
+          {
+            "itemId": "101025",
+            "quantity": 7,
+            "name": "Reinforced Rupture Component",
+            "rarity": 2,
+            "type": {
+              "10": "RESOURCE"
+            },
+            "assets": {
+              "icon": "GameData/zzz/assets/items/WeaponRankRuin02.webp"
+            }
+          }
+        ]
+      },
+      {
+        "group": 3,
+        "materials": [
+          {
+            "itemId": "10",
+            "quantity": 36000,
+            "name": "Denny",
+            "rarity": 2,
+            "type": {
+              "1": "CURRENCY"
+            },
+            "assets": {
+              "icon": "GameData/zzz/assets/items/IconCoin.webp"
+            }
+          },
+          {
+            "itemId": "101025",
+            "quantity": 12,
+            "name": "Reinforced Rupture Component",
+            "rarity": 2,
+            "type": {
+              "10": "RESOURCE"
+            },
+            "assets": {
+              "icon": "GameData/zzz/assets/items/WeaponRankRuin02.webp"
+            }
+          }
+        ]
+      },
+      {
+        "group": 4,
+        "materials": [
+          {
+            "itemId": "10",
+            "quantity": 60000,
+            "name": "Denny",
+            "rarity": 2,
+            "type": {
+              "1": "CURRENCY"
+            },
+            "assets": {
+              "icon": "GameData/zzz/assets/items/IconCoin.webp"
+            }
+          },
+          {
+            "itemId": "101035",
+            "quantity": 6,
+            "name": "Specialized Rupture Component",
+            "rarity": 3,
+            "type": {
+              "10": "RESOURCE"
+            },
+            "assets": {
+              "icon": "GameData/zzz/assets/items/WeaponRankRuin03.webp"
+            }
+          }
+        ]
+      },
+      {
+        "group": 5,
+        "materials": [
+          {
+            "itemId": "10",
+            "quantity": 120000,
+            "name": "Denny",
+            "rarity": 2,
+            "type": {
+              "1": "CURRENCY"
+            },
+            "assets": {
+              "icon": "GameData/zzz/assets/items/IconCoin.webp"
+            }
+          },
+          {
+            "itemId": "101035",
+            "quantity": 12,
+            "name": "Specialized Rupture Component",
+            "rarity": 3,
+            "type": {
+              "10": "RESOURCE"
+            },
+            "assets": {
+              "icon": "GameData/zzz/assets/items/WeaponRankRuin03.webp"
+            }
+          }
+        ]
+      }
+    ],
+    "talents": {
+      "1": {
+        "name": "...",
+        "desc": "Upon launching an <color=#FFFFFF>[EX Special Attack]</color>, [Basic Attack] DMG increases by <color=#2BAD00>18%</color> for 10s. Repeated triggers reset the duration."
+      },
+      "2": {
+        "name": "...",
+        "desc": "Upon launching an <color=#FFFFFF>[EX Special Attack]</color>, [Basic Attack] DMG increases by <color=#2BAD00>21%</color> for 10s. Repeated triggers reset the duration."
+      },
+      "3": {
+        "name": "...",
+        "desc": "Upon launching an <color=#FFFFFF>[EX Special Attack]</color>, [Basic Attack] DMG increases by <color=#2BAD00>24%</color> for 10s. Repeated triggers reset the duration."
+      },
+      "4": {
+        "name": "...",
+        "desc": "Upon launching an <color=#FFFFFF>[EX Special Attack]</color>, [Basic Attack] DMG increases by <color=#2BAD00>27%</color> for 10s. Repeated triggers reset the duration."
+      },
+      "5": {
+        "name": "...",
+        "desc": "Upon launching an <color=#FFFFFF>[EX Special Attack]</color>, [Basic Attack] DMG increases by <color=#2BAD00>30%</color> for 10s. Repeated triggers reset the duration."
+      }
+    },
+    "liveComparison": {
+      "currentHash": "7b99ead26ee1690e3e3440a632edea11038d70a7bd80882ab2cd0c7052094b18"
+    }
+  },
+  {
     "id": "13001",
     "contentStatus": "live",
     "name": "Street Superstar",
@@ -16523,6 +17055,538 @@
     }
   },
   {
+    "id": "13017",
+    "contentStatus": "beta",
+    "name": "Catty Luck",
+    "codeName": "Weapon_A_Common_17",
+    "rarity": 3,
+    "type": {
+      "7": "Armorer"
+    },
+    "description": "...",
+    "shortDescription": "...",
+    "assets": {
+      "icon": "GameData/zzz/assets/w-engines/Weapon_A_Common_17.webp"
+    },
+    "baseProperty": {
+      "name": "Base DEF",
+      "name2": "Base DEF",
+      "format": "{0:0.#}",
+      "value": 23
+    },
+    "randomProperty": {
+      "name": "DEF",
+      "name2": "Percent DEF",
+      "format": "{0:0.#%}",
+      "value": 1600
+    },
+    "levels": {
+      "0": {
+        "exp": 40,
+        "rate": 0,
+        "rate2": 10000
+      },
+      "1": {
+        "exp": 80,
+        "rate": 1568,
+        "rate2": 10000
+      },
+      "2": {
+        "exp": 120,
+        "rate": 3136,
+        "rate2": 10000
+      },
+      "3": {
+        "exp": 160,
+        "rate": 4705,
+        "rate2": 10000
+      },
+      "4": {
+        "exp": 240,
+        "rate": 6273,
+        "rate2": 10000
+      },
+      "5": {
+        "exp": 320,
+        "rate": 7841,
+        "rate2": 10000
+      },
+      "6": {
+        "exp": 400,
+        "rate": 9409,
+        "rate2": 10000
+      },
+      "7": {
+        "exp": 480,
+        "rate": 10977,
+        "rate2": 10000
+      },
+      "8": {
+        "exp": 600,
+        "rate": 12545,
+        "rate2": 10000
+      },
+      "9": {
+        "exp": 760,
+        "rate": 14114,
+        "rate2": 10000
+      },
+      "10": {
+        "exp": 960,
+        "rate": 15682,
+        "rate2": 9250
+      },
+      "11": {
+        "exp": 1030,
+        "rate": 17250,
+        "rate2": 9250
+      },
+      "12": {
+        "exp": 1105,
+        "rate": 18818,
+        "rate2": 9250
+      },
+      "13": {
+        "exp": 1170,
+        "rate": 20386,
+        "rate2": 9250
+      },
+      "14": {
+        "exp": 1245,
+        "rate": 21954,
+        "rate2": 9250
+      },
+      "15": {
+        "exp": 1310,
+        "rate": 23523,
+        "rate2": 9250
+      },
+      "16": {
+        "exp": 1390,
+        "rate": 25091,
+        "rate2": 9250
+      },
+      "17": {
+        "exp": 1460,
+        "rate": 26659,
+        "rate2": 9250
+      },
+      "18": {
+        "exp": 1530,
+        "rate": 28227,
+        "rate2": 9250
+      },
+      "19": {
+        "exp": 1600,
+        "rate": 29795,
+        "rate2": 9250
+      },
+      "20": {
+        "exp": 2495,
+        "rate": 31363,
+        "rate2": 8500
+      },
+      "21": {
+        "exp": 2650,
+        "rate": 32932,
+        "rate2": 8500
+      },
+      "22": {
+        "exp": 2810,
+        "rate": 34500,
+        "rate2": 8500
+      },
+      "23": {
+        "exp": 2965,
+        "rate": 36068,
+        "rate2": 8500
+      },
+      "24": {
+        "exp": 3120,
+        "rate": 37636,
+        "rate2": 8500
+      },
+      "25": {
+        "exp": 3280,
+        "rate": 39204,
+        "rate2": 8500
+      },
+      "26": {
+        "exp": 3435,
+        "rate": 40772,
+        "rate2": 8500
+      },
+      "27": {
+        "exp": 3590,
+        "rate": 42341,
+        "rate2": 8500
+      },
+      "28": {
+        "exp": 3750,
+        "rate": 43909,
+        "rate2": 8500
+      },
+      "29": {
+        "exp": 3905,
+        "rate": 45477,
+        "rate2": 8500
+      },
+      "30": {
+        "exp": 5760,
+        "rate": 47045,
+        "rate2": 7750
+      },
+      "31": {
+        "exp": 6080,
+        "rate": 48613,
+        "rate2": 7750
+      },
+      "32": {
+        "exp": 6400,
+        "rate": 50181,
+        "rate2": 7750
+      },
+      "33": {
+        "exp": 6720,
+        "rate": 51750,
+        "rate2": 7750
+      },
+      "34": {
+        "exp": 7040,
+        "rate": 53318,
+        "rate2": 7750
+      },
+      "35": {
+        "exp": 7360,
+        "rate": 54886,
+        "rate2": 7750
+      },
+      "36": {
+        "exp": 7680,
+        "rate": 56454,
+        "rate2": 7750
+      },
+      "37": {
+        "exp": 8000,
+        "rate": 58022,
+        "rate2": 7750
+      },
+      "38": {
+        "exp": 8320,
+        "rate": 59590,
+        "rate2": 7750
+      },
+      "39": {
+        "exp": 8640,
+        "rate": 61159,
+        "rate2": 7750
+      },
+      "40": {
+        "exp": 9120,
+        "rate": 62727,
+        "rate2": 7000
+      },
+      "41": {
+        "exp": 9760,
+        "rate": 64295,
+        "rate2": 7000
+      },
+      "42": {
+        "exp": 10400,
+        "rate": 65863,
+        "rate2": 7000
+      },
+      "43": {
+        "exp": 11040,
+        "rate": 67431,
+        "rate2": 7000
+      },
+      "44": {
+        "exp": 11680,
+        "rate": 68999,
+        "rate2": 7000
+      },
+      "45": {
+        "exp": 12320,
+        "rate": 70568,
+        "rate2": 7000
+      },
+      "46": {
+        "exp": 12960,
+        "rate": 72136,
+        "rate2": 7000
+      },
+      "47": {
+        "exp": 13600,
+        "rate": 73704,
+        "rate2": 7000
+      },
+      "48": {
+        "exp": 14240,
+        "rate": 75272,
+        "rate2": 7000
+      },
+      "49": {
+        "exp": 14880,
+        "rate": 76840,
+        "rate2": 7000
+      },
+      "50": {
+        "exp": 18240,
+        "rate": 78408,
+        "rate2": 6250
+      },
+      "51": {
+        "exp": 19520,
+        "rate": 79977,
+        "rate2": 6250
+      },
+      "52": {
+        "exp": 20800,
+        "rate": 81545,
+        "rate2": 6250
+      },
+      "53": {
+        "exp": 22080,
+        "rate": 83113,
+        "rate2": 6250
+      },
+      "54": {
+        "exp": 23360,
+        "rate": 84681,
+        "rate2": 6250
+      },
+      "55": {
+        "exp": 24640,
+        "rate": 86249,
+        "rate2": 6250
+      },
+      "56": {
+        "exp": 25920,
+        "rate": 87817,
+        "rate2": 6250
+      },
+      "57": {
+        "exp": 27200,
+        "rate": 89386,
+        "rate2": 6250
+      },
+      "58": {
+        "exp": 28480,
+        "rate": 90954,
+        "rate2": 6250
+      },
+      "59": {
+        "exp": 29760,
+        "rate": 92522,
+        "rate2": 6250
+      },
+      "60": {
+        "exp": 0,
+        "rate": 94090,
+        "rate2": 5500
+      }
+    },
+    "stars": {
+      "0": {
+        "star_rate": 0,
+        "rand_rate": 0
+      },
+      "1": {
+        "star_rate": 8922,
+        "rand_rate": 3000
+      },
+      "2": {
+        "star_rate": 17844,
+        "rand_rate": 6000
+      },
+      "3": {
+        "star_rate": 26766,
+        "rand_rate": 9000
+      },
+      "4": {
+        "star_rate": 35688,
+        "rand_rate": 12000
+      },
+      "5": {
+        "star_rate": 44610,
+        "rand_rate": 15000
+      }
+    },
+    "materials": [
+      {
+        "group": 1,
+        "materials": [
+          {
+            "itemId": "10",
+            "quantity": 9600,
+            "name": "Denny",
+            "rarity": 2,
+            "type": {
+              "1": "CURRENCY"
+            },
+            "assets": {
+              "icon": "GameData/zzz/assets/items/IconCoin.webp"
+            }
+          },
+          {
+            "itemId": "101014",
+            "quantity": 3,
+            "name": "Defense Component",
+            "rarity": 1,
+            "type": {
+              "10": "RESOURCE"
+            },
+            "assets": {
+              "icon": "GameData/zzz/assets/items/WeaponRankShield01.webp"
+            }
+          }
+        ]
+      },
+      {
+        "group": 2,
+        "materials": [
+          {
+            "itemId": "10",
+            "quantity": 22400,
+            "name": "Denny",
+            "rarity": 2,
+            "type": {
+              "1": "CURRENCY"
+            },
+            "assets": {
+              "icon": "GameData/zzz/assets/items/IconCoin.webp"
+            }
+          },
+          {
+            "itemId": "101024",
+            "quantity": 10,
+            "name": "Reinforced Defense Component",
+            "rarity": 2,
+            "type": {
+              "10": "RESOURCE"
+            },
+            "assets": {
+              "icon": "GameData/zzz/assets/items/WeaponRankShield02.webp"
+            }
+          }
+        ]
+      },
+      {
+        "group": 3,
+        "materials": [
+          {
+            "itemId": "10",
+            "quantity": 48000,
+            "name": "Denny",
+            "rarity": 2,
+            "type": {
+              "1": "CURRENCY"
+            },
+            "assets": {
+              "icon": "GameData/zzz/assets/items/IconCoin.webp"
+            }
+          },
+          {
+            "itemId": "101024",
+            "quantity": 16,
+            "name": "Reinforced Defense Component",
+            "rarity": 2,
+            "type": {
+              "10": "RESOURCE"
+            },
+            "assets": {
+              "icon": "GameData/zzz/assets/items/WeaponRankShield02.webp"
+            }
+          }
+        ]
+      },
+      {
+        "group": 4,
+        "materials": [
+          {
+            "itemId": "10",
+            "quantity": 80000,
+            "name": "Denny",
+            "rarity": 2,
+            "type": {
+              "1": "CURRENCY"
+            },
+            "assets": {
+              "icon": "GameData/zzz/assets/items/IconCoin.webp"
+            }
+          },
+          {
+            "itemId": "101034",
+            "quantity": 8,
+            "name": "Specialized Defense Component",
+            "rarity": 3,
+            "type": {
+              "10": "RESOURCE"
+            },
+            "assets": {
+              "icon": "GameData/zzz/assets/items/WeaponRankShield03.webp"
+            }
+          }
+        ]
+      },
+      {
+        "group": 5,
+        "materials": [
+          {
+            "itemId": "10",
+            "quantity": 160000,
+            "name": "Denny",
+            "rarity": 2,
+            "type": {
+              "1": "CURRENCY"
+            },
+            "assets": {
+              "icon": "GameData/zzz/assets/items/IconCoin.webp"
+            }
+          },
+          {
+            "itemId": "101034",
+            "quantity": 16,
+            "name": "Specialized Defense Component",
+            "rarity": 3,
+            "type": {
+              "10": "RESOURCE"
+            },
+            "assets": {
+              "icon": "GameData/zzz/assets/items/WeaponRankShield03.webp"
+            }
+          }
+        ]
+      }
+    ],
+    "talents": {
+      "1": {
+        "name": "...",
+        "desc": "DEF increases by <color=#2BAD00>6%</color>; when casting <color=#FFFFFF>[EX Special Attack]</color>, DEF additionally increases by <color=#2BAD00>6%</color> for 15 sec. Repeated triggers reset the duration."
+      },
+      "2": {
+        "name": "...",
+        "desc": "DEF increases by <color=#2BAD00>7%</color>; when casting <color=#FFFFFF>[EX Special Attack]</color>, DEF additionally increases by <color=#2BAD00>7%</color> for 15 sec. Repeated triggers reset the duration."
+      },
+      "3": {
+        "name": "...",
+        "desc": "DEF increases by <color=#2BAD00>8%</color>; when casting <color=#FFFFFF>[EX Special Attack]</color>, DEF additionally increases by <color=#2BAD00>8%</color> for 15 sec. Repeated triggers reset the duration."
+      },
+      "4": {
+        "name": "...",
+        "desc": "DEF increases by <color=#2BAD00>9%</color>; when casting <color=#FFFFFF>[EX Special Attack]</color>, DEF additionally increases by <color=#2BAD00>9%</color> for 15 sec; repeated triggers reset the duration."
+      },
+      "5": {
+        "name": "...",
+        "desc": "DEF increases by <color=#2BAD00>10%</color>; when casting <color=#FFFFFF>[EX Special Attack]</color>, DEF additionally increases by <color=#2BAD00>10%</color> for 15 sec. Repeated triggers reset the duration."
+      }
+    },
+    "liveComparison": {
+      "currentHash": "bd212c81e4eebc4ac9e6f5d5f17ca7a56a8732ec1ca471c76fe602e812a046cf"
+    }
+  },
+  {
     "id": "13018",
     "contentStatus": "live",
     "name": "Boisterous Echoes",
@@ -18119,6 +19183,538 @@
     "liveComparison": {
       "liveHash": "b605c5dd6b151fd5c22f53ee6448015e107d40ed3d76dc6073baa2015be78683",
       "currentHash": "b605c5dd6b151fd5c22f53ee6448015e107d40ed3d76dc6073baa2015be78683"
+    }
+  },
+  {
+    "id": "13021",
+    "contentStatus": "beta",
+    "name": "Bloodmarrow Coffer",
+    "codeName": "Weapon_A_Common_21",
+    "rarity": 3,
+    "type": {
+      "7": "Armorer"
+    },
+    "description": "...",
+    "shortDescription": "...",
+    "assets": {
+      "icon": "GameData/zzz/assets/w-engines/Weapon_A_Common_21.webp"
+    },
+    "baseProperty": {
+      "name": "Base DEF",
+      "name2": "Base DEF",
+      "format": "{0:0.#}",
+      "value": 23
+    },
+    "randomProperty": {
+      "name": "CRIT Rate",
+      "name2": "CRIT Rate",
+      "format": "{0:0.#%}",
+      "value": 800
+    },
+    "levels": {
+      "0": {
+        "exp": 40,
+        "rate": 0,
+        "rate2": 10000
+      },
+      "1": {
+        "exp": 80,
+        "rate": 1568,
+        "rate2": 10000
+      },
+      "2": {
+        "exp": 120,
+        "rate": 3136,
+        "rate2": 10000
+      },
+      "3": {
+        "exp": 160,
+        "rate": 4705,
+        "rate2": 10000
+      },
+      "4": {
+        "exp": 240,
+        "rate": 6273,
+        "rate2": 10000
+      },
+      "5": {
+        "exp": 320,
+        "rate": 7841,
+        "rate2": 10000
+      },
+      "6": {
+        "exp": 400,
+        "rate": 9409,
+        "rate2": 10000
+      },
+      "7": {
+        "exp": 480,
+        "rate": 10977,
+        "rate2": 10000
+      },
+      "8": {
+        "exp": 600,
+        "rate": 12545,
+        "rate2": 10000
+      },
+      "9": {
+        "exp": 760,
+        "rate": 14114,
+        "rate2": 10000
+      },
+      "10": {
+        "exp": 960,
+        "rate": 15682,
+        "rate2": 9250
+      },
+      "11": {
+        "exp": 1030,
+        "rate": 17250,
+        "rate2": 9250
+      },
+      "12": {
+        "exp": 1105,
+        "rate": 18818,
+        "rate2": 9250
+      },
+      "13": {
+        "exp": 1170,
+        "rate": 20386,
+        "rate2": 9250
+      },
+      "14": {
+        "exp": 1245,
+        "rate": 21954,
+        "rate2": 9250
+      },
+      "15": {
+        "exp": 1310,
+        "rate": 23523,
+        "rate2": 9250
+      },
+      "16": {
+        "exp": 1390,
+        "rate": 25091,
+        "rate2": 9250
+      },
+      "17": {
+        "exp": 1460,
+        "rate": 26659,
+        "rate2": 9250
+      },
+      "18": {
+        "exp": 1530,
+        "rate": 28227,
+        "rate2": 9250
+      },
+      "19": {
+        "exp": 1600,
+        "rate": 29795,
+        "rate2": 9250
+      },
+      "20": {
+        "exp": 2495,
+        "rate": 31363,
+        "rate2": 8500
+      },
+      "21": {
+        "exp": 2650,
+        "rate": 32932,
+        "rate2": 8500
+      },
+      "22": {
+        "exp": 2810,
+        "rate": 34500,
+        "rate2": 8500
+      },
+      "23": {
+        "exp": 2965,
+        "rate": 36068,
+        "rate2": 8500
+      },
+      "24": {
+        "exp": 3120,
+        "rate": 37636,
+        "rate2": 8500
+      },
+      "25": {
+        "exp": 3280,
+        "rate": 39204,
+        "rate2": 8500
+      },
+      "26": {
+        "exp": 3435,
+        "rate": 40772,
+        "rate2": 8500
+      },
+      "27": {
+        "exp": 3590,
+        "rate": 42341,
+        "rate2": 8500
+      },
+      "28": {
+        "exp": 3750,
+        "rate": 43909,
+        "rate2": 8500
+      },
+      "29": {
+        "exp": 3905,
+        "rate": 45477,
+        "rate2": 8500
+      },
+      "30": {
+        "exp": 5760,
+        "rate": 47045,
+        "rate2": 7750
+      },
+      "31": {
+        "exp": 6080,
+        "rate": 48613,
+        "rate2": 7750
+      },
+      "32": {
+        "exp": 6400,
+        "rate": 50181,
+        "rate2": 7750
+      },
+      "33": {
+        "exp": 6720,
+        "rate": 51750,
+        "rate2": 7750
+      },
+      "34": {
+        "exp": 7040,
+        "rate": 53318,
+        "rate2": 7750
+      },
+      "35": {
+        "exp": 7360,
+        "rate": 54886,
+        "rate2": 7750
+      },
+      "36": {
+        "exp": 7680,
+        "rate": 56454,
+        "rate2": 7750
+      },
+      "37": {
+        "exp": 8000,
+        "rate": 58022,
+        "rate2": 7750
+      },
+      "38": {
+        "exp": 8320,
+        "rate": 59590,
+        "rate2": 7750
+      },
+      "39": {
+        "exp": 8640,
+        "rate": 61159,
+        "rate2": 7750
+      },
+      "40": {
+        "exp": 9120,
+        "rate": 62727,
+        "rate2": 7000
+      },
+      "41": {
+        "exp": 9760,
+        "rate": 64295,
+        "rate2": 7000
+      },
+      "42": {
+        "exp": 10400,
+        "rate": 65863,
+        "rate2": 7000
+      },
+      "43": {
+        "exp": 11040,
+        "rate": 67431,
+        "rate2": 7000
+      },
+      "44": {
+        "exp": 11680,
+        "rate": 68999,
+        "rate2": 7000
+      },
+      "45": {
+        "exp": 12320,
+        "rate": 70568,
+        "rate2": 7000
+      },
+      "46": {
+        "exp": 12960,
+        "rate": 72136,
+        "rate2": 7000
+      },
+      "47": {
+        "exp": 13600,
+        "rate": 73704,
+        "rate2": 7000
+      },
+      "48": {
+        "exp": 14240,
+        "rate": 75272,
+        "rate2": 7000
+      },
+      "49": {
+        "exp": 14880,
+        "rate": 76840,
+        "rate2": 7000
+      },
+      "50": {
+        "exp": 18240,
+        "rate": 78408,
+        "rate2": 6250
+      },
+      "51": {
+        "exp": 19520,
+        "rate": 79977,
+        "rate2": 6250
+      },
+      "52": {
+        "exp": 20800,
+        "rate": 81545,
+        "rate2": 6250
+      },
+      "53": {
+        "exp": 22080,
+        "rate": 83113,
+        "rate2": 6250
+      },
+      "54": {
+        "exp": 23360,
+        "rate": 84681,
+        "rate2": 6250
+      },
+      "55": {
+        "exp": 24640,
+        "rate": 86249,
+        "rate2": 6250
+      },
+      "56": {
+        "exp": 25920,
+        "rate": 87817,
+        "rate2": 6250
+      },
+      "57": {
+        "exp": 27200,
+        "rate": 89386,
+        "rate2": 6250
+      },
+      "58": {
+        "exp": 28480,
+        "rate": 90954,
+        "rate2": 6250
+      },
+      "59": {
+        "exp": 29760,
+        "rate": 92522,
+        "rate2": 6250
+      },
+      "60": {
+        "exp": 0,
+        "rate": 94090,
+        "rate2": 5500
+      }
+    },
+    "stars": {
+      "0": {
+        "star_rate": 0,
+        "rand_rate": 0
+      },
+      "1": {
+        "star_rate": 8922,
+        "rand_rate": 3000
+      },
+      "2": {
+        "star_rate": 17844,
+        "rand_rate": 6000
+      },
+      "3": {
+        "star_rate": 26766,
+        "rand_rate": 9000
+      },
+      "4": {
+        "star_rate": 35688,
+        "rand_rate": 12000
+      },
+      "5": {
+        "star_rate": 44610,
+        "rand_rate": 15000
+      }
+    },
+    "materials": [
+      {
+        "group": 1,
+        "materials": [
+          {
+            "itemId": "10",
+            "quantity": 9600,
+            "name": "Denny",
+            "rarity": 2,
+            "type": {
+              "1": "CURRENCY"
+            },
+            "assets": {
+              "icon": "GameData/zzz/assets/items/IconCoin.webp"
+            }
+          },
+          {
+            "itemId": "101011",
+            "quantity": 3,
+            "name": "Stun Component",
+            "rarity": 1,
+            "type": {
+              "10": "RESOURCE"
+            },
+            "assets": {
+              "icon": "GameData/zzz/assets/items/WeaponRankStun01.webp"
+            }
+          }
+        ]
+      },
+      {
+        "group": 2,
+        "materials": [
+          {
+            "itemId": "10",
+            "quantity": 22400,
+            "name": "Denny",
+            "rarity": 2,
+            "type": {
+              "1": "CURRENCY"
+            },
+            "assets": {
+              "icon": "GameData/zzz/assets/items/IconCoin.webp"
+            }
+          },
+          {
+            "itemId": "101021",
+            "quantity": 10,
+            "name": "Reinforced Stun Component",
+            "rarity": 2,
+            "type": {
+              "10": "RESOURCE"
+            },
+            "assets": {
+              "icon": "GameData/zzz/assets/items/WeaponRankStun02.webp"
+            }
+          }
+        ]
+      },
+      {
+        "group": 3,
+        "materials": [
+          {
+            "itemId": "10",
+            "quantity": 48000,
+            "name": "Denny",
+            "rarity": 2,
+            "type": {
+              "1": "CURRENCY"
+            },
+            "assets": {
+              "icon": "GameData/zzz/assets/items/IconCoin.webp"
+            }
+          },
+          {
+            "itemId": "101021",
+            "quantity": 16,
+            "name": "Reinforced Stun Component",
+            "rarity": 2,
+            "type": {
+              "10": "RESOURCE"
+            },
+            "assets": {
+              "icon": "GameData/zzz/assets/items/WeaponRankStun02.webp"
+            }
+          }
+        ]
+      },
+      {
+        "group": 4,
+        "materials": [
+          {
+            "itemId": "10",
+            "quantity": 80000,
+            "name": "Denny",
+            "rarity": 2,
+            "type": {
+              "1": "CURRENCY"
+            },
+            "assets": {
+              "icon": "GameData/zzz/assets/items/IconCoin.webp"
+            }
+          },
+          {
+            "itemId": "101031",
+            "quantity": 8,
+            "name": "Specialized Stun Component",
+            "rarity": 3,
+            "type": {
+              "10": "RESOURCE"
+            },
+            "assets": {
+              "icon": "GameData/zzz/assets/items/WeaponRankStun03.webp"
+            }
+          }
+        ]
+      },
+      {
+        "group": 5,
+        "materials": [
+          {
+            "itemId": "10",
+            "quantity": 160000,
+            "name": "Denny",
+            "rarity": 2,
+            "type": {
+              "1": "CURRENCY"
+            },
+            "assets": {
+              "icon": "GameData/zzz/assets/items/IconCoin.webp"
+            }
+          },
+          {
+            "itemId": "101031",
+            "quantity": 16,
+            "name": "Specialized Stun Component",
+            "rarity": 3,
+            "type": {
+              "10": "RESOURCE"
+            },
+            "assets": {
+              "icon": "GameData/zzz/assets/items/WeaponRankStun03.webp"
+            }
+          }
+        ]
+      }
+    ],
+    "talents": {
+      "1": {
+        "name": "...",
+        "desc": "When the equipper's CRIT Rate exceeds <color=#2BAD00>100%</color>, every 1% of CRIT Rate above that increases DMG dealt by the equipper by <color=#2BAD00>0.4%</color>, up to a max increase of <color=#2BAD00>20%</color>."
+      },
+      "2": {
+        "name": "...",
+        "desc": "When the equipper's CRIT Rate exceeds <color=#2BAD00>100%</color>, every 1% of CRIT Rate above that increases DMG dealt by the equipper by <color=#2BAD00>0.46%</color>, up to a max increase of <color=#2BAD00>23%</color>."
+      },
+      "3": {
+        "name": "...",
+        "desc": "When the equipper's CRIT Rate exceeds <color=#2BAD00>100%</color>, every 1% of CRIT Rate above that increases DMG dealt by the equipper by <color=#2BAD00>0.52%</color>, up to a max increase of <color=#2BAD00>26%</color>."
+      },
+      "4": {
+        "name": "...",
+        "desc": "When the equipper's CRIT Rate exceeds <color=#2BAD00>100%</color>, every 1% of CRIT Rate above that increases DMG dealt by the equipper by <color=#2BAD00>0.58%</color>, up to a max increase of <color=#2BAD00>29%</color>."
+      },
+      "5": {
+        "name": "...",
+        "desc": "When the equipper's CRIT Rate exceeds <color=#2BAD00>100%</color>, every 1% of CRIT Rate above that increases DMG dealt by the equipper by <color=#2BAD00>0.64%</color>, up to a max increase of <color=#2BAD00>32%</color>."
+      }
+    },
+    "liveComparison": {
+      "currentHash": "6eb7739bd98b3f6234ba21276ef016c11913f74bc8f3a96df477cd8e11fda865"
     }
   },
   {
@@ -50103,7 +51699,7 @@
   },
   {
     "id": "14159",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Knight's Extolment",
     "codeName": "Weapon_S_1591",
     "rarity": 4,
@@ -50610,28 +52206,1092 @@
     "talents": {
       "1": {
         "name": "Knight's Rite",
-        "desc": "When the equipper's <color=#FFFFFF>Basic Attack</color> or <color=#FFFFFF>EX Special Attack</color>'s heavy attack hits an enemy, they gain 1 stack of <color=#FFFFFF>Battle Edge</color>, increasing CRIT DMG by <color=#2BAD00>32%</color> for 25s. <color=#FFFFFF>Battle Edge</color> can stack up to 2 times, and each skill type can provide up to 1 stack. Repeated triggers refresh the duration of all <color=#FFFFFF>Battle Edge</color>.\nAt 2 stacks of <color=#FFFFFF>Battle Edge</color>, the equipper gains <color=#FFFFFF>Bonechill</color>: Their DMG ignores <color=#2BAD00>20%</color> of the target's <color=#98EFF0>Ice RES</color>."
+        "desc": "When the equipper's <color=#FFFFFF>Basic Attack</color> or <color=#FFFFFF>EX Special Attack</color>'s heavy attack hits an enemy, they gain 1 stack of <color=#FFFFFF>Battle Edge</color>. <color=#FFFFFF>Battle Edge</color> can stack up to 2 times, and each skill type can provide up to 1 stack. Each stack increases CRIT DMG by <color=#2BAD00>32%</color> for 25s.\nRepeated triggers of <color=#FFFFFF>Battle Edge</color> refresh the duration of <color=#FFFFFF>Battle Edge</color>.\nAt 2 stacks of <color=#FFFFFF>Battle Edge</color>, the equipper gains <color=#FFFFFF>Bonechill</color>: Their DMG ignores <color=#2BAD00>20%</color> of the target's <color=#98EFF0>Ice RES</color>."
       },
       "2": {
         "name": "Knight's Rite",
-        "desc": "When the equipper's <color=#FFFFFF>Basic Attack</color> or <color=#FFFFFF>EX Special Attack</color>'s heavy attack hits an enemy, they gain 1 stack of <color=#FFFFFF>Battle Edge</color>, increasing CRIT DMG by <color=#2BAD00>36.8%</color> for 25s. <color=#FFFFFF>Battle Edge</color> can stack up to 2 times, and each skill type can provide up to 1 stack. Repeated triggers refresh the duration of all <color=#FFFFFF>Battle Edge</color>.\nAt 2 stacks of <color=#FFFFFF>Battle Edge</color>, the equipper gains <color=#FFFFFF>Bonechill</color>: Their DMG ignores <color=#2BAD00>23%</color> of the target's <color=#98EFF0>Ice RES</color>."
+        "desc": "When the equipper's <color=#FFFFFF>Basic Attack</color> or <color=#FFFFFF>EX Special Attack</color>'s heavy attack hits an enemy, they gain 1 stack of <color=#FFFFFF>Battle Edge</color>. <color=#FFFFFF>Battle Edge</color> can stack up to 2 times, and each skill type can provide up to 1 stack. Each stack increases CRIT DMG by <color=#2BAD00>36.8%</color> for 25s.\nRepeated triggers of <color=#FFFFFF>Battle Edge</color> refresh the duration of <color=#FFFFFF>Battle Edge</color>.\nAt 2 stacks of <color=#FFFFFF>Battle Edge</color>, the equipper gains <color=#FFFFFF>Bonechill</color>: Their DMG ignores <color=#2BAD00>23%</color> of the target's <color=#98EFF0>Ice RES</color>."
       },
       "3": {
         "name": "Knight's Rite",
-        "desc": "When the equipper's <color=#FFFFFF>Basic Attack</color> or <color=#FFFFFF>EX Special Attack</color>'s heavy attack hits an enemy, they gain 1 stack of <color=#FFFFFF>Battle Edge</color>, increasing CRIT DMG by <color=#2BAD00>41.6%</color> for 25s. <color=#FFFFFF>Battle Edge</color> can stack up to 2 times, and each skill type can provide up to 1 stack. Repeated triggers refresh the duration of all <color=#FFFFFF>Battle Edge</color>.\nAt 2 stacks of <color=#FFFFFF>Battle Edge</color>, the equipper gains <color=#FFFFFF>Bonechill</color>: Their DMG ignores <color=#2BAD00>26%</color> of the target's <color=#98EFF0>Ice RES</color>."
+        "desc": "When the equipper's <color=#FFFFFF>Basic Attack</color> or <color=#FFFFFF>EX Special Attack</color>'s heavy attack hits an enemy, they gain 1 stack of <color=#FFFFFF>Battle Edge</color>. <color=#FFFFFF>Battle Edge</color> can stack up to 2 times, and each skill type can provide up to 1 stack. Each stack increases CRIT DMG by <color=#2BAD00>41.6%</color> for 25s.\nRepeated triggers of <color=#FFFFFF>Battle Edge</color> refresh the duration of <color=#FFFFFF>Battle Edge</color>.\nAt 2 stacks of <color=#FFFFFF>Battle Edge</color>, the equipper gains <color=#FFFFFF>Bonechill</color>: Their DMG ignores <color=#2BAD00>26%</color> of the target's <color=#98EFF0>Ice RES</color>."
       },
       "4": {
         "name": "Knight's Rite",
-        "desc": "When the equipper's <color=#FFFFFF>Basic Attack</color> or <color=#FFFFFF>EX Special Attack</color>'s heavy attack hits an enemy, they gain 1 stack of <color=#FFFFFF>Battle Edge</color>, increasing CRIT DMG by <color=#2BAD00>46.4%</color> for 25s. <color=#FFFFFF>Battle Edge</color> can stack up to 2 times, and each skill type can provide up to 1 stack. Repeated triggers refresh the duration of all <color=#FFFFFF>Battle Edge</color>.\nAt 2 stacks of <color=#FFFFFF>Battle Edge</color>, the equipper gains <color=#FFFFFF>Bonechill</color>: Their DMG ignores <color=#2BAD00>29%</color> of the target's <color=#98EFF0>Ice RES</color>."
+        "desc": "When the equipper's <color=#FFFFFF>Basic Attack</color> or <color=#FFFFFF>EX Special Attack</color>'s heavy attack hits an enemy, they gain 1 stack of <color=#FFFFFF>Battle Edge</color>. <color=#FFFFFF>Battle Edge</color> can stack up to 2 times, and each skill type can provide up to 1 stack. Each stack increases CRIT DMG by <color=#2BAD00>46.4%</color> for 25s.\nRepeated triggers of <color=#FFFFFF>Battle Edge</color> refresh the duration of <color=#FFFFFF>Battle Edge</color>.\nAt 2 stacks of <color=#FFFFFF>Battle Edge</color>, the equipper gains <color=#FFFFFF>Bonechill</color>: Their DMG ignores <color=#2BAD00>29%</color> of the target's <color=#98EFF0>Ice RES</color>."
       },
       "5": {
         "name": "Knight's Rite",
-        "desc": "When the equipper's <color=#FFFFFF>Basic Attack</color> or <color=#FFFFFF>EX Special Attack</color>'s heavy attack hits an enemy, they gain 1 stack of <color=#FFFFFF>Battle Edge</color>, increasing CRIT DMG by <color=#2BAD00>51.2%</color> for 25s. <color=#FFFFFF>Battle Edge</color> can stack up to 2 times, and each skill type can provide up to 1 stack. Repeated triggers refresh the duration of all <color=#FFFFFF>Battle Edge</color>.\nAt 2 stacks of <color=#FFFFFF>Battle Edge</color>, the equipper gains <color=#FFFFFF>Bonechill</color>: Their DMG ignores <color=#2BAD00>32%</color> of the target's <color=#98EFF0>Ice RES</color>."
+        "desc": "When the equipper's <color=#FFFFFF>Basic Attack</color> or <color=#FFFFFF>EX Special Attack</color>'s heavy attack hits an enemy, they gain 1 stack of <color=#FFFFFF>Battle Edge</color>. <color=#FFFFFF>Battle Edge</color> can stack up to 2 times, and each skill type can provide up to 1 stack. Each stack increases CRIT DMG by <color=#2BAD00>51.2%</color> for 25s.\nRepeated triggers of <color=#FFFFFF>Battle Edge</color> refresh the duration of <color=#FFFFFF>Battle Edge</color>.\nAt 2 stacks of <color=#FFFFFF>Battle Edge</color>, the equipper gains <color=#FFFFFF>Bonechill</color>: Their DMG ignores <color=#2BAD00>32%</color> of the target's <color=#98EFF0>Ice RES</color>."
       }
     },
     "liveComparison": {
       "liveHash": "476490665c8911410cfe816a6d6297b6fe08898c5bbef92ee8dbea6eb5e1f662",
-      "currentHash": "476490665c8911410cfe816a6d6297b6fe08898c5bbef92ee8dbea6eb5e1f662"
+      "currentHash": "17528765fdd176bdf6b911054937771728d096cb28ffe31d1d9c7251f71b1e04"
+    }
+  },
+  {
+    "id": "14161",
+    "contentStatus": "beta",
+    "name": "Crimson Thirst",
+    "codeName": "Weapon_S_1611",
+    "rarity": 4,
+    "type": {
+      "7": "Armorer"
+    },
+    "description": "...",
+    "shortDescription": "...",
+    "assets": {
+      "icon": "GameData/zzz/assets/w-engines/Weapon_S_1611.webp"
+    },
+    "baseProperty": {
+      "name": "Base DEF",
+      "name2": "Base DEF",
+      "format": "{0:0.#}",
+      "value": 28
+    },
+    "randomProperty": {
+      "name": "DEF",
+      "name2": "Percent DEF",
+      "format": "{0:0.#%}",
+      "value": 1920
+    },
+    "levels": {
+      "0": {
+        "exp": 50,
+        "rate": 0,
+        "rate2": 10000
+      },
+      "1": {
+        "exp": 100,
+        "rate": 1568,
+        "rate2": 10000
+      },
+      "2": {
+        "exp": 150,
+        "rate": 3136,
+        "rate2": 10000
+      },
+      "3": {
+        "exp": 200,
+        "rate": 4705,
+        "rate2": 10000
+      },
+      "4": {
+        "exp": 300,
+        "rate": 6273,
+        "rate2": 10000
+      },
+      "5": {
+        "exp": 400,
+        "rate": 7841,
+        "rate2": 10000
+      },
+      "6": {
+        "exp": 500,
+        "rate": 9409,
+        "rate2": 10000
+      },
+      "7": {
+        "exp": 600,
+        "rate": 10977,
+        "rate2": 10000
+      },
+      "8": {
+        "exp": 750,
+        "rate": 12545,
+        "rate2": 10000
+      },
+      "9": {
+        "exp": 950,
+        "rate": 14114,
+        "rate2": 10000
+      },
+      "10": {
+        "exp": 1200,
+        "rate": 15682,
+        "rate2": 9000
+      },
+      "11": {
+        "exp": 1290,
+        "rate": 17250,
+        "rate2": 9000
+      },
+      "12": {
+        "exp": 1380,
+        "rate": 18818,
+        "rate2": 9000
+      },
+      "13": {
+        "exp": 1465,
+        "rate": 20386,
+        "rate2": 9000
+      },
+      "14": {
+        "exp": 1555,
+        "rate": 21954,
+        "rate2": 9000
+      },
+      "15": {
+        "exp": 1640,
+        "rate": 23523,
+        "rate2": 9000
+      },
+      "16": {
+        "exp": 1735,
+        "rate": 25091,
+        "rate2": 9000
+      },
+      "17": {
+        "exp": 1825,
+        "rate": 26659,
+        "rate2": 9000
+      },
+      "18": {
+        "exp": 1910,
+        "rate": 28227,
+        "rate2": 9000
+      },
+      "19": {
+        "exp": 2000,
+        "rate": 29795,
+        "rate2": 9000
+      },
+      "20": {
+        "exp": 3120,
+        "rate": 31363,
+        "rate2": 8000
+      },
+      "21": {
+        "exp": 3315,
+        "rate": 32932,
+        "rate2": 8000
+      },
+      "22": {
+        "exp": 3510,
+        "rate": 34500,
+        "rate2": 8000
+      },
+      "23": {
+        "exp": 3705,
+        "rate": 36068,
+        "rate2": 8000
+      },
+      "24": {
+        "exp": 3900,
+        "rate": 37636,
+        "rate2": 8000
+      },
+      "25": {
+        "exp": 4100,
+        "rate": 39204,
+        "rate2": 8000
+      },
+      "26": {
+        "exp": 4295,
+        "rate": 40772,
+        "rate2": 8000
+      },
+      "27": {
+        "exp": 4490,
+        "rate": 42341,
+        "rate2": 8000
+      },
+      "28": {
+        "exp": 4685,
+        "rate": 43909,
+        "rate2": 8000
+      },
+      "29": {
+        "exp": 4880,
+        "rate": 45477,
+        "rate2": 8000
+      },
+      "30": {
+        "exp": 7200,
+        "rate": 47045,
+        "rate2": 7000
+      },
+      "31": {
+        "exp": 7600,
+        "rate": 48613,
+        "rate2": 7000
+      },
+      "32": {
+        "exp": 8000,
+        "rate": 50181,
+        "rate2": 7000
+      },
+      "33": {
+        "exp": 8400,
+        "rate": 51750,
+        "rate2": 7000
+      },
+      "34": {
+        "exp": 8800,
+        "rate": 53318,
+        "rate2": 7000
+      },
+      "35": {
+        "exp": 9200,
+        "rate": 54886,
+        "rate2": 7000
+      },
+      "36": {
+        "exp": 9600,
+        "rate": 56454,
+        "rate2": 7000
+      },
+      "37": {
+        "exp": 10000,
+        "rate": 58022,
+        "rate2": 7000
+      },
+      "38": {
+        "exp": 10400,
+        "rate": 59590,
+        "rate2": 7000
+      },
+      "39": {
+        "exp": 10800,
+        "rate": 61159,
+        "rate2": 7000
+      },
+      "40": {
+        "exp": 11400,
+        "rate": 62727,
+        "rate2": 6000
+      },
+      "41": {
+        "exp": 12200,
+        "rate": 64295,
+        "rate2": 6000
+      },
+      "42": {
+        "exp": 13000,
+        "rate": 65863,
+        "rate2": 6000
+      },
+      "43": {
+        "exp": 13800,
+        "rate": 67431,
+        "rate2": 6000
+      },
+      "44": {
+        "exp": 14600,
+        "rate": 68999,
+        "rate2": 6000
+      },
+      "45": {
+        "exp": 15400,
+        "rate": 70568,
+        "rate2": 6000
+      },
+      "46": {
+        "exp": 16200,
+        "rate": 72136,
+        "rate2": 6000
+      },
+      "47": {
+        "exp": 17000,
+        "rate": 73704,
+        "rate2": 6000
+      },
+      "48": {
+        "exp": 17800,
+        "rate": 75272,
+        "rate2": 6000
+      },
+      "49": {
+        "exp": 18600,
+        "rate": 76840,
+        "rate2": 6000
+      },
+      "50": {
+        "exp": 22800,
+        "rate": 78408,
+        "rate2": 5000
+      },
+      "51": {
+        "exp": 24400,
+        "rate": 79977,
+        "rate2": 5000
+      },
+      "52": {
+        "exp": 26000,
+        "rate": 81545,
+        "rate2": 5000
+      },
+      "53": {
+        "exp": 27600,
+        "rate": 83113,
+        "rate2": 5000
+      },
+      "54": {
+        "exp": 29200,
+        "rate": 84681,
+        "rate2": 5000
+      },
+      "55": {
+        "exp": 30800,
+        "rate": 86249,
+        "rate2": 5000
+      },
+      "56": {
+        "exp": 32400,
+        "rate": 87817,
+        "rate2": 5000
+      },
+      "57": {
+        "exp": 34000,
+        "rate": 89386,
+        "rate2": 5000
+      },
+      "58": {
+        "exp": 35600,
+        "rate": 90954,
+        "rate2": 5000
+      },
+      "59": {
+        "exp": 37200,
+        "rate": 92522,
+        "rate2": 5000
+      },
+      "60": {
+        "exp": 0,
+        "rate": 94090,
+        "rate2": 4000
+      }
+    },
+    "stars": {
+      "0": {
+        "star_rate": 0,
+        "rand_rate": 0
+      },
+      "1": {
+        "star_rate": 8922,
+        "rand_rate": 3000
+      },
+      "2": {
+        "star_rate": 17844,
+        "rand_rate": 6000
+      },
+      "3": {
+        "star_rate": 26766,
+        "rand_rate": 9000
+      },
+      "4": {
+        "star_rate": 35688,
+        "rand_rate": 12000
+      },
+      "5": {
+        "star_rate": 44610,
+        "rand_rate": 15000
+      }
+    },
+    "materials": [
+      {
+        "group": 1,
+        "materials": [
+          {
+            "itemId": "10",
+            "quantity": 12000,
+            "name": "Denny",
+            "rarity": 2,
+            "type": {
+              "1": "CURRENCY"
+            },
+            "assets": {
+              "icon": "GameData/zzz/assets/items/IconCoin.webp"
+            }
+          },
+          {
+            "itemId": "101016",
+            "quantity": 4,
+            "name": "Item_WeaponBreak_16_name",
+            "rarity": 1,
+            "type": {
+              "10": "RESOURCE"
+            },
+            "assets": {
+              "icon": "GameData/zzz/assets/items/WeaponRankArmorer01.webp"
+            }
+          }
+        ]
+      },
+      {
+        "group": 2,
+        "materials": [
+          {
+            "itemId": "10",
+            "quantity": 28000,
+            "name": "Denny",
+            "rarity": 2,
+            "type": {
+              "1": "CURRENCY"
+            },
+            "assets": {
+              "icon": "GameData/zzz/assets/items/IconCoin.webp"
+            }
+          },
+          {
+            "itemId": "101026",
+            "quantity": 12,
+            "name": "Item_WeaponBreak_26_name",
+            "rarity": 2,
+            "type": {
+              "10": "RESOURCE"
+            },
+            "assets": {
+              "icon": "GameData/zzz/assets/items/WeaponRankArmorer02.webp"
+            }
+          }
+        ]
+      },
+      {
+        "group": 3,
+        "materials": [
+          {
+            "itemId": "10",
+            "quantity": 60000,
+            "name": "Denny",
+            "rarity": 2,
+            "type": {
+              "1": "CURRENCY"
+            },
+            "assets": {
+              "icon": "GameData/zzz/assets/items/IconCoin.webp"
+            }
+          },
+          {
+            "itemId": "101026",
+            "quantity": 20,
+            "name": "Item_WeaponBreak_26_name",
+            "rarity": 2,
+            "type": {
+              "10": "RESOURCE"
+            },
+            "assets": {
+              "icon": "GameData/zzz/assets/items/WeaponRankArmorer02.webp"
+            }
+          }
+        ]
+      },
+      {
+        "group": 4,
+        "materials": [
+          {
+            "itemId": "10",
+            "quantity": 100000,
+            "name": "Denny",
+            "rarity": 2,
+            "type": {
+              "1": "CURRENCY"
+            },
+            "assets": {
+              "icon": "GameData/zzz/assets/items/IconCoin.webp"
+            }
+          },
+          {
+            "itemId": "101036",
+            "quantity": 10,
+            "name": "Item_WeaponBreak_36_name",
+            "rarity": 3,
+            "type": {
+              "10": "RESOURCE"
+            },
+            "assets": {
+              "icon": "GameData/zzz/assets/items/WeaponRankArmorer03.webp"
+            }
+          }
+        ]
+      },
+      {
+        "group": 5,
+        "materials": [
+          {
+            "itemId": "10",
+            "quantity": 200000,
+            "name": "Denny",
+            "rarity": 2,
+            "type": {
+              "1": "CURRENCY"
+            },
+            "assets": {
+              "icon": "GameData/zzz/assets/items/IconCoin.webp"
+            }
+          },
+          {
+            "itemId": "101036",
+            "quantity": 20,
+            "name": "Item_WeaponBreak_36_name",
+            "rarity": 3,
+            "type": {
+              "10": "RESOURCE"
+            },
+            "assets": {
+              "icon": "GameData/zzz/assets/items/WeaponRankArmorer03.webp"
+            }
+          }
+        ]
+      }
+    ],
+    "talents": {
+      "1": {
+        "name": "...",
+        "desc": "CRIT Rate increases by 25%; when the equipper's attack hits an enemy and triggers a Sharp strike, gain 1 stack of <color=#FFFFFF>[Enhance]</color>:\nIncreases the equipper's <color=#2EB6FF>Electric DMG</color> by 7%, lasting 20s; stacks up to 3 times. Repeated triggers refresh the duration of all <color=#FFFFFF>[Enhance]</color> stacks. Can trigger at most once every 0.1s;\nWhen at 3 stacks of this effect, additionally increases the equipper's <color=#2EB6FF>Electric Sharp DMG</color> by 12%."
+      },
+      "2": {
+        "name": "...",
+        "desc": "CRIT Rate increases by 28.7%; when the equipper's attack hits an enemy and triggers a Sharp strike, gain 1 stack of <color=#FFFFFF>[Enhance]</color>:\nIncreases the equipper's <color=#2EB6FF>Electric DMG</color> by 8%, lasting 20s; stacks up to 3 times. Repeated triggers refresh the duration of all <color=#FFFFFF>[Enhance]</color> stacks. Can trigger at most once every 0.1s;\nWhen at 3 stacks of this effect, additionally increases the equipper's <color=#2EB6FF>Electric Sharp DMG</color> by 13.8%."
+      },
+      "3": {
+        "name": "...",
+        "desc": "CRIT Rate increases by 32.5%; when the equipper's attack hits an enemy and triggers a Sharp Strike, gain 1 stack of <color=#FFFFFF>[Enhance]</color>:\nIncreases the equipper's <color=#2EB6FF>Electric DMG</color> by 9%, lasting 20s; stacks up to 3 times. Repeated triggers refresh the duration of all <color=#FFFFFF>[Enhance]</color> stacks. Can trigger at most once every 0.1s;\nWhen at 3 stacks of this effect, additionally increases the equipper's <color=#2EB6FF>Electric Sharp DMG</color> by 15.6%."
+      },
+      "4": {
+        "name": "...",
+        "desc": "CRIT Rate increases by 36.2%; when the equipper's attack hits an enemy and triggers a Sharp strike, gain 1 stack of <color=#FFFFFF>[Enhance]</color>:\nIncreases the equipper's <color=#2EB6FF>Electric DMG</color> by 10%, lasting 20s; stacks up to 3 times. Repeated triggers refresh the duration of all <color=#FFFFFF>[Enhance]</color> stacks. Can trigger at most once every 0.1s;\nWhen at 3 stacks of this effect, additionally increases the equipper's <color=#2EB6FF>Electric Sharp DMG</color> by 17.4%."
+      },
+      "5": {
+        "name": "...",
+        "desc": "CRIT Rate increases by 40%; when the equipper's attack hits an enemy and triggers a Sharp strike, gain 1 stack of <color=#FFFFFF>[Enhance]</color>:\nIncreases the equipper's <color=#2EB6FF>Electric DMG</color> by 11%, lasting 20s; stacks up to 3 times. Repeated triggers refresh the duration of all <color=#FFFFFF>[Enhance]</color> stacks. Can trigger at most once every 0.1s;\nWhen at 3 stacks of this effect, additionally increases the equipper's <color=#2EB6FF>Electric Sharp DMG</color> by 19.2%."
+      }
+    },
+    "liveComparison": {
+      "currentHash": "d02814de2afddd50d3175780c4df6b787162fc0ccdd82134b135ba700db7140d"
+    }
+  },
+  {
+    "id": "14162",
+    "contentStatus": "beta",
+    "name": "...",
+    "codeName": "Weapon_S_1621",
+    "rarity": 4,
+    "type": {
+      "2": "Stun"
+    },
+    "description": "...",
+    "shortDescription": "...",
+    "assets": {
+      "icon": "GameData/zzz/assets/w-engines/Weapon_S_1621.webp"
+    },
+    "baseProperty": {
+      "name": "Base ATK",
+      "name2": "Base ATK",
+      "format": "{0:0.#}",
+      "value": 48
+    },
+    "randomProperty": {
+      "name": "DEF",
+      "name2": "Percent DEF",
+      "format": "{0:0.#%}",
+      "value": 1920
+    },
+    "levels": {
+      "0": {
+        "exp": 50,
+        "rate": 0,
+        "rate2": 10000
+      },
+      "1": {
+        "exp": 100,
+        "rate": 1568,
+        "rate2": 10000
+      },
+      "2": {
+        "exp": 150,
+        "rate": 3136,
+        "rate2": 10000
+      },
+      "3": {
+        "exp": 200,
+        "rate": 4705,
+        "rate2": 10000
+      },
+      "4": {
+        "exp": 300,
+        "rate": 6273,
+        "rate2": 10000
+      },
+      "5": {
+        "exp": 400,
+        "rate": 7841,
+        "rate2": 10000
+      },
+      "6": {
+        "exp": 500,
+        "rate": 9409,
+        "rate2": 10000
+      },
+      "7": {
+        "exp": 600,
+        "rate": 10977,
+        "rate2": 10000
+      },
+      "8": {
+        "exp": 750,
+        "rate": 12545,
+        "rate2": 10000
+      },
+      "9": {
+        "exp": 950,
+        "rate": 14114,
+        "rate2": 10000
+      },
+      "10": {
+        "exp": 1200,
+        "rate": 15682,
+        "rate2": 9000
+      },
+      "11": {
+        "exp": 1290,
+        "rate": 17250,
+        "rate2": 9000
+      },
+      "12": {
+        "exp": 1380,
+        "rate": 18818,
+        "rate2": 9000
+      },
+      "13": {
+        "exp": 1465,
+        "rate": 20386,
+        "rate2": 9000
+      },
+      "14": {
+        "exp": 1555,
+        "rate": 21954,
+        "rate2": 9000
+      },
+      "15": {
+        "exp": 1640,
+        "rate": 23523,
+        "rate2": 9000
+      },
+      "16": {
+        "exp": 1735,
+        "rate": 25091,
+        "rate2": 9000
+      },
+      "17": {
+        "exp": 1825,
+        "rate": 26659,
+        "rate2": 9000
+      },
+      "18": {
+        "exp": 1910,
+        "rate": 28227,
+        "rate2": 9000
+      },
+      "19": {
+        "exp": 2000,
+        "rate": 29795,
+        "rate2": 9000
+      },
+      "20": {
+        "exp": 3120,
+        "rate": 31363,
+        "rate2": 8000
+      },
+      "21": {
+        "exp": 3315,
+        "rate": 32932,
+        "rate2": 8000
+      },
+      "22": {
+        "exp": 3510,
+        "rate": 34500,
+        "rate2": 8000
+      },
+      "23": {
+        "exp": 3705,
+        "rate": 36068,
+        "rate2": 8000
+      },
+      "24": {
+        "exp": 3900,
+        "rate": 37636,
+        "rate2": 8000
+      },
+      "25": {
+        "exp": 4100,
+        "rate": 39204,
+        "rate2": 8000
+      },
+      "26": {
+        "exp": 4295,
+        "rate": 40772,
+        "rate2": 8000
+      },
+      "27": {
+        "exp": 4490,
+        "rate": 42341,
+        "rate2": 8000
+      },
+      "28": {
+        "exp": 4685,
+        "rate": 43909,
+        "rate2": 8000
+      },
+      "29": {
+        "exp": 4880,
+        "rate": 45477,
+        "rate2": 8000
+      },
+      "30": {
+        "exp": 7200,
+        "rate": 47045,
+        "rate2": 7000
+      },
+      "31": {
+        "exp": 7600,
+        "rate": 48613,
+        "rate2": 7000
+      },
+      "32": {
+        "exp": 8000,
+        "rate": 50181,
+        "rate2": 7000
+      },
+      "33": {
+        "exp": 8400,
+        "rate": 51750,
+        "rate2": 7000
+      },
+      "34": {
+        "exp": 8800,
+        "rate": 53318,
+        "rate2": 7000
+      },
+      "35": {
+        "exp": 9200,
+        "rate": 54886,
+        "rate2": 7000
+      },
+      "36": {
+        "exp": 9600,
+        "rate": 56454,
+        "rate2": 7000
+      },
+      "37": {
+        "exp": 10000,
+        "rate": 58022,
+        "rate2": 7000
+      },
+      "38": {
+        "exp": 10400,
+        "rate": 59590,
+        "rate2": 7000
+      },
+      "39": {
+        "exp": 10800,
+        "rate": 61159,
+        "rate2": 7000
+      },
+      "40": {
+        "exp": 11400,
+        "rate": 62727,
+        "rate2": 6000
+      },
+      "41": {
+        "exp": 12200,
+        "rate": 64295,
+        "rate2": 6000
+      },
+      "42": {
+        "exp": 13000,
+        "rate": 65863,
+        "rate2": 6000
+      },
+      "43": {
+        "exp": 13800,
+        "rate": 67431,
+        "rate2": 6000
+      },
+      "44": {
+        "exp": 14600,
+        "rate": 68999,
+        "rate2": 6000
+      },
+      "45": {
+        "exp": 15400,
+        "rate": 70568,
+        "rate2": 6000
+      },
+      "46": {
+        "exp": 16200,
+        "rate": 72136,
+        "rate2": 6000
+      },
+      "47": {
+        "exp": 17000,
+        "rate": 73704,
+        "rate2": 6000
+      },
+      "48": {
+        "exp": 17800,
+        "rate": 75272,
+        "rate2": 6000
+      },
+      "49": {
+        "exp": 18600,
+        "rate": 76840,
+        "rate2": 6000
+      },
+      "50": {
+        "exp": 22800,
+        "rate": 78408,
+        "rate2": 5000
+      },
+      "51": {
+        "exp": 24400,
+        "rate": 79977,
+        "rate2": 5000
+      },
+      "52": {
+        "exp": 26000,
+        "rate": 81545,
+        "rate2": 5000
+      },
+      "53": {
+        "exp": 27600,
+        "rate": 83113,
+        "rate2": 5000
+      },
+      "54": {
+        "exp": 29200,
+        "rate": 84681,
+        "rate2": 5000
+      },
+      "55": {
+        "exp": 30800,
+        "rate": 86249,
+        "rate2": 5000
+      },
+      "56": {
+        "exp": 32400,
+        "rate": 87817,
+        "rate2": 5000
+      },
+      "57": {
+        "exp": 34000,
+        "rate": 89386,
+        "rate2": 5000
+      },
+      "58": {
+        "exp": 35600,
+        "rate": 90954,
+        "rate2": 5000
+      },
+      "59": {
+        "exp": 37200,
+        "rate": 92522,
+        "rate2": 5000
+      },
+      "60": {
+        "exp": 0,
+        "rate": 94090,
+        "rate2": 4000
+      }
+    },
+    "stars": {
+      "0": {
+        "star_rate": 0,
+        "rand_rate": 0
+      },
+      "1": {
+        "star_rate": 8922,
+        "rand_rate": 3000
+      },
+      "2": {
+        "star_rate": 17844,
+        "rand_rate": 6000
+      },
+      "3": {
+        "star_rate": 26766,
+        "rand_rate": 9000
+      },
+      "4": {
+        "star_rate": 35688,
+        "rand_rate": 12000
+      },
+      "5": {
+        "star_rate": 44610,
+        "rand_rate": 15000
+      }
+    },
+    "materials": [
+      {
+        "group": 1,
+        "materials": [
+          {
+            "itemId": "10",
+            "quantity": 12000,
+            "name": "Denny",
+            "rarity": 2,
+            "type": {
+              "1": "CURRENCY"
+            },
+            "assets": {
+              "icon": "GameData/zzz/assets/items/IconCoin.webp"
+            }
+          },
+          {
+            "itemId": "101011",
+            "quantity": 4,
+            "name": "Stun Component",
+            "rarity": 1,
+            "type": {
+              "10": "RESOURCE"
+            },
+            "assets": {
+              "icon": "GameData/zzz/assets/items/WeaponRankStun01.webp"
+            }
+          }
+        ]
+      },
+      {
+        "group": 2,
+        "materials": [
+          {
+            "itemId": "10",
+            "quantity": 28000,
+            "name": "Denny",
+            "rarity": 2,
+            "type": {
+              "1": "CURRENCY"
+            },
+            "assets": {
+              "icon": "GameData/zzz/assets/items/IconCoin.webp"
+            }
+          },
+          {
+            "itemId": "101021",
+            "quantity": 12,
+            "name": "Reinforced Stun Component",
+            "rarity": 2,
+            "type": {
+              "10": "RESOURCE"
+            },
+            "assets": {
+              "icon": "GameData/zzz/assets/items/WeaponRankStun02.webp"
+            }
+          }
+        ]
+      },
+      {
+        "group": 3,
+        "materials": [
+          {
+            "itemId": "10",
+            "quantity": 60000,
+            "name": "Denny",
+            "rarity": 2,
+            "type": {
+              "1": "CURRENCY"
+            },
+            "assets": {
+              "icon": "GameData/zzz/assets/items/IconCoin.webp"
+            }
+          },
+          {
+            "itemId": "101021",
+            "quantity": 20,
+            "name": "Reinforced Stun Component",
+            "rarity": 2,
+            "type": {
+              "10": "RESOURCE"
+            },
+            "assets": {
+              "icon": "GameData/zzz/assets/items/WeaponRankStun02.webp"
+            }
+          }
+        ]
+      },
+      {
+        "group": 4,
+        "materials": [
+          {
+            "itemId": "10",
+            "quantity": 100000,
+            "name": "Denny",
+            "rarity": 2,
+            "type": {
+              "1": "CURRENCY"
+            },
+            "assets": {
+              "icon": "GameData/zzz/assets/items/IconCoin.webp"
+            }
+          },
+          {
+            "itemId": "101031",
+            "quantity": 10,
+            "name": "Specialized Stun Component",
+            "rarity": 3,
+            "type": {
+              "10": "RESOURCE"
+            },
+            "assets": {
+              "icon": "GameData/zzz/assets/items/WeaponRankStun03.webp"
+            }
+          }
+        ]
+      },
+      {
+        "group": 5,
+        "materials": [
+          {
+            "itemId": "10",
+            "quantity": 200000,
+            "name": "Denny",
+            "rarity": 2,
+            "type": {
+              "1": "CURRENCY"
+            },
+            "assets": {
+              "icon": "GameData/zzz/assets/items/IconCoin.webp"
+            }
+          },
+          {
+            "itemId": "101031",
+            "quantity": 20,
+            "name": "Specialized Stun Component",
+            "rarity": 3,
+            "type": {
+              "10": "RESOURCE"
+            },
+            "assets": {
+              "icon": "GameData/zzz/assets/items/WeaponRankStun03.webp"
+            }
+          }
+        ]
+      }
+    ],
+    "talents": {
+      "1": {
+        "name": "...",
+        "desc": "Weapon_TalentDes_81416211"
+      },
+      "2": {
+        "name": "...",
+        "desc": "Weapon_TalentDes_81416212"
+      },
+      "3": {
+        "name": "...",
+        "desc": "Weapon_TalentDes_81416213"
+      },
+      "4": {
+        "name": "...",
+        "desc": "Weapon_TalentDes_81416214"
+      },
+      "5": {
+        "name": "...",
+        "desc": "Weapon_TalentDes_81416215"
+      }
+    },
+    "liveComparison": {
+      "currentHash": "76a8ba471874081586a3b8b4f17008267bfebf943a2cb04b2c8c70289562b3f6"
     }
   }
 ]

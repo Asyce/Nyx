@@ -1791,6 +1791,33 @@
       }
     }
   },
+  "skill_priority": [
+    {
+      "id": 1221001,
+      "avatar_id": 1221,
+      "first_priority": [
+        5,
+        1,
+        0
+      ],
+      "second_priority": [
+        3
+      ],
+      "third_priority": [
+        6,
+        2
+      ],
+      "potential_levels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ],
   "skill_list": {
     "1221001": {
       "name": "Basic Attack: Tsukuyomi Kagura (1st, 2nd Hit)",

@@ -11,40 +11,35 @@
     "simple_desc": "Transform into Calamity Effigy to deal Aero DMG.\nResonators with this Echo equipped in the main slot gain Aero DMG Bonus, and an additional Aero DMG Bonus upon inflicting Tune Strain - Shifting on the target.",
     "param": [
       [
-        "45.00%",
-        "135.00%",
+        "225.00%",
         "10.00%",
         "10.00%",
         "15",
         "25"
       ],
       [
-        "54.00%",
-        "162.00%",
+        "270.00%",
         "10.00%",
         "10.00%",
         "15",
         "25"
       ],
       [
-        "63.00%",
-        "189.00%",
+        "315.00%",
         "10.00%",
         "10.00%",
         "15",
         "25"
       ],
       [
-        "72.00%",
-        "216.00%",
+        "360.00%",
         "10.00%",
         "10.00%",
         "15",
         "25"
       ],
       [
-        "81.00%",
-        "243.00%",
+        "405.00%",
         "10.00%",
         "10.00%",
         "15",

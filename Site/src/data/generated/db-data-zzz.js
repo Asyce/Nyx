@@ -40484,53 +40484,45 @@
           "id": "zzz-item-2090034",
           "name": "\"PSBoo\" Themed Console",
           "kind": "item",
-          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
+          "art": "../../Database/GameData/zzz/assets/items/PS_PhysicalSKU.webp",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Gift"
           },
-          "text": "Obtained with the purchase of the PS5 physical game disc",
-          "artStatus": "intentional-fallback",
-          "artSource": "neutral-database-placeholder"
+          "text": "Obtained with the purchase of the PS5 physical game disc"
         },
         {
           "id": "zzz-item-2090035",
           "name": "\"PSBoo\" Commemorative Console",
           "kind": "item",
-          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
+          "art": "../../Database/GameData/zzz/assets/items/PS_PhysicalSKU_Mark.webp",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Commission Item"
           },
-          "text": "Obtained with the purchase of the PS5 physical game disc",
-          "artStatus": "intentional-fallback",
-          "artSource": "neutral-database-placeholder"
+          "text": "Obtained with the purchase of the PS5 physical game disc"
         },
         {
           "id": "zzz-item-2090036",
           "name": "\"XBoo\" Themed Console",
           "kind": "item",
-          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
+          "art": "../../Database/GameData/zzz/assets/items/Xbox_PhysicalSKU.webp",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Gift"
           },
-          "text": "Obtained with the purchase of the Xbox physical game disc",
-          "artStatus": "intentional-fallback",
-          "artSource": "neutral-database-placeholder"
+          "text": "Obtained with the purchase of the Xbox physical game disc"
         },
         {
           "id": "zzz-item-2090037",
           "name": "\"XBoo\" Commemorative Console",
           "kind": "item",
-          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
+          "art": "../../Database/GameData/zzz/assets/items/Xbox_PhysicalSKU_Mark.webp",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Commission Item"
           },
-          "text": "Obtained with the purchase of the Xbox physical game disc",
-          "artStatus": "intentional-fallback",
-          "artSource": "neutral-database-placeholder"
+          "text": "Obtained with the purchase of the Xbox physical game disc"
         },
         {
           "id": "zzz-item-2100001",
@@ -58273,61 +58265,51 @@
           "id": "zzz-item-4360041",
           "name": "Ruby Ring",
           "kind": "item",
-          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Collection_044.webp",
           "fields": {
             "rarity": "5 \u2605"
           },
-          "text": "A large ring crafted from ruby. A certified Buyan antique from Eridu. Slip it on your finger, and it's like a neon sign flashes above your head reading \"Old Money\" and \"Aristocrat.\"",
-          "artStatus": "intentional-fallback",
-          "artSource": "neutral-database-placeholder"
+          "text": "A large ring crafted from ruby. A certified Buyan antique from Eridu. Slip it on your finger, and it's like a neon sign flashes above your head reading \"Old Money\" and \"Aristocrat.\""
         },
         {
           "id": "zzz-item-4360042",
           "name": "\"Blood Cicada\" Accessory",
           "kind": "item",
-          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Collection_043.webp",
           "fields": {
             "rarity": "5 \u2605"
           },
-          "text": "A custom pendant called \"Blood Cicada,\" certified by Buyan as authentic Waifei Peninsula-style jewelry. Unlike the cicada's traditional symbolism of good fortune, the Blood Cicada carries a cautionary meaning \u2014 a warning to guard what you've built and protect what you call home.",
-          "artStatus": "intentional-fallback",
-          "artSource": "neutral-database-placeholder"
+          "text": "A custom pendant called \"Blood Cicada,\" certified by Buyan as authentic Waifei Peninsula-style jewelry. Unlike the cicada's traditional symbolism of good fortune, the Blood Cicada carries a cautionary meaning \u2014 a warning to guard what you've built and protect what you call home."
         },
         {
           "id": "zzz-item-4360043",
           "name": "En O'Clock (Icedawn White)",
           "kind": "item",
-          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Collection_041.webp",
           "fields": {
             "rarity": "5 \u2605"
           },
-          "text": "A desk alarm clock from S\u0101n-Z STUDIO. Early-winter Day Break white, with an \"mm-hmm\" chime on the hour. The perfect way to mark a whole year of hard work.",
-          "artStatus": "intentional-fallback",
-          "artSource": "neutral-database-placeholder"
+          "text": "A desk alarm clock from S\u0101n-Z STUDIO. Early-winter Day Break white, with an \"mm-hmm\" chime on the hour. The perfect way to mark a whole year of hard work."
         },
         {
           "id": "zzz-item-4360044",
           "name": "Boo-rick Phone (Amber Orange)",
           "kind": "item",
-          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Collection_042.webp",
           "fields": {
             "rarity": "5 \u2605"
           },
-          "text": "A long-range radio phone from S\u0101n-Z STUDIO. Making a call? Make it on a Boo-rick Phone! Whether it's gossip, complaints, or whispered secrets, it'll blow you away!",
-          "artStatus": "intentional-fallback",
-          "artSource": "neutral-database-placeholder"
+          "text": "A long-range radio phone from S\u0101n-Z STUDIO. Making a call? Make it on a Boo-rick Phone! Whether it's gossip, complaints, or whispered secrets, it'll blow you away!"
         },
         {
           "id": "zzz-item-4360045",
           "name": "CCTV",
           "kind": "item",
-          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Collection_045.webp",
           "fields": {
             "rarity": "5 \u2605"
           },
-          "text": "A no-name vintage CCTV monitor. The label says it needs a signal cable connected to output video, but no matter how hard you look, there's not a single signal input port anywhere on the thing\u2026",
-          "artStatus": "intentional-fallback",
-          "artSource": "neutral-database-placeholder"
+          "text": "A no-name vintage CCTV monitor. The label says it needs a signal cable connected to output video, but no matter how hard you look, there's not a single signal input port anywhere on the thing\u2026"
         },
         {
           "id": "zzz-item-4360085",

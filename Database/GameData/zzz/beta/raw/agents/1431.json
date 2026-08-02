@@ -55,11 +55,13 @@
     "3114310": {
       "name": "Ye Shunguang: Clouddrift Illumination",
       "desc": "Cloud-woven silk, a blade's gleam reflected in its folds. The attire mirrors the person.\nBut who truly chose this dress? Was it her... or the deeper self within?",
+      "obtain_desc": "",
       "image": "IconRole55"
     },
     "3114311": {
       "name": "Ye Shunguang: Touch of Dawnlight",
       "desc": "The gentle glow of sunlight and warm breeze seem to welcome your next encounter as you walk down the streets.",
+      "obtain_desc": "",
       "image": "IconRole55_01"
     }
   },
@@ -103,7 +105,10 @@
       "EtherEyesSize2"
     ],
     "rp_max": 0,
-    "rp_recover": 0
+    "rp_recover": 0,
+    "ep_max": 0,
+    "ep_recover": 0,
+    "sharp_critical_damage": 0
   },
   "level": {
     "1": {
@@ -2680,6 +2685,33 @@
       }
     }
   },
+  "skill_priority": [
+    {
+      "id": 1431001,
+      "avatar_id": 1431,
+      "first_priority": [
+        5,
+        0
+      ],
+      "second_priority": [
+        1,
+        3,
+        6
+      ],
+      "third_priority": [
+        2
+      ],
+      "potential_levels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ],
   "skill_list": {
     "1431001": {
       "name": "Basic Attack: Swiftedge",
@@ -3027,6 +3059,7 @@
       20103,
       12102
     ],
+    "alt_build": [],
     "part4": {
       "prop": 21103,
       "name": "CRIT DMG",

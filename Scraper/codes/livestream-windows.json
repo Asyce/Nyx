@@ -1,6 +1,15 @@
 {
   "windows": [
     {
+      "game": "wuwa",
+      "startsAt": "2026-07-30T21:44:23Z",
+      "endsAt": "2026-08-03T09:44:23Z",
+      "mode": "deep",
+      "note": "Wuthering Waves Version 3.6 Preview Special Broadcast",
+      "source": "youtube",
+      "sourceUrl": "https://www.youtube.com/watch?v=URrFKyAoPw4"
+    },
+    {
       "game": "genshin",
       "startsAt": "2026-07-31T06:00:06Z",
       "endsAt": "2026-08-03T18:00:06Z",

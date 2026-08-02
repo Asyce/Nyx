@@ -102,12 +102,14 @@ jobs:
         if: ${{ steps.manifest.outputs.changed == 'true' }}
         working-directory: Site
         env:
-          PENGO_DATABASE_ASSET_MODE: local
+          PENGO_DATABASE_ASSET_MODE: ${{ vars.DATABASE_ASSET_MODE || 'local' }}
         run: npm run build:deploy:generated
 
       - name: Preflight deploy artifact
         if: ${{ steps.manifest.outputs.changed == 'true' }}
         working-directory: Site
+        env:
+          PENGO_DATABASE_ASSET_MODE: ${{ vars.DATABASE_ASSET_MODE || 'local' }}
         run: npm run smoke:deploy:generated
 
       - name: Stage verified GameData and generated output
@@ -140,14 +142,14 @@ jobs:
         if: ${{ steps.manifest.outputs.changed == 'true' }}
         working-directory: Site
         env:
-          PENGO_DATABASE_ASSET_MODE: local
+          PENGO_DATABASE_ASSET_MODE: ${{ vars.DATABASE_ASSET_MODE || 'local' }}
         run: npm run build:deploy:generated
 
       - name: Smoke rebased deploy artifact
         if: ${{ steps.manifest.outputs.changed == 'true' }}
         working-directory: Site
         env:
-          PENGO_DATABASE_ASSET_MODE: local
+          PENGO_DATABASE_ASSET_MODE: ${{ vars.DATABASE_ASSET_MODE || 'local' }}
         run: npm run smoke:deploy:generated
 
       - name: Amend rebased generated output

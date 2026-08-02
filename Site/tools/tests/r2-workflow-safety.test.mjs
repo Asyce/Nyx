@@ -56,6 +56,20 @@ test('every scheduled deploy pushes the exact commit before publishing R2 manife
   }
 });
 
+test('GameData preflight and rebased checks use the configured Database asset mode', async () => {
+  const source = await fs.readFile(path.resolve(workflowDir, 'gamedata-watch.yml'), 'utf8');
+  assert.doesNotMatch(source, /PENGO_DATABASE_ASSET_MODE:\s+local/);
+  for (const name of [
+    'Preflight site build',
+    'Preflight deploy artifact',
+    'Rebuild after rebase',
+    'Smoke rebased deploy artifact',
+  ]) {
+    const block = source.match(new RegExp(`- name: ${name}[\\s\\S]*?(?=\\n      - name:)`))?.[0] || '';
+    assert.match(block, /PENGO_DATABASE_ASSET_MODE: \$\{\{ vars\.DATABASE_ASSET_MODE \|\| 'local' \}\}/, `${name} follows the configured R2 mode`);
+  }
+});
+
 test('manual rollout never mutates repository variables and has mode-aware rollback paths', async () => {
   const source = await fs.readFile(path.resolve(workflowDir, 'r2-database-reconcile.yml'), 'utf8');
   assert.doesNotMatch(source, /github\.token|gh variable set|actions:\s*write/);

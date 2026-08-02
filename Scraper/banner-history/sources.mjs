@@ -83,6 +83,14 @@ export function parseFandomRun(game, page) {
   const duration = String(fields.duration || '').toLowerCase();
   const permanent = ['permanent','perm','indefinite'].includes(duration) || (!fields.time_end || fields.time_end === 'none') && /^(?:standard|novice|permanent)$/i.test(fields.type || '');
   if (!mapped && !permanent) return null;
+  const url = sourceUrl(config.host, page.title);
+  const window = windowFrom(fields, { source:url, defaultOffset:'+08:00' });
+  const hasDateOnlyStart = /^\d{4}-\d{2}-\d{2}/.test(fields.time_start || '');
+  // Maintained wikis often publish the next-version page before its schedule is
+  // known. Those placeholders explicitly use duration=unknown and hide tentative
+  // dates in comments. Ignore only that honest placeholder state; any other
+  // malformed finite record still reaches validation and fails closed.
+  if (!permanent && !window && !hasDateOnlyStart && duration === 'unknown') return null;
   const poolBlock = templateBlock(page.text, config.pool);
   const pool = poolBlock ? templateFields(poolBlock.text) : {};
   const hasCharacterPool = Boolean(pool.character_5 || pool.character_4 || pool.agent_s || pool.resonator_5);
@@ -107,8 +115,6 @@ export function parseFandomRun(game, page) {
     addFeatured(featured, pool.weapon_5_f, 'weapon', 5, true); addFeatured(featured, pool.weapon_4_f, 'weapon', 4, false);
   }
   if (!featured.length && !permanent) throw new Error(`${game} ${page.title} has no featured pool`);
-  const url = sourceUrl(config.host, page.title);
-  const window = windowFrom(fields, { source:url, defaultOffset:'+08:00' });
   const windowsByRegion = window ? { asia:window } : {};
   if (game === 'wuwa' && window) {
     const resetSource = 'https://wutheringwaves.fandom.com/wiki/Reset';
@@ -120,7 +126,7 @@ export function parseFandomRun(game, page) {
   const record = {
     id:'pending', game, bannerType, category:fields.type || (permanent ? 'Permanent' : 'Event'), name:cleanName(fields, page.title),
     ...(version(page.text) ? { version:version(page.text) } : {}), windowsByRegion,
-    ...(!window && /^\d{4}-\d{2}-\d{2}/.test(fields.time_start || '') ? { dateOnly:{ start:fields.time_start.slice(0,10), ...(/^\d{4}-\d{2}-\d{2}/.test(fields.time_end || '') ? { end:fields.time_end.slice(0,10) } : {}), sourceUrl:url } } : {}), permanent,
+    ...(!window && hasDateOnlyStart ? { dateOnly:{ start:fields.time_start.slice(0,10), ...(/^\d{4}-\d{2}-\d{2}/.test(fields.time_end || '') ? { end:fields.time_end.slice(0,10) } : {}), sourceUrl:url } } : {}), permanent,
     featured, pairedBannerIds:[], source:{ url, kind:'maintained-wiki', revision:page.revision }, fetchedAt:new Date().toISOString(),
     confirmed:Boolean(fields.link || permanent || (window?.end && Date.parse(window.end) < Date.now())), _title:page.title, _officialLink:fields.link || '',
     _alongside:[fields.alongside, fields.alongside2, fields.alongside3].filter(Boolean).join(';'),

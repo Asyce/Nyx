@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T07:46:13.729Z",
+  "generatedAt": "2026-08-02T13:45:01.873Z",
   "maxAgeDays": 28,
   "games": [
     {
@@ -9,7 +9,7 @@
       "redeemBase": "https://genshin.hoyoverse.com/en/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/GI/codes/",
-      "lastSuccessfulFetch": "2026-08-02T07:46:06.591Z",
+      "lastSuccessfulFetch": "2026-08-02T13:44:57.562Z",
       "codes": [
         {
           "code": "LEGEDILJKSGM",
@@ -41,7 +41,7 @@
           "hoyoVerified": true,
           "premium": false,
           "premium100": false,
-          "cwSeen": false,
+          "cwSeen": true,
           "firstSeen": "2026-08-01T21:03:08.107Z"
         },
         {
@@ -94,7 +94,9 @@
           "sourceUrl": "https://www.crimsonwitch.com/codes/Genshin_Impact",
           "regionLocked": null,
           "expires": null,
-          "variants": [],
+          "variants": [
+            "UIVIBUQM6Q8A"
+          ],
           "premium": false,
           "premium100": false,
           "cwSeen": true,
@@ -109,7 +111,7 @@
       "redeemBase": "https://hsr.hoyoverse.com/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/HSR/codes/",
-      "lastSuccessfulFetch": "2026-08-02T07:46:01.801Z",
+      "lastSuccessfulFetch": "2026-08-02T13:44:49.621Z",
       "codes": [
         {
           "code": "4TKSX77Y58QK",
@@ -238,8 +240,19 @@
       "redeemBase": "https://zenless.hoyoverse.com/redemption?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/ZZZ/codes/",
-      "lastSuccessfulFetch": "2026-08-02T07:46:13.729Z",
+      "lastSuccessfulFetch": "2026-08-02T13:44:49.170Z",
       "codes": [
+        {
+          "code": "VOIDWATCHINGYOU",
+          "rewards": "",
+          "added": "2026-08-02",
+          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=VOIDWATCHINGYOU",
+          "hoyoVerified": true,
+          "premium": false,
+          "premium100": false,
+          "cwSeen": false,
+          "firstSeen": "2026-08-02T13:44:49.170Z"
+        },
         {
           "code": "ZENLESSGIFT",
           "rewards": "50 polychrome, two official investigator logs, three w-engine power supplies, and one bangboo algorithm module",
@@ -293,7 +306,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Terminal > Settings > Other Settings > Redemption Code",
       "sourceUrl": "https://nexus-codes.app/games/WUWA/codes/",
-      "lastSuccessfulFetch": "2026-08-02T07:46:04.193Z",
+      "lastSuccessfulFetch": "2026-08-02T13:45:01.873Z",
       "codes": [
         {
           "code": "F5F4D3B2A2",
@@ -314,7 +327,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Settings > Account > Exchange Code",
       "sourceUrl": "https://nexus-codes.app/games/ARKEN/codes/",
-      "lastSuccessfulFetch": "2026-08-02T07:46:05.805Z",
+      "lastSuccessfulFetch": "2026-08-02T13:44:49.202Z",
       "codes": [
         {
           "code": "ENDFIELDRENEW",

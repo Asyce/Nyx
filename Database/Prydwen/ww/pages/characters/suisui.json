@@ -9,12 +9,12 @@
   "name": "Suisui",
   "title": "Suisui Best Build Guide",
   "sourcePath": "/wuthering-waves/characters/suisui",
-  "contentStatus": "beta",
+  "contentStatus": "live",
   "statusLabels": [
-    "3.5"
+    "New"
   ],
-  "scrapedAt": "2026-07-28T07:58:34.337Z",
-  "updatedText": "18/June/2026",
+  "scrapedAt": "2026-08-02T07:43:41.101Z",
+  "updatedText": "01/August/2026",
   "meta": {
     "title": "Suisui Best Build Guide | Wuthering Waves (WuWa)",
     "description": ""
@@ -46,6 +46,16 @@
       "height": 20
     },
     {
+      "id": "c26c1d310e90",
+      "sourceHash": "c26c1d310e90",
+      "kind": "icons",
+      "name": "HP%",
+      "fileStem": "stat-hp",
+      "path": "Prydwen/ww/assets/icons/hp-c26c1d310e90.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
       "id": "d7e1ee5a66d1",
       "sourceHash": "d7e1ee5a66d1",
       "kind": "characters",
@@ -54,6 +64,176 @@
       "path": "Prydwen/ww/assets/characters/suisui-d7e1ee5a66d1.webp",
       "width": 600,
       "height": 750
+    },
+    {
+      "id": "10285822b594",
+      "sourceHash": "10285822b594",
+      "kind": "weapons",
+      "name": "Firstlight's Herald",
+      "fileStem": "21050096",
+      "path": "Prydwen/ww/assets/weapons/firstlights-herald-10285822b594.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "f94d1c67d9b4",
+      "sourceHash": "f94d1c67d9b4",
+      "kind": "weapons",
+      "name": "Stellar Symphony",
+      "fileStem": "21050036",
+      "path": "Prydwen/ww/assets/weapons/stellar-symphony-f94d1c67d9b4.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "c544c5292f1e",
+      "sourceHash": "c544c5292f1e",
+      "kind": "weapons",
+      "name": "Variation",
+      "fileStem": "21050024",
+      "path": "Prydwen/ww/assets/weapons/variation-c544c5292f1e.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "d250c07a3d25",
+      "sourceHash": "d250c07a3d25",
+      "kind": "weapons",
+      "name": "Call of the Abyss",
+      "fileStem": "21050017",
+      "path": "Prydwen/ww/assets/weapons/call-of-the-abyss-d250c07a3d25.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "fb383356cac2",
+      "sourceHash": "fb383356cac2",
+      "kind": "echoes",
+      "name": "Set",
+      "fileStem": "song-of-feathered-trace",
+      "path": "Prydwen/ww/assets/echoes/song-of-feathered-trace-fb383356cac2.webp",
+      "width": 50,
+      "height": 50
+    },
+    {
+      "id": "9116b6b3061f",
+      "sourceHash": "9116b6b3061f",
+      "kind": "icons",
+      "name": "Set",
+      "fileStem": "set-7",
+      "path": "Prydwen/ww/assets/icons/set-7-9116b6b3061f.webp",
+      "width": 50,
+      "height": 50
+    },
+    {
+      "id": "963f47d9c985",
+      "sourceHash": "963f47d9c985",
+      "kind": "misc",
+      "name": "Fallacy of No Return",
+      "fileStem": "6000060",
+      "path": "Prydwen/ww/assets/misc/fallacy-of-no-return-963f47d9c985.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "2313f26b8992",
+      "sourceHash": "2313f26b8992",
+      "kind": "characters",
+      "name": "Yangyang Xuanling",
+      "fileStem": "yangyang-xuanling-icon",
+      "path": "Prydwen/ww/assets/characters/yangyang-xuanling-2313f26b8992.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "5bd44ca9e74f",
+      "sourceHash": "5bd44ca9e74f",
+      "kind": "characters",
+      "name": "Hiyuki",
+      "fileStem": "hiyuki-icon",
+      "path": "Prydwen/ww/assets/characters/hiyuki-5bd44ca9e74f.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "b929007b8f8a",
+      "sourceHash": "b929007b8f8a",
+      "kind": "characters",
+      "name": "Aemeath",
+      "fileStem": "aemeath-icon",
+      "path": "Prydwen/ww/assets/characters/aemeath-b929007b8f8a.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "0e96075575d8",
+      "sourceHash": "0e96075575d8",
+      "kind": "characters",
+      "name": "Chisa",
+      "fileStem": "chisa-icon",
+      "path": "Prydwen/ww/assets/characters/chisa-0e96075575d8.webp",
+      "width": 120,
+      "height": 120
+    },
+    {
+      "id": "59d02501284b",
+      "sourceHash": "59d02501284b",
+      "kind": "characters",
+      "name": "Rebecca",
+      "fileStem": "rebecca-icon",
+      "path": "Prydwen/ww/assets/characters/rebecca-59d02501284b.webp",
+      "width": 120,
+      "height": 120
+    },
+    {
+      "id": "8367f1df0e13",
+      "sourceHash": "8367f1df0e13",
+      "kind": "characters",
+      "name": "Phrolova",
+      "fileStem": "phrolova-icon",
+      "path": "Prydwen/ww/assets/characters/phrolova-8367f1df0e13.webp",
+      "width": 120,
+      "height": 120
+    },
+    {
+      "id": "e13ca9eeaf47",
+      "sourceHash": "e13ca9eeaf47",
+      "kind": "characters",
+      "name": "Suisui",
+      "fileStem": "suisui-icon",
+      "path": "Prydwen/ww/assets/characters/suisui-e13ca9eeaf47.webp",
+      "width": 120,
+      "height": 120
+    },
+    {
+      "id": "ddae26999871",
+      "sourceHash": "ddae26999871",
+      "kind": "characters",
+      "name": "Lucilla",
+      "fileStem": "lucilla-icon",
+      "path": "Prydwen/ww/assets/characters/lucilla-ddae26999871.webp",
+      "width": 120,
+      "height": 120
+    },
+    {
+      "id": "e366b96f341c",
+      "sourceHash": "e366b96f341c",
+      "kind": "characters",
+      "name": "Lynae",
+      "fileStem": "lynae-icon",
+      "path": "Prydwen/ww/assets/characters/lynae-e366b96f341c.webp",
+      "width": 120,
+      "height": 120
+    },
+    {
+      "id": "146670ce7114",
+      "sourceHash": "146670ce7114",
+      "kind": "characters",
+      "name": "Denia",
+      "fileStem": "denia-icon",
+      "path": "Prydwen/ww/assets/characters/denia-146670ce7114.webp",
+      "width": 120,
+      "height": 120
     }
   ],
   "sections": [
@@ -61,7 +241,7 @@
       "id": "suisui-best-build-guide-0",
       "level": 1,
       "heading": "Suisui Best Build Guide",
-      "text": "Last updated: 18/June/2026",
+      "text": "Last updated: 01/August/2026",
       "assets": [
         {
           "id": "6c2f0381f367",
@@ -97,60 +277,232 @@
       "id": "video-guide-2",
       "level": 2,
       "heading": "Video guide",
-      "text": "This character has no video guide yet.\n\n To learn more about Suisui check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.",
+      "text": "Suisui has at least one video guide available:",
       "assets": []
     },
     {
-      "id": "calculations-7",
+      "id": "update-tracker-3",
+      "level": 2,
+      "heading": "Update tracker",
+      "text": "Last review update\n Patch 3.5\n\n Last major build/calcs update\n Patch 3.5\n\n Last profile update*\n 01/August/2026\n\n *Profile update means smaller edits to echoes, stats, synergies or teams that don't require new calculations.\n To learn more about Suisui check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.",
+      "assets": []
+    },
+    {
+      "id": "calculations-8",
       "level": 2,
       "heading": "Calculations",
       "text": "Profile",
       "assets": []
     },
     {
-      "id": "skills-8",
+      "id": "skills-9",
       "level": 2,
       "heading": "Skills",
-      "text": "Suisui skills aren't available yet. They will be added soon!",
+      "text": "Active skills\n Passive skills\n Concerto skills\n\n Basic Attack\n Unraveled Spring",
       "assets": []
     },
     {
-      "id": "resonance-chain-dupes-9",
+      "id": "basic-attack-zephyr-stance-10",
+      "level": 6,
+      "heading": "Basic Attack - Zephyr Stance",
+      "text": "Press repeatedly or hold Normal Attack to perform up to 4 consecutive attacks, dealing Glacio DMG and restoring Cloud Breath on hit.",
+      "assets": []
+    },
+    {
+      "id": "mid-air-attack-zephyr-stance-11",
+      "level": 6,
+      "heading": "Mid-air Attack - Zephyr Stance",
+      "text": "Consume STA to perform Plunging Attack, dealing Glacio DMG .",
+      "assets": []
+    },
+    {
+      "id": "dodge-counter-zephyr-stance-12",
+      "level": 6,
+      "heading": "Dodge Counter - Zephyr Stance",
+      "text": "Press Normal Attack shortly after a successful Dodge to attack the target, dealing Glacio DMG and restoring Cloud Breath on hit.\n\n Press Normal Attack shortly after casting this skill to perform Basic Attack - Zephyr Stance Stage 4.\n\n Multipliers\n\n Resonance Skill\n Vernal Screen",
+      "assets": []
+    },
+    {
+      "id": "resonance-skill-zephyr-stance-13",
+      "level": 6,
+      "heading": "Resonance Skill - Zephyr Stance",
+      "text": "While in Zephyr Stance and Cloud Breath is not full, press Resonance Skill to have Suisui thrust forward, dealing Glacio DMG . If Suisui is the active Resonator while casting the skill, restore Cloud Breath.\n\n Can be cast in mid-air close to the ground.\n\n This skill shares a Cooldown with Resonance Skill - Drizzle Stance.",
+      "assets": []
+    },
+    {
+      "id": "awakening-spring-14",
+      "level": 6,
+      "heading": "Awakening Spring",
+      "text": "While in Zephyr Stance and at full Cloud Breath, Resonance Skill - Zephyr Stance is replaced with Awakening Spring. Casting this skill consumes all Cloud Breath, pulls in nearby targets, and sends Suisui into Drizzle Stance, dealing Glacio DMG and inflicting Glacio Chafe on the target 1 time on hit.",
+      "assets": []
+    },
+    {
+      "id": "enrichment-15",
+      "level": 6,
+      "heading": "Enrichment",
+      "text": "Casting Awakening Spring or Intro Skill - Tinkling Jade grants all nearby Resonators in the team 1 stack of Enrichment. This effect can be triggered once every 25s . Incoming Resonators receive healing from Suisui at the cost of Enrichment.",
+      "assets": []
+    },
+    {
+      "id": "resonance-skill-drizzle-stance-16",
+      "level": 6,
+      "heading": "Resonance Skill - Drizzle Stance",
+      "text": "While in Drizzle Stance, Resonance Skill - Zephyr Stance is replaced with Resonance Skill - Drizzle Stance.\n\n Press Resonance Skill to have Suisui thrust forward, dealing Glacio DMG . If Suisui is the active Resonator while casting the skill, restore Floral Epistle.\n\n Can be cast in mid-air close to the ground.\n\n This skill shares a Cooldown with Resonance Skill - Zephyr Stance.\n\n Multipliers\n\n Resonance Liberation\n Song of Thoroughfare\n\n Casting the skill deploys Ceaseless Landscape that lasts for 30s . When Ceaseless Landscape is active, Suisui enters the Roaming Transcendent state when casting Outro Skill - Rippling Waters.\n Ceaseless Landscape grants all nearby Resonators in the team the following enhancements:\n Inflicting a target with Spectro Frazzle , Fusion Burst , Glacio Chafe , and Aero Erosion , or dealing the corresponding Negative Status DMG increases the max stack limit of the corresponding Negative Status the target can receive by 3 for 15s . This effect does not stack.\n\n Inflicting a target with Electro Flare or dealing the corresponding Negative Status DMG increases the max stack limits of Electro Flare and Electro Rage the target can receive by 3 for 15s . This effect does not stack.\n\n Consuming Havoc Bane stacks on the target after landing a skill allows the Resonator's Havoc DMG to ignore the target's DEF by 6% and Havoc RES by 12% for 30s . This effect does not stack.\n\n Can be cast in mid-air close to the ground.\n\n Multipliers\n\n Forte Circuit\n Lambent Gold",
+      "assets": []
+    },
+    {
+      "id": "zephyr-stance-17",
+      "level": 6,
+      "heading": "Zephyr Stance",
+      "text": "Suisui is in Zephyr Stance by default. When in Zephyr Stance, Suisui can obtain Cloud Breath through certain skills.",
+      "assets": []
+    },
+    {
+      "id": "drizzle-stance-18",
+      "level": 6,
+      "heading": "Drizzle Stance",
+      "text": "Entering Drizzle Stance clears all Floral Epistle.\nDuring Drizzle Stance:\n Suisui unlocks new combat moves and restores Floral Epistle through certain skills.\n\n Suisui gains increased resistance to interruption.\n\n Press Normal Attack within a certain time after triggering a successful Dodge via Dodge skills to cast Basic Attack - Drizzle Stance Stage 1.\n\n After entering Drizzle Stance for 15s , Suisui ends Drizzle Stance and clears all Floral Epistle upon exiting the state.",
+      "assets": []
+    },
+    {
+      "id": "dodge-parting-mist-19",
+      "level": 6,
+      "heading": "Dodge - Parting Mist",
+      "text": "While performing attacks on the ground, press Dodge to cast Dodge - Parting Mist at the cost of STA.\n\n When in Zephyr Stance, triggering a successful Dodge while casting Dodge - Parting Mist restores Cloud Breath. Press Normal Attack shortly after triggering the Dodge to cast Dodge Counter - Zephyr Stance.\n When in Drizzle Stance, triggering a successful Dodge while casting Dodge - Parting Mist restores Floral Epistle, and does not reset the cycle of Basic Attack - Drizzle Stance within a certain period.",
+      "assets": []
+    },
+    {
+      "id": "basic-attack-drizzle-stance-20",
+      "level": 6,
+      "heading": "Basic Attack - Drizzle Stance",
+      "text": "When in Drizzle Stance, Basic Attack - Zephyr Stance is replaced with Basic Attack - Drizzle Stance.\n\n Press Normal Attack repeatedly to perform up to 4 consecutive attacks, dealing Glacio DMG and restoring Floral Epistle on hit.\n\n When casting Basic Attack - Drizzle Stance Stage 3, continuously pull in nearby targets.\n\n Basic Attack - Drizzle Stance Stage 4 inflicts Glacio Chafe 1 time on the target on hit.",
+      "assets": []
+    },
+    {
+      "id": "heavy-attack-drizzle-stance-21",
+      "level": 6,
+      "heading": "Heavy Attack - Drizzle Stance",
+      "text": "Consume STA to attack the target, dealing Glacio DMG and restoring Floral Epistle on hit.",
+      "assets": []
+    },
+    {
+      "id": "illuminating-dew-22",
+      "level": 6,
+      "heading": "Illuminating Dew",
+      "text": "When in Drizzle Stance, keep holding Normal Attack after casting Heavy Attack - Drizzle Stance to cast this skill.\n\n Consume STA to perform Plunging Attack, dealing Glacio DMG .",
+      "assets": []
+    },
+    {
+      "id": "swallows-cut-23",
+      "level": 6,
+      "heading": "Swallow's Cut",
+      "text": "When in Drizzle Stance, cast this skill in one of the following ways:\n Release the Normal Attack button while casting Heavy Attack - Drizzle Stance.\n\n Press Normal Attack while Suisui is mid-air.\n\n Consume STA to perform Plunging Attack, dealing Glacio DMG .",
+      "assets": []
+    },
+    {
+      "id": "cloud-breath-24",
+      "level": 6,
+      "heading": "Cloud Breath",
+      "text": "Max 120 points.\n\n When in Zephyr Stance:\n Basic Attack - Zephyr Stance and Dodge Counter - Zephyr Stance restore Cloud Breath on hit.\n\n Casting Resonance Skill - Zephyr Stance restores 40 points of Cloud Breath when Suisui is the active Resonator in the team.\n\n Triggering a successful Dodge while casting Dodge - Parting Mist restores 35 points of Cloud Breath.",
+      "assets": []
+    },
+    {
+      "id": "floral-epistle-25",
+      "level": 6,
+      "heading": "Floral Epistle",
+      "text": "Max 600 points.\n\n When in Drizzle Stance:\n Basic Attack - Drizzle Stance and Heavy Attack - Drizzle Stance restore Floral Epistle on hit.\n\n Casting Resonance Skill - Drizzle Stance restores 100 points of Floral Epistle when Suisui is the active Resonator in the team.\n\n Triggering a successful Dodge while casting Dodge - Parting Mist restores 102 points of Floral Epistle.\n\n Multipliers\n\n Forte Circuit\n Tune Break: Rectifier\n\n When the target's Off-Tune Level is full, the Resonator may cast Tune Break on the target.\n\n Inherent Skill\n Sky Over Water\n\n Consuming Enrichment grants the Resonator 10 stacks of Spring's Birth, up to 10 stacks. When the Resonator with Spring's Birth is not at full HP, restore their HP by 62 + 0.34% of Suisui's Max HP at the cost of 1 stack of Spring's Birth every 2s .\n When Resonance Skill - Awakening Spring and Intro Skill - Tinkling Jade hit a target, they additionally restore 18 points of Concerto Energy and 13 points of Resonance Energy, and increase the attack's Crit. Rate by 80% and Glacio DMG by 240% . This effect can be triggered up to once every 25s .\n\n Inherent Skill\n Glimmering Gold\n\n When a Resonator other than Suisui takes a fatal blow, they will not be knocked out but will instead regain 50% of Suisui's current HP, while Suisui herself loses the same amount of HP. Suisui's HP will not go below 1 from this effect. This effect can be triggered once every 10 minutes.\n\n Intro Skill\n Tinkling Jade\n\n Attack the target, dealing Glacio DMG , and inflict Glacio Chafe 1 time on the target.\n While casting this skill, consume all Cloud Breath to pull in nearby targets and enter Drizzle Stance.\n\n Multipliers\n\n Outro Skill\n Rippling Waters\n\n Resonators in the team gain 25% All DMG Amplification for 30s .\n Suisui enters Roaming Transcendent when Ceaseless Landscape is active.\n Suisui exits Drizzle Stance and consumes all Floral Epistle and unlocks the following effects based on the amount of Floral Epistle consumed:",
+      "assets": []
+    },
+    {
+      "id": "0-floral-epistle-consumed-26",
+      "level": 6,
+      "heading": "0 Floral Epistle consumed:",
+      "text": "All nearby Resonators in the team gain Reflecting Shadows for 6s . Resonators with Reflecting Shadows have increased resistance to interruption.",
+      "assets": []
+    },
+    {
+      "id": "at-least-200-floral-epistle-consumed-27",
+      "level": 6,
+      "heading": "At least 200 Floral Epistle consumed:",
+      "text": "If Ceaseless Landscape is active, Suisui may perform Plume Step for the first time within a certain time into her Transcendent Dance while in Roaming Transcendent.",
+      "assets": []
+    },
+    {
+      "id": "at-least-400-floral-epistle-consumed-28",
+      "level": 6,
+      "heading": "At least 400 Floral Epistle consumed:",
+      "text": "During this Roaming Transcendent state, the active Resonator within the Ceaseless Landscape deals more DMG if they have Reflecting Shadows. For every 1% of Suisui's Energy Regen over 200% , the Resonator deals 0.2% more DMG, up to 12% .\n\n If Ceaseless Landscape is active, Suisui may perform the second Plume Step within a certain time into her Transcendent Dance while in Roaming Transcendent.",
+      "assets": []
+    },
+    {
+      "id": "at-least-600-floral-epistle-consumed-29",
+      "level": 6,
+      "heading": "At least 600 Floral Epistle consumed:",
+      "text": "When Suisui performs the first Plume Step, all nearby active Resonators in the team within the Ceaseless Landscape gain the following effects for the duration of this Roaming Transcendent:\n When they cast Outro Skill, Suisui grants the incoming Resonator Undulating Mist. When Resonators with Undulating Mist consume Negative Status or Electro Rage stacks on the target, they gain an ATK increase: For every 0.12% of Suisui's Energy Regen over 200% , the Resonator's ATK is increased by 0.1% for 6s , up to 50% . Undulating Mist lasts for 14s or until the Resonator is switched off the field. When Undulating Mist is removed, the ATK increase effect is also removed.\n\n If Ceaseless Landscape is active, Suisui may perform the third Plume Step within a certain time into her Transcendent Dance while in Roaming Transcendent.",
+      "assets": []
+    },
+    {
+      "id": "roaming-transcendent-30",
+      "level": 6,
+      "heading": "Roaming Transcendent",
+      "text": "Lasts for 30s .\n\n During Roaming Transcendent, Suisui will merge with Ceaseless Landscape and start a Transcendent Dance, during which she will perform Plume Steps at intervals based on the amount of Floral Epistle consumed when Outro Skill - Rippling Waters is cast.\n\n When Suisui is the active Resonator in the team, she stops the Transcendent Dance.\n\n When Ceaseless Landscape isn't active, she will exit the Roaming Transcendent state.",
+      "assets": []
+    },
+    {
+      "id": "plume-step-31",
+      "level": 6,
+      "heading": "Plume Step",
+      "text": "Performing Plume Step grants Reflecting Shadows to all nearby Resonators in the team for 6s , inflicts 1 stack of Glacio Chafe on all enemies within the Ceaseless Landscape, and heals the nearby active Resonators in the team within the Ceaseless Landscape.",
+      "assets": []
+    },
+    {
+      "id": "resonance-chain-dupes-32",
       "level": 2,
       "heading": "Resonance Chain (Dupes)",
-      "text": "Suisui dupes information aren't available yet. They will be added soon!",
+      "text": "S 1\n Mountains Washed Into Paintings\n\n Resonators with Undulating Mist also gain ATK increase after inflicting Negative Status or dealing Negative Status DMG.\n The duration of Reflecting Shadows obtained through the third Plume Step is extended by 100% .\n Basic Attack - Drizzle Stance, Heavy Attack - Drizzle Stance, Plunging Attack - Illuminating Dew and Plunging Attack - Swallow's Cut are immune to interruption.\n\n S 2\n Clouds Pour Like Molten Gold\n\n All nearby Resonators in the team within the Ceaseless Landscape have their Crit. DMG increased by 50% for 30s after performing the following actions:\n Inflicting Spectro Frazzle , Fusion Burst , Glacio Chafe , Aero Erosion , and Electro Flare , or dealing the corresponding Negative Status DMG.\n\n Consuming Havoc Bane stacks on the target.\n\n When the active Resonator is not in the Ceaseless Landscape, this Crit. DMG bonus effect is disabled.\n\n S 3\n Sparse Curtains Invite Evening Glow\n\n Press Normal Attack shortly after casting Resonance Skill - Drizzle Stance to cast Basic Attack - Drizzle Stance Stage 4.\n Casting Resonance Skill - Drizzle Stance grants Kingfisher. Switching to another Resonator ends this effect. Casting Basic Attack - Drizzle Stance Stage 4 consumes Kingfisher to restore 20 points of Concerto Energy and 350 points of Floral Epistle. Kingfisher can be consumed up to once every 25s .\n\n S 4\n Autumn Mountains in Choir Sing\n\n Healing provided by Enrichment and Spring's Birth are increased by 50% .\n\n S 5\n I Long To Ride The Eastern Wind\n\n The DMG Multipliers of Basic Attack - Drizzle Stance and Heavy Attack - Drizzle Stance are increased by 100% .\n\n S 6\n Staying True To This Splendid Realm\n\n The Crit. DMG of Intro Skill - Tinkling Jade and Resonance Skill - Awakening Spring is increased by 500% .",
       "assets": []
     },
     {
-      "id": "minor-fortes-total-10",
+      "id": "minor-fortes-total-33",
       "level": 2,
       "heading": "Minor Fortes (Total)",
-      "text": "Suisui Minor Fortes information aren't available yet.",
-      "assets": []
+      "text": "+ 12 %\n\n HP%\n + 12 %",
+      "assets": [
+        {
+          "id": "c26c1d310e90",
+          "sourceHash": "c26c1d310e90",
+          "kind": "icons",
+          "name": "HP%",
+          "fileStem": "stat-hp",
+          "path": "Prydwen/ww/assets/icons/hp-c26c1d310e90.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
     },
     {
-      "id": "stats-11",
+      "id": "stats-34",
       "level": 2,
       "heading": "Stats",
-      "text": "Suisui stats aren't available yet.",
+      "text": "Include minor fortes\n\n Lv. 90\n\n Stats data not available for this character.",
       "assets": []
     },
     {
-      "id": "upgrade-materials-12",
+      "id": "upgrade-materials-35",
       "level": 2,
       "heading": "Upgrade Materials",
       "text": "Suisui upgrade material information aren't available yet.",
       "assets": []
     },
     {
-      "id": "voice-actors-13",
+      "id": "voice-actors-36",
       "level": 2,
       "heading": "Voice Actors",
       "text": "ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -",
       "assets": []
     },
     {
-      "id": "gallery-14",
+      "id": "gallery-37",
       "level": 2,
       "heading": "Gallery",
       "text": "Review",
@@ -168,60 +520,327 @@
       ]
     },
     {
-      "id": "ratings-15",
+      "id": "ratings-38",
       "level": 2,
       "heading": "Ratings",
-      "text": "Please keep in mind Wuthering Waves is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Wuthering Waves is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.\n\n Suisui ratings aren't available yet.",
+      "text": "Please keep in mind Wuthering Waves is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Wuthering Waves is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.",
       "assets": []
     },
     {
-      "id": "pros-cons-16",
-      "level": 2,
-      "heading": "Pros & Cons",
-      "text": "Suisui pros & cons aren't available yet.",
+      "id": "support-39",
+      "level": 5,
+      "heading": "Support",
+      "text": "T0\n Tower of Adversity\n\n T0.5\n Whimpering Wastes",
       "assets": []
     },
     {
-      "id": "review-17",
+      "id": "support-41",
+      "level": 5,
+      "heading": "Support",
+      "text": "T0\n Tower of Adversity (Value)\n\n T0.5\n Whimpering Wastes (Value)",
+      "assets": []
+    },
+    {
+      "id": "pros-43",
+      "level": 5,
+      "heading": "Pros",
+      "text": "The best Support for a ton of Negative Status characters, a currently really strong meta archetype;\n\n Easy rotation, almost no complexity to it;\n\n Built-in grouping for multi-wave content;\n\n F2P-friendly, fully operational at S0R0 (Variation is a perfectly fine replacement for her Signature Rectifier, like a lot of other supports).",
+      "assets": []
+    },
+    {
+      "id": "cons-44",
+      "level": 5,
+      "heading": "Cons",
+      "text": "Full buffs only activate under the extremely specific condition of direct Negative Status consumption, making it difficult to increase her team flexibility, as even if her S1 tries to accomplish that, it doesn’t really help her in practice;\n\n Very low headroom for Quickswap if not nonexistent. Needs an Intro to get her rotation started quickly, wants to stay on field to do full attack chains, some of her buffs expire on swap and take a while to be able to take effect;\n\n Low sequence value in general, one of the lowest in the modern era, basically no room for vertical investment.",
+      "assets": []
+    },
+    {
+      "id": "review-45",
       "level": 2,
       "heading": "Review",
-      "text": "Suisui mini-review isn't available yet.",
+      "text": "Review\n Suisui is a 5-star Glacio Rectifier Support whose primary role is to buff Negative Status consumers in various ways (currently, that scope extends to a few fairly obvious synergies that characterize her meta niche). She’s akin to a Mornye-type healer/buffer Support with low personal damage and a decently fast rotation with specific use cases for certain team archetypes.\n Key Mechanics\n Suisui has 2 stances she can alternate between throughout her rotation: Zephyr and Drizzle. However, the Zephyr stance will only really be used in her Opener rotation, since Intro makes her immediately start in Drizzle.\n Each stance has its own unique set of attacks and Forte gauges. The Zephyr stance, when full, allows you to cast a special Skill to switch to Drizzle stance (useful without an Intro available). Meanwhile, the Drizzle stance allows you to build up several buffs by filling up Suisui’s Forte bar with Floral Epistle points that she consumes upon casting her Outro.\n Suisui’s typical rotation has you hence entering Drizzle stance as quickly as possible (either via Zephyr form basics into Skill or via her Intro directly), to then fill up her Floral Epistle gauge to deploy her full buffs upon casting her Outro. However, her Ultimate serves as an additional buffing tool that she will definitely want to deploy every rotation, considering it allows her to increase the stack cap of all Negative Statuses but Havoc Bane by 3 (almost exactly like Chisa), while consuming Havoc Bane gives a small DEF Ignore and Havoc RES Shred boost.\n Who Does She Buff & How?\n Suisui’s buffs are largely concentrated in her Outro and Ultimate. However, her Echo Set and Signature weapon all contribute to the buffing total as well for the following array of buffs:\n For any Negative Status but Havoc Bane: Stack cap increased by 3;\n\n For Havoc Bane consumers: 6% DEF Ignore, 12% Havoc RES Shred;\n\n 12% general DMG Bonus and 25% general DMG Amplification on Outro;\n\n 50% ATK for Negative Status-consuming Hypercarries via her Outro effects (this expires on swap);\n\n Throughout attacks in her kit: 5 total stacks of Glacio Chafe application per rotation;\n\n 25% ATK and an extra 20% via her Echo Set and Signature weapon if owned.\n\n As you can tell, that makes for some pretty massive buffs for Negative Status consumers, and right now we have two such characters: Hiyuki and Yangyang: Xuanling.\n Meta Position & Conclusion\n Suisui is quite the restrictive buffer in the sense that she requires characters on her team to consume Negative Statuses to use the full extent of her buffs; particularly a Hypercarry DPS is ideal for this. However, only a 50% ATK buff is specifically locked behind Negative Status consumption, and overall this buff can be forfeited in the one other team Suisui is a good replacement for: Aemeath Fusion Burst.\n Suisui is generally quite a good pull for Negative Status characters, particularly Hiyuki and Yangyang: Xuanling since she applies Glacio Chafe for Hiyuki and she gives specialized Havoc Bane buffs for Yangyang. While she can generally be used for Negative Status teams, her 2 niches are carved out for her, and she’s best in slot in 2 of the strongest meta teams right now, making her quite the strong meta contender.\n In conclusion, Suisui’s buff conditions may be quite strict, but in spite of them she proves quite generally useful for Negative Status teams at large and serves as a much-needed replacement to Chisa in 2 important meta teams as well as the final touch needed to complete Yangyang: Xuanling’s best team, earning her a top meta spot as of her release.",
       "assets": []
     },
     {
-      "id": "video-guides-18",
+      "id": "video-guides-46",
       "level": 2,
       "heading": "Video guides",
-      "text": "Suisui guide videos aren't available yet.\n\n Build",
+      "text": "Build",
       "assets": []
     },
     {
-      "id": "best-build-19",
+      "id": "best-weapons-47",
       "level": 2,
-      "heading": "Best build",
-      "text": "Suisui build information aren't available yet.\n\n Gameplay and teams",
-      "assets": []
+      "heading": "Best Weapons",
+      "text": "The percentages show the performance of the weapon based on calculations , but in some cases, some weapons might provide additional QOL that can't be quantified and it would push that weapon ahead of others in the priority (and in those cases, we would put that weapon higher).\n\n 1\n\n Firstlight's Herald (R 1 )\n\n Suisui's best in slot Signature weapon grants the whole team a 20% ATK buff, decent increase to the party's overall damage output, as well as a lot of Energy Regen which she needs to access her full buffs.\n 2\n\n Stellar Symphony (R 1 )\n\n Shorekeeper's Signature weapon provides Suisui with enough Energy Regen to easily max out her passives, but otherwise is quite redundant on her since the team-wide ATK-increasing passive doesn't get activated.\n 3\n\n Variation (R 5 )\n\n Best overall weapon in terms of cost-efficiency, provides Suisui with the Concerto and Energy Regen needed to have her operate at a baseline while sacrificing minimal team damage and remaining accessible at a low cost.\n 4\n\n Call of the Abyss (R 5 )\n\n Last resort option if Suisui has none of the options above available to her. Grants the same Energy Regen stats with a bit of Healing Bonus instead of Concerto Energy - not ideal as it slows down her rotations significantly, but acceptable until one of the options above can be accessed.",
+      "assets": [
+        {
+          "id": "10285822b594",
+          "sourceHash": "10285822b594",
+          "kind": "weapons",
+          "name": "Firstlight's Herald",
+          "fileStem": "21050096",
+          "path": "Prydwen/ww/assets/weapons/firstlights-herald-10285822b594.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "f94d1c67d9b4",
+          "sourceHash": "f94d1c67d9b4",
+          "kind": "weapons",
+          "name": "Stellar Symphony",
+          "fileStem": "21050036",
+          "path": "Prydwen/ww/assets/weapons/stellar-symphony-f94d1c67d9b4.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "c544c5292f1e",
+          "sourceHash": "c544c5292f1e",
+          "kind": "weapons",
+          "name": "Variation",
+          "fileStem": "21050024",
+          "path": "Prydwen/ww/assets/weapons/variation-c544c5292f1e.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "d250c07a3d25",
+          "sourceHash": "d250c07a3d25",
+          "kind": "weapons",
+          "name": "Call of the Abyss",
+          "fileStem": "21050017",
+          "path": "Prydwen/ww/assets/weapons/call-of-the-abyss-d250c07a3d25.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
     },
     {
-      "id": "rotation-20",
+      "id": "best-echo-sets-49",
+      "level": 6,
+      "heading": "Best Echo Sets",
+      "text": "1\n\nSong of Feathered Trace\n\n Allows Suisui to buff the whole team's ATK by 25% constantly thanks to her Glacio Chafe application and Energy Regen scaling. Best overall set as it gives the best uptime on the ATK buff.\n Below you can find Main Echo options:\n - Gives Suisui 10% Healing Bonus when equipped in the main slot. Simple Summon Echo that deals a tiny bit of damage in spite of its lackluster stat increase (provides a tiny bit more healing but generally not important).\n\n 2\n\nRejuvenating Glow\n\n Offers a 10% unconditional Healing% boost and an most importantly a 15% ATK% boost for the entire team, lasting 30 seconds whenever you heal yourself or any of your allies. This bonus is easy to keep active 100% of the time and is a good party-wide damage increase.\n Below you can find Main Echo options:\n\n Fallacy of No Return\n\n - Allows Rejuvenating Glow to provide as many total buffs as Song of Feathered Trace on cast, giving an extra 10% ATK to the team and an extra 10% Energy Regen to the wearer. It can easily be summoned before Suisui's Outro to have roughly the same effects as Suisui's Signature set, however the buffs will have lower uptime in longer team rotations which can make this set situationally worse (but by very small margins).",
+      "assets": [
+        {
+          "id": "fb383356cac2",
+          "sourceHash": "fb383356cac2",
+          "kind": "echoes",
+          "name": "Set",
+          "fileStem": "song-of-feathered-trace",
+          "path": "Prydwen/ww/assets/echoes/song-of-feathered-trace-fb383356cac2.webp",
+          "width": 50,
+          "height": 50
+        },
+        {
+          "id": "9116b6b3061f",
+          "sourceHash": "9116b6b3061f",
+          "kind": "icons",
+          "name": "Set",
+          "fileStem": "set-7",
+          "path": "Prydwen/ww/assets/icons/set-7-9116b6b3061f.webp",
+          "width": 50,
+          "height": 50
+        },
+        {
+          "id": "963f47d9c985",
+          "sourceHash": "963f47d9c985",
+          "kind": "misc",
+          "name": "Fallacy of No Return",
+          "fileStem": "6000060",
+          "path": "Prydwen/ww/assets/misc/fallacy-of-no-return-963f47d9c985.webp",
+          "width": 35,
+          "height": 35
+        }
+      ]
+    },
+    {
+      "id": "best-echo-stats-50",
       "level": 2,
-      "heading": "Rotation",
-      "text": "Suisui rotation information aren't available yet.",
+      "heading": "Best Echo Stats",
+      "text": "4 cost\n CRIT DMG\n\n 3 cost\n Energy Regen\n\n 3 cost\n Energy Regen / HP%\n\n 1 cost\n HP%\n\n 1 cost\n HP%\n\n Substats: Energy Regen (Until 260%) > CRIT DMG > HP% > CRIT Rate > Basic DMG% > HP\n\n HP% main stat on slot 3 can only be done with a 5-star high Energy Regen weapon and high substat rolls - not achievable for most people. Double Energy Regen main stat is always fine to stick to.",
       "assets": []
     },
     {
-      "id": "synergies-21",
+      "id": "best-endgame-stats-level-90-51",
+      "level": 2,
+      "heading": "Best Endgame Stats (Level 90)",
+      "text": "All recommended endgame stats portray a fairly good quality endgame build as a goal to aim for on most characters. However, don’t treat this as an end-all-be-all, and more of a suggestion.\n All stat recommendations are given at S0 for 5-stars, S6 for 4-stars, and free characters (unless specified otherwise), based on total stats in the in-game stat-screen with the character out of combat but also active in the party (and hence some buffs may or may not apply). Any other precision may be directly specified. If not specified, Energy Regen requirements are estimated in the character’s best team.\n Keep in mind that even when optimized, Suisui deals very low personal damage, meaning investing in her damage is fully skippable. Energy Regen requirements are by far the most important stat shown.\n HP: 35000-40000+\n\n DEF: 1100+\n\n ATK: 1100-1200+\n\n CRIT Rate: 20%+\n\n CRIT DMG: 250%+\n\n Energy Regen: 260%\n This is the amount of Energy Regen that is required to get the maximum potential out of Suisui’s buffs.\n\n Glacio DMG Bonus: 0%+",
+      "assets": []
+    },
+    {
+      "id": "skill-priority-52",
+      "level": 2,
+      "heading": "Skill Priority",
+      "text": "Below you can find the order of leveling the abilities for Suisui .\n Intro Skill\n\n Forte Circuit\n\n Res. Skill\n\n Res. Liberation\n\n Basic Attack\n\n Anything but Intro can be skipped when levelling to save out on resources at a minimal damage loss.\n\n Gameplay and teams",
+      "assets": []
+    },
+    {
+      "id": "rotation-gameplay-54",
+      "level": 5,
+      "heading": "Rotation & Gameplay",
+      "text": "Suisui’s rotation focuses on her accumulating Floral Epistle as quickly as possible before accessing her Outro. To do this, simply rotate like so depending on if an Intro is available or not:",
+      "assets": []
+    },
+    {
+      "id": "opener-rotation-55",
+      "level": 6,
+      "heading": "Opener Rotation",
+      "text": "Used when an Intro is not readily available for Suisui to use, typically once per fight.\n Basic: Zephyr 1\n\n Basic: Zephyr 2\n\n Basic: Zephyr 3\n\n Skill: Awakening Spring\n\n Basic: Swallow's Cut\n\n Basic: Drizzle 1\n\n Basic: Drizzle 2\n\n Basic: Drizzle 3\n\n Basic: Drizzle 4 (Cancel animation endlag via Ultimate)\n\n Ultimate\n\n Outro",
+      "assets": []
+    },
+    {
+      "id": "loop-rotation-56",
+      "level": 6,
+      "heading": "Loop Rotation",
+      "text": "Used whenever an Intro is available\n Intro\n\n Skill: Drizzle (Cancel animation via Dash on 1st hit)\n\n Dash\n\n Basic: Drizzle 1\n\n Basic: Drizzle 2\n\n Basic: Drizzle 3\n\n Basic: Drizzle 4 (Cancel animation endlag via Ultimate)\n\n Ultimate\n\n Outro\n\n At S3 and above, simply skip from Skill: Drizzle right into Basic: Drizzle 4 to save a lot of time and make Suisui’s rotations much faster. The Dash cancel is optional and saves only a few frames, so you can refrain from doing it if you’re not comfortable with timing it nearly perfectly.",
+      "assets": []
+    },
+    {
+      "id": "synergies-57",
       "level": 2,
       "heading": "Synergies",
-      "text": "Suisui synergies are currently missing.",
-      "assets": []
+      "text": "Yangyang Xuanling Hiyuki Aemeath - Suisui is the best Support for 2 of the best Negative Status damage dealers in the game right now, Yangyang: Xuanling and Hiyuki, as they are the only 2 capable of taking full advantage of her buffs. Still, Aemeath in her Fusion Burst team can take good leverage out of the majority of her buffs, making Suisui a viable alternative to another one of the strongest Negative Status teams in the game.",
+      "assets": [
+        {
+          "id": "2313f26b8992",
+          "sourceHash": "2313f26b8992",
+          "kind": "characters",
+          "name": "Yangyang Xuanling",
+          "fileStem": "yangyang-xuanling-icon",
+          "path": "Prydwen/ww/assets/characters/yangyang-xuanling-2313f26b8992.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "5bd44ca9e74f",
+          "sourceHash": "5bd44ca9e74f",
+          "kind": "characters",
+          "name": "Hiyuki",
+          "fileStem": "hiyuki-icon",
+          "path": "Prydwen/ww/assets/characters/hiyuki-5bd44ca9e74f.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "b929007b8f8a",
+          "sourceHash": "b929007b8f8a",
+          "kind": "characters",
+          "name": "Aemeath",
+          "fileStem": "aemeath-icon",
+          "path": "Prydwen/ww/assets/characters/aemeath-b929007b8f8a.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
     },
     {
-      "id": "example-teams-22",
+      "id": "example-teams-58",
       "level": 2,
       "heading": "Example Teams",
-      "text": "Suisui teams are currently missing.\n\n Calculations",
-      "assets": []
+      "text": "Best Team\n\n Phrolova may display the strongest results in Whimpering Wastes.\n\n Hiyuki Team\n\n Aemeath Team\n\n Calculations",
+      "assets": [
+        {
+          "id": "2313f26b8992",
+          "sourceHash": "2313f26b8992",
+          "kind": "characters",
+          "name": "Yangyang Xuanling",
+          "fileStem": "yangyang-xuanling-icon",
+          "path": "Prydwen/ww/assets/characters/yangyang-xuanling-2313f26b8992.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "0e96075575d8",
+          "sourceHash": "0e96075575d8",
+          "kind": "characters",
+          "name": "Chisa",
+          "fileStem": "chisa-icon",
+          "path": "Prydwen/ww/assets/characters/chisa-0e96075575d8.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "59d02501284b",
+          "sourceHash": "59d02501284b",
+          "kind": "characters",
+          "name": "Rebecca",
+          "fileStem": "rebecca-icon",
+          "path": "Prydwen/ww/assets/characters/rebecca-59d02501284b.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "8367f1df0e13",
+          "sourceHash": "8367f1df0e13",
+          "kind": "characters",
+          "name": "Phrolova",
+          "fileStem": "phrolova-icon",
+          "path": "Prydwen/ww/assets/characters/phrolova-8367f1df0e13.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "e13ca9eeaf47",
+          "sourceHash": "e13ca9eeaf47",
+          "kind": "characters",
+          "name": "Suisui",
+          "fileStem": "suisui-icon",
+          "path": "Prydwen/ww/assets/characters/suisui-e13ca9eeaf47.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "5bd44ca9e74f",
+          "sourceHash": "5bd44ca9e74f",
+          "kind": "characters",
+          "name": "Hiyuki",
+          "fileStem": "hiyuki-icon",
+          "path": "Prydwen/ww/assets/characters/hiyuki-5bd44ca9e74f.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "ddae26999871",
+          "sourceHash": "ddae26999871",
+          "kind": "characters",
+          "name": "Lucilla",
+          "fileStem": "lucilla-icon",
+          "path": "Prydwen/ww/assets/characters/lucilla-ddae26999871.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "e366b96f341c",
+          "sourceHash": "e366b96f341c",
+          "kind": "characters",
+          "name": "Lynae",
+          "fileStem": "lynae-icon",
+          "path": "Prydwen/ww/assets/characters/lynae-e366b96f341c.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "b929007b8f8a",
+          "sourceHash": "b929007b8f8a",
+          "kind": "characters",
+          "name": "Aemeath",
+          "fileStem": "aemeath-icon",
+          "path": "Prydwen/ww/assets/characters/aemeath-b929007b8f8a.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "146670ce7114",
+          "sourceHash": "146670ce7114",
+          "kind": "characters",
+          "name": "Denia",
+          "fileStem": "denia-icon",
+          "path": "Prydwen/ww/assets/characters/denia-146670ce7114.webp",
+          "width": 120,
+          "height": 120
+        }
+      ]
     }
   ],
   "recommendations": {
@@ -230,7 +849,124 @@
       "sections": [
         {
           "heading": "Stats",
-          "text": "Suisui stats aren't available yet.",
+          "text": "Include minor fortes\n\n Lv. 90\n\n Stats data not available for this character.",
+          "assets": []
+        },
+        {
+          "heading": "Best Echo Stats",
+          "text": "4 cost\n CRIT DMG\n\n 3 cost\n Energy Regen\n\n 3 cost\n Energy Regen / HP%\n\n 1 cost\n HP%\n\n 1 cost\n HP%\n\n Substats: Energy Regen (Until 260%) > CRIT DMG > HP% > CRIT Rate > Basic DMG% > HP\n\n HP% main stat on slot 3 can only be done with a 5-star high Energy Regen weapon and high substat rolls - not achievable for most people. Double Energy Regen main stat is always fine to stick to.",
+          "assets": []
+        }
+      ]
+    },
+    "best-weapons": {
+      "label": "Best Weapons",
+      "sections": [
+        {
+          "heading": "Best Weapons",
+          "text": "The percentages show the performance of the weapon based on calculations , but in some cases, some weapons might provide additional QOL that can't be quantified and it would push that weapon ahead of others in the priority (and in those cases, we would put that weapon higher).\n\n 1\n\n Firstlight's Herald (R 1 )\n\n Suisui's best in slot Signature weapon grants the whole team a 20% ATK buff, decent increase to the party's overall damage output, as well as a lot of Energy Regen which she needs to access her full buffs.\n 2\n\n Stellar Symphony (R 1 )\n\n Shorekeeper's Signature weapon provides Suisui with enough Energy Regen to easily max out her passives, but otherwise is quite redundant on her since the team-wide ATK-increasing passive doesn't get activated.\n 3\n\n Variation (R 5 )\n\n Best overall weapon in terms of cost-efficiency, provides Suisui with the Concerto and Energy Regen needed to have her operate at a baseline while sacrificing minimal team damage and remaining accessible at a low cost.\n 4\n\n Call of the Abyss (R 5 )\n\n Last resort option if Suisui has none of the options above available to her. Grants the same Energy Regen stats with a bit of Healing Bonus instead of Concerto Energy - not ideal as it slows down her rotations significantly, but acceptable until one of the options above can be accessed.",
+          "assets": [
+            {
+              "id": "10285822b594",
+              "sourceHash": "10285822b594",
+              "kind": "weapons",
+              "name": "Firstlight's Herald",
+              "fileStem": "21050096",
+              "path": "Prydwen/ww/assets/weapons/firstlights-herald-10285822b594.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "f94d1c67d9b4",
+              "sourceHash": "f94d1c67d9b4",
+              "kind": "weapons",
+              "name": "Stellar Symphony",
+              "fileStem": "21050036",
+              "path": "Prydwen/ww/assets/weapons/stellar-symphony-f94d1c67d9b4.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "c544c5292f1e",
+              "sourceHash": "c544c5292f1e",
+              "kind": "weapons",
+              "name": "Variation",
+              "fileStem": "21050024",
+              "path": "Prydwen/ww/assets/weapons/variation-c544c5292f1e.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "d250c07a3d25",
+              "sourceHash": "d250c07a3d25",
+              "kind": "weapons",
+              "name": "Call of the Abyss",
+              "fileStem": "21050017",
+              "path": "Prydwen/ww/assets/weapons/call-of-the-abyss-d250c07a3d25.webp",
+              "width": 60,
+              "height": 60
+            }
+          ]
+        }
+      ]
+    },
+    "best-echo-sets": {
+      "label": "Best Echo Sets",
+      "sections": [
+        {
+          "heading": "Best Echo Sets",
+          "text": "1\n\nSong of Feathered Trace\n\n Allows Suisui to buff the whole team's ATK by 25% constantly thanks to her Glacio Chafe application and Energy Regen scaling. Best overall set as it gives the best uptime on the ATK buff.\n Below you can find Main Echo options:\n - Gives Suisui 10% Healing Bonus when equipped in the main slot. Simple Summon Echo that deals a tiny bit of damage in spite of its lackluster stat increase (provides a tiny bit more healing but generally not important).\n\n 2\n\nRejuvenating Glow\n\n Offers a 10% unconditional Healing% boost and an most importantly a 15% ATK% boost for the entire team, lasting 30 seconds whenever you heal yourself or any of your allies. This bonus is easy to keep active 100% of the time and is a good party-wide damage increase.\n Below you can find Main Echo options:\n\n Fallacy of No Return\n\n - Allows Rejuvenating Glow to provide as many total buffs as Song of Feathered Trace on cast, giving an extra 10% ATK to the team and an extra 10% Energy Regen to the wearer. It can easily be summoned before Suisui's Outro to have roughly the same effects as Suisui's Signature set, however the buffs will have lower uptime in longer team rotations which can make this set situationally worse (but by very small margins).",
+          "assets": [
+            {
+              "id": "fb383356cac2",
+              "sourceHash": "fb383356cac2",
+              "kind": "echoes",
+              "name": "Set",
+              "fileStem": "song-of-feathered-trace",
+              "path": "Prydwen/ww/assets/echoes/song-of-feathered-trace-fb383356cac2.webp",
+              "width": 50,
+              "height": 50
+            },
+            {
+              "id": "9116b6b3061f",
+              "sourceHash": "9116b6b3061f",
+              "kind": "icons",
+              "name": "Set",
+              "fileStem": "set-7",
+              "path": "Prydwen/ww/assets/icons/set-7-9116b6b3061f.webp",
+              "width": 50,
+              "height": 50
+            },
+            {
+              "id": "963f47d9c985",
+              "sourceHash": "963f47d9c985",
+              "kind": "misc",
+              "name": "Fallacy of No Return",
+              "fileStem": "6000060",
+              "path": "Prydwen/ww/assets/misc/fallacy-of-no-return-963f47d9c985.webp",
+              "width": 35,
+              "height": 35
+            }
+          ]
+        }
+      ]
+    },
+    "best-endgame-stats": {
+      "label": "Best Endgame Stats",
+      "sections": [
+        {
+          "heading": "Best Endgame Stats (Level 90)",
+          "text": "All recommended endgame stats portray a fairly good quality endgame build as a goal to aim for on most characters. However, don’t treat this as an end-all-be-all, and more of a suggestion.\n All stat recommendations are given at S0 for 5-stars, S6 for 4-stars, and free characters (unless specified otherwise), based on total stats in the in-game stat-screen with the character out of combat but also active in the party (and hence some buffs may or may not apply). Any other precision may be directly specified. If not specified, Energy Regen requirements are estimated in the character’s best team.\n Keep in mind that even when optimized, Suisui deals very low personal damage, meaning investing in her damage is fully skippable. Energy Regen requirements are by far the most important stat shown.\n HP: 35000-40000+\n\n DEF: 1100+\n\n ATK: 1100-1200+\n\n CRIT Rate: 20%+\n\n CRIT DMG: 250%+\n\n Energy Regen: 260%\n This is the amount of Energy Regen that is required to get the maximum potential out of Suisui’s buffs.\n\n Glacio DMG Bonus: 0%+",
+          "assets": []
+        }
+      ]
+    },
+    "skill-priority": {
+      "label": "Skill Priority",
+      "sections": [
+        {
+          "heading": "Skill Priority",
+          "text": "Below you can find the order of leveling the abilities for Suisui .\n Intro Skill\n\n Forte Circuit\n\n Res. Skill\n\n Res. Liberation\n\n Basic Attack\n\n Anything but Intro can be skipped when levelling to save out on resources at a minimal damage loss.\n\n Gameplay and teams",
           "assets": []
         }
       ]
@@ -239,8 +975,18 @@
       "label": "Rotation",
       "sections": [
         {
-          "heading": "Rotation",
-          "text": "Suisui rotation information aren't available yet.",
+          "heading": "Rotation & Gameplay",
+          "text": "Suisui’s rotation focuses on her accumulating Floral Epistle as quickly as possible before accessing her Outro. To do this, simply rotate like so depending on if an Intro is available or not:",
+          "assets": []
+        },
+        {
+          "heading": "Opener Rotation",
+          "text": "Used when an Intro is not readily available for Suisui to use, typically once per fight.\n Basic: Zephyr 1\n\n Basic: Zephyr 2\n\n Basic: Zephyr 3\n\n Skill: Awakening Spring\n\n Basic: Swallow's Cut\n\n Basic: Drizzle 1\n\n Basic: Drizzle 2\n\n Basic: Drizzle 3\n\n Basic: Drizzle 4 (Cancel animation endlag via Ultimate)\n\n Ultimate\n\n Outro",
+          "assets": []
+        },
+        {
+          "heading": "Loop Rotation",
+          "text": "Used whenever an Intro is available\n Intro\n\n Skill: Drizzle (Cancel animation via Dash on 1st hit)\n\n Dash\n\n Basic: Drizzle 1\n\n Basic: Drizzle 2\n\n Basic: Drizzle 3\n\n Basic: Drizzle 4 (Cancel animation endlag via Ultimate)\n\n Ultimate\n\n Outro\n\n At S3 and above, simply skip from Skill: Drizzle right into Basic: Drizzle 4 to save a lot of time and make Suisui’s rotations much faster. The Dash cancel is optional and saves only a few frames, so you can refrain from doing it if you’re not comfortable with timing it nearly perfectly.",
           "assets": []
         }
       ]
@@ -250,8 +996,39 @@
       "sections": [
         {
           "heading": "Synergies",
-          "text": "Suisui synergies are currently missing.",
-          "assets": []
+          "text": "Yangyang Xuanling Hiyuki Aemeath - Suisui is the best Support for 2 of the best Negative Status damage dealers in the game right now, Yangyang: Xuanling and Hiyuki, as they are the only 2 capable of taking full advantage of her buffs. Still, Aemeath in her Fusion Burst team can take good leverage out of the majority of her buffs, making Suisui a viable alternative to another one of the strongest Negative Status teams in the game.",
+          "assets": [
+            {
+              "id": "2313f26b8992",
+              "sourceHash": "2313f26b8992",
+              "kind": "characters",
+              "name": "Yangyang Xuanling",
+              "fileStem": "yangyang-xuanling-icon",
+              "path": "Prydwen/ww/assets/characters/yangyang-xuanling-2313f26b8992.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "5bd44ca9e74f",
+              "sourceHash": "5bd44ca9e74f",
+              "kind": "characters",
+              "name": "Hiyuki",
+              "fileStem": "hiyuki-icon",
+              "path": "Prydwen/ww/assets/characters/hiyuki-5bd44ca9e74f.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "b929007b8f8a",
+              "sourceHash": "b929007b8f8a",
+              "kind": "characters",
+              "name": "Aemeath",
+              "fileStem": "aemeath-icon",
+              "path": "Prydwen/ww/assets/characters/aemeath-b929007b8f8a.webp",
+              "width": 60,
+              "height": 60
+            }
+          ]
         }
       ]
     },
@@ -260,12 +1037,113 @@
       "sections": [
         {
           "heading": "Example Teams",
-          "text": "Suisui teams are currently missing.\n\n Calculations",
-          "assets": []
+          "text": "Best Team\n\n Phrolova may display the strongest results in Whimpering Wastes.\n\n Hiyuki Team\n\n Aemeath Team\n\n Calculations",
+          "assets": [
+            {
+              "id": "2313f26b8992",
+              "sourceHash": "2313f26b8992",
+              "kind": "characters",
+              "name": "Yangyang Xuanling",
+              "fileStem": "yangyang-xuanling-icon",
+              "path": "Prydwen/ww/assets/characters/yangyang-xuanling-2313f26b8992.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "0e96075575d8",
+              "sourceHash": "0e96075575d8",
+              "kind": "characters",
+              "name": "Chisa",
+              "fileStem": "chisa-icon",
+              "path": "Prydwen/ww/assets/characters/chisa-0e96075575d8.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "59d02501284b",
+              "sourceHash": "59d02501284b",
+              "kind": "characters",
+              "name": "Rebecca",
+              "fileStem": "rebecca-icon",
+              "path": "Prydwen/ww/assets/characters/rebecca-59d02501284b.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "8367f1df0e13",
+              "sourceHash": "8367f1df0e13",
+              "kind": "characters",
+              "name": "Phrolova",
+              "fileStem": "phrolova-icon",
+              "path": "Prydwen/ww/assets/characters/phrolova-8367f1df0e13.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "e13ca9eeaf47",
+              "sourceHash": "e13ca9eeaf47",
+              "kind": "characters",
+              "name": "Suisui",
+              "fileStem": "suisui-icon",
+              "path": "Prydwen/ww/assets/characters/suisui-e13ca9eeaf47.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "5bd44ca9e74f",
+              "sourceHash": "5bd44ca9e74f",
+              "kind": "characters",
+              "name": "Hiyuki",
+              "fileStem": "hiyuki-icon",
+              "path": "Prydwen/ww/assets/characters/hiyuki-5bd44ca9e74f.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "ddae26999871",
+              "sourceHash": "ddae26999871",
+              "kind": "characters",
+              "name": "Lucilla",
+              "fileStem": "lucilla-icon",
+              "path": "Prydwen/ww/assets/characters/lucilla-ddae26999871.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "e366b96f341c",
+              "sourceHash": "e366b96f341c",
+              "kind": "characters",
+              "name": "Lynae",
+              "fileStem": "lynae-icon",
+              "path": "Prydwen/ww/assets/characters/lynae-e366b96f341c.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "b929007b8f8a",
+              "sourceHash": "b929007b8f8a",
+              "kind": "characters",
+              "name": "Aemeath",
+              "fileStem": "aemeath-icon",
+              "path": "Prydwen/ww/assets/characters/aemeath-b929007b8f8a.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "146670ce7114",
+              "sourceHash": "146670ce7114",
+              "kind": "characters",
+              "name": "Denia",
+              "fileStem": "denia-icon",
+              "path": "Prydwen/ww/assets/characters/denia-146670ce7114.webp",
+              "width": 120,
+              "height": 120
+            }
+          ]
         }
       ]
     }
   },
   "tables": [],
-  "text": "Suisui Best Build Guide | Wuthering Waves (WuWa)\n \n\n Wuthering Waves\n Home Database Characters Weapons Echoes Banners\n Tier Lists Tier List Team Tier List Value Tier List\n Guides Guides\n Resources Map News\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Wuthering Waves\n /\n Characters\n /\n Suisui\n Suisui Best Build Guide\n Last updated: 18/June/2026\n\n Introduction\n Best guide and build for Suisui from WW (Wuthering Waves). Suisui is a 5 ★ rarity character from the Glacio element who uses the Rectifier type weapon.\n\n To learn more about Suisui check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Video guide\n This character has no video guide yet.\n\n To learn more about Suisui check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Kit\n\n Review\n\n Build\n\n Gameplay and teams\n\n Calculations\n\n Profile\n\n Skills\n Suisui skills aren't available yet. They will be added soon!\n\n Resonance Chain (Dupes)\n Suisui dupes information aren't available yet. They will be added soon!\n\n Minor Fortes (Total)\n Suisui Minor Fortes information aren't available yet.\n\n Stats\n Suisui stats aren't available yet.\n\n Upgrade Materials\n Suisui upgrade material information aren't available yet.\n\n Voice Actors\n ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -\n\n Gallery\n\n Review\n\n Ratings\n Please keep in mind Wuthering Waves is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Wuthering Waves is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.\n\n Suisui ratings aren't available yet.\n\n Pros & Cons\n Suisui pros & cons aren't available yet.\n\n Review\n Suisui mini-review isn't available yet.\n\n Video guides\n Suisui guide videos aren't available yet.\n\n Build\n\n Best build\n Suisui build information aren't available yet.\n\n Gameplay and teams\n\n Rotation\n Suisui rotation information aren't available yet.\n\n Synergies\n Suisui synergies are currently missing.\n\n Example Teams\n Suisui teams are currently missing.\n\n Calculations"
+  "text": "Suisui Best Build Guide | Wuthering Waves (WuWa)\n \n\n Wuthering Waves\n Home Database Characters Weapons Echoes Banners\n Tier Lists Tier List Team Tier List Value Tier List\n Guides Guides\n Resources Map News\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Wuthering Waves\n /\n Characters\n /\n Suisui\n Suisui Best Build Guide\n Last updated: 01/August/2026\n\n Introduction\n Best guide and build for Suisui from WW (Wuthering Waves). Suisui is a 5 ★ rarity character from the Glacio element who uses the Rectifier type weapon.\n\n To learn more about Suisui check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Video guide\n Suisui has at least one video guide available:\n\n Update tracker\n Last review update\n Patch 3.5\n\n Last major build/calcs update\n Patch 3.5\n\n Last profile update*\n 01/August/2026\n\n *Profile update means smaller edits to echoes, stats, synergies or teams that don't require new calculations.\n To learn more about Suisui check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Kit\n\n Review\n\n Build\n\n Gameplay and teams\n\n Calculations\n\n Profile\n\n Skills\n Active skills\n Passive skills\n Concerto skills\n\n Basic Attack\n Unraveled Spring\n\n Basic Attack - Zephyr Stance\n Press repeatedly or hold Normal Attack to perform up to 4 consecutive attacks, dealing Glacio DMG and restoring Cloud Breath on hit.\n\n Mid-air Attack - Zephyr Stance\n Consume STA to perform Plunging Attack, dealing Glacio DMG .\n\n Dodge Counter - Zephyr Stance\n Press Normal Attack shortly after a successful Dodge to attack the target, dealing Glacio DMG and restoring Cloud Breath on hit.\n\n Press Normal Attack shortly after casting this skill to perform Basic Attack - Zephyr Stance Stage 4.\n\n Multipliers\n\n Resonance Skill\n Vernal Screen\n\n Resonance Skill - Zephyr Stance\n While in Zephyr Stance and Cloud Breath is not full, press Resonance Skill to have Suisui thrust forward, dealing Glacio DMG . If Suisui is the active Resonator while casting the skill, restore Cloud Breath.\n\n Can be cast in mid-air close to the ground.\n\n This skill shares a Cooldown with Resonance Skill - Drizzle Stance.\n\n Awakening Spring\n While in Zephyr Stance and at full Cloud Breath, Resonance Skill - Zephyr Stance is replaced with Awakening Spring. Casting this skill consumes all Cloud Breath, pulls in nearby targets, and sends Suisui into Drizzle Stance, dealing Glacio DMG and inflicting Glacio Chafe on the target 1 time on hit.\n\n Enrichment\n Casting Awakening Spring or Intro Skill - Tinkling Jade grants all nearby Resonators in the team 1 stack of Enrichment. This effect can be triggered once every 25s . Incoming Resonators receive healing from Suisui at the cost of Enrichment.\n\n Resonance Skill - Drizzle Stance\n While in Drizzle Stance, Resonance Skill - Zephyr Stance is replaced with Resonance Skill - Drizzle Stance.\n\n Press Resonance Skill to have Suisui thrust forward, dealing Glacio DMG . If Suisui is the active Resonator while casting the skill, restore Floral Epistle.\n\n Can be cast in mid-air close to the ground.\n\n This skill shares a Cooldown with Resonance Skill - Zephyr Stance.\n\n Multipliers\n\n Resonance Liberation\n Song of Thoroughfare\n\n Casting the skill deploys Ceaseless Landscape that lasts for 30s . When Ceaseless Landscape is active, Suisui enters the Roaming Transcendent state when casting Outro Skill - Rippling Waters.\n Ceaseless Landscape grants all nearby Resonators in the team the following enhancements:\n Inflicting a target with Spectro Frazzle , Fusion Burst , Glacio Chafe , and Aero Erosion , or dealing the corresponding Negative Status DMG increases the max stack limit of the corresponding Negative Status the target can receive by 3 for 15s . This effect does not stack.\n\n Inflicting a target with Electro Flare or dealing the corresponding Negative Status DMG increases the max stack limits of Electro Flare and Electro Rage the target can receive by 3 for 15s . This effect does not stack.\n\n Consuming Havoc Bane stacks on the target after landing a skill allows the Resonator's Havoc DMG to ignore the target's DEF by 6% and Havoc RES by 12% for 30s . This effect does not stack.\n\n Can be cast in mid-air close to the ground.\n\n Multipliers\n\n Forte Circuit\n Lambent Gold\n\n Zephyr Stance\n Suisui is in Zephyr Stance by default. When in Zephyr Stance, Suisui can obtain Cloud Breath through certain skills.\n\n Drizzle Stance\n Entering Drizzle Stance clears all Floral Epistle.\nDuring Drizzle Stance:\n Suisui unlocks new combat moves and restores Floral Epistle through certain skills.\n\n Suisui gains increased resistance to interruption.\n\n Press Normal Attack within a certain time after triggering a successful Dodge via Dodge skills to cast Basic Attack - Drizzle Stance Stage 1.\n\n After entering Drizzle Stance for 15s , Suisui ends Drizzle Stance and clears all Floral Epistle upon exiting the state.\n\n Dodge - Parting Mist\n While performing attacks on the ground, press Dodge to cast Dodge - Parting Mist at the cost of STA.\n\n When in Zephyr Stance, triggering a successful Dodge while casting Dodge - Parting Mist restores Cloud Breath. Press Normal Attack shortly after triggering the Dodge to cast Dodge Counter - Zephyr Stance.\n When in Drizzle Stance, triggering a successful Dodge while casting Dodge - Parting Mist restores Floral Epistle, and does not reset the cycle of Basic Attack - Drizzle Stance within a certain period.\n\n Basic Attack - Drizzle Stance\n When in Drizzle Stance, Basic Attack - Zephyr Stance is replaced with Basic Attack - Drizzle Stance.\n\n Press Normal Attack repeatedly to perform up to 4 consecutive attacks, dealing Glacio DMG and restoring Floral Epistle on hit.\n\n When casting Basic Attack - Drizzle Stance Stage 3, continuously pull in nearby targets.\n\n Basic Attack - Drizzle Stance Stage 4 inflicts Glacio Chafe 1 time on the target on hit.\n\n Heavy Attack - Drizzle Stance\n Consume STA to attack the target, dealing Glacio DMG and restoring Floral Epistle on hit.\n\n Illuminating Dew\n When in Drizzle Stance, keep holding Normal Attack after casting Heavy Attack - Drizzle Stance to cast this skill.\n\n Consume STA to perform Plunging Attack, dealing Glacio DMG .\n\n Swallow's Cut\n When in Drizzle Stance, cast this skill in one of the following ways:\n Release the Normal Attack button while casting Heavy Attack - Drizzle Stance.\n\n Press Normal Attack while Suisui is mid-air.\n\n Consume STA to perform Plunging Attack, dealing Glacio DMG .\n\n Cloud Breath\n Max 120 points.\n\n When in Zephyr Stance:\n Basic Attack - Zephyr Stance and Dodge Counter - Zephyr Stance restore Cloud Breath on hit.\n\n Casting Resonance Skill - Zephyr Stance restores 40 points of Cloud Breath when Suisui is the active Resonator in the team.\n\n Triggering a successful Dodge while casting Dodge - Parting Mist restores 35 points of Cloud Breath.\n\n Floral Epistle\n Max 600 points.\n\n When in Drizzle Stance:\n Basic Attack - Drizzle Stance and Heavy Attack - Drizzle Stance restore Floral Epistle on hit.\n\n Casting Resonance Skill - Drizzle Stance restores 100 points of Floral Epistle when Suisui is the active Resonator in the team.\n\n Triggering a successful Dodge while casting Dodge - Parting Mist restores 102 points of Floral Epistle.\n\n Multipliers\n\n Forte Circuit\n Tune Break: Rectifier\n\n When the target's Off-Tune Level is full, the Resonator may cast Tune Break on the target.\n\n Inherent Skill\n Sky Over Water\n\n Consuming Enrichment grants the Resonator 10 stacks of Spring's Birth, up to 10 stacks. When the Resonator with Spring's Birth is not at full HP, restore their HP by 62 + 0.34% of Suisui's Max HP at the cost of 1 stack of Spring's Birth every 2s .\n When Resonance Skill - Awakening Spring and Intro Skill - Tinkling Jade hit a target, they additionally restore 18 points of Concerto Energy and 13 points of Resonance Energy, and increase the attack's Crit. Rate by 80% and Glacio DMG by 240% . This effect can be triggered up to once every 25s .\n\n Inherent Skill\n Glimmering Gold\n\n When a Resonator other than Suisui takes a fatal blow, they will not be knocked out but will instead regain 50% of Suisui's current HP, while Suisui herself loses the same amount of HP. Suisui's HP will not go below 1 from this effect. This effect can be triggered once every 10 minutes.\n\n Intro Skill\n Tinkling Jade\n\n Attack the target, dealing Glacio DMG , and inflict Glacio Chafe 1 time on the target.\n While casting this skill, consume all Cloud Breath to pull in nearby targets and enter Drizzle Stance.\n\n Multipliers\n\n Outro Skill\n Rippling Waters\n\n Resonators in the team gain 25% All DMG Amplification for 30s .\n Suisui enters Roaming Transcendent when Ceaseless Landscape is active.\n Suisui exits Drizzle Stance and consumes all Floral Epistle and unlocks the following effects based on the amount of Floral Epistle consumed:\n 0 Floral Epistle consumed:\n All nearby Resonators in the team gain Reflecting Shadows for 6s . Resonators with Reflecting Shadows have increased resistance to interruption.\n\n At least 200 Floral Epistle consumed:\n If Ceaseless Landscape is active, Suisui may perform Plume Step for the first time within a certain time into her Transcendent Dance while in Roaming Transcendent.\n\n At least 400 Floral Epistle consumed:\n During this Roaming Transcendent state, the active Resonator within the Ceaseless Landscape deals more DMG if they have Reflecting Shadows. For every 1% of Suisui's Energy Regen over 200% , the Resonator deals 0.2% more DMG, up to 12% .\n\n If Ceaseless Landscape is active, Suisui may perform the second Plume Step within a certain time into her Transcendent Dance while in Roaming Transcendent.\n\n At least 600 Floral Epistle consumed:\n When Suisui performs the first Plume Step, all nearby active Resonators in the team within the Ceaseless Landscape gain the following effects for the duration of this Roaming Transcendent:\n When they cast Outro Skill, Suisui grants the incoming Resonator Undulating Mist. When Resonators with Undulating Mist consume Negative Status or Electro Rage stacks on the target, they gain an ATK increase: For every 0.12% of Suisui's Energy Regen over 200% , the Resonator's ATK is increased by 0.1% for 6s , up to 50% . Undulating Mist lasts for 14s or until the Resonator is switched off the field. When Undulating Mist is removed, the ATK increase effect is also removed.\n\n If Ceaseless Landscape is active, Suisui may perform the third Plume Step within a certain time into her Transcendent Dance while in Roaming Transcendent.\n\n Roaming Transcendent\n Lasts for 30s .\n\n During Roaming Transcendent, Suisui will merge with Ceaseless Landscape and start a Transcendent Dance, during which she will perform Plume Steps at intervals based on the amount of Floral Epistle consumed when Outro Skill - Rippling Waters is cast.\n\n When Suisui is the active Resonator in the team, she stops the Transcendent Dance.\n\n When Ceaseless Landscape isn't active, she will exit the Roaming Transcendent state.\n\n Plume Step\n Performing Plume Step grants Reflecting Shadows to all nearby Resonators in the team for 6s , inflicts 1 stack of Glacio Chafe on all enemies within the Ceaseless Landscape, and heals the nearby active Resonators in the team within the Ceaseless Landscape.\n\n Resonance Chain (Dupes)\n S 1\n Mountains Washed Into Paintings\n\n Resonators with Undulating Mist also gain ATK increase after inflicting Negative Status or dealing Negative Status DMG.\n The duration of Reflecting Shadows obtained through the third Plume Step is extended by 100% .\n Basic Attack - Drizzle Stance, Heavy Attack - Drizzle Stance, Plunging Attack - Illuminating Dew and Plunging Attack - Swallow's Cut are immune to interruption.\n\n S 2\n Clouds Pour Like Molten Gold\n\n All nearby Resonators in the team within the Ceaseless Landscape have their Crit. DMG increased by 50% for 30s after performing the following actions:\n Inflicting Spectro Frazzle , Fusion Burst , Glacio Chafe , Aero Erosion , and Electro Flare , or dealing the corresponding Negative Status DMG.\n\n Consuming Havoc Bane stacks on the target.\n\n When the active Resonator is not in the Ceaseless Landscape, this Crit. DMG bonus effect is disabled.\n\n S 3\n Sparse Curtains Invite Evening Glow\n\n Press Normal Attack shortly after casting Resonance Skill - Drizzle Stance to cast Basic Attack - Drizzle Stance Stage 4.\n Casting Resonance Skill - Drizzle Stance grants Kingfisher. Switching to another Resonator ends this effect. Casting Basic Attack - Drizzle Stance Stage 4 consumes Kingfisher to restore 20 points of Concerto Energy and 350 points of Floral Epistle. Kingfisher can be consumed up to once every 25s .\n\n S 4\n Autumn Mountains in Choir Sing\n\n Healing provided by Enrichment and Spring's Birth are increased by 50% .\n\n S 5\n I Long To Ride The Eastern Wind\n\n The DMG Multipliers of Basic Attack - Drizzle Stance and Heavy Attack - Drizzle Stance are increased by 100% .\n\n S 6\n Staying True To This Splendid Realm\n\n The Crit. DMG of Intro Skill - Tinkling Jade and Resonance Skill - Awakening Spring is increased by 500% .\n\n Minor Fortes (Total)\n + 12 %\n\n HP%\n + 12 %\n\n Stats\n\nInclude minor fortes\n\n Lv. 90\n\n Stats data not available for this character.\n\n Upgrade Materials\n Suisui upgrade material information aren't available yet.\n\n Voice Actors\n ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -\n\n Gallery\n\n Review\n\n Ratings\n Please keep in mind Wuthering Waves is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Wuthering Waves is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.\n\n Support\n T0\n Tower of Adversity\n\n T0.5\n Whimpering Wastes\n\n Value Tier List\n Support\n T0\n Tower of Adversity (Value)\n\n T0.5\n Whimpering Wastes (Value)\n\n Pros & Cons\n Pros\n The best Support for a ton of Negative Status characters, a currently really strong meta archetype;\n\n Easy rotation, almost no complexity to it;\n\n Built-in grouping for multi-wave content;\n\n F2P-friendly, fully operational at S0R0 (Variation is a perfectly fine replacement for her Signature Rectifier, like a lot of other supports).\n\n Cons\n Full buffs only activate under the extremely specific condition of direct Negative Status consumption, making it difficult to increase her team flexibility, as even if her S1 tries to accomplish that, it doesn’t really help her in practice;\n\n Very low headroom for Quickswap if not nonexistent. Needs an Intro to get her rotation started quickly, wants to stay on field to do full attack chains, some of her buffs expire on swap and take a while to be able to take effect;\n\n Low sequence value in general, one of the lowest in the modern era, basically no room for vertical investment.\n\n Review\n Review\n Suisui is a 5-star Glacio Rectifier Support whose primary role is to buff Negative Status consumers in various ways (currently, that scope extends to a few fairly obvious synergies that characterize her meta niche). She’s akin to a Mornye-type healer/buffer Support with low personal damage and a decently fast rotation with specific use cases for certain team archetypes.\n Key Mechanics\n Suisui has 2 stances she can alternate between throughout her rotation: Zephyr and Drizzle. However, the Zephyr stance will only really be used in her Opener rotation, since Intro makes her immediately start in Drizzle.\n Each stance has its own unique set of attacks and Forte gauges. The Zephyr stance, when full, allows you to cast a special Skill to switch to Drizzle stance (useful without an Intro available). Meanwhile, the Drizzle stance allows you to build up several buffs by filling up Suisui’s Forte bar with Floral Epistle points that she consumes upon casting her Outro.\n Suisui’s typical rotation has you hence entering Drizzle stance as quickly as possible (either via Zephyr form basics into Skill or via her Intro directly), to then fill up her Floral Epistle gauge to deploy her full buffs upon casting her Outro. However, her Ultimate serves as an additional buffing tool that she will definitely want to deploy every rotation, considering it allows her to increase the stack cap of all Negative Statuses but Havoc Bane by 3 (almost exactly like Chisa), while consuming Havoc Bane gives a small DEF Ignore and Havoc RES Shred boost.\n Who Does She Buff & How?\n Suisui’s buffs are largely concentrated in her Outro and Ultimate. However, her Echo Set and Signature weapon all contribute to the buffing total as well for the following array of buffs:\n For any Negative Status but Havoc Bane: Stack cap increased by 3;\n\n For Havoc Bane consumers: 6% DEF Ignore, 12% Havoc RES Shred;\n\n 12% general DMG Bonus and 25% general DMG Amplification on Outro;\n\n 50% ATK for Negative Status-consuming Hypercarries via her Outro effects (this expires on swap);\n\n Throughout attacks in her kit: 5 total stacks of Glacio Chafe application per rotation;\n\n 25% ATK and an extra 20% via her Echo Set and Signature weapon if owned.\n\n As you can tell, that makes for some pretty massive buffs for Negative Status consumers, and right now we have two such characters: Hiyuki and Yangyang: Xuanling.\n Meta Position & Conclusion\n Suisui is quite the restrictive buffer in the sense that she requires characters on her team to consume Negative Statuses to use the full extent of her buffs; particularly a Hypercarry DPS is ideal for this. However, only a 50% ATK buff is specifically locked behind Negative Status consumption, and overall this buff can be forfeited in the one other team Suisui is a good replacement for: Aemeath Fusion Burst.\n Suisui is generally quite a good pull for Negative Status characters, particularly Hiyuki and Yangyang: Xuanling since she applies Glacio Chafe for Hiyuki and she gives specialized Havoc Bane buffs for Yangyang. While she can generally be used for Negative Status teams, her 2 niches are carved out for her, and she’s best in slot in 2 of the strongest meta teams right now, making her quite the strong meta contender.\n In conclusion, Suisui’s buff conditions may be quite strict, but in spite of them she proves quite generally useful for Negative Status teams at large and serves as a much-needed replacement to Chisa in 2 important meta teams as well as the final touch needed to complete Yangyang: Xuanling’s best team, earning her a top meta spot as of her release.\n\n Video guides\n\n Build\n\n Best Weapons\n The percentages show the performance of the weapon based on calculations , but in some cases, some weapons might provide additional QOL that can't be quantified and it would push that weapon ahead of others in the priority (and in those cases, we would put that weapon higher).\n\n 1\n\n Firstlight's Herald (R 1 )\n\n Suisui's best in slot Signature weapon grants the whole team a 20% ATK buff, decent increase to the party's overall damage output, as well as a lot of Energy Regen which she needs to access her full buffs.\n 2\n\n Stellar Symphony (R 1 )\n\n Shorekeeper's Signature weapon provides Suisui with enough Energy Regen to easily max out her passives, but otherwise is quite redundant on her since the team-wide ATK-increasing passive doesn't get activated.\n 3\n\n Variation (R 5 )\n\n Best overall weapon in terms of cost-efficiency, provides Suisui with the Concerto and Energy Regen needed to have her operate at a baseline while sacrificing minimal team damage and remaining accessible at a low cost.\n 4\n\n Call of the Abyss (R 5 )\n\n Last resort option if Suisui has none of the options above available to her. Grants the same Energy Regen stats with a bit of Healing Bonus instead of Concerto Energy - not ideal as it slows down her rotations significantly, but acceptable until one of the options above can be accessed.\n\n Best Echo Sets\n Best Echo Sets\n 1\n\nSong of Feathered Trace\n\n Allows Suisui to buff the whole team's ATK by 25% constantly thanks to her Glacio Chafe application and Energy Regen scaling. Best overall set as it gives the best uptime on the ATK buff.\n Below you can find Main Echo options:\n - Gives Suisui 10% Healing Bonus when equipped in the main slot. Simple Summon Echo that deals a tiny bit of damage in spite of its lackluster stat increase (provides a tiny bit more healing but generally not important).\n\n 2\n\nRejuvenating Glow\n\n Offers a 10% unconditional Healing% boost and an most importantly a 15% ATK% boost for the entire team, lasting 30 seconds whenever you heal yourself or any of your allies. This bonus is easy to keep active 100% of the time and is a good party-wide damage increase.\n Below you can find Main Echo options:\n\n Fallacy of No Return\n\n - Allows Rejuvenating Glow to provide as many total buffs as Song of Feathered Trace on cast, giving an extra 10% ATK to the team and an extra 10% Energy Regen to the wearer. It can easily be summoned before Suisui's Outro to have roughly the same effects as Suisui's Signature set, however the buffs will have lower uptime in longer team rotations which can make this set situationally worse (but by very small margins).\n\n Best Echo Stats\n 4 cost\n CRIT DMG\n\n 3 cost\n Energy Regen\n\n 3 cost\n Energy Regen / HP%\n\n 1 cost\n HP%\n\n 1 cost\n HP%\n\n Substats: Energy Regen (Until 260%) > CRIT DMG > HP% > CRIT Rate > Basic DMG% > HP\n\n HP% main stat on slot 3 can only be done with a 5-star high Energy Regen weapon and high substat rolls - not achievable for most people. Double Energy Regen main stat is always fine to stick to.\n\n Best Endgame Stats (Level 90)\n All recommended endgame stats portray a fairly good quality endgame build as a goal to aim for on most characters. However, don’t treat this as an end-all-be-all, and more of a suggestion.\n All stat recommendations are given at S0 for 5-stars, S6 for 4-stars, and free characters (unless specified otherwise), based on total stats in the in-game stat-screen with the character out of combat but also active in the party (and hence some buffs may or may not apply). Any other precision may be directly specified. If not specified, Energy Regen requirements are estimated in the character’s best team.\n Keep in mind that even when optimized, Suisui deals very low personal damage, meaning investing in her damage is fully skippable. Energy Regen requirements are by far the most important stat shown.\n HP: 35000-40000+\n\n DEF: 1100+\n\n ATK: 1100-1200+\n\n CRIT Rate: 20%+\n\n CRIT DMG: 250%+\n\n Energy Regen: 260%\n This is the amount of Energy Regen that is required to get the maximum potential out of Suisui’s buffs.\n\n Glacio DMG Bonus: 0%+\n\n Skill Priority\n Below you can find the order of leveling the abilities for Suisui .\n Intro Skill\n\n Forte Circuit\n\n Res. Skill\n\n Res. Liberation\n\n Basic Attack\n\n Anything but Intro can be skipped when levelling to save out on resources at a minimal damage loss.\n\n Gameplay and teams\n\n Rotation\n Rotation & Gameplay\n Suisui’s rotation focuses on her accumulating Floral Epistle as quickly as possible before accessing her Outro. To do this, simply rotate like so depending on if an Intro is available or not:\n Opener Rotation\n Used when an Intro is not readily available for Suisui to use, typically once per fight.\n Basic: Zephyr 1\n\n Basic: Zephyr 2\n\n Basic: Zephyr 3\n\n Skill: Awakening Spring\n\n Basic: Swallow's Cut\n\n Basic: Drizzle 1\n\n Basic: Drizzle 2\n\n Basic: Drizzle 3\n\n Basic: Drizzle 4 (Cancel animation endlag via Ultimate)\n\n Ultimate\n\n Outro\n\n Loop Rotation\n Used whenever an Intro is available\n Intro\n\n Skill: Drizzle (Cancel animation via Dash on 1st hit)\n\n Dash\n\n Basic: Drizzle 1\n\n Basic: Drizzle 2\n\n Basic: Drizzle 3\n\n Basic: Drizzle 4 (Cancel animation endlag via Ultimate)\n\n Ultimate\n\n Outro\n\n At S3 and above, simply skip from Skill: Drizzle right into Basic: Drizzle 4 to save a lot of time and make Suisui’s rotations much faster. The Dash cancel is optional and saves only a few frames, so you can refrain from doing it if you’re not comfortable with timing it nearly perfectly.\n\n Synergies\n Yangyang Xuanling Hiyuki Aemeath - Suisui is the best Support for 2 of the best Negative Status damage dealers in the game right now, Yangyang: Xuanling and Hiyuki, as they are the only 2 capable of taking full advantage of her buffs. Still, Aemeath in her Fusion Burst team can take good leverage out of the majority of her buffs, making Suisui a viable alternative to another one of the strongest Negative Status teams in the game.\n Example Teams\n Best Team\n\n Phrolova may display the strongest results in Whimpering Wastes.\n\n Hiyuki Team\n\n Aemeath Team\n\n Calculations"
 }

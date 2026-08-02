@@ -3,7 +3,7 @@
   "game": "zzz",
   "collection": "disk-drives",
   "sourcePath": "/zenless/disk-drives",
-  "scrapedAt": "2026-07-28T07:58:34.337Z",
+  "scrapedAt": "2026-08-02T07:43:41.101Z",
   "detailPagesTotal": 0,
   "detailPagesScraped": 0,
   "staleDetailPagesRemoved": 0,
@@ -119,6 +119,22 @@
         ]
       },
       "text": "Fanged Metal\n(2) Physical DMG + 10% .\n(4) Whenever a squad member inflicts Assault on an enemy, the equipper deals 35% increased damage to the target for 12s ."
+    },
+    {
+      "id": "feathered-fate",
+      "name": "Feathered Fate",
+      "kind": "drive-discs",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/drive-discs/feathered-fate-6085253f9505.webp",
+      "assetId": "6085253f9505",
+      "fields": {
+        "bonuses": [
+          "(2) Anomaly Proficiency +30",
+          "(4) When the equipper enters the battlefield or is switched in as the active character, they gain the following buff: Anomaly Proficiency increases by 50 . If the equipper is a Lumiflux character, Attribute Anomaly DMG increases by 15% , lasting 15s . This buff remains active while the equipper is off-field."
+        ]
+      },
+      "text": "Feathered Fate\n(2) Anomaly Proficiency +30\n(4) When the equipper enters the battlefield or is switched in as the active character, they gain the following buff: Anomaly Proficiency increases by 50 . If the equipper is a Lumiflux character, Attribute Anomaly DMG increases by 15% , lasting 15s . This buff remains active while the equipper is off-field."
     },
     {
       "id": "freedom-blues",

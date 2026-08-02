@@ -3,7 +3,7 @@
   "game": "ww",
   "collection": "characters",
   "sourcePath": "/wuthering-waves/characters",
-  "scrapedAt": "2026-07-28T07:58:34.337Z",
+  "scrapedAt": "2026-08-02T07:43:41.101Z",
   "detailPagesTotal": 60,
   "detailPagesScraped": 60,
   "staleDetailPagesRemoved": 0,
@@ -395,11 +395,11 @@
     {
       "id": "suisui",
       "slug": "suisui",
-      "name": "Suisui 3.5",
+      "name": "Suisui New",
       "sourcePath": "/wuthering-waves/characters/suisui",
-      "contentStatus": "beta",
+      "contentStatus": "live",
       "statusLabels": [
-        "3.5"
+        "New"
       ]
     },
     {
@@ -455,12 +455,10 @@
     {
       "id": "yangyang-xuanling",
       "slug": "yangyang-xuanling",
-      "name": "Yangyang Xuanling New",
+      "name": "Yangyang Xuanling",
       "sourcePath": "/wuthering-waves/characters/yangyang-xuanling",
       "contentStatus": "live",
-      "statusLabels": [
-        "New"
-      ]
+      "statusLabels": []
     },
     {
       "id": "yinlin",

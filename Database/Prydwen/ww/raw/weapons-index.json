@@ -3,7 +3,7 @@
   "game": "ww",
   "collection": "weapons",
   "sourcePath": "/wuthering-waves/weapons",
-  "scrapedAt": "2026-07-28T07:58:34.337Z",
+  "scrapedAt": "2026-08-02T07:43:41.101Z",
   "detailPagesTotal": 0,
   "detailPagesScraped": 0,
   "staleDetailPagesRemoved": 0,
@@ -523,10 +523,10 @@
       "fields": {
         "rarity": "5 ★",
         "type": "Pistols",
-        "atk_lv_90": "0",
-        "lv_90": "0 %"
+        "atk_lv_90": "413",
+        "energy_regen_lv_90": "77.04 %"
       },
-      "text": "Firstlight's Herald\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 0\n(Lv.90): 0 %"
+      "text": "Firstlight's Herald\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 413\nEnergy Regen (Lv.90): 77.04 %"
     },
     {
       "id": "forged-dwarf-star",

@@ -11,7 +11,7 @@
   "sourcePath": "/star-rail/characters/gepard",
   "contentStatus": "live",
   "statusLabels": [],
-  "scrapedAt": "2026-07-28T07:58:34.337Z",
+  "scrapedAt": "2026-08-02T07:43:41.101Z",
   "updatedText": "31/May/2026",
   "meta": {
     "title": "Gepard Best Build Guide | Honkai: Star Rail",
@@ -344,12 +344,22 @@
       "height": 45
     },
     {
-      "id": "4c12f1ecf12f",
-      "sourceHash": "4c12f1ecf12f",
+      "id": "d197456869a0",
+      "sourceHash": "d197456869a0",
+      "kind": "icons",
+      "name": "Lightning",
+      "fileStem": "ele-lightning",
+      "path": "Prydwen/hsr/assets/icons/lightning-d197456869a0.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "99361e4717fa",
+      "sourceHash": "99361e4717fa",
       "kind": "characters",
-      "name": "Firefly",
-      "fileStem": "firefly-icon",
-      "path": "Prydwen/hsr/assets/characters/firefly-4c12f1ecf12f.webp",
+      "name": "Mortenax Blade",
+      "fileStem": "blade-mortenax-icon",
+      "path": "Prydwen/hsr/assets/characters/mortenax-blade-99361e4717fa.webp",
       "width": 60,
       "height": 60
     },
@@ -364,34 +374,24 @@
       "height": 22
     },
     {
-      "id": "239e290d80b6",
-      "sourceHash": "239e290d80b6",
+      "id": "2cde7699adbf",
+      "sourceHash": "2cde7699adbf",
       "kind": "characters",
-      "name": "Bronya",
-      "fileStem": "bronya-icon",
-      "path": "Prydwen/hsr/assets/characters/bronya-239e290d80b6.webp",
+      "name": "Tribbie",
+      "fileStem": "tribbie-icon",
+      "path": "Prydwen/hsr/assets/characters/tribbie-2cde7699adbf.webp",
       "width": 60,
       "height": 60
     },
     {
-      "id": "ee11bd390c9a",
-      "sourceHash": "ee11bd390c9a",
+      "id": "565914d1a436",
+      "sourceHash": "565914d1a436",
       "kind": "icons",
-      "name": "Wind",
-      "fileStem": "ele-wind",
-      "path": "Prydwen/hsr/assets/icons/wind-ee11bd390c9a.webp",
+      "name": "Quantum",
+      "fileStem": "ele-quantum",
+      "path": "Prydwen/hsr/assets/icons/quantum-565914d1a436.webp",
       "width": 22,
       "height": 22
-    },
-    {
-      "id": "cec6f11ca61e",
-      "sourceHash": "cec6f11ca61e",
-      "kind": "characters",
-      "name": "The Dahlia",
-      "fileStem": "the-dahlia-icon",
-      "path": "Prydwen/hsr/assets/characters/the-dahlia-cec6f11ca61e.webp",
-      "width": 60,
-      "height": 60
     },
     {
       "id": "c8b0312e2925",
@@ -412,6 +412,176 @@
       "path": "Prydwen/hsr/assets/icons/ice-7d36eb39792a.webp",
       "width": 22,
       "height": 22
+    },
+    {
+      "id": "a7cbdc174382",
+      "sourceHash": "a7cbdc174382",
+      "kind": "characters",
+      "name": "Seele",
+      "fileStem": "seele-icon",
+      "path": "Prydwen/hsr/assets/characters/seele-a7cbdc174382.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "d3e344772d55",
+      "sourceHash": "d3e344772d55",
+      "kind": "characters",
+      "name": "Trailblazer • Remembrance",
+      "fileStem": "trailblazer-remembrance-icon",
+      "path": "Prydwen/hsr/assets/characters/trailblazer-remembrance-d3e344772d55.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "da99d2d9a505",
+      "sourceHash": "da99d2d9a505",
+      "kind": "characters",
+      "name": "Sparkle",
+      "fileStem": "sparkle-icon",
+      "path": "Prydwen/hsr/assets/characters/sparkle-da99d2d9a505.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "f54da6170f38",
+      "sourceHash": "f54da6170f38",
+      "kind": "characters",
+      "name": "Silver Wolf • Lv. 999",
+      "fileStem": "silver-wolf-lv-999-icon",
+      "path": "Prydwen/hsr/assets/characters/silver-wolf-lv-999-f54da6170f38.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "913ff64407f2",
+      "sourceHash": "913ff64407f2",
+      "kind": "icons",
+      "name": "Imaginary",
+      "fileStem": "ele-imaginary",
+      "path": "Prydwen/hsr/assets/icons/imaginary-913ff64407f2.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "7fc1b269fb6f",
+      "sourceHash": "7fc1b269fb6f",
+      "kind": "characters",
+      "name": "Sparxie",
+      "fileStem": "sparxie-icon",
+      "path": "Prydwen/hsr/assets/characters/sparxie-7fc1b269fb6f.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "965df81b835a",
+      "sourceHash": "965df81b835a",
+      "kind": "characters",
+      "name": "Yao Guang",
+      "fileStem": "yao-guang-icon",
+      "path": "Prydwen/hsr/assets/characters/yao-guang-965df81b835a.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "e0db16ed6c66",
+      "sourceHash": "e0db16ed6c66",
+      "kind": "icons",
+      "name": "Physical",
+      "fileStem": "ele-physical",
+      "path": "Prydwen/hsr/assets/icons/physical-e0db16ed6c66.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "bc2d64a2cd5f",
+      "sourceHash": "bc2d64a2cd5f",
+      "kind": "characters",
+      "name": "Hysilens",
+      "fileStem": "hysilens-icon",
+      "path": "Prydwen/hsr/assets/characters/hysilens-bc2d64a2cd5f.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "e01f880a2668",
+      "sourceHash": "e01f880a2668",
+      "kind": "characters",
+      "name": "Black Swan",
+      "fileStem": "black-swan-icon",
+      "path": "Prydwen/hsr/assets/characters/black-swan-e01f880a2668.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "ee11bd390c9a",
+      "sourceHash": "ee11bd390c9a",
+      "kind": "icons",
+      "name": "Wind",
+      "fileStem": "ele-wind",
+      "path": "Prydwen/hsr/assets/icons/wind-ee11bd390c9a.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "a137ba3e51ff",
+      "sourceHash": "a137ba3e51ff",
+      "kind": "characters",
+      "name": "Kafka",
+      "fileStem": "kafka-icon",
+      "path": "Prydwen/hsr/assets/characters/kafka-a137ba3e51ff.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "4c12f1ecf12f",
+      "sourceHash": "4c12f1ecf12f",
+      "kind": "characters",
+      "name": "Firefly",
+      "fileStem": "firefly-icon",
+      "path": "Prydwen/hsr/assets/characters/firefly-4c12f1ecf12f.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "de41e1704266",
+      "sourceHash": "de41e1704266",
+      "kind": "characters",
+      "name": "Trailblazer • Harmony",
+      "fileStem": "trailblazer-harmony-icon",
+      "path": "Prydwen/hsr/assets/characters/trailblazer-harmony-de41e1704266.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "cec6f11ca61e",
+      "sourceHash": "cec6f11ca61e",
+      "kind": "characters",
+      "name": "The Dahlia",
+      "fileStem": "the-dahlia-icon",
+      "path": "Prydwen/hsr/assets/characters/the-dahlia-cec6f11ca61e.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "c721ded1f2e0",
+      "sourceHash": "c721ded1f2e0",
+      "kind": "characters",
+      "name": "Trailblazer • Elation",
+      "fileStem": "trailblazer-elation-icon",
+      "path": "Prydwen/hsr/assets/characters/trailblazer-elation-c721ded1f2e0.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "abea49c1784d",
+      "sourceHash": "abea49c1784d",
+      "kind": "characters",
+      "name": "Evanescia",
+      "fileStem": "evanescia-icon",
+      "path": "Prydwen/hsr/assets/characters/evanescia-abea49c1784d.webp",
+      "width": 60,
+      "height": 60
     }
   ],
   "sections": [
@@ -773,7 +943,7 @@
       "id": "best-relic-sets-28",
       "level": 2,
       "heading": "Best Relic Sets",
-      "text": "The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 1\n\n Self-Enshrouded Recluse ( 4 -PC)\n\n Best set for Shield based characters, improving their Shield strength and providing a teamwide CRIT DMG buff.\n Usage: 35.29 %\n MoC: -\n PF: 0\n AS: 0\n\n 2\n\n Knight of Purity Palace ( 4 -PC)\n\n Pure defensive option for Shield characters. Not recommended to farm as the domain is inefficient.\n 3\n\n Knight of Purity Palace ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Messenger Traversing Hackerspace\n\n Sacerdos' Relived Ordeal\n\n Diviner of Distant Reach\n\n Warrior Goddess of Sun and Thunder\n\n Usage: 64.71 %\n MoC: -\n PF: 0\n AS: 0",
+      "text": "The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 1\n\n Self-Enshrouded Recluse ( 4 -PC)\n\n Best set for Shield based characters, improving their Shield strength and providing a teamwide CRIT DMG buff.\n Usage: 56.67 %\n MoC: -\n PF: 0\n AS: 0\n\n 2\n\n Knight of Purity Palace ( 4 -PC)\n\n Pure defensive option for Shield characters. Not recommended to farm as the domain is inefficient.\n Usage: 16.67 %\n MoC: -\n PF: 0\n AS: 0\n\n 3\n\n Knight of Purity Palace ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Messenger Traversing Hackerspace\n\n Sacerdos' Relived Ordeal\n\n Diviner of Distant Reach\n\n Warrior Goddess of Sun and Thunder\n\n Usage: 26.67 %\n MoC: -\n PF: 0\n AS: 0",
       "assets": [
         {
           "id": "201a8d2bf253",
@@ -841,7 +1011,7 @@
       "id": "best-planetary-sets-29",
       "level": 6,
       "heading": "Best Planetary Sets",
-      "text": "1\n\n Broken Keel ( 2 -PC)\n\n An option for supports stacking Effect RES, while also increasing the entire team's CRIT DMG. Requires at least 30% Effect RES to activate.\n 2\n\n Fleet of the Ageless ( 2 -PC)\n\n Ideal for supporting teams that scale on ATK.\n 3\n\n Penacony, Land of the Dreams ( 2 -PC)\n\n Top option for supporting teams with the same Element as the wearer, and for its Energy Regen.\n 4\n\n Lushaka, the Sunken Seas ( 2 -PC)\n\n Top option for Supporting a single ATK-scaling DPS, and for its Energy Regen.",
+      "text": "1\n\n Broken Keel ( 2 -PC)\n\n An option for supports stacking Effect RES, while also increasing the entire team's CRIT DMG. Requires at least 30% Effect RES to activate.\n 2\n\n Fleet of the Ageless ( 2 -PC)\n\n Ideal for supporting teams that scale on ATK.\n 3\n\n Penacony, Land of the Dreams ( 2 -PC)\n\n Top option for supporting teams with the same Element as the wearer, and for its Energy Regen.\n 4\n\n Lushaka, the Sunken Seas ( 2 -PC)\n\n Top option for Supporting a single ATK-scaling DPS, and for its Energy Regen.\n Usage: 56.67 %\n MoC: -\n PF: 0\n AS: 0",
       "assets": [
         {
           "id": "3306e6f6288f",
@@ -889,7 +1059,7 @@
       "id": "best-specialist-planetary-sets-30",
       "level": 6,
       "heading": "Best Specialist Planetary Sets",
-      "text": "1\n\n Belobog of the Architects ( 2 -PC)\n\n Hyper specialized but strong option for Defense scaling characters that also aim to stack a high amount of Effect Hit Rating. Only recommended for those building Gepard with a focus on getting enough Effect Hit Rating to fully active its effect.\n Usage: 100 %\n MoC: -\n PF: 0\n AS: 0",
+      "text": "1\n\n Belobog of the Architects ( 2 -PC)\n\n Hyper specialized but strong option for Defense scaling characters that also aim to stack a high amount of Effect Hit Rating. Only recommended for those building Gepard with a focus on getting enough Effect Hit Rating to fully active its effect.\n Usage: 43.33 %\n MoC: -\n PF: 0\n AS: 0",
       "assets": [
         {
           "id": "7b4386e9ea22",
@@ -977,15 +1147,35 @@
       "id": "anomaly-arbitration-40",
       "level": 6,
       "heading": "Anomaly Arbitration",
-      "text": "Rank 515\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 6\n\n MoC/PF/AS Statistics",
+      "text": "Rank 758\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 5\n\n Rank 758\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 7\n\n Rank 758\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 7\n\n Rank 758\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 12\n\n Rank 758\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 12\n\n Rank 758\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 7.5\n\n Rank 758\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 9\n\n MoC/PF/AS Statistics",
       "assets": [
         {
-          "id": "4c12f1ecf12f",
-          "sourceHash": "4c12f1ecf12f",
+          "id": "fbcfe4133d08",
+          "sourceHash": "fbcfe4133d08",
           "kind": "characters",
-          "name": "Firefly",
-          "fileStem": "firefly-icon",
-          "path": "Prydwen/hsr/assets/characters/firefly-4c12f1ecf12f.webp",
+          "name": "Acheron",
+          "fileStem": "acheron-icon",
+          "path": "Prydwen/hsr/assets/characters/acheron-fbcfe4133d08.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "d197456869a0",
+          "sourceHash": "d197456869a0",
+          "kind": "icons",
+          "name": "Lightning",
+          "fileStem": "ele-lightning",
+          "path": "Prydwen/hsr/assets/icons/lightning-d197456869a0.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "99361e4717fa",
+          "sourceHash": "99361e4717fa",
+          "kind": "characters",
+          "name": "Mortenax Blade",
+          "fileStem": "blade-mortenax-icon",
+          "path": "Prydwen/hsr/assets/characters/mortenax-blade-99361e4717fa.webp",
           "width": 60,
           "height": 60
         },
@@ -1000,34 +1190,24 @@
           "height": 22
         },
         {
-          "id": "239e290d80b6",
-          "sourceHash": "239e290d80b6",
+          "id": "2cde7699adbf",
+          "sourceHash": "2cde7699adbf",
           "kind": "characters",
-          "name": "Bronya",
-          "fileStem": "bronya-icon",
-          "path": "Prydwen/hsr/assets/characters/bronya-239e290d80b6.webp",
+          "name": "Tribbie",
+          "fileStem": "tribbie-icon",
+          "path": "Prydwen/hsr/assets/characters/tribbie-2cde7699adbf.webp",
           "width": 60,
           "height": 60
         },
         {
-          "id": "ee11bd390c9a",
-          "sourceHash": "ee11bd390c9a",
+          "id": "565914d1a436",
+          "sourceHash": "565914d1a436",
           "kind": "icons",
-          "name": "Wind",
-          "fileStem": "ele-wind",
-          "path": "Prydwen/hsr/assets/icons/wind-ee11bd390c9a.webp",
+          "name": "Quantum",
+          "fileStem": "ele-quantum",
+          "path": "Prydwen/hsr/assets/icons/quantum-565914d1a436.webp",
           "width": 22,
           "height": 22
-        },
-        {
-          "id": "cec6f11ca61e",
-          "sourceHash": "cec6f11ca61e",
-          "kind": "characters",
-          "name": "The Dahlia",
-          "fileStem": "the-dahlia-icon",
-          "path": "Prydwen/hsr/assets/characters/the-dahlia-cec6f11ca61e.webp",
-          "width": 60,
-          "height": 60
         },
         {
           "id": "c8b0312e2925",
@@ -1048,6 +1228,176 @@
           "path": "Prydwen/hsr/assets/icons/ice-7d36eb39792a.webp",
           "width": 22,
           "height": 22
+        },
+        {
+          "id": "a7cbdc174382",
+          "sourceHash": "a7cbdc174382",
+          "kind": "characters",
+          "name": "Seele",
+          "fileStem": "seele-icon",
+          "path": "Prydwen/hsr/assets/characters/seele-a7cbdc174382.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "d3e344772d55",
+          "sourceHash": "d3e344772d55",
+          "kind": "characters",
+          "name": "Trailblazer • Remembrance",
+          "fileStem": "trailblazer-remembrance-icon",
+          "path": "Prydwen/hsr/assets/characters/trailblazer-remembrance-d3e344772d55.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "da99d2d9a505",
+          "sourceHash": "da99d2d9a505",
+          "kind": "characters",
+          "name": "Sparkle",
+          "fileStem": "sparkle-icon",
+          "path": "Prydwen/hsr/assets/characters/sparkle-da99d2d9a505.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "f54da6170f38",
+          "sourceHash": "f54da6170f38",
+          "kind": "characters",
+          "name": "Silver Wolf • Lv. 999",
+          "fileStem": "silver-wolf-lv-999-icon",
+          "path": "Prydwen/hsr/assets/characters/silver-wolf-lv-999-f54da6170f38.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "913ff64407f2",
+          "sourceHash": "913ff64407f2",
+          "kind": "icons",
+          "name": "Imaginary",
+          "fileStem": "ele-imaginary",
+          "path": "Prydwen/hsr/assets/icons/imaginary-913ff64407f2.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "7fc1b269fb6f",
+          "sourceHash": "7fc1b269fb6f",
+          "kind": "characters",
+          "name": "Sparxie",
+          "fileStem": "sparxie-icon",
+          "path": "Prydwen/hsr/assets/characters/sparxie-7fc1b269fb6f.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "965df81b835a",
+          "sourceHash": "965df81b835a",
+          "kind": "characters",
+          "name": "Yao Guang",
+          "fileStem": "yao-guang-icon",
+          "path": "Prydwen/hsr/assets/characters/yao-guang-965df81b835a.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "e0db16ed6c66",
+          "sourceHash": "e0db16ed6c66",
+          "kind": "icons",
+          "name": "Physical",
+          "fileStem": "ele-physical",
+          "path": "Prydwen/hsr/assets/icons/physical-e0db16ed6c66.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "bc2d64a2cd5f",
+          "sourceHash": "bc2d64a2cd5f",
+          "kind": "characters",
+          "name": "Hysilens",
+          "fileStem": "hysilens-icon",
+          "path": "Prydwen/hsr/assets/characters/hysilens-bc2d64a2cd5f.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "e01f880a2668",
+          "sourceHash": "e01f880a2668",
+          "kind": "characters",
+          "name": "Black Swan",
+          "fileStem": "black-swan-icon",
+          "path": "Prydwen/hsr/assets/characters/black-swan-e01f880a2668.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "ee11bd390c9a",
+          "sourceHash": "ee11bd390c9a",
+          "kind": "icons",
+          "name": "Wind",
+          "fileStem": "ele-wind",
+          "path": "Prydwen/hsr/assets/icons/wind-ee11bd390c9a.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "a137ba3e51ff",
+          "sourceHash": "a137ba3e51ff",
+          "kind": "characters",
+          "name": "Kafka",
+          "fileStem": "kafka-icon",
+          "path": "Prydwen/hsr/assets/characters/kafka-a137ba3e51ff.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "4c12f1ecf12f",
+          "sourceHash": "4c12f1ecf12f",
+          "kind": "characters",
+          "name": "Firefly",
+          "fileStem": "firefly-icon",
+          "path": "Prydwen/hsr/assets/characters/firefly-4c12f1ecf12f.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "de41e1704266",
+          "sourceHash": "de41e1704266",
+          "kind": "characters",
+          "name": "Trailblazer • Harmony",
+          "fileStem": "trailblazer-harmony-icon",
+          "path": "Prydwen/hsr/assets/characters/trailblazer-harmony-de41e1704266.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "cec6f11ca61e",
+          "sourceHash": "cec6f11ca61e",
+          "kind": "characters",
+          "name": "The Dahlia",
+          "fileStem": "the-dahlia-icon",
+          "path": "Prydwen/hsr/assets/characters/the-dahlia-cec6f11ca61e.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "c721ded1f2e0",
+          "sourceHash": "c721ded1f2e0",
+          "kind": "characters",
+          "name": "Trailblazer • Elation",
+          "fileStem": "trailblazer-elation-icon",
+          "path": "Prydwen/hsr/assets/characters/trailblazer-elation-c721ded1f2e0.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "abea49c1784d",
+          "sourceHash": "abea49c1784d",
+          "kind": "characters",
+          "name": "Evanescia",
+          "fileStem": "evanescia-icon",
+          "path": "Prydwen/hsr/assets/characters/evanescia-abea49c1784d.webp",
+          "width": 60,
+          "height": 60
         }
       ]
     }
@@ -1119,7 +1469,7 @@
       "sections": [
         {
           "heading": "Best Relic Sets",
-          "text": "The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 1\n\n Self-Enshrouded Recluse ( 4 -PC)\n\n Best set for Shield based characters, improving their Shield strength and providing a teamwide CRIT DMG buff.\n Usage: 35.29 %\n MoC: -\n PF: 0\n AS: 0\n\n 2\n\n Knight of Purity Palace ( 4 -PC)\n\n Pure defensive option for Shield characters. Not recommended to farm as the domain is inefficient.\n 3\n\n Knight of Purity Palace ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Messenger Traversing Hackerspace\n\n Sacerdos' Relived Ordeal\n\n Diviner of Distant Reach\n\n Warrior Goddess of Sun and Thunder\n\n Usage: 64.71 %\n MoC: -\n PF: 0\n AS: 0",
+          "text": "The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 1\n\n Self-Enshrouded Recluse ( 4 -PC)\n\n Best set for Shield based characters, improving their Shield strength and providing a teamwide CRIT DMG buff.\n Usage: 56.67 %\n MoC: -\n PF: 0\n AS: 0\n\n 2\n\n Knight of Purity Palace ( 4 -PC)\n\n Pure defensive option for Shield characters. Not recommended to farm as the domain is inefficient.\n Usage: 16.67 %\n MoC: -\n PF: 0\n AS: 0\n\n 3\n\n Knight of Purity Palace ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Messenger Traversing Hackerspace\n\n Sacerdos' Relived Ordeal\n\n Diviner of Distant Reach\n\n Warrior Goddess of Sun and Thunder\n\n Usage: 26.67 %\n MoC: -\n PF: 0\n AS: 0",
           "assets": [
             {
               "id": "201a8d2bf253",
@@ -1190,7 +1540,7 @@
       "sections": [
         {
           "heading": "Best Planetary Sets",
-          "text": "1\n\n Broken Keel ( 2 -PC)\n\n An option for supports stacking Effect RES, while also increasing the entire team's CRIT DMG. Requires at least 30% Effect RES to activate.\n 2\n\n Fleet of the Ageless ( 2 -PC)\n\n Ideal for supporting teams that scale on ATK.\n 3\n\n Penacony, Land of the Dreams ( 2 -PC)\n\n Top option for supporting teams with the same Element as the wearer, and for its Energy Regen.\n 4\n\n Lushaka, the Sunken Seas ( 2 -PC)\n\n Top option for Supporting a single ATK-scaling DPS, and for its Energy Regen.",
+          "text": "1\n\n Broken Keel ( 2 -PC)\n\n An option for supports stacking Effect RES, while also increasing the entire team's CRIT DMG. Requires at least 30% Effect RES to activate.\n 2\n\n Fleet of the Ageless ( 2 -PC)\n\n Ideal for supporting teams that scale on ATK.\n 3\n\n Penacony, Land of the Dreams ( 2 -PC)\n\n Top option for supporting teams with the same Element as the wearer, and for its Energy Regen.\n 4\n\n Lushaka, the Sunken Seas ( 2 -PC)\n\n Top option for Supporting a single ATK-scaling DPS, and for its Energy Regen.\n Usage: 56.67 %\n MoC: -\n PF: 0\n AS: 0",
           "assets": [
             {
               "id": "3306e6f6288f",
@@ -1320,5 +1670,5 @@
     }
   },
   "tables": [],
-  "text": "Gepard Best Build Guide | Honkai: Star Rail\n \n\n Honkai: Star Rail\n Home Database Characters Light Cones Relic Sets Banners\n Tier Lists Tier List\n Endgame Memory of Chaos Pure Fiction Apocalyptic Shadow Anomaly Arbitration\n Tools Patch Timeline\n Guides Guides\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Honkai: Star Rail\n /\n Characters\n /\n Gepard\n Gepard Best Build Guide\n Last updated: 31/May/2026\n\n Introduction\n Best guide and build for Gepard from HSR (Honkai: Star Rail). Gepard is a 5 ★ character from the Ice element who follows the Path of Preservation .\n An upright and noble captain of the Silvermane Guards who bears the name of the age-old Gepard family. In the blizzard-battered city of Belobog, defense is much more challenging than attack. Gepard and the Silvermane Guards he leads serve as the unbreakable iron defense of the Union in this hostile world. Sometimes he is ridiculed by his sister and aide for his ever-scrupulous manner, but no one can deny that the people of Belobog have been able to maintain peace and comfort even with eternal winter on its doorstep...\n With Gepard's protection, the city can carry on with its ordinary daily routine.\n\n To learn more about Gepard check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Video guide\n This character has no video guide yet.\n\n Update tracker\n Last review update\n Patch 3.0\n\n Last major build/calcs update\n Patch 3.6\n\n Last profile update*\n 31/May/2026\n\n *Profile update means smaller edits to relics, stats, synergies or teams that don't require new calculations.\n To learn more about Gepard check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Kit\n\n Review\n\n Build and teams\n\n MoC/PF/AS Statistics\n\n Calculations\n\n Profile\n\n Skills\n Basic ATK\n Fist of Conviction\n Single Target\n\n Lv. 1\n\n Energy gain: 20\n Break: 10\n\n Deals Ice DMG equal to #1[i]% of Gepard's ATK to a single enemy.\n\n Skill\n Daunting Smite\n Impair\n\n Lv. 1\n\n Energy gain: 30\n Break: 20\n\n Deals Ice DMG equal to #1[i]% of Gepard's ATK to a single enemy, with a #2[i]% base chance to Freeze the enemy for #3[i] turn(s).\nWhile Frozen, the enemy cannot take action and will take Additional Ice DMG equal to #4[i]% of Gepard's ATK at the beginning of each turn.\n\n Ultimate\n Enduring Bulwark\n Defense | 100 energy cost\n\n Lv. 1\n\n Energy gain: 5\n Break: -\n\n Applies a Shield to all allies, absorbing DMG equal to #1[i]% of Gepard's DEF plus #3[i] for #2[i] turn(s).\n\n Talent\n Unyielding Will\n Restore\n\n Lv. 1\n\n Energy gain: 0\n Break: -\n\n When struck with a killing blow, instead of becoming knocked down, Gepard's HP immediately restores to #1[i]% of his Max HP. This effect can only trigger once per battle.\n\n Technique\n Comradery\n Defense\n\n Energy gain: 0\n Break: -\n\n After Gepard uses his Technique, when the next battle begins, a Shield will be applied to all allies, absorbing DMG equal to #1[i]% of Gepard's DEF plus #3[i] for #2[i] turn(s).\n\n Major Traces\n A2 Major trace\n Integrity\n\n Gepard has a higher chance to be attacked by enemies.\n\n A4 Major trace\n Commander\n\n When Unyielding Will is triggered, Gepard's Energy will be restored to 100% .\n\n A6 Major trace\n Fighting Spirit\n\n Gepard's ATK increases by 35% of his current DEF. This effect will refresh at the start of each turn.\n\n Minor Traces (total)\n Ice DMG\n + 22.4%\n\n Effect RES\n + 18%\n\n DEF\n + 12.5%\n\n Eidolons\n E 1\n Due Diligence\n Eidolon 1\n\n Base chance for Gepard's Skill to Freeze enemies increases by 35% .\n\n E 2\n Lingering Cold\n Eidolon 2\n\n After an enemy Frozen by Gepard's Skill is unfrozen, their SPD is reduced by 20% for 1 turn(s).\n\n E 3\n Never Surrender\n Eidolon 3\n\n Ultimate Lv. +2 , up to a maximum of Lv. 15. Talent Lv. +2 , up to a maximum of Lv. 15.\n\n E 4\n Faith Moves Mountains\n Eidolon 4\n\n When Gepard is in battle, all allies' Effect RES increases by 20% .\n\n E 5\n Cold Iron Fist\n Eidolon 5\n\n Skill Lv. +2 , up to a maximum of Lv. 15 . Basic ATK Lv. +1 . up to a maximum of Lv. 10 .\n\n E 6\n Unyielding Determination\n Eidolon 6\n\n When his Talent is triggered, Gepard's action is Advanced Forward by 100% , and he restores extra HP equal to 50% of his Max HP.\n\n Stats and materials\n\nEnable Ascension\n\n Level 80 stats\n HP\n\n 1397\n\n ATK\n\n 543\n\n DEF\n\n 654\n\n Speed\n\n 92\n\n Level 1 → 80 Ascension Materials\n\n Credit\n\n x 308000\n\n Silvermane Badge\n\n x 15\n\n Silvermane Insignia\n\n x 15\n\n Horn of Snow\n\n x 65\n\n Silvermane Medal\n\n x 15\n\n CV\n ENG\n Bryson Baugus\n\n JPN\n Furukawa Makoto (古川慎)\n\n CN\n Yang Ma (马洋)\n\n KR\n 민승우\n\n Gallery\n\n Review\n\n Pros & Cons\n Pros\n Very low investment.\n\n Mostly SP positive.\n\n Good teamwide shields.\n\n Good energy economy.\n\n Best user of the ‘Trend of the Universal Market’ LC.\n\n Cons\n Relies on his ultimate and gets shafted by energy reduction as a result.\n\n Can struggle with crowd control and damage over time effects.\n\n Freezing enemies is generally pretty unreliable.\n\n Low base speed.\n\n Has a harder time sustaining units that are fast or can action advance themselves.\n\n Review (By Sushou)\n Gepard is a capable Preservation sustain unit. He is a resilient tank that draws increased aggro from enemies passively and has very strong unconditional Shields from his Ultimate. He uniquely has a self-revive passive that allows him to recover once after being downed and will immediately restore his Energy to its maximum when it procs. Gepard also has some limited single-target Freeze utility with his Skill.\n Gepard is a unit whose value has fluctuated a fair bit over time but has landed on 'very decent'. He's got a lot more competition from all the sustain units released after him and this has led some to think he's no longer enough, but this isn't really true. Gepard's Shields are still very strong and funnily enough are starting to once again become more appreciated due to the large increases in damage from newer enemies.\n Shields and heals are largely interchangeable as a method of sustain as long as either can be maintained. The difference is that healing has more forgiveness if you make a mistake, while Shields are more forgiving against highly damaging foes; Shields can be thought of simply adding on a temporary health buffer to a character's existing HP bar, resulting in enemies dealing 'trash damage' — that is to say non meaningful damage, at least for as long as the damage doesn't spill over to the character's real health. Healing, however, can only work on whatever's not yet dead. Even lore-accurate Luocha isn't that good.\n As such, Gepard is one of very few units who can actually prevent the party from getting straight up one-shot by enemies, which is a highly coveted thing, especially against enemies like True Sting or Kafka who can pull out an unreasonable amount of damage even if you are prepared for it. The only other units who can do this as well are Fu Xuan and Aventurine - two absurdly powerful limited 5-star characters - whereas Gepard is a far more accessible standard 5-star.\n Gepard's Ultimate applies these Shields to all allies, absorbing up to 45% DEF plus 600 for 3 turns. This has a meagre Energy cost of only 100 meaning it is quite possible to keep these Shields up indefinitely, assuming they're not being broken. The actual scaling of these Shields is actually slightly lower than March 7th's Skill's Shield but it is applied to all allies instead of just one and doesn't consume a Skill Point, leading to Gepard being a completely SP positive sustain unit unless you have a reason to use his Skill. Due to Gepard's higher base DEF, this difference is actually still usually in favour of Gepard.\n His Skill attacks a single enemy and deals up to 200% ATK to them and has a 65% base chance to Freeze the target for 1 turn. Frozen enemies will take 60% ATK upon unfreezing. While not likely to be dealing any significant damage, the option to spend a Skill Point on the chance to Freeze an enemy is actually quite underrated in my experience. Frozen enemies can't deal damage to you, and this is unsurprisingly a good thing.\n The counterpoint to this is 'neither can dead enemies' and, honestly, fair and true. Unless you're going for DoT team shenanigans with Freeze tech to squeeze out extra DoT ticks from enemies, it's highly likely that if you're using this Skill as a means of bolstering your team's survivability, you're already way out of your depth; Gepard's Shields are already strong enough to deal with most things in the game, but the few things they struggle with cannot currently be overcome with more investment.\n There's just a hard limit on how much DEF Gepard can actually stack and some enemies can still just pierce through them in a single powerful attack. At that point it is far better to fix your damage issue , because as before, a dead enemy cannot hurt you. Survivability is just as much about your damage dealers as it is about your sustain unit. It is no accident that many 0-cycle clears of Memory of Chaos do not even use sustain units, opting instead for a third support character.\n It may seem odd for me to mention this on Gepard's review specifically, but Gepard is an archetypal Shielder. He quite literally does not have the ability to heal allies, meaning any 'real' damage you take in a fight is permanent. If you can't keep up, you have entered a battle of attrition that you will inevitably lose, and it is in these situations that the power and investment of your other units will be tested to the extreme. This will remain true for Gepard as well as any future Preservation units that follow in these archetypal footsteps.\n There is a way to alleviate this somewhat. Gepard's Talent offers him a 1 time self-revive, restoring 50% of his Max HP. This Talent is also where all of his Bonus Traces congregate, and they need to be talked about together to get a full picture. A2 increases Gepard's likelihood of being attacked by enemies substantially, adding on to the already higher chance that Preservation units have, A6 will convert 35% of Gepard's current DEF to ATK, updating the value at the start of each turn, and A4 will restore 100% Energy to Gepard upon triggering the Talent.\n With this, Gepard is likely to be attacked a lot, sometimes enough to down him even through his very high DEF and strong Shields. Often this is accompanied by heavy AoE damage, and this is where the A4 can come in to save the day, allowing him to immediately recast his Ultimate, potentially just in time to save the rest of his team. If the Talent is triggering at all, you're already in a battle of attrition, but the important distinction now is that it may not be inherently doomed.\n Gepard's Eidolons are something that you may get over time as he is a standard 5-star unit. He doesn't really need them, but they expand upon his Freezing playstyle without interfering with his capabilities as a sustain unit. E1 in particular increases the base chance of his Skill's Freeze to apply by 35%, for a new total of 100% base chance. A little bit of Effect Hit Rate can make this surprisingly consistent against anything without additional Control RES, and can work wonders in highly specialised DoT teams.\n While Aventurine's release showcased what a truly powerful Shielder can do, Gepard is still a great character and is definitely worth your time if you get him, especially since he's substantially better than your free options once you build him.\n\n Ratings\n Honkai: Star Rail is a game where team building matters most and while our tier list takes the optimal setup into account, a lot of characters can work and do well - even those ranked lower - when you invest into them. Also for story or lower difficulties of Simulated Universe, you don't need to worry about ratings and tiers. You can safely clear that content even with F2P characters as long as you build your team correctly.\n Character at 5★ are rated at their Eidolon 0 with level 80 best in slot 4★ or 5★ Light Cone (including limited Light Cones, but at S1).\n Available ratings:\n Memory of Chaos (MoC) - how the character performs in the Memory of Chaos. Blast and single target damage are important here while AoE has niche uses against some bosses.\n Pure Fiction (PF) - how the character performs in the Pure Fiction. AoE is king here, followed by Blast while single target damage is mostly useless.\n Apocalyptic Shadow (AS) - how the character performs in the Apocalyptic Shadow. Single target and Break is important here.\n\n Sustain\n T4\n MoC\n\n T4\n PF\n\n T4\n AS\n\n Build and teams\n\n Best Light Cones\n\n 1\n\n Journey, Forever Peaceful (S 5 )\n\n Best 4* Light Cone obtainable from BP, increasing Shield strength and DMG dealt by all allies.\n\n 2\n\n Moment of Victory (S 1 )\n\n Provides a permanent Taunting effect on the wearer, increasing the chance they'll be attacked dramatically. This effect and the DEF bonuses make this Cone a very powerful choice for most Preservation characters.\n Usage: 100 %\n MoC: -\n PF: 0\n AS: 0\n\n 3\n\n Day One of My New Life (S 5 )\n\n Decent option based on its team-wide damage reduction and good stats for DEF% scaling characters.\n\n 4\n\n Landau's Choice (S 5 )\n\n An alternative to Moment of Victory with DMG% Reduction instead of DEF% scaling. Primarily useful for characters that specifically want to redirect and mitigate hits.\n\n 5\n\n Texture of Memories (S 5 )\n\n Survival focused Cone useful for characters that have kits themed around taking and mitigating damage for the team, especially if they have limited or conditional sustain/shielding options of their own.\n\n Specialist Light Cones\n 1\n\n Trend of the Universal Market (S 1 )\n\n Utility option useful in teams that thrive on having multiple debuffs on enemies or applying debuffs frequently. Grants solid stats for DEF scaling characters. Most notably used to great effect in Acheron teams as it generates her charges each time the wearer is hit.\n\n Best Relic Sets\n\n The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 1\n\n Self-Enshrouded Recluse ( 4 -PC)\n\n Best set for Shield based characters, improving their Shield strength and providing a teamwide CRIT DMG buff.\n Usage: 35.29 %\n MoC: -\n PF: 0\n AS: 0\n\n 2\n\n Knight of Purity Palace ( 4 -PC)\n\n Pure defensive option for Shield characters. Not recommended to farm as the domain is inefficient.\n 3\n\n Knight of Purity Palace ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Messenger Traversing Hackerspace\n\n Sacerdos' Relived Ordeal\n\n Diviner of Distant Reach\n\n Warrior Goddess of Sun and Thunder\n\n Usage: 64.71 %\n MoC: -\n PF: 0\n AS: 0\n\n Best Planetary Sets\n 1\n\n Broken Keel ( 2 -PC)\n\n An option for supports stacking Effect RES, while also increasing the entire team's CRIT DMG. Requires at least 30% Effect RES to activate.\n 2\n\n Fleet of the Ageless ( 2 -PC)\n\n Ideal for supporting teams that scale on ATK.\n 3\n\n Penacony, Land of the Dreams ( 2 -PC)\n\n Top option for supporting teams with the same Element as the wearer, and for its Energy Regen.\n 4\n\n Lushaka, the Sunken Seas ( 2 -PC)\n\n Top option for Supporting a single ATK-scaling DPS, and for its Energy Regen.\n\n Best Specialist Planetary Sets\n 1\n\n Belobog of the Architects ( 2 -PC)\n\n Hyper specialized but strong option for Defense scaling characters that also aim to stack a high amount of Effect Hit Rating. Only recommended for those building Gepard with a focus on getting enough Effect Hit Rating to fully active its effect.\n Usage: 100 %\n MoC: -\n PF: 0\n AS: 0\n\n Best Stats\n\n Body\n DEF%\n\n Feet\n Speed\n\n Planar Sphere\n DEF%\n\n Link Rope\n Energy Regen Rate\n\n Substats: SPD (breakpoint) = DEF% > HP% = EFF RES%\n\n This build focuses on creating the strongest Shields possible and some Effect Hit Rate to land the Freeze. Get Speed up to 134, then focus on DEF.\n\n Recommended endgame stats\n HP: 3000 - 3500+\n\n DEF: 2400 - 2900+\n\n SPD: 100 / 121 / 134+ (Best)\n\n ENERGY REGEN : 19.44%+\n\n Traces priority\n Skills priority: Ultimate > Skill = Talent = Basic\n\n Major Traces priority: Integrity (A2) > Fighting Spirit (A6) > Commander (A4)\n\n Synergy\n Acheron - Gepard has some of the biggest shields in the game and can reasonably get them back before they wear off with an inbuilt Taunt on his Trace. This works to his favour when wearing the Trend Light Cone, applying a debuff whenever an enemy hits him, giving Acheron her Slashed Dream stacks.\n Teams\n Memory of Chaos\n\n Pure Fiction\n\n Apocalyptic Shadow\n\n Anomaly Arbitration\n\n Rank 515\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 6\n\n MoC/PF/AS Statistics\n\n MoC/PF/AS Statistics"
+  "text": "Gepard Best Build Guide | Honkai: Star Rail\n \n\n Honkai: Star Rail\n Home Database Characters Light Cones Relic Sets Banners\n Tier Lists Tier List\n Endgame Memory of Chaos Pure Fiction Apocalyptic Shadow Anomaly Arbitration\n Tools Patch Timeline\n Guides Guides\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Honkai: Star Rail\n /\n Characters\n /\n Gepard\n Gepard Best Build Guide\n Last updated: 31/May/2026\n\n Introduction\n Best guide and build for Gepard from HSR (Honkai: Star Rail). Gepard is a 5 ★ character from the Ice element who follows the Path of Preservation .\n An upright and noble captain of the Silvermane Guards who bears the name of the age-old Gepard family. In the blizzard-battered city of Belobog, defense is much more challenging than attack. Gepard and the Silvermane Guards he leads serve as the unbreakable iron defense of the Union in this hostile world. Sometimes he is ridiculed by his sister and aide for his ever-scrupulous manner, but no one can deny that the people of Belobog have been able to maintain peace and comfort even with eternal winter on its doorstep...\n With Gepard's protection, the city can carry on with its ordinary daily routine.\n\n To learn more about Gepard check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Video guide\n This character has no video guide yet.\n\n Update tracker\n Last review update\n Patch 3.0\n\n Last major build/calcs update\n Patch 3.6\n\n Last profile update*\n 31/May/2026\n\n *Profile update means smaller edits to relics, stats, synergies or teams that don't require new calculations.\n To learn more about Gepard check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Kit\n\n Review\n\n Build and teams\n\n MoC/PF/AS Statistics\n\n Calculations\n\n Profile\n\n Skills\n Basic ATK\n Fist of Conviction\n Single Target\n\n Lv. 1\n\n Energy gain: 20\n Break: 10\n\n Deals Ice DMG equal to #1[i]% of Gepard's ATK to a single enemy.\n\n Skill\n Daunting Smite\n Impair\n\n Lv. 1\n\n Energy gain: 30\n Break: 20\n\n Deals Ice DMG equal to #1[i]% of Gepard's ATK to a single enemy, with a #2[i]% base chance to Freeze the enemy for #3[i] turn(s).\nWhile Frozen, the enemy cannot take action and will take Additional Ice DMG equal to #4[i]% of Gepard's ATK at the beginning of each turn.\n\n Ultimate\n Enduring Bulwark\n Defense | 100 energy cost\n\n Lv. 1\n\n Energy gain: 5\n Break: -\n\n Applies a Shield to all allies, absorbing DMG equal to #1[i]% of Gepard's DEF plus #3[i] for #2[i] turn(s).\n\n Talent\n Unyielding Will\n Restore\n\n Lv. 1\n\n Energy gain: 0\n Break: -\n\n When struck with a killing blow, instead of becoming knocked down, Gepard's HP immediately restores to #1[i]% of his Max HP. This effect can only trigger once per battle.\n\n Technique\n Comradery\n Defense\n\n Energy gain: 0\n Break: -\n\n After Gepard uses his Technique, when the next battle begins, a Shield will be applied to all allies, absorbing DMG equal to #1[i]% of Gepard's DEF plus #3[i] for #2[i] turn(s).\n\n Major Traces\n A2 Major trace\n Integrity\n\n Gepard has a higher chance to be attacked by enemies.\n\n A4 Major trace\n Commander\n\n When Unyielding Will is triggered, Gepard's Energy will be restored to 100% .\n\n A6 Major trace\n Fighting Spirit\n\n Gepard's ATK increases by 35% of his current DEF. This effect will refresh at the start of each turn.\n\n Minor Traces (total)\n Ice DMG\n + 22.4%\n\n Effect RES\n + 18%\n\n DEF\n + 12.5%\n\n Eidolons\n E 1\n Due Diligence\n Eidolon 1\n\n Base chance for Gepard's Skill to Freeze enemies increases by 35% .\n\n E 2\n Lingering Cold\n Eidolon 2\n\n After an enemy Frozen by Gepard's Skill is unfrozen, their SPD is reduced by 20% for 1 turn(s).\n\n E 3\n Never Surrender\n Eidolon 3\n\n Ultimate Lv. +2 , up to a maximum of Lv. 15. Talent Lv. +2 , up to a maximum of Lv. 15.\n\n E 4\n Faith Moves Mountains\n Eidolon 4\n\n When Gepard is in battle, all allies' Effect RES increases by 20% .\n\n E 5\n Cold Iron Fist\n Eidolon 5\n\n Skill Lv. +2 , up to a maximum of Lv. 15 . Basic ATK Lv. +1 . up to a maximum of Lv. 10 .\n\n E 6\n Unyielding Determination\n Eidolon 6\n\n When his Talent is triggered, Gepard's action is Advanced Forward by 100% , and he restores extra HP equal to 50% of his Max HP.\n\n Stats and materials\n\nEnable Ascension\n\n Level 80 stats\n HP\n\n 1397\n\n ATK\n\n 543\n\n DEF\n\n 654\n\n Speed\n\n 92\n\n Level 1 → 80 Ascension Materials\n\n Credit\n\n x 308000\n\n Silvermane Badge\n\n x 15\n\n Silvermane Insignia\n\n x 15\n\n Horn of Snow\n\n x 65\n\n Silvermane Medal\n\n x 15\n\n CV\n ENG\n Bryson Baugus\n\n JPN\n Furukawa Makoto (古川慎)\n\n CN\n Yang Ma (马洋)\n\n KR\n 민승우\n\n Gallery\n\n Review\n\n Pros & Cons\n Pros\n Very low investment.\n\n Mostly SP positive.\n\n Good teamwide shields.\n\n Good energy economy.\n\n Best user of the ‘Trend of the Universal Market’ LC.\n\n Cons\n Relies on his ultimate and gets shafted by energy reduction as a result.\n\n Can struggle with crowd control and damage over time effects.\n\n Freezing enemies is generally pretty unreliable.\n\n Low base speed.\n\n Has a harder time sustaining units that are fast or can action advance themselves.\n\n Review (By Sushou)\n Gepard is a capable Preservation sustain unit. He is a resilient tank that draws increased aggro from enemies passively and has very strong unconditional Shields from his Ultimate. He uniquely has a self-revive passive that allows him to recover once after being downed and will immediately restore his Energy to its maximum when it procs. Gepard also has some limited single-target Freeze utility with his Skill.\n Gepard is a unit whose value has fluctuated a fair bit over time but has landed on 'very decent'. He's got a lot more competition from all the sustain units released after him and this has led some to think he's no longer enough, but this isn't really true. Gepard's Shields are still very strong and funnily enough are starting to once again become more appreciated due to the large increases in damage from newer enemies.\n Shields and heals are largely interchangeable as a method of sustain as long as either can be maintained. The difference is that healing has more forgiveness if you make a mistake, while Shields are more forgiving against highly damaging foes; Shields can be thought of simply adding on a temporary health buffer to a character's existing HP bar, resulting in enemies dealing 'trash damage' — that is to say non meaningful damage, at least for as long as the damage doesn't spill over to the character's real health. Healing, however, can only work on whatever's not yet dead. Even lore-accurate Luocha isn't that good.\n As such, Gepard is one of very few units who can actually prevent the party from getting straight up one-shot by enemies, which is a highly coveted thing, especially against enemies like True Sting or Kafka who can pull out an unreasonable amount of damage even if you are prepared for it. The only other units who can do this as well are Fu Xuan and Aventurine - two absurdly powerful limited 5-star characters - whereas Gepard is a far more accessible standard 5-star.\n Gepard's Ultimate applies these Shields to all allies, absorbing up to 45% DEF plus 600 for 3 turns. This has a meagre Energy cost of only 100 meaning it is quite possible to keep these Shields up indefinitely, assuming they're not being broken. The actual scaling of these Shields is actually slightly lower than March 7th's Skill's Shield but it is applied to all allies instead of just one and doesn't consume a Skill Point, leading to Gepard being a completely SP positive sustain unit unless you have a reason to use his Skill. Due to Gepard's higher base DEF, this difference is actually still usually in favour of Gepard.\n His Skill attacks a single enemy and deals up to 200% ATK to them and has a 65% base chance to Freeze the target for 1 turn. Frozen enemies will take 60% ATK upon unfreezing. While not likely to be dealing any significant damage, the option to spend a Skill Point on the chance to Freeze an enemy is actually quite underrated in my experience. Frozen enemies can't deal damage to you, and this is unsurprisingly a good thing.\n The counterpoint to this is 'neither can dead enemies' and, honestly, fair and true. Unless you're going for DoT team shenanigans with Freeze tech to squeeze out extra DoT ticks from enemies, it's highly likely that if you're using this Skill as a means of bolstering your team's survivability, you're already way out of your depth; Gepard's Shields are already strong enough to deal with most things in the game, but the few things they struggle with cannot currently be overcome with more investment.\n There's just a hard limit on how much DEF Gepard can actually stack and some enemies can still just pierce through them in a single powerful attack. At that point it is far better to fix your damage issue , because as before, a dead enemy cannot hurt you. Survivability is just as much about your damage dealers as it is about your sustain unit. It is no accident that many 0-cycle clears of Memory of Chaos do not even use sustain units, opting instead for a third support character.\n It may seem odd for me to mention this on Gepard's review specifically, but Gepard is an archetypal Shielder. He quite literally does not have the ability to heal allies, meaning any 'real' damage you take in a fight is permanent. If you can't keep up, you have entered a battle of attrition that you will inevitably lose, and it is in these situations that the power and investment of your other units will be tested to the extreme. This will remain true for Gepard as well as any future Preservation units that follow in these archetypal footsteps.\n There is a way to alleviate this somewhat. Gepard's Talent offers him a 1 time self-revive, restoring 50% of his Max HP. This Talent is also where all of his Bonus Traces congregate, and they need to be talked about together to get a full picture. A2 increases Gepard's likelihood of being attacked by enemies substantially, adding on to the already higher chance that Preservation units have, A6 will convert 35% of Gepard's current DEF to ATK, updating the value at the start of each turn, and A4 will restore 100% Energy to Gepard upon triggering the Talent.\n With this, Gepard is likely to be attacked a lot, sometimes enough to down him even through his very high DEF and strong Shields. Often this is accompanied by heavy AoE damage, and this is where the A4 can come in to save the day, allowing him to immediately recast his Ultimate, potentially just in time to save the rest of his team. If the Talent is triggering at all, you're already in a battle of attrition, but the important distinction now is that it may not be inherently doomed.\n Gepard's Eidolons are something that you may get over time as he is a standard 5-star unit. He doesn't really need them, but they expand upon his Freezing playstyle without interfering with his capabilities as a sustain unit. E1 in particular increases the base chance of his Skill's Freeze to apply by 35%, for a new total of 100% base chance. A little bit of Effect Hit Rate can make this surprisingly consistent against anything without additional Control RES, and can work wonders in highly specialised DoT teams.\n While Aventurine's release showcased what a truly powerful Shielder can do, Gepard is still a great character and is definitely worth your time if you get him, especially since he's substantially better than your free options once you build him.\n\n Ratings\n Honkai: Star Rail is a game where team building matters most and while our tier list takes the optimal setup into account, a lot of characters can work and do well - even those ranked lower - when you invest into them. Also for story or lower difficulties of Simulated Universe, you don't need to worry about ratings and tiers. You can safely clear that content even with F2P characters as long as you build your team correctly.\n Character at 5★ are rated at their Eidolon 0 with level 80 best in slot 4★ or 5★ Light Cone (including limited Light Cones, but at S1).\n Available ratings:\n Memory of Chaos (MoC) - how the character performs in the Memory of Chaos. Blast and single target damage are important here while AoE has niche uses against some bosses.\n Pure Fiction (PF) - how the character performs in the Pure Fiction. AoE is king here, followed by Blast while single target damage is mostly useless.\n Apocalyptic Shadow (AS) - how the character performs in the Apocalyptic Shadow. Single target and Break is important here.\n\n Sustain\n T4\n MoC\n\n T4\n PF\n\n T4\n AS\n\n Build and teams\n\n Best Light Cones\n\n 1\n\n Journey, Forever Peaceful (S 5 )\n\n Best 4* Light Cone obtainable from BP, increasing Shield strength and DMG dealt by all allies.\n\n 2\n\n Moment of Victory (S 1 )\n\n Provides a permanent Taunting effect on the wearer, increasing the chance they'll be attacked dramatically. This effect and the DEF bonuses make this Cone a very powerful choice for most Preservation characters.\n Usage: 100 %\n MoC: -\n PF: 0\n AS: 0\n\n 3\n\n Day One of My New Life (S 5 )\n\n Decent option based on its team-wide damage reduction and good stats for DEF% scaling characters.\n\n 4\n\n Landau's Choice (S 5 )\n\n An alternative to Moment of Victory with DMG% Reduction instead of DEF% scaling. Primarily useful for characters that specifically want to redirect and mitigate hits.\n\n 5\n\n Texture of Memories (S 5 )\n\n Survival focused Cone useful for characters that have kits themed around taking and mitigating damage for the team, especially if they have limited or conditional sustain/shielding options of their own.\n\n Specialist Light Cones\n 1\n\n Trend of the Universal Market (S 1 )\n\n Utility option useful in teams that thrive on having multiple debuffs on enemies or applying debuffs frequently. Grants solid stats for DEF scaling characters. Most notably used to great effect in Acheron teams as it generates her charges each time the wearer is hit.\n\n Best Relic Sets\n\n The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 1\n\n Self-Enshrouded Recluse ( 4 -PC)\n\n Best set for Shield based characters, improving their Shield strength and providing a teamwide CRIT DMG buff.\n Usage: 56.67 %\n MoC: -\n PF: 0\n AS: 0\n\n 2\n\n Knight of Purity Palace ( 4 -PC)\n\n Pure defensive option for Shield characters. Not recommended to farm as the domain is inefficient.\n Usage: 16.67 %\n MoC: -\n PF: 0\n AS: 0\n\n 3\n\n Knight of Purity Palace ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Messenger Traversing Hackerspace\n\n Sacerdos' Relived Ordeal\n\n Diviner of Distant Reach\n\n Warrior Goddess of Sun and Thunder\n\n Usage: 26.67 %\n MoC: -\n PF: 0\n AS: 0\n\n Best Planetary Sets\n 1\n\n Broken Keel ( 2 -PC)\n\n An option for supports stacking Effect RES, while also increasing the entire team's CRIT DMG. Requires at least 30% Effect RES to activate.\n 2\n\n Fleet of the Ageless ( 2 -PC)\n\n Ideal for supporting teams that scale on ATK.\n 3\n\n Penacony, Land of the Dreams ( 2 -PC)\n\n Top option for supporting teams with the same Element as the wearer, and for its Energy Regen.\n 4\n\n Lushaka, the Sunken Seas ( 2 -PC)\n\n Top option for Supporting a single ATK-scaling DPS, and for its Energy Regen.\n Usage: 56.67 %\n MoC: -\n PF: 0\n AS: 0\n\n Best Specialist Planetary Sets\n 1\n\n Belobog of the Architects ( 2 -PC)\n\n Hyper specialized but strong option for Defense scaling characters that also aim to stack a high amount of Effect Hit Rating. Only recommended for those building Gepard with a focus on getting enough Effect Hit Rating to fully active its effect.\n Usage: 43.33 %\n MoC: -\n PF: 0\n AS: 0\n\n Best Stats\n\n Body\n DEF%\n\n Feet\n Speed\n\n Planar Sphere\n DEF%\n\n Link Rope\n Energy Regen Rate\n\n Substats: SPD (breakpoint) = DEF% > HP% = EFF RES%\n\n This build focuses on creating the strongest Shields possible and some Effect Hit Rate to land the Freeze. Get Speed up to 134, then focus on DEF.\n\n Recommended endgame stats\n HP: 3000 - 3500+\n\n DEF: 2400 - 2900+\n\n SPD: 100 / 121 / 134+ (Best)\n\n ENERGY REGEN : 19.44%+\n\n Traces priority\n Skills priority: Ultimate > Skill = Talent = Basic\n\n Major Traces priority: Integrity (A2) > Fighting Spirit (A6) > Commander (A4)\n\n Synergy\n Acheron - Gepard has some of the biggest shields in the game and can reasonably get them back before they wear off with an inbuilt Taunt on his Trace. This works to his favour when wearing the Trend Light Cone, applying a debuff whenever an enemy hits him, giving Acheron her Slashed Dream stacks.\n Teams\n Memory of Chaos\n\n Pure Fiction\n\n Apocalyptic Shadow\n\n Anomaly Arbitration\n\n Rank 758\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 5\n\n Rank 758\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 7\n\n Rank 758\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 7\n\n Rank 758\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 12\n\n Rank 758\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 12\n\n Rank 758\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 7.5\n\n Rank 758\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 9\n\n MoC/PF/AS Statistics\n\n MoC/PF/AS Statistics"
 }

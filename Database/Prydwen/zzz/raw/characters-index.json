@@ -3,7 +3,7 @@
   "game": "zzz",
   "collection": "characters",
   "sourcePath": "/zenless/characters",
-  "scrapedAt": "2026-07-28T07:58:34.337Z",
+  "scrapedAt": "2026-08-02T07:43:41.101Z",
   "detailPagesTotal": 64,
   "detailPagesScraped": 64,
   "staleDetailPagesRemoved": 0,
@@ -277,12 +277,10 @@
     {
       "id": "norma",
       "slug": "norma",
-      "name": "Norma New",
+      "name": "Norma",
       "sourcePath": "/zenless/characters/norma",
       "contentStatus": "live",
-      "statusLabels": [
-        "New"
-      ]
+      "statusLabels": []
     },
     {
       "id": "orphie-and-magus",
@@ -353,10 +351,12 @@
     {
       "id": "remielle",
       "slug": "remielle",
-      "name": "Remielle",
+      "name": "Remielle New",
       "sourcePath": "/zenless/characters/remielle",
       "contentStatus": "live",
-      "statusLabels": []
+      "statusLabels": [
+        "New"
+      ]
     },
     {
       "id": "rina",

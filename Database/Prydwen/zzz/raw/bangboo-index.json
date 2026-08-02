@@ -3,7 +3,7 @@
   "game": "zzz",
   "collection": "bangboo",
   "sourcePath": "/zenless/bangboo",
-  "scrapedAt": "2026-07-28T07:58:34.337Z",
+  "scrapedAt": "2026-08-02T07:43:41.101Z",
   "detailPagesTotal": 0,
   "detailPagesScraped": 0,
   "staleDetailPagesRemoved": 0,
@@ -33,6 +33,19 @@
         "rarity": "S -Rank"
       },
       "text": "Amillion\nRarity: S -Rank"
+    },
+    {
+      "id": "ariel",
+      "name": "Ariel",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "S -Rank"
+      },
+      "text": "Ariel\nRarity: S -Rank"
     },
     {
       "id": "avocaboo",

@@ -4,9 +4,9 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-08-02T00:27:43.671Z",
+  "generatedAt": "2026-08-02T07:46:39.221Z",
   "codes": {
-    "updated": "2026-08-02T00:03:37.662Z",
+    "updated": "2026-08-02T07:46:13.729Z",
     "maxAgeDays": 28,
     "games": {
       "gi": [
@@ -398,13 +398,13 @@ var NYX_DB = {
   },
   "banners": {
     "updated": "2026-07-21T16:13:51.549Z",
-    "checkedAt": "2026-07-28T08:00:36.412Z",
+    "checkedAt": "2026-08-02T07:45:56.445Z",
     "games": {
       "hsr": {
         "name": "Honkai: Star Rail",
         "freshness": {
           "status": "stale",
-          "checkedAt": "2026-07-28T08:00:36.412Z",
+          "checkedAt": "2026-08-02T07:45:56.445Z",
           "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
           "lastValidUpdate": "2026-07-21T16:13:51.549Z",
           "source": "game8",
@@ -443,7 +443,7 @@ var NYX_DB = {
         "name": "Genshin Impact",
         "freshness": {
           "status": "stale",
-          "checkedAt": "2026-07-28T08:00:36.412Z",
+          "checkedAt": "2026-08-02T07:45:56.445Z",
           "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
           "lastValidUpdate": "2026-07-21T16:13:51.549Z",
           "source": "game8",
@@ -473,7 +473,7 @@ var NYX_DB = {
         "name": "Wuthering Waves",
         "freshness": {
           "status": "stale",
-          "checkedAt": "2026-07-28T08:00:36.412Z",
+          "checkedAt": "2026-08-02T07:45:56.445Z",
           "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
           "lastValidUpdate": "2026-07-21T16:13:51.549Z",
           "source": "game8",
@@ -530,7 +530,7 @@ var NYX_DB = {
         "name": "Zenless Zone Zero",
         "freshness": {
           "status": "stale",
-          "checkedAt": "2026-07-28T08:00:36.412Z",
+          "checkedAt": "2026-08-02T07:45:56.445Z",
           "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
           "lastValidUpdate": "2026-07-21T16:13:51.549Z",
           "source": "game8",
@@ -603,7 +603,7 @@ var NYX_DB = {
         "name": "Arknights: Endfield",
         "freshness": {
           "status": "stale",
-          "checkedAt": "2026-07-28T08:00:36.412Z",
+          "checkedAt": "2026-08-02T07:45:56.445Z",
           "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
           "lastValidUpdate": "2026-07-21T16:13:51.549Z",
           "source": "game8",
@@ -4458,7 +4458,7 @@ var NYX_DB = {
         "name": "Genshin Impact",
         "freshness": {
           "status": "stale",
-          "checkedAt": "2026-07-28T08:00:36.412Z",
+          "checkedAt": "2026-08-02T07:45:56.445Z",
           "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
           "lastValidUpdate": "2026-07-21T16:13:51.549Z",
           "source": "game8",
@@ -4485,7 +4485,7 @@ var NYX_DB = {
         "upcoming": []
       },
       "tcg": {
-        "updated": "2026-07-28T09:31:05.330Z",
+        "updated": "2026-08-02T07:46:19.739Z",
         "counts": {
           "characterCards": 106,
           "otherCards": 513
@@ -150958,7 +150958,7 @@ var NYX_DB = {
         "name": "Honkai: Star Rail",
         "freshness": {
           "status": "stale",
-          "checkedAt": "2026-07-28T08:00:36.412Z",
+          "checkedAt": "2026-08-02T07:45:56.445Z",
           "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
           "lastValidUpdate": "2026-07-21T16:13:51.549Z",
           "source": "game8",
@@ -152774,7 +152774,7 @@ var NYX_DB = {
         {
           "key": "w-engines",
           "title": "W-Engines",
-          "updatedText": "18/July/2026",
+          "updatedText": "28/July/2026",
           "source": "Prydwen",
           "count": 96,
           "items": [
@@ -153604,6 +153604,21 @@ var NYX_DB = {
               "labels": []
             },
             {
+              "id": "ode-of-resurrected-wings",
+              "name": "Ode of Resurrected Wings",
+              "kind": "w-engines",
+              "art": "../../Database/Prydwen/zzz/assets/w-engines/ode-of-resurrected-wings-958ea696c848.webp",
+              "fields": {
+                "rarity": "5 \u2605",
+                "type": "Anomaly",
+                "base_atk_lv_60": "743",
+                "atk_lv_60": "36"
+              },
+              "text": "Ode of Resurrected Wings\nRarity: S | Type: Anomaly\nIncreases Anomaly Proficiency by 96/105/115/125/135 . When the equipper triggers a Refringe reaction, they gain 20/23/26/29/32% increased Anomaly DMG, and all squad members gain 30/34.5/39/43.5/48% increased DMG dealt. Both effects last 30s . Repeated triggers reset the duration.\nBase ATK (Lv 60): 743\nATK% (Lv 60): 36",
+              "status": "live",
+              "labels": []
+            },
+            {
               "id": "original-transmorpher",
               "name": "Original Transmorpher",
               "kind": "w-engines",
@@ -153630,19 +153645,6 @@ var NYX_DB = {
                 "attack_lv_60": "25"
               },
               "text": "Peacekeeper - Specialized\nRarity: A | Type: Defence\nWhile Shielded, the equipper's Energy Regen increases by 0.4/s . The Anomaly Buildup of EX Special Attacks and Assist Follow-Ups increase by 36% .\nBase ATK (Lv 60): 624\nAttack (Lv 60): 25",
-              "status": "live",
-              "labels": []
-            },
-            {
-              "id": "poem-of-the-empty-feather-return",
-              "name": "Poem of the Empty Feather Return",
-              "kind": "w-engines",
-              "art": "../../Database/Prydwen/zzz/assets/w-engines/poem-of-the-empty-feather-return-958ea696c848.webp",
-              "fields": {
-                "rarity": "5 \u2605",
-                "type": "Anomaly"
-              },
-              "text": "Poem of the Empty Feather Return\nRarity: S | Type: Anomaly\nComing Soon!\nStats for this W-Engine aren't available yet.",
               "status": "live",
               "labels": []
             },
@@ -154221,9 +154223,9 @@ var NYX_DB = {
         {
           "key": "disk-drives",
           "title": "Drive Discs",
-          "updatedText": "16/June/2026",
+          "updatedText": "28/July/2026",
           "source": "Prydwen",
-          "count": 28,
+          "count": 29,
           "items": [
             {
               "id": "astral-voice",
@@ -154334,6 +154336,22 @@ var NYX_DB = {
                 "twoPieceStat": "Physical DMG"
               },
               "text": "Fanged Metal\n(2) Physical DMG + 10% .\n(4) Whenever a squad member inflicts Assault on an enemy, the equipper deals 35% increased damage to the target for 12s .",
+              "status": "live",
+              "labels": []
+            },
+            {
+              "id": "feathered-fate",
+              "name": "Feathered Fate",
+              "kind": "drive-discs",
+              "art": "../../Database/Prydwen/zzz/assets/drive-discs/feathered-fate-6085253f9505.webp",
+              "fields": {
+                "bonuses": [
+                  "(2) Anomaly Proficiency +30",
+                  "(4) When the equipper enters the battlefield or is switched in as the active character, they gain the following buff: Anomaly Proficiency increases by 50 . If the equipper is a Lumiflux character, Attribute Anomaly DMG increases by 15% , lasting 15s . This buff remains active while the equipper is off-field."
+                ],
+                "twoPieceStat": "Anomaly Proficiency"
+              },
+              "text": "Feathered Fate\n(2) Anomaly Proficiency +30\n(4) When the equipper enters the battlefield or is switched in as the active character, they gain the following buff: Anomaly Proficiency increases by 50 . If the equipper is a Lumiflux character, Attribute Anomaly DMG increases by 15% , lasting 15s . This buff remains active while the equipper is off-field.",
               "status": "live",
               "labels": []
             },
@@ -156494,7 +156512,7 @@ var NYX_DB = {
         "name": "Zenless Zone Zero",
         "freshness": {
           "status": "stale",
-          "checkedAt": "2026-07-28T08:00:36.412Z",
+          "checkedAt": "2026-08-02T07:45:56.445Z",
           "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
           "lastValidUpdate": "2026-07-21T16:13:51.549Z",
           "source": "game8",
@@ -156565,86 +156583,20 @@ var NYX_DB = {
       },
       "roster": [
         {
-          "id": "zzz-remielle",
-          "name": "Remielle",
+          "id": "zzz-alice",
+          "name": "Alice",
           "aliases": [],
+          "title": "Within Her Heterochromatic Gaze",
           "rarity": "S",
-          "element": "Lumiflux",
+          "element": "Physical",
           "role": "Anomaly",
-          "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle67.webp",
-          "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole67.webp",
+          "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle46.webp",
+          "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole46.webp",
           "facts": {
-            "fullName": "Remielle Dan",
-            "faction": "Covenant of Dayat",
-            "birthday": "March 14"
-          },
-          "forms": []
-        },
-        {
-          "id": "zzz-lycaon",
-          "name": "Lycaon",
-          "aliases": [],
-          "title": "Thank You For Requesting Me",
-          "rarity": "S",
-          "element": "Ice",
-          "role": "Stun",
-          "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle18.webp",
-          "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole18.webp",
-          "facts": {
-            "fullName": "Von Lycaon",
-            "faction": "Victoria Housekeeping Co.",
-            "birthday": "October 4",
-            "title": "Thank You For Requesting Me"
-          },
-          "forms": []
-        },
-        {
-          "id": "zzz-norma",
-          "name": "Norma",
-          "aliases": [],
-          "title": "En-Nah Time",
-          "rarity": "S",
-          "element": "Fire",
-          "role": "Stun",
-          "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle65.webp",
-          "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole65.webp",
-          "facts": {
-            "fullName": "Norma Hollowell",
-            "faction": "Roscaelifer",
-            "birthday": "July 26",
-            "title": "En-Nah Time"
-          },
-          "forms": []
-        },
-        {
-          "id": "zzz-pyrois",
-          "name": "Pyrois",
-          "aliases": [],
-          "rarity": "S",
-          "element": "Ether",
-          "role": "Attack",
-          "icon": "../../Database/GameData/zzz/assets/agents/icons/IconRole63.webp",
-          "art": "../../Database/GameData/zzz/assets/agents/icons/IconRole63.webp",
-          "facts": {
-            "faction": "Phaethon"
-          },
-          "forms": []
-        },
-        {
-          "id": "zzz-velina",
-          "name": "Velina",
-          "aliases": [],
-          "title": "Beyond Etiquette",
-          "rarity": "S",
-          "element": "Wind",
-          "role": "Anomaly",
-          "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle64.webp",
-          "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole64.webp",
-          "facts": {
-            "fullName": "Velina Airgid",
-            "faction": "Roscaelifer",
-            "birthday": "September 22",
-            "title": "Beyond Etiquette"
+            "fullName": "Alice Thymefield",
+            "faction": "Spook Shack",
+            "birthday": "August 30",
+            "title": "Within Her Heterochromatic Gaze"
           },
           "forms": []
         },
@@ -156663,148 +156615,6 @@ var NYX_DB = {
             "faction": "Angels of Delusion",
             "birthday": "June 7",
             "title": "Kingdom of Delusion"
-          },
-          "forms": []
-        },
-        {
-          "id": "zzz-burnice",
-          "name": "Burnice",
-          "aliases": [],
-          "title": "An Invitation or Provocation?",
-          "rarity": "S",
-          "element": "Fire",
-          "role": "Anomaly",
-          "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle32.webp",
-          "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole32.webp",
-          "facts": {
-            "fullName": "Burnice White",
-            "faction": "Sons of Calydon",
-            "birthday": "May 23",
-            "title": "An Invitation or Provocation?"
-          },
-          "forms": []
-        },
-        {
-          "id": "zzz-grace-howard",
-          "name": "Grace",
-          "aliases": [],
-          "title": "A Promise Unbroken",
-          "rarity": "S",
-          "element": "Electric",
-          "role": "Anomaly",
-          "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle20.webp",
-          "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole20.webp",
-          "facts": {
-            "fullName": "Grace Howard",
-            "faction": "Belobog Heavy Industries",
-            "birthday": "April 14",
-            "title": "A Promise Unbroken"
-          },
-          "forms": []
-        },
-        {
-          "id": "zzz-nangong-yu",
-          "name": "Nangong Yu",
-          "aliases": [],
-          "title": "Tear Gland Insurance",
-          "rarity": "S",
-          "element": "Ether",
-          "role": "Stun",
-          "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle59.webp",
-          "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole59.webp",
-          "facts": {
-            "fullName": "Nangong Yu",
-            "faction": "Angels of Delusion",
-            "birthday": "September 29",
-            "title": "Tear Gland Insurance"
-          },
-          "forms": []
-        },
-        {
-          "id": "zzz-vivian",
-          "name": "Vivian",
-          "aliases": [],
-          "title": "Love Like a Bouquet",
-          "rarity": "S",
-          "element": "Ether",
-          "role": "Anomaly",
-          "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle41.webp",
-          "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole41.webp",
-          "facts": {
-            "fullName": "Vivian Banshee",
-            "faction": "Mockingbird",
-            "birthday": "April 10",
-            "title": "Love Like a Bouquet"
-          },
-          "forms": []
-        },
-        {
-          "id": "zzz-sigrid",
-          "name": "Sigrid",
-          "aliases": [],
-          "rarity": "S",
-          "element": "Ice",
-          "role": "Attack",
-          "icon": "../../Database/Prydwen/zzz/assets/characters/sigrid-30ecebbe136b.webp",
-          "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole66.webp",
-          "facts": {
-            "fullName": "Sigrid de L'Azur",
-            "faction": "Roscaelifer",
-            "birthday": "April 23"
-          },
-          "forms": []
-        },
-        {
-          "id": "zzz-orphie-and-magus",
-          "name": "Orphie & Magus",
-          "aliases": [],
-          "title": "Peach-Flavored Flash Suppressor",
-          "rarity": "S",
-          "element": "Fire",
-          "role": "Attack",
-          "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle49.webp",
-          "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole49.webp",
-          "facts": {
-            "fullName": "Orphie Magnusson & Magus",
-            "faction": "New Eridu Defense Force",
-            "birthday": "November 3",
-            "title": "Peach-Flavored Flash Suppressor"
-          },
-          "forms": []
-        },
-        {
-          "id": "zzz-ye-shunguang",
-          "name": "Ye Shunguang",
-          "aliases": [],
-          "title": "Another Self",
-          "rarity": "S",
-          "element": "Physical",
-          "role": "Attack",
-          "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle55.webp",
-          "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole55.webp",
-          "facts": {
-            "fullName": "Ye Shunguang",
-            "faction": "Yunkui Summit",
-            "birthday": "January 20",
-            "title": "Another Self"
-          },
-          "forms": []
-        },
-        {
-          "id": "zzz-alice",
-          "name": "Alice",
-          "aliases": [],
-          "title": "Within Her Heterochromatic Gaze",
-          "rarity": "S",
-          "element": "Physical",
-          "role": "Anomaly",
-          "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle46.webp",
-          "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole46.webp",
-          "facts": {
-            "fullName": "Alice Thymefield",
-            "faction": "Spook Shack",
-            "birthday": "August 30",
-            "title": "Within Her Heterochromatic Gaze"
           },
           "forms": []
         },
@@ -156841,6 +156651,24 @@ var NYX_DB = {
             "faction": "Krampus Compliance Authority",
             "birthday": "July 24",
             "title": "No Way Back"
+          },
+          "forms": []
+        },
+        {
+          "id": "zzz-burnice",
+          "name": "Burnice",
+          "aliases": [],
+          "title": "An Invitation or Provocation?",
+          "rarity": "S",
+          "element": "Fire",
+          "role": "Anomaly",
+          "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle32.webp",
+          "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole32.webp",
+          "facts": {
+            "fullName": "Burnice White",
+            "faction": "Sons of Calydon",
+            "birthday": "May 23",
+            "title": "An Invitation or Provocation?"
           },
           "forms": []
         },
@@ -156931,6 +156759,24 @@ var NYX_DB = {
             "faction": "Stars of Lyra",
             "birthday": "October 7",
             "title": "Impromptu Combat Practice"
+          },
+          "forms": []
+        },
+        {
+          "id": "zzz-grace-howard",
+          "name": "Grace",
+          "aliases": [],
+          "title": "A Promise Unbroken",
+          "rarity": "S",
+          "element": "Electric",
+          "role": "Anomaly",
+          "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle20.webp",
+          "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole20.webp",
+          "facts": {
+            "fullName": "Grace Howard",
+            "faction": "Belobog Heavy Industries",
+            "birthday": "April 14",
+            "title": "A Promise Unbroken"
           },
           "forms": []
         },
@@ -157061,6 +156907,24 @@ var NYX_DB = {
           "forms": []
         },
         {
+          "id": "zzz-lycaon",
+          "name": "Lycaon",
+          "aliases": [],
+          "title": "Thank You For Requesting Me",
+          "rarity": "S",
+          "element": "Ice",
+          "role": "Stun",
+          "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle18.webp",
+          "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole18.webp",
+          "facts": {
+            "fullName": "Von Lycaon",
+            "faction": "Victoria Housekeeping Co.",
+            "birthday": "October 4",
+            "title": "Thank You For Requesting Me"
+          },
+          "forms": []
+        },
+        {
           "id": "zzz-miyabi",
           "name": "Miyabi",
           "aliases": [],
@@ -157075,6 +156939,24 @@ var NYX_DB = {
             "faction": "Hollow Special Operations Section 6",
             "birthday": "June 19",
             "title": "Today's Training"
+          },
+          "forms": []
+        },
+        {
+          "id": "zzz-nangong-yu",
+          "name": "Nangong Yu",
+          "aliases": [],
+          "title": "Tear Gland Insurance",
+          "rarity": "S",
+          "element": "Ether",
+          "role": "Stun",
+          "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle59.webp",
+          "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole59.webp",
+          "facts": {
+            "fullName": "Nangong Yu",
+            "faction": "Angels of Delusion",
+            "birthday": "September 29",
+            "title": "Tear Gland Insurance"
           },
           "forms": []
         },
@@ -157097,6 +156979,42 @@ var NYX_DB = {
           "forms": []
         },
         {
+          "id": "zzz-norma",
+          "name": "Norma",
+          "aliases": [],
+          "title": "En-Nah Time",
+          "rarity": "S",
+          "element": "Fire",
+          "role": "Stun",
+          "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle65.webp",
+          "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole65.webp",
+          "facts": {
+            "fullName": "Norma Hollowell",
+            "faction": "Roscaelifer",
+            "birthday": "July 26",
+            "title": "En-Nah Time"
+          },
+          "forms": []
+        },
+        {
+          "id": "zzz-orphie-and-magus",
+          "name": "Orphie & Magus",
+          "aliases": [],
+          "title": "Peach-Flavored Flash Suppressor",
+          "rarity": "S",
+          "element": "Fire",
+          "role": "Attack",
+          "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle49.webp",
+          "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole49.webp",
+          "facts": {
+            "fullName": "Orphie Magnusson & Magus",
+            "faction": "New Eridu Defense Force",
+            "birthday": "November 3",
+            "title": "Peach-Flavored Flash Suppressor"
+          },
+          "forms": []
+        },
+        {
           "id": "zzz-promeia",
           "name": "Promeia",
           "aliases": [],
@@ -157115,6 +157033,20 @@ var NYX_DB = {
           "forms": []
         },
         {
+          "id": "zzz-pyrois",
+          "name": "Pyrois",
+          "aliases": [],
+          "rarity": "S",
+          "element": "Ether",
+          "role": "Attack",
+          "icon": "../../Database/GameData/zzz/assets/agents/icons/IconRole63.webp",
+          "art": "../../Database/GameData/zzz/assets/agents/icons/IconRole63.webp",
+          "facts": {
+            "faction": "Phaethon"
+          },
+          "forms": []
+        },
+        {
           "id": "zzz-qingyi",
           "name": "Qingyi",
           "aliases": [],
@@ -157129,6 +157061,24 @@ var NYX_DB = {
             "faction": "New Eridu Public Security",
             "birthday": "January 1",
             "title": "Drink Hot Water"
+          },
+          "forms": []
+        },
+        {
+          "id": "zzz-remielle",
+          "name": "Remielle",
+          "aliases": [],
+          "title": "Stray Birds",
+          "rarity": "S",
+          "element": "Lumiflux",
+          "role": "Anomaly",
+          "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle67.webp",
+          "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole67.webp",
+          "facts": {
+            "fullName": "Remielle Dan",
+            "faction": "Covenant of Dayat",
+            "birthday": "March 14",
+            "title": "Stray Birds"
           },
           "forms": []
         },
@@ -157223,6 +157173,42 @@ var NYX_DB = {
           "forms": []
         },
         {
+          "id": "zzz-velina",
+          "name": "Velina",
+          "aliases": [],
+          "title": "Beyond Etiquette",
+          "rarity": "S",
+          "element": "Wind",
+          "role": "Anomaly",
+          "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle64.webp",
+          "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole64.webp",
+          "facts": {
+            "fullName": "Velina Airgid",
+            "faction": "Roscaelifer",
+            "birthday": "September 22",
+            "title": "Beyond Etiquette"
+          },
+          "forms": []
+        },
+        {
+          "id": "zzz-vivian",
+          "name": "Vivian",
+          "aliases": [],
+          "title": "Love Like a Bouquet",
+          "rarity": "S",
+          "element": "Ether",
+          "role": "Anomaly",
+          "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle41.webp",
+          "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole41.webp",
+          "facts": {
+            "fullName": "Vivian Banshee",
+            "faction": "Mockingbird",
+            "birthday": "April 10",
+            "title": "Love Like a Bouquet"
+          },
+          "forms": []
+        },
+        {
           "id": "zzz-yanagi",
           "name": "Yanagi",
           "aliases": [],
@@ -157237,6 +157223,24 @@ var NYX_DB = {
             "faction": "Hollow Special Operations Section 6",
             "birthday": "September 21",
             "title": "Final Emergency Plan"
+          },
+          "forms": []
+        },
+        {
+          "id": "zzz-ye-shunguang",
+          "name": "Ye Shunguang",
+          "aliases": [],
+          "title": "Another Self",
+          "rarity": "S",
+          "element": "Physical",
+          "role": "Attack",
+          "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle55.webp",
+          "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole55.webp",
+          "facts": {
+            "fullName": "Ye Shunguang",
+            "faction": "Yunkui Summit",
+            "birthday": "January 20",
+            "title": "Another Self"
           },
           "forms": []
         },
@@ -157563,6 +157567,22 @@ var NYX_DB = {
             "title": "Take a Break"
           },
           "forms": []
+        },
+        {
+          "id": "zzz-sigrid",
+          "name": "Sigrid",
+          "aliases": [],
+          "rarity": "S",
+          "element": "Ice",
+          "role": "Attack",
+          "icon": "../../Database/Prydwen/zzz/assets/characters/sigrid-30ecebbe136b.webp",
+          "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole66.webp",
+          "facts": {
+            "fullName": "Sigrid de L'Azur",
+            "faction": "Roscaelifer",
+            "birthday": "April 23"
+          },
+          "forms": []
         }
       ]
     },
@@ -157574,7 +157594,7 @@ var NYX_DB = {
         {
           "key": "weapons",
           "title": "Weapons",
-          "updatedText": "13/July/2026",
+          "updatedText": "01/August/2026",
           "source": "Prydwen",
           "count": 120,
           "items": [
@@ -158058,10 +158078,10 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Rectifier",
-                "atk_lv_90": "0",
-                "lv_90": "0 %"
+                "atk_lv_90": "413",
+                "energy_regen_lv_90": "77.04 %"
               },
-              "text": "Firstlight's Herald\nRarity: 5 \u2605\nType: Rectifier\nATK (Lv.90): 0\n(Lv.90): 0 %",
+              "text": "Firstlight's Herald\nRarity: 5 \u2605\nType: Rectifier\nATK (Lv.90): 413\nEnergy Regen (Lv.90): 77.04 %",
               "status": "live",
               "labels": []
             },
@@ -161315,7 +161335,7 @@ var NYX_DB = {
         "name": "Wuthering Waves",
         "freshness": {
           "status": "stale",
-          "checkedAt": "2026-07-28T08:00:36.412Z",
+          "checkedAt": "2026-08-02T07:45:56.445Z",
           "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
           "lastValidUpdate": "2026-07-21T16:13:51.549Z",
           "source": "game8",
@@ -166358,7 +166378,7 @@ var NYX_DB = {
         "name": "Arknights: Endfield",
         "freshness": {
           "status": "stale",
-          "checkedAt": "2026-07-28T08:00:36.412Z",
+          "checkedAt": "2026-08-02T07:45:56.445Z",
           "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
           "lastValidUpdate": "2026-07-21T16:13:51.549Z",
           "source": "game8",

@@ -3,7 +3,7 @@
   "label": "Honkai: Star Rail",
   "source": "GachaBase beta changelog",
   "sourceUrl": "https://hsr.gachabase.net/changelog/beta?lang=en",
-  "scrapedAt": "2026-07-28T08:00:23.760Z",
+  "scrapedAt": "2026-08-02T07:45:43.534Z",
   "title": "Changelog - v4.4.5X | Honkai: Star Rail | Gachabase",
   "categoryLinks": [
     {
@@ -130,46 +130,86 @@
       "type": "tutorials",
       "href": "https://hsr.gachabase.net/tutorials/currency-wars/beta?lang=en",
       "text": "Currency Wars"
-    },
-    {
-      "type": "characters",
-      "href": "https://hsr.gachabase.net/characters/1513/aventurine-waveflair/beta?lang=en",
-      "text": "Aventurine • Waveflair"
-    },
-    {
-      "type": "characters",
-      "href": "https://hsr.gachabase.net/characters/1512/robin-summeretto/beta?lang=en",
-      "text": "Robin • Summeretto"
-    },
-    {
-      "type": "characters",
-      "href": "https://hsr.gachabase.net/characters/1510/himeko-nova/beta?lang=en",
-      "text": "Himeko • Nova"
-    },
-    {
-      "type": "characters",
-      "href": "https://hsr.gachabase.net/characters/1501/sparxie/beta?lang=en",
-      "text": "Sparxie"
-    },
-    {
-      "type": "characters",
-      "href": "https://hsr.gachabase.net/characters/1004/welt/beta?lang=en",
-      "text": "Welt"
     }
   ],
   "counts": {
-    "entries": 23,
+    "entries": 28,
     "byType": {
-      "characters": 14,
+      "characters": 19,
       "lightcones": 8,
       "planar-ornaments": 1
     },
     "byStatus": {
-      "updated": 17,
+      "updated": 22,
       "new": 6
     }
   },
   "entries": [
+    {
+      "game": "hsr",
+      "type": "characters",
+      "id": "1004",
+      "rarity": 5,
+      "name": "Welt",
+      "iconHash": "b8e968d79adaeef4b592a197a167ff34",
+      "status": "updated",
+      "href": "https://hsr.gachabase.net/characters/1004/welt/beta/4.4.53/15893225",
+      "diff": "https://hsr.gachabase.net/diff/characters/1004/welt?prev=beta_4.4.52_15802789&cur=beta_4.4.53_15893225",
+      "betaVersion": "4.4.53",
+      "revision": "15893225"
+    },
+    {
+      "game": "hsr",
+      "type": "characters",
+      "id": "1501",
+      "rarity": 5,
+      "name": "Sparxie",
+      "iconHash": "09ee6e2618ac2a0dab2aec8d73b0bb01",
+      "status": "updated",
+      "href": "https://hsr.gachabase.net/characters/1501/sparxie/beta/4.4.53/15893225",
+      "diff": "https://hsr.gachabase.net/diff/characters/1501/sparxie?prev=beta_4.4.52_15802789&cur=beta_4.4.53_15893225",
+      "betaVersion": "4.4.53",
+      "revision": "15893225"
+    },
+    {
+      "game": "hsr",
+      "type": "characters",
+      "id": "1510",
+      "rarity": 5,
+      "name": "Himeko • Nova",
+      "iconHash": "a02fa50e1826ff9d666e9a1e9299fd72",
+      "status": "updated",
+      "href": "https://hsr.gachabase.net/characters/1510/himeko-nova/beta/4.4.53/15893225",
+      "diff": "https://hsr.gachabase.net/diff/characters/1510/himeko-nova?prev=beta_4.4.52_15802789&cur=beta_4.4.53_15893225",
+      "betaVersion": "4.4.53",
+      "revision": "15893225"
+    },
+    {
+      "game": "hsr",
+      "type": "characters",
+      "id": "1512",
+      "rarity": 5,
+      "name": "Robin • Summeretto",
+      "iconHash": "98bcc901782bee57cb5907f354f0c2d5",
+      "status": "updated",
+      "href": "https://hsr.gachabase.net/characters/1512/robin-summeretto/beta/4.4.53/15893225",
+      "diff": "https://hsr.gachabase.net/diff/characters/1512/robin-summeretto?prev=beta_4.4.52_15802789&cur=beta_4.4.53_15893225",
+      "betaVersion": "4.4.53",
+      "revision": "15893225"
+    },
+    {
+      "game": "hsr",
+      "type": "characters",
+      "id": "1513",
+      "rarity": 5,
+      "name": "Aventurine • Waveflair",
+      "iconHash": "ee8b70b0f687f57d94af6326219b2ca5",
+      "status": "updated",
+      "href": "https://hsr.gachabase.net/characters/1513/aventurine-waveflair/beta/4.4.53/15893225",
+      "diff": "https://hsr.gachabase.net/diff/characters/1513/aventurine-waveflair?prev=beta_4.4.52_15802789&cur=beta_4.4.53_15893225",
+      "betaVersion": "4.4.53",
+      "revision": "15893225"
+    },
     {
       "game": "hsr",
       "type": "characters",

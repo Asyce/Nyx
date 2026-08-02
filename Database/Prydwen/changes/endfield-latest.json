@@ -1,21 +1,40 @@
 {
   "provider": "Prydwen",
   "game": "endfield",
-  "generatedAt": "2026-07-28T07:58:34.337Z",
+  "generatedAt": "2026-08-02T07:43:41.101Z",
   "summary": {
     "records": {
       "added": 0,
       "removed": 0,
-      "changed": 0,
-      "unchanged": 34
+      "changed": 3,
+      "unchanged": 31
     }
   },
   "sections": {
     "records": {
       "added": [],
       "removed": [],
-      "changed": [],
-      "unchanged": 34,
+      "changed": [
+        {
+          "id": "characters:arcane",
+          "name": "Arcane",
+          "previousHash": "cdc556e4ef61fcb5454b73ec2f5ba67bfbbfd080ccf56708e5cea197cb267995",
+          "currentHash": "fe46604f1b1c3ede0d6266cfbd31297a486409c3f9b116fca9ba446a5cf0cb10"
+        },
+        {
+          "id": "characters:avywenna",
+          "name": "Avywenna",
+          "previousHash": "376477c27b7293576a695108e047af32185a7d183e26bd3be3d5ecc9988c0934",
+          "currentHash": "b23b0481b26fb147d75aaebbc17c7998b39d47301491c5352dec92ff8fd3d05a"
+        },
+        {
+          "id": "collection:characters",
+          "name": "Arknights: Endfield Characters Build Guides",
+          "previousHash": "c3b437847d99fe2021eede861d1e41c98ca593ee2ce6042a79b8d7d6d9d60f15",
+          "currentHash": "edc4ab314dfbb939cdbc33c30295c40f1b5bdacdc05cae3e8c3c629c7f410f25"
+        }
+      ],
+      "unchanged": 31,
       "totals": {
         "previous": 34,
         "current": 34

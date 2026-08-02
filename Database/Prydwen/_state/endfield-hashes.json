@@ -1,15 +1,15 @@
 {
   "game": "endfield",
-  "updatedAt": "2026-07-28T07:58:34.337Z",
+  "updatedAt": "2026-08-02T07:43:41.101Z",
   "hashes": {
     "records": {
       "characters:akekuri": "d1b3f1ae8765949a6a9c52b452d7b27b2513c1ed35339d523d2b48f47df17570",
       "characters:alesh": "66f9bb764d93da5ed65bdf3ad641d90051becb691ecc48070d01399882fe48a0",
       "characters:antal": "adbe0c859da619289e2562b807de9d6427cef784dd5f218e79826eeb40c95d43",
-      "characters:arcane": "cdc556e4ef61fcb5454b73ec2f5ba67bfbbfd080ccf56708e5cea197cb267995",
+      "characters:arcane": "fe46604f1b1c3ede0d6266cfbd31297a486409c3f9b116fca9ba446a5cf0cb10",
       "characters:arclight": "a8381e581b09b38a9c421ec737d040bf4e2fda1833dac71b4b5095d99592d691",
       "characters:ardelia": "b29bf94e21342c9b3aeb06a30c6a91774260e167c8bedcdfff3b136f267fd1a0",
-      "characters:avywenna": "376477c27b7293576a695108e047af32185a7d183e26bd3be3d5ecc9988c0934",
+      "characters:avywenna": "b23b0481b26fb147d75aaebbc17c7998b39d47301491c5352dec92ff8fd3d05a",
       "characters:camille": "4cfda33d24de511499c16bdff42e3f62870cdd8af51b940c9ffe5747a468a53f",
       "characters:catcher": "c492426c625a35cb5a2e62b7c76e5550e1fb2a7b42e7f62e325b82672901f51f",
       "characters:chen-qianyu": "d650519ee11173bb6d5edc9032c1421a272a9f14123d62369dbdf8dc21958f95",
@@ -34,7 +34,7 @@
       "characters:xaihi": "d7c6a943fd40e64772a39a6ff6b5c49b8689d4fd6c64e6a333014d02c41b1140",
       "characters:yvonne": "da3c7f2bc73be86dc78449886c99643c2205e300e0d3b41f6ee01037941609de",
       "characters:zhuang-fangyi": "e69ad14abd3bc54e845895383f27e63191ac298c435e7c5d846fd4dac0f02952",
-      "collection:characters": "c3b437847d99fe2021eede861d1e41c98ca593ee2ce6042a79b8d7d6d9d60f15",
+      "collection:characters": "edc4ab314dfbb939cdbc33c30295c40f1b5bdacdc05cae3e8c3c629c7f410f25",
       "collection:gear": "7953c03440c5e9710f74c23eec40cd5c179d039ebc5d895735de78a16bcc4a73",
       "collection:weapons": "39047be14000749a39559efb842a2ba0656fd47d45bf74e2ad8730be7cf61871"
     }

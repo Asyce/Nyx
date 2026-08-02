@@ -11,8 +11,8 @@
   "sourcePath": "/zenless/bangboo",
   "contentStatus": "live",
   "statusLabels": [],
-  "scrapedAt": "2026-07-28T07:58:34.337Z",
-  "updatedText": "22/June/2026",
+  "scrapedAt": "2026-08-02T07:43:41.101Z",
+  "updatedText": "28/July/2026",
   "meta": {
     "title": "Bangboo | Zenless Zone Zero",
     "description": ""
@@ -68,6 +68,16 @@
       "name": "Amillion",
       "fileStem": "amillion",
       "path": "Prydwen/zzz/assets/misc/amillion-3c85c5357003.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "0019a4d05fcd",
+      "sourceHash": "0019a4d05fcd",
+      "kind": "misc",
+      "name": "Ariel",
+      "fileStem": "ariel",
+      "path": "Prydwen/zzz/assets/misc/ariel-0019a4d05fcd.webp",
       "width": 70,
       "height": 70
     },
@@ -457,14 +467,14 @@
       "id": "zenless-zone-zero-bangboo-list-0",
       "level": 1,
       "heading": "Zenless Zone Zero Bangboo List",
-      "text": "Bangboo are 'pets' in Zenless Zone Zero that help your team - find every Bangboo available in the game below!\n Last updated: 22/June/2026",
+      "text": "Bangboo are 'pets' in Zenless Zone Zero that help your team - find every Bangboo available in the game below!\n Last updated: 28/July/2026",
       "assets": []
     },
     {
       "id": "bangboo-1",
       "level": 2,
       "heading": "Bangboo",
-      "text": "Showing 40 Bangboo\n ×\n\n Reset",
+      "text": "Showing 41 Bangboo\n ×\n\n Reset",
       "assets": [
         {
           "id": "180993e8877a",
@@ -523,6 +533,24 @@
       "text": "Rarity: S -Rank",
       "assets": [
         {
+          "id": "0019a4d05fcd",
+          "sourceHash": "0019a4d05fcd",
+          "kind": "misc",
+          "name": "Ariel",
+          "fileStem": "ariel",
+          "path": "Prydwen/zzz/assets/misc/ariel-0019a4d05fcd.webp",
+          "width": 70,
+          "height": 70
+        }
+      ]
+    },
+    {
+      "id": "ariel-4",
+      "level": 2,
+      "heading": "Ariel",
+      "text": "Rarity: S -Rank",
+      "assets": [
+        {
           "id": "c31204bc956f",
           "sourceHash": "c31204bc956f",
           "kind": "misc",
@@ -535,7 +563,7 @@
       ]
     },
     {
-      "id": "avocaboo-4",
+      "id": "avocaboo-5",
       "level": 2,
       "heading": "Avocaboo",
       "text": "Rarity: A -Rank",
@@ -553,7 +581,7 @@
       ]
     },
     {
-      "id": "baddieboo-5",
+      "id": "baddieboo-6",
       "level": 2,
       "heading": "Baddieboo",
       "text": "Rarity: A -Rank",
@@ -571,7 +599,7 @@
       ]
     },
     {
-      "id": "bagboo-6",
+      "id": "bagboo-7",
       "level": 2,
       "heading": "Bagboo",
       "text": "Rarity: A -Rank",
@@ -589,7 +617,7 @@
       ]
     },
     {
-      "id": "bangvolver-7",
+      "id": "bangvolver-8",
       "level": 2,
       "heading": "Bangvolver",
       "text": "Rarity: S -Rank",
@@ -607,7 +635,7 @@
       ]
     },
     {
-      "id": "belion-8",
+      "id": "belion-9",
       "level": 2,
       "heading": "Belion",
       "text": "Rarity: S -Rank",
@@ -625,7 +653,7 @@
       ]
     },
     {
-      "id": "biggest-fan-9",
+      "id": "biggest-fan-10",
       "level": 2,
       "heading": "Biggest Fan",
       "text": "Rarity: S -Rank",
@@ -643,7 +671,7 @@
       ]
     },
     {
-      "id": "bild-n-boolok-10",
+      "id": "bild-n-boolok-11",
       "level": 2,
       "heading": "Bild N. Boolok",
       "text": "Rarity: A -Rank",
@@ -661,7 +689,7 @@
       ]
     },
     {
-      "id": "birkblick-11",
+      "id": "birkblick-12",
       "level": 2,
       "heading": "Birkblick",
       "text": "Rarity: S -Rank",
@@ -679,7 +707,7 @@
       ]
     },
     {
-      "id": "boollseye-12",
+      "id": "boollseye-13",
       "level": 2,
       "heading": "Boollseye",
       "text": "Rarity: A -Rank",
@@ -697,7 +725,7 @@
       ]
     },
     {
-      "id": "booltergeist-13",
+      "id": "booltergeist-14",
       "level": 2,
       "heading": "Booltergeist",
       "text": "Rarity: A -Rank",
@@ -715,7 +743,7 @@
       ]
     },
     {
-      "id": "booressure-14",
+      "id": "booressure-15",
       "level": 2,
       "heading": "Booressure",
       "text": "Rarity: A -Rank",
@@ -733,7 +761,7 @@
       ]
     },
     {
-      "id": "brawlerboo-15",
+      "id": "brawlerboo-16",
       "level": 2,
       "heading": "Brawlerboo",
       "text": "Rarity: A -Rank",
@@ -751,7 +779,7 @@
       ]
     },
     {
-      "id": "butler-16",
+      "id": "butler-17",
       "level": 2,
       "heading": "Butler",
       "text": "Rarity: S -Rank",
@@ -769,7 +797,7 @@
       ]
     },
     {
-      "id": "cryboo-17",
+      "id": "cryboo-18",
       "level": 2,
       "heading": "Cryboo",
       "text": "Rarity: A -Rank",
@@ -787,7 +815,7 @@
       ]
     },
     {
-      "id": "devilboo-18",
+      "id": "devilboo-19",
       "level": 2,
       "heading": "Devilboo",
       "text": "Rarity: A -Rank",
@@ -805,7 +833,7 @@
       ]
     },
     {
-      "id": "electroboo-19",
+      "id": "electroboo-20",
       "level": 2,
       "heading": "Electroboo",
       "text": "Rarity: A -Rank",
@@ -823,7 +851,7 @@
       ]
     },
     {
-      "id": "excaliboo-20",
+      "id": "excaliboo-21",
       "level": 2,
       "heading": "Excaliboo",
       "text": "Rarity: A -Rank",
@@ -841,7 +869,7 @@
       ]
     },
     {
-      "id": "exploreboo-21",
+      "id": "exploreboo-22",
       "level": 2,
       "heading": "Exploreboo",
       "text": "Rarity: A -Rank",
@@ -859,7 +887,7 @@
       ]
     },
     {
-      "id": "knightboo-22",
+      "id": "knightboo-23",
       "level": 2,
       "heading": "Knightboo",
       "text": "Rarity: A -Rank",
@@ -877,7 +905,7 @@
       ]
     },
     {
-      "id": "luckyboo-23",
+      "id": "luckyboo-24",
       "level": 2,
       "heading": "Luckyboo",
       "text": "Rarity: A -Rank",
@@ -895,7 +923,7 @@
       ]
     },
     {
-      "id": "magnetiboo-24",
+      "id": "magnetiboo-25",
       "level": 2,
       "heading": "Magnetiboo",
       "text": "Rarity: A -Rank",
@@ -913,7 +941,7 @@
       ]
     },
     {
-      "id": "mercury-25",
+      "id": "mercury-26",
       "level": 2,
       "heading": "Mercury",
       "text": "Rarity: S -Rank",
@@ -931,7 +959,7 @@
       ]
     },
     {
-      "id": "miss-esme-26",
+      "id": "miss-esme-27",
       "level": 2,
       "heading": "Miss Esme",
       "text": "Rarity: S -Rank",
@@ -949,7 +977,7 @@
       ]
     },
     {
-      "id": "officer-cui-27",
+      "id": "officer-cui-28",
       "level": 2,
       "heading": "Officer Cui",
       "text": "Rarity: S -Rank",
@@ -967,7 +995,7 @@
       ]
     },
     {
-      "id": "overtimeboo-28",
+      "id": "overtimeboo-29",
       "level": 2,
       "heading": "Overtimeboo",
       "text": "Rarity: A -Rank",
@@ -985,7 +1013,7 @@
       ]
     },
     {
-      "id": "paperboo-29",
+      "id": "paperboo-30",
       "level": 2,
       "heading": "Paperboo",
       "text": "Rarity: A -Rank",
@@ -1003,7 +1031,7 @@
       ]
     },
     {
-      "id": "penguinboo-30",
+      "id": "penguinboo-31",
       "level": 2,
       "heading": "Penguinboo",
       "text": "Rarity: A -Rank",
@@ -1021,7 +1049,7 @@
       ]
     },
     {
-      "id": "plugboo-31",
+      "id": "plugboo-32",
       "level": 2,
       "heading": "Plugboo",
       "text": "Rarity: S -Rank",
@@ -1039,7 +1067,7 @@
       ]
     },
     {
-      "id": "red-moccus-32",
+      "id": "red-moccus-33",
       "level": 2,
       "heading": "Red Moccus",
       "text": "Rarity: S -Rank",
@@ -1057,7 +1085,7 @@
       ]
     },
     {
-      "id": "resonaboo-33",
+      "id": "resonaboo-34",
       "level": 2,
       "heading": "Resonaboo",
       "text": "Rarity: S -Rank",
@@ -1075,7 +1103,7 @@
       ]
     },
     {
-      "id": "robin-34",
+      "id": "robin-35",
       "level": 2,
       "heading": "Robin",
       "text": "Rarity: S -Rank",
@@ -1093,7 +1121,7 @@
       ]
     },
     {
-      "id": "rocketboo-35",
+      "id": "rocketboo-36",
       "level": 2,
       "heading": "Rocketboo",
       "text": "Rarity: S -Rank",
@@ -1111,7 +1139,7 @@
       ]
     },
     {
-      "id": "safety-36",
+      "id": "safety-37",
       "level": 2,
       "heading": "Safety",
       "text": "Rarity: S -Rank",
@@ -1129,7 +1157,7 @@
       ]
     },
     {
-      "id": "sharkboo-37",
+      "id": "sharkboo-38",
       "level": 2,
       "heading": "Sharkboo",
       "text": "Rarity: S -Rank",
@@ -1147,7 +1175,7 @@
       ]
     },
     {
-      "id": "snap-38",
+      "id": "snap-39",
       "level": 2,
       "heading": "Snap",
       "text": "Rarity: S -Rank",
@@ -1165,7 +1193,7 @@
       ]
     },
     {
-      "id": "sprout-39",
+      "id": "sprout-40",
       "level": 2,
       "heading": "Sprout",
       "text": "Rarity: S -Rank",
@@ -1183,7 +1211,7 @@
       ]
     },
     {
-      "id": "sumoboo-40",
+      "id": "sumoboo-41",
       "level": 2,
       "heading": "Sumoboo",
       "text": "Rarity: A -Rank",
@@ -1201,7 +1229,7 @@
       ]
     },
     {
-      "id": "ultra-jake-41",
+      "id": "ultra-jake-42",
       "level": 2,
       "heading": "Ultra Jake",
       "text": "Rarity: S -Rank",
@@ -1210,7 +1238,7 @@
   ],
   "recommendations": {},
   "tables": [],
-  "text": "Bangboo | Zenless Zone Zero\n \n\n Zenless Zone Zero\n Home Database Agents Bangboo W-Engines Disk Drives Banners\n Tier Lists Tier List\n Endgame Shiyu Defense Deadly Assault\n Resources Guides News\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Zenless Zone Zero\n /\n Bangboo List\n\n Zenless Zone Zero Bangboo List\n Bangboo are 'pets' in Zenless Zone Zero that help your team - find every Bangboo available in the game below!\n Last updated: 22/June/2026\n\n Bangboo\n Showing 40 Bangboo\n ×\n\n Reset\n\n Agent Gulliver\n Rarity: S -Rank\n\n Amillion\n Rarity: S -Rank\n\n Avocaboo\n Rarity: A -Rank\n\n Baddieboo\n Rarity: A -Rank\n\n Bagboo\n Rarity: A -Rank\n\n Bangvolver\n Rarity: S -Rank\n\n Belion\n Rarity: S -Rank\n\n Biggest Fan\n Rarity: S -Rank\n\n Bild N. Boolok\n Rarity: A -Rank\n\n Birkblick\n Rarity: S -Rank\n\n Boollseye\n Rarity: A -Rank\n\n Booltergeist\n Rarity: A -Rank\n\n Booressure\n Rarity: A -Rank\n\n Brawlerboo\n Rarity: A -Rank\n\n Butler\n Rarity: S -Rank\n\n Cryboo\n Rarity: A -Rank\n\n Devilboo\n Rarity: A -Rank\n\n Electroboo\n Rarity: A -Rank\n\n Excaliboo\n Rarity: A -Rank\n\n Exploreboo\n Rarity: A -Rank\n\n Knightboo\n Rarity: A -Rank\n\n Luckyboo\n Rarity: A -Rank\n\n Magnetiboo\n Rarity: A -Rank\n\n Mercury\n Rarity: S -Rank\n\n Miss Esme\n Rarity: S -Rank\n\n Officer Cui\n Rarity: S -Rank\n\n Overtimeboo\n Rarity: A -Rank\n\n Paperboo\n Rarity: A -Rank\n\n Penguinboo\n Rarity: A -Rank\n\n Plugboo\n Rarity: S -Rank\n\n Red Moccus\n Rarity: S -Rank\n\n Resonaboo\n Rarity: S -Rank\n\n Robin\n Rarity: S -Rank\n\n Rocketboo\n Rarity: S -Rank\n\n Safety\n Rarity: S -Rank\n\n Sharkboo\n Rarity: S -Rank\n\n Snap\n Rarity: S -Rank\n\n Sprout\n Rarity: S -Rank\n\n Sumoboo\n Rarity: A -Rank\n\n Ultra Jake\n Rarity: S -Rank",
+  "text": "Bangboo | Zenless Zone Zero\n \n\n Zenless Zone Zero\n Home Database Agents Bangboo W-Engines Disk Drives Banners\n Tier Lists Tier List\n Endgame Shiyu Defense Deadly Assault\n Resources Guides News\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Zenless Zone Zero\n /\n Bangboo List\n\n Zenless Zone Zero Bangboo List\n Bangboo are 'pets' in Zenless Zone Zero that help your team - find every Bangboo available in the game below!\n Last updated: 28/July/2026\n\n Bangboo\n Showing 41 Bangboo\n ×\n\n Reset\n\n Agent Gulliver\n Rarity: S -Rank\n\n Amillion\n Rarity: S -Rank\n\n Ariel\n Rarity: S -Rank\n\n Avocaboo\n Rarity: A -Rank\n\n Baddieboo\n Rarity: A -Rank\n\n Bagboo\n Rarity: A -Rank\n\n Bangvolver\n Rarity: S -Rank\n\n Belion\n Rarity: S -Rank\n\n Biggest Fan\n Rarity: S -Rank\n\n Bild N. Boolok\n Rarity: A -Rank\n\n Birkblick\n Rarity: S -Rank\n\n Boollseye\n Rarity: A -Rank\n\n Booltergeist\n Rarity: A -Rank\n\n Booressure\n Rarity: A -Rank\n\n Brawlerboo\n Rarity: A -Rank\n\n Butler\n Rarity: S -Rank\n\n Cryboo\n Rarity: A -Rank\n\n Devilboo\n Rarity: A -Rank\n\n Electroboo\n Rarity: A -Rank\n\n Excaliboo\n Rarity: A -Rank\n\n Exploreboo\n Rarity: A -Rank\n\n Knightboo\n Rarity: A -Rank\n\n Luckyboo\n Rarity: A -Rank\n\n Magnetiboo\n Rarity: A -Rank\n\n Mercury\n Rarity: S -Rank\n\n Miss Esme\n Rarity: S -Rank\n\n Officer Cui\n Rarity: S -Rank\n\n Overtimeboo\n Rarity: A -Rank\n\n Paperboo\n Rarity: A -Rank\n\n Penguinboo\n Rarity: A -Rank\n\n Plugboo\n Rarity: S -Rank\n\n Red Moccus\n Rarity: S -Rank\n\n Resonaboo\n Rarity: S -Rank\n\n Robin\n Rarity: S -Rank\n\n Rocketboo\n Rarity: S -Rank\n\n Safety\n Rarity: S -Rank\n\n Sharkboo\n Rarity: S -Rank\n\n Snap\n Rarity: S -Rank\n\n Sprout\n Rarity: S -Rank\n\n Sumoboo\n Rarity: A -Rank\n\n Ultra Jake\n Rarity: S -Rank",
   "entries": [
     {
       "id": "agent-gulliver",
@@ -1237,6 +1265,19 @@
         "rarity": "S -Rank"
       },
       "text": "Amillion\nRarity: S -Rank"
+    },
+    {
+      "id": "ariel",
+      "name": "Ariel",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "S -Rank"
+      },
+      "text": "Ariel\nRarity: S -Rank"
     },
     {
       "id": "avocaboo",

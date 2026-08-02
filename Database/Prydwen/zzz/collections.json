@@ -29,8 +29,8 @@
     "detailPagesTotal": 0,
     "detailPagesScraped": 0,
     "staleDetailPagesRemoved": 0,
-    "entries": 40,
-    "assets": 43
+    "entries": 41,
+    "assets": 44
   },
   {
     "id": "disk-drives",
@@ -40,7 +40,7 @@
     "detailPagesTotal": 0,
     "detailPagesScraped": 0,
     "staleDetailPagesRemoved": 0,
-    "entries": 28,
-    "assets": 31
+    "entries": 29,
+    "assets": 32
   }
 ]

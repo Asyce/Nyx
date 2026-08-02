@@ -11,8 +11,8 @@
   "sourcePath": "/wuthering-waves/characters/lucilla",
   "contentStatus": "live",
   "statusLabels": [],
-  "scrapedAt": "2026-07-28T07:58:34.337Z",
-  "updatedText": "10/July/2026",
+  "scrapedAt": "2026-08-02T07:43:41.101Z",
+  "updatedText": "30/July/2026",
   "meta": {
     "title": "Lucilla Best Build Guide | Wuthering Waves (WuWa)",
     "description": ""
@@ -134,66 +134,6 @@
       "height": 750
     },
     {
-      "id": "78b0d527a7a8",
-      "sourceHash": "78b0d527a7a8",
-      "kind": "characters",
-      "name": "Sigrika",
-      "fileStem": "sigrika-icon",
-      "path": "Prydwen/ww/assets/characters/sigrika-78b0d527a7a8.webp",
-      "width": 60,
-      "height": 60
-    },
-    {
-      "id": "0b61a0550d75",
-      "sourceHash": "0b61a0550d75",
-      "kind": "icons",
-      "name": "Set",
-      "fileStem": "set-28",
-      "path": "Prydwen/ww/assets/icons/set-28-0b61a0550d75.webp",
-      "width": 25,
-      "height": 25
-    },
-    {
-      "id": "8ae8b7d50946",
-      "sourceHash": "8ae8b7d50946",
-      "kind": "misc",
-      "name": "Nameless Explorer",
-      "fileStem": "6000192",
-      "path": "Prydwen/ww/assets/misc/nameless-explorer-8ae8b7d50946.webp",
-      "width": 35,
-      "height": 35
-    },
-    {
-      "id": "d909de4aecde",
-      "sourceHash": "d909de4aecde",
-      "kind": "characters",
-      "name": "The Shorekeeper",
-      "fileStem": "the-shorekeeper-icon",
-      "path": "Prydwen/ww/assets/characters/the-shorekeeper-d909de4aecde.webp",
-      "width": 60,
-      "height": 60
-    },
-    {
-      "id": "9116b6b3061f",
-      "sourceHash": "9116b6b3061f",
-      "kind": "icons",
-      "name": "Set",
-      "fileStem": "set-7",
-      "path": "Prydwen/ww/assets/icons/set-7-9116b6b3061f.webp",
-      "width": 25,
-      "height": 25
-    },
-    {
-      "id": "963f47d9c985",
-      "sourceHash": "963f47d9c985",
-      "kind": "misc",
-      "name": "Fallacy of No Return",
-      "fileStem": "6000060",
-      "path": "Prydwen/ww/assets/misc/fallacy-of-no-return-963f47d9c985.webp",
-      "width": 35,
-      "height": 35
-    },
-    {
       "id": "5bd44ca9e74f",
       "sourceHash": "5bd44ca9e74f",
       "kind": "characters",
@@ -230,6 +170,66 @@
       "name": "Chisa",
       "fileStem": "chisa-icon",
       "path": "Prydwen/ww/assets/characters/chisa-0e96075575d8.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "9116b6b3061f",
+      "sourceHash": "9116b6b3061f",
+      "kind": "icons",
+      "name": "Set",
+      "fileStem": "set-7",
+      "path": "Prydwen/ww/assets/icons/set-7-9116b6b3061f.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "963f47d9c985",
+      "sourceHash": "963f47d9c985",
+      "kind": "misc",
+      "name": "Fallacy of No Return",
+      "fileStem": "6000060",
+      "path": "Prydwen/ww/assets/misc/fallacy-of-no-return-963f47d9c985.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "78b0d527a7a8",
+      "sourceHash": "78b0d527a7a8",
+      "kind": "characters",
+      "name": "Sigrika",
+      "fileStem": "sigrika-icon",
+      "path": "Prydwen/ww/assets/characters/sigrika-78b0d527a7a8.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "0b61a0550d75",
+      "sourceHash": "0b61a0550d75",
+      "kind": "icons",
+      "name": "Set",
+      "fileStem": "set-28",
+      "path": "Prydwen/ww/assets/icons/set-28-0b61a0550d75.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "8ae8b7d50946",
+      "sourceHash": "8ae8b7d50946",
+      "kind": "misc",
+      "name": "Nameless Explorer",
+      "fileStem": "6000192",
+      "path": "Prydwen/ww/assets/misc/nameless-explorer-8ae8b7d50946.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "d909de4aecde",
+      "sourceHash": "d909de4aecde",
+      "kind": "characters",
+      "name": "The Shorekeeper",
+      "fileStem": "the-shorekeeper-icon",
+      "path": "Prydwen/ww/assets/characters/the-shorekeeper-d909de4aecde.webp",
       "width": 60,
       "height": 60
     },
@@ -434,6 +434,16 @@
       "height": 120
     },
     {
+      "id": "e13ca9eeaf47",
+      "sourceHash": "e13ca9eeaf47",
+      "kind": "characters",
+      "name": "Suisui",
+      "fileStem": "suisui-icon",
+      "path": "Prydwen/ww/assets/characters/suisui-e13ca9eeaf47.webp",
+      "width": 120,
+      "height": 120
+    },
+    {
       "id": "1b2a8f336e3d",
       "sourceHash": "1b2a8f336e3d",
       "kind": "characters",
@@ -469,7 +479,7 @@
       "id": "lucilla-best-build-guide-0",
       "level": 1,
       "heading": "Lucilla Best Build Guide",
-      "text": "Last updated: 10/July/2026",
+      "text": "Last updated: 30/July/2026",
       "assets": [
         {
           "id": "3cde2eba4714",
@@ -512,7 +522,7 @@
       "id": "update-tracker-3",
       "level": 2,
       "heading": "Update tracker",
-      "text": "Last review update\n Patch 3.4\n\n Last major build/calcs update\n Patch 3.4\n\n Last profile update*\n 10/July/2026\n\n *Profile update means smaller edits to echoes, stats, synergies or teams that don't require new calculations.\n To learn more about Lucilla check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.",
+      "text": "Last review update\n Patch 3.4\n\n Last major build/calcs update\n Patch 3.4\n\n Last profile update*\n 30/July/2026\n\n *Profile update means smaller edits to echoes, stats, synergies or teams that don't require new calculations.\n To learn more about Lucilla check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.",
       "assets": []
     },
     {
@@ -758,7 +768,82 @@
       "id": "best-weapons-28",
       "level": 2,
       "heading": "Best Weapons",
-      "text": "The percentages show the performance of the weapon based on calculations , but in some cases, some weapons might provide additional QOL that can't be quantified and it would push that weapon ahead of others in the priority (and in those cases, we would put that weapon higher).\n\n Lucilla calculations were done using added buffs from the following teammates:\n Sigrika + Solsworn Ciphers +\n Sound of True Name\n\n +\n Nameless Explorer\n\n The Shorekeeper + Variation +\n Rejuvenating Glow\n\n +\n Fallacy of No Return\n\n Hiyuki + Frostburn +\n Wishes of Quiet Snowfall\n\n +\n Reminiscence: Threnodian - Voidborne Construct\n\n Chisa + Kumokiri +\n Rejuvenating Glow\n\n +\n Fallacy of No Return\n\n 100.00%\n 100.00%\n\n Freeze Frame (R 1 )\n\n Lucilla's Signature and team-buffing weapon, capable of granting her the most personal damage of any weapon choice she has alongside a 24% team-wide ATK buff, standard for modern Rectifier supports.\n 95.70%\n 81.60%\n\n Whispers of Sirens (R 1 )\n\n Grants Lucilla a 40% Basic DMG Bonus buff when casting Echo Skill, which she can do immediately in Glacio Chafe mode making it her second best choice in that mode, but otherwise is useless for her in Echo Skill mode as she almost completely stops dealing Basic DMG.\n 95.60%\n 87.60%\n\n Stringmaster (R 1 )\n\n Generic strong choice for all Rectifier damage dealers, Lucilla being no exception. Gives strong general buffs ranging from ATK to general DMG Bonus to very high CRIT Rate. A strong blend of stats for a strong general use rectifier.\n 93.10%\n 99.00%\n\n Lethean Elegy (R 1 )\n\n Phrolova's Signature is one of the few rectifiers in the game to have a higher Base ATK of 587, and its easy-to-activate DEF Ignore make it a good generalist weapon, however its power on Lucilla goes way higher if she's in Echo mode as she can fully benefit from all of its effects as she turns into an Echo Skill DMG dealer, making it the only viable alternative to her Signature in Echo mode.\n 93.10%\n 80.50%\n\n Rime-Draped Sprouts (R 1 )\n\n Zhezhi's Signature gives a small Basic DMG Bonus to Lucila upon using her Skill, but as she can only benefit from 1 stack, it mostly remains an ATK and CRIT DMG stat-stick for her.\n 92.40%\n 79.50%\n\n Forged Dwarf Star (R 1 )\n\n SImple ATK and CRIT Rate stat-stick for Lucilla, who does not benefit from this weapon's Fusion Burst/Tune Strain-related effects.\n 92.40%\n 79.50%\n\n Luminous Hymn (R 1 )\n\n SImple ATK and CRIT Rate stat-stick for Lucilla, who does not benefit from this weapon's Spectro Frazzle-related effects.\n 90.40%\n 68.60%\n\n Radiant Dawn (R 5 )\n\n This Battle Pass Exclusive is Lucilla's best option in Glacio Chafe mode, giving her a CRIT DMG secondary stat, and an ATK and Basic DMG-boosting passive right at the start of her rotation. Due to Cosmic Ripples not being ideal in terms of the stats it provides, this weapon can prove a good replacement in Chafe mode where Lucilla deals Basic DMG, in spite of its lower Base ATK. However, this weapon is not advised in Echo mode as Lucilla doesn't deal close to as much Basic DMG there.\n 90.30%\n 73.50%\n\n Cosmic Ripples (R 1 )\n\n Best permanent option although not ideal for almost every Rectifier user. Gives a lot of ATK but has no CRIT secondary stat which makes it worse than other similar weapons. The Energy Regen-increasing passive it has is useless on Lucilla, and while it does give her Basic DMG for Glacio Chafe mode, it's overall not ideal, particularly for Echo mode where it's just an ATK stat-stick for her. Signature highly recommended for Echo teams if this is your 2nd best option.\n 89.10%\n 73.30%\n\n Augment (R 5 )\n\n This Battle Pass exclusive is a close contender to Radiant Dawn in Chafe mode as its passive is activated quickly, and overall it provides better stats for Lucilla in Echo mode, making it the best 4-star choice in that mode.\n 87.00%\n 62.10%\n\n Waltz in Masquerade (R 5 )\n\n Best no-gacha option available, strong ATK-boosting passive available for Chafe mode but otherwise useless for Echo mode. If this is your best option in Echo mode, try to get Lucilla's Signature weapon for a much needed performance boost - but this weapon can work fine enough in Chafe mode even if the Signature is still recommended.",
+      "text": "The percentages show the performance of the weapon based on calculations , but in some cases, some weapons might provide additional QOL that can't be quantified and it would push that weapon ahead of others in the priority (and in those cases, we would put that weapon higher).\n\n Lucilla calculations were done using added buffs from the following teammates:",
+      "assets": []
+    },
+    {
+      "id": "glacio-chafe-29",
+      "level": 5,
+      "heading": "Glacio Chafe",
+      "text": "Hiyuki + Frostburn +\n Wishes of Quiet Snowfall\n\n +\n Reminiscence: Threnodian - Voidborne Construct\n\n Chisa + Kumokiri +\n Rejuvenating Glow\n\n +\n Fallacy of No Return",
+      "assets": [
+        {
+          "id": "5bd44ca9e74f",
+          "sourceHash": "5bd44ca9e74f",
+          "kind": "characters",
+          "name": "Hiyuki",
+          "fileStem": "hiyuki-icon",
+          "path": "Prydwen/ww/assets/characters/hiyuki-5bd44ca9e74f.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "8598bcf61232",
+          "sourceHash": "8598bcf61232",
+          "kind": "icons",
+          "name": "Set",
+          "fileStem": "set-30",
+          "path": "Prydwen/ww/assets/icons/set-30-8598bcf61232.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "2cf8174d4354",
+          "sourceHash": "2cf8174d4354",
+          "kind": "misc",
+          "name": "Reminiscence: Threnodian - Voidborne Construct",
+          "fileStem": "6000199",
+          "path": "Prydwen/ww/assets/misc/reminiscence-threnodian-voidborne-construct-2cf8174d4354.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "0e96075575d8",
+          "sourceHash": "0e96075575d8",
+          "kind": "characters",
+          "name": "Chisa",
+          "fileStem": "chisa-icon",
+          "path": "Prydwen/ww/assets/characters/chisa-0e96075575d8.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "9116b6b3061f",
+          "sourceHash": "9116b6b3061f",
+          "kind": "icons",
+          "name": "Set",
+          "fileStem": "set-7",
+          "path": "Prydwen/ww/assets/icons/set-7-9116b6b3061f.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "963f47d9c985",
+          "sourceHash": "963f47d9c985",
+          "kind": "misc",
+          "name": "Fallacy of No Return",
+          "fileStem": "6000060",
+          "path": "Prydwen/ww/assets/misc/fallacy-of-no-return-963f47d9c985.webp",
+          "width": 35,
+          "height": 35
+        }
+      ]
+    },
+    {
+      "id": "echo-30",
+      "level": 5,
+      "heading": "Echo",
+      "text": "Sigrika + Solsworn Ciphers +\n Sound of True Name\n\n +\n Nameless Explorer\n\n The Shorekeeper + Variation +\n Rejuvenating Glow\n\n +\n Fallacy of No Return\n\n 100.00%\n 100.00%\n\n Freeze Frame (R 1 )\n\n Lucilla's Signature and team-buffing weapon, capable of granting her the most personal damage of any weapon choice she has alongside a 24% team-wide ATK buff, standard for modern Rectifier supports.\n 95.70%\n 81.60%\n\n Whispers of Sirens (R 1 )\n\n Grants Lucilla a 40% Basic DMG Bonus buff when casting Echo Skill, which she can do immediately in Glacio Chafe mode making it her second best choice in that mode, but otherwise is useless for her in Echo Skill mode as she almost completely stops dealing Basic DMG.\n 95.60%\n 87.60%\n\n Stringmaster (R 1 )\n\n Generic strong choice for all Rectifier damage dealers, Lucilla being no exception. Gives strong general buffs ranging from ATK to general DMG Bonus to very high CRIT Rate. A strong blend of stats for a strong general use rectifier.\n 93.10%\n 99.00%\n\n Lethean Elegy (R 1 )\n\n Phrolova's Signature is one of the few rectifiers in the game to have a higher Base ATK of 587, and its easy-to-activate DEF Ignore make it a good generalist weapon, however its power on Lucilla goes way higher if she's in Echo mode as she can fully benefit from all of its effects as she turns into an Echo Skill DMG dealer, making it the only viable alternative to her Signature in Echo mode.\n 93.10%\n 80.50%\n\n Rime-Draped Sprouts (R 1 )\n\n Zhezhi's Signature gives a small Basic DMG Bonus to Lucila upon using her Skill, but as she can only benefit from 1 stack, it mostly remains an ATK and CRIT DMG stat-stick for her.\n 92.40%\n 79.50%\n\n Forged Dwarf Star (R 1 )\n\n SImple ATK and CRIT Rate stat-stick for Lucilla, who does not benefit from this weapon's Fusion Burst/Tune Strain-related effects.\n 92.40%\n 79.50%\n\n Luminous Hymn (R 1 )\n\n SImple ATK and CRIT Rate stat-stick for Lucilla, who does not benefit from this weapon's Spectro Frazzle-related effects.\n 90.40%\n 68.60%\n\n Radiant Dawn (R 5 )\n\n This Battle Pass Exclusive is Lucilla's best option in Glacio Chafe mode, giving her a CRIT DMG secondary stat, and an ATK and Basic DMG-boosting passive right at the start of her rotation. Due to Cosmic Ripples not being ideal in terms of the stats it provides, this weapon can prove a good replacement in Chafe mode where Lucilla deals Basic DMG, in spite of its lower Base ATK. However, this weapon is not advised in Echo mode as Lucilla doesn't deal close to as much Basic DMG there.\n 90.30%\n 73.50%\n\n Cosmic Ripples (R 1 )\n\n Best permanent option although not ideal for almost every Rectifier user. Gives a lot of ATK but has no CRIT secondary stat which makes it worse than other similar weapons. The Energy Regen-increasing passive it has is useless on Lucilla, and while it does give her Basic DMG for Glacio Chafe mode, it's overall not ideal, particularly for Echo mode where it's just an ATK stat-stick for her. Signature highly recommended for Echo teams if this is your 2nd best option.\n 89.10%\n 73.30%\n\n Augment (R 5 )\n\n This Battle Pass exclusive is a close contender to Radiant Dawn in Chafe mode as its passive is activated quickly, and overall it provides better stats for Lucilla in Echo mode, making it the best 4-star choice in that mode.\n 87.00%\n 62.10%\n\n Waltz in Masquerade (R 5 )\n\n Best no-gacha option available, strong ATK-boosting passive available for Chafe mode but otherwise useless for Echo mode. If this is your best option in Echo mode, try to get Lucilla's Signature weapon for a much needed performance boost - but this weapon can work fine enough in Chafe mode even if the Signature is still recommended.",
       "assets": [
         {
           "id": "78b0d527a7a8",
@@ -819,46 +904,6 @@
           "path": "Prydwen/ww/assets/misc/fallacy-of-no-return-963f47d9c985.webp",
           "width": 35,
           "height": 35
-        },
-        {
-          "id": "5bd44ca9e74f",
-          "sourceHash": "5bd44ca9e74f",
-          "kind": "characters",
-          "name": "Hiyuki",
-          "fileStem": "hiyuki-icon",
-          "path": "Prydwen/ww/assets/characters/hiyuki-5bd44ca9e74f.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "8598bcf61232",
-          "sourceHash": "8598bcf61232",
-          "kind": "icons",
-          "name": "Set",
-          "fileStem": "set-30",
-          "path": "Prydwen/ww/assets/icons/set-30-8598bcf61232.webp",
-          "width": 25,
-          "height": 25
-        },
-        {
-          "id": "2cf8174d4354",
-          "sourceHash": "2cf8174d4354",
-          "kind": "misc",
-          "name": "Reminiscence: Threnodian - Voidborne Construct",
-          "fileStem": "6000199",
-          "path": "Prydwen/ww/assets/misc/reminiscence-threnodian-voidborne-construct-2cf8174d4354.webp",
-          "width": 35,
-          "height": 35
-        },
-        {
-          "id": "0e96075575d8",
-          "sourceHash": "0e96075575d8",
-          "kind": "characters",
-          "name": "Chisa",
-          "fileStem": "chisa-icon",
-          "path": "Prydwen/ww/assets/characters/chisa-0e96075575d8.webp",
-          "width": 60,
-          "height": 60
         },
         {
           "id": "12bef70511cc",
@@ -973,7 +1018,7 @@
       ]
     },
     {
-      "id": "best-echo-sets-30",
+      "id": "best-echo-sets-32",
       "level": 6,
       "heading": "Best Echo Sets",
       "text": "100.00%\n\nWishes of Quiet Snowfall\n\n This Glacio Chafe DPS and Support focused set provides Lucilla with the ability to buff the incoming character via Outro's Glacio DMG by 25% on top of giving Lucilla 20% Glacio DMG Bonus to use for herself, as Lucilla does not deal any Liberation DMG. Gives a good blend of self-buffing and single-target buffing, making it her overall best choice.\n Below you can find Main Echo options:\n\n Glommoth\n\n - Simple Summon Echo that gives the next incoming character via Outro an extra 12% Glacio DMG Bonus, to add onto the set's 5P buffing effect.\n\n 100.00%\n\nMoonlit Clouds\n\n Offers 10% unconditional Energy Regen on the 2P, which is useless to Lucilla. However, upon using Outro, grants the next character switching in a 22.5% ATK boost, increasing their damage by a good amount.\n Below you can find Main Echo options:\n\n Impermanence Heron\n\n - The best and only real option 5P Moonlit Clouds has, as it grants an extra 12% DMG Bonus on top of the ATK boost to the next character that Moonlit Clouds would usually give.",
@@ -1021,7 +1066,7 @@
       ]
     },
     {
-      "id": "special-echo-sets-31",
+      "id": "special-echo-sets-33",
       "level": 6,
       "heading": "Special Echo Sets",
       "text": "Dream of the Lost\n\n Best Echo set for Lucilla in the Phrolova team. It permanently gives her 20% CRIT Rate and 35% Echo Skill DMG Bonus, providing big boosts to the majority of her rotation. This enables her to deal significant damage to enemies while still buffing Phrolova. That is because this is a 3-piece set, meaning it can be combined with a 2-piece set effect of your choice. This set is best combined with your choice of:\n Best combined with your choice of:\n 2P\n Reel of Spliced Memories\n\n (Recommended)\n 2P\n Moonlit Clouds\n\n Below you can find Main Echo options:\n\n Voidwing Moth\n\n - Gives 12% ATK to the incoming character via Outro for 15s once cast. Gives Lucilla a buffing Echo while still benefitting from the massive personal damage gains of 3P Dream of the Lost, allowing her to buff Phrolova while still dealing good personal damage.\n\n Impermanence Heron\n\n - Less ideal than Voidwing Moth as Lucilla can benefit from an extra 10% ATK with the 2P set effect while this Echo's Energy Regen 2P and Energy-restoring properties are useless to Lucilla. Still, this Echo can act as a fine replacement if lacking Reel pieces as it gives 12% DMG Bonus to the incoming character for 15s, making it a decent alternative to buff Phrolova.",
@@ -1079,42 +1124,42 @@
       ]
     },
     {
-      "id": "best-echo-stats-32",
+      "id": "best-echo-stats-34",
       "level": 2,
       "heading": "Best Echo Stats",
       "text": "4 cost\n CRIT Rate / CRIT DMG\n\n 3 cost\n Glacio DMG\n\n 3 cost\n Glacio DMG > ATK%\n\n 1 cost\n ATK%\n\n 1 cost\n ATK%\n\n Substats: CRIT Rate = CRIT DMG > ATK% > ATK = Basic DMG%\n\n In Echo mode, Basic DMG is almost completely useless, so prioritize ATK instead. Basic DMG is only slightly more important than ATK for Chafe mode.",
       "assets": []
     },
     {
-      "id": "best-endgame-stats-level-90-33",
+      "id": "best-endgame-stats-level-90-35",
       "level": 2,
       "heading": "Best Endgame Stats (Level 90)",
       "text": "All recommended endgame stats portray a fairly good quality endgame build as a goal to aim for on most characters. However, don’t treat this as an end-all-be-all, and more of a suggestion.\n All stat recommendations are given at S0 for 5-stars, S6 for 4-stars, and free characters (unless specified otherwise), based on total stats in the in-game stat-screen with the character out of combat but also active in the party (and hence some buffs may or may not apply). Any other precision may be directly specified. If not specified, Energy Regen requirements are estimated in the character’s best team.\n HP: 16000+\n\n DEF: 1150+\n\n ATK: 1900-2200b+\n\n CRIT Rate: 65-80%+\n\n CRIT DMG: 210-280%+\n\n Energy Regen: 100%\n\n Glacio DMG Bonus: 30-70%+",
       "assets": []
     },
     {
-      "id": "skill-priority-34",
+      "id": "skill-priority-36",
       "level": 2,
       "heading": "Skill Priority",
       "text": "Below you can find the order of leveling the abilities for Lucilla .\n Res. Liberation\n\n Res. Skill\n\n Forte Circuit\n\n Intro Skill\n\n Basic Attack\n\n Basic can be completely skipped as it is useless to Lucilla's practical rotation. Intro can be skipped when levelling to save on resources at a minimal damage loss.\n\n Gameplay and teams",
       "assets": []
     },
     {
-      "id": "rotation-how-to-play-36",
+      "id": "rotation-how-to-play-38",
       "level": 6,
       "heading": "Rotation & How to Play",
       "text": "Lucilla’s gameplay is very simple, barely changing between Glacio Chafe and Echo Skill modes. It consists of generating and consuming Photos as fast as possible, and for this she only has one way of doing it that guarantees all of her buffs:\n Echo Timing:\n For Phrolova (Voidwing Moth) and other Echo teams (Impermanence Heron): Swap at the end of her rotation after Letting It Go before Outro.For Glacio Chafe: Summon Echo, usable at any point in the rotation.\n Standard Rotation\n Intro\n\n Skill: Spotlight (Perfect Release)\n\n Ultimate\n\n → Hold Basic (Heavy) at this point in the rotation.\n Heavy: Basic - Forms 1\n\n Heavy: Basic - Forms 2\n\n Heavy: Basic - Forms 3\n\n Letting It Go\n\n Outro",
       "assets": []
     },
     {
-      "id": "additional-tips-tricks-37",
+      "id": "additional-tips-tricks-39",
       "level": 6,
       "heading": "Additional Tips & Tricks",
       "text": "To release Spotlight perfectly within its timing window, try releasing around a quarter of a second after the Skill has started casting. During the Skill cast, the lens that forms around Lucilla has 2 grey areas, on which the arrows that circle around the lens need to land, for the Skill to be released at the perfect timing. At that point in time, the areas’ colour changes from grey to golden - you want to release the Skill button there.\n\n Additionally, since Lucilla’s Ultimate will not come up before Skill has fully landed, you’re free to spam Ultimate until it casts and - if on Glacio Chafe mode - you may do the same for Outro by spamming swap during Letting It Go as well.",
       "assets": []
     },
     {
-      "id": "synergies-38",
+      "id": "synergies-40",
       "level": 2,
       "heading": "Synergies",
       "text": "Hiyuki - Lucilla's only partner in Glacio Chafe mode and her best partner overall, Hiyuki's perfect for Lucilla as her very high base damage paired with tons of Glacio Chafe application makes for a ton of Glacio Bite and a mix of Liberation and Basic DMG that can tear through the entire game easily.\n Sigrika Phrolova Galbrena - Lucilla works naturally in Echo Mode with all Echo Skill DMG dealers due to her Outro amplifying Echo Skill DMG and her ability to cast multiple Echo Skills as well as increase Echo DMG of the whole team in general. By order of viability, Sigrika's the best by far and pairs naturally with Shorekeeper, Galbrena does also but her 1/3 Heavy DMG makes her a bit worse than Qiuyuan in that role. Phrolova can pair with both Lucilla and Qiuyuan for a team with a ton of Echo Skill DMG which makes it Phrolova's new best team overall.",
@@ -1162,10 +1207,10 @@
       ]
     },
     {
-      "id": "example-teams-39",
+      "id": "example-teams-41",
       "level": 2,
       "heading": "Example Teams",
-      "text": "Glacio Chafe Team\n\n Shorekeeper and Verina can also work in the 3rd slot but will provide much less effective buffs for Hiyuki's team than Chisa.\n\n Echo Skill Hypercarry\n\n Phrolova Team\n\n With Cantarella on the team, pivot Lucilla to the 3rd slot and have Cantarella Outro buff Phrolova instead.\n\n Calculations",
+      "text": "Glacio Chafe Team\n\n Shorekeeper and Verina can also work in the 3rd slot but will provide much less effective buffs for Hiyuki's team than Suisui/Chisa.\n\n Echo Skill Hypercarry\n\n Phrolova Team\n\n With Cantarella on the team, pivot Lucilla to the 3rd slot and have Cantarella Outro buff Phrolova instead.\n\n Calculations",
       "assets": [
         {
           "id": "5bd44ca9e74f",
@@ -1184,6 +1229,16 @@
           "name": "Lucilla",
           "fileStem": "lucilla-icon",
           "path": "Prydwen/ww/assets/characters/lucilla-ddae26999871.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "e13ca9eeaf47",
+          "sourceHash": "e13ca9eeaf47",
+          "kind": "characters",
+          "name": "Suisui",
+          "fileStem": "suisui-icon",
+          "path": "Prydwen/ww/assets/characters/suisui-e13ca9eeaf47.webp",
           "width": 120,
           "height": 120
         },
@@ -1387,7 +1442,17 @@
       "sections": [
         {
           "heading": "Best Weapons",
-          "text": "The percentages show the performance of the weapon based on calculations , but in some cases, some weapons might provide additional QOL that can't be quantified and it would push that weapon ahead of others in the priority (and in those cases, we would put that weapon higher).\n\n Lucilla calculations were done using added buffs from the following teammates:\n Sigrika + Solsworn Ciphers +\n Sound of True Name\n\n +\n Nameless Explorer\n\n The Shorekeeper + Variation +\n Rejuvenating Glow\n\n +\n Fallacy of No Return\n\n Hiyuki + Frostburn +\n Wishes of Quiet Snowfall\n\n +\n Reminiscence: Threnodian - Voidborne Construct\n\n Chisa + Kumokiri +\n Rejuvenating Glow\n\n +\n Fallacy of No Return\n\n 100.00%\n 100.00%\n\n Freeze Frame (R 1 )\n\n Lucilla's Signature and team-buffing weapon, capable of granting her the most personal damage of any weapon choice she has alongside a 24% team-wide ATK buff, standard for modern Rectifier supports.\n 95.70%\n 81.60%\n\n Whispers of Sirens (R 1 )\n\n Grants Lucilla a 40% Basic DMG Bonus buff when casting Echo Skill, which she can do immediately in Glacio Chafe mode making it her second best choice in that mode, but otherwise is useless for her in Echo Skill mode as she almost completely stops dealing Basic DMG.\n 95.60%\n 87.60%\n\n Stringmaster (R 1 )\n\n Generic strong choice for all Rectifier damage dealers, Lucilla being no exception. Gives strong general buffs ranging from ATK to general DMG Bonus to very high CRIT Rate. A strong blend of stats for a strong general use rectifier.\n 93.10%\n 99.00%\n\n Lethean Elegy (R 1 )\n\n Phrolova's Signature is one of the few rectifiers in the game to have a higher Base ATK of 587, and its easy-to-activate DEF Ignore make it a good generalist weapon, however its power on Lucilla goes way higher if she's in Echo mode as she can fully benefit from all of its effects as she turns into an Echo Skill DMG dealer, making it the only viable alternative to her Signature in Echo mode.\n 93.10%\n 80.50%\n\n Rime-Draped Sprouts (R 1 )\n\n Zhezhi's Signature gives a small Basic DMG Bonus to Lucila upon using her Skill, but as she can only benefit from 1 stack, it mostly remains an ATK and CRIT DMG stat-stick for her.\n 92.40%\n 79.50%\n\n Forged Dwarf Star (R 1 )\n\n SImple ATK and CRIT Rate stat-stick for Lucilla, who does not benefit from this weapon's Fusion Burst/Tune Strain-related effects.\n 92.40%\n 79.50%\n\n Luminous Hymn (R 1 )\n\n SImple ATK and CRIT Rate stat-stick for Lucilla, who does not benefit from this weapon's Spectro Frazzle-related effects.\n 90.40%\n 68.60%\n\n Radiant Dawn (R 5 )\n\n This Battle Pass Exclusive is Lucilla's best option in Glacio Chafe mode, giving her a CRIT DMG secondary stat, and an ATK and Basic DMG-boosting passive right at the start of her rotation. Due to Cosmic Ripples not being ideal in terms of the stats it provides, this weapon can prove a good replacement in Chafe mode where Lucilla deals Basic DMG, in spite of its lower Base ATK. However, this weapon is not advised in Echo mode as Lucilla doesn't deal close to as much Basic DMG there.\n 90.30%\n 73.50%\n\n Cosmic Ripples (R 1 )\n\n Best permanent option although not ideal for almost every Rectifier user. Gives a lot of ATK but has no CRIT secondary stat which makes it worse than other similar weapons. The Energy Regen-increasing passive it has is useless on Lucilla, and while it does give her Basic DMG for Glacio Chafe mode, it's overall not ideal, particularly for Echo mode where it's just an ATK stat-stick for her. Signature highly recommended for Echo teams if this is your 2nd best option.\n 89.10%\n 73.30%\n\n Augment (R 5 )\n\n This Battle Pass exclusive is a close contender to Radiant Dawn in Chafe mode as its passive is activated quickly, and overall it provides better stats for Lucilla in Echo mode, making it the best 4-star choice in that mode.\n 87.00%\n 62.10%\n\n Waltz in Masquerade (R 5 )\n\n Best no-gacha option available, strong ATK-boosting passive available for Chafe mode but otherwise useless for Echo mode. If this is your best option in Echo mode, try to get Lucilla's Signature weapon for a much needed performance boost - but this weapon can work fine enough in Chafe mode even if the Signature is still recommended.",
+          "text": "The percentages show the performance of the weapon based on calculations , but in some cases, some weapons might provide additional QOL that can't be quantified and it would push that weapon ahead of others in the priority (and in those cases, we would put that weapon higher).\n\n Lucilla calculations were done using added buffs from the following teammates:",
+          "assets": []
+        }
+      ]
+    },
+    "best-echo-sets": {
+      "label": "Best Echo Sets",
+      "sections": [
+        {
+          "heading": "Echo",
+          "text": "Sigrika + Solsworn Ciphers +\n Sound of True Name\n\n +\n Nameless Explorer\n\n The Shorekeeper + Variation +\n Rejuvenating Glow\n\n +\n Fallacy of No Return\n\n 100.00%\n 100.00%\n\n Freeze Frame (R 1 )\n\n Lucilla's Signature and team-buffing weapon, capable of granting her the most personal damage of any weapon choice she has alongside a 24% team-wide ATK buff, standard for modern Rectifier supports.\n 95.70%\n 81.60%\n\n Whispers of Sirens (R 1 )\n\n Grants Lucilla a 40% Basic DMG Bonus buff when casting Echo Skill, which she can do immediately in Glacio Chafe mode making it her second best choice in that mode, but otherwise is useless for her in Echo Skill mode as she almost completely stops dealing Basic DMG.\n 95.60%\n 87.60%\n\n Stringmaster (R 1 )\n\n Generic strong choice for all Rectifier damage dealers, Lucilla being no exception. Gives strong general buffs ranging from ATK to general DMG Bonus to very high CRIT Rate. A strong blend of stats for a strong general use rectifier.\n 93.10%\n 99.00%\n\n Lethean Elegy (R 1 )\n\n Phrolova's Signature is one of the few rectifiers in the game to have a higher Base ATK of 587, and its easy-to-activate DEF Ignore make it a good generalist weapon, however its power on Lucilla goes way higher if she's in Echo mode as she can fully benefit from all of its effects as she turns into an Echo Skill DMG dealer, making it the only viable alternative to her Signature in Echo mode.\n 93.10%\n 80.50%\n\n Rime-Draped Sprouts (R 1 )\n\n Zhezhi's Signature gives a small Basic DMG Bonus to Lucila upon using her Skill, but as she can only benefit from 1 stack, it mostly remains an ATK and CRIT DMG stat-stick for her.\n 92.40%\n 79.50%\n\n Forged Dwarf Star (R 1 )\n\n SImple ATK and CRIT Rate stat-stick for Lucilla, who does not benefit from this weapon's Fusion Burst/Tune Strain-related effects.\n 92.40%\n 79.50%\n\n Luminous Hymn (R 1 )\n\n SImple ATK and CRIT Rate stat-stick for Lucilla, who does not benefit from this weapon's Spectro Frazzle-related effects.\n 90.40%\n 68.60%\n\n Radiant Dawn (R 5 )\n\n This Battle Pass Exclusive is Lucilla's best option in Glacio Chafe mode, giving her a CRIT DMG secondary stat, and an ATK and Basic DMG-boosting passive right at the start of her rotation. Due to Cosmic Ripples not being ideal in terms of the stats it provides, this weapon can prove a good replacement in Chafe mode where Lucilla deals Basic DMG, in spite of its lower Base ATK. However, this weapon is not advised in Echo mode as Lucilla doesn't deal close to as much Basic DMG there.\n 90.30%\n 73.50%\n\n Cosmic Ripples (R 1 )\n\n Best permanent option although not ideal for almost every Rectifier user. Gives a lot of ATK but has no CRIT secondary stat which makes it worse than other similar weapons. The Energy Regen-increasing passive it has is useless on Lucilla, and while it does give her Basic DMG for Glacio Chafe mode, it's overall not ideal, particularly for Echo mode where it's just an ATK stat-stick for her. Signature highly recommended for Echo teams if this is your 2nd best option.\n 89.10%\n 73.30%\n\n Augment (R 5 )\n\n This Battle Pass exclusive is a close contender to Radiant Dawn in Chafe mode as its passive is activated quickly, and overall it provides better stats for Lucilla in Echo mode, making it the best 4-star choice in that mode.\n 87.00%\n 62.10%\n\n Waltz in Masquerade (R 5 )\n\n Best no-gacha option available, strong ATK-boosting passive available for Chafe mode but otherwise useless for Echo mode. If this is your best option in Echo mode, try to get Lucilla's Signature weapon for a much needed performance boost - but this weapon can work fine enough in Chafe mode even if the Signature is still recommended.",
           "assets": [
             {
               "id": "78b0d527a7a8",
@@ -1448,46 +1513,6 @@
               "path": "Prydwen/ww/assets/misc/fallacy-of-no-return-963f47d9c985.webp",
               "width": 35,
               "height": 35
-            },
-            {
-              "id": "5bd44ca9e74f",
-              "sourceHash": "5bd44ca9e74f",
-              "kind": "characters",
-              "name": "Hiyuki",
-              "fileStem": "hiyuki-icon",
-              "path": "Prydwen/ww/assets/characters/hiyuki-5bd44ca9e74f.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "8598bcf61232",
-              "sourceHash": "8598bcf61232",
-              "kind": "icons",
-              "name": "Set",
-              "fileStem": "set-30",
-              "path": "Prydwen/ww/assets/icons/set-30-8598bcf61232.webp",
-              "width": 25,
-              "height": 25
-            },
-            {
-              "id": "2cf8174d4354",
-              "sourceHash": "2cf8174d4354",
-              "kind": "misc",
-              "name": "Reminiscence: Threnodian - Voidborne Construct",
-              "fileStem": "6000199",
-              "path": "Prydwen/ww/assets/misc/reminiscence-threnodian-voidborne-construct-2cf8174d4354.webp",
-              "width": 35,
-              "height": 35
-            },
-            {
-              "id": "0e96075575d8",
-              "sourceHash": "0e96075575d8",
-              "kind": "characters",
-              "name": "Chisa",
-              "fileStem": "chisa-icon",
-              "path": "Prydwen/ww/assets/characters/chisa-0e96075575d8.webp",
-              "width": 60,
-              "height": 60
             },
             {
               "id": "12bef70511cc",
@@ -1600,12 +1625,7 @@
               "height": 60
             }
           ]
-        }
-      ]
-    },
-    "best-echo-sets": {
-      "label": "Best Echo Sets",
-      "sections": [
+        },
         {
           "heading": "Best Echo Sets",
           "text": "100.00%\n\nWishes of Quiet Snowfall\n\n This Glacio Chafe DPS and Support focused set provides Lucilla with the ability to buff the incoming character via Outro's Glacio DMG by 25% on top of giving Lucilla 20% Glacio DMG Bonus to use for herself, as Lucilla does not deal any Liberation DMG. Gives a good blend of self-buffing and single-target buffing, making it her overall best choice.\n Below you can find Main Echo options:\n\n Glommoth\n\n - Simple Summon Echo that gives the next incoming character via Outro an extra 12% Glacio DMG Bonus, to add onto the set's 5P buffing effect.\n\n 100.00%\n\nMoonlit Clouds\n\n Offers 10% unconditional Energy Regen on the 2P, which is useless to Lucilla. However, upon using Outro, grants the next character switching in a 22.5% ATK boost, increasing their damage by a good amount.\n Below you can find Main Echo options:\n\n Impermanence Heron\n\n - The best and only real option 5P Moonlit Clouds has, as it grants an extra 12% DMG Bonus on top of the ATK boost to the next character that Moonlit Clouds would usually give.",
@@ -1730,7 +1750,7 @@
       "sections": [
         {
           "heading": "Example Teams",
-          "text": "Glacio Chafe Team\n\n Shorekeeper and Verina can also work in the 3rd slot but will provide much less effective buffs for Hiyuki's team than Chisa.\n\n Echo Skill Hypercarry\n\n Phrolova Team\n\n With Cantarella on the team, pivot Lucilla to the 3rd slot and have Cantarella Outro buff Phrolova instead.\n\n Calculations",
+          "text": "Glacio Chafe Team\n\n Shorekeeper and Verina can also work in the 3rd slot but will provide much less effective buffs for Hiyuki's team than Suisui/Chisa.\n\n Echo Skill Hypercarry\n\n Phrolova Team\n\n With Cantarella on the team, pivot Lucilla to the 3rd slot and have Cantarella Outro buff Phrolova instead.\n\n Calculations",
           "assets": [
             {
               "id": "5bd44ca9e74f",
@@ -1749,6 +1769,16 @@
               "name": "Lucilla",
               "fileStem": "lucilla-icon",
               "path": "Prydwen/ww/assets/characters/lucilla-ddae26999871.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "e13ca9eeaf47",
+              "sourceHash": "e13ca9eeaf47",
+              "kind": "characters",
+              "name": "Suisui",
+              "fileStem": "suisui-icon",
+              "path": "Prydwen/ww/assets/characters/suisui-e13ca9eeaf47.webp",
               "width": 120,
               "height": 120
             },
@@ -1838,5 +1868,5 @@
     }
   },
   "tables": [],
-  "text": "Lucilla Best Build Guide | Wuthering Waves (WuWa)\n \n\n Wuthering Waves\n Home Database Characters Weapons Echoes Banners\n Tier Lists Tier List Team Tier List Value Tier List\n Guides Guides\n Resources Map News\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Wuthering Waves\n /\n Characters\n /\n Lucilla\n Lucilla Best Build Guide\n Last updated: 10/July/2026\n\n Introduction\n Best guide and build for Lucilla from WW (Wuthering Waves). Lucilla is a 5 ★ rarity character from the Glacio element who uses the Rectifier type weapon.\n\n To learn more about Lucilla check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Video guide\n Lucilla has at least one video guide available:\n\n Update tracker\n Last review update\n Patch 3.4\n\n Last major build/calcs update\n Patch 3.4\n\n Last profile update*\n 10/July/2026\n\n *Profile update means smaller edits to echoes, stats, synergies or teams that don't require new calculations.\n To learn more about Lucilla check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Kit\n\n Review\n\n Build\n\n Gameplay and teams\n\n Calculations\n\n Profile\n\n Skills\n Active skills\n Passive skills\n Concerto skills\n\n Basic Attack\n Snapshot\n\n Basic Attack\n Perform up to 3 consecutive attacks, dealing Glacio DMG .\n\n While casting Basic Attack Stage 3, hold Normal Attack to deploy Focus Ring. A cursor will move around the Focus Ring.\n Releasing the Normal Attack button when the cursor falls outside of Perfect Focus will trigger Basic Attack Stage 3 - Unremarkable, dealing Glacio DMG and restoring Trace.\n\n Releasing the Normal Attack button when the cursor falls within Perfect Focus will trigger Basic Attack Stage 3 - Commendable, dealing increased Glacio DMG and restoring additional Trace.\n\n Pressing Normal Attack shortly after casting Basic Attack Stage 2 will trigger Basic Attack Stage 3 - Unremarkable instead of deploying Focus Ring.\n\n When Focus Ring is deployed, the Perfect Focus zone continues to fill the ring. Once Focus Ring is completely filled, it automatically collapses and triggers Basic Attack Stage 3 - Commendable.\n\n Hold Normal Attack to cast Basic Attack Stage 1, 2, and 3 in sequence, and deploy Focus Ring during Basic Attack Stage 3.\n\n Mid-air Attack\n Consume STA to perform Plunging Attack, dealing Glacio DMG . Press Normal Attack shortly after casting this skill to cast Basic Attack Stage 2.\n\n Dodge Counter\n Press Normal Attack shortly after a successful Dodge to attack the target, dealing Glacio DMG . Shortly after performing this attack, press Normal Attack to perform Basic Attack Stage 3.\n\n Multipliers\n\n Resonance Skill\n Phantom Frame\n\n Pull in nearby targets, dealing Glacio DMG .\n While casting this skill, hold Resonance Skill to deploy Focus Ring. A cursor will move around the Focus Ring.\n Releasing the Resonance Skill button when the cursor falls outside of Perfect Focus will trigger Compensate, dealing Glacio DMG and restoring Trace.\n\n Releasing the Resonance Skill button when the cursor falls within Perfect Focus will trigger Spotlight, dealing increased Glacio DMG and restoring additional Trace.\n\n If Lucilla casts the skill on-field without holding Resonance Skill, she directly casts Compensate instead of deploying Focus Ring.\n Compensate\n Attack the target, dealing Glacio DMG and reducing the Cooldown of Lucilla's Resonance Skill by 8s .\n\n Press Normal Attack shortly after casting this skill to cast Basic Attack Stage 2.\n\n Spotlight\n Attack the target, dealing Glacio DMG .\n\n While casting Spotlight, Lucilla additionally restores 20 points of Concerto Energy, and inflicts 1 extra stack of Glacio Chafe onto the target if she is in Resonance Mode - Glacio Chafe.\n\n Spotlight is immune to interruptions. Switching to another Resonator while casting Spotlight ends the skill early.\n\n Press Normal Attack shortly after casting this skill to cast Basic Attack Stage 2.\n\n Multipliers\n\n Resonance Liberation\n Clear As Day\n\n Lucilla's holds up to 0 Resonance Energy. Clear As Day consumes no Resonance Energy.\n Clear As Day unlocks when Lucilla holds all 3 Photos.\n Clear As Day\n Deal Glacio DMG and enter Reminiscence:\n When in Resonance Mode - Glacio Chafe, the DMG dealt is considered Basic Attack DMG. Casting this skill grants Lucilla 30% Basic Attack DMG Bonus for 10s .\n\n When in Resonance Mode - Echo, the DMG dealt is considered Echo Skill DMG. Casting this skill grants Lucilla 30% Echo Skill DMG Bonus for 10s .\n\n When in Reminiscence, Lucilla's resistance to interruption is increased, and she cannot cast Resonance Skill and Resonance Liberation. Her Basic Attack, Dodge Counter, Mid-air Attack, and Intro Skill - Clip It are replaced with Basic Attack - Tracing Forms, Dodge Counter - Reminiscence, Mid-air Attack - Reminiscence, and Intro Skill - Clip It: Hard Cut respectively.\n\n Can be performed in mid-air close to the ground.\n\n Basic Attack - Tracing Forms\n Perform up to 3 consecutive attacks, dealing Glacio DMG , considered Basic Attack DMG.\n\n Hold Normal Attack to cast Basic Attack - Tracing Forms Stage 1, 2, & 3 consecutively.\n\n While casting Basic Attack - Tracing Forms Stage 3, consecutively press or hold Normal Attack to continuously attack the target.\n\n While casting Basic Attack - Tracing Forms Stage 3, release the Normal Attack button or finish the whole Basic Attack - Tracing Forms Stage 3 to automatically perform Letting It Go.\n\n Letting It Go\n Deal Glacio DMG to targets within the range. When in Resonance Mode - Glacio Chafe/Resonance Mode - Echo, DMG dealt is considered Basic Attack DMG/Echo Skill DMG.\n\n Lucilla is immune to interruption and damage during Letting It Go, and Resonator switching is disabled while casting.\n\n While casting Letting It Go, Lucilla additionally restores 20 points of Concerto Energy.\n\n Casting Letting It Go ends Reminiscence.\n\n Mid-air Attack - Reminiscence\n Consume STA to perform Plunging Attack, dealing Glacio DMG , considered Basic Attack DMG.\n\n Press Normal Attack shortly after casting this skill to cast Basic Attack - Tracing Forms Stage 2.\n\n Dodge Counter - Reminiscence\n Press Normal Attack shortly after a successful Dodge to attack the target, dealing Glacio DMG , considered Basic Attack DMG.\n\n Press Normal Attack shortly after casting this skill to perform Basic Attack - Tracing Forms Stage 3.\n\n Multipliers\n\n Forte Circuit\n Memory Palace\n\n Déjà Vu\n While casting Resonance Liberation - Clear As Day, Lucilla grants the following enhancements based on her Resonance Mode:\n When in Resonance Mode - Glacio Chafe, gain 4 stacks of Film Roll for 30s , stacking up 4 times. All stacks are removed when the duration ends.\n\n When in Resonance Mode - Echo, gain 1 stack of Zoom for 30s . Max 1 stack, which is removed when the duration ends.\n\n The above effects end early when Lucilla switches Resonance Mode.\n\n Film Roll\n When an active Resonator in the team other than Lucilla inflicts Glacio Chafe onto the target, Lucilla consumes 1 stack of Film Roll to inflict Glacio Chafe 2 time on nearby targets. This effect can be triggered once every 0.5s .\n\n Zoom\n Each stack of Zoom increases the Crit. DMG of the active Resonator's Echo Skill by 10% .\n\n Oblivion\n During Basic Attack - Tracing Forms Stage 3, Lucilla consumes 1 Photo intermittently to perform Oblivion, dealing 1 instance of Glacio DMG :\n When in Resonance Mode - Glacio Chafe, this instance of DMG is considered Basic Attack DMG. The skill inflicts 1 stacks of Glacio Chafe on the target.\n\n When in Resonance Mode - Echo, this instance of DMG is considered Echo Skill DMG. Each cast of Oblivion is considered as casting a different Echo Skill.\n\n Quick Glance\n Press Aim to enter the camera mode. During this mode, Reverberations, environmental collectibles, and special collectibles within a certain range of Lucilla's shot will be marked. Press the shutter button to capture the moment, and the marked items will be gathered.\n\n Trace\n Lucilla can hold up to 150 points of Trace.\n\n Restore 100 points of Trace while casting Intro Skill - Clip It.\n\n Restore 50 points of Trace while casting Resonance Skill - Spotlight.\n\n Restore 50 points of Trace while casting Basic Attack Stage 3 - Commendable.\n\n Restore 25 points of Trace while casting Resonance Skill - Compensate or Basic Attack Stage 3 - Unremarkable.\n\n Photos\n Lucilla can hold up to 3 Photos.\n\n Every 50 points of Trace restored generates 1 Photo.\n\n Multipliers\n\n Forte Circuit\n Tune Break: Rectifier\n\n When the target's Off-Tune Level is full, the Resonator may cast Tune Break on the target.\n\n Inherent Skill\n Slow Motion\n\n When Focus Ring is deployed, Lucilla slows targets within her shot.\n While casting Resonance Skill - Spotlight, Lucilla grants the following enhancements based on her Resonance Mode:\n When in Resonance Mode - Glacio Chafe, Glacio RES of targets within a certain range around the active Resonator is reduced by 8% for 30s . If an enemy falls to Glacio Chafe DMG during this time, it counts as caused by the nearest active Resonator.\n\n When in Resonance Mode - Echo, Resonators in the team gain 25% Echo Skill DMG Bonus for 30s .\n\n These enhancements end when Lucilla switches the Resonance Mode.\n\n Inherent Skill\n Remembrance\n\n Film Roll can now be stacked up to 10 stacks, and Zoom up to 4 stacks.\n Each time Lucilla consumes Photo when in Resonance Mode - Glacio Chafe/Resonance Mode - Echo, she gains 2 stacks of Film Roll/1 stack of Zoom.\n\n Intro Skill\n Clip It\n\n Clip It\n Attack the target, dealing Glacio DMG and inflicting 1 stack of Glacio Chafe.\n\n Clip It: Hard Cut\n When in Reminiscence, Intro Skill is replaced with Clip It: Hard Cut.\n\n Attack the target, dealing Glacio DMG and inflicting 1 stack of Glacio Chafe.\n\n Press Normal Attack shortly after casting this skill to cast Basic Attack - Tracing Forms Stage 3.\n\n Multipliers\n\n Outro Skill\n Montage\n\n When in Resonance Mode - Glacio Chafe, Glacio Chafe DMG against targets within a certain range around the active Resonator is Amplified by 60% for 30s .\n This effect ends when Lucilla switches Resonance Modes.\n When in Resonance Mode - Echo, grant 50% Echo Skill DMG Amplification to the incoming Resonator for 14s .\n This effect ends when the incoming Resonator is switched off the field or when Lucilla switches Resonance Modes.\n\n Resonance Chain (Dupes)\n S 1\n Distant Noon\n\n While casting Resonance Skill - Phantom Frame to deploy Focus Ring, the first time landing the cursor within Perfect Focus will immediately expand Perfect Focus to fill up Focus Ring.\n Lucilla's Crit. Rate increases by 20% for 10s when Resonance Skill - Spotlight is cast.\n Lucilla is immune to interruptions while casting Resonance Skill - Phantom Frame and Basic Attack - Tracing Forms Stage 3.\n\n S 2\n Slumbering Moonlight\n\n While casting Resonance Liberation - Clear As Day, Lucilla grants the following enhancements based on her Resonance Mode:\n When in Resonance Mode - Glacio Chafe, Glacio Chafe DMG against targets within a certain range around the active Resonator is Amplified by 80% .\n\n When in Resonance Mode - Echo, grant 40% Echo Skill DMG Bonus to Resonators in the team.\n\n These enhancements last as long as Reminiscence is active and remain effective for 30s after Reminiscence ends.\n These effects end when Lucilla switches Resonance Modes.\n\n S 3\n Days Fade Unheard\n\n The DMG Multiplier of Letting It Go is increased by 100% .\n\n S 4\n The Past Fades Into Silence\n\n Oblivion pulls in nearby targets on hit. While casting Oblivion, Lucilla's ATK is increased by 10% for 6s , stacking up 3 times. All stacks are removed when the duration ends.\n While casting Basic Attack - Tracing Forms Stage 3, Lucilla takes 30% less DMG.\n\n S 5\n Time is Like a Stream\n\n The DMG Multiplier of Oblivion is increased by 50% .\n\n S 6\n Gazing In the Mist of Time\n\n When in Reminiscence, each time Lucilla consumes Photo, she gains 1 stack of Remembrance, stacking up to 3 times. Each stack of Remembrance increases Letting It Go's DMG dealt to the target by 200% , up to 600% . Casting Letting It Go removes all stacks of Remembrance.\n Lucilla gains Longing if she has defeated a target while in Reminiscence: Upon ending Reminiscence while not in combat, consume Longing to restore 150 points of Trace.\n\n Minor Fortes (Total)\n CRIT Rate\n + 8 %\n\n ATK%\n + 12 %\n\n Stats\n\nInclude minor fortes\n\n Lv. 90\n\n HP\n 12238\n\n ATK\n 375\n\n DEF\n 1198\n\n Max Energy\n 150\n\n CRIT Rate\n 5 %\n\n CRIT DMG\n 150 %\n\n Healing Bonus\n 0 %\n\n Glacio DMG\n 0 %\n\n Upgrade Materials\n Lucilla upgrade material information aren't available yet.\n\n Voice Actors\n ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -\n\n Gallery\n\n Review\n\n Ratings\n Please keep in mind Wuthering Waves is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Wuthering Waves is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.\n\n Hybrid\n T0\n Tower of Adversity\n\n T0\n Whimpering Wastes\n\n Value Tier List\n Hybrid\n T1\n Tower of Adversity (Value)\n\n T0.5\n Whimpering Wastes (Value)\n\n Pros & Cons\n Pros\n Best pick for Glacio Chafe, one of the best picks for Echo Damage, two of the strongest archetypes in the game right now - very meta pick as of her release;\n\n Has no Energy requirements and a rotation that only requires 5 inputs, making her super easy to use and flexible;\n\n Can focus more on personal damage or buffing depending on her role in the team, making her able to play into all possible Echo and Chafe teams as effectively as possible.\n\n Cons\n Her rotation restricts her quickswap potential by design, placing a large emphasis on animations that require her to stay actively on-field to perform or block any input (including swaps) from happening;\n\n Common to all Rectifier characters, she has no good permanent alternatives to her Signature (Cosmic Ripples is never ideal) and due to a higher reliance on personal stats in Echo Mode, the limited alternatives become worse in that case as well;\n\n Has the same problem as Denia, of 2 different sets for 2 different Resonance Modes, + 1 additional set for a specific team (so 3 different sets to build total to access her full flexibility), which may not be viable in terms of Echo materials for most.\n\n Review\n Lucilla is a 5-star Glacio Rectifier Hybrid character who works as a 2nd slot buffer for Glacio Chafe and Echo Skill Damage-based teams according to her Resonance Mode. Her rotation is extremely straightforward and requires only 5 inputs to fully function in total, making her the easiest Hybrid to rotate with in terms of input count in the game, tied with Sanhua. However, to understand what makes Lucilla strong in which teams, and her meta value, a more in-depth explanation is necessary, so let’s dive into it:\n Key Mechanics & Rotation\n Lucilla’s primary goal is to access her Ultimate, which requires no Energy, by accumulating 3 Photos to then consume them in her Ultimate stance via her Basic Attacks and becoming Princess Elsa from Disney’s Frozen (casting Letting It Go), fully restoring her Concerto Energy, deploying her buffs, and dealing a good amount of damage in the process.\n These concepts sound simple, and sure enough, Lucilla is just as easy to play. Restoring 3 Photos requires performing her Intro followed by her Skill, which necessitates some timing to execute perfectly but getting a feel for that isn’t particularly complicated. Approximately a quarter of a second after holding down the Skill button, the circle that forms around Lucilla while she holds her Skill turns golden, releasing the Skill at that point will perform a perfectly timed Skill and allow Lucilla to cast her Ultimate at the end of it. Beyond that point, holding Basic Attack down will perform all necessary moves to conclude her rotation.\n Now that her rotation has been covered, to understand her synergies and meta position, let’s discuss the extent of Lucilla’s buffs based on her Resonance mode.\n Who Does She Buff & How?\n Let’s provide a full recap of all of Lucilla’s buffs depending on each Resonance Mode:\n Throughout her rotation, she either applies 25 stacks of Glacio Chafe (with another Chafe applier on the team like Hiyuki) or gives 40% Echo Skill CRIT DMG to the active character;\n\n Casting Lucilla’s Hold Skill reduces Glacio RES by 8% or gives 25% Echo Skill DMG Bonus to all characters for 30s;\n\n Her Outro Skill Amplifies Glacio Chafe DMG by 60% (30s, not lost on swap), or Echo Skill DMG by 50% (14s, lost on swap);\n\n In Glacio Chafe teams, 5P Wishes of Quiet Snowfall + Glommoth will provide 37% Glacio DMG Bonus to the incoming character;\n\n In most Echo teams, 5P Moonlit Clouds + Heron will provide 22.5% ATK and 12% General DMG Bonus to the incoming character;\n\n In Echo Skill mode, each Photo consumed in her rotation counts as 3 different Echo Skill casts (like Qiuyuan’s Forte for example);\n\n In the Phrolova team, Voidwing Moth will provide 12% ATK to the incoming character;\n\n Lastly, Lucilla’s Signature provides 24% ATK to the team (standard for newer support Rectifiers).\n\n In total, her ability to apply a huge amount of Glacio Chafe and buff the Glacio and Glacio Chafe DMG of 1 character on her team makes her very suited for Glacio Chafe hypercarry teams (a description obviously corresponding to Hiyuki), and in Echo Skill mode, she’s perfectly suited to buff damage dealers that lean fully into Echo Skill DMG on-field (a description befitting Sigrika).\n Meta Position & Conclusion\n Lucilla’s a very easy character to understand, whose synergies are obvious from the get-go due to the kinds of buffs that she provides. In Echo Skill teams, she’s perfectly suited to Sigrika + Shorekeeper, to buff Sigrika’s almost-exclusively Echo Skill DMG as hard as possible. Meanwhile, for Glacio Chafe teams, the only contender is Hiyuki as of her release, for whom she’s perfectly suited as well.\n However, in Echo Skill mode, Lucilla does offer flexibility: wielding a 5P Moonlit Clouds Echo set, she can support not only Sigrika but also Galbrena, and using the property that she can never hold any Resonance Energy, 3P Dream of The Lost (Phrolova’s Echo set) works on her to make her even stronger damage-wise, fitting a pseudo-”Triple DPS” Phrolova Echo team.\n Using these different and unique ways to build her, Lucilla can be a strong asset to a lot of accounts, being part of Hiyuki and Phrolova’s best team, and standing on equal footing with Qiuyuan for Galbrena and (most importantly) Sigrika teams, each offering their own specialties: Qiuyuan can synergize with Ciaccona for Sigrika and has a faster rotation, but Lucilla is more consistent due to her immunity during Letting It Go and offers more specialized buffs, making her better with Shorekeeper for Sigrika, but is more Signature weapon-reliant than Qiuyuan and works less effectively for Galbrena who doesn’t exclusively deal Echo Skill DMG in exchange.\n In conclusion, Lucilla could very well be the Hybrid buffer you need to round out your Glacio Chafe and Echo Skill teams. While her use case with Hiyuki is obvious, and she is highly desired in that team composition, Lucilla will find a lot of use cases in a wide variety of Echo Skill teams, making her a particularly strong contender in the meta as of her release by her ease of use, buffing ability, and team composition strength.\n\n Video guides\n\n Build\n\n Best Weapons\n The percentages show the performance of the weapon based on calculations , but in some cases, some weapons might provide additional QOL that can't be quantified and it would push that weapon ahead of others in the priority (and in those cases, we would put that weapon higher).\n\n Lucilla calculations were done using added buffs from the following teammates:\n Sigrika + Solsworn Ciphers +\n Sound of True Name\n\n +\n Nameless Explorer\n\n The Shorekeeper + Variation +\n Rejuvenating Glow\n\n +\n Fallacy of No Return\n\n Hiyuki + Frostburn +\n Wishes of Quiet Snowfall\n\n +\n Reminiscence: Threnodian - Voidborne Construct\n\n Chisa + Kumokiri +\n Rejuvenating Glow\n\n +\n Fallacy of No Return\n\n 100.00%\n 100.00%\n\n Freeze Frame (R 1 )\n\n Lucilla's Signature and team-buffing weapon, capable of granting her the most personal damage of any weapon choice she has alongside a 24% team-wide ATK buff, standard for modern Rectifier supports.\n 95.70%\n 81.60%\n\n Whispers of Sirens (R 1 )\n\n Grants Lucilla a 40% Basic DMG Bonus buff when casting Echo Skill, which she can do immediately in Glacio Chafe mode making it her second best choice in that mode, but otherwise is useless for her in Echo Skill mode as she almost completely stops dealing Basic DMG.\n 95.60%\n 87.60%\n\n Stringmaster (R 1 )\n\n Generic strong choice for all Rectifier damage dealers, Lucilla being no exception. Gives strong general buffs ranging from ATK to general DMG Bonus to very high CRIT Rate. A strong blend of stats for a strong general use rectifier.\n 93.10%\n 99.00%\n\n Lethean Elegy (R 1 )\n\n Phrolova's Signature is one of the few rectifiers in the game to have a higher Base ATK of 587, and its easy-to-activate DEF Ignore make it a good generalist weapon, however its power on Lucilla goes way higher if she's in Echo mode as she can fully benefit from all of its effects as she turns into an Echo Skill DMG dealer, making it the only viable alternative to her Signature in Echo mode.\n 93.10%\n 80.50%\n\n Rime-Draped Sprouts (R 1 )\n\n Zhezhi's Signature gives a small Basic DMG Bonus to Lucila upon using her Skill, but as she can only benefit from 1 stack, it mostly remains an ATK and CRIT DMG stat-stick for her.\n 92.40%\n 79.50%\n\n Forged Dwarf Star (R 1 )\n\n SImple ATK and CRIT Rate stat-stick for Lucilla, who does not benefit from this weapon's Fusion Burst/Tune Strain-related effects.\n 92.40%\n 79.50%\n\n Luminous Hymn (R 1 )\n\n SImple ATK and CRIT Rate stat-stick for Lucilla, who does not benefit from this weapon's Spectro Frazzle-related effects.\n 90.40%\n 68.60%\n\n Radiant Dawn (R 5 )\n\n This Battle Pass Exclusive is Lucilla's best option in Glacio Chafe mode, giving her a CRIT DMG secondary stat, and an ATK and Basic DMG-boosting passive right at the start of her rotation. Due to Cosmic Ripples not being ideal in terms of the stats it provides, this weapon can prove a good replacement in Chafe mode where Lucilla deals Basic DMG, in spite of its lower Base ATK. However, this weapon is not advised in Echo mode as Lucilla doesn't deal close to as much Basic DMG there.\n 90.30%\n 73.50%\n\n Cosmic Ripples (R 1 )\n\n Best permanent option although not ideal for almost every Rectifier user. Gives a lot of ATK but has no CRIT secondary stat which makes it worse than other similar weapons. The Energy Regen-increasing passive it has is useless on Lucilla, and while it does give her Basic DMG for Glacio Chafe mode, it's overall not ideal, particularly for Echo mode where it's just an ATK stat-stick for her. Signature highly recommended for Echo teams if this is your 2nd best option.\n 89.10%\n 73.30%\n\n Augment (R 5 )\n\n This Battle Pass exclusive is a close contender to Radiant Dawn in Chafe mode as its passive is activated quickly, and overall it provides better stats for Lucilla in Echo mode, making it the best 4-star choice in that mode.\n 87.00%\n 62.10%\n\n Waltz in Masquerade (R 5 )\n\n Best no-gacha option available, strong ATK-boosting passive available for Chafe mode but otherwise useless for Echo mode. If this is your best option in Echo mode, try to get Lucilla's Signature weapon for a much needed performance boost - but this weapon can work fine enough in Chafe mode even if the Signature is still recommended.\n\n Best Echo Sets\n Best Echo Sets\n 100.00%\n\nWishes of Quiet Snowfall\n\n This Glacio Chafe DPS and Support focused set provides Lucilla with the ability to buff the incoming character via Outro's Glacio DMG by 25% on top of giving Lucilla 20% Glacio DMG Bonus to use for herself, as Lucilla does not deal any Liberation DMG. Gives a good blend of self-buffing and single-target buffing, making it her overall best choice.\n Below you can find Main Echo options:\n\n Glommoth\n\n - Simple Summon Echo that gives the next incoming character via Outro an extra 12% Glacio DMG Bonus, to add onto the set's 5P buffing effect.\n\n 100.00%\n\nMoonlit Clouds\n\n Offers 10% unconditional Energy Regen on the 2P, which is useless to Lucilla. However, upon using Outro, grants the next character switching in a 22.5% ATK boost, increasing their damage by a good amount.\n Below you can find Main Echo options:\n\n Impermanence Heron\n\n - The best and only real option 5P Moonlit Clouds has, as it grants an extra 12% DMG Bonus on top of the ATK boost to the next character that Moonlit Clouds would usually give.\n\n Special Echo Sets\n\nDream of the Lost\n\n Best Echo set for Lucilla in the Phrolova team. It permanently gives her 20% CRIT Rate and 35% Echo Skill DMG Bonus, providing big boosts to the majority of her rotation. This enables her to deal significant damage to enemies while still buffing Phrolova. That is because this is a 3-piece set, meaning it can be combined with a 2-piece set effect of your choice. This set is best combined with your choice of:\n Best combined with your choice of:\n 2P\n Reel of Spliced Memories\n\n (Recommended)\n 2P\n Moonlit Clouds\n\n Below you can find Main Echo options:\n\n Voidwing Moth\n\n - Gives 12% ATK to the incoming character via Outro for 15s once cast. Gives Lucilla a buffing Echo while still benefitting from the massive personal damage gains of 3P Dream of the Lost, allowing her to buff Phrolova while still dealing good personal damage.\n\n Impermanence Heron\n\n - Less ideal than Voidwing Moth as Lucilla can benefit from an extra 10% ATK with the 2P set effect while this Echo's Energy Regen 2P and Energy-restoring properties are useless to Lucilla. Still, this Echo can act as a fine replacement if lacking Reel pieces as it gives 12% DMG Bonus to the incoming character for 15s, making it a decent alternative to buff Phrolova.\n\n Best Echo Stats\n 4 cost\n CRIT Rate / CRIT DMG\n\n 3 cost\n Glacio DMG\n\n 3 cost\n Glacio DMG > ATK%\n\n 1 cost\n ATK%\n\n 1 cost\n ATK%\n\n Substats: CRIT Rate = CRIT DMG > ATK% > ATK = Basic DMG%\n\n In Echo mode, Basic DMG is almost completely useless, so prioritize ATK instead. Basic DMG is only slightly more important than ATK for Chafe mode.\n\n Best Endgame Stats (Level 90)\n All recommended endgame stats portray a fairly good quality endgame build as a goal to aim for on most characters. However, don’t treat this as an end-all-be-all, and more of a suggestion.\n All stat recommendations are given at S0 for 5-stars, S6 for 4-stars, and free characters (unless specified otherwise), based on total stats in the in-game stat-screen with the character out of combat but also active in the party (and hence some buffs may or may not apply). Any other precision may be directly specified. If not specified, Energy Regen requirements are estimated in the character’s best team.\n HP: 16000+\n\n DEF: 1150+\n\n ATK: 1900-2200b+\n\n CRIT Rate: 65-80%+\n\n CRIT DMG: 210-280%+\n\n Energy Regen: 100%\n\n Glacio DMG Bonus: 30-70%+\n\n Skill Priority\n Below you can find the order of leveling the abilities for Lucilla .\n Res. Liberation\n\n Res. Skill\n\n Forte Circuit\n\n Intro Skill\n\n Basic Attack\n\n Basic can be completely skipped as it is useless to Lucilla's practical rotation. Intro can be skipped when levelling to save on resources at a minimal damage loss.\n\n Gameplay and teams\n\n Rotation\n Rotation & How to Play\n Lucilla’s gameplay is very simple, barely changing between Glacio Chafe and Echo Skill modes. It consists of generating and consuming Photos as fast as possible, and for this she only has one way of doing it that guarantees all of her buffs:\n Echo Timing:\n For Phrolova (Voidwing Moth) and other Echo teams (Impermanence Heron): Swap at the end of her rotation after Letting It Go before Outro.For Glacio Chafe: Summon Echo, usable at any point in the rotation.\n Standard Rotation\n Intro\n\n Skill: Spotlight (Perfect Release)\n\n Ultimate\n\n → Hold Basic (Heavy) at this point in the rotation.\n Heavy: Basic - Forms 1\n\n Heavy: Basic - Forms 2\n\n Heavy: Basic - Forms 3\n\n Letting It Go\n\n Outro\n\n Additional Tips & Tricks\n To release Spotlight perfectly within its timing window, try releasing around a quarter of a second after the Skill has started casting. During the Skill cast, the lens that forms around Lucilla has 2 grey areas, on which the arrows that circle around the lens need to land, for the Skill to be released at the perfect timing. At that point in time, the areas’ colour changes from grey to golden - you want to release the Skill button there.\n\n Additionally, since Lucilla’s Ultimate will not come up before Skill has fully landed, you’re free to spam Ultimate until it casts and - if on Glacio Chafe mode - you may do the same for Outro by spamming swap during Letting It Go as well.\n\n Synergies\n Hiyuki - Lucilla's only partner in Glacio Chafe mode and her best partner overall, Hiyuki's perfect for Lucilla as her very high base damage paired with tons of Glacio Chafe application makes for a ton of Glacio Bite and a mix of Liberation and Basic DMG that can tear through the entire game easily.\n Sigrika Phrolova Galbrena - Lucilla works naturally in Echo Mode with all Echo Skill DMG dealers due to her Outro amplifying Echo Skill DMG and her ability to cast multiple Echo Skills as well as increase Echo DMG of the whole team in general. By order of viability, Sigrika's the best by far and pairs naturally with Shorekeeper, Galbrena does also but her 1/3 Heavy DMG makes her a bit worse than Qiuyuan in that role. Phrolova can pair with both Lucilla and Qiuyuan for a team with a ton of Echo Skill DMG which makes it Phrolova's new best team overall.\n Example Teams\n Glacio Chafe Team\n\n Shorekeeper and Verina can also work in the 3rd slot but will provide much less effective buffs for Hiyuki's team than Chisa.\n\n Echo Skill Hypercarry\n\n Phrolova Team\n\n With Cantarella on the team, pivot Lucilla to the 3rd slot and have Cantarella Outro buff Phrolova instead.\n\n Calculations"
+  "text": "Lucilla Best Build Guide | Wuthering Waves (WuWa)\n \n\n Wuthering Waves\n Home Database Characters Weapons Echoes Banners\n Tier Lists Tier List Team Tier List Value Tier List\n Guides Guides\n Resources Map News\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Wuthering Waves\n /\n Characters\n /\n Lucilla\n Lucilla Best Build Guide\n Last updated: 30/July/2026\n\n Introduction\n Best guide and build for Lucilla from WW (Wuthering Waves). Lucilla is a 5 ★ rarity character from the Glacio element who uses the Rectifier type weapon.\n\n To learn more about Lucilla check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Video guide\n Lucilla has at least one video guide available:\n\n Update tracker\n Last review update\n Patch 3.4\n\n Last major build/calcs update\n Patch 3.4\n\n Last profile update*\n 30/July/2026\n\n *Profile update means smaller edits to echoes, stats, synergies or teams that don't require new calculations.\n To learn more about Lucilla check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Kit\n\n Review\n\n Build\n\n Gameplay and teams\n\n Calculations\n\n Profile\n\n Skills\n Active skills\n Passive skills\n Concerto skills\n\n Basic Attack\n Snapshot\n\n Basic Attack\n Perform up to 3 consecutive attacks, dealing Glacio DMG .\n\n While casting Basic Attack Stage 3, hold Normal Attack to deploy Focus Ring. A cursor will move around the Focus Ring.\n Releasing the Normal Attack button when the cursor falls outside of Perfect Focus will trigger Basic Attack Stage 3 - Unremarkable, dealing Glacio DMG and restoring Trace.\n\n Releasing the Normal Attack button when the cursor falls within Perfect Focus will trigger Basic Attack Stage 3 - Commendable, dealing increased Glacio DMG and restoring additional Trace.\n\n Pressing Normal Attack shortly after casting Basic Attack Stage 2 will trigger Basic Attack Stage 3 - Unremarkable instead of deploying Focus Ring.\n\n When Focus Ring is deployed, the Perfect Focus zone continues to fill the ring. Once Focus Ring is completely filled, it automatically collapses and triggers Basic Attack Stage 3 - Commendable.\n\n Hold Normal Attack to cast Basic Attack Stage 1, 2, and 3 in sequence, and deploy Focus Ring during Basic Attack Stage 3.\n\n Mid-air Attack\n Consume STA to perform Plunging Attack, dealing Glacio DMG . Press Normal Attack shortly after casting this skill to cast Basic Attack Stage 2.\n\n Dodge Counter\n Press Normal Attack shortly after a successful Dodge to attack the target, dealing Glacio DMG . Shortly after performing this attack, press Normal Attack to perform Basic Attack Stage 3.\n\n Multipliers\n\n Resonance Skill\n Phantom Frame\n\n Pull in nearby targets, dealing Glacio DMG .\n While casting this skill, hold Resonance Skill to deploy Focus Ring. A cursor will move around the Focus Ring.\n Releasing the Resonance Skill button when the cursor falls outside of Perfect Focus will trigger Compensate, dealing Glacio DMG and restoring Trace.\n\n Releasing the Resonance Skill button when the cursor falls within Perfect Focus will trigger Spotlight, dealing increased Glacio DMG and restoring additional Trace.\n\n If Lucilla casts the skill on-field without holding Resonance Skill, she directly casts Compensate instead of deploying Focus Ring.\n Compensate\n Attack the target, dealing Glacio DMG and reducing the Cooldown of Lucilla's Resonance Skill by 8s .\n\n Press Normal Attack shortly after casting this skill to cast Basic Attack Stage 2.\n\n Spotlight\n Attack the target, dealing Glacio DMG .\n\n While casting Spotlight, Lucilla additionally restores 20 points of Concerto Energy, and inflicts 1 extra stack of Glacio Chafe onto the target if she is in Resonance Mode - Glacio Chafe.\n\n Spotlight is immune to interruptions. Switching to another Resonator while casting Spotlight ends the skill early.\n\n Press Normal Attack shortly after casting this skill to cast Basic Attack Stage 2.\n\n Multipliers\n\n Resonance Liberation\n Clear As Day\n\n Lucilla's holds up to 0 Resonance Energy. Clear As Day consumes no Resonance Energy.\n Clear As Day unlocks when Lucilla holds all 3 Photos.\n Clear As Day\n Deal Glacio DMG and enter Reminiscence:\n When in Resonance Mode - Glacio Chafe, the DMG dealt is considered Basic Attack DMG. Casting this skill grants Lucilla 30% Basic Attack DMG Bonus for 10s .\n\n When in Resonance Mode - Echo, the DMG dealt is considered Echo Skill DMG. Casting this skill grants Lucilla 30% Echo Skill DMG Bonus for 10s .\n\n When in Reminiscence, Lucilla's resistance to interruption is increased, and she cannot cast Resonance Skill and Resonance Liberation. Her Basic Attack, Dodge Counter, Mid-air Attack, and Intro Skill - Clip It are replaced with Basic Attack - Tracing Forms, Dodge Counter - Reminiscence, Mid-air Attack - Reminiscence, and Intro Skill - Clip It: Hard Cut respectively.\n\n Can be performed in mid-air close to the ground.\n\n Basic Attack - Tracing Forms\n Perform up to 3 consecutive attacks, dealing Glacio DMG , considered Basic Attack DMG.\n\n Hold Normal Attack to cast Basic Attack - Tracing Forms Stage 1, 2, & 3 consecutively.\n\n While casting Basic Attack - Tracing Forms Stage 3, consecutively press or hold Normal Attack to continuously attack the target.\n\n While casting Basic Attack - Tracing Forms Stage 3, release the Normal Attack button or finish the whole Basic Attack - Tracing Forms Stage 3 to automatically perform Letting It Go.\n\n Letting It Go\n Deal Glacio DMG to targets within the range. When in Resonance Mode - Glacio Chafe/Resonance Mode - Echo, DMG dealt is considered Basic Attack DMG/Echo Skill DMG.\n\n Lucilla is immune to interruption and damage during Letting It Go, and Resonator switching is disabled while casting.\n\n While casting Letting It Go, Lucilla additionally restores 20 points of Concerto Energy.\n\n Casting Letting It Go ends Reminiscence.\n\n Mid-air Attack - Reminiscence\n Consume STA to perform Plunging Attack, dealing Glacio DMG , considered Basic Attack DMG.\n\n Press Normal Attack shortly after casting this skill to cast Basic Attack - Tracing Forms Stage 2.\n\n Dodge Counter - Reminiscence\n Press Normal Attack shortly after a successful Dodge to attack the target, dealing Glacio DMG , considered Basic Attack DMG.\n\n Press Normal Attack shortly after casting this skill to perform Basic Attack - Tracing Forms Stage 3.\n\n Multipliers\n\n Forte Circuit\n Memory Palace\n\n Déjà Vu\n While casting Resonance Liberation - Clear As Day, Lucilla grants the following enhancements based on her Resonance Mode:\n When in Resonance Mode - Glacio Chafe, gain 4 stacks of Film Roll for 30s , stacking up 4 times. All stacks are removed when the duration ends.\n\n When in Resonance Mode - Echo, gain 1 stack of Zoom for 30s . Max 1 stack, which is removed when the duration ends.\n\n The above effects end early when Lucilla switches Resonance Mode.\n\n Film Roll\n When an active Resonator in the team other than Lucilla inflicts Glacio Chafe onto the target, Lucilla consumes 1 stack of Film Roll to inflict Glacio Chafe 2 time on nearby targets. This effect can be triggered once every 0.5s .\n\n Zoom\n Each stack of Zoom increases the Crit. DMG of the active Resonator's Echo Skill by 10% .\n\n Oblivion\n During Basic Attack - Tracing Forms Stage 3, Lucilla consumes 1 Photo intermittently to perform Oblivion, dealing 1 instance of Glacio DMG :\n When in Resonance Mode - Glacio Chafe, this instance of DMG is considered Basic Attack DMG. The skill inflicts 1 stacks of Glacio Chafe on the target.\n\n When in Resonance Mode - Echo, this instance of DMG is considered Echo Skill DMG. Each cast of Oblivion is considered as casting a different Echo Skill.\n\n Quick Glance\n Press Aim to enter the camera mode. During this mode, Reverberations, environmental collectibles, and special collectibles within a certain range of Lucilla's shot will be marked. Press the shutter button to capture the moment, and the marked items will be gathered.\n\n Trace\n Lucilla can hold up to 150 points of Trace.\n\n Restore 100 points of Trace while casting Intro Skill - Clip It.\n\n Restore 50 points of Trace while casting Resonance Skill - Spotlight.\n\n Restore 50 points of Trace while casting Basic Attack Stage 3 - Commendable.\n\n Restore 25 points of Trace while casting Resonance Skill - Compensate or Basic Attack Stage 3 - Unremarkable.\n\n Photos\n Lucilla can hold up to 3 Photos.\n\n Every 50 points of Trace restored generates 1 Photo.\n\n Multipliers\n\n Forte Circuit\n Tune Break: Rectifier\n\n When the target's Off-Tune Level is full, the Resonator may cast Tune Break on the target.\n\n Inherent Skill\n Slow Motion\n\n When Focus Ring is deployed, Lucilla slows targets within her shot.\n While casting Resonance Skill - Spotlight, Lucilla grants the following enhancements based on her Resonance Mode:\n When in Resonance Mode - Glacio Chafe, Glacio RES of targets within a certain range around the active Resonator is reduced by 8% for 30s . If an enemy falls to Glacio Chafe DMG during this time, it counts as caused by the nearest active Resonator.\n\n When in Resonance Mode - Echo, Resonators in the team gain 25% Echo Skill DMG Bonus for 30s .\n\n These enhancements end when Lucilla switches the Resonance Mode.\n\n Inherent Skill\n Remembrance\n\n Film Roll can now be stacked up to 10 stacks, and Zoom up to 4 stacks.\n Each time Lucilla consumes Photo when in Resonance Mode - Glacio Chafe/Resonance Mode - Echo, she gains 2 stacks of Film Roll/1 stack of Zoom.\n\n Intro Skill\n Clip It\n\n Clip It\n Attack the target, dealing Glacio DMG and inflicting 1 stack of Glacio Chafe.\n\n Clip It: Hard Cut\n When in Reminiscence, Intro Skill is replaced with Clip It: Hard Cut.\n\n Attack the target, dealing Glacio DMG and inflicting 1 stack of Glacio Chafe.\n\n Press Normal Attack shortly after casting this skill to cast Basic Attack - Tracing Forms Stage 3.\n\n Multipliers\n\n Outro Skill\n Montage\n\n When in Resonance Mode - Glacio Chafe, Glacio Chafe DMG against targets within a certain range around the active Resonator is Amplified by 60% for 30s .\n This effect ends when Lucilla switches Resonance Modes.\n When in Resonance Mode - Echo, grant 50% Echo Skill DMG Amplification to the incoming Resonator for 14s .\n This effect ends when the incoming Resonator is switched off the field or when Lucilla switches Resonance Modes.\n\n Resonance Chain (Dupes)\n S 1\n Distant Noon\n\n While casting Resonance Skill - Phantom Frame to deploy Focus Ring, the first time landing the cursor within Perfect Focus will immediately expand Perfect Focus to fill up Focus Ring.\n Lucilla's Crit. Rate increases by 20% for 10s when Resonance Skill - Spotlight is cast.\n Lucilla is immune to interruptions while casting Resonance Skill - Phantom Frame and Basic Attack - Tracing Forms Stage 3.\n\n S 2\n Slumbering Moonlight\n\n While casting Resonance Liberation - Clear As Day, Lucilla grants the following enhancements based on her Resonance Mode:\n When in Resonance Mode - Glacio Chafe, Glacio Chafe DMG against targets within a certain range around the active Resonator is Amplified by 80% .\n\n When in Resonance Mode - Echo, grant 40% Echo Skill DMG Bonus to Resonators in the team.\n\n These enhancements last as long as Reminiscence is active and remain effective for 30s after Reminiscence ends.\n These effects end when Lucilla switches Resonance Modes.\n\n S 3\n Days Fade Unheard\n\n The DMG Multiplier of Letting It Go is increased by 100% .\n\n S 4\n The Past Fades Into Silence\n\n Oblivion pulls in nearby targets on hit. While casting Oblivion, Lucilla's ATK is increased by 10% for 6s , stacking up 3 times. All stacks are removed when the duration ends.\n While casting Basic Attack - Tracing Forms Stage 3, Lucilla takes 30% less DMG.\n\n S 5\n Time is Like a Stream\n\n The DMG Multiplier of Oblivion is increased by 50% .\n\n S 6\n Gazing In the Mist of Time\n\n When in Reminiscence, each time Lucilla consumes Photo, she gains 1 stack of Remembrance, stacking up to 3 times. Each stack of Remembrance increases Letting It Go's DMG dealt to the target by 200% , up to 600% . Casting Letting It Go removes all stacks of Remembrance.\n Lucilla gains Longing if she has defeated a target while in Reminiscence: Upon ending Reminiscence while not in combat, consume Longing to restore 150 points of Trace.\n\n Minor Fortes (Total)\n CRIT Rate\n + 8 %\n\n ATK%\n + 12 %\n\n Stats\n\nInclude minor fortes\n\n Lv. 90\n\n HP\n 12238\n\n ATK\n 375\n\n DEF\n 1198\n\n Max Energy\n 150\n\n CRIT Rate\n 5 %\n\n CRIT DMG\n 150 %\n\n Healing Bonus\n 0 %\n\n Glacio DMG\n 0 %\n\n Upgrade Materials\n Lucilla upgrade material information aren't available yet.\n\n Voice Actors\n ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -\n\n Gallery\n\n Review\n\n Ratings\n Please keep in mind Wuthering Waves is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Wuthering Waves is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.\n\n Hybrid\n T0\n Tower of Adversity\n\n T0\n Whimpering Wastes\n\n Value Tier List\n Hybrid\n T1\n Tower of Adversity (Value)\n\n T0.5\n Whimpering Wastes (Value)\n\n Pros & Cons\n Pros\n Best pick for Glacio Chafe, one of the best picks for Echo Damage, two of the strongest archetypes in the game right now - very meta pick as of her release;\n\n Has no Energy requirements and a rotation that only requires 5 inputs, making her super easy to use and flexible;\n\n Can focus more on personal damage or buffing depending on her role in the team, making her able to play into all possible Echo and Chafe teams as effectively as possible.\n\n Cons\n Her rotation restricts her quickswap potential by design, placing a large emphasis on animations that require her to stay actively on-field to perform or block any input (including swaps) from happening;\n\n Common to all Rectifier characters, she has no good permanent alternatives to her Signature (Cosmic Ripples is never ideal) and due to a higher reliance on personal stats in Echo Mode, the limited alternatives become worse in that case as well;\n\n Has the same problem as Denia, of 2 different sets for 2 different Resonance Modes, + 1 additional set for a specific team (so 3 different sets to build total to access her full flexibility), which may not be viable in terms of Echo materials for most.\n\n Review\n Lucilla is a 5-star Glacio Rectifier Hybrid character who works as a 2nd slot buffer for Glacio Chafe and Echo Skill Damage-based teams according to her Resonance Mode. Her rotation is extremely straightforward and requires only 5 inputs to fully function in total, making her the easiest Hybrid to rotate with in terms of input count in the game, tied with Sanhua. However, to understand what makes Lucilla strong in which teams, and her meta value, a more in-depth explanation is necessary, so let’s dive into it:\n Key Mechanics & Rotation\n Lucilla’s primary goal is to access her Ultimate, which requires no Energy, by accumulating 3 Photos to then consume them in her Ultimate stance via her Basic Attacks and becoming Princess Elsa from Disney’s Frozen (casting Letting It Go), fully restoring her Concerto Energy, deploying her buffs, and dealing a good amount of damage in the process.\n These concepts sound simple, and sure enough, Lucilla is just as easy to play. Restoring 3 Photos requires performing her Intro followed by her Skill, which necessitates some timing to execute perfectly but getting a feel for that isn’t particularly complicated. Approximately a quarter of a second after holding down the Skill button, the circle that forms around Lucilla while she holds her Skill turns golden, releasing the Skill at that point will perform a perfectly timed Skill and allow Lucilla to cast her Ultimate at the end of it. Beyond that point, holding Basic Attack down will perform all necessary moves to conclude her rotation.\n Now that her rotation has been covered, to understand her synergies and meta position, let’s discuss the extent of Lucilla’s buffs based on her Resonance mode.\n Who Does She Buff & How?\n Let’s provide a full recap of all of Lucilla’s buffs depending on each Resonance Mode:\n Throughout her rotation, she either applies 25 stacks of Glacio Chafe (with another Chafe applier on the team like Hiyuki) or gives 40% Echo Skill CRIT DMG to the active character;\n\n Casting Lucilla’s Hold Skill reduces Glacio RES by 8% or gives 25% Echo Skill DMG Bonus to all characters for 30s;\n\n Her Outro Skill Amplifies Glacio Chafe DMG by 60% (30s, not lost on swap), or Echo Skill DMG by 50% (14s, lost on swap);\n\n In Glacio Chafe teams, 5P Wishes of Quiet Snowfall + Glommoth will provide 37% Glacio DMG Bonus to the incoming character;\n\n In most Echo teams, 5P Moonlit Clouds + Heron will provide 22.5% ATK and 12% General DMG Bonus to the incoming character;\n\n In Echo Skill mode, each Photo consumed in her rotation counts as 3 different Echo Skill casts (like Qiuyuan’s Forte for example);\n\n In the Phrolova team, Voidwing Moth will provide 12% ATK to the incoming character;\n\n Lastly, Lucilla’s Signature provides 24% ATK to the team (standard for newer support Rectifiers).\n\n In total, her ability to apply a huge amount of Glacio Chafe and buff the Glacio and Glacio Chafe DMG of 1 character on her team makes her very suited for Glacio Chafe hypercarry teams (a description obviously corresponding to Hiyuki), and in Echo Skill mode, she’s perfectly suited to buff damage dealers that lean fully into Echo Skill DMG on-field (a description befitting Sigrika).\n Meta Position & Conclusion\n Lucilla’s a very easy character to understand, whose synergies are obvious from the get-go due to the kinds of buffs that she provides. In Echo Skill teams, she’s perfectly suited to Sigrika + Shorekeeper, to buff Sigrika’s almost-exclusively Echo Skill DMG as hard as possible. Meanwhile, for Glacio Chafe teams, the only contender is Hiyuki as of her release, for whom she’s perfectly suited as well.\n However, in Echo Skill mode, Lucilla does offer flexibility: wielding a 5P Moonlit Clouds Echo set, she can support not only Sigrika but also Galbrena, and using the property that she can never hold any Resonance Energy, 3P Dream of The Lost (Phrolova’s Echo set) works on her to make her even stronger damage-wise, fitting a pseudo-”Triple DPS” Phrolova Echo team.\n Using these different and unique ways to build her, Lucilla can be a strong asset to a lot of accounts, being part of Hiyuki and Phrolova’s best team, and standing on equal footing with Qiuyuan for Galbrena and (most importantly) Sigrika teams, each offering their own specialties: Qiuyuan can synergize with Ciaccona for Sigrika and has a faster rotation, but Lucilla is more consistent due to her immunity during Letting It Go and offers more specialized buffs, making her better with Shorekeeper for Sigrika, but is more Signature weapon-reliant than Qiuyuan and works less effectively for Galbrena who doesn’t exclusively deal Echo Skill DMG in exchange.\n In conclusion, Lucilla could very well be the Hybrid buffer you need to round out your Glacio Chafe and Echo Skill teams. While her use case with Hiyuki is obvious, and she is highly desired in that team composition, Lucilla will find a lot of use cases in a wide variety of Echo Skill teams, making her a particularly strong contender in the meta as of her release by her ease of use, buffing ability, and team composition strength.\n\n Video guides\n\n Build\n\n Best Weapons\n The percentages show the performance of the weapon based on calculations , but in some cases, some weapons might provide additional QOL that can't be quantified and it would push that weapon ahead of others in the priority (and in those cases, we would put that weapon higher).\n\n Lucilla calculations were done using added buffs from the following teammates:\n Glacio Chafe\n Hiyuki + Frostburn +\n Wishes of Quiet Snowfall\n\n +\n Reminiscence: Threnodian - Voidborne Construct\n\n Chisa + Kumokiri +\n Rejuvenating Glow\n\n +\n Fallacy of No Return\n\n Echo\n Sigrika + Solsworn Ciphers +\n Sound of True Name\n\n +\n Nameless Explorer\n\n The Shorekeeper + Variation +\n Rejuvenating Glow\n\n +\n Fallacy of No Return\n\n 100.00%\n 100.00%\n\n Freeze Frame (R 1 )\n\n Lucilla's Signature and team-buffing weapon, capable of granting her the most personal damage of any weapon choice she has alongside a 24% team-wide ATK buff, standard for modern Rectifier supports.\n 95.70%\n 81.60%\n\n Whispers of Sirens (R 1 )\n\n Grants Lucilla a 40% Basic DMG Bonus buff when casting Echo Skill, which she can do immediately in Glacio Chafe mode making it her second best choice in that mode, but otherwise is useless for her in Echo Skill mode as she almost completely stops dealing Basic DMG.\n 95.60%\n 87.60%\n\n Stringmaster (R 1 )\n\n Generic strong choice for all Rectifier damage dealers, Lucilla being no exception. Gives strong general buffs ranging from ATK to general DMG Bonus to very high CRIT Rate. A strong blend of stats for a strong general use rectifier.\n 93.10%\n 99.00%\n\n Lethean Elegy (R 1 )\n\n Phrolova's Signature is one of the few rectifiers in the game to have a higher Base ATK of 587, and its easy-to-activate DEF Ignore make it a good generalist weapon, however its power on Lucilla goes way higher if she's in Echo mode as she can fully benefit from all of its effects as she turns into an Echo Skill DMG dealer, making it the only viable alternative to her Signature in Echo mode.\n 93.10%\n 80.50%\n\n Rime-Draped Sprouts (R 1 )\n\n Zhezhi's Signature gives a small Basic DMG Bonus to Lucila upon using her Skill, but as she can only benefit from 1 stack, it mostly remains an ATK and CRIT DMG stat-stick for her.\n 92.40%\n 79.50%\n\n Forged Dwarf Star (R 1 )\n\n SImple ATK and CRIT Rate stat-stick for Lucilla, who does not benefit from this weapon's Fusion Burst/Tune Strain-related effects.\n 92.40%\n 79.50%\n\n Luminous Hymn (R 1 )\n\n SImple ATK and CRIT Rate stat-stick for Lucilla, who does not benefit from this weapon's Spectro Frazzle-related effects.\n 90.40%\n 68.60%\n\n Radiant Dawn (R 5 )\n\n This Battle Pass Exclusive is Lucilla's best option in Glacio Chafe mode, giving her a CRIT DMG secondary stat, and an ATK and Basic DMG-boosting passive right at the start of her rotation. Due to Cosmic Ripples not being ideal in terms of the stats it provides, this weapon can prove a good replacement in Chafe mode where Lucilla deals Basic DMG, in spite of its lower Base ATK. However, this weapon is not advised in Echo mode as Lucilla doesn't deal close to as much Basic DMG there.\n 90.30%\n 73.50%\n\n Cosmic Ripples (R 1 )\n\n Best permanent option although not ideal for almost every Rectifier user. Gives a lot of ATK but has no CRIT secondary stat which makes it worse than other similar weapons. The Energy Regen-increasing passive it has is useless on Lucilla, and while it does give her Basic DMG for Glacio Chafe mode, it's overall not ideal, particularly for Echo mode where it's just an ATK stat-stick for her. Signature highly recommended for Echo teams if this is your 2nd best option.\n 89.10%\n 73.30%\n\n Augment (R 5 )\n\n This Battle Pass exclusive is a close contender to Radiant Dawn in Chafe mode as its passive is activated quickly, and overall it provides better stats for Lucilla in Echo mode, making it the best 4-star choice in that mode.\n 87.00%\n 62.10%\n\n Waltz in Masquerade (R 5 )\n\n Best no-gacha option available, strong ATK-boosting passive available for Chafe mode but otherwise useless for Echo mode. If this is your best option in Echo mode, try to get Lucilla's Signature weapon for a much needed performance boost - but this weapon can work fine enough in Chafe mode even if the Signature is still recommended.\n\n Best Echo Sets\n Best Echo Sets\n 100.00%\n\nWishes of Quiet Snowfall\n\n This Glacio Chafe DPS and Support focused set provides Lucilla with the ability to buff the incoming character via Outro's Glacio DMG by 25% on top of giving Lucilla 20% Glacio DMG Bonus to use for herself, as Lucilla does not deal any Liberation DMG. Gives a good blend of self-buffing and single-target buffing, making it her overall best choice.\n Below you can find Main Echo options:\n\n Glommoth\n\n - Simple Summon Echo that gives the next incoming character via Outro an extra 12% Glacio DMG Bonus, to add onto the set's 5P buffing effect.\n\n 100.00%\n\nMoonlit Clouds\n\n Offers 10% unconditional Energy Regen on the 2P, which is useless to Lucilla. However, upon using Outro, grants the next character switching in a 22.5% ATK boost, increasing their damage by a good amount.\n Below you can find Main Echo options:\n\n Impermanence Heron\n\n - The best and only real option 5P Moonlit Clouds has, as it grants an extra 12% DMG Bonus on top of the ATK boost to the next character that Moonlit Clouds would usually give.\n\n Special Echo Sets\n\nDream of the Lost\n\n Best Echo set for Lucilla in the Phrolova team. It permanently gives her 20% CRIT Rate and 35% Echo Skill DMG Bonus, providing big boosts to the majority of her rotation. This enables her to deal significant damage to enemies while still buffing Phrolova. That is because this is a 3-piece set, meaning it can be combined with a 2-piece set effect of your choice. This set is best combined with your choice of:\n Best combined with your choice of:\n 2P\n Reel of Spliced Memories\n\n (Recommended)\n 2P\n Moonlit Clouds\n\n Below you can find Main Echo options:\n\n Voidwing Moth\n\n - Gives 12% ATK to the incoming character via Outro for 15s once cast. Gives Lucilla a buffing Echo while still benefitting from the massive personal damage gains of 3P Dream of the Lost, allowing her to buff Phrolova while still dealing good personal damage.\n\n Impermanence Heron\n\n - Less ideal than Voidwing Moth as Lucilla can benefit from an extra 10% ATK with the 2P set effect while this Echo's Energy Regen 2P and Energy-restoring properties are useless to Lucilla. Still, this Echo can act as a fine replacement if lacking Reel pieces as it gives 12% DMG Bonus to the incoming character for 15s, making it a decent alternative to buff Phrolova.\n\n Best Echo Stats\n 4 cost\n CRIT Rate / CRIT DMG\n\n 3 cost\n Glacio DMG\n\n 3 cost\n Glacio DMG > ATK%\n\n 1 cost\n ATK%\n\n 1 cost\n ATK%\n\n Substats: CRIT Rate = CRIT DMG > ATK% > ATK = Basic DMG%\n\n In Echo mode, Basic DMG is almost completely useless, so prioritize ATK instead. Basic DMG is only slightly more important than ATK for Chafe mode.\n\n Best Endgame Stats (Level 90)\n All recommended endgame stats portray a fairly good quality endgame build as a goal to aim for on most characters. However, don’t treat this as an end-all-be-all, and more of a suggestion.\n All stat recommendations are given at S0 for 5-stars, S6 for 4-stars, and free characters (unless specified otherwise), based on total stats in the in-game stat-screen with the character out of combat but also active in the party (and hence some buffs may or may not apply). Any other precision may be directly specified. If not specified, Energy Regen requirements are estimated in the character’s best team.\n HP: 16000+\n\n DEF: 1150+\n\n ATK: 1900-2200b+\n\n CRIT Rate: 65-80%+\n\n CRIT DMG: 210-280%+\n\n Energy Regen: 100%\n\n Glacio DMG Bonus: 30-70%+\n\n Skill Priority\n Below you can find the order of leveling the abilities for Lucilla .\n Res. Liberation\n\n Res. Skill\n\n Forte Circuit\n\n Intro Skill\n\n Basic Attack\n\n Basic can be completely skipped as it is useless to Lucilla's practical rotation. Intro can be skipped when levelling to save on resources at a minimal damage loss.\n\n Gameplay and teams\n\n Rotation\n Rotation & How to Play\n Lucilla’s gameplay is very simple, barely changing between Glacio Chafe and Echo Skill modes. It consists of generating and consuming Photos as fast as possible, and for this she only has one way of doing it that guarantees all of her buffs:\n Echo Timing:\n For Phrolova (Voidwing Moth) and other Echo teams (Impermanence Heron): Swap at the end of her rotation after Letting It Go before Outro.For Glacio Chafe: Summon Echo, usable at any point in the rotation.\n Standard Rotation\n Intro\n\n Skill: Spotlight (Perfect Release)\n\n Ultimate\n\n → Hold Basic (Heavy) at this point in the rotation.\n Heavy: Basic - Forms 1\n\n Heavy: Basic - Forms 2\n\n Heavy: Basic - Forms 3\n\n Letting It Go\n\n Outro\n\n Additional Tips & Tricks\n To release Spotlight perfectly within its timing window, try releasing around a quarter of a second after the Skill has started casting. During the Skill cast, the lens that forms around Lucilla has 2 grey areas, on which the arrows that circle around the lens need to land, for the Skill to be released at the perfect timing. At that point in time, the areas’ colour changes from grey to golden - you want to release the Skill button there.\n\n Additionally, since Lucilla’s Ultimate will not come up before Skill has fully landed, you’re free to spam Ultimate until it casts and - if on Glacio Chafe mode - you may do the same for Outro by spamming swap during Letting It Go as well.\n\n Synergies\n Hiyuki - Lucilla's only partner in Glacio Chafe mode and her best partner overall, Hiyuki's perfect for Lucilla as her very high base damage paired with tons of Glacio Chafe application makes for a ton of Glacio Bite and a mix of Liberation and Basic DMG that can tear through the entire game easily.\n Sigrika Phrolova Galbrena - Lucilla works naturally in Echo Mode with all Echo Skill DMG dealers due to her Outro amplifying Echo Skill DMG and her ability to cast multiple Echo Skills as well as increase Echo DMG of the whole team in general. By order of viability, Sigrika's the best by far and pairs naturally with Shorekeeper, Galbrena does also but her 1/3 Heavy DMG makes her a bit worse than Qiuyuan in that role. Phrolova can pair with both Lucilla and Qiuyuan for a team with a ton of Echo Skill DMG which makes it Phrolova's new best team overall.\n Example Teams\n Glacio Chafe Team\n\n Shorekeeper and Verina can also work in the 3rd slot but will provide much less effective buffs for Hiyuki's team than Suisui/Chisa.\n\n Echo Skill Hypercarry\n\n Phrolova Team\n\n With Cantarella on the team, pivot Lucilla to the 3rd slot and have Cantarella Outro buff Phrolova instead.\n\n Calculations"
 }

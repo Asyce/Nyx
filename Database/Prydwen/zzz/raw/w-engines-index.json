@@ -3,7 +3,7 @@
   "game": "zzz",
   "collection": "w-engines",
   "sourcePath": "/zenless/w-engines",
-  "scrapedAt": "2026-07-28T07:58:34.337Z",
+  "scrapedAt": "2026-08-02T07:43:41.101Z",
   "detailPagesTotal": 0,
   "detailPagesScraped": 0,
   "staleDetailPagesRemoved": 0,
@@ -887,6 +887,22 @@
       "text": "Neon Fantasies\nRarity: S | Type: Stun\nThe equipper's Anomaly Proficiency increases by 90/103/117/130/145 . When the equipper's EX Special Attack or Basic Attack deals Ether DMG , all squad members' DMG dealt increases by 15/17/19.5/21/24% for 40s , stacking up to 2 times. This effect can trigger once per use of a skill and repeated triggers reset the duration. With 2 stacks, the equipper's Anomaly Proficiency increases by an additional 60/69/78/87/96 . Only one instance of this effect can exist in the same squad.\nBase ATK (Lv 60): 713\nAnomaly Mastery (Lv 60): 30"
     },
     {
+      "id": "ode-of-resurrected-wings",
+      "name": "Ode of Resurrected Wings",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/ode-of-resurrected-wings-958ea696c848.webp",
+      "assetId": "958ea696c848",
+      "fields": {
+        "rarity": "S",
+        "type": "Anomaly",
+        "base_atk_lv_60": "743",
+        "atk_lv_60": "36"
+      },
+      "text": "Ode of Resurrected Wings\nRarity: S | Type: Anomaly\nIncreases Anomaly Proficiency by 96/105/115/125/135 . When the equipper triggers a Refringe reaction, they gain 20/23/26/29/32% increased Anomaly DMG, and all squad members gain 30/34.5/39/43.5/48% increased DMG dealt. Both effects last 30s . Repeated triggers reset the duration.\nBase ATK (Lv 60): 743\nATK% (Lv 60): 36"
+    },
+    {
       "id": "original-transmorpher",
       "name": "Original Transmorpher",
       "kind": "w-engines",
@@ -917,20 +933,6 @@
         "attack_lv_60": "25"
       },
       "text": "Peacekeeper - Specialized\nRarity: A | Type: Defence\nWhile Shielded, the equipper's Energy Regen increases by 0.4/s . The Anomaly Buildup of EX Special Attacks and Assist Follow-Ups increase by 36% .\nBase ATK (Lv 60): 624\nAttack (Lv 60): 25"
-    },
-    {
-      "id": "poem-of-the-empty-feather-return",
-      "name": "Poem of the Empty Feather Return",
-      "kind": "w-engines",
-      "contentStatus": "live",
-      "statusLabels": [],
-      "art": "Prydwen/zzz/assets/w-engines/poem-of-the-empty-feather-return-958ea696c848.webp",
-      "assetId": "958ea696c848",
-      "fields": {
-        "rarity": "S",
-        "type": "Anomaly"
-      },
-      "text": "Poem of the Empty Feather Return\nRarity: S | Type: Anomaly\nComing Soon!\nStats for this W-Engine aren't available yet."
     },
     {
       "id": "practiced-perfection",

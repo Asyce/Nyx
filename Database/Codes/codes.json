@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T00:03:37.662Z",
+  "generatedAt": "2026-08-02T07:46:13.729Z",
   "maxAgeDays": 28,
   "games": [
     {
@@ -9,7 +9,7 @@
       "redeemBase": "https://genshin.hoyoverse.com/en/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/GI/codes/",
-      "lastSuccessfulFetch": "2026-08-02T00:03:37.662Z",
+      "lastSuccessfulFetch": "2026-08-02T07:46:06.591Z",
       "codes": [
         {
           "code": "LEGEDILJKSGM",
@@ -109,7 +109,7 @@
       "redeemBase": "https://hsr.hoyoverse.com/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/HSR/codes/",
-      "lastSuccessfulFetch": "2026-08-02T00:03:18.781Z",
+      "lastSuccessfulFetch": "2026-08-02T07:46:01.801Z",
       "codes": [
         {
           "code": "4TKSX77Y58QK",
@@ -238,7 +238,7 @@
       "redeemBase": "https://zenless.hoyoverse.com/redemption?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/ZZZ/codes/",
-      "lastSuccessfulFetch": "2026-08-02T00:03:18.797Z",
+      "lastSuccessfulFetch": "2026-08-02T07:46:13.729Z",
       "codes": [
         {
           "code": "ZENLESSGIFT",
@@ -293,7 +293,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Terminal > Settings > Other Settings > Redemption Code",
       "sourceUrl": "https://nexus-codes.app/games/WUWA/codes/",
-      "lastSuccessfulFetch": "2026-08-02T00:03:18.721Z",
+      "lastSuccessfulFetch": "2026-08-02T07:46:04.193Z",
       "codes": [
         {
           "code": "F5F4D3B2A2",
@@ -314,7 +314,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Settings > Account > Exchange Code",
       "sourceUrl": "https://nexus-codes.app/games/ARKEN/codes/",
-      "lastSuccessfulFetch": "2026-08-02T00:03:18.746Z",
+      "lastSuccessfulFetch": "2026-08-02T07:46:05.805Z",
       "codes": [
         {
           "code": "ENDFIELDRENEW",

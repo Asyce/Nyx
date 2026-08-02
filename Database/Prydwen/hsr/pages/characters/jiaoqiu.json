@@ -11,7 +11,7 @@
   "sourcePath": "/star-rail/characters/jiaoqiu",
   "contentStatus": "live",
   "statusLabels": [],
-  "scrapedAt": "2026-07-28T07:58:34.337Z",
+  "scrapedAt": "2026-08-02T07:43:41.101Z",
   "updatedText": "31/May/2026",
   "meta": {
     "title": "Jiaoqiu Best Build Guide | Honkai: Star Rail",
@@ -424,12 +424,12 @@
       "height": 60
     },
     {
-      "id": "1d90270b2b4b",
-      "sourceHash": "1d90270b2b4b",
+      "id": "c4a9c00e98ef",
+      "sourceHash": "c4a9c00e98ef",
       "kind": "characters",
-      "name": "Hyacine",
-      "fileStem": "hyacine-icon",
-      "path": "Prydwen/hsr/assets/characters/hyacine-1d90270b2b4b.webp",
+      "name": "Huohuo",
+      "fileStem": "huohuo-icon",
+      "path": "Prydwen/hsr/assets/characters/huohuo-c4a9c00e98ef.webp",
       "width": 60,
       "height": 60
     },
@@ -442,6 +442,46 @@
       "path": "Prydwen/hsr/assets/icons/wind-ee11bd390c9a.webp",
       "width": 22,
       "height": 22
+    },
+    {
+      "id": "ab0724067e0c",
+      "sourceHash": "ab0724067e0c",
+      "kind": "characters",
+      "name": "Lingsha",
+      "fileStem": "lingsha-icon",
+      "path": "Prydwen/hsr/assets/characters/lingsha-ab0724067e0c.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "714348f14d48",
+      "sourceHash": "714348f14d48",
+      "kind": "characters",
+      "name": "Dan Heng • Permansor Terrae",
+      "fileStem": "dan-heng-permansor-terrae-icon",
+      "path": "Prydwen/hsr/assets/characters/dan-heng-permansor-terrae-714348f14d48.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "e0db16ed6c66",
+      "sourceHash": "e0db16ed6c66",
+      "kind": "icons",
+      "name": "Physical",
+      "fileStem": "ele-physical",
+      "path": "Prydwen/hsr/assets/icons/physical-e0db16ed6c66.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "1d90270b2b4b",
+      "sourceHash": "1d90270b2b4b",
+      "kind": "characters",
+      "name": "Hyacine",
+      "fileStem": "hyacine-icon",
+      "path": "Prydwen/hsr/assets/characters/hyacine-1d90270b2b4b.webp",
+      "width": 60,
+      "height": 60
     },
     {
       "id": "da99d2d9a505",
@@ -484,82 +524,42 @@
       "height": 22
     },
     {
-      "id": "714348f14d48",
-      "sourceHash": "714348f14d48",
+      "id": "30d074a1060a",
+      "sourceHash": "30d074a1060a",
       "kind": "characters",
-      "name": "Dan Heng • Permansor Terrae",
-      "fileStem": "dan-heng-permansor-terrae-icon",
-      "path": "Prydwen/hsr/assets/characters/dan-heng-permansor-terrae-714348f14d48.webp",
+      "name": "Gallagher",
+      "fileStem": "gallagher-icon",
+      "path": "Prydwen/hsr/assets/characters/gallagher-30d074a1060a.webp",
       "width": 60,
       "height": 60
     },
     {
-      "id": "e0db16ed6c66",
-      "sourceHash": "e0db16ed6c66",
-      "kind": "icons",
-      "name": "Physical",
-      "fileStem": "ele-physical",
-      "path": "Prydwen/hsr/assets/icons/physical-e0db16ed6c66.webp",
-      "width": 22,
-      "height": 22
-    },
-    {
-      "id": "bc2d64a2cd5f",
-      "sourceHash": "bc2d64a2cd5f",
+      "id": "2cde7699adbf",
+      "sourceHash": "2cde7699adbf",
       "kind": "characters",
-      "name": "Hysilens",
-      "fileStem": "hysilens-icon",
-      "path": "Prydwen/hsr/assets/characters/hysilens-bc2d64a2cd5f.webp",
+      "name": "Tribbie",
+      "fileStem": "tribbie-icon",
+      "path": "Prydwen/hsr/assets/characters/tribbie-2cde7699adbf.webp",
       "width": 60,
       "height": 60
     },
     {
-      "id": "a137ba3e51ff",
-      "sourceHash": "a137ba3e51ff",
+      "id": "3d568cb7f29d",
+      "sourceHash": "3d568cb7f29d",
       "kind": "characters",
-      "name": "Kafka",
-      "fileStem": "kafka-icon",
-      "path": "Prydwen/hsr/assets/characters/kafka-a137ba3e51ff.webp",
+      "name": "Sunday",
+      "fileStem": "sunday-icon",
+      "path": "Prydwen/hsr/assets/characters/sunday-3d568cb7f29d.webp",
       "width": 60,
       "height": 60
     },
     {
-      "id": "c4a9c00e98ef",
-      "sourceHash": "c4a9c00e98ef",
+      "id": "901456d3c61d",
+      "sourceHash": "901456d3c61d",
       "kind": "characters",
-      "name": "Huohuo",
-      "fileStem": "huohuo-icon",
-      "path": "Prydwen/hsr/assets/characters/huohuo-c4a9c00e98ef.webp",
-      "width": 60,
-      "height": 60
-    },
-    {
-      "id": "e01f880a2668",
-      "sourceHash": "e01f880a2668",
-      "kind": "characters",
-      "name": "Black Swan",
-      "fileStem": "black-swan-icon",
-      "path": "Prydwen/hsr/assets/characters/black-swan-e01f880a2668.webp",
-      "width": 60,
-      "height": 60
-    },
-    {
-      "id": "17e078e8c1e4",
-      "sourceHash": "17e078e8c1e4",
-      "kind": "characters",
-      "name": "Fu Xuan",
-      "fileStem": "fu-xuan-icon",
-      "path": "Prydwen/hsr/assets/characters/fu-xuan-17e078e8c1e4.webp",
-      "width": 60,
-      "height": 60
-    },
-    {
-      "id": "e985c6a49a99",
-      "sourceHash": "e985c6a49a99",
-      "kind": "characters",
-      "name": "Robin",
-      "fileStem": "robin-icon",
-      "path": "Prydwen/hsr/assets/characters/robin-e985c6a49a99.webp",
+      "name": "Luocha",
+      "fileStem": "luocha-icon",
+      "path": "Prydwen/hsr/assets/characters/luocha-901456d3c61d.webp",
       "width": 60,
       "height": 60
     }
@@ -840,7 +840,7 @@
       "id": "best-light-cones-24",
       "level": 2,
       "heading": "Best Light Cones",
-      "text": "1\n\n Those Many Springs (S 1 )\n\n Incredibly strong team-wide supportive option for DoT based Nihility supports seeking a large amount of Effect Hit Rating and who can apply and maintain their DoT throughout combat.\n Usage: 72.7 %\n MoC: -\n PF: 28240\n AS: 3278\n\n 2\n\n Lies Dance on the Breeze (S 1 )\n\n Cipher's signature and a top option on almost every Nihility character working within the supportive role, thanks to its 2-turn 24% DEF shred debuff applied on hit and tremendous 18% increased SPD. Requires the wearer to reach 170 SPD to fully activate but thanks to this Cone's passive SPD and most supports building SPD anyways this isn't unachievable.\n\n 3\n\n Eyes of the Prey (S 5 )\n\n Solid option for those seeking a strong amount of Effect Hit Rating and or a large boost to DoT damage.\n Usage: 5.35 %\n MoC: -\n PF: 26320\n AS: 0\n\n 4\n\n Resolution Shines As Pearls of Sweat (S 1 )\n\n One of the top Nihility supportive options available. Must be played around effectively due to its 1 turn duration - aim to apply this during the enemies turn or right after it. Becomes more powerful when combined with other sources of DEF% reduction.\n Usage: 3.19 %\n MoC: -\n PF: 0\n AS: 0",
+      "text": "1\n\n Those Many Springs (S 1 )\n\n Incredibly strong team-wide supportive option for DoT based Nihility supports seeking a large amount of Effect Hit Rating and who can apply and maintain their DoT throughout combat.\n Usage: 75.19 %\n MoC: -\n PF: 28000\n AS: 3021\n\n 2\n\n Lies Dance on the Breeze (S 1 )\n\n Cipher's signature and a top option on almost every Nihility character working within the supportive role, thanks to its 2-turn 24% DEF shred debuff applied on hit and tremendous 18% increased SPD. Requires the wearer to reach 170 SPD to fully activate but thanks to this Cone's passive SPD and most supports building SPD anyways this isn't unachievable.\n\n 3\n\n Eyes of the Prey (S 5 )\n\n Solid option for those seeking a strong amount of Effect Hit Rating and or a large boost to DoT damage.\n Usage: 6.45 %\n MoC: -\n PF: 26320\n AS: 0\n\n 4\n\n Resolution Shines As Pearls of Sweat (S 1 )\n\n One of the top Nihility supportive options available. Must be played around effectively due to its 1 turn duration - aim to apply this during the enemies turn or right after it. Becomes more powerful when combined with other sources of DEF% reduction.\n Usage: 2.9 %\n MoC: -\n PF: 0\n AS: 0",
       "assets": [
         {
           "id": "15da4c783197",
@@ -888,7 +888,7 @@
       "id": "specialist-light-cones-25",
       "level": 3,
       "heading": "Specialist Light Cones",
-      "text": "1\n\n Before the Tutorial Mission Starts (S 5 )\n\n Specialty Cone only useful when the enemy already has a DEF% reduction applied to them. Benefits characters looking for Effect Hit Rating and substantial amounts of additional Energy generation. Easiest to use on characters that apply a DEF% reduction in their kit.\n Usage: 5.9 %\n MoC: -\n PF: 26870\n AS: 0\n\n 2\n\n Solitary Healing (S 5 )\n\n One of the best options in Pure Fiction since his Ultimate can permanently keep all enemies under his Fire DoT, which he can then regenerate 6 Energy when they are defeated.\n Usage: 8.11 %\n MoC: -\n PF: 0\n AS: 0",
+      "text": "1\n\n Before the Tutorial Mission Starts (S 5 )\n\n Specialty Cone only useful when the enemy already has a DEF% reduction applied to them. Benefits characters looking for Effect Hit Rating and substantial amounts of additional Energy generation. Easiest to use on characters that apply a DEF% reduction in their kit.\n Usage: 8.12 %\n MoC: 12 cyc.\n PF: 29120\n AS: 3157\n\n 2\n\n Solitary Healing (S 5 )\n\n One of the best options in Pure Fiction since his Ultimate can permanently keep all enemies under his Fire DoT, which he can then regenerate 6 Energy when they are defeated.\n Usage: 2.48 %\n MoC: -\n PF: 29760\n AS: 0",
       "assets": [
         {
           "id": "a84d3eec8989",
@@ -916,7 +916,7 @@
       "id": "best-relic-sets-27",
       "level": 2,
       "heading": "Best Relic Sets",
-      "text": "The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 1\n\n Eagle of Twilight Line ( 4 -PC)\n\n Allows characters with accessible Ultimates to reach higher Speed (and cycle) breakpoints compared to just stacking Speed. Strongest on characters with powerful ultimate related effects or who can access their ultimate at least once every 3 (but ideally 2) actions. Particularly strong when combined with other action advancement effects. The additional actions from this set are particularly powerful when playing Jiaoqiu alongside Acheron who benefits from the increased debuff application they provide.\n Usage: 32.96 %\n MoC: -\n PF: 26573\n AS: 3260\n\n 2\n\n Messenger Traversing Hackerspace ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Pioneer Diver of Dead Waters\n\n Firesmith of Lava-Forging\n\n Sacerdos' Relived Ordeal\n\n Diviner of Distant Reach\n\n Warrior Goddess of Sun and Thunder\n\n Usage: 0.68 %\n MoC: -\n PF: 0\n AS: 0",
+      "text": "The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 1\n\n Eagle of Twilight Line ( 4 -PC)\n\n Allows characters with accessible Ultimates to reach higher Speed (and cycle) breakpoints compared to just stacking Speed. Strongest on characters with powerful ultimate related effects or who can access their ultimate at least once every 3 (but ideally 2) actions. Particularly strong when combined with other action advancement effects. The additional actions from this set are particularly powerful when playing Jiaoqiu alongside Acheron who benefits from the increased debuff application they provide.\n Usage: 34.34 %\n MoC: -\n PF: 26869\n AS: 3021\n\n 2\n\n Messenger Traversing Hackerspace ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Pioneer Diver of Dead Waters\n\n Firesmith of Lava-Forging\n\n Sacerdos' Relived Ordeal\n\n Diviner of Distant Reach\n\n Warrior Goddess of Sun and Thunder",
       "assets": [
         {
           "id": "36af28ceb2d3",
@@ -994,7 +994,7 @@
       "id": "best-specialist-relic-sets-28",
       "level": 6,
       "heading": "Best Specialist Relic Sets",
-      "text": "1\n\n Prisoner in Deep Confinement ( 4 -PC)\n\n Exceptional damage set for DoT-focused characters that play within teams that can consistently apply and maintain 3 DoT's to enemies. Becomes more powerful when combined with other sources of DEF% reduction. A good option for E2+ Jiaoqiu.\n Usage: 28.19 %\n MoC: -\n PF: 0\n AS: 3297",
+      "text": "1\n\n Prisoner in Deep Confinement ( 4 -PC)\n\n Exceptional damage set for DoT-focused characters that play within teams that can consistently apply and maintain 3 DoT's to enemies. Becomes more powerful when combined with other sources of DEF% reduction. A good option for E2+ Jiaoqiu.\n Usage: 27.61 %\n MoC: -\n PF: 0\n AS: 0",
       "assets": [
         {
           "id": "507bb2127c32",
@@ -1012,7 +1012,7 @@
       "id": "best-planetary-sets-29",
       "level": 6,
       "heading": "Best Planetary Sets",
-      "text": "1\n\n Sprightly Vonwacq ( 2 -PC)\n\n Incredibly potent option for buff/debuff based characters. The advance from this set allows the wearer to apply their buffs/debuffs before the rest of the team acts, accelerate rotations, allows access to ultimates closer to the start of the fight and also grants Energy Regen - a valuable stat for many supports.\n Usage: 39.11 %\n MoC: -\n PF: 27400\n AS: 0\n\n 2\n\n Fleet of the Ageless ( 2 -PC)\n\n Ideal for supporting teams that scale on ATK.\n 3\n\n Broken Keel ( 2 -PC)\n\n An option for supports stacking Effect RES, while also increasing the entire team's CRIT DMG. Requires at least 30% Effect RES to activate.\n 4\n\n Penacony, Land of the Dreams ( 2 -PC)\n\n Top option for supporting teams with the same Element as the wearer, and for its Energy Regen.\n 5\n\n Lushaka, the Sunken Seas ( 2 -PC)\n\n Top option for Supporting a single ATK-scaling DPS, and for its Energy Regen.\n Usage: 15.44 %\n MoC: -\n PF: 24620\n AS: 0",
+      "text": "1\n\n Sprightly Vonwacq ( 2 -PC)\n\n Incredibly potent option for buff/debuff based characters. The advance from this set allows the wearer to apply their buffs/debuffs before the rest of the team acts, accelerate rotations, allows access to ultimates closer to the start of the fight and also grants Energy Regen - a valuable stat for many supports.\n Usage: 43.88 %\n MoC: -\n PF: 29347\n AS: 0\n\n 2\n\n Fleet of the Ageless ( 2 -PC)\n\n Ideal for supporting teams that scale on ATK.\n 3\n\n Broken Keel ( 2 -PC)\n\n An option for supports stacking Effect RES, while also increasing the entire team's CRIT DMG. Requires at least 30% Effect RES to activate.\n 4\n\n Penacony, Land of the Dreams ( 2 -PC)\n\n Top option for supporting teams with the same Element as the wearer, and for its Energy Regen.\n 5\n\n Lushaka, the Sunken Seas ( 2 -PC)\n\n Top option for Supporting a single ATK-scaling DPS, and for its Energy Regen.\n Usage: 16.6 %\n MoC: -\n PF: 25960\n AS: 0",
       "assets": [
         {
           "id": "bb6d718b4cb3",
@@ -1070,7 +1070,7 @@
       "id": "best-specialist-planetary-sets-30",
       "level": 6,
       "heading": "Best Specialist Planetary Sets",
-      "text": "1\n\n Pan-Cosmic Commercial Enterprise ( 2 -PC)\n\n Option for Effect Hit Rate focused characters searching for additional accessible source of Effect Hit Rating. When factoring the bonus Effect Hit Rating, alongside the ATK% boost can be a competitive damage option as well.\n Usage: 11.36 %\n MoC: -\n PF: 26320\n AS: 3297",
+      "text": "1\n\n Pan-Cosmic Commercial Enterprise ( 2 -PC)\n\n Option for Effect Hit Rate focused characters searching for additional accessible source of Effect Hit Rating. When factoring the bonus Effect Hit Rating, alongside the ATK% boost can be a competitive damage option as well.\n Usage: 6.57 %\n MoC: -\n PF: 26320\n AS: 0",
       "assets": [
         {
           "id": "e6fb9390da3a",
@@ -1178,7 +1178,7 @@
       "id": "anomaly-arbitration-40",
       "level": 6,
       "heading": "Anomaly Arbitration",
-      "text": "Rank 143\n App. rate: 0.1 %\n Avg. cycles : 8.67\n Avg. cycles (E1+): 8.82\n\n Rank 223\n App. rate: 0.05 %\n Avg. cycles : -\n Avg. cycles (E1+): 7\n\n Rank 258\n App. rate: 0.04 %\n Avg. cycles : -\n Avg. cycles (E1+): 7.83\n\n Rank 366\n App. rate: 0.02 %\n Avg. cycles : -\n Avg. cycles (E1+): 5.33\n\n Rank 366\n App. rate: 0.02 %\n Avg. cycles : 10\n Avg. cycles (E1+): 9\n\n Rank 366\n App. rate: 0.02 %\n Avg. cycles : 10\n Avg. cycles (E1+): 10\n\n Rank 366\n App. rate: 0.02 %\n Avg. cycles : -\n Avg. cycles (E1+): 1.67\n\n Rank 515\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 6.5\n\n Rank 515\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 9\n\n Rank 515\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 7.5",
+      "text": "Rank 343\n App. rate: 0.06 %\n Avg. cycles : 12\n Avg. cycles (E1+): 10.71\n\n Rank 361\n App. rate: 0.05 %\n Avg. cycles : 12\n Avg. cycles (E1+): 10.75\n\n Rank 361\n App. rate: 0.05 %\n Avg. cycles : 12\n Avg. cycles (E1+): 9.6\n\n Rank 361\n App. rate: 0.05 %\n Avg. cycles : -\n Avg. cycles (E1+): 9.88\n\n Rank 431\n App. rate: 0.04 %\n Avg. cycles : -\n Avg. cycles (E1+): 10.67\n\n Rank 483\n App. rate: 0.03 %\n Avg. cycles : -\n Avg. cycles (E1+): 9.2\n\n Rank 483\n App. rate: 0.03 %\n Avg. cycles : -\n Avg. cycles (E1+): 8.5\n\n Rank 631\n App. rate: 0.02 %\n Avg. cycles : -\n Avg. cycles (E1+): 9.67\n\n Rank 631\n App. rate: 0.02 %\n Avg. cycles : -\n Avg. cycles (E1+): 11.67\n\n Rank 631\n App. rate: 0.02 %\n Avg. cycles : -\n Avg. cycles (E1+): 7.67",
       "assets": [
         {
           "id": "fbcfe4133d08",
@@ -1231,12 +1231,12 @@
           "height": 60
         },
         {
-          "id": "1d90270b2b4b",
-          "sourceHash": "1d90270b2b4b",
+          "id": "c4a9c00e98ef",
+          "sourceHash": "c4a9c00e98ef",
           "kind": "characters",
-          "name": "Hyacine",
-          "fileStem": "hyacine-icon",
-          "path": "Prydwen/hsr/assets/characters/hyacine-1d90270b2b4b.webp",
+          "name": "Huohuo",
+          "fileStem": "huohuo-icon",
+          "path": "Prydwen/hsr/assets/characters/huohuo-c4a9c00e98ef.webp",
           "width": 60,
           "height": 60
         },
@@ -1249,6 +1249,46 @@
           "path": "Prydwen/hsr/assets/icons/wind-ee11bd390c9a.webp",
           "width": 22,
           "height": 22
+        },
+        {
+          "id": "ab0724067e0c",
+          "sourceHash": "ab0724067e0c",
+          "kind": "characters",
+          "name": "Lingsha",
+          "fileStem": "lingsha-icon",
+          "path": "Prydwen/hsr/assets/characters/lingsha-ab0724067e0c.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "714348f14d48",
+          "sourceHash": "714348f14d48",
+          "kind": "characters",
+          "name": "Dan Heng • Permansor Terrae",
+          "fileStem": "dan-heng-permansor-terrae-icon",
+          "path": "Prydwen/hsr/assets/characters/dan-heng-permansor-terrae-714348f14d48.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "e0db16ed6c66",
+          "sourceHash": "e0db16ed6c66",
+          "kind": "icons",
+          "name": "Physical",
+          "fileStem": "ele-physical",
+          "path": "Prydwen/hsr/assets/icons/physical-e0db16ed6c66.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "1d90270b2b4b",
+          "sourceHash": "1d90270b2b4b",
+          "kind": "characters",
+          "name": "Hyacine",
+          "fileStem": "hyacine-icon",
+          "path": "Prydwen/hsr/assets/characters/hyacine-1d90270b2b4b.webp",
+          "width": 60,
+          "height": 60
         },
         {
           "id": "da99d2d9a505",
@@ -1291,82 +1331,42 @@
           "height": 22
         },
         {
-          "id": "714348f14d48",
-          "sourceHash": "714348f14d48",
+          "id": "30d074a1060a",
+          "sourceHash": "30d074a1060a",
           "kind": "characters",
-          "name": "Dan Heng • Permansor Terrae",
-          "fileStem": "dan-heng-permansor-terrae-icon",
-          "path": "Prydwen/hsr/assets/characters/dan-heng-permansor-terrae-714348f14d48.webp",
+          "name": "Gallagher",
+          "fileStem": "gallagher-icon",
+          "path": "Prydwen/hsr/assets/characters/gallagher-30d074a1060a.webp",
           "width": 60,
           "height": 60
         },
         {
-          "id": "e0db16ed6c66",
-          "sourceHash": "e0db16ed6c66",
-          "kind": "icons",
-          "name": "Physical",
-          "fileStem": "ele-physical",
-          "path": "Prydwen/hsr/assets/icons/physical-e0db16ed6c66.webp",
-          "width": 22,
-          "height": 22
-        },
-        {
-          "id": "bc2d64a2cd5f",
-          "sourceHash": "bc2d64a2cd5f",
+          "id": "2cde7699adbf",
+          "sourceHash": "2cde7699adbf",
           "kind": "characters",
-          "name": "Hysilens",
-          "fileStem": "hysilens-icon",
-          "path": "Prydwen/hsr/assets/characters/hysilens-bc2d64a2cd5f.webp",
+          "name": "Tribbie",
+          "fileStem": "tribbie-icon",
+          "path": "Prydwen/hsr/assets/characters/tribbie-2cde7699adbf.webp",
           "width": 60,
           "height": 60
         },
         {
-          "id": "a137ba3e51ff",
-          "sourceHash": "a137ba3e51ff",
+          "id": "3d568cb7f29d",
+          "sourceHash": "3d568cb7f29d",
           "kind": "characters",
-          "name": "Kafka",
-          "fileStem": "kafka-icon",
-          "path": "Prydwen/hsr/assets/characters/kafka-a137ba3e51ff.webp",
+          "name": "Sunday",
+          "fileStem": "sunday-icon",
+          "path": "Prydwen/hsr/assets/characters/sunday-3d568cb7f29d.webp",
           "width": 60,
           "height": 60
         },
         {
-          "id": "c4a9c00e98ef",
-          "sourceHash": "c4a9c00e98ef",
+          "id": "901456d3c61d",
+          "sourceHash": "901456d3c61d",
           "kind": "characters",
-          "name": "Huohuo",
-          "fileStem": "huohuo-icon",
-          "path": "Prydwen/hsr/assets/characters/huohuo-c4a9c00e98ef.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "e01f880a2668",
-          "sourceHash": "e01f880a2668",
-          "kind": "characters",
-          "name": "Black Swan",
-          "fileStem": "black-swan-icon",
-          "path": "Prydwen/hsr/assets/characters/black-swan-e01f880a2668.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "17e078e8c1e4",
-          "sourceHash": "17e078e8c1e4",
-          "kind": "characters",
-          "name": "Fu Xuan",
-          "fileStem": "fu-xuan-icon",
-          "path": "Prydwen/hsr/assets/characters/fu-xuan-17e078e8c1e4.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "e985c6a49a99",
-          "sourceHash": "e985c6a49a99",
-          "kind": "characters",
-          "name": "Robin",
-          "fileStem": "robin-icon",
-          "path": "Prydwen/hsr/assets/characters/robin-e985c6a49a99.webp",
+          "name": "Luocha",
+          "fileStem": "luocha-icon",
+          "path": "Prydwen/hsr/assets/characters/luocha-901456d3c61d.webp",
           "width": 60,
           "height": 60
         }
@@ -1386,7 +1386,7 @@
       "sections": [
         {
           "heading": "Best Light Cones",
-          "text": "1\n\n Those Many Springs (S 1 )\n\n Incredibly strong team-wide supportive option for DoT based Nihility supports seeking a large amount of Effect Hit Rating and who can apply and maintain their DoT throughout combat.\n Usage: 72.7 %\n MoC: -\n PF: 28240\n AS: 3278\n\n 2\n\n Lies Dance on the Breeze (S 1 )\n\n Cipher's signature and a top option on almost every Nihility character working within the supportive role, thanks to its 2-turn 24% DEF shred debuff applied on hit and tremendous 18% increased SPD. Requires the wearer to reach 170 SPD to fully activate but thanks to this Cone's passive SPD and most supports building SPD anyways this isn't unachievable.\n\n 3\n\n Eyes of the Prey (S 5 )\n\n Solid option for those seeking a strong amount of Effect Hit Rating and or a large boost to DoT damage.\n Usage: 5.35 %\n MoC: -\n PF: 26320\n AS: 0\n\n 4\n\n Resolution Shines As Pearls of Sweat (S 1 )\n\n One of the top Nihility supportive options available. Must be played around effectively due to its 1 turn duration - aim to apply this during the enemies turn or right after it. Becomes more powerful when combined with other sources of DEF% reduction.\n Usage: 3.19 %\n MoC: -\n PF: 0\n AS: 0",
+          "text": "1\n\n Those Many Springs (S 1 )\n\n Incredibly strong team-wide supportive option for DoT based Nihility supports seeking a large amount of Effect Hit Rating and who can apply and maintain their DoT throughout combat.\n Usage: 75.19 %\n MoC: -\n PF: 28000\n AS: 3021\n\n 2\n\n Lies Dance on the Breeze (S 1 )\n\n Cipher's signature and a top option on almost every Nihility character working within the supportive role, thanks to its 2-turn 24% DEF shred debuff applied on hit and tremendous 18% increased SPD. Requires the wearer to reach 170 SPD to fully activate but thanks to this Cone's passive SPD and most supports building SPD anyways this isn't unachievable.\n\n 3\n\n Eyes of the Prey (S 5 )\n\n Solid option for those seeking a strong amount of Effect Hit Rating and or a large boost to DoT damage.\n Usage: 6.45 %\n MoC: -\n PF: 26320\n AS: 0\n\n 4\n\n Resolution Shines As Pearls of Sweat (S 1 )\n\n One of the top Nihility supportive options available. Must be played around effectively due to its 1 turn duration - aim to apply this during the enemies turn or right after it. Becomes more powerful when combined with other sources of DEF% reduction.\n Usage: 2.9 %\n MoC: -\n PF: 0\n AS: 0",
           "assets": [
             {
               "id": "15da4c783197",
@@ -1437,7 +1437,7 @@
       "sections": [
         {
           "heading": "Best Relic Sets",
-          "text": "The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 1\n\n Eagle of Twilight Line ( 4 -PC)\n\n Allows characters with accessible Ultimates to reach higher Speed (and cycle) breakpoints compared to just stacking Speed. Strongest on characters with powerful ultimate related effects or who can access their ultimate at least once every 3 (but ideally 2) actions. Particularly strong when combined with other action advancement effects. The additional actions from this set are particularly powerful when playing Jiaoqiu alongside Acheron who benefits from the increased debuff application they provide.\n Usage: 32.96 %\n MoC: -\n PF: 26573\n AS: 3260\n\n 2\n\n Messenger Traversing Hackerspace ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Pioneer Diver of Dead Waters\n\n Firesmith of Lava-Forging\n\n Sacerdos' Relived Ordeal\n\n Diviner of Distant Reach\n\n Warrior Goddess of Sun and Thunder\n\n Usage: 0.68 %\n MoC: -\n PF: 0\n AS: 0",
+          "text": "The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 1\n\n Eagle of Twilight Line ( 4 -PC)\n\n Allows characters with accessible Ultimates to reach higher Speed (and cycle) breakpoints compared to just stacking Speed. Strongest on characters with powerful ultimate related effects or who can access their ultimate at least once every 3 (but ideally 2) actions. Particularly strong when combined with other action advancement effects. The additional actions from this set are particularly powerful when playing Jiaoqiu alongside Acheron who benefits from the increased debuff application they provide.\n Usage: 34.34 %\n MoC: -\n PF: 26869\n AS: 3021\n\n 2\n\n Messenger Traversing Hackerspace ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Pioneer Diver of Dead Waters\n\n Firesmith of Lava-Forging\n\n Sacerdos' Relived Ordeal\n\n Diviner of Distant Reach\n\n Warrior Goddess of Sun and Thunder",
           "assets": [
             {
               "id": "36af28ceb2d3",
@@ -1518,7 +1518,7 @@
       "sections": [
         {
           "heading": "Best Planetary Sets",
-          "text": "1\n\n Sprightly Vonwacq ( 2 -PC)\n\n Incredibly potent option for buff/debuff based characters. The advance from this set allows the wearer to apply their buffs/debuffs before the rest of the team acts, accelerate rotations, allows access to ultimates closer to the start of the fight and also grants Energy Regen - a valuable stat for many supports.\n Usage: 39.11 %\n MoC: -\n PF: 27400\n AS: 0\n\n 2\n\n Fleet of the Ageless ( 2 -PC)\n\n Ideal for supporting teams that scale on ATK.\n 3\n\n Broken Keel ( 2 -PC)\n\n An option for supports stacking Effect RES, while also increasing the entire team's CRIT DMG. Requires at least 30% Effect RES to activate.\n 4\n\n Penacony, Land of the Dreams ( 2 -PC)\n\n Top option for supporting teams with the same Element as the wearer, and for its Energy Regen.\n 5\n\n Lushaka, the Sunken Seas ( 2 -PC)\n\n Top option for Supporting a single ATK-scaling DPS, and for its Energy Regen.\n Usage: 15.44 %\n MoC: -\n PF: 24620\n AS: 0",
+          "text": "1\n\n Sprightly Vonwacq ( 2 -PC)\n\n Incredibly potent option for buff/debuff based characters. The advance from this set allows the wearer to apply their buffs/debuffs before the rest of the team acts, accelerate rotations, allows access to ultimates closer to the start of the fight and also grants Energy Regen - a valuable stat for many supports.\n Usage: 43.88 %\n MoC: -\n PF: 29347\n AS: 0\n\n 2\n\n Fleet of the Ageless ( 2 -PC)\n\n Ideal for supporting teams that scale on ATK.\n 3\n\n Broken Keel ( 2 -PC)\n\n An option for supports stacking Effect RES, while also increasing the entire team's CRIT DMG. Requires at least 30% Effect RES to activate.\n 4\n\n Penacony, Land of the Dreams ( 2 -PC)\n\n Top option for supporting teams with the same Element as the wearer, and for its Energy Regen.\n 5\n\n Lushaka, the Sunken Seas ( 2 -PC)\n\n Top option for Supporting a single ATK-scaling DPS, and for its Energy Regen.\n Usage: 16.6 %\n MoC: -\n PF: 25960\n AS: 0",
           "assets": [
             {
               "id": "bb6d718b4cb3",
@@ -1678,5 +1678,5 @@
     }
   },
   "tables": [],
-  "text": "Jiaoqiu Best Build Guide | Honkai: Star Rail\n \n\n Honkai: Star Rail\n Home Database Characters Light Cones Relic Sets Banners\n Tier Lists Tier List\n Endgame Memory of Chaos Pure Fiction Apocalyptic Shadow Anomaly Arbitration\n Tools Patch Timeline\n Guides Guides\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Honkai: Star Rail\n /\n Characters\n /\n Jiaoqiu\n Jiaoqiu Best Build Guide\n Last updated: 31/May/2026\n\n Introduction\n Best guide and build for Jiaoqiu from HSR (Honkai: Star Rail). Jiaoqiu is a 5 ★ character from the Fire element who follows the Path of Nihility .\n A foxian healer from the Xianzhou Yaoqing and a counselor. Often greets people with a smile, but is rather cunning. Born into a prestigious Alchemy Commission family, he once withdrew from practicing medicine due to a broken heart. However, he returned to the field to treat \"the Merlin's Claw,\" General Feixiao. Skilled in the study of alchemical prescription that views food as medicine, especially those that induce a sensation of spiciness. They invented a cauldron-based medicinal formula known as the \"nine-squared grid.\"\n\n To learn more about Jiaoqiu check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Video guide\n Jiaoqiu has at least one video available, so if you prefer this sort of medium to learn more about a character, check it out:\n\n Update tracker\n Last review update\n Patch 3.2\n\n Last major build/calcs update\n Patch 3.3\n\n Last profile update*\n 31/May/2026\n\n *Profile update means smaller edits to relics, stats, synergies or teams that don't require new calculations.\n To learn more about Jiaoqiu check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Kit\n\n Review\n\n Build and teams\n\n MoC/PF/AS Statistics\n\n Calculations\n\n Profile\n\n Skills\n Basic ATK\n Heart Afire\n Single Target\n\n Lv. 1\n\n Energy gain: 20\n Break: 10\n\n Deals Fire DMG equal to #1[i]% of Jiaoqiu's ATK to a single target enemy.\n\n Skill\n Scorch Onslaught\n Blast\n\n Lv. 1\n\n Energy gain: 30\n Break: 20 + 10 adjacent\n\n Deals Fire DMG equal to #1[i]% of Jiaoqiu's ATK to a single target enemy and Fire DMG equal to #2[i]% of Jiaoqiu's ATK to adjacent targets, with a #3[i]% base chance to inflict 1 stack of Ashen Roast on the primary target.\n\n Ultimate\n Pyrograph Arcanum\n AoE | 100 energy cost\n\n Lv. 1\n\n Energy gain: 5\n Break: 20\n\n Sets the number of \"Ashen Roast\" stacks on enemy targets to the highest number of \"Ashen Roast\" stacks present on the battlefield. Then, activates a Zone and deals Fire DMG equal to #1[i]% of Jiaoqiu's ATK to all enemies.\nWhile inside the Zone, enemy targets receive #3[i]% increased Ultimate DMG, with a #2[i]% base chance of being inflicted with 1 stack of Ashen Roast when taking action. While the Zone exists, this effect can trigger up to #5[i] time(s). And for each enemy target, it can only trigger once per turn. This trigger count resets every time Jiaoqiu uses Ultimate.\nThe Zone lasts for #4[i] turn(s), and its duration decreases by 1 at the start of this unit's every turn. If Jiaoqiu gets knocked down, the Zone will also be dispelled.\n\n Talent\n Quartet Finesse, Octave Finery\n Impair\n\n Lv. 1\n\n Energy gain: 0\n Break: -\n\n When Jiaoqiu hits an enemy with Basic ATK, Skill or Ultimate, there is a #1[i]% base chance to inflict 1 stack of Ashen Roast on them. At 1 stack, increases DMG received by the enemy by #2[i]%. Then, each subsequent stack increases this by #3[i]%.\nAshen Roast is capped at #4[i] stack(s) and lasts for #5[i] turn(s).\nWhen an enemy target is afflicted with Ashen Roast, they are also considered as being Burned at the same time, taking Fire DoT equal to #6[i]% of Jiaoqiu's ATK at the start of each turn.\n\n Technique\n Fiery Queller\n Impair\n\n Energy gain: 0\n Break: -\n\n After using Technique, creates a special dimension that lasts for #2[i] second(s). After entering combat with enemies in this special dimension, deals Fire DMG equal to #1[i]% of Jiaoqiu's ATK to all enemies, with a #3[i]% base chance of applying 1 \"Ashen Roast\" stack. Only 1 dimension created by allies can exist at the same time.\n\n Major Traces\n A2 Major trace\n Pyre Cleanse\n\n When battle starts, immediately regenerates 15 Energy.\n\n A4 Major trace\n Hearth Kindle\n\n For every 15% of Jiaoqiu's Effect Hit Rate that exceeds 80%, additionally increases ATK by 60% , up to 240% .\n\n A6 Major trace\n Seared Scent\n\n While the Zone exists, enemies entering combat will be inflicted with Ashen Roast. The number of stacks applied will match the highest number of Ashen Roast stacks possessed by any unit while the Zone is active, with a minimum of 1 stack(s).\n\n Minor Traces (total)\n Effect HIT Rate\n + 28%\n\n Fire DMG\n + 14.4%\n\n Speed\n + 5\n\n Eidolons\n E 1\n Pentapathic Transference\n Eidolon 1\n\n Allies deal 40% increased DMG to enemy targets afflicted with Ashen Roast. Whenever inflicting Ashen Roast on an enemy target via triggering the Talent's effect, additionally increases the number of Ashen Roast applied this time by 1 .\n\n E 2\n From Savor Comes Suffer\n Eidolon 2\n\n When an enemy target is afflicted with Ashen Roast, increases the multiplier for the Fire DoT dealt by Ashen Roast to the target by 300% .\n\n E 3\n Flavored Euphony Reigns Supreme\n Eidolon 3\n\n Skill Lv. +2 , up to a maximum of Lv. 15. Basic ATK Lv. +1 , up to a maximum of Lv. 10.\n\n E 4\n Leisure In, Luster Out\n Eidolon 4\n\n When the Zone exists, reduces enemy target's ATK by 15% .\n\n E 5\n Duel in Dawn, Dash in Dusk\n Eidolon 5\n\n Ultimate Lv. +2 , up to a maximum of Lv. 15. Talent Lv. +2 , up to a maximum of Lv. 15.\n\n E 6\n Nonamorphic Pyrobind\n Eidolon 6\n\n When an enemy target gets defeated, their accumulated \"Ashen Roast\" stacks will transfer to the enemy with the lowest number of \"Ashen Roast\" stacks on the battlefield. The maximum stack limit of Ashen Roast increases to 9 , and each \"Ashen Roast\" stack reduces the target's All-Type RES by 3% .\n\n Stats and materials\n\nEnable Ascension\n\n Level 80 stats\n HP\n\n 1358\n\n ATK\n\n 601\n\n DEF\n\n 509\n\n Speed\n\n 98\n\n Level 1 → 80 Ascension Materials\n\n Credit\n\n x 308000\n\n Immortal Scionette\n\n x 15\n\n Immortal Aeroblossom\n\n x 15\n\n Raging Heart\n\n x 65\n\n Immortal Lumintwig\n\n x 15\n\n CV\n ENG\n Mark Whitten\n\n JPN\n Toshiyuki Toyonaga (丰永利行)\n\n CN\n Taikang Chenzhang (陈张太康)\n\n KR\n Jeongmin Lee (이정민)\n\n Gallery\n\n Review\n\n Pros & Cons\n Pros\n Strong DMG vulnerability debuffs for both ST and AoE,\n\n Additional Ultimate DMG vulnerability that buffs Ult-heavy DPS characters,\n\n Can easily reach 100% Uptime on his debuffs,\n\n Provides 3 debuffs all on his own and can apply debuffs during enemy turns,\n\n Debuffs carry over automatically to new waves and newly spawned enemies,\n\n Laughably easy to play.\n\n Cons\n Outside of Acheron teams, he's a weaker support than most of the top Harmony units,\n\n Lower than average base SPD,\n\n Provides less value to Ultimate reliant DPS that can't Energy sustain themselves.\n\n Review (By Sushou)\n Jiaoqiu is a strong debuffing support with decent DoT capabilities. He can continually apply a stacking vulnerability debuff to all enemies on the field and can apply this to enemies entering the field with his Ultimate's Zone. This vulnerability debuff also doubles as his personal DoT, allowing him to contribute a decent amount of damage as well. His Ultimate will also provide an additional vulnerability debuff specifically for all Ultimate DMG received, and he gives enemies a chance to be afflicted with more vuln stacks on their turn, making him a strong and consistent support.\n The definitely not aptly-named 'healer', Jiaoqiu, is a support character from the Path of Nihility. He is capable of boosting the team's damage quite considerably and is able to do it consistently as well, making him a rather strong generalist unit. He is particularly excellent for Acheron teams due to his unparalleled debuff reapplication , and his Damage over Time (DoT) makes him a worthy unit to use in Kafka DoT teams, especially since his debuff increases all damage enemies receive. He won't be winning any stand-out awards for some other teams where other support slots are pretty much locked, but he's solid anywhere and everywhere, and should not be underestimated.\n Jiaoqiu's Talent is the source of his debuff. Whenever Jiaoqiu hits an enemy with a Basic, Skill, or Ultimate, he has a 100% base chance to inflict 1 stack of Ashen Roast on them. The first stack of Ashen Roast inflicts up to a 15% DMG vulnerability on them, and each subsequent stack adds an extra 5%. Ashen Roast caps out at 5 stacks, for a total of up to 35% DMG vulnerability. Ashen Roast lasts for 2 turns, but the duration will reset upon reapplication. In addition to this, enemies affected by Ashen Roast will take Fire DoT at the start of their turn, up to 180% ATK (this DoT ignores Burn Immunity).\n A 35% vulnerability that can be maintained indefinitely is extremely good. Though the upfront effect is less significant than say a Pela's Ultimate with S5 Pearls, the sheer uptime of it can actually end up being much stronger over the course of a fight. The DoT attached to this is not massively impressive, so you shouldn't count on that damage alone being massively impactful to your fight, but it is a nice extra. In Kafka setups where you're constantly detonating the compounded DoT effects on enemies, this can be very nice to have, especially due to the aforementioned 35% vuln enemies will have once this is stacked.\n Jiaoqiu's Skill is a Blast AoE that deals up to 150% ATK to the primary target, and up to 90% ATK to adjacent foes. There's a 100% base chance to apply 1 Ashen Roast to the primary target. This effect stacks with his Talent, meaning that his Skill can apply 2 Ashen Roast stacks to his main foe and 1 stack to adjacent ones, speeding up the process of stacking the debuff. This is also unlikely to be used for its upfront damage, but is invaluable in AoE scenarios, or when you want to speed up the stacking onto a single enemy, so you’ll be using it quite frequently.\n His Ultimate will deploy a zone. Inside this zone, all enemy's Ashen Roast stacks will be equal to the highest amount on the field (so if there's an enemy with 5 Ashen Roast stacks, all enemies will now have 5 as well), and this is then followed up by dealing up to 100% ATK to all enemies. Inside the zone, enemies will take up to an additional 15% increase damage from Ultimate DMG. There is also a 60% base chance that enemies will be inflicted with 1 stack of Ashen Roast when taking action, with a limit of 1 application per individual enemy action, and a total application limit of 6 times per Jiaoqiu's Ultimate usage. The zone lasts for 3 of Jiaoqiu's turns. The Ultimate vulnerability is a separate debuff.\n This is how he quickly spreads Ashen Roast across the entire battlefield and keeps it at maximum. The extra Ultimate DMG enemies receive is additive with his Ashen Roast's 35% vulnerability, making for a combined 50% vulnerability to Ultimate DMG while his zone is active and at 5 stacks of Ashen Roast. The extra stacks of Ashen Roast on enemy action is actually per individual action, meaning an Elite enemy that acts twice per turn will have two separate chances to get afflicted with the debuff. This Ultimate also has a very low Energy cost of only 100, so it's very possible to have this up permanently and never really need to worry about your Ashen Roast stacks again.\n Jiaoqiu's Bonus Ability Traces also help him get ramped up faster. A2 will regenerate 15 Energy at the start of combat, allowing him to get a first turn Ultimate as long as you have some Energy Regeneration Rate, granting a massive boost to the team right out of the gate and without any further shenanigans. A4 will increase Jiaoqiu's ATK based on how much Effect Hit Rate he has that goes beyond 80%; 60% ATK per 15% EHR, for a total of 240% bonus ATK when Jiaoqiu has a total of 140% EHR. Due to his lower base chances, you are already highly incentivised to build Effect Hit Rate to raise his consistency, so this is a nice bonus for doing what you should have already been doing.\n His A6 is the really big one, as it will boost his Ultimate's zone; when the zone is up, enemies that enter combat will also be inflicted with Ashen Roast stacks equal to the current maximum on the field, so again if 5 is the max, new enemies entering combat will instantly gain the max stacks. This not only works for the Pure Fiction style of combat where enemies are constantly spawning in, this will actually also work for new waves inside of Memory of Chaos, meaning once Jiaoqiu is set up during the first wave of enemies, he will not ramp down in any way provided his Ultimate is still active when the next wave comes in.\n It is at this point that I must reiterate that Jiaoqiu is a SUPPORT . He may deal some damage, but he is not a 'damage dealer', so please do not treat him as such. It can be easy to compare Jiaoqiu to some of our already existing Nihility support units and not take away the correct impression of him. Pela has her AoE DEF Shred on her Ultimate, Silver Wolf has massive single-target debuffing and DEF Shred, and Guinaifen is pretty much the same unit as him if you choose to ignore Jiaoqiu’s massively improved debuff application, duration of said debuffs, and even debuff strength. To say this is to show you've not been paying attention, and it all comes back to a specific word mentioned earlier in the review: uptime. Specifically on his team benefits.\n Jiaoqiu ramps up fast and never ramps down again , he is permanently providing his maximum bonuses and that's irrespective of his other teammates or what enemies he is against. 35% all DMG vulnerability and a 50% Ultimate DMG vulnerability is nothing to scoff at, and the time you would have lost attacking non-debuffed enemies with other supports is refunded and amplified further with Jiaoqiu. Calling him a '5-star Guinaifen' is not wholly inaccurate (especially since they clearly shop at the same place), but it is deliberately ignoring the sweeping benefits Jiaoqiu has over many other supports, not just Guinaifen. Even then, calling anyone similar to Guinaifen is pretty high praise in my eyes — everyone's favourite in-universe streamer is quite powerful and still quite underrated.\n Aside from the fact that Jiaoqiu is kerchow-ing with his debuff application, and even ignoring that he has 100% uptime on all his team benefits... The man is easy. He's just easy. He is not hard to build, he is not hard to play, and he doesn't really have much at all that he can optimise, excluding some cases with the Resolution Shines as Pearls of Sweat Light Cone and some optional micro-managing of the debuff from his Signature Light Cone. He provides maximum reward for minimal effort, and it is absolutely a huge selling point, I'd say. Not needing to time things to make sure your allies hit hardest, or accidentally fat-fingering an Ultimate when you didn't mean to — none of this matters with Jiaoqiu. Both forced and unforced errors are completely meaningless for Jiaoqiu; the former doesn't reduce his efficacy, and the latter simply can't happen unless you DIE.\n Which brings me to the big synergy he's got: Acheron. Because of his Ultimate's debuff application on enemy action, he is able to provide Acheron so very many more points of Slashed Dream for her Ultimate, more than any other character in the game, and not by a small margin; every Jiaoqiu Ultimate alone will be giving Acheron 6 points of Slashed Dream, and this is without even considering Jiaoqiu's own turns with his Skill or Basic, or the rest of the team's debuff application either. Include enemies that spawn in, and it goes sky high.\n It's like a turbo-charged version of the Trend of the Universal Market setup that also allowed Acheron to gain points of Slashed Dream during the enemy turns, only now it's 100% consistent and does not require you to run a sub-optimal setup with the Preservation Trailblazer. Ashen Roast's Vulnerability is something that Acheron teams lack along with DEF Shred, but the difference in damage between the two is not very large, and the vastly increased Ultimate uptime that Jiaoqiu provides Acheron more than makes up for the paltry difference. Then you just pair Jiaoqiu with either Pela or Silver Wolf depending on what you're against, be it AoE or single-target respectively, and you're golden.\n Jiaoqiu is also quite potent for Dr. Ratio, providing 2 permanent debuffs all by himself (3 with his Signature Light Cone) and allowing Ratio to hit the 100% guarantee on his Skill’s follow-up without any other units considered. It's undoubtedly weaker than if you were to put Robin with Dr. Ratio in his optimal team, but it's vastly more viable for E0S0 holders of these characters, as without signature Light Cones for Topaz and Aventurine, Dr. Ratio is struggling to even meet the requirements for a 100% follow-up chance on his Skill, and Jiaoqiu remedies this.\n Really, you can put Jiaoqiu pretty much anywhere you'd put Pela and you'll see similar if not better results, with more consistency to boot. The issue may come when you start comparing him to Harmony supports, as that becomes a lot less favourable very quickly. I mentioned it near the start but there's quite a few teams whose support slots are 'locked' to specific units with little room for it to change. Jiaoqiu is great, but he ain't Robin or Ruan Mei. Only one of each of those exist. However this goes both ways, since if those powerful Harmony supports are already occupied, Jiaoqiu makes for an excellent substitute, so he's especially useful if you only have the supports for one really strong team. While he's a wonderful generalist unit outside of his undisputed locked spot in Acheron teams, if players have the means to specialise their teams then their efforts are ultimately better spent elsewhere — for now, at least.\n Jiaoqiu's Eidolons are decent but unnecessary, though they can be a nice boost to players looking to vertically invest (you should go for his Light Cone first). E1 will let allies have a 40% DMG bonus against enemies afflicted by Ashen Roast and will increase the number of stacks his Talent applies by 1. E2 increases the DMG multiplier of his Ashen Roast DoT to 480% ATK. E4 reduces enemy ATK by 15% while his Ultimate's Zone exists (10/10 Eidolon). E6 will let Ashen Roast stacks automatically transfer from a defeated enemy to a new enemy with the lowest stacks; Ashen Roast has its stack limit raised to 9, and each stack additionally reduces the enemy's All-Type RES by 3%. This means at E6, 9 stacks of Ashen Roast are providing 60.5% DMG vulnerability (because of the prior Eidolons), 27% All-Type RES Down, and a 480% ATK DoT.\n All in all, Jiaoqiu is a very solid character with good potential to improve later down the line . More and more, we're gaining many team compositions to serve as alternatives to the typical hypercarry setup of old. That sort of world is exactly the kind that Jiaoqiu could thrive in.\n\n Ratings\n Honkai: Star Rail is a game where team building matters most and while our tier list takes the optimal setup into account, a lot of characters can work and do well - even those ranked lower - when you invest into them. Also for story or lower difficulties of Simulated Universe, you don't need to worry about ratings and tiers. You can safely clear that content even with F2P characters as long as you build your team correctly.\n Character at 5★ are rated at their Eidolon 0 with level 80 best in slot 4★ or 5★ Light Cone (including limited Light Cones, but at S1).\n Available ratings:\n Memory of Chaos (MoC) - how the character performs in the Memory of Chaos. Blast and single target damage are important here while AoE has niche uses against some bosses.\n Pure Fiction (PF) - how the character performs in the Pure Fiction. AoE is king here, followed by Blast while single target damage is mostly useless.\n Apocalyptic Shadow (AS) - how the character performs in the Apocalyptic Shadow. Single target and Break is important here.\n\n T3\n MoC\n\n T2\n PF\n\n T2\n AS\n\n Build and teams\n\n Best Light Cones\n\n 1\n\n Those Many Springs (S 1 )\n\n Incredibly strong team-wide supportive option for DoT based Nihility supports seeking a large amount of Effect Hit Rating and who can apply and maintain their DoT throughout combat.\n Usage: 72.7 %\n MoC: -\n PF: 28240\n AS: 3278\n\n 2\n\n Lies Dance on the Breeze (S 1 )\n\n Cipher's signature and a top option on almost every Nihility character working within the supportive role, thanks to its 2-turn 24% DEF shred debuff applied on hit and tremendous 18% increased SPD. Requires the wearer to reach 170 SPD to fully activate but thanks to this Cone's passive SPD and most supports building SPD anyways this isn't unachievable.\n\n 3\n\n Eyes of the Prey (S 5 )\n\n Solid option for those seeking a strong amount of Effect Hit Rating and or a large boost to DoT damage.\n Usage: 5.35 %\n MoC: -\n PF: 26320\n AS: 0\n\n 4\n\n Resolution Shines As Pearls of Sweat (S 1 )\n\n One of the top Nihility supportive options available. Must be played around effectively due to its 1 turn duration - aim to apply this during the enemies turn or right after it. Becomes more powerful when combined with other sources of DEF% reduction.\n Usage: 3.19 %\n MoC: -\n PF: 0\n AS: 0\n\n Specialist Light Cones\n 1\n\n Before the Tutorial Mission Starts (S 5 )\n\n Specialty Cone only useful when the enemy already has a DEF% reduction applied to them. Benefits characters looking for Effect Hit Rating and substantial amounts of additional Energy generation. Easiest to use on characters that apply a DEF% reduction in their kit.\n Usage: 5.9 %\n MoC: -\n PF: 26870\n AS: 0\n\n 2\n\n Solitary Healing (S 5 )\n\n One of the best options in Pure Fiction since his Ultimate can permanently keep all enemies under his Fire DoT, which he can then regenerate 6 Energy when they are defeated.\n Usage: 8.11 %\n MoC: -\n PF: 0\n AS: 0\n\n Best Relic Sets\n\n The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 1\n\n Eagle of Twilight Line ( 4 -PC)\n\n Allows characters with accessible Ultimates to reach higher Speed (and cycle) breakpoints compared to just stacking Speed. Strongest on characters with powerful ultimate related effects or who can access their ultimate at least once every 3 (but ideally 2) actions. Particularly strong when combined with other action advancement effects. The additional actions from this set are particularly powerful when playing Jiaoqiu alongside Acheron who benefits from the increased debuff application they provide.\n Usage: 32.96 %\n MoC: -\n PF: 26573\n AS: 3260\n\n 2\n\n Messenger Traversing Hackerspace ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Pioneer Diver of Dead Waters\n\n Firesmith of Lava-Forging\n\n Sacerdos' Relived Ordeal\n\n Diviner of Distant Reach\n\n Warrior Goddess of Sun and Thunder\n\n Usage: 0.68 %\n MoC: -\n PF: 0\n AS: 0\n\n Best Specialist Relic Sets\n 1\n\n Prisoner in Deep Confinement ( 4 -PC)\n\n Exceptional damage set for DoT-focused characters that play within teams that can consistently apply and maintain 3 DoT's to enemies. Becomes more powerful when combined with other sources of DEF% reduction. A good option for E2+ Jiaoqiu.\n Usage: 28.19 %\n MoC: -\n PF: 0\n AS: 3297\n\n Best Planetary Sets\n 1\n\n Sprightly Vonwacq ( 2 -PC)\n\n Incredibly potent option for buff/debuff based characters. The advance from this set allows the wearer to apply their buffs/debuffs before the rest of the team acts, accelerate rotations, allows access to ultimates closer to the start of the fight and also grants Energy Regen - a valuable stat for many supports.\n Usage: 39.11 %\n MoC: -\n PF: 27400\n AS: 0\n\n 2\n\n Fleet of the Ageless ( 2 -PC)\n\n Ideal for supporting teams that scale on ATK.\n 3\n\n Broken Keel ( 2 -PC)\n\n An option for supports stacking Effect RES, while also increasing the entire team's CRIT DMG. Requires at least 30% Effect RES to activate.\n 4\n\n Penacony, Land of the Dreams ( 2 -PC)\n\n Top option for supporting teams with the same Element as the wearer, and for its Energy Regen.\n 5\n\n Lushaka, the Sunken Seas ( 2 -PC)\n\n Top option for Supporting a single ATK-scaling DPS, and for its Energy Regen.\n Usage: 15.44 %\n MoC: -\n PF: 24620\n AS: 0\n\n Best Specialist Planetary Sets\n 1\n\n Pan-Cosmic Commercial Enterprise ( 2 -PC)\n\n Option for Effect Hit Rate focused characters searching for additional accessible source of Effect Hit Rating. When factoring the bonus Effect Hit Rating, alongside the ATK% boost can be a competitive damage option as well.\n Usage: 11.36 %\n MoC: -\n PF: 26320\n AS: 3297\n\n Best Stats\n\n Body\n Effect HIT Rate\n\n Feet\n Speed\n\n Planar Sphere\n Fire DMG\n\n Link Rope\n Energy Regen Rate\n\n Substats: EHR (Until 140%) > SPD > ATK%\n\n Focus on EHR till you reach 140% and then build Speed, followed by ATK%.\n\n Recommended endgame stats\n HP: 3000+\n\n DEF: 900+\n\n ATK: 4000+ (In combat with maxed 240% ATK Boost)\n\n Effect Hit Rate: 140%+ (More can be useful against 40%+ Resistant enemies)\n\n SPD: As much as is needed to outspeed all DPS characters and even more than this if desired.\n\n Traces priority\n Skills priority: Talent > Ultimate > Skill > Basic\n\n Major Traces priority: Seared Scent (A6) > Pyre Cleanse (A2) > Hearth Kindle (A4)\n\n Synergy\n Acheron - Acheron is Jiaoqiu's top teammate and the character he feels designed to support. Acheron thrives most with characters that consistently and frequently apply debuffs to enemies and Jiaoqiu has no equal in that regard. His Path also activates Acheron's bonus ability and his debuff of choice (vulnerability) is something Acheron lacks in her own kit making it very valuable.\n Dr. Ratio - Dr. Ratio relies on his team to apply 3-5 debuffs to bring his kit fully online. This restrict his teammate options, but Jiaoqiu having 2 semi-permanent debuffs and a 3rd from his Cone can do a lot to help with this. With Jiaoqiu bringing tons of debuffs, Ratio has a lot more options to choose from for the Amplifier and Sustain slots.\n Teams\n Memory of Chaos\n\n Pure Fiction\n\n Apocalyptic Shadow\n\n Anomaly Arbitration\n\n Rank 143\n App. rate: 0.1 %\n Avg. cycles : 8.67\n Avg. cycles (E1+): 8.82\n\n Rank 223\n App. rate: 0.05 %\n Avg. cycles : -\n Avg. cycles (E1+): 7\n\n Rank 258\n App. rate: 0.04 %\n Avg. cycles : -\n Avg. cycles (E1+): 7.83\n\n Rank 366\n App. rate: 0.02 %\n Avg. cycles : -\n Avg. cycles (E1+): 5.33\n\n Rank 366\n App. rate: 0.02 %\n Avg. cycles : 10\n Avg. cycles (E1+): 9\n\n Rank 366\n App. rate: 0.02 %\n Avg. cycles : 10\n Avg. cycles (E1+): 10\n\n Rank 366\n App. rate: 0.02 %\n Avg. cycles : -\n Avg. cycles (E1+): 1.67\n\n Rank 515\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 6.5\n\n Rank 515\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 9\n\n Rank 515\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 7.5\n\n Video guides\n\n MoC/PF/AS Statistics\n\n MoC/PF/AS Statistics"
+  "text": "Jiaoqiu Best Build Guide | Honkai: Star Rail\n \n\n Honkai: Star Rail\n Home Database Characters Light Cones Relic Sets Banners\n Tier Lists Tier List\n Endgame Memory of Chaos Pure Fiction Apocalyptic Shadow Anomaly Arbitration\n Tools Patch Timeline\n Guides Guides\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Honkai: Star Rail\n /\n Characters\n /\n Jiaoqiu\n Jiaoqiu Best Build Guide\n Last updated: 31/May/2026\n\n Introduction\n Best guide and build for Jiaoqiu from HSR (Honkai: Star Rail). Jiaoqiu is a 5 ★ character from the Fire element who follows the Path of Nihility .\n A foxian healer from the Xianzhou Yaoqing and a counselor. Often greets people with a smile, but is rather cunning. Born into a prestigious Alchemy Commission family, he once withdrew from practicing medicine due to a broken heart. However, he returned to the field to treat \"the Merlin's Claw,\" General Feixiao. Skilled in the study of alchemical prescription that views food as medicine, especially those that induce a sensation of spiciness. They invented a cauldron-based medicinal formula known as the \"nine-squared grid.\"\n\n To learn more about Jiaoqiu check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Video guide\n Jiaoqiu has at least one video available, so if you prefer this sort of medium to learn more about a character, check it out:\n\n Update tracker\n Last review update\n Patch 3.2\n\n Last major build/calcs update\n Patch 3.3\n\n Last profile update*\n 31/May/2026\n\n *Profile update means smaller edits to relics, stats, synergies or teams that don't require new calculations.\n To learn more about Jiaoqiu check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Kit\n\n Review\n\n Build and teams\n\n MoC/PF/AS Statistics\n\n Calculations\n\n Profile\n\n Skills\n Basic ATK\n Heart Afire\n Single Target\n\n Lv. 1\n\n Energy gain: 20\n Break: 10\n\n Deals Fire DMG equal to #1[i]% of Jiaoqiu's ATK to a single target enemy.\n\n Skill\n Scorch Onslaught\n Blast\n\n Lv. 1\n\n Energy gain: 30\n Break: 20 + 10 adjacent\n\n Deals Fire DMG equal to #1[i]% of Jiaoqiu's ATK to a single target enemy and Fire DMG equal to #2[i]% of Jiaoqiu's ATK to adjacent targets, with a #3[i]% base chance to inflict 1 stack of Ashen Roast on the primary target.\n\n Ultimate\n Pyrograph Arcanum\n AoE | 100 energy cost\n\n Lv. 1\n\n Energy gain: 5\n Break: 20\n\n Sets the number of \"Ashen Roast\" stacks on enemy targets to the highest number of \"Ashen Roast\" stacks present on the battlefield. Then, activates a Zone and deals Fire DMG equal to #1[i]% of Jiaoqiu's ATK to all enemies.\nWhile inside the Zone, enemy targets receive #3[i]% increased Ultimate DMG, with a #2[i]% base chance of being inflicted with 1 stack of Ashen Roast when taking action. While the Zone exists, this effect can trigger up to #5[i] time(s). And for each enemy target, it can only trigger once per turn. This trigger count resets every time Jiaoqiu uses Ultimate.\nThe Zone lasts for #4[i] turn(s), and its duration decreases by 1 at the start of this unit's every turn. If Jiaoqiu gets knocked down, the Zone will also be dispelled.\n\n Talent\n Quartet Finesse, Octave Finery\n Impair\n\n Lv. 1\n\n Energy gain: 0\n Break: -\n\n When Jiaoqiu hits an enemy with Basic ATK, Skill or Ultimate, there is a #1[i]% base chance to inflict 1 stack of Ashen Roast on them. At 1 stack, increases DMG received by the enemy by #2[i]%. Then, each subsequent stack increases this by #3[i]%.\nAshen Roast is capped at #4[i] stack(s) and lasts for #5[i] turn(s).\nWhen an enemy target is afflicted with Ashen Roast, they are also considered as being Burned at the same time, taking Fire DoT equal to #6[i]% of Jiaoqiu's ATK at the start of each turn.\n\n Technique\n Fiery Queller\n Impair\n\n Energy gain: 0\n Break: -\n\n After using Technique, creates a special dimension that lasts for #2[i] second(s). After entering combat with enemies in this special dimension, deals Fire DMG equal to #1[i]% of Jiaoqiu's ATK to all enemies, with a #3[i]% base chance of applying 1 \"Ashen Roast\" stack. Only 1 dimension created by allies can exist at the same time.\n\n Major Traces\n A2 Major trace\n Pyre Cleanse\n\n When battle starts, immediately regenerates 15 Energy.\n\n A4 Major trace\n Hearth Kindle\n\n For every 15% of Jiaoqiu's Effect Hit Rate that exceeds 80%, additionally increases ATK by 60% , up to 240% .\n\n A6 Major trace\n Seared Scent\n\n While the Zone exists, enemies entering combat will be inflicted with Ashen Roast. The number of stacks applied will match the highest number of Ashen Roast stacks possessed by any unit while the Zone is active, with a minimum of 1 stack(s).\n\n Minor Traces (total)\n Effect HIT Rate\n + 28%\n\n Fire DMG\n + 14.4%\n\n Speed\n + 5\n\n Eidolons\n E 1\n Pentapathic Transference\n Eidolon 1\n\n Allies deal 40% increased DMG to enemy targets afflicted with Ashen Roast. Whenever inflicting Ashen Roast on an enemy target via triggering the Talent's effect, additionally increases the number of Ashen Roast applied this time by 1 .\n\n E 2\n From Savor Comes Suffer\n Eidolon 2\n\n When an enemy target is afflicted with Ashen Roast, increases the multiplier for the Fire DoT dealt by Ashen Roast to the target by 300% .\n\n E 3\n Flavored Euphony Reigns Supreme\n Eidolon 3\n\n Skill Lv. +2 , up to a maximum of Lv. 15. Basic ATK Lv. +1 , up to a maximum of Lv. 10.\n\n E 4\n Leisure In, Luster Out\n Eidolon 4\n\n When the Zone exists, reduces enemy target's ATK by 15% .\n\n E 5\n Duel in Dawn, Dash in Dusk\n Eidolon 5\n\n Ultimate Lv. +2 , up to a maximum of Lv. 15. Talent Lv. +2 , up to a maximum of Lv. 15.\n\n E 6\n Nonamorphic Pyrobind\n Eidolon 6\n\n When an enemy target gets defeated, their accumulated \"Ashen Roast\" stacks will transfer to the enemy with the lowest number of \"Ashen Roast\" stacks on the battlefield. The maximum stack limit of Ashen Roast increases to 9 , and each \"Ashen Roast\" stack reduces the target's All-Type RES by 3% .\n\n Stats and materials\n\nEnable Ascension\n\n Level 80 stats\n HP\n\n 1358\n\n ATK\n\n 601\n\n DEF\n\n 509\n\n Speed\n\n 98\n\n Level 1 → 80 Ascension Materials\n\n Credit\n\n x 308000\n\n Immortal Scionette\n\n x 15\n\n Immortal Aeroblossom\n\n x 15\n\n Raging Heart\n\n x 65\n\n Immortal Lumintwig\n\n x 15\n\n CV\n ENG\n Mark Whitten\n\n JPN\n Toshiyuki Toyonaga (丰永利行)\n\n CN\n Taikang Chenzhang (陈张太康)\n\n KR\n Jeongmin Lee (이정민)\n\n Gallery\n\n Review\n\n Pros & Cons\n Pros\n Strong DMG vulnerability debuffs for both ST and AoE,\n\n Additional Ultimate DMG vulnerability that buffs Ult-heavy DPS characters,\n\n Can easily reach 100% Uptime on his debuffs,\n\n Provides 3 debuffs all on his own and can apply debuffs during enemy turns,\n\n Debuffs carry over automatically to new waves and newly spawned enemies,\n\n Laughably easy to play.\n\n Cons\n Outside of Acheron teams, he's a weaker support than most of the top Harmony units,\n\n Lower than average base SPD,\n\n Provides less value to Ultimate reliant DPS that can't Energy sustain themselves.\n\n Review (By Sushou)\n Jiaoqiu is a strong debuffing support with decent DoT capabilities. He can continually apply a stacking vulnerability debuff to all enemies on the field and can apply this to enemies entering the field with his Ultimate's Zone. This vulnerability debuff also doubles as his personal DoT, allowing him to contribute a decent amount of damage as well. His Ultimate will also provide an additional vulnerability debuff specifically for all Ultimate DMG received, and he gives enemies a chance to be afflicted with more vuln stacks on their turn, making him a strong and consistent support.\n The definitely not aptly-named 'healer', Jiaoqiu, is a support character from the Path of Nihility. He is capable of boosting the team's damage quite considerably and is able to do it consistently as well, making him a rather strong generalist unit. He is particularly excellent for Acheron teams due to his unparalleled debuff reapplication , and his Damage over Time (DoT) makes him a worthy unit to use in Kafka DoT teams, especially since his debuff increases all damage enemies receive. He won't be winning any stand-out awards for some other teams where other support slots are pretty much locked, but he's solid anywhere and everywhere, and should not be underestimated.\n Jiaoqiu's Talent is the source of his debuff. Whenever Jiaoqiu hits an enemy with a Basic, Skill, or Ultimate, he has a 100% base chance to inflict 1 stack of Ashen Roast on them. The first stack of Ashen Roast inflicts up to a 15% DMG vulnerability on them, and each subsequent stack adds an extra 5%. Ashen Roast caps out at 5 stacks, for a total of up to 35% DMG vulnerability. Ashen Roast lasts for 2 turns, but the duration will reset upon reapplication. In addition to this, enemies affected by Ashen Roast will take Fire DoT at the start of their turn, up to 180% ATK (this DoT ignores Burn Immunity).\n A 35% vulnerability that can be maintained indefinitely is extremely good. Though the upfront effect is less significant than say a Pela's Ultimate with S5 Pearls, the sheer uptime of it can actually end up being much stronger over the course of a fight. The DoT attached to this is not massively impressive, so you shouldn't count on that damage alone being massively impactful to your fight, but it is a nice extra. In Kafka setups where you're constantly detonating the compounded DoT effects on enemies, this can be very nice to have, especially due to the aforementioned 35% vuln enemies will have once this is stacked.\n Jiaoqiu's Skill is a Blast AoE that deals up to 150% ATK to the primary target, and up to 90% ATK to adjacent foes. There's a 100% base chance to apply 1 Ashen Roast to the primary target. This effect stacks with his Talent, meaning that his Skill can apply 2 Ashen Roast stacks to his main foe and 1 stack to adjacent ones, speeding up the process of stacking the debuff. This is also unlikely to be used for its upfront damage, but is invaluable in AoE scenarios, or when you want to speed up the stacking onto a single enemy, so you’ll be using it quite frequently.\n His Ultimate will deploy a zone. Inside this zone, all enemy's Ashen Roast stacks will be equal to the highest amount on the field (so if there's an enemy with 5 Ashen Roast stacks, all enemies will now have 5 as well), and this is then followed up by dealing up to 100% ATK to all enemies. Inside the zone, enemies will take up to an additional 15% increase damage from Ultimate DMG. There is also a 60% base chance that enemies will be inflicted with 1 stack of Ashen Roast when taking action, with a limit of 1 application per individual enemy action, and a total application limit of 6 times per Jiaoqiu's Ultimate usage. The zone lasts for 3 of Jiaoqiu's turns. The Ultimate vulnerability is a separate debuff.\n This is how he quickly spreads Ashen Roast across the entire battlefield and keeps it at maximum. The extra Ultimate DMG enemies receive is additive with his Ashen Roast's 35% vulnerability, making for a combined 50% vulnerability to Ultimate DMG while his zone is active and at 5 stacks of Ashen Roast. The extra stacks of Ashen Roast on enemy action is actually per individual action, meaning an Elite enemy that acts twice per turn will have two separate chances to get afflicted with the debuff. This Ultimate also has a very low Energy cost of only 100, so it's very possible to have this up permanently and never really need to worry about your Ashen Roast stacks again.\n Jiaoqiu's Bonus Ability Traces also help him get ramped up faster. A2 will regenerate 15 Energy at the start of combat, allowing him to get a first turn Ultimate as long as you have some Energy Regeneration Rate, granting a massive boost to the team right out of the gate and without any further shenanigans. A4 will increase Jiaoqiu's ATK based on how much Effect Hit Rate he has that goes beyond 80%; 60% ATK per 15% EHR, for a total of 240% bonus ATK when Jiaoqiu has a total of 140% EHR. Due to his lower base chances, you are already highly incentivised to build Effect Hit Rate to raise his consistency, so this is a nice bonus for doing what you should have already been doing.\n His A6 is the really big one, as it will boost his Ultimate's zone; when the zone is up, enemies that enter combat will also be inflicted with Ashen Roast stacks equal to the current maximum on the field, so again if 5 is the max, new enemies entering combat will instantly gain the max stacks. This not only works for the Pure Fiction style of combat where enemies are constantly spawning in, this will actually also work for new waves inside of Memory of Chaos, meaning once Jiaoqiu is set up during the first wave of enemies, he will not ramp down in any way provided his Ultimate is still active when the next wave comes in.\n It is at this point that I must reiterate that Jiaoqiu is a SUPPORT . He may deal some damage, but he is not a 'damage dealer', so please do not treat him as such. It can be easy to compare Jiaoqiu to some of our already existing Nihility support units and not take away the correct impression of him. Pela has her AoE DEF Shred on her Ultimate, Silver Wolf has massive single-target debuffing and DEF Shred, and Guinaifen is pretty much the same unit as him if you choose to ignore Jiaoqiu’s massively improved debuff application, duration of said debuffs, and even debuff strength. To say this is to show you've not been paying attention, and it all comes back to a specific word mentioned earlier in the review: uptime. Specifically on his team benefits.\n Jiaoqiu ramps up fast and never ramps down again , he is permanently providing his maximum bonuses and that's irrespective of his other teammates or what enemies he is against. 35% all DMG vulnerability and a 50% Ultimate DMG vulnerability is nothing to scoff at, and the time you would have lost attacking non-debuffed enemies with other supports is refunded and amplified further with Jiaoqiu. Calling him a '5-star Guinaifen' is not wholly inaccurate (especially since they clearly shop at the same place), but it is deliberately ignoring the sweeping benefits Jiaoqiu has over many other supports, not just Guinaifen. Even then, calling anyone similar to Guinaifen is pretty high praise in my eyes — everyone's favourite in-universe streamer is quite powerful and still quite underrated.\n Aside from the fact that Jiaoqiu is kerchow-ing with his debuff application, and even ignoring that he has 100% uptime on all his team benefits... The man is easy. He's just easy. He is not hard to build, he is not hard to play, and he doesn't really have much at all that he can optimise, excluding some cases with the Resolution Shines as Pearls of Sweat Light Cone and some optional micro-managing of the debuff from his Signature Light Cone. He provides maximum reward for minimal effort, and it is absolutely a huge selling point, I'd say. Not needing to time things to make sure your allies hit hardest, or accidentally fat-fingering an Ultimate when you didn't mean to — none of this matters with Jiaoqiu. Both forced and unforced errors are completely meaningless for Jiaoqiu; the former doesn't reduce his efficacy, and the latter simply can't happen unless you DIE.\n Which brings me to the big synergy he's got: Acheron. Because of his Ultimate's debuff application on enemy action, he is able to provide Acheron so very many more points of Slashed Dream for her Ultimate, more than any other character in the game, and not by a small margin; every Jiaoqiu Ultimate alone will be giving Acheron 6 points of Slashed Dream, and this is without even considering Jiaoqiu's own turns with his Skill or Basic, or the rest of the team's debuff application either. Include enemies that spawn in, and it goes sky high.\n It's like a turbo-charged version of the Trend of the Universal Market setup that also allowed Acheron to gain points of Slashed Dream during the enemy turns, only now it's 100% consistent and does not require you to run a sub-optimal setup with the Preservation Trailblazer. Ashen Roast's Vulnerability is something that Acheron teams lack along with DEF Shred, but the difference in damage between the two is not very large, and the vastly increased Ultimate uptime that Jiaoqiu provides Acheron more than makes up for the paltry difference. Then you just pair Jiaoqiu with either Pela or Silver Wolf depending on what you're against, be it AoE or single-target respectively, and you're golden.\n Jiaoqiu is also quite potent for Dr. Ratio, providing 2 permanent debuffs all by himself (3 with his Signature Light Cone) and allowing Ratio to hit the 100% guarantee on his Skill’s follow-up without any other units considered. It's undoubtedly weaker than if you were to put Robin with Dr. Ratio in his optimal team, but it's vastly more viable for E0S0 holders of these characters, as without signature Light Cones for Topaz and Aventurine, Dr. Ratio is struggling to even meet the requirements for a 100% follow-up chance on his Skill, and Jiaoqiu remedies this.\n Really, you can put Jiaoqiu pretty much anywhere you'd put Pela and you'll see similar if not better results, with more consistency to boot. The issue may come when you start comparing him to Harmony supports, as that becomes a lot less favourable very quickly. I mentioned it near the start but there's quite a few teams whose support slots are 'locked' to specific units with little room for it to change. Jiaoqiu is great, but he ain't Robin or Ruan Mei. Only one of each of those exist. However this goes both ways, since if those powerful Harmony supports are already occupied, Jiaoqiu makes for an excellent substitute, so he's especially useful if you only have the supports for one really strong team. While he's a wonderful generalist unit outside of his undisputed locked spot in Acheron teams, if players have the means to specialise their teams then their efforts are ultimately better spent elsewhere — for now, at least.\n Jiaoqiu's Eidolons are decent but unnecessary, though they can be a nice boost to players looking to vertically invest (you should go for his Light Cone first). E1 will let allies have a 40% DMG bonus against enemies afflicted by Ashen Roast and will increase the number of stacks his Talent applies by 1. E2 increases the DMG multiplier of his Ashen Roast DoT to 480% ATK. E4 reduces enemy ATK by 15% while his Ultimate's Zone exists (10/10 Eidolon). E6 will let Ashen Roast stacks automatically transfer from a defeated enemy to a new enemy with the lowest stacks; Ashen Roast has its stack limit raised to 9, and each stack additionally reduces the enemy's All-Type RES by 3%. This means at E6, 9 stacks of Ashen Roast are providing 60.5% DMG vulnerability (because of the prior Eidolons), 27% All-Type RES Down, and a 480% ATK DoT.\n All in all, Jiaoqiu is a very solid character with good potential to improve later down the line . More and more, we're gaining many team compositions to serve as alternatives to the typical hypercarry setup of old. That sort of world is exactly the kind that Jiaoqiu could thrive in.\n\n Ratings\n Honkai: Star Rail is a game where team building matters most and while our tier list takes the optimal setup into account, a lot of characters can work and do well - even those ranked lower - when you invest into them. Also for story or lower difficulties of Simulated Universe, you don't need to worry about ratings and tiers. You can safely clear that content even with F2P characters as long as you build your team correctly.\n Character at 5★ are rated at their Eidolon 0 with level 80 best in slot 4★ or 5★ Light Cone (including limited Light Cones, but at S1).\n Available ratings:\n Memory of Chaos (MoC) - how the character performs in the Memory of Chaos. Blast and single target damage are important here while AoE has niche uses against some bosses.\n Pure Fiction (PF) - how the character performs in the Pure Fiction. AoE is king here, followed by Blast while single target damage is mostly useless.\n Apocalyptic Shadow (AS) - how the character performs in the Apocalyptic Shadow. Single target and Break is important here.\n\n T3\n MoC\n\n T2\n PF\n\n T2\n AS\n\n Build and teams\n\n Best Light Cones\n\n 1\n\n Those Many Springs (S 1 )\n\n Incredibly strong team-wide supportive option for DoT based Nihility supports seeking a large amount of Effect Hit Rating and who can apply and maintain their DoT throughout combat.\n Usage: 75.19 %\n MoC: -\n PF: 28000\n AS: 3021\n\n 2\n\n Lies Dance on the Breeze (S 1 )\n\n Cipher's signature and a top option on almost every Nihility character working within the supportive role, thanks to its 2-turn 24% DEF shred debuff applied on hit and tremendous 18% increased SPD. Requires the wearer to reach 170 SPD to fully activate but thanks to this Cone's passive SPD and most supports building SPD anyways this isn't unachievable.\n\n 3\n\n Eyes of the Prey (S 5 )\n\n Solid option for those seeking a strong amount of Effect Hit Rating and or a large boost to DoT damage.\n Usage: 6.45 %\n MoC: -\n PF: 26320\n AS: 0\n\n 4\n\n Resolution Shines As Pearls of Sweat (S 1 )\n\n One of the top Nihility supportive options available. Must be played around effectively due to its 1 turn duration - aim to apply this during the enemies turn or right after it. Becomes more powerful when combined with other sources of DEF% reduction.\n Usage: 2.9 %\n MoC: -\n PF: 0\n AS: 0\n\n Specialist Light Cones\n 1\n\n Before the Tutorial Mission Starts (S 5 )\n\n Specialty Cone only useful when the enemy already has a DEF% reduction applied to them. Benefits characters looking for Effect Hit Rating and substantial amounts of additional Energy generation. Easiest to use on characters that apply a DEF% reduction in their kit.\n Usage: 8.12 %\n MoC: 12 cyc.\n PF: 29120\n AS: 3157\n\n 2\n\n Solitary Healing (S 5 )\n\n One of the best options in Pure Fiction since his Ultimate can permanently keep all enemies under his Fire DoT, which he can then regenerate 6 Energy when they are defeated.\n Usage: 2.48 %\n MoC: -\n PF: 29760\n AS: 0\n\n Best Relic Sets\n\n The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 1\n\n Eagle of Twilight Line ( 4 -PC)\n\n Allows characters with accessible Ultimates to reach higher Speed (and cycle) breakpoints compared to just stacking Speed. Strongest on characters with powerful ultimate related effects or who can access their ultimate at least once every 3 (but ideally 2) actions. Particularly strong when combined with other action advancement effects. The additional actions from this set are particularly powerful when playing Jiaoqiu alongside Acheron who benefits from the increased debuff application they provide.\n Usage: 34.34 %\n MoC: -\n PF: 26869\n AS: 3021\n\n 2\n\n Messenger Traversing Hackerspace ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Pioneer Diver of Dead Waters\n\n Firesmith of Lava-Forging\n\n Sacerdos' Relived Ordeal\n\n Diviner of Distant Reach\n\n Warrior Goddess of Sun and Thunder\n\n Best Specialist Relic Sets\n 1\n\n Prisoner in Deep Confinement ( 4 -PC)\n\n Exceptional damage set for DoT-focused characters that play within teams that can consistently apply and maintain 3 DoT's to enemies. Becomes more powerful when combined with other sources of DEF% reduction. A good option for E2+ Jiaoqiu.\n Usage: 27.61 %\n MoC: -\n PF: 0\n AS: 0\n\n Best Planetary Sets\n 1\n\n Sprightly Vonwacq ( 2 -PC)\n\n Incredibly potent option for buff/debuff based characters. The advance from this set allows the wearer to apply their buffs/debuffs before the rest of the team acts, accelerate rotations, allows access to ultimates closer to the start of the fight and also grants Energy Regen - a valuable stat for many supports.\n Usage: 43.88 %\n MoC: -\n PF: 29347\n AS: 0\n\n 2\n\n Fleet of the Ageless ( 2 -PC)\n\n Ideal for supporting teams that scale on ATK.\n 3\n\n Broken Keel ( 2 -PC)\n\n An option for supports stacking Effect RES, while also increasing the entire team's CRIT DMG. Requires at least 30% Effect RES to activate.\n 4\n\n Penacony, Land of the Dreams ( 2 -PC)\n\n Top option for supporting teams with the same Element as the wearer, and for its Energy Regen.\n 5\n\n Lushaka, the Sunken Seas ( 2 -PC)\n\n Top option for Supporting a single ATK-scaling DPS, and for its Energy Regen.\n Usage: 16.6 %\n MoC: -\n PF: 25960\n AS: 0\n\n Best Specialist Planetary Sets\n 1\n\n Pan-Cosmic Commercial Enterprise ( 2 -PC)\n\n Option for Effect Hit Rate focused characters searching for additional accessible source of Effect Hit Rating. When factoring the bonus Effect Hit Rating, alongside the ATK% boost can be a competitive damage option as well.\n Usage: 6.57 %\n MoC: -\n PF: 26320\n AS: 0\n\n Best Stats\n\n Body\n Effect HIT Rate\n\n Feet\n Speed\n\n Planar Sphere\n Fire DMG\n\n Link Rope\n Energy Regen Rate\n\n Substats: EHR (Until 140%) > SPD > ATK%\n\n Focus on EHR till you reach 140% and then build Speed, followed by ATK%.\n\n Recommended endgame stats\n HP: 3000+\n\n DEF: 900+\n\n ATK: 4000+ (In combat with maxed 240% ATK Boost)\n\n Effect Hit Rate: 140%+ (More can be useful against 40%+ Resistant enemies)\n\n SPD: As much as is needed to outspeed all DPS characters and even more than this if desired.\n\n Traces priority\n Skills priority: Talent > Ultimate > Skill > Basic\n\n Major Traces priority: Seared Scent (A6) > Pyre Cleanse (A2) > Hearth Kindle (A4)\n\n Synergy\n Acheron - Acheron is Jiaoqiu's top teammate and the character he feels designed to support. Acheron thrives most with characters that consistently and frequently apply debuffs to enemies and Jiaoqiu has no equal in that regard. His Path also activates Acheron's bonus ability and his debuff of choice (vulnerability) is something Acheron lacks in her own kit making it very valuable.\n Dr. Ratio - Dr. Ratio relies on his team to apply 3-5 debuffs to bring his kit fully online. This restrict his teammate options, but Jiaoqiu having 2 semi-permanent debuffs and a 3rd from his Cone can do a lot to help with this. With Jiaoqiu bringing tons of debuffs, Ratio has a lot more options to choose from for the Amplifier and Sustain slots.\n Teams\n Memory of Chaos\n\n Pure Fiction\n\n Apocalyptic Shadow\n\n Anomaly Arbitration\n\n Rank 343\n App. rate: 0.06 %\n Avg. cycles : 12\n Avg. cycles (E1+): 10.71\n\n Rank 361\n App. rate: 0.05 %\n Avg. cycles : 12\n Avg. cycles (E1+): 10.75\n\n Rank 361\n App. rate: 0.05 %\n Avg. cycles : 12\n Avg. cycles (E1+): 9.6\n\n Rank 361\n App. rate: 0.05 %\n Avg. cycles : -\n Avg. cycles (E1+): 9.88\n\n Rank 431\n App. rate: 0.04 %\n Avg. cycles : -\n Avg. cycles (E1+): 10.67\n\n Rank 483\n App. rate: 0.03 %\n Avg. cycles : -\n Avg. cycles (E1+): 9.2\n\n Rank 483\n App. rate: 0.03 %\n Avg. cycles : -\n Avg. cycles (E1+): 8.5\n\n Rank 631\n App. rate: 0.02 %\n Avg. cycles : -\n Avg. cycles (E1+): 9.67\n\n Rank 631\n App. rate: 0.02 %\n Avg. cycles : -\n Avg. cycles (E1+): 11.67\n\n Rank 631\n App. rate: 0.02 %\n Avg. cycles : -\n Avg. cycles (E1+): 7.67\n\n Video guides\n\n MoC/PF/AS Statistics\n\n MoC/PF/AS Statistics"
 }

@@ -7,7 +7,7 @@
 (function(){
   window.CM_CFG_BETA = window.CM_CFG_BETA || {};
   window.CM_CFG_BETA["hsr"] = {
-  "version": "4.4.53",
+  "version": "4.4.54",
   "liveVersion": "4.4",
   "newCount": 2,
   "changedCount": 17,
@@ -84,7 +84,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.4.53",
+        "version": "4.4.54",
         "sections": [
           {
             "title": "Skills",
@@ -1805,7 +1805,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.4.53",
+        "version": "4.4.54",
         "sections": [
           {
             "title": "Skills",
@@ -3263,19 +3263,19 @@
       "path": "Elation",
       "baseStats": {
         "level1": {
-          "hp": 168.96,
-          "atk": 58.08,
-          "def": 102.3,
-          "speed": 103,
+          "hp": 158.4,
+          "atk": 66,
+          "def": 82.5,
+          "speed": 107,
           "critRate": 0.05,
           "critDmg": 0.5
         },
         "max": {
           "level": 80,
-          "hp": 1241.86,
-          "atk": 426.89,
-          "def": 751.9,
-          "speed": 103,
+          "hp": 1164.24,
+          "atk": 485.1,
+          "def": 606.38,
+          "speed": 107,
           "critRate": 0.05,
           "critDmg": 0.5
         }
@@ -3290,7 +3290,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.4.53",
+        "version": "4.4.54",
         "sections": [
           {
             "title": "Skills",
@@ -3346,136 +3346,136 @@
               {
                 "name": "Fatal Shot, Boiling Sands",
                 "type": "Skill",
-                "desc": "Deals Quantum DMG equal to 300% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 2 Punchline and 4 point(s) of \"Fervor.\"",
+                "desc": "Deals Quantum DMG equal to 300% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 4 Punchline and 4 point(s) of \"Fervor.\"",
                 "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1513_BP.webp",
                 "levels": [
                   {
                     "label": "Lv. 1",
-                    "text": "Deals Quantum DMG equal to 120% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 2 Punchline and 4 point(s) of \"Fervor.\""
+                    "text": "Deals Quantum DMG equal to 120% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 4 Punchline and 4 point(s) of \"Fervor.\""
                   },
                   {
                     "label": "Lv. 2",
-                    "text": "Deals Quantum DMG equal to 132% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 2 Punchline and 4 point(s) of \"Fervor.\""
+                    "text": "Deals Quantum DMG equal to 132% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 4 Punchline and 4 point(s) of \"Fervor.\""
                   },
                   {
                     "label": "Lv. 3",
-                    "text": "Deals Quantum DMG equal to 144% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 2 Punchline and 4 point(s) of \"Fervor.\""
+                    "text": "Deals Quantum DMG equal to 144% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 4 Punchline and 4 point(s) of \"Fervor.\""
                   },
                   {
                     "label": "Lv. 4",
-                    "text": "Deals Quantum DMG equal to 156% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 2 Punchline and 4 point(s) of \"Fervor.\""
+                    "text": "Deals Quantum DMG equal to 156% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 4 Punchline and 4 point(s) of \"Fervor.\""
                   },
                   {
                     "label": "Lv. 5",
-                    "text": "Deals Quantum DMG equal to 168% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 2 Punchline and 4 point(s) of \"Fervor.\""
+                    "text": "Deals Quantum DMG equal to 168% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 4 Punchline and 4 point(s) of \"Fervor.\""
                   },
                   {
                     "label": "Lv. 6",
-                    "text": "Deals Quantum DMG equal to 180% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 2 Punchline and 4 point(s) of \"Fervor.\""
+                    "text": "Deals Quantum DMG equal to 180% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 4 Punchline and 4 point(s) of \"Fervor.\""
                   },
                   {
                     "label": "Lv. 7",
-                    "text": "Deals Quantum DMG equal to 195% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 2 Punchline and 4 point(s) of \"Fervor.\""
+                    "text": "Deals Quantum DMG equal to 195% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 4 Punchline and 4 point(s) of \"Fervor.\""
                   },
                   {
                     "label": "Lv. 8",
-                    "text": "Deals Quantum DMG equal to 210% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 2 Punchline and 4 point(s) of \"Fervor.\""
+                    "text": "Deals Quantum DMG equal to 210% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 4 Punchline and 4 point(s) of \"Fervor.\""
                   },
                   {
                     "label": "Lv. 9",
-                    "text": "Deals Quantum DMG equal to 225% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 2 Punchline and 4 point(s) of \"Fervor.\""
+                    "text": "Deals Quantum DMG equal to 225% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 4 Punchline and 4 point(s) of \"Fervor.\""
                   },
                   {
                     "label": "Lv. 10",
-                    "text": "Deals Quantum DMG equal to 240% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 2 Punchline and 4 point(s) of \"Fervor.\""
+                    "text": "Deals Quantum DMG equal to 240% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 4 Punchline and 4 point(s) of \"Fervor.\""
                   },
                   {
                     "label": "Lv. 11",
-                    "text": "Deals Quantum DMG equal to 252% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 2 Punchline and 4 point(s) of \"Fervor.\""
+                    "text": "Deals Quantum DMG equal to 252% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 4 Punchline and 4 point(s) of \"Fervor.\""
                   },
                   {
                     "label": "Lv. 12",
-                    "text": "Deals Quantum DMG equal to 264% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 2 Punchline and 4 point(s) of \"Fervor.\""
+                    "text": "Deals Quantum DMG equal to 264% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 4 Punchline and 4 point(s) of \"Fervor.\""
                   },
                   {
                     "label": "Lv. 13",
-                    "text": "Deals Quantum DMG equal to 276% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 2 Punchline and 4 point(s) of \"Fervor.\""
+                    "text": "Deals Quantum DMG equal to 276% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 4 Punchline and 4 point(s) of \"Fervor.\""
                   },
                   {
                     "label": "Lv. 14",
-                    "text": "Deals Quantum DMG equal to 288% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 2 Punchline and 4 point(s) of \"Fervor.\""
+                    "text": "Deals Quantum DMG equal to 288% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 4 Punchline and 4 point(s) of \"Fervor.\""
                   },
                   {
                     "label": "Lv. 15",
-                    "text": "Deals Quantum DMG equal to 300% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 2 Punchline and 4 point(s) of \"Fervor.\""
+                    "text": "Deals Quantum DMG equal to 300% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 4 Punchline and 4 point(s) of \"Fervor.\""
                   }
                 ]
               },
               {
                 "name": "Grand Slam, Crest That High Tide",
                 "type": "Ultimate",
-                "desc": "Deals Quantum DMG equal to 480% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 5 Punchline and 8 point(s) of \"Fervor.\" Increases this unit's SPD by 39% for 4 turn(s).",
+                "desc": "Deals Quantum DMG equal to 480% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 6 Punchline and 8 point(s) of \"Fervor.\" Increases this unit's SPD by 39% for 4 turn(s).",
                 "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1513_Ultra.webp",
                 "levels": [
                   {
                     "label": "Lv. 1",
-                    "text": "Deals Quantum DMG equal to 240% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 5 Punchline and 8 point(s) of \"Fervor.\" Increases this unit's SPD by 12% for 4 turn(s)."
+                    "text": "Deals Quantum DMG equal to 240% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 6 Punchline and 8 point(s) of \"Fervor.\" Increases this unit's SPD by 12% for 4 turn(s)."
                   },
                   {
                     "label": "Lv. 2",
-                    "text": "Deals Quantum DMG equal to 256% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 5 Punchline and 8 point(s) of \"Fervor.\" Increases this unit's SPD by 13.8% for 4 turn(s)."
+                    "text": "Deals Quantum DMG equal to 256% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 6 Punchline and 8 point(s) of \"Fervor.\" Increases this unit's SPD by 13.8% for 4 turn(s)."
                   },
                   {
                     "label": "Lv. 3",
-                    "text": "Deals Quantum DMG equal to 272% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 5 Punchline and 8 point(s) of \"Fervor.\" Increases this unit's SPD by 15.6% for 4 turn(s)."
+                    "text": "Deals Quantum DMG equal to 272% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 6 Punchline and 8 point(s) of \"Fervor.\" Increases this unit's SPD by 15.6% for 4 turn(s)."
                   },
                   {
                     "label": "Lv. 4",
-                    "text": "Deals Quantum DMG equal to 288% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 5 Punchline and 8 point(s) of \"Fervor.\" Increases this unit's SPD by 17.4% for 4 turn(s)."
+                    "text": "Deals Quantum DMG equal to 288% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 6 Punchline and 8 point(s) of \"Fervor.\" Increases this unit's SPD by 17.4% for 4 turn(s)."
                   },
                   {
                     "label": "Lv. 5",
-                    "text": "Deals Quantum DMG equal to 304% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 5 Punchline and 8 point(s) of \"Fervor.\" Increases this unit's SPD by 19.2% for 4 turn(s)."
+                    "text": "Deals Quantum DMG equal to 304% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 6 Punchline and 8 point(s) of \"Fervor.\" Increases this unit's SPD by 19.2% for 4 turn(s)."
                   },
                   {
                     "label": "Lv. 6",
-                    "text": "Deals Quantum DMG equal to 320% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 5 Punchline and 8 point(s) of \"Fervor.\" Increases this unit's SPD by 21% for 4 turn(s)."
+                    "text": "Deals Quantum DMG equal to 320% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 6 Punchline and 8 point(s) of \"Fervor.\" Increases this unit's SPD by 21% for 4 turn(s)."
                   },
                   {
                     "label": "Lv. 7",
-                    "text": "Deals Quantum DMG equal to 340% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 5 Punchline and 8 point(s) of \"Fervor.\" Increases this unit's SPD by 23.3% for 4 turn(s)."
+                    "text": "Deals Quantum DMG equal to 340% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 6 Punchline and 8 point(s) of \"Fervor.\" Increases this unit's SPD by 23.3% for 4 turn(s)."
                   },
                   {
                     "label": "Lv. 8",
-                    "text": "Deals Quantum DMG equal to 360% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 5 Punchline and 8 point(s) of \"Fervor.\" Increases this unit's SPD by 25.5% for 4 turn(s)."
+                    "text": "Deals Quantum DMG equal to 360% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 6 Punchline and 8 point(s) of \"Fervor.\" Increases this unit's SPD by 25.5% for 4 turn(s)."
                   },
                   {
                     "label": "Lv. 9",
-                    "text": "Deals Quantum DMG equal to 380% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 5 Punchline and 8 point(s) of \"Fervor.\" Increases this unit's SPD by 27.8% for 4 turn(s)."
+                    "text": "Deals Quantum DMG equal to 380% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 6 Punchline and 8 point(s) of \"Fervor.\" Increases this unit's SPD by 27.8% for 4 turn(s)."
                   },
                   {
                     "label": "Lv. 10",
-                    "text": "Deals Quantum DMG equal to 400% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 5 Punchline and 8 point(s) of \"Fervor.\" Increases this unit's SPD by 30% for 4 turn(s)."
+                    "text": "Deals Quantum DMG equal to 400% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 6 Punchline and 8 point(s) of \"Fervor.\" Increases this unit's SPD by 30% for 4 turn(s)."
                   },
                   {
                     "label": "Lv. 11",
-                    "text": "Deals Quantum DMG equal to 416% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 5 Punchline and 8 point(s) of \"Fervor.\" Increases this unit's SPD by 31.8% for 4 turn(s)."
+                    "text": "Deals Quantum DMG equal to 416% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 6 Punchline and 8 point(s) of \"Fervor.\" Increases this unit's SPD by 31.8% for 4 turn(s)."
                   },
                   {
                     "label": "Lv. 12",
-                    "text": "Deals Quantum DMG equal to 432% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 5 Punchline and 8 point(s) of \"Fervor.\" Increases this unit's SPD by 33.6% for 4 turn(s)."
+                    "text": "Deals Quantum DMG equal to 432% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 6 Punchline and 8 point(s) of \"Fervor.\" Increases this unit's SPD by 33.6% for 4 turn(s)."
                   },
                   {
                     "label": "Lv. 13",
-                    "text": "Deals Quantum DMG equal to 448% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 5 Punchline and 8 point(s) of \"Fervor.\" Increases this unit's SPD by 35.4% for 4 turn(s)."
+                    "text": "Deals Quantum DMG equal to 448% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 6 Punchline and 8 point(s) of \"Fervor.\" Increases this unit's SPD by 35.4% for 4 turn(s)."
                   },
                   {
                     "label": "Lv. 14",
-                    "text": "Deals Quantum DMG equal to 464% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 5 Punchline and 8 point(s) of \"Fervor.\" Increases this unit's SPD by 37.2% for 4 turn(s)."
+                    "text": "Deals Quantum DMG equal to 464% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 6 Punchline and 8 point(s) of \"Fervor.\" Increases this unit's SPD by 37.2% for 4 turn(s)."
                   },
                   {
                     "label": "Lv. 15",
-                    "text": "Deals Quantum DMG equal to 480% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 5 Punchline and 8 point(s) of \"Fervor.\" Increases this unit's SPD by 39% for 4 turn(s)."
+                    "text": "Deals Quantum DMG equal to 480% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 6 Punchline and 8 point(s) of \"Fervor.\" Increases this unit's SPD by 39% for 4 turn(s)."
                   }
                 ]
               },
@@ -3702,19 +3702,19 @@
               {
                 "name": "Party of Euphoria",
                 "type": "Major Trace",
-                "desc": "When SPD is 160 or higher, increases this unit's Elation by 30%. For every 1 SPD exceeded, additionally increases this unit's Elation by 1%. Up to a max of 200 excess SPD can be taken into account for this effect.",
+                "desc": "When SPD is 140 or higher, increases this unit's Elation by 30%. For every 1 SPD exceeded, additionally increases this unit's Elation by 1%. Up to a max of 200 excess SPD can be taken into account for this effect.",
                 "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1513_SkillTree1.webp"
               },
               {
                 "name": "Revel in Surging Waves",
                 "type": "Major Trace",
-                "desc": "At the start of the battle, if there are other Elation characters in the team besides Aventurine \u2022 Waveflair, Aventurine \u2022 Waveflair's Elation increases by 100%.\\nAt the start of the battle, if Aventurine \u2022 Waveflair is the only Elation character in the team, when Aventurine \u2022 Waveflair deals DMG using his Elation Skill, it is considered as launching a Follow-Up ATK. After a teammate uses an attack, Aventurine \u2022 Waveflair gains 2 point(s) of \"Certified Banger\" and 1 Punchline(s), and increases Aha's SPD by 25. The SPD Boost effect lasts until the end of Aha Instant.",
+                "desc": "At the start of the battle, if there are other Elation characters in the team besides Aventurine \u2022 Waveflair, Aventurine \u2022 Waveflair's Elation increases by 80%.\\nAt the start of the battle, if Aventurine \u2022 Waveflair is the only Elation character in the team, when Aventurine \u2022 Waveflair deals DMG using his Elation Skill, it is considered as launching a Follow-Up ATK. After a teammate uses an attack, Aventurine \u2022 Waveflair gains 2 point(s) of \"Certified Banger\" and 1 Punchline(s), and increases Aha's SPD by 25. The SPD Boost effect lasts until the end of Aha Instant.",
                 "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1513_SkillTree2.webp"
               },
               {
                 "name": "Old Dream's Gold Rush",
                 "type": "Major Trace",
-                "desc": "Increases CRIT DMG by 48%. After a teammate uses a Basic ATK, Skill, Follow-Up ATK, or Ultimate, Aventurine \u2022 Waveflair's CRIT DMG increases by 48%, lasting for 3 turn(s), and he additionally gains 1 point(s) of \"Fervor.\" This effect can be triggered up to 6 time(s), and the trigger count resets when Aventurine \u2022 Waveflair uses his Skill.",
+                "desc": "Increases CRIT DMG by 48%. After a teammate uses a Basic ATK, Skill, Follow-Up ATK, or Ultimate, all allies' CRIT DMG increases by 48%, lasting for 3 turn(s), and Aventurine \u2022 Waveflair additionally gains 1 point(s) of \"Fervor.\" This effect can be triggered up to 6 time(s), and the trigger count resets when Aventurine \u2022 Waveflair uses his Skill.",
                 "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1513_SkillTree3.webp"
               }
             ]
@@ -4795,7 +4795,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.4.53",
+        "version": "4.4.54",
         "sections": [
           {
             "title": "Skills",
@@ -4919,75 +4919,75 @@
               {
                 "name": "Leap into the Ocean Blue Rhapsody",
                 "type": "Ultimate",
-                "desc": "Advances the action of one designated ally unit (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 24% of their Max Energy. Then, this character gains the \"Special Guest\" effect. When the character with \"Special Guest\" attacks, Robin additionally gains 2 point(s) of Vibes. This character and her summons cannot advance the actions of other friendly targets. This effect lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn.",
+                "desc": "Advances the action of one designated ally unit (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 24% of their Max Energy, and then, grants them the \"Special Guest\" effect. When the character with \"Special Guest\" and their summon attacks, they additionally grant Robin 2 point(s) of Vibes and cannot advance the actions of other friendly targets. This effect lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn.",
                 "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_Ultra.webp",
                 "levels": [
                   {
                     "label": "Lv. 1",
-                    "text": "Advances the action of one designated ally unit (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 12% of their Max Energy. Then, this character gains the \"Special Guest\" effect. When the character with \"Special Guest\" attacks, Robin additionally gains 2 point(s) of Vibes. This character and her summons cannot advance the actions of other friendly targets. This effect lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
+                    "text": "Advances the action of one designated ally unit (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 12% of their Max Energy, and then, grants them the \"Special Guest\" effect. When the character with \"Special Guest\" and their summon attacks, they additionally grant Robin 2 point(s) of Vibes and cannot advance the actions of other friendly targets. This effect lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
                   },
                   {
                     "label": "Lv. 2",
-                    "text": "Advances the action of one designated ally unit (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 12.8% of their Max Energy. Then, this character gains the \"Special Guest\" effect. When the character with \"Special Guest\" attacks, Robin additionally gains 2 point(s) of Vibes. This character and her summons cannot advance the actions of other friendly targets. This effect lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
+                    "text": "Advances the action of one designated ally unit (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 12.8% of their Max Energy, and then, grants them the \"Special Guest\" effect. When the character with \"Special Guest\" and their summon attacks, they additionally grant Robin 2 point(s) of Vibes and cannot advance the actions of other friendly targets. This effect lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
                   },
                   {
                     "label": "Lv. 3",
-                    "text": "Advances the action of one designated ally unit (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 13.6% of their Max Energy. Then, this character gains the \"Special Guest\" effect. When the character with \"Special Guest\" attacks, Robin additionally gains 2 point(s) of Vibes. This character and her summons cannot advance the actions of other friendly targets. This effect lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
+                    "text": "Advances the action of one designated ally unit (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 13.6% of their Max Energy, and then, grants them the \"Special Guest\" effect. When the character with \"Special Guest\" and their summon attacks, they additionally grant Robin 2 point(s) of Vibes and cannot advance the actions of other friendly targets. This effect lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
                   },
                   {
                     "label": "Lv. 4",
-                    "text": "Advances the action of one designated ally unit (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 14.4% of their Max Energy. Then, this character gains the \"Special Guest\" effect. When the character with \"Special Guest\" attacks, Robin additionally gains 2 point(s) of Vibes. This character and her summons cannot advance the actions of other friendly targets. This effect lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
+                    "text": "Advances the action of one designated ally unit (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 14.4% of their Max Energy, and then, grants them the \"Special Guest\" effect. When the character with \"Special Guest\" and their summon attacks, they additionally grant Robin 2 point(s) of Vibes and cannot advance the actions of other friendly targets. This effect lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
                   },
                   {
                     "label": "Lv. 5",
-                    "text": "Advances the action of one designated ally unit (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 15.2% of their Max Energy. Then, this character gains the \"Special Guest\" effect. When the character with \"Special Guest\" attacks, Robin additionally gains 2 point(s) of Vibes. This character and her summons cannot advance the actions of other friendly targets. This effect lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
+                    "text": "Advances the action of one designated ally unit (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 15.2% of their Max Energy, and then, grants them the \"Special Guest\" effect. When the character with \"Special Guest\" and their summon attacks, they additionally grant Robin 2 point(s) of Vibes and cannot advance the actions of other friendly targets. This effect lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
                   },
                   {
                     "label": "Lv. 6",
-                    "text": "Advances the action of one designated ally unit (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 16% of their Max Energy. Then, this character gains the \"Special Guest\" effect. When the character with \"Special Guest\" attacks, Robin additionally gains 2 point(s) of Vibes. This character and her summons cannot advance the actions of other friendly targets. This effect lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
+                    "text": "Advances the action of one designated ally unit (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 16% of their Max Energy, and then, grants them the \"Special Guest\" effect. When the character with \"Special Guest\" and their summon attacks, they additionally grant Robin 2 point(s) of Vibes and cannot advance the actions of other friendly targets. This effect lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
                   },
                   {
                     "label": "Lv. 7",
-                    "text": "Advances the action of one designated ally unit (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 17% of their Max Energy. Then, this character gains the \"Special Guest\" effect. When the character with \"Special Guest\" attacks, Robin additionally gains 2 point(s) of Vibes. This character and her summons cannot advance the actions of other friendly targets. This effect lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
+                    "text": "Advances the action of one designated ally unit (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 17% of their Max Energy, and then, grants them the \"Special Guest\" effect. When the character with \"Special Guest\" and their summon attacks, they additionally grant Robin 2 point(s) of Vibes and cannot advance the actions of other friendly targets. This effect lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
                   },
                   {
                     "label": "Lv. 8",
-                    "text": "Advances the action of one designated ally unit (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 18% of their Max Energy. Then, this character gains the \"Special Guest\" effect. When the character with \"Special Guest\" attacks, Robin additionally gains 2 point(s) of Vibes. This character and her summons cannot advance the actions of other friendly targets. This effect lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
+                    "text": "Advances the action of one designated ally unit (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 18% of their Max Energy, and then, grants them the \"Special Guest\" effect. When the character with \"Special Guest\" and their summon attacks, they additionally grant Robin 2 point(s) of Vibes and cannot advance the actions of other friendly targets. This effect lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
                   },
                   {
                     "label": "Lv. 9",
-                    "text": "Advances the action of one designated ally unit (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 19% of their Max Energy. Then, this character gains the \"Special Guest\" effect. When the character with \"Special Guest\" attacks, Robin additionally gains 2 point(s) of Vibes. This character and her summons cannot advance the actions of other friendly targets. This effect lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
+                    "text": "Advances the action of one designated ally unit (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 19% of their Max Energy, and then, grants them the \"Special Guest\" effect. When the character with \"Special Guest\" and their summon attacks, they additionally grant Robin 2 point(s) of Vibes and cannot advance the actions of other friendly targets. This effect lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
                   },
                   {
                     "label": "Lv. 10",
-                    "text": "Advances the action of one designated ally unit (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 20% of their Max Energy. Then, this character gains the \"Special Guest\" effect. When the character with \"Special Guest\" attacks, Robin additionally gains 2 point(s) of Vibes. This character and her summons cannot advance the actions of other friendly targets. This effect lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
+                    "text": "Advances the action of one designated ally unit (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 20% of their Max Energy, and then, grants them the \"Special Guest\" effect. When the character with \"Special Guest\" and their summon attacks, they additionally grant Robin 2 point(s) of Vibes and cannot advance the actions of other friendly targets. This effect lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
                   },
                   {
                     "label": "Lv. 11",
-                    "text": "Advances the action of one designated ally unit (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 20.8% of their Max Energy. Then, this character gains the \"Special Guest\" effect. When the character with \"Special Guest\" attacks, Robin additionally gains 2 point(s) of Vibes. This character and her summons cannot advance the actions of other friendly targets. This effect lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
+                    "text": "Advances the action of one designated ally unit (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 20.8% of their Max Energy, and then, grants them the \"Special Guest\" effect. When the character with \"Special Guest\" and their summon attacks, they additionally grant Robin 2 point(s) of Vibes and cannot advance the actions of other friendly targets. This effect lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
                   },
                   {
                     "label": "Lv. 12",
-                    "text": "Advances the action of one designated ally unit (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 21.6% of their Max Energy. Then, this character gains the \"Special Guest\" effect. When the character with \"Special Guest\" attacks, Robin additionally gains 2 point(s) of Vibes. This character and her summons cannot advance the actions of other friendly targets. This effect lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
+                    "text": "Advances the action of one designated ally unit (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 21.6% of their Max Energy, and then, grants them the \"Special Guest\" effect. When the character with \"Special Guest\" and their summon attacks, they additionally grant Robin 2 point(s) of Vibes and cannot advance the actions of other friendly targets. This effect lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
                   },
                   {
                     "label": "Lv. 13",
-                    "text": "Advances the action of one designated ally unit (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 22.4% of their Max Energy. Then, this character gains the \"Special Guest\" effect. When the character with \"Special Guest\" attacks, Robin additionally gains 2 point(s) of Vibes. This character and her summons cannot advance the actions of other friendly targets. This effect lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
+                    "text": "Advances the action of one designated ally unit (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 22.4% of their Max Energy, and then, grants them the \"Special Guest\" effect. When the character with \"Special Guest\" and their summon attacks, they additionally grant Robin 2 point(s) of Vibes and cannot advance the actions of other friendly targets. This effect lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
                   },
                   {
                     "label": "Lv. 14",
-                    "text": "Advances the action of one designated ally unit (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 23.2% of their Max Energy. Then, this character gains the \"Special Guest\" effect. When the character with \"Special Guest\" attacks, Robin additionally gains 2 point(s) of Vibes. This character and her summons cannot advance the actions of other friendly targets. This effect lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
+                    "text": "Advances the action of one designated ally unit (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 23.2% of their Max Energy, and then, grants them the \"Special Guest\" effect. When the character with \"Special Guest\" and their summon attacks, they additionally grant Robin 2 point(s) of Vibes and cannot advance the actions of other friendly targets. This effect lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
                   },
                   {
                     "label": "Lv. 15",
-                    "text": "Advances the action of one designated ally unit (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 24% of their Max Energy. Then, this character gains the \"Special Guest\" effect. When the character with \"Special Guest\" attacks, Robin additionally gains 2 point(s) of Vibes. This character and her summons cannot advance the actions of other friendly targets. This effect lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
+                    "text": "Advances the action of one designated ally unit (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 24% of their Max Energy, and then, grants them the \"Special Guest\" effect. When the character with \"Special Guest\" and their summon attacks, they additionally grant Robin 2 point(s) of Vibes and cannot advance the actions of other friendly targets. This effect lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
                   }
                 ]
               },
               {
                 "name": "We Form A Melody",
                 "type": "Technique",
-                "desc": "After using Technique, at the start of the next combat, immediately gains 6 Vibes, and grants all allies a 30% DMG Boost for 2 turn(s).",
+                "desc": "After using Technique, at the start of the next combat, action advances by 20%, immediately gains 6 Vibes, and grants all allies a 30% DMG Boost for 2 turn(s).",
                 "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_Maze.webp"
               },
               {
@@ -5071,7 +5071,7 @@
               {
                 "name": "Deviated Chord",
                 "type": "Major Trace",
-                "desc": "When an ally target causes Robin \u2022 Summeretto to gain Vibes, if their ATK is higher than Robin \u2022 Summeretto's, increases that target's ATK by an amount equal to (16% + Vibes \u00d7 0.4%) of Robin \u2022 Summeretto's Max HP. Otherwise, increases that target's CRIT DMG by 40% + Vibes \u00d7 1%. Lasts for 2 turn(s).",
+                "desc": "When an ally target causes Robin \u2022 Summeretto to gain Vibes, if their ATK is higher than Robin \u2022 Summeretto's, increases that target's ATK by an amount equal to (16% + Vibes \u00d7 0.4%) of Robin \u2022 Summeretto's Max HP. Otherwise, increases that target's CRIT DMG by 40% + Vibes \u00d7 1.5%. Lasts for 2 turn(s).",
                 "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_SkillTree1.webp"
               },
               {
@@ -5094,13 +5094,13 @@
               {
                 "name": "Stray Birds of Summer",
                 "type": "Eidolon 1",
-                "desc": "Robin \u2022 Summeretto's Max Vibes increases by 20. The first time an ally target uses an ability that causes Robin \u2022 Summeretto to gain Vibes within any target's turn, she gains an additional 2 points.",
+                "desc": "\"Summer Songbirds\" records 100% of the non-True DMG dealt by ally targets. When using the Memosprite Skill, it additionally deals True DMG equal to 11% of the total recorded DMG plus current Vibes points \u00d7 0.1% to the enemy target with the highest HP, then clears 50% of the recorded value.",
                 "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_Rank1.webp"
               },
               {
                 "name": "Heart Like Still Waters",
                 "type": "Eidolon 2",
-                "desc": "\"Summer Songbirds\" records 100% of the non-True DMG dealt by ally targets. When using the Memosprite Skill, it additionally deals True DMG equal to 11% of the total recorded DMG plus current Vibes points \u00d7 0.1% to the enemy target with the highest HP, then clears 50% of the recorded value.",
+                "desc": "Increases All-Type RES PEN of ally targets by 20%. Robin \u2022 Summeretto's Max Vibes increases by 20. The first time an ally target uses an ability that causes Robin \u2022 Summeretto to gain Vibes within any target's turn, she gains an additional 2 points.",
                 "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_Rank2.webp"
               },
               {
@@ -5124,7 +5124,7 @@
               {
                 "name": "To Sing an Aria Untitled",
                 "type": "Eidolon 6",
-                "desc": "Increases the All-Type RES PEN of ally targets by 20%. Robin \u2022 Summeretto's Ultimate can be stored up to 2 times. When entering the \"Fever\" state for the first time or at the start of a \"Fever\" countdown turn in this battle, immediately regenerates 140 Energy.",
+                "desc": "Increases the All-Type RES PEN of ally targets by 100%. Robin \u2022 Summeretto's Ultimate can be stored up to 2 times. When entering the \"Fever\" state for the first time or at the start of a \"Fever\" countdown turn in this battle, immediately regenerates 140 Energy.",
                 "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_Rank6.webp"
               }
             ]
@@ -6172,7 +6172,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.4.53",
+        "version": "4.4.54",
         "sections": [
           {
             "title": "Skills",
@@ -7621,7 +7621,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.4.53",
+        "version": "4.4.54",
         "sections": [
           {
             "title": "Skills",
@@ -9065,7 +9065,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.4.53",
+        "version": "4.4.54",
         "sections": [
           {
             "title": "Skills",
@@ -10445,7 +10445,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.4.53",
+        "version": "4.4.54",
         "sections": [
           {
             "title": "Skills",
@@ -11824,7 +11824,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.4.53",
+        "version": "4.4.54",
         "sections": [
           {
             "title": "Skills",
@@ -13204,7 +13204,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.4.53",
+        "version": "4.4.54",
         "sections": [
           {
             "title": "Skills",
@@ -14645,7 +14645,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.4.53",
+        "version": "4.4.54",
         "sections": [
           {
             "title": "Skills",
@@ -16021,7 +16021,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.4.53",
+        "version": "4.4.54",
         "sections": [
           {
             "title": "Skills",
@@ -17403,7 +17403,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.4.53",
+        "version": "4.4.54",
         "sections": [
           {
             "title": "Skills",
@@ -18790,7 +18790,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.4.53",
+        "version": "4.4.54",
         "sections": [
           {
             "title": "Skills",
@@ -20411,7 +20411,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.4.53",
+        "version": "4.4.54",
         "sections": [
           {
             "title": "Skills",
@@ -21930,7 +21930,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.4.53",
+        "version": "4.4.54",
         "sections": [
           {
             "title": "Skills",
@@ -23433,7 +23433,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.4.53",
+        "version": "4.4.54",
         "sections": [
           {
             "title": "Skills",
@@ -24818,7 +24818,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.4.53",
+        "version": "4.4.54",
         "sections": [
           {
             "title": "Skills",
@@ -26184,7 +26184,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.4.53",
+        "version": "4.4.54",
         "sections": [
           {
             "title": "Skills",

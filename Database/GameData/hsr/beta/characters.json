@@ -295208,7 +295208,7 @@
     "rarityRaw": "CombatPowerAvatarRarityType5",
     "path": "Warrior",
     "element": "Physical",
-    "description": "Aedes Elysiae, a remote frontier village isolated from the world, now lives on only in cryptic legends.\\nThe Nameless hero, ████████, the Chrysos Heir holding the Coreflame of \"Worldbearing,\" memorizes the ideals of the entire world, carries the fate of millions, and brings the first light of dawn to the new world\\n—<i>\"But if dawn should never come, let this fury consume this body, and rise as tomorrow's blazing sun!\"</i>",
+    "description": "Aedes Elysiae, a remote frontier village isolated from the world, now lives on only in cryptic legends.\\nThe nameless hero, ████████, the Chrysos Heir holding the Coreflame of \"Worldbearing,\" memorizes the ideals of the entire world, carries the fate of millions, and brings the first light of dawn to the new world\\n—<i>\"But if dawn should never come, let this fury consume this body, and rise as tomorrow's blazing sun!\"</i>",
     "release": 1751446800,
     "assets": {
       "avatar": "GameData/hsr/assets/characters/avatar/1408.webp",
@@ -299918,7 +299918,7 @@
     },
     "liveComparison": {
       "liveHash": "5de6026fcef9b89791315bd578946fcddfbc8f70cf16489f22c36c78bbca609e",
-      "currentHash": "a433730df3bf7e5340dea331e949234d72eb30d4cd5c824d05d4dd4b6daf2362"
+      "currentHash": "0b328ba404f76c220979cd58dabb4443f262689827081be34ce8a74e8e850ffc"
     }
   },
   {
@@ -372667,8 +372667,8 @@
         "key": "151203",
         "id": "151203",
         "name": "Leap into the Ocean Blue Rhapsody",
-        "description": "<u>Advances the action</u> of one designated ally unit (excluding Robin • Summeretto) by <unbreak>#1[i]%</unbreak> and regenerates a fixed amount of Energy equal to <color=#f29e38ff><unbreak>#3[f1]%</unbreak></color> of their Max Energy. Then, this character gains the \"Special Guest\" effect. When the character with \"Special Guest\" attacks, Robin additionally gains <unbreak>#2[i]</unbreak> point(s) of Vibes. This character and her summons cannot <u>advance the actions</u> of other friendly targets. This effect lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn.",
-        "simpleDescription": "<u>Advances the action</u> of one designated ally character and regenerates Energy, then this character gains the \"Special Guest\" effect. When attacking, additionally grants Robin 1 point of Vibes. The character and her summons will not be able to grant other friendly targets the <u>action advance</u> effect.",
+        "description": "<u>Advances the action</u> of one designated ally unit (excluding Robin • Summeretto) by <unbreak>#1[i]%</unbreak> and regenerates a fixed amount of Energy equal to <color=#f29e38ff><unbreak>#3[f1]%</unbreak></color> of their Max Energy, and then, grants them the \"Special Guest\" effect. When the character with \"Special Guest\" and their summon attacks, they additionally grant Robin <unbreak>#2[i]</unbreak> point(s) of Vibes and cannot <u>advance the actions</u> of other friendly targets. This effect lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn.",
+        "simpleDescription": "<u>Advances the action</u> of one designated ally character and regenerates Energy, then granting them the \"Special Guest\" effect. When the character and their summon attacks, they additionally grant Robin Vibes points, and are unable to grant other friendly targets the <u>action advance</u> effect.",
         "type": "Ultra",
         "typeName": "Ultimate",
         "tag": "Enhance",
@@ -373067,8 +373067,8 @@
         "key": "151207",
         "id": "151207",
         "name": "We Form A Melody",
-        "description": "After using Technique, at the start of the next combat, immediately gains <unbreak>#1[i]</unbreak> Vibes, and grants all allies a <unbreak>#2[i]%</unbreak> DMG Boost for 2 turn(s).",
-        "simpleDescription": "Upon entering battle, immediately gains Vibes and increases DMG dealt by all allies.",
+        "description": "After using Technique, at the start of the next combat, action advances by <unbreak>#3[i]%</unbreak>, immediately gains <unbreak>#1[i]</unbreak> Vibes, and grants all allies a <unbreak>#2[i]%</unbreak> DMG Boost for 2 turn(s).",
+        "simpleDescription": "Upon entering battle, action advances, immediately gains Vibes, and increases DMG dealt by all allies.",
         "type": "Maze",
         "typeName": "Technique",
         "tag": "Enhance",
@@ -373078,7 +373078,8 @@
             "level": 1,
             "params": [
               6,
-              0.3
+              0.3,
+              0.2
             ]
           }
         ]
@@ -373089,10 +373090,12 @@
         "key": "1",
         "id": "151201",
         "name": "Stray Birds of Summer",
-        "description": "Robin • Summeretto's Max Vibes increases by <unbreak>#1[i]</unbreak>. The first time an ally target uses an ability that causes Robin • Summeretto to gain Vibes within any target's turn, she gains an additional <unbreak>#2[i]</unbreak> points.",
+        "description": "\"Summer Songbirds\" records <unbreak>#3[i]%</unbreak> of the non-<u>True DMG</u> dealt by ally targets. When using the Memosprite Skill, it additionally deals <u>True DMG</u> equal to <unbreak>#1[i]%</unbreak> of the total recorded DMG plus current Vibes points × <unbreak>#2[f1]%</unbreak> to the enemy target with the highest HP, then clears <unbreak>#4[i]%</unbreak> of the recorded value.",
         "params": [
-          20,
-          2
+          0.11,
+          0.001,
+          1,
+          0.5
         ],
         "assets": {
           "icon": "GameData/hsr/assets/skills/SkillIcon_1512_Rank1.webp"
@@ -373102,12 +373105,11 @@
         "key": "2",
         "id": "151202",
         "name": "Heart Like Still Waters",
-        "description": "\"Summer Songbirds\" records <unbreak>#3[i]%</unbreak> of the non-<u>True DMG</u> dealt by ally targets. When using the Memosprite Skill, it additionally deals <u>True DMG</u> equal to <unbreak>#1[i]%</unbreak> of the total recorded DMG plus current Vibes points × <unbreak>#2[f1]%</unbreak> to the enemy target with the highest HP, then clears <unbreak>#4[i]%</unbreak> of the recorded value.",
+        "description": "Increases All-Type <u>RES PEN</u> of ally targets by <unbreak>#3[i]%</unbreak>. Robin • Summeretto's Max Vibes increases by <unbreak>#1[i]</unbreak>. The first time an ally target uses an ability that causes Robin • Summeretto to gain Vibes within any target's turn, she gains an additional <unbreak>#2[i]</unbreak> points.",
         "params": [
-          0.11,
-          0.001,
-          1,
-          0.5
+          20,
+          2,
+          0.2
         ],
         "assets": {
           "icon": "GameData/hsr/assets/skills/SkillIcon_1512_Rank2.webp"
@@ -373153,10 +373155,9 @@
         "name": "To Sing an Aria Untitled",
         "description": "Increases the All-Type <u>RES PEN</u> of ally targets by <unbreak>#1[i]%</unbreak>. Robin • Summeretto's Ultimate can be stored up to 2 times. When entering the \"Fever\" state for the first time or at the start of a \"Fever\" countdown turn in this battle, immediately regenerates <unbreak>#2[i]</unbreak> Energy.",
         "params": [
-          0.2,
+          1,
           140,
-          0,
-          2
+          0
         ],
         "assets": {
           "icon": "GameData/hsr/assets/skills/SkillIcon_1512_Rank6.webp"
@@ -375200,7 +375201,7 @@
               0.16,
               0.004,
               0.4,
-              0.01,
+              0.015,
               2
             ],
             "statusAdds": [],
@@ -377055,8 +377056,8 @@
           317
         ],
         "property_list3": [
-          "CriticalDamageBase",
-          "HPAddedRatio"
+          "HPAddedRatio",
+          "CriticalDamageBase"
         ],
         "property_list4": [
           "SpeedDelta",
@@ -377073,7 +377074,7 @@
         "property_list": [
           {
             "relic_type": "BODY",
-            "property_type": "CriticalDamageBase"
+            "property_type": "HPAddedRatio"
           },
           {
             "relic_type": "FOOT",
@@ -377657,7 +377658,7 @@
       "spNeed": 140
     },
     "liveComparison": {
-      "currentHash": "ef110122651ee25feee2b478663e9397e5e20b5b17461b53bfb12b091c4a4271"
+      "currentHash": "6f8d20a7b28e7b9e3f06ff68a102f9bd6c335ff00259c5369f00d149730520c2"
     }
   },
   {
@@ -377771,7 +377772,7 @@
             "level": 1,
             "params": [
               1.2,
-              2,
+              4,
               4
             ]
           },
@@ -377779,7 +377780,7 @@
             "level": 2,
             "params": [
               1.32,
-              2,
+              4,
               4
             ]
           },
@@ -377787,7 +377788,7 @@
             "level": 3,
             "params": [
               1.44,
-              2,
+              4,
               4
             ]
           },
@@ -377795,7 +377796,7 @@
             "level": 4,
             "params": [
               1.56,
-              2,
+              4,
               4
             ]
           },
@@ -377803,7 +377804,7 @@
             "level": 5,
             "params": [
               1.68,
-              2,
+              4,
               4
             ]
           },
@@ -377811,7 +377812,7 @@
             "level": 6,
             "params": [
               1.8,
-              2,
+              4,
               4
             ]
           },
@@ -377819,7 +377820,7 @@
             "level": 7,
             "params": [
               1.95,
-              2,
+              4,
               4
             ]
           },
@@ -377827,7 +377828,7 @@
             "level": 8,
             "params": [
               2.1,
-              2,
+              4,
               4
             ]
           },
@@ -377835,7 +377836,7 @@
             "level": 9,
             "params": [
               2.25,
-              2,
+              4,
               4
             ]
           },
@@ -377843,7 +377844,7 @@
             "level": 10,
             "params": [
               2.4,
-              2,
+              4,
               4
             ]
           },
@@ -377851,7 +377852,7 @@
             "level": 11,
             "params": [
               2.52,
-              2,
+              4,
               4
             ]
           },
@@ -377859,7 +377860,7 @@
             "level": 12,
             "params": [
               2.64,
-              2,
+              4,
               4
             ]
           },
@@ -377867,7 +377868,7 @@
             "level": 13,
             "params": [
               2.76,
-              2,
+              4,
               4
             ]
           },
@@ -377875,7 +377876,7 @@
             "level": 14,
             "params": [
               2.88,
-              2,
+              4,
               4
             ]
           },
@@ -377883,7 +377884,7 @@
             "level": 15,
             "params": [
               3,
-              2,
+              4,
               4
             ]
           }
@@ -377913,7 +377914,7 @@
             "params": [
               2.4,
               8,
-              5,
+              6,
               0.12,
               4
             ]
@@ -377923,7 +377924,7 @@
             "params": [
               2.56,
               8,
-              5,
+              6,
               0.138,
               4
             ]
@@ -377933,7 +377934,7 @@
             "params": [
               2.72,
               8,
-              5,
+              6,
               0.156,
               4
             ]
@@ -377943,7 +377944,7 @@
             "params": [
               2.88,
               8,
-              5,
+              6,
               0.174,
               4
             ]
@@ -377953,7 +377954,7 @@
             "params": [
               3.04,
               8,
-              5,
+              6,
               0.192,
               4
             ]
@@ -377963,7 +377964,7 @@
             "params": [
               3.2,
               8,
-              5,
+              6,
               0.21,
               4
             ]
@@ -377973,7 +377974,7 @@
             "params": [
               3.4,
               8,
-              5,
+              6,
               0.2325,
               4
             ]
@@ -377983,7 +377984,7 @@
             "params": [
               3.6,
               8,
-              5,
+              6,
               0.255,
               4
             ]
@@ -377993,7 +377994,7 @@
             "params": [
               3.8,
               8,
-              5,
+              6,
               0.2775,
               4
             ]
@@ -378003,7 +378004,7 @@
             "params": [
               4,
               8,
-              5,
+              6,
               0.3,
               4
             ]
@@ -378013,7 +378014,7 @@
             "params": [
               4.16,
               8,
-              5,
+              6,
               0.318,
               4
             ]
@@ -378023,7 +378024,7 @@
             "params": [
               4.32,
               8,
-              5,
+              6,
               0.336,
               4
             ]
@@ -378033,7 +378034,7 @@
             "params": [
               4.48,
               8,
-              5,
+              6,
               0.354,
               4
             ]
@@ -378043,7 +378044,7 @@
             "params": [
               4.64,
               8,
-              5,
+              6,
               0.372,
               4
             ]
@@ -378053,7 +378054,7 @@
             "params": [
               4.8,
               8,
-              5,
+              6,
               0.39,
               4
             ]
@@ -378659,7 +378660,8 @@
         "name": "No Deals with the Sun",
         "description": "DMG dealt by Aventurine • Waveflair ignores <unbreak>#1[i]%</unbreak> of the enemy target's DEF.",
         "params": [
-          0.18
+          0.18,
+          3
         ],
         "assets": {
           "icon": "GameData/hsr/assets/skills/SkillIcon_1513_Rank4.webp"
@@ -380723,7 +380725,7 @@
             "prePoint": [],
             "levelUpSkillIds": [],
             "params": [
-              160,
+              140,
               0.3,
               1,
               0.01,
@@ -380791,10 +380793,11 @@
             "prePoint": [],
             "levelUpSkillIds": [],
             "params": [
-              1,
+              0.8,
               2,
               25,
-              1
+              1,
+              0.2
             ],
             "statusAdds": [],
             "requirements": [
@@ -380861,7 +380864,7 @@
             "anchor": "Point08",
             "pointId": "1513103",
             "pointName": "Old Dream's Gold Rush",
-            "pointDescription": "Increases CRIT DMG by <unbreak>#1[i]%</unbreak>. After a teammate uses a Basic ATK, Skill, <u>Follow-Up ATK</u>, or Ultimate, Aventurine • Waveflair's CRIT DMG increases by <unbreak>#2[i]%</unbreak>, lasting for <unbreak>#3[i]</unbreak> turn(s), and he additionally gains <unbreak>#4[i]</unbreak> point(s) of \"Fervor.\" This effect can be triggered up to <unbreak>#5[i]</unbreak> time(s), and the trigger count resets when Aventurine • Waveflair uses his Skill.",
+            "pointDescription": "Increases CRIT DMG by <unbreak>#1[i]%</unbreak>. After a teammate uses a Basic ATK, Skill, <u>Follow-Up ATK</u>, or Ultimate, all allies' CRIT DMG increases by <unbreak>#2[i]%</unbreak>, lasting for <unbreak>#3[i]</unbreak> turn(s), and Aventurine • Waveflair additionally gains <unbreak>#4[i]</unbreak> point(s) of \"Fervor.\" This effect can be triggered up to <unbreak>#5[i]</unbreak> time(s), and the trigger count resets when Aventurine • Waveflair uses his Skill.",
             "pointType": 3,
             "triggerKey": 8,
             "defaultUnlock": false,
@@ -382184,13 +382187,13 @@
           }
         ],
         "stats": {
-          "attack_base": 58.08,
-          "attack_add": 2.904,
-          "defence_base": 102.3,
-          "defence_add": 5.115,
-          "hp_base": 168.96,
-          "hp_add": 8.448,
-          "speed_base": 103,
+          "attack_base": 66,
+          "attack_add": 3.3,
+          "defence_base": 82.5,
+          "defence_add": 4.125,
+          "hp_base": 158.4,
+          "hp_add": 7.92,
+          "speed_base": 107,
           "critical_chance": 0.05,
           "critical_damage": 0.5,
           "base_aggro": 100
@@ -382226,13 +382229,13 @@
           }
         ],
         "stats": {
-          "attack_base": 81.312,
-          "attack_add": 2.904,
-          "defence_base": 143.22,
-          "defence_add": 5.115,
-          "hp_base": 236.544,
-          "hp_add": 8.448,
-          "speed_base": 103,
+          "attack_base": 92.4,
+          "attack_add": 3.3,
+          "defence_base": 115.5,
+          "defence_add": 4.125,
+          "hp_base": 221.76,
+          "hp_add": 7.92,
+          "speed_base": 107,
           "critical_chance": 0.05,
           "critical_damage": 0.5,
           "base_aggro": 100
@@ -382280,13 +382283,13 @@
           }
         ],
         "stats": {
-          "attack_base": 104.544,
-          "attack_add": 2.904,
-          "defence_base": 184.14,
-          "defence_add": 5.115,
-          "hp_base": 304.128,
-          "hp_add": 8.448,
-          "speed_base": 103,
+          "attack_base": 118.8,
+          "attack_add": 3.3,
+          "defence_base": 148.5,
+          "defence_add": 4.125,
+          "hp_base": 285.12,
+          "hp_add": 7.92,
+          "speed_base": 107,
           "critical_chance": 0.05,
           "critical_damage": 0.5,
           "base_aggro": 100
@@ -382334,13 +382337,13 @@
           }
         ],
         "stats": {
-          "attack_base": 127.776,
-          "attack_add": 2.904,
-          "defence_base": 225.06,
-          "defence_add": 5.115,
-          "hp_base": 371.712,
-          "hp_add": 8.448,
-          "speed_base": 103,
+          "attack_base": 145.2,
+          "attack_add": 3.3,
+          "defence_base": 181.5,
+          "defence_add": 4.125,
+          "hp_base": 348.48,
+          "hp_add": 7.92,
+          "speed_base": 107,
           "critical_chance": 0.05,
           "critical_damage": 0.5,
           "base_aggro": 100
@@ -382388,13 +382391,13 @@
           }
         ],
         "stats": {
-          "attack_base": 151.008,
-          "attack_add": 2.904,
-          "defence_base": 265.98,
-          "defence_add": 5.115,
-          "hp_base": 439.296,
-          "hp_add": 8.448,
-          "speed_base": 103,
+          "attack_base": 171.6,
+          "attack_add": 3.3,
+          "defence_base": 214.5,
+          "defence_add": 4.125,
+          "hp_base": 411.84,
+          "hp_add": 7.92,
+          "speed_base": 107,
           "critical_chance": 0.05,
           "critical_damage": 0.5,
           "base_aggro": 100
@@ -382442,13 +382445,13 @@
           }
         ],
         "stats": {
-          "attack_base": 174.24,
-          "attack_add": 2.904,
-          "defence_base": 306.9,
-          "defence_add": 5.115,
-          "hp_base": 506.88,
-          "hp_add": 8.448,
-          "speed_base": 103,
+          "attack_base": 198,
+          "attack_add": 3.3,
+          "defence_base": 247.5,
+          "defence_add": 4.125,
+          "hp_base": 475.2,
+          "hp_add": 7.92,
+          "speed_base": 107,
           "critical_chance": 0.05,
           "critical_damage": 0.5,
           "base_aggro": 100
@@ -382459,13 +382462,13 @@
         "promotion": 6,
         "requirements": [],
         "stats": {
-          "attack_base": 197.472,
-          "attack_add": 2.904,
-          "defence_base": 347.82,
-          "defence_add": 5.115,
-          "hp_base": 574.464,
-          "hp_add": 8.448,
-          "speed_base": 103,
+          "attack_base": 224.4,
+          "attack_add": 3.3,
+          "defence_base": 280.5,
+          "defence_add": 4.125,
+          "hp_base": 538.56,
+          "hp_add": 7.92,
+          "speed_base": 107,
           "critical_chance": 0.05,
           "critical_damage": 0.5,
           "base_aggro": 100
@@ -382493,7 +382496,7 @@
         ],
         "property_list5": [
           "QuantumAddedRatio",
-          "AttackAddedRatio"
+          "HPAddedRatio"
         ],
         "property_list6": [
           "SPRatioBase"
@@ -382667,7 +382670,7 @@
       "spNeed": 130
     },
     "liveComparison": {
-      "currentHash": "88e66a555b767db751b78e604b243c96b5423ae070c451cb0394102f0c5e8260"
+      "currentHash": "9d6ff8e9768656571410ebc5fcab0fe2559c90c52ce5c4bad674610e326d8f1e"
     }
   },
   {

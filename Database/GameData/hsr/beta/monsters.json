@@ -11095,7 +11095,7 @@
   },
   {
     "id": "8013010",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Voidranger: Trampler",
     "rank": "Elite",
     "camp": 6,
@@ -11104,18 +11104,18 @@
       "Wind",
       "Imaginary"
     ],
-    "description": "A product of the Antimatter Legion utilizing the Warforge to recast and fuse remnants of fallen warriors and Leviathans.\\nThough relatively rare, they possess both the intelligence of a warrior and the power and mobility of a Leviathan. Its screech can summon a large number of Voidrangers.",
+    "description": "A product of the Antimatter Legion utilizing the Warforge to recast and fuse remnants of fallen warriors and leviathans.\\nThough relatively rare, they possess both the intelligence of a warrior and the power and mobility of a leviathan. Its screech can summon a large number of Voidrangers.",
     "assets": {
       "icon": "GameData/hsr/assets/monsters/Monster_8013010.webp"
     },
     "liveComparison": {
       "liveHash": "37ee1f0784ad3f80ba54f55647c7df4e836ac41860b5fc5e2508273bd65c4f51",
-      "currentHash": "37ee1f0784ad3f80ba54f55647c7df4e836ac41860b5fc5e2508273bd65c4f51"
+      "currentHash": "3f0b5ead850d3f88818e15357ebb3288abb3ffc4362f923c8365a08a7540e9e5"
     }
   },
   {
     "id": "8013011",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Voidranger: Trampler (Bug)",
     "rank": "Elite",
     "weaknesses": [
@@ -11123,18 +11123,18 @@
       "Wind",
       "Imaginary"
     ],
-    "description": "A false projection produced by compromised codes. The referent entity is a product of the Antimatter Legion utilizing the Warforge to recast and fuse remnants of fallen warriors and Leviathans.\\nThough relatively rare, they possess both the intelligence of a warrior and the power and mobility of a Leviathan. Its screech can summon many Voidrangers.",
+    "description": "A false projection produced by compromised codes. The referent entity is a product of the Antimatter Legion utilizing the Warforge to recast and fuse remnants of fallen warriors and leviathans.\\nThough relatively rare, they possess both the intelligence of a warrior and the power and mobility of a leviathan. Its screech can summon many Voidrangers.",
     "assets": {
       "icon": "GameData/hsr/assets/monsters/Monster_8013010.webp"
     },
     "liveComparison": {
       "liveHash": "5e4fa2da7998106cf57626a0d6121874a3eb022ddec4114b2eb64830d0cc6824",
-      "currentHash": "5e4fa2da7998106cf57626a0d6121874a3eb022ddec4114b2eb64830d0cc6824"
+      "currentHash": "01f3b126fe7b19f9101f7dfeac8a94d6a8aabf5341f5616ddfa2ff7de16c2cb4"
     }
   },
   {
     "id": "8013012",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Voidranger: Trampler",
     "rank": "Elite",
     "weaknesses": [
@@ -11142,18 +11142,18 @@
       "Wind",
       "Imaginary"
     ],
-    "description": "A product of the Antimatter Legion utilizing the Warforge to recast and fuse remnants of fallen warriors and Leviathans.\\nThough relatively rare, they possess both the intelligence of a warrior and the power and mobility of a Leviathan. Its screech can summon a large number of Voidrangers.",
+    "description": "A product of the Antimatter Legion utilizing the Warforge to recast and fuse remnants of fallen warriors and leviathans.\\nThough relatively rare, they possess both the intelligence of a warrior and the power and mobility of a leviathan. Its screech can summon a large number of Voidrangers.",
     "assets": {
       "icon": "GameData/hsr/assets/monsters/Monster_8013010.webp"
     },
     "liveComparison": {
       "liveHash": "c7667183dac2ffe6faa71bff7fe07037ea71f989aad28990b12ebd9c1ab5dbb9",
-      "currentHash": "c7667183dac2ffe6faa71bff7fe07037ea71f989aad28990b12ebd9c1ab5dbb9"
+      "currentHash": "a9a731e10277302350d913d4add25f3b6787d4ee349f3cdef6670394f1d00a6f"
     }
   },
   {
     "id": "8013013",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Voidranger: Trampler",
     "rank": "Elite",
     "weaknesses": [
@@ -11161,13 +11161,13 @@
       "Wind",
       "Imaginary"
     ],
-    "description": "A product of the Antimatter Legion utilizing the Warforge to recast and fuse remnants of fallen warriors and Leviathans.\\nThough relatively rare, they possess both the intelligence of a warrior and the power and mobility of a Leviathan. Its screech can summon a large number of Voidrangers.",
+    "description": "A product of the Antimatter Legion utilizing the Warforge to recast and fuse remnants of fallen warriors and leviathans.\\nThough relatively rare, they possess both the intelligence of a warrior and the power and mobility of a leviathan. Its screech can summon a large number of Voidrangers.",
     "assets": {
       "icon": "GameData/hsr/assets/monsters/Monster_8013010.webp"
     },
     "liveComparison": {
       "liveHash": "14ac68a85ac814ff8a8ab13314538b8a2dd098810e555e5a7e93247366ba6326",
-      "currentHash": "14ac68a85ac814ff8a8ab13314538b8a2dd098810e555e5a7e93247366ba6326"
+      "currentHash": "a94a5e91bb9936990c7abeb74e103dcb7386967759a7a8abf359f11f7d2897f3"
     }
   },
   {

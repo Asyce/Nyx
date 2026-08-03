@@ -78,7 +78,7 @@
     "rarity": "SuperRare",
     "purpose_type": 12,
     "item_name": "Oneiric Shard",
-    "item_bg_desc": "Crystallized lights floating in the sea of stars, pulsing with the residual dream of an ancient Leviathan. Everything of the old world turned in the end into candlelight that illuminates the darkness ahead.",
+    "item_bg_desc": "Crystallized lights floating in the sea of stars, pulsing with the residual dream of an ancient leviathan. Everything of the old world turned in the end into candlelight that illuminates the darkness ahead.",
     "item_icon_path": "SpriteOutput/ItemIcon/3.png",
     "item_figure_icon_path": "SpriteOutput/ItemFigures/3.png",
     "item_currency_icon_path": "SpriteOutput/ItemCurrency/3.png",
@@ -1355,7 +1355,7 @@
     "is_visible": true,
     "item_name": "Safeguard of Amber",
     "item_desc": "An unusual shield embedded with ambers mined from beyond the skies. Used to level up Traces significantly for <color=#f29e38ff>Preservation</color> characters.",
-    "item_bg_desc": "The wielder of this shield is seemingly protected by an invisible shield wall, immune to fiery arrows or mountainous claws.\\nAncient legends entail a war where a tribal hero wielding a bronze shield charged to their death against a Leviathan, together with warriors armed with fiery spears.\\nThis shield is a witness to that war.\\n\\n<i>\"Do not cross the line.\"</i>",
+    "item_bg_desc": "The wielder of this shield is seemingly protected by an invisible shield wall, immune to fiery arrows or mountainous claws.\\nAncient legends entail a war where a tribal hero wielding a bronze shield charged to their death against a leviathan, together with warriors armed with fiery spears.\\nThis shield is a witness to that war.\\n\\n<i>\"Do not cross the line.\"</i>",
     "item_icon_path": "SpriteOutput/ItemIcon/110143.png",
     "item_figure_icon_path": "SpriteOutput/ItemFigures/110143.png",
     "item_currency_icon_path": "SpriteOutput/ItemIcon/110143.png",
@@ -4017,7 +4017,7 @@
     "is_visible": true,
     "item_name": "Destroyer's Final Road",
     "item_desc": "Advanced level-up material for Traces.",
-    "item_bg_desc": "The Leviathan's heart has stopped beating, but its mind lives on despite being trapped in a case. As long as the lid is closed, its mind is simultaneously both alive and dead, driving the engine of destruction.\\n\\n<i>\"Doomsday Beast, a blight made in the Warforge using what's left of a Leviathan and the weeping bones of thousands of the dead. It longs for the destruction of the universe and itself.\"</i>",
+    "item_bg_desc": "The leviathan's heart has stopped beating, but its mind lives on despite being trapped in a case. As long as the lid is closed, its mind is simultaneously both alive and dead, driving the engine of destruction.\\n\\n<i>\"Doomsday Beast, a blight made in the Warforge using what's left of a leviathan and the weeping bones of thousands of the dead. It longs for the destruction of the universe and itself.\"</i>",
     "item_icon_path": "SpriteOutput/ItemIcon/110501.png",
     "item_figure_icon_path": "SpriteOutput/ItemFigures/110501.png",
     "item_currency_icon_path": "SpriteOutput/ItemIcon/110501.png",
@@ -31454,7 +31454,7 @@
     "is_visible": true,
     "item_name": "Mung Bean Soda Sukiyaki",
     "item_desc": "Upon use, immediately causes all allies to lose HP equal to 5% of their Max HP and increases their ATK by <unbreak>40%</unbreak> for the next battle.",
-    "item_bg_desc": "Mingxi developed dozens of \"creative Xianzhou dishes\" for the Upside-Down Restaurant. Not all of them were hits. The most controversial by far was the \"Mung Bean Soda Sukiyaki.\" That said, it wasn't exactly a commercial failure. Nobody actually liked the dish, but everyone who visited Astropolis tried it at least once.\\n\\n<i>\"So weird, let me try a bite... *blech*... So weird, let me try another bite... *blech*... So weird, just one more bite... *blech*... So weird, one more bite... *blech*...\"</i>",
+    "item_bg_desc": "Mingxi developed dozens of \"creative Xianzhou dishes\" for the Upside-Down Restaurant. Not all of them were hits. The most controversial by far has been the \"Mung Bean Soda Sukiyaki.\" That said, it isn't exactly a commercial failure. Nobody actually likes the dish, but everyone who visits Astropolis would try it at least once.\\n\\n<i>\"So weird, let me try a bite... *blech*... So weird, let me try another bite... *blech*... So weird, just one more bite... *blech*... So weird, one more bite... *blech*...\"</i>",
     "item_icon_path": "SpriteOutput/ItemIcon/402038.png",
     "item_figure_icon_path": "SpriteOutput/ItemFigures/402038.png",
     "item_currency_icon_path": "SpriteOutput/ItemIcon/402038.png",
@@ -35642,7 +35642,7 @@
     "is_visible": true,
     "item_name": "Extra Sodium Sausage",
     "item_desc": "Upon use, immediately heals one designated ally by <unbreak>20%</unbreak> of their Max HP plus <unbreak>240</unbreak> extra HP.",
-    "item_bg_desc": "A signature dish of Astropolis, though it's mainly served to Intellitrons and diners with exceptionally strong teeth. Some customers lack the bite force but not the audacity to try anyway, a combination that has led to no shortage of dental emergencies. Shady vendors have been known to use expired, rusted metal as ingredients, so diners are advised to eat with caution.\\n\\n<i>\"That's not rust. It's chili powder. I would never gamble with your health.\"</i>",
+    "item_bg_desc": "A signature dish of Astropolis, though it's mainly served to Intellitrons and diners with exceptionally strong teeth. Some customers lack the bite force but not the audacity to try anyway, a combination that has led to no shortage of dental emergencies. Shady vendors have been known to use expired, rusted metal as ingredients, so diners are advised to eat with caution.\\n\\n<i>\"That's not rust. It's chili powder. A food seller would never gamble with everyone's health.\"</i>",
     "item_icon_path": "SpriteOutput/ItemIcon/408449.png",
     "item_figure_icon_path": "SpriteOutput/ItemFigures/408449.png",
     "item_currency_icon_path": "SpriteOutput/ItemIcon/408449.png",
@@ -35696,7 +35696,7 @@
     "is_visible": true,
     "item_name": "\"Oceanic\" Tri-Flavored Ice Cream",
     "item_desc": "Upon use, increases DEF, Max HP, and HP restored by 8% for all allies in the next battle.",
-    "item_bg_desc": "The three best-selling flavors at \"Oceanic\" ice cream are: Aether, Phlogiston, and Ancient Dreamscape Fossil. Nobody knows what any of them actually taste like but that's all part of the marketing strategy.\\n\\n<i>\"The strawberry flavor segment is a mature market, and so is the chocolate segment. But Ancient Dream Fossil, that is a taste defined by us, a market created by us.\"</i>",
+    "item_bg_desc": "The three best-selling flavors at \"Oceanic\" ice cream are: Aether, Phlogiston, and Ancient Dreamscape Fossil. Nobody knows what any of them actually taste like but that's all part of the marketing strategy.\\n\\n<i>\"The strawberry flavor is a mature market, and so is the chocolate flavor. But Ancient Dream Fossil, that is a taste defined by us, a market created by us.\"</i>",
     "item_icon_path": "SpriteOutput/ItemIcon/408451.png",
     "item_figure_icon_path": "SpriteOutput/ItemFigures/408451.png",
     "item_currency_icon_path": "SpriteOutput/ItemIcon/408451.png",
@@ -37287,7 +37287,7 @@
     "item_comefrom": [
       {
         "id": 1,
-        "desc": "\"Furbobo Freebies\" Level Reward Obtained"
+        "desc": "\"Furbobo Freebies\" Level Rewards Obtained"
       }
     ]
   }

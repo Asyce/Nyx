@@ -11851,7 +11851,7 @@
       "Imaginary"
     ],
     "en": "Voidranger: Trampler",
-    "desc": "A product of the Antimatter Legion utilizing the Warforge to recast and fuse remnants of fallen warriors and Leviathans.\\nThough relatively rare, they possess both the intelligence of a warrior and the power and mobility of a Leviathan. Its screech can summon a large number of Voidrangers.",
+    "desc": "A product of the Antimatter Legion utilizing the Warforge to recast and fuse remnants of fallen warriors and leviathans.\\nThough relatively rare, they possess both the intelligence of a warrior and the power and mobility of a leviathan. Its screech can summon a large number of Voidrangers.",
     "ko": "허졸•유린자",
     "zh": "虚卒•践踏者",
     "ja": "ヴォイドレンジャー・{RUBY_B#じゅうりん}蹂躙{RUBY_E#}"
@@ -11869,7 +11869,7 @@
       "Imaginary"
     ],
     "en": "Voidranger: Trampler (Bug)",
-    "desc": "A false projection produced by compromised codes. The referent entity is a product of the Antimatter Legion utilizing the Warforge to recast and fuse remnants of fallen warriors and Leviathans.\\nThough relatively rare, they possess both the intelligence of a warrior and the power and mobility of a Leviathan. Its screech can summon many Voidrangers.",
+    "desc": "A false projection produced by compromised codes. The referent entity is a product of the Antimatter Legion utilizing the Warforge to recast and fuse remnants of fallen warriors and leviathans.\\nThough relatively rare, they possess both the intelligence of a warrior and the power and mobility of a leviathan. Its screech can summon many Voidrangers.",
     "ko": "허졸•유린자(오류)",
     "zh": "虚卒•践踏者（错误）",
     "ja": "ヴォイドレンジャー・蹂躙（バグ）"
@@ -11886,7 +11886,7 @@
       "Imaginary"
     ],
     "en": "Voidranger: Trampler",
-    "desc": "A product of the Antimatter Legion utilizing the Warforge to recast and fuse remnants of fallen warriors and Leviathans.\\nThough relatively rare, they possess both the intelligence of a warrior and the power and mobility of a Leviathan. Its screech can summon a large number of Voidrangers.",
+    "desc": "A product of the Antimatter Legion utilizing the Warforge to recast and fuse remnants of fallen warriors and leviathans.\\nThough relatively rare, they possess both the intelligence of a warrior and the power and mobility of a leviathan. Its screech can summon a large number of Voidrangers.",
     "ko": "허졸•유린자",
     "zh": "虚卒•践踏者",
     "ja": "ヴォイドレンジャー・蹂躙"
@@ -11903,7 +11903,7 @@
       "Imaginary"
     ],
     "en": "Voidranger: Trampler",
-    "desc": "A product of the Antimatter Legion utilizing the Warforge to recast and fuse remnants of fallen warriors and Leviathans.\\nThough relatively rare, they possess both the intelligence of a warrior and the power and mobility of a Leviathan. Its screech can summon a large number of Voidrangers.",
+    "desc": "A product of the Antimatter Legion utilizing the Warforge to recast and fuse remnants of fallen warriors and leviathans.\\nThough relatively rare, they possess both the intelligence of a warrior and the power and mobility of a leviathan. Its screech can summon a large number of Voidrangers.",
     "ko": "허졸•유린자",
     "zh": "虚卒•践踏者",
     "ja": "ヴォイドレンジャー・蹂躙"
@@ -12560,7 +12560,7 @@
     ],
     "en": "Astropolis Sentinel",
     "desc": "Mass-produced security robots seen everywhere in Astropolis, tasked with maintaining peace and stability.\\nCold and ruthless machines of justice, enforcing the law with a warm touch and a heavy fist.",
-    "ko": "아스트로폴리스 방위",
+    "ko": "아스트로폴리스 가드",
     "zh": "千星戍卫",
     "ja": "千星ガード"
   },

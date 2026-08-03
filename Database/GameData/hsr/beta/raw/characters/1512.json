@@ -15,19 +15,8 @@
     "1": {
       "id": 151201,
       "name": "Stray Birds of Summer",
-      "desc": "Robin • Summeretto's Max Vibes increases by <unbreak>#1[i]</unbreak>. The first time an ally target uses an ability that causes Robin • Summeretto to gain Vibes within any target's turn, she gains an additional <unbreak>#2[i]</unbreak> points.",
-      "icon": "SkillIcon_1512_Rank1.png",
-      "param_list": [
-        20,
-        2
-      ],
-      "extra": {}
-    },
-    "2": {
-      "id": 151202,
-      "name": "Heart Like Still Waters",
       "desc": "\"Summer Songbirds\" records <unbreak>#3[i]%</unbreak> of the non-<u>True DMG</u> dealt by ally targets. When using the Memosprite Skill, it additionally deals <u>True DMG</u> equal to <unbreak>#1[i]%</unbreak> of the total recorded DMG plus current Vibes points × <unbreak>#2[f1]%</unbreak> to the enemy target with the highest HP, then clears <unbreak>#4[i]%</unbreak> of the recorded value.",
-      "icon": "SkillIcon_1512_Rank2.png",
+      "icon": "SkillIcon_1512_Rank1.png",
       "param_list": [
         0.11,
         0.001,
@@ -38,6 +27,24 @@
         "10000017": {
           "name": "True DMG",
           "desc": "Non-Type DMG that is not affected by any effects. This DMG is not considered as launching 1 attack.",
+          "param": []
+        }
+      }
+    },
+    "2": {
+      "id": 151202,
+      "name": "Heart Like Still Waters",
+      "desc": "Increases All-Type <u>RES PEN</u> of ally targets by <unbreak>#3[i]%</unbreak>. Robin • Summeretto's Max Vibes increases by <unbreak>#1[i]</unbreak>. The first time an ally target uses an ability that causes Robin • Summeretto to gain Vibes within any target's turn, she gains an additional <unbreak>#2[i]</unbreak> points.",
+      "icon": "SkillIcon_1512_Rank2.png",
+      "param_list": [
+        20,
+        2,
+        0.2
+      ],
+      "extra": {
+        "30000005": {
+          "name": "RES PEN",
+          "desc": "When dealing DMG, ignore a part of the enemy target's resistance to the corresponding damage type.",
           "param": []
         }
       }
@@ -76,10 +83,9 @@
       "desc": "Increases the All-Type <u>RES PEN</u> of ally targets by <unbreak>#1[i]%</unbreak>. Robin • Summeretto's Ultimate can be stored up to 2 times. When entering the \"Fever\" state for the first time or at the start of a \"Fever\" countdown turn in this battle, immediately regenerates <unbreak>#2[i]</unbreak> Energy.",
       "icon": "SkillIcon_1512_Rank6.png",
       "param_list": [
-        0.2,
+        1,
         140,
-        0,
-        2
+        0
       ],
       "extra": {
         "30000005": {
@@ -304,8 +310,8 @@
     "151203": {
       "id": 151203,
       "name": "Leap into the Ocean Blue Rhapsody",
-      "desc": "<u>Advances the action</u> of one designated ally unit (excluding Robin • Summeretto) by <unbreak>#1[i]%</unbreak> and regenerates a fixed amount of Energy equal to <color=#f29e38ff><unbreak>#3[f1]%</unbreak></color> of their Max Energy. Then, this character gains the \"Special Guest\" effect. When the character with \"Special Guest\" attacks, Robin additionally gains <unbreak>#2[i]</unbreak> point(s) of Vibes. This character and her summons cannot <u>advance the actions</u> of other friendly targets. This effect lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn.",
-      "simple_desc": "<u>Advances the action</u> of one designated ally character and regenerates Energy, then this character gains the \"Special Guest\" effect. When attacking, additionally grants Robin 1 point of Vibes. The character and her summons will not be able to grant other friendly targets the <u>action advance</u> effect.",
+      "desc": "<u>Advances the action</u> of one designated ally unit (excluding Robin • Summeretto) by <unbreak>#1[i]%</unbreak> and regenerates a fixed amount of Energy equal to <color=#f29e38ff><unbreak>#3[f1]%</unbreak></color> of their Max Energy, and then, grants them the \"Special Guest\" effect. When the character with \"Special Guest\" and their summon attacks, they additionally grant Robin <unbreak>#2[i]</unbreak> point(s) of Vibes and cannot <u>advance the actions</u> of other friendly targets. This effect lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn.",
+      "simple_desc": "<u>Advances the action</u> of one designated ally character and regenerates Energy, then granting them the \"Special Guest\" effect. When the character and their summon attacks, they additionally grant Robin Vibes points, and are unable to grant other friendly targets the <u>action advance</u> effect.",
       "type": "Ultra",
       "type_name": "Ultimate",
       "tag": "Enhance",
@@ -717,8 +723,8 @@
     "151207": {
       "id": 151207,
       "name": "We Form A Melody",
-      "desc": "After using Technique, at the start of the next combat, immediately gains <unbreak>#1[i]</unbreak> Vibes, and grants all allies a <unbreak>#2[i]%</unbreak> DMG Boost for 2 turn(s).",
-      "simple_desc": "Upon entering battle, immediately gains Vibes and increases DMG dealt by all allies.",
+      "desc": "After using Technique, at the start of the next combat, action advances by <unbreak>#3[i]%</unbreak>, immediately gains <unbreak>#1[i]</unbreak> Vibes, and grants all allies a <unbreak>#2[i]%</unbreak> DMG Boost for 2 turn(s).",
+      "simple_desc": "Upon entering battle, action advances, immediately gains Vibes, and increases DMG dealt by all allies.",
       "type": "Maze",
       "type_name": "Technique",
       "tag": "Enhance",
@@ -734,7 +740,8 @@
           "level": 1,
           "param_list": [
             6,
-            0.3
+            0.3,
+            0.2
           ]
         }
       }
@@ -1983,7 +1990,7 @@
           0.16,
           0.004,
           0.4,
-          0.01,
+          0.015,
           2
         ],
         "point_id": 1512101,
@@ -3529,8 +3536,8 @@
       317
     ],
     "property_list3": [
-      "CriticalDamageBase",
-      "HPAddedRatio"
+      "HPAddedRatio",
+      "CriticalDamageBase"
     ],
     "property_list4": [
       "SpeedDelta",
@@ -3547,7 +3554,7 @@
     "property_list": [
       {
         "relic_type": "BODY",
-        "property_type": "CriticalDamageBase"
+        "property_type": "HPAddedRatio"
       },
       {
         "relic_type": "FOOT",

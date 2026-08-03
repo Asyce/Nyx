@@ -53,7 +53,8 @@
       "desc": "DMG dealt by Aventurine • Waveflair ignores <unbreak>#1[i]%</unbreak> of the enemy target's DEF.",
       "icon": "SkillIcon_1513_Rank4.png",
       "param_list": [
-        0.18
+        0.18,
+        3
       ],
       "extra": {}
     },
@@ -196,7 +197,7 @@
           "level": 1,
           "param_list": [
             1.2,
-            2,
+            4,
             4
           ]
         },
@@ -204,7 +205,7 @@
           "level": 2,
           "param_list": [
             1.32,
-            2,
+            4,
             4
           ]
         },
@@ -212,7 +213,7 @@
           "level": 3,
           "param_list": [
             1.44,
-            2,
+            4,
             4
           ]
         },
@@ -220,7 +221,7 @@
           "level": 4,
           "param_list": [
             1.56,
-            2,
+            4,
             4
           ]
         },
@@ -228,7 +229,7 @@
           "level": 5,
           "param_list": [
             1.68,
-            2,
+            4,
             4
           ]
         },
@@ -236,7 +237,7 @@
           "level": 6,
           "param_list": [
             1.8,
-            2,
+            4,
             4
           ]
         },
@@ -244,7 +245,7 @@
           "level": 7,
           "param_list": [
             1.95,
-            2,
+            4,
             4
           ]
         },
@@ -252,7 +253,7 @@
           "level": 8,
           "param_list": [
             2.1,
-            2,
+            4,
             4
           ]
         },
@@ -260,7 +261,7 @@
           "level": 9,
           "param_list": [
             2.25,
-            2,
+            4,
             4
           ]
         },
@@ -268,7 +269,7 @@
           "level": 10,
           "param_list": [
             2.4,
-            2,
+            4,
             4
           ]
         },
@@ -276,7 +277,7 @@
           "level": 11,
           "param_list": [
             2.52,
-            2,
+            4,
             4
           ]
         },
@@ -284,7 +285,7 @@
           "level": 12,
           "param_list": [
             2.64,
-            2,
+            4,
             4
           ]
         },
@@ -292,7 +293,7 @@
           "level": 13,
           "param_list": [
             2.76,
-            2,
+            4,
             4
           ]
         },
@@ -300,7 +301,7 @@
           "level": 14,
           "param_list": [
             2.88,
-            2,
+            4,
             4
           ]
         },
@@ -308,7 +309,7 @@
           "level": 15,
           "param_list": [
             3,
-            2,
+            4,
             4
           ]
         }
@@ -342,7 +343,7 @@
           "param_list": [
             2.4,
             8,
-            5,
+            6,
             0.12,
             4
           ]
@@ -352,7 +353,7 @@
           "param_list": [
             2.56,
             8,
-            5,
+            6,
             0.138,
             4
           ]
@@ -362,7 +363,7 @@
           "param_list": [
             2.72,
             8,
-            5,
+            6,
             0.156,
             4
           ]
@@ -372,7 +373,7 @@
           "param_list": [
             2.88,
             8,
-            5,
+            6,
             0.174,
             4
           ]
@@ -382,7 +383,7 @@
           "param_list": [
             3.04,
             8,
-            5,
+            6,
             0.192,
             4
           ]
@@ -392,7 +393,7 @@
           "param_list": [
             3.2,
             8,
-            5,
+            6,
             0.21,
             4
           ]
@@ -402,7 +403,7 @@
           "param_list": [
             3.4,
             8,
-            5,
+            6,
             0.2325,
             4
           ]
@@ -412,7 +413,7 @@
           "param_list": [
             3.6,
             8,
-            5,
+            6,
             0.255,
             4
           ]
@@ -422,7 +423,7 @@
           "param_list": [
             3.8,
             8,
-            5,
+            6,
             0.2775,
             4
           ]
@@ -432,7 +433,7 @@
           "param_list": [
             4,
             8,
-            5,
+            6,
             0.3,
             4
           ]
@@ -442,7 +443,7 @@
           "param_list": [
             4.16,
             8,
-            5,
+            6,
             0.318,
             4
           ]
@@ -452,7 +453,7 @@
           "param_list": [
             4.32,
             8,
-            5,
+            6,
             0.336,
             4
           ]
@@ -462,7 +463,7 @@
           "param_list": [
             4.48,
             8,
-            5,
+            6,
             0.354,
             4
           ]
@@ -472,7 +473,7 @@
           "param_list": [
             4.64,
             8,
-            5,
+            6,
             0.372,
             4
           ]
@@ -482,7 +483,7 @@
           "param_list": [
             4.8,
             8,
-            5,
+            6,
             0.39,
             4
           ]
@@ -2302,7 +2303,7 @@
         ],
         "max_level": 1,
         "param_list": [
-          160,
+          140,
           0.3,
           1,
           0.01,
@@ -2349,10 +2350,11 @@
         ],
         "max_level": 1,
         "param_list": [
-          1,
+          0.8,
           2,
           25,
-          1
+          1,
+          0.2
         ],
         "point_id": 1513102,
         "point_name": "Revel in Surging Waves",
@@ -2419,7 +2421,7 @@
         ],
         "point_id": 1513103,
         "point_name": "Old Dream's Gold Rush",
-        "point_desc": "Increases CRIT DMG by <unbreak>#1[i]%</unbreak>. After a teammate uses a Basic ATK, Skill, <u>Follow-Up ATK</u>, or Ultimate, Aventurine • Waveflair's CRIT DMG increases by <unbreak>#2[i]%</unbreak>, lasting for <unbreak>#3[i]</unbreak> turn(s), and he additionally gains <unbreak>#4[i]</unbreak> point(s) of \"Fervor.\" This effect can be triggered up to <unbreak>#5[i]</unbreak> time(s), and the trigger count resets when Aventurine • Waveflair uses his Skill.",
+        "point_desc": "Increases CRIT DMG by <unbreak>#1[i]%</unbreak>. After a teammate uses a Basic ATK, Skill, <u>Follow-Up ATK</u>, or Ultimate, all allies' CRIT DMG increases by <unbreak>#2[i]%</unbreak>, lasting for <unbreak>#3[i]</unbreak> turn(s), and Aventurine • Waveflair additionally gains <unbreak>#4[i]</unbreak> point(s) of \"Fervor.\" This effect can be triggered up to <unbreak>#5[i]</unbreak> time(s), and the trigger count resets when Aventurine • Waveflair uses his Skill.",
         "point_trigger_key": 8,
         "point_type": 3,
         "pre_point": [],
@@ -3200,13 +3202,13 @@
   "unique": {},
   "stats": {
     "0": {
-      "attack_base": 58.08,
-      "attack_add": 2.904,
-      "defence_base": 102.3,
-      "defence_add": 5.115,
-      "hp_base": 168.96,
-      "hp_add": 8.448,
-      "speed_base": 103,
+      "attack_base": 66,
+      "attack_add": 3.3,
+      "defence_base": 82.5,
+      "defence_add": 4.125,
+      "hp_base": 158.4,
+      "hp_add": 7.92,
+      "speed_base": 107,
       "critical_chance": 0.05,
       "critical_damage": 0.5,
       "base_aggro": 100,
@@ -3224,13 +3226,13 @@
       ]
     },
     "1": {
-      "attack_base": 81.312,
-      "attack_add": 2.904,
-      "defence_base": 143.22,
-      "defence_add": 5.115,
-      "hp_base": 236.544,
-      "hp_add": 8.448,
-      "speed_base": 103,
+      "attack_base": 92.4,
+      "attack_add": 3.3,
+      "defence_base": 115.5,
+      "defence_add": 4.125,
+      "hp_base": 221.76,
+      "hp_add": 7.92,
+      "speed_base": 107,
       "critical_chance": 0.05,
       "critical_damage": 0.5,
       "base_aggro": 100,
@@ -3248,13 +3250,13 @@
       ]
     },
     "2": {
-      "attack_base": 104.544,
-      "attack_add": 2.904,
-      "defence_base": 184.14,
-      "defence_add": 5.115,
-      "hp_base": 304.128,
-      "hp_add": 8.448,
-      "speed_base": 103,
+      "attack_base": 118.8,
+      "attack_add": 3.3,
+      "defence_base": 148.5,
+      "defence_add": 4.125,
+      "hp_base": 285.12,
+      "hp_add": 7.92,
+      "speed_base": 107,
       "critical_chance": 0.05,
       "critical_damage": 0.5,
       "base_aggro": 100,
@@ -3277,13 +3279,13 @@
       ]
     },
     "3": {
-      "attack_base": 127.776,
-      "attack_add": 2.904,
-      "defence_base": 225.06,
-      "defence_add": 5.115,
-      "hp_base": 371.712,
-      "hp_add": 8.448,
-      "speed_base": 103,
+      "attack_base": 145.2,
+      "attack_add": 3.3,
+      "defence_base": 181.5,
+      "defence_add": 4.125,
+      "hp_base": 348.48,
+      "hp_add": 7.92,
+      "speed_base": 107,
       "critical_chance": 0.05,
       "critical_damage": 0.5,
       "base_aggro": 100,
@@ -3306,13 +3308,13 @@
       ]
     },
     "4": {
-      "attack_base": 151.008,
-      "attack_add": 2.904,
-      "defence_base": 265.98,
-      "defence_add": 5.115,
-      "hp_base": 439.296,
-      "hp_add": 8.448,
-      "speed_base": 103,
+      "attack_base": 171.6,
+      "attack_add": 3.3,
+      "defence_base": 214.5,
+      "defence_add": 4.125,
+      "hp_base": 411.84,
+      "hp_add": 7.92,
+      "speed_base": 107,
       "critical_chance": 0.05,
       "critical_damage": 0.5,
       "base_aggro": 100,
@@ -3335,13 +3337,13 @@
       ]
     },
     "5": {
-      "attack_base": 174.24,
-      "attack_add": 2.904,
-      "defence_base": 306.9,
-      "defence_add": 5.115,
-      "hp_base": 506.88,
-      "hp_add": 8.448,
-      "speed_base": 103,
+      "attack_base": 198,
+      "attack_add": 3.3,
+      "defence_base": 247.5,
+      "defence_add": 4.125,
+      "hp_base": 475.2,
+      "hp_add": 7.92,
+      "speed_base": 107,
       "critical_chance": 0.05,
       "critical_damage": 0.5,
       "base_aggro": 100,
@@ -3364,13 +3366,13 @@
       ]
     },
     "6": {
-      "attack_base": 197.472,
-      "attack_add": 2.904,
-      "defence_base": 347.82,
-      "defence_add": 5.115,
-      "hp_base": 574.464,
-      "hp_add": 8.448,
-      "speed_base": 103,
+      "attack_base": 224.4,
+      "attack_add": 3.3,
+      "defence_base": 280.5,
+      "defence_add": 4.125,
+      "hp_base": 538.56,
+      "hp_add": 7.92,
+      "speed_base": 107,
       "critical_chance": 0.05,
       "critical_damage": 0.5,
       "base_aggro": 100,
@@ -3397,7 +3399,7 @@
     ],
     "property_list5": [
       "QuantumAddedRatio",
-      "AttackAddedRatio"
+      "HPAddedRatio"
     ],
     "property_list6": [
       "SPRatioBase"

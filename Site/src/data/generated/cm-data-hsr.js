@@ -16171,19 +16171,19 @@
       "path": "Elation",
       "baseStats": {
         "level1": {
-          "hp": 168.96,
-          "atk": 58.08,
-          "def": 102.3,
-          "speed": 103,
+          "hp": 158.4,
+          "atk": 66,
+          "def": 82.5,
+          "speed": 107,
           "critRate": 0.05,
           "critDmg": 0.5
         },
         "max": {
           "level": 80,
-          "hp": 1241.86,
-          "atk": 426.89,
-          "def": 751.9,
-          "speed": 103,
+          "hp": 1164.24,
+          "atk": 485.1,
+          "def": 606.38,
+          "speed": 107,
           "critRate": 0.05,
           "critDmg": 0.5
         }

@@ -36,19 +36,19 @@
   },
   {
     "id": "3",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Oneiric Shard",
     "rarity": "SuperRare",
     "type": "Virtual",
     "subType": "Virtual",
-    "backgroundDescription": "Crystallized lights floating in the sea of stars, pulsing with the residual dream of an ancient Leviathan. Everything of the old world turned in the end into candlelight that illuminates the darkness ahead.",
+    "backgroundDescription": "Crystallized lights floating in the sea of stars, pulsing with the residual dream of an ancient leviathan. Everything of the old world turned in the end into candlelight that illuminates the darkness ahead.",
     "purposeType": 12,
     "assets": {
       "icon": "GameData/hsr/assets/items/3.webp"
     },
     "liveComparison": {
       "liveHash": "96302e11b075052e284d5f5ec3d19eba97109c8a65deec7f069192cabc69b23e",
-      "currentHash": "96302e11b075052e284d5f5ec3d19eba97109c8a65deec7f069192cabc69b23e"
+      "currentHash": "ad9355e19b97ef2718db9b0024a401ae48c73948b02c3e6e9d13ec0502b760a5"
     }
   },
   {
@@ -748,20 +748,20 @@
   },
   {
     "id": "110143",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Safeguard of Amber",
     "rarity": "VeryRare",
     "type": "Material",
     "subType": "TracePath",
     "description": "An unusual shield embedded with ambers mined from beyond the skies. Used to level up Traces significantly for <color=#f29e38ff>Preservation</color> characters.",
-    "backgroundDescription": "The wielder of this shield is seemingly protected by an invisible shield wall, immune to fiery arrows or mountainous claws.\\nAncient legends entail a war where a tribal hero wielding a bronze shield charged to their death against a Leviathan, together with warriors armed with fiery spears.\\nThis shield is a witness to that war.\\n\\n<i>\"Do not cross the line.\"</i>",
+    "backgroundDescription": "The wielder of this shield is seemingly protected by an invisible shield wall, immune to fiery arrows or mountainous claws.\\nAncient legends entail a war where a tribal hero wielding a bronze shield charged to their death against a leviathan, together with warriors armed with fiery spears.\\nThis shield is a witness to that war.\\n\\n<i>\"Do not cross the line.\"</i>",
     "purposeType": 3,
     "assets": {
       "icon": "GameData/hsr/assets/items/110143.webp"
     },
     "liveComparison": {
       "liveHash": "665dc5481ed706361f4e545e2bc720dad167e2cb2e4d60b14f30234d50ba62ff",
-      "currentHash": "665dc5481ed706361f4e545e2bc720dad167e2cb2e4d60b14f30234d50ba62ff"
+      "currentHash": "3ce31dab03313b010b62e3e0ef5477095bbd7635cffda222497c03108c974028"
     }
   },
   {
@@ -2170,20 +2170,20 @@
   },
   {
     "id": "110501",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Destroyer's Final Road",
     "rarity": "VeryRare",
     "type": "Material",
     "subType": "WeeklyMonsterDrop",
     "description": "Advanced level-up material for Traces.",
-    "backgroundDescription": "The Leviathan's heart has stopped beating, but its mind lives on despite being trapped in a case. As long as the lid is closed, its mind is simultaneously both alive and dead, driving the engine of destruction.\\n\\n<i>\"Doomsday Beast, a blight made in the Warforge using what's left of a Leviathan and the weeping bones of thousands of the dead. It longs for the destruction of the universe and itself.\"</i>",
+    "backgroundDescription": "The leviathan's heart has stopped beating, but its mind lives on despite being trapped in a case. As long as the lid is closed, its mind is simultaneously both alive and dead, driving the engine of destruction.\\n\\n<i>\"Doomsday Beast, a blight made in the Warforge using what's left of a leviathan and the weeping bones of thousands of the dead. It longs for the destruction of the universe and itself.\"</i>",
     "purposeType": 4,
     "assets": {
       "icon": "GameData/hsr/assets/items/110501.webp"
     },
     "liveComparison": {
       "liveHash": "a10a4d7acc29cb04331a53ed4a3af4425061971b866170d6592967765484ac86",
-      "currentHash": "a10a4d7acc29cb04331a53ed4a3af4425061971b866170d6592967765484ac86"
+      "currentHash": "116e5f8888361e42d0ab26178585e90908ed9090ce5d0edfac3a750eb5164493"
     }
   },
   {
@@ -23692,13 +23692,13 @@
     "type": "Usable",
     "subType": "Food",
     "description": "Upon use, immediately causes all allies to lose HP equal to 5% of their Max HP and increases their ATK by <unbreak>40%</unbreak> for the next battle.",
-    "backgroundDescription": "Mingxi developed dozens of \"creative Xianzhou dishes\" for the Upside-Down Restaurant. Not all of them were hits. The most controversial by far was the \"Mung Bean Soda Sukiyaki.\" That said, it wasn't exactly a commercial failure. Nobody actually liked the dish, but everyone who visited Astropolis tried it at least once.\\n\\n<i>\"So weird, let me try a bite... *blech*... So weird, let me try another bite... *blech*... So weird, just one more bite... *blech*... So weird, one more bite... *blech*...\"</i>",
+    "backgroundDescription": "Mingxi developed dozens of \"creative Xianzhou dishes\" for the Upside-Down Restaurant. Not all of them were hits. The most controversial by far has been the \"Mung Bean Soda Sukiyaki.\" That said, it isn't exactly a commercial failure. Nobody actually likes the dish, but everyone who visits Astropolis would try it at least once.\\n\\n<i>\"So weird, let me try a bite... *blech*... So weird, let me try another bite... *blech*... So weird, just one more bite... *blech*... So weird, one more bite... *blech*...\"</i>",
     "purposeType": 10,
     "assets": {
       "icon": "GameData/hsr/assets/items/402038.webp"
     },
     "liveComparison": {
-      "currentHash": "38baf388f8b53462dde73a9cec388f6047515966fe8085e00cdb51f3b424fbd9"
+      "currentHash": "320c512a4e1c1c55c0204638355fd967a79fbd64701190c4da91649096cc2f07"
     }
   },
   {
@@ -26767,13 +26767,13 @@
     "type": "Usable",
     "subType": "Food",
     "description": "Upon use, immediately heals one designated ally by <unbreak>20%</unbreak> of their Max HP plus <unbreak>240</unbreak> extra HP.",
-    "backgroundDescription": "A signature dish of Astropolis, though it's mainly served to Intellitrons and diners with exceptionally strong teeth. Some customers lack the bite force but not the audacity to try anyway, a combination that has led to no shortage of dental emergencies. Shady vendors have been known to use expired, rusted metal as ingredients, so diners are advised to eat with caution.\\n\\n<i>\"That's not rust. It's chili powder. I would never gamble with your health.\"</i>",
+    "backgroundDescription": "A signature dish of Astropolis, though it's mainly served to Intellitrons and diners with exceptionally strong teeth. Some customers lack the bite force but not the audacity to try anyway, a combination that has led to no shortage of dental emergencies. Shady vendors have been known to use expired, rusted metal as ingredients, so diners are advised to eat with caution.\\n\\n<i>\"That's not rust. It's chili powder. A food seller would never gamble with everyone's health.\"</i>",
     "purposeType": 10,
     "assets": {
       "icon": "GameData/hsr/assets/items/408449.webp"
     },
     "liveComparison": {
-      "currentHash": "8d93a8acf7eb23fede58583e4f5edecc59152978230bf59a424edd19ceee388d"
+      "currentHash": "b01a59cfde4c51825d4bab9db34af7025a4483bb6c9568a4b86a63ed82d61191"
     }
   },
   {
@@ -26801,13 +26801,13 @@
     "type": "Usable",
     "subType": "Food",
     "description": "Upon use, increases DEF, Max HP, and HP restored by 8% for all allies in the next battle.",
-    "backgroundDescription": "The three best-selling flavors at \"Oceanic\" ice cream are: Aether, Phlogiston, and Ancient Dreamscape Fossil. Nobody knows what any of them actually taste like but that's all part of the marketing strategy.\\n\\n<i>\"The strawberry flavor segment is a mature market, and so is the chocolate segment. But Ancient Dream Fossil, that is a taste defined by us, a market created by us.\"</i>",
+    "backgroundDescription": "The three best-selling flavors at \"Oceanic\" ice cream are: Aether, Phlogiston, and Ancient Dreamscape Fossil. Nobody knows what any of them actually taste like but that's all part of the marketing strategy.\\n\\n<i>\"The strawberry flavor is a mature market, and so is the chocolate flavor. But Ancient Dream Fossil, that is a taste defined by us, a market created by us.\"</i>",
     "purposeType": 10,
     "assets": {
       "icon": "GameData/hsr/assets/items/408451.webp"
     },
     "liveComparison": {
-      "currentHash": "65671a6556e25087166e5ab30b358839549acc9b47aca541e484364989553601"
+      "currentHash": "c6962a0eb6ce536aa9cf9e857078205147cf925d79272390edbb1b6c3f85b5a5"
     }
   },
   {

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-02T09:03:59.522Z",
-  "startedAt": "2026-08-02T09:03:27.699Z",
+  "generatedAt": "2026-08-03T10:34:03.502Z",
+  "startedAt": "2026-08-03T10:33:26.381Z",
   "dryRun": false,
   "source": "GameWith character build pages + web consensus fallback",
   "sourcePage": "https://gamewith.net/genshin-impact/article/show/22357",
@@ -32,6 +32,29 @@
       "characterPage": "https://gamewith.net/genshin-impact/article/show/76471",
       "consensusStatus": "no-consensus-signature",
       "consensusCandidates": [
+        {
+          "weaponId": "13512",
+          "weaponName": "Crimson Moon's Semblance",
+          "sourceCount": 1,
+          "signatureSourceCount": 1,
+          "score": 2,
+          "sources": [
+            {
+              "character": "Alyosha",
+              "weaponId": "13512",
+              "weaponName": "Crimson Moon's Semblance",
+              "matchedAlias": "Crimson Moon's Semblance",
+              "kind": "signature",
+              "strength": 2,
+              "matchedText": "hase 1 banners, and free through the new Archon Quest. Phase 1 rerun Arlecchino 5★ Pyro Polearm Official. Proven on-field Pyro DPS built around Bond of Life. Her signature weapon, Crimson Moon's Semblance, reruns alongside Whitelake Frostfeather. Phase 2 Sep 1 to Sep 22 Flins (5★ Electro) Ineffa (5★ Electro) Official. Two Electro reruns built around the Luna",
+              "title": "Genshin 7.0 Banners: Odette, Alyosha, Reruns & Pull Guide",
+              "url": "https://www.gamsgo.com/blog/genshin-impact-7-0-banners",
+              "domain": "gamsgo.com",
+              "query": "Alyosha Genshin Impact signature weapon",
+              "searchProvider": "bing-rss"
+            }
+          ]
+        },
         {
           "weaponId": "13514",
           "weaponName": "Symphonist of Scents",
@@ -139,6 +162,34 @@
           "weaponName": "Engulfing Lightning",
           "kind": "best-weapon",
           "matchedText": "w are Alyosha's best weapons. Alyosha mainly wants Energy Recharge to use his Elemental Burst every rotation, while also benefiting from ATK due to his healing and damage scaling. Engulfing Lightning R1 Timeless Dream: Eternal Stove Base ATK: 608 Energy Recharge: 55.1% ATK increased by 28% / 35% / 42% / 49% / 56% of Energy Recharge over the base 100%. You ca"
+        },
+        {
+          "title": "Alyosha Build: Kit, Materials, Artifacts, Weapons& Teams | Genshin Impact",
+          "url": "https://www.ldshop.gg/blog/genshin-impact/alyosha-build.html",
+          "domain": "ldshop.gg",
+          "query": "Alyosha Genshin Impact signature weapon",
+          "searchProvider": "bing-rss",
+          "status": "no-match"
+        },
+        {
+          "title": "Genshin 7.0 Banners: Odette, Alyosha, Reruns & Pull Guide",
+          "url": "https://www.gamsgo.com/blog/genshin-impact-7-0-banners",
+          "domain": "gamsgo.com",
+          "query": "Alyosha Genshin Impact signature weapon",
+          "searchProvider": "bing-rss",
+          "status": "matched",
+          "weaponId": "13512",
+          "weaponName": "Crimson Moon's Semblance",
+          "kind": "signature",
+          "matchedText": "hase 1 banners, and free through the new Archon Quest. Phase 1 rerun Arlecchino 5★ Pyro Polearm Official. Proven on-field Pyro DPS built around Bond of Life. Her signature weapon, Crimson Moon's Semblance, reruns alongside Whitelake Frostfeather. Phase 2 Sep 1 to Sep 22 Flins (5★ Electro) Ineffa (5★ Electro) Official. Two Electro reruns built around the Luna"
+        },
+        {
+          "title": "Genshin 7.0 Banners - Odette and Alyosha Release Date",
+          "url": "https://www.u7buy.com/blog/genshin-impact-7-0-banners/",
+          "domain": "u7buy.com",
+          "query": "Alyosha Genshin Impact signature weapon",
+          "searchProvider": "bing-rss",
+          "status": "no-match"
         },
         {
           "title": "Genshin Impact | Alyosha Release Date & Best Build Guide",

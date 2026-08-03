@@ -475,14 +475,17 @@
   },
   {
     "name": "Lucy",
-    "pageTitle": "Tutorial/(Character Intro) Lucy",
+    "pageTitle": "Agent Focus: Lucy",
     "aliases": [
       "Lucy",
       "1151"
     ],
     "releaseDate": null,
-    "releasePatch": null,
-    "categories": []
+    "releasePatch": "1.0",
+    "categories": [
+      "Category:Released in Version 1.0",
+      "Category:Version"
+    ]
   },
   {
     "name": "Lycaon",

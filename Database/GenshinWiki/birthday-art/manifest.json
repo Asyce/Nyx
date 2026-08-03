@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T09:03:18.286Z",
+  "generatedAt": "2026-08-03T10:33:14.094Z",
   "source": "Genshin Impact Wiki / Fandom MediaWiki API",
   "sourceExample": "https://genshin-impact.fandom.com/wiki/Ifa/Gallery",
   "requestedWidth": 1800,
@@ -5230,6 +5230,18 @@
           "originalWidth": 3000,
           "originalHeight": 3000,
           "mime": "image/jpeg"
+        },
+        {
+          "file": "Mualani Birthday 2026.png",
+          "title": "Mualani Birthday 2026.png (2.64 MB)",
+          "localAsset": "GenshinWiki/birthday-art/mualani/02-Mualani Birthday 2026.png",
+          "sourcePage": "https://genshin-impact.fandom.com/wiki/Mualani/Gallery",
+          "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Mualani_Birthday_2026.png",
+          "width": 1800,
+          "height": 1800,
+          "originalWidth": 3000,
+          "originalHeight": 3000,
+          "mime": "image/png"
         }
       ]
     },

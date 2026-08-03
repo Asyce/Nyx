@@ -3,15 +3,16 @@
   "game": "zzz",
   "gameName": "Zenless Zone Zero",
   "channel": "beta",
-  "version": "3.2.1+17919471",
+  "version": "3.2.1+17934514",
   "liveVersion": "3.1",
-  "betaVersion": "3.2.1+17919471",
+  "betaVersion": "3.2.1+17934514",
   "availableVersions": [
     "3.1",
     "3.2.0+17782873",
-    "3.2.1+17919471"
+    "3.2.1+17919471",
+    "3.2.1+17934514"
   ],
-  "scrapedAt": "2026-08-02T20:05:42.914Z",
+  "scrapedAt": "2026-08-03T01:07:25.103Z",
   "counts": {
     "agents": 58,
     "wEngines": 100,

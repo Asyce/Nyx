@@ -82,7 +82,17 @@
     "sp_bar_point": 120,
     "sp_recover": 120,
     "stun": 0,
-    "tags": [],
+    "tags": [
+      "Pryce",
+      "Punch",
+      "Wind",
+      "Female",
+      "Camp12",
+      "Size01",
+      "AidTypeParry",
+      "Pryce",
+      "EtherEyesSize1"
+    ],
     "rp_max": 0,
     "rp_recover": 0,
     "ep_max": 0,
@@ -325,7 +335,7 @@
       "description": [
         {
           "name": "Basic Attack: Gale Hammer Combo",
-          "desc": "Press <IconMap:Icon_Normal> to activate:\nLaunches up to 3 Strikes forward, dealing <color=#A6C5FD>Wind DMG</color>.\nPress <IconMap:Icon_Normal> during the 3rd Strike to activate <color=#ffffff>[Basic Attack: Meteor Hammer]</color>;\nHold <IconMap:Icon_SpecialReady> during the 3rd Strike to directly activate <color=#ffffff>[EX Special Attack: Riding the Wind]</color>.",
+          "desc": "Press <IconMap:Icon_Normal> to activate:\nLaunches up to 3 Strikes forward, dealing <color=#A6C5FD>Wind DMG</color>.\nDuring the 3rd attack, press <IconMap:Icon_Normal> to activate <color=#ffffff>[Basic Attack: Meteor Hammer]</color>;\nDuring the 3rd attack, hold <IconMap:Icon_Normal> or <IconMap:Icon_SpecialReady> to directly activate <color=#ffffff>[EX Special Attack: Riding the Wind]</color>.",
           "potential": []
         },
         {
@@ -335,7 +345,7 @@
         },
         {
           "name": "Basic Attack: Cyclone Hammer",
-          "desc": "Hold <IconMap:Icon_Normal> to charge before launching:\nThrows a hammer at enemies on the field, dealing <color=#A6C5FD>Wind DMG</color>.",
+          "desc": "While on the field, hold <IconMap:Icon_Normal> to charge before activation:\nThrows a hammer dealing <color=#A6C5FD>Wind DMG</color> to enemies on the field;\n<color=#ffffff>[Wind Eyes]</color> hit by this skill will be detonated, generating a small tornado that continuously tracks enemies and deals <color=#A6C5FD>Wind DMG</color>;\nAfter using this skill, all other <color=#ffffff>[Wind Eyes]</color> are detonated;\nDuring skill charge, Anti-Interrupt level is increased, continuously gathering <color=#ffffff>[Wind Eyes]</color> on the field;\nDuring the skill's attack, Character is invulnerable.",
           "potential": []
         },
         {
@@ -351,13 +361,13 @@
               "desc": "{Skill:1621001, Prop:1001}",
               "param": {
                 "1621001": {
-                  "main": 11270,
-                  "growth": 1030,
+                  "main": 5240,
+                  "growth": 480,
                   "format": "%",
-                  "damage_percentage": 11270,
-                  "damage_percentage_growth": 1030,
-                  "stun_ratio": 7630,
-                  "stun_ratio_growth": 350,
+                  "damage_percentage": 5240,
+                  "damage_percentage_growth": 480,
+                  "stun_ratio": 4230,
+                  "stun_ratio_growth": 200,
                   "sp_recovery": 24960,
                   "sp_recovery_growth": 0,
                   "fever_recovery": 178750,
@@ -377,13 +387,13 @@
               "desc": "{Skill:1621002, Prop:1001}",
               "param": {
                 "1621002": {
-                  "main": 19960,
-                  "growth": 1820,
+                  "main": 10790,
+                  "growth": 990,
                   "format": "%",
-                  "damage_percentage": 19960,
-                  "damage_percentage_growth": 1820,
-                  "stun_ratio": 12790,
-                  "stun_ratio_growth": 590,
+                  "damage_percentage": 10790,
+                  "damage_percentage_growth": 990,
+                  "stun_ratio": 7620,
+                  "stun_ratio_growth": 350,
                   "sp_recovery": 41850,
                   "sp_recovery_growth": 0,
                   "fever_recovery": 331650,
@@ -403,13 +413,13 @@
               "desc": "{Skill:1621003, Prop:1001}",
               "param": {
                 "1621003": {
-                  "main": 26240,
-                  "growth": 2390,
+                  "main": 15790,
+                  "growth": 1440,
                   "format": "%",
-                  "damage_percentage": 26240,
-                  "damage_percentage_growth": 2390,
-                  "stun_ratio": 16050,
-                  "stun_ratio_growth": 730,
+                  "damage_percentage": 15790,
+                  "damage_percentage_growth": 1440,
+                  "stun_ratio": 10160,
+                  "stun_ratio_growth": 470,
                   "sp_recovery": 52520,
                   "sp_recovery_growth": 0,
                   "fever_recovery": 452100,
@@ -429,13 +439,13 @@
               "desc": "{Skill:1621001, Prop:1002}",
               "param": {
                 "1621001": {
-                  "main": 7630,
-                  "growth": 350,
+                  "main": 4230,
+                  "growth": 200,
                   "format": "%",
-                  "damage_percentage": 11270,
-                  "damage_percentage_growth": 1030,
-                  "stun_ratio": 7630,
-                  "stun_ratio_growth": 350,
+                  "damage_percentage": 5240,
+                  "damage_percentage_growth": 480,
+                  "stun_ratio": 4230,
+                  "stun_ratio_growth": 200,
                   "sp_recovery": 24960,
                   "sp_recovery_growth": 0,
                   "fever_recovery": 178750,
@@ -455,13 +465,13 @@
               "desc": "{Skill:1621002, Prop:1002}",
               "param": {
                 "1621002": {
-                  "main": 12790,
-                  "growth": 590,
+                  "main": 7620,
+                  "growth": 350,
                   "format": "%",
-                  "damage_percentage": 19960,
-                  "damage_percentage_growth": 1820,
-                  "stun_ratio": 12790,
-                  "stun_ratio_growth": 590,
+                  "damage_percentage": 10790,
+                  "damage_percentage_growth": 990,
+                  "stun_ratio": 7620,
+                  "stun_ratio_growth": 350,
                   "sp_recovery": 41850,
                   "sp_recovery_growth": 0,
                   "fever_recovery": 331650,
@@ -481,13 +491,13 @@
               "desc": "{Skill:1621003, Prop:1002}",
               "param": {
                 "1621003": {
-                  "main": 16050,
-                  "growth": 730,
+                  "main": 10160,
+                  "growth": 470,
                   "format": "%",
-                  "damage_percentage": 26240,
-                  "damage_percentage_growth": 2390,
-                  "stun_ratio": 16050,
-                  "stun_ratio_growth": 730,
+                  "damage_percentage": 15790,
+                  "damage_percentage_growth": 1440,
+                  "stun_ratio": 10160,
+                  "stun_ratio_growth": 470,
                   "sp_recovery": 52520,
                   "sp_recovery_growth": 0,
                   "fever_recovery": 452100,
@@ -501,19 +511,25 @@
                 }
               },
               "potential": []
-            },
+            }
+          ],
+          "potential": []
+        },
+        {
+          "name": "Basic Attack: Meteor Hammer",
+          "param": [
             {
-              "name": "4th-Hit DMG Multiplier",
+              "name": "DMG Multiplier",
               "desc": "{Skill:1621004, Prop:1001}",
               "param": {
                 "1621004": {
-                  "main": 29020,
-                  "growth": 2640,
+                  "main": 19030,
+                  "growth": 1730,
                   "format": "%",
-                  "damage_percentage": 29020,
-                  "damage_percentage_growth": 2640,
-                  "stun_ratio": 19820,
-                  "stun_ratio_growth": 910,
+                  "damage_percentage": 19030,
+                  "damage_percentage_growth": 1730,
+                  "stun_ratio": 14190,
+                  "stun_ratio_growth": 650,
                   "sp_recovery": 64860,
                   "sp_recovery_growth": 0,
                   "fever_recovery": 444950,
@@ -529,17 +545,17 @@
               "potential": []
             },
             {
-              "name": "4th-Hit Daze Multiplier",
+              "name": "Daze Multiplier",
               "desc": "{Skill:1621004, Prop:1002}",
               "param": {
                 "1621004": {
-                  "main": 19820,
-                  "growth": 910,
+                  "main": 14190,
+                  "growth": 650,
                   "format": "%",
-                  "damage_percentage": 29020,
-                  "damage_percentage_growth": 2640,
-                  "stun_ratio": 19820,
-                  "stun_ratio_growth": 910,
+                  "damage_percentage": 19030,
+                  "damage_percentage_growth": 1730,
+                  "stun_ratio": 14190,
+                  "stun_ratio_growth": 650,
                   "sp_recovery": 64860,
                   "sp_recovery_growth": 0,
                   "fever_recovery": 444950,
@@ -553,7 +569,13 @@
                 }
               },
               "potential": []
-            },
+            }
+          ],
+          "potential": []
+        },
+        {
+          "name": "Basic Attack: Cyclone Hammer",
+          "param": [
             {
               "name": "DMG Multiplier",
               "desc": "{Skill:1621005, Prop:1001}",
@@ -675,6 +697,122 @@
           "name": "Dodge Counter: Headwind",
           "desc": "Press <IconMap:Icon_Normal> during a Perfect Dodge to activate:\nStrike enemies in front, dealing <color=#A6C5FD>Wind DMG</color>.\nCharacter is invulnerable while using this skill.",
           "potential": []
+        },
+        {
+          "name": "Dash Attack: Wind Chaser",
+          "param": [
+            {
+              "name": "DMG Multiplier",
+              "desc": "{Skill:1621011, Prop:1001}",
+              "param": {
+                "1621011": {
+                  "main": 5530,
+                  "growth": 510,
+                  "format": "%",
+                  "damage_percentage": 5530,
+                  "damage_percentage_growth": 510,
+                  "stun_ratio": 4680,
+                  "stun_ratio_growth": 220,
+                  "sp_recovery": 15300,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 116875,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 4248,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 4249
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "Daze Multiplier",
+              "desc": "{Skill:1621011, Prop:1002}",
+              "param": {
+                "1621011": {
+                  "main": 4680,
+                  "growth": 220,
+                  "format": "%",
+                  "damage_percentage": 5530,
+                  "damage_percentage_growth": 510,
+                  "stun_ratio": 4680,
+                  "stun_ratio_growth": 220,
+                  "sp_recovery": 15300,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 116875,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 4248,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 4249
+                }
+              },
+              "potential": []
+            }
+          ],
+          "potential": []
+        },
+        {
+          "name": "Dodge Counter: Headwind",
+          "param": [
+            {
+              "name": "DMG Multiplier",
+              "desc": "{Skill:1621012, Prop:1001}",
+              "param": {
+                "1621012": {
+                  "main": 31850,
+                  "growth": 2900,
+                  "format": "%",
+                  "damage_percentage": 31850,
+                  "damage_percentage_growth": 2900,
+                  "stun_ratio": 26950,
+                  "stun_ratio_growth": 1230,
+                  "sp_recovery": 52200,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 398750,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 14500,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 29500
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "Daze Multiplier",
+              "desc": "{Skill:1621012, Prop:1002}",
+              "param": {
+                "1621012": {
+                  "main": 26950,
+                  "growth": 1230,
+                  "format": "%",
+                  "damage_percentage": 31850,
+                  "damage_percentage_growth": 2900,
+                  "stun_ratio": 26950,
+                  "stun_ratio_growth": 1230,
+                  "sp_recovery": 52200,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 398750,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 14500,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 29500
+                }
+              },
+              "potential": []
+            }
+          ],
+          "potential": []
         }
       ],
       "material": {
@@ -735,122 +873,478 @@
         },
         {
           "name": "EX Special Attack: Rising Wind",
-          "desc": "With enough Energy, press <IconMap:Icon_SpecialReady> to activate:\nFires a wind cannon forward, dealing <color=#A6C5FD>Wind DMG</color>.\nThe wind cannon explodes upon hitting the ground, dealing <color=#A6C5FD>Wind DMG</color>. When fired, it consumes all <color=#ffffff>[Wind Energy]</color>, causing additional explosions on the ground. Each 1 point of <color=#ffffff>[Wind Energy]</color> causes 1 explosion, up to a maximum of 3 explosions. Each explosion generates 1 <color=#ffffff>[Eye of the Storm]</color> at its location.\nUp to 3 <color=#ffffff>[Eye of the Storm]</color> can exist on the field simultaneously. <color=#ffffff>[Eye of the Storm]</color> lasts 30 seconds.\nWhen <color=#ffffff>[Wind Energy]</color> is available, automatically chains into <color=#ffffff>[EX Special Attack: Wind Cannon]</color>.",
+          "desc": "With enough Energy, press <IconMap:Icon_SpecialReady> to activate:\nSlides forward, dealing <color=#A6C5FD>Wind DMG</color>.\nWhen <color=#ffffff>[Wind Energy]</color> is available, automatically follows up with <color=#ffffff>[EX Special Attack: Wind Cannon]</color>;\nWhen <color=#ffffff>[Wind Energy]</color> is unavailable, automatically follows up with <color=#ffffff>[Basic Attack: Meteor Hammer]</color>;\nCharacter is invulnerable during the skill's attack.",
           "potential": []
         },
         {
           "name": "EX Special Attack: Riding the Wind",
-          "desc": "With enough energy, hold <IconMap:Icon_SpecialReady> to activate:\nRoxy generates a tornado. Keep holding <IconMap:Icon_SpecialReady> and drag the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} to control the tornado's movement direction. During this time, Energy is continuously consumed and <color=#A6C5FD>Wind DMG</color> is dealt to enemies in its path.\nStops when Energy is depleted, or when <IconMap:Icon_SpecialReady> is released without dragging the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick}.\nAfter stopping, fires a wind cannon with the same effect as <color=#ffffff>[EX Special Attack: Rising Wind]</color>.\nWhen <color=#ffffff>[Wind Energy]</color> exists, automatically chains into <color=#ffffff>[EX Special Attack: Wind Cannon]</color>; when <color=#ffffff>[Wind Energy]</color> does not exist, automatically chains into <color=#ffffff>[Basic Attack: Meteor Hammer]</color>.",
+          "desc": "With enough energy, hold <IconMap:Icon_SpecialReady> to activate:\nRoxy generates a tornado. Keep holding <IconMap:Icon_SpecialReady> and drag the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} to control the tornado's movement direction. Energy is continuously consumed during this time, dealing <color=#A6C5FD>Wind DMG</color> to enemies in its path.\nThe attack stops when Energy is depleted, or when <IconMap:Icon_SpecialReady> is released without dragging the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick}.\nIf <color=#ffffff>[Wind Energy]</color> exists after stopping, automatically chains into <color=#ffffff>[EX Special Attack: Wind Cannon]</color>.\nIf <color=#ffffff>[Wind Energy]</color> does not exist, automatically chains into <color=#ffffff>[Basic Attack: Meteor Hammer]</color>.\nCharacter is invulnerable during the skill attack.",
           "potential": []
         },
         {
           "name": "EX Special Attack: Wind Cannon",
-          "desc": "When <color=#ffffff>[Wind Energy]</color> exists at the end of <color=#ffffff>[EX Special Attack: Rising Wind]</color> or <color=#ffffff>[EX Special Attack: Riding Wind]</color>, automatically activates:\nFires a wind cannon forward, dealing <color=#A6C5FD>Wind DMG</color>.\nWhen the wind cannon hits the ground, it explodes, dealing <color=#A6C5FD>Wind DMG</color>; all <color=#ffffff>[Wind Energy]</color> is consumed when firing the wind cannon, causing additional explosions on the ground. Each 1 point of <color=#ffffff>[Wind Energy]</color> causes 1 explosion, up to a maximum of 3 explosions. Each explosion generates 1 <color=#ffffff>[Eye of the Storm]</color> at the point of impact.\nUp to 3 <color=#ffffff>[Eye of the Storm]</color> can exist on the field at the same time. <color=#ffffff>[Eye of the Storm]</color> lasts for 30s.",
+          "desc": "When <color=#ffffff>[EX Special Attack: Rising Wind]</color> or <color=#ffffff>[EX Special Attack: Riding Wind]</color> ends and <color=#ffffff>[Wind Energy]</color> exists, automatically activates:\nConsumes all <color=#ffffff>[Wind Energy]</color> to fire a wind cannon forward, dealing <color=#A6C5FD>Wind DMG</color>;\nThis skill consumes 1 <color=#ffffff>[Eye of the Storm]</color>, dealing an instance of <color=#A6C5FD>Wind DMG</color> after the attack, and generates 1 <color=#ffffff>[Eye of the Storm]</color> at the current location;\nCharacter is invulnerable during the skill's attack.",
           "potential": []
         },
         {
-          "name": "Energy Cost",
+          "name": "Eye of the Wind",
+          "desc": "<color=#ffffff>[EX Special Attack: Wind Cannon]</color> Generated after consuming <color=#ffffff>[Wind Energy]</color>, lasts 30 seconds;\nWhen hit by <color=#ffffff>[Basic Attack: Cyclone Hammer]</color>, it will be destroyed and generate a small tornado that continuously tracks enemies and deals <color=#A6C5FD>Wind DMG</color>;\n<color=#ffffff>[Wind Eye]</color> can be pulled by <color=#ffffff>[Basic Attack: Cyclone Hammer]</color> and the charge phase of <color=#ffffff>[Basic Attack: Cyclone Hammer]</color>;\nWhen destroyed by any means, <color=#ffffff>[Wind Eye]</color> deals <color=#A6C5FD>Wind DMG</color> to nearby enemies.",
+          "potential": []
+        },
+        {
+          "name": "Special Attack: Wind Gather",
           "param": [
             {
               "name": "DMG Multiplier",
-              "desc": "{Skill:1621012, Prop:1001}",
+              "desc": "{Skill:1621007, Prop:1001}",
               "param": {
-                "1621012": {
-                  "main": 31850,
-                  "growth": 2900,
+                "1621007": {
+                  "main": 5530,
+                  "growth": 510,
                   "format": "%",
-                  "damage_percentage": 31850,
-                  "damage_percentage_growth": 2900,
-                  "stun_ratio": 26950,
-                  "stun_ratio_growth": 1230,
-                  "sp_recovery": 52200,
+                  "damage_percentage": 5530,
+                  "damage_percentage_growth": 510,
+                  "stun_ratio": 4680,
+                  "stun_ratio_growth": 220,
+                  "sp_recovery": 0,
                   "sp_recovery_growth": 0,
-                  "fever_recovery": 398750,
+                  "fever_recovery": 233750,
                   "fever_recovery_growth": 0,
-                  "attribute_infliction": 14500,
+                  "attribute_infliction": 4248,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
-                  "ether_purify": 29500
+                  "ether_purify": 4249
                 }
               },
               "potential": []
             },
             {
               "name": "Daze Multiplier",
-              "desc": "{Skill:1621012, Prop:1002}",
+              "desc": "{Skill:1621007, Prop:1002}",
               "param": {
-                "1621012": {
-                  "main": 26950,
-                  "growth": 1230,
+                "1621007": {
+                  "main": 4680,
+                  "growth": 220,
                   "format": "%",
-                  "damage_percentage": 31850,
-                  "damage_percentage_growth": 2900,
-                  "stun_ratio": 26950,
-                  "stun_ratio_growth": 1230,
-                  "sp_recovery": 52200,
+                  "damage_percentage": 5530,
+                  "damage_percentage_growth": 510,
+                  "stun_ratio": 4680,
+                  "stun_ratio_growth": 220,
+                  "sp_recovery": 0,
                   "sp_recovery_growth": 0,
-                  "fever_recovery": 398750,
+                  "fever_recovery": 233750,
                   "fever_recovery_growth": 0,
-                  "attribute_infliction": 14500,
+                  "attribute_infliction": 4248,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
-                  "ether_purify": 29500
+                  "ether_purify": 4249
                 }
               },
               "potential": []
-            },
+            }
+          ],
+          "potential": []
+        },
+        {
+          "name": "EX Special Attack: Rising Wind",
+          "param": [
             {
               "name": "DMG Multiplier",
-              "desc": "{Skill:1621013, Prop:1001}",
+              "desc": "{Skill:1621008, Prop:1001}*0.3",
               "param": {
-                "1621013": {
-                  "main": 84150,
-                  "growth": 7650,
+                "1621008": {
+                  "main": 120920,
+                  "growth": 11000,
                   "format": "%",
-                  "damage_percentage": 84150,
-                  "damage_percentage_growth": 7650,
-                  "stun_ratio": 27320,
-                  "stun_ratio_growth": 1250,
+                  "damage_percentage": 120920,
+                  "damage_percentage_growth": 11000,
+                  "stun_ratio": 80320,
+                  "stun_ratio_growth": 3660,
                   "sp_recovery": 0,
                   "sp_recovery_growth": 0,
-                  "fever_recovery": 2511575,
+                  "fever_recovery": 1970100,
                   "fever_recovery_growth": 0,
-                  "attribute_infliction": 44779,
+                  "attribute_infliction": 61697,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
-                  "ether_purify": 24830
+                  "ether_purify": 38501
                 }
               },
               "potential": []
             },
             {
               "name": "Daze Multiplier",
-              "desc": "{Skill:1621013, Prop:1002}",
+              "desc": "{Skill:1621008, Prop:1002}*0.3",
               "param": {
-                "1621013": {
-                  "main": 27320,
-                  "growth": 1250,
+                "1621008": {
+                  "main": 80320,
+                  "growth": 3660,
                   "format": "%",
-                  "damage_percentage": 84150,
-                  "damage_percentage_growth": 7650,
-                  "stun_ratio": 27320,
-                  "stun_ratio_growth": 1250,
+                  "damage_percentage": 120920,
+                  "damage_percentage_growth": 11000,
+                  "stun_ratio": 80320,
+                  "stun_ratio_growth": 3660,
                   "sp_recovery": 0,
                   "sp_recovery_growth": 0,
-                  "fever_recovery": 2511575,
+                  "fever_recovery": 1970100,
                   "fever_recovery_growth": 0,
-                  "attribute_infliction": 44779,
+                  "attribute_infliction": 61697,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
-                  "ether_purify": 24830
+                  "ether_purify": 38501
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "Energy Cost",
+              "desc": "20",
+              "potential": []
+            }
+          ],
+          "potential": []
+        },
+        {
+          "name": "EX Special Attack: Riding the Wind",
+          "param": [
+            {
+              "name": "DMG Multiplier",
+              "desc": "{Skill:1621008, Prop:1001}*0.7",
+              "param": {
+                "1621008": {
+                  "main": 120920,
+                  "growth": 11000,
+                  "format": "%",
+                  "damage_percentage": 120920,
+                  "damage_percentage_growth": 11000,
+                  "stun_ratio": 80320,
+                  "stun_ratio_growth": 3660,
+                  "sp_recovery": 0,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 1970100,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 61697,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 38501
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "Daze Multiplier",
+              "desc": "{Skill:1621008, Prop:1002}*0.7",
+              "param": {
+                "1621008": {
+                  "main": 80320,
+                  "growth": 3660,
+                  "format": "%",
+                  "damage_percentage": 120920,
+                  "damage_percentage_growth": 11000,
+                  "stun_ratio": 80320,
+                  "stun_ratio_growth": 3660,
+                  "sp_recovery": 0,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 1970100,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 61697,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 38501
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "Fixed Energy Cost",
+              "desc": "20",
+              "potential": []
+            },
+            {
+              "name": "Large Tornado DMG Multiplier Per Second",
+              "desc": "{Skill:1621010, Prop:1001}*1.22449",
+              "param": {
+                "1621010": {
+                  "main": 65710,
+                  "growth": 5980,
+                  "format": "%",
+                  "damage_percentage": 65710,
+                  "damage_percentage_growth": 5980,
+                  "stun_ratio": 33600,
+                  "stun_ratio_growth": 1530,
+                  "sp_recovery": 0,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 224675,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 2858,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 8167
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "Large Tornado Daze Multiplier Per Second",
+              "desc": "{Skill:1621010, Prop:1002}*1.22449",
+              "param": {
+                "1621010": {
+                  "main": 33600,
+                  "growth": 1530,
+                  "format": "%",
+                  "damage_percentage": 65710,
+                  "damage_percentage_growth": 5980,
+                  "stun_ratio": 33600,
+                  "stun_ratio_growth": 1530,
+                  "sp_recovery": 0,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 224675,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 2858,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 8167
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "Energy Cost Per Second",
+              "desc": "20",
+              "potential": []
+            }
+          ],
+          "potential": []
+        },
+        {
+          "name": "EX Special Attack: Wind Cannon",
+          "param": [
+            {
+              "name": "DMG Multiplier",
+              "desc": "{Skill:1621008, Prop:1001}*0.3",
+              "param": {
+                "1621008": {
+                  "main": 120920,
+                  "growth": 11000,
+                  "format": "%",
+                  "damage_percentage": 120920,
+                  "damage_percentage_growth": 11000,
+                  "stun_ratio": 80320,
+                  "stun_ratio_growth": 3660,
+                  "sp_recovery": 0,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 1970100,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 61697,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 38501
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "Daze Multiplier",
+              "desc": "{Skill:1621008, Prop:1002}*0.3",
+              "param": {
+                "1621008": {
+                  "main": 80320,
+                  "growth": 3660,
+                  "format": "%",
+                  "damage_percentage": 120920,
+                  "damage_percentage_growth": 11000,
+                  "stun_ratio": 80320,
+                  "stun_ratio_growth": 3660,
+                  "sp_recovery": 0,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 1970100,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 61697,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 38501
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "Additional Explosion DMG Multiplier",
+              "desc": "{Skill:1621009, Prop:1001}",
+              "param": {
+                "1621009": {
+                  "main": 6500,
+                  "growth": 600,
+                  "format": "%",
+                  "damage_percentage": 6500,
+                  "damage_percentage_growth": 600,
+                  "stun_ratio": 2750,
+                  "stun_ratio_growth": 130,
+                  "sp_recovery": 0,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 0,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 0,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 0
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "Additional Explosion Daze Multiplier",
+              "desc": "{Skill:1621009, Prop:1002}",
+              "param": {
+                "1621009": {
+                  "main": 2750,
+                  "growth": 130,
+                  "format": "%",
+                  "damage_percentage": 6500,
+                  "damage_percentage_growth": 600,
+                  "stun_ratio": 2750,
+                  "stun_ratio_growth": 130,
+                  "sp_recovery": 0,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 0,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 0,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 0
+                }
+              },
+              "potential": []
+            }
+          ],
+          "potential": []
+        },
+        {
+          "name": "Eye of the Wind",
+          "param": [
+            {
+              "name": "DMG Multiplier on Destruction",
+              "desc": "{Skill:1621021, Prop:1001}",
+              "param": {
+                "1621021": {
+                  "main": 6500,
+                  "growth": 600,
+                  "format": "%",
+                  "damage_percentage": 6500,
+                  "damage_percentage_growth": 600,
+                  "stun_ratio": 2750,
+                  "stun_ratio_growth": 130,
+                  "sp_recovery": 0,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 0,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 0,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 0
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "Daze Multiplier on Destroy",
+              "desc": "{Skill:1621021, Prop:1002}",
+              "param": {
+                "1621021": {
+                  "main": 2750,
+                  "growth": 130,
+                  "format": "%",
+                  "damage_percentage": 6500,
+                  "damage_percentage_growth": 600,
+                  "stun_ratio": 2750,
+                  "stun_ratio_growth": 130,
+                  "sp_recovery": 0,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 0,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 0,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 0
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "Mini Tornado DMG Multiplier Per Second",
+              "desc": "{Skill:1621006, Prop:1001}/2",
+              "param": {
+                "1621006": {
+                  "main": 16900,
+                  "growth": 1540,
+                  "format": "%",
+                  "damage_percentage": 16900,
+                  "damage_percentage_growth": 1540,
+                  "stun_ratio": 37130,
+                  "stun_ratio_growth": 1690,
+                  "sp_recovery": 0,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 0,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 0,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 0
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "Mini Tornado Daze Multiplier Per Second",
+              "desc": "{Skill:1621006, Prop:1002}/2",
+              "param": {
+                "1621006": {
+                  "main": 37130,
+                  "growth": 1690,
+                  "format": "%",
+                  "damage_percentage": 16900,
+                  "damage_percentage_growth": 1540,
+                  "stun_ratio": 37130,
+                  "stun_ratio_growth": 1690,
+                  "sp_recovery": 0,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 0,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 0,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 0
                 }
               },
               "potential": []
@@ -917,7 +1411,123 @@
         },
         {
           "name": "Ultimate: Storm Rampage",
-          "desc": "When Decibel Rating is at Maximum, press <IconMap:Icon_Ultimate> to activate:\nUnleashes a powerful strike at enemies in front in a large area, dealing massive <color=#A6C5FD>Wind DMG</color>.\nCharacter is invulnerable while using this skill.",
+          "desc": "When Decibel Rating is at Maximum, press <IconMap:Icon_UltimateReady> to activate:\nUnleashes a powerful strike at enemies in front in a large area, dealing massive <color=#A6C5FD>Wind DMG</color>.\nCharacter is invulnerable while using this skill.",
+          "potential": []
+        },
+        {
+          "name": "Chain Attack: Storm Incoming",
+          "param": [
+            {
+              "name": "DMG Multiplier",
+              "desc": "{Skill:1621013, Prop:1001}",
+              "param": {
+                "1621013": {
+                  "main": 123150,
+                  "growth": 11200,
+                  "format": "%",
+                  "damage_percentage": 123150,
+                  "damage_percentage_growth": 11200,
+                  "stun_ratio": 27320,
+                  "stun_ratio_growth": 1250,
+                  "sp_recovery": 0,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 2511575,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 44779,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 24830
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "Daze Multiplier",
+              "desc": "{Skill:1621013, Prop:1002}",
+              "param": {
+                "1621013": {
+                  "main": 27320,
+                  "growth": 1250,
+                  "format": "%",
+                  "damage_percentage": 123150,
+                  "damage_percentage_growth": 11200,
+                  "stun_ratio": 27320,
+                  "stun_ratio_growth": 1250,
+                  "sp_recovery": 0,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 2511575,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 44779,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 24830
+                }
+              },
+              "potential": []
+            }
+          ],
+          "potential": []
+        },
+        {
+          "name": "Ultimate: Storm Rampage",
+          "param": [
+            {
+              "name": "DMG Multiplier",
+              "desc": "{Skill:1621014, Prop:1001}",
+              "param": {
+                "1621014": {
+                  "main": 290710,
+                  "growth": 26430,
+                  "format": "%",
+                  "damage_percentage": 290710,
+                  "damage_percentage_growth": 26430,
+                  "stun_ratio": 105490,
+                  "stun_ratio_growth": 4800,
+                  "sp_recovery": 0,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 0,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 18166,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 68167
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "Daze Multiplier",
+              "desc": "{Skill:1621014, Prop:1002}",
+              "param": {
+                "1621014": {
+                  "main": 105490,
+                  "growth": 4800,
+                  "format": "%",
+                  "damage_percentage": 290710,
+                  "damage_percentage_growth": 26430,
+                  "stun_ratio": 105490,
+                  "stun_ratio_growth": 4800,
+                  "sp_recovery": 0,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 0,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 18166,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 68167
+                }
+              },
+              "potential": []
+            }
+          ],
           "potential": []
         }
       ],
@@ -986,6 +1596,180 @@
           "name": "Assist Follow-Up: Windbreak",
           "desc": "After launching a <color=#ffffff>[Defensive Assist]</color>, Press <IconMap:Icon_Normal> to activate:\nLaunches a Strike forward, dealing <color=#A6C5FD>Wind DMG</color>.",
           "potential": []
+        },
+        {
+          "name": "Quick Assist: Gale Cover",
+          "param": [
+            {
+              "name": "DMG Multiplier",
+              "desc": "{Skill:1621015, Prop:1001}",
+              "param": {
+                "1621015": {
+                  "main": 5740,
+                  "growth": 530,
+                  "format": "%",
+                  "damage_percentage": 5740,
+                  "damage_percentage_growth": 530,
+                  "stun_ratio": 4860,
+                  "stun_ratio_growth": 230,
+                  "sp_recovery": 15900,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 121550,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 4414,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 4415
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "Daze Multiplier",
+              "desc": "{Skill:1621015, Prop:1002}",
+              "param": {
+                "1621015": {
+                  "main": 4860,
+                  "growth": 230,
+                  "format": "%",
+                  "damage_percentage": 5740,
+                  "damage_percentage_growth": 530,
+                  "stun_ratio": 4860,
+                  "stun_ratio_growth": 230,
+                  "sp_recovery": 15900,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 121550,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 4414,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 4415
+                }
+              },
+              "potential": []
+            }
+          ],
+          "potential": []
+        },
+        {
+          "name": "Defensive Assist: Wind Wall",
+          "param": [
+            {
+              "name": "Light Defensive Daze Multiplier",
+              "desc": "{Skill:1621016, Prop:1002}",
+              "param": {
+                "1621016": {
+                  "main": 27130,
+                  "growth": 1240,
+                  "format": "%",
+                  "damage_percentage": 0,
+                  "damage_percentage_growth": 0,
+                  "stun_ratio": 27130,
+                  "stun_ratio_growth": 1240,
+                  "sp_recovery": 0,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 0,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 0,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 36664
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "Heavy Defensive Daze Multiplier",
+              "desc": "{Skill:1621017, Prop:1002}",
+              "param": {
+                "1621017": {
+                  "main": 34280,
+                  "growth": 1560,
+                  "format": "%",
+                  "damage_percentage": 0,
+                  "damage_percentage_growth": 0,
+                  "stun_ratio": 34280,
+                  "stun_ratio_growth": 1560,
+                  "sp_recovery": 0,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 0,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 0,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 41664
+                }
+              },
+              "potential": []
+            }
+          ],
+          "potential": []
+        },
+        {
+          "name": "Assist Follow-Up: Windbreak",
+          "param": [
+            {
+              "name": "DMG Multiplier",
+              "desc": "{Skill:1621019, Prop:1001}",
+              "param": {
+                "1621019": {
+                  "main": 64510,
+                  "growth": 5870,
+                  "format": "%",
+                  "damage_percentage": 64510,
+                  "damage_percentage_growth": 5870,
+                  "stun_ratio": 48500,
+                  "stun_ratio_growth": 2210,
+                  "sp_recovery": 0,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 1516625,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 46851,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 27504
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "Daze Multiplier",
+              "desc": "{Skill:1621019, Prop:1002}",
+              "param": {
+                "1621019": {
+                  "main": 48500,
+                  "growth": 2210,
+                  "format": "%",
+                  "damage_percentage": 64510,
+                  "damage_percentage_growth": 5870,
+                  "stun_ratio": 48500,
+                  "stun_ratio_growth": 2210,
+                  "sp_recovery": 0,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 1516625,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 46851,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 27504
+                }
+              },
+              "potential": []
+            }
+          ],
+          "potential": []
         }
       ],
       "material": {
@@ -1046,12 +1830,12 @@
         "level": 1,
         "id": 1621501,
         "name": [
-          "Core Passive: Eye of the Wind",
+          "Core Passive:",
           "Additional Ability: PlaceHolder"
         ],
         "desc": [
-          "While \"Roxy\" activates <color=#ffffff>[EX Special Attack: Ride the Wind]</color>, Energy is continuously consumed. For every 30 Energy consumed, she gains 1 <color=#ffffff>[Wind Energy]</color> point, up to a maximum of 3.\nWhen an on-field <color=#ffffff>[Eye of the Storm]</color> is hit by <color=#ffffff>[Basic Attack: Cyclone Hammer]</color>, <color=#ffffff>[EX Special Attack: Wind Cannon]</color>, or <color=#ffffff>[Entry Skill]</color>, it transforms into a small tornado that tracks enemies and continuously deals <color=#A6C5FD>Wind DMG</color> for 5s.\nAll of Roxy's skills deal <color=#A6C5FD>Wind DMG</color>.",
-          "PlaceHolder"
+          "For every 30 Energy consumed, gain 1 <color=#ffffff>[Wind Energy]</color>. <color=#ffffff>[Wind Energy]</color> caps at 3.\nWhen Roxy's initial DEF exceeds 1,500, each point of DEF above that increases ATK by <color=#POSITIVE_WITH_GREYITE>1.4</color> and Impact by <color=#POSITIVE_WITH_GREYITE>0.2</color>, up to a maximum increase of <color=#POSITIVE_WITH_GREYITE>1,000</color> ATK and <color=#POSITIVE_WITH_GREYITE>60</color> Impact;\nWhen CRIT Rate is at or above 65% during combat, her Anomaly Buildup Rate increases by <color=#POSITIVE_WITH_GREYITE>60%</color>; other non-<color=#FFFFFF>[Armorer]</color> Characters in the team gain <color=#POSITIVE_WITH_GREYITE>32%</color> increased CRIT DMG, and <color=#FFFFFF>[Armorer]</color> Characters gain <color=#POSITIVE_WITH_GREYITE>16%</color> increased CRIT Rate, lasting until 30s after combat ends.",
+          "When another character in your squad is an <color=#FFFFFF>[Attack]</color> Character or <color=#FFFFFF>[Armorer]</color> Character:\nRoxy's CRIT DMG increases by 10%. This effect scales with character Lv., increasing by 2% per level, up to a maximum increase of 130%;\nWhen any ally hits an enemy, their Daze Vulnerability increases by 30%. When they become Stunned, their Stun duration is extended by 2s;\nWhen an enemy is affected by <color=#FFFFFF>[Windswept]</color> or <color=#FFFFFF>[Contamination]</color>, the <color=#A6C5FD>Wind attribute direct DMG</color> and direct attack DMG that triggers [Contamination] attribute dealt to the enemy is additionally increased by 10%."
         ],
         "extra_property": {},
         "potential": []
@@ -1060,12 +1844,12 @@
         "level": 2,
         "id": 1621502,
         "name": [
-          "Core Passive: Eye of the Wind",
+          "Core Passive:",
           "Additional Ability: PlaceHolder"
         ],
         "desc": [
-          "While \"Roxy\" activates <color=#ffffff>[EX Special Attack: Ride the Wind]</color>, Energy is continuously consumed. For every 30 Energy consumed, she gains 1 <color=#ffffff>[Wind Energy]</color> point. <color=#ffffff>[Wind Energy]</color> caps at 3 points.\nWhen a <color=#ffffff>[Wind Eye]</color> on the field is hit by <color=#ffffff>[Basic Attack: Cyclone Hammer]</color>, <color=#ffffff>[EX Special Attack: Wind Cannon]</color>, or <color=#ffffff>[Entry Skill]</color>, it transforms into a small tornado that tracks enemies and continuously deals <color=#A6C5FD>Wind DMG</color> for 5s.\nAll of Roxy's skills deal <color=#A6C5FD>Wind DMG</color>.",
-          "PlaceHolder"
+          "For every 30 Energy consumed, gain 1 <color=#ffffff>[Wind Energy]</color>. <color=#ffffff>[Wind Energy]</color> has a maximum of 3 points.\nWhen Roxy's initial DEF exceeds 1,500 points, each point of DEF over the threshold increases ATK by <color=#POSITIVE_WITH_GREYITE>1.4</color> and Impact by <color=#POSITIVE_WITH_GREYITE>0.2</color>, up to a maximum increase of <color=#POSITIVE_WITH_GREYITE>1,000</color> ATK and <color=#POSITIVE_WITH_GREYITE>60</color> Impact;\nWhen CRIT Rate is equal to or greater than 65% during combat, Anomaly Buildup Rate is increased by <color=#POSITIVE_WITH_GREYITE>60%</color>; CRIT DMG of other non-<color=#FFFFFF>[Armorer]</color> Characters in the squad is increased by <color=#POSITIVE_WITH_GREYITE>32%</color>, and CRIT Rate of <color=#FFFFFF>[Armorer]</color> Characters is increased by <color=#POSITIVE_WITH_GREYITE>16%</color>, lasting until 30 seconds after combat ends.",
+          "When another character in your squad is an <color=#FFFFFF>[Attack]</color> Character or <color=#FFFFFF>[Armorer]</color> Character:\nRoxy's CRIT DMG increases by 10%. This effect scales with character Lv., increasing by 2% per level, up to a maximum increase of 130%;\nWhen any ally hits an enemy, their Daze Vulnerability increases by 30%. When they become Stunned, their Stun duration is extended by 2s;\nWhen an enemy is affected by <color=#FFFFFF>[Windswept]</color> or <color=#FFFFFF>[Contamination]</color>, the <color=#A6C5FD>Wind attribute direct DMG</color> and direct attack DMG that triggers [Contamination] attribute dealt to the enemy is additionally increased by 10%."
         ],
         "extra_property": {},
         "potential": []
@@ -1074,12 +1858,12 @@
         "level": 3,
         "id": 1621503,
         "name": [
-          "Core Passive: Eye of the Wind",
+          "Core Passive:",
           "Additional Ability: PlaceHolder"
         ],
         "desc": [
-          "While \"Roxy\" activates <color=#ffffff>[EX Special Attack: Ride the Wind]</color>, Energy is continuously consumed. For every 30 Energy consumed, she gains 1 <color=#ffffff>[Wind Energy]</color> point. <color=#ffffff>[Wind Energy]</color> caps at 3 points.\nWhen a <color=#ffffff>[Wind Eye]</color> on the field is hit by <color=#ffffff>[Basic Attack: Cyclone Hammer]</color>, <color=#ffffff>[EX Special Attack: Wind Cannon]</color>, or <color=#ffffff>[Entry Skill]</color>, it transforms into a small tornado that tracks enemies and continuously deals <color=#A6C5FD>Wind DMG</color> for 5s.\nAll of Roxy's skills deal <color=#A6C5FD>Wind DMG</color>.",
-          "PlaceHolder"
+          "For every 30 Energy consumed, gain 1 <color=#ffffff>[Wind Energy]</color>. <color=#ffffff>[Wind Energy]</color> cap is 3.\nWhen Roxy's initial DEF exceeds 1,500, each point of DEF above that increases ATK by <color=#POSITIVE_WITH_GREYITE>1.4</color> and Impact by <color=#POSITIVE_WITH_GREYITE>0.2</color>, up to a maximum increase of <color=#POSITIVE_WITH_GREYITE>1,000</color> ATK and <color=#POSITIVE_WITH_GREYITE>60</color> Impact;\nWhen CRIT Rate is at or above 65% during combat, Anomaly Buildup Rate increases by <color=#POSITIVE_WITH_GREYITE>60%</color>; CRIT DMG of other non-<color=#FFFFFF>[Armorer]</color> Characters in the team increases by <color=#POSITIVE_WITH_GREYITE>32%</color>, and CRIT Rate of <color=#FFFFFF>[Armorer]</color> Characters increases by <color=#POSITIVE_WITH_GREYITE>16%</color>, lasting until 30s after combat ends.",
+          "When another character in your squad is an <color=#FFFFFF>[Attack]</color> Character or <color=#FFFFFF>[Armorer]</color> Character:\nRoxy's CRIT DMG increases by 10%. This effect scales with character Lv., increasing by 2% per level, up to a maximum increase of 130%;\nWhen any ally hits an enemy, their Daze Vulnerability increases by 30%. When they become Stunned, their Stun duration is extended by 2s;\nWhen an enemy is affected by <color=#FFFFFF>[Windswept]</color> or <color=#FFFFFF>[Contamination]</color>, the <color=#A6C5FD>Wind attribute direct DMG</color> and direct attack DMG that triggers [Contamination] attribute dealt to the enemy is additionally increased by 10%."
         ],
         "extra_property": {},
         "potential": []
@@ -1088,12 +1872,12 @@
         "level": 4,
         "id": 1621504,
         "name": [
-          "Core Passive: Eye of the Wind",
+          "Core Passive:",
           "Additional Ability: PlaceHolder"
         ],
         "desc": [
-          "While \"Roxy\" activates <color=#ffffff>[EX Special Attack: Ride the Wind]</color>, Energy is continuously consumed. For every 30 Energy consumed, she gains 1 point of <color=#ffffff>[Wind Energy]</color>. <color=#ffffff>[Wind Energy]</color> caps at 3 points.\nWhen <color=#ffffff>[Eye of the Storm]</color> on the field is hit by <color=#ffffff>[Basic Attack: Cyclone Hammer]</color>, <color=#ffffff>[EX Special Attack: Wind Cannon]</color>, or <color=#ffffff>[Entry Skill]</color>, it transforms into a small tornado that tracks enemies and continuously deals <color=#A6C5FD>Wind DMG</color> for 5s.\nAll of Roxy's skills deal <color=#A6C5FD>Wind DMG</color>.",
-          "PlaceHolder"
+          "For every 30 Energy consumed, gain 1 <color=#ffffff>[Wind Energy]</color>. <color=#ffffff>[Wind Energy]</color> has an upper limit of 3.\nWhen Roxy's initial DEF exceeds 1,500, each point of DEF beyond that increases ATK by <color=#POSITIVE_WITH_GREYITE>1.4</color> and Impact by <color=#POSITIVE_WITH_GREYITE>0.2</color>, up to a maximum increase of <color=#POSITIVE_WITH_GREYITE>1,000</color> ATK and <color=#POSITIVE_WITH_GREYITE>60</color> Impact;\nWhen CRIT Rate is at or above 65% during combat, her Anomaly Buildup Rate increases by <color=#POSITIVE_WITH_GREYITE>60%</color>; other non-<color=#FFFFFF>[Armorer]</color> Characters in the team gain <color=#POSITIVE_WITH_GREYITE>32%</color> increased CRIT DMG, and <color=#FFFFFF>[Armorer]</color> Characters gain <color=#POSITIVE_WITH_GREYITE>16%</color> increased CRIT Rate. This effect persists until 30 seconds after combat ends.",
+          "When another character in your squad is an <color=#FFFFFF>[Attack]</color> Character or <color=#FFFFFF>[Armorer]</color> Character:\nRoxy's CRIT DMG increases by 10%. This effect scales with character Lv., increasing by 2% per level, up to a maximum increase of 130%;\nWhen any ally hits an enemy, their Daze Vulnerability increases by 30%. When they become Stunned, their Stun duration is extended by 2s;\nWhen an enemy is affected by <color=#FFFFFF>[Windswept]</color> or <color=#FFFFFF>[Contamination]</color>, the <color=#A6C5FD>Wind attribute direct DMG</color> and direct attack DMG that triggers [Contamination] attribute dealt to the enemy is additionally increased by 10%."
         ],
         "extra_property": {},
         "potential": []
@@ -1102,12 +1886,12 @@
         "level": 5,
         "id": 1621505,
         "name": [
-          "Core Passive: Eye of the Wind",
+          "Core Passive:",
           "Additional Ability: PlaceHolder"
         ],
         "desc": [
-          "While \"Roxy\" activates <color=#ffffff>[EX Special Attack: Ride the Wind]</color>, Energy is continuously consumed. For every 30 Energy consumed, she gains 1 <color=#ffffff>[Wind Energy]</color> point. <color=#ffffff>[Wind Energy]</color> has a maximum of 3 points.\nWhen a <color=#ffffff>[Wind Eye]</color> on the field is hit by <color=#ffffff>[Basic Attack: Cyclone Hammer]</color>, <color=#ffffff>[EX Special Attack: Wind Cannon]</color>, or <color=#ffffff>[Entry Skill]</color>, it transforms into a small tornado that tracks enemies and continuously deals <color=#A6C5FD>Wind DMG</color> for 5s.\nAll of Roxy's skills deal <color=#A6C5FD>Wind DMG</color>.",
-          "PlaceHolder"
+          "For every 30 Energy consumed, gain 1 <color=#ffffff>[Wind Energy]</color>. <color=#ffffff>[Wind Energy]</color> has an upper limit of 3.\nWhen Roxy's initial DEF exceeds 1,500, each point of DEF beyond that increases ATK by <color=#POSITIVE_WITH_GREYITE>1.4</color> and Impact by <color=#POSITIVE_WITH_GREYITE>0.2</color>, up to a maximum increase of <color=#POSITIVE_WITH_GREYITE>1,000</color> ATK and <color=#POSITIVE_WITH_GREYITE>60</color> Impact;\nWhen CRIT Rate is at or above 65% during combat, her Anomaly Buildup Rate increases by <color=#POSITIVE_WITH_GREYITE>60%</color>; other non-<color=#FFFFFF>[Armorer]</color> Characters in the team gain <color=#POSITIVE_WITH_GREYITE>32%</color> increased CRIT DMG, and <color=#FFFFFF>[Armorer]</color> Characters gain <color=#POSITIVE_WITH_GREYITE>16%</color> increased CRIT Rate. This effect persists until 30 seconds after combat ends.",
+          "When another character in your squad is an <color=#FFFFFF>[Attack]</color> Character or <color=#FFFFFF>[Armorer]</color> Character:\nRoxy's CRIT DMG increases by 10%. This effect scales with character Lv., increasing by 2% per level, up to a maximum increase of 130%;\nWhen any ally hits an enemy, their Daze Vulnerability increases by 30%. When they become Stunned, their Stun duration is extended by 2s;\nWhen an enemy is affected by <color=#FFFFFF>[Windswept]</color> or <color=#FFFFFF>[Contamination]</color>, the <color=#A6C5FD>Wind attribute direct DMG</color> and direct attack DMG that triggers [Contamination] attribute dealt to the enemy is additionally increased by 10%."
         ],
         "extra_property": {},
         "potential": []
@@ -1116,12 +1900,12 @@
         "level": 6,
         "id": 1621506,
         "name": [
-          "Core Passive: Eye of the Wind",
+          "Core Passive:",
           "Additional Ability: PlaceHolder"
         ],
         "desc": [
-          "While \"Roxy\" activates <color=#ffffff>[EX Special Attack: Ride the Wind]</color>, Energy is continuously consumed. For every 30 Energy consumed, she gains 1 <color=#ffffff>[Wind Energy]</color> point. <color=#ffffff>[Wind Energy]</color> caps at 3 points.\nWhen a <color=#ffffff>[Wind Eye]</color> on the field is hit by <color=#ffffff>[Basic Attack: Cyclone Hammer]</color>, <color=#ffffff>[EX Special Attack: Wind Cannon]</color>, or <color=#ffffff>[Entry Skill]</color>, it transforms into a small tornado that tracks enemies and continuously deals <color=#A6C5FD>Wind DMG</color> for 5s.\nAll of Roxy's skills deal <color=#A6C5FD>Wind DMG</color>.",
-          "PlaceHolder"
+          "For every 30 Energy consumed, gain 1 <color=#ffffff>[Wind Energy]</color>. <color=#ffffff>[Wind Energy]</color> caps at 3.\nWhen Roxy's initial DEF exceeds 1,500, each point of DEF above that increases ATK by <color=#POSITIVE_WITH_GREYITE>1.4</color> and Impact by <color=#POSITIVE_WITH_GREYITE>0.2</color>, up to a maximum increase of <color=#POSITIVE_WITH_GREYITE>1,000</color> ATK and <color=#POSITIVE_WITH_GREYITE>60</color> Impact;\nWhen CRIT Rate is at or above 65% during combat, Anomaly Buildup Rate increases by <color=#POSITIVE_WITH_GREYITE>60%</color>; other non-<color=#FFFFFF>[Armorer]</color> Characters in the team gain <color=#POSITIVE_WITH_GREYITE>32%</color> increased CRIT DMG, and <color=#FFFFFF>[Armorer]</color> Characters gain <color=#POSITIVE_WITH_GREYITE>16%</color> increased CRIT Rate, lasting until 30s after combat ends.",
+          "When another character in your squad is an <color=#FFFFFF>[Attack]</color> Character or <color=#FFFFFF>[Armorer]</color> Character:\nRoxy's CRIT DMG increases by 10%. This effect scales with character Lv., increasing by 2% per level, up to a maximum increase of 130%;\nWhen any ally hits an enemy, their Daze Vulnerability increases by 30%. When they become Stunned, their Stun duration is extended by 2s;\nWhen an enemy is affected by <color=#FFFFFF>[Windswept]</color> or <color=#FFFFFF>[Contamination]</color>, the <color=#A6C5FD>Wind attribute direct DMG</color> and direct attack DMG that triggers [Contamination] attribute dealt to the enemy is additionally increased by 10%."
         ],
         "extra_property": {},
         "potential": []
@@ -1130,12 +1914,12 @@
         "level": 7,
         "id": 1621507,
         "name": [
-          "Core Passive: Eye of the Wind",
+          "Core Passive:",
           "Additional Ability: PlaceHolder"
         ],
         "desc": [
-          "While \"Roxy\" activates <color=#ffffff>[EX Special Attack: Ride the Wind]</color>, Energy is continuously consumed. For every 30 Energy consumed, she gains 1 <color=#ffffff>[Wind Energy]</color> point. <color=#ffffff>[Wind Energy]</color> has a maximum of 3 points.\nWhen a <color=#ffffff>[Wind Eye]</color> on the field is hit by <color=#ffffff>[Basic Attack: Cyclone Hammer]</color>, <color=#ffffff>[EX Special Attack: Wind Cannon]</color>, or <color=#ffffff>[Entry Skill]</color>, it transforms into a small tornado that tracks enemies and continuously deals <color=#A6C5FD>Wind DMG</color> for 5s.\nAll of Roxy's skills deal <color=#A6C5FD>Wind DMG</color>.",
-          "PlaceHolder"
+          "For every 30 Energy consumed, gain 1 <color=#ffffff>[Wind Energy]</color>. <color=#ffffff>[Wind Energy]</color> caps at 3.\nWhen Roxy's initial DEF exceeds 1,500, each point of DEF beyond that increases ATK by <color=#POSITIVE_WITH_GREYITE>1.4</color> and Impact by <color=#POSITIVE_WITH_GREYITE>0.2</color>, up to a maximum increase of <color=#POSITIVE_WITH_GREYITE>1,000</color> ATK and <color=#POSITIVE_WITH_GREYITE>60</color> Impact;\nWhen CRIT Rate is at or above 65% during combat, Anomaly Buildup Rate increases by <color=#POSITIVE_WITH_GREYITE>60%</color>; CRIT DMG of other non-<color=#FFFFFF>[Armorer]</color> Characters in the squad increases by <color=#POSITIVE_WITH_GREYITE>32%</color>, and CRIT Rate of <color=#FFFFFF>[Armorer]</color> Characters increases by <color=#POSITIVE_WITH_GREYITE>16%</color>, lasting until 30s after combat ends.",
+          "When another character in your squad is an <color=#FFFFFF>[Attack]</color> Character or <color=#FFFFFF>[Armorer]</color> Character:\nRoxy's CRIT DMG increases by 10%. This effect scales with character Lv., increasing by 2% per level, up to a maximum increase of 130%;\nWhen any ally hits an enemy, their Daze Vulnerability increases by 30%. When they become Stunned, their Stun duration is extended by 2s;\nWhen an enemy is affected by <color=#FFFFFF>[Windswept]</color> or <color=#FFFFFF>[Contamination]</color>, the <color=#A6C5FD>Wind attribute direct DMG</color> and direct attack DMG that triggers [Contamination] attribute dealt to the enemy is additionally increased by 10%."
         ],
         "extra_property": {},
         "potential": []
@@ -1208,7 +1992,41 @@
       "desc2": "PlaceHolder"
     }
   },
-  "fairy_recommend": {},
+  "fairy_recommend": {
+    "slot4": 34200,
+    "slot2": 31000,
+    "slot_sub": 31500,
+    "part_sub_list": [
+      20103,
+      13102,
+      21103
+    ],
+    "alt_build": [],
+    "part4": {
+      "prop": 20103,
+      "name": "CRIT Rate",
+      "format": "{0:0.#%}",
+      "icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconCrit.png"
+    },
+    "part5": {
+      "prop": 13102,
+      "name": "DEF",
+      "format": "{0:0.#%}",
+      "icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconDef.png"
+    },
+    "part6": {
+      "prop": 30502,
+      "name": "Energy Regen",
+      "format": "{0:0.#%}",
+      "icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconSpRecover.png"
+    },
+    "part_sub": {
+      "prop": 32303,
+      "name": "Wind DMG Bonus",
+      "format": "{0:0.#%}",
+      "icon": "UI/Sprite/A1DynamicLoad/IconGeneralBuff/Packer/IconWind.png"
+    }
+  },
   "strategy": {},
   "potential": [],
   "potential_detail": {}

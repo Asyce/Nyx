@@ -1,14 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-03T00:05:00.936Z",
+  "generatedAt": "2026-08-03T05:19:42.934Z",
   "games": {
     "gi": [
-      {
-        "code": "ODETTE0812",
-        "added": "2026-08-03",
-        "amount": 100,
-        "currency": "Primogems"
-      },
       {
         "code": "LEGEDILJKSGM",
         "added": "2026-08-03",
@@ -19,12 +13,6 @@
         "code": "2BJ64QRZ7RT8",
         "added": "2026-07-31",
         "amount": 60,
-        "currency": "Primogems"
-      },
-      {
-        "code": "Everwinter",
-        "added": "2026-07-31",
-        "amount": 100,
         "currency": "Primogems"
       },
       {
@@ -96,5 +84,5 @@
       }
     ]
   },
-  "revision": "107454a37fd48788dd526b068681f8639242dc9461fb2c8b19657917de60aa5c"
+  "revision": "6b016e772789e9cc70613d6c412aaa6a5ef1b5472aa395000003d2c1c509bc7c"
 }

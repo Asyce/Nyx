@@ -4,9 +4,9 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-08-03T05:14:34.517Z",
+  "generatedAt": "2026-08-03T05:19:58.103Z",
   "codes": {
-    "updated": "2026-08-03T00:05:00.936Z",
+    "updated": "2026-08-03T05:19:42.934Z",
     "maxAgeDays": 28,
     "games": {
       "gi": [
@@ -23,20 +23,6 @@ var NYX_DB = {
           "firstSeen": "2026-07-05T17:19:20.440Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=LEGEDILJKSGM",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=LEGEDILJKSGM"
-        },
-        {
-          "code": "ODETTE0812",
-          "reward": "Primogem x 100, Mora x 50000",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Primogems",
-            "needle": "primogem",
-            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
-          },
-          "added": "2026-08-03",
-          "firstSeen": "2026-08-01T21:03:08.107Z",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=ODETTE0812",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=ODETTE0812"
         },
         {
           "code": "UIVIBUQM6Q8A",
@@ -67,20 +53,6 @@ var NYX_DB = {
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=2BJ64QRZ7RT8"
         },
         {
-          "code": "Everwinter",
-          "reward": "x100 Primogems and x10 Mystic Enchancement Ore",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Primogems",
-            "needle": "primogem",
-            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
-          },
-          "added": "2026-07-31",
-          "firstSeen": "2026-08-01T21:03:08.107Z",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=Everwinter",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=Everwinter"
-        },
-        {
           "code": "Odettte0812",
           "reward": "x100 Primogems and x50,000 Mora",
           "premium": true,
@@ -93,20 +65,6 @@ var NYX_DB = {
           "firstSeen": "2026-08-01T21:03:08.107Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=Odettte0812",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=Odettte0812"
-        },
-        {
-          "code": "OntoSnezhnaya",
-          "reward": "x100 Primogems and x5 Hero S Wit",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Primogems",
-            "needle": "primogem",
-            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
-          },
-          "added": "2026-07-31",
-          "firstSeen": "2026-08-01T21:03:08.107Z",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=OntoSnezhnaya",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=OntoSnezhnaya"
         },
         {
           "code": "UIVI13C8X156",
@@ -4356,20 +4314,6 @@ var NYX_DB = {
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=LEGEDILJKSGM"
         },
         {
-          "code": "ODETTE0812",
-          "reward": "Primogem x 100, Mora x 50000",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Primogems",
-            "needle": "primogem",
-            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
-          },
-          "added": "2026-08-03",
-          "firstSeen": "2026-08-01T21:03:08.107Z",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=ODETTE0812",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=ODETTE0812"
-        },
-        {
           "code": "UIVIBUQM6Q8A",
           "reward": "Mora x 10000, Adventurer's Experience x 10, Fine Enhancement Ore x 5, Jueyun Chili Chicken x 5, Stir-Fried Fish Noodles x 5",
           "premium": false,
@@ -4398,20 +4342,6 @@ var NYX_DB = {
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=2BJ64QRZ7RT8"
         },
         {
-          "code": "Everwinter",
-          "reward": "x100 Primogems and x10 Mystic Enchancement Ore",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Primogems",
-            "needle": "primogem",
-            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
-          },
-          "added": "2026-07-31",
-          "firstSeen": "2026-08-01T21:03:08.107Z",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=Everwinter",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=Everwinter"
-        },
-        {
           "code": "Odettte0812",
           "reward": "x100 Primogems and x50,000 Mora",
           "premium": true,
@@ -4424,20 +4354,6 @@ var NYX_DB = {
           "firstSeen": "2026-08-01T21:03:08.107Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=Odettte0812",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=Odettte0812"
-        },
-        {
-          "code": "OntoSnezhnaya",
-          "reward": "x100 Primogems and x5 Hero S Wit",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Primogems",
-            "needle": "primogem",
-            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
-          },
-          "added": "2026-07-31",
-          "firstSeen": "2026-08-01T21:03:08.107Z",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=OntoSnezhnaya",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=OntoSnezhnaya"
         },
         {
           "code": "UIVI13C8X156",

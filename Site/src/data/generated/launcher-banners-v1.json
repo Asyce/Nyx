@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "bd92d0d289bcac04ffe867b33250e9f9e6eea40981f0e97ddc4664e06f49baf8",
-  "generatedAt": "2026-08-03T05:14:36.280Z",
+  "revision": "077b4138b4dba43c0e2d773c5e31cbde46e18a0946c4ec15c9388fbf41329f58",
+  "generatedAt": "2026-08-03T05:19:59.687Z",
   "health": {
     "status": "ok",
     "games": {
@@ -43,7 +43,7 @@
         "remaining": {
           "startsAt": "2026-07-21T17:00:00.000Z",
           "endsAt": "2026-08-11T13:59:00.000Z",
-          "durationSeconds": 722663
+          "durationSeconds": 722340
         },
         "characters": [
           {
@@ -348,12 +348,6 @@
       ],
       "codes": [
         {
-          "code": "ODETTE0812",
-          "added": "2026-08-03",
-          "amount": 100,
-          "currency": "Primogems"
-        },
-        {
           "code": "LEGEDILJKSGM",
           "added": "2026-08-03",
           "amount": 60,
@@ -363,12 +357,6 @@
           "code": "2BJ64QRZ7RT8",
           "added": "2026-07-31",
           "amount": 60,
-          "currency": "Primogems"
-        },
-        {
-          "code": "Everwinter",
-          "added": "2026-07-31",
-          "amount": 100,
           "currency": "Primogems"
         },
         {
@@ -389,7 +377,7 @@
         "remaining": {
           "startsAt": "2026-07-15T03:00:00.000Z",
           "endsAt": "2026-08-05T03:59:00.000Z",
-          "durationSeconds": 168263
+          "durationSeconds": 167940
         },
         "characters": [
           {
@@ -847,7 +835,7 @@
         "remaining": {
           "startsAt": "2026-07-29T03:00:00.000Z",
           "endsAt": "2026-08-19T03:59:59.000Z",
-          "durationSeconds": 1377922
+          "durationSeconds": 1377599
         },
         "characters": [
           {
@@ -1181,7 +1169,7 @@
         "remaining": {
           "startsAt": "2026-07-30T09:00:00.000Z",
           "endsAt": "2026-08-19T10:59:00.000Z",
-          "durationSeconds": 1403063
+          "durationSeconds": 1402740
         },
         "characters": [
           {
@@ -1496,7 +1484,7 @@
         "remaining": {
           "startsAt": "2026-07-16T04:00:00.000Z",
           "endsAt": "2026-08-09T03:59:59.000Z",
-          "durationSeconds": 513922
+          "durationSeconds": 513599
         },
         "characters": [
           {

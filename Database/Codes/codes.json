@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T08:01:37.986Z",
+  "generatedAt": "2026-08-04T09:54:39.710Z",
   "maxAgeDays": 28,
   "games": [
     {
@@ -9,7 +9,7 @@
       "redeemBase": "https://genshin.hoyoverse.com/en/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/GI/codes/",
-      "lastSuccessfulFetch": "2026-08-04T08:01:37.986Z",
+      "lastSuccessfulFetch": "2026-08-04T09:54:39.639Z",
       "codes": [
         {
           "code": "LEGEDILJKSGM",
@@ -21,6 +21,17 @@
           "premium100": false,
           "cwSeen": true,
           "firstSeen": "2026-07-05T17:19:20.440Z"
+        },
+        {
+          "code": "P7G0XA30H0Q3",
+          "rewards": "",
+          "added": "2026-08-04",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=P7G0XA30H0Q3",
+          "hoyoVerified": true,
+          "premium": false,
+          "premium100": false,
+          "cwSeen": true,
+          "firstSeen": "2026-08-04T09:54:39.639Z"
         },
         {
           "code": "UIVIBUQM6Q8A",
@@ -80,7 +91,7 @@
       "redeemBase": "https://hsr.hoyoverse.com/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/HSR/codes/",
-      "lastSuccessfulFetch": "2026-08-04T08:01:33.195Z",
+      "lastSuccessfulFetch": "2026-08-04T09:54:39.710Z",
       "codes": [
         {
           "code": "4TKSX77Y58QK",
@@ -209,7 +220,7 @@
       "redeemBase": "https://zenless.hoyoverse.com/redemption?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/ZZZ/codes/",
-      "lastSuccessfulFetch": "2026-08-04T08:01:34.784Z",
+      "lastSuccessfulFetch": "2026-08-04T09:54:39.690Z",
       "codes": [
         {
           "code": "VOIDWATCHINGYOU",
@@ -275,7 +286,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Terminal > Settings > Other Settings > Redemption Code",
       "sourceUrl": "https://nexus-codes.app/games/WUWA/codes/",
-      "lastSuccessfulFetch": "2026-08-04T08:01:35.584Z",
+      "lastSuccessfulFetch": "2026-08-04T09:54:39.161Z",
       "codes": [
         {
           "code": "F5F4D3B2A2",
@@ -296,7 +307,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Settings > Account > Exchange Code",
       "sourceUrl": "https://nexus-codes.app/games/ARKEN/codes/",
-      "lastSuccessfulFetch": "2026-08-04T08:01:37.183Z",
+      "lastSuccessfulFetch": "2026-08-04T09:54:39.230Z",
       "codes": [
         {
           "code": "ENDFIELDRENEW",

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "077b4138b4dba43c0e2d773c5e31cbde46e18a0946c4ec15c9388fbf41329f58",
-  "generatedAt": "2026-08-03T20:38:04.851Z",
+  "revision": "097fb119cb7c8d6d6672da2fc014f18cf2749bfc6f31712bedd2f4024bc0dad7",
+  "generatedAt": "2026-08-04T03:23:11.802Z",
   "health": {
     "status": "ok",
     "games": {
@@ -43,7 +43,7 @@
         "remaining": {
           "startsAt": "2026-07-21T17:00:00.000Z",
           "endsAt": "2026-08-11T13:59:00.000Z",
-          "durationSeconds": 667255
+          "durationSeconds": 642948
         },
         "characters": [
           {
@@ -349,7 +349,7 @@
       "codes": [
         {
           "code": "LEGEDILJKSGM",
-          "added": "2026-08-03",
+          "added": "2026-08-04",
           "amount": 60,
           "currency": "Primogems"
         },
@@ -377,7 +377,7 @@
         "remaining": {
           "startsAt": "2026-07-15T03:00:00.000Z",
           "endsAt": "2026-08-05T03:59:00.000Z",
-          "durationSeconds": 112855
+          "durationSeconds": 88548
         },
         "characters": [
           {
@@ -795,31 +795,31 @@
       "codes": [
         {
           "code": "5S6ZHRWTDNJB",
-          "added": "2026-08-03",
+          "added": "2026-08-04",
           "amount": 60,
           "currency": "Stellar Jade"
         },
         {
           "code": "4TKSX77Y58QK",
-          "added": "2026-08-03",
+          "added": "2026-08-04",
           "amount": 30,
           "currency": "Stellar Jade"
         },
         {
           "code": "CREATIONNYMPH",
-          "added": "2026-08-03",
+          "added": "2026-08-04",
           "amount": 60,
           "currency": "Stellar Jade"
         },
         {
           "code": "FAREWELL",
-          "added": "2026-08-03",
+          "added": "2026-08-04",
           "amount": 60,
           "currency": "Stellar Jade"
         },
         {
           "code": "IFYOUAREREADINGTHIS",
-          "added": "2026-08-03",
+          "added": "2026-08-04",
           "amount": 60,
           "currency": "Stellar Jade"
         }
@@ -835,7 +835,7 @@
         "remaining": {
           "startsAt": "2026-07-29T03:00:00.000Z",
           "endsAt": "2026-08-19T03:59:59.000Z",
-          "durationSeconds": 1322514
+          "durationSeconds": 1298207
         },
         "characters": [
           {
@@ -1141,7 +1141,7 @@
       "codes": [
         {
           "code": "ZENLESSGIFT",
-          "added": "2026-08-03",
+          "added": "2026-08-04",
           "amount": 50,
           "currency": "Polychrome"
         },
@@ -1169,7 +1169,7 @@
         "remaining": {
           "startsAt": "2026-07-30T09:00:00.000Z",
           "endsAt": "2026-08-19T10:59:00.000Z",
-          "durationSeconds": 1347655
+          "durationSeconds": 1323348
         },
         "characters": [
           {
@@ -1484,7 +1484,7 @@
         "remaining": {
           "startsAt": "2026-07-16T04:00:00.000Z",
           "endsAt": "2026-08-09T03:59:59.000Z",
-          "durationSeconds": 458514
+          "durationSeconds": 434207
         },
         "characters": [
           {

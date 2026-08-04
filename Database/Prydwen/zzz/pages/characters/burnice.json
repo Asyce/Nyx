@@ -11,7 +11,7 @@
   "sourcePath": "/zenless/characters/burnice",
   "contentStatus": "live",
   "statusLabels": [],
-  "scrapedAt": "2026-08-02T07:43:41.101Z",
+  "scrapedAt": "2026-08-04T07:59:30.203Z",
   "updatedText": "29/July/2026",
   "meta": {
     "title": "Burnice Best Build Guide | Zenless Zone Zero",
@@ -415,22 +415,22 @@
       "height": 60
     },
     {
-      "id": "79ca38737857",
-      "sourceHash": "79ca38737857",
+      "id": "db3a1e63185e",
+      "sourceHash": "db3a1e63185e",
       "kind": "characters",
-      "name": "Yanagi",
-      "fileStem": "yanagi",
-      "path": "Prydwen/zzz/assets/characters/yanagi-79ca38737857.webp",
+      "name": "Aria",
+      "fileStem": "aria",
+      "path": "Prydwen/zzz/assets/characters/aria-db3a1e63185e.webp",
       "width": 60,
       "height": 60
     },
     {
-      "id": "a0147df28355",
-      "sourceHash": "a0147df28355",
+      "id": "7a4ba5242a6c",
+      "sourceHash": "7a4ba5242a6c",
       "kind": "characters",
-      "name": "Lucy",
-      "fileStem": "lucy",
-      "path": "Prydwen/zzz/assets/characters/lucy-a0147df28355.webp",
+      "name": "Jane Doe",
+      "fileStem": "jane-doe",
+      "path": "Prydwen/zzz/assets/characters/jane-doe-7a4ba5242a6c.webp",
       "width": 60,
       "height": 60
     },
@@ -441,36 +441,6 @@
       "name": "Vivian",
       "fileStem": "vivian",
       "path": "Prydwen/zzz/assets/characters/vivian-e33ff79684e5.webp",
-      "width": 60,
-      "height": 60
-    },
-    {
-      "id": "e8a1e5a4346f",
-      "sourceHash": "e8a1e5a4346f",
-      "kind": "characters",
-      "name": "Zhao",
-      "fileStem": "zhao",
-      "path": "Prydwen/zzz/assets/characters/zhao-e8a1e5a4346f.webp",
-      "width": 60,
-      "height": 60
-    },
-    {
-      "id": "07290ab47d04",
-      "sourceHash": "07290ab47d04",
-      "kind": "characters",
-      "name": "Promeia",
-      "fileStem": "promeia",
-      "path": "Prydwen/zzz/assets/characters/promeia-07290ab47d04.webp",
-      "width": 60,
-      "height": 60
-    },
-    {
-      "id": "1cdf4d671727",
-      "sourceHash": "1cdf4d671727",
-      "kind": "characters",
-      "name": "Sunna",
-      "fileStem": "sunna",
-      "path": "Prydwen/zzz/assets/characters/sunna-1cdf4d671727.webp",
       "width": 60,
       "height": 60
     }
@@ -863,7 +833,7 @@
       "id": "full-team-calculations-28",
       "level": 5,
       "heading": "Full Team calculations",
-      "text": "The W-Engine calculations below are full team calculations , and here's the team used for them.\n Alice + Practiced Perfection\n Yuzuha + Metanukimorphosis\n 100.00%\n\n Flamemaker Shaker (S 1 )\n\n Best option for Burnice in all scenarios, with the slight downside of requiring some ramp-up time at the start of fights. Offers more damage when fully ramped than all other options, and also offers Burnice additional Energy Regen while off-field, assisting her Heat management.\n Usage: 74.12 %\n Shiyu Defense: 38206\n Deadly Assault: 29296\n\n 99.04%\n\n Practiced Perfection (S 1 )\n\n Alice's Signature is not quite the best option for Burnice, but it comes close, with the raw amount of Anomaly Mastery that it provides making ER on D6 an easy choice. As Burnice's Potential Awakenings are dependent on initial ER, Flamemaker Shaker doesn't have that great an advantage; although the latter does allow for a more active playstyle (i.e. more frequent uses of Hold Basic for Emberflow build), Practiced Perfection is plenty strong and easy to use.\n Usage: 0.75 %\n Shiyu Defense: 40150\n Deadly Assault: 32784\n\n 96.02%\n\n Electro-Lip Gloss (S 5 )\n\n Burnice can fully take advantage of all the stats this W-Engine has to offer, while also easily mitigating it's usually stiff downside of always needing an Anomaly active on all enemy targets, thanks to her absurdly quick and consistent Burn application. This W-Engine only becomes more consistent when playing Burnice in Disorder teams, thanks to even more frequent Anomaly application.\n Usage: 4.41 %\n Shiyu Defense: 35212\n Deadly Assault: 26183\n\n 95.80%\n\n Weeping Gemini (S 5 )\n\n The best fully F2P-accessible A-rank option for many Anomaly Agents, Burnice being no exception to this. Grants a massive boost to Anomaly Proficiency when any squad member inflicts an Attribute Anomaly on enemies, while providing good permanent ATK via its main stats. Not comparable to her Signature, but a viable alternative if you don't have access to it.\n Usage: 10.79 %\n Shiyu Defense: 35681\n Deadly Assault: 25363",
+      "text": "The W-Engine calculations below are full team calculations , and here's the team used for them.\n Alice + Practiced Perfection\n Yuzuha + Metanukimorphosis\n 100.00%\n\n Flamemaker Shaker (S 1 )\n\n Best option for Burnice in all scenarios, with the slight downside of requiring some ramp-up time at the start of fights. Offers more damage when fully ramped than all other options, and also offers Burnice additional Energy Regen while off-field, assisting her Heat management.\n Usage: 72.68 %\n Shiyu Defense: 35465\n Deadly Assault: 34049\n\n 99.04%\n\n Practiced Perfection (S 1 )\n\n Alice's Signature is not quite the best option for Burnice, but it comes close, with the raw amount of Anomaly Mastery that it provides making ER on D6 an easy choice. As Burnice's Potential Awakenings are dependent on initial ER, Flamemaker Shaker doesn't have that great an advantage; although the latter does allow for a more active playstyle (i.e. more frequent uses of Hold Basic for Emberflow build), Practiced Perfection is plenty strong and easy to use.\n Usage: 0.7 %\n Shiyu Defense: 39242\n Deadly Assault: 36992\n\n 96.02%\n\n Electro-Lip Gloss (S 5 )\n\n Burnice can fully take advantage of all the stats this W-Engine has to offer, while also easily mitigating it's usually stiff downside of always needing an Anomaly active on all enemy targets, thanks to her absurdly quick and consistent Burn application. This W-Engine only becomes more consistent when playing Burnice in Disorder teams, thanks to even more frequent Anomaly application.\n Usage: 3.42 %\n Shiyu Defense: 34295\n Deadly Assault: 32497\n\n 95.80%\n\n Weeping Gemini (S 5 )\n\n The best fully F2P-accessible A-rank option for many Anomaly Agents, Burnice being no exception to this. Grants a massive boost to Anomaly Proficiency when any squad member inflicts an Attribute Anomaly on enemies, while providing good permanent ATK via its main stats. Not comparable to her Signature, but a viable alternative if you don't have access to it.\n Usage: 10.96 %\n Shiyu Defense: 33717\n Deadly Assault: 27504",
       "assets": [
         {
           "id": "8bdbbd8d6be8",
@@ -1106,7 +1076,7 @@
       "id": "teams-shiyu-defense-35",
       "level": 2,
       "heading": "Teams (Shiyu Defense)",
-      "text": "This section lists most popular teams featuring Burnice in the current phase of Shiyu Defense.\n Rank 11\n App. rate: 5.58 %\n Avg. time: 40344\n\n Rank 44\n App. rate: 0.64 %\n Avg. time: 29554\n\n Rank 48\n App. rate: 0.59 %\n Avg. time: 26981\n\n Rank 61\n App. rate: 0.48 %\n Avg. time: 35208\n\n Rank 80\n App. rate: 0.28 %\n Avg. time: 28115\n\n Rank 114\n App. rate: 0.14 %\n Avg. time: 30082\n\n Rank 127\n App. rate: 0.11 %\n Avg. time: 27052\n\n Rank 127\n App. rate: 0.11 %\n Avg. time: 28621\n\n Rank 127\n App. rate: 0.11 %\n Avg. time: 33842\n\n Rank 158\n App. rate: 0.08 %\n Avg. time: 30279",
+      "text": "This section lists most popular teams featuring Burnice in the current phase of Shiyu Defense.\n Rank 17\n App. rate: 3.3 %\n Avg. time: 38300\n\n Rank 22\n App. rate: 2.57 %\n Avg. time: 37881\n\n Rank 40\n App. rate: 1.02 %\n Avg. time: 30882\n\n Rank 52\n App. rate: 0.7 %\n Avg. time: 30936\n\n Rank 62\n App. rate: 0.45 %\n Avg. time: 33601\n\n Rank 71\n App. rate: 0.38 %\n Avg. time: 28712\n\n Rank 100\n App. rate: 0.21 %\n Avg. time: 30725\n\n Rank 104\n App. rate: 0.2 %\n Avg. time: 29625\n\n Rank 108\n App. rate: 0.19 %\n Avg. time: 28586\n\n Rank 119\n App. rate: 0.14 %\n Avg. time: 28577",
       "assets": [
         {
           "id": "7cafcffe0fee",
@@ -1139,6 +1109,16 @@
           "height": 60
         },
         {
+          "id": "1965560f8ae5",
+          "sourceHash": "1965560f8ae5",
+          "kind": "characters",
+          "name": "Remielle",
+          "fileStem": "remielle",
+          "path": "Prydwen/zzz/assets/characters/remielle-1965560f8ae5.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
           "id": "bf8821af9328",
           "sourceHash": "bf8821af9328",
           "kind": "characters",
@@ -1159,32 +1139,32 @@
           "height": 60
         },
         {
-          "id": "79ca38737857",
-          "sourceHash": "79ca38737857",
-          "kind": "characters",
-          "name": "Yanagi",
-          "fileStem": "yanagi",
-          "path": "Prydwen/zzz/assets/characters/yanagi-79ca38737857.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "a0147df28355",
-          "sourceHash": "a0147df28355",
-          "kind": "characters",
-          "name": "Lucy",
-          "fileStem": "lucy",
-          "path": "Prydwen/zzz/assets/characters/lucy-a0147df28355.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
           "id": "8bdbbd8d6be8",
           "sourceHash": "8bdbbd8d6be8",
           "kind": "characters",
           "name": "Alice",
           "fileStem": "alice",
           "path": "Prydwen/zzz/assets/characters/alice-8bdbbd8d6be8.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "db3a1e63185e",
+          "sourceHash": "db3a1e63185e",
+          "kind": "characters",
+          "name": "Aria",
+          "fileStem": "aria",
+          "path": "Prydwen/zzz/assets/characters/aria-db3a1e63185e.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "7a4ba5242a6c",
+          "sourceHash": "7a4ba5242a6c",
+          "kind": "characters",
+          "name": "Jane Doe",
+          "fileStem": "jane-doe",
+          "path": "Prydwen/zzz/assets/characters/jane-doe-7a4ba5242a6c.webp",
           "width": 60,
           "height": 60
         },
@@ -1197,16 +1177,6 @@
           "path": "Prydwen/zzz/assets/characters/vivian-e33ff79684e5.webp",
           "width": 60,
           "height": 60
-        },
-        {
-          "id": "2541747ebcdb",
-          "sourceHash": "2541747ebcdb",
-          "kind": "characters",
-          "name": "Nangong Yu",
-          "fileStem": "nangong-yu",
-          "path": "Prydwen/zzz/assets/characters/nangong-yu-2541747ebcdb.webp",
-          "width": 60,
-          "height": 60
         }
       ]
     },
@@ -1214,8 +1184,18 @@
       "id": "teams-deadly-assault-36",
       "level": 2,
       "heading": "Teams (Deadly Assault)",
-      "text": "This section lists most popular teams featuring Burnice in the current phase of Deadly Assault.\n Rank 9\n App. rate: 6.79 %\n Avg. score: 29661\n\n Rank 55\n App. rate: 0.6 %\n Avg. score: 24193\n\n Rank 58\n App. rate: 0.58 %\n Avg. score: 23605\n\n Rank 67\n App. rate: 0.43 %\n Avg. score: 21995\n\n Rank 110\n App. rate: 0.16 %\n Avg. score: 24955\n\n Rank 156\n App. rate: 0.09 %\n Avg. score: 21470\n\n Rank 156\n App. rate: 0.09 %\n Avg. score: 24056\n\n Rank 190\n App. rate: 0.06 %\n Avg. score: 22995\n\n Rank 190\n App. rate: 0.06 %\n Avg. score: 22778\n\n Rank 217\n App. rate: 0.05 %\n Avg. score: 24051",
+      "text": "This section lists most popular teams featuring Burnice in the current phase of Deadly Assault.\n Rank 12\n App. rate: 5.46 %\n Avg. score: 38098\n\n Rank 29\n App. rate: 1.17 %\n Avg. score: 22342\n\n Rank 38\n App. rate: 0.76 %\n Avg. score: 25508\n\n Rank 40\n App. rate: 0.72 %\n Avg. score: 29823\n\n Rank 62\n App. rate: 0.38 %\n Avg. score: 27824\n\n Rank 66\n App. rate: 0.33 %\n Avg. score: 30840\n\n Rank 69\n App. rate: 0.32 %\n Avg. score: 22750\n\n Rank 71\n App. rate: 0.3 %\n Avg. score: 24148\n\n Rank 90\n App. rate: 0.19 %\n Avg. score: 31181\n\n Rank 106\n App. rate: 0.13 %\n Avg. score: 21103",
       "assets": [
+        {
+          "id": "1965560f8ae5",
+          "sourceHash": "1965560f8ae5",
+          "kind": "characters",
+          "name": "Remielle",
+          "fileStem": "remielle",
+          "path": "Prydwen/zzz/assets/characters/remielle-1965560f8ae5.webp",
+          "width": 60,
+          "height": 60
+        },
         {
           "id": "7cafcffe0fee",
           "sourceHash": "7cafcffe0fee",
@@ -1237,16 +1217,6 @@
           "height": 60
         },
         {
-          "id": "d2c1c9b40367",
-          "sourceHash": "d2c1c9b40367",
-          "kind": "characters",
-          "name": "Yuzuha",
-          "fileStem": "ukinami-yuzuha",
-          "path": "Prydwen/zzz/assets/characters/yuzuha-d2c1c9b40367.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
           "id": "bf8821af9328",
           "sourceHash": "bf8821af9328",
           "kind": "characters",
@@ -1257,22 +1227,32 @@
           "height": 60
         },
         {
-          "id": "98d8d659c143",
-          "sourceHash": "98d8d659c143",
+          "id": "d2c1c9b40367",
+          "sourceHash": "d2c1c9b40367",
           "kind": "characters",
-          "name": "Astra Yao",
-          "fileStem": "astra-yao",
-          "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
+          "name": "Yuzuha",
+          "fileStem": "ukinami-yuzuha",
+          "path": "Prydwen/zzz/assets/characters/yuzuha-d2c1c9b40367.webp",
           "width": 60,
           "height": 60
         },
         {
-          "id": "2541747ebcdb",
-          "sourceHash": "2541747ebcdb",
+          "id": "7a4ba5242a6c",
+          "sourceHash": "7a4ba5242a6c",
           "kind": "characters",
-          "name": "Nangong Yu",
-          "fileStem": "nangong-yu",
-          "path": "Prydwen/zzz/assets/characters/nangong-yu-2541747ebcdb.webp",
+          "name": "Jane Doe",
+          "fileStem": "jane-doe",
+          "path": "Prydwen/zzz/assets/characters/jane-doe-7a4ba5242a6c.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "db3a1e63185e",
+          "sourceHash": "db3a1e63185e",
+          "kind": "characters",
+          "name": "Aria",
+          "fileStem": "aria",
+          "path": "Prydwen/zzz/assets/characters/aria-db3a1e63185e.webp",
           "width": 60,
           "height": 60
         },
@@ -1287,42 +1267,22 @@
           "height": 60
         },
         {
-          "id": "e8a1e5a4346f",
-          "sourceHash": "e8a1e5a4346f",
+          "id": "98d8d659c143",
+          "sourceHash": "98d8d659c143",
           "kind": "characters",
-          "name": "Zhao",
-          "fileStem": "zhao",
-          "path": "Prydwen/zzz/assets/characters/zhao-e8a1e5a4346f.webp",
+          "name": "Astra Yao",
+          "fileStem": "astra-yao",
+          "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
           "width": 60,
           "height": 60
         },
         {
-          "id": "07290ab47d04",
-          "sourceHash": "07290ab47d04",
+          "id": "e33ff79684e5",
+          "sourceHash": "e33ff79684e5",
           "kind": "characters",
-          "name": "Promeia",
-          "fileStem": "promeia",
-          "path": "Prydwen/zzz/assets/characters/promeia-07290ab47d04.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "a0147df28355",
-          "sourceHash": "a0147df28355",
-          "kind": "characters",
-          "name": "Lucy",
-          "fileStem": "lucy",
-          "path": "Prydwen/zzz/assets/characters/lucy-a0147df28355.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "1cdf4d671727",
-          "sourceHash": "1cdf4d671727",
-          "kind": "characters",
-          "name": "Sunna",
-          "fileStem": "sunna",
-          "path": "Prydwen/zzz/assets/characters/sunna-1cdf4d671727.webp",
+          "name": "Vivian",
+          "fileStem": "vivian",
+          "path": "Prydwen/zzz/assets/characters/vivian-e33ff79684e5.webp",
           "width": 60,
           "height": 60
         }
@@ -1528,7 +1488,7 @@
       "sections": [
         {
           "heading": "Teams (Shiyu Defense)",
-          "text": "This section lists most popular teams featuring Burnice in the current phase of Shiyu Defense.\n Rank 11\n App. rate: 5.58 %\n Avg. time: 40344\n\n Rank 44\n App. rate: 0.64 %\n Avg. time: 29554\n\n Rank 48\n App. rate: 0.59 %\n Avg. time: 26981\n\n Rank 61\n App. rate: 0.48 %\n Avg. time: 35208\n\n Rank 80\n App. rate: 0.28 %\n Avg. time: 28115\n\n Rank 114\n App. rate: 0.14 %\n Avg. time: 30082\n\n Rank 127\n App. rate: 0.11 %\n Avg. time: 27052\n\n Rank 127\n App. rate: 0.11 %\n Avg. time: 28621\n\n Rank 127\n App. rate: 0.11 %\n Avg. time: 33842\n\n Rank 158\n App. rate: 0.08 %\n Avg. time: 30279",
+          "text": "This section lists most popular teams featuring Burnice in the current phase of Shiyu Defense.\n Rank 17\n App. rate: 3.3 %\n Avg. time: 38300\n\n Rank 22\n App. rate: 2.57 %\n Avg. time: 37881\n\n Rank 40\n App. rate: 1.02 %\n Avg. time: 30882\n\n Rank 52\n App. rate: 0.7 %\n Avg. time: 30936\n\n Rank 62\n App. rate: 0.45 %\n Avg. time: 33601\n\n Rank 71\n App. rate: 0.38 %\n Avg. time: 28712\n\n Rank 100\n App. rate: 0.21 %\n Avg. time: 30725\n\n Rank 104\n App. rate: 0.2 %\n Avg. time: 29625\n\n Rank 108\n App. rate: 0.19 %\n Avg. time: 28586\n\n Rank 119\n App. rate: 0.14 %\n Avg. time: 28577",
           "assets": [
             {
               "id": "7cafcffe0fee",
@@ -1561,6 +1521,16 @@
               "height": 60
             },
             {
+              "id": "1965560f8ae5",
+              "sourceHash": "1965560f8ae5",
+              "kind": "characters",
+              "name": "Remielle",
+              "fileStem": "remielle",
+              "path": "Prydwen/zzz/assets/characters/remielle-1965560f8ae5.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
               "id": "bf8821af9328",
               "sourceHash": "bf8821af9328",
               "kind": "characters",
@@ -1581,32 +1551,32 @@
               "height": 60
             },
             {
-              "id": "79ca38737857",
-              "sourceHash": "79ca38737857",
-              "kind": "characters",
-              "name": "Yanagi",
-              "fileStem": "yanagi",
-              "path": "Prydwen/zzz/assets/characters/yanagi-79ca38737857.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "a0147df28355",
-              "sourceHash": "a0147df28355",
-              "kind": "characters",
-              "name": "Lucy",
-              "fileStem": "lucy",
-              "path": "Prydwen/zzz/assets/characters/lucy-a0147df28355.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
               "id": "8bdbbd8d6be8",
               "sourceHash": "8bdbbd8d6be8",
               "kind": "characters",
               "name": "Alice",
               "fileStem": "alice",
               "path": "Prydwen/zzz/assets/characters/alice-8bdbbd8d6be8.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "db3a1e63185e",
+              "sourceHash": "db3a1e63185e",
+              "kind": "characters",
+              "name": "Aria",
+              "fileStem": "aria",
+              "path": "Prydwen/zzz/assets/characters/aria-db3a1e63185e.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "7a4ba5242a6c",
+              "sourceHash": "7a4ba5242a6c",
+              "kind": "characters",
+              "name": "Jane Doe",
+              "fileStem": "jane-doe",
+              "path": "Prydwen/zzz/assets/characters/jane-doe-7a4ba5242a6c.webp",
               "width": 60,
               "height": 60
             },
@@ -1619,23 +1589,23 @@
               "path": "Prydwen/zzz/assets/characters/vivian-e33ff79684e5.webp",
               "width": 60,
               "height": 60
-            },
-            {
-              "id": "2541747ebcdb",
-              "sourceHash": "2541747ebcdb",
-              "kind": "characters",
-              "name": "Nangong Yu",
-              "fileStem": "nangong-yu",
-              "path": "Prydwen/zzz/assets/characters/nangong-yu-2541747ebcdb.webp",
-              "width": 60,
-              "height": 60
             }
           ]
         },
         {
           "heading": "Teams (Deadly Assault)",
-          "text": "This section lists most popular teams featuring Burnice in the current phase of Deadly Assault.\n Rank 9\n App. rate: 6.79 %\n Avg. score: 29661\n\n Rank 55\n App. rate: 0.6 %\n Avg. score: 24193\n\n Rank 58\n App. rate: 0.58 %\n Avg. score: 23605\n\n Rank 67\n App. rate: 0.43 %\n Avg. score: 21995\n\n Rank 110\n App. rate: 0.16 %\n Avg. score: 24955\n\n Rank 156\n App. rate: 0.09 %\n Avg. score: 21470\n\n Rank 156\n App. rate: 0.09 %\n Avg. score: 24056\n\n Rank 190\n App. rate: 0.06 %\n Avg. score: 22995\n\n Rank 190\n App. rate: 0.06 %\n Avg. score: 22778\n\n Rank 217\n App. rate: 0.05 %\n Avg. score: 24051",
+          "text": "This section lists most popular teams featuring Burnice in the current phase of Deadly Assault.\n Rank 12\n App. rate: 5.46 %\n Avg. score: 38098\n\n Rank 29\n App. rate: 1.17 %\n Avg. score: 22342\n\n Rank 38\n App. rate: 0.76 %\n Avg. score: 25508\n\n Rank 40\n App. rate: 0.72 %\n Avg. score: 29823\n\n Rank 62\n App. rate: 0.38 %\n Avg. score: 27824\n\n Rank 66\n App. rate: 0.33 %\n Avg. score: 30840\n\n Rank 69\n App. rate: 0.32 %\n Avg. score: 22750\n\n Rank 71\n App. rate: 0.3 %\n Avg. score: 24148\n\n Rank 90\n App. rate: 0.19 %\n Avg. score: 31181\n\n Rank 106\n App. rate: 0.13 %\n Avg. score: 21103",
           "assets": [
+            {
+              "id": "1965560f8ae5",
+              "sourceHash": "1965560f8ae5",
+              "kind": "characters",
+              "name": "Remielle",
+              "fileStem": "remielle",
+              "path": "Prydwen/zzz/assets/characters/remielle-1965560f8ae5.webp",
+              "width": 60,
+              "height": 60
+            },
             {
               "id": "7cafcffe0fee",
               "sourceHash": "7cafcffe0fee",
@@ -1657,16 +1627,6 @@
               "height": 60
             },
             {
-              "id": "d2c1c9b40367",
-              "sourceHash": "d2c1c9b40367",
-              "kind": "characters",
-              "name": "Yuzuha",
-              "fileStem": "ukinami-yuzuha",
-              "path": "Prydwen/zzz/assets/characters/yuzuha-d2c1c9b40367.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
               "id": "bf8821af9328",
               "sourceHash": "bf8821af9328",
               "kind": "characters",
@@ -1677,22 +1637,32 @@
               "height": 60
             },
             {
-              "id": "98d8d659c143",
-              "sourceHash": "98d8d659c143",
+              "id": "d2c1c9b40367",
+              "sourceHash": "d2c1c9b40367",
               "kind": "characters",
-              "name": "Astra Yao",
-              "fileStem": "astra-yao",
-              "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
+              "name": "Yuzuha",
+              "fileStem": "ukinami-yuzuha",
+              "path": "Prydwen/zzz/assets/characters/yuzuha-d2c1c9b40367.webp",
               "width": 60,
               "height": 60
             },
             {
-              "id": "2541747ebcdb",
-              "sourceHash": "2541747ebcdb",
+              "id": "7a4ba5242a6c",
+              "sourceHash": "7a4ba5242a6c",
               "kind": "characters",
-              "name": "Nangong Yu",
-              "fileStem": "nangong-yu",
-              "path": "Prydwen/zzz/assets/characters/nangong-yu-2541747ebcdb.webp",
+              "name": "Jane Doe",
+              "fileStem": "jane-doe",
+              "path": "Prydwen/zzz/assets/characters/jane-doe-7a4ba5242a6c.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "db3a1e63185e",
+              "sourceHash": "db3a1e63185e",
+              "kind": "characters",
+              "name": "Aria",
+              "fileStem": "aria",
+              "path": "Prydwen/zzz/assets/characters/aria-db3a1e63185e.webp",
               "width": 60,
               "height": 60
             },
@@ -1707,42 +1677,22 @@
               "height": 60
             },
             {
-              "id": "e8a1e5a4346f",
-              "sourceHash": "e8a1e5a4346f",
+              "id": "98d8d659c143",
+              "sourceHash": "98d8d659c143",
               "kind": "characters",
-              "name": "Zhao",
-              "fileStem": "zhao",
-              "path": "Prydwen/zzz/assets/characters/zhao-e8a1e5a4346f.webp",
+              "name": "Astra Yao",
+              "fileStem": "astra-yao",
+              "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
               "width": 60,
               "height": 60
             },
             {
-              "id": "07290ab47d04",
-              "sourceHash": "07290ab47d04",
+              "id": "e33ff79684e5",
+              "sourceHash": "e33ff79684e5",
               "kind": "characters",
-              "name": "Promeia",
-              "fileStem": "promeia",
-              "path": "Prydwen/zzz/assets/characters/promeia-07290ab47d04.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "a0147df28355",
-              "sourceHash": "a0147df28355",
-              "kind": "characters",
-              "name": "Lucy",
-              "fileStem": "lucy",
-              "path": "Prydwen/zzz/assets/characters/lucy-a0147df28355.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "1cdf4d671727",
-              "sourceHash": "1cdf4d671727",
-              "kind": "characters",
-              "name": "Sunna",
-              "fileStem": "sunna",
-              "path": "Prydwen/zzz/assets/characters/sunna-1cdf4d671727.webp",
+              "name": "Vivian",
+              "fileStem": "vivian",
+              "path": "Prydwen/zzz/assets/characters/vivian-e33ff79684e5.webp",
               "width": 60,
               "height": 60
             }
@@ -1752,5 +1702,5 @@
     }
   },
   "tables": [],
-  "text": "Burnice Best Build Guide | Zenless Zone Zero\n \n\n Zenless Zone Zero\n Home Database Agents Bangboo W-Engines Disk Drives Banners\n Tier Lists Tier List\n Endgame Shiyu Defense Deadly Assault\n Resources Guides News\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Zenless Zone Zero\n /\n Characters\n /\n Burnice\n Burnice Best Build Guide\n Last updated: 29/July/2026\n\n Introduction\n Best guide and build for Burnice from ZZZ (Zenless Zone Zero). Burnice is an rank character with the Fire attribute who belongs to the Anomaly Specialty and who is part of the Sons of Calydon faction.\n Burnice, the Nitro-Fuel bartender for the Sons of Calydon. A hopeless fuel lover. She is responsible for all the fuel used by the machinery owned by the Sons of Calydon. She seems to have a passion for fuel that overwhelms all else.\n\n To learn more about Burnice check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Video guide\n Burnice has at least one video guide available, so if you prefer this sort of medium to learn more about a character, check it out:\n\n Update tracker\n Last review update\n Patch 2.5\n\n Last build update\n Patch 2.5\n\n Last teams update\n Patch 2.5\n\n Last profile update*\n 29/July/2026\n\n *Profile update means smaller edits to disk drives, stats or other things that don't require new calculations.\n\n Kit\n\n Review\n\n Build\n\n SD/DA Analytics\n\n Teams & Synergy\n\n Calculations\n\n To learn more about Burnice check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n Profile\n\n Core skills\n\n Core Passive Nitro-Fuel Cocktail\n\n Lv. 1\n\n When Burnice expends Energy, she accumulates Heat, up to a max of 100 . She gains 1.4 Heat for each 1 point of Energy consumed. At 50 Heat, she enters the Nitro-Fuel Cocktail state until all Heat is expended. Upon entering the battlefield, Burnice instantly accumulates 100 Heat.\n\nWhile in the Nitro-Fuel Cocktail state, when Burnice hits an enemy with a Basic Attack: Mixed Flame Blend, EX Special Attack: Intense Heat Stirring Method, EX Special Attack: Intense Heat Stirring Method - Double Shot, Chain Attack: Fuel-Fed Flame, or Ultimate: Glorious Inferno, she applies the Scorched effect to the target until she exits the Nitro-Fuel Cocktail state. When other squad members hit enemies under the Scorched status, it triggers the Afterburn effect, expending 8 Heat to deal Fire DMG equal to 175 of Burnice's ATK and accumulate Fire Anomaly Buildup. This effect can trigger once every 1.5s . For every 10 Anomaly Proficiency, Afterburn DMG increases by 1% , up to a max of 30% . DMG from the Afterburn effect is considered Assist Attack DMG.\n\n Base Energy Regen 0\n BASE ATK : 0\n\n Additional Ability Fire Kindling\n\n When another character in your squad is an Anomaly character or shares the same Faction:\n When Burnice's Basic Attack: Mixed Flame Blend, EX Special Attack: Intense Heat Stirring Method or EX Special Attack: Intense Heat Stirring Method - Double Shot hits an enemy, or when the Afterburn effect is triggered, the move's accumulated Anomaly Buildup increases by 65% . When any squad member applies the Burn effect to an enemy, the duration of that effect is extended by 3s .\n\n Potential\n Potential\n Awakened Potential: Boiling Point Party\n\n Lv. 1\n\n At Potential level 1, the character unlocks all of their kit and gameplay changes, but has no Additional Ability stat enhancements.\n\n Skills\n Basic\n Dodge\n Assist\n Special\n Chain\n\n Basic Attack: Direct Flame Blend\n\n Press to activate:\nUnleashes up to 5 attacks in front, dealing Physical DMG and Fire DMG.\n Multipliers\n\n Basic Attack: Mixed Flame Blend\n\n In the Nitro-Fuel Cocktail state, hold to activate:\nSpins continuously while spraying flames around, followed by a Finishing Move, then triggers an extra instance of Afterburn that doesn't cost Heat and deals Fire DMG. Continuing to hold extends the flame-spraying duration.\nThe DMG dealt by this skill also counts as Assist Attack DMG.\nUpon activation, it consumes 20 Heat.\nAnti-Interrupt level is increased while using this skill.\nAfter executing the Finishing Move, press to immediately follow up with EX Special Attack: Intense Heat Stirring Method - Double Shot.\n Multipliers\n\n Dodge: Fiery Phantom Dash\n\n Press to activate.\nA quick dash dodge.\nCharacter is invulnerable while using this skill.\n\n Dash Attack: Dangerous Fermentation\n\n Press during a dodge to activate:\nPerform a forward rush attack with the flamethrower, dealing Fire DMG.\n Multipliers\n\n Dodge Counter: Fluttering Steps\n\n Press during a Perfect Dodge to activate.\nSLaunch a series of attacks on enemies in front while spraying flames, dealing Physical DMG and Fire DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Special Attack: Intense Heat Aging Method\n\n Press to activate.\nUnleash a fire blast forward, inflicting Fire DMG;\nPress and hold to charge, boosting the moves power.\nAnti-Interrupt level is increased while using this skill.\n Multipliers\n\n EX Special Attack: Intense Heat Stirring Method\n\n With enough energy, press to activate:\nContinuously spray flames with a one-handed flamethrower, then release a fire blast in a straight line ahead, dealing massive Fire DMG. Continue holding to steadily consume Energy and extend the spray's duration.\nWhile continuously spraying, drag the stick/joystick to execute a sidestep dodge, adjusting your position in the corresponding direction.\nAnti-Interrupt Level is increased while continuously spraying, and DMG taken is reduced by 60%.\nCharacter is invulnerable during sidestep dodge and fire blast.\n Multipliers\n\n EX Special Attack: Intense Heat Stirring Method - Double Shot\n\n While using EX Special Attack: Intense Heat Stirring Method, with enough Energy, press to activate:\nUse both flamethrowers to continuously spray flames, followed by a fire blast in a front line, dealing massive Fire DMG. Keep holding to continue consuming Energy and extend the spray's duration.\nCharacter is invulnerable during the moment the spray is activated and during the activation of the fire blast.\nAnti-Interrupt Level is increased while spraying, and DMG received is reduced by 60%.\n Multipliers\n\n EX Special Attack: Intense Heat Tossing Method\n\n If Burnice has Emberflow, coming on-field activates this skill.\nAfter squadmates trigger Afterburn 12 times, Burnice gains 1 point of Emberflow. With Emberflow, Burnice's next entry onto the field consumes 1 stack to automatically activate this skill. This entry is considered a Quick Assist. When Afterburn triggered by Basic Attack: Mixed Flame Blend hits an enemy, it counts for 2 times. While possessing Emberflow, the counter no longer increases. Consuming Emberflow clears the counter.\nQuickly dashes forward and passes through the enemy, unleashing a fiery impact that deals Physical DMG and Fire DMG.\nWhen the skill's heavy attack hits a target suffering Ether, Electric, Fire, Physical, Ice, or Wind Anomaly, it triggers Abloom: deals an additional instance of DMG equal to 480%/240%/600%/40%/60%/24% of the original Anomaly's DMG.\nThe Fire Anomaly Buildup increase from Additional Ability: Fire Kindling applies to this skill.\nCharacter is invulnerable while using this skill.\nAfter using this skill, press to immediately follow up with EX Special Attack: Intense Heat Stirring Method - Double Shot.\n Multipliers\n\n Chain Attack: Fuel-Fed Flame\n\n When a Chain Attack is triggered, select the character to activate:\nQuickly dash forward while spraying flames in all directions, then launch a fire blast in a fan-shaped area ahead, dealing massive Fire DMG.\nAfter using the skill, press to immediately follow up with EX Special Attack: Intense Heat Stirring Method - Double Shot.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Ultimate: Glorious Inferno\n\n When Decibel Rating is at Maximum, press to activate.\nDash forward quickly, then leap into the air and continuously spray flames over a wide area ahead, dealing massive Fire DMG.\nWhen leaping into the air, a Quick Assist will be triggered. If the Quick Assist is activated, Burnice will extend the duration of her flame spray.\nUpon activation, recover 50 Heat.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Assist Follow-Up: Scorching Dew\n\n Press after a Defensive Assist to activate:\nLeap into the air and quickly spin forward while spraying flames in all directions, dealing Fire DMG.\nAfter using the skill, press to immediately follow up with EX Special Attack: Intense Heat Stirring Method - Double Shot.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Defensive Assist: Smoky Cauldron\n\n When the character on field is about to be attacked, press to activate.\nParries the enemy's attack, inflicting massive Daze.\n\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Quick Assist: Energizing Specialty Drink\n\n When the on-field character is launched, press to activate.\nLaunches a series of attacks at enemies ahead and sprays flames, dealing Physical DMG and Fire DMG.\nCharacter is invulnerable while using this skill.\nAfter using this skill, press to immediately follow up with EX Special Attack: Intense Heat Stirring Method - Double Shot.\n Multipliers\n\n Mindscapes\n M1\n Kindred Flames\n Mindscape 1\n\n Increases the limit of Heat from 100 to 140 . Upon entering the battlefield, Burnice accumulates an additional 40 Heat. Increases the DMG Multiplier of the Afterburn effect by 100% of Burnice's ATK. Additionally, the accumulated Fire Anomaly Buildup from the Afterburn effect is increased by 25% .\n\n M2\n Extra at No Additional Charge\n Mindscape 2\n\n When triggering the Afterburn effect, Thermal Penetration is applied to the enemy, stacking up to 5 times and lasting 6s . Repeated triggers reset the duration. When any allied unit in the squad hits the enemy, the attack's PEN Ratio is increased by 4% for each stack of Thermal Penetration, up to a max of 20% .\n\n M3\n Optimistic by Nature\n Mindscape 3\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M4\n Ultimate Fuel Supply\n Mindscape 4\n\n When an EX Special Attack or Assist Attack hits an enemy, the move's CRIT Rate increases by 30% . The max flame spray duration of EX Special Attack: Intense Heat Stirring Method - Double Shot is increased by 1s .\n\n M5\n Dance of Fire and Ice\n Mindscape 5\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M6\n Burning Invitation\n Mindscape 6\n\n When Burnice hits an enemy with EX Special Attack: Intense Heat Stirring Method - Double Shot, it triggers an additional special Afterburn effect, dealing 60% of Burnice's ATK as Fire DMG to the target. This effect can trigger once every 0.5s and does not consume Heat. After hitting an enemy with EX Special Attack: Intense Heat Stirring Method - Double Shot, while the move is active, EX Special Attack: Intense Heat Stirring Method - Double Shot, special Afterburn effects, and Burn effects will ignore 25% of the target's Fire RES. When EX Special Attack: Intense Heat Stirring Method - Double Shot's fire blast hits an enemy, if that enemy is Burned, trigger an additional instance of Burn DMG equal to 1,800% of the original DMG. This effect can trigger once every 20s for each target.\n\n Stats (Level 60)\n Burnice Stats at level 60 (including Core passive bonuses).\n\n HP\n 7368\n\n DEF\n 600\n\n ATK\n 863\n\n CRIT Rate\n 5 %\n\n CRIT DMG\n 50 %\n\n PEN Ratio\n 0 %\n\n Impact\n 83\n\n Anomaly Mastery\n 118\n\n Anomaly Proficiency\n 120\n\n Energy Regen\n 1.56\n\n Voice Actors\n ENG\n Risa Mei\n\n JPN\n Karin Takahashi (高橋 花林)\n\n CN\n -\n\n KR\n -\n\n Gallery\n\n Review\n\n Ratings\n This tier list assesses Agents (characters) based on their combat potential in Zenless Zone Zero's most demanding contents - Deadly Assault (DA) and Shiyu Defense (SD) . Please keep in mind Zenless Zone Zero is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Zenless Zone Zero is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.\n\n Anomaly DPS\n T0.5\n Endgame Modes\n\n Pros & Cons\n Pros\n Requires minimal field time to function, thanks to off-field playstyle;\n\n Strong Fire Anomaly Application - ideal for Burn or Disorder-focused teams;\n\n Easy To Play.\n\n Cons\n Reliant on energy and/or Ultimate to generate “Heat” and keep her kit fully functional - as such resource management is required.\n\n Review\n Intro & Unique Mechanic\n Burnice is an S-rank Fire Anomaly Agent who specializes in dealing damage and applying Anomaly from off-field via her Afterburn mechanic. Taking part in occasional short bursts of field time to restore her resources and proc “Ablooms” while letting the primary damage dealer of the team shine is what defines her playstyle.\n Burnice has her own unique resource called Heat, tracked via a gauge underneath her portrait in combat and building up to 100 points. She enters the battlefield with 100 Heat and per point of Energy consumed, she restores 1.4 Heat.\n When at 50 Heat or above, Burnice is in the “Nitro-Fuel Cocktail” state and will remain in it even after dropping below the threshold, exiting only when all Heat is expended.\n In this state, hitting an enemy with an EX Special, Chain Attack, Ultimate or Charged Basic Attack applies the Scorched effect to enemies, which lasts until she exits Nitro-Fuel Cocktail state.\n Any squad member’s attacks other than her own will consume 8 Heat to trigger “Afterburn”, with a 1.5s CD, but by Potential Awakening 2 and above, this reduces to 1.35s CD. This is an instance of damage that functions like a regular attack hit, building Anomaly and being able to critically hit despite Burnice being off-field.\n It scales with Burnice’s ATK and gains a DMG Bonus for every 10 points of Anomaly Proficiency she has, maxing out at 30% DMG Bonus when at 300 AP and above. All damage from it is treated as Assist DMG.\n With her Additional Ability active - requiring either Anomaly or same Faction Agents - the Anomaly Buildup of her Afterburn as well as those from her EX Special and Charged Basic Attack gain 65% extra Anomaly Build-up rate. In addition, the duration of Burn is increased by 3s, which also influences the maximum damage dealt by Burn Disorders.\n As her Potential increases, Burnice also gets more Anomaly Mastery and DMG Bonus for every 0.1 point of initial Energy Regen over 1.8, capping out at 25% and 20% respectively.\n Kit Breakdown\n Burnice’s Charged Basic Attack has some unique properties. Despite it being a Basic Attack , like her Afterburn it is treated as Assist DMG . It costs 20 Heat to use - being the only non-Afterburn skill in her kit that consumes Heat - but in turn it will trigger an Afterburn that does not consume Heat nor share a cooldown with it.\n As her Heat can get depleted quickly while using it, it needs frequent refills.\n Burnice’s Ultimate can generate 50 Heat on cast, and has the added benefit of triggering a Quick Assist. This prompt should always be taken as doing so will extend the duration of her Ultimate, increasing its value. Her Chain Attack does not have any Heat generation, but it has some of the highest Anomaly build-up in the entire game (higher than even her Ultimate’s). Since Heat can also be restored by consuming Energy, EX Specials will make up the majority of its maintenance. By default, pressing the Special button with at least 40 Energy available will cast EX Special: Intense Heat Stirring Method, a single flamethrower stream that will consume 12.5 Energy p/s to deal damage and apply a fair bit of Anomaly.\n Pressing it again will transition into EX Special: Intense Heat Stirring Method - Double Shot, consuming double the Energy but also dealing roughly double the damage, Daze and even more Anomaly. Some skills however, namely her Charged Basic Attack, Quick Assist, Assist Follow-Up, Chain Attack and EX Special: Intense Heat Tossing Method can bypass the base skill and shortcut to Double Shot.\n The last on that list is brought about by Burnice’s Potential Awakening. When Afterburn is triggered 12 times, Burnice will gain Emberflow, indicated by the glowing dot on her gauge. Her Hold Basic Attack’s extra Afterburn triggers count for this too.\n While she has it, Afterburn procs won’t build up to another Emberflow, so using up is the priority, This is done by switching into Burnice, which then casts EX Special: Intense Heat Tossing Method to deal a decent amount of damage, Daze, Anomaly and trigger an Abloom. Despite it being an EX Special, this cast-on-swap behaviour has it function like an Entry Skill, and therefore it’s considered a Quick Assist.\n An Abloom is an extra tick of Anomaly damage: whenever a character is suffering from any Attribute Anomaly of the 5 standard elements (Ether, Electric, Fire, Ice, Physical), Abloom will deal a percentage of the existing Anomaly currently inflicted. For Burnice, if an enemy is taking 10,000 DMG Burn ticks, the scaling rate on her Heat Tossing Method means it’d trigger a 60,000 DMG Abloom..\n The more Heat Tossing Methods Burnice gets in a fight, the higher her total damage contribution becomes, being an additional source of damage besides her raw multipliers or Anomaly and Disorder triggers.\n\n How to play\n Burnice’s gameplan then amounts to a pretty simple flowchart:\n Apply Scorch to enemies (most likely with her Hold Basic Attack at the start of combat to reserve Energy).\n\n Stay off-field and allow squad members to trigger Afterburn procs to build Emberflow.\n\n Swap in occasionally to restore Heat via EX Special casts, ideally with a skill that allows her to shortcut to Double Shot (like an Assist Follow-Up or a Chain Attack).\n\n If there’s enough Energy Regen to allow for frequent refills, using the occasional Hold Basic Attack for more Afterburn procs can help.\n\n Once Emberflow is stocked, use it up immediately for an Abloom trigger.\n\n There are some optimisations that can be done to her general play. As she’s likely to be running Chaos Jazz 4-piece, the 7.5s CD on its effect upon switching in should be respected else risk losing its bonus when coming in to refill Heat.\n Ultimate is always a good option for an immediate top-up that is independent from Energy consumption, buying time for resources to recover. Keep in mind that ideally it shouldn’t be used when at over 50 Heat so as to not waste gauge.\n Anything more would be comp and encounter specific, like looking to balance out Defensive Assists with the main damage dealer for Decibel management which may require Burnice to come on-field slightly more frequently, or making use of her Ultimate to bypass Anomaly/Disorder ICDs with Alice.\n The greatest gains in score for Burnice are less about how she in particular is played and more on how to route a fight, specifically by getting good at sustaining Heat and balancing out Anomaly build-up across the team.\n\n Build and teams\n\n Collaboration Disclaimer\n For ZZZ calculations we worked alongside Rivyn Elowen . Any other content such as comments on W-Engines, Disks, etc are our own.\n\n Best W-Engines\n The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n Full Team calculations\n The W-Engine calculations below are full team calculations , and here's the team used for them.\n Alice + Practiced Perfection\n Yuzuha + Metanukimorphosis\n 100.00%\n\n Flamemaker Shaker (S 1 )\n\n Best option for Burnice in all scenarios, with the slight downside of requiring some ramp-up time at the start of fights. Offers more damage when fully ramped than all other options, and also offers Burnice additional Energy Regen while off-field, assisting her Heat management.\n Usage: 74.12 %\n Shiyu Defense: 38206\n Deadly Assault: 29296\n\n 99.04%\n\n Practiced Perfection (S 1 )\n\n Alice's Signature is not quite the best option for Burnice, but it comes close, with the raw amount of Anomaly Mastery that it provides making ER on D6 an easy choice. As Burnice's Potential Awakenings are dependent on initial ER, Flamemaker Shaker doesn't have that great an advantage; although the latter does allow for a more active playstyle (i.e. more frequent uses of Hold Basic for Emberflow build), Practiced Perfection is plenty strong and easy to use.\n Usage: 0.75 %\n Shiyu Defense: 40150\n Deadly Assault: 32784\n\n 96.02%\n\n Electro-Lip Gloss (S 5 )\n\n Burnice can fully take advantage of all the stats this W-Engine has to offer, while also easily mitigating it's usually stiff downside of always needing an Anomaly active on all enemy targets, thanks to her absurdly quick and consistent Burn application. This W-Engine only becomes more consistent when playing Burnice in Disorder teams, thanks to even more frequent Anomaly application.\n Usage: 4.41 %\n Shiyu Defense: 35212\n Deadly Assault: 26183\n\n 95.80%\n\n Weeping Gemini (S 5 )\n\n The best fully F2P-accessible A-rank option for many Anomaly Agents, Burnice being no exception to this. Grants a massive boost to Anomaly Proficiency when any squad member inflicts an Attribute Anomaly on enemies, while providing good permanent ATK via its main stats. Not comparable to her Signature, but a viable alternative if you don't have access to it.\n Usage: 10.79 %\n Shiyu Defense: 35681\n Deadly Assault: 25363\n\n Best Disk Drives Sets\n 1\n\n Freedom Blues ( 4 -PC)\n\n Freedom Blues is the go-to pick for Wind Anomaly teams (like when run alongside Velina). With Vortexes being as strong as they are, it's better to push for more of them over getting slight damage increases, especially as Burnice's high Energy Regen means that she has little issue with maintaining the 4-piece effect. As her Potential Unlock scales with Energy Regen, it's the ideal 2-piece option.\n Best combined with your choice of 2-PC Set:\n 2P\n Swing Jazz\n\n Moonlight Lullaby\n\n (Recommended)\n\n 2\n\n Chaos Jazz ( 4 -PC)\n\n Chaos Jazz is the best general set for Disorder teams. As Burnice tends to take an off-field role, it's almost always up, and even at times where she does take to the field - like in Stun for Chain Attacks - it's possible to get most of her Anomaly application to benefit from it due to the lingering effect. As her Potential Unlock scales with Energy Regen, it's the ideal 2-piece option.\n Best combined with your choice of 2-PC Set:\n 2P\n Swing Jazz\n\n Moonlight Lullaby\n\n (Recommended)\n\n Best Disk Drives Stats\n Disk 4\n Anomaly Proficiency\n\n Disk 5\n PEN Ratio% >= Fire DMG%\n\n Disk 6\n Anomaly Mastery\n\n Substats: Anomaly Proficiency > ATK% > PEN > ATK\n\n Best Endgame Stats (Level 60)\n ATK: 2500 - 3200+ (Depends on the W-engine and Drive main stats)\n\n HP: 9500 - 10000+\n\n DEF: 800+\n\n Anomaly Proficiency: 350 - 400+\n\n Anomaly Mastery: 153+\n\n Skill priority\n Special Attack\n\n Chain Attack\n\n Basic Attack\n\n Assist\n\n Dodge\n\n Video guides\n\n Teams & Synergy\n\n Synergy\n Below we list only the most important synergies for Burnice . The character can work with others if you know what to do and how to use them.\n\n Velina Remielle - Despite Burnice initially being made to work as an off-field Anomaly applier, she has surprisingly strong build-up when played as an active Agent. Her EX Double Shot and hold Basic Attack are especially strong, the latter of which even counts for additional Afterburn triggers. Balancing out Disorders could be difficult, but when run with Velina it doesn't matter: when combined with her high Chain Attack build-up values, Burnice can match and sometimes even exceed other traditional \"on-field\" Anomaly Agents in the amount of Vortexes she can get in a fight, with an especially strong showing in stun periods. Remielle is also a great pick: she's an ideal slot on any Anomaly team, but her long animations and field time demands isn't lost, as Burnice is still capable of building up Anomaly through Afterburns - and if Flamemaker Shaker is used - helps with her Energy management too.\n Yuzuha Nangong Yu - The Nangong/Yuzuha shell is a decent option for Burnice. Yuzuha is as good as she's always been at making up disparity in Anomaly build-up, and with Nangong being essentially an Anomaly Agent disguised as a Stunner, Burnice's traditional role in working to build Anomaly while off-field and pushing for Disorders still works. Afterburn ticks while Nangong is active during her hold Basic, EXs and Ultimate, and the fast stun turn around then lets Burnice come in with her absurdly strong Chain Attacks (which is further boosted by Nangong)! It may not be her best team, but it's still a good alternative when Vortex isn't available.\n Teams (Shiyu Defense)\n This section lists most popular teams featuring Burnice in the current phase of Shiyu Defense.\n Rank 11\n App. rate: 5.58 %\n Avg. time: 40344\n\n Rank 44\n App. rate: 0.64 %\n Avg. time: 29554\n\n Rank 48\n App. rate: 0.59 %\n Avg. time: 26981\n\n Rank 61\n App. rate: 0.48 %\n Avg. time: 35208\n\n Rank 80\n App. rate: 0.28 %\n Avg. time: 28115\n\n Rank 114\n App. rate: 0.14 %\n Avg. time: 30082\n\n Rank 127\n App. rate: 0.11 %\n Avg. time: 27052\n\n Rank 127\n App. rate: 0.11 %\n Avg. time: 28621\n\n Rank 127\n App. rate: 0.11 %\n Avg. time: 33842\n\n Rank 158\n App. rate: 0.08 %\n Avg. time: 30279\n\n Teams (Deadly Assault)\n This section lists most popular teams featuring Burnice in the current phase of Deadly Assault.\n Rank 9\n App. rate: 6.79 %\n Avg. score: 29661\n\n Rank 55\n App. rate: 0.6 %\n Avg. score: 24193\n\n Rank 58\n App. rate: 0.58 %\n Avg. score: 23605\n\n Rank 67\n App. rate: 0.43 %\n Avg. score: 21995\n\n Rank 110\n App. rate: 0.16 %\n Avg. score: 24955\n\n Rank 156\n App. rate: 0.09 %\n Avg. score: 21470\n\n Rank 156\n App. rate: 0.09 %\n Avg. score: 24056\n\n Rank 190\n App. rate: 0.06 %\n Avg. score: 22995\n\n Rank 190\n App. rate: 0.06 %\n Avg. score: 22778\n\n Rank 217\n App. rate: 0.05 %\n Avg. score: 24051"
+  "text": "Burnice Best Build Guide | Zenless Zone Zero\n \n\n Zenless Zone Zero\n Home Database Agents Bangboo W-Engines Disk Drives Banners\n Tier Lists Tier List\n Endgame Shiyu Defense Deadly Assault\n Resources Guides News\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Zenless Zone Zero\n /\n Characters\n /\n Burnice\n Burnice Best Build Guide\n Last updated: 29/July/2026\n\n Introduction\n Best guide and build for Burnice from ZZZ (Zenless Zone Zero). Burnice is an rank character with the Fire attribute who belongs to the Anomaly Specialty and who is part of the Sons of Calydon faction.\n Burnice, the Nitro-Fuel bartender for the Sons of Calydon. A hopeless fuel lover. She is responsible for all the fuel used by the machinery owned by the Sons of Calydon. She seems to have a passion for fuel that overwhelms all else.\n\n To learn more about Burnice check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Video guide\n Burnice has at least one video guide available, so if you prefer this sort of medium to learn more about a character, check it out:\n\n Update tracker\n Last review update\n Patch 2.5\n\n Last build update\n Patch 2.5\n\n Last teams update\n Patch 2.5\n\n Last profile update*\n 29/July/2026\n\n *Profile update means smaller edits to disk drives, stats or other things that don't require new calculations.\n\n Kit\n\n Review\n\n Build\n\n SD/DA Analytics\n\n Teams & Synergy\n\n Calculations\n\n To learn more about Burnice check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n Profile\n\n Core skills\n\n Core Passive Nitro-Fuel Cocktail\n\n Lv. 1\n\n When Burnice expends Energy, she accumulates Heat, up to a max of 100 . She gains 1.4 Heat for each 1 point of Energy consumed. At 50 Heat, she enters the Nitro-Fuel Cocktail state until all Heat is expended. Upon entering the battlefield, Burnice instantly accumulates 100 Heat.\n\nWhile in the Nitro-Fuel Cocktail state, when Burnice hits an enemy with a Basic Attack: Mixed Flame Blend, EX Special Attack: Intense Heat Stirring Method, EX Special Attack: Intense Heat Stirring Method - Double Shot, Chain Attack: Fuel-Fed Flame, or Ultimate: Glorious Inferno, she applies the Scorched effect to the target until she exits the Nitro-Fuel Cocktail state. When other squad members hit enemies under the Scorched status, it triggers the Afterburn effect, expending 8 Heat to deal Fire DMG equal to 175 of Burnice's ATK and accumulate Fire Anomaly Buildup. This effect can trigger once every 1.5s . For every 10 Anomaly Proficiency, Afterburn DMG increases by 1% , up to a max of 30% . DMG from the Afterburn effect is considered Assist Attack DMG.\n\n Base Energy Regen 0\n BASE ATK : 0\n\n Additional Ability Fire Kindling\n\n When another character in your squad is an Anomaly character or shares the same Faction:\n When Burnice's Basic Attack: Mixed Flame Blend, EX Special Attack: Intense Heat Stirring Method or EX Special Attack: Intense Heat Stirring Method - Double Shot hits an enemy, or when the Afterburn effect is triggered, the move's accumulated Anomaly Buildup increases by 65% . When any squad member applies the Burn effect to an enemy, the duration of that effect is extended by 3s .\n\n Potential\n Potential\n Awakened Potential: Boiling Point Party\n\n Lv. 1\n\n At Potential level 1, the character unlocks all of their kit and gameplay changes, but has no Additional Ability stat enhancements.\n\n Skills\n Basic\n Dodge\n Assist\n Special\n Chain\n\n Basic Attack: Direct Flame Blend\n\n Press to activate:\nUnleashes up to 5 attacks in front, dealing Physical DMG and Fire DMG.\n Multipliers\n\n Basic Attack: Mixed Flame Blend\n\n In the Nitro-Fuel Cocktail state, hold to activate:\nSpins continuously while spraying flames around, followed by a Finishing Move, then triggers an extra instance of Afterburn that doesn't cost Heat and deals Fire DMG. Continuing to hold extends the flame-spraying duration.\nThe DMG dealt by this skill also counts as Assist Attack DMG.\nUpon activation, it consumes 20 Heat.\nAnti-Interrupt level is increased while using this skill.\nAfter executing the Finishing Move, press to immediately follow up with EX Special Attack: Intense Heat Stirring Method - Double Shot.\n Multipliers\n\n Dodge: Fiery Phantom Dash\n\n Press to activate.\nA quick dash dodge.\nCharacter is invulnerable while using this skill.\n\n Dash Attack: Dangerous Fermentation\n\n Press during a dodge to activate:\nPerform a forward rush attack with the flamethrower, dealing Fire DMG.\n Multipliers\n\n Dodge Counter: Fluttering Steps\n\n Press during a Perfect Dodge to activate.\nSLaunch a series of attacks on enemies in front while spraying flames, dealing Physical DMG and Fire DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Special Attack: Intense Heat Aging Method\n\n Press to activate.\nUnleash a fire blast forward, inflicting Fire DMG;\nPress and hold to charge, boosting the moves power.\nAnti-Interrupt level is increased while using this skill.\n Multipliers\n\n EX Special Attack: Intense Heat Stirring Method\n\n With enough energy, press to activate:\nContinuously spray flames with a one-handed flamethrower, then release a fire blast in a straight line ahead, dealing massive Fire DMG. Continue holding to steadily consume Energy and extend the spray's duration.\nWhile continuously spraying, drag the stick/joystick to execute a sidestep dodge, adjusting your position in the corresponding direction.\nAnti-Interrupt Level is increased while continuously spraying, and DMG taken is reduced by 60%.\nCharacter is invulnerable during sidestep dodge and fire blast.\n Multipliers\n\n EX Special Attack: Intense Heat Stirring Method - Double Shot\n\n While using EX Special Attack: Intense Heat Stirring Method, with enough Energy, press to activate:\nUse both flamethrowers to continuously spray flames, followed by a fire blast in a front line, dealing massive Fire DMG. Keep holding to continue consuming Energy and extend the spray's duration.\nCharacter is invulnerable during the moment the spray is activated and during the activation of the fire blast.\nAnti-Interrupt Level is increased while spraying, and DMG received is reduced by 60%.\n Multipliers\n\n EX Special Attack: Intense Heat Tossing Method\n\n If Burnice has Emberflow, coming on-field activates this skill.\nAfter squadmates trigger Afterburn 12 times, Burnice gains 1 point of Emberflow. With Emberflow, Burnice's next entry onto the field consumes 1 stack to automatically activate this skill. This entry is considered a Quick Assist. When Afterburn triggered by Basic Attack: Mixed Flame Blend hits an enemy, it counts for 2 times. While possessing Emberflow, the counter no longer increases. Consuming Emberflow clears the counter.\nQuickly dashes forward and passes through the enemy, unleashing a fiery impact that deals Physical DMG and Fire DMG.\nWhen the skill's heavy attack hits a target suffering Ether, Electric, Fire, Physical, Ice, or Wind Anomaly, it triggers Abloom: deals an additional instance of DMG equal to 480%/240%/600%/40%/60%/24% of the original Anomaly's DMG.\nThe Fire Anomaly Buildup increase from Additional Ability: Fire Kindling applies to this skill.\nCharacter is invulnerable while using this skill.\nAfter using this skill, press to immediately follow up with EX Special Attack: Intense Heat Stirring Method - Double Shot.\n Multipliers\n\n Chain Attack: Fuel-Fed Flame\n\n When a Chain Attack is triggered, select the character to activate:\nQuickly dash forward while spraying flames in all directions, then launch a fire blast in a fan-shaped area ahead, dealing massive Fire DMG.\nAfter using the skill, press to immediately follow up with EX Special Attack: Intense Heat Stirring Method - Double Shot.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Ultimate: Glorious Inferno\n\n When Decibel Rating is at Maximum, press to activate.\nDash forward quickly, then leap into the air and continuously spray flames over a wide area ahead, dealing massive Fire DMG.\nWhen leaping into the air, a Quick Assist will be triggered. If the Quick Assist is activated, Burnice will extend the duration of her flame spray.\nUpon activation, recover 50 Heat.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Assist Follow-Up: Scorching Dew\n\n Press after a Defensive Assist to activate:\nLeap into the air and quickly spin forward while spraying flames in all directions, dealing Fire DMG.\nAfter using the skill, press to immediately follow up with EX Special Attack: Intense Heat Stirring Method - Double Shot.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Defensive Assist: Smoky Cauldron\n\n When the character on field is about to be attacked, press to activate.\nParries the enemy's attack, inflicting massive Daze.\n\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Quick Assist: Energizing Specialty Drink\n\n When the on-field character is launched, press to activate.\nLaunches a series of attacks at enemies ahead and sprays flames, dealing Physical DMG and Fire DMG.\nCharacter is invulnerable while using this skill.\nAfter using this skill, press to immediately follow up with EX Special Attack: Intense Heat Stirring Method - Double Shot.\n Multipliers\n\n Mindscapes\n M1\n Kindred Flames\n Mindscape 1\n\n Increases the limit of Heat from 100 to 140 . Upon entering the battlefield, Burnice accumulates an additional 40 Heat. Increases the DMG Multiplier of the Afterburn effect by 100% of Burnice's ATK. Additionally, the accumulated Fire Anomaly Buildup from the Afterburn effect is increased by 25% .\n\n M2\n Extra at No Additional Charge\n Mindscape 2\n\n When triggering the Afterburn effect, Thermal Penetration is applied to the enemy, stacking up to 5 times and lasting 6s . Repeated triggers reset the duration. When any allied unit in the squad hits the enemy, the attack's PEN Ratio is increased by 4% for each stack of Thermal Penetration, up to a max of 20% .\n\n M3\n Optimistic by Nature\n Mindscape 3\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M4\n Ultimate Fuel Supply\n Mindscape 4\n\n When an EX Special Attack or Assist Attack hits an enemy, the move's CRIT Rate increases by 30% . The max flame spray duration of EX Special Attack: Intense Heat Stirring Method - Double Shot is increased by 1s .\n\n M5\n Dance of Fire and Ice\n Mindscape 5\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M6\n Burning Invitation\n Mindscape 6\n\n When Burnice hits an enemy with EX Special Attack: Intense Heat Stirring Method - Double Shot, it triggers an additional special Afterburn effect, dealing 60% of Burnice's ATK as Fire DMG to the target. This effect can trigger once every 0.5s and does not consume Heat. After hitting an enemy with EX Special Attack: Intense Heat Stirring Method - Double Shot, while the move is active, EX Special Attack: Intense Heat Stirring Method - Double Shot, special Afterburn effects, and Burn effects will ignore 25% of the target's Fire RES. When EX Special Attack: Intense Heat Stirring Method - Double Shot's fire blast hits an enemy, if that enemy is Burned, trigger an additional instance of Burn DMG equal to 1,800% of the original DMG. This effect can trigger once every 20s for each target.\n\n Stats (Level 60)\n Burnice Stats at level 60 (including Core passive bonuses).\n\n HP\n 7368\n\n DEF\n 600\n\n ATK\n 863\n\n CRIT Rate\n 5 %\n\n CRIT DMG\n 50 %\n\n PEN Ratio\n 0 %\n\n Impact\n 83\n\n Anomaly Mastery\n 118\n\n Anomaly Proficiency\n 120\n\n Energy Regen\n 1.56\n\n Voice Actors\n ENG\n Risa Mei\n\n JPN\n Karin Takahashi (高橋 花林)\n\n CN\n -\n\n KR\n -\n\n Gallery\n\n Review\n\n Ratings\n This tier list assesses Agents (characters) based on their combat potential in Zenless Zone Zero's most demanding contents - Deadly Assault (DA) and Shiyu Defense (SD) . Please keep in mind Zenless Zone Zero is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Zenless Zone Zero is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.\n\n Anomaly DPS\n T0.5\n Endgame Modes\n\n Pros & Cons\n Pros\n Requires minimal field time to function, thanks to off-field playstyle;\n\n Strong Fire Anomaly Application - ideal for Burn or Disorder-focused teams;\n\n Easy To Play.\n\n Cons\n Reliant on energy and/or Ultimate to generate “Heat” and keep her kit fully functional - as such resource management is required.\n\n Review\n Intro & Unique Mechanic\n Burnice is an S-rank Fire Anomaly Agent who specializes in dealing damage and applying Anomaly from off-field via her Afterburn mechanic. Taking part in occasional short bursts of field time to restore her resources and proc “Ablooms” while letting the primary damage dealer of the team shine is what defines her playstyle.\n Burnice has her own unique resource called Heat, tracked via a gauge underneath her portrait in combat and building up to 100 points. She enters the battlefield with 100 Heat and per point of Energy consumed, she restores 1.4 Heat.\n When at 50 Heat or above, Burnice is in the “Nitro-Fuel Cocktail” state and will remain in it even after dropping below the threshold, exiting only when all Heat is expended.\n In this state, hitting an enemy with an EX Special, Chain Attack, Ultimate or Charged Basic Attack applies the Scorched effect to enemies, which lasts until she exits Nitro-Fuel Cocktail state.\n Any squad member’s attacks other than her own will consume 8 Heat to trigger “Afterburn”, with a 1.5s CD, but by Potential Awakening 2 and above, this reduces to 1.35s CD. This is an instance of damage that functions like a regular attack hit, building Anomaly and being able to critically hit despite Burnice being off-field.\n It scales with Burnice’s ATK and gains a DMG Bonus for every 10 points of Anomaly Proficiency she has, maxing out at 30% DMG Bonus when at 300 AP and above. All damage from it is treated as Assist DMG.\n With her Additional Ability active - requiring either Anomaly or same Faction Agents - the Anomaly Buildup of her Afterburn as well as those from her EX Special and Charged Basic Attack gain 65% extra Anomaly Build-up rate. In addition, the duration of Burn is increased by 3s, which also influences the maximum damage dealt by Burn Disorders.\n As her Potential increases, Burnice also gets more Anomaly Mastery and DMG Bonus for every 0.1 point of initial Energy Regen over 1.8, capping out at 25% and 20% respectively.\n Kit Breakdown\n Burnice’s Charged Basic Attack has some unique properties. Despite it being a Basic Attack , like her Afterburn it is treated as Assist DMG . It costs 20 Heat to use - being the only non-Afterburn skill in her kit that consumes Heat - but in turn it will trigger an Afterburn that does not consume Heat nor share a cooldown with it.\n As her Heat can get depleted quickly while using it, it needs frequent refills.\n Burnice’s Ultimate can generate 50 Heat on cast, and has the added benefit of triggering a Quick Assist. This prompt should always be taken as doing so will extend the duration of her Ultimate, increasing its value. Her Chain Attack does not have any Heat generation, but it has some of the highest Anomaly build-up in the entire game (higher than even her Ultimate’s). Since Heat can also be restored by consuming Energy, EX Specials will make up the majority of its maintenance. By default, pressing the Special button with at least 40 Energy available will cast EX Special: Intense Heat Stirring Method, a single flamethrower stream that will consume 12.5 Energy p/s to deal damage and apply a fair bit of Anomaly.\n Pressing it again will transition into EX Special: Intense Heat Stirring Method - Double Shot, consuming double the Energy but also dealing roughly double the damage, Daze and even more Anomaly. Some skills however, namely her Charged Basic Attack, Quick Assist, Assist Follow-Up, Chain Attack and EX Special: Intense Heat Tossing Method can bypass the base skill and shortcut to Double Shot.\n The last on that list is brought about by Burnice’s Potential Awakening. When Afterburn is triggered 12 times, Burnice will gain Emberflow, indicated by the glowing dot on her gauge. Her Hold Basic Attack’s extra Afterburn triggers count for this too.\n While she has it, Afterburn procs won’t build up to another Emberflow, so using up is the priority, This is done by switching into Burnice, which then casts EX Special: Intense Heat Tossing Method to deal a decent amount of damage, Daze, Anomaly and trigger an Abloom. Despite it being an EX Special, this cast-on-swap behaviour has it function like an Entry Skill, and therefore it’s considered a Quick Assist.\n An Abloom is an extra tick of Anomaly damage: whenever a character is suffering from any Attribute Anomaly of the 5 standard elements (Ether, Electric, Fire, Ice, Physical), Abloom will deal a percentage of the existing Anomaly currently inflicted. For Burnice, if an enemy is taking 10,000 DMG Burn ticks, the scaling rate on her Heat Tossing Method means it’d trigger a 60,000 DMG Abloom..\n The more Heat Tossing Methods Burnice gets in a fight, the higher her total damage contribution becomes, being an additional source of damage besides her raw multipliers or Anomaly and Disorder triggers.\n\n How to play\n Burnice’s gameplan then amounts to a pretty simple flowchart:\n Apply Scorch to enemies (most likely with her Hold Basic Attack at the start of combat to reserve Energy).\n\n Stay off-field and allow squad members to trigger Afterburn procs to build Emberflow.\n\n Swap in occasionally to restore Heat via EX Special casts, ideally with a skill that allows her to shortcut to Double Shot (like an Assist Follow-Up or a Chain Attack).\n\n If there’s enough Energy Regen to allow for frequent refills, using the occasional Hold Basic Attack for more Afterburn procs can help.\n\n Once Emberflow is stocked, use it up immediately for an Abloom trigger.\n\n There are some optimisations that can be done to her general play. As she’s likely to be running Chaos Jazz 4-piece, the 7.5s CD on its effect upon switching in should be respected else risk losing its bonus when coming in to refill Heat.\n Ultimate is always a good option for an immediate top-up that is independent from Energy consumption, buying time for resources to recover. Keep in mind that ideally it shouldn’t be used when at over 50 Heat so as to not waste gauge.\n Anything more would be comp and encounter specific, like looking to balance out Defensive Assists with the main damage dealer for Decibel management which may require Burnice to come on-field slightly more frequently, or making use of her Ultimate to bypass Anomaly/Disorder ICDs with Alice.\n The greatest gains in score for Burnice are less about how she in particular is played and more on how to route a fight, specifically by getting good at sustaining Heat and balancing out Anomaly build-up across the team.\n\n Build and teams\n\n Collaboration Disclaimer\n For ZZZ calculations we worked alongside Rivyn Elowen . Any other content such as comments on W-Engines, Disks, etc are our own.\n\n Best W-Engines\n The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n Full Team calculations\n The W-Engine calculations below are full team calculations , and here's the team used for them.\n Alice + Practiced Perfection\n Yuzuha + Metanukimorphosis\n 100.00%\n\n Flamemaker Shaker (S 1 )\n\n Best option for Burnice in all scenarios, with the slight downside of requiring some ramp-up time at the start of fights. Offers more damage when fully ramped than all other options, and also offers Burnice additional Energy Regen while off-field, assisting her Heat management.\n Usage: 72.68 %\n Shiyu Defense: 35465\n Deadly Assault: 34049\n\n 99.04%\n\n Practiced Perfection (S 1 )\n\n Alice's Signature is not quite the best option for Burnice, but it comes close, with the raw amount of Anomaly Mastery that it provides making ER on D6 an easy choice. As Burnice's Potential Awakenings are dependent on initial ER, Flamemaker Shaker doesn't have that great an advantage; although the latter does allow for a more active playstyle (i.e. more frequent uses of Hold Basic for Emberflow build), Practiced Perfection is plenty strong and easy to use.\n Usage: 0.7 %\n Shiyu Defense: 39242\n Deadly Assault: 36992\n\n 96.02%\n\n Electro-Lip Gloss (S 5 )\n\n Burnice can fully take advantage of all the stats this W-Engine has to offer, while also easily mitigating it's usually stiff downside of always needing an Anomaly active on all enemy targets, thanks to her absurdly quick and consistent Burn application. This W-Engine only becomes more consistent when playing Burnice in Disorder teams, thanks to even more frequent Anomaly application.\n Usage: 3.42 %\n Shiyu Defense: 34295\n Deadly Assault: 32497\n\n 95.80%\n\n Weeping Gemini (S 5 )\n\n The best fully F2P-accessible A-rank option for many Anomaly Agents, Burnice being no exception to this. Grants a massive boost to Anomaly Proficiency when any squad member inflicts an Attribute Anomaly on enemies, while providing good permanent ATK via its main stats. Not comparable to her Signature, but a viable alternative if you don't have access to it.\n Usage: 10.96 %\n Shiyu Defense: 33717\n Deadly Assault: 27504\n\n Best Disk Drives Sets\n 1\n\n Freedom Blues ( 4 -PC)\n\n Freedom Blues is the go-to pick for Wind Anomaly teams (like when run alongside Velina). With Vortexes being as strong as they are, it's better to push for more of them over getting slight damage increases, especially as Burnice's high Energy Regen means that she has little issue with maintaining the 4-piece effect. As her Potential Unlock scales with Energy Regen, it's the ideal 2-piece option.\n Best combined with your choice of 2-PC Set:\n 2P\n Swing Jazz\n\n Moonlight Lullaby\n\n (Recommended)\n\n 2\n\n Chaos Jazz ( 4 -PC)\n\n Chaos Jazz is the best general set for Disorder teams. As Burnice tends to take an off-field role, it's almost always up, and even at times where she does take to the field - like in Stun for Chain Attacks - it's possible to get most of her Anomaly application to benefit from it due to the lingering effect. As her Potential Unlock scales with Energy Regen, it's the ideal 2-piece option.\n Best combined with your choice of 2-PC Set:\n 2P\n Swing Jazz\n\n Moonlight Lullaby\n\n (Recommended)\n\n Best Disk Drives Stats\n Disk 4\n Anomaly Proficiency\n\n Disk 5\n PEN Ratio% >= Fire DMG%\n\n Disk 6\n Anomaly Mastery\n\n Substats: Anomaly Proficiency > ATK% > PEN > ATK\n\n Best Endgame Stats (Level 60)\n ATK: 2500 - 3200+ (Depends on the W-engine and Drive main stats)\n\n HP: 9500 - 10000+\n\n DEF: 800+\n\n Anomaly Proficiency: 350 - 400+\n\n Anomaly Mastery: 153+\n\n Skill priority\n Special Attack\n\n Chain Attack\n\n Basic Attack\n\n Assist\n\n Dodge\n\n Video guides\n\n Teams & Synergy\n\n Synergy\n Below we list only the most important synergies for Burnice . The character can work with others if you know what to do and how to use them.\n\n Velina Remielle - Despite Burnice initially being made to work as an off-field Anomaly applier, she has surprisingly strong build-up when played as an active Agent. Her EX Double Shot and hold Basic Attack are especially strong, the latter of which even counts for additional Afterburn triggers. Balancing out Disorders could be difficult, but when run with Velina it doesn't matter: when combined with her high Chain Attack build-up values, Burnice can match and sometimes even exceed other traditional \"on-field\" Anomaly Agents in the amount of Vortexes she can get in a fight, with an especially strong showing in stun periods. Remielle is also a great pick: she's an ideal slot on any Anomaly team, but her long animations and field time demands isn't lost, as Burnice is still capable of building up Anomaly through Afterburns - and if Flamemaker Shaker is used - helps with her Energy management too.\n Yuzuha Nangong Yu - The Nangong/Yuzuha shell is a decent option for Burnice. Yuzuha is as good as she's always been at making up disparity in Anomaly build-up, and with Nangong being essentially an Anomaly Agent disguised as a Stunner, Burnice's traditional role in working to build Anomaly while off-field and pushing for Disorders still works. Afterburn ticks while Nangong is active during her hold Basic, EXs and Ultimate, and the fast stun turn around then lets Burnice come in with her absurdly strong Chain Attacks (which is further boosted by Nangong)! It may not be her best team, but it's still a good alternative when Vortex isn't available.\n Teams (Shiyu Defense)\n This section lists most popular teams featuring Burnice in the current phase of Shiyu Defense.\n Rank 17\n App. rate: 3.3 %\n Avg. time: 38300\n\n Rank 22\n App. rate: 2.57 %\n Avg. time: 37881\n\n Rank 40\n App. rate: 1.02 %\n Avg. time: 30882\n\n Rank 52\n App. rate: 0.7 %\n Avg. time: 30936\n\n Rank 62\n App. rate: 0.45 %\n Avg. time: 33601\n\n Rank 71\n App. rate: 0.38 %\n Avg. time: 28712\n\n Rank 100\n App. rate: 0.21 %\n Avg. time: 30725\n\n Rank 104\n App. rate: 0.2 %\n Avg. time: 29625\n\n Rank 108\n App. rate: 0.19 %\n Avg. time: 28586\n\n Rank 119\n App. rate: 0.14 %\n Avg. time: 28577\n\n Teams (Deadly Assault)\n This section lists most popular teams featuring Burnice in the current phase of Deadly Assault.\n Rank 12\n App. rate: 5.46 %\n Avg. score: 38098\n\n Rank 29\n App. rate: 1.17 %\n Avg. score: 22342\n\n Rank 38\n App. rate: 0.76 %\n Avg. score: 25508\n\n Rank 40\n App. rate: 0.72 %\n Avg. score: 29823\n\n Rank 62\n App. rate: 0.38 %\n Avg. score: 27824\n\n Rank 66\n App. rate: 0.33 %\n Avg. score: 30840\n\n Rank 69\n App. rate: 0.32 %\n Avg. score: 22750\n\n Rank 71\n App. rate: 0.3 %\n Avg. score: 24148\n\n Rank 90\n App. rate: 0.19 %\n Avg. score: 31181\n\n Rank 106\n App. rate: 0.13 %\n Avg. score: 21103"
 }

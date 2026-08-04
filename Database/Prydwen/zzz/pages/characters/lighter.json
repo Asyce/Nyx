@@ -11,7 +11,7 @@
   "sourcePath": "/zenless/characters/lighter",
   "contentStatus": "live",
   "statusLabels": [],
-  "scrapedAt": "2026-08-02T07:43:41.101Z",
+  "scrapedAt": "2026-08-04T07:59:30.203Z",
   "updatedText": "29/July/2026",
   "meta": {
     "title": "Lighter Best Build Guide | Zenless Zone Zero",
@@ -455,42 +455,12 @@
       "height": 60
     },
     {
-      "id": "b1058e3ac1d7",
-      "sourceHash": "b1058e3ac1d7",
-      "kind": "characters",
-      "name": "Norma",
-      "fileStem": "norma",
-      "path": "Prydwen/zzz/assets/characters/norma-b1058e3ac1d7.webp",
-      "width": 60,
-      "height": 60
-    },
-    {
       "id": "869098c4c1e5",
       "sourceHash": "869098c4c1e5",
       "kind": "characters",
       "name": "Hugo",
       "fileStem": "hugo",
       "path": "Prydwen/zzz/assets/characters/hugo-869098c4c1e5.webp",
-      "width": 60,
-      "height": 60
-    },
-    {
-      "id": "1cdf4d671727",
-      "sourceHash": "1cdf4d671727",
-      "kind": "characters",
-      "name": "Sunna",
-      "fileStem": "sunna",
-      "path": "Prydwen/zzz/assets/characters/sunna-1cdf4d671727.webp",
-      "width": 60,
-      "height": 60
-    },
-    {
-      "id": "75f91ac868b8",
-      "sourceHash": "75f91ac868b8",
-      "kind": "characters",
-      "name": "Ben",
-      "fileStem": "ben",
-      "path": "Prydwen/zzz/assets/characters/ben-75f91ac868b8.webp",
       "width": 60,
       "height": 60
     },
@@ -511,6 +481,26 @@
       "name": "Dialyn",
       "fileStem": "dialyn",
       "path": "Prydwen/zzz/assets/characters/dialyn-5b1302d794ba.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "b1058e3ac1d7",
+      "sourceHash": "b1058e3ac1d7",
+      "kind": "characters",
+      "name": "Norma",
+      "fileStem": "norma",
+      "path": "Prydwen/zzz/assets/characters/norma-b1058e3ac1d7.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "e8a1e5a4346f",
+      "sourceHash": "e8a1e5a4346f",
+      "kind": "characters",
+      "name": "Zhao",
+      "fileStem": "zhao",
+      "path": "Prydwen/zzz/assets/characters/zhao-e8a1e5a4346f.webp",
       "width": 60,
       "height": 60
     },
@@ -899,7 +889,7 @@
       "id": "best-w-engines-26",
       "level": 2,
       "heading": "Best W-Engines",
-      "text": "The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n 100.00%\n 100.00%\n\n Blazing Laurel (S 1 )\n\n Lighter's Signature and naturally his best option. It allows for comfortable access to the full power of his Additional Ability whilst also boosting his Impact% and Combat Impact % considerably throughout all of his rotation. It further boosts the entire team's ICE and FIRE CRIT DMG% by up to 30%, a fantastic supportive boon.\n Usage: 57.93 %\n Shiyu Defense: 27800\n Deadly Assault: 30528\n\n 97.44%\n 100.27%\n\n Ice-Jade Teapot (S 1 )\n\n Qingyi's Signature is a surprisingly solid alternative to Lighter's Signature if you already have it. Lighter is capable of stacking the 30 stack bonus of this W-Engine sufficiently to gain a large enough Combat Impact% buff which when combined with the standard Impact% gives him enough to satisfy his Additional Ability. This Engine also grants 20 DMG% to the team for a short duration offering a nice supportive bonus.\n Usage: 13.43 %\n Shiyu Defense: 27977\n Deadly Assault: 30728\n\n 92.51%\n 89.39%\n\n Hellfire Gears (S 1 )\n\n Reasonable non-limited choice capable of maximising Lighter's Additional Ability bonus but with some inconvenience. The Combat Impact% buff of this Engine is reliant on using Lighter's EX 1 and EX Follow-Up first meaning you have to execute them ideally before your Morale combo thus restricting your options.\n Usage: 14.53 %\n Shiyu Defense: 26898\n Deadly Assault: 26146\n\n 92.43%\n 74.68%\n\n Precious Fossilized Core (S 5 )\n\n Amazing option for all Stun Agents, particularly in Deadly Assault due to its massive buffs to Daze that it gives against higher HP enemies which is exploited to its full potential in the gamemode, in a lot of cases even outperforming S-rank W-Engines despite being an F2P craftable. Unfortunately not as powerful in other endgame contents, but still a perfectly viable choice.\n Usage: 3.73 %\n Shiyu Defense: 26011\n Deadly Assault: 25554\n\n 90.80%\n 85.37%\n\n The Restrained (S 1 )\n\n This Engine is not capable of fully activating Lighter's Additional Ability resulting in a reduction in his supportive capabilities. Still provides enough Impact for a reasonable buff though and also grants him solid buffs resulting in reasonable Daze output overall.\n Usage: 4.69 %\n Shiyu Defense: 25929\n Deadly Assault: 24850",
+      "text": "The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n 100.00%\n 100.00%\n\n Blazing Laurel (S 1 )\n\n Lighter's Signature and naturally his best option. It allows for comfortable access to the full power of his Additional Ability whilst also boosting his Impact% and Combat Impact % considerably throughout all of his rotation. It further boosts the entire team's ICE and FIRE CRIT DMG% by up to 30%, a fantastic supportive boon.\n Usage: 69.55 %\n Shiyu Defense: 28062\n Deadly Assault: 21829\n\n 97.44%\n 100.27%\n\n Ice-Jade Teapot (S 1 )\n\n Qingyi's Signature is a surprisingly solid alternative to Lighter's Signature if you already have it. Lighter is capable of stacking the 30 stack bonus of this W-Engine sufficiently to gain a large enough Combat Impact% buff which when combined with the standard Impact% gives him enough to satisfy his Additional Ability. This Engine also grants 20 DMG% to the team for a short duration offering a nice supportive bonus.\n Usage: 11.09 %\n Shiyu Defense: 27667\n Deadly Assault: 23096\n\n 92.51%\n 89.39%\n\n Hellfire Gears (S 1 )\n\n Reasonable non-limited choice capable of maximising Lighter's Additional Ability bonus but with some inconvenience. The Combat Impact% buff of this Engine is reliant on using Lighter's EX 1 and EX Follow-Up first meaning you have to execute them ideally before your Morale combo thus restricting your options.\n Usage: 11.03 %\n Shiyu Defense: 27508\n Deadly Assault: 20034\n\n 92.43%\n 74.68%\n\n Precious Fossilized Core (S 5 )\n\n Amazing option for all Stun Agents, particularly in Deadly Assault due to its massive buffs to Daze that it gives against higher HP enemies which is exploited to its full potential in the gamemode, in a lot of cases even outperforming S-rank W-Engines despite being an F2P craftable. Unfortunately not as powerful in other endgame contents, but still a perfectly viable choice.\n Usage: 2.69 %\n Shiyu Defense: 26975\n Deadly Assault: 0\n\n 90.80%\n 85.37%\n\n The Restrained (S 1 )\n\n This Engine is not capable of fully activating Lighter's Additional Ability resulting in a reduction in his supportive capabilities. Still provides enough Impact for a reasonable buff though and also grants him solid buffs resulting in reasonable Daze output overall.\n Usage: 2.55 %\n Shiyu Defense: 26401\n Deadly Assault: 0",
       "assets": [
         {
           "id": "2ffa2eaf795e",
@@ -1192,7 +1182,7 @@
       "id": "teams-shiyu-defense-33",
       "level": 2,
       "heading": "Teams (Shiyu Defense)",
-      "text": "This section lists most popular teams featuring Lighter in the current phase of Shiyu Defense.\n Rank 17\n App. rate: 3.1 %\n Avg. time: 27141\n\n Rank 82\n App. rate: 0.27 %\n Avg. time: 27290\n\n Rank 158\n App. rate: 0.08 %\n Avg. time: 32048\n\n Rank 188\n App. rate: 0.06 %\n Avg. time: 35118\n\n Rank 220\n App. rate: 0.04 %\n Avg. time: 26467\n\n Rank 220\n App. rate: 0.04 %\n Avg. time: 32655\n\n Rank 257\n App. rate: 0.03 %\n Avg. time: 29273\n\n Rank 311\n App. rate: 0.02 %\n Avg. time: 0",
+      "text": "This section lists most popular teams featuring Lighter in the current phase of Shiyu Defense.\n Rank 35\n App. rate: 1.35 %\n Avg. time: 26996\n\n Rank 53\n App. rate: 0.67 %\n Avg. time: 29457\n\n Rank 108\n App. rate: 0.19 %\n Avg. time: 33199\n\n Rank 119\n App. rate: 0.14 %\n Avg. time: 29880\n\n Rank 119\n App. rate: 0.14 %\n Avg. time: 26642\n\n Rank 139\n App. rate: 0.12 %\n Avg. time: 32453\n\n Rank 182\n App. rate: 0.07 %\n Avg. time: 25843\n\n Rank 240\n App. rate: 0.04 %\n Avg. time: 33684\n\n Rank 279\n App. rate: 0.03 %\n Avg. time: 28948\n\n Rank 325\n App. rate: 0.02 %\n Avg. time: 26785",
       "assets": [
         {
           "id": "6dcc7426ba11",
@@ -1221,114 +1211,6 @@
           "name": "Astra Yao",
           "fileStem": "astra-yao",
           "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "ca536e1965fd",
-          "sourceHash": "ca536e1965fd",
-          "kind": "characters",
-          "name": "Soldier 11",
-          "fileStem": "soldier-11",
-          "path": "Prydwen/zzz/assets/characters/soldier-11-ca536e1965fd.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "b1058e3ac1d7",
-          "sourceHash": "b1058e3ac1d7",
-          "kind": "characters",
-          "name": "Norma",
-          "fileStem": "norma",
-          "path": "Prydwen/zzz/assets/characters/norma-b1058e3ac1d7.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "869098c4c1e5",
-          "sourceHash": "869098c4c1e5",
-          "kind": "characters",
-          "name": "Hugo",
-          "fileStem": "hugo",
-          "path": "Prydwen/zzz/assets/characters/hugo-869098c4c1e5.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "cacf856bd725",
-          "sourceHash": "cacf856bd725",
-          "kind": "characters",
-          "name": "Orphie & Magus",
-          "fileStem": "orphie-and-magus",
-          "path": "Prydwen/zzz/assets/characters/orphie-magus-cacf856bd725.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "1cdf4d671727",
-          "sourceHash": "1cdf4d671727",
-          "kind": "characters",
-          "name": "Sunna",
-          "fileStem": "sunna",
-          "path": "Prydwen/zzz/assets/characters/sunna-1cdf4d671727.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "75f91ac868b8",
-          "sourceHash": "75f91ac868b8",
-          "kind": "characters",
-          "name": "Ben",
-          "fileStem": "ben",
-          "path": "Prydwen/zzz/assets/characters/ben-75f91ac868b8.webp",
-          "width": 60,
-          "height": 60
-        }
-      ]
-    },
-    {
-      "id": "teams-deadly-assault-34",
-      "level": 2,
-      "heading": "Teams (Deadly Assault)",
-      "text": "This section lists most popular teams featuring Lighter in the current phase of Deadly Assault.\n Rank 13\n App. rate: 5.29 %\n Avg. score: 28601\n\n Rank 40\n App. rate: 0.84 %\n Avg. score: 31620\n\n Rank 53\n App. rate: 0.61 %\n Avg. score: 28312\n\n Rank 102\n App. rate: 0.2 %\n Avg. score: 30396\n\n Rank 110\n App. rate: 0.16 %\n Avg. score: 38643\n\n Rank 118\n App. rate: 0.15 %\n Avg. score: 32300\n\n Rank 123\n App. rate: 0.14 %\n Avg. score: 25345\n\n Rank 151\n App. rate: 0.1 %\n Avg. score: 31610\n\n Rank 156\n App. rate: 0.09 %\n Avg. score: 35639\n\n Rank 175\n App. rate: 0.07 %\n Avg. score: 28524",
-      "assets": [
-        {
-          "id": "6dcc7426ba11",
-          "sourceHash": "6dcc7426ba11",
-          "kind": "characters",
-          "name": "Evelyn",
-          "fileStem": "evelyn",
-          "path": "Prydwen/zzz/assets/characters/evelyn-6dcc7426ba11.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "118e26488ea7",
-          "sourceHash": "118e26488ea7",
-          "kind": "characters",
-          "name": "Lighter",
-          "fileStem": "lighter",
-          "path": "Prydwen/zzz/assets/characters/lighter-118e26488ea7.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "98d8d659c143",
-          "sourceHash": "98d8d659c143",
-          "kind": "characters",
-          "name": "Astra Yao",
-          "fileStem": "astra-yao",
-          "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "ca536e1965fd",
-          "sourceHash": "ca536e1965fd",
-          "kind": "characters",
-          "name": "Soldier 11",
-          "fileStem": "soldier-11",
-          "path": "Prydwen/zzz/assets/characters/soldier-11-ca536e1965fd.webp",
           "width": 60,
           "height": 60
         },
@@ -1363,6 +1245,26 @@
           "height": 60
         },
         {
+          "id": "ca536e1965fd",
+          "sourceHash": "ca536e1965fd",
+          "kind": "characters",
+          "name": "Soldier 11",
+          "fileStem": "soldier-11",
+          "path": "Prydwen/zzz/assets/characters/soldier-11-ca536e1965fd.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "8c66cbf659f4",
+          "sourceHash": "8c66cbf659f4",
+          "kind": "characters",
+          "name": "Ellen",
+          "fileStem": "ellen",
+          "path": "Prydwen/zzz/assets/characters/ellen-8c66cbf659f4.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
           "id": "b1058e3ac1d7",
           "sourceHash": "b1058e3ac1d7",
           "kind": "characters",
@@ -1373,12 +1275,110 @@
           "height": 60
         },
         {
+          "id": "bf8821af9328",
+          "sourceHash": "bf8821af9328",
+          "kind": "characters",
+          "name": "Miyabi",
+          "fileStem": "miyabi",
+          "path": "Prydwen/zzz/assets/characters/miyabi-bf8821af9328.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "a0147df28355",
+          "sourceHash": "a0147df28355",
+          "kind": "characters",
+          "name": "Lucy",
+          "fileStem": "lucy",
+          "path": "Prydwen/zzz/assets/characters/lucy-a0147df28355.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "e8a1e5a4346f",
+          "sourceHash": "e8a1e5a4346f",
+          "kind": "characters",
+          "name": "Zhao",
+          "fileStem": "zhao",
+          "path": "Prydwen/zzz/assets/characters/zhao-e8a1e5a4346f.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
           "id": "cacf856bd725",
           "sourceHash": "cacf856bd725",
           "kind": "characters",
           "name": "Orphie & Magus",
           "fileStem": "orphie-and-magus",
           "path": "Prydwen/zzz/assets/characters/orphie-magus-cacf856bd725.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "teams-deadly-assault-34",
+      "level": 2,
+      "heading": "Teams (Deadly Assault)",
+      "text": "This section lists most popular teams featuring Lighter in the current phase of Deadly Assault.\n Rank 139\n App. rate: 0.09 %\n Avg. score: 22674\n\n Rank 151\n App. rate: 0.08 %\n Avg. score: 20667\n\n Rank 273\n App. rate: 0.02 %\n Avg. score: 0\n\n Rank 344\n App. rate: 0.01 %\n Avg. score: 0",
+      "assets": [
+        {
+          "id": "869098c4c1e5",
+          "sourceHash": "869098c4c1e5",
+          "kind": "characters",
+          "name": "Hugo",
+          "fileStem": "hugo",
+          "path": "Prydwen/zzz/assets/characters/hugo-869098c4c1e5.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "5b1302d794ba",
+          "sourceHash": "5b1302d794ba",
+          "kind": "characters",
+          "name": "Dialyn",
+          "fileStem": "dialyn",
+          "path": "Prydwen/zzz/assets/characters/dialyn-5b1302d794ba.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "118e26488ea7",
+          "sourceHash": "118e26488ea7",
+          "kind": "characters",
+          "name": "Lighter",
+          "fileStem": "lighter",
+          "path": "Prydwen/zzz/assets/characters/lighter-118e26488ea7.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "05437fe51e49",
+          "sourceHash": "05437fe51e49",
+          "kind": "characters",
+          "name": "Lycaon",
+          "fileStem": "lycaon",
+          "path": "Prydwen/zzz/assets/characters/lycaon-05437fe51e49.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "bf8821af9328",
+          "sourceHash": "bf8821af9328",
+          "kind": "characters",
+          "name": "Miyabi",
+          "fileStem": "miyabi",
+          "path": "Prydwen/zzz/assets/characters/miyabi-bf8821af9328.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "a0147df28355",
+          "sourceHash": "a0147df28355",
+          "kind": "characters",
+          "name": "Lucy",
+          "fileStem": "lucy",
+          "path": "Prydwen/zzz/assets/characters/lucy-a0147df28355.webp",
           "width": 60,
           "height": 60
         },
@@ -1401,7 +1401,7 @@
       "sections": [
         {
           "heading": "Best W-Engines",
-          "text": "The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n 100.00%\n 100.00%\n\n Blazing Laurel (S 1 )\n\n Lighter's Signature and naturally his best option. It allows for comfortable access to the full power of his Additional Ability whilst also boosting his Impact% and Combat Impact % considerably throughout all of his rotation. It further boosts the entire team's ICE and FIRE CRIT DMG% by up to 30%, a fantastic supportive boon.\n Usage: 57.93 %\n Shiyu Defense: 27800\n Deadly Assault: 30528\n\n 97.44%\n 100.27%\n\n Ice-Jade Teapot (S 1 )\n\n Qingyi's Signature is a surprisingly solid alternative to Lighter's Signature if you already have it. Lighter is capable of stacking the 30 stack bonus of this W-Engine sufficiently to gain a large enough Combat Impact% buff which when combined with the standard Impact% gives him enough to satisfy his Additional Ability. This Engine also grants 20 DMG% to the team for a short duration offering a nice supportive bonus.\n Usage: 13.43 %\n Shiyu Defense: 27977\n Deadly Assault: 30728\n\n 92.51%\n 89.39%\n\n Hellfire Gears (S 1 )\n\n Reasonable non-limited choice capable of maximising Lighter's Additional Ability bonus but with some inconvenience. The Combat Impact% buff of this Engine is reliant on using Lighter's EX 1 and EX Follow-Up first meaning you have to execute them ideally before your Morale combo thus restricting your options.\n Usage: 14.53 %\n Shiyu Defense: 26898\n Deadly Assault: 26146\n\n 92.43%\n 74.68%\n\n Precious Fossilized Core (S 5 )\n\n Amazing option for all Stun Agents, particularly in Deadly Assault due to its massive buffs to Daze that it gives against higher HP enemies which is exploited to its full potential in the gamemode, in a lot of cases even outperforming S-rank W-Engines despite being an F2P craftable. Unfortunately not as powerful in other endgame contents, but still a perfectly viable choice.\n Usage: 3.73 %\n Shiyu Defense: 26011\n Deadly Assault: 25554\n\n 90.80%\n 85.37%\n\n The Restrained (S 1 )\n\n This Engine is not capable of fully activating Lighter's Additional Ability resulting in a reduction in his supportive capabilities. Still provides enough Impact for a reasonable buff though and also grants him solid buffs resulting in reasonable Daze output overall.\n Usage: 4.69 %\n Shiyu Defense: 25929\n Deadly Assault: 24850",
+          "text": "The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n 100.00%\n 100.00%\n\n Blazing Laurel (S 1 )\n\n Lighter's Signature and naturally his best option. It allows for comfortable access to the full power of his Additional Ability whilst also boosting his Impact% and Combat Impact % considerably throughout all of his rotation. It further boosts the entire team's ICE and FIRE CRIT DMG% by up to 30%, a fantastic supportive boon.\n Usage: 69.55 %\n Shiyu Defense: 28062\n Deadly Assault: 21829\n\n 97.44%\n 100.27%\n\n Ice-Jade Teapot (S 1 )\n\n Qingyi's Signature is a surprisingly solid alternative to Lighter's Signature if you already have it. Lighter is capable of stacking the 30 stack bonus of this W-Engine sufficiently to gain a large enough Combat Impact% buff which when combined with the standard Impact% gives him enough to satisfy his Additional Ability. This Engine also grants 20 DMG% to the team for a short duration offering a nice supportive bonus.\n Usage: 11.09 %\n Shiyu Defense: 27667\n Deadly Assault: 23096\n\n 92.51%\n 89.39%\n\n Hellfire Gears (S 1 )\n\n Reasonable non-limited choice capable of maximising Lighter's Additional Ability bonus but with some inconvenience. The Combat Impact% buff of this Engine is reliant on using Lighter's EX 1 and EX Follow-Up first meaning you have to execute them ideally before your Morale combo thus restricting your options.\n Usage: 11.03 %\n Shiyu Defense: 27508\n Deadly Assault: 20034\n\n 92.43%\n 74.68%\n\n Precious Fossilized Core (S 5 )\n\n Amazing option for all Stun Agents, particularly in Deadly Assault due to its massive buffs to Daze that it gives against higher HP enemies which is exploited to its full potential in the gamemode, in a lot of cases even outperforming S-rank W-Engines despite being an F2P craftable. Unfortunately not as powerful in other endgame contents, but still a perfectly viable choice.\n Usage: 2.69 %\n Shiyu Defense: 26975\n Deadly Assault: 0\n\n 90.80%\n 85.37%\n\n The Restrained (S 1 )\n\n This Engine is not capable of fully activating Lighter's Additional Ability resulting in a reduction in his supportive capabilities. Still provides enough Impact for a reasonable buff though and also grants him solid buffs resulting in reasonable Daze output overall.\n Usage: 2.55 %\n Shiyu Defense: 26401\n Deadly Assault: 0",
           "assets": [
             {
               "id": "2ffa2eaf795e",
@@ -1705,7 +1705,7 @@
       "sections": [
         {
           "heading": "Teams (Shiyu Defense)",
-          "text": "This section lists most popular teams featuring Lighter in the current phase of Shiyu Defense.\n Rank 17\n App. rate: 3.1 %\n Avg. time: 27141\n\n Rank 82\n App. rate: 0.27 %\n Avg. time: 27290\n\n Rank 158\n App. rate: 0.08 %\n Avg. time: 32048\n\n Rank 188\n App. rate: 0.06 %\n Avg. time: 35118\n\n Rank 220\n App. rate: 0.04 %\n Avg. time: 26467\n\n Rank 220\n App. rate: 0.04 %\n Avg. time: 32655\n\n Rank 257\n App. rate: 0.03 %\n Avg. time: 29273\n\n Rank 311\n App. rate: 0.02 %\n Avg. time: 0",
+          "text": "This section lists most popular teams featuring Lighter in the current phase of Shiyu Defense.\n Rank 35\n App. rate: 1.35 %\n Avg. time: 26996\n\n Rank 53\n App. rate: 0.67 %\n Avg. time: 29457\n\n Rank 108\n App. rate: 0.19 %\n Avg. time: 33199\n\n Rank 119\n App. rate: 0.14 %\n Avg. time: 29880\n\n Rank 119\n App. rate: 0.14 %\n Avg. time: 26642\n\n Rank 139\n App. rate: 0.12 %\n Avg. time: 32453\n\n Rank 182\n App. rate: 0.07 %\n Avg. time: 25843\n\n Rank 240\n App. rate: 0.04 %\n Avg. time: 33684\n\n Rank 279\n App. rate: 0.03 %\n Avg. time: 28948\n\n Rank 325\n App. rate: 0.02 %\n Avg. time: 26785",
           "assets": [
             {
               "id": "6dcc7426ba11",
@@ -1734,112 +1734,6 @@
               "name": "Astra Yao",
               "fileStem": "astra-yao",
               "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "ca536e1965fd",
-              "sourceHash": "ca536e1965fd",
-              "kind": "characters",
-              "name": "Soldier 11",
-              "fileStem": "soldier-11",
-              "path": "Prydwen/zzz/assets/characters/soldier-11-ca536e1965fd.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "b1058e3ac1d7",
-              "sourceHash": "b1058e3ac1d7",
-              "kind": "characters",
-              "name": "Norma",
-              "fileStem": "norma",
-              "path": "Prydwen/zzz/assets/characters/norma-b1058e3ac1d7.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "869098c4c1e5",
-              "sourceHash": "869098c4c1e5",
-              "kind": "characters",
-              "name": "Hugo",
-              "fileStem": "hugo",
-              "path": "Prydwen/zzz/assets/characters/hugo-869098c4c1e5.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "cacf856bd725",
-              "sourceHash": "cacf856bd725",
-              "kind": "characters",
-              "name": "Orphie & Magus",
-              "fileStem": "orphie-and-magus",
-              "path": "Prydwen/zzz/assets/characters/orphie-magus-cacf856bd725.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "1cdf4d671727",
-              "sourceHash": "1cdf4d671727",
-              "kind": "characters",
-              "name": "Sunna",
-              "fileStem": "sunna",
-              "path": "Prydwen/zzz/assets/characters/sunna-1cdf4d671727.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "75f91ac868b8",
-              "sourceHash": "75f91ac868b8",
-              "kind": "characters",
-              "name": "Ben",
-              "fileStem": "ben",
-              "path": "Prydwen/zzz/assets/characters/ben-75f91ac868b8.webp",
-              "width": 60,
-              "height": 60
-            }
-          ]
-        },
-        {
-          "heading": "Teams (Deadly Assault)",
-          "text": "This section lists most popular teams featuring Lighter in the current phase of Deadly Assault.\n Rank 13\n App. rate: 5.29 %\n Avg. score: 28601\n\n Rank 40\n App. rate: 0.84 %\n Avg. score: 31620\n\n Rank 53\n App. rate: 0.61 %\n Avg. score: 28312\n\n Rank 102\n App. rate: 0.2 %\n Avg. score: 30396\n\n Rank 110\n App. rate: 0.16 %\n Avg. score: 38643\n\n Rank 118\n App. rate: 0.15 %\n Avg. score: 32300\n\n Rank 123\n App. rate: 0.14 %\n Avg. score: 25345\n\n Rank 151\n App. rate: 0.1 %\n Avg. score: 31610\n\n Rank 156\n App. rate: 0.09 %\n Avg. score: 35639\n\n Rank 175\n App. rate: 0.07 %\n Avg. score: 28524",
-          "assets": [
-            {
-              "id": "6dcc7426ba11",
-              "sourceHash": "6dcc7426ba11",
-              "kind": "characters",
-              "name": "Evelyn",
-              "fileStem": "evelyn",
-              "path": "Prydwen/zzz/assets/characters/evelyn-6dcc7426ba11.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "118e26488ea7",
-              "sourceHash": "118e26488ea7",
-              "kind": "characters",
-              "name": "Lighter",
-              "fileStem": "lighter",
-              "path": "Prydwen/zzz/assets/characters/lighter-118e26488ea7.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "98d8d659c143",
-              "sourceHash": "98d8d659c143",
-              "kind": "characters",
-              "name": "Astra Yao",
-              "fileStem": "astra-yao",
-              "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "ca536e1965fd",
-              "sourceHash": "ca536e1965fd",
-              "kind": "characters",
-              "name": "Soldier 11",
-              "fileStem": "soldier-11",
-              "path": "Prydwen/zzz/assets/characters/soldier-11-ca536e1965fd.webp",
               "width": 60,
               "height": 60
             },
@@ -1874,6 +1768,26 @@
               "height": 60
             },
             {
+              "id": "ca536e1965fd",
+              "sourceHash": "ca536e1965fd",
+              "kind": "characters",
+              "name": "Soldier 11",
+              "fileStem": "soldier-11",
+              "path": "Prydwen/zzz/assets/characters/soldier-11-ca536e1965fd.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "8c66cbf659f4",
+              "sourceHash": "8c66cbf659f4",
+              "kind": "characters",
+              "name": "Ellen",
+              "fileStem": "ellen",
+              "path": "Prydwen/zzz/assets/characters/ellen-8c66cbf659f4.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
               "id": "b1058e3ac1d7",
               "sourceHash": "b1058e3ac1d7",
               "kind": "characters",
@@ -1884,12 +1798,108 @@
               "height": 60
             },
             {
+              "id": "bf8821af9328",
+              "sourceHash": "bf8821af9328",
+              "kind": "characters",
+              "name": "Miyabi",
+              "fileStem": "miyabi",
+              "path": "Prydwen/zzz/assets/characters/miyabi-bf8821af9328.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "a0147df28355",
+              "sourceHash": "a0147df28355",
+              "kind": "characters",
+              "name": "Lucy",
+              "fileStem": "lucy",
+              "path": "Prydwen/zzz/assets/characters/lucy-a0147df28355.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "e8a1e5a4346f",
+              "sourceHash": "e8a1e5a4346f",
+              "kind": "characters",
+              "name": "Zhao",
+              "fileStem": "zhao",
+              "path": "Prydwen/zzz/assets/characters/zhao-e8a1e5a4346f.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
               "id": "cacf856bd725",
               "sourceHash": "cacf856bd725",
               "kind": "characters",
               "name": "Orphie & Magus",
               "fileStem": "orphie-and-magus",
               "path": "Prydwen/zzz/assets/characters/orphie-magus-cacf856bd725.webp",
+              "width": 60,
+              "height": 60
+            }
+          ]
+        },
+        {
+          "heading": "Teams (Deadly Assault)",
+          "text": "This section lists most popular teams featuring Lighter in the current phase of Deadly Assault.\n Rank 139\n App. rate: 0.09 %\n Avg. score: 22674\n\n Rank 151\n App. rate: 0.08 %\n Avg. score: 20667\n\n Rank 273\n App. rate: 0.02 %\n Avg. score: 0\n\n Rank 344\n App. rate: 0.01 %\n Avg. score: 0",
+          "assets": [
+            {
+              "id": "869098c4c1e5",
+              "sourceHash": "869098c4c1e5",
+              "kind": "characters",
+              "name": "Hugo",
+              "fileStem": "hugo",
+              "path": "Prydwen/zzz/assets/characters/hugo-869098c4c1e5.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "5b1302d794ba",
+              "sourceHash": "5b1302d794ba",
+              "kind": "characters",
+              "name": "Dialyn",
+              "fileStem": "dialyn",
+              "path": "Prydwen/zzz/assets/characters/dialyn-5b1302d794ba.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "118e26488ea7",
+              "sourceHash": "118e26488ea7",
+              "kind": "characters",
+              "name": "Lighter",
+              "fileStem": "lighter",
+              "path": "Prydwen/zzz/assets/characters/lighter-118e26488ea7.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "05437fe51e49",
+              "sourceHash": "05437fe51e49",
+              "kind": "characters",
+              "name": "Lycaon",
+              "fileStem": "lycaon",
+              "path": "Prydwen/zzz/assets/characters/lycaon-05437fe51e49.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "bf8821af9328",
+              "sourceHash": "bf8821af9328",
+              "kind": "characters",
+              "name": "Miyabi",
+              "fileStem": "miyabi",
+              "path": "Prydwen/zzz/assets/characters/miyabi-bf8821af9328.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "a0147df28355",
+              "sourceHash": "a0147df28355",
+              "kind": "characters",
+              "name": "Lucy",
+              "fileStem": "lucy",
+              "path": "Prydwen/zzz/assets/characters/lucy-a0147df28355.webp",
               "width": 60,
               "height": 60
             },
@@ -1909,5 +1919,5 @@
     }
   },
   "tables": [],
-  "text": "Lighter Best Build Guide | Zenless Zone Zero\n \n\n Zenless Zone Zero\n Home Database Agents Bangboo W-Engines Disk Drives Banners\n Tier Lists Tier List\n Endgame Shiyu Defense Deadly Assault\n Resources Guides News\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Zenless Zone Zero\n /\n Characters\n /\n Lighter\n Lighter Best Build Guide\n Last updated: 29/July/2026\n\n Introduction\n Best guide and build for Lighter from ZZZ (Zenless Zone Zero). Lighter is an rank character with the Fire attribute who belongs to the Stun Specialty and who is part of the Sons of Calydon faction.\n\n To learn more about Lighter check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Video guide\n Lighter has at least one video guide available, so if you prefer this sort of medium to learn more about a character, check it out:\n\n Update tracker\n Last review update\n Patch 1.5\n\n Last build update\n Patch 2.0\n\n Last teams update\n Patch 2.5\n\n Last profile update*\n 29/July/2026\n\n *Profile update means smaller edits to disk drives, stats or other things that don't require new calculations.\n\n Kit\n\n Review\n\n Build\n\n SD/DA Analytics\n\n Teams & Synergy\n\n Calculations\n\n To learn more about Lighter check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n Profile\n\n Core skills\n\n Core Passive Accelerant\n\n Lv. 1\n\n Lighter automatically gains Morale over time, at a rate of 2.9 points per second. For each point of Energy consumed by any squad member, Lighter recovers an additional 0.26 Morale, up to a maximum of 100 . When Morale reaches 80 , the next time Lighter switches into battle he immediately launches a Quick Assist. Once Morale is 80 or higher, executing the 5th hit of his Basic Attack puts Lighter in the Morale Burst state, enhancing the power of the startup light punch, jab combo, and the Finishing Move of the 5th hit of his Basic Attack. When a skill hits an enemy with its power increased, it will continuously consume Morale. With every 10 points of Morale consumed, Lighter's Impact increases by 1% , up to a maximum increase of 10% , and lasting 6s .\n\nIn the Morale Burst state, Lighter will no longer automatically gain Morale over time. If his Morale is exhausted during a startup light punch or jab combo, he will automatically follow up with a more powerful Finishing Move.\n\nIn the Morale Burst state, when startup light punches or jab combos hit enemies, the target's Ice RES and Fire RES are reduced by 15%, lasting 30 s.\n\nIn the Morale Burst state, when the Finishing Move hits an enemy, it applies the Collapse effect on the target, extending its Stunned duration by 3s . The Collapse effect can trigger only once on the same target before they recover from Stun.\n\nWhen the Finishing Move of the 5th hit of his Basic Attack hits an enemy, when he switches off field, or when his Morale runs out, Lighter will leave the Morale Burst state, keeping any unspent Morale.\n\n Impact 0\n BASE ATK : 0\n\n Additional Ability Fighting Spirit\n\n When another character in your squad is an Attack character or shares the same Faction:\n While under the Morale Burst state, when the 5th hit of Lighter's Basic Attack hits an enemy, all squad members gain a stack of Elation, stacking up to 20 times and lasting 30s . Repeated triggers reset the duration. For each stack of Elation, an Agent's Ice DMG and Fire DMG increase by 1.25% .\nWhen obtaining Elation, if Lighter's Impact exceeds 170 , every additional 10 points of Impact will increase the buff effect provided by each stack of Elation by an extra 0.25% . When any squad member launches a Chain Attack, it will refresh the duration of all squad members' Elation. Elation can increase the Ice DMG and Fire DMG of Agents by a maximum of 75% .\n\n Skills\n Basic\n Dodge\n Assist\n Special\n Chain\n\n Basic Attack: L-Form Thundering Fist\n\n Press or hold to activate:\nPerform up to five forward strikes, dealing Physical DMG and Fire DMG.\nDuring the 3rd hit of the Basic Attack, drag the stick/joystick, and repeatedly press or hold to unleash a series of melee follow-up attacks. Release the stick/joystick to follow up with the 4th hit of the Basic Attack.\nWhile performing the startup light punch in the 5th hit of the Basic Attack, drag the stick/joystick and repeatedly press or hold to keep alternating between the light punch and 4th hit of the Basic Attack. Release the stick/joystick to follow up with the subsequent jab combo.\nContinue repeatedly pressing or holding to extend the duration of the jab combo.\nWhen you stop pressing or holding , or when the combo reaches its maximum duration, launches a Finishing Move forward. Lighter is invulnerable during the Finishing Move.\nDuring the 5th hit of the Basic Attack, Lighter takes 40% less DMG.\nWhile in the Morale Burst state, Anti-Interrupt Level is increased during the 5th hit of his Basic Attack, and the DMG reduction effect is increased to 80%.\n Multipliers\n\n Dodge: Shadowed Slide\n\n Press to activate.\nA quick dash dodge.\nCharacter is invulnerable while using this skill.\nPress while the character is attacking to activate:\nPerform a quick shuffle dodge in the direction of the stick/Joystick.\nThis skill will not interrupt the combo count for Basic Attacks.\nCharacter is invulnerable while using this skill.\n\n Dash Attack: Charging Slam\n\n Press during a dodge to activate:\nRapidly strikes enemies in front, dealing Physical DMG.\n Multipliers\n\n Dodge Counter: Blazing Flash\n\n Press during a Perfect Dodge to activate.\nStrike enemies in front, dealing Fire DMG.\nCharacter is invulnerable while using this skill.\nAfter using the skill, press or hold to immediately follow up with the 5th hit of the Basic Attack.\n Multipliers\n\n Special Attack: V-Form Sunrise Uppercut\n\n Press to activate.\nStrikes enemies in front with an uppercut, dealing Fire DMG.\nAnti-Interrupt level is increased while using this skill.\nPress during a shuffle dodge to activate:\nStrike forward with a series of punches, dealing Fire DMG.\nThis skill will not interrupt the combo count for Basic Attacks.\nAnti-Interrupt level is increased while using this skill.\n Multipliers\n\n EX Special Attack: V-Form Sunrise Uppercut - Full Distance\n\n With enough energy, press to activate:\nLeaps into the air with a powerful uppercut, striking enemies in front and dealing massive Fire DMG.\nPress again during this skill to spend additional Energy to perform a powerful follow-up attack, dealing massive Fire DMG.\nCharacter is invulnerable while using this skill.\nAfter using this skill, press or hold to follow up with the 4th hit of the Basic Attack.\nWith enough Energy, press during the shuffle dodge to activate:\nStrike forward with a powerful punch combo, dealing massive Fire DMG.\nThis skill will not interrupt the combo count for Basic Attacks.\nCharacter is invulnerable while using this skill.\nAfter using this skill, press or hold to immediately follow up with the 5th hit of the Basic Attack.\n Multipliers\n\n Chain Attack: V-Form Scorching Sun\n\n When a Chain Attack is triggered, select the character to activate:\nUnleashes a powerful strike at enemies in front in a small area, dealing massive Fire DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Ultimate: W-Form Crowned Inferno\n\n When Decibel Rating is at Maximum, press to activate.\nUnleashes a powerful strike in a large area around, dealing massive Fire DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Assist Follow-Up: Charging Slam - Stab\n\n Press after a Defensive Assist to activate:\nStrike enemies in front, dealing Fire DMG.\nCharacter is invulnerable while using this skill.\nAfter using this skill, press or hold to immediately follow up with the 5th hit of the Basic Attack.\n Multipliers\n\n Defensive Assist: Swift Break\n\n When the character on field is about to be attacked, press to activate.\nParries the enemy's attack, inflicting massive Daze.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Quick Assist: Blazing Flash - Guard\n\n When the on-field character is launched, press to activate.\nStrike enemies in front, dealing Fire DMG.\nCharacter is invulnerable while using this skill.\nAfter using the skill, press or hold to immediately follow up with the 5th hit of the Basic Attack.\n Multipliers\n\n Mindscapes\n M1\n The Champion\n Mindscape 1\n\n Among the debuffs imposed by Core Passive: Accelerant, the Collapse effect increases Stun duration by 5s , while further reducing Ice RES and Fire RES by 10% . The more powerful Finishing Move that follows when Lighter's Morale is completely exhausted during a startup light punch or jab combo deals 30% increased DMG.\n\n M2\n Red Scarf\n Mindscape 2\n\n When applying Collapse by Core Passive: Accelerant to enemies, the target's Stun DMG Multiplier increases by 25% . The increase to Ice DMG and Fire DMG provided by Elation from Additional Ability: Fighting Spirit increases to 120% of the original.\n\n M3\n Mercenary Leader\n Mindscape 3\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M4\n Sunglasses\n Mindscape 4\n\n When Lighter is off-field, the Energy Regen for the on-field character is increased by 10% . Upon entering the Morale Burst state, Lighter restores 4 Energy for off-field characters. This effect can trigger once every 18s .\n\n M5\n Decision Maker\n Mindscape 5\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M6\n Inhuman Blood\n Mindscape 6\n\n Lighter's Morale recovery efficiency is increased to 200% of its original value. When Lighter lands a heavy strike on enemies during a Basic Attack, Dodge Counter, Special Attack, EX Special Attack, Quick Assist, Assist Follow-Up, Chain Attack, or Ultimate, it will trigger the Blazing Impact effect, dealing 250% of ATK as Fire DMG. This effect can trigger once every 8s on each enemy. If Lighter's Impact exceeds 170 points, each additional point will further increase the multiplier of Blazing Impact by 5% , up to a maximum increase of 500% . The more powerful Finishing Move that follows when Lighter's Morale is completely exhausted during a light punch or jab combo will trigger an additional activation of Blazing Impact when hitting an enemy, ignoring the effect's cooldown.\n\n Stats (Level 60)\n Lighter Stats at level 60 (including Core passive bonuses).\n\n HP\n 8253\n\n DEF\n 612\n\n ATK\n 797\n\n CRIT Rate\n 5 %\n\n CRIT DMG\n 50 %\n\n PEN Ratio\n 0 %\n\n Impact\n 137\n\n Anomaly Mastery\n 91\n\n Anomaly Proficiency\n 90\n\n Energy Regen\n 1.2\n\n Voice Actors\n ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -\n\n Gallery\n\n Review\n\n Ratings\n This tier list assesses Agents (characters) based on their combat potential in Zenless Zone Zero's most demanding contents - Deadly Assault (DA) and Shiyu Defense (SD) . Please keep in mind Zenless Zone Zero is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Zenless Zone Zero is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.\n\n Support\n T1\n Endgame Modes\n\n Pros & Cons\n Pros\n Incredible full team ICE and FIRE DMG% Boost.\n\n Grants substantial ICE and FIRE RES% Shred.\n\n Extends enemy Stun duration by 3 seconds, allowing for larger burst windows.\n\n Has an incredibly front-loaded combo capable of taking up minimal field time if desired.\n\n Simple and easy to play.\n\n Cons\n Daze application is much more concentrated than other characters, sometimes leading to downtime when Morale, Energy and Counter opportunities aren’t available.\n\n Primarily synergizes with Fire and Ice units only, limiting the scope of his potential.\n\n Loses supportive capabilities when unable to hit 270 Impact - something that isn’t easy to achieve without using 5-star W-Engines.\n\n Review\n Lighter is an S-Rank Melee Fire Stun Agent fulfilling the role of a low field time Daze character who also brings incredible supportive buffs for Ice and Fire teammates. Stun characters continue following a trend of picking up absurd supportive abilities and Lighter only takes this to the next level by sporting buffs that rival (and even exceed) many dedicated Support Agents - all the while fulfilling his role as a Stunner. Furthermore, he is the first Agent in the game capable of manipulating the duration enemies are Stunned for, allowing him to extend burst windows and doubling down on his supportive identity. It wouldn’t be entirely inaccurate to call Lighter a Stun and Support Hybrid, but his Daze output is top class thus pushing him more in that direction, to learn more let's dive in.\n Lighter’s kit is wordy and confusing… but his playstyle is anything but that. In combat he has one mission: wait in the wings allowing his teammates to fight until his unique resource bar “Morale” is between 80-100% filled, swap in, execute a flurry of devastating attacks consuming said “Morale” and swap out. This combo takes minimal time, applies all of his buffs, debuffs and delivers a strong amount of Daze.\n Lighter’s Core Passive: Accelerant is at the heart of his kit and is mandatory for his combo - as without it he would be dead in the water. Accelent allows him to gain up to 100 of his resource gauge “Morale” from two different sources.\n The first being his Passive, which allows him to gain 2.9 “Morale” every second regardless of the fact if he is on the field or not.\n\n The second source is reliant on your squad - for every 1 Energy your squadmates spend (Including Lighter himself) he’ll generate 0.26 “Morale”.\n For example, you’ll gain 15.6 “Morale” when an ally or Lighter spends 60 Energy on their EX Special.\n\n “Morale” isn’t usable until Lighter gains at least 80 of it, after which he gains access to a myriad of bonuses. The first of which is the ability to trigger a Quick Assist for one time the next time he switches in ignoring the usual rules of the Assist.\n The second is the ability to enter the “Morale Burst State” upon executing the 5th portion of his Basic Attack. While in the “Morale Burst State” he cannot generate “Morale” through his Passive or from Energy consumption.\n While in the “Morale Burst State” Lighter gains the following effects:\n Lighter’s 5th Basic Attack is enhanced causing it to consume “Morale” rapidly.\n\n For every 10 “Morale” consumed by Lighter, it grants him 2% Combat Impact for 6 seconds up to a maximum of 20%.\n\n Any attack landed during the state applies a 15% ICE & FIRE RES Shred for 30 seconds.\n\n Causes the final portion of his Basic Attack 5 to apply “Collapse” to any target hit. “Collapse” causes the next Stun the enemy suffers to be extended by an additional 3 seconds, “Collapse” cannot stack and is removed after the enemy recovers from Stun.\n\n After entering the “Morale Burst State” it’s heavily recommended you fully consume all of Lighter’s “Morale” swiftly and immediately to ensure you land the biggest Combat Impact buff possible, fully stack his buffs/debuffs and ensure you’re back to generating “Morale” as soon as possible.\n Lighter’s Additional Ability: Fighting Spirit is for the most part an extension of his Core Ability and absurdly powerful, so ensure that you build teams in order to activate it. Now what it does is that while within the “Morale Burst State” each of the hits caused by his 5th empowered Basic Attack grants all squad members a stack of “Elation” for a maximum of 20 stacks lasting for 30 seconds. While the 20 Stacks might sound like a lot, Lighter’s empowered 5th Basic Attack can hit many more times than that - so you’ll have no issues maxing this out when playing correctly. The “Elation” Buff grants those affected by it up to 75% FIRE and ICE DMG%. Each stack of “Elation” grants 1.25% FIRE and ICE DMG% or 25%... hold on then, what about the other 50%? For every 10 points of Impact Lighter possesses over 170, each “Elation” stack grants an additional 0.25% bonus for. Thus at 270 Impact we’ll gain 3.75% DMG increase per stack instead, allowing him to reach the maximum bonus of 75%. The 30-second duration of this buff is huge in itself but as an added bonus whenever an ally performs a Chain Attack, its duration will be refreshed making its uptime pretty much permanent.\n Phew… believe it or not that makes up for the majority of Lighter’s kit and as we’ve now learnt his whole kit essentially boils down to gaining access to 80 “Morale”, entering the “Morale Burst State” and executing an Empowered Basic Attack 5. Doing this applies all of his buffs and debuffs. With the wordy part covered lets breeze through the rest of his mostly simple kit.\n Lighter has a TON of different Basic Attacks - all of which might have their place in certain niche and specialized combat scenarios… but, when it comes to his core gameplay you use barely any of them. His standard Basic Attack combo consists of 5 attacks - the first 3 are Physical and the last 2 are Fire. We want to avoid using the first 3 wherever possible, as they have poor multipliers across the board. Fortunately many of his abilities allow him to skip straight to executing either the 4th or 5th portion of the Basic Attack string - as such these are the abilities to watch out for:\n Dodge Counter: Blazing Flash (Skips to 5th Basic Attack)\n\n EX Special Attack: V-Form Sunrise Uppercut (Skips to 4th Basic Attack)\n\n EX Special Attack: V-Form Sunrise Uppercut - Dash Variant (Skips to 5th Basic Attack)\n\n Quick Assist: Blazing Flash - Guard (Skips to 5th Basic Attack)\n\n Assist Follow-Up: Reignition (Skips to 5th Basic Attack)\n\n With proper planning, you’ll find yourself able to completely omit the first 3 - 4 Basic Attacks of the combo and skip straight to what matters the most - Basic Attack 5. Basic Attack 5 is further split up into 3 different parts and can only be fully accessed by Continuously Tapping or Holding the Basic Attack button throughout his 5 Basic Attack combo or after any of the follow-ups above. The three different parts of Basic Attack 5 are:\n “StartUp”:\n “StartUp” is a flurry of punches that follows right up after executing his Basic Attack 4 but will not be present if you skipped directly to Basic Attack 5 via another ability.\n\n “Combo”:\n “ Combo” is a continual flurry of punches that hits many many times in quick succession (And this is how we reach 20 stacks of “Elation”).\n\n “Finisher”:\n “Finisher” is exactly how it sounds: a huge haymaker to finish the combo off.\n\n While in the “Morale Burst State” each of these abilities consumes “Morale” and is, enhanced dealing more Damage and Daze whie also gaining additional effects. When enhanced “Combo” can be repeated as long as you possess “Morale” to consume, doing so will allow you to extend your flurry of punches to stack “Elation”, it’s always a good idea to channel “Combo” until 0 “Morale” because of the next enhancement. When running out of “Morale” while executing the 5th Basic attack within “Morale Burst State” Lighter’s “Finisher” is supercharged into “Powerful Finisher” dealing further increased Daze and Damage. Another bonus of running your “Morale” to 0 with “Combo” is that it ensures “Powerful Finisher” will have the maximum Combat Impact % buff from his Core Passive.\n An additional note is that Lighter’s Basic attack combo can be fully chained and executed simply by holding down the Basic Attack button. Also as mentioned earlier his Basic Attacks do have more to them but with his current top playstyle they’re not worth delving into. With “Morale” up, get to Basic Attack 5 as fast as possible, dump all “Morale” into repeating the “Combo” portion and land a huge “Powerful Finisher”.\n Lighter’s EX-Special Attack costs 40 Energy, deals good Daze, damage, and of course helps him recover some “Morale” while also skipping straight to Basic Attack 4. What makes it stand out though is that Lighter can tap EX-Special again right after its use to execute a Follow-Up Attack at the cost of an additional 20 Energy. This is usually well worth it as the attack doesn’t take much longer to execute and deals good Daze for its Energy cost. Lighter’s EX-Special also has an alternative mode which can be accessed by hitting the EX-Special key right after a Dash - something that isn’t easy to do consistently without some practice. As mentioned above the Dash-EX allows you to skip to Basic Attack 5 instead of 4.\n Lighter’s Chain Attack and Ultimate are completely standard - even a bit boring you might say. His Ultimate doesn’t do anything special while his Chain Attack can be used if there is a slot available, it is a low priority compared to those who need it more.\n As with most Stun characters, Lighter’s Dodge Counter is actually surprisingly strong having good multipliers and allowing him to immediately skip straight to Basic Attack 5 - use it when the opportunity presents itself.\n Lighter’s assists like his Dodge Counter are strong and absolutely worth using. The combo of his Defensive Assist + Assist Follow-Up should be the go-to for you when playing him, as he prefers to stay off-field most of the time. Remain on-field with your other two characters but Hot-Swap to Lighter to execute his Defensive Assist + Assist Follow-Up while you wait for his “Morale” to recover for his next combo. It’s worth noting when you finally do reach 80-100 “Morale” entering combat via a Defensive Assist + Assist Follow-Up is the optimal way to maximize Daze output. Lighter’s Quick assist is also very useful, you’ll gain free access to it every time you reach 80 “Morale” in the resource bar. If you reach 80-100 “Morale” and you don’t see an opening to Swap-In Lighter optimally, following the above this is your go to for a quick skip to the 5th Basic Attack.\n With Lighter’s kit fully covered let's bring all of it together. Here’s the final game plan:\n Wait until Lighter reaches 80 - 100 “Morale” (100 will maximize his Core Passive bonuses and is recommended in most cases).\n\n Swap to Lighter Via a Defensive Assist + Assist Follow-Up OR a Quick Assist.\n\n Hold down the Basic Attack to execute Basic Attack 5 “Combo” to fully drain your “Morale” and trigger his “Powerful Finisher”.\n\n If Energy is available add in either an EX Special or EX Special + Follow-Up.\n\n Here it is listed in abilities:\n Defensive Assist: Swift Break\n\n Assist Follow-Up: Charging Slam - Stab\n\n Basic Attack: L-Form Thundering Fist (5th-Hit Combo)(Morale Boosted)\n\n Basic Attack: L-Form Thundering Fist (5th-Hit Powerful Finisher)(Morale Boosted)\n\n EX Special Attack: V-Form Sunrise Uppercut - Full Distance\n\n EX Special Attack: V-Form Sunrise Uppercut - Full Distance (Follow-Up)\n\n And that’s really it. The above will grant you all of Lighter’s buffs, debuffs, and do a large amount of Daze. If you’re looking for more though here are some additional things you can watch out for.\n In the rare case Lighter is on the field execute Dodge Counters for more Daze Build-Up\n\n Ensure you never overcap on Energy - swap Lighter in to execute EX-Special’s even outside his usual combo if you’re about to overcap.\n\n Perform Defensive Assists + Assist Follow-Ups whenever possible for additional Daze.\n\n Optionally execute Non-Morale sequences of Basic Attack 4 + 5 to take advantage of the skips granted by your other abilities (The Daze output from these isn’t stellar but can fill empty field time or get you the last bit of the way to a stun)\n\n In combat scenarios that don’t demand Lighter’s full burst combo (Non-elite enemies) tactically use his EX, Defensive Assist, or Dodge counter to trigger Stuns as needed.\n\n Lighter is an incredible Stun character fully capable of serving as a support and at the same time, he has crazy buffs/debuffs, huge burst Daze, extended Stuns and is simple to play. He has a few downsides but nothing deal-breaking. Reaching 270 Impact to fully activate his 75% bonus via his Additional Ability isn’t trivial though, and you'll need Impact-focused W-engines to make it happen - which depending on your account might pose a challenge. And of course, Lighter is a Fire and Ice specialist so if those elements aren’t for you, he loses a lot of his value. If those aren’t a problem though, Lighter is definitely a force to be reckoned with.\n\n How to play\n EXTENDED ROTATION\n Lighter Rotation: The rotation below assumes Lighter begins with 100 Morale but can also be started at 80 Morale in a pinch, but at the cost of losing some supportive and Dazing benefits. Additionally the rotation can also be initiated with any of Lighter's abilities which allow him to skip straight to his 5th Basic Attack.\n Defensive Assist: Swift Break\n\n Assist Follow-Up: Charging Slam - Stab\n\n Basic Attack: L-Form Thundering Fist (5th-Hit Combo)(Morale Boosted)\n\n Basic Attack: L-Form Thundering Fist (5th-Hit Powerful Finisher)(Morale Boosted)\n\n EX Special Attack: V-Form Sunrise Uppercut - Full Distance\n\n EX Special Attack: V-Form Sunrise Uppercut - Full Distance (Follow-Up)\n\n Basic Attack: L-Form Thundering Fist P4\n\n Basic Attack: L-Form Thundering Fist (5th-Hit Startup)\n\n Basic Attack: L-Form Thundering Fist (5th-Hit Combo)\n\n Basic Attack: L-Form Thundering Fist (5th-Hit Finisher)\n\n Dodge Counter: Blazing Flash (Can be executed at any time)\n\n SHORTENED ROTATION\n Short Lighter Rotation: If desired - and you have another character that can make use of field time Lighter's rotation - can be shortened. The entire second Basic Attack Combo and Dodge Counter are all non-essential and can be cut simplifying his gameplay even more.\n Defensive Assist: Swift Break\n\n Assist Follow-Up: Charging Slam - Stab\n\n Basic Attack: L-Form Thundering Fist (5th-Hit Combo)(Morale Boosted)\n\n Basic Attack: L-Form Thundering Fist (5th-Hit Powerful Finisher)(Morale Boosted)\n\n EX Special Attack: V-Form Sunrise Uppercut - Full Distance\n\n EX Special Attack: V-Form Sunrise Uppercut - Full Distance (Follow-Up)\n\n Build and teams\n\n Collaboration Disclaimer\n For ZZZ calculations we worked alongside Rivyn Elowen . Any other content such as comments on W-Engines, Disks, etc are our own.\n\n Best W-Engines\n The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n 100.00%\n 100.00%\n\n Blazing Laurel (S 1 )\n\n Lighter's Signature and naturally his best option. It allows for comfortable access to the full power of his Additional Ability whilst also boosting his Impact% and Combat Impact % considerably throughout all of his rotation. It further boosts the entire team's ICE and FIRE CRIT DMG% by up to 30%, a fantastic supportive boon.\n Usage: 57.93 %\n Shiyu Defense: 27800\n Deadly Assault: 30528\n\n 97.44%\n 100.27%\n\n Ice-Jade Teapot (S 1 )\n\n Qingyi's Signature is a surprisingly solid alternative to Lighter's Signature if you already have it. Lighter is capable of stacking the 30 stack bonus of this W-Engine sufficiently to gain a large enough Combat Impact% buff which when combined with the standard Impact% gives him enough to satisfy his Additional Ability. This Engine also grants 20 DMG% to the team for a short duration offering a nice supportive bonus.\n Usage: 13.43 %\n Shiyu Defense: 27977\n Deadly Assault: 30728\n\n 92.51%\n 89.39%\n\n Hellfire Gears (S 1 )\n\n Reasonable non-limited choice capable of maximising Lighter's Additional Ability bonus but with some inconvenience. The Combat Impact% buff of this Engine is reliant on using Lighter's EX 1 and EX Follow-Up first meaning you have to execute them ideally before your Morale combo thus restricting your options.\n Usage: 14.53 %\n Shiyu Defense: 26898\n Deadly Assault: 26146\n\n 92.43%\n 74.68%\n\n Precious Fossilized Core (S 5 )\n\n Amazing option for all Stun Agents, particularly in Deadly Assault due to its massive buffs to Daze that it gives against higher HP enemies which is exploited to its full potential in the gamemode, in a lot of cases even outperforming S-rank W-Engines despite being an F2P craftable. Unfortunately not as powerful in other endgame contents, but still a perfectly viable choice.\n Usage: 3.73 %\n Shiyu Defense: 26011\n Deadly Assault: 25554\n\n 90.80%\n 85.37%\n\n The Restrained (S 1 )\n\n This Engine is not capable of fully activating Lighter's Additional Ability resulting in a reduction in his supportive capabilities. Still provides enough Impact for a reasonable buff though and also grants him solid buffs resulting in reasonable Daze output overall.\n Usage: 4.69 %\n Shiyu Defense: 25929\n Deadly Assault: 24850\n\n Best Disk Drives Sets\n 1\n\n King of the Summit ( 4 -PC)\n\n New best Stun set, to be used on any Stun character in almost any team with very few exceptions. Gives 6% increased Daze on the 2-piece and up to 30% CRIT DMG for the entire squad for 15s when casting EX Specials and Chain Attacks on the condition that the equipper has 50% CRIT Rate or higher, a requirement which is easy to meet but must be ensured. Uptime on this buff is almost always easily maintained permanently, however be mindful this set will not be effective if you aren’t building the rest of your team on CRIT, in which case alternatives will be preferred, and that you cannot run this set multiple times on the same team.\n Best combined with your choice of 2-PC Set:\n 2P\n Shockstar Disco\n\n (Recommended)\n 2P\n Swing Jazz\n\n 2\n\n Astral Voice ( 4 -PC)\n\n Best generalist Support set, providing a useful 10% ATK on the 2-piece but most importantly buffing DMG dealt by characters entering the field via Quick Assists by upwards of 24%, the biggest buff provided by Disc Drives in the game. Generally a must-have set on any team, but be mindful of ensuring uptime on the buff.\n Best combined with your choice of 2-PC Set:\n 2P\n King of the Summit\n\n (Recommended)\n 2P\n Shockstar Disco\n\n 2P\n Swing Jazz\n\n 3\n\n Proto Punk ( 4 -PC)\n\n Niche supportive set used for teams that are in the position of triggering Perfect Assists often. Grants the entire party 15% increased DMG for 10s when triggering a Perfect Assist. Typically used if an Astral Voice wielder is already on the team and the equipped Agent is in a position to trigger lots of Perfect Assists. This set's value is significantly diminished if the player isn't comfortable with timing Perfect Assists, in which case other sets will be favoured such as 4P Swing Jazz.\n Best combined with your choice of 2-PC Set:\n 2P\n King of the Summit\n\n (Recommended)\n 2P\n Shockstar Disco\n\n 2P\n Swing Jazz\n\n 4\n\n Shockstar Disco ( 4 -PC)\n\n Provides the highest Daze output of any Disk Drive set in the game. However, the difference between the 4-piece effect increase in Daze is marginal compared to simply using the 2-piece effect, meaning it almost always yields better results to use a supportive set like King of the Summit or Astral Voice to buff your team further, instead of the extra Daze which only gives extra Stun windows against bosses in very specific situations. If an extra Stun window is enabled by using this set it will perform the best, however this only very rarely happens, causing it to be left behind in favour of other sets.\n Best combined with your choice of 2-PC Set:\n 2P\n King of the Summit\n\n (Recommended)\n 2P\n Swing Jazz\n\n Best Disk Drives Stats\n Disk 4\n CRIT Rate% >= CRIT DMG%\n\n Disk 5\n ATK% = Fire DMG% = PEN Ratio%\n\n Disk 6\n Impact\n\n Substats: CRIT RATE > CRIT DMG > ATK% > PEN = ATK\n\n Best Endgame Stats (Level 60)\n Impact: 170 - 195+\n\n ATK: 1700 - 2000+ (Optional)\n\n HP: 10500+\n\n DEF: 800+\n\n CRIT RATE: 50%+ (Needed for King of the Summit)\n\n CRIT DMG: 100% - 120%+ (Optional)\n\n Skill priority\n Basic Attack\n\n Special Attack\n\n Chain Attack\n\n Assist\n\n Dodge\n\n Video guides\n\n Teams & Synergy\n\n Synergy\n Below we list only the most important synergies for Lighter . The character can work with others if you know what to do and how to use them.\n\n Evelyn Miyabi Ellen Soldier 11 - Lighter pairs especially well with Fire or Ice DPS characters who benefit from Stun windows — so typically CRIT-based Agents. 5 characters fall within that archetype, being Evelyn, Hugo, Ellen, Soldier 11 and Miyabi (who does Anomaly DMG but wants to build CRIT regardless). He's able to provide huge Ice and Fire RES Shred and DMG boosts as well as massive amounts of Daze for them, greatly enhancing their damage.\n Astra Yao Yuzuha Lucy - These 3 generalist Support units are capable of servicing as the Support to any team in the game. Astra Yao provides Quick Assists, extra Chain Attacks, healing, super low field time, ATK, DMG and CRIT DMG buffs which makes her the overall best choice in almost all cases. Yuzuha is the ultimate Anomaly buffer who also has awesome ATK and DMG% buffs applicable to any Agent as well, giving her strong general use potential — this even makes her the best choice for Soldier 11; On the other hand, Lucy has long-lasting ATK buffs which makes her a very practical choice, especially in Fire teams where she can help with building Anomaly and trigger Additional Abilities (the case for Lighter). All in all, these two can work with any team in the game to great effect.\n Orphie & Magus Yidhari - Orphie, despite being played as a sort of support unit, is still an Attacker Agent, which means that she fulfils Lighter’s Additional Ability. With how strong Lighter’s buffs are for Fire and Ice Agents, this allows either for Orphie to take a primary DPS role or for Lighter to be used with Rupture teams that otherwise would not be able to unlock his buffs. Although it’s not an ideal pairing, given that Orphie’s Zeroed In Attack bonuses are not very effective for Rupture Agents and there are better units for Rupture teams (Lucia), it can still work as an alternative option - Lighter’s buffs alone are very strong - be it for the Rupture Agent or just Orphie herself.\n Teams (Shiyu Defense)\n This section lists most popular teams featuring Lighter in the current phase of Shiyu Defense.\n Rank 17\n App. rate: 3.1 %\n Avg. time: 27141\n\n Rank 82\n App. rate: 0.27 %\n Avg. time: 27290\n\n Rank 158\n App. rate: 0.08 %\n Avg. time: 32048\n\n Rank 188\n App. rate: 0.06 %\n Avg. time: 35118\n\n Rank 220\n App. rate: 0.04 %\n Avg. time: 26467\n\n Rank 220\n App. rate: 0.04 %\n Avg. time: 32655\n\n Rank 257\n App. rate: 0.03 %\n Avg. time: 29273\n\n Rank 311\n App. rate: 0.02 %\n Avg. time: 0\n\n Teams (Deadly Assault)\n This section lists most popular teams featuring Lighter in the current phase of Deadly Assault.\n Rank 13\n App. rate: 5.29 %\n Avg. score: 28601\n\n Rank 40\n App. rate: 0.84 %\n Avg. score: 31620\n\n Rank 53\n App. rate: 0.61 %\n Avg. score: 28312\n\n Rank 102\n App. rate: 0.2 %\n Avg. score: 30396\n\n Rank 110\n App. rate: 0.16 %\n Avg. score: 38643\n\n Rank 118\n App. rate: 0.15 %\n Avg. score: 32300\n\n Rank 123\n App. rate: 0.14 %\n Avg. score: 25345\n\n Rank 151\n App. rate: 0.1 %\n Avg. score: 31610\n\n Rank 156\n App. rate: 0.09 %\n Avg. score: 35639\n\n Rank 175\n App. rate: 0.07 %\n Avg. score: 28524"
+  "text": "Lighter Best Build Guide | Zenless Zone Zero\n \n\n Zenless Zone Zero\n Home Database Agents Bangboo W-Engines Disk Drives Banners\n Tier Lists Tier List\n Endgame Shiyu Defense Deadly Assault\n Resources Guides News\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Zenless Zone Zero\n /\n Characters\n /\n Lighter\n Lighter Best Build Guide\n Last updated: 29/July/2026\n\n Introduction\n Best guide and build for Lighter from ZZZ (Zenless Zone Zero). Lighter is an rank character with the Fire attribute who belongs to the Stun Specialty and who is part of the Sons of Calydon faction.\n\n To learn more about Lighter check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Video guide\n Lighter has at least one video guide available, so if you prefer this sort of medium to learn more about a character, check it out:\n\n Update tracker\n Last review update\n Patch 1.5\n\n Last build update\n Patch 2.0\n\n Last teams update\n Patch 2.5\n\n Last profile update*\n 29/July/2026\n\n *Profile update means smaller edits to disk drives, stats or other things that don't require new calculations.\n\n Kit\n\n Review\n\n Build\n\n SD/DA Analytics\n\n Teams & Synergy\n\n Calculations\n\n To learn more about Lighter check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n Profile\n\n Core skills\n\n Core Passive Accelerant\n\n Lv. 1\n\n Lighter automatically gains Morale over time, at a rate of 2.9 points per second. For each point of Energy consumed by any squad member, Lighter recovers an additional 0.26 Morale, up to a maximum of 100 . When Morale reaches 80 , the next time Lighter switches into battle he immediately launches a Quick Assist. Once Morale is 80 or higher, executing the 5th hit of his Basic Attack puts Lighter in the Morale Burst state, enhancing the power of the startup light punch, jab combo, and the Finishing Move of the 5th hit of his Basic Attack. When a skill hits an enemy with its power increased, it will continuously consume Morale. With every 10 points of Morale consumed, Lighter's Impact increases by 1% , up to a maximum increase of 10% , and lasting 6s .\n\nIn the Morale Burst state, Lighter will no longer automatically gain Morale over time. If his Morale is exhausted during a startup light punch or jab combo, he will automatically follow up with a more powerful Finishing Move.\n\nIn the Morale Burst state, when startup light punches or jab combos hit enemies, the target's Ice RES and Fire RES are reduced by 15%, lasting 30 s.\n\nIn the Morale Burst state, when the Finishing Move hits an enemy, it applies the Collapse effect on the target, extending its Stunned duration by 3s . The Collapse effect can trigger only once on the same target before they recover from Stun.\n\nWhen the Finishing Move of the 5th hit of his Basic Attack hits an enemy, when he switches off field, or when his Morale runs out, Lighter will leave the Morale Burst state, keeping any unspent Morale.\n\n Impact 0\n BASE ATK : 0\n\n Additional Ability Fighting Spirit\n\n When another character in your squad is an Attack character or shares the same Faction:\n While under the Morale Burst state, when the 5th hit of Lighter's Basic Attack hits an enemy, all squad members gain a stack of Elation, stacking up to 20 times and lasting 30s . Repeated triggers reset the duration. For each stack of Elation, an Agent's Ice DMG and Fire DMG increase by 1.25% .\nWhen obtaining Elation, if Lighter's Impact exceeds 170 , every additional 10 points of Impact will increase the buff effect provided by each stack of Elation by an extra 0.25% . When any squad member launches a Chain Attack, it will refresh the duration of all squad members' Elation. Elation can increase the Ice DMG and Fire DMG of Agents by a maximum of 75% .\n\n Skills\n Basic\n Dodge\n Assist\n Special\n Chain\n\n Basic Attack: L-Form Thundering Fist\n\n Press or hold to activate:\nPerform up to five forward strikes, dealing Physical DMG and Fire DMG.\nDuring the 3rd hit of the Basic Attack, drag the stick/joystick, and repeatedly press or hold to unleash a series of melee follow-up attacks. Release the stick/joystick to follow up with the 4th hit of the Basic Attack.\nWhile performing the startup light punch in the 5th hit of the Basic Attack, drag the stick/joystick and repeatedly press or hold to keep alternating between the light punch and 4th hit of the Basic Attack. Release the stick/joystick to follow up with the subsequent jab combo.\nContinue repeatedly pressing or holding to extend the duration of the jab combo.\nWhen you stop pressing or holding , or when the combo reaches its maximum duration, launches a Finishing Move forward. Lighter is invulnerable during the Finishing Move.\nDuring the 5th hit of the Basic Attack, Lighter takes 40% less DMG.\nWhile in the Morale Burst state, Anti-Interrupt Level is increased during the 5th hit of his Basic Attack, and the DMG reduction effect is increased to 80%.\n Multipliers\n\n Dodge: Shadowed Slide\n\n Press to activate.\nA quick dash dodge.\nCharacter is invulnerable while using this skill.\nPress while the character is attacking to activate:\nPerform a quick shuffle dodge in the direction of the stick/Joystick.\nThis skill will not interrupt the combo count for Basic Attacks.\nCharacter is invulnerable while using this skill.\n\n Dash Attack: Charging Slam\n\n Press during a dodge to activate:\nRapidly strikes enemies in front, dealing Physical DMG.\n Multipliers\n\n Dodge Counter: Blazing Flash\n\n Press during a Perfect Dodge to activate.\nStrike enemies in front, dealing Fire DMG.\nCharacter is invulnerable while using this skill.\nAfter using the skill, press or hold to immediately follow up with the 5th hit of the Basic Attack.\n Multipliers\n\n Special Attack: V-Form Sunrise Uppercut\n\n Press to activate.\nStrikes enemies in front with an uppercut, dealing Fire DMG.\nAnti-Interrupt level is increased while using this skill.\nPress during a shuffle dodge to activate:\nStrike forward with a series of punches, dealing Fire DMG.\nThis skill will not interrupt the combo count for Basic Attacks.\nAnti-Interrupt level is increased while using this skill.\n Multipliers\n\n EX Special Attack: V-Form Sunrise Uppercut - Full Distance\n\n With enough energy, press to activate:\nLeaps into the air with a powerful uppercut, striking enemies in front and dealing massive Fire DMG.\nPress again during this skill to spend additional Energy to perform a powerful follow-up attack, dealing massive Fire DMG.\nCharacter is invulnerable while using this skill.\nAfter using this skill, press or hold to follow up with the 4th hit of the Basic Attack.\nWith enough Energy, press during the shuffle dodge to activate:\nStrike forward with a powerful punch combo, dealing massive Fire DMG.\nThis skill will not interrupt the combo count for Basic Attacks.\nCharacter is invulnerable while using this skill.\nAfter using this skill, press or hold to immediately follow up with the 5th hit of the Basic Attack.\n Multipliers\n\n Chain Attack: V-Form Scorching Sun\n\n When a Chain Attack is triggered, select the character to activate:\nUnleashes a powerful strike at enemies in front in a small area, dealing massive Fire DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Ultimate: W-Form Crowned Inferno\n\n When Decibel Rating is at Maximum, press to activate.\nUnleashes a powerful strike in a large area around, dealing massive Fire DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Assist Follow-Up: Charging Slam - Stab\n\n Press after a Defensive Assist to activate:\nStrike enemies in front, dealing Fire DMG.\nCharacter is invulnerable while using this skill.\nAfter using this skill, press or hold to immediately follow up with the 5th hit of the Basic Attack.\n Multipliers\n\n Defensive Assist: Swift Break\n\n When the character on field is about to be attacked, press to activate.\nParries the enemy's attack, inflicting massive Daze.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Quick Assist: Blazing Flash - Guard\n\n When the on-field character is launched, press to activate.\nStrike enemies in front, dealing Fire DMG.\nCharacter is invulnerable while using this skill.\nAfter using the skill, press or hold to immediately follow up with the 5th hit of the Basic Attack.\n Multipliers\n\n Mindscapes\n M1\n The Champion\n Mindscape 1\n\n Among the debuffs imposed by Core Passive: Accelerant, the Collapse effect increases Stun duration by 5s , while further reducing Ice RES and Fire RES by 10% . The more powerful Finishing Move that follows when Lighter's Morale is completely exhausted during a startup light punch or jab combo deals 30% increased DMG.\n\n M2\n Red Scarf\n Mindscape 2\n\n When applying Collapse by Core Passive: Accelerant to enemies, the target's Stun DMG Multiplier increases by 25% . The increase to Ice DMG and Fire DMG provided by Elation from Additional Ability: Fighting Spirit increases to 120% of the original.\n\n M3\n Mercenary Leader\n Mindscape 3\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M4\n Sunglasses\n Mindscape 4\n\n When Lighter is off-field, the Energy Regen for the on-field character is increased by 10% . Upon entering the Morale Burst state, Lighter restores 4 Energy for off-field characters. This effect can trigger once every 18s .\n\n M5\n Decision Maker\n Mindscape 5\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M6\n Inhuman Blood\n Mindscape 6\n\n Lighter's Morale recovery efficiency is increased to 200% of its original value. When Lighter lands a heavy strike on enemies during a Basic Attack, Dodge Counter, Special Attack, EX Special Attack, Quick Assist, Assist Follow-Up, Chain Attack, or Ultimate, it will trigger the Blazing Impact effect, dealing 250% of ATK as Fire DMG. This effect can trigger once every 8s on each enemy. If Lighter's Impact exceeds 170 points, each additional point will further increase the multiplier of Blazing Impact by 5% , up to a maximum increase of 500% . The more powerful Finishing Move that follows when Lighter's Morale is completely exhausted during a light punch or jab combo will trigger an additional activation of Blazing Impact when hitting an enemy, ignoring the effect's cooldown.\n\n Stats (Level 60)\n Lighter Stats at level 60 (including Core passive bonuses).\n\n HP\n 8253\n\n DEF\n 612\n\n ATK\n 797\n\n CRIT Rate\n 5 %\n\n CRIT DMG\n 50 %\n\n PEN Ratio\n 0 %\n\n Impact\n 137\n\n Anomaly Mastery\n 91\n\n Anomaly Proficiency\n 90\n\n Energy Regen\n 1.2\n\n Voice Actors\n ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -\n\n Gallery\n\n Review\n\n Ratings\n This tier list assesses Agents (characters) based on their combat potential in Zenless Zone Zero's most demanding contents - Deadly Assault (DA) and Shiyu Defense (SD) . Please keep in mind Zenless Zone Zero is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Zenless Zone Zero is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.\n\n Support\n T1\n Endgame Modes\n\n Pros & Cons\n Pros\n Incredible full team ICE and FIRE DMG% Boost.\n\n Grants substantial ICE and FIRE RES% Shred.\n\n Extends enemy Stun duration by 3 seconds, allowing for larger burst windows.\n\n Has an incredibly front-loaded combo capable of taking up minimal field time if desired.\n\n Simple and easy to play.\n\n Cons\n Daze application is much more concentrated than other characters, sometimes leading to downtime when Morale, Energy and Counter opportunities aren’t available.\n\n Primarily synergizes with Fire and Ice units only, limiting the scope of his potential.\n\n Loses supportive capabilities when unable to hit 270 Impact - something that isn’t easy to achieve without using 5-star W-Engines.\n\n Review\n Lighter is an S-Rank Melee Fire Stun Agent fulfilling the role of a low field time Daze character who also brings incredible supportive buffs for Ice and Fire teammates. Stun characters continue following a trend of picking up absurd supportive abilities and Lighter only takes this to the next level by sporting buffs that rival (and even exceed) many dedicated Support Agents - all the while fulfilling his role as a Stunner. Furthermore, he is the first Agent in the game capable of manipulating the duration enemies are Stunned for, allowing him to extend burst windows and doubling down on his supportive identity. It wouldn’t be entirely inaccurate to call Lighter a Stun and Support Hybrid, but his Daze output is top class thus pushing him more in that direction, to learn more let's dive in.\n Lighter’s kit is wordy and confusing… but his playstyle is anything but that. In combat he has one mission: wait in the wings allowing his teammates to fight until his unique resource bar “Morale” is between 80-100% filled, swap in, execute a flurry of devastating attacks consuming said “Morale” and swap out. This combo takes minimal time, applies all of his buffs, debuffs and delivers a strong amount of Daze.\n Lighter’s Core Passive: Accelerant is at the heart of his kit and is mandatory for his combo - as without it he would be dead in the water. Accelent allows him to gain up to 100 of his resource gauge “Morale” from two different sources.\n The first being his Passive, which allows him to gain 2.9 “Morale” every second regardless of the fact if he is on the field or not.\n\n The second source is reliant on your squad - for every 1 Energy your squadmates spend (Including Lighter himself) he’ll generate 0.26 “Morale”.\n For example, you’ll gain 15.6 “Morale” when an ally or Lighter spends 60 Energy on their EX Special.\n\n “Morale” isn’t usable until Lighter gains at least 80 of it, after which he gains access to a myriad of bonuses. The first of which is the ability to trigger a Quick Assist for one time the next time he switches in ignoring the usual rules of the Assist.\n The second is the ability to enter the “Morale Burst State” upon executing the 5th portion of his Basic Attack. While in the “Morale Burst State” he cannot generate “Morale” through his Passive or from Energy consumption.\n While in the “Morale Burst State” Lighter gains the following effects:\n Lighter’s 5th Basic Attack is enhanced causing it to consume “Morale” rapidly.\n\n For every 10 “Morale” consumed by Lighter, it grants him 2% Combat Impact for 6 seconds up to a maximum of 20%.\n\n Any attack landed during the state applies a 15% ICE & FIRE RES Shred for 30 seconds.\n\n Causes the final portion of his Basic Attack 5 to apply “Collapse” to any target hit. “Collapse” causes the next Stun the enemy suffers to be extended by an additional 3 seconds, “Collapse” cannot stack and is removed after the enemy recovers from Stun.\n\n After entering the “Morale Burst State” it’s heavily recommended you fully consume all of Lighter’s “Morale” swiftly and immediately to ensure you land the biggest Combat Impact buff possible, fully stack his buffs/debuffs and ensure you’re back to generating “Morale” as soon as possible.\n Lighter’s Additional Ability: Fighting Spirit is for the most part an extension of his Core Ability and absurdly powerful, so ensure that you build teams in order to activate it. Now what it does is that while within the “Morale Burst State” each of the hits caused by his 5th empowered Basic Attack grants all squad members a stack of “Elation” for a maximum of 20 stacks lasting for 30 seconds. While the 20 Stacks might sound like a lot, Lighter’s empowered 5th Basic Attack can hit many more times than that - so you’ll have no issues maxing this out when playing correctly. The “Elation” Buff grants those affected by it up to 75% FIRE and ICE DMG%. Each stack of “Elation” grants 1.25% FIRE and ICE DMG% or 25%... hold on then, what about the other 50%? For every 10 points of Impact Lighter possesses over 170, each “Elation” stack grants an additional 0.25% bonus for. Thus at 270 Impact we’ll gain 3.75% DMG increase per stack instead, allowing him to reach the maximum bonus of 75%. The 30-second duration of this buff is huge in itself but as an added bonus whenever an ally performs a Chain Attack, its duration will be refreshed making its uptime pretty much permanent.\n Phew… believe it or not that makes up for the majority of Lighter’s kit and as we’ve now learnt his whole kit essentially boils down to gaining access to 80 “Morale”, entering the “Morale Burst State” and executing an Empowered Basic Attack 5. Doing this applies all of his buffs and debuffs. With the wordy part covered lets breeze through the rest of his mostly simple kit.\n Lighter has a TON of different Basic Attacks - all of which might have their place in certain niche and specialized combat scenarios… but, when it comes to his core gameplay you use barely any of them. His standard Basic Attack combo consists of 5 attacks - the first 3 are Physical and the last 2 are Fire. We want to avoid using the first 3 wherever possible, as they have poor multipliers across the board. Fortunately many of his abilities allow him to skip straight to executing either the 4th or 5th portion of the Basic Attack string - as such these are the abilities to watch out for:\n Dodge Counter: Blazing Flash (Skips to 5th Basic Attack)\n\n EX Special Attack: V-Form Sunrise Uppercut (Skips to 4th Basic Attack)\n\n EX Special Attack: V-Form Sunrise Uppercut - Dash Variant (Skips to 5th Basic Attack)\n\n Quick Assist: Blazing Flash - Guard (Skips to 5th Basic Attack)\n\n Assist Follow-Up: Reignition (Skips to 5th Basic Attack)\n\n With proper planning, you’ll find yourself able to completely omit the first 3 - 4 Basic Attacks of the combo and skip straight to what matters the most - Basic Attack 5. Basic Attack 5 is further split up into 3 different parts and can only be fully accessed by Continuously Tapping or Holding the Basic Attack button throughout his 5 Basic Attack combo or after any of the follow-ups above. The three different parts of Basic Attack 5 are:\n “StartUp”:\n “StartUp” is a flurry of punches that follows right up after executing his Basic Attack 4 but will not be present if you skipped directly to Basic Attack 5 via another ability.\n\n “Combo”:\n “ Combo” is a continual flurry of punches that hits many many times in quick succession (And this is how we reach 20 stacks of “Elation”).\n\n “Finisher”:\n “Finisher” is exactly how it sounds: a huge haymaker to finish the combo off.\n\n While in the “Morale Burst State” each of these abilities consumes “Morale” and is, enhanced dealing more Damage and Daze whie also gaining additional effects. When enhanced “Combo” can be repeated as long as you possess “Morale” to consume, doing so will allow you to extend your flurry of punches to stack “Elation”, it’s always a good idea to channel “Combo” until 0 “Morale” because of the next enhancement. When running out of “Morale” while executing the 5th Basic attack within “Morale Burst State” Lighter’s “Finisher” is supercharged into “Powerful Finisher” dealing further increased Daze and Damage. Another bonus of running your “Morale” to 0 with “Combo” is that it ensures “Powerful Finisher” will have the maximum Combat Impact % buff from his Core Passive.\n An additional note is that Lighter’s Basic attack combo can be fully chained and executed simply by holding down the Basic Attack button. Also as mentioned earlier his Basic Attacks do have more to them but with his current top playstyle they’re not worth delving into. With “Morale” up, get to Basic Attack 5 as fast as possible, dump all “Morale” into repeating the “Combo” portion and land a huge “Powerful Finisher”.\n Lighter’s EX-Special Attack costs 40 Energy, deals good Daze, damage, and of course helps him recover some “Morale” while also skipping straight to Basic Attack 4. What makes it stand out though is that Lighter can tap EX-Special again right after its use to execute a Follow-Up Attack at the cost of an additional 20 Energy. This is usually well worth it as the attack doesn’t take much longer to execute and deals good Daze for its Energy cost. Lighter’s EX-Special also has an alternative mode which can be accessed by hitting the EX-Special key right after a Dash - something that isn’t easy to do consistently without some practice. As mentioned above the Dash-EX allows you to skip to Basic Attack 5 instead of 4.\n Lighter’s Chain Attack and Ultimate are completely standard - even a bit boring you might say. His Ultimate doesn’t do anything special while his Chain Attack can be used if there is a slot available, it is a low priority compared to those who need it more.\n As with most Stun characters, Lighter’s Dodge Counter is actually surprisingly strong having good multipliers and allowing him to immediately skip straight to Basic Attack 5 - use it when the opportunity presents itself.\n Lighter’s assists like his Dodge Counter are strong and absolutely worth using. The combo of his Defensive Assist + Assist Follow-Up should be the go-to for you when playing him, as he prefers to stay off-field most of the time. Remain on-field with your other two characters but Hot-Swap to Lighter to execute his Defensive Assist + Assist Follow-Up while you wait for his “Morale” to recover for his next combo. It’s worth noting when you finally do reach 80-100 “Morale” entering combat via a Defensive Assist + Assist Follow-Up is the optimal way to maximize Daze output. Lighter’s Quick assist is also very useful, you’ll gain free access to it every time you reach 80 “Morale” in the resource bar. If you reach 80-100 “Morale” and you don’t see an opening to Swap-In Lighter optimally, following the above this is your go to for a quick skip to the 5th Basic Attack.\n With Lighter’s kit fully covered let's bring all of it together. Here’s the final game plan:\n Wait until Lighter reaches 80 - 100 “Morale” (100 will maximize his Core Passive bonuses and is recommended in most cases).\n\n Swap to Lighter Via a Defensive Assist + Assist Follow-Up OR a Quick Assist.\n\n Hold down the Basic Attack to execute Basic Attack 5 “Combo” to fully drain your “Morale” and trigger his “Powerful Finisher”.\n\n If Energy is available add in either an EX Special or EX Special + Follow-Up.\n\n Here it is listed in abilities:\n Defensive Assist: Swift Break\n\n Assist Follow-Up: Charging Slam - Stab\n\n Basic Attack: L-Form Thundering Fist (5th-Hit Combo)(Morale Boosted)\n\n Basic Attack: L-Form Thundering Fist (5th-Hit Powerful Finisher)(Morale Boosted)\n\n EX Special Attack: V-Form Sunrise Uppercut - Full Distance\n\n EX Special Attack: V-Form Sunrise Uppercut - Full Distance (Follow-Up)\n\n And that’s really it. The above will grant you all of Lighter’s buffs, debuffs, and do a large amount of Daze. If you’re looking for more though here are some additional things you can watch out for.\n In the rare case Lighter is on the field execute Dodge Counters for more Daze Build-Up\n\n Ensure you never overcap on Energy - swap Lighter in to execute EX-Special’s even outside his usual combo if you’re about to overcap.\n\n Perform Defensive Assists + Assist Follow-Ups whenever possible for additional Daze.\n\n Optionally execute Non-Morale sequences of Basic Attack 4 + 5 to take advantage of the skips granted by your other abilities (The Daze output from these isn’t stellar but can fill empty field time or get you the last bit of the way to a stun)\n\n In combat scenarios that don’t demand Lighter’s full burst combo (Non-elite enemies) tactically use his EX, Defensive Assist, or Dodge counter to trigger Stuns as needed.\n\n Lighter is an incredible Stun character fully capable of serving as a support and at the same time, he has crazy buffs/debuffs, huge burst Daze, extended Stuns and is simple to play. He has a few downsides but nothing deal-breaking. Reaching 270 Impact to fully activate his 75% bonus via his Additional Ability isn’t trivial though, and you'll need Impact-focused W-engines to make it happen - which depending on your account might pose a challenge. And of course, Lighter is a Fire and Ice specialist so if those elements aren’t for you, he loses a lot of his value. If those aren’t a problem though, Lighter is definitely a force to be reckoned with.\n\n How to play\n EXTENDED ROTATION\n Lighter Rotation: The rotation below assumes Lighter begins with 100 Morale but can also be started at 80 Morale in a pinch, but at the cost of losing some supportive and Dazing benefits. Additionally the rotation can also be initiated with any of Lighter's abilities which allow him to skip straight to his 5th Basic Attack.\n Defensive Assist: Swift Break\n\n Assist Follow-Up: Charging Slam - Stab\n\n Basic Attack: L-Form Thundering Fist (5th-Hit Combo)(Morale Boosted)\n\n Basic Attack: L-Form Thundering Fist (5th-Hit Powerful Finisher)(Morale Boosted)\n\n EX Special Attack: V-Form Sunrise Uppercut - Full Distance\n\n EX Special Attack: V-Form Sunrise Uppercut - Full Distance (Follow-Up)\n\n Basic Attack: L-Form Thundering Fist P4\n\n Basic Attack: L-Form Thundering Fist (5th-Hit Startup)\n\n Basic Attack: L-Form Thundering Fist (5th-Hit Combo)\n\n Basic Attack: L-Form Thundering Fist (5th-Hit Finisher)\n\n Dodge Counter: Blazing Flash (Can be executed at any time)\n\n SHORTENED ROTATION\n Short Lighter Rotation: If desired - and you have another character that can make use of field time Lighter's rotation - can be shortened. The entire second Basic Attack Combo and Dodge Counter are all non-essential and can be cut simplifying his gameplay even more.\n Defensive Assist: Swift Break\n\n Assist Follow-Up: Charging Slam - Stab\n\n Basic Attack: L-Form Thundering Fist (5th-Hit Combo)(Morale Boosted)\n\n Basic Attack: L-Form Thundering Fist (5th-Hit Powerful Finisher)(Morale Boosted)\n\n EX Special Attack: V-Form Sunrise Uppercut - Full Distance\n\n EX Special Attack: V-Form Sunrise Uppercut - Full Distance (Follow-Up)\n\n Build and teams\n\n Collaboration Disclaimer\n For ZZZ calculations we worked alongside Rivyn Elowen . Any other content such as comments on W-Engines, Disks, etc are our own.\n\n Best W-Engines\n The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n 100.00%\n 100.00%\n\n Blazing Laurel (S 1 )\n\n Lighter's Signature and naturally his best option. It allows for comfortable access to the full power of his Additional Ability whilst also boosting his Impact% and Combat Impact % considerably throughout all of his rotation. It further boosts the entire team's ICE and FIRE CRIT DMG% by up to 30%, a fantastic supportive boon.\n Usage: 69.55 %\n Shiyu Defense: 28062\n Deadly Assault: 21829\n\n 97.44%\n 100.27%\n\n Ice-Jade Teapot (S 1 )\n\n Qingyi's Signature is a surprisingly solid alternative to Lighter's Signature if you already have it. Lighter is capable of stacking the 30 stack bonus of this W-Engine sufficiently to gain a large enough Combat Impact% buff which when combined with the standard Impact% gives him enough to satisfy his Additional Ability. This Engine also grants 20 DMG% to the team for a short duration offering a nice supportive bonus.\n Usage: 11.09 %\n Shiyu Defense: 27667\n Deadly Assault: 23096\n\n 92.51%\n 89.39%\n\n Hellfire Gears (S 1 )\n\n Reasonable non-limited choice capable of maximising Lighter's Additional Ability bonus but with some inconvenience. The Combat Impact% buff of this Engine is reliant on using Lighter's EX 1 and EX Follow-Up first meaning you have to execute them ideally before your Morale combo thus restricting your options.\n Usage: 11.03 %\n Shiyu Defense: 27508\n Deadly Assault: 20034\n\n 92.43%\n 74.68%\n\n Precious Fossilized Core (S 5 )\n\n Amazing option for all Stun Agents, particularly in Deadly Assault due to its massive buffs to Daze that it gives against higher HP enemies which is exploited to its full potential in the gamemode, in a lot of cases even outperforming S-rank W-Engines despite being an F2P craftable. Unfortunately not as powerful in other endgame contents, but still a perfectly viable choice.\n Usage: 2.69 %\n Shiyu Defense: 26975\n Deadly Assault: 0\n\n 90.80%\n 85.37%\n\n The Restrained (S 1 )\n\n This Engine is not capable of fully activating Lighter's Additional Ability resulting in a reduction in his supportive capabilities. Still provides enough Impact for a reasonable buff though and also grants him solid buffs resulting in reasonable Daze output overall.\n Usage: 2.55 %\n Shiyu Defense: 26401\n Deadly Assault: 0\n\n Best Disk Drives Sets\n 1\n\n King of the Summit ( 4 -PC)\n\n New best Stun set, to be used on any Stun character in almost any team with very few exceptions. Gives 6% increased Daze on the 2-piece and up to 30% CRIT DMG for the entire squad for 15s when casting EX Specials and Chain Attacks on the condition that the equipper has 50% CRIT Rate or higher, a requirement which is easy to meet but must be ensured. Uptime on this buff is almost always easily maintained permanently, however be mindful this set will not be effective if you aren’t building the rest of your team on CRIT, in which case alternatives will be preferred, and that you cannot run this set multiple times on the same team.\n Best combined with your choice of 2-PC Set:\n 2P\n Shockstar Disco\n\n (Recommended)\n 2P\n Swing Jazz\n\n 2\n\n Astral Voice ( 4 -PC)\n\n Best generalist Support set, providing a useful 10% ATK on the 2-piece but most importantly buffing DMG dealt by characters entering the field via Quick Assists by upwards of 24%, the biggest buff provided by Disc Drives in the game. Generally a must-have set on any team, but be mindful of ensuring uptime on the buff.\n Best combined with your choice of 2-PC Set:\n 2P\n King of the Summit\n\n (Recommended)\n 2P\n Shockstar Disco\n\n 2P\n Swing Jazz\n\n 3\n\n Proto Punk ( 4 -PC)\n\n Niche supportive set used for teams that are in the position of triggering Perfect Assists often. Grants the entire party 15% increased DMG for 10s when triggering a Perfect Assist. Typically used if an Astral Voice wielder is already on the team and the equipped Agent is in a position to trigger lots of Perfect Assists. This set's value is significantly diminished if the player isn't comfortable with timing Perfect Assists, in which case other sets will be favoured such as 4P Swing Jazz.\n Best combined with your choice of 2-PC Set:\n 2P\n King of the Summit\n\n (Recommended)\n 2P\n Shockstar Disco\n\n 2P\n Swing Jazz\n\n 4\n\n Shockstar Disco ( 4 -PC)\n\n Provides the highest Daze output of any Disk Drive set in the game. However, the difference between the 4-piece effect increase in Daze is marginal compared to simply using the 2-piece effect, meaning it almost always yields better results to use a supportive set like King of the Summit or Astral Voice to buff your team further, instead of the extra Daze which only gives extra Stun windows against bosses in very specific situations. If an extra Stun window is enabled by using this set it will perform the best, however this only very rarely happens, causing it to be left behind in favour of other sets.\n Best combined with your choice of 2-PC Set:\n 2P\n King of the Summit\n\n (Recommended)\n 2P\n Swing Jazz\n\n Best Disk Drives Stats\n Disk 4\n CRIT Rate% >= CRIT DMG%\n\n Disk 5\n ATK% = Fire DMG% = PEN Ratio%\n\n Disk 6\n Impact\n\n Substats: CRIT RATE > CRIT DMG > ATK% > PEN = ATK\n\n Best Endgame Stats (Level 60)\n Impact: 170 - 195+\n\n ATK: 1700 - 2000+ (Optional)\n\n HP: 10500+\n\n DEF: 800+\n\n CRIT RATE: 50%+ (Needed for King of the Summit)\n\n CRIT DMG: 100% - 120%+ (Optional)\n\n Skill priority\n Basic Attack\n\n Special Attack\n\n Chain Attack\n\n Assist\n\n Dodge\n\n Video guides\n\n Teams & Synergy\n\n Synergy\n Below we list only the most important synergies for Lighter . The character can work with others if you know what to do and how to use them.\n\n Evelyn Miyabi Ellen Soldier 11 - Lighter pairs especially well with Fire or Ice DPS characters who benefit from Stun windows — so typically CRIT-based Agents. 5 characters fall within that archetype, being Evelyn, Hugo, Ellen, Soldier 11 and Miyabi (who does Anomaly DMG but wants to build CRIT regardless). He's able to provide huge Ice and Fire RES Shred and DMG boosts as well as massive amounts of Daze for them, greatly enhancing their damage.\n Astra Yao Yuzuha Lucy - These 3 generalist Support units are capable of servicing as the Support to any team in the game. Astra Yao provides Quick Assists, extra Chain Attacks, healing, super low field time, ATK, DMG and CRIT DMG buffs which makes her the overall best choice in almost all cases. Yuzuha is the ultimate Anomaly buffer who also has awesome ATK and DMG% buffs applicable to any Agent as well, giving her strong general use potential — this even makes her the best choice for Soldier 11; On the other hand, Lucy has long-lasting ATK buffs which makes her a very practical choice, especially in Fire teams where she can help with building Anomaly and trigger Additional Abilities (the case for Lighter). All in all, these two can work with any team in the game to great effect.\n Orphie & Magus Yidhari - Orphie, despite being played as a sort of support unit, is still an Attacker Agent, which means that she fulfils Lighter’s Additional Ability. With how strong Lighter’s buffs are for Fire and Ice Agents, this allows either for Orphie to take a primary DPS role or for Lighter to be used with Rupture teams that otherwise would not be able to unlock his buffs. Although it’s not an ideal pairing, given that Orphie’s Zeroed In Attack bonuses are not very effective for Rupture Agents and there are better units for Rupture teams (Lucia), it can still work as an alternative option - Lighter’s buffs alone are very strong - be it for the Rupture Agent or just Orphie herself.\n Teams (Shiyu Defense)\n This section lists most popular teams featuring Lighter in the current phase of Shiyu Defense.\n Rank 35\n App. rate: 1.35 %\n Avg. time: 26996\n\n Rank 53\n App. rate: 0.67 %\n Avg. time: 29457\n\n Rank 108\n App. rate: 0.19 %\n Avg. time: 33199\n\n Rank 119\n App. rate: 0.14 %\n Avg. time: 29880\n\n Rank 119\n App. rate: 0.14 %\n Avg. time: 26642\n\n Rank 139\n App. rate: 0.12 %\n Avg. time: 32453\n\n Rank 182\n App. rate: 0.07 %\n Avg. time: 25843\n\n Rank 240\n App. rate: 0.04 %\n Avg. time: 33684\n\n Rank 279\n App. rate: 0.03 %\n Avg. time: 28948\n\n Rank 325\n App. rate: 0.02 %\n Avg. time: 26785\n\n Teams (Deadly Assault)\n This section lists most popular teams featuring Lighter in the current phase of Deadly Assault.\n Rank 139\n App. rate: 0.09 %\n Avg. score: 22674\n\n Rank 151\n App. rate: 0.08 %\n Avg. score: 20667\n\n Rank 273\n App. rate: 0.02 %\n Avg. score: 0\n\n Rank 344\n App. rate: 0.01 %\n Avg. score: 0"
 }

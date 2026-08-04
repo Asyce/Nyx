@@ -1,13 +1,13 @@
 {
   "provider": "EndfieldWiki",
   "game": "endfield",
-  "generatedAt": "2026-08-02T07:45:44.003Z",
+  "generatedAt": "2026-08-04T08:01:17.983Z",
   "summary": {
     "characters": {
       "added": 0,
       "removed": 0,
-      "changed": 1,
-      "unchanged": 30
+      "changed": 0,
+      "unchanged": 31
     },
     "weapons": {
       "added": 0,
@@ -26,15 +26,8 @@
     "characters": {
       "added": [],
       "removed": [],
-      "changed": [
-        {
-          "id": "lifeng",
-          "name": "Lifeng",
-          "previousHash": "aff3dca193e84bed60cf5d9fc8b000a4785384722f0802c181e70230c988ad3b",
-          "currentHash": "38d62d2371ac4f8936819a69977960b624036a5d1f6013a7c7679e675b27af34"
-        }
-      ],
-      "unchanged": 30,
+      "changed": [],
+      "unchanged": 31,
       "totals": {
         "previous": 31,
         "current": 31

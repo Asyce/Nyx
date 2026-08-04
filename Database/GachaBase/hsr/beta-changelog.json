@@ -3,7 +3,7 @@
   "label": "Honkai: Star Rail",
   "source": "GachaBase beta changelog",
   "sourceUrl": "https://hsr.gachabase.net/changelog/beta?lang=en",
-  "scrapedAt": "2026-08-02T07:45:43.534Z",
+  "scrapedAt": "2026-08-04T08:01:17.647Z",
   "title": "Changelog - v4.4.5X | Honkai: Star Rail | Gachabase",
   "categoryLinks": [
     {
@@ -130,6 +130,36 @@
       "type": "tutorials",
       "href": "https://hsr.gachabase.net/tutorials/currency-wars/beta?lang=en",
       "text": "Currency Wars"
+    },
+    {
+      "type": "characters",
+      "href": "https://hsr.gachabase.net/characters/8010/stelle-elation/beta?lang=en",
+      "text": "Stelle"
+    },
+    {
+      "type": "characters",
+      "href": "https://hsr.gachabase.net/characters/8009/caelus-elation/beta?lang=en",
+      "text": "Caelus"
+    },
+    {
+      "type": "characters",
+      "href": "https://hsr.gachabase.net/characters/1513/aventurine-waveflair/beta?lang=en",
+      "text": "Aventurine • Waveflair"
+    },
+    {
+      "type": "characters",
+      "href": "https://hsr.gachabase.net/characters/1512/robin-summeretto/beta?lang=en",
+      "text": "Robin • Summeretto"
+    },
+    {
+      "type": "characters",
+      "href": "https://hsr.gachabase.net/characters/1408/phainon/beta?lang=en",
+      "text": "Phainon"
+    },
+    {
+      "type": "lightcones",
+      "href": "https://hsr.gachabase.net/lightcones/23063/rise-and-sing/beta?lang=en",
+      "text": "Rise and Sing"
     }
   ],
   "counts": {

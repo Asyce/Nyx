@@ -4,9 +4,9 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-08-05T16:06:28.048Z",
+  "generatedAt": "2026-08-05T18:22:19.362Z",
   "codes": {
-    "updated": "2026-08-05T15:49:46.044Z",
+    "updated": "2026-08-05T18:22:00.117Z",
     "maxAgeDays": 28,
     "games": {
       "gi": [
@@ -207,6 +207,20 @@ var NYX_DB = {
           "firstSeen": "2026-07-15T06:22:38.686Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=BESTCOFFEEEVER",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=BESTCOFFEEEVER"
+        },
+        {
+          "code": "PSJQKBQPYGMT",
+          "reward": "50 Stellar Jade and 10k Credits",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Stellar Jade",
+            "needle": "stellar jade",
+            "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
+          },
+          "added": "2026-07-20",
+          "firstSeen": "2026-08-05T18:21:52.854Z",
+          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=PSJQKBQPYGMT",
+          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=PSJQKBQPYGMT"
         }
       ],
       "zzz": [
@@ -150840,6 +150854,20 @@ var NYX_DB = {
           "firstSeen": "2026-07-15T06:22:38.686Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=BESTCOFFEEEVER",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=BESTCOFFEEEVER"
+        },
+        {
+          "code": "PSJQKBQPYGMT",
+          "reward": "50 Stellar Jade and 10k Credits",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Stellar Jade",
+            "needle": "stellar jade",
+            "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
+          },
+          "added": "2026-07-20",
+          "firstSeen": "2026-08-05T18:21:52.854Z",
+          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=PSJQKBQPYGMT",
+          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=PSJQKBQPYGMT"
         }
       ],
       "banners": {

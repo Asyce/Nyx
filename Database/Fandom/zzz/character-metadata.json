@@ -475,17 +475,14 @@
   },
   {
     "name": "Lucy",
-    "pageTitle": "Agent Focus: Lucy",
+    "pageTitle": "Tutorial/(Character Intro) Lucy",
     "aliases": [
       "Lucy",
       "1151"
     ],
     "releaseDate": null,
-    "releasePatch": "1.0",
-    "categories": [
-      "Category:Released in Version 1.0",
-      "Category:Version"
-    ]
+    "releasePatch": null,
+    "categories": []
   },
   {
     "name": "Lycaon",
@@ -625,7 +622,7 @@
   },
   {
     "name": "Orphie & Magus",
-    "pageTitle": "Orphie & Magus' Namecard",
+    "pageTitle": "Agent Focus: Orphie & Magus",
     "aliases": [
       "Orphie & Magus",
       "1301"

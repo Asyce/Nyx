@@ -2,12 +2,14 @@
   "game": "zzz",
   "label": "Zenless Zone Zero",
   "source": "https://zenless-zone-zero.fandom.com/api.php",
-  "scrapedAt": "2026-08-03T10:31:34.522Z",
+  "scrapedAt": "2026-08-05T09:27:35.546Z",
   "total": 58,
   "saved": 58,
   "withReleaseDate": 55,
-  "withReleasePatch": 58,
+  "withReleasePatch": 57,
   "withVoiceActors": 54,
   "missing": [],
-  "thin": []
+  "thin": [
+    "Lucy"
+  ]
 }

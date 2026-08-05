@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "eb9a5b2dd680b6a4d0ead1d0d2271eef39f3b2e31b5000276f1c9fd7a13dd215",
-  "generatedAt": "2026-08-05T10:44:22.213Z",
+  "revision": "3c4b6fa6154502804783679b2ef90c797940cd54166111ec17ac275240277e8c",
+  "generatedAt": "2026-08-05T15:10:08.448Z",
   "health": {
     "status": "ok",
     "games": {
@@ -43,7 +43,7 @@
         "remaining": {
           "startsAt": "2026-07-21T17:00:00.000Z",
           "endsAt": "2026-08-11T13:59:00.000Z",
-          "durationSeconds": 530077
+          "durationSeconds": 514131
         },
         "characters": [
           {
@@ -369,76 +369,17 @@
     },
     "hsr": {
       "game": "hsr",
-      "region": "asia",
+      "region": "europe",
       "current": {
         "phase": "4.4",
-        "start": "2026-08-05T04:00:00.000Z",
-        "end": "2026-08-25T07:00:00.000Z",
+        "start": "2026-08-05T11:00:00.000Z",
+        "end": "2026-08-25T14:00:00.000Z",
         "remaining": {
-          "startsAt": "2026-08-05T04:00:00.000Z",
-          "endsAt": "2026-08-25T07:00:00.000Z",
-          "durationSeconds": 1714537
+          "startsAt": "2026-08-05T11:00:00.000Z",
+          "endsAt": "2026-08-25T14:00:00.000Z",
+          "durationSeconds": 1723791
         },
         "characters": [
-          {
-            "id": "1510",
-            "name": "Himeko • Nova",
-            "rarity": 5,
-            "limited": true,
-            "debut": "2026-07-15T03:00:00.000Z",
-            "icon": {
-              "id": "1510-icon",
-              "source": "character-icon",
-              "path": "/launcher-art/709afce30c3f300dfd085cd12db32ca95310aca0d63146ed72b3539e5011ff0f.webp",
-              "url": "https://pengo.gg/dist/launcher-art/709afce30c3f300dfd085cd12db32ca95310aca0d63146ed72b3539e5011ff0f.webp",
-              "mime": "image/webp",
-              "size": 9412,
-              "dimensions": {
-                "width": 128,
-                "height": 125
-              },
-              "sha256": "709afce30c3f300dfd085cd12db32ca95310aca0d63146ed72b3539e5011ff0f",
-              "transparentBounds": {
-                "left": 0,
-                "top": 0,
-                "right": 128,
-                "bottom": 125
-              },
-              "placement": {
-                "anchor": "center",
-                "fit": "cover",
-                "x": 0.5,
-                "y": 0.5
-              }
-            },
-            "variants": [
-              {
-                "id": "1510-splash",
-                "source": "splash",
-                "path": "/launcher-art/4034ffcb835fe49bb74a2f6bd00dc4ec1717c3bf7626e3583306171fc1d0f43c.webp",
-                "url": "https://pengo.gg/dist/launcher-art/4034ffcb835fe49bb74a2f6bd00dc4ec1717c3bf7626e3583306171fc1d0f43c.webp",
-                "mime": "image/webp",
-                "size": 756290,
-                "dimensions": {
-                  "width": 2043,
-                  "height": 1821
-                },
-                "sha256": "4034ffcb835fe49bb74a2f6bd00dc4ec1717c3bf7626e3583306171fc1d0f43c",
-                "transparentBounds": {
-                  "left": 0,
-                  "top": 0,
-                  "right": 2043,
-                  "bottom": 1821
-                },
-                "placement": {
-                  "anchor": "center",
-                  "fit": "contain",
-                  "x": 0.72,
-                  "y": 0.5
-                }
-              }
-            ]
-          },
           {
             "id": "1412",
             "name": "Cerydra",
@@ -618,23 +559,23 @@
           }
         ],
         "selectedCharacter": {
-          "id": "1510",
-          "name": "Himeko • Nova",
+          "id": "1412",
+          "name": "Cerydra",
           "rarity": 5,
           "limited": true,
-          "debut": "2026-07-15T03:00:00.000Z",
+          "debut": "2025-09-02T09:00:00.000Z",
           "icon": {
-            "id": "1510-icon",
+            "id": "1412-icon",
             "source": "character-icon",
-            "path": "/launcher-art/709afce30c3f300dfd085cd12db32ca95310aca0d63146ed72b3539e5011ff0f.webp",
-            "url": "https://pengo.gg/dist/launcher-art/709afce30c3f300dfd085cd12db32ca95310aca0d63146ed72b3539e5011ff0f.webp",
+            "path": "/launcher-art/c80c3e76ceef02ba54f3e0b64066a67f15b65e2a962bc17ed0d24cb5ff7fca25.webp",
+            "url": "https://pengo.gg/dist/launcher-art/c80c3e76ceef02ba54f3e0b64066a67f15b65e2a962bc17ed0d24cb5ff7fca25.webp",
             "mime": "image/webp",
-            "size": 9412,
+            "size": 9346,
             "dimensions": {
               "width": 128,
               "height": 125
             },
-            "sha256": "709afce30c3f300dfd085cd12db32ca95310aca0d63146ed72b3539e5011ff0f",
+            "sha256": "c80c3e76ceef02ba54f3e0b64066a67f15b65e2a962bc17ed0d24cb5ff7fca25",
             "transparentBounds": {
               "left": 0,
               "top": 0,
@@ -650,22 +591,22 @@
           },
           "variants": [
             {
-              "id": "1510-splash",
+              "id": "1412-splash",
               "source": "splash",
-              "path": "/launcher-art/4034ffcb835fe49bb74a2f6bd00dc4ec1717c3bf7626e3583306171fc1d0f43c.webp",
-              "url": "https://pengo.gg/dist/launcher-art/4034ffcb835fe49bb74a2f6bd00dc4ec1717c3bf7626e3583306171fc1d0f43c.webp",
+              "path": "/launcher-art/fe480c5a498b4fe3457cf7963ce9f9b79a310c7a4d659faff0b3e7f6b2e92a84.webp",
+              "url": "https://pengo.gg/dist/launcher-art/fe480c5a498b4fe3457cf7963ce9f9b79a310c7a4d659faff0b3e7f6b2e92a84.webp",
               "mime": "image/webp",
-              "size": 756290,
+              "size": 617982,
               "dimensions": {
-                "width": 2043,
-                "height": 1821
+                "width": 2000,
+                "height": 2025
               },
-              "sha256": "4034ffcb835fe49bb74a2f6bd00dc4ec1717c3bf7626e3583306171fc1d0f43c",
+              "sha256": "fe480c5a498b4fe3457cf7963ce9f9b79a310c7a4d659faff0b3e7f6b2e92a84",
               "transparentBounds": {
                 "left": 0,
                 "top": 0,
-                "right": 2043,
-                "bottom": 1821
+                "right": 2000,
+                "bottom": 2025
               },
               "placement": {
                 "anchor": "center",
@@ -676,34 +617,9 @@
             }
           ]
         },
-        "selectedCharacterId": "1510",
+        "selectedCharacterId": "1412",
         "selectionReason": "newer-limited-debut",
         "variants": [
-          {
-            "id": "1510-splash",
-            "source": "splash",
-            "path": "/launcher-art/4034ffcb835fe49bb74a2f6bd00dc4ec1717c3bf7626e3583306171fc1d0f43c.webp",
-            "url": "https://pengo.gg/dist/launcher-art/4034ffcb835fe49bb74a2f6bd00dc4ec1717c3bf7626e3583306171fc1d0f43c.webp",
-            "mime": "image/webp",
-            "size": 756290,
-            "dimensions": {
-              "width": 2043,
-              "height": 1821
-            },
-            "sha256": "4034ffcb835fe49bb74a2f6bd00dc4ec1717c3bf7626e3583306171fc1d0f43c",
-            "transparentBounds": {
-              "left": 0,
-              "top": 0,
-              "right": 2043,
-              "bottom": 1821
-            },
-            "placement": {
-              "anchor": "center",
-              "fit": "contain",
-              "x": 0.72,
-              "y": 0.5
-            }
-          },
           {
             "id": "1412-splash",
             "source": "splash",
@@ -835,7 +751,7 @@
         "remaining": {
           "startsAt": "2026-07-29T03:00:00.000Z",
           "endsAt": "2026-08-19T03:59:59.000Z",
-          "durationSeconds": 1185336
+          "durationSeconds": 1169390
         },
         "characters": [
           {
@@ -1169,7 +1085,7 @@
         "remaining": {
           "startsAt": "2026-07-30T09:00:00.000Z",
           "endsAt": "2026-08-19T10:59:00.000Z",
-          "durationSeconds": 1210477
+          "durationSeconds": 1194531
         },
         "characters": [
           {
@@ -1484,7 +1400,7 @@
         "remaining": {
           "startsAt": "2026-07-16T04:00:00.000Z",
           "endsAt": "2026-08-09T03:59:59.000Z",
-          "durationSeconds": 321336
+          "durationSeconds": 305390
         },
         "characters": [
           {

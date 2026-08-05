@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-04T09:26:58.812Z",
+  "generatedAt": "2026-08-05T15:09:26.139Z",
   "games": {
     "gi": {
       "count": 293,
@@ -735,12 +735,12 @@
       "contentHash": "4a0500549e29479b5ac2f4820a9f2c380df8819f11909ca8cadb085fc48239b7"
     },
     "wuwa": {
-      "count": 176,
+      "count": 178,
       "character": 84,
-      "weapon": 90,
+      "weapon": 92,
       "mixed": 2,
       "permanent": 4,
-      "confirmed": 176,
+      "confirmed": 178,
       "dateRange": {
         "start": "2024-05-23T02:00:00.000Z",
         "end": "2026-08-19T16:59:00.000Z"
@@ -762,6 +762,9 @@
         "maintained-wiki:130706",
         "maintained-wiki:130745",
         "maintained-wiki:130746",
+        "maintained-wiki:135427",
+        "maintained-wiki:135428",
+        "maintained-wiki:135429",
         "maintained-wiki:55943",
         "maintained-wiki:59439",
         "maintained-wiki:59441",
@@ -868,7 +871,6 @@
         "maintained-wiki:92229",
         "maintained-wiki:92231",
         "maintained-wiki:92283",
-        "maintained-wiki:92410",
         "maintained-wiki:92411",
         "maintained-wiki:92412",
         "maintained-wiki:92413",
@@ -935,6 +937,7 @@
         "official-latest:4493",
         "official-latest:4591",
         "official-latest:4691",
+        "official-latest:4712",
         "official-latest:4836",
         "official-latest:4852",
         "official-latest:4885",
@@ -944,7 +947,7 @@
         "official-latest:5220",
         "official-latest:5227"
       ],
-      "contentHash": "4406863c22dae412be9ad03946cd7f01e64dbb45eb9beac3f34611b5d29cb01b"
+      "contentHash": "438beb9000c1b37d000c001f516760205bf8bab1a1201a6439b62e9c2f5aafe7"
     },
     "ae": {
       "count": 29,

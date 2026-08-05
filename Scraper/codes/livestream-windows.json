@@ -1,15 +1,6 @@
 {
   "windows": [
     {
-      "game": "genshin",
-      "startsAt": "2026-07-31T06:00:06Z",
-      "endsAt": "2026-08-03T18:00:06Z",
-      "mode": "deep",
-      "note": "Genshin Impact Version 7.0 Special Program #NowSnezhnaya #GenshinSnezhnaya #SpecialProgram",
-      "source": "youtube",
-      "sourceUrl": "https://www.youtube.com/watch?v=hncbaQUnFF4"
-    },
-    {
       "game": "wuwa",
       "startsAt": "2026-08-04T21:00:16Z",
       "endsAt": "2026-08-08T09:00:16Z",

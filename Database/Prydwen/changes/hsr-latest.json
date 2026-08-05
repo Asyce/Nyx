@@ -1,13 +1,13 @@
 {
   "provider": "Prydwen",
   "game": "hsr",
-  "generatedAt": "2026-08-04T07:59:30.203Z",
+  "generatedAt": "2026-08-05T08:00:35.600Z",
   "summary": {
     "records": {
       "added": 0,
       "removed": 0,
-      "changed": 1,
-      "unchanged": 94
+      "changed": 3,
+      "unchanged": 92
     }
   },
   "sections": {
@@ -16,13 +16,25 @@
       "removed": [],
       "changed": [
         {
+          "id": "characters:hysilens",
+          "name": "Hysilens",
+          "previousHash": "3c2fa63ca5a13aee615fed668c74eda346246758fcc093438801df42c03608d6",
+          "currentHash": "a1ffb7ae2a8169714b67162499cd076c063feca4efa303b6adb85d82d9b1d114"
+        },
+        {
+          "id": "characters:luka",
+          "name": "Luka",
+          "previousHash": "9261a2535af8377e329475b3e54aefa826e1ad88de3e4a566eec36c1a38a3d4e",
+          "currentHash": "5fdeaea1a0cb349ba10805817feef81453c2b039fe4273c7e6b8802e67ad7d6a"
+        },
+        {
           "id": "characters:topaz",
           "name": "Topaz & Numby",
-          "previousHash": "830c70ce9ecc6b2229b40f24e6b0332c98c0ab468b7d06f80e311de364a09e6f",
-          "currentHash": "7143b59db7a004d27342ee8b132f52f07f6c5f3b0c59ec0ae086a80520e29daf"
+          "previousHash": "7143b59db7a004d27342ee8b132f52f07f6c5f3b0c59ec0ae086a80520e29daf",
+          "currentHash": "830c70ce9ecc6b2229b40f24e6b0332c98c0ab468b7d06f80e311de364a09e6f"
         }
       ],
-      "unchanged": 94,
+      "unchanged": 92,
       "totals": {
         "previous": 95,
         "current": 95

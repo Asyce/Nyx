@@ -1,6 +1,6 @@
 {
   "game": "ww",
-  "updatedAt": "2026-08-05T08:00:35.600Z",
+  "updatedAt": "2026-08-06T07:59:51.331Z",
   "hashes": {
     "records": {
       "characters:aalto": "f9e7fd9f276741ac049d619543148bf11706968379e55b2af8663f98d577233b",
@@ -63,7 +63,7 @@
       "characters:yuanwu": "33a96b06bcb8ea4b15490d7bc893d7384afa9b2676e0ead19801ed59bb1d6e1f",
       "characters:zani": "6aee9c7670dd4336b252864c5277fd6de7c42b4c502a85d5c635f453b69651bd",
       "characters:zhezhi": "774129cd8cdd87cba35476e62ec997dfe4c4eeff884f6a6d4acddde9f1b77cd0",
-      "collection:characters": "40a9ea3e6b40c34e738a46551231bb3e316e29972a7b2e8fb633a585f6a8069e",
+      "collection:characters": "973a105f37fcd17199faf21553189f0251d3db00e73c7b84aa3f87f63499a535",
       "collection:echoes": "2bbc841003cd905d189e8ba303fcc566b43d9d60c27861f7504e422d1a38a33d",
       "collection:weapons": "9a41ee2ec7605abd0f205d1337b7513b0d6d2772ffaea1cb543eff7a9584f7b5"
     }

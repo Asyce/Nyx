@@ -1,7 +1,7 @@
 {
   "provider": "Prydwen",
   "game": "ww",
-  "generatedAt": "2026-08-05T08:00:35.600Z",
+  "generatedAt": "2026-08-06T07:59:51.331Z",
   "summary": {
     "records": {
       "added": 0,
@@ -16,10 +16,10 @@
       "removed": [],
       "changed": [
         {
-          "id": "characters:buling",
-          "name": "Buling",
-          "previousHash": "537a763b3c878a6f52a65ac872ca9e821f25f0fb0214d7213ce0f5fdb0e24954",
-          "currentHash": "5282e3b91413758e7af4dad50410000d213c3667e573121aaec78f46c8711775"
+          "id": "collection:characters",
+          "name": "Wuthering Waves Characters Build Guides",
+          "previousHash": "40a9ea3e6b40c34e738a46551231bb3e316e29972a7b2e8fb633a585f6a8069e",
+          "currentHash": "973a105f37fcd17199faf21553189f0251d3db00e73c7b84aa3f87f63499a535"
         }
       ],
       "unchanged": 62,

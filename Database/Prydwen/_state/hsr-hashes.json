@@ -1,6 +1,6 @@
 {
   "game": "hsr",
-  "updatedAt": "2026-08-05T08:00:35.600Z",
+  "updatedAt": "2026-08-06T07:59:51.331Z",
   "hashes": {
     "records": {
       "characters:acheron": "5f5a3cfc324d66a256cd3fa1325235f828e23d7f1fb208bfcf0590c6e4d25b45",
@@ -34,7 +34,7 @@
       "characters:gallagher": "6befda61526730dcb890520b3842d93b5afcbd9f3d349c1c6d39048a0de9a801",
       "characters:gepard": "82e05255fb41a5ec068728385f6f626b2841b90ecfa6a93ee82f1d4192e59291",
       "characters:gilgamesh": "e8690c086a193a4a706681a7e8740e9db54ebd60c366adfe78b937dc7c620a04",
-      "characters:guinaifen": "377942fe21c9c61790cb1e023f4cc77973f7f28bdad6bae0e576a04d7ba9b1ff",
+      "characters:guinaifen": "9a7feeb2c62927ad9989698b391b97894fa6023eb16bd2e17825f739e4b32e75",
       "characters:hanya": "73e060e80f7dd3703edccaa7dd982cf166bcb0ff2d77e91ca9bd343968b1d318",
       "characters:herta": "3a4d5384003eb781c812e941a3de3af75f3f441945e0329cf1ea9160054ab509",
       "characters:himeko": "34960bc41fb1d38af8c6862ca4a984e9f94fb9c8800798bd41e62d6e20488059",
@@ -42,7 +42,7 @@
       "characters:hook": "d51a0beaa83a4621e57a65d567644ea894f1bb816ccb782a34c0548064a63e62",
       "characters:huohuo": "e33a5a17ccc9981fbca870c1c4c03ffd4d4abcc300f01b262c7a717f33eaaa9e",
       "characters:hyacine": "55db487adb13e98aa132de9c55a3446c2ea967f422ea97ed1767d031cb05e8c3",
-      "characters:hysilens": "a1ffb7ae2a8169714b67162499cd076c063feca4efa303b6adb85d82d9b1d114",
+      "characters:hysilens": "3c2fa63ca5a13aee615fed668c74eda346246758fcc093438801df42c03608d6",
       "characters:imbibitor-lunae": "96a860fc9db9b970fc9e1f42589c90ca92e8e6e95db91449613147e784579c57",
       "characters:jade": "be41540c692bcde0ef0a71ef60e61788585bfa5826389ce925ed4ca7e03f2e72",
       "characters:jiaoqiu": "b61f8f47eff180001cceba41850dde530fa14f1494831b8dcc4ce971f047866d",
@@ -50,7 +50,7 @@
       "characters:jingliu": "db0c1f180bff6b5c2e3ab409b69c5a761bed858e66e18446624ed2c44e6834a0",
       "characters:kafka": "595f06ff9733403c1d858ca2bbfd25b76fcda1f81000d99dc2a0df97f0451b70",
       "characters:lingsha": "2e125848fb0fa81520ffcb9b0d6b747acee2e0874609f98638d6bc70922ed5cc",
-      "characters:luka": "5fdeaea1a0cb349ba10805817feef81453c2b039fe4273c7e6b8802e67ad7d6a",
+      "characters:luka": "9261a2535af8377e329475b3e54aefa826e1ad88de3e4a566eec36c1a38a3d4e",
       "characters:luocha": "aac35439911a3b865834a51a923b3240f550c5202af6c01ebe1452e763cccd18",
       "characters:lynx": "cbae17f5aafd5b3816b366bd55dd9f65a7854858e26f228698b6e45d5dcfd561",
       "characters:march-7th": "061e81b1cdca67124b59d55c52b65c49a298e6560b02fb55fa9f1a5a638505b8",

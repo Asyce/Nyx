@@ -2,7 +2,7 @@
   "game": "zzz",
   "label": "Zenless Zone Zero",
   "source": "https://zenless-zone-zero.fandom.com/api.php",
-  "scrapedAt": "2026-08-05T09:27:35.546Z",
+  "scrapedAt": "2026-08-06T09:34:29.860Z",
   "total": 58,
   "saved": 58,
   "withReleaseDate": 55,
@@ -10,6 +10,6 @@
   "withVoiceActors": 54,
   "missing": [],
   "thin": [
-    "Lucy"
+    "Nekomata"
   ]
 }

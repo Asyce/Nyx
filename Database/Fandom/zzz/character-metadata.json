@@ -475,14 +475,17 @@
   },
   {
     "name": "Lucy",
-    "pageTitle": "Tutorial/(Character Intro) Lucy",
+    "pageTitle": "Agent Focus: Lucy",
     "aliases": [
       "Lucy",
       "1151"
     ],
     "releaseDate": null,
-    "releasePatch": null,
-    "categories": []
+    "releasePatch": "1.0",
+    "categories": [
+      "Category:Released in Version 1.0",
+      "Category:Version"
+    ]
   },
   {
     "name": "Lycaon",
@@ -569,17 +572,14 @@
   },
   {
     "name": "Nekomata",
-    "pageTitle": "Nekomata's Namecard",
+    "pageTitle": "Tutorial/(Character Intro) Nekomata",
     "aliases": [
       "Nekomata",
       "1021"
     ],
     "releaseDate": null,
-    "releasePatch": "1.1",
-    "categories": [
-      "Category:Released in Version 1.1",
-      "Category:Version"
-    ]
+    "releasePatch": null,
+    "categories": []
   },
   {
     "name": "Nicole",
@@ -622,7 +622,7 @@
   },
   {
     "name": "Orphie & Magus",
-    "pageTitle": "Agent Focus: Orphie & Magus",
+    "pageTitle": "Orphie & Magus' Namecard",
     "aliases": [
       "Orphie & Magus",
       "1301"

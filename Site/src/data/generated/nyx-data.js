@@ -4,12 +4,26 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-08-06T10:01:03.971Z",
+  "generatedAt": "2026-08-06T14:32:15.708Z",
   "codes": {
-    "updated": "2026-08-06T08:02:11.927Z",
+    "updated": "2026-08-06T14:32:02.166Z",
     "maxAgeDays": 28,
     "games": {
       "gi": [
+        {
+          "code": "GS70YTASTJ",
+          "reward": "30000 Mora, 5 Hero's Wit, 5 Mystic Enhancement Ore",
+          "premium": false,
+          "premiumCurrency": {
+            "name": "Primogems",
+            "needle": "primogem",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
+          },
+          "added": "2026-08-06",
+          "firstSeen": "2026-08-06T14:31:58.497Z",
+          "sourceUrl": "https://www.crimsonwitch.com/codes/Genshin_Impact",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=GS70YTASTJ"
+        },
         {
           "code": "LEGEDILJKSGM",
           "reward": "Primogem x 60, Adventurer's Experience x 5",
@@ -4299,6 +4313,20 @@ var NYX_DB = {
         }
       ],
       "codes": [
+        {
+          "code": "GS70YTASTJ",
+          "reward": "30000 Mora, 5 Hero's Wit, 5 Mystic Enhancement Ore",
+          "premium": false,
+          "premiumCurrency": {
+            "name": "Primogems",
+            "needle": "primogem",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
+          },
+          "added": "2026-08-06",
+          "firstSeen": "2026-08-06T14:31:58.497Z",
+          "sourceUrl": "https://www.crimsonwitch.com/codes/Genshin_Impact",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=GS70YTASTJ"
+        },
         {
           "code": "LEGEDILJKSGM",
           "reward": "Primogem x 60, Adventurer's Experience x 5",

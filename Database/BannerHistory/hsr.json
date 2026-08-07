@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "game": "hsr",
-  "generatedAt": "2026-08-04T09:26:58.812Z",
+  "generatedAt": "2026-08-07T19:38:23.108Z",
   "records": [
     {
       "id": "hsr:character:Character Event:butterfly-on-swordtip-2023-04-26:2023-04-25t02-00-00-000z",
@@ -53,7 +53,7 @@
         "kind": "maintained-wiki",
         "revision": 254304
       },
-      "fetchedAt": "2026-08-04T09:26:59.313Z",
+      "fetchedAt": "2026-08-07T19:38:23.573Z",
       "confirmed": true
     },
     {
@@ -78,7 +78,7 @@
         "kind": "maintained-wiki",
         "revision": 270169
       },
-      "fetchedAt": "2026-08-04T09:27:00.047Z",
+      "fetchedAt": "2026-08-07T19:38:24.337Z",
       "confirmed": true
     },
     {
@@ -103,7 +103,7 @@
         "kind": "maintained-wiki",
         "revision": 404900
       },
-      "fetchedAt": "2026-08-04T09:27:00.111Z",
+      "fetchedAt": "2026-08-07T19:38:24.484Z",
       "confirmed": true,
       "legacyIds": [
         "hsr:character:Standard:stellar-warp:2023-04-25t02-00-00-000z"
@@ -159,7 +159,7 @@
         "kind": "maintained-wiki",
         "revision": 255537
       },
-      "fetchedAt": "2026-08-04T09:26:59.223Z",
+      "fetchedAt": "2026-08-07T19:38:23.584Z",
       "confirmed": true
     },
     {
@@ -212,7 +212,7 @@
         "kind": "maintained-wiki",
         "revision": 255530
       },
-      "fetchedAt": "2026-08-04T09:26:59.243Z",
+      "fetchedAt": "2026-08-07T19:38:23.695Z",
       "confirmed": true
     },
     {
@@ -265,7 +265,7 @@
         "kind": "maintained-wiki",
         "revision": 255528
       },
-      "fetchedAt": "2026-08-04T09:26:59.431Z",
+      "fetchedAt": "2026-08-07T19:38:23.674Z",
       "confirmed": true
     },
     {
@@ -316,7 +316,7 @@
         "kind": "maintained-wiki",
         "revision": 267628
       },
-      "fetchedAt": "2026-08-04T09:26:59.351Z",
+      "fetchedAt": "2026-08-07T19:38:23.666Z",
       "confirmed": true
     },
     {
@@ -367,7 +367,7 @@
         "kind": "maintained-wiki",
         "revision": 270202
       },
-      "fetchedAt": "2026-08-04T09:26:59.363Z",
+      "fetchedAt": "2026-08-07T19:38:23.674Z",
       "confirmed": true
     },
     {
@@ -420,7 +420,7 @@
         "kind": "maintained-wiki",
         "revision": 255073
       },
-      "fetchedAt": "2026-08-04T09:26:59.429Z",
+      "fetchedAt": "2026-08-07T19:38:23.772Z",
       "confirmed": true
     },
     {
@@ -473,7 +473,7 @@
         "kind": "maintained-wiki",
         "revision": 255577
       },
-      "fetchedAt": "2026-08-04T09:26:59.431Z",
+      "fetchedAt": "2026-08-07T19:38:23.766Z",
       "confirmed": true
     },
     {
@@ -526,7 +526,7 @@
         "kind": "maintained-wiki",
         "revision": 254918
       },
-      "fetchedAt": "2026-08-04T09:26:59.505Z",
+      "fetchedAt": "2026-08-07T19:38:23.862Z",
       "confirmed": true
     },
     {
@@ -579,7 +579,7 @@
         "kind": "maintained-wiki",
         "revision": 212364
       },
-      "fetchedAt": "2026-08-04T09:26:59.490Z",
+      "fetchedAt": "2026-08-07T19:38:23.866Z",
       "confirmed": true
     },
     {
@@ -632,7 +632,7 @@
         "kind": "maintained-wiki",
         "revision": 256094
       },
-      "fetchedAt": "2026-08-04T09:26:59.610Z",
+      "fetchedAt": "2026-08-07T19:38:23.809Z",
       "confirmed": true
     },
     {
@@ -685,7 +685,7 @@
         "kind": "maintained-wiki",
         "revision": 313816
       },
-      "fetchedAt": "2026-08-04T09:26:59.548Z",
+      "fetchedAt": "2026-08-07T19:38:23.926Z",
       "confirmed": true
     },
     {
@@ -738,7 +738,7 @@
         "kind": "maintained-wiki",
         "revision": 254876
       },
-      "fetchedAt": "2026-08-04T09:26:59.630Z",
+      "fetchedAt": "2026-08-07T19:38:23.992Z",
       "confirmed": true
     },
     {
@@ -791,7 +791,7 @@
         "kind": "maintained-wiki",
         "revision": 255575
       },
-      "fetchedAt": "2026-08-04T09:26:59.658Z",
+      "fetchedAt": "2026-08-07T19:38:24.021Z",
       "confirmed": true
     },
     {
@@ -844,7 +844,7 @@
         "kind": "maintained-wiki",
         "revision": 212712
       },
-      "fetchedAt": "2026-08-04T09:26:59.660Z",
+      "fetchedAt": "2026-08-07T19:38:24.037Z",
       "confirmed": true
     },
     {
@@ -895,7 +895,7 @@
         "kind": "maintained-wiki",
         "revision": 255585
       },
-      "fetchedAt": "2026-08-04T09:26:59.741Z",
+      "fetchedAt": "2026-08-07T19:38:24.110Z",
       "confirmed": true
     },
     {
@@ -948,7 +948,7 @@
         "kind": "maintained-wiki",
         "revision": 255906
       },
-      "fetchedAt": "2026-08-04T09:26:59.771Z",
+      "fetchedAt": "2026-08-07T19:38:24.144Z",
       "confirmed": true
     },
     {
@@ -1001,7 +1001,7 @@
         "kind": "maintained-wiki",
         "revision": 255574
       },
-      "fetchedAt": "2026-08-04T09:26:59.766Z",
+      "fetchedAt": "2026-08-07T19:38:24.143Z",
       "confirmed": true
     },
     {
@@ -1055,7 +1055,7 @@
         "kind": "maintained-wiki",
         "revision": 256034
       },
-      "fetchedAt": "2026-08-04T09:26:59.835Z",
+      "fetchedAt": "2026-08-07T19:38:24.268Z",
       "confirmed": true
     },
     {
@@ -1109,7 +1109,7 @@
         "kind": "maintained-wiki",
         "revision": 255156
       },
-      "fetchedAt": "2026-08-04T09:26:59.762Z",
+      "fetchedAt": "2026-08-07T19:38:24.196Z",
       "confirmed": true
     },
     {
@@ -1169,7 +1169,7 @@
         "kind": "maintained-wiki",
         "revision": 255523
       },
-      "fetchedAt": "2026-08-04T09:26:59.864Z",
+      "fetchedAt": "2026-08-07T19:38:24.288Z",
       "confirmed": true
     },
     {
@@ -1223,7 +1223,7 @@
         "kind": "maintained-wiki",
         "revision": 269832
       },
-      "fetchedAt": "2026-08-04T09:26:59.906Z",
+      "fetchedAt": "2026-08-07T19:38:24.356Z",
       "confirmed": true
     },
     {
@@ -1276,7 +1276,7 @@
         "kind": "maintained-wiki",
         "revision": 269834
       },
-      "fetchedAt": "2026-08-04T09:26:59.967Z",
+      "fetchedAt": "2026-08-07T19:38:24.356Z",
       "confirmed": true
     },
     {
@@ -1329,7 +1329,7 @@
         "kind": "maintained-wiki",
         "revision": 269835
       },
-      "fetchedAt": "2026-08-04T09:26:59.891Z",
+      "fetchedAt": "2026-08-07T19:38:24.419Z",
       "confirmed": true
     },
     {
@@ -1380,7 +1380,7 @@
         "kind": "maintained-wiki",
         "revision": 347974
       },
-      "fetchedAt": "2026-08-04T09:27:00.023Z",
+      "fetchedAt": "2026-08-07T19:38:24.421Z",
       "confirmed": true
     },
     {
@@ -1431,7 +1431,7 @@
         "kind": "maintained-wiki",
         "revision": 255662
       },
-      "fetchedAt": "2026-08-04T09:26:59.955Z",
+      "fetchedAt": "2026-08-07T19:38:24.509Z",
       "confirmed": true
     },
     {
@@ -1482,7 +1482,7 @@
         "kind": "maintained-wiki",
         "revision": 409171
       },
-      "fetchedAt": "2026-08-04T09:26:59.961Z",
+      "fetchedAt": "2026-08-07T19:38:24.502Z",
       "confirmed": true
     },
     {
@@ -1533,7 +1533,7 @@
         "kind": "maintained-wiki",
         "revision": 269842
       },
-      "fetchedAt": "2026-08-04T09:27:00.104Z",
+      "fetchedAt": "2026-08-07T19:38:24.529Z",
       "confirmed": true
     },
     {
@@ -1587,7 +1587,7 @@
         "kind": "maintained-wiki",
         "revision": 269846
       },
-      "fetchedAt": "2026-08-04T09:27:00.033Z",
+      "fetchedAt": "2026-08-07T19:38:24.612Z",
       "confirmed": true
     },
     {
@@ -1638,7 +1638,7 @@
         "kind": "maintained-wiki",
         "revision": 269844
       },
-      "fetchedAt": "2026-08-04T09:27:00.188Z",
+      "fetchedAt": "2026-08-07T19:38:24.594Z",
       "confirmed": true
     },
     {
@@ -1691,7 +1691,7 @@
         "kind": "maintained-wiki",
         "revision": 269854
       },
-      "fetchedAt": "2026-08-04T09:27:00.085Z",
+      "fetchedAt": "2026-08-07T19:38:24.630Z",
       "confirmed": true
     },
     {
@@ -1744,7 +1744,7 @@
         "kind": "maintained-wiki",
         "revision": 269851
       },
-      "fetchedAt": "2026-08-04T09:27:00.178Z",
+      "fetchedAt": "2026-08-07T19:38:24.773Z",
       "confirmed": true
     },
     {
@@ -1798,7 +1798,7 @@
         "kind": "maintained-wiki",
         "revision": 347973
       },
-      "fetchedAt": "2026-08-04T09:27:00.217Z",
+      "fetchedAt": "2026-08-07T19:38:24.693Z",
       "confirmed": true
     },
     {
@@ -1852,7 +1852,7 @@
         "kind": "maintained-wiki",
         "revision": 304914
       },
-      "fetchedAt": "2026-08-04T09:27:00.265Z",
+      "fetchedAt": "2026-08-07T19:38:24.732Z",
       "confirmed": true
     },
     {
@@ -1906,7 +1906,7 @@
         "kind": "maintained-wiki",
         "revision": 269861
       },
-      "fetchedAt": "2026-08-04T09:27:00.167Z",
+      "fetchedAt": "2026-08-07T19:38:24.755Z",
       "confirmed": true
     },
     {
@@ -1960,7 +1960,7 @@
         "kind": "maintained-wiki",
         "revision": 269863
       },
-      "fetchedAt": "2026-08-04T09:27:00.279Z",
+      "fetchedAt": "2026-08-07T19:38:24.771Z",
       "confirmed": true
     },
     {
@@ -2014,7 +2014,7 @@
         "kind": "maintained-wiki",
         "revision": 269868
       },
-      "fetchedAt": "2026-08-04T09:27:00.249Z",
+      "fetchedAt": "2026-08-07T19:38:24.824Z",
       "confirmed": true
     },
     {
@@ -2068,7 +2068,7 @@
         "kind": "maintained-wiki",
         "revision": 269864
       },
-      "fetchedAt": "2026-08-04T09:27:00.349Z",
+      "fetchedAt": "2026-08-07T19:38:24.828Z",
       "confirmed": true
     },
     {
@@ -2122,7 +2122,7 @@
         "kind": "maintained-wiki",
         "revision": 269870
       },
-      "fetchedAt": "2026-08-04T09:27:00.328Z",
+      "fetchedAt": "2026-08-07T19:38:24.787Z",
       "confirmed": true
     },
     {
@@ -2176,7 +2176,7 @@
         "kind": "maintained-wiki",
         "revision": 269875
       },
-      "fetchedAt": "2026-08-04T09:27:00.379Z",
+      "fetchedAt": "2026-08-07T19:38:24.966Z",
       "confirmed": true
     },
     {
@@ -2230,7 +2230,7 @@
         "kind": "maintained-wiki",
         "revision": 269877
       },
-      "fetchedAt": "2026-08-04T09:27:00.293Z",
+      "fetchedAt": "2026-08-07T19:38:25.098Z",
       "confirmed": true
     },
     {
@@ -2284,7 +2284,7 @@
         "kind": "maintained-wiki",
         "revision": 269880
       },
-      "fetchedAt": "2026-08-04T09:27:00.339Z",
+      "fetchedAt": "2026-08-07T19:38:25.822Z",
       "confirmed": true
     },
     {
@@ -2338,7 +2338,7 @@
         "kind": "maintained-wiki",
         "revision": 269884
       },
-      "fetchedAt": "2026-08-04T09:27:00.395Z",
+      "fetchedAt": "2026-08-07T19:38:24.980Z",
       "confirmed": true
     },
     {
@@ -2392,7 +2392,7 @@
         "kind": "maintained-wiki",
         "revision": 269885
       },
-      "fetchedAt": "2026-08-04T09:27:00.493Z",
+      "fetchedAt": "2026-08-07T19:38:25.856Z",
       "confirmed": true
     },
     {
@@ -2445,7 +2445,7 @@
         "kind": "maintained-wiki",
         "revision": 269889
       },
-      "fetchedAt": "2026-08-04T09:27:00.509Z",
+      "fetchedAt": "2026-08-07T19:38:25.065Z",
       "confirmed": true
     },
     {
@@ -2498,7 +2498,7 @@
         "kind": "maintained-wiki",
         "revision": 269882
       },
-      "fetchedAt": "2026-08-04T09:27:00.421Z",
+      "fetchedAt": "2026-08-07T19:38:24.986Z",
       "confirmed": true
     },
     {
@@ -2549,7 +2549,7 @@
         "kind": "maintained-wiki",
         "revision": 269891
       },
-      "fetchedAt": "2026-08-04T09:27:00.631Z",
+      "fetchedAt": "2026-08-07T19:38:25.085Z",
       "confirmed": true
     },
     {
@@ -2603,7 +2603,7 @@
         "kind": "maintained-wiki",
         "revision": 269893
       },
-      "fetchedAt": "2026-08-04T09:27:00.580Z",
+      "fetchedAt": "2026-08-07T19:38:25.197Z",
       "confirmed": true
     },
     {
@@ -2657,7 +2657,7 @@
         "kind": "maintained-wiki",
         "revision": 255895
       },
-      "fetchedAt": "2026-08-04T09:27:00.582Z",
+      "fetchedAt": "2026-08-07T19:38:25.223Z",
       "confirmed": true
     },
     {
@@ -2711,7 +2711,7 @@
         "kind": "maintained-wiki",
         "revision": 269894
       },
-      "fetchedAt": "2026-08-04T09:27:00.649Z",
+      "fetchedAt": "2026-08-07T19:38:25.189Z",
       "confirmed": true
     },
     {
@@ -2765,7 +2765,7 @@
         "kind": "maintained-wiki",
         "revision": 269895
       },
-      "fetchedAt": "2026-08-04T09:27:00.532Z",
+      "fetchedAt": "2026-08-07T19:38:25.341Z",
       "confirmed": true
     },
     {
@@ -2819,7 +2819,7 @@
         "kind": "maintained-wiki",
         "revision": 256383
       },
-      "fetchedAt": "2026-08-04T09:27:00.642Z",
+      "fetchedAt": "2026-08-07T19:38:25.303Z",
       "confirmed": true
     },
     {
@@ -2873,7 +2873,7 @@
         "kind": "maintained-wiki",
         "revision": 255699
       },
-      "fetchedAt": "2026-08-04T09:27:00.740Z",
+      "fetchedAt": "2026-08-07T19:38:25.262Z",
       "confirmed": true
     },
     {
@@ -2927,7 +2927,7 @@
         "kind": "maintained-wiki",
         "revision": 255143
       },
-      "fetchedAt": "2026-08-04T09:27:00.643Z",
+      "fetchedAt": "2026-08-07T19:38:25.453Z",
       "confirmed": true
     },
     {
@@ -2981,7 +2981,7 @@
         "kind": "maintained-wiki",
         "revision": 255500
       },
-      "fetchedAt": "2026-08-04T09:27:00.755Z",
+      "fetchedAt": "2026-08-07T19:38:25.478Z",
       "confirmed": true
     },
     {
@@ -3041,7 +3041,7 @@
         "kind": "maintained-wiki",
         "revision": 269896
       },
-      "fetchedAt": "2026-08-04T09:27:00.699Z",
+      "fetchedAt": "2026-08-07T19:38:25.468Z",
       "confirmed": true
     },
     {
@@ -3095,7 +3095,7 @@
         "kind": "maintained-wiki",
         "revision": 410943
       },
-      "fetchedAt": "2026-08-04T09:27:00.710Z",
+      "fetchedAt": "2026-08-07T19:38:25.684Z",
       "confirmed": true
     },
     {
@@ -3149,7 +3149,7 @@
         "kind": "maintained-wiki",
         "revision": 256255
       },
-      "fetchedAt": "2026-08-04T09:27:00.847Z",
+      "fetchedAt": "2026-08-07T19:38:25.524Z",
       "confirmed": true
     },
     {
@@ -3202,7 +3202,7 @@
         "kind": "maintained-wiki",
         "revision": 255499
       },
-      "fetchedAt": "2026-08-04T09:27:00.866Z",
+      "fetchedAt": "2026-08-07T19:38:25.581Z",
       "confirmed": true
     },
     {
@@ -3255,7 +3255,7 @@
         "kind": "maintained-wiki",
         "revision": 256388
       },
-      "fetchedAt": "2026-08-04T09:27:00.902Z",
+      "fetchedAt": "2026-08-07T19:38:25.674Z",
       "confirmed": true
     },
     {
@@ -3309,7 +3309,7 @@
         "kind": "maintained-wiki",
         "revision": 269898
       },
-      "fetchedAt": "2026-08-04T09:27:00.899Z",
+      "fetchedAt": "2026-08-07T19:38:25.706Z",
       "confirmed": true
     },
     {
@@ -3363,7 +3363,7 @@
         "kind": "maintained-wiki",
         "revision": 256576
       },
-      "fetchedAt": "2026-08-04T09:27:00.903Z",
+      "fetchedAt": "2026-08-07T19:38:25.645Z",
       "confirmed": true
     },
     {
@@ -3417,7 +3417,7 @@
         "kind": "maintained-wiki",
         "revision": 269899
       },
-      "fetchedAt": "2026-08-04T09:27:00.927Z",
+      "fetchedAt": "2026-08-07T19:38:25.779Z",
       "confirmed": true
     },
     {
@@ -3471,7 +3471,7 @@
         "kind": "maintained-wiki",
         "revision": 256387
       },
-      "fetchedAt": "2026-08-04T09:27:00.877Z",
+      "fetchedAt": "2026-08-07T19:38:25.836Z",
       "confirmed": true
     },
     {
@@ -3525,7 +3525,7 @@
         "kind": "maintained-wiki",
         "revision": 256659
       },
-      "fetchedAt": "2026-08-04T09:27:00.867Z",
+      "fetchedAt": "2026-08-07T19:38:25.814Z",
       "confirmed": true
     },
     {
@@ -3579,7 +3579,7 @@
         "kind": "maintained-wiki",
         "revision": 255656
       },
-      "fetchedAt": "2026-08-04T09:27:01.082Z",
+      "fetchedAt": "2026-08-07T19:38:25.898Z",
       "confirmed": true
     },
     {
@@ -3632,7 +3632,7 @@
         "kind": "maintained-wiki",
         "revision": 269900
       },
-      "fetchedAt": "2026-08-04T09:27:00.982Z",
+      "fetchedAt": "2026-08-07T19:38:25.903Z",
       "confirmed": true
     },
     {
@@ -3685,7 +3685,7 @@
         "kind": "maintained-wiki",
         "revision": 267614
       },
-      "fetchedAt": "2026-08-04T09:27:01.065Z",
+      "fetchedAt": "2026-08-07T19:38:26.845Z",
       "confirmed": true
     },
     {
@@ -3739,7 +3739,7 @@
         "kind": "maintained-wiki",
         "revision": 288479
       },
-      "fetchedAt": "2026-08-04T09:27:01.000Z",
+      "fetchedAt": "2026-08-07T19:38:26.066Z",
       "confirmed": true
     },
     {
@@ -3793,7 +3793,7 @@
         "kind": "maintained-wiki",
         "revision": 288489
       },
-      "fetchedAt": "2026-08-04T09:27:01.165Z",
+      "fetchedAt": "2026-08-07T19:38:26.128Z",
       "confirmed": true
     },
     {
@@ -3846,7 +3846,7 @@
         "kind": "maintained-wiki",
         "revision": 255571
       },
-      "fetchedAt": "2026-08-04T09:27:01.008Z",
+      "fetchedAt": "2026-08-07T19:38:27.197Z",
       "confirmed": true
     },
     {
@@ -3899,7 +3899,7 @@
         "kind": "maintained-wiki",
         "revision": 269901
       },
-      "fetchedAt": "2026-08-04T09:27:01.075Z",
+      "fetchedAt": "2026-08-07T19:38:26.084Z",
       "confirmed": true
     },
     {
@@ -3953,7 +3953,7 @@
         "kind": "maintained-wiki",
         "revision": 256028
       },
-      "fetchedAt": "2026-08-04T09:27:01.165Z",
+      "fetchedAt": "2026-08-07T19:38:26.121Z",
       "confirmed": true
     },
     {
@@ -4007,7 +4007,7 @@
         "kind": "maintained-wiki",
         "revision": 255483
       },
-      "fetchedAt": "2026-08-04T09:27:01.091Z",
+      "fetchedAt": "2026-08-07T19:38:26.198Z",
       "confirmed": true
     },
     {
@@ -4061,7 +4061,7 @@
         "kind": "maintained-wiki",
         "revision": 269903
       },
-      "fetchedAt": "2026-08-04T09:27:01.265Z",
+      "fetchedAt": "2026-08-07T19:38:26.113Z",
       "confirmed": true
     },
     {
@@ -4115,7 +4115,7 @@
         "kind": "maintained-wiki",
         "revision": 269904
       },
-      "fetchedAt": "2026-08-04T09:27:01.226Z",
+      "fetchedAt": "2026-08-07T19:38:26.326Z",
       "confirmed": true
     },
     {
@@ -4181,7 +4181,7 @@
         "kind": "maintained-wiki",
         "revision": 268790
       },
-      "fetchedAt": "2026-08-04T09:27:01.328Z",
+      "fetchedAt": "2026-08-07T19:38:26.312Z",
       "confirmed": true
     },
     {
@@ -4235,7 +4235,7 @@
         "kind": "maintained-wiki",
         "revision": 255812
       },
-      "fetchedAt": "2026-08-04T09:27:01.310Z",
+      "fetchedAt": "2026-08-07T19:38:26.331Z",
       "confirmed": true
     },
     {
@@ -4289,7 +4289,7 @@
         "kind": "maintained-wiki",
         "revision": 304023
       },
-      "fetchedAt": "2026-08-04T09:27:01.303Z",
+      "fetchedAt": "2026-08-07T19:38:27.288Z",
       "confirmed": true
     },
     {
@@ -4355,7 +4355,7 @@
         "kind": "maintained-wiki",
         "revision": 374372
       },
-      "fetchedAt": "2026-08-04T09:27:01.288Z",
+      "fetchedAt": "2026-08-07T19:38:26.410Z",
       "confirmed": true
     },
     {
@@ -4409,7 +4409,7 @@
         "kind": "maintained-wiki",
         "revision": 384820
       },
-      "fetchedAt": "2026-08-04T09:27:01.378Z",
+      "fetchedAt": "2026-08-07T19:38:26.437Z",
       "confirmed": true
     },
     {
@@ -4463,7 +4463,7 @@
         "kind": "maintained-wiki",
         "revision": 326337
       },
-      "fetchedAt": "2026-08-04T09:27:01.289Z",
+      "fetchedAt": "2026-08-07T19:38:26.582Z",
       "confirmed": true
     },
     {
@@ -4517,7 +4517,7 @@
         "kind": "maintained-wiki",
         "revision": 326334
       },
-      "fetchedAt": "2026-08-04T09:27:01.455Z",
+      "fetchedAt": "2026-08-07T19:38:26.537Z",
       "confirmed": true
     },
     {
@@ -4577,7 +4577,7 @@
         "kind": "maintained-wiki",
         "revision": 326335
       },
-      "fetchedAt": "2026-08-04T09:27:01.428Z",
+      "fetchedAt": "2026-08-07T19:38:26.646Z",
       "confirmed": true
     },
     {
@@ -4631,7 +4631,7 @@
         "kind": "maintained-wiki",
         "revision": 326331
       },
-      "fetchedAt": "2026-08-04T09:27:01.436Z",
+      "fetchedAt": "2026-08-07T19:38:26.571Z",
       "confirmed": true
     },
     {
@@ -4685,7 +4685,7 @@
         "kind": "maintained-wiki",
         "revision": 326330
       },
-      "fetchedAt": "2026-08-04T09:27:01.409Z",
+      "fetchedAt": "2026-08-07T19:38:26.671Z",
       "confirmed": true
     },
     {
@@ -4739,7 +4739,7 @@
         "kind": "maintained-wiki",
         "revision": 326332
       },
-      "fetchedAt": "2026-08-04T09:27:01.565Z",
+      "fetchedAt": "2026-08-07T19:38:27.661Z",
       "confirmed": true
     },
     {
@@ -4793,7 +4793,7 @@
         "kind": "maintained-wiki",
         "revision": 326333
       },
-      "fetchedAt": "2026-08-04T09:27:01.436Z",
+      "fetchedAt": "2026-08-07T19:38:26.793Z",
       "confirmed": true
     },
     {
@@ -4847,7 +4847,7 @@
         "kind": "maintained-wiki",
         "revision": 326302
       },
-      "fetchedAt": "2026-08-04T09:27:01.516Z",
+      "fetchedAt": "2026-08-07T19:38:27.771Z",
       "confirmed": true
     },
     {
@@ -4901,7 +4901,7 @@
         "kind": "maintained-wiki",
         "revision": 326301
       },
-      "fetchedAt": "2026-08-04T09:27:01.640Z",
+      "fetchedAt": "2026-08-07T19:38:26.926Z",
       "confirmed": true
     },
     {
@@ -4955,7 +4955,7 @@
         "kind": "maintained-wiki",
         "revision": 326299
       },
-      "fetchedAt": "2026-08-04T09:27:01.567Z",
+      "fetchedAt": "2026-08-07T19:38:26.901Z",
       "confirmed": true
     },
     {
@@ -5009,7 +5009,7 @@
         "kind": "maintained-wiki",
         "revision": 326300
       },
-      "fetchedAt": "2026-08-04T09:27:01.535Z",
+      "fetchedAt": "2026-08-07T19:38:27.055Z",
       "confirmed": true
     },
     {
@@ -5063,7 +5063,7 @@
         "kind": "maintained-wiki",
         "revision": 384815
       },
-      "fetchedAt": "2026-08-04T09:27:01.578Z",
+      "fetchedAt": "2026-08-07T19:38:27.065Z",
       "confirmed": true
     },
     {
@@ -5117,7 +5117,7 @@
         "kind": "maintained-wiki",
         "revision": 326296
       },
-      "fetchedAt": "2026-08-04T09:27:01.665Z",
+      "fetchedAt": "2026-08-07T19:38:28.149Z",
       "confirmed": true
     },
     {
@@ -5171,7 +5171,7 @@
         "kind": "maintained-wiki",
         "revision": 326297
       },
-      "fetchedAt": "2026-08-04T09:27:01.707Z",
+      "fetchedAt": "2026-08-07T19:38:27.111Z",
       "confirmed": true
     },
     {
@@ -5225,7 +5225,7 @@
         "kind": "maintained-wiki",
         "revision": 326298
       },
-      "fetchedAt": "2026-08-04T09:27:01.695Z",
+      "fetchedAt": "2026-08-07T19:38:27.238Z",
       "confirmed": true
     },
     {
@@ -5279,7 +5279,7 @@
         "kind": "maintained-wiki",
         "revision": 384827
       },
-      "fetchedAt": "2026-08-04T09:27:01.788Z",
+      "fetchedAt": "2026-08-07T19:38:28.392Z",
       "confirmed": true
     },
     {
@@ -5333,7 +5333,7 @@
         "kind": "maintained-wiki",
         "revision": 384830
       },
-      "fetchedAt": "2026-08-04T09:27:01.709Z",
+      "fetchedAt": "2026-08-07T19:38:27.361Z",
       "confirmed": true
     },
     {
@@ -5387,7 +5387,7 @@
         "kind": "maintained-wiki",
         "revision": 326291
       },
-      "fetchedAt": "2026-08-04T09:27:01.790Z",
+      "fetchedAt": "2026-08-07T19:38:27.400Z",
       "confirmed": true
     },
     {
@@ -5441,7 +5441,7 @@
         "kind": "maintained-wiki",
         "revision": 326292
       },
-      "fetchedAt": "2026-08-04T09:27:01.732Z",
+      "fetchedAt": "2026-08-07T19:38:27.412Z",
       "confirmed": true
     },
     {
@@ -5507,7 +5507,7 @@
         "kind": "maintained-wiki",
         "revision": 352734
       },
-      "fetchedAt": "2026-08-04T09:27:01.771Z",
+      "fetchedAt": "2026-08-07T19:38:27.520Z",
       "confirmed": true
     },
     {
@@ -5561,7 +5561,7 @@
         "kind": "maintained-wiki",
         "revision": 352733
       },
-      "fetchedAt": "2026-08-04T09:27:01.904Z",
+      "fetchedAt": "2026-08-07T19:38:27.643Z",
       "confirmed": true
     },
     {
@@ -5615,7 +5615,7 @@
         "kind": "maintained-wiki",
         "revision": 326228
       },
-      "fetchedAt": "2026-08-04T09:27:01.929Z",
+      "fetchedAt": "2026-08-07T19:38:27.642Z",
       "confirmed": true
     },
     {
@@ -5681,7 +5681,7 @@
         "kind": "maintained-wiki",
         "revision": 374374
       },
-      "fetchedAt": "2026-08-04T09:27:01.950Z",
+      "fetchedAt": "2026-08-07T19:38:27.567Z",
       "confirmed": true
     },
     {
@@ -5747,7 +5747,7 @@
         "kind": "maintained-wiki",
         "revision": 352732
       },
-      "fetchedAt": "2026-08-04T09:27:01.979Z",
+      "fetchedAt": "2026-08-07T19:38:27.784Z",
       "confirmed": true
     },
     {
@@ -5801,7 +5801,7 @@
         "kind": "maintained-wiki",
         "revision": 352731
       },
-      "fetchedAt": "2026-08-04T09:27:01.861Z",
+      "fetchedAt": "2026-08-07T19:38:27.793Z",
       "confirmed": true
     },
     {
@@ -5855,7 +5855,7 @@
         "kind": "maintained-wiki",
         "revision": 326226
       },
-      "fetchedAt": "2026-08-04T09:27:01.980Z",
+      "fetchedAt": "2026-08-07T19:38:27.884Z",
       "confirmed": true
     },
     {
@@ -5921,7 +5921,7 @@
         "kind": "maintained-wiki",
         "revision": 374375
       },
-      "fetchedAt": "2026-08-04T09:27:01.974Z",
+      "fetchedAt": "2026-08-07T19:38:27.885Z",
       "confirmed": true
     },
     {
@@ -5975,7 +5975,7 @@
         "kind": "maintained-wiki",
         "revision": 352729
       },
-      "fetchedAt": "2026-08-04T09:27:01.914Z",
+      "fetchedAt": "2026-08-07T19:38:27.933Z",
       "confirmed": true
     },
     {
@@ -6029,7 +6029,7 @@
         "kind": "maintained-wiki",
         "revision": 352730
       },
-      "fetchedAt": "2026-08-04T09:27:02.091Z",
+      "fetchedAt": "2026-08-07T19:38:27.977Z",
       "confirmed": true
     },
     {
@@ -6082,7 +6082,7 @@
         "kind": "maintained-wiki",
         "revision": 326200
       },
-      "fetchedAt": "2026-08-04T09:27:02.064Z",
+      "fetchedAt": "2026-08-07T19:38:28.809Z",
       "confirmed": true
     },
     {
@@ -6135,7 +6135,7 @@
         "kind": "maintained-wiki",
         "revision": 326201
       },
-      "fetchedAt": "2026-08-04T09:27:02.169Z",
+      "fetchedAt": "2026-08-07T19:38:28.084Z",
       "confirmed": true
     },
     {
@@ -6189,7 +6189,7 @@
         "kind": "maintained-wiki",
         "revision": 352728
       },
-      "fetchedAt": "2026-08-04T09:27:02.091Z",
+      "fetchedAt": "2026-08-07T19:38:28.026Z",
       "confirmed": true
     },
     {
@@ -6243,7 +6243,7 @@
         "kind": "maintained-wiki",
         "revision": 352727
       },
-      "fetchedAt": "2026-08-04T09:27:02.153Z",
+      "fetchedAt": "2026-08-07T19:38:28.122Z",
       "confirmed": true
     },
     {
@@ -6303,7 +6303,7 @@
         "kind": "maintained-wiki",
         "revision": 326194
       },
-      "fetchedAt": "2026-08-04T09:27:02.179Z",
+      "fetchedAt": "2026-08-07T19:38:28.167Z",
       "confirmed": true
     },
     {
@@ -6357,7 +6357,7 @@
         "kind": "maintained-wiki",
         "revision": 326195
       },
-      "fetchedAt": "2026-08-04T09:27:02.213Z",
+      "fetchedAt": "2026-08-07T19:38:28.207Z",
       "confirmed": true
     },
     {
@@ -6411,7 +6411,7 @@
         "kind": "maintained-wiki",
         "revision": 352725
       },
-      "fetchedAt": "2026-08-04T09:27:02.104Z",
+      "fetchedAt": "2026-08-07T19:38:28.256Z",
       "confirmed": true
     },
     {
@@ -6477,7 +6477,7 @@
         "kind": "maintained-wiki",
         "revision": 374366
       },
-      "fetchedAt": "2026-08-04T09:27:02.195Z",
+      "fetchedAt": "2026-08-07T19:38:28.344Z",
       "confirmed": true
     },
     {
@@ -6531,7 +6531,7 @@
         "kind": "maintained-wiki",
         "revision": 326203
       },
-      "fetchedAt": "2026-08-04T09:27:02.318Z",
+      "fetchedAt": "2026-08-07T19:38:28.371Z",
       "confirmed": true
     },
     {
@@ -6597,7 +6597,7 @@
         "kind": "maintained-wiki",
         "revision": 374376
       },
-      "fetchedAt": "2026-08-04T09:27:02.347Z",
+      "fetchedAt": "2026-08-07T19:38:28.387Z",
       "confirmed": true
     },
     {
@@ -6651,7 +6651,7 @@
         "kind": "maintained-wiki",
         "revision": 352724
       },
-      "fetchedAt": "2026-08-04T09:27:02.294Z",
+      "fetchedAt": "2026-08-07T19:38:28.414Z",
       "confirmed": true
     },
     {
@@ -6705,7 +6705,7 @@
         "kind": "maintained-wiki",
         "revision": 391817
       },
-      "fetchedAt": "2026-08-04T09:27:02.409Z",
+      "fetchedAt": "2026-08-07T19:38:29.328Z",
       "confirmed": true
     },
     {
@@ -6759,7 +6759,7 @@
         "kind": "maintained-wiki",
         "revision": 328741
       },
-      "fetchedAt": "2026-08-04T09:27:02.387Z",
+      "fetchedAt": "2026-08-07T19:38:28.491Z",
       "confirmed": true
     },
     {
@@ -6813,7 +6813,7 @@
         "kind": "maintained-wiki",
         "revision": 328769
       },
-      "fetchedAt": "2026-08-04T09:27:02.335Z",
+      "fetchedAt": "2026-08-07T19:38:28.497Z",
       "confirmed": true
     },
     {
@@ -6867,7 +6867,7 @@
         "kind": "maintained-wiki",
         "revision": 410938
       },
-      "fetchedAt": "2026-08-04T09:27:02.423Z",
+      "fetchedAt": "2026-08-07T19:38:28.580Z",
       "confirmed": true
     },
     {
@@ -6921,7 +6921,7 @@
         "kind": "maintained-wiki",
         "revision": 362580
       },
-      "fetchedAt": "2026-08-04T09:27:02.410Z",
+      "fetchedAt": "2026-08-07T19:38:28.632Z",
       "confirmed": true
     },
     {
@@ -6975,7 +6975,7 @@
         "kind": "maintained-wiki",
         "revision": 328742
       },
-      "fetchedAt": "2026-08-04T09:27:02.457Z",
+      "fetchedAt": "2026-08-07T19:38:28.656Z",
       "confirmed": true
     },
     {
@@ -7029,7 +7029,7 @@
         "kind": "maintained-wiki",
         "revision": 328770
       },
-      "fetchedAt": "2026-08-04T09:27:02.530Z",
+      "fetchedAt": "2026-08-07T19:38:28.686Z",
       "confirmed": true
     },
     {
@@ -7083,7 +7083,7 @@
         "kind": "maintained-wiki",
         "revision": 378842
       },
-      "fetchedAt": "2026-08-04T09:27:02.554Z",
+      "fetchedAt": "2026-08-07T19:38:28.689Z",
       "confirmed": true
     },
     {
@@ -7137,7 +7137,7 @@
         "kind": "maintained-wiki",
         "revision": 384816
       },
-      "fetchedAt": "2026-08-04T09:27:02.453Z",
+      "fetchedAt": "2026-08-07T19:38:28.761Z",
       "confirmed": true
     },
     {
@@ -7191,7 +7191,7 @@
         "kind": "maintained-wiki",
         "revision": 379351
       },
-      "fetchedAt": "2026-08-04T09:27:02.643Z",
+      "fetchedAt": "2026-08-07T19:38:28.797Z",
       "confirmed": true
     },
     {
@@ -7245,7 +7245,7 @@
         "kind": "maintained-wiki",
         "revision": 379355
       },
-      "fetchedAt": "2026-08-04T09:27:02.658Z",
+      "fetchedAt": "2026-08-07T19:38:28.898Z",
       "confirmed": true
     },
     {
@@ -7311,7 +7311,7 @@
         "kind": "maintained-wiki",
         "revision": 376500
       },
-      "fetchedAt": "2026-08-04T09:27:02.621Z",
+      "fetchedAt": "2026-08-07T19:38:28.871Z",
       "confirmed": true
     },
     {
@@ -7365,7 +7365,7 @@
         "kind": "maintained-wiki",
         "revision": 441692
       },
-      "fetchedAt": "2026-08-04T09:27:02.795Z",
+      "fetchedAt": "2026-08-07T19:38:28.902Z",
       "confirmed": true
     },
     {
@@ -7419,7 +7419,7 @@
         "kind": "maintained-wiki",
         "revision": 376978
       },
-      "fetchedAt": "2026-08-04T09:27:02.657Z",
+      "fetchedAt": "2026-08-07T19:38:28.891Z",
       "confirmed": true
     },
     {
@@ -7485,7 +7485,7 @@
         "kind": "maintained-wiki",
         "revision": 377123
       },
-      "fetchedAt": "2026-08-04T09:27:02.713Z",
+      "fetchedAt": "2026-08-07T19:38:29.012Z",
       "confirmed": true
     },
     {
@@ -7520,7 +7520,7 @@
         "kind": "maintained-wiki",
         "revision": 457616
       },
-      "fetchedAt": "2026-08-04T09:27:02.714Z",
+      "fetchedAt": "2026-08-07T19:38:29.022Z",
       "confirmed": true
     },
     {
@@ -7555,7 +7555,7 @@
         "kind": "maintained-wiki",
         "revision": 457618
       },
-      "fetchedAt": "2026-08-04T09:27:02.766Z",
+      "fetchedAt": "2026-08-07T19:38:29.042Z",
       "confirmed": true
     },
     {
@@ -7590,7 +7590,7 @@
         "kind": "maintained-wiki",
         "revision": 457378
       },
-      "fetchedAt": "2026-08-04T09:27:02.771Z",
+      "fetchedAt": "2026-08-07T19:38:29.102Z",
       "confirmed": true
     },
     {
@@ -7625,7 +7625,7 @@
         "kind": "maintained-wiki",
         "revision": 457380
       },
-      "fetchedAt": "2026-08-04T09:27:02.877Z",
+      "fetchedAt": "2026-08-07T19:38:29.110Z",
       "confirmed": true
     },
     {
@@ -7690,7 +7690,7 @@
         "kind": "maintained-wiki",
         "revision": 376485
       },
-      "fetchedAt": "2026-08-04T09:27:02.869Z",
+      "fetchedAt": "2026-08-07T19:38:29.133Z",
       "confirmed": true
     },
     {
@@ -7755,7 +7755,7 @@
         "kind": "maintained-wiki",
         "revision": 376967
       },
-      "fetchedAt": "2026-08-04T09:27:02.874Z",
+      "fetchedAt": "2026-08-07T19:38:29.124Z",
       "confirmed": true
     },
     {
@@ -7809,7 +7809,7 @@
         "kind": "maintained-wiki",
         "revision": 366658
       },
-      "fetchedAt": "2026-08-04T09:27:02.938Z",
+      "fetchedAt": "2026-08-07T19:38:29.298Z",
       "confirmed": true
     },
     {
@@ -7863,7 +7863,7 @@
         "kind": "maintained-wiki",
         "revision": 366659
       },
-      "fetchedAt": "2026-08-04T09:27:02.831Z",
+      "fetchedAt": "2026-08-07T19:38:29.297Z",
       "confirmed": true
     },
     {
@@ -7917,7 +7917,7 @@
         "kind": "maintained-wiki",
         "revision": 350659
       },
-      "fetchedAt": "2026-08-04T09:27:03.042Z",
+      "fetchedAt": "2026-08-07T19:38:30.165Z",
       "confirmed": true
     },
     {
@@ -7971,7 +7971,7 @@
         "kind": "maintained-wiki",
         "revision": 411476
       },
-      "fetchedAt": "2026-08-04T09:27:02.882Z",
+      "fetchedAt": "2026-08-07T19:38:29.323Z",
       "confirmed": true
     },
     {
@@ -8025,7 +8025,7 @@
         "kind": "maintained-wiki",
         "revision": 366657
       },
-      "fetchedAt": "2026-08-04T09:27:02.939Z",
+      "fetchedAt": "2026-08-07T19:38:29.282Z",
       "confirmed": true
     },
     {
@@ -8079,7 +8079,7 @@
         "kind": "maintained-wiki",
         "revision": 366656
       },
-      "fetchedAt": "2026-08-04T09:27:03.038Z",
+      "fetchedAt": "2026-08-07T19:38:29.332Z",
       "confirmed": true
     },
     {
@@ -8133,7 +8133,7 @@
         "kind": "maintained-wiki",
         "revision": 362592
       },
-      "fetchedAt": "2026-08-04T09:27:03.000Z",
+      "fetchedAt": "2026-08-07T19:38:29.413Z",
       "confirmed": true
     },
     {
@@ -8187,7 +8187,7 @@
         "kind": "maintained-wiki",
         "revision": 362593
       },
-      "fetchedAt": "2026-08-04T09:27:03.079Z",
+      "fetchedAt": "2026-08-07T19:38:29.530Z",
       "confirmed": true
     },
     {
@@ -8241,7 +8241,7 @@
         "kind": "maintained-wiki",
         "revision": 375010
       },
-      "fetchedAt": "2026-08-04T09:27:03.104Z",
+      "fetchedAt": "2026-08-07T19:38:29.566Z",
       "confirmed": true
     },
     {
@@ -8295,7 +8295,7 @@
         "kind": "maintained-wiki",
         "revision": 375006
       },
-      "fetchedAt": "2026-08-04T09:27:03.100Z",
+      "fetchedAt": "2026-08-07T19:38:29.795Z",
       "confirmed": true
     },
     {
@@ -8349,7 +8349,7 @@
         "kind": "maintained-wiki",
         "revision": 375702
       },
-      "fetchedAt": "2026-08-04T09:27:03.176Z",
+      "fetchedAt": "2026-08-07T19:38:29.580Z",
       "confirmed": true
     },
     {
@@ -8403,7 +8403,7 @@
         "kind": "maintained-wiki",
         "revision": 375706
       },
-      "fetchedAt": "2026-08-04T09:27:03.098Z",
+      "fetchedAt": "2026-08-07T19:38:29.542Z",
       "confirmed": true
     },
     {
@@ -8457,7 +8457,7 @@
         "kind": "maintained-wiki",
         "revision": 375268
       },
-      "fetchedAt": "2026-08-04T09:27:03.121Z",
+      "fetchedAt": "2026-08-07T19:38:29.554Z",
       "confirmed": true
     },
     {
@@ -8511,7 +8511,7 @@
         "kind": "maintained-wiki",
         "revision": 375271
       },
-      "fetchedAt": "2026-08-04T09:27:03.274Z",
+      "fetchedAt": "2026-08-07T19:38:29.671Z",
       "confirmed": true
     },
     {
@@ -8565,7 +8565,7 @@
         "kind": "maintained-wiki",
         "revision": 375792
       },
-      "fetchedAt": "2026-08-04T09:27:03.168Z",
+      "fetchedAt": "2026-08-07T19:38:29.844Z",
       "confirmed": true
     },
     {
@@ -8619,7 +8619,7 @@
         "kind": "maintained-wiki",
         "revision": 375795
       },
-      "fetchedAt": "2026-08-04T09:27:03.208Z",
+      "fetchedAt": "2026-08-07T19:38:29.707Z",
       "confirmed": true
     },
     {
@@ -8684,7 +8684,7 @@
         "kind": "maintained-wiki",
         "revision": 410956
       },
-      "fetchedAt": "2026-08-04T09:27:03.367Z",
+      "fetchedAt": "2026-08-07T19:38:29.801Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://www.hoyolab.com/article/41938646",
@@ -8742,7 +8742,7 @@
         "kind": "maintained-wiki",
         "revision": 441691
       },
-      "fetchedAt": "2026-08-04T09:27:03.253Z",
+      "fetchedAt": "2026-08-07T19:38:29.792Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://www.hoyolab.com/article/41938646",
@@ -8806,7 +8806,7 @@
         "kind": "maintained-wiki",
         "revision": 391711
       },
-      "fetchedAt": "2026-08-04T09:27:03.291Z",
+      "fetchedAt": "2026-08-07T19:38:29.807Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://www.hoyolab.com/article/41938646",
@@ -8876,7 +8876,7 @@
         "kind": "maintained-wiki",
         "revision": 391715
       },
-      "fetchedAt": "2026-08-04T09:27:03.288Z",
+      "fetchedAt": "2026-08-07T19:38:29.849Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://www.hoyolab.com/article/41938646",
@@ -8946,7 +8946,7 @@
         "kind": "maintained-wiki",
         "revision": 410955
       },
-      "fetchedAt": "2026-08-04T09:27:03.396Z",
+      "fetchedAt": "2026-08-07T19:38:29.916Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://www.hoyolab.com/article/42482837",
@@ -9022,7 +9022,7 @@
         "kind": "maintained-wiki",
         "revision": 398673
       },
-      "fetchedAt": "2026-08-04T09:27:03.466Z",
+      "fetchedAt": "2026-08-07T19:38:30.013Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://www.hoyolab.com/article/42482837",
@@ -9081,7 +9081,7 @@
         "kind": "maintained-wiki",
         "revision": 410960
       },
-      "fetchedAt": "2026-08-04T09:27:03.476Z",
+      "fetchedAt": "2026-08-07T19:38:29.998Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://www.hoyolab.com/article/42790647",
@@ -9140,7 +9140,7 @@
         "kind": "maintained-wiki",
         "revision": 410959
       },
-      "fetchedAt": "2026-08-04T09:27:03.472Z",
+      "fetchedAt": "2026-08-07T19:38:30.019Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://www.hoyolab.com/article/42790647",
@@ -9199,7 +9199,7 @@
         "kind": "maintained-wiki",
         "revision": 388833
       },
-      "fetchedAt": "2026-08-04T09:27:03.399Z",
+      "fetchedAt": "2026-08-07T19:38:30.073Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://www.hoyolab.com/article/42790647",
@@ -9258,7 +9258,7 @@
         "kind": "maintained-wiki",
         "revision": 388834
       },
-      "fetchedAt": "2026-08-04T09:27:03.514Z",
+      "fetchedAt": "2026-08-07T19:38:30.044Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://www.hoyolab.com/article/42790647",
@@ -9329,7 +9329,7 @@
         "kind": "maintained-wiki",
         "revision": 410964
       },
-      "fetchedAt": "2026-08-04T09:27:03.567Z",
+      "fetchedAt": "2026-08-07T19:38:30.082Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://www.hoyolab.com/article/43110986",
@@ -9400,7 +9400,7 @@
         "kind": "maintained-wiki",
         "revision": 410963
       },
-      "fetchedAt": "2026-08-04T09:27:03.475Z",
+      "fetchedAt": "2026-08-07T19:38:30.148Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://www.hoyolab.com/article/43110986",
@@ -9471,7 +9471,7 @@
         "kind": "maintained-wiki",
         "revision": 411478
       },
-      "fetchedAt": "2026-08-04T09:27:03.531Z",
+      "fetchedAt": "2026-08-07T19:38:30.258Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://www.hoyolab.com/article/43110986",
@@ -9542,7 +9542,7 @@
         "kind": "maintained-wiki",
         "revision": 411477
       },
-      "fetchedAt": "2026-08-04T09:27:03.517Z",
+      "fetchedAt": "2026-08-07T19:38:30.240Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://www.hoyolab.com/article/43110986",
@@ -9613,7 +9613,7 @@
         "kind": "maintained-wiki",
         "revision": 411475
       },
-      "fetchedAt": "2026-08-04T09:27:03.685Z",
+      "fetchedAt": "2026-08-07T19:38:30.248Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://www.hoyolab.com/article/43491055",
@@ -9684,7 +9684,7 @@
         "kind": "maintained-wiki",
         "revision": 410967
       },
-      "fetchedAt": "2026-08-04T09:27:03.580Z",
+      "fetchedAt": "2026-08-07T19:38:30.271Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://www.hoyolab.com/article/43491055",
@@ -9755,7 +9755,7 @@
         "kind": "maintained-wiki",
         "revision": 399203
       },
-      "fetchedAt": "2026-08-04T09:27:03.765Z",
+      "fetchedAt": "2026-08-07T19:38:30.299Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://www.hoyolab.com/article/43491055",
@@ -9826,7 +9826,7 @@
         "kind": "maintained-wiki",
         "revision": 399204
       },
-      "fetchedAt": "2026-08-04T09:27:03.678Z",
+      "fetchedAt": "2026-08-07T19:38:30.290Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://www.hoyolab.com/article/43491055",
@@ -9884,7 +9884,7 @@
         "kind": "maintained-wiki",
         "revision": 441688
       },
-      "fetchedAt": "2026-08-04T09:27:03.754Z",
+      "fetchedAt": "2026-08-07T19:38:30.369Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://www.hoyolab.com/article/43738489",
@@ -9954,7 +9954,7 @@
         "kind": "maintained-wiki",
         "revision": 410969
       },
-      "fetchedAt": "2026-08-04T09:27:03.741Z",
+      "fetchedAt": "2026-08-07T19:38:30.363Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://www.hoyolab.com/article/43738489",
@@ -10012,7 +10012,7 @@
         "kind": "maintained-wiki",
         "revision": 401306
       },
-      "fetchedAt": "2026-08-04T09:27:03.660Z",
+      "fetchedAt": "2026-08-07T19:38:30.548Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://www.hoyolab.com/article/43738489",
@@ -10082,7 +10082,7 @@
         "kind": "maintained-wiki",
         "revision": 406611
       },
-      "fetchedAt": "2026-08-04T09:27:03.768Z",
+      "fetchedAt": "2026-08-07T19:38:30.471Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://www.hoyolab.com/article/43738489",
@@ -10162,7 +10162,7 @@
         "kind": "maintained-wiki",
         "revision": 430081
       },
-      "fetchedAt": "2026-08-04T09:27:03.781Z",
+      "fetchedAt": "2026-08-07T19:38:30.491Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://www.hoyolab.com/article/44017918",
@@ -10232,7 +10232,7 @@
         "kind": "maintained-wiki",
         "revision": 411690
       },
-      "fetchedAt": "2026-08-04T09:27:03.820Z",
+      "fetchedAt": "2026-08-07T19:38:30.483Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://www.hoyolab.com/article/44017918",
@@ -10302,7 +10302,7 @@
         "kind": "maintained-wiki",
         "revision": 410935
       },
-      "fetchedAt": "2026-08-04T09:27:03.878Z",
+      "fetchedAt": "2026-08-07T19:38:30.558Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://www.hoyolab.com/article/44017918",
@@ -10384,7 +10384,7 @@
         "kind": "maintained-wiki",
         "revision": 430084
       },
-      "fetchedAt": "2026-08-04T09:27:03.824Z",
+      "fetchedAt": "2026-08-07T19:38:30.475Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://www.hoyolab.com/article/44017918",
@@ -10442,7 +10442,7 @@
         "kind": "maintained-wiki",
         "revision": 430088
       },
-      "fetchedAt": "2026-08-04T09:27:05.117Z",
+      "fetchedAt": "2026-08-07T19:38:30.611Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://www.hoyolab.com/article/44312026",
@@ -10500,7 +10500,7 @@
         "kind": "maintained-wiki",
         "revision": 429841
       },
-      "fetchedAt": "2026-08-04T09:27:03.982Z",
+      "fetchedAt": "2026-08-07T19:38:30.561Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://www.hoyolab.com/article/44312026",
@@ -10558,7 +10558,7 @@
         "kind": "maintained-wiki",
         "revision": 430090
       },
-      "fetchedAt": "2026-08-04T09:27:03.886Z",
+      "fetchedAt": "2026-08-07T19:38:30.714Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://www.hoyolab.com/article/44312026",
@@ -10616,7 +10616,7 @@
         "kind": "maintained-wiki",
         "revision": 429843
       },
-      "fetchedAt": "2026-08-04T09:27:04.015Z",
+      "fetchedAt": "2026-08-07T19:38:30.771Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://www.hoyolab.com/article/44312026",
@@ -10686,7 +10686,7 @@
         "kind": "maintained-wiki",
         "revision": 430089
       },
-      "fetchedAt": "2026-08-04T09:27:04.025Z",
+      "fetchedAt": "2026-08-07T19:38:30.708Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://www.hoyolab.com/article/44527129",
@@ -10756,7 +10756,7 @@
         "kind": "maintained-wiki",
         "revision": 430091
       },
-      "fetchedAt": "2026-08-04T09:27:04.035Z",
+      "fetchedAt": "2026-08-07T19:38:30.727Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://www.hoyolab.com/article/44527129",
@@ -10815,7 +10815,7 @@
         "kind": "maintained-wiki",
         "revision": 441929
       },
-      "fetchedAt": "2026-08-04T09:27:04.103Z",
+      "fetchedAt": "2026-08-07T19:38:30.770Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://www.hoyolab.com/article/44733121",
@@ -10886,7 +10886,7 @@
         "kind": "maintained-wiki",
         "revision": 441913
       },
-      "fetchedAt": "2026-08-04T09:27:04.052Z",
+      "fetchedAt": "2026-08-07T19:38:30.739Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://www.hoyolab.com/article/44733121",
@@ -10945,7 +10945,7 @@
         "kind": "maintained-wiki",
         "revision": 433150
       },
-      "fetchedAt": "2026-08-04T09:27:04.045Z",
+      "fetchedAt": "2026-08-07T19:38:30.707Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://www.hoyolab.com/article/44733121",
@@ -11016,7 +11016,7 @@
         "kind": "maintained-wiki",
         "revision": 441903
       },
-      "fetchedAt": "2026-08-04T09:27:04.134Z",
+      "fetchedAt": "2026-08-07T19:38:30.845Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://www.hoyolab.com/article/44733121",
@@ -11099,7 +11099,7 @@
         "kind": "maintained-wiki",
         "revision": 449855
       },
-      "fetchedAt": "2026-08-04T09:27:04.217Z",
+      "fetchedAt": "2026-08-07T19:38:30.897Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://www.hoyolab.com/article/44999600",
@@ -11170,7 +11170,7 @@
         "kind": "maintained-wiki",
         "revision": 449058
       },
-      "fetchedAt": "2026-08-04T09:27:04.277Z",
+      "fetchedAt": "2026-08-07T19:38:30.927Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://www.hoyolab.com/article/44999600",
@@ -11241,7 +11241,7 @@
         "kind": "maintained-wiki",
         "revision": 449059
       },
-      "fetchedAt": "2026-08-04T09:27:04.269Z",
+      "fetchedAt": "2026-08-07T19:38:30.929Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://www.hoyolab.com/article/44999600",
@@ -11324,7 +11324,7 @@
         "kind": "maintained-wiki",
         "revision": 441901
       },
-      "fetchedAt": "2026-08-04T09:27:04.268Z",
+      "fetchedAt": "2026-08-07T19:38:30.938Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://www.hoyolab.com/article/44999600",
@@ -11383,7 +11383,7 @@
         "kind": "maintained-wiki",
         "revision": 449010
       },
-      "fetchedAt": "2026-08-04T09:27:04.237Z",
+      "fetchedAt": "2026-08-07T19:38:30.960Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://www.hoyolab.com/article/45275874",
@@ -11442,7 +11442,7 @@
         "kind": "maintained-wiki",
         "revision": 449009
       },
-      "fetchedAt": "2026-08-04T09:27:04.360Z",
+      "fetchedAt": "2026-08-07T19:38:31.000Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://www.hoyolab.com/article/45275874",
@@ -11501,7 +11501,7 @@
         "kind": "maintained-wiki",
         "revision": 449013
       },
-      "fetchedAt": "2026-08-04T09:27:04.436Z",
+      "fetchedAt": "2026-08-07T19:38:31.021Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://www.hoyolab.com/article/45275874",
@@ -11560,7 +11560,7 @@
         "kind": "maintained-wiki",
         "revision": 449014
       },
-      "fetchedAt": "2026-08-04T09:27:04.477Z",
+      "fetchedAt": "2026-08-07T19:38:31.006Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://www.hoyolab.com/article/45275874",
@@ -11631,7 +11631,7 @@
         "kind": "maintained-wiki",
         "revision": 449875
       },
-      "fetchedAt": "2026-08-04T09:27:04.367Z",
+      "fetchedAt": "2026-08-07T19:38:31.097Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://www.hoyolab.com/article/45571163",
@@ -11702,7 +11702,7 @@
         "kind": "maintained-wiki",
         "revision": 449012
       },
-      "fetchedAt": "2026-08-04T09:27:04.445Z",
+      "fetchedAt": "2026-08-07T19:38:31.080Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://www.hoyolab.com/article/45571163",
@@ -11779,7 +11779,7 @@
         "kind": "maintained-wiki",
         "revision": 449015
       },
-      "fetchedAt": "2026-08-04T09:27:04.517Z",
+      "fetchedAt": "2026-08-07T19:38:31.176Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://www.hoyolab.com/article/45571163",
@@ -11850,7 +11850,7 @@
         "kind": "maintained-wiki",
         "revision": 449016
       },
-      "fetchedAt": "2026-08-04T09:27:04.496Z",
+      "fetchedAt": "2026-08-07T19:38:31.142Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://www.hoyolab.com/article/45571163",
@@ -11908,7 +11908,7 @@
         "kind": "maintained-wiki",
         "revision": 456005
       },
-      "fetchedAt": "2026-08-04T09:27:04.583Z",
+      "fetchedAt": "2026-08-07T19:38:31.194Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://www.hoyolab.com/article/45842578",
@@ -11978,7 +11978,7 @@
         "kind": "maintained-wiki",
         "revision": 456511
       },
-      "fetchedAt": "2026-08-04T09:27:04.618Z",
+      "fetchedAt": "2026-08-07T19:38:31.203Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://www.hoyolab.com/article/45842578",
@@ -12036,7 +12036,7 @@
         "kind": "maintained-wiki",
         "revision": 453828
       },
-      "fetchedAt": "2026-08-04T09:27:04.602Z",
+      "fetchedAt": "2026-08-07T19:38:31.208Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://www.hoyolab.com/article/45842578",
@@ -12106,7 +12106,7 @@
         "kind": "maintained-wiki",
         "revision": 456512
       },
-      "fetchedAt": "2026-08-04T09:27:04.594Z",
+      "fetchedAt": "2026-08-07T19:38:31.218Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://www.hoyolab.com/article/45842578",
@@ -12143,7 +12143,7 @@
         "kind": "maintained-wiki",
         "revision": 457622
       },
-      "fetchedAt": "2026-08-04T09:27:04.648Z",
+      "fetchedAt": "2026-08-07T19:38:31.340Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://www.hoyolab.com/article/45712242",
@@ -12180,7 +12180,7 @@
         "kind": "maintained-wiki",
         "revision": 457624
       },
-      "fetchedAt": "2026-08-04T09:27:04.737Z",
+      "fetchedAt": "2026-08-07T19:38:31.303Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://www.hoyolab.com/article/45712242",
@@ -12217,7 +12217,7 @@
         "kind": "maintained-wiki",
         "revision": 456659
       },
-      "fetchedAt": "2026-08-04T09:27:04.680Z",
+      "fetchedAt": "2026-08-07T19:38:31.302Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://www.hoyolab.com/article/45712242",
@@ -12254,7 +12254,7 @@
         "kind": "maintained-wiki",
         "revision": 456658
       },
-      "fetchedAt": "2026-08-04T09:27:04.795Z",
+      "fetchedAt": "2026-08-07T19:38:31.475Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://www.hoyolab.com/article/45712242",
@@ -12334,9 +12334,9 @@
       "source": {
         "url": "https://honkai-star-rail.fandom.com/wiki/Indelible_Coterie/2026-08-05",
         "kind": "maintained-wiki",
-        "revision": 458880
+        "revision": 459124
       },
-      "fetchedAt": "2026-08-04T09:27:04.905Z",
+      "fetchedAt": "2026-08-07T19:38:31.407Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://www.hoyolab.com/article/46135086",
@@ -12416,9 +12416,9 @@
       "source": {
         "url": "https://honkai-star-rail.fandom.com/wiki/Coalesced_Truths/2026-08-05",
         "kind": "maintained-wiki",
-        "revision": 458881
+        "revision": 459139
       },
-      "fetchedAt": "2026-08-04T09:27:04.863Z",
+      "fetchedAt": "2026-08-07T19:38:31.439Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://www.hoyolab.com/article/46135086",

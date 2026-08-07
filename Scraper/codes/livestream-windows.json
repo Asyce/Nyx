@@ -3,11 +3,14 @@
     {
       "game": "wuwa",
       "startsAt": "2026-08-04T21:00:16Z",
-      "endsAt": "2026-08-08T09:00:16Z",
+      "endsAt": "2026-08-10T17:56:21Z",
       "mode": "deep",
       "note": "Insider Channel: Special Program | Unconventional Art",
       "source": "youtube",
-      "sourceUrl": "https://www.youtube.com/shorts/sbhzI7OBO80"
+      "sourceUrls": [
+        "https://www.youtube.com/shorts/sbhzI7OBO80",
+        "https://www.youtube.com/watch?v=URrFKyAoPw4"
+      ]
     }
   ]
 }

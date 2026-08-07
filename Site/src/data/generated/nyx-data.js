@@ -4,15 +4,15 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-08-07T12:26:46.325Z",
+  "generatedAt": "2026-08-07T15:31:44.147Z",
   "codes": {
-    "updated": "2026-08-07T11:46:34.373Z",
+    "updated": "2026-08-07T15:31:23.284Z",
     "maxAgeDays": 28,
     "games": {
       "gi": [
         {
           "code": "2BJ64QRZ7RT8",
-          "reward": "Primogem x 60, Adventurer's Experience x 5",
+          "reward": "60 Primogems and Five Adventurer S Experience",
           "premium": true,
           "premiumCurrency": {
             "name": "Primogems",
@@ -40,7 +40,7 @@ var NYX_DB = {
         },
         {
           "code": "UIVI13C8X156",
-          "reward": "10k mora, ten adventurer's experience, five fine enhancement ore, five jueyun chili chicken, and five stir",
+          "reward": "10k Mora, Ten Adventurer S Experience, Five Fine Enhancement Ore, Five Jueyun Chili Chicken, and Five Stir Fried Fish Noodles",
           "premium": false,
           "premiumCurrency": {
             "name": "Primogems",
@@ -4386,7 +4386,7 @@ var NYX_DB = {
       "codes": [
         {
           "code": "2BJ64QRZ7RT8",
-          "reward": "Primogem x 60, Adventurer's Experience x 5",
+          "reward": "60 Primogems and Five Adventurer S Experience",
           "premium": true,
           "premiumCurrency": {
             "name": "Primogems",
@@ -4414,7 +4414,7 @@ var NYX_DB = {
         },
         {
           "code": "UIVI13C8X156",
-          "reward": "10k mora, ten adventurer's experience, five fine enhancement ore, five jueyun chili chicken, and five stir",
+          "reward": "10k Mora, Ten Adventurer S Experience, Five Fine Enhancement Ore, Five Jueyun Chili Chicken, and Five Stir Fried Fish Noodles",
           "premium": false,
           "premiumCurrency": {
             "name": "Primogems",

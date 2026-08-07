@@ -7,7 +7,7 @@
 (function(){
   window.CM_CFG_BETA = window.CM_CFG_BETA || {};
   window.CM_CFG_BETA["hsr"] = {
-  "version": "4.4.54",
+  "version": "4.4.55",
   "liveVersion": "4.4",
   "newCount": 2,
   "changedCount": 17,
@@ -84,7 +84,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.4.54",
+        "version": "4.4.55",
         "sections": [
           {
             "title": "Skills",
@@ -1805,7 +1805,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.4.54",
+        "version": "4.4.55",
         "sections": [
           {
             "title": "Skills",
@@ -3290,13 +3290,13 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.4.54",
+        "version": "4.4.55",
         "sections": [
           {
             "title": "Skills",
             "entries": [
               {
-                "name": "Torrent, Bullseye Hit",
+                "name": "Dead Center, the Torrent Hits",
                 "type": "Basic ATK",
                 "desc": "Deals Quantum DMG equal to 140% of Aventurine \u2022 Waveflair's ATK to one designated enemy.",
                 "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1513_Normal.webp",
@@ -3344,7 +3344,7 @@
                 ]
               },
               {
-                "name": "Fatal Shot, Boiling Sands",
+                "name": "Kill Shot, the Sands Boil",
                 "type": "Skill",
                 "desc": "Deals Quantum DMG equal to 300% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 4 Punchline and 4 point(s) of \"Fervor.\"",
                 "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1513_BP.webp",
@@ -3480,7 +3480,7 @@
                 ]
               },
               {
-                "name": "Stirring Waves in Still Waters",
+                "name": "Make Waves in Still Waters",
                 "type": "Technique Attack",
                 "desc": "Moves forward rapidly for a set distance, attacking all enemies in contact and blocking all incoming attacks. After entering combat via attacking enemies, Aventurine \u2022 Waveflair deals Quantum DMG equal to 100% of his ATK to all enemies, and gains 2 point(s) of \"Fervor\" and 20 points of \"Certified Banger.\" Technique Points are not consumed if no enemies are hit.",
                 "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1513_Maze.webp"
@@ -3491,7 +3491,7 @@
                 "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
               },
               {
-                "name": "Place Your Bets, Hear the Deep",
+                "name": "Ante Up, the Abyss Answers",
                 "type": "Talent",
                 "desc": "The duration of Aventurine \u2022 Waveflair's \"Certified Banger\" increases by 1 turn. After a teammate uses an attack, Aventurine \u2022 Waveflair gains 1 point(s) of \"Fervor\" and 1 Punchline(s). The max limit for \"Fervor\" is 30 points.\\nWhen \"Fervor\" reaches 10 points, Aventurine \u2022 Waveflair uses \"Cheers! To Summer's Blaze\" 1 time, which takes a fixed 20 Punchline(s) into account. After this use, the next Elation Skill used by this unit in the Aha Instant is enhanced into \"All In! To Summer's Blaze.\"\\nWhile Aventurine \u2022 Waveflair has \"Certified Banger,\" his Skill additionally deals 50% Quantum Elation DMG to all enemies, and his Ultimate additionally deals 90% Quantum Elation DMG to all enemies.",
                 "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1513_Passive.webp",
@@ -3559,7 +3559,7 @@
                 ]
               },
               {
-                "name": "Cheers! To the Blazing Summer",
+                "name": "Cheers! To Summer's Blaze",
                 "type": "Elation Skill",
                 "desc": "Deals 75% Quantum Elation DMG to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing 22.5% Quantum Elation DMG to one random enemy.",
                 "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1513_Elation.webp",
@@ -3627,70 +3627,70 @@
                 ]
               },
               {
-                "name": "All in! To the Blazing Summer",
+                "name": "All In! To Summer's Blaze",
                 "type": "Elation Skill",
-                "desc": "Deals 75% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 22.5% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 22.5% Quantum Elation DMG to one random enemy.",
+                "desc": "Deals 75% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 22.5% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 26.3% Quantum Elation DMG to one random enemy.",
                 "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1513_Elation.webp",
                 "levels": [
                   {
                     "label": "Lv. 1",
-                    "text": "Deals 30% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 9% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 9% Quantum Elation DMG to one random enemy."
+                    "text": "Deals 30% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 9% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 10.5% Quantum Elation DMG to one random enemy."
                   },
                   {
                     "label": "Lv. 2",
-                    "text": "Deals 33% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 9.9% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 9.9% Quantum Elation DMG to one random enemy."
+                    "text": "Deals 33% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 9.9% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 11.6% Quantum Elation DMG to one random enemy."
                   },
                   {
                     "label": "Lv. 3",
-                    "text": "Deals 36% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 10.8% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 10.8% Quantum Elation DMG to one random enemy."
+                    "text": "Deals 36% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 10.8% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 12.6% Quantum Elation DMG to one random enemy."
                   },
                   {
                     "label": "Lv. 4",
-                    "text": "Deals 39% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 11.7% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 11.7% Quantum Elation DMG to one random enemy."
+                    "text": "Deals 39% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 11.7% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 13.7% Quantum Elation DMG to one random enemy."
                   },
                   {
                     "label": "Lv. 5",
-                    "text": "Deals 42% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 12.6% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 12.6% Quantum Elation DMG to one random enemy."
+                    "text": "Deals 42% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 12.6% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 14.7% Quantum Elation DMG to one random enemy."
                   },
                   {
                     "label": "Lv. 6",
-                    "text": "Deals 45% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 13.5% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 13.5% Quantum Elation DMG to one random enemy."
+                    "text": "Deals 45% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 13.5% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 15.8% Quantum Elation DMG to one random enemy."
                   },
                   {
                     "label": "Lv. 7",
-                    "text": "Deals 48.8% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 14.6% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 14.6% Quantum Elation DMG to one random enemy."
+                    "text": "Deals 48.8% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 14.6% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 17.1% Quantum Elation DMG to one random enemy."
                   },
                   {
                     "label": "Lv. 8",
-                    "text": "Deals 52.5% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 15.8% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 15.8% Quantum Elation DMG to one random enemy."
+                    "text": "Deals 52.5% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 15.8% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 18.4% Quantum Elation DMG to one random enemy."
                   },
                   {
                     "label": "Lv. 9",
-                    "text": "Deals 56.3% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 16.9% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 16.9% Quantum Elation DMG to one random enemy."
+                    "text": "Deals 56.3% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 16.9% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 19.7% Quantum Elation DMG to one random enemy."
                   },
                   {
                     "label": "Lv. 10",
-                    "text": "Deals 60% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 18% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 18% Quantum Elation DMG to one random enemy."
+                    "text": "Deals 60% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 18% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 21% Quantum Elation DMG to one random enemy."
                   },
                   {
                     "label": "Lv. 11",
-                    "text": "Deals 63% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 18.9% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 18.9% Quantum Elation DMG to one random enemy."
+                    "text": "Deals 63% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 18.9% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 22.1% Quantum Elation DMG to one random enemy."
                   },
                   {
                     "label": "Lv. 12",
-                    "text": "Deals 66% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 19.8% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 19.8% Quantum Elation DMG to one random enemy."
+                    "text": "Deals 66% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 19.8% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 23.1% Quantum Elation DMG to one random enemy."
                   },
                   {
                     "label": "Lv. 13",
-                    "text": "Deals 69% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 20.7% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 20.7% Quantum Elation DMG to one random enemy."
+                    "text": "Deals 69% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 20.7% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 24.1% Quantum Elation DMG to one random enemy."
                   },
                   {
                     "label": "Lv. 14",
-                    "text": "Deals 72% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 21.6% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 21.6% Quantum Elation DMG to one random enemy."
+                    "text": "Deals 72% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 21.6% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 25.2% Quantum Elation DMG to one random enemy."
                   },
                   {
                     "label": "Lv. 15",
-                    "text": "Deals 75% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 22.5% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 22.5% Quantum Elation DMG to one random enemy."
+                    "text": "Deals 75% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 22.5% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 26.3% Quantum Elation DMG to one random enemy."
                   }
                 ]
               }
@@ -3700,21 +3700,21 @@
             "title": "Major Traces",
             "entries": [
               {
-                "name": "Party of Euphoria",
+                "name": "Party in Perfect Paradise",
                 "type": "Major Trace",
                 "desc": "When SPD is 140 or higher, increases this unit's Elation by 30%. For every 1 SPD exceeded, additionally increases this unit's Elation by 1%. Up to a max of 200 excess SPD can be taken into account for this effect.",
                 "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1513_SkillTree1.webp"
               },
               {
-                "name": "Revel in Surging Waves",
+                "name": "Revel in Raging Tides",
                 "type": "Major Trace",
-                "desc": "At the start of the battle, if there are other Elation characters in the team besides Aventurine \u2022 Waveflair, Aventurine \u2022 Waveflair's Elation increases by 80%.\\nAt the start of the battle, if Aventurine \u2022 Waveflair is the only Elation character in the team, when Aventurine \u2022 Waveflair deals DMG using his Elation Skill, it is considered as launching a Follow-Up ATK. After a teammate uses an attack, Aventurine \u2022 Waveflair gains 2 point(s) of \"Certified Banger\" and 1 Punchline(s), and increases Aha's SPD by 25. The SPD Boost effect lasts until the end of Aha Instant.",
+                "desc": "At the start of the battle, if there are other Elation characters in the team besides Aventurine \u2022 Waveflair, while Aventurine \u2022 Waveflair is on the field, increases all allies' Elation by 20%, with Aventurine \u2022 Waveflair's additionally increases by 80%.\\nAt the start of the battle, if Aventurine \u2022 Waveflair is the only Elation character in the team, when Aventurine \u2022 Waveflair deals DMG using his Elation Skill, it is considered as launching a Follow-Up ATK. After a teammate uses an attack, Aventurine \u2022 Waveflair gains 2 point(s) of \"Certified Banger\" and 1 Punchline(s), and increases Aha's SPD by 25. The SPD Boost effect lasts until the end of Aha Instant.",
                 "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1513_SkillTree2.webp"
               },
               {
-                "name": "Old Dream's Gold Rush",
+                "name": "Sift Through Gilded Dreams",
                 "type": "Major Trace",
-                "desc": "Increases CRIT DMG by 48%. After a teammate uses a Basic ATK, Skill, Follow-Up ATK, or Ultimate, all allies' CRIT DMG increases by 48%, lasting for 3 turn(s), and Aventurine \u2022 Waveflair additionally gains 1 point(s) of \"Fervor.\" This effect can be triggered up to 6 time(s), and the trigger count resets when Aventurine \u2022 Waveflair uses his Skill.",
+                "desc": "Increases CRIT DMG by 48%. After a teammate uses a Basic ATK, Skill, Follow-Up ATK, or Ultimate, all allies' CRIT DMG increases by 48%, lasting for 3 turn(s), and Aventurine \u2022 Waveflair additionally gains 2 point(s) of \"Fervor.\" This effect can be triggered up to 6 time(s), and the trigger count resets when Aventurine \u2022 Waveflair uses his Skill.",
                 "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1513_SkillTree3.webp"
               }
             ]
@@ -3723,39 +3723,39 @@
             "title": "Eidolons",
             "entries": [
               {
-                "name": "Vacation At Stake",
+                "name": "A Holiday on the Line",
                 "type": "Eidolon 1",
                 "desc": "Increases All-Type RES PEN by 24%.\\nTalent is enhanced: When \"Fervor\" reaches 10/20/30 points, immediately uses \"Cheers! To Summer's Blaze.\"",
                 "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1513_Rank1.webp"
               },
               {
-                "name": "Tidal Fluctuations of Leisure",
+                "name": "Idle as the Turning Tide",
                 "type": "Eidolon 2",
                 "desc": "Increases the max limit of \"Fervor\" to 50 points. When \"Fervor\" reaches 40/50 points, also triggers the Talent to use \"Cheers! To Summer's Blaze.\" After using an Elation Skill, additionally grants 4 point(s) of \"Fervor.\"",
                 "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1513_Rank2.webp"
               },
               {
-                "name": "Chilled Afternoon Rendezvous",
+                "name": "A Rendezvous Served Chilled",
                 "type": "Eidolon 3",
                 "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.\\nElation Skill Lv. +1, up to a maximum of Lv. 15.",
                 "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1513_BP.webp"
               },
               {
-                "name": "No Deals with the Sun",
+                "name": "Sunlight Runs No Tab",
                 "type": "Eidolon 4",
-                "desc": "DMG dealt by Aventurine \u2022 Waveflair ignores 18% of the enemy target's DEF.",
+                "desc": "When Aventurine \u2022 Waveflair uses Skill, enables the DMG dealt by all allies to ignore 18% of enemy targets' DEF, lasting for 3 turn(s).",
                 "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1513_Rank4.webp"
               },
               {
-                "name": "Dive into the Jackpot Gale",
+                "name": "Into the Eye of the Jackpot",
                 "type": "Eidolon 5",
                 "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.\\nElation Skill Lv. +1, up to a maximum of Lv. 15.",
                 "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1513_Ultra.webp"
               },
               {
-                "name": "Cashing the Past for a Wild Ride",
+                "name": "The Past in Fast Lane",
                 "type": "Eidolon 6",
-                "desc": "Elation DMG dealt by Aventurine \u2022 Waveflair merrymakes by 25%. After Aventurine \u2022 Waveflair uses his Elation Skill 2 time(s), all subsequent Elation Skills used become \"All in! To the Blazing Summer,\" and when using the Elation Skill \"All in! To the Blazing Summer\" to additionally deal DMG outside of Aha Instant, it no longer consumes \"Fervor.\"",
+                "desc": "Elation DMG dealt by Aventurine \u2022 Waveflair merrymakes by 25%. After Aventurine \u2022 Waveflair uses his Elation Skill 2 time(s), all subsequent Elation Skills used become \"All In! To Summer's Blaze,\" and when using the Elation Skill \"All In! To Summer's Blaze\" to additionally deal DMG outside of Aha Instant, it no longer consumes \"Fervor.\"",
                 "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1513_Rank6.webp"
               }
             ]
@@ -4771,7 +4771,7 @@
           "hp": 163.68,
           "atk": 81.84,
           "def": 66,
-          "speed": 98,
+          "speed": 95,
           "critRate": 0.05,
           "critDmg": 0.5
         },
@@ -4780,7 +4780,7 @@
           "hp": 1203.05,
           "atk": 601.52,
           "def": 485.1,
-          "speed": 98,
+          "speed": 95,
           "critRate": 0.05,
           "critDmg": 0.5
         }
@@ -4795,13 +4795,13 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.4.54",
+        "version": "4.4.55",
         "sections": [
           {
             "title": "Skills",
             "entries": [
               {
-                "name": "Soundwaves, Tuning the Ocean Breeze",
+                "name": "The Sea Sings in My Key",
                 "type": "Basic ATK",
                 "desc": "Deals Wind DMG equal to 70% of Robin \u2022 Summeretto's Max HP to one enemy.",
                 "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_Normal.webp",
@@ -4849,7 +4849,7 @@
                 ]
               },
               {
-                "name": "Midsummer Is the Musician of the Soul",
+                "name": "Summer Strums the Soul",
                 "type": "Skill",
                 "desc": "Summons the memosprite \"Summer Songbirds\" Bessie. If any among the \"Summer Songbirds\" is already on the field, restores its HP by an amount equal to 125% of \"Summer Songbirds's\" Max HP, and gains 6 Vibes.",
                 "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_BP.webp",
@@ -4917,7 +4917,7 @@
                 ]
               },
               {
-                "name": "Leap into the Ocean Blue Rhapsody",
+                "name": "Ascend That Rhapsody in Blue",
                 "type": "Ultimate",
                 "desc": "Advances the action of one designated ally unit (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 24% of their Max Energy, and then, grants them the \"Special Guest\" effect. When the character with \"Special Guest\" and their summon attacks, they additionally grant Robin 2 point(s) of Vibes and cannot advance the actions of other friendly targets. This effect lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn.",
                 "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_Ultra.webp",
@@ -4985,7 +4985,7 @@
                 ]
               },
               {
-                "name": "We Form A Melody",
+                "name": "We Are the Melody",
                 "type": "Technique",
                 "desc": "After using Technique, at the start of the next combat, action advances by 20%, immediately gains 6 Vibes, and grants all allies a 30% DMG Boost for 2 turn(s).",
                 "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_Maze.webp"
@@ -4996,7 +4996,7 @@
                 "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
               },
               {
-                "name": "Cruising the Boundless Skies",
+                "name": "Wings Heed No Borders",
                 "type": "Talent",
                 "desc": "The memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when providing healing effect or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains 1 Vibes, up to a max of 50. While \"Summer Songbirds\" Bessie is on the field, if Robin's Vibes is 6 or more, immediately summons the \"Summer Songbird\" Drummie, and if Vibes is 12 or more, immediately summons the \"Summer Songbird\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs that Robin \u2022 Summeretto and the \"Summer Songbirds\" are under, enter the \"Fever\" state and deploy a Zone. When ally targets deal DMG inside the Zone, they ignore 17.5% plus Vibes \u00d7 0.5% of enemy targets' DEF.\\nWhile in the \"Fever\" state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs, and Robin \u2022 Summeretto will not enter her turns until the \"Fever\" state ends.",
                 "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_Passive.webp",
@@ -5069,7 +5069,7 @@
             "title": "Major Traces",
             "entries": [
               {
-                "name": "Deviated Chord",
+                "name": "Deviated Chords",
                 "type": "Major Trace",
                 "desc": "When an ally target causes Robin \u2022 Summeretto to gain Vibes, if their ATK is higher than Robin \u2022 Summeretto's, increases that target's ATK by an amount equal to (16% + Vibes \u00d7 0.4%) of Robin \u2022 Summeretto's Max HP. Otherwise, increases that target's CRIT DMG by 40% + Vibes \u00d7 1.5%. Lasts for 2 turn(s).",
                 "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_SkillTree1.webp"
@@ -5081,7 +5081,7 @@
                 "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_SkillTree2.webp"
               },
               {
-                "name": "Reconstructed Harmony",
+                "name": "Rebuilt Harmony",
                 "type": "Major Trace",
                 "desc": "Increases the CRIT Rate of Robin \u2022 Summeretto and \"Summer Songbirds\" by 50%.",
                 "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_SkillTree3.webp"
@@ -5092,39 +5092,39 @@
             "title": "Eidolons",
             "entries": [
               {
-                "name": "Stray Birds of Summer",
+                "name": "Stray Bird of Summer",
                 "type": "Eidolon 1",
                 "desc": "\"Summer Songbirds\" records 100% of the non-True DMG dealt by ally targets. When using the Memosprite Skill, it additionally deals True DMG equal to 11% of the total recorded DMG plus current Vibes points \u00d7 0.1% to the enemy target with the highest HP, then clears 50% of the recorded value.",
                 "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_Rank1.webp"
               },
               {
-                "name": "Heart Like Still Waters",
+                "name": "A Heart of Still Water",
                 "type": "Eidolon 2",
-                "desc": "Increases All-Type RES PEN of ally targets by 20%. Robin \u2022 Summeretto's Max Vibes increases by 20. The first time an ally target uses an ability that causes Robin \u2022 Summeretto to gain Vibes within any target's turn, she gains an additional 2 points.",
+                "desc": "Increases All-Type RES PEN of ally targets by 18%. Robin \u2022 Summeretto's Max Vibes increases by 20. The first time an ally target uses an ability that causes Robin \u2022 Summeretto to gain Vibes within any target's turn, she gains an additional 2 points.",
                 "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_Rank2.webp"
               },
               {
-                "name": "Gleanings of Lost Echoes",
+                "name": "Echoes Left Along the Way",
                 "type": "Eidolon 3",
                 "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.\\nMemosprite Talent Lv. +1, up to a maximum of Lv. 10.",
                 "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_BP.webp"
               },
               {
-                "name": "Hearing the Chord Variations",
+                "name": "Her Variation on the Theme",
                 "type": "Eidolon 4",
                 "desc": "Upon entering the \"Fever\" state, immediately gains 12 point(s) of Vibes, and the SPD of \"Summer Songbirds\" increases by 20% plus current Vibes \u00d7 0.5%.",
                 "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_Rank4.webp"
               },
               {
-                "name": "Together, Toward a New Dawn",
+                "name": "To Chase the Dawn Anew",
                 "type": "Eidolon 5",
                 "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.\\nMemosprite Skill Lv. +1, up to a maximum of Lv. 10.",
                 "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_Ultra.webp"
               },
               {
-                "name": "To Sing an Aria Untitled",
+                "name": "A Song Yet Unnamed",
                 "type": "Eidolon 6",
-                "desc": "Increases the All-Type RES PEN of ally targets by 100%. Robin \u2022 Summeretto's Ultimate can be stored up to 2 times. When entering the \"Fever\" state for the first time or at the start of a \"Fever\" countdown turn in this battle, immediately regenerates 140 Energy.",
+                "desc": "Increases the Memosprite Skill's DMG multiplier by 100% of the original multiplier. While in the \"Fever\" state, Robin \u2022 Summeretto's Ultimate can be stored up to 2 times. After entering the \"Fever\" state for the first time or at the start of a \"Fever\" countdown turn in this battle, regenerates a fixed amount of 140 Energy.",
                 "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_Rank6.webp"
               }
             ]
@@ -6172,7 +6172,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.4.54",
+        "version": "4.4.55",
         "sections": [
           {
             "title": "Skills",
@@ -7621,7 +7621,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.4.54",
+        "version": "4.4.55",
         "sections": [
           {
             "title": "Skills",
@@ -9065,7 +9065,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.4.54",
+        "version": "4.4.55",
         "sections": [
           {
             "title": "Skills",
@@ -10445,7 +10445,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.4.54",
+        "version": "4.4.55",
         "sections": [
           {
             "title": "Skills",
@@ -11824,7 +11824,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.4.54",
+        "version": "4.4.55",
         "sections": [
           {
             "title": "Skills",
@@ -13204,7 +13204,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.4.54",
+        "version": "4.4.55",
         "sections": [
           {
             "title": "Skills",
@@ -14645,7 +14645,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.4.54",
+        "version": "4.4.55",
         "sections": [
           {
             "title": "Skills",
@@ -16021,7 +16021,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.4.54",
+        "version": "4.4.55",
         "sections": [
           {
             "title": "Skills",
@@ -17403,7 +17403,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.4.54",
+        "version": "4.4.55",
         "sections": [
           {
             "title": "Skills",
@@ -18790,7 +18790,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.4.54",
+        "version": "4.4.55",
         "sections": [
           {
             "title": "Skills",
@@ -20411,7 +20411,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.4.54",
+        "version": "4.4.55",
         "sections": [
           {
             "title": "Skills",
@@ -21930,7 +21930,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.4.54",
+        "version": "4.4.55",
         "sections": [
           {
             "title": "Skills",
@@ -23433,7 +23433,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.4.54",
+        "version": "4.4.55",
         "sections": [
           {
             "title": "Skills",
@@ -24818,7 +24818,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.4.54",
+        "version": "4.4.55",
         "sections": [
           {
             "title": "Skills",
@@ -26184,7 +26184,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.4.54",
+        "version": "4.4.55",
         "sections": [
           {
             "title": "Skills",

@@ -129161,7 +129161,8 @@
       "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Mualani_Circle.webp",
       "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Mualani.webp",
       "birthdayArtPool": [
-        "../../Database/GenshinWiki/birthday-art/mualani/01-Mualani Birthday 2025.jpg"
+        "../../Database/GenshinWiki/birthday-art/mualani/01-Mualani Birthday 2025.jpg",
+        "../../Database/GenshinWiki/birthday-art/mualani/02-Mualani Birthday 2026.png"
       ],
       "namecard": "../../Database/GenshinWiki/namecards/Mualani.png",
       "skillIcons": [

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "0b6736dfad2691c637923eedfca65f96ad06f13993e5e0ad699594bc9405cb48",
-  "generatedAt": "2026-08-07T07:00:57.170Z",
+  "revision": "fe9071bba8eb738b713efe15eea6632c57ddcfab020ca7014b726b27dc72c9da",
+  "generatedAt": "2026-08-07T07:06:07.596Z",
   "health": {
     "status": "ok",
     "games": {
@@ -43,7 +43,7 @@
         "remaining": {
           "startsAt": "2026-07-21T17:00:00.000Z",
           "endsAt": "2026-08-11T13:59:00.000Z",
-          "durationSeconds": 370682
+          "durationSeconds": 370372
         },
         "characters": [
           {
@@ -360,6 +360,18 @@
           "currency": "Primogems"
         },
         {
+          "code": "Everwinter",
+          "added": "2026-07-31",
+          "amount": 100,
+          "currency": "Primogems"
+        },
+        {
+          "code": "OntoSnezhnaya",
+          "added": "2026-07-31",
+          "amount": 100,
+          "currency": "Primogems"
+        },
+        {
           "code": "Odettte0812",
           "added": "2026-07-31",
           "amount": 100,
@@ -377,7 +389,7 @@
         "remaining": {
           "startsAt": "2026-08-05T11:00:00.000Z",
           "endsAt": "2026-08-25T14:00:00.000Z",
-          "durationSeconds": 1580342
+          "durationSeconds": 1580032
         },
         "characters": [
           {
@@ -751,7 +763,7 @@
         "remaining": {
           "startsAt": "2026-07-29T03:00:00.000Z",
           "endsAt": "2026-08-19T03:59:59.000Z",
-          "durationSeconds": 1025941
+          "durationSeconds": 1025631
         },
         "characters": [
           {
@@ -1085,7 +1097,7 @@
         "remaining": {
           "startsAt": "2026-07-30T09:00:00.000Z",
           "endsAt": "2026-08-19T10:59:00.000Z",
-          "durationSeconds": 1051082
+          "durationSeconds": 1050772
         },
         "characters": [
           {
@@ -1400,7 +1412,7 @@
         "remaining": {
           "startsAt": "2026-07-16T04:00:00.000Z",
           "endsAt": "2026-08-09T03:59:59.000Z",
-          "durationSeconds": 161941
+          "durationSeconds": 161631
         },
         "characters": [
           {

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "game": "hsr",
-  "generatedAt": "2026-08-06T09:38:51.375Z",
+  "generatedAt": "2026-08-07T08:04:06.206Z",
   "count": 625,
   "entries": [
     {
@@ -2570,7 +2570,7 @@
     {
       "id": "doomsday-blog",
       "name": "Doomsday Blog",
-      "icon": "icons/6abf8f5671277ab1f407b52322a960e8241798b49184fa53c41dd692f3ca8eba.webp",
+      "icon": "icons/8ce8a1182b4a8821c3eab5eb80a1359df47d24b4b9504647c9728f70370afde0.webp",
       "file": "doomsday-blog.json",
       "volumeCount": 1,
       "volumeLabels": [

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "game": "gi",
-  "generatedAt": "2026-08-06T09:38:51.375Z",
+  "generatedAt": "2026-08-07T08:04:06.206Z",
   "count": 118,
   "entries": [
     {
@@ -357,7 +357,7 @@
     {
       "id": "dreams-of-the-ancient-capital",
       "name": "Dreams of the Ancient Capital",
-      "icon": "icons/7b0a9797102e13ed1d8b3d665a8683e29dcb5d5084e67b29e73f089548284d25.webp",
+      "icon": "icons/8df79f2dabee55f542ff93e04118e540b1052d955ef79b99f272cd39ee86dde0.webp",
       "file": "dreams-of-the-ancient-capital.json",
       "volumeCount": 1,
       "volumeLabels": [

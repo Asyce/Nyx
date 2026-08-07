@@ -186,24 +186,14 @@
   },
   {
     "name": "Caesar",
-    "pageTitle": "Caesar King",
+    "pageTitle": "Caesar",
     "aliases": [
       "Caesar",
       "1071"
     ],
-    "releaseDate": "2024-09-25",
-    "releasePatch": "1.2",
-    "voiceActors": {
-      "english": "imdb:nm3158889|Jennifer Sun Bell",
-      "chinese": "https://zh.moegirl.org.cn/zh-tw/苏子芜|Su Ziwu (苏子芜)",
-      "japanese": "Rina Satō|Satō Rina (佐藤 利奈)",
-      "korean": "ko: 김보민 (성우)|Kim Bo-min (김보민)"
-    },
-    "categories": [
-      "Category:Introduced in Version 1.0",
-      "Category:Released in Version 1.2",
-      "Category:Version"
-    ]
+    "releaseDate": null,
+    "releasePatch": null,
+    "categories": []
   },
   {
     "name": "Cissia",
@@ -572,14 +562,17 @@
   },
   {
     "name": "Nekomata",
-    "pageTitle": "Tutorial/(Character Intro) Nekomata",
+    "pageTitle": "Agent Focus: Nekomata",
     "aliases": [
       "Nekomata",
       "1021"
     ],
     "releaseDate": null,
-    "releasePatch": null,
-    "categories": []
+    "releasePatch": "1.0",
+    "categories": [
+      "Category:Released in Version 1.0",
+      "Category:Version"
+    ]
   },
   {
     "name": "Nicole",

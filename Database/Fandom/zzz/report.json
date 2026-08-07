@@ -2,14 +2,14 @@
   "game": "zzz",
   "label": "Zenless Zone Zero",
   "source": "https://zenless-zone-zero.fandom.com/api.php",
-  "scrapedAt": "2026-08-06T09:34:29.860Z",
+  "scrapedAt": "2026-08-07T08:01:09.525Z",
   "total": 58,
   "saved": 58,
-  "withReleaseDate": 55,
+  "withReleaseDate": 54,
   "withReleasePatch": 57,
-  "withVoiceActors": 54,
+  "withVoiceActors": 53,
   "missing": [],
   "thin": [
-    "Nekomata"
+    "Caesar"
   ]
 }

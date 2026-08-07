@@ -1,6 +1,6 @@
 {
   "game": "ww",
-  "updatedAt": "2026-08-06T07:59:51.331Z",
+  "updatedAt": "2026-08-07T06:42:32.042Z",
   "hashes": {
     "records": {
       "characters:aalto": "f9e7fd9f276741ac049d619543148bf11706968379e55b2af8663f98d577233b",
@@ -11,7 +11,7 @@
       "characters:buling": "5282e3b91413758e7af4dad50410000d213c3667e573121aaec78f46c8711775",
       "characters:calcharo": "73b23a43e3d0c55445549852514f61a8db1354fbbcb603825f0192790e1d05cf",
       "characters:camellya": "7a1f6cb56aec84f136e350210df4bcaa6424c3d493f5aeb68fd4bf4b66da7a1f",
-      "characters:cantarella": "69af642c6dbdf856cd897940b5351316f678c632e3ff71d679739339c913fe6f",
+      "characters:cantarella": "3ef293cb58117bcb96f337beb2a3df0398006d28a5dbcb7f4c47058807271c21",
       "characters:carlotta": "75fc1d8d0c2a2bb3cadc0750b04d4340c78716531c1efde64419d4f1b7ab0bd5",
       "characters:cartethyia": "4f3e444b5e3f696e88d13398b3dc7b4a1b04dccc95ac6a2996ec14d2f9823853",
       "characters:changli": "c6d474479d71722ef1c0035de5f0d27726880089f388782d05b78bac04cd0a67",
@@ -28,7 +28,7 @@
       "characters:jianxin": "1de7a7c89e0428c2671068320ccd5c4a576ae42b65b7a039f24a145e7e687912",
       "characters:jingran": "6ce6a29960b98990e584f71abd91df825ab718fddf0983608ae882b5293571dd",
       "characters:jinhsi": "f63ec5a89c5ea3214a60534d020ccbd308c939c925b30b4147dc4c511bf122d4",
-      "characters:jiyan": "3ba47eb9ba7417279da35a3396f22d18dbc15db774b000d1068c7e2c7ea945a8",
+      "characters:jiyan": "8d3648d52506313370f40f6c1c989af2ab9e3390f01be74286e7db12a78fc334",
       "characters:lingyang": "1d0855bf3ecbaeec1740b82202d94ac6e73d3d57fa0e7f4355c6de3b8777a049",
       "characters:lucilla": "f2cf5bab232a1e5417183852e3bb85b642e3d76319536bb152ef432770ba3b89",
       "characters:lucy": "9e9e6ea9b620ce734b42d191df2aca0412878c248461608adf9b3f174e104788",

@@ -1,13 +1,13 @@
 {
   "provider": "Prydwen",
   "game": "hsr",
-  "generatedAt": "2026-08-06T07:59:51.331Z",
+  "generatedAt": "2026-08-07T06:42:32.042Z",
   "summary": {
     "records": {
       "added": 0,
       "removed": 0,
-      "changed": 3,
-      "unchanged": 92
+      "changed": 2,
+      "unchanged": 93
     }
   },
   "sections": {
@@ -18,23 +18,17 @@
         {
           "id": "characters:guinaifen",
           "name": "Guinaifen",
-          "previousHash": "377942fe21c9c61790cb1e023f4cc77973f7f28bdad6bae0e576a04d7ba9b1ff",
-          "currentHash": "9a7feeb2c62927ad9989698b391b97894fa6023eb16bd2e17825f739e4b32e75"
+          "previousHash": "9a7feeb2c62927ad9989698b391b97894fa6023eb16bd2e17825f739e4b32e75",
+          "currentHash": "377942fe21c9c61790cb1e023f4cc77973f7f28bdad6bae0e576a04d7ba9b1ff"
         },
         {
-          "id": "characters:hysilens",
-          "name": "Hysilens",
-          "previousHash": "a1ffb7ae2a8169714b67162499cd076c063feca4efa303b6adb85d82d9b1d114",
-          "currentHash": "3c2fa63ca5a13aee615fed668c74eda346246758fcc093438801df42c03608d6"
-        },
-        {
-          "id": "characters:luka",
-          "name": "Luka",
-          "previousHash": "5fdeaea1a0cb349ba10805817feef81453c2b039fe4273c7e6b8802e67ad7d6a",
-          "currentHash": "9261a2535af8377e329475b3e54aefa826e1ad88de3e4a566eec36c1a38a3d4e"
+          "id": "characters:jade",
+          "name": "Jade",
+          "previousHash": "be41540c692bcde0ef0a71ef60e61788585bfa5826389ce925ed4ca7e03f2e72",
+          "currentHash": "a2c36cc684420b76dda5decd5108fa4bd6ce3d125fd9eec0b52f5891d85b855b"
         }
       ],
-      "unchanged": 92,
+      "unchanged": 93,
       "totals": {
         "previous": 95,
         "current": 95

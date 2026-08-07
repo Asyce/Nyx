@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-07T04:03:23.263Z",
+  "generatedAt": "2026-08-07T06:44:41.203Z",
   "games": {
     "gi": [
       {
@@ -13,18 +13,6 @@
         "code": "LEGEDILJKSGM",
         "added": "2026-08-07",
         "amount": 60,
-        "currency": "Primogems"
-      },
-      {
-        "code": "Everwinter",
-        "added": "2026-07-31",
-        "amount": 100,
-        "currency": "Primogems"
-      },
-      {
-        "code": "OntoSnezhnaya",
-        "added": "2026-07-31",
-        "amount": 100,
         "currency": "Primogems"
       },
       {
@@ -96,5 +84,5 @@
       }
     ]
   },
-  "revision": "708bf57ec428eaa60c28a5d021efb8d5ff602aab62f0155ec338de65dc2021bb"
+  "revision": "ae2d37b3343accdfea05490725c12bf65118262a0b71af206afc6d7a2dd83ea3"
 }

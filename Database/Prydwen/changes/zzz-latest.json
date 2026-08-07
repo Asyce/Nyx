@@ -1,21 +1,28 @@
 {
   "provider": "Prydwen",
   "game": "zzz",
-  "generatedAt": "2026-08-06T07:59:51.331Z",
+  "generatedAt": "2026-08-07T06:42:32.042Z",
   "summary": {
     "records": {
       "added": 0,
       "removed": 0,
-      "changed": 0,
-      "unchanged": 68
+      "changed": 1,
+      "unchanged": 67
     }
   },
   "sections": {
     "records": {
       "added": [],
       "removed": [],
-      "changed": [],
-      "unchanged": 68,
+      "changed": [
+        {
+          "id": "characters:nicole-demara",
+          "name": "Nicole",
+          "previousHash": "f4a6cbc19ae3ca314649eb936d49a7bc2e115ad431c386b96a21b872339c2a13",
+          "currentHash": "e0c777aa659b45fccde2d32faab3bdbf12156721a62c92cd2c8f1c57d8860736"
+        }
+      ],
+      "unchanged": 67,
       "totals": {
         "previous": 68,
         "current": 68

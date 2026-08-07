@@ -1366,7 +1366,7 @@
       ]
     }
   },
-  "effect": "All-Attribute DMG Bonus is increased by {0}. When casting Intro Skill or gaining a Shield, gain 1 stack of Nature's Order and 1 stack of Cradle of Life. This effect can be triggered via gaining a Shield once every 0.5s, stackable for up to {1} stacks, lasting for {2}s.\nNature's Order: Fusion DMG Bonus is increased by {3}, up to {4}.\nCradle of Life: When casting a Heavy Attack, consume up to {5} stacks of Cradle of Life. For every {6} stack of Cradle of Life consumed, Heavy Attack DMG ignores {7} of the target's DEF, up to {8}. The effect lasts for {9}s.",
+  "effect": "All-Attribute DMG Bonus is increased by {0}. When casting Intro Skill or gaining a Shield, gain 1 stack of Nature's Order and 1 stack of Cradle of Life. This effect can be triggered via gaining a Shield once every 0.5s, stackable for up to {1} stacks, lasting for {2}s.\nNature's Order: Crit. DMG is increased by {3}, up to {4}. When Nature's Order reahces {10} stacks, the Crit. Rate of Heavy Attack DMG is increased by {11}\nCradle of Life: When casting a Heavy Attack, consume up to {5} stacks of Cradle of Life. For every {6} stack of Cradle of Life consumed, Heavy Attack DMG ignores {7} of the target's DEF, up to {8}. The effect lasts for {9}s.",
   "effect_name": "Call Upon Stars and Ghosts",
   "param": [
     [
@@ -1391,18 +1391,18 @@
       "7"
     ],
     [
-      "10%",
-      "12.5%",
-      "15%",
-      "17.5%",
-      "20%"
+      "6%",
+      "7.5%",
+      "9%",
+      "10.5%",
+      "12%"
     ],
     [
-      "60%",
-      "75%",
-      "90%",
-      "105%",
-      "120%"
+      "36%",
+      "45%",
+      "54%",
+      "63%",
+      "72%"
     ],
     [
       "2",
@@ -1438,6 +1438,20 @@
       "2",
       "2",
       "2"
+    ],
+    [
+      "6",
+      "6",
+      "6",
+      "6",
+      "6"
+    ],
+    [
+      "12%",
+      "15%",
+      "18%",
+      "21%",
+      "24%"
     ]
   ],
   "ascensions": {

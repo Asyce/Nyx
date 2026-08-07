@@ -18188,6 +18188,30 @@
             ]
           }
         }
+      },
+      "35": {
+        "id": 35,
+        "name": "Lamp of Nether Road",
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriJingran.T_IconElementAttriJingran",
+        "color": "FFFFFF00",
+        "set": {
+          "2": {
+            "desc": "HP + {0}",
+            "param": [
+              "10%"
+            ]
+          },
+          "5": {
+            "desc": "Upon gaining a Shield, gain {0} increase in Crit. Rate for {2}s, max {1} stacks. This effect can be triggered every {3}s. At max stacks, gain {4} Fusion DMG Bonus.",
+            "param": [
+              "5%",
+              "4",
+              "5",
+              "0.5",
+              "15%"
+            ]
+          }
+        }
       }
     },
     "assets": {
@@ -18256,7 +18280,7 @@
     },
     "monsterInfo": 340000320,
     "liveComparison": {
-      "currentHash": "822a81192babafe1eb1d200485f0188870d31490fecf1915d8465389a029a2cf"
+      "currentHash": "9a637e95da1ab150e8abdd1eac92503014bb2898b53f6f1542ba84a3654ce54d"
     }
   },
   {

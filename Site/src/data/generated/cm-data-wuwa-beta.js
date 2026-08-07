@@ -7,7 +7,7 @@
 (function(){
   window.CM_CFG_BETA = window.CM_CFG_BETA || {};
   window.CM_CFG_BETA["wuwa"] = {
-  "version": "3.6.1+8296177",
+  "version": "3.6.5",
   "liveVersion": "3.5",
   "newCount": 0,
   "changedCount": 2,
@@ -77,7 +77,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "3.6.1+8296177",
+        "version": "3.6.5",
         "sections": [
           {
             "title": "Skills",
@@ -1725,7 +1725,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "3.6.1+8296177",
+        "version": "3.6.5",
         "sections": [
           {
             "title": "Skills",
@@ -3278,7 +3278,7 @@
     },
     {
       "id": "21020106",
-      "name": "Cloud Jasper",
+      "name": "Glint of Clouds",
       "rarity": 5,
       "weaponType": "Sword",
       "type": "Sword",

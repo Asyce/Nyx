@@ -33280,7 +33280,7 @@
     },
     "effect": {
       "name": "Call Upon Stars and Ghosts",
-      "description": "All-Attribute DMG Bonus is increased by {0}. When casting Intro Skill or gaining a Shield, gain 1 stack of Nature's Order and 1 stack of Cradle of Life. This effect can be triggered via gaining a Shield once every 0.5s, stackable for up to {1} stacks, lasting for {2}s.\nNature's Order: Fusion DMG Bonus is increased by {3}, up to {4}.\nCradle of Life: When casting a Heavy Attack, consume up to {5} stacks of Cradle of Life. For every {6} stack of Cradle of Life consumed, Heavy Attack DMG ignores {7} of the target's DEF, up to {8}. The effect lasts for {9}s.",
+      "description": "All-Attribute DMG Bonus is increased by {0}. When casting Intro Skill or gaining a Shield, gain 1 stack of Nature's Order and 1 stack of Cradle of Life. This effect can be triggered via gaining a Shield once every 0.5s, stackable for up to {1} stacks, lasting for {2}s.\nNature's Order: Crit. DMG is increased by {3}, up to {4}. When Nature's Order reahces {10} stacks, the Crit. Rate of Heavy Attack DMG is increased by {11}\nCradle of Life: When casting a Heavy Attack, consume up to {5} stacks of Cradle of Life. For every {6} stack of Cradle of Life consumed, Heavy Attack DMG ignores {7} of the target's DEF, up to {8}. The effect lasts for {9}s.",
       "params": [
         [
           "12%",
@@ -33304,18 +33304,18 @@
           "7"
         ],
         [
-          "10%",
-          "12.5%",
-          "15%",
-          "17.5%",
-          "20%"
+          "6%",
+          "7.5%",
+          "9%",
+          "10.5%",
+          "12%"
         ],
         [
-          "60%",
-          "75%",
-          "90%",
-          "105%",
-          "120%"
+          "36%",
+          "45%",
+          "54%",
+          "63%",
+          "72%"
         ],
         [
           "2",
@@ -33351,6 +33351,20 @@
           "2",
           "2",
           "2"
+        ],
+        [
+          "6",
+          "6",
+          "6",
+          "6",
+          "6"
+        ],
+        [
+          "12%",
+          "15%",
+          "18%",
+          "21%",
+          "24%"
         ]
       ]
     },
@@ -33544,7 +33558,7 @@
       ]
     },
     "liveComparison": {
-      "currentHash": "7b8b48be0d0fc88b46a55b62210437d10d9bf75e75c71916c463fbd02a1faabd"
+      "currentHash": "bd982124f857d32223832485921d834b957af2713ca299dfcf273c25cf7f79c9"
     }
   },
   {
@@ -79845,10 +79859,10 @@
   {
     "id": "21020106",
     "contentStatus": "beta",
-    "name": "Cloud Jasper",
+    "name": "Glint of Clouds",
     "rarity": 5,
     "type": 2,
-    "description": "Mist drifts through the clouds, still water blue as the sky above; thin shadows slant across, and petals scatter down.\nMay I carry this jade blade into the dust of the world, cleanse this tarnished age, and cut down every evil.",
+    "description": "Wreathed in mist and cloud, still waters blend with the sky in seamless blue. Sparse shadows slant across as a rain of petals falls.\nMay I bear this jade blade into the mortal realm, cleanse a tarnished age, and put the wicked to the sword.",
     "attack": 500,
     "subStat": "Crit. Rate",
     "assets": {},
@@ -81214,7 +81228,7 @@
     },
     "effect": {
       "name": "Evil's Scourge",
-      "description": "Increases ATK by {0}. After applying Tune Strain - Shifting, gain {1} Aero DMG Bonus, lasting {2}s, stacking up to {3} times. This effect can trigger once every {4}s. Upon reaching the max stack limit, gain the following effects:\n- This Aero DMG Bonus effect's duration is extended to {5}s.\n- While the effect persists, Aero DMG ignores {6} of the target's DEF.",
+      "description": "ATK is increased by {0}. Inflicting Tune Strain - Shifting grants {1} Aero DMG Bonus for {2}s, stacking up to {3} times. This effect can be triggered once every {4}s. Upon reaching the max stack limit, gain the following effects:\n- This Aero DMG Bonus effect's duration is extended to {5}s.\n- Aero DMG ignores {6} of the target's DEF during this effect.",
       "params": [
         [
           "12%",
@@ -81457,7 +81471,7 @@
       ]
     },
     "liveComparison": {
-      "currentHash": "a527faf280820e82bb3b3bf1bcc2b84f0106e41c2b5391d799cda4bfe0eb0dae"
+      "currentHash": "00cb9e84b1d30fe9f3a4a5a167bad604aee7a7b4c360ed9d4c1815f68f86a226"
     }
   },
   {

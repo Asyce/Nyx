@@ -2,8 +2,8 @@
   "id": 21020106,
   "rarity": 5,
   "type": 2,
-  "name": "Cloud Jasper",
-  "desc": "Mist drifts through the clouds, still water blue as the sky above; thin shadows slant across, and petals scatter down.\nMay I carry this jade blade into the dust of the world, cleanse this tarnished age, and cut down every evil.",
+  "name": "Glint of Clouds",
+  "desc": "Wreathed in mist and cloud, still waters blend with the sky in seamless blue. Sparse shadows slant across as a rain of petals falls.\nMay I bear this jade blade into the mortal realm, cleanse a tarnished age, and put the wicked to the sword.",
   "icon": "/Game/Aki/UI/UIResources/Common/Image/IconWeapon/T_IconWeapon21020106_UI.T_IconWeapon21020106_UI",
   "model": "/Game/Aki/Character/Weapon/Sword/R5Sword510/R5Sword510Md20001/Model/R5Sword510Md20001.R5Sword510Md20001",
   "stats": {
@@ -1366,7 +1366,7 @@
       ]
     }
   },
-  "effect": "Increases ATK by {0}. After applying Tune Strain - Shifting, gain {1} Aero DMG Bonus, lasting {2}s, stacking up to {3} times. This effect can trigger once every {4}s. Upon reaching the max stack limit, gain the following effects:\n- This Aero DMG Bonus effect's duration is extended to {5}s.\n- While the effect persists, Aero DMG ignores {6} of the target's DEF.",
+  "effect": "ATK is increased by {0}. Inflicting Tune Strain - Shifting grants {1} Aero DMG Bonus for {2}s, stacking up to {3} times. This effect can be triggered once every {4}s. Upon reaching the max stack limit, gain the following effects:\n- This Aero DMG Bonus effect's duration is extended to {5}s.\n- Aero DMG ignores {6} of the target's DEF during this effect.",
   "effect_name": "Evil's Scourge",
   "param": [
     [

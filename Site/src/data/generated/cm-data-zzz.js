@@ -16739,15 +16739,11 @@
       },
       "title": "After the Battle",
       "slug": "caesar",
-      "release": 1727222400000,
-      "releasePatch": "1.2",
       "updated": 1785283200000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "imdb:nm3158889|Jennifer Sun Bell",
-        "japanese": "Rina Sat\u014d|Sat\u014d Rina (\u4f50\u85e4 \u5229\u5948)",
-        "chinese": "https://zh.moegirl.org.cn/zh-tw/\u82cf\u5b50\u829c|Su Ziwu (\u82cf\u5b50\u829c)",
-        "korean": "ko: \uae40\ubcf4\ubbfc (\uc131\uc6b0)|Kim Bo-min (\uae40\ubcf4\ubbfc)"
+        "english": "Jennifer Sun Bell",
+        "japanese": "Rina Sat\u014d (\u4f50\u85e4 \u5229\u5948)"
       },
       "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle25.webp",
       "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole25.webp",
@@ -60127,6 +60123,7 @@
       },
       "title": "Patience of a Cat",
       "slug": "nekomata",
+      "releasePatch": "1.0",
       "updated": 1785283200000,
       "sourceOrder": 0,
       "voiceActors": {

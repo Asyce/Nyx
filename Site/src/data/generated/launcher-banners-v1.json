@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "5082523250049f178ee6491231422f1cb99214334071eb64c347c25f0b827be4",
-  "generatedAt": "2026-08-07T03:58:11.909Z",
+  "revision": "fe9071bba8eb738b713efe15eea6632c57ddcfab020ca7014b726b27dc72c9da",
+  "generatedAt": "2026-08-07T04:03:40.081Z",
   "health": {
     "status": "ok",
     "games": {
@@ -43,7 +43,7 @@
         "remaining": {
           "startsAt": "2026-07-21T17:00:00.000Z",
           "endsAt": "2026-08-11T13:59:00.000Z",
-          "durationSeconds": 381648
+          "durationSeconds": 381319
         },
         "characters": [
           {
@@ -348,6 +348,12 @@
       ],
       "codes": [
         {
+          "code": "2BJ64QRZ7RT8",
+          "added": "2026-08-07",
+          "amount": 60,
+          "currency": "Primogems"
+        },
+        {
           "code": "LEGEDILJKSGM",
           "added": "2026-08-07",
           "amount": 60,
@@ -363,12 +369,6 @@
           "code": "OntoSnezhnaya",
           "added": "2026-07-31",
           "amount": 100,
-          "currency": "Primogems"
-        },
-        {
-          "code": "2BJ64QRZ7RT8",
-          "added": "2026-07-31",
-          "amount": 60,
           "currency": "Primogems"
         },
         {
@@ -389,7 +389,7 @@
         "remaining": {
           "startsAt": "2026-08-05T11:00:00.000Z",
           "endsAt": "2026-08-25T14:00:00.000Z",
-          "durationSeconds": 1591308
+          "durationSeconds": 1590979
         },
         "characters": [
           {
@@ -763,7 +763,7 @@
         "remaining": {
           "startsAt": "2026-07-29T03:00:00.000Z",
           "endsAt": "2026-08-19T03:59:59.000Z",
-          "durationSeconds": 1036907
+          "durationSeconds": 1036578
         },
         "characters": [
           {
@@ -1097,7 +1097,7 @@
         "remaining": {
           "startsAt": "2026-07-30T09:00:00.000Z",
           "endsAt": "2026-08-19T10:59:00.000Z",
-          "durationSeconds": 1062048
+          "durationSeconds": 1061719
         },
         "characters": [
           {
@@ -1412,7 +1412,7 @@
         "remaining": {
           "startsAt": "2026-07-16T04:00:00.000Z",
           "endsAt": "2026-08-09T03:59:59.000Z",
-          "durationSeconds": 172907
+          "durationSeconds": 172578
         },
         "characters": [
           {

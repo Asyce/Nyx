@@ -4,12 +4,26 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-08-07T03:58:10.127Z",
+  "generatedAt": "2026-08-07T04:03:38.511Z",
   "codes": {
-    "updated": "2026-08-07T00:30:00.838Z",
+    "updated": "2026-08-07T04:03:23.263Z",
     "maxAgeDays": 28,
     "games": {
       "gi": [
+        {
+          "code": "2BJ64QRZ7RT8",
+          "reward": "Primogem x 60, Adventurer's Experience x 5",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Primogems",
+            "needle": "primogem",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
+          },
+          "added": "2026-08-07",
+          "firstSeen": "2026-08-01T21:03:08.107Z",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=2BJ64QRZ7RT8",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=2BJ64QRZ7RT8"
+        },
         {
           "code": "LEGEDILJKSGM",
           "reward": "Primogem x 60, Adventurer's Experience x 5",
@@ -53,20 +67,6 @@ var NYX_DB = {
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=GS70YTASTJ"
         },
         {
-          "code": "2BJ64QRZ7RT8",
-          "reward": "60 Primogem, 5 Adventurer's Experience",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Primogems",
-            "needle": "primogem",
-            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
-          },
-          "added": "2026-07-31",
-          "firstSeen": "2026-08-01T21:03:08.107Z",
-          "sourceUrl": "https://www.crimsonwitch.com/codes/Genshin_Impact",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=2BJ64QRZ7RT8"
-        },
-        {
           "code": "Everwinter",
           "reward": "x100 Primogems and x10 Mystic Enchancement Ore",
           "premium": true,
@@ -107,20 +107,6 @@ var NYX_DB = {
           "firstSeen": "2026-08-07T00:29:57.593Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=OntoSnezhnaya",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=OntoSnezhnaya"
-        },
-        {
-          "code": "UIVI13C8X156",
-          "reward": "10000 Mora, 10 Adventurer's Experience, 5 Fine Enhancement Ore, 5 Jueyun Chili Chicken, 5 Stir-Fried Fish Noodles",
-          "premium": false,
-          "premiumCurrency": {
-            "name": "Primogems",
-            "needle": "primogem",
-            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
-          },
-          "added": "2026-07-22",
-          "firstSeen": "2026-07-22T18:21:43.993Z",
-          "sourceUrl": "https://www.crimsonwitch.com/codes/Genshin_Impact",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=UIVI13C8X156"
         }
       ],
       "hsr": [
@@ -267,6 +253,20 @@ var NYX_DB = {
       ],
       "zzz": [
         {
+          "code": "CBW0884678",
+          "reward": "Denny x 20,000",
+          "premium": false,
+          "premiumCurrency": {
+            "name": "Polychrome",
+            "needle": "polychrome",
+            "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
+          },
+          "added": "2026-08-07",
+          "firstSeen": "2026-08-07T04:03:19.449Z",
+          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=CBW0884678",
+          "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=CBW0884678"
+        },
+        {
           "code": "ZENLESSGIFT",
           "reward": "50 polychrome, two official investigator logs, three w-engine power supplies, and one bangboo algorithm module",
           "premium": true,
@@ -282,16 +282,16 @@ var NYX_DB = {
         },
         {
           "code": "ZZZMEIJI",
-          "reward": "3 Senior Investigator Log, 3 W-Engine Energy Module, 30000 Denny",
+          "reward": "30k Denny, Three Senior Investigator Logs, and Three W Engine Energy Modules",
           "premium": false,
           "premiumCurrency": {
             "name": "Polychrome",
             "needle": "polychrome",
             "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
           },
-          "added": "2026-07-26",
+          "added": "2026-08-06",
           "firstSeen": "2026-07-26T13:45:05.829Z",
-          "sourceUrl": "https://www.crimsonwitch.com/codes/Zenless_Zone_Zero",
+          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZMEIJI",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZMEIJI"
         },
         {
@@ -4342,6 +4342,20 @@ var NYX_DB = {
       ],
       "codes": [
         {
+          "code": "2BJ64QRZ7RT8",
+          "reward": "Primogem x 60, Adventurer's Experience x 5",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Primogems",
+            "needle": "primogem",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
+          },
+          "added": "2026-08-07",
+          "firstSeen": "2026-08-01T21:03:08.107Z",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=2BJ64QRZ7RT8",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=2BJ64QRZ7RT8"
+        },
+        {
           "code": "LEGEDILJKSGM",
           "reward": "Primogem x 60, Adventurer's Experience x 5",
           "premium": true,
@@ -4384,20 +4398,6 @@ var NYX_DB = {
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=GS70YTASTJ"
         },
         {
-          "code": "2BJ64QRZ7RT8",
-          "reward": "60 Primogem, 5 Adventurer's Experience",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Primogems",
-            "needle": "primogem",
-            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
-          },
-          "added": "2026-07-31",
-          "firstSeen": "2026-08-01T21:03:08.107Z",
-          "sourceUrl": "https://www.crimsonwitch.com/codes/Genshin_Impact",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=2BJ64QRZ7RT8"
-        },
-        {
           "code": "Everwinter",
           "reward": "x100 Primogems and x10 Mystic Enchancement Ore",
           "premium": true,
@@ -4438,20 +4438,6 @@ var NYX_DB = {
           "firstSeen": "2026-08-07T00:29:57.593Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=OntoSnezhnaya",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=OntoSnezhnaya"
-        },
-        {
-          "code": "UIVI13C8X156",
-          "reward": "10000 Mora, 10 Adventurer's Experience, 5 Fine Enhancement Ore, 5 Jueyun Chili Chicken, 5 Stir-Fried Fish Noodles",
-          "premium": false,
-          "premiumCurrency": {
-            "name": "Primogems",
-            "needle": "primogem",
-            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
-          },
-          "added": "2026-07-22",
-          "firstSeen": "2026-07-22T18:21:43.993Z",
-          "sourceUrl": "https://www.crimsonwitch.com/codes/Genshin_Impact",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=UIVI13C8X156"
         }
       ],
       "banners": {
@@ -156452,6 +156438,20 @@ var NYX_DB = {
       ],
       "codes": [
         {
+          "code": "CBW0884678",
+          "reward": "Denny x 20,000",
+          "premium": false,
+          "premiumCurrency": {
+            "name": "Polychrome",
+            "needle": "polychrome",
+            "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
+          },
+          "added": "2026-08-07",
+          "firstSeen": "2026-08-07T04:03:19.449Z",
+          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=CBW0884678",
+          "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=CBW0884678"
+        },
+        {
           "code": "ZENLESSGIFT",
           "reward": "50 polychrome, two official investigator logs, three w-engine power supplies, and one bangboo algorithm module",
           "premium": true,
@@ -156467,16 +156467,16 @@ var NYX_DB = {
         },
         {
           "code": "ZZZMEIJI",
-          "reward": "3 Senior Investigator Log, 3 W-Engine Energy Module, 30000 Denny",
+          "reward": "30k Denny, Three Senior Investigator Logs, and Three W Engine Energy Modules",
           "premium": false,
           "premiumCurrency": {
             "name": "Polychrome",
             "needle": "polychrome",
             "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
           },
-          "added": "2026-07-26",
+          "added": "2026-08-06",
           "firstSeen": "2026-07-26T13:45:05.829Z",
-          "sourceUrl": "https://www.crimsonwitch.com/codes/Zenless_Zone_Zero",
+          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZMEIJI",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZMEIJI"
         },
         {

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T00:30:00.838Z",
+  "generatedAt": "2026-08-07T04:03:23.263Z",
   "maxAgeDays": 28,
   "games": [
     {
@@ -9,8 +9,19 @@
       "redeemBase": "https://genshin.hoyoverse.com/en/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/GI/codes/",
-      "lastSuccessfulFetch": "2026-08-07T00:29:57.593Z",
+      "lastSuccessfulFetch": "2026-08-07T04:03:19.168Z",
       "codes": [
+        {
+          "code": "2BJ64QRZ7RT8",
+          "rewards": "Primogem x 60, Adventurer's Experience x 5",
+          "added": "2026-08-07",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=2BJ64QRZ7RT8",
+          "hoyoVerified": true,
+          "premium": true,
+          "premium100": false,
+          "cwSeen": true,
+          "firstSeen": "2026-08-01T21:03:08.107Z"
+        },
         {
           "code": "LEGEDILJKSGM",
           "rewards": "Primogem x 60, Adventurer's Experience x 5",
@@ -32,6 +43,17 @@
           "premium100": false,
           "cwSeen": true,
           "firstSeen": "2026-08-04T09:54:39.639Z"
+        },
+        {
+          "code": "UIVI13C8X156",
+          "rewards": "",
+          "added": "2026-08-07",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=UIVI13C8X156",
+          "hoyoVerified": true,
+          "premium": false,
+          "premium100": false,
+          "cwSeen": true,
+          "firstSeen": "2026-07-22T18:21:43.993Z"
         },
         {
           "code": "UIVIBUQM6Q8A",
@@ -58,19 +80,6 @@
           "premium100": false,
           "cwSeen": true,
           "firstSeen": "2026-08-06T14:31:58.497Z"
-        },
-        {
-          "code": "2BJ64QRZ7RT8",
-          "rewards": "60 Primogem, 5 Adventurer's Experience",
-          "added": "2026-07-31",
-          "sourceUrl": "https://www.crimsonwitch.com/codes/Genshin_Impact",
-          "regionLocked": null,
-          "expires": null,
-          "variants": [],
-          "premium": true,
-          "premium100": false,
-          "cwSeen": true,
-          "firstSeen": "2026-08-01T21:03:08.107Z"
         },
         {
           "code": "Everwinter",
@@ -101,21 +110,6 @@
           "premium100": false,
           "cwSeen": false,
           "firstSeen": "2026-08-07T00:29:57.593Z"
-        },
-        {
-          "code": "UIVI13C8X156",
-          "rewards": "10000 Mora, 10 Adventurer's Experience, 5 Fine Enhancement Ore, 5 Jueyun Chili Chicken, 5 Stir-Fried Fish Noodles",
-          "added": "2026-07-22",
-          "sourceUrl": "https://www.crimsonwitch.com/codes/Genshin_Impact",
-          "regionLocked": null,
-          "expires": null,
-          "variants": [
-            "UIVIBUQM6Q8A"
-          ],
-          "premium": false,
-          "premium100": false,
-          "cwSeen": true,
-          "firstSeen": "2026-07-22T18:21:43.993Z"
         }
       ]
     },
@@ -126,7 +120,7 @@
       "redeemBase": "https://hsr.hoyoverse.com/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/HSR/codes/",
-      "lastSuccessfulFetch": "2026-08-07T00:29:57.592Z",
+      "lastSuccessfulFetch": "2026-08-07T04:03:19.067Z",
       "codes": [
         {
           "code": "4TKSX77Y58QK",
@@ -255,8 +249,19 @@
       "redeemBase": "https://zenless.hoyoverse.com/redemption?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/ZZZ/codes/",
-      "lastSuccessfulFetch": "2026-08-07T00:29:57.198Z",
+      "lastSuccessfulFetch": "2026-08-07T04:03:19.449Z",
       "codes": [
+        {
+          "code": "CBW0884678",
+          "rewards": "Denny x 20,000",
+          "added": "2026-08-07",
+          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=CBW0884678",
+          "hoyoVerified": true,
+          "premium": false,
+          "premium100": false,
+          "cwSeen": false,
+          "firstSeen": "2026-08-07T04:03:19.449Z"
+        },
         {
           "code": "VOIDWATCHINGYOU",
           "rewards": "",
@@ -281,12 +286,9 @@
         },
         {
           "code": "ZZZMEIJI",
-          "rewards": "3 Senior Investigator Log, 3 W-Engine Energy Module, 30000 Denny",
-          "added": "2026-07-26",
-          "sourceUrl": "https://www.crimsonwitch.com/codes/Zenless_Zone_Zero",
-          "regionLocked": null,
-          "expires": null,
-          "variants": [],
+          "rewards": "30k Denny, Three Senior Investigator Logs, and Three W Engine Energy Modules",
+          "added": "2026-08-06",
+          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZMEIJI",
           "premium": false,
           "premium100": false,
           "cwSeen": true,
@@ -321,7 +323,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Terminal > Settings > Other Settings > Redemption Code",
       "sourceUrl": "https://nexus-codes.app/games/WUWA/codes/",
-      "lastSuccessfulFetch": "2026-08-07T00:30:00.838Z",
+      "lastSuccessfulFetch": "2026-08-07T04:03:23.263Z",
       "codes": [
         {
           "code": "F5F4D3B2A2",
@@ -342,7 +344,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Settings > Account > Exchange Code",
       "sourceUrl": "https://nexus-codes.app/games/ARKEN/codes/",
-      "lastSuccessfulFetch": "2026-08-07T00:29:57.195Z",
+      "lastSuccessfulFetch": "2026-08-07T04:03:19.027Z",
       "codes": [
         {
           "code": "ENDFIELDRENEW",

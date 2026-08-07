@@ -1,8 +1,14 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-07T00:30:00.838Z",
+  "generatedAt": "2026-08-07T04:03:23.263Z",
   "games": {
     "gi": [
+      {
+        "code": "2BJ64QRZ7RT8",
+        "added": "2026-08-07",
+        "amount": 60,
+        "currency": "Primogems"
+      },
       {
         "code": "LEGEDILJKSGM",
         "added": "2026-08-07",
@@ -19,12 +25,6 @@
         "code": "OntoSnezhnaya",
         "added": "2026-07-31",
         "amount": 100,
-        "currency": "Primogems"
-      },
-      {
-        "code": "2BJ64QRZ7RT8",
-        "added": "2026-07-31",
-        "amount": 60,
         "currency": "Primogems"
       },
       {
@@ -96,5 +96,5 @@
       }
     ]
   },
-  "revision": "062077ada8043123f839c12fbcac50500a192716f3a36c9514dfe5d76e4d3797"
+  "revision": "708bf57ec428eaa60c28a5d021efb8d5ff602aab62f0155ec338de65dc2021bb"
 }

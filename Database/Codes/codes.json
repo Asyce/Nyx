@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T07:05:48.056Z",
+  "generatedAt": "2026-08-07T11:46:34.373Z",
   "maxAgeDays": 28,
   "games": [
     {
@@ -9,7 +9,7 @@
       "redeemBase": "https://genshin.hoyoverse.com/en/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/GI/codes/",
-      "lastSuccessfulFetch": "2026-08-07T07:05:44.231Z",
+      "lastSuccessfulFetch": "2026-08-07T11:46:34.353Z",
       "codes": [
         {
           "code": "2BJ64QRZ7RT8",
@@ -46,7 +46,7 @@
         },
         {
           "code": "UIVI13C8X156",
-          "rewards": "",
+          "rewards": "10k mora, ten adventurer's experience, five fine enhancement ore, five jueyun chili chicken, and five stir",
           "added": "2026-08-07",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=UIVI13C8X156",
           "hoyoVerified": true,
@@ -105,7 +105,7 @@
       "redeemBase": "https://hsr.hoyoverse.com/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/HSR/codes/",
-      "lastSuccessfulFetch": "2026-08-07T07:05:44.307Z",
+      "lastSuccessfulFetch": "2026-08-07T11:46:34.354Z",
       "codes": [
         {
           "code": "4TKSX77Y58QK",
@@ -234,7 +234,7 @@
       "redeemBase": "https://zenless.hoyoverse.com/redemption?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/ZZZ/codes/",
-      "lastSuccessfulFetch": "2026-08-07T07:05:44.238Z",
+      "lastSuccessfulFetch": "2026-08-07T11:46:34.373Z",
       "codes": [
         {
           "code": "CBW0884678",
@@ -308,8 +308,41 @@
       "redeemBase": "",
       "note": "Redeem ingame via Terminal > Settings > Other Settings > Redemption Code",
       "sourceUrl": "https://nexus-codes.app/games/WUWA/codes/",
-      "lastSuccessfulFetch": "2026-08-07T07:05:48.055Z",
+      "lastSuccessfulFetch": "2026-08-07T11:46:34.349Z",
       "codes": [
+        {
+          "code": "ETERNALFLAME",
+          "rewards": "Astrite x100, Advanced Energy Core x3, Medium Nutrient Block x2",
+          "added": "2026-08-07",
+          "sourceUrl": "https://www.reddit.com/r/WutheringWaves/comments/1vhyasb/livestream_codes/",
+          "mentions": 2,
+          "premium": true,
+          "premium100": false,
+          "cwSeen": false,
+          "firstSeen": "2026-08-07T11:46:34.349Z"
+        },
+        {
+          "code": "HEARTOFSWORD",
+          "rewards": "Astrite x100, Advanced Resonance Potion x3, Medium Revival Inhaler x2",
+          "added": "2026-08-07",
+          "sourceUrl": "https://www.reddit.com/r/WutheringWaves/comments/1vhyasb/livestream_codes/",
+          "mentions": 2,
+          "premium": true,
+          "premium100": false,
+          "cwSeen": false,
+          "firstSeen": "2026-08-07T11:46:34.349Z"
+        },
+        {
+          "code": "THEANSWER",
+          "rewards": "Astrite x100, Advanced Enclosure Tank II x2, Shell Credit x20000",
+          "added": "2026-08-07",
+          "sourceUrl": "https://www.reddit.com/r/WutheringWaves/comments/1vhyasb/livestream_codes/",
+          "mentions": 2,
+          "premium": true,
+          "premium100": false,
+          "cwSeen": false,
+          "firstSeen": "2026-08-07T11:46:34.349Z"
+        },
         {
           "code": "F5F4D3B2A2",
           "rewards": "Escape From Duckov Themed Bike Skin",
@@ -329,7 +362,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Settings > Account > Exchange Code",
       "sourceUrl": "https://nexus-codes.app/games/ARKEN/codes/",
-      "lastSuccessfulFetch": "2026-08-07T07:05:43.978Z",
+      "lastSuccessfulFetch": "2026-08-07T11:46:33.918Z",
       "codes": [
         {
           "code": "ENDFIELDRENEW",

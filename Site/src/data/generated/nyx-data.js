@@ -4,9 +4,9 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-08-07T11:41:38.655Z",
+  "generatedAt": "2026-08-07T11:46:54.681Z",
   "codes": {
-    "updated": "2026-08-07T07:05:48.056Z",
+    "updated": "2026-08-07T11:46:34.373Z",
     "maxAgeDays": 28,
     "games": {
       "gi": [
@@ -37,6 +37,20 @@ var NYX_DB = {
           "firstSeen": "2026-07-05T17:19:20.440Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=LEGEDILJKSGM",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=LEGEDILJKSGM"
+        },
+        {
+          "code": "UIVI13C8X156",
+          "reward": "10k mora, ten adventurer's experience, five fine enhancement ore, five jueyun chili chicken, and five stir",
+          "premium": false,
+          "premiumCurrency": {
+            "name": "Primogems",
+            "needle": "primogem",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
+          },
+          "added": "2026-08-07",
+          "firstSeen": "2026-07-22T18:21:43.993Z",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=UIVI13C8X156",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=UIVI13C8X156"
         },
         {
           "code": "UIVIBUQM6Q8A",
@@ -309,7 +323,50 @@ var NYX_DB = {
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ31REMIELLE"
         }
       ],
-      "wuwa": [],
+      "wuwa": [
+        {
+          "code": "ETERNALFLAME",
+          "reward": "Astrite x100, Advanced Energy Core x3, Medium Nutrient Block x2",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Astrite",
+            "needle": "astrite",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_zcpq_UI.webp"
+          },
+          "added": "2026-08-07",
+          "firstSeen": "2026-08-07T11:46:34.349Z",
+          "sourceUrl": "https://www.reddit.com/r/WutheringWaves/comments/1vhyasb/livestream_codes/",
+          "redeemUrl": null
+        },
+        {
+          "code": "HEARTOFSWORD",
+          "reward": "Astrite x100, Advanced Resonance Potion x3, Medium Revival Inhaler x2",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Astrite",
+            "needle": "astrite",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_zcpq_UI.webp"
+          },
+          "added": "2026-08-07",
+          "firstSeen": "2026-08-07T11:46:34.349Z",
+          "sourceUrl": "https://www.reddit.com/r/WutheringWaves/comments/1vhyasb/livestream_codes/",
+          "redeemUrl": null
+        },
+        {
+          "code": "THEANSWER",
+          "reward": "Astrite x100, Advanced Enclosure Tank II x2, Shell Credit x20000",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Astrite",
+            "needle": "astrite",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_zcpq_UI.webp"
+          },
+          "added": "2026-08-07",
+          "firstSeen": "2026-08-07T11:46:34.349Z",
+          "sourceUrl": "https://www.reddit.com/r/WutheringWaves/comments/1vhyasb/livestream_codes/",
+          "redeemUrl": null
+        }
+      ],
       "ae": [
         {
           "code": "ENDFIELDRENEW",
@@ -4354,6 +4411,20 @@ var NYX_DB = {
           "firstSeen": "2026-07-05T17:19:20.440Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=LEGEDILJKSGM",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=LEGEDILJKSGM"
+        },
+        {
+          "code": "UIVI13C8X156",
+          "reward": "10k mora, ten adventurer's experience, five fine enhancement ore, five jueyun chili chicken, and five stir",
+          "premium": false,
+          "premiumCurrency": {
+            "name": "Primogems",
+            "needle": "primogem",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
+          },
+          "added": "2026-08-07",
+          "firstSeen": "2026-07-22T18:21:43.993Z",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=UIVI13C8X156",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=UIVI13C8X156"
         },
         {
           "code": "UIVIBUQM6Q8A",
@@ -161302,7 +161373,50 @@ var NYX_DB = {
           ]
         }
       ],
-      "codes": [],
+      "codes": [
+        {
+          "code": "ETERNALFLAME",
+          "reward": "Astrite x100, Advanced Energy Core x3, Medium Nutrient Block x2",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Astrite",
+            "needle": "astrite",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_zcpq_UI.webp"
+          },
+          "added": "2026-08-07",
+          "firstSeen": "2026-08-07T11:46:34.349Z",
+          "sourceUrl": "https://www.reddit.com/r/WutheringWaves/comments/1vhyasb/livestream_codes/",
+          "redeemUrl": null
+        },
+        {
+          "code": "HEARTOFSWORD",
+          "reward": "Astrite x100, Advanced Resonance Potion x3, Medium Revival Inhaler x2",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Astrite",
+            "needle": "astrite",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_zcpq_UI.webp"
+          },
+          "added": "2026-08-07",
+          "firstSeen": "2026-08-07T11:46:34.349Z",
+          "sourceUrl": "https://www.reddit.com/r/WutheringWaves/comments/1vhyasb/livestream_codes/",
+          "redeemUrl": null
+        },
+        {
+          "code": "THEANSWER",
+          "reward": "Astrite x100, Advanced Enclosure Tank II x2, Shell Credit x20000",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Astrite",
+            "needle": "astrite",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_zcpq_UI.webp"
+          },
+          "added": "2026-08-07",
+          "firstSeen": "2026-08-07T11:46:34.349Z",
+          "sourceUrl": "https://www.reddit.com/r/WutheringWaves/comments/1vhyasb/livestream_codes/",
+          "redeemUrl": null
+        }
+      ],
       "banners": {
         "name": "Wuthering Waves",
         "freshness": {

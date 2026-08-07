@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "fe9071bba8eb738b713efe15eea6632c57ddcfab020ca7014b726b27dc72c9da",
-  "generatedAt": "2026-08-07T11:41:40.469Z",
+  "revision": "473d32b588e4f8be01a32835abad708955c64bc27945e31fa65a49a69597cb5c",
+  "generatedAt": "2026-08-07T11:46:56.494Z",
   "health": {
     "status": "ok",
     "games": {
@@ -43,7 +43,7 @@
         "remaining": {
           "startsAt": "2026-07-21T17:00:00.000Z",
           "endsAt": "2026-08-11T13:59:00.000Z",
-          "durationSeconds": 353839
+          "durationSeconds": 353523
         },
         "characters": [
           {
@@ -389,7 +389,7 @@
         "remaining": {
           "startsAt": "2026-08-05T11:00:00.000Z",
           "endsAt": "2026-08-25T14:00:00.000Z",
-          "durationSeconds": 1563499
+          "durationSeconds": 1563183
         },
         "characters": [
           {
@@ -763,7 +763,7 @@
         "remaining": {
           "startsAt": "2026-07-29T03:00:00.000Z",
           "endsAt": "2026-08-19T03:59:59.000Z",
-          "durationSeconds": 1009098
+          "durationSeconds": 1008782
         },
         "characters": [
           {
@@ -1097,7 +1097,7 @@
         "remaining": {
           "startsAt": "2026-07-30T09:00:00.000Z",
           "endsAt": "2026-08-19T10:59:00.000Z",
-          "durationSeconds": 1034239
+          "durationSeconds": 1033923
         },
         "characters": [
           {
@@ -1400,7 +1400,26 @@
           "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4844"
         }
       ],
-      "codes": []
+      "codes": [
+        {
+          "code": "ETERNALFLAME",
+          "added": "2026-08-07",
+          "amount": 100,
+          "currency": "Astrite"
+        },
+        {
+          "code": "HEARTOFSWORD",
+          "added": "2026-08-07",
+          "amount": 100,
+          "currency": "Astrite"
+        },
+        {
+          "code": "THEANSWER",
+          "added": "2026-08-07",
+          "amount": 100,
+          "currency": "Astrite"
+        }
+      ]
     },
     "ae": {
       "game": "ae",
@@ -1412,7 +1431,7 @@
         "remaining": {
           "startsAt": "2026-07-16T04:00:00.000Z",
           "endsAt": "2026-08-09T03:59:59.000Z",
-          "durationSeconds": 145098
+          "durationSeconds": 144782
         },
         "characters": [
           {

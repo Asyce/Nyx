@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-07T07:05:48.056Z",
+  "generatedAt": "2026-08-07T11:46:34.373Z",
   "games": {
     "gi": [
       {
@@ -86,7 +86,26 @@
         "currency": "Polychrome"
       }
     ],
-    "wuwa": [],
+    "wuwa": [
+      {
+        "code": "ETERNALFLAME",
+        "added": "2026-08-07",
+        "amount": 100,
+        "currency": "Astrite"
+      },
+      {
+        "code": "HEARTOFSWORD",
+        "added": "2026-08-07",
+        "amount": 100,
+        "currency": "Astrite"
+      },
+      {
+        "code": "THEANSWER",
+        "added": "2026-08-07",
+        "amount": 100,
+        "currency": "Astrite"
+      }
+    ],
     "ae": [
       {
         "code": "ENDFIELDGIFT",
@@ -96,5 +115,5 @@
       }
     ]
   },
-  "revision": "3efa0e648d9a59e481c23f27ed5e18eac19a4bd2b32f25cd23582cde1b3f8f06"
+  "revision": "3be7993c6597039df5e9aec1a87590196e00737bccfc2ab9580c69941b17f9e3"
 }

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "1b8855d253d0b582d17c75ed6365d4caa5ffa17819e04bb292f0fdb34e761233",
-  "generatedAt": "2026-08-08T12:17:13.309Z",
+  "revision": "152665ecd1d8516672f327613a6a5f91dcc0088c8db2f00fbfce03cc96f26397",
+  "generatedAt": "2026-08-08T15:32:40.271Z",
   "health": {
     "status": "ok",
     "games": {
@@ -13,7 +13,7 @@
       "hsr": {
         "status": "ok",
         "reason": null,
-        "newsCount": 1
+        "newsCount": 8
       },
       "zzz": {
         "status": "ok",
@@ -37,13 +37,13 @@
       "game": "gi",
       "region": "europe",
       "current": {
-        "phase": "6.7 Phase 2",
+        "phase": "Luna VIII",
         "start": "2026-07-21T17:00:00.000Z",
         "end": "2026-08-11T13:59:00.000Z",
         "remaining": {
           "startsAt": "2026-07-21T17:00:00.000Z",
           "endsAt": "2026-08-11T13:59:00.000Z",
-          "durationSeconds": 265306
+          "durationSeconds": 253579
         },
         "characters": [
           {
@@ -282,6 +282,30 @@
       "upcoming": [],
       "news": [
         {
+          "id": "gi-hoyo-ann-7b9c2d416fd2",
+          "title": "\"To Temper Thyself and Journey Far\": Rewards of Dedication",
+          "type": "event",
+          "start": "2026-08-10T03:00:00.000Z",
+          "end": "2026-11-02T02:59:00.000Z",
+          "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21761"
+        },
+        {
+          "id": "gi-hoyo-ann-092fe78454ec",
+          "title": "\"Ley Line Overflow\" Event - Double Drops From Blossoms of Wealth and Blossoms of Revelation!",
+          "type": "event",
+          "start": "2026-08-03T03:00:00.000Z",
+          "end": "2026-08-10T02:59:00.000Z",
+          "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=3364"
+        },
+        {
+          "id": "gi-hoyo-ann-b73309f9d348",
+          "title": "Participate in \"Starlight Voyage: Splendor Aglow\" to Obtain Prismatic Crystals, the Token for the Colorful Surprise Box",
+          "type": "event",
+          "start": "2026-07-27T09:00:00.000Z",
+          "end": "2026-08-10T02:59:00.000Z",
+          "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21764"
+        },
+        {
           "id": "gi-hoyo-ann-264753e69913",
           "title": "\"Dance Dance Easy-Breezy Disco\" Event: Co-Op Dance Challenge",
           "type": "event",
@@ -320,30 +344,6 @@
           "start": "2026-07-01T03:00:00.000Z",
           "end": "2026-08-11T02:59:00.000Z",
           "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21749"
-        },
-        {
-          "id": "gi-hoyolab-official-45478500",
-          "title": "Kaleidoscopic Color Chase",
-          "type": "event",
-          "start": "2026-06-18T09:00:00.000Z",
-          "end": "2026-06-29T02:59:00.000Z",
-          "url": null
-        },
-        {
-          "id": "gi-hoyolab-official-45349300",
-          "title": "Trials of the Brave Warrior",
-          "type": "event",
-          "start": "2026-06-08T09:00:00.000Z",
-          "end": "2026-06-18T02:59:00.000Z",
-          "url": null
-        },
-        {
-          "id": "gi-hoyolab-official-45197150",
-          "title": "Stygian Onslaught",
-          "type": "challenge",
-          "start": "2026-05-27T09:00:00.000Z",
-          "end": "2026-06-30T02:59:00.000Z",
-          "url": null
         }
       ],
       "codes": [
@@ -389,7 +389,7 @@
         "remaining": {
           "startsAt": "2026-08-05T11:00:00.000Z",
           "endsAt": "2026-08-25T14:00:00.000Z",
-          "durationSeconds": 1474966
+          "durationSeconds": 1463239
         },
         "characters": [
           {
@@ -712,12 +712,68 @@
       "upcoming": [],
       "news": [
         {
+          "id": "hsr-hoyo-ann-59582dfb96bb",
+          "title": "Version 4.4 Event Warp: Phase II",
+          "type": "banner",
+          "start": "2026-08-03T22:00:00.000Z",
+          "end": "2026-08-25T14:00:00.000Z",
+          "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1294"
+        },
+        {
+          "id": "hsr-hoyo-ann-cf76d1646b14",
+          "title": "Planar Fissure Event: Planar Ornaments Drop Rate Doubled for a Limited Time",
+          "type": "event",
+          "start": "2026-07-27T03:00:00.000Z",
+          "end": "2026-08-10T02:59:00.000Z",
+          "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1338"
+        },
+        {
+          "id": "hsr-hoyo-ann-38b45482599c",
+          "title": "\"Imagenae: Holy Grail War\" Event Details",
+          "type": "event",
+          "start": "2026-07-22T21:00:00.000Z",
+          "end": "2026-08-25T16:00:00.000Z",
+          "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1304"
+        },
+        {
           "id": "hsr-hoyo-ann-12c1a7a21c89",
-          "title": "Realm of the Strange Event: Cavern Relic Drop Rate Doubled For a Limited Time",
-          "type": "challenge",
-          "start": "2026-07-03T03:00:00.000Z",
-          "end": "2026-07-13T02:59:00.000Z",
+          "title": "\"Antigraft Brickbuster\": Complete hacking operations to obtain Self-Modeling Resins, Tracks of Destiny, Stellar Jades, and more!",
+          "type": "event",
+          "start": "2026-07-13T21:30:00.000Z",
+          "end": "2026-08-25T13:59:00.000Z",
           "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1301"
+        },
+        {
+          "id": "hsr-hoyo-ann-5869c3577b20",
+          "title": "\"Currency Wars: Zero-Sum Game\" Season Expansion Details V4.4",
+          "type": "event",
+          "start": "2026-07-12T22:00:00.000Z",
+          "end": "2026-11-10T16:00:00.000Z",
+          "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1296"
+        },
+        {
+          "id": "hsr-hoyo-ann-ca5a1c47222c",
+          "title": "Version 4.4 Store Update",
+          "type": "event",
+          "start": "2026-07-03T07:00:00.000Z",
+          "end": "2026-08-25T16:00:00.000Z",
+          "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1299"
+        },
+        {
+          "id": "hsr-hoyo-ann-093f57d0dc07",
+          "title": "Fate[UBW] Collaboration Warp Details",
+          "type": "banner",
+          "start": "2026-07-03T06:55:00.000Z",
+          "end": null,
+          "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1339"
+        },
+        {
+          "id": "hsr-hoyo-ann-df1a5352d767",
+          "title": "Stellar Companions: Log in to receive Golden Companion Spirit ×1",
+          "type": "event",
+          "start": "2026-04-10T06:55:00.000Z",
+          "end": "2026-08-25T16:00:00.000Z",
+          "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1232"
         }
       ],
       "codes": [
@@ -763,7 +819,7 @@
         "remaining": {
           "startsAt": "2026-07-29T03:00:00.000Z",
           "endsAt": "2026-08-19T03:59:59.000Z",
-          "durationSeconds": 920565
+          "durationSeconds": 908838
         },
         "characters": [
           {
@@ -1002,6 +1058,54 @@
       "upcoming": [],
       "news": [
         {
+          "id": "zzz-hoyo-ann-e5b14140c51c",
+          "title": "\"Snap! Focus Showdown!\" Event Details",
+          "type": "event",
+          "start": "2026-08-07T09:00:00.000Z",
+          "end": "2026-08-24T02:59:00.000Z",
+          "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1241"
+        },
+        {
+          "id": "zzz-hoyo-ann-3d5f728e1856",
+          "title": "\"Marcel Anniversary Gift\" Event Details",
+          "type": "event",
+          "start": "2026-07-27T12:45:00.000Z",
+          "end": "2026-09-09T05:00:00.000Z",
+          "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=220"
+        },
+        {
+          "id": "zzz-hoyo-ann-c3848dccb384",
+          "title": "\"Filmgoer Thank-You Gift\" Event Details",
+          "type": "event",
+          "start": "2026-07-27T12:30:00.000Z",
+          "end": "2026-09-09T05:00:00.000Z",
+          "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=226"
+        },
+        {
+          "id": "zzz-hoyo-ann-17f16d0daaf4",
+          "title": "Version 3.1 New Stock in the Store",
+          "type": "event",
+          "start": "2026-07-27T12:00:00.000Z",
+          "end": "2026-09-09T05:00:00.000Z",
+          "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=219"
+        },
+        {
+          "id": "zzz-hoyo-ann-424df948a6d9",
+          "title": "New Story: Season 3 Chapter 2 \"The Long Goodbye\"",
+          "type": "event",
+          "start": "2026-07-27T11:45:00.000Z",
+          "end": "2026-09-09T05:00:00.000Z",
+          "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=227"
+        },
+        {
+          "id": "zzz-hoyo-ann-44796e8ea65a",
+          "title": "V3.1 Limited-Time Channels",
+          "type": "event",
+          "start": "2026-07-27T11:30:00.000Z",
+          "end": "2026-09-08T13:59:59.000Z",
+          "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=218"
+        },
+        {
           "id": "zzz-hoyo-ann-ceed88e3718a",
           "title": "\"Data Bounty: Combat Simulation\" Event Details",
           "type": "challenge",
@@ -1016,54 +1120,6 @@
           "start": "2026-07-08T09:00:00.000Z",
           "end": "2026-07-28T02:59:00.000Z",
           "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1226"
-        },
-        {
-          "id": "zzz-hoyo-ann-3df8e967840a",
-          "title": "\"Tales of the Hobbling Crow\" Event Details",
-          "type": "event",
-          "start": "2026-07-03T09:00:00.000Z",
-          "end": "2026-07-20T02:59:00.000Z",
-          "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1203"
-        },
-        {
-          "id": "zzz-hoyo-ann-96040c408314",
-          "title": "\"Assemble! Mock Exam Comeback Plan\" Event Details",
-          "type": "event",
-          "start": "2026-06-26T09:00:00.000Z",
-          "end": "2026-07-27T02:59:00.000Z",
-          "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1204"
-        },
-        {
-          "id": "zzz-hoyo-ann-768a78af26a9",
-          "title": "\"Gleaming Shadow Team Battle\" Event Details",
-          "type": "event",
-          "start": "2026-06-19T09:00:00.000Z",
-          "end": "2026-07-13T02:59:00.000Z",
-          "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1201"
-        },
-        {
-          "id": "zzz-hoyo-ann-a3834de7f2e7",
-          "title": "\"Return to Ridu: Together in a New Chapter\" Event Details",
-          "type": "event",
-          "start": "2026-06-06T19:30:00.000Z",
-          "end": "2026-07-17T02:59:00.000Z",
-          "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1189"
-        },
-        {
-          "id": "zzz-hoyo-ann-3b30c16ee6c6",
-          "title": "\"Celestial Nexus Intelligence Dossier\" Event Details",
-          "type": "event",
-          "start": null,
-          "end": null,
-          "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1205"
-        },
-        {
-          "id": "zzz-hoyo-ann-7474b8fa7526",
-          "title": "\"All-New Program\" Event Details",
-          "type": "event",
-          "start": null,
-          "end": null,
-          "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1200"
         }
       ],
       "codes": [
@@ -1097,7 +1153,7 @@
         "remaining": {
           "startsAt": "2026-07-30T09:00:00.000Z",
           "endsAt": "2026-08-19T10:59:00.000Z",
-          "durationSeconds": 945706
+          "durationSeconds": 933979
         },
         "characters": [
           {
@@ -1360,6 +1416,30 @@
           "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5076"
         },
         {
+          "id": "wuwa-kuro-article-05ab971d1575",
+          "title": "[Firstlight's Herald] Featured Weapon Convene",
+          "type": "banner",
+          "start": "2026-07-30T02:00:00.000Z",
+          "end": "2026-08-19T03:59:00.000Z",
+          "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5236"
+        },
+        {
+          "id": "wuwa-kuro-article-58f2df3a5ff0",
+          "title": "[Blessings From Dewy Winds] Featured Resonator Convene",
+          "type": "banner",
+          "start": "2026-07-30T02:00:00.000Z",
+          "end": "2026-08-19T03:59:00.000Z",
+          "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5227"
+        },
+        {
+          "id": "wuwa-kuro-article-ec83f0c0e367",
+          "title": "[Version 3.5 Featured Resonator/Weapon Convene: Phase II]",
+          "type": "banner",
+          "start": "2026-07-30T02:00:00.000Z",
+          "end": "2026-08-19T03:59:00.000Z",
+          "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5220"
+        },
+        {
           "id": "wuwa-kuro-article-10dc1ae9d256",
           "title": "[Version 3.5 Featured Resonator/Weapon Convene: Phase I]",
           "type": "banner",
@@ -1374,30 +1454,6 @@
           "start": "2026-07-30T01:59:00.000Z",
           "end": null,
           "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5056"
-        },
-        {
-          "id": "wuwa-kuro-article-8a215c4e435a",
-          "title": "[Voices on Azure Feathers] Featured Resonator Convene",
-          "type": "banner",
-          "start": "2026-07-30T01:59:00.000Z",
-          "end": null,
-          "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5047"
-        },
-        {
-          "id": "wuwa-kuro-article-f493272cbb50",
-          "title": "Event Preview | [Lament Recon: Tacet Crisis] Combat Event, Coming Soon!",
-          "type": "challenge",
-          "start": "2026-07-11T02:00:00.000Z",
-          "end": "2026-08-19T03:59:00.000Z",
-          "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5129"
-        },
-        {
-          "id": "wuwa-kuro-article-09c96389754d",
-          "title": "[Spectral Trigger] Collab Weapon Convene",
-          "type": "banner",
-          "start": "2026-07-09T03:59:00.000Z",
-          "end": null,
-          "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4844"
         }
       ],
       "codes": [
@@ -1431,7 +1487,7 @@
         "remaining": {
           "startsAt": "2026-07-16T04:00:00.000Z",
           "endsAt": "2026-08-09T03:59:59.000Z",
-          "durationSeconds": 56565
+          "durationSeconds": 44838
         },
         "characters": [
           {

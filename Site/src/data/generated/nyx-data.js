@@ -4,7 +4,7 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-08-08T13:06:16.412Z",
+  "generatedAt": "2026-08-08T15:32:37.546Z",
   "codes": {
     "updated": "2026-08-08T07:34:01.172Z",
     "maxAgeDays": 28,
@@ -147527,6 +147527,185 @@ var NYX_DB = {
           "forms": []
         },
         {
+          "id": "gi-traveler",
+          "name": "Traveler",
+          "aliases": [
+            "Aether",
+            "Lumine"
+          ],
+          "title": "Descender",
+          "rarity": 5,
+          "element": "Anemo",
+          "role": "Sword",
+          "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
+          "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
+          "facts": {
+            "constellation": "Viator"
+          },
+          "overviewArt": "../../Database/GameData/gi/gcg/other cards/assets/332001-The Bestest Travel Companion!.webp",
+          "overviewArtPool": [
+            "../../Database/GameData/gi/gcg/other cards/assets/332001-The Bestest Travel Companion!.webp"
+          ],
+          "forms": [
+            {
+              "name": "Traveler",
+              "label": "Anemo",
+              "variant": "Anemo",
+              "gender": "male",
+              "element": "Anemo",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
+              "facts": {
+                "constellation": "Viator"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Anemo",
+              "variant": "Anemo",
+              "gender": "female",
+              "element": "Anemo",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
+              "facts": {
+                "constellation": "Viatrix"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Geo",
+              "variant": "Geo",
+              "gender": "male",
+              "element": "Geo",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
+              "facts": {
+                "constellation": "Viator"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Geo",
+              "variant": "Geo",
+              "gender": "female",
+              "element": "Geo",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
+              "facts": {
+                "constellation": "Viatrix"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Electro",
+              "variant": "Electro",
+              "gender": "male",
+              "element": "Electro",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
+              "facts": {
+                "constellation": "Viator"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Electro",
+              "variant": "Electro",
+              "gender": "female",
+              "element": "Electro",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
+              "facts": {
+                "constellation": "Viatrix"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Dendro",
+              "variant": "Dendro",
+              "gender": "male",
+              "element": "Dendro",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
+              "facts": {
+                "constellation": "Viator"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Dendro",
+              "variant": "Dendro",
+              "gender": "female",
+              "element": "Dendro",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
+              "facts": {
+                "constellation": "Viatrix"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Hydro",
+              "variant": "Hydro",
+              "gender": "male",
+              "element": "Hydro",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
+              "facts": {
+                "constellation": "Viator"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Hydro",
+              "variant": "Hydro",
+              "gender": "female",
+              "element": "Hydro",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
+              "facts": {
+                "constellation": "Viatrix"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Pyro",
+              "variant": "Pyro",
+              "gender": "male",
+              "element": "Pyro",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
+              "facts": {
+                "constellation": "Viator"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Pyro",
+              "variant": "Pyro",
+              "gender": "female",
+              "element": "Pyro",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
+              "facts": {
+                "constellation": "Viatrix"
+              }
+            }
+          ]
+        },
+        {
           "id": "gi-10000016",
           "name": "Diluc",
           "aliases": [],
@@ -148016,185 +148195,6 @@ var NYX_DB = {
             "../../Database/GameData/gi/gcg/character cards/assets/1202-Xingqiu.webp"
           ],
           "forms": []
-        },
-        {
-          "id": "gi-traveler",
-          "name": "Traveler",
-          "aliases": [
-            "Aether",
-            "Lumine"
-          ],
-          "title": "Descender",
-          "rarity": 5,
-          "element": "Anemo",
-          "role": "Sword",
-          "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
-          "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
-          "facts": {
-            "constellation": "Viator"
-          },
-          "overviewArt": "../../Database/GameData/gi/gcg/other cards/assets/332001-The Bestest Travel Companion!.webp",
-          "overviewArtPool": [
-            "../../Database/GameData/gi/gcg/other cards/assets/332001-The Bestest Travel Companion!.webp"
-          ],
-          "forms": [
-            {
-              "name": "Traveler",
-              "label": "Anemo",
-              "variant": "Anemo",
-              "gender": "male",
-              "element": "Anemo",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
-              "facts": {
-                "constellation": "Viator"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Anemo",
-              "variant": "Anemo",
-              "gender": "female",
-              "element": "Anemo",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
-              "facts": {
-                "constellation": "Viatrix"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Geo",
-              "variant": "Geo",
-              "gender": "male",
-              "element": "Geo",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
-              "facts": {
-                "constellation": "Viator"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Geo",
-              "variant": "Geo",
-              "gender": "female",
-              "element": "Geo",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
-              "facts": {
-                "constellation": "Viatrix"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Electro",
-              "variant": "Electro",
-              "gender": "male",
-              "element": "Electro",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
-              "facts": {
-                "constellation": "Viator"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Electro",
-              "variant": "Electro",
-              "gender": "female",
-              "element": "Electro",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
-              "facts": {
-                "constellation": "Viatrix"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Dendro",
-              "variant": "Dendro",
-              "gender": "male",
-              "element": "Dendro",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
-              "facts": {
-                "constellation": "Viator"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Dendro",
-              "variant": "Dendro",
-              "gender": "female",
-              "element": "Dendro",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
-              "facts": {
-                "constellation": "Viatrix"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Hydro",
-              "variant": "Hydro",
-              "gender": "male",
-              "element": "Hydro",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
-              "facts": {
-                "constellation": "Viator"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Hydro",
-              "variant": "Hydro",
-              "gender": "female",
-              "element": "Hydro",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
-              "facts": {
-                "constellation": "Viatrix"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Pyro",
-              "variant": "Pyro",
-              "gender": "male",
-              "element": "Pyro",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
-              "facts": {
-                "constellation": "Viator"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Pyro",
-              "variant": "Pyro",
-              "gender": "female",
-              "element": "Pyro",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
-              "facts": {
-                "constellation": "Viatrix"
-              }
-            }
-          ]
         }
       ]
     },

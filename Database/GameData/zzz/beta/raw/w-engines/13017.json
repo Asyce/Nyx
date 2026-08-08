@@ -3,7 +3,7 @@
   "code_name": "Weapon_A_Common_17",
   "name": "Catty Luck",
   "desc": "...",
-  "desc2": "Equip to increase Defense Agents' combat capabilities",
+  "desc2": "Equip to increase Armorer Agents' combat capabilities",
   "desc3": "...",
   "rarity": 3,
   "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIconWeapon/UnPacker/Weapon_A_Common_17.png",
@@ -14,7 +14,7 @@
     "name": "Base DEF",
     "name2": "Base DEF",
     "format": "{0:0.#}",
-    "value": 23
+    "value": 24
   },
   "rand_property": {
     "name": "DEF",
@@ -355,27 +355,27 @@
       "rand_rate": 15000
     }
   },
-  "materials": "10:9600,101014:3|10:22400,101024:10|10:48000,101024:16|10:80000,101034:8|10:160000,101034:16",
+  "materials": "10:9600,101016:3|10:22400,101026:10|10:48000,101026:16|10:80000,101036:8|10:160000,101036:16",
   "talents": {
     "1": {
       "name": "...",
-      "desc": "DEF increases by <color=#2BAD00>6%</color>; when casting <color=#FFFFFF>[EX Special Attack]</color>, DEF additionally increases by <color=#2BAD00>6%</color> for 15 sec. Repeated triggers reset the duration."
+      "desc": "DEF increases by <color=#2BAD00>8%</color>; when casting <color=#FFFFFF>[EX Special Attack]</color>, DEF additionally increases by <color=#2BAD00>8%</color> for 15 sec. Repeated triggers reset the duration."
     },
     "2": {
       "name": "...",
-      "desc": "DEF increases by <color=#2BAD00>7%</color>; when casting <color=#FFFFFF>[EX Special Attack]</color>, DEF additionally increases by <color=#2BAD00>7%</color> for 15 sec. Repeated triggers reset the duration."
+      "desc": "DEF increases by <color=#2BAD00>9%</color>; when using <color=#FFFFFF>[EX Special Attack]</color>, DEF additionally increases by <color=#2BAD00>9%</color> for 15 sec. Repeated triggers reset the duration."
     },
     "3": {
       "name": "...",
-      "desc": "DEF increases by <color=#2BAD00>8%</color>; when casting <color=#FFFFFF>[EX Special Attack]</color>, DEF additionally increases by <color=#2BAD00>8%</color> for 15 sec. Repeated triggers reset the duration."
+      "desc": "DEF increases by <color=#2BAD00>10%</color>; when using <color=#FFFFFF>[EX Special Attack]</color>, DEF additionally increases by <color=#2BAD00>10%</color> for 15 sec. Repeated triggers reset the duration."
     },
     "4": {
       "name": "...",
-      "desc": "DEF increases by <color=#2BAD00>9%</color>; when casting <color=#FFFFFF>[EX Special Attack]</color>, DEF additionally increases by <color=#2BAD00>9%</color> for 15 sec; repeated triggers reset the duration."
+      "desc": "DEF increases by <color=#2BAD00>11%</color>; when using <color=#FFFFFF>[EX Special Attack]</color>, DEF additionally increases by <color=#2BAD00>11%</color> for 15 sec. Repeated triggers reset the duration."
     },
     "5": {
       "name": "...",
-      "desc": "DEF increases by <color=#2BAD00>10%</color>; when casting <color=#FFFFFF>[EX Special Attack]</color>, DEF additionally increases by <color=#2BAD00>10%</color> for 15 sec. Repeated triggers reset the duration."
+      "desc": "DEF increases by <color=#2BAD00>12%</color>; when using <color=#FFFFFF>[EX Special Attack]</color>, DEF additionally increases by <color=#2BAD00>12%</color> for 15 sec. Repeated triggers reset the duration."
     }
   }
 }

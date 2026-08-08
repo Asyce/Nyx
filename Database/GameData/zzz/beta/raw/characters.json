@@ -1540,7 +1540,7 @@
     "ja": "シグリッド"
   },
   "1611": {
-    "code": "Claret",
+    "code": "Avatar_Female_Size02_Claret_En",
     "rank": 4,
     "type": 7,
     "element": 203,
@@ -1548,12 +1548,12 @@
     "camp": 16,
     "icon": "",
     "potential": [],
-    "en": "Claret",
+    "en": "Avatar_Female_Size02_Claret",
     "skin": {},
     "desc": "Partner_ProfileDesc_1611",
     "ko": "Avatar_Female_Size02_Claret",
     "zh": "克拉蕾",
-    "ja": "クラレッタ"
+    "ja": "Avatar_Female_Size02_Claret"
   },
   "1621": {
     "code": "Roxy",

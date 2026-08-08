@@ -19507,7 +19507,7 @@
           },
           {
             "name": "Basic Attack: Smash 'n' Bash",
-            "desc": "Press <IconMap:Icon_Normal> to activate:\nUnleashes up to four Strikes forward, dealing <color=#F0D12B>Physical DMG</color>;\nWhen Koleda has the <color=#FFFFFF>[Furnace Fire]</color> effect, she can launch an Enhanced <color=#FFFFFF>[Basic Attack]</color> after the second Strike, consuming the <color=#FFFFFF>[Furnace Fire]</color> effect and dealing massive <color=#FF5521>Fire DMG</color>;\nThe <color=#FFFFFF>[Furnace Fire]</color> effect can stack up to 2 times. Launching an Enhanced <color=#FFFFFF>[Basic Attack]</color> consumes all <color=#FFFFFF>[Furnace Fire]</color> stacks and deals additional <color=#FF5521>Fire DMG</color> based on the number of stacks consumed;\nWhen <color=#FFFFFF>[Furnace Fire]</color> is consumed, DMG dealt by all Agents in the squad increases by 25% for 40s. Repeated triggers refresh the duration;\nThe Enhanced <color=#FFFFFF>[Basic Attack]</color> consists of two stages. After launching the first stage, press or hold <IconMap:Icon_Normal> to chain into the second stage, and the follow-up attack effect of the first stage Enhanced <color=#FFFFFF>[Basic Attack]</color> is strengthened;\nWhen 2 stacks of <color=#FFFFFF>[Furnace Fire]</color> are consumed to launch the first stage Enhanced <color=#FFFFFF>[Basic Attack]</color>, if an Agent switch occurs during it, Koleda will automatically launch the second stage Enhanced <color=#FFFFFF>[Basic Attack]</color> on-field;\nWhen Koleda and Ben are both deployed, launching an Enhanced <color=#FFFFFF>[Basic Attack]</color> without switching Agents during the first stage Enhanced <color=#FFFFFF>[Basic Attack]</color> will trigger a Coordinated Attack performed by both, further increasing the skill's power;\nCharacter is invulnerable during the fourth stage of <color=#FFFFFF>[Basic Attack]</color> and during the Enhanced <color=#FFFFFF>[Basic Attack]</color>.",
+            "desc": "Press <IconMap:Icon_Normal> to activate:\nUnleashes up to four Strikes forward, dealing <color=#F0D12B>Physical DMG</color>;\nWhen Koleda has the <color=#FFFFFF>[Furnace Fire]</color> effect, she can launch an Enhanced <color=#FFFFFF>[Basic Attack]</color> after the 2nd hit, consuming the <color=#FFFFFF>[Furnace Fire]</color> effect and dealing massive <color=#FF5521>Fire DMG</color>;\nThe Enhanced <color=#FFFFFF>[Basic Attack]</color> consists of two parts. After launching the 1st part, press or hold <IconMap:Icon_Normal> to chain into the 2nd part, and the follow-up attack effect of the 1st Enhanced <color=#FFFFFF>[Basic Attack]</color> is strengthened;\nThe <color=#FFFFFF>[Furnace Fire]</color> effect can stack up to 2 times. Launching an Enhanced <color=#FFFFFF>[Basic Attack]</color> consumes all <color=#FFFFFF>[Furnace Fire]</color> stacks;\nWhen <color=#FFFFFF>[Furnace Fire]</color> is consumed, DMG dealt by the whole squad's Agents is increased by 35%, lasting 40s. Repeated triggers refresh the duration. Additionally, for each stack of <color=#FFFFFF>[Furnace Fire]</color> consumed, the DMG dealt by the 2nd Enhanced <color=#FFFFFF>[Basic Attack]</color> is increased by 10%, and the Daze inflicted is increased by 20%;\nIf an Agent switch is performed during the 1st Enhanced <color=#FFFFFF>[Basic Attack]</color>, Koleda will automatically launch the 2nd Enhanced <color=#FFFFFF>[Basic Attack]</color> on-field;\nWhen Koleda and Ben are both in the squad, launching an Enhanced <color=#FFFFFF>[Basic Attack]</color> without switching Agents during the 1st Enhanced <color=#FFFFFF>[Basic Attack]</color> will trigger a Coordinated Attack performed by both, further increasing the skill's power;\nCharacter is invulnerable during the 4th hit of the <color=#FFFFFF>[Basic Attack]</color> and during the Enhanced <color=#FFFFFF>[Basic Attack]</color>;\nThe invulnerability duration of the 2nd Enhanced <color=#FFFFFF>[Basic Attack]</color> is extended.",
             "potential": [
               110100,
               110101,
@@ -19703,30 +19703,6 @@
                 "potential": []
               },
               {
-                "name": "Enhance [Basic Attack] consumes 1 floor of [Furnace Fire] additional DMG Multiplier",
-                "desc": "75%",
-                "potential": [
-                  110100,
-                  110101,
-                  110102,
-                  110103,
-                  110104,
-                  110105
-                ]
-              },
-              {
-                "name": "Enhance [Basic Attack] consume 2 floor [Furnace Fire] extra DMG Multiplier",
-                "desc": "150%",
-                "potential": [
-                  110100,
-                  110101,
-                  110102,
-                  110103,
-                  110104,
-                  110105
-                ]
-              },
-              {
                 "name": "1st-Hit Daze Multiplier",
                 "desc": "{Skill:1101001, Prop:1002}",
                 "param": {
@@ -19907,30 +19883,6 @@
                   }
                 },
                 "potential": []
-              },
-              {
-                "name": "Enhance [Basic Attack] consume 1 floor of [Furnace Fire] additional Daze Multiplier",
-                "desc": "50%",
-                "potential": [
-                  110100,
-                  110101,
-                  110102,
-                  110103,
-                  110104,
-                  110105
-                ]
-              },
-              {
-                "name": "Enhance [Basic Attack] consume 2 floor [Furnace Fire] extra Daze Multiplier",
-                "desc": "100%",
-                "potential": [
-                  110100,
-                  110101,
-                  110102,
-                  110103,
-                  110104,
-                  110105
-                ]
               }
             ],
             "potential": []
@@ -19954,7 +19906,7 @@
           },
           {
             "name": "Dash Attack: Tremble!",
-            "desc": "Press <IconMap:Icon_Normal> during a dodge to activate:\nStrikes forward, dealing <color=#F0D12B>Physical DMG</color>.\nDuring this skill, if holding <color=#FFFFFF>[Furnace Fire]</color>, hold <IconMap:Icon_Normal> to chain into an Enhanced <color=#FFFFFF>[Basic Attack]</color>.",
+            "desc": "Press <IconMap:Icon_Normal> during a dodge to activate:\nStrike forward, dealing <color=#F0D12B>Physical DMG</color>.\nDuring this skill, if holding <color=#FFFFFF>[Furnace Fire]</color>, Anti-Interrupt level is increased. Hold <IconMap:Icon_Normal> to chain into an Enhanced <color=#FFFFFF>[Basic Attack]</color>.",
             "potential": [
               110100,
               110101,
@@ -19967,7 +19919,21 @@
           {
             "name": "Dodge Counter: Don't Look Down on Me",
             "desc": "Press <IconMap:Icon_Normal> during a <color=#FFFFFF>Perfect Dodge</color> to activate:\nStrikes enemies in front and creates an explosion, dealing <color=#FF5521>Fire DMG</color>.\nCharacter is invulnerable while using this skill.",
-            "potential": []
+            "potential": [
+              0
+            ]
+          },
+          {
+            "name": "Dodge Counter: Don't Look Down on Me",
+            "desc": "Press <IconMap:Icon_Normal> during a <color=#FFFFFF>Perfect Dodge</color> to activate:\nStrikes enemies in front and creates an explosion, dealing <color=#FF5521>Fire DMG</color>.\nCharacter is invulnerable while using this skill. If <color=#FFFFFF>[Furnace Fire]</color> is active, hold <IconMap:Icon_Normal> to follow up with an Enhanced <color=#FFFFFF>[Basic Attack]</color>.",
+            "potential": [
+              110100,
+              110101,
+              110102,
+              110103,
+              110104,
+              110105
+            ]
           },
           {
             "name": "Dash Attack: Tremble!",
@@ -20099,7 +20065,7 @@
           },
           {
             "name": "Special Attack: Hammer Time",
-            "desc": "Press <IconMap:Icon_Special> to activate:\nStrikes enemies in front and triggers an explosion, dealing <color=#FF5521>Fire DMG</color>.\nThis skill launches faster and triggers an explosion when used after the 2nd or 4th hit of Koleda's <color=#FFFFFF>[Basic Attack]</color> or enhanced <color=#FFFFFF>[Basic Attack]</color>.\nDuring the 2nd hit of <color=#FFFFFF>[Basic Attack]</color>, hold <IconMap:Icon_Normal> to directly trigger an explosion.\nWhen Koleda and Ben are both in your squad, and this skill is quickly launched after an enhanced <color=#FFFFFF>[Basic Attack]</color>, they team up to launch a Coordinated Attack, further increasing the power of the skill.\nAnti-Interrupt level is increased while using this skill.",
+            "desc": "Press <IconMap:Icon_Special> to activate:\nStrikes enemies in front and triggers an explosion, dealing <color=#FF5521>Fire DMG</color>.\nThis skill launches faster and triggers an explosion when used after the 2nd or 4th hit of Koleda's <color=#FFFFFF>[Basic Attack]</color> or enhanced <color=#FFFFFF>[Basic Attack]</color>.\nDuring the 2nd hit of <color=#FFFFFF>[Basic Attack]</color>, hold <IconMap:Icon_Normal> to directly trigger the explosion.\nWhen Koleda and Ben are both in your squad, and this skill is quickly launched after an enhanced <color=#FFFFFF>[Basic Attack]</color>, they team up to launch a Coordinated Attack, further increasing the power of the skill.\nAnti-Interrupt level is increased while using this skill.",
             "potential": [
               110100,
               110101,
@@ -20118,7 +20084,7 @@
           },
           {
             "name": "EX Special Attack: Boiling Furnace",
-            "desc": "With enough Energy, press <IconMap:Icon_SpecialReady> to activate:\nStrikes enemies in front and triggers a powerful explosion, dealing massive <color=#FF5521>Fire DMG</color>. Koleda also gains the <color=#FFFFFF>Furnace Fire</color> effect.\nThis skill activates faster and triggers an explosion when used after the 2nd or 4th hit of Koleda's <color=#FFFFFF>Basic Attack</color> or enhanced <color=#FFFFFF>Basic Attack</color>. Daze inflicted by explosions triggered this way is increased by 10%.\nWhen Koleda and Ben are both in your squad and this skill is quickly launched after an enhanced <color=#FFFFFF>Basic Attack</color>, they team up to launch a Coordinated Attack, further increasing the power of the skill.\nCharacter is invulnerable while using this skill.",
+            "desc": "With enough Energy, press <IconMap:Icon_SpecialReady> to activate:\nStrikes enemies in front and triggers a powerful explosion, dealing massive <color=#FF5521>Fire DMG</color>. Koleda also gains the <color=#FFFFFF>Furnace Fire</color> effect.\nThis skill activates faster and triggers an explosion when used after the 2nd or 4th hit of Koleda's <color=#FFFFFF>Basic Attack</color> or enhanced <color=#FFFFFF>Basic Attack</color>. Daze inflicted by the explosion triggered this way is increased by 10%.\nWhen Koleda and Ben are both in your squad and this skill is quickly launched after an enhanced <color=#FFFFFF>Basic Attack</color>, they team up to launch a Coordinated Attack, further increasing the power of the skill.\nCharacter is invulnerable while using this skill. Hold <IconMap:Icon_Normal> to chain into <color=#FFFFFF>Dash Attack: Tremble!</color>.",
             "potential": [
               110100,
               110101,
@@ -20470,7 +20436,21 @@
           {
             "name": "Ultimate: Hammerquake",
             "desc": "When Decibel Rating is at <color=#FFFFFF>Maximum</color>, press <IconMap:Icon_UltimateReady> to activate:\nUnleashes a powerful explosion on enemies in a large area in front, dealing massive <color=#FF5521>Fire DMG</color> while also obtaining the <color=#FFFFFF>Furnace Fire</color> effect.\nKoleda and Ben can team up when fighting together to launch a coordinated attack, further increasing the power of the attack.\nCharacter is invulnerable while using this skill.",
-            "potential": []
+            "potential": [
+              0
+            ]
+          },
+          {
+            "name": "Ultimate: Hammerquake",
+            "desc": "When Decibel Rating is at <color=#FFFFFF>Maximum</color>, press <IconMap:Icon_UltimateReady> to activate:\nUnleashes a powerful explosion on enemies in a large area in front, dealing massive <color=#FF5521>Fire DMG</color> while also obtaining the <color=#FFFFFF>Furnace Fire</color> effect.\nKoleda and Ben can team up when fighting together to launch a coordinated attack, further increasing the power of the attack.\nCharacter is invulnerable while using this skill. Hold <IconMap:Icon_Normal> to follow up with <color=#FFFFFF>Dash Attack: Tremble!</color>.",
+            "potential": [
+              110100,
+              110101,
+              110102,
+              110103,
+              110104,
+              110105
+            ]
           },
           {
             "name": "Chain Attack: Natural Disaster",
@@ -20658,7 +20638,21 @@
           {
             "name": "Assist Follow-Up: Hammer Bell",
             "desc": "Press <IconMap:Icon_Normal> after a <color=#FFFFFF>Defensive Assist</color> to activate:\nKoleda charges and strikes enemies in front, dealing <color=#FF5521>Fire DMG</color> and obtaining <color=#FFFFFF>Furnace Fire</color> effect.\nCharacter is invulnerable while using this skill.",
-            "potential": []
+            "potential": [
+              0
+            ]
+          },
+          {
+            "name": "Assist Follow-Up: Hammer Bell",
+            "desc": "Press <IconMap:Icon_Normal> after a <color=#FFFFFF>Defensive Assist</color> to activate:\nKoleda charges and strikes enemies in front, dealing <color=#FF5521>Fire DMG</color> and obtaining <color=#FFFFFF>Furnace Fire</color> effect.\nCharacter is invulnerable while using this skill. Hold <IconMap:Icon_Normal> to follow up with <color=#FFFFFF>Dash Attack: Tremble!</color>.",
+            "potential": [
+              110100,
+              110101,
+              110102,
+              110103,
+              110104,
+              110105
+            ]
           },
           {
             "name": "Quick Assist: Coming Thru!",
@@ -21354,7 +21348,7 @@
         "110101": {
           "id": 110101,
           "name": "Awakened Potential: Placeholder",
-          "desc": "Increases CRIT Rate of [Armorer] Agents in the squad by <color=#2BAD00>8%</color>, and CRIT DMG of non-[Armorer] Agents by <color=#2BAD00>16%</color>.",
+          "desc": "Increases CRIT Rate of [Armorer] Agents in the squad by <color=#2BAD00>12%</color>, and CRIT DMG of non-[Armorer] Agents by <color=#2BAD00>21%</color>.",
           "image": "Koleda",
           "level_show_name": "Awakened Potential II",
           "level": 2,
@@ -21372,7 +21366,7 @@
         "110102": {
           "id": 110102,
           "name": "Awakened Potential: Placeholder",
-          "desc": "Increases CRIT Rate of [Armorer] Agents in the squad by <color=#2BAD00>10%</color>, and CRIT DMG of non-[Armorer] Agents by <color=#2BAD00>20%</color>.",
+          "desc": "Increases CRIT Rate of [Armorer] Agents in the squad by <color=#2BAD00>14%</color>, and CRIT DMG of non-[Armorer] Agents by <color=#2BAD00>24.5%</color>.",
           "image": "Koleda",
           "level_show_name": "Awakened Potential III",
           "level": 3,
@@ -21390,7 +21384,7 @@
         "110103": {
           "id": 110103,
           "name": "Awakened Potential: Placeholder",
-          "desc": "Increases CRIT Rate of [Armorer] Agents in the squad by <color=#2BAD00>12%</color>, and CRIT DMG of non-[Armorer] Agents by <color=#2BAD00>24%</color>.",
+          "desc": "Increases CRIT Rate of [Armorer] Agents in the squad by <color=#2BAD00>16%</color>, and CRIT DMG of non-[Armorer] Agents by <color=#2BAD00>28%</color>.",
           "image": "Koleda",
           "level_show_name": "Awakened Potential IV",
           "level": 4,
@@ -21408,7 +21402,7 @@
         "110104": {
           "id": 110104,
           "name": "Awakened Potential: Placeholder",
-          "desc": "Increases CRIT Rate of [Armorer] Agents in the squad by <color=#2BAD00>14%</color>, and CRIT DMG of non-[Armorer] Agents by <color=#2BAD00>28%</color>.",
+          "desc": "Increases CRIT Rate of [Armorer] Agents in the squad by <color=#2BAD00>18%</color>, and CRIT DMG of non-[Armorer] Agents by <color=#2BAD00>31.5%</color>.",
           "image": "Koleda",
           "level_show_name": "Awakened Potential V",
           "level": 5,
@@ -21426,7 +21420,7 @@
         "110105": {
           "id": 110105,
           "name": "Awakened Potential: Placeholder",
-          "desc": "Increases CRIT Rate of [Armorer] Agents in the squad by <color=#2BAD00>16%</color>, and CRIT DMG of non-[Armorer] Agents by <color=#2BAD00>32%</color>.",
+          "desc": "Increases CRIT Rate of [Armorer] Agents in the squad by <color=#2BAD00>20%</color>, and CRIT DMG of non-[Armorer] Agents by <color=#2BAD00>35%</color>.",
           "image": "Koleda",
           "level_show_name": "Awakened Potential VI",
           "level": 6,
@@ -21445,7 +21439,7 @@
     },
     "liveComparison": {
       "liveHash": "6f2d3ab4bfcaa7a839f6ae210a42ae0cd0ee2f166239a2a0b8e869af09a2fab4",
-      "currentHash": "7b8d1e919b7b03a265a9aa1c0ea51d7badfe3d5dfb2e557a1ffee3e5e5e0aa6d"
+      "currentHash": "ca5aaa3316817fb282bb4172f4fe5e364f3baffcce9b46a31733731cee9d236d"
     }
   },
   {

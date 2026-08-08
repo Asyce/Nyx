@@ -41443,7 +41443,58 @@
           "physical": 0,
           "wind": 1
         },
-        "stats": {},
+        "stats": {
+          "hp": 2342,
+          "attack": 79,
+          "defence": 43,
+          "crit": 0,
+          "crit_damage": 5000,
+          "crit_res": 0,
+          "crit_dmg_res": 0,
+          "pen_rate": 0,
+          "pen_delta": 0,
+          "stun": 990,
+          "is_stun": true,
+          "break_stun": 0,
+          "auto_recover_rate": 0,
+          "auto_recover_cd": 0,
+          "stun_value_full_recover_cd": 0,
+          "can_interrupt_stun_recover": true,
+          "destroy_recover_rate": 5000,
+          "destroy_recover_cd": 1000,
+          "stun_damage_taken_ratio": 10000,
+          "stun_reset_count": 1,
+          "stun_reset_recover_cd": 1000,
+          "resist_break_level": 1,
+          "resist_break_level_correction_factor": 10000,
+          "resist_break_level_probability": 0,
+          "frozen_time_res": 0,
+          "fire_damage_res": -2000,
+          "ice_damage_res": 0,
+          "electric_damage_res": 0,
+          "wind_damage_res": -2000,
+          "ether_damage_res": 0,
+          "physical_damage_res": 0,
+          "ice_buildup_curve": 10001,
+          "fire_buildup_curve": 10012,
+          "electric_buildup_curve": 10003,
+          "physical_buildup_curve": 10004,
+          "ether_buildup_curve": 10005,
+          "wind_buildup_curve": 10006,
+          "ice_buildup_res": 0,
+          "fire_buildup_res": -2000,
+          "electric_buildup_res": 0,
+          "physical_buildup_res": 0,
+          "ether_buildup_res": 0,
+          "wind_buildup_res": -2000,
+          "ice_stun_res": 0,
+          "fire_stun_res": -2000,
+          "electric_stun_res": 0,
+          "ether_stun_res": 0,
+          "physical_stun_res": 0,
+          "wind_stun_res": -2000,
+          "base_buildup_ratio": 2000
+        },
         "curves": {
           "hp": {
             "curve": [
@@ -41907,7 +41958,7 @@
     },
     "liveComparison": {
       "liveHash": "f985f95719e6a81e401c4d5bd796f3830a85990e2ae26f7df21bcfc4b5e6894a",
-      "currentHash": "9a537f443c1976d55203a2f241f9d0d569c11eb14d08d22921e75e003f0aeed4"
+      "currentHash": "23b1c185d890fe8352632f79436bf3531957c6bb0ec93fb8cb844da51077e22f"
     }
   },
   {
@@ -51261,7 +51312,7 @@
     "id": "10042",
     "contentStatus": "beta",
     "monsterId": 31743,
-    "name": "Sky Lancer",
+    "name": "Sky Patrol Lancer",
     "rarity": 1,
     "type": "Special",
     "description": "CardDesc_10042",
@@ -51286,7 +51337,58 @@
           "physical": 0,
           "wind": 1
         },
-        "stats": {},
+        "stats": {
+          "hp": 1798,
+          "attack": 79,
+          "defence": 43,
+          "crit": 0,
+          "crit_damage": 5000,
+          "crit_res": 0,
+          "crit_dmg_res": 0,
+          "pen_rate": 0,
+          "pen_delta": 0,
+          "stun": 660,
+          "is_stun": true,
+          "break_stun": 0,
+          "auto_recover_rate": 0,
+          "auto_recover_cd": 0,
+          "stun_value_full_recover_cd": 0,
+          "can_interrupt_stun_recover": true,
+          "destroy_recover_rate": 5000,
+          "destroy_recover_cd": 1000,
+          "stun_damage_taken_ratio": 10000,
+          "stun_reset_count": 1,
+          "stun_reset_recover_cd": 1000,
+          "resist_break_level": 1,
+          "resist_break_level_correction_factor": 10000,
+          "resist_break_level_probability": 0,
+          "frozen_time_res": 0,
+          "fire_damage_res": -2000,
+          "ice_damage_res": 0,
+          "electric_damage_res": 0,
+          "wind_damage_res": -2000,
+          "ether_damage_res": 0,
+          "physical_damage_res": 0,
+          "ice_buildup_curve": 10001,
+          "fire_buildup_curve": 10012,
+          "electric_buildup_curve": 10003,
+          "physical_buildup_curve": 10004,
+          "ether_buildup_curve": 10005,
+          "wind_buildup_curve": 10006,
+          "ice_buildup_res": 0,
+          "fire_buildup_res": -2000,
+          "electric_buildup_res": 0,
+          "physical_buildup_res": 0,
+          "ether_buildup_res": 0,
+          "wind_buildup_res": -2000,
+          "ice_stun_res": 0,
+          "fire_stun_res": -2000,
+          "electric_stun_res": 0,
+          "ether_stun_res": 0,
+          "physical_stun_res": 0,
+          "wind_stun_res": -2000,
+          "base_buildup_ratio": 2000
+        },
         "curves": {
           "hp": {
             "curve": [
@@ -51749,7 +51851,7 @@
       "30015": 3000
     },
     "liveComparison": {
-      "currentHash": "6943834e8021d77b86f81492ee21460794d9eb12d6320cfa9f7e543bbd6e85bb"
+      "currentHash": "6d7011ba0db1d4375e84b891679b37fb831925a93a9e6beb1838ecca057b86b5"
     }
   },
   {
@@ -52302,7 +52404,7 @@
     "id": "10044",
     "contentStatus": "beta",
     "monsterId": 31801,
-    "name": "Special Offensive · Grenadier Jaeger",
+    "name": "Special Offensive·Grenadier Jaeger",
     "rarity": 1,
     "type": "Rebel Soldiers",
     "description": "CardDesc_10044",
@@ -52841,14 +52943,14 @@
       "30015": 3000
     },
     "liveComparison": {
-      "currentHash": "e0095e8322d660d535187f327d23294fba94161de9299d1d3afba96ac2948628"
+      "currentHash": "4f054823ab87d4e8be29ac0b0a4f7a6ef2deda4fa022d7d6c61f2ec46971ca06"
     }
   },
   {
     "id": "10045",
     "contentStatus": "beta",
     "monsterId": 31791,
-    "name": "Special Offensive·Light Jaeger",
+    "name": "Special Offensive · Light Jaeger",
     "rarity": 1,
     "type": "Rebel Soldiers",
     "description": "CardDesc_10045",
@@ -53390,7 +53492,7 @@
       "30015": 3000
     },
     "liveComparison": {
-      "currentHash": "78df08cfa38dddb4fef2a4d958c11b7cbed8a5fc917d133816a0723d52122d2d"
+      "currentHash": "d27c0cbd3b6dba3ec200b72164e2b5fa37c2404ea9dab647a7366f67c78a668b"
     }
   },
   {
@@ -107497,7 +107599,7 @@
     "id": "20037",
     "contentStatus": "beta",
     "monsterId": 31831,
-    "name": "Special Offensive · \"Lightfoot Rover\"",
+    "name": "Special Offensive · Lightfoot Rover",
     "rarity": 2,
     "type": "Rebel Soldiers",
     "description": "CardDesc_20037",
@@ -108036,7 +108138,7 @@
       "30015": 3000
     },
     "liveComparison": {
-      "currentHash": "b35e37841a04fff9b7cb1c2d877524233356cdb3a94ac7bac0aa5216f0e6e92a"
+      "currentHash": "4c49c189bcda829acdf136d33ccbcb3ae4099650928384d7e8fce3635f49d11d"
     }
   },
   {
@@ -108057,7 +108159,7 @@
           "Mech",
           "Demote",
           "Middle",
-          ""
+          "Tops"
         ],
         "type": "Monster",
         "element": {
@@ -108582,7 +108684,7 @@
       "30015": 3000
     },
     "liveComparison": {
-      "currentHash": "00fba2786e3e64a8db1aabe5d235cd8215ab7257407d669492f63ea7ef6d0b99"
+      "currentHash": "517c1a3b3b143b702f22d8fba4e418ef7afc1b2bc488348549b799d165a58a0a"
     }
   },
   {
@@ -186769,7 +186871,7 @@
     "contentStatus": "beta_changed",
     "monsterId": 31631,
     "name": "Infernal Revenant",
-    "rarity": 3,
+    "rarity": 4,
     "type": "Ether Mutants",
     "description": "An Ethereal that returned from the Cinderglow Lake.\nOnce a Dead End Butcher defeated by the Overlord Pompey, it was cast into the Cinderglow Lake. Yet instead of being reduced to ash, its body became encased in crystals formed from the burning byproducts of Ether.\nWithin the flames, its outer shell melted away and reformed again, each time gathering new layers of crystal. After enduring an endless torment resembling the depths of hell, it emerged with an armor-like body and gained the ability to move freely through fire.\nAfter a long wandering through a world that seemed to have forgotten it, the creature finally discovered a spatial fissure at the bottom of the fire lake and entered the Divine Maze, Papago Hollow.\nBut that place was nothing more than another hell.\nIt appears to have suffered a crushing defeat. Ever since, it has been driven by an unknown force, obsessively collecting the special Ether scattered throughout the labyrinth.\nYet it can no longer tell whether what lies within is salvation... or blasphemy.\n\n\"Every time that walking bonfire comes through, the temperature goes through the roof. I want hazard pay for this!\"",
     "assets": {
@@ -187769,7 +187871,8 @@
         "tag": [
           "Ether",
           "Large",
-          "Boss"
+          "Boss",
+          "RBLUp_Common"
         ],
         "type": "Monster",
         "element": {
@@ -188259,7 +188362,7 @@
     "card": {
       "obtain": "[Unidentified] Defeat this monster in Hollow Zero 1 time to obtain its data",
       "quote": "— Observation Log, Papago Outpost",
-      "skillDescription": "In combat, the Infernal Revenant unleashes powerful attacks with its weapon. After taking a certain amount of DMG, it enters the \"Infernal State.\" While in the \"Infernal State,\" some attacks can only be blocked by successfully performing a Chain Parry. The Infernal Revenant also summons a rain of fire that continuously damages Agents. Shattering each flint grants an \"Infernal Shield\" and restores Energy. Shattering all three flints will end the rain of fire. Infernal Revenant no longer possesses weaknesses or resistances in \"Operation Bagel\" gameplay."
+      "skillDescription": "In combat, the Infernal Revenant unleashes powerful attacks with its weapon. After taking a certain amount of DMG, it enters the \"Infernal State.\" While in the \"Infernal State,\" some attacks can only be blocked by successfully performing a Chain Parry. The Infernal Revenant also summons a rain of fire that continuously damages Agents. Shattering each flint grants an \"Infernal Shield\" and restores Energy. Shattering all three flints will end the rain of fire.\nInfernal Revenant no longer possesses weaknesses or resistances in Operation Bagel gameplay."
     },
     "elementAbnormal": {
       "10001": 600,
@@ -188295,7 +188398,7 @@
     },
     "liveComparison": {
       "liveHash": "6627ba0a33da58d005e7a6f4000b7fe81b2295bc4e6c48193e23d0a8dd754794",
-      "currentHash": "6ebcd44e41e4c1f24076653c9dd249f43cc52fa7503f9af3b9fb90245fb19307"
+      "currentHash": "51e520cf813f31e36149c767268ad4357ef29f8594efc7b6f364131d2c617a78"
     }
   },
   {
@@ -188303,7 +188406,7 @@
     "contentStatus": "beta_changed",
     "monsterId": 31602,
     "name": "Ulidim",
-    "rarity": 3,
+    "rarity": 4,
     "type": "Ether Mutants",
     "description": "A notorious Ethereal that prowls the Divine Maze of Papago Hollow.\nIf Papago Hollow's Hallucinogenic Soundscape is the trap that lures prey into the maze, then Ulidim is the hound that hunts down those unfortunate enough to become trapped inside it.\nUlidim's most terrifying ability is its power to emerge from any location or object within the Hollow's illusion, whether from a forgotten corner of the labyrinth or an old keepsake filled with a victim's cherished memories. The shock of its sudden appearance delivers a devastating blow to both body and mind, earning it the nickname \"Hound of Old.\" Its true ability lies in ignoring the illusions woven by the Hallucinogenic Soundscape and moving freely through the Hollow itself.\nBecause of its terrifying nature and appearance, Ulidim is one of the most common and most feared threats encountered during Exploration Missions into Papago Hollow. Among the Bangboo stationed at Papago Outpost, even the mention of its name inspires fear, and frightening legends about Ulidim have spread from one Bangboo to another.\nThere are multiple Ulidim within the Hollow. Their routine task is to patrol designated areas and routes, maintaining the stability of the Hallucinogenic Soundscape. Should they detect an intruder interfering with the Hollow's stable expansion, they will immediately pursue and kill the offender.\n\"Within that labyrinth that has a beginning but no end, perhaps being devoured by the dreadful hound is a mercy in itself.\"",
     "assets": {
@@ -188331,7 +188434,7 @@
           "wind": 1
         },
         "stats": {
-          "hp": 52410,
+          "hp": 89097,
           "attack": 120,
           "defence": 60,
           "crit": 0,
@@ -188809,7 +188912,7 @@
     "card": {
       "obtain": "[Unidentified] Defeat this monster in Hollow Zero 1 time to obtain its data",
       "quote": "— \"Rookie's Guide to the Hollow: Papago's Memoirs\"",
-      "skillDescription": "In combat, Ulidim switches weapons as the battle unfolds and launches surprise attacks using teleportation. Dodge its thrown spears and perform a Chain Defensive against its relentless combos to gradually gain the upper hand. Ulidim will no longer have attribute weaknesses or resistances in Operation Bagel."
+      "skillDescription": "In combat, Ulidim switches weapons as the battle unfolds and launches surprise attacks using teleportation. Dodge its thrown spears and perform a Chain Defensive against its relentless combos to gradually gain the upper hand.\nUlidim will no longer have attribute weaknesses or resistances in Operation Bagel."
     },
     "elementAbnormal": {
       "10001": 600,
@@ -188845,7 +188948,7 @@
     },
     "liveComparison": {
       "liveHash": "81cf7f3964eb20b003f2e0b9f8647943017e9621a739ecc266925d941aace937",
-      "currentHash": "2b19a48c3a38c3b03d2cc2d6afce0f0e4b7c0412dc4c110dee80ec9dbce1bd9f"
+      "currentHash": "b9fd780565e668cf4cd49a75735d0b8b09dd16e9aea8ca987baf9d64bd10e2d4"
     }
   },
   {
@@ -188860,8 +188963,8 @@
     "monsterInfo": {
       "31722": {
         "id": 31722,
-        "code_name": "Monster_HACMecha",
-        "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_HACMecha.png",
+        "code_name": "Monster_PcyHACMecha",
+        "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_PcyHACMecha.png",
         "tag": [
           "Mech",
           "Middle",
@@ -188870,15 +188973,15 @@
         "type": "Monster",
         "element": {
           "ice": 0,
-          "fire": -1,
-          "electric": 0,
-          "ether": 1,
-          "physical": 0,
-          "wind": 0
+          "fire": 0,
+          "electric": 1,
+          "ether": 0,
+          "physical": -1,
+          "wind": 1
         },
         "stats": {
-          "hp": 34940,
-          "attack": 144,
+          "hp": 32717,
+          "attack": 115,
           "defence": 60,
           "crit": 0,
           "crit_damage": 5000,
@@ -188893,39 +188996,39 @@
           "auto_recover_cd": 0,
           "stun_value_full_recover_cd": 0,
           "can_interrupt_stun_recover": true,
-          "destroy_recover_rate": 1428,
+          "destroy_recover_rate": 833,
           "destroy_recover_cd": 1000,
-          "stun_damage_taken_ratio": 10000,
+          "stun_damage_taken_ratio": 5000,
           "stun_reset_count": 3,
           "stun_reset_recover_cd": 1000,
           "resist_break_level": 5,
           "resist_break_level_correction_factor": 10000,
           "resist_break_level_probability": 0,
           "frozen_time_res": 7500,
-          "fire_damage_res": 2000,
+          "fire_damage_res": 0,
           "ice_damage_res": 0,
-          "electric_damage_res": 0,
-          "wind_damage_res": 0,
-          "ether_damage_res": -2000,
-          "physical_damage_res": 0,
+          "electric_damage_res": -2000,
+          "wind_damage_res": -2000,
+          "ether_damage_res": 0,
+          "physical_damage_res": 2000,
           "ice_buildup_curve": 30011,
           "fire_buildup_curve": 30002,
-          "electric_buildup_curve": 30003,
+          "electric_buildup_curve": 30013,
           "physical_buildup_curve": 30004,
-          "ether_buildup_curve": 30015,
+          "ether_buildup_curve": 30005,
           "wind_buildup_curve": 30006,
           "ice_buildup_res": 0,
-          "fire_buildup_res": 2000,
-          "electric_buildup_res": 0,
-          "physical_buildup_res": 0,
-          "ether_buildup_res": -2000,
-          "wind_buildup_res": 0,
+          "fire_buildup_res": 0,
+          "electric_buildup_res": -2000,
+          "physical_buildup_res": 2000,
+          "ether_buildup_res": 0,
+          "wind_buildup_res": -2000,
           "ice_stun_res": 0,
-          "fire_stun_res": 2000,
-          "electric_stun_res": 0,
-          "ether_stun_res": -2000,
-          "physical_stun_res": 0,
-          "wind_stun_res": 0,
+          "fire_stun_res": 0,
+          "electric_stun_res": -2000,
+          "ether_stun_res": 0,
+          "physical_stun_res": 2000,
+          "wind_stun_res": -2000,
           "base_buildup_ratio": 2500
         },
         "curves": {
@@ -189390,7 +189493,7 @@
       "30015": 3000
     },
     "liveComparison": {
-      "currentHash": "a1094fb437ac87d5d340ce1cf187a181c0f4bf2b8a889be57b877350e5a15fa8"
+      "currentHash": "017015f0a3b2fe97ced78592b2ba77d1c7ebbaa65003b827797cb9630414ef89"
     }
   },
   {
@@ -189422,8 +189525,8 @@
           "wind": 1
         },
         "stats": {
-          "hp": 34940,
-          "attack": 144,
+          "hp": 32717,
+          "attack": 115,
           "defence": 60,
           "crit": 0,
           "crit_damage": 5000,
@@ -189438,9 +189541,9 @@
           "auto_recover_cd": 0,
           "stun_value_full_recover_cd": 0,
           "can_interrupt_stun_recover": true,
-          "destroy_recover_rate": 1428,
+          "destroy_recover_rate": 833,
           "destroy_recover_cd": 1000,
-          "stun_damage_taken_ratio": 10000,
+          "stun_damage_taken_ratio": 5000,
           "stun_reset_count": 3,
           "stun_reset_recover_cd": 1000,
           "resist_break_level": 5,
@@ -189935,7 +190038,7 @@
       "30015": 3000
     },
     "liveComparison": {
-      "currentHash": "bb8b092968e713923b63e6bfd67edff49fea166ffdd9d37b5df01a92bc39f9ff"
+      "currentHash": "eab78c97687c4cfb9b8a65db9fd920d150d5653eec1ea319df1d7559e6ef62f0"
     }
   },
   {
@@ -196779,7 +196882,8 @@
           "Ether",
           "Large",
           "MainStoryBoss",
-          "Larval"
+          "Larval",
+          "RBLUp_Common"
         ],
         "type": "Monster",
         "element": {
@@ -197305,7 +197409,7 @@
     },
     "liveComparison": {
       "liveHash": "cda219643c1db063d2acb388e9a77415b4496bf0ac1bca34231e9651a96571e6",
-      "currentHash": "bcbeb8501a843765f79d2d544f0cf3a72b34ea50fd6b02c6ae2f64c34c3efaa3"
+      "currentHash": "1e4edbda19b60bae10c2da7410158043d2beb99d877fe990006736610100417f"
     }
   },
   {
@@ -201513,7 +201617,8 @@
           "Ether",
           "Large",
           "MainStoryBoss",
-          "Larval"
+          "Larval",
+          "RBLUp_Common"
         ],
         "type": "Monster",
         "element": {
@@ -202038,7 +202143,7 @@
       "30015": 3000
     },
     "liveComparison": {
-      "currentHash": "2e45bbd296128098499c613235feccb7feda65cbb23c34f89877937da25ac9b1"
+      "currentHash": "f6c1f283a5dc322a230f387c7a1a0bce66205193fa0ac8dca5eb20aaec99aa32"
     }
   },
   {
@@ -202061,7 +202166,8 @@
           "MainStoryBoss",
           "Miasma",
           "MutantBoss",
-          "HardCore"
+          "HardCore",
+          "RBLUp_Common"
         ],
         "type": "Monster",
         "element": {
@@ -202586,7 +202692,7 @@
       "30015": 3000
     },
     "liveComparison": {
-      "currentHash": "329cfa01399e2cfad8c38fdd89cdebd75fadbda49e3df72d1cfea6328ea0c661"
+      "currentHash": "ccbc853160b48e3b0b6b22022b413a5906a38211d0dd2cd545f4ac25c49e74e1"
     }
   },
   {
@@ -260823,7 +260929,7 @@
           "Mech",
           "Promote",
           "Middle",
-          ""
+          "Tops"
         ],
         "type": "Monster",
         "element": {
@@ -262337,7 +262443,7 @@
     },
     "liveComparison": {
       "liveHash": "41e77b107ddc256ae78e3b6dd644eacb7e9e66cd9162439c5a01ee286933bc40",
-      "currentHash": "a1443a1044de8246258401d15ef08b3bb547cdcc431fe0460911e66efc5b936d"
+      "currentHash": "5ecf6a0dc80b970fd0a822ee16f8beac03e4fc6b3520fb89aacf31ce682d7583"
     }
   },
   {

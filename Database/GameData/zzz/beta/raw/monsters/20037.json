@@ -498,7 +498,7 @@
     }
   },
   "image_path": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_EvolvedFootRover.png",
-  "name": "Special Offensive · \"Lightfoot Rover\"",
+  "name": "Special Offensive · Lightfoot Rover",
   "desc": "CardDesc_20037",
   "rarity": 2,
   "group_id": 205,

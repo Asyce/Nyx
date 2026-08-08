@@ -3,7 +3,7 @@
   "code_name": "Weapon_S_1621",
   "name": "...",
   "desc": "...",
-  "desc2": "",
+  "desc2": "Equip to increase Stun Agents' combat capabilities",
   "desc3": "...",
   "rarity": 4,
   "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIconWeapon/UnPacker/Weapon_S_1621.png",
@@ -17,10 +17,10 @@
     "value": 48
   },
   "rand_property": {
-    "name": "DEF",
-    "name2": "Percent DEF",
+    "name": "Energy Regen",
+    "name2": "Energy Regen",
     "format": "{0:0.#%}",
-    "value": 1920
+    "value": 2400
   },
   "level": {
     "0": {
@@ -359,23 +359,23 @@
   "talents": {
     "1": {
       "name": "...",
-      "desc": "The equipper's CRIT Rate increases by <color=#2BAD00>28%</color>. DMG dealt ignores the target's <color=#2BAD00>12%</color> <color=#A6C5FD>Wind DMG RES</color>. Daze inflicted increases by <color=#2BAD00>36%</color>. When the equipper is not the active character, Energy Regen increases by <color=#2BAD00>2</color> point(s)/sec.\nDMG dealt by all squad members increases by <color=#2BAD00>40%</color>. Only one instance of this effect can exist in the same squad."
+      "desc": "The equipper's CRIT Rate increases by <color=#2BAD00>24%</color>; DMG dealt ignores the target's <color=#2BAD00>15%</color> <color=#A6C5FD>Wind DMG RES</color>; Daze inflicted increases by <color=#2BAD00>36%</color>; when the equipper is not the active Character, Energy Regen increases by <color=#2BAD00>50</color> point(s)/sec;\nDMG dealt by all squad members increases by <color=#2BAD00>20%</color>. Only one instance of this effect can exist in the same squad."
     },
     "2": {
       "name": "...",
-      "desc": "The equipper's CRIT Rate increases by <color=#2BAD00>28%</color>; DMG dealt ignores the target's <color=#2BAD00>13.8%</color> <color=#A6C5FD>Wind DMG RES</color>; Daze inflicted increases by <color=#2BAD00>41.4%</color>; when the equipper is not the active Character, Energy Regen increases by <color=#2BAD00>2</color> points/sec;\nDMG dealt by all squad members increases by <color=#2BAD00>40%</color>. Only one instance of this effect can exist in the same squad."
+      "desc": "The equipper's CRIT Rate increases by <color=#2BAD00>24%</color>; DMG dealt ignores the target's <color=#2BAD00>17.3%</color> <color=#A6C5FD>Wind DMG RES</color>; Daze inflicted increases by <color=#2BAD00>41.4%</color>; when the equipper is not the active Character, Energy Regen increases by <color=#2BAD00>50</color> point(s)/s;\nDMG dealt by all squad members increases by <color=#2BAD00>20%</color>. Only one instance of this effect can exist in the same squad."
     },
     "3": {
       "name": "...",
-      "desc": "The equipper's CRIT Rate increases by <color=#2BAD00>28%</color>. DMG dealt ignores the target's <color=#2BAD00>15.6%</color> <color=#A6C5FD>Wind DMG RES</color>. Daze inflicted increases by <color=#2BAD00>46.8%</color>. When the equipper is not the active character, Energy Regen increases by <color=#2BAD00>2</color> point(s)/sec.\nDMG dealt by all squad members increases by <color=#2BAD00>40%</color>. Only one instance of this effect can exist in the same squad."
+      "desc": "The equipper's CRIT Rate increases by <color=#2BAD00>24%</color>. DMG dealt ignores the target's <color=#2BAD00>19.5%</color> <color=#A6C5FD>Wind DMG RES</color>. Daze inflicted increases by <color=#2BAD00>46.8%</color>. When the equipper is not the active character, Energy Regen increases by <color=#2BAD00>50</color> point(s)/sec.\nDMG dealt by all squad members increases by <color=#2BAD00>20%</color>. Only one instance of this effect can exist in the same squad."
     },
     "4": {
       "name": "...",
-      "desc": "The equipper's CRIT Rate increases by <color=#2BAD00>28%</color>. DMG dealt ignores the target's <color=#2BAD00>17.4%</color> <color=#A6C5FD>Wind DMG RES</color>. Daze inflicted increases by <color=#2BAD00>52.2%</color>. When the equipper is not the active character, Energy Regen increases by <color=#2BAD00>2</color> point(s)/sec.\nDMG dealt by all squad members increases by <color=#2BAD00>40%</color>. Only one instance of this effect can exist in the same squad."
+      "desc": "The equipper's CRIT Rate increases by <color=#2BAD00>24%</color>; DMG dealt ignores the target's <color=#2BAD00>21.8%</color> <color=#A6C5FD>Wind DMG RES</color>; Daze inflicted increases by <color=#2BAD00>52.2%</color>; when the equipper is not the active Character, Energy Regen increases by <color=#2BAD00>50</color> point(s)/s;\nDMG dealt by all squad members increases by <color=#2BAD00>20%</color>. Only one instance of this effect can exist in the same squad."
     },
     "5": {
       "name": "...",
-      "desc": "The equipper's CRIT Rate increases by <color=#2BAD00>28%</color>; DMG dealt ignores the target's <color=#2BAD00>19.2%</color> <color=#A6C5FD>Wind DMG RES</color>; Daze inflicted increases by <color=#2BAD00>57.6%</color>; when the equipper is not the active Character, Energy Regen increases by <color=#2BAD00>2</color> point(s)/sec;\nDMG dealt by all squad members increases by <color=#2BAD00>40%</color>. Only one instance of this effect can exist in the same squad."
+      "desc": "The equipper's CRIT Rate increases by <color=#2BAD00>24%</color>. DMG dealt ignores the target's <color=#2BAD00>24%</color> <color=#A6C5FD>Wind DMG RES</color>. Daze inflicted increases by <color=#2BAD00>57.6%</color>. When the equipper is not the active character, Energy Regen increases by <color=#2BAD00>50</color> point(s)/sec.\nDMG dealt by all squad members increases by <color=#2BAD00>20%</color>. Only one instance of this effect can exist in the same squad."
     }
   }
 }

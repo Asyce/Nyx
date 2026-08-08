@@ -10,7 +10,8 @@
         "Ether",
         "Large",
         "MainStoryBoss",
-        "Larval"
+        "Larval",
+        "RBLUp_Common"
       ],
       "type": "Monster",
       "element": {

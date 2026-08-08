@@ -7,7 +7,7 @@
 (function(){
   window.CM_CFG_BETA = window.CM_CFG_BETA || {};
   window.CM_CFG_BETA["zzz"] = {
-  "version": "3.2.1+17934514",
+  "version": "3.2.2+18082220",
   "liveVersion": "3.1",
   "newCount": 2,
   "changedCount": 1,
@@ -53,7 +53,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "3.2.1+17934514",
+        "version": "3.2.2+18082220",
         "sections": [
           {
             "title": "Skills",
@@ -2755,7 +2755,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "3.2.1+17934514",
+        "version": "3.2.2+18082220",
         "sections": [
           {
             "title": "Skills",
@@ -5393,7 +5393,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "3.2.1+17934514",
+        "version": "3.2.2+18082220",
         "sections": [
           {
             "title": "Skills",
@@ -5401,7 +5401,7 @@
               {
                 "name": "Basic Attack: Smash 'n' Bash",
                 "type": "Basic",
-                "desc": "Press to activate:\nUnleashes up to 4 strikes, dealing Physical DMG.\nWhen Koleda has the Furnace Fire effect, she can launch an enhanced Basic Attack after the 2nd hit, consuming the Furnace Fire effect and dealing massive Fire DMG.\nWhen Koleda and Ben are deployed together, executing an enhanced Basic Attack will trigger a coordinated attack from both, further increasing the move's power;\nKoleda is invulnerable during the Basic Attack's 4th hit and enhanced Basic Attack.\n\nPress to activate:\nUnleashes up to four Strikes forward, dealing Physical DMG;\nWhen Koleda has the [Furnace Fire] effect, she can launch an Enhanced [Basic Attack] after the second Strike, consuming the [Furnace Fire] effect and dealing massive Fire DMG;\nThe [Furnace Fire] effect can stack up to 2 times. Launching an Enhanced [Basic Attack] consumes all [Furnace Fire] stacks and deals additional Fire DMG based on the number of stacks consumed;\nWhen [Furnace Fire] is consumed, DMG dealt by all Agents in the squad increases by 25% for 40s. Repeated triggers refresh the duration;\nThe Enhanced [Basic Attack] consists of two stages. After launching the first stage, press or hold to chain into the second stage, and the follow-up attack effect of the first stage Enhanced [Basic Attack] is strengthened;\nWhen 2 stacks of [Furnace Fire] are consumed to launch the first stage Enhanced [Basic Attack], if an Agent switch occurs during it, Koleda will automatically launch the second stage Enhanced [Basic Attack] on-field;\nWhen Koleda and Ben are both deployed, launching an Enhanced [Basic Attack] without switching Agents during the first stage Enhanced [Basic Attack] will trigger a Coordinated Attack performed by both, further increasing the skill's power;\nCharacter is invulnerable during the fourth stage of [Basic Attack] and during the Enhanced [Basic Attack].",
+                "desc": "Press to activate:\nUnleashes up to 4 strikes, dealing Physical DMG.\nWhen Koleda has the Furnace Fire effect, she can launch an enhanced Basic Attack after the 2nd hit, consuming the Furnace Fire effect and dealing massive Fire DMG.\nWhen Koleda and Ben are deployed together, executing an enhanced Basic Attack will trigger a coordinated attack from both, further increasing the move's power;\nKoleda is invulnerable during the Basic Attack's 4th hit and enhanced Basic Attack.\n\nPress to activate:\nUnleashes up to four Strikes forward, dealing Physical DMG;\nWhen Koleda has the [Furnace Fire] effect, she can launch an Enhanced [Basic Attack] after the 2nd hit, consuming the [Furnace Fire] effect and dealing massive Fire DMG;\nThe Enhanced [Basic Attack] consists of two parts. After launching the 1st part, press or hold to chain into the 2nd part, and the follow-up attack effect of the 1st Enhanced [Basic Attack] is strengthened;\nThe [Furnace Fire] effect can stack up to 2 times. Launching an Enhanced [Basic Attack] consumes all [Furnace Fire] stacks;\nWhen [Furnace Fire] is consumed, DMG dealt by the whole squad's Agents is increased by 35%, lasting 40s. Repeated triggers refresh the duration. Additionally, for each stack of [Furnace Fire] consumed, the DMG dealt by the 2nd Enhanced [Basic Attack] is increased by 10%, and the Daze inflicted is increased by 20%;\nIf an Agent switch is performed during the 1st Enhanced [Basic Attack], Koleda will automatically launch the 2nd Enhanced [Basic Attack] on-field;\nWhen Koleda and Ben are both in the squad, launching an Enhanced [Basic Attack] without switching Agents during the 1st Enhanced [Basic Attack] will trigger a Coordinated Attack performed by both, further increasing the skill's power;\nCharacter is invulnerable during the 4th hit of the [Basic Attack] and during the Enhanced [Basic Attack];\nThe invulnerability duration of the 2nd Enhanced [Basic Attack] is extended.",
                 "scaling": [
                   {
                     "title": "Skill Level Scaling",
@@ -5670,7 +5670,7 @@
               {
                 "name": "Dash Attack: Tremble!",
                 "type": "Dodge",
-                "desc": "Press during a Dodge to activate:\nStrikes enemies in front, dealing Physical DMG.\n\nPress during a dodge to activate:\nStrikes forward, dealing Physical DMG.\nDuring this skill, if holding [Furnace Fire], hold to chain into an Enhanced [Basic Attack].",
+                "desc": "Press during a Dodge to activate:\nStrikes enemies in front, dealing Physical DMG.\n\nPress during a dodge to activate:\nStrike forward, dealing Physical DMG.\nDuring this skill, if holding [Furnace Fire], Anti-Interrupt level is increased. Hold to chain into an Enhanced [Basic Attack].",
                 "scaling": [
                   {
                     "title": "Skill Level Scaling",
@@ -5987,7 +5987,7 @@
               {
                 "name": "Special Attack: Hammer Time",
                 "type": "Special",
-                "desc": "Press to activate:\nStrikes enemies in front and triggers an explosion, dealing Fire DMG.\nThis skill launches faster and triggers an explosion when used after the 2nd or 4th hit of Koleda's Basic Attack or enhanced Basic Attack.\nWhen Koleda and Ben are both in your squad, and this skill is quickly launched after an enhanced Basic Attack, they team up to launch a coordinated attack, further increasing the power of the skill.\nAnti-Interrupt level is increased while using this skill.\n\nPress to activate:\nStrikes enemies in front and triggers an explosion, dealing Fire DMG.\nThis skill launches faster and triggers an explosion when used after the 2nd or 4th hit of Koleda's [Basic Attack] or enhanced [Basic Attack].\nDuring the 2nd hit of [Basic Attack], hold to directly trigger an explosion.\nWhen Koleda and Ben are both in your squad, and this skill is quickly launched after an enhanced [Basic Attack], they team up to launch a Coordinated Attack, further increasing the power of the skill.\nAnti-Interrupt level is increased while using this skill.",
+                "desc": "Press to activate:\nStrikes enemies in front and triggers an explosion, dealing Fire DMG.\nThis skill launches faster and triggers an explosion when used after the 2nd or 4th hit of Koleda's Basic Attack or enhanced Basic Attack.\nWhen Koleda and Ben are both in your squad, and this skill is quickly launched after an enhanced Basic Attack, they team up to launch a coordinated attack, further increasing the power of the skill.\nAnti-Interrupt level is increased while using this skill.\n\nPress to activate:\nStrikes enemies in front and triggers an explosion, dealing Fire DMG.\nThis skill launches faster and triggers an explosion when used after the 2nd or 4th hit of Koleda's [Basic Attack] or enhanced [Basic Attack].\nDuring the 2nd hit of [Basic Attack], hold to directly trigger the explosion.\nWhen Koleda and Ben are both in your squad, and this skill is quickly launched after an enhanced [Basic Attack], they team up to launch a Coordinated Attack, further increasing the power of the skill.\nAnti-Interrupt level is increased while using this skill.",
                 "scaling": [
                   {
                     "title": "Skill Level Scaling",
@@ -6115,7 +6115,7 @@
               {
                 "name": "EX Special Attack: Boiling Furnace",
                 "type": "Special",
-                "desc": "With enough Energy, press to activate:\nStrikes enemies in front and triggers a powerful explosion, dealing massive Fire DMG. Koleda also gains the Furnace Fire effect.\nThis skill activates faster and triggers an explosion when used after the 2nd or 4th hit of Koleda's Basic Attack or enhanced Basic Attack.\nWhen Koleda and Ben are both in your squad and this skill is quickly launched after an enhanced Basic Attack, they team up to launch a coordinated attack, further increasing the power of the skill.\nCharacter is invulnerable while using this skill.\n\nWith enough Energy, press to activate:\nStrikes enemies in front and triggers a powerful explosion, dealing massive Fire DMG. Koleda also gains the Furnace Fire effect.\nThis skill activates faster and triggers an explosion when used after the 2nd or 4th hit of Koleda's Basic Attack or enhanced Basic Attack. Daze inflicted by explosions triggered this way is increased by 10%.\nWhen Koleda and Ben are both in your squad and this skill is quickly launched after an enhanced Basic Attack, they team up to launch a Coordinated Attack, further increasing the power of the skill.\nCharacter is invulnerable while using this skill.",
+                "desc": "With enough Energy, press to activate:\nStrikes enemies in front and triggers a powerful explosion, dealing massive Fire DMG. Koleda also gains the Furnace Fire effect.\nThis skill activates faster and triggers an explosion when used after the 2nd or 4th hit of Koleda's Basic Attack or enhanced Basic Attack.\nWhen Koleda and Ben are both in your squad and this skill is quickly launched after an enhanced Basic Attack, they team up to launch a coordinated attack, further increasing the power of the skill.\nCharacter is invulnerable while using this skill.\n\nWith enough Energy, press to activate:\nStrikes enemies in front and triggers a powerful explosion, dealing massive Fire DMG. Koleda also gains the Furnace Fire effect.\nThis skill activates faster and triggers an explosion when used after the 2nd or 4th hit of Koleda's Basic Attack or enhanced Basic Attack. Daze inflicted by the explosion triggered this way is increased by 10%.\nWhen Koleda and Ben are both in your squad and this skill is quickly launched after an enhanced Basic Attack, they team up to launch a Coordinated Attack, further increasing the power of the skill.\nCharacter is invulnerable while using this skill. Hold to chain into Dash Attack: Tremble!.",
                 "scaling": [
                   {
                     "title": "Skill Level Scaling",
@@ -8097,28 +8097,28 @@
       "art": "../../Database/GameData/zzz/assets/w-engines/Weapon_A_Common_21.webp",
       "items": [
         {
-          "id": "101011",
-          "name": "Stun Component",
+          "id": "101016",
+          "name": "Item_WeaponBreak_16_name",
           "qty": 3,
           "rar": 1,
           "kind": "mob",
-          "icon": "../../Database/GameData/zzz/assets/items/WeaponRankStun01.webp"
+          "icon": "../../Database/GameData/zzz/assets/items/WeaponRankArmorer01.webp"
         },
         {
-          "id": "101021",
-          "name": "Reinforced Stun Component",
+          "id": "101026",
+          "name": "Item_WeaponBreak_26_name",
           "qty": 26,
           "rar": 3,
           "kind": "mob",
-          "icon": "../../Database/GameData/zzz/assets/items/WeaponRankStun02.webp"
+          "icon": "../../Database/GameData/zzz/assets/items/WeaponRankArmorer02.webp"
         },
         {
-          "id": "101031",
-          "name": "Specialized Stun Component",
+          "id": "101036",
+          "name": "Item_WeaponBreak_36_name",
           "qty": 24,
           "rar": 4,
           "kind": "mob",
-          "icon": "../../Database/GameData/zzz/assets/items/WeaponRankStun03.webp"
+          "icon": "../../Database/GameData/zzz/assets/items/WeaponRankArmorer03.webp"
         }
       ],
       "cost": 320000
@@ -8133,28 +8133,28 @@
       "art": "../../Database/GameData/zzz/assets/w-engines/Weapon_A_Common_17.webp",
       "items": [
         {
-          "id": "101014",
-          "name": "Defense Component",
+          "id": "101016",
+          "name": "Item_WeaponBreak_16_name",
           "qty": 3,
           "rar": 1,
           "kind": "mob",
-          "icon": "../../Database/GameData/zzz/assets/items/WeaponRankShield01.webp"
+          "icon": "../../Database/GameData/zzz/assets/items/WeaponRankArmorer01.webp"
         },
         {
-          "id": "101024",
-          "name": "Reinforced Defense Component",
+          "id": "101026",
+          "name": "Item_WeaponBreak_26_name",
           "qty": 26,
           "rar": 3,
           "kind": "mob",
-          "icon": "../../Database/GameData/zzz/assets/items/WeaponRankShield02.webp"
+          "icon": "../../Database/GameData/zzz/assets/items/WeaponRankArmorer02.webp"
         },
         {
-          "id": "101034",
-          "name": "Specialized Defense Component",
+          "id": "101036",
+          "name": "Item_WeaponBreak_36_name",
           "qty": 24,
           "rar": 4,
           "kind": "mob",
-          "icon": "../../Database/GameData/zzz/assets/items/WeaponRankShield03.webp"
+          "icon": "../../Database/GameData/zzz/assets/items/WeaponRankArmorer03.webp"
         }
       ],
       "cost": 320000

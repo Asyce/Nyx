@@ -21,8 +21,8 @@
         "wind": 1
       },
       "stats": {
-        "hp": 34940,
-        "attack": 144,
+        "hp": 32717,
+        "attack": 115,
         "defence": 60,
         "crit": 0,
         "crit_damage": 5000,
@@ -37,9 +37,9 @@
         "auto_recover_cd": 0,
         "stun_value_full_recover_cd": 0,
         "can_interrupt_stun_recover": true,
-        "destroy_recover_rate": 1428,
+        "destroy_recover_rate": 833,
         "destroy_recover_cd": 1000,
-        "stun_damage_taken_ratio": 10000,
+        "stun_damage_taken_ratio": 5000,
         "stun_reset_count": 3,
         "stun_reset_recover_cd": 1000,
         "resist_break_level": 5,

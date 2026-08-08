@@ -12,7 +12,8 @@
         "MainStoryBoss",
         "Miasma",
         "MutantBoss",
-        "HardCore"
+        "HardCore",
+        "RBLUp_Common"
       ],
       "type": "Monster",
       "element": {

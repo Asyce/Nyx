@@ -423,11 +423,11 @@
     "icon": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_Halberdier.png",
     "rarity": 1,
     "group": 290,
-    "en": "Sky Lancer",
+    "en": "Sky Patrol Lancer",
     "desc": "CardDesc_10042",
     "ko": "BriefName_Monster_Halberdier",
     "zh": "空巡枪骑",
-    "ja": "空巡キャバリー"
+    "ja": "空巡槍兵"
   },
   "10043": {
     "icon": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_RoscaSolider.png",
@@ -437,13 +437,13 @@
     "desc": "CardDesc_10043",
     "ko": "BriefName_Monster_RoscaSolider",
     "zh": "空巡近卫",
-    "ja": "空巡近衛"
+    "ja": "空巡近衛兵"
   },
   "10044": {
     "icon": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_EvolvedCannoneer.png",
     "rarity": 1,
     "group": 205,
-    "en": "Special Offensive · Grenadier Jaeger",
+    "en": "Special Offensive·Grenadier Jaeger",
     "desc": "CardDesc_10044",
     "ko": "BriefName_Monster_EvolvedCannoneer",
     "zh": "特战·掷弹猎兵",
@@ -453,7 +453,7 @@
     "icon": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_EvolvedRifleman.png",
     "rarity": 1,
     "group": 205,
-    "en": "Special Offensive·Light Jaeger",
+    "en": "Special Offensive · Light Jaeger",
     "desc": "CardDesc_10045",
     "ko": "BriefName_Monster_EvolvedRifleman",
     "zh": "特战·轻装猎兵",
@@ -853,7 +853,7 @@
     "icon": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_EvolvedFootRover.png",
     "rarity": 2,
     "group": 205,
-    "en": "Special Offensive · \"Lightfoot Rover\"",
+    "en": "Special Offensive · Lightfoot Rover",
     "desc": "CardDesc_20037",
     "ko": "BriefName_Monster_EvolvedFootRover",
     "zh": "特战·「捷足巡游者」",
@@ -1391,7 +1391,7 @@
   },
   "30052": {
     "icon": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv04/Monster_SymbioticEtherealSinner.png",
-    "rarity": 3,
+    "rarity": 4,
     "group": 201,
     "en": "Infernal Revenant",
     "desc": "An Ethereal that returned from the Cinderglow Lake.\nOnce a Dead End Butcher defeated by the Overlord Pompey, it was cast into the Cinderglow Lake. Yet instead of being reduced to ash, its body became encased in crystals formed from the burning byproducts of Ether.\nWithin the flames, its outer shell melted away and reformed again, each time gathering new layers of crystal. After enduring an endless torment resembling the depths of hell, it emerged with an armor-like body and gained the ability to move freely through fire.\nAfter a long wandering through a world that seemed to have forgotten it, the creature finally discovered a spatial fissure at the bottom of the fire lake and entered the Divine Maze, Papago Hollow.\nBut that place was nothing more than another hell.\nIt appears to have suffered a crushing defeat. Ever since, it has been driven by an unknown force, obsessively collecting the special Ether scattered throughout the labyrinth.\nYet it can no longer tell whether what lies within is salvation... or blasphemy.\n\n\"Every time that walking bonfire comes through, the temperature goes through the roof. I want hazard pay for this!\"",
@@ -1401,7 +1401,7 @@
   },
   "30053": {
     "icon": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv04/Monster_Stalker.png",
-    "rarity": 3,
+    "rarity": 4,
     "group": 201,
     "en": "Ulidim",
     "desc": "A notorious Ethereal that prowls the Divine Maze of Papago Hollow.\nIf Papago Hollow's Hallucinogenic Soundscape is the trap that lures prey into the maze, then Ulidim is the hound that hunts down those unfortunate enough to become trapped inside it.\nUlidim's most terrifying ability is its power to emerge from any location or object within the Hollow's illusion, whether from a forgotten corner of the labyrinth or an old keepsake filled with a victim's cherished memories. The shock of its sudden appearance delivers a devastating blow to both body and mind, earning it the nickname \"Hound of Old.\" Its true ability lies in ignoring the illusions woven by the Hallucinogenic Soundscape and moving freely through the Hollow itself.\nBecause of its terrifying nature and appearance, Ulidim is one of the most common and most feared threats encountered during Exploration Missions into Papago Hollow. Among the Bangboo stationed at Papago Outpost, even the mention of its name inspires fear, and frightening legends about Ulidim have spread from one Bangboo to another.\nThere are multiple Ulidim within the Hollow. Their routine task is to patrol designated areas and routes, maintaining the stability of the Hallucinogenic Soundscape. Should they detect an intruder interfering with the Hollow's stable expansion, they will immediately pursue and kill the offender.\n\"Within that labyrinth that has a beginning but no end, perhaps being devoured by the dreadful hound is a mercy in itself.\"",
@@ -1427,7 +1427,7 @@
     "desc": "CardDesc_30055",
     "ko": "BriefName_Monster_HACMecha",
     "zh": "自律战术单位·「征服者」",
-    "ja": "自律戦術ユニット・「征服者」"
+    "ja": "自律戦術ユニット・「コンカラー」"
   },
   "35001": {
     "icon": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_Nineveh.png",

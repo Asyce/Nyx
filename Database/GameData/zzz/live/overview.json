@@ -5,14 +5,15 @@
   "channel": "live",
   "version": "3.1",
   "liveVersion": "3.1",
-  "betaVersion": "3.2.1+17934514",
+  "betaVersion": "3.2.2+18082220",
   "availableVersions": [
     "3.1",
     "3.2.0+17782873",
     "3.2.1+17919471",
-    "3.2.1+17934514"
+    "3.2.1+17934514",
+    "3.2.2+18082220"
   ],
-  "scrapedAt": "2026-08-03T01:07:09.162Z",
+  "scrapedAt": "2026-08-08T04:33:00.296Z",
   "counts": {
     "agents": 58,
     "wEngines": 95,

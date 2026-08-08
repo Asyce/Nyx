@@ -1,8 +1,8 @@
 {
   "id": 1611,
   "icon": "",
-  "name": "Claret",
-  "code_name": "Claret",
+  "name": "Avatar_Female_Size02_Claret",
+  "code_name": "Avatar_Female_Size02_Claret_En",
   "rarity": 4,
   "weapon_type": {
     "7": "Armorer"
@@ -54,12 +54,12 @@
     "attack_growth": 58479,
     "avatar_piece_id": 5611,
     "break_stun": 93,
-    "crit": 500,
+    "crit": 1000,
     "crit_damage": 0,
     "crit_dmg_res": 0,
     "crit_res": 0,
-    "defence": 30,
-    "defence_growth": 41134,
+    "defence": 35,
+    "defence_growth": 48155,
     "element_abnormal_power": 80,
     "element_mystery": 79,
     "endurance": 0,
@@ -90,8 +90,8 @@
     "rp_max": 0,
     "rp_recover": 0,
     "ep_max": 120,
-    "ep_recover": 120,
-    "sharp_critical_damage": 12000
+    "ep_recover": 150,
+    "sharp_critical_damage": 15000
   },
   "level": {
     "1": {
@@ -108,7 +108,7 @@
     "2": {
       "hp_max": 312,
       "attack": 36,
-      "defence": 21,
+      "defence": 24,
       "level_max": 20,
       "level_min": 10,
       "materials": {
@@ -119,7 +119,7 @@
     "3": {
       "hp_max": 624,
       "attack": 72,
-      "defence": 42,
+      "defence": 49,
       "level_max": 30,
       "level_min": 20,
       "materials": {
@@ -130,7 +130,7 @@
     "4": {
       "hp_max": 936,
       "attack": 108,
-      "defence": 62,
+      "defence": 73,
       "level_max": 40,
       "level_min": 30,
       "materials": {
@@ -141,7 +141,7 @@
     "5": {
       "hp_max": 1248,
       "attack": 144,
-      "defence": 83,
+      "defence": 97,
       "level_max": 50,
       "level_min": 40,
       "materials": {
@@ -152,7 +152,7 @@
     "6": {
       "hp_max": 1559,
       "attack": 180,
-      "defence": 104,
+      "defence": 122,
       "level_max": 60,
       "level_min": 50,
       "materials": {}
@@ -167,12 +167,6 @@
           "name": "CRIT Rate",
           "format": "{0:0.#%}",
           "value": 480
-        },
-        "21301": {
-          "prop": 21301,
-          "name": "Laceration DMG",
-          "format": "{0:0.#%}",
-          "value": 0
         }
       }
     },
@@ -183,13 +177,7 @@
           "prop": 20101,
           "name": "CRIT Rate",
           "format": "{0:0.#%}",
-          "value": 480
-        },
-        "21301": {
-          "prop": 21301,
-          "name": "Laceration DMG",
-          "format": "{0:0.#%}",
-          "value": 1000
+          "value": 960
         }
       }
     },
@@ -200,13 +188,7 @@
           "prop": 20101,
           "name": "CRIT Rate",
           "format": "{0:0.#%}",
-          "value": 960
-        },
-        "21301": {
-          "prop": 21301,
-          "name": "Laceration DMG",
-          "format": "{0:0.#%}",
-          "value": 1000
+          "value": 1440
         }
       }
     },
@@ -217,13 +199,7 @@
           "prop": 20101,
           "name": "CRIT Rate",
           "format": "{0:0.#%}",
-          "value": 960
-        },
-        "21301": {
-          "prop": 21301,
-          "name": "Laceration DMG",
-          "format": "{0:0.#%}",
-          "value": 2000
+          "value": 1920
         }
       }
     },
@@ -234,13 +210,7 @@
           "prop": 20101,
           "name": "CRIT Rate",
           "format": "{0:0.#%}",
-          "value": 1440
-        },
-        "21301": {
-          "prop": 21301,
-          "name": "Laceration DMG",
-          "format": "{0:0.#%}",
-          "value": 2000
+          "value": 2400
         }
       }
     },
@@ -251,13 +221,7 @@
           "prop": 20101,
           "name": "CRIT Rate",
           "format": "{0:0.#%}",
-          "value": 1440
-        },
-        "21301": {
-          "prop": 21301,
-          "name": "Laceration DMG",
-          "format": "{0:0.#%}",
-          "value": 3000
+          "value": 2880
         }
       }
     }
@@ -333,13 +297,13 @@
           "potential": []
         },
         {
-          "name": "Basic Attack: Star Forge",
-          "desc": "While under [Crimson Inscription], press <IconMap:Icon_Normal> to activate:\nUnleash up to three Slashes forward with the blood axe, dealing <color=#2EB6FF>Electric DMG</color>;\nDuring the third attack, Anti-Interrupt level is increased. Hold <IconMap:Icon_Normal> to extend the skill duration.",
+          "name": "Basic Attack: Blood Blossom Oath - Star Forge",
+          "desc": "While under [Crimson Inscription], Press <IconMap:Icon_Normal> to activate:\nUnleash up to three Slashes forward with the blood axe, dealing <color=#2EB6FF>Electric DMG</color>;\nUpon activating the second attack skill, Claret jumps backward and throws the blood axe. Perfect Dodge can be triggered during the retreat;\nUpon activating the third attack skill, Claret performs consecutive Slashes before leaping up and slamming down. During the consecutive Slashes, Anti-Interrupt level is increased and DMG taken is reduced by 40%. Hold <IconMap:Icon_Normal> to extend the duration of the consecutive Slashes. Release <IconMap:Icon_Normal> and Claret will immediately leap up and slam down. Perfect Dodge can be triggered during the leap. After successfully triggering Perfect Dodge, press or hold <IconMap:Icon_Normal> to chain into the third sequence of [Basic Attack: Blood Bloom Oath - Star Forge];\nWill not exit the <color=#FFFFFF>[Crimson Inscription]</color> state during activation.",
           "potential": []
         },
         {
-          "name": "Basic Attack: Blood Axe Return",
-          "desc": "While under [Crimson Inscription], after launching [Special Attack: Blood Blossom Oath - Jin Severance] or [EX Special Attack: Blood Blossom Oath - Blood Burial Onslaught] and successfully inflicting [Maim], Press <IconMap:Icon_Normal> to activate:\nSpins the blood axe downward and slashes the target enemy, dealing <color=#2EB6FF>Electric DMG</color>;\nCharacter is invulnerable while using this skill.",
+          "name": "Basic Attack: Blood Blossom Oath - Crouching Axe",
+          "desc": "While under [Scarlet Engrave], after activating [Special Attack: Blood Bloom Oath - Jin Severance] or [Special Attack: Blood Bloom Oath - Burial Blood Onslaught] and successfully inflicting [Maim], press <IconMap:Icon_Normal> to activate:\nSpin-jumps with the blood axe and slams down to Slash the target enemy, dealing <color=#2EB6FF>Electric DMG</color>. Perfect Dodge effects can be triggered during the jump;\nAfter using this skill, press or hold <IconMap:Icon_Normal> to chain into the 3rd hit of [Basic Attack: Blood Bloom Oath - Star Forge];\nWill not exit the <color=#FFFFFF>[Scarlet Engrave]</color> state during activation.",
           "potential": []
         },
         {
@@ -557,30 +521,30 @@
           "potential": []
         },
         {
-          "name": "Basic Attack: Star Forge",
+          "name": "Basic Attack: Blood Blossom Oath - Star Forge",
           "param": [
             {
               "name": "1st-Hit DMG Multiplier",
               "desc": "{Skill:1611005, Prop:1001}",
               "param": {
                 "1611005": {
-                  "main": 11110,
-                  "growth": 1010,
+                  "main": 14720,
+                  "growth": 1340,
                   "format": "%",
-                  "damage_percentage": 11110,
-                  "damage_percentage_growth": 1010,
-                  "stun_ratio": 4700,
-                  "stun_ratio_growth": 220,
+                  "damage_percentage": 14720,
+                  "damage_percentage_growth": 1340,
+                  "stun_ratio": 5880,
+                  "stun_ratio_growth": 270,
                   "sp_recovery": 0,
                   "sp_recovery_growth": 0,
-                  "fever_recovery": 117425,
+                  "fever_recovery": 146850,
                   "fever_recovery_growth": 0,
-                  "attribute_infliction": 4269,
+                  "attribute_infliction": 5336,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
-                  "ether_purify": 4270
+                  "ether_purify": 5337
                 }
               },
               "potential": []
@@ -590,49 +554,75 @@
               "desc": "{Skill:1611006, Prop:1001}",
               "param": {
                 "1611006": {
-                  "main": 33590,
-                  "growth": 3060,
+                  "main": 39530,
+                  "growth": 3600,
                   "format": "%",
-                  "damage_percentage": 33590,
-                  "damage_percentage_growth": 3060,
-                  "stun_ratio": 14610,
-                  "stun_ratio_growth": 670,
+                  "damage_percentage": 39530,
+                  "damage_percentage_growth": 3600,
+                  "stun_ratio": 15770,
+                  "stun_ratio_growth": 720,
                   "sp_recovery": 0,
                   "sp_recovery_growth": 0,
-                  "fever_recovery": 365475,
+                  "fever_recovery": 394350,
                   "fever_recovery_growth": 0,
-                  "attribute_infliction": 13280,
+                  "attribute_infliction": 14333,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
-                  "ether_purify": 13281
+                  "ether_purify": 14334
                 }
               },
               "potential": []
             },
             {
-              "name": "3rd-Hit DMG Multiplier",
+              "name": "3-Hit Consecutive Slash DMG Multiplier",
               "desc": "{Skill:1611007, Prop:1001}",
               "param": {
                 "1611007": {
-                  "main": 51230,
-                  "growth": 4660,
+                  "main": 46880,
+                  "growth": 4270,
                   "format": "%",
-                  "damage_percentage": 51230,
-                  "damage_percentage_growth": 4660,
-                  "stun_ratio": 22870,
-                  "stun_ratio_growth": 1040,
+                  "damage_percentage": 46880,
+                  "damage_percentage_growth": 4270,
+                  "stun_ratio": 18700,
+                  "stun_ratio_growth": 850,
                   "sp_recovery": 0,
                   "sp_recovery_growth": 0,
-                  "fever_recovery": 571725,
+                  "fever_recovery": 467500,
                   "fever_recovery_growth": 0,
-                  "attribute_infliction": 20786,
+                  "attribute_infliction": 17000,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
-                  "ether_purify": 20787
+                  "ether_purify": 17000
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "3rd-Hit Smash DMG Multiplier",
+              "desc": "{Skill:1611029, Prop:1001}",
+              "param": {
+                "1611029": {
+                  "main": 17590,
+                  "growth": 1600,
+                  "format": "%",
+                  "damage_percentage": 17590,
+                  "damage_percentage_growth": 1600,
+                  "stun_ratio": 8250,
+                  "stun_ratio_growth": 380,
+                  "sp_recovery": 0,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 206250,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 7500,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 7500
                 }
               },
               "potential": []
@@ -642,23 +632,23 @@
               "desc": "{Skill:1611005, Prop:1002}",
               "param": {
                 "1611005": {
-                  "main": 4700,
-                  "growth": 220,
+                  "main": 5880,
+                  "growth": 270,
                   "format": "%",
-                  "damage_percentage": 11110,
-                  "damage_percentage_growth": 1010,
-                  "stun_ratio": 4700,
-                  "stun_ratio_growth": 220,
+                  "damage_percentage": 14720,
+                  "damage_percentage_growth": 1340,
+                  "stun_ratio": 5880,
+                  "stun_ratio_growth": 270,
                   "sp_recovery": 0,
                   "sp_recovery_growth": 0,
-                  "fever_recovery": 117425,
+                  "fever_recovery": 146850,
                   "fever_recovery_growth": 0,
-                  "attribute_infliction": 4269,
+                  "attribute_infliction": 5336,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
-                  "ether_purify": 4270
+                  "ether_purify": 5337
                 }
               },
               "potential": []
@@ -668,49 +658,75 @@
               "desc": "{Skill:1611006, Prop:1002}",
               "param": {
                 "1611006": {
-                  "main": 14610,
-                  "growth": 670,
+                  "main": 15770,
+                  "growth": 720,
                   "format": "%",
-                  "damage_percentage": 33590,
-                  "damage_percentage_growth": 3060,
-                  "stun_ratio": 14610,
-                  "stun_ratio_growth": 670,
+                  "damage_percentage": 39530,
+                  "damage_percentage_growth": 3600,
+                  "stun_ratio": 15770,
+                  "stun_ratio_growth": 720,
                   "sp_recovery": 0,
                   "sp_recovery_growth": 0,
-                  "fever_recovery": 365475,
+                  "fever_recovery": 394350,
                   "fever_recovery_growth": 0,
-                  "attribute_infliction": 13280,
+                  "attribute_infliction": 14333,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
-                  "ether_purify": 13281
+                  "ether_purify": 14334
                 }
               },
               "potential": []
             },
             {
-              "name": "3rd-Hit Daze Multiplier",
+              "name": "3-Hit Combo Slash Daze Multiplier",
               "desc": "{Skill:1611007, Prop:1002}",
               "param": {
                 "1611007": {
-                  "main": 22870,
-                  "growth": 1040,
+                  "main": 18700,
+                  "growth": 850,
                   "format": "%",
-                  "damage_percentage": 51230,
-                  "damage_percentage_growth": 4660,
-                  "stun_ratio": 22870,
-                  "stun_ratio_growth": 1040,
+                  "damage_percentage": 46880,
+                  "damage_percentage_growth": 4270,
+                  "stun_ratio": 18700,
+                  "stun_ratio_growth": 850,
                   "sp_recovery": 0,
                   "sp_recovery_growth": 0,
-                  "fever_recovery": 571725,
+                  "fever_recovery": 467500,
                   "fever_recovery_growth": 0,
-                  "attribute_infliction": 20786,
+                  "attribute_infliction": 17000,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
-                  "ether_purify": 20787
+                  "ether_purify": 17000
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "3rd-Hit Smash Daze Multiplier",
+              "desc": "{Skill:1611029, Prop:1002}",
+              "param": {
+                "1611029": {
+                  "main": 8250,
+                  "growth": 380,
+                  "format": "%",
+                  "damage_percentage": 17590,
+                  "damage_percentage_growth": 1600,
+                  "stun_ratio": 8250,
+                  "stun_ratio_growth": 380,
+                  "sp_recovery": 0,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 206250,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 7500,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 7500
                 }
               },
               "potential": []
@@ -719,30 +735,30 @@
           "potential": []
         },
         {
-          "name": "Basic Attack: Blood Axe Return",
+          "name": "Basic Attack: Blood Blossom Oath - Crouching Axe",
           "param": [
             {
               "name": "DMG Multiplier",
               "desc": "{Skill:1611008, Prop:1001}",
               "param": {
                 "1611008": {
-                  "main": 32520,
-                  "growth": 2960,
+                  "main": 34920,
+                  "growth": 3180,
                   "format": "%",
-                  "damage_percentage": 32520,
-                  "damage_percentage_growth": 2960,
-                  "stun_ratio": 14300,
-                  "stun_ratio_growth": 650,
+                  "damage_percentage": 34920,
+                  "damage_percentage_growth": 3180,
+                  "stun_ratio": 13930,
+                  "stun_ratio_growth": 640,
                   "sp_recovery": 0,
                   "sp_recovery_growth": 0,
-                  "fever_recovery": 357500,
+                  "fever_recovery": 348425,
                   "fever_recovery_growth": 0,
-                  "attribute_infliction": 12996,
+                  "attribute_infliction": 12663,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
-                  "ether_purify": 12997
+                  "ether_purify": 12664
                 }
               },
               "potential": []
@@ -752,23 +768,23 @@
               "desc": "{Skill:1611008, Prop:1002}",
               "param": {
                 "1611008": {
-                  "main": 14300,
-                  "growth": 650,
+                  "main": 13930,
+                  "growth": 640,
                   "format": "%",
-                  "damage_percentage": 32520,
-                  "damage_percentage_growth": 2960,
-                  "stun_ratio": 14300,
-                  "stun_ratio_growth": 650,
+                  "damage_percentage": 34920,
+                  "damage_percentage_growth": 3180,
+                  "stun_ratio": 13930,
+                  "stun_ratio_growth": 640,
                   "sp_recovery": 0,
                   "sp_recovery_growth": 0,
-                  "fever_recovery": 357500,
+                  "fever_recovery": 348425,
                   "fever_recovery_growth": 0,
-                  "attribute_infliction": 12996,
+                  "attribute_infliction": 12663,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
-                  "ether_purify": 12997
+                  "ether_purify": 12664
                 }
               },
               "potential": []
@@ -835,22 +851,22 @@
         },
         {
           "name": "Dash Attack: Quench",
-          "desc": "Press <IconMap:Icon_Normal> during a dodge to activate:\nPerforms a forward hammer attack, dealing <color=#2EB6FF>Electric DMG</color>.",
+          "desc": "Press <IconMap:Icon_Normal> during a dodge to activate:\nPerform a forward hammer attack, dealing <color=#2EB6FF>Electric DMG</color>.",
           "potential": []
         },
         {
-          "name": "Dash Attack: Blood Axe - Quench",
+          "name": "Dash Attack: Blood Blossom Oath - Quenched",
           "desc": "Press <IconMap:Icon_Normal> during a dodge while under [Crimson Inscription] to activate:\nDash forward with a blood axe slash, dealing <color=#2EB6FF>Electric DMG</color>.",
           "potential": []
         },
         {
           "name": "Dodge Counter: Returning Edge",
-          "desc": "Press <IconMap:Icon_Normal> during a <color=#FFFFFF>Perfect Dodge</color> to activate:\nUses the hammer shaft to deliver a powerful Counter at enemies in front, dealing <color=#2EB6FF>Electric DMG</color>.\nCharacter is invulnerable while using this skill.",
+          "desc": "Press <IconMap:Icon_Normal> during a <color=#FFFFFF>Perfect Dodge</color> to activate:\nUses the hammer shaft to deliver a powerful counter in front, dealing <color=#2EB6FF>Electric DMG</color>.\nCharacter is invulnerable while using this skill.",
           "potential": []
         },
         {
-          "name": "Dodge Counter: Blood Axe - Returning Edge",
-          "desc": "Press <IconMap:Icon_Normal> during a <color=#FFFFFF>Perfect Dodge</color> to activate:\nUnleashes a powerful counter with the blood axe against enemies in front, dealing <color=#2EB6FF>Electric DMG</color>.\nCharacter is invulnerable while using this skill.",
+          "name": "Dodge Counter: Blood Blossom Oath - Returning Edge",
+          "desc": "Press <IconMap:Icon_Normal> during a <color=#FFFFFF>Perfect Dodge</color> to activate:\nUnleashes a powerful Counter with the blood axe against enemies ahead, dealing <color=#2EB6FF>Electric DMG</color>;\nDoes not exit <color=#FFFFFF>[Crimson Imprint]</color> state during activation;\nCharacter is invulnerable while using this skill.",
           "potential": []
         },
         {
@@ -861,11 +877,11 @@
               "desc": "{Skill:1611016, Prop:1001}",
               "param": {
                 "1611016": {
-                  "main": 10970,
-                  "growth": 1000,
+                  "main": 5490,
+                  "growth": 500,
                   "format": "%",
-                  "damage_percentage": 10970,
-                  "damage_percentage_growth": 1000,
+                  "damage_percentage": 5490,
+                  "damage_percentage_growth": 500,
                   "stun_ratio": 4310,
                   "stun_ratio_growth": 200,
                   "sp_recovery": 0,
@@ -890,8 +906,8 @@
                   "main": 4310,
                   "growth": 200,
                   "format": "%",
-                  "damage_percentage": 10970,
-                  "damage_percentage_growth": 1000,
+                  "damage_percentage": 5490,
+                  "damage_percentage_growth": 500,
                   "stun_ratio": 4310,
                   "stun_ratio_growth": 200,
                   "sp_recovery": 0,
@@ -912,18 +928,18 @@
           "potential": []
         },
         {
-          "name": "Dash Attack: Blood Axe - Quench",
+          "name": "Dash Attack: Blood Blossom Oath - Quenched",
           "param": [
             {
               "name": "DMG Multiplier",
               "desc": "{Skill:1611017, Prop:1001}",
               "param": {
                 "1611017": {
-                  "main": 17690,
-                  "growth": 1610,
+                  "main": 13920,
+                  "growth": 1270,
                   "format": "%",
-                  "damage_percentage": 17690,
-                  "damage_percentage_growth": 1610,
+                  "damage_percentage": 13920,
+                  "damage_percentage_growth": 1270,
                   "stun_ratio": 4680,
                   "stun_ratio_growth": 220,
                   "sp_recovery": 0,
@@ -948,8 +964,8 @@
                   "main": 4680,
                   "growth": 220,
                   "format": "%",
-                  "damage_percentage": 17690,
-                  "damage_percentage_growth": 1610,
+                  "damage_percentage": 13920,
+                  "damage_percentage_growth": 1270,
                   "stun_ratio": 4680,
                   "stun_ratio_growth": 220,
                   "sp_recovery": 0,
@@ -1028,18 +1044,18 @@
           "potential": []
         },
         {
-          "name": "Dodge Counter: Blood Axe - Returning Edge",
+          "name": "Dodge Counter: Blood Blossom Oath - Returning Edge",
           "param": [
             {
               "name": "DMG Multiplier",
               "desc": "{Skill:1611019, Prop:1001}",
               "param": {
                 "1611019": {
-                  "main": 32350,
-                  "growth": 2950,
+                  "main": 34230,
+                  "growth": 3120,
                   "format": "%",
-                  "damage_percentage": 32350,
-                  "damage_percentage_growth": 2950,
+                  "damage_percentage": 34230,
+                  "damage_percentage_growth": 3120,
                   "stun_ratio": 19070,
                   "stun_ratio_growth": 870,
                   "sp_recovery": 0,
@@ -1064,8 +1080,8 @@
                   "main": 19070,
                   "growth": 870,
                   "format": "%",
-                  "damage_percentage": 32350,
-                  "damage_percentage_growth": 2950,
+                  "damage_percentage": 34230,
+                  "damage_percentage_growth": 3120,
                   "stun_ratio": 19070,
                   "stun_ratio_growth": 870,
                   "sp_recovery": 0,
@@ -1138,27 +1154,27 @@
     "special": {
       "description": [
         {
-          "name": "Special Attack: Dawn's First Call",
+          "name": "Special Attack: Dawn's Clarion",
           "desc": "Press <IconMap:Icon_Special> to activate:\nLaunch two hammer attacks forward, dealing <color=#2EB6FF>Electric DMG</color>.\nAnti-Interrupt level is increased while using this skill.",
           "potential": []
         },
         {
-          "name": "EX Special Attack: Blood-Forged Edge",
-          "desc": "When Sharpness is sufficient and not in [Crimson Inscription], press <IconMap:Icon_SpecialReady> to activate:\nTransforms the forging hammer into a blood axe and Slashes the target enemy, dealing <color=#2EB6FF>Electric DMG</color>;\nAfter consuming Sharpness to use this skill, enters [Crimson Inscription] for 16s. While off field, the duration no longer decreases;\nCharacter is invulnerable while using this skill.",
+          "name": "EX Special Attack: Blood Bloom Oath - Secret Blood Forged Edge",
+          "desc": "When Sharpness is sufficient and not in [Crimson Engrave], press <IconMap:Icon_SpecialReady> to activate:\nTransforms the forging hammer into a blood axe and Slashes the target enemy, dealing <color=#2EB6FF>Electric DMG</color>;\nAfter consuming Sharpness to use the skill, enters [Crimson Engrave] for 12.5 seconds. While off field, the duration no longer decreases;\nCharacter is invulnerable while using this skill.",
           "potential": []
         },
         {
-          "name": "Special Attack: Cleave Through Steel",
-          "desc": "While in [Crimson Inscription], press <IconMap:Icon_SpecialReady> to activate:\nPerforms a powerful upward Slash forward, dealing <color=#2EB6FF>Electric DMG</color>;\nDuring this skill, gains Immunity to attacks from enemies with [Gash];\nIf the attack hits an enemy with [Gash], inflicts [Maim] on the target, dealing additional <color=#2EB6FF>Electric DMG</color>;\nAnti-Interrupt level is increased while using this skill.",
+          "name": "Special Attack: Blood Blossom Oath - Sever Jin, Sunder Iron",
+          "desc": "While in [Crimson Inscription], press <IconMap:Icon_SpecialReady> to activate:\nPerforms a powerful upward strike followed by a horizontal Slash, dealing <color=#2EB6FF>Electric DMG</color>;\nIf the horizontal Slash hits an enemy afflicted with [Gash], it inflicts [Maim] on the target, dealing additional <color=#2EB6FF>Electric DMG</color>;\nWill not exit the <color=#FFFFFF>[Crimson Inscription]</color> state during activation;\nAnti-Interrupt level is increased while using this skill.",
           "potential": []
         },
         {
-          "name": "EX Special Attack: Blood Burial Onslaught",
-          "desc": "While in [Crimson Inscription] and possessing [Personal Resources], during the [Special Attack: Execution] upswing, hold <IconMap:Icon_SpecialReady> to activate:\nLaunches a powerful continuous spinning Slash forward, dealing massive <color=#2EB6FF>Electric DMG</color>;\nIf the attack hits an enemy with [Gash], inflicts [Maim] on the target, dealing additional <color=#2EB6FF>Electric DMG</color>;\nUpon activating this skill, consume all [Personal Resources]. For every 1 point of [Personal Resources] consumed, the skill's DMG is increased by <color=#FFFFFF>6.5%</color>.\nCharacter is invulnerable while using this skill.",
+          "name": "Special Attack: Blood Blossom Oath - Burial Blood Onslaught",
+          "desc": "While in [Crimson Inscription], during [Special Attack: Blood Blossom Oath · Sever Jin and Sunder Steel]'s launch phase, hold <IconMap:Icon_SpecialReady> to activate:\nLaunches 3 consecutive horizontal Slashes forward, dealing massive <color=#2EB6FF>Electric DMG</color>;\nEach horizontal Slash that hits an enemy with [Gash] inflicts [Maim] on the target, dealing additional <color=#2EB6FF>Electric DMG</color>. This skill can inflict [Maim] up to 3 times; the 3rd [Maim] has a higher Interrupt Level;\nWill not exit the <color=#FFFFFF>[Crimson Inscription]</color> state during activation;\nAnti-Interrupt level is increased during this skill. After successfully triggering [Maim], Character is invulnerable while using this skill.",
           "potential": []
         },
         {
-          "name": "Special Attack: Dawn's First Call",
+          "name": "Special Attack: Dawn's Clarion",
           "param": [
             {
               "name": "DMG Multiplier",
@@ -1216,30 +1232,30 @@
           "potential": []
         },
         {
-          "name": "EX Special Attack: Blood-Forged Edge",
+          "name": "EX Special Attack: Blood Bloom Oath - Secret Blood Forged Edge",
           "param": [
             {
               "name": "DMG Multiplier",
               "desc": "{Skill:1611010, Prop:1001}",
               "param": {
                 "1611010": {
-                  "main": 59640,
-                  "growth": 5430,
+                  "main": 64360,
+                  "growth": 5860,
                   "format": "%",
-                  "damage_percentage": 59640,
-                  "damage_percentage_growth": 5430,
-                  "stun_ratio": 26230,
-                  "stun_ratio_growth": 1200,
+                  "damage_percentage": 64360,
+                  "damage_percentage_growth": 5860,
+                  "stun_ratio": 25680,
+                  "stun_ratio_growth": 1170,
                   "sp_recovery": 0,
                   "sp_recovery_growth": 0,
-                  "fever_recovery": 655600,
+                  "fever_recovery": 641850,
                   "fever_recovery_growth": 0,
-                  "attribute_infliction": 23836,
+                  "attribute_infliction": 23336,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
-                  "ether_purify": 23837
+                  "ether_purify": 23337
                 }
               },
               "potential": []
@@ -1249,23 +1265,23 @@
               "desc": "{Skill:1611010, Prop:1002}",
               "param": {
                 "1611010": {
-                  "main": 26230,
-                  "growth": 1200,
+                  "main": 25680,
+                  "growth": 1170,
                   "format": "%",
-                  "damage_percentage": 59640,
-                  "damage_percentage_growth": 5430,
-                  "stun_ratio": 26230,
-                  "stun_ratio_growth": 1200,
+                  "damage_percentage": 64360,
+                  "damage_percentage_growth": 5860,
+                  "stun_ratio": 25680,
+                  "stun_ratio_growth": 1170,
                   "sp_recovery": 0,
                   "sp_recovery_growth": 0,
-                  "fever_recovery": 655600,
+                  "fever_recovery": 641850,
                   "fever_recovery_growth": 0,
-                  "attribute_infliction": 23836,
+                  "attribute_infliction": 23336,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
-                  "ether_purify": 23837
+                  "ether_purify": 23337
                 }
               },
               "potential": []
@@ -1279,18 +1295,18 @@
           "potential": []
         },
         {
-          "name": "Special Attack: Cleave Through Steel",
+          "name": "Special Attack: Blood Blossom Oath - Sever Jin, Sunder Iron",
           "param": [
             {
               "name": "Upward Attack DMG Multiplier",
               "desc": "{Skill:1611011, Prop:1001}",
               "param": {
                 "1611011": {
-                  "main": 14190,
-                  "growth": 1290,
+                  "main": 15640,
+                  "growth": 1430,
                   "format": "%",
-                  "damage_percentage": 14190,
-                  "damage_percentage_growth": 1290,
+                  "damage_percentage": 15640,
+                  "damage_percentage_growth": 1430,
                   "stun_ratio": 6240,
                   "stun_ratio_growth": 290,
                   "sp_recovery": 0,
@@ -1312,18 +1328,18 @@
               "desc": "{Skill:1611012, Prop:1001}",
               "param": {
                 "1611012": {
-                  "main": 14600,
-                  "growth": 1330,
+                  "main": 16090,
+                  "growth": 1470,
                   "format": "%",
-                  "damage_percentage": 14600,
-                  "damage_percentage_growth": 1330,
+                  "damage_percentage": 16090,
+                  "damage_percentage_growth": 1470,
                   "stun_ratio": 6420,
                   "stun_ratio_growth": 300,
                   "sp_recovery": 0,
                   "sp_recovery_growth": 0,
                   "fever_recovery": 160600,
                   "fever_recovery_growth": 0,
-                  "attribute_infliction": 5833,
+                  "attribute_infliction": 11503,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
@@ -1341,8 +1357,8 @@
                   "main": 6240,
                   "growth": 290,
                   "format": "%",
-                  "damage_percentage": 14190,
-                  "damage_percentage_growth": 1290,
+                  "damage_percentage": 15640,
+                  "damage_percentage_growth": 1430,
                   "stun_ratio": 6240,
                   "stun_ratio_growth": 290,
                   "sp_recovery": 0,
@@ -1367,15 +1383,15 @@
                   "main": 6420,
                   "growth": 300,
                   "format": "%",
-                  "damage_percentage": 14600,
-                  "damage_percentage_growth": 1330,
+                  "damage_percentage": 16090,
+                  "damage_percentage_growth": 1470,
                   "stun_ratio": 6420,
                   "stun_ratio_growth": 300,
                   "sp_recovery": 0,
                   "sp_recovery_growth": 0,
                   "fever_recovery": 160600,
                   "fever_recovery_growth": 0,
-                  "attribute_infliction": 5833,
+                  "attribute_infliction": 11503,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
@@ -1390,11 +1406,11 @@
               "desc": "{Skill:1611013, Prop:1001}",
               "param": {
                 "1611013": {
-                  "main": 61600,
-                  "growth": 5600,
+                  "main": 42000,
+                  "growth": 3820,
                   "format": "%",
-                  "damage_percentage": 61600,
-                  "damage_percentage_growth": 5600,
+                  "damage_percentage": 42000,
+                  "damage_percentage_growth": 3820,
                   "stun_ratio": 0,
                   "stun_ratio_growth": 0,
                   "sp_recovery": 0,
@@ -1415,30 +1431,30 @@
           "potential": []
         },
         {
-          "name": "EX Special Attack: Blood Burial Onslaught",
+          "name": "Special Attack: Blood Blossom Oath - Burial Blood Onslaught",
           "param": [
             {
               "name": "DMG Multiplier",
               "desc": "{Skill:1611014, Prop:1001}",
               "param": {
                 "1611014": {
-                  "main": 85540,
-                  "growth": 7780,
+                  "main": 62350,
+                  "growth": 5670,
                   "format": "%",
-                  "damage_percentage": 85540,
-                  "damage_percentage_growth": 7780,
-                  "stun_ratio": 55860,
-                  "stun_ratio_growth": 2540,
+                  "damage_percentage": 62350,
+                  "damage_percentage_growth": 5670,
+                  "stun_ratio": 28060,
+                  "stun_ratio_growth": 1280,
                   "sp_recovery": 0,
                   "sp_recovery_growth": 0,
-                  "fever_recovery": 1964050,
+                  "fever_recovery": 701525,
                   "fever_recovery_growth": 0,
-                  "attribute_infliction": 55937,
+                  "attribute_infliction": 25500,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
-                  "ether_purify": 19830
+                  "ether_purify": 25501
                 }
               },
               "potential": []
@@ -1448,23 +1464,23 @@
               "desc": "{Skill:1611014, Prop:1002}",
               "param": {
                 "1611014": {
-                  "main": 55860,
-                  "growth": 2540,
+                  "main": 28060,
+                  "growth": 1280,
                   "format": "%",
-                  "damage_percentage": 85540,
-                  "damage_percentage_growth": 7780,
-                  "stun_ratio": 55860,
-                  "stun_ratio_growth": 2540,
+                  "damage_percentage": 62350,
+                  "damage_percentage_growth": 5670,
+                  "stun_ratio": 28060,
+                  "stun_ratio_growth": 1280,
                   "sp_recovery": 0,
                   "sp_recovery_growth": 0,
-                  "fever_recovery": 1964050,
+                  "fever_recovery": 701525,
                   "fever_recovery_growth": 0,
-                  "attribute_infliction": 55937,
+                  "attribute_infliction": 25500,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
-                  "ether_purify": 19830
+                  "ether_purify": 25501
                 }
               },
               "potential": []
@@ -1474,11 +1490,11 @@
               "desc": "{Skill:1611015, Prop:1001}",
               "param": {
                 "1611015": {
-                  "main": 61600,
-                  "growth": 5600,
+                  "main": 42000,
+                  "growth": 3820,
                   "format": "%",
-                  "damage_percentage": 61600,
-                  "damage_percentage_growth": 5600,
+                  "damage_percentage": 42000,
+                  "damage_percentage_growth": 3820,
                   "stun_ratio": 0,
                   "stun_ratio_growth": 0,
                   "sp_recovery": 0,
@@ -1551,40 +1567,40 @@
     "chain": {
       "description": [
         {
-          "name": "Chain Attack: Blood Pact Resonance",
-          "desc": "When a <color=#FFFFFF>Chain Attack</color> is triggered, select the character to activate:\nUnleashes continuous Slashes on enemies ahead, dealing massive <color=#2EB6FF>Electric DMG</color>;\nWhen a heavy attack hits an enemy, directly applies 1 stack of [Gash] to the enemy;\nDuring this skill, if already in <color=#FFFFFF>[Crimson Imprint]</color>, hold <IconMap:Icon_SpecialReady> to quickly chain into [EX Special Attack: Blood Blossom Oath - Arcane Blood Forging] without consuming Sharpness, and extend [Crimson Imprint] duration by 4s;\nCharacter is invulnerable while using this skill.",
+          "name": "Chain Attack: Blood Blossom Oath · Blood Pact Resonance",
+          "desc": "When a <color=#FFFFFF>Chain Attack</color> is triggered, select the character to activate:\nUnleashes consecutive slashes on enemies ahead, dealing massive <color=#2EB6FF>Electric DMG</color>;\nWhile active, <color=#FFFFFF>Crimson Imprint</color> duration no longer decreases, and will not exit the <color=#FFFFFF>Crimson Imprint</color> state;\nCharacter is invulnerable while using this skill.",
           "potential": []
         },
         {
-          "name": "Ultimate: Forged in Fire",
-          "desc": "When Decibel Rating is at <color=#FFFFFF>Maximum</color>, press <IconMap:Icon_UltimateReady> to activate:\nUnleash a series of slashes at enemies ahead, dealing massive <color=#2EB6FF>Electric DMG</color>.\nWhen a heavy attack hits an enemy, directly applies 1 stack of [Gash] to the enemy.\nCharacter is invulnerable while using this skill.",
+          "name": "Ultimate: Blood Oath · Tempered in Fire",
+          "desc": "When Decibel Rating is at <color=#FFFFFF>Maximum</color>, press <IconMap:Icon_UltimateReady> to activate:\nUnleashes a series of slashes on enemies ahead, dealing massive <color=#2EB6FF>Electric DMG</color>;\nWhile active, <color=#FFFFFF>[Crimson Imprint]</color> duration stops decreasing, and the character will not exit the <color=#FFFFFF>[Crimson Imprint]</color> state;\nCharacter is invulnerable while using this skill.",
           "potential": []
         },
         {
-          "name": "Chain Attack: Blood Pact Resonance",
+          "name": "Chain Attack: Blood Blossom Oath · Blood Pact Resonance",
           "param": [
             {
               "name": "DMG Multiplier",
               "desc": "{Skill:1611020, Prop:1001}",
               "param": {
                 "1611020": {
-                  "main": 108080,
-                  "growth": 9830,
+                  "main": 109720,
+                  "growth": 9980,
                   "format": "%",
-                  "damage_percentage": 108080,
-                  "damage_percentage_growth": 9830,
-                  "stun_ratio": 26400,
-                  "stun_ratio_growth": 1200,
+                  "damage_percentage": 109720,
+                  "damage_percentage_growth": 9980,
+                  "stun_ratio": 27690,
+                  "stun_ratio_growth": 1260,
                   "sp_recovery": 0,
                   "sp_recovery_growth": 0,
-                  "fever_recovery": 2488750,
+                  "fever_recovery": 2520925,
                   "fever_recovery_growth": 0,
-                  "attribute_infliction": 43950,
+                  "attribute_infliction": 45116,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
-                  "ether_purify": 24000
+                  "ether_purify": 25167
                 }
               },
               "potential": []
@@ -1594,23 +1610,23 @@
               "desc": "{Skill:1611020, Prop:1002}",
               "param": {
                 "1611020": {
-                  "main": 26400,
-                  "growth": 1200,
+                  "main": 27690,
+                  "growth": 1260,
                   "format": "%",
-                  "damage_percentage": 108080,
-                  "damage_percentage_growth": 9830,
-                  "stun_ratio": 26400,
-                  "stun_ratio_growth": 1200,
+                  "damage_percentage": 109720,
+                  "damage_percentage_growth": 9980,
+                  "stun_ratio": 27690,
+                  "stun_ratio_growth": 1260,
                   "sp_recovery": 0,
                   "sp_recovery_growth": 0,
-                  "fever_recovery": 2488750,
+                  "fever_recovery": 2520925,
                   "fever_recovery_growth": 0,
-                  "attribute_infliction": 43950,
+                  "attribute_infliction": 45116,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
-                  "ether_purify": 24000
+                  "ether_purify": 25167
                 }
               },
               "potential": []
@@ -1619,30 +1635,30 @@
           "potential": []
         },
         {
-          "name": "Claret_Skill_ExQTE_02_Title",
+          "name": "Ultimate: Blood Oath · Tempered in Fire",
           "param": [
             {
               "name": "DMG Multiplier",
               "desc": "{Skill:1611021, Prop:1001}",
               "param": {
                 "1611021": {
-                  "main": 242040,
-                  "growth": 22010,
+                  "main": 235360,
+                  "growth": 21400,
                   "format": "%",
-                  "damage_percentage": 242040,
-                  "damage_percentage_growth": 22010,
-                  "stun_ratio": 40520,
-                  "stun_ratio_growth": 1850,
+                  "damage_percentage": 235360,
+                  "damage_percentage_growth": 21400,
+                  "stun_ratio": 36480,
+                  "stun_ratio_growth": 1660,
                   "sp_recovery": 0,
                   "sp_recovery_growth": 0,
                   "fever_recovery": 0,
                   "fever_recovery_growth": 0,
-                  "attribute_infliction": 36829,
+                  "attribute_infliction": 33163,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
-                  "ether_purify": 86830
+                  "ether_purify": 83164
                 }
               },
               "potential": []
@@ -1652,23 +1668,23 @@
               "desc": "{Skill:1611021, Prop:1002}",
               "param": {
                 "1611021": {
-                  "main": 40520,
-                  "growth": 1850,
+                  "main": 36480,
+                  "growth": 1660,
                   "format": "%",
-                  "damage_percentage": 242040,
-                  "damage_percentage_growth": 22010,
-                  "stun_ratio": 40520,
-                  "stun_ratio_growth": 1850,
+                  "damage_percentage": 235360,
+                  "damage_percentage_growth": 21400,
+                  "stun_ratio": 36480,
+                  "stun_ratio_growth": 1660,
                   "sp_recovery": 0,
                   "sp_recovery_growth": 0,
                   "fever_recovery": 0,
                   "fever_recovery_growth": 0,
-                  "attribute_infliction": 36829,
+                  "attribute_infliction": 33163,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
-                  "ether_purify": 86830
+                  "ether_purify": 83164
                 }
               },
               "potential": []
@@ -1729,32 +1745,32 @@
     "assist": {
       "description": [
         {
-          "name": "Quick Assist: Bane Returns",
+          "name": "Quick Assist: Dire Moon Rising",
           "desc": "When the active character is launched, press <IconMap:Icon_Switch> to activate:\nDeals <color=#2EB6FF>Electric DMG</color>.\nCharacter is invulnerable while using this skill.",
           "potential": []
         },
         {
-          "name": "Quick Assist: Blood Axe - Doom Moon Returns",
-          "desc": "When the active character is launched, press <IconMap:Icon_Switch> to activate:\nDeals <color=#2EB6FF>Electric DMG</color>.\nCharacter is invulnerable while using this skill.",
+          "name": "Quick Assist: Blood Oath · Crimson Moon Returns",
+          "desc": "When the active character is launched, press <IconMap:Icon_Switch> to activate:\nDeals <color=#2EB6FF>Electric DMG</color>;\nWill not exit <color=#FFFFFF>[Crimson Imprint]</color> state during activation;\nCharacter is invulnerable while using this skill.",
           "potential": []
         },
         {
           "name": "Defensive Assist: Unyielding Core",
-          "desc": "When the on-field character is about to be attacked, press <IconMap:Icon_Switch> to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill.",
+          "desc": "When the on-field character is about to be attacked, press <IconMap:Icon_Switch> to activate:\nParries the enemy's attack, dealing massive Daze.\nWhile activated, <color=#FFFFFF>[Crimson Engravings]</color> duration no longer decreases.\nCharacter is invulnerable while using this skill.",
+          "potential": []
+        },
+        {
+          "name": "Assist Follow-Up: Blood Blossom Oath · Immaculate Molten Edge",
+          "desc": "Press <IconMap:Icon_Normal> after a <color=#FFFFFF>Defensive Assist</color> to activate:\ndealing massive <color=#2EB6FF>Electric DMG</color>;\nWill not exit the <color=#FFFFFF>[Crimson Imprint]</color> state during this skill;\nCharacter is invulnerable while using this skill.",
           "potential": []
         },
         {
           "name": "Counter Assist: Not an Inch",
-          "desc": "When you or the on-field Character is about to be hit by a Control Skill attack, press <IconMap:Icon_Switch> to activate:\nEngage in a struggle with the monster. Upon success, neutralize the enemy's Control Skill;\nCharacter is invulnerable while using this skill.",
+          "desc": "When you or the on-field Character is about to be hit by a Control Skill attack, press <IconMap:Icon_Switch> to activate:\nEngage in a grapple with the monster. Upon a successful grapple, nullify the enemy's Control Skill;\nWhile active, <color=#FFFFFF>[Crimson Imprint]</color> duration no longer decreases;\nCharacter is invulnerable while using this skill.",
           "potential": []
         },
         {
-          "name": "Assist Follow-Up: Pristine Molten Edge",
-          "desc": "Press <IconMap:Icon_Normal> after a <color=#FFFFFF>Defensive Assist</color> to activate:\nDeals massive <color=#2EB6FF>Electric DMG</color>.\nCharacter is invulnerable while using this skill.",
-          "potential": []
-        },
-        {
-          "name": "Quick Assist: Bane Returns",
+          "name": "Quick Assist: Dire Moon Rising",
           "param": [
             {
               "name": "DMG Multiplier",
@@ -1812,18 +1828,18 @@
           "potential": []
         },
         {
-          "name": "Quick Assist: Bane Returns",
+          "name": "Quick Assist: Blood Oath · Crimson Moon Returns",
           "param": [
             {
               "name": "DMG Multiplier",
               "desc": "{Skill:1611023, Prop:1001}",
               "param": {
                 "1611023": {
-                  "main": 7940,
-                  "growth": 730,
+                  "main": 8990,
+                  "growth": 820,
                   "format": "%",
-                  "damage_percentage": 7940,
-                  "damage_percentage_growth": 730,
+                  "damage_percentage": 8990,
+                  "damage_percentage_growth": 820,
                   "stun_ratio": 4040,
                   "stun_ratio_growth": 190,
                   "sp_recovery": 0,
@@ -1848,8 +1864,8 @@
                   "main": 4040,
                   "growth": 190,
                   "format": "%",
-                  "damage_percentage": 7940,
-                  "damage_percentage_growth": 730,
+                  "damage_percentage": 8990,
+                  "damage_percentage_growth": 820,
                   "stun_ratio": 4040,
                   "stun_ratio_growth": 190,
                   "sp_recovery": 0,
@@ -1954,7 +1970,7 @@
           "potential": []
         },
         {
-          "name": "Assist Follow-Up: Pristine Molten Edge",
+          "name": "Assist Follow-Up: Blood Blossom Oath · Immaculate Molten Edge",
           "param": [
             {
               "name": "DMG Multiplier",
@@ -2019,23 +2035,23 @@
               "desc": "{Skill:1611028, Prop:1001}",
               "param": {
                 "1611028": {
-                  "main": 61290,
-                  "growth": 5580,
+                  "main": 150630,
+                  "growth": 13700,
                   "format": "%",
-                  "damage_percentage": 61290,
-                  "damage_percentage_growth": 5580,
-                  "stun_ratio": 42530,
-                  "stun_ratio_growth": 1940,
+                  "damage_percentage": 150630,
+                  "damage_percentage_growth": 13700,
+                  "stun_ratio": 98990,
+                  "stun_ratio_growth": 4500,
                   "sp_recovery": 0,
                   "sp_recovery_growth": 0,
-                  "fever_recovery": 1344475,
+                  "fever_recovery": 3443000,
                   "fever_recovery_growth": 0,
-                  "attribute_infliction": 41217,
+                  "attribute_infliction": 98786,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
-                  "ether_purify": 53330
+                  "ether_purify": 67167
                 }
               },
               "potential": []
@@ -2045,23 +2061,23 @@
               "desc": "{Skill:1611028, Prop:1002}",
               "param": {
                 "1611028": {
-                  "main": 42530,
-                  "growth": 1940,
+                  "main": 98990,
+                  "growth": 4500,
                   "format": "%",
-                  "damage_percentage": 61290,
-                  "damage_percentage_growth": 5580,
-                  "stun_ratio": 42530,
-                  "stun_ratio_growth": 1940,
+                  "damage_percentage": 150630,
+                  "damage_percentage_growth": 13700,
+                  "stun_ratio": 98990,
+                  "stun_ratio_growth": 4500,
                   "sp_recovery": 0,
                   "sp_recovery_growth": 0,
-                  "fever_recovery": 1344475,
+                  "fever_recovery": 3443000,
                   "fever_recovery_growth": 0,
-                  "attribute_infliction": 41217,
+                  "attribute_infliction": 98786,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
-                  "ether_purify": 53330
+                  "ether_purify": 67167
                 }
               },
               "potential": []
@@ -2132,8 +2148,8 @@
           "Additional Ability: Bloodline Legacy"
         ],
         "desc": [
-          "All DMG dealt by Claret's skills is Sharp DMG, which uses DEF as the DMG Multiplier;\nWhen a critical hit is triggered, Laceration DMG replaces CRIT DMG for calculation; when CRIT Rate exceeds 100%, an additional Laceration check is performed, with the Laceration probability equal to the excess CRIT Rate;\nSharp DMG accumulates Gash value. When the Gash value is full, the enemy enters [Gash], which can stack up to 3 times;\nWhen Claret's [Special Attack: Blood Blossom Oath - Sever Steel] or [EX Special Attack: Blood Blossom Oath - Crimson Onslaught] hits an enemy in the [Gash] state, it consumes one stack of [Gash] and triggers [Maim] to deal additional DMG;\nWhen the whole squad triggers [Maim], Claret gains 1 [Personal Resources];\nAfter Claret enters [Crimson Engrave], her Anti-Interrupt level increases. When attacking targets with Blood Blossom Oath skills, CRIT Rate increases by <color=#POSITIVE_WITH_GREYITE>35%</color>, and DMG dealt increases by <color=#POSITIVE_WITH_GREYITE>25%</color>.",
-          "When another <color=#FFFFFF>[Stun]</color> Character or another <color=#FFFFFF>[Armorer]</color> Character is in the squad:\nWhen a teammate's attack hits an enemy while they are the active Character, accumulates <color=#FFFFFF>3%</color> Gash value on the target. Can trigger at most once every 1s;\nWhen a <color=#FFFFFF>[Stun]</color> Character in the squad hits an enemy with a [Special Attack] or [EX Special Attack] heavy attack while they are the active Character, triggers [Maim], once per use of a skill. Maim DMG is considered DMG dealt by Claret;\nWhenever Claret or a teammate consumes 1 stack of [Gash] to trigger [Maim], enters [Gleaming Edge Unveiled]. While in the [Gleaming Edge Unveiled] state, PEN Ratio increases by <color=#FFFFFF>20%</color>, Daze dealt increases by 10%, lasting 10s;\nAfter Claret enters the [Gleaming Edge Unveiled] state via [Maim], the first time she switches to a <color=#FFFFFF>[Stun]</color> or another <color=#FFFFFF>[Armorer]</color> teammate, extends [Gleaming Edge Unveiled] duration by 3s and copies this buff to the corresponding Character;\nAfter a teammate triggers [Maim] and enters the [Gleaming Edge Unveiled] state, triggers Claret's Quick Assist: the first time she is switched in, she performs [Basic Attack: Blood Bloom Oath - Crouching Axe], extends [Gleaming Edge Unveiled] duration by 3s, and copies this buff to Claret;\nRe-entering [Gleaming Edge Unveiled] via [Maim] extends the duration of [Gleaming Edge Unveiled]."
+          "All DMG dealt by Claret's skills is Sharp DMG, which uses DEF as the skill DMG Multiplier;\nWhen a critical hit is triggered, Laceration DMG replaces CRIT DMG for calculation; when CRIT Rate exceeds 100%, an additional Laceration judgment is performed, with the Laceration probability equal to the excess CRIT Rate;\nSharp DMG accumulates Gash value. When the Gash value is full, the enemy enters [Gash], which can stack up to 3 times;\nWhen Claret enters the battlefield, she recovers 60 Sharpness. In Investigation Zone mode, this effect can trigger once every 180 seconds.\nWhen Claret's [Special Attack: Blood Oath - Sever Steel] or [Special Attack: Blood Oath - Crimson Onslaught] hits an enemy afflicted with [Gash], one stack of [Gash] is consumed, triggering [Maim] to deal additional DMG;\nAfter Claret enters [Crimson Engrave], her Anti-Interrupt Lv. is increased. When Claret uses a [Chain Attack], [Crimson Engrave] duration is extended by 3s. When [Contamination] is triggered, [Crimson Engrave] duration is extended by 3s;\nWhile Claret is in [Crimson Engrave], or during [Chain Attack: Blood Oath - Blood Pact Resonance], [Ultimate: Blood Oath - Thousandfold Temper], or [Assist Follow-Up: Blood Oath - Pristine Molten Edge], DMG dealt is increased by <color=#POSITIVE_WITH_GREYITE>15%</color>. During [Basic Attack: Blood Oath - Forge Star] and [Basic Attack: Blood Oath - Descending Axe] skill attacks, triggering a Perfect Dodge additionally increases DMG dealt for the remaining duration of the skill by 15%.",
+          "When another character in your squad is a <color=#FFFFFF>[Stun]</color> Character or another <color=#FFFFFF>[Armorer]</color> Character, triggers:\nWhen a squad member's attack hits an enemy while they are the active Character, accumulates <color=#FFFFFF>3%</color> Gash value on the target, can trigger at most once every 1s;\nWhen Claret or a squad member triggers [Maim], all [Armorer] Agents in the whole squad enter [Remnant Edge]. While in the [Remnant Edge] state, CRIT Rate increases by <color=#FFFFFF>30%</color>, lasting 40s; re-entering [Remnant Edge] extends its duration."
         ],
         "extra_property": {},
         "potential": []
@@ -2146,8 +2162,8 @@
           "Additional Ability: Bloodline Legacy"
         ],
         "desc": [
-          "All DMG dealt by Claret's skills is Sharp DMG, using DEF as the DMG Multiplier;\nWhen a critical hit is triggered, Laceration DMG replaces CRIT DMG for calculation; when CRIT Rate exceeds 100%, an additional Laceration check is performed, with the Laceration probability equal to the excess CRIT Rate;\nSharp DMG accumulates Gash value. When the Gash value is full, the enemy enters [Gash]. [Gash] can stack up to 3 times;\nWhen Claret's [Special Attack: Blood Bloom Oath - Sever Steel] or [EX Special Attack: Blood Bloom Oath - Crimson Onslaught] hits an enemy in the [Gash] state, it consumes one stack of [Gash] and triggers [Maim] to deal additional DMG;\nWhen the whole squad triggers [Maim], Claret gains 1 [Personal Resources];\nAfter Claret enters [Crimson Engrave], Anti-Interrupt Level is increased. When attacking targets with Blood Bloom Oath skills, CRIT Rate is increased by <color=#POSITIVE_WITH_GREYITE>35%</color>, and DMG dealt is increased by <color=#POSITIVE_WITH_GREYITE>25%</color>.",
-          "When another <color=#FFFFFF>[Stun]</color> Character or another <color=#FFFFFF>[Armorer]</color> Character is in the squad:\nWhen a teammate's attack hits an enemy while they are the active Character, accumulates <color=#FFFFFF>3%</color> Gash value on the target. Can trigger at most once every 1s;\nWhen a <color=#FFFFFF>[Stun]</color> Character in the squad hits an enemy with a [Special Attack] or [EX Special Attack] heavy attack while they are the active Character, triggers [Maim], once per use of a skill. Maim DMG is considered DMG dealt by Claret;\nWhenever Claret or a teammate consumes 1 stack of [Gash] to trigger [Maim], enters [Gleaming Edge Unveiled]. While in the [Gleaming Edge Unveiled] state, PEN Ratio increases by <color=#FFFFFF>20%</color>, Daze dealt increases by 10%, lasting 10s;\nAfter Claret enters the [Gleaming Edge Unveiled] state via [Maim], the first time she switches to a <color=#FFFFFF>[Stun]</color> or another <color=#FFFFFF>[Armorer]</color> teammate, extends [Gleaming Edge Unveiled] duration by 3s and copies this buff to the corresponding Character;\nAfter a teammate triggers [Maim] and enters the [Gleaming Edge Unveiled] state, triggers Claret's Quick Assist: the first time she is switched in, she performs [Basic Attack: Blood Bloom Oath - Crouching Axe], extends [Gleaming Edge Unveiled] duration by 3s, and copies this buff to Claret;\nRe-entering [Gleaming Edge Unveiled] via [Maim] extends the duration of [Gleaming Edge Unveiled]."
+          "All DMG dealt by Claret's skills is Sharp DMG, which uses DEF as the DMG Multiplier;\nWhen triggering a critical hit, Laceration DMG replaces CRIT DMG for calculation; when CRIT Rate exceeds 100%, an additional Laceration judgment is performed, with the Laceration probability equal to the excess CRIT Rate;\nSharp DMG accumulates Gash value. When the Gash value is full, enemies enter [Gash], which can stack up to 3 times;\nWhen Claret enters the battlefield, she recovers 60 Sharpness. In Investigation Zone mode, this effect can trigger once every 180 seconds.\nWhen Claret's [Special Attack: Blood Oath - Sever Steel] or [Special Attack: Blood Oath - Bloody Onslaught] hits an enemy in the [Gash] state, it consumes one stack of [Gash] and triggers [Maim] to deal additional DMG;\nAfter Claret enters [Crimson Engrave], her Anti-Interrupt Lv. increases. When Claret uses a [Chain Attack], [Crimson Engrave] duration is extended by 3 seconds. When [Contamination] is triggered, [Crimson Engrave] duration is extended by 3 seconds;\nWhile Claret is in [Crimson Engrave], or during [Chain Attack: Blood Oath - Blood Pact Resonance], [Ultimate: Blood Oath - Tempered Resolve], or [Assist Follow-Up: Blood Oath - Pristine Molten Edge], DMG dealt is increased by <color=#POSITIVE_WITH_GREYITE>17.5%</color>. During [Basic Attack: Blood Oath - Star Forge] and [Basic Attack: Blood Oath - Crouching Axe] skill attacks, triggering a Perfect Dodge additionally increases DMG dealt for the remaining duration of the skill by 15%.",
+          "When another character in your squad is a <color=#FFFFFF>[Stun]</color> Character or another <color=#FFFFFF>[Armorer]</color> Character, triggers:\nWhen a squad member's attack hits an enemy while they are the active Character, accumulates <color=#FFFFFF>3%</color> Gash value on the target, can trigger at most once every 1s;\nWhen Claret or a squad member triggers [Maim], all [Armorer] Agents in the whole squad enter [Remnant Edge]. While in the [Remnant Edge] state, CRIT Rate increases by <color=#FFFFFF>30%</color>, lasting 40s; re-entering [Remnant Edge] extends its duration."
         ],
         "extra_property": {},
         "potential": []
@@ -2160,8 +2176,8 @@
           "Additional Ability: Bloodline Legacy"
         ],
         "desc": [
-          "All DMG dealt by Claret's skills is Sharp DMG, using DEF as the DMG Multiplier;\nWhen triggering a critical hit, Laceration DMG replaces CRIT DMG for calculation; when CRIT Rate exceeds 100%, an additional Laceration judgment is performed, with the Laceration probability equal to the excess CRIT Rate;\nSharp DMG accumulates Gash value. When the Gash value is full, the enemy enters [Gash], which can stack up to 3 times;\nWhen Claret uses [Special Attack: Blood Blossom Oath - Sever Steel] or [EX Special Attack: Blood Blossom Oath - Crimson Onslaught] and hits an enemy in the [Gash] state, one stack of [Gash] is consumed, triggering [Maim] to deal additional DMG;\nWhen the whole squad triggers [Maim], Claret gains 1 [Personal Resources];\nAfter Claret enters [Crimson Engrave], Anti-Interrupt Level is increased. When attacking targets with Blood Blossom Oath skills, CRIT Rate is increased by <color=#POSITIVE_WITH_GREYITE>35%</color>, and DMG dealt is increased by <color=#POSITIVE_WITH_GREYITE>25%</color>.",
-          "When another <color=#FFFFFF>[Stun]</color> Character or another <color=#FFFFFF>[Armorer]</color> Character is in the squad:\nWhen a teammate's attack hits an enemy while they are the active Character, accumulates <color=#FFFFFF>3%</color> Gash value on the target. Can trigger at most once every 1s;\nWhen a <color=#FFFFFF>[Stun]</color> Character in the squad hits an enemy with a [Special Attack] or [EX Special Attack] heavy attack while they are the active Character, triggers [Maim], once per use of a skill. Maim DMG is considered DMG dealt by Claret;\nWhenever Claret or a teammate consumes 1 stack of [Gash] to trigger [Maim], enters [Gleaming Edge Unveiled]. While in the [Gleaming Edge Unveiled] state, PEN Ratio increases by <color=#FFFFFF>20%</color>, Daze dealt increases by 10%, lasting 10s;\nAfter Claret enters the [Gleaming Edge Unveiled] state via [Maim], the first time she switches to a <color=#FFFFFF>[Stun]</color> or another <color=#FFFFFF>[Armorer]</color> teammate, extends [Gleaming Edge Unveiled] duration by 3s and copies this buff to the corresponding Character;\nAfter a teammate triggers [Maim] and enters the [Gleaming Edge Unveiled] state, triggers Claret's Quick Assist: the first time she is switched in, she performs [Basic Attack: Blood Bloom Oath - Crouching Axe], extends [Gleaming Edge Unveiled] duration by 3s, and copies this buff to Claret;\nRe-entering [Gleaming Edge Unveiled] via [Maim] extends the duration of [Gleaming Edge Unveiled]."
+          "All DMG dealt by Claret's skills is Sharp DMG, which uses DEF as the skill DMG Multiplier;\nWhen a critical hit is triggered, Laceration DMG replaces CRIT DMG for calculation; when CRIT Rate exceeds 100%, an additional Laceration judgment is performed, with the Laceration probability equal to the excess CRIT Rate;\nSharp DMG accumulates Gash value. When the Gash value is full, enemies enter [Gash], which can stack up to 3 times;\nWhen Claret enters the battlefield, she recovers 60 Sharpness. In Investigation Zone mode, this effect can trigger once every 180 seconds.\nWhen Claret's [Special Attack: Blood Oath - Iron Severance] or [Special Attack: Blood Oath - Crimson Onslaught] hits an enemy in the [Gash] state, it consumes one stack of [Gash] and triggers [Maim] to deal additional DMG;\nAfter Claret enters [Crimson Engrave], her Anti-Interrupt Lv. is increased. When Claret uses a [Chain Attack], [Crimson Engrave] duration is extended by 3 seconds. When [Contamination] is triggered, [Crimson Engrave] duration is extended by 3 seconds;\nWhile Claret is in [Crimson Engrave], or during [Chain Attack: Blood Oath - Blood Pact Resonance], [Ultimate: Blood Oath - Forged Perfection], or [Assist Follow-Up: Blood Oath - Pristine Molten Edge], DMG dealt is increased by <color=#POSITIVE_WITH_GREYITE>20%</color>. During [Basic Attack: Blood Oath - Star Forge] and [Basic Attack: Blood Oath - Concealed Axe] skill attacks, if a Perfect Dodge is triggered, DMG dealt for the remainder of the skill is additionally increased by 15%.",
+          "When another character in your squad is a <color=#FFFFFF>[Stun]</color> Character or another <color=#FFFFFF>[Armorer]</color> Character, triggers:\nWhen a squad member's attack hits an enemy while they are the active Character, accumulates <color=#FFFFFF>3%</color> Gash value on the target, can trigger at most once every 1s;\nWhen Claret or a squad member triggers [Maim], all [Armorer] Agents in the whole squad enter [Remnant Edge]. While in the [Remnant Edge] state, CRIT Rate increases by <color=#FFFFFF>30%</color>, lasting 40s; re-entering [Remnant Edge] extends its duration."
         ],
         "extra_property": {},
         "potential": []
@@ -2174,8 +2190,8 @@
           "Additional Ability: Bloodline Legacy"
         ],
         "desc": [
-          "All DMG dealt by Claret's skills is Sharp DMG, using DEF as the DMG Multiplier;\nWhen triggering a critical hit, Laceration DMG replaces CRIT DMG for calculation; when CRIT Rate exceeds 100%, an additional Laceration judgment is performed, with the Laceration probability equal to the excess CRIT Rate;\nSharp DMG accumulates Gash value. When the Gash value is full, the enemy enters [Gash], which can stack up to 3 times;\nWhen Claret uses [Special Attack: Blood Blossom Oath - Sever Steel] or [EX Special Attack: Blood Blossom Oath - Crimson Onslaught] and hits an enemy in the [Gash] state, one stack of [Gash] is consumed, triggering [Maim] to deal additional DMG;\nWhen the whole squad triggers [Maim], Claret gains 1 [Personal Resources];\nAfter Claret enters [Crimson Engrave], Anti-Interrupt Level is increased. When attacking targets with Blood Blossom Oath skills, CRIT Rate is increased by <color=#POSITIVE_WITH_GREYITE>35%</color>, and DMG dealt is increased by <color=#POSITIVE_WITH_GREYITE>25%</color>.",
-          "When another <color=#FFFFFF>[Stun]</color> Character or another <color=#FFFFFF>[Armorer]</color> Character is in the squad:\nWhen a teammate's attack hits an enemy while they are the active Character, accumulates <color=#FFFFFF>3%</color> Gash value on the target. Can trigger at most once every 1s;\nWhen a <color=#FFFFFF>[Stun]</color> Character in the squad hits an enemy with a [Special Attack] or [EX Special Attack] heavy attack while they are the active Character, triggers [Maim], once per use of a skill. Maim DMG is considered DMG dealt by Claret;\nWhenever Claret or a teammate consumes 1 stack of [Gash] to trigger [Maim], enters [Gleaming Edge Unveiled]. While in the [Gleaming Edge Unveiled] state, PEN Ratio increases by <color=#FFFFFF>20%</color>, Daze dealt increases by 10%, lasting 10s;\nAfter Claret enters the [Gleaming Edge Unveiled] state via [Maim], the first time she switches to a <color=#FFFFFF>[Stun]</color> or another <color=#FFFFFF>[Armorer]</color> teammate, extends [Gleaming Edge Unveiled] duration by 3s and copies this buff to the corresponding Character;\nAfter a teammate triggers [Maim] and enters the [Gleaming Edge Unveiled] state, triggers Claret's Quick Assist: the first time she is switched in, she performs [Basic Attack: Blood Bloom Oath - Crouching Axe], extends [Gleaming Edge Unveiled] duration by 3s, and copies this buff to Claret;\nRe-entering [Gleaming Edge Unveiled] via [Maim] extends the duration of [Gleaming Edge Unveiled]."
+          "All DMG dealt by Claret's skills is Sharp DMG, which uses DEF as the skill DMG Multiplier;\nWhen a critical hit is triggered, Laceration DMG replaces CRIT DMG for calculation; when CRIT Rate exceeds 100%, an additional Laceration judgment is performed, with the Laceration probability equal to the excess CRIT Rate;\nSharp DMG accumulates Gash value. When the Gash value is full, enemies enter [Gash], which can stack up to 3 times;\nWhen Claret enters the battlefield, she recovers 60 Sharpness. In Investigation Zone mode, this effect can trigger once every 180 seconds.\nWhen Claret's [Special Attack: Blood Oath - Iron Severance] or [Special Attack: Blood Oath - Crimson Onslaught] hits an enemy in the [Gash] state, it consumes one stack of [Gash] and triggers [Maim] to deal additional DMG;\nAfter Claret enters [Crimson Engrave], her Anti-Interrupt Lv. is increased. When Claret uses a [Chain Attack], [Crimson Engrave] duration is extended by 3 seconds. When [Contamination] is triggered, [Crimson Engrave] duration is extended by 3 seconds;\nWhile Claret is in [Crimson Engrave], or during [Chain Attack: Blood Oath - Blood Pact Resonance], [Ultimate: Blood Oath - Forged Perfection], or [Assist Follow-Up: Blood Oath - Pristine Molten Edge], DMG dealt is increased by <color=#POSITIVE_WITH_GREYITE>22.5%</color>. During [Basic Attack: Blood Oath - Star Forge] and [Basic Attack: Blood Oath - Concealed Axe] skill attacks, if a Perfect Dodge is triggered, DMG dealt for the remainder of the skill is additionally increased by 15%.",
+          "When another character in your squad is a <color=#FFFFFF>[Stun]</color> Character or another <color=#FFFFFF>[Armorer]</color> Character, triggers:\nWhen a squad member's attack hits an enemy while they are the active Character, accumulates <color=#FFFFFF>3%</color> Gash value on the target, can trigger at most once every 1s;\nWhen Claret or a squad member triggers [Maim], all [Armorer] Agents in the whole squad enter [Remnant Edge]. While in the [Remnant Edge] state, CRIT Rate increases by <color=#FFFFFF>30%</color>, lasting 40s; re-entering [Remnant Edge] extends its duration."
         ],
         "extra_property": {},
         "potential": []
@@ -2188,8 +2204,8 @@
           "Additional Ability: Bloodline Legacy"
         ],
         "desc": [
-          "All DMG dealt by Claret's skills is Sharp DMG, using DEF as the DMG Multiplier;\nWhen triggering a critical hit, Laceration DMG replaces CRIT DMG for calculation; when CRIT Rate exceeds 100%, an additional Laceration check is performed, with the Laceration probability equal to the excess CRIT Rate;\nSharp DMG accumulates Gash value. When the Gash value is full, the enemy enters [Gash]. [Gash] can stack up to 3 times;\nWhen Claret's [Special Attack: Blood Bloom Oath - Sever Steel] or [EX Special Attack: Blood Bloom Oath - Sanguine Onslaught] hits an enemy in the [Gash] state, it consumes one stack of [Gash] and triggers [Maim] to deal additional DMG;\nWhen the whole squad triggers [Maim], Claret gains 1 [Personal Resources];\nAfter Claret enters [Crimson Engrave], her Anti-Interrupt level increases. When attacking targets with Blood Bloom Oath skills, CRIT Rate increases by <color=#POSITIVE_WITH_GREYITE>35%</color>, and DMG dealt increases by <color=#POSITIVE_WITH_GREYITE>25%</color>.",
-          "When another <color=#FFFFFF>[Stun]</color> Character or another <color=#FFFFFF>[Armorer]</color> Character is in the squad:\nWhen a teammate's attack hits an enemy while they are the active Character, accumulates <color=#FFFFFF>3%</color> Gash value on the target. Can trigger at most once every 1s;\nWhen a <color=#FFFFFF>[Stun]</color> Character in the squad hits an enemy with a [Special Attack] or [EX Special Attack] heavy attack while they are the active Character, triggers [Maim], once per use of a skill. Maim DMG is considered DMG dealt by Claret;\nWhenever Claret or a teammate consumes 1 stack of [Gash] to trigger [Maim], enters [Gleaming Edge Unveiled]. While in the [Gleaming Edge Unveiled] state, PEN Ratio increases by <color=#FFFFFF>20%</color>, Daze dealt increases by 10%, lasting 10s;\nAfter Claret enters the [Gleaming Edge Unveiled] state via [Maim], the first time she switches to a <color=#FFFFFF>[Stun]</color> or another <color=#FFFFFF>[Armorer]</color> teammate, extends [Gleaming Edge Unveiled] duration by 3s and copies this buff to the corresponding Character;\nAfter a teammate triggers [Maim] and enters the [Gleaming Edge Unveiled] state, triggers Claret's Quick Assist: the first time she is switched in, she performs [Basic Attack: Blood Bloom Oath - Crouching Axe], extends [Gleaming Edge Unveiled] duration by 3s, and copies this buff to Claret;\nRe-entering [Gleaming Edge Unveiled] via [Maim] extends the duration of [Gleaming Edge Unveiled]."
+          "All DMG dealt by Claret's skills is Sharp DMG, which uses DEF as the skill DMG Multiplier;\nWhen a critical hit is triggered, Laceration DMG replaces CRIT DMG for calculation; when CRIT Rate exceeds 100%, an additional Laceration judgment is performed, with the Laceration probability equal to the excess CRIT Rate;\nSharp DMG accumulates Gash value. When the Gash value is full, enemies enter [Gash], which can stack up to 3 times;\nWhen Claret enters the battlefield, she recovers 60 Sharpness. In Investigation Zone mode, this effect can trigger once every 180 seconds.\nWhen Claret's [Special Attack: Blood Oath - Iron Severance] or [Special Attack: Blood Oath - Crimson Onslaught] hits an enemy in the [Gash] state, it consumes one stack of [Gash] and triggers [Maim] to deal additional DMG;\nAfter Claret enters [Crimson Engrave], her Anti-Interrupt Lv. is increased. When Claret uses a [Chain Attack], [Crimson Engrave] duration is extended by 3 seconds. When [Contamination] is triggered, [Crimson Engrave] duration is extended by 3 seconds;\nWhile Claret is in [Crimson Engrave], or during [Chain Attack: Blood Oath - Blood Pact Resonance], [Ultimate: Blood Oath - Forged Perfection], or [Assist Follow-Up: Blood Oath - Pristine Molten Edge], DMG dealt is increased by <color=#POSITIVE_WITH_GREYITE>25%</color>. During [Basic Attack: Blood Oath - Star Forge] and [Basic Attack: Blood Oath - Concealed Axe] skill attacks, if a Perfect Dodge is triggered, DMG dealt for the remainder of the skill is additionally increased by 15%.",
+          "When another character in your squad is a <color=#FFFFFF>[Stun]</color> Character or another <color=#FFFFFF>[Armorer]</color> Character, triggers:\nWhen a squad member's attack hits an enemy while they are the active Character, accumulates <color=#FFFFFF>3%</color> Gash value on the target, can trigger at most once every 1s;\nWhen Claret or a squad member triggers [Maim], all [Armorer] Agents in the whole squad enter [Remnant Edge]. While in the [Remnant Edge] state, CRIT Rate increases by <color=#FFFFFF>30%</color>, lasting 40s; re-entering [Remnant Edge] extends its duration."
         ],
         "extra_property": {},
         "potential": []
@@ -2202,8 +2218,8 @@
           "Additional Ability: Bloodline Legacy"
         ],
         "desc": [
-          "All DMG dealt by Claret's skills is Sharp DMG, using DEF as the DMG Multiplier;\nWhen a critical hit is triggered, Laceration DMG replaces CRIT DMG for calculation; when CRIT Rate exceeds 100%, an additional Laceration check is performed, with the Laceration probability equal to the excess CRIT Rate;\nSharp DMG accumulates Gash value. When the Gash value is full, the enemy enters [Gash], which can stack up to 3 times;\nWhen Claret's [Special Attack: Blood Bloom Oath - Sever Steel] or [EX Special Attack: Blood Bloom Oath - Crimson Onslaught] hits an enemy in the [Gash] state, it consumes one stack of [Gash] and triggers [Maim] to deal additional DMG;\nWhen the whole squad triggers [Maim], Claret gains 1 [Personal Resources];\nAfter Claret enters [Crimson Engravings], her Anti-Interrupt level increases. When attacking targets with Blood Bloom Oath skills, CRIT Rate increases by <color=#POSITIVE_WITH_GREYITE>35%</color>, and DMG dealt increases by <color=#POSITIVE_WITH_GREYITE>25%</color>.",
-          "When another <color=#FFFFFF>[Stun]</color> Character or another <color=#FFFFFF>[Armorer]</color> Character is in the squad:\nWhen a teammate's attack hits an enemy while they are the active Character, accumulates <color=#FFFFFF>3%</color> Gash value on the target. Can trigger at most once every 1s;\nWhen a <color=#FFFFFF>[Stun]</color> Character in the squad hits an enemy with a [Special Attack] or [EX Special Attack] heavy attack while they are the active Character, triggers [Maim], once per use of a skill. Maim DMG is considered DMG dealt by Claret;\nWhenever Claret or a teammate consumes 1 stack of [Gash] to trigger [Maim], enters [Gleaming Edge Unveiled]. While in the [Gleaming Edge Unveiled] state, PEN Ratio increases by <color=#FFFFFF>20%</color>, Daze dealt increases by 10%, lasting 10s;\nAfter Claret enters the [Gleaming Edge Unveiled] state via [Maim], the first time she switches to a <color=#FFFFFF>[Stun]</color> or another <color=#FFFFFF>[Armorer]</color> teammate, extends [Gleaming Edge Unveiled] duration by 3s and copies this buff to the corresponding Character;\nAfter a teammate triggers [Maim] and enters the [Gleaming Edge Unveiled] state, triggers Claret's Quick Assist: the first time she is switched in, she performs [Basic Attack: Blood Bloom Oath - Crouching Axe], extends [Gleaming Edge Unveiled] duration by 3s, and copies this buff to Claret;\nRe-entering [Gleaming Edge Unveiled] via [Maim] extends the duration of [Gleaming Edge Unveiled]."
+          "All DMG dealt by Claret's skills is Sharp DMG, which uses DEF as the skill DMG Multiplier;\nWhen a critical hit is triggered, Laceration DMG replaces CRIT DMG for calculation; when CRIT Rate exceeds 100%, an additional Laceration judgment is performed, with the Laceration probability equal to the excess CRIT Rate;\nSharp DMG accumulates Gash value. When the Gash value is full, the enemy enters [Gash], which can stack up to 3 times;\nWhen Claret enters the battlefield, she recovers 60 Sharpness. In Investigation Zone mode, this effect can trigger once every 180 seconds.\nWhen Claret's [Special Attack: Blood Oath - Sever Steel] or [Special Attack: Blood Oath - Crimson Onslaught] hits an enemy afflicted with [Gash], one stack of [Gash] is consumed, triggering [Maim] to deal additional DMG;\nAfter Claret enters [Crimson Engrave], her Anti-Interrupt Lv. is increased. When Claret uses a [Chain Attack], [Crimson Engrave] duration is extended by 3s. When [Contamination] is triggered, [Crimson Engrave] duration is extended by 3s;\nWhile Claret is in [Crimson Engrave], or during [Chain Attack: Blood Oath - Blood Pact Resonance], [Ultimate: Blood Oath - Thousandfold Temper], or [Assist Follow-Up: Blood Oath - Pristine Molten Edge], DMG dealt is increased by <color=#POSITIVE_WITH_GREYITE>27.5%</color>. During [Basic Attack: Blood Oath - Forge Star] and [Basic Attack: Blood Oath - Descending Axe] skill attacks, triggering a Perfect Dodge additionally increases DMG dealt for the remaining duration of the skill by 15%.",
+          "When another character in your squad is a <color=#FFFFFF>[Stun]</color> Character or another <color=#FFFFFF>[Armorer]</color> Character, triggers:\nWhen a squad member's attack hits an enemy while they are the active Character, accumulates <color=#FFFFFF>3%</color> Gash value on the target, can trigger at most once every 1s;\nWhen Claret or a squad member triggers [Maim], all [Armorer] Agents in the whole squad enter [Remnant Edge]. While in the [Remnant Edge] state, CRIT Rate increases by <color=#FFFFFF>30%</color>, lasting 40s; re-entering [Remnant Edge] extends its duration."
         ],
         "extra_property": {},
         "potential": []
@@ -2216,8 +2232,8 @@
           "Additional Ability: Bloodline Legacy"
         ],
         "desc": [
-          "All DMG dealt by Claret's skills is Sharp DMG, using DEF as the DMG Multiplier;\nWhen triggering a critical hit, Laceration DMG replaces CRIT DMG for calculation; when CRIT Rate exceeds 100%, an additional Laceration check is performed, with the Laceration probability equal to the excess CRIT Rate;\nSharp DMG accumulates Gash value. When the Gash value is full, the enemy enters [Gash]. [Gash] can stack up to 3 times;\nWhen Claret's [Special Attack: Blood Bloom Oath - Sever Steel] or [EX Special Attack: Blood Bloom Oath - Sanguine Onslaught] hits an enemy in the [Gash] state, it consumes one stack of [Gash] and triggers [Maim] to deal additional DMG;\nWhen the whole squad triggers [Maim], Claret gains 1 [Personal Resources];\nAfter Claret enters [Crimson Engrave], her Anti-Interrupt level increases. When attacking targets with Blood Bloom Oath skills, CRIT Rate increases by <color=#POSITIVE_WITH_GREYITE>35%</color>, and DMG dealt increases by <color=#POSITIVE_WITH_GREYITE>25%</color>.",
-          "When another <color=#FFFFFF>[Stun]</color> Character or another <color=#FFFFFF>[Armorer]</color> Character is in the squad:\nWhen a teammate's attack hits an enemy while they are the active Character, accumulates <color=#FFFFFF>3%</color> Gash value on the target. Can trigger at most once every 1s;\nWhen a <color=#FFFFFF>[Stun]</color> Character in the squad hits an enemy with a [Special Attack] or [EX Special Attack] heavy attack while they are the active Character, triggers [Maim], once per use of a skill. Maim DMG is considered DMG dealt by Claret;\nWhenever Claret or a teammate consumes 1 stack of [Gash] to trigger [Maim], enters [Gleaming Edge Unveiled]. While in the [Gleaming Edge Unveiled] state, PEN Ratio increases by <color=#FFFFFF>20%</color>, Daze dealt increases by 10%, lasting 10s;\nAfter Claret enters the [Gleaming Edge Unveiled] state via [Maim], the first time she switches to a <color=#FFFFFF>[Stun]</color> or another <color=#FFFFFF>[Armorer]</color> teammate, extends [Gleaming Edge Unveiled] duration by 3s and copies this buff to the corresponding Character;\nAfter a teammate triggers [Maim] and enters the [Gleaming Edge Unveiled] state, triggers Claret's Quick Assist: the first time she is switched in, she performs [Basic Attack: Blood Bloom Oath - Crouching Axe], extends [Gleaming Edge Unveiled] duration by 3s, and copies this buff to Claret;\nRe-entering [Gleaming Edge Unveiled] via [Maim] extends the duration of [Gleaming Edge Unveiled]."
+          "All DMG dealt by Claret's skills is Sharp DMG, using DEF as the skill DMG Multiplier;\nWhen triggering a critical hit, Laceration DMG replaces CRIT DMG for calculation; when CRIT Rate exceeds 100%, an additional Laceration judgment is performed, with the Laceration probability equal to the excess CRIT Rate;\nSharp DMG accumulates Gash value. When the Gash value is full, enemies enter [Gash], which can stack up to 3 times;\nWhen Claret enters the battlefield, she recovers 60 Sharpness. In Investigation Zone mode, this effect can trigger once every 180 seconds.\nWhen Claret's [Special Attack: Blood Oath - Sever Steel] or [Special Attack: Blood Oath - Bloody Onslaught] hits an enemy in the [Gash] state, it consumes one stack of [Gash] and triggers [Maim] to deal additional DMG;\nAfter Claret enters [Crimson Engrave], her Anti-Interrupt Lv. increases. When Claret uses a [Chain Attack], [Crimson Engrave] duration is extended by 3 seconds. When [Contamination] is triggered, [Crimson Engrave] duration is extended by 3 seconds;\nWhile Claret is in [Crimson Engrave], or during [Chain Attack: Blood Oath - Blood Pact Resonance], [Ultimate: Blood Oath - Tempered Thousandfold], or [Assist Follow-Up: Blood Oath - Pristine Molten Edge], DMG dealt is increased by <color=#POSITIVE_WITH_GREYITE>30%</color>. During [Basic Attack: Blood Oath - Forge Star] and [Basic Attack: Blood Oath - Crouching Axe] skill attacks, triggering a Perfect Dodge additionally increases DMG dealt for the remaining duration of the skill by 15%.",
+          "When another character in your squad is a <color=#FFFFFF>[Stun]</color> Character or another <color=#FFFFFF>[Armorer]</color> Character, triggers:\nWhen a squad member's attack hits an enemy while they are the active Character, accumulates <color=#FFFFFF>3%</color> Gash value on the target, can trigger at most once every 1s;\nWhen Claret or a squad member triggers [Maim], all [Armorer] Agents in the whole squad enter [Remnant Edge]. While in the [Remnant Edge] state, CRIT Rate increases by <color=#FFFFFF>30%</color>, lasting 40s; re-entering [Remnant Edge] extends its duration."
         ],
         "extra_property": {},
         "potential": []
@@ -2256,13 +2272,13 @@
     "1": {
       "level": 1,
       "name": "...",
-      "desc": "When Claret's attack hits an enemy and triggers a Sharp Explosion, Gash Buildup Rate increases by 15%; when the whole squad successfully applies Gash to an enemy, Claret's CRIT Rate increases by 5%, lasting 15 seconds, stacking up to 3 times; repeated triggers reset the duration.",
+      "desc": "[Crimson Inscription] max duration extended by 3.5s; when the whole squad triggers [Maim], increases Claret's Crit DMG by 25% for 40s, repeated triggers reset the duration.",
       "desc2": "..."
     },
     "2": {
       "level": 2,
       "name": "...",
-      "desc": "When Blood Blossom Oath skill attacks hit an enemy, ignore -35% of the target's <color=#2EB6FF>Electric RES</color>; when the whole squad's skills trigger [Maim], Claret recovers 0.25 Sharpness. This can be triggered at most once per skill.",
+      "desc": "When Claret is in [Crimson Inscription], or during [Chain Attack: Blood Oath - Resonance], [Ultimate: Blood Oath - Tempered Thousandfold], or [Assist Follow-Up: Blood Oath - Pristine Molten Edge], attacks that hit ignore the target's 15% <color=#2EB6FF>Electric RES</color>; when Claret's attacks hit an enemy and trigger a Sharp Burst, Gash Buildup Rate increases by 15%.",
       "desc2": "..."
     },
     "3": {
@@ -2274,7 +2290,7 @@
     "4": {
       "level": 4,
       "name": "...",
-      "desc": "When Claret is in the [Scarlet Inscription] state, performing a dodge will preserve her current Basic Attack combo count.",
+      "desc": "During [Basic Attack: Blood Oath·Forge Rank] 3rd skill, the duration of consecutive Slashes can be extended; DMG dealt by [Basic Attack: Blood Oath·Forge Rank] 3rd hit, [Chain Attack: Blood Oath·Blood Pact Resonance], and [Ultimate: Blood Oath·Tempered Through Trials] increases by 20%.",
       "desc2": "..."
     },
     "5": {
@@ -2286,7 +2302,7 @@
     "6": {
       "level": 6,
       "name": "...",
-      "desc": "Claret_Talent_06_Desc_01",
+      "desc": "When Claret's [Chain Attack: Blood Bloom Oath · Blood Pact Resonance] or [Ultimate: Blood Bloom Oath · Tempered Thousandfold] heavy attack hits an enemy, directly triggers 1 instance of [Maim] DMG.",
       "desc2": "..."
     }
   },

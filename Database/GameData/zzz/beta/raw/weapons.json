@@ -184,7 +184,7 @@
     "rank": 2,
     "type": 7,
     "en": "[Lunar] Semiluna",
-    "atk": 267,
+    "atk": 282,
     "desc": "...",
     "sub": "DEF",
     "ko": "Item_Weapon_B_Common_16_Name",
@@ -388,12 +388,12 @@
     "rank": 3,
     "type": 7,
     "en": "Catty Luck",
-    "atk": 342,
+    "atk": 356,
     "desc": "...",
     "sub": "DEF",
     "ko": "Item_Weapon_A_Common_17_Name",
     "zh": "喵运当头",
-    "ja": "猫運到来"
+    "ja": "ニャン運到来"
   },
   "13018": {
     "icon": "Weapon_A_Common_18",
@@ -436,12 +436,12 @@
     "rank": 3,
     "type": 7,
     "en": "Bloodmarrow Coffer",
-    "atk": 342,
+    "atk": 356,
     "desc": "...",
     "sub": "CRIT Rate",
     "ko": "Item_Weapon_A_Common_21_Name",
     "zh": "血髓秘匣",
-    "ja": "血髄の秘匣"
+    "ja": "ブラッドボックス"
   },
   "13101": {
     "icon": "Weapon_A_1011",
@@ -1180,7 +1180,7 @@
     "rank": 4,
     "type": 7,
     "en": "Crimson Thirst",
-    "atk": 416,
+    "atk": 431,
     "desc": "...",
     "sub": "DEF",
     "ko": "Item_Weapon_S_1611_Name",
@@ -1194,7 +1194,7 @@
     "en": "...",
     "atk": 713,
     "desc": "...",
-    "sub": "DEF",
+    "sub": "Energy Regen",
     "ko": "Item_Weapon_S_1621_Name",
     "zh": "...",
     "ja": "..."

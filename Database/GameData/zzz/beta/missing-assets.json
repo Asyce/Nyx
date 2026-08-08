@@ -80,14 +80,6 @@
     "gamedataAssetPath": "Zenkov_Currency_Season.webp"
   },
   {
-    "path": "GameData/zzz/assets/items/IconFood.webp",
-    "gamedataAssetPath": "IconFood.webp"
-  },
-  {
-    "path": "GameData/zzz/assets/items/IconSnack.webp",
-    "gamedataAssetPath": "IconSnack.webp"
-  },
-  {
     "path": "GameData/zzz/assets/items/Analeptic.webp",
     "gamedataAssetPath": "Analeptic.webp"
   },
@@ -144,12 +136,24 @@
     "gamedataAssetPath": "CardDailyUse1651.webp"
   },
   {
+    "path": "GameData/zzz/assets/items/IconWallpaperPiece12.webp",
+    "gamedataAssetPath": "IconWallpaperPiece12.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/items/IconPendantPiece12.webp",
+    "gamedataAssetPath": "IconPendantPiece12.webp"
+  },
+  {
     "path": "GameData/zzz/assets/items/BPWeaponSelectNew.webp",
     "gamedataAssetPath": "BPWeaponSelectNew.webp"
   },
   {
     "path": "GameData/zzz/assets/items/ItemProfile2014.webp",
     "gamedataAssetPath": "ItemProfile2014.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/items/LiveWallpaper62.webp",
+    "gamedataAssetPath": "LiveWallpaper62.webp"
   },
   {
     "path": "GameData/zzz/assets/items/DIYBoardDecoration013.webp",

@@ -1,44 +1,413 @@
 {
   "schemaVersion": 1,
   "game": "hsr",
-  "generatedAt": "2026-07-21T19:50:38.242Z",
+  "generatedAt": "2026-08-08T13:05:05.886Z",
   "source": {
     "name": "Honkai: Star Rail Official",
     "endpoint": "sg-hkrpg-api.hoyoverse.com getAnnList+getAnnContent"
   },
   "counts": {
-    "total": 1,
+    "total": 9,
     "needs_review": 0,
-    "banner": 0,
+    "banner": 2,
     "byType": {
-      "challenge": 1
+      "banner": 2,
+      "event": 7
     }
   },
   "events": [
     {
       "game": "hsr",
+      "id": "hsr-hoyo-ann-59582dfb96bb",
+      "title": "Version 4.4 Event Warp: Phase II",
+      "type": "banner",
+      "start": "2026-08-03T22:00:00.000Z",
+      "end": "2026-08-25T14:00:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Honkai: Star Rail Official",
+        "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1294",
+        "kind": "official-announcement-api",
+        "recordId": "1294",
+        "fetchedAt": "2026-08-08T13:05:08.142Z",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "scheduleStatus": "exact",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "/assets/events/hsr/c37212ec4cf6f3f79a4a51d7ad7f3b0db79966535b8728808d4c9ef152c29c78.png",
+      "description": null,
+      "windowsByRegion": {
+        "europe": {
+          "start": "2026-08-03T22:00:00.000Z",
+          "end": "2026-08-25T14:00:00.000Z",
+          "timezone": "UTC+01:00",
+          "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1294"
+        },
+        "asia": {
+          "start": "2026-08-03T15:00:00.000Z",
+          "end": "2026-08-25T07:00:00.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1294"
+        },
+        "america": {
+          "start": "2026-08-04T04:00:00.000Z",
+          "end": "2026-08-25T20:00:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1294"
+        }
+      }
+    },
+    {
+      "game": "hsr",
+      "id": "hsr-hoyo-ann-cf76d1646b14",
+      "title": "Planar Fissure Event: Planar Ornaments Drop Rate Doubled for a Limited Time",
+      "type": "event",
+      "start": "2026-07-27T03:00:00.000Z",
+      "end": "2026-08-10T02:59:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Honkai: Star Rail Official",
+        "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1338",
+        "kind": "official-announcement-api",
+        "recordId": "1338",
+        "fetchedAt": "2026-08-08T13:05:08.142Z",
+        "priority": 1
+      },
+      "confidence": "high",
+      "scheduleStatus": "exact",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "/assets/events/hsr/4323bfc92e8cf0e2d986f2b49a7e557ad6fbdb757f32bf43d2733a01a1e360f7.png",
+      "description": "Event Period 2026/07/27 04:00:00 - 2026/08/10 03:59:00 Participation Requirement Unlock Planar Ornament Event Details During the Planar Fissure event, receive double rewards when obtaining Immersion Rewards or performing Ornament…",
+      "windowsByRegion": {
+        "europe": {
+          "start": "2026-07-27T03:00:00.000Z",
+          "end": "2026-08-10T02:59:00.000Z",
+          "timezone": "UTC+01:00",
+          "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1338"
+        },
+        "asia": {
+          "start": "2026-07-26T20:00:00.000Z",
+          "end": "2026-08-09T19:59:00.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1338"
+        },
+        "america": {
+          "start": "2026-07-27T09:00:00.000Z",
+          "end": "2026-08-10T08:59:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1338"
+        }
+      }
+    },
+    {
+      "game": "hsr",
+      "id": "hsr-hoyo-ann-38b45482599c",
+      "title": "\"Imagenae: Holy Grail War\" Event Details",
+      "type": "event",
+      "start": "2026-07-22T21:00:00.000Z",
+      "end": "2026-08-25T16:00:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Honkai: Star Rail Official",
+        "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1304",
+        "kind": "official-announcement-api",
+        "recordId": "1304",
+        "fetchedAt": "2026-08-08T13:05:08.142Z",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "scheduleStatus": "exact",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "/assets/events/hsr/b2a0883263abbc135cde6231a342f5de1dedacc67d27230fd30324b57251f863.png",
+      "description": null,
+      "windowsByRegion": {
+        "europe": {
+          "start": "2026-07-22T21:00:00.000Z",
+          "end": "2026-08-25T16:00:00.000Z",
+          "timezone": "UTC+01:00",
+          "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1304"
+        },
+        "asia": {
+          "start": "2026-07-22T14:00:00.000Z",
+          "end": "2026-08-25T09:00:00.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1304"
+        },
+        "america": {
+          "start": "2026-07-23T03:00:00.000Z",
+          "end": "2026-08-25T22:00:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1304"
+        }
+      }
+    },
+    {
+      "game": "hsr",
       "id": "hsr-hoyo-ann-12c1a7a21c89",
-      "title": "Realm of the Strange Event: Cavern Relic Drop Rate Doubled For a Limited Time",
-      "type": "challenge",
-      "start": "2026-07-03T03:00:00.000Z",
-      "end": "2026-07-13T02:59:00.000Z",
+      "title": "\"Antigraft Brickbuster\": Complete hacking operations to obtain Self-Modeling Resins, Tracks of Destiny, Stellar Jades, and more!",
+      "type": "event",
+      "start": "2026-07-13T21:30:00.000Z",
+      "end": "2026-08-25T13:59:00.000Z",
       "server": "europe",
       "timezone": "UTC+01:00",
       "source": {
         "name": "Honkai: Star Rail Official",
         "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1301",
-        "priority": 1,
-        "kind": "legacy-official-snapshot",
+        "kind": "official-announcement-api",
         "recordId": "1301",
-        "fetchedAt": "2026-07-13T22:40:55.330Z",
-        "fetchedAtMeaning": "nyx-snapshot-observed-at"
+        "fetchedAt": "2026-08-08T13:05:08.142Z",
+        "priority": 1
       },
-      "confidence": "high",
+      "confidence": "medium",
+      "scheduleStatus": "exact",
       "permanence": "timed",
       "needs_review": false,
-      "image": null,
-      "description": "Event Period 2026/07/03 04:00:00 - 2026/07/13 03:59:00 Participation Requirements Unlock Cavern of Corrosion: Path of Drifting Event Details During the Realm of the Strange event, get double rewards when you challenge and beat Cavern of…",
-      "scheduleStatus": "exact"
+      "image": "/assets/events/hsr/3b36516edb600c7829a0a9dee92af8ab65f72c81b1d21726cb8df3e3eda51197.png",
+      "description": null,
+      "windowsByRegion": {
+        "europe": {
+          "start": "2026-07-13T21:30:00.000Z",
+          "end": "2026-08-25T13:59:00.000Z",
+          "timezone": "UTC+01:00",
+          "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1301"
+        },
+        "asia": {
+          "start": "2026-07-13T14:30:00.000Z",
+          "end": "2026-08-25T06:59:00.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1301"
+        },
+        "america": {
+          "start": "2026-07-14T03:30:00.000Z",
+          "end": "2026-08-25T19:59:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1301"
+        }
+      }
+    },
+    {
+      "game": "hsr",
+      "id": "hsr-hoyo-ann-5869c3577b20",
+      "title": "\"Currency Wars: Zero-Sum Game\" Season Expansion Details V4.4",
+      "type": "event",
+      "start": "2026-07-12T22:00:00.000Z",
+      "end": "2026-11-10T16:00:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Honkai: Star Rail Official",
+        "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1296",
+        "kind": "official-announcement-api",
+        "recordId": "1296",
+        "fetchedAt": "2026-08-08T13:05:08.142Z",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "scheduleStatus": "exact",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "/assets/events/hsr/869a0a01780023886bf7515002180a25e49f6007c506a064174414248d8aa368.png",
+      "description": null,
+      "windowsByRegion": {
+        "europe": {
+          "start": "2026-07-12T22:00:00.000Z",
+          "end": "2026-11-10T16:00:00.000Z",
+          "timezone": "UTC+01:00",
+          "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1296"
+        },
+        "asia": {
+          "start": "2026-07-12T15:00:00.000Z",
+          "end": "2026-11-10T09:00:00.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1296"
+        },
+        "america": {
+          "start": "2026-07-13T04:00:00.000Z",
+          "end": "2026-11-10T22:00:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1296"
+        }
+      }
+    },
+    {
+      "game": "hsr",
+      "id": "hsr-hoyo-ann-ca5a1c47222c",
+      "title": "Version 4.4 Store Update",
+      "type": "event",
+      "start": "2026-07-03T07:00:00.000Z",
+      "end": "2026-08-25T16:00:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Honkai: Star Rail Official",
+        "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1299",
+        "kind": "official-announcement-api",
+        "recordId": "1299",
+        "fetchedAt": "2026-08-08T13:05:08.142Z",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "scheduleStatus": "exact",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "/assets/events/hsr/f1135736275fde8e5a8d47ccf6c761f9bc18665ce0f872e01ab1aa5b676cf5f8.png",
+      "description": null,
+      "windowsByRegion": {
+        "europe": {
+          "start": "2026-07-03T07:00:00.000Z",
+          "end": "2026-08-25T16:00:00.000Z",
+          "timezone": "UTC+01:00",
+          "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1299"
+        },
+        "asia": {
+          "start": "2026-07-03T00:00:00.000Z",
+          "end": "2026-08-25T09:00:00.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1299"
+        },
+        "america": {
+          "start": "2026-07-03T13:00:00.000Z",
+          "end": "2026-08-25T22:00:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1299"
+        }
+      }
+    },
+    {
+      "game": "hsr",
+      "id": "hsr-hoyo-ann-093f57d0dc07",
+      "title": "Fate[UBW] Collaboration Warp Details",
+      "type": "banner",
+      "start": "2026-07-03T06:55:00.000Z",
+      "end": null,
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Honkai: Star Rail Official",
+        "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1339",
+        "kind": "official-announcement-api",
+        "recordId": "1339",
+        "fetchedAt": "2026-08-08T13:05:08.142Z",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "scheduleStatus": "exact",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "/assets/events/hsr/f8db8be42060d2e8d199d417ebf04957c9730f2b52bbfddf7665cd4d0cc831bf.png",
+      "description": null,
+      "windowsByRegion": {
+        "europe": {
+          "start": "2026-07-03T06:55:00.000Z",
+          "timezone": "UTC+01:00",
+          "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1339"
+        },
+        "asia": {
+          "start": "2026-07-02T23:55:00.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1339"
+        },
+        "america": {
+          "start": "2026-07-03T12:55:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1339"
+        }
+      }
+    },
+    {
+      "game": "hsr",
+      "id": "hsr-hoyo-ann-df1a5352d767",
+      "title": "Stellar Companions: Log in to receive Golden Companion Spirit ×1",
+      "type": "event",
+      "start": "2026-04-10T06:55:00.000Z",
+      "end": "2026-08-25T16:00:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Honkai: Star Rail Official",
+        "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1232",
+        "kind": "official-announcement-api",
+        "recordId": "1232",
+        "fetchedAt": "2026-08-08T13:05:08.142Z",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "scheduleStatus": "exact",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "/assets/events/hsr/4bf78cbe301d96400af64abce9bd4fec2d883f7a644efc9a5d0c3d21c3203a7a.png",
+      "description": null,
+      "windowsByRegion": {
+        "europe": {
+          "start": "2026-04-10T06:55:00.000Z",
+          "end": "2026-08-25T16:00:00.000Z",
+          "timezone": "UTC+01:00",
+          "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1232"
+        },
+        "asia": {
+          "start": "2026-04-09T23:55:00.000Z",
+          "end": "2026-08-25T09:00:00.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1232"
+        },
+        "america": {
+          "start": "2026-04-10T12:55:00.000Z",
+          "end": "2026-08-25T22:00:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1232"
+        }
+      }
+    },
+    {
+      "game": "hsr",
+      "id": "hsr-hoyo-ann-77749febed58",
+      "title": "\"Divergent Universe: Arcadian Chronicles\": Massive Update to New Divergent Universe Subject",
+      "type": "event",
+      "start": "2026-03-23T04:00:00.000Z",
+      "end": "2026-08-25T16:00:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Honkai: Star Rail Official",
+        "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1211",
+        "kind": "official-announcement-api",
+        "recordId": "1211",
+        "fetchedAt": "2026-08-08T13:05:08.142Z",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "scheduleStatus": "exact",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "/assets/events/hsr/98310d03bd63f9ae262601083ef2cc1a2c3d87d2c44b043f443dc7cdef223fe2.png",
+      "description": null,
+      "windowsByRegion": {
+        "europe": {
+          "start": "2026-03-23T04:00:00.000Z",
+          "end": "2026-08-25T16:00:00.000Z",
+          "timezone": "UTC+01:00",
+          "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1211"
+        },
+        "asia": {
+          "start": "2026-03-22T21:00:00.000Z",
+          "end": "2026-08-25T09:00:00.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1211"
+        },
+        "america": {
+          "start": "2026-03-23T10:00:00.000Z",
+          "end": "2026-08-25T22:00:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1211"
+        }
+      }
     }
   ]
 }

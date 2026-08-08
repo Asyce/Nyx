@@ -1,26 +1,158 @@
 {
   "schemaVersion": 1,
   "game": "gi",
-  "generatedAt": "2026-07-23T03:42:23.371Z",
+  "generatedAt": "2026-08-08T13:05:05.886Z",
   "source": {
     "name": "Genshin Impact Official",
     "endpoint": "sg-hk4e-api.hoyoverse.com getAnnList+getAnnContent"
   },
   "counts": {
-    "total": 19,
-    "needs_review": 8,
+    "total": 21,
+    "needs_review": 7,
     "banner": 3,
     "byType": {
-      "event": 9,
+      "event": 12,
       "challenge": 2,
-      "shop": 2,
-      "permanent": 1,
-      "banner": 3,
+      "web_event": 1,
+      "shop": 1,
       "login": 1,
-      "web_event": 1
+      "permanent": 1,
+      "banner": 3
     }
   },
   "events": [
+    {
+      "game": "gi",
+      "id": "gi-hoyo-ann-7b9c2d416fd2",
+      "title": "\"To Temper Thyself and Journey Far\": Rewards of Dedication",
+      "type": "event",
+      "start": "2026-08-10T03:00:00.000Z",
+      "end": "2026-11-02T02:59:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Genshin Impact Official",
+        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21761",
+        "kind": "official-announcement-api",
+        "recordId": "21761",
+        "fetchedAt": "2026-08-08T13:05:05.890Z",
+        "priority": 1
+      },
+      "confidence": "high",
+      "scheduleStatus": "exact",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "/assets/events/gi/8ca09e333bf0769359e92440121d03ebea73f70f62794bdf06c7e5a011a24802.png",
+      "description": "〓Event Rewards〓 〓Event Duration〓 2026/08/10 04:00 - 2026/11/02 03:59 〓Eligibility〓 Adventure Rank 14 or above Complete \"Knights of Favonius\" in Archon Quest Prologue: Act I to unlock the Wish system Complete the World Quest \"Welcome to…",
+      "windowsByRegion": {
+        "europe": {
+          "start": "2026-08-10T03:00:00.000Z",
+          "end": "2026-11-02T02:59:00.000Z",
+          "timezone": "UTC+01:00",
+          "sourceUrl": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21761"
+        },
+        "asia": {
+          "start": "2026-08-09T20:00:00.000Z",
+          "end": "2026-11-01T19:59:00.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21761"
+        },
+        "america": {
+          "start": "2026-08-10T09:00:00.000Z",
+          "end": "2026-11-02T08:59:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21761"
+        }
+      }
+    },
+    {
+      "game": "gi",
+      "id": "gi-hoyo-ann-092fe78454ec",
+      "title": "\"Ley Line Overflow\" Event - Double Drops From Blossoms of Wealth and Blossoms of Revelation!",
+      "type": "event",
+      "start": "2026-08-03T03:00:00.000Z",
+      "end": "2026-08-10T02:59:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Genshin Impact Official",
+        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=3364",
+        "kind": "official-announcement-api",
+        "recordId": "3364",
+        "fetchedAt": "2026-08-08T13:05:05.890Z",
+        "priority": 1
+      },
+      "confidence": "high",
+      "scheduleStatus": "exact",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "/assets/events/gi/a45ad17f606d93dd17df137a05651940e1b2b9dffd893853be3ef722624013e4.jpg",
+      "description": "During the event, successfully challenge a Blossom of Wealth or Blossom of Revelation to double your rewards. 〓Event Duration〓 2026/08/03 04:00 - 2026/08/10 03:59 〓Eligibility〓 Revitalize a Blossom of Wealth or a Blossom of Revelation…",
+      "windowsByRegion": {
+        "europe": {
+          "start": "2026-08-03T03:00:00.000Z",
+          "end": "2026-08-10T02:59:00.000Z",
+          "timezone": "UTC+01:00",
+          "sourceUrl": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=3364"
+        },
+        "asia": {
+          "start": "2026-08-02T20:00:00.000Z",
+          "end": "2026-08-09T19:59:00.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=3364"
+        },
+        "america": {
+          "start": "2026-08-03T09:00:00.000Z",
+          "end": "2026-08-10T08:59:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=3364"
+        }
+      }
+    },
+    {
+      "game": "gi",
+      "id": "gi-hoyo-ann-b73309f9d348",
+      "title": "Participate in \"Starlight Voyage: Splendor Aglow\" to Obtain Prismatic Crystals, the Token for the Colorful Surprise Box",
+      "type": "event",
+      "start": "2026-07-27T09:00:00.000Z",
+      "end": "2026-08-10T02:59:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Genshin Impact Official",
+        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21764",
+        "kind": "official-announcement-api",
+        "recordId": "21764",
+        "fetchedAt": "2026-08-08T13:05:05.890Z",
+        "priority": 1
+      },
+      "confidence": "high",
+      "scheduleStatus": "exact",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "/assets/events/gi/abd937b8672c5d179d3b04bfac290944c659f46b53935ec7689bbbcd1818cb82.jpg",
+      "description": "〓Event Duration〓 Event Duration: 2026/07/27 10:00 – 2026/08/10 03:59 Quest Completion Period: 2026/07/27 10:00 – 2026/08/06 04:00 〓Event Rewards〓 Prismatic Crystals 〓Eligibility〓 After awakening your Miliastra Wonderland Manekin 〓Event…",
+      "windowsByRegion": {
+        "europe": {
+          "start": "2026-07-27T09:00:00.000Z",
+          "end": "2026-08-10T02:59:00.000Z",
+          "timezone": "UTC+01:00",
+          "sourceUrl": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21764"
+        },
+        "asia": {
+          "start": "2026-07-27T02:00:00.000Z",
+          "end": "2026-08-09T19:59:00.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21764"
+        },
+        "america": {
+          "start": "2026-07-27T15:00:00.000Z",
+          "end": "2026-08-10T08:59:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21764"
+        }
+      }
+    },
     {
       "game": "gi",
       "id": "gi-hoyo-ann-264753e69913",
@@ -167,14 +299,14 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21168",
         "kind": "official-announcement-api",
         "recordId": "21168",
-        "fetchedAt": "2026-07-23T03:42:23.373Z",
+        "fetchedAt": "2026-08-08T13:05:05.890Z",
         "priority": 1
       },
       "confidence": "high",
       "scheduleStatus": "exact",
       "permanence": "timed",
       "needs_review": false,
-      "image": null,
+      "image": "/assets/events/gi/aabd4bf22141c3b56f357db4c5930ebcfc52caec6b5d688468141b6d99d75199.jpg",
       "description": "〓Event Rewards〓 〓Event Duration〓 Event Duration: 2026/07/08 10:00 - 2026/08/11 03:59 Disturbance Outbreak: 2026/07/08 10:00 - 2026/07/18 03:59 〓Eligibility〓 Adventure Rank 20 or above And complete Archon Quest Prologue: Act III \"Song of…",
       "windowsByRegion": {
         "europe": {
@@ -211,14 +343,14 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21749",
         "kind": "official-announcement-api",
         "recordId": "21749",
-        "fetchedAt": "2026-07-23T03:42:23.373Z",
+        "fetchedAt": "2026-08-08T13:05:05.890Z",
         "priority": 1
       },
       "confidence": "high",
       "scheduleStatus": "expected",
       "permanence": "timed",
       "needs_review": false,
-      "image": null,
+      "image": "/assets/events/gi/6db5e1992f2a4efa450d1d6b3068b2405271155912bd152828f72fc1b26b9f85.jpg",
       "description": "〓Event Rewards〓 〓Event Duration〓 After the Version \"Luna VIII\" update – 2026/08/11 03:59 〓Eligibility〓 Adventure Rank 20 or above Complete Archon Quest Prologue: Act III \"Song of the Dragon and Freedom\" Unlock any Statue of The Seven in…",
       "windowsByRegion": {}
     },
@@ -311,14 +443,14 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21646",
         "kind": "official-announcement-api",
         "recordId": "21646",
-        "fetchedAt": "2026-07-23T03:42:23.373Z",
+        "fetchedAt": "2026-08-08T13:05:05.890Z",
         "priority": 1
       },
       "confidence": "high",
       "scheduleStatus": "exact",
       "permanence": "timed",
       "needs_review": false,
-      "image": null,
+      "image": "/assets/events/gi/8ca09e333bf0769359e92440121d03ebea73f70f62794bdf06c7e5a011a24802.png",
       "description": "〓Event Rewards〓 〓Event Duration〓 2026/05/18 04:00 - 2026/08/10 03:59 〓Eligibility〓 Adventure Rank 14 or above Complete \"Knights of Favonius\" in Archon Quest Prologue: Act I to unlock the Wish system Complete the World Quest \"Welcome to…",
       "windowsByRegion": {
         "europe": {
@@ -343,6 +475,31 @@
     },
     {
       "game": "gi",
+      "id": "gi-hoyo-ann-1a8067c8e445",
+      "title": "The \"Snezhnaya Awaits\" web event is now available! It's time to look back on your journey through Teyvat so far and pre-register for the new version to earn up to Primogems ×80!",
+      "type": "web_event",
+      "start": null,
+      "end": null,
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Genshin Impact Official",
+        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21771",
+        "kind": "official-announcement-api",
+        "recordId": "21771",
+        "fetchedAt": "2026-08-08T13:05:05.890Z",
+        "priority": 1
+      },
+      "confidence": "low",
+      "scheduleStatus": "expected",
+      "permanence": "unknown",
+      "needs_review": true,
+      "image": null,
+      "description": "The new limited-time web event \"Snezhnaya Awaits\" is now available. Click to Take Part in Event 〓Event Duration〓 2026/07/31 – 2026/08/11 23:59 *Rewards cannot be claimed after the event ends. Please claim your rewards in time. Rewards…",
+      "windowsByRegion": {}
+    },
+    {
+      "game": "gi",
       "id": "gi-hoyo-ann-31eafabc7d8c",
       "title": "Official Top-Up Center Now Online",
       "type": "shop",
@@ -355,7 +512,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=1249",
         "kind": "official-announcement-api",
         "recordId": "1249",
-        "fetchedAt": "2026-07-23T03:42:23.373Z",
+        "fetchedAt": "2026-08-08T13:05:05.890Z",
         "priority": 1
       },
       "confidence": "low",
@@ -368,27 +525,27 @@
     },
     {
       "game": "gi",
-      "id": "gi-hoyo-ann-7c0f27672255",
-      "title": "Genshin Impact's Song of the Welkin Moon Commemorative OST Album - \"The Shimmering Voyage Vol. 6\" Now Available",
-      "type": "shop",
+      "id": "gi-hoyo-ann-a0c305e96c8b",
+      "title": "HoYoLAB Community \"Daily Check-In\" Feature",
+      "type": "login",
       "start": null,
       "end": null,
       "server": "europe",
       "timezone": "UTC+01:00",
       "source": {
         "name": "Genshin Impact Official",
-        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21801",
+        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21838",
         "kind": "official-announcement-api",
-        "recordId": "21801",
-        "fetchedAt": "2026-07-23T03:42:23.373Z",
+        "recordId": "21838",
+        "fetchedAt": "2026-08-08T13:05:05.890Z",
         "priority": 1
       },
-      "confidence": "low",
-      "scheduleStatus": "expected",
-      "permanence": "unknown",
-      "needs_review": true,
+      "confidence": "high",
+      "scheduleStatus": "exact",
+      "permanence": "permanent",
+      "needs_review": false,
       "image": null,
-      "description": "Dear Traveler, Genshin Impact's Song of the Welkin Moon Commemorative OST album \"The Shimmering Voyage Vol. 6\" is now available! The album's four discs \"Origin of Moonlight,\" \"Confessions of the Magic Mountain,\" \"Miliastra Concerto,\" and…",
+      "description": "Dear Travelers, The HoYoLAB Community \"Daily Check-In\" feature is now available! Go to HoYoLAB Tools Genshin Impact Check-in, and check in daily to obtain Primogems, Mora, Hero's Wit, and other in-game rewards. You will receive 100…",
       "windowsByRegion": {}
     },
     {
@@ -405,7 +562,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21282",
         "kind": "official-announcement-api",
         "recordId": "21282",
-        "fetchedAt": "2026-07-23T03:42:23.373Z",
+        "fetchedAt": "2026-08-08T13:05:05.890Z",
         "priority": 1
       },
       "confidence": "high",
@@ -430,7 +587,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21757",
         "kind": "official-announcement-api",
         "recordId": "21757",
-        "fetchedAt": "2026-07-23T03:42:23.373Z",
+        "fetchedAt": "2026-08-08T13:05:05.890Z",
         "priority": 1
       },
       "confidence": "low",
@@ -439,31 +596,6 @@
       "needs_review": true,
       "image": null,
       "description": "Travelers, stock up on weapons and characters in the event wish to make your party stronger in combat! 〓Event Wish Details〓 Event Wish Duration Promotional Character (5-Star) Featured Characters (4-Star) 2026/07/21 18:00 – 2026/08/11…",
-      "windowsByRegion": {}
-    },
-    {
-      "game": "gi",
-      "id": "gi-hoyo-ann-bde016f6db34",
-      "title": "HoYoLAB Community \"Daily Check-In\" Feature",
-      "type": "login",
-      "start": null,
-      "end": null,
-      "server": "europe",
-      "timezone": "UTC+01:00",
-      "source": {
-        "name": "Genshin Impact Official",
-        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21784",
-        "kind": "official-announcement-api",
-        "recordId": "21784",
-        "fetchedAt": "2026-07-23T03:42:23.373Z",
-        "priority": 1
-      },
-      "confidence": "high",
-      "scheduleStatus": "exact",
-      "permanence": "permanent",
-      "needs_review": false,
-      "image": null,
-      "description": "Dear Travelers, The HoYoLAB Community \"Daily Check-In\" feature is now available! Go to HoYoLAB Tools Genshin Impact Check-in, and check in daily to obtain Primogems, Mora, Hero's Wit, and other in-game rewards. You will receive 100…",
       "windowsByRegion": {}
     },
     {
@@ -480,7 +612,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21755",
         "kind": "official-announcement-api",
         "recordId": "21755",
-        "fetchedAt": "2026-07-23T03:42:23.373Z",
+        "fetchedAt": "2026-08-08T13:05:05.890Z",
         "priority": 1
       },
       "confidence": "low",
@@ -505,7 +637,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21759",
         "kind": "official-announcement-api",
         "recordId": "21759",
-        "fetchedAt": "2026-07-23T03:42:23.373Z",
+        "fetchedAt": "2026-08-08T13:05:05.890Z",
         "priority": 1
       },
       "confidence": "low",
@@ -514,31 +646,6 @@
       "needs_review": true,
       "image": null,
       "description": "Travelers, stock up on weapons and characters in \"Epitome Invocation\" to make your party stronger in combat! 〓Event Wish Details〓 Event Wish Duration Promotional Weapons (5-Star) Featured Weapons (4-Star) 2026/07/21 18:00 – 2026/08/11…",
-      "windowsByRegion": {}
-    },
-    {
-      "game": "gi",
-      "id": "gi-hoyo-ann-cd26546a88c7",
-      "title": "\"Have a Smashing Summer With Miliastra Wonderland!\" Join the Miliastra Wonderland Summer Web Event on July 15 to Earn Rewards!",
-      "type": "web_event",
-      "start": null,
-      "end": null,
-      "server": "europe",
-      "timezone": "UTC+01:00",
-      "source": {
-        "name": "Genshin Impact Official",
-        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21774",
-        "kind": "official-announcement-api",
-        "recordId": "21774",
-        "fetchedAt": "2026-07-23T03:42:23.373Z",
-        "priority": 1
-      },
-      "confidence": "low",
-      "scheduleStatus": "expected",
-      "permanence": "unknown",
-      "needs_review": true,
-      "image": null,
-      "description": "\"Have a Smashing Summer With Miliastra Wonderland!\" New Limited-Time Web Event Now Available! Click to take part in the event 〓Event Duration〓 2026/07/15 – 2026/07/28 03:59 *Rewards cannot be claimed after the event ends. Please claim…",
       "windowsByRegion": {}
     },
     {
@@ -555,7 +662,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21707",
         "kind": "official-announcement-api",
         "recordId": "21707",
-        "fetchedAt": "2026-07-23T03:42:23.373Z",
+        "fetchedAt": "2026-08-08T13:05:05.890Z",
         "priority": 1
       },
       "confidence": "low",
@@ -580,7 +687,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21758",
         "kind": "official-announcement-api",
         "recordId": "21758",
-        "fetchedAt": "2026-07-23T03:42:23.373Z",
+        "fetchedAt": "2026-08-08T13:05:05.890Z",
         "priority": 1
       },
       "confidence": "low",

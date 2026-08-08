@@ -1,21 +1,279 @@
 {
   "schemaVersion": 1,
   "game": "zzz",
-  "generatedAt": "2026-07-23T03:42:23.371Z",
+  "generatedAt": "2026-08-08T13:05:05.886Z",
   "source": {
     "name": "Zenless Zone Zero Official",
     "endpoint": "sg-announcement-api.hoyoverse.com getAnnList+getAnnContent"
   },
   "counts": {
-    "total": 8,
-    "needs_review": 2,
+    "total": 17,
+    "needs_review": 5,
     "banner": 0,
     "byType": {
-      "challenge": 1,
-      "event": 7
+      "event": 16,
+      "challenge": 1
     }
   },
   "events": [
+    {
+      "game": "zzz",
+      "id": "zzz-hoyo-ann-e5b14140c51c",
+      "title": "\"Snap! Focus Showdown!\" Event Details",
+      "type": "event",
+      "start": "2026-08-07T09:00:00.000Z",
+      "end": "2026-08-24T02:59:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Zenless Zone Zero Official",
+        "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1241",
+        "kind": "official-announcement-api",
+        "recordId": "1241",
+        "fetchedAt": "2026-08-08T13:05:11.108Z",
+        "priority": 1
+      },
+      "confidence": "high",
+      "scheduleStatus": "exact",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "/assets/events/zzz/94c6622ffedfd3430de624eeffabe47be5de57d884de87304f0b0127213ed7ac.jpg",
+      "description": "Event Duration 2026/08/07 10:00 (server time) – 2026/08/24 03:59 (server time) Event Rewards Requirements Reach Inter-Knot Lv. 20 and complete Main Story Chapter 1 - Intermission to participate Event Details • During the event, after…",
+      "windowsByRegion": {
+        "europe": {
+          "start": "2026-08-07T09:00:00.000Z",
+          "end": "2026-08-24T02:59:00.000Z",
+          "timezone": "UTC+01:00",
+          "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1241"
+        },
+        "asia": {
+          "start": "2026-08-07T02:00:00.000Z",
+          "end": "2026-08-23T19:59:00.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1241"
+        },
+        "america": {
+          "start": "2026-08-07T15:00:00.000Z",
+          "end": "2026-08-24T08:59:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1241"
+        }
+      }
+    },
+    {
+      "game": "zzz",
+      "id": "zzz-hoyo-ann-3d5f728e1856",
+      "title": "\"Marcel Anniversary Gift\" Event Details",
+      "type": "event",
+      "start": "2026-07-27T12:45:00.000Z",
+      "end": "2026-09-09T05:00:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Zenless Zone Zero Official",
+        "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=220",
+        "kind": "official-announcement-api",
+        "recordId": "220",
+        "fetchedAt": "2026-08-08T13:05:11.108Z",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "scheduleStatus": "exact",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "/assets/events/zzz/c4d2609f96129814bb36804c4008afe5fd242d912102921bd9223f3f0d7f2245.jpg",
+      "description": null,
+      "windowsByRegion": {
+        "europe": {
+          "start": "2026-07-27T12:45:00.000Z",
+          "end": "2026-09-09T05:00:00.000Z",
+          "timezone": "UTC+01:00",
+          "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=220"
+        },
+        "asia": {
+          "start": "2026-07-27T05:45:00.000Z",
+          "end": "2026-09-08T22:00:00.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=220"
+        },
+        "america": {
+          "start": "2026-07-27T05:45:00.000Z",
+          "end": "2026-09-08T22:00:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=220"
+        }
+      }
+    },
+    {
+      "game": "zzz",
+      "id": "zzz-hoyo-ann-c3848dccb384",
+      "title": "\"Filmgoer Thank-You Gift\" Event Details",
+      "type": "event",
+      "start": "2026-07-27T12:30:00.000Z",
+      "end": "2026-09-09T05:00:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Zenless Zone Zero Official",
+        "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=226",
+        "kind": "official-announcement-api",
+        "recordId": "226",
+        "fetchedAt": "2026-08-08T13:05:11.108Z",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "scheduleStatus": "exact",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "/assets/events/zzz/e2cc4d373b28a517f0376257c97e64f5c36ed27b4870ecbbc9b9bbacd79efa4a.jpg",
+      "description": null,
+      "windowsByRegion": {
+        "europe": {
+          "start": "2026-07-27T12:30:00.000Z",
+          "end": "2026-09-09T05:00:00.000Z",
+          "timezone": "UTC+01:00",
+          "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=226"
+        },
+        "asia": {
+          "start": "2026-07-27T05:30:00.000Z",
+          "end": "2026-09-08T22:00:00.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=226"
+        }
+      }
+    },
+    {
+      "game": "zzz",
+      "id": "zzz-hoyo-ann-17f16d0daaf4",
+      "title": "Version 3.1 New Stock in the Store",
+      "type": "event",
+      "start": "2026-07-27T12:00:00.000Z",
+      "end": "2026-09-09T05:00:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Zenless Zone Zero Official",
+        "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=219",
+        "kind": "official-announcement-api",
+        "recordId": "219",
+        "fetchedAt": "2026-08-08T13:05:11.108Z",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "scheduleStatus": "exact",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "/assets/events/zzz/fd8f049f3885ef1003d9fb89d8ae5533ed006ed6b488751ae41ffa30a11db79b.jpg",
+      "description": null,
+      "windowsByRegion": {
+        "europe": {
+          "start": "2026-07-27T12:00:00.000Z",
+          "end": "2026-09-09T05:00:00.000Z",
+          "timezone": "UTC+01:00",
+          "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=219"
+        },
+        "asia": {
+          "start": "2026-07-27T05:00:00.000Z",
+          "end": "2026-09-08T22:00:00.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=219"
+        },
+        "america": {
+          "start": "2026-07-27T05:00:00.000Z",
+          "end": "2026-09-08T22:00:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=219"
+        }
+      }
+    },
+    {
+      "game": "zzz",
+      "id": "zzz-hoyo-ann-424df948a6d9",
+      "title": "New Story: Season 3 Chapter 2 \"The Long Goodbye\"",
+      "type": "event",
+      "start": "2026-07-27T11:45:00.000Z",
+      "end": "2026-09-09T05:00:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Zenless Zone Zero Official",
+        "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=227",
+        "kind": "official-announcement-api",
+        "recordId": "227",
+        "fetchedAt": "2026-08-08T13:05:11.108Z",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "scheduleStatus": "exact",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "/assets/events/zzz/741a17735aea0b0f1352ee86b258ec0c9691cde6022842d53bcbf0ba15f873b8.jpg",
+      "description": null,
+      "windowsByRegion": {
+        "europe": {
+          "start": "2026-07-27T11:45:00.000Z",
+          "end": "2026-09-09T05:00:00.000Z",
+          "timezone": "UTC+01:00",
+          "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=227"
+        },
+        "asia": {
+          "start": "2026-07-27T04:45:00.000Z",
+          "end": "2026-09-08T22:00:00.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=227"
+        },
+        "america": {
+          "start": "2026-07-27T04:45:00.000Z",
+          "end": "2026-09-08T22:00:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=227"
+        }
+      }
+    },
+    {
+      "game": "zzz",
+      "id": "zzz-hoyo-ann-44796e8ea65a",
+      "title": "V3.1 Limited-Time Channels",
+      "type": "event",
+      "start": "2026-07-27T11:30:00.000Z",
+      "end": "2026-09-08T13:59:59.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Zenless Zone Zero Official",
+        "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=218",
+        "kind": "official-announcement-api",
+        "recordId": "218",
+        "fetchedAt": "2026-08-08T13:05:11.108Z",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "scheduleStatus": "exact",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": null,
+      "description": null,
+      "windowsByRegion": {
+        "europe": {
+          "start": "2026-07-27T11:30:00.000Z",
+          "end": "2026-09-08T13:59:59.000Z",
+          "timezone": "UTC+01:00",
+          "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=218"
+        },
+        "asia": {
+          "start": "2026-07-27T04:30:00.000Z",
+          "end": "2026-09-08T06:59:59.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=218"
+        },
+        "america": {
+          "start": "2026-07-27T04:30:00.000Z",
+          "end": "2026-09-08T19:59:59.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=218"
+        }
+      }
+    },
     {
       "game": "zzz",
       "id": "zzz-hoyo-ann-ceed88e3718a",
@@ -263,8 +521,8 @@
     },
     {
       "game": "zzz",
-      "id": "zzz-hoyo-ann-3b30c16ee6c6",
-      "title": "\"Celestial Nexus Intelligence Dossier\" Event Details",
+      "id": "zzz-hoyo-ann-748a1e2314e8",
+      "title": "\"Summer Waves Roll In\" Event Details",
       "type": "event",
       "start": null,
       "end": null,
@@ -272,10 +530,10 @@
       "timezone": "UTC+01:00",
       "source": {
         "name": "Zenless Zone Zero Official",
-        "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1205",
+        "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1238",
         "kind": "official-announcement-api",
-        "recordId": "1205",
-        "fetchedAt": "2026-07-23T03:42:30.543Z",
+        "recordId": "1238",
+        "fetchedAt": "2026-08-08T13:05:11.108Z",
         "priority": 1
       },
       "confidence": "low",
@@ -283,13 +541,13 @@
       "permanence": "unknown",
       "needs_review": true,
       "image": null,
-      "description": "Event Duration After the Version 3.0 update – 2026/07/29 05:59 (UTC+8) Event Rewards Requirements Unlock Main Story Season 3 Chapter 1 \"A Sleepwalker's Confession\" to participate Event Details • During the event, Proxies can press \"Go\" in…",
+      "description": "Event Duration After the Version 3.1 update – 2026/09/07 03:59 (server time) Event Rewards Requirements Reach Inter-Knot Lv. 20 and complete Main Story Chapter 1 - Intermission to participate Event Details • After the event begins,…",
       "windowsByRegion": {}
     },
     {
       "game": "zzz",
-      "id": "zzz-hoyo-ann-7474b8fa7526",
-      "title": "\"All-New Program\" Event Details",
+      "id": "zzz-hoyo-ann-9d9aa4e9114b",
+      "title": "\"Return to Ridu: Feathers of Reunion\" Event Details",
       "type": "event",
       "start": null,
       "end": null,
@@ -297,10 +555,10 @@
       "timezone": "UTC+01:00",
       "source": {
         "name": "Zenless Zone Zero Official",
-        "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1200",
+        "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1242",
         "kind": "official-announcement-api",
-        "recordId": "1200",
-        "fetchedAt": "2026-07-23T03:42:30.543Z",
+        "recordId": "1242",
+        "fetchedAt": "2026-08-08T13:05:11.108Z",
         "priority": 1
       },
       "confidence": "low",
@@ -308,7 +566,82 @@
       "permanence": "unknown",
       "needs_review": true,
       "image": null,
-      "description": "Event Duration After the Version 3.0 update – 2026/07/28 03:59 (server time) Requirements Reach Inter-Knot Lv. 5, and unlock the Event feature in the Main Story Prologue \"The Hare and the Proxy\" Event Details • During the \"All-New…",
+      "description": "Event Duration 2026/07/17 20:30 (UTC+8) – End of Version 3.1 Event Rewards Event Details • During the event, invite friends to return or register for the game to receive up to Polychrome ×340. • New, Returning, or Inactive Proxies can…",
+      "windowsByRegion": {}
+    },
+    {
+      "game": "zzz",
+      "id": "zzz-hoyo-ann-aa87ee15aaf3",
+      "title": "\"Gift From the Clouds\" Event Details",
+      "type": "event",
+      "start": null,
+      "end": null,
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Zenless Zone Zero Official",
+        "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1237",
+        "kind": "official-announcement-api",
+        "recordId": "1237",
+        "fetchedAt": "2026-08-08T13:05:11.108Z",
+        "priority": 1
+      },
+      "confidence": "low",
+      "scheduleStatus": "expected",
+      "permanence": "unknown",
+      "needs_review": true,
+      "image": null,
+      "description": "Event Duration After the Version 3.1 update – 2026/09/08 03:59 (server time) Requirements Reach Inter-Knot Lv. 5, and unlock the Event feature in the Main Story Prologue \"The Hare and the Proxy\" Event Details • During the \"\"Gift From the…",
+      "windowsByRegion": {}
+    },
+    {
+      "game": "zzz",
+      "id": "zzz-hoyo-ann-e35387753aec",
+      "title": "\"Potential Hypothesis: Hunting Game\" Event Details",
+      "type": "event",
+      "start": null,
+      "end": null,
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Zenless Zone Zero Official",
+        "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1239",
+        "kind": "official-announcement-api",
+        "recordId": "1239",
+        "fetchedAt": "2026-08-08T13:05:11.108Z",
+        "priority": 1
+      },
+      "confidence": "low",
+      "scheduleStatus": "expected",
+      "permanence": "unknown",
+      "needs_review": true,
+      "image": null,
+      "description": "Event Duration After the Version 3.1 update – End of Version 3.1 Requirements Available after unlocking Ridu Weekly in Chapter 1 of the main story. Event Details • During the event, Proxies can use designated squad formations to…",
+      "windowsByRegion": {}
+    },
+    {
+      "game": "zzz",
+      "id": "zzz-hoyo-ann-e734cd73628f",
+      "title": "\"Phaethon's Grand Reveal of the Year\" Event Details",
+      "type": "event",
+      "start": null,
+      "end": null,
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Zenless Zone Zero Official",
+        "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1240",
+        "kind": "official-announcement-api",
+        "recordId": "1240",
+        "fetchedAt": "2026-08-08T13:05:11.108Z",
+        "priority": 1
+      },
+      "confidence": "low",
+      "scheduleStatus": "expected",
+      "permanence": "unknown",
+      "needs_review": true,
+      "image": null,
+      "description": "Event Duration After the Version 3.1 update – End of Version 3.1 Event Rewards Requirements Reach Inter-Knot Lv. 20 and complete Main Story Chapter 1 - Intermission to participate Event Details • During the event, Proxies can watch the…",
       "windowsByRegion": {}
     }
   ]

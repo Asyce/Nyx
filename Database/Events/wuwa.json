@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
   "game": "wuwa",
-  "generatedAt": "2026-07-23T03:42:23.371Z",
+  "generatedAt": "2026-08-08T13:05:05.886Z",
   "source": {
     "name": "Wuthering Waves Official",
     "endpoint": "hw-media-cdn-mingchao.kurogame.com ArticleMenu.json + article/*.json"
   },
   "counts": {
-    "total": 254,
+    "total": 257,
     "needs_review": 41,
-    "banner": 121,
+    "banner": 124,
     "byType": {
       "event": 116,
-      "banner": 121,
+      "banner": 124,
       "challenge": 15,
       "login": 2
     }
@@ -32,7 +32,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5125",
         "kind": "official-article-api",
         "recordId": "5125",
-        "fetchedAt": "2026-07-23T03:42:35.262Z",
+        "fetchedAt": "2026-08-08T13:05:15.813Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -46,7 +46,7 @@
           "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/5125"
         }
       },
-      "image": null,
+      "image": "/assets/events/wuwa/daf055bff907c521ebc702977a25b0eeb51206042196435fe3c907bfc6839c6d.jpg",
       "description": "Duration: From now until 2026-08-19 23:59 (UTC+8) With the new region [Mengzhou: Land of Xuanfang] available for exploration, Tidal Photography - Land of Xuanfang Photo Challenge is now underway! Take part in the event for a chance to win…"
     },
     {
@@ -63,7 +63,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5065",
         "kind": "official-article-api",
         "recordId": "5065",
-        "fetchedAt": "2026-07-23T03:42:36.096Z",
+        "fetchedAt": "2026-08-08T13:05:16.701Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -77,7 +77,7 @@
           "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/5065"
         }
       },
-      "image": null,
+      "image": "/assets/events/wuwa/e52d8a7eb639fda8e1fee15568c909571ca5e842e0a072d9a20261c7d5ed6b44.jpg",
       "description": "During the event, selectable 5-Star Resonators: Jiyan, Yinlin, Jinhsi, Changli, Zhezhi, and Xiangli Yao, and 4-Star Resonators: Buling, Sanhua, and Yangyang receive boosted drop rates! ✦Duration✦ Version 3.5 update - 2026-08-19 11:59…"
     },
     {
@@ -94,7 +94,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5076",
         "kind": "official-article-api",
         "recordId": "5076",
-        "fetchedAt": "2026-07-23T03:42:35.814Z",
+        "fetchedAt": "2026-08-08T13:05:16.407Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -108,8 +108,104 @@
           "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/5076"
         }
       },
-      "image": null,
+      "image": "/assets/events/wuwa/88461b9dba20c6daddba2b914dc5da01a6da8b318ae963ea9c0d73d749ce7820.jpg",
       "description": "During the event, selectable 5-Star Weapons: Verdant Summit, Stringmaster, Ages of Harvest, Blazing Brilliance, Rime-Draped Sprouts, Verity's Handle, and 4-Star Weapons: Dauntless Evernight, Variation, and Endless Collapse receive boosted…"
+    },
+    {
+      "game": "wuwa",
+      "id": "wuwa-kuro-article-05ab971d1575",
+      "title": "[Firstlight's Herald] Featured Weapon Convene",
+      "type": "banner",
+      "start": "2026-07-30T02:00:00.000Z",
+      "end": "2026-08-19T03:59:00.000Z",
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Wuthering Waves Official",
+        "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5236",
+        "kind": "official-article-api",
+        "recordId": "5236",
+        "fetchedAt": "2026-08-08T13:05:14.036Z",
+        "priority": 1
+      },
+      "confidence": "high",
+      "scheduleStatus": "exact",
+      "permanence": "timed",
+      "needs_review": false,
+      "windowsByRegion": {
+        "global": {
+          "start": "2026-07-30T02:00:00.000Z",
+          "end": "2026-08-19T03:59:00.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/5236"
+        }
+      },
+      "image": "/assets/events/wuwa/ecad6b0dc67bb24da6857c24c52d86f5d1dfe8a5fffde35fe76463fbdfe53c17.jpg",
+      "description": "During the event, 5-Star Weapon: Firstlight's Herald, 4-Star Weapons: Variation, Endless Collapse, and Relativistic Jet receive boosted drop rates! ✦Duration✦ 2026-07-30 10:00 - 2026-08-19 11:59 (server time) ✦Eligibility✦ - Reach Union…"
+    },
+    {
+      "game": "wuwa",
+      "id": "wuwa-kuro-article-58f2df3a5ff0",
+      "title": "[Blessings From Dewy Winds] Featured Resonator Convene",
+      "type": "banner",
+      "start": "2026-07-30T02:00:00.000Z",
+      "end": "2026-08-19T03:59:00.000Z",
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Wuthering Waves Official",
+        "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5227",
+        "kind": "official-article-api",
+        "recordId": "5227",
+        "fetchedAt": "2026-08-08T13:05:14.330Z",
+        "priority": 1
+      },
+      "confidence": "high",
+      "scheduleStatus": "exact",
+      "permanence": "timed",
+      "needs_review": false,
+      "windowsByRegion": {
+        "global": {
+          "start": "2026-07-30T02:00:00.000Z",
+          "end": "2026-08-19T03:59:00.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/5227"
+        }
+      },
+      "image": "/assets/events/wuwa/73898b2a2366bd668123c3a23419117a9743c93a29e8ed4f94c6bb7c2186e4e9.jpg",
+      "description": "During the event, 5-Star Resonator: Suisui, 4-Star Resonators: Baizhi, Mortefi, and Lumi receive boosted drop rates! ✦Duration✦ 2026-07-30 10:00 - 2026-08-19 11:59 (server time) ✦Eligibility✦ - Reach Union Level 5. - Or complete the…"
+    },
+    {
+      "game": "wuwa",
+      "id": "wuwa-kuro-article-ec83f0c0e367",
+      "title": "[Version 3.5 Featured Resonator/Weapon Convene: Phase II]",
+      "type": "banner",
+      "start": "2026-07-30T02:00:00.000Z",
+      "end": "2026-08-19T03:59:00.000Z",
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Wuthering Waves Official",
+        "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5220",
+        "kind": "official-article-api",
+        "recordId": "5220",
+        "fetchedAt": "2026-08-08T13:05:14.624Z",
+        "priority": 1
+      },
+      "confidence": "high",
+      "scheduleStatus": "exact",
+      "permanence": "timed",
+      "needs_review": false,
+      "windowsByRegion": {
+        "global": {
+          "start": "2026-07-30T02:00:00.000Z",
+          "end": "2026-08-19T03:59:00.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/5220"
+        }
+      },
+      "image": "/assets/events/wuwa/3b7a6e4b689e41c15f165367aa72e32995d1e38146a9c9423c4e9e21ddd7ab3f.jpg",
+      "description": "[Take Flight in Spring] Featured Resonator Convene During the event, 5-Star Resonator: Aemeath, 4-Star Resonators: Baizhi, Mortefi, and Lumi receive boosted drop rates! ✦Duration✦ 2026-07-30 10:00 - 2026-08-19 11:59 (server time)…"
     },
     {
       "game": "wuwa",
@@ -125,7 +221,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5039",
         "kind": "official-article-api",
         "recordId": "5039",
-        "fetchedAt": "2026-07-23T03:42:36.369Z",
+        "fetchedAt": "2026-08-08T13:05:17.001Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -139,7 +235,7 @@
           "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/5039"
         }
       },
-      "image": null,
+      "image": "/assets/events/wuwa/4cb73b61cb60219ef1ee610d896b1f18a5557ee31428eb8140c138bf66ce2fa5.jpg",
       "description": "[When Winter Thaws] Featured Resonator Convene During the event, 5-Star Resonator: Luuk Herssen, 4-Star Resonators: Danjin, Chixia, and Aalto receive boosted drop rates! ✦Duration✦ Version 3.5 update - 2026-07-30 09:59 (server time)…"
     },
     {
@@ -156,7 +252,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5056",
         "kind": "official-article-api",
         "recordId": "5056",
-        "fetchedAt": "2026-07-23T03:42:36.643Z",
+        "fetchedAt": "2026-08-08T13:05:17.298Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -170,7 +266,7 @@
           "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/5056"
         }
       },
-      "image": null,
+      "image": "/assets/events/wuwa/e848e48290d9b50934bc2f441bca379da081406d521288f19021040f173fcb50.jpg",
       "description": "During the event, 5-Star Weapon: Azure Oath, 4-Star Weapons: Commando of Conviction, Hollow Mirage, and Discord receive boosted drop rates! ✦Duration✦ Version 3.5 update - 2026-07-30 09:59 (server time) ✦Eligibility✦ - Reach Union Level…"
     },
     {
@@ -187,7 +283,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5047",
         "kind": "official-article-api",
         "recordId": "5047",
-        "fetchedAt": "2026-07-23T03:42:36.915Z",
+        "fetchedAt": "2026-08-08T13:05:17.599Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -201,7 +297,7 @@
           "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/5047"
         }
       },
-      "image": null,
+      "image": "/assets/events/wuwa/fa5daff3f06f642efc9e76e38a823a91b443fb58cc6fee9e8722e54a976caa8a.jpg",
       "description": "During the event, 5-Star Resonator: Yangyang: Xuanling, 4-Star Resonators: Danjin, Chixia, and Aalto receive boosted drop rates! ✦Duration✦ Version 3.5 update - 2026-07-30 09:59 (server time) ✦Eligibility✦ - Reach Union Level 5. - Or…"
     },
     {
@@ -218,7 +314,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5129",
         "kind": "official-article-api",
         "recordId": "5129",
-        "fetchedAt": "2026-07-23T03:42:34.688Z",
+        "fetchedAt": "2026-08-08T13:05:15.222Z",
         "priority": 1
       },
       "confidence": "high",
@@ -233,7 +329,7 @@
           "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/5129"
         }
       },
-      "image": null,
+      "image": "/assets/events/wuwa/421bb8ef6e02cafb02fdc441478aaf433b465ae4dc57f6d1ee3fa385f8002b3c.jpg",
       "description": "✦Duration✦ 2026-07-11 10:00 - 2026-08-19 11:59 (server time) ✦Rewards✦ Astrite x1200, Space and Blake Bloom Medal (Event Sigil), Space and Blake Bloom (Event Avatar), Modifier, Premium Tuner, Forgery Premium Supply - Lahai-Roi, Premium…"
     },
     {
@@ -250,7 +346,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4844",
         "kind": "official-article-api",
         "recordId": "4844",
-        "fetchedAt": "2026-07-23T03:42:39.381Z",
+        "fetchedAt": "2026-08-08T13:05:20.272Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -264,7 +360,7 @@
           "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/4844"
         }
       },
-      "image": null,
+      "image": "/assets/events/wuwa/5aa0fec546da0cbbb0671baac5d35227fc77092d945b71d133a58e449be8038d.jpg",
       "description": "During the event, 5-Star Weapon: Spectral Trigger, 4-Star Weapons: Relativistic Jet, Cadenza, and Fusion Accretion receive boosted drop rates! ✦Duration✦ Version 3.4 Update - 2026-07-09 11:59 (server time) ✦Eligibility✦ - Reach Union…"
     },
     {
@@ -281,7 +377,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4852",
         "kind": "official-article-api",
         "recordId": "4852",
-        "fetchedAt": "2026-07-23T03:42:39.107Z",
+        "fetchedAt": "2026-08-08T13:05:19.975Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -295,7 +391,7 @@
           "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/4852"
         }
       },
-      "image": null,
+      "image": "/assets/events/wuwa/cf4b43dd6d0b623b2ac4da9c9ae664ae5a1f6519b004ba800427a9d1626ff63f.jpg",
       "description": "During the event, 5-Star Resonator: Rebecca, 4-Star Resonators: Lumi, Youhu, and Taoqi receive boosted drop rates! ✦Duration✦ Version 3.4 Update - 2026-07-09 11:59 (server time) ✦Eligibility✦ - Reach Union Level 5. - Or complete the…"
     },
     {
@@ -312,7 +408,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4836",
         "kind": "official-article-api",
         "recordId": "4836",
-        "fetchedAt": "2026-07-23T03:42:39.653Z",
+        "fetchedAt": "2026-08-08T13:05:20.572Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -326,7 +422,7 @@
           "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/4836"
         }
       },
-      "image": null,
+      "image": "/assets/events/wuwa/7fa5d70b6589478919b8ba5a085a2b383cbb6f6d16bc5bc9f2798c33a85ce35e.jpg",
       "description": "During the event, 5-Star Resonator: Lucy, 4-Star Resonators: Lumi, Youhu, and Taoqi receive boosted drop rates! ✦Duration✦ Version 3.4 Update - 2026-07-09 11:59 (server time) ✦Eligibility✦ - Reach Union Level 5. - Or complete the combat…"
     },
     {
@@ -343,7 +439,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4860",
         "kind": "official-article-api",
         "recordId": "4860",
-        "fetchedAt": "2026-07-23T03:42:38.835Z",
+        "fetchedAt": "2026-08-08T13:05:19.681Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -357,7 +453,7 @@
           "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/4860"
         }
       },
-      "image": null,
+      "image": "/assets/events/wuwa/a62fe64d38ff81d40c33f50ec7064608e03e9467e4b5d4636b0200d934c1929b.jpg",
       "description": "During the event, 5-Star Weapon: Skull Thrasher, 4-Star Weapons: Relativistic Jet, Cadenza, and Fusion Accretion receive boosted drop rates! ✦Duration✦ Version 3.4 Update - 2026-07-09 11:59 (server time) ✦Eligibility✦ - Reach Union Level…"
     },
     {
@@ -374,7 +470,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4792",
         "kind": "official-article-api",
         "recordId": "4792",
-        "fetchedAt": "2026-07-23T03:42:38.558Z",
+        "fetchedAt": "2026-08-08T13:05:19.384Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -388,7 +484,7 @@
           "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/4792"
         }
       },
-      "image": null,
+      "image": "/assets/events/wuwa/4f6d66493df4769d5046aa07b8d39ea002981a7f7aa622d970884b69874b3ec8.jpg",
       "description": "✦Duration✦ Version 3.4 update - 2026-07-09 03:59 (server time) ✦Rewards✦ Astrite x800, Knock on Gate Fissure x1 (Title), Premium Tuner, Premium Resonance Potion, Premium Sealed Tube, Premium Energy Core, Shell Credit, and other Materials."
     },
     {
@@ -405,7 +501,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4916",
         "kind": "official-article-api",
         "recordId": "4916",
-        "fetchedAt": "2026-07-23T03:42:37.189Z",
+        "fetchedAt": "2026-08-08T13:05:17.905Z",
         "priority": 1
       },
       "confidence": "high",
@@ -437,7 +533,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4885",
         "kind": "official-article-api",
         "recordId": "4885",
-        "fetchedAt": "2026-07-23T03:42:37.742Z",
+        "fetchedAt": "2026-08-08T13:05:18.493Z",
         "priority": 1
       },
       "confidence": "high",
@@ -469,7 +565,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4894",
         "kind": "official-article-api",
         "recordId": "4894",
-        "fetchedAt": "2026-07-23T03:42:37.466Z",
+        "fetchedAt": "2026-08-08T13:05:18.201Z",
         "priority": 1
       },
       "confidence": "high",
@@ -501,7 +597,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4695",
         "kind": "official-article-api",
         "recordId": "4695",
-        "fetchedAt": "2026-07-23T03:42:39.925Z",
+        "fetchedAt": "2026-08-08T13:05:20.867Z",
         "priority": 1
       },
       "confidence": "high",
@@ -533,7 +629,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4720",
         "kind": "official-article-api",
         "recordId": "4720",
-        "fetchedAt": "2026-07-23T03:42:40.472Z",
+        "fetchedAt": "2026-08-08T13:05:21.474Z",
         "priority": 1
       },
       "confidence": "high",
@@ -565,7 +661,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4712",
         "kind": "official-article-api",
         "recordId": "4712",
-        "fetchedAt": "2026-07-23T03:42:40.747Z",
+        "fetchedAt": "2026-08-08T13:05:21.772Z",
         "priority": 1
       },
       "confidence": "high",
@@ -597,7 +693,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4691",
         "kind": "official-article-api",
         "recordId": "4691",
-        "fetchedAt": "2026-07-23T03:42:40.199Z",
+        "fetchedAt": "2026-08-08T13:05:21.167Z",
         "priority": 1
       },
       "confidence": "high",
@@ -629,7 +725,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4591",
         "kind": "official-article-api",
         "recordId": "4591",
-        "fetchedAt": "2026-07-23T03:42:42.661Z",
+        "fetchedAt": "2026-08-08T13:05:23.854Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -643,7 +739,7 @@
           "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/4591"
         }
       },
-      "image": null,
+      "image": "/assets/events/wuwa/8b0e784113486d3f5b51dee8262a87d03aa7bee47b2a11bd20249c88a81f98a5.jpg",
       "description": "[Thousand Futures Mirrored in Snow] Featured Resonator Convene During the event, 5-Star Resonator: Hiyuki, 4-Star Resonators: Baizhi, Aalto, and Yuanwu receive boosted drop rates! ✦Duration✦ Version 3.3 update - 2026-05-21 09:59 (server…"
     },
     {
@@ -660,7 +756,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4654",
         "kind": "official-article-api",
         "recordId": "4654",
-        "fetchedAt": "2026-07-23T03:42:41.018Z",
+        "fetchedAt": "2026-08-08T13:05:22.077Z",
         "priority": 1
       },
       "confidence": "high",
@@ -692,7 +788,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4644",
         "kind": "official-article-api",
         "recordId": "4644",
-        "fetchedAt": "2026-07-23T03:42:41.295Z",
+        "fetchedAt": "2026-08-08T13:05:22.372Z",
         "priority": 1
       },
       "confidence": "high",
@@ -724,7 +820,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4636",
         "kind": "official-article-api",
         "recordId": "4636",
-        "fetchedAt": "2026-07-23T03:42:41.567Z",
+        "fetchedAt": "2026-08-08T13:05:22.668Z",
         "priority": 1
       },
       "confidence": "high",
@@ -756,7 +852,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4627",
         "kind": "official-article-api",
         "recordId": "4627",
-        "fetchedAt": "2026-07-23T03:42:41.840Z",
+        "fetchedAt": "2026-08-08T13:05:22.964Z",
         "priority": 1
       },
       "confidence": "high",
@@ -788,7 +884,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4506",
         "kind": "official-article-api",
         "recordId": "4506",
-        "fetchedAt": "2026-07-23T03:42:42.934Z",
+        "fetchedAt": "2026-08-08T13:05:24.148Z",
         "priority": 1
       },
       "confidence": "high",
@@ -820,7 +916,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4493",
         "kind": "official-article-api",
         "recordId": "4493",
-        "fetchedAt": "2026-07-23T03:42:43.206Z",
+        "fetchedAt": "2026-08-08T13:05:24.449Z",
         "priority": 1
       },
       "confidence": "high",
@@ -852,7 +948,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4458",
         "kind": "official-article-api",
         "recordId": "4458",
-        "fetchedAt": "2026-07-23T03:42:43.749Z",
+        "fetchedAt": "2026-08-08T13:05:25.060Z",
         "priority": 1
       },
       "confidence": "high",
@@ -884,7 +980,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4466",
         "kind": "official-article-api",
         "recordId": "4466",
-        "fetchedAt": "2026-07-23T03:42:43.477Z",
+        "fetchedAt": "2026-08-08T13:05:24.749Z",
         "priority": 1
       },
       "confidence": "high",
@@ -916,7 +1012,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4368",
         "kind": "official-article-api",
         "recordId": "4368",
-        "fetchedAt": "2026-07-23T03:42:44.866Z",
+        "fetchedAt": "2026-08-08T13:05:26.256Z",
         "priority": 1
       },
       "confidence": "high",
@@ -948,7 +1044,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4355",
         "kind": "official-article-api",
         "recordId": "4355",
-        "fetchedAt": "2026-07-23T03:42:45.138Z",
+        "fetchedAt": "2026-08-08T13:05:26.552Z",
         "priority": 1
       },
       "confidence": "high",
@@ -980,7 +1076,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4321",
         "kind": "official-article-api",
         "recordId": "4321",
-        "fetchedAt": "2026-07-23T03:42:46.247Z",
+        "fetchedAt": "2026-08-08T13:05:27.769Z",
         "priority": 1
       },
       "confidence": "high",
@@ -1012,7 +1108,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4329",
         "kind": "official-article-api",
         "recordId": "4329",
-        "fetchedAt": "2026-07-23T03:42:45.967Z",
+        "fetchedAt": "2026-08-08T13:05:27.467Z",
         "priority": 1
       },
       "confidence": "high",
@@ -1044,7 +1140,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4345",
         "kind": "official-article-api",
         "recordId": "4345",
-        "fetchedAt": "2026-07-23T03:42:45.409Z",
+        "fetchedAt": "2026-08-08T13:05:26.847Z",
         "priority": 1
       },
       "confidence": "high",
@@ -1076,7 +1172,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4337",
         "kind": "official-article-api",
         "recordId": "4337",
-        "fetchedAt": "2026-07-23T03:42:45.695Z",
+        "fetchedAt": "2026-08-08T13:05:27.146Z",
         "priority": 1
       },
       "confidence": "high",
@@ -1108,7 +1204,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4196",
         "kind": "official-article-api",
         "recordId": "4196",
-        "fetchedAt": "2026-07-23T03:42:48.971Z",
+        "fetchedAt": "2026-08-08T13:05:30.744Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -1122,7 +1218,7 @@
           "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/4196"
         }
       },
-      "image": null,
+      "image": "/assets/events/wuwa/deb58e6c2f2443fb351339138bce6bd562c6e8f7777962ade80d58e770f1e450.jpg",
       "description": "During the event, 5-Star Resonator: Aemeath, 4-Star Resonators: Mortefi, Taoqi, and Aalto receive boosted drop rates! ✦Duration✦ Version 3.1 update - 2026-02-26 09:59 (server time) ✦Eligibility✦ - Reach Union Level 5. - Or complete the…"
     },
     {
@@ -1139,7 +1235,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4204",
         "kind": "official-article-api",
         "recordId": "4204",
-        "fetchedAt": "2026-07-23T03:42:48.700Z",
+        "fetchedAt": "2026-08-08T13:05:30.442Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -1153,7 +1249,7 @@
           "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/4204"
         }
       },
-      "image": null,
+      "image": "/assets/events/wuwa/3e02f5ec82052d84ee55e5bc2d0ba6570acae3280edd052c098d2616b6ea6d88.jpg",
       "description": "During the event, 5-Star Weapon: Everbright Polestar, 4-Star Weapons: Commando of Conviction, Waning Redshift, and Cadenza receive boosted drop rates! ✦Duration✦ Version 3.1 update - 2026-02-26 09:59 (server time) ✦Eligibility✦ - Reach…"
     },
     {
@@ -1170,7 +1266,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4167",
         "kind": "official-article-api",
         "recordId": "4167",
-        "fetchedAt": "2026-07-23T03:42:48.428Z",
+        "fetchedAt": "2026-08-08T13:05:30.141Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -1184,7 +1280,7 @@
           "sourceUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/4167"
         }
       },
-      "image": null,
+      "image": "/assets/events/wuwa/3fed1fcc56bb166dcd9ec5dd665913e180be6da4ad36dbb22c0aaa73d6fe419e.jpg",
       "description": "[Horizon of Dawnbreak] Featured Resonator Convene During the event, 5-Star Resonator: Chisa, 4-Star Resonators: Mortefi, Taoqi, and Aalto receive boosted drop rates! ✦Duration✦ Version 3.1 update - 2026-02-26 09:59 (server time)…"
     },
     {
@@ -1201,7 +1297,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4256",
         "kind": "official-article-api",
         "recordId": "4256",
-        "fetchedAt": "2026-07-23T03:42:46.790Z",
+        "fetchedAt": "2026-08-08T13:05:28.364Z",
         "priority": 1
       },
       "confidence": "high",
@@ -1233,7 +1329,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4264",
         "kind": "official-article-api",
         "recordId": "4264",
-        "fetchedAt": "2026-07-23T03:42:46.519Z",
+        "fetchedAt": "2026-08-08T13:05:28.061Z",
         "priority": 1
       },
       "confidence": "high",
@@ -1265,7 +1361,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4275",
         "kind": "official-article-api",
         "recordId": "4275",
-        "fetchedAt": "2026-07-23T03:42:47.061Z",
+        "fetchedAt": "2026-08-08T13:05:28.660Z",
         "priority": 1
       },
       "confidence": "high",
@@ -1297,7 +1393,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4224",
         "kind": "official-article-api",
         "recordId": "4224",
-        "fetchedAt": "2026-07-23T03:42:47.334Z",
+        "fetchedAt": "2026-08-08T13:05:28.952Z",
         "priority": 1
       },
       "confidence": "high",
@@ -1329,7 +1425,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4064",
         "kind": "official-article-api",
         "recordId": "4064",
-        "fetchedAt": "2026-07-23T03:42:49.242Z",
+        "fetchedAt": "2026-08-08T13:05:31.045Z",
         "priority": 1
       },
       "confidence": "high",
@@ -1489,7 +1585,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4049",
         "kind": "official-article-api",
         "recordId": "4049",
-        "fetchedAt": "2026-07-23T03:42:49.513Z",
+        "fetchedAt": "2026-08-08T13:05:31.341Z",
         "priority": 1
       },
       "confidence": "high",
@@ -1521,7 +1617,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4041",
         "kind": "official-article-api",
         "recordId": "4041",
-        "fetchedAt": "2026-07-23T03:42:49.784Z",
+        "fetchedAt": "2026-08-08T13:05:31.645Z",
         "priority": 1
       },
       "confidence": "high",
@@ -6806,7 +6902,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5150",
         "kind": "official-article-api",
         "recordId": "5150",
-        "fetchedAt": "2026-07-23T03:42:34.415Z",
+        "fetchedAt": "2026-08-08T13:05:14.922Z",
         "priority": 1
       },
       "confidence": "low",
@@ -6878,7 +6974,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4626",
         "kind": "official-article-api",
         "recordId": "4626",
-        "fetchedAt": "2026-07-23T03:42:42.113Z",
+        "fetchedAt": "2026-08-08T13:05:23.261Z",
         "priority": 1
       },
       "confidence": "low",
@@ -6974,7 +7070,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4236",
         "kind": "official-article-api",
         "recordId": "4236",
-        "fetchedAt": "2026-07-23T03:42:47.607Z",
+        "fetchedAt": "2026-08-08T13:05:29.251Z",
         "priority": 1
       },
       "confidence": "low",
@@ -6998,7 +7094,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4233",
         "kind": "official-article-api",
         "recordId": "4233",
-        "fetchedAt": "2026-07-23T03:42:47.879Z",
+        "fetchedAt": "2026-08-08T13:05:29.546Z",
         "priority": 1
       },
       "confidence": "low",
@@ -7358,7 +7454,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4823",
         "kind": "official-article-api",
         "recordId": "4823",
-        "fetchedAt": "2026-07-23T03:42:38.014Z",
+        "fetchedAt": "2026-08-08T13:05:18.789Z",
         "priority": 1
       },
       "confidence": "low",
@@ -7406,7 +7502,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5094",
         "kind": "official-article-api",
         "recordId": "5094",
-        "fetchedAt": "2026-07-23T03:42:34.970Z",
+        "fetchedAt": "2026-08-08T13:05:15.516Z",
         "priority": 1
       },
       "confidence": "low",
@@ -7454,7 +7550,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4386",
         "kind": "official-article-api",
         "recordId": "4386",
-        "fetchedAt": "2026-07-23T03:42:44.567Z",
+        "fetchedAt": "2026-08-08T13:05:25.958Z",
         "priority": 1
       },
       "confidence": "low",
@@ -7670,7 +7766,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5009",
         "kind": "official-article-api",
         "recordId": "5009",
-        "fetchedAt": "2026-07-23T03:42:35.542Z",
+        "fetchedAt": "2026-08-08T13:05:16.110Z",
         "priority": 1
       },
       "confidence": "low",
@@ -7718,7 +7814,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4451",
         "kind": "official-article-api",
         "recordId": "4451",
-        "fetchedAt": "2026-07-23T03:42:44.022Z",
+        "fetchedAt": "2026-08-08T13:05:25.365Z",
         "priority": 1
       },
       "confidence": "low",

@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
   "game": "endfield",
-  "generatedAt": "2026-07-23T03:42:23.371Z",
+  "generatedAt": "2026-08-08T13:05:05.886Z",
   "source": {
     "name": "Arknights: Endfield Official",
     "endpoint": "web-news.gryphline.com /api/bulletin"
   },
   "counts": {
-    "total": 28,
-    "needs_review": 21,
-    "banner": 9,
+    "total": 30,
+    "needs_review": 23,
+    "banner": 10,
     "byType": {
-      "event": 17,
-      "banner": 9,
+      "event": 18,
+      "banner": 10,
       "login": 2
     }
   },
@@ -31,7 +31,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/1321",
         "kind": "official-bulletin-api",
         "recordId": "1321",
-        "fetchedAt": "2026-07-23T03:42:53.075Z",
+        "fetchedAt": "2026-08-08T13:05:35.825Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -45,7 +45,7 @@
           "sourceUrl": "https://endfield.gryphline.com/en-us/news/1321"
         }
       },
-      "image": null,
+      "image": "/assets/events/endfield/fee417039b96c088c12f10b92a6e195aa2ecab7aeec21e60ac010f7e3b5e484d.jpg",
       "description": "Dear Endministrator, While [Crimson Hued Issue] is available, the chance of getting the 6★ weapon [Blessing of Lustrous Carmine (Polearm)] is increased! ▼// [Crimson Hued Issue] · Availability: Opens June 26, 2026 at 12:00 (server time),…"
     },
     {
@@ -62,7 +62,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/6175",
         "kind": "official-bulletin-api",
         "recordId": "6175",
-        "fetchedAt": "2026-07-23T03:42:53.317Z",
+        "fetchedAt": "2026-08-08T13:05:36.022Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -76,7 +76,7 @@
           "sourceUrl": "https://endfield.gryphline.com/en-us/news/6175"
         }
       },
-      "image": null,
+      "image": "/assets/events/endfield/08cd874848f9871273dd086591c4dce7cf0bc883288361e7277b633c52ac369f.jpg",
       "description": "Dear Endministrator, During [Expunger of Sin] Chartered Headhunting, the 6★ operator [Camille] is Rate-UP! The [Peacekeeper's Nocturne] limited-time sign-in event will open simultaneously. Accumulate sign-ins to earn rewards such as…"
     },
     {
@@ -93,7 +93,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/0759",
         "kind": "official-bulletin-api",
         "recordId": "0759",
-        "fetchedAt": "2026-07-23T03:42:54.522Z",
+        "fetchedAt": "2026-08-08T13:05:37.007Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -107,7 +107,7 @@
           "sourceUrl": "https://endfield.gryphline.com/en-us/news/0759"
         }
       },
-      "image": null,
+      "image": "/assets/events/endfield/a7a0859195a930ecb744b132a2e46d0f5bfd8d51dc692a9890b36c2db73ff6d9.png",
       "description": "Dear Endministrator, During [Fists of No Regrets] Chartered Headhunting, the 6★ operator [Mi Fu] is Rate-UP! The [One with Her Fists] limited-time sign-in event will open simultaneously. Accumulate sign-ins to earn rewards such as [One…"
     },
     {
@@ -124,7 +124,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/9579",
         "kind": "official-bulletin-api",
         "recordId": "9579",
-        "fetchedAt": "2026-07-23T03:42:56.467Z",
+        "fetchedAt": "2026-08-08T13:05:38.648Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -138,7 +138,7 @@
           "sourceUrl": "https://endfield.gryphline.com/en-us/news/9579"
         }
       },
-      "image": null,
+      "image": "/assets/events/endfield/55faef2cb1d4aebb47f4e69310ab0b6541f04cf681afecd20b6e4cdec7cbf4b4.jpg",
       "description": "Dear Endministrator: During [Thunder of Renewal] Chartered Headhunting, the 6★ operator [Zhuang Fangyi] is Rate-UP! The [Blitz of Verdance] limited-time sign-in event will open simultaneously. Accumulate sign-ins to earn rewards such as…"
     },
     {
@@ -155,7 +155,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/2669",
         "kind": "official-bulletin-api",
         "recordId": "2669",
-        "fetchedAt": "2026-07-23T03:42:55.007Z",
+        "fetchedAt": "2026-08-08T13:05:37.862Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -169,7 +169,7 @@
           "sourceUrl": "https://endfield.gryphline.com/en-us/news/2669"
         }
       },
-      "image": null,
+      "image": "/assets/events/endfield/d9beb6485d939eec496e8361517b2f41e8579d5d564b3b635aedb7d6a2b5adb5.jpg",
       "description": "Dear Endministrator, While [Smelting Fire Issue] is available, the chance of getting 6★ weapon [Forgeborn Scathe (Sword)] is increased! ▼// [Smelting Fire Issue] · Availability: Asia Server Time Zone: UTC+8 Americas / Europe Server Time…"
     },
     {
@@ -186,7 +186,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/5210",
         "kind": "official-bulletin-api",
         "recordId": "5210",
-        "fetchedAt": "2026-07-23T03:42:54.766Z",
+        "fetchedAt": "2026-08-08T13:05:37.204Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -200,7 +200,7 @@
           "sourceUrl": "https://endfield.gryphline.com/en-us/news/5210"
         }
       },
-      "image": null,
+      "image": "/assets/events/endfield/8f52d4bece0d50b2921acf84df9df243fb5dd6021cb62b9fe8bcc6b3162d5383.jpg",
       "description": "Dear Endministrator, While [Swift Walker Issue] is available, the chance of getting 6★ weapon [Delivery Guaranteed (Arts Unit)] is increased! ▼// [Swift Walker Issue] · Availability: Asia Server Time Zone: UTC+8 Americas / Europe Server…"
     },
     {
@@ -217,7 +217,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/7024",
         "kind": "official-bulletin-api",
         "recordId": "7024",
-        "fetchedAt": "2026-07-23T03:42:55.246Z",
+        "fetchedAt": "2026-08-08T13:05:38.060Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -231,7 +231,7 @@
           "sourceUrl": "https://endfield.gryphline.com/en-us/news/7024"
         }
       },
-      "image": null,
+      "image": "/assets/events/endfield/a4622dbc20fc359342a99103b4a26f2fcb92a06b69c2ff93a3db1315f355b76d.jpg",
       "description": "Dear Endministrator, 6★ operators that may appear in [Fest of Brilliance] Special Headhunting include: Laevatain / Gilberta / Ardelia / Pogranichnik. The [Shimmering Moment] limited-time sign-in event will open simultaneously. Accumulate…"
     },
     {
@@ -248,7 +248,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/2677",
         "kind": "official-bulletin-api",
         "recordId": "2677",
-        "fetchedAt": "2026-07-23T03:43:00.117Z",
+        "fetchedAt": "2026-08-08T13:05:41.714Z",
         "priority": 1
       },
       "confidence": "low",
@@ -272,7 +272,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/2656",
         "kind": "official-bulletin-api",
         "recordId": "2656",
-        "fetchedAt": "2026-07-23T03:42:52.112Z",
+        "fetchedAt": "2026-08-08T13:05:34.843Z",
         "priority": 1
       },
       "confidence": "low",
@@ -296,7 +296,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/2660",
         "kind": "official-bulletin-api",
         "recordId": "2660",
-        "fetchedAt": "2026-07-23T03:42:56.706Z",
+        "fetchedAt": "2026-08-08T13:05:38.846Z",
         "priority": 1
       },
       "confidence": "low",
@@ -320,7 +320,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/8909",
         "kind": "official-bulletin-api",
         "recordId": "8909",
-        "fetchedAt": "2026-07-23T03:42:57.902Z",
+        "fetchedAt": "2026-08-08T13:05:39.824Z",
         "priority": 1
       },
       "confidence": "low",
@@ -344,7 +344,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/0754",
         "kind": "official-bulletin-api",
         "recordId": "0754",
-        "fetchedAt": "2026-07-23T03:42:58.148Z",
+        "fetchedAt": "2026-08-08T13:05:40.475Z",
         "priority": 1
       },
       "confidence": "low",
@@ -368,7 +368,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/7028",
         "kind": "official-bulletin-api",
         "recordId": "7028",
-        "fetchedAt": "2026-07-23T03:42:58.888Z",
+        "fetchedAt": "2026-08-08T13:05:40.672Z",
         "priority": 1
       },
       "confidence": "low",
@@ -392,7 +392,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/4484",
         "kind": "official-bulletin-api",
         "recordId": "4484",
-        "fetchedAt": "2026-07-23T03:42:52.836Z",
+        "fetchedAt": "2026-08-08T13:05:35.628Z",
         "priority": 1
       },
       "confidence": "low",
@@ -416,7 +416,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/3847",
         "kind": "official-bulletin-api",
         "recordId": "3847",
-        "fetchedAt": "2026-07-23T03:42:59.133Z",
+        "fetchedAt": "2026-08-08T13:05:40.867Z",
         "priority": 1
       },
       "confidence": "low",
@@ -440,7 +440,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/9566",
         "kind": "official-bulletin-api",
         "recordId": "9566",
-        "fetchedAt": "2026-07-23T03:42:53.562Z",
+        "fetchedAt": "2026-08-08T13:05:36.221Z",
         "priority": 1
       },
       "confidence": "low",
@@ -464,7 +464,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/3843",
         "kind": "official-bulletin-api",
         "recordId": "3843",
-        "fetchedAt": "2026-07-23T03:42:56.947Z",
+        "fetchedAt": "2026-08-08T13:05:39.045Z",
         "priority": 1
       },
       "confidence": "low",
@@ -488,7 +488,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/2657",
         "kind": "official-bulletin-api",
         "recordId": "2657",
-        "fetchedAt": "2026-07-23T03:42:53.800Z",
+        "fetchedAt": "2026-08-08T13:05:36.417Z",
         "priority": 1
       },
       "confidence": "low",
@@ -512,7 +512,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/5212",
         "kind": "official-bulletin-api",
         "recordId": "5212",
-        "fetchedAt": "2026-07-23T03:42:56.224Z",
+        "fetchedAt": "2026-08-08T13:05:38.451Z",
         "priority": 1
       },
       "confidence": "low",
@@ -536,7 +536,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/5211",
         "kind": "official-bulletin-api",
         "recordId": "5211",
-        "fetchedAt": "2026-07-23T03:42:55.983Z",
+        "fetchedAt": "2026-08-08T13:05:38.253Z",
         "priority": 1
       },
       "confidence": "low",
@@ -560,7 +560,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/1338",
         "kind": "official-bulletin-api",
         "recordId": "1338",
-        "fetchedAt": "2026-07-23T03:42:57.425Z",
+        "fetchedAt": "2026-08-08T13:05:39.439Z",
         "priority": 1
       },
       "confidence": "low",
@@ -584,7 +584,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/1339",
         "kind": "official-bulletin-api",
         "recordId": "1339",
-        "fetchedAt": "2026-07-23T03:42:57.663Z",
+        "fetchedAt": "2026-08-08T13:05:39.630Z",
         "priority": 1
       },
       "confidence": "low",
@@ -608,7 +608,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/8903",
         "kind": "official-bulletin-api",
         "recordId": "8903",
-        "fetchedAt": "2026-07-23T03:42:54.045Z",
+        "fetchedAt": "2026-08-08T13:05:36.614Z",
         "priority": 1
       },
       "confidence": "low",
@@ -632,7 +632,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/6174",
         "kind": "official-bulletin-api",
         "recordId": "6174",
-        "fetchedAt": "2026-07-23T03:42:52.354Z",
+        "fetchedAt": "2026-08-08T13:05:35.233Z",
         "priority": 1
       },
       "confidence": "low",
@@ -656,7 +656,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/5202",
         "kind": "official-bulletin-api",
         "recordId": "5202",
-        "fetchedAt": "2026-07-23T03:42:52.595Z",
+        "fetchedAt": "2026-08-08T13:05:35.433Z",
         "priority": 1
       },
       "confidence": "low",
@@ -665,6 +665,30 @@
       "needs_review": true,
       "image": null,
       "description": "Join the discussion for a chance to win Oroberyl×500! Amid an endless chase of fire and carnage, this time, the Expunger of Sin walks alone no more. Camille is accustomed to concealing his emotions behind an aloof, stone-cold facade, yet…"
+    },
+    {
+      "game": "endfield",
+      "id": "endfield-gryphline-bulletin-e3a343c8f6c4",
+      "title": "[Good Morning from Your Dawnstar] Chartered Headhunting",
+      "type": "banner",
+      "start": null,
+      "end": null,
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Arknights: Endfield Official",
+        "url": "https://endfield.gryphline.com/en-us/news/3831",
+        "kind": "official-bulletin-api",
+        "recordId": "3831",
+        "fetchedAt": "2026-08-08T13:05:34.647Z",
+        "priority": 1
+      },
+      "confidence": "low",
+      "scheduleStatus": "expected",
+      "permanence": "unknown",
+      "needs_review": true,
+      "image": null,
+      "description": "Dear Endministrator, During [Good Morning from Your Dawnstar] Chartered Headhunting, the 6★ operator [Liino] is Rate-UP! The [Bedazzling Dawnstar] limited-time sign-in event will open simultaneously. Accumulate sign-ins to earn rewards…"
     },
     {
       "game": "endfield",
@@ -680,7 +704,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/1332",
         "kind": "official-bulletin-api",
         "recordId": "1332",
-        "fetchedAt": "2026-07-23T03:42:59.380Z",
+        "fetchedAt": "2026-08-08T13:05:41.067Z",
         "priority": 1
       },
       "confidence": "low",
@@ -704,7 +728,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/4492",
         "kind": "official-bulletin-api",
         "recordId": "4492",
-        "fetchedAt": "2026-07-23T03:42:54.283Z",
+        "fetchedAt": "2026-08-08T13:05:36.811Z",
         "priority": 1
       },
       "confidence": "low",
@@ -713,6 +737,30 @@
       "needs_review": true,
       "image": null,
       "description": "Dear Endministrator, While [Scarlet Knot Issue] is available, the chance of getting the 6★ weapon [Amaranthine Tassel (Greatsword)] is increased! ▼// [Scarlet Knot Issue] · Availability: Opens after [Sketches of Lost Heirlooms] version…"
+    },
+    {
+      "game": "endfield",
+      "id": "endfield-gryphline-bulletin-f51bae0ee862",
+      "title": "[Bedazzled Issue] LTO Details",
+      "type": "event",
+      "start": null,
+      "end": null,
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Arknights: Endfield Official",
+        "url": "https://endfield.gryphline.com/en-us/news/9564",
+        "kind": "official-bulletin-api",
+        "recordId": "9564",
+        "fetchedAt": "2026-08-08T13:05:35.038Z",
+        "priority": 1
+      },
+      "confidence": "low",
+      "scheduleStatus": "expected",
+      "permanence": "unknown",
+      "needs_review": true,
+      "image": null,
+      "description": "Dear Endministrator, While [Bedazzled Issue] is available, the chance of getting the 6★ weapon [Bedazzling Night Debut (Polearm)] is increased! ▼// [Bedazzled Issue] · Availability: Opens Aug. 9, 2026 at 12:00 (server time); ends after 3…"
     },
     {
       "game": "endfield",
@@ -728,7 +776,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/5213",
         "kind": "official-bulletin-api",
         "recordId": "5213",
-        "fetchedAt": "2026-07-23T03:42:57.186Z",
+        "fetchedAt": "2026-08-08T13:05:39.240Z",
         "priority": 1
       },
       "confidence": "low",

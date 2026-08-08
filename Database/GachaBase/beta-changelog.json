@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T06:44:13.257Z",
+  "generatedAt": "2026-08-08T06:06:08.181Z",
   "source": "GachaBase beta changelog",
   "games": {
     "zzz": {
@@ -7,7 +7,7 @@
       "label": "Zenless Zone Zero",
       "source": "GachaBase beta changelog",
       "sourceUrl": "https://zzz.gachabase.net/changelog/beta?lang=en",
-      "scrapedAt": "2026-08-07T06:44:12.605Z",
+      "scrapedAt": "2026-08-08T06:06:07.442Z",
       "title": "Changelog - v3.2.X | Zenless Zone Zero | Gachabase",
       "categoryLinks": [
         {
@@ -92,39 +92,404 @@
         },
         {
           "type": "agents",
-          "href": "https://zzz.gachabase.net/agents/1611/claret/beta?lang=en",
+          "href": "https://zzz.gachabase.net/agents/1611/1611/beta?lang=en",
           "text": "Claret"
         },
         {
           "type": "agents",
-          "href": "https://zzz.gachabase.net/agents/1031/1031/beta?lang=en",
-          "text": "..."
+          "href": "https://zzz.gachabase.net/agents/1591/sigrid/beta?lang=en",
+          "text": "Sigrid"
         },
         {
           "type": "agents",
-          "href": "https://zzz.gachabase.net/agents/1021/1021/beta?lang=en",
-          "text": "..."
+          "href": "https://zzz.gachabase.net/agents/1581/remielle/beta?lang=en",
+          "text": "Remielle"
+        },
+        {
+          "type": "agents",
+          "href": "https://zzz.gachabase.net/agents/1571/norma/beta?lang=en",
+          "text": "Norma"
+        },
+        {
+          "type": "agents",
+          "href": "https://zzz.gachabase.net/agents/1561/velina/beta?lang=en",
+          "text": "Velina"
+        },
+        {
+          "type": "agents",
+          "href": "https://zzz.gachabase.net/agents/1551/pyrois/beta?lang=en",
+          "text": "Pyrois"
+        },
+        {
+          "type": "agents",
+          "href": "https://zzz.gachabase.net/agents/1541/promeia/beta?lang=en",
+          "text": "Promeia"
+        },
+        {
+          "type": "agents",
+          "href": "https://zzz.gachabase.net/agents/1531/starlight-billy/beta?lang=en",
+          "text": "Starlight - Billy"
+        },
+        {
+          "type": "agents",
+          "href": "https://zzz.gachabase.net/agents/1521/cissia/beta?lang=en",
+          "text": "Cissia"
+        },
+        {
+          "type": "agents",
+          "href": "https://zzz.gachabase.net/agents/1511/nangong-yu/beta?lang=en",
+          "text": "Nangong Yu"
+        },
+        {
+          "type": "agents",
+          "href": "https://zzz.gachabase.net/agents/1501/aria/beta?lang=en",
+          "text": "Aria"
+        },
+        {
+          "type": "agents",
+          "href": "https://zzz.gachabase.net/agents/1491/sunna/beta?lang=en",
+          "text": "Sunna"
+        },
+        {
+          "type": "agents",
+          "href": "https://zzz.gachabase.net/agents/1481/dialyn/beta?lang=en",
+          "text": "Dialyn"
+        },
+        {
+          "type": "agents",
+          "href": "https://zzz.gachabase.net/agents/1471/banyue/beta?lang=en",
+          "text": "Banyue"
+        },
+        {
+          "type": "agents",
+          "href": "https://zzz.gachabase.net/agents/1461/seed/beta?lang=en",
+          "text": "Seed"
+        },
+        {
+          "type": "agents",
+          "href": "https://zzz.gachabase.net/agents/1451/lucia/beta?lang=en",
+          "text": "Lucia"
+        },
+        {
+          "type": "agents",
+          "href": "https://zzz.gachabase.net/agents/1441/manato/beta?lang=en",
+          "text": "Manato"
+        },
+        {
+          "type": "agents",
+          "href": "https://zzz.gachabase.net/agents/1431/ye-shunguang/beta?lang=en",
+          "text": "Ye Shunguang"
+        },
+        {
+          "type": "agents",
+          "href": "https://zzz.gachabase.net/agents/1421/pan-yinhu/beta?lang=en",
+          "text": "Pan Yinhu"
+        },
+        {
+          "type": "agents",
+          "href": "https://zzz.gachabase.net/agents/1411/yuzuha/beta?lang=en",
+          "text": "Yuzuha"
+        },
+        {
+          "type": "agents",
+          "href": "https://zzz.gachabase.net/agents/1401/alice/beta?lang=en",
+          "text": "Alice"
+        },
+        {
+          "type": "agents",
+          "href": "https://zzz.gachabase.net/agents/1391/ju-fufu/beta?lang=en",
+          "text": "Ju Fufu"
+        },
+        {
+          "type": "agents",
+          "href": "https://zzz.gachabase.net/agents/1381/soldier-0-anby/beta?lang=en",
+          "text": "Soldier 0 - Anby"
+        },
+        {
+          "type": "agents",
+          "href": "https://zzz.gachabase.net/agents/1371/yixuan/beta?lang=en",
+          "text": "Yixuan"
+        },
+        {
+          "type": "agents",
+          "href": "https://zzz.gachabase.net/agents/1361/trigger/beta?lang=en",
+          "text": "Trigger"
+        },
+        {
+          "type": "agents",
+          "href": "https://zzz.gachabase.net/agents/1351/pulchra/beta?lang=en",
+          "text": "Pulchra"
+        },
+        {
+          "type": "agents",
+          "href": "https://zzz.gachabase.net/agents/1341/zhao/beta?lang=en",
+          "text": "Zhao"
+        },
+        {
+          "type": "agents",
+          "href": "https://zzz.gachabase.net/agents/1331/vivian/beta?lang=en",
+          "text": "Vivian"
+        },
+        {
+          "type": "agents",
+          "href": "https://zzz.gachabase.net/agents/1321/evelyn/beta?lang=en",
+          "text": "Evelyn"
+        },
+        {
+          "type": "agents",
+          "href": "https://zzz.gachabase.net/agents/1311/astra-yao/beta?lang=en",
+          "text": "Astra Yao"
+        },
+        {
+          "type": "agents",
+          "href": "https://zzz.gachabase.net/agents/1301/orphie-magus/beta?lang=en",
+          "text": "Orphie & Magus"
+        },
+        {
+          "type": "agents",
+          "href": "https://zzz.gachabase.net/agents/1291/hugo/beta?lang=en",
+          "text": "Hugo"
+        },
+        {
+          "type": "agents",
+          "href": "https://zzz.gachabase.net/agents/1281/piper/beta?lang=en",
+          "text": "Piper"
+        },
+        {
+          "type": "agents",
+          "href": "https://zzz.gachabase.net/agents/1271/seth/beta?lang=en",
+          "text": "Seth"
+        },
+        {
+          "type": "agents",
+          "href": "https://zzz.gachabase.net/agents/1261/jane/beta?lang=en",
+          "text": "Jane"
+        },
+        {
+          "type": "agents",
+          "href": "https://zzz.gachabase.net/agents/1251/qingyi/beta?lang=en",
+          "text": "Qingyi"
+        },
+        {
+          "type": "agents",
+          "href": "https://zzz.gachabase.net/agents/1241/zhu-yuan/beta?lang=en",
+          "text": "Zhu Yuan"
+        },
+        {
+          "type": "agents",
+          "href": "https://zzz.gachabase.net/agents/1221/yanagi/beta?lang=en",
+          "text": "Yanagi"
+        },
+        {
+          "type": "agents",
+          "href": "https://zzz.gachabase.net/agents/1211/rina/beta?lang=en",
+          "text": "Rina"
+        },
+        {
+          "type": "agents",
+          "href": "https://zzz.gachabase.net/agents/1201/harumasa/beta?lang=en",
+          "text": "Harumasa"
+        },
+        {
+          "type": "agents",
+          "href": "https://zzz.gachabase.net/agents/1191/ellen/beta?lang=en",
+          "text": "Ellen"
+        },
+        {
+          "type": "agents",
+          "href": "https://zzz.gachabase.net/agents/1181/grace/beta?lang=en",
+          "text": "Grace"
+        },
+        {
+          "type": "agents",
+          "href": "https://zzz.gachabase.net/agents/1171/burnice/beta?lang=en",
+          "text": "Burnice"
+        },
+        {
+          "type": "agents",
+          "href": "https://zzz.gachabase.net/agents/1161/lighter/beta?lang=en",
+          "text": "Lighter"
+        },
+        {
+          "type": "agents",
+          "href": "https://zzz.gachabase.net/agents/1151/lucy/beta?lang=en",
+          "text": "Lucy"
+        },
+        {
+          "type": "agents",
+          "href": "https://zzz.gachabase.net/agents/1141/lycaon/beta?lang=en",
+          "text": "Lycaon"
+        },
+        {
+          "type": "agents",
+          "href": "https://zzz.gachabase.net/agents/1131/soukaku/beta?lang=en",
+          "text": "Soukaku"
+        },
+        {
+          "type": "agents",
+          "href": "https://zzz.gachabase.net/agents/1121/ben/beta?lang=en",
+          "text": "Ben"
+        },
+        {
+          "type": "agents",
+          "href": "https://zzz.gachabase.net/agents/1111/anton/beta?lang=en",
+          "text": "Anton"
+        },
+        {
+          "type": "agents",
+          "href": "https://zzz.gachabase.net/agents/1101/koleda/beta?lang=en",
+          "text": "Koleda"
+        },
+        {
+          "type": "agents",
+          "href": "https://zzz.gachabase.net/agents/1091/miyabi/beta?lang=en",
+          "text": "Miyabi"
+        },
+        {
+          "type": "agents",
+          "href": "https://zzz.gachabase.net/agents/1081/billy/beta?lang=en",
+          "text": "Billy"
+        },
+        {
+          "type": "agents",
+          "href": "https://zzz.gachabase.net/agents/1071/caesar/beta?lang=en",
+          "text": "Caesar"
+        },
+        {
+          "type": "agents",
+          "href": "https://zzz.gachabase.net/agents/1061/corin/beta?lang=en",
+          "text": "Corin"
+        },
+        {
+          "type": "agents",
+          "href": "https://zzz.gachabase.net/agents/1051/yidhari/beta?lang=en",
+          "text": "Yidhari"
+        },
+        {
+          "type": "agents",
+          "href": "https://zzz.gachabase.net/agents/1041/soldier-11/beta?lang=en",
+          "text": "Soldier 11"
+        },
+        {
+          "type": "agents",
+          "href": "https://zzz.gachabase.net/agents/1031/nicole/beta?lang=en",
+          "text": "Nicole"
+        },
+        {
+          "type": "agents",
+          "href": "https://zzz.gachabase.net/agents/1021/nekomata/beta?lang=en",
+          "text": "Nekomata"
+        },
+        {
+          "type": "agents",
+          "href": "https://zzz.gachabase.net/agents/1011/anby/beta?lang=en",
+          "text": "Anby"
         },
         {
           "type": "w-engines",
           "href": "https://zzz.gachabase.net/w-engines/14162/14162/beta?lang=en",
           "text": "..."
+        },
+        {
+          "type": "w-engines",
+          "href": "https://zzz.gachabase.net/w-engines/14161/crimson-thirst/beta?lang=en",
+          "text": "Crimson Thirst"
+        },
+        {
+          "type": "w-engines",
+          "href": "https://zzz.gachabase.net/w-engines/13021/bloodmarrow-coffer/beta?lang=en",
+          "text": "Bloodmarrow Coffer"
+        },
+        {
+          "type": "w-engines",
+          "href": "https://zzz.gachabase.net/w-engines/13017/catty-luck/beta?lang=en",
+          "text": "Catty Luck"
+        },
+        {
+          "type": "w-engines",
+          "href": "https://zzz.gachabase.net/w-engines/12016/lunar-semiluna/beta?lang=en",
+          "text": "[Lunar] Semiluna"
         }
       ],
       "counts": {
-        "entries": 47,
+        "entries": 52,
         "byType": {
-          "agents": 28,
-          "w-engines": 14,
+          "agents": 32,
+          "w-engines": 15,
           "bangboo": 1,
           "drive-discs": 4
         },
         "byStatus": {
-          "updated": 44,
+          "updated": 49,
           "new": 3
         }
       },
       "entries": [
+        {
+          "game": "zzz",
+          "type": "agents",
+          "id": "1021",
+          "rarity": null,
+          "name": "...",
+          "iconHash": "dc36ffad7092e2295bf5421a10edf8e0",
+          "status": "updated",
+          "href": "https://zzz.gachabase.net/agents/1021/1021/beta/3.2.1/17934514",
+          "diff": "https://zzz.gachabase.net/diff/agents/1021/1021?prev=beta_3.2.1_17919471&cur=beta_3.2.1_17934514",
+          "betaVersion": "3.2.1",
+          "revision": "17934514"
+        },
+        {
+          "game": "zzz",
+          "type": "agents",
+          "id": "1031",
+          "rarity": null,
+          "name": "...",
+          "iconHash": "1075e65fd4b65c9ef5b0697481d96af5",
+          "status": "updated",
+          "href": "https://zzz.gachabase.net/agents/1031/1031/beta/3.2.1/17934514",
+          "diff": "https://zzz.gachabase.net/diff/agents/1031/1031?prev=beta_3.2.1_17919471&cur=beta_3.2.1_17934514",
+          "betaVersion": "3.2.1",
+          "revision": "17934514"
+        },
+        {
+          "game": "zzz",
+          "type": "agents",
+          "id": "1611",
+          "rarity": null,
+          "name": "Claret",
+          "iconHash": "cf345b3bca07e2dfc2c1381f15c012bd",
+          "status": "updated",
+          "href": "https://zzz.gachabase.net/agents/1611/claret/beta/3.2.1/17934514",
+          "diff": "https://zzz.gachabase.net/diff/agents/1611/claret?prev=beta_3.2.1_17919471&cur=beta_3.2.1_17934514",
+          "betaVersion": "3.2.1",
+          "revision": "17934514"
+        },
+        {
+          "game": "zzz",
+          "type": "agents",
+          "id": "1621",
+          "rarity": null,
+          "name": "Pryce",
+          "iconHash": "cf345b3bca07e2dfc2c1381f15c012bd",
+          "status": "updated",
+          "href": "https://zzz.gachabase.net/agents/1621/1621/beta/3.2.1/17934514",
+          "diff": "https://zzz.gachabase.net/diff/agents/1621/1621?prev=beta_3.2.1_17919471&cur=beta_3.2.1_17934514",
+          "betaVersion": "3.2.1",
+          "revision": "17934514"
+        },
+        {
+          "game": "zzz",
+          "type": "w-engines",
+          "id": "14162",
+          "rarity": null,
+          "name": "...",
+          "iconHash": "d9b01b6fd82d507d866137a816f83ba9",
+          "status": "updated",
+          "href": "https://zzz.gachabase.net/w-engines/14162/14162/beta/3.2.1/17934514",
+          "diff": "https://zzz.gachabase.net/diff/w-engines/14162/14162?prev=beta_3.2.1_17919471&cur=beta_3.2.1_17934514",
+          "betaVersion": "3.2.1",
+          "revision": "17934514"
+        },
         {
           "game": "zzz",
           "type": "agents",
@@ -740,7 +1105,7 @@
       "label": "Honkai: Star Rail",
       "source": "GachaBase beta changelog",
       "sourceUrl": "https://hsr.gachabase.net/changelog/beta?lang=en",
-      "scrapedAt": "2026-08-07T06:44:12.915Z",
+      "scrapedAt": "2026-08-08T06:06:07.819Z",
       "title": "Changelog - v4.4.5X | Honkai: Star Rail | Gachabase",
       "categoryLinks": [
         {
@@ -869,34 +1234,63 @@
           "text": "Currency Wars"
         },
         {
-          "type": "characters",
-          "href": "https://hsr.gachabase.net/characters/1513/aventurine-waveflair/beta?lang=en",
-          "text": "Aventurine • Waveflair"
-        },
-        {
-          "type": "characters",
-          "href": "https://hsr.gachabase.net/characters/1512/robin-summeretto/beta?lang=en",
-          "text": "Robin • Summeretto"
-        },
-        {
           "type": "lightcones",
-          "href": "https://hsr.gachabase.net/lightcones/23064/summer-rides-the-surf/beta?lang=en",
-          "text": "Summer Rides the Surf"
+          "href": "https://hsr.gachabase.net/lightcones/23061/flickering-stars/beta?lang=en",
+          "text": "Flickering Stars"
         }
       ],
       "counts": {
-        "entries": 34,
+        "entries": 37,
         "byType": {
-          "characters": 24,
-          "lightcones": 9,
+          "characters": 26,
+          "lightcones": 10,
           "planar-ornaments": 1
         },
         "byStatus": {
-          "updated": 28,
+          "updated": 31,
           "new": 6
         }
       },
       "entries": [
+        {
+          "game": "hsr",
+          "type": "characters",
+          "id": "1512",
+          "rarity": 5,
+          "name": "Robin • Summeretto",
+          "iconHash": "98bcc901782bee57cb5907f354f0c2d5",
+          "status": "updated",
+          "href": "https://hsr.gachabase.net/characters/1512/robin-summeretto/beta/4.4.55/16024881",
+          "diff": "https://hsr.gachabase.net/diff/characters/1512/robin-summeretto?prev=beta_4.4.54_15953205&cur=beta_4.4.55_16024881",
+          "betaVersion": "4.4.55",
+          "revision": "16024881"
+        },
+        {
+          "game": "hsr",
+          "type": "characters",
+          "id": "1513",
+          "rarity": 5,
+          "name": "Aventurine • Waveflair",
+          "iconHash": "ee8b70b0f687f57d94af6326219b2ca5",
+          "status": "updated",
+          "href": "https://hsr.gachabase.net/characters/1513/aventurine-waveflair/beta/4.4.55/16024881",
+          "diff": "https://hsr.gachabase.net/diff/characters/1513/aventurine-waveflair?prev=beta_4.4.54_15953205&cur=beta_4.4.55_16024881",
+          "betaVersion": "4.4.55",
+          "revision": "16024881"
+        },
+        {
+          "game": "hsr",
+          "type": "lightcones",
+          "id": "23064",
+          "rarity": 5,
+          "name": "Summer Rides the Surf",
+          "iconHash": "665cfbbe94d6df9985c5ea5f32d62e70",
+          "status": "updated",
+          "href": "https://hsr.gachabase.net/lightcones/23064/summer-rides-the-surf/beta/4.4.55/16024881",
+          "diff": "https://hsr.gachabase.net/diff/lightcones/23064/summer-rides-the-surf?prev=beta_4.4.54_15953205&cur=beta_4.4.55_16024881",
+          "betaVersion": "4.4.55",
+          "revision": "16024881"
+        },
         {
           "game": "hsr",
           "type": "characters",
@@ -1340,7 +1734,7 @@
       "label": "Genshin Impact",
       "source": "GachaBase beta changelog",
       "sourceUrl": "https://gi.gachabase.net/changelog/beta?lang=en",
-      "scrapedAt": "2026-08-07T06:44:13.055Z",
+      "scrapedAt": "2026-08-08T06:06:07.923Z",
       "title": "Changelog - v6.7.5X | Genshin Impact | Gachabase",
       "categoryLinks": [
         {
@@ -2312,29 +2706,94 @@
     }
   },
   "counts": {
-    "entries": 146,
+    "entries": 154,
     "byGame": {
-      "zzz": 47,
-      "hsr": 34,
+      "zzz": 52,
+      "hsr": 37,
       "gi": 65
     },
     "byType": {
-      "zzz:agents": 28,
-      "zzz:w-engines": 14,
+      "zzz:agents": 32,
+      "zzz:w-engines": 15,
       "zzz:bangboo": 1,
       "zzz:drive-discs": 4,
-      "hsr:characters": 24,
-      "hsr:lightcones": 9,
+      "hsr:characters": 26,
+      "hsr:lightcones": 10,
       "hsr:planar-ornaments": 1,
       "gi:weapons": 54,
       "gi:artifacts": 11
     },
     "byStatus": {
-      "updated": 124,
+      "updated": 132,
       "new": 22
     }
   },
   "entries": [
+    {
+      "game": "zzz",
+      "type": "agents",
+      "id": "1021",
+      "rarity": null,
+      "name": "...",
+      "iconHash": "dc36ffad7092e2295bf5421a10edf8e0",
+      "status": "updated",
+      "href": "https://zzz.gachabase.net/agents/1021/1021/beta/3.2.1/17934514",
+      "diff": "https://zzz.gachabase.net/diff/agents/1021/1021?prev=beta_3.2.1_17919471&cur=beta_3.2.1_17934514",
+      "betaVersion": "3.2.1",
+      "revision": "17934514"
+    },
+    {
+      "game": "zzz",
+      "type": "agents",
+      "id": "1031",
+      "rarity": null,
+      "name": "...",
+      "iconHash": "1075e65fd4b65c9ef5b0697481d96af5",
+      "status": "updated",
+      "href": "https://zzz.gachabase.net/agents/1031/1031/beta/3.2.1/17934514",
+      "diff": "https://zzz.gachabase.net/diff/agents/1031/1031?prev=beta_3.2.1_17919471&cur=beta_3.2.1_17934514",
+      "betaVersion": "3.2.1",
+      "revision": "17934514"
+    },
+    {
+      "game": "zzz",
+      "type": "agents",
+      "id": "1611",
+      "rarity": null,
+      "name": "Claret",
+      "iconHash": "cf345b3bca07e2dfc2c1381f15c012bd",
+      "status": "updated",
+      "href": "https://zzz.gachabase.net/agents/1611/claret/beta/3.2.1/17934514",
+      "diff": "https://zzz.gachabase.net/diff/agents/1611/claret?prev=beta_3.2.1_17919471&cur=beta_3.2.1_17934514",
+      "betaVersion": "3.2.1",
+      "revision": "17934514"
+    },
+    {
+      "game": "zzz",
+      "type": "agents",
+      "id": "1621",
+      "rarity": null,
+      "name": "Pryce",
+      "iconHash": "cf345b3bca07e2dfc2c1381f15c012bd",
+      "status": "updated",
+      "href": "https://zzz.gachabase.net/agents/1621/1621/beta/3.2.1/17934514",
+      "diff": "https://zzz.gachabase.net/diff/agents/1621/1621?prev=beta_3.2.1_17919471&cur=beta_3.2.1_17934514",
+      "betaVersion": "3.2.1",
+      "revision": "17934514"
+    },
+    {
+      "game": "zzz",
+      "type": "w-engines",
+      "id": "14162",
+      "rarity": null,
+      "name": "...",
+      "iconHash": "d9b01b6fd82d507d866137a816f83ba9",
+      "status": "updated",
+      "href": "https://zzz.gachabase.net/w-engines/14162/14162/beta/3.2.1/17934514",
+      "diff": "https://zzz.gachabase.net/diff/w-engines/14162/14162?prev=beta_3.2.1_17919471&cur=beta_3.2.1_17934514",
+      "betaVersion": "3.2.1",
+      "revision": "17934514"
+    },
     {
       "game": "zzz",
       "type": "agents",
@@ -2942,6 +3401,45 @@
       "diff": "https://zzz.gachabase.net/diff/drive-discs/34200/thorned-rose?prev=beta_3.1.5_17516165&cur=beta_3.2.0_17749587",
       "betaVersion": "3.2.0",
       "revision": "17749587"
+    },
+    {
+      "game": "hsr",
+      "type": "characters",
+      "id": "1512",
+      "rarity": 5,
+      "name": "Robin • Summeretto",
+      "iconHash": "98bcc901782bee57cb5907f354f0c2d5",
+      "status": "updated",
+      "href": "https://hsr.gachabase.net/characters/1512/robin-summeretto/beta/4.4.55/16024881",
+      "diff": "https://hsr.gachabase.net/diff/characters/1512/robin-summeretto?prev=beta_4.4.54_15953205&cur=beta_4.4.55_16024881",
+      "betaVersion": "4.4.55",
+      "revision": "16024881"
+    },
+    {
+      "game": "hsr",
+      "type": "characters",
+      "id": "1513",
+      "rarity": 5,
+      "name": "Aventurine • Waveflair",
+      "iconHash": "ee8b70b0f687f57d94af6326219b2ca5",
+      "status": "updated",
+      "href": "https://hsr.gachabase.net/characters/1513/aventurine-waveflair/beta/4.4.55/16024881",
+      "diff": "https://hsr.gachabase.net/diff/characters/1513/aventurine-waveflair?prev=beta_4.4.54_15953205&cur=beta_4.4.55_16024881",
+      "betaVersion": "4.4.55",
+      "revision": "16024881"
+    },
+    {
+      "game": "hsr",
+      "type": "lightcones",
+      "id": "23064",
+      "rarity": 5,
+      "name": "Summer Rides the Surf",
+      "iconHash": "665cfbbe94d6df9985c5ea5f32d62e70",
+      "status": "updated",
+      "href": "https://hsr.gachabase.net/lightcones/23064/summer-rides-the-surf/beta/4.4.55/16024881",
+      "diff": "https://hsr.gachabase.net/diff/lightcones/23064/summer-rides-the-surf?prev=beta_4.4.54_15953205&cur=beta_4.4.55_16024881",
+      "betaVersion": "4.4.55",
+      "revision": "16024881"
     },
     {
       "game": "hsr",

@@ -1,6 +1,6 @@
 {
   "game": "hsr",
-  "updatedAt": "2026-08-07T06:42:32.042Z",
+  "updatedAt": "2026-08-08T06:04:07.817Z",
   "hashes": {
     "records": {
       "characters:acheron": "5f5a3cfc324d66a256cd3fa1325235f828e23d7f1fb208bfcf0590c6e4d25b45",
@@ -19,7 +19,7 @@
       "characters:blade-mortenax": "6aa27f2cae66f644d63230f580f06f0304aa398e82e21a98990f7f771546478b",
       "characters:boothill": "e30c3df5a600538468ef8afb563a54f1b56eae87bb92df1cb3713b9137d73685",
       "characters:bronya": "a7397d0ca0176316848a695bd93f610b0291f5fff0c5f551da66941f066e9a0e",
-      "characters:castorice": "03d3d519fa4bb8de7851e37eb81701241ad09a33a4ec52de084c8b58d88a2db3",
+      "characters:castorice": "c69cb694a9d56d0e62a08f28b5dd55bf9feb52283c494234792f98cf17ae0921",
       "characters:cerydra": "f809c59007de8581605db49600e0ffc1b5b1431e950c12c9fa4b9fdd2c86b0a3",
       "characters:cipher": "5ea01d4393a3ea435289adecfd408e1d05e4181fe17dd261a64727610dba2305",
       "characters:clara": "5c0197d3efb768bc354a9ea8ece572508f57940218616cf4d654ed438e2430d1",
@@ -33,7 +33,7 @@
       "characters:fu-xuan": "496bcd914eb2bddc955dddfc5e3928ba24ab71131721654cce4e4d0a77d5f654",
       "characters:gallagher": "6befda61526730dcb890520b3842d93b5afcbd9f3d349c1c6d39048a0de9a801",
       "characters:gepard": "82e05255fb41a5ec068728385f6f626b2841b90ecfa6a93ee82f1d4192e59291",
-      "characters:gilgamesh": "e8690c086a193a4a706681a7e8740e9db54ebd60c366adfe78b937dc7c620a04",
+      "characters:gilgamesh": "fe694915116bbbdc8b990f4441c51ca927f8fbf6f238b88b0759cbbbbd94d456",
       "characters:guinaifen": "377942fe21c9c61790cb1e023f4cc77973f7f28bdad6bae0e576a04d7ba9b1ff",
       "characters:hanya": "73e060e80f7dd3703edccaa7dd982cf166bcb0ff2d77e91ca9bd343968b1d318",
       "characters:herta": "3a4d5384003eb781c812e941a3de3af75f3f441945e0329cf1ea9160054ab509",
@@ -44,7 +44,7 @@
       "characters:hyacine": "55db487adb13e98aa132de9c55a3446c2ea967f422ea97ed1767d031cb05e8c3",
       "characters:hysilens": "3c2fa63ca5a13aee615fed668c74eda346246758fcc093438801df42c03608d6",
       "characters:imbibitor-lunae": "96a860fc9db9b970fc9e1f42589c90ca92e8e6e95db91449613147e784579c57",
-      "characters:jade": "a2c36cc684420b76dda5decd5108fa4bd6ce3d125fd9eec0b52f5891d85b855b",
+      "characters:jade": "be41540c692bcde0ef0a71ef60e61788585bfa5826389ce925ed4ca7e03f2e72",
       "characters:jiaoqiu": "b61f8f47eff180001cceba41850dde530fa14f1494831b8dcc4ce971f047866d",
       "characters:jing-yuan": "680ddeadc1505e65ed5968d8deba5f5bccb03a0575c8e8b9ca0e7c7358067cac",
       "characters:jingliu": "db0c1f180bff6b5c2e3ab409b69c5a761bed858e66e18446624ed2c44e6834a0",

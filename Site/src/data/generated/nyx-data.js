@@ -4,9 +4,9 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-08-08T04:56:52.568Z",
+  "generatedAt": "2026-08-08T06:07:05.109Z",
   "codes": {
-    "updated": "2026-08-08T00:04:54.177Z",
+    "updated": "2026-08-08T06:06:39.842Z",
     "maxAgeDays": 28,
     "games": {
       "gi": [
@@ -67,20 +67,6 @@ var NYX_DB = {
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=UIVI13C8X156"
         },
         {
-          "code": "Everwinter",
-          "reward": "x100 Primogems and x10 Mystic Enchancement Ore",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Primogems",
-            "needle": "primogem",
-            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
-          },
-          "added": "2026-07-31",
-          "firstSeen": "2026-08-07T07:05:44.231Z",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=Everwinter",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=Everwinter"
-        },
-        {
           "code": "Odettte0812",
           "reward": "x100 Primogems and x50,000 Mora",
           "premium": true,
@@ -93,20 +79,6 @@ var NYX_DB = {
           "firstSeen": "2026-08-01T21:03:08.107Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=Odettte0812",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=Odettte0812"
-        },
-        {
-          "code": "OntoSnezhnaya",
-          "reward": "x100 Primogems and x5 Hero S Wit",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Primogems",
-            "needle": "primogem",
-            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
-          },
-          "added": "2026-07-31",
-          "firstSeen": "2026-08-07T07:05:44.231Z",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=OntoSnezhnaya",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=OntoSnezhnaya"
         }
       ],
       "hsr": [
@@ -441,13 +413,13 @@ var NYX_DB = {
   },
   "banners": {
     "updated": "2026-07-21T16:13:51.549Z",
-    "checkedAt": "2026-08-07T06:44:22.175Z",
+    "checkedAt": "2026-08-08T06:06:20.324Z",
     "games": {
       "hsr": {
         "name": "Honkai: Star Rail",
         "freshness": {
           "status": "stale",
-          "checkedAt": "2026-08-07T06:44:22.175Z",
+          "checkedAt": "2026-08-08T06:06:20.324Z",
           "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
           "lastValidUpdate": "2026-07-21T16:13:51.549Z",
           "source": "game8",
@@ -486,7 +458,7 @@ var NYX_DB = {
         "name": "Genshin Impact",
         "freshness": {
           "status": "stale",
-          "checkedAt": "2026-08-07T06:44:22.175Z",
+          "checkedAt": "2026-08-08T06:06:20.324Z",
           "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
           "lastValidUpdate": "2026-07-21T16:13:51.549Z",
           "source": "game8",
@@ -516,7 +488,7 @@ var NYX_DB = {
         "name": "Wuthering Waves",
         "freshness": {
           "status": "stale",
-          "checkedAt": "2026-08-07T06:44:22.175Z",
+          "checkedAt": "2026-08-08T06:06:20.324Z",
           "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
           "lastValidUpdate": "2026-07-21T16:13:51.549Z",
           "source": "game8",
@@ -573,7 +545,7 @@ var NYX_DB = {
         "name": "Zenless Zone Zero",
         "freshness": {
           "status": "stale",
-          "checkedAt": "2026-08-07T06:44:22.175Z",
+          "checkedAt": "2026-08-08T06:06:20.324Z",
           "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
           "lastValidUpdate": "2026-07-21T16:13:51.549Z",
           "source": "game8",
@@ -646,7 +618,7 @@ var NYX_DB = {
         "name": "Arknights: Endfield",
         "freshness": {
           "status": "stale",
-          "checkedAt": "2026-08-07T06:44:22.175Z",
+          "checkedAt": "2026-08-08T06:06:20.324Z",
           "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
           "lastValidUpdate": "2026-07-21T16:13:51.549Z",
           "source": "game8",
@@ -4441,20 +4413,6 @@ var NYX_DB = {
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=UIVI13C8X156"
         },
         {
-          "code": "Everwinter",
-          "reward": "x100 Primogems and x10 Mystic Enchancement Ore",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Primogems",
-            "needle": "primogem",
-            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
-          },
-          "added": "2026-07-31",
-          "firstSeen": "2026-08-07T07:05:44.231Z",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=Everwinter",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=Everwinter"
-        },
-        {
           "code": "Odettte0812",
           "reward": "x100 Primogems and x50,000 Mora",
           "premium": true,
@@ -4467,27 +4425,13 @@ var NYX_DB = {
           "firstSeen": "2026-08-01T21:03:08.107Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=Odettte0812",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=Odettte0812"
-        },
-        {
-          "code": "OntoSnezhnaya",
-          "reward": "x100 Primogems and x5 Hero S Wit",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Primogems",
-            "needle": "primogem",
-            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
-          },
-          "added": "2026-07-31",
-          "firstSeen": "2026-08-07T07:05:44.231Z",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=OntoSnezhnaya",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=OntoSnezhnaya"
         }
       ],
       "banners": {
         "name": "Genshin Impact",
         "freshness": {
           "status": "stale",
-          "checkedAt": "2026-08-07T06:44:22.175Z",
+          "checkedAt": "2026-08-08T06:06:20.324Z",
           "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
           "lastValidUpdate": "2026-07-21T16:13:51.549Z",
           "source": "game8",
@@ -4514,7 +4458,7 @@ var NYX_DB = {
         "upcoming": []
       },
       "tcg": {
-        "updated": "2026-08-07T08:04:01.814Z",
+        "updated": "2026-08-08T06:06:45.912Z",
         "counts": {
           "characterCards": 106,
           "otherCards": 513
@@ -150987,7 +150931,7 @@ var NYX_DB = {
         "name": "Honkai: Star Rail",
         "freshness": {
           "status": "stale",
-          "checkedAt": "2026-08-07T06:44:22.175Z",
+          "checkedAt": "2026-08-08T06:06:20.324Z",
           "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
           "lastValidUpdate": "2026-07-21T16:13:51.549Z",
           "source": "game8",
@@ -156555,7 +156499,7 @@ var NYX_DB = {
         "name": "Zenless Zone Zero",
         "freshness": {
           "status": "stale",
-          "checkedAt": "2026-08-07T06:44:22.175Z",
+          "checkedAt": "2026-08-08T06:06:20.324Z",
           "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
           "lastValidUpdate": "2026-07-21T16:13:51.549Z",
           "source": "game8",
@@ -161421,7 +161365,7 @@ var NYX_DB = {
         "name": "Wuthering Waves",
         "freshness": {
           "status": "stale",
-          "checkedAt": "2026-08-07T06:44:22.175Z",
+          "checkedAt": "2026-08-08T06:06:20.324Z",
           "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
           "lastValidUpdate": "2026-07-21T16:13:51.549Z",
           "source": "game8",
@@ -166464,7 +166408,7 @@ var NYX_DB = {
         "name": "Arknights: Endfield",
         "freshness": {
           "status": "stale",
-          "checkedAt": "2026-08-07T06:44:22.175Z",
+          "checkedAt": "2026-08-08T06:06:20.324Z",
           "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
           "lastValidUpdate": "2026-07-21T16:13:51.549Z",
           "source": "game8",

@@ -1,13 +1,13 @@
 {
   "provider": "Prydwen",
   "game": "ww",
-  "generatedAt": "2026-08-07T06:42:32.042Z",
+  "generatedAt": "2026-08-08T06:04:07.817Z",
   "summary": {
     "records": {
       "added": 0,
       "removed": 0,
-      "changed": 2,
-      "unchanged": 61
+      "changed": 4,
+      "unchanged": 59
     }
   },
   "sections": {
@@ -18,17 +18,29 @@
         {
           "id": "characters:cantarella",
           "name": "Cantarella",
-          "previousHash": "69af642c6dbdf856cd897940b5351316f678c632e3ff71d679739339c913fe6f",
-          "currentHash": "3ef293cb58117bcb96f337beb2a3df0398006d28a5dbcb7f4c47058807271c21"
+          "previousHash": "3ef293cb58117bcb96f337beb2a3df0398006d28a5dbcb7f4c47058807271c21",
+          "currentHash": "69af642c6dbdf856cd897940b5351316f678c632e3ff71d679739339c913fe6f"
         },
         {
           "id": "characters:jiyan",
           "name": "Jiyan",
-          "previousHash": "3ba47eb9ba7417279da35a3396f22d18dbc15db774b000d1068c7e2c7ea945a8",
-          "currentHash": "8d3648d52506313370f40f6c1c989af2ab9e3390f01be74286e7db12a78fc334"
+          "previousHash": "8d3648d52506313370f40f6c1c989af2ab9e3390f01be74286e7db12a78fc334",
+          "currentHash": "3ba47eb9ba7417279da35a3396f22d18dbc15db774b000d1068c7e2c7ea945a8"
+        },
+        {
+          "id": "characters:taoqi",
+          "name": "Taoqi",
+          "previousHash": "5db322e8195c0d5869bd71e46929d08650fe80259462edcb9d2d134a179fdf05",
+          "currentHash": "cd1aca4b20a98189c747532e9e47f3a1807650e3df59b30b8cd09f763c4eaa55"
+        },
+        {
+          "id": "collection:characters",
+          "name": "Wuthering Waves Characters Build Guides",
+          "previousHash": "973a105f37fcd17199faf21553189f0251d3db00e73c7b84aa3f87f63499a535",
+          "currentHash": "40a9ea3e6b40c34e738a46551231bb3e316e29972a7b2e8fb633a585f6a8069e"
         }
       ],
-      "unchanged": 61,
+      "unchanged": 59,
       "totals": {
         "previous": 63,
         "current": 63

@@ -7,7 +7,7 @@
 (function(){
   window.CM_CFG_BETA = window.CM_CFG_BETA || {};
   window.CM_CFG_BETA["zzz"] = {
-  "version": "3.2.2+18082220",
+  "version": "3.2.2+18088156",
   "liveVersion": "3.1",
   "newCount": 2,
   "changedCount": 1,
@@ -53,7 +53,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "3.2.2+18082220",
+        "version": "3.2.2+18088156",
         "sections": [
           {
             "title": "Skills",
@@ -2755,7 +2755,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "3.2.2+18082220",
+        "version": "3.2.2+18088156",
         "sections": [
           {
             "title": "Skills",
@@ -5393,7 +5393,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "3.2.2+18082220",
+        "version": "3.2.2+18088156",
         "sections": [
           {
             "title": "Skills",

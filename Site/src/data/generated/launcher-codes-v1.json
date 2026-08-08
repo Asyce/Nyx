@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-08T06:06:39.842Z",
+  "generatedAt": "2026-08-08T06:34:13.448Z",
   "games": {
     "gi": [
       {
@@ -13,6 +13,18 @@
         "code": "2BJ64QRZ7RT8",
         "added": "2026-08-07",
         "amount": 60,
+        "currency": "Primogems"
+      },
+      {
+        "code": "Everwinter",
+        "added": "2026-07-31",
+        "amount": 100,
+        "currency": "Primogems"
+      },
+      {
+        "code": "OntoSnezhnaya",
+        "added": "2026-07-31",
+        "amount": 100,
         "currency": "Primogems"
       },
       {
@@ -103,5 +115,5 @@
       }
     ]
   },
-  "revision": "54dda86cc8ad84a8d0c7470537fcdc580498d2f631d0cab4214443790aead577"
+  "revision": "9400e57336e2fa78517ae2693551b6b7d1fe75a3a7e2ae5e83b2d84097d202da"
 }

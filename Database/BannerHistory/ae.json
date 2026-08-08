@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "game": "ae",
-  "generatedAt": "2026-07-17T11:12:11.732Z",
+  "generatedAt": "2026-08-08T19:15:45.477Z",
   "records": [
     {
       "id": "ae:character:Headhunting:expunger-of-sin:2026-06-26t04-00-00-000z",
@@ -61,9 +61,9 @@
       "source": {
         "url": "https://endfield.wiki.gg/wiki/Headhunting/Banners/2026",
         "kind": "maintained-wiki",
-        "revision": 56143
+        "revision": 59799
       },
-      "fetchedAt": "2026-07-17T11:12:12.578Z",
+      "fetchedAt": "2026-08-08T19:15:46.181Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://web-news.gryphline.com/api/bulletin/6175?lang=en-us&code=arknights_endfield_official",
@@ -137,9 +137,9 @@
       "source": {
         "url": "https://endfield.wiki.gg/wiki/Headhunting/Banners/2026",
         "kind": "maintained-wiki",
-        "revision": 56143
+        "revision": 59799
       },
-      "fetchedAt": "2026-07-17T11:12:12.578Z",
+      "fetchedAt": "2026-08-08T19:15:46.182Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://web-news.gryphline.com/api/bulletin/7024?lang=en-us&code=arknights_endfield_official",
@@ -208,9 +208,9 @@
       "source": {
         "url": "https://endfield.wiki.gg/wiki/Headhunting/Banners/2026",
         "kind": "maintained-wiki",
-        "revision": 56143
+        "revision": 59799
       },
-      "fetchedAt": "2026-07-17T11:12:12.578Z",
+      "fetchedAt": "2026-08-08T19:15:46.181Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://web-news.gryphline.com/api/bulletin/0759?lang=en-us&code=arknights_endfield_official",
@@ -260,16 +260,16 @@
       "source": {
         "url": "https://endfield.wiki.gg/wiki/Headhunting/Banners/2026",
         "kind": "maintained-wiki",
-        "revision": 56143
+        "revision": 59799
       },
-      "fetchedAt": "2026-07-17T11:12:12.578Z",
+      "fetchedAt": "2026-08-08T19:15:46.181Z",
       "confirmed": true,
       "officialSource": {
-        "url": "https://web-news.gryphline.com/api/bulletin/5200?lang=en-us&code=arknights_endfield_official",
+        "url": "https://web-news.gryphline.com/api/bulletin/3831?lang=en-us&code=arknights_endfield_official",
         "kind": "official-latest",
-        "revision": "5200"
+        "revision": "3831"
       },
-      "pairSourceUrl": "https://web-news.gryphline.com/api/bulletin/5200?lang=en-us&code=arknights_endfield_official"
+      "pairSourceUrl": "https://web-news.gryphline.com/api/bulletin/9564?lang=en-us&code=arknights_endfield_official"
     },
     {
       "id": "ae:character:Headhunting:hues-of-passion:2026-02-24t04-00-00-000z",
@@ -317,15 +317,71 @@
       "source": {
         "url": "https://endfield.wiki.gg/wiki/Headhunting/Banners/2026",
         "kind": "maintained-wiki",
-        "revision": 56143
+        "revision": 59799
       },
-      "fetchedAt": "2026-07-17T11:12:12.578Z",
+      "fetchedAt": "2026-08-08T19:15:46.182Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://web-news.gryphline.com/api/bulletin/8909?lang=en-us&code=arknights_endfield_official",
         "kind": "official-latest",
         "revision": "8909"
       }
+    },
+    {
+      "id": "ae:character:Headhunting:new-horizons-headhunting:2026-01-22t03-00-00-000z",
+      "game": "ae",
+      "bannerType": "character",
+      "category": "Headhunting",
+      "name": "New Horizons Headhunting",
+      "version": "2026",
+      "windowsByRegion": {
+        "asia": {
+          "start": "2026-01-22T03:00:00.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Headhunting/Banners/2026"
+        }
+      },
+      "permanent": false,
+      "featured": [
+        {
+          "entityType": "character",
+          "name": "Ardelia",
+          "rarity": 6,
+          "primary": false
+        },
+        {
+          "entityType": "character",
+          "name": "Pogranichnik",
+          "rarity": 6,
+          "primary": false
+        },
+        {
+          "entityType": "character",
+          "name": "Last Rite",
+          "rarity": 6,
+          "primary": false
+        },
+        {
+          "entityType": "character",
+          "name": "Ember",
+          "rarity": 6,
+          "primary": false
+        },
+        {
+          "entityType": "character",
+          "name": "Lifeng",
+          "rarity": 6,
+          "primary": false
+        }
+      ],
+      "pairedBannerIds": [],
+      "source": {
+        "url": "https://endfield.wiki.gg/wiki/Headhunting/Banners/2026",
+        "kind": "maintained-wiki",
+        "revision": 59799
+      },
+      "fetchedAt": "2026-08-08T19:15:46.182Z",
+      "confirmed": false
     },
     {
       "id": "ae:character:Headhunting:north-yearns-the-rift-vigile:2026-07-16t04-00-00-000z",
@@ -385,9 +441,9 @@
       "source": {
         "url": "https://endfield.wiki.gg/wiki/Headhunting/Banners/2026",
         "kind": "maintained-wiki",
-        "revision": 56143
+        "revision": 59799
       },
-      "fetchedAt": "2026-07-17T11:12:12.578Z",
+      "fetchedAt": "2026-08-08T19:15:46.181Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://web-news.gryphline.com/api/bulletin/2656?lang=en-us&code=arknights_endfield_official",
@@ -452,9 +508,9 @@
       "source": {
         "url": "https://endfield.wiki.gg/wiki/Headhunting/Banners/2026",
         "kind": "maintained-wiki",
-        "revision": 56143
+        "revision": 59799
       },
-      "fetchedAt": "2026-07-17T11:12:12.578Z",
+      "fetchedAt": "2026-08-08T19:15:46.181Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://web-news.gryphline.com/api/bulletin/1338?lang=en-us&code=arknights_endfield_official",
@@ -520,9 +576,9 @@
       "source": {
         "url": "https://endfield.wiki.gg/wiki/Headhunting/Banners/2026",
         "kind": "maintained-wiki",
-        "revision": 56143
+        "revision": 59799
       },
-      "fetchedAt": "2026-07-17T11:12:12.578Z",
+      "fetchedAt": "2026-08-08T19:15:46.182Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://web-news.gryphline.com/api/bulletin/3847?lang=en-us&code=arknights_endfield_official",
@@ -579,9 +635,9 @@
       "source": {
         "url": "https://endfield.wiki.gg/wiki/Headhunting/Banners/2026",
         "kind": "maintained-wiki",
-        "revision": 56143
+        "revision": 59799
       },
-      "fetchedAt": "2026-07-17T11:12:12.578Z",
+      "fetchedAt": "2026-08-08T19:15:46.182Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://web-news.gryphline.com/api/bulletin/0754?lang=en-us&code=arknights_endfield_official",
@@ -648,9 +704,9 @@
       "source": {
         "url": "https://endfield.wiki.gg/wiki/Headhunting/Banners/2026",
         "kind": "maintained-wiki",
-        "revision": 56143
+        "revision": 59799
       },
-      "fetchedAt": "2026-07-17T11:12:12.578Z",
+      "fetchedAt": "2026-08-08T19:15:46.181Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://web-news.gryphline.com/api/bulletin/9579?lang=en-us&code=arknights_endfield_official",
@@ -706,9 +762,9 @@
       "source": {
         "url": "https://endfield.wiki.gg/wiki/Headhunting/Banners/2026",
         "kind": "maintained-wiki",
-        "revision": 56143
+        "revision": 59799
       },
-      "fetchedAt": "2026-07-17T11:12:12.578Z",
+      "fetchedAt": "2026-08-08T19:15:46.181Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://web-news.gryphline.com/api/bulletin/3843?lang=en-us&code=arknights_endfield_official",
@@ -768,14 +824,14 @@
       "source": {
         "url": "https://endfield.wiki.gg/wiki/Headhunting/Banners/2026",
         "kind": "maintained-wiki",
-        "revision": 56143
+        "revision": 59799
       },
-      "fetchedAt": "2026-07-17T11:12:12.578Z",
+      "fetchedAt": "2026-08-08T19:15:46.182Z",
       "confirmed": true,
       "officialSource": {
-        "url": "https://web-news.gryphline.com/api/bulletin/2656?lang=en-us&code=arknights_endfield_official",
+        "url": "https://web-news.gryphline.com/api/bulletin/3831?lang=en-us&code=arknights_endfield_official",
         "kind": "official-latest",
-        "revision": "2656"
+        "revision": "3831"
       }
     },
     {
@@ -843,16 +899,16 @@
       "source": {
         "url": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026",
         "kind": "maintained-wiki",
-        "revision": 55411
+        "revision": 59792
       },
-      "fetchedAt": "2026-07-17T11:12:12.794Z",
+      "fetchedAt": "2026-08-08T19:15:46.360Z",
       "confirmed": true,
       "officialSource": {
-        "url": "https://web-news.gryphline.com/api/bulletin/5200?lang=en-us&code=arknights_endfield_official",
+        "url": "https://web-news.gryphline.com/api/bulletin/9564?lang=en-us&code=arknights_endfield_official",
         "kind": "official-latest",
-        "revision": "5200"
+        "revision": "9564"
       },
-      "pairSourceUrl": "https://web-news.gryphline.com/api/bulletin/5200?lang=en-us&code=arknights_endfield_official"
+      "pairSourceUrl": "https://web-news.gryphline.com/api/bulletin/9564?lang=en-us&code=arknights_endfield_official"
     },
     {
       "id": "ae:weapon:Arsenal Exchange:budding-anew:2026-03-11t15-00-00-000z",
@@ -918,9 +974,9 @@
       "source": {
         "url": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026",
         "kind": "maintained-wiki",
-        "revision": 55411
+        "revision": 59792
       },
-      "fetchedAt": "2026-07-17T11:12:12.795Z",
+      "fetchedAt": "2026-08-08T19:15:46.361Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://web-news.gryphline.com/api/bulletin/5213?lang=en-us&code=arknights_endfield_official",
@@ -938,6 +994,7 @@
       "windowsByRegion": {
         "asia": {
           "start": "2026-06-26T04:00:00.000Z",
+          "end": "2026-09-01T21:59:59.000Z",
           "timezone": "UTC+08:00",
           "sourceUrl": "https://web-news.gryphline.com/api/bulletin/0758?lang=en-us&code=arknights_endfield_official"
         },
@@ -1003,9 +1060,9 @@
       "source": {
         "url": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026",
         "kind": "maintained-wiki",
-        "revision": 55411
+        "revision": 59792
       },
-      "fetchedAt": "2026-07-17T11:12:12.794Z",
+      "fetchedAt": "2026-08-08T19:15:46.360Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://web-news.gryphline.com/api/bulletin/1321?lang=en-us&code=arknights_endfield_official",
@@ -1078,9 +1135,9 @@
       "source": {
         "url": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026",
         "kind": "maintained-wiki",
-        "revision": 55411
+        "revision": 59792
       },
-      "fetchedAt": "2026-07-17T11:12:12.795Z",
+      "fetchedAt": "2026-08-08T19:15:46.361Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://web-news.gryphline.com/api/bulletin/5212?lang=en-us&code=arknights_endfield_official",
@@ -1154,9 +1211,9 @@
       "source": {
         "url": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026",
         "kind": "maintained-wiki",
-        "revision": 55411
+        "revision": 59792
       },
-      "fetchedAt": "2026-07-17T11:12:12.795Z",
+      "fetchedAt": "2026-08-08T19:15:46.361Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://web-news.gryphline.com/api/bulletin/0754?lang=en-us&code=arknights_endfield_official",
@@ -1229,9 +1286,9 @@
       "source": {
         "url": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026",
         "kind": "maintained-wiki",
-        "revision": 55411
+        "revision": 59792
       },
-      "fetchedAt": "2026-07-17T11:12:12.795Z",
+      "fetchedAt": "2026-08-08T19:15:46.361Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://web-news.gryphline.com/api/bulletin/8909?lang=en-us&code=arknights_endfield_official",
@@ -1304,9 +1361,9 @@
       "source": {
         "url": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026",
         "kind": "maintained-wiki",
-        "revision": 55411
+        "revision": 59792
       },
-      "fetchedAt": "2026-07-17T11:12:12.794Z",
+      "fetchedAt": "2026-08-08T19:15:46.360Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://web-news.gryphline.com/api/bulletin/6174?lang=en-us&code=arknights_endfield_official",
@@ -1325,6 +1382,7 @@
       "windowsByRegion": {
         "asia": {
           "start": "2026-06-05T04:00:00.000Z",
+          "end": "2026-08-09T03:59:59.000Z",
           "timezone": "UTC+08:00",
           "sourceUrl": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026"
         },
@@ -1390,9 +1448,9 @@
       "source": {
         "url": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026",
         "kind": "maintained-wiki",
-        "revision": 55411
+        "revision": 59792
       },
-      "fetchedAt": "2026-07-17T11:12:12.795Z",
+      "fetchedAt": "2026-08-08T19:15:46.360Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://web-news.gryphline.com/api/bulletin/4492?lang=en-us&code=arknights_endfield_official",
@@ -1467,9 +1525,9 @@
       "source": {
         "url": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026",
         "kind": "maintained-wiki",
-        "revision": 55411
+        "revision": 59792
       },
-      "fetchedAt": "2026-07-17T11:12:12.795Z",
+      "fetchedAt": "2026-08-08T19:15:46.361Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://web-news.gryphline.com/api/bulletin/2660?lang=en-us&code=arknights_endfield_official",
@@ -1554,9 +1612,9 @@
       "source": {
         "url": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026",
         "kind": "maintained-wiki",
-        "revision": 55411
+        "revision": 59792
       },
-      "fetchedAt": "2026-07-17T11:12:12.795Z",
+      "fetchedAt": "2026-08-08T19:15:46.361Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://web-news.gryphline.com/api/bulletin/2669?lang=en-us&code=arknights_endfield_official",
@@ -1641,9 +1699,9 @@
       "source": {
         "url": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026",
         "kind": "maintained-wiki",
-        "revision": 55411
+        "revision": 59792
       },
-      "fetchedAt": "2026-07-17T11:12:12.795Z",
+      "fetchedAt": "2026-08-08T19:15:46.361Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://web-news.gryphline.com/api/bulletin/5216?lang=en-us&code=arknights_endfield_official",
@@ -1728,9 +1786,9 @@
       "source": {
         "url": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026",
         "kind": "maintained-wiki",
-        "revision": 55411
+        "revision": 59792
       },
-      "fetchedAt": "2026-07-17T11:12:12.795Z",
+      "fetchedAt": "2026-08-08T19:15:46.360Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://web-news.gryphline.com/api/bulletin/5210?lang=en-us&code=arknights_endfield_official",
@@ -1812,9 +1870,9 @@
       "source": {
         "url": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026",
         "kind": "maintained-wiki",
-        "revision": 55411
+        "revision": 59792
       },
-      "fetchedAt": "2026-07-17T11:12:12.795Z",
+      "fetchedAt": "2026-08-08T19:15:46.361Z",
       "confirmed": true
     },
     {
@@ -1890,9 +1948,9 @@
       "source": {
         "url": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026",
         "kind": "maintained-wiki",
-        "revision": 55411
+        "revision": 59792
       },
-      "fetchedAt": "2026-07-17T11:12:12.795Z",
+      "fetchedAt": "2026-08-08T19:15:46.361Z",
       "confirmed": true
     },
     {
@@ -1968,9 +2026,9 @@
       "source": {
         "url": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026",
         "kind": "maintained-wiki",
-        "revision": 55411
+        "revision": 59792
       },
-      "fetchedAt": "2026-07-17T11:12:12.795Z",
+      "fetchedAt": "2026-08-08T19:15:46.361Z",
       "confirmed": true
     },
     {
@@ -2046,9 +2104,9 @@
       "source": {
         "url": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026",
         "kind": "maintained-wiki",
-        "revision": 55411
+        "revision": 59792
       },
-      "fetchedAt": "2026-07-17T11:12:12.795Z",
+      "fetchedAt": "2026-08-08T19:15:46.361Z",
       "confirmed": true
     },
     {
@@ -2124,9 +2182,9 @@
       "source": {
         "url": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026",
         "kind": "maintained-wiki",
-        "revision": 55411
+        "revision": 59792
       },
-      "fetchedAt": "2026-07-17T11:12:12.795Z",
+      "fetchedAt": "2026-08-08T19:15:46.361Z",
       "confirmed": true
     }
   ]

@@ -164,6 +164,11 @@ function nyxTlDetailExcerpt(value){
   var text = String(value || '').replace(/={2,}[^=]+={2,}|〓[^〓]+〓/g, ' ').replace(/\s+/g, ' ').trim();
   return text.length > 240 ? text.slice(0, 237).trimEnd() + '…' : text;
 }
+// The overview card runs the blurb through the shared cleaner first, so the
+// dates it already shows as a countdown are not repeated in the prose.
+function nyxTlCardExcerpt(value){
+  return nyxTlDetailExcerpt(nyxTlCleanEventText(value));
+}
 function nyxTlIsGenshinFeaturedActivity(block){
   return !!(block && /stygian onslaught/i.test(block.title || ''));
 }
@@ -504,6 +509,145 @@ function BannerTimeline({ game, gameName }){
         <div><b>Featured</b><p>{selectedBlock.searchNames.join(', ') || 'No featured names published.'}</p>{selectedBlock.weaponNames.length > 0 && <p><b>Paired weapon:</b> {selectedBlock.weaponNames.join(', ')}</p>}{selectedBlock.sourceUrl && <a href={selectedBlock.sourceUrl} target="_blank" rel="noreferrer">Source</a>}</div>
       </> : <p>Select a banner run or event for its dates and source link.</p>}</div>
     </>}
+  </section>;
+}
+
+// ============================================================
+// Game Overview "Current Events" strip (2026-08-08).
+//
+// The small sibling of Current Banners: what is running in-game right now,
+// then what starts next. Reads the same published /data/events/<game>.json the
+// timeline uses — no second source, no second date parser (dates come from
+// nyxTlCurrentEvents, which resolves the player's server region).
+//
+// Fails silent by design: a missing or broken feed renders nothing rather than
+// putting a warning banner on the overview.
+const NYX_EVENT_TYPE_LABEL = {
+  event:'Event', challenge:'Challenge', login:'Login event',
+  web_event:'Web event', shop:'Shop', permanent:'Permanent',
+};
+
+function nyxEventCardStatus(block, now){
+  if (block.status === 'upcoming') {
+    return { cls:'upcoming', label:'Upcoming', headline:'Starts in ' + nyxTlCountdownLabel(block.startMs - now), pct:null };
+  }
+  var span = Math.max(1, block.endMs - block.startMs);
+  return {
+    cls:'live',
+    label:block.status === 'ongoing' ? 'Ongoing' : 'Live now',
+    headline:block.openEnd ? 'Runs until the next update' : nyxTlCountdownLabel(block.endMs - now) + ' left',
+    pct:block.openEnd ? null : Math.max(0, Math.min(100, Math.round((now - block.startMs) / span * 100))),
+  };
+}
+
+function CurrentEventsStrip({ game, gameName, limit }){
+  var timePreference = nyxTlUseTimePreference(game);
+  var [payload, setPayload] = React.useState({ loading:true, events:[], updated:null, error:null });
+  var [region, setRegion] = React.useState(function(){ return (typeof loadResetRegion === 'function' ? loadResetRegion(game) : 'na'); });
+  var [now, setNow] = React.useState(Date.now());
+  React.useEffect(function(){
+    var controller = new AbortController();
+    setPayload({ loading:true, events:[], updated:null, error:null });
+    fetch('/data/events/' + nyxTlEventsFile(game) + '.json', { signal:controller.signal, credentials:'same-origin' })
+      .then(function(r){ if (!r.ok) throw new Error('Events returned ' + r.status); return r.json(); })
+      .then(function(data){
+        if (!Array.isArray(data.events)) throw new Error('Events feed is invalid');
+        setPayload({ loading:false, events:data.events, updated:data.generatedAt || null, error:null });
+      })
+      .catch(function(error){ if (error.name !== 'AbortError') setPayload({ loading:false, events:[], updated:null, error:error.message || 'Could not load.' }); });
+    return function(){ controller.abort(); };
+  }, [game]);
+  React.useEffect(function(){ setRegion(typeof loadResetRegion === 'function' ? loadResetRegion(game) : 'na'); }, [game]);
+  React.useEffect(function(){ return (typeof subscribeResetRegion === 'function') ? subscribeResetRegion(game, setRegion) : undefined; }, [game]);
+  React.useEffect(function(){ var id = setInterval(function(){ setNow(Date.now()); }, 1000); return function(){ clearInterval(id); }; }, []);
+
+  var cards = React.useMemo(function(){
+    return nyxTlCurrentEvents(payload.events, now, region, Number(limit) || 6);
+    // `now` intentionally excluded: re-selecting every tick would rebuild every
+    // card each second. Status flips settle on the next feed/region change, and
+    // the countdown below reads the live `now` directly.
+  }, [payload.events, region, limit]);
+
+  if (payload.loading || payload.error || !cards.length) return null;
+  return (
+    <section className="gp-current-banners gp-current-events" aria-label={(gameName || 'Game') + ' current events'}>
+      {/* The "Current Events" divider was removed 2026-08-08 at the user's
+          request; only the quiet updated stamp remains. */}
+      {payload.updated && (
+        <div className="gp-current-banners-head gp-events-head">
+          <span>Updated {nyxTlViewDate(Date.parse(payload.updated), true, timePreference, game)}</span>
+        </div>
+      )}
+      <div className="gp-event-grid">
+        {cards.map(function(block){
+          var meta = nyxEventCardStatus(block, now);
+          var excerpt = nyxTlCardExcerpt(block.description);
+          return (
+            <div className="gp-event-cell" key={block.id}>
+              <article className={'gp-oban gp-oev st-' + meta.cls}>
+                {/* An <img> rather than a CSS background so the browser can
+                    skip art for cards scrolled out of this row — announcement
+                    banners are full-size press art, several hundred KB each. */}
+                {block.image && <img className="gp-oev-art" src={block.image} alt="" loading="lazy" decoding="async" draggable="false" />}
+                <div className="gp-oban-shade"></div>
+                <div className="gp-oban-body">
+                  {/* The status pill and the type label were both removed
+                      2026-08-08: the countdown says live vs upcoming, and the
+                      type added nothing the title did not. */}
+                  <h3 className="gp-oev-title" title={block.fullTitle || block.title}>{block.title}</h3>
+                  {excerpt && <p className="gp-oev-text">{excerpt}</p>}
+                  <div className="gp-oban-foot">
+                    <b>{meta.headline}</b>
+                    <span>
+                      {nyxTlViewDate(block.startMs, block.dateOnly, timePreference, game)}
+                      {!block.openEnd && ' – ' + nyxTlViewDate(block.endMs, block.dateOnly, timePreference, game)}
+                    </span>
+                  </div>
+                </div>
+                {/* The "Official notice" text is gone; the card itself is the
+                    link, so the source is still one click away. */}
+                {block.sourceUrl && (
+                  <a className="gp-oev-link" href={block.sourceUrl} target="_blank" rel="noreferrer"
+                     aria-label={'Official notice for ' + block.title}></a>
+                )}
+              </article>
+            </div>
+          );
+        })}
+      </div>
+    </section>
+  );
+}
+
+// ============================================================
+// Hub "Timeline" page — one tab per game, each showing that game's own
+// BannerTimeline (the exact view that used to sit on the game Overview page,
+// moved here 2026-08-08 at the user's request). Nothing about the per-game
+// timeline is forked: the tab bar only swaps which `game` is mounted.
+//
+// The selected game is owned by the router (nyx-app.jsx) so it lives in the
+// URL as /nyx/timeline/<game>, which keeps "Copy view" share links pointing at
+// the right game's axis.
+function NyxGameTimelines({ games, game, onGame }){
+  var list = Array.isArray(games) ? games : [];
+  var current = list.find(function(g){ return g.key === game; }) || list[0];
+  if (!current) return null;
+  return <section className="ntl-gamepage" aria-label="Game timelines">
+    <div className="ntl-gametabs" role="tablist" aria-label="Game">
+      {list.map(function(g){
+        var on = g.key === current.key;
+        return <button type="button" key={g.key} role="tab" id={'ntl-gametab-' + g.key}
+          aria-selected={on ? 'true' : 'false'}
+          aria-controls="ntl-gamepanel"
+          className={'ntl-gametab' + (on ? ' on' : '')}
+          onClick={function(){ if (typeof onGame === 'function') onGame(g.key); }}>
+          {g.icon && <img src={g.icon} alt="" loading="lazy" />}<span>{g.name}</span>
+        </button>;
+      })}
+    </div>
+    <div className="ntl-gamepanel" id="ntl-gamepanel" role="tabpanel" aria-labelledby={'ntl-gametab-' + current.key}>
+      <BannerTimeline key={current.key} game={current.key} gameName={current.name} />
+    </div>
   </section>;
 }
 

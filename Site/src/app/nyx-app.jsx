@@ -471,31 +471,10 @@ function dbBannerGroup(key){
   return (window.NYX_DB && window.NYX_DB.banners && window.NYX_DB.banners.games && window.NYX_DB.banners.games[key]) || dbGame(key)?.banners || null;
 }
 
-function bannerFreshness(key){
-  const group = dbBannerGroup(key);
-  return (group && group.freshness) || null;
-}
-
-const BANNER_FRESH_LABEL = {
-  transition:  'Banner phase transition',
-  stale:       'Banner data may be out of date',
-  invalid:     'Current banner unconfirmed — refreshing',
-  unavailable: 'Banner data unavailable — refreshing',
-};
-
-// Visible stale/incomplete warning. Renders nothing while data is fresh.
-function BannerFreshnessNote({ fresh }){
-  if (!fresh || !fresh.status || fresh.status === 'fresh') return null;
-  const label = BANNER_FRESH_LABEL[fresh.status] || 'Banner data updating';
-  const checked = fresh.checkedAt ? formatUpdated(fresh.checkedAt) : null;
-  return (
-    <div className={'gp-banner-fresh st-' + fresh.status} role="status">
-      <span className="dot" aria-hidden="true"></span>
-      <span className="lbl">{label}</span>
-      {checked && <span className="chk">Last checked {checked}</span>}
-    </div>
-  );
-}
+// The banner staleness warning strip was removed from the overview
+// 2026-08-08 at the user's request. The quiet "Updated <date>" line in the
+// strip header remains the honest signal; the pipeline still records
+// `freshness` in the banner data for tooling.
 
 function shortDuration(ms){
   const abs = Math.abs(ms);
@@ -652,14 +631,27 @@ function phaseUnit(gameCfg, ch, rosterMap, index){
   const rarity = bannerRarityValue(ch.rarity || ch.r || match?.rarity);
   const art = ch.namecard || ch.art || match?.art || ch.imageFallback || ch.image || match?.icon || gameCfg.art;
   const icon = ch.icon || ch.image || ch.imageFallback || match?.icon || art;
+  // The overview's headline card wants the character, not the namecard strip
+  // Genshin cards normally lead with — namecards crop to an abstract blur at
+  // card size, splashes read as a face.
+  const splash = ch.art || match?.art || ch.namecard || ch.imageFallback || ch.image || match?.icon || gameCfg.art;
   return {
     name,
     icon,
     art,
+    splash,
     rarity,
     // Badge only reflects a rarity we actually know (scrape or roster match) —
     // an unknown unit renders without one instead of a guessed "5★".
-    badge:bannerRarityLabel(gameCfg.key, rarity),
+    // Only a below-headline rarity is worth a badge: 5-star is the default
+    // assumption on a banner, a featured 4-star is the exception (user
+    // 2026-08-08).
+    badge:rarity && rarity < bannerFeaturedRank(gameCfg.key) ? bannerRarityLabel(gameCfg.key, rarity) : null,
+    // Build-time facts about the character's banner history: `debut` is their
+    // first ever run, `debutAt` is when they joined. Together they decide who
+    // gets the big splash card on the overview board.
+    debut:ch.debut === true,
+    debutAt:ch.debutAt || null,
     order:index,
   };
 }
@@ -732,7 +724,8 @@ function BannerPhaseCard({ card, now, showGame }){
       <div className="gp-oban-shade"></div>
       <div className="gp-oban-body">
         <div className="gp-oban-top">
-          <span className={'gp-oban-status st-' + meta.cls}>{meta.label}</span>
+          {/* The "Live now" / "Up next" pill was removed 2026-08-08 at the
+              user's request; the countdown in the footer already says it. */}
           {card.phase && <span className="gp-oban-phase">{card.phase}</span>}
           {showGame && card.game && (
             <span className="gp-oban-game">
@@ -752,24 +745,211 @@ function BannerPhaseCard({ card, now, showGame }){
         </div>
         {!!card.others.length && (
           <div className="gp-oban-supports">
-            <span>Also featured</span>
-            <div>
-              {card.others.map((unit) => (
-                <i key={unit.name} title={unit.name}>
-                  {unit.icon && <img src={unit.icon} alt="" draggable="false" />}
-                  <b>{unit.name}</b>
-                </i>
-              ))}
-            </div>
+            {card.others.map((unit) => (
+              <span key={unit.name} className="gp-oban-unit" title={unit.name}>
+                {unit.icon && <img src={unit.icon} alt="" draggable="false" />}
+                <b>{unit.name}</b>
+              </span>
+            ))}
           </div>
         )}
         <div className="gp-oban-foot">
           <b>{when.headline}</b>
           {when.sub && <span>{when.sub}</span>}
-          {when.pct !== null && <i style={{ '--pct':when.pct + '%' }}></i>}
         </div>
       </div>
     </article>
+  );
+}
+
+/* ---- overview banner board (user layout, 2026-08-08) -------------------
+   Five columns across the top of a game Overview: the phase running now
+   (its headline banner, then everything else running alongside), the phase
+   starting next in the same split, and whatever is known after that.
+   Same NYX_DB banner group every other banner surface reads — the board only
+   decides which banner earns the big card. */
+function bannerBoardColumn(cfg, phase, status){
+  if (!phase) return null;
+  const rosterMap = rosterUnitMap(cfg);
+  const rank = bannerFeaturedRank(cfg.key);
+  const all = dedupeByName((phase.characters || []).map((ch, i) => phaseUnit(cfg, ch, rosterMap, i))).filter((unit) => unit.name);
+  const units = all.filter((unit) => !unit.rarity || unit.rarity >= rank);
+  if (!units.length) return null;
+  // Headline order: whoever is debuting, else whoever joined the game most
+  // recently (user 2026-08-08 — a phase pairing a recent character with an
+  // ancient rerun should lead with the recent one), else feed order.
+  const ranked = units.map((unit, index) => ({ unit, index })).sort((left, right) => {
+    if (left.unit.debut !== right.unit.debut) return left.unit.debut ? -1 : 1;
+    const at = (row) => row.unit.debutAt || '';
+    if (at(left) !== at(right)) return at(left) > at(right) ? -1 : 1;
+    return left.index - right.index;
+  }).map((row) => row.unit);
+  // Two characters means two headline cards — there is no "other" to demote.
+  const heroes = units.length === 2 ? ranked.slice(0, 2) : ranked.slice(0, 1);
+  return {
+    status,
+    label:phase.phase || null,
+    start:phase.start ? new Date(phase.start).getTime() : NaN,
+    end:phase.end ? new Date(phase.end).getTime() : NaN,
+    heroes,
+    others:ranked.filter((unit) => !heroes.includes(unit)),
+    // Featured lower-rarity units ride along on the headline card, marked with
+    // their rarity so a 4-star is never mistaken for the banner's draw.
+    support:all.filter((unit) => unit.rarity && unit.rarity < rank),
+  };
+}
+
+function overviewBannerBoard(cfg){
+  const group = dbBannerGroup(cfg.key);
+  if (!group) return { current:null, next:null, later:[] };
+  return {
+    current:bannerBoardColumn(cfg, group.current, 'live'),
+    next:bannerBoardColumn(cfg, group.next, 'next'),
+    later:(group.upcoming || []).map((phase) => bannerBoardColumn(cfg, phase, 'upcoming')).filter(Boolean).slice(0, 3),
+  };
+}
+
+// "6.7 Phase 2" reads as a patch; "Luna VIII" is already a name. Only prefix
+// the ones that are bare numbers, and never show a naked year (some feeds put
+// "2026" in the version field).
+function bannerPhaseHeading(column){
+  const label = column && column.label ? String(column.label).trim() : '';
+  if (!label || /^\d{4}$/.test(label)) return null;
+  return /^\d/.test(label) ? 'Patch ' + label : label;
+}
+
+// A patch runs exactly two phases, and the minor version tops out at .8 before
+// the major rolls over. So the phase after "7.0 Phase 2" is "7.1 Phase 1", not
+// a third phase, and after "7.8 Phase 2" comes "8.0 Phase 1" (user 2026-08-08).
+const BANNER_PHASES_PER_PATCH = 2;
+const BANNER_MAX_MINOR = 8;
+
+function bannerAdvancePhaseLabel(label){
+  const text = String(label || '').trim();
+  const numbered = text.match(/^(\d+)\.(\d+)\s*Phase\s*(\d+)$/i);
+  if (numbered) {
+    const phase = Number(numbered[3]);
+    let major = Number(numbered[1]);
+    let minor = Number(numbered[2]);
+    if (phase < BANNER_PHASES_PER_PATCH) return major + '.' + minor + ' Phase ' + (phase + 1);
+    minor += 1;
+    if (minor > BANNER_MAX_MINOR) { major += 1; minor = 0; }
+    return major + '.' + minor + ' Phase 1';
+  }
+  // A named version ("Luna VIII Phase 1") can still count within its own patch,
+  // but the next version's name is not something to guess.
+  const named = text.match(/^(.*?)\s*Phase\s*(\d+)$/i);
+  if (!named || !named[1]) return null;
+  const phase = Number(named[2]);
+  return phase < BANNER_PHASES_PER_PATCH ? named[1] + ' Phase ' + (phase + 1) : null;
+}
+
+// The phase after next rarely carries a label of its own, so it is counted on
+// from the next one.
+function bannerNextPhaseHeading(later, next){
+  const own = bannerPhaseHeading(later);
+  if (own) return own;
+  const advanced = bannerAdvancePhaseLabel(next && next.label);
+  return advanced ? bannerPhaseHeading({ label:advanced }) : null;
+}
+
+function BannerBoardRow({ unit, status }){
+  return (
+    <div className={'gp-ovb-row st-' + status}>
+      {unit.splash && <div className="gp-ovb-row-art" style={{ backgroundImage:bgUrl(unit.splash) }}></div>}
+      <div className="gp-ovb-row-body">
+        {unit.icon && <img src={unit.icon} alt="" draggable="false" loading="lazy" />}
+        <b title={unit.name}>{unit.name}</b>
+      </div>
+    </div>
+  );
+}
+
+function BannerBoardColumn({ heading, children }){
+  return (
+    <div className="gp-ovb-col">
+      <b className={'gp-ovb-heading' + (heading ? '' : ' is-blank')}>{heading || ' '}</b>
+      <div className="gp-ovb-body">{children}</div>
+    </div>
+  );
+}
+
+function BannerBoardEmpty({ children }){
+  return <div className="gp-ovb-empty">{children || 'Not announced yet'}</div>;
+}
+
+// Endfield only: losing the 50/50 on the limited banner gives you one of the
+// previous banner characters, so those names are a loss pool rather than
+// separate banners running alongside (user 2026-08-08).
+function BannerBoardNote({ title, children }){
+  return (
+    <div className="gp-ovb-note">
+      <b>{title}</b>
+      <span>{children}</span>
+    </div>
+  );
+}
+
+function OverviewBannerBoard({ cfg }){
+  const now = useNowTick(1000);
+  const board = React.useMemo(() => overviewBannerBoard(cfg), [cfg.key]);
+  // The column heading above already names the phase, so the card does not
+  // repeat it — that space belongs to the splash art.
+  const heroCard = (column, hero, index) => ({
+    key:cfg.key + '-' + column.status + '-' + index,
+    game:cfg,
+    status:column.status,
+    phase:null,
+    start:column.start,
+    end:column.end,
+    featured:[hero],
+    // Featured 4-stars ride along under the headline unit.
+    others:index === 0 ? column.support : [],
+    // One art only — a two-entry pool would crossfade the splash against the
+    // namecard every few seconds.
+    artPool:[hero.splash].filter(Boolean),
+  });
+  const heroCards = (column) => (column ? column.heroes.map((hero, index) => heroCard(column, hero, index)) : []);
+  const currentHeroes = heroCards(board.current);
+  const nextHeroes = heroCards(board.next);
+  // Endfield's off-banner characters are the loss pool, not parallel banners.
+  const lossPool = cfg.key === 'ae';
+  const laterUnits = board.later.flatMap((column) => [...column.heroes, ...column.others].map((unit) => ({ unit, label:bannerPhaseHeading(column) })));
+  // A second headline card takes the neighbouring column; otherwise that column
+  // lists whatever else is running in the same phase.
+  const sideColumn = (column, cards, status, emptyText) => {
+    if (cards.length > 1) return <BannerPhaseCard card={cards[1]} now={now} />;
+    if (column && column.others.length) return column.others.map((unit) => <BannerBoardRow key={unit.name} unit={unit} status={status} />);
+    return <BannerBoardEmpty>{emptyText}</BannerBoardEmpty>;
+  };
+  return (
+    <section className="gp-ovb" aria-label="Banner schedule">
+      <BannerBoardColumn heading={bannerPhaseHeading(board.current)}>
+        {currentHeroes.length ? <BannerPhaseCard card={currentHeroes[0]} now={now} /> : <BannerBoardEmpty>No confirmed banner right now.</BannerBoardEmpty>}
+      </BannerBoardColumn>
+      <BannerBoardColumn>
+        {lossPool && board.current && board.current.others.length > 0 && (
+          <BannerBoardNote title="Banner Loss Characters">Previous banners — what a 50/50 loss gives you</BannerBoardNote>
+        )}
+        {sideColumn(board.current, currentHeroes, 'live', 'Nothing else running.')}
+      </BannerBoardColumn>
+      <BannerBoardColumn heading={bannerPhaseHeading(board.next)}>
+        {nextHeroes.length ? <BannerPhaseCard card={nextHeroes[0]} now={now} /> : <BannerBoardEmpty />}
+      </BannerBoardColumn>
+      <BannerBoardColumn>
+        {lossPool && board.next && board.next.others.length > 0 && nextHeroes.length <= 1 && (
+          <BannerBoardNote title="Banner Loss Characters">Previous banners — what a 50/50 loss gives you</BannerBoardNote>
+        )}
+        {sideColumn(board.next, nextHeroes, 'next', undefined)}
+      </BannerBoardColumn>
+      <BannerBoardColumn heading={board.later.length ? bannerNextPhaseHeading(board.later[0], board.next) : null}>
+        {laterUnits.length
+          ? laterUnits.map((row) => (
+              <BannerBoardRow key={(row.label || '') + row.unit.name} unit={row.unit} status="upcoming" />
+            ))
+          : <BannerBoardEmpty />}
+      </BannerBoardColumn>
+    </section>
   );
 }
 
@@ -784,16 +964,16 @@ function CurrentBannerStrip({ cfg }){
       ? SIM_GAMES.flatMap((game) => gameBannerCards(GAME_REGISTRY[game.key], game).filter((c) => c.status === 'live').slice(0, 1))
       : gameBannerCards(cfg)
   ), [cfg.key]);
-  const fresh = isNyx ? null : bannerFreshness(cfg.key);
   const updated = window.NYX_DB && window.NYX_DB.banners && window.NYX_DB.banners.updated;
-  if (!cards.length && !fresh) return null;
+  // The hub strip stays hidden when nothing is live; a game overview keeps the
+  // section so the page never collapses to an empty pane.
+  if (!cards.length && isNyx) return null;
   return (
     <section className="gp-current-banners" aria-label="Current banners">
       <div className="gp-current-banners-head">
         <GPSec title="Current Banners" icon="../assets/decor/orbit_burst.png" className="nyx-u-fill" />
         {updated && <span>Updated {formatUpdated(updated)}</span>}
       </div>
-      <BannerFreshnessNote fresh={fresh} />
       {cards.length
         ? <div className="gp-current-banner-row">
             {cards.map((card) => (
@@ -1082,14 +1262,19 @@ function TimePreferenceControl({ gameKey }){
   const fieldId = 'nyx-time-zone-' + String(gameKey || 'nyx').replace(/[^a-z0-9_-]/gi, '');
   return (
     <div className="nyx-time-pref" ref={rootRef}>
-      <div className="nyx-time-pref-buttons" role="group" aria-label="Server region and display timezone">
-        {['eu','na','asia'].map((key) => (
-          <button type="button" key={key} className={selected === key ? 'on' : ''}
-                  aria-pressed={selected === key} onClick={() => pickRegion(key)}>
-            {RESET_REGIONS[key].short}
-          </button>
-        ))}
-        <button type="button" ref={customButtonRef} className={selected === 'custom' ? 'on' : ''}
+      {/* One segmented pill for the three servers, with Custom set apart as
+          its own control (user 2026-08-08). */}
+      <div className="nyx-time-pref-switch" role="group" aria-label="Server region and display timezone">
+        <div className="nyx-time-pref-regions">
+          {['eu','na','asia'].map((key) => (
+            <button type="button" key={key} className={selected === key ? 'on' : ''}
+                    aria-pressed={selected === key} onClick={() => pickRegion(key)}>
+              {RESET_REGIONS[key].short}
+            </button>
+          ))}
+        </div>
+        <button type="button" ref={customButtonRef}
+                className={'nyx-time-pref-custom' + (selected === 'custom' ? ' on' : '')}
                 aria-pressed={selected === 'custom'} aria-expanded={open}
                 aria-controls={open ? fieldId + '-panel' : undefined} onClick={pickCustom}>
           Custom
@@ -3037,7 +3222,7 @@ function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings, 
   }, [cfg.key]);
   const hasTcg = cfg.key === 'gi';
   const hasLibrary = cfg.key === 'gi' || cfg.key === 'hsr';
-  const hasAchievements = cfg.key === 'gi' || cfg.key === 'hsr';
+  const hasAchievements = Boolean(window.NyxAchievementGames?.supportsTracker(cfg.key));
   const betaActive = cfg.key !== 'ae' && typeof cmHasBeta === 'function' && cmHasBeta(cfg.key) && (cmChannel === 'beta' || window.NYX_ALWAYS_BETA === true);
   React.useEffect(() => {
     if (tab === 'beta' && !betaActive) setTab('mats');
@@ -3071,7 +3256,7 @@ function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings, 
   const sectionKey = (f) => /tracker$/i.test(f) ? 'tracker' : /^(characters|character materials)$/i.test(f) ? 'mats' : 'database';
   const sections = [{ key:'overview', label:'Overview' }, ...visibleFns.map((f) => ({ key:sectionKey(f), label:f })), ...(hasAchievements ? [{ key:'achievements', label:'Achievements' }] : []), ...(hasLibrary ? [{ key:'books', label:'Library' }] : []), ...(betaActive ? [{ key:'beta', label:'Beta' }] : []), { key:'settings', label:'Settings' }];
   return (
-    <div className={'gp-layout' + (tab === 'overview' ? ' has-aside' : '')}>
+    <div className="gp-layout">
       <nav ref={sideNavRef} className="gp-side-nav" aria-label="Tools">
         <GPSectionNavButton active={tab === 'overview'} label="Overview" arrow={false} onActivate={() => setTab('overview')} />
         {visibleFns.map(f => {
@@ -3089,7 +3274,7 @@ function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings, 
           <div className={'gp-fn-row click' + (tab === 'achievements' ? ' on' : '')}
                role="button" tabIndex={0} aria-current={tab === 'achievements' ? 'page' : undefined}
                onClick={() => setTab('achievements')} onKeyDown={navKeyDown(() => setTab('achievements'))}>
-            <span className="dia" aria-hidden="true"></span><span>Achievements</span><span className="go">{'›'}</span>
+            <span className="dia" aria-hidden="true"></span><span>Achievements</span>
           </div>
         )}
         {hasLibrary && (
@@ -3101,9 +3286,28 @@ function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings, 
         <GPSectionNavButton active={tab === 'settings'} label="Settings" onActivate={() => setTab('settings')} />
       </nav>
 
+      {/* Overview board (user layout, 2026-08-08). One full-width grid: the
+          banner columns on top, then events with timers and codes as their own
+          columns. The old right-hand rail is dissolved into this grid, and the
+          server-region control moves to the top-right corner. */}
       {tab === 'overview' && (
         <main className="gp-main-pane gp-overview-main">
-          <BannerTimeline game={cfg.key} gameName={cfg.name} />
+          <div className="gp-ov-region">
+            <TimePreferenceControl gameKey={cfg.key} />
+          </div>
+          <OverviewBannerBoard cfg={cfg} />
+          <div className="gp-ov-lower">
+            <CurrentEventsStrip game={cfg.key} gameName={cfg.name} />
+            <section className="gp-ov-side gp-ov-timers" aria-label="Reset timers">
+              <ResetTimersPanel gameKey={cfg.key} />
+            </section>
+            <section className="gp-ov-side gp-ov-codes" aria-label="Redemption codes">
+              {/* Plain heading: the emblem and trailing rule were removed
+                  2026-08-08 at the user's request. */}
+              <b className="gp-ov-side-title">Redemption Codes</b>
+              <CodesPanel codes={cfg.codes} gameKey={cfg.key} />
+            </section>
+          </div>
         </main>
       )}
       {tab === 'mats' && (
@@ -3154,7 +3358,6 @@ function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings, 
       {tab === 'beta' && betaActive && <BetaDataPanel gameKey={cfg.key} onOpenCharacter={openBetaCharacter} />}
       {tab === 'settings' && <SettingsPane settings={settings} setSettings={setSettings} />}
 
-      {tab === 'overview' && <OverviewAside cfg={cfg} />}
     </div>
   );
 }
@@ -3463,7 +3666,7 @@ function BirthdayCalendar({ onOpenMaterial }){
   );
 }
 
-function SimContent({ tab, setTab, onOpenMaterial, settings, setSettings }){
+function SimContent({ tab, setTab, onOpenMaterial, settings, setSettings, timelineGame, onTimelineGame }){
   const sideNavRef = React.useRef(null);
   React.useEffect(() => {
     const nav = sideNavRef.current;
@@ -3473,6 +3676,7 @@ function SimContent({ tab, setTab, onOpenMaterial, settings, setSettings }){
     { key:'overview', label:'Overview' },
     { key:'characters', label:'Characters' },
     { key:'calendar', label:'Calendar' },
+    { key:'timeline', label:'Timeline' },
     { key:'pulls',    label:'Pull Overview' },
     { key:'codes',    label:'All Redemption Codes' },
     { key:'banners',  label:'All Banners' },
@@ -3493,6 +3697,7 @@ function SimContent({ tab, setTab, onOpenMaterial, settings, setSettings }){
       )}
       {tab === 'characters' && <main className="gp-main-pane fill gp-characters-main"><Favourites key="nyx" cfg={NYX_META} onOpenMaterial={onOpenMaterial} settings={settings} /></main>}
       {tab === 'calendar' && <main className="gp-main-pane fill"><BirthdayCalendar onOpenMaterial={onOpenMaterial} /></main>}
+      {tab === 'timeline' && <main className="gp-main-pane fill"><NyxGameTimelines games={SIM_GAMES} game={timelineGame} onGame={onTimelineGame} /></main>}
       {tab === 'pulls' && <main className="gp-main-pane fill"><PullsOverview /></main>}
       {tab === 'codes' && <main className="gp-main-pane fill"><AllCodesView /></main>}
       {tab === 'banners' && <main className="gp-main-pane fill"><CrossGameBannerTimeline games={SIM_GAMES} /></main>}
@@ -3527,10 +3732,18 @@ const GAME_TAB_TO_ROUTE = {
   beta:'beta',
   settings:'settings',
 };
+// key -> URL segment (the inverse of ROUTE_SEGMENT_TO_KEY); used by the hub
+// Timeline tab so the chosen game shows up as /nyx/timeline/<game>.
+const KEY_TO_ROUTE_SEGMENT = {};
+Object.keys(ROUTE_SEGMENT_TO_KEY).forEach((seg) => {
+  const key = ROUTE_SEGMENT_TO_KEY[seg];
+  if (!KEY_TO_ROUTE_SEGMENT[key]) KEY_TO_ROUTE_SEGMENT[key] = seg;
+});
 const NYX_TAB_TO_ROUTE = {
   overview:'',
   characters:'characters',
   calendar:'calendar',
+  timeline:'timeline',
   pulls:'pulls',
   codes:'codes',
   banners:'banners',
@@ -3559,6 +3772,7 @@ const ROUTE_TO_NYX_TAB = {
   characters:'characters',
   character:'characters',
   calendar:'calendar',
+  timeline:'timeline',
   pulls:'pulls',
   pull:'pulls',
   codes:'codes',
@@ -3566,6 +3780,22 @@ const ROUTE_TO_NYX_TAB = {
   events:'events',
   settings:'settings',
 };
+
+// Remembered game for the hub Timeline tab, so returning to /nyx/timeline
+// (no game in the URL) reopens the timeline you were last reading.
+const NYX_TIMELINE_GAME_KEY = 'nyx:timeline-game:v1';
+
+function loadTimelineGame(){
+  try {
+    const saved = localStorage.getItem(NYX_TIMELINE_GAME_KEY);
+    if (saved && SIM_GAMES.some((g) => g.key === saved)) return saved;
+  } catch (e) {}
+  return SIM_GAMES[0].key;
+}
+
+function saveTimelineGame(key){
+  try { localStorage.setItem(NYX_TIMELINE_GAME_KEY, String(key || '')); } catch (e) {}
+}
 
 function routeSlug(value){
   return String(value || '')
@@ -3597,7 +3827,9 @@ function routeFromLocation(){
     if (!key) return {};
     const sub = parts[1] || '';
     if (key === 'nyx') {
-      return { key, tab:coerceTabForKey(key, ROUTE_TO_NYX_TAB[sub] || 'overview') };
+      const nyxTab = coerceTabForKey(key, ROUTE_TO_NYX_TAB[sub] || 'overview');
+      const timelineGame = nyxTab === 'timeline' ? (ROUTE_SEGMENT_TO_KEY[parts[2] || ''] || null) : null;
+      return { key, tab:nyxTab, timelineGame:timelineGame === 'nyx' ? null : timelineGame };
     }
     const character = (sub === 'characters' || sub === 'character') ? parts.slice(2).join('-') : '';
     const legacyHash = String(location.hash || '').replace(/^#\/?/, '').split('/').filter(Boolean).pop() || '';
@@ -3610,11 +3842,14 @@ function routeFromLocation(){
   }
 }
 
-function routePathFor(key, tab, selection){
+function routePathFor(key, tab, selection, timelineGame){
   const base = GP_PAGE_HREF[key] || GP_PAGE_HREF.nyx;
   if (!key || key === 'nyx') {
-    const slug = NYX_TAB_TO_ROUTE[coerceTabForKey('nyx', tab || 'overview')] || '';
-    return slug ? base + '/' + slug : base;
+    const safeNyxTab = coerceTabForKey('nyx', tab || 'overview');
+    const slug = NYX_TAB_TO_ROUTE[safeNyxTab] || '';
+    if (!slug) return base;
+    const gameSlug = safeNyxTab === 'timeline' ? (KEY_TO_ROUTE_SEGMENT[timelineGame] || '') : '';
+    return base + '/' + slug + (gameSlug ? '/' + gameSlug : '');
   }
   const selectedName = selection && selection.game === key ? (selection.name || selection.slug) : '';
   const characterSlug = routeSlug(selectedName);
@@ -3633,20 +3868,28 @@ function routeStateFor(key, tab, selection){
   };
 }
 
-function routeTitleFor(key, tab, selection){
+function routeTitleFor(key, tab, selection, timelineGame){
   const cfg = key === 'nyx' ? NYX_META : GAME_REGISTRY[key];
   const name = cfg?.name || 'Nyx';
   const selectedName = selection && selection.game === key ? routeDisplayName(selection.name) : '';
   if (selectedName) return 'Nyx \u2014 ' + selectedName + ' \u2014 ' + name;
+  if (key === 'nyx' && tab === 'timeline') {
+    const gameName = GAME_REGISTRY[timelineGame]?.name;
+    return gameName ? 'Nyx \u2014 Timeline \u2014 ' + gameName : 'Nyx \u2014 Timeline';
+  }
   if (key === 'nyx') return tab && tab !== 'overview' ? 'Nyx \u2014 ' + tab.replace(/\b\w/g, (c) => c.toUpperCase()) : 'Nyx';
   const label = { mats:'Characters', database:'Database', tracker:'Tracker', tcg:'TCG', pot:'Serenitea Pot', wonderland:'Miliastra Wonderland', achievements:'Achievements', books:'Library', beta:'Beta', settings:'Settings' }[tab] || '';
   return label ? 'Nyx \u2014 ' + label + ' \u2014 ' + name : 'Nyx \u2014 ' + name;
 }
 
 function validTabsForKey(key){
-  if (key === 'gi') return ['overview','mats','char-customize','database','tracker','tcg','pot','wonderland','achievements','books','beta','settings'];
-  if (key === 'hsr') return ['overview','mats','char-customize','database','tracker','achievements','books','beta','settings'];
-  return key === 'nyx' ? ['overview','characters','calendar','pulls','codes','banners','events','settings'] : ['overview','mats','char-customize','database','tracker','beta','settings'];
+  if (key === 'nyx') return ['overview','characters','calendar','timeline','pulls','codes','banners','events','settings'];
+  const tabs = ['overview','mats','char-customize','database','tracker'];
+  if (key === 'gi') tabs.push('tcg','pot','wonderland');
+  if (window.NyxAchievementGames?.supportsTracker(key)) tabs.push('achievements');
+  if (key === 'gi' || key === 'hsr') tabs.push('books');
+  tabs.push('beta','settings');
+  return tabs;
 }
 
 function coerceTabForKey(key, wanted){
@@ -4259,6 +4502,14 @@ function NyxApp(){
       : null
   ));
   const [characterCustomize, setCharacterCustomize] = React.useState(null);
+  // Which game the hub Timeline tab is showing. The URL wins on first load
+  // (/nyx/timeline/hsr), otherwise the last game picked in a previous visit.
+  const [timelineGame, setTimelineGame] = React.useState(() => initialRoute.timelineGame || loadTimelineGame());
+  const timelineGameRef = React.useRef(timelineGame);
+  React.useEffect(() => {
+    timelineGameRef.current = timelineGame;
+    saveTimelineGame(timelineGame);
+  }, [timelineGame]);
   const [pengoSettings, setPengoSettings] = React.useState(loadPengoSettings);
   useCmGameVersion(activeKey);
   const previousAlwaysBetaRef = React.useRef(pengoSettings.alwaysBeta === true);
@@ -4266,11 +4517,14 @@ function NyxApp(){
   const commitRoute = React.useCallback((key, nextTab, selection, opts) => {
     const safeKey = key || 'nyx';
     const safeTab = coerceTabForKey(safeKey, nextTab || 'overview');
-    const href = routePathFor(safeKey, safeTab, selection);
+    const game = timelineGameRef.current;
+    const href = routePathFor(safeKey, safeTab, selection, game);
     try {
       // Keep a timeline share token while canonicalizing `genshin.html` to
-      // `/genshin`. Other/legacy hashes still clear when the active tab changes.
-      const timelineHash = safeKey !== 'nyx' && safeTab === 'overview'
+      // `/genshin`. The timeline now lives on the hub's Timeline tab, so that
+      // is where the token is preserved. Other/legacy hashes still clear when
+      // the active tab changes.
+      const timelineHash = safeKey === 'nyx' && safeTab === 'timeline'
         && /^#tl\.[0-9a-z]+\.\d+$/.test(String(location.hash || ''))
         ? location.hash : '';
       const target = href + String(location.search || '') + timelineHash;
@@ -4278,14 +4532,14 @@ function NyxApp(){
         const method = opts && opts.replace ? 'replaceState' : 'pushState';
         window.history[method](routeStateFor(safeKey, safeTab, selection), '', target);
       }
-      document.title = routeTitleFor(safeKey, safeTab, selection);
+      document.title = routeTitleFor(safeKey, safeTab, selection, game);
     } catch (e) {}
   }, []);
 
   React.useEffect(() => {
     const safeTab = coerceTabForKey(activeKey, tab === 'char-customize' ? 'mats' : tab);
     commitRoute(activeKey, safeTab, safeTab === 'mats' ? materialSelection : null, { replace:true });
-  }, [activeKey, tab, materialSelection, commitRoute]);
+  }, [activeKey, tab, materialSelection, timelineGame, commitRoute]);
 
   React.useEffect(() => {
     try { localStorage.setItem(NYX_PENGO_SETTINGS_KEY, JSON.stringify(pengoSettings)); } catch (e) {}
@@ -4458,6 +4712,7 @@ function NyxApp(){
       const state = window.history.state || {};
       setMaterialSelection(next.character && k !== 'nyx' ? { game:k, name:next.character, slug:next.character,
         from:nyxCalendarHistoryOrigin(state, next.character) } : null);
+      if (next.timelineGame) setTimelineGame(next.timelineGame);
     };
     window.addEventListener('popstate', onPop);
     return () => window.removeEventListener('popstate', onPop);
@@ -4471,6 +4726,13 @@ function NyxApp(){
     if (nextTab !== 'char-customize') setCharacterCustomize(null);
     if (!nextSelection) setMaterialSelection(null);
     commitRoute(activeKey, safeTab, nextSelection);
+  };
+
+  const pickTimelineGame = (key) => {
+    if (!key || key === timelineGame) return;
+    timelineGameRef.current = key;
+    setTimelineGame(key);
+    commitRoute('nyx', 'timeline', null);
   };
 
   const switchGame = (key) => {
@@ -4554,7 +4816,7 @@ function NyxApp(){
       </div>
 
       {isNyx
-        ? <SimContent tab={tab} setTab={routeTab} onOpenMaterial={openMaterialPage} settings={pengoSettings} setSettings={setPengoSettings} />
+        ? <SimContent tab={tab} setTab={routeTab} onOpenMaterial={openMaterialPage} settings={pengoSettings} setSettings={setPengoSettings} timelineGame={timelineGame} onTimelineGame={pickTimelineGame} />
         : <GameContent cfg={cfg} tab={tab} setTab={routeTab} onOpenMaterial={openMaterialPage} settings={pengoSettings} setSettings={setPengoSettings} characterCustomize={characterCustomize} setCharacterCustomize={setCharacterCustomize} materialSelection={materialSelection} setMaterialSelection={setMaterialSelection} onSelectMaterialCharacter={selectMaterialCharacter} onCloseMaterialCharacter={closeMaterialCharacter} />}
     </div>
   );

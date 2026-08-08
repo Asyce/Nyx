@@ -13,7 +13,8 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { GAMES, dedupe, mergeById, normalizeRetainedEvent, reconcileById, replaceExpectedWithExact, validateDataset } from './core.mjs';
-import { SOURCE_META, isSourceEventRecord, scrapeEndfield, scrapeHoyo, scrapeWuwa } from './sources.mjs';
+import { SOURCE_META, fetchHoyoArt, isSourceEventRecord, scrapeEndfield, scrapeHoyo, scrapeWuwa } from './sources.mjs';
+import { PROVENANCE_RELATIVE, RUNTIME_PREFIX, localizeEventArt, mergeProvenance, pruneEventArt } from './art.mjs';
 import { buildCoverageEntry, validateCoverageManifest, validateHistoryState } from './history.mjs';
 import { reconcileActivityWindows, validateActivityFile } from '../banner-history/activities.mjs';
 
@@ -45,6 +46,11 @@ async function writeJsonAtomic(file, value) {
   await fs.writeFile(next, JSON.stringify(value, null, 2) + '\n');
   JSON.parse(await fs.readFile(next, 'utf8'));
   await fs.rename(next, file);
+}
+
+function cursorToken(value) {
+  if (value === null || value === undefined || value === '') return null;
+  return String(value);
 }
 
 function cleanHistoryState(value) {
@@ -115,10 +121,57 @@ async function syncGenshinActivities(events, generatedAt) {
   return writeIfChanged(file, candidate);
 }
 
+// Art is decoration on top of a valid dataset: any failure here logs a warning
+// and returns the events untouched, so a CDN hiccup can never cost us an
+// event refresh. Only sources that publish announcement art take part.
+// Art is only stored for what the site actually shows: the Overview card lists
+// what is live or starting next. Downloading art for the whole retained
+// history would mean tens of MB of press images for events nobody can join.
+const ART_WINDOW_MS = 14 * 24 * 60 * 60 * 1000;
+// Endfield (and some HoYo notices) publish a start with no end — "until the
+// next version update". Those still read as running, and the card still shows
+// them, so they keep their art for a couple of version cycles rather than
+// being aged out on their start date.
+const ART_OPEN_END_WINDOW_MS = 180 * 24 * 60 * 60 * 1000;
+
+function artWorthStoring(event, nowMs) {
+  const end = event?.end ? Date.parse(event.end) : null;
+  if (Number.isFinite(end)) return end >= nowMs - ART_WINDOW_MS;
+  const start = event?.start ? Date.parse(event.start) : null;
+  return Number.isFinite(start) ? start >= nowMs - ART_OPEN_END_WINDOW_MS : false;
+}
+
+async function withEventArt(game, events, generatedAt, artRows, scraped) {
+  try {
+    // Each source hands back its own recordId -> art URL map while it scrapes.
+    // The HoYo re-fetch is only for the carry-forward path (a failed scrape has
+    // no map, but its retained events can still gain art on a later run).
+    const artByRecordId = scraped?.size ? scraped : await fetchHoyoArt(game);
+    if (!artByRecordId.size) return events;
+    const nowMs = Date.parse(generatedAt);
+    const result = await localizeEventArt({
+      game, events, artByRecordId, rootDir:root, now:generatedAt,
+      shouldFetch:(event) => artWorthStoring(event, nowMs),
+    });
+    for (const problem of result.problems.slice(0, 3)) console.warn(`::warning::events ${game} art: ${problem}`);
+    if (result.problems.length > 3) console.warn(`::warning::events ${game} art: ${result.problems.length - 3} more art problem(s)`);
+    artRows.push(...result.provenance);
+    if (result.downloaded || result.reused) console.log(`  ${game.padEnd(9)} art downloaded=${result.downloaded} reused=${result.reused}`);
+    // Aged-out events release their art so the prune below can reclaim it.
+    // Their official source link still carries the reader to the artwork.
+    return result.events.map((event) => (event.image && !artWorthStoring(event, nowMs) ? { ...event, image:null } : event));
+  } catch (error) {
+    console.warn(`::warning::events ${game} art step skipped: ${error.message}`);
+    return events;
+  }
+}
+
 export async function run() {
   const generatedAt = new Date().toISOString();
   const written = [];
   const report = [];
+  const artRows = [];
+  const artGames = [];
   const historyState = cleanHistoryState(await readJson(stateFile));
   const previousCoverage = await readJson(coverageFile);
   const coverageGames = [];
@@ -149,9 +202,14 @@ export async function run() {
     // A complete successful snapshot reconciles current/future rows while
     // retaining ended history. Any anomaly is non-destructive: retain every
     // previous row and overlay whatever fresh rows were safely parsed.
-    const merged = result.anomaly || result.reconcile === false
+    const reconciled = result.anomaly || result.reconcile === false
       ? replaceExpectedWithExact(mergeById(previousEvents, fresh))
       : reconcileById(previousEvents, fresh, Date.now(), (ev) => isSourceEventRecord(game, ev));
+    // Runs inside the pipeline, not as a later pass: a fresh scrape overwrites
+    // the previous record wholesale (mergeById), so art applied afterwards
+    // would be wiped by the next run.
+    const merged = await withEventArt(game, reconciled, generatedAt, artRows, result.artByRecordId);
+    if (merged.some((event) => event.image)) artGames.push(game);
 
     const dataset = {
       schemaVersion: 1,
@@ -182,7 +240,11 @@ export async function run() {
     historyState.games[game] = {
       ...historyState.games[game],
       completedIds:result.completedIds || stagedCheckpoints.get(game)?.completedIds || historyState.games[game].completedIds,
-      resumeCursor:result.resumeCursor ?? stagedCheckpoints.get(game)?.resumeCursor ?? null,
+      // Endfield's cursor is a page NUMBER; the persisted schema (and the
+      // reader above, which does Number(row.resumeCursor)) is string-or-null.
+      // Without this coercion any non-exhausted Endfield run fails validation
+      // and takes the whole pipeline's manifest/history write down with it.
+      resumeCursor:cursorToken(result.resumeCursor ?? stagedCheckpoints.get(game)?.resumeCursor ?? null),
       exhausted:Boolean(result.exhausted),
       updatedAt:generatedAt,
     };
@@ -201,6 +263,26 @@ export async function run() {
   await writeJsonAtomic(stateFile, historyState);
   const giDataset = await readJson(path.join(outDir, 'gi.json'));
   if (await syncGenshinActivities(giDataset?.events || [], generatedAt)) written.push('Database/Activities/gi.json');
+  // Prune from what is actually on disk after every game has been written, so
+  // a game whose dataset failed validation never loses its stored art.
+  const referenced = new Set();
+  let pruned = 0;
+  for (const game of GAMES) {
+    const dataset = await readJson(path.join(outDir, `${game}.json`));
+    if (!Array.isArray(dataset?.events)) continue;
+    for (const event of dataset.events) {
+      const image = String(event?.image || '');
+      if (image.startsWith(`${RUNTIME_PREFIX}/${game}/`)) referenced.add(`${game}/${image.split('/').pop().replace(/\.[a-z0-9]+$/i, '')}`);
+    }
+    const result = await pruneEventArt({ game, events:dataset.events, rootDir:root });
+    pruned += result.removed;
+  }
+  if (pruned) console.log(`Events: pruned ${pruned} unreferenced art file(s)`);
+  if (artRows.length || pruned) {
+    const provenanceFile = path.resolve(root, PROVENANCE_RELATIVE);
+    const provenance = mergeProvenance(await readJson(provenanceFile), artRows, { generatedAt, games:[...new Set(artGames)].sort(), referenced });
+    if (await writeIfChanged(provenanceFile, provenance)) written.push(PROVENANCE_RELATIVE);
+  }
 
   console.log('--- events pipeline ---');
   for (const r of report) {

@@ -361,9 +361,8 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
 .gp-fn-row .dia{ width:16px; height:27px; flex:none; opacity:0; transition:opacity .25s;
   background:url('../../assets/decor/toast_dia.png') center/contain no-repeat; }
 .gp-fn-row:hover .dia{ opacity:.4; }
-.gp-fn-row .go{ margin-left:auto; color:var(--accent-bright); font-size:var(--nyx-type-body); opacity:0;
-  transition:opacity .25s; }
-.gp-fn-row:hover .go{ opacity:1; }
+/* The hover chevron was removed 2026-08-08 at the user's request. */
+.gp-fn-row .go{ display:none; }
 .gp-fn-row.on{ background:var(--nyx-compat-color-c2b0ed1f9dca); color:var(--nyx-color-text-max);
   box-shadow:var(--nyx-compat-shadow-box-f8bdfc09bbda); }
 .gp-fn-row.on .dia{ opacity:1; filter:var(--nyx-compat-shadow-drop-268e9d608980); }
@@ -371,19 +370,6 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
   background:var(--nyx-compat-color-c2b0ed1f9dca); color:var(--nyx-color-text-max); }
 .gp-fn-row:focus-visible .dia{ opacity:.6; }
 .gp-section-nav-button{ appearance:none; width:100%; border:0; text-align:left; font-family:inherit; background-color:transparent; }
-
-/* banner freshness / stale-data warning */
-.gp-banner-fresh{ display:flex; align-items:center; flex-wrap:wrap; gap:var(--nyx-space-6) var(--nyx-space-10);
-  padding:var(--nyx-space-8) var(--nyx-compat-spacing-11px); border-radius:var(--nyx-radius-control); font-size:var(--nyx-type-small); line-height:1.3;
-  background:var(--nyx-compat-color-7213db3a84f0); box-shadow:var(--nyx-compat-shadow-box-917af2e4ddd5); color:var(--nyx-compat-color-hex-e8cf9a); }
-.gp-banner-fresh .dot{ width:8px; height:8px; flex:none; border-radius:50%; background:var(--nyx-color-warning);
-  box-shadow:var(--nyx-compat-shadow-box-83538fb7d965); }
-.gp-banner-fresh .lbl{ font-weight:var(--nyx-weight-semibold); }
-.gp-banner-fresh .chk{ margin-left:auto; color:var(--nyx-compat-color-hex-aaa0d8); font-size:var(--nyx-compat-size-11px); letter-spacing:var(--nyx-compat-tracking-p02em); }
-.gp-banner-fresh.st-unavailable{ background:var(--nyx-compat-color-650149f965d3); box-shadow:var(--nyx-compat-shadow-box-6383dee479fd); color:var(--nyx-compat-color-hex-f0b7c4); }
-.gp-banner-fresh.st-unavailable .dot{ background:var(--nyx-compat-color-hex-d95577); box-shadow:var(--nyx-compat-shadow-box-bc989147e1bb); }
-.gp-banner-fresh.st-transition{ background:var(--nyx-compat-color-7213db3a84f0); box-shadow:var(--nyx-compat-shadow-box-0f58acbf9953); color:var(--nyx-compat-color-hex-efd49a); }
-.gp-banner-fresh.st-transition .dot{ background:var(--nyx-color-warning); box-shadow:var(--nyx-compat-shadow-box-7361f7168c2c); }
 
 .gp-layout{ flex:1; min-width:0; min-height:0; display:grid; grid-template-columns:236px minmax(0, 1fr);
   gap:var(--nyx-compat-spacing-22px); overflow:hidden; }
@@ -549,22 +535,23 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
 }
 .gp-oban-featured::-webkit-scrollbar,
 .gp-oban-supports div::-webkit-scrollbar{ display:none; }
+/* Roster-sized icon with the name beside it and no chip around either
+   (user 2026-08-08). */
 .gp-oban-unit{
   min-width:0;
   max-width:100%;
-  height:28px;
   display:inline-flex;
   align-items:center;
-  gap:var(--nyx-space-6);
-  padding:0 var(--nyx-compat-spacing-9px) 0 var(--nyx-compat-spacing-5px);
-  border-radius:var(--nyx-compat-radius-7px);
-  background:var(--nyx-compat-color-e1b276e64ad6);
-  box-shadow:var(--nyx-compat-shadow-box-35c99d583691);
+  gap:var(--nyx-space-10);
+  padding:0;
+  border-radius:0;
+  background:none;
+  box-shadow:none;
   color:var(--nyx-compat-color-hex-f4efff);
 }
 .gp-oban-unit img{
-  width:22px;
-  height:22px;
+  width:44px;
+  height:44px;
   flex:none;
   border-radius:50%;
   object-fit:cover;
@@ -576,8 +563,10 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
   overflow:hidden;
   text-overflow:ellipsis;
   white-space:nowrap;
-  font-size:var(--nyx-type-small);
+  font-family:var(--nyx-font-display);
+  font-size:var(--nyx-compat-size-17px);
   font-weight:var(--nyx-weight-extrabold);
+  text-shadow:var(--nyx-compat-shadow-text-b0e15cea0bf0);
 }
 .gp-oban-unit em{
   flex:none;
@@ -591,8 +580,11 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
   min-width:0;
   display:flex;
   flex-direction:column;
-  gap:var(--nyx-compat-spacing-5px);
+  align-items:flex-start;
+  gap:var(--nyx-space-6);
 }
+.gp-oban-supports .gp-oban-unit img{ width:32px; height:32px; }
+.gp-oban-supports .gp-oban-unit b{ font-size:var(--nyx-type-small); color:var(--nyx-compat-color-hex-f4efff); }
 .gp-oban-supports > span{
   color:var(--nyx-compat-color-hex-9f95ca);
   font-family:var(--nyx-compat-family-bbbd64e38bdd);
@@ -655,13 +647,232 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
   font-size:var(--nyx-compat-size-10p5px);
   letter-spacing:var(--nyx-compat-tracking-p03em);
 }
-.gp-oban-foot i{
-  display:block;
-  height:3px;
-  border-radius:var(--nyx-compat-radius-3px);
-  background:linear-gradient(90deg, var(--nyx-compat-color-hex-cfc4ff) var(--pct), var(--nyx-compat-color-916a41171be5) var(--pct));
-  box-shadow:var(--nyx-compat-shadow-box-f25f662e055e);
+/* The progress bar under a card was removed 2026-08-08 at the user's request. */
+.gp-oban-foot i{ display:none; }
+/* Current Events card — same shell as a banner card (.gp-oban), swapping the
+   featured-unit block for the event title, blurb and official-notice link. */
+/* ===== Overview board (user layout, 2026-08-08) =========================
+   One full-width grid on a game Overview: five banner columns on top, then
+   the events grid with Timers and Redemption Codes as their own columns.
+   Reflows 5 -> 3 -> 1 as the window narrows; the side columns drop under the
+   events grid rather than squeezing. */
+.gp-ov-region{ display:flex; justify-content:flex-end; min-width:0; }
+.gp-ovb{
+  min-width:0;
+  display:grid;
+  grid-template-columns:minmax(0, 1.35fr) minmax(0, 1fr) minmax(0, 1.35fr) minmax(0, 1fr) minmax(0, 1fr);
+  align-items:stretch;
+  gap:var(--nyx-space-12);
 }
+/* heading / body / caption — the middle row absorbs the slack so every column
+   is the same height and all five captions land on one baseline. */
+.gp-ovb-col{ min-width:0; display:grid; grid-template-rows:auto minmax(0, 1fr) auto; gap:var(--nyx-space-8); }
+.gp-ovb-heading{
+  min-width:0;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+  font-family:var(--nyx-font-display);
+  font-size:var(--nyx-type-small);
+  letter-spacing:var(--nyx-compat-tracking-p14em);
+  text-transform:uppercase;
+  color:var(--nyx-color-accent-bright);
+}
+.gp-ovb-heading.is-blank{ visibility:hidden; }
+.gp-ovb-body{ min-width:0; min-height:268px; display:flex; flex-direction:column; gap:var(--nyx-space-8); }
+/* Stacked rows share the column height instead of bunching at the top. */
+.gp-ovb-body > .gp-ovb-row,
+.gp-ovb-body > .gp-ovb-empty{ flex:1 1 0; }
+/* The card is a flex column so its body fills the stretched height — without
+   this the body keeps its content height and the countdown footer rides up
+   under the name instead of sitting at the bottom. */
+.gp-ovb-body > .gp-oban{ flex:1 1 auto; min-height:0; display:flex; flex-direction:column; }
+.gp-ovb-body > .gp-oban .gp-oban-body{ flex:1 1 auto; min-height:0; }
+.gp-ovb-body > .gp-oban .gp-oban-unit b{ font-size:var(--nyx-type-body); }
+/* Art-forward: the splash is the point of the headline card. */
+.gp-ovb-body > .gp-oban .gp-oban-art{ opacity:1; background-size:cover; background-position:50% 20%;
+  filter:saturate(1.12) contrast(1.06) brightness(1.18); }
+/* Lighter scrim than a banner strip: enough for the text, not so much that it
+   dims the art the card exists to show. */
+.gp-ovb-body > .gp-oban .gp-oban-shade{ opacity:.62; }
+.gp-ovb-body > .gp-oban::before{ opacity:.42; }
+.gp-ovb-caption{
+  min-width:0;
+  font-size:var(--nyx-type-label);
+  letter-spacing:var(--nyx-compat-tracking-p05em);
+  color:var(--nyx-color-text-muted);
+}
+/* Same art-forward treatment as a headline card, at row scale. */
+.gp-ovb-row{
+  position:relative;
+  min-width:0;
+  overflow:hidden;
+  min-height:52px;
+  border-radius:var(--nyx-radius-control);
+  background:var(--nyx-compat-color-8df2e4e97657);
+  box-shadow:var(--nyx-compat-shadow-box-158c1c10878c);
+}
+.gp-ovb-row-art{
+  position:absolute;
+  inset:0;
+  background-size:cover;
+  background-position:60% 18%;
+  opacity:.7;
+  filter:saturate(1.1) contrast(1.05);
+}
+.gp-ovb-row-art::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:linear-gradient(90deg, var(--nyx-compat-color-85f7484c43f9) 0%, var(--nyx-compat-color-41b68c99533c) 62%, transparent 100%);
+}
+.gp-ovb-row-body{
+  position:relative;
+  z-index:1;
+  min-width:0;
+  height:100%;
+  display:flex;
+  align-items:center;
+  gap:var(--nyx-space-10);
+  padding:var(--nyx-space-8) var(--nyx-space-12);
+}
+/* Backed circle: several operator icons are mostly transparent PNGs and read
+   as an empty ring without something behind them. */
+.gp-ovb-row img{ width:44px; height:44px; flex:none; border-radius:50%; object-fit:cover;
+  background:var(--nyx-compat-color-e1b276e64ad6);
+  box-shadow:var(--nyx-compat-shadow-box-940bdb001abd); }
+.gp-ovb-row b{
+  min-width:0;
+  flex:1;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+  font-family:var(--nyx-font-display);
+  font-size:var(--nyx-compat-size-17px);
+  color:var(--nyx-color-heading);
+  text-shadow:var(--nyx-compat-shadow-text-b0e15cea0bf0);
+}
+.gp-ovb-row.st-next,
+.gp-ovb-row.st-upcoming{ opacity:.86; }
+.gp-ovb-note{
+  flex:0 0 auto;
+  min-width:0;
+  display:flex;
+  flex-direction:column;
+  gap:var(--nyx-space-2);
+  padding:var(--nyx-space-8) var(--nyx-space-10);
+  border-radius:var(--nyx-radius-control);
+  background:var(--nyx-compat-color-e1b276e64ad6);
+  box-shadow:var(--nyx-compat-shadow-box-60da0d62cf9f);
+}
+.gp-ovb-note b{
+  font-family:var(--nyx-font-display);
+  font-size:var(--nyx-type-label);
+  letter-spacing:var(--nyx-compat-tracking-p14em);
+  text-transform:uppercase;
+  color:var(--nyx-compat-color-hex-cfc4ff);
+}
+.gp-ovb-note span{ font-size:var(--nyx-type-caption); line-height:1.35; color:var(--nyx-color-text-muted); }
+.gp-ovb-empty{
+  min-width:0;
+  display:flex;
+  align-items:center;
+  min-height:52px;
+  padding:var(--nyx-space-8) var(--nyx-space-12);
+  border-radius:var(--nyx-radius-control);
+  border:1px dashed var(--nyx-compat-color-97cd05e0c6e8);
+  font-size:var(--nyx-type-small);
+  color:var(--nyx-color-text-muted);
+}
+.gp-ov-lower{
+  min-width:0;
+  display:grid;
+  grid-template-columns:repeat(3, minmax(0, 1fr)) minmax(200px, 0.85fr) minmax(220px, 0.95fr);
+  align-items:stretch;
+  gap:var(--nyx-space-12);
+}
+.gp-ov-lower > .gp-current-events{ grid-column:1 / 4; margin-top:0; }
+
+.gp-ov-side-title{
+  font-family:var(--nyx-font-display);
+  font-size:var(--nyx-type-lead);
+  color:var(--nyx-color-heading);
+  text-shadow:var(--nyx-compat-shadow-text-807d5c88b94a);
+}
+.gp-ov-side{
+  min-width:0;
+  height:100%;
+  display:flex;
+  flex-direction:column;
+  gap:var(--nyx-space-10);
+  padding:var(--nyx-space-12);
+  border-radius:var(--nyx-radius-card);
+  background:var(--nyx-compat-color-8df2e4e97657);
+  box-shadow:var(--nyx-compat-shadow-box-158c1c10878c);
+}
+.gp-event-grid{
+  min-width:0;
+  display:grid;
+  grid-template-columns:repeat(3, minmax(0, 1fr));
+  gap:var(--nyx-space-12);
+}
+.gp-event-cell{ min-width:0; display:flex; flex-direction:column; }
+@media (max-width:1500px){
+  .gp-ovb{ grid-template-columns:repeat(2, minmax(0, 1fr)); }
+  .gp-ov-lower{ grid-template-columns:repeat(2, minmax(0, 1fr)); }
+  .gp-ov-lower > .gp-current-events{ grid-column:1 / -1; }
+  .gp-event-grid{ grid-template-columns:repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width:900px){
+  .gp-ovb,
+  .gp-ov-lower,
+  .gp-event-grid{ grid-template-columns:minmax(0, 1fr); }
+  .gp-ov-region{ justify-content:flex-start; }
+}
+
+.gp-current-events{ margin-top:var(--nyx-space-16); }
+/* No section divider any more, so the updated stamp sits alone on the right. */
+.gp-events-head{ justify-content:flex-end; }
+.gp-oev,
+.gp-oev .gp-oban-body{ min-height:196px; }
+.gp-oev-art{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  object-position:50% 32%;
+  opacity:.5;
+  filter:saturate(1.05) contrast(1.04);
+}
+.gp-oev-title{
+  min-width:0;
+  margin:0;
+  font-family:var(--nyx-font-display);
+  font-size:var(--nyx-compat-size-17px);
+  line-height:1.25;
+  color:var(--nyx-color-heading);
+  text-shadow:var(--nyx-compat-shadow-text-b0e15cea0bf0);
+  display:-webkit-box;
+  -webkit-line-clamp:2;
+  -webkit-box-orient:vertical;
+  overflow:hidden;
+}
+.gp-oev-text{
+  min-width:0;
+  margin:0;
+  color:var(--nyx-compat-color-hex-b9aee6);
+  font-size:var(--nyx-type-small);
+  line-height:1.4;
+  display:-webkit-box;
+  -webkit-line-clamp:3;
+  -webkit-box-orient:vertical;
+  overflow:hidden;
+}
+/* The whole card is the link to the official notice — no visible label. */
+.gp-oev-link{ position:absolute; inset:0; z-index:2; border-radius:inherit; }
+.gp-oev-link:focus-visible{ outline:2px solid var(--nyx-compat-color-hex-d9ceff); outline-offset:-2px; }
+.gp-oev:hover{ transform:translateY(-2px); }
 .gp-oban-empty{
   min-width:0;
   padding:var(--nyx-space-18) var(--nyx-space-16);
@@ -3298,15 +3509,37 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 .nyx-time-pref{ position:relative; z-index:28; flex:0 0 auto; }
 /* Overview right rail placement — the control spans the rail width above Reset Timers. */
 .gp-aside-time .nyx-time-pref{ width:100%; }
-.gp-aside-time .nyx-time-pref-buttons{ width:100%; box-sizing:border-box; }
-.gp-aside-time .nyx-time-pref-buttons button{ flex:1 1 0; }
+.gp-aside-time .nyx-time-pref-switch{ width:100%; box-sizing:border-box; }
 .gp-aside-time .nyx-time-pref-popover{ left:0; right:0; }
-.nyx-time-pref-buttons{ display:flex; align-items:center; gap:var(--nyx-compat-spacing-3px); padding:var(--nyx-compat-spacing-3px); border:1px solid var(--nyx-compat-color-fe41f066fa45); border-radius:var(--nyx-radius-control); background:var(--nyx-compat-color-0708ad8b00ca); box-shadow:var(--nyx-compat-shadow-box-460ac987dd97); }
-.nyx-time-pref-buttons button{ min-width:38px; height:32px; border:0; border-radius:var(--nyx-radius-small); padding:0 var(--nyx-compat-spacing-9px); background:transparent; color:var(--nyx-color-text-dim); font:var(--nyx-compat-font-5e1e729768c8); letter-spacing:var(--nyx-compat-tracking-p04em); cursor:pointer; transition:background .16s,color .16s,box-shadow .16s; }
-.nyx-time-pref-buttons button:last-child{ min-width:60px; }
-.nyx-time-pref-buttons button:hover{ color:var(--nyx-color-text); background:var(--nyx-compat-color-108ef61fc9ce); }
-.nyx-time-pref-buttons button.on{ color:var(--nyx-color-text-max); background:var(--nyx-compat-color-0b4fbcaa53ef); box-shadow:var(--nyx-compat-shadow-box-83bedff8399e); }
-.nyx-time-pref-buttons button:focus-visible,.nyx-time-pref-popover select:focus-visible{ outline:2px solid var(--nyx-color-accent-bright); outline-offset:2px; }
+/* Two plain pills: EU / NA / ASIA in one, Custom beside it. The active server
+   glows rather than filling, and neither pill nests another (user 2026-08-08).
+   Deliberately NOT named *-buttons: the shared control chrome near the end of
+   this file hexagon-clips every button inside .nyx-time-pref-buttons. */
+.nyx-time-pref-switch{ display:flex; align-items:center; gap:var(--nyx-space-8); }
+.nyx-time-pref-regions,
+.nyx-time-pref-custom{
+  display:inline-flex; align-items:center; height:32px; padding:0 var(--nyx-space-14);
+  border:1px solid var(--nyx-compat-color-fe41f066fa45); border-radius:var(--nyx-radius-pill);
+  background:var(--nyx-compat-color-0708ad8b00ca); box-shadow:none;
+}
+.nyx-time-pref-switch button{
+  appearance:none; border:0; margin:0; padding:0; background:none; box-shadow:none; clip-path:none;
+  color:var(--nyx-color-text-faint); cursor:pointer;
+  font-family:var(--nyx-compat-family-bbbd64e38bdd); font-size:var(--nyx-type-small);
+  letter-spacing:var(--nyx-compat-tracking-p14em); text-transform:uppercase;
+  transition:color .16s ease, text-shadow .16s ease;
+}
+.nyx-time-pref-regions button + button::before{
+  content:"/"; margin:0 var(--nyx-space-8); color:var(--nyx-compat-color-fe41f066fa45); text-shadow:none;
+}
+.nyx-time-pref-switch button:hover{ color:var(--nyx-color-text-soft); }
+.nyx-time-pref-regions button.on,
+.nyx-time-pref-custom.on{
+  color:var(--nyx-color-text-max);
+  text-shadow:0 0 8px rgba(183,170,255,.95), 0 0 18px rgba(139,123,255,.55);
+}
+.nyx-time-pref-switch button:focus-visible,
+.nyx-time-pref-popover select:focus-visible{ outline:2px solid var(--nyx-color-accent-bright); outline-offset:2px; }
 .nyx-time-pref-popover{ position:absolute; z-index:50; top:44px; right:0; display:grid; width:300px; gap:var(--nyx-space-10); padding:var(--nyx-space-12); border:1px solid var(--nyx-compat-color-9abf2f2b7722); border-radius:var(--nyx-compat-radius-9px); background:var(--nyx-color-surface); box-shadow:var(--nyx-compat-shadow-box-4f7cd9937d9b); }
 .nyx-time-pref-popover label{ display:grid; gap:var(--nyx-compat-spacing-5px); color:var(--nyx-color-text-dim); font-size:var(--nyx-type-label); font-weight:var(--nyx-weight-semibold); letter-spacing:var(--nyx-compat-tracking-p04em); }
 .nyx-time-pref-popover select{ width:100%; min-height:36px; border:1px solid var(--nyx-compat-color-821fe30a43b2); border-radius:var(--nyx-compat-radius-6px); padding:0 var(--nyx-compat-spacing-9px); background:var(--nyx-compat-color-hex-15102d); color:var(--nyx-color-text); color-scheme:dark; font:var(--nyx-compat-font-1cfdd39e4542); }
@@ -3910,6 +4143,25 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 
 /* Batch 14 — per-game banner timeline */
 .ntl{ min-width:0; padding:var(--nyx-space-20); color:var(--nyx-compat-color-hex-eae4ff); }
+/* Hub Timeline page — one tab per game above the shared per-game timeline. */
+.ntl-gamepage{ display:flex; flex-direction:column; min-width:0; }
+.ntl-gametabs{ display:flex; gap:var(--nyx-space-6); flex-wrap:wrap; padding:var(--nyx-space-20) var(--nyx-space-20) 0; }
+.ntl-gametab{ display:inline-flex; align-items:center; gap:var(--nyx-space-8); min-height:38px; padding:0 var(--nyx-space-14);
+  border:1px solid var(--nyx-compat-color-97cd05e0c6e8); border-radius:var(--nyx-radius-pill);
+  background:var(--nyx-compat-color-29324858ffe0); color:var(--nyx-compat-color-hex-e9e2ff);
+  font-family:var(--nyx-font-display); font-size:var(--nyx-type-small); letter-spacing:var(--nyx-compat-tracking-p05em);
+  cursor:pointer; transition:background .14s,border-color .14s,color .14s; }
+.ntl-gametab img{ width:22px; height:22px; border-radius:50%; object-fit:cover; flex:none;
+  box-shadow:var(--nyx-compat-shadow-box-940bdb001abd); }
+.ntl-gametab:hover{ background:var(--nyx-compat-color-ef146d2930c5); border-color:var(--nyx-compat-color-d489b77ef351); }
+.ntl-gametab:focus-visible{ outline:2px solid var(--nyx-compat-color-hex-d9ceff); outline-offset:2px; }
+.ntl-gametab.on{ color:var(--nyx-color-text-max); border-color:var(--nyx-compat-color-d489b77ef351);
+  background:linear-gradient(160deg,var(--nyx-compat-color-43dbc83a4315),var(--nyx-compat-color-32522062e201)); }
+.ntl-gamepanel{ min-width:0; }
+@media (max-width:760px){
+  .ntl-gametabs{ flex-wrap:nowrap; overflow-x:auto; padding:var(--nyx-space-12) var(--nyx-space-12) 0; }
+  .ntl-gametab{ flex:0 0 auto; }
+}
 .ntl-head{ display:flex; justify-content:space-between; gap:var(--nyx-space-18); align-items:end; margin-bottom:var(--nyx-space-14); }.ntl-head h1{ margin:var(--nyx-space-2) 0 0; font:var(--nyx-compat-font-f57bca9c3191); }.ntl-updated{ color:var(--nyx-compat-color-hex-9f95bf); font-size:var(--nyx-compat-size-11px); }
 .ntl-tools,.ntl-marker-form{ display:flex; gap:var(--nyx-compat-spacing-7px); align-items:end; flex-wrap:wrap; margin-bottom:var(--nyx-space-12); }.ntl-tools button,.ntl-marker-form button,.ntl-results button{ display:inline-flex; align-items:center; min-height:34px; border:1px solid var(--nyx-compat-color-97cd05e0c6e8); border-radius:var(--nyx-radius-control); background:var(--nyx-compat-color-29324858ffe0); color:var(--nyx-compat-color-hex-e9e2ff); padding:0 var(--nyx-space-12); font-size:var(--nyx-compat-size-12p5px); cursor:pointer; transition:background .14s,border-color .14s; }.ntl-tools button:hover,.ntl-marker-form button:hover{ background:var(--nyx-compat-color-ef146d2930c5); border-color:var(--nyx-compat-color-d489b77ef351); }.ntl-search{ display:grid; gap:var(--nyx-compat-spacing-3px); color:var(--nyx-compat-color-hex-aaa0cb); font-size:var(--nyx-type-label); }.ntl-search input,.ntl-marker-form input,.ntl-marker-form select{ min-height:33px; border:1px solid var(--nyx-compat-color-7379e6877c6f); border-radius:var(--nyx-compat-radius-7px); background:var(--nyx-compat-color-hex-171029); color:var(--nyx-compat-color-hex-eee8ff); padding:var(--nyx-compat-spacing-5px) var(--nyx-space-8); }.ntl-search input{ width:min(235px,55vw); }.ntl-layers{ position:relative; }.ntl-popover{ position:absolute; z-index:8; top:38px; right:0; display:grid; gap:var(--nyx-compat-spacing-7px); min-width:175px; padding:var(--nyx-space-10); border:1px solid var(--nyx-compat-color-4df431eb8208); border-radius:var(--nyx-compat-radius-9px); background:var(--nyx-compat-color-hex-1a1231); box-shadow:var(--nyx-compat-shadow-box-013bc8d4cbf5); }.ntl-popover label{ font-size:var(--nyx-type-small); white-space:nowrap; }
 .ntl-status{ padding:var(--nyx-compat-spacing-34px); text-align:center; color:var(--nyx-compat-color-hex-a99dce); }.ntl-status.error{ color:var(--nyx-compat-color-hex-ffb1bf); }.ntl-results{ display:flex; flex-wrap:wrap; gap:var(--nyx-space-6); margin:var(--nyx-compat-spacing-neg-4px) 0 var(--nyx-space-10); }.ntl-results button{ font-size:var(--nyx-compat-size-11px); padding:var(--nyx-compat-spacing-5px) var(--nyx-space-8); }
@@ -6806,6 +7058,8 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 .achievement-manage>nav{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--nyx-space-6);padding:var(--nyx-space-12) var(--nyx-space-18);border-bottom:1px solid var(--nyx-compat-color-1ef7f9315602)}.achievement-manage>nav button{border-color:transparent;background:transparent;color:var(--nyx-compat-color-hex-91899f)}.achievement-manage>nav button.on{border-color:var(--nyx-compat-color-12376054c278);background:var(--nyx-compat-color-c00f3dba3ae7);color:var(--nyx-compat-color-hex-f2edff)}
 .achievement-manage-section{display:grid;gap:var(--nyx-space-16);padding:var(--nyx-compat-spacing-22px)}.achievement-manage-intro{display:grid;gap:var(--nyx-compat-spacing-5px)}.achievement-manage-intro h3{margin:0;color:var(--nyx-compat-color-hex-eee9f6);font:var(--nyx-compat-font-d3044a79dc0a)}.achievement-manage-intro p{margin:var(--nyx-space-2) 0 0;color:var(--nyx-compat-color-hex-9991a6);font-size:var(--nyx-compat-size-11px);line-height:1.6}
 .achievement-file-button{position:relative}.achievement-manage-section>.achievement-file-button{justify-self:start;min-height:44px}.achievement-file-button input{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.achievement-methods{display:grid;gap:var(--nyx-space-10)}.achievement-method{display:grid;gap:var(--nyx-space-8);padding:var(--nyx-space-14);border:1px solid var(--nyx-compat-color-0d923d38199d);border-radius:var(--nyx-compat-radius-12px);background:var(--nyx-compat-color-99cc84676c14)}.achievement-method>div{display:flex;align-items:center;justify-content:space-between;gap:var(--nyx-space-12)}.achievement-method strong{color:var(--nyx-compat-color-hex-eee9f6);font-size:var(--nyx-compat-size-12px)}.achievement-method em{padding:var(--nyx-space-4) var(--nyx-space-8);border:1px solid currentColor;border-radius:999px;color:var(--nyx-compat-color-hex-a89bc0);font-size:var(--nyx-type-caption);font-style:normal;letter-spacing:var(--nyx-compat-tracking-p06em);text-transform:uppercase}.achievement-method p{margin:0;color:var(--nyx-compat-color-hex-9991a6);font-size:var(--nyx-compat-size-10p5px);line-height:1.5}.achievement-method.status-available{border-color:var(--nyx-compat-color-e88900b28d3d)}.achievement-method.status-available em{color:var(--nyx-compat-color-hex-bdebd7)}.achievement-method .achievement-file-button{justify-self:start;margin-top:var(--nyx-space-4)}.achievement-binding-note{grid-column:1/-1!important;margin:0!important;padding:var(--nyx-space-8);border-left:2px solid var(--ach-accent);color:var(--nyx-compat-color-hex-bdebd7)!important}
+.achievement-method .achievement-method-actions{display:flex;flex-wrap:wrap;justify-content:flex-start;gap:var(--nyx-space-6);margin-top:var(--nyx-space-2)}.achievement-method-actions :is(a,button){display:inline-grid;min-height:36px;box-sizing:border-box;place-items:center;padding:var(--nyx-space-6) var(--nyx-space-10);border:1px solid var(--nyx-compat-color-5c973303966c);border-radius:var(--nyx-compat-radius-9px);background:var(--nyx-compat-color-3972e28257b7);color:var(--nyx-compat-color-hex-eeeaff);font:var(--nyx-compat-font-e37578d7a6e4);letter-spacing:var(--nyx-compat-tracking-p04em);text-decoration:none;cursor:pointer}.achievement-method-actions :is(a,button):hover{border-color:var(--nyx-compat-color-50d15e5722b0);background:var(--nyx-compat-color-584febac5703)}.achievement-method-actions a:focus-visible{outline:2px solid var(--ach-accent);outline-offset:2px}.achievement-method-notice{padding-top:var(--nyx-space-4);border-top:1px solid var(--nyx-compat-color-1ef7f9315602);color:var(--nyx-compat-color-hex-a89bc0);font-size:var(--nyx-compat-size-10p5px)}.achievement-method-notice summary{cursor:pointer;font-weight:var(--nyx-weight-bold)}.achievement-method-notice p{margin-top:var(--nyx-space-8)}.achievement-method-notice code{display:block;margin-top:var(--nyx-space-8);padding:var(--nyx-space-8);border-radius:var(--nyx-radius-control);background:var(--nyx-compat-color-7ef3d5af1100);color:var(--nyx-compat-color-hex-d7d0e0);font-size:var(--nyx-type-caption);overflow-wrap:anywhere;user-select:all}
 .achievement-file-button[aria-disabled="true"]{cursor:not-allowed;opacity:.48}
 .achievement-import-mode{display:grid;gap:var(--nyx-space-8);margin:0;padding:var(--nyx-space-12);border:1px solid var(--nyx-compat-color-0d923d38199d);border-radius:var(--nyx-compat-radius-12px)}.achievement-import-mode legend{padding:0 var(--nyx-compat-spacing-5px);color:var(--nyx-compat-color-hex-8e869d);font-size:var(--nyx-type-caption);font-weight:var(--nyx-weight-extrabold);letter-spacing:var(--nyx-compat-tracking-p09em);text-transform:uppercase}.achievement-import-mode label{display:flex;align-items:flex-start;gap:var(--nyx-compat-spacing-9px);padding:var(--nyx-compat-spacing-9px);border-radius:var(--nyx-radius-control);background:var(--nyx-compat-color-99cc84676c14)}.achievement-import-mode input{margin-top:var(--nyx-compat-spacing-3px);accent-color:var(--ach-violet)}.achievement-import-mode span{display:grid;gap:var(--nyx-compat-spacing-3px)}.achievement-import-mode b{color:var(--nyx-compat-color-hex-d7d0e2);font-size:var(--nyx-compat-size-11px)}.achievement-import-mode small{color:var(--nyx-compat-color-hex-898195);font-size:var(--nyx-type-caption);line-height:1.45}
 .achievement-manage .achievement-import-preview{display:grid;grid-template-columns:repeat(4,1fr);gap:var(--nyx-space-8);padding:var(--nyx-space-14);border:1px solid var(--nyx-compat-color-6d2c3e54b1b0);border-radius:var(--nyx-compat-radius-12px);background:var(--nyx-compat-color-885f85cc3a5a)}.achievement-manage .achievement-import-preview>div{min-width:0}.achievement-manage .achievement-import-preview .danger b{color:var(--nyx-compat-color-hex-ff9daf)}.achievement-manage .achievement-import-preview>p,.achievement-replace-confirm,.achievement-import-actions{grid-column:1/-1}.achievement-manage .achievement-import-preview>p{margin:var(--nyx-space-6) 0 0;color:var(--nyx-compat-color-hex-9991a5);font-size:var(--nyx-compat-size-9p5px);line-height:1.5}.achievement-manage .achievement-import-preview>p strong{color:var(--nyx-compat-color-hex-d7d0e0)}.achievement-replace-confirm{display:flex;align-items:flex-start;gap:var(--nyx-space-8);padding:var(--nyx-compat-spacing-9px);border:1px solid var(--nyx-compat-color-b277798fe000);border-radius:var(--nyx-radius-control);color:var(--nyx-compat-color-hex-d7a8b2);font-size:var(--nyx-compat-size-9p5px);line-height:1.4}.achievement-replace-confirm input{accent-color:var(--nyx-compat-color-hex-ff748f)}.achievement-import-actions{display:flex;gap:var(--nyx-compat-spacing-7px);margin-top:var(--nyx-compat-spacing-3px)}
@@ -7616,23 +7870,14 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 /* underline rail */
 :is(.cm-tabs .gp-section-nav-button.on, .cm-character-tabs button.on, .gt-mode-tabs button.on, .gt-import-tab.on, .db-tabs button.on,
   .wonder-tabs button.on, .tcg-tabs button.on, .pot-tabs button.on, .gp-fav-modes button.on):nth-child(n)::after{
-  content:""; position:absolute; left:var(--nyx-space-18); right:var(--nyx-space-18); bottom:0; height:1.5px;
-  background:linear-gradient(90deg,
-    var(--nyx-color-accent-bright) 0,
-    var(--nyx-color-accent-bright) calc(50% - 18px), transparent calc(50% - 15px),
-    transparent calc(50% + 15px), var(--nyx-color-accent-bright) calc(50% + 18px),
-    var(--nyx-color-accent-bright) 100%);
-  box-shadow:0 0 7px rgba(139,123,255,.6);
+  content:""; position:absolute; left:var(--nyx-space-12); right:var(--nyx-space-12); bottom:2px; height:2px;
+  border-radius:2px;
+  background:linear-gradient(90deg, transparent, var(--nyx-color-accent-bright) 22%,
+    var(--nyx-color-accent-bright) 78%, transparent);
+  box-shadow:0 0 10px rgba(139,123,255,.75), 0 0 20px rgba(139,123,255,.35);
 }
-/* the Nyx logo straddles the rail like the item-frame emblem seam */
-:is(.cm-tabs .gp-section-nav-button.on, .cm-character-tabs button.on, .gt-mode-tabs button.on, .gt-import-tab.on, .db-tabs button.on,
-  .wonder-tabs button.on, .tcg-tabs button.on, .pot-tabs button.on, .gp-fav-modes button.on):nth-child(n)::before{
-  content:""; position:absolute; left:50%; bottom:-12px; width:27px; height:27px; transform:translateX(-50%);
-  background:linear-gradient(165deg, #f3f0ff, var(--nyx-color-accent-bright) 60%, var(--nyx-color-accent));
-  -webkit-mask:url('../../assets/decor/nyx_eye_line.png') center/contain no-repeat;
-  mask:url('../../assets/decor/nyx_eye_line.png') center/contain no-repeat;
-  filter:drop-shadow(0 0 4px rgba(139,123,255,.7));
-}
+/* The emblem that straddled the old rail was removed 2026-08-08; the
+   underline above is the whole indicator now. */
 /* tab-group housekeeping: no leftover markers, bars must not clip the emblem */
 .cm-tabs .gp-section-nav-button .dia, .cm-tabs .gp-section-nav-button .go{ display:none; }
 .cm-tabs, .cm-character-tabs, .db-tabs, .wonder-tabs, .tcg-tabs, .pot-tabs, .gp-fav-modes, .gt-mode-tabs{ overflow:visible; padding-bottom:var(--nyx-space-10); }
@@ -7646,3 +7891,18 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 .gp-fav-visibility.gp-fav-visibility{ clip-path:none; background:transparent; box-shadow:none; border-radius:0;
   font-family:var(--nyx-font-display); font-weight:var(--nyx-weight-regular); letter-spacing:.18em; color:var(--nyx-color-text-faint); text-transform:uppercase; }
 .gp-fav-visibility.gp-fav-visibility:hover,.gp-fav-visibility.gp-fav-visibility:focus-visible{ color:var(--nyx-color-text-soft); background:transparent; }
+
+/* ===== overview board: one frame per column =============================
+   Must live after the shared-surface block above — an :is() selector takes
+   the specificity of its most specific argument, so a plain
+   `.gp-ov-timers .gp-reset-panel` loses to it. */
+/* Three classes deep to outrank the shared-surface :is() above. */
+.gp-ov-side.gp-ov-timers .gp-reset-panel{ padding:0; background:none; box-shadow:none; border:0; border-radius:0; }
+/* Re-assert the pill on Custom: the generic switch-button rule that strips
+   chrome from the server segments also matches it. */
+.nyx-time-pref-switch button.nyx-time-pref-custom{
+  padding:0 var(--nyx-space-14);
+  border:1px solid var(--nyx-compat-color-fe41f066fa45);
+  border-radius:var(--nyx-radius-pill);
+  background:var(--nyx-compat-color-0708ad8b00ca);
+}

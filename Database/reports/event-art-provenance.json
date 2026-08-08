@@ -1,0 +1,873 @@
+{
+  "schemaVersion": 1,
+  "generatedBy": "Scraper/events/art.mjs",
+  "generatedAt": "2026-08-08T11:49:49.723Z",
+  "runtimeHotlinks": false,
+  "licenseClaim": null,
+  "games": [
+    "endfield",
+    "gi",
+    "hsr",
+    "wuwa",
+    "zzz"
+  ],
+  "art": [
+    {
+      "game": "endfield",
+      "fileName": "08cd874848f9871273dd086591c4dce7cf0bc883288361e7277b633c52ac369f.jpg",
+      "sourceUrl": "https://web-static.hg-cdn.com/upload/image/20260623/94a24581d688ef409392c8c5acc72ee4.jpg",
+      "requestUrl": "https://web-static.hg-cdn.com/upload/image/20260623/94a24581d688ef409392c8c5acc72ee4.jpg?x-oss-process=image%2Fresize%2Cw_960%2Fquality%2Cq_80",
+      "runtimePath": "/assets/events/endfield/08cd874848f9871273dd086591c4dce7cf0bc883288361e7277b633c52ac369f.jpg",
+      "localPath": "Site/assets/events/endfield/08cd874848f9871273dd086591c4dce7cf0bc883288361e7277b633c52ac369f.jpg",
+      "sha256": "08cd874848f9871273dd086591c4dce7cf0bc883288361e7277b633c52ac369f",
+      "bytes": 109946,
+      "mediaType": "image/jpeg",
+      "width": 960,
+      "height": 540,
+      "etag": "\"94A24581D688EF409392C8C5ACC72EE4\"",
+      "lastModified": "Tue, 23 Jun 2026 08:38:22 GMT",
+      "retrievedAt": "2026-08-08T00:08:26.163Z",
+      "eventIds": [
+        "endfield-gryphline-bulletin-df461d8be80e"
+      ]
+    },
+    {
+      "game": "endfield",
+      "fileName": "55faef2cb1d4aebb47f4e69310ab0b6541f04cf681afecd20b6e4cdec7cbf4b4.jpg",
+      "sourceUrl": "https://web-static.hg-cdn.com/upload/image/20260415/a2c29eb120c83c92d086e86df1c1760e.jpg",
+      "requestUrl": "https://web-static.hg-cdn.com/upload/image/20260415/a2c29eb120c83c92d086e86df1c1760e.jpg?x-oss-process=image%2Fresize%2Cw_960%2Fquality%2Cq_80",
+      "runtimePath": "/assets/events/endfield/55faef2cb1d4aebb47f4e69310ab0b6541f04cf681afecd20b6e4cdec7cbf4b4.jpg",
+      "localPath": "Site/assets/events/endfield/55faef2cb1d4aebb47f4e69310ab0b6541f04cf681afecd20b6e4cdec7cbf4b4.jpg",
+      "sha256": "55faef2cb1d4aebb47f4e69310ab0b6541f04cf681afecd20b6e4cdec7cbf4b4",
+      "bytes": 116533,
+      "mediaType": "image/jpeg",
+      "width": 960,
+      "height": 540,
+      "etag": "\"A2C29EB120C83C92D086E86DF1C1760E\"",
+      "lastModified": "Wed, 15 Apr 2026 07:06:47 GMT",
+      "retrievedAt": "2026-08-08T00:08:26.163Z",
+      "eventIds": [
+        "endfield-gryphline-bulletin-e38e1c313d93"
+      ]
+    },
+    {
+      "game": "endfield",
+      "fileName": "8f52d4bece0d50b2921acf84df9df243fb5dd6021cb62b9fe8bcc6b3162d5383.jpg",
+      "sourceUrl": "https://web-static.hg-cdn.com/upload/image/20260509/de1036fad914efaa6908cbf394c46916.jpg",
+      "requestUrl": "https://web-static.hg-cdn.com/upload/image/20260509/de1036fad914efaa6908cbf394c46916.jpg?x-oss-process=image%2Fresize%2Cw_960%2Fquality%2Cq_80",
+      "runtimePath": "/assets/events/endfield/8f52d4bece0d50b2921acf84df9df243fb5dd6021cb62b9fe8bcc6b3162d5383.jpg",
+      "localPath": "Site/assets/events/endfield/8f52d4bece0d50b2921acf84df9df243fb5dd6021cb62b9fe8bcc6b3162d5383.jpg",
+      "sha256": "8f52d4bece0d50b2921acf84df9df243fb5dd6021cb62b9fe8bcc6b3162d5383",
+      "bytes": 72412,
+      "mediaType": "image/jpeg",
+      "width": 960,
+      "height": 540,
+      "etag": "\"DE1036FAD914EFAA6908CBF394C46916\"",
+      "lastModified": "Sat, 09 May 2026 06:12:05 GMT",
+      "retrievedAt": "2026-08-08T00:08:26.163Z",
+      "eventIds": [
+        "endfield-gryphline-bulletin-734a0f7abac7"
+      ]
+    },
+    {
+      "game": "endfield",
+      "fileName": "a4622dbc20fc359342a99103b4a26f2fcb92a06b69c2ff93a3db1315f355b76d.jpg",
+      "sourceUrl": "https://web-static.hg-cdn.com/upload/image/20260508/fc997b32648f9c305a9f53ccfef096c4.jpg",
+      "requestUrl": "https://web-static.hg-cdn.com/upload/image/20260508/fc997b32648f9c305a9f53ccfef096c4.jpg?x-oss-process=image%2Fresize%2Cw_960%2Fquality%2Cq_80",
+      "runtimePath": "/assets/events/endfield/a4622dbc20fc359342a99103b4a26f2fcb92a06b69c2ff93a3db1315f355b76d.jpg",
+      "localPath": "Site/assets/events/endfield/a4622dbc20fc359342a99103b4a26f2fcb92a06b69c2ff93a3db1315f355b76d.jpg",
+      "sha256": "a4622dbc20fc359342a99103b4a26f2fcb92a06b69c2ff93a3db1315f355b76d",
+      "bytes": 117520,
+      "mediaType": "image/jpeg",
+      "width": 960,
+      "height": 540,
+      "etag": "\"FC997B32648F9C305A9F53CCFEF096C4\"",
+      "lastModified": "Fri, 08 May 2026 07:02:45 GMT",
+      "retrievedAt": "2026-08-08T00:08:26.163Z",
+      "eventIds": [
+        "endfield-gryphline-bulletin-d50d83765558"
+      ]
+    },
+    {
+      "game": "endfield",
+      "fileName": "a7a0859195a930ecb744b132a2e46d0f5bfd8d51dc692a9890b36c2db73ff6d9.png",
+      "sourceUrl": "https://web-static.hg-cdn.com/upload/image/20260602/5a12d7c068f0fe9f774025c1f4f97876.png",
+      "requestUrl": "https://web-static.hg-cdn.com/upload/image/20260602/5a12d7c068f0fe9f774025c1f4f97876.png?x-oss-process=image%2Fresize%2Cw_960%2Fquality%2Cq_80",
+      "runtimePath": "/assets/events/endfield/a7a0859195a930ecb744b132a2e46d0f5bfd8d51dc692a9890b36c2db73ff6d9.png",
+      "localPath": "Site/assets/events/endfield/a7a0859195a930ecb744b132a2e46d0f5bfd8d51dc692a9890b36c2db73ff6d9.png",
+      "sha256": "a7a0859195a930ecb744b132a2e46d0f5bfd8d51dc692a9890b36c2db73ff6d9",
+      "bytes": 993376,
+      "mediaType": "image/png",
+      "width": 960,
+      "height": 540,
+      "etag": "\"5A12D7C068F0FE9F774025C1F4F97876\"",
+      "lastModified": "Tue, 02 Jun 2026 06:58:55 GMT",
+      "retrievedAt": "2026-08-08T00:08:26.163Z",
+      "eventIds": [
+        "endfield-gryphline-bulletin-d601e56b5de8"
+      ]
+    },
+    {
+      "game": "endfield",
+      "fileName": "d9beb6485d939eec496e8361517b2f41e8579d5d564b3b635aedb7d6a2b5adb5.jpg",
+      "sourceUrl": "https://web-static.hg-cdn.com/upload/image/20260508/2f6a10a3178792fa72cfc1cf7dbc24db.jpg",
+      "requestUrl": "https://web-static.hg-cdn.com/upload/image/20260508/2f6a10a3178792fa72cfc1cf7dbc24db.jpg?x-oss-process=image%2Fresize%2Cw_960%2Fquality%2Cq_80",
+      "runtimePath": "/assets/events/endfield/d9beb6485d939eec496e8361517b2f41e8579d5d564b3b635aedb7d6a2b5adb5.jpg",
+      "localPath": "Site/assets/events/endfield/d9beb6485d939eec496e8361517b2f41e8579d5d564b3b635aedb7d6a2b5adb5.jpg",
+      "sha256": "d9beb6485d939eec496e8361517b2f41e8579d5d564b3b635aedb7d6a2b5adb5",
+      "bytes": 67878,
+      "mediaType": "image/jpeg",
+      "width": 960,
+      "height": 540,
+      "etag": "\"2F6A10A3178792FA72CFC1CF7DBC24DB\"",
+      "lastModified": "Fri, 08 May 2026 08:00:10 GMT",
+      "retrievedAt": "2026-08-08T00:08:26.163Z",
+      "eventIds": [
+        "endfield-gryphline-bulletin-245c88274682"
+      ]
+    },
+    {
+      "game": "endfield",
+      "fileName": "fee417039b96c088c12f10b92a6e195aa2ecab7aeec21e60ac010f7e3b5e484d.jpg",
+      "sourceUrl": "https://web-static.hg-cdn.com/upload/image/20260623/8a718964566924b548a48277f5d9a081.jpg",
+      "requestUrl": "https://web-static.hg-cdn.com/upload/image/20260623/8a718964566924b548a48277f5d9a081.jpg?x-oss-process=image%2Fresize%2Cw_960%2Fquality%2Cq_80",
+      "runtimePath": "/assets/events/endfield/fee417039b96c088c12f10b92a6e195aa2ecab7aeec21e60ac010f7e3b5e484d.jpg",
+      "localPath": "Site/assets/events/endfield/fee417039b96c088c12f10b92a6e195aa2ecab7aeec21e60ac010f7e3b5e484d.jpg",
+      "sha256": "fee417039b96c088c12f10b92a6e195aa2ecab7aeec21e60ac010f7e3b5e484d",
+      "bytes": 74858,
+      "mediaType": "image/jpeg",
+      "width": 960,
+      "height": 540,
+      "etag": "\"8A718964566924B548A48277F5D9A081\"",
+      "lastModified": "Tue, 23 Jun 2026 07:38:44 GMT",
+      "retrievedAt": "2026-08-08T00:08:26.163Z",
+      "eventIds": [
+        "endfield-gryphline-bulletin-ac9f742eafce"
+      ]
+    },
+    {
+      "game": "gi",
+      "fileName": "6db5e1992f2a4efa450d1d6b3068b2405271155912bd152828f72fc1b26b9f85.jpg",
+      "sourceUrl": "https://sdk.hoyoverse.com/upload/ann/2026/06/17/4c699b74ef0c77158a7f28e62ba2d7ec_6267956826869874359_transformed.jpg",
+      "runtimePath": "/assets/events/gi/6db5e1992f2a4efa450d1d6b3068b2405271155912bd152828f72fc1b26b9f85.jpg",
+      "localPath": "Site/assets/events/gi/6db5e1992f2a4efa450d1d6b3068b2405271155912bd152828f72fc1b26b9f85.jpg",
+      "sha256": "6db5e1992f2a4efa450d1d6b3068b2405271155912bd152828f72fc1b26b9f85",
+      "bytes": 466279,
+      "mediaType": "image/jpeg",
+      "etag": "\"4c699b74ef0c77158a7f28e62ba2d7ec\"",
+      "lastModified": "Wed, 17 Jun 2026 15:42:00 GMT",
+      "retrievedAt": "2026-08-07T23:44:38.917Z",
+      "eventIds": [
+        "gi-hoyo-ann-82ebf8a67d40"
+      ],
+      "width": 1080,
+      "height": 390,
+      "requestUrl": null
+    },
+    {
+      "game": "gi",
+      "fileName": "8ca09e333bf0769359e92440121d03ebea73f70f62794bdf06c7e5a011a24802.png",
+      "sourceUrl": "https://sdk.hoyoverse.com/upload/ann/2026/04/14/f77abe8a6f4104f1229db987e2c4280a_2209363618000115098_transformed.png",
+      "runtimePath": "/assets/events/gi/8ca09e333bf0769359e92440121d03ebea73f70f62794bdf06c7e5a011a24802.png",
+      "localPath": "Site/assets/events/gi/8ca09e333bf0769359e92440121d03ebea73f70f62794bdf06c7e5a011a24802.png",
+      "sha256": "8ca09e333bf0769359e92440121d03ebea73f70f62794bdf06c7e5a011a24802",
+      "bytes": 590001,
+      "mediaType": "image/png",
+      "etag": "\"f77abe8a6f4104f1229db987e2c4280a\"",
+      "lastModified": "Tue, 14 Apr 2026 04:37:19 GMT",
+      "retrievedAt": "2026-08-07T23:44:38.917Z",
+      "eventIds": [
+        "gi-hoyo-ann-a32a219bfe08",
+        "gi-hoyo-ann-7b9c2d416fd2"
+      ],
+      "width": 1080,
+      "height": 390,
+      "requestUrl": null
+    },
+    {
+      "game": "gi",
+      "fileName": "a45ad17f606d93dd17df137a05651940e1b2b9dffd893853be3ef722624013e4.jpg",
+      "sourceUrl": "https://sdk.hoyoverse.com/upload/ann/2022/12/07/d76cdab75f5f952a213e564f6b0a5a51_4833124728348338813.jpg",
+      "runtimePath": "/assets/events/gi/a45ad17f606d93dd17df137a05651940e1b2b9dffd893853be3ef722624013e4.jpg",
+      "localPath": "Site/assets/events/gi/a45ad17f606d93dd17df137a05651940e1b2b9dffd893853be3ef722624013e4.jpg",
+      "sha256": "a45ad17f606d93dd17df137a05651940e1b2b9dffd893853be3ef722624013e4",
+      "bytes": 120520,
+      "mediaType": "image/jpeg",
+      "etag": "\"d76cdab75f5f952a213e564f6b0a5a51\"",
+      "lastModified": "Wed, 07 Dec 2022 08:33:50 GMT",
+      "retrievedAt": "2026-08-07T23:44:38.917Z",
+      "eventIds": [
+        "gi-hoyo-ann-092fe78454ec"
+      ],
+      "width": 1080,
+      "height": 390,
+      "requestUrl": null
+    },
+    {
+      "game": "gi",
+      "fileName": "aabd4bf22141c3b56f357db4c5930ebcfc52caec6b5d688468141b6d99d75199.jpg",
+      "sourceUrl": "https://sdk.hoyoverse.com/upload/ann/2025/10/23/40da7ab1ce17afd008e7a10c6ee6e67b_3372052251159312794_transformed.jpg",
+      "runtimePath": "/assets/events/gi/aabd4bf22141c3b56f357db4c5930ebcfc52caec6b5d688468141b6d99d75199.jpg",
+      "localPath": "Site/assets/events/gi/aabd4bf22141c3b56f357db4c5930ebcfc52caec6b5d688468141b6d99d75199.jpg",
+      "sha256": "aabd4bf22141c3b56f357db4c5930ebcfc52caec6b5d688468141b6d99d75199",
+      "bytes": 301464,
+      "mediaType": "image/jpeg",
+      "etag": "\"40da7ab1ce17afd008e7a10c6ee6e67b\"",
+      "lastModified": "Thu, 23 Oct 2025 03:52:00 GMT",
+      "retrievedAt": "2026-08-07T23:44:38.917Z",
+      "eventIds": [
+        "gi-hoyo-ann-5e481c62dc26"
+      ],
+      "width": 1080,
+      "height": 390,
+      "requestUrl": null
+    },
+    {
+      "game": "gi",
+      "fileName": "abd937b8672c5d179d3b04bfac290944c659f46b53935ec7689bbbcd1818cb82.jpg",
+      "sourceUrl": "https://sdk.hoyoverse.com/upload/ann/2026/06/22/aa1488b9c8d8d73bd56ced0858a3396c_6315014316295833258_transformed.jpg",
+      "runtimePath": "/assets/events/gi/abd937b8672c5d179d3b04bfac290944c659f46b53935ec7689bbbcd1818cb82.jpg",
+      "localPath": "Site/assets/events/gi/abd937b8672c5d179d3b04bfac290944c659f46b53935ec7689bbbcd1818cb82.jpg",
+      "sha256": "abd937b8672c5d179d3b04bfac290944c659f46b53935ec7689bbbcd1818cb82",
+      "bytes": 463587,
+      "mediaType": "image/jpeg",
+      "etag": "\"aa1488b9c8d8d73bd56ced0858a3396c\"",
+      "lastModified": "Mon, 22 Jun 2026 07:23:20 GMT",
+      "retrievedAt": "2026-08-07T23:44:38.917Z",
+      "eventIds": [
+        "gi-hoyo-ann-b73309f9d348"
+      ],
+      "width": 1080,
+      "height": 390,
+      "requestUrl": null
+    },
+    {
+      "game": "hsr",
+      "fileName": "3b36516edb600c7829a0a9dee92af8ab65f72c81b1d21726cb8df3e3eda51197.png",
+      "sourceUrl": "https://sdk.hoyoverse.com/upload/ann/2026/06/24/450bc8bfaf6dc417040b87b6ed1614b3_5263025625287342635_transformed.png",
+      "requestUrl": null,
+      "runtimePath": "/assets/events/hsr/3b36516edb600c7829a0a9dee92af8ab65f72c81b1d21726cb8df3e3eda51197.png",
+      "localPath": "Site/assets/events/hsr/3b36516edb600c7829a0a9dee92af8ab65f72c81b1d21726cb8df3e3eda51197.png",
+      "sha256": "3b36516edb600c7829a0a9dee92af8ab65f72c81b1d21726cb8df3e3eda51197",
+      "bytes": 512537,
+      "mediaType": "image/png",
+      "width": 2150,
+      "height": 400,
+      "etag": "\"450bc8bfaf6dc417040b87b6ed1614b3\"",
+      "lastModified": "Wed, 24 Jun 2026 07:33:34 GMT",
+      "retrievedAt": "2026-08-08T11:49:49.723Z",
+      "eventIds": [
+        "hsr-hoyo-ann-12c1a7a21c89"
+      ]
+    },
+    {
+      "game": "hsr",
+      "fileName": "4323bfc92e8cf0e2d986f2b49a7e557ad6fbdb757f32bf43d2733a01a1e360f7.png",
+      "sourceUrl": "https://sdk.hoyoverse.com/upload/ann/2026/06/22/7d5eeebab1c60716249e3c8e3bcdcac6_3528540804291998260_transformed.png",
+      "runtimePath": "/assets/events/hsr/4323bfc92e8cf0e2d986f2b49a7e557ad6fbdb757f32bf43d2733a01a1e360f7.png",
+      "localPath": "Site/assets/events/hsr/4323bfc92e8cf0e2d986f2b49a7e557ad6fbdb757f32bf43d2733a01a1e360f7.png",
+      "sha256": "4323bfc92e8cf0e2d986f2b49a7e557ad6fbdb757f32bf43d2733a01a1e360f7",
+      "bytes": 1067535,
+      "mediaType": "image/png",
+      "etag": "\"7d5eeebab1c60716249e3c8e3bcdcac6\"",
+      "lastModified": "Mon, 22 Jun 2026 03:18:53 GMT",
+      "retrievedAt": "2026-08-07T23:44:38.917Z",
+      "eventIds": [
+        "hsr-hoyo-ann-cf76d1646b14"
+      ],
+      "width": 1380,
+      "height": 400,
+      "requestUrl": null
+    },
+    {
+      "game": "hsr",
+      "fileName": "4bf78cbe301d96400af64abce9bd4fec2d883f7a644efc9a5d0c3d21c3203a7a.png",
+      "sourceUrl": "https://sdk.hoyoverse.com/upload/ann/2026/03/30/cd3c10c6f7c57d57c904f8d1cbc50d19_5779746695763487082_transformed.png",
+      "requestUrl": null,
+      "runtimePath": "/assets/events/hsr/4bf78cbe301d96400af64abce9bd4fec2d883f7a644efc9a5d0c3d21c3203a7a.png",
+      "localPath": "Site/assets/events/hsr/4bf78cbe301d96400af64abce9bd4fec2d883f7a644efc9a5d0c3d21c3203a7a.png",
+      "sha256": "4bf78cbe301d96400af64abce9bd4fec2d883f7a644efc9a5d0c3d21c3203a7a",
+      "bytes": 1198816,
+      "mediaType": "image/png",
+      "width": 2150,
+      "height": 400,
+      "etag": "\"cd3c10c6f7c57d57c904f8d1cbc50d19\"",
+      "lastModified": "Mon, 30 Mar 2026 06:08:03 GMT",
+      "retrievedAt": "2026-08-08T11:49:49.723Z",
+      "eventIds": [
+        "hsr-hoyo-ann-df1a5352d767"
+      ]
+    },
+    {
+      "game": "hsr",
+      "fileName": "869a0a01780023886bf7515002180a25e49f6007c506a064174414248d8aa368.png",
+      "sourceUrl": "https://sdk.hoyoverse.com/upload/ann/2026/06/29/276b3bcff9aa66932922ef3b6c0fb1e3_5191922040982705460_transformed.png",
+      "requestUrl": null,
+      "runtimePath": "/assets/events/hsr/869a0a01780023886bf7515002180a25e49f6007c506a064174414248d8aa368.png",
+      "localPath": "Site/assets/events/hsr/869a0a01780023886bf7515002180a25e49f6007c506a064174414248d8aa368.png",
+      "sha256": "869a0a01780023886bf7515002180a25e49f6007c506a064174414248d8aa368",
+      "bytes": 827451,
+      "mediaType": "image/png",
+      "width": 2150,
+      "height": 400,
+      "etag": "\"276b3bcff9aa66932922ef3b6c0fb1e3\"",
+      "lastModified": "Mon, 29 Jun 2026 07:55:29 GMT",
+      "retrievedAt": "2026-08-08T11:49:49.723Z",
+      "eventIds": [
+        "hsr-hoyo-ann-5869c3577b20"
+      ]
+    },
+    {
+      "game": "hsr",
+      "fileName": "98310d03bd63f9ae262601083ef2cc1a2c3d87d2c44b043f443dc7cdef223fe2.png",
+      "sourceUrl": "https://sdk.hoyoverse.com/upload/ann/2026/03/09/fea61861df24328bbd2028388395a222_8993110275882433125_transformed.png",
+      "requestUrl": null,
+      "runtimePath": "/assets/events/hsr/98310d03bd63f9ae262601083ef2cc1a2c3d87d2c44b043f443dc7cdef223fe2.png",
+      "localPath": "Site/assets/events/hsr/98310d03bd63f9ae262601083ef2cc1a2c3d87d2c44b043f443dc7cdef223fe2.png",
+      "sha256": "98310d03bd63f9ae262601083ef2cc1a2c3d87d2c44b043f443dc7cdef223fe2",
+      "bytes": 845376,
+      "mediaType": "image/png",
+      "width": 2150,
+      "height": 400,
+      "etag": "\"fea61861df24328bbd2028388395a222\"",
+      "lastModified": "Mon, 09 Mar 2026 07:38:40 GMT",
+      "retrievedAt": "2026-08-08T11:49:49.723Z",
+      "eventIds": [
+        "hsr-hoyo-ann-77749febed58"
+      ]
+    },
+    {
+      "game": "hsr",
+      "fileName": "b2a0883263abbc135cde6231a342f5de1dedacc67d27230fd30324b57251f863.png",
+      "sourceUrl": "https://sdk.hoyoverse.com/upload/ann/2026/06/16/d1324a2d2cc1f67044912fe265ae7e04_2625697754223549346_transformed.png",
+      "requestUrl": null,
+      "runtimePath": "/assets/events/hsr/b2a0883263abbc135cde6231a342f5de1dedacc67d27230fd30324b57251f863.png",
+      "localPath": "Site/assets/events/hsr/b2a0883263abbc135cde6231a342f5de1dedacc67d27230fd30324b57251f863.png",
+      "sha256": "b2a0883263abbc135cde6231a342f5de1dedacc67d27230fd30324b57251f863",
+      "bytes": 1199996,
+      "mediaType": "image/png",
+      "width": 2150,
+      "height": 400,
+      "etag": "\"d1324a2d2cc1f67044912fe265ae7e04\"",
+      "lastModified": "Tue, 16 Jun 2026 11:29:48 GMT",
+      "retrievedAt": "2026-08-08T11:49:49.723Z",
+      "eventIds": [
+        "hsr-hoyo-ann-38b45482599c"
+      ]
+    },
+    {
+      "game": "hsr",
+      "fileName": "c37212ec4cf6f3f79a4a51d7ad7f3b0db79966535b8728808d4c9ef152c29c78.png",
+      "sourceUrl": "https://sdk.hoyoverse.com/upload/ann/2026/06/15/48c41f43d9706434153a79638dbcff01_3846581851814535141_transformed.png",
+      "requestUrl": null,
+      "runtimePath": "/assets/events/hsr/c37212ec4cf6f3f79a4a51d7ad7f3b0db79966535b8728808d4c9ef152c29c78.png",
+      "localPath": "Site/assets/events/hsr/c37212ec4cf6f3f79a4a51d7ad7f3b0db79966535b8728808d4c9ef152c29c78.png",
+      "sha256": "c37212ec4cf6f3f79a4a51d7ad7f3b0db79966535b8728808d4c9ef152c29c78",
+      "bytes": 629852,
+      "mediaType": "image/png",
+      "width": 1120,
+      "height": 340,
+      "etag": "\"48c41f43d9706434153a79638dbcff01\"",
+      "lastModified": "Mon, 15 Jun 2026 05:43:30 GMT",
+      "retrievedAt": "2026-08-08T11:49:49.723Z",
+      "eventIds": [
+        "hsr-hoyo-ann-59582dfb96bb"
+      ]
+    },
+    {
+      "game": "hsr",
+      "fileName": "f1135736275fde8e5a8d47ccf6c761f9bc18665ce0f872e01ab1aa5b676cf5f8.png",
+      "sourceUrl": "https://sdk.hoyoverse.com/upload/ann/2026/06/15/03d8c2e61620c3be3c974864664f7f42_660567637651939025_transformed.png",
+      "requestUrl": null,
+      "runtimePath": "/assets/events/hsr/f1135736275fde8e5a8d47ccf6c761f9bc18665ce0f872e01ab1aa5b676cf5f8.png",
+      "localPath": "Site/assets/events/hsr/f1135736275fde8e5a8d47ccf6c761f9bc18665ce0f872e01ab1aa5b676cf5f8.png",
+      "sha256": "f1135736275fde8e5a8d47ccf6c761f9bc18665ce0f872e01ab1aa5b676cf5f8",
+      "bytes": 784233,
+      "mediaType": "image/png",
+      "width": 2150,
+      "height": 400,
+      "etag": "\"03d8c2e61620c3be3c974864664f7f42\"",
+      "lastModified": "Mon, 15 Jun 2026 05:05:47 GMT",
+      "retrievedAt": "2026-08-08T11:49:49.723Z",
+      "eventIds": [
+        "hsr-hoyo-ann-ca5a1c47222c"
+      ]
+    },
+    {
+      "game": "hsr",
+      "fileName": "f8db8be42060d2e8d199d417ebf04957c9730f2b52bbfddf7665cd4d0cc831bf.png",
+      "sourceUrl": "https://sdk.hoyoverse.com/upload/ann/2026/07/21/e089c1128e92ae4ea3427cb098f696e1_827544868028832502_transformed.png",
+      "requestUrl": null,
+      "runtimePath": "/assets/events/hsr/f8db8be42060d2e8d199d417ebf04957c9730f2b52bbfddf7665cd4d0cc831bf.png",
+      "localPath": "Site/assets/events/hsr/f8db8be42060d2e8d199d417ebf04957c9730f2b52bbfddf7665cd4d0cc831bf.png",
+      "sha256": "f8db8be42060d2e8d199d417ebf04957c9730f2b52bbfddf7665cd4d0cc831bf",
+      "bytes": 617678,
+      "mediaType": "image/png",
+      "width": 1120,
+      "height": 340,
+      "etag": "\"e089c1128e92ae4ea3427cb098f696e1\"",
+      "lastModified": "Tue, 21 Jul 2026 06:22:47 GMT",
+      "retrievedAt": "2026-08-08T11:49:49.723Z",
+      "eventIds": [
+        "hsr-hoyo-ann-093f57d0dc07"
+      ]
+    },
+    {
+      "game": "wuwa",
+      "fileName": "3b7a6e4b689e41c15f165367aa72e32995d1e38146a9c9423c4e9e21ddd7ab3f.jpg",
+      "sourceUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1785168000000/dt8d908zs3l1dapvee-1785224786169.jpg",
+      "requestUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1785168000000/dt8d908zs3l1dapvee-1785224786169.jpg?x-oss-process=image%2Fresize%2Cw_960%2Fquality%2Cq_80",
+      "runtimePath": "/assets/events/wuwa/3b7a6e4b689e41c15f165367aa72e32995d1e38146a9c9423c4e9e21ddd7ab3f.jpg",
+      "localPath": "Site/assets/events/wuwa/3b7a6e4b689e41c15f165367aa72e32995d1e38146a9c9423c4e9e21ddd7ab3f.jpg",
+      "sha256": "3b7a6e4b689e41c15f165367aa72e32995d1e38146a9c9423c4e9e21ddd7ab3f",
+      "bytes": 149017,
+      "mediaType": "image/jpeg",
+      "width": 960,
+      "height": 540,
+      "etag": "\"E5DE213BCAE6BA2D2EC8DB2CD2D304E4\"",
+      "lastModified": "Tue, 28 Jul 2026 07:46:26 GMT",
+      "retrievedAt": "2026-08-08T00:05:11.766Z",
+      "eventIds": [
+        "wuwa-kuro-article-ec83f0c0e367"
+      ]
+    },
+    {
+      "game": "wuwa",
+      "fileName": "3e02f5ec82052d84ee55e5bc2d0ba6570acae3280edd052c098d2616b6ea6d88.jpg",
+      "sourceUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1770134400000/5rx3065g886wl2zb2o-1770217878775.jpg",
+      "requestUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1770134400000/5rx3065g886wl2zb2o-1770217878775.jpg?x-oss-process=image%2Fresize%2Cw_960%2Fquality%2Cq_80",
+      "runtimePath": "/assets/events/wuwa/3e02f5ec82052d84ee55e5bc2d0ba6570acae3280edd052c098d2616b6ea6d88.jpg",
+      "localPath": "Site/assets/events/wuwa/3e02f5ec82052d84ee55e5bc2d0ba6570acae3280edd052c098d2616b6ea6d88.jpg",
+      "sha256": "3e02f5ec82052d84ee55e5bc2d0ba6570acae3280edd052c098d2616b6ea6d88",
+      "bytes": 90034,
+      "mediaType": "image/jpeg",
+      "width": 960,
+      "height": 540,
+      "etag": "\"5CB2C2CF0899A2FC806230F22F0B99FE\"",
+      "lastModified": "Wed, 04 Feb 2026 15:11:18 GMT",
+      "retrievedAt": "2026-08-08T00:08:26.163Z",
+      "eventIds": [
+        "wuwa-kuro-article-2f36ea2b1940"
+      ]
+    },
+    {
+      "game": "wuwa",
+      "fileName": "3fed1fcc56bb166dcd9ec5dd665913e180be6da4ad36dbb22c0aaa73d6fe419e.jpg",
+      "sourceUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1770048000000/i3eewavd9upvjv65ht-1770114107127.jpg",
+      "requestUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1770048000000/i3eewavd9upvjv65ht-1770114107127.jpg?x-oss-process=image%2Fresize%2Cw_960%2Fquality%2Cq_80",
+      "runtimePath": "/assets/events/wuwa/3fed1fcc56bb166dcd9ec5dd665913e180be6da4ad36dbb22c0aaa73d6fe419e.jpg",
+      "localPath": "Site/assets/events/wuwa/3fed1fcc56bb166dcd9ec5dd665913e180be6da4ad36dbb22c0aaa73d6fe419e.jpg",
+      "sha256": "3fed1fcc56bb166dcd9ec5dd665913e180be6da4ad36dbb22c0aaa73d6fe419e",
+      "bytes": 138780,
+      "mediaType": "image/jpeg",
+      "width": 960,
+      "height": 540,
+      "etag": "\"F415A6D5337C648164BD63FFF33D7EEF\"",
+      "lastModified": "Tue, 03 Feb 2026 10:21:47 GMT",
+      "retrievedAt": "2026-08-08T00:08:26.163Z",
+      "eventIds": [
+        "wuwa-kuro-article-7fd315e61307"
+      ]
+    },
+    {
+      "game": "wuwa",
+      "fileName": "421bb8ef6e02cafb02fdc441478aaf433b465ae4dc57f6d1ee3fa385f8002b3c.jpg",
+      "sourceUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1783612800000/7zkzq35o525m52cjmj-1783666245394.jpg",
+      "requestUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1783612800000/7zkzq35o525m52cjmj-1783666245394.jpg?x-oss-process=image%2Fresize%2Cw_960%2Fquality%2Cq_80",
+      "runtimePath": "/assets/events/wuwa/421bb8ef6e02cafb02fdc441478aaf433b465ae4dc57f6d1ee3fa385f8002b3c.jpg",
+      "localPath": "Site/assets/events/wuwa/421bb8ef6e02cafb02fdc441478aaf433b465ae4dc57f6d1ee3fa385f8002b3c.jpg",
+      "sha256": "421bb8ef6e02cafb02fdc441478aaf433b465ae4dc57f6d1ee3fa385f8002b3c",
+      "bytes": 86282,
+      "mediaType": "image/jpeg",
+      "width": 960,
+      "height": 540,
+      "etag": "\"0D0C5662AF26A173AEA6C4874B56293C\"",
+      "lastModified": "Fri, 10 Jul 2026 06:50:45 GMT",
+      "retrievedAt": "2026-08-08T00:05:11.766Z",
+      "eventIds": [
+        "wuwa-kuro-article-f493272cbb50"
+      ]
+    },
+    {
+      "game": "wuwa",
+      "fileName": "4cb73b61cb60219ef1ee610d896b1f18a5557ee31428eb8140c138bf66ce2fa5.jpg",
+      "sourceUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1783440000000/blfvxjrg6ikqh5g3k0-1783515945643.jpg",
+      "requestUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1783440000000/blfvxjrg6ikqh5g3k0-1783515945643.jpg?x-oss-process=image%2Fresize%2Cw_960%2Fquality%2Cq_80",
+      "runtimePath": "/assets/events/wuwa/4cb73b61cb60219ef1ee610d896b1f18a5557ee31428eb8140c138bf66ce2fa5.jpg",
+      "localPath": "Site/assets/events/wuwa/4cb73b61cb60219ef1ee610d896b1f18a5557ee31428eb8140c138bf66ce2fa5.jpg",
+      "sha256": "4cb73b61cb60219ef1ee610d896b1f18a5557ee31428eb8140c138bf66ce2fa5",
+      "bytes": 133053,
+      "mediaType": "image/jpeg",
+      "width": 960,
+      "height": 540,
+      "etag": "\"B4F5608933932C06C3464BCDB4492C8F\"",
+      "lastModified": "Wed, 08 Jul 2026 13:05:45 GMT",
+      "retrievedAt": "2026-08-08T00:05:11.766Z",
+      "eventIds": [
+        "wuwa-kuro-article-10dc1ae9d256"
+      ]
+    },
+    {
+      "game": "wuwa",
+      "fileName": "4f6d66493df4769d5046aa07b8d39ea002981a7f7aa622d970884b69874b3ec8.jpg",
+      "sourceUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1780675200000/2ilu9jvxm7hh97rve7-1780757423485.jpg",
+      "requestUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1780675200000/2ilu9jvxm7hh97rve7-1780757423485.jpg?x-oss-process=image%2Fresize%2Cw_960%2Fquality%2Cq_80",
+      "runtimePath": "/assets/events/wuwa/4f6d66493df4769d5046aa07b8d39ea002981a7f7aa622d970884b69874b3ec8.jpg",
+      "localPath": "Site/assets/events/wuwa/4f6d66493df4769d5046aa07b8d39ea002981a7f7aa622d970884b69874b3ec8.jpg",
+      "sha256": "4f6d66493df4769d5046aa07b8d39ea002981a7f7aa622d970884b69874b3ec8",
+      "bytes": 90417,
+      "mediaType": "image/jpeg",
+      "width": 960,
+      "height": 540,
+      "etag": "\"F85B39F3816A66CDF2FBBE554A3BF2F6\"",
+      "lastModified": "Sat, 06 Jun 2026 14:50:23 GMT",
+      "retrievedAt": "2026-08-08T00:08:26.163Z",
+      "eventIds": [
+        "wuwa-kuro-article-cc4e019fe91d"
+      ]
+    },
+    {
+      "game": "wuwa",
+      "fileName": "5aa0fec546da0cbbb0671baac5d35227fc77092d945b71d133a58e449be8038d.jpg",
+      "sourceUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1780848000000/4szfs6jywb5yd3w76i-1780910415682.jpg",
+      "requestUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1780848000000/4szfs6jywb5yd3w76i-1780910415682.jpg?x-oss-process=image%2Fresize%2Cw_960%2Fquality%2Cq_80",
+      "runtimePath": "/assets/events/wuwa/5aa0fec546da0cbbb0671baac5d35227fc77092d945b71d133a58e449be8038d.jpg",
+      "localPath": "Site/assets/events/wuwa/5aa0fec546da0cbbb0671baac5d35227fc77092d945b71d133a58e449be8038d.jpg",
+      "sha256": "5aa0fec546da0cbbb0671baac5d35227fc77092d945b71d133a58e449be8038d",
+      "bytes": 105604,
+      "mediaType": "image/jpeg",
+      "width": 960,
+      "height": 540,
+      "etag": "\"2180E8F10FF954C9C7AE5AFD9D0FE260\"",
+      "lastModified": "Mon, 08 Jun 2026 09:20:15 GMT",
+      "retrievedAt": "2026-08-08T00:08:26.163Z",
+      "eventIds": [
+        "wuwa-kuro-article-09c96389754d"
+      ]
+    },
+    {
+      "game": "wuwa",
+      "fileName": "73898b2a2366bd668123c3a23419117a9743c93a29e8ed4f94c6bb7c2186e4e9.jpg",
+      "sourceUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1785254400000/a54ek839a2wlpo0r3j-1785315495269.jpg",
+      "requestUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1785254400000/a54ek839a2wlpo0r3j-1785315495269.jpg?x-oss-process=image%2Fresize%2Cw_960%2Fquality%2Cq_80",
+      "runtimePath": "/assets/events/wuwa/73898b2a2366bd668123c3a23419117a9743c93a29e8ed4f94c6bb7c2186e4e9.jpg",
+      "localPath": "Site/assets/events/wuwa/73898b2a2366bd668123c3a23419117a9743c93a29e8ed4f94c6bb7c2186e4e9.jpg",
+      "sha256": "73898b2a2366bd668123c3a23419117a9743c93a29e8ed4f94c6bb7c2186e4e9",
+      "bytes": 157047,
+      "mediaType": "image/jpeg",
+      "width": 960,
+      "height": 540,
+      "etag": "\"5B405EC3E4B0A4D11ECABC13855616A7\"",
+      "lastModified": "Wed, 29 Jul 2026 08:58:15 GMT",
+      "retrievedAt": "2026-08-08T00:05:11.766Z",
+      "eventIds": [
+        "wuwa-kuro-article-58f2df3a5ff0"
+      ]
+    },
+    {
+      "game": "wuwa",
+      "fileName": "7fa5d70b6589478919b8ba5a085a2b383cbb6f6d16bc5bc9f2798c33a85ce35e.jpg",
+      "sourceUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1780848000000/xl2vawxr61ewzp1zer-1780909807930.jpg",
+      "requestUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1780848000000/xl2vawxr61ewzp1zer-1780909807930.jpg?x-oss-process=image%2Fresize%2Cw_960%2Fquality%2Cq_80",
+      "runtimePath": "/assets/events/wuwa/7fa5d70b6589478919b8ba5a085a2b383cbb6f6d16bc5bc9f2798c33a85ce35e.jpg",
+      "localPath": "Site/assets/events/wuwa/7fa5d70b6589478919b8ba5a085a2b383cbb6f6d16bc5bc9f2798c33a85ce35e.jpg",
+      "sha256": "7fa5d70b6589478919b8ba5a085a2b383cbb6f6d16bc5bc9f2798c33a85ce35e",
+      "bytes": 135298,
+      "mediaType": "image/jpeg",
+      "width": 960,
+      "height": 540,
+      "etag": "\"D9B0695BBDE3D5F6E36378B1C1C1CD01\"",
+      "lastModified": "Mon, 08 Jun 2026 09:10:07 GMT",
+      "retrievedAt": "2026-08-08T00:08:26.163Z",
+      "eventIds": [
+        "wuwa-kuro-article-65ab2c25c0db"
+      ]
+    },
+    {
+      "game": "wuwa",
+      "fileName": "88461b9dba20c6daddba2b914dc5da01a6da8b318ae963ea9c0d73d749ce7820.jpg",
+      "sourceUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1783526400000/lusfvsk8jii8a44bkq-1783570246928.jpg",
+      "requestUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1783526400000/lusfvsk8jii8a44bkq-1783570246928.jpg?x-oss-process=image%2Fresize%2Cw_960%2Fquality%2Cq_80",
+      "runtimePath": "/assets/events/wuwa/88461b9dba20c6daddba2b914dc5da01a6da8b318ae963ea9c0d73d749ce7820.jpg",
+      "localPath": "Site/assets/events/wuwa/88461b9dba20c6daddba2b914dc5da01a6da8b318ae963ea9c0d73d749ce7820.jpg",
+      "sha256": "88461b9dba20c6daddba2b914dc5da01a6da8b318ae963ea9c0d73d749ce7820",
+      "bytes": 111168,
+      "mediaType": "image/jpeg",
+      "width": 960,
+      "height": 540,
+      "etag": "\"E7A644FD61AEB1C43925960868DB6D89\"",
+      "lastModified": "Thu, 09 Jul 2026 04:10:47 GMT",
+      "retrievedAt": "2026-08-08T00:05:11.766Z",
+      "eventIds": [
+        "wuwa-kuro-article-fa1867a600da"
+      ]
+    },
+    {
+      "game": "wuwa",
+      "fileName": "8b0e784113486d3f5b51dee8262a87d03aa7bee47b2a11bd20249c88a81f98a5.jpg",
+      "sourceUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1777305600000/mr8njd9bdonmhxv73m-1777381046608.jpg",
+      "requestUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1777305600000/mr8njd9bdonmhxv73m-1777381046608.jpg?x-oss-process=image%2Fresize%2Cw_960%2Fquality%2Cq_80",
+      "runtimePath": "/assets/events/wuwa/8b0e784113486d3f5b51dee8262a87d03aa7bee47b2a11bd20249c88a81f98a5.jpg",
+      "localPath": "Site/assets/events/wuwa/8b0e784113486d3f5b51dee8262a87d03aa7bee47b2a11bd20249c88a81f98a5.jpg",
+      "sha256": "8b0e784113486d3f5b51dee8262a87d03aa7bee47b2a11bd20249c88a81f98a5",
+      "bytes": 121959,
+      "mediaType": "image/jpeg",
+      "width": 960,
+      "height": 540,
+      "etag": "\"3972016830191E455B9D53583D601F1D\"",
+      "lastModified": "Tue, 28 Apr 2026 12:57:26 GMT",
+      "retrievedAt": "2026-08-08T00:08:26.163Z",
+      "eventIds": [
+        "wuwa-kuro-article-9d4f07af0521"
+      ]
+    },
+    {
+      "game": "wuwa",
+      "fileName": "a62fe64d38ff81d40c33f50ec7064608e03e9467e4b5d4636b0200d934c1929b.jpg",
+      "sourceUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1780848000000/5zroodwo2x0eap50l7-1780911396613.jpg",
+      "requestUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1780848000000/5zroodwo2x0eap50l7-1780911396613.jpg?x-oss-process=image%2Fresize%2Cw_960%2Fquality%2Cq_80",
+      "runtimePath": "/assets/events/wuwa/a62fe64d38ff81d40c33f50ec7064608e03e9467e4b5d4636b0200d934c1929b.jpg",
+      "localPath": "Site/assets/events/wuwa/a62fe64d38ff81d40c33f50ec7064608e03e9467e4b5d4636b0200d934c1929b.jpg",
+      "sha256": "a62fe64d38ff81d40c33f50ec7064608e03e9467e4b5d4636b0200d934c1929b",
+      "bytes": 109657,
+      "mediaType": "image/jpeg",
+      "width": 960,
+      "height": 540,
+      "etag": "\"0DDDE0A6A53169F0B366B201E78374CC\"",
+      "lastModified": "Mon, 08 Jun 2026 09:36:36 GMT",
+      "retrievedAt": "2026-08-08T00:08:26.163Z",
+      "eventIds": [
+        "wuwa-kuro-article-780db667cdb9"
+      ]
+    },
+    {
+      "game": "wuwa",
+      "fileName": "cf4b43dd6d0b623b2ac4da9c9ae664ae5a1f6519b004ba800427a9d1626ff63f.jpg",
+      "sourceUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1780848000000/5zydhd3qhedgwupa80-1780910853700.jpg",
+      "requestUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1780848000000/5zydhd3qhedgwupa80-1780910853700.jpg?x-oss-process=image%2Fresize%2Cw_960%2Fquality%2Cq_80",
+      "runtimePath": "/assets/events/wuwa/cf4b43dd6d0b623b2ac4da9c9ae664ae5a1f6519b004ba800427a9d1626ff63f.jpg",
+      "localPath": "Site/assets/events/wuwa/cf4b43dd6d0b623b2ac4da9c9ae664ae5a1f6519b004ba800427a9d1626ff63f.jpg",
+      "sha256": "cf4b43dd6d0b623b2ac4da9c9ae664ae5a1f6519b004ba800427a9d1626ff63f",
+      "bytes": 197530,
+      "mediaType": "image/jpeg",
+      "width": 960,
+      "height": 540,
+      "etag": "\"2176B49DBEB4DC1EC7038C11E8E4F960\"",
+      "lastModified": "Mon, 08 Jun 2026 09:27:33 GMT",
+      "retrievedAt": "2026-08-08T00:08:26.163Z",
+      "eventIds": [
+        "wuwa-kuro-article-3c8da944745b"
+      ]
+    },
+    {
+      "game": "wuwa",
+      "fileName": "daf055bff907c521ebc702977a25b0eeb51206042196435fe3c907bfc6839c6d.jpg",
+      "sourceUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1783612800000/kujdl4313hg9zhdulq-1783657112102.jpg",
+      "requestUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1783612800000/kujdl4313hg9zhdulq-1783657112102.jpg?x-oss-process=image%2Fresize%2Cw_960%2Fquality%2Cq_80",
+      "runtimePath": "/assets/events/wuwa/daf055bff907c521ebc702977a25b0eeb51206042196435fe3c907bfc6839c6d.jpg",
+      "localPath": "Site/assets/events/wuwa/daf055bff907c521ebc702977a25b0eeb51206042196435fe3c907bfc6839c6d.jpg",
+      "sha256": "daf055bff907c521ebc702977a25b0eeb51206042196435fe3c907bfc6839c6d",
+      "bytes": 1413838,
+      "mediaType": "image/jpeg",
+      "width": 960,
+      "height": 8044,
+      "etag": "\"C4DA47CD33C8972D8A225896EE9ED5D3\"",
+      "lastModified": "Fri, 10 Jul 2026 04:18:32 GMT",
+      "retrievedAt": "2026-08-08T00:06:56.787Z",
+      "eventIds": [
+        "wuwa-kuro-article-b65ae5342125"
+      ]
+    },
+    {
+      "game": "wuwa",
+      "fileName": "deb58e6c2f2443fb351339138bce6bd562c6e8f7777962ade80d58e770f1e450.jpg",
+      "sourceUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1770134400000/8amix5hqtjhlbwzlj1-1770217232736.jpg",
+      "requestUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1770134400000/8amix5hqtjhlbwzlj1-1770217232736.jpg?x-oss-process=image%2Fresize%2Cw_960%2Fquality%2Cq_80",
+      "runtimePath": "/assets/events/wuwa/deb58e6c2f2443fb351339138bce6bd562c6e8f7777962ade80d58e770f1e450.jpg",
+      "localPath": "Site/assets/events/wuwa/deb58e6c2f2443fb351339138bce6bd562c6e8f7777962ade80d58e770f1e450.jpg",
+      "sha256": "deb58e6c2f2443fb351339138bce6bd562c6e8f7777962ade80d58e770f1e450",
+      "bytes": 153809,
+      "mediaType": "image/jpeg",
+      "width": 960,
+      "height": 540,
+      "etag": "\"B4C6CDC8BBDCCA54B73C335B9BEE0D9D\"",
+      "lastModified": "Wed, 04 Feb 2026 15:00:33 GMT",
+      "retrievedAt": "2026-08-08T00:08:26.163Z",
+      "eventIds": [
+        "wuwa-kuro-article-18a2325ff121"
+      ]
+    },
+    {
+      "game": "wuwa",
+      "fileName": "e52d8a7eb639fda8e1fee15568c909571ca5e842e0a072d9a20261c7d5ed6b44.jpg",
+      "sourceUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1783526400000/9kjau2xnp9qy1dpl56-1783568157696.jpg",
+      "requestUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1783526400000/9kjau2xnp9qy1dpl56-1783568157696.jpg?x-oss-process=image%2Fresize%2Cw_960%2Fquality%2Cq_80",
+      "runtimePath": "/assets/events/wuwa/e52d8a7eb639fda8e1fee15568c909571ca5e842e0a072d9a20261c7d5ed6b44.jpg",
+      "localPath": "Site/assets/events/wuwa/e52d8a7eb639fda8e1fee15568c909571ca5e842e0a072d9a20261c7d5ed6b44.jpg",
+      "sha256": "e52d8a7eb639fda8e1fee15568c909571ca5e842e0a072d9a20261c7d5ed6b44",
+      "bytes": 148340,
+      "mediaType": "image/jpeg",
+      "width": 960,
+      "height": 540,
+      "etag": "\"187000ABBD560BFED09C71FE0E0FF840\"",
+      "lastModified": "Thu, 09 Jul 2026 03:35:57 GMT",
+      "retrievedAt": "2026-08-08T00:05:11.766Z",
+      "eventIds": [
+        "wuwa-kuro-article-720d41e40f90"
+      ]
+    },
+    {
+      "game": "wuwa",
+      "fileName": "e848e48290d9b50934bc2f441bca379da081406d521288f19021040f173fcb50.jpg",
+      "sourceUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1783526400000/33wskguqnmtnjt7thv-1783567806720.jpg",
+      "requestUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1783526400000/33wskguqnmtnjt7thv-1783567806720.jpg?x-oss-process=image%2Fresize%2Cw_960%2Fquality%2Cq_80",
+      "runtimePath": "/assets/events/wuwa/e848e48290d9b50934bc2f441bca379da081406d521288f19021040f173fcb50.jpg",
+      "localPath": "Site/assets/events/wuwa/e848e48290d9b50934bc2f441bca379da081406d521288f19021040f173fcb50.jpg",
+      "sha256": "e848e48290d9b50934bc2f441bca379da081406d521288f19021040f173fcb50",
+      "bytes": 103693,
+      "mediaType": "image/jpeg",
+      "width": 960,
+      "height": 540,
+      "etag": "\"E7BF0410A1A0916EAEA1D78D0C9C30CD\"",
+      "lastModified": "Thu, 09 Jul 2026 03:30:06 GMT",
+      "retrievedAt": "2026-08-08T00:05:11.766Z",
+      "eventIds": [
+        "wuwa-kuro-article-22b221c941ef"
+      ]
+    },
+    {
+      "game": "wuwa",
+      "fileName": "ecad6b0dc67bb24da6857c24c52d86f5d1dfe8a5fffde35fe76463fbdfe53c17.jpg",
+      "sourceUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1785254400000/bk6q79x6r5lvdtd6ys-1785315861476.jpg",
+      "requestUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1785254400000/bk6q79x6r5lvdtd6ys-1785315861476.jpg?x-oss-process=image%2Fresize%2Cw_960%2Fquality%2Cq_80",
+      "runtimePath": "/assets/events/wuwa/ecad6b0dc67bb24da6857c24c52d86f5d1dfe8a5fffde35fe76463fbdfe53c17.jpg",
+      "localPath": "Site/assets/events/wuwa/ecad6b0dc67bb24da6857c24c52d86f5d1dfe8a5fffde35fe76463fbdfe53c17.jpg",
+      "sha256": "ecad6b0dc67bb24da6857c24c52d86f5d1dfe8a5fffde35fe76463fbdfe53c17",
+      "bytes": 115603,
+      "mediaType": "image/jpeg",
+      "width": 960,
+      "height": 540,
+      "etag": "\"73D81A4669229A0B7C60768172D2C7CA\"",
+      "lastModified": "Wed, 29 Jul 2026 09:04:21 GMT",
+      "retrievedAt": "2026-08-08T00:05:11.766Z",
+      "eventIds": [
+        "wuwa-kuro-article-05ab971d1575"
+      ]
+    },
+    {
+      "game": "wuwa",
+      "fileName": "fa5daff3f06f642efc9e76e38a823a91b443fb58cc6fee9e8722e54a976caa8a.jpg",
+      "sourceUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1783526400000/cb94tx1404k688n3mv-1783567451886.jpg",
+      "requestUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1783526400000/cb94tx1404k688n3mv-1783567451886.jpg?x-oss-process=image%2Fresize%2Cw_960%2Fquality%2Cq_80",
+      "runtimePath": "/assets/events/wuwa/fa5daff3f06f642efc9e76e38a823a91b443fb58cc6fee9e8722e54a976caa8a.jpg",
+      "localPath": "Site/assets/events/wuwa/fa5daff3f06f642efc9e76e38a823a91b443fb58cc6fee9e8722e54a976caa8a.jpg",
+      "sha256": "fa5daff3f06f642efc9e76e38a823a91b443fb58cc6fee9e8722e54a976caa8a",
+      "bytes": 142762,
+      "mediaType": "image/jpeg",
+      "width": 960,
+      "height": 540,
+      "etag": "\"128A937D8BC0374CB3885A57717F0034\"",
+      "lastModified": "Thu, 09 Jul 2026 03:24:11 GMT",
+      "retrievedAt": "2026-08-08T00:05:11.766Z",
+      "eventIds": [
+        "wuwa-kuro-article-8a215c4e435a"
+      ]
+    },
+    {
+      "game": "zzz",
+      "fileName": "741a17735aea0b0f1352ee86b258ec0c9691cde6022842d53bcbf0ba15f873b8.jpg",
+      "sourceUrl": "https://sdk.hoyoverse.com/upload/ann/2026/07/24/aa9706fa7b34cc358c26f2b8d5ecdbfd_3835412100675665607_transformed.jpg",
+      "requestUrl": null,
+      "runtimePath": "/assets/events/zzz/741a17735aea0b0f1352ee86b258ec0c9691cde6022842d53bcbf0ba15f873b8.jpg",
+      "localPath": "Site/assets/events/zzz/741a17735aea0b0f1352ee86b258ec0c9691cde6022842d53bcbf0ba15f873b8.jpg",
+      "sha256": "741a17735aea0b0f1352ee86b258ec0c9691cde6022842d53bcbf0ba15f873b8",
+      "bytes": 155002,
+      "mediaType": "image/jpeg",
+      "width": 1590,
+      "height": 222,
+      "etag": "\"aa9706fa7b34cc358c26f2b8d5ecdbfd\"",
+      "lastModified": "Fri, 24 Jul 2026 14:45:14 GMT",
+      "retrievedAt": "2026-08-08T11:49:49.723Z",
+      "eventIds": [
+        "zzz-hoyo-ann-424df948a6d9"
+      ]
+    },
+    {
+      "game": "zzz",
+      "fileName": "94c6622ffedfd3430de624eeffabe47be5de57d884de87304f0b0127213ed7ac.jpg",
+      "sourceUrl": "https://sdk.hoyoverse.com/upload/ann/2026/08/05/9fd530d05bc59ccf10dbd76b3aedbaaf_4326024227588058667_transformed.jpg",
+      "runtimePath": "/assets/events/zzz/94c6622ffedfd3430de624eeffabe47be5de57d884de87304f0b0127213ed7ac.jpg",
+      "localPath": "Site/assets/events/zzz/94c6622ffedfd3430de624eeffabe47be5de57d884de87304f0b0127213ed7ac.jpg",
+      "sha256": "94c6622ffedfd3430de624eeffabe47be5de57d884de87304f0b0127213ed7ac",
+      "bytes": 126408,
+      "mediaType": "image/jpeg",
+      "etag": "\"9fd530d05bc59ccf10dbd76b3aedbaaf\"",
+      "lastModified": "Wed, 05 Aug 2026 09:28:34 GMT",
+      "retrievedAt": "2026-08-07T23:44:38.917Z",
+      "eventIds": [
+        "zzz-hoyo-ann-e5b14140c51c"
+      ],
+      "width": 1016,
+      "height": 222,
+      "requestUrl": null
+    },
+    {
+      "game": "zzz",
+      "fileName": "c4d2609f96129814bb36804c4008afe5fd242d912102921bd9223f3f0d7f2245.jpg",
+      "sourceUrl": "https://sdk.hoyoverse.com/upload/ann/2026/07/27/0ea551451828dad95be03d8c48176193_1406242834209530105_transformed.jpg",
+      "requestUrl": null,
+      "runtimePath": "/assets/events/zzz/c4d2609f96129814bb36804c4008afe5fd242d912102921bd9223f3f0d7f2245.jpg",
+      "localPath": "Site/assets/events/zzz/c4d2609f96129814bb36804c4008afe5fd242d912102921bd9223f3f0d7f2245.jpg",
+      "sha256": "c4d2609f96129814bb36804c4008afe5fd242d912102921bd9223f3f0d7f2245",
+      "bytes": 158860,
+      "mediaType": "image/jpeg",
+      "width": 1590,
+      "height": 222,
+      "etag": "\"0ea551451828dad95be03d8c48176193\"",
+      "lastModified": "Mon, 27 Jul 2026 04:11:10 GMT",
+      "retrievedAt": "2026-08-08T11:49:49.723Z",
+      "eventIds": [
+        "zzz-hoyo-ann-3d5f728e1856"
+      ]
+    },
+    {
+      "game": "zzz",
+      "fileName": "e2cc4d373b28a517f0376257c97e64f5c36ed27b4870ecbbc9b9bbacd79efa4a.jpg",
+      "sourceUrl": "https://sdk.hoyoverse.com/upload/ann/2026/07/25/3733bc38be77437e6a083c8ec8644683_6722948606184246931_transformed.jpg",
+      "requestUrl": null,
+      "runtimePath": "/assets/events/zzz/e2cc4d373b28a517f0376257c97e64f5c36ed27b4870ecbbc9b9bbacd79efa4a.jpg",
+      "localPath": "Site/assets/events/zzz/e2cc4d373b28a517f0376257c97e64f5c36ed27b4870ecbbc9b9bbacd79efa4a.jpg",
+      "sha256": "e2cc4d373b28a517f0376257c97e64f5c36ed27b4870ecbbc9b9bbacd79efa4a",
+      "bytes": 149966,
+      "mediaType": "image/jpeg",
+      "width": 1590,
+      "height": 222,
+      "etag": "\"3733bc38be77437e6a083c8ec8644683\"",
+      "lastModified": "Fri, 24 Jul 2026 16:05:04 GMT",
+      "retrievedAt": "2026-08-08T11:49:49.723Z",
+      "eventIds": [
+        "zzz-hoyo-ann-c3848dccb384"
+      ]
+    },
+    {
+      "game": "zzz",
+      "fileName": "fd8f049f3885ef1003d9fb89d8ae5533ed006ed6b488751ae41ffa30a11db79b.jpg",
+      "sourceUrl": "https://sdk.hoyoverse.com/upload/ann/2026/07/24/9eea167832ef06c5f881cfb82f51beb1_3479095677081376958.jpg",
+      "requestUrl": null,
+      "runtimePath": "/assets/events/zzz/fd8f049f3885ef1003d9fb89d8ae5533ed006ed6b488751ae41ffa30a11db79b.jpg",
+      "localPath": "Site/assets/events/zzz/fd8f049f3885ef1003d9fb89d8ae5533ed006ed6b488751ae41ffa30a11db79b.jpg",
+      "sha256": "fd8f049f3885ef1003d9fb89d8ae5533ed006ed6b488751ae41ffa30a11db79b",
+      "bytes": 95673,
+      "mediaType": "image/jpeg",
+      "width": 1590,
+      "height": 222,
+      "etag": "\"9eea167832ef06c5f881cfb82f51beb1\"",
+      "lastModified": "Fri, 24 Jul 2026 14:59:13 GMT",
+      "retrievedAt": "2026-08-08T11:49:49.723Z",
+      "eventIds": [
+        "zzz-hoyo-ann-17f16d0daaf4"
+      ]
+    }
+  ],
+  "rightsNote": "No license is claimed for game artwork. Game content and assets remain owned by their publishers (HoYoverse / COGNOSPHERE / miHoYo, Kuro Games, Gryphline). Pengo is an unofficial, non-affiliated fan tool."
+}

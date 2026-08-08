@@ -688,6 +688,153 @@ function nyxTlEventStatus(block, now){
   return 'past';
 }
 
+// Official announcement titles are sentences, not names: «"Ley Line Overflow"
+// Event - Double Drops From Blossoms of Wealth and Blossoms of Revelation!».
+// Every publisher marks the actual event name with a quote or bracket pair, so
+// that span is the display name (user 2026-08-08). The untouched title is kept
+// on the record and shown as the card's tooltip — nothing is lost, only folded.
+var NYX_TL_TITLE_PAIRS = [['"','"'], ['“','”'], ['「','」'], ['『','』'], ['《','》'], ['【','】'], ['[',']'], ['〖','〗']];
+// Left-hand labels that introduce the title rather than being part of it.
+var NYX_TL_TITLE_LABEL = /^(?:event\s+preview|preview|notice|notices|news|announcement|update|event)$/i;
+// Trailing boilerplate: "… Event Details", "… Details", "… Event".
+var NYX_TL_TITLE_TAIL = /[\s,:;.!-]*\b(?:event\s+details|details|event)\s*$/i;
+
+function nyxTlEventDisplayTitle(value){
+  var full = String(value || '').replace(/\s+/g, ' ').trim();
+  if (!full) return '';
+  for (var i = 0; i < NYX_TL_TITLE_PAIRS.length; i++) {
+    var open = full.indexOf(NYX_TL_TITLE_PAIRS[i][0]);
+    if (open < 0) continue;
+    var close = full.indexOf(NYX_TL_TITLE_PAIRS[i][1], open + 1);
+    if (close <= open + 1) continue;
+    var inner = full.slice(open + 1, close).trim();
+    // The publisher marked a name, so trust the marking. If what it marked is
+    // too short to be a name we have misread the title — leave it whole rather
+    // than guess with the unmarked rules below.
+    return inner.length >= 3 ? inner : full;
+  }
+  // No marked name: keep the meaningful half of "Label | Name" (or the left
+  // half when the right one is the sub-headline), then drop the boilerplate.
+  var text = full;
+  var bar = text.indexOf(' | ');
+  if (bar > 0) {
+    var left = text.slice(0, bar).trim();
+    var right = text.slice(bar + 3).trim();
+    text = NYX_TL_TITLE_LABEL.test(left) ? right : left;
+  }
+  var eventCut = text.search(/\sEvent\s*[:,—-]/i);
+  if (eventCut > 0) text = text.slice(0, eventCut);
+  else {
+    var colon = text.indexOf(':');
+    if (colon > 2) text = text.slice(0, colon);
+  }
+  text = text.replace(NYX_TL_TITLE_TAIL, '').replace(/[\s,:;.!-]+$/, '').trim();
+  return text.length >= 3 ? text : full;
+}
+
+// Official event blurbs are copied straight from the announcement, so they are
+// full of section headings and the very dates the card already shows as a
+// countdown. Strip both so the card reads as a description (user 2026-08-08).
+var NYX_TL_NOISE = [
+  // Decorative section markers: 〓Event Rewards〓, ✦Duration✦, ▼//, ==Notes==
+  /[〓✦◆★≡][^〓✦◆★≡]{1,40}[〓✦◆★≡]/g,
+  /={2,}[^=]{1,40}={2,}/g,
+  /▼\s*\/\//g,
+  // A marker left unpaired once its partner was stripped.
+  /[〓✦◆≡]/g,
+  // Date ranges, with or without clock times and a trailing zone note.
+  /\d{4}[-/.]\d{1,2}[-/.]\d{1,2}(?:\s+\d{1,2}:\d{2}(?::\d{2})?)?\s*(?:[-–—~]|to)\s*\d{4}[-/.]\d{1,2}[-/.]\d{1,2}(?:\s+\d{1,2}:\d{2}(?::\d{2})?)?/gi,
+  // A single date, long or short form.
+  /\b(?:January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},?\s+\d{4}(?:\s+at\s+\d{1,2}:\d{2})?/gi,
+  /\d{4}[-/.]\d{1,2}[-/.]\d{1,2}(?:\s+\d{1,2}:\d{2}(?::\d{2})?)?/g,
+  // The zone note the dates carried with them.
+  /\(\s*(?:server time|UTC[^)]{0,12})\s*\)/gi,
+  // Headings that only introduced those dates.
+  /\b(?:Event\s+)?(?:Duration|Period|Availability|Eligibility|Event\s+Details|Event\s+Rewards|Quest\s+Completion\s+Period|Participation\s+Requirement|Event\s+Duration)\b\s*[:：]?/gi,
+  // Verbs left dangling once their date is gone.
+  /\bFrom\s+now\s+until\b/gi,
+  /\bOpens\s*(?=[,.;·|]|$)/gi,
+];
+
+function nyxTlCleanEventText(value){
+  var text = String(value || '');
+  for (var i = 0; i < NYX_TL_NOISE.length; i++) text = text.replace(NYX_TL_NOISE[i], ' ');
+  return text
+    .replace(/\s+/g, ' ')
+    // Punctuation stranded by the removals.
+    .replace(/\s*([,;:.])\s*(?=[,;:.])/g, ' ')
+    .replace(/\(\s*\)/g, ' ')
+    .replace(/\s+([,;:.!?])/g, '$1')
+    .replace(/^[\s,;:.\-–—·|]+/, '')
+    .replace(/[\s,;:\-–—·|]+$/, '')
+    .trim();
+}
+
+// Region-aware event block. The events feed publishes windowsByRegion for
+// every officially dated event, so the overview card can show the player's own
+// server times instead of the merge's europe-first top-level start/end. Falls
+// back to the flat record (nyxTlEventBlockFromRecord) when a feed carries no
+// per-region windows, so nothing regresses for sources that publish one time.
+function nyxTlEventBlockForRegion(e, now, regionKey){
+  var block = nyxTlEventBlockFromRecord(e, now);
+  var picked = nyxTlSelectWindow(e && e.windowsByRegion, nyxTlRegionKey(regionKey));
+  if (!picked || block.needsReview) return block;
+  var startMs = nyxTlNum(picked.start);
+  if (startMs === null) return block;
+  var endMs = picked.end ? nyxTlNum(picked.end) : null;
+  block.startMs = startMs;
+  block.openEnd = endMs === null;
+  block.endMs = block.openEnd ? Math.max(startMs + NYX_TL_DAY_MS, now + NYX_TL_DAY_MS) : endMs;
+  block.region = picked.region;
+  block.dateOnly = picked.dateOnly;
+  block.timezone = picked.timezone || block.timezone;
+  if (picked.sourceUrl) block.sourceUrl = picked.sourceUrl;
+  return block;
+}
+
+// What the game Overview's "Current Events" card shows: what is running right
+// now (soonest to end first), then what starts next (soonest first) as filler.
+// Never invents a date — undated/needs-review rows and banner rows (which have
+// their own strip) are excluded outright.
+// Some feeds publish a start with no end ("until the next version update").
+// nyxTlEventStatus keeps those permanently 'ongoing', which is right for a
+// timeline lane but wrong for an at-a-glance card: without this bound, WuWa
+// event previews from 2024 sit on the Overview page claiming to be live.
+// Roughly two to three version cycles — long enough for a genuinely running
+// open-ended event, short enough to drop last year's.
+var NYX_TL_OPEN_END_MAX_AGE_MS = 120 * NYX_TL_DAY_MS;
+
+function nyxTlCurrentEvents(events, now, regionKey, limit){
+  now = Number.isFinite(now) ? now : Date.now();
+  var max = Number.isFinite(limit) && limit > 0 ? limit : 6;
+  var dated = [], ongoing = [], upcoming = [];
+  var list = Array.isArray(events) ? events : [];
+  for (var i = 0; i < list.length; i++) {
+    var e = list[i];
+    if (!e || e.type === 'banner' || e.permanence === 'permanent') continue;
+    var block = nyxTlEventBlockForRegion(e, now, regionKey);
+    block.fullTitle = block.title;
+    block.title = nyxTlEventDisplayTitle(block.title) || block.title;
+    var status = nyxTlEventStatus(block, now);
+    if (status === 'live' || status === 'ongoing') {
+      if (block.openEnd) {
+        if (block.startMs < now - NYX_TL_OPEN_END_MAX_AGE_MS) continue;
+        block.status = 'ongoing';
+        ongoing.push(block);
+      } else {
+        block.status = 'live';
+        dated.push(block);
+      }
+    } else if (status === 'upcoming') { block.status = status; upcoming.push(block); }
+  }
+  // Confirmed end first (soonest to expire is the most useful), then the
+  // open-ended ones newest-first, then what starts next.
+  dated.sort(function(a, b){ return a.endMs - b.endMs; });
+  ongoing.sort(function(a, b){ return b.startMs - a.startMs; });
+  upcoming.sort(function(a, b){ return a.startMs - b.startMs; });
+  return dated.concat(ongoing, upcoming).slice(0, max);
+}
+
 // ---- Search ----------------------------------------------------------
 
 // Does `block` match `query`? Matches featured character AND weapon names
@@ -1000,6 +1147,10 @@ if (typeof window !== 'undefined') {
     expandActivity: nyxTlExpandActivity,
     expandActivities: nyxTlExpandActivities,
     buildEventBlocks: nyxTlBuildEventBlocks,
+    eventDisplayTitle: nyxTlEventDisplayTitle,
+    cleanEventText: nyxTlCleanEventText,
+    eventBlockForRegion: nyxTlEventBlockForRegion,
+    currentEvents: nyxTlCurrentEvents,
     splitEventBlocks: nyxTlSplitEventBlocks,
     eventStatus: nyxTlEventStatus,
     searchMatch: nyxTlSearchMatch,

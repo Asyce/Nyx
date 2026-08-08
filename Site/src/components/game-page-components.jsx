@@ -260,14 +260,15 @@ function GPFnRows(){
       {GP_FNS.map(f => (
         <div key={f} className="gp-fn-row">
           <span>{f}</span>
-          <span className="go">{'\u203A'}</span>
         </div>
       ))}
     </div>
   );
 }
 
-function GPSectionNavButton({ active, label, onActivate, diamond = true, arrow = true, className = '' }){
+// `arrow` is retained for callers but no longer renders: the hover chevron was
+// removed 2026-08-08 at the user's request.
+function GPSectionNavButton({ active, label, onActivate, diamond = true, className = '' }){
   return (
     <button type="button"
             className={'gp-fn-row click gp-section-nav-button' + (active ? ' on' : '') + (className ? ' ' + className : '')}
@@ -275,7 +276,6 @@ function GPSectionNavButton({ active, label, onActivate, diamond = true, arrow =
             onClick={onActivate}>
       {diamond && <span className="dia" aria-hidden="true"></span>}
       <span>{label}</span>
-      {arrow && <span className="go" aria-hidden="true">{'›'}</span>}
     </button>
   );
 }

@@ -107,7 +107,19 @@ export async function run() {
     (async () => ['ae', await scrapeEndfield()])(),
   ]);
   for (const [game, records] of results) {
-    const candidate = validateDataset({ schemaVersion:1, game, generatedAt, records });
+    // The wiki announces a future banner before its dates exist (2026-08-08:
+    // Genshin's 7.0 "Astral Actuation" had a page but no schedule). A finite
+    // banner with neither a regional window nor a sourced date cannot be
+    // validated or drawn, and refusing it here keeps one unscheduled
+    // announcement from failing the whole run.
+    const dated = records.filter((record) => {
+      if (record?.permanent) return true;
+      if (Object.keys(record?.windowsByRegion || {}).length) return true;
+      if (/^\d{4}-\d{2}-\d{2}$/.test(record?.dateOnly?.start || '')) return true;
+      console.warn(`::warning::banner-history ${game}: skipping announced-but-unscheduled banner ${record?.id}`);
+      return false;
+    });
+    const candidate = validateDataset({ schemaVersion:1, game, generatedAt, records:dated });
     const previous = await readJson(path.join(historyDir, `${game}.json`));
     if (previous?.schemaVersion === 1) preserveOfficialWindows(previous, candidate);
     candidates[game] = previous?.schemaVersion === 1 ? monotonicMerge(previous, candidate) : candidate;

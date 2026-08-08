@@ -419,6 +419,150 @@ test('Genshin Lightrace selection pools never masquerade as character rate-ups',
   assert.deepEqual(Array.from(built, (row) => row.primaryFive), ['Citlali']);
 });
 
+const eventRecord = (id, extra = {}) => ({
+  id, game:'gi', title:'Event ' + id, type:'event', needs_review:false, scheduleStatus:'exact', confidence:'high', permanence:'timed',
+  source:{ url:'https://official.example/' + id }, ...extra,
+});
+
+test('the event name is the marked span in the official title, across all five feeds', () => {
+  // Real titles, one per publisher shape (2026-08-08 feeds).
+  const cases = [
+    ['"Ley Line Overflow" Event - Double Drops From Blossoms of Wealth and Blossoms of Revelation!', 'Ley Line Overflow'],
+    ['Participate in "Starlight Voyage: Splendor Aglow" to Obtain Prismatic Crystals, the Token for the Colorful Surprise Box', 'Starlight Voyage: Splendor Aglow'],
+    ['"To Temper Thyself and Journey Far": Rewards of Dedication', 'To Temper Thyself and Journey Far'],
+    ['"Snap! Focus Showdown!" Event Details', 'Snap! Focus Showdown!'],
+    ['"\'En-Nah\' Into Your Lap" Event Details', "'En-Nah' Into Your Lap"],
+    ['Event Preview | [Lament Recon: Tacet Crisis] Combat Event, Coming Soon!', 'Lament Recon: Tacet Crisis'],
+    ['[Crimson Hued Issue] LTO Details', 'Crimson Hued Issue'],
+    ['「Summer Festival」 Event Details', 'Summer Festival'],
+    // No marked span: drop the boilerplate tail instead of inventing a name.
+    ['Stygian Onslaught Event: Disturbance-affected Ley Line challenges', 'Stygian Onslaught'],
+    ['Planar Fissure Event: Planar Ornaments Drop Rate Doubled for a Limited Time', 'Planar Fissure'],
+    ['Depart Anew When the Phantasmoon is Full | Share Screenshots to Win Stellar Jades', 'Depart Anew When the Phantasmoon is Full'],
+    ['Event Preview | Somnium Labyrinth: Somnoire Adventure Event, Available Soon!', 'Somnium Labyrinth: Somnoire Adventure'],
+  ];
+  for (const [full, expected] of cases) assert.equal(api.eventDisplayTitle(full), expected, full);
+  // Never returns nothing: a title with no structure to strip survives whole.
+  assert.equal(api.eventDisplayTitle('Summer Fantasia'), 'Summer Fantasia');
+  assert.equal(api.eventDisplayTitle('"ab" Event Details'), '"ab" Event Details', 'a two-letter span is not a name');
+  assert.equal(api.eventDisplayTitle(''), '');
+  assert.equal(api.eventDisplayTitle(null), '');
+});
+
+test('the events card shows the short name and keeps the official title for the tooltip', () => {
+  const now = Date.parse('2026-08-08T12:00:00.000Z');
+  const full = '"Ley Line Overflow" Event - Double Drops From Blossoms of Wealth!';
+  const [card] = api.currentEvents([eventRecord('ley', { title:full, start:'2026-08-03T00:00:00.000Z', end:'2026-08-10T00:00:00.000Z' })], now, 'eu', 6);
+  assert.equal(card.title, 'Ley Line Overflow');
+  assert.equal(card.fullTitle, full);
+  assert.match(viewSource, /title=\{block\.fullTitle \|\| block\.title\}/);
+});
+
+test('the event blurb drops the dates the card already counts down', () => {
+  // Official blurbs repeat the schedule the card shows as a countdown, wrapped
+  // in section markers (user 2026-08-08).
+  const clean = api.cleanEventText;
+  assert.equal(
+    clean('During the event, challenge a Blossom of Wealth to double your rewards. 〓Event Duration〓 2026/08/03 04:00 - 2026/08/10 03:59 〓Eligibility〓 Revitalize a Blossom.'),
+    'During the event, challenge a Blossom of Wealth to double your rewards. Revitalize a Blossom.',
+  );
+  assert.equal(
+    clean('Boosted drop rates! ✦Duration✦ 2026-07-30 10:00 - 2026-08-19 11:59 (server time) ✦Eligibility✦ Reach Union Level 5.'),
+    'Boosted drop rates! Reach Union Level 5.',
+  );
+  assert.equal(
+    clean('Availability: Opens June 26, 2026 at 12:00 (server time)'),
+    '',
+    'a blurb that was only a date collapses to nothing rather than to punctuation',
+  );
+  assert.equal(clean('Duration: From now until 2026-08-19 23:59 (UTC+8) New region available'), 'New region available');
+  // Prose without dates survives untouched.
+  assert.equal(clean('Complete hacking operations to obtain rewards.'), 'Complete hacking operations to obtain rewards.');
+  assert.equal(clean(null), '');
+});
+
+test('the event card is the source link and carries no status or type chip', () => {
+  assert.match(viewSource, /function nyxTlCardExcerpt/);
+  assert.match(viewSource, /var excerpt = nyxTlCardExcerpt\(block\.description\)/);
+  assert.match(viewSource, /className="gp-oev-link"/);
+  assert.doesNotMatch(viewSource, /Official notice<\/a>/);
+  assert.doesNotMatch(viewSource, /NYX_EVENT_TYPE_LABEL\[block\.type\]/);
+});
+
+test('the overview events card reads the player region window, not the merged europe-first one', () => {
+  const now = Date.parse('2026-08-08T12:00:00.000Z');
+  const record = eventRecord('regional', {
+    start:'2026-08-01T09:00:00.000Z', end:'2026-08-20T02:59:00.000Z',
+    windowsByRegion:{
+      europe:{ start:'2026-08-01T09:00:00.000Z', end:'2026-08-20T02:59:00.000Z', timezone:'UTC+01:00' },
+      america:{ start:'2026-08-01T15:00:00.000Z', end:'2026-08-20T08:59:00.000Z', timezone:'UTC-05:00' },
+    },
+  });
+  const [americas] = api.currentEvents([record], now, 'na', 6);
+  assert.equal(iso(americas.startMs), '2026-08-01T15:00:00.000Z');
+  assert.equal(iso(americas.endMs), '2026-08-20T08:59:00.000Z');
+  assert.equal(americas.region, 'america');
+  assert.equal(americas.dateOnly, false);
+  const [europe] = api.currentEvents([record], now, 'eu', 6);
+  assert.equal(iso(europe.startMs), '2026-08-01T09:00:00.000Z');
+  // A region the feed does not publish stays visibly date-only rather than
+  // claiming another server's clock as the player's own.
+  const [asiaOnly] = api.currentEvents([{ ...record, windowsByRegion:{ asia:{ start:'2026-08-01T02:00:00.000Z', end:'2026-08-19T19:59:00.000Z' } } }], now, 'na', 6);
+  assert.equal(asiaOnly.dateOnly, true);
+  assert.equal(asiaOnly.region, null);
+});
+
+test('the overview events card shows what is live now, then what starts next', () => {
+  const now = Date.parse('2026-08-08T12:00:00.000Z');
+  const records = [
+    eventRecord('live-later', { start:'2026-08-01T00:00:00.000Z', end:'2026-08-30T00:00:00.000Z' }),
+    eventRecord('live-soon', { start:'2026-08-02T00:00:00.000Z', end:'2026-08-09T00:00:00.000Z' }),
+    eventRecord('next-week', { start:'2026-08-15T00:00:00.000Z', end:'2026-08-25T00:00:00.000Z' }),
+    eventRecord('tomorrow', { start:'2026-08-09T00:00:00.000Z', end:'2026-08-25T00:00:00.000Z' }),
+    eventRecord('ended', { start:'2026-07-01T00:00:00.000Z', end:'2026-07-20T00:00:00.000Z' }),
+  ];
+  const picked = api.currentEvents(records, now, 'eu', 6);
+  assert.deepEqual(plain(picked.map((row) => row.id)), ['live-soon', 'live-later', 'tomorrow', 'next-week']);
+  assert.deepEqual(plain(picked.map((row) => row.status)), ['live', 'live', 'upcoming', 'upcoming']);
+  assert.deepEqual(plain(api.currentEvents(records, now, 'eu', 2).map((row) => row.id)), ['live-soon', 'live-later'], 'the card is capped');
+});
+
+test('an open-ended event stops counting as live once it is a year stale', () => {
+  const now = Date.parse('2026-08-08T12:00:00.000Z');
+  const records = [
+    eventRecord('no-end-recent', { start:'2026-07-08T00:00:00.000Z', end:null }),
+    eventRecord('no-end-ancient', { start:'2024-12-31T00:00:00.000Z', end:null }),
+    eventRecord('dated', { start:'2026-08-01T00:00:00.000Z', end:'2026-08-12T00:00:00.000Z' }),
+  ];
+  const picked = api.currentEvents(records, now, 'eu', 6);
+  // Confirmed end first, then the open-ended one; last year's preview is gone.
+  assert.deepEqual(plain(picked.map((row) => row.id)), ['dated', 'no-end-recent']);
+  assert.deepEqual(plain(picked.map((row) => row.status)), ['live', 'ongoing']);
+});
+
+test('the overview events card never shows a banner row, a permanent feature, or a guessed date', () => {
+  const now = Date.parse('2026-08-08T12:00:00.000Z');
+  const records = [
+    eventRecord('banner', { type:'banner', start:'2026-08-01T00:00:00.000Z', end:'2026-08-30T00:00:00.000Z' }),
+    eventRecord('forever', { permanence:'permanent', start:'2026-08-01T00:00:00.000Z', end:'2026-08-30T00:00:00.000Z' }),
+    eventRecord('undated', { needs_review:true, start:null, end:null }),
+    eventRecord('real', { start:'2026-08-01T00:00:00.000Z', end:'2026-08-30T00:00:00.000Z' }),
+  ];
+  assert.deepEqual(plain(api.currentEvents(records, now, 'eu', 6).map((row) => row.id)), ['real']);
+  assert.deepEqual(plain(api.currentEvents(null, now, 'eu', 6)), []);
+});
+
+test('the game overview shows the events card and no stale-banner disclaimer', () => {
+  assert.match(appSource, /<CurrentEventsStrip game=\{cfg\.key\}/);
+  assert.match(viewSource, /function CurrentEventsStrip\(\{ game, gameName, limit \}\)/);
+  // Removed 2026-08-08 at the user's request; the quiet "Updated" line stays.
+  assert.doesNotMatch(appSource, /Banner data may be out of date/);
+  assert.doesNotMatch(appSource, /BannerFreshnessNote/);
+  assert.doesNotMatch(sharedCss, /gp-banner-fresh/);
+  // Event art is local-only: the strip may never point at a publisher CDN.
+  assert.doesNotMatch(viewSource, /gp-oev-art[\s\S]{0,200}https?:/);
+});
+
 test('per-game and cross-game event detail cards render the plain description field as React text', () => {
   assert.match(viewSource, /selectedEventBlock\.description\s*&&\s*<p>\{selectedEventBlock\.description\}<\/p>/);
   assert.match(viewSource, /selectedBlock\.description&&<p>\{selectedBlock\.description\}<\/p>/);
@@ -429,7 +573,20 @@ test('per-game and cross-game event detail cards render the plain description fi
 test('the All Events hub tab is present in both route maps and the Nyx valid-tab list', () => {
   assert.match(appSource, /NYX_TAB_TO_ROUTE\s*=\s*\{[\s\S]*?events:'events'/);
   assert.match(appSource, /ROUTE_TO_NYX_TAB\s*=\s*\{[\s\S]*?events:'events'/);
-  assert.match(appSource, /\['overview','characters','calendar','pulls','codes','banners','events','settings'\]/);
+  assert.match(appSource, /\['overview','characters','calendar','timeline','pulls','codes','banners','events','settings'\]/);
+});
+
+test('the per-game timeline lives on the hub Timeline tab, not on game overviews', () => {
+  // Moved 2026-08-08: game Overview pages lead with the live banner strip and
+  // the full timeline is reached through /nyx/timeline/<game>.
+  assert.match(appSource, /NYX_TAB_TO_ROUTE\s*=\s*\{[\s\S]*?timeline:'timeline'/);
+  assert.match(appSource, /ROUTE_TO_NYX_TAB\s*=\s*\{[\s\S]*?timeline:'timeline'/);
+  assert.match(appSource, /tab === 'timeline' &&[\s\S]*?<NyxGameTimelines games=\{SIM_GAMES\}/);
+  assert.doesNotMatch(appSource, /<BannerTimeline /, 'only NyxGameTimelines mounts the per-game timeline');
+  assert.match(viewSource, /function NyxGameTimelines\(\{ games, game, onGame \}\)/);
+  assert.match(viewSource, /<BannerTimeline key=\{current\.key\} game=\{current\.key\}/);
+  // The share token ("Copy view") has to follow the timeline to its new home.
+  assert.match(appSource, /safeKey === 'nyx' && safeTab === 'timeline'/);
 });
 
 test('cross-game banner search scans full history, including off-screen runs', () => {

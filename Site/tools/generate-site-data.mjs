@@ -5159,9 +5159,47 @@ function localImageRef(url) {
   return local;
 }
 
-function normalizeBannerCharacter(rosters, key, entry) {
+// How many separate banner runs a character has ever had, from the official
+// banner history. One run (or none, for someone not in history yet) means this
+// is their debut — that is what earns the big splash card on the overview,
+// rather than the rerun sharing the same phase. Counting runs avoids needing a
+// reliable phase start date, which the banner scrape often leaves null.
+function bannerRunCounts(key) {
+  const file = `BannerHistory/${key}.json`;
+  if (!exists(file)) return null;
+  const runs = new Map();
+  for (const record of readJson(file).records || []) {
+    if (record?.permanent) continue;
+    const start = Object.values(record.windowsByRegion || {})
+      .map((window) => window?.start).filter(Boolean).sort()[0];
+    if (!start) continue;
+    for (const featured of record.featured || []) {
+      if (!featured?.name || featured.entityType === 'weapon') continue;
+      const id = String(featured.name).toLowerCase().replace(/[^a-z0-9]+/g, '');
+      if (!runs.has(id)) runs.set(id, new Set());
+      runs.get(id).add(start.slice(0, 10));
+    }
+  }
+  return runs;
+}
+
+// When nobody is debuting, the overview gives the big card to whoever joined
+// the game most recently — so a phase pairing a brand-new-ish character with a
+// years-old rerun leads with the newer face.
+function bannerDebutDate(runCounts, name) {
+  if (!runCounts) return null;
+  const id = String(name || '').toLowerCase().replace(/[^a-z0-9]+/g, '');
+  const dates = runCounts.get(id);
+  return dates && dates.size ? [...dates].sort()[0] : null;
+}
+
+function normalizeBannerCharacter(rosters, key, entry, runCounts) {
   const name = typeof entry === 'string' ? entry : entry?.name;
   if (!name) return null;
+  const runId = String(name).toLowerCase().replace(/[^a-z0-9]+/g, '');
+  // Unknown history (no file) makes no debut claim either way.
+  const debut = runCounts ? (runCounts.get(runId)?.size || 0) <= 1 : null;
+  const debutAt = bannerDebutDate(runCounts, name);
   const local = rosterHit(rosters, key, name);
   // The banner scraper enriches each character with a GameData icon
   // (`image` / `imageFallback`); localImageRef points those at the local mirror.
@@ -5178,26 +5216,108 @@ function normalizeBannerCharacter(rosters, key, entry) {
     art: local?.art || local?.card || entryImage || null,
     namecard: local?.namecard || null, // G31: GI banner art prefers the namecard
     rarity: local?.r || entry?.rarity || null,
+    debut,
+    debutAt,
   };
 }
 
-function normalizeBannerPhase(rosters, key, phase) {
+// Community banner pages occasionally publish a typo'd year (2026-08-08: the
+// Genshin 7.0 Phase 1 end read "2206-09-01"). A date years out is not a
+// schedule, and shipping it means a countdown claiming 180 years.
+const BANNER_HORIZON_MS = 3 * 365 * 24 * 60 * 60 * 1000;
+
+function plausibleBannerDate(value, now) {
+  const at = Date.parse(value);
+  if (!Number.isFinite(at) || at > now + BANNER_HORIZON_MS) return null;
+  return value;
+}
+
+function normalizeBannerPhase(rosters, key, phase, runCounts) {
   const characters = (phase?.characters || [])
-    .map((entry) => normalizeBannerCharacter(rosters, key, entry))
+    .map((entry) => normalizeBannerCharacter(rosters, key, entry, runCounts))
     .filter(Boolean);
+  const nowMs = Date.now();
   return {
     phase: phase?.phase || null,
-    start: phase?.start || null,
-    end: phase?.end || null,
+    start: plausibleBannerDate(phase?.start, nowMs),
+    end: plausibleBannerDate(phase?.end, nowMs),
     characters,
     subBanners: (phase?.subBanners || []).map((sub) => ({
       phase: sub.phase || null,
       start: sub.start || null,
       end: sub.end || null,
       characters: (sub.characters || [])
-        .map((entry) => normalizeBannerCharacter(rosters, key, entry))
+        .map((entry) => normalizeBannerCharacter(rosters, key, entry, runCounts))
         .filter(Boolean),
     })),
+  };
+}
+
+// What is live right now, straight from the official banner history.
+//
+// The community banner scrape is the only source for what is COMING, but it
+// lags on what is running: on 2026-08-08 it still listed Genshin 6.7 Phase 1
+// (Sandrone, Citlali) while the official feed had Phase 2 (Raiden, Columbina)
+// live. Anything the official feed can answer, it answers.
+function officialPhaseFrom(rows, key, rosters, runCounts) {
+  if (!rows.length) return null;
+  const characters = [];
+  const seen = new Set();
+  for (const { record } of rows) {
+    for (const featured of record.featured || []) {
+      if (!featured?.name || featured.entityType === 'weapon') continue;
+      // A placeholder the wiki uses for an unannounced slot — never a name.
+      if (/^unknown\b/i.test(featured.name)) continue;
+      const id = String(featured.name).toLowerCase();
+      if (seen.has(id)) continue;
+      seen.add(id);
+      const entry = normalizeBannerCharacter(rosters, key, featured, runCounts);
+      if (entry) characters.push(entry);
+    }
+  }
+  if (!characters.length) return null;
+  // A just-announced phase often has a start and no published end yet.
+  const ends = rows.map((row) => row.end).filter((value) => Number.isFinite(value));
+  return {
+    phase: rows[0].record.version || null,
+    start: new Date(Math.min(...rows.map((row) => row.start))).toISOString(),
+    end: ends.length ? new Date(Math.max(...ends)).toISOString() : null,
+    characters,
+    subBanners: [],
+  };
+}
+
+// What is live now and what is confirmed next, straight from the official
+// banner history.
+//
+// The community banner scrape is still needed for phases further out, but it
+// lags on the running one (2026-08-08: it listed Genshin 6.7 Phase 1 while
+// Phase 2 was live) and only ever lists the headline 5-stars, so the featured
+// 4-stars (Alyosha on both 7.0 Phase 1 banners) exist only here.
+function officialPhases(key, rosters, runCounts, now) {
+  const file = `BannerHistory/${key}.json`;
+  if (!exists(file)) return { current:null, next:null };
+  const live = [];
+  const future = [];
+  for (const record of readJson(file).records || []) {
+    if (record?.permanent || record?.bannerType === 'weapon') continue;
+    for (const window of Object.values(record.windowsByRegion || {})) {
+      const start = Date.parse(window?.start);
+      const end = Date.parse(window?.end);
+      if (!Number.isFinite(start)) continue;
+      // "Live" needs a published end — without one an ancient record would
+      // masquerade as running. "Upcoming" only needs a start.
+      if (start > now) future.push({ record, start, end });
+      else if (Number.isFinite(end) && end >= now) live.push({ record, start, end });
+      break;
+    }
+  }
+  // "Next" is only the soonest future phase, not everything on the wiki.
+  const soonest = future.length ? Math.min(...future.map((row) => row.start)) : null;
+  const nextRows = soonest === null ? [] : future.filter((row) => row.start - soonest < 36 * 60 * 60 * 1000);
+  return {
+    current:officialPhaseFrom(live, key, rosters, runCounts),
+    next:officialPhaseFrom(nextRows, key, rosters, runCounts),
   };
 }
 
@@ -5209,13 +5329,25 @@ function buildBannersData(rosters) {
   for (const group of src.games || []) {
     const key = gameKey(group.id || group.slug || group.name);
     if (!key) continue;
+    const runCounts = bannerRunCounts(key);
     // 1) Normalize each phase's characters (roster art + scraper CDN icons).
+    const scrapedCurrent = normalizeBannerPhase(rosters, key, group.current, runCounts);
+    const scrapedNext = normalizeBannerPhase(rosters, key, group.next, runCounts);
+    const official = officialPhases(key, rosters, runCounts, now);
+    // The official feed wins for what is live and what is confirmed next. Keep
+    // the community phase label ("6.7 Phase 2") only when it describes the same
+    // banner — otherwise the label belongs to a phase that already ended.
+    const keepLabel = (officialPhase, scraped) => {
+      if (!officialPhase) return null;
+      const sameRun = scraped?.phase && scraped.characters.some((row) => officialPhase.characters.some((hit) => hit.name === row.name));
+      return { ...officialPhase, phase:sameRun ? scraped.phase : officialPhase.phase };
+    };
     const normalized = {
       name: group.name,
       freshness: group.freshness || null,
-      current: normalizeBannerPhase(rosters, key, group.current),
-      next: normalizeBannerPhase(rosters, key, group.next),
-      upcoming: (group.upcoming || []).map((phase) => normalizeBannerPhase(rosters, key, phase)),
+      current: keepLabel(official.current, scrapedCurrent) || scrapedCurrent,
+      next: keepLabel(official.next, scrapedNext) || scrapedNext,
+      upcoming: (group.upcoming || []).map((phase) => normalizeBannerPhase(rosters, key, phase, runCounts)),
     };
     // 2) Re-thread current/next/upcoming from the timeline and compute honest
     //    freshness (drops expired-as-current, merges identical windows).

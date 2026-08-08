@@ -12,7 +12,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { cleanTitle, classifyType, makeEvent, mergeRegionalEvents, parseEndfieldAvailability, parseHoyoDuration, parseScopedDateRange } from './core.mjs';
+import { cleanTitle, classifyType, decodeEntities, makeEvent, mergeRegionalEvents, parseEndfieldAvailability, parseHoyoDuration, parseScopedDateRange } from './core.mjs';
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 export const RAW_DIR = path.join(here, 'raw');
@@ -111,12 +111,44 @@ function hoyoRegionConfig(game, region) {
   return { ...base, ...REGION_TIME[region], server:region, list:replaceRegion(base.list), content:replaceRegion(base.content) };
 }
 
+// The feed has TWO announcement lists. `data.list` holds text notices, and
+// `data.pic_list` holds the illustrated event cards — nested one level deeper,
+// under a per-type bucket. Star Rail and Zenless publish most of their events
+// only in the picture list (2026-08-08: HSR had 1 event in the text list and 8
+// in the picture list), so reading `data.list` alone made those games look
+// almost empty. Genshin uses the text list only, hence it never showed.
 function flattenAnnList(payload) {
-  const groups = payload?.data?.list;
-  if (!Array.isArray(groups)) return { anns: [], retcode: payload?.retcode };
   const anns = [];
-  for (const group of groups) for (const ann of group.list || []) anns.push({ ...ann, type_label: group.type_label });
+  for (const group of payload?.data?.list || []) {
+    for (const ann of group.list || []) anns.push({ ...ann, type_label: group.type_label });
+  }
+  for (const group of payload?.data?.pic_list || []) {
+    for (const bucket of group.type_list || []) {
+      for (const ann of bucket.list || []) anns.push({ ...ann, type_label: ann.type_label || group.type_label, _pic: true });
+    }
+  }
+  if (!anns.length && !Array.isArray(payload?.data?.list)) return { anns: [], retcode: payload?.retcode };
   return { anns, retcode: payload?.retcode };
+}
+
+// A picture announcement carries no body, so its own window IS the event
+// window. Some carry a placeholder end a decade out ("Fate/UBW Collaboration
+// Warp Details" ends 2036) — that is "no announced end", not a ten-year event.
+const HOYO_PIC_HORIZON_MS = 2 * 365 * 24 * 60 * 60 * 1000;
+
+export function hoyoPicWindow(ann, offset) {
+  if (!ann?._pic) return { start:null, end:null };
+  const at = (value) => {
+    const text = String(value || '').trim();
+    if (!/^\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}$/.test(text)) return null;
+    const iso = text.replace(' ', 'T') + offset;
+    return Number.isFinite(Date.parse(iso)) ? new Date(iso).toISOString() : null;
+  };
+  const start = at(ann.start_time);
+  let end = at(ann.end_time);
+  if (end && Date.parse(end) - Date.now() > HOYO_PIC_HORIZON_MS) end = null;
+  if (end && start && Date.parse(end) <= Date.parse(start)) end = null;
+  return { start, end };
 }
 
 const HOYO_EVENT_TITLE = /\b(event|festival|challenge|trial|login|log-in|check-?in|wish|warp|signal search|w-engine|convene|double drop|drop rate|ley line overflow|overflowing mastery|planar fissure|garden of plenty|realm of the strange|gift|shop|bundle|combat|onslaught|abyss|fiction|hollow zero|shiyu|deadly assault)\b/i;
@@ -127,6 +159,7 @@ export function isHoyoEventCandidate(ann, body) {
   if (!title || HOYO_NOTICE_ONLY.test(title)) return false;
   const duration = parseHoyoDuration(body?.content || '', '+00:00');
   if (duration.start || duration.permanent) return true;
+  if (ann?._pic && hoyoPicWindow(ann, '+00:00').start) return true;
   const classified = classifyType(title, { typeLabel: ann?.type_label || '' });
   return classified !== 'event' || HOYO_EVENT_TITLE.test(title);
 }
@@ -148,6 +181,12 @@ export function parseHoyo(game, listPayload, contentPayload, region = 'europe', 
       if (parsed.permanent) permanent = true;
       if (parsed.start) { start = parsed.start; end = parsed.end; dateSource = 'content'; }
     }
+    // Picture announcements have no body to read, so their own window is the
+    // event window — the only dates those events ever publish here.
+    if (!start && ann._pic) {
+      const picked = hoyoPicWindow(ann, cfg.offset);
+      if (picked.start) { start = picked.start; end = picked.end; dateSource = 'list'; }
+    }
     // Announcement-list start/end fields describe notice visibility, not the
     // event itself. Missing/broken content therefore stays needs_review.
     events.push(makeEvent({
@@ -163,7 +202,7 @@ export function parseHoyo(game, listPayload, contentPayload, region = 'europe', 
       sourceKind: 'official-announcement-api',
       fetchedAt,
       priority: 1,
-      image: ann.banner || null,
+      image: ann.banner || ann.img || null,
       description: body?.content || null,
       dateSource,
     }));
@@ -171,11 +210,42 @@ export function parseHoyo(game, listPayload, contentPayload, region = 'europe', 
   return events;
 }
 
+// Announcement art (the `banner` field), keyed by ann_id — i.e. by an event's
+// source.recordId. Deliberately kept out of parseHoyo: an event record must
+// never carry a publisher CDN URL, because the site only ever renders local
+// /assets paths (normalizeEventImage) and the deployed CSP blocks third-party
+// image hosts. Scraper/events/art.mjs downloads these and writes the local path.
+export function hoyoArtByRecordId(listPayload) {
+  const { anns } = flattenAnnList(listPayload);
+  const out = new Map();
+  for (const ann of anns) {
+    const id = ann?.ann_id === undefined || ann?.ann_id === null ? '' : String(ann.ann_id);
+    const banner = String(ann?.banner || ann?.img || '').trim();
+    if (id && banner) out.set(id, banner);
+  }
+  return out;
+}
+
+export async function fetchHoyoArt(game) {
+  if (!HOYO[game]) return new Map();
+  const cfg = hoyoRegionConfig(game, 'europe');
+  return hoyoArtByRecordId(await fetchJson(cfg.list, `${game}-europe-annlist`));
+}
+
+// Kuro publishes no cover field on either the menu or the article (both
+// `suggestCover` and `articleCover` are empty across the whole feed), but every
+// event post opens with its key visual, so the first body image is the art.
+export function wuwaArticleArt(articlePayload) {
+  const match = String(articlePayload?.articleContent || '').match(/<img[^>]+src="([^"]+)"/i);
+  return match ? decodeEntities(match[1]).trim() : null;
+}
+
 export async function scrapeHoyo(game) {
   staleFetchKeys.forEach((key) => { if (key.startsWith(`${game}-`)) staleFetchKeys.delete(key); });
   const fetchedAt = new Date().toISOString();
   const regional = [];
   const anomalies = [];
+  const artByRecordId = new Map();
   let fetched = 0;
   let pagesFetched = 0;
   for (const region of ['europe','asia','america']) {
@@ -183,6 +253,7 @@ export async function scrapeHoyo(game) {
     try {
       const listPayload = await fetchJson(cfg.list, `${game}-${region}-annlist`);
       const contentPayload = await fetchJson(cfg.content, `${game}-${region}-anncontent`);
+      for (const [id, url] of hoyoArtByRecordId(listPayload)) if (!artByRecordId.has(id)) artByRecordId.set(id, url);
       const { anns, retcode } = flattenAnnList(listPayload);
       pagesFetched += 1;
       fetched += anns.length;
@@ -196,7 +267,7 @@ export async function scrapeHoyo(game) {
   const stale = sourceUsedStale(`${game}-`);
   if (stale) anomalies.push('one or more regions used a stale raw snapshot');
   return {
-    events:mergeRegionalEvents(regional), anomaly:anomalies.join('; ') || null, fetched,
+    events:mergeRegionalEvents(regional), artByRecordId, anomaly:anomalies.join('; ') || null, fetched,
     pagesFetched, pageLimit:3, exhausted:pagesFetched === 3, resumeCursor:pagesFetched === 3 ? null : ['europe','asia','america'][pagesFetched], stale,
     gaps:['The official HoYo announcement API is a rolling feed and does not expose a launch-to-present pagination cursor.'],
   };
@@ -264,12 +335,15 @@ export async function scrapeWuwa({ limit = 80, completedIds = [], resumeCursor =
   const plan = planWuwaHistory(candidates, { limit, completedIds, resumeCursor });
   const batch = plan.batch;
   const events = [];
+  const artByRecordId = new Map();
   let failed = 0;
   const nextCursor = () => wuwaRecordId(plan.historyPool.find((item) => !completed.has(wuwaRecordId(item)))) || null;
   for (let index = 0; index < batch.length; index += 1) {
     const item = batch[index];
     try {
       const article = await fetchJson(WUWA_ARTICLE(item.articleId), `wuwa-article-${item.articleId}`);
+      const art = wuwaArticleArt(article);
+      if (art) artByRecordId.set(wuwaRecordId(item), art);
       events.push(parseWuwaArticle(item, article));
       completed.add(String(item.articleId));
       await onCheckpoint({ completedIds:[...completed].sort(), resumeCursor:nextCursor() });
@@ -283,7 +357,7 @@ export async function scrapeWuwa({ limit = 80, completedIds = [], resumeCursor =
   const stale = sourceUsedStale('wuwa-');
   const anomaly = !candidates.length ? 'no event-ish articles in menu' : !plan.cursorFound ? `resume cursor ${resumeCursor} was absent; restarted at the first unprocessed historical record` : failed ? `${failed} article fetch failures` : unprocessed ? `history batch limit ${limit} reached` : stale ? 'one or more records used a stale raw snapshot' : null;
   return {
-    events, anomaly, fetched:batch.length, pagesFetched:1, pageLimit:1, exhausted:unprocessed === 0 && failed === 0,
+    events, artByRecordId, anomaly, fetched:batch.length, pagesFetched:1, pageLimit:1, exhausted:unprocessed === 0 && failed === 0,
     resumeCursor:nextCursor(),
     completedIds:[...completed].sort(), stale,
     gaps:unprocessed ? [`${unprocessed} official menu records remain for a later resumable batch.`] : [], reconcile:false,
@@ -339,6 +413,7 @@ export function isSourceEventRecord(game, event) {
 export async function scrapeEndfield({ pages = 50, startPage = 1, completedIds = [], onCheckpoint = async () => {}, delayMs = 250 } = {}) {
   staleFetchKeys.forEach((key) => { if (key.startsWith('endfield-')) staleFetchKeys.delete(key); });
   const events = [];
+  const artByRecordId = new Map();
   let fetched = 0;
   let failed = 0;
   let pagesFetched = 0;
@@ -360,6 +435,8 @@ export async function scrapeEndfield({ pages = 50, startPage = 1, completedIds =
     for (const item of relevant) {
       try {
         const detail = await fetchJson(ENDFIELD_DETAIL(item.cid), `endfield-detail-${item.cid}`);
+        const art = String(item.cover || '').trim();
+        if (art) artByRecordId.set(String(item.cid), art);
         events.push(parseEndfieldDetail(item, detail));
         completed.add(String(item.cid));
       } catch (error) {
@@ -376,7 +453,7 @@ export async function scrapeEndfield({ pages = 50, startPage = 1, completedIds =
   const stale = sourceUsedStale('endfield-');
   const anomaly = !fetched && !exhausted ? 'no endfield notices' : failed ? `${failed} bulletin/repeated-page failures` : !exhausted ? `page limit ${pages} reached` : stale ? 'one or more records used a stale raw snapshot' : null;
   return {
-    events, anomaly, fetched, pagesFetched, pageLimit:pages, exhausted, resumeCursor:exhausted ? null : resumeCursor,
+    events, artByRecordId, anomaly, fetched, pagesFetched, pageLimit:pages, exhausted, resumeCursor:exhausted ? null : resumeCursor,
     completedIds:[...completed].sort(), stale,
     gaps:!exhausted ? ['The Gryphline bulletin history has more pages pending in the next resumable batch.'] : [], reconcile:true,
   };

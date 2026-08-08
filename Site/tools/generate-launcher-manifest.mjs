@@ -999,7 +999,10 @@ export function validatePackagedManifest(manifest, { now = Date.now(), maxAgeMs 
       || !Number.isSafeInteger(asset?.dimensions?.height) || asset.dimensions.height <= 0) errors.push(`asset dimensions are invalid: ${asset?.path ?? '<missing>'}`);
   }
   const serialized = JSON.stringify(manifest);
-  if (/nanoka|drive\.google|google drive|sourceUrl|(?:^|[\"/])Database(?:[\/\"]|$)|[a-z]:\\\\|[\\/]Users[\\/]|token/i.test(serialized)) {
+  // `token` is matched as a credential, not as the English word: official event
+  // titles legitimately contain it ("...Prismatic Crystals, the Token for the
+  // Colorful Surprise Box"), and the bare-word match blocked every deploy.
+  if (/nanoka|drive\.google|google drive|sourceUrl|(?:^|[\"/])Database(?:[\/\"]|$)|[a-z]:\\\\|[\\/]Users[\\/]|(?:access|api|auth|bearer|refresh|secret|session)[_-]?token|token[\"']?\s*[=:]\s*[\"']?[\w-]{8}/i.test(serialized)) {
     errors.push('manifest contains internal provenance or secret-like metadata');
   }
   if (errors.length) throw new Error(`Launcher manifest is not deployable:\n- ${errors.join('\n- ')}`);

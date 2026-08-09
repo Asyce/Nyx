@@ -1,14 +1,14 @@
 {
-  "checkedAt": "2026-08-08T13:04:48.381Z",
-  "updated": "2026-08-08T13:04:48.381Z",
+  "checkedAt": "2026-08-09T11:35:19.636Z",
+  "updated": "2026-08-09T11:35:19.636Z",
   "games": [
     {
       "id": "hsr",
       "name": "Honkai: Star Rail",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-08-08T13:04:48.381Z",
-        "lastSuccessfulFetch": "2026-08-08T13:04:48.381Z",
+        "checkedAt": "2026-08-09T11:35:19.636Z",
+        "lastSuccessfulFetch": "2026-08-09T11:35:19.636Z",
         "source": "game8"
       },
       "current": {
@@ -67,8 +67,8 @@
       "name": "Genshin Impact",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-08-08T13:04:48.381Z",
-        "lastSuccessfulFetch": "2026-08-08T13:04:48.381Z",
+        "checkedAt": "2026-08-09T11:35:19.636Z",
+        "lastSuccessfulFetch": "2026-08-09T11:35:19.636Z",
         "source": "game8"
       },
       "current": {
@@ -136,8 +136,8 @@
       "name": "Wuthering Waves",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-08-08T13:04:48.381Z",
-        "lastSuccessfulFetch": "2026-08-08T13:04:48.381Z",
+        "checkedAt": "2026-08-09T11:35:19.636Z",
+        "lastSuccessfulFetch": "2026-08-09T11:35:19.636Z",
         "source": "game8"
       },
       "current": {
@@ -199,8 +199,8 @@
       "name": "Zenless Zone Zero",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-08-08T13:04:48.381Z",
-        "lastSuccessfulFetch": "2026-08-08T13:04:48.381Z",
+        "checkedAt": "2026-08-09T11:35:19.636Z",
+        "lastSuccessfulFetch": "2026-08-09T11:35:19.636Z",
         "source": "game8"
       },
       "current": {
@@ -274,24 +274,12 @@
       "name": "Arknights: Endfield",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-08-08T13:04:48.381Z",
-        "lastSuccessfulFetch": "2026-08-08T13:04:48.381Z",
+        "checkedAt": "2026-08-09T11:35:19.636Z",
+        "lastSuccessfulFetch": "2026-08-09T11:35:19.636Z",
         "source": "game8"
       },
       "current": {
-        "phase": "1.4 Phase 1",
-        "characters": [
-          {
-            "name": "Arcane",
-            "image": "https://cdn.perlica.moe/images/operators/portraits/arcane.webp",
-            "rarity": 6
-          }
-        ],
-        "end": "2026-08-09T02:00:00.000Z",
-        "source": "game8"
-      },
-      "next": {
-        "phase": null,
+        "phase": "1.4 Phase 2",
         "characters": [
           {
             "name": "Liino",
@@ -299,6 +287,12 @@
             "rarity": 6
           }
         ],
+        "end": "2026-09-02T02:00:00.000Z",
+        "source": "game8"
+      },
+      "next": {
+        "phase": null,
+        "characters": [],
         "start": "2026-08-09T02:00:00.000Z",
         "end": "2026-08-30T02:00:00.000Z",
         "source": "game8"

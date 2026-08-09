@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-08T19:15:45.477Z",
+  "generatedAt": "2026-08-09T12:04:11.750Z",
   "games": {
     "gi": {
       "count": 293,
@@ -937,6 +937,7 @@
         "official-latest:4493",
         "official-latest:4591",
         "official-latest:4691",
+        "official-latest:4712",
         "official-latest:4836",
         "official-latest:4852",
         "official-latest:4885",
@@ -946,7 +947,7 @@
         "official-latest:5220",
         "official-latest:5227"
       ],
-      "contentHash": "6c3ecd59373a13cba2e808eae5acb7fa8e6d7d9296fe41ec4d9e7ddbe9b636b3"
+      "contentHash": "2be1839f1a20a7b5a544475c397cb9da62288efedd9872aa7e4dcef590cc0f1e"
     },
     "ae": {
       "count": 30,
@@ -961,7 +962,7 @@
       },
       "revisions": [
         "maintained-wiki:59792",
-        "maintained-wiki:59799"
+        "maintained-wiki:59936"
       ],
       "officialRevisions": [
         "official-latest:0754",
@@ -986,7 +987,7 @@
         "official-latest:9564",
         "official-latest:9579"
       ],
-      "contentHash": "48a2a01aead8d247b32631e17e6b1183bef784c11d33e7236e26164cd2773853"
+      "contentHash": "0cc722e463e28f67c3d5af65ac1b96e19a4c39e8471a1b9ad211d97511e368f1"
     }
   }
 }

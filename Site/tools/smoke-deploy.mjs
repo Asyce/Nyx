@@ -421,10 +421,17 @@ async function main() {
   if (!bundle.includes('database/serenitea-pot')) throw new Error('bundle missing canonical nested Database routes');
   if (!bundle.includes('database/wonderland')) throw new Error('bundle missing Wonderland Database route');
   if (!bundle.includes('tcg-filter-popout')) throw new Error('bundle missing compact TCG filter popout');
-  if (!bundle.includes('db-load-more')) throw new Error('bundle missing progressive Database result reveal');
+  // 2026-08-09: Load more was replaced by category sections that render every
+  // row and paint as they scroll into view.
+  if (bundle.includes('db-load-more')) throw new Error('bundle still contains the old Load more pagination');
+  if (!bundle.includes('db-group-head')) throw new Error('bundle missing grouped Database sections');
+  if (!bundle.includes('db-scroll')) throw new Error('bundle missing the Database section scroller');
+  if (!bundle.includes('db-rarity-toggle')) throw new Error('bundle missing the 3-star rarity toggle');
   if (bundle.includes('Showing 400 of')) throw new Error('bundle still contains the old 400-result dead end');
   if (!bundle.includes('Search Miliastra Wonderland')) throw new Error('bundle missing accessible Wonderland search');
-  if (!bundle.includes('Search Library')) throw new Error('bundle missing Library search');
+  // The visible "Search Library" label was removed 2026-08-09; the field keeps
+  // an accessible name.
+  if (!bundle.includes('Search the library')) throw new Error('bundle missing Library search');
   if (!bundle.includes('Opening book')) throw new Error('bundle missing The Library lazy-reader state');
   if (!bundle.includes('Book volumes')) throw new Error('bundle missing accessible Library volume controls');
   if (bundle.includes('asyce.com/asivepulled')) throw new Error('bundle contains old helper URL');

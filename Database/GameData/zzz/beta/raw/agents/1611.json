@@ -54,7 +54,7 @@
     "attack_growth": 58479,
     "avatar_piece_id": 5611,
     "break_stun": 93,
-    "crit": 1000,
+    "crit": 1500,
     "crit_damage": 0,
     "crit_dmg_res": 0,
     "crit_res": 0,
@@ -314,23 +314,23 @@
               "desc": "{Skill:1611001, Prop:1001}",
               "param": {
                 "1611001": {
-                  "main": 4910,
-                  "growth": 450,
+                  "main": 5640,
+                  "growth": 520,
                   "format": "%",
-                  "damage_percentage": 4910,
-                  "damage_percentage_growth": 450,
-                  "stun_ratio": 3090,
-                  "stun_ratio_growth": 150,
+                  "damage_percentage": 5640,
+                  "damage_percentage_growth": 520,
+                  "stun_ratio": 3470,
+                  "stun_ratio_growth": 160,
                   "sp_recovery": 0,
                   "sp_recovery_growth": 0,
-                  "fever_recovery": 77275,
+                  "fever_recovery": 86900,
                   "fever_recovery_growth": 0,
-                  "attribute_infliction": 2800,
+                  "attribute_infliction": 3150,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
-                  "ether_purify": 2801
+                  "ether_purify": 3151
                 }
               },
               "potential": []
@@ -340,23 +340,23 @@
               "desc": "{Skill:1611002, Prop:1001}",
               "param": {
                 "1611002": {
-                  "main": 6650,
-                  "growth": 610,
+                  "main": 6970,
+                  "growth": 640,
                   "format": "%",
-                  "damage_percentage": 6650,
-                  "damage_percentage_growth": 610,
-                  "stun_ratio": 3940,
-                  "stun_ratio_growth": 180,
+                  "damage_percentage": 6970,
+                  "damage_percentage_growth": 640,
+                  "stun_ratio": 4290,
+                  "stun_ratio_growth": 200,
                   "sp_recovery": 0,
                   "sp_recovery_growth": 0,
-                  "fever_recovery": 98450,
+                  "fever_recovery": 107250,
                   "fever_recovery_growth": 0,
-                  "attribute_infliction": 3574,
+                  "attribute_infliction": 3899,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
-                  "ether_purify": 3575
+                  "ether_purify": 3900
                 }
               },
               "potential": []
@@ -366,23 +366,23 @@
               "desc": "{Skill:1611003, Prop:1001}",
               "param": {
                 "1611003": {
-                  "main": 10020,
-                  "growth": 920,
+                  "main": 9870,
+                  "growth": 900,
                   "format": "%",
-                  "damage_percentage": 10020,
-                  "damage_percentage_growth": 920,
-                  "stun_ratio": 5700,
-                  "stun_ratio_growth": 260,
+                  "damage_percentage": 9870,
+                  "damage_percentage_growth": 900,
+                  "stun_ratio": 6090,
+                  "stun_ratio_growth": 280,
                   "sp_recovery": 0,
                   "sp_recovery_growth": 0,
-                  "fever_recovery": 142450,
+                  "fever_recovery": 152075,
                   "fever_recovery_growth": 0,
-                  "attribute_infliction": 5178,
+                  "attribute_infliction": 5529,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
-                  "ether_purify": 5179
+                  "ether_purify": 5530
                 }
               },
               "potential": []
@@ -392,23 +392,23 @@
               "desc": "{Skill:1611004, Prop:1001}",
               "param": {
                 "1611004": {
-                  "main": 30920,
-                  "growth": 2820,
+                  "main": 30020,
+                  "growth": 2730,
                   "format": "%",
-                  "damage_percentage": 30920,
-                  "damage_percentage_growth": 2820,
-                  "stun_ratio": 19010,
-                  "stun_ratio_growth": 870,
+                  "damage_percentage": 30020,
+                  "damage_percentage_growth": 2730,
+                  "stun_ratio": 17880,
+                  "stun_ratio_growth": 820,
                   "sp_recovery": 0,
                   "sp_recovery_growth": 0,
-                  "fever_recovery": 475475,
+                  "fever_recovery": 447150,
                   "fever_recovery_growth": 0,
-                  "attribute_infliction": 17280,
+                  "attribute_infliction": 16253,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
-                  "ether_purify": 17281
+                  "ether_purify": 16254
                 }
               },
               "potential": []
@@ -418,23 +418,23 @@
               "desc": "{Skill:1611001, Prop:1002}",
               "param": {
                 "1611001": {
-                  "main": 3090,
-                  "growth": 150,
+                  "main": 3470,
+                  "growth": 160,
                   "format": "%",
-                  "damage_percentage": 4910,
-                  "damage_percentage_growth": 450,
-                  "stun_ratio": 3090,
-                  "stun_ratio_growth": 150,
+                  "damage_percentage": 5640,
+                  "damage_percentage_growth": 520,
+                  "stun_ratio": 3470,
+                  "stun_ratio_growth": 160,
                   "sp_recovery": 0,
                   "sp_recovery_growth": 0,
-                  "fever_recovery": 77275,
+                  "fever_recovery": 86900,
                   "fever_recovery_growth": 0,
-                  "attribute_infliction": 2800,
+                  "attribute_infliction": 3150,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
-                  "ether_purify": 2801
+                  "ether_purify": 3151
                 }
               },
               "potential": []
@@ -444,23 +444,23 @@
               "desc": "{Skill:1611002, Prop:1002}",
               "param": {
                 "1611002": {
-                  "main": 3940,
-                  "growth": 180,
+                  "main": 4290,
+                  "growth": 200,
                   "format": "%",
-                  "damage_percentage": 6650,
-                  "damage_percentage_growth": 610,
-                  "stun_ratio": 3940,
-                  "stun_ratio_growth": 180,
+                  "damage_percentage": 6970,
+                  "damage_percentage_growth": 640,
+                  "stun_ratio": 4290,
+                  "stun_ratio_growth": 200,
                   "sp_recovery": 0,
                   "sp_recovery_growth": 0,
-                  "fever_recovery": 98450,
+                  "fever_recovery": 107250,
                   "fever_recovery_growth": 0,
-                  "attribute_infliction": 3574,
+                  "attribute_infliction": 3899,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
-                  "ether_purify": 3575
+                  "ether_purify": 3900
                 }
               },
               "potential": []
@@ -470,23 +470,23 @@
               "desc": "{Skill:1611003, Prop:1002}",
               "param": {
                 "1611003": {
-                  "main": 5700,
-                  "growth": 260,
+                  "main": 6090,
+                  "growth": 280,
                   "format": "%",
-                  "damage_percentage": 10020,
-                  "damage_percentage_growth": 920,
-                  "stun_ratio": 5700,
-                  "stun_ratio_growth": 260,
+                  "damage_percentage": 9870,
+                  "damage_percentage_growth": 900,
+                  "stun_ratio": 6090,
+                  "stun_ratio_growth": 280,
                   "sp_recovery": 0,
                   "sp_recovery_growth": 0,
-                  "fever_recovery": 142450,
+                  "fever_recovery": 152075,
                   "fever_recovery_growth": 0,
-                  "attribute_infliction": 5178,
+                  "attribute_infliction": 5529,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
-                  "ether_purify": 5179
+                  "ether_purify": 5530
                 }
               },
               "potential": []
@@ -496,23 +496,23 @@
               "desc": "{Skill:1611004, Prop:1002}",
               "param": {
                 "1611004": {
-                  "main": 19010,
-                  "growth": 870,
+                  "main": 17880,
+                  "growth": 820,
                   "format": "%",
-                  "damage_percentage": 30920,
-                  "damage_percentage_growth": 2820,
-                  "stun_ratio": 19010,
-                  "stun_ratio_growth": 870,
+                  "damage_percentage": 30020,
+                  "damage_percentage_growth": 2730,
+                  "stun_ratio": 17880,
+                  "stun_ratio_growth": 820,
                   "sp_recovery": 0,
                   "sp_recovery_growth": 0,
-                  "fever_recovery": 475475,
+                  "fever_recovery": 447150,
                   "fever_recovery_growth": 0,
-                  "attribute_infliction": 17280,
+                  "attribute_infliction": 16253,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
-                  "ether_purify": 17281
+                  "ether_purify": 16254
                 }
               },
               "potential": []
@@ -606,11 +606,11 @@
               "desc": "{Skill:1611029, Prop:1001}",
               "param": {
                 "1611029": {
-                  "main": 17590,
-                  "growth": 1600,
+                  "main": 20690,
+                  "growth": 1890,
                   "format": "%",
-                  "damage_percentage": 17590,
-                  "damage_percentage_growth": 1600,
+                  "damage_percentage": 20690,
+                  "damage_percentage_growth": 1890,
                   "stun_ratio": 8250,
                   "stun_ratio_growth": 380,
                   "sp_recovery": 0,
@@ -713,8 +713,8 @@
                   "main": 8250,
                   "growth": 380,
                   "format": "%",
-                  "damage_percentage": 17590,
-                  "damage_percentage_growth": 1600,
+                  "damage_percentage": 20690,
+                  "damage_percentage_growth": 1890,
                   "stun_ratio": 8250,
                   "stun_ratio_growth": 380,
                   "sp_recovery": 0,
@@ -1160,7 +1160,7 @@
         },
         {
           "name": "EX Special Attack: Blood Bloom Oath - Secret Blood Forged Edge",
-          "desc": "When Sharpness is sufficient and not in [Crimson Engrave], press <IconMap:Icon_SpecialReady> to activate:\nTransforms the forging hammer into a blood axe and Slashes the target enemy, dealing <color=#2EB6FF>Electric DMG</color>;\nAfter consuming Sharpness to use the skill, enters [Crimson Engrave] for 12.5 seconds. While off field, the duration no longer decreases;\nCharacter is invulnerable while using this skill.",
+          "desc": "When Sharpness is sufficient and not in [Crimson Inscription], press <IconMap:Icon_SpecialReady> to activate:\nTransforms the forging hammer into a blood axe and Slashes the target enemy, dealing <color=#2EB6FF>Electric DMG</color>;\nAfter consuming Sharpness to activate the skill, enters [Crimson Inscription] for 13.5s. While off field, the duration no longer decreases;\nUpon activating this skill, hold <IconMap:Icon_SpecialReady> to skip the Slash and quickly ALT into [Special Attack: Blood Blossom Oath - Sever Metal] and [Special Attack: Blood Blossom Oath - Bloody Onslaught];\nCharacter is invulnerable while using this skill.",
           "potential": []
         },
         {
@@ -1406,11 +1406,11 @@
               "desc": "{Skill:1611013, Prop:1001}",
               "param": {
                 "1611013": {
-                  "main": 42000,
-                  "growth": 3820,
+                  "main": 78400,
+                  "growth": 7130,
                   "format": "%",
-                  "damage_percentage": 42000,
-                  "damage_percentage_growth": 3820,
+                  "damage_percentage": 78400,
+                  "damage_percentage_growth": 7130,
                   "stun_ratio": 0,
                   "stun_ratio_growth": 0,
                   "sp_recovery": 0,
@@ -1438,11 +1438,11 @@
               "desc": "{Skill:1611014, Prop:1001}",
               "param": {
                 "1611014": {
-                  "main": 62350,
-                  "growth": 5670,
+                  "main": 70320,
+                  "growth": 6400,
                   "format": "%",
-                  "damage_percentage": 62350,
-                  "damage_percentage_growth": 5670,
+                  "damage_percentage": 70320,
+                  "damage_percentage_growth": 6400,
                   "stun_ratio": 28060,
                   "stun_ratio_growth": 1280,
                   "sp_recovery": 0,
@@ -1467,8 +1467,8 @@
                   "main": 28060,
                   "growth": 1280,
                   "format": "%",
-                  "damage_percentage": 62350,
-                  "damage_percentage_growth": 5670,
+                  "damage_percentage": 70320,
+                  "damage_percentage_growth": 6400,
                   "stun_ratio": 28060,
                   "stun_ratio_growth": 1280,
                   "sp_recovery": 0,
@@ -1490,11 +1490,11 @@
               "desc": "{Skill:1611015, Prop:1001}",
               "param": {
                 "1611015": {
-                  "main": 42000,
-                  "growth": 3820,
+                  "main": 78400,
+                  "growth": 7130,
                   "format": "%",
-                  "damage_percentage": 42000,
-                  "damage_percentage_growth": 3820,
+                  "damage_percentage": 78400,
+                  "damage_percentage_growth": 7130,
                   "stun_ratio": 0,
                   "stun_ratio_growth": 0,
                   "sp_recovery": 0,
@@ -1835,11 +1835,11 @@
               "desc": "{Skill:1611023, Prop:1001}",
               "param": {
                 "1611023": {
-                  "main": 8990,
-                  "growth": 820,
+                  "main": 12010,
+                  "growth": 1100,
                   "format": "%",
-                  "damage_percentage": 8990,
-                  "damage_percentage_growth": 820,
+                  "damage_percentage": 12010,
+                  "damage_percentage_growth": 1100,
                   "stun_ratio": 4040,
                   "stun_ratio_growth": 190,
                   "sp_recovery": 0,
@@ -1864,8 +1864,8 @@
                   "main": 4040,
                   "growth": 190,
                   "format": "%",
-                  "damage_percentage": 8990,
-                  "damage_percentage_growth": 820,
+                  "damage_percentage": 12010,
+                  "damage_percentage_growth": 1100,
                   "stun_ratio": 4040,
                   "stun_ratio_growth": 190,
                   "sp_recovery": 0,
@@ -2148,7 +2148,7 @@
           "Additional Ability: Bloodline Legacy"
         ],
         "desc": [
-          "All DMG dealt by Claret's skills is Sharp DMG, which uses DEF as the skill DMG Multiplier;\nWhen a critical hit is triggered, Laceration DMG replaces CRIT DMG for calculation; when CRIT Rate exceeds 100%, an additional Laceration judgment is performed, with the Laceration probability equal to the excess CRIT Rate;\nSharp DMG accumulates Gash value. When the Gash value is full, the enemy enters [Gash], which can stack up to 3 times;\nWhen Claret enters the battlefield, she recovers 60 Sharpness. In Investigation Zone mode, this effect can trigger once every 180 seconds.\nWhen Claret's [Special Attack: Blood Oath - Sever Steel] or [Special Attack: Blood Oath - Crimson Onslaught] hits an enemy afflicted with [Gash], one stack of [Gash] is consumed, triggering [Maim] to deal additional DMG;\nAfter Claret enters [Crimson Engrave], her Anti-Interrupt Lv. is increased. When Claret uses a [Chain Attack], [Crimson Engrave] duration is extended by 3s. When [Contamination] is triggered, [Crimson Engrave] duration is extended by 3s;\nWhile Claret is in [Crimson Engrave], or during [Chain Attack: Blood Oath - Blood Pact Resonance], [Ultimate: Blood Oath - Thousandfold Temper], or [Assist Follow-Up: Blood Oath - Pristine Molten Edge], DMG dealt is increased by <color=#POSITIVE_WITH_GREYITE>15%</color>. During [Basic Attack: Blood Oath - Forge Star] and [Basic Attack: Blood Oath - Descending Axe] skill attacks, triggering a Perfect Dodge additionally increases DMG dealt for the remaining duration of the skill by 15%.",
+          "All DMG dealt by Claret's skills is Sharp DMG, which uses DEF as the skill DMG Multiplier;\nWhen a critical hit is triggered, Laceration DMG replaces CRIT DMG for calculation; when CRIT Rate exceeds 100%, an additional Laceration judgment is performed, with the Laceration probability equal to the excess CRIT Rate;\nSharp DMG accumulates Gash value. When the Gash value is full, the enemy enters [Gash], which can stack up to 3 times;\nWhen Claret enters the battlefield, she recovers 60 Sharpness. In Investigation Zone mode, this effect can trigger once every 180 seconds.\nWhen Claret's [Special Attack: Blood Oath - Sever Steel] or [Special Attack: Blood Oath - Crimson Onslaught] hits an enemy afflicted with [Gash], one stack of [Gash] is consumed, triggering [Maim] to deal additional DMG;\nAfter Claret enters [Crimson Engrave], her Anti-Interrupt Lv. is increased. When Claret uses a [Chain Attack], [Crimson Engrave] duration is extended by 2.5s. When [Contamination] is triggered, [Crimson Engrave] duration is extended by 3.5s;\nWhile Claret is in [Crimson Engrave], or during [Chain Attack: Blood Oath - Blood Pact Resonance], [Ultimate: Blood Oath - Thousandfold Temper], or [Assist Follow-Up: Blood Oath - Pristine Molten Edge], DMG dealt is increased by <color=#POSITIVE_WITH_GREYITE>15%</color>. During [Basic Attack: Blood Oath - Forge Star] and [Basic Attack: Blood Oath - Descending Axe] skill attacks, triggering a Perfect Dodge additionally increases DMG dealt for the remaining duration of the skill by 15%.",
           "When another character in your squad is a <color=#FFFFFF>[Stun]</color> Character or another <color=#FFFFFF>[Armorer]</color> Character, triggers:\nWhen a squad member's attack hits an enemy while they are the active Character, accumulates <color=#FFFFFF>3%</color> Gash value on the target, can trigger at most once every 1s;\nWhen Claret or a squad member triggers [Maim], all [Armorer] Agents in the whole squad enter [Remnant Edge]. While in the [Remnant Edge] state, CRIT Rate increases by <color=#FFFFFF>30%</color>, lasting 40s; re-entering [Remnant Edge] extends its duration."
         ],
         "extra_property": {},
@@ -2162,7 +2162,7 @@
           "Additional Ability: Bloodline Legacy"
         ],
         "desc": [
-          "All DMG dealt by Claret's skills is Sharp DMG, which uses DEF as the DMG Multiplier;\nWhen triggering a critical hit, Laceration DMG replaces CRIT DMG for calculation; when CRIT Rate exceeds 100%, an additional Laceration judgment is performed, with the Laceration probability equal to the excess CRIT Rate;\nSharp DMG accumulates Gash value. When the Gash value is full, enemies enter [Gash], which can stack up to 3 times;\nWhen Claret enters the battlefield, she recovers 60 Sharpness. In Investigation Zone mode, this effect can trigger once every 180 seconds.\nWhen Claret's [Special Attack: Blood Oath - Sever Steel] or [Special Attack: Blood Oath - Bloody Onslaught] hits an enemy in the [Gash] state, it consumes one stack of [Gash] and triggers [Maim] to deal additional DMG;\nAfter Claret enters [Crimson Engrave], her Anti-Interrupt Lv. increases. When Claret uses a [Chain Attack], [Crimson Engrave] duration is extended by 3 seconds. When [Contamination] is triggered, [Crimson Engrave] duration is extended by 3 seconds;\nWhile Claret is in [Crimson Engrave], or during [Chain Attack: Blood Oath - Blood Pact Resonance], [Ultimate: Blood Oath - Tempered Resolve], or [Assist Follow-Up: Blood Oath - Pristine Molten Edge], DMG dealt is increased by <color=#POSITIVE_WITH_GREYITE>17.5%</color>. During [Basic Attack: Blood Oath - Star Forge] and [Basic Attack: Blood Oath - Crouching Axe] skill attacks, triggering a Perfect Dodge additionally increases DMG dealt for the remaining duration of the skill by 15%.",
+          "All DMG dealt by Claret's skills is Sharp DMG, which uses DEF as the DMG Multiplier;\nWhen triggering a critical hit, Laceration DMG replaces CRIT DMG for calculation; when CRIT Rate exceeds 100%, an additional Laceration judgment is performed, with the Laceration probability equal to the excess CRIT Rate;\nSharp DMG accumulates Gash value. When the Gash value is full, enemies enter [Gash], which can stack up to 3 times;\nWhen Claret enters the battlefield, she recovers 60 Sharpness. In Investigation Zone mode, this effect can trigger once every 180 seconds.\nWhen Claret's [Special Attack: Blood Oath - Sever Steel] or [Special Attack: Blood Oath - Bloody Onslaught] hits an enemy in the [Gash] state, it consumes one stack of [Gash] and triggers [Maim] to deal additional DMG;\nAfter Claret enters [Crimson Engrave], her Anti-Interrupt Lv. increases. When Claret uses a [Chain Attack], [Crimson Engrave] duration is extended by 2.5 seconds. When [Contamination] is triggered, [Crimson Engrave] duration is extended by 3.5 seconds;\nWhile Claret is in [Crimson Engrave], or during [Chain Attack: Blood Oath - Blood Pact Resonance], [Ultimate: Blood Oath - Tempered Resolve], or [Assist Follow-Up: Blood Oath - Pristine Molten Edge], DMG dealt is increased by <color=#POSITIVE_WITH_GREYITE>17.5%</color>. During [Basic Attack: Blood Oath - Star Forge] and [Basic Attack: Blood Oath - Crouching Axe] skill attacks, triggering a Perfect Dodge additionally increases DMG dealt for the remaining duration of the skill by 15%.",
           "When another character in your squad is a <color=#FFFFFF>[Stun]</color> Character or another <color=#FFFFFF>[Armorer]</color> Character, triggers:\nWhen a squad member's attack hits an enemy while they are the active Character, accumulates <color=#FFFFFF>3%</color> Gash value on the target, can trigger at most once every 1s;\nWhen Claret or a squad member triggers [Maim], all [Armorer] Agents in the whole squad enter [Remnant Edge]. While in the [Remnant Edge] state, CRIT Rate increases by <color=#FFFFFF>30%</color>, lasting 40s; re-entering [Remnant Edge] extends its duration."
         ],
         "extra_property": {},
@@ -2176,7 +2176,7 @@
           "Additional Ability: Bloodline Legacy"
         ],
         "desc": [
-          "All DMG dealt by Claret's skills is Sharp DMG, which uses DEF as the skill DMG Multiplier;\nWhen a critical hit is triggered, Laceration DMG replaces CRIT DMG for calculation; when CRIT Rate exceeds 100%, an additional Laceration judgment is performed, with the Laceration probability equal to the excess CRIT Rate;\nSharp DMG accumulates Gash value. When the Gash value is full, enemies enter [Gash], which can stack up to 3 times;\nWhen Claret enters the battlefield, she recovers 60 Sharpness. In Investigation Zone mode, this effect can trigger once every 180 seconds.\nWhen Claret's [Special Attack: Blood Oath - Iron Severance] or [Special Attack: Blood Oath - Crimson Onslaught] hits an enemy in the [Gash] state, it consumes one stack of [Gash] and triggers [Maim] to deal additional DMG;\nAfter Claret enters [Crimson Engrave], her Anti-Interrupt Lv. is increased. When Claret uses a [Chain Attack], [Crimson Engrave] duration is extended by 3 seconds. When [Contamination] is triggered, [Crimson Engrave] duration is extended by 3 seconds;\nWhile Claret is in [Crimson Engrave], or during [Chain Attack: Blood Oath - Blood Pact Resonance], [Ultimate: Blood Oath - Forged Perfection], or [Assist Follow-Up: Blood Oath - Pristine Molten Edge], DMG dealt is increased by <color=#POSITIVE_WITH_GREYITE>20%</color>. During [Basic Attack: Blood Oath - Star Forge] and [Basic Attack: Blood Oath - Concealed Axe] skill attacks, if a Perfect Dodge is triggered, DMG dealt for the remainder of the skill is additionally increased by 15%.",
+          "All DMG dealt by Claret's skills is Sharp DMG, which uses DEF as the skill DMG Multiplier;\nWhen a critical hit is triggered, Laceration DMG replaces CRIT DMG for calculation; when CRIT Rate exceeds 100%, an additional Laceration judgment is performed, with the Laceration probability equal to the excess CRIT Rate;\nSharp DMG accumulates Gash value. When the Gash value is full, enemies enter [Gash], which can stack up to 3 times;\nWhen Claret enters the battlefield, she recovers 60 Sharpness. In Investigation Zone mode, this effect can trigger once every 180 seconds.\nWhen Claret's [Special Attack: Blood Oath - Iron Severance] or [Special Attack: Blood Oath - Crimson Onslaught] hits an enemy in the [Gash] state, it consumes one stack of [Gash] and triggers [Maim] to deal additional DMG;\nAfter Claret enters [Crimson Engrave], her Anti-Interrupt Lv. is increased. When Claret uses a [Chain Attack], [Crimson Engrave] duration is extended by 2.5 seconds. When [Contamination] is triggered, [Crimson Engrave] duration is extended by 3.5 seconds;\nWhile Claret is in [Crimson Engrave], or during [Chain Attack: Blood Oath - Blood Pact Resonance], [Ultimate: Blood Oath - Forged Perfection], or [Assist Follow-Up: Blood Oath - Pristine Molten Edge], DMG dealt is increased by <color=#POSITIVE_WITH_GREYITE>20%</color>. During [Basic Attack: Blood Oath - Star Forge] and [Basic Attack: Blood Oath - Concealed Axe] skill attacks, if a Perfect Dodge is triggered, DMG dealt for the remainder of the skill is additionally increased by 15%.",
           "When another character in your squad is a <color=#FFFFFF>[Stun]</color> Character or another <color=#FFFFFF>[Armorer]</color> Character, triggers:\nWhen a squad member's attack hits an enemy while they are the active Character, accumulates <color=#FFFFFF>3%</color> Gash value on the target, can trigger at most once every 1s;\nWhen Claret or a squad member triggers [Maim], all [Armorer] Agents in the whole squad enter [Remnant Edge]. While in the [Remnant Edge] state, CRIT Rate increases by <color=#FFFFFF>30%</color>, lasting 40s; re-entering [Remnant Edge] extends its duration."
         ],
         "extra_property": {},
@@ -2190,7 +2190,7 @@
           "Additional Ability: Bloodline Legacy"
         ],
         "desc": [
-          "All DMG dealt by Claret's skills is Sharp DMG, which uses DEF as the skill DMG Multiplier;\nWhen a critical hit is triggered, Laceration DMG replaces CRIT DMG for calculation; when CRIT Rate exceeds 100%, an additional Laceration judgment is performed, with the Laceration probability equal to the excess CRIT Rate;\nSharp DMG accumulates Gash value. When the Gash value is full, enemies enter [Gash], which can stack up to 3 times;\nWhen Claret enters the battlefield, she recovers 60 Sharpness. In Investigation Zone mode, this effect can trigger once every 180 seconds.\nWhen Claret's [Special Attack: Blood Oath - Iron Severance] or [Special Attack: Blood Oath - Crimson Onslaught] hits an enemy in the [Gash] state, it consumes one stack of [Gash] and triggers [Maim] to deal additional DMG;\nAfter Claret enters [Crimson Engrave], her Anti-Interrupt Lv. is increased. When Claret uses a [Chain Attack], [Crimson Engrave] duration is extended by 3 seconds. When [Contamination] is triggered, [Crimson Engrave] duration is extended by 3 seconds;\nWhile Claret is in [Crimson Engrave], or during [Chain Attack: Blood Oath - Blood Pact Resonance], [Ultimate: Blood Oath - Forged Perfection], or [Assist Follow-Up: Blood Oath - Pristine Molten Edge], DMG dealt is increased by <color=#POSITIVE_WITH_GREYITE>22.5%</color>. During [Basic Attack: Blood Oath - Star Forge] and [Basic Attack: Blood Oath - Concealed Axe] skill attacks, if a Perfect Dodge is triggered, DMG dealt for the remainder of the skill is additionally increased by 15%.",
+          "All DMG dealt by Claret's skills is Sharp DMG, which uses DEF as the skill DMG Multiplier;\nWhen a critical hit is triggered, Laceration DMG replaces CRIT DMG for calculation; when CRIT Rate exceeds 100%, an additional Laceration judgment is performed, with the Laceration probability equal to the excess CRIT Rate;\nSharp DMG accumulates Gash value. When the Gash value is full, enemies enter [Gash], which can stack up to 3 times;\nWhen Claret enters the battlefield, she recovers 60 Sharpness. In Investigation Zone mode, this effect can trigger once every 180 seconds.\nWhen Claret's [Special Attack: Blood Oath - Iron Severance] or [Special Attack: Blood Oath - Crimson Onslaught] hits an enemy in the [Gash] state, it consumes one stack of [Gash] and triggers [Maim] to deal additional DMG;\nAfter Claret enters [Crimson Engrave], her Anti-Interrupt Lv. is increased. When Claret uses a [Chain Attack], [Crimson Engrave] duration is extended by 2.5 seconds. When [Contamination] is triggered, [Crimson Engrave] duration is extended by 3.5 seconds;\nWhile Claret is in [Crimson Engrave], or during [Chain Attack: Blood Oath - Blood Pact Resonance], [Ultimate: Blood Oath - Forged Perfection], or [Assist Follow-Up: Blood Oath - Pristine Molten Edge], DMG dealt is increased by <color=#POSITIVE_WITH_GREYITE>22.5%</color>. During [Basic Attack: Blood Oath - Star Forge] and [Basic Attack: Blood Oath - Concealed Axe] skill attacks, if a Perfect Dodge is triggered, DMG dealt for the remainder of the skill is additionally increased by 15%.",
           "When another character in your squad is a <color=#FFFFFF>[Stun]</color> Character or another <color=#FFFFFF>[Armorer]</color> Character, triggers:\nWhen a squad member's attack hits an enemy while they are the active Character, accumulates <color=#FFFFFF>3%</color> Gash value on the target, can trigger at most once every 1s;\nWhen Claret or a squad member triggers [Maim], all [Armorer] Agents in the whole squad enter [Remnant Edge]. While in the [Remnant Edge] state, CRIT Rate increases by <color=#FFFFFF>30%</color>, lasting 40s; re-entering [Remnant Edge] extends its duration."
         ],
         "extra_property": {},
@@ -2204,7 +2204,7 @@
           "Additional Ability: Bloodline Legacy"
         ],
         "desc": [
-          "All DMG dealt by Claret's skills is Sharp DMG, which uses DEF as the skill DMG Multiplier;\nWhen a critical hit is triggered, Laceration DMG replaces CRIT DMG for calculation; when CRIT Rate exceeds 100%, an additional Laceration judgment is performed, with the Laceration probability equal to the excess CRIT Rate;\nSharp DMG accumulates Gash value. When the Gash value is full, enemies enter [Gash], which can stack up to 3 times;\nWhen Claret enters the battlefield, she recovers 60 Sharpness. In Investigation Zone mode, this effect can trigger once every 180 seconds.\nWhen Claret's [Special Attack: Blood Oath - Iron Severance] or [Special Attack: Blood Oath - Crimson Onslaught] hits an enemy in the [Gash] state, it consumes one stack of [Gash] and triggers [Maim] to deal additional DMG;\nAfter Claret enters [Crimson Engrave], her Anti-Interrupt Lv. is increased. When Claret uses a [Chain Attack], [Crimson Engrave] duration is extended by 3 seconds. When [Contamination] is triggered, [Crimson Engrave] duration is extended by 3 seconds;\nWhile Claret is in [Crimson Engrave], or during [Chain Attack: Blood Oath - Blood Pact Resonance], [Ultimate: Blood Oath - Forged Perfection], or [Assist Follow-Up: Blood Oath - Pristine Molten Edge], DMG dealt is increased by <color=#POSITIVE_WITH_GREYITE>25%</color>. During [Basic Attack: Blood Oath - Star Forge] and [Basic Attack: Blood Oath - Concealed Axe] skill attacks, if a Perfect Dodge is triggered, DMG dealt for the remainder of the skill is additionally increased by 15%.",
+          "All DMG dealt by Claret's skills is Sharp DMG, which uses DEF as the skill DMG Multiplier;\nWhen a critical hit is triggered, Laceration DMG replaces CRIT DMG for calculation; when CRIT Rate exceeds 100%, an additional Laceration judgment is performed, with the Laceration probability equal to the excess CRIT Rate;\nSharp DMG accumulates Gash value. When the Gash value is full, enemies enter [Gash], which can stack up to 3 times;\nWhen Claret enters the battlefield, she recovers 60 Sharpness. In Investigation Zone mode, this effect can trigger once every 180 seconds.\nWhen Claret's [Special Attack: Blood Oath - Iron Severance] or [Special Attack: Blood Oath - Crimson Onslaught] hits an enemy in the [Gash] state, it consumes one stack of [Gash] and triggers [Maim] to deal additional DMG;\nAfter Claret enters [Crimson Engrave], her Anti-Interrupt Lv. is increased. When Claret uses a [Chain Attack], [Crimson Engrave] duration is extended by 2.5 seconds. When [Contamination] is triggered, [Crimson Engrave] duration is extended by 3.5 seconds;\nWhile Claret is in [Crimson Engrave], or during [Chain Attack: Blood Oath - Blood Pact Resonance], [Ultimate: Blood Oath - Forged Perfection], or [Assist Follow-Up: Blood Oath - Pristine Molten Edge], DMG dealt is increased by <color=#POSITIVE_WITH_GREYITE>25%</color>. During [Basic Attack: Blood Oath - Star Forge] and [Basic Attack: Blood Oath - Concealed Axe] skill attacks, if a Perfect Dodge is triggered, DMG dealt for the remainder of the skill is additionally increased by 15%.",
           "When another character in your squad is a <color=#FFFFFF>[Stun]</color> Character or another <color=#FFFFFF>[Armorer]</color> Character, triggers:\nWhen a squad member's attack hits an enemy while they are the active Character, accumulates <color=#FFFFFF>3%</color> Gash value on the target, can trigger at most once every 1s;\nWhen Claret or a squad member triggers [Maim], all [Armorer] Agents in the whole squad enter [Remnant Edge]. While in the [Remnant Edge] state, CRIT Rate increases by <color=#FFFFFF>30%</color>, lasting 40s; re-entering [Remnant Edge] extends its duration."
         ],
         "extra_property": {},
@@ -2218,7 +2218,7 @@
           "Additional Ability: Bloodline Legacy"
         ],
         "desc": [
-          "All DMG dealt by Claret's skills is Sharp DMG, which uses DEF as the skill DMG Multiplier;\nWhen a critical hit is triggered, Laceration DMG replaces CRIT DMG for calculation; when CRIT Rate exceeds 100%, an additional Laceration judgment is performed, with the Laceration probability equal to the excess CRIT Rate;\nSharp DMG accumulates Gash value. When the Gash value is full, the enemy enters [Gash], which can stack up to 3 times;\nWhen Claret enters the battlefield, she recovers 60 Sharpness. In Investigation Zone mode, this effect can trigger once every 180 seconds.\nWhen Claret's [Special Attack: Blood Oath - Sever Steel] or [Special Attack: Blood Oath - Crimson Onslaught] hits an enemy afflicted with [Gash], one stack of [Gash] is consumed, triggering [Maim] to deal additional DMG;\nAfter Claret enters [Crimson Engrave], her Anti-Interrupt Lv. is increased. When Claret uses a [Chain Attack], [Crimson Engrave] duration is extended by 3s. When [Contamination] is triggered, [Crimson Engrave] duration is extended by 3s;\nWhile Claret is in [Crimson Engrave], or during [Chain Attack: Blood Oath - Blood Pact Resonance], [Ultimate: Blood Oath - Thousandfold Temper], or [Assist Follow-Up: Blood Oath - Pristine Molten Edge], DMG dealt is increased by <color=#POSITIVE_WITH_GREYITE>27.5%</color>. During [Basic Attack: Blood Oath - Forge Star] and [Basic Attack: Blood Oath - Descending Axe] skill attacks, triggering a Perfect Dodge additionally increases DMG dealt for the remaining duration of the skill by 15%.",
+          "All DMG dealt by Claret's skills is Sharp DMG, which uses DEF as the skill DMG Multiplier;\nWhen a critical hit is triggered, Laceration DMG replaces CRIT DMG for calculation; when CRIT Rate exceeds 100%, an additional Laceration judgment is performed, with the Laceration probability equal to the excess CRIT Rate;\nSharp DMG accumulates Gash value. When the Gash value is full, the enemy enters [Gash], which can stack up to 3 times;\nWhen Claret enters the battlefield, she recovers 60 Sharpness. In Investigation Zone mode, this effect can trigger once every 180 seconds.\nWhen Claret's [Special Attack: Blood Oath - Sever Steel] or [Special Attack: Blood Oath - Crimson Onslaught] hits an enemy afflicted with [Gash], one stack of [Gash] is consumed, triggering [Maim] to deal additional DMG;\nAfter Claret enters [Crimson Engrave], her Anti-Interrupt Lv. is increased. When Claret uses a [Chain Attack], [Crimson Engrave] duration is extended by 2.5s. When [Contamination] is triggered, [Crimson Engrave] duration is extended by 3.5s;\nWhile Claret is in [Crimson Engrave], or during [Chain Attack: Blood Oath - Blood Pact Resonance], [Ultimate: Blood Oath - Thousandfold Temper], or [Assist Follow-Up: Blood Oath - Pristine Molten Edge], DMG dealt is increased by <color=#POSITIVE_WITH_GREYITE>27.5%</color>. During [Basic Attack: Blood Oath - Forge Star] and [Basic Attack: Blood Oath - Descending Axe] skill attacks, triggering a Perfect Dodge additionally increases DMG dealt for the remaining duration of the skill by 15%.",
           "When another character in your squad is a <color=#FFFFFF>[Stun]</color> Character or another <color=#FFFFFF>[Armorer]</color> Character, triggers:\nWhen a squad member's attack hits an enemy while they are the active Character, accumulates <color=#FFFFFF>3%</color> Gash value on the target, can trigger at most once every 1s;\nWhen Claret or a squad member triggers [Maim], all [Armorer] Agents in the whole squad enter [Remnant Edge]. While in the [Remnant Edge] state, CRIT Rate increases by <color=#FFFFFF>30%</color>, lasting 40s; re-entering [Remnant Edge] extends its duration."
         ],
         "extra_property": {},
@@ -2232,7 +2232,7 @@
           "Additional Ability: Bloodline Legacy"
         ],
         "desc": [
-          "All DMG dealt by Claret's skills is Sharp DMG, using DEF as the skill DMG Multiplier;\nWhen triggering a critical hit, Laceration DMG replaces CRIT DMG for calculation; when CRIT Rate exceeds 100%, an additional Laceration judgment is performed, with the Laceration probability equal to the excess CRIT Rate;\nSharp DMG accumulates Gash value. When the Gash value is full, enemies enter [Gash], which can stack up to 3 times;\nWhen Claret enters the battlefield, she recovers 60 Sharpness. In Investigation Zone mode, this effect can trigger once every 180 seconds.\nWhen Claret's [Special Attack: Blood Oath - Sever Steel] or [Special Attack: Blood Oath - Bloody Onslaught] hits an enemy in the [Gash] state, it consumes one stack of [Gash] and triggers [Maim] to deal additional DMG;\nAfter Claret enters [Crimson Engrave], her Anti-Interrupt Lv. increases. When Claret uses a [Chain Attack], [Crimson Engrave] duration is extended by 3 seconds. When [Contamination] is triggered, [Crimson Engrave] duration is extended by 3 seconds;\nWhile Claret is in [Crimson Engrave], or during [Chain Attack: Blood Oath - Blood Pact Resonance], [Ultimate: Blood Oath - Tempered Thousandfold], or [Assist Follow-Up: Blood Oath - Pristine Molten Edge], DMG dealt is increased by <color=#POSITIVE_WITH_GREYITE>30%</color>. During [Basic Attack: Blood Oath - Forge Star] and [Basic Attack: Blood Oath - Crouching Axe] skill attacks, triggering a Perfect Dodge additionally increases DMG dealt for the remaining duration of the skill by 15%.",
+          "All DMG dealt by Claret's skills is Sharp DMG, using DEF as the skill DMG Multiplier;\nWhen triggering a critical hit, Laceration DMG replaces CRIT DMG for calculation; when CRIT Rate exceeds 100%, an additional Laceration judgment is performed, with the Laceration probability equal to the excess CRIT Rate;\nSharp DMG accumulates Gash value. When the Gash value is full, enemies enter [Gash], which can stack up to 3 times;\nWhen Claret enters the battlefield, she recovers 60 Sharpness. In Investigation Zone mode, this effect can trigger once every 180 seconds.\nWhen Claret's [Special Attack: Blood Oath - Sever Steel] or [Special Attack: Blood Oath - Bloody Onslaught] hits an enemy in the [Gash] state, it consumes one stack of [Gash] and triggers [Maim] to deal additional DMG;\nAfter Claret enters [Crimson Engrave], her Anti-Interrupt Lv. increases. When Claret uses a [Chain Attack], [Crimson Engrave] duration is extended by 2.5 seconds. When [Contamination] is triggered, [Crimson Engrave] duration is extended by 3.5 seconds;\nWhile Claret is in [Crimson Engrave], or during [Chain Attack: Blood Oath - Blood Pact Resonance], [Ultimate: Blood Oath - Tempered Thousandfold], or [Assist Follow-Up: Blood Oath - Pristine Molten Edge], DMG dealt is increased by <color=#POSITIVE_WITH_GREYITE>30%</color>. During [Basic Attack: Blood Oath - Forge Star] and [Basic Attack: Blood Oath - Crouching Axe] skill attacks, triggering a Perfect Dodge additionally increases DMG dealt for the remaining duration of the skill by 15%.",
           "When another character in your squad is a <color=#FFFFFF>[Stun]</color> Character or another <color=#FFFFFF>[Armorer]</color> Character, triggers:\nWhen a squad member's attack hits an enemy while they are the active Character, accumulates <color=#FFFFFF>3%</color> Gash value on the target, can trigger at most once every 1s;\nWhen Claret or a squad member triggers [Maim], all [Armorer] Agents in the whole squad enter [Remnant Edge]. While in the [Remnant Edge] state, CRIT Rate increases by <color=#FFFFFF>30%</color>, lasting 40s; re-entering [Remnant Edge] extends its duration."
         ],
         "extra_property": {},
@@ -2272,7 +2272,7 @@
     "1": {
       "level": 1,
       "name": "...",
-      "desc": "[Crimson Inscription] max duration extended by 3.5s; when the whole squad triggers [Maim], increases Claret's Crit DMG by 25% for 40s, repeated triggers reset the duration.",
+      "desc": "[Crimson Inscription] max duration extended by 2.5s; when the whole squad triggers [Maim], increases Claret's Crit DMG by 25% for 40s, repeated triggers reset the duration.",
       "desc2": "..."
     },
     "2": {

@@ -345,7 +345,7 @@
         },
         {
           "name": "Basic Attack: Whirlwind Hammer",
-          "desc": "When on the field, hold <IconMap:Icon_Normal> to charge before activation:\nThrows a hammer at enemies on the field, dealing <color=#A6C5FD>Wind DMG</color>;\n<color=#ffffff>[Wind Eyes]</color> hit by this skill will be destroyed, generating tornadoes based on the number of Wind Eyes hit that continuously track enemies and deal <color=#A6C5FD>Wind DMG</color>;\nAfter using this skill, all other <color=#ffffff>[Wind Eyes]</color> not hit will be destroyed;\nDuring the skill's charge phase, Anti-Interrupt level is increased and <color=#ffffff>[Wind Eyes]</color> on the field are continuously gathered;\nDuring the skill's attack phase, Character is invulnerable.",
+          "desc": "When there are <color=#ffffff>[Wind Eyes]</color> on the field, hold <IconMap:Icon_Normal> to briefly charge, then release to activate:\nThrows a hammer dealing <color=#A6C5FD>Wind DMG</color> to enemies on the field;\nIf there are 3 <color=#ffffff>[Wind Eyes]</color> within the Attack Range, this skill will be released rapidly;\n<color=#ffffff>[Wind Eyes]</color> hit by this skill will be detonated, generating tornadoes based on the number of Wind Eyes hit that continuously track enemies and deal <color=#A6C5FD>Wind DMG</color>;\nAfter using this skill, all other <color=#ffffff>[Wind Eyes]</color> not hit will be detonated, but will not generate tornadoes;\nDuring the skill's charge phase, Anti-Interrupt Lv. is increased and <color=#ffffff>[Wind Eyes]</color> on the field are continuously gathered;\nDuring the skill's attack phase, Character is invulnerable.",
           "potential": []
         },
         {
@@ -361,13 +361,13 @@
                   "format": "%",
                   "damage_percentage": 5240,
                   "damage_percentage_growth": 480,
-                  "stun_ratio": 4230,
-                  "stun_ratio_growth": 200,
+                  "stun_ratio": 2520,
+                  "stun_ratio_growth": 120,
                   "sp_recovery": 24960,
                   "sp_recovery_growth": 0,
                   "fever_recovery": 178750,
                   "fever_recovery_growth": 0,
-                  "attribute_infliction": 6499,
+                  "attribute_infliction": 1857,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
@@ -387,13 +387,13 @@
                   "format": "%",
                   "damage_percentage": 10790,
                   "damage_percentage_growth": 990,
-                  "stun_ratio": 7620,
-                  "stun_ratio_growth": 350,
+                  "stun_ratio": 5030,
+                  "stun_ratio_growth": 230,
                   "sp_recovery": 41850,
                   "sp_recovery_growth": 0,
                   "fever_recovery": 331650,
                   "fever_recovery_growth": 0,
-                  "attribute_infliction": 11191,
+                  "attribute_infliction": 4138,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
@@ -408,23 +408,23 @@
               "desc": "{Skill:1621003, Prop:1001}",
               "param": {
                 "1621003": {
-                  "main": 15790,
-                  "growth": 1440,
+                  "main": 18530,
+                  "growth": 1690,
                   "format": "%",
-                  "damage_percentage": 15790,
-                  "damage_percentage_growth": 1440,
-                  "stun_ratio": 10160,
-                  "stun_ratio_growth": 470,
-                  "sp_recovery": 52520,
+                  "damage_percentage": 18530,
+                  "damage_percentage_growth": 1690,
+                  "stun_ratio": 8490,
+                  "stun_ratio_growth": 390,
+                  "sp_recovery": 62810,
                   "sp_recovery_growth": 0,
-                  "fever_recovery": 452100,
+                  "fever_recovery": 534875,
                   "fever_recovery_growth": 0,
-                  "attribute_infliction": 14246,
+                  "attribute_infliction": 7527,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
-                  "ether_purify": 14589
+                  "ether_purify": 17445
                 }
               },
               "potential": []
@@ -434,18 +434,18 @@
               "desc": "{Skill:1621001, Prop:1002}",
               "param": {
                 "1621001": {
-                  "main": 4230,
-                  "growth": 200,
+                  "main": 2520,
+                  "growth": 120,
                   "format": "%",
                   "damage_percentage": 5240,
                   "damage_percentage_growth": 480,
-                  "stun_ratio": 4230,
-                  "stun_ratio_growth": 200,
+                  "stun_ratio": 2520,
+                  "stun_ratio_growth": 120,
                   "sp_recovery": 24960,
                   "sp_recovery_growth": 0,
                   "fever_recovery": 178750,
                   "fever_recovery_growth": 0,
-                  "attribute_infliction": 6499,
+                  "attribute_infliction": 1857,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
@@ -460,18 +460,18 @@
               "desc": "{Skill:1621002, Prop:1002}",
               "param": {
                 "1621002": {
-                  "main": 7620,
-                  "growth": 350,
+                  "main": 5030,
+                  "growth": 230,
                   "format": "%",
                   "damage_percentage": 10790,
                   "damage_percentage_growth": 990,
-                  "stun_ratio": 7620,
-                  "stun_ratio_growth": 350,
+                  "stun_ratio": 5030,
+                  "stun_ratio_growth": 230,
                   "sp_recovery": 41850,
                   "sp_recovery_growth": 0,
                   "fever_recovery": 331650,
                   "fever_recovery_growth": 0,
-                  "attribute_infliction": 11191,
+                  "attribute_infliction": 4138,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
@@ -486,23 +486,23 @@
               "desc": "{Skill:1621003, Prop:1002}",
               "param": {
                 "1621003": {
-                  "main": 10160,
-                  "growth": 470,
+                  "main": 8490,
+                  "growth": 390,
                   "format": "%",
-                  "damage_percentage": 15790,
-                  "damage_percentage_growth": 1440,
-                  "stun_ratio": 10160,
-                  "stun_ratio_growth": 470,
-                  "sp_recovery": 52520,
+                  "damage_percentage": 18530,
+                  "damage_percentage_growth": 1690,
+                  "stun_ratio": 8490,
+                  "stun_ratio_growth": 390,
+                  "sp_recovery": 62810,
                   "sp_recovery_growth": 0,
-                  "fever_recovery": 452100,
+                  "fever_recovery": 534875,
                   "fever_recovery_growth": 0,
-                  "attribute_infliction": 14246,
+                  "attribute_infliction": 7527,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
-                  "ether_purify": 14589
+                  "ether_purify": 17445
                 }
               },
               "potential": []
@@ -518,23 +518,23 @@
               "desc": "{Skill:1621004, Prop:1001}",
               "param": {
                 "1621004": {
-                  "main": 19030,
-                  "growth": 1730,
+                  "main": 19450,
+                  "growth": 1770,
                   "format": "%",
-                  "damage_percentage": 19030,
-                  "damage_percentage_growth": 1730,
-                  "stun_ratio": 14190,
-                  "stun_ratio_growth": 650,
-                  "sp_recovery": 64860,
+                  "damage_percentage": 19450,
+                  "damage_percentage_growth": 1770,
+                  "stun_ratio": 11730,
+                  "stun_ratio_growth": 540,
+                  "sp_recovery": 66010,
                   "sp_recovery_growth": 0,
-                  "fever_recovery": 444950,
+                  "fever_recovery": 449350,
                   "fever_recovery_growth": 0,
-                  "attribute_infliction": 14333,
+                  "attribute_infliction": 6654,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
-                  "ether_purify": 18017
+                  "ether_purify": 18334
                 }
               },
               "potential": []
@@ -544,23 +544,23 @@
               "desc": "{Skill:1621004, Prop:1002}",
               "param": {
                 "1621004": {
-                  "main": 14190,
-                  "growth": 650,
+                  "main": 11730,
+                  "growth": 540,
                   "format": "%",
-                  "damage_percentage": 19030,
-                  "damage_percentage_growth": 1730,
-                  "stun_ratio": 14190,
-                  "stun_ratio_growth": 650,
-                  "sp_recovery": 64860,
+                  "damage_percentage": 19450,
+                  "damage_percentage_growth": 1770,
+                  "stun_ratio": 11730,
+                  "stun_ratio_growth": 540,
+                  "sp_recovery": 66010,
                   "sp_recovery_growth": 0,
-                  "fever_recovery": 444950,
+                  "fever_recovery": 449350,
                   "fever_recovery_growth": 0,
-                  "attribute_infliction": 14333,
+                  "attribute_infliction": 6654,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
-                  "ether_purify": 18017
+                  "ether_purify": 18334
                 }
               },
               "potential": []
@@ -576,14 +576,14 @@
               "desc": "{Skill:1621005, Prop:1001}",
               "param": {
                 "1621005": {
-                  "main": 27300,
-                  "growth": 2490,
+                  "main": 35490,
+                  "growth": 3230,
                   "format": "%",
-                  "damage_percentage": 27300,
-                  "damage_percentage_growth": 2490,
+                  "damage_percentage": 35490,
+                  "damage_percentage_growth": 3230,
                   "stun_ratio": 23100,
                   "stun_ratio_growth": 1050,
-                  "sp_recovery": 0,
+                  "sp_recovery": 75600,
                   "sp_recovery_growth": 0,
                   "fever_recovery": 577500,
                   "fever_recovery_growth": 0,
@@ -605,11 +605,11 @@
                   "main": 23100,
                   "growth": 1050,
                   "format": "%",
-                  "damage_percentage": 27300,
-                  "damage_percentage_growth": 2490,
+                  "damage_percentage": 35490,
+                  "damage_percentage_growth": 3230,
                   "stun_ratio": 23100,
                   "stun_ratio_growth": 1050,
-                  "sp_recovery": 0,
+                  "sp_recovery": 75600,
                   "sp_recovery_growth": 0,
                   "fever_recovery": 577500,
                   "fever_recovery_growth": 0,
@@ -759,23 +759,23 @@
               "desc": "{Skill:1621010, Prop:1001}",
               "param": {
                 "1621010": {
-                  "main": 31850,
-                  "growth": 2900,
+                  "main": 39200,
+                  "growth": 3570,
                   "format": "%",
-                  "damage_percentage": 31850,
-                  "damage_percentage_growth": 2900,
-                  "stun_ratio": 26950,
-                  "stun_ratio_growth": 1230,
-                  "sp_recovery": 52200,
+                  "damage_percentage": 39200,
+                  "damage_percentage_growth": 3570,
+                  "stun_ratio": 28050,
+                  "stun_ratio_growth": 1280,
+                  "sp_recovery": 55800,
                   "sp_recovery_growth": 0,
-                  "fever_recovery": 398750,
+                  "fever_recovery": 426250,
                   "fever_recovery_growth": 0,
-                  "attribute_infliction": 14500,
+                  "attribute_infliction": 15500,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
-                  "ether_purify": 29500
+                  "ether_purify": 30500
                 }
               },
               "potential": []
@@ -785,23 +785,23 @@
               "desc": "{Skill:1621010, Prop:1002}",
               "param": {
                 "1621010": {
-                  "main": 26950,
-                  "growth": 1230,
+                  "main": 28050,
+                  "growth": 1280,
                   "format": "%",
-                  "damage_percentage": 31850,
-                  "damage_percentage_growth": 2900,
-                  "stun_ratio": 26950,
-                  "stun_ratio_growth": 1230,
-                  "sp_recovery": 52200,
+                  "damage_percentage": 39200,
+                  "damage_percentage_growth": 3570,
+                  "stun_ratio": 28050,
+                  "stun_ratio_growth": 1280,
+                  "sp_recovery": 55800,
                   "sp_recovery_growth": 0,
-                  "fever_recovery": 398750,
+                  "fever_recovery": 426250,
                   "fever_recovery_growth": 0,
-                  "attribute_infliction": 14500,
+                  "attribute_infliction": 15500,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
-                  "ether_purify": 29500
+                  "ether_purify": 30500
                 }
               },
               "potential": []
@@ -878,7 +878,7 @@
         },
         {
           "name": "Eye of the Wind",
-          "desc": "<color=#ffffff>[EX Special Attack: Wind Cannon]</color> Generated after consuming <color=#ffffff>[Wind Energy]</color>, lasts 30 seconds;\nA maximum of 3 <color=#ffffff>[Wind Eyes]</color> can exist simultaneously. When the limit is exceeded, the earliest generated <color=#ffffff>[Wind Eye]</color> will be automatically destroyed;\nWhen <color=#ffffff>[Basic Attack: Cyclone Hammer]</color> hits a <color=#ffffff>[Wind Eye]</color>, it destroys it. If fewer than 3 are hit simultaneously, each <color=#ffffff>[Wind Eye]</color> position generates 1 small tornado. If 3 are hit simultaneously, 1 large tornado is generated instead. Both small and large tornadoes continuously track enemies and deal <color=#A6C5FD>Wind DMG</color>, lasting 8 seconds.\nWhen destroyed by any means, <color=#ffffff>[Wind Eye]</color> deals one instance of <color=#A6C5FD>Wind DMG</color> to nearby enemies.",
+          "desc": "<color=#ffffff>[EX Special Attack: Wind Cannon]</color> Generated after consuming <color=#ffffff>[Wind Energy]</color>, lasts 30 seconds;\nA maximum of 3 <color=#ffffff>[Wind Eyes]</color> can exist simultaneously. When this limit is exceeded, the earliest generated <color=#ffffff>[Wind Eye]</color> will automatically detonate;\nWhen hit by <color=#ffffff>[Basic Attack: Cyclone Hammer]</color> or <color=#ffffff>[Ultimate: Storm Rampage]</color>, they will be detonated. If fewer than 3 are hit simultaneously, a small tornado will be generated at each <color=#ffffff>[Wind Eye]</color> position, tracking enemies and dealing <color=#A6C5FD>Wind DMG</color> for 2 seconds;\nIf 3 are hit simultaneously, a large tornado will be generated instead, dealing <color=#A6C5FD>Wind DMG</color> for 1 second.\nWhen detonated by any means, <color=#ffffff>[Wind Eyes]</color> deal <color=#A6C5FD>Wind DMG</color> to nearby enemies.",
           "potential": []
         },
         {
@@ -889,23 +889,23 @@
               "desc": "{Skill:1621006, Prop:1001}",
               "param": {
                 "1621006": {
-                  "main": 5530,
-                  "growth": 510,
+                  "main": 7910,
+                  "growth": 720,
                   "format": "%",
-                  "damage_percentage": 5530,
-                  "damage_percentage_growth": 510,
-                  "stun_ratio": 4680,
-                  "stun_ratio_growth": 220,
+                  "damage_percentage": 7910,
+                  "damage_percentage_growth": 720,
+                  "stun_ratio": 10040,
+                  "stun_ratio_growth": 460,
                   "sp_recovery": 0,
                   "sp_recovery_growth": 0,
-                  "fever_recovery": 233750,
+                  "fever_recovery": 167475,
                   "fever_recovery_growth": 0,
-                  "attribute_infliction": 4248,
+                  "attribute_infliction": 6083,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
-                  "ether_purify": 4249
+                  "ether_purify": 6084
                 }
               },
               "potential": []
@@ -915,23 +915,23 @@
               "desc": "{Skill:1621006, Prop:1002}",
               "param": {
                 "1621006": {
-                  "main": 4680,
-                  "growth": 220,
+                  "main": 10040,
+                  "growth": 460,
                   "format": "%",
-                  "damage_percentage": 5530,
-                  "damage_percentage_growth": 510,
-                  "stun_ratio": 4680,
-                  "stun_ratio_growth": 220,
+                  "damage_percentage": 7910,
+                  "damage_percentage_growth": 720,
+                  "stun_ratio": 10040,
+                  "stun_ratio_growth": 460,
                   "sp_recovery": 0,
                   "sp_recovery_growth": 0,
-                  "fever_recovery": 233750,
+                  "fever_recovery": 167475,
                   "fever_recovery_growth": 0,
-                  "attribute_infliction": 4248,
+                  "attribute_infliction": 6083,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
-                  "ether_purify": 4249
+                  "ether_purify": 6084
                 }
               },
               "potential": []
@@ -947,23 +947,23 @@
               "desc": "{Skill:1621007, Prop:1001}",
               "param": {
                 "1621007": {
-                  "main": 120920,
-                  "growth": 11000,
+                  "main": 41210,
+                  "growth": 3750,
                   "format": "%",
-                  "damage_percentage": 120920,
-                  "damage_percentage_growth": 11000,
-                  "stun_ratio": 80320,
-                  "stun_ratio_growth": 3660,
+                  "damage_percentage": 41210,
+                  "damage_percentage_growth": 3750,
+                  "stun_ratio": 24690,
+                  "stun_ratio_growth": 1130,
                   "sp_recovery": 0,
                   "sp_recovery_growth": 0,
-                  "fever_recovery": 1970100,
+                  "fever_recovery": 438900,
                   "fever_recovery_growth": 0,
-                  "attribute_infliction": 61697,
+                  "attribute_infliction": 18318,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
-                  "ether_purify": 38501
+                  "ether_purify": 7166
                 }
               },
               "potential": []
@@ -973,87 +973,87 @@
               "desc": "{Skill:1621007, Prop:1002}",
               "param": {
                 "1621007": {
-                  "main": 80320,
-                  "growth": 3660,
+                  "main": 24690,
+                  "growth": 1130,
                   "format": "%",
-                  "damage_percentage": 120920,
-                  "damage_percentage_growth": 11000,
-                  "stun_ratio": 80320,
-                  "stun_ratio_growth": 3660,
+                  "damage_percentage": 41210,
+                  "damage_percentage_growth": 3750,
+                  "stun_ratio": 24690,
+                  "stun_ratio_growth": 1130,
                   "sp_recovery": 0,
                   "sp_recovery_growth": 0,
-                  "fever_recovery": 1970100,
+                  "fever_recovery": 438900,
                   "fever_recovery_growth": 0,
-                  "attribute_infliction": 61697,
+                  "attribute_infliction": 18318,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
-                  "ether_purify": 38501
+                  "ether_purify": 7166
                 }
               },
               "potential": []
             },
             {
               "name": "Energy Cost",
-              "desc": "{EXCEL:0}",
+              "desc": "30",
               "potential": []
             },
             {
               "name": "Spin DMG Multiplier Per Second",
-              "desc": "{{Skill:1621008, Prop:1001}*0.1}",
+              "desc": "{Skill:1621008, Prop:1001}",
               "param": {
                 "1621008": {
-                  "main": 65710,
-                  "growth": 5980,
+                  "main": 163490,
+                  "growth": 14870,
                   "format": "%",
-                  "damage_percentage": 65710,
-                  "damage_percentage_growth": 5980,
-                  "stun_ratio": 33600,
-                  "stun_ratio_growth": 1530,
+                  "damage_percentage": 163490,
+                  "damage_percentage_growth": 14870,
+                  "stun_ratio": 54160,
+                  "stun_ratio_growth": 2470,
                   "sp_recovery": 0,
                   "sp_recovery_growth": 0,
-                  "fever_recovery": 224675,
+                  "fever_recovery": 1162700,
                   "fever_recovery_growth": 0,
-                  "attribute_infliction": 2858,
+                  "attribute_infliction": 67494,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
-                  "ether_purify": 8167
+                  "ether_purify": 9667
                 }
               },
               "potential": []
             },
             {
               "name": "Spin Daze Multiplier Per Second",
-              "desc": "{{Skill:1621008, Prop:1002}*0.1}",
+              "desc": "{Skill:1621008, Prop:1002}",
               "param": {
                 "1621008": {
-                  "main": 33600,
-                  "growth": 1530,
+                  "main": 54160,
+                  "growth": 2470,
                   "format": "%",
-                  "damage_percentage": 65710,
-                  "damage_percentage_growth": 5980,
-                  "stun_ratio": 33600,
-                  "stun_ratio_growth": 1530,
+                  "damage_percentage": 163490,
+                  "damage_percentage_growth": 14870,
+                  "stun_ratio": 54160,
+                  "stun_ratio_growth": 2470,
                   "sp_recovery": 0,
                   "sp_recovery_growth": 0,
-                  "fever_recovery": 224675,
+                  "fever_recovery": 1162700,
                   "fever_recovery_growth": 0,
-                  "attribute_infliction": 2858,
+                  "attribute_infliction": 67494,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
-                  "ether_purify": 8167
+                  "ether_purify": 9667
                 }
               },
               "potential": []
             },
             {
               "name": "Energy Cost Per Second",
-              "desc": "{EXCEL:0}",
+              "desc": "30",
               "potential": []
             }
           ],
@@ -1064,104 +1064,104 @@
           "param": [
             {
               "name": "DMG Multiplier",
-              "desc": "{{Skill:1621023, Prop:1001}/3*2}",
+              "desc": "{Skill:1621023, Prop:1001}",
               "param": {
                 "1621023": {
-                  "main": 120920,
-                  "growth": 11000,
+                  "main": 41210,
+                  "growth": 3750,
                   "format": "%",
-                  "damage_percentage": 120920,
-                  "damage_percentage_growth": 11000,
-                  "stun_ratio": 80320,
-                  "stun_ratio_growth": 3660,
+                  "damage_percentage": 41210,
+                  "damage_percentage_growth": 3750,
+                  "stun_ratio": 24690,
+                  "stun_ratio_growth": 1130,
                   "sp_recovery": 0,
                   "sp_recovery_growth": 0,
-                  "fever_recovery": 1970100,
+                  "fever_recovery": 438900,
                   "fever_recovery_growth": 0,
-                  "attribute_infliction": 61697,
+                  "attribute_infliction": 18318,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
-                  "ether_purify": 38501
+                  "ether_purify": 7166
                 }
               },
               "potential": []
             },
             {
               "name": "Daze Multiplier",
-              "desc": "{{Skill:1621023, Prop:1002}/3*2}",
+              "desc": "{Skill:1621023, Prop:1002}",
               "param": {
                 "1621023": {
-                  "main": 80320,
-                  "growth": 3660,
+                  "main": 24690,
+                  "growth": 1130,
                   "format": "%",
-                  "damage_percentage": 120920,
-                  "damage_percentage_growth": 11000,
-                  "stun_ratio": 80320,
-                  "stun_ratio_growth": 3660,
+                  "damage_percentage": 41210,
+                  "damage_percentage_growth": 3750,
+                  "stun_ratio": 24690,
+                  "stun_ratio_growth": 1130,
                   "sp_recovery": 0,
                   "sp_recovery_growth": 0,
-                  "fever_recovery": 1970100,
+                  "fever_recovery": 438900,
                   "fever_recovery_growth": 0,
-                  "attribute_infliction": 61697,
+                  "attribute_infliction": 18318,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
-                  "ether_purify": 38501
+                  "ether_purify": 7166
                 }
               },
               "potential": []
             },
             {
               "name": "Additional Explosion DMG Multiplier",
-              "desc": "{{Skill:1621023, Prop:1001}/3}",
+              "desc": "{Skill:1621021, Prop:1001}",
               "param": {
-                "1621023": {
-                  "main": 120920,
-                  "growth": 11000,
+                "1621021": {
+                  "main": 4680,
+                  "growth": 430,
                   "format": "%",
-                  "damage_percentage": 120920,
-                  "damage_percentage_growth": 11000,
-                  "stun_ratio": 80320,
-                  "stun_ratio_growth": 3660,
+                  "damage_percentage": 4680,
+                  "damage_percentage_growth": 430,
+                  "stun_ratio": 4400,
+                  "stun_ratio_growth": 200,
                   "sp_recovery": 0,
                   "sp_recovery_growth": 0,
-                  "fever_recovery": 1970100,
+                  "fever_recovery": 0,
                   "fever_recovery_growth": 0,
-                  "attribute_infliction": 61697,
+                  "attribute_infliction": 0,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
-                  "ether_purify": 38501
+                  "ether_purify": 0
                 }
               },
               "potential": []
             },
             {
               "name": "Additional Explosion Daze Multiplier",
-              "desc": "{{Skill:1621023, Prop:1002}/3}",
+              "desc": "{Skill:1621021, Prop:1002}",
               "param": {
-                "1621023": {
-                  "main": 80320,
-                  "growth": 3660,
+                "1621021": {
+                  "main": 4400,
+                  "growth": 200,
                   "format": "%",
-                  "damage_percentage": 120920,
-                  "damage_percentage_growth": 11000,
-                  "stun_ratio": 80320,
-                  "stun_ratio_growth": 3660,
+                  "damage_percentage": 4680,
+                  "damage_percentage_growth": 430,
+                  "stun_ratio": 4400,
+                  "stun_ratio_growth": 200,
                   "sp_recovery": 0,
                   "sp_recovery_growth": 0,
-                  "fever_recovery": 1970100,
+                  "fever_recovery": 0,
                   "fever_recovery_growth": 0,
-                  "attribute_infliction": 61697,
+                  "attribute_infliction": 0,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
-                  "ether_purify": 38501
+                  "ether_purify": 0
                 }
               },
               "potential": []
@@ -1177,13 +1177,13 @@
               "desc": "{Skill:1621022, Prop:1001}",
               "param": {
                 "1621022": {
-                  "main": 6500,
-                  "growth": 600,
+                  "main": 2600,
+                  "growth": 240,
                   "format": "%",
-                  "damage_percentage": 6500,
-                  "damage_percentage_growth": 600,
-                  "stun_ratio": 2750,
-                  "stun_ratio_growth": 130,
+                  "damage_percentage": 2600,
+                  "damage_percentage_growth": 240,
+                  "stun_ratio": 6600,
+                  "stun_ratio_growth": 300,
                   "sp_recovery": 0,
                   "sp_recovery_growth": 0,
                   "fever_recovery": 0,
@@ -1203,13 +1203,13 @@
               "desc": "{Skill:1621022, Prop:1002}",
               "param": {
                 "1621022": {
-                  "main": 2750,
-                  "growth": 130,
+                  "main": 6600,
+                  "growth": 300,
                   "format": "%",
-                  "damage_percentage": 6500,
-                  "damage_percentage_growth": 600,
-                  "stun_ratio": 2750,
-                  "stun_ratio_growth": 130,
+                  "damage_percentage": 2600,
+                  "damage_percentage_growth": 240,
+                  "stun_ratio": 6600,
+                  "stun_ratio_growth": 300,
                   "sp_recovery": 0,
                   "sp_recovery_growth": 0,
                   "fever_recovery": 0,
@@ -1226,52 +1226,52 @@
             },
             {
               "name": "Mini Tornado DMG Multiplier Per Second",
-              "desc": "{Skill:1621019, Prop:1001}",
+              "desc": "{{Skill:1621019, Prop:1001}/2}",
               "param": {
                 "1621019": {
-                  "main": 16900,
-                  "growth": 1540,
+                  "main": 6500,
+                  "growth": 600,
                   "format": "%",
-                  "damage_percentage": 16900,
-                  "damage_percentage_growth": 1540,
-                  "stun_ratio": 37130,
-                  "stun_ratio_growth": 1690,
+                  "damage_percentage": 6500,
+                  "damage_percentage_growth": 600,
+                  "stun_ratio": 1110,
+                  "stun_ratio_growth": 60,
                   "sp_recovery": 0,
                   "sp_recovery_growth": 0,
                   "fever_recovery": 0,
                   "fever_recovery_growth": 0,
-                  "attribute_infliction": 0,
+                  "attribute_infliction": 3025,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
-                  "ether_purify": 0
+                  "ether_purify": 3026
                 }
               },
               "potential": []
             },
             {
               "name": "Mini Tornado Daze Multiplier Per Second",
-              "desc": "{Skill:1621019, Prop:1002}",
+              "desc": "{{Skill:1621019, Prop:1002}/2}",
               "param": {
                 "1621019": {
-                  "main": 37130,
-                  "growth": 1690,
+                  "main": 1110,
+                  "growth": 60,
                   "format": "%",
-                  "damage_percentage": 16900,
-                  "damage_percentage_growth": 1540,
-                  "stun_ratio": 37130,
-                  "stun_ratio_growth": 1690,
+                  "damage_percentage": 6500,
+                  "damage_percentage_growth": 600,
+                  "stun_ratio": 1110,
+                  "stun_ratio_growth": 60,
                   "sp_recovery": 0,
                   "sp_recovery_growth": 0,
                   "fever_recovery": 0,
                   "fever_recovery_growth": 0,
-                  "attribute_infliction": 0,
+                  "attribute_infliction": 3025,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
-                  "ether_purify": 0
+                  "ether_purify": 3026
                 }
               },
               "potential": []
@@ -1281,23 +1281,23 @@
               "desc": "{Skill:1621020, Prop:1001}",
               "param": {
                 "1621020": {
-                  "main": 16900,
-                  "growth": 1540,
+                  "main": 23400,
+                  "growth": 2130,
                   "format": "%",
-                  "damage_percentage": 16900,
-                  "damage_percentage_growth": 1540,
-                  "stun_ratio": 37130,
-                  "stun_ratio_growth": 1690,
+                  "damage_percentage": 23400,
+                  "damage_percentage_growth": 2130,
+                  "stun_ratio": 3850,
+                  "stun_ratio_growth": 180,
                   "sp_recovery": 0,
                   "sp_recovery_growth": 0,
                   "fever_recovery": 0,
                   "fever_recovery_growth": 0,
-                  "attribute_infliction": 0,
+                  "attribute_infliction": 10000,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
-                  "ether_purify": 0
+                  "ether_purify": 10000
                 }
               },
               "potential": []
@@ -1307,23 +1307,23 @@
               "desc": "{Skill:1621020, Prop:1002}",
               "param": {
                 "1621020": {
-                  "main": 37130,
-                  "growth": 1690,
+                  "main": 3850,
+                  "growth": 180,
                   "format": "%",
-                  "damage_percentage": 16900,
-                  "damage_percentage_growth": 1540,
-                  "stun_ratio": 37130,
-                  "stun_ratio_growth": 1690,
+                  "damage_percentage": 23400,
+                  "damage_percentage_growth": 2130,
+                  "stun_ratio": 3850,
+                  "stun_ratio_growth": 180,
                   "sp_recovery": 0,
                   "sp_recovery_growth": 0,
                   "fever_recovery": 0,
                   "fever_recovery_growth": 0,
-                  "attribute_infliction": 0,
+                  "attribute_infliction": 10000,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
-                  "ether_purify": 0
+                  "ether_purify": 10000
                 }
               },
               "potential": []
@@ -1385,7 +1385,7 @@
       "description": [
         {
           "name": "Chain Attack: Storm Incoming",
-          "desc": "When a <color=#ffffff>Chain Attack</color> is triggered, select the character to activate:\nUnleashes a powerful strike at enemies ahead, dealing massive <color=#A6C5FD>Wind DMG</color>.\nCharacter is invulnerable while using this skill.",
+          "desc": "When a <color=#ffffff>Chain Attack</color> is triggered, select the character to activate:\nUnleashes a powerful strike at enemies ahead, dealing massive <color=#A6C5FD>Wind DMG</color>.\nAfter using this skill, recovers 1 <color=#ffffff>Wind Energy</color>.\nCharacter is invulnerable while using this skill.",
           "potential": []
         },
         {
@@ -1401,23 +1401,23 @@
               "desc": "{Skill:1621011, Prop:1001}",
               "param": {
                 "1621011": {
-                  "main": 123150,
-                  "growth": 11200,
+                  "main": 129220,
+                  "growth": 11750,
                   "format": "%",
-                  "damage_percentage": 123150,
-                  "damage_percentage_growth": 11200,
-                  "stun_ratio": 27320,
-                  "stun_ratio_growth": 1250,
+                  "damage_percentage": 129220,
+                  "damage_percentage_growth": 11750,
+                  "stun_ratio": 32450,
+                  "stun_ratio_growth": 1480,
                   "sp_recovery": 0,
                   "sp_recovery_growth": 0,
-                  "fever_recovery": 2511575,
+                  "fever_recovery": 2640000,
                   "fever_recovery_growth": 0,
-                  "attribute_infliction": 44779,
+                  "attribute_infliction": 49446,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
-                  "ether_purify": 24830
+                  "ether_purify": 29497
                 }
               },
               "potential": []
@@ -1427,23 +1427,23 @@
               "desc": "{Skill:1621011, Prop:1002}",
               "param": {
                 "1621011": {
-                  "main": 27320,
-                  "growth": 1250,
+                  "main": 32450,
+                  "growth": 1480,
                   "format": "%",
-                  "damage_percentage": 123150,
-                  "damage_percentage_growth": 11200,
-                  "stun_ratio": 27320,
-                  "stun_ratio_growth": 1250,
+                  "damage_percentage": 129220,
+                  "damage_percentage_growth": 11750,
+                  "stun_ratio": 32450,
+                  "stun_ratio_growth": 1480,
                   "sp_recovery": 0,
                   "sp_recovery_growth": 0,
-                  "fever_recovery": 2511575,
+                  "fever_recovery": 2640000,
                   "fever_recovery_growth": 0,
-                  "attribute_infliction": 44779,
+                  "attribute_infliction": 49446,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
-                  "ether_purify": 24830
+                  "ether_purify": 29497
                 }
               },
               "potential": []
@@ -1459,23 +1459,23 @@
               "desc": "{Skill:1621012, Prop:1001}",
               "param": {
                 "1621012": {
-                  "main": 290710,
-                  "growth": 26430,
+                  "main": 278150,
+                  "growth": 25290,
                   "format": "%",
-                  "damage_percentage": 290710,
-                  "damage_percentage_growth": 26430,
-                  "stun_ratio": 105490,
-                  "stun_ratio_growth": 4800,
+                  "damage_percentage": 278150,
+                  "damage_percentage_growth": 25290,
+                  "stun_ratio": 121930,
+                  "stun_ratio_growth": 5550,
                   "sp_recovery": 0,
                   "sp_recovery_growth": 0,
                   "fever_recovery": 0,
                   "fever_recovery_growth": 0,
-                  "attribute_infliction": 18166,
+                  "attribute_infliction": 31166,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
-                  "ether_purify": 68167
+                  "ether_purify": 81167
                 }
               },
               "potential": []
@@ -1485,23 +1485,23 @@
               "desc": "{Skill:1621012, Prop:1002}",
               "param": {
                 "1621012": {
-                  "main": 105490,
-                  "growth": 4800,
+                  "main": 121930,
+                  "growth": 5550,
                   "format": "%",
-                  "damage_percentage": 290710,
-                  "damage_percentage_growth": 26430,
-                  "stun_ratio": 105490,
-                  "stun_ratio_growth": 4800,
+                  "damage_percentage": 278150,
+                  "damage_percentage_growth": 25290,
+                  "stun_ratio": 121930,
+                  "stun_ratio_growth": 5550,
                   "sp_recovery": 0,
                   "sp_recovery_growth": 0,
                   "fever_recovery": 0,
                   "fever_recovery_growth": 0,
-                  "attribute_infliction": 18166,
+                  "attribute_infliction": 31166,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
-                  "ether_purify": 68167
+                  "ether_purify": 81167
                 }
               },
               "potential": []
@@ -1563,7 +1563,7 @@
       "description": [
         {
           "name": "Assist: Counter",
-          "desc": "Triggers after a Defensive Assist:\nLaunches a Strike against enemies in front, dealing <color=#A6C5FD>Wind DMG</color>.",
+          "desc": "Automatically activates when switching in after a Defensive Assist:\nStrikes enemies in front, dealing <color=#A6C5FD>Wind DMG</color>.\nCharacter is invulnerable while using this skill.",
           "potential": []
         },
         {
@@ -1589,23 +1589,23 @@
               "desc": "{Skill:1621013, Prop:1001}",
               "param": {
                 "1621013": {
-                  "main": 5740,
-                  "growth": 530,
+                  "main": 10080,
+                  "growth": 920,
                   "format": "%",
-                  "damage_percentage": 5740,
-                  "damage_percentage_growth": 530,
-                  "stun_ratio": 4860,
-                  "stun_ratio_growth": 230,
-                  "sp_recovery": 15900,
+                  "damage_percentage": 10080,
+                  "damage_percentage_growth": 920,
+                  "stun_ratio": 8530,
+                  "stun_ratio_growth": 390,
+                  "sp_recovery": 27900,
                   "sp_recovery_growth": 0,
-                  "fever_recovery": 121550,
+                  "fever_recovery": 213125,
                   "fever_recovery_growth": 0,
-                  "attribute_infliction": 4414,
+                  "attribute_infliction": 7750,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
-                  "ether_purify": 4415
+                  "ether_purify": 7750
                 }
               },
               "potential": []
@@ -1615,23 +1615,23 @@
               "desc": "{Skill:1621013, Prop:1002}",
               "param": {
                 "1621013": {
-                  "main": 4860,
-                  "growth": 230,
+                  "main": 8530,
+                  "growth": 390,
                   "format": "%",
-                  "damage_percentage": 5740,
-                  "damage_percentage_growth": 530,
-                  "stun_ratio": 4860,
-                  "stun_ratio_growth": 230,
-                  "sp_recovery": 15900,
+                  "damage_percentage": 10080,
+                  "damage_percentage_growth": 920,
+                  "stun_ratio": 8530,
+                  "stun_ratio_growth": 390,
+                  "sp_recovery": 27900,
                   "sp_recovery_growth": 0,
-                  "fever_recovery": 121550,
+                  "fever_recovery": 213125,
                   "fever_recovery_growth": 0,
-                  "attribute_infliction": 4414,
+                  "attribute_infliction": 7750,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
-                  "ether_purify": 4415
+                  "ether_purify": 7750
                 }
               },
               "potential": []
@@ -1705,11 +1705,11 @@
               "desc": "{Skill:1621017, Prop:1001}",
               "param": {
                 "1621017": {
-                  "main": 64510,
-                  "growth": 5870,
+                  "main": 14310,
+                  "growth": 1310,
                   "format": "%",
-                  "damage_percentage": 64510,
-                  "damage_percentage_growth": 5870,
+                  "damage_percentage": 14310,
+                  "damage_percentage_growth": 1310,
                   "stun_ratio": 48500,
                   "stun_ratio_growth": 2210,
                   "sp_recovery": 0,
@@ -1734,8 +1734,8 @@
                   "main": 48500,
                   "growth": 2210,
                   "format": "%",
-                  "damage_percentage": 64510,
-                  "damage_percentage_growth": 5870,
+                  "damage_percentage": 14310,
+                  "damage_percentage_growth": 1310,
                   "stun_ratio": 48500,
                   "stun_ratio_growth": 2210,
                   "sp_recovery": 0,
@@ -1763,23 +1763,23 @@
               "desc": "{Skill:1621018, Prop:1001}",
               "param": {
                 "1621018": {
-                  "main": 6980,
-                  "growth": 640,
+                  "main": 15600,
+                  "growth": 1420,
                   "format": "%",
-                  "damage_percentage": 6980,
-                  "damage_percentage_growth": 640,
-                  "stun_ratio": 5490,
-                  "stun_ratio_growth": 250,
+                  "damage_percentage": 15600,
+                  "damage_percentage_growth": 1420,
+                  "stun_ratio": 13200,
+                  "stun_ratio_growth": 600,
                   "sp_recovery": 0,
                   "sp_recovery_growth": 0,
-                  "fever_recovery": 158125,
+                  "fever_recovery": 165000,
                   "fever_recovery_growth": 0,
-                  "attribute_infliction": 5175,
+                  "attribute_infliction": 12000,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
-                  "ether_purify": 3834
+                  "ether_purify": 12000
                 }
               },
               "potential": []
@@ -1789,23 +1789,23 @@
               "desc": "{Skill:1621018, Prop:1002}",
               "param": {
                 "1621018": {
-                  "main": 5490,
-                  "growth": 250,
+                  "main": 13200,
+                  "growth": 600,
                   "format": "%",
-                  "damage_percentage": 6980,
-                  "damage_percentage_growth": 640,
-                  "stun_ratio": 5490,
-                  "stun_ratio_growth": 250,
+                  "damage_percentage": 15600,
+                  "damage_percentage_growth": 1420,
+                  "stun_ratio": 13200,
+                  "stun_ratio_growth": 600,
                   "sp_recovery": 0,
                   "sp_recovery_growth": 0,
-                  "fever_recovery": 158125,
+                  "fever_recovery": 165000,
                   "fever_recovery_growth": 0,
-                  "attribute_infliction": 5175,
+                  "attribute_infliction": 12000,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
-                  "ether_purify": 3834
+                  "ether_purify": 12000
                 }
               },
               "potential": []
@@ -1876,8 +1876,8 @@
           "Additional Ability: PlaceHolder"
         ],
         "desc": [
-          "For every 30 Energy consumed, gain 1 point of <color=#ffffff>[Wind Energy]</color>. <color=#ffffff>[Wind Energy]</color> caps at 3 points.\nWhen Roxy's initial <color=#ffffff>Energy Regen</color> exceeds <color=#POSITIVE_WITH_GREYITE>1.2</color>, for every <color=#POSITIVE_WITH_GREYITE>0.01</color> the excess surpasses, ATK increases by <color=#POSITIVE_WITH_GREYITE>5</color>, up to a maximum increase of <color=#POSITIVE_WITH_GREYITE>960</color>; Impact increases by <color=#POSITIVE_WITH_GREYITE>3.2</color>, up to a maximum increase of <color=#POSITIVE_WITH_GREYITE>60</color>.\nWhen launching an EX Special Attack, if CRIT Rate is greater than or equal to <color=#POSITIVE_WITH_GREYITE>65</color>%, Anomaly Buildup Rate increases by <color=#POSITIVE_WITH_GREYITE>60</color>%; additionally, for every 1% CRIT Rate exceeding the threshold, non-<color=#FFFFFF>[Armorer]</color> Characters in the team gain <color=#POSITIVE_WITH_GREYITE>0</color>% CRIT DMG (up to <color=#POSITIVE_WITH_GREYITE>45</color>%), and <color=#FFFFFF>[Armorer]</color> Characters gain <color=#POSITIVE_WITH_GREYITE>0</color>% CRIT Rate (up to <color=#POSITIVE_WITH_GREYITE>30</color>%), lasting <color=#POSITIVE_WITH_GREYITE>50</color>s.",
-          "When another character in your squad is an <color=#FFFFFF>[Attack]</color> Character, <color=#FFFFFF>[Rupture]</color> or <color=#FFFFFF>[Armorer]</color> Character, the following effects are triggered:\nRoxy's CRIT DMG increases by 10%. This effect scales with Character Lv., increasing by 2% per level, up to a maximum increase of 130%;\nWhen any allied character hits an enemy, their Daze Vulnerability increases by 30%. When they become Stunned, their Stun duration is extended by 2s;\nWhen an enemy is affected by <color=#FFFFFF>[Windswept]</color> or <color=#FFFFFF>[Contamination]</color>, the <color=#A6C5FD>Wind attribute direct DMG</color> and direct attack DMG that triggers [Contamination] attribute dealt to the enemy is additionally increased by 10%."
+          "For every 30 Energy consumed, gain 1 <color=#ffffff>[Wind Energy]</color>. <color=#ffffff>[Wind Energy]</color> cap is 3.\nWhen Roxy's initial <color=#ffffff>Energy Regen</color> exceeds <color=#POSITIVE_WITH_GREYITE>1.2</color>, for every <color=#POSITIVE_WITH_GREYITE>0.01</color> beyond that threshold, ATK increases by <color=#POSITIVE_WITH_GREYITE>5</color>, up to a maximum increase of <color=#POSITIVE_WITH_GREYITE>960</color>; Impact increases by <color=#POSITIVE_WITH_GREYITE>3.2</color>, up to a maximum increase of <color=#POSITIVE_WITH_GREYITE>60</color>;\nWhen using <color=#ffffff>[EX Special Attack]</color>, if CRIT Rate is greater than or equal to <color=#POSITIVE_WITH_GREYITE>50</color>%, Anomaly Buildup Rate increases by <color=#POSITIVE_WITH_GREYITE>15</color>%, lasting 50s. Repeated triggers reset the duration;\nWhen <color=#ffffff>[EX Special Attack: Wind Cannon]</color> or <color=#ffffff>[Ultimate: Storm Rampage]</color> hits an enemy affected by <color=#FFFFFF>[Windswept]</color> or <color=#FFFFFF>[Contamination]</color>, it triggers <color=#FFFFFF>[Cleanse]</color>. <color=#FFFFFF>[Contamination]</color> will be reverted to <color=#FFFFFF>[Windswept]</color>;\n<color=#FFFFFF>[Cleanse]</color> can trigger at most once every 16s. For each <color=#FFFFFF>[Wind Eye]</color> generated, the cooldown is reduced by 1s;\n<color=#FFFFFF>[Windswept]</color> duration is extended by 1s;\nWhen any teammate in the squad triggers <color=#FFFFFF>[Cleanse]</color>, for every 1% Roxy's CRIT Rate exceeds the threshold, the whole squad's other non-<color=#FFFFFF>[Armorer]</color> Characters gain <color=#POSITIVE_WITH_GREYITE>0.9</color>% CRIT DMG of the cleansed attribute, up to <color=#POSITIVE_WITH_GREYITE>45</color>%; <color=#FFFFFF>[Armorer]</color> Characters gain <color=#POSITIVE_WITH_GREYITE>0.6</color>% CRIT Rate of the cleansed attribute, up to <color=#POSITIVE_WITH_GREYITE>30</color>%. Each attribute buff lasts 50s, and repeated triggers reset the duration.",
+          "When another character in your squad is an <color=#FFFFFF>[Attack]</color> Character, <color=#FFFFFF>[Rupture]</color> or <color=#FFFFFF>[Armorer]</color> Character, the following effects are triggered:\nRoxy's CRIT DMG increases by 10%. This effect scales with Character Lv., increasing by 2% per level, up to a maximum increase of 130%;\nWhen any ally hits an enemy, their Daze Vulnerability increases by 30%. When they become Stunned, their Stun duration is extended by 2s;\nWhen an enemy is affected by <color=#FFFFFF>[Windswept]</color> or <color=#FFFFFF>[Contamination]</color>, the <color=#A6C5FD>Wind direct DMG</color> and direct attack DMG that triggers [Contamination] attribute dealt to them is additionally increased by 10%."
         ],
         "extra_property": {},
         "potential": []
@@ -1890,8 +1890,8 @@
           "Additional Ability: PlaceHolder"
         ],
         "desc": [
-          "For every 30 Energy consumed, gain 1 point of <color=#ffffff>[Wind Energy]</color>. <color=#ffffff>[Wind Energy]</color> has an upper limit of 3 points.\nWhen Roxy's initial <color=#ffffff>Energy Regen</color> exceeds <color=#POSITIVE_WITH_GREYITE>1.2</color>, for every <color=#POSITIVE_WITH_GREYITE>0.01</color> beyond that threshold, ATK increases by <color=#POSITIVE_WITH_GREYITE>5</color>, up to a maximum increase of <color=#POSITIVE_WITH_GREYITE>960</color>; Impact increases by <color=#POSITIVE_WITH_GREYITE>3.2</color>, up to a maximum increase of <color=#POSITIVE_WITH_GREYITE>60</color>.\nWhen launching an EX Special Attack, if CRIT Rate is greater than or equal to <color=#POSITIVE_WITH_GREYITE>65</color>%, Anomaly Buildup Rate increases by <color=#POSITIVE_WITH_GREYITE>60</color>%. Additionally, for every 1% CRIT Rate exceeding the threshold, other non-<color=#FFFFFF>[Armorer]</color> Characters in the squad gain <color=#POSITIVE_WITH_GREYITE>0</color>% CRIT DMG (up to <color=#POSITIVE_WITH_GREYITE>45</color>%), and <color=#FFFFFF>[Armorer]</color> Characters gain <color=#POSITIVE_WITH_GREYITE>0</color>% CRIT Rate (up to <color=#POSITIVE_WITH_GREYITE>30</color>%), lasting <color=#POSITIVE_WITH_GREYITE>50</color>s.",
-          "When another character in your squad is an <color=#FFFFFF>[Attack]</color> Character, <color=#FFFFFF>[Rupture]</color> or <color=#FFFFFF>[Armorer]</color> Character, the following effects are triggered:\nRoxy's CRIT DMG increases by 10%. This effect scales with Character Lv., increasing by 2% per level, up to a maximum increase of 130%;\nWhen any allied character hits an enemy, their Daze Vulnerability increases by 30%. When they become Stunned, their Stun duration is extended by 2s;\nWhen an enemy is affected by <color=#FFFFFF>[Windswept]</color> or <color=#FFFFFF>[Contamination]</color>, the <color=#A6C5FD>Wind attribute direct DMG</color> and direct attack DMG that triggers [Contamination] attribute dealt to the enemy is additionally increased by 10%."
+          "For every 30 Energy consumed, gain 1 <color=#ffffff>[Wind Energy]</color>. <color=#ffffff>[Wind Energy]</color> caps at 3.\nWhen Roxy's initial <color=#ffffff>Energy Regen</color> exceeds <color=#POSITIVE_WITH_GREYITE>1.2</color>, for every <color=#POSITIVE_WITH_GREYITE>0.01</color> exceeded beyond that threshold, ATK increases by <color=#POSITIVE_WITH_GREYITE>5</color>, up to a maximum increase of <color=#POSITIVE_WITH_GREYITE>960</color>, and Impact increases by <color=#POSITIVE_WITH_GREYITE>3.2</color>, up to a maximum increase of <color=#POSITIVE_WITH_GREYITE>60</color>;\nWhen launching <color=#ffffff>[EX Special Attack]</color>, if CRIT Rate is greater than or equal to <color=#POSITIVE_WITH_GREYITE>50</color>%, Anomaly Buildup Rate increases by <color=#POSITIVE_WITH_GREYITE>15</color>%, lasting 50s. Repeated triggers reset the duration;\nWhen <color=#ffffff>[EX Special Attack: Wind Cannon]</color> or <color=#ffffff>[Ultimate: Storm Rampage]</color> hits an enemy afflicted with <color=#FFFFFF>[Windswept]</color> or <color=#FFFFFF>[Contamination]</color>, it triggers <color=#FFFFFF>[Cleanse]</color>. <color=#FFFFFF>[Contamination]</color> will be reverted to <color=#FFFFFF>[Windswept]</color>;\n<color=#FFFFFF>[Cleanse]</color> can be triggered at most once every 16s. For each <color=#FFFFFF>[Wind Eye]</color> generated, the cooldown is reduced by 1s;\n<color=#FFFFFF>[Windswept]</color> duration is extended by 1s;\nWhen any teammate in the squad triggers <color=#FFFFFF>[Cleanse]</color>, for every 1% Roxy's CRIT Rate exceeds the threshold, the whole squad's other non-<color=#FFFFFF>[Armorer]</color> Characters gain <color=#POSITIVE_WITH_GREYITE>0.9</color>% CRIT DMG of the Cleansed attribute, up to <color=#POSITIVE_WITH_GREYITE>45</color>%, and <color=#FFFFFF>[Armorer]</color> Characters gain <color=#POSITIVE_WITH_GREYITE>0.6</color>% CRIT Rate of the Cleansed attribute, up to <color=#POSITIVE_WITH_GREYITE>30</color>%. Each attribute buff lasts 50s. Repeated triggers reset the duration.",
+          "When another character in your squad is an <color=#FFFFFF>[Attack]</color> Character, <color=#FFFFFF>[Rupture]</color> or <color=#FFFFFF>[Armorer]</color> Character, the following effects are triggered:\nRoxy's CRIT DMG increases by 10%. This effect scales with Character Lv., increasing by 2% per level, up to a maximum increase of 130%;\nWhen any ally hits an enemy, their Daze Vulnerability increases by 30%. When they become Stunned, their Stun duration is extended by 2s;\nWhen an enemy is affected by <color=#FFFFFF>[Windswept]</color> or <color=#FFFFFF>[Contamination]</color>, the <color=#A6C5FD>Wind direct DMG</color> and direct attack DMG that triggers [Contamination] attribute dealt to them is additionally increased by 10%."
         ],
         "extra_property": {},
         "potential": []
@@ -1904,8 +1904,8 @@
           "Additional Ability: PlaceHolder"
         ],
         "desc": [
-          "For every 30 Energy consumed, gain 1 point of <color=#ffffff>[Wind Energy]</color>. <color=#ffffff>[Wind Energy]</color> caps at 3 points.\nWhen Roxy's initial <color=#ffffff>Energy Regen</color> exceeds <color=#POSITIVE_WITH_GREYITE>1.2</color>, for every <color=#POSITIVE_WITH_GREYITE>0.01</color> exceeded beyond the threshold, ATK increases by <color=#POSITIVE_WITH_GREYITE>5</color>, up to a maximum increase of <color=#POSITIVE_WITH_GREYITE>960</color>; Impact increases by <color=#POSITIVE_WITH_GREYITE>3.2</color>, up to a maximum increase of <color=#POSITIVE_WITH_GREYITE>60</color>.\nWhen launching an EX Special Attack, if CRIT Rate is greater than or equal to <color=#POSITIVE_WITH_GREYITE>65</color>%, Anomaly Buildup Rate increases by <color=#POSITIVE_WITH_GREYITE>60</color>%; additionally, for every 1% CRIT Rate exceeding the threshold, other non-<color=#FFFFFF>[Armorer]</color> Characters in the squad gain <color=#POSITIVE_WITH_GREYITE>0</color>% increased CRIT DMG (up to <color=#POSITIVE_WITH_GREYITE>45</color>%), and <color=#FFFFFF>[Armorer]</color> Characters gain <color=#POSITIVE_WITH_GREYITE>0</color>% increased CRIT Rate (up to <color=#POSITIVE_WITH_GREYITE>30</color>%), lasting <color=#POSITIVE_WITH_GREYITE>50</color>s.",
-          "When another character in your squad is an <color=#FFFFFF>[Attack]</color> Character, <color=#FFFFFF>[Rupture]</color> or <color=#FFFFFF>[Armorer]</color> Character, the following effects are triggered:\nRoxy's CRIT DMG increases by 10%. This effect scales with Character Lv., increasing by 2% per level, up to a maximum increase of 130%;\nWhen any allied character hits an enemy, their Daze Vulnerability increases by 30%. When they become Stunned, their Stun duration is extended by 2s;\nWhen an enemy is affected by <color=#FFFFFF>[Windswept]</color> or <color=#FFFFFF>[Contamination]</color>, the <color=#A6C5FD>Wind attribute direct DMG</color> and direct attack DMG that triggers [Contamination] attribute dealt to the enemy is additionally increased by 10%."
+          "For every 30 Energy consumed, gain 1 <color=#ffffff>[Wind Energy]</color>. <color=#ffffff>[Wind Energy]</color> caps at 3.\nWhen Roxy's initial <color=#ffffff>Energy Regen</color> exceeds <color=#POSITIVE_WITH_GREYITE>1.2</color>, for every <color=#POSITIVE_WITH_GREYITE>0.01</color> above the threshold, ATK increases by <color=#POSITIVE_WITH_GREYITE>5</color>, up to a maximum increase of <color=#POSITIVE_WITH_GREYITE>960</color>; Impact increases by <color=#POSITIVE_WITH_GREYITE>3.2</color>, up to a maximum increase of <color=#POSITIVE_WITH_GREYITE>60</color>;\nWhen using <color=#ffffff>[EX Special Attack]</color>, if CRIT Rate is greater than or equal to <color=#POSITIVE_WITH_GREYITE>50</color>%, Anomaly Buildup Rate increases by <color=#POSITIVE_WITH_GREYITE>15</color>%, lasting 50s. Repeated triggers reset the duration;\nWhen <color=#ffffff>[EX Special Attack: Wind Cannon]</color> or <color=#ffffff>[Ultimate: Storm Rampage]</color> hits an enemy afflicted with <color=#FFFFFF>[Windswept]</color> or <color=#FFFFFF>[Contamination]</color>, <color=#FFFFFF>[Cleanse]</color> is triggered. <color=#FFFFFF>[Contamination]</color> is reverted to <color=#FFFFFF>[Windswept]</color>;\n<color=#FFFFFF>[Cleanse]</color> can be triggered at most once every 16s. For each <color=#FFFFFF>[Wind Eye]</color> generated, the cooldown is reduced by 1s;\n<color=#FFFFFF>[Windswept]</color> duration is extended by 1s;\nWhen any teammate in the squad triggers <color=#FFFFFF>[Cleanse]</color>, for every 1% Roxy's CRIT Rate exceeds the threshold, all other non-<color=#FFFFFF>[Armorer]</color> Characters' CRIT DMG of the cleansed attribute increases by <color=#POSITIVE_WITH_GREYITE>0.9</color>%, up to <color=#POSITIVE_WITH_GREYITE>45</color>%, and <color=#FFFFFF>[Armorer]</color> Characters' CRIT Rate of the cleansed attribute increases by <color=#POSITIVE_WITH_GREYITE>0.6</color>%, up to <color=#POSITIVE_WITH_GREYITE>30</color>%. Each attribute buff lasts 50s. Repeated triggers reset the duration.",
+          "When another character in your squad is an <color=#FFFFFF>[Attack]</color> Character, <color=#FFFFFF>[Rupture]</color> or <color=#FFFFFF>[Armorer]</color> Character, the following effects are triggered:\nRoxy's CRIT DMG increases by 10%. This effect scales with Character Lv., increasing by 2% per level, up to a maximum increase of 130%;\nWhen any ally hits an enemy, their Daze Vulnerability increases by 30%. When they become Stunned, their Stun duration is extended by 2s;\nWhen an enemy is affected by <color=#FFFFFF>[Windswept]</color> or <color=#FFFFFF>[Contamination]</color>, the <color=#A6C5FD>Wind direct DMG</color> and direct attack DMG that triggers [Contamination] attribute dealt to them is additionally increased by 10%."
         ],
         "extra_property": {},
         "potential": []
@@ -1918,8 +1918,8 @@
           "Additional Ability: PlaceHolder"
         ],
         "desc": [
-          "For every 30 Energy consumed, gain 1 point of <color=#ffffff>[Wind Energy]</color>. <color=#ffffff>[Wind Energy]</color> cap is 3 points.\nWhen Roxy's initial <color=#ffffff>Energy Regen</color> exceeds <color=#POSITIVE_WITH_GREYITE>1.2</color>, for every <color=#POSITIVE_WITH_GREYITE>0.01</color> exceeded beyond that threshold, ATK increases by <color=#POSITIVE_WITH_GREYITE>5</color>, up to a maximum increase of <color=#POSITIVE_WITH_GREYITE>960</color>; Impact increases by <color=#POSITIVE_WITH_GREYITE>3.2</color>, up to a maximum increase of <color=#POSITIVE_WITH_GREYITE>60</color>.\nWhen casting an EX Special Attack, if CRIT Rate is greater than or equal to <color=#POSITIVE_WITH_GREYITE>65</color>%, Anomaly Buildup Rate increases by <color=#POSITIVE_WITH_GREYITE>60</color>%; additionally, for every 1% CRIT Rate exceeding the threshold, other non-<color=#FFFFFF>[Armorer]</color> Characters in the team gain <color=#POSITIVE_WITH_GREYITE>0</color>% CRIT DMG (up to <color=#POSITIVE_WITH_GREYITE>45</color>%), and <color=#FFFFFF>[Armorer]</color> Characters gain <color=#POSITIVE_WITH_GREYITE>0</color>% CRIT Rate (up to <color=#POSITIVE_WITH_GREYITE>30</color>%), lasting <color=#POSITIVE_WITH_GREYITE>50</color>s.",
-          "When another character in your squad is an <color=#FFFFFF>[Attack]</color> Character, <color=#FFFFFF>[Rupture]</color> or <color=#FFFFFF>[Armorer]</color> Character, the following effects are triggered:\nRoxy's CRIT DMG increases by 10%. This effect scales with Character Lv., increasing by 2% per level, up to a maximum increase of 130%;\nWhen any allied character hits an enemy, their Daze Vulnerability increases by 30%. When they become Stunned, their Stun duration is extended by 2s;\nWhen an enemy is affected by <color=#FFFFFF>[Windswept]</color> or <color=#FFFFFF>[Contamination]</color>, the <color=#A6C5FD>Wind attribute direct DMG</color> and direct attack DMG that triggers [Contamination] attribute dealt to the enemy is additionally increased by 10%."
+          "For every 30 Energy consumed, gain 1 <color=#ffffff>[Wind Energy]</color>. <color=#ffffff>[Wind Energy]</color> cap is 3.\nWhen Roxy's initial <color=#ffffff>Energy Regen</color> exceeds <color=#POSITIVE_WITH_GREYITE>1.2</color>, for every <color=#POSITIVE_WITH_GREYITE>0.01</color> the excess surpasses, ATK increases by <color=#POSITIVE_WITH_GREYITE>5</color>, up to a maximum increase of <color=#POSITIVE_WITH_GREYITE>960</color>, and Impact increases by <color=#POSITIVE_WITH_GREYITE>3.2</color>, up to a maximum increase of <color=#POSITIVE_WITH_GREYITE>60</color>;\nWhen casting <color=#ffffff>[EX Special Attack]</color>, if CRIT Rate is greater than or equal to <color=#POSITIVE_WITH_GREYITE>50</color>%, Anomaly Buildup Rate increases by <color=#POSITIVE_WITH_GREYITE>15</color>%, lasting 50s. Repeated triggers reset the duration;\nWhen <color=#ffffff>[EX Special Attack: Wind Cannon]</color> or <color=#ffffff>[Ultimate: Storm Rampage]</color> hits an enemy affected by <color=#FFFFFF>[Windswept]</color> or <color=#FFFFFF>[Contamination]</color>, <color=#FFFFFF>[Cleanse]</color> is triggered. The <color=#FFFFFF>[Contamination]</color> effect is reverted to <color=#FFFFFF>[Windswept]</color>;\n<color=#FFFFFF>[Cleanse]</color> can be triggered at most once every 16s. For each <color=#FFFFFF>[Wind Eye]</color> generated, the cooldown is reduced by 1s;\n<color=#FFFFFF>[Windswept]</color> duration is extended by 1s;\nWhen any teammate in the squad triggers <color=#FFFFFF>[Cleanse]</color>, for every 1% Roxy's CRIT Rate exceeds the threshold, CRIT DMG of the cleansed attribute for all other non-<color=#FFFFFF>[Armorer]</color> Characters in the whole squad increases by <color=#POSITIVE_WITH_GREYITE>0.9</color>%, up to <color=#POSITIVE_WITH_GREYITE>45</color>%, and the CRIT Rate of the cleansed attribute for <color=#FFFFFF>[Armorer]</color> Characters increases by <color=#POSITIVE_WITH_GREYITE>0.6</color>%, up to <color=#POSITIVE_WITH_GREYITE>30</color>%. Each attribute buff lasts 50s. Repeated triggers reset the duration.",
+          "When another character in your squad is an <color=#FFFFFF>[Attack]</color> Character, <color=#FFFFFF>[Rupture]</color> or <color=#FFFFFF>[Armorer]</color> Character, the following effects are triggered:\nRoxy's CRIT DMG increases by 10%. This effect scales with Character Lv., increasing by 2% per level, up to a maximum increase of 130%;\nWhen any ally hits an enemy, their Daze Vulnerability increases by 30%. When they become Stunned, their Stun duration is extended by 2s;\nWhen an enemy is affected by <color=#FFFFFF>[Windswept]</color> or <color=#FFFFFF>[Contamination]</color>, the <color=#A6C5FD>Wind direct DMG</color> and direct attack DMG that triggers [Contamination] attribute dealt to them is additionally increased by 10%."
         ],
         "extra_property": {},
         "potential": []
@@ -1932,8 +1932,8 @@
           "Additional Ability: PlaceHolder"
         ],
         "desc": [
-          "For every 30 Energy consumed, gain 1 point of <color=#ffffff>[Wind Energy]</color>. <color=#ffffff>[Wind Energy]</color> caps at 3 points.\nWhen Roxy's initial <color=#ffffff>Energy Regen</color> exceeds <color=#POSITIVE_WITH_GREYITE>1.2</color>, for every <color=#POSITIVE_WITH_GREYITE>0.01</color> above that threshold, ATK increases by <color=#POSITIVE_WITH_GREYITE>5</color>, up to a maximum increase of <color=#POSITIVE_WITH_GREYITE>960</color>; Impact increases by <color=#POSITIVE_WITH_GREYITE>3.2</color>, up to a maximum increase of <color=#POSITIVE_WITH_GREYITE>60</color>.\nWhen casting an EX Special Attack, if CRIT Rate is greater than or equal to <color=#POSITIVE_WITH_GREYITE>65</color>%, Anomaly Buildup Rate increases by <color=#POSITIVE_WITH_GREYITE>60</color>%; additionally, for every 1% CRIT Rate above the threshold, other non-<color=#FFFFFF>[Armorer]</color> Characters in the squad gain <color=#POSITIVE_WITH_GREYITE>0</color>% CRIT DMG (up to <color=#POSITIVE_WITH_GREYITE>45</color>%), and <color=#FFFFFF>[Armorer]</color> Characters gain <color=#POSITIVE_WITH_GREYITE>0</color>% CRIT Rate (up to <color=#POSITIVE_WITH_GREYITE>30</color>%), lasting <color=#POSITIVE_WITH_GREYITE>50</color>s.",
-          "When another character in your squad is an <color=#FFFFFF>[Attack]</color> Character, <color=#FFFFFF>[Rupture]</color> or <color=#FFFFFF>[Armorer]</color> Character, the following effects are triggered:\nRoxy's CRIT DMG increases by 10%. This effect scales with Character Lv., increasing by 2% per level, up to a maximum increase of 130%;\nWhen any allied character hits an enemy, their Daze Vulnerability increases by 30%. When they become Stunned, their Stun duration is extended by 2s;\nWhen an enemy is affected by <color=#FFFFFF>[Windswept]</color> or <color=#FFFFFF>[Contamination]</color>, the <color=#A6C5FD>Wind attribute direct DMG</color> and direct attack DMG that triggers [Contamination] attribute dealt to the enemy is additionally increased by 10%."
+          "For every 30 Energy consumed, gain 1 <color=#ffffff>[Wind Energy]</color>. <color=#ffffff>[Wind Energy]</color> cap is 3.\nWhen Roxy's initial <color=#ffffff>Energy Regen</color> exceeds <color=#POSITIVE_WITH_GREYITE>1.2</color>, for every <color=#POSITIVE_WITH_GREYITE>0.01</color> the excess surpasses, ATK increases by <color=#POSITIVE_WITH_GREYITE>5</color>, up to a maximum increase of <color=#POSITIVE_WITH_GREYITE>960</color>, and Impact increases by <color=#POSITIVE_WITH_GREYITE>3.2</color>, up to a maximum increase of <color=#POSITIVE_WITH_GREYITE>60</color>;\nWhen casting <color=#ffffff>[EX Special Attack]</color>, if CRIT Rate is greater than or equal to <color=#POSITIVE_WITH_GREYITE>50</color>%, Anomaly Buildup Rate increases by <color=#POSITIVE_WITH_GREYITE>15</color>%, lasting 50s. Repeated triggers reset the duration;\nWhen <color=#ffffff>[EX Special Attack: Wind Cannon]</color> or <color=#ffffff>[Ultimate: Storm Rampage]</color> hits an enemy affected by <color=#FFFFFF>[Windswept]</color> or <color=#FFFFFF>[Contamination]</color>, <color=#FFFFFF>[Cleanse]</color> is triggered. The <color=#FFFFFF>[Contamination]</color> effect is reverted to <color=#FFFFFF>[Windswept]</color>;\n<color=#FFFFFF>[Cleanse]</color> can be triggered at most once every 16s. For each <color=#FFFFFF>[Wind Eye]</color> generated, the cooldown is reduced by 1s;\n<color=#FFFFFF>[Windswept]</color> duration is extended by 1s;\nWhen any teammate in the squad triggers <color=#FFFFFF>[Cleanse]</color>, for every 1% Roxy's CRIT Rate exceeds the threshold, CRIT DMG of the cleansed attribute for all other non-<color=#FFFFFF>[Armorer]</color> Characters in the whole squad increases by <color=#POSITIVE_WITH_GREYITE>0.9</color>%, up to <color=#POSITIVE_WITH_GREYITE>45</color>%, and the CRIT Rate of the cleansed attribute for <color=#FFFFFF>[Armorer]</color> Characters increases by <color=#POSITIVE_WITH_GREYITE>0.6</color>%, up to <color=#POSITIVE_WITH_GREYITE>30</color>%. Each attribute buff lasts 50s. Repeated triggers reset the duration.",
+          "When another character in your squad is an <color=#FFFFFF>[Attack]</color> Character, <color=#FFFFFF>[Rupture]</color> or <color=#FFFFFF>[Armorer]</color> Character, the following effects are triggered:\nRoxy's CRIT DMG increases by 10%. This effect scales with Character Lv., increasing by 2% per level, up to a maximum increase of 130%;\nWhen any ally hits an enemy, their Daze Vulnerability increases by 30%. When they become Stunned, their Stun duration is extended by 2s;\nWhen an enemy is affected by <color=#FFFFFF>[Windswept]</color> or <color=#FFFFFF>[Contamination]</color>, the <color=#A6C5FD>Wind direct DMG</color> and direct attack DMG that triggers [Contamination] attribute dealt to them is additionally increased by 10%."
         ],
         "extra_property": {},
         "potential": []
@@ -1946,8 +1946,8 @@
           "Additional Ability: PlaceHolder"
         ],
         "desc": [
-          "For every 30 Energy consumed, gain 1 <color=#ffffff>[Wind Energy]</color>. <color=#ffffff>[Wind Energy]</color> caps at 3.\nWhen Roxy's initial <color=#ffffff>Energy Regen</color> exceeds <color=#POSITIVE_WITH_GREYITE>1.2</color>, for every <color=#POSITIVE_WITH_GREYITE>0.01</color> beyond that threshold, ATK increases by <color=#POSITIVE_WITH_GREYITE>5</color>, up to a maximum increase of <color=#POSITIVE_WITH_GREYITE>960</color>, and Impact increases by <color=#POSITIVE_WITH_GREYITE>3.2</color>, up to a maximum increase of <color=#POSITIVE_WITH_GREYITE>60</color>.\nWhen launching an EX Special Attack, if CRIT Rate is greater than or equal to <color=#POSITIVE_WITH_GREYITE>65</color>%, Anomaly Buildup Rate increases by <color=#POSITIVE_WITH_GREYITE>60</color>%. Additionally, for every 1% CRIT Rate exceeding the threshold, other non-<color=#FFFFFF>[Armorer]</color> Characters in the squad gain <color=#POSITIVE_WITH_GREYITE>0</color>% CRIT DMG (up to <color=#POSITIVE_WITH_GREYITE>45</color>%), and <color=#FFFFFF>[Armorer]</color> Characters gain <color=#POSITIVE_WITH_GREYITE>0</color>% CRIT Rate (up to <color=#POSITIVE_WITH_GREYITE>30</color>%), lasting <color=#POSITIVE_WITH_GREYITE>50</color>s.",
-          "When another character in your squad is an <color=#FFFFFF>[Attack]</color> Character, <color=#FFFFFF>[Rupture]</color> or <color=#FFFFFF>[Armorer]</color> Character, the following effects are triggered:\nRoxy's CRIT DMG increases by 10%. This effect scales with Character Lv., increasing by 2% per level, up to a maximum increase of 130%;\nWhen any allied character hits an enemy, their Daze Vulnerability increases by 30%. When they become Stunned, their Stun duration is extended by 2s;\nWhen an enemy is affected by <color=#FFFFFF>[Windswept]</color> or <color=#FFFFFF>[Contamination]</color>, the <color=#A6C5FD>Wind attribute direct DMG</color> and direct attack DMG that triggers [Contamination] attribute dealt to the enemy is additionally increased by 10%."
+          "For every 30 Energy consumed, gain 1 <color=#ffffff>[Wind Energy]</color>. <color=#ffffff>[Wind Energy]</color> cap is 3.\nWhen Roxy's initial <color=#ffffff>Energy Regen</color> exceeds <color=#POSITIVE_WITH_GREYITE>1.2</color>, for every <color=#POSITIVE_WITH_GREYITE>0.01</color> beyond that threshold, ATK increases by <color=#POSITIVE_WITH_GREYITE>5</color>, up to a maximum increase of <color=#POSITIVE_WITH_GREYITE>960</color>; Impact increases by <color=#POSITIVE_WITH_GREYITE>3.2</color>, up to a maximum increase of <color=#POSITIVE_WITH_GREYITE>60</color>;\nWhen using <color=#ffffff>[EX Special Attack]</color>, if CRIT Rate is greater than or equal to <color=#POSITIVE_WITH_GREYITE>50</color>%, Anomaly Buildup Rate increases by <color=#POSITIVE_WITH_GREYITE>15</color>% for 50s; repeated triggers reset the duration;\nWhen <color=#ffffff>[EX Special Attack: Wind Cannon]</color> or <color=#ffffff>[Ultimate: Storm Rampage]</color> hits an enemy affected by <color=#FFFFFF>[Windswept]</color> or <color=#FFFFFF>[Contamination]</color>, it triggers <color=#FFFFFF>[Cleanse]</color>. <color=#FFFFFF>[Contamination]</color> is reverted to <color=#FFFFFF>[Windswept]</color>;\n<color=#FFFFFF>[Cleanse]</color> can trigger at most once every 16s. For each <color=#FFFFFF>[Wind Eye]</color> generated, the cooldown is reduced by 1s;\n<color=#FFFFFF>[Windswept]</color> duration is extended by 1s;\nWhen any teammate in the squad triggers <color=#FFFFFF>[Cleanse]</color>, for every 1% Roxy's CRIT Rate exceeds the threshold, all other non-<color=#FFFFFF>[Armorer]</color> Characters gain <color=#POSITIVE_WITH_GREYITE>0.9</color>% CRIT DMG of the cleansed attribute, up to <color=#POSITIVE_WITH_GREYITE>45</color>%; <color=#FFFFFF>[Armorer]</color> Characters gain <color=#POSITIVE_WITH_GREYITE>0.6</color>% CRIT Rate of the cleansed attribute, up to <color=#POSITIVE_WITH_GREYITE>30</color>%. Each attribute buff lasts 50s; repeated triggers reset the duration.",
+          "When another character in your squad is an <color=#FFFFFF>[Attack]</color> Character, <color=#FFFFFF>[Rupture]</color> or <color=#FFFFFF>[Armorer]</color> Character, the following effects are triggered:\nRoxy's CRIT DMG increases by 10%. This effect scales with Character Lv., increasing by 2% per level, up to a maximum increase of 130%;\nWhen any ally hits an enemy, their Daze Vulnerability increases by 30%. When they become Stunned, their Stun duration is extended by 2s;\nWhen an enemy is affected by <color=#FFFFFF>[Windswept]</color> or <color=#FFFFFF>[Contamination]</color>, the <color=#A6C5FD>Wind direct DMG</color> and direct attack DMG that triggers [Contamination] attribute dealt to them is additionally increased by 10%."
         ],
         "extra_property": {},
         "potential": []
@@ -1960,8 +1960,8 @@
           "Additional Ability: PlaceHolder"
         ],
         "desc": [
-          "For every 30 Energy consumed, gain 1 <color=#ffffff>[Wind Energy]</color>. <color=#ffffff>[Wind Energy]</color> caps at 3.\nWhen Roxy's initial <color=#ffffff>Energy Regen</color> exceeds <color=#POSITIVE_WITH_GREYITE>1.2</color>, for every <color=#POSITIVE_WITH_GREYITE>0.01</color> beyond that threshold, ATK increases by <color=#POSITIVE_WITH_GREYITE>5</color>, up to a maximum increase of <color=#POSITIVE_WITH_GREYITE>960</color>, and Impact increases by <color=#POSITIVE_WITH_GREYITE>3.2</color>, up to a maximum increase of <color=#POSITIVE_WITH_GREYITE>60</color>.\nWhen launching an EX Special Attack, if CRIT Rate is greater than or equal to <color=#POSITIVE_WITH_GREYITE>65</color>%, Anomaly Buildup Rate increases by <color=#POSITIVE_WITH_GREYITE>60</color>%. Additionally, for every 1% CRIT Rate exceeding the threshold, other non-<color=#FFFFFF>[Armorer]</color> Characters in the squad gain <color=#POSITIVE_WITH_GREYITE>0</color>% CRIT DMG (up to <color=#POSITIVE_WITH_GREYITE>45</color>%), and <color=#FFFFFF>[Armorer]</color> Characters gain <color=#POSITIVE_WITH_GREYITE>0</color>% CRIT Rate (up to <color=#POSITIVE_WITH_GREYITE>30</color>%), lasting <color=#POSITIVE_WITH_GREYITE>50</color>s.",
-          "When another character in your squad is an <color=#FFFFFF>[Attack]</color> Character, <color=#FFFFFF>[Rupture]</color> or <color=#FFFFFF>[Armorer]</color> Character, the following effects are triggered:\nRoxy's CRIT DMG increases by 10%. This effect scales with Character Lv., increasing by 2% per level, up to a maximum increase of 130%;\nWhen any allied character hits an enemy, their Daze Vulnerability increases by 30%. When they become Stunned, their Stun duration is extended by 2s;\nWhen an enemy is affected by <color=#FFFFFF>[Windswept]</color> or <color=#FFFFFF>[Contamination]</color>, the <color=#A6C5FD>Wind attribute direct DMG</color> and direct attack DMG that triggers [Contamination] attribute dealt to the enemy is additionally increased by 10%."
+          "For every 30 Energy consumed, gain 1 <color=#ffffff>[Wind Energy]</color>. <color=#ffffff>[Wind Energy]</color> caps at 3.\nWhen Roxy's initial <color=#ffffff>Energy Regen</color> exceeds <color=#POSITIVE_WITH_GREYITE>1.2</color>, for every <color=#POSITIVE_WITH_GREYITE>0.01</color> beyond that threshold, ATK increases by <color=#POSITIVE_WITH_GREYITE>5</color>, up to a maximum increase of <color=#POSITIVE_WITH_GREYITE>960</color>, and Impact increases by <color=#POSITIVE_WITH_GREYITE>3.2</color>, up to a maximum increase of <color=#POSITIVE_WITH_GREYITE>60</color>;\nWhen casting <color=#ffffff>[EX Special Attack]</color>, if CRIT Rate is greater than or equal to <color=#POSITIVE_WITH_GREYITE>50</color>%, Anomaly Buildup Rate increases by <color=#POSITIVE_WITH_GREYITE>15</color>%, lasting 50s. Repeated triggers reset the duration;\nWhen <color=#ffffff>[EX Special Attack: Wind Cannon]</color> or <color=#ffffff>[Ultimate: Storm Rampage]</color> hits an enemy affected by <color=#FFFFFF>[Windswept]</color> or <color=#FFFFFF>[Contamination]</color>, <color=#FFFFFF>[Cleanse]</color> is triggered. The <color=#FFFFFF>[Contamination]</color> effect is reverted to <color=#FFFFFF>[Windswept]</color>;\n<color=#FFFFFF>[Cleanse]</color> can be triggered at most once every 16s. For every <color=#FFFFFF>[Wind Eye]</color> generated, the cooldown is reduced by 1s;\n<color=#FFFFFF>[Windswept]</color> duration is extended by 1s;\nWhen any teammate in the squad triggers <color=#FFFFFF>[Cleanse]</color>, for every 1% Roxy's CRIT Rate exceeds the threshold, all other non-<color=#FFFFFF>[Armorer]</color> Characters' CRIT DMG of the cleansed attribute increases by <color=#POSITIVE_WITH_GREYITE>0.9</color>%, up to <color=#POSITIVE_WITH_GREYITE>45</color>%, and <color=#FFFFFF>[Armorer]</color> Characters' CRIT Rate of the cleansed attribute increases by <color=#POSITIVE_WITH_GREYITE>0.6</color>%, up to <color=#POSITIVE_WITH_GREYITE>30</color>%. Each attribute buff lasts 50s. Repeated triggers reset the duration.",
+          "When another character in your squad is an <color=#FFFFFF>[Attack]</color> Character, <color=#FFFFFF>[Rupture]</color> or <color=#FFFFFF>[Armorer]</color> Character, the following effects are triggered:\nRoxy's CRIT DMG increases by 10%. This effect scales with Character Lv., increasing by 2% per level, up to a maximum increase of 130%;\nWhen any ally hits an enemy, their Daze Vulnerability increases by 30%. When they become Stunned, their Stun duration is extended by 2s;\nWhen an enemy is affected by <color=#FFFFFF>[Windswept]</color> or <color=#FFFFFF>[Contamination]</color>, the <color=#A6C5FD>Wind direct DMG</color> and direct attack DMG that triggers [Contamination] attribute dealt to them is additionally increased by 10%."
         ],
         "extra_property": {},
         "potential": []
@@ -2000,13 +2000,13 @@
     "1": {
       "level": 1,
       "name": "Cinema I",
-      "desc": "When <color=#ffffff>[Eye of the Storm]</color> is detonated by any means, DMG dealt is increased by 10% and Daze is increased by 10%; when <color=#ffffff>[EX Special Attack: Wind Cannon]</color> hits, reduces the enemy's All-Attribute RES by 15% for 50s.",
+      "desc": "When <color=#ffffff>[Eye of the Storm]</color> is detonated by any means, DMG dealt is increased by 15% and Daze is increased by 15%; when <color=#ffffff>[EX Special Attack: Wind Cannon]</color> hits, reduces the enemy's All-Attribute RES by 15% for 50s.",
       "desc2": "PlaceHolder"
     },
     "2": {
       "level": 2,
       "name": "Cinema II",
-      "desc": "For each <color=#ffffff>[Wind Eye]</color> detonated, the next <color=#ffffff>[EX Special Attack: Ride the Wind]</color> deals 10% more Daze, up to a maximum of 30%. When switching out via <color=#ffffff>[EX Special Attack: Ride the Wind]</color>, Roxy will maintain <color=#ffffff>[EX Special Attack: Ride the Wind]</color> for 0.5s without consuming Energy, up to a maximum of 1.5s. When <color=#ffffff>[EX Special Attack: Rising Wind]</color> or <color=#ffffff>[EX Special Attack: Ride the Wind]</color> hits an enemy, increases the enemy's Stun DMG Multiplier by 20%.",
+      "desc": "For each <color=#ffffff>[Wind Eye]</color> detonated, the next <color=#ffffff>[EX Special Attack: Ride the Wind]</color> gains 5% increased Daze, up to a max of 15%. When switching characters upon activating <color=#ffffff>[EX Special Attack: Ride the Wind]</color>, Roxy will maintain <color=#ffffff>[EX Special Attack: Ride the Wind]</color> for 0.5s without consuming Energy, up to a max of 1.5s. When <color=#ffffff>[EX Special Attack: Rising Wind]</color> or <color=#ffffff>[EX Special Attack: Ride the Wind]</color> hits an enemy, increases the enemy's Stun DMG Multiplier by 20%, lasting until the target recovers from the Stunned state.",
       "desc2": "PlaceHolder"
     },
     "3": {
@@ -2018,7 +2018,7 @@
     "4": {
       "level": 4,
       "name": "Cinema 4",
-      "desc": "When <color=#ffffff>[Basic Attack: Gale Combo Hammer]</color> hits an enemy, recover 2 Energy; when <color=#ffffff>[Dodge Counter: Headwind]</color>, <color=#ffffff>[Entry Skill]</color>, or <color=#ffffff>[Basic Attack: Meteor Hammer]</color> hits an enemy, recover 4 Energy; <color=#ffffff>[Ultimate: Storm Rampage]</color> DMG increases by 10%, and Daze increases by 10%.",
+      "desc": "When <color=#ffffff>[Basic Attack: Gale Combo Hammer]</color> hits an enemy, recover 1 Energy, up to 1 time per skill; when <color=#ffffff>[Dodge Counter: Headwind]</color>, <color=#ffffff>[Entry Skill]</color>, or <color=#ffffff>[Basic Attack: Meteor Hammer]</color> hits an enemy, recover 2 Energy, up to 1 time per skill; <color=#ffffff>[Ultimate: Storm Rampage]</color> DMG increases by 25%, and Daze increases by 10%.",
       "desc2": "PlaceHolder"
     },
     "5": {
@@ -2030,7 +2030,7 @@
     "6": {
       "level": 6,
       "name": "Cinema 6",
-      "desc": "When <color=#ffffff>[Basic Attack: Whirlwind Hammer]</color> detonates <color=#ffffff>[Wind Eye]</color> to generate a large tornado, its duration increases by 2s; the large tornado continuously pulls in and detonates surrounding Wind Eyes. For each <color=#ffffff>[Wind Eye]</color> detonated, the duration is extended by 1s, up to a maximum extension of 0.1s; the large tornado's DMG Multiplier is increased by 150%, and its Daze is increased by 10%.",
+      "desc": "When <color=#ffffff>[Basic Attack: Whirlwind Hammer]</color> detonates <color=#ffffff>[Eye of the Storm]</color> to generate a large tornado, the main target is granted the <color=#ffffff>[Vengeance]</color> effect, generating a large tornado at the target's position every 3 seconds for a total of 4 additional large tornadoes; the DMG Multiplier of large tornadoes is increased by 400%, and the Daze inflicted is increased by 100%. Upon repeated triggers, the additional generation count stacks.",
       "desc2": "PlaceHolder"
     }
   },

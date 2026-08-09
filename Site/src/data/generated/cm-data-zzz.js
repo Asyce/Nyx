@@ -150080,7 +150080,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "3.2.2+18088156",
+        "version": "3.2.2+18097913",
         "sections": [
           {
             "title": "Skills",

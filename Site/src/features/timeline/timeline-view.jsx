@@ -540,8 +540,58 @@ function nyxEventCardStatus(block, now){
   };
 }
 
+// Pop-up holding an event's full description. Replaces the old whole-card link
+// to the official notice, which pointed at a page we are replacing with an API
+// (user 2026-08-09).
+function EventDetailDialog({ block, timePreference, game, onClose }){
+  var cardRef = React.useRef(null);
+  var closeRef = React.useRef(null);
+  React.useEffect(function(){
+    var onKeyDown = function(event){
+      if (event.key === 'Escape') { event.preventDefault(); onClose(); return; }
+      if (event.key !== 'Tab' || !cardRef.current) return;
+      var focusable = Array.from(cardRef.current.querySelectorAll('button:not([disabled]), [href], [tabindex]:not([tabindex="-1"])'));
+      if (!focusable.length) return;
+      var first = focusable[0];
+      var last = focusable[focusable.length - 1];
+      if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last.focus(); }
+      else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first.focus(); }
+    };
+    document.addEventListener('keydown', onKeyDown);
+    requestAnimationFrame(function(){ closeRef.current && closeRef.current.focus(); });
+    return function(){ document.removeEventListener('keydown', onKeyDown); };
+  }, [onClose]);
+  var text = nyxTlCleanEventText(block.description);
+  return ReactDOM.createPortal(
+    <div className="gp-oev-modal" role="presentation" onMouseDown={function(e){ if (e.target === e.currentTarget) onClose(); }}>
+      <div className="gp-oev-modal-card" ref={cardRef} role="dialog" aria-modal="true" aria-label={block.fullTitle || block.title}>
+        <div className="gp-oev-modal-head">
+          <h2>{block.fullTitle || block.title}</h2>
+          <button type="button" ref={closeRef} className="gp-oev-modal-x" title="Close" onClick={onClose}>{'✕'}</button>
+        </div>
+        <p className="gp-oev-modal-when">
+          {nyxTlViewDate(block.startMs, block.dateOnly, timePreference, game)}
+          {!block.openEnd && ' – ' + nyxTlViewDate(block.endMs, block.dateOnly, timePreference, game)}
+        </p>
+        {text
+          ? <div className="gp-oev-modal-body">{text.split(/\n{2,}/).map(function(part, i){ return <p key={i}>{part}</p>; })}</div>
+          : <div className="gp-oev-modal-body"><p>No description was published for this event.</p></div>}
+      </div>
+    </div>,
+    document.body
+  );
+}
+
 function CurrentEventsStrip({ game, gameName, limit }){
   var timePreference = nyxTlUseTimePreference(game);
+  var [detail, setDetail] = React.useState(null);
+  var openerRef = React.useRef(null);
+  var closeDetail = React.useCallback(function(){
+    setDetail(null);
+    var opener = openerRef.current;
+    openerRef.current = null;
+    if (opener && opener.isConnected !== false) requestAnimationFrame(function(){ opener.focus({ preventScroll:true }); });
+  }, []);
   var [payload, setPayload] = React.useState({ loading:true, events:[], updated:null, error:null });
   var [region, setRegion] = React.useState(function(){ return (typeof loadResetRegion === 'function' ? loadResetRegion(game) : 'na'); });
   var [now, setNow] = React.useState(Date.now());
@@ -573,15 +623,12 @@ function CurrentEventsStrip({ game, gameName, limit }){
     <section className="gp-current-banners gp-current-events" aria-label={(gameName || 'Game') + ' current events'}>
       {/* The "Current Events" divider was removed 2026-08-08 at the user's
           request; only the quiet updated stamp remains. */}
-      {payload.updated && (
-        <div className="gp-current-banners-head gp-events-head">
-          <span>Updated {nyxTlViewDate(Date.parse(payload.updated), true, timePreference, game)}</span>
-        </div>
-      )}
+      {/* The "Updated <date>" stamp was removed 2026-08-09 at the user's
+          request — it is not information a player acts on. */}
       <div className="gp-event-grid">
         {cards.map(function(block){
           var meta = nyxEventCardStatus(block, now);
-          var excerpt = nyxTlCardExcerpt(block.description);
+          var excerpt = nyxTlCleanEventText(block.description);
           return (
             <div className="gp-event-cell" key={block.id}>
               <article className={'gp-oban gp-oev st-' + meta.cls}>
@@ -604,17 +651,19 @@ function CurrentEventsStrip({ game, gameName, limit }){
                     </span>
                   </div>
                 </div>
-                {/* The "Official notice" text is gone; the card itself is the
-                    link, so the source is still one click away. */}
-                {block.sourceUrl && (
-                  <a className="gp-oev-link" href={block.sourceUrl} target="_blank" rel="noreferrer"
-                     aria-label={'Official notice for ' + block.title}></a>
-                )}
+                {/* The card no longer links out to the official notice (that
+                    page is being replaced by an API, so the destination was
+                    useless). Clicking it opens the full description instead —
+                    user 2026-08-09. */}
+                <button type="button" className="gp-oev-open"
+                        aria-label={'Read the full description for ' + block.title}
+                        onClick={function(event){ openerRef.current = event.currentTarget; setDetail(block); }}></button>
               </article>
             </div>
           );
         })}
       </div>
+      {detail && <EventDetailDialog block={detail} timePreference={timePreference} game={game} onClose={closeDetail} />}
     </section>
   );
 }

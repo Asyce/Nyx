@@ -481,12 +481,15 @@ test('the event blurb drops the dates the card already counts down', () => {
   assert.equal(clean(null), '');
 });
 
-test('the event card is the source link and carries no status or type chip', () => {
-  assert.match(viewSource, /function nyxTlCardExcerpt/);
-  assert.match(viewSource, /var excerpt = nyxTlCardExcerpt\(block\.description\)/);
-  assert.match(viewSource, /className="gp-oev-link"/);
+// 2026-08-09: the card no longer links out to the official notice — that page
+// is being replaced by an API. Clicking it opens the full description instead.
+test('the event card opens its full description and never links out', () => {
+  assert.doesNotMatch(viewSource, /className="gp-oev-link"/);
   assert.doesNotMatch(viewSource, /Official notice<\/a>/);
   assert.doesNotMatch(viewSource, /NYX_EVENT_TYPE_LABEL\[block\.type\]/);
+  assert.match(viewSource, /className="gp-oev-open"/);
+  assert.match(viewSource, /function EventDetailDialog/);
+  assert.match(viewSource, /var excerpt = nyxTlCleanEventText\(block\.description\)/, 'the card blurb is no longer pre-truncated');
 });
 
 test('the overview events card reads the player region window, not the merged europe-first one', () => {
@@ -570,23 +573,25 @@ test('per-game and cross-game event detail cards render the plain description fi
   assert.doesNotMatch(viewSource, /Â·/, 'timeline labels must not render a mojibake separator');
 });
 
-test('the All Events hub tab is present in both route maps and the Nyx valid-tab list', () => {
+// 2026-08-09: the hub keeps an Events tab, but it is now the per-game current
+// events view rather than the cross-game "All Events" timeline.
+test('the Events hub tab is present in both route maps and the Nyx valid-tab list', () => {
   assert.match(appSource, /NYX_TAB_TO_ROUTE\s*=\s*\{[\s\S]*?events:'events'/);
   assert.match(appSource, /ROUTE_TO_NYX_TAB\s*=\s*\{[\s\S]*?events:'events'/);
-  assert.match(appSource, /\['overview','characters','calendar','timeline','pulls','codes','banners','events','settings'\]/);
+  assert.match(appSource, /\['overview','events','characters','calendar','codes','settings'\]/);
+  assert.match(appSource, /function NyxEventsView\(\)/);
 });
 
-test('the per-game timeline lives on the hub Timeline tab, not on game overviews', () => {
-  // Moved 2026-08-08: game Overview pages lead with the live banner strip and
-  // the full timeline is reached through /nyx/timeline/<game>.
-  assert.match(appSource, /NYX_TAB_TO_ROUTE\s*=\s*\{[\s\S]*?timeline:'timeline'/);
-  assert.match(appSource, /ROUTE_TO_NYX_TAB\s*=\s*\{[\s\S]*?timeline:'timeline'/);
-  assert.match(appSource, /tab === 'timeline' &&[\s\S]*?<NyxGameTimelines games=\{SIM_GAMES\}/);
-  assert.doesNotMatch(appSource, /<BannerTimeline /, 'only NyxGameTimelines mounts the per-game timeline');
-  assert.match(viewSource, /function NyxGameTimelines\(\{ games, game, onGame \}\)/);
-  assert.match(viewSource, /<BannerTimeline key=\{current\.key\} game=\{current\.key\}/);
-  // The share token ("Copy view") has to follow the timeline to its new home.
-  assert.match(appSource, /safeKey === 'nyx' && safeTab === 'timeline'/);
+// 2026-08-09: the hub's Timeline, Pull Overview and All Banners tabs were
+// removed at the user's request. Their old URLs fall back to Banners.
+test('retired hub tabs are gone and their routes fall back to Banners', () => {
+  assert.doesNotMatch(appSource, /NYX_TAB_TO_ROUTE\s*=\s*\{[\s\S]*?timeline:'timeline'/);
+  assert.match(appSource, /ROUTE_TO_NYX_TAB\s*=\s*\{[\s\S]*?timeline:'overview'/);
+  assert.match(appSource, /ROUTE_TO_NYX_TAB\s*=\s*\{[\s\S]*?banners:'overview'/);
+  assert.doesNotMatch(appSource, /<NyxGameTimelines/);
+  assert.doesNotMatch(appSource, /<CrossGameBannerTimeline/);
+  assert.doesNotMatch(appSource, /<CrossGameEventsTimeline/);
+  assert.doesNotMatch(appSource, /<PullsOverview/);
 });
 
 test('cross-game banner search scans full history, including off-screen runs', () => {

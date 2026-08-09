@@ -2631,7 +2631,8 @@
             "rarity": "4 \u2605",
             "element": "Fusion"
           },
-          "text": "\"A Department of Voidmatters student at Startorch Academy. Always there to flash her 'gentle' smile to one and all.\""
+          "text": "\"A Department of Voidmatters student at Startorch Academy. Always there to flash her 'gentle' smile to one and all.\"",
+          "released": "2026-05-21"
         },
         {
           "id": "ww-mon-340000281",

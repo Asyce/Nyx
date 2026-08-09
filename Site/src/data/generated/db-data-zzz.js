@@ -1050,7 +1050,8 @@
             "rarity": "3 \u2605",
             "type": "Special"
           },
-          "text": "A dangerous individual who roams among the various gangs in New Eridu. She is agile and versatile in appearance. Even a well-equipped and heavily armed tactical squad often struggles to cope with her unique and fierce combat techniques, usually ending up silently defeated and fleeing."
+          "text": "A dangerous individual who roams among the various gangs in New Eridu. She is agile and versatile in appearance. Even a well-equipped and heavily armed tactical squad often struggles to cope with her unique and fierce combat techniques, usually ending up silently defeated and fleeing.",
+          "released": "2024-09-04"
         },
         {
           "id": "zzz-mon-30023",
@@ -4111,7 +4112,8 @@
             "rarity": "3 \u2605",
             "type": "Agent"
           },
-          "text": "Use it to obtain the Agent or unlock the Agent's Mindscapes."
+          "text": "Use it to obtain the Agent or unlock the Agent's Mindscapes.",
+          "released": "2024-07-04"
         },
         {
           "id": "zzz-item-1141",
@@ -4144,7 +4146,8 @@
             "rarity": "4 \u2605",
             "type": "Agent"
           },
-          "text": "Use it to obtain the Agent or unlock the Agent's Mindscapes."
+          "text": "Use it to obtain the Agent or unlock the Agent's Mindscapes.",
+          "released": "2024-11-27"
         },
         {
           "id": "zzz-item-1171",
@@ -4221,7 +4224,8 @@
             "rarity": "4 \u2605",
             "type": "Agent"
           },
-          "text": "Use it to obtain the Agent or unlock the Agent's Mindscapes."
+          "text": "Use it to obtain the Agent or unlock the Agent's Mindscapes.",
+          "released": "2024-07-24"
         },
         {
           "id": "zzz-item-1251",
@@ -4232,7 +4236,8 @@
             "rarity": "4 \u2605",
             "type": "Agent"
           },
-          "text": "Use it to obtain the Agent or unlock the Agent's Mindscapes."
+          "text": "Use it to obtain the Agent or unlock the Agent's Mindscapes.",
+          "released": "2024-08-14"
         },
         {
           "id": "zzz-item-1261",
@@ -4298,7 +4303,8 @@
             "rarity": "4 \u2605",
             "type": "Agent"
           },
-          "text": "Use it to obtain the Agent or unlock the Agent's Mindscapes."
+          "text": "Use it to obtain the Agent or unlock the Agent's Mindscapes.",
+          "released": "2025-01-22"
         },
         {
           "id": "zzz-item-1321",
@@ -4331,7 +4337,8 @@
             "rarity": "4 \u2605",
             "type": "Agent"
           },
-          "text": "Use it to obtain the Agent or unlock the Agent's Mindscapes."
+          "text": "Use it to obtain the Agent or unlock the Agent's Mindscapes.",
+          "released": "2025-12-30"
         },
         {
           "id": "zzz-item-1351",
@@ -4353,7 +4360,8 @@
             "rarity": "4 \u2605",
             "type": "Agent"
           },
-          "text": "Use it to obtain the Agent or unlock the Agent's Mindscapes."
+          "text": "Use it to obtain the Agent or unlock the Agent's Mindscapes.",
+          "released": "2025-04-02"
         },
         {
           "id": "zzz-item-1371",
@@ -4364,7 +4372,8 @@
             "rarity": "4 \u2605",
             "type": "Agent"
           },
-          "text": "Use it to obtain the Agent or unlock the Agent's Mindscapes."
+          "text": "Use it to obtain the Agent or unlock the Agent's Mindscapes.",
+          "released": "2025-06-06"
         },
         {
           "id": "zzz-item-1381",
@@ -4375,7 +4384,8 @@
             "rarity": "4 \u2605",
             "type": "Agent"
           },
-          "text": "Use it to obtain the Agent or unlock the Agent's Mindscapes."
+          "text": "Use it to obtain the Agent or unlock the Agent's Mindscapes.",
+          "released": "2025-03-12"
         },
         {
           "id": "zzz-item-1391",
@@ -4386,7 +4396,8 @@
             "rarity": "4 \u2605",
             "type": "Agent"
           },
-          "text": "Use it to obtain the Agent or unlock the Agent's Mindscapes."
+          "text": "Use it to obtain the Agent or unlock the Agent's Mindscapes.",
+          "released": "2025-06-25"
         },
         {
           "id": "zzz-item-1401",
@@ -4419,7 +4430,8 @@
             "rarity": "3 \u2605",
             "type": "Agent"
           },
-          "text": "Use it to obtain the Agent or unlock the Agent's Mindscapes."
+          "text": "Use it to obtain the Agent or unlock the Agent's Mindscapes.",
+          "released": "2025-06-06"
         },
         {
           "id": "zzz-item-1431",
@@ -4430,7 +4442,8 @@
             "rarity": "4 \u2605",
             "type": "Agent"
           },
-          "text": "Use it to obtain the Agent or unlock the Agent's Mindscapes."
+          "text": "Use it to obtain the Agent or unlock the Agent's Mindscapes.",
+          "released": "2025-12-30"
         },
         {
           "id": "zzz-item-1441",
@@ -4463,7 +4476,8 @@
             "rarity": "4 \u2605",
             "type": "Agent"
           },
-          "text": "Use it to obtain the Agent or unlock the Agent's Mindscapes."
+          "text": "Use it to obtain the Agent or unlock the Agent's Mindscapes.",
+          "released": "2025-09-04"
         },
         {
           "id": "zzz-item-1471",
@@ -4474,7 +4488,8 @@
             "rarity": "4 \u2605",
             "type": "Agent"
           },
-          "text": "Use it to obtain the Agent or unlock the Agent's Mindscapes."
+          "text": "Use it to obtain the Agent or unlock the Agent's Mindscapes.",
+          "released": "2025-12-17"
         },
         {
           "id": "zzz-item-1481",
@@ -4485,7 +4500,8 @@
             "rarity": "4 \u2605",
             "type": "Agent"
           },
-          "text": "Use it to obtain the Agent or unlock the Agent's Mindscapes."
+          "text": "Use it to obtain the Agent or unlock the Agent's Mindscapes.",
+          "released": "2025-11-26"
         },
         {
           "id": "zzz-item-1491",
@@ -4496,7 +4512,8 @@
             "rarity": "4 \u2605",
             "type": "Agent"
           },
-          "text": "Use it to obtain the Agent or unlock the Agent's Mindscapes."
+          "text": "Use it to obtain the Agent or unlock the Agent's Mindscapes.",
+          "released": "2026-02-06"
         },
         {
           "id": "zzz-item-1501",
@@ -4507,7 +4524,8 @@
             "rarity": "4 \u2605",
             "type": "Agent"
           },
-          "text": "Use it to obtain the Agent or unlock the Agent's Mindscapes."
+          "text": "Use it to obtain the Agent or unlock the Agent's Mindscapes.",
+          "released": "2026-03-04"
         },
         {
           "id": "zzz-item-1502",
@@ -4518,7 +4536,8 @@
             "rarity": "2 \u2605",
             "type": "Agent"
           },
-          "text": "Use it to obtain the Agent or unlock the Agent's Mindscapes."
+          "text": "Use it to obtain the Agent or unlock the Agent's Mindscapes.",
+          "released": "2026-03-04"
         },
         {
           "id": "zzz-item-1511",
@@ -4529,7 +4548,8 @@
             "rarity": "4 \u2605",
             "type": "Agent"
           },
-          "text": "Use it to obtain the Agent or unlock the Agent's Mindscapes."
+          "text": "Use it to obtain the Agent or unlock the Agent's Mindscapes.",
+          "released": "2026-03-24"
         },
         {
           "id": "zzz-item-1521",
@@ -4540,7 +4560,8 @@
             "rarity": "4 \u2605",
             "type": "Agent"
           },
-          "text": "Use it to obtain the Agent or unlock the Agent's Mindscapes."
+          "text": "Use it to obtain the Agent or unlock the Agent's Mindscapes.",
+          "released": "2026-04-15"
         },
         {
           "id": "zzz-item-1531",
@@ -4562,7 +4583,8 @@
             "rarity": "4 \u2605",
             "type": "Agent"
           },
-          "text": "Use it to obtain the Agent or unlock the Agent's Mindscapes."
+          "text": "Use it to obtain the Agent or unlock the Agent's Mindscapes.",
+          "released": "2026-05-06"
         },
         {
           "id": "zzz-item-1551",
@@ -4661,7 +4683,8 @@
             "rarity": "2 \u2605",
             "type": "Agent"
           },
-          "text": "Use it to obtain the Agent or unlock the Agent's Mindscapes."
+          "text": "Use it to obtain the Agent or unlock the Agent's Mindscapes.",
+          "released": "2025-12-30"
         },
         {
           "id": "zzz-item-5011",
@@ -5739,7 +5762,8 @@
             "rarity": "3 \u2605",
             "type": "W Engine"
           },
-          "text": "Equip to increase Stun Agents' combat capabilities"
+          "text": "Equip to increase Stun Agents' combat capabilities",
+          "released": "2024-09-04"
         },
         {
           "id": "zzz-item-13103",
@@ -5750,7 +5774,8 @@
             "rarity": "3 \u2605",
             "type": "W Engine"
           },
-          "text": "Equip to increase Support Agents' combat capabilities"
+          "text": "Equip to increase Support Agents' combat capabilities",
+          "released": "2024-07-24"
         },
         {
           "id": "zzz-item-13106",
@@ -5761,7 +5786,8 @@
             "rarity": "3 \u2605",
             "type": "W Engine"
           },
-          "text": "Equip to increase Attack Agents' combat capabilities"
+          "text": "Equip to increase Attack Agents' combat capabilities",
+          "released": "2024-08-14"
         },
         {
           "id": "zzz-item-13108",
@@ -5772,7 +5798,8 @@
             "rarity": "3 \u2605",
             "type": "W Engine"
           },
-          "text": "Equip to increase Attack Agents' combat capabilities"
+          "text": "Equip to increase Attack Agents' combat capabilities",
+          "released": "2024-08-14"
         },
         {
           "id": "zzz-item-13111",
@@ -5783,7 +5810,8 @@
             "rarity": "3 \u2605",
             "type": "W Engine"
           },
-          "text": "Equip to increase Attack Agents' combat capabilities"
+          "text": "Equip to increase Attack Agents' combat capabilities",
+          "released": "2024-07-04"
         },
         {
           "id": "zzz-item-13112",
@@ -5794,7 +5822,8 @@
             "rarity": "3 \u2605",
             "type": "W Engine"
           },
-          "text": "Equip to increase Defense Agents' combat capabilities"
+          "text": "Equip to increase Defense Agents' combat capabilities",
+          "released": "2024-07-24"
         },
         {
           "id": "zzz-item-13113",
@@ -5805,7 +5834,8 @@
             "rarity": "3 \u2605",
             "type": "W Engine"
           },
-          "text": "Equip to increase Support Agents' combat capabilities"
+          "text": "Equip to increase Support Agents' combat capabilities",
+          "released": "2024-07-04"
         },
         {
           "id": "zzz-item-13115",
@@ -5816,7 +5846,8 @@
             "rarity": "3 \u2605",
             "type": "W Engine"
           },
-          "text": "Equip to increase Support Agents' combat capabilities"
+          "text": "Equip to increase Support Agents' combat capabilities",
+          "released": "2024-10-16"
         },
         {
           "id": "zzz-item-13127",
@@ -5827,7 +5858,8 @@
             "rarity": "3 \u2605",
             "type": "W Engine"
           },
-          "text": "Equip to increase Defense Agents' combat capabilities"
+          "text": "Equip to increase Defense Agents' combat capabilities",
+          "released": "2024-09-04"
         },
         {
           "id": "zzz-item-13128",
@@ -5838,7 +5870,8 @@
             "rarity": "3 \u2605",
             "type": "W Engine"
           },
-          "text": "Equip to increase Anomaly Agents' combat capabilities"
+          "text": "Equip to increase Anomaly Agents' combat capabilities",
+          "released": "2024-09-24"
         },
         {
           "id": "zzz-item-13135",
@@ -5849,7 +5882,8 @@
             "rarity": "3 \u2605",
             "type": "W Engine"
           },
-          "text": "Equip to increase Stun Agents' combat capabilities"
+          "text": "Equip to increase Stun Agents' combat capabilities",
+          "released": "2025-03-12"
         },
         {
           "id": "zzz-item-13142",
@@ -5860,7 +5894,8 @@
             "rarity": "3 \u2605",
             "type": "W Engine"
           },
-          "text": "Equip to increase Defense Agents' combat capabilities"
+          "text": "Equip to increase Defense Agents' combat capabilities",
+          "released": "2025-06-06"
         },
         {
           "id": "zzz-item-13144",
@@ -5871,7 +5906,8 @@
             "rarity": "3 \u2605",
             "type": "W Engine"
           },
-          "text": "Equip to increase Rupture Agents' combat capabilities"
+          "text": "Equip to increase Rupture Agents' combat capabilities",
+          "released": "2025-10-15"
         },
         {
           "id": "zzz-item-14001",
@@ -5937,7 +5973,8 @@
             "rarity": "4 \u2605",
             "type": "W Engine"
           },
-          "text": "Equip to increase Rupture Agents' combat capabilities"
+          "text": "Equip to increase Rupture Agents' combat capabilities",
+          "released": "2025-11-05"
         },
         {
           "id": "zzz-item-14107",
@@ -5948,7 +5985,8 @@
             "rarity": "4 \u2605",
             "type": "W Engine"
           },
-          "text": "Equip to increase Defense Agents' combat capabilities"
+          "text": "Equip to increase Defense Agents' combat capabilities",
+          "released": "2024-09-24"
         },
         {
           "id": "zzz-item-14109",
@@ -5959,7 +5997,8 @@
             "rarity": "4 \u2605",
             "type": "W Engine"
           },
-          "text": "Equip to increase Anomaly Agents' combat capabilities"
+          "text": "Equip to increase Anomaly Agents' combat capabilities",
+          "released": "2024-12-18"
         },
         {
           "id": "zzz-item-14110",
@@ -5992,7 +6031,8 @@
             "rarity": "4 \u2605",
             "type": "W Engine"
           },
-          "text": "Equip to increase Stun Agents' combat capabilities"
+          "text": "Equip to increase Stun Agents' combat capabilities",
+          "released": "2024-11-27"
         },
         {
           "id": "zzz-item-14117",
@@ -6003,7 +6043,8 @@
             "rarity": "4 \u2605",
             "type": "W Engine"
           },
-          "text": "Equip to increase Anomaly Agents' combat capabilities"
+          "text": "Equip to increase Anomaly Agents' combat capabilities",
+          "released": "2024-10-16"
         },
         {
           "id": "zzz-item-14118",
@@ -6025,7 +6066,8 @@
             "rarity": "4 \u2605",
             "type": "W Engine"
           },
-          "text": "Equip to increase Attack Agents' combat capabilities"
+          "text": "Equip to increase Attack Agents' combat capabilities",
+          "released": "2024-07-04"
         },
         {
           "id": "zzz-item-14120",
@@ -6036,7 +6078,8 @@
             "rarity": "4 \u2605",
             "type": "W Engine"
           },
-          "text": "Equip to increase Attack Agents' combat capabilities"
+          "text": "Equip to increase Attack Agents' combat capabilities",
+          "released": "2024-12-18"
         },
         {
           "id": "zzz-item-14121",
@@ -6058,7 +6101,8 @@
             "rarity": "4 \u2605",
             "type": "W Engine"
           },
-          "text": "Equip to increase Anomaly Agents' combat capabilities"
+          "text": "Equip to increase Anomaly Agents' combat capabilities",
+          "released": "2024-11-05"
         },
         {
           "id": "zzz-item-14124",
@@ -6069,7 +6113,8 @@
             "rarity": "4 \u2605",
             "type": "W Engine"
           },
-          "text": "Equip to increase Attack Agents' combat capabilities"
+          "text": "Equip to increase Attack Agents' combat capabilities",
+          "released": "2024-07-24"
         },
         {
           "id": "zzz-item-14125",
@@ -6080,7 +6125,8 @@
             "rarity": "4 \u2605",
             "type": "W Engine"
           },
-          "text": "Equip to increase Stun Agents' combat capabilities"
+          "text": "Equip to increase Stun Agents' combat capabilities",
+          "released": "2024-08-14"
         },
         {
           "id": "zzz-item-14126",
@@ -6091,7 +6137,8 @@
             "rarity": "4 \u2605",
             "type": "W Engine"
           },
-          "text": "Equip to increase Anomaly Agents' combat capabilities"
+          "text": "Equip to increase Anomaly Agents' combat capabilities",
+          "released": "2024-09-04"
         },
         {
           "id": "zzz-item-14129",
@@ -6102,7 +6149,8 @@
             "rarity": "4 \u2605",
             "type": "W Engine"
           },
-          "text": "Equip to increase Attack Agents' combat capabilities"
+          "text": "Equip to increase Attack Agents' combat capabilities",
+          "released": "2025-05-14"
         },
         {
           "id": "zzz-item-14130",
@@ -6113,7 +6161,8 @@
             "rarity": "4 \u2605",
             "type": "W Engine"
           },
-          "text": "Equip to increase Attack Agents' combat capabilities"
+          "text": "Equip to increase Attack Agents' combat capabilities",
+          "released": "2025-09-24"
         },
         {
           "id": "zzz-item-14131",
@@ -6124,7 +6173,8 @@
             "rarity": "4 \u2605",
             "type": "W Engine"
           },
-          "text": "Equip to increase Support Agents' combat capabilities"
+          "text": "Equip to increase Support Agents' combat capabilities",
+          "released": "2025-01-22"
         },
         {
           "id": "zzz-item-14132",
@@ -6135,7 +6185,8 @@
             "rarity": "4 \u2605",
             "type": "W Engine"
           },
-          "text": "Equip to increase Attack Agents' combat capabilities"
+          "text": "Equip to increase Attack Agents' combat capabilities",
+          "released": "2025-02-12"
         },
         {
           "id": "zzz-item-14133",
@@ -6146,7 +6197,8 @@
             "rarity": "4 \u2605",
             "type": "W Engine"
           },
-          "text": "Equip to increase Anomaly Agents' combat capabilities"
+          "text": "Equip to increase Anomaly Agents' combat capabilities",
+          "released": "2025-04-23"
         },
         {
           "id": "zzz-item-14134",
@@ -6157,7 +6209,8 @@
             "rarity": "4 \u2605",
             "type": "W Engine"
           },
-          "text": "Equip to increase Defense Agents' combat capabilities"
+          "text": "Equip to increase Defense Agents' combat capabilities",
+          "released": "2025-12-30"
         },
         {
           "id": "zzz-item-14136",
@@ -6168,7 +6221,8 @@
             "rarity": "4 \u2605",
             "type": "W Engine"
           },
-          "text": "Equip to increase Stun Agents' combat capabilities"
+          "text": "Equip to increase Stun Agents' combat capabilities",
+          "released": "2025-04-02"
         },
         {
           "id": "zzz-item-14137",
@@ -6179,7 +6233,8 @@
             "rarity": "4 \u2605",
             "type": "W Engine"
           },
-          "text": "Equip to increase Rupture Agents' combat capabilities"
+          "text": "Equip to increase Rupture Agents' combat capabilities",
+          "released": "2025-06-06"
         },
         {
           "id": "zzz-item-14138",
@@ -6190,7 +6245,8 @@
             "rarity": "4 \u2605",
             "type": "W Engine"
           },
-          "text": "Equip to increase Attack Agents' combat capabilities"
+          "text": "Equip to increase Attack Agents' combat capabilities",
+          "released": "2025-03-12"
         },
         {
           "id": "zzz-item-14139",
@@ -6201,7 +6257,8 @@
             "rarity": "4 \u2605",
             "type": "W Engine"
           },
-          "text": "Equip to increase Stun Agents' combat capabilities"
+          "text": "Equip to increase Stun Agents' combat capabilities",
+          "released": "2025-06-25"
         },
         {
           "id": "zzz-item-14140",
@@ -6212,7 +6269,8 @@
             "rarity": "4 \u2605",
             "type": "W Engine"
           },
-          "text": "Equip to increase Anomaly Agents' combat capabilities"
+          "text": "Equip to increase Anomaly Agents' combat capabilities",
+          "released": "2025-08-06"
         },
         {
           "id": "zzz-item-14141",
@@ -6223,7 +6281,8 @@
             "rarity": "4 \u2605",
             "type": "W Engine"
           },
-          "text": "Equip to increase Support Agents' combat capabilities"
+          "text": "Equip to increase Support Agents' combat capabilities",
+          "released": "2025-07-16"
         },
         {
           "id": "zzz-item-14143",
@@ -6234,7 +6293,8 @@
             "rarity": "4 \u2605",
             "type": "W Engine"
           },
-          "text": "Equip to increase Attack Agents' combat capabilities"
+          "text": "Equip to increase Attack Agents' combat capabilities",
+          "released": "2025-12-30"
         },
         {
           "id": "zzz-item-14145",
@@ -6245,7 +6305,8 @@
             "rarity": "4 \u2605",
             "type": "W Engine"
           },
-          "text": "Equip to increase Support Agents' combat capabilities"
+          "text": "Equip to increase Support Agents' combat capabilities",
+          "released": "2025-10-15"
         },
         {
           "id": "zzz-item-14146",
@@ -6256,7 +6317,8 @@
             "rarity": "4 \u2605",
             "type": "W Engine"
           },
-          "text": "Equip to increase Attack Agents' combat capabilities"
+          "text": "Equip to increase Attack Agents' combat capabilities",
+          "released": "2025-09-04"
         },
         {
           "id": "zzz-item-14147",
@@ -6267,7 +6329,8 @@
             "rarity": "4 \u2605",
             "type": "W Engine"
           },
-          "text": "Equip to increase Rupture Agents' combat capabilities"
+          "text": "Equip to increase Rupture Agents' combat capabilities",
+          "released": "2025-12-17"
         },
         {
           "id": "zzz-item-14148",
@@ -6278,7 +6341,8 @@
             "rarity": "4 \u2605",
             "type": "W Engine"
           },
-          "text": "Equip to increase Stun Agents' combat capabilities"
+          "text": "Equip to increase Stun Agents' combat capabilities",
+          "released": "2025-11-26"
         },
         {
           "id": "zzz-item-14149",
@@ -6289,7 +6353,8 @@
             "rarity": "4 \u2605",
             "type": "W Engine"
           },
-          "text": "Equip to increase Support Agents' combat capabilities"
+          "text": "Equip to increase Support Agents' combat capabilities",
+          "released": "2026-02-06"
         },
         {
           "id": "zzz-item-14150",
@@ -6300,7 +6365,8 @@
             "rarity": "4 \u2605",
             "type": "W Engine"
           },
-          "text": "Equip to increase Anomaly Agents' combat capabilities"
+          "text": "Equip to increase Anomaly Agents' combat capabilities",
+          "released": "2026-03-04"
         },
         {
           "id": "zzz-item-14151",
@@ -6311,7 +6377,8 @@
             "rarity": "4 \u2605",
             "type": "W Engine"
           },
-          "text": "Equip to increase Stun Agents' combat capabilities"
+          "text": "Equip to increase Stun Agents' combat capabilities",
+          "released": "2026-03-24"
         },
         {
           "id": "zzz-item-14152",
@@ -6322,7 +6389,8 @@
             "rarity": "4 \u2605",
             "type": "W Engine"
           },
-          "text": "Equip to increase Attack Agents' combat capabilities"
+          "text": "Equip to increase Attack Agents' combat capabilities",
+          "released": "2026-04-15"
         },
         {
           "id": "zzz-item-14153",
@@ -6333,7 +6401,8 @@
             "rarity": "4 \u2605",
             "type": "W Engine"
           },
-          "text": "Equip to increase Rupture Agents' combat capabilities"
+          "text": "Equip to increase Rupture Agents' combat capabilities",
+          "released": "2026-05-27"
         },
         {
           "id": "zzz-item-14154",
@@ -6344,7 +6413,8 @@
             "rarity": "4 \u2605",
             "type": "W Engine"
           },
-          "text": "Equip to increase Anomaly Agents' combat capabilities"
+          "text": "Equip to increase Anomaly Agents' combat capabilities",
+          "released": "2026-05-06"
         },
         {
           "id": "zzz-item-14155",
@@ -6366,7 +6436,8 @@
             "rarity": "4 \u2605",
             "type": "W Engine"
           },
-          "text": "Equip to increase Anomaly Agents' combat capabilities"
+          "text": "Equip to increase Anomaly Agents' combat capabilities",
+          "released": "2026-06-17"
         },
         {
           "id": "zzz-item-14157",
@@ -6377,7 +6448,8 @@
             "rarity": "4 \u2605",
             "type": "W Engine"
           },
-          "text": "Equip to increase Stun Agents' combat capabilities"
+          "text": "Equip to increase Stun Agents' combat capabilities",
+          "released": "2026-07-08"
         },
         {
           "id": "zzz-item-14158",
@@ -6388,7 +6460,8 @@
             "rarity": "4 \u2605",
             "type": "W Engine"
           },
-          "text": "Equip to increase Anomaly Agents' combat capabilities"
+          "text": "Equip to increase Anomaly Agents' combat capabilities",
+          "released": "2026-07-29"
         },
         {
           "id": "zzz-item-14159",
@@ -6399,7 +6472,8 @@
             "rarity": "4 \u2605",
             "type": "W Engine"
           },
-          "text": "Equip to increase Attack Agents' combat capabilities"
+          "text": "Equip to increase Attack Agents' combat capabilities",
+          "released": "2026-08-19"
         },
         {
           "id": "zzz-item-20102",
@@ -33259,7 +33333,8 @@
           "fields": {
             "rarity": "4 \u2605"
           },
-          "text": "Use Ether Dewdrops on Soukaku"
+          "text": "Use Ether Dewdrops on Soukaku",
+          "released": "2024-07-04"
         },
         {
           "id": "zzz-item-1341009",
@@ -33329,7 +33404,8 @@
           "fields": {
             "rarity": "4 \u2605"
           },
-          "text": "Use Ether Dewdrops on Zhu Yuan"
+          "text": "Use Ether Dewdrops on Zhu Yuan",
+          "released": "2024-07-24"
         },
         {
           "id": "zzz-item-1341016",
@@ -33349,7 +33425,8 @@
           "fields": {
             "rarity": "4 \u2605"
           },
-          "text": "Use Ether Dewdrops on Lighter"
+          "text": "Use Ether Dewdrops on Lighter",
+          "released": "2024-11-27"
         },
         {
           "id": "zzz-item-1341018",
@@ -33369,7 +33446,8 @@
           "fields": {
             "rarity": "4 \u2605"
           },
-          "text": "Use Ether Dewdrops on Qingyi"
+          "text": "Use Ether Dewdrops on Qingyi",
+          "released": "2024-08-14"
         },
         {
           "id": "zzz-item-1341020",
@@ -33419,7 +33497,8 @@
           "fields": {
             "rarity": "4 \u2605"
           },
-          "text": "Use Ether Dewdrops on Tsukishiro Yanagi"
+          "text": "Use Ether Dewdrops on Tsukishiro Yanagi",
+          "released": "2024-11-06"
         },
         {
           "id": "zzz-item-1341025",
@@ -33429,7 +33508,8 @@
           "fields": {
             "rarity": "4 \u2605"
           },
-          "text": "Use Ether Dewdrops on Asaba Harumasa"
+          "text": "Use Ether Dewdrops on Asaba Harumasa",
+          "released": "2024-12-18"
         },
         {
           "id": "zzz-item-1341026",
@@ -33439,7 +33519,8 @@
           "fields": {
             "rarity": "4 \u2605"
           },
-          "text": "Use Ether Dewdrops on Hoshimi Miyabi"
+          "text": "Use Ether Dewdrops on Hoshimi Miyabi",
+          "released": "2024-12-18"
         },
         {
           "id": "zzz-item-1341027",
@@ -33449,7 +33530,8 @@
           "fields": {
             "rarity": "4 \u2605"
           },
-          "text": "Use Ether Dewdrops on Astra Yao"
+          "text": "Use Ether Dewdrops on Astra Yao",
+          "released": "2025-01-22"
         },
         {
           "id": "zzz-item-1341028",
@@ -33469,7 +33551,8 @@
           "fields": {
             "rarity": "4 \u2605"
           },
-          "text": "Use Ether Dewdrops on Soldier 0 - Anby"
+          "text": "Use Ether Dewdrops on Soldier 0 - Anby",
+          "released": "2025-03-12"
         },
         {
           "id": "zzz-item-1341030",
@@ -33479,7 +33562,8 @@
           "fields": {
             "rarity": "4 \u2605"
           },
-          "text": "Use Ether Dewdrops on Trigger"
+          "text": "Use Ether Dewdrops on Trigger",
+          "released": "2025-04-02"
         },
         {
           "id": "zzz-item-1341031",
@@ -33519,7 +33603,8 @@
           "fields": {
             "rarity": "4 \u2605"
           },
-          "text": "Use Ether Dewdrops on Yixuan"
+          "text": "Use Ether Dewdrops on Yixuan",
+          "released": "2025-06-06"
         },
         {
           "id": "zzz-item-1341035",
@@ -33529,7 +33614,8 @@
           "fields": {
             "rarity": "4 \u2605"
           },
-          "text": "Use Ether Dewdrops on Ju Fufu"
+          "text": "Use Ether Dewdrops on Ju Fufu",
+          "released": "2025-06-25"
         },
         {
           "id": "zzz-item-1341036",
@@ -33539,7 +33625,8 @@
           "fields": {
             "rarity": "4 \u2605"
           },
-          "text": "Use Ether Dewdrops on Pan Yinhu"
+          "text": "Use Ether Dewdrops on Pan Yinhu",
+          "released": "2025-06-06"
         },
         {
           "id": "zzz-item-1341037",
@@ -33729,7 +33816,8 @@
           "fields": {
             "rarity": "4 \u2605"
           },
-          "text": "Use Ether Dewdrops on Seed."
+          "text": "Use Ether Dewdrops on Seed.",
+          "released": "2025-09-04"
         },
         {
           "id": "zzz-item-1341056",
@@ -33769,7 +33857,8 @@
           "fields": {
             "rarity": "4 \u2605"
           },
-          "text": "Use Ether Dewdrops on Komano Manato"
+          "text": "Use Ether Dewdrops on Komano Manato",
+          "released": "2025-10-15"
         },
         {
           "id": "zzz-item-1341060",
@@ -33779,7 +33868,8 @@
           "fields": {
             "rarity": "4 \u2605"
           },
-          "text": "Use Ether Dewdrops on Banyue"
+          "text": "Use Ether Dewdrops on Banyue",
+          "released": "2025-12-17"
         },
         {
           "id": "zzz-item-1341061",
@@ -33789,7 +33879,8 @@
           "fields": {
             "rarity": "4 \u2605"
           },
-          "text": "Use Ether Dewdrops on Dialyn"
+          "text": "Use Ether Dewdrops on Dialyn",
+          "released": "2025-11-26"
         },
         {
           "id": "zzz-item-1341062",
@@ -33799,7 +33890,8 @@
           "fields": {
             "rarity": "4 \u2605"
           },
-          "text": "Use Ether Dewdrops on Ye Shunguang"
+          "text": "Use Ether Dewdrops on Ye Shunguang",
+          "released": "2025-12-30"
         },
         {
           "id": "zzz-item-1341063",
@@ -33809,7 +33901,8 @@
           "fields": {
             "rarity": "4 \u2605"
           },
-          "text": "Use Ether Dewdrops on Zhao"
+          "text": "Use Ether Dewdrops on Zhao",
+          "released": "2025-12-30"
         },
         {
           "id": "zzz-item-1341064",
@@ -33819,7 +33912,8 @@
           "fields": {
             "rarity": "4 \u2605"
           },
-          "text": "Use Ether Dewdrops on Aria"
+          "text": "Use Ether Dewdrops on Aria",
+          "released": "2026-03-04"
         },
         {
           "id": "zzz-item-1341065",
@@ -33829,7 +33923,8 @@
           "fields": {
             "rarity": "4 \u2605"
           },
-          "text": "Use Ether Dewdrops on Sunna"
+          "text": "Use Ether Dewdrops on Sunna",
+          "released": "2026-02-06"
         },
         {
           "id": "zzz-item-1341066",
@@ -33839,7 +33934,8 @@
           "fields": {
             "rarity": "4 \u2605"
           },
-          "text": "Use Ether Dewdrops on Nangong Yu"
+          "text": "Use Ether Dewdrops on Nangong Yu",
+          "released": "2026-03-24"
         },
         {
           "id": "zzz-item-1341067",
@@ -33849,7 +33945,8 @@
           "fields": {
             "rarity": "4 \u2605"
           },
-          "text": "Use Ether Dewdrops on Cissia"
+          "text": "Use Ether Dewdrops on Cissia",
+          "released": "2026-04-15"
         },
         {
           "id": "zzz-item-1341068",
@@ -33869,7 +33966,8 @@
           "fields": {
             "rarity": "4 \u2605"
           },
-          "text": "Use Ether Dewdrops on Promeia"
+          "text": "Use Ether Dewdrops on Promeia",
+          "released": "2026-05-06"
         },
         {
           "id": "zzz-item-1341070",
@@ -62088,7 +62186,8 @@
             "rarity": "4 \u2605",
             "type": "Medal"
           },
-          "text": "Anby\nATK: 8, HP: 25\nAnby has a 20% CRIT Rate, dealing double DMG upon a critical hit."
+          "text": "Anby\nATK: 8, HP: 25\nAnby has a 20% CRIT Rate, dealing double DMG upon a critical hit.",
+          "released": "2024-09-04"
         },
         {
           "id": "zzz-item-1228206023",
@@ -62110,7 +62209,8 @@
             "rarity": "4 \u2605",
             "type": "Medal"
           },
-          "text": "Nicole\nATK: 0, HP: 24\nNicole's ATK equals 1/100 of the Coin count."
+          "text": "Nicole\nATK: 0, HP: 24\nNicole's ATK equals 1/100 of the Coin count.",
+          "released": "2024-07-24"
         },
         {
           "id": "zzz-item-1228206025",
@@ -62132,7 +62232,8 @@
             "rarity": "4 \u2605",
             "type": "Medal"
           },
-          "text": "Corin\nATK: 20, HP: 10\nWhen Corin gains ATK, she'll gain +1 additional ATK."
+          "text": "Corin\nATK: 20, HP: 10\nWhen Corin gains ATK, she'll gain +1 additional ATK.",
+          "released": "2024-08-14"
         },
         {
           "id": "zzz-item-1228206027",
@@ -62143,7 +62244,8 @@
             "rarity": "4 \u2605",
             "type": "Medal"
           },
-          "text": "Caesar\nATK: 3, HP: 35\nCaesar has a 50% chance to reflect DMG when hit (taking no DMG and returning the DMG to the enemy)."
+          "text": "Caesar\nATK: 3, HP: 35\nCaesar has a 50% chance to reflect DMG when hit (taking no DMG and returning the DMG to the enemy).",
+          "released": "2024-09-25"
         },
         {
           "id": "zzz-item-1228206028",
@@ -62154,7 +62256,8 @@
             "rarity": "4 \u2605",
             "type": "Medal"
           },
-          "text": "Billy\nATK: 30, HP: 10\nAfter the Protagonist takes DMG for the first time, Billy's ATK -15. Billy's attack range is 3."
+          "text": "Billy\nATK: 30, HP: 10\nAfter the Protagonist takes DMG for the first time, Billy's ATK -15. Billy's attack range is 3.",
+          "released": "2024-08-14"
         },
         {
           "id": "zzz-item-1228206029",
@@ -62165,7 +62268,8 @@
             "rarity": "4 \u2605",
             "type": "Medal"
           },
-          "text": "Hoshimi Miyabi\nATK: 25, HP: 25\nHoshimi Miyabi has a 10% chance to instantly defeat an enemy when attacking."
+          "text": "Hoshimi Miyabi\nATK: 25, HP: 25\nHoshimi Miyabi has a 10% chance to instantly defeat an enemy when attacking.",
+          "released": "2024-12-18"
         },
         {
           "id": "zzz-item-1228206030",
@@ -62187,7 +62291,8 @@
             "rarity": "4 \u2605",
             "type": "Medal"
           },
-          "text": "Anton\nATK: 10, HP: 28\nAnton will continue attacking even after his HP drops to 0, each attack thereafter will cause him to lose 1 ATK."
+          "text": "Anton\nATK: 10, HP: 28\nAnton will continue attacking even after his HP drops to 0, each attack thereafter will cause him to lose 1 ATK.",
+          "released": "2024-07-04"
         },
         {
           "id": "zzz-item-1228206032",
@@ -62198,7 +62303,8 @@
             "rarity": "4 \u2605",
             "type": "Medal"
           },
-          "text": "Ben\nATK: 2, HP: 80\nWhen Koleda is on-field, Ben has a 50% chance to generate an explosive bomb when attacking."
+          "text": "Ben\nATK: 2, HP: 80\nWhen Koleda is on-field, Ben has a 50% chance to generate an explosive bomb when attacking.",
+          "released": "2024-07-24"
         },
         {
           "id": "zzz-item-1228206033",
@@ -62209,7 +62315,8 @@
             "rarity": "4 \u2605",
             "type": "Medal"
           },
-          "text": "Tsukishiro Yanagi\nATK: 5, HP: 22\nEnemies hit by Tsukishiro Yanagi will create a box, making it so that only Yanagi can attack that enemy, and providing EXP equivalent of defeating that enemy everytime she attacks it."
+          "text": "Tsukishiro Yanagi\nATK: 5, HP: 22\nEnemies hit by Tsukishiro Yanagi will create a box, making it so that only Yanagi can attack that enemy, and providing EXP equivalent of defeating that enemy everytime she attacks it.",
+          "released": "2024-11-06"
         },
         {
           "id": "zzz-item-1228206034",
@@ -62220,7 +62327,8 @@
             "rarity": "4 \u2605",
             "type": "Medal"
           },
-          "text": "Lighter\nATK: 5, HP: 40\nLighter's ATK +20 while the Protagonist has less than 20 HP."
+          "text": "Lighter\nATK: 5, HP: 40\nLighter's ATK +20 while the Protagonist has less than 20 HP.",
+          "released": "2024-11-27"
         },
         {
           "id": "zzz-item-1228206101",

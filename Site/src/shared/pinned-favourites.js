@@ -1,7 +1,6 @@
 // Shared pinned-character storage used by the roster and Favourites surfaces.
 // This file is bundled before both consumers by build-site.mjs.
 const NYX_PINNED_CHANGED_EVENT = 'nyx:pinned-changed';
-const NYX_FAVOURITE_CARD_LIMIT = 5;
 
 function nyxPinnedStorageKey(gameKey){
   return 'nyx:pinned-favourites:' + gameKey + ':v1';
@@ -39,54 +38,28 @@ function nyxSavePinnedIds(gameKey, ids){
   return true;
 }
 
-function nyxFavouriteModeKey(gameKey){
-  return 'nyx:pinned-favourites-mode:' + gameKey + ':v1';
-}
+// The Card/Icon display mode and the Hide/Show toggle were removed 2026-08-09 —
+// favourites are always icons, always shown. Their saved keys are swept so a
+// returning visitor is not carrying settings for controls that no longer exist.
+const NYX_RETIRED_FAVOURITE_KEYS = [
+  'nyx:pinned-favourites-mode:',
+  'nyx:pinned-favourites-visible:',
+];
 
-function nyxLoadFavouriteMode(gameKey){
-  const fallback = gameKey === 'nyx' ? 'card' : 'icon';
+function nyxForgetRetiredFavouriteSettings(gameKeys){
+  const keys = Array.isArray(gameKeys) ? gameKeys : [];
   try {
-    const saved = localStorage.getItem(nyxFavouriteModeKey(gameKey));
-    return saved === 'icon' || saved === 'card' ? saved : fallback;
-  } catch (e) {
-    return fallback;
-  }
+    keys.forEach((gameKey) => {
+      NYX_RETIRED_FAVOURITE_KEYS.forEach((prefix) => localStorage.removeItem(prefix + gameKey + ':v1'));
+    });
+  } catch (e) {}
 }
 
-function nyxSaveFavouriteMode(gameKey, mode){
-  const clean = mode === 'icon' ? 'icon' : 'card';
-  try { localStorage.setItem(nyxFavouriteModeKey(gameKey), clean); } catch (e) {}
-  return clean;
-}
-
-function nyxFavouriteVisibilityKey(gameKey){
-  return 'nyx:pinned-favourites-visible:' + gameKey + ':v1';
-}
-
-function nyxLoadFavouriteVisibility(gameKey){
-  try {
-    return localStorage.getItem(nyxFavouriteVisibilityKey(gameKey)) !== 'hidden';
-  } catch (e) {
-    return true;
-  }
-}
-
-function nyxSaveFavouriteVisibility(gameKey, visible){
-  const next = visible !== false;
-  try { localStorage.setItem(nyxFavouriteVisibilityKey(gameKey), next ? 'shown' : 'hidden'); } catch (e) {}
-  return next;
-}
-
-function nyxAddPinnedId(ids, id, mode){
+function nyxAddPinnedId(ids, id){
   const rows = Array.isArray(ids) ? ids.map(String) : [];
   const clean = String(id || '');
   if (!clean || rows.includes(clean)) return rows;
   return [...rows, clean];
-}
-
-function nyxFavouriteVisibleCards(cards, mode, gameKey){
-  const rows = Array.isArray(cards) ? cards : [];
-  return mode === 'icon' || gameKey === 'nyx' ? rows : rows.slice(0, NYX_FAVOURITE_CARD_LIMIT);
 }
 
 function nyxLoadPinnedUnion(gameKeys){
@@ -95,11 +68,11 @@ function nyxLoadPinnedUnion(gameKeys){
   ));
 }
 
-function nyxAddFavourite(cards, character, mode, gameKey){
+function nyxAddFavourite(cards, character, gameKey){
   const rows = Array.isArray(cards) ? cards : [];
   const id = nyxPinnedCharacterId(gameKey, character);
   if (!id || rows.some((row) => nyxPinnedCharacterId(gameKey, row) === id)) return rows;
-  const ids = nyxAddPinnedId(rows.map((row) => nyxPinnedCharacterId(gameKey, row)), id, mode);
+  const ids = nyxAddPinnedId(rows.map((row) => nyxPinnedCharacterId(gameKey, row)), id);
   if (ids.length === rows.length && ids.every((row, index) => row === nyxPinnedCharacterId(gameKey, rows[index]))) return rows;
   return ids.map((rowId) => rowId === id ? character : rows.find((row) => nyxPinnedCharacterId(gameKey, row) === rowId)).filter(Boolean);
 }

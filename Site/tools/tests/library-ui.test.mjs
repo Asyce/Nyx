@@ -87,7 +87,10 @@ test('focused Library module is wired with exact search copy and safe rendering'
   assert.match(build, /features\/library\/library-view\.jsx/);
   assert.match(build, /features\/library\/library-annotations\.js/);
   assert.match(build, /features\/library\/library-annotations-view\.jsx/);
-  assert.match(view, />Search Library</, 'Library branding drops the The (2026-07-15 #16)');
+  // 2026-08-09: the bold "Search Library" label was removed; the field stands alone.
+  assert.doesNotMatch(view, />Search Library</);
+  assert.match(view, /aria-label="Search the library"/);
+  assert.match(view, /function nyxLibraryTitleSize/, 'book titles shrink to fit exactly two lines');
   assert.match(view, /placeholder="Search Title or Keyword"/);
   assert.match(view, /Found in text/);
   assert.match(annotationView, /data-library-block-id/);

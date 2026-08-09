@@ -1,6 +1,25 @@
 /* ---------------- The Library: focused search and reader module ---------------- */
 const NYX_LIBRARY_GAMES = { gi:'Genshin Impact', hsr:'Honkai: Star Rail' };
 
+// Every book title occupies exactly two lines so the grid lines up (user
+// 2026-08-09 — long titles used to push their tile taller than its
+// neighbours). The title box is a fixed two-line height in CSS; this picks a
+// font size from the title's length so a long name shrinks to fit instead of
+// being cut off. Length-based rather than measured: the tile width is fixed, so
+// the estimate is reliable and it costs no layout work per tile.
+const NYX_LIBRARY_TITLE_STEPS = [
+  { max:24, size:'15px' },
+  { max:34, size:'13.5px' },
+  { max:46, size:'11.5px' },
+  { max:64, size:'10.5px' },
+];
+
+function nyxLibraryTitleSize(name){
+  const length = String(name || '').length;
+  const step = NYX_LIBRARY_TITLE_STEPS.find((row) => length <= row.max);
+  return step ? step.size : '10px';
+}
+
 
 function LibraryPage({ game }){
   const [indexState, setIndexState] = React.useState({ loading:true, data:null, error:null });
@@ -118,7 +137,10 @@ function LibraryPage({ game }){
     {indexState.loading && <div className="library-status" role="status" aria-live="polite">Loading Library\u2026</div>}
     {indexState.error && <div className="library-status error" role="alert"><p>{indexState.error}</p><button type="button" onClick={() => setIndexAttempt((attempt) => attempt + 1)}>Try again</button></div>}
     {indexState.data && <>
-      <label className="library-search"><span>Search Library</span><input type="search" value={query} onChange={(event) => {
+      {/* Bare search field — the bold "Search Library" heading in front of it
+          was removed 2026-08-09 at the user's request; the placeholder already
+          says what the box does. */}
+      <label className="library-search"><input type="search" aria-label="Search the library" value={query} onChange={(event) => {
         const value = event.target.value;
         setQuery(value);
         if (value.trim()) setShouldLoadSearch(true);
@@ -134,7 +156,7 @@ function LibraryPage({ game }){
           setBookState({ id:entry.id, loading:true, data:null, error:null, attempt:0, query, bodyMatch:!!bodyMatch, matchVolumeKey:bodyMatch?.volumeKey || '' });
         }}>
           <span className="library-cover">{entry.icon ? <img src={`/data/library/${game}/${entry.icon}`} alt="" loading="lazy" /> : <span aria-hidden="true">{'\ud83d\udcd6'}</span>}</span>
-          <strong>{entry.name}</strong>
+          <strong style={{ fontSize:nyxLibraryTitleSize(entry.name) }} title={entry.name}>{entry.name}</strong>
           <small>{entry.volumeCount > 1 ? `${entry.volumeCount} volumes` : 'Readable'}</small>
           {bodyMatch && <span className="library-text-match">Found in text</span>}
         </button>)}

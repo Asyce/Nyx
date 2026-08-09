@@ -76,7 +76,11 @@ test('Database surfaces share accessible Filter popouts and preserve list focus'
   assert.match(appSource, /data-db-focus-key=\{dbListFocusKey\('tcg'/);
   assert.match(appSource, /data-db-focus-key=\{dbListFocusKey\('pot'/);
   assert.match(appSource, /data-db-focus-key=\{dbListFocusKey\('wonder'/);
-  assert.ok((appSource.match(/className="db-load-more"/g) || []).length >= 4);
+  // 2026-08-09: "Load more" is gone from every Database surface — sections
+  // render everything and paint as they scroll into view.
+  assert.doesNotMatch(appSource, /className="db-load-more"/);
+  assert.match(appSource, /<DatabaseGroupedList/);
+  assert.match(appSource, /className="db-scroll"/);
   assert.ok((appSource.match(/window\.addEventListener\('keydown', onKeyDown\)/g) || []).length >= 3);
 });
 

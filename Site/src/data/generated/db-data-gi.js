@@ -7129,7 +7129,8 @@
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "Daughter of the Yashiro Commission's Kamisato Clan. Dignified and elegant, as well as wise and strong."
+          "text": "Daughter of the Yashiro Commission's Kamisato Clan. Dignified and elegant, as well as wise and strong.",
+          "released": "2021-07-21"
         },
         {
           "id": "gi-item-1003",
@@ -7140,7 +7141,8 @@
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "The righteous and rigorous Dandelion Knight, and Acting Grand Master of Mondstadt's Knights of Favonius."
+          "text": "The righteous and rigorous Dandelion Knight, and Acting Grand Master of Mondstadt's Knights of Favonius.",
+          "released": "2024-03-13"
         },
         {
           "id": "gi-item-1005",
@@ -7162,7 +7164,8 @@
             "rarity": "4 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "The languid but knowledgeable Librarian of the Knights of Favonius, deemed by Sumeru Akademiya to be their most distinguished graduate in the past two centuries."
+          "text": "The languid but knowledgeable Librarian of the Knights of Favonius, deemed by Sumeru Akademiya to be their most distinguished graduate in the past two centuries.",
+          "released": "2024-03-13"
         },
         {
           "id": "gi-item-1007",
@@ -7184,7 +7187,8 @@
             "rarity": "4 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "Every citizen of Mondstadt adores Barbara. She learned the word \"idol\" from a magazine."
+          "text": "Every citizen of Mondstadt adores Barbara. She learned the word \"idol\" from a magazine.",
+          "released": "2020-09-28"
         },
         {
           "id": "gi-item-1015",
@@ -7195,7 +7199,8 @@
             "rarity": "4 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "An accomplished swordsman and a strategic thinker in the Knights of Favonius, rumored to hail from beyond Mondstadt."
+          "text": "An accomplished swordsman and a strategic thinker in the Knights of Favonius, rumored to hail from beyond Mondstadt.",
+          "released": "2024-03-13"
         },
         {
           "id": "gi-item-1016",
@@ -7206,7 +7211,8 @@
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "The tycoon of a winery empire in Mondstadt, unmatched in every possible way."
+          "text": "The tycoon of a winery empire in Mondstadt, unmatched in every possible way.",
+          "released": "2024-03-13"
         },
         {
           "id": "gi-item-1020",
@@ -7217,7 +7223,8 @@
             "rarity": "4 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "A boy who lives among the wolves in Wolvendom of Mondstadt, away from human civilization. As agile as lightning."
+          "text": "A boy who lives among the wolves in Wolvendom of Mondstadt, away from human civilization. As agile as lightning.",
+          "released": "2020-12-01"
         },
         {
           "id": "gi-item-1021",
@@ -7228,7 +7235,8 @@
             "rarity": "4 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "Always energetic and full of life, Amber's the best \u2014 albeit only \u2014 Outrider of the Knights of Favonius."
+          "text": "Always energetic and full of life, Amber's the best \u2014 albeit only \u2014 Outrider of the Knights of Favonius.",
+          "released": "2024-03-13"
         },
         {
           "id": "gi-item-1022",
@@ -7239,7 +7247,8 @@
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "One of the many bards of Mondstadt, who freely wanders the city's streets and alleys."
+          "text": "One of the many bards of Mondstadt, who freely wanders the city's streets and alleys.",
+          "released": "2020-09-28"
         },
         {
           "id": "gi-item-1023",
@@ -7250,7 +7259,8 @@
             "rarity": "4 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "A renowned chef from Liyue. She's extremely passionate about cooking and excels at making her signature hot and spicy dishes."
+          "text": "A renowned chef from Liyue. She's extremely passionate about cooking and excels at making her signature hot and spicy dishes.",
+          "released": "2020-09-28"
         },
         {
           "id": "gi-item-1024",
@@ -7261,7 +7271,8 @@
             "rarity": "4 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "Captain of her crew, The Crux. She's quite an unbound and forthright woman."
+          "text": "Captain of her crew, The Crux. She's quite an unbound and forthright woman.",
+          "released": "2020-11-11"
         },
         {
           "id": "gi-item-1025",
@@ -7272,7 +7283,8 @@
             "rarity": "4 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "A young man carrying a longsword who is frequently seen at book booths. He has a chivalrous heart and yearns for justice and fairness for all."
+          "text": "A young man carrying a longsword who is frequently seen at book booths. He has a chivalrous heart and yearns for justice and fairness for all.",
+          "released": "2020-10-20"
         },
         {
           "id": "gi-item-1026",
@@ -7283,7 +7295,8 @@
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "A yaksha adeptus who defends Liyue. Also heralded as the \"Conqueror of Demons\" and \"Vigilant Yaksha.\""
+          "text": "A yaksha adeptus who defends Liyue. Also heralded as the \"Conqueror of Demons\" and \"Vigilant Yaksha.\"",
+          "released": "2021-02-03"
         },
         {
           "id": "gi-item-1027",
@@ -7294,7 +7307,8 @@
             "rarity": "4 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "The Tianquan of the Liyue Qixing. Her wealth is unsurpassed in all of Teyvat."
+          "text": "The Tianquan of the Liyue Qixing. Her wealth is unsurpassed in all of Teyvat.",
+          "released": "2020-11-11"
         },
         {
           "id": "gi-item-1029",
@@ -7305,7 +7319,8 @@
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "An explosives expert and a regular at the Knights of Favonius' confinement room. Also known as Fleeing Sunlight."
+          "text": "An explosives expert and a regular at the Knights of Favonius' confinement room. Also known as Fleeing Sunlight.",
+          "released": "2020-10-20"
         },
         {
           "id": "gi-item-1030",
@@ -7316,7 +7331,8 @@
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "A mysterious expert contracted by the Wangsheng Funeral Parlor. Extremely knowledgeable in all things."
+          "text": "A mysterious expert contracted by the Wangsheng Funeral Parlor. Extremely knowledgeable in all things.",
+          "released": "2020-12-01"
         },
         {
           "id": "gi-item-1031",
@@ -7327,7 +7343,8 @@
             "rarity": "4 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "A mysterious girl who calls herself \"Prinzessin der Verurteilung\" and travels with a night raven named Oz."
+          "text": "A mysterious girl who calls herself \"Prinzessin der Verurteilung\" and travels with a night raven named Oz.",
+          "released": "2020-09-28"
         },
         {
           "id": "gi-item-1032",
@@ -7338,7 +7355,8 @@
             "rarity": "4 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "A good-natured adventurer from Mondstadt who's unfortunately extremely unlucky."
+          "text": "A good-natured adventurer from Mondstadt who's unfortunately extremely unlucky.",
+          "released": "2020-12-23"
         },
         {
           "id": "gi-item-1033",
@@ -7349,7 +7367,8 @@
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "No. 11 of The Harbingers, also known as \"Childe.\" His name is highly feared on the battlefield."
+          "text": "No. 11 of The Harbingers, also known as \"Childe.\" His name is highly feared on the battlefield.",
+          "released": "2020-11-11"
         },
         {
           "id": "gi-item-1034",
@@ -7360,7 +7379,8 @@
             "rarity": "4 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "A maid who faithfully serves the Knights of Favonius. She dreams of joining their ranks someday."
+          "text": "A maid who faithfully serves the Knights of Favonius. She dreams of joining their ranks someday.",
+          "released": "2020-10-20"
         },
         {
           "id": "gi-item-1035",
@@ -7371,7 +7391,8 @@
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "An apprentice and herb gatherer at Bubu Pharmacy. An undead with a bone-white complexion, she seldom has much in the way of words or emotion."
+          "text": "An apprentice and herb gatherer at Bubu Pharmacy. An undead with a bone-white complexion, she seldom has much in the way of words or emotion.",
+          "released": "2025-01-21"
         },
         {
           "id": "gi-item-1036",
@@ -7382,7 +7403,8 @@
             "rarity": "4 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "A young exorcist from a family of exorcists. He does everything he can to suppress his abundance of yang energy."
+          "text": "A young exorcist from a family of exorcists. He does everything he can to suppress his abundance of yang energy.",
+          "released": "2020-12-01"
         },
         {
           "id": "gi-item-1037",
@@ -7393,7 +7415,8 @@
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "The secretary at Yuehai Pavilion. The blood of the qilin, an illuminated beast, flows within her veins."
+          "text": "The secretary at Yuehai Pavilion. The blood of the qilin, an illuminated beast, flows within her veins.",
+          "released": "2021-01-12"
         },
         {
           "id": "gi-item-1038",
@@ -7404,7 +7427,8 @@
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "A genius known as the Kreideprinz, he is the Chief Alchemist and Captain of the Investigation Team of the Knights of Favonius."
+          "text": "A genius known as the Kreideprinz, he is the Chief Alchemist and Captain of the Investigation Team of the Knights of Favonius.",
+          "released": "2020-12-23"
         },
         {
           "id": "gi-item-1039",
@@ -7415,7 +7439,8 @@
             "rarity": "4 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "A young lady who has inherited trace amounts of non-human blood. She is the incredibly popular bartender of the Cat's Tail tavern."
+          "text": "A young lady who has inherited trace amounts of non-human blood. She is the incredibly popular bartender of the Cat's Tail tavern.",
+          "released": "2020-11-11"
         },
         {
           "id": "gi-item-1041",
@@ -7426,7 +7451,8 @@
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "A mysterious young astrologer who proclaims herself to be \"Astrologist Mona Megistus,\" and who possesses abilities to match the title. Erudite, but prideful."
+          "text": "A mysterious young astrologer who proclaims herself to be \"Astrologist Mona Megistus,\" and who possesses abilities to match the title. Erudite, but prideful.",
+          "released": "2024-03-13"
         },
         {
           "id": "gi-item-1042",
@@ -7437,7 +7463,8 @@
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "The Yuheng of the Liyue Qixing. Keqing has much to say about Rex Lapis' unilateral approach to policymaking in Liyue \u2014 but in truth, gods admire skeptics such as her quite a lot."
+          "text": "The Yuheng of the Liyue Qixing. Keqing has much to say about Rex Lapis' unilateral approach to policymaking in Liyue \u2014 but in truth, gods admire skeptics such as her quite a lot.",
+          "released": "2021-02-17"
         },
         {
           "id": "gi-item-1043",
@@ -7448,7 +7475,8 @@
             "rarity": "4 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "An alchemist filled with curiosity about all things. She researches bio-alchemy."
+          "text": "An alchemist filled with curiosity about all things. She researches bio-alchemy.",
+          "released": "2020-10-20"
         },
         {
           "id": "gi-item-1044",
@@ -7459,7 +7487,8 @@
             "rarity": "4 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "Liyue's sole rock 'n' roll musician. She rebels against ossified prejudices using her music and passionate singing."
+          "text": "Liyue's sole rock 'n' roll musician. She rebels against ossified prejudices using her music and passionate singing.",
+          "released": "2020-12-01"
         },
         {
           "id": "gi-item-1045",
@@ -7470,7 +7499,8 @@
             "rarity": "4 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "A sister of the church, though you wouldn't know it if it weren't for her attire. Known for her sharp, cold words and manner, she often works alone."
+          "text": "A sister of the church, though you wouldn't know it if it weren't for her attire. Known for her sharp, cold words and manner, she often works alone.",
+          "released": "2021-04-06"
         },
         {
           "id": "gi-item-1046",
@@ -7481,7 +7511,8 @@
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "The 77th Director of the Wangsheng Funeral Parlor. She took over the business at a rather young age."
+          "text": "The 77th Director of the Wangsheng Funeral Parlor. She took over the business at a rather young age.",
+          "released": "2021-03-02"
         },
         {
           "id": "gi-item-1047",
@@ -7492,7 +7523,8 @@
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "A wandering samurai from Inazuma who is currently with Liyue's Crux Fleet. A gentle and carefree soul whose heart hides a great many burdens from the past."
+          "text": "A wandering samurai from Inazuma who is currently with Liyue's Crux Fleet. A gentle and carefree soul whose heart hides a great many burdens from the past.",
+          "released": "2021-06-29"
         },
         {
           "id": "gi-item-1048",
@@ -7503,7 +7535,8 @@
             "rarity": "4 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "A well-known legal adviser active in Liyue Harbor. A brilliant young lady in whose veins runs the blood of an illuminated beast."
+          "text": "A well-known legal adviser active in Liyue Harbor. A brilliant young lady in whose veins runs the blood of an illuminated beast.",
+          "released": "2021-04-28"
         },
         {
           "id": "gi-item-1049",
@@ -7514,7 +7547,8 @@
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "Owner of Naganohara Fireworks. Known as the \"Queen of the Summer Festival,\" she excels in her craft of creating fireworks that symbolize people's hopes and dreams."
+          "text": "Owner of Naganohara Fireworks. Known as the \"Queen of the Summer Festival,\" she excels in her craft of creating fireworks that symbolize people's hopes and dreams.",
+          "released": "2021-08-10"
         },
         {
           "id": "gi-item-1050",
@@ -7525,7 +7559,8 @@
             "rarity": "4 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "The Kamisato Clan's housekeeper. A well-known \"fixer\" in Inazuma."
+          "text": "The Kamisato Clan's housekeeper. A well-known \"fixer\" in Inazuma.",
+          "released": "2021-11-02"
         },
         {
           "id": "gi-item-1051",
@@ -7536,7 +7571,8 @@
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "The Spindrift Knight, a scion of the old aristocracy, and the Captain of the Knights of Favonius Reconnaissance Company. The reason for which a descendant of the ancient nobles might join the Knights remains a great mystery in Mondstadt to this very day."
+          "text": "The Spindrift Knight, a scion of the old aristocracy, and the Captain of the Knights of Favonius Reconnaissance Company. The reason for which a descendant of the ancient nobles might join the Knights remains a great mystery in Mondstadt to this very day.",
+          "released": "2021-05-18"
         },
         {
           "id": "gi-item-1052",
@@ -7547,7 +7583,8 @@
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "Her Excellency, the Almighty Narukami Ogosho, who promised the people of Inazuma an unchanging Eternity."
+          "text": "Her Excellency, the Almighty Narukami Ogosho, who promised the people of Inazuma an unchanging Eternity.",
+          "released": "2021-09-01"
         },
         {
           "id": "gi-item-1053",
@@ -7558,7 +7595,8 @@
             "rarity": "4 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "A pint-sized ninja attached to the Shuumatsuban, who always seems sleep-deprived."
+          "text": "A pint-sized ninja attached to the Shuumatsuban, who always seems sleep-deprived.",
+          "released": "2021-08-10"
         },
         {
           "id": "gi-item-1054",
@@ -7569,7 +7607,8 @@
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "The Divine Priestess of Watatsumi Island. All of the island's affairs are at this young lady's fingertips."
+          "text": "The Divine Priestess of Watatsumi Island. All of the island's affairs are at this young lady's fingertips.",
+          "released": "2021-09-21"
         },
         {
           "id": "gi-item-1055",
@@ -7580,7 +7619,8 @@
             "rarity": "4 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "The great general of Watatsumi Island's forces. He is deeply trusted by his subordinates."
+          "text": "The great general of Watatsumi Island's forces. He is deeply trusted by his subordinates.",
+          "released": "2021-12-14"
         },
         {
           "id": "gi-item-1056",
@@ -7591,7 +7631,8 @@
             "rarity": "4 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "A general of the Tenryou Commission. Bold, decisive, and skilled in battle."
+          "text": "A general of the Tenryou Commission. Bold, decisive, and skilled in battle.",
+          "released": "2021-09-01"
         },
         {
           "id": "gi-item-1057",
@@ -7602,7 +7643,8 @@
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "The first and greatest head of the Arataki Gang, famed throughout Inazuma City's Hanamizaka... Wait, what? You've never heard of them? Are you trying to be funny here?"
+          "text": "The first and greatest head of the Arataki Gang, famed throughout Inazuma City's Hanamizaka... Wait, what? You've never heard of them? Are you trying to be funny here?",
+          "released": "2021-12-14"
         },
         {
           "id": "gi-item-1058",
@@ -7613,7 +7655,8 @@
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "Lady Guuji of the Grand Narukami Shrine. Also serves as the editor-in-chief of Yae Publishing House. Unimaginable intelligence and cunning are hidden under her beautiful appearance."
+          "text": "Lady Guuji of the Grand Narukami Shrine. Also serves as the editor-in-chief of Yae Publishing House. Unimaginable intelligence and cunning are hidden under her beautiful appearance.",
+          "released": "2022-02-16"
         },
         {
           "id": "gi-item-1059",
@@ -7624,7 +7667,8 @@
             "rarity": "4 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "A young prodigy detective from the Tenryou Commission. His senses are sharp and his thoughts are clear."
+          "text": "A young prodigy detective from the Tenryou Commission. His senses are sharp and his thoughts are clear.",
+          "released": "2022-07-13"
         },
         {
           "id": "gi-item-1060",
@@ -7635,7 +7679,8 @@
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "A mysterious person who claims to work for the Ministry of Civil Affairs, but is a \"non-entity\" on the Ministry of Civil Affairs' list."
+          "text": "A mysterious person who claims to work for the Ministry of Civil Affairs, but is a \"non-entity\" on the Ministry of Civil Affairs' list.",
+          "released": "2022-05-31"
         },
         {
           "id": "gi-item-1061",
@@ -7646,7 +7691,8 @@
             "rarity": "4 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "A courier for Komaniya Express, a delivery company in Inazuma. A nekomata who loves her job and human society."
+          "text": "A courier for Komaniya Express, a delivery company in Inazuma. A nekomata who loves her job and human society.",
+          "released": "2023-05-24"
         },
         {
           "id": "gi-item-1062",
@@ -7668,7 +7714,8 @@
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "An adepti disciple with a most unusual air about her. Having spent much time cultivating in isolation in Liyue's mountains, she has become every bit as cool and distant as the adepti themselves."
+          "text": "An adepti disciple with a most unusual air about her. Having spent much time cultivating in isolation in Liyue's mountains, she has become every bit as cool and distant as the adepti themselves.",
+          "released": "2022-01-05"
         },
         {
           "id": "gi-item-1064",
@@ -7679,7 +7726,8 @@
             "rarity": "4 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "A renowned Liyue opera singer who is skilled in both playwriting and singing. Her style is one-of-a-kind, exquisite and delicate, much like the person herself."
+          "text": "A renowned Liyue opera singer who is skilled in both playwriting and singing. Her style is one-of-a-kind, exquisite and delicate, much like the person herself.",
+          "released": "2022-01-05"
         },
         {
           "id": "gi-item-1065",
@@ -7690,7 +7738,8 @@
             "rarity": "4 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "The capable and reliable Arataki Gang deputy leader - Please note: capable and reliable are not appellations for the \"Arataki Gang,\" but for their deputy leader in specific."
+          "text": "The capable and reliable Arataki Gang deputy leader - Please note: capable and reliable are not appellations for the \"Arataki Gang,\" but for their deputy leader in specific.",
+          "released": "2022-06-21"
         },
         {
           "id": "gi-item-1066",
@@ -7701,7 +7750,8 @@
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "The young but highly accomplished head of the Yashiro Commission's Kamisato Clan. Cultured and polite, he is a man of many ways and means."
+          "text": "The young but highly accomplished head of the Yashiro Commission's Kamisato Clan. Cultured and polite, he is a man of many ways and means.",
+          "released": "2022-03-30"
         },
         {
           "id": "gi-item-1067",
@@ -7712,7 +7762,8 @@
             "rarity": "4 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "A trainee ranger active in Avidya Forest. Behind her enthusiastic words and actions hides a slightly introverted personality."
+          "text": "A trainee ranger active in Avidya Forest. Behind her enthusiastic words and actions hides a slightly introverted personality.",
+          "released": "2022-08-24"
         },
         {
           "id": "gi-item-1068",
@@ -7723,7 +7774,8 @@
             "rarity": "4 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "An elusive merchant who has a fondness for glittering Mora."
+          "text": "An elusive merchant who has a fondness for glittering Mora.",
+          "released": "2022-09-09"
         },
         {
           "id": "gi-item-1069",
@@ -7734,7 +7786,8 @@
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "A young researcher well-versed in botany who currently serves as a Forest Watcher in Avidya Forest. He is a straight shooter with a warm heart \u2014 and a dab hand at guiding even the dullest of pupils."
+          "text": "A young researcher well-versed in botany who currently serves as a Forest Watcher in Avidya Forest. He is a straight shooter with a warm heart \u2014 and a dab hand at guiding even the dullest of pupils.",
+          "released": "2022-08-24"
         },
         {
           "id": "gi-item-1070",
@@ -7745,7 +7798,8 @@
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "The star of the Zubayr Theater. She is full of warmth and innocence, and her dances are lively and elegant."
+          "text": "The star of the Zubayr Theater. She is full of warmth and innocence, and her dances are lively and elegant.",
+          "released": "2022-10-14"
         },
         {
           "id": "gi-item-1071",
@@ -7756,7 +7810,8 @@
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "The General Mahamatra in charge of supervising the researchers of the Akademiya. It is said that when he gets down to work, the General Mahamatra is even more efficient than the \"Great Vayuvyastra\" made by the Kshahrewar."
+          "text": "The General Mahamatra in charge of supervising the researchers of the Akademiya. It is said that when he gets down to work, the General Mahamatra is even more efficient than the \"Great Vayuvyastra\" made by the Kshahrewar.",
+          "released": "2022-09-28"
         },
         {
           "id": "gi-item-1072",
@@ -7767,7 +7822,8 @@
             "rarity": "4 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "A descendant of King Deshret with an amber left eye. The defender of Aaru Village."
+          "text": "A descendant of King Deshret with an amber left eye. The defender of Aaru Village.",
+          "released": "2022-09-28"
         },
         {
           "id": "gi-item-1073",
@@ -7778,7 +7834,8 @@
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "A caged bird secluded within the confines of the Sanctuary of Surasthana who can only see the world in her dreams."
+          "text": "A caged bird secluded within the confines of the Sanctuary of Surasthana who can only see the world in her dreams.",
+          "released": "2022-11-02"
         },
         {
           "id": "gi-item-1074",
@@ -7789,7 +7846,8 @@
             "rarity": "4 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "A Rtawahist student who specializes in Theoretical Astrology. Heavily prone to somnambulism and locked in a grinding war with sleep deprivation, the problem of restful slumber is a most troubling one to her."
+          "text": "A Rtawahist student who specializes in Theoretical Astrology. Heavily prone to somnambulism and locked in a grinding war with sleep deprivation, the problem of restful slumber is a most troubling one to her.",
+          "released": "2022-11-18"
         },
         {
           "id": "gi-item-1075",
@@ -7800,7 +7858,8 @@
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "A wayfaring figure whose identity is a mystery. He dresses like a mountain ascetic, but he certainly does not act the part."
+          "text": "A wayfaring figure whose identity is a mystery. He dresses like a mountain ascetic, but he certainly does not act the part.",
+          "released": "2022-12-07"
         },
         {
           "id": "gi-item-1076",
@@ -7811,7 +7870,8 @@
             "rarity": "4 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "A researcher from \"one hundred years ago.\" She enjoys self-identifying as everyone's senior, and has significant knowledge of ancient scripts and machines of all kinds."
+          "text": "A researcher from \"one hundred years ago.\" She enjoys self-identifying as everyone's senior, and has significant knowledge of ancient scripts and machines of all kinds.",
+          "released": "2022-12-07"
         },
         {
           "id": "gi-item-1077",
@@ -7822,7 +7882,8 @@
             "rarity": "4 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "Streetward Rambler's youngest disciple. A gentle and caring \"little adult.\""
+          "text": "Streetward Rambler's youngest disciple. A gentle and caring \"little adult.\"",
+          "released": "2023-01-18"
         },
         {
           "id": "gi-item-1078",
@@ -7833,7 +7894,8 @@
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "The current scribe of the Sumeru Akademiya, a man endowed with extraordinary intelligence and talent. He lives free \u2014 free from the searching eyes of ordinary people, anyway."
+          "text": "The current scribe of the Sumeru Akademiya, a man endowed with extraordinary intelligence and talent. He lives free \u2014 free from the searching eyes of ordinary people, anyway.",
+          "released": "2023-01-18"
         },
         {
           "id": "gi-item-1079",
@@ -7844,7 +7906,8 @@
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "A member of the Eremites, a mercenary organization that roams the sands of Sumeru. Valiant and powerful, she enjoys great fame amongst her fellow Eremites."
+          "text": "A member of the Eremites, a mercenary organization that roams the sands of Sumeru. Valiant and powerful, she enjoys great fame amongst her fellow Eremites.",
+          "released": "2023-03-01"
         },
         {
           "id": "gi-item-1080",
@@ -7855,7 +7918,8 @@
             "rarity": "4 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "A young knight born to an ordinary family. He serves as a Front-Line Surveyor in his Company. He is a low-key and cautious character."
+          "text": "A young knight born to an ordinary family. He serves as a Front-Line Surveyor in his Company. He is a low-key and cautious character.",
+          "released": "2023-03-21"
         },
         {
           "id": "gi-item-1081",
@@ -7866,7 +7930,8 @@
             "rarity": "4 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "A renowned architect from Sumeru who perhaps cares a bit too much about too many things. He is an aesthete troubled by reality."
+          "text": "A renowned architect from Sumeru who perhaps cares a bit too much about too many things. He is an aesthete troubled by reality.",
+          "released": "2023-05-02"
         },
         {
           "id": "gi-item-1082",
@@ -7877,7 +7942,8 @@
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "The owner of Bubu Pharmacy, who is rarely seen without the white snake named Changsheng. His medicinal knowledge is encyclopedic, and his personal intrigues subtle."
+          "text": "The owner of Bubu Pharmacy, who is rarely seen without the white snake named Changsheng. His medicinal knowledge is encyclopedic, and his personal intrigues subtle.",
+          "released": "2023-05-02"
         },
         {
           "id": "gi-item-1083",
@@ -7888,7 +7954,8 @@
             "rarity": "4 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "A magic assistant of few words, her emotions are as inscrutable as any cat's."
+          "text": "A magic assistant of few words, her emotions are as inscrutable as any cat's.",
+          "released": "2023-08-16"
         },
         {
           "id": "gi-item-1084",
@@ -7899,7 +7966,8 @@
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "A famed Fontainian magician who possesses great stage presence as well as gift of the gab. Audiences are enthralled by his exquisite skills, and they hang on to his every clever word."
+          "text": "A famed Fontainian magician who possesses great stage presence as well as gift of the gab. Audiences are enthralled by his exquisite skills, and they hang on to his every clever word.",
+          "released": "2023-08-16"
         },
         {
           "id": "gi-item-1085",
@@ -7910,7 +7978,8 @@
             "rarity": "4 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "A reserved young man who is well-versed in diving. Beneath his distant, icy demeanor lies a pure heart bereft of all flaws."
+          "text": "A reserved young man who is well-versed in diving. Beneath his distant, icy demeanor lies a pure heart bereft of all flaws.",
+          "released": "2023-09-05"
         },
         {
           "id": "gi-item-1086",
@@ -7921,7 +7990,8 @@
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "Duke of the Fortress of Meropide, Lord Incognito of the murky depths."
+          "text": "Duke of the Fortress of Meropide, Lord Incognito of the murky depths.",
+          "released": "2023-10-17"
         },
         {
           "id": "gi-item-1087",
@@ -7932,7 +8002,8 @@
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "The Chief Justice of Fontaine, known as the Iudex, is renowned for his unassailable impartiality."
+          "text": "The Chief Justice of Fontaine, known as the Iudex, is renowned for his unassailable impartiality.",
+          "released": "2023-09-27"
         },
         {
           "id": "gi-item-1088",
@@ -7943,7 +8014,8 @@
             "rarity": "4 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "Indefatigable reporter of The Steambird, constantly on the hunt for the \"truth.\""
+          "text": "Indefatigable reporter of The Steambird, constantly on the hunt for the \"truth.\"",
+          "released": "2023-11-08"
         },
         {
           "id": "gi-item-1089",
@@ -7954,7 +8026,8 @@
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "The absolute focus of the stage of judgment, until the final applause sounds."
+          "text": "The absolute focus of the stage of judgment, until the final applause sounds.",
+          "released": "2023-11-08"
         },
         {
           "id": "gi-item-1090",
@@ -7965,7 +8038,8 @@
             "rarity": "4 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "The captain of the Special Security and Surveillance Patrol, who wears justice as an ever-present seal upon her heart. Her musket shall only ever point at the guilty."
+          "text": "The captain of the Special Security and Surveillance Patrol, who wears justice as an ever-present seal upon her heart. Her musket shall only ever point at the guilty.",
+          "released": "2024-01-09"
         },
         {
           "id": "gi-item-1091",
@@ -7976,7 +8050,8 @@
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "The current President of Spina di Rosula, who is lovely, dutiful, and a great boss."
+          "text": "The current President of Spina di Rosula, who is lovely, dutiful, and a great boss.",
+          "released": "2023-12-20"
         },
         {
           "id": "gi-item-1092",
@@ -7987,7 +8062,8 @@
             "rarity": "4 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "Guard of the Sword and Strongbox Secure Transport Agency, and the head of the \"Mighty Mythical Beasts\" Wushou troupe."
+          "text": "Guard of the Sword and Strongbox Secure Transport Agency, and the head of the \"Mighty Mythical Beasts\" Wushou troupe.",
+          "released": "2024-01-31"
         },
         {
           "id": "gi-item-1093",
@@ -7998,7 +8074,8 @@
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "One of the Mighty and Illuminated Adepti of Jueyun, known as \"Cloud Retainer.\" Expert in all kinds of mechanical contraptions, her heart now turns towards the affairs of the mortal world, through which she walks under the name \"Xianyun.\""
+          "text": "One of the Mighty and Illuminated Adepti of Jueyun, known as \"Cloud Retainer.\" Expert in all kinds of mechanical contraptions, her heart now turns towards the affairs of the mortal world, through which she walks under the name \"Xianyun.\"",
+          "released": "2024-01-31"
         },
         {
           "id": "gi-item-1094",
@@ -8009,7 +8086,8 @@
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "The owner of Chioriya Boutique. A tailor renowned throughout Fontaine."
+          "text": "The owner of Chioriya Boutique. A tailor renowned throughout Fontaine.",
+          "released": "2024-03-13"
         },
         {
           "id": "gi-item-1095",
@@ -8020,7 +8098,8 @@
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "A Melusine and the Fortress of Meropide's head nurse. She cares equally for every convict locked in the undersea prison."
+          "text": "A Melusine and the Fortress of Meropide's head nurse. She cares equally for every convict locked in the undersea prison.",
+          "released": "2024-06-25"
         },
         {
           "id": "gi-item-1096",
@@ -8031,7 +8110,8 @@
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "\"The Knave,\" Fourth of the Fatui Harbingers. A poised, ruthless diplomat. To the children in the House of the Hearth, she is their feared yet dependable \"Father.\""
+          "text": "\"The Knave,\" Fourth of the Fatui Harbingers. A poised, ruthless diplomat. To the children in the House of the Hearth, she is their feared yet dependable \"Father.\"",
+          "released": "2024-04-24"
         },
         {
           "id": "gi-item-1097",
@@ -8042,7 +8122,8 @@
             "rarity": "4 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "The Temple of Silence's heir. Burdened with secrets, he comes from the sands."
+          "text": "The Temple of Silence's heir. Burdened with secrets, he comes from the sands.",
+          "released": "2024-06-05"
         },
         {
           "id": "gi-item-1098",
@@ -8053,7 +8134,8 @@
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "An undefeated Champion Duelist. Sword in hand, she defends justice in the Court of Fontaine."
+          "text": "An undefeated Champion Duelist. Sword in hand, she defends justice in the Court of Fontaine.",
+          "released": "2024-06-05"
         },
         {
           "id": "gi-item-1099",
@@ -8064,7 +8146,8 @@
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "A Fontainian perfumer, one who bottles secrets."
+          "text": "A Fontainian perfumer, one who bottles secrets.",
+          "released": "2024-08-06"
         },
         {
           "id": "gi-item-1102",
@@ -9530,6 +9613,7 @@
             "type": "Unlocks the associated character"
           },
           "text": "An accomplished swordsman and a strategic thinker in the Knights of Favonius, rumored to hail from beyond Mondstadt.",
+          "released": "2024-03-13",
           "artStatus": "intentional-fallback",
           "artSource": "neutral-database-placeholder"
         },
@@ -9543,6 +9627,7 @@
             "type": "Unlocks the associated character"
           },
           "text": "The languid but knowledgeable Librarian of the Knights of Favonius, deemed by Sumeru Akademiya to be their most distinguished graduate in the past two centuries.",
+          "released": "2024-03-13",
           "artStatus": "intentional-fallback",
           "artSource": "neutral-database-placeholder"
         },
@@ -9555,7 +9640,8 @@
             "rarity": "4 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "A young warrior of the Nanatzcayan, given the Ancient Name of \"Uthabiti.\" Kind-hearted and insatiably persistent, she grows stronger and more capable with each setback she faces."
+          "text": "A young warrior of the Nanatzcayan, given the Ancient Name of \"Uthabiti.\" Kind-hearted and insatiably persistent, she grows stronger and more capable with each setback she faces.",
+          "released": "2024-08-28"
         },
         {
           "id": "gi-item-4101",
@@ -9566,7 +9652,8 @@
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "A Huitztlan Saurian Hunter skilled at counting costs."
+          "text": "A Huitztlan Saurian Hunter skilled at counting costs.",
+          "released": "2024-09-17"
         },
         {
           "id": "gi-item-4102",
@@ -9577,7 +9664,8 @@
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "A well-known guide in Natlan who owns a watersports shop, and expert in all forms of wave-chasing."
+          "text": "A well-known guide in Natlan who owns a watersports shop, and expert in all forms of wave-chasing.",
+          "released": "2024-08-28"
         },
         {
           "id": "gi-item-4103",
@@ -9588,7 +9676,8 @@
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "A Name Engraver of the Nanatzcayan, she is especially skilled at finding a good balance between the heavy responsibilities of her job and living well."
+          "text": "A Name Engraver of the Nanatzcayan, she is especially skilled at finding a good balance between the heavy responsibilities of her job and living well.",
+          "released": "2024-10-09"
         },
         {
           "id": "gi-item-4104",
@@ -9599,7 +9688,8 @@
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "The Peacemaker of the Tlalocan, the ender of all disputes."
+          "text": "The Peacemaker of the Tlalocan, the ender of all disputes.",
+          "released": "2024-11-20"
         },
         {
           "id": "gi-item-4105",
@@ -9610,7 +9700,8 @@
             "rarity": "4 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "A young man from the Masters of the Night-Wind who instead lives in the wild alongside all manner of life."
+          "text": "A young man from the Masters of the Night-Wind who instead lives in the wild alongside all manner of life.",
+          "released": "2024-11-20"
         },
         {
           "id": "gi-item-4106",
@@ -9621,7 +9712,8 @@
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "The leader of Natlan who inherited the Ancient Name of \"Kiongozi.\" She made a vow to illuminate the future of the nation of war with the Sacred Flame."
+          "text": "The leader of Natlan who inherited the Ancient Name of \"Kiongozi.\" She made a vow to illuminate the future of the nation of war with the Sacred Flame.",
+          "released": "2025-01-01"
         },
         {
           "id": "gi-item-4107",
@@ -9632,7 +9724,8 @@
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "The great shaman from the Masters of the Night-Wind, the universally-revered Granny Itztli."
+          "text": "The great shaman from the Masters of the Night-Wind, the universally-revered Granny Itztli.",
+          "released": "2025-01-01"
         },
         {
           "id": "gi-item-4108",
@@ -9643,7 +9736,8 @@
             "rarity": "4 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "A rattan weaver from Chenyu Vale. Clear-minded and well-tempered, she is as lively as a mountain spring."
+          "text": "A rattan weaver from Chenyu Vale. Clear-minded and well-tempered, she is as lively as a mountain spring.",
+          "released": "2025-01-21"
         },
         {
           "id": "gi-item-4109",
@@ -9654,7 +9748,8 @@
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "A shareholder of Aisa Bathhouse, a baku, and a clinical psychologist. Dedicated to the dispersal of nightmares, and to bringing people peace of mind."
+          "text": "A shareholder of Aisa Bathhouse, a baku, and a clinical psychologist. Dedicated to the dispersal of nightmares, and to bringing people peace of mind.",
+          "released": "2025-02-12"
         },
         {
           "id": "gi-item-4110",
@@ -9665,7 +9760,8 @@
             "rarity": "4 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "Head coach of the fitness club at the Collective of Plenty, and a renowned Natlanese nutritionist."
+          "text": "Head coach of the fitness club at the Collective of Plenty, and a renowned Natlanese nutritionist.",
+          "released": "2025-03-26"
         },
         {
           "id": "gi-item-4111",
@@ -9676,7 +9772,8 @@
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "A laid-back orchard manager and warrior of the Collective of Plenty. An aspiring hero who hungers for justice... and lots and lots of food!"
+          "text": "A laid-back orchard manager and warrior of the Collective of Plenty. An aspiring hero who hungers for justice... and lots and lots of food!",
+          "released": "2025-03-26"
         },
         {
           "id": "gi-item-4112",
@@ -9687,7 +9784,8 @@
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "The ex-head chef of Hotel Debord, renowned throughout Fontaine as the Patissiere Supreme and vanguard of precision gastronomy. Has incomparably strict standards when it comes to cooking."
+          "text": "The ex-head chef of Hotel Debord, renowned throughout Fontaine as the Patissiere Supreme and vanguard of precision gastronomy. Has incomparably strict standards when it comes to cooking.",
+          "released": "2025-05-07"
         },
         {
           "id": "gi-item-4113",
@@ -9698,7 +9796,8 @@
             "rarity": "4 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "A vet from the Flower-Feather Clan who cherishes the life he leads alongside all manner of living things \u2014 people, animals, you name it."
+          "text": "A vet from the Flower-Feather Clan who cherishes the life he leads alongside all manner of living things \u2014 people, animals, you name it.",
+          "released": "2025-05-07"
         },
         {
           "id": "gi-item-4114",
@@ -9709,7 +9808,8 @@
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "A visitor who once appeared in an Abyssal rift and the Primordial Sea, this solitary warrior mentored Tartaglia in the martial arts."
+          "text": "A visitor who once appeared in an Abyssal rift and the Primordial Sea, this solitary warrior mentored Tartaglia in the martial arts.",
+          "released": "2025-06-18"
         },
         {
           "id": "gi-item-4115",
@@ -9720,7 +9820,8 @@
             "rarity": "4 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "Deacon of the Church of Favonius and the Anemo Archon's representative in the church."
+          "text": "Deacon of the Church of Favonius and the Anemo Archon's representative in the church.",
+          "released": "2025-06-18"
         },
         {
           "id": "gi-item-4116",
@@ -9731,7 +9832,8 @@
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "A multifunctional robot containing integrated mechanical components from various nations. The Source Core in her chest has endured the passage of countless years."
+          "text": "A multifunctional robot containing integrated mechanical components from various nations. The Source Core in her chest has endured the passage of countless years.",
+          "released": "2025-07-30"
         },
         {
           "id": "gi-item-4119",
@@ -9742,7 +9844,8 @@
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "A Maiden blessed by moonlight and the grove alike, hope born to the Frostmoon Scions."
+          "text": "A Maiden blessed by moonlight and the grove alike, hope born to the Frostmoon Scions.",
+          "released": "2025-09-10"
         },
         {
           "id": "gi-item-4120",
@@ -9753,7 +9856,8 @@
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "A Lightkeeper of Nod-Krai, guardian of a lighthouse and graveyard on a northern isle. An enigmatic gentleman, cultured and courtly."
+          "text": "A Lightkeeper of Nod-Krai, guardian of a lighthouse and graveyard on a northern isle. An enigmatic gentleman, cultured and courtly.",
+          "released": "2025-09-30"
         },
         {
           "id": "gi-item-4121",
@@ -9764,7 +9868,8 @@
             "rarity": "4 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "A genius mechanic and inventor from Nod-Krai who loves interesting machines and sweet treats."
+          "text": "A genius mechanic and inventor from Nod-Krai who loves interesting machines and sweet treats.",
+          "released": "2025-09-30"
         },
         {
           "id": "gi-item-4122",
@@ -9777,7 +9882,8 @@
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "The remarkably resourceful owner of the Curatorium of Secrets."
+          "text": "The remarkably resourceful owner of the Curatorium of Secrets.",
+          "released": "2025-10-22"
         },
         {
           "id": "gi-item-4123",
@@ -9790,7 +9896,8 @@
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "A dragon born from M's pen, who came to alight in the human world. His \"story\" continues to unfold."
+          "text": "A dragon born from M's pen, who came to alight in the human world. His \"story\" continues to unfold.",
+          "released": "2025-12-03"
         },
         {
           "id": "gi-item-4124",
@@ -9803,7 +9910,8 @@
             "rarity": "4 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "The Curatorium of Secrets' extremely reliable, do-it-all super employee (or so she claims)."
+          "text": "The Curatorium of Secrets' extremely reliable, do-it-all super employee (or so she claims).",
+          "released": "2025-12-03"
         },
         {
           "id": "gi-item-4125",
@@ -9816,7 +9924,8 @@
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "The Moon Maiden born in Nod-Krai, and also the welkin moon returning home."
+          "text": "The Moon Maiden born in Nod-Krai, and also the welkin moon returning home.",
+          "released": "2026-01-14"
         },
         {
           "id": "gi-item-4126",
@@ -9829,7 +9938,8 @@
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "The White Horse Adeptus from Liyue's legends, known as Zibai. The most mysterious figure in Liyue's myths."
+          "text": "The White Horse Adeptus from Liyue's legends, known as Zibai. The most mysterious figure in Liyue's myths.",
+          "released": "2026-02-03"
         },
         {
           "id": "gi-item-4127",
@@ -9842,7 +9952,8 @@
             "rarity": "4 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "Member of the investigation squad, the Nightmare Orioles. The youngest squad leader among the Lightkeepers."
+          "text": "Member of the investigation squad, the Nightmare Orioles. The youngest squad leader among the Lightkeepers.",
+          "released": "2026-02-03"
         },
         {
           "id": "gi-item-4128",
@@ -9855,7 +9966,8 @@
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "Grand Master of the Knights of Favonius. Knight of Boreas, protector of Mondstadt."
+          "text": "Grand Master of the Knights of Favonius. Knight of Boreas, protector of Mondstadt.",
+          "released": "2026-02-25"
         },
         {
           "id": "gi-item-4129",
@@ -9866,7 +9978,8 @@
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "Vice Captain of the Knights of Favonius Ranged Company, a knight known for his unorthodox approach and fondness for unconventional tactics."
+          "text": "Vice Captain of the Knights of Favonius Ranged Company, a knight known for his unorthodox approach and fondness for unconventional tactics.",
+          "released": "2026-06-09"
         },
         {
           "id": "gi-item-4130",
@@ -9877,7 +9990,8 @@
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "Naturalist and Advisor to the Nod-Krai Branch of the Adventurers' Guild."
+          "text": "Naturalist and Advisor to the Nod-Krai Branch of the Adventurers' Guild.",
+          "released": "2026-04-08"
         },
         {
           "id": "gi-item-4131",
@@ -9888,7 +10002,8 @@
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "The Silent \"Mage,\" the Voiceless \"Angel.\""
+          "text": "The Silent \"Mage,\" the Voiceless \"Angel.\"",
+          "released": "2026-05-20"
         },
         {
           "id": "gi-item-4132",
@@ -9899,7 +10014,8 @@
             "rarity": "4 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "A diminutive Witch Hunter who has journeyed all the way from Nod-Krai with the singular purpose of rooting out a witch who, to hear her tell it, has committed every sin imaginable \u2014 including bullying little kids!"
+          "text": "A diminutive Witch Hunter who has journeyed all the way from Nod-Krai with the singular purpose of rooting out a witch who, to hear her tell it, has committed every sin imaginable \u2014 including bullying little kids!",
+          "released": "2026-05-20"
         },
         {
           "id": "gi-item-4133",
@@ -9910,7 +10026,8 @@
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "The Seventh of the Fatui Harbingers, \"Marionette.\" Interprets all phenomena through the prism of mathematics, and is an elegant lady who is never absent from a tea party."
+          "text": "The Seventh of the Fatui Harbingers, \"Marionette.\" Interprets all phenomena through the prism of mathematics, and is an elegant lady who is never absent from a tea party.",
+          "released": "2026-07-01"
         },
         {
           "id": "gi-item-5100",
@@ -76496,7 +76613,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2021-01-12"
         },
         {
           "id": "gi-item-326001",
@@ -76509,7 +76627,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2024-03-13"
         },
         {
           "id": "gi-item-326002",
@@ -76522,7 +76641,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2020-12-01"
         },
         {
           "id": "gi-item-326003",
@@ -76535,7 +76655,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2021-07-21"
         },
         {
           "id": "gi-item-326004",
@@ -76548,7 +76669,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2020-10-20"
         },
         {
           "id": "gi-item-326005",
@@ -76561,7 +76683,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2024-03-13"
         },
         {
           "id": "gi-item-326006",
@@ -76574,7 +76697,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2024-03-13"
         },
         {
           "id": "gi-item-326007",
@@ -76587,7 +76711,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2020-09-28"
         },
         {
           "id": "gi-item-326008",
@@ -76600,7 +76725,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2020-12-23"
         },
         {
           "id": "gi-item-326009",
@@ -76613,7 +76739,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2024-03-13"
         },
         {
           "id": "gi-item-326010",
@@ -76626,7 +76753,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2021-08-10"
         },
         {
           "id": "gi-item-326011",
@@ -76639,7 +76767,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2020-09-28"
         },
         {
           "id": "gi-item-326012",
@@ -76652,7 +76781,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2020-12-01"
         },
         {
           "id": "gi-item-326013",
@@ -76665,7 +76795,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2021-02-17"
         },
         {
           "id": "gi-item-326014",
@@ -76678,7 +76809,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2020-10-20"
         },
         {
           "id": "gi-item-326015",
@@ -76691,7 +76823,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2024-03-13"
         },
         {
           "id": "gi-item-326016",
@@ -76704,7 +76837,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2020-11-11"
         },
         {
           "id": "gi-item-326017",
@@ -76717,7 +76851,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2020-10-20"
         },
         {
           "id": "gi-item-326018",
@@ -76730,7 +76865,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2022-08-24"
         },
         {
           "id": "gi-item-326019",
@@ -76795,7 +76931,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2020-11-11"
         },
         {
           "id": "gi-item-326024",
@@ -76808,7 +76945,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2022-09-28"
         },
         {
           "id": "gi-item-326025",
@@ -76821,7 +76959,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2020-09-28"
         },
         {
           "id": "gi-item-326026",
@@ -76860,7 +76999,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2020-11-11"
         },
         {
           "id": "gi-item-326029",
@@ -76873,7 +77013,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2020-10-20"
         },
         {
           "id": "gi-item-326030",
@@ -76886,7 +77027,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2021-05-18"
         },
         {
           "id": "gi-item-326031",
@@ -76899,7 +77041,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2021-09-21"
         },
         {
           "id": "gi-item-326032",
@@ -76912,7 +77055,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2021-09-01"
         },
         {
           "id": "gi-item-326033",
@@ -76925,7 +77069,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2022-03-30"
         },
         {
           "id": "gi-item-326034",
@@ -76938,7 +77083,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2021-12-14"
         },
         {
           "id": "gi-item-326035",
@@ -76951,7 +77097,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2022-08-24"
         },
         {
           "id": "gi-item-326036",
@@ -76964,7 +77111,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2020-11-11"
         },
         {
           "id": "gi-item-326037",
@@ -76977,7 +77125,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2021-03-02"
         },
         {
           "id": "gi-item-326038",
@@ -76990,7 +77139,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2021-09-01"
         },
         {
           "id": "gi-item-326039",
@@ -77003,7 +77153,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2022-02-16"
         },
         {
           "id": "gi-item-326040",
@@ -77016,7 +77167,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2020-09-28"
         },
         {
           "id": "gi-item-326041",
@@ -77029,7 +77181,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2021-02-03"
         },
         {
           "id": "gi-item-326042",
@@ -77042,7 +77195,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2020-12-01"
         },
         {
           "id": "gi-item-326043",
@@ -77055,7 +77209,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2020-12-23"
         },
         {
           "id": "gi-item-326044",
@@ -77068,7 +77223,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2022-11-02"
         },
         {
           "id": "gi-item-326045",
@@ -77120,7 +77276,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2022-01-05"
         },
         {
           "id": "gi-item-326049",
@@ -77133,7 +77290,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2022-09-28"
         },
         {
           "id": "gi-item-326050",
@@ -77146,7 +77304,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2021-04-28"
         },
         {
           "id": "gi-item-326051",
@@ -77159,7 +77318,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2021-06-29"
         },
         {
           "id": "gi-item-326052",
@@ -77172,7 +77332,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2025-01-21"
         },
         {
           "id": "gi-item-326053",
@@ -77185,7 +77346,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2024-03-13"
         },
         {
           "id": "gi-item-326054",
@@ -77198,7 +77360,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2023-03-01"
         },
         {
           "id": "gi-item-326055",
@@ -77211,7 +77374,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2022-12-07"
         },
         {
           "id": "gi-item-326056",
@@ -77224,7 +77388,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2023-01-18"
         },
         {
           "id": "gi-item-326057",
@@ -77237,7 +77402,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2022-10-14"
         },
         {
           "id": "gi-item-326058",
@@ -77250,7 +77416,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2022-09-09"
         },
         {
           "id": "gi-item-326059",
@@ -77263,7 +77430,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2023-05-02"
         },
         {
           "id": "gi-item-326060",
@@ -77302,7 +77470,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2022-11-18"
         },
         {
           "id": "gi-item-326063",
@@ -77315,7 +77484,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2022-05-31"
         },
         {
           "id": "gi-item-326064",
@@ -77328,7 +77498,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2023-08-16"
         },
         {
           "id": "gi-item-326065",
@@ -77341,7 +77512,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2023-08-16"
         },
         {
           "id": "gi-item-326066",
@@ -77354,7 +77526,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2021-12-14"
         },
         {
           "id": "gi-item-326067",
@@ -77367,7 +77540,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2023-01-18"
         },
         {
           "id": "gi-item-326068",
@@ -77419,7 +77593,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2021-11-02"
         },
         {
           "id": "gi-item-326072",
@@ -77432,7 +77607,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2021-08-10"
         },
         {
           "id": "gi-item-326073",
@@ -77471,7 +77647,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2023-11-08"
         },
         {
           "id": "gi-item-326076",
@@ -77484,7 +77661,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2023-09-27"
         },
         {
           "id": "gi-item-326077",
@@ -77497,7 +77675,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2023-05-24"
         },
         {
           "id": "gi-item-326078",
@@ -77523,7 +77702,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2022-06-21"
         },
         {
           "id": "gi-item-326080",
@@ -77536,7 +77716,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2022-12-07"
         },
         {
           "id": "gi-item-326081",
@@ -77575,7 +77756,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2023-10-17"
         },
         {
           "id": "gi-item-326084",
@@ -77588,7 +77770,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2023-11-08"
         },
         {
           "id": "gi-item-326085",
@@ -77601,7 +77784,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2020-12-01"
         },
         {
           "id": "gi-item-326086",
@@ -77614,7 +77798,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2022-01-05"
         },
         {
           "id": "gi-item-326087",
@@ -77627,7 +77812,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2023-05-02"
         },
         {
           "id": "gi-item-326088",
@@ -77692,7 +77878,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2024-01-09"
         },
         {
           "id": "gi-item-326093",
@@ -77705,7 +77892,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2023-12-20"
         },
         {
           "id": "gi-item-326094",
@@ -77731,7 +77919,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2023-09-05"
         },
         {
           "id": "gi-item-326096",
@@ -77744,7 +77933,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2024-01-31"
         },
         {
           "id": "gi-item-326097",
@@ -77770,7 +77960,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2024-03-13"
         },
         {
           "id": "gi-item-326099",
@@ -77809,7 +78000,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2021-04-06"
         },
         {
           "id": "gi-item-326102",
@@ -77822,7 +78014,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2024-06-25"
         },
         {
           "id": "gi-item-326103",
@@ -77848,7 +78041,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2024-08-28"
         },
         {
           "id": "gi-item-326105",
@@ -77861,7 +78055,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2024-06-05"
         },
         {
           "id": "gi-item-326106",
@@ -77874,7 +78069,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2024-04-24"
         },
         {
           "id": "gi-item-326107",
@@ -77887,7 +78083,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2024-09-17"
         },
         {
           "id": "gi-item-326108",
@@ -77900,7 +78097,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2024-08-28"
         },
         {
           "id": "gi-item-326109",
@@ -77913,7 +78111,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2024-08-06"
         },
         {
           "id": "gi-item-326110",
@@ -77926,7 +78125,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2024-06-05"
         },
         {
           "id": "gi-item-326111",
@@ -77939,7 +78139,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2024-10-09"
         },
         {
           "id": "gi-item-326112",
@@ -77952,7 +78153,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2025-01-01"
         },
         {
           "id": "gi-item-326113",
@@ -77965,7 +78167,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2025-01-01"
         },
         {
           "id": "gi-item-326114",
@@ -77978,7 +78181,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2024-11-20"
         },
         {
           "id": "gi-item-326115",
@@ -77991,7 +78195,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2025-01-21"
         },
         {
           "id": "gi-item-326116",
@@ -78004,7 +78209,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2022-07-13"
         },
         {
           "id": "gi-item-326117",
@@ -78030,7 +78236,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2025-03-26"
         },
         {
           "id": "gi-item-326119",
@@ -78043,7 +78250,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2025-02-12"
         },
         {
           "id": "gi-item-326120",
@@ -78069,7 +78277,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2025-03-26"
         },
         {
           "id": "gi-item-326122",
@@ -78082,7 +78291,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2025-05-07"
         },
         {
           "id": "gi-item-326123",
@@ -78108,7 +78318,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2025-05-07"
         },
         {
           "id": "gi-item-326125",
@@ -78121,7 +78332,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2024-01-31"
         },
         {
           "id": "gi-item-326126",
@@ -78147,7 +78359,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2025-06-18"
         },
         {
           "id": "gi-item-326128",
@@ -78160,7 +78373,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2024-11-20"
         },
         {
           "id": "gi-item-326129",
@@ -78186,7 +78400,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2023-03-21"
         },
         {
           "id": "gi-item-326131",
@@ -78199,7 +78414,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2025-07-30"
         },
         {
           "id": "gi-item-326132",
@@ -78225,7 +78441,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2025-06-18"
         },
         {
           "id": "gi-item-326134",
@@ -78238,7 +78455,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2025-09-30"
         },
         {
           "id": "gi-item-326135",
@@ -78264,7 +78482,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2025-09-30"
         },
         {
           "id": "gi-item-326137",
@@ -78277,7 +78496,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2025-09-10"
         },
         {
           "id": "gi-item-326138",
@@ -78303,7 +78523,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2025-10-22"
         },
         {
           "id": "gi-item-326140",
@@ -80201,7 +80422,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2020-10-20"
         },
         {
           "id": "gi-item-327002",
@@ -80214,7 +80436,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2020-12-23"
         },
         {
           "id": "gi-item-327003",
@@ -80240,7 +80463,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2020-10-20"
         },
         {
           "id": "gi-item-327005",
@@ -80253,7 +80477,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2020-11-11"
         },
         {
           "id": "gi-item-327006",
@@ -80279,7 +80504,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2020-10-20"
         },
         {
           "id": "gi-item-327008",
@@ -80292,7 +80518,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2020-10-20"
         },
         {
           "id": "gi-item-327009",
@@ -80318,7 +80545,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2021-02-23"
         },
         {
           "id": "gi-item-327011",
@@ -80331,7 +80559,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2021-07-21"
         },
         {
           "id": "gi-item-327012",
@@ -80357,7 +80586,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2020-10-20"
         },
         {
           "id": "gi-item-327014",
@@ -80370,7 +80600,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2020-09-28"
         },
         {
           "id": "gi-item-327015",
@@ -80669,7 +80900,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2020-12-23"
         },
         {
           "id": "gi-item-327038",
@@ -80682,7 +80914,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2020-09-28"
         },
         {
           "id": "gi-item-327039",
@@ -80695,7 +80928,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2022-11-02"
         },
         {
           "id": "gi-item-327040",
@@ -80708,7 +80942,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2021-03-17"
         },
         {
           "id": "gi-item-327041",
@@ -80721,7 +80956,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2021-01-12"
         },
         {
           "id": "gi-item-327042",
@@ -80734,7 +80970,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2020-09-28"
         },
         {
           "id": "gi-item-327043",
@@ -80747,7 +80984,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2020-12-01"
         },
         {
           "id": "gi-item-327044",
@@ -80760,7 +80998,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2021-09-01"
         },
         {
           "id": "gi-item-327045",
@@ -80773,7 +81012,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2021-03-17"
         },
         {
           "id": "gi-item-327046",
@@ -80942,7 +81182,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2020-10-20"
         },
         {
           "id": "gi-item-327059",
@@ -80955,7 +81196,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2022-12-07"
         },
         {
           "id": "gi-item-327060",
@@ -80968,7 +81210,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2023-03-01"
         },
         {
           "id": "gi-item-327061",
@@ -80981,7 +81224,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2021-02-03"
         },
         {
           "id": "gi-item-327062",
@@ -80994,7 +81238,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2023-01-18"
         },
         {
           "id": "gi-item-327063",
@@ -81098,7 +81343,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2023-09-27"
         },
         {
           "id": "gi-item-327071",
@@ -81150,7 +81396,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2023-10-17"
         },
         {
           "id": "gi-item-327075",
@@ -81189,7 +81436,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2023-11-08"
         },
         {
           "id": "gi-item-327078",
@@ -81254,7 +81502,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2023-10-17"
         },
         {
           "id": "gi-item-327083",
@@ -81319,7 +81568,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2023-09-27"
         },
         {
           "id": "gi-item-327088",
@@ -81449,7 +81699,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2023-09-27"
         },
         {
           "id": "gi-item-327098",
@@ -81566,7 +81817,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2022-05-31"
         },
         {
           "id": "gi-item-327107",
@@ -81579,7 +81831,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2021-09-21"
         },
         {
           "id": "gi-item-327108",
@@ -81631,7 +81884,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2025-01-01"
         },
         {
           "id": "gi-item-327112",
@@ -84385,7 +84639,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2021-01-12"
         },
         {
           "id": "gi-item-330001",
@@ -84396,7 +84651,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2024-03-13"
         },
         {
           "id": "gi-item-330002",
@@ -84407,7 +84663,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2020-12-01"
         },
         {
           "id": "gi-item-330003",
@@ -84418,7 +84675,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2021-07-21"
         },
         {
           "id": "gi-item-330004",
@@ -84429,7 +84687,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2020-10-20"
         },
         {
           "id": "gi-item-330005",
@@ -84440,7 +84699,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2024-03-13"
         },
         {
           "id": "gi-item-330006",
@@ -84451,7 +84711,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2024-03-13"
         },
         {
           "id": "gi-item-330007",
@@ -84462,7 +84723,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2020-09-28"
         },
         {
           "id": "gi-item-330008",
@@ -84473,7 +84735,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2020-12-23"
         },
         {
           "id": "gi-item-330009",
@@ -84484,7 +84747,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2024-03-13"
         },
         {
           "id": "gi-item-330010",
@@ -84495,7 +84759,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2021-08-10"
         },
         {
           "id": "gi-item-330011",
@@ -84506,7 +84771,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2020-09-28"
         },
         {
           "id": "gi-item-330012",
@@ -84517,7 +84783,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2020-12-01"
         },
         {
           "id": "gi-item-330013",
@@ -84528,7 +84795,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2021-02-17"
         },
         {
           "id": "gi-item-330014",
@@ -84539,7 +84807,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2020-10-20"
         },
         {
           "id": "gi-item-330015",
@@ -84550,7 +84819,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2024-03-13"
         },
         {
           "id": "gi-item-330016",
@@ -84561,7 +84831,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2020-11-11"
         },
         {
           "id": "gi-item-330017",
@@ -84572,7 +84843,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2020-10-20"
         },
         {
           "id": "gi-item-330018",
@@ -84583,7 +84855,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2022-08-24"
         },
         {
           "id": "gi-item-330019",
@@ -84638,7 +84911,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2020-11-11"
         },
         {
           "id": "gi-item-330024",
@@ -84649,7 +84923,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2022-09-28"
         },
         {
           "id": "gi-item-330025",
@@ -84660,7 +84935,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2020-09-28"
         },
         {
           "id": "gi-item-330026",
@@ -84693,7 +84969,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2021-05-18"
         },
         {
           "id": "gi-item-330029",
@@ -84704,7 +84981,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2020-11-11"
         },
         {
           "id": "gi-item-330030",
@@ -84715,7 +84993,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2021-09-21"
         },
         {
           "id": "gi-item-330031",
@@ -84726,7 +85005,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2022-03-30"
         },
         {
           "id": "gi-item-330032",
@@ -84737,7 +85017,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2020-10-20"
         },
         {
           "id": "gi-item-330033",
@@ -84748,7 +85029,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2021-03-02"
         },
         {
           "id": "gi-item-330034",
@@ -84759,7 +85041,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2020-11-11"
         },
         {
           "id": "gi-item-330035",
@@ -84770,7 +85053,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2021-09-01"
         },
         {
           "id": "gi-item-330036",
@@ -84781,7 +85065,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2021-09-01"
         },
         {
           "id": "gi-item-330037",
@@ -84792,7 +85077,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2022-02-16"
         },
         {
           "id": "gi-item-330038",
@@ -84803,7 +85089,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2020-09-28"
         },
         {
           "id": "gi-item-330039",
@@ -84814,7 +85101,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2021-02-03"
         },
         {
           "id": "gi-item-330040",
@@ -84825,7 +85113,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2020-12-01"
         },
         {
           "id": "gi-item-330041",
@@ -84836,7 +85125,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2020-12-23"
         },
         {
           "id": "gi-item-330042",
@@ -84847,7 +85137,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2021-12-14"
         },
         {
           "id": "gi-item-330043",
@@ -84858,7 +85149,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2022-08-24"
         },
         {
           "id": "gi-item-330044",
@@ -84869,7 +85161,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2022-11-02"
         },
         {
           "id": "gi-item-330045",
@@ -84913,7 +85206,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2022-01-05"
         },
         {
           "id": "gi-item-330049",
@@ -84924,7 +85218,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2022-09-28"
         },
         {
           "id": "gi-item-330050",
@@ -84935,7 +85230,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2021-04-28"
         },
         {
           "id": "gi-item-330051",
@@ -84946,7 +85242,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2021-06-29"
         },
         {
           "id": "gi-item-330052",
@@ -84957,7 +85254,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2025-01-21"
         },
         {
           "id": "gi-item-330053",
@@ -84968,7 +85266,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2024-03-13"
         },
         {
           "id": "gi-item-330054",
@@ -84979,7 +85278,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2022-12-07"
         },
         {
           "id": "gi-item-330055",
@@ -84990,7 +85290,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2023-03-01"
         },
         {
           "id": "gi-item-330056",
@@ -85001,7 +85302,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2023-01-18"
         },
         {
           "id": "gi-item-330057",
@@ -85012,7 +85314,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2022-10-14"
         },
         {
           "id": "gi-item-330058",
@@ -85023,7 +85326,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2022-09-09"
         },
         {
           "id": "gi-item-330059",
@@ -85034,7 +85338,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2023-05-02"
         },
         {
           "id": "gi-item-330060",
@@ -85067,7 +85372,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2022-11-18"
         },
         {
           "id": "gi-item-330063",
@@ -85078,7 +85384,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2022-05-31"
         },
         {
           "id": "gi-item-330064",
@@ -85089,7 +85396,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2023-08-16"
         },
         {
           "id": "gi-item-330065",
@@ -85100,7 +85408,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2023-08-16"
         },
         {
           "id": "gi-item-330066",
@@ -85111,7 +85420,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2021-12-14"
         },
         {
           "id": "gi-item-330067",
@@ -85122,7 +85432,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2023-01-18"
         },
         {
           "id": "gi-item-330068",
@@ -85166,7 +85477,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2021-11-02"
         },
         {
           "id": "gi-item-330072",
@@ -85177,7 +85489,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2021-08-10"
         },
         {
           "id": "gi-item-330073",
@@ -85210,7 +85523,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2023-11-08"
         },
         {
           "id": "gi-item-330076",
@@ -85221,7 +85535,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2023-09-27"
         },
         {
           "id": "gi-item-330077",
@@ -85232,7 +85547,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2023-05-24"
         },
         {
           "id": "gi-item-330078",
@@ -85254,7 +85570,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2022-06-21"
         },
         {
           "id": "gi-item-330080",
@@ -85265,7 +85582,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2022-12-07"
         },
         {
           "id": "gi-item-330081",
@@ -85298,7 +85616,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2023-10-17"
         },
         {
           "id": "gi-item-330084",
@@ -85309,7 +85628,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2023-11-08"
         },
         {
           "id": "gi-item-330085",
@@ -85320,7 +85640,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2020-12-01"
         },
         {
           "id": "gi-item-330086",
@@ -85331,7 +85652,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2022-01-05"
         },
         {
           "id": "gi-item-330087",
@@ -85342,7 +85664,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2023-05-02"
         },
         {
           "id": "gi-item-330088",
@@ -85397,7 +85720,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2024-01-09"
         },
         {
           "id": "gi-item-330093",
@@ -85408,7 +85732,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2023-12-20"
         },
         {
           "id": "gi-item-330094",
@@ -85430,7 +85755,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2023-09-05"
         },
         {
           "id": "gi-item-330096",
@@ -85441,7 +85767,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2024-01-31"
         },
         {
           "id": "gi-item-330097",
@@ -85463,7 +85790,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2024-03-13"
         },
         {
           "id": "gi-item-330099",
@@ -85496,7 +85824,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2021-04-06"
         },
         {
           "id": "gi-item-330102",
@@ -85507,7 +85836,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2024-06-25"
         },
         {
           "id": "gi-item-330103",
@@ -85529,7 +85859,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2024-08-28"
         },
         {
           "id": "gi-item-330105",
@@ -85540,7 +85871,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2024-06-05"
         },
         {
           "id": "gi-item-330106",
@@ -85551,7 +85883,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2024-04-24"
         },
         {
           "id": "gi-item-330107",
@@ -85562,7 +85895,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2024-09-17"
         },
         {
           "id": "gi-item-330108",
@@ -85573,7 +85907,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2024-08-28"
         },
         {
           "id": "gi-item-330109",
@@ -85584,7 +85919,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2024-08-06"
         },
         {
           "id": "gi-item-330110",
@@ -85595,7 +85931,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2024-06-05"
         },
         {
           "id": "gi-item-330111",
@@ -85606,7 +85943,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2024-10-09"
         },
         {
           "id": "gi-item-330112",
@@ -85617,7 +85955,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2025-01-01"
         },
         {
           "id": "gi-item-330113",
@@ -85628,7 +85967,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2025-01-01"
         },
         {
           "id": "gi-item-330114",
@@ -85639,7 +85979,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2024-11-20"
         },
         {
           "id": "gi-item-330115",
@@ -85650,7 +85991,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2025-01-21"
         },
         {
           "id": "gi-item-330116",
@@ -85661,7 +86003,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2022-07-13"
         },
         {
           "id": "gi-item-330117",
@@ -85683,7 +86026,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2025-03-26"
         },
         {
           "id": "gi-item-330119",
@@ -85694,7 +86038,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2025-02-12"
         },
         {
           "id": "gi-item-330120",
@@ -85716,7 +86061,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2025-03-26"
         },
         {
           "id": "gi-item-330122",
@@ -85727,7 +86073,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2025-05-07"
         },
         {
           "id": "gi-item-330123",
@@ -85749,7 +86096,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2025-05-07"
         },
         {
           "id": "gi-item-330125",
@@ -85760,7 +86108,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2024-01-31"
         },
         {
           "id": "gi-item-330126",
@@ -85782,7 +86131,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2025-06-18"
         },
         {
           "id": "gi-item-330128",
@@ -85793,7 +86143,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2024-11-20"
         },
         {
           "id": "gi-item-330129",
@@ -85815,7 +86166,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2023-03-21"
         },
         {
           "id": "gi-item-330131",
@@ -85826,7 +86178,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2025-07-30"
         },
         {
           "id": "gi-item-330132",
@@ -85848,7 +86201,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2025-06-18"
         },
         {
           "id": "gi-item-330134",
@@ -85859,7 +86213,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2025-09-30"
         },
         {
           "id": "gi-item-330135",
@@ -85881,7 +86236,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2025-09-30"
         },
         {
           "id": "gi-item-330137",
@@ -85892,7 +86248,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2025-09-10"
         },
         {
           "id": "gi-item-330138",
@@ -85914,7 +86271,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2025-10-22"
         },
         {
           "id": "gi-item-330140",
@@ -87520,7 +87878,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2020-10-20"
         },
         {
           "id": "gi-item-331002",
@@ -87531,7 +87890,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2020-12-23"
         },
         {
           "id": "gi-item-331003",
@@ -87553,7 +87913,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2020-10-20"
         },
         {
           "id": "gi-item-331005",
@@ -87564,7 +87925,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2020-11-11"
         },
         {
           "id": "gi-item-331006",
@@ -87586,7 +87948,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2020-10-20"
         },
         {
           "id": "gi-item-331008",
@@ -87597,7 +87960,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2020-10-20"
         },
         {
           "id": "gi-item-331009",
@@ -87619,7 +87983,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2021-02-23"
         },
         {
           "id": "gi-item-331011",
@@ -87630,7 +87995,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2021-07-21"
         },
         {
           "id": "gi-item-331012",
@@ -87652,7 +88018,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2020-10-20"
         },
         {
           "id": "gi-item-331014",
@@ -87663,7 +88030,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2020-09-28"
         },
         {
           "id": "gi-item-331015",
@@ -87916,7 +88284,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2020-09-28"
         },
         {
           "id": "gi-item-331038",
@@ -87927,7 +88296,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2022-11-02"
         },
         {
           "id": "gi-item-331039",
@@ -87938,7 +88308,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2021-03-17"
         },
         {
           "id": "gi-item-331040",
@@ -87949,7 +88320,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2021-01-12"
         },
         {
           "id": "gi-item-331041",
@@ -87960,7 +88332,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2020-09-28"
         },
         {
           "id": "gi-item-331042",
@@ -87971,7 +88344,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2020-12-01"
         },
         {
           "id": "gi-item-331043",
@@ -87982,7 +88356,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2021-09-01"
         },
         {
           "id": "gi-item-331044",
@@ -87993,7 +88368,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2021-03-17"
         },
         {
           "id": "gi-item-331045",
@@ -88004,7 +88380,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2020-12-23"
         },
         {
           "id": "gi-item-331046",
@@ -88147,7 +88524,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2020-10-20"
         },
         {
           "id": "gi-item-331059",
@@ -88158,7 +88536,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2022-12-07"
         },
         {
           "id": "gi-item-331060",
@@ -88169,7 +88548,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2023-03-01"
         },
         {
           "id": "gi-item-331061",
@@ -88180,7 +88560,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2021-02-03"
         },
         {
           "id": "gi-item-331062",
@@ -88191,7 +88572,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2023-01-18"
         },
         {
           "id": "gi-item-331063",
@@ -88279,7 +88661,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2023-09-27"
         },
         {
           "id": "gi-item-331071",
@@ -88323,7 +88706,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2023-10-17"
         },
         {
           "id": "gi-item-331075",
@@ -88356,7 +88740,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2023-11-08"
         },
         {
           "id": "gi-item-331078",
@@ -88411,7 +88796,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2023-10-17"
         },
         {
           "id": "gi-item-331083",
@@ -88466,7 +88852,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2023-09-27"
         },
         {
           "id": "gi-item-331088",
@@ -88576,7 +88963,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2023-09-27"
         },
         {
           "id": "gi-item-331098",
@@ -88675,7 +89063,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2022-05-31"
         },
         {
           "id": "gi-item-331107",
@@ -88686,7 +89075,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2021-09-21"
         },
         {
           "id": "gi-item-331108",
@@ -88730,7 +89120,8 @@
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2025-01-01"
         },
         {
           "id": "gi-item-331112",
@@ -91064,7 +91455,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2021-01-12"
         },
         {
           "id": "gi-item-334001",
@@ -91077,7 +91469,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2024-03-13"
         },
         {
           "id": "gi-item-334002",
@@ -91090,7 +91483,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2020-12-01"
         },
         {
           "id": "gi-item-334003",
@@ -91103,7 +91497,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2021-07-21"
         },
         {
           "id": "gi-item-334004",
@@ -91116,7 +91511,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2020-10-20"
         },
         {
           "id": "gi-item-334005",
@@ -91129,7 +91525,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2024-03-13"
         },
         {
           "id": "gi-item-334006",
@@ -91142,7 +91539,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2024-03-13"
         },
         {
           "id": "gi-item-334007",
@@ -91155,7 +91553,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2020-09-28"
         },
         {
           "id": "gi-item-334008",
@@ -91168,7 +91567,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2020-12-23"
         },
         {
           "id": "gi-item-334009",
@@ -91181,7 +91581,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2024-03-13"
         },
         {
           "id": "gi-item-334010",
@@ -91194,7 +91595,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2021-08-10"
         },
         {
           "id": "gi-item-334011",
@@ -91207,7 +91609,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2020-09-28"
         },
         {
           "id": "gi-item-334012",
@@ -91220,7 +91623,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2020-12-01"
         },
         {
           "id": "gi-item-334013",
@@ -91233,7 +91637,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2021-02-17"
         },
         {
           "id": "gi-item-334014",
@@ -91246,7 +91651,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2020-10-20"
         },
         {
           "id": "gi-item-334015",
@@ -91259,7 +91665,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2024-03-13"
         },
         {
           "id": "gi-item-334016",
@@ -91272,7 +91679,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2020-11-11"
         },
         {
           "id": "gi-item-334017",
@@ -91285,7 +91693,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2020-10-20"
         },
         {
           "id": "gi-item-334018",
@@ -91298,7 +91707,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2022-08-24"
         },
         {
           "id": "gi-item-334019",
@@ -91363,7 +91773,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2020-11-11"
         },
         {
           "id": "gi-item-334024",
@@ -91376,7 +91787,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2022-09-28"
         },
         {
           "id": "gi-item-334025",
@@ -91389,7 +91801,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2020-09-28"
         },
         {
           "id": "gi-item-334026",
@@ -91428,7 +91841,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2020-11-11"
         },
         {
           "id": "gi-item-334029",
@@ -91441,7 +91855,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2020-10-20"
         },
         {
           "id": "gi-item-334030",
@@ -91454,7 +91869,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2021-05-18"
         },
         {
           "id": "gi-item-334031",
@@ -91467,7 +91883,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2021-09-21"
         },
         {
           "id": "gi-item-334032",
@@ -91480,7 +91897,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2021-09-01"
         },
         {
           "id": "gi-item-334033",
@@ -91493,7 +91911,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2022-03-30"
         },
         {
           "id": "gi-item-334034",
@@ -91506,7 +91925,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2021-12-14"
         },
         {
           "id": "gi-item-334035",
@@ -91519,7 +91939,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2022-08-24"
         },
         {
           "id": "gi-item-334036",
@@ -91532,7 +91953,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2020-11-11"
         },
         {
           "id": "gi-item-334037",
@@ -91545,7 +91967,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2021-03-02"
         },
         {
           "id": "gi-item-334038",
@@ -91558,7 +91981,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2021-09-01"
         },
         {
           "id": "gi-item-334039",
@@ -91571,7 +91995,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2022-02-16"
         },
         {
           "id": "gi-item-334040",
@@ -91584,7 +92009,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2020-09-28"
         },
         {
           "id": "gi-item-334041",
@@ -91597,7 +92023,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2021-02-03"
         },
         {
           "id": "gi-item-334042",
@@ -91610,7 +92037,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2020-12-01"
         },
         {
           "id": "gi-item-334043",
@@ -91623,7 +92051,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2020-12-23"
         },
         {
           "id": "gi-item-334044",
@@ -91636,7 +92065,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2022-11-02"
         },
         {
           "id": "gi-item-334045",
@@ -91688,7 +92118,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2022-01-05"
         },
         {
           "id": "gi-item-334049",
@@ -91701,7 +92132,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2022-09-28"
         },
         {
           "id": "gi-item-334050",
@@ -91714,7 +92146,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2021-04-28"
         },
         {
           "id": "gi-item-334051",
@@ -91727,7 +92160,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2021-06-29"
         },
         {
           "id": "gi-item-334052",
@@ -91740,7 +92174,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2025-01-21"
         },
         {
           "id": "gi-item-334053",
@@ -91753,7 +92188,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2024-03-13"
         },
         {
           "id": "gi-item-334054",
@@ -91766,7 +92202,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2023-03-01"
         },
         {
           "id": "gi-item-334055",
@@ -91779,7 +92216,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2022-12-07"
         },
         {
           "id": "gi-item-334056",
@@ -91792,7 +92230,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2023-01-18"
         },
         {
           "id": "gi-item-334057",
@@ -91805,7 +92244,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2022-10-14"
         },
         {
           "id": "gi-item-334058",
@@ -91818,7 +92258,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2022-09-09"
         },
         {
           "id": "gi-item-334059",
@@ -91831,7 +92272,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2023-05-02"
         },
         {
           "id": "gi-item-334060",
@@ -91870,7 +92312,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2022-11-18"
         },
         {
           "id": "gi-item-334063",
@@ -91883,7 +92326,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2022-05-31"
         },
         {
           "id": "gi-item-334064",
@@ -91896,7 +92340,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2023-08-16"
         },
         {
           "id": "gi-item-334065",
@@ -91909,7 +92354,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2023-08-16"
         },
         {
           "id": "gi-item-334066",
@@ -91922,7 +92368,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2021-12-14"
         },
         {
           "id": "gi-item-334067",
@@ -91935,7 +92382,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2023-01-18"
         },
         {
           "id": "gi-item-334068",
@@ -91987,7 +92435,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2021-11-02"
         },
         {
           "id": "gi-item-334072",
@@ -92000,7 +92449,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2021-08-10"
         },
         {
           "id": "gi-item-334073",
@@ -92039,7 +92489,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2023-11-08"
         },
         {
           "id": "gi-item-334076",
@@ -92052,7 +92503,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2023-09-27"
         },
         {
           "id": "gi-item-334077",
@@ -92065,7 +92517,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2023-05-24"
         },
         {
           "id": "gi-item-334078",
@@ -92091,7 +92544,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2022-06-21"
         },
         {
           "id": "gi-item-334080",
@@ -92104,7 +92558,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2022-12-07"
         },
         {
           "id": "gi-item-334081",
@@ -92143,7 +92598,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2023-10-17"
         },
         {
           "id": "gi-item-334084",
@@ -92156,7 +92612,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2023-11-08"
         },
         {
           "id": "gi-item-334085",
@@ -92169,7 +92626,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2020-12-01"
         },
         {
           "id": "gi-item-334086",
@@ -92182,7 +92640,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2022-01-05"
         },
         {
           "id": "gi-item-334087",
@@ -92195,7 +92654,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2023-05-02"
         },
         {
           "id": "gi-item-334088",
@@ -92260,7 +92720,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2024-01-09"
         },
         {
           "id": "gi-item-334093",
@@ -92273,7 +92734,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2023-12-20"
         },
         {
           "id": "gi-item-334094",
@@ -92299,7 +92761,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2023-09-05"
         },
         {
           "id": "gi-item-334096",
@@ -92312,7 +92775,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2024-01-31"
         },
         {
           "id": "gi-item-334097",
@@ -92338,7 +92802,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2024-03-13"
         },
         {
           "id": "gi-item-334099",
@@ -92377,7 +92842,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2021-04-06"
         },
         {
           "id": "gi-item-334102",
@@ -92390,7 +92856,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2024-06-25"
         },
         {
           "id": "gi-item-334103",
@@ -92416,7 +92883,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2024-08-28"
         },
         {
           "id": "gi-item-334105",
@@ -92429,7 +92897,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2024-06-05"
         },
         {
           "id": "gi-item-334106",
@@ -92442,7 +92911,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2024-04-24"
         },
         {
           "id": "gi-item-334107",
@@ -92455,7 +92925,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2024-09-17"
         },
         {
           "id": "gi-item-334108",
@@ -92468,7 +92939,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2024-08-28"
         },
         {
           "id": "gi-item-334109",
@@ -92481,7 +92953,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2024-08-06"
         },
         {
           "id": "gi-item-334110",
@@ -92494,7 +92967,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2024-06-05"
         },
         {
           "id": "gi-item-334111",
@@ -92507,7 +92981,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2024-10-09"
         },
         {
           "id": "gi-item-334112",
@@ -92520,7 +92995,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2025-01-01"
         },
         {
           "id": "gi-item-334113",
@@ -92533,7 +93009,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2025-01-01"
         },
         {
           "id": "gi-item-334114",
@@ -92546,7 +93023,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2024-11-20"
         },
         {
           "id": "gi-item-334115",
@@ -92559,7 +93037,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2025-01-21"
         },
         {
           "id": "gi-item-334116",
@@ -92572,7 +93051,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2022-07-13"
         },
         {
           "id": "gi-item-334117",
@@ -92598,7 +93078,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2025-03-26"
         },
         {
           "id": "gi-item-334119",
@@ -92611,7 +93092,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2025-02-12"
         },
         {
           "id": "gi-item-334120",
@@ -92637,7 +93119,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2025-03-26"
         },
         {
           "id": "gi-item-334122",
@@ -92650,7 +93133,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2025-05-07"
         },
         {
           "id": "gi-item-334123",
@@ -92676,7 +93160,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2025-05-07"
         },
         {
           "id": "gi-item-334125",
@@ -92689,7 +93174,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2024-01-31"
         },
         {
           "id": "gi-item-334126",
@@ -92715,7 +93201,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2025-06-18"
         },
         {
           "id": "gi-item-334128",
@@ -92728,7 +93215,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2024-11-20"
         },
         {
           "id": "gi-item-334129",
@@ -92754,7 +93242,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2023-03-21"
         },
         {
           "id": "gi-item-334131",
@@ -92767,7 +93256,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2025-07-30"
         },
         {
           "id": "gi-item-334132",
@@ -92793,7 +93283,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2025-06-18"
         },
         {
           "id": "gi-item-334134",
@@ -92806,7 +93297,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2025-09-30"
         },
         {
           "id": "gi-item-334135",
@@ -92832,7 +93324,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2025-09-30"
         },
         {
           "id": "gi-item-334137",
@@ -92845,7 +93338,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2025-09-10"
         },
         {
           "id": "gi-item-334138",
@@ -92871,7 +93365,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2025-10-22"
         },
         {
           "id": "gi-item-334140",
@@ -94769,7 +95264,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2020-10-20"
         },
         {
           "id": "gi-item-335002",
@@ -94782,7 +95278,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2020-12-23"
         },
         {
           "id": "gi-item-335003",
@@ -94808,7 +95305,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2020-10-20"
         },
         {
           "id": "gi-item-335005",
@@ -94821,7 +95319,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2020-11-11"
         },
         {
           "id": "gi-item-335006",
@@ -94847,7 +95346,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2020-10-20"
         },
         {
           "id": "gi-item-335008",
@@ -94860,7 +95360,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2020-10-20"
         },
         {
           "id": "gi-item-335009",
@@ -94886,7 +95387,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2021-02-23"
         },
         {
           "id": "gi-item-335011",
@@ -94899,7 +95401,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2021-07-21"
         },
         {
           "id": "gi-item-335012",
@@ -94925,7 +95428,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2020-10-20"
         },
         {
           "id": "gi-item-335014",
@@ -94938,7 +95442,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2020-09-28"
         },
         {
           "id": "gi-item-335015",
@@ -95237,7 +95742,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2020-12-23"
         },
         {
           "id": "gi-item-335038",
@@ -95250,7 +95756,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2020-09-28"
         },
         {
           "id": "gi-item-335039",
@@ -95263,7 +95770,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2022-11-02"
         },
         {
           "id": "gi-item-335040",
@@ -95276,7 +95784,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2021-03-17"
         },
         {
           "id": "gi-item-335041",
@@ -95289,7 +95798,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2021-01-12"
         },
         {
           "id": "gi-item-335042",
@@ -95302,7 +95812,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2020-09-28"
         },
         {
           "id": "gi-item-335043",
@@ -95315,7 +95826,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2020-12-01"
         },
         {
           "id": "gi-item-335044",
@@ -95328,7 +95840,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2021-09-01"
         },
         {
           "id": "gi-item-335045",
@@ -95341,7 +95854,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2021-03-17"
         },
         {
           "id": "gi-item-335046",
@@ -95510,7 +96024,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2020-10-20"
         },
         {
           "id": "gi-item-335059",
@@ -95523,7 +96038,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2022-12-07"
         },
         {
           "id": "gi-item-335060",
@@ -95536,7 +96052,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2023-03-01"
         },
         {
           "id": "gi-item-335061",
@@ -95549,7 +96066,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2021-02-03"
         },
         {
           "id": "gi-item-335062",
@@ -95562,7 +96080,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2023-01-18"
         },
         {
           "id": "gi-item-335063",
@@ -95666,7 +96185,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2023-09-27"
         },
         {
           "id": "gi-item-335071",
@@ -95718,7 +96238,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2023-10-17"
         },
         {
           "id": "gi-item-335075",
@@ -95757,7 +96278,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2023-11-08"
         },
         {
           "id": "gi-item-335078",
@@ -95822,7 +96344,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2023-10-17"
         },
         {
           "id": "gi-item-335083",
@@ -95887,7 +96410,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2023-09-27"
         },
         {
           "id": "gi-item-335088",
@@ -96017,7 +96541,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2023-09-27"
         },
         {
           "id": "gi-item-335098",
@@ -96134,7 +96659,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2022-05-31"
         },
         {
           "id": "gi-item-335107",
@@ -96147,7 +96673,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2021-09-21"
         },
         {
           "id": "gi-item-335108",
@@ -96199,7 +96726,8 @@
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2025-01-01"
         },
         {
           "id": "gi-item-335112",

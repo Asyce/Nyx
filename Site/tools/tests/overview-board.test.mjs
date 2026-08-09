@@ -84,9 +84,14 @@ test('the overview renders five banner columns and folds the old rail into the g
   assert.match(appSource, /gp-ov-timers[\s\S]{0,120}<ResetTimersPanel gameKey=\{cfg\.key\}/);
   assert.match(appSource, /gp-ov-codes[\s\S]{0,400}<CodesPanel/);
   assert.match(appSource, /gp-ov-region[\s\S]{0,120}<TimePreferenceControl gameKey=\{cfg\.key\}/);
-  // The right-hand rail is gone from game pages; the hub still uses it.
-  assert.doesNotMatch(appSource, /<OverviewAside cfg=\{cfg\}/);
-  assert.match(appSource, /<OverviewAside cfg=\{NYX_META\}/);
+  // 2026-08-09: the right-hand rail is gone everywhere — the hub's Banners tab
+  // now holds five per-game columns and codes moved to their own tab.
+  assert.doesNotMatch(appSource, /<OverviewAside/);
+  assert.match(appSource, /<NyxBannerColumns onOpenMaterial=\{onOpenMaterial\}/);
+  assert.match(appSource, /function NyxBannerColumn\(\{ cfg, onOpenMaterial, now \}\)/);
+  // The hub lists headline units only, each group stamped with its own window.
+  assert.match(appSource, /const units = \[\.\.\.column\.heroes, \.\.\.column\.others\]/);
+  assert.match(appSource, /className="nyx-ban-phase-when"/);
 });
 
 test('the grid reflows instead of overflowing on narrow screens', () => {

@@ -24,7 +24,7 @@
       "title": "Ad Astra Nova",
       "slug": "himeko-nova",
       "release": 1784106000000,
-      "updated": 1784851200000,
+      "updated": 1784844000000,
       "sourceOrder": 0,
       "icon": "../../Database/GameData/hsr/assets/characters/round/1510.webp",
       "art": "../../Database/GameData/hsr/assets/characters/draw-card/1510.webp",
@@ -1735,7 +1735,7 @@
       "slug": "blade-mortenax",
       "release": 1780304400000,
       "releasePatch": "4.3",
-      "updated": 1784073600000,
+      "updated": 1784066400000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm5410860|Daman Mills",
@@ -3229,7 +3229,7 @@
         "ko": "\uc5b4\ubca4\uce04\ub9b0\u2022\uc6e8\uc774\ube0c"
       },
       "slug": "aventurine-waveflair",
-      "updated": 1782777600000,
+      "updated": 1782770400000,
       "sourceOrder": 0,
       "icon": "../../Database/GameData/hsr/assets/characters/round/1513.webp",
       "art": "../../Database/GameData/hsr/assets/characters/draw-card/1513.webp",
@@ -4734,7 +4734,7 @@
         "ko": "\ub85c\ube48\u2022\uc11c\uba38\ub808\ud1a0"
       },
       "slug": "robin-summeretto",
-      "updated": 1782777600000,
+      "updated": 1782770400000,
       "sourceOrder": 0,
       "icon": "../../Database/GameData/hsr/assets/characters/round/1512.webp",
       "art": "../../Database/GameData/hsr/assets/characters/draw-card/1512.webp",
@@ -6106,7 +6106,7 @@
       "slug": "evanescia",
       "release": 1778662800000,
       "releasePatch": "4.2",
-      "updated": 1782259200000,
+      "updated": 1782252000000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm11116720|Nathalie Ferare",
@@ -7550,7 +7550,7 @@
       "slug": "yao-guang",
       "release": 1770976800000,
       "releasePatch": "4.0",
-      "updated": 1781481600000,
+      "updated": 1781474400000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm14887295|Ari Thrash",
@@ -8999,7 +8999,7 @@
       "slug": "cerydra",
       "release": 1756803600000,
       "releasePatch": "3.5",
-      "updated": 1780531200000,
+      "updated": 1780524000000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm5966262|Rhiannon Moushall",
@@ -10375,7 +10375,7 @@
       "slug": "ashveil",
       "release": 1774432800000,
       "releasePatch": "4.0",
-      "updated": 1780185600000,
+      "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm10853569|Blythe Melin",
@@ -11755,7 +11755,7 @@
       "slug": "cipher",
       "release": 1749632400000,
       "releasePatch": "3.3",
-      "updated": 1780185600000,
+      "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm14096354|Shea Fairaday",
@@ -13134,7 +13134,7 @@
       "slug": "cyrene",
       "release": 1762336800000,
       "releasePatch": "3.7",
-      "updated": 1780185600000,
+      "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm12899945|Aiden Dawn",
@@ -14575,7 +14575,7 @@
       "slug": "dan-heng-permansor-terrae",
       "release": 1760173200000,
       "releasePatch": "3.6",
-      "updated": 1780185600000,
+      "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm8855652|Nicholas Leung",
@@ -15955,7 +15955,7 @@
       "slug": "hysilens",
       "release": 1755075600000,
       "releasePatch": "3.5",
-      "updated": 1780185600000,
+      "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm1133857|Rosie Day",
@@ -17330,7 +17330,7 @@
       "title": "The Remembrance of None",
       "slug": "march-7th-evernight",
       "release": 1758790800000,
-      "updated": 1780185600000,
+      "updated": 1780178400000,
       "sourceOrder": 0,
       "icon": "../../Database/GameData/hsr/assets/characters/round/1413.webp",
       "art": "../../Database/GameData/hsr/assets/characters/draw-card/1413.webp",
@@ -18720,7 +18720,7 @@
       "slug": "phainon",
       "release": 1751446800000,
       "releasePatch": "3.4",
-      "updated": 1780185600000,
+      "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm10853574|Joshua Waters",
@@ -20351,7 +20351,7 @@
       "title": "Godmode Player",
       "slug": "silver-wolf-lv-999",
       "release": 1776848400000,
-      "updated": 1780185600000,
+      "updated": 1780178400000,
       "sourceOrder": 0,
       "icon": "../../Database/GameData/hsr/assets/characters/round/1506.webp",
       "art": "../../Database/GameData/hsr/assets/characters/draw-card/1506.webp",
@@ -21861,7 +21861,7 @@
       "slug": "sparxie",
       "release": 1770976800000,
       "releasePatch": "4.0",
-      "updated": 1780185600000,
+      "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm5213242|Lizzie Freeman",
@@ -23362,7 +23362,7 @@
       "slug": "sunday",
       "release": 1733306400000,
       "releasePatch": "2.7",
-      "updated": 1780185600000,
+      "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm8427541|Griffin Puatu",
@@ -24749,7 +24749,7 @@
       "slug": "the-dahlia",
       "release": 1765101600000,
       "releasePatch": "3.8",
-      "updated": 1780185600000,
+      "updated": 1780178400000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm2583829|Cristina Vee",

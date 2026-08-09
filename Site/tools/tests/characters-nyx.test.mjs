@@ -36,23 +36,34 @@ test('Characters tabs share the shell control and pinned favourites stay on Rost
   assert.doesNotMatch(materials, /cm-tab-orbit/);
   assert.ok(materials.indexOf('curTab === \'roster\' && pinnedFavourites') > materials.indexOf('<div className="cm-body">'), 'favourites scroll with the roster body');
   assert.match(materials, /<span className="cm-character-tabs">[\s\S]*className="cm-detail-back"[\s\S]*>Materials<\/button>/, 'Back sits beside Materials and Character Kit');
-  assert.match(css, /\.cm-tabs\{[^}]*display:inline-grid[^}]*grid-auto-columns:1fr/, 'desktop tabs size to the widest label (2026-07-15 #7)');
-  assert.match(css, /@media \(max-width: 680px\)[\s\S]*grid-template-columns:minmax\(0,326px\)/);
+  // 2026-08-09: tabs hug their own label instead of sharing one width — equal
+  // 1fr columns made the active-tab underline far wider than the word.
+  assert.match(css, /\.cm-tabs\{[^}]*display:inline-flex/, 'each tab sizes to its own label (2026-08-09)');
+  assert.doesNotMatch(css, /\.cm-tabs\{[^}]*grid-auto-columns:1fr/);
 });
 
-test('favourite visibility, hover treatment, compact Nyx cards, and origin routing are wired', async () => {
+// 2026-08-09: pinned favourites are icons, always, for every game including the
+// hub. The Card/Icon toggle, the Hide/Show button, the 5-card limit and the
+// "More favourites" overflow row are all gone.
+test('pinned favourites are icon-only, with hover treatment and origin routing wired', async () => {
   const [app, materials, storage, css] = await Promise.all([
     read('src/app/nyx-app.jsx'), read('src/features/materials/char-materials.jsx'),
     read('src/shared/pinned-favourites.js'), read('src/styles/game-page-shared.css'),
   ]);
+  assert.doesNotMatch(app, /gp-fav-modes|gp-fav-visibility|CurrentFavCard|gp-card-grid|gp-fav-overflow/);
+  assert.doesNotMatch(storage, /nyxLoadFavouriteMode|nyxSaveFavouriteVisibility|NYX_FAVOURITE_CARD_LIMIT/);
+  assert.doesNotMatch(css, /\.gp-fav-modes|\.gp-fav-visibility|\.gp-card-grid/);
+  // The retired keys are swept so nobody is stuck in a mode that no longer exists.
+  assert.match(storage, /nyx:pinned-favourites-mode:/);
   assert.match(storage, /nyx:pinned-favourites-visible:/);
-  assert.match(app, /nyxSaveFavouriteVisibility\(cfg\.key, !visible\)/);
+  assert.match(storage, /function nyxForgetRetiredFavouriteSettings/);
+  assert.match(app, /nyxForgetRetiredFavouriteSettings\(/);
+  assert.match(app, /<div className="gp-fav-icon-grid">/);
   assert.match(app, /from:cfg\.key === 'nyx' \? 'nyx' : 'characters'/);
   assert.match(app, /selection\.from === 'calendar' \|\| selection\.from === 'nyx'/);
   assert.match(materials, /selectedFrom === 'nyx' \? 'Back to Nyx'/);
   assert.match(css, /\.cm-favourite-star\{[^}]*opacity:0[^}]*pointer-events:none/);
   assert.doesNotMatch(css, /@media \(hover:none\), \(pointer:coarse\)[\s\S]{0,120}\.cm-favourite-star/);
-  assert.match(css, /\.gp-card-grid\.hub\{ grid-template-columns:repeat\(auto-fill,minmax\(132px,160px\)\)/);
   assert.doesNotMatch(app, /gp-fav-game|appGameIcon\(ch\.gameKey\)/);
 });
 

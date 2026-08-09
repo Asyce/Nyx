@@ -4547,6 +4547,55 @@ function normalizeWuwaWeaponEntry(entry, page) {
   };
 }
 
+/* The Database sorts "newest first" inside each rarity (user 2026-08-09), but
+   none of the item feeds carry a release date. Banner history does: it records
+   every weapon/light-cone/W-engine run with a real date, so the first run is the
+   release. Anything that never had a banner (craftables, shop and battle-pass
+   gear) keeps no date and falls back to its internal id, which climbs over time.
+   Keyed by normalized name so "Amos' Bow" matches across sources. */
+const databaseReleaseCache = new Map();
+
+function databaseReleaseDates(game) {
+  if (databaseReleaseCache.has(game)) return databaseReleaseCache.get(game);
+  const dates = new Map();
+  const file = `BannerHistory/${game}.json`;
+  if (exists(file)) {
+    for (const record of readJson(file).records || []) {
+      if (record?.permanent) continue;
+      const start = Object.values(record.windowsByRegion || {})
+        .map((window) => window?.start).filter(Boolean).sort()[0];
+      if (!start) continue;
+      const day = start.slice(0, 10);
+      for (const featured of record.featured || []) {
+        const id = String(featured?.name || '').toLowerCase().replace(/[^a-z0-9]+/g, '');
+        if (!id) continue;
+        const known = dates.get(id);
+        if (!known || day < known) dates.set(id, day);
+      }
+    }
+  }
+  databaseReleaseCache.set(game, dates);
+  return dates;
+}
+
+function databaseReleasedOn(game, name) {
+  const id = String(name || '').toLowerCase().replace(/[^a-z0-9]+/g, '');
+  return id ? (databaseReleaseDates(game).get(id) || null) : null;
+}
+
+// Stamps every row in a collection with its release date, so one call covers a
+// whole collection regardless of which builder produced it.
+function withDatabaseReleaseDates(game, collection) {
+  if (!collection || !Array.isArray(collection.items)) return collection;
+  return {
+    ...collection,
+    items: collection.items.map((item) => {
+      const released = databaseReleasedOn(game, item?.name);
+      return released ? { ...item, released } : item;
+    }),
+  };
+}
+
 function normalizeGameDataItems(rel, title, source, mapItem, limit = Infinity) {
   const rows = readJson(rel).slice(0, limit).map(mapItem).filter(Boolean);
   return {
@@ -4581,14 +4630,48 @@ function normalizeBangbooSkills(skills) {
   }).filter(Boolean);
 }
 
+/* Some upstream records ship an empty `assets` block, so no filename is ever
+   produced and the row silently falls back to the grey placeholder — that is why
+   Glacier and Snowfield and Prayers to the Firmament had no art (user
+   2026-08-09). Genshin artifact icons follow a fixed convention, so the set id
+   and its piece slots give the filenames directly. This picks up any such file
+   that is already mirrored, and keeps picking them up automatically as new
+   sets arrive, instead of needing the upstream JSON to name them.
+   It deliberately does NOT invent an image: if nothing is mirrored under the
+   conventional name, the row keeps its placeholder. */
+const ARTIFACT_ICON_SLOTS = [4, 3, 5, 2, 1];
+
+function conventionalArtifactArt(record) {
+  const id = String(record?.id || '').trim();
+  if (!/^\d+$/.test(id)) return null;
+  for (const slot of ARTIFACT_ICON_SLOTS) {
+    const hit = dbAsset(`GameData/gi/assets/artifacts/sets/UI_RelicIcon_${id}_${slot}.webp`);
+    if (hit) return hit;
+  }
+  // Pieces sometimes carry their own icon even when the set block is empty.
+  for (const part of record?.parts || []) {
+    const hit = dbAsset(part?.assets?.icon);
+    if (hit) return hit;
+  }
+  return null;
+}
+
 function buildCollections() {
+  const stamped = buildCollectionsRaw();
+  return Object.fromEntries(Object.entries(stamped).map(([game, list]) => [
+    game,
+    list.map((collection) => withDatabaseReleaseDates(game, collection)),
+  ]));
+}
+
+function buildCollectionsRaw() {
   return {
     gi: [
       normalizeGameDataItems('GameData/gi/live/artifacts.json', 'Artifacts', 'GameData', (it) => ({
         id: 'gi-art-' + it.id,
         name: it.name,
         kind: 'artifact',
-        art: dbAsset(it.assets?.icon),
+        art: dbAsset(it.assets?.icon) || conventionalArtifactArt(it),
         // An artifact-set card represents every piece in the set. Use the
         // highest tier the set can actually drop at as its single card rarity.
         fields: { rarity: databaseRarityLabel(Array.isArray(it.rarity) && it.rarity.length ? Math.max(...it.rarity) : it.rarity), type: it.type },
@@ -5139,12 +5222,52 @@ function buildCodesData() {
   return { updated: src.generatedAt || src.updated || null, maxAgeDays: src.maxAgeDays || null, games };
 }
 
+/* Banner feeds and the roster do not always spell a character the same way
+   (2026-08-09):
+     · HSR publishes "Himeko • Nova", the roster carries "Himeko Nova"
+     · ZZZ publishes full names — "Piper Wheel", "Ukinami Yuzuha" — while the
+       roster uses the in-game short name, "Piper" and "Yuzuha"
+   An exact string compare misses all of those, and a missed match means no icon
+   and no splash art on the banner card. So: compare on letters and digits only,
+   then fall back to a roster name that is the leading or trailing run of words
+   in the banner name. An ambiguous fallback (two roster rows equally close) is
+   dropped rather than guessed. */
+function rosterNameKey(value) {
+  return String(value || '').toLowerCase().replace(/[^a-z0-9]+/g, '');
+}
+
+function rosterNameWords(value) {
+  return String(value || '').toLowerCase().split(/[^a-z0-9]+/).filter(Boolean);
+}
+
+function rosterNameEdgeMatch(rosterName, bannerWords) {
+  const words = rosterNameWords(rosterName);
+  if (!words.length || words.length >= bannerWords.length) return 0;
+  const leads = words.every((word, index) => bannerWords[index] === word);
+  const offset = bannerWords.length - words.length;
+  const trails = words.every((word, index) => bannerWords[offset + index] === word);
+  return leads || trails ? words.length : 0;
+}
+
 function rosterHit(rosters, key, name) {
-  const normalized = String(name || '').toLowerCase();
-  return (rosters[key] || []).find((ch) => {
-    if (String(ch.n || '').toLowerCase() === normalized) return true;
-    return (ch.forms || []).some((form) => String(form.rawName || form.n || '').toLowerCase() === normalized);
-  }) || null;
+  const roster = rosters[key] || [];
+  const wanted = rosterNameKey(name);
+  if (!wanted) return null;
+  const namesOf = (ch) => [ch.n, ...(ch.forms || []).map((form) => form.rawName || form.n)].filter(Boolean);
+  const exact = roster.find((ch) => namesOf(ch).some((row) => rosterNameKey(row) === wanted));
+  if (exact) return exact;
+  const bannerWords = rosterNameWords(name);
+  if (bannerWords.length < 2) return null;
+  let best = null;
+  let bestScore = 0;
+  let tied = false;
+  for (const ch of roster) {
+    const score = Math.max(0, ...namesOf(ch).map((row) => rosterNameEdgeMatch(row, bannerWords)));
+    if (!score) continue;
+    if (score > bestScore) { best = ch; bestScore = score; tied = false; }
+    else if (score === bestScore && best !== ch) tied = true;
+  }
+  return tied ? null : best;
 }
 
 // Rewrite a GameData CDN URL to its local Database-mirror path so nothing loads
@@ -5193,6 +5316,57 @@ function bannerDebutDate(runCounts, name) {
   return dates && dates.size ? [...dates].sort()[0] : null;
 }
 
+// A character can be on a banner before they exist in the live roster — an
+// upcoming patch's featured unit only appears in the GameData BETA channel.
+// Without this the banner ships icon:null and art:null, and the renderer used to
+// substitute one shared game picture, so two different upcoming characters both
+// wore the same face (Odette and Alyosha, 2026-08-09). Their artwork is already
+// mirrored locally; this reads it straight from the beta channel.
+const bannerBetaAssetCache = new Map();
+
+function bannerBetaAssets(key) {
+  if (bannerBetaAssetCache.has(key)) return bannerBetaAssetCache.get(key);
+  const dir = key === 'wuwa' ? 'ww' : key;
+  const file = `GameData/${dir}/beta/characters.json`;
+  const map = new Map();
+  if (exists(file)) {
+    const raw = readJson(file);
+    const rows = Array.isArray(raw) ? raw : (raw?.items || raw?.characters || []);
+    const add = (alias, entry) => {
+      const clean = String(alias || '').trim().toLowerCase();
+      if (clean && !map.has(clean)) map.set(clean, entry);
+    };
+    const segmentAliases = [];
+    for (const row of rows) {
+      const name = String(row?.name || '').trim();
+      if (!name || !row?.assets) continue;
+      // Beta assets are already Database-relative ("GameData/gi/assets/…"), so
+      // they only need the mirror prefix — and dropping if the file is absent,
+      // the same rule localImageRef applies to CDN refs.
+      const localize = (value) => {
+        const clean = String(value || '').trim();
+        if (!clean.startsWith('GameData/') || !exists(clean)) return null;
+        return `../../Database/${clean}`;
+      };
+      const entry = {
+        name,
+        icon: localize(row.assets.circle) || localize(row.assets.icon) || null,
+        art: localize(row.assets.gacha) || localize(row.assets.card) || null,
+        rarity: row.rarity ?? null,
+      };
+      add(name, entry);
+      // Alt versions are "Base • Variant" in game data but announced by the
+      // variant alone; index the segments in a second pass so a base character
+      // never loses its own name to one of its variants.
+      const segments = name.split(/\s*[•·|]\s*/).map((part) => part.trim()).filter(Boolean);
+      if (segments.length > 1) for (const segment of segments) segmentAliases.push([segment, entry]);
+    }
+    for (const [alias, entry] of segmentAliases) add(alias, entry);
+  }
+  bannerBetaAssetCache.set(key, map);
+  return map;
+}
+
 function normalizeBannerCharacter(rosters, key, entry, runCounts) {
   const name = typeof entry === 'string' ? entry : entry?.name;
   if (!name) return null;
@@ -5208,14 +5382,20 @@ function normalizeBannerCharacter(rosters, key, entry, runCounts) {
   // banners show the same face" bug).
   const entryImage = typeof entry === 'object' ? (localImageRef(entry.image || entry.icon || null)) : null;
   const entryFallback = typeof entry === 'object' ? (localImageRef(entry.imageFallback || null)) : null;
+  const beta = local ? null : (bannerBetaAssets(key).get(String(name).toLowerCase()) || null);
+  // Display the game's own name for the character rather than the community
+  // feed's shorthand (user 2026-08-09): game8 announces "Summeretto" and
+  // "Ukinami Yuzuha", the game calls them "Robin • Summeretto" and "Yuzuha".
+  // Only when the roster actually matched — an unmatched name stays as scraped.
+  const displayName = local?.n || beta?.name || name;
   return {
-    name,
-    icon: local?.icon || entryImage || null,
+    name: displayName,
+    icon: local?.icon || entryImage || beta?.icon || null,
     iconFallback: entryFallback || null,
     iconZoom: typeof entry === 'object' ? !!entry.imageFallbackZoom : false,
-    art: local?.art || local?.card || entryImage || null,
+    art: local?.art || local?.card || entryImage || beta?.art || null,
     namecard: local?.namecard || null, // G31: GI banner art prefers the namecard
-    rarity: local?.r || entry?.rarity || null,
+    rarity: local?.r || entry?.rarity || beta?.rarity || null,
     debut,
     debutAt,
   };
@@ -5650,7 +5830,12 @@ for (const [key, pack] of Object.entries(cmBetaDeltas)) {
   );
 }
 
-const lazyCollections = buildLazyCollections();
+const lazyCollections = Object.fromEntries(
+  Object.entries(buildLazyCollections()).map(([game, list]) => [
+    game,
+    (Array.isArray(list) ? list : []).map((collection) => withDatabaseReleaseDates(game, collection)),
+  ]),
+);
 const databaseArtAudit = buildDatabaseArtAudit(lazyCollections, collections, {
   tcg:genshinTcgCards,
   furniture:genshinFurniture,

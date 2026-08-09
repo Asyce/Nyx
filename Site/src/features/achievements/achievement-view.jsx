@@ -35,15 +35,18 @@ function nyxAchievementCategorySymbol(category){
     .split(/\s+/).slice(0, 2).map((part) => part[0]).join('').toUpperCase();
 }
 
-function AchievementCategoryIcon({ category, game, className='', all=false }){
+// The decorative "eye seal" was removed 2026-08-09. "All achievements" now
+// borrows the game's first category icon — for Genshin that is Wonders of the
+// World, which the user picked as the default.
+function AchievementCategoryIcon({ category, game, className='', all=false, categories=null }){
   const [failed, setFailed] = React.useState(false);
-  const path = !all && nyxAchievementIconPath(category?.icon?.path || category?.iconPath, game);
+  const source = all ? (Array.isArray(categories) ? categories[0] : null) : category;
+  const path = nyxAchievementIconPath(source?.icon?.path || source?.iconPath, game);
   React.useEffect(() => setFailed(false), [path]);
-  if (all) return <span className={`${className} achievement-eye-seal`} aria-hidden="true"><i /></span>;
   return <span className={`${className} achievement-category-art`} aria-hidden="true">
     {path && !failed
       ? <img src={path} alt="" loading="lazy" decoding="async" onError={() => setFailed(true)} />
-      : <b>{nyxAchievementCategorySymbol(category)}</b>}
+      : <b>{all ? '★' : nyxAchievementCategorySymbol(category)}</b>}
   </span>;
 }
 
@@ -364,8 +367,9 @@ function AchievementPage({ game }){
 
   return <main className={`gp-main-pane fill achievement-page achievement-${game}`}>
     <header className="achievement-page-head">
+      {/* The seal in front of the heading was removed 2026-08-09 at the user's
+          request. */}
       <div className="achievement-page-title">
-        <AchievementCategoryIcon game={game} all className="achievement-title-icon" />
         <div><span>{config.name}</span><h1>Achievements</h1></div>
       </div>
       <div className="achievement-overall" role="progressbar" aria-label="Overall achievement progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow={percent}>
@@ -394,7 +398,7 @@ function AchievementPage({ game }){
       </div>
 
       <button ref={atlasToggle} type="button" className="achievement-atlas-toggle" aria-expanded={atlasOpen} aria-controls="achievement-category-atlas" onClick={() => setAtlasOpen((value) => !value)}>
-        <AchievementCategoryIcon category={selectedCategory} game={game} all={!selectedCategory} className="achievement-atlas-toggle-art" />
+        <AchievementCategoryIcon category={selectedCategory} game={game} all={!selectedCategory} categories={categories} className="achievement-atlas-toggle-art" />
         <span><small>Category</small><b>{selectedCategory?.name || 'All achievements'}</b></span><i aria-hidden="true">{atlasOpen ? 'Close' : 'Change'}</i>
       </button>
 
@@ -416,7 +420,7 @@ function AchievementPage({ game }){
           <label className="achievement-atlas-check"><input type="checkbox" checked={hideCompletedCategories} onChange={(event) => setHideCompletedCategories(event.target.checked)} /><span>Hide completed categories</span></label>
           <nav>
             <button type="button" className={categoryId === 'all' ? 'on' : ''} aria-current={categoryId === 'all' ? 'true' : undefined} onClick={() => selectCategory('all')}>
-              <span className="achievement-category-orbit" style={{ '--cat-pct':`${percent * 3.6}deg` }}><AchievementCategoryIcon game={game} all className="achievement-category-icon" /></span>
+              <span className="achievement-category-orbit" style={{ '--cat-pct':`${percent * 3.6}deg` }}><AchievementCategoryIcon game={game} all categories={categories} className="achievement-category-icon" /></span>
               <span><strong>All achievements</strong><small>{doneCount} / {rows.length}<i>{percent}%</i></small></span>
             </button>
             {filteredCategories.map((category) => {
@@ -433,7 +437,7 @@ function AchievementPage({ game }){
 
         <section className="achievement-ledger" aria-label="Achievement ledger">
           <header className="achievement-ledger-heading">
-            <AchievementCategoryIcon category={selectedCategory} game={game} all={!selectedCategory} className="achievement-ledger-icon" />
+            <AchievementCategoryIcon category={selectedCategory} game={game} all={!selectedCategory} categories={categories} className="achievement-ledger-icon" />
             <div><span>{selectedCategory ? 'Category' : 'Complete catalog'}</span><h2>{selectedCategory?.name || 'All achievements'}</h2><p>{selectedProgress.done} of {selectedProgress.total} complete · {selectedProgress.earned.toLocaleString()} of {selectedProgress.reward.toLocaleString()} {currencyName}{versionRange.length ? ` · v${versionRange[0]}–${versionRange[versionRange.length - 1]}` : ''}</p></div>
             <div className="achievement-category-actions">
               {!bulkConfirm && <><button type="button" onClick={() => setBulkConfirm('complete')} disabled={!canSave || selectedProgress.done === selectedProgress.total}>Mark all complete</button><button type="button" className="achievement-quiet-button" onClick={() => setBulkConfirm('clear')} disabled={!canSave || !selectedProgress.done}>Clear checks</button></>}
@@ -467,7 +471,7 @@ function AchievementPage({ game }){
                 </div>}
               </article>;
             })}
-            {!filteredRows.length && <div className="achievement-empty"><AchievementCategoryIcon game={game} all className="achievement-empty-seal" /><strong>No achievements match</strong><span>Change the search or filters.</span><button type="button" onClick={clearFilters}>Clear filters</button></div>}
+            {!filteredRows.length && <div className="achievement-empty"><AchievementCategoryIcon game={game} all categories={categories} className="achievement-empty-seal" /><strong>No achievements match</strong><span>Change the search or filters.</span><button type="button" onClick={clearFilters}>Clear filters</button></div>}
             {visibleRows.length < filteredRows.length && <button type="button" className="achievement-load-more" onClick={() => setVisibleLimit((value) => value + NYX_ACHIEVEMENT_BATCH)}>Show {Math.min(NYX_ACHIEVEMENT_BATCH, filteredRows.length - visibleRows.length)} more <span>{visibleRows.length} of {filteredRows.length} loaded</span></button>}
             {!doneCount && !hasFilters && categoryId === 'all' && <div className="achievement-zero-guide"><strong>No progress yet</strong><span>Import progress or mark achievements one by one.</span><button type="button" onClick={() => setManageOpen(true)}>Manage progress</button></div>}
           </div>

@@ -887,8 +887,9 @@ function GachaTracker({ open, onClose, cfg, inline }){
     <div className={inline ? 'gt-inline' : 'gt-overlay'}
          onMouseDown={inline ? undefined : (e) => { if (e.target === e.currentTarget) onClose(); }}>
       <div className="gt-panel" data-screen-label={PULL + ' Tracker'}>
+        {/* The decorative diamond before the title was removed 2026-08-09; the
+            heading carries the same glow underline as the tab groups instead. */}
         <div className="gt-head">
-          <span className="gt-dia"></span>
           <div className="gt-ttl">
             {phase === 'results'
               ? <div className="gt-ttl-results"><div className="t">{TITLE}</div><button type="button" className="gt-title-import" onClick={showImport}>Manage import</button></div>

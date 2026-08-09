@@ -2996,7 +2996,8 @@
             "camp": 7,
             "weaknesses": "Physical, Fire, Ice"
           },
-          "text": "A paragon knight of the Knights of Beauty who is piously seeking his missing Aeon, Idrila the Beauty.\nForthright and candid, he wanders the cosmos espousing the virtues of Idrila's good name."
+          "text": "A paragon knight of the Knights of Beauty who is piously seeking his missing Aeon, Idrila the Beauty.\nForthright and candid, he wanders the cosmos espousing the virtues of Idrila's good name.",
+          "released": "2023-12-06"
         },
         {
           "id": "hsr-mon-3024011",
@@ -3018,7 +3019,8 @@
             "rank": "Little Boss",
             "weaknesses": "Physical, Fire, Ice"
           },
-          "text": "A paragon knight of the Knights of Beauty who is piously seeking his missing Aeon, Idrila the Beauty.\nForthright and candid, he wanders the cosmos espousing the virtues of Idrila's good name."
+          "text": "A paragon knight of the Knights of Beauty who is piously seeking his missing Aeon, Idrila the Beauty.\nForthright and candid, he wanders the cosmos espousing the virtues of Idrila's good name.",
+          "released": "2023-12-06"
         },
         {
           "id": "hsr-mon-3024013",
@@ -3040,7 +3042,8 @@
             "rank": "Little Boss",
             "weaknesses": "Physical, Ice, Quantum"
           },
-          "text": "A paragon knight of the Knights of Beauty who is piously seeking his missing Aeon, Idrila the Beauty.\nForthright and candid, he wanders the cosmos espousing the virtues of Idrila's good name."
+          "text": "A paragon knight of the Knights of Beauty who is piously seeking his missing Aeon, Idrila the Beauty.\nForthright and candid, he wanders the cosmos espousing the virtues of Idrila's good name.",
+          "released": "2023-12-06"
         },
         {
           "id": "hsr-mon-3024020",

@@ -2670,7 +2670,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
     if (!id) return;
     const pinned = pinnedIds.some((row) => String(row) === id);
     if (!pinned) {
-      nyxSavePinnedIds(gk, nyxAddPinnedId(pinnedIds, id, nyxLoadFavouriteMode(gk)));
+      nyxSavePinnedIds(gk, nyxAddPinnedId(pinnedIds, id));
       return;
     }
     if (nyxUnfavouriteConfirmSuppressed(gk)) removePinnedCharacter(ch);
@@ -3195,7 +3195,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
                       <span className="cm-character-tabs">
                         {inline && (
                           <button type="button" className="cm-detail-back" onClick={closePop}>
-                            <span>{'\u2039'}</span><b>{selectedFrom === 'calendar' ? 'Back to Calendar' : selectedFrom === 'nyx' ? 'Back to Nyx' : 'Back to Characters'}</b>
+                            <span>{'\u2039'}</span><b>{selectedFrom === 'calendar' ? 'Back to Calendar' : selectedFrom === 'nyx' ? 'Back to Nyx' : selectedFrom === 'overview' ? 'Back to Overview' : 'Back to Characters'}</b>
                           </button>
                         )}
                         <button type="button" className={detailTab === 'materials' ? 'on' : ''} onClick={() => setDetailTab('materials')}>Materials</button>

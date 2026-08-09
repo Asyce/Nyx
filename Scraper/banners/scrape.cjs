@@ -348,6 +348,12 @@ async function loadGameDataMap(gameId) {
     if (!key || map.has(key)) return;
     map.set(key, entry);
   };
+  // Alt / skin versions are published as "Base • Variant" ("Robin • Summeretto",
+  // "Aventurine • Waveflair", "Himeko • Nova") while game8 announces them by the
+  // variant alone. Those segments are indexed in a second pass so a real
+  // character always keeps its own name first — "Robin • Summeretto" must never
+  // take the key "robin" away from Robin herself.
+  const segmentAliases = [];
   for (const [id, rec] of Object.entries(json)) {
     if (!rec || typeof rec !== 'object') continue;
     const enRaw = rec.en || rec.name || rec.code;
@@ -376,7 +382,12 @@ async function loadGameDataMap(gameId) {
     if (rec.code && rec.code !== en) {
       addEntry(normName(rec.code), entry);
     }
+    const segments = en.split(/\s*[•·|]\s*/).map((part) => part.trim()).filter(Boolean);
+    if (segments.length > 1) {
+      for (const segment of segments) segmentAliases.push([normName(segment), entry]);
+    }
   }
+  for (const [key, entry] of segmentAliases) addEntry(key, entry);
   console.log(`[${gameId}] gamedata: loaded ${map.size} entries from version ${version}`);
   return { map, version };
 }
@@ -551,12 +562,7 @@ function extractPhase($, els) {
 
 // Returns the content elements between a heading matching `pattern` and the
 // next heading of the same or higher rank.
-function getSectionElements($, pattern) {
-  const heading = $('h2, h3, h4')
-    .filter((_, el) => pattern.test(normalizeText($(el).text())))
-    .first();
-  if (!heading.length) return [];
-
+function sectionElementsFrom($, heading) {
   const rank = parseInt(heading[0].tagName[1]);
   const stopSelector = Array.from({ length: rank }, (_, i) => `h${i + 1}`).join(', ');
 
@@ -567,6 +573,30 @@ function getSectionElements($, pattern) {
     el = el.next();
   }
   return els;
+}
+
+function getSectionElements($, pattern) {
+  const heading = $('h2, h3, h4')
+    .filter((_, el) => pattern.test(normalizeText($(el).text())))
+    .first();
+  if (!heading.length) return [];
+  return sectionElementsFrom($, heading);
+}
+
+// Same, but keeps every matching section rather than only the first, each as its
+// own group. game8 splits a version across separate top-level sections — HSR has
+// "Next Banner in Version 4.5" (phase 1) and, much further down the page,
+// "Upcoming Warp Banners" (phase 2). Reading only the first meant phase 2 never
+// reached the site (user 2026-08-09).
+function getAllSectionGroups($, pattern) {
+  const groups = [];
+  $('h2, h3, h4')
+    .filter((_, el) => pattern.test(normalizeText($(el).text())))
+    .each((_, el) => {
+      const els = sectionElementsFrom($, $(el));
+      if (els.length) groups.push(els);
+    });
+  return groups;
 }
 
 // Split a cell that may contain multiple names separated by rank annotations,
@@ -894,7 +924,13 @@ function parseGame8Page(html, game) {
       currentData.dateStrings = activeRows.map((row) => `${row.startText} - ${row.endText}`);
     }
   }
-  const nextGroups  = splitSubsections(resolvedNextEls);
+  // Later phases can live in their own top-level section rather than as a
+  // subsection of the one we matched first (HSR: "Next Banner in Version 4.5"
+  // holds phase 1, "Upcoming Warp Banners" holds phase 2). Append any further
+  // matching sections as extra groups so those phases become `upcoming`.
+  const laterSectionGroups = getAllSectionGroups($, /(?:next|upcoming)\s+banner|upcoming\s+warp\s+banner/i)
+    .filter((els) => els.length && els[0] !== resolvedNextEls[0]);
+  const nextGroups  = [...splitSubsections(resolvedNextEls), ...laterSectionGroups];
   const nextData    = extractFromElements($, nextGroups[0] ?? []);
   const upcomingData = nextGroups.slice(1).map(g => extractFromElements($, g));
 
@@ -1186,6 +1222,32 @@ async function main() {
         end:   u.end,
       }))
     )).filter((u) => u.characters.length > 0);
+    // game8 repeats the same phase in several places (a summary table, a
+    // per-phase section, and a schedule list), so reading every matching
+    // section can yield the same window two or three times. Collapse phases
+    // that describe the identical window and cast (user 2026-08-09).
+    const upcomingSeen = new Set();
+    upcomingEnriched = upcomingEnriched.filter((u) => {
+      const key = [
+        u.start || '', u.end || '',
+        u.characters.map((c) => normName(c.name || c)).sort().join('+'),
+      ].join('|');
+      if (upcomingSeen.has(key)) return false;
+      upcomingSeen.add(key);
+      return true;
+    });
+    // Summary tables list every future name under one window. When a phase
+    // shares another phase's window and merely adds names to it, the narrower
+    // one is the real phase and the wider one is the summary — keep the phase.
+    upcomingEnriched = upcomingEnriched.filter((u, index) => {
+      const names = new Set(u.characters.map((c) => normName(c.name || c)));
+      return !upcomingEnriched.some((other, otherIndex) => {
+        if (otherIndex === index) return false;
+        if ((other.start || '') !== (u.start || '') || (other.end || '') !== (u.end || '')) return false;
+        const otherNames = other.characters.map((c) => normName(c.name || c));
+        return otherNames.length < names.size && otherNames.every((name) => names.has(name));
+      });
+    });
     // Endfield: enrich each sub-banner the same way + drop any that
     // ended up with zero matched characters after enrichment (heuristic
     // false positives upstream of the gamedata filter).

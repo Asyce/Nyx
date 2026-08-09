@@ -4,7 +4,7 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-08-09T13:49:57.957Z",
+  "generatedAt": "2026-08-09T18:13:25.437Z",
   "codes": {
     "updated": "2026-08-09T02:15:00.254Z",
     "maxAgeDays": 28,
@@ -440,16 +440,16 @@ var NYX_DB = {
     }
   },
   "banners": {
-    "updated": "2026-08-09T11:35:19.636Z",
-    "checkedAt": "2026-08-09T11:35:19.636Z",
+    "updated": "2026-08-09T18:13:08.454Z",
+    "checkedAt": "2026-08-09T18:13:08.454Z",
     "games": {
       "hsr": {
         "name": "Honkai: Star Rail",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-08-09T11:35:19.636Z",
-          "lastSuccessfulFetch": "2026-08-09T11:35:19.636Z",
-          "lastValidUpdate": "2026-08-09T11:35:19.636Z",
+          "checkedAt": "2026-08-09T18:13:08.454Z",
+          "lastSuccessfulFetch": "2026-08-09T18:13:08.454Z",
+          "lastValidUpdate": "2026-08-09T18:13:08.454Z",
           "source": "game8"
         },
         "current": {
@@ -458,11 +458,11 @@ var NYX_DB = {
           "end": "2026-08-25T07:00:00.000Z",
           "characters": [
             {
-              "name": "Himeko \u2022 Nova",
-              "icon": null,
+              "name": "Himeko Nova",
+              "icon": "../../Database/GameData/hsr/assets/characters/round/1510.webp",
               "iconFallback": null,
               "iconZoom": false,
-              "art": null,
+              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1510.webp",
               "namecard": null,
               "rarity": 5,
               "debut": true,
@@ -537,16 +537,54 @@ var NYX_DB = {
           ],
           "subBanners": []
         },
-        "next": null,
-        "upcoming": []
+        "next": {
+          "phase": "4.5 Phase 1",
+          "start": "2026-08-25T16:00:00.000Z",
+          "end": "2026-09-16T16:00:00.000Z",
+          "characters": [
+            {
+              "name": "Robin \u2022 Summeretto",
+              "icon": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1512.webp",
+              "iconFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1512.webp",
+              "iconZoom": false,
+              "art": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1512.webp",
+              "namecard": null,
+              "rarity": 5,
+              "debut": true,
+              "debutAt": null
+            }
+          ],
+          "subBanners": []
+        },
+        "upcoming": [
+          {
+            "phase": null,
+            "start": "2026-09-16T16:00:00.000Z",
+            "end": "2026-10-06T16:00:00.000Z",
+            "characters": [
+              {
+                "name": "Aventurine \u2022 Waveflair",
+                "icon": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1513.webp",
+                "iconFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1513.webp",
+                "iconZoom": false,
+                "art": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1513.webp",
+                "namecard": null,
+                "rarity": 5,
+                "debut": true,
+                "debutAt": null
+              }
+            ],
+            "subBanners": []
+          }
+        ]
       },
       "gi": {
         "name": "Genshin Impact",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-08-09T11:35:19.636Z",
-          "lastSuccessfulFetch": "2026-08-09T11:35:19.636Z",
-          "lastValidUpdate": "2026-08-09T11:35:19.636Z",
+          "checkedAt": "2026-08-09T18:13:08.454Z",
+          "lastSuccessfulFetch": "2026-08-09T18:13:08.454Z",
+          "lastValidUpdate": "2026-08-09T18:13:08.454Z",
           "source": "game8"
         },
         "current": {
@@ -619,10 +657,10 @@ var NYX_DB = {
           "characters": [
             {
               "name": "Odette",
-              "icon": null,
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Odette_Circle.webp",
               "iconFallback": null,
               "iconZoom": false,
-              "art": null,
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Odette.webp",
               "namecard": null,
               "rarity": 5,
               "debut": true,
@@ -630,10 +668,10 @@ var NYX_DB = {
             },
             {
               "name": "Alyosha",
-              "icon": null,
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Alyosha_Circle.webp",
               "iconFallback": null,
               "iconZoom": false,
-              "art": null,
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Alyosha.webp",
               "namecard": null,
               "rarity": 4,
               "debut": true,
@@ -654,6 +692,58 @@ var NYX_DB = {
           "subBanners": []
         },
         "upcoming": [
+          {
+            "phase": null,
+            "start": "2026-08-12T10:00:00.000Z",
+            "end": null,
+            "characters": [
+              {
+                "name": "Odette",
+                "icon": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Odette_Circle.webp",
+                "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Odette.webp",
+                "iconZoom": true,
+                "art": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Odette_Circle.webp",
+                "namecard": null,
+                "rarity": 5,
+                "debut": true,
+                "debutAt": "2026-08-12"
+              },
+              {
+                "name": "Arlecchino",
+                "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Arlecchino_Circle.webp",
+                "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Arlecchino.webp",
+                "iconZoom": true,
+                "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Arlecchino.webp",
+                "namecard": "../../Database/GenshinWiki/namecards/Arlecchino.png",
+                "rarity": 5,
+                "debut": false,
+                "debutAt": "2024-04-24"
+              },
+              {
+                "name": "Ineffa",
+                "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Ineffa_Circle.webp",
+                "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Ineffa.webp",
+                "iconZoom": true,
+                "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Ineffa.webp",
+                "namecard": "../../Database/GenshinWiki/namecards/Ineffa.png",
+                "rarity": 5,
+                "debut": false,
+                "debutAt": "2025-07-30"
+              },
+              {
+                "name": "Flins",
+                "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Flins_Circle.webp",
+                "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Flins.webp",
+                "iconZoom": true,
+                "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Flins.webp",
+                "namecard": "../../Database/GenshinWiki/namecards/Flins.png",
+                "rarity": 5,
+                "debut": false,
+                "debutAt": "2025-09-30"
+              }
+            ],
+            "subBanners": []
+          },
           {
             "phase": null,
             "start": "2026-09-01T10:00:00.000Z",
@@ -690,9 +780,9 @@ var NYX_DB = {
         "name": "Wuthering Waves",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-08-09T11:35:19.636Z",
-          "lastSuccessfulFetch": "2026-08-09T11:35:19.636Z",
-          "lastValidUpdate": "2026-08-09T11:35:19.636Z",
+          "checkedAt": "2026-08-09T18:13:08.454Z",
+          "lastSuccessfulFetch": "2026-08-09T18:13:08.454Z",
+          "lastValidUpdate": "2026-08-09T18:13:08.454Z",
           "source": "game8"
         },
         "current": {
@@ -825,9 +915,9 @@ var NYX_DB = {
         "name": "Zenless Zone Zero",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-08-09T11:35:19.636Z",
-          "lastSuccessfulFetch": "2026-08-09T11:35:19.636Z",
-          "lastValidUpdate": "2026-08-09T11:35:19.636Z",
+          "checkedAt": "2026-08-09T18:13:08.454Z",
+          "lastSuccessfulFetch": "2026-08-09T18:13:08.454Z",
+          "lastValidUpdate": "2026-08-09T18:13:08.454Z",
           "source": "game8"
         },
         "current": {
@@ -847,33 +937,33 @@ var NYX_DB = {
               "debutAt": "2026-03-04"
             },
             {
-              "name": "Piper Wheel",
-              "icon": null,
+              "name": "Piper",
+              "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle28.webp",
               "iconFallback": null,
               "iconZoom": false,
-              "art": null,
+              "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole28.webp",
               "namecard": null,
               "rarity": "A",
               "debut": false,
               "debutAt": "2024-09-25"
             },
             {
-              "name": "Seth Lowell",
-              "icon": null,
+              "name": "Seth",
+              "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle30.webp",
               "iconFallback": null,
               "iconZoom": false,
-              "art": null,
+              "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole30.webp",
               "namecard": null,
               "rarity": "A",
               "debut": false,
               "debutAt": "2024-09-04"
             },
             {
-              "name": "Remielle Dan",
-              "icon": null,
+              "name": "Remielle",
+              "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle67.webp",
               "iconFallback": null,
               "iconZoom": false,
-              "art": null,
+              "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole67.webp",
               "namecard": null,
               "rarity": "S",
               "debut": true,
@@ -899,33 +989,33 @@ var NYX_DB = {
               "debutAt": "2025-11-26"
             },
             {
-              "name": "Ukinami Yuzuha",
-              "icon": null,
+              "name": "Yuzuha",
+              "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle47.webp",
               "iconFallback": null,
               "iconZoom": false,
-              "art": null,
+              "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole47.webp",
               "namecard": null,
               "rarity": "S",
               "debut": false,
               "debutAt": "2025-07-16"
             },
             {
-              "name": "Asaba Harumasa",
-              "icon": null,
+              "name": "Harumasa",
+              "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle35.webp",
               "iconFallback": null,
               "iconZoom": false,
-              "art": null,
+              "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole35.webp",
               "namecard": null,
               "rarity": "S",
               "debut": false,
               "debutAt": "2024-12-18"
             },
             {
-              "name": "Sigrid de L'Azur",
-              "icon": null,
+              "name": "Sigrid",
+              "icon": "../../Database/Prydwen/zzz/assets/characters/sigrid-30ecebbe136b.webp",
               "iconFallback": null,
               "iconZoom": false,
-              "art": null,
+              "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole66.webp",
               "namecard": null,
               "rarity": "S",
               "debut": true,
@@ -982,9 +1072,9 @@ var NYX_DB = {
         "name": "Arknights: Endfield",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-08-09T11:35:19.636Z",
-          "lastSuccessfulFetch": "2026-08-09T11:35:19.636Z",
-          "lastValidUpdate": "2026-08-09T11:35:19.636Z",
+          "checkedAt": "2026-08-09T18:13:08.454Z",
+          "lastSuccessfulFetch": "2026-08-09T18:13:08.454Z",
+          "lastValidUpdate": "2026-08-09T18:13:08.454Z",
           "source": "game8"
         },
         "current": {
@@ -1856,7 +1946,8 @@ var NYX_DB = {
                 "type": "Sword",
                 "atk": 454
               },
-              "text": "A standard-issue longsword of the Knights of Favonius. When you're armed with this agile and sharp weapon, channeling the power of the elements has never been so easy!"
+              "text": "A standard-issue longsword of the Knights of Favonius. When you're armed with this agile and sharp weapon, channeling the power of the elements has never been so easy!",
+              "released": "2020-12-23"
             },
             {
               "id": "gi-wpn-11402",
@@ -1868,7 +1959,8 @@ var NYX_DB = {
                 "type": "Sword",
                 "atk": 510
               },
-              "text": "Beneath its rusty exterior is a lavishly decorated thin blade. It swings as swiftly as the wind."
+              "text": "Beneath its rusty exterior is a lavishly decorated thin blade. It swings as swiftly as the wind.",
+              "released": "2020-09-28"
             },
             {
               "id": "gi-wpn-11403",
@@ -1880,7 +1972,8 @@ var NYX_DB = {
                 "type": "Sword",
                 "atk": 454
               },
-              "text": "A ceremonial sword that has become petrified over time. The trinkets on it are still visible. It grants the wielder the power to withstand the winds of time."
+              "text": "A ceremonial sword that has become petrified over time. The trinkets on it are still visible. It grants the wielder the power to withstand the winds of time.",
+              "released": "2020-10-20"
             },
             {
               "id": "gi-wpn-11404",
@@ -1904,7 +1997,8 @@ var NYX_DB = {
                 "type": "Sword",
                 "atk": 510
               },
-              "text": "A sharp blade with extravagant carvings that somehow does not compromise on durability and sharpness. It roars like a lion as it cuts through the air."
+              "text": "A sharp blade with extravagant carvings that somehow does not compromise on durability and sharpness. It roars like a lion as it cuts through the air.",
+              "released": "2020-12-01"
             },
             {
               "id": "gi-wpn-11406",
@@ -1964,7 +2058,8 @@ var NYX_DB = {
                 "type": "Sword",
                 "atk": 620
               },
-              "text": "A straight sword as black as the night. It once belonged to a thief who roamed the benighted streets."
+              "text": "A straight sword as black as the night. It once belonged to a thief who roamed the benighted streets.",
+              "released": "2021-03-17"
             },
             {
               "id": "gi-wpn-11412",
@@ -2048,7 +2143,8 @@ var NYX_DB = {
                 "type": "Sword",
                 "atk": 510
               },
-              "text": "This ancient double-edged sword glimmers with moonlight. It is said that a now-silent Jinni dwells within it."
+              "text": "This ancient double-edged sword glimmers with moonlight. It is said that a now-silent Jinni dwells within it.",
+              "released": "2022-10-14"
             },
             {
               "id": "gi-wpn-11422",
@@ -2108,7 +2204,8 @@ var NYX_DB = {
                 "type": "Sword",
                 "atk": 510
               },
-              "text": "A convenient cutting tool that you can rarely find nowadays. You can replace the blades as they are dulled by usage."
+              "text": "A convenient cutting tool that you can rarely find nowadays. You can replace the blades as they are dulled by usage.",
+              "released": "2023-09-27"
             },
             {
               "id": "gi-wpn-11428",
@@ -2132,7 +2229,8 @@ var NYX_DB = {
                 "type": "Sword",
                 "atk": 565
               },
-              "text": "A longsword made of bone that has only grown harder after being hit and swung countless times. It is said that this was the hero Wanjiru's reliable weapon."
+              "text": "A longsword made of bone that has only grown harder after being hit and swung countless times. It is said that this was the hero Wanjiru's reliable weapon.",
+              "released": "2024-10-09"
             },
             {
               "id": "gi-wpn-11431",
@@ -2180,7 +2278,8 @@ var NYX_DB = {
                 "type": "Sword",
                 "atk": 565
               },
-              "text": "An immaculate, sharp silver sword that can slice through armor like moonlight flowing through the empty night. According to legend, it is a divine blade, blessed by the first Moonchanter herself."
+              "text": "An immaculate, sharp silver sword that can slice through armor like moonlight flowing through the empty night. According to legend, it is a divine blade, blessed by the first Moonchanter herself.",
+              "released": "2025-10-22"
             },
             {
               "id": "gi-wpn-11501",
@@ -2192,7 +2291,8 @@ var NYX_DB = {
                 "type": "Sword",
                 "atk": 674
               },
-              "text": "The soul of the Knights of Favonius. Millennia later, it still calls on the winds of swift justice to vanquish all evil \u2014 just like the last heroine who wielded it."
+              "text": "The soul of the Knights of Favonius. Millennia later, it still calls on the winds of swift justice to vanquish all evil \u2014 just like the last heroine who wielded it.",
+              "released": "2020-09-28"
             },
             {
               "id": "gi-wpn-11502",
@@ -2204,7 +2304,8 @@ var NYX_DB = {
                 "type": "Sword",
                 "atk": 608
               },
-              "text": "The sword of a knight that symbolizes the restored honor of Dvalin. The blessings of the Anemo Archon rest on the fuller of the blade, imbuing the sword with the powers of the sky and the wind."
+              "text": "The sword of a knight that symbolizes the restored honor of Dvalin. The blessings of the Anemo Archon rest on the fuller of the blade, imbuing the sword with the powers of the sky and the wind.",
+              "released": "2021-03-17"
             },
             {
               "id": "gi-wpn-11503",
@@ -2216,7 +2317,8 @@ var NYX_DB = {
                 "type": "Sword",
                 "atk": 608
               },
-              "text": "A straight sword, azure as antediluvian song, and as keen as the oaths of freedom taken in the Land of Wind."
+              "text": "A straight sword, azure as antediluvian song, and as keen as the oaths of freedom taken in the Land of Wind.",
+              "released": "2021-06-29"
             },
             {
               "id": "gi-wpn-11504",
@@ -2228,7 +2330,8 @@ var NYX_DB = {
                 "type": "Sword",
                 "atk": 608
               },
-              "text": "A symbol of a legendary pact, this sharp blade once cut off the peak of a mountain."
+              "text": "A symbol of a legendary pact, this sharp blade once cut off the peak of a mountain.",
+              "released": "2020-12-23"
             },
             {
               "id": "gi-wpn-11505",
@@ -2240,7 +2343,8 @@ var NYX_DB = {
                 "type": "Sword",
                 "atk": 542
               },
-              "text": "A ceremonial sword masterfully carved from pure jade. There almost seems to be an audible sigh in the wind as it is swung."
+              "text": "A ceremonial sword masterfully carved from pure jade. There almost seems to be an audible sigh in the wind as it is swung.",
+              "released": "2021-02-03"
             },
             {
               "id": "gi-wpn-11509",
@@ -2252,7 +2356,8 @@ var NYX_DB = {
                 "type": "Sword",
                 "atk": 674
               },
-              "text": "A sword that blazes with a fierce violet light. The name \"Reforged\" comes from it having been broken once before."
+              "text": "A sword that blazes with a fierce violet light. The name \"Reforged\" comes from it having been broken once before.",
+              "released": "2021-07-21"
             },
             {
               "id": "gi-wpn-11510",
@@ -2264,7 +2369,8 @@ var NYX_DB = {
                 "type": "Sword",
                 "atk": 608
               },
-              "text": "A famed work by the Futsu line of smiths. The name \"Haran\" comes from the manner in which it resembles the violent, roiling waves."
+              "text": "A famed work by the Futsu line of smiths. The name \"Haran\" comes from the manner in which it resembles the violent, roiling waves.",
+              "released": "2022-03-30"
             },
             {
               "id": "gi-wpn-11511",
@@ -2276,7 +2382,8 @@ var NYX_DB = {
                 "type": "Sword",
                 "atk": 542
               },
-              "text": "One of a paired set of scepters fashioned from obsidian. They say that this can be used as a key to open the gate to a paradise that lies at the end of the ocean of sand."
+              "text": "One of a paired set of scepters fashioned from obsidian. They say that this can be used as a key to open the gate to a paradise that lies at the end of the ocean of sand.",
+              "released": "2022-10-14"
             },
             {
               "id": "gi-wpn-11512",
@@ -2288,7 +2395,8 @@ var NYX_DB = {
                 "type": "Sword",
                 "atk": 542
               },
-              "text": "This gilded blade was made using precious white branches. It was once used to destroy countless poisons that infested the forest."
+              "text": "This gilded blade was made using precious white branches. It was once used to destroy countless poisons that infested the forest.",
+              "released": "2023-01-18"
             },
             {
               "id": "gi-wpn-11513",
@@ -2300,7 +2408,8 @@ var NYX_DB = {
                 "type": "Sword",
                 "atk": 542
               },
-              "text": "A scepter around which swirls pure water. In days long past, it once symbolized the highest authority over the seas."
+              "text": "A scepter around which swirls pure water. In days long past, it once symbolized the highest authority over the seas.",
+              "released": "2023-11-08"
             },
             {
               "id": "gi-wpn-11514",
@@ -2312,7 +2421,8 @@ var NYX_DB = {
                 "type": "Sword",
                 "atk": 542
               },
-              "text": "This famous blade was once created by the hand of Urakusai, the renowned literatus. Legend has it that it has never cut any living creature in all these hundreds of years."
+              "text": "This famous blade was once created by the hand of Urakusai, the renowned literatus. Legend has it that it has never cut any living creature in all these hundreds of years.",
+              "released": "2024-03-13"
             },
             {
               "id": "gi-wpn-11515",
@@ -2324,7 +2434,8 @@ var NYX_DB = {
                 "type": "Sword",
                 "atk": 674
               },
-              "text": "A rapier once wielded by a deceiver who had forsaken everything. In the past, it was primarily used as a tool when he had to disguise his identity."
+              "text": "A rapier once wielded by a deceiver who had forsaken everything. In the past, it was primarily used as a tool when he had to disguise his identity.",
+              "released": "2024-06-05"
             },
             {
               "id": "gi-wpn-11516",
@@ -2336,7 +2447,8 @@ var NYX_DB = {
                 "type": "Sword",
                 "atk": 542
               },
-              "text": "An obsidian blade of unparalleled sharpness, light as a song. It was modified by a certain artisan to come equipped with a record-playing detachable Phlogiston Device."
+              "text": "An obsidian blade of unparalleled sharpness, light as a song. It was modified by a certain artisan to come equipped with a record-playing detachable Phlogiston Device.",
+              "released": "2024-10-09"
             },
             {
               "id": "gi-wpn-11517",
@@ -2348,7 +2460,8 @@ var NYX_DB = {
                 "type": "Sword",
                 "atk": 674
               },
-              "text": "This blade was once pure and pristine as a white dawn star, but it has since been tinted a deep, dark blue."
+              "text": "This blade was once pure and pristine as a white dawn star, but it has since been tinted a deep, dark blue.",
+              "released": "2025-06-18"
             },
             {
               "id": "gi-wpn-11518",
@@ -2360,7 +2473,8 @@ var NYX_DB = {
                 "type": "Sword",
                 "atk": 608
               },
-              "text": "A precious sword gifted by the Day King to the brave hero in the little witch's story, only for the witch to take it and defeat the hero herself."
+              "text": "A precious sword gifted by the Day King to the brave hero in the little witch's story, only for the witch to take it and defeat the hero herself.",
+              "released": "2025-12-03"
             },
             {
               "id": "gi-wpn-11519",
@@ -2372,7 +2486,8 @@ var NYX_DB = {
                 "type": "Sword",
                 "atk": 542
               },
-              "text": "A legendary sword, said to be forged from the glimmering moonlight gathered in a well by an adeptus hidden among clear springs. Its true form is revealed only at the meeting of dusk and dawn."
+              "text": "A legendary sword, said to be forged from the glimmering moonlight gathered in a well by an adeptus hidden among clear springs. Its true form is revealed only at the meeting of dusk and dawn.",
+              "released": "2026-02-03"
             },
             {
               "id": "gi-wpn-12101",
@@ -2468,7 +2583,8 @@ var NYX_DB = {
                 "type": "Claymore",
                 "atk": 454
               },
-              "text": "A heavy ceremonial sword of the Knights of Favonius. It channels elemental power easily and is highly destructive."
+              "text": "A heavy ceremonial sword of the Knights of Favonius. It channels elemental power easily and is highly destructive.",
+              "released": "2020-12-23"
             },
             {
               "id": "gi-wpn-12402",
@@ -2480,7 +2596,8 @@ var NYX_DB = {
                 "type": "Claymore",
                 "atk": 510
               },
-              "text": "A heavy greatsword. A clock is embedded within it, though its internal mechanisms have long been damaged."
+              "text": "A heavy greatsword. A clock is embedded within it, though its internal mechanisms have long been damaged.",
+              "released": "2020-09-28"
             },
             {
               "id": "gi-wpn-12403",
@@ -2492,7 +2609,8 @@ var NYX_DB = {
                 "type": "Claymore",
                 "atk": 565
               },
-              "text": "A ceremonial greatsword that has become petrified over time. The trinkets on it are still visible. It grants the wielder the power to withstand the winds of time."
+              "text": "A ceremonial greatsword that has become petrified over time. The trinkets on it are still visible. It grants the wielder the power to withstand the winds of time.",
+              "released": "2020-10-20"
             },
             {
               "id": "gi-wpn-12404",
@@ -2516,7 +2634,8 @@ var NYX_DB = {
                 "type": "Claymore",
                 "atk": 510
               },
-              "text": "A fluorescent greatsword with no sharp edge that crushes enemies with brute force and raw power."
+              "text": "A fluorescent greatsword with no sharp edge that crushes enemies with brute force and raw power.",
+              "released": "2020-11-11"
             },
             {
               "id": "gi-wpn-12406",
@@ -2576,7 +2695,8 @@ var NYX_DB = {
                 "type": "Claymore",
                 "atk": 510
               },
-              "text": "A greatsword carved and chiseled from the very bedrock of Liyue."
+              "text": "A greatsword carved and chiseled from the very bedrock of Liyue.",
+              "released": "2021-02-23"
             },
             {
               "id": "gi-wpn-12411",
@@ -2624,7 +2744,8 @@ var NYX_DB = {
                 "type": "Claymore",
                 "atk": 510
               },
-              "text": "An ancient greatsword that gleams like the waters themselves. A thousand years of sand erosion has not dulled its unnaturally sharp edge one bit."
+              "text": "An ancient greatsword that gleams like the waters themselves. A thousand years of sand erosion has not dulled its unnaturally sharp edge one bit.",
+              "released": "2022-09-28"
             },
             {
               "id": "gi-wpn-12416",
@@ -2636,7 +2757,8 @@ var NYX_DB = {
                 "type": "Claymore",
                 "atk": 510
               },
-              "text": "The beloved sword of the legendary \"Akuou.\" The blade is huge and majestic, but is surprisingly easy to wield."
+              "text": "The beloved sword of the legendary \"Akuou.\" The blade is huge and majestic, but is surprisingly easy to wield.",
+              "released": "2021-10-13"
             },
             {
               "id": "gi-wpn-12417",
@@ -2708,7 +2830,8 @@ var NYX_DB = {
                 "type": "Claymore",
                 "atk": 454
               },
-              "text": "An old-school power saw that you can rarely find nowadays. It was once a cutting tool trusted by workers all around."
+              "text": "An old-school power saw that you can rarely find nowadays. It was once a cutting tool trusted by workers all around.",
+              "released": "2023-09-27"
             },
             {
               "id": "gi-wpn-12430",
@@ -2720,7 +2843,8 @@ var NYX_DB = {
                 "type": "Claymore",
                 "atk": 565
               },
-              "text": "Bold Burkina from the Scions of the Canopy once made this weapon with the hero Tenoch's help \u2014 all for the sake of obtaining Flamegranates unmatched throughout Natlan."
+              "text": "Bold Burkina from the Scions of the Canopy once made this weapon with the hero Tenoch's help \u2014 all for the sake of obtaining Flamegranates unmatched throughout Natlan.",
+              "released": "2024-10-29"
             },
             {
               "id": "gi-wpn-12431",
@@ -2768,7 +2892,8 @@ var NYX_DB = {
                 "type": "Claymore",
                 "atk": 674
               },
-              "text": "A claymore that symbolizes the pride of Dvalin soaring through the skies. When swung, it emits a deep hum as the full force of Dvalin's command of the sky and the wind is unleashed."
+              "text": "A claymore that symbolizes the pride of Dvalin soaring through the skies. When swung, it emits a deep hum as the full force of Dvalin's command of the sky and the wind is unleashed.",
+              "released": "2021-01-12"
             },
             {
               "id": "gi-wpn-12502",
@@ -2780,7 +2905,8 @@ var NYX_DB = {
                 "type": "Claymore",
                 "atk": 608
               },
-              "text": "A longsword used by the Wolf Knight. Originally just a heavy sheet of iron given to the knight by a blacksmith from the city, it became endowed with legendary power owing to his friendship with the wolves."
+              "text": "A longsword used by the Wolf Knight. Originally just a heavy sheet of iron given to the knight by a blacksmith from the city, it became endowed with legendary power owing to his friendship with the wolves.",
+              "released": "2020-10-20"
             },
             {
               "id": "gi-wpn-12503",
@@ -2792,7 +2918,8 @@ var NYX_DB = {
                 "type": "Claymore",
                 "atk": 741
               },
-              "text": "A greatsword as light as the sigh of grass in the breeze, yet as merciless to the corrupt as a typhoon."
+              "text": "A greatsword as light as the sigh of grass in the breeze, yet as merciless to the corrupt as a typhoon.",
+              "released": "2021-05-18"
             },
             {
               "id": "gi-wpn-12504",
@@ -2804,7 +2931,8 @@ var NYX_DB = {
                 "type": "Claymore",
                 "atk": 608
               },
-              "text": "Capable of driving away evil spirits and wicked people alike, this edgeless claymore seems to possess divine might."
+              "text": "Capable of driving away evil spirits and wicked people alike, this edgeless claymore seems to possess divine might.",
+              "released": "2020-12-01"
             },
             {
               "id": "gi-wpn-12510",
@@ -2816,7 +2944,8 @@ var NYX_DB = {
                 "type": "Claymore",
                 "atk": 542
               },
-              "text": "According to its previous owner, this weapon is the \"Mighty Redhorn Stoic Stonethreshing Gilded Goldcrushing Lion Lord\" that can send any monster packing with its tail between its legs."
+              "text": "According to its previous owner, this weapon is the \"Mighty Redhorn Stoic Stonethreshing Gilded Goldcrushing Lion Lord\" that can send any monster packing with its tail between its legs.",
+              "released": "2021-12-14"
             },
             {
               "id": "gi-wpn-12511",
@@ -2828,7 +2957,8 @@ var NYX_DB = {
                 "type": "Claymore",
                 "atk": 608
               },
-              "text": "A large, flat-tipped sword designed in to fit as the weapon of an ancient king or some ceremonial instrument."
+              "text": "A large, flat-tipped sword designed in to fit as the weapon of an ancient king or some ceremonial instrument.",
+              "released": "2023-03-01"
             },
             {
               "id": "gi-wpn-12512",
@@ -2840,7 +2970,8 @@ var NYX_DB = {
                 "type": "Claymore",
                 "atk": 674
               },
-              "text": "A weapon once used by a young maiden who forsook her family name, stained with the blood of enemies and loved ones both."
+              "text": "A weapon once used by a young maiden who forsook her family name, stained with the blood of enemies and loved ones both.",
+              "released": "2023-12-20"
             },
             {
               "id": "gi-wpn-12513",
@@ -2852,7 +2983,8 @@ var NYX_DB = {
                 "type": "Claymore",
                 "atk": 741
               },
-              "text": "A giant sword forged from pure turquoise. Due to its greater weight than most ordinary weapons, it was named for Kongomato the Mountain King."
+              "text": "A giant sword forged from pure turquoise. Due to its greater weight than most ordinary weapons, it was named for Kongomato the Mountain King.",
+              "released": "2024-09-17"
             },
             {
               "id": "gi-wpn-12514",
@@ -2864,7 +2996,8 @@ var NYX_DB = {
                 "type": "Claymore",
                 "atk": 741
               },
-              "text": "A greatsword that dazzles like the rising sun. It has witnessed the extinguishing and rekindling of innumerable suns."
+              "text": "A greatsword that dazzles like the rising sun. It has witnessed the extinguishing and rekindling of innumerable suns.",
+              "released": "2025-01-01"
             },
             {
               "id": "gi-wpn-12515",
@@ -2876,7 +3009,8 @@ var NYX_DB = {
                 "type": "Claymore",
                 "atk": 608
               },
-              "text": "Legend has it that this greatsword was forged by the hand of Ravenwood, who inherited the name of Boreas, prior to his ascension to knighthood."
+              "text": "Legend has it that this greatsword was forged by the hand of Ravenwood, who inherited the name of Boreas, prior to his ascension to knighthood.",
+              "released": "2026-02-25"
             },
             {
               "id": "gi-wpn-12516",
@@ -2888,7 +3022,8 @@ var NYX_DB = {
                 "type": "Claymore",
                 "atk": 674
               },
-              "text": "An object of fantasy with countless definitions amidst an endless sea of stories. On the grand scale of the universe or the realm of dreams, there is no real difference between the holy sword of the brave warrior and the princess's teaspoon, or between the ice-cold clockspring and the key that will unlock the gates of transcendence..."
+              "text": "An object of fantasy with countless definitions amidst an endless sea of stories. On the grand scale of the universe or the realm of dreams, there is no real difference between the holy sword of the brave warrior and the princess's teaspoon, or between the ice-cold clockspring and the key that will unlock the gates of transcendence...",
+              "released": "2026-07-01"
             },
             {
               "id": "gi-wpn-13101",
@@ -2960,7 +3095,8 @@ var NYX_DB = {
                 "type": "Polearm",
                 "atk": 454
               },
-              "text": "A polearm decorated with an entwining golden dragon. Light and sharp, this weapon may very well kill dragons with ease."
+              "text": "A polearm decorated with an entwining golden dragon. Light and sharp, this weapon may very well kill dragons with ease.",
+              "released": "2020-10-20"
             },
             {
               "id": "gi-wpn-13402",
@@ -3020,7 +3156,8 @@ var NYX_DB = {
                 "type": "Polearm",
                 "atk": 565
               },
-              "text": "A spear forged from the rocks of the Guyun Stone Forest. Its hardness knows no equal."
+              "text": "A spear forged from the rocks of the Guyun Stone Forest. Its hardness knows no equal.",
+              "released": "2021-02-23"
             },
             {
               "id": "gi-wpn-13407",
@@ -3032,7 +3169,8 @@ var NYX_DB = {
                 "type": "Polearm",
                 "atk": 565
               },
-              "text": "A polearm made in the style of the Knights of Favonius. Its shaft is straight, and its tip flows lightly like the wind."
+              "text": "A polearm made in the style of the Knights of Favonius. Its shaft is straight, and its tip flows lightly like the wind.",
+              "released": "2020-09-28"
             },
             {
               "id": "gi-wpn-13408",
@@ -3092,7 +3230,8 @@ var NYX_DB = {
                 "type": "Polearm",
                 "atk": 620
               },
-              "text": "A naginata forged from luminescent material deep in the ocean depths. It was once the possession of the tengu race."
+              "text": "A naginata forged from luminescent material deep in the ocean depths. It was once the possession of the tengu race.",
+              "released": "2021-11-02"
             },
             {
               "id": "gi-wpn-13417",
@@ -3164,7 +3303,8 @@ var NYX_DB = {
                 "type": "Polearm",
                 "atk": 565
               },
-              "text": "A long-handled drill that you can rarely find nowadays. It was often used in delving and in carving stones."
+              "text": "A long-handled drill that you can rarely find nowadays. It was often used in delving and in carving stones.",
+              "released": "2023-10-17"
             },
             {
               "id": "gi-wpn-13430",
@@ -3176,7 +3316,8 @@ var NYX_DB = {
                 "type": "Polearm",
                 "atk": 565
               },
-              "text": "This polearm was once jointly forged by the craftsmen in the mines as a sacrifice to the spirits of the mountains."
+              "text": "This polearm was once jointly forged by the craftsmen in the mines as a sacrifice to the spirits of the mountains.",
+              "released": "2024-10-09"
             },
             {
               "id": "gi-wpn-13431",
@@ -3224,7 +3365,8 @@ var NYX_DB = {
                 "type": "Polearm",
                 "atk": 620
               },
-              "text": "A silver-white polearm, pure and completely without blemish. Legend has it that it was used by the Archpriestesses of Hyperborea in ages past to guide their flock of Frostmoon Scions."
+              "text": "A silver-white polearm, pure and completely without blemish. Legend has it that it was used by the Archpriestesses of Hyperborea in ages past to guide their flock of Frostmoon Scions.",
+              "released": "2025-10-22"
             },
             {
               "id": "gi-wpn-13501",
@@ -3236,7 +3378,8 @@ var NYX_DB = {
                 "type": "Polearm",
                 "atk": 608
               },
-              "text": "A \"firewood staff\" that was once used in ancient and long-lost rituals."
+              "text": "A \"firewood staff\" that was once used in ancient and long-lost rituals.",
+              "released": "2021-02-23"
             },
             {
               "id": "gi-wpn-13502",
@@ -3248,7 +3391,8 @@ var NYX_DB = {
                 "type": "Polearm",
                 "atk": 674
               },
-              "text": "A polearm that symbolizes Dvalin's firm resolve. The upright shaft of this weapon points towards the heavens, clad in the might of sky and wind."
+              "text": "A polearm that symbolizes Dvalin's firm resolve. The upright shaft of this weapon points towards the heavens, clad in the might of sky and wind.",
+              "released": "2021-07-21"
             },
             {
               "id": "gi-wpn-13504",
@@ -3260,7 +3404,8 @@ var NYX_DB = {
                 "type": "Polearm",
                 "atk": 608
               },
-              "text": "This sharp polearm can seemingly pierce through anything. When swung, one can almost see the rift it tears in the air."
+              "text": "This sharp polearm can seemingly pierce through anything. When swung, one can almost see the rift it tears in the air.",
+              "released": "2020-12-01"
             },
             {
               "id": "gi-wpn-13505",
@@ -3272,7 +3417,8 @@ var NYX_DB = {
                 "type": "Polearm",
                 "atk": 674
               },
-              "text": "A jade polearm made by the archons, capable of slaying ancient beasts."
+              "text": "A jade polearm made by the archons, capable of slaying ancient beasts.",
+              "released": "2021-02-03"
             },
             {
               "id": "gi-wpn-13507",
@@ -3284,7 +3430,8 @@ var NYX_DB = {
                 "type": "Polearm",
                 "atk": 741
               },
-              "text": "A keenly honed weapon forged from some strange crystal. Its faint blue light seems to whisper of countless matters now past."
+              "text": "A keenly honed weapon forged from some strange crystal. Its faint blue light seems to whisper of countless matters now past.",
+              "released": "2022-01-05"
             },
             {
               "id": "gi-wpn-13509",
@@ -3296,7 +3443,8 @@ var NYX_DB = {
                 "type": "Polearm",
                 "atk": 608
               },
-              "text": "A naginata used to \"cut grass.\" Any army that stands before this weapon will probably be likewise cut down..."
+              "text": "A naginata used to \"cut grass.\" Any army that stands before this weapon will probably be likewise cut down...",
+              "released": "2021-09-01"
             },
             {
               "id": "gi-wpn-13511",
@@ -3308,7 +3456,8 @@ var NYX_DB = {
                 "type": "Polearm",
                 "atk": 542
               },
-              "text": "One of a paired set of scepters fashioned from obsidian. Legend has it that these staves grant the right to lead the people of the desert, but no retainer now lives who can verify the proper appearance of these regalia."
+              "text": "One of a paired set of scepters fashioned from obsidian. Legend has it that these staves grant the right to lead the people of the desert, but no retainer now lives who can verify the proper appearance of these regalia.",
+              "released": "2022-09-28"
             },
             {
               "id": "gi-wpn-13512",
@@ -3320,7 +3469,8 @@ var NYX_DB = {
                 "type": "Polearm",
                 "atk": 674
               },
-              "text": "A keen-edged weapon, luster dazzling as the crimson moon. It is said that an ancient dynasty once regarded it as a ritual object that could bridge two worlds, but none still remember the beliefs and ceremonies of that bygone age."
+              "text": "A keen-edged weapon, luster dazzling as the crimson moon. It is said that an ancient dynasty once regarded it as a ritual object that could bridge two worlds, but none still remember the beliefs and ceremonies of that bygone age.",
+              "released": "2024-04-24"
             },
             {
               "id": "gi-wpn-13513",
@@ -3332,7 +3482,8 @@ var NYX_DB = {
                 "type": "Polearm",
                 "atk": 608
               },
-              "text": "A magnificent polearm adorned with azure crystal. It is said to have been a certain legendary Champion Duelist's treasure \u2014 and yet, not once was it ever used."
+              "text": "A magnificent polearm adorned with azure crystal. It is said to have been a certain legendary Champion Duelist's treasure \u2014 and yet, not once was it ever used.",
+              "released": "2024-08-06"
             },
             {
               "id": "gi-wpn-13514",
@@ -3344,7 +3495,8 @@ var NYX_DB = {
                 "type": "Polearm",
                 "atk": 608
               },
-              "text": "An elegantly built polearm, said to have been a conductor's baton wielded by a great musician to bridge tune and taste."
+              "text": "An elegantly built polearm, said to have been a conductor's baton wielded by a great musician to bridge tune and taste.",
+              "released": "2025-05-07"
             },
             {
               "id": "gi-wpn-13515",
@@ -3356,7 +3508,8 @@ var NYX_DB = {
                 "type": "Polearm",
                 "atk": 608
               },
-              "text": "A spinning mechanical blade produced by the Clink-Clank Krumkake Craftshop that seems to hide secrets from a bygone era..."
+              "text": "A spinning mechanical blade produced by the Clink-Clank Krumkake Craftshop that seems to hide secrets from a bygone era...",
+              "released": "2025-07-30"
             },
             {
               "id": "gi-wpn-13516",
@@ -3368,7 +3521,8 @@ var NYX_DB = {
                 "type": "Polearm",
                 "atk": 674
               },
-              "text": "A long spear tainted black by unrelenting battle, it shines with an ethereal glow beneath the ghostly blue light of lantern-fire."
+              "text": "A long spear tainted black by unrelenting battle, it shines with an ethereal glow beneath the ghostly blue light of lantern-fire.",
+              "released": "2025-09-30"
             },
             {
               "id": "gi-wpn-13517",
@@ -3380,7 +3534,8 @@ var NYX_DB = {
                 "type": "Polearm",
                 "atk": 674
               },
-              "text": "A polearm forged from Whitestone and Starsilver. Its keen point is constantly enveloped in a bone-piercing chill."
+              "text": "A polearm forged from Whitestone and Starsilver. Its keen point is constantly enveloped in a bone-piercing chill.",
+              "released": "2026-06-09"
             },
             {
               "id": "gi-wpn-14101",
@@ -3476,7 +3631,8 @@ var NYX_DB = {
                 "type": "Catalyst",
                 "atk": 510
               },
-              "text": "A secret tome that belonged to the scholars of the Knights of Favonius. It describes the logic and power of elements and matter."
+              "text": "A secret tome that belonged to the scholars of the Knights of Favonius. It describes the logic and power of elements and matter.",
+              "released": "2020-12-01"
             },
             {
               "id": "gi-wpn-14402",
@@ -3488,7 +3644,8 @@ var NYX_DB = {
                 "type": "Catalyst",
                 "atk": 510
               },
-              "text": "A heavy notebook filled with musical scores. Though suffering from moth damage and heavy wear-and-tear, there is still much power to be found among the hand-written words within."
+              "text": "A heavy notebook filled with musical scores. Though suffering from moth damage and heavy wear-and-tear, there is still much power to be found among the hand-written words within.",
+              "released": "2020-09-28"
             },
             {
               "id": "gi-wpn-14403",
@@ -3500,7 +3657,8 @@ var NYX_DB = {
                 "type": "Catalyst",
                 "atk": 454
               },
-              "text": "A weathered script, the text of which is no longer legible. A cursed item eroded by the winds of time."
+              "text": "A weathered script, the text of which is no longer legible. A cursed item eroded by the winds of time.",
+              "released": "2020-10-20"
             },
             {
               "id": "gi-wpn-14404",
@@ -3572,7 +3730,8 @@ var NYX_DB = {
                 "type": "Catalyst",
                 "atk": 454
               },
-              "text": "A dim black glaze pearl that is said to have the power to read the purity of one's heart."
+              "text": "A dim black glaze pearl that is said to have the power to read the purity of one's heart.",
+              "released": "2020-11-11"
             },
             {
               "id": "gi-wpn-14410",
@@ -3584,7 +3743,8 @@ var NYX_DB = {
                 "type": "Catalyst",
                 "atk": 565
               },
-              "text": "A songbook from the bygone aristocratic era, whose composer has become forgotten. It chronicles the tale of a certain heroic outlaw."
+              "text": "A songbook from the bygone aristocratic era, whose composer has become forgotten. It chronicles the tale of a certain heroic outlaw.",
+              "released": "2021-03-17"
             },
             {
               "id": "gi-wpn-14412",
@@ -3644,7 +3804,8 @@ var NYX_DB = {
                 "type": "Catalyst",
                 "atk": 510
               },
-              "text": "This was originally a device used by researchers to observe and perform calculations on celestial phenomena. It serves as a conduit and catalyst."
+              "text": "This was originally a device used by researchers to observe and perform calculations on celestial phenomena. It serves as a conduit and catalyst.",
+              "released": "2022-10-14"
             },
             {
               "id": "gi-wpn-14417",
@@ -3716,7 +3877,8 @@ var NYX_DB = {
                 "type": "Catalyst",
                 "atk": 454
               },
-              "text": "A boomerang made from the fangs of a giant sea serpent. It was a rare weapon indeed that the giant Tupac would call \"trusty.\""
+              "text": "A boomerang made from the fangs of a giant sea serpent. It was a rare weapon indeed that the giant Tupac would call \"trusty.\"",
+              "released": "2024-11-20"
             },
             {
               "id": "gi-wpn-14431",
@@ -3764,7 +3926,8 @@ var NYX_DB = {
                 "type": "Catalyst",
                 "atk": 510
               },
-              "text": "A silver-forged ritual vessel, pure and completely without blemish. It is said to be a sacred relic passed down for generations among the priestesses of the far north."
+              "text": "A silver-forged ritual vessel, pure and completely without blemish. It is said to be a sacred relic passed down for generations among the priestesses of the far north.",
+              "released": "2025-10-22"
             },
             {
               "id": "gi-wpn-14501",
@@ -3776,7 +3939,8 @@ var NYX_DB = {
                 "type": "Catalyst",
                 "atk": 674
               },
-              "text": "A cloud atlas symbolizing Dvalin and his former master, the Anemo Archon. It details the winds and clouds of the northern regions and contains the powers of the sky and wind."
+              "text": "A cloud atlas symbolizing Dvalin and his former master, the Anemo Archon. It details the winds and clouds of the northern regions and contains the powers of the sky and wind.",
+              "released": "2020-12-23"
             },
             {
               "id": "gi-wpn-14502",
@@ -3788,7 +3952,8 @@ var NYX_DB = {
                 "type": "Catalyst",
                 "atk": 608
               },
-              "text": "An educational tome written by anonymous early inhabitants who worshiped the wind. It has been blessed by the wind for its faithfulness and influence over the millennia."
+              "text": "An educational tome written by anonymous early inhabitants who worshiped the wind. It has been blessed by the wind for its faithfulness and influence over the millennia.",
+              "released": "2020-10-20"
             },
             {
               "id": "gi-wpn-14504",
@@ -3800,7 +3965,8 @@ var NYX_DB = {
                 "type": "Catalyst",
                 "atk": 608
               },
-              "text": "A stone dumbbell containing distant memories. Its endless transformations reveal the power within."
+              "text": "A stone dumbbell containing distant memories. Its endless transformations reveal the power within.",
+              "released": "2020-11-11"
             },
             {
               "id": "gi-wpn-14505",
@@ -3812,7 +3978,8 @@ var NYX_DB = {
                 "type": "Catalyst",
                 "atk": 608
               },
-              "text": "A ritual vessel carved from jade that reflects the luster of the skies and the clear waters."
+              "text": "A ritual vessel carved from jade that reflects the luster of the skies and the clear waters.",
+              "released": "2023-05-02"
             },
             {
               "id": "gi-wpn-14506",
@@ -3824,7 +3991,8 @@ var NYX_DB = {
                 "type": "Catalyst",
                 "atk": 608
               },
-              "text": "A string of lovely jasper from the deep sea. It shines with a pure radiance like that of the moon, and just as ever-distant."
+              "text": "A string of lovely jasper from the deep sea. It shines with a pure radiance like that of the moon, and just as ever-distant.",
+              "released": "2021-09-21"
             },
             {
               "id": "gi-wpn-14509",
@@ -3836,7 +4004,8 @@ var NYX_DB = {
                 "type": "Catalyst",
                 "atk": 608
               },
-              "text": "The bells used when performing the Kagura Dance, blessed by the Guuji herself. The scent of the Sacred Sakura tree lingers on it."
+              "text": "The bells used when performing the Kagura Dance, blessed by the Guuji herself. The scent of the Sacred Sakura tree lingers on it.",
+              "released": "2022-02-16"
             },
             {
               "id": "gi-wpn-14511",
@@ -3848,7 +4017,8 @@ var NYX_DB = {
                 "type": "Catalyst",
                 "atk": 542
               },
-              "text": "This lamp illuminates the dreams that float up over a thousand nights, and in its emerald-green light flows a song of ancient days."
+              "text": "This lamp illuminates the dreams that float up over a thousand nights, and in its emerald-green light flows a song of ancient days.",
+              "released": "2022-11-02"
             },
             {
               "id": "gi-wpn-14512",
@@ -3860,7 +4030,8 @@ var NYX_DB = {
                 "type": "Catalyst",
                 "atk": 674
               },
-              "text": "A bell crafted of deep sapphire and sterling silver. Its echoes are as crisp as they are distant."
+              "text": "A bell crafted of deep sapphire and sterling silver. Its echoes are as crisp as they are distant.",
+              "released": "2022-12-07"
             },
             {
               "id": "gi-wpn-14513",
@@ -3872,7 +4043,8 @@ var NYX_DB = {
                 "type": "Catalyst",
                 "atk": 674
               },
-              "text": "A floating device that can monitor certain phenomena. It was picked up and modified to serve other purposes following its abandonment."
+              "text": "A floating device that can monitor certain phenomena. It was picked up and modified to serve other purposes following its abandonment.",
+              "released": "2023-10-17"
             },
             {
               "id": "gi-wpn-14514",
@@ -3884,7 +4056,8 @@ var NYX_DB = {
                 "type": "Catalyst",
                 "atk": 542
               },
-              "text": "A manual that was once passed down from generation to generation within an underwater priory. Today, none know of its existence."
+              "text": "A manual that was once passed down from generation to generation within an underwater priory. Today, none know of its existence.",
+              "released": "2023-09-27"
             },
             {
               "id": "gi-wpn-14515",
@@ -3896,7 +4069,8 @@ var NYX_DB = {
                 "type": "Catalyst",
                 "atk": 741
               },
-              "text": "A fan carved from pure jade, around which swirls an ancient aura of adeptal energy."
+              "text": "A fan carved from pure jade, around which swirls an ancient aura of adeptal energy.",
+              "released": "2024-01-31"
             },
             {
               "id": "gi-wpn-14516",
@@ -3908,7 +4082,8 @@ var NYX_DB = {
                 "type": "Catalyst",
                 "atk": 542
               },
-              "text": "A commemorative item originally reserved for the champion of the \"First All-Tribe Surfing Championship.\" Since said tournament is currently in the preparatory stage, the prize is in temporary storage at the Leisurely Puffer, with the shop owner as its custodian."
+              "text": "A commemorative item originally reserved for the champion of the \"First All-Tribe Surfing Championship.\" Since said tournament is currently in the preparatory stage, the prize is in temporary storage at the Leisurely Puffer, with the shop owner as its custodian.",
+              "released": "2024-08-28"
             },
             {
               "id": "gi-wpn-14517",
@@ -3920,7 +4095,8 @@ var NYX_DB = {
                 "type": "Catalyst",
                 "atk": 542
               },
-              "text": "A statue carved in the shape of an eagle, a sacred relic of the Masters of the Night-Wind that has been passed down from generation to generation."
+              "text": "A statue carved in the shape of an eagle, a sacred relic of the Masters of the Night-Wind that has been passed down from generation to generation.",
+              "released": "2025-01-01"
             },
             {
               "id": "gi-wpn-14518",
@@ -3932,7 +4108,8 @@ var NYX_DB = {
                 "type": "Catalyst",
                 "atk": 542
               },
-              "text": "A bell lantern forged from purple jade. They say it brings sweet dreams when placed beside one's pillow."
+              "text": "A bell lantern forged from purple jade. They say it brings sweet dreams when placed beside one's pillow.",
+              "released": "2025-02-12"
             },
             {
               "id": "gi-wpn-14519",
@@ -3944,7 +4121,8 @@ var NYX_DB = {
                 "type": "Catalyst",
                 "atk": 674
               },
-              "text": "A trophy made from gemstones from the Collective of Plenty and crystals from the Flower-Feather Clan. It is said to have once belonged to a legendary wrestler."
+              "text": "A trophy made from gemstones from the Collective of Plenty and crystals from the Flower-Feather Clan. It is said to have once belonged to a legendary wrestler.",
+              "released": "2025-03-26"
             },
             {
               "id": "gi-wpn-14520",
@@ -3956,7 +4134,8 @@ var NYX_DB = {
                 "type": "Catalyst",
                 "atk": 542
               },
-              "text": "A mirror crafted from flawless silver that is said to have witnessed the birth of the Moon Maiden. It is seen as a relic of unrivalled provenance by the Frostmoon Scions."
+              "text": "A mirror crafted from flawless silver that is said to have witnessed the birth of the Moon Maiden. It is seen as a relic of unrivalled provenance by the Frostmoon Scions.",
+              "released": "2025-09-10"
             },
             {
               "id": "gi-wpn-14521",
@@ -3968,7 +4147,8 @@ var NYX_DB = {
                 "type": "Catalyst",
                 "atk": 542
               },
-              "text": "An angular box carved from gold and jade. Legend has it that it was once enshrined in a temple deep within Tulaytullah, the Sapphire City."
+              "text": "An angular box carved from gold and jade. Legend has it that it was once enshrined in a temple deep within Tulaytullah, the Sapphire City.",
+              "released": "2025-10-22"
             },
             {
               "id": "gi-wpn-14522",
@@ -3980,7 +4160,8 @@ var NYX_DB = {
                 "type": "Catalyst",
                 "atk": 542
               },
-              "text": "A jade pearl shrouded in the light of the moon. Even in the coldest winter night, its gentle warmth lingers like a song."
+              "text": "A jade pearl shrouded in the light of the moon. Even in the coldest winter night, its gentle warmth lingers like a song.",
+              "released": "2026-01-14"
             },
             {
               "id": "gi-wpn-14523",
@@ -3992,7 +4173,8 @@ var NYX_DB = {
                 "type": "Catalyst",
                 "atk": 741
               },
-              "text": "A golden box as splendid as the light of the heavens. According to legend, it once belonged to a divine envoy of the Eternal Court."
+              "text": "A golden box as splendid as the light of the heavens. According to legend, it once belonged to a divine envoy of the Eternal Court.",
+              "released": "2026-05-20"
             },
             {
               "id": "gi-wpn-15101",
@@ -4088,7 +4270,8 @@ var NYX_DB = {
                 "type": "Bow",
                 "atk": 454
               },
-              "text": "A standard-issue recurve bow of the Knights of Favonius. Only the best archers can unleash its full potential."
+              "text": "A standard-issue recurve bow of the Knights of Favonius. Only the best archers can unleash its full potential.",
+              "released": "2020-12-01"
             },
             {
               "id": "gi-wpn-15402",
@@ -4100,7 +4283,8 @@ var NYX_DB = {
                 "type": "Bow",
                 "atk": 510
               },
-              "text": "A bow that once served as an extraordinary instrument. It is no longer capable of getting people up and dancing."
+              "text": "A bow that once served as an extraordinary instrument. It is no longer capable of getting people up and dancing.",
+              "released": "2020-09-28"
             },
             {
               "id": "gi-wpn-15403",
@@ -4112,7 +4296,8 @@ var NYX_DB = {
                 "type": "Bow",
                 "atk": 565
               },
-              "text": "A ceremonial hunting bow that has become petrified over time. The trinkets on it are still visible. It grants the wielder the power to withstand the winds of time."
+              "text": "A ceremonial hunting bow that has become petrified over time. The trinkets on it are still visible. It grants the wielder the power to withstand the winds of time.",
+              "released": "2020-10-20"
             },
             {
               "id": "gi-wpn-15404",
@@ -4136,7 +4321,8 @@ var NYX_DB = {
                 "type": "Bow",
                 "atk": 510
               },
-              "text": "A completely rusted iron greatbow. The average person would lack the strength to even lift it, let alone fire it."
+              "text": "A completely rusted iron greatbow. The average person would lack the strength to even lift it, let alone fire it.",
+              "released": "2020-11-11"
             },
             {
               "id": "gi-wpn-15406",
@@ -4196,7 +4382,8 @@ var NYX_DB = {
                 "type": "Bow",
                 "atk": 565
               },
-              "text": "An intricate, opulent longbow. It once belonged to a gentleman thief who was never caught."
+              "text": "An intricate, opulent longbow. It once belonged to a gentleman thief who was never caught.",
+              "released": "2021-04-06"
             },
             {
               "id": "gi-wpn-15411",
@@ -4220,7 +4407,8 @@ var NYX_DB = {
                 "type": "Bow",
                 "atk": 510
               },
-              "text": "A bow painted the color of transgression and nights of illusion."
+              "text": "A bow painted the color of transgression and nights of illusion.",
+              "released": "2021-06-09"
             },
             {
               "id": "gi-wpn-15413",
@@ -4268,7 +4456,8 @@ var NYX_DB = {
                 "type": "Bow",
                 "atk": 565
               },
-              "text": "A lovely warbow made from seashells and coral. A mournful brilliance flows along its moonlight-colored arms."
+              "text": "A lovely warbow made from seashells and coral. A mournful brilliance flows along its moonlight-colored arms.",
+              "released": "2021-11-02"
             },
             {
               "id": "gi-wpn-15417",
@@ -4352,7 +4541,8 @@ var NYX_DB = {
                 "type": "Bow",
                 "atk": 565
               },
-              "text": "A measuring instrument that you can rarely find nowadays. It is capable of firing arrows."
+              "text": "A measuring instrument that you can rarely find nowadays. It is capable of firing arrows.",
+              "released": "2023-10-17"
             },
             {
               "id": "gi-wpn-15430",
@@ -4364,7 +4554,8 @@ var NYX_DB = {
                 "type": "Bow",
                 "atk": 510
               },
-              "text": "A longbow that burns like a flame. The feathers that adorn it are said to have come from the ancient tyrant Ngoubou."
+              "text": "A longbow that burns like a flame. The feathers that adorn it are said to have come from the ancient tyrant Ngoubou.",
+              "released": "2024-11-20"
             },
             {
               "id": "gi-wpn-15431",
@@ -4424,7 +4615,8 @@ var NYX_DB = {
                 "type": "Bow",
                 "atk": 674
               },
-              "text": "A greatbow that symbolizes Dvalin's affiliation with the Anemo Archon. The sound of the bow firing is music to the Anemo Archon's ears. It contains the power of the sky and wind within."
+              "text": "A greatbow that symbolizes Dvalin's affiliation with the Anemo Archon. The sound of the bow firing is music to the Anemo Archon's ears. It contains the power of the sky and wind within.",
+              "released": "2020-11-11"
             },
             {
               "id": "gi-wpn-15502",
@@ -4436,7 +4628,8 @@ var NYX_DB = {
                 "type": "Bow",
                 "atk": 608
               },
-              "text": "An extremely ancient bow that has retained its power despite its original master being long gone. It draws power from everyone and everything in the world, and the further away you are from that which your heart desires, the more powerful it is."
+              "text": "An extremely ancient bow that has retained its power despite its original master being long gone. It draws power from everyone and everything in the world, and the further away you are from that which your heart desires, the more powerful it is.",
+              "released": "2020-09-28"
             },
             {
               "id": "gi-wpn-15503",
@@ -4448,7 +4641,8 @@ var NYX_DB = {
                 "type": "Bow",
                 "atk": 608
               },
-              "text": "A bow as lovely as any bard's lyre, its arrows pierce the heart like a lamenting sigh."
+              "text": "A bow as lovely as any bard's lyre, its arrows pierce the heart like a lamenting sigh.",
+              "released": "2021-03-17"
             },
             {
               "id": "gi-wpn-15507",
@@ -4460,7 +4654,8 @@ var NYX_DB = {
                 "type": "Bow",
                 "atk": 608
               },
-              "text": "A pristine bow that is as sharp as the glaciers of the far north."
+              "text": "A pristine bow that is as sharp as the glaciers of the far north.",
+              "released": "2021-10-13"
             },
             {
               "id": "gi-wpn-15508",
@@ -4472,7 +4667,8 @@ var NYX_DB = {
                 "type": "Bow",
                 "atk": 542
               },
-              "text": "This longbow's color is unpredictable. Under the light, it takes on a lustrous, watery blue."
+              "text": "This longbow's color is unpredictable. Under the light, it takes on a lustrous, watery blue.",
+              "released": "2022-05-31"
             },
             {
               "id": "gi-wpn-15509",
@@ -4484,7 +4680,8 @@ var NYX_DB = {
                 "type": "Bow",
                 "atk": 608
               },
-              "text": "A longbow that was a gift from the Shogun. Eternal lightning crackles all around it."
+              "text": "A longbow that was a gift from the Shogun. Eternal lightning crackles all around it.",
+              "released": "2021-08-10"
             },
             {
               "id": "gi-wpn-15511",
@@ -4496,7 +4693,8 @@ var NYX_DB = {
                 "type": "Bow",
                 "atk": 542
               },
-              "text": "This gilded bow was made using precious white branches. It has felled countless wicked beasts attempting to infiltrate the woods."
+              "text": "This gilded bow was made using precious white branches. It has felled countless wicked beasts attempting to infiltrate the woods.",
+              "released": "2022-08-24"
             },
             {
               "id": "gi-wpn-15512",
@@ -4508,7 +4706,8 @@ var NYX_DB = {
                 "type": "Bow",
                 "atk": 608
               },
-              "text": "A stage prop once used by a past \"Great Magician.\" Its final secret was that it was also a weapon beyond the pale."
+              "text": "A stage prop once used by a past \"Great Magician.\" Its final secret was that it was also a weapon beyond the pale.",
+              "released": "2023-08-16"
             },
             {
               "id": "gi-wpn-15513",
@@ -4520,7 +4719,8 @@ var NYX_DB = {
                 "type": "Bow",
                 "atk": 542
               },
-              "text": "Legendary bow of the fairies. Whether on the stage or the battlefield, it can easily touch the hearts of the listener."
+              "text": "Legendary bow of the fairies. Whether on the stage or the battlefield, it can easily touch the hearts of the listener.",
+              "released": "2024-06-25"
             },
             {
               "id": "gi-wpn-15514",
@@ -4532,7 +4732,8 @@ var NYX_DB = {
                 "type": "Bow",
                 "atk": 608
               },
-              "text": "An ancient longbow crested with red feathers, a sacred relic of the Flower-Feather Clan that has been passed down from generation to generation."
+              "text": "An ancient longbow crested with red feathers, a sacred relic of the Flower-Feather Clan that has been passed down from generation to generation.",
+              "released": "2024-11-20"
             },
             {
               "id": "gi-wpn-15515",
@@ -4544,7 +4745,8 @@ var NYX_DB = {
                 "type": "Bow",
                 "atk": 674
               },
-              "text": "The songs of resistance come hither on the wind to settle as gentle tones upon these strings, their combined power great enough to rip boundless darkness asunder with the light of the breaking dawn."
+              "text": "The songs of resistance come hither on the wind to settle as gentle tones upon these strings, their combined power great enough to rip boundless darkness asunder with the light of the breaking dawn.",
+              "released": "2025-12-03"
             },
             {
               "id": "gi-wpn-15516",
@@ -4556,7 +4758,8 @@ var NYX_DB = {
                 "type": "Bow",
                 "atk": 542
               },
-              "text": "A longbow carved from ancient whitewood, once, in ages past, wielded by the Jack Frost King of the northern lands."
+              "text": "A longbow carved from ancient whitewood, once, in ages past, wielded by the Jack Frost King of the northern lands.",
+              "released": "2026-04-08"
             },
             {
               "id": "gi-wpn-310001",
@@ -4830,9 +5033,9 @@ var NYX_DB = {
         "name": "Genshin Impact",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-08-09T11:35:19.636Z",
-          "lastSuccessfulFetch": "2026-08-09T11:35:19.636Z",
-          "lastValidUpdate": "2026-08-09T11:35:19.636Z",
+          "checkedAt": "2026-08-09T18:13:08.454Z",
+          "lastSuccessfulFetch": "2026-08-09T18:13:08.454Z",
+          "lastValidUpdate": "2026-08-09T18:13:08.454Z",
           "source": "game8"
         },
         "current": {
@@ -4905,10 +5108,10 @@ var NYX_DB = {
           "characters": [
             {
               "name": "Odette",
-              "icon": null,
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Odette_Circle.webp",
               "iconFallback": null,
               "iconZoom": false,
-              "art": null,
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Odette.webp",
               "namecard": null,
               "rarity": 5,
               "debut": true,
@@ -4916,10 +5119,10 @@ var NYX_DB = {
             },
             {
               "name": "Alyosha",
-              "icon": null,
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Alyosha_Circle.webp",
               "iconFallback": null,
               "iconZoom": false,
-              "art": null,
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Alyosha.webp",
               "namecard": null,
               "rarity": 4,
               "debut": true,
@@ -4940,6 +5143,58 @@ var NYX_DB = {
           "subBanners": []
         },
         "upcoming": [
+          {
+            "phase": null,
+            "start": "2026-08-12T10:00:00.000Z",
+            "end": null,
+            "characters": [
+              {
+                "name": "Odette",
+                "icon": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Odette_Circle.webp",
+                "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Odette.webp",
+                "iconZoom": true,
+                "art": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Odette_Circle.webp",
+                "namecard": null,
+                "rarity": 5,
+                "debut": true,
+                "debutAt": "2026-08-12"
+              },
+              {
+                "name": "Arlecchino",
+                "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Arlecchino_Circle.webp",
+                "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Arlecchino.webp",
+                "iconZoom": true,
+                "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Arlecchino.webp",
+                "namecard": "../../Database/GenshinWiki/namecards/Arlecchino.png",
+                "rarity": 5,
+                "debut": false,
+                "debutAt": "2024-04-24"
+              },
+              {
+                "name": "Ineffa",
+                "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Ineffa_Circle.webp",
+                "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Ineffa.webp",
+                "iconZoom": true,
+                "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Ineffa.webp",
+                "namecard": "../../Database/GenshinWiki/namecards/Ineffa.png",
+                "rarity": 5,
+                "debut": false,
+                "debutAt": "2025-07-30"
+              },
+              {
+                "name": "Flins",
+                "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Flins_Circle.webp",
+                "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Flins.webp",
+                "iconZoom": true,
+                "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Flins.webp",
+                "namecard": "../../Database/GenshinWiki/namecards/Flins.png",
+                "rarity": 5,
+                "debut": false,
+                "debutAt": "2025-09-30"
+              }
+            ],
+            "subBanners": []
+          },
           {
             "phase": null,
             "start": "2026-09-01T10:00:00.000Z",
@@ -147476,185 +147731,6 @@ var NYX_DB = {
           "forms": []
         },
         {
-          "id": "gi-traveler",
-          "name": "Traveler",
-          "aliases": [
-            "Aether",
-            "Lumine"
-          ],
-          "title": "Descender",
-          "rarity": 5,
-          "element": "Anemo",
-          "role": "Sword",
-          "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
-          "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
-          "facts": {
-            "constellation": "Viator"
-          },
-          "overviewArt": "../../Database/GameData/gi/gcg/other cards/assets/332001-The Bestest Travel Companion!.webp",
-          "overviewArtPool": [
-            "../../Database/GameData/gi/gcg/other cards/assets/332001-The Bestest Travel Companion!.webp"
-          ],
-          "forms": [
-            {
-              "name": "Traveler",
-              "label": "Anemo",
-              "variant": "Anemo",
-              "gender": "male",
-              "element": "Anemo",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
-              "facts": {
-                "constellation": "Viator"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Anemo",
-              "variant": "Anemo",
-              "gender": "female",
-              "element": "Anemo",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
-              "facts": {
-                "constellation": "Viatrix"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Geo",
-              "variant": "Geo",
-              "gender": "male",
-              "element": "Geo",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
-              "facts": {
-                "constellation": "Viator"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Geo",
-              "variant": "Geo",
-              "gender": "female",
-              "element": "Geo",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
-              "facts": {
-                "constellation": "Viatrix"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Electro",
-              "variant": "Electro",
-              "gender": "male",
-              "element": "Electro",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
-              "facts": {
-                "constellation": "Viator"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Electro",
-              "variant": "Electro",
-              "gender": "female",
-              "element": "Electro",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
-              "facts": {
-                "constellation": "Viatrix"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Dendro",
-              "variant": "Dendro",
-              "gender": "male",
-              "element": "Dendro",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
-              "facts": {
-                "constellation": "Viator"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Dendro",
-              "variant": "Dendro",
-              "gender": "female",
-              "element": "Dendro",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
-              "facts": {
-                "constellation": "Viatrix"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Hydro",
-              "variant": "Hydro",
-              "gender": "male",
-              "element": "Hydro",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
-              "facts": {
-                "constellation": "Viator"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Hydro",
-              "variant": "Hydro",
-              "gender": "female",
-              "element": "Hydro",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
-              "facts": {
-                "constellation": "Viatrix"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Pyro",
-              "variant": "Pyro",
-              "gender": "male",
-              "element": "Pyro",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
-              "facts": {
-                "constellation": "Viator"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Pyro",
-              "variant": "Pyro",
-              "gender": "female",
-              "element": "Pyro",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
-              "facts": {
-                "constellation": "Viatrix"
-              }
-            }
-          ]
-        },
-        {
           "id": "gi-10000016",
           "name": "Diluc",
           "aliases": [],
@@ -148144,6 +148220,185 @@ var NYX_DB = {
             "../../Database/GameData/gi/gcg/character cards/assets/1202-Xingqiu.webp"
           ],
           "forms": []
+        },
+        {
+          "id": "gi-traveler",
+          "name": "Traveler",
+          "aliases": [
+            "Aether",
+            "Lumine"
+          ],
+          "title": "Descender",
+          "rarity": 5,
+          "element": "Anemo",
+          "role": "Sword",
+          "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
+          "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
+          "facts": {
+            "constellation": "Viator"
+          },
+          "overviewArt": "../../Database/GameData/gi/gcg/other cards/assets/332001-The Bestest Travel Companion!.webp",
+          "overviewArtPool": [
+            "../../Database/GameData/gi/gcg/other cards/assets/332001-The Bestest Travel Companion!.webp"
+          ],
+          "forms": [
+            {
+              "name": "Traveler",
+              "label": "Anemo",
+              "variant": "Anemo",
+              "gender": "male",
+              "element": "Anemo",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
+              "facts": {
+                "constellation": "Viator"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Anemo",
+              "variant": "Anemo",
+              "gender": "female",
+              "element": "Anemo",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
+              "facts": {
+                "constellation": "Viatrix"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Geo",
+              "variant": "Geo",
+              "gender": "male",
+              "element": "Geo",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
+              "facts": {
+                "constellation": "Viator"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Geo",
+              "variant": "Geo",
+              "gender": "female",
+              "element": "Geo",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
+              "facts": {
+                "constellation": "Viatrix"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Electro",
+              "variant": "Electro",
+              "gender": "male",
+              "element": "Electro",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
+              "facts": {
+                "constellation": "Viator"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Electro",
+              "variant": "Electro",
+              "gender": "female",
+              "element": "Electro",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
+              "facts": {
+                "constellation": "Viatrix"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Dendro",
+              "variant": "Dendro",
+              "gender": "male",
+              "element": "Dendro",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
+              "facts": {
+                "constellation": "Viator"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Dendro",
+              "variant": "Dendro",
+              "gender": "female",
+              "element": "Dendro",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
+              "facts": {
+                "constellation": "Viatrix"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Hydro",
+              "variant": "Hydro",
+              "gender": "male",
+              "element": "Hydro",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
+              "facts": {
+                "constellation": "Viator"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Hydro",
+              "variant": "Hydro",
+              "gender": "female",
+              "element": "Hydro",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
+              "facts": {
+                "constellation": "Viatrix"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Pyro",
+              "variant": "Pyro",
+              "gender": "male",
+              "element": "Pyro",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
+              "facts": {
+                "constellation": "Viator"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Pyro",
+              "variant": "Pyro",
+              "gender": "female",
+              "element": "Pyro",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
+              "facts": {
+                "constellation": "Viatrix"
+              }
+            }
+          ]
         }
       ]
     },
@@ -148183,7 +148438,8 @@ var NYX_DB = {
               },
               "text": "A Grounded Ascent\nRarity: 5 \u2605\nPath: Harmony\nAfter the wearer uses Skill or Ultimate on one ally character, the wearer regenerates 6 / 6.5 / 7 / 7.5 / 8 Energy and the ability's target receives 1 stack of \"Hymn\" for 3 turn(s), stacking up to 3 time(s). Each stack of \"Hymn\" increases its holder's DMG dealt by 15 / 17.25 / 19.5 / 21.75 / 24% . After every 2 instance(s) of Skill or Ultimate the wearer uses on one ally character, recovers 1 Skill Point.\nHP\n+ 1164\nATK\n+ 476\nDEF\n+ 529",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2024-12-04"
             },
             {
               "id": "a-secret-vow",
@@ -148196,7 +148452,8 @@ var NYX_DB = {
               },
               "text": "A Secret Vow\nRarity: 4 \u2605\nPath: Destruction\nIncreases DMG dealt by the wearer by 20/25/30/35/40% . The wearer also deals an extra 20/25/30/35/40% of DMG to enemies whose current HP percentage is equal to or higher than the wearer's current HP percentage.\nHP\n+ 1058\nATK\n+ 476\nDEF\n+ 264",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2023-07-19"
             },
             {
               "id": "a-star-that-lights-the-night",
@@ -148209,7 +148466,8 @@ var NYX_DB = {
               },
               "text": "A Star That Lights the Night\nRarity: 5 \u2605\nPath: Erudition\nThe wearer ignores 32/36/40/44/48% of the target's DEF when dealing DMG. When the wearer uses an Assist Skill, they regenerate 6 Energy and gain \"Sail,\" lasting for 2 turns and stacking up to 3 time(s). Each stack of \"Sail\" increases Assist Skill DMG by 20/25/30/35/40% . When \"Sail\" reaches 3 stacks, each stack of \"Sail\" increases Ultimate DMG by 20/25/30/35/40% .\nHP\n+ 847\nATK\n+ 635\nDEF\n+ 529",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2026-07-15"
             },
             {
               "id": "a-thankless-coronation",
@@ -148222,7 +148480,8 @@ var NYX_DB = {
               },
               "text": "A Thankless Coronation\nRarity: 5 \u2605\nPath: Destruction\nIncreases the wearer's CRIT DMG by 36/45/54/63/72% . When using Ultimate, increases the wearer's ATK by 40/50/60/70/80% , and if the wearer's Max Energy is greater than or equal to 300, regenerates a fixed amount of Energy equal to 10% of the wearer's Max Energy and once again increases the wearer's ATK by 40/50/60/70/80% , lasting for 2 turns.\nHP\n+ 953\nATK\n+ 582\nDEF\n+ 529",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2025-07-11"
             },
             {
               "id": "a-trail-of-bygone-blood",
@@ -148261,7 +148520,8 @@ var NYX_DB = {
               },
               "text": "After the Charmony Fall\nRarity: 4 \u2605\nPath: Erudition\nIncreases the wearer's Break Effect by 28/35/42/49/56% . After the wearer uses Ultimate, increases SPD by 8/10/12/14/16 , lasting for 2 turn(s).\nHP\n+ 847\nATK\n+ 476\nDEF\n+ 397",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2024-07-10"
             },
             {
               "id": "along-the-passing-shore",
@@ -148274,7 +148534,8 @@ var NYX_DB = {
               },
               "text": "Along the Passing Shore\nRarity: 5 \u2605\nPath: Nihility\nIncreases the wearer's CRIT DMG by 36/42/48/54/60% . When the wearer hits an enemy target, inflicts Mirage Fizzle on the enemy, lasting for 1 turn. Each time the wearer attacks, this effect can only trigger 1 time on each target. The wearer deals 24/28/32/36/40% increased DMG to targets afflicted with Mirage Fizzle, and the DMG dealt by the wearer's Ultimate additionally increases by 24/28/32/36/40% .\nHP\n+ 1058\nATK\n+ 635\nDEF\n+ 396",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2024-03-27"
             },
             {
               "id": "amber",
@@ -148300,7 +148561,8 @@ var NYX_DB = {
               },
               "text": "An Instant Before A Gaze\nRarity: 5 \u2605\nPath: Erudition\nIncreases the wearer's CRIT DMG by 36/42/48/54/60% . When the wearer uses their Ultimate, the wearer's Ultimate DMG increases based on their Max Energy; Ultimate DMG increases by 0.36/0.42/0.48/0.54/0.6% per point of Energy, up to 180 Energy.\nHP\n+ 1058\nATK\n+ 582\nDEF\n+ 463",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2023-12-06"
             },
             {
               "id": "arrows",
@@ -148326,7 +148588,8 @@ var NYX_DB = {
               },
               "text": "Baptism of Pure Thought\nRarity: 5 \u2605\nPath: Hunt\nIncreases the wearer's CRIT DMG by 20/23/26/29/32% . For every debuff on the enemy target, the wearer's CRIT DMG dealt against this target increases by 8/9/10/11/12% , stacking up to 3 times. When using Ultimate to attack the enemy target, the wearer receives the Disputation effect, which increases DMG dealt by 36/42/48/54/60% and enables their follow-up attacks to ignore 24/28/32/36/40% of the target's DEF. This effect lasts for 2 turns.\nHP\n+ 952\nATK\n+ 582\nDEF\n+ 529",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2024-01-17"
             },
             {
               "id": "before-dawn",
@@ -148339,7 +148602,8 @@ var NYX_DB = {
               },
               "text": "Before Dawn\nRarity: 5 \u2605\nPath: Erudition\nIncreases the wearer's CRIT DMG by 36/42/48/54/60% . Increases the wearer's Skill and Ultimate DMG by 18/21/24/27/30% . After the wearer uses their Skill or Ultimate, they gain Somnus Corpus. Upon triggering a follow-up attack, Somnus Corpus will be consumed and the follow-up attack DMG increases by 48/56/64/72/80% .\nHP\n+ 1058\nATK\n+ 582\nDEF\n+ 463",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2023-05-17"
             },
             {
               "id": "before-the-tutorial-mission-starts",
@@ -148365,7 +148629,8 @@ var NYX_DB = {
               },
               "text": "Boundless Choreo\nRarity: 4 \u2605\nPath: Nihility\nIncrease the wearer's CRIT Rate by 8/10/12/14/16% . The wearer deals 24/30/36/42/48% more CRIT DMG to enemies that are currently DEF reduced or Slowed.\nHP\n+ 953\nATK\n+ 476\nDEF\n+ 331",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2024-05-08"
             },
             {
               "id": "brighter-than-the-sun",
@@ -148378,7 +148643,8 @@ var NYX_DB = {
               },
               "text": "Brighter Than the Sun\nRarity: 5 \u2605\nPath: Destruction\nIncreases the wearer's CRIT Rate by 18 /21/24/27/30 % . When the wearer uses their Basic ATK, they will gain 1 stack of Dragon's Call for 2 turns. Each stack of Dragon's Call increases the wearer's ATK by 18 /21/24/27/30 % and Energy Regeneration Rate by 6 /7/8/9/10 % . Dragon's Call can be stacked up to 2 times.\nHP\n+ 1058\nATK\n+ 635\nDEF\n+ 396",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2023-08-30"
             },
             {
               "id": "but-the-battle-isnt-over",
@@ -148443,7 +148709,8 @@ var NYX_DB = {
               },
               "text": "Concert for Two\nRarity: 4 \u2605\nPath: Preservation\nIncreases the wearer's DEF by 16/20/24/28/32% . For every on-field character that has a Shield, the DMG dealt by the wearer increases by 4/5/6/7/8%.\nHP\n+ 952\nATK\n+ 370\nDEF\n+ 463",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2024-04-17"
             },
             {
               "id": "cornucopia",
@@ -148482,7 +148749,8 @@ var NYX_DB = {
               },
               "text": "Dance at Sunset\nRarity: 5 \u2605\nPath: Destruction\nGreatly increases the odds that the wearer will be attacked and increases the wearer's CRIT DMG by 36/42/48/54/60% . After the wearer uses their Ultimate, they receive 1 stack of Firedance, lasting for 2 turns and up to 2 stacks. Each stack of Firedance increases the DMG dealt by the wearer's follow-up attack by 36/42/48/54/60%.\nHP\n+ 1058\nATK\n+ 582\nDEF\n+ 463",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2024-07-31"
             },
             {
               "id": "dance-dance-dance",
@@ -148495,7 +148763,8 @@ var NYX_DB = {
               },
               "text": "Dance! Dance! Dance!\nRarity: 4 \u2605\nPath: Harmony\nWhen the wearer uses their Ultimate, all allies' actions are Advanced Forward by 16/18/20/22/24%\nHP\n+ 952\nATK\n+ 423\nDEF\n+ 396",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2023-06-28"
             },
             {
               "id": "darting-arrow",
@@ -148536,7 +148805,8 @@ var NYX_DB = {
               "status": "live",
               "labels": [
                 "New"
-              ]
+              ],
+              "released": "2023-05-17"
             },
             {
               "id": "dazzled-by-a-flowery-world",
@@ -148549,7 +148819,8 @@ var NYX_DB = {
               },
               "text": "Dazzled by a Flowery World\nRarity: 5 \u2605\nPath: Elation\nIncreases the wearer's CRIT DMG by 48/56/64/72/80% . While the wearer is on the field, for every 1 Elation character in the team, increases the Skill Point upper limit by 1 , up to a max increase of 3 . For every 1 Skill Point the wearer consumes, enables the Elation DMG dealt by this unit to ignore 5/6/7/8/9% of enemy targets' DEF, stacking up to 4 times. If 4 or more Skill Points are consumed in the same turn, the wearer gains \"Stream Promo,\" which increases all allies' Elation by 20/24/28/32/36% . Light Cone effects of the same type cannot stack.\nHP\n+ 1058\nATK\n+ 582\nDEF\n+ 463",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2026-03-03"
             },
             {
               "id": "defense",
@@ -148588,7 +148859,8 @@ var NYX_DB = {
               },
               "text": "Dream's Montage\nRarity: 4 \u2605\nPath: Abundance\nIncreases the wearer's SPD by 8/9/10/11/12% . After attacking enemy targets that are Weakness Broken, regenerates 3/3.5/4/4.5/5 Energy. This effect can trigger up to 2 time(s) per turn.\nHP\n+ 953\nATK\n+ 423\nDEF\n+ 397",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2024-10-23"
             },
             {
               "id": "dreamville-adventure",
@@ -148614,7 +148886,8 @@ var NYX_DB = {
               },
               "text": "Earthly Escapade\nRarity: 5 \u2605\nPath: Harmony\nIncreases the wearer's CRIT DMG by 32/39/46/52/60% . At the start of the battle, the wearer gains Mask, lasting for 3 turn(s). While the wearer has Mask, the wearer's allies have their CRIT Rate increased by 10/11/12/13/14% and their CRIT DMG increased by 28/35/42/49/56% . For every 1 Skill Point the wearer recovers (including Skill Points that exceed the limit), they gain 1 stack of Radiant Flame. And when the wearer has 4 stacks of Radiant Flame, all the stacks are removed, and they gain Mask, lasting for 4 turn(s).\nHP\n+ 1164\nATK\n+ 529\nDEF\n+ 463",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2024-02-29"
             },
             {
               "id": "echoes-of-the-coffin",
@@ -148627,7 +148900,8 @@ var NYX_DB = {
               },
               "text": "Echoes of the Coffin\nRarity: 5 \u2605\nPath: Abundance\nIncreases the wearer's ATK by 24 /28/32/36/40 % . After the wearer uses an attack, for each different enemy target the wearer hits, regenerates 3 /3.5/4/4.5/5 Energy. Each attack can regenerate Energy up to 3 time(s) this way. After the wearer uses their Ultimate, all allies gain 12 /14/16/18/20 SPD for 1 turn.\nHP\n+ 1164\nATK\n+ 582\nDEF\n+ 396",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2023-06-28"
             },
             {
               "id": "elation-brimming-with-blessings",
@@ -148653,7 +148927,8 @@ var NYX_DB = {
               },
               "text": "Epoch Etched in Golden Blood\nRarity: 5 \u2605\nPath: Harmony\nIncreases the wearer's ATK by 64/80/96/112/128% . After using Ultimate to attack, recovers 1 Skill Point(s). After the wearer uses their Skill on one ally character, increases the Skill DMG dealt by the target by 54/67.5/81/94.5/108% for 3 turn(s).\nHP\n+ 953\nATK\n+ 635\nDEF\n+ 463",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2025-09-02"
             },
             {
               "id": "eternal-calculus",
@@ -148679,7 +148954,8 @@ var NYX_DB = {
               },
               "text": "Eyes of the Prey\nRarity: 4 \u2605\nPath: Nihility\nIncreases Effect Hit Rate of its wearer by 20 /25/30/35/40 % and increases DoT by 24 /30/36/42/48 % .\nHP\n+ 952\nATK\n+ 476\nDEF\n+ 330",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2023-08-09"
             },
             {
               "id": "fermata",
@@ -148754,7 +149030,8 @@ var NYX_DB = {
               "fields": {},
               "text": "",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2026-07-24"
             },
             {
               "id": "flickering-stars-new",
@@ -148782,7 +149059,8 @@ var NYX_DB = {
               },
               "text": "Flowing Nightglow\nRarity: 5 \u2605\nPath: Harmony\nEvery time any ally attacks, the wearer gains 1 stack of Cantillation. Each stack of Cantillation increases the wearer's Energy Regeneration Rate by 3/3.5/4/4.5/5% , stacking up to 5 times. When the wearer uses their Ultimate, removes Cantillation and gains Cadenza. Cadenza increases the Wearer's ATK by 48/60/72/84/96% and all allies' DMG dealt by 24/28/32/36/40% , lasting for 1 turn(s).\nHP\n+ 953\nATK\n+ 635\nDEF\n+ 463",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2024-05-08"
             },
             {
               "id": "fly-into-a-pink-tomorrow",
@@ -148821,7 +149099,8 @@ var NYX_DB = {
               },
               "text": "Geniuses' Greetings\nRarity: 4 \u2605\nPath: Remembrance\nIncreases the wearer's ATK by 16/20/24/28/32% . After the wearer uses their Ultimate, additionally increases the wearer and their memosprite's Basic ATK DMG dealt by 20/25/30/35/40% for 3 turn(s).\nHP\n+ 952\nATK\n+ 476\nDEF\n+ 330",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2025-02-05"
             },
             {
               "id": "geniuses-repose",
@@ -148834,7 +149113,8 @@ var NYX_DB = {
               },
               "text": "Geniuses' Repose\nRarity: 4 \u2605\nPath: Erudition\nIncreases the wearer's ATK by 16 /20/24/28/32 % . When the wearer defeats an enemy, the wearer's CRIT DMG increases by 24 /30/36/42/48 % for 3 turn(s).\nHP\n+ 846\nATK\n+ 476\nDEF\n+ 396",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2023-06-28"
             },
             {
               "id": "good-night-and-sleep-well",
@@ -148847,7 +149127,8 @@ var NYX_DB = {
               },
               "text": "Good Night and Sleep Well\nRarity: 4 \u2605\nPath: Nihility\nFor every debuff the target enemy has, the DMG dealt by the wearer increases by 12 /15/18/21/24 % , stacking up to 3 time(s). This effect also applies to DoT.\nHP\n+ 952\nATK\n+ 476\nDEF\n+ 330",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2023-04-25"
             },
             {
               "id": "hey-over-here",
@@ -148896,7 +149177,8 @@ var NYX_DB = {
               "fields": {},
               "text": "",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2026-07-24"
             },
             {
               "id": "i-am-as-you-behold-new",
@@ -148924,7 +149206,8 @@ var NYX_DB = {
               },
               "text": "I Shall Be My Own Sword\nRarity: 5 \u2605\nPath: Destruction\nIncreases the wearer's CRIT DMG by 20/23/26/29/32% . When an ally gets attacked or loses HP, the wearer gains 1 stack of Eclipse, up to a max of 3 stack(s). Each stack of Eclipse increases the DMG of the wearer's next attack by 14/16.5/19/21.5/24% . When 3 stack(s) are reached, additionally enables the attack to ignore 12/14/16/18/20% of the enemy's DEF. This effect will be removed after the wearer uses an attack.\nHP\n+ 1164\nATK\n+ 582\nDEF\n+ 396",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2023-10-11"
             },
             {
               "id": "i-venture-forth-to-hunt",
@@ -148937,7 +149220,8 @@ var NYX_DB = {
               },
               "text": "I Venture Forth to Hunt\nRarity: 5 \u2605\nPath: Hunt\nIncreases the wearer's CRIT Rate by 15/17.5/20 / 22.5 / 25% . When the wearer launches a follow-up attack, gains 1 stack of \"Luminflux,\" to a max of 2 stacks. Each stack of \"Luminflux\" enables the Ultimate DMG dealt by the wearer to ignore 27 / 30 / 33 / 36 / 39% of the target's DEF. When the wearer's turn ends, removes 1 stack of \"Luminflux.\"\nHP\n+ 952\nATK\n+ 635\nDEF\n+ 463",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2024-09-10"
             },
             {
               "id": "if-time-were-a-flower",
@@ -148950,7 +149234,8 @@ var NYX_DB = {
               },
               "text": "If Time Were a Flower\nRarity: 5 \u2605\nPath: Harmony\nIncreases the wearer's CRIT DMG by 36/42/48/54/60% . After the wearer launches a Follow-up ATK, additionally regenerates 12 Energy and gains \"Presage,\" lasting for 2 turn(s). While the wearer has \"Presage,\" all ally targets' CRIT DMG increases by 48/60/72/84/96% . When entering battle, the wearer regenerates 21 Energy and gains \"Presage,\" lasting for 2 turn(s).\nHP\n+ 1270\nATK\n+ 529\nDEF\n+ 397",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2025-02-26"
             },
             {
               "id": "in-pursuit-of-the-wind",
@@ -148989,7 +149274,8 @@ var NYX_DB = {
               },
               "text": "In the Night\nRarity: 5 \u2605\nPath: Hunt\nIncreases the wearer's CRIT Rate by 18 /21/24/27/30 % . While the wearer is in battle, for every 10 SPD that exceeds 100, the DMG of the wearer's Basic ATK and Skill is increased by 6 /7/8/9/10 % and the CRIT DMG of their Ultimate is increased by 12 /14/16/18/20 % . This effect can stack up to 6 time(s).\nHP\n+ 1058\nATK\n+ 582\nDEF\n+ 463",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2023-04-25"
             },
             {
               "id": "incessant-rain",
@@ -149002,7 +149288,8 @@ var NYX_DB = {
               },
               "text": "Incessant Rain\nRarity: 5 \u2605\nPath: Nihility\nIncreases the wearer's Effect Hit Rate by 24/28/32/36/40% . When the wearer deals DMG to an enemy with 3 or more debuffs, increases CRIT Rate by 12/14/16/18/20% . After the wearer uses their Basic ATK, Skill, or Ultimate, there is a 100% base chance to implant Aether Code on a random hit target that does not have it yet. Targets with Aether Code receive 12/14/16/18/20% increased DMG for 1 turn.\nHP\n+ 1058\nATK\n+ 582\nDEF\n+ 463",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2023-06-07"
             },
             {
               "id": "indelible-promise",
@@ -149015,7 +149302,8 @@ var NYX_DB = {
               },
               "text": "Indelible Promise\nRarity: 4 \u2605\nPath: Destruction\nIncreases the wearer's Break Effect by 28/35/42/49/56% . When the wearer uses their Ultimate, increases CRIT Rate by 15/18.75/22.5/26.25/30% , lasting for 2 turns.\nHP\n+ 953\nATK\n+ 476\nDEF\n+ 331",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2024-02-06"
             },
             {
               "id": "inherently-unjust-destiny",
@@ -149028,7 +149316,8 @@ var NYX_DB = {
               },
               "text": "Inherently Unjust Destiny\nRarity: 5 \u2605\nPath: Preservation\nIncreases the wearer's DEF by 40/46/52/58/64% . When the wearer provides a Shield to an ally, the wearer's CRIT DMG increases by 40/46/52/58/64% , lasting for 2 turn(s). When the wearer's follow-up attack hits an enemy target, there is a 100/115/130/145/160% base chance to increase the DMG taken by the attacked enemy target by 10/11.5/13/14.5/16% , lasting for 2 turn(s).\nHP\n+ 1058\nATK\n+ 423\nDEF\n+ 661",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2024-04-17"
             },
             {
               "id": "into-the-unreachable-veil",
@@ -149041,7 +149330,8 @@ var NYX_DB = {
               },
               "text": "Into the Unreachable Veil\nRarity: 5 \u2605\nPath: Erudition\nIncreases the wearer's CRIT Rate by 12/14/16/18/20% . When the wearer uses their Ultimate, increases DMG dealt by the wearer's Skill and Ultimate by 60/70/80/90/100% , lasting for 3 turn(s). After the wearer uses their Ultimate, if this Ultimate consumed 140 or more Energy, recovers 1 Skill Point.\nHP\n+ 953\nATK\n+ 635\nDEF\n+ 463",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2025-01-15"
             },
             {
               "id": "its-showtime",
@@ -149080,7 +149370,8 @@ var NYX_DB = {
               },
               "text": "Landau's Choice\nRarity: 4 \u2605\nPath: Preservation\nThe wearer is more likely to be attacked, but DMG taken is reduced by 16 /18/20/22/24 % .\nHP\n+ 952\nATK\n+ 423\nDEF\n+ 396",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2023-08-30"
             },
             {
               "id": "lies-dance-on-the-breeze",
@@ -149093,7 +149384,8 @@ var NYX_DB = {
               },
               "text": "Lies Dance on the Breeze\nRarity: 5 \u2605\nPath: Nihility\nIncreases the wearer's SPD by 18/21/24/27/30% . After the wearer uses an attack, there is a 120% base chance to inflict the \"Bamboozle\" state on every enemy target. While under the \"Bamboozle\" state, enemy targets have their DEF decreased by 16/18/20/22/24% for 2 turn(s). If the wearer's SPD is higher than or equal to 170 , there is a 120% base chance to inflict the \"Theft\" state on every enemy target. While under the \"Theft\" state, enemy targets have their DEF decreased by 8/9/10/11/12% for 2 turn(s). When \"Bamboozle\" or \"Theft\" is repeatedly inflicted, only the most recently inflicted instance takes effect.\nHP\n+ 953\nATK\n+ 582\nDEF\n+ 529",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2025-06-11"
             },
             {
               "id": "life-should-be-cast-to-flames",
@@ -149106,7 +149398,8 @@ var NYX_DB = {
               },
               "text": "Life Should Be Cast to Flames\nRarity: 5 \u2605\nPath: Erudition\nWhen the wearer's turn starts, regenerates 10 Energy. If the enemy target has a Weakness implanted by the wearer, increases the wearer's DMG dealt to it by 60/70/80/90/100% .\nWhen an enemy target gets attacked by the wearer, the wearer decreases the target's DEF by 12/15/18/21/24% , lasting for 2 turn(s). The same types of effects cannot stack.\nHP\n+ 953\nATK\n+ 582\nDEF\n+ 529",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2025-04-30"
             },
             {
               "id": "lingering-tear",
@@ -149132,7 +149425,8 @@ var NYX_DB = {
               },
               "text": "Long May Rainbows Adorn the Sky\nRarity: 5 \u2605\nPath: Remembrance\nIncreases the wearer's SPD by 18/21/24/27/30% . When the wearer uses Basic ATK, Skill, or Ultimate, consumes all allies' HP equal to 1/1.3/1.5/1.7/2.0% of their current HP and additionally deals 1 instance of Additional DMG of the wearer's memosprite Type equal to 250/312.5/375/437.5/500% of the total consumed HP to the attacked target after the next attack launched by the wearer's memosprite. The total HP consumed is then reset. When the wearer's memosprite uses Memosprite Skill, increases the DMG taken by all enemies by 18/22.5/27/31.5/36% for 2 turn(s). The same types of effects cannot stack.\nHP\n+ 1164\nATK\n+ 476\nDEF\n+ 529",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2025-05-21"
             },
             {
               "id": "long-road-leads-home",
@@ -149145,7 +149439,8 @@ var NYX_DB = {
               },
               "text": "Long Road Leads Home\nRarity: 5 \u2605\nPath: Nihility\nIncreases the wearer's Break Effect by 60/70/80/90/100% . When an enemy target's Weakness gets broken, there is a 100% base chance to inflict the \"Charring\" state on it, which increases its Break DMG taken by 18/21/24/27/30% , lasting for 2 turn(s). This effect can stack 2 time(s).\nHP\n+ 952\nATK\n+ 476\nDEF\n+ 661",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2024-12-25"
             },
             {
               "id": "loop",
@@ -149171,7 +149466,8 @@ var NYX_DB = {
               },
               "text": "Make Farewells More Beautiful\nRarity: 5 \u2605\nPath: Remembrance\nIncreases the wearer's Max HP by 30/38/45/53/60% . When the wearer or their memosprite loses HP during their own turn, the wearer gains \"Death Flower,\" which allows the wearer and their memosprite to ignore 30/35/40/45/50% of the target's DEF when dealing DMG, lasting for 2 turn(s).\nWhen the wearer's memosprite disappears, advances the wearer's action by 12/15/18/21/24% . This effect can only trigger up to 1 time, and the trigger count resets every time the wearer uses Ultimate.\nHP\n+ 1270\nATK\n+ 529\nDEF\n+ 397",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2025-04-09"
             },
             {
               "id": "make-the-world-clamor",
@@ -149184,7 +149480,8 @@ var NYX_DB = {
               },
               "text": "Make the World Clamor\nRarity: 4 \u2605\nPath: Erudition\nThe wearer regenerates 20/23/26/29/32 Energy immediately upon entering battle, and increases Ultimate DMG by 32/40/48/56/64% .\nHP\n+ 846\nATK\n+ 476\nDEF\n+ 396",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2023-06-07"
             },
             {
               "id": "mediation",
@@ -149210,7 +149507,8 @@ var NYX_DB = {
               },
               "text": "Memories of the Past\nRarity: 4 \u2605\nPath: Harmony\nIncreases the wearer's Break Effect by 28/35/42/49/56% . When the wearer attacks, additionally regenerates 4/5/6/7/8 Energy. This effect can only be triggered 1 time per turn.\nHP\n+ 952\nATK\n+ 423\nDEF\n+ 396",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2023-06-07"
             },
             {
               "id": "memorys-curtain-never-falls",
@@ -149301,7 +149599,8 @@ var NYX_DB = {
               },
               "text": "Never Forget Her Flame\nRarity: 5 \u2605\nPath: Nihility\nIncreases the wearer's Break Effect by 60/75/90/105/120% . When entering combat, increases Break DMG dealt by the wearer and another teammate who triggered combat by 32/42/52/62/72% . If there is no teammate who triggered combat, applies this effect to the wearer and the teammate with the highest Break Effect. Effects of the same type cannot be stacked. When the wearer applies Weakness to an enemy target, recovers 1 Skill Point. This effect can only trigger once, and trigger count resets when using Ultimate.\nHP\n+ 1164\nATK\n+ 529\nDEF\n+ 463",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2025-12-17"
             },
             {
               "id": "night-of-fright",
@@ -149314,7 +149613,8 @@ var NYX_DB = {
               },
               "text": "Night of Fright\nRarity: 5 \u2605\nPath: Abundance\nIncreases the wearer's Energy Regeneration Rate by 12/14/16/18/20% . When any ally uses their Ultimate, the wearer restores HP for the ally currently with the lowest HP percentage by an amount equal to 10/11/12/13/14% of the healed ally's Max HP. When the wearer provides healing for an ally, increases the healed ally's ATK by 2.4/2.8/3.2/3.6/4% . This effect can stack up to 5 times and lasts for 2 turn(s).\nHP\n+ 1164\nATK\n+ 476\nDEF\n+ 529",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2023-11-15"
             },
             {
               "id": "night-on-the-milky-way",
@@ -149353,7 +149653,8 @@ var NYX_DB = {
               },
               "text": "Ninjutsu Inscription: Dazzling Evilbreaker\nRarity: 5 \u2605\nPath: Erudition\nIncreases the wearer's Break Effect by 60/70/80/90/100% . When entering battle, immediately regenerates 30/32.5/35/37.5/40 Energy. After the wearer uses Ultimate, obtains \"Raiton.\" After using 2 Basic ATKs, advances the wearer's action by 50/55/60/65/70% and removes \"Raiton.\" After the wearer uses Ultimate, resets \"Raiton.\"\nHP\n+ 953\nATK\n+ 582\nDEF\n+ 529",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2024-10-23"
             },
             {
               "id": "nowhere-to-run",
@@ -149392,7 +149693,8 @@ var NYX_DB = {
               },
               "text": "Only Silence Remains\nRarity: 4 \u2605\nPath: Hunt\nIncreases ATK of its wearer by 16 /20/24/28/32 % . If there are 2 or fewer enemies on the field, increases wearer's CRIT Rate by 12 /15/18/21/24 % .\nHP\n+ 952\nATK\n+ 476\nDEF\n+ 330",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2023-05-17"
             },
             {
               "id": "passkey",
@@ -149431,7 +149733,8 @@ var NYX_DB = {
               },
               "text": "Past Self in Mirror\nRarity: 5 \u2605\nPath: Harmony\nIncreases the wearer's Break Effect by 60/70/80/90/100% . After the wearer uses their Ultimate, increases all allies' DMG by 24/28/32/36/40% , lasting for 3 turns. Should the wearer's Break Effect exceed or equal 150%, 1 Skill Point will be recovered. At the start of each wave, immediately regenerates 10/12.5/15/17.5/20 Energy for all allies. Effects of the same type cannot stack.\nHP\n+ 1058\nATK\n+ 529\nDEF\n+ 529",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2023-12-27"
             },
             {
               "id": "patience-is-all-you-need",
@@ -149444,7 +149747,8 @@ var NYX_DB = {
               },
               "text": "Patience Is All You Need\nRarity: 5 \u2605\nPath: Nihility\nIncreases DMG dealt by the wearer by 24 /28/32/36/40 % . After every attack launched by wearer, their SPD increases by 4.8 /5.6/6.4/7.2/8 % , stacking up to 3 times. If the wearer hits an enemy target that is not afflicted by Erode, there is a 100% base chance to inflict Erode to the target. Enemies afflicted with Erode are also considered to be Shocked and will receive Lightning DoT at the start of each turn equal to 60 /70/80/90/100 % of the wearer's ATK, lasting for 1 turn(s).\nHP\n+ 1058\nATK\n+ 582\nDEF\n+ 463",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2023-08-09"
             },
             {
               "id": "perfect-timing",
@@ -149457,7 +149761,8 @@ var NYX_DB = {
               },
               "text": "Perfect Timing\nRarity: 4 \u2605\nPath: Abundance\nIncreases the wearer's Effect RES by 16/20/24/28/32% and increases Outgoing Healing by an amount that is equal to 33/36/39/42/45% of Effect RES. Outgoing Healing can be increased this way by up to 15/18/21/24 /27 % .\nHP\n+ 952\nATK\n+ 423\nDEF\n+ 396",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2023-09-20"
             },
             {
               "id": "pioneering",
@@ -149483,7 +149788,8 @@ var NYX_DB = {
               },
               "text": "Planetary Rendezvous\nRarity: 4 \u2605\nPath: Harmony\nUpon battle entry, if an ally deals the same DMG Type as the wearer, DMG dealt increases by 12 / 15 /18/21/ 24%.\nHP\n+ 1058\nATK\n+ 423\nDEF\n+ 330",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2023-05-17"
             },
             {
               "id": "poised-to-bloom",
@@ -149496,7 +149802,8 @@ var NYX_DB = {
               },
               "text": "Poised to Bloom\nRarity: 4 \u2605\nPath: Harmony\nIncreases the wearer's ATK by 16/20/24/28/32% . Upon entering battle, if two or more characters follow the same Path, then these characters' CRIT DMG increases by 16/20/24/28/32% . Abilities of the same type cannot stack.\nHP\n+ 952\nATK\n+ 423\nDEF\n+ 396",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2024-08-21"
             },
             {
               "id": "post-op-conversation",
@@ -149509,7 +149816,8 @@ var NYX_DB = {
               },
               "text": "Post-Op Conversation\nRarity: 4 \u2605\nPath: Abundance\nIncreases Energy Regeneration Rate of its wearer by 8 /10/12/14/16 % and increases Outgoing Healing when they use their Ultimate by 12 /15/18/21/24 % .\nHP\n+ 1058\nATK\n+ 423\nDEF\n+ 330",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2023-04-25"
             },
             {
               "id": "quid-pro-quo",
@@ -149532,7 +149840,8 @@ var NYX_DB = {
               "fields": {},
               "text": "",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2026-06-01"
             },
             {
               "id": "reforged-in-hellfire-new",
@@ -149560,7 +149869,8 @@ var NYX_DB = {
               },
               "text": "Reforged Remembrance\nRarity: 5 \u2605\nPath: Nihility\nIncreases wearer's Effect Hit Rate by 40/45/50/55/60% . When the wearer deals DMG to an enemy inflicted with Wind Shear, Burn, Shock, or Bleed, they will individually gain 1 stack of Prophet. This effect can stack up to 4 times. In a single battle, each type of DoT can only generate 1 stack of Prophet. Every stack of Prophet increases wearer's ATK by 5/6/7/8/9% and the DoT dealt will ignore 7.2/7.9/8.6/9.3/10% of the target's DEF.\nHP\n+ 1058\nATK\n+ 582\nDEF\n+ 463",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2024-02-06"
             },
             {
               "id": "reminiscence",
@@ -149586,7 +149896,8 @@ var NYX_DB = {
               },
               "text": "Resolution Shines As Pearls of Sweat\nRarity: 4 \u2605\nPath: Nihility\nWhen the wearer hits an enemy and if the hit enemy is not already Ensnared, then there is a 60 /70/80/90/100 % base chance to Ensnare the hit enemy. Ensnared enemies' DEF decreases by 12 /13/14/15/16 % for 1 turn(s).\nHP\n+ 952\nATK\n+ 476\nDEF\n+ 330",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2023-08-09"
             },
             {
               "id": "return-to-darkness",
@@ -149638,7 +149949,8 @@ var NYX_DB = {
               },
               "text": "Sailing Towards A Second Life\nRarity: 5 \u2605\nPath: Hunt\nIncreases the wearer's Break Effect by 60/70/80/90/100% . The Break DMG dealt by the wearer ignores 20/23/26/29/32% of the target's DEF. When the wearer's Break Effect in battle is at 150% or greater, increases their SPD by 12/14/16/18/20% .\nHP\n+ 1058\nATK\n+ 582\nDEF\n+ 463",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2024-05-29"
             },
             {
               "id": "scent-alone-stays-true",
@@ -149651,7 +149963,8 @@ var NYX_DB = {
               },
               "text": "Scent Alone Stays True\nRarity: 5 \u2605\nPath: Abundance\nIncreases the wearer's Break Effect by 60/70/80/90/100% . After the wearer uses Ultimate to attack enemy targets, inflicts the targets with the \"Woefree\" state, lasting for 2 turn(s). While in \"Woefree,\" enemy targets take 10/12/14/16/18% increased DMG. The effect of increasing DMG taken is additionally boosted by 8/10/12/14/16% if the wearer's current Break Effect is 150% or higher.\nHP\n+ 1058\nATK\n+ 529\nDEF\n+ 529",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2024-10-02"
             },
             {
               "id": "see-you-at-the-end",
@@ -149690,7 +150003,8 @@ var NYX_DB = {
               },
               "text": "Shadowed By Night\nRarity: 4 \u2605\nPath: Hunt\nIncreases the wearer's Break Effect by 28/35/42/49/56% . When entering battle or after dealing Break DMG, increases SPD by 8/9/10/11/12% , lasting for 2 turn(s). This effect can only trigger once per turn.\nHP\n+ 846\nATK\n+ 476\nDEF\n+ 396",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2024-10-02"
             },
             {
               "id": "shared-feeling",
@@ -149703,7 +150017,8 @@ var NYX_DB = {
               },
               "text": "Shared Feeling\nRarity: 4 \u2605\nPath: Abundance\nIncreases the wearer's Outgoing Healing by 10/12.5/15/17.5/20% . When using Skill, regenerates 2/2/3/3/4 Energy for all allies.\nHP\n+ 952\nATK\n+ 423\nDEF\n+ 396",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2023-07-19"
             },
             {
               "id": "shattered-home",
@@ -149729,7 +150044,8 @@ var NYX_DB = {
               },
               "text": "She Already Shut Her Eyes\nRarity: 5 \u2605\nPath: Preservation\nIncreases the wearer's Max HP by 24/28/32/36/40% and Energy Regeneration Rate by 12/14/16/18/20% . When the wearer's HP is decreased, increases the DMG of all allies by 9/10.5/12/13.5/15% for 2 turns. At the beginning of each wave, restores HP equal to 80/85/90/95/100% of HP already lost by the character themselves for team.\nHP\n+ 1270\nATK\n+ 423\nDEF\n+ 529",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2023-09-20"
             },
             {
               "id": "sleep-like-the-dead",
@@ -149794,7 +150110,8 @@ var NYX_DB = {
               },
               "text": "Subscribe for More!\nRarity: 4 \u2605\nPath: Hunt\nIncreases the DMG of the wearer's Basic ATK and Skill by 24 /30/36/42/48 % . This effect increases by an extra 24 /30/36/42/48 % when the wearer's current Energy reaches its max level.\nHP\n+ 952\nATK\n+ 476\nDEF\n+ 330",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2023-06-07"
             },
             {
               "id": "sweat-now-cry-less",
@@ -149820,7 +150137,8 @@ var NYX_DB = {
               },
               "text": "Swordplay\nRarity: 4 \u2605\nPath: Hunt\nFor each time the wearer hits the same target, DMG dealt increases by 8/10/12/14/16% , stacking up to 5 time(s). This effect will be dispelled when the wearer changes targets.\nHP\n+ 952\nATK\n+ 476\nDEF\n+ 330",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2023-07-19"
             },
             {
               "id": "texture-of-memories",
@@ -149846,7 +150164,8 @@ var NYX_DB = {
               },
               "text": "The Birth of the Self\nRarity: 4 \u2605\nPath: Erudition\nIncreases DMG dealt by the wearer's follow-up attacks by 24/30/36/42/48% . If the current HP of the target enemy is below 50% of their Max HP, increases DMG dealt by follow-up attacks by an extra 24/30/36/42/48% .\nHP\n+ 952\nATK\n+ 476\nDEF\n+ 330",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2023-08-09"
             },
             {
               "id": "the-day-the-cosmos-fell",
@@ -149872,7 +150191,8 @@ var NYX_DB = {
               },
               "text": "The Finale of a Lie\nRarity: 5 \u2605\nPath: Hunt\nIncreases the wearer's CRIT Rate by 18/21/24/27/30% . At the start of battle or for every 4 instance(s) of Follow-Up ATK the wearer uses, the wearer gains \"Umbra Devourer,\" lasting for 3 turn(s). While the wearer holds \"Umbra Devourer,\" increases ATK by 40/50/60/70/80% and increases the DMG taken by all enemies by 20/22/25/27/30% . Effects of the same type cannot stack.\nHP\n+ 846\nATK\n+ 635\nDEF\n+ 529",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2026-03-25"
             },
             {
               "id": "the-flower-remembers",
@@ -149924,7 +150244,8 @@ var NYX_DB = {
               },
               "text": "The Hell Where Ideals Burn\nRarity: 5 \u2605\nPath: Hunt\nIncreases the wearer's CRIT Rate by 16/20/24/28/32% . When entering battle and if the allies' Skill Points max limit is 6 or higher, increases the wearer's ATK by 40/50/60/70/80% . After the wearer uses a Skill, increases their ATK by 10/12/15/17/20% , stacking up to 4 time(s).\nHP\n+ 953\nATK\n+ 582\nDEF\n+ 529",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2025-07-11"
             },
             {
               "id": "the-moles-welcome-you",
@@ -149937,7 +150258,8 @@ var NYX_DB = {
               },
               "text": "The Moles Welcome You\nRarity: 4 \u2605\nPath: Destruction\nWhen the wearer uses Basic ATK, Skill, or Ultimate to attack enemies, the wearer gains one stack of Mischievous. Each stack increases the wearer's ATK by 12/15/18/21/24% .\nHP\n+ 1058\nATK\n+ 476\nDEF\n+ 264",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2023-04-25"
             },
             {
               "id": "the-seriousness-of-breakfast",
@@ -149963,7 +150285,8 @@ var NYX_DB = {
               },
               "text": "The Story's Next Page\nRarity: 4 \u2605\nPath: Remembrance\nIncreases the wearer's Max HP by 16/20/24/28/32% . After the wearer's memosprite attacks, the Outgoing Healing of the wearer and their memosprite increases by 12/15/18/21/24% , lasting for 1 turn(s).\nHP\n+ 1058\nATK\n+ 370\nDEF\n+ 397",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2025-07-02"
             },
             {
               "id": "the-unreachable-side",
@@ -149976,7 +150299,8 @@ var NYX_DB = {
               },
               "text": "The Unreachable Side\nRarity: 5 \u2605\nPath: Destruction\nIncreases the wearer's CRIT rate by 18/21 /24/27/ 30% and increases their Max HP by 18/21 /24/27/ 30% . When the wearer is attacked or consumes their own HP, their DMG increases by 24/28 /32/36/ 40% . This effect is removed after the wearer uses an attack.\nHP\n+ 1270\nATK\n+ 582\nDEF\n+ 330",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2023-07-19"
             },
             {
               "id": "this-is-me",
@@ -150015,7 +150339,8 @@ var NYX_DB = {
               },
               "text": "Those Many Springs\nRarity: 5 \u2605\nPath: Nihility\nIncreases the wearer's Effect Hit Rate by 60/70/80/90/100% . After the wearer uses Basic ATK, Skill, or Ultimate to attack an enemy target, there is a 60% base chance to inflict \"Unarmored\" on the target. While in the Unarmored state, the enemy target receives 10/12/14/16/18% increased DMG, lasting for 2 turn(s). If the target is under a DoT state inflicted by the wearer, there is a 60% base chance to upgrade the \"Unarmored\" state inflicted by the wearer to the \"Cornered\" state, which additionally increases the DMG the target enemy receives by 14/16/18/20/22% , lasting for 2 turn(s). During this period, the wearer cannot inflict \"Unarmored\" on the target.\nHP\n+ 952\nATK\n+ 582\nDEF\n+ 529",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2024-08-21"
             },
             {
               "id": "though-worlds-apart",
@@ -150028,7 +150353,8 @@ var NYX_DB = {
               },
               "text": "Though Worlds Apart\nRarity: 5 \u2605\nPath: Preservation\nIncreases the wearer's ATK by 64/80/96/112/128% . When the wearer uses Ultimate, restores HP equal to 10/13/15/18/20% of the wearer's ATK for all allies, and additionally restores HP equal to 10/13/15/18/20% of the wearer's ATK for the character with the lowest current HP, and grants \"Redoubt\" to all allies for 3 turn(s). Targets with \"Redoubt\" deal 24/30/36/42/48% increased DMG, which further increases by 12/15/18/21/24% if the targets have summons.\nHP\n+ 1058\nATK\n+ 582\nDEF\n+ 463",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2025-10-15"
             },
             {
               "id": "thus-burns-the-dawn",
@@ -150041,7 +150367,8 @@ var NYX_DB = {
               },
               "text": "Thus Burns the Dawn\nRarity: 5 \u2605\nPath: Destruction\nThe wearer's base SPD increases by 12/14/16/18/20 . When the wearer deals DMG, ignores 18/22/27/31/36% of the target's DEF. After the wearer uses Ultimate, obtains \"Blazing Sun,\" which is removed at the start of their turn. While \"Blazing Sun\" is in possession, increases the wearer's DMG dealt by 60/78/96/114/132% .\nHP\n+ 953\nATK\n+ 687\nDEF\n+ 397",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2025-07-02"
             },
             {
               "id": "time-waits-for-no-one",
@@ -150067,7 +150394,8 @@ var NYX_DB = {
               },
               "text": "Time Woven Into Gold\nRarity: 5 \u2605\nPath: Remembrance\nIncreases the wearer's base SPD by 12/14/16/18/20 . After the wearer and the wearer's memosprite attacks, the wearer gains 1 stack of \"Brocade.\" Each stack of \"Brocade\" increases the wearer's and their memosprite's CRIT DMG by 9/10.5/12/13.5/15% , stacking up to 6 time(s). When reaching maximum stacks, each \"Brocade\" stack additionally increases Basic ATK DMG dealt by 9/10.5/12/13.5/15% .\nHP\n+ 1058\nATK\n+ 635\nDEF\n+ 397",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2025-02-05"
             },
             {
               "id": "to-evernights-stars",
@@ -150080,7 +150408,8 @@ var NYX_DB = {
               },
               "text": "To Evernight's Stars\nRarity: 5 \u2605\nPath: Remembrance\nIncreases the wearer's Max HP by 30/38/45/53/60% . When the wearer's memosprite uses an ability, the wearer gains \"Noctis.\" While the wearer has \"Noctis,\" all allies' memosprites ignore 20/22/25/27/30% of the target's DEF when dealing DMG. Increases the DMG dealt by the wearer and their memosprite by 30/38/45/53/60% . When the wearer's memosprite disappears, the wearer recovers 8/10/12/14/16 Energy. Similar effects cannot stack.\nHP\n+ 1164\nATK\n+ 529\nDEF\n+ 463",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2025-09-24"
             },
             {
               "id": "today-is-another-peaceful-day",
@@ -150132,7 +150461,8 @@ var NYX_DB = {
               },
               "text": "Trend of the Universal Market\nRarity: 4 \u2605\nPath: Preservation\nIncreases the wearer's DEF by 16 /20/24/28/32 % . When the wearer is attacked, there is a 100 /105/110/115/120 % base chance to Burn the enemy. For each turn, the wearer deals DoT that is equal to 40 /50/60/70/80 % of the wearer's DEF for 2 turn(s).\nHP\n+ 1058\nATK\n+ 370\nDEF\n+ 396",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2023-09-20"
             },
             {
               "id": "under-the-blue-sky",
@@ -150145,7 +150475,8 @@ var NYX_DB = {
               },
               "text": "Under the Blue Sky\nRarity: 4 \u2605\nPath: Destruction\nIncreases the wearer's ATK by 16 /20/24/28/32 % . When the wearer defeats an enemy, the wearer's CRIT Rate increases by 12 /15/18/21/24 % for 3 turn(s).\nHP\n+ 952\nATK\n+ 476\nDEF\n+ 330",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2023-09-20"
             },
             {
               "id": "until-the-flowers-bloom-again",
@@ -150155,7 +150486,8 @@ var NYX_DB = {
               "fields": {},
               "text": "",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2026-05-13"
             },
             {
               "id": "until-the-flowers-bloom-again-new",
@@ -150261,7 +150593,8 @@ var NYX_DB = {
               },
               "text": "Welcome to the Cosmic City\nRarity: 5 \u2605\nPath: Elation\nIncreases the wearer's SPD by 18/21/24/27/30% , and the Elation DMG dealt ignores 20/24/2/32/36% of the target's DEF. When the wearer uses Ultimate on themselves, gains 20/25/30/35/40 \"Punchline.\" This effect can be triggered up to 1 time, and will be reset after using Basic ATK 3 time(s).\nHP\n+ 1164\nATK\n+ 476\nDEF\n+ 529",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2026-04-22"
             },
             {
               "id": "what-is-real",
@@ -150287,7 +150620,8 @@ var NYX_DB = {
               },
               "text": "When She Decided to See\nRarity: 5 \u2605\nPath: Elation\nIncreases the wearer's SPD by 18/21/24/27/30% . When the wearer enters combat or uses Ultimate on an ally target, the wearer gains \"Great Fortune\" for 3 turn(s). While the wearer holds \"Great Fortune,\" all allies' CRIT Rate increases by 10/11/12/13/14% , CRIT DMG increases by 30/38/45/53/60% , and the wearer's Energy Regeneration Rate increases by 12/14/16/18/20% .\nAt the start of each wave, the wearer regenerates a fixed amount of 15 Energy.\nHP\n+ 1058\nATK\n+ 529\nDEF\n+ 529",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2026-02-13"
             },
             {
               "id": "whereabouts-should-dreams-rest",
@@ -150300,7 +150634,8 @@ var NYX_DB = {
               },
               "text": "Whereabouts Should Dreams Rest\nRarity: 5 \u2605\nPath: Destruction\nIncreases the wearer's Break Effect by 60/70/80/90/100% . When the wearer deals Break DMG to an enemy target, inflicts Routed on the enemy, lasting for 2 turn(s). Targets afflicted with Routed receive 24/28/32/36/40% increased Break DMG from the wearer, and their SPD is lowered by 20% . Effects of the similar type cannot be stacked.\nHP\n+ 1164\nATK\n+ 476\nDEF\n+ 529",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2024-06-19"
             },
             {
               "id": "why-does-the-ocean-sing",
@@ -150313,7 +150648,8 @@ var NYX_DB = {
               },
               "text": "Why Does the Ocean Sing\nRarity: 5 \u2605\nPath: Nihility\nIncreases the wearer's Effect Hit Rate by 40/45/50/55/60% . When an enemy target gets inflicted with a debuff by the wearer, there is a 80% base chance for them to enter \"Enthrallment,\" lasting for 3 turn(s). Effects of the same type cannot stack. While the target is in \"Enthrallment,\" for every 1 debuff applied by the wearer on the target, increases the target's received DoT by 5/6.3/7.5/8.7/10% , stacking up to 6 time(s). When the target gets attacked by an ally, increases the attacker's SPD by 10/12.5/15/17.5/20% for 3 turn(s). When the wearer gets knocked down, removes all \"Enthrallment.\"\nHP\n+ 953\nATK\n+ 635\nDEF\n+ 463",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2025-08-13"
             },
             {
               "id": "woof-walk-time",
@@ -150352,7 +150688,8 @@ var NYX_DB = {
               },
               "text": "Yet Hope Is Priceless\nRarity: 5 \u2605\nPath: Erudition\nIncreases the wearer's CRIT Rate by 16/19/22/25/28% . While the wearer is in battle, for every 20% CRIT DMG that exceeds 120%, the DMG dealt by follow-up attack increases by 12/14/16/18/20% . This effect can stack up to 4 time(s). When the battle starts or after the wearer uses their Basic ATK, enables Ultimate or the DMG dealt by follow-up attack to ignore 20/24/28/32/36% of the target's DEF, lasting for 2 turn(s).\nHP\n+ 952\nATK\n+ 582\nDEF\n+ 529",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2024-07-10"
             }
           ]
         },
@@ -151446,9 +151783,9 @@ var NYX_DB = {
         "name": "Honkai: Star Rail",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-08-09T11:35:19.636Z",
-          "lastSuccessfulFetch": "2026-08-09T11:35:19.636Z",
-          "lastValidUpdate": "2026-08-09T11:35:19.636Z",
+          "checkedAt": "2026-08-09T18:13:08.454Z",
+          "lastSuccessfulFetch": "2026-08-09T18:13:08.454Z",
+          "lastValidUpdate": "2026-08-09T18:13:08.454Z",
           "source": "game8"
         },
         "current": {
@@ -151457,11 +151794,11 @@ var NYX_DB = {
           "end": "2026-08-25T07:00:00.000Z",
           "characters": [
             {
-              "name": "Himeko \u2022 Nova",
-              "icon": null,
+              "name": "Himeko Nova",
+              "icon": "../../Database/GameData/hsr/assets/characters/round/1510.webp",
               "iconFallback": null,
               "iconZoom": false,
-              "art": null,
+              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1510.webp",
               "namecard": null,
               "rarity": 5,
               "debut": true,
@@ -151536,8 +151873,46 @@ var NYX_DB = {
           ],
           "subBanners": []
         },
-        "next": null,
-        "upcoming": []
+        "next": {
+          "phase": "4.5 Phase 1",
+          "start": "2026-08-25T16:00:00.000Z",
+          "end": "2026-09-16T16:00:00.000Z",
+          "characters": [
+            {
+              "name": "Robin \u2022 Summeretto",
+              "icon": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1512.webp",
+              "iconFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1512.webp",
+              "iconZoom": false,
+              "art": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1512.webp",
+              "namecard": null,
+              "rarity": 5,
+              "debut": true,
+              "debutAt": null
+            }
+          ],
+          "subBanners": []
+        },
+        "upcoming": [
+          {
+            "phase": null,
+            "start": "2026-09-16T16:00:00.000Z",
+            "end": "2026-10-06T16:00:00.000Z",
+            "characters": [
+              {
+                "name": "Aventurine \u2022 Waveflair",
+                "icon": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1513.webp",
+                "iconFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1513.webp",
+                "iconZoom": false,
+                "art": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1513.webp",
+                "namecard": null,
+                "rarity": 5,
+                "debut": true,
+                "debutAt": null
+              }
+            ],
+            "subBanners": []
+          }
+        ]
       },
       "roster": [
         {
@@ -153562,7 +153937,8 @@ var NYX_DB = {
               },
               "text": "Angel in the Shell\nRarity: S | Type: Anomaly\nIncreases the equipper's Anomaly Proficiency by 90/103/117/130/144 . When the equipper is an Ether character, and comes on-field or uses a Special Attack or EX Special Attack, they gain a buff: DMG dealt to enemies afflicted with Attribute Anomalies increases by 20/23/26/29/32% , and all Attribute Anomaly DMG they trigger increases by 10/11.5/13/14.5/16% , lasting 15s . Repeated triggers reset the duration, and the effect is removed when switching off-field.\nBase ATK (Lv 60): 713\nAnomaly Mastery (Lv 60): 30",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2026-03-04"
             },
             {
               "id": "bashful-demon",
@@ -153577,7 +153953,8 @@ var NYX_DB = {
               },
               "text": "Bashful Demon\nRarity: A | Type: Support\nIncreases Ice DMG by 15/17.5/20/22/24% . When launching an EX Special Attack, all squad members' ATK increases by 2/2.3/2.6/2.9/3.2% for 12s , stacking up to 4 times. Retriggering refreshes duration. Passive effects of the same name do not stack.\nBase ATK (Lv 60): 624\nAttack (Lv 60): 25",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2024-07-04"
             },
             {
               "id": "bellicose-blaze",
@@ -153592,7 +153969,8 @@ var NYX_DB = {
               },
               "text": "Bellicose Blaze\nRarity: S | Type: Attack\nIncreases CRIT Rate by 20/23/26/29/32% . When the equipper triggers an Aftershock that deals Fire DMG , their attacks ignore 15/17.2/19.5/21.7/24% of the target's DEF for 8s . Can stack once every 3s , up to 2 stacks. Repeated triggers reset the duration.\nBase ATK (Lv 60): 713\nEnergy Regen (Lv 60): 60",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2025-09-24"
             },
             {
               "id": "big-cylinder",
@@ -153607,7 +153985,8 @@ var NYX_DB = {
               },
               "text": "Big Cylinder\nRarity: A | Type: Defence\nReduces DMG taken by 7.5/8.5/9.5/10.5/12% . After being attacked, the next attack to hit an enemy will trigger a critical hit and deal 600/690/780/870/960% of the equipper's DEF as additional DMG. This effect can be triggered once every 7.5s.\nBase ATK (Lv 60): 624\nDefense (Lv 60): 40",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2024-07-24"
             },
             {
               "id": "blazing-laurel",
@@ -153622,7 +154001,8 @@ var NYX_DB = {
               },
               "text": "Blazing Laurel\nRarity: S | Type: Stun\nUpon launching a Quick Assist or Perfect Assist, the equipper's Impact increases by 25/28.75/32.5/36.25/40% for 8s . When the equipper launches and hits an enemy with a Basic Attack, apply Wilt to the target for 30s , stacking up to 20 times, repeated triggers reset the duration. When any squad member hits an enemy, for every stack of Wilt applied to the target, the CRIT DMG of the Ice DMG and Fire DMG dealt by that attack increases by 1.5/1.72/1.95/2.17/2.4% . Only one of this effect can be active at a time in the same squad.\nBase ATK (Lv 60): 713\nImpact (Lv 60): 18",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2024-11-27"
             },
             {
               "id": "boisterous-echoes",
@@ -153652,7 +154032,8 @@ var NYX_DB = {
               },
               "text": "Box Cutter\nRarity: A | Type: Stun\nUpon launching an Aftershock, the equipper's Physical DMG increases by 15/17.3/19.5/21.8/24% , and Daze inflicted increases by 10/11.5/13/14.5/16% , lasting 10s .\nBase ATK (Lv 60): 624\nImpact (Lv 60): 15",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2025-03-12"
             },
             {
               "id": "bunny-band",
@@ -153712,7 +154093,8 @@ var NYX_DB = {
               },
               "text": "Chief Sidekick\nRarity: S | Type: Stun\nThe equipper's Impact increases by 30/33/36/39/42 , and their DMG ignores 15/17.2/19.5/21.7/24% of the target's Fire RES . When the equipper is not the active character, Energy Regen increases by 0.4/0.46/0.52/0.58/0.64/s . When the equipper deals Fire DMG with an EX Special Attack, all Agents' DMG increases by 12.5/14.4/16.3/18.1/20% for 30s , stacking up to 2 times. Repeated triggers reset the duration. This effect can trigger once per skill. Only one instance of this effect can exist in the same squad.\nBase ATK (Lv 60): 713\nCRIT Rate (Lv 60): 24",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2026-07-08"
             },
             {
               "id": "cloudcleave-radiance",
@@ -153727,7 +154109,8 @@ var NYX_DB = {
               },
               "text": "Cloudcleave Radiance\nRarity: S | Type: Attack\nThe equipper's DMG ignores 20/22/24/26/28% of the target's Physical RES . When the equipper activates an Ether Veil, the equipper's DMG increases by 25/28.7/32.5/36.2/40% and CRIT DMG increases by 25/28.7/32.5/36.2/40% for 40s . Repeated triggers reset the duration.\nBase ATK (Lv 60): 743\nCRIT DMG (Lv 60): 48",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2025-12-30"
             },
             {
               "id": "cordis-germina",
@@ -153742,7 +154125,8 @@ var NYX_DB = {
               },
               "text": "Cordis Germina\nRarity: S | Type: Attack\nIncreases CRIT Rate by 15/17/19/21/23% . When the equipper deals DMG with a Basic Attack or EX Special Attack, they gain 1 stack of a buff. Each stack increases the equipper's Electric DMG by 12.5/14.5/16.5/18.5/20% , up to 2 stacks. Each stack lasts 40s . The duration of each stack is calculated separately. Can trigger once per use of a skill. At 2 stacks, the wearer's Basic Attack and Ultimate DMG ignore 20/23/26/29/32% of enemy DEF.\nBase ATK (Lv 60): 713\nCrit Rate (Lv 60): 24",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2025-09-04"
             },
             {
               "id": "deep-sea-visitor",
@@ -153757,7 +154141,8 @@ var NYX_DB = {
               },
               "text": "Deep Sea Visitor\nRarity: S | Type: Attack\nIncreases Ice DMG by 25/31.5/38/44.5/50% . Upon hitting an enemy with a Basic Attack, the equipper's CRIT Rate increases by 10/12.5.15/17.5/20% for 8s . When dealing Ice DMG with a Dash Attack, the equipper's CRIT Rate increases by an additional 10/12.5.15/17.5/20% for 15s . The duration of each effect is calculated separately.\nBase ATK (Lv 60): 713\nCrit Rate (Lv 60): 24",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2024-07-04"
             },
             {
               "id": "demara-battery-mark-ii",
@@ -153772,7 +154157,8 @@ var NYX_DB = {
               },
               "text": "Demara Battery Mark II\nRarity: A | Type: Stun\nIncreases Electric DMG by 15/17.5/20/22/24%. When the equipper hits an enemy with Dodge Counter or Assist Attack, their Energy Generation Rate increases by 18/20.5/23/25/27.5% for 8s .\nBase ATK (Lv 60): 624\nImpact (Lv 60): 15",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2024-09-04"
             },
             {
               "id": "dreamlit-hearth",
@@ -153787,7 +154173,8 @@ var NYX_DB = {
               },
               "text": "Dreamlit Hearth\nRarity: S | Type: Support\nThe equipper's Energy Regen increases by 0.40/0.46/0.52/0.58/0.64/s . When the equipper activates Ether Veil or extends its duration, all squad members gain 25/28.8/32.5/36.3/40% increased DMG and 15/17.3/19.5/21.8/24% increased Max HP for 45s . Repeated triggers reset the duration. Only one instance of this effect can exist in the same squad.\nBase ATK (Lv 60): 713\nHP (Lv 60): 30",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2025-10-15"
             },
             {
               "id": "drill-rig-red-axis",
@@ -153802,7 +154189,8 @@ var NYX_DB = {
               },
               "text": "Drill Rig - Red Axis\nRarity: A | Type: Attack\nWhen launching an EX Special Attack or Chain Attack, Electric DMG from Basic Attacks and Dash Attacks increases by 50/57.5/65/72.5/80% for 10s . This effect can trigger once every 15s .\nBase ATK (Lv 60): 624\nEnergy Regen (Lv 60): 50",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2024-07-04"
             },
             {
               "id": "electro-lip-gloss",
@@ -153832,7 +154220,8 @@ var NYX_DB = {
               },
               "text": "Elegant Vanity\nRarity: S | Type: Support\nWhen any squad member enters the field through a Quick Assist, Chain Attack, Defensive Assist, or Evasive Assist, the equipper gains 5/5.5/6/6.5/7 Energy. This effect can trigger once every 5s .\nWhen the equipper consumes 25 or more Energy, the DMG dealt by all squad members increases by 10/11.5/13/14.5/16% , stacking up to 2 times, and lasting 20s . Repeated triggers refresh the duration. Only one instance of this effect can exist in the same squad.\nBase ATK (Lv 60): 713\nAttack (Lv 60): 30",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2025-01-22"
             },
             {
               "id": "flamemaker-shaker",
@@ -153847,7 +154236,8 @@ var NYX_DB = {
               },
               "text": "Flamemaker Shaker\nRarity: S | Type: Anomaly\nWhile off-field, the equipper's Energy Regen increases by 0.6/0.75/0.9/1.05/1.2 per second. When hitting an enemy with an EX Special Attack or Assist Attack, the equipper's DMG increases by 3.5/4.4/5.2/6.1/7% , stacking up to 10 times and lasting for 6s . This effect can trigger once every 0.3s . While off-field, the stack effect is doubled. Repeated triggers reset the duration. Upon obtaining the DMG increase effect, if the number of current stacks is greater than or equal to 5 , then the equipper's Anomaly Proficiency increases by 50/62/75/87/100 . This Anomaly Proficiency increase does not stack and lasts for 6s .\nBase ATK (Lv 60): 713\nAttack (Lv 60): 30",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2024-10-16"
             },
             {
               "id": "flight-of-fancy",
@@ -153862,7 +154252,8 @@ var NYX_DB = {
               },
               "text": "Flight of Fancy\nRarity: S | Type: Anomaly\nIncreases Anomaly Buildup Rate by 40/46/52/58/64% . When the equipper deals Ether DMG, their Anomaly Proficiency increases by 20/23/26/29/32 for 5s , stacking up to 6 times. This effect can trigger once every 0.5s , and repeated triggers reset the duration.\nBase ATK (Lv 60): 713\nAnomaly Proficiency (Lv 60): 90",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2025-04-23"
             },
             {
               "id": "frostfall-sickle",
@@ -153877,7 +154268,8 @@ var NYX_DB = {
               },
               "text": "Frostfall Sickle\nRarity: S | Type: Anomaly\nWhen an Ice attribute equipper uses a Special Attack or EX Special Attack, their Ice DMG is increased by 20/23/26/29/32% for 40s , stacking up to 2 times, once per use of a skill. Repeated triggers refresh the duration. At 2 stacks, the equipper's Abloom DMG dealt is increased by an additional 35/38.5/42/45.5/50% .\nBase ATK (Lv 60): 713\nAnomaly Mastery (Lv 60): 30",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2026-05-06"
             },
             {
               "id": "fusion-compiler",
@@ -153922,7 +154314,8 @@ var NYX_DB = {
               },
               "text": "Grill O'Wisp\nRarity: A | Type: Rupture\nThe equipper's Fire DMG increases by 15/17.25/19.5/21.75/24% . When the equipper's HP decreases, their CRIT Rate increases by 15/17.25/19.5/21.75/24% for 5s .\nBase ATK (Lv 60): 624\nHP (Lv 60): 25",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2025-10-15"
             },
             {
               "id": "hailstorm-shrine",
@@ -153937,7 +154330,8 @@ var NYX_DB = {
               },
               "text": "Hailstorm Shrine\nRarity: S | Type: Anomaly\nCRIT DMG increases by 50/57/65/72/80% . When using an EX Special Attack or when any squad member applies an Attribute Anomaly to an enemy, the equipper's Ice DMG increases by 20/23/26/29/32% , stacking up to 2 times and lasting 15s . The duration of each stack is calculated separately.\nBase ATK (Lv 60): 743\nCrit Rate (Lv 60): 24",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2024-12-18"
             },
             {
               "id": "half-sugar-bunny",
@@ -153952,7 +154346,8 @@ var NYX_DB = {
               },
               "text": "Half-Sugar Bunny\nRarity: S | Type: Defence\nThe equipper's Energy Regen increases by 0.46/0.53/06/0.67/0.76 per sec. All squad members gain 10/11.5/13./14.5/16% ATK and 10/11.5/13./14.5/16% Max HP. Only one instance of this effect can exist in the same squad. When the equipper activates or extends an Ether Veil, the whole squad gains 30/34.5/39/43.5/48% CRIT DMG for 60s . Repeated triggers reset the duration.\nBase ATK (Lv 60): 713\nHP (Lv 60): 30",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2025-12-30"
             },
             {
               "id": "heartstring-nocturne",
@@ -153967,7 +154362,8 @@ var NYX_DB = {
               },
               "text": "Heartstring Nocturne\nRarity: S | Type: Attack\nCRIT DMG increases by 50/57.5/65/72.5/80% . When the equipper enters the battlefield, or activates a Chain Attack or Ultimate, they gain 1 stack of Heartstring. Each stack of Heartstring allows the equipper's Chain Attack and Ultimate to ignore 12.5/14.5/16.5/18.5/20% of the target's Fire RES, stacking up to 2 times and lasting 30s . Repeated triggers reset the duration.\nBase ATK (Lv 60): 713\nCrit Rate (Lv 60): 24",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2025-02-12"
             },
             {
               "id": "hellfire-gears",
@@ -153997,7 +154393,8 @@ var NYX_DB = {
               },
               "text": "Housekeeper\nRarity: A | Type: Attack\nWhile off-field, Energy Regen increases by 0.45/0.52/0.58/0.65/0.72 per second . When an EX Special Attack hits an enemy, the equipper's Physical DMG increases by 3/3.5/4/4.4/4.8%, stacking up to 15 times and lasting 1s . Retriggering refreshes duration.\nBase ATK (Lv 60): 624\nAttack (Lv 60): 25",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2024-08-14"
             },
             {
               "id": "ice-jade-teapot",
@@ -154012,7 +154409,8 @@ var NYX_DB = {
               },
               "text": "Ice-Jade Teapot\nRarity: S | Type: Stun\nWhen a Basic Attack hits an enemy, gain 1 stack of Tea-riffic. Each stack of Tea-riffic increases the user's Impact by 0.7/0.88/1.05/1.22/1.4% , stacking up to 30 times, and lasting for 8s . The duration of each stack is calculated separately. Upon acquiring Tea-riffic, if the equipper possesses stacks of Tea-riffic greater than or equal to 15 , all squad members' DMG is increased by 20/23/26/29/32% for 10s . Passive effects of the same name do not stack.\nBase ATK (Lv 60): 713\nImpact (Lv 60): 18",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2024-08-14"
             },
             {
               "id": "iris-enigma",
@@ -154044,7 +154442,8 @@ var NYX_DB = {
               },
               "text": "Joyau Dore\nRarity: S | Type: Anomaly\nThe equipper's Anomaly Proficiency increases by 70/80/90/100/110 . When the equipper's EX Special Attack deals Wind DMG , the DMG dealt by their Vortex and Windswept increases by 7/8/9/10/11% for 40s , stacking up to 2 times. Repeated triggers reset the duration. This effect can trigger once per skill use. At 2 stacks, all squad members gain 60/69/78/87/96 Anomaly Proficiency. Only one instance of this effect can exist in the same squad.\nBase ATK (Lv 60): 713\nEnergy Regen (Lv 60): 60",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2026-06-17"
             },
             {
               "id": "kaboom-the-cannon",
@@ -154059,7 +154458,8 @@ var NYX_DB = {
               },
               "text": "Kaboom the Cannon\nRarity: A | Type: Support\nWhen any friendly unit in the squad attacks and hits an enemy, all friendly units' ATK increases by 2.5/2.8/3.2/3.6/4% for 8s , stacking up to 4 times. The duration of each stack is calculated separately, and each friendly unit can provide 1 stack of the buff. Passive effects of the same name do not stack.\nBase ATK (Lv 60): 624\nEnergy Regen (Lv 60): 50",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2024-10-16"
             },
             {
               "id": "krakens-cradle",
@@ -154074,7 +154474,8 @@ var NYX_DB = {
               },
               "text": "Kraken's Cradle\nRarity: S | Type: Rupture\nWhen the equipper's HP decreases, their Ice Sheer DMG increases by 6/7/8/9/10% , stacking up to 3 times and lasting 25s . The duration of each stack is calculated separately. This effect can trigger once every 0.5s . When the equipper's HP falls to 50% of Max HP or below, CRIT Rate increases by 20/23/26/29/32% .\nBase ATK (Lv 60): 713\nHP (Lv 60): 30",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2025-11-05"
             },
             {
               "id": "lumiflux",
@@ -154117,7 +154518,8 @@ var NYX_DB = {
               },
               "text": "Metanukimorphosis\nRarity: S | Type: Support\nWhen the equipper's EX Special Attack or Ultimate deals Physical DMG, their Anomaly Mastery increases by 30/34/39/43/48 for 40s .\nWhen the equipper's Aftershock hits an enemy, all squad members' Anomaly Proficiency increases by 60/69/78/87/98 for 40s . Only one instance of this effect can exist in the same squad.\nBase ATK (Lv 60): 713\nEnergy Regen (Lv 60): 60",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2025-07-16"
             },
             {
               "id": "myriad-eclipse",
@@ -154132,7 +154534,8 @@ var NYX_DB = {
               },
               "text": "Myriad Eclipse\nRarity: S | Type: Attack\nIncreases CRIT DMG by 45/51.75/58.5/65.25/72% . When using an EX Special Attack, Chain Attack, or Ultimate to deal Ice DMG, the equipper gains the Absolute Zero Death Sentence effect for 3s . While Absolute Zero Death Sentence is active, the character ignores 25/28.75/32.5/36.25/40% of the enemy's DEF when landing a hit.\nBase ATK (Lv 60): 713\nCrit Rate (Lv 60): 24",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2025-05-14"
             },
             {
               "id": "neon-fantasies",
@@ -154147,7 +154550,8 @@ var NYX_DB = {
               },
               "text": "Neon Fantasies\nRarity: S | Type: Stun\nThe equipper's Anomaly Proficiency increases by 90/103/117/130/145 . When the equipper's EX Special Attack or Basic Attack deals Ether DMG , all squad members' DMG dealt increases by 15/17/19.5/21/24% for 40s , stacking up to 2 times. This effect can trigger once per use of a skill and repeated triggers reset the duration. With 2 stacks, the equipper's Anomaly Proficiency increases by an additional 60/69/78/87/96 . Only one instance of this effect can exist in the same squad.\nBase ATK (Lv 60): 713\nAnomaly Mastery (Lv 60): 30",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2026-03-24"
             },
             {
               "id": "ode-of-resurrected-wings",
@@ -154162,7 +154566,8 @@ var NYX_DB = {
               },
               "text": "Ode of Resurrected Wings\nRarity: S | Type: Anomaly\nIncreases Anomaly Proficiency by 96/105/115/125/135 . When the equipper triggers a Refringe reaction, they gain 20/23/26/29/32% increased Anomaly DMG, and all squad members gain 30/34.5/39/43.5/48% increased DMG dealt. Both effects last 30s . Repeated triggers reset the duration.\nBase ATK (Lv 60): 743\nATK% (Lv 60): 36",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2026-07-29"
             },
             {
               "id": "original-transmorpher",
@@ -154192,7 +154597,8 @@ var NYX_DB = {
               },
               "text": "Peacekeeper - Specialized\nRarity: A | Type: Defence\nWhile Shielded, the equipper's Energy Regen increases by 0.4/s . The Anomaly Buildup of EX Special Attacks and Assist Follow-Ups increase by 36% .\nBase ATK (Lv 60): 624\nAttack (Lv 60): 25",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2024-09-04"
             },
             {
               "id": "practiced-perfection",
@@ -154207,7 +154613,8 @@ var NYX_DB = {
               },
               "text": "Practiced Perfection\nRarity: S | Type: Anomaly\nThe equipper's Anomaly Mastery increases by 60/69/78/87/96 . When inflicting Assault, the equipper's Physical DMG increases by 20/23/26/29/32% for 20s , stacking up to 2 times. Repeated triggers reset the duration. When the equipper enters combat, immediately gain 2 stacks.\nBase ATK (Lv 60): 713\nAttack (Lv 60): 30",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2025-08-06"
             },
             {
               "id": "precious-fossilized-core",
@@ -154252,7 +154659,8 @@ var NYX_DB = {
               },
               "text": "Qingming Birdcage\nRarity: S | Type: Rupture\nCRIT Rate increases by 20/23/26/29/32% . When the equipper launches an EX Special Attack, the character gains the Qingming Companion effect, stacking up to 2 times and lasting 15s . On entering combat, immediately gain 2 stacks. Repeated triggers reset the duration. Each stack of the Qingming Companion effect increases the equipper's Ether DMG by 8/9.2/10.4/11.6/12.8% , and increases Ultimate and EX Special Attack Ether Sheer DMG by 10/11.5/13/14.5/16% .\nBase ATK (Lv 60): 743\nHP (Lv 60): 30",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2025-06-06"
             },
             {
               "id": "radiowave-journey",
@@ -154312,7 +154720,8 @@ var NYX_DB = {
               },
               "text": "Riot Suppressor Mark VI\nRarity: S | Type: Attack\nIncreases CRIT Rate by 15% . Launching an EX Special Attack grants the equipper 8 Charge stacks, up to a maximum of 8 stacks. Whenever the equipper's Basic Attack deals Ether DMG , consumes a Charge stack and increases the skill's DMG by 35% .\nBase ATK (Lv 60): 713\nCrit Damage (Lv 60): 48",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2024-07-24"
             },
             {
               "id": "roaring-fur-nace",
@@ -154327,7 +154736,8 @@ var NYX_DB = {
               },
               "text": "Roaring Fur-nace\nRarity: S | Type: Stun\nThe Daze dealt by the equipper's EX Special Attack, Chain Attack, and Ultimate increases by 28/32.2/36.4/40.6/44.8% .\nWhen using a Chain Attack or Ultimate to deal Fire DMG, the DMG dealt by all squad members increases by 10/11.5/13/14.5/16% , stacking up to 2 times and lasting 30s . The duration of each stack is calculated separately. Triggers once per use of a skill. Only one instance of this effect can exist in the same squad.\nBase ATK (Lv 60): 713\nAttack (Lv 60): 30",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2025-06-25"
             },
             {
               "id": "roaring-ride",
@@ -154342,7 +154752,8 @@ var NYX_DB = {
               },
               "text": "Roaring Ride\nRarity: A | Type: Anomaly\nWhen EX Special Attack hits an enemy, one of three possible effects is randomly triggered for 5 seconds. This effect can trigger once every 0.3s . The same types of effects cannot stack. Repeated triggers reset the duration allowing several effects to be active at once:\nincreases the equipper's ATK by 8/9.2/10.4/11.6/12.8% ,\nincreases the equipper's Anomaly Proficiency by 40/46/52/58/64 ,\nincreases the equipper's Anomaly Buildup Rate by 25/28/32/36/40%.\nBase ATK (Lv 60): 624\nAttack (Lv 60): 25",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2024-09-24"
             },
             {
               "id": "serpentine-seeker",
@@ -154357,7 +154768,8 @@ var NYX_DB = {
               },
               "text": "Serpentine Seeker\nRarity: S | Type: Attack\nCRIT Rate increases by 25/28.8/32.5/36.3/40% . When the equipper consumes at least 20 Energy in a single instance, every 20 Energy consumed grants 3s of a buff: when dealing Electric DMG , ignore 28/31.5/35/38.5/42% of the target's DEF. Repeated triggers extend the duration, up to a maximum of 30s . When entering combat, gain 10s of this buff. While the equipper is not the active character, the duration no longer decreases.\nBase ATK (Lv 60): 713\nEnergy Regen (Lv 60): 60",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2026-04-15"
             },
             {
               "id": "severed-innocence",
@@ -154372,7 +154784,8 @@ var NYX_DB = {
               },
               "text": "Severed Innocence\nRarity: S | Type: Attack\nCRIT DMG is increased by 30/34.5/39/43.5/48% . When the equipper lands a hit with a Basic Attack, Special Attack, or Aftershock, they gain 1 stack of a buff. Each stack increases the equipper's CRIT DMG by an additional 10/11.5/13/14.5/16% , stacking up to 3 times. The effect lasts for 30s , with each stack's duration calculated separately, and can only be triggered once per use of a skill. With all 3 stacks, the equipper's Electric DMG increases by 20/23/26/29/32% .\nBase ATK (Lv 60): 713\nCrit DMG (Lv 60): 48",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2025-03-12"
             },
             {
               "id": "sharpened-stinger",
@@ -154387,7 +154800,8 @@ var NYX_DB = {
               },
               "text": "Sharpened Stinger\nRarity: S | Type: Anomaly\nUpon activating a Dash Attack, gain 1 stack of Predatory Instinct. Each stack of Predatory Instinct increases the equipper's Physical DMG by 12/15/18/21/24% for 10s , stacking up to 3 times. This effect can trigger once every 0.5s and repeated triggers reset the duration. When entering combat or triggering Perfect Dodge, gain 3 stacks of Predatory Instinct. While Predatory Instinct is at maximum stacks, the equipper's Anomaly Buildup Rate increases by 40/50/60/70/80% .\nBase ATK (Lv 60): 713\nAnomaly Proficiency (Lv 60): 90",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2024-09-04"
             },
             {
               "id": "six-shooter",
@@ -154447,7 +154861,8 @@ var NYX_DB = {
               },
               "text": "Spectral Gaze\nRarity: S | Type: Stun\nWhen the equipper hits an enemy with an Aftershock, causing Electric DMG, the target's DEF is reduced by 25/28.75/32.5/36.25/40% for 5s . Passive effects of the same name do not stack. When this effect is triggered, if the equipper is not the active character, they gain 1 stack of Spirit Lock, up to a maximum of 3 stacks. This can trigger only once per use of a skill. Each stack of Spirit Lock increases the equipper's Impact by 4/4.6/5.2/5.8/6.4% , lasting 12s . The duration of each stack is calculated separately. At full stacks of Spirit Lock, the equipper's Impact increases by an additional 8/9.2/10.4/11.6/12.8% .\nBase ATK (Lv 60): 713\nCrit Rate (Lv 60): 24",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2025-04-02"
             },
             {
               "id": "spring-embrace",
@@ -154492,7 +154907,8 @@ var NYX_DB = {
               },
               "text": "Starlight Engine Replica\nRarity: A | Type: Attack\nIncreases the equipper's Physical DMG by 36/41/46.5/52/57.5% for 8s upon hitting an enemy at least 6 meters away with a Basic Attack or Dash Attack.\nBase ATK (Lv 60): 624\nATK (Lv 60): 25",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2024-08-14"
             },
             {
               "id": "starlight-rider-faceplate",
@@ -154507,7 +154923,8 @@ var NYX_DB = {
               },
               "text": "Starlight Rider Faceplate\nRarity: S | Type: Rupture\nIncreases CRIT Rate by 20% . When the equipper launches a Special Attack , their Physical Sheer DMG increases by 10% , stacking up to 2 times and lasting 30s. Repeated triggers reset the duration.\nBase ATK (Lv 60): 713\nHP% (Lv 60): 30",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2026-05-27"
             },
             {
               "id": "steam-oven",
@@ -154612,7 +155029,8 @@ var NYX_DB = {
               },
               "text": "The Vault\nRarity: A | Type: Support\nDealing Ether DMG using an EX Special Attack, Chain Attack, or Ultimate increases all squad members' DMG against the target by 15/17.5/20/22/24% and increases the equipper's Energy Regen by 0.5/0.58/0.65/0.72/0.8 per second for 2s . Passive effects of the same name do not stack.\nBase ATK (Lv 60): 624\nEnergy Regen (Lv 60): 50",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2024-07-24"
             },
             {
               "id": "thoughtbop",
@@ -154627,7 +155045,8 @@ var NYX_DB = {
               },
               "text": "Thoughtbop\nRarity: S | Type: Support\nWhile not the active character, the equipper's Energy Regen increases by 0.6/0.69/0.78/0.87/0.96 per second. When the equipper uses an EX Special Attack and deals Physical DMG, all squad members gain a buff: DMG dealt increases by 12.5/14.3/16.1/17.9/20% for 40s , stacking up to 2 times. Repeated triggers reset the duration. At 2 stacks, characters gain an additional 10/11.5/13/14.5/16% ATK. Only one instance of this effect can exist in the same squad.\nBase ATK (Lv 60): 713\nEnergy Regen (Lv 60): 60",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2026-02-06"
             },
             {
               "id": "timeweaver",
@@ -154642,7 +155061,8 @@ var NYX_DB = {
               },
               "text": "Timeweaver\nRarity: S | Type: Anomaly\nThe equipper's Electric Anomaly Buildup Rate increases by 30/35/40/45/50% . When Special Attacks or EX Special Attacks hit enemies under Attribute Anomalies, the equipper's Anomaly Proficiency increases by 75/85/95/105/115 for 15s .\nWhen the equipper's Anomaly Proficiency is greater than or equal to 375 , Disorder DMG inflicted by the equipper increases by 25/27.5/30/32.5/35% .\nBase ATK (Lv 60): 713\nAttack (Lv 60): 30",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2024-11-05"
             },
             {
               "id": "tremor-trigram-vessel",
@@ -154657,7 +155077,8 @@ var NYX_DB = {
               },
               "text": "Tremor Trigram Vessel\nRarity: A | Type: Defence\nThe equipper's EX Special Attack and Ultimate DMG increases by 25/28.7/32.5/36.2/40% . Whenever any squad member takes DMG or heals, the equipper gains 2/2.3/2.6/2.9/3.2 Energy. This effect can trigger once every 5s .\nBase ATK (Lv 60): 624\nAttack (Lv 60): 25",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2025-06-06"
             },
             {
               "id": "tusks-of-fury",
@@ -154672,7 +155093,8 @@ var NYX_DB = {
               },
               "text": "Tusks of Fury\nRarity: S | Type: Defence\nThe Shield value provided by the equipper increases by 30/38/46/52/60% . When any squad member triggers Interrupt or Perfect Dodge, all squad members' DMG increases by 18/22.5/27/31.5/36% and Daze dealt increases by 12/15/18/21/24% for 20s . Passive effects of the same name do not stack.\nBase ATK (Lv 60): 713\nImpact (Lv 60): 18",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2024-09-24"
             },
             {
               "id": "unfettered-game-ball",
@@ -154732,7 +155154,8 @@ var NYX_DB = {
               },
               "text": "Wrathful Vajra\nRarity: S | Type: Rupture\nCRIT Rate increases by 20/23/26/29/32% . When the equipper launches an EX Special Attack, their Fire Sheer DMG increases by 9/10.35/11.7/13.05/14.4% , stacking up to 2 times and lasting 20s . The duration of each stack is calculated separately.\nBase ATK (Lv 60): 713\nHP (Lv 60): 30",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2025-12-17"
             },
             {
               "id": "yesterday-calls",
@@ -154747,7 +155170,8 @@ var NYX_DB = {
               },
               "text": "Yesterday Calls\nRarity: S | Type: Stun\nWhile off-field, the equipper's Energy Regen increases by 1.5/1.7/1.9/2.1/2.3 per second. When the equipper deals Physical DMG with an EX Special Attack, the Daze dealt by the equipper's attacks increases by 9/10.3/11.7/13/14.5% for 10s , stacking up to 3 times.\nAt 3 stacks, all squad members gain 30/34.5/39/43.5/48% additional CRIT DMG for 40s . Repeated triggers reset the duration. Only one instance of this CRIT DMG boost effect can exist in the same squad.\nBase ATK (Lv 60): 713\nCrit Rate (Lv 60): 24",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2025-11-26"
             },
             {
               "id": "zanshin-herb-case",
@@ -154762,7 +155186,8 @@ var NYX_DB = {
               },
               "text": "Zanshin Herb Case\nRarity: S | Type: Attack\nCRIT Rate increases by 10/11.5/13/14.5/16% . Dash Attack Electric DMG increases by 40/46/52/58/64% . When any squad member applies an Attribute Anomaly or Stuns an enemy, the equipper's CRIT Rate increases by an additional 10/11.5/13/14.5/16% for 15s .\nBase ATK (Lv 60): 713\nCrit Damage (Lv 60): 48",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2024-12-18"
             }
           ]
         },
@@ -157072,9 +157497,9 @@ var NYX_DB = {
         "name": "Zenless Zone Zero",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-08-09T11:35:19.636Z",
-          "lastSuccessfulFetch": "2026-08-09T11:35:19.636Z",
-          "lastValidUpdate": "2026-08-09T11:35:19.636Z",
+          "checkedAt": "2026-08-09T18:13:08.454Z",
+          "lastSuccessfulFetch": "2026-08-09T18:13:08.454Z",
+          "lastValidUpdate": "2026-08-09T18:13:08.454Z",
           "source": "game8"
         },
         "current": {
@@ -157094,33 +157519,33 @@ var NYX_DB = {
               "debutAt": "2026-03-04"
             },
             {
-              "name": "Piper Wheel",
-              "icon": null,
+              "name": "Piper",
+              "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle28.webp",
               "iconFallback": null,
               "iconZoom": false,
-              "art": null,
+              "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole28.webp",
               "namecard": null,
               "rarity": "A",
               "debut": false,
               "debutAt": "2024-09-25"
             },
             {
-              "name": "Seth Lowell",
-              "icon": null,
+              "name": "Seth",
+              "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle30.webp",
               "iconFallback": null,
               "iconZoom": false,
-              "art": null,
+              "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole30.webp",
               "namecard": null,
               "rarity": "A",
               "debut": false,
               "debutAt": "2024-09-04"
             },
             {
-              "name": "Remielle Dan",
-              "icon": null,
+              "name": "Remielle",
+              "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle67.webp",
               "iconFallback": null,
               "iconZoom": false,
-              "art": null,
+              "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole67.webp",
               "namecard": null,
               "rarity": "S",
               "debut": true,
@@ -157146,33 +157571,33 @@ var NYX_DB = {
               "debutAt": "2025-11-26"
             },
             {
-              "name": "Ukinami Yuzuha",
-              "icon": null,
+              "name": "Yuzuha",
+              "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle47.webp",
               "iconFallback": null,
               "iconZoom": false,
-              "art": null,
+              "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole47.webp",
               "namecard": null,
               "rarity": "S",
               "debut": false,
               "debutAt": "2025-07-16"
             },
             {
-              "name": "Asaba Harumasa",
-              "icon": null,
+              "name": "Harumasa",
+              "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle35.webp",
               "iconFallback": null,
               "iconZoom": false,
-              "art": null,
+              "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole35.webp",
               "namecard": null,
               "rarity": "S",
               "debut": false,
               "debutAt": "2024-12-18"
             },
             {
-              "name": "Sigrid de L'Azur",
-              "icon": null,
+              "name": "Sigrid",
+              "icon": "../../Database/Prydwen/zzz/assets/characters/sigrid-30ecebbe136b.webp",
               "iconFallback": null,
               "iconZoom": false,
-              "art": null,
+              "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole66.webp",
               "namecard": null,
               "rarity": "S",
               "debut": true,
@@ -158284,7 +158709,8 @@ var NYX_DB = {
               },
               "text": "Ages of Harvest\nRarity: 5 \u2605\nType: Broadblade\nATK (Lv.90): 587\nCRIT Rate (Lv.90): 24.3 %",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2024-06-28"
             },
             {
               "id": "amity-accord",
@@ -158299,7 +158725,8 @@ var NYX_DB = {
               },
               "text": "Amity Accord\nRarity: 4 \u2605\nType: Gauntlets\nATK (Lv.90): 337\nDEF (Lv.90): 61.5 %",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2024-06-28"
             },
             {
               "id": "augment",
@@ -158359,7 +158786,8 @@ var NYX_DB = {
               },
               "text": "Azure Oath\nRarity: 5 \u2605\nType: Sword\nATK (Lv.90): 587\nCrit. Rate (Lv.90): 24.3 %",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2026-07-10"
             },
             {
               "id": "beguiling-melody",
@@ -158388,7 +158816,8 @@ var NYX_DB = {
               },
               "text": "Blazing Brilliance\nRarity: 5 \u2605\nType: Sword\nATK (Lv.90): 587\nCRIT DMG (Lv.90): 48.6 %",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2024-07-22"
             },
             {
               "id": "blazing-justice",
@@ -158403,7 +158832,8 @@ var NYX_DB = {
               },
               "text": "Blazing Justice\nRarity: 5 \u2605\nType: Gauntlets\nATK (Lv.90): 587\nCRIT DMG (Lv.90): 48.6 %",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2025-04-29"
             },
             {
               "id": "bloodpacts-pledge",
@@ -158492,7 +158922,8 @@ var NYX_DB = {
               },
               "text": "Cadenza\nRarity: 4 \u2605\nType: Pistols\nATK (Lv.90): 337\nEnergy Reg. (Lv.90): 51.8 %",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2024-06-06"
             },
             {
               "id": "call-of-the-abyss",
@@ -158521,7 +158952,8 @@ var NYX_DB = {
               },
               "text": "Celestial Spiral\nRarity: 4 \u2605\nType: Gauntlets\nATK (Lv.90): 462\nATK (Lv.90): 18.2 %",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2024-10-24"
             },
             {
               "id": "comet-flare",
@@ -158536,7 +158968,8 @@ var NYX_DB = {
               },
               "text": "Comet Flare\nRarity: 4 \u2605\nType: Rectifier\nATK (Lv.90): 412\nHP (Lv.90): 30.3 %",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2024-07-22"
             },
             {
               "id": "commando-of-conviction",
@@ -158550,7 +158983,8 @@ var NYX_DB = {
               },
               "text": "Commando of Conviction\nRarity: 4 \u2605\nType: Sword\nATK (Lv.90): 412\nATK (Lv.90): 30.3 %",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2024-06-28"
             },
             {
               "id": "cosmic-ripples",
@@ -158579,7 +159013,8 @@ var NYX_DB = {
               },
               "text": "Dauntless Evernight\nRarity: 4 \u2605\nType: Broadblade\nATK (Lv.90): 337\nDEF (Lv.90): 61.5 %",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2024-05-23"
             },
             {
               "id": "daybreakers-spine",
@@ -158594,7 +159029,8 @@ var NYX_DB = {
               },
               "text": "Daybreaker's Spine\nRarity: 5 \u2605\nType: Gauntlets\nATK (Lv.90): 587\nCRIT Rate (Lv.90): 24.3 %",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2026-02-26"
             },
             {
               "id": "defiers-thorn",
@@ -158609,7 +159045,8 @@ var NYX_DB = {
               },
               "text": "Defier's Thorn\nRarity: 5 \u2605\nType: Sword\nATK (Lv.90): 413\nHP (Lv.90): 72.2 %",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2025-06-12"
             },
             {
               "id": "discord",
@@ -158624,7 +159061,8 @@ var NYX_DB = {
               },
               "text": "Discord\nRarity: 4 \u2605\nType: Broadblade\nATK (Lv.90): 337\nEnergy Reg. (Lv.90): 51.8 %",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2024-06-28"
             },
             {
               "id": "emerald-of-genesis",
@@ -158654,7 +159092,8 @@ var NYX_DB = {
               },
               "text": "Emerald Sentence\nRarity: 5 \u2605\nType: Sword\nATK (Lv.90): 587\nCRIT Rate (Lv.90): 24.3 %",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2025-10-30"
             },
             {
               "id": "endless-collapse",
@@ -158668,7 +159107,8 @@ var NYX_DB = {
               },
               "text": "Endless Collapse\nRarity: 4 \u2605\nType: Sword\nATK (Lv.90): 462\nATK (Lv.90): 18.2 %",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2024-09-29"
             },
             {
               "id": "everbright-polestar",
@@ -158683,7 +159123,8 @@ var NYX_DB = {
               },
               "text": "Everbright Polestar\nRarity: 5 \u2605\nType: Sword\nATK (Lv.90): 587\nCRIT Rate (Lv.90): 24.3 %",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2026-02-05"
             },
             {
               "id": "fables-of-wisdom",
@@ -158727,7 +159168,8 @@ var NYX_DB = {
               },
               "text": "Firstlight's Herald\nRarity: 5 \u2605\nType: Rectifier\nATK (Lv.90): 413\nEnergy Regen (Lv.90): 77.04 %",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2026-07-30"
             },
             {
               "id": "forged-dwarf-star",
@@ -158742,7 +159184,8 @@ var NYX_DB = {
               },
               "text": "Forged Dwarf Star\nRarity: 5 \u2605\nType: Rectifier\nATK (Lv.90): 500\nCRIT Rate (Lv.90): 36 %",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2026-05-21"
             },
             {
               "id": "freeze-frame",
@@ -158757,7 +159200,8 @@ var NYX_DB = {
               },
               "text": "Freeze Frame\nRarity: 5 \u2605\nType: Rectifier\nATK (Lv.90): 587\nCRIT Rate (Lv.90): 24.2 %",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2026-06-13"
             },
             {
               "id": "frostburn",
@@ -158772,7 +159216,8 @@ var NYX_DB = {
               },
               "text": "Frostburn\nRarity: 5 \u2605\nType: Sword\nATK (Lv.90): 587\nCRIT Rate (Lv.90): 24.3 %",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2026-04-29"
             },
             {
               "id": "fusion-accretion",
@@ -158786,7 +159231,8 @@ var NYX_DB = {
               },
               "text": "Fusion Accretion\nRarity: 4 \u2605\nType: Rectifier\nATK (Lv.90): 462\nATK (Lv.90): 18.2 %",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2024-11-14"
             },
             {
               "id": "gauntlets-of-night",
@@ -158916,7 +159362,8 @@ var NYX_DB = {
               },
               "text": "Helios Cleaver\nRarity: 4 \u2605\nType: Broadblade\nATK (Lv.90): 412\nATK (Lv.90): 30.3 %",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2024-09-07"
             },
             {
               "id": "hollow-mirage",
@@ -158930,7 +159377,8 @@ var NYX_DB = {
               },
               "text": "Hollow Mirage\nRarity: 4 \u2605\nType: Gauntlets\nATK (Lv.90): 412\nATK (Lv.90): 30.3 %",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2024-05-23"
             },
             {
               "id": "jinzhou-keeper",
@@ -158944,7 +159392,8 @@ var NYX_DB = {
               },
               "text": "Jinzhou Keeper\nRarity: 4 \u2605\nType: Rectifier\nATK (Lv.90): 387\nATK (Lv.90): 36.4 %",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2024-06-06"
             },
             {
               "id": "kumokiri",
@@ -158959,7 +159408,8 @@ var NYX_DB = {
               },
               "text": "Kumokiri\nRarity: 5 \u2605\nType: Broadblade\nATK (Lv.90): 500\nCRIT Rate (Lv.90): 36 %",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2025-11-20"
             },
             {
               "id": "laser-shearer",
@@ -159003,7 +159453,8 @@ var NYX_DB = {
               },
               "text": "Lethean Elegy\nRarity: 5 \u2605\nType: Rectifier\nATK (Lv.90): 587\nCRIT Rate (Lv.90): 24.3 %",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2025-07-24"
             },
             {
               "id": "lumingloss",
@@ -159032,7 +159483,8 @@ var NYX_DB = {
               },
               "text": "Luminous Hymn\nRarity: 5 \u2605\nType: Rectifier\nATK (Lv.90): 500\nCrit. Rate (Lv.90): 36 %",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2025-02-13"
             },
             {
               "id": "lunar-cutter",
@@ -159046,7 +159498,8 @@ var NYX_DB = {
               },
               "text": "Lunar Cutter\nRarity: 4 \u2605\nType: Sword\nATK (Lv.90): 412\nATK (Lv.90): 30.3 %",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2024-06-06"
             },
             {
               "id": "lustrous-razor",
@@ -159075,7 +159528,8 @@ var NYX_DB = {
               },
               "text": "Lux & Umbra\nRarity: 5 \u2605\nType: Pistols\nATK (Lv.90): 587\nCRIT DMG (Lv.90): 48.6 %",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2025-10-09"
             },
             {
               "id": "marcato",
@@ -159090,7 +159544,8 @@ var NYX_DB = {
               },
               "text": "Marcato\nRarity: 4 \u2605\nType: Gauntlets\nATK (Lv.90): 337\nEnergy Reg. (Lv.90): 51.8 %",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2024-09-07"
             },
             {
               "id": "meditations-on-mercy",
@@ -159119,7 +159574,8 @@ var NYX_DB = {
               },
               "text": "Moongazer's Sigil\nRarity: 5 \u2605\nType: Gauntlets\nATK (Lv.90): 500\nCRIT Rate (Lv.90): 36 %",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2025-09-17"
             },
             {
               "id": "novaburst",
@@ -159133,7 +159589,8 @@ var NYX_DB = {
               },
               "text": "Novaburst\nRarity: 4 \u2605\nType: Pistols\nATK (Lv.90): 412\nATK (Lv.90): 30.3 %",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2024-09-07"
             },
             {
               "id": "oceans-gift",
@@ -159235,7 +159692,8 @@ var NYX_DB = {
               },
               "text": "Overture\nRarity: 4 \u2605\nType: Sword\nATK (Lv.90): 337\nEnergy Reg. (Lv.90): 51.8 %",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2024-07-22"
             },
             {
               "id": "phasic-homogenizer",
@@ -159397,7 +159855,8 @@ var NYX_DB = {
               },
               "text": "Red Spring\nRarity: 5 \u2605\nType: Sword\nATK (Lv.90): 587\nCRIT Rate (Lv.90): 24.3 %",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2024-11-14"
             },
             {
               "id": "relativistic-jet",
@@ -159411,7 +159870,8 @@ var NYX_DB = {
               },
               "text": "Relativistic Jet\nRarity: 4 \u2605\nType: Pistols\nATK (Lv.90): 462\nATK (Lv.90): 18.2 %",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2025-01-02"
             },
             {
               "id": "rime-draped-sprouts",
@@ -159426,7 +159886,8 @@ var NYX_DB = {
               },
               "text": "Rime-Draped Sprouts\nRarity: 5 \u2605\nType: Rectifier\nATK (Lv.90): 500\nCRIT DMG (Lv.90): 72 %",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2024-08-15"
             },
             {
               "id": "romance-in-farewell",
@@ -159455,7 +159916,8 @@ var NYX_DB = {
               },
               "text": "Skull Thrasher\nRarity: 5 \u2605\nType: Pistols\nATK (Lv.90): 500\nCRIT DMG% (Lv.90): 72 %",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2026-06-08"
             },
             {
               "id": "solar-flame",
@@ -159485,7 +159947,8 @@ var NYX_DB = {
               },
               "text": "Solsworn Ciphers\nRarity: 5 \u2605\nType: Gauntlets\nATK (Lv.90): 587\nCRIT DMG (Lv.90): 48.6 %",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2026-03-19"
             },
             {
               "id": "somnoire-anchor",
@@ -159514,7 +159977,8 @@ var NYX_DB = {
               },
               "text": "Spectral Trigger\nRarity: 5 \u2605\nType: Pistols\nATK (Lv.90): 587\nCRIT DMG% (Lv.90): 48.6 %",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2026-06-07"
             },
             {
               "id": "spectrum-blaster",
@@ -159529,7 +159993,8 @@ var NYX_DB = {
               },
               "text": "Spectrum Blaster\nRarity: 5 \u2605\nType: Pistols\nATK (Lv.90): 587\nCRIT Rate (Lv.90): 24.3 %",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2025-12-25"
             },
             {
               "id": "starfield-calibrator",
@@ -159544,7 +160009,8 @@ var NYX_DB = {
               },
               "text": "Starfield Calibrator\nRarity: 5 \u2605\nType: Broadblade\nATK (Lv.90): 414\nEnergy Regen (Lv.90): 77 %",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2026-01-15"
             },
             {
               "id": "static-mist",
@@ -159574,7 +160040,8 @@ var NYX_DB = {
               },
               "text": "Stellar Symphony\nRarity: 5 \u2605\nType: Rectifier\nATK (Lv.90): 412\nEnergy Regen (Lv.90): 77 %",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2024-09-29"
             },
             {
               "id": "stonard",
@@ -159604,7 +160071,8 @@ var NYX_DB = {
               },
               "text": "Stringmaster\nRarity: 5 \u2605\nType: Rectifier\nATK (Lv.90): 500\nCRIT Rate (Lv.90): 36 %",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2024-06-06"
             },
             {
               "id": "sword-of-night",
@@ -159662,7 +160130,8 @@ var NYX_DB = {
               },
               "text": "The Last Dance\nRarity: 5 \u2605\nType: Pistols\nATK (Lv.90): 500\nCRIT DMG (Lv.90): 72 %",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2025-01-02"
             },
             {
               "id": "thunderbolt",
@@ -159691,7 +160160,8 @@ var NYX_DB = {
               },
               "text": "Thunderflare Dominion\nRarity: 5 \u2605\nType: Broadblade\nATK (Lv.90): 675\nCRIT Rate (Lv.90): 12.1 %",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2025-08-28"
             },
             {
               "id": "tragicomedy",
@@ -159706,7 +160176,8 @@ var NYX_DB = {
               },
               "text": "Tragicomedy\nRarity: 5 \u2605\nType: Gauntlets\nATK (Lv.90): 587\nCRIT Rate (Lv.90): 24.3 %",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2025-01-23"
             },
             {
               "id": "training-broadblade",
@@ -159860,7 +160331,8 @@ var NYX_DB = {
               },
               "text": "Undying Flame\nRarity: 4 \u2605\nType: Pistols\nATK (Lv.90): 412\nATK (Lv.90): 30.3 %",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2024-07-22"
             },
             {
               "id": "unflickering-valor",
@@ -159875,7 +160347,8 @@ var NYX_DB = {
               },
               "text": "Unflickering Valor\nRarity: 5 \u2605\nType: Sword\nATK (Lv.90): 415\nEnergy Reg. (Lv.90): 77 %",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2025-03-06"
             },
             {
               "id": "variation",
@@ -159890,7 +160363,8 @@ var NYX_DB = {
               },
               "text": "Variation\nRarity: 4 \u2605\nType: Rectifier\nATK (Lv.90): 337\nEnergy Reg. (Lv.90): 51.8 %",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2024-05-23"
             },
             {
               "id": "verdant-summit",
@@ -159905,7 +160379,8 @@ var NYX_DB = {
               },
               "text": "Verdant Summit\nRarity: 5 \u2605\nType: Broadblade\nATK (Lv.90): 587\nCRIT DMG (Lv.90): 48.6 %",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2024-05-23"
             },
             {
               "id": "veritys-handle",
@@ -159920,7 +160395,8 @@ var NYX_DB = {
               },
               "text": "Verity's Handle\nRarity: 5 \u2605\nType: Gauntlets\nATK (Lv.90): 587\nCRIT Rate (Lv.90): 24.3 %",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2024-09-07"
             },
             {
               "id": "waltz-in-masquerade",
@@ -159948,7 +160424,8 @@ var NYX_DB = {
               },
               "text": "Waning Redshift\nRarity: 4 \u2605\nType: Broadblade\nATK (Lv.90): 462\nATK (Lv.90): 18.2 %",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2024-12-12"
             },
             {
               "id": "whispers-of-sirens",
@@ -159963,7 +160440,8 @@ var NYX_DB = {
               },
               "text": "Whispers of Sirens\nRarity: 5 \u2605\nType: Rectifier\nATK (Lv.90): 500\nCRIT DMG (Lv.90): 72 %",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2025-03-27"
             },
             {
               "id": "wildfire-mark",
@@ -159978,7 +160456,8 @@ var NYX_DB = {
               },
               "text": "Wildfire Mark\nRarity: 5 \u2605\nType: Broadblade\nATK (Lv.90): 587\nCRIT DMG (Lv.90): 48.6 %",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2025-07-03"
             },
             {
               "id": "woodland-aria",
@@ -159993,7 +160472,8 @@ var NYX_DB = {
               },
               "text": "Woodland Aria\nRarity: 5 \u2605\nType: Pistols\nATK (Lv.90): 500\nCRIT Rate (Lv.90): 36 %",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2025-05-22"
             }
           ]
         },
@@ -162022,9 +162502,9 @@ var NYX_DB = {
         "name": "Wuthering Waves",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-08-09T11:35:19.636Z",
-          "lastSuccessfulFetch": "2026-08-09T11:35:19.636Z",
-          "lastValidUpdate": "2026-08-09T11:35:19.636Z",
+          "checkedAt": "2026-08-09T18:13:08.454Z",
+          "lastSuccessfulFetch": "2026-08-09T18:13:08.454Z",
+          "lastValidUpdate": "2026-08-09T18:13:08.454Z",
           "source": "game8"
         },
         "current": {
@@ -163209,7 +163689,8 @@ var NYX_DB = {
               },
               "text": "Amaranthine Tassel\nRarity: 6 \u2726\nType: Greatsword\nBase ATK: 510\nStat 1 Boost - 9/9\nStrength : + 156\nStat 2 Boost - 9/9\nATK : + 39%\nPassive Boost - 4/9\nPhysical DMG Bonus : + 25.60%\nWhen the wielder applies Physical Susceptibility , the wielder gains Arts Intensity +48 for 20s . When the wielder applies Crush , the wielder gains Physical DMG Dealt +[14.4% + (4.8% x Max Number of Vulnerability stacks consumed from one enemy)] for 30s .\nShow Effects",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2026-06-05"
             },
             {
               "id": "ancient-canal",
@@ -163242,7 +163723,8 @@ var NYX_DB = {
               },
               "text": "Artzy Tyrannical\nRarity: 6 \u2726\nType: Handcannon\nBase ATK: 505\nStat 1 Boost - 9/9\nIntellect : + 156\nStat 2 Boost - 9/9\nCritical Rate : + 19.50%\nPassive Boost - 4/9\nCryo DMG Bonus : + 25.60%\nAfter the wielder scores a critical hit with a Battle Skill or Combo Skill, the wielder gains Cryo DMG dealt +22.4% for 30s . Max stacks for effects of the same name: 3 . Duration of each stack is counted separately. Effect only triggers once every 0.1s .",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2026-02-23"
             },
             {
               "id": "aspirant",
@@ -163293,7 +163775,8 @@ var NYX_DB = {
               },
               "text": "Blessing of Lustrous Carmine\nRarity: 6 \u2726\nType: Polearm\nBase ATK: 500\nStat 1 Boost - 9/9\nAgility : + 156\nStat 2 Boost - 9/9\nHeat DMG Bonus : + 43.30%\nPassive Boost - 4/9\nUltimate Gain Eff. : + 28.80%\nWhen the wielder\u2019s skill recovers SP, the entire team gains ATK +9.6% for 20s . When the wielder\u2019s skill applies Heat Infliction , the entire team gains Heat DMG Dealt +9.6% for 20s .\nThe two effects apply separately and do not stack with themselves.",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2026-06-26"
             },
             {
               "id": "brigands-calling",
@@ -163310,7 +163793,8 @@ var NYX_DB = {
               },
               "text": "Brigand's Calling\nRarity: 6 \u2726\nType: Handcannon\nBase ATK: 505\nStat 1 Boost - 9/9\nAgility : + 156\nStat 2 Boost - 9/9\nAttack : + 39%\nPassive Boost - 4/9\nCryo DMG Bonus : + 25.60%\nWhen the wielder applies Cryo Infliction via battle skills or ultimates, the wielder gains Cryo DMG Dealt +32% for 20s .\nWhen the wielder's battle skill or ultimate applies Arts Susceptibility , the target enemy suffers Arts DMG Taken +9.6% for 20s . The two effects apply separately and do not stack with themselves.\nShow Effects",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2026-03-11"
             },
             {
               "id": "chimeric-justice",
@@ -163343,7 +163827,8 @@ var NYX_DB = {
               },
               "text": "Chivalric Virtues\nRarity: 6 \u2726\nType: Arts Unit\nBase ATK: 485\nStat 1 Boost - 9/9\nWill : + 156\nStat 2 Boost - 9/9\nMax HP : + 78.00%\nPassive Boost - 4/9\nTreatment Efficiency +16% . After the wielder gives HP Treatment with their own skill, the entire team gains ATK +14.4% for 15s . Effects of the same name cannot stack.",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2026-01-22"
             },
             {
               "id": "clannibal",
@@ -163359,7 +163844,8 @@ var NYX_DB = {
               },
               "text": "Clannibal\nRarity: 6 \u2726\nType: Handcannon\nBase ATK: 490\nStat 1 Boost - 9/9\nMain Attribute : + 132\nStat 2 Boost - 9/9\nArts DMG Bonus : + 43.30%\nPassive Boost - 4/9\nArts DMG Bonus : + 19.20%\nAfter the wielder consumes an Arts Reaction, target enemy suffers Arts DMG taken +16% (for the specified element) for 15s . Effect only triggers once every 25s .\nShow Effects",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2026-01-22"
             },
             {
               "id": "cohesive-traction",
@@ -163425,7 +163911,8 @@ var NYX_DB = {
               },
               "text": "Delivery Guaranteed\nRarity: 6 \u2726\nType: Arts Unit\nBase ATK: 500\nStat 1 Boost - 9/9\nWill : + 156\nStat 2 Boost - 9/9\nUltimate Gain Eff. : + 46.40%\nPassive Boost - 4/9\nNature DMG Bonus : + 25.60%\nAfter the wielder applies Lifted with their own Combo Skill, the team gains Arts DMG dealt +19.2% for 15s . For every enemy Lifted , the team gains bonus Arts DMG dealt +5.6% , up to a max of 16.8% . Effects of the same name cannot stack.\nShow Effects",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2026-02-07"
             },
             {
               "id": "detonation-unit",
@@ -163442,7 +163929,8 @@ var NYX_DB = {
               },
               "text": "Detonation Unit\nRarity: 6 \u2726\nType: Arts Unit\nBase ATK: 490\nStat 1 Boost - 9/9\nMain Attribute : + 132\nStat 2 Boost - 9/9\nArts Intensity : + 78\nPassive Boost - 4/9\nSec. Attribute : + 16.00%\nAfter the wielder applies an Arts Burst, target enemy suffers Arts DMG taken +14.4% for 15s . Effects of the same name cannot stack.\nShow Effects",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2026-03-29"
             },
             {
               "id": "dreams-of-the-starry-beach",
@@ -163476,7 +163964,8 @@ var NYX_DB = {
               },
               "text": "Eminent Repute\nRarity: 6 \u2726\nType: Sword\nBase ATK: 490\nStat 1 Boost - 9/9\nMain Attribute : + 132\nStat 2 Boost - 9/9\nPhysical DMG Bonus : + 43.30%\nPassive Boost - 4/9\nAttack : + 16.00%\nAfter the wielder consumes Vulnerability stack(s), ATK + [8% + 4% x Stacks Consumed] while other Operators in the team gain half of this buff for 20s . Effects of the same name cannot stack.\nShow Effects",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2026-03-29"
             },
             {
               "id": "exemplar",
@@ -163493,7 +163982,8 @@ var NYX_DB = {
               },
               "text": "Exemplar\nRarity: 6 \u2726\nType: Greatsword\nBase ATK: 500\nStat 1 Boost - 9/9\nMain Attribute : + 132\nStat 2 Boost - 9/9\nAttack : + 39.00%\nPassive Boost - 4/9\nPhysical DMG Bonus : + 16.00%\nAfter the wielder's Battle Skill or Ultimate hits the enemy, the wielder gains Physical DMG dealt +16% for 30s . Max stacks for effects of the same name: 3 . Duration of each stack is counted separately. Effect only triggers once every 0.1s .",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2026-02-07"
             },
             {
               "id": "finchaser-3-0",
@@ -163580,7 +164070,8 @@ var NYX_DB = {
               },
               "text": "Forgeborn Scathe\nRarity: 6 \u2726\nType: Sword\nBase ATK: 510\nStat 1 Boost - 9/9\nIntellect : + 156\nStat 2 Boost - 9/9\nAttack : + 39.00%\nPassive Boost - 4/9\nHeat DMG Bonus : + 25.60%\nAfter the wielder casts an Ultimate, the wielder gains Basic Attack DMG dealt +120% for 20s . Effects of the same name cannot stack.",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2026-01-22"
             },
             {
               "id": "former-finery",
@@ -163596,7 +164087,8 @@ var NYX_DB = {
               },
               "text": "Former Finery\nRarity: 6 \u2726\nType: Greatsword\nBase ATK: 495\nStat 1 Boost - 9/9\nWill : + 156\nStat 2 Boost - 9/9\nMax HP : + 78.00%\nPassive Boost - 4/9\nTreatment Efficiency +16% . When a Protected Operator takes DMG, the wielder restores the said Operator's HP by [134 + Will x 1.12] . Effect only triggers once every 15s .",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2026-01-22"
             },
             {
               "id": "fortmaker",
@@ -163767,7 +164259,8 @@ var NYX_DB = {
               },
               "text": "JET\nRarity: 6 \u2726\nType: Polearm\nBase ATK: 500\nStat 1 Boost - 9/9\nMain Attribute : + 132\nStat 2 Boost - 9/9\nAttack : + 39.00%\nPassive Boost - 4/9\nArts DMG Bonus : + 19.20%\nAfter the wielder casts a Battle Skill, the wielder gains Arts DMG dealt +19.2% for 15s . After the wielder casts a Combo Skill, Arts DMG dealt +19.2% for 15s . The two effects apply separately and do not stack with themselves.\nShow Effects",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2026-02-23"
             },
             {
               "id": "jiminy-12",
@@ -163835,7 +164328,8 @@ var NYX_DB = {
               },
               "text": "Lone Barge\nRarity: 6 \u2726\nType: Arts Unit\nBase ATK: 0\nStat 1 Boost - 9/9\nWill : + 156\nStat 2 Boost - 9/9\nATK : + 39%\nPassive Boost - 4/9\nElectric DMG Bonus : + 25.60%\nWhen the wielder's battle skill consumes Arts Reactions, the wielder gains Battle Skill Electric DMG Dealt +32% for 20s .\nThis effect can reach 2 stacks.\nDuration of each stack is counted separately.\nThis effect only triggers once every 0.1s .\nAfter the wielder casts an ultimate, the wielder gains Battle Skill Electric DMG Dealt +64% for 25s . This effect cannot stack",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2026-04-16"
             },
             {
               "id": "long-road",
@@ -163868,7 +164362,8 @@ var NYX_DB = {
               },
               "text": "Lupine Scarlet\nRarity: 6 \u2726\nType: Sword\nBase ATK: 505\nStat 1 Boost - 9/9\nAgility : + 156\nStat 2 Boost - 9/9\nCritical Rate : + 19.50%\nPassive Boost - 4/9\nATK : + 25.60%\nAfter the wielder's skill deals Critical DMG, the wielder gains 1 stack of Wolven Blood that grants Physical and Heat DMG Dealt +1.6% . Wolven Blood can reach 16 stacks. After reaching 16 stacks, the wielder gains another Physical and Heat DMG Dealt +38.4% for 20s . After the Dealt duration ends, all Wolven Blood stacks are removed.",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2026-03-29"
             },
             {
               "id": "monaihe",
@@ -164037,7 +164532,8 @@ var NYX_DB = {
               },
               "text": "Oblivion\nRarity: 6 \u2726\nType: Arts Unit\nBase ATK: 495\nStat 1 Boost - 9/9\nIntellect : + 156\nStat 2 Boost - 9/9\nArts DMG Bonus : + 43.30%\nPassive Boost - 4/9\nCritical Rate : + 8.00%\nAfter the wielder casts an Ultimate, the wielder gains Arts DMG dealt +38.4% for 15s . After the wielder casts a Combo Skill, the wielder gains Arts DMG dealt +19.2% for 15s . The two effects apply separately and do not stack with themselves.\nShow Effects",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2026-02-07"
             },
             {
               "id": "opero-77",
@@ -164168,7 +164664,8 @@ var NYX_DB = {
               },
               "text": "Rapid Ascent\nRarity: 6 \u2726\nType: Sword\nBase ATK: 495\nStat 1 Boost - 9/9\nMain Attribute : + 132\nStat 2 Boost - 9/9\nCritical Rate : + 19.50%\nPassive Boost - 4/9\nBattle Skills and Ultimates gain Physical DMG dealt +24% . Against staggered enemies, Battle Skills and Ultimates also gain DMG dealt +56% .",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2026-02-23"
             },
             {
               "id": "rational-farewell",
@@ -164235,7 +164732,8 @@ var NYX_DB = {
               },
               "text": "Sundered Prince\nRarity: 6 \u2726\nType: Greatsword\nBase ATK: 490\nStat 1 Boost - 9/9\nStrength : + 156\nStat 2 Boost - 9/9\nCritical Rate : + 19.50%\nPassive Boost - 4/9\nAfter the wielder performs a Final Strike on the enemy, ATK +16% for 8s . If the wielder is also the Controlled Operator, double the ATK increase gained and buff the Final Strike so that it deals Stagger +19.2% to the enemy. Effects of the same name cannot stack.\nShow Effects",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2026-02-23"
             },
             {
               "id": "sundering-steel",
@@ -164284,7 +164782,8 @@ var NYX_DB = {
               },
               "text": "Thermite Cutter\nRarity: 6 \u2726\nType: Sword\nBase ATK: 490\nStat 1 Boost - 9/9\nWill : + 156\nStat 2 Boost - 9/9\nAttack : + 39.00%\nPassive Boost - 4/9\nAttack : + 16.00%\nAfter the wielder's skill recovers SP or grants a Link state, the entire team gains ATK +8% for 20s . Max stacks for effects of the same name: 2 . Duration of each stack counted separately.\nShow Effects",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2026-02-07"
             },
             {
               "id": "thunderberge",
@@ -164336,7 +164835,8 @@ var NYX_DB = {
               },
               "text": "Type 42: Solemn Phalanx\nRarity: 6 \u2726\nType: Arts Unit\nBase ATK: 505\nStat 1 Boost - 9/9\nIntellect : + 156\nStat 2 Boost - 9/9\nUltimate Gain Eff. : + 46.40%\nPassive Boost - 4/9\nATK : + 25.60%\nWielder's Intellect \u2265 Will : When the wielder applies Arts Infliction with their own skill, the wielder gains Arts DMG Dealt +32.0% for 20s ; when the wielder applies Arts Susceptibility with their own skill, the wielder gains ATK +32.0% for 20s ;\nWielder's Will \uff1e Intellect : When the wielder applies Arts Burst with their own skill, the target enemy suffers Arts DMG Taken +9.6% for 25s ; when the wielder applies Arts Susceptibility with their own skill, the target enemy suffers Arts DMG Taken +9.6% for 25s .\nEffects of the same name cannot stack. The aforementioned attributes only include effects from the wielder's level, talents, potentials, and attribute bonuses provided by equipped gear and weapons.\nShow Effects",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2026-07-16"
             },
             {
               "id": "umbral-torch",
@@ -164370,7 +164870,8 @@ var NYX_DB = {
               },
               "text": "Valiant\nRarity: 6 \u2726\nType: Polearm\nBase ATK: 495\nStat 1 Boost - 9/9\nAgility : + 156\nStat 2 Boost - 9/9\nPhysical DMG Bonus : + 43.30%\nPassive Boost - 4/9\nAttack : + 16.00%\nWhen the wielder applies Physical Statuses , the wielder also deals another hit of Physical DMG equal to 192% of the wielder's ATK.\nShow Effects",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2026-01-22"
             },
             {
               "id": "wave-tide",
@@ -164403,7 +164904,8 @@ var NYX_DB = {
               },
               "text": "Wedge\nRarity: 6 \u2726\nType: Handcannon\nBase ATK: 500\nStat 1 Boost - 9/9\nMain Attribute : + 132\nStat 2 Boost - 9/9\nCritical Rate : + 19.50%\nPassive Boost - 4/9\nArts DMG Bonus : + 19.20%\nAfter the wielder casts a Battle Skill, the wielder gains Arts DMG dealt +12.8% for 15s . After the wielder applies an Arts Reaction with their own Battle Skill, the wielder gains Arts DMG dealt +25.6% for 15s . The two effects apply separately and do not stack with themselves.\nShow Effects",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2026-01-22"
             },
             {
               "id": "white-night-nova",
@@ -164420,7 +164922,8 @@ var NYX_DB = {
               },
               "text": "White Night Nova\nRarity: 6 \u2726\nType: Sword\nBase ATK: 505\nStat 1 Boost - 9/9\nMain Attribute : + 132\nStat 2 Boost - 9/9\nArts Intensity : + 78\nPassive Boost - 4/9\nArts DMG Bonus : + 19.20%\nAfter the wielder applies Combustion or Electrification , the wielder gains Arts DMG dealt +19.2% and Arts Intensity +40 for 15s . Effects of the same name cannot stack.\nShow Effects",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2026-01-22"
             },
             {
               "id": "wild-wanderer",
@@ -167143,9 +167646,9 @@ var NYX_DB = {
         "name": "Arknights: Endfield",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-08-09T11:35:19.636Z",
-          "lastSuccessfulFetch": "2026-08-09T11:35:19.636Z",
-          "lastValidUpdate": "2026-08-09T11:35:19.636Z",
+          "checkedAt": "2026-08-09T18:13:08.454Z",
+          "lastSuccessfulFetch": "2026-08-09T18:13:08.454Z",
+          "lastValidUpdate": "2026-08-09T18:13:08.454Z",
           "source": "game8"
         },
         "current": {

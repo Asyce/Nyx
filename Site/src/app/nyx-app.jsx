@@ -3199,6 +3199,18 @@ function BetaDataPanel({ gameKey, onOpenCharacter }){
   );
 }
 
+// Which games have an achievement tracker.
+//
+// The multi-game registry (features/achievements/achievement-games.js) is part
+// of the launcher work and is not bundled yet. Until it is, fall back to the
+// two games that already shipped a tracker — without this the tab silently
+// disappears and /<game>/achievements stops routing.
+function achievementsSupported(key){
+  const registry = typeof window !== 'undefined' ? window.NyxAchievementGames : null;
+  if (registry && typeof registry.supportsTracker === 'function') return Boolean(registry.supportsTracker(key));
+  return key === 'gi' || key === 'hsr';
+}
+
 function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings, characterCustomize, setCharacterCustomize, materialSelection, setMaterialSelection, onSelectMaterialCharacter, onCloseMaterialCharacter }){
   const fns = cfg.fns || ['Characters','Database','Wish Tracker'];
   const visibleFns = fns; // J: Database is always visible (gating + settings toggle removed)
@@ -3222,7 +3234,7 @@ function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings, 
   }, [cfg.key]);
   const hasTcg = cfg.key === 'gi';
   const hasLibrary = cfg.key === 'gi' || cfg.key === 'hsr';
-  const hasAchievements = Boolean(window.NyxAchievementGames?.supportsTracker(cfg.key));
+  const hasAchievements = achievementsSupported(cfg.key);
   const betaActive = cfg.key !== 'ae' && typeof cmHasBeta === 'function' && cmHasBeta(cfg.key) && (cmChannel === 'beta' || window.NYX_ALWAYS_BETA === true);
   React.useEffect(() => {
     if (tab === 'beta' && !betaActive) setTab('mats');
@@ -3886,7 +3898,7 @@ function validTabsForKey(key){
   if (key === 'nyx') return ['overview','characters','calendar','timeline','pulls','codes','banners','events','settings'];
   const tabs = ['overview','mats','char-customize','database','tracker'];
   if (key === 'gi') tabs.push('tcg','pot','wonderland');
-  if (window.NyxAchievementGames?.supportsTracker(key)) tabs.push('achievements');
+  if (achievementsSupported(key)) tabs.push('achievements');
   if (key === 'gi' || key === 'hsr') tabs.push('books');
   tabs.push('beta','settings');
   return tabs;

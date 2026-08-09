@@ -57,11 +57,10 @@ test('what is live comes from the official history, not the community scrape', (
   // Next comes from official history too — it is the only source that lists the
   // featured 4-stars (Alyosha on both Genshin 7.0 Phase 1 banners).
   assert.match(generator, /next: keepLabel\(official\.next, scrapedNext\)/);
-  const now = Date.now();
-  for (const [key, group] of Object.entries(banners)) {
-    if (!group.current?.end) continue;
-    assert.ok(Date.parse(group.current.end) > now, `${key}: current phase already ended`);
-  }
+  // Deliberately no assertion that the shipped current phase is still running:
+  // the payload is rebuilt on a schedule, so between a phase rollover and the
+  // next refresh it is legitimately behind. Asserting freshness here would fail
+  // the build at every phase boundary.
 });
 
 test('the board splits each phase into a headline banner and the rest', () => {
@@ -130,6 +129,36 @@ test('the events strip is a grid on the board, not a sideways-scrolling row', ()
 test('every game key the site knows about is represented in the banner payload', () => {
   const missing = GAMES.filter((key) => !banners[key]);
   assert.deepEqual(missing, [], `banner data missing for ${missing.join(', ')}`);
+});
+
+test('the achievements tab survives the multi-game registry not being bundled', () => {
+  // achievement-games.js ships with the launcher work and is not in the bundle
+  // yet. Gating the tab on it alone made the tab vanish live and broke the
+  // /<game>/achievements route — so the gate falls back to the two games that
+  // already had a tracker.
+  const from = appSource.indexOf('function achievementsSupported');
+  assert.ok(from > 0, 'achievementsSupported helper not found');
+  const to = appSource.indexOf('\n}', from) + 2;
+  const box = { window:{} };
+  vm.createContext(box);
+  vm.runInContext(appSource.slice(from, to) + ';window.supported = achievementsSupported;', box);
+  const supported = box.window.supported;
+
+  // No registry (today's live bundle): the known trackers still appear.
+  assert.equal(supported('gi'), true);
+  assert.equal(supported('hsr'), true);
+  assert.equal(supported('zzz'), false);
+
+  // Registry present: it decides, so new games light up without a code change.
+  const withRegistry = { window:{ NyxAchievementGames:{ supportsTracker:(key) => key === 'zzz' } } };
+  vm.createContext(withRegistry);
+  vm.runInContext(appSource.slice(from, to) + ';window.supported = achievementsSupported;', withRegistry);
+  assert.equal(withRegistry.window.supported('zzz'), true);
+  assert.equal(withRegistry.window.supported('gi'), false);
+
+  // Both the nav and the route table must use it, or they disagree.
+  assert.match(appSource, /const hasAchievements = achievementsSupported\(cfg\.key\)/);
+  assert.match(appSource, /if \(achievementsSupported\(key\)\) tabs\.push\('achievements'\)/);
 });
 
 test('the phase after next rolls into the following patch, never a third phase', () => {

@@ -4,7 +4,7 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-08-09T02:36:01.620Z",
+  "generatedAt": "2026-08-09T12:08:03.981Z",
   "codes": {
     "updated": "2026-08-09T02:15:00.254Z",
     "maxAgeDays": 28,
@@ -440,16 +440,16 @@ var NYX_DB = {
     }
   },
   "banners": {
-    "updated": "2026-08-08T13:04:48.381Z",
-    "checkedAt": "2026-08-08T13:04:48.381Z",
+    "updated": "2026-08-09T11:35:19.636Z",
+    "checkedAt": "2026-08-09T11:35:19.636Z",
     "games": {
       "hsr": {
         "name": "Honkai: Star Rail",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-08-08T13:04:48.381Z",
-          "lastSuccessfulFetch": "2026-08-08T13:04:48.381Z",
-          "lastValidUpdate": "2026-08-08T13:04:48.381Z",
+          "checkedAt": "2026-08-09T11:35:19.636Z",
+          "lastSuccessfulFetch": "2026-08-09T11:35:19.636Z",
+          "lastValidUpdate": "2026-08-09T11:35:19.636Z",
           "source": "game8"
         },
         "current": {
@@ -544,9 +544,9 @@ var NYX_DB = {
         "name": "Genshin Impact",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-08-08T13:04:48.381Z",
-          "lastSuccessfulFetch": "2026-08-08T13:04:48.381Z",
-          "lastValidUpdate": "2026-08-08T13:04:48.381Z",
+          "checkedAt": "2026-08-09T11:35:19.636Z",
+          "lastSuccessfulFetch": "2026-08-09T11:35:19.636Z",
+          "lastValidUpdate": "2026-08-09T11:35:19.636Z",
           "source": "game8"
         },
         "current": {
@@ -690,9 +690,9 @@ var NYX_DB = {
         "name": "Wuthering Waves",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-08-08T13:04:48.381Z",
-          "lastSuccessfulFetch": "2026-08-08T13:04:48.381Z",
-          "lastValidUpdate": "2026-08-08T13:04:48.381Z",
+          "checkedAt": "2026-08-09T11:35:19.636Z",
+          "lastSuccessfulFetch": "2026-08-09T11:35:19.636Z",
+          "lastValidUpdate": "2026-08-09T11:35:19.636Z",
           "source": "game8"
         },
         "current": {
@@ -825,9 +825,9 @@ var NYX_DB = {
         "name": "Zenless Zone Zero",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-08-08T13:04:48.381Z",
-          "lastSuccessfulFetch": "2026-08-08T13:04:48.381Z",
-          "lastValidUpdate": "2026-08-08T13:04:48.381Z",
+          "checkedAt": "2026-08-09T11:35:19.636Z",
+          "lastSuccessfulFetch": "2026-08-09T11:35:19.636Z",
+          "lastValidUpdate": "2026-08-09T11:35:19.636Z",
           "source": "game8"
         },
         "current": {
@@ -982,67 +982,15 @@ var NYX_DB = {
         "name": "Arknights: Endfield",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-08-08T13:04:48.381Z",
-          "lastSuccessfulFetch": "2026-08-08T13:04:48.381Z",
-          "lastValidUpdate": "2026-08-08T13:04:48.381Z",
+          "checkedAt": "2026-08-09T11:35:19.636Z",
+          "lastSuccessfulFetch": "2026-08-09T11:35:19.636Z",
+          "lastValidUpdate": "2026-08-09T11:35:19.636Z",
           "source": "game8"
         },
         "current": {
-          "phase": "1.4 Phase 1",
-          "start": "2026-07-16T04:00:00.000Z",
-          "end": "2026-08-09T03:59:59.000Z",
-          "characters": [
-            {
-              "name": "Arcane",
-              "icon": "../../Database/EndfieldWiki/endfield/assets/operators/arcane/icon.png",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/EndfieldWiki/endfield/assets/operators/arcane/splash.png",
-              "namecard": null,
-              "rarity": 6,
-              "debut": false,
-              "debutAt": "2026-07-16"
-            },
-            {
-              "name": "Camille",
-              "icon": "../../Database/EndfieldWiki/endfield/assets/operators/camille/icon.png",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/EndfieldWiki/endfield/assets/operators/camille/splash.png",
-              "namecard": null,
-              "rarity": 6,
-              "debut": false,
-              "debutAt": "2026-06-26"
-            },
-            {
-              "name": "Mi Fu",
-              "icon": "../../Database/EndfieldWiki/endfield/assets/operators/mi-fu/icon.png",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/EndfieldWiki/endfield/assets/operators/mi-fu/splash.png",
-              "namecard": null,
-              "rarity": 6,
-              "debut": false,
-              "debutAt": "2026-06-05"
-            },
-            {
-              "name": "Xaihi",
-              "icon": "../../Database/EndfieldWiki/endfield/assets/operators/xaihi/icon.png",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/EndfieldWiki/endfield/assets/operators/xaihi/splash.png",
-              "namecard": null,
-              "rarity": 5,
-              "debut": false,
-              "debutAt": "2026-02-24"
-            }
-          ],
-          "subBanners": []
-        },
-        "next": {
-          "phase": "2026",
+          "phase": "1.4 Phase 2",
           "start": "2026-08-09T04:00:00.000Z",
-          "end": null,
+          "end": "2026-09-01T21:59:59.000Z",
           "characters": [
             {
               "name": "Liino",
@@ -1080,6 +1028,7 @@ var NYX_DB = {
           ],
           "subBanners": []
         },
+        "next": null,
         "upcoming": []
       }
     }
@@ -4881,9 +4830,9 @@ var NYX_DB = {
         "name": "Genshin Impact",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-08-08T13:04:48.381Z",
-          "lastSuccessfulFetch": "2026-08-08T13:04:48.381Z",
-          "lastValidUpdate": "2026-08-08T13:04:48.381Z",
+          "checkedAt": "2026-08-09T11:35:19.636Z",
+          "lastSuccessfulFetch": "2026-08-09T11:35:19.636Z",
+          "lastValidUpdate": "2026-08-09T11:35:19.636Z",
           "source": "game8"
         },
         "current": {
@@ -151497,9 +151446,9 @@ var NYX_DB = {
         "name": "Honkai: Star Rail",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-08-08T13:04:48.381Z",
-          "lastSuccessfulFetch": "2026-08-08T13:04:48.381Z",
-          "lastValidUpdate": "2026-08-08T13:04:48.381Z",
+          "checkedAt": "2026-08-09T11:35:19.636Z",
+          "lastSuccessfulFetch": "2026-08-09T11:35:19.636Z",
+          "lastValidUpdate": "2026-08-09T11:35:19.636Z",
           "source": "game8"
         },
         "current": {
@@ -157123,9 +157072,9 @@ var NYX_DB = {
         "name": "Zenless Zone Zero",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-08-08T13:04:48.381Z",
-          "lastSuccessfulFetch": "2026-08-08T13:04:48.381Z",
-          "lastValidUpdate": "2026-08-08T13:04:48.381Z",
+          "checkedAt": "2026-08-09T11:35:19.636Z",
+          "lastSuccessfulFetch": "2026-08-09T11:35:19.636Z",
+          "lastValidUpdate": "2026-08-09T11:35:19.636Z",
           "source": "game8"
         },
         "current": {
@@ -162073,9 +162022,9 @@ var NYX_DB = {
         "name": "Wuthering Waves",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-08-08T13:04:48.381Z",
-          "lastSuccessfulFetch": "2026-08-08T13:04:48.381Z",
-          "lastValidUpdate": "2026-08-08T13:04:48.381Z",
+          "checkedAt": "2026-08-09T11:35:19.636Z",
+          "lastSuccessfulFetch": "2026-08-09T11:35:19.636Z",
+          "lastValidUpdate": "2026-08-09T11:35:19.636Z",
           "source": "game8"
         },
         "current": {
@@ -167194,67 +167143,15 @@ var NYX_DB = {
         "name": "Arknights: Endfield",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-08-08T13:04:48.381Z",
-          "lastSuccessfulFetch": "2026-08-08T13:04:48.381Z",
-          "lastValidUpdate": "2026-08-08T13:04:48.381Z",
+          "checkedAt": "2026-08-09T11:35:19.636Z",
+          "lastSuccessfulFetch": "2026-08-09T11:35:19.636Z",
+          "lastValidUpdate": "2026-08-09T11:35:19.636Z",
           "source": "game8"
         },
         "current": {
-          "phase": "1.4 Phase 1",
-          "start": "2026-07-16T04:00:00.000Z",
-          "end": "2026-08-09T03:59:59.000Z",
-          "characters": [
-            {
-              "name": "Arcane",
-              "icon": "../../Database/EndfieldWiki/endfield/assets/operators/arcane/icon.png",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/EndfieldWiki/endfield/assets/operators/arcane/splash.png",
-              "namecard": null,
-              "rarity": 6,
-              "debut": false,
-              "debutAt": "2026-07-16"
-            },
-            {
-              "name": "Camille",
-              "icon": "../../Database/EndfieldWiki/endfield/assets/operators/camille/icon.png",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/EndfieldWiki/endfield/assets/operators/camille/splash.png",
-              "namecard": null,
-              "rarity": 6,
-              "debut": false,
-              "debutAt": "2026-06-26"
-            },
-            {
-              "name": "Mi Fu",
-              "icon": "../../Database/EndfieldWiki/endfield/assets/operators/mi-fu/icon.png",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/EndfieldWiki/endfield/assets/operators/mi-fu/splash.png",
-              "namecard": null,
-              "rarity": 6,
-              "debut": false,
-              "debutAt": "2026-06-05"
-            },
-            {
-              "name": "Xaihi",
-              "icon": "../../Database/EndfieldWiki/endfield/assets/operators/xaihi/icon.png",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/EndfieldWiki/endfield/assets/operators/xaihi/splash.png",
-              "namecard": null,
-              "rarity": 5,
-              "debut": false,
-              "debutAt": "2026-02-24"
-            }
-          ],
-          "subBanners": []
-        },
-        "next": {
-          "phase": "2026",
+          "phase": "1.4 Phase 2",
           "start": "2026-08-09T04:00:00.000Z",
-          "end": null,
+          "end": "2026-09-01T21:59:59.000Z",
           "characters": [
             {
               "name": "Liino",
@@ -167292,6 +167189,7 @@ var NYX_DB = {
           ],
           "subBanners": []
         },
+        "next": null,
         "upcoming": []
       },
       "roster": [

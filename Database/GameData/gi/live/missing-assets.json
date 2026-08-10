@@ -64,6 +64,42 @@
     "gamedataAssetPath": "UI_AvatarIcon_Varka_Card.webp"
   },
   {
+    "path": "GameData/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_AssaultRifle_Glacia.webp",
+    "gamedataAssetPath": "UI_Gacha_EquipIcon_AssaultRifle_Glacia.webp"
+  },
+  {
+    "path": "GameData/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_AssaultRifle_Fulmen.webp",
+    "gamedataAssetPath": "UI_Gacha_EquipIcon_AssaultRifle_Fulmen.webp"
+  },
+  {
+    "path": "GameData/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_GrenadeLauncher_Ignis.webp",
+    "gamedataAssetPath": "UI_Gacha_EquipIcon_GrenadeLauncher_Ignis.webp"
+  },
+  {
+    "path": "GameData/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Grenade_Fire.webp",
+    "gamedataAssetPath": "UI_Gacha_EquipIcon_Grenade_Fire.webp"
+  },
+  {
+    "path": "GameData/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Grenade_Water.webp",
+    "gamedataAssetPath": "UI_Gacha_EquipIcon_Grenade_Water.webp"
+  },
+  {
+    "path": "GameData/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Grenade_Electric.webp",
+    "gamedataAssetPath": "UI_Gacha_EquipIcon_Grenade_Electric.webp"
+  },
+  {
+    "path": "GameData/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Grenade_Ice.webp",
+    "gamedataAssetPath": "UI_Gacha_EquipIcon_Grenade_Ice.webp"
+  },
+  {
+    "path": "GameData/gi/assets/weapons/icons/Sword_Template.webp",
+    "gamedataAssetPath": "Sword_Template.webp"
+  },
+  {
+    "path": "GameData/gi/assets/weapons/gacha/Sword_Template.webp",
+    "gamedataAssetPath": "Sword_Template.webp"
+  },
+  {
     "path": "GameData/gi/assets/weapons/icons/UI_EquipIcon_Sword_MorphVinces_{0}.webp",
     "gamedataAssetPath": "UI_EquipIcon_Sword_MorphVinces_{0}.webp"
   },
@@ -78,6 +114,22 @@
   {
     "path": "GameData/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Sword_MorphVinces_Great_{0}.webp",
     "gamedataAssetPath": "UI_Gacha_EquipIcon_Sword_MorphVinces_Great_{0}.webp"
+  },
+  {
+    "path": "GameData/gi/assets/weapons/icons/UI_EquipIcon_Sword_MorphNemorensis_{0}.webp",
+    "gamedataAssetPath": "UI_EquipIcon_Sword_MorphNemorensis_{0}.webp"
+  },
+  {
+    "path": "GameData/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Sword_MorphNemorensis_{0}.webp",
+    "gamedataAssetPath": "UI_Gacha_EquipIcon_Sword_MorphNemorensis_{0}.webp"
+  },
+  {
+    "path": "GameData/gi/assets/weapons/icons/UI_EquipIcon_Sword_MorphNemorensis_Great_{0}.webp",
+    "gamedataAssetPath": "UI_EquipIcon_Sword_MorphNemorensis_Great_{0}.webp"
+  },
+  {
+    "path": "GameData/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Sword_MorphNemorensis_Great_{0}.webp",
+    "gamedataAssetPath": "UI_Gacha_EquipIcon_Sword_MorphNemorensis_Great_{0}.webp"
   },
   {
     "path": "GameData/gi/assets/weapons/icons/UI_EquipIcon_Claymore_MorphGravitas_{0}.webp",
@@ -96,6 +148,22 @@
     "gamedataAssetPath": "UI_Gacha_EquipIcon_Claymore_MorphGravitas_Great_{0}.webp"
   },
   {
+    "path": "GameData/gi/assets/weapons/icons/UI_EquipIcon_Claymore_MorphGradlon_{0}.webp",
+    "gamedataAssetPath": "UI_EquipIcon_Claymore_MorphGradlon_{0}.webp"
+  },
+  {
+    "path": "GameData/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Claymore_MorphGradlon_{0}.webp",
+    "gamedataAssetPath": "UI_Gacha_EquipIcon_Claymore_MorphGradlon_{0}.webp"
+  },
+  {
+    "path": "GameData/gi/assets/weapons/icons/UI_EquipIcon_Claymore_MorphGradlon_Great_{0}.webp",
+    "gamedataAssetPath": "UI_EquipIcon_Claymore_MorphGradlon_Great_{0}.webp"
+  },
+  {
+    "path": "GameData/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Claymore_MorphGradlon_Great_{0}.webp",
+    "gamedataAssetPath": "UI_Gacha_EquipIcon_Claymore_MorphGradlon_Great_{0}.webp"
+  },
+  {
     "path": "GameData/gi/assets/weapons/icons/UI_EquipIcon_Pole_MorphSpinifer_{0}.webp",
     "gamedataAssetPath": "UI_EquipIcon_Pole_MorphSpinifer_{0}.webp"
   },
@@ -110,6 +178,22 @@
   {
     "path": "GameData/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Pole_MorphSpinifer_Great_{0}.webp",
     "gamedataAssetPath": "UI_Gacha_EquipIcon_Pole_MorphSpinifer_Great_{0}.webp"
+  },
+  {
+    "path": "GameData/gi/assets/weapons/icons/UI_EquipIcon_Pole_MorphFylkir_{0}.webp",
+    "gamedataAssetPath": "UI_EquipIcon_Pole_MorphFylkir_{0}.webp"
+  },
+  {
+    "path": "GameData/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Pole_MorphFylkir_{0}.webp",
+    "gamedataAssetPath": "UI_Gacha_EquipIcon_Pole_MorphFylkir_{0}.webp"
+  },
+  {
+    "path": "GameData/gi/assets/weapons/icons/UI_EquipIcon_Pole_MorphFylkir_Great_{0}.webp",
+    "gamedataAssetPath": "UI_EquipIcon_Pole_MorphFylkir_Great_{0}.webp"
+  },
+  {
+    "path": "GameData/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Pole_MorphFylkir_Great_{0}.webp",
+    "gamedataAssetPath": "UI_Gacha_EquipIcon_Pole_MorphFylkir_Great_{0}.webp"
   },
   {
     "path": "GameData/gi/assets/weapons/icons/UI_EquipIcon_Catalyst_MorphIlia_{0}.webp",
@@ -128,6 +212,22 @@
     "gamedataAssetPath": "UI_Gacha_EquipIcon_Catalyst_MorphIlia_Great_{0}.webp"
   },
   {
+    "path": "GameData/gi/assets/weapons/icons/UI_EquipIcon_Catalyst_MorphShahar_{0}.webp",
+    "gamedataAssetPath": "UI_EquipIcon_Catalyst_MorphShahar_{0}.webp"
+  },
+  {
+    "path": "GameData/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Catalyst_MorphShahar_{0}.webp",
+    "gamedataAssetPath": "UI_Gacha_EquipIcon_Catalyst_MorphShahar_{0}.webp"
+  },
+  {
+    "path": "GameData/gi/assets/weapons/icons/UI_EquipIcon_Catalyst_MorphShahar_Great_{0}.webp",
+    "gamedataAssetPath": "UI_EquipIcon_Catalyst_MorphShahar_Great_{0}.webp"
+  },
+  {
+    "path": "GameData/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Catalyst_MorphShahar_Great_{0}.webp",
+    "gamedataAssetPath": "UI_Gacha_EquipIcon_Catalyst_MorphShahar_Great_{0}.webp"
+  },
+  {
     "path": "GameData/gi/assets/weapons/icons/UI_EquipIcon_Bow_MorphChrod_{0}.webp",
     "gamedataAssetPath": "UI_EquipIcon_Bow_MorphChrod_{0}.webp"
   },
@@ -142,6 +242,22 @@
   {
     "path": "GameData/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Bow_MorphChrod_Great_{0}.webp",
     "gamedataAssetPath": "UI_Gacha_EquipIcon_Bow_MorphChrod_Great_{0}.webp"
+  },
+  {
+    "path": "GameData/gi/assets/weapons/icons/UI_EquipIcon_Bow_MorphYayu_{0}.webp",
+    "gamedataAssetPath": "UI_EquipIcon_Bow_MorphYayu_{0}.webp"
+  },
+  {
+    "path": "GameData/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Bow_MorphYayu_{0}.webp",
+    "gamedataAssetPath": "UI_Gacha_EquipIcon_Bow_MorphYayu_{0}.webp"
+  },
+  {
+    "path": "GameData/gi/assets/weapons/icons/UI_EquipIcon_Bow_MorphYayu_Great_{0}.webp",
+    "gamedataAssetPath": "UI_EquipIcon_Bow_MorphYayu_Great_{0}.webp"
+  },
+  {
+    "path": "GameData/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Bow_MorphYayu_Great_{0}.webp",
+    "gamedataAssetPath": "UI_Gacha_EquipIcon_Bow_MorphYayu_Great_{0}.webp"
   },
   {
     "path": "GameData/gi/assets/weapons/icons/UI_EquipIcon_Claymore_LoliFriend.webp",
@@ -184,10 +300,6 @@
     "gamedataAssetPath": "UI_RelicIcon_15012_3.webp"
   },
   {
-    "path": "GameData/gi/assets/items/UI_ItemIcon_106.webp",
-    "gamedataAssetPath": "UI_ItemIcon_106.webp"
-  },
-  {
     "path": "GameData/gi/assets/items/UI_RogueDiary_Icon_JuNeiDaiBi.webp",
     "gamedataAssetPath": "UI_RogueDiary_Icon_JuNeiDaiBi.webp"
   },
@@ -196,76 +308,8 @@
     "gamedataAssetPath": "UI_GcgIcon_CardExperience.webp"
   },
   {
-    "path": "GameData/gi/assets/items/UI_ItemIcon_182.webp",
-    "gamedataAssetPath": "UI_ItemIcon_182.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_ItemIcon_184.webp",
-    "gamedataAssetPath": "UI_ItemIcon_184.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_ItemIcon_185.webp",
-    "gamedataAssetPath": "UI_ItemIcon_185.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_ItemIcon_186.webp",
-    "gamedataAssetPath": "UI_ItemIcon_186.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_ItemIcon_187.webp",
-    "gamedataAssetPath": "UI_ItemIcon_187.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_ItemIcon_188.webp",
-    "gamedataAssetPath": "UI_ItemIcon_188.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_ItemIcon_191.webp",
-    "gamedataAssetPath": "UI_ItemIcon_191.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_ItemIcon_193.webp",
-    "gamedataAssetPath": "UI_ItemIcon_193.webp"
-  },
-  {
     "path": "GameData/gi/assets/items/UI_GcgIcon_CardCurrency.webp",
     "gamedataAssetPath": "UI_GcgIcon_CardCurrency.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_ItemIcon_231.webp",
-    "gamedataAssetPath": "UI_ItemIcon_231.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_ItemIcon_232.webp",
-    "gamedataAssetPath": "UI_ItemIcon_232.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_ItemIcon_233.webp",
-    "gamedataAssetPath": "UI_ItemIcon_233.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_ItemIcon_234.webp",
-    "gamedataAssetPath": "UI_ItemIcon_234.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_ItemIcon_235.webp",
-    "gamedataAssetPath": "UI_ItemIcon_235.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_ItemIcon_236.webp",
-    "gamedataAssetPath": "UI_ItemIcon_236.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_ItemIcon_238.webp",
-    "gamedataAssetPath": "UI_ItemIcon_238.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_ItemIcon_239.webp",
-    "gamedataAssetPath": "UI_ItemIcon_239.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_ItemIcon_308.webp",
-    "gamedataAssetPath": "UI_ItemIcon_308.webp"
   },
   {
     "path": "GameData/gi/assets/items/UI_ItemIcon_2001.webp",
@@ -394,34 +438,6 @@
   {
     "path": "GameData/gi/assets/items/UI_ItemIcon_1020.webp",
     "gamedataAssetPath": "UI_ItemIcon_1020.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_AvatarIcon_Nefer_Card.webp",
-    "gamedataAssetPath": "UI_AvatarIcon_Nefer_Card.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_AvatarIcon_Durin_Card.webp",
-    "gamedataAssetPath": "UI_AvatarIcon_Durin_Card.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_AvatarIcon_Jahoda_Card.webp",
-    "gamedataAssetPath": "UI_AvatarIcon_Jahoda_Card.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_AvatarIcon_Columbina_Card.webp",
-    "gamedataAssetPath": "UI_AvatarIcon_Columbina_Card.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_AvatarIcon_Zibai_Card.webp",
-    "gamedataAssetPath": "UI_AvatarIcon_Zibai_Card.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_AvatarIcon_Illuga_Card.webp",
-    "gamedataAssetPath": "UI_AvatarIcon_Illuga_Card.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_AvatarIcon_Varka_Card.webp",
-    "gamedataAssetPath": "UI_AvatarIcon_Varka_Card.webp"
   },
   {
     "path": "GameData/gi/assets/items/UI_ItemIcon_100004.webp",
@@ -632,14 +648,6 @@
     "gamedataAssetPath": "UI_ItemIcon_103008.webp"
   },
   {
-    "path": "GameData/gi/assets/items/UI_ItemIcon_104300.webp",
-    "gamedataAssetPath": "UI_ItemIcon_104300.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_ItemIcon_TrainingIteration.webp",
-    "gamedataAssetPath": "UI_ItemIcon_TrainingIteration.webp"
-  },
-  {
     "path": "GameData/gi/assets/items/UI_ItemIcon_106000.webp",
     "gamedataAssetPath": "UI_ItemIcon_106000.webp"
   },
@@ -690,10 +698,6 @@
   {
     "path": "GameData/gi/assets/items/UI_ItemIcon_115027.webp",
     "gamedataAssetPath": "UI_ItemIcon_115027.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_ItemIcon_115046.webp",
-    "gamedataAssetPath": "UI_ItemIcon_115046.webp"
   },
   {
     "path": "GameData/gi/assets/items/UI_ItemIcon_116003.webp",
@@ -764,10 +768,6 @@
     "gamedataAssetPath": "UI_ItemIcon_121020.webp"
   },
   {
-    "path": "GameData/gi/assets/items/UI_ItemIcon_121196.webp",
-    "gamedataAssetPath": "UI_ItemIcon_121196.webp"
-  },
-  {
     "path": "GameData/gi/assets/items/UI_ItemIcon_121212.webp",
     "gamedataAssetPath": "UI_ItemIcon_121212.webp"
   },
@@ -824,140 +824,12 @@
     "gamedataAssetPath": "UI_ItemIcon_121225.webp"
   },
   {
-    "path": "GameData/gi/assets/items/UI_ItemIcon_121228.webp",
-    "gamedataAssetPath": "UI_ItemIcon_121228.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_ItemIcon_121234.webp",
-    "gamedataAssetPath": "UI_ItemIcon_121234.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_ItemIcon_121241.webp",
-    "gamedataAssetPath": "UI_ItemIcon_121241.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_ItemIcon_121243.webp",
-    "gamedataAssetPath": "UI_ItemIcon_121243.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_ItemIcon_121255.webp",
-    "gamedataAssetPath": "UI_ItemIcon_121255.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_ItemIcon_121256.webp",
-    "gamedataAssetPath": "UI_ItemIcon_121256.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_ItemIcon_121264.webp",
-    "gamedataAssetPath": "UI_ItemIcon_121264.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_ItemIcon_121263.webp",
-    "gamedataAssetPath": "UI_ItemIcon_121263.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_ItemIcon_121260.webp",
-    "gamedataAssetPath": "UI_ItemIcon_121260.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_ItemIcon_121261.webp",
-    "gamedataAssetPath": "UI_ItemIcon_121261.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_ItemIcon_121262.webp",
-    "gamedataAssetPath": "UI_ItemIcon_121262.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_ItemIcon_121265.webp",
-    "gamedataAssetPath": "UI_ItemIcon_121265.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_ItemIcon_121266.webp",
-    "gamedataAssetPath": "UI_ItemIcon_121266.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_ItemIcon_121267.webp",
-    "gamedataAssetPath": "UI_ItemIcon_121267.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_ItemIcon_121268.webp",
-    "gamedataAssetPath": "UI_ItemIcon_121268.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_ItemIcon_121270.webp",
-    "gamedataAssetPath": "UI_ItemIcon_121270.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_ItemIcon_121271.webp",
-    "gamedataAssetPath": "UI_ItemIcon_121271.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_ItemIcon_121279.webp",
-    "gamedataAssetPath": "UI_ItemIcon_121279.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_ItemIcon_121287.webp",
-    "gamedataAssetPath": "UI_ItemIcon_121287.webp"
-  },
-  {
     "path": "GameData/gi/assets/items/UI_ItemIcon_121290.webp",
     "gamedataAssetPath": "UI_ItemIcon_121290.webp"
   },
   {
-    "path": "GameData/gi/assets/items/UI_ItemIcon_121301.webp",
-    "gamedataAssetPath": "UI_ItemIcon_121301.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_ItemIcon_121311.webp",
-    "gamedataAssetPath": "UI_ItemIcon_121311.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_ItemIcon_121330.webp",
-    "gamedataAssetPath": "UI_ItemIcon_121330.webp"
-  },
-  {
     "path": "GameData/gi/assets/items/UI_ItemIcon_121358.webp",
     "gamedataAssetPath": "UI_ItemIcon_121358.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_ItemIcon_121360.webp",
-    "gamedataAssetPath": "UI_ItemIcon_121360.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_ItemIcon_121367.webp",
-    "gamedataAssetPath": "UI_ItemIcon_121367.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_ItemIcon_121375.webp",
-    "gamedataAssetPath": "UI_ItemIcon_121375.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_ItemIcon_121376.webp",
-    "gamedataAssetPath": "UI_ItemIcon_121376.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_ItemIcon_121377.webp",
-    "gamedataAssetPath": "UI_ItemIcon_121377.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_ItemIcon_121493.webp",
-    "gamedataAssetPath": "UI_ItemIcon_121493.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_ItemIcon_121505.webp",
-    "gamedataAssetPath": "UI_ItemIcon_121505.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_ItemIcon_121512.webp",
-    "gamedataAssetPath": "UI_ItemIcon_121512.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_ItemIcon_121513.webp",
-    "gamedataAssetPath": "UI_ItemIcon_121513.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_ItemIcon_121514.webp",
-    "gamedataAssetPath": "UI_ItemIcon_121514.webp"
   },
   {
     "path": "GameData/gi/assets/items/UI_ItemIcon_121515.webp",
@@ -970,10 +842,6 @@
   {
     "path": "GameData/gi/assets/items/UI_ItemIcon_121517.webp",
     "gamedataAssetPath": "UI_ItemIcon_121517.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_ItemIcon_121520.webp",
-    "gamedataAssetPath": "UI_ItemIcon_121520.webp"
   },
   {
     "path": "GameData/gi/assets/items/UI_ItemIcon_121540.webp",
@@ -992,628 +860,72 @@
     "gamedataAssetPath": "UI_ItemIcon_121564.webp"
   },
   {
-    "path": "GameData/gi/assets/items/Ul_Itemlcon_121565.webp",
-    "gamedataAssetPath": "Ul_Itemlcon_121565.webp"
+    "path": "GameData/gi/assets/items/UI_ItemIcon_121612.webp",
+    "gamedataAssetPath": "UI_ItemIcon_121612.webp"
   },
   {
-    "path": "GameData/gi/assets/items/Ul_Itemlcon_121566.webp",
-    "gamedataAssetPath": "Ul_Itemlcon_121566.webp"
+    "path": "GameData/gi/assets/items/UI_ItemIcon_121613.webp",
+    "gamedataAssetPath": "UI_ItemIcon_121613.webp"
   },
   {
-    "path": "GameData/gi/assets/items/UI_ItemIcon_121574.webp",
-    "gamedataAssetPath": "UI_ItemIcon_121574.webp"
+    "path": "GameData/gi/assets/items/UI_ItemIcon_121614.webp",
+    "gamedataAssetPath": "UI_ItemIcon_121614.webp"
   },
   {
-    "path": "GameData/gi/assets/items/UI_ItemIcon_129003.webp",
-    "gamedataAssetPath": "UI_ItemIcon_129003.webp"
+    "path": "GameData/gi/assets/items/UI_ItemIcon_121637.webp",
+    "gamedataAssetPath": "UI_ItemIcon_121637.webp"
   },
   {
-    "path": "GameData/gi/assets/items/UI_FlycloakIcon_Glider.webp",
-    "gamedataAssetPath": "UI_FlycloakIcon_Glider.webp"
+    "path": "GameData/gi/assets/items/UI_ItemIcon_121638.webp",
+    "gamedataAssetPath": "UI_ItemIcon_121638.webp"
   },
   {
-    "path": "GameData/gi/assets/items/UI_FlycloakIcon_Starlit.webp",
-    "gamedataAssetPath": "UI_FlycloakIcon_Starlit.webp"
+    "path": "GameData/gi/assets/items/UI_ItemIcon_121643.webp",
+    "gamedataAssetPath": "UI_ItemIcon_121643.webp"
   },
   {
-    "path": "GameData/gi/assets/items/UI_FlycloakIcon_Psalmus.webp",
-    "gamedataAssetPath": "UI_FlycloakIcon_Psalmus.webp"
+    "path": "GameData/gi/assets/items/UI_ItemIcon_121630.webp",
+    "gamedataAssetPath": "UI_ItemIcon_121630.webp"
   },
   {
-    "path": "GameData/gi/assets/items/UI_FlycloakIcon_Gale.webp",
-    "gamedataAssetPath": "UI_FlycloakIcon_Gale.webp"
+    "path": "GameData/gi/assets/items/UI_ItemIcon_121652.webp",
+    "gamedataAssetPath": "UI_ItemIcon_121652.webp"
   },
   {
-    "path": "GameData/gi/assets/items/UI_FlycloakIcon_Megalith.webp",
-    "gamedataAssetPath": "UI_FlycloakIcon_Megalith.webp"
+    "path": "GameData/gi/assets/items/UI_ItemIcon_121653.webp",
+    "gamedataAssetPath": "UI_ItemIcon_121653.webp"
   },
   {
-    "path": "GameData/gi/assets/items/UI_FlycloakIcon_Nixavis.webp",
-    "gamedataAssetPath": "UI_FlycloakIcon_Nixavis.webp"
+    "path": "GameData/gi/assets/items/UI_ItemIcon_121654.webp",
+    "gamedataAssetPath": "UI_ItemIcon_121654.webp"
   },
   {
-    "path": "GameData/gi/assets/items/UI_FlycloakIcon_Redcomet.webp",
-    "gamedataAssetPath": "UI_FlycloakIcon_Redcomet.webp"
+    "path": "GameData/gi/assets/items/UI_ItemIcon_121655.webp",
+    "gamedataAssetPath": "UI_ItemIcon_121655.webp"
   },
   {
-    "path": "GameData/gi/assets/items/UI_FlycloakIcon_Thunderclap.webp",
-    "gamedataAssetPath": "UI_FlycloakIcon_Thunderclap.webp"
+    "path": "GameData/gi/assets/items/UI_ItemIcon_121656.webp",
+    "gamedataAssetPath": "UI_ItemIcon_121656.webp"
   },
   {
-    "path": "GameData/gi/assets/items/UI_FlycloakIcon_Skald.webp",
-    "gamedataAssetPath": "UI_FlycloakIcon_Skald.webp"
+    "path": "GameData/gi/assets/items/UI_ItemIcon_121663.webp",
+    "gamedataAssetPath": "UI_ItemIcon_121663.webp"
   },
   {
-    "path": "GameData/gi/assets/items/UI_FlycloakIcon_Ayus.webp",
-    "gamedataAssetPath": "UI_FlycloakIcon_Ayus.webp"
+    "path": "GameData/gi/assets/items/UI_ItemIcon_121675.webp",
+    "gamedataAssetPath": "UI_ItemIcon_121675.webp"
   },
   {
-    "path": "GameData/gi/assets/items/UI_FlycloakIcon_Asterceno.webp",
-    "gamedataAssetPath": "UI_FlycloakIcon_Asterceno.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_FlycloakIcon_Iustitia.webp",
-    "gamedataAssetPath": "UI_FlycloakIcon_Iustitia.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_FlycloakIcon_Sternlied.webp",
-    "gamedataAssetPath": "UI_FlycloakIcon_Sternlied.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_FlycloakIcon_GrandEntrance.webp",
-    "gamedataAssetPath": "UI_FlycloakIcon_GrandEntrance.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_FlycloakIcon_Firebrand.webp",
-    "gamedataAssetPath": "UI_FlycloakIcon_Firebrand.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_FlycloakIcon_EmeraldFlash.webp",
-    "gamedataAssetPath": "UI_FlycloakIcon_EmeraldFlash.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_FlycloakIcon_Nodkrai.webp",
-    "gamedataAssetPath": "UI_FlycloakIcon_Nodkrai.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_FlycloakIcon_Bakery.webp",
-    "gamedataAssetPath": "UI_FlycloakIcon_Bakery.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Bp2.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Bp2.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Bp3.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Bp3.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Bp4.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Bp4.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Bp5.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Bp5.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Bp6.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Bp6.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Bp7.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Bp7.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Bp8.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Bp8.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Bp9.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Bp9.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Bp16.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Bp16.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Furina.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Furina.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Charlotte.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Charlotte.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_FD3.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_FD3.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Bp28.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Bp28.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Navia.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Navia.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Chevreuse.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Chevreuse.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Bp29.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Bp29.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Liuyun.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Liuyun.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Gaming.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Gaming.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Chenyu1.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Chenyu1.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_OfferingSilong.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_OfferingSilong.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Bp30.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Bp30.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_OST4.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_OST4.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Chiori.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Chiori.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Bp31.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Bp31.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Arlecchino.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Arlecchino.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Deep.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Deep.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Tzz9.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Tzz9.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_WishingPond.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_WishingPond.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_GreatFestivalV2.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_GreatFestivalV2.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Clorinde.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Clorinde.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Sigewinne.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Sigewinne.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Sethos.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Sethos.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_RoleCombat.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_RoleCombat.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Bp33.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Bp33.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Emilie.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Emilie.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Bp34.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Bp34.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_RedandWhite2.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_RedandWhite2.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Kinich.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Kinich.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Mualani.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Mualani.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Kachina.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Kachina.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_NatlanSW1.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_NatlanSW1.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_NatlanSW2.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_NatlanSW2.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Ysxf5.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Ysxf5.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_RoleCombat2.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_RoleCombat2.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Natlan1.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Natlan1.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Dfcq1.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Dfcq1.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Bp35.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Bp35.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Yellow.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Yellow.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Xilonen.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Xilonen.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Bp36.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Bp36.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Chasca.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Chasca.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Natlan2.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Natlan2.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Dfcq2.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Dfcq2.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Bp37.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Bp37.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Mavuika.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Mavuika.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Citlali.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Citlali.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Lanyan.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Lanyan.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Csxy5.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Csxy5.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Tzz10.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Tzz10.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_MusicGame01.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_MusicGame01.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Bp38.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Bp38.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Mizuki.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Mizuki.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_TowerChallenge.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_TowerChallenge.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Bp39.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Bp39.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Natlan3.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Natlan3.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Dfcq3.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Dfcq3.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Bp40.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Bp40.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Bp41.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Bp41.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_SkirkNew.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_SkirkNew.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Dahlia.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Dahlia.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_RedandWhite3.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_RedandWhite3.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Bp42.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Bp42.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Ineffa.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Ineffa.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_NatlanOffering.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_NatlanOffering.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Natlan4.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Natlan4.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Bp43.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Bp43.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Event58.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Event58.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Lauma.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Lauma.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Flins.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Flins.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Aino.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Aino.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_NodKraiOffering1.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_NodKraiOffering1.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_NodKrai1.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_NodKrai1.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Ysxf6.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Ysxf6.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Bp44.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Bp44.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_YellowV2.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_YellowV2.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Nefer.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Nefer.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Bp45.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Bp45.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Durin.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Durin.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Jahoda.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Jahoda.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Bp46.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Bp46.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Green.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Green.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Columbina.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Columbina.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Zibai.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Zibai.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Illuga.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Illuga.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Csxy6.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Csxy6.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_NodKrai2.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_NodKrai2.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Bp47.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Bp47.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Varka.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Varka.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Bp48.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Bp48.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Kzsd.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Kzsd.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_KzsdOffering.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_KzsdOffering.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Bp49.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Bp49.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Nicole.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Nicole.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Lohen.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Lohen.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Prune.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Prune.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_NameCardIcon_Bp50.webp",
-    "gamedataAssetPath": "UI_NameCardIcon_Bp50.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_AvatarFrameIcon_001.webp",
-    "gamedataAssetPath": "UI_AvatarFrameIcon_001.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_AvatarFrameIcon_002.webp",
-    "gamedataAssetPath": "UI_AvatarFrameIcon_002.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_AvatarFrameIcon_003.webp",
-    "gamedataAssetPath": "UI_AvatarFrameIcon_003.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_AvatarFrameIcon_004.webp",
-    "gamedataAssetPath": "UI_AvatarFrameIcon_004.webp"
+    "path": "GameData/gi/assets/items/UI_ItemIcon_121680.webp",
+    "gamedataAssetPath": "UI_ItemIcon_121680.webp"
   },
   {
     "path": "GameData/gi/assets/items/UI_ItemIcon_220092.webp",
     "gamedataAssetPath": "UI_ItemIcon_220092.webp"
   },
   {
-    "path": "GameData/gi/assets/items/UI_ItemIcon_222005.webp",
-    "gamedataAssetPath": "UI_ItemIcon_222005.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Lyney.webp",
-    "gamedataAssetPath": "UI_Icon_MusicGame_MusicShop_Motif_Lyney.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Nahida.webp",
-    "gamedataAssetPath": "UI_Icon_MusicGame_MusicShop_Motif_Nahida.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Zhongli.webp",
-    "gamedataAssetPath": "UI_Icon_MusicGame_MusicShop_Motif_Zhongli.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Hutao.webp",
-    "gamedataAssetPath": "UI_Icon_MusicGame_MusicShop_Motif_Hutao.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Neuvillette.webp",
-    "gamedataAssetPath": "UI_Icon_MusicGame_MusicShop_Motif_Neuvillette.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Furina.webp",
-    "gamedataAssetPath": "UI_Icon_MusicGame_MusicShop_Motif_Furina.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Wriothesley.webp",
-    "gamedataAssetPath": "UI_Icon_MusicGame_MusicShop_Motif_Wriothesley.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Mengde.webp",
-    "gamedataAssetPath": "UI_Icon_MusicGame_MusicShop_Motif_Mengde.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Liyue.webp",
-    "gamedataAssetPath": "UI_Icon_MusicGame_MusicShop_Motif_Liyue.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Daoqi.webp",
-    "gamedataAssetPath": "UI_Icon_MusicGame_MusicShop_Motif_Daoqi.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_XuMi.webp",
-    "gamedataAssetPath": "UI_Icon_MusicGame_MusicShop_Motif_XuMi.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_FengDan.webp",
-    "gamedataAssetPath": "UI_Icon_MusicGame_MusicShop_Motif_FengDan.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Natlan.webp",
-    "gamedataAssetPath": "UI_Icon_MusicGame_MusicShop_Motif_Natlan.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Venti.webp",
-    "gamedataAssetPath": "UI_Icon_MusicGame_MusicShop_Motif_Venti.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Mavuika.webp",
-    "gamedataAssetPath": "UI_Icon_MusicGame_MusicShop_Motif_Mavuika.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Shougun.webp",
-    "gamedataAssetPath": "UI_Icon_MusicGame_MusicShop_Motif_Shougun.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Diluc.webp",
-    "gamedataAssetPath": "UI_Icon_MusicGame_MusicShop_Motif_Diluc.webp"
-  },
-  {
     "path": "GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Ayaka.webp",
     "gamedataAssetPath": "UI_Icon_MusicGame_MusicShop_Motif_Ayaka.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Xilonen.webp",
-    "gamedataAssetPath": "UI_Icon_MusicGame_MusicShop_Motif_Xilonen.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Nodkrai.webp",
-    "gamedataAssetPath": "UI_Icon_MusicGame_MusicShop_Motif_Nodkrai.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Lauma.webp",
-    "gamedataAssetPath": "UI_Icon_MusicGame_MusicShop_Motif_Lauma.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Citlali.webp",
-    "gamedataAssetPath": "UI_Icon_MusicGame_MusicShop_Motif_Citlali.webp"
   },
   {
     "path": "GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Durin.webp",
@@ -1622,14 +934,6 @@
   {
     "path": "GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Varka.webp",
     "gamedataAssetPath": "UI_Icon_MusicGame_MusicShop_Motif_Varka.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Columbina.webp",
-    "gamedataAssetPath": "UI_Icon_MusicGame_MusicShop_Motif_Columbina.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_ItemIcon_320002.webp",
-    "gamedataAssetPath": "UI_ItemIcon_320002.webp"
   },
   {
     "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Char_Avatar_Ganyu_Platinum.webp",
@@ -2200,6 +1504,18 @@
     "gamedataAssetPath": "UI_Gcg_CardFace_Char_Monster_DarkwraithWind_Platinum.webp"
   },
   {
+    "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Char_Avatar_Durin_Platinum.webp",
+    "gamedataAssetPath": "UI_Gcg_CardFace_Char_Avatar_Durin_Platinum.webp"
+  },
+  {
+    "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Char_Avatar_Jahoda_Platinum.webp",
+    "gamedataAssetPath": "UI_Gcg_CardFace_Char_Avatar_Jahoda_Platinum.webp"
+  },
+  {
+    "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Char_Monster_EffigyWater_Platinum.webp",
+    "gamedataAssetPath": "UI_Gcg_CardFace_Char_Monster_EffigyWater_Platinum.webp"
+  },
+  {
     "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_Ganyu_Platinum.webp",
     "gamedataAssetPath": "UI_Gcg_CardFace_Modify_Talent_Ganyu_Platinum.webp"
   },
@@ -2766,6 +2082,34 @@
   {
     "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_DarkwraithWind_Platinum.webp",
     "gamedataAssetPath": "UI_Gcg_CardFace_Modify_Talent_DarkwraithWind_Platinum.webp"
+  },
+  {
+    "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_Durin_Platinum.webp",
+    "gamedataAssetPath": "UI_Gcg_CardFace_Modify_Talent_Durin_Platinum.webp"
+  },
+  {
+    "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_Jahoda_Platinum.webp",
+    "gamedataAssetPath": "UI_Gcg_CardFace_Modify_Talent_Jahoda_Platinum.webp"
+  },
+  {
+    "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_EffigyWater_Platinum.webp",
+    "gamedataAssetPath": "UI_Gcg_CardFace_Modify_Talent_EffigyWater_Platinum.webp"
+  },
+  {
+    "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_Modao_Mona_Platinum.webp",
+    "gamedataAssetPath": "UI_Gcg_CardFace_Modify_Talent_Modao_Mona_Platinum.webp"
+  },
+  {
+    "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_Modao_Klee_Platinum.webp",
+    "gamedataAssetPath": "UI_Gcg_CardFace_Modify_Talent_Modao_Klee_Platinum.webp"
+  },
+  {
+    "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_Modao_Fischl_Platinum.webp",
+    "gamedataAssetPath": "UI_Gcg_CardFace_Modify_Talent_Modao_Fischl_Platinum.webp"
+  },
+  {
+    "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_Modao_Venti_Platinum.webp",
+    "gamedataAssetPath": "UI_Gcg_CardFace_Modify_Talent_Modao_Venti_Platinum.webp"
   },
   {
     "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Modify_Weapon_CatalystIntro_Platinum.webp",
@@ -4060,6 +3404,14 @@
     "gamedataAssetPath": "UI_Gcg_CardFace_Event_Food_BaiLing_Platinum.webp"
   },
   {
+    "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Event_Event_Modao_Platinum.webp",
+    "gamedataAssetPath": "UI_Gcg_CardFace_Event_Event_Modao_Platinum.webp"
+  },
+  {
+    "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Event_Event_XumiFriend_Platinum.webp",
+    "gamedataAssetPath": "UI_Gcg_CardFace_Event_Event_XumiFriend_Platinum.webp"
+  },
+  {
     "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Char_Avatar_Ganyu_Golden.webp",
     "gamedataAssetPath": "UI_Gcg_CardFace_Char_Avatar_Ganyu_Golden.webp"
   },
@@ -4628,6 +3980,18 @@
     "gamedataAssetPath": "UI_Gcg_CardFace_Char_Monster_DarkwraithWind_Golden.webp"
   },
   {
+    "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Char_Avatar_Durin_Golden.webp",
+    "gamedataAssetPath": "UI_Gcg_CardFace_Char_Avatar_Durin_Golden.webp"
+  },
+  {
+    "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Char_Avatar_Jahoda_Golden.webp",
+    "gamedataAssetPath": "UI_Gcg_CardFace_Char_Avatar_Jahoda_Golden.webp"
+  },
+  {
+    "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Char_Monster_EffigyWater_Golden.webp",
+    "gamedataAssetPath": "UI_Gcg_CardFace_Char_Monster_EffigyWater_Golden.webp"
+  },
+  {
     "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_Ganyu_Golden.webp",
     "gamedataAssetPath": "UI_Gcg_CardFace_Modify_Talent_Ganyu_Golden.webp"
   },
@@ -5194,6 +4558,34 @@
   {
     "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_DarkwraithWind_Golden.webp",
     "gamedataAssetPath": "UI_Gcg_CardFace_Modify_Talent_DarkwraithWind_Golden.webp"
+  },
+  {
+    "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_Durin_Golden.webp",
+    "gamedataAssetPath": "UI_Gcg_CardFace_Modify_Talent_Durin_Golden.webp"
+  },
+  {
+    "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_Jahoda_Golden.webp",
+    "gamedataAssetPath": "UI_Gcg_CardFace_Modify_Talent_Jahoda_Golden.webp"
+  },
+  {
+    "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_EffigyWater_Golden.webp",
+    "gamedataAssetPath": "UI_Gcg_CardFace_Modify_Talent_EffigyWater_Golden.webp"
+  },
+  {
+    "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_Modao_Mona_Golden.webp",
+    "gamedataAssetPath": "UI_Gcg_CardFace_Modify_Talent_Modao_Mona_Golden.webp"
+  },
+  {
+    "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_Modao_Klee_Golden.webp",
+    "gamedataAssetPath": "UI_Gcg_CardFace_Modify_Talent_Modao_Klee_Golden.webp"
+  },
+  {
+    "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_Modao_Fischl_Golden.webp",
+    "gamedataAssetPath": "UI_Gcg_CardFace_Modify_Talent_Modao_Fischl_Golden.webp"
+  },
+  {
+    "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_Modao_Venti_Golden.webp",
+    "gamedataAssetPath": "UI_Gcg_CardFace_Modify_Talent_Modao_Venti_Golden.webp"
   },
   {
     "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Modify_Weapon_CatalystIntro_Golden.webp",
@@ -6488,8 +5880,12 @@
     "gamedataAssetPath": "UI_Gcg_CardFace_Event_Food_BaiLing_Golden.webp"
   },
   {
-    "path": "GameData/gi/assets/items/UI_Gcg_CardBack_01.webp",
-    "gamedataAssetPath": "UI_Gcg_CardBack_01.webp"
+    "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Event_Event_Modao_Golden.webp",
+    "gamedataAssetPath": "UI_Gcg_CardFace_Event_Event_Modao_Golden.webp"
+  },
+  {
+    "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Event_Event_XumiFriend_Golden.webp",
+    "gamedataAssetPath": "UI_Gcg_CardFace_Event_Event_XumiFriend_Golden.webp"
   },
   {
     "path": "GameData/gi/assets/items/UI_Gcg_CardBack_Mengde.webp",
@@ -6690,13 +6086,5 @@
   {
     "path": "GameData/gi/assets/items/UI_GcgIcon_CardLevel5.webp",
     "gamedataAssetPath": "UI_GcgIcon_CardLevel5.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_AvatarIcon_DurinCostumeWic_Card.webp",
-    "gamedataAssetPath": "UI_AvatarIcon_DurinCostumeWic_Card.webp"
-  },
-  {
-    "path": "GameData/gi/assets/items/UI_EquipIcon_Claymore_LoliFriend.webp",
-    "gamedataAssetPath": "UI_EquipIcon_Claymore_LoliFriend.webp"
   }
 ]

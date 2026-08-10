@@ -4222,13 +4222,13 @@
       },
       "gauge": 1,
       "poise": {
-        "level": "LV4",
-        "value": 150
+        "level": "LV7",
+        "value": 200
       },
       "element": "None",
       "attack_type": "Melee",
       "strike_type": "Blunt",
-      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
     },
     {
       "name": "FallingAnthem",
@@ -4238,13 +4238,13 @@
       },
       "gauge": 1,
       "poise": {
-        "level": "LV7",
-        "value": 200
+        "level": "LV4",
+        "value": 150
       },
       "element": "None",
       "attack_type": "Melee",
       "strike_type": "Blunt",
-      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
     },
     {
       "name": "FallingAnthem",

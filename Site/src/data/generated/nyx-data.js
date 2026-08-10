@@ -4,7 +4,7 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-08-10T10:25:10.281Z",
+  "generatedAt": "2026-08-10T23:59:12.406Z",
   "codes": {
     "updated": "2026-08-10T00:02:24.181Z",
     "maxAgeDays": 28,
@@ -699,10 +699,10 @@ var NYX_DB = {
             "characters": [
               {
                 "name": "Odette",
-                "icon": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Odette_Circle.webp",
+                "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Odette_Circle.webp",
                 "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Odette.webp",
                 "iconZoom": true,
-                "art": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Odette_Circle.webp",
+                "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Odette.webp",
                 "namecard": null,
                 "rarity": 5,
                 "debut": true,
@@ -1127,13 +1127,13 @@ var NYX_DB = {
     "gi": {
       "name": "Genshin Impact",
       "icon": "../assets/icon/giicon.png",
-      "rosterCount": 116,
+      "rosterCount": 118,
       "collections": [
         {
           "key": "artifacts",
           "title": "Artifacts",
           "source": "GameData",
-          "count": 63,
+          "count": 65,
           "items": [
             {
               "id": "gi-art-10001",
@@ -1342,7 +1342,7 @@ var NYX_DB = {
                 "rarity": "5 \u2605",
                 "type": "artifact set"
               },
-              "text": "(2) Anemo DMG Bonus +15%\n\n(4) Increases Swirl DMG by 60%. Decreases opponent's Elemental RES to the element infused in the Swirl by 40% for 10s."
+              "text": "(2) Anemo DMG Bonus +15%\n\n(4) Increases Swirl reaction DMG dealt by 60%, and Stellar Swirl reaction DMG dealt by 20%. Decreases opponent's Elemental RES to the element infused in the Swirl by 40% for 10s. Upon triggering a Stellar Swirl in the opponent, will also decrease their Cryo RES by 40%. RES debuffs of the same elemental type do not stack."
             },
             {
               "id": "gi-art-15003",
@@ -1831,6 +1831,28 @@ var NYX_DB = {
                 "type": "artifact set"
               },
               "text": "(2) ATK +18%.\n\n(4) Increases Superconduct Reaction DMG by 80% and Stellar-Conduct Reaction DMG by 40%. When the wielder attacks opponents affected by Superconduct or Stellar-Conduct, this attack's CRIT Rate is increased by 16%."
+            },
+            {
+              "id": "gi-art-15047",
+              "name": "Scarlet Proof",
+              "kind": "artifact",
+              "art": "../../Database/GameData/gi/assets/artifacts/sets/UI_RelicIcon_15047_4.webp",
+              "fields": {
+                "rarity": "5 \u2605",
+                "type": "artifact set"
+              },
+              "text": "(2) ATK +18%.\n\n(4) Increases the equipping character's CRIT Rate by 16%, and their Stellar Swirl reaction dealt by 40%, for 10s after they trigger a Stellar Swirl reaction."
+            },
+            {
+              "id": "gi-art-15048",
+              "name": "Heart of the Furnace",
+              "kind": "artifact",
+              "art": "../../Database/GameData/gi/assets/artifacts/sets/UI_RelicIcon_15048_4.webp",
+              "fields": {
+                "rarity": "5 \u2605",
+                "type": "artifact set"
+              },
+              "text": "(2) ATK +18%.\n\n(4) Increases the equipping character's ATK by 12% for 12s when they trigger a Stellar Glimmer reaction or deal Stellar Glimmer reaction DMG. Also increases Stellar Glimmer reaction DMG dealt by all nearby party members by 50%. The above effects can trigger even when the equipping character is not on the field, and he DMG bonus from multiple Artifact Sets with the same name do not stack."
             }
           ]
         },
@@ -1838,7 +1860,7 @@ var NYX_DB = {
           "key": "weapons",
           "title": "Weapons",
           "source": "GameData",
-          "count": 247,
+          "count": 278,
           "items": [
             {
               "id": "gi-wpn-11101",
@@ -2282,6 +2304,30 @@ var NYX_DB = {
               "released": "2025-10-22"
             },
             {
+              "id": "gi-wpn-11435",
+              "name": "Heretic's Molten Blade",
+              "kind": "weapon",
+              "art": "../../Database/GameData/gi/assets/weapons/icons/UI_EquipIcon_Sword_SerpentTooth.webp",
+              "fields": {
+                "rarity": "4 \u2605",
+                "type": "Sword",
+                "atk": 510
+              },
+              "text": "He drew this weapon once more when he first met that God of Flame, revered by all, but it had been too long since he had last used it."
+            },
+            {
+              "id": "gi-wpn-11436",
+              "name": "Emberwell",
+              "kind": "weapon",
+              "art": "../../Database/GameData/gi/assets/weapons/icons/UI_EquipIcon_Sword_GlintstoneSword.webp",
+              "fields": {
+                "rarity": "4 \u2605",
+                "type": "Sword",
+                "atk": 510
+              },
+              "text": "A longsword that is entirely gemstone, said to be crafted for the path of righteousness. When unsheathed, it glows with the luster of blue flame."
+            },
+            {
               "id": "gi-wpn-11501",
               "name": "Aquila Favonia",
               "kind": "weapon",
@@ -2488,6 +2534,30 @@ var NYX_DB = {
               },
               "text": "A legendary sword, said to be forged from the glimmering moonlight gathered in a well by an adeptus hidden among clear springs. Its true form is revealed only at the meeting of dusk and dawn.",
               "released": "2026-02-03"
+            },
+            {
+              "id": "gi-wpn-11520",
+              "name": "Whitelake Frostfeather",
+              "kind": "weapon",
+              "art": "../../Database/GameData/gi/assets/weapons/icons/UI_EquipIcon_Sword_Swanlake.webp",
+              "fields": {
+                "rarity": "5 \u2605",
+                "type": "Sword",
+                "atk": 674
+              },
+              "text": "A longsword light as the feathers of a snow swan, and which stays pure and untainted at all times."
+            },
+            {
+              "id": "gi-wpn-11521",
+              "name": "Exaiphanes Blade",
+              "kind": "weapon",
+              "art": "../../Database/GameData/gi/assets/weapons/icons/UI_EquipIcon_Sword_WeaponQuestSnezhnaya.webp",
+              "fields": {
+                "rarity": "5 \u2605",
+                "type": "Sword",
+                "atk": 608
+              },
+              "text": "A longsword that once shone with the light of the very stars. In the voyager's hand, it becomes a brand-new light that has nothing to do with any past era."
             },
             {
               "id": "gi-wpn-12101",
@@ -2881,6 +2951,30 @@ var NYX_DB = {
                 "atk": 454
               },
               "text": "A heavy greatsword with a razor-sharp blade. Power is a key that can open almost any lock."
+            },
+            {
+              "id": "gi-wpn-12435",
+              "name": "Forged by the Golden Melody",
+              "kind": "weapon",
+              "art": "../../Database/GameData/gi/assets/weapons/icons/UI_EquipIcon_Claymore_EscapeWheel.webp",
+              "fields": {
+                "rarity": "4 \u2605",
+                "type": "Claymore",
+                "atk": 510
+              },
+              "text": "A greatsword decorated in gold. Legend has it that it was the favored weapon of a certain exalted Harmost back in the distant past."
+            },
+            {
+              "id": "gi-wpn-12436",
+              "name": "Blade of Atonement",
+              "kind": "weapon",
+              "art": "../../Database/GameData/gi/assets/weapons/icons/UI_EquipIcon_Claymore_GlintstoneClaymore.webp",
+              "fields": {
+                "rarity": "4 \u2605",
+                "type": "Claymore",
+                "atk": 565
+              },
+              "text": "A greatsword passed down by the Luchkin. It is said that only the bravest warrior is qualified to wield it."
             },
             {
               "id": "gi-wpn-12501",
@@ -3367,6 +3461,30 @@ var NYX_DB = {
               },
               "text": "A silver-white polearm, pure and completely without blemish. Legend has it that it was used by the Archpriestesses of Hyperborea in ages past to guide their flock of Frostmoon Scions.",
               "released": "2025-10-22"
+            },
+            {
+              "id": "gi-wpn-13435",
+              "name": "Frostbreath",
+              "kind": "weapon",
+              "art": "../../Database/GameData/gi/assets/weapons/icons/UI_EquipIcon_Pole_FaesCrystalle.webp",
+              "fields": {
+                "rarity": "4 \u2605",
+                "type": "Polearm",
+                "atk": 510
+              },
+              "text": "A spear of solid ice imbued with an icy chill. It is said that it once belonged to the Belyi Tsar who ruled Snezhnaya in the distant past."
+            },
+            {
+              "id": "gi-wpn-13436",
+              "name": "Song of the Vigil",
+              "kind": "weapon",
+              "art": "../../Database/GameData/gi/assets/weapons/icons/UI_EquipIcon_Pole_GlintstonePolearm.webp",
+              "fields": {
+                "rarity": "4 \u2605",
+                "type": "Polearm",
+                "atk": 565
+              },
+              "text": "A long spear that once stood guard over all. Today, it has found a new purpose with children and their games of make-believe."
             },
             {
               "id": "gi-wpn-13501",
@@ -3928,6 +4046,30 @@ var NYX_DB = {
               },
               "text": "A silver-forged ritual vessel, pure and completely without blemish. It is said to be a sacred relic passed down for generations among the priestesses of the far north.",
               "released": "2025-10-22"
+            },
+            {
+              "id": "gi-wpn-14435",
+              "name": "Clash of Kings",
+              "kind": "weapon",
+              "art": "../../Database/GameData/gi/assets/weapons/icons/UI_EquipIcon_Catalyst_SandMemoria.webp",
+              "fields": {
+                "rarity": "4 \u2605",
+                "type": "Catalyst",
+                "atk": 510
+              },
+              "text": "A golden box lavishly inlaid with precious jewels. It houses a game much beloved by the kings of the sands."
+            },
+            {
+              "id": "gi-wpn-14436",
+              "name": "Echoes of the Heart",
+              "kind": "weapon",
+              "art": "../../Database/GameData/gi/assets/weapons/icons/UI_EquipIcon_Catalyst_GlintstoneCatalyst.webp",
+              "fields": {
+                "rarity": "4 \u2605",
+                "type": "Catalyst",
+                "atk": 565
+              },
+              "text": "A Catalyst said to crystallize voice. Within it lies a sealed oath of loyalty, as well as a heart long since forgotten by mankind."
             },
             {
               "id": "gi-wpn-14501",
@@ -4606,6 +4748,30 @@ var NYX_DB = {
               "text": "An ancient ceremonial weapon passed down by the Masters of the Night-Wind. This dark bow is forever wreathed in an unshakable chill."
             },
             {
+              "id": "gi-wpn-15435",
+              "name": "Jade Vista",
+              "kind": "weapon",
+              "art": "../../Database/GameData/gi/assets/weapons/icons/UI_EquipIcon_Bow_ShatteredMirror.webp",
+              "fields": {
+                "rarity": "4 \u2605",
+                "type": "Bow",
+                "atk": 510
+              },
+              "text": "A longbow of immense strength. It shines with the radiance of dreams even in the darkest of nights."
+            },
+            {
+              "id": "gi-wpn-15436",
+              "name": "Covenant of Frost and Snow",
+              "kind": "weapon",
+              "art": "../../Database/GameData/gi/assets/weapons/icons/UI_EquipIcon_Bow_GlintstoneBow.webp",
+              "fields": {
+                "rarity": "4 \u2605",
+                "type": "Bow",
+                "atk": 510
+              },
+              "text": "A longbow crafted to preserve order. Its cold radiance perfectly emanates the ideals of absolute fairness and justice."
+            },
+            {
               "id": "gi-wpn-15501",
               "name": "Skyward Harp",
               "kind": "weapon",
@@ -4762,6 +4928,96 @@ var NYX_DB = {
               "released": "2026-04-08"
             },
             {
+              "id": "gi-wpn-224001",
+              "name": "Shatanaya's Frostsilver",
+              "kind": "weapon",
+              "art": "../../Database/GameData/gi/assets/weapons/icons/UI_EquipIcon_AssaultRifle_Glacia.webp",
+              "fields": {
+                "rarity": "4 \u2605",
+                "type": "ITEM_TPS_WEAPON"
+              },
+              "text": "An assault rifle that can accumulate Frigid Glory using Normal Attacks to switch to Breakthrough mode and use Charged Attacks."
+            },
+            {
+              "id": "gi-wpn-224002",
+              "name": "Ashamez's Thunder",
+              "kind": "weapon",
+              "art": "../../Database/GameData/gi/assets/weapons/icons/UI_EquipIcon_AssaultRifle_Fulmen.webp",
+              "fields": {
+                "rarity": "4 \u2605",
+                "type": "ITEM_TPS_WEAPON"
+              },
+              "text": "An assault rifle that can switch Normal Attacks to Chain Lightning mode, allowing you to lock onto and track targets."
+            },
+            {
+              "id": "gi-wpn-224003",
+              "name": "Balsag's Sunwheel",
+              "kind": "weapon",
+              "art": "../../Database/GameData/gi/assets/weapons/icons/UI_EquipIcon_GrenadeLauncher_Ignis.webp",
+              "fields": {
+                "rarity": "4 \u2605",
+                "type": "ITEM_TPS_WEAPON"
+              },
+              "text": "A grenade launcher that can cycle between Pyro, Hydro, and Cryo as the current grenade Elemental Type."
+            },
+            {
+              "id": "gi-wpn-224004",
+              "name": "Frag Crystal - Pyro",
+              "kind": "weapon",
+              "art": "../../Database/GameData/gi/assets/weapons/icons/UI_EquipIcon_Grenade_Fire.webp",
+              "fields": {
+                "rarity": "4 \u2605",
+                "type": "ITEM_TPS_WEAPON"
+              },
+              "text": "Tactical throwable that can deal AoE Pyro DMG."
+            },
+            {
+              "id": "gi-wpn-224005",
+              "name": "Frag Crystal - Hydro",
+              "kind": "weapon",
+              "art": "../../Database/GameData/gi/assets/weapons/icons/UI_EquipIcon_Grenade_Water.webp",
+              "fields": {
+                "rarity": "4 \u2605",
+                "type": "ITEM_TPS_WEAPON"
+              },
+              "text": "Tactical throwable that can deal AoE Hydro DMG."
+            },
+            {
+              "id": "gi-wpn-224006",
+              "name": "Frag Crystal - Electro",
+              "kind": "weapon",
+              "art": "../../Database/GameData/gi/assets/weapons/icons/UI_EquipIcon_Grenade_Electric.webp",
+              "fields": {
+                "rarity": "4 \u2605",
+                "type": "ITEM_TPS_WEAPON"
+              },
+              "text": "Tactical throwable that can deal AoE Electro DMG."
+            },
+            {
+              "id": "gi-wpn-224007",
+              "name": "Frag Crystal - Cryo",
+              "kind": "weapon",
+              "art": "../../Database/GameData/gi/assets/weapons/icons/UI_EquipIcon_Grenade_Ice.webp",
+              "fields": {
+                "rarity": "4 \u2605",
+                "type": "ITEM_TPS_WEAPON"
+              },
+              "text": "Tactical throwable that can deal AoE Cryo DMG."
+            },
+            {
+              "id": "gi-wpn-224008",
+              "name": "Specialized Frag Crystals within the Shadow Realm",
+              "kind": "weapon",
+              "art": "../../Database/Shared/database-fallbacks/gi.svg",
+              "fields": {
+                "rarity": "4 \u2605",
+                "type": "ITEM_TPS_WEAPON"
+              },
+              "text": "Tactical throwable that can deal massive damage to Shadow Realm constructs",
+              "artStatus": "intentional-fallback",
+              "artSource": "neutral-database-placeholder"
+            },
+            {
               "id": "gi-wpn-310001",
               "name": "Serpent Devourer",
               "kind": "weapon",
@@ -4784,6 +5040,32 @@ var NYX_DB = {
                 "type": "Sword"
               },
               "text": "A glorious, illusory sword glimmering with the power of \"Life\" that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its wielder. Legend has it that this sword once held the name \"Logseims\" when it was wielded by a transcendent sinner in an ancient land.",
+              "artStatus": "intentional-fallback",
+              "artSource": "neutral-database-placeholder"
+            },
+            {
+              "id": "gi-wpn-310003",
+              "name": "Golden Bough of Nemorensis",
+              "kind": "weapon",
+              "art": "../../Database/Shared/database-fallbacks/gi.svg",
+              "fields": {
+                "rarity": "4 \u2605",
+                "type": "Sword"
+              },
+              "text": "A glorious, illusory weapon that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its wielder. It is said that, in an ancient age beyond all recollection, a divine envoy of the high heavens bestowed this longsword upon the high priest of Arcadia, granting them the right to lead the holy city blessed by the thousand winds.",
+              "artStatus": "intentional-fallback",
+              "artSource": "neutral-database-placeholder"
+            },
+            {
+              "id": "gi-wpn-310004",
+              "name": "Golden Bough of Nemorensis - Sublimation",
+              "kind": "weapon",
+              "art": "../../Database/Shared/database-fallbacks/gi.svg",
+              "fields": {
+                "rarity": "5 \u2605",
+                "type": "Sword"
+              },
+              "text": "A glorious, illusory weapon that emerged from the depths of the Ley Lines, shimmering with the light of \"Eternity.\" It can change its appearance based on the Elemental Type of its wielder. It is said that, in an ancient age beyond all recollection, a divine envoy of the high heavens bestowed the gilded longsword upon the high priest of Arcadia, granting them the right to lead the holy city before it was entombed by death.",
               "artStatus": "intentional-fallback",
               "artSource": "neutral-database-placeholder"
             },
@@ -4814,6 +5096,32 @@ var NYX_DB = {
               "artSource": "neutral-database-placeholder"
             },
             {
+              "id": "gi-wpn-320003",
+              "name": "Silver Radiance of Gradlon",
+              "kind": "weapon",
+              "art": "../../Database/Shared/database-fallbacks/gi.svg",
+              "fields": {
+                "rarity": "4 \u2605",
+                "type": "Claymore"
+              },
+              "text": "A glorious, illusory weapon that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its wielder. It is said that, in an ancient age beyond all recollection, a divine envoy of the high heavens bestowed this claymore upon the high priest of Ys, granting them the right to lead the harbor where waters and grasses flourished.",
+              "artStatus": "intentional-fallback",
+              "artSource": "neutral-database-placeholder"
+            },
+            {
+              "id": "gi-wpn-320004",
+              "name": "Silver Radiance of Gradlon - Sublimation",
+              "kind": "weapon",
+              "art": "../../Database/Shared/database-fallbacks/gi.svg",
+              "fields": {
+                "rarity": "5 \u2605",
+                "type": "Claymore"
+              },
+              "text": "A glorious, illusory weapon that emerged from the depths of the Ley Lines, shimmering with the light of \"Eternity.\" It can change its appearance based on the Elemental Type of its wielder. It is said that, in an ancient age beyond all recollection, a divine envoy of the high heavens bestowed the gilded longsword upon the high priest of Ys, granting them the right to lead the harbor before it sank beneath the sands.",
+              "artStatus": "intentional-fallback",
+              "artSource": "neutral-database-placeholder"
+            },
+            {
               "id": "gi-wpn-330001",
               "name": "Shattered Moon",
               "kind": "weapon",
@@ -4836,6 +5144,32 @@ var NYX_DB = {
                 "type": "Polearm"
               },
               "text": "A glorious, illusory polearm glimmering with the power of \"Death\" that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its wielder. Legend has it that this polearm once held the name \"Barnstokkr\" when it was wielded by a transcendent sinner in an ancient land.",
+              "artStatus": "intentional-fallback",
+              "artSource": "neutral-database-placeholder"
+            },
+            {
+              "id": "gi-wpn-330003",
+              "name": "Starlight of Fylkir",
+              "kind": "weapon",
+              "art": "../../Database/Shared/database-fallbacks/gi.svg",
+              "fields": {
+                "rarity": "4 \u2605",
+                "type": "Polearm"
+              },
+              "text": "A glorious, illusory weapon that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its wielder. It is said that, in an ancient age beyond all recollection, a divine envoy of the high heavens bestowed this spear upon the high priest of Sal Vindagnyr, granting them the right to lead the city-state wreathed in verdant shade.",
+              "artStatus": "intentional-fallback",
+              "artSource": "neutral-database-placeholder"
+            },
+            {
+              "id": "gi-wpn-330004",
+              "name": "Starlight of Fylkir - Sublimation",
+              "kind": "weapon",
+              "art": "../../Database/Shared/database-fallbacks/gi.svg",
+              "fields": {
+                "rarity": "5 \u2605",
+                "type": "Polearm"
+              },
+              "text": "A glorious, illusory weapon that emerged from the depths of the Ley Lines, shimmering with the light of \"Eternity.\" It can change its appearance based on the Elemental Type of its wielder. It is said that, in an ancient age beyond all recollection, a divine envoy of the high heavens bestowed the gilded spear upon the high priest of Sal Vindagnyr, granting them the right to lead the city-state before it was buried in silver frost.",
               "artStatus": "intentional-fallback",
               "artSource": "neutral-database-placeholder"
             },
@@ -4866,6 +5200,32 @@ var NYX_DB = {
               "artSource": "neutral-database-placeholder"
             },
             {
+              "id": "gi-wpn-340003",
+              "name": "Dawnstar of Shahar",
+              "kind": "weapon",
+              "art": "../../Database/Shared/database-fallbacks/gi.svg",
+              "fields": {
+                "rarity": "4 \u2605",
+                "type": "Catalyst"
+              },
+              "text": "A glorious, illusory weapon that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its wielder. It is said that, in an ancient age beyond all recollection, the first divine envoy bestowed her sacred sigil upon the high priest of Hyperborea, granting them the right to lead the resplendent city of gold.",
+              "artStatus": "intentional-fallback",
+              "artSource": "neutral-database-placeholder"
+            },
+            {
+              "id": "gi-wpn-340004",
+              "name": "Dawnstar of Shahar - Sublimation",
+              "kind": "weapon",
+              "art": "../../Database/Shared/database-fallbacks/gi.svg",
+              "fields": {
+                "rarity": "5 \u2605",
+                "type": "Catalyst"
+              },
+              "text": "A glorious, illusory weapon that emerged from the depths of the Ley Lines, shimmering with the light of \"Eternity.\" It can change its appearance based on the Elemental Type of its wielder. It is said that, in an ancient age beyond all recollection, the first divine envoy bestowed the gilded sacred sigil upon the high priest of Hyperborea, granting them the right to lead the great city, ere it faded into the shadows.",
+              "artStatus": "intentional-fallback",
+              "artSource": "neutral-database-placeholder"
+            },
+            {
               "id": "gi-wpn-350001",
               "name": "Starpiercer",
               "kind": "weapon",
@@ -4892,6 +5252,32 @@ var NYX_DB = {
               "artSource": "neutral-database-placeholder"
             },
             {
+              "id": "gi-wpn-350003",
+              "name": "Yayu",
+              "kind": "weapon",
+              "art": "../../Database/Shared/database-fallbacks/gi.svg",
+              "fields": {
+                "rarity": "4 \u2605",
+                "type": "Bow"
+              },
+              "text": "A glorious, illusory weapon that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its wielder. It is said that, in an ancient age beyond all recollection, a divine envoy of the high heavens bestowed this longbow upon the high priest of Lang-Gan, granting them the right to lead the newborn civilization.",
+              "artStatus": "intentional-fallback",
+              "artSource": "neutral-database-placeholder"
+            },
+            {
+              "id": "gi-wpn-350004",
+              "name": "Yayu - Sublimation",
+              "kind": "weapon",
+              "art": "../../Database/Shared/database-fallbacks/gi.svg",
+              "fields": {
+                "rarity": "5 \u2605",
+                "type": "Bow"
+              },
+              "text": "A glorious, illusory weapon that emerged from the depths of the Ley Lines, shimmering with the light of \"Eternity.\" It can change its appearance based on the Elemental Type of its wielder. It is said that, in an ancient age beyond all recollection, a divine envoy of the high heavens bestowed the gilded longbow upon the high priest of Lang-Gan, granting them the right to lead the civilization before it plunged into the abyss.",
+              "artStatus": "intentional-fallback",
+              "artSource": "neutral-database-placeholder"
+            },
+            {
               "id": "gi-wpn-380001",
               "name": "Phantasmal Gift: Star Omen",
               "kind": "weapon",
@@ -4914,6 +5300,17 @@ var NYX_DB = {
               "text": "A gift from the Little Hexenzirkel to a good friend. Due to insufficient available materials, the design has been based on a magical item from the Fontainian text, \"Tales of a Snow-Winged Goose.\"\nYou won't be able to open doors to different realms as one can in fairy tales, but this item is more than durable enough to accompany friends through countless such realms.",
               "artStatus": "intentional-fallback",
               "artSource": "neutral-database-placeholder"
+            },
+            {
+              "id": "gi-wpn-380003",
+              "name": "A Touch of Frost in Scorching Summer!",
+              "kind": "weapon",
+              "art": "../../Database/GameData/gi/assets/weapons/icons/UI_EquipIcon_Sword_Icecream.webp",
+              "fields": {
+                "rarity": "4 \u2605",
+                "type": "Sword"
+              },
+              "text": "A small gift from the Jack Frosts to their good friends! It looks wildly tasty and seems berry jam-flavored. One bite, and a refreshing chill and delightful sweetness would surely dance together across your tongue... if only this were actually edible. It looks super delicious, though."
             },
             {
               "id": "gi-wpn-390001",
@@ -5150,10 +5547,10 @@ var NYX_DB = {
             "characters": [
               {
                 "name": "Odette",
-                "icon": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Odette_Circle.webp",
+                "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Odette_Circle.webp",
                 "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Odette.webp",
                 "iconZoom": true,
-                "art": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Odette_Circle.webp",
+                "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Odette.webp",
                 "namecard": null,
                 "rarity": 5,
                 "debut": true,
@@ -42668,9 +43065,9 @@ var NYX_DB = {
               "materials": [
                 {
                   "id": "101334",
-                  "name": "101334",
+                  "name": "Larch Wood",
                   "count": 8,
-                  "icon": null
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101334.webp"
                 },
                 {
                   "id": "101001",
@@ -43805,9 +44202,9 @@ var NYX_DB = {
               "materials": [
                 {
                   "id": "101333",
-                  "name": "101333",
+                  "name": "Bluebeech Wood",
                   "count": 8,
-                  "icon": null
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101333.webp"
                 }
               ]
             },
@@ -48222,9 +48619,9 @@ var NYX_DB = {
               "materials": [
                 {
                   "id": "101333",
-                  "name": "101333",
+                  "name": "Bluebeech Wood",
                   "count": 12,
-                  "icon": null
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101333.webp"
                 }
               ]
             },
@@ -50741,9 +51138,9 @@ var NYX_DB = {
                 },
                 {
                   "id": "101332",
-                  "name": "101332",
+                  "name": "White Birch Wood",
                   "count": 12,
-                  "icon": null
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101331.webp"
                 }
               ]
             },
@@ -56706,9 +57103,9 @@ var NYX_DB = {
               "materials": [
                 {
                   "id": "101332",
-                  "name": "101332",
+                  "name": "White Birch Wood",
                   "count": 4,
-                  "icon": null
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101331.webp"
                 },
                 {
                   "id": "101001",
@@ -78848,9 +79245,9 @@ var NYX_DB = {
               "materials": [
                 {
                   "id": "101332",
-                  "name": "101332",
+                  "name": "White Birch Wood",
                   "count": 4,
-                  "icon": null
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101331.webp"
                 },
                 {
                   "id": "101402",
@@ -78891,9 +79288,9 @@ var NYX_DB = {
               "materials": [
                 {
                   "id": "101332",
-                  "name": "101332",
+                  "name": "White Birch Wood",
                   "count": 12,
-                  "icon": null
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101331.webp"
                 }
               ]
             },
@@ -80693,9 +81090,9 @@ var NYX_DB = {
               "materials": [
                 {
                   "id": "101332",
-                  "name": "101332",
+                  "name": "White Birch Wood",
                   "count": 8,
-                  "icon": null
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101331.webp"
                 },
                 {
                   "id": "101001",
@@ -99880,9 +100277,9 @@ var NYX_DB = {
               "materials": [
                 {
                   "id": "101332",
-                  "name": "101332",
+                  "name": "White Birch Wood",
                   "count": 10,
-                  "icon": null
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101331.webp"
                 },
                 {
                   "id": "101401",
@@ -105456,9 +105853,9 @@ var NYX_DB = {
               "materials": [
                 {
                   "id": "101334",
-                  "name": "101334",
+                  "name": "Larch Wood",
                   "count": 16,
-                  "icon": null
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101334.webp"
                 }
               ]
             },
@@ -145562,6 +145959,44 @@ var NYX_DB = {
       },
       "roster": [
         {
+          "id": "gi-10000150",
+          "name": "Odette",
+          "aliases": [],
+          "title": "Swirling Snow",
+          "rarity": 5,
+          "element": "Cryo",
+          "role": "Sword",
+          "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Odette_Circle.webp",
+          "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Odette.webp",
+          "facts": {
+            "title": "Swirling Snow",
+            "affiliation": "Korolevskiy Troupe",
+            "constellation": "Cygnus Olor",
+            "birthday": "February 20",
+            "nation": "Snezhnaya Star"
+          },
+          "forms": []
+        },
+        {
+          "id": "gi-10000148",
+          "name": "Alyosha",
+          "aliases": [],
+          "title": "Swift-Striding Hound",
+          "rarity": 4,
+          "element": "Electro",
+          "role": "Polearm",
+          "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Alyosha_Circle.webp",
+          "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Alyosha.webp",
+          "facts": {
+            "title": "Swift-Striding Hound",
+            "affiliation": "Snezhnaya",
+            "constellation": "Canis Borzoides",
+            "birthday": "February 9",
+            "nation": "Snezhnaya"
+          },
+          "forms": []
+        },
+        {
           "id": "gi-10000133",
           "name": "Sandrone",
           "aliases": [],
@@ -147906,6 +148341,54 @@ var NYX_DB = {
               "facts": {
                 "constellation": "Viatrix"
               }
+            },
+            {
+              "name": "Traveler",
+              "label": "Cryo",
+              "variant": "Cryo",
+              "gender": "male",
+              "element": "Cryo",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
+              "facts": {
+                "constellation": "Viator"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "None",
+              "variant": "None",
+              "gender": "male",
+              "element": "None",
+              "role": "WEAPON_CROSSBOW",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
+              "facts": {}
+            },
+            {
+              "name": "Traveler",
+              "label": "Cryo",
+              "variant": "Cryo",
+              "gender": "female",
+              "element": "Cryo",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
+              "facts": {
+                "constellation": "Viatrix"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "None",
+              "variant": "None",
+              "gender": "female",
+              "element": "None",
+              "role": "WEAPON_CROSSBOW",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
+              "facts": {}
             }
           ]
         },

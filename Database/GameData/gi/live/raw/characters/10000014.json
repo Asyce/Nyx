@@ -4187,21 +4187,6 @@
         "tag": "FallingAttack",
         "group": "default"
       },
-      "poise": {
-        "level": "LV2",
-        "value": 5
-      },
-      "element": "Water",
-      "attack_type": "Default",
-      "strike_type": "Default",
-      "damage_param": "FallingAnthem_Normal_Loop_Damage"
-    },
-    {
-      "name": "FallingAnthem",
-      "icd": {
-        "tag": "FallingAttack",
-        "group": "default"
-      },
       "gauge": 1,
       "poise": {
         "level": "LV3",
@@ -4227,6 +4212,21 @@
       "attack_type": "Default",
       "strike_type": "Default",
       "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 5
+      },
+      "element": "Water",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
     }
   ],
   "energy": []

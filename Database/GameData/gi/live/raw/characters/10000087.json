@@ -4187,6 +4187,19 @@
     {
       "name": "ExtraAttack_Attack_Gadget",
       "icd": {
+        "group": "default"
+      },
+      "gauge": 2,
+      "poise": {
+        "level": "LV0"
+      },
+      "element": "Water",
+      "attack_type": "Default",
+      "strike_type": "Default"
+    },
+    {
+      "name": "ExtraAttack_Attack_Gadget",
+      "icd": {
         "tag": "ExtraAttack",
         "group": "default"
       },
@@ -4200,16 +4213,18 @@
       "strike_type": "Default"
     },
     {
-      "name": "ExtraAttack_Attack_Gadget",
+      "name": "ElementalArt",
       "icd": {
+        "tag": "Elemental_Art",
         "group": "default"
       },
-      "gauge": 2,
+      "gauge": 1,
       "poise": {
-        "level": "LV0"
+        "level": "LV3",
+        "value": 100
       },
       "element": "Water",
-      "attack_type": "Default",
+      "attack_type": "Range",
       "strike_type": "Default"
     },
     {
@@ -4228,21 +4243,6 @@
       "damage_param": "ElementalArt_Arkhe_Ratio"
     },
     {
-      "name": "ElementalArt",
-      "icd": {
-        "tag": "Elemental_Art",
-        "group": "default"
-      },
-      "gauge": 1,
-      "poise": {
-        "level": "LV3",
-        "value": 100
-      },
-      "element": "Water",
-      "attack_type": "Range",
-      "strike_type": "Default"
-    },
-    {
       "name": "ElementalBurst",
       "icd": {
         "tag": "Elemental_Burst",
@@ -4286,21 +4286,6 @@
       "element": "Water",
       "attack_type": "Range",
       "strike_type": "Default"
-    },
-    {
-      "name": "FallingAnthem",
-      "icd": {
-        "tag": "FallingAttack",
-        "group": "default"
-      },
-      "poise": {
-        "level": "LV2",
-        "value": 5
-      },
-      "element": "Water",
-      "attack_type": "Default",
-      "strike_type": "Default",
-      "damage_param": "FallingAnthem_Normal_Loop_Damage"
     },
     {
       "name": "FallingAnthem",
@@ -4333,6 +4318,21 @@
       "attack_type": "Default",
       "strike_type": "Default",
       "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 5
+      },
+      "element": "Water",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
     },
     {
       "name": "Constellation_6_Bullet",

@@ -4364,9 +4364,10 @@
         "tag": "Elemental_Art",
         "group": "default"
       },
+      "gauge": 1,
       "poise": {
         "level": "LV2",
-        "value": 50
+        "value": 25
       },
       "element": "Electric",
       "attack_type": "Default",
@@ -4395,9 +4396,10 @@
         "tag": "Elemental_Art",
         "group": "default"
       },
+      "gauge": 1,
       "poise": {
         "level": "LV2",
-        "value": 50
+        "value": 25
       },
       "element": "Electric",
       "attack_type": "Default",
@@ -4426,9 +4428,10 @@
         "tag": "Elemental_Art",
         "group": "default"
       },
+      "gauge": 1,
       "poise": {
         "level": "LV2",
-        "value": 50
+        "value": 25
       },
       "element": "Electric",
       "attack_type": "Default",
@@ -4457,9 +4460,10 @@
         "tag": "Elemental_Art",
         "group": "default"
       },
+      "gauge": 1,
       "poise": {
         "level": "LV2",
-        "value": 50
+        "value": 25
       },
       "element": "Electric",
       "attack_type": "Default",
@@ -4571,23 +4575,8 @@
         "value": 30
       },
       "element": "Electric",
-      "attack_type": "Melee",
-      "strike_type": "Default"
-    },
-    {
-      "name": "FallingAnthem",
-      "icd": {
-        "tag": "FallingAttack",
-        "group": "default"
-      },
-      "poise": {
-        "level": "LV2",
-        "value": 5
-      },
-      "element": "Electric",
       "attack_type": "Default",
-      "strike_type": "Default",
-      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+      "strike_type": "Default"
     },
     {
       "name": "FallingAnthem",
@@ -4620,6 +4609,21 @@
       "attack_type": "Default",
       "strike_type": "Default",
       "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 5
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
     }
   ],
   "energy": [

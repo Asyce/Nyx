@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-09T18:13:24.898Z",
+  "generatedAt": "2026-08-10T23:59:12.106Z",
   "note": "Generic shops, crafting, exchanges, and event rewards are intentionally filtered. Rows here need scraper/wiki-specific source data.",
-  "count": 214,
+  "count": 236,
   "missing": [
     {
       "game": "gi",
@@ -89,6 +89,13 @@
     },
     {
       "game": "gi",
+      "context": "Covenant of Frost and Snow weapon",
+      "id": "114087",
+      "name": "Clarion of the Pale Star Army",
+      "kind": "weapon"
+    },
+    {
+      "game": "gi",
       "context": "Lan Yan ascension",
       "id": "101241",
       "name": "Clearwater Jade",
@@ -103,7 +110,7 @@
     },
     {
       "game": "gi",
-      "context": "Sandrone talents",
+      "context": "Odette talents",
       "id": "104319",
       "name": "Crown of Insight",
       "kind": "crown"
@@ -159,9 +166,30 @@
     },
     {
       "game": "gi",
+      "context": "Whitelake Frostfeather weapon",
+      "id": "114091",
+      "name": "Exhilaration of the Cellared Spiritual Nectar",
+      "kind": "weapon"
+    },
+    {
+      "game": "gi",
+      "context": "Alyosha ascension",
+      "id": "101276",
+      "name": "Flockingweed",
+      "kind": "specialty"
+    },
+    {
+      "game": "gi",
       "context": "Thoma ascension",
       "id": "101209",
       "name": "Fluorescent Fungus",
+      "kind": "specialty"
+    },
+    {
+      "game": "gi",
+      "context": "Odette ascension",
+      "id": "101275",
+      "name": "Frostfairy Flower",
       "kind": "specialty"
     },
     {
@@ -187,6 +215,27 @@
     },
     {
       "game": "gi",
+      "context": "Odette talents",
+      "id": "104366",
+      "name": "Guide to Charity",
+      "kind": "book"
+    },
+    {
+      "game": "gi",
+      "context": "Alyosha talents",
+      "id": "104369",
+      "name": "Guide to Fortitude",
+      "kind": "book"
+    },
+    {
+      "game": "gi",
+      "context": "Traveler talents",
+      "id": "104372",
+      "name": "Guide to Glory",
+      "kind": "book"
+    },
+    {
+      "game": "gi",
       "context": "Faruzan ascension",
       "id": "101220",
       "name": "Henna Berry",
@@ -198,6 +247,13 @@
       "id": "112118",
       "name": "Illusory Leafcoil",
       "kind": "mob"
+    },
+    {
+      "game": "gi",
+      "context": "Whitelake Frostfeather weapon",
+      "id": "114090",
+      "name": "Intoxication of the Cellared Spiritual Nectar",
+      "kind": "weapon"
     },
     {
       "game": "gi",
@@ -236,6 +292,13 @@
     },
     {
       "game": "gi",
+      "context": "Whitelake Frostfeather weapon",
+      "id": "114089",
+      "name": "Measured Pour of the Cellared Spiritual Nectar",
+      "kind": "weapon"
+    },
+    {
+      "game": "gi",
       "context": "Nefer ascension",
       "id": "101263",
       "name": "Moonfall Silver",
@@ -247,6 +310,13 @@
       "id": "101223",
       "name": "Mourning Flower",
       "kind": "specialty"
+    },
+    {
+      "game": "gi",
+      "context": "Covenant of Frost and Snow weapon",
+      "id": "114086",
+      "name": "Muster of the Pale Star Army",
+      "kind": "weapon"
     },
     {
       "game": "gi",
@@ -292,6 +362,27 @@
     },
     {
       "game": "gi",
+      "context": "Odette talents",
+      "id": "104367",
+      "name": "Philosophies of Charity",
+      "kind": "book"
+    },
+    {
+      "game": "gi",
+      "context": "Alyosha talents",
+      "id": "104370",
+      "name": "Philosophies of Fortitude",
+      "kind": "book"
+    },
+    {
+      "game": "gi",
+      "context": "Traveler talents",
+      "id": "104373",
+      "name": "Philosophies of Glory",
+      "kind": "book"
+    },
+    {
+      "game": "gi",
       "context": "Nicole ascension",
       "id": "101269",
       "name": "Pine Amber",
@@ -331,6 +422,20 @@
       "id": "112116",
       "name": "Refractive Bud",
       "kind": "mob"
+    },
+    {
+      "game": "gi",
+      "context": "Whitelake Frostfeather weapon",
+      "id": "114092",
+      "name": "Revelry of the Cellared Spiritual Nectar",
+      "kind": "weapon"
+    },
+    {
+      "game": "gi",
+      "context": "Covenant of Frost and Snow weapon",
+      "id": "114085",
+      "name": "Rise of the Pale Star Army",
+      "kind": "weapon"
     },
     {
       "game": "gi",
@@ -439,6 +544,20 @@
     },
     {
       "game": "gi",
+      "context": "Odette talents",
+      "id": "104365",
+      "name": "Teachings of Charity",
+      "kind": "book"
+    },
+    {
+      "game": "gi",
+      "context": "Alyosha talents",
+      "id": "104368",
+      "name": "Teachings of Fortitude",
+      "kind": "book"
+    },
+    {
+      "game": "gi",
       "context": "Traveler talents",
       "id": "113063",
       "name": "The Cornerstone of Stars and Flames",
@@ -446,10 +565,45 @@
     },
     {
       "game": "gi",
+      "context": "Exaiphanes Blade weapon",
+      "id": "114094",
+      "name": "The Frost Emperor's Ceremony",
+      "kind": "weapon"
+    },
+    {
+      "game": "gi",
+      "context": "Exaiphanes Blade weapon",
+      "id": "114096",
+      "name": "The Frost Emperor's Farewell",
+      "kind": "weapon"
+    },
+    {
+      "game": "gi",
+      "context": "Exaiphanes Blade weapon",
+      "id": "114095",
+      "name": "The Frost Emperor's Lament",
+      "kind": "weapon"
+    },
+    {
+      "game": "gi",
+      "context": "Exaiphanes Blade weapon",
+      "id": "114093",
+      "name": "The Frost Emperor's Revival",
+      "kind": "weapon"
+    },
+    {
+      "game": "gi",
       "context": "Sethos ascension",
       "id": "101224",
       "name": "Trishiraite",
       "kind": "specialty"
+    },
+    {
+      "game": "gi",
+      "context": "Covenant of Frost and Snow weapon",
+      "id": "114088",
+      "name": "Triumph of the Pale Star Army",
+      "kind": "weapon"
     },
     {
       "game": "gi",
@@ -467,7 +621,7 @@
     },
     {
       "game": "gi",
-      "context": "Bennett ascension",
+      "context": "Traveler ascension",
       "id": "100024",
       "name": "Windwheel Aster",
       "kind": "specialty"

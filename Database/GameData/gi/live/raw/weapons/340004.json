@@ -1,0 +1,9 @@
+{
+  "name": "Dawnstar of Shahar - Sublimation",
+  "desc": "A glorious, illusory weapon that emerged from the depths of the Ley Lines, shimmering with the light of \"Eternity.\" It can change its appearance based on the Elemental Type of its wielder. It is said that, in an ancient age beyond all recollection, the first divine envoy bestowed the gilded sacred sigil upon the high priest of Hyperborea, granting them the right to lead the great city, ere it faded into the shadows.",
+  "weapon_type": "WEAPON_CATALYST",
+  "rarity": 5,
+  "icon": "UI_EquipIcon_Catalyst_MorphShahar_Great_{0}",
+  "tag": "TAG_TYPE_COLOR_BY_ELEMENT",
+  "skin": true
+}

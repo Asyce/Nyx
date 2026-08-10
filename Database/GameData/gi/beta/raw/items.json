@@ -8935,21 +8935,21 @@
     "food": "FOOD_QUALITY_DELICIOUS"
   },
   "108985": {
-    "name": "Suspicious Pot-Braised Meat",
+    "name": "Suspicious Zharkoye",
     "rank": 3,
     "icon": "UI_ItemIcon_108885",
     "type": "Food",
     "food": "FOOD_QUALITY_STRANGE"
   },
   "108986": {
-    "name": "Pot-Braised Meat",
+    "name": "Zharkoye",
     "rank": 3,
     "icon": "UI_ItemIcon_108885",
     "type": "Food",
     "food": "FOOD_QUALITY_ORDINARY"
   },
   "108987": {
-    "name": "Delicious Pot-Braised Meat",
+    "name": "Delicious Zharkoye",
     "rank": 3,
     "icon": "UI_ItemIcon_108885",
     "type": "Food",
@@ -8977,21 +8977,21 @@
     "food": "FOOD_QUALITY_DELICIOUS"
   },
   "108991": {
-    "name": "Suspicious Fish Curls",
+    "name": "Suspicious Stroganina",
     "rank": 2,
     "icon": "UI_ItemIcon_108887",
     "type": "Food",
     "food": "FOOD_QUALITY_STRANGE"
   },
   "108992": {
-    "name": "Fish Curls",
+    "name": "Stroganina",
     "rank": 2,
     "icon": "UI_ItemIcon_108887",
     "type": "Food",
     "food": "FOOD_QUALITY_ORDINARY"
   },
   "108993": {
-    "name": "Delicious Fish Curls",
+    "name": "Delicious Stroganina",
     "rank": 2,
     "icon": "UI_ItemIcon_108887",
     "type": "Food",
@@ -12400,21 +12400,21 @@
     "type": "Fish"
   },
   "132001": {
-    "name": "Suspicious Rimecurrant Ice Creams",
+    "name": "Suspicious Rimecurrant Ice Cream",
     "rank": 3,
     "icon": "UI_ItemIcon_108890",
     "type": "Food",
     "food": "FOOD_QUALITY_STRANGE"
   },
   "132002": {
-    "name": "Rimecurrant Ice Creams",
+    "name": "Rimecurrant Ice Cream",
     "rank": 3,
     "icon": "UI_ItemIcon_108890",
     "type": "Food",
     "food": "FOOD_QUALITY_ORDINARY"
   },
   "132003": {
-    "name": "Delicious Rimecurrant Ice Creams",
+    "name": "Delicious Rimecurrant Ice Cream",
     "rank": 3,
     "icon": "UI_ItemIcon_108890",
     "type": "Food",
@@ -12517,36 +12517,36 @@
     "type": "Food"
   },
   "132018": {
-    "name": "???",
+    "name": "Suspicious Sweet Scoops",
     "rank": 4,
     "icon": "UI_ItemIcon_108897",
     "type": "Food",
     "food": "FOOD_QUALITY_STRANGE"
   },
   "132019": {
-    "name": "???",
+    "name": "Sweet Scoops",
     "rank": 4,
     "icon": "UI_ItemIcon_108897",
     "type": "Food",
     "food": "FOOD_QUALITY_ORDINARY"
   },
   "132020": {
-    "name": "???",
+    "name": "Delicious Sweet Scoops",
     "rank": 4,
     "icon": "UI_ItemIcon_108897",
     "type": "Food",
     "food": "FOOD_QUALITY_DELICIOUS"
   },
   "132021": {
-    "name": "???",
+    "name": "Alyosha-Themed Ice Cream",
     "rank": 2,
     "icon": "UI_ItemIcon_108898",
     "type": "Food"
   },
   "132022": {
-    "name": "???",
+    "name": "Odette-Themed Ice Cream",
     "rank": 2,
-    "icon": "UI_ItemIcon_108999",
+    "icon": "UI_ItemIcon_108899",
     "type": "Food"
   },
   "132023": {

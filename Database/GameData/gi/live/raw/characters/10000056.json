@@ -4148,22 +4148,6 @@
       "gauge": 1,
       "poise": {
         "level": "LV3",
-        "value": 100
-      },
-      "element": "Electric",
-      "attack_type": "Default",
-      "strike_type": "Default",
-      "damage_param": "KarasShoot_Thunderfall_Damage"
-    },
-    {
-      "name": "KarasShoot_DelayAttack",
-      "icd": {
-        "tag": "Elemental_Art",
-        "group": "default"
-      },
-      "gauge": 1,
-      "poise": {
-        "level": "LV3",
         "value": 30
       },
       "element": "Electric",
@@ -4174,6 +4158,22 @@
         "Constellation_2_Ratio",
         "MUL"
       ]
+    },
+    {
+      "name": "KarasShoot_DelayAttack",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 100
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "KarasShoot_Thunderfall_Damage"
     },
     {
       "name": "Elemental_Burst_AttackWave_Trigger",
@@ -4245,21 +4245,6 @@
         "tag": "FallingAttack",
         "group": "default"
       },
-      "poise": {
-        "level": "LV2",
-        "value": 10
-      },
-      "element": "None",
-      "attack_type": "Melee",
-      "strike_type": "Pierce",
-      "damage_param": "FallingAnthem_Normal_Loop_Damage"
-    },
-    {
-      "name": "FallingAnthem",
-      "icd": {
-        "tag": "FallingAttack",
-        "group": "default"
-      },
       "gauge": 1,
       "poise": {
         "level": "LV2",
@@ -4285,6 +4270,21 @@
       "attack_type": "Melee",
       "strike_type": "Pierce",
       "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Pierce",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
     }
   ],
   "energy": [

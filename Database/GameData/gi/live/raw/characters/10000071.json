@@ -4181,7 +4181,7 @@
     {
       "name": "Cyno_ElementalArt_Click_BurstMode",
       "icd": {
-        "tag": "Elemental_Art_Extra",
+        "tag": "Elemental_Art",
         "group": "Cyno_ElementalArt"
       },
       "gauge": 1,
@@ -4197,7 +4197,7 @@
     {
       "name": "Cyno_ElementalArt_Click_BurstMode",
       "icd": {
-        "tag": "Elemental_Art",
+        "tag": "Elemental_Art_Extra",
         "group": "Cyno_ElementalArt"
       },
       "gauge": 1,
@@ -4229,61 +4229,15 @@
         "tag": "FallingAttack",
         "group": "default"
       },
-      "poise": {
-        "level": "LV2",
-        "value": 25
-      },
-      "element": "Electric",
-      "attack_type": "Melee",
-      "strike_type": "Slash",
-      "damage_param": "FallingAnthem_Normal_Loop_BurstMode_Damage"
-    },
-    {
-      "name": "FallingAnthem",
-      "icd": {
-        "tag": "FallingAttack",
-        "group": "default"
-      },
-      "poise": {
-        "level": "LV2",
-        "value": 25
-      },
-      "element": "None",
-      "attack_type": "Melee",
-      "strike_type": "Slash",
-      "damage_param": "FallingAnthem_Normal_Loop_Damage"
-    },
-    {
-      "name": "FallingAnthem",
-      "icd": {
-        "tag": "FallingAttack",
-        "group": "default"
-      },
-      "gauge": 1,
-      "poise": {
-        "level": "LV4",
-        "value": 100
-      },
-      "element": "Electric",
-      "attack_type": "Melee",
-      "strike_type": "Blunt",
-      "damage_param": "FallingAnthem_Normal_Rank_1_BurstMode_Damage"
-    },
-    {
-      "name": "FallingAnthem",
-      "icd": {
-        "tag": "FallingAttack",
-        "group": "default"
-      },
       "gauge": 1,
       "poise": {
         "level": "LV7",
         "value": 150
       },
-      "element": "Electric",
+      "element": "None",
       "attack_type": "Melee",
       "strike_type": "Blunt",
-      "damage_param": "FallingAnthem_Normal_Rank_2_BurstMode_Damage"
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
     },
     {
       "name": "FallingAnthem",
@@ -4312,10 +4266,56 @@
         "level": "LV7",
         "value": 150
       },
-      "element": "None",
+      "element": "Electric",
       "attack_type": "Melee",
       "strike_type": "Blunt",
-      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+      "damage_param": "FallingAnthem_Normal_Rank_2_BurstMode_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 100
+      },
+      "element": "Electric",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_1_BurstMode_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 25
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 25
+      },
+      "element": "Electric",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "FallingAnthem_Normal_Loop_BurstMode_Damage"
     },
     {
       "name": "BurstMode_ExtraAttack_Bullet",
@@ -4341,6 +4341,18 @@
       "kind": "ElementalArt",
       "element": "Electro",
       "per_drop": 1,
+      "lifetime": 9,
+      "chance": 100,
+      "cd": 0.5,
+      "applications": 1,
+      "drop_id": 2020
+    },
+    {
+      "name": "ElementalArt_DropBall",
+      "skill": "Cyno_ElementalArt_Click",
+      "kind": "ElementalArt",
+      "element": "Electro",
+      "per_drop": 1,
       "lifetime": 3,
       "chance": 33.300000000000004,
       "cd": 0.5,
@@ -4354,18 +4366,6 @@
       "element": "Electro",
       "per_drop": 1,
       "lifetime": 3,
-      "chance": 100,
-      "cd": 0.5,
-      "applications": 1,
-      "drop_id": 2020
-    },
-    {
-      "name": "ElementalArt_DropBall",
-      "skill": "Cyno_ElementalArt_Click",
-      "kind": "ElementalArt",
-      "element": "Electro",
-      "per_drop": 1,
-      "lifetime": 9,
       "chance": 100,
       "cd": 0.5,
       "applications": 1,

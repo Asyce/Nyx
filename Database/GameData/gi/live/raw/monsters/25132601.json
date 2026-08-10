@@ -1,0 +1,125 @@
+{
+  "name": "Leomastiff Guard",
+  "desc": "A Volkodlak of the canine clans that usually appears somewhat lazy.\\nAmong the many Volkodlak clans, the canine clans have always enjoyed a better reputation. Loyal, friendly, and usually mild-mannered. Though they will turn ferocious when those they have sworn to serve, or friends they know well, are placed in danger, striking down anyone they deem enemies.\\nIt is said that during a war long ago, their clan fought His Majesty the Tsar to the last in defense of their own king, and for this, earned His Majesty's favor.",
+  "icon": "UI_MonsterIcon_Volkodlak_Sheepdog",
+  "codex": "BEAST",
+  "title": "Volkodlak Brute",
+  "special_names": [
+    "Leomastiff Guard"
+  ],
+  "reward": [
+    {
+      "id": 202,
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    {
+      "id": 112154,
+      "rank": 4,
+      "icon": "UI_ItemIcon_112154"
+    },
+    {
+      "id": 112153,
+      "rank": 3,
+      "icon": "UI_ItemIcon_112153"
+    },
+    {
+      "id": 112152,
+      "rank": 2,
+      "icon": "UI_ItemIcon_112152"
+    },
+    {
+      "id": 112148,
+      "rank": 3,
+      "icon": "UI_ItemIcon_112148"
+    },
+    {
+      "id": 112147,
+      "rank": 2,
+      "icon": "UI_ItemIcon_112147"
+    },
+    {
+      "id": 112146,
+      "rank": 1,
+      "icon": "UI_ItemIcon_112146"
+    },
+    {
+      "id": 400023,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10005_4"
+    },
+    {
+      "id": 400033,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10007_4"
+    },
+    {
+      "id": 400043,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10009_4"
+    },
+    {
+      "id": 400022,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10005_4"
+    },
+    {
+      "id": 400032,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10007_4"
+    },
+    {
+      "id": 400042,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10009_4"
+    },
+    {
+      "id": 400062,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10013_4"
+    }
+  ],
+  "child": {
+    "25132601": {
+      "monster_name": "Volkodlak_Sheepdog_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "kill_drop_id": 22010012,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 35.3184,
+        "atk": 22.608,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

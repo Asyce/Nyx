@@ -1,0 +1,213 @@
+{
+  "name": "Fanged Zealot",
+  "desc": "A Volkodlak that has become extremely powerful after inheriting more of the mighty power in its bloodline.\\nAmong the many different Volkodlaks, those resembling giant elephants or mammoths possess some of the noblest bloodlines. Their clan once produced many formidable war leaders, many of whom even served as close retainers to the King of Beasts.\\nYet the greater an individual fae's power and the longer its life, the harder it becomes for such beings to form a clan. Compared with other Volkodlaks, this type is now far rarer in Snezhnaya.",
+  "icon": "UI_MonsterIcon_Volkodlak_Mammoth",
+  "codex": "BEAST",
+  "title": "Enchanted Beast of Unrivaled Might",
+  "special_names": [
+    "Fanged Zealot"
+  ],
+  "reward": [
+    {
+      "id": 202,
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    {
+      "id": 112154,
+      "rank": 4,
+      "icon": "UI_ItemIcon_112154"
+    },
+    {
+      "id": 112153,
+      "rank": 3,
+      "icon": "UI_ItemIcon_112153"
+    },
+    {
+      "id": 112152,
+      "rank": 2,
+      "icon": "UI_ItemIcon_112152"
+    },
+    {
+      "id": 112148,
+      "rank": 3,
+      "icon": "UI_ItemIcon_112148"
+    },
+    {
+      "id": 112147,
+      "rank": 2,
+      "icon": "UI_ItemIcon_112147"
+    },
+    {
+      "id": 112146,
+      "rank": 1,
+      "icon": "UI_ItemIcon_112146"
+    },
+    {
+      "id": 400023,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10005_4"
+    },
+    {
+      "id": 400033,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10007_4"
+    },
+    {
+      "id": 400043,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10009_4"
+    },
+    {
+      "id": 400022,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10005_4"
+    },
+    {
+      "id": 400032,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10007_4"
+    },
+    {
+      "id": 400042,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10009_4"
+    },
+    {
+      "id": 400062,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10013_4"
+    }
+  ],
+  "child": {
+    "25133601": {
+      "monster_name": "Volkodlak_Mammoth_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010011,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010011,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010011,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.3,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 54.336,
+        "atk": 45.216,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25133602": {
+      "monster_name": "Volkodlak_Mammoth_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "kill_drop_id": 0,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.3,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 231.00076,
+        "atk": 112.64574,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25133691": {
+      "monster_name": "Volkodlak_Mammoth_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "kill_drop_id": 0,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0,
+        "grass": 0,
+        "water": 0,
+        "elec": 0,
+        "wind": 0,
+        "ice": 0,
+        "rock": 0,
+        "physical": 0
+      },
+      "base": {
+        "hp": 128.01292,
+        "atk": 22.529148,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

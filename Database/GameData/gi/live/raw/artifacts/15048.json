@@ -1,0 +1,145 @@
+{
+  "id": 15048,
+  "icon": "UI_RelicIcon_15048_4",
+  "need": [
+    2,
+    4
+  ],
+  "rank": [
+    4,
+    5
+  ],
+  "affix": [
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0.18
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        }
+      ],
+      "affix_id": 2150480,
+      "id": 215048,
+      "level": 0,
+      "open_config": "",
+      "param_list": [
+        0.18,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Heart of the Furnace",
+      "desc": "ATK +18%."
+    },
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        }
+      ],
+      "affix_id": 2150481,
+      "id": 215048,
+      "level": 1,
+      "open_config": "Relic_7.0_StarSupport_4",
+      "param_list": [
+        0.12,
+        0.5,
+        12,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Heart of the Furnace",
+      "desc": "Increases the equipping character's ATK by 12% for 12s when they trigger a Stellar Glimmer reaction or deal Stellar Glimmer reaction DMG. Also increases Stellar Glimmer reaction DMG dealt by all nearby party members by 50%. The above effects can trigger even when the equipping character is not on the field, and he DMG bonus from multiple Artifact Sets with the same name do not stack."
+    }
+  ],
+  "parts": {
+    "equip_ring": {
+      "icon": "UI_RelicIcon_15048_1",
+      "name": "Foundryman's Magnanimity",
+      "desc": "He knew that, unlike the flame at the heart of the furnace, which would continue burning indefinitely so long as it is supplied with fuel, friendship was far more fleeting.",
+      "story": {
+        "285481": {
+          "zh": "ART/UI/Readable/CHS/Relic15048_1",
+          "en": "ART/UI/Readable/EN/Relic15048_1_EN",
+          "ja": "ART/UI/Readable/JP/Relic15048_1_JP",
+          "ko": "ART/UI/Readable/KR/Relic15048_1_KR"
+        }
+      }
+    },
+    "equip_necklace": {
+      "icon": "UI_RelicIcon_15048_2",
+      "name": "Foundryman's Observation",
+      "desc": "He knew that, unlike the colors at the heart of the furnace, the outcome of various worldly affairs could not be predicted simply through close observation.",
+      "story": {
+        "285482": {
+          "zh": "ART/UI/Readable/CHS/Relic15048_2",
+          "en": "ART/UI/Readable/EN/Relic15048_2_EN",
+          "ja": "ART/UI/Readable/JP/Relic15048_2_JP",
+          "ko": "ART/UI/Readable/KR/Relic15048_2_KR"
+        }
+      }
+    },
+    "equip_dress": {
+      "icon": "UI_RelicIcon_15048_3",
+      "name": "Foundryman's Legacy",
+      "desc": "He knew that, unlike the flame at the heart of the furnace, the resolve to pursue a dream could never be simply passed on to those to come after.",
+      "story": {
+        "285483": {
+          "zh": "ART/UI/Readable/CHS/Relic15048_3",
+          "en": "ART/UI/Readable/EN/Relic15048_3_EN",
+          "ja": "ART/UI/Readable/JP/Relic15048_3_JP",
+          "ko": "ART/UI/Readable/KR/Relic15048_3_KR"
+        }
+      }
+    },
+    "equip_bracer": {
+      "icon": "UI_RelicIcon_15048_4",
+      "name": "Foundryman's Conjecture",
+      "desc": "He knew that, unlike the temperature at the heart of the furnace, just how warm or cold a human heart is towards another cannot be clearly measured in degrees.",
+      "story": {
+        "285484": {
+          "zh": "ART/UI/Readable/CHS/Relic15048_4",
+          "en": "ART/UI/Readable/EN/Relic15048_4_EN",
+          "ja": "ART/UI/Readable/JP/Relic15048_4_JP",
+          "ko": "ART/UI/Readable/KR/Relic15048_4_KR"
+        }
+      }
+    },
+    "equip_shoes": {
+      "icon": "UI_RelicIcon_15048_5",
+      "name": "Foundryman's Calculus",
+      "desc": "He knew that, unlike the heat at the heart of the furnace, the workings of power could not be controlled by the simple pull of a lever or the press of a button.",
+      "story": {
+        "285485": {
+          "zh": "ART/UI/Readable/CHS/Relic15048_5",
+          "en": "ART/UI/Readable/EN/Relic15048_5_EN",
+          "ja": "ART/UI/Readable/JP/Relic15048_5_JP",
+          "ko": "ART/UI/Readable/KR/Relic15048_5_KR"
+        }
+      }
+    }
+  }
+}

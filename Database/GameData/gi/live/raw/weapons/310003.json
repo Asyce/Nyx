@@ -1,0 +1,9 @@
+{
+  "name": "Golden Bough of Nemorensis",
+  "desc": "A glorious, illusory weapon that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its wielder. It is said that, in an ancient age beyond all recollection, a divine envoy of the high heavens bestowed this longsword upon the high priest of Arcadia, granting them the right to lead the holy city blessed by the thousand winds.",
+  "weapon_type": "WEAPON_SWORD_ONE_HAND",
+  "rarity": 4,
+  "icon": "UI_EquipIcon_Sword_MorphNemorensis_{0}",
+  "tag": "TAG_TYPE_COLOR_BY_ELEMENT",
+  "skin": true
+}

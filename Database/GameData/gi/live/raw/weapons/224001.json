@@ -1,0 +1,9 @@
+{
+  "name": "Shatanaya's Frostsilver",
+  "desc": "An assault rifle that can accumulate Frigid Glory using Normal Attacks to switch to Breakthrough mode and use Charged Attacks.",
+  "weapon_type": "ITEM_TPS_WEAPON",
+  "rarity": 4,
+  "icon": "UI_EquipIcon_AssaultRifle_Glacia",
+  "skill": 11344,
+  "tps": true
+}

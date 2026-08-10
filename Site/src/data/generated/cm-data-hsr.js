@@ -9986,7 +9986,7 @@
       "slug": "gilgamesh",
       "release": 1784851200000,
       "releasePatch": "4.4",
-      "updated": 1784844000000,
+      "updated": 1784851200000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "|vaCN = https://zh.moegirl.org.cn/\u85e4\u65b0|Teng Xin (\u85e4\u65b0)",
@@ -11434,7 +11434,7 @@
       },
       "title": "Ad Astra Nova",
       "slug": "himeko-nova",
-      "updated": 1784844000000,
+      "updated": 1784851200000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "Cia Court",
@@ -13150,7 +13150,7 @@
       "slug": "rin-tohsaka",
       "release": 1784851200000,
       "releasePatch": "4.4",
-      "updated": 1784844000000,
+      "updated": 1784851200000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "|vaCN = https://zh.moegirl.org.cn/\u6714\u5c0f\u5154|Shuo Xiaotu (\u6714\u5c0f\u5154)",
@@ -14664,7 +14664,7 @@
       "slug": "blade-mortenax",
       "release": 1780304400000,
       "releasePatch": "4.3",
-      "updated": 1784066400000,
+      "updated": 1784073600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm5410860|Daman Mills",
@@ -16157,7 +16157,7 @@
         "ko": "\uc5b4\ubca4\uce04\ub9b0\u2022\uc6e8\uc774\ube0c"
       },
       "slug": "aventurine-waveflair",
-      "updated": 1782770400000,
+      "updated": 1782777600000,
       "sourceOrder": 0,
       "icon": "../../Database/GameData/hsr/assets/characters/round/1513.webp",
       "art": "../../Database/GameData/hsr/assets/characters/draw-card/1513.webp",
@@ -16204,7 +16204,7 @@
         "ko": "\ub85c\ube48\u2022\uc11c\uba38\ub808\ud1a0"
       },
       "slug": "robin-summeretto",
-      "updated": 1782770400000,
+      "updated": 1782777600000,
       "sourceOrder": 0,
       "icon": "../../Database/GameData/hsr/assets/characters/round/1512.webp",
       "art": "../../Database/GameData/hsr/assets/characters/draw-card/1512.webp",
@@ -16254,7 +16254,7 @@
       "slug": "evanescia",
       "release": 1778662800000,
       "releasePatch": "4.2",
-      "updated": 1782252000000,
+      "updated": 1782259200000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm11116720|Nathalie Ferare",
@@ -17698,7 +17698,7 @@
       "slug": "yao-guang",
       "release": 1770976800000,
       "releasePatch": "4.0",
-      "updated": 1781474400000,
+      "updated": 1781481600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm14887295|Ari Thrash",
@@ -19146,7 +19146,7 @@
       "slug": "cerydra",
       "release": 1756803600000,
       "releasePatch": "3.5",
-      "updated": 1780524000000,
+      "updated": 1780531200000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm5966262|Rhiannon Moushall",
@@ -20521,7 +20521,7 @@
       "slug": "acheron",
       "release": 1711533600000,
       "releasePatch": "2.1",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm3265752|Allegra Clark",
@@ -21912,7 +21912,7 @@
       "slug": "aglaea",
       "release": 1738749600000,
       "releasePatch": "3.0",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm5098656|Morgan Laur\u00e9",
@@ -23346,7 +23346,7 @@
       "slug": "anaxa",
       "release": 1746003600000,
       "releasePatch": "3.2",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm8002676|Stephen Fu",
@@ -24731,7 +24731,7 @@
       "slug": "archer",
       "release": 1752224400000,
       "releasePatch": "3.4",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "|vaCN = https://zh.moegirl.org.cn/\u5434\u78ca|Wu Lei (\u5434\u78ca)",
@@ -26107,7 +26107,7 @@
       "slug": "argenti",
       "release": 1701856800000,
       "releasePatch": "1.5",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm8338757|Talon Warburton",
@@ -27561,7 +27561,7 @@
       "slug": "ashveil",
       "release": 1774432800000,
       "releasePatch": "4.0",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm10853569|Blythe Melin",
@@ -28940,7 +28940,7 @@
       "slug": "aventurine",
       "release": 1713344400000,
       "releasePatch": "2.1",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm8299400|Camden Sutkowski",
@@ -30320,7 +30320,7 @@
       "slug": "bailu",
       "release": 1682460000000,
       "releasePatch": "1.0",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm9149593|Su Ling Chan",
@@ -31701,7 +31701,7 @@
       "slug": "black-swan",
       "release": 1707213600000,
       "releasePatch": "2.0",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm5771189|Arryn Zech",
@@ -33087,7 +33087,7 @@
       "slug": "blade",
       "release": 1689757200000,
       "releasePatch": "1.2",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm5410860|Daman Mills",
@@ -34521,7 +34521,7 @@
       "slug": "boothill",
       "release": 1716973200000,
       "releasePatch": "2.2",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm7325686|Andrew Russell",
@@ -35948,7 +35948,7 @@
       "slug": "bronya",
       "release": 1682460000000,
       "releasePatch": "1.0",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm14682811|Madeline Reiter",
@@ -37328,7 +37328,7 @@
       "slug": "castorice",
       "release": 1744189200000,
       "releasePatch": "3.2",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm10969007|Melody Muze",
@@ -38776,7 +38776,7 @@
       "slug": "cipher",
       "release": 1749632400000,
       "releasePatch": "3.3",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm14096354|Shea Fairaday",
@@ -40154,7 +40154,7 @@
       "slug": "clara",
       "release": 1682460000000,
       "releasePatch": "1.0",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm13804083|Emily Sun",
@@ -41534,7 +41534,7 @@
       "slug": "cyrene",
       "release": 1762336800000,
       "releasePatch": "3.7",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm12899945|Aiden Dawn",
@@ -42974,7 +42974,7 @@
       "slug": "imbibitor-lunae",
       "release": 1693386000000,
       "releasePatch": "1.3",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm8855652|Nicholas Leung",
@@ -44503,7 +44503,7 @@
       "slug": "dan-heng-permansor-terrae",
       "release": 1760173200000,
       "releasePatch": "3.6",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm8855652|Nicholas Leung",
@@ -45882,7 +45882,7 @@
       "slug": "dr-ratio",
       "release": 1705485600000,
       "releasePatch": "1.6",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm8289381|Jordan Paul Haro",
@@ -47261,7 +47261,7 @@
       "slug": "feixiao",
       "release": 1725958800000,
       "releasePatch": "2.5",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm6657487|Anairis Qui\u00f1ones",
@@ -48783,7 +48783,7 @@
       "slug": "firefly",
       "release": 1718787600000,
       "releasePatch": "2.3",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm8418823|Analesa Fisher",
@@ -50277,7 +50277,7 @@
       "slug": "fu-xuan",
       "release": 1695200400000,
       "releasePatch": "1.3",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm6441957|Sarah Wiedenheft",
@@ -51658,7 +51658,7 @@
       "slug": "gepard",
       "release": 1682460000000,
       "releasePatch": "1.0",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm5236687|Bryson Baugus",
@@ -53038,7 +53038,7 @@
       "slug": "himeko",
       "release": 1682460000000,
       "releasePatch": "1.0",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm5947505|Cia Court",
@@ -54423,7 +54423,7 @@
       "slug": "huohuo",
       "release": 1700042400000,
       "releasePatch": "1.5",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm6741358|Megan Shipman",
@@ -55809,7 +55809,7 @@
       "slug": "hyacine",
       "release": 1747818000000,
       "releasePatch": "3.3",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm0247237|Holly Earl",
@@ -57193,7 +57193,7 @@
       "slug": "hysilens",
       "release": 1755075600000,
       "releasePatch": "3.5",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm1133857|Rosie Day",
@@ -58568,7 +58568,7 @@
       "slug": "jade",
       "release": 1720602000000,
       "releasePatch": "2.3",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm3788571|Faye Mata",
@@ -59946,7 +59946,7 @@
       "slug": "jiaoqiu",
       "release": 1724230800000,
       "releasePatch": "2.4",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm4008536|Mark Whitten",
@@ -61325,7 +61325,7 @@
       "slug": "jing-yuan",
       "release": 1684335600000,
       "releasePatch": "1.0",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm5260806|Alejandro Saab",
@@ -62710,7 +62710,7 @@
       "slug": "jingliu",
       "release": 1697014800000,
       "releasePatch": "1.4",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm1967053|AmaLee",
@@ -64157,7 +64157,7 @@
       "slug": "kafka",
       "release": 1689757200000,
       "releasePatch": "1.2",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm2303263|Cheryl Texiera",
@@ -65536,7 +65536,7 @@
       "slug": "lingsha",
       "release": 1727859600000,
       "releasePatch": "2.5",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm11326512|Whitney Holland",
@@ -66915,7 +66915,7 @@
       "slug": "luocha",
       "release": 1687942800000,
       "releasePatch": "1.1",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm3951343|Craig Lee Thomas",
@@ -68294,7 +68294,7 @@
       "title": "The Remembrance of None",
       "slug": "march-7th-evernight",
       "release": 1758790800000,
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "Skyler Davenport",
@@ -69689,7 +69689,7 @@
       "slug": "mydei",
       "release": 1742378400000,
       "releasePatch": "3.1",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm3878276|Gabriel Warburton",
@@ -71203,7 +71203,7 @@
       "slug": "phainon",
       "release": 1751446800000,
       "releasePatch": "3.4",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm10853574|Joshua Waters",
@@ -72834,7 +72834,7 @@
       "slug": "rappa",
       "release": 1729674000000,
       "releasePatch": "2.6",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm9674561|Kendell Byrd",
@@ -74267,7 +74267,7 @@
       "slug": "robin",
       "release": 1715158800000,
       "releasePatch": "2.2",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm12363730|Alice Himora",
@@ -75645,7 +75645,7 @@
       "slug": "ruan-mei",
       "release": 1703671200000,
       "releasePatch": "1.6",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "Emi Lo",
@@ -77026,7 +77026,7 @@
       "slug": "saber",
       "release": 1752224400000,
       "releasePatch": "3.4",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "|vaCN = https://zh.moegirl.org.cn/\u767d\u677a\u74d2|Bai Xinzan (\u767d\u677a\u74d2)",
@@ -78455,7 +78455,7 @@
       "slug": "seele",
       "release": 1682460000000,
       "releasePatch": "1.0",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm10646355|Molly Zhang",
@@ -79835,7 +79835,7 @@
       "slug": "silver-wolf",
       "release": 1686128400000,
       "releasePatch": "1.1",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm0153100|Melissa Fahn",
@@ -81213,7 +81213,7 @@
       "title": "Godmode Player",
       "slug": "silver-wolf-lv-999",
       "release": 1776848400000,
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "Melissa Fahn",
@@ -82728,7 +82728,7 @@
       "slug": "sparkle",
       "release": 1707213600000,
       "releasePatch": "2.0",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm5213242|Lizzie Freeman",
@@ -84107,7 +84107,7 @@
       "slug": "sparxie",
       "release": 1770976800000,
       "releasePatch": "4.0",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm5213242|Lizzie Freeman",
@@ -85607,7 +85607,7 @@
       "slug": "sunday",
       "release": 1733306400000,
       "releasePatch": "2.7",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm8427541|Griffin Puatu",
@@ -86994,7 +86994,7 @@
       "slug": "the-dahlia",
       "release": 1765101600000,
       "releasePatch": "3.8",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm2583829|Cristina Vee",
@@ -88372,7 +88372,7 @@
       "slug": "the-herta",
       "release": 1736935200000,
       "releasePatch": "3.0",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm3021642|PJ Mattson",
@@ -89817,7 +89817,7 @@
       "title": "The Long Voyage Home",
       "slug": "tingyun-fugue",
       "release": 1735120800000,
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "Anya Floris",
@@ -91240,7 +91240,7 @@
       "slug": "topaz",
       "release": 1698483600000,
       "releasePatch": "1.4",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm7430885|Sam Slade",
@@ -92619,7 +92619,7 @@
       "title": "Chaos In the Deep",
       "slug": "trailblazer-destruction",
       "release": 1682460000000,
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "Shaun Mendum",
@@ -94135,7 +94135,7 @@
           "title": "Chaos In the Deep",
           "slug": "trailblazer-destruction",
           "release": 1682460000000,
-          "updated": 1780178400000,
+          "updated": 1780185600000,
           "sourceOrder": 0,
           "voiceActors": {
             "english": "Shaun Mendum",
@@ -95646,7 +95646,7 @@
           "title": "The Return",
           "slug": "trailblazer-preservation",
           "release": 1682460000000,
-          "updated": 1780178400000,
+          "updated": 1780185600000,
           "sourceOrder": 0,
           "icon": "../../Database/GameData/hsr/assets/characters/round/8003.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/8003.webp",
@@ -97013,7 +97013,7 @@
           },
           "slug": "trailblazer-harmony",
           "release": 1715158800000,
-          "updated": 1780178400000,
+          "updated": 1780185600000,
           "sourceOrder": 0,
           "icon": "../../Database/GameData/hsr/assets/characters/round/8005.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/8005.webp",
@@ -98379,7 +98379,7 @@
           "title": "Night Veil, Shroud the Silent Past",
           "slug": "trailblazer-remembrance",
           "release": 1736935200000,
-          "updated": 1780178400000,
+          "updated": 1780185600000,
           "sourceOrder": 0,
           "icon": "../../Database/GameData/hsr/assets/characters/round/8007.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/8007.webp",
@@ -99795,7 +99795,7 @@
           "title": "Arcadia Revisited",
           "slug": "trailblazer-elation",
           "release": 1776848400000,
-          "updated": 1780178400000,
+          "updated": 1780185600000,
           "sourceOrder": 0,
           "icon": "../../Database/GameData/hsr/assets/characters/round/8009.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/8009.webp",
@@ -101234,7 +101234,7 @@
       "slug": "tribbie",
       "release": 1740564000000,
       "releasePatch": "3.1",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm6442425|Hayden Daviau",
@@ -102613,7 +102613,7 @@
       "slug": "welt",
       "release": 1682460000000,
       "releasePatch": "1.0",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm1813063|Corey Landis",
@@ -103996,7 +103996,7 @@
       "slug": "yanqing",
       "release": 1682460000000,
       "releasePatch": "1.0",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm6442558|Amber May",
@@ -105377,7 +105377,7 @@
       "slug": "yunli",
       "release": 1722416400000,
       "releasePatch": "2.4",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm7446036|Brenna Larsen",
@@ -106755,7 +106755,7 @@
       "slug": "arlan",
       "release": 1682460000000,
       "releasePatch": "1.0",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm8792229|Dani Chambers",
@@ -108106,7 +108106,7 @@
       "slug": "asta",
       "release": 1682460000000,
       "releasePatch": "1.0",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm5993940|Felecia Angelle",
@@ -109461,7 +109461,7 @@
       "slug": "dan-heng",
       "release": 1682460000000,
       "releasePatch": "1.0",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm8855652|Nicholas Leung",
@@ -110825,7 +110825,7 @@
       "slug": "gallagher",
       "release": 1711533600000,
       "releasePatch": "2.1",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm2819770|Erik Braa",
@@ -112225,7 +112225,7 @@
       "slug": "guinaifen",
       "release": 1698483600000,
       "releasePatch": "1.4",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm5098656|Morgan Laur\u00e9",
@@ -113577,7 +113577,7 @@
       "slug": "hanya",
       "release": 1701856800000,
       "releasePatch": "1.5",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm10931637|Suzie Yeung",
@@ -114936,7 +114936,7 @@
       "slug": "herta",
       "release": 1682460000000,
       "releasePatch": "1.0",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm3021642|PJ Mattson",
@@ -116287,7 +116287,7 @@
       "slug": "hook",
       "release": 1682460000000,
       "releasePatch": "1.0",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm5993940|Felecia Angelle",
@@ -117642,7 +117642,7 @@
       "slug": "luka",
       "release": 1689757200000,
       "releasePatch": "1.2",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "Howard Wang",
@@ -119044,7 +119044,7 @@
       "slug": "lynx",
       "release": 1695200400000,
       "releasePatch": "1.3",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm10862160|Risa Mei",
@@ -120398,7 +120398,7 @@
       "slug": "march-7th",
       "release": 1682460000000,
       "releasePatch": "1.0",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "Skyler Davenport",
@@ -121762,7 +121762,7 @@
       "slug": "march-7th-swordmaster",
       "release": 1722416400000,
       "releasePatch": "1.0",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "Skyler Davenport",
@@ -123173,7 +123173,7 @@
       "slug": "misha",
       "release": 1709200800000,
       "releasePatch": "2.0",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm11767862|Cat Protano",
@@ -124529,7 +124529,7 @@
       "slug": "moze",
       "release": 1725958800000,
       "releasePatch": "2.5",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm9261313|Ben Balmaceda",
@@ -125889,7 +125889,7 @@
       "slug": "natasha",
       "release": 1682460000000,
       "releasePatch": "1.0",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm1752885|Elizabeth Maxwell",
@@ -127243,7 +127243,7 @@
       "slug": "pela",
       "release": 1682460000000,
       "releasePatch": "1.0",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm3125992|Xanthe Huynh",
@@ -128597,7 +128597,7 @@
       "slug": "qingque",
       "release": 1682460000000,
       "releasePatch": "1.0",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm6548466|Bryn Apprill",
@@ -130000,7 +130000,7 @@
       "slug": "sampo",
       "release": 1682460000000,
       "releasePatch": "1.0",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm0741648|Roger Rose",
@@ -131355,7 +131355,7 @@
       "slug": "serval",
       "release": 1682460000000,
       "releasePatch": "1.0",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm4630205|Natalie Van Sistine",
@@ -132709,7 +132709,7 @@
       "slug": "sushang",
       "release": 1682460000000,
       "releasePatch": "1.0",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm10698863|Anjali Kunapaneni",
@@ -134064,7 +134064,7 @@
       "slug": "tingyun",
       "release": 1682460000000,
       "releasePatch": "1.0",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm14824546|Anya Floris",
@@ -135415,7 +135415,7 @@
       "slug": "xueyi",
       "release": 1703671200000,
       "releasePatch": "1.6",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm7095498|Jenny Yokobori",
@@ -136766,7 +136766,7 @@
       "slug": "yukong",
       "release": 1687942800000,
       "releasePatch": "1.1",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm5261299|Dawn M. Bennett",

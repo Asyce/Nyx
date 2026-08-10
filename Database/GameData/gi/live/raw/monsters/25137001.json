@@ -1,0 +1,377 @@
+{
+  "name": "Rugged Elder Leshy",
+  "desc": "A Leshy that grows in forests and wilds.\\nWith only fragmentary sentience and no ability to speak, Leshies may appear to be the result of the Golden Realm's early experiments. Yet according to records, the truth is the opposite. Only after its artisans had almost fully mastered the authority over life did they create this race of fae.\\nPerhaps there is some true purpose within this that neither the fae nor humans of the present can fully understand.",
+  "icon": "UI_MonsterIcon_Leshy_Mature_01",
+  "codex": "BEAST",
+  "title": "Leshy Born of the Mystic Wilds",
+  "special_names": [
+    "Juvenile Tree Segment"
+  ],
+  "reward": [
+    {
+      "id": 202,
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    {
+      "id": 112157,
+      "rank": 4,
+      "icon": "UI_ItemIcon_112157"
+    },
+    {
+      "id": 112156,
+      "rank": 3,
+      "icon": "UI_ItemIcon_112156"
+    },
+    {
+      "id": 112155,
+      "rank": 2,
+      "icon": "UI_ItemIcon_112155"
+    },
+    {
+      "id": 112148,
+      "rank": 3,
+      "icon": "UI_ItemIcon_112148"
+    },
+    {
+      "id": 112147,
+      "rank": 2,
+      "icon": "UI_ItemIcon_112147"
+    },
+    {
+      "id": 112146,
+      "rank": 1,
+      "icon": "UI_ItemIcon_112146"
+    },
+    {
+      "id": 400023,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10005_4"
+    },
+    {
+      "id": 400033,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10007_4"
+    },
+    {
+      "id": 400043,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10009_4"
+    },
+    {
+      "id": 400022,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10005_4"
+    },
+    {
+      "id": 400032,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10007_4"
+    },
+    {
+      "id": 400042,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10009_4"
+    },
+    {
+      "id": 400062,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10013_4"
+    }
+  ],
+  "child": {
+    "25137001": {
+      "monster_name": "Leshy_Mature_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010017,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010017,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010017,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": -0.2,
+        "grass": 0.3,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.3,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 108.672,
+        "atk": 62.8,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25137002": {
+      "monster_name": "Leshy_Mature_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "kill_drop_id": 0,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": -0.2,
+        "grass": 0.3,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.3,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 137.15671,
+        "atk": 94.62242,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25137003": {
+      "monster_name": "Leshy_Mature_03",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "kill_drop_id": 0,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": -0.2,
+        "grass": 0.3,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.3,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 21.945072,
+        "atk": 94.62242,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25137004": {
+      "monster_name": "Leshy_Mature_04",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "kill_drop_id": 0,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": -0.2,
+        "grass": 0.3,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.3,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 84.12278,
+        "atk": 94.62242,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25137005": {
+      "monster_name": "Leshy_Mature_03",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "kill_drop_id": 0,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": -0.2,
+        "grass": 0.3,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.3,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 21.945072,
+        "atk": 94.62242,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25137006": {
+      "monster_name": "Leshy_Mature_03",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "kill_drop_id": 0,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": -0.2,
+        "grass": 0.3,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.3,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 21.945072,
+        "atk": 94.62242,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25137091": {
+      "monster_name": "Leshy_Mature_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "kill_drop_id": 0,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0,
+        "grass": 0,
+        "water": 0,
+        "elec": 0,
+        "wind": 0,
+        "ice": 0,
+        "rock": 0,
+        "physical": 0
+      },
+      "base": {
+        "hp": 128.01292,
+        "atk": 22.529148,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

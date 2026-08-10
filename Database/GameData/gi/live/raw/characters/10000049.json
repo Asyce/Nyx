@@ -4112,22 +4112,6 @@
         "tag": "ExtraAttack",
         "group": "default"
       },
-      "gauge": 1,
-      "poise": {
-        "level": "LV2",
-        "value": 20
-      },
-      "element": "Fire",
-      "attack_type": "Default",
-      "strike_type": "Pierce",
-      "damage_param": "WithFireDamage"
-    },
-    {
-      "name": "Bullet_Yoimiya_Arrow_WithFire_Material",
-      "icd": {
-        "tag": "ExtraAttack",
-        "group": "default"
-      },
       "gauge": 4,
       "poise": {
         "level": "LV2",
@@ -4137,6 +4121,22 @@
       "attack_type": "Default",
       "strike_type": "Pierce",
       "damage_param": "NoFireDamage"
+    },
+    {
+      "name": "Bullet_Yoimiya_Arrow_WithFire_Material",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 20
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Pierce",
+      "damage_param": "WithFireDamage"
     },
     {
       "name": "Bullet_Yoimiya_GoldFish_Material",
@@ -4205,21 +4205,6 @@
         "tag": "FallingAttack",
         "group": "default"
       },
-      "poise": {
-        "level": "LV2",
-        "value": 10
-      },
-      "element": "None",
-      "attack_type": "Melee",
-      "strike_type": "Pierce",
-      "damage_param": "FallingAnthem_Normal_Loop_Damage"
-    },
-    {
-      "name": "FallingAnthem",
-      "icd": {
-        "tag": "FallingAttack",
-        "group": "default"
-      },
       "gauge": 1,
       "poise": {
         "level": "LV2",
@@ -4245,6 +4230,21 @@
       "attack_type": "Melee",
       "strike_type": "Pierce",
       "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Pierce",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
     }
   ],
   "energy": [

@@ -12,7 +12,7 @@
       "key": "monsters",
       "title": "Monsters",
       "source": "GameData",
-      "count": 547,
+      "count": 584,
       "items": [
         {
           "id": "gi-mon-20010101",
@@ -1935,6 +1935,166 @@
           "text": "Samurai who have fallen into banditry.\nThey practiced martial arts since they were young, but lost the opportunity to serve the people due to certain reasons and turned from the righteous path. Their blade's edges are not cold like ordinary steel, but instead burn with a bitter flame. They seem to have used paper seals, created from a lost Kamuna art, to set their blades afire."
         },
         {
+          "id": "gi-mon-25130101",
+          "name": "Winged Halberd-Knight",
+          "kind": "monster",
+          "art": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Human_Girl_Vila_Glaive.webp",
+          "fields": {
+            "type": "Beast"
+          },
+          "text": "A winged Vila capable of flight.\nRecords show that in the century after the Tsaritsa ascended the throne, the Vila went through many turbulent periods. Among them were fae who launched small-scale rebellions out of dissatisfaction with the Tsaritsa's policies toward the fae nobility.\nThe rebellions were soon suppressed, but the fact that their leaders were descendants of the old Vila nobility once led to a major split within the Vila people."
+        },
+        {
+          "id": "gi-mon-25130201",
+          "name": "Winged Soarer Knight",
+          "kind": "monster",
+          "art": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Human_Girl_Vila_Blade.webp",
+          "fields": {
+            "type": "Beast"
+          },
+          "text": "A winged Vila capable of flight.\nIt's said that the Vila were among the fae clans that followed the Belyi Tsar from the very beginning of his campaign to unify the frozen lands. Their ability to take brief flight gives them exceptional mobility, allowing them to scout enemy formations and carry out long-distance raids with ease.\nMost members of the Druzhna, the personal guard founded during the Belyi Tsar reign, were Vila."
+        },
+        {
+          "id": "gi-mon-25131001",
+          "name": "Volkodlak Lobber",
+          "kind": "monster",
+          "art": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Vukodlak_Strong_NoWeapon.webp",
+          "fields": {
+            "type": "Beast"
+          },
+          "text": "A relatively large and powerfully built type of Volkodlak found among the many that roam Snezhnaya.\nWith the strength of beasts and humanoid bodies, their powerful upper bodies allow them to throw with greater force and precision. Volkodlak may not excel at shaping Prime Ice or wielding elemental power, but among the many fae lineages, few can match their command over physical strength."
+        },
+        {
+          "id": "gi-mon-25131201",
+          "name": "Volkodlak Basher",
+          "kind": "monster",
+          "art": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Vukodlak_Strong_Sword.webp",
+          "fields": {
+            "type": "Beast"
+          },
+          "text": "A relatively large and powerfully built type of Volkodlak found among the many that roam Snezhnaya.\nWith the strength of beasts and humanoid bodies, they possess a feral instinct for bringing their own power to bear. Should an untrained human face such a Volkodlak with weapons in hand, victory would undoubtedly belong to the latter."
+        },
+        {
+          "id": "gi-mon-25131401",
+          "name": "Volkodlak Raider",
+          "kind": "monster",
+          "art": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Vukodlak_Thin_Sword.webp",
+          "fields": {
+            "type": "Beast"
+          },
+          "text": "A relatively small and agile type of Volkodlak found among the many that roam Snezhnaya.\nWith their swift movements and senses keener than a human's, they can evade many attacks in battle by instinct alone, making them quite troublesome opponents in close-quarters combat."
+        },
+        {
+          "id": "gi-mon-25131601",
+          "name": "Volkodlak Sharpshooter",
+          "kind": "monster",
+          "art": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Vukodlak_Thin_Pistol.webp",
+          "fields": {
+            "type": "Beast"
+          },
+          "text": "A relatively small and agile type of Volkodlak found among the many that roam Snezhnaya.\nThey possess senses keener than those of humans. Whether in their perception of wind speed or their vision under certain conditions, these traits give them unique advantages, allowing them to achieve far greater accuracy than ordinary people when firing bows, crossbows, or cannons from long range."
+        },
+        {
+          "id": "gi-mon-25132601",
+          "name": "Leomastiff Guard",
+          "kind": "monster",
+          "art": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Volkodlak_Sheepdog.webp",
+          "fields": {
+            "type": "Beast"
+          },
+          "text": "A Volkodlak of the canine clans that usually appears somewhat lazy.\nAmong the many Volkodlak clans, the canine clans have always enjoyed a better reputation. Loyal, friendly, and usually mild-mannered. Though they will turn ferocious when those they have sworn to serve, or friends they know well, are placed in danger, striking down anyone they deem enemies.\nIt is said that during a war long ago, their clan fought His Majesty the Tsar to the last in defense of their own king, and for this, earned His Majesty's favor."
+        },
+        {
+          "id": "gi-mon-25132701",
+          "name": "Long-Eared Striker",
+          "kind": "monster",
+          "art": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Volkodlak_Arctichare.webp",
+          "fields": {
+            "type": "Beast"
+          },
+          "text": "A Volkodlak that usually conceals its slender body beneath a cloak and moves in secrecy.\nIt is said that long ago, the artisans of the Golden City, who held the authority of creation, fashioned bodies for fae for many different purposes. This type of Volkodlak was originally created to test the limits of reproductive capability.\nYet after the calamity that reduced that golden realm to ruins, the long-eared clan survived to the present day thanks to their great numbers.\nNow, they are masters of their own bodies. Agile enough to move deftly even across snow, they have become a threat that those crossing the snowy plains must handle with care."
+        },
+        {
+          "id": "gi-mon-25132801",
+          "name": "Channel Contact",
+          "kind": "monster",
+          "art": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Volkodlak_Beaver.webp",
+          "fields": {
+            "type": "Beast"
+          },
+          "text": "A cunning Volkodlak that disguises its hand cannon as a tree trunk.\nSkilled at disguising the weapons and cargo they carry, they are often entrusted with transporting goods or relaying intelligence.\nThe hand cannon they carry was likely something they made in their spare time. At times, they also use it to fire signal rounds disguised as fireworks.\nDon't be fooled by their appearance. These fae are far more shrewd and cunning than they seem."
+        },
+        {
+          "id": "gi-mon-25133601",
+          "name": "Fanged Zealot",
+          "kind": "monster",
+          "art": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Volkodlak_Mammoth.webp",
+          "fields": {
+            "type": "Beast"
+          },
+          "text": "A Volkodlak that has become extremely powerful after inheriting more of the mighty power in its bloodline.\nAmong the many different Volkodlaks, those resembling giant elephants or mammoths possess some of the noblest bloodlines. Their clan once produced many formidable war leaders, many of whom even served as close retainers to the King of Beasts.\nYet the greater an individual fae's power and the longer its life, the harder it becomes for such beings to form a clan. Compared with other Volkodlaks, this type is now far rarer in Snezhnaya."
+        },
+        {
+          "id": "gi-mon-25133701",
+          "name": "Voywolf Hunter",
+          "kind": "monster",
+          "art": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Volkodlak_Greyhound.webp",
+          "fields": {
+            "type": "Beast"
+          },
+          "text": "A Volkodlak that has become extremely powerful after inheriting more of the mighty power in its bloodline.\nTheir clan once prospered to the point that they could serve as an independent army under the King of Beasts. Yet after the Belyi Tsar, master of the Pale Star's royal court, unified the frozen lands, the clan's relatively small losses in the war caused them to fall under suspicion. They gradually declined, and by the time the Tsaritsa ascended the throne, they had withdrawn from the center of power in Snezhnaya. Today, most wolf-pack Volkodlak make their homes in the snowy plains and mountain forests."
+        },
+        {
+          "id": "gi-mon-25135001",
+          "name": "Glaciomancer",
+          "kind": "monster",
+          "art": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Human_Female_Staff_Snegurochka.webp",
+          "fields": {
+            "type": "Beast"
+          },
+          "text": "A Snegovik born of love amid the snow and ice.\nFemale Snegovik are known as Snegurochka, and most are born as mages capable of freely wielding the power of ice and snow. It's said that when Snegovik were first created, their souls were incomplete, and only by falling in love with humans could they make themselves whole.\nYet once a Snegovik has attained wholeness, does it still need love? Perhaps not.\nMaybe this is why so many stories of love between Snegovik and human end in tragedy."
+        },
+        {
+          "id": "gi-mon-25135101",
+          "name": "Glacial Warden",
+          "kind": "monster",
+          "art": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Snegurochka_Male.webp",
+          "fields": {
+            "type": "Beast"
+          },
+          "text": "A Snegovik born of love amid the snow and ice.\nMale Snegovik are natural-born knights, and most are born able to freely forge weapons from ice and snow.\nLegend tells that during the Belyi Tsar's campaign against the dark tide, a Snegovik serving as his guard unleashed a power that didn't belong to his kind, transforming into a towering giant.\nThough his final fate remains unknown, one who violated such a taboo surely could not have met with a happy end."
+        },
+        {
+          "id": "gi-mon-25137001",
+          "name": "Rugged Elder Leshy",
+          "kind": "monster",
+          "art": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Leshy_Mature_01.webp",
+          "fields": {
+            "type": "Beast"
+          },
+          "text": "A Leshy that grows in forests and wilds.\nWith only fragmentary sentience and no ability to speak, Leshies may appear to be the result of the Golden Realm's early experiments. Yet according to records, the truth is the opposite. Only after its artisans had almost fully mastered the authority over life did they create this race of fae.\nPerhaps there is some true purpose within this that neither the fae nor humans of the present can fully understand."
+        },
+        {
+          "id": "gi-mon-25138001",
+          "name": "Juvenile Tree Segment",
+          "kind": "monster",
+          "art": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Leshy_Normal_01.webp",
+          "fields": {
+            "type": "Beast"
+          },
+          "text": "A Leshy that grows in forests and wilds.\nAmong the many fae of Snezhnaya, Leshies are a very unusual kind, rarely appearing in cities. They may well be the longest-lived among all fae, and few members of other long-lived races have ever witnessed a Leshy's life from beginning to end. Of course, most people would likely struggle even to distinguish one Leshy from another."
+        },
+        {
+          "id": "gi-mon-25140101",
+          "name": "Immortal Construct",
+          "kind": "monster",
+          "art": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Zharptitsa_02.webp",
+          "fields": {
+            "type": "Beast"
+          },
+          "text": "A byproduct created by the alchemist Koshchei during his creation of the individual known as the Firebird.\nPerhaps this was the gloomy alchemist's habit: whenever one experimental subject from a batch succeeded, all the others would be abandoned or disposed of as he pleased.\nThis derivative creation should have fused with some form of power and reached completion. Now, however, it can only wander endlessly through the mountain gorges as an incomplete, mindless beast."
+        },
+        {
           "id": "gi-mon-25210101",
           "name": "Eremite Axe Vanguard",
           "kind": "monster",
@@ -3255,6 +3415,56 @@
           "text": "An ancient monster drawn to moonlight, this gecko dwells deep within layers of rock.\nThe gradual accumulation of kuuvahki has crystallized its body into segments as precise as mechanical components. These parts can harden and form stone spikes used to repel intruders.\nSome scholars believe this unusual lizard's ancestors once roamed the surface. Over the ages, sweeping changes in the world drove them underground, where they have since lived in darkness for countless generations. Though their memory of true moonlight has faded, instinct remains. On nights of the full moon, they are compelled to gnaw on rock and soil suffused with lunar radiance to preserve their bloodline."
         },
         {
+          "id": "gi-mon-26310101",
+          "name": "Chimeric Armored Beast",
+          "kind": "monster",
+          "art": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Chimera_BeetleLion.webp",
+          "fields": {
+            "type": "Beast"
+          },
+          "text": "A product of bio-alchemy that was once widespread across the frozen lands, an aberrant chimeric monster.\nIf a four-legged beast were given a carapace and charging horn like those of an Onikabuto, it might well become a shock force capable of breaking through enemy formations.\nIn theory, man-made monsters designed around a single function rarely survive in the wild. Once they lose the place or purpose for which they were made, most perish for having defied the laws of nature. Clearly, however, the Armored Beast is not one of them.\nToday, on the frozen lands of Snezhnaya, Armored Beasts can often be seen hunting in packs."
+        },
+        {
+          "id": "gi-mon-26310201",
+          "name": "Chimeric Burrowbeast",
+          "kind": "monster",
+          "art": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Chimera_OwlPangolin.webp",
+          "fields": {
+            "type": "Beast"
+          },
+          "text": "A product of bio-alchemy that was once widespread across the frozen lands, an aberrant chimeric monster.\nIf a monster that burrows and moves through earth and snow were granted vision that could see all within the shadows, could it become an even stronger predator?\nThe experiment proved astonishingly successful. These Burrowbeasts move beneath the surface at night, digging traps in the dark or hiding in the shadows to hunt.\nAccording to a report in Vestnik, a worker living in Svetloledovka once saw a giant Burrowbeast nearly as tall as two people... though that is probably nothing more than a wild rumor."
+        },
+        {
+          "id": "gi-mon-26310301",
+          "name": "Chimeric Winged Elephant",
+          "kind": "monster",
+          "art": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Chimera_ElephantBird.webp",
+          "fields": {
+            "type": "Beast"
+          },
+          "text": "A product of bio-alchemy that was once widespread across the frozen lands, an aberrant chimeric monster.\nA short-legged elephant with wings could likely migrate without being restricted by terrain, and would also be able to reach fruit growing in higher places.\nFor that purpose alone, its creator brought such a beast into being. Later, during the war against the dark tide, Chimeric Winged Elephants worked alongside the Vila in intelligence and communications, ensuring that the Belyi Tsar's commands could pass smoothly and swiftly as his army advanced."
+        },
+        {
+          "id": "gi-mon-26310401",
+          "name": "Chimeric Horned Bear",
+          "kind": "monster",
+          "art": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Chimera_BearDeer.webp",
+          "fields": {
+            "type": "Beast"
+          },
+          "text": "A product of bio-alchemy, a man-made monster with an exceptionally unusual formation.\nA man-made monster not formed according to its creator's design, but through the spontaneous assembly of life segments. As a result, it came to possess certain wondrous traits, including the ability to freely wield elemental power.\nEven if life is broken down until almost nothing remains but segments, could some will or power still guide them to grow according to a mysterious plan?\nPerhaps no one knows the answer to that by now."
+        },
+        {
+          "id": "gi-mon-26310501",
+          "name": "Chimeric Winged Lion",
+          "kind": "monster",
+          "art": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Chimera_Manticore.webp",
+          "fields": {
+            "type": "Beast"
+          },
+          "text": "A product of bio-alchemy, one of the man-made monsters that was abandoned.\nTo bring a certain great wish to fruition, an alchemist created numerous primordial bodies known as \"Prototypes\" through a technique that must never be retold.\nOf these, only one successfully grew into the perfect creation he had planned. The others, though close to perfection, ultimately failed, and were carelessly remade into two-headed monsters.\nThough regarded as failures, these special two-headed monsters still possess tremendous power. Among chimeras, there is nothing that can stand against them."
+        },
+        {
           "id": "gi-mon-28010101",
           "name": "Golden Crab",
           "kind": "monster",
@@ -3675,6 +3885,16 @@
           "text": "Humanity's best friend!\nThese dogs have dark gold fur, and of Fontaine's hunting hounds their blood is the purest. Loyal, possessed of acute noses, and agile, these aid humans in chasing game and criminals alike.\nIt is even said that they do well in the water, though few have ever witnessed them swimming \u2014 most nowadays take this saying to be a curious invention of The Steambird."
         },
         {
+          "id": "gi-mon-28020414",
+          "name": "Morozhound",
+          "kind": "monster",
+          "art": "../../Database/GameData/gi/assets/monsters/UI_AnimalIcon_SledDog_01.webp",
+          "fields": {
+            "type": "Animal"
+          },
+          "text": "Humanity's best friend!\nMorozhounds have stunning endurance and gentle personalities. And so, humans fitted them with harnesses and had them pull sleds, forming the first transport teams on the snowy plains.\nToday, dog-pulled sleds have slowly become more of a tourist attraction in small border towns, with a tiny minority who still respect sledding as a traditional competitive sport. Still, the people of the snowfields continue to regard Morozhounds as the closest of companions."
+        },
+        {
           "id": "gi-mon-28020501",
           "name": "Sapphire",
           "kind": "monster",
@@ -3895,6 +4115,16 @@
           "text": "Named for the two long stretches of mane that extend from their shoulders, that emit a soft glow when influenced by kuuvahki, as if this creature were cowled in moonlight.\nThough Chic Badgers look cute as they roll around on the ground, they are exceptional hunters. Stunningly quick while sprinting, anything that angers them will have little time to make its escape.\nThey have developed the habit of storing food to last the winter season, but they coat said food in scent gland secretions to prevent the theft of their hard-earned stash. As such, if anyone were to claim that they \"survived by eating a Chic Badger's stash,\" they are either a liar or an entity who stands high atop the food chain \u2014 in force of will, certainly, if in nothing else..."
         },
         {
+          "id": "gi-mon-28021404",
+          "name": "Fuzzbadger",
+          "kind": "monster",
+          "art": "../../Database/GameData/gi/assets/monsters/UI_AnimalIcon_Wolverine_04.webp",
+          "fields": {
+            "type": "Animal"
+          },
+          "text": "Close kin of the Chic Badgers, these animals make their dwelling in the Snezhnayan interior.\nFuzzbadgers are clad in long, thick, and soft fur, allowing them to travel as they please, even in the coldest of climes.\nDespite their fluffy appearance, they possess a fierce temperament and never back down, even when facing massive foes. Such is the law of survival on the snowy plains: Do not tread upon the territory of a Fuzzbadger carelessly, lest they show their claws and swiftly make an example of any trespassers."
+        },
+        {
           "id": "gi-mon-28021501",
           "name": "Rimehorn Deer",
           "kind": "monster",
@@ -3913,6 +4143,36 @@
             "type": "Animal"
           },
           "text": "A tall and gentle creature, with eyes that seem to see through all things.\nFound across Mondstadt's plains and woodland borders, it feeds on fresh leaves and fruit. As the seasons shift, it moves and migrates accordingly, though it always remains close to the lands it knows best.\nLight on its feet and keen of hearing, the Camelhorn Deer can detect danger carried on even the faintest breeze. For this reason, only experienced hunters who know how to conceal their presence and sound have any chance of approaching it unnoticed."
+        },
+        {
+          "id": "gi-mon-28021503",
+          "name": "Severelk",
+          "kind": "monster",
+          "art": "../../Database/GameData/gi/assets/monsters/UI_AnimalIcon_Reindeer_03.webp",
+          "fields": {
+            "type": "Animal"
+          },
+          "text": "Tall and tame animals with a pair of eyes that seem to see through all things.\nThe Severelk living on the snowy plains have thick fur and sturdy horns, yet their feet are light and fleet, and their sense of smell is so keen that they can forage for food even in the thickest snow, and they flee pursuit from predators swiftly.\nIn old Snezhanyan fairy tales, Severelk are gentle and winsome, and will enter the dreams of children to bring them the gift that is \"growing up well.\""
+        },
+        {
+          "id": "gi-mon-28021601",
+          "name": "Fluffahog",
+          "kind": "monster",
+          "art": "../../Database/GameData/gi/assets/monsters/UI_AnimalIcon_Hedgehog_01.webp",
+          "fields": {
+            "type": "Animal"
+          },
+          "text": "Beasts covered from head to toe in spikes save for their soft bellies.\nThe Fluffahog is a gentle soul that enjoys sleeping. Indeed, they are skilled at making hidden nests using plants and leaves, so that they can have sweet dreams even in the winter cold. If their nests are discovered, they will curl into a ball, presenting their wall of tough spikes to the world, as though meaning to repel all threats this way.\nIn Snezhnayan folk stories, the Fluffahog is the smartest amongst animals, knowing formulae for wondrous herbal remedies, comprehending the secrets to stemming the tides of weakening age, even knowing how to open a lock that has no key."
+        },
+        {
+          "id": "gi-mon-28021701",
+          "name": "Polyarbear",
+          "kind": "monster",
+          "art": "../../Database/GameData/gi/assets/monsters/UI_AnimalIcon_Bear_01.webp",
+          "fields": {
+            "type": "Animal"
+          },
+          "text": "Animals that can survive even extreme cold, and that boast large bodies and thick fur.\nDespite their size, Polyarbears are actually quite agile, being able to leap between ice floes and pursue their prey without making a sound, making them the best hunters in the tundra.\nSkilled in combat, the Polyarbear is no tame beast, and will not submit to either beast or man easily. As such, they are regarded in some regions of Snezhnaya as a symbol of strength."
         },
         {
           "id": "gi-mon-28022001",
@@ -4413,6 +4673,26 @@
             "type": "Aviary"
           },
           "text": "A sharp-eyed eagle whose noble crown further enhances its regal bearing.\nThe Crowned Eagle excels at circling high above its prey, and due to its strong build and wide wingspan, its dive attacks are particularly lethal.\nA faint glow ripples across the Crowned Eagle's feathers due to the influence of kuuvahki. It is a creature that is fiercely proud of its crest \u2014 whether it is confronting a rival or resting among its kin, its tall, eminent crown feathers shift with its mood, as though it is quietly declaring its lofty nature."
+        },
+        {
+          "id": "gi-mon-28030711",
+          "name": "Red-Bellied Plover",
+          "kind": "monster",
+          "art": "../../Database/GameData/gi/assets/monsters/UI_AnimalIcon_Bird_Small_Snezhnaya_01.webp",
+          "fields": {
+            "type": "Aviary"
+          },
+          "text": "Small Snezhnayan flying birds named for their feathers.\nRed-Bellied Plovers occasionally call in slow, gentle, and even slightly mournful voices. As such, poets have written of them as singing about someone's tragedies.\nOf course, these are just romantic interpolations by humans. Red-Bellied Plovers are an innocent, even naive sort, agile in flight, and tough to boot. Forests, fruit orchards, and the water's edge can all serve as their habitats. And for this Plover species, there is likely no more critical activity in life than foraging."
+        },
+        {
+          "id": "gi-mon-28030712",
+          "name": "Nochhornowl",
+          "kind": "monster",
+          "art": "../../Database/GameData/gi/assets/monsters/UI_AnimalIcon_Owl_01.webp",
+          "fields": {
+            "type": "Aviary"
+          },
+          "text": "Birds that make Snezhnaya their home. They have a full-body covering of feathers that evoke the night sky, and their habit of hunting after sunset has earned them their name.\nAs the most agile hunters to stalk the tundra, the Nochhornowl is skilled at the arts of disguise, observation, and rapid pursuit.\nMany hunters see them as a symbol of wisdom, believing them to have spirits and giving them due respect. In return, these owls sometimes guide hunters, sending them messages from the forest depths."
         },
         {
           "id": "gi-mon-28030723",
@@ -5065,6 +5345,66 @@
           "text": "A primitive animal with an exceedingly simple body structure.\nIn the poetry of ancient Fontaine, jellyfish were often paired with butterflies as symbols of the soul. People of bygone times and Remurian philosophers alike embraced this idea: that the soul dwells within the body as a butterfly is born from a caterpillar; that the soul passes endlessly through all waters, or through melody itself, just as a jellyfish grants itself new life at the moment of its own death.\nAs an aside, the followers of the Mistress of Many Waters, later known as the illustrious and noble Lochknights, denounced the Remurian philosophers' views with righteous fury, branding them heresy that had to be cast aside entirely. As for how those views differed from their own beliefs, that was apparently a much deeper matter of principle, and not one to be discussed lightly."
         },
         {
+          "id": "gi-mon-28042001",
+          "name": "Charcoal Snowfin",
+          "kind": "monster",
+          "art": "../../Database/GameData/gi/assets/monsters/UI_ItemIcon_131054.webp",
+          "fields": {
+            "type": "Fish"
+          },
+          "text": "A plump, spherical Snezhnayan fish, this species might look like a distant cousin to the pufferfish found throughout Teyvat. However, the two actually belong to entirely separate lineages. When the Fishing Association first recorded it, its code name was \"Snowland Roundfin.\" After more than a dozen generations of anglers, this informal name gradually evolved into \"Snowfin.\"\nThe Charcoal Snowfin is the most common subspecies in this family. It is said that the fine, powdery scales contain special components. When dried and ground, and then mixed with the dried powder of Golden Fern roots, they can serve as a remarkably efficient fire starter, prized by many Snezhnayan adventurers."
+        },
+        {
+          "id": "gi-mon-28042002",
+          "name": "Cream Snowfin",
+          "kind": "monster",
+          "art": "../../Database/GameData/gi/assets/monsters/UI_ItemIcon_131055.webp",
+          "fields": {
+            "type": "Fish"
+          },
+          "text": "A plump, spherical Snezhnayan fish, this species might look like a distant cousin to the pufferfish found throughout Teyvat. However, the two actually belong to entirely separate lineages. When the Fishing Association first recorded it, its code name was \"Snowland Roundfin.\" After more than a dozen generations of anglers, this informal name gradually evolved into \"Snowfin.\"\nThe Cream Snowfin, thanks to its near-pure-white coloration and its scarcity, is considered the most precious of Snezhnayan fish. Legend has it that the moment its waters grow even slightly impure, other colors begin to leach into its body. Several fairy tales cast it as their protagonist, telling the dreamlike story of a gifted young angler-lad following one of these Snowfins to the \"Kingdom of Cream\" \u2014 a story that briefly caused a citywide cream shortage."
+        },
+        {
+          "id": "gi-mon-28042003",
+          "name": "Moonlight Snowfin",
+          "kind": "monster",
+          "art": "../../Database/GameData/gi/assets/monsters/UI_ItemIcon_131056.webp",
+          "fields": {
+            "type": "Fish"
+          },
+          "text": "A plump, spherical Snezhnayan fish, this species might look like a distant cousin to the pufferfish found throughout Teyvat. However, the two actually belong to entirely separate lineages. When the Fishing Association first recorded it, its code name was \"Snowland Roundfin.\" After more than a dozen generations of anglers, this informal name gradually evolved into \"Snowfin.\"\nFolklore claims the Moonlight Snowfin has the strongest endurance and the best sense of direction of any Snezhnayan fish, its unusual coloration being a gift from moonlight \u2014 its ancestors, so the story goes, once traveled far to the waters of Nod-Krai and were baptized in moonbeams. Merchants returning from Nod-Krai deny the tale, and biologists point out that the color most likely comes from the underwater plants it favors as food. But since \"moonlight\" is such a pleasant and memorable prefix, the name has stuck to this day."
+        },
+        {
+          "id": "gi-mon-28042101",
+          "name": "Ruby Starbloom Fish",
+          "kind": "monster",
+          "art": "../../Database/GameData/gi/assets/monsters/UI_ItemIcon_131057.webp",
+          "fields": {
+            "type": "Fish"
+          },
+          "text": "A special species that swims the waters of Snezhnaya. Viewed from the front, its six fins form a shape resembling stars and snowflakes, and so the angler who first discovered them called them \"Starbloom Fish.\" The red subspecies is close in color to a red beet and was therefore given the prefix \"Ruby.\" That said, the prefix is only a description of appearance. Some scholars have found that the surface coloration serves mainly to intimidate predators, thereby protecting the fish. It is thus somewhat ironic that from a human perspective, this makes them look all the more delicious."
+        },
+        {
+          "id": "gi-mon-28042102",
+          "name": "Frostpetal Starbloom Fish",
+          "kind": "monster",
+          "art": "../../Database/GameData/gi/assets/monsters/UI_ItemIcon_131058.webp",
+          "fields": {
+            "type": "Fish"
+          },
+          "text": "A special species that swims the waters of Snezhnaya. Viewed from the front, its six fins form a shape resembling stars and snowflakes, and so the angler who first discovered them called them \"Starbloom Fish.\" The azure subspecies has coloration akin to the outer petal-edges of a Frostfairy Flower, and so was given the prefix \"Frostpetal.\" Compared to its kin, the Frostpetal Starbloom Fish has the keenest senses of the family, always able to detect danger from far off. And thanks to the propulsion advantage of its six fins, they are also quick to flee from said danger."
+        },
+        {
+          "id": "gi-mon-28042103",
+          "name": "Iridescent Starbloom Fish",
+          "kind": "monster",
+          "art": "../../Database/GameData/gi/assets/monsters/UI_ItemIcon_131059.webp",
+          "fields": {
+            "type": "Fish"
+          },
+          "text": "A special species that swims the waters of Snezhnaya. Viewed from the front, its six fins form a shape resembling stars and snowflakes, and so the angler who first discovered them called them \"Starbloom Fish.\" The blue subspecies' scales have superb texture and coloration \u2014 under certain light, they look like rainbow-reflecting crystal, earning it the elegant prefix \"Iridescent.\" Thanks to this shimmering appearance, Iridescent Starbloom Fish are prized guests of Snezhnayan fish collectors. Indeed, some have even built expensive aquarium landscapes solely for this fish, only to find themselves unable to catch one for the longest time..."
+        },
+        {
           "id": "gi-mon-28050101",
           "name": "Anemo Crystalfly",
           "kind": "monster",
@@ -5255,6 +5595,26 @@
           "text": "A peculiar lifeform, shimmering with sacred golden light, that drifts like a moth through the equally mysterious interstice.\nLegend has it that Etherwing Moths were born from the feathers of angels who fell to the mortal world after rebelling against the lord of the heavens. However, this does not explain their presence here in the domain of eternal stasis.\nPerhaps, in the eyes of a certain deity, they are worth preserving, so that they may continue to bear witness to the punishment of sinners."
         },
         {
+          "id": "gi-mon-28051201",
+          "name": "Ledobug",
+          "kind": "monster",
+          "art": "../../Database/GameData/gi/assets/monsters/UI_AnimalIcon_Boltbug_KrsnikFly_01.webp",
+          "fields": {
+            "type": "Critter"
+          },
+          "text": "A flying insect commonly found near mines. Beneath its icy-blue fuzz lies a body that resembles Kristall.\nThis creature is much beloved by many miners. With even the faintest light source, Ledobugs in the mines can reflect the light and illuminate the dark caverns."
+        },
+        {
+          "id": "gi-mon-28051301",
+          "name": "Kristall Bug",
+          "kind": "monster",
+          "art": "../../Database/GameData/gi/assets/monsters/UI_AnimalIcon_Boltbug_KrsnikGround_01.webp",
+          "fields": {
+            "type": "Critter"
+          },
+          "text": "A beetle commonly found near mines. Its shell is hard, and its color and shape resemble that of Kresnik Kristall, hence its name.\nIt is said that people first discovered the rich mineral deposits beneath these frozen lands by following the trails of Kristall Bugs, and from those riches built a great civilization amid the bitter cold."
+        },
+        {
           "id": "gi-mon-28060101",
           "name": "Spinocrocodile",
           "kind": "monster",
@@ -5323,6 +5683,16 @@
             "type": "Animal"
           },
           "text": "A reptile with a limited ability to hover.\nFlying serpents do not truly possess the ability to fly; their ability to hover seems to derive from their bird-like hollow bones and the sparkle of Anemo that imbues them with a subtle influence over the wind. The desert is a far way from the nation of Anemo, but its lands are still ever-graced by gales intent on eroding everything. Everything, from cities to history, will eventually be razed to sand grains by the winnowing currents that drift over the Great Red Sand. Only creatures such as the flying serpents, which have learned to live with the wind, can continue to survive in the desert long after all has been reduced to dust."
+        },
+        {
+          "id": "gi-mon-28061601",
+          "name": "White Sumpter Beast",
+          "kind": "monster",
+          "art": "../../Database/GameData/gi/assets/monsters/UI_AnimalIcon_Megamoth_Snezhnaya.webp",
+          "fields": {
+            "type": "Animal"
+          },
+          "text": "These white-furred quadrupeds are distant relatives of Sumeru's Sumpter Beasts.\nThe White Sumpter Beasts are friendly to humans and resistant to the cold by nature, and they were once the most important mode of transport across the frozen fields. Even today, they remain good helpers to the Snezhnayan traveling merchant."
         },
         {
           "id": "gi-mon-28070701",
@@ -5490,7 +5860,7 @@
       "key": "items",
       "title": "Items",
       "source": "GameData",
-      "count": 9721,
+      "count": 10204,
       "items": [
         {
           "id": "gi-item-101",
@@ -5552,8 +5922,6 @@
           "name": "Original Resin",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_106.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Challenge Result Item"
@@ -6181,6 +6549,19 @@
           "text": "\"Waterborne Poetry\" Poetry Gala Fervor"
         },
         {
+          "id": "gi-item-165",
+          "name": "\uff08test\uff09\u52e4\u52a1\u70b9",
+          "kind": "item",
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Item Virtual"
+          },
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
+        },
+        {
           "id": "gi-item-166",
           "name": "Thelxie's Badge",
           "kind": "item",
@@ -6361,8 +6742,6 @@
           "name": "Smiley Snacks",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_182.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Item Virtual"
@@ -6385,8 +6764,6 @@
           "name": "Action Points",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_184.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "Unknown",
             "type": "Item Virtual"
@@ -6398,8 +6775,6 @@
           "name": "Speculative Records",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_185.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Item Virtual"
@@ -6411,8 +6786,6 @@
           "name": "Sunspray Spirit",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_186.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Item Virtual"
@@ -6424,8 +6797,6 @@
           "name": "Legion Morale",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_187.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Item Virtual"
@@ -6437,8 +6808,6 @@
           "name": "Prep Progress",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_188.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Item Virtual"
@@ -6472,8 +6841,6 @@
           "name": "Windscape Splendor",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_191.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Item Virtual"
@@ -6498,8 +6865,6 @@
           "name": "Treasured Insights",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_193.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Item Virtual"
@@ -6538,6 +6903,39 @@
             "type": "Item Virtual"
           },
           "text": "During the \"Sunny Summer Fontinalia\" event, complete various aquarium tasks to raise your Venue Popularity. This score can be used to unlock valuable supply rewards."
+        },
+        {
+          "id": "gi-item-197",
+          "name": "Tournament Points",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_197.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Item Virtual"
+          },
+          "text": "Points awarded based on performance in each challenge during the first Adventurers' Tournament. At the end of the tournament, the adventurer who has accumulated the most Tournament Points will be crowned the champion...\nIn the Great Expeditionist Challenge, these Points can also be used to unlock a variety of rewards..."
+        },
+        {
+          "id": "gi-item-198",
+          "name": "Fervor Coupon",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_ADVTicket.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Item Virtual"
+          },
+          "text": "A type of coupon widely circulated among both the adventurers and the Mutual Aid Advancement Network. They can be exchanged to draw for limited-edition \"Lady Katheryne\" statue parts. Come to think of it... is Katheryne's popularity among adventurers and civilians actually completely off the charts?"
+        },
+        {
+          "id": "gi-item-199",
+          "name": "Prime Ice Count",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_199.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Item Virtual"
+          },
+          "text": "Stored within the internal reservoir of the Eye of Graeae, it can be utilized to build the various mechanisms and constructs detailed in the blueprints."
         },
         {
           "id": "gi-item-201",
@@ -6582,6 +6980,19 @@
             "type": "Special Currency"
           },
           "text": "Currency of the realm. Used within the Serenitea Pot to exchange for various items."
+        },
+        {
+          "id": "gi-item-205",
+          "name": "\u5e78\u8fd0\u724c\u5e01\uff08\u5e9f\u5f03\uff09",
+          "kind": "item",
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Special Currency"
+          },
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-206",
@@ -6676,8 +7087,6 @@
           "name": "Chronal Nexus",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_231.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "5 \u2605",
             "type": "Item Virtual"
@@ -6689,8 +7098,6 @@
           "name": "Arcane Keystone",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_232.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "5 \u2605",
             "type": "Item Virtual"
@@ -6702,8 +7109,6 @@
           "name": "Geode of Replication",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_233.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Virtual"
@@ -6715,8 +7120,6 @@
           "name": "Engraved Shard",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_234.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Virtual"
@@ -6728,8 +7131,6 @@
           "name": "Festive Key",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_235.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Virtual"
@@ -6741,8 +7142,6 @@
           "name": "Luminous Keystone",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_236.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "5 \u2605",
             "type": "Item Virtual"
@@ -6754,8 +7153,6 @@
           "name": "Wonderland EXP",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_238.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Wonderland EXP"
@@ -6767,8 +7164,6 @@
           "name": "Chronicle EXP",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_239.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Item Material"
@@ -6885,7 +7280,7 @@
             "rarity": "3 \u2605",
             "type": "City States Sigil"
           },
-          "text": "A token of recognition and appreciation that can be found around Mondstadt. Can be exchanged for rare items in the shop."
+          "text": "A sigil that serves as a sign of recognition from the frost and snow of Snezhnaya.\nOffer it to the Meeting Point to receive the rewards from the ice."
         },
         {
           "id": "gi-item-307",
@@ -6903,8 +7298,6 @@
           "name": "Luna Sigil",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_308.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Sigil"
@@ -7031,6 +7424,17 @@
             "type": "Item Virtual"
           },
           "text": "Increases your Tribe Reputation Lv. (Collective of Plenty)"
+        },
+        {
+          "id": "gi-item-403",
+          "name": "Expedition Insights",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_403.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Item Virtual"
+          },
+          "text": "Insights gained from exploring featured Wonderland stages. Collect enough of them, and it seems they can unlock gifts bestowed in response by the Wonderland itself..."
         },
         {
           "id": "gi-item-911",
@@ -9500,6 +9904,32 @@
           "artSource": "neutral-database-placeholder"
         },
         {
+          "id": "gi-item-2035",
+          "name": "Snezhnayan Power Energy Orb",
+          "kind": "item",
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Item Material"
+          },
+          "text": "Snezhnayan Power Energy Orb",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
+        },
+        {
+          "id": "gi-item-2036",
+          "name": "Snezhnayan Material Energy Orb",
+          "kind": "item",
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Item Material"
+          },
+          "text": "Snezhnayan Material Energy Orb",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
+        },
+        {
           "id": "gi-item-3003",
           "name": "Character Card Draw",
           "kind": "item",
@@ -9876,8 +10306,6 @@
           "name": "Nefer",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_AvatarIcon_Nefer_Card.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
@@ -9890,8 +10318,6 @@
           "name": "Durin",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_AvatarIcon_Durin_Card.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
@@ -9904,8 +10330,6 @@
           "name": "Jahoda",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_AvatarIcon_Jahoda_Card.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Unlocks the associated character"
@@ -9918,8 +10342,6 @@
           "name": "Columbina",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_AvatarIcon_Columbina_Card.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
@@ -9932,8 +10354,6 @@
           "name": "Zibai",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_AvatarIcon_Zibai_Card.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
@@ -9946,8 +10366,6 @@
           "name": "Illuga",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_AvatarIcon_Illuga_Card.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Unlocks the associated character"
@@ -9960,8 +10378,6 @@
           "name": "Varka",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_AvatarIcon_Varka_Card.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
@@ -10028,6 +10444,30 @@
           },
           "text": "The Seventh of the Fatui Harbingers, \"Marionette.\" Interprets all phenomena through the prism of mathematics, and is an elegant lady who is never absent from a tea party.",
           "released": "2026-07-01"
+        },
+        {
+          "id": "gi-item-4148",
+          "name": "Alyosha",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_AvatarIcon_Alyosha_Card.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Unlocks the associated character"
+          },
+          "text": "A \"professional hunter\" and master of the Snezhnayan snowfields. A fierce, distinct \"idealism\" burns beneath his calm demeanor.",
+          "released": "2026-08-12"
+        },
+        {
+          "id": "gi-item-4150",
+          "name": "Odette",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_AvatarIcon_Odette_Card.webp",
+          "fields": {
+            "rarity": "5 \u2605",
+            "type": "Unlocks the associated character"
+          },
+          "text": "A famed Snezhnayan ballerina who blossoms against the frozen landscape with a beauty as sharp as frost.",
+          "released": "2026-08-12"
         },
         {
           "id": "gi-item-5100",
@@ -10380,6 +10820,28 @@
             "type": "Activates Constellation"
           },
           "text": "Sandrone's Constellation Activation Material"
+        },
+        {
+          "id": "gi-item-5148",
+          "name": "Alyosha's Stella Fortuna",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_1103.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Activates Constellation"
+          },
+          "text": "Alyosha's Constellation Activation Material"
+        },
+        {
+          "id": "gi-item-5150",
+          "name": "Odette's Stella Fortuna",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_1102.webp",
+          "fields": {
+            "rarity": "5 \u2605",
+            "type": "Activates Constellation"
+          },
+          "text": "Odette's Constellation Activation Material"
         },
         {
           "id": "gi-item-6002",
@@ -11678,6 +12140,28 @@
             "type": "Activates Constellation"
           },
           "text": "Sandrone's Constellation Activation Material"
+        },
+        {
+          "id": "gi-item-6148",
+          "name": "Alyosha's Stella Fortuna",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_1103.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Activates Constellation"
+          },
+          "text": "Alyosha's Constellation Activation Material"
+        },
+        {
+          "id": "gi-item-6150",
+          "name": "Odette's Stella Fortuna",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_1102.webp",
+          "fields": {
+            "rarity": "5 \u2605",
+            "type": "Activates Constellation"
+          },
+          "text": "Odette's Constellation Activation Material"
         },
         {
           "id": "gi-item-100001",
@@ -16108,6 +16592,28 @@
           "text": "A box with some leaves inside. Something feels unusual about it when you hold it in your hand, and you can't help but feel a little uneasy... can this box really contain these leaves?"
         },
         {
+          "id": "gi-item-100526",
+          "name": "\uff08test\uff09\u7409\u7483\u767e\u5408\u7684\u79cd\u5b50",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100030.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
+        },
+        {
+          "id": "gi-item-100527",
+          "name": "\uff08test\uff09\u6c34\u53f2\u83b1\u59c6\u7684\u7cbe\u534e\u6db2",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100030.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
+        },
+        {
           "id": "gi-item-100528",
           "name": "Treasure Hoarder's Key",
           "kind": "item",
@@ -17054,6 +17560,17 @@
           "text": "It contains the investigations and observations into the cultural customs of the hilichurls by the \"Poet Laureate of Hilichurlian,\" Jacob Musk, a Mondstadt ecologist. This volume features mysterious hilichurls who live apart from the others."
         },
         {
+          "id": "gi-item-100616",
+          "name": "\uff08test\uff09\u767e\u8d27\u540d\u9274\u7eb5\u89c8",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100616.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Quest Item"
+          },
+          "text": ""
+        },
+        {
           "id": "gi-item-100617",
           "name": "\"Of Mountains and Seas\"",
           "kind": "item",
@@ -17758,6 +18275,61 @@
           "text": "An investigation journal found in the camp on the sunny side of Dragonspine.\nIts author seems to have been a member of the aristocracy that once ruled Mondstadt."
         },
         {
+          "id": "gi-item-100694",
+          "name": "\uff08test\uff09\u597d\u53cb\u7b79\u96c6\u7684\u6469\u62c9\u888b",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100309.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
+        },
+        {
+          "id": "gi-item-100695",
+          "name": "\uff08test\uff09\u7ed9\u6234\u56e0\u7684\u7279\u8c03\u9152",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100316.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
+        },
+        {
+          "id": "gi-item-100696",
+          "name": "\uff08test\uff09\u6df1\u6e0a\u6559\u56e2\u7684\u6b8b\u7834\u56fe\u5377\u00b7\u4e0a",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100171.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
+        },
+        {
+          "id": "gi-item-100697",
+          "name": "\uff08test\uff09\u6df1\u6e0a\u6559\u56e2\u7684\u6b8b\u7834\u56fe\u5377\u00b7\u4e0b",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100172.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
+        },
+        {
+          "id": "gi-item-100698",
+          "name": "\uff08test\uff09\u6df1\u6e0a\u6559\u56e2\u7684\u6b8b\u7834\u56fe\u5377\u00b7\u5168",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100105.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
+        },
+        {
           "id": "gi-item-100699",
           "name": "Invoice From Second Life",
           "kind": "item",
@@ -17998,6 +18570,28 @@
             "type": "Quest Item"
           },
           "text": "Starsilver ore collected along the way. It looks similar to regular Starsilver, but upon closer inspection by Albedo, it can be used as an alchemical catalyst."
+        },
+        {
+          "id": "gi-item-100721",
+          "name": "\uff08test\uff09\u706f\u7eb8\u7ea4\u7ef4\u5f85\u91cd\u547d\u540d",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_200001.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": "Dropped by the Fatui, hilichurls, and Abyss Mages. Can also be harvested from plants.\nCommon fibrous material that can be processed into lantern wrappings so that the lanterns can float away with their beautiful wishes.\nFound in Liyue."
+        },
+        {
+          "id": "gi-item-100722",
+          "name": "\uff08test\uff09\u706f\u82af\u7ed2\u6750\u5f85\u91cd\u547d\u540d",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_200002.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": "Dropped by fluffy enemies and small animals. Can also be harvested from plants.\nCommon velvety material that can be processed into lantern wicks so that the lanterns can float away with their beautiful wishes.\nFound in Liyue."
         },
         {
           "id": "gi-item-100723",
@@ -18537,6 +19131,17 @@
             "type": "Quest Item"
           },
           "text": "An ancient and mysterious item shaped like an ancient key. Where there's a key, there's a lock \u2014 but this key's lock is about to be breached by the defilement absorbed by the tree's roots.\nAccording to Hanachirusato, these wards are needed to conduct the Sacred Sakura Cleansing Ritual."
+        },
+        {
+          "id": "gi-item-100773",
+          "name": "\uff08test\uff09\u7075\u5f02\u7684\u900f\u955c",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100457.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
         },
         {
           "id": "gi-item-100774",
@@ -19452,6 +20057,17 @@
           "text": "A conch, but there's something strange about it. What could it be for?"
         },
         {
+          "id": "gi-item-100860",
+          "name": "\uff08test\uff09\u5bfb\u4eba\u542f\u4e8b",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100110.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": "Konda Village Missing Person Notice"
+        },
+        {
           "id": "gi-item-100861",
           "name": "The Sage Aetolia Will Die Tomorrow",
           "kind": "item",
@@ -19703,6 +20319,28 @@
             "type": "Quest Item"
           },
           "text": "A handwritten Mushroom Pizza recipe. Perhaps food prepared using various different methods might result in a unique flavor."
+        },
+        {
+          "id": "gi-item-100887",
+          "name": "\uff08test\uff09\u6253\u5305\u597d\u7684\u70e4\u8611\u83c7\u62ab\u8428",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100101.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
+        },
+        {
+          "id": "gi-item-100888",
+          "name": "\uff08test\uff09\u534e\u4e3d\u7684\u7740\u7269",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100101.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
         },
         {
           "id": "gi-item-100889",
@@ -20387,6 +21025,28 @@
           "text": "The item that Sumida sent you to find.\nThis Maushiro appears to have been left behind by someone before they left Tsurumi Island.\nAccording to what Ruu tells you, the Maushiro are not musical instruments. Instead, they were used by the locals as a means of locating one another amidst the fog that shrouded their home."
         },
         {
+          "id": "gi-item-100953",
+          "name": "\uff08test\uff09\u96f7\u9e1f\u7834\u635f\u7fbd\u6bdb",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100302.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
+        },
+        {
+          "id": "gi-item-100954",
+          "name": "\uff08test\uff09\u96f7\u9e1f\u7fbd\u6bdb\u5c0f\u9053\u5177",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100302.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
+        },
+        {
           "id": "gi-item-100955",
           "name": "An Onikabuto Affected by Tatarigami",
           "kind": "item",
@@ -20814,6 +21474,17 @@
             "type": "Quest Item"
           },
           "text": "Beans you got from Sango. Arataki Itto seems to be allergic to beans, so these may prove to be useful tools in stopping him from resisting too much.\nSango says they're not free, though. Hopefully they don't cost too much..."
+        },
+        {
+          "id": "gi-item-100994",
+          "name": "\uff08test\uff09\u5f31\u5c0f\u7684\u9b3c\u515c\u866b",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_130015.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Quest Item"
+          },
+          "text": ""
         },
         {
           "id": "gi-item-100995",
@@ -21960,6 +22631,94 @@
           "text": "A singular entity bathed in a divine, golden radiance, drifting through uncanny interstices as if a moth in flight."
         },
         {
+          "id": "gi-item-101275",
+          "name": "Frostfairy Flower",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101275.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Local Specialty (Snezhnaya)"
+          },
+          "text": "A sacred flower that blooms no matter how harsh the wind and snow. It always radiates a faint, mesmerizing glow that draws the hearts of all who see it."
+        },
+        {
+          "id": "gi-item-101276",
+          "name": "Flockingweed",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101276.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Local Specialty (Snezhnaya)"
+          },
+          "text": "A peculiar plant once suspected to be a hybrid of plant and animal, though it was later proven to be nothing more than an ordinary plant covered in a coat of animal-like fuzz."
+        },
+        {
+          "id": "gi-item-101277",
+          "name": "Golden Fern",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101277.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Local Specialty (Snezhnaya)"
+          },
+          "text": "A fern whose edges radiate a faint golden shimmer. It is said to take on a remarkably unique flavor when stewed."
+        },
+        {
+          "id": "gi-item-101278",
+          "name": "Red Beet",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101278.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Cooking Ingredient"
+          },
+          "text": "A hardy herbaceous plant capable of thriving even in frozen soil. To survive such an unforgiving environment, it develops a thick, succulent root."
+        },
+        {
+          "id": "gi-item-101279",
+          "name": "Glaciafruit",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101279.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Cooking Ingredient"
+          },
+          "text": "A star-shaped fruit born from Prime Ice that has undergone a peculiar transformation in the permafrost. Once the branch it grows upon is removed, the fruit falls naturally onto the snow."
+        },
+        {
+          "id": "gi-item-101280",
+          "name": "Snowball Flower",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101280.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Cooking Ingredient"
+          },
+          "text": "A charming flower with a spherical cluster of petals. When snow settles upon it, the entire bloom looks just like a tiny snowball."
+        },
+        {
+          "id": "gi-item-101281",
+          "name": "Rimecurrant",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101281.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Cooking Ingredient"
+          },
+          "text": "A richly flavored berry that sprouts from frost-rimed, icy branches."
+        },
+        {
+          "id": "gi-item-101282",
+          "name": "Lumifluorite",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101282.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Material"
+          },
+          "text": "A strange fluorite formed under the influence of the powers of the Shadow Realm."
+        },
+        {
           "id": "gi-item-101301",
           "name": "Birch Wood",
           "kind": "item",
@@ -22013,6 +22772,19 @@
             "type": "Material"
           },
           "text": "Segments of bamboo that are light and far stronger than their humble appearance might suggest. It lets off a light fragrance.\nCan be used to create furnishings."
+        },
+        {
+          "id": "gi-item-101306",
+          "name": "\uff08test\uff09\u80fd\u91cf\u6728\u6750",
+          "kind": "item",
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
+          "fields": {
+            "rarity": "1 \u2605",
+            "type": "Material"
+          },
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-101307",
@@ -22279,6 +23051,50 @@
           "text": "Wood from the Alder Tree. It demonstrates considerable resistance to moisture and cold, making it a fine raw material for both furniture and musical instruments."
         },
         {
+          "id": "gi-item-101331",
+          "name": "Snow Poplar Wood",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101332.webp",
+          "fields": {
+            "rarity": "1 \u2605",
+            "type": "Material"
+          },
+          "text": "Wood from Snow Poplars that have smooth surfaces and light, soft textures. A fine choice for making all sorts of small woodworking products..."
+        },
+        {
+          "id": "gi-item-101332",
+          "name": "White Birch Wood",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101331.webp",
+          "fields": {
+            "rarity": "1 \u2605",
+            "type": "Material"
+          },
+          "text": "Wood from White Birches that boasts high density and toughness. Used for building structures for which bending resistance is a necessity..."
+        },
+        {
+          "id": "gi-item-101333",
+          "name": "Bluebeech Wood",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101333.webp",
+          "fields": {
+            "rarity": "1 \u2605",
+            "type": "Material"
+          },
+          "text": "Wood from Bluebeeches with even grain patterns that can better withstand wear and tear. In Snezhnaya, it is often used in layered panels involved in structures and implements for long-term use."
+        },
+        {
+          "id": "gi-item-101334",
+          "name": "Larch Wood",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101334.webp",
+          "fields": {
+            "rarity": "1 \u2605",
+            "type": "Material"
+          },
+          "text": "Wood from Larches. They possess considerable hardness and are highly corrosion-proof. Snezhnayans often use it to build pillars and boards."
+        },
+        {
           "id": "gi-item-101401",
           "name": "Fabric",
           "kind": "item",
@@ -22486,6 +23302,17 @@
             "type": "Quest Item"
           },
           "text": "A realm dispatch that you obtained from Tubby. It seems to be able to allow your companions to come and go in your realm as they please...\nAfter acquiring this item, you can invite companions to reside in your Serenitea Pot from the Placement Screen."
+        },
+        {
+          "id": "gi-item-101516",
+          "name": "\uff08test\uff09\u6682\u501f\u7684\u7559\u5f71\u673a",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_220018.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Gadget"
+          },
+          "text": ""
         },
         {
           "id": "gi-item-101517",
@@ -22992,6 +23819,17 @@
             "type": "Quest Item"
           },
           "text": "Rope obtained from a Treasure Hoarder camp. You can use it for repairs."
+        },
+        {
+          "id": "gi-item-101574",
+          "name": "\uff08test\uff09\u5976\u5976\u7684\u82b1",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100302.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
         },
         {
           "id": "gi-item-101575",
@@ -24206,6 +25044,17 @@
           "text": "\"By blending many styles together, this seemingly thin book transports you into a great many tales. I can only imagine that its author must also be a very interesting person. I happen to know someone like that, in fact \u2014 something that lends this book a very familiar touch.\" \u2014 Ms. Hina"
         },
         {
+          "id": "gi-item-101689",
+          "name": "\uff08test\uff09\u6e0a\u4e0b\u5bab\u6c34\u6676\u80fd\u91cf",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101692.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Consumable"
+          },
+          "text": ""
+        },
+        {
           "id": "gi-item-101690",
           "name": "Muning's Note",
           "kind": "item",
@@ -24446,6 +25295,17 @@
             "type": "Quest Item"
           },
           "text": "A letter you found off one of the Black Serpent Knights. The name of the letter's recipient is neatly written: \"Katarina Snezhevna, My Dear Elder Sister,\" while the sender's name is written somewhat haphazardly, though you can make out the words \"Your Brother, Nikolay Snezhevich.\""
+        },
+        {
+          "id": "gi-item-101713",
+          "name": "\uff08test\uff09\u5149\u80fd\u7403",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101692.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Consumable"
+          },
+          "text": ""
         },
         {
           "id": "gi-item-101714",
@@ -25097,6 +25957,28 @@
           "text": "One of the ingredients for making the elixir Arahaoma. \"Barsam\" is said to be a sacred tree that has long vanished in history."
         },
         {
+          "id": "gi-item-101777",
+          "name": "\uff08test\uff09\u5c01\u5370\u94a5\u5319\u5176\u4e00",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100302.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
+        },
+        {
+          "id": "gi-item-101778",
+          "name": "\uff08test\uff09\u5c01\u5370\u94a5\u5319\u5176\u4e8c",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100302.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
+        },
+        {
           "id": "gi-item-101779",
           "name": "Arahaoma",
           "kind": "item",
@@ -25139,6 +26021,138 @@
             "type": "Quest Item"
           },
           "text": "A thick soup that Jinwu made for sick miners. It's nutritious, fragrant, and makes you feel warm inside when you drink it.\nDon't let it go cold, now."
+        },
+        {
+          "id": "gi-item-101783",
+          "name": "\uff08test\uff09\u795e\u79d8\u7684\u4fe1\u7b3a1",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_108087.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
+        },
+        {
+          "id": "gi-item-101784",
+          "name": "\uff08test\uff09\u795e\u79d8\u7684\u4fe1\u7b3a2",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_108087.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
+        },
+        {
+          "id": "gi-item-101785",
+          "name": "\uff08test\uff09\u795e\u79d8\u7684\u4fe1\u7b3a3",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_108087.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
+        },
+        {
+          "id": "gi-item-101786",
+          "name": "\uff08test\uff09\u795e\u79d8\u7684\u4fe1\u7b3a4",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_108087.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
+        },
+        {
+          "id": "gi-item-101787",
+          "name": "\uff08test\uff09\u795e\u79d8\u7684\u4fe1\u7b3a5",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_108087.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
+        },
+        {
+          "id": "gi-item-101788",
+          "name": "\uff08test\uff09\u795e\u79d8\u7684\u4fe1\u7b3a6",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_108087.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
+        },
+        {
+          "id": "gi-item-101789",
+          "name": "\uff08test\uff09\u795e\u79d8\u7684\u4fe1\u7b3a7",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_108087.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
+        },
+        {
+          "id": "gi-item-101790",
+          "name": "\uff08test\uff09\u795e\u79d8\u7684\u4fe1\u7b3a8",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_108087.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
+        },
+        {
+          "id": "gi-item-101791",
+          "name": "\uff08test\uff09\u795e\u79d8\u7684\u4fe1\u7b3a9",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_108087.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
+        },
+        {
+          "id": "gi-item-101792",
+          "name": "\uff08test\uff09\u795e\u79d8\u7684\u4fe1\u7b3a10",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_108087.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
+        },
+        {
+          "id": "gi-item-101793",
+          "name": "\uff08test\uff09\u795e\u79d8\u7684\u4fe1\u7b3a11",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_108087.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
+        },
+        {
+          "id": "gi-item-101794",
+          "name": "\uff08test\uff09\u795e\u79d8\u7684\u4fe1\u7b3a12",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_108087.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
         },
         {
           "id": "gi-item-101795",
@@ -26186,6 +27200,17 @@
           "text": "You found this note in the mysterious space. Its content seems similar to that of a journal."
         },
         {
+          "id": "gi-item-101895",
+          "name": "(test\uff09\u94a5\u5319",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100302.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
+        },
+        {
           "id": "gi-item-101896",
           "name": "Crystalline Core",
           "kind": "item",
@@ -26415,6 +27440,17 @@
             "type": "Quest Item"
           },
           "text": "A key found in the Golden Apple Archipelago, seemingly able to open a lock somewhere..."
+        },
+        {
+          "id": "gi-item-101918",
+          "name": "\uff08test\uff09\u5371\u5371\u5c9b\u9057\u8ff9\u94a5\u53192",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100302.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
         },
         {
           "id": "gi-item-101919",
@@ -27929,8 +28965,6 @@
           "name": "Masterless Stella Fortuna",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104300.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "5 \u2605",
             "type": "Consumable"
@@ -28642,6 +29676,105 @@
           "text": "Talent Level-Up material.\n\"Vagrancy\" is the living of the land beneath the moon.\nThrough thunder and storms, across mountains and snowfields, though scarred and weary, the wanderer does not stop \u2014 nor will they till they find a place to call home."
         },
         {
+          "id": "gi-item-104365",
+          "name": "Teachings of Charity",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104365.webp",
+          "fields": {
+            "rarity": "2 \u2605",
+            "type": "Character Talent Material"
+          },
+          "text": "Talent Level-Up Material.\nCharity is the salvation of the frozen realm.\nIt is the love and vigilant care shared among mortals. Across this vast and boundless land, it is the warmth by which the people withstand the biting frost, soothing the deep-seated scars etched into their memories."
+        },
+        {
+          "id": "gi-item-104366",
+          "name": "Guide to Charity",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104366.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Character Talent Material"
+          },
+          "text": "Talent Level-Up Material.\nCharity is the salvation of the frozen realm.\nIt breeds mercy for others. In the realm of wind and snow, whosoever sincerely repents for the sins of their soul shall find absolution in the name of Charity."
+        },
+        {
+          "id": "gi-item-104367",
+          "name": "Philosophies of Charity",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104367.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Character Talent Material"
+          },
+          "text": "Talent Level-Up Material.\nCharity is the salvation of the frozen realm.\nIt is a boundless grace extended to all living things. It collapses the divide between the highborn and the low, transcending both bloodline and nation. Its watchful gaze beholds all of humanity, offering sanctuary to the unfortunate and promising eternal liberation unto all."
+        },
+        {
+          "id": "gi-item-104368",
+          "name": "Teachings of Fortitude",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104368.webp",
+          "fields": {
+            "rarity": "2 \u2605",
+            "type": "Character Talent Material"
+          },
+          "text": "Talent Level-Up Material.\nFortitude is the defining character of the frozen realm.\nIt stems from a raw yearning for survival. Even if scattered far from fertile soil, a fragile seed can rely on this desperate longing to drive its roots deep beneath the frozen tundra."
+        },
+        {
+          "id": "gi-item-104369",
+          "name": "Guide to Fortitude",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104369.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Character Talent Material"
+          },
+          "text": "Talent Level-Up Material.\nFortitude is the defining character of the frozen realm.\nIt brings forth the will to grow. Though shattered by the bitter cold, a fragile seed can still harness this will to break through the frozen earth, pushing forth fresh sprouts to life across a landscape blanketed in wind and snow."
+        },
+        {
+          "id": "gi-item-104370",
+          "name": "Philosophies of Fortitude",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104370.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Character Talent Material"
+          },
+          "text": "Talent Level-Up Material.\nFortitude is the defining character of the frozen realm.\nIt breeds the prosperity of life itself. The people here have never bowed to the biting cold, just as a fragile seed defiantly chooses to bloom amidst the blizzards. This civilization has witnessed centuries of bitter winter, yet remains vibrant much like the Frostfairy Flower that flourishes season after season."
+        },
+        {
+          "id": "gi-item-104371",
+          "name": "Teachings of Glory",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104371.webp",
+          "fields": {
+            "rarity": "2 \u2605",
+            "type": "Character Talent Material"
+          },
+          "text": "Talent Level-Up Material.\nGlory is the sacred faith of the frozen realm.\nIt is a spark buried deep beneath the frozen soil; if one can but trace its true form, they shall grant themselves the courage to stand against the biting cold."
+        },
+        {
+          "id": "gi-item-104372",
+          "name": "Guide to Glory",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104372.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Character Talent Material"
+          },
+          "text": "Talent Level-Up Material.\nGlory is the sacred faith of the frozen realm.\nIt is an ember flickering in the deep night, a beacon upon which all who trek across the snowfields fix their gaze. Just as they are certain the blizzards will wane and the dawn will break, they are certain that the path they tread remains the true one."
+        },
+        {
+          "id": "gi-item-104373",
+          "name": "Philosophies of Glory",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104373.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Character Talent Material"
+          },
+          "text": "Talent Level-Up Material.\nGlory is the sacred faith of the frozen realm.\nIt is the undying flame upon the beacon hearth, bound now to live or die with the frozen realm. The flame ignites a noble passion, and to sustain its eternal burn, the people would gladly offer up their all."
+        },
+        {
           "id": "gi-item-105001",
           "name": "Sanctifying Droplet",
           "kind": "item",
@@ -28701,8 +29834,6 @@
           "name": "Dust of Enlightenment",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_TrainingIteration.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "5 \u2605",
             "type": "Consumable"
@@ -29062,14 +30193,14 @@
         },
         {
           "id": "gi-item-107032",
-          "name": "Frost Moon Shrine of Depths Key",
+          "name": "Kuuhenki Shrine Key",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_107032.webp",
           "fields": {
             "rarity": "Unknown",
             "type": "Adventure Item"
           },
-          "text": "A key that can break the seal on the ancient Shrines of Depths scattered around the Frost Moon.\nThese Shrines of Depths sealed themselves off when the civilization that built them was lost. Keys lost deep within domains are able to break the seals. Or perhaps that, for a moment, these keys help the seals to forget all that they have lost."
+          "text": "A key that can break the seal on the ancient Kuuhenki Shrines scattered around the Frost Moon.\nThese shrines that were built upon the moon's surface lost the benevolent being in whom faith was vested in ancient days as the will of the moon faded away. These secret keys found upon the frigid lunar soil can be used to break the seals \u2014 or perhaps they only use the fading voices of the past to help the shrines forget all that has come to ruin."
         },
         {
           "id": "gi-item-107033",
@@ -29094,6 +30225,39 @@
             "type": "Adventure Item"
           },
           "text": "The fundamental building blocks of \"Civilization.\"\nAny creation of \"Civilization\" that fades from the collective memory of humanity will eventually disintegrate into Memory Factors. Offer them to the Memory Core within the Temple of Space, and you may receive a blessing from the memories drifting within the interstices..."
+        },
+        {
+          "id": "gi-item-107035",
+          "name": "Cryoculus",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_107035.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Adventure Item"
+          },
+          "text": "A substance that has accumulated intense Cryo energy. Offer it to the Statue and help reinstate the power it has lost over the years."
+        },
+        {
+          "id": "gi-item-107036",
+          "name": "Shadow Wingdrop",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_107036.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Adventure Item"
+          },
+          "text": "A strange, liquefied substance left behind by a creature born within the Shadow Realm."
+        },
+        {
+          "id": "gi-item-107037",
+          "name": "Snezhnaya Shrine of Depths Key",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_107037.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Adventure Item"
+          },
+          "text": "A key that can break the seal on the ancient Shrines of Depths scattered around Snezhnaya.\nThese Shrines of Depths sealed themselves off when the civilization that built them was lost. Keys lost deep within domains are able to break the seals. Or perhaps that, for a moment, these keys help the seals to forget all that they have lost."
         },
         {
           "id": "gi-item-108000",
@@ -39768,6 +40932,171 @@
           "text": "A latte well worth savoring. Carefully ground from specially roasted coffee beans, it is finished with delicate foam art, soft and dense as mist. Its flavor is rich and mellow, with an unusually refined aroma that sets it apart."
         },
         {
+          "id": "gi-item-108985",
+          "name": "Suspicious Zharkoye",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_108885.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Food"
+          },
+          "text": "A meat dish served in a clay pot. Due to an excessively long roasting time inside the pot, the meat has fallen apart into shredded strands that feel like chewing on an old blanket. One mouthful is enough to make you gently slide the pot further and further out of sight..."
+        },
+        {
+          "id": "gi-item-108986",
+          "name": "Zharkoye",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_108885.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Food"
+          },
+          "text": "A meat dish served in a clay pot. Cubed ingredients are placed into the pot, sealed with dough, and then baked in the oven. Once it is done, the crisp bread cap is lifted off, and sour cream is added for seasoning. The method itself is not complicated, but controlling the oven temperature and braising time takes quite the experience."
+        },
+        {
+          "id": "gi-item-108987",
+          "name": "Delicious Zharkoye",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_108885.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Food"
+          },
+          "text": "A meat dish served in a clay pot. Cracking open the crisp puff pastry lid releases a sudden wave of savory, buttery fragrance with an inviting warmth. It feels just like basking in the cozy warmth after tossing a fresh log into the fireplace on a snowy winter night."
+        },
+        {
+          "id": "gi-item-108988",
+          "name": "Suspicious Podvorye Smoked Sausage",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_108886.webp",
+          "fields": {
+            "rarity": "1 \u2605",
+            "type": "Food"
+          },
+          "text": "Sliced sausage. The pieces are unevenly cut, with a few still stuck together. When picked up, they looked just like a string of weathered vines blackened with smoke..."
+        },
+        {
+          "id": "gi-item-108989",
+          "name": "Podvorye Smoked Sausage",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_108886.webp",
+          "fields": {
+            "rarity": "1 \u2605",
+            "type": "Food"
+          },
+          "text": "Sliced sausage. A seasoned, stuffed, and smoked meat sausage, thinly sliced and served as is. A signature dish of Podvorye Restaurant, and a reliable choice no one at the table would turn down."
+        },
+        {
+          "id": "gi-item-108990",
+          "name": "Delicious Podvorye Smoked Sausage",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_108886.webp",
+          "fields": {
+            "rarity": "1 \u2605",
+            "type": "Food"
+          },
+          "text": "Sliced sausage. The firm texture sets the rhythm while smoky, savory flavors carry the melody, dancing across the palate in a perfectly harmonious duet. No wonder this is always the first plate to empty."
+        },
+        {
+          "id": "gi-item-108991",
+          "name": "Suspicious Stroganina",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_108887.webp",
+          "fields": {
+            "rarity": "2 \u2605",
+            "type": "Food"
+          },
+          "text": "Sliced fish strips. The thicker parts are so frozen they might chip a tooth, while the thinner parts have already melted into mush... At the very least, under Snezhnaya's freezing temperatures, you probably won't have to worry about an upset stomach."
+        },
+        {
+          "id": "gi-item-108992",
+          "name": "Stroganina",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_108887.webp",
+          "fields": {
+            "rarity": "2 \u2605",
+            "type": "Food"
+          },
+          "text": "Sliced fish strips. Cut with a sharp blade at an angle across the surface of a whole frozen fish, shaving off thin, curling strips. Usually served with coarse salt, this is a common raw cold platter in Snezhnaya."
+        },
+        {
+          "id": "gi-item-108993",
+          "name": "Delicious Stroganina",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_108887.webp",
+          "fields": {
+            "rarity": "2 \u2605",
+            "type": "Food"
+          },
+          "text": "Sliced fish strips. Paper-thin ribbons of meat are piled in the dish like a small cluster of ice-sculpted petals. Pinch a piece into your mouth, and the crisp, clean sweetness hits the tip of your tongue with the fresh embrace of melting snow."
+        },
+        {
+          "id": "gi-item-108994",
+          "name": "Suspicious Snowrealm Okroshkas",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_108888.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Food"
+          },
+          "text": "A bowl of cold soup. It takes some effort to identify the ingredients floating in the cloudy broth. The vegetables are shredded like confetti, drowned alongside massive ham chunks. It seems the cook only remembered the ham at the very last second, tossing it in a desperate rush..."
+        },
+        {
+          "id": "gi-item-108995",
+          "name": "Snowrealm Okroshkas",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_108888.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Food"
+          },
+          "text": "A bowl of cold soup. Cooked ingredients are arranged evenly in a bowl, then covered with a sour cream-based broth. Some Snezhnayans challenge themselves to down a large bowl of this soup in one go on the coldest days, taking it as proof that they are warriors who can conquer the bitter cold."
+        },
+        {
+          "id": "gi-item-108996",
+          "name": "Delicious Snowrealm Okroshkas",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_108888.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Food"
+          },
+          "text": "A bowl of cold soup. The shimmering, milky-white broth feels as crisp as fresh snow on the palate, followed instantly by a revitalizing burst of rich sour cream. With crunchy vegetables, firm egg yolks, and savory diced ham, every single spoonful offers a unique texture, as if you are opening a delicious mystery box."
+        },
+        {
+          "id": "gi-item-108997",
+          "name": "Suspicious Borscht",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_108889.webp",
+          "fields": {
+            "rarity": "2 \u2605",
+            "type": "Food"
+          },
+          "text": "A vibrant red soup dish. Everything about this dish feels half-hearted, looking as if someone simply dumped the leftover ingredients from a previous meal into the pot. Finishing it does make you feel somewhat warmer than before, but it is like a single match being struck, bringing nothing more than a fleeting moment of warmth."
+        },
+        {
+          "id": "gi-item-108998",
+          "name": "Borscht",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_108889.webp",
+          "fields": {
+            "rarity": "2 \u2605",
+            "type": "Food"
+          },
+          "text": "A vibrant red soup dish. Once the broth is ready, various ingredients are added in batches and slow-simmered until their flavors meld. A spoonful of sour cream is often added just before serving. With every sip, a steady warmth spreads through the body, enough to keep the bitter cold at bay."
+        },
+        {
+          "id": "gi-item-108999",
+          "name": "Delicious Borscht",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_108889.webp",
+          "fields": {
+            "rarity": "2 \u2605",
+            "type": "Food"
+          },
+          "text": "A vibrant red soup. The moment the hot broth slides down your throat, a soothing warmth takes hold, as if someone has lit a fire inside your chest. The heat quietly spreads until even the tips of your ears are warm. When trekking through a raging blizzard, this bowl of soup is worth far more than wrapping yourself in an extra coat!"
+        },
+        {
           "id": "gi-item-109000",
           "name": "Recipe Item",
           "kind": "item",
@@ -42749,6 +44078,127 @@
           "text": "A detailed step-by-step recipe for making Meat-Filled Rye Bun."
         },
         {
+          "id": "gi-item-109655",
+          "name": "Recipe: Zharkoye",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_109000.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Recipe"
+          },
+          "text": "A detailed step-by-step recipe for making Zharkoye."
+        },
+        {
+          "id": "gi-item-109656",
+          "name": "Recipe: Podvorye Smoked Sausage",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_109000.webp",
+          "fields": {
+            "rarity": "1 \u2605",
+            "type": "Recipe"
+          },
+          "text": "A detailed step-by-step recipe for making Podvorye Smoked Sausage."
+        },
+        {
+          "id": "gi-item-109657",
+          "name": "Recipe: Stroganina",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_109000.webp",
+          "fields": {
+            "rarity": "2 \u2605",
+            "type": "Recipe"
+          },
+          "text": "A detailed step-by-step recipe for making Stroganina."
+        },
+        {
+          "id": "gi-item-109658",
+          "name": "Recipe: Snowrealm Okroshkas",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_109000.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Recipe"
+          },
+          "text": "A detailed step-by-step recipe for making Snowrealm Okroshkas."
+        },
+        {
+          "id": "gi-item-109659",
+          "name": "Recipe: Borscht",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_109000.webp",
+          "fields": {
+            "rarity": "2 \u2605",
+            "type": "Recipe"
+          },
+          "text": "A detailed step-by-step recipe for making Borscht."
+        },
+        {
+          "id": "gi-item-109660",
+          "name": "Recipe: Rimecurrant Ice Cream",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_109000.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Recipe"
+          },
+          "text": "A detailed step-by-step recipe for making Rimecurrant Ice Cream."
+        },
+        {
+          "id": "gi-item-109661",
+          "name": "Recipe: Glupov Rye Bread",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_109000.webp",
+          "fields": {
+            "rarity": "2 \u2605",
+            "type": "Recipe"
+          },
+          "text": "A detailed step-by-step recipe for making Glupov Rye Bread."
+        },
+        {
+          "id": "gi-item-109662",
+          "name": "Recipe: Medovik",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_109000.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Recipe"
+          },
+          "text": "A detailed step-by-step recipe for making Medovik."
+        },
+        {
+          "id": "gi-item-109663",
+          "name": "Recipe: Snezhnaya Shashliks",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_109000.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Recipe"
+          },
+          "text": "A detailed step-by-step recipe for making Snezhnaya Shashliks."
+        },
+        {
+          "id": "gi-item-109664",
+          "name": "Recipe: Snowball Blooms Atop Snowfields",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_109000.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Recipe"
+          },
+          "text": "A detailed step-by-step recipe for making Snowball Blooms Atop Snowfields."
+        },
+        {
+          "id": "gi-item-109665",
+          "name": "Recipe: Sweet Scoops",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_109000.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Recipe"
+          },
+          "text": "A detailed step-by-step recipe for making Sweet Scoops."
+        },
+        {
           "id": "gi-item-110000",
           "name": "Crafted Items",
           "kind": "item",
@@ -42925,6 +44375,17 @@
             "type": "Cooking Ingredient"
           },
           "text": "A coarse, dark powder produced from grinding rye. Food made with it has a unique texture and a somewhat sour flavor."
+        },
+        {
+          "id": "gi-item-110017",
+          "name": "Honey",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_110017.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Cooking Ingredient"
+          },
+          "text": "A rich, amber liquid with a classic sweetness, widely available in shops year-round. It can be used to sweeten beverages, craft sauces, or marinate various meats."
         },
         {
           "id": "gi-item-111006",
@@ -43266,6 +44727,17 @@
             "type": "Bait"
           },
           "text": "Fish bait made from mixing Lakkaberries and Mint. It may look ordinary, but its unique blend of scent and hue proves irresistible to certain types of fish, earning it high praise from seasoned anglers.\n\nSuitable for catching Mauler Sharks and Crystal-Eyes."
+        },
+        {
+          "id": "gi-item-111037",
+          "name": "Glimmering Bait",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_111037.webp",
+          "fields": {
+            "rarity": "2 \u2605",
+            "type": "Bait"
+          },
+          "text": "A bait primarily crafted from sequins and coated with a trace amount of fluorescent material. When used correctly, it emits a glimmering brilliance. The central sphere contains smaller rattle beads that mimic the vibrations of small fish, making it exceptionally alluring to Snezhnayan fish.\n\nSuitable for: Snowfin and Starbloom Fish"
         },
         {
           "id": "gi-item-112001",
@@ -44863,6 +46335,138 @@
           "text": "A core taken from within a defeated ancient machine that had wandered the lunar surface. It seems unlike the metals commonly found in Teyvat.\nIt was untouched by earthly impurity, eternal and free from the seven calamities and eight sufferings, and it once longed to sing out into the endless void. Yet when every calculation reached its end, all that remained in the lunar palace was useless, cold iron."
         },
         {
+          "id": "gi-item-112146",
+          "name": "Ethereal Glimmershard",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112146.webp",
+          "fields": {
+            "rarity": "1 \u2605",
+            "type": "Character and Weapon Enhancement Material"
+          },
+          "text": "The remains of a Snezhnayan fae left behind after battle.\nThese shards once coated the creature's body like crystalline scales. Upon falling away, they stripped themselves of all colors, shifting into something akin to the dusty dross of a moth's wings."
+        },
+        {
+          "id": "gi-item-112147",
+          "name": "Ethereal Crystal",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112147.webp",
+          "fields": {
+            "rarity": "2 \u2605",
+            "type": "Character and Weapon Enhancement Material"
+          },
+          "text": "The remains of a Snezhnayan fae left behind after battle.\nA shattered fragment of the crystalline scales that once grew upon the fae's body. Though it is now a mere empty shell, one can still sense the echo of the unique power that once dwelt within."
+        },
+        {
+          "id": "gi-item-112148",
+          "name": "Ethereal Crystalscale Stone",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112148.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Character and Weapon Enhancement Material"
+          },
+          "text": "The remains of a Snezhnayan fae left behind after battle.\nA crystalline scale that once grew upon the fae's body. It is said that fae possessing a greater abundance of these scales command far greater power. Yet, none can say whether this magic truly originates from within their forms \u2014 merely channeled outward through the crystal chunks \u2014 or if the chunks themselves are the very vessels of their power."
+        },
+        {
+          "id": "gi-item-112149",
+          "name": "Chimeric Core",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112149.webp",
+          "fields": {
+            "rarity": "1 \u2605",
+            "type": "Character and Weapon Enhancement Material"
+          },
+          "text": "The internal core harvested from aberrant man-made monsters.\nThis is the most fundamental core grown within a man-made monster. Yet, simple as it may be, it contains the primordial design for the growth of all man-made creations."
+        },
+        {
+          "id": "gi-item-112150",
+          "name": "Symbiotic Chimeric Nucleus",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112150.webp",
+          "fields": {
+            "rarity": "2 \u2605",
+            "type": "Character and Weapon Enhancement Material"
+          },
+          "text": "The internal core harvested from aberrant man-made monsters.\nA relatively complex core harvested from a man-made monster. This symbiotic nucleus is engineered to sustain the biological cycles of two distinct life-forms, seamlessly weaving them into a single organism."
+        },
+        {
+          "id": "gi-item-112151",
+          "name": "Prime Chimeric Nexus",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112151.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Character and Weapon Enhancement Material"
+          },
+          "text": "The internal core harvested from aberrant man-made monsters.\nThe most complex core a man-made monster can possibly sustain, serving as an artificially engineered yet flawless seed of life. Whoever brought this creation into life has surely unlocked the very secrets of how life itself is shaped."
+        },
+        {
+          "id": "gi-item-112152",
+          "name": "Accreted Fragment",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112152.webp",
+          "fields": {
+            "rarity": "2 \u2605",
+            "type": "Character and Weapon Enhancement Material"
+          },
+          "text": "An accretion formed by powerful Volkodlak.\nAn accretion that has only just begun to attach to an internal organ or bone. As the Volkodlak's power grows, it may eventually cover an entire region of the body, or a whole organ."
+        },
+        {
+          "id": "gi-item-112153",
+          "name": "Accreted Mass",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112153.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Character and Weapon Enhancement Material"
+          },
+          "text": "An accretion formed by powerful Volkodlak.\nAn accretion that has clung to an internal organ or bone for a long time. Once removed, such accretions are regarded as symbols of power and carefully preserved by the creature's descendants."
+        },
+        {
+          "id": "gi-item-112154",
+          "name": "Accreted Growth",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112154.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Character and Weapon Enhancement Material"
+          },
+          "text": "An accretion formed by powerful Volkodlak.\nAn accretion that has fully fused with an organ or bone. One could even say it's a newly grown bone or organ at the nodes of the Volkodlak's power circulation. Only long-lived Volkodlaks who have ceaselessly honed their strength can form such growths within their bodies."
+        },
+        {
+          "id": "gi-item-112155",
+          "name": "Hollow Root of Life",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112155.webp",
+          "fields": {
+            "rarity": "2 \u2605",
+            "type": "Character and Weapon Enhancement Material"
+          },
+          "text": "A branch dropped by a Leshy before it returned to silence.\nWith only a few crystals grown upon it, this branch holds little power and gives off a faint glow."
+        },
+        {
+          "id": "gi-item-112156",
+          "name": "Sprout Node of Life",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112156.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Character and Weapon Enhancement Material"
+          },
+          "text": "A branch dropped by a Leshy before it returned to silence.\nA branch bearing a fair number of crystals. It feels heavy in the hand, and traces of vitality can still be felt within it even after it has broken away from the Leshy's body."
+        },
+        {
+          "id": "gi-item-112157",
+          "name": "Coiled Core of Life",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112157.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Character and Weapon Enhancement Material"
+          },
+          "text": "A branch dropped by a Leshy before it returned to silence.\nA branch with a fully formed crystal core. It contains vitality that will not easily fade. If buried in the soil, it would likely grow into a new Leshy before long."
+        },
+        {
           "id": "gi-item-113001",
           "name": "Hurricane Seed",
           "kind": "item",
@@ -45842,6 +47446,28 @@
           "text": "A sprig recovered from the shattered depths of the Ley Lines after the defeat of the heretic hidden within Irminsul.\nWhat should have been a bud of hope has now become a beacon of profanation. Through its spreading veins, the sinful tree continues to climb toward the sky."
         },
         {
+          "id": "gi-item-113090",
+          "name": "Unscorched Blossom Branch",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113090.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Character Level Up Material"
+          },
+          "text": "A blossom branch taken from a monster created by someone to serve their selfish desires. It won't wither or burn in flame.\nBefore the gloomy alchemist found a way to grant life eternity and put it into practice, he once ran his hand gently over the body of his creation \u2014 a monster whose leaves resembled crimson feathers. He imagined the day the undying creature greeting the friend he had awaited for so long from within the flames. And by then... perhaps he should pluck a flower from his creation's body as a gift to mark that friend's escape from the realm of shadows."
+        },
+        {
+          "id": "gi-item-113091",
+          "name": "Severed Tail of the Sky-Roamer",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113091.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Character Level Up Material"
+          },
+          "text": "The tail feather of a powerful chimeric monster.\nPerhaps even a created monster ought to seek out its own destiny, lest it be cast into suffering by another's hand. With such thoughts in mind, the one who made these monsters was fond of giving his creations wings. Yet there are many winged creatures in this world, and only a small few ever truly learn to fly. Perhaps that, too, is what they call providence."
+        },
+        {
           "id": "gi-item-114001",
           "name": "Tile of Decarabian's Tower",
           "kind": "item",
@@ -46766,6 +48392,138 @@
           "text": "Weapon Ascension Material.\nWith the unblessed birth of the prophesied son, a millennia-long plan ushered in a bleak twilight.\nA scheme born of cunning was shattered by foolish betrayal. The youth who was supposed to be king took the maid who was supposed to serve him and stole the secret treasure that was supposed to be his, only to reject the crowns that fate had ordained for him.\nIn time, the king who was destined to rule Elysium went down in history as an unpardonable thief, and by the time the true new moon shone upon the land, the far north's final wish of golden grandeur had already been buried by a priestess, who had never believed in any god, in the empty grave of her king."
         },
         {
+          "id": "gi-item-114085",
+          "name": "Rise of the Pale Star Army",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_114085.webp",
+          "fields": {
+            "rarity": "2 \u2605",
+            "type": "Weapon Ascension Material"
+          },
+          "text": "Weapon Ascension Material.\nIn the east of the tundra, that arrogant monster born within the wing-like mountain is nothing more than a lowly peddler of malt and minerals.\nThe Vila under his command are but weaklings with insect wings, while the Domovoy cannot even lift weapons with their stunted arms.\nWho would heed the clamor of such rabble? What strength could they possibly have to stand against the onslaught of the kings of Volkodlak?"
+        },
+        {
+          "id": "gi-item-114086",
+          "name": "Muster of the Pale Star Army",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_114086.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Weapon Ascension Material"
+          },
+          "text": "Weapon Ascension Material.\n\"They seized the canyon by sheer luck. That laughably arrogant fool is no more than a spent bolt, a fading gale.\"\n\"Even with all their strength, they can barely hold back a fraction of our forces. Soon enough, their defeat will be plain to see.\"\n\"Soldiers, march onward! For our king has already foretold, for this entire campaign shall end in effortless victory!\""
+        },
+        {
+          "id": "gi-item-114087",
+          "name": "Clarion of the Pale Star Army",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_114087.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Weapon Ascension Material"
+          },
+          "text": "Weapon Ascension Material.\n\"Our enemy Monomakh has built his palace beyond the valley, a sign that he is fully confident in his ability to contend with us.\"\n\"As matters stand, he deserves our utmost caution. Any talk of a swift victory should now be set aside.\"\n\"But it matters not. With wisdom to guide us all, the King shall stand with the clans to overcome every hardship and usher in a glorious new era!\""
+        },
+        {
+          "id": "gi-item-114088",
+          "name": "Triumph of the Pale Star Army",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_114088.webp",
+          "fields": {
+            "rarity": "5 \u2605",
+            "type": "Weapon Ascension Material"
+          },
+          "text": "Weapon Ascension Material.\n\"All hail the Tsar, Protector of all fae, Heir to the Pale Star, sovereign born of sacred blood!\"\n\"Praise be, for the entire tundra now stands as one beneath the brilliance of the Polestar!\"\n\"Praise be, for His Majesty has slain the false king and embraced all fae. Such is his benevolence, such is his mercy!\""
+        },
+        {
+          "id": "gi-item-114089",
+          "name": "Measured Pour of the Cellared Spiritual Nectar",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_114089.webp",
+          "fields": {
+            "rarity": "2 \u2605",
+            "type": "Weapon Ascension Material"
+          },
+          "text": "Weapon Ascension Material.\nThe radiance that once gleamed like the aurora in the northernmost sky was extinguished when it met the gaze from high above.\nThe calamity of bitter cold and black crystal nearly destroyed the foundations upon which all life endured.\nOnly the fae, unafraid of the cold, were able to emerge from the ice and snow to rule over the deserted realm."
+        },
+        {
+          "id": "gi-item-114090",
+          "name": "Intoxication of the Cellared Spiritual Nectar",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_114090.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Weapon Ascension Material"
+          },
+          "text": "Weapon Ascension Material.\nWhat others enjoy as a festive indulgence after a bountiful grain harvest is a necessity of survival for the clans who walk through the bitter cold.\nIt is said that the Domovoy, whose mastery of brewing was without equal, once relied on this art to enrich the treasury of the king they served.\nAnd so, passed from clan to clan through trade, the fae's brew flowed across the frozen lands like honey laced with poison."
+        },
+        {
+          "id": "gi-item-114091",
+          "name": "Exhilaration of the Cellared Spiritual Nectar",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_114091.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Weapon Ascension Material"
+          },
+          "text": "Weapon Ascension Material.\nLegend has it that long ago, countless casks of fine wine were poured into a frozen lake.\nSome say the wine was intended as wartime provisions, which had to be destroyed after some mishap. Others say a certain Grand Duke of the Domovoy had lost a bet to the ruler of the Water Imps.\nOnly when unquenchable azure hellflame spread across the lake, and the foes below writhed in choking waves, did they come to understand:\nIn the hands of the people well versed in the turning of the world, water itself could burn, and even the sweetest nectar could prove deadlier than poison."
+        },
+        {
+          "id": "gi-item-114092",
+          "name": "Revelry of the Cellared Spiritual Nectar",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_114092.webp",
+          "fields": {
+            "rarity": "5 \u2605",
+            "type": "Weapon Ascension Material"
+          },
+          "text": "Weapon Ascension Material.\nThe Grand Duke of the Domovoy commanded the crystal mines and the development of the frozen lands. To him, carving an oasis out of the polar wastes was a mere trifle, and importing rye of better quality was no difficult task either.\nEven among the many fae nobles who had endured in Snezhnaya to this day, none could rival the splendor of his status.\nYet the flame of ambition burned ever brighter, licking its way down his throat, while the ancient fae's greed swelled with the years and knew no end."
+        },
+        {
+          "id": "gi-item-114093",
+          "name": "The Frost Emperor's Revival",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_114093.webp",
+          "fields": {
+            "rarity": "2 \u2605",
+            "type": "Weapon Ascension Material"
+          },
+          "text": "Weapon Ascension Material.\nThe hero who emerged from the snowfields had yet to become the ruler of that frozen realm, but even then, he had already shown a habit of confiding far too much to those around him.\nSo he was all the more surprised when he received a gift from the fae of snow, who at the time had not yet taken their human form.\nAs far as he knew, he never told them that he was born from an egg as pale as ice deep within the wing-like mountains, nor did he ever mention the date of his birth."
+        },
+        {
+          "id": "gi-item-114094",
+          "name": "The Frost Emperor's Ceremony",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_114094.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Weapon Ascension Material"
+          },
+          "text": "Weapon Ascension Material.\nThe fae of the court didn't understand why a gift meant for the Tsar must be made in such shape. They knew only to lavish their craft upon ornaments bright as jewels.\nOnly the Tsar seated upon the throne and the fae of snow understood the meaning behind it.\nFor what mattered was never the ceremony, but the ancient truth it preserved."
+        },
+        {
+          "id": "gi-item-114095",
+          "name": "The Frost Emperor's Lament",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_114095.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Weapon Ascension Material"
+          },
+          "text": "Weapon Ascension Material.\nOn the night the truth stirred like bitter waves, she prepared this gift for her friend upon the throne\u2014though she herself was no longer the person she used to be.\nThey both seemed to understand that they might never speak to each other like this again.\nFor after that night, the path they once walked together diverged\u2014sundered by the weakness of one, and the fury of the other."
+        },
+        {
+          "id": "gi-item-114096",
+          "name": "The Frost Emperor's Farewell",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_114096.webp",
+          "fields": {
+            "rarity": "5 \u2605",
+            "type": "Weapon Ascension Material"
+          },
+          "text": "Weapon Ascension Material.\nAn object that appeared upon the table on the eve of war, though none knew when or how it'd come to be there.\nHe recognized it for the handiwork of the friend he hadn't seen for many long years.\nOnly then did he realize, that this was the beginning of every calamity, the bitter fruit of every desire, and the omen of every destruction."
+        },
+        {
           "id": "gi-item-115010",
           "name": "Starter Supply Bundle",
           "kind": "item",
@@ -47156,8 +48914,6 @@
           "name": "Masked Ball Invitation Letter",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_115046.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Item Material"
@@ -47671,6 +49427,28 @@
           "text": "A reliquary used to hold artifacts. May the one who sees it be blessed.\n\nEach reliquary will grant an artifact from the following sets:\n\u00b7Celestial Gift\n\u00b7Disenchantment in Deep Shadow"
         },
         {
+          "id": "gi-item-117030",
+          "name": "Domain Reliquary: Tier II",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_117002.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Reliquary"
+          },
+          "text": "A reliquary used to hold artifacts. May the one who sees it be blessed.\n\nEach reliquary will grant an artifact from the following sets:\n\u00b7Scarlet Proof\n\u00b7Heart of the Furnace\n\u00b7Berserker\n\u00b7Instructor\n\u00b7The Exile"
+        },
+        {
+          "id": "gi-item-117031",
+          "name": "Domain Reliquary: Tier I",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_117003.webp",
+          "fields": {
+            "rarity": "5 \u2605",
+            "type": "Reliquary"
+          },
+          "text": "A reliquary used to hold artifacts. May the one who sees it be blessed.\n\nEach reliquary will grant an artifact from the following sets:\n\u00b7Scarlet Proof\n\u00b7Heart of the Furnace"
+        },
+        {
           "id": "gi-item-118001",
           "name": "Cake for Traveler",
           "kind": "item",
@@ -47801,6 +49579,28 @@
             "type": "Very Special Item"
           },
           "text": "A gift given to a very special someone on a very special day.\n\nHere's to you, gazing into the flickering campfire.\nMay you find warmth and happiness on your journey.\n\n\"Every week, the recommended dishes get updated. Every month, the moon sends down new blessings \u2014 but wow, it's going to be almost nine thousand more hours before we can celebrate this day again! The time we spent together is like chocolate \u2014 sweet, soft, and too good to be savored in one bite... Mmmm! You're Paimon's favorite travel partner!\""
+        },
+        {
+          "id": "gi-item-118013",
+          "name": "Cake for Traveler",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_118013.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Very Special Item"
+          },
+          "text": "A gift given to a very special someone on a very special day.\n\nDedicated to you, who journey through moonlit shadows and endless forests.\nMay your journey across this world always be blessed with joy and surprises."
+        },
+        {
+          "id": "gi-item-118014",
+          "name": "Cake for Traveler",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_118013.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Very Special Item"
+          },
+          "text": "A gift given to a very special someone on a very special day.\n\nDedicated to you, who journey through moonlit shadows and endless forests.\nMay your journey across this world always be blessed with joy and surprises.\n\n\"Every week, the recommended dishes get updated. Every month, the moon sends down new blessings \u2014 but wow, it's going to be almost nine thousand more hours before we can celebrate this day again! Still, just like the moon rises every single day, Paimon will always be right here, traveling by your side! Yep, let's make wonderful memories wherever we go!\""
         },
         {
           "id": "gi-item-120000",
@@ -48397,6 +50197,17 @@
           "text": "The words on this prescription resemble nothing so much as a serpentine dance. You can barely make out the phrases \"Starshroom,\" \"turn the high flame down low,\" and \"the herbal soup deepens in color.\""
         },
         {
+          "id": "gi-item-120055",
+          "name": "\uff08test\uff09\u9a6c\u9c81\u592b\u7684\u4e07\u80fd\u836f\u5305",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100101.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
+        },
+        {
           "id": "gi-item-120056",
           "name": "Zakariya's Medicine for Maruf",
           "kind": "item",
@@ -48406,6 +50217,28 @@
             "type": "Quest Item"
           },
           "text": "The medicine that Zakariya has made for Maruf. It smells and looks like something bitterly terrible..."
+        },
+        {
+          "id": "gi-item-120057",
+          "name": "\uff08test\uff09\u8548\u517d\u5b62\u7c89",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112059.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
+        },
+        {
+          "id": "gi-item-120058",
+          "name": "\uff08test\uff09\u65b0\u9c9c\u7684\u987b\u5f25\u8537\u8587",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101219.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
         },
         {
           "id": "gi-item-120059",
@@ -48419,6 +50252,17 @@
           "text": "Judging by the wording, it seems to be a notebook that Dunyarzad has left behind. If the writer's hands hadn't turned shaky under the influence of Eleazar, the gracefully-penned writings could appear more elegant."
         },
         {
+          "id": "gi-item-120060",
+          "name": "\uff08test\uff09\u4ed9\u4eba\u638c\u51dd\u80f6",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100101.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
+        },
+        {
           "id": "gi-item-120061",
           "name": "Nermin's Minty Bean Soup",
           "kind": "item",
@@ -48428,6 +50272,17 @@
             "type": "Quest Item"
           },
           "text": "A serving of Minty Bean Soup that Nermin made herself. She even added Zaytun Peaches to it. It should taste quite good, you think..."
+        },
+        {
+          "id": "gi-item-120062",
+          "name": "\uff08test\uff09\u5185\u5c14\u654f\u505a\u7684\u9999\u6c34",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100101.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
         },
         {
           "id": "gi-item-120063",
@@ -48672,6 +50527,17 @@
           "text": "An invoice that Georg wrote for Guanchui. It records the price for the 100 boxes of Fruits of the Festival, the details of various fees, the transaction time, and the estimated time when the goods will arrive. This will surely put the client at ease."
         },
         {
+          "id": "gi-item-120085",
+          "name": "\uff08test\uff09\u9cc4\u9c7c\u8089\u5e72\uff08\u5e9f\u5f03\uff09",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100105.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
+        },
+        {
           "id": "gi-item-120086",
           "name": "Soulferry",
           "kind": "item",
@@ -48714,6 +50580,17 @@
             "type": "Quest Item"
           },
           "text": "A chess piece placed in the temple of Gurabad. This piece resembles the grand monument dedicated to King Deshret's ancient civilization."
+        },
+        {
+          "id": "gi-item-120090",
+          "name": "\uff08test\uff09\u5c45\u5c14\u57ce\u68cb\u5b50",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100105.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
         },
         {
           "id": "gi-item-120091",
@@ -48791,6 +50668,17 @@
             "type": "Quest Item"
           },
           "text": "An activatable device for a chess piece. Only the Jinn that served King Deshret can understand the complexities of its mechanisms."
+        },
+        {
+          "id": "gi-item-120098",
+          "name": "\uff08test\uff09\u5c45\u5c14\u57ce\u53d1\u6761",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100302.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
         },
         {
           "id": "gi-item-120099",
@@ -49077,6 +50965,17 @@
             "type": "Quest Item"
           },
           "text": "During certain seasons, the Bamboo Shoots grown in Qingce Village will release a most delectable fragrance, the scent betraying its status as a most vaunted ingredient for certain recipes."
+        },
+        {
+          "id": "gi-item-120125",
+          "name": "\uff08test\uff09\u8d5b\u82ad\u7684\u8537\u8587",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100003.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
         },
         {
           "id": "gi-item-120126",
@@ -50003,6 +51902,17 @@
           "text": "A mysterious key held by the Matriarch of the Tanit tribe. It should be able to open a certain door somewhere..."
         },
         {
+          "id": "gi-item-120222",
+          "name": "\uff08test\uff09\u77f3\u4e2d\u82b1\u6838\u5fc3(\u5e9f\u5f03)",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101701.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
+        },
+        {
           "id": "gi-item-120223",
           "name": "Plump Harra Fruit",
           "kind": "item",
@@ -50359,6 +52269,17 @@
           "name": "Scattered Yet Well-Preserved Pages (IV)",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_71700047.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
+        },
+        {
+          "id": "gi-item-120256",
+          "name": "\uff08test\uff09\u5e9f\u5f03",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_120001.webp",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
@@ -51114,6 +53035,17 @@
           "text": "Someone's Memo"
         },
         {
+          "id": "gi-item-120326",
+          "name": "\uff08test)\u4e50\u56ed\u4fe1\u4ef6",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_120001.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
+        },
+        {
           "id": "gi-item-120327",
           "name": "Locator",
           "kind": "item",
@@ -51123,6 +53055,83 @@
             "type": "Quest Item"
           },
           "text": "A Kshahrewar invention. When contestants carry these tracking devices, the locator can display their general locations. Additionally, should the contestants successfully complete their tasks, the locator will also sound."
+        },
+        {
+          "id": "gi-item-120328",
+          "name": "\uff08test)\u8428\u9f50\u56e0\u76f8\u5173\u7684\u8d44\u6599",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_120001.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
+        },
+        {
+          "id": "gi-item-120329",
+          "name": "\uff08test)\u8428\u9f50\u56e0\u6c99\u6f20\u7684\u8d44\u6599",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_120001.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
+        },
+        {
+          "id": "gi-item-120330",
+          "name": "\uff08test)\u8428\u9f50\u56e0\u601d\u8003\u7684\u8d44\u6599",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_120001.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
+        },
+        {
+          "id": "gi-item-120331",
+          "name": "\uff08test)\u5b66\u9662\u5e86\u5178\u6bd4\u5206_\u5f00\u59cb\u524d",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_120001.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
+        },
+        {
+          "id": "gi-item-120332",
+          "name": "\uff08test)\u5b66\u9662\u5e86\u5178\u6bd4\u5206_\u4e00\u9636\u6bb5\u7ed3\u675f",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_120001.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
+        },
+        {
+          "id": "gi-item-120333",
+          "name": "\uff08test)\u5b66\u9662\u5e86\u5178\u6bd4\u5206_\u4e8c\u9636\u6bb5\u7ed3\u675f",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_120001.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
+        },
+        {
+          "id": "gi-item-120334",
+          "name": "\uff08test)\u5b66\u9662\u5e86\u5178\u6bd4\u5206_\u4e09\u9636\u6bb5\u7ed3\u675f",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_120001.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
         },
         {
           "id": "gi-item-120335",
@@ -51552,6 +53561,17 @@
             "type": "Quest Item"
           },
           "text": "A new fishing aid developed by Delaroche that applies the principles of odor analysis and advanced bait mimicry. It is said that its effect is \"very powerful.\" You can tell by the appearance that Delaroche thinks the world of this bait, with protective wrapping and a special bag. However, it is unknown whether such meticulous measures will affect the basic function of the bait \u2014 even if it attracts fish, the fish themselves may be unable to even find a way to bite down upon it."
+        },
+        {
+          "id": "gi-item-120375",
+          "name": "\uff08test\uff09\u673a\u68b0\u602a\u7269\u6b8b\u9ab8",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_120008.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
         },
         {
           "id": "gi-item-120376",
@@ -52104,6 +54124,28 @@
           "text": "A flowery accessory given away by Lyney at his magic shows. It is an arrangement of Lumidouce Bells, which symbolize parting, and Rainbow Roses that represent passion. Parting and passion are two separate perspectives sharing the same nature. What really matters is the present that we are living in."
         },
         {
+          "id": "gi-item-120430",
+          "name": "\uff08test\uff09\u8ff7\u4e4b\u77ff\u77f3",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101814.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
+        },
+        {
+          "id": "gi-item-120431",
+          "name": "\uff08test\uff09\u539f\u59cb\u5e72\u7ec6\u80de",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101814.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
+        },
+        {
           "id": "gi-item-120432",
           "name": "Red Stone",
           "kind": "item",
@@ -52135,6 +54177,17 @@
             "type": "Quest Item"
           },
           "text": "A holy sword that bears a special meaning in a certain story.\nIt belongs to no one."
+        },
+        {
+          "id": "gi-item-120435",
+          "name": "\uff08test\uff09\u9605\u8bfb\u7269 \u739b\u4e3d\u5b89\u548c\u8389\u5229\u4e1d\u7684\u6545\u4e8b",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101104.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
         },
         {
           "id": "gi-item-120436",
@@ -52598,6 +54651,19 @@
         {
           "id": "gi-item-120481",
           "name": "Ancient Log",
+          "kind": "item",
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
+        },
+        {
+          "id": "gi-item-120482",
+          "name": "\uff08test\uff09\u9605\u8bfb\u7269",
           "kind": "item",
           "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
@@ -53156,6 +55222,39 @@
           "artSource": "neutral-database-placeholder"
         },
         {
+          "id": "gi-item-120533",
+          "name": "\uff08test\uff09\u6d41\u6d6a\u6c49\u8bc1\u7269\u9152\u74f6",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_120522.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
+        },
+        {
+          "id": "gi-item-120534",
+          "name": "\uff08test\uff09\u5c0f\u5b69\u8bc1\u7269\u978b\u5b50",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_120522.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
+        },
+        {
+          "id": "gi-item-120535",
+          "name": "\uff08test\uff09\u8bc8\u9a97\u56e2\u4f19\u8bc1\u7269\u5200\u75d5",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_120522.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
+        },
+        {
           "id": "gi-item-120536",
           "name": "Sir Arthur's Wing",
           "kind": "item",
@@ -53189,6 +55288,17 @@
           "text": "A clockwork head that belonged to Sir Arthur.\nWhat the criminal did was unforgivable!"
         },
         {
+          "id": "gi-item-120539",
+          "name": "\uff08test\uff09\u84b8\u6c7d\u9e1f\u788e\u7247\u56db",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_120522.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
+        },
+        {
           "id": "gi-item-120540",
           "name": "Leftover Poissonchant Pie",
           "kind": "item",
@@ -53198,6 +55308,39 @@
             "type": "Quest Item"
           },
           "text": "It looks cute, but might cause stomach problems later..."
+        },
+        {
+          "id": "gi-item-120541",
+          "name": "\uff08test\uff09\u9508\u8680\u7684\u9910\u5200",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_120522.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
+        },
+        {
+          "id": "gi-item-120542",
+          "name": "\uff08test\uff09\u67ab\u4e39\u4e0a\u6d41\u9910\u5200",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_120522.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
+        },
+        {
+          "id": "gi-item-120543",
+          "name": "\uff08test\uff09\u9879\u94fe\u4e2d\u7684\u5c0f\u5b69\u7167\u7247",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_120522.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
         },
         {
           "id": "gi-item-120544",
@@ -53268,6 +55411,17 @@
         {
           "id": "gi-item-120550",
           "name": "Letter to the Editor-in-Chief (Draft)",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_120522.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
+        },
+        {
+          "id": "gi-item-120551",
+          "name": "\uff08test\uff09\u51ef\u4e07\u7684\u4fe1",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_120522.webp",
           "fields": {
@@ -54841,6 +56995,17 @@
           "text": "An exit card issued by the Fortress of Meropide. It's just a piece of paper, but it has been given a name most heartening."
         },
         {
+          "id": "gi-item-120727",
+          "name": "\uff08test\uff09\u5e9f\u5f03",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100540.webp",
+          "fields": {
+            "rarity": "5 \u2605",
+            "type": "Quest Item"
+          },
+          "text": ""
+        },
+        {
           "id": "gi-item-120730",
           "name": "Root Cycle",
           "kind": "item",
@@ -54993,6 +57158,17 @@
             "type": "Quest Item"
           },
           "text": "A commonly-seen coin pouch filled with Mora."
+        },
+        {
+          "id": "gi-item-120752",
+          "name": "\uff08test\uff09\u9508\u8235\u9152\u5427\u83dc\u5355",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100302.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
         },
         {
           "id": "gi-item-120753",
@@ -55611,6 +57787,17 @@
           "text": "A Lumitoile collected from the seafloor. The shape is stellar and the color charming. It should be usable as a clothing accessory."
         },
         {
+          "id": "gi-item-120811",
+          "name": "\uff08test\uff09\u6838\u6843\u624b\u4e32",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112025.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
+        },
+        {
           "id": "gi-item-120812",
           "name": "Forgotten Key (I)",
           "kind": "item",
@@ -55631,6 +57818,17 @@
             "type": "Quest Item"
           },
           "text": "A key that seems to have been lost in the wilderness of Chenyu Vale. What could it be used for...?"
+        },
+        {
+          "id": "gi-item-120814",
+          "name": "\uff08test\uff09\u76d7\u5b9d\u56e2\u85cf\u533f\u7684\u5b9d\u7bb1\u94a5\u5319\u4e09",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100302.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
         },
         {
           "id": "gi-item-120815",
@@ -55952,6 +58150,17 @@
           "text": "This ledger found in the Wangshan Hall contains detailed records of every last income and expenditure item."
         },
         {
+          "id": "gi-item-120844",
+          "name": "\uff08test\uff09\u795e\u5947\u7684\u677e\u679c",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100302.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
+        },
+        {
           "id": "gi-item-120845",
           "name": "Votive Rainjade",
           "kind": "item",
@@ -55961,6 +58170,61 @@
             "type": "Quest Item"
           },
           "text": "The final gemstone hurled by the Adeptus Fujin in ancient times. Although it looks pretty much the same as other ordinary jade stones, it contains enough adeptal energy to transform the nearby water and land in an instant..."
+        },
+        {
+          "id": "gi-item-120846",
+          "name": "\uff08test\uff09\u9057\u5251\u62d3\u7247\u00b7\u5176\u4e4b\u4e00",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100302.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
+        },
+        {
+          "id": "gi-item-120847",
+          "name": "\uff08test\uff09\u9057\u5251\u62d3\u7247\u00b7\u5176\u4e4b\u4e8c",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100302.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
+        },
+        {
+          "id": "gi-item-120848",
+          "name": "\uff08test\uff09\u9057\u5251\u62d3\u7247\u00b7\u5176\u4e4b\u4e09",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100302.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
+        },
+        {
+          "id": "gi-item-120849",
+          "name": "\uff08test\uff09\u9057\u5251\u62d3\u7247\u00b7\u5176\u4e4b\u56db",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100302.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
+        },
+        {
+          "id": "gi-item-120850",
+          "name": "\uff08test\uff09\u9057\u5251\u62d3\u7247\u00b7\u5176\u4e4b\u4e94",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100302.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
         },
         {
           "id": "gi-item-120851",
@@ -56060,6 +58324,17 @@
             "type": "Adventure Item"
           },
           "text": "An obsidian ring with engraved patterns styled like those of the Children of Echoes. It is an ancient medium by which the tribe established contact with the deep night. Perhaps its strength can allow you to cross the boundary between this place and a certain other location..."
+        },
+        {
+          "id": "gi-item-120860",
+          "name": "\uff08test\uff09\u540d\u5355\u96c6",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101629.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
         },
         {
           "id": "gi-item-120861",
@@ -56346,6 +58621,17 @@
             "type": "Quest Item"
           },
           "text": "A key to a Saurian Cart with notched patterns that tend toward its rear. Perhaps this might open the door of quite a special cart indeed."
+        },
+        {
+          "id": "gi-item-120887",
+          "name": "\uff08test\uff09\u597d\u50cf\u80fd\u62ff\u6765\u5f00\u9501\u7684\u94a5\u5319",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100302.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
         },
         {
           "id": "gi-item-120888",
@@ -57225,6 +59511,17 @@
           "text": "Kachina's Ancient Name. This plain, unadorned obsidian seems to be a bit heavier than expected. It is said you can use it to find Kachina's approximate location..."
         },
         {
+          "id": "gi-item-120985",
+          "name": "\uff08test\uff09\u5361\u9f50\u5a1c\u9001\u4f60\u7684\u5c0f\u77f3\u5934",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_120985.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
+        },
+        {
           "id": "gi-item-120986",
           "name": "Purpose-Built Grappling Hook",
           "kind": "item",
@@ -57698,6 +59995,17 @@
           "text": "A map left behind by the first chief of the People of the Springs. It is said to indicate the route to the mysterious island, yet only skilled guides can decipher its secrets."
         },
         {
+          "id": "gi-item-121029",
+          "name": "\uff08test\uff09\u7eaa\u5ff5\u5408\u7167",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100101.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
+        },
+        {
           "id": "gi-item-121030",
           "name": "Amina's Coin Pouch",
           "kind": "item",
@@ -57740,6 +60048,17 @@
             "type": "Quest Item"
           },
           "text": "High-end camping gear that Mualani has bought for this adventure."
+        },
+        {
+          "id": "gi-item-121034",
+          "name": "\uff08test\uff09\uff1f\uff1f\uff1f",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100101.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
         },
         {
           "id": "gi-item-121035",
@@ -59399,8 +61718,6 @@
           "name": "Fusion Profusion: DJ Remix Selections",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121196.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Quest Item"
@@ -59791,8 +62108,6 @@
           "name": "Chevalmarin Amusement Park Commemorative Map",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121228.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Quest Item"
@@ -59804,8 +62119,6 @@
           "name": "Chevalmarin Amusement Park Commemorative Map",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121228.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Quest Item"
@@ -59817,8 +62130,6 @@
           "name": "Chevalmarin Amusement Park Commemorative Map",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121228.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Quest Item"
@@ -59863,8 +62174,6 @@
           "name": "Wonderland Cosmosphere",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121234.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "5 \u2605",
             "type": "Quest Item"
@@ -59887,8 +62196,6 @@
           "name": "Chevalmarin Amusement Park Commemorative Map",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121228.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Quest Item"
@@ -59900,8 +62207,6 @@
           "name": "Chevalmarin Amusement Park Commemorative Map",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121228.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Quest Item"
@@ -59913,8 +62218,6 @@
           "name": "Chevalmarin Amusement Park Commemorative Map",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121228.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Quest Item"
@@ -59937,8 +62240,6 @@
           "name": "Rantiy's Hat",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121241.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
@@ -59961,8 +62262,6 @@
           "name": "Key to the \"Hibernation Chamber\"",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121243.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Quest Item"
@@ -60073,8 +62372,6 @@
           "name": "Invitation Letter For a Ball Now Past",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_115046.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Quest Item"
@@ -60086,8 +62383,6 @@
           "name": "Dream-Mirror Remnant",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121255.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Quest Item"
@@ -60099,8 +62394,6 @@
           "name": "Training Review",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121256.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Consumable"
@@ -60123,8 +62416,6 @@
           "name": "Gift Egg Gifted by Capybara King",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121264.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "2 \u2605",
             "type": "Consumable"
@@ -60136,8 +62427,6 @@
           "name": "Gift Egg Gifted by Cacasha",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121263.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "2 \u2605",
             "type": "Consumable"
@@ -60149,8 +62438,6 @@
           "name": "Gift Egg: Blood of This Land",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121260.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "1 \u2605",
             "type": "Consumable"
@@ -60162,8 +62449,6 @@
           "name": "Gift Egg: Let's Shred, Sharky!",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121261.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "1 \u2605",
             "type": "Consumable"
@@ -60175,8 +62460,6 @@
           "name": "Gift Egg: Bow Before Your King!",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121262.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "1 \u2605",
             "type": "Consumable"
@@ -60188,8 +62471,6 @@
           "name": "Gift Egg: Light of the Blazing Sun",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121263.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "1 \u2605",
             "type": "Consumable"
@@ -60201,8 +62482,6 @@
           "name": "Gift Egg: Where the Drinks Keep Flowing",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121264.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "1 \u2605",
             "type": "Consumable"
@@ -60214,8 +62493,6 @@
           "name": "Gift Egg: Fietena",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121265.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "1 \u2605",
             "type": "Consumable"
@@ -60227,8 +62504,6 @@
           "name": "Easybreeze Holiday Resort Invitation",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121266.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
@@ -60240,8 +62515,6 @@
           "name": "\"Sun\"",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121267.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Quest Item"
@@ -60253,8 +62526,6 @@
           "name": "Miniature \"Sun\"",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121268.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Quest Item"
@@ -60277,8 +62548,6 @@
           "name": "Teyvat Commemorative Album",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121270.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Quest Item"
@@ -60290,8 +62559,6 @@
           "name": "Keepsake Photo With Yelan",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121271.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Quest Item"
@@ -60303,8 +62570,6 @@
           "name": "Training Review (Read)",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121256.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Quest Item"
@@ -60316,8 +62581,6 @@
           "name": "Deciphered Message",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121256.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
@@ -60329,8 +62592,6 @@
           "name": "Krumkake Bolt",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121279.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Consumable"
@@ -60419,8 +62680,6 @@
           "name": "Pipilpan Idol Competition Brochure",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121287.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
@@ -60577,8 +62836,6 @@
           "name": "Easybreeze Badge",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121301.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
@@ -60689,8 +62946,6 @@
           "name": "Medicine from the Curatorium of Secrets",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121311.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
@@ -60900,8 +63155,6 @@
           "name": "Recorded Intel",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121330.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "2 \u2605",
             "type": "Consumable"
@@ -60962,6 +63215,17 @@
             "type": "Quest Item"
           },
           "text": "A cassette that seems to be used by the Fatui for storing data. Who knows what information this one contains?"
+        },
+        {
+          "id": "gi-item-121336",
+          "name": "\uff08test\uff09\u7814\u7a76\u70b9\u4f4d\u5e73\u9762\u56fe",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121336.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": "???"
         },
         {
           "id": "gi-item-121337",
@@ -61061,6 +63325,17 @@
             "type": "Quest Item"
           },
           "text": "A device developed by Fanngel for the collection of data from high-altitude experiments.\nIts data collection module has been removed, but it can still block damage from lightning strikes. Although it only seems to be effective against the special lightning strikes in Nod-Krai..."
+        },
+        {
+          "id": "gi-item-121348",
+          "name": "(test\uff09\u706f\u5854\u4fe1\u53f7\u8bf4\u660e",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121146.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
         },
         {
           "id": "gi-item-121350",
@@ -61179,8 +63454,6 @@
           "name": "Lever",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121360.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
@@ -61258,8 +63531,6 @@
           "name": "Collated Intel",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121367.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Quest Item"
@@ -61348,8 +63619,6 @@
           "name": "Way-Opening Key",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121375.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
@@ -61361,8 +63630,6 @@
           "name": "Ragged Notes",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121376.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
@@ -61374,8 +63641,6 @@
           "name": "Ordered Notes",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121377.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
@@ -61746,6 +64011,39 @@
           "text": "You promised Puca that you would carefully select and gather the shiniest and brightest Beryl Conches for her."
         },
         {
+          "id": "gi-item-121411",
+          "name": "Pebble of Crystalline Essence",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121411.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": "An egg-shaped stone infused with the power required for the Eye of Graeae to reclaim his physical form.\nOnce divided and seized by the Domovoy Grand Duke Alvis, its power was acquired by Aksinya through unknown means and placed within the hollow remains of Hvergelmir. Hidden within it may lie the secret of how, through rebirth, a mere mortal might transcend into a more perfect being."
+        },
+        {
+          "id": "gi-item-121412",
+          "name": "Snegovik Laboratory Key",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121412.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": "A needle-like key.\nIt unlocks the laboratory doors of the Grand Duchess of the Snegurochka within Hvergelmir."
+        },
+        {
+          "id": "gi-item-121413",
+          "name": "Cat Food",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121413.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": "It appears to be food prepared by Pavlina, the Grand Duchess of the Snegurochka, for a cat named Lara who was kept within Hvergelmir... It smells rather tempting \u2014 but at the end of the day, it's just cat food, so it probably tastes like cardboard."
+        },
+        {
           "id": "gi-item-121414",
           "name": "Rhinedottir's \"Gift\"",
           "kind": "item",
@@ -62025,6 +64323,61 @@
             "type": "Consumable"
           },
           "text": "A special box of custom-made sugar sculptures, seemingly crafted with someone in mind. Best enjoyed quickly before they have a chance to melt."
+        },
+        {
+          "id": "gi-item-121442",
+          "name": "Red Key",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121442.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": "One of three keys required to open the sewer control room door. This one is red."
+        },
+        {
+          "id": "gi-item-121443",
+          "name": "White Key",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121443.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": "One of three keys required to open the sewer control room door. This one is white."
+        },
+        {
+          "id": "gi-item-121444",
+          "name": "Blue Key",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121444.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": "One of three keys required to open the sewer control room door. This one is blue."
+        },
+        {
+          "id": "gi-item-121445",
+          "name": "Invitation to the \"Ritual\"",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121445.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": "A wondrous invitation that always seems to find its way into the hands of its rightful recipient.\nWith this invitation, one may journey to the House of Hesperides atop the icy peaks of Snezhnaya, to attend the wedding of Pavlina, the princess of the Snegurochka."
+        },
+        {
+          "id": "gi-item-121446",
+          "name": "Severed Fragment of Ikhor",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121446.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": "A fragment of Ikhor's power, split off by Aksinya when the \"ritual\" was interrupted.\nFor some reason, it has taken the form of a glowing doll. Perhaps the desire to \"fulfill the wishes of others\" became the strings that controlled him long ago, and now he is nothing more than a puppet carrying a form of transcendent power."
         },
         {
           "id": "gi-item-121447",
@@ -62522,8 +64875,6 @@
           "name": "Event Invitation",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121493.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Quest Item"
@@ -62674,8 +65025,6 @@
           "name": "Dodoco's Enchanted Candy",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121505.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Quest Item"
@@ -62765,8 +65114,6 @@
           "name": "A Brief History of the Pale Starborn",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121512.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Quest Item"
@@ -62778,8 +65125,6 @@
           "name": "Night Murmurs From the Far Border: Varcolac",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121513.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Quest Item"
@@ -62791,8 +65136,6 @@
           "name": "Tales Carried by the Northwind",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121514.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Quest Item"
@@ -62865,8 +65208,6 @@
           "name": "Varka's Invitation Ticket",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121520.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "2 \u2605",
             "type": "Quest Item"
@@ -62878,8 +65219,6 @@
           "name": "Varka's Invitation Ticket",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121520.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "2 \u2605",
             "type": "Quest Item"
@@ -63093,6 +65432,28 @@
           "artSource": "neutral-database-placeholder"
         },
         {
+          "id": "gi-item-121541",
+          "name": "Pebble of Freezing Heart",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121541.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": "An egg-shaped stone infused with the power required for the Eye of Graeae to reclaim his physical form.\nOnce used by the fae Grand Duchess Pavlina to remedy the inherent flaws of the fae.\nHidden within it may lie the aspiration of how a mere mortal might ascend to a higher status through rebirth."
+        },
+        {
+          "id": "gi-item-121542",
+          "name": "Pebble of Serpentine Algae",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121542.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": "An egg-shaped stone infused with the power required for the Eye of Graeae to reclaim his physical form.\nOnce used by the alchemist named Koshchei to create life in pursuit of eternity.\nHidden within it may lie the revelation of how a mere mortal might forge immortality through rebirth."
+        },
+        {
           "id": "gi-item-121543",
           "name": "Selected Moonfall Silver",
           "kind": "item",
@@ -63168,6 +65529,17 @@
             "type": "Consumable"
           },
           "text": "A special box of custom-made sugar sculptures, seemingly crafted with someone in mind. Best enjoyed quickly before they have a chance to melt."
+        },
+        {
+          "id": "gi-item-121551",
+          "name": "\"Legendary Thief's Treasure\" Location",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100173.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": "A lead seemingly acquired by a gang member known as \"The Butcher\" while scraping together funds... Perhaps a massive haul lies waiting to be found."
         },
         {
           "id": "gi-item-121552",
@@ -63301,8 +65673,6 @@
           "name": "Photo With the Little Witches and Their Imaginary Friends",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/Ul_Itemlcon_121565.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Quest Item"
@@ -63314,8 +65684,6 @@
           "name": "Photo With the Little Witches and Their Imaginary Friends",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/Ul_Itemlcon_121566.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Quest Item"
@@ -63323,12 +65691,101 @@
           "text": "\"This is a gift for the Little Hexenzirkel,\" Alice said.\nAs long as you still leave some room for beautiful fantasies, your innocence will never fade. For children, it nourishes carefree childhood days, and for grown-ups, a gentle refuge against the passage of time."
         },
         {
+          "id": "gi-item-121567",
+          "name": "Unnamed Potion Formula",
+          "kind": "item",
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": "Unnamed Potion Formula",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
+        },
+        {
+          "id": "gi-item-121568",
+          "name": "Notes by a Certain Noble Individual (I)",
+          "kind": "item",
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": "Notes by a Certain Noble Individual (I)",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
+        },
+        {
+          "id": "gi-item-121569",
+          "name": "Notes by a Certain Noble Individual (II)",
+          "kind": "item",
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": "Notes by a Certain Noble Individual (II)",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
+        },
+        {
+          "id": "gi-item-121570",
+          "name": "Notes by a Certain Noble Individual (III)",
+          "kind": "item",
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": "Notes by a Certain Noble Individual (III)",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
+        },
+        {
+          "id": "gi-item-121571",
+          "name": "Notes by a Certain Noble Individual (IV)",
+          "kind": "item",
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": "Notes by a Certain Noble Individual (IV)",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
+        },
+        {
+          "id": "gi-item-121572",
+          "name": "Notes by a Certain Noble Individual (V)",
+          "kind": "item",
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": "Notes by a Certain Noble Individual (V)",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
+        },
+        {
+          "id": "gi-item-121573",
+          "name": "Notes by a Certain Noble Individual (VI)",
+          "kind": "item",
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": "Notes by a Certain Noble Individual (VI)",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
+        },
+        {
           "id": "gi-item-121574",
           "name": "Anomalous Tree Marrow I",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121574.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Quest Item"
@@ -63340,8 +65797,6 @@
           "name": "Anomalous Tree Marrow II",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121574.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Quest Item"
@@ -63353,8 +65808,6 @@
           "name": "Anomalous Tree Marrow III",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121574.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Quest Item"
@@ -63366,8 +65819,6 @@
           "name": "Anomalous Tree Marrow",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121574.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Quest Item"
@@ -63419,6 +65870,72 @@
           "text": "A preserved flower from a long-lost era, bearing a striking resemblance to a certain plant found in Teyvat. There may be a distant and ambiguous connection between the two."
         },
         {
+          "id": "gi-item-121590",
+          "name": "Scribbled Notes",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101633.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
+        },
+        {
+          "id": "gi-item-121591",
+          "name": "Neatly-Written Notes",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101633.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
+        },
+        {
+          "id": "gi-item-121592",
+          "name": "Notes Left by Unknown Person",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101633.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
+        },
+        {
+          "id": "gi-item-121593",
+          "name": "Izmaylov Guard's Journal",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101633.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
+        },
+        {
+          "id": "gi-item-121594",
+          "name": "Yet-to-be-Completed \"New High Table Melody\"",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101633.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
+        },
+        {
+          "id": "gi-item-121595",
+          "name": "test\u53e4\u6708\u529b\u9891\u8c31\u5206\u6790\u4eea",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121595.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
+        },
+        {
           "id": "gi-item-121596",
           "name": "Sandrone's Tea Party Invitation Letter",
           "kind": "item",
@@ -63428,6 +65945,39 @@
             "type": "Quest Item"
           },
           "text": "A tea party invitation letter sent by Sandrone. The invitation is delicately patterned with exquisite handwriting. Is this what one calls a lady's elegance?"
+        },
+        {
+          "id": "gi-item-121597",
+          "name": "Metal Control Wheel",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121597.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": "A metal control wheel used to open a certain gate in the sewers."
+        },
+        {
+          "id": "gi-item-121598",
+          "name": "Sewer Lift Control Wheel",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121597.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": "A control wheel used to operate the sewer lift."
+        },
+        {
+          "id": "gi-item-121599",
+          "name": "Lift Control Wheel",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121597.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": "A control wheel used to operate the lift leading to the assembly hall."
         },
         {
           "id": "gi-item-121601",
@@ -63485,6 +66035,28 @@
           "text": "A family portrait that Mamere painted for her \"family members\" at a tea party hosted by Sandrone. Its warm and distinctive brushwork differs somewhat from her previous paintings, suggesting that, as she said, she has been trying her hand at all sorts of different styles during her travels."
         },
         {
+          "id": "gi-item-121607",
+          "name": "\uff08test\uff09\u6c83\u96c5\u59ae\u838e\u7684\u4fe1\u4ef6",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121596.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": "Vodyanitsa's Letter"
+        },
+        {
+          "id": "gi-item-121608",
+          "name": "\uff08test\uff09\u95f9\u9b3c\u7684\u8c03\u67e5\u62a5\u544a",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121596.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": "Report of Investigation Into Alleged Ghost Haunting"
+        },
+        {
           "id": "gi-item-121609",
           "name": "Alain Guillotin's Epitaph",
           "kind": "item",
@@ -63494,6 +66066,155 @@
             "type": "Quest Item"
           },
           "text": ""
+        },
+        {
+          "id": "gi-item-121610",
+          "name": "Oddly-Shaped Emblem",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121610.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": "An emblem of peculiar design found by Nastya in a strange room. It seems capable of disabling traps..."
+        },
+        {
+          "id": "gi-item-121611",
+          "name": "VIP Pass",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121596.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": "A gilded letter.\nSaid to be issued by the master of the mountain manor, those bearing this letter were once frequently invited to the House of Hesperides.\nThe bearer may enjoy a brief respite within the mountain manor's VIP lounge."
+        },
+        {
+          "id": "gi-item-121612",
+          "name": "Gang Member's Forgotten Key",
+          "kind": "item",
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": "You found a key from a chest abandoned by the gang members. It looks like it might unlock a door somewhere.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
+        },
+        {
+          "id": "gi-item-121613",
+          "name": "Smelted Kristall Ore",
+          "kind": "item",
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": "A crystal refined and smelted from Kresnik Kristall. It might just serve some unique purpose.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
+        },
+        {
+          "id": "gi-item-121614",
+          "name": "Sewer Entrance/Exit Guide",
+          "kind": "item",
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": "A guide found inside the control room, detailing how to open the sewer control room door.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
+        },
+        {
+          "id": "gi-item-121615",
+          "name": "Strange Card",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121615.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Quest Item"
+          },
+          "text": "A strange card obtained in the Huntsman's Cabin. It is exquisitely crafted, but its purpose remains unknown..."
+        },
+        {
+          "id": "gi-item-121616",
+          "name": "Shadow Realm Vault Access Card",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121616.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Quest Item"
+          },
+          "text": "A card obtained in the Huntsman's Cabin that appears to be an access card for unlocking the Shadow Realm Vault beneath it.\nExplore the Shadow Realm of Snezhnaya and upgrade the card's clearance to open even more Shadow Realm Vaults."
+        },
+        {
+          "id": "gi-item-121617",
+          "name": "Shadow Realm Vault Access Card",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121617.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Quest Item"
+          },
+          "text": "A card obtained in the Huntsman's Cabin that appears to be an access card for unlocking the Shadow Realm Vault beneath it.\nExplore the Shadow Realm of Snezhnaya and upgrade the card's clearance to open even more Shadow Realm Vaults."
+        },
+        {
+          "id": "gi-item-121618",
+          "name": "Shadow Realm Vault Access Card",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121618.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Quest Item"
+          },
+          "text": "A card obtained in the Huntsman's Cabin that appears to be an access card for unlocking the Shadow Realm Vault beneath it.\nExplore the Shadow Realm of Snezhnaya and upgrade the card's clearance to open even more Shadow Realm Vaults."
+        },
+        {
+          "id": "gi-item-121619",
+          "name": "Shadow Realm Vault Access Card",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121619.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Quest Item"
+          },
+          "text": "A card obtained in the Huntsman's Cabin that appears to be an access card for unlocking the Shadow Realm Vault beneath it.\nExplore the Shadow Realm of Snezhnaya and upgrade the card's clearance to open even more Shadow Realm Vaults."
+        },
+        {
+          "id": "gi-item-121620",
+          "name": "Shadow Realm Vault Access Card",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121620.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Quest Item"
+          },
+          "text": "A card obtained in the Huntsman's Cabin that appears to be an access card for unlocking the Shadow Realm Vault beneath it.\nExplore the Shadow Realm of Snezhnaya and upgrade the card's clearance to open even more Shadow Realm Vaults."
+        },
+        {
+          "id": "gi-item-121621",
+          "name": "Shadow Realm Vault Access Card",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121621.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Quest Item"
+          },
+          "text": "A card obtained in the Huntsman's Cabin that appears to be an access card for unlocking the Shadow Realm Vault beneath it."
+        },
+        {
+          "id": "gi-item-121622",
+          "name": "Incomplete Data Block",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121622.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Quest Item"
+          },
+          "text": "Strange data blocks scattered throughout the Shadow Realm, seemingly placed on purpose to serve as markers. Perhaps gathering these peculiar fragments will aid in your exploration within the realm..."
         },
         {
           "id": "gi-item-121625",
@@ -63516,6 +66237,755 @@
             "type": "Quest Item"
           },
           "text": "An ancient stone tablet discovered on the moon. Though the writing upon it is completely indecipherable, for some reason, anyone who reads it can understand its meaning in their native tongue."
+        },
+        {
+          "id": "gi-item-121627",
+          "name": "Intricately Patterned Button",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121627.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": "A button beloved by the Jack Frost. Perhaps they love buttons so much because their round little hands cannot make anything so fine and light. Can be exchanged for goodies at the Jack Frosts' Goodies Shop."
+        },
+        {
+          "id": "gi-item-121628",
+          "name": "Snezhnaya Vestnik",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121625.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
+        },
+        {
+          "id": "gi-item-121630",
+          "name": "Incomplete Data Block",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121622.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Quest Item"
+          },
+          "text": "Strange data blocks scattered throughout the Shadow Realm, seemingly placed on purpose to serve as markers. Perhaps gathering these peculiar fragments will aid in your exploration within the realm..."
+        },
+        {
+          "id": "gi-item-121631",
+          "name": "Champion's Trophy of the First Adventurers' Tournament",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121631.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Quest Item"
+          },
+          "text": "A trophy awarded by the headquarters of the Adventurers' Guild in Snezhnaya. It stands as proof of the outstanding feats you and Paimon have achieved in the field of adventure.\nAs discussions at the Adventurers' Guild Development Conference failed to progress smoothly, the first Adventurers' Tournament, originally meant to promote friendly exchange between adventurers of different nations, became an arena for deciding who would have the final say...\nAs key figures in breaking the deadlock, you and Paimon joined the competition midway. Swiftly climbing the ranks, you claimed the championship, steered the conference's direction, and finalized several key resolutions...\nThough these resolutions may not have an immediate impact, they are sure to help the Guild keep pace with the times and bring greater benefits to more adventurers..."
+        },
+        {
+          "id": "gi-item-121632",
+          "name": "Rumbletwig",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121632.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": "A sprig sprouting from the Rumblebranch.\nPlacing it on the Rumblebranch can summon lightning."
+        },
+        {
+          "id": "gi-item-121633",
+          "name": "Hat: Bucket",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121633.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Quest Item"
+          },
+          "text": "A snowman's accessory. Though it is merely an ordinary iron bucket, with the right placement, it is more than enough to give a snowman a touch of flair."
+        },
+        {
+          "id": "gi-item-121634",
+          "name": "Hat: Polite",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121634.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Quest Item"
+          },
+          "text": "A snowman's accessory. A highly elegant hat that manages to make even a snowman look exceptionally well-mannered."
+        },
+        {
+          "id": "gi-item-121635",
+          "name": "Hat: Pointy",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121635.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Quest Item"
+          },
+          "text": "A snowman's accessory. A hat brimming with festive cheer. As long as you're in high spirits, any day can be a holiday."
+        },
+        {
+          "id": "gi-item-121636",
+          "name": "Hat: Fun Topper",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121636.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Quest Item"
+          },
+          "text": "A snowman's accessory. A hat of a rather... unique design? In any case, popping it on might just make the snowman look a bit more... amusing?"
+        },
+        {
+          "id": "gi-item-121637",
+          "name": "Snow-Swan Feather",
+          "kind": "item",
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Quest Item"
+          },
+          "text": "A snowman's accessory. Its design was inspired by a certain ballerina known for her sublime footwork.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
+        },
+        {
+          "id": "gi-item-121638",
+          "name": "Tide-Song Iceflower",
+          "kind": "item",
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Quest Item"
+          },
+          "text": "A snowman's accessory. Its design was inspired by a certain Rusalka famed for her soaring melodies.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
+        },
+        {
+          "id": "gi-item-121639",
+          "name": "Scarf: Warm Red",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121639.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Quest Item"
+          },
+          "text": "A snowman's accessory. A scarf that looks exceptionally warm. Once wrapped around a snowman's neck, it gives the children the perfect place to offer a hug."
+        },
+        {
+          "id": "gi-item-121640",
+          "name": "Scarf: Dream Star",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121640.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Quest Item"
+          },
+          "text": "A snowman's accessory. The patterns on this scarf mirror the stars of a dream. When a snowman dreams, does it envision a sky filled with drifting snow, or the deep ocean where the meltwater flows?"
+        },
+        {
+          "id": "gi-item-121641",
+          "name": "Scarf: Plaid",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121641.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Quest Item"
+          },
+          "text": "A snowman's accessory. A highly elegant scarf that manages to make even a snowman look exceptionally well-mannered."
+        },
+        {
+          "id": "gi-item-121642",
+          "name": "Scarf: Novelty Brace",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121642.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Quest Item"
+          },
+          "text": "A snowman's accessory. A scarf of a rather... unique design. Or perhaps it's a neck brace...? In any case, putting it on might just make the snowman look a bit more... amusing?"
+        },
+        {
+          "id": "gi-item-121643",
+          "name": "Stalker Hood",
+          "kind": "item",
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Quest Item"
+          },
+          "text": "A snowman's accessory. Its design was inspired by a certain hunter renowned for their masterful agility.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
+        },
+        {
+          "id": "gi-item-121644",
+          "name": "Key of Ancient Design",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121644.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": "A key of distinctly ancient design. It appears capable of unlocking a door somewhere within the House of Hesperides."
+        },
+        {
+          "id": "gi-item-121650",
+          "name": "Order Illustration",
+          "kind": "item",
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
+        },
+        {
+          "id": "gi-item-121651",
+          "name": "Order Illustration",
+          "kind": "item",
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
+        },
+        {
+          "id": "gi-item-121652",
+          "name": "Train Decoration Guide",
+          "kind": "item",
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Quest Item"
+          },
+          "text": "A guidebook documenting various styles of decoration. After reading, perhaps you could add some unique touches to your own train...?",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
+        },
+        {
+          "id": "gi-item-121653",
+          "name": "Black Snow Swan Archive",
+          "kind": "item",
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Quest Item"
+          },
+          "text": "An archive designed in the likeness of the Black Snow Swan, capturing the moments you spent with Odette as her manager.\nAll that has drifted away becomes a cherished memory.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
+        },
+        {
+          "id": "gi-item-121654",
+          "name": "Odette's Performance Photo",
+          "kind": "item",
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Quest Item"
+          },
+          "text": "A production still from Black Snow Swan, capturing Odette as she dances elegantly like a noble black swan.\nLooking at it brings back vivid memories of that magnificent ballet.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
+        },
+        {
+          "id": "gi-item-121655",
+          "name": "Autographed Black Snow Swan Poster",
+          "kind": "item",
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
+          "fields": {
+            "rarity": "2 \u2605",
+            "type": "Quest Item"
+          },
+          "text": "Odette gifted you this precious autographed poster to thank you for all your support during that time.\nYet, compared to this gift, perhaps her smile is the truer treasure.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
+        },
+        {
+          "id": "gi-item-121656",
+          "name": "White Feather Bookmark",
+          "kind": "item",
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
+          "fields": {
+            "rarity": "2 \u2605",
+            "type": "Quest Item"
+          },
+          "text": "Odette gifted you this exquisite bookmark after sharing her story with you.\nMay she soon grow strong feathers and soar freely into the boundless sky.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
+        },
+        {
+          "id": "gi-item-121657",
+          "name": "Stardust Trail: Radiant Glow",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121657.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Very Special Item"
+          },
+          "text": "Obtaining this alters the visual appearance of your combat outfit's cape within the Shadow Realm...\n\n\"A meteor's wake and a bullet's path... perhaps they aren't so different after all.\""
+        },
+        {
+          "id": "gi-item-121659",
+          "name": "Remnant Incense Guide - Snowgrave",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121659.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Adventure Item"
+          },
+          "text": "Gathering three pieces of the Remnant Incense Guide - Snowgrave allows you to unseal the vault of Shadow Realm at the Snowgrave.\nLegend has it that early squads exploring the Shadow Realm would occasionally find themselves unable to retrieve the treasures they discovered. In such cases, they would leave a specific \"scent trail\" behind. Only by piecing together the incense trail can one track down the locations of these long-lost relics."
+        },
+        {
+          "id": "gi-item-121660",
+          "name": "Remnant Incense Guide - Fellfrost Peak",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121660.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Adventure Item"
+          },
+          "text": "Gathering three pieces of the Remnant Incense Guide - Fellfrost Peak allows you to unseal the vault of Shadow Realm at the Fellfrost Peak.\nLegend has it that early squads exploring the Shadow Realm would occasionally find themselves unable to retrieve the treasures they discovered. In such cases, they would leave a specific \"scent trail\" behind. Only by piecing together the incense trail can one track down the locations of these long-lost relics."
+        },
+        {
+          "id": "gi-item-121661",
+          "name": "Remnant Incense Guide - Everfrozen Earth",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121661.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Adventure Item"
+          },
+          "text": "Gathering three pieces of the Remnant Incense Guide - Everfrozen Earth allows you to unseal the vault of Shadow Realm at the Everfrozen Earth.\nLegend has it that early squads exploring the Shadow Realm would occasionally find themselves unable to retrieve the treasures they discovered. In such cases, they would leave a specific \"scent trail\" behind. Only by piecing together the incense trail can one track down the locations of these long-lost relics."
+        },
+        {
+          "id": "gi-item-121663",
+          "name": "\"Spirit Seeker\" Preview Commemorative Photo",
+          "kind": "item",
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Quest Item"
+          },
+          "text": "The Korolevskiy Troupe held the first public trial performance of the ballet \"Spirit Seeker,\" capturing this commemorative photograph with all attending cast, crew, and audience members.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
+        },
+        {
+          "id": "gi-item-121664",
+          "name": "Branches of Nastya's Head",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121664.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": "A part of Nastya's body. It is a key item for opening the door leading to \"home\"."
+        },
+        {
+          "id": "gi-item-121665",
+          "name": "Nastya's Hand-Drawn Diagram",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100003.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": "A hand-drawn diagram by Nastya showing how to open the door leading to \"home\"."
+        },
+        {
+          "id": "gi-item-121666",
+          "name": "Sewer Entrance/Exit Guide",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100003.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": "A guide found inside the control room, detailing how to open the sewer control room door."
+        },
+        {
+          "id": "gi-item-121667",
+          "name": "Young Kids' Drawings",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100003.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
+        },
+        {
+          "id": "gi-item-121668",
+          "name": "Entrance Door Lever for a Certain Basement Room",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121360.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": "A lever used to open the entrance door to a certain basement room."
+        },
+        {
+          "id": "gi-item-121669",
+          "name": "Exit Door Lever for a Certain Basement Room",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121360.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": "A lever used to open the exit door to a certain basement room."
+        },
+        {
+          "id": "gi-item-121671",
+          "name": "Kresnik Energy",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121671.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Exploration Resources"
+          },
+          "text": "Energy required to operate the Eye of Graeae.\nKresnik Energy can be restored either by entering the range of heat sources powered by Kresnik Kristall in Snezhnaya, or by collecting Kresnik Kristall during exploration."
+        },
+        {
+          "id": "gi-item-121672",
+          "name": "Peculiar Reagent Sample",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_107036.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": "A sample extracted from the \"special cargo\" transported out of Izmaylov. Could it truly be connected to the Shadow Realm?"
+        },
+        {
+          "id": "gi-item-121674",
+          "name": "Stardust Trail: Radiant Glow Sigil",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121657.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Very Special Item"
+          },
+          "text": "A wondrous sigil that alters the visual appearance of your combat outfit's cape within the Shadow Realm. It is already in effect...\n\n\"A meteor's wake and a bullet's path... perhaps they aren't so different after all.\""
+        },
+        {
+          "id": "gi-item-121675",
+          "name": "Polestar Ballet Anthology (I)",
+          "kind": "item",
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Quest Item"
+          },
+          "text": "A script anthology from the Korolevskiy Troupe, containing excerpts from the ballet Black Snow Swan.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
+        },
+        {
+          "id": "gi-item-121676",
+          "name": "Polestar Ballet Anthology (II)",
+          "kind": "item",
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Quest Item"
+          },
+          "text": "A script anthology from the Korolevskiy Troupe, containing excerpts from the ballet The Seabird.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
+        },
+        {
+          "id": "gi-item-121677",
+          "name": "Polestar Ballet Anthology (III)",
+          "kind": "item",
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Quest Item"
+          },
+          "text": "A script anthology from the Korolevskiy Troupe, containing excerpts from the ballet The Envoy.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
+        },
+        {
+          "id": "gi-item-121678",
+          "name": "Polestar Ballet Anthology (IV)",
+          "kind": "item",
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Quest Item"
+          },
+          "text": "A script anthology from the Korolevskiy Troupe, containing excerpts from the ballet The Firebird.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
+        },
+        {
+          "id": "gi-item-121679",
+          "name": "General History of Snezhnaya (I)",
+          "kind": "item",
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Quest Item"
+          },
+          "text": "A historical work compiled by researchers. This volume primarily chronicles the legendary Golden City.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
+        },
+        {
+          "id": "gi-item-121680",
+          "name": "General History of Snezhnaya (II)",
+          "kind": "item",
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Quest Item"
+          },
+          "text": "A historical work compiled by researchers. This volume primarily chronicles the deeds of the Belyi Tsar and his retainers.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
+        },
+        {
+          "id": "gi-item-121681",
+          "name": "Ice Cream Container",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100101.webp",
+          "fields": {
+            "rarity": "2 \u2605",
+            "type": "Consumable"
+          },
+          "text": "A container for storing ice cream. Best enjoyed quickly before it starts to melt."
+        },
+        {
+          "id": "gi-item-121682",
+          "name": "Special Ice Cream Container",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100101.webp",
+          "fields": {
+            "rarity": "2 \u2605",
+            "type": "Consumable"
+          },
+          "text": "A container for storing specially made ice cream. It appears to have been custom-made for someone specific. In any case, please enjoy it as soon as possible before it melts."
+        },
+        {
+          "id": "gi-item-121683",
+          "name": "Special Ice Cream Container",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100101.webp",
+          "fields": {
+            "rarity": "2 \u2605",
+            "type": "Consumable"
+          },
+          "text": "A container for storing specially made ice cream. It appears to have been custom-made for someone specific. In any case, please enjoy it as soon as possible before it melts."
+        },
+        {
+          "id": "gi-item-121685",
+          "name": "Picture of Nastya With Her Mom",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121664.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": "An old, slightly worn photo that captures a warm moment between Nastya and her mother."
+        },
+        {
+          "id": "gi-item-121686",
+          "name": "Records of the Orderbearer",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101633.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": "Records of the Orderbearer"
+        },
+        {
+          "id": "gi-item-121687",
+          "name": "Investigation Notes",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101633.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": "Investigation Notes"
+        },
+        {
+          "id": "gi-item-121688",
+          "name": "The Alchemist's Notes (I)",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101633.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": "The Alchemist's Notes (I)"
+        },
+        {
+          "id": "gi-item-121689",
+          "name": "The Alchemist's Notes (II)",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101633.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": "The Alchemist's Notes (II)"
+        },
+        {
+          "id": "gi-item-121690",
+          "name": "Grand Duke Alvis's Notes",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101633.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": "Grand Duke Alvis's Notes"
+        },
+        {
+          "id": "gi-item-121691",
+          "name": "Snezhnaya Vestnik",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121625.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
+        },
+        {
+          "id": "gi-item-121692",
+          "name": "Snezhnaya Vestnik",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121625.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
+        },
+        {
+          "id": "gi-item-121693",
+          "name": "Snezhnaya Vestnik",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121625.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
+        },
+        {
+          "id": "gi-item-121694",
+          "name": "Snezhnaya Vestnik",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121625.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
+        },
+        {
+          "id": "gi-item-121695",
+          "name": "Snezhnaya Vestnik",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121625.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
+        },
+        {
+          "id": "gi-item-121696",
+          "name": "Snezhnaya Vestnik",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121625.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
+        },
+        {
+          "id": "gi-item-121697",
+          "name": "Snezhnaya Vestnik",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121625.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
+        },
+        {
+          "id": "gi-item-121698",
+          "name": "Snezhnaya Vestnik",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121625.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
+        },
+        {
+          "id": "gi-item-121699",
+          "name": "Snezhnaya Vestnik",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121625.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
+        },
+        {
+          "id": "gi-item-121700",
+          "name": "Snezhnaya Vestnik",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121625.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": ""
+        },
+        {
+          "id": "gi-item-121701",
+          "name": "The Ashen Traveler's Notes",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101633.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": "The Ashen Traveler's Notes"
+        },
+        {
+          "id": "gi-item-121702",
+          "name": "Document With Yellowed Pages",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101633.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Quest Item"
+          },
+          "text": "Document With Yellowed Pages"
         },
         {
           "id": "gi-item-129001",
@@ -63544,8 +67014,6 @@
           "name": "Moon-Prayer Blossom From Columbina",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_129003.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "5 \u2605",
             "type": "Quest Item"
@@ -64035,6 +67503,72 @@
             "type": "Material"
           },
           "text": "A seed obtained from the Seed Dispensary. A quality seed full of life, just waiting to be planted in the fields of the Realm Within. After some time, it will grow into a Pine Amber."
+        },
+        {
+          "id": "gi-item-130045",
+          "name": "Frostfairy Flower Seed",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_130045.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Material"
+          },
+          "text": "A seed obtained from the Seed Dispensary. A quality seed full of life, just waiting to be planted in the fields of the Realm Within. After some time, it will grow into a Frostfairy Flower."
+        },
+        {
+          "id": "gi-item-130046",
+          "name": "Flockingweed Seed",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_130046.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Material"
+          },
+          "text": "A seed obtained from the Seed Dispensary. A quality seed full of life, just waiting to be planted in the fields of the Realm Within. After some time, it will grow into Flockingweed."
+        },
+        {
+          "id": "gi-item-130047",
+          "name": "Golden Fern Seed",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_130047.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Material"
+          },
+          "text": "A seed obtained from the Seed Dispensary. A quality seed full of life, just waiting to be planted in the fields of the Realm Within. After some time, it will grow into a Golden Fern."
+        },
+        {
+          "id": "gi-item-130048",
+          "name": "Red Beet Seed",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_130048.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Material"
+          },
+          "text": "A seed obtained from the Seed Dispensary. A quality seed full of life, just waiting to be planted in the fields of the Realm Within. After some time, it will grow into a Red Beet."
+        },
+        {
+          "id": "gi-item-130049",
+          "name": "Rimecurrant Seed",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_130049.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Material"
+          },
+          "text": "A seed obtained from the Seed Dispensary. A quality seed full of life, just waiting to be planted in the fields of the Realm Within. After some time, it will grow into a Rimecurrant."
+        },
+        {
+          "id": "gi-item-130050",
+          "name": "Snowball Flower Seed",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_130050.webp",
+          "fields": {
+            "rarity": "Unknown",
+            "type": "Material"
+          },
+          "text": "A seed obtained from the Seed Dispensary. A quality seed full of life, just waiting to be planted in the fields of the Realm Within. After some time, it will grow into a Snowball Flower."
         },
         {
           "id": "gi-item-131000",
@@ -64620,12 +68154,362 @@
           "text": "A large fish rumored to be a descendant of dragons.\nA branch member of the Koi family, its body is primarily a deep, somber bluish-black, contrasted by a striking pale-gold underbelly. Compared to its many cousins, this species is exceptionally mild-tempered. It never initiates conflict with other aquatic life. However, this should not be mistaken for weakness. When provoked, they can erupt in a sudden strike as fierce and direct as a golden spear, swiftly repelling intruders several times their size and leaving the entire surrounding waters in awe."
         },
         {
+          "id": "gi-item-131054",
+          "name": "Charcoal Snowfin",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_131054.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Fish"
+          },
+          "text": "A plump, spherical Snezhnayan fish, this species might look like a distant cousin to the pufferfish found throughout Teyvat. However, the two actually belong to entirely separate lineages. When the Fishing Association first recorded it, its code name was \"Snowland Roundfin.\" After more than a dozen generations of anglers, this informal name gradually evolved into \"Snowfin.\"\nThe Charcoal Snowfin is the most common subspecies in this family. It is said that the fine, powdery scales contain special components. When dried and ground, and then mixed with the dried powder of Golden Fern roots, they can serve as a remarkably efficient fire starter, prized by many Snezhnayan adventurers."
+        },
+        {
+          "id": "gi-item-131055",
+          "name": "Cream Snowfin",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_131055.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Fish"
+          },
+          "text": "A plump, spherical Snezhnayan fish, this species might look like a distant cousin to the pufferfish found throughout Teyvat. However, the two actually belong to entirely separate lineages. When the Fishing Association first recorded it, its code name was \"Snowland Roundfin.\" After more than a dozen generations of anglers, this informal name gradually evolved into \"Snowfin.\"\nThe Cream Snowfin, thanks to its near-pure-white coloration and its scarcity, is considered the most precious of Snezhnayan fish. Legend has it that the moment its waters grow even slightly impure, other colors begin to leach into its body. Several fairy tales cast it as their protagonist, telling the dreamlike story of a gifted young angler-lad following one of these Snowfins to the \"Kingdom of Cream\" \u2014 a story that briefly caused a citywide cream shortage."
+        },
+        {
+          "id": "gi-item-131056",
+          "name": "Moonlight Snowfin",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_131056.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Fish"
+          },
+          "text": "A plump, spherical Snezhnayan fish, this species might look like a distant cousin to the pufferfish found throughout Teyvat. However, the two actually belong to entirely separate lineages. When the Fishing Association first recorded it, its code name was \"Snowland Roundfin.\" After more than a dozen generations of anglers, this informal name gradually evolved into \"Snowfin.\"\nFolklore claims the Moonlight Snowfin has the strongest endurance and the best sense of direction of any Snezhnayan fish, its unusual coloration being a gift from moonlight \u2014 its ancestors, so the story goes, once traveled far to the waters of Nod-Krai and were baptized in moonbeams. Merchants returning from Nod-Krai deny the tale, and biologists point out that the color most likely comes from the underwater plants it favors as food. But since \"moonlight\" is such a pleasant and memorable prefix, the name has stuck to this day."
+        },
+        {
+          "id": "gi-item-131057",
+          "name": "Ruby Starbloom Fish",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_131057.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Fish"
+          },
+          "text": "A special species that swims the waters of Snezhnaya. Viewed from the front, its six fins form a shape resembling stars and snowflakes, and so the angler who first discovered them called them \"Starbloom Fish.\" The red subspecies is close in color to a red beet and was therefore given the prefix \"Ruby.\" That said, the prefix is only a description of appearance. Some scholars have found that the surface coloration serves mainly to intimidate predators, thereby protecting the fish. It is thus somewhat ironic that from a human perspective, this makes them look all the more delicious."
+        },
+        {
+          "id": "gi-item-131058",
+          "name": "Frostpetal Starbloom Fish",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_131058.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Fish"
+          },
+          "text": "A special species that swims the waters of Snezhnaya. Viewed from the front, its six fins form a shape resembling stars and snowflakes, and so the angler who first discovered them called them \"Starbloom Fish.\" The azure subspecies has coloration akin to the outer petal-edges of a Frostfairy Flower, and so was given the prefix \"Frostpetal.\" Compared to its kin, the Frostpetal Starbloom Fish has the keenest senses of the family, always able to detect danger from far off. And thanks to the propulsion advantage of its six fins, they are also quick to flee from said danger."
+        },
+        {
+          "id": "gi-item-131059",
+          "name": "Iridescent Starbloom Fish",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_131059.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Fish"
+          },
+          "text": "A special species that swims the waters of Snezhnaya. Viewed from the front, its six fins form a shape resembling stars and snowflakes, and so the angler who first discovered them called them \"Starbloom Fish.\" The blue subspecies' scales have superb texture and coloration \u2014 under certain light, they look like rainbow-reflecting crystal, earning it the elegant prefix \"Iridescent.\" Thanks to this shimmering appearance, Iridescent Starbloom Fish are prized guests of Snezhnayan fish collectors. Indeed, some have even built expensive aquarium landscapes solely for this fish, only to find themselves unable to catch one for the longest time..."
+        },
+        {
+          "id": "gi-item-132001",
+          "name": "Suspicious Rimecurrant Ice Cream",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_108890.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Food"
+          },
+          "text": "A dessert served in a glass. Frozen rock-solid, it takes a monumental effort just to scrape off a tiny sliver with an iron spoon. Once in your mouth, the biting cold sets your teeth chattering instantly. Not a trace of sweetness remains, as if every ounce of flavor never got the chance to take the stage..."
+        },
+        {
+          "id": "gi-item-132002",
+          "name": "Rimecurrant Ice Cream",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_108890.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Food"
+          },
+          "text": "A dessert served in a glass. Cream, milk, honey, and crushed berries are mixed together, then frozen into smooth, velvety scoops of ice cream. The fruit and dairy flavors blend into a rich, delicious taste, making this a treat some will gladly enjoy no matter the temperature."
+        },
+        {
+          "id": "gi-item-132003",
+          "name": "Delicious Rimecurrant Ice Cream",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_108890.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Food"
+          },
+          "text": "A dessert served in a glass. Look closely and you can just faintly discern the delicate textures of fruit pulp, looking like a tiny sliver of sunset trapped beneath the ice. While Snezhnaya's frozen climate could easily preserve this sweet scenery for an entire day, its flawless balance of sweet and tart ensures it will be devoured long before then..."
+        },
+        {
+          "id": "gi-item-132004",
+          "name": "Suspicious Glupov Rye Bread",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_108891.webp",
+          "fields": {
+            "rarity": "2 \u2605",
+            "type": "Food"
+          },
+          "text": "A dense, hearty loaf of bread. It feels so heavy that one can't help but wonder if the fermentation step was skipped entirely. Even soaking it in soup fails to soften the loaf in the slightest... Could this actually be a training tool meant to forge a warrior's resolve?"
+        },
+        {
+          "id": "gi-item-132005",
+          "name": "Glupov Rye Bread",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_108891.webp",
+          "fields": {
+            "rarity": "2 \u2605",
+            "type": "Food"
+          },
+          "text": "A dense, hearty loaf of bread. The dough must undergo a long, cold fermentation. Once baked, it forms a hard crust and a firm, fine-textured crumb. The finished bread keeps for a long time, making it a common ration among Snezhnaya's traveling merchants, soldiers, and hunters."
+        },
+        {
+          "id": "gi-item-132006",
+          "name": "Delicious Glupov Rye Bread",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_108891.webp",
+          "fields": {
+            "rarity": "2 \u2605",
+            "type": "Food"
+          },
+          "text": "A dense, hearty loaf of bread. A single bite brings a steady, gentle tartness, followed by the uniquely rustic, grainy aroma of rye. It carries a heavy richness that makes every chew incredibly satisfying, culminating in a lingering sweetness at the back of your throat like a vibrant spark of life buried under the frozen earth."
+        },
+        {
+          "id": "gi-item-132007",
+          "name": "Suspicious Medovik",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_108892.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Food"
+          },
+          "text": "A cake made with honey. Any trace of sweetness has been incinerated into a bitter, burnt mess by a roaring oven fire. Though the sour cream frosting fulfills its tangy duty perfectly, it stands entirely unsupported without any sweetness to answer its call..."
+        },
+        {
+          "id": "gi-item-132008",
+          "name": "Medovik",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_108892.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Food"
+          },
+          "text": "A cake made with honey. Thin sheets of honeyed dough are baked, then stacked layer by layer with sour cream frosting spread between each sheet. The cake is finished with a sprinkle of crumbs and a drizzle of honey syrup. Every step must be done carefully to produce a neat, even result."
+        },
+        {
+          "id": "gi-item-132009",
+          "name": "Delicious Medovik",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_108892.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Food"
+          },
+          "text": "A cake made with honey. Amber pastry and snow-white cream embrace each other layer after layer in perfect harmony. Looking at it is like turning the pages of a chronicle, each one revealing a narrative equally brilliant and enchanting."
+        },
+        {
+          "id": "gi-item-132010",
+          "name": "Suspicious Snezhnaya Shashliks",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_108893.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Food"
+          },
+          "text": "Large chunks of grilled meat skewers. Its blackened crust is so bitter and solid that it feels like chewing on a piece of charcoal. To make matters worse, the overcooked interior is so dry and tough, as if the juices had vanished before it even left the grill..."
+        },
+        {
+          "id": "gi-item-132011",
+          "name": "Snezhnaya Shashliks",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_108893.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Food"
+          },
+          "text": "Large chunks of grilled meat skewers. Marinated chunks of meat are threaded onto iron skewers and grilled over hot coals, turned until charred on the outside and tender within. Whether at courtyard gatherings, out on the hunt, or on a patch of snow cleared just large enough for a fire, these skewers can be found anywhere in Snezhnaya where a fire can be lit."
+        },
+        {
+          "id": "gi-item-132012",
+          "name": "Delicious Snezhnaya Shashliks",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_108893.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Food"
+          },
+          "text": "Large chunks of grilled meat skewers. Cracking through its crisp exterior delivers a satisfying crunch, followed by a savory burst of juices. As the skewer roasts over the fire, the marinade deepens into a hearty undertone that highlights the meat's fresh sweetness. Your mouth glistens with grease and juice, but the sheer flavor makes table manners the last thing on your mind..."
+        },
+        {
+          "id": "gi-item-132013",
+          "name": "Suspicious Snowball Blooms Atop Snowfields",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_108894.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Food"
+          },
+          "text": "A classic layered salad. After sitting out for a long time, its shape has become unstable. Worse yet, all the ingredients seem to have pulled off a chaotic migration that muddle the distinct flavors of each layer... Though it is still edible, it has lost the crisp texture a salad should have."
+        },
+        {
+          "id": "gi-item-132014",
+          "name": "Snowball Blooms Atop Snowfields",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_108894.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Food"
+          },
+          "text": "A classic layered salad. Each ingredient is prepared separately, then stacked in layers with seasoned sour cream dressing spread between them. Once assembled, the salad is usually left to rest for a while so the flavors can fully meld. The finished dish resembles clusters of snowball blooms blooming over a snowy field, which is how it earned its name."
+        },
+        {
+          "id": "gi-item-132015",
+          "name": "Delicious Snowball Blooms Atop Snowfields",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_108894.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Food"
+          },
+          "text": "A classic layered salad. The snowball flowers lining the rim seem to bloom at the very end of a winter wasteland, and the rich, golden yolk serves as a setting sun painting the horizon with its light. You remain entirely lost in this delightful culinary artwork, until your spoon taps the bottom of an empty plate. Wait... when did I finish the whole thing?"
+        },
+        {
+          "id": "gi-item-132016",
+          "name": "The Bullseye Roast",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_108895.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Food"
+          },
+          "text": "Alyosha's specialty. He hands over a massive skewer to the sound of Tugarin's excited barks. Sizzling with hot grease, the meat is sliced far thicker than a standard skewer. One bite reveals a rich, gamey flavor perfectly tamed by the open fire. Clearly, his control over the grill is just as flawless as his marksmanship!"
+        },
+        {
+          "id": "gi-item-132017",
+          "name": "Lakeside Snow Swan",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_108896.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Food"
+          },
+          "text": "Odette's specialty. A small portion of salad rests quietly at the center of the plate as if illuminated by a spotlight on center stage, each meticulous layer arranged as precise as her own dance steps. The ingredients have been so carefully calculated that finishing the entire portion won't affect your weight tomorrow... So go ahead, enjoy it completely guilt-free!"
+        },
+        {
+          "id": "gi-item-132018",
+          "name": "Suspicious Sweet Scoops",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_108897.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Food"
+          },
+          "text": "An assortment of ice cream scoops. The cratered surfaces look like crumpled paper balls struggling to hold their original form. Once in your mouth, a gritty layer of ice flakes completely masks the flavor, leaving zero room for any culinary nuance. Right now, your only desire is to close your eyes and wonder why you ever decided to challenge it..."
+        },
+        {
+          "id": "gi-item-132019",
+          "name": "Sweet Scoops",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_108897.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Food"
+          },
+          "text": "An assortment of ice cream scoops. Four different flavors are served in separate paper bowls and packed together in a single box. Tasters usually fall into two camps: those who dig into whichever flavor they feel like, and those who finish each bowl in order. Either way, there is never anything left at the bottom of the box at the end."
+        },
+        {
+          "id": "gi-item-132020",
+          "name": "Delicious Sweet Scoops",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_108897.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Food"
+          },
+          "text": "An assortment of ice cream scoops. Silky and dense, each scoop dissolves gracefully on the palate, giving way to a crisp, refreshing sweetness that gently blankets the senses. Even long after the carton is empty, you find yourself reluctant to put it down, closing your eyes to savor the lingering aftertaste of pure bliss..."
+        },
+        {
+          "id": "gi-item-132021",
+          "name": "Alyosha-Themed Ice Cream",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_108898.webp",
+          "fields": {
+            "rarity": "2 \u2605",
+            "type": "Food"
+          },
+          "text": "A character-inspired ice cream treat. Fashioned into a tiny snow-white scoop with little hound ears, it perfectly evokes the image of Alyosha out hunting with Tugarin by his side."
+        },
+        {
+          "id": "gi-item-132022",
+          "name": "Odette-Themed Ice Cream",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_108899.webp",
+          "fields": {
+            "rarity": "2 \u2605",
+            "type": "Food"
+          },
+          "text": "A character-inspired ice cream treat. Crafted into the shape of an elegant snow swan standing poised and still, it perfectly evokes the image of Odette, the ballerina of the Korolevskiy Troupe."
+        },
+        {
+          "id": "gi-item-132023",
+          "name": "Kvass",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_108900.webp",
+          "fields": {
+            "rarity": "2 \u2605",
+            "type": "Food"
+          },
+          "text": "The signature drink of the Kvasnik Beverage Shop, and it seems completely alcohol-free. It features a prominent sour rye bread aroma and a gentle fizz, with a subtle sweetness that never feels heavy. Wonderfully refreshing when chilled, it is a drink that no Snezhnayan could ever turn down."
+        },
+        {
+          "id": "gi-item-132024",
+          "name": "Spiced Honey Brew",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_108901.webp",
+          "fields": {
+            "rarity": "2 \u2605",
+            "type": "Food"
+          },
+          "text": "A specialty hot drink crafted by infusing hot honey-water with a selection of dried spices. Your chilled fingers feel an immediate wave of satisfaction just holding the glass. A single sip sends a gentle, aromatic wave of heat through you, perfectly steeling your body against the freezing gale."
+        },
+        {
+          "id": "gi-item-132025",
+          "name": "Glacial Starbrew",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_108902.webp",
+          "fields": {
+            "rarity": "2 \u2605",
+            "type": "Food"
+          },
+          "text": "A chilled beverage crafted from Glaciafruit. Featuring an otherworldly pink-blue clarity, it stands out sharply amidst an endless world of pure snow. It appears to be a tiny miracle, scooped straight from the sky at the exact break of dawn."
+        },
+        {
+          "id": "gi-item-132026",
+          "name": "Regular Ice Cream",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_108890.webp",
+          "fields": {
+            "rarity": "2 \u2605",
+            "type": "Food"
+          },
+          "text": "A common sight, Snezhnayan ice cream. Cold as the snow in its land of origin."
+        },
+        {
           "id": "gi-item-140001",
           "name": "Wings of First Flight",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_FlycloakIcon_Glider.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -64637,8 +68521,6 @@
           "name": "Wings of Companionship",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_FlycloakIcon_Starlit.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -64650,8 +68532,6 @@
           "name": "Wings of Descension",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_FlycloakIcon_Psalmus.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -64663,8 +68543,6 @@
           "name": "Wings of Azure Wind",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_FlycloakIcon_Gale.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -64676,8 +68554,6 @@
           "name": "Wings of Golden Flight",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_FlycloakIcon_Megalith.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -64689,8 +68565,6 @@
           "name": "Wings of Concealing Snow",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_FlycloakIcon_Nixavis.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -64702,8 +68576,6 @@
           "name": "Wings of Feasting",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_FlycloakIcon_Redcomet.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -64715,8 +68587,6 @@
           "name": "Wings of the Stormstrider",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_FlycloakIcon_Thunderclap.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -64728,8 +68598,6 @@
           "name": "Wings of Shimmering Galaxy",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_FlycloakIcon_Skald.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -64741,8 +68609,6 @@
           "name": "Wings of the Forest",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_FlycloakIcon_Ayus.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -64754,8 +68620,6 @@
           "name": "Wings of the Starlit Feast",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_FlycloakIcon_Asterceno.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -64767,8 +68631,6 @@
           "name": "Wings of Merciful, Wrathful Waters",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_FlycloakIcon_Iustitia.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -64780,8 +68642,6 @@
           "name": "Wings of Transient Dreams",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_FlycloakIcon_Sternlied.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -64793,8 +68653,6 @@
           "name": "Wings of Delicacies",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_FlycloakIcon_GrandEntrance.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -64806,8 +68664,6 @@
           "name": "Wings of Soaring Flame",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_FlycloakIcon_Firebrand.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -64819,8 +68675,6 @@
           "name": "Wings of Fate's Course Intertwined",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_FlycloakIcon_EmeraldFlash.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -64832,8 +68686,6 @@
           "name": "Wings of the Silent Moon",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_FlycloakIcon_Nodkrai.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -64845,8 +68697,6 @@
           "name": "Wings of Leisurely Moments",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_FlycloakIcon_Bakery.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -67131,6 +70981,138 @@
           "text": "This wondrous crystal contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found throughout the mainland or from merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\""
         },
         {
+          "id": "gi-item-141291",
+          "name": "Radiant Spincrystal 189",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_BGM_Common.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Adventure Item"
+          },
+          "text": "This wondrous crystal contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found throughout the mainland or from merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\" The tune contained within this Radiant Spincrystal is a mysterious melody from Snezhnaya."
+        },
+        {
+          "id": "gi-item-141292",
+          "name": "Radiant Spincrystal 190",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_BGM_Common.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Adventure Item"
+          },
+          "text": "This wondrous crystal contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found throughout the mainland or from merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\" The tune contained within this Radiant Spincrystal is a mysterious melody from Snezhnaya."
+        },
+        {
+          "id": "gi-item-141293",
+          "name": "Radiant Spincrystal 191",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_BGM_Common.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Adventure Item"
+          },
+          "text": "This wondrous crystal contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found throughout the mainland or from merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\" The tune contained within this Radiant Spincrystal is a mysterious melody from Snezhnaya."
+        },
+        {
+          "id": "gi-item-141294",
+          "name": "Radiant Spincrystal 192",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_BGM_Common.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Adventure Item"
+          },
+          "text": "This wondrous crystal contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found throughout the mainland or from merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\" The tune contained within this Radiant Spincrystal is a mysterious melody from Snezhnaya."
+        },
+        {
+          "id": "gi-item-141295",
+          "name": "Radiant Spincrystal 193",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_BGM_Common.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Adventure Item"
+          },
+          "text": "This wondrous crystal contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found throughout the mainland or from merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\" The tune contained within this Radiant Spincrystal is a mysterious melody from Snezhnaya."
+        },
+        {
+          "id": "gi-item-141296",
+          "name": "Radiant Spincrystal 194",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_BGM_Common.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Adventure Item"
+          },
+          "text": "This wondrous crystal contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found throughout the mainland or from merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\" The tune contained within this Radiant Spincrystal is a mysterious melody from Snezhnaya."
+        },
+        {
+          "id": "gi-item-141297",
+          "name": "Radiant Spincrystal 195",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_BGM_Common.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Adventure Item"
+          },
+          "text": "This wondrous crystal contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found throughout the mainland or from merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\" The tune contained within this Radiant Spincrystal is a mysterious melody from Snezhnaya."
+        },
+        {
+          "id": "gi-item-141298",
+          "name": "Radiant Spincrystal 196",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_BGM_Common.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Adventure Item"
+          },
+          "text": "This wondrous crystal contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found throughout the mainland or from merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\" The tune contained within this Radiant Spincrystal is a mysterious melody from Snezhnaya."
+        },
+        {
+          "id": "gi-item-141299",
+          "name": "Radiant Spincrystal 197",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_BGM_Common.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Adventure Item"
+          },
+          "text": "This wondrous crystal contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found throughout the mainland or from merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\" The tune contained within this Radiant Spincrystal is a mysterious melody from Snezhnaya."
+        },
+        {
+          "id": "gi-item-141300",
+          "name": "Radiant Spincrystal 198",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_BGM_Common.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Adventure Item"
+          },
+          "text": "This wondrous crystal contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found throughout the mainland or from merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\" The tune contained within this Radiant Spincrystal is a mysterious melody from Snezhnaya."
+        },
+        {
+          "id": "gi-item-141301",
+          "name": "Radiant Spincrystal 199",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_BGM_Common.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Adventure Item"
+          },
+          "text": "This wondrous crystal contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found throughout the mainland or from merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\" The tune contained within this Radiant Spincrystal is a mysterious melody from Snezhnaya."
+        },
+        {
+          "id": "gi-item-141302",
+          "name": "Radiant Spincrystal 200",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_BGM_Common.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Adventure Item"
+          },
+          "text": "This wondrous crystal contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found throughout the mainland or from merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\" The tune contained within this Radiant Spincrystal is a mysterious melody from Snezhnaya."
+        },
+        {
           "id": "gi-item-200001",
           "name": "Lantern Fiber",
           "kind": "item",
@@ -68308,6 +72290,17 @@
           "text": "If you can stay within the Ideal Tension Zone while fishing, this rod will shorten the time in which fish will struggle by a stable amount and increase your chances of success. This effect only works in Nod-Krai.\n\nA fishing rod that shimmers with a pure, silvery glow, like moonlight caught in its frame. It's a masterpiece reserved for true masters among Nod-Krai's anglers, those who have reached the highest levels of the craft. It is said that the last wielder of this rod treated every catch as a quiet exchange rather than a contest. Some fish were released right away, while others were invited home for a short visit in the aquarium \u2014 before being gently returned to the waters they came from. This thoughtful, respectful way of fishing gave rise to a unique tradition among local anglers \u2014 one that values connection and care over mere skill."
         },
         {
+          "id": "gi-item-200909",
+          "name": "Scepter of the Snow Angler King",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_200909.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Fishing Rod"
+          },
+          "text": "If you can stay within the Ideal Tension Zone while fishing, using this rod will steadily shorten the time fish struggle and increase your chances of success. Only effective in Snezhnaya.\n\nA fishing rod made from Prime Ice by an unknown artisan, acclaimed as \"the scepter of the king of anglers in the land of snow.\" It is currently entrusted to the Snezhnaya Fishing Association. It is said that only anglers of supreme skill, fully tempered by the howling wind and snow, are worthy of wielding this rod..."
+        },
+        {
           "id": "gi-item-210001",
           "name": "Genshin Impact: A New World",
           "kind": "item",
@@ -68719,8 +72712,6 @@
           "name": "Travel Notes: Fading Star",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Bp2.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -68864,8 +72855,6 @@
           "name": "Travel Notes: Chalk",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Bp3.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -68921,8 +72910,6 @@
           "name": "Travel Notes: Mingxiao",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Bp4.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -68967,8 +72954,6 @@
           "name": "Travel Notes: Windblume",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Bp5.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -69046,8 +73031,6 @@
           "name": "Travel Notes: Sub-Space Recreation",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Bp6.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -69081,8 +73064,6 @@
           "name": "Travel Notes: Midsummer",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Bp7.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -69149,8 +73130,6 @@
           "name": "Travel Notes: Grand Narukami Shrine",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Bp8.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -69327,8 +73306,6 @@
           "name": "Travel Notes: Moonchaser",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Bp9.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -69626,8 +73603,6 @@
           "name": "Travel Notes: Azure Main",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Bp16.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70255,8 +74230,6 @@
           "name": "Furina: Banquet",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Furina.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70268,8 +74241,6 @@
           "name": "Charlotte: Exclusive",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Charlotte.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70281,8 +74252,6 @@
           "name": "Fontaine: Completeness",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_FD3.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70294,8 +74263,6 @@
           "name": "Travel Notes: Whirling Waltz",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Bp28.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70307,8 +74274,6 @@
           "name": "Navia: Rosula",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Navia.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70320,8 +74285,6 @@
           "name": "Chevreuse: Type II",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Chevreuse.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70333,8 +74296,6 @@
           "name": "Travel Notes: Time Inscribed",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Bp29.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70346,8 +74307,6 @@
           "name": "Xianyun: White Clouds",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Liuyun.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70359,8 +74318,6 @@
           "name": "Gaming: Man Chai",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Gaming.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70372,8 +74329,6 @@
           "name": "Achievement: Adeptal Valley",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Chenyu1.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70385,8 +74340,6 @@
           "name": "Chenyu: Rainjade Rite",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_OfferingSilong.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70398,8 +74351,6 @@
           "name": "Travel Notes: Vibrant Harriers",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Bp30.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70411,8 +74362,6 @@
           "name": "Album: The Stellar Moments",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_OST4.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70424,8 +74373,6 @@
           "name": "Chiori: Spectacular Sleeves",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Chiori.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70437,8 +74384,6 @@
           "name": "Travel Notes: Arcane Amassing",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Bp31.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70450,8 +74395,6 @@
           "name": "Arlecchino: Edict",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Arlecchino.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70463,8 +74406,6 @@
           "name": "Fontaine: Attunement",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Deep.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70476,8 +74417,6 @@
           "name": "Achievement: Whalewrangler",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Tzz9.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70489,8 +74428,6 @@
           "name": "Fontaine: Lucine",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_WishingPond.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70502,8 +74439,6 @@
           "name": "Travel Notes: The Realms Rocked",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_GreatFestivalV2.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70515,8 +74450,6 @@
           "name": "Clorinde: Roleplay",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Clorinde.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70528,8 +74461,6 @@
           "name": "Sigewinne: Treatment",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Sigewinne.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70541,8 +74472,6 @@
           "name": "Sethos: Ba Fragment",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Sethos.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70554,8 +74483,6 @@
           "name": "Achievement: Poetic Pages",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_RoleCombat.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70567,8 +74494,6 @@
           "name": "Travel Notes: Simulnation",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Bp33.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70580,8 +74505,6 @@
           "name": "Emilie: Base Note",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Emilie.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70593,8 +74516,6 @@
           "name": "Travel Notes: Fanciful Fabrication",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Bp34.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70606,8 +74527,6 @@
           "name": "Celebration: Feast (II)",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_RedandWhite2.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70619,8 +74538,6 @@
           "name": "Kinich: Ajaw",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Kinich.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70632,8 +74549,6 @@
           "name": "Mualani: Sharky",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Mualani.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70645,8 +74560,6 @@
           "name": "Kachina: Twirly",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Kachina.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70658,8 +74571,6 @@
           "name": "Natlan: Divine Army",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_NatlanSW1.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70671,8 +74582,6 @@
           "name": "Natlan: Fiery Dragon",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_NatlanSW2.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70684,8 +74593,6 @@
           "name": "Achievement: Endpoint",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Ysxf5.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70697,8 +74604,6 @@
           "name": "Achievement: Feline Fortune",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_RoleCombat2.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70710,8 +74615,6 @@
           "name": "Natlan: Return of the Flame",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Natlan1.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70723,8 +74626,6 @@
           "name": "Achievement: Lord of the Night",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Dfcq1.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70736,8 +74637,6 @@
           "name": "Travel Notes: Primal Fire",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Bp35.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70749,8 +74648,6 @@
           "name": "Celebration: Crispy and Sweet",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Yellow.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70762,8 +74659,6 @@
           "name": "Xilonen: Cue Point",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Xilonen.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70775,8 +74670,6 @@
           "name": "Travel Notes: Sabzeruz",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Bp36.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70788,8 +74681,6 @@
           "name": "Chasca: Fully Loaded",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Chasca.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70812,8 +74703,6 @@
           "name": "Natlan: Fleeting Dreams",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Natlan2.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70825,8 +74714,6 @@
           "name": "Achievement: Fighting Spirit",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Dfcq2.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70838,8 +74725,6 @@
           "name": "Travel Notes: Spiritweaver",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Bp37.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70851,8 +74736,6 @@
           "name": "Mavuika: Sun-Crowned",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Mavuika.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70864,8 +74747,6 @@
           "name": "Citlali: Opalstar",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Citlali.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70877,8 +74758,6 @@
           "name": "Lan Yan: Silver Swallow",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Lanyan.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70890,8 +74769,6 @@
           "name": "Achievement: All-Seeing",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Csxy5.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70903,8 +74780,6 @@
           "name": "Achievement: Blaze",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Tzz10.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70916,8 +74791,6 @@
           "name": "Achievement: Repertoire",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_MusicGame01.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70929,8 +74802,6 @@
           "name": "Travel Notes: The Flame Renewed",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Bp38.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70942,8 +74813,6 @@
           "name": "Yumemizuki Mizuki: Nightmare Devourer",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Mizuki.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70955,8 +74824,6 @@
           "name": "Celebration: Scorch",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_TowerChallenge.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70968,8 +74835,6 @@
           "name": "Travel Notes: Wondrous Reverie",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Bp39.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -71003,8 +74868,6 @@
           "name": "Natlan: Draconic Gaze",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Natlan3.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -71016,8 +74879,6 @@
           "name": "Achievement: Tranquil Peace",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Dfcq3.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -71029,8 +74890,6 @@
           "name": "Travel Notes: Blooming Glory",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Bp40.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -71064,8 +74923,6 @@
           "name": "Travel Notes: Balletica",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Bp41.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -71077,8 +74934,6 @@
           "name": "Skirk: Lone Shadow",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_SkirkNew.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -71090,8 +74945,6 @@
           "name": "Dahlia: Sacred Duty",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Dahlia.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -71103,8 +74956,6 @@
           "name": "Celebration: Lavish Gala",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_RedandWhite3.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -71116,8 +74967,6 @@
           "name": "Travel Notes: Speculation",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Bp42.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -71129,8 +74978,6 @@
           "name": "Ineffa: Command",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Ineffa.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -71142,8 +74989,6 @@
           "name": "Natlan: Wheel of Flame",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_NatlanOffering.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -71155,8 +75000,6 @@
           "name": "Natlan: Chasing the Wind",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Natlan4.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -71168,8 +75011,6 @@
           "name": "Travel Notes: Easy Breezy",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Bp43.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -71181,8 +75022,6 @@
           "name": "Celebration: Tuna On Rice",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Event58.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -71194,8 +75033,6 @@
           "name": "Lauma: Branched Antlers",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Lauma.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -71207,8 +75044,6 @@
           "name": "Flins: Oathkeeper's Lantern",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Flins.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -71220,8 +75055,6 @@
           "name": "Aino: Whoopsie Ducksie",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Aino.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -71233,8 +75066,6 @@
           "name": "Nod-Krai: Moonlight",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_NodKraiOffering1.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -71246,8 +75077,6 @@
           "name": "Nod-Krai: Sacred Realm",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_NodKrai1.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -71259,8 +75088,6 @@
           "name": "Achievement: Time Apart",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Ysxf6.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -71272,8 +75099,6 @@
           "name": "Travel Notes: Glacial Moon",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Bp44.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -71285,8 +75110,6 @@
           "name": "Celebration: Sublime Flavors",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_YellowV2.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -71298,8 +75121,6 @@
           "name": "Nefer: Secrets",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Nefer.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -71311,8 +75132,6 @@
           "name": "Travel Notes: Bygone Ruins",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Bp45.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -71324,8 +75143,6 @@
           "name": "Durin: Radiant Heart",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Durin.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -71337,8 +75154,6 @@
           "name": "Jahoda: Helping Hand",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Jahoda.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -71350,8 +75165,6 @@
           "name": "Travel Notes: Blazing Snow",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Bp46.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -71363,8 +75176,6 @@
           "name": "Celebration: Dream Reader",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Green.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -71376,8 +75187,6 @@
           "name": "Columbina: Someday",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Columbina.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -71389,8 +75198,6 @@
           "name": "Zibai: Veiled Vista",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Zibai.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -71402,8 +75209,6 @@
           "name": "Illuga: Nightmare Songbird",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Illuga.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -71415,8 +75220,6 @@
           "name": "Achievement: Far-Sighted",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Csxy6.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -71428,8 +75231,6 @@
           "name": "Nod-Krai: Lantern of Longest Night",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_NodKrai2.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -71441,8 +75242,6 @@
           "name": "Travel Notes: Lanternlit Ode",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Bp47.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -71454,8 +75253,6 @@
           "name": "Varka: Lead Wolf",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Varka.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -71467,8 +75264,6 @@
           "name": "Travel Notes: Northerly Winds",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Bp48.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -71491,8 +75286,6 @@
           "name": "Mondstadt: Watchtower",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Kzsd.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -71504,8 +75297,6 @@
           "name": "Empty Temple: Overflowing Memories",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_KzsdOffering.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -71517,8 +75308,6 @@
           "name": "Travel Notes: Homecoming",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Bp49.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -71530,8 +75319,6 @@
           "name": "Nicole: Heavenly Stairway",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Nicole.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -71543,8 +75330,6 @@
           "name": "Lohen: Benevolence",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Lohen.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -71556,8 +75341,6 @@
           "name": "Prune: Judgment",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Prune.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -71569,8 +75352,6 @@
           "name": "Travel Notes: Gift of Splendor",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Bp50.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -71609,6 +75390,94 @@
             "type": "Item Material"
           },
           "text": "Namecard style.\nSometimes, it's okay to go with the flow. Let go of your exhaustion and worries, and allow things to unfold as they will. Like waking from a long dream, you may find the world there, ready to embrace you in our place."
+        },
+        {
+          "id": "gi-item-210287",
+          "name": "Odette: The Singular Swan",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Odette.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Item Material"
+          },
+          "text": "Namecard style.\nWhether in Liyue or Snezhnaya, swans are universally seen as majestic, haughty creatures. Yet there lives a lone black swan among the gregarious snow ones. Well, at least that's how the story goes in the \"Black Snow Swan.\""
+        },
+        {
+          "id": "gi-item-210288",
+          "name": "Alyosha: Sit",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Alyosha.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Item Material"
+          },
+          "text": "Namecard style.\n\"Down\" and \"sit\" are two entirely different commands to Tugarin. Can a hundred-Realm-Currency dog in the Serenitea Pot actually pull that off?"
+        },
+        {
+          "id": "gi-item-210289",
+          "name": "Achievement: Resplendence",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Ysxf7.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Item Material"
+          },
+          "text": "Namecard style.\nWhenever I recall that outstretched hand at the start of our journey, the lake becomes adrift with falling Inteyvats."
+        },
+        {
+          "id": "gi-item-210290",
+          "name": "Snezhnaya: Long Night",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Snezhnaya1.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Item Material"
+          },
+          "text": "Namecard style.\nWith our own hands, we raise fortresses against the frost \u2014 all to cross the endless night, to catch the chords of songs yet unsung, and to ensure that you and I might still watch the fresh snow fall, winter after winter."
+        },
+        {
+          "id": "gi-item-210291",
+          "name": "Achievement: Treading Snow",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Csxy7.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Item Material"
+          },
+          "text": "Namecard style.\nSnowflakes alight in the Traveler's palm, only to melt away moments later. Whilst some stories have already concluded, their memories remain forever etched in the Traveler's heart."
+        },
+        {
+          "id": "gi-item-210292",
+          "name": "Snezhnaya: Fleeting Glimpses",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Tps1.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Item Material"
+          },
+          "text": "Namecard style.\nCountless people wander through narratives without beginning or end. Surpass them, for your will to see the ending is stronger than that of anyone else."
+        },
+        {
+          "id": "gi-item-210293",
+          "name": "Achievement: Enigmatic Core",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Shadow.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Item Material"
+          },
+          "text": "Namecard style.\nOmens of suffering always appear like bubbles rising to the surface."
+        },
+        {
+          "id": "gi-item-210294",
+          "name": "Travel Notes: Frostfarer",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Bp52.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Item Material"
+          },
+          "text": "Namecard style.\nOnce the long snowstorm has passed, the skies will clear."
         },
         {
           "id": "gi-item-215001",
@@ -71842,12 +75711,32 @@
           "text": "Navia's Envisaged Echo. \"Blind optimism isn't the answer \u2014 if you want a bright future, you have to go out and seize it with your own two hands!\""
         },
         {
+          "id": "gi-item-215022",
+          "name": "Echo: Childe",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_TraceEffectIcon_Tartaglia.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Item Material"
+          },
+          "text": "Tartaglia's Envisaged Echo. \"A flaw \u2014 here one moment, gone the next.\""
+        },
+        {
+          "id": "gi-item-215023",
+          "name": "Echo: Vigilant Yaksha",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_TraceEffectIcon_Xiao.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Item Material"
+          },
+          "text": "Xiao's Envisaged Echo. \"Purge evil through battle \u2014 to this we dedicate our lives.\""
+        },
+        {
           "id": "gi-item-216001",
           "name": "Faint Glow",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_AvatarFrameIcon_001.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "2 \u2605",
             "type": "Avatar Frame"
@@ -71859,8 +75748,6 @@
           "name": "First Light",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_AvatarFrameIcon_002.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Avatar Frame"
@@ -71872,8 +75759,6 @@
           "name": "Glimmering Glory",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_AvatarFrameIcon_003.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Avatar Frame"
@@ -71885,13 +75770,88 @@
           "name": "Brimming Spiritflow",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_AvatarFrameIcon_004.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "5 \u2605",
             "type": "Avatar Frame"
           },
           "text": "It is light shining from above, and a gentle glow flowing from the heart. Lost children chase dreams of delicate moonlight. Amid the endless cycle of day and night, this place remains the only Elysium left in time."
+        },
+        {
+          "id": "gi-item-216005",
+          "name": "Keen Edge",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_AvatarFrameIcon_TPS_001.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Avatar Frame"
+          },
+          "text": "Even after hundreds of hard-fought battles, it remains as keen as a freshly forged blade, its edge undiminished."
+        },
+        {
+          "id": "gi-item-216006",
+          "name": "Siege Breach",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_AvatarFrameIcon_TPS_002.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Avatar Frame"
+          },
+          "text": "Like a heavy bullet, it punches through defenses and shatters the enemy's lines."
+        },
+        {
+          "id": "gi-item-216007",
+          "name": "Tempered Iron",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_AvatarFrameIcon_TPS_003.webp",
+          "fields": {
+            "rarity": "5 \u2605",
+            "type": "Avatar Frame"
+          },
+          "text": "Make adversity your crucible, forging the will to crush mighty foes and honing battle skills that none can withstand."
+        },
+        {
+          "id": "gi-item-216008",
+          "name": "First Snow",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_AvatarFrameIcon_Snezhnaya_001.webp",
+          "fields": {
+            "rarity": "2 \u2605",
+            "type": "Avatar Frame"
+          },
+          "text": "The endless snow falling with the light of dawn is nothing but drifting debris as the firmament breaks apart."
+        },
+        {
+          "id": "gi-item-216009",
+          "name": "Crystalline Frost",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_AvatarFrameIcon_Snezhnaya_002.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Avatar Frame"
+          },
+          "text": "The north wind carries the breath of the first freeze, the eternal singing of the King of Winter Icelea's maidens. Let the world be held still in this moment forever! Only that wish was ever granted."
+        },
+        {
+          "id": "gi-item-216010",
+          "name": "Snowbound",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_AvatarFrameIcon_Snezhnaya_003.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Avatar Frame"
+          },
+          "text": "Cold, silent streets and temples, layered corridors and palace halls, lie buried beneath a seal of ice that never melts. Under the reign of the King of Winter Icelea, the ever-frozen land quietly welcomes its end without end."
+        },
+        {
+          "id": "gi-item-216011",
+          "name": "Everwinter",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_AvatarFrameIcon_Snezhnaya_004.webp",
+          "fields": {
+            "rarity": "5 \u2605",
+            "type": "Avatar Frame"
+          },
+          "text": "The once grand and solemn ancient capital became a playground for the Jack Frost. All things lay sealed beneath the vast snow, as if for eternity. Only the sly Jack Frost knew that, when winter reaches its end, spring will return to the earth once more."
         },
         {
           "id": "gi-item-220001",
@@ -72221,7 +76181,7 @@
             "rarity": "4 \u2605",
             "type": "Gadget"
           },
-          "text": "A special container obtained from Madame Ping. According to her, this dispensary has the power to \"generate seeds\"... That is to say, it can create the seeds of various plants according to their special traits, which can then be planted within the appropriate fields within your Serenitea Pot.\nPlants available for planting: Silk Flower, Sweet Flower, Cecilia, Glaze Lily, Windwheel Aster, Qingxin, Violetgrass, Valberry, Small Lamp Grass, Jueyun Chili, Carrot, Radish, Mint, Mushroom, Naku Weed, Horsetail, Snapdragon, Lotus Head, Calla Lily, Seagrass, Sea Ganoderma, Harra Fruit, Zaytun Peach, Sumeru Rose, Pluie Lotus, Marcotte, Lumidouce Bell, Rainbow Rose, Grainfruit, Cacahuatl, Saurian Claw Succulent, Quenepa Berry, Brilliant Chrysanthemum, Sprayfeather Gill, Glowing Hornshroom, Skysplit Gembloom, Frostlamp Flower, Midsommar Berry, Lakkaberry, Pine Amber, Winter Icelea."
+          "text": "A special container obtained from Madame Ping. According to her, this dispensary has the power to \"generate seeds\"... That is to say, it can create the seeds of various plants according to their special traits, which can then be planted within the appropriate fields within your Serenitea Pot.\nPlants available for planting: Silk Flower, Sweet Flower, Cecilia, Glaze Lily, Windwheel Aster, Qingxin, Violetgrass, Valberry, Small Lamp Grass, Jueyun Chili, Carrot, Radish, Mint, Mushroom, Naku Weed, Horsetail, Snapdragon, Lotus Head, Calla Lily, Seagrass, Sea Ganoderma, Harra Fruit, Zaytun Peach, Sumeru Rose, Pluie Lotus, Marcotte, Lumidouce Bell, Rainbow Rose, Grainfruit, Cacahuatl, Saurian Claw Succulent, Quenepa Berry, Brilliant Chrysanthemum, Sprayfeather Gill, Glowing Hornshroom, Skysplit Gembloom, Frostlamp Flower, Midsommar Berry, Lakkaberry, Pine Amber, Winter Icelea, Frostfairy Flower, Flockingweed, Golden Fern, Red Beet, Rimecurrant, Snowball Flower."
         },
         {
           "id": "gi-item-220034",
@@ -72431,6 +76391,17 @@
             "type": "Gadget"
           },
           "text": "Equip it to utilize the power of Aranara.\n\"Fatty fruit, bitter fruit.\"\nA temporary home for Aranara memories. Kusava makes Aranara strong."
+        },
+        {
+          "id": "gi-item-220054",
+          "name": "\uff08test\uff09\u4ec7\u6068\u6d4b\u8bd5\u9053\u5177",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_220017.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Gadget"
+          },
+          "text": ""
         },
         {
           "id": "gi-item-220055",
@@ -72706,6 +76677,17 @@
             "type": "Gadget"
           },
           "text": "A \"Search Compass\" made to find relic replicas. As this device was adapted from one used to survey elemental energies, the localized elements present might disrupt its attempts to scan for those replicas..."
+        },
+        {
+          "id": "gi-item-220081",
+          "name": "\uff08test\uff09\u5149\u9152WQ\u5c0f\u9053\u5177",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_220080.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Gadget"
+          },
+          "text": ""
         },
         {
           "id": "gi-item-220082",
@@ -73260,6 +77242,17 @@
           "text": "A portable tea table gifted to you by Sandrone. Easy to carry and store, and even fitted with a levitation device. With this, you can enjoy a leisurely tea party almost anywhere."
         },
         {
+          "id": "gi-item-220133",
+          "name": "Eye of Graeae",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_220133.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Gadget"
+          },
+          "text": "A strange mechanism you encountered in an abandoned station. It often appears in the form of a monocle.\nIt seems to have many convenient functions..."
+        },
+        {
           "id": "gi-item-220134",
           "name": "Witch's Revelation Case",
           "kind": "item",
@@ -73269,6 +77262,28 @@
             "type": "Gadget"
           },
           "text": "The case Barbeloth once carried has found its way into your possession. Within it sleep all the oracles, both those already revealed and those yet to open their eyes. Whether their words may one day steer the course of fate... Barbeloth would only say this: \"Hehehe... The true colors of fate are never meant to be revealed lightly. Besides, a future with secrets yet to unfold is far more delightful, would you not agree?\""
+        },
+        {
+          "id": "gi-item-220135",
+          "name": "MAAN-Kamera",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_220094.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Gadget"
+          },
+          "text": "A specialized Kamera provided by Chichikova, serving as a special equipment for the Mutual Aid Advancement Network. Once a designated target is captured in accordance with the exploration plan, the captured image is processed into vital intelligence, lighting the way for the rookies who follow in their footsteps..."
+        },
+        {
+          "id": "gi-item-220136",
+          "name": "Cryo Treasure Compass",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_220136.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Gadget"
+          },
+          "text": "A compass that can be used in Snezhnaya to search for nearby treasure and relevant clues.\nMany treasures lie frozen in hidden places across the land of snow. Those who can undo the seals may claim the gifts left within the ice."
         },
         {
           "id": "gi-item-221001",
@@ -73788,6 +77803,61 @@
           "text": "A blueprint recreated by Lyulka based on legends and stories. Learn it and you can restore Prospector's Shovel (Polearm)."
         },
         {
+          "id": "gi-item-221052",
+          "name": "Diagram: Emberwell",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_221003.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Forging Blueprint"
+          },
+          "text": "A blueprint recreated by Kuzmichev based on records of old legends. Learn it and you can restore Emberwell (Sword)."
+        },
+        {
+          "id": "gi-item-221053",
+          "name": "Diagram: Covenant of Frost and Snow",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_221003.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Forging Blueprint"
+          },
+          "text": "A blueprint recreated by Kuzmichev based on records of old legends. Learn it and you can restore Covenant of Frost and Snow (Bow)."
+        },
+        {
+          "id": "gi-item-221054",
+          "name": "Diagram: Blade of Atonement",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_221003.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Forging Blueprint"
+          },
+          "text": "A blueprint recreated by Kuzmichev based on records of old legends. Learn it and you can restore Blade of Atonement (Claymore)."
+        },
+        {
+          "id": "gi-item-221055",
+          "name": "Diagram: Echoes of the Heart",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_221003.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Forging Blueprint"
+          },
+          "text": "A blueprint recreated by Kuzmichev based on records of old legends. Learn it and you can restore Echoes of the Heart (Catalyst)."
+        },
+        {
+          "id": "gi-item-221056",
+          "name": "Diagram: Song of the Vigil",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_221003.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Forging Blueprint"
+          },
+          "text": "A blueprint recreated by Kuzmichev based on records of old legends. Learn it and you can restore Song of the Vigil (Polearm)."
+        },
+        {
           "id": "gi-item-221057",
           "name": "Instructions: Dendroculus Resonance Stone",
           "kind": "item",
@@ -73931,6 +78001,17 @@
           "text": "A detailed step-by-step formula for making Refreshing Lakka Bait."
         },
         {
+          "id": "gi-item-221070",
+          "name": "Formula: Glimmering Bait",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_221035.webp",
+          "fields": {
+            "rarity": "2 \u2605",
+            "type": "Bait Blueprint"
+          },
+          "text": "A detailed step-by-step formula for making Glimmering Bait."
+        },
+        {
           "id": "gi-item-222001",
           "name": "Silken Print",
           "kind": "item",
@@ -73979,8 +78060,6 @@
           "name": "Sphere of Fleeting Shadow",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_222005.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Consumable"
@@ -74184,6 +78263,193 @@
             "type": "Fireworks"
           },
           "text": "A firework inspired by a warmhearted little girl.\nMany people have received a helping hand from the girl, yet none know her name \u2014 all they know is that she called her companion \"Yuegui.\" This firework was commissioned as an expression of their gratitude and well wishes."
+        },
+        {
+          "id": "gi-item-223111",
+          "name": "Shatanaya's Frostsilver: Muzzle",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_EquipIcon_AssaultRifle_Glacia_Part03.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Firearm Accessory Blueprint"
+          },
+          "text": "Blueprint for a firearm accessory that can be used to create said inscribed weapon accessory by consuming materials in the Eye of Graeae's HUD."
+        },
+        {
+          "id": "gi-item-223112",
+          "name": "Shatanaya's Frostsilver: Ammo Feed",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_EquipIcon_AssaultRifle_Glacia_Part01.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Firearm Accessory Blueprint"
+          },
+          "text": "Blueprint for a firearm accessory that can be used to create said inscribed weapon accessory by consuming materials in the Eye of Graeae's HUD."
+        },
+        {
+          "id": "gi-item-223113",
+          "name": "Shatanaya's Frostsilver: Gunstock",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_EquipIcon_AssaultRifle_Glacia_Part04.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Firearm Accessory Blueprint"
+          },
+          "text": "Blueprint for a firearm accessory that can be used to create said inscribed weapon accessory by consuming materials in the Eye of Graeae's HUD."
+        },
+        {
+          "id": "gi-item-223114",
+          "name": "Shatanaya's Frostsilver: Sight",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_EquipIcon_AssaultRifle_Glacia_Part02.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Firearm Accessory Blueprint"
+          },
+          "text": "Blueprint for a firearm accessory that can be used to create said inscribed weapon accessory by consuming materials in the Eye of Graeae's HUD."
+        },
+        {
+          "id": "gi-item-223121",
+          "name": "Balsag's Sunwheel: Muzzle",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_EquipIcon_GrenadeLauncher_Ignis_Part03.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Firearm Accessory Blueprint"
+          },
+          "text": "Blueprint for a firearm accessory that can be used to create said inscribed weapon accessory by consuming materials in the Eye of Graeae's HUD."
+        },
+        {
+          "id": "gi-item-223122",
+          "name": "Balsag's Sunwheel: Ammo Feed",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_EquipIcon_GrenadeLauncher_Ignis_Part01.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Firearm Accessory Blueprint"
+          },
+          "text": "Blueprint for a firearm accessory that can be used to create said inscribed weapon accessory by consuming materials in the Eye of Graeae's HUD."
+        },
+        {
+          "id": "gi-item-223123",
+          "name": "Balsag's Sunwheel: Gunstock",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_EquipIcon_GrenadeLauncher_Ignis_Part04.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Firearm Accessory Blueprint"
+          },
+          "text": "Blueprint for a firearm accessory that can be used to create said inscribed weapon accessory by consuming materials in the Eye of Graeae's HUD."
+        },
+        {
+          "id": "gi-item-223124",
+          "name": "Balsag's Sunwheel: Sight",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_EquipIcon_GrenadeLauncher_Ignis_Part02.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Firearm Accessory Blueprint"
+          },
+          "text": "Blueprint for a firearm accessory that can be used to create said inscribed weapon accessory by consuming materials in the Eye of Graeae's HUD."
+        },
+        {
+          "id": "gi-item-223131",
+          "name": "Ashamez's Thunder: Muzzle",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_EquipIcon_AssaultRifle_Fulmen_Part03.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Firearm Accessory Blueprint"
+          },
+          "text": "Blueprint for a firearm accessory that can be used to create said inscribed weapon accessory by consuming materials in the Eye of Graeae's HUD."
+        },
+        {
+          "id": "gi-item-223132",
+          "name": "Ashamez's Thunder: Ammo Feed",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_EquipIcon_AssaultRifle_Fulmen_Part01.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Firearm Accessory Blueprint"
+          },
+          "text": "Blueprint for a firearm accessory that can be used to create said inscribed weapon accessory by consuming materials in the Eye of Graeae's HUD."
+        },
+        {
+          "id": "gi-item-223133",
+          "name": "Ashamez's Thunder: Gunstock",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_EquipIcon_AssaultRifle_Fulmen_Part04.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Firearm Accessory Blueprint"
+          },
+          "text": "Blueprint for a firearm accessory that can be used to create said inscribed weapon accessory by consuming materials in the Eye of Graeae's HUD."
+        },
+        {
+          "id": "gi-item-223134",
+          "name": "Ashamez's Thunder: Sight",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_EquipIcon_AssaultRifle_Fulmen_Part02.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Firearm Accessory Blueprint"
+          },
+          "text": "Blueprint for a firearm accessory that can be used to create said inscribed weapon accessory by consuming materials in the Eye of Graeae's HUD."
+        },
+        {
+          "id": "gi-item-223301",
+          "name": "Construct Appearance: Jack Frost",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_223301.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Prime Ice Construct Appearance"
+          },
+          "text": "An appearance variant for the \"Prime Ice Construct: Cube.\"\nJack Frost appears utterly obsessed with fashioning bizarre icy creations in their own image. Even with a structure as simple as a cube, they have poured immense effort into incorporating their own distinct features."
+        },
+        {
+          "id": "gi-item-223302",
+          "name": "Construct Appearance: Polyarbear",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_223302.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Prime Ice Construct Appearance"
+          },
+          "text": "Appearance of the \"Prime Ice Construct: Storage Device.\"\nThere is an old saying among hunters that goes: \"If a bear holds it close, you know it's a treasure.\"\nWhile the idea of wresting anything away from a real Polyarbear sounds terrifying, a mere storage unit modeled after one shouldn't pose much of a threat... right?"
+        },
+        {
+          "id": "gi-item-223303",
+          "name": "Construct Appearance: The Ballerina",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_223303.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Prime Ice Construct Appearance"
+          },
+          "text": "An appearance variant for the \"Prime Ice Construct: Ambient Bollard.\"\nWhen watching a performance, one's emotions naturally ebb and flow with every graceful movement of the ballet dancer. Each viewing instills a profound sense of inner strength.\nPerhaps it was born from this very sentiment that this particular Prime Ice Construct appearance was designed."
+        },
+        {
+          "id": "gi-item-223304",
+          "name": "Construct Appearance: The Hound",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_223304.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Prime Ice Construct Appearance"
+          },
+          "text": "An appearance variant for the \"Prime Ice Construct: Ambient Bollard.\"\nContinuous buffs come not only from ambient bollards, but from the companions by our side. Sometimes, their mere presence provides a strength that far surpasses any magical enhancement... That being said, it would be wonderful if these bollards could follow us around just like a real companion."
+        },
+        {
+          "id": "gi-item-223305",
+          "name": "Construct Appearance: The Tides",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_223305.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Prime Ice Construct Appearance"
+          },
+          "text": "An appearance variant for the \"Prime Ice Construct: Ambient Bollard.\"\nThey say that if you stand near a bollard crafted in this likeness, you can sometimes hear the faint murmur of the tides. Yet, the structure itself makes no sound; the melody belongs entirely to your mind and imagination, just like a song that suddenly echoes in your heart on a quiet night."
         },
         {
           "id": "gi-item-318001",
@@ -76254,12 +80520,98 @@
           "text": ""
         },
         {
+          "id": "gi-item-318197",
+          "name": "Lantern Up, Weapons Ready",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_223018.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Item Material"
+          },
+          "text": ""
+        },
+        {
+          "id": "gi-item-318198",
+          "name": "Leisurely Moment",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_223018.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Item Material"
+          },
+          "text": ""
+        },
+        {
+          "id": "gi-item-318199",
+          "name": "Collect Your Delivery",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_223018.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Item Material"
+          },
+          "text": ""
+        },
+        {
+          "id": "gi-item-318200",
+          "name": "Leisurely Moment",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_223018.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Item Material"
+          },
+          "text": ""
+        },
+        {
+          "id": "gi-item-318201",
+          "name": "Elegant Countenance",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_223018.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Item Material"
+          },
+          "text": ""
+        },
+        {
+          "id": "gi-item-318202",
+          "name": "By the Kuuhenki's Side",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_223018.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Item Material"
+          },
+          "text": ""
+        },
+        {
+          "id": "gi-item-318203",
+          "name": "Happy Days",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_223018.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Item Material"
+          },
+          "text": ""
+        },
+        {
+          "id": "gi-item-318204",
+          "name": "Keeping Watch by Lantern Light",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_223018.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Item Material"
+          },
+          "text": ""
+        },
+        {
           "id": "gi-item-319001",
           "name": "Fantastical Marvel",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Lyney.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76271,8 +80623,6 @@
           "name": "Meditation on Floating Dreams",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Nahida.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76284,8 +80634,6 @@
           "name": "Hidden Jade Star",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Zhongli.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76297,8 +80645,6 @@
           "name": "Dappled Shadows Reflecting Red",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Hutao.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76310,8 +80656,6 @@
           "name": "Oracle of Reason",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Neuvillette.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76323,8 +80667,6 @@
           "name": "Lingering Feast",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Furina.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76336,8 +80678,6 @@
           "name": "Azure Icefang",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Wriothesley.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76349,8 +80689,6 @@
           "name": "Wind and Freedom",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Mengde.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76362,8 +80700,6 @@
           "name": "Stone and Contracts",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Liyue.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76375,8 +80711,6 @@
           "name": "Thunder and Eternity",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Daoqi.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76388,8 +80722,6 @@
           "name": "Nature and Wisdom",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_XuMi.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76401,8 +80733,6 @@
           "name": "Water and Justice",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_FengDan.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76414,8 +80744,6 @@
           "name": "Fire and War",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Natlan.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76427,8 +80755,6 @@
           "name": "Ode to Azure Skies",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Venti.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76440,8 +80766,6 @@
           "name": "Blazing Sunfire Scours the Gloom",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Mavuika.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76453,8 +80777,6 @@
           "name": "Eternal Dreams of Serenity",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Shougun.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76466,8 +80788,6 @@
           "name": "Falcon Wings Ablaze",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Diluc.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76492,8 +80812,6 @@
           "name": "Red-Hot Meter",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Xilonen.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76505,8 +80823,6 @@
           "name": "Elysium and the Moon",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Nodkrai.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76518,8 +80834,6 @@
           "name": "Frostmoon Prayers",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Lauma.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76531,8 +80845,6 @@
           "name": "Mysterious White Star",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Citlali.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76570,8 +80882,6 @@
           "name": "Dovefeather Moondew",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Columbina.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76583,8 +80893,6 @@
           "name": "Vigorous Yapping",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_320002.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Portrait"
@@ -78553,6 +82861,47 @@
           "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
         },
         {
+          "id": "gi-item-326142",
+          "name": "Durin",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1317-Durin.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Item Material"
+          },
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2025-12-03"
+        },
+        {
+          "id": "gi-item-326143",
+          "name": "Jahoda",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1516-Jahoda.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Item Material"
+          },
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+          "released": "2025-12-03"
+        },
+        {
+          "id": "gi-item-326144",
+          "name": "Hydro Hypostasis",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2208-Hydro Hypostasis.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Item Material"
+          },
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+        },
+        {
           "id": "gi-item-326500",
           "name": "Undivided Heart",
           "kind": "item",
@@ -80390,6 +84739,97 @@
           "name": "\"Once, the Lone Wind That Kept the Dark Calamity at Bay...\"",
           "kind": "item",
           "art": "../../Database/GameData/gi/gcg/other cards/assets/225041-_Once_ the Lone Wind That Kept the Dark Calamity at Bay..._.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Item Material"
+          },
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+        },
+        {
+          "id": "gi-item-326642",
+          "name": "Adamah's Redemption",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/213171-Adamah's Redemption.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Item Material"
+          },
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+        },
+        {
+          "id": "gi-item-326643",
+          "name": "Backstreet Guile",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/215161-Backstreet Guile.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Item Material"
+          },
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+        },
+        {
+          "id": "gi-item-326644",
+          "name": "Treacherous Torrent",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/222081-Treacherous Torrent.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Item Material"
+          },
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+        },
+        {
+          "id": "gi-item-326645",
+          "name": "Genesis of Starsigns",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/212032-Genesis of Starsigns.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Item Material"
+          },
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+        },
+        {
+          "id": "gi-item-326646",
+          "name": "Sparkborne Magic",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/213062-Sparkborne Magic.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Item Material"
+          },
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+        },
+        {
+          "id": "gi-item-326647",
+          "name": "Phantasmal Nocturne",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/214012-Phantasmal Nocturne.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Item Material"
+          },
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+        },
+        {
+          "id": "gi-item-326648",
+          "name": "Temporal Wind's Eulogy",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/215032-Temporal Wind's Eulogy.webp",
           "artStatus": "trusted-local-reuse",
           "artSource": "genshin-tcg-base-card",
           "fields": {
@@ -84631,6 +89071,32 @@
           "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
         },
         {
+          "id": "gi-item-329119",
+          "name": "Witch's Homework",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332065-Witch's Homework.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Item Material"
+          },
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+        },
+        {
+          "id": "gi-item-329120",
+          "name": "Feasting in a Shared Toast",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332066-Feasting in a Shared Toast.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Item Material"
+          },
+          "text": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible."
+        },
+        {
           "id": "gi-item-330000",
           "name": "Ganyu",
           "kind": "item",
@@ -86297,6 +90763,41 @@
           "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
         },
         {
+          "id": "gi-item-330142",
+          "name": "Durin",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_Gcg_CardFace_Char_Avatar_Durin.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Item Material"
+          },
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2025-12-03"
+        },
+        {
+          "id": "gi-item-330143",
+          "name": "Jahoda",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_Gcg_CardFace_Char_Avatar_Jahoda.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Item Material"
+          },
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+          "released": "2025-12-03"
+        },
+        {
+          "id": "gi-item-330144",
+          "name": "Hydro Hypostasis",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_Gcg_CardFace_Char_Monster_EffigyWater.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Item Material"
+          },
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+        },
+        {
           "id": "gi-item-330500",
           "name": "Undivided Heart",
           "kind": "item",
@@ -87852,6 +92353,83 @@
           "name": "\"Once, the Lone Wind That Kept the Dark Calamity at Bay...\"",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_DarkwraithWind.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Item Material"
+          },
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+        },
+        {
+          "id": "gi-item-330642",
+          "name": "Adamah's Redemption",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_Durin.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Item Material"
+          },
+          "text": "Cards from the \"Genius Invokation TCG\" tabletop game. They have a tough texture, and the exquisite illustrations on the face of the cards seem to have been printed with some special method."
+        },
+        {
+          "id": "gi-item-330643",
+          "name": "Backstreet Guile",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_Jahoda.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Item Material"
+          },
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+        },
+        {
+          "id": "gi-item-330644",
+          "name": "Treacherous Torrent",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_EffigyWater.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Item Material"
+          },
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+        },
+        {
+          "id": "gi-item-330645",
+          "name": "Genesis of Starsigns",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_Modao_Mona.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Item Material"
+          },
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+        },
+        {
+          "id": "gi-item-330646",
+          "name": "Sparkborne Magic",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_Modao_Klee.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Item Material"
+          },
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+        },
+        {
+          "id": "gi-item-330647",
+          "name": "Phantasmal Nocturne",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_Modao_Fischl.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Item Material"
+          },
+          "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
+        },
+        {
+          "id": "gi-item-330648",
+          "name": "Temporal Wind's Eulogy",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_Modao_Venti.webp",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Item Material"
@@ -91445,6 +96023,28 @@
           "text": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance."
         },
         {
+          "id": "gi-item-333119",
+          "name": "Witch's Homework",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_Gcg_CardFace_Event_Event_Modao.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Item Material"
+          },
+          "text": "Cards from the \"Genius Invokation TCG\" tabletop game. They have a tough texture, and the exquisite illustrations on the face of the cards seem to have been printed with some special method."
+        },
+        {
+          "id": "gi-item-333120",
+          "name": "Feasting in a Shared Toast",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_Gcg_CardFace_Event_Event_XumiFriend.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Item Material"
+          },
+          "text": "Cards from the \"Genius Invokation TCG\" tabletop game. They have a tough texture, and the exquisite illustrations on the face of the cards seem to have been printed with some special method."
+        },
+        {
           "id": "gi-item-334000",
           "name": "Ganyu",
           "kind": "item",
@@ -93395,6 +97995,47 @@
           "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
         },
         {
+          "id": "gi-item-334142",
+          "name": "Durin",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1317-Durin.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Item Material"
+          },
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2025-12-03"
+        },
+        {
+          "id": "gi-item-334143",
+          "name": "Jahoda",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1516-Jahoda.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Item Material"
+          },
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+          "released": "2025-12-03"
+        },
+        {
+          "id": "gi-item-334144",
+          "name": "Hydro Hypostasis",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2208-Hydro Hypostasis.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Item Material"
+          },
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+        },
+        {
           "id": "gi-item-334500",
           "name": "Undivided Heart",
           "kind": "item",
@@ -95232,6 +99873,97 @@
           "name": "\"Once, the Lone Wind That Kept the Dark Calamity at Bay...\"",
           "kind": "item",
           "art": "../../Database/GameData/gi/gcg/other cards/assets/225041-_Once_ the Lone Wind That Kept the Dark Calamity at Bay..._.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Item Material"
+          },
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+        },
+        {
+          "id": "gi-item-334642",
+          "name": "Adamah's Redemption",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/213171-Adamah's Redemption.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Item Material"
+          },
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+        },
+        {
+          "id": "gi-item-334643",
+          "name": "Backstreet Guile",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/215161-Backstreet Guile.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Item Material"
+          },
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+        },
+        {
+          "id": "gi-item-334644",
+          "name": "Treacherous Torrent",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/222081-Treacherous Torrent.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Item Material"
+          },
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+        },
+        {
+          "id": "gi-item-334645",
+          "name": "Genesis of Starsigns",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/212032-Genesis of Starsigns.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Item Material"
+          },
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+        },
+        {
+          "id": "gi-item-334646",
+          "name": "Sparkborne Magic",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/213062-Sparkborne Magic.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Item Material"
+          },
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+        },
+        {
+          "id": "gi-item-334647",
+          "name": "Phantasmal Nocturne",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/214012-Phantasmal Nocturne.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Item Material"
+          },
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+        },
+        {
+          "id": "gi-item-334648",
+          "name": "Temporal Wind's Eulogy",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/215032-Temporal Wind's Eulogy.webp",
           "artStatus": "trusted-local-reuse",
           "artSource": "genshin-tcg-base-card",
           "fields": {
@@ -99473,12 +104205,36 @@
           "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
         },
         {
+          "id": "gi-item-337119",
+          "name": "Witch's Homework",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332065-Witch's Homework.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Item Material"
+          },
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+        },
+        {
+          "id": "gi-item-337120",
+          "name": "Feasting in a Shared Toast",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332066-Feasting in a Shared Toast.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Item Material"
+          },
+          "text": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles..."
+        },
+        {
           "id": "gi-item-339000",
           "name": "Origin",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_Gcg_CardBack_01.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Item Material"
@@ -99980,6 +104736,17 @@
           "artSource": "neutral-database-placeholder"
         },
         {
+          "id": "gi-item-339043",
+          "name": "Snezhnaya",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_Gcg_CardBack_Snezhnaya.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Item Material"
+          },
+          "text": "A Genius Invokation TCG card back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby."
+        },
+        {
           "id": "gi-item-339500",
           "name": "Mondstadt",
           "kind": "item",
@@ -100415,8 +105182,6 @@
           "name": "Toward the Distant Horizon",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_AvatarIcon_DurinCostumeWic_Card.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -100512,6 +105277,28 @@
           "text": "A glorious, illusory sword glimmering with the power of \"Life\" that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its wielder. Legend has it that this sword once held the name \"Logseims\" when it was wielded by a transcendent sinner in an ancient land."
         },
         {
+          "id": "gi-item-341103",
+          "name": "Golden Bough of Nemorensis",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_EquipIcon_Sword_MorphNemorensis_Fire.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Item Material"
+          },
+          "text": "A glorious, illusory weapon that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its wielder. It is said that, in an ancient age beyond all recollection, a divine envoy of the high heavens bestowed this longsword upon the high priest of Arcadia, granting them the right to lead the holy city blessed by the thousand winds."
+        },
+        {
+          "id": "gi-item-341104",
+          "name": "Golden Bough of Nemorensis - Sublimation",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_EquipIcon_Sword_MorphNemorensis_Great_Fire.webp",
+          "fields": {
+            "rarity": "5 \u2605",
+            "type": "Item Material"
+          },
+          "text": "A glorious, illusory weapon that emerged from the depths of the Ley Lines, shimmering with the light of \"Eternity.\" It can change its appearance based on the Elemental Type of its wielder. It is said that, in an ancient age beyond all recollection, a divine envoy of the high heavens bestowed the gilded longsword upon the high priest of Arcadia, granting them the right to lead the holy city before it was entombed by death."
+        },
+        {
           "id": "gi-item-341201",
           "name": "Ardent Storm",
           "kind": "item",
@@ -100532,6 +105319,28 @@
             "type": "Item Material"
           },
           "text": "A glorious, illusory claymore glimmering with the power of \"Reason\" that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its wielder. Legend has it that this claymore once held the name \"Starkuthr\" when it was wielded by a transcendent sinner in an ancient land."
+        },
+        {
+          "id": "gi-item-341203",
+          "name": "Silver Radiance of Gradlon",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_EquipIcon_Claymore_MorphGradlon_Fire.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Item Material"
+          },
+          "text": "A glorious, illusory weapon that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its wielder. It is said that, in an ancient age beyond all recollection, a divine envoy of the high heavens bestowed this claymore upon the high priest of Ys, granting them the right to lead the harbor where waters and grasses flourished."
+        },
+        {
+          "id": "gi-item-341204",
+          "name": "Silver Radiance of Gradlon - Sublimation",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_EquipIcon_Claymore_MorphGradlon_Great_Fire.webp",
+          "fields": {
+            "rarity": "5 \u2605",
+            "type": "Item Material"
+          },
+          "text": "A glorious, illusory weapon that emerged from the depths of the Ley Lines, shimmering with the light of \"Eternity.\" It can change its appearance based on the Elemental Type of its wielder. It is said that, in an ancient age beyond all recollection, a divine envoy of the high heavens bestowed the gilded longsword upon the high priest of Ys, granting them the right to lead the harbor before it sank beneath the sands."
         },
         {
           "id": "gi-item-341301",
@@ -100556,6 +105365,28 @@
           "text": "A glorious, illusory polearm glimmering with the power of \"Death\" that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its wielder. Legend has it that this polearm once held the name \"Barnstokkr\" when it was wielded by a transcendent sinner in an ancient land."
         },
         {
+          "id": "gi-item-341303",
+          "name": "Starlight of Fylkir",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_EquipIcon_Pole_MorphFylkir_Fire.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Item Material"
+          },
+          "text": "A glorious, illusory weapon that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its wielder. It is said that, in an ancient age beyond all recollection, a divine envoy of the high heavens bestowed this spear upon the high priest of Sal Vindagnyr, granting them the right to lead the city-state wreathed in verdant shade."
+        },
+        {
+          "id": "gi-item-341304",
+          "name": "Starlight of Fylkir - Sublimation",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_EquipIcon_Pole_MorphFylkir_Great_Fire.webp",
+          "fields": {
+            "rarity": "5 \u2605",
+            "type": "Item Material"
+          },
+          "text": "A glorious, illusory weapon that emerged from the depths of the Ley Lines, shimmering with the light of \"Eternity.\" It can change its appearance based on the Elemental Type of its wielder. It is said that, in an ancient age beyond all recollection, a divine envoy of the high heavens bestowed the gilded spear upon the high priest of Sal Vindagnyr, granting them the right to lead the city-state before it was buried in silver frost."
+        },
+        {
           "id": "gi-item-341401",
           "name": "Hallowed Fetters",
           "kind": "item",
@@ -100576,6 +105407,28 @@
             "type": "Item Material"
           },
           "text": "A glorious, illusory catalyst glimmering with the power of \"Time\" that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its user. Legend has it that this catalyst once held the name \"Gleipnir\" when it was used by a transcendent sinner in an ancient land."
+        },
+        {
+          "id": "gi-item-341403",
+          "name": "Dawnstar of Shahar",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_EquipIcon_Catalyst_MorphShahar_Fire.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Item Material"
+          },
+          "text": "A glorious, illusory weapon that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its wielder. It is said that, in an ancient age beyond all recollection, the first divine envoy bestowed her sacred sigil upon the high priest of Hyperborea, granting them the right to lead the resplendent city of gold."
+        },
+        {
+          "id": "gi-item-341404",
+          "name": "Dawnstar of Shahar - Sublimation",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_EquipIcon_Catalyst_MorphShahar_Great_Fire.webp",
+          "fields": {
+            "rarity": "5 \u2605",
+            "type": "Item Material"
+          },
+          "text": "A glorious, illusory weapon that emerged from the depths of the Ley Lines, shimmering with the light of \"Eternity.\" It can change its appearance based on the Elemental Type of its wielder. It is said that, in an ancient age beyond all recollection, the first divine envoy bestowed the gilded sacred sigil upon the high priest of Hyperborea, granting them the right to lead the great city, ere it faded into the shadows."
         },
         {
           "id": "gi-item-341501",
@@ -100600,6 +105453,28 @@
           "text": "A glorious, illusory bow glimmering with the power of \"Void\" that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its wielder. Legend has it that this bow once held the name \"Gusisnautar\" when it was wielded by a transcendent sinner in an ancient land."
         },
         {
+          "id": "gi-item-341503",
+          "name": "Yayu",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_EquipIcon_Bow_MorphYayu_Fire.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Item Material"
+          },
+          "text": "A glorious, illusory weapon that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its wielder. It is said that, in an ancient age beyond all recollection, a divine envoy of the high heavens bestowed this longbow upon the high priest of Lang-Gan, granting them the right to lead the newborn civilization."
+        },
+        {
+          "id": "gi-item-341504",
+          "name": "Yayu - Sublimation",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_EquipIcon_Bow_MorphYayu_Great_Fire.webp",
+          "fields": {
+            "rarity": "5 \u2605",
+            "type": "Item Material"
+          },
+          "text": "A glorious, illusory weapon that emerged from the depths of the Ley Lines, shimmering with the light of \"Eternity.\" It can change its appearance based on the Elemental Type of its wielder. It is said that, in an ancient age beyond all recollection, a divine envoy of the high heavens bestowed the gilded longbow upon the high priest of Lang-Gan, granting them the right to lead the civilization before it plunged into the abyss."
+        },
+        {
           "id": "gi-item-341801",
           "name": "Phantasmal Gift: Star Omen",
           "kind": "item",
@@ -100615,13 +105490,22 @@
           "name": "Super Awesome Magic Key",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_EquipIcon_Claymore_LoliFriend.webp",
-          "artStatus": "trusted-exact-source-icon",
-          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
           "text": "A gift from the Little Hexenzirkel to a good friend. Due to insufficient available materials, the design has been based on a magical item from the Fontainian text, \"Tales of a Snow-Winged Goose.\"\nYou won't be able to open doors to different realms as one can in fairy tales, but this item is more than durable enough to accompany friends through countless such realms."
+        },
+        {
+          "id": "gi-item-341803",
+          "name": "A Touch of Frost in Scorching Summer!",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_EquipIcon_Sword_Icecream.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Item Material"
+          },
+          "text": "A small gift from the Jack Frosts to their good friends! It looks wildly tasty and seems berry jam-flavored. One bite, and a refreshing chill and delightful sweetness would surely dance together across your tongue... if only this were actually edible. It looks super delicious, though."
         },
         {
           "id": "gi-item-341901",
@@ -102857,6 +107741,17 @@
           "text": "A detailed step-by-step blueprint for making a \"Standing Street Lamp: Beacon in the Misty Night.\"\nAfter using this item, you can view it in the Creation Screen."
         },
         {
+          "id": "gi-item-380484",
+          "name": "\"Chirping About As Birds Do\"",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Furnishing Blueprint"
+          },
+          "text": "A detailed step-by-step blueprint for making \"Chirping About As Birds Do.\"\nAfter using this item, you can view it in the Creation Screen."
+        },
+        {
           "id": "gi-item-380504",
           "name": "Efflorescent Illumination",
           "kind": "item",
@@ -103174,6 +108069,28 @@
             "type": "Furnishing Blueprint"
           },
           "text": "A detailed step-by-step blueprint for making a Hotel Wardrobe: Extra Room.\nAfter using this item, you can view it in the Creation Screen."
+        },
+        {
+          "id": "gi-item-381126",
+          "name": "\"Opening Business Hours\"",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Furnishing Blueprint"
+          },
+          "text": "A detailed step-by-step blueprint for making \"Opening Business Hours.\"\nAfter using this item, you can view it in the Creation Screen."
+        },
+        {
+          "id": "gi-item-381127",
+          "name": "Indoor Standing Cabinet: \"The Steepled Little House\"",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Furnishing Blueprint"
+          },
+          "text": "A detailed step-by-step blueprint for making an Indoor Standing Cabinet: \"The Steepled Little House.\"\nAfter using this item, you can view it in the Creation Screen."
         },
         {
           "id": "gi-item-381201",
@@ -103891,6 +108808,17 @@
           "text": "A detailed step-by-step blueprint for making \"Tea Party Dining Table: The Perfect Gathering.\"\nAfter using this item, you can view it in the Creation Screen."
         },
         {
+          "id": "gi-item-381350",
+          "name": "\"Candle Perch\" Tall Square Table",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Furnishing Blueprint"
+          },
+          "text": "A detailed step-by-step blueprint for making a \"Candle Perch\" Tall Square Table.\nAfter using this item, you can view it in the Creation Screen."
+        },
+        {
           "id": "gi-item-381401",
           "name": "Breeze-Blessed Bed",
           "kind": "item",
@@ -104043,6 +108971,17 @@
             "type": "Furnishing Blueprint"
           },
           "text": "A detailed step-by-step blueprint for making a Frost Moon Stone Bed: Fresh & Cool.\nAfter using this item, you can view it in the Creation Screen."
+        },
+        {
+          "id": "gi-item-381415",
+          "name": "\"Sweet, Untroubled Slumber\"",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Furnishing Blueprint"
+          },
+          "text": "A detailed step-by-step blueprint for making \"Sweet, Untroubled Slumber.\"\nAfter using this item, you can view it in the Creation Screen."
         },
         {
           "id": "gi-item-381501",
@@ -104516,6 +109455,28 @@
             "type": "Furnishing Blueprint"
           },
           "text": "A detailed step-by-step blueprint for making a \"Tea Party Chair: Crimson and Gold.\"\nAfter using this item, you can view it in the Creation Screen."
+        },
+        {
+          "id": "gi-item-382136",
+          "name": "\"A Quiet Sigh on a Snowbound Night\"",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Furnishing Blueprint"
+          },
+          "text": "A detailed step-by-step blueprint for making \"A Quiet Sigh on a Snowbound Night.\"\nAfter using this item, you can view it in the Creation Screen."
+        },
+        {
+          "id": "gi-item-382137",
+          "name": "Indoor Seat: \"Clashing Colors\"",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Furnishing Blueprint"
+          },
+          "text": "A detailed step-by-step blueprint for making Indoor Seat: \"Clashing Colors.\"\nAfter using this item, you can view it in the Creation Screen."
         },
         {
           "id": "gi-item-382201",
@@ -105519,6 +110480,28 @@
           "text": "A detailed step-by-step blueprint for making \"Tea Party Carpet: Soft to the Touch.\"\nAfter using this item, you can view it in the Creation Screen."
         },
         {
+          "id": "gi-item-382325",
+          "name": "Indoor Rug: \"Frostbloom Beneath the Ice\"",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Furnishing Blueprint"
+          },
+          "text": "A detailed step-by-step blueprint for making an Indoor Rug: \"Frostbloom Beneath the Ice.\"\nAfter using this item, you can view it in the Creation Screen."
+        },
+        {
+          "id": "gi-item-382326",
+          "name": "Indoor Rug: \"Warmth\"",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Furnishing Blueprint"
+          },
+          "text": "A detailed step-by-step blueprint for making an Indoor Rug: \"Warmth.\"\nAfter using this item, you can view it in the Creation Screen."
+        },
+        {
           "id": "gi-item-382401",
           "name": "Vibrant Pot: Born in Flames",
           "kind": "item",
@@ -105583,6 +110566,17 @@
             "type": "Furnishing Blueprint"
           },
           "text": "A detailed step-by-step blueprint for making a \"Heroic Warcry.\"\nAfter using this item, you can view it in the Creation Screen."
+        },
+        {
+          "id": "gi-item-382408",
+          "name": "\"Tall-Capped Sentinel\"",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Furnishing Blueprint"
+          },
+          "text": "A detailed step-by-step blueprint for making \"Tall-Capped Sentinel.\"\nAfter using this item, you can view it in the Creation Screen."
         },
         {
           "id": "gi-item-383101",
@@ -105781,6 +110775,28 @@
             "type": "Furnishing Blueprint"
           },
           "text": "A detailed step-by-step blueprint for making \"Twisty Mushroom.\"\nAfter using this item, you can view it in the Creation Screen."
+        },
+        {
+          "id": "gi-item-383121",
+          "name": "\"For Whom It Shines\"",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Furnishing Blueprint"
+          },
+          "text": "A detailed step-by-step blueprint for making \"For Whom It Shines.\"\nAfter using this item, you can view it in the Creation Screen."
+        },
+        {
+          "id": "gi-item-383122",
+          "name": "Indoor Table Lamp: \"Soft Light\"",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Furnishing Blueprint"
+          },
+          "text": "A detailed step-by-step blueprint for making an Indoor Table Lamp: \"Soft Light.\"\nAfter using this item, you can view it in the Creation Screen."
         },
         {
           "id": "gi-item-383201",
@@ -106399,6 +111415,28 @@
           "text": "A detailed step-by-step blueprint for making \"Tea Party Cart: Dessert Time.\"\nAfter using this item, you can view it in the Creation Screen."
         },
         {
+          "id": "gi-item-383399",
+          "name": "\"Round and Round, the Little Fish Go\"",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Furnishing Blueprint"
+          },
+          "text": "A detailed step-by-step blueprint for making \"Round and Round, the Little Fish Go.\"\nAfter using this item, you can view it in the Creation Screen."
+        },
+        {
+          "id": "gi-item-383400",
+          "name": "\"Wind-and-Snowpiercer\"",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Furnishing Blueprint"
+          },
+          "text": "A detailed step-by-step blueprint for making \"Wind-and-Snowpiercer.\"\nAfter using this item, you can view it in the Creation Screen."
+        },
+        {
           "id": "gi-item-383401",
           "name": "Teahouse Tool: Miniscule Misses Make a Mile",
           "kind": "item",
@@ -106575,6 +111613,39 @@
           "text": "A detailed step-by-step blueprint for making \"Tea Party Cup: Refreshing Flavor.\"\nAfter using this item, you can view it in the Creation Screen."
         },
         {
+          "id": "gi-item-383441",
+          "name": "\"Tea-Time Etiquette\"",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Furnishing Blueprint"
+          },
+          "text": "A detailed step-by-step blueprint for making \"Tea-Time Etiquette.\"\nAfter using this item, you can view it in the Creation Screen."
+        },
+        {
+          "id": "gi-item-383442",
+          "name": "\"Balanced Boughs\"",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Furnishing Blueprint"
+          },
+          "text": "A detailed step-by-step blueprint for making \"Balanced Boughs.\"\nAfter using this item, you can view it in the Creation Screen."
+        },
+        {
+          "id": "gi-item-383443",
+          "name": "\"Steady Companion Through Dreams\"",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Furnishing Blueprint"
+          },
+          "text": "A detailed step-by-step blueprint for making \"Steady Companion Through Dreams.\"\nAfter using this item, you can view it in the Creation Screen."
+        },
+        {
           "id": "gi-item-383501",
           "name": "\"Realizations from the Land of Wisdom\"",
           "kind": "item",
@@ -106694,6 +111765,28 @@
             "type": "Furnishing Blueprint"
           },
           "text": "A detailed step-by-step blueprint for making a Decorative Potted Plant: \"Budding Fragrance.\"\nAfter using this item, you can view it in the Creation Screen."
+        },
+        {
+          "id": "gi-item-383513",
+          "name": "Potted Bouquet: \"Elegant Blackthorn\"",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Furnishing Blueprint"
+          },
+          "text": "A detailed step-by-step blueprint for making Potted Bouquet: \"Elegant Blackthorn\"\nAfter using this item, you can view it in the Creation Screen."
+        },
+        {
+          "id": "gi-item-383514",
+          "name": "Decorative Flowerbed: \"Brightcore Blossoms\"",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Furnishing Blueprint"
+          },
+          "text": "A detailed step-by-step blueprint for making Decorative Flowerbed: \"Brightcore Blossoms.\"\nAfter using this item, you can view it in the Creation Screen."
         },
         {
           "id": "gi-item-384101",
@@ -107134,6 +112227,28 @@
             "type": "Furnishing Blueprint"
           },
           "text": "A detailed step-by-step blueprint for making Lingering Moment.\nAfter using this item, you can view it in the Creation Screen."
+        },
+        {
+          "id": "gi-item-384524",
+          "name": "\"A Golden Winter\"",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Furnishing Blueprint"
+          },
+          "text": "A detailed step-by-step blueprint for making \"A Golden Winter.\"\nAfter using this item, you can view it in the Creation Screen."
+        },
+        {
+          "id": "gi-item-384525",
+          "name": "\"The Love One Seeks\"",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Furnishing Blueprint"
+          },
+          "text": "A detailed step-by-step blueprint for making \"The Love One Seeks.\"\nAfter using this item, you can view it in the Creation Screen."
         },
         {
           "id": "gi-item-390101",
@@ -110126,6 +115241,83 @@
             "type": "Furnishing Blueprint"
           },
           "text": "A detailed step-by-step blueprint for making a Base Pillar: Universal Beacon.\nAfter using this item, you can view it in the Creation Screen."
+        },
+        {
+          "id": "gi-item-391050",
+          "name": "Large Winch-and-Axle Crane",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Furnishing Blueprint"
+          },
+          "text": "A detailed step-by-step blueprint for making \"Large Winch-and-Axle Crane.\"\nAfter using this item, you can view it in the Creation Screen."
+        },
+        {
+          "id": "gi-item-391051",
+          "name": "Town Dwelling: \"Cozy Warmth\"",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Furnishing Blueprint"
+          },
+          "text": "A detailed step-by-step blueprint for making a Town Dwelling: \"Cozy Warmth.\"\nAfter using this item, you can view it in the Creation Screen."
+        },
+        {
+          "id": "gi-item-391052",
+          "name": "\"The Round Snowball\"",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Furnishing Blueprint"
+          },
+          "text": "A detailed step-by-step blueprint for making \"The Round Snowball.\"\nAfter using this item, you can view it in the Creation Screen."
+        },
+        {
+          "id": "gi-item-391053",
+          "name": "Waiting Platform: \"Quiet Anticipation\"",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Furnishing Blueprint"
+          },
+          "text": "A detailed step-by-step blueprint for making a Waiting Platform: \"Quiet Anticipation.\"\nAfter using this item, you can view it in the Creation Screen."
+        },
+        {
+          "id": "gi-item-391054",
+          "name": "Snezhnayan Dwelling: \"Warm-Toned Portico\"",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Furnishing Blueprint"
+          },
+          "text": "A detailed step-by-step blueprint for making a Snezhnayan Dwelling: \"Warm-Toned Portico.\"\nAfter using this item, you can view it in the Creation Screen."
+        },
+        {
+          "id": "gi-item-391055",
+          "name": "\"The Round Onion\"",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Furnishing Blueprint"
+          },
+          "text": "A detailed step-by-step blueprint for making \"The Round Onion.\"\nAfter using this item, you can view it in the Creation Screen."
+        },
+        {
+          "id": "gi-item-391056",
+          "name": "Snezhnayan Dwelling: \"Elegant Carvings\"",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Furnishing Blueprint"
+          },
+          "text": "A detailed step-by-step blueprint for making a Snezhnayan Dwelling: \"Elegant Carvings.\"\nAfter using this item, you can view it in the Creation Screen."
         },
         {
           "id": "gi-item-391101",
@@ -114594,6 +119786,39 @@
           "text": "A detailed step-by-step blueprint for making \"Unusable Legacy.\"\nAfter using this item, you can view it in the Creation Screen."
         },
         {
+          "id": "gi-item-393942",
+          "name": "\"Cherish the Present\"",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp",
+          "fields": {
+            "rarity": "2 \u2605",
+            "type": "Furnishing Blueprint"
+          },
+          "text": "A detailed step-by-step blueprint for making \"Cherish the Present.\"\nAfter using this item, you can view it in the Creation Screen."
+        },
+        {
+          "id": "gi-item-393943",
+          "name": "\"An Unmelted Home\"",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Furnishing Blueprint"
+          },
+          "text": "A detailed step-by-step blueprint for making \"An Unmelted Home.\"\nAfter using this item, you can view it in the Creation Screen."
+        },
+        {
+          "id": "gi-item-393944",
+          "name": "\"Open Wide!\"",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Furnishing Blueprint"
+          },
+          "text": "A detailed step-by-step blueprint for making \"Open Wide!\"\nAfter using this item, you can view it in the Creation Screen."
+        },
+        {
           "id": "gi-item-394101",
           "name": "Weathered Bamboo Fence",
           "kind": "item",
@@ -115177,6 +120402,28 @@
           "text": "A detailed step-by-step blueprint for making \"Echoes of Silence.\"\nAfter using this item, you can view it in the Creation Screen."
         },
         {
+          "id": "gi-item-394224",
+          "name": "Station Bench: \"Reading Between Trains\"",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Furnishing Blueprint"
+          },
+          "text": "A detailed step-by-step blueprint for making a Station Bench: \"Reading Between Trains.\"\nAfter using this item, you can view it in the Creation Screen."
+        },
+        {
+          "id": "gi-item-394225",
+          "name": "\"The Lingering Warmth of the Wait\"",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Furnishing Blueprint"
+          },
+          "text": "A detailed step-by-step blueprint for making \"The Lingering Warmth of the Wait.\"\nAfter using this item, you can view it in the Creation Screen."
+        },
+        {
           "id": "gi-item-394301",
           "name": "Two-Story Hilichurl Sentry Tower",
           "kind": "item",
@@ -115516,6 +120763,17 @@
             "type": "Furnishing Blueprint"
           },
           "text": "A detailed step-by-step blueprint for making \"Warm and Cozy.\"\nAfter using this item, you can view it in the Creation Screen."
+        },
+        {
+          "id": "gi-item-394334",
+          "name": "\"Useless Advice\"",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Furnishing Blueprint"
+          },
+          "text": "A detailed step-by-step blueprint for making \"Useless Advice.\"\nAfter using this item, you can view it in the Creation Screen."
         },
         {
           "id": "gi-item-394401",
@@ -116189,6 +121447,72 @@
           "text": "A detailed step-by-step blueprint for making \"Signalless Tower.\"\nAfter using this item, you can view it in the Creation Screen."
         },
         {
+          "id": "gi-item-394661",
+          "name": "Basic Transport Sled",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Furnishing Blueprint"
+          },
+          "text": "A detailed step-by-step blueprint for making a Basic Transport Sled.\nAfter using this item, you can view it in the Creation Screen."
+        },
+        {
+          "id": "gi-item-394662",
+          "name": "Basic Tent: \"A Nap Beneath the Snow\"",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp",
+          "fields": {
+            "rarity": "2 \u2605",
+            "type": "Furnishing Blueprint"
+          },
+          "text": "A detailed step-by-step blueprint for making a Simple Basic Tent: \"A Nap Beneath the Snow.\"\nAfter using this item, you can view it in the Creation Screen."
+        },
+        {
+          "id": "gi-item-394663",
+          "name": "\"Sturdy as Solid Ice\"",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Furnishing Blueprint"
+          },
+          "text": "A detailed step-by-step blueprint for making \"Sturdy as Solid Ice.\"\nAfter using this item, you can view it in the Creation Screen."
+        },
+        {
+          "id": "gi-item-394664",
+          "name": "Portable Small Heating Device",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Furnishing Blueprint"
+          },
+          "text": "A detailed step-by-step blueprint for making a Portable Small Heating Device.\nAfter using this item, you can view it in the Creation Screen."
+        },
+        {
+          "id": "gi-item-394665",
+          "name": "Prime Ice Ore: \"Neatly Arrayed\"",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Furnishing Blueprint"
+          },
+          "text": "A detailed step-by-step blueprint for making a Prime Ice Ore: \"Neatly Arrayed.\"\nAfter using this item, you can view it in the Creation Screen."
+        },
+        {
+          "id": "gi-item-394666",
+          "name": "Small \"Gauge-Panel\" Control Console",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Furnishing Blueprint"
+          },
+          "text": "A detailed step-by-step blueprint for making a Small \"Gauge-Panel\" Control Console.\nAfter using this item, you can view it in the Creation Screen."
+        },
+        {
           "id": "gi-item-394800",
           "name": "Sir Capy of the Long Incisors",
           "kind": "item",
@@ -116330,6 +121654,17 @@
             "type": "Furnishing Blueprint"
           },
           "text": "A detailed step-by-step blueprint for making \"Moon Envoy of Silver Radiance.\"\nAfter using this item, you can view it in the Creation Screen."
+        },
+        {
+          "id": "gi-item-394847",
+          "name": "\"Dancing Beneath Silver-White Wings\"",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Furnishing Blueprint"
+          },
+          "text": "A detailed step-by-step blueprint for making \"Dancing Beneath Silver-White Wings.\"\nAfter using this item, you can view it in the Creation Screen."
         }
       ]
     }

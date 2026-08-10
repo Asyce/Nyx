@@ -4178,21 +4178,6 @@
         "tag": "FallingAttack",
         "group": "default"
       },
-      "poise": {
-        "level": "LV2",
-        "value": 10
-      },
-      "element": "None",
-      "attack_type": "Melee",
-      "strike_type": "Pierce",
-      "damage_param": "FallingAnthem_Normal_Loop_Damage"
-    },
-    {
-      "name": "FallingAnthem",
-      "icd": {
-        "tag": "FallingAttack",
-        "group": "default"
-      },
       "gauge": 1,
       "poise": {
         "level": "LV2",
@@ -4218,6 +4203,21 @@
       "attack_type": "Melee",
       "strike_type": "Pierce",
       "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Pierce",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
     },
     {
       "name": "ElementalBurst_Dice_Bullet_Extra",

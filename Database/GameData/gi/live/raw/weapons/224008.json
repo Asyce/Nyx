@@ -1,0 +1,9 @@
+{
+  "name": "Specialized Frag Crystals within the Shadow Realm",
+  "desc": "Tactical throwable that can deal massive damage to Shadow Realm constructs",
+  "weapon_type": "ITEM_TPS_WEAPON",
+  "rarity": 4,
+  "icon": "Sword_Template",
+  "skill": 0,
+  "tps": true
+}

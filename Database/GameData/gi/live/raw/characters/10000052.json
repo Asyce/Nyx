@@ -4273,14 +4273,15 @@
         "tag": "FallingAttack",
         "group": "default"
       },
+      "gauge": 1,
       "poise": {
-        "level": "LV2",
-        "value": 25
+        "level": "LV4",
+        "value": 100
       },
       "element": "None",
       "attack_type": "Melee",
-      "strike_type": "Slash",
-      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
     },
     {
       "name": "FallingAnthem",
@@ -4288,33 +4289,15 @@
         "tag": "FallingAttack",
         "group": "default"
       },
+      "gauge": 1,
       "poise": {
-        "level": "LV2",
-        "value": 25
+        "level": "LV7",
+        "value": 150
       },
       "element": "None",
       "attack_type": "Melee",
-      "strike_type": "Slash",
-      "damage_param": "FallingAnthem_Normal_Loop_Damage"
-    },
-    {
-      "name": "FallingAnthem",
-      "icd": {
-        "tag": "Elemental_Burst",
-        "group": "default"
-      },
-      "poise": {
-        "level": "LV2",
-        "value": 25
-      },
-      "element": "Electric",
-      "attack_type": "Melee",
-      "strike_type": "Slash",
-      "damage_param": [
-        "FallingAnthem_Normal_Loop_Katana_Damage",
-        "KatanaDamageDelta",
-        "ADD"
-      ]
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
     },
     {
       "name": "FallingAnthem",
@@ -4362,15 +4345,14 @@
         "tag": "FallingAttack",
         "group": "default"
       },
-      "gauge": 1,
       "poise": {
-        "level": "LV4",
-        "value": 100
+        "level": "LV2",
+        "value": 25
       },
       "element": "None",
       "attack_type": "Melee",
-      "strike_type": "Blunt",
-      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+      "strike_type": "Slash",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
     },
     {
       "name": "FallingAnthem",
@@ -4378,15 +4360,33 @@
         "tag": "FallingAttack",
         "group": "default"
       },
-      "gauge": 1,
       "poise": {
-        "level": "LV7",
-        "value": 150
+        "level": "LV2",
+        "value": 25
       },
       "element": "None",
       "attack_type": "Melee",
-      "strike_type": "Blunt",
-      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+      "strike_type": "Slash",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 25
+      },
+      "element": "Electric",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": [
+        "FallingAnthem_Normal_Loop_Katana_Damage",
+        "KatanaDamageDelta",
+        "ADD"
+      ]
     }
   ],
   "energy": [

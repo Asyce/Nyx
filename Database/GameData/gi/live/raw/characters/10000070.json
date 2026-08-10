@@ -4144,19 +4144,6 @@
     {
       "name": "Spec_EArt_Over",
       "icd": {
-        "group": "Nilou_Sustained_Water"
-      },
-      "gauge": 1,
-      "poise": {
-        "level": "LV0"
-      },
-      "element": "Water",
-      "attack_type": "Melee",
-      "strike_type": "Default"
-    },
-    {
-      "name": "Spec_EArt_Over",
-      "icd": {
         "tag": "Elemental_Art",
         "group": "default"
       },
@@ -4170,6 +4157,19 @@
       "strike_type": "Slash"
     },
     {
+      "name": "Spec_EArt_Over",
+      "icd": {
+        "group": "Nilou_Sustained_Water"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV0"
+      },
+      "element": "Water",
+      "attack_type": "Melee",
+      "strike_type": "Default"
+    },
+    {
       "name": "ElementalBurst_Camera",
       "icd": {
         "group": "default"
@@ -4181,21 +4181,6 @@
       "element": "None",
       "attack_type": "Default",
       "strike_type": "None"
-    },
-    {
-      "name": "FallingAnthem",
-      "icd": {
-        "tag": "FallingAttack",
-        "group": "default"
-      },
-      "poise": {
-        "level": "LV2",
-        "value": 25
-      },
-      "element": "None",
-      "attack_type": "Melee",
-      "strike_type": "Slash",
-      "damage_param": "FallingAnthem_Normal_Loop_Damage"
     },
     {
       "name": "FallingAnthem",
@@ -4228,6 +4213,21 @@
       "attack_type": "Melee",
       "strike_type": "Blunt",
       "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 25
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
     }
   ],
   "energy": [

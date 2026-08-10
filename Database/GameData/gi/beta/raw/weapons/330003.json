@@ -1,0 +1,9 @@
+{
+  "name": "Starlight of Fylkir",
+  "desc": "A glorious, illusory weapon that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its wielder. It is said that, in an ancient age beyond all recollection, a divine envoy of the high heavens bestowed this spear upon the high priest of Sal Vindagnyr, granting them the right to lead the city-state wreathed in verdant shade.",
+  "weapon_type": "WEAPON_POLE",
+  "rarity": 4,
+  "icon": "UI_EquipIcon_Pole_MorphFylkir_{0}",
+  "tag": "TAG_TYPE_COLOR_BY_ELEMENT",
+  "skin": true
+}

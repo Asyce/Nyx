@@ -1113,6 +1113,36 @@
     "icon": "UI_ItemIcon_101272",
     "type": "Local Specialty (Mondstadt)"
   },
+  "101278": {
+    "name": "Red Beet",
+    "rank": 0,
+    "icon": "UI_ItemIcon_101278",
+    "type": "Cooking Ingredient"
+  },
+  "101279": {
+    "name": "Glaciafruit",
+    "rank": 0,
+    "icon": "UI_ItemIcon_101279",
+    "type": "Cooking Ingredient"
+  },
+  "101280": {
+    "name": "Snowball Flower",
+    "rank": 0,
+    "icon": "UI_ItemIcon_101280",
+    "type": "Cooking Ingredient"
+  },
+  "101281": {
+    "name": "Rimecurrant",
+    "rank": 0,
+    "icon": "UI_ItemIcon_101281",
+    "type": "Cooking Ingredient"
+  },
+  "101282": {
+    "name": "Lumifluorite",
+    "rank": 0,
+    "icon": "UI_ItemIcon_101282",
+    "type": "Material"
+  },
   "101301": {
     "name": "Birch Wood",
     "rank": 1,
@@ -1285,6 +1315,30 @@
     "name": "Alder Wood",
     "rank": 1,
     "icon": "UI_ItemIcon_101330",
+    "type": "Material"
+  },
+  "101331": {
+    "name": "Snow Poplar Wood",
+    "rank": 1,
+    "icon": "UI_ItemIcon_101332",
+    "type": "Material"
+  },
+  "101332": {
+    "name": "White Birch Wood",
+    "rank": 1,
+    "icon": "UI_ItemIcon_101331",
+    "type": "Material"
+  },
+  "101333": {
+    "name": "Bluebeech Wood",
+    "rank": 1,
+    "icon": "UI_ItemIcon_101333",
+    "type": "Material"
+  },
+  "101334": {
+    "name": "Larch Wood",
+    "rank": 1,
+    "icon": "UI_ItemIcon_101334",
     "type": "Material"
   },
   "101401": {
@@ -2004,6 +2058,69 @@
     "type": "Character Talent Material",
     "week": 2
   },
+  "104365": {
+    "name": "Teachings of Charity",
+    "rank": 2,
+    "icon": "UI_ItemIcon_104365",
+    "type": "Character Talent Material",
+    "week": 0
+  },
+  "104366": {
+    "name": "Guide to Charity",
+    "rank": 3,
+    "icon": "UI_ItemIcon_104366",
+    "type": "Character Talent Material",
+    "week": 0
+  },
+  "104367": {
+    "name": "Philosophies of Charity",
+    "rank": 4,
+    "icon": "UI_ItemIcon_104367",
+    "type": "Character Talent Material",
+    "week": 0
+  },
+  "104368": {
+    "name": "Teachings of Fortitude",
+    "rank": 2,
+    "icon": "UI_ItemIcon_104368",
+    "type": "Character Talent Material",
+    "week": 1
+  },
+  "104369": {
+    "name": "Guide to Fortitude",
+    "rank": 3,
+    "icon": "UI_ItemIcon_104369",
+    "type": "Character Talent Material",
+    "week": 1
+  },
+  "104370": {
+    "name": "Philosophies of Fortitude",
+    "rank": 4,
+    "icon": "UI_ItemIcon_104370",
+    "type": "Character Talent Material",
+    "week": 1
+  },
+  "104371": {
+    "name": "Teachings of Glory",
+    "rank": 2,
+    "icon": "UI_ItemIcon_104371",
+    "type": "Character Talent Material",
+    "week": 2
+  },
+  "104372": {
+    "name": "Guide to Glory",
+    "rank": 3,
+    "icon": "UI_ItemIcon_104372",
+    "type": "Character Talent Material",
+    "week": 2
+  },
+  "104373": {
+    "name": "Philosophies of Glory",
+    "rank": 4,
+    "icon": "UI_ItemIcon_104373",
+    "type": "Character Talent Material",
+    "week": 2
+  },
   "105002": {
     "name": "Sanctifying Unction",
     "rank": 3,
@@ -2143,7 +2260,7 @@
     "type": "Adventure Item"
   },
   "107032": {
-    "name": "Frost Moon Shrine of Depths Key",
+    "name": "Kuuhenki Shrine Key",
     "rank": 0,
     "icon": "UI_ItemIcon_107032",
     "type": "Adventure Item"
@@ -2158,6 +2275,24 @@
     "name": "Memory Factor",
     "rank": 3,
     "icon": "UI_ItemIcon_107034",
+    "type": "Adventure Item"
+  },
+  "107035": {
+    "name": "Cryoculus",
+    "rank": 0,
+    "icon": "UI_ItemIcon_107035",
+    "type": "Adventure Item"
+  },
+  "107036": {
+    "name": "Shadow Wingdrop",
+    "rank": 0,
+    "icon": "UI_ItemIcon_107036",
+    "type": "Adventure Item"
+  },
+  "107037": {
+    "name": "Snezhnaya Shrine of Depths Key",
+    "rank": 0,
+    "icon": "UI_ItemIcon_107037",
     "type": "Adventure Item"
   },
   "108001": {
@@ -8799,6 +8934,111 @@
     "type": "Food",
     "food": "FOOD_QUALITY_DELICIOUS"
   },
+  "108985": {
+    "name": "Suspicious Zharkoye",
+    "rank": 3,
+    "icon": "UI_ItemIcon_108885",
+    "type": "Food",
+    "food": "FOOD_QUALITY_STRANGE"
+  },
+  "108986": {
+    "name": "Zharkoye",
+    "rank": 3,
+    "icon": "UI_ItemIcon_108885",
+    "type": "Food",
+    "food": "FOOD_QUALITY_ORDINARY"
+  },
+  "108987": {
+    "name": "Delicious Zharkoye",
+    "rank": 3,
+    "icon": "UI_ItemIcon_108885",
+    "type": "Food",
+    "food": "FOOD_QUALITY_DELICIOUS"
+  },
+  "108988": {
+    "name": "Suspicious Podvorye Smoked Sausage",
+    "rank": 1,
+    "icon": "UI_ItemIcon_108886",
+    "type": "Food",
+    "food": "FOOD_QUALITY_STRANGE"
+  },
+  "108989": {
+    "name": "Podvorye Smoked Sausage",
+    "rank": 1,
+    "icon": "UI_ItemIcon_108886",
+    "type": "Food",
+    "food": "FOOD_QUALITY_ORDINARY"
+  },
+  "108990": {
+    "name": "Delicious Podvorye Smoked Sausage",
+    "rank": 1,
+    "icon": "UI_ItemIcon_108886",
+    "type": "Food",
+    "food": "FOOD_QUALITY_DELICIOUS"
+  },
+  "108991": {
+    "name": "Suspicious Stroganina",
+    "rank": 2,
+    "icon": "UI_ItemIcon_108887",
+    "type": "Food",
+    "food": "FOOD_QUALITY_STRANGE"
+  },
+  "108992": {
+    "name": "Stroganina",
+    "rank": 2,
+    "icon": "UI_ItemIcon_108887",
+    "type": "Food",
+    "food": "FOOD_QUALITY_ORDINARY"
+  },
+  "108993": {
+    "name": "Delicious Stroganina",
+    "rank": 2,
+    "icon": "UI_ItemIcon_108887",
+    "type": "Food",
+    "food": "FOOD_QUALITY_DELICIOUS"
+  },
+  "108994": {
+    "name": "Suspicious Snowrealm Okroshkas",
+    "rank": 3,
+    "icon": "UI_ItemIcon_108888",
+    "type": "Food",
+    "food": "FOOD_QUALITY_STRANGE"
+  },
+  "108995": {
+    "name": "Snowrealm Okroshkas",
+    "rank": 3,
+    "icon": "UI_ItemIcon_108888",
+    "type": "Food",
+    "food": "FOOD_QUALITY_ORDINARY"
+  },
+  "108996": {
+    "name": "Delicious Snowrealm Okroshkas",
+    "rank": 3,
+    "icon": "UI_ItemIcon_108888",
+    "type": "Food",
+    "food": "FOOD_QUALITY_DELICIOUS"
+  },
+  "108997": {
+    "name": "Suspicious Borscht",
+    "rank": 2,
+    "icon": "UI_ItemIcon_108889",
+    "type": "Food",
+    "food": "FOOD_QUALITY_STRANGE"
+  },
+  "108998": {
+    "name": "Borscht",
+    "rank": 2,
+    "icon": "UI_ItemIcon_108889",
+    "type": "Food",
+    "food": "FOOD_QUALITY_ORDINARY"
+  },
+  "108999": {
+    "name": "Delicious Borscht",
+    "rank": 2,
+    "icon": "UI_ItemIcon_108889",
+    "type": "Food",
+    "food": "FOOD_QUALITY_DELICIOUS"
+  },
   "110001": {
     "name": "Flour",
     "rank": 0,
@@ -8887,6 +9127,12 @@
     "name": "Rye Flour",
     "rank": 0,
     "icon": "UI_ItemIcon_110016",
+    "type": "Cooking Ingredient"
+  },
+  "110017": {
+    "name": "Honey",
+    "rank": 0,
+    "icon": "UI_ItemIcon_110017",
     "type": "Cooking Ingredient"
   },
   "111006": {
@@ -9055,6 +9301,12 @@
     "name": "Refreshing Lakka Bait",
     "rank": 2,
     "icon": "UI_ItemIcon_111036",
+    "type": "Bait"
+  },
+  "111037": {
+    "name": "Glimmering Bait",
+    "rank": 2,
+    "icon": "UI_ItemIcon_111037",
     "type": "Bait"
   },
   "112001": {
@@ -9927,6 +10179,78 @@
     "icon": "UI_ItemIcon_112145",
     "type": "Character and Weapon Enhancement Material"
   },
+  "112146": {
+    "name": "Ethereal Glimmershard",
+    "rank": 1,
+    "icon": "UI_ItemIcon_112146",
+    "type": "Character and Weapon Enhancement Material"
+  },
+  "112147": {
+    "name": "Ethereal Crystal",
+    "rank": 2,
+    "icon": "UI_ItemIcon_112147",
+    "type": "Character and Weapon Enhancement Material"
+  },
+  "112148": {
+    "name": "Ethereal Crystalscale Stone",
+    "rank": 3,
+    "icon": "UI_ItemIcon_112148",
+    "type": "Character and Weapon Enhancement Material"
+  },
+  "112149": {
+    "name": "Chimeric Core",
+    "rank": 1,
+    "icon": "UI_ItemIcon_112149",
+    "type": "Character and Weapon Enhancement Material"
+  },
+  "112150": {
+    "name": "Symbiotic Chimeric Nucleus",
+    "rank": 2,
+    "icon": "UI_ItemIcon_112150",
+    "type": "Character and Weapon Enhancement Material"
+  },
+  "112151": {
+    "name": "Prime Chimeric Nexus",
+    "rank": 3,
+    "icon": "UI_ItemIcon_112151",
+    "type": "Character and Weapon Enhancement Material"
+  },
+  "112152": {
+    "name": "Accreted Fragment",
+    "rank": 2,
+    "icon": "UI_ItemIcon_112152",
+    "type": "Character and Weapon Enhancement Material"
+  },
+  "112153": {
+    "name": "Accreted Mass",
+    "rank": 3,
+    "icon": "UI_ItemIcon_112153",
+    "type": "Character and Weapon Enhancement Material"
+  },
+  "112154": {
+    "name": "Accreted Growth",
+    "rank": 4,
+    "icon": "UI_ItemIcon_112154",
+    "type": "Character and Weapon Enhancement Material"
+  },
+  "112155": {
+    "name": "Hollow Root of Life",
+    "rank": 2,
+    "icon": "UI_ItemIcon_112155",
+    "type": "Character and Weapon Enhancement Material"
+  },
+  "112156": {
+    "name": "Sprout Node of Life",
+    "rank": 3,
+    "icon": "UI_ItemIcon_112156",
+    "type": "Character and Weapon Enhancement Material"
+  },
+  "112157": {
+    "name": "Coiled Core of Life",
+    "rank": 4,
+    "icon": "UI_ItemIcon_112157",
+    "type": "Character and Weapon Enhancement Material"
+  },
   "113001": {
     "name": "Hurricane Seed",
     "rank": 4,
@@ -10453,6 +10777,18 @@
     "name": "Profaned Sprout",
     "rank": 5,
     "icon": "UI_ItemIcon_113089",
+    "type": "Character Level-Up Material"
+  },
+  "113090": {
+    "name": "Unscorched Blossom Branch",
+    "rank": 4,
+    "icon": "UI_ItemIcon_113090",
+    "type": "Character Level-Up Material"
+  },
+  "113091": {
+    "name": "Severed Tail of the Sky-Roamer",
+    "rank": 4,
+    "icon": "UI_ItemIcon_113091",
     "type": "Character Level-Up Material"
   },
   "114001": {
@@ -11043,6 +11379,90 @@
     "type": "Weapon Ascension Material",
     "week": 2
   },
+  "114085": {
+    "name": "Rise of the Pale Star Army",
+    "rank": 2,
+    "icon": "UI_ItemIcon_114085",
+    "type": "Weapon Ascension Material",
+    "week": 0
+  },
+  "114086": {
+    "name": "Muster of the Pale Star Army",
+    "rank": 3,
+    "icon": "UI_ItemIcon_114086",
+    "type": "Weapon Ascension Material",
+    "week": 0
+  },
+  "114087": {
+    "name": "Clarion of the Pale Star Army",
+    "rank": 4,
+    "icon": "UI_ItemIcon_114087",
+    "type": "Weapon Ascension Material",
+    "week": 0
+  },
+  "114088": {
+    "name": "Triumph of the Pale Star Army",
+    "rank": 5,
+    "icon": "UI_ItemIcon_114088",
+    "type": "Weapon Ascension Material",
+    "week": 0
+  },
+  "114089": {
+    "name": "Measured Pour of the Cellared Spiritual Nectar",
+    "rank": 2,
+    "icon": "UI_ItemIcon_114089",
+    "type": "Weapon Ascension Material",
+    "week": 1
+  },
+  "114090": {
+    "name": "Intoxication of the Cellared Spiritual Nectar",
+    "rank": 3,
+    "icon": "UI_ItemIcon_114090",
+    "type": "Weapon Ascension Material",
+    "week": 1
+  },
+  "114091": {
+    "name": "Exhilaration of the Cellared Spiritual Nectar",
+    "rank": 4,
+    "icon": "UI_ItemIcon_114091",
+    "type": "Weapon Ascension Material",
+    "week": 1
+  },
+  "114092": {
+    "name": "Revelry of the Cellared Spiritual Nectar",
+    "rank": 5,
+    "icon": "UI_ItemIcon_114092",
+    "type": "Weapon Ascension Material",
+    "week": 1
+  },
+  "114093": {
+    "name": "The Frost Emperor's Revival",
+    "rank": 2,
+    "icon": "UI_ItemIcon_114093",
+    "type": "Weapon Ascension Material",
+    "week": 2
+  },
+  "114094": {
+    "name": "The Frost Emperor's Ceremony",
+    "rank": 3,
+    "icon": "UI_ItemIcon_114094",
+    "type": "Weapon Ascension Material",
+    "week": 2
+  },
+  "114095": {
+    "name": "The Frost Emperor's Lament",
+    "rank": 4,
+    "icon": "UI_ItemIcon_114095",
+    "type": "Weapon Ascension Material",
+    "week": 2
+  },
+  "114096": {
+    "name": "The Frost Emperor's Farewell",
+    "rank": 5,
+    "icon": "UI_ItemIcon_114096",
+    "type": "Weapon Ascension Material",
+    "week": 2
+  },
   "118001": {
     "name": "Cake for Traveler",
     "rank": 4,
@@ -11113,6 +11533,18 @@
     "name": "Cake for Traveler",
     "rank": 4,
     "icon": "UI_ItemIcon_118011",
+    "type": "Very Special Item"
+  },
+  "118013": {
+    "name": "Cake for Traveler",
+    "rank": 4,
+    "icon": "UI_ItemIcon_118013",
+    "type": "Very Special Item"
+  },
+  "118014": {
+    "name": "Cake for Traveler",
+    "rank": 4,
+    "icon": "UI_ItemIcon_118013",
     "type": "Very Special Item"
   },
   "120444": {
@@ -11282,6 +11714,36 @@
     "rank": 4,
     "icon": "UI_ItemIcon_121604",
     "type": "Adventure Item"
+  },
+  "121657": {
+    "name": "Stardust Trail: Radiant Glow",
+    "rank": 4,
+    "icon": "UI_ItemIcon_121657",
+    "type": "Very Special Item"
+  },
+  "121659": {
+    "name": "Remnant Incense Guide - Snowgrave",
+    "rank": 4,
+    "icon": "UI_ItemIcon_121659",
+    "type": "Adventure Item"
+  },
+  "121660": {
+    "name": "Remnant Incense Guide - Fellfrost Peak",
+    "rank": 4,
+    "icon": "UI_ItemIcon_121660",
+    "type": "Adventure Item"
+  },
+  "121661": {
+    "name": "Remnant Incense Guide - Everfrozen Earth",
+    "rank": 4,
+    "icon": "UI_ItemIcon_121661",
+    "type": "Adventure Item"
+  },
+  "121674": {
+    "name": "Stardust Trail: Radiant Glow Sigil",
+    "rank": 4,
+    "icon": "UI_ItemIcon_121657",
+    "type": "Very Special Item"
   },
   "130001": {
     "name": "Silk Flower Seed",
@@ -11545,6 +12007,42 @@
     "name": "Pine Amber Seed",
     "rank": 0,
     "icon": "UI_ItemIcon_130044",
+    "type": "Material"
+  },
+  "130045": {
+    "name": "Frostfairy Flower Seed",
+    "rank": 0,
+    "icon": "UI_ItemIcon_130045",
+    "type": "Material"
+  },
+  "130046": {
+    "name": "Flockingweed Seed",
+    "rank": 0,
+    "icon": "UI_ItemIcon_130046",
+    "type": "Material"
+  },
+  "130047": {
+    "name": "Golden Fern Seed",
+    "rank": 0,
+    "icon": "UI_ItemIcon_130047",
+    "type": "Material"
+  },
+  "130048": {
+    "name": "Red Beet Seed",
+    "rank": 0,
+    "icon": "UI_ItemIcon_130048",
+    "type": "Material"
+  },
+  "130049": {
+    "name": "Rimecurrant Seed",
+    "rank": 0,
+    "icon": "UI_ItemIcon_130049",
+    "type": "Material"
+  },
+  "130050": {
+    "name": "Snowball Flower Seed",
+    "rank": 0,
+    "icon": "UI_ItemIcon_130050",
     "type": "Material"
   },
   "131000": {
@@ -11865,6 +12363,216 @@
     "icon": "UI_ItemIcon_131053",
     "type": "Fish"
   },
+  "131054": {
+    "name": "Charcoal Snowfin",
+    "rank": 3,
+    "icon": "UI_ItemIcon_131054",
+    "type": "Fish"
+  },
+  "131055": {
+    "name": "Cream Snowfin",
+    "rank": 3,
+    "icon": "UI_ItemIcon_131055",
+    "type": "Fish"
+  },
+  "131056": {
+    "name": "Moonlight Snowfin",
+    "rank": 3,
+    "icon": "UI_ItemIcon_131056",
+    "type": "Fish"
+  },
+  "131057": {
+    "name": "Ruby Starbloom Fish",
+    "rank": 3,
+    "icon": "UI_ItemIcon_131057",
+    "type": "Fish"
+  },
+  "131058": {
+    "name": "Frostpetal Starbloom Fish",
+    "rank": 3,
+    "icon": "UI_ItemIcon_131058",
+    "type": "Fish"
+  },
+  "131059": {
+    "name": "Iridescent Starbloom Fish",
+    "rank": 3,
+    "icon": "UI_ItemIcon_131059",
+    "type": "Fish"
+  },
+  "132001": {
+    "name": "Suspicious Rimecurrant Ice Cream",
+    "rank": 3,
+    "icon": "UI_ItemIcon_108890",
+    "type": "Food",
+    "food": "FOOD_QUALITY_STRANGE"
+  },
+  "132002": {
+    "name": "Rimecurrant Ice Cream",
+    "rank": 3,
+    "icon": "UI_ItemIcon_108890",
+    "type": "Food",
+    "food": "FOOD_QUALITY_ORDINARY"
+  },
+  "132003": {
+    "name": "Delicious Rimecurrant Ice Cream",
+    "rank": 3,
+    "icon": "UI_ItemIcon_108890",
+    "type": "Food",
+    "food": "FOOD_QUALITY_DELICIOUS"
+  },
+  "132004": {
+    "name": "Suspicious Glupov Rye Bread",
+    "rank": 2,
+    "icon": "UI_ItemIcon_108891",
+    "type": "Food",
+    "food": "FOOD_QUALITY_STRANGE"
+  },
+  "132005": {
+    "name": "Glupov Rye Bread",
+    "rank": 2,
+    "icon": "UI_ItemIcon_108891",
+    "type": "Food",
+    "food": "FOOD_QUALITY_ORDINARY"
+  },
+  "132006": {
+    "name": "Delicious Glupov Rye Bread",
+    "rank": 2,
+    "icon": "UI_ItemIcon_108891",
+    "type": "Food",
+    "food": "FOOD_QUALITY_DELICIOUS"
+  },
+  "132007": {
+    "name": "Suspicious Medovik",
+    "rank": 3,
+    "icon": "UI_ItemIcon_108892",
+    "type": "Food",
+    "food": "FOOD_QUALITY_STRANGE"
+  },
+  "132008": {
+    "name": "Medovik",
+    "rank": 3,
+    "icon": "UI_ItemIcon_108892",
+    "type": "Food",
+    "food": "FOOD_QUALITY_ORDINARY"
+  },
+  "132009": {
+    "name": "Delicious Medovik",
+    "rank": 3,
+    "icon": "UI_ItemIcon_108892",
+    "type": "Food",
+    "food": "FOOD_QUALITY_DELICIOUS"
+  },
+  "132010": {
+    "name": "Suspicious Snezhnaya Shashliks",
+    "rank": 3,
+    "icon": "UI_ItemIcon_108893",
+    "type": "Food",
+    "food": "FOOD_QUALITY_STRANGE"
+  },
+  "132011": {
+    "name": "Snezhnaya Shashliks",
+    "rank": 3,
+    "icon": "UI_ItemIcon_108893",
+    "type": "Food",
+    "food": "FOOD_QUALITY_ORDINARY"
+  },
+  "132012": {
+    "name": "Delicious Snezhnaya Shashliks",
+    "rank": 3,
+    "icon": "UI_ItemIcon_108893",
+    "type": "Food",
+    "food": "FOOD_QUALITY_DELICIOUS"
+  },
+  "132013": {
+    "name": "Suspicious Snowball Blooms Atop Snowfields",
+    "rank": 3,
+    "icon": "UI_ItemIcon_108894",
+    "type": "Food",
+    "food": "FOOD_QUALITY_STRANGE"
+  },
+  "132014": {
+    "name": "Snowball Blooms Atop Snowfields",
+    "rank": 3,
+    "icon": "UI_ItemIcon_108894",
+    "type": "Food",
+    "food": "FOOD_QUALITY_ORDINARY"
+  },
+  "132015": {
+    "name": "Delicious Snowball Blooms Atop Snowfields",
+    "rank": 3,
+    "icon": "UI_ItemIcon_108894",
+    "type": "Food",
+    "food": "FOOD_QUALITY_DELICIOUS"
+  },
+  "132016": {
+    "name": "The Bullseye Roast",
+    "rank": 3,
+    "icon": "UI_ItemIcon_108895",
+    "type": "Food"
+  },
+  "132017": {
+    "name": "Lakeside Snow Swan",
+    "rank": 3,
+    "icon": "UI_ItemIcon_108896",
+    "type": "Food"
+  },
+  "132018": {
+    "name": "Suspicious Sweet Scoops",
+    "rank": 4,
+    "icon": "UI_ItemIcon_108897",
+    "type": "Food",
+    "food": "FOOD_QUALITY_STRANGE"
+  },
+  "132019": {
+    "name": "Sweet Scoops",
+    "rank": 4,
+    "icon": "UI_ItemIcon_108897",
+    "type": "Food",
+    "food": "FOOD_QUALITY_ORDINARY"
+  },
+  "132020": {
+    "name": "Delicious Sweet Scoops",
+    "rank": 4,
+    "icon": "UI_ItemIcon_108897",
+    "type": "Food",
+    "food": "FOOD_QUALITY_DELICIOUS"
+  },
+  "132021": {
+    "name": "Alyosha-Themed Ice Cream",
+    "rank": 2,
+    "icon": "UI_ItemIcon_108898",
+    "type": "Food"
+  },
+  "132022": {
+    "name": "Odette-Themed Ice Cream",
+    "rank": 2,
+    "icon": "UI_ItemIcon_108899",
+    "type": "Food"
+  },
+  "132023": {
+    "name": "Kvass",
+    "rank": 2,
+    "icon": "UI_ItemIcon_108900",
+    "type": "Food"
+  },
+  "132024": {
+    "name": "Spiced Honey Brew",
+    "rank": 2,
+    "icon": "UI_ItemIcon_108901",
+    "type": "Food"
+  },
+  "132025": {
+    "name": "Glacial Starbrew",
+    "rank": 2,
+    "icon": "UI_ItemIcon_108902",
+    "type": "Food"
+  },
+  "132026": {
+    "name": "Regular Ice Cream",
+    "rank": 2,
+    "icon": "UI_ItemIcon_108890",
+    "type": "Food"
+  },
   "200005": {
     "name": "Celebratory Xiao Lantern",
     "rank": 4,
@@ -12091,6 +12799,12 @@
     "name": "Moongleam Sapling",
     "rank": 4,
     "icon": "UI_ItemIcon_200908",
+    "type": "Fishing Rod"
+  },
+  "200909": {
+    "name": "Scepter of the Snow Angler King",
+    "rank": 4,
+    "icon": "UI_ItemIcon_200909",
     "type": "Fishing Rod"
   },
   "220003": {
@@ -12394,7 +13108,7 @@
     "type": "Gadget"
   },
   "220068": {
-    "name": "",
+    "name": "(test)赤沙石板",
     "rank": 0,
     "icon": "UI_ItemIcon_220068",
     "type": "Gadget"
@@ -12759,10 +13473,28 @@
     "icon": "UI_ItemIcon_220132",
     "type": "Gadget"
   },
+  "220133": {
+    "name": "Eye of Graeae",
+    "rank": 4,
+    "icon": "UI_ItemIcon_220133",
+    "type": "Gadget"
+  },
   "220134": {
     "name": "Witch's Revelation Case",
     "rank": 5,
     "icon": "UI_ItemIcon_220134",
+    "type": "Gadget"
+  },
+  "220135": {
+    "name": "MAAN-Kamera",
+    "rank": 4,
+    "icon": "UI_ItemIcon_220094",
+    "type": "Gadget"
+  },
+  "220136": {
+    "name": "Cryo Treasure Compass",
+    "rank": 4,
+    "icon": "UI_ItemIcon_220136",
     "type": "Gadget"
   }
 }

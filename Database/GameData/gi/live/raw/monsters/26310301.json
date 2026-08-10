@@ -1,0 +1,116 @@
+{
+  "name": "Chimeric Winged Elephant",
+  "desc": "A product of bio-alchemy that was once widespread across the frozen lands, an aberrant chimeric monster.\\nA short-legged elephant with wings could likely migrate without being restricted by terrain, and would also be able to reach fruit growing in higher places.\\nFor that purpose alone, its creator brought such a beast into being. Later, during the war against the dark tide, Chimeric Winged Elephants worked alongside the Vila in intelligence and communications, ensuring that the Belyi Tsar's commands could pass smoothly and swiftly as his army advanced.",
+  "icon": "UI_MonsterIcon_Chimera_ElephantBird",
+  "codex": "BEAST",
+  "title": "Patchwork Beast",
+  "special_names": [
+    "Chimeric Winged Elephant"
+  ],
+  "reward": [
+    {
+      "id": 202,
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    {
+      "id": 112151,
+      "rank": 3,
+      "icon": "UI_ItemIcon_112151"
+    },
+    {
+      "id": 112150,
+      "rank": 2,
+      "icon": "UI_ItemIcon_112150"
+    },
+    {
+      "id": 112149,
+      "rank": 1,
+      "icon": "UI_ItemIcon_112149"
+    }
+  ],
+  "child": {
+    "26310301": {
+      "monster_name": "Monster_Chimera_ElephantBird",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "kill_drop_id": 22010015,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.2,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 27.168,
+        "atk": 30.144,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "26310302": {
+      "monster_name": "Monster_Chimera_ElephantBird_Tps",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "kill_drop_id": 0,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.2,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 5.486268,
+        "atk": 54.069954,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

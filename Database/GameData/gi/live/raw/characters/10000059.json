@@ -3132,7 +3132,7 @@
     {
       "id": 592101,
       "name": "Paradoxical Practice",
-      "desc": "When Shikanoin Heizou activates a Swirl reaction while on the field, he will gain 1 Declension stack for <color=#FFD780FF>Heartstopper Strike</color>. This effect can be triggered once every 0.1s.",
+      "desc": "When Shikanoin Heizou activates a Swirl or Stellar Swirl reaction while on the field, he will gain 1 Declension stack for <color=#FFD780FF>Heartstopper Strike</color>. This effect can be triggered once every 0.1s.",
       "icon": "UI_Talent_S_Heizo_05",
       "unlock": 1,
       "param_list": [
@@ -4323,21 +4323,6 @@
         "tag": "FallingAttack",
         "group": "default"
       },
-      "poise": {
-        "level": "LV2",
-        "value": 5
-      },
-      "element": "Wind",
-      "attack_type": "Default",
-      "strike_type": "Default",
-      "damage_param": "Heizo_FallingAnthem_Normal_Loop_Damage"
-    },
-    {
-      "name": "FallingAnthem",
-      "icd": {
-        "tag": "FallingAttack",
-        "group": "default"
-      },
       "gauge": 1,
       "poise": {
         "level": "LV3",
@@ -4363,6 +4348,21 @@
       "attack_type": "Default",
       "strike_type": "Default",
       "damage_param": "Heizo_FallingAnthem_Normal_Rank_2_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 5
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "Heizo_FallingAnthem_Normal_Loop_Damage"
     }
   ],
   "energy": [

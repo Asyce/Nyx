@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T18:13:26.697Z",
+  "generatedAt": "2026-08-10T23:59:13.371Z",
   "policy": "Every generated Database row is counted. Released rows remain visible when art or description is missing; only rows with no usable localized display name or proven internal/test provenance are quarantined.",
   "coverage": {
     "before": {
@@ -9,8 +9,8 @@
         "special"
       ],
       "summaryCount": 25,
-      "missingArtCount": 756,
-      "quarantinedCount": 574
+      "missingArtCount": 800,
+      "quarantinedCount": 492
     },
     "after": {
       "scopes": [
@@ -19,9 +19,9 @@
         "special"
       ],
       "summaryCount": 25,
-      "missingArtCount": 756,
-      "quarantinedCount": 574,
-      "intentionalFallbackCount": 756,
+      "missingArtCount": 800,
+      "quarantinedCount": 492,
+      "intentionalFallbackCount": 800,
       "displayArtMissingCount": 0
     }
   },
@@ -29,24 +29,24 @@
     {
       "game": "gi",
       "collection": "monsters",
-      "sourceCount": 547,
-      "normalizedCount": 547,
+      "sourceCount": 584,
+      "normalizedCount": 584,
       "quarantinedCount": 0,
-      "approvedSourceCount": 547,
-      "generatedCount": 547,
-      "localArtCount": 547,
+      "approvedSourceCount": 584,
+      "generatedCount": 584,
+      "localArtCount": 584,
       "missingArtCount": 0
     },
     {
       "game": "gi",
       "collection": "items",
-      "sourceCount": 10003,
-      "normalizedCount": 10003,
-      "quarantinedCount": 282,
-      "approvedSourceCount": 9721,
-      "generatedCount": 9721,
-      "localArtCount": 9480,
-      "missingArtCount": 241
+      "sourceCount": 10404,
+      "normalizedCount": 10404,
+      "quarantinedCount": 200,
+      "approvedSourceCount": 10204,
+      "generatedCount": 10204,
+      "localArtCount": 9930,
+      "missingArtCount": 274
     },
     {
       "game": "hsr",
@@ -118,25 +118,25 @@
       "scope": "inline",
       "game": "gi",
       "collection": "artifacts",
-      "sourceCount": 63,
-      "normalizedCount": 63,
+      "sourceCount": 65,
+      "normalizedCount": 65,
       "quarantinedCount": 0,
-      "approvedSourceCount": 63,
-      "generatedCount": 63,
-      "localArtCount": 61,
+      "approvedSourceCount": 65,
+      "generatedCount": 65,
+      "localArtCount": 63,
       "missingArtCount": 2
     },
     {
       "scope": "inline",
       "game": "gi",
       "collection": "weapons",
-      "sourceCount": 247,
-      "normalizedCount": 247,
+      "sourceCount": 278,
+      "normalizedCount": 278,
       "quarantinedCount": 0,
-      "approvedSourceCount": 247,
-      "generatedCount": 247,
-      "localArtCount": 236,
-      "missingArtCount": 11
+      "approvedSourceCount": 278,
+      "generatedCount": 278,
+      "localArtCount": 256,
+      "missingArtCount": 22
     },
     {
       "scope": "inline",
@@ -319,7 +319,7 @@
       "missingArtCount": 74
     }
   ],
-  "missingArtCount": 756,
+  "missingArtCount": 800,
   "records": [
     {
       "scope": "inline",
@@ -2200,6 +2200,18 @@
     {
       "game": "gi",
       "collection": "items",
+      "recordId": "165",
+      "name": "（test）勤务点",
+      "releaseStatus": "live",
+      "sourceIconField": null,
+      "sourceUrl": null,
+      "localDestination": null,
+      "result": "no-approved-source-icon",
+      "reason": "The released source record does not name an icon, so no filename or URL was guessed."
+    },
+    {
+      "game": "gi",
+      "collection": "items",
       "recordId": "192",
       "name": "Sightseeing Experience",
       "releaseStatus": "live",
@@ -2208,6 +2220,21 @@
       "localDestination": null,
       "result": "no-approved-source-icon",
       "reason": "The released source record does not name an icon, so no filename or URL was guessed."
+    },
+    {
+      "game": "gi",
+      "collection": "items",
+      "recordId": "205",
+      "name": "幸运牌币（废弃）",
+      "releaseStatus": "live",
+      "sourceIconField": {
+        "field": "icon",
+        "value": "UI_GcgIcon_CardCurrency"
+      },
+      "sourceUrl": "https://static.nanoka.cc/assets/gi/UI_GcgIcon_CardCurrency.webp",
+      "localDestination": "GameData/gi/assets/items/UI_GcgIcon_CardCurrency.webp",
+      "result": "unavailable",
+      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
     },
     {
       "game": "gi",
@@ -2601,6 +2628,36 @@
       "collection": "items",
       "recordId": "2034",
       "name": "Large Magnetic Energy Orb",
+      "releaseStatus": "live",
+      "sourceIconField": {
+        "field": "icon",
+        "value": "UI_ItemIcon_2020"
+      },
+      "sourceUrl": "https://static.nanoka.cc/assets/gi/UI_ItemIcon_2020.webp",
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_2020.webp",
+      "result": "unavailable",
+      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
+    },
+    {
+      "game": "gi",
+      "collection": "items",
+      "recordId": "2035",
+      "name": "Snezhnayan Power Energy Orb",
+      "releaseStatus": "live",
+      "sourceIconField": {
+        "field": "icon",
+        "value": "UI_ItemIcon_2020"
+      },
+      "sourceUrl": "https://static.nanoka.cc/assets/gi/UI_ItemIcon_2020.webp",
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_2020.webp",
+      "result": "unavailable",
+      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
+    },
+    {
+      "game": "gi",
+      "collection": "items",
+      "recordId": "2036",
+      "name": "Snezhnayan Material Energy Orb",
       "releaseStatus": "live",
       "sourceIconField": {
         "field": "icon",
@@ -3292,6 +3349,21 @@
     {
       "game": "gi",
       "collection": "items",
+      "recordId": "101306",
+      "name": "（test）能量木材",
+      "releaseStatus": "live",
+      "sourceIconField": {
+        "field": "icon",
+        "value": "UI_ItemIcon_101306"
+      },
+      "sourceUrl": "https://static.nanoka.cc/assets/gi/UI_ItemIcon_101306.webp",
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_101306.webp",
+      "result": "unavailable",
+      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
+    },
+    {
+      "game": "gi",
+      "collection": "items",
       "recordId": "101590",
       "name": "Scrawled Treasure Map",
       "releaseStatus": "live",
@@ -3835,6 +3907,21 @@
       },
       "sourceUrl": "https://static.nanoka.cc/assets/gi/UI_ItemIcon_120481.webp",
       "localDestination": "GameData/gi/assets/items/UI_ItemIcon_120481.webp",
+      "result": "unavailable",
+      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
+    },
+    {
+      "game": "gi",
+      "collection": "items",
+      "recordId": "120482",
+      "name": "（test）阅读物",
+      "releaseStatus": "live",
+      "sourceIconField": {
+        "field": "icon",
+        "value": "UI_ItemIcon_120482"
+      },
+      "sourceUrl": "https://static.nanoka.cc/assets/gi/UI_ItemIcon_120482.webp",
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_120482.webp",
       "result": "unavailable",
       "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
     },
@@ -4951,6 +5038,411 @@
     {
       "game": "gi",
       "collection": "items",
+      "recordId": "121567",
+      "name": "Unnamed Potion Formula",
+      "releaseStatus": "live",
+      "sourceIconField": {
+        "field": "icon",
+        "value": "UI_ItemIcon_121564"
+      },
+      "sourceUrl": "https://static.nanoka.cc/assets/gi/UI_ItemIcon_121564.webp",
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_121564.webp",
+      "result": "unavailable",
+      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
+    },
+    {
+      "game": "gi",
+      "collection": "items",
+      "recordId": "121568",
+      "name": "Notes by a Certain Noble Individual (I)",
+      "releaseStatus": "live",
+      "sourceIconField": {
+        "field": "icon",
+        "value": "UI_ItemIcon_121564"
+      },
+      "sourceUrl": "https://static.nanoka.cc/assets/gi/UI_ItemIcon_121564.webp",
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_121564.webp",
+      "result": "unavailable",
+      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
+    },
+    {
+      "game": "gi",
+      "collection": "items",
+      "recordId": "121569",
+      "name": "Notes by a Certain Noble Individual (II)",
+      "releaseStatus": "live",
+      "sourceIconField": {
+        "field": "icon",
+        "value": "UI_ItemIcon_121564"
+      },
+      "sourceUrl": "https://static.nanoka.cc/assets/gi/UI_ItemIcon_121564.webp",
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_121564.webp",
+      "result": "unavailable",
+      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
+    },
+    {
+      "game": "gi",
+      "collection": "items",
+      "recordId": "121570",
+      "name": "Notes by a Certain Noble Individual (III)",
+      "releaseStatus": "live",
+      "sourceIconField": {
+        "field": "icon",
+        "value": "UI_ItemIcon_121564"
+      },
+      "sourceUrl": "https://static.nanoka.cc/assets/gi/UI_ItemIcon_121564.webp",
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_121564.webp",
+      "result": "unavailable",
+      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
+    },
+    {
+      "game": "gi",
+      "collection": "items",
+      "recordId": "121571",
+      "name": "Notes by a Certain Noble Individual (IV)",
+      "releaseStatus": "live",
+      "sourceIconField": {
+        "field": "icon",
+        "value": "UI_ItemIcon_121564"
+      },
+      "sourceUrl": "https://static.nanoka.cc/assets/gi/UI_ItemIcon_121564.webp",
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_121564.webp",
+      "result": "unavailable",
+      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
+    },
+    {
+      "game": "gi",
+      "collection": "items",
+      "recordId": "121572",
+      "name": "Notes by a Certain Noble Individual (V)",
+      "releaseStatus": "live",
+      "sourceIconField": {
+        "field": "icon",
+        "value": "UI_ItemIcon_121564"
+      },
+      "sourceUrl": "https://static.nanoka.cc/assets/gi/UI_ItemIcon_121564.webp",
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_121564.webp",
+      "result": "unavailable",
+      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
+    },
+    {
+      "game": "gi",
+      "collection": "items",
+      "recordId": "121573",
+      "name": "Notes by a Certain Noble Individual (VI)",
+      "releaseStatus": "live",
+      "sourceIconField": {
+        "field": "icon",
+        "value": "UI_ItemIcon_121564"
+      },
+      "sourceUrl": "https://static.nanoka.cc/assets/gi/UI_ItemIcon_121564.webp",
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_121564.webp",
+      "result": "unavailable",
+      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
+    },
+    {
+      "game": "gi",
+      "collection": "items",
+      "recordId": "121612",
+      "name": "Gang Member's Forgotten Key",
+      "releaseStatus": "live",
+      "sourceIconField": {
+        "field": "icon",
+        "value": "UI_ItemIcon_121612"
+      },
+      "sourceUrl": "https://static.nanoka.cc/assets/gi/UI_ItemIcon_121612.webp",
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_121612.webp",
+      "result": "unavailable",
+      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
+    },
+    {
+      "game": "gi",
+      "collection": "items",
+      "recordId": "121613",
+      "name": "Smelted Kristall Ore",
+      "releaseStatus": "live",
+      "sourceIconField": {
+        "field": "icon",
+        "value": "UI_ItemIcon_121613"
+      },
+      "sourceUrl": "https://static.nanoka.cc/assets/gi/UI_ItemIcon_121613.webp",
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_121613.webp",
+      "result": "unavailable",
+      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
+    },
+    {
+      "game": "gi",
+      "collection": "items",
+      "recordId": "121614",
+      "name": "Sewer Entrance/Exit Guide",
+      "releaseStatus": "live",
+      "sourceIconField": {
+        "field": "icon",
+        "value": "UI_ItemIcon_121614"
+      },
+      "sourceUrl": "https://static.nanoka.cc/assets/gi/UI_ItemIcon_121614.webp",
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_121614.webp",
+      "result": "unavailable",
+      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
+    },
+    {
+      "game": "gi",
+      "collection": "items",
+      "recordId": "121637",
+      "name": "Snow-Swan Feather",
+      "releaseStatus": "live",
+      "sourceIconField": {
+        "field": "icon",
+        "value": "UI_ItemIcon_121637"
+      },
+      "sourceUrl": "https://static.nanoka.cc/assets/gi/UI_ItemIcon_121637.webp",
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_121637.webp",
+      "result": "unavailable",
+      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
+    },
+    {
+      "game": "gi",
+      "collection": "items",
+      "recordId": "121638",
+      "name": "Tide-Song Iceflower",
+      "releaseStatus": "live",
+      "sourceIconField": {
+        "field": "icon",
+        "value": "UI_ItemIcon_121638"
+      },
+      "sourceUrl": "https://static.nanoka.cc/assets/gi/UI_ItemIcon_121638.webp",
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_121638.webp",
+      "result": "unavailable",
+      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
+    },
+    {
+      "game": "gi",
+      "collection": "items",
+      "recordId": "121643",
+      "name": "Stalker Hood",
+      "releaseStatus": "live",
+      "sourceIconField": {
+        "field": "icon",
+        "value": "UI_ItemIcon_121643"
+      },
+      "sourceUrl": "https://static.nanoka.cc/assets/gi/UI_ItemIcon_121643.webp",
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_121643.webp",
+      "result": "unavailable",
+      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
+    },
+    {
+      "game": "gi",
+      "collection": "items",
+      "recordId": "121650",
+      "name": "Order Illustration",
+      "releaseStatus": "live",
+      "sourceIconField": {
+        "field": "icon",
+        "value": "UI_ItemIcon_121630"
+      },
+      "sourceUrl": "https://static.nanoka.cc/assets/gi/UI_ItemIcon_121630.webp",
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_121630.webp",
+      "result": "unavailable",
+      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
+    },
+    {
+      "game": "gi",
+      "collection": "items",
+      "recordId": "121651",
+      "name": "Order Illustration",
+      "releaseStatus": "live",
+      "sourceIconField": {
+        "field": "icon",
+        "value": "UI_ItemIcon_121630"
+      },
+      "sourceUrl": "https://static.nanoka.cc/assets/gi/UI_ItemIcon_121630.webp",
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_121630.webp",
+      "result": "unavailable",
+      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
+    },
+    {
+      "game": "gi",
+      "collection": "items",
+      "recordId": "121652",
+      "name": "Train Decoration Guide",
+      "releaseStatus": "live",
+      "sourceIconField": {
+        "field": "icon",
+        "value": "UI_ItemIcon_121652"
+      },
+      "sourceUrl": "https://static.nanoka.cc/assets/gi/UI_ItemIcon_121652.webp",
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_121652.webp",
+      "result": "unavailable",
+      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
+    },
+    {
+      "game": "gi",
+      "collection": "items",
+      "recordId": "121653",
+      "name": "Black Snow Swan Archive",
+      "releaseStatus": "live",
+      "sourceIconField": {
+        "field": "icon",
+        "value": "UI_ItemIcon_121653"
+      },
+      "sourceUrl": "https://static.nanoka.cc/assets/gi/UI_ItemIcon_121653.webp",
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_121653.webp",
+      "result": "unavailable",
+      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
+    },
+    {
+      "game": "gi",
+      "collection": "items",
+      "recordId": "121654",
+      "name": "Odette's Performance Photo",
+      "releaseStatus": "live",
+      "sourceIconField": {
+        "field": "icon",
+        "value": "UI_ItemIcon_121654"
+      },
+      "sourceUrl": "https://static.nanoka.cc/assets/gi/UI_ItemIcon_121654.webp",
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_121654.webp",
+      "result": "unavailable",
+      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
+    },
+    {
+      "game": "gi",
+      "collection": "items",
+      "recordId": "121655",
+      "name": "Autographed Black Snow Swan Poster",
+      "releaseStatus": "live",
+      "sourceIconField": {
+        "field": "icon",
+        "value": "UI_ItemIcon_121655"
+      },
+      "sourceUrl": "https://static.nanoka.cc/assets/gi/UI_ItemIcon_121655.webp",
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_121655.webp",
+      "result": "unavailable",
+      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
+    },
+    {
+      "game": "gi",
+      "collection": "items",
+      "recordId": "121656",
+      "name": "White Feather Bookmark",
+      "releaseStatus": "live",
+      "sourceIconField": {
+        "field": "icon",
+        "value": "UI_ItemIcon_121656"
+      },
+      "sourceUrl": "https://static.nanoka.cc/assets/gi/UI_ItemIcon_121656.webp",
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_121656.webp",
+      "result": "unavailable",
+      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
+    },
+    {
+      "game": "gi",
+      "collection": "items",
+      "recordId": "121663",
+      "name": "\"Spirit Seeker\" Preview Commemorative Photo",
+      "releaseStatus": "live",
+      "sourceIconField": {
+        "field": "icon",
+        "value": "UI_ItemIcon_121663"
+      },
+      "sourceUrl": "https://static.nanoka.cc/assets/gi/UI_ItemIcon_121663.webp",
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_121663.webp",
+      "result": "unavailable",
+      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
+    },
+    {
+      "game": "gi",
+      "collection": "items",
+      "recordId": "121675",
+      "name": "Polestar Ballet Anthology (I)",
+      "releaseStatus": "live",
+      "sourceIconField": {
+        "field": "icon",
+        "value": "UI_ItemIcon_121675"
+      },
+      "sourceUrl": "https://static.nanoka.cc/assets/gi/UI_ItemIcon_121675.webp",
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_121675.webp",
+      "result": "unavailable",
+      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
+    },
+    {
+      "game": "gi",
+      "collection": "items",
+      "recordId": "121676",
+      "name": "Polestar Ballet Anthology (II)",
+      "releaseStatus": "live",
+      "sourceIconField": {
+        "field": "icon",
+        "value": "UI_ItemIcon_121675"
+      },
+      "sourceUrl": "https://static.nanoka.cc/assets/gi/UI_ItemIcon_121675.webp",
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_121675.webp",
+      "result": "unavailable",
+      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
+    },
+    {
+      "game": "gi",
+      "collection": "items",
+      "recordId": "121677",
+      "name": "Polestar Ballet Anthology (III)",
+      "releaseStatus": "live",
+      "sourceIconField": {
+        "field": "icon",
+        "value": "UI_ItemIcon_121675"
+      },
+      "sourceUrl": "https://static.nanoka.cc/assets/gi/UI_ItemIcon_121675.webp",
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_121675.webp",
+      "result": "unavailable",
+      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
+    },
+    {
+      "game": "gi",
+      "collection": "items",
+      "recordId": "121678",
+      "name": "Polestar Ballet Anthology (IV)",
+      "releaseStatus": "live",
+      "sourceIconField": {
+        "field": "icon",
+        "value": "UI_ItemIcon_121675"
+      },
+      "sourceUrl": "https://static.nanoka.cc/assets/gi/UI_ItemIcon_121675.webp",
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_121675.webp",
+      "result": "unavailable",
+      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
+    },
+    {
+      "game": "gi",
+      "collection": "items",
+      "recordId": "121679",
+      "name": "General History of Snezhnaya (I)",
+      "releaseStatus": "live",
+      "sourceIconField": {
+        "field": "icon",
+        "value": "UI_ItemIcon_121680"
+      },
+      "sourceUrl": "https://static.nanoka.cc/assets/gi/UI_ItemIcon_121680.webp",
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_121680.webp",
+      "result": "unavailable",
+      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
+    },
+    {
+      "game": "gi",
+      "collection": "items",
+      "recordId": "121680",
+      "name": "General History of Snezhnaya (II)",
+      "releaseStatus": "live",
+      "sourceIconField": {
+        "field": "icon",
+        "value": "UI_ItemIcon_121680"
+      },
+      "sourceUrl": "https://static.nanoka.cc/assets/gi/UI_ItemIcon_121680.webp",
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_121680.webp",
+      "result": "unavailable",
+      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
+    },
+    {
+      "game": "gi",
+      "collection": "items",
       "recordId": "220092",
       "name": "???",
       "releaseStatus": "live",
@@ -5762,6 +6254,19 @@
       "scope": "inline",
       "game": "gi",
       "collection": "weapons",
+      "recordId": "gi-wpn-224008",
+      "name": "Specialized Frag Crystals within the Shadow Realm",
+      "releaseStatus": "live",
+      "sourceIconField": null,
+      "sourceUrl": null,
+      "localDestination": null,
+      "result": "no-local-art-reference",
+      "reason": "The released generated record has no usable local art reference and no approved source URL or filename was available; the record remains visible with a neutral fallback."
+    },
+    {
+      "scope": "inline",
+      "game": "gi",
+      "collection": "weapons",
       "recordId": "gi-wpn-310001",
       "name": "Serpent Devourer",
       "releaseStatus": "live",
@@ -5777,6 +6282,32 @@
       "collection": "weapons",
       "recordId": "gi-wpn-310002",
       "name": "Serpent Devourer - Sublimation",
+      "releaseStatus": "live",
+      "sourceIconField": null,
+      "sourceUrl": null,
+      "localDestination": null,
+      "result": "no-local-art-reference",
+      "reason": "The released generated record has no usable local art reference and no approved source URL or filename was available; the record remains visible with a neutral fallback."
+    },
+    {
+      "scope": "inline",
+      "game": "gi",
+      "collection": "weapons",
+      "recordId": "gi-wpn-310003",
+      "name": "Golden Bough of Nemorensis",
+      "releaseStatus": "live",
+      "sourceIconField": null,
+      "sourceUrl": null,
+      "localDestination": null,
+      "result": "no-local-art-reference",
+      "reason": "The released generated record has no usable local art reference and no approved source URL or filename was available; the record remains visible with a neutral fallback."
+    },
+    {
+      "scope": "inline",
+      "game": "gi",
+      "collection": "weapons",
+      "recordId": "gi-wpn-310004",
+      "name": "Golden Bough of Nemorensis - Sublimation",
       "releaseStatus": "live",
       "sourceIconField": null,
       "sourceUrl": null,
@@ -5814,6 +6345,32 @@
       "scope": "inline",
       "game": "gi",
       "collection": "weapons",
+      "recordId": "gi-wpn-320003",
+      "name": "Silver Radiance of Gradlon",
+      "releaseStatus": "live",
+      "sourceIconField": null,
+      "sourceUrl": null,
+      "localDestination": null,
+      "result": "no-local-art-reference",
+      "reason": "The released generated record has no usable local art reference and no approved source URL or filename was available; the record remains visible with a neutral fallback."
+    },
+    {
+      "scope": "inline",
+      "game": "gi",
+      "collection": "weapons",
+      "recordId": "gi-wpn-320004",
+      "name": "Silver Radiance of Gradlon - Sublimation",
+      "releaseStatus": "live",
+      "sourceIconField": null,
+      "sourceUrl": null,
+      "localDestination": null,
+      "result": "no-local-art-reference",
+      "reason": "The released generated record has no usable local art reference and no approved source URL or filename was available; the record remains visible with a neutral fallback."
+    },
+    {
+      "scope": "inline",
+      "game": "gi",
+      "collection": "weapons",
       "recordId": "gi-wpn-330001",
       "name": "Shattered Moon",
       "releaseStatus": "live",
@@ -5829,6 +6386,32 @@
       "collection": "weapons",
       "recordId": "gi-wpn-330002",
       "name": "Shattered Moon - Sublimation",
+      "releaseStatus": "live",
+      "sourceIconField": null,
+      "sourceUrl": null,
+      "localDestination": null,
+      "result": "no-local-art-reference",
+      "reason": "The released generated record has no usable local art reference and no approved source URL or filename was available; the record remains visible with a neutral fallback."
+    },
+    {
+      "scope": "inline",
+      "game": "gi",
+      "collection": "weapons",
+      "recordId": "gi-wpn-330003",
+      "name": "Starlight of Fylkir",
+      "releaseStatus": "live",
+      "sourceIconField": null,
+      "sourceUrl": null,
+      "localDestination": null,
+      "result": "no-local-art-reference",
+      "reason": "The released generated record has no usable local art reference and no approved source URL or filename was available; the record remains visible with a neutral fallback."
+    },
+    {
+      "scope": "inline",
+      "game": "gi",
+      "collection": "weapons",
+      "recordId": "gi-wpn-330004",
+      "name": "Starlight of Fylkir - Sublimation",
       "releaseStatus": "live",
       "sourceIconField": null,
       "sourceUrl": null,
@@ -5866,6 +6449,32 @@
       "scope": "inline",
       "game": "gi",
       "collection": "weapons",
+      "recordId": "gi-wpn-340003",
+      "name": "Dawnstar of Shahar",
+      "releaseStatus": "live",
+      "sourceIconField": null,
+      "sourceUrl": null,
+      "localDestination": null,
+      "result": "no-local-art-reference",
+      "reason": "The released generated record has no usable local art reference and no approved source URL or filename was available; the record remains visible with a neutral fallback."
+    },
+    {
+      "scope": "inline",
+      "game": "gi",
+      "collection": "weapons",
+      "recordId": "gi-wpn-340004",
+      "name": "Dawnstar of Shahar - Sublimation",
+      "releaseStatus": "live",
+      "sourceIconField": null,
+      "sourceUrl": null,
+      "localDestination": null,
+      "result": "no-local-art-reference",
+      "reason": "The released generated record has no usable local art reference and no approved source URL or filename was available; the record remains visible with a neutral fallback."
+    },
+    {
+      "scope": "inline",
+      "game": "gi",
+      "collection": "weapons",
       "recordId": "gi-wpn-350001",
       "name": "Starpiercer",
       "releaseStatus": "live",
@@ -5881,6 +6490,32 @@
       "collection": "weapons",
       "recordId": "gi-wpn-350002",
       "name": "Starpiercer - Sublimation",
+      "releaseStatus": "live",
+      "sourceIconField": null,
+      "sourceUrl": null,
+      "localDestination": null,
+      "result": "no-local-art-reference",
+      "reason": "The released generated record has no usable local art reference and no approved source URL or filename was available; the record remains visible with a neutral fallback."
+    },
+    {
+      "scope": "inline",
+      "game": "gi",
+      "collection": "weapons",
+      "recordId": "gi-wpn-350003",
+      "name": "Yayu",
+      "releaseStatus": "live",
+      "sourceIconField": null,
+      "sourceUrl": null,
+      "localDestination": null,
+      "result": "no-local-art-reference",
+      "reason": "The released generated record has no usable local art reference and no approved source URL or filename was available; the record remains visible with a neutral fallback."
+    },
+    {
+      "scope": "inline",
+      "game": "gi",
+      "collection": "weapons",
+      "recordId": "gi-wpn-350004",
+      "name": "Yayu - Sublimation",
       "releaseStatus": "live",
       "sourceIconField": null,
       "sourceUrl": null,
@@ -10721,14 +11356,14 @@
       "reason": "The released generated record has no usable local art reference and no approved source URL or filename was available; the record remains visible with a neutral fallback."
     }
   ],
-  "quarantinedCount": 574,
+  "quarantinedCount": 492,
   "quarantinedRecords": [
     {
       "game": "gi",
       "collection": "items",
       "recordId": "108",
-      "name": "108",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)天体推演",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_108"
@@ -10736,34 +11371,7 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "165",
-      "name": "165",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": null,
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "205",
-      "name": "205",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_GcgIcon_CardCurrency"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
@@ -11231,8 +11839,8 @@
       "game": "gi",
       "collection": "items",
       "recordId": "100371",
-      "name": "100371",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)神州折戟录的回忆二",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_100214"
@@ -11240,14 +11848,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "100372",
-      "name": "100372",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)神州折戟录的回忆三",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_100214"
@@ -11255,14 +11863,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "100375",
-      "name": "100375",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)千里寻父录的回忆三",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_100214"
@@ -11270,14 +11878,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "100397",
-      "name": "100397",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)海盗的传说",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_100214"
@@ -11285,14 +11893,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "100420",
-      "name": "100420",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)畅畅的日记2",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_100214"
@@ -11300,14 +11908,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "100421",
-      "name": "100421",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)旅行家的日记2",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_100214"
@@ -11315,14 +11923,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "100422",
-      "name": "100422",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)海盗的传说2",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_100214"
@@ -11330,14 +11938,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "100423",
-      "name": "100423",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)畅畅的日记3",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_100214"
@@ -11345,14 +11953,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "100424",
-      "name": "100424",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)旅行家的日记3",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_100214"
@@ -11360,14 +11968,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "100425",
-      "name": "100425",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)海盗的传说3",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_100214"
@@ -11375,14 +11983,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "100468",
-      "name": "100468",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)盗宝团情报笔记",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_100214"
@@ -11390,14 +11998,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "100470",
-      "name": "100470",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)艾拉·马斯克的诗歌翻译",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_100229"
@@ -11405,14 +12013,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "100471",
-      "name": "100471",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)优美的丘丘语抒情诗",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_100112"
@@ -11420,44 +12028,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "100526",
-      "name": "100526",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_100030"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "100527",
-      "name": "100527",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_100030"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "100581",
-      "name": "100581",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)礼物盒",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_100581"
@@ -11465,14 +12043,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "100582",
-      "name": "100582",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)布娃娃",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_100582"
@@ -11480,29 +12058,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "100616",
-      "name": "100616",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_100616"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "100668",
-      "name": "100668",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)搜集而来的碎片1",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_100457"
@@ -11510,14 +12073,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "100669",
-      "name": "100669",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)搜集而来的碎片2",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_100458"
@@ -11525,14 +12088,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "100670",
-      "name": "100670",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)搜集而来的碎片3",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_100459"
@@ -11540,14 +12103,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "100671",
-      "name": "100671",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)低温教学承接用物件",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_100625"
@@ -11555,14 +12118,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "100672",
-      "name": "100672",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)古代文献一残页",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_7170047"
@@ -11570,14 +12133,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "100673",
-      "name": "100673",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)古代文献二残页",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_7170047"
@@ -11585,14 +12148,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "100674",
-      "name": "100674",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)古代文献三残页",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_7170047"
@@ -11600,14 +12163,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "100675",
-      "name": "100675",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)古代文献四残页",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_7170047"
@@ -11615,14 +12178,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "100676",
-      "name": "100676",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)古代文献五残页",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_7170047"
@@ -11630,14 +12193,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "100677",
-      "name": "100677",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)古代文献六残页",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_7170047"
@@ -11645,14 +12208,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "100678",
-      "name": "100678",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)古代文献·天空的记忆",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_100411"
@@ -11660,14 +12223,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "100679",
-      "name": "100679",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)古代文献·大地的记忆",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_100411"
@@ -11675,14 +12238,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "100680",
-      "name": "100680",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)古代文献·王国的记忆",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_100411"
@@ -11690,119 +12253,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "100694",
-      "name": "100694",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_100309"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "100695",
-      "name": "100695",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_100316"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "100696",
-      "name": "100696",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_100171"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "100697",
-      "name": "100697",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_100172"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "100698",
-      "name": "100698",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_100105"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "100721",
-      "name": "100721",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_200001"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "100722",
-      "name": "100722",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_200002"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "100725",
-      "name": "100725",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)通用相片道具",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_100721"
@@ -11810,29 +12268,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "100773",
-      "name": "100773",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_100457"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "100834",
-      "name": "100834",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)雷樱大祓要略",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_100226"
@@ -11840,14 +12283,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "100847",
-      "name": "100847",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)残破的笔记上",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_100226"
@@ -11855,14 +12298,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "100848",
-      "name": "100848",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)残破的笔记下",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_100226"
@@ -11870,59 +12313,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "100860",
-      "name": "100860",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_100110"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "100887",
-      "name": "100887",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_100101"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "100888",
-      "name": "100888",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_100101"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "100906",
-      "name": "100906",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)带信封的信",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_100105"
@@ -11930,14 +12328,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "100915",
-      "name": "100915",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)破破烂烂的纸片",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_100789"
@@ -11945,82 +12343,7 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "100953",
-      "name": "100953",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_100302"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "100954",
-      "name": "100954",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_100302"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "100994",
-      "name": "100994",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_130015"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "101306",
-      "name": "101306",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_101306"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "101516",
-      "name": "101516",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_220018"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
@@ -12070,24 +12393,9 @@
     {
       "game": "gi",
       "collection": "items",
-      "recordId": "101574",
-      "name": "101574",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_100302"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
       "recordId": "101658",
-      "name": "101658",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)黑夜植物",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_100302"
@@ -12095,44 +12403,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "101689",
-      "name": "101689",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_101692"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "101713",
-      "name": "101713",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_101692"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "101761",
-      "name": "101761",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)方碑解谜笔记文本·其三",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_71700047"
@@ -12140,14 +12418,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "101762",
-      "name": "101762",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)方碑解谜笔记文本·其四",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_71700047"
@@ -12155,14 +12433,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "101763",
-      "name": "101763",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)方碑解谜笔记文本·其五",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_71700047"
@@ -12170,224 +12448,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "101777",
-      "name": "101777",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_100302"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "101778",
-      "name": "101778",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_100302"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "101783",
-      "name": "101783",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_108087"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "101784",
-      "name": "101784",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_108087"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "101785",
-      "name": "101785",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_108087"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "101786",
-      "name": "101786",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_108087"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "101787",
-      "name": "101787",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_108087"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "101788",
-      "name": "101788",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_108087"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "101789",
-      "name": "101789",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_108087"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "101790",
-      "name": "101790",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_108087"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "101791",
-      "name": "101791",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_108087"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "101792",
-      "name": "101792",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_108087"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "101793",
-      "name": "101793",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_108087"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "101794",
-      "name": "101794",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_108087"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "101810",
-      "name": "101810",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)恒素果2",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_101810"
@@ -12395,14 +12463,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "101831",
-      "name": "101831",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)兰那罗小花18",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_100770"
@@ -12410,29 +12478,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "101895",
-      "name": "101895",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_100302"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "101912",
-      "name": "101912",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)材料参照物",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_100101"
@@ -12440,29 +12493,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "101918",
-      "name": "101918",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_100302"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "101924",
-      "name": "101924",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)新鲜的材料2",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_100316"
@@ -12470,14 +12508,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "101986",
-      "name": "101986",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)黑乎乎的怪东西",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_101986"
@@ -12485,14 +12523,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "102009",
-      "name": "102009",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)记忆球[Cutscene]",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_101796"
@@ -12500,14 +12538,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "102010",
-      "name": "102010",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)记忆球[Group]",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_101796"
@@ -12515,14 +12553,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "102011",
-      "name": "102011",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)记忆球[Teleport]",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_101796"
@@ -12530,7 +12568,7 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
@@ -12566,8 +12604,8 @@
       "game": "gi",
       "collection": "items",
       "recordId": "115001",
-      "name": "115001",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)新手礼包",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_114001"
@@ -12575,14 +12613,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "115002",
-      "name": "115002",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)角色养成包一（全平台）",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_114002"
@@ -12590,14 +12628,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "115003",
-      "name": "115003",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)角色养成包二（IOS）",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_114003"
@@ -12605,14 +12643,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "115004",
-      "name": "115004",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)角色养成包三（Android）",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_114004"
@@ -12620,14 +12658,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "115005",
-      "name": "115005",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)武器养成包一（PS4）",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_114005"
@@ -12635,14 +12673,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "115006",
-      "name": "115006",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)武器养成包二（PC）",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_114006"
@@ -12650,14 +12688,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "115007",
-      "name": "115007",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)武器养成包三（PC，AN）",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_114007"
@@ -12665,14 +12703,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "115008",
-      "name": "115008",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)突破养成包一（IOS,PS4)",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_114008"
@@ -12680,14 +12718,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "115009",
-      "name": "115009",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)突破养成包二",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_114009"
@@ -12695,7 +12733,7 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
@@ -12716,8 +12754,8 @@
       "game": "gi",
       "collection": "items",
       "recordId": "116008",
-      "name": "116008",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)BP免费高级礼包",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_116008"
@@ -12725,14 +12763,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "116009",
-      "name": "116009",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)BP付费高级礼包",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_116009"
@@ -12740,14 +12778,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "120010",
-      "name": "120010",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)冒险地图",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_120010"
@@ -12755,149 +12793,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "120055",
-      "name": "120055",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_100101"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "120057",
-      "name": "120057",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_112059"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "120058",
-      "name": "120058",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_101219"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "120060",
-      "name": "120060",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_100101"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "120062",
-      "name": "120062",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_100101"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "120085",
-      "name": "120085",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_100105"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "120090",
-      "name": "120090",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_100105"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "120098",
-      "name": "120098",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_100302"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "120125",
-      "name": "120125",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_100003"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "120167",
-      "name": "120167",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)棋子流沙遗迹",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_100101"
@@ -12905,14 +12808,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "120168",
-      "name": "120168",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)棋子赤王之心",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_100101"
@@ -12920,14 +12823,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "120169",
-      "name": "120169",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)棋子显圣厅",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_100101"
@@ -12935,14 +12838,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "120170",
-      "name": "120170",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)棋子太阳船",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_100101"
@@ -12950,14 +12853,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "120171",
-      "name": "120171",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)棋子阿如村",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_100101"
@@ -12965,14 +12868,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "120172",
-      "name": "120172",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)棋子发条赤王之杯",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_100101"
@@ -12980,14 +12883,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "120173",
-      "name": "120173",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)棋子发条赤王陵",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_100101"
@@ -12995,14 +12898,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "120174",
-      "name": "120174",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)棋子发条流沙遗迹",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_100101"
@@ -13010,14 +12913,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "120175",
-      "name": "120175",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)棋子发条赤王之心",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_100101"
@@ -13025,14 +12928,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "120176",
-      "name": "120176",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)棋子发条显圣厅",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_100101"
@@ -13040,14 +12943,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "120177",
-      "name": "120177",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)棋子发条太阳船",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_100101"
@@ -13055,14 +12958,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "120178",
-      "name": "120178",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)棋子发条阿如村",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_100101"
@@ -13070,44 +12973,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "120222",
-      "name": "120222",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_101701"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "120256",
-      "name": "120256",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_120001"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "120289",
-      "name": "120289",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)密码本",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_120289"
@@ -13115,134 +12988,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "120326",
-      "name": "120326",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_120001"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "120328",
-      "name": "120328",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_120001"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "120329",
-      "name": "120329",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_120001"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "120330",
-      "name": "120330",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_120001"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "120331",
-      "name": "120331",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_120001"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "120332",
-      "name": "120332",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_120001"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "120333",
-      "name": "120333",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_120001"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "120334",
-      "name": "120334",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_120001"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "120341",
-      "name": "120341",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)剧本式书籍",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_120341"
@@ -13250,29 +13003,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "120375",
-      "name": "120375",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_120008"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "120380",
-      "name": "120380",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)银色的吊坠",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_120380"
@@ -13280,14 +13018,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "120381",
-      "name": "120381",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)坏掉的音乐盒",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_120381"
@@ -13295,14 +13033,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "120385",
-      "name": "120385",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)特殊的花蜜（废弃）",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_112038"
@@ -13310,14 +13048,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "120402",
-      "name": "120402",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)排队送信纸条",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_100229"
@@ -13325,59 +13063,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "120430",
-      "name": "120430",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_101814"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "120431",
-      "name": "120431",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_101814"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "120435",
-      "name": "120435",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_101104"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "120449",
-      "name": "120449",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)纯洁露珠",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_120449"
@@ -13385,14 +13078,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "120451",
-      "name": "120451",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)后山洞天植物样本",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_Icon_Item_Temp"
@@ -13400,14 +13093,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "120452",
-      "name": "120452",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)缠藤之渊植物样本",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_Icon_Item_Temp"
@@ -13415,14 +13108,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "120453",
-      "name": "120453",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)海马Boss洞植物样本",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_Icon_Item_Temp"
@@ -13430,29 +13123,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "120482",
-      "name": "120482",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_120482"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "120525",
-      "name": "120525",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)训练器材大礼包",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_Icon_Item_Temp"
@@ -13460,134 +13138,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "120533",
-      "name": "120533",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_120522"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "120534",
-      "name": "120534",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_120522"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "120535",
-      "name": "120535",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_120522"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "120539",
-      "name": "120539",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_120522"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "120541",
-      "name": "120541",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_120522"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "120542",
-      "name": "120542",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_120522"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "120543",
-      "name": "120543",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_120522"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "120551",
-      "name": "120551",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_120522"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "120552",
-      "name": "120552",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)锻造流程及问题自检",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_101629"
@@ -13595,14 +13153,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "120553",
-      "name": "120553",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)设施控制台使用手册",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_101629"
@@ -13610,14 +13168,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "120677",
-      "name": "120677",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)滨海废墟阅读物1",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_101629"
@@ -13625,14 +13183,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "120678",
-      "name": "120678",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)滨海废墟阅读物2",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_101629"
@@ -13640,14 +13198,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "120679",
-      "name": "120679",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)行政院阅读物1",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_101629"
@@ -13655,14 +13213,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "120680",
-      "name": "120680",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)行政院阅读物2",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_101629"
@@ -13670,14 +13228,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "120681",
-      "name": "120681",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)图书馆阅读物1",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_101629"
@@ -13685,14 +13243,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "120682",
-      "name": "120682",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)新枫科院阅读物1",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_101629"
@@ -13700,14 +13258,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "120683",
-      "name": "120683",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)新枫科院阅读物2",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_101629"
@@ -13715,14 +13273,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "120684",
-      "name": "120684",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)宿舍阅读物1",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_101629"
@@ -13730,14 +13288,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "120685",
-      "name": "120685",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)宿舍阅读物2",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_101629"
@@ -13745,14 +13303,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "120686",
-      "name": "120686",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)发条研究所阅读物1",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_101629"
@@ -13760,14 +13318,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "120687",
-      "name": "120687",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)发条研究所阅读物2",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_101629"
@@ -13775,14 +13333,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "120688",
-      "name": "120688",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)发条研究所阅读物3",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_101629"
@@ -13790,14 +13348,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "120689",
-      "name": "120689",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)富哥宝库阅读物1",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_101629"
@@ -13805,14 +13363,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "120690",
-      "name": "120690",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)富哥宝库阅读物2",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_101629"
@@ -13820,14 +13378,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "120691",
-      "name": "120691",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)富哥宝库阅读物3",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_101629"
@@ -13835,14 +13393,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "120692",
-      "name": "120692",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)丘丘科学广场阅读物1",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_101629"
@@ -13850,14 +13408,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "120693",
-      "name": "120693",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)丘丘科学广场阅读物2",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_101629"
@@ -13865,14 +13423,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "120694",
-      "name": "120694",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)丘丘科学广场阅读物3",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_101629"
@@ -13880,14 +13438,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "120695",
-      "name": "120695",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)后山洞天阅读物1",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_101629"
@@ -13895,14 +13453,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "120696",
-      "name": "120696",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)后山洞天阅读物2",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_101629"
@@ -13910,14 +13468,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "120697",
-      "name": "120697",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)新枫科院捐赠目录1",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_101629"
@@ -13925,14 +13483,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "120698",
-      "name": "120698",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)新枫科院捐赠目录2",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_101629"
@@ -13940,29 +13498,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "120727",
-      "name": "120727",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_100540"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "120736",
-      "name": "120736",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)机器人NPC头像",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_100302"
@@ -13970,14 +13513,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "120737",
-      "name": "120737",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)欧芙NPC头像",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_100302"
@@ -13985,14 +13528,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "120738",
-      "name": "120738",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)流浪汉NPC头像",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_100302"
@@ -14000,14 +13543,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "120739",
-      "name": "120739",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)小孩NPC头像",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_100302"
@@ -14015,14 +13558,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "120740",
-      "name": "120740",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)枫丹下线NPC头像",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_100302"
@@ -14030,14 +13573,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "120741",
-      "name": "120741",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)流浪汉NPC头像",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_100302"
@@ -14045,14 +13588,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "120742",
-      "name": "120742",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)落落莓NPC头像",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_100302"
@@ -14060,14 +13603,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "120743",
-      "name": "120743",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)成年男子和女子的合影",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_100302"
@@ -14075,179 +13618,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "120752",
-      "name": "120752",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_100302"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "120811",
-      "name": "120811",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_112025"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "120814",
-      "name": "120814",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_100302"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "120844",
-      "name": "120844",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_100302"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "120846",
-      "name": "120846",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_100302"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "120847",
-      "name": "120847",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_100302"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "120848",
-      "name": "120848",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_100302"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "120849",
-      "name": "120849",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_100302"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "120850",
-      "name": "120850",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_100302"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "120860",
-      "name": "120860",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_101629"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "120887",
-      "name": "120887",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_100302"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "120902",
-      "name": "120902",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)养育间阅读物8",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_100003"
@@ -14255,14 +13633,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "120903",
-      "name": "120903",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)养育间阅读物9",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_100003"
@@ -14270,14 +13648,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "120904",
-      "name": "120904",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)养育间阅读物10",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_100003"
@@ -14285,14 +13663,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "120905",
-      "name": "120905",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)养育间阅读物11",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_100003"
@@ -14300,14 +13678,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "120906",
-      "name": "120906",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)养育间阅读物12",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_100003"
@@ -14315,14 +13693,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "120907",
-      "name": "120907",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)养育间阅读物13",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_100003"
@@ -14330,14 +13708,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "120908",
-      "name": "120908",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)养育间阅读物14",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_100003"
@@ -14345,14 +13723,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "120909",
-      "name": "120909",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)养育间阅读物15",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_100003"
@@ -14360,14 +13738,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "120966",
-      "name": "120966",
-      "releaseStatus": "no-localized-display-name",
+      "name": "test 龙铭刻残片2",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_120477"
@@ -14375,14 +13753,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "120967",
-      "name": "120967",
-      "releaseStatus": "no-localized-display-name",
+      "name": "test 龙铭刻残片3",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_120477"
@@ -14390,14 +13768,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "120978",
-      "name": "120978",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)老大终点阅读物1",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_100302"
@@ -14405,14 +13783,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "120979",
-      "name": "120979",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)老大终点阅读物2",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_100003"
@@ -14420,14 +13798,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "120980",
-      "name": "120980",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)老二终点阅读物1",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_100302"
@@ -14435,14 +13813,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "120981",
-      "name": "120981",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)老二终点阅读物2",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_100302"
@@ -14450,14 +13828,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "120982",
-      "name": "120982",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)老三终点阅读物1",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_100003"
@@ -14465,14 +13843,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "120983",
-      "name": "120983",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)老三终点阅读物2",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_100302"
@@ -14480,59 +13858,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "120985",
-      "name": "120985",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_120985"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "121029",
-      "name": "121029",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_100101"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "121034",
-      "name": "121034",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_100101"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "121066",
-      "name": "121066",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)天空城火种",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_121066"
@@ -14540,14 +13873,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "121082",
-      "name": "121082",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test) 染血的羽毛",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_120280"
@@ -14555,14 +13888,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "121100",
-      "name": "121100",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)热气球靶标告示牌",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_100148"
@@ -14570,7 +13903,7 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
@@ -14591,8 +13924,8 @@
       "game": "gi",
       "collection": "items",
       "recordId": "121118",
-      "name": "121118",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)灰烬城恐龙蛋",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_121118"
@@ -14600,14 +13933,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "121174",
-      "name": "121174",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)瓦雷莎果园果蔬",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_100001"
@@ -14615,14 +13948,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "121239",
-      "name": "121239",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)和涂鸦灵一起抓的鱼",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_100084"
@@ -14630,14 +13963,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "121249",
-      "name": "121249",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)书信",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_100229"
@@ -14645,14 +13978,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "121273",
-      "name": "121273",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)1特训",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_121256"
@@ -14660,14 +13993,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "121274",
-      "name": "121274",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)2特训",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_121256"
@@ -14675,14 +14008,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "121275",
-      "name": "121275",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)3特训",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_121256"
@@ -14690,29 +14023,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "121336",
-      "name": "121336",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_121336"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "121342",
-      "name": "121342",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)丢失的书页·其二",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_121146"
@@ -14720,14 +14038,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "121343",
-      "name": "121343",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)丢失的书页·其三",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_121146"
@@ -14735,29 +14053,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "121348",
-      "name": "121348",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_121146"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "121349",
-      "name": "121349",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)灯内纸条",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_121146"
@@ -14765,14 +14068,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "121438",
-      "name": "121438",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)纪念铁钱",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_121146"
@@ -14780,14 +14083,29 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
+    },
+    {
+      "game": "gi",
+      "collection": "items",
+      "recordId": "121457",
+      "name": "(test)7.0白沙皇电梯门的钥匙",
+      "releaseStatus": "proven-internal-test",
+      "sourceIconField": {
+        "field": "icon",
+        "value": "UI_ItemIcon_101232"
+      },
+      "sourceUrl": null,
+      "localDestination": null,
+      "result": "quarantined",
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "121464",
-      "name": "121464",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)特殊的纸条",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_120477"
@@ -14795,7 +14113,22 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
+    },
+    {
+      "game": "gi",
+      "collection": "items",
+      "recordId": "121492",
+      "name": "(test)霜精村牢笼钥匙",
+      "releaseStatus": "proven-internal-test",
+      "sourceIconField": {
+        "field": "icon",
+        "value": "UI_ItemIcon_100302"
+      },
+      "sourceUrl": null,
+      "localDestination": null,
+      "result": "quarantined",
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
@@ -14815,9 +14148,54 @@
     {
       "game": "gi",
       "collection": "items",
+      "recordId": "121550",
+      "name": "(test)神秘的试剂",
+      "releaseStatus": "proven-internal-test",
+      "sourceIconField": {
+        "field": "icon",
+        "value": "UI_ItemIcon_100302"
+      },
+      "sourceUrl": null,
+      "localDestination": null,
+      "result": "quarantined",
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
+    },
+    {
+      "game": "gi",
+      "collection": "items",
+      "recordId": "121553",
+      "name": "(test)霜精帽",
+      "releaseStatus": "proven-internal-test",
+      "sourceIconField": {
+        "field": "icon",
+        "value": "UI_ItemIcon_100302"
+      },
+      "sourceUrl": null,
+      "localDestination": null,
+      "result": "quarantined",
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
+    },
+    {
+      "game": "gi",
+      "collection": "items",
+      "recordId": "121554",
+      "name": "(test)霜精村商店招牌碎片2",
+      "releaseStatus": "proven-internal-test",
+      "sourceIconField": {
+        "field": "icon",
+        "value": "UI_ItemIcon_100302"
+      },
+      "sourceUrl": null,
+      "localDestination": null,
+      "result": "quarantined",
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
+    },
+    {
+      "game": "gi",
+      "collection": "items",
       "recordId": "121577",
-      "name": "121577",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)6.6周本特殊掉落物4 废弃",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_121574"
@@ -14825,14 +14203,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "121578",
-      "name": "121578",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)6.6周本特殊掉落物5 废弃",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_121574"
@@ -14840,14 +14218,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "121579",
-      "name": "121579",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)6.6周本特殊掉落物6 废弃",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_121574"
@@ -14855,29 +14233,89 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
-      "recordId": "121595",
-      "name": "121595",
-      "releaseStatus": "no-localized-display-name",
+      "recordId": "121645",
+      "name": "(test)雪孃馆挂画",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
-        "value": "UI_ItemIcon_121595"
+        "value": "UI_ItemIcon_121630"
       },
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
+    },
+    {
+      "game": "gi",
+      "collection": "items",
+      "recordId": "121646",
+      "name": "(test)雪孃馆挂画",
+      "releaseStatus": "proven-internal-test",
+      "sourceIconField": {
+        "field": "icon",
+        "value": "UI_ItemIcon_121630"
+      },
+      "sourceUrl": null,
+      "localDestination": null,
+      "result": "quarantined",
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
+    },
+    {
+      "game": "gi",
+      "collection": "items",
+      "recordId": "121647",
+      "name": "(test)雪孃馆挂画",
+      "releaseStatus": "proven-internal-test",
+      "sourceIconField": {
+        "field": "icon",
+        "value": "UI_ItemIcon_121630"
+      },
+      "sourceUrl": null,
+      "localDestination": null,
+      "result": "quarantined",
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
+    },
+    {
+      "game": "gi",
+      "collection": "items",
+      "recordId": "121648",
+      "name": "(test)雪孃馆挂画",
+      "releaseStatus": "proven-internal-test",
+      "sourceIconField": {
+        "field": "icon",
+        "value": "UI_ItemIcon_121630"
+      },
+      "sourceUrl": null,
+      "localDestination": null,
+      "result": "quarantined",
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
+    },
+    {
+      "game": "gi",
+      "collection": "items",
+      "recordId": "121649",
+      "name": "(test)雪孃馆挂画",
+      "releaseStatus": "proven-internal-test",
+      "sourceIconField": {
+        "field": "icon",
+        "value": "UI_ItemIcon_121630"
+      },
+      "sourceUrl": null,
+      "localDestination": null,
+      "result": "quarantined",
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "220050",
-      "name": "220050",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)CD测试道具",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_220049"
@@ -14885,29 +14323,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "220054",
-      "name": "220054",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_220017"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "220068",
-      "name": "220068",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)赤沙石板",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_ItemIcon_220068"
@@ -14915,29 +14338,14 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "gi",
-      "collection": "items",
-      "recordId": "220081",
-      "name": "220081",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "UI_ItemIcon_220080"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "gi",
       "collection": "items",
       "recordId": "320001",
-      "name": "320001",
-      "releaseStatus": "no-localized-display-name",
+      "name": "(test)头像道具-测试用",
+      "releaseStatus": "proven-internal-test",
       "sourceIconField": {
         "field": "icon",
         "value": "UI_AvatarIcon_Ambor_Circle"
@@ -14945,7 +14353,7 @@
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+      "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
     },
     {
       "game": "hsr",
@@ -19121,6 +18529,6 @@
       "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
     }
   ],
-  "intentionalFallbackCount": 756,
+  "intentionalFallbackCount": 800,
   "displayArtMissingCount": 0
 }

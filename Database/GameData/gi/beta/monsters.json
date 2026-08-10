@@ -5778,7 +5778,7 @@
   },
   {
     "id": "20020101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Eye of the Storm",
     "type": "ELEMENTAL",
     "title": "Eye of the Storm",
@@ -5966,7 +5966,7 @@
       }
     },
     "liveComparison": {
-      "liveHash": "84bd74d1bb281ca3e48ce511e21e63d12c0f2b413bb217d1b7ff5b96e4997224",
+      "liveHash": "212b3df7bee27bd6edb9a6443c1da8b308fba4717af9c21aa55fa0ad5cb43be3",
       "currentHash": "212b3df7bee27bd6edb9a6443c1da8b308fba4717af9c21aa55fa0ad5cb43be3"
     }
   },
@@ -11454,7 +11454,7 @@
   },
   {
     "id": "21010101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Hilichurl",
     "type": "HILICHURL",
     "title": "Hilichurl",
@@ -12035,7 +12035,7 @@
       }
     },
     "liveComparison": {
-      "liveHash": "ca863e8e497feb60c042a57cd3bebb76945042b9621c86d8b8724fa9bc5d03b8",
+      "liveHash": "826799f87622648a7cfcbd467404053a2ea86d412c7fbc4b6b1a88a476737921",
       "currentHash": "826799f87622648a7cfcbd467404053a2ea86d412c7fbc4b6b1a88a476737921"
     }
   },
@@ -29166,7 +29166,7 @@
   },
   {
     "id": "23070101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Oprichniki Line Trooper",
     "type": "FATUI",
     "title": "Oprichniki",
@@ -29609,13 +29609,13 @@
       }
     },
     "liveComparison": {
-      "liveHash": "66e658a14eb8c3d322c9b06394b305cde56005f654f8999baa812a5f3894dfac",
+      "liveHash": "01164040c01f88c64d9fde7e0f186d0f7a13e6800a354a833e60b85d0c469b36",
       "currentHash": "01164040c01f88c64d9fde7e0f186d0f7a13e6800a354a833e60b85d0c469b36"
     }
   },
   {
     "id": "23072101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Oprichniki Support Trooper",
     "type": "FATUI",
     "title": "Oprichniki",
@@ -29771,13 +29771,13 @@
       }
     },
     "liveComparison": {
-      "liveHash": "19ab1a3bf2ae58d881bef0cb8c84346badef8f5c422d050cb8cb60832a3d276d",
+      "liveHash": "ed939dbe88bca4b092e3e8829916a5764fdf79040948412c4a78937399052acc",
       "currentHash": "ed939dbe88bca4b092e3e8829916a5764fdf79040948412c4a78937399052acc"
     }
   },
   {
     "id": "23073101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Oprichniki Grenadier",
     "type": "FATUI",
     "title": "Oprichniki",
@@ -29974,13 +29974,13 @@
       }
     },
     "liveComparison": {
-      "liveHash": "359a495ba9f2911af2167c0c9b476770b41f3707797f05495a212cc63a87ea9d",
+      "liveHash": "a104f36e8a2731cdb070fb0d82b0ed8f479faa663548a30896541fb0d49b2f72",
       "currentHash": "a104f36e8a2731cdb070fb0d82b0ed8f479faa663548a30896541fb0d49b2f72"
     }
   },
   {
     "id": "23074101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Oprichniki Vanguard",
     "type": "FATUI",
     "title": "Oprichniki",
@@ -30177,13 +30177,13 @@
       }
     },
     "liveComparison": {
-      "liveHash": "6a41c292f8662f9dc5c85d843b0b37a2bacbb10d3329a7890e1b9d45ecf93e46",
+      "liveHash": "610683077d5383e063bc5ff1cf19b83148b588d98cf6ac23898a78c6df1eddb8",
       "currentHash": "610683077d5383e063bc5ff1cf19b83148b588d98cf6ac23898a78c6df1eddb8"
     }
   },
   {
     "id": "23076101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Oprichniki Medic",
     "type": "FATUI",
     "title": "Oprichniki",
@@ -30421,13 +30421,13 @@
       }
     },
     "liveComparison": {
-      "liveHash": "5a6be0478eced1ffd24a496534f7e968a119691928b5174beb02b4fff1d2b8dd",
+      "liveHash": "8a2ec3b8866de3a98d757950b9954e0d153ce93c51fe3da75ba99612d996553a",
       "currentHash": "8a2ec3b8866de3a98d757950b9954e0d153ce93c51fe3da75ba99612d996553a"
     }
   },
   {
     "id": "23078101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Oprichniki Bombardier",
     "type": "FATUI",
     "title": "Oprichniki",
@@ -30624,13 +30624,13 @@
       }
     },
     "liveComparison": {
-      "liveHash": "07ec6fd112322ac9744d2a31ff9f6cbbb50dd55ceec1f2cecbb335e1abeae220",
+      "liveHash": "0e3f9976e720811b05d1a8223f3d578fd731115770a7692caa9cac6694a4f424",
       "currentHash": "0e3f9976e720811b05d1a8223f3d578fd731115770a7692caa9cac6694a4f424"
     }
   },
   {
     "id": "23079101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Oprichniki Fireblade Shock Trooper",
     "type": "FATUI",
     "title": "Oprichniki Fireblade Shock Trooper",
@@ -30927,13 +30927,13 @@
       }
     },
     "liveComparison": {
-      "liveHash": "d2792dada1726456ff406092daa0dfc6fb5f95ade46b0da2c1ac8644354e1350",
+      "liveHash": "83e052ce86d24bb1c265999f0966684ec9c327726c94ecce72c81bce9c5307ee",
       "currentHash": "83e052ce86d24bb1c265999f0966684ec9c327726c94ecce72c81bce9c5307ee"
     }
   },
   {
     "id": "23079201",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Oprichniki Hailstorm Cannoneer",
     "type": "FATUI",
     "title": "Oprichniki",
@@ -31189,13 +31189,13 @@
       }
     },
     "liveComparison": {
-      "liveHash": "43c276b24a073294cd80e5c9fb442849ee55b96b9999831cda3769e21abf6aa1",
+      "liveHash": "007f5cea381299a010b90c0d8077472b2d9734d2fd7f94896120f505af00b3c8",
       "currentHash": "007f5cea381299a010b90c0d8077472b2d9734d2fd7f94896120f505af00b3c8"
     }
   },
   {
     "id": "23079301",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Oprichniki Thunderblitz Gvardiya",
     "type": "FATUI",
     "title": "Oprichniki",
@@ -31451,13 +31451,13 @@
       }
     },
     "liveComparison": {
-      "liveHash": "bc2a64a3469abe325520d0e93285f0c7f267c85f2127a253ed9b87715d8c4343",
+      "liveHash": "f46fe1ebfdf6917800cbb7dd22b2483131ea9a38e3e233bb016e7b428229ce1d",
       "currentHash": "f46fe1ebfdf6917800cbb7dd22b2483131ea9a38e3e233bb016e7b428229ce1d"
     }
   },
   {
     "id": "23080101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Close Combat Storm Landcruiser",
     "type": "FATUI",
     "title": "Landcruiser",
@@ -31601,13 +31601,13 @@
       }
     },
     "liveComparison": {
-      "liveHash": "beb8e4b5d1d3a150e50bf79bfb6d85a1a194da3a97532314f1ee0844c80fc999",
+      "liveHash": "e0599fabb4663768e6270b88ae21e3063b07e164d4be968b7a5974e1cbadb744",
       "currentHash": "e0599fabb4663768e6270b88ae21e3063b07e164d4be968b7a5974e1cbadb744"
     }
   },
   {
     "id": "23080201",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Close Combat Scout Landcruiser",
     "type": "FATUI",
     "title": "Landcruiser",
@@ -31772,13 +31772,13 @@
       }
     },
     "liveComparison": {
-      "liveHash": "f16c7e2eef691c935a716ca33d5a04b3cb7f420e9eca74fba05367f56c2c871f",
+      "liveHash": "8b86142ba7873bcc2fad41fbf961c68feb522e04b5697739a4bbd2e67cc7d16b",
       "currentHash": "8b86142ba7873bcc2fad41fbf961c68feb522e04b5697739a4bbd2e67cc7d16b"
     }
   },
   {
     "id": "23080301",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Force Recon Storm Landcruiser",
     "type": "FATUI",
     "title": "Landcruiser",
@@ -31987,13 +31987,13 @@
       }
     },
     "liveComparison": {
-      "liveHash": "cc58624781e1389f274d148ee31f3f55d7a4b84b3421bffd900a33e8e3a04f49",
+      "liveHash": "a60d25f82b901bc0efef4af2924d38294ee8ce64b6fdc1f73a67780678e48464",
       "currentHash": "a60d25f82b901bc0efef4af2924d38294ee8ce64b6fdc1f73a67780678e48464"
     }
   },
   {
     "id": "23080401",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Force Recon Scout Landcruiser",
     "type": "FATUI",
     "title": "Landcruiser",
@@ -32202,13 +32202,13 @@
       }
     },
     "liveComparison": {
-      "liveHash": "ec46557eb0751bc6205dd31aa288abf41239ddbb706a8b636895e6a47efac5bd",
+      "liveHash": "9cb9f43f9cdf4b735dd8492f4e548253a592630631527a03464a84be9f038bb7",
       "currentHash": "9cb9f43f9cdf4b735dd8492f4e548253a592630631527a03464a84be9f038bb7"
     }
   },
   {
     "id": "23080501",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Force Recon Ground Effect Landcruiser",
     "type": "FATUI",
     "title": "Landcruiser",
@@ -32373,13 +32373,13 @@
       }
     },
     "liveComparison": {
-      "liveHash": "d5728b746cd050b18b67a27a02d59c705521e5be64833d69689136e3ba753205",
+      "liveHash": "6afbb708984764d1ebc39d08c37dc09b2cf8cd0269bda32ed1a19c449627afd1",
       "currentHash": "6afbb708984764d1ebc39d08c37dc09b2cf8cd0269bda32ed1a19c449627afd1"
     }
   },
   {
     "id": "23085101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Cutting Edge All-Purpose Storm Landcruiser",
     "type": "FATUI",
     "title": "Landcruiser",
@@ -32600,13 +32600,13 @@
       }
     },
     "liveComparison": {
-      "liveHash": "61e690ca7a9755a1395b15ad89de3d18f1dc474ceba30661890d72a41c72023a",
+      "liveHash": "ac95c9be3c62acb965e65a2eb888cee8b2336c34d35e79bd00cda923724c1c17",
       "currentHash": "ac95c9be3c62acb965e65a2eb888cee8b2336c34d35e79bd00cda923724c1c17"
     }
   },
   {
     "id": "23085201",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Cutting Edge All-Purpose Scout Landcruiser",
     "type": "FATUI",
     "title": "Landcruiser",
@@ -32827,13 +32827,13 @@
       }
     },
     "liveComparison": {
-      "liveHash": "38e93e6961bdcdd2428f7d16a3fe1c722830feb8907064cfba4d36c63f704bc3",
+      "liveHash": "646d4475c82e3bdd18f9f6cb91a33a9eb56738fe7bdd06fc19e3272ca516081b",
       "currentHash": "646d4475c82e3bdd18f9f6cb91a33a9eb56738fe7bdd06fc19e3272ca516081b"
     }
   },
   {
     "id": "23085301",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Cutting Edge Fire Support Ground Effect Landcruiser",
     "type": "FATUI",
     "title": "Landcruiser",
@@ -33142,7 +33142,7 @@
       }
     },
     "liveComparison": {
-      "liveHash": "631936272aac44355dd4f8d863e748a815114f6ced7286cfcc78b935b85f9c1e",
+      "liveHash": "41dddc633a71d438e8b947b4f076ae79b007e17a337039905b2dacb2716788a9",
       "currentHash": "41dddc633a71d438e8b947b4f076ae79b007e17a337039905b2dacb2716788a9"
     }
   },
@@ -33382,7 +33382,7 @@
   },
   {
     "id": "24010101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Ruin Guard",
     "type": "AUTOMATRON",
     "title": "Ruin Guard",
@@ -34142,7 +34142,7 @@
       }
     },
     "liveComparison": {
-      "liveHash": "554ceddb79d56c0363f8d54d16c1c7aebd983b0e008f145674f6ce3da1617422",
+      "liveHash": "c22eac163cca3cec00029b2defe2a00f1f09d652374f762e8bff6b6cffe7c213",
       "currentHash": "c22eac163cca3cec00029b2defe2a00f1f09d652374f762e8bff6b6cffe7c213"
     }
   },
@@ -50148,7 +50148,7 @@
   },
   {
     "id": "25130101",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Winged Halberd-Knight",
     "type": "BEAST",
     "title": "Vila of the Dancing Wings",
@@ -50304,12 +50304,13 @@
       }
     },
     "liveComparison": {
+      "liveHash": "a3318923e6c896e6a401459755a8509c38806078c28a8e182fff442d95872f34",
       "currentHash": "a3318923e6c896e6a401459755a8509c38806078c28a8e182fff442d95872f34"
     }
   },
   {
     "id": "25130201",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Winged Soarer Knight",
     "type": "BEAST",
     "title": "Vila of the Dancing Wings",
@@ -50506,12 +50507,13 @@
       }
     },
     "liveComparison": {
+      "liveHash": "2b3ac31387e7fe5a800be28538f268778e9bacabe97b3c5212d8c7169ac10ddd",
       "currentHash": "2b3ac31387e7fe5a800be28538f268778e9bacabe97b3c5212d8c7169ac10ddd"
     }
   },
   {
     "id": "25131001",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Volkodlak Lobber",
     "type": "BEAST",
     "title": "Volkodlak Brute",
@@ -50881,12 +50883,13 @@
       }
     },
     "liveComparison": {
+      "liveHash": "2ebf9d346d0558f4338ac4456e311f8cdeae0ee04f242d609d735f1c3ba52139",
       "currentHash": "2ebf9d346d0558f4338ac4456e311f8cdeae0ee04f242d609d735f1c3ba52139"
     }
   },
   {
     "id": "25131201",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Volkodlak Basher",
     "type": "BEAST",
     "title": "Volkodlak Brute",
@@ -51297,12 +51300,13 @@
       }
     },
     "liveComparison": {
+      "liveHash": "d7f94f8bd843a1532d036d4038aad6968a24eaf000648e46c5b54a6fdc4368e5",
       "currentHash": "d7f94f8bd843a1532d036d4038aad6968a24eaf000648e46c5b54a6fdc4368e5"
     }
   },
   {
     "id": "25131401",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Volkodlak Raider",
     "type": "BEAST",
     "title": "Volkodlak Brute",
@@ -51549,12 +51553,13 @@
       }
     },
     "liveComparison": {
+      "liveHash": "b5500465f97a463d0585eebb7a59a0488ed1f9931fcb2bf697193eef5b3039df",
       "currentHash": "b5500465f97a463d0585eebb7a59a0488ed1f9931fcb2bf697193eef5b3039df"
     }
   },
   {
     "id": "25131601",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Volkodlak Sharpshooter",
     "type": "BEAST",
     "title": "Volkodlak Brute",
@@ -51760,12 +51765,13 @@
       }
     },
     "liveComparison": {
+      "liveHash": "99d32ad24d7554dbb2ae6d8cd5a0bef8d5f566faccdc5e0cb2567267996657d7",
       "currentHash": "99d32ad24d7554dbb2ae6d8cd5a0bef8d5f566faccdc5e0cb2567267996657d7"
     }
   },
   {
     "id": "25132601",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Leomastiff Guard",
     "type": "BEAST",
     "title": "Volkodlak Brute",
@@ -51889,12 +51895,13 @@
       }
     },
     "liveComparison": {
+      "liveHash": "44ff1430910bf90a45b27b26cc1193a4bb4ed6cba5f2a66e981e657d31372107",
       "currentHash": "44ff1430910bf90a45b27b26cc1193a4bb4ed6cba5f2a66e981e657d31372107"
     }
   },
   {
     "id": "25132701",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Long-Eared Striker",
     "type": "BEAST",
     "title": "Volkodlak Brute",
@@ -52141,12 +52148,13 @@
       }
     },
     "liveComparison": {
+      "liveHash": "34f18d261da809636cbc28e008edfbcad6ef4d98f997b6b81e43fd0cd0197938",
       "currentHash": "34f18d261da809636cbc28e008edfbcad6ef4d98f997b6b81e43fd0cd0197938"
     }
   },
   {
     "id": "25132801",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Channel Contact",
     "type": "BEAST",
     "title": "Volkodlak Brute",
@@ -52352,12 +52360,13 @@
       }
     },
     "liveComparison": {
+      "liveHash": "0ffb221534f6741136699b98fa0dd63eb41620bcf84ca6ebb4edc8371e351b43",
       "currentHash": "0ffb221534f6741136699b98fa0dd63eb41620bcf84ca6ebb4edc8371e351b43"
     }
   },
   {
     "id": "25133601",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Fanged Zealot",
     "type": "BEAST",
     "title": "Enchanted Beast of Unrivaled Might",
@@ -52569,12 +52578,13 @@
       }
     },
     "liveComparison": {
+      "liveHash": "7d9d985968f4e523cf4f1d064ca698bdbc33e1e0742f851e217a4ce1c2c48416",
       "currentHash": "7d9d985968f4e523cf4f1d064ca698bdbc33e1e0742f851e217a4ce1c2c48416"
     }
   },
   {
     "id": "25133701",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Voywolf Hunter",
     "type": "BEAST",
     "title": "Enchanted Beast of Unrivaled Might",
@@ -52742,12 +52752,13 @@
       }
     },
     "liveComparison": {
+      "liveHash": "d54351213ee806f64e89172c202501bc3595af108fc35335cfbbcffa7c7233d4",
       "currentHash": "d54351213ee806f64e89172c202501bc3595af108fc35335cfbbcffa7c7233d4"
     }
   },
   {
     "id": "25135001",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Glaciomancer",
     "type": "BEAST",
     "title": "Snegovik Created From Ice",
@@ -52944,12 +52955,13 @@
       }
     },
     "liveComparison": {
+      "liveHash": "671ac67665d4373294aae126da1fc1c4e96d3c32cf308c60c60d2f8ee649c923",
       "currentHash": "671ac67665d4373294aae126da1fc1c4e96d3c32cf308c60c60d2f8ee649c923"
     }
   },
   {
     "id": "25135101",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Glacial Warden",
     "type": "BEAST",
     "title": "Snegovik Created From Ice",
@@ -53287,12 +53299,13 @@
       }
     },
     "liveComparison": {
+      "liveHash": "ed56349e75b50bc2cc3e2fbaf7da469e324f131c1e01152ffc0d5904d103c894",
       "currentHash": "ed56349e75b50bc2cc3e2fbaf7da469e324f131c1e01152ffc0d5904d103c894"
     }
   },
   {
     "id": "25137001",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Rugged Elder Leshy",
     "type": "BEAST",
     "title": "Leshy Born of the Mystic Wilds",
@@ -53668,12 +53681,13 @@
       }
     },
     "liveComparison": {
+      "liveHash": "11139063b39cfbabf7074b332f4fca951d5c76c8cccb543b83d972b4bf92db04",
       "currentHash": "11139063b39cfbabf7074b332f4fca951d5c76c8cccb543b83d972b4bf92db04"
     }
   },
   {
     "id": "25138001",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Juvenile Tree Segment",
     "type": "BEAST",
     "title": "Leshy Born of the Mystic Wilds",
@@ -53920,12 +53934,13 @@
       }
     },
     "liveComparison": {
+      "liveHash": "9ae4aa2564c64b8b2e802dc171c4025977585d91c9b0e24b552575e4a8204bc2",
       "currentHash": "9ae4aa2564c64b8b2e802dc171c4025977585d91c9b0e24b552575e4a8204bc2"
     }
   },
   {
     "id": "25140101",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Immortal Construct",
     "type": "BEAST",
     "title": "Immortal Construct",
@@ -54083,6 +54098,7 @@
       }
     },
     "liveComparison": {
+      "liveHash": "5a6f62cdc01c43d81c1d52b3fff38cc735bbc693920d400e573dfb0a19c6a092",
       "currentHash": "5a6f62cdc01c43d81c1d52b3fff38cc735bbc693920d400e573dfb0a19c6a092"
     }
   },
@@ -63227,7 +63243,7 @@
   },
   {
     "id": "26010101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Cryo Whopperflower",
     "type": "BEAST",
     "title": "Cryo Whopperflower",
@@ -63592,13 +63608,13 @@
       }
     },
     "liveComparison": {
-      "liveHash": "b59fa3db824ed29f83cb6ae2d46281991f7799d10c289ee3ed56b7e882bfa1ae",
+      "liveHash": "135b711afd0fd57a7a78d4079ad6e38566bae91dcfd6cb08aa50eab3438b6f97",
       "currentHash": "135b711afd0fd57a7a78d4079ad6e38566bae91dcfd6cb08aa50eab3438b6f97"
     }
   },
   {
     "id": "26010201",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Pyro Whopperflower",
     "type": "BEAST",
     "title": "Pyro Whopperflower",
@@ -63722,13 +63738,13 @@
       }
     },
     "liveComparison": {
-      "liveHash": "8912d205887de59a99a94f74d3f6138ea3f2e30017d0e818328770babb050eea",
+      "liveHash": "1b16b04bf7cbcb765a6e0e7dd44ba770ca6490ae89a41d3342127ffe3253f9a0",
       "currentHash": "1b16b04bf7cbcb765a6e0e7dd44ba770ca6490ae89a41d3342127ffe3253f9a0"
     }
   },
   {
     "id": "26010301",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Electro Whopperflower",
     "type": "BEAST",
     "title": "Electro Whopperflower",
@@ -63852,7 +63868,7 @@
       }
     },
     "liveComparison": {
-      "liveHash": "c29acd262d0776dd360a35a984a31c019766af67fa284b2c1cd8beb9058ee9ba",
+      "liveHash": "61ce75f61cf55b014c6b915efec6780efef129556063120dce682d6dd7024c44",
       "currentHash": "61ce75f61cf55b014c6b915efec6780efef129556063120dce682d6dd7024c44"
     }
   },
@@ -81217,7 +81233,7 @@
   },
   {
     "id": "26310101",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Chimeric Armored Beast",
     "type": "BEAST",
     "title": "Patchwork Beast",
@@ -81332,16 +81348,17 @@
       }
     },
     "liveComparison": {
+      "liveHash": "7777d69200f76c3ce4db1875b68f859117be41296e06f5e2d869e83bf1700c5a",
       "currentHash": "7777d69200f76c3ce4db1875b68f859117be41296e06f5e2d869e83bf1700c5a"
     }
   },
   {
     "id": "26310201",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Chimeric Burrowbeast",
     "type": "BEAST",
     "title": "Patchwork Beast",
-    "description": "A product of bio-alchemy that was once widespread across the frozen lands, an aberrant chimeric monster.\\nIf a monster that burrows and moves through earth and snow were granted vision that could see all within the shadows, could it become an even stronger predator?\\nThe experiment proved astonishingly successful. These Burrowbeast move beneath the surface at night, digging traps in the dark or hiding in the shadows to hunt.\\nAccording to a report in Pioneers, a worker living in Svetloledovka once saw a giant Burrowbeast nearly as tall as two people... though that is probably nothing more than a wild rumor.",
+    "description": "A product of bio-alchemy that was once widespread across the frozen lands, an aberrant chimeric monster.\\nIf a monster that burrows and moves through earth and snow were granted vision that could see all within the shadows, could it become an even stronger predator?\\nThe experiment proved astonishingly successful. These Burrowbeasts move beneath the surface at night, digging traps in the dark or hiding in the shadows to hunt.\\nAccording to a report in Vestnik, a worker living in Svetloledovka once saw a giant Burrowbeast nearly as tall as two people... though that is probably nothing more than a wild rumor.",
     "assets": {
       "icon": "GameData/gi/assets/monsters/UI_MonsterIcon_Chimera_OwlPangolin.webp"
     },
@@ -81411,12 +81428,13 @@
       }
     },
     "liveComparison": {
-      "currentHash": "b206ae9701686d7dd5d666e02500cbb420342441a3f949e152b18bf22fd2f013"
+      "liveHash": "3d78eac5109c56ae2423b59265d1ad521cae85ccfb55af7ff1cb4e3905eec929",
+      "currentHash": "3d78eac5109c56ae2423b59265d1ad521cae85ccfb55af7ff1cb4e3905eec929"
     }
   },
   {
     "id": "26310301",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Chimeric Winged Elephant",
     "type": "BEAST",
     "title": "Patchwork Beast",
@@ -81531,12 +81549,13 @@
       }
     },
     "liveComparison": {
+      "liveHash": "5ec0cdcb33ecd6d505cf3dacba37f2bc62320430dfd088ab0c61b4c1036fcb27",
       "currentHash": "5ec0cdcb33ecd6d505cf3dacba37f2bc62320430dfd088ab0c61b4c1036fcb27"
     }
   },
   {
     "id": "26310401",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Chimeric Horned Bear",
     "type": "BEAST",
     "title": "Manmade Wildwood Spirit",
@@ -81654,12 +81673,13 @@
       }
     },
     "liveComparison": {
+      "liveHash": "27e80863b91b2a2378f46bde03e8bb38e6e7a271f09d7cfb3f425d302acb2826",
       "currentHash": "27e80863b91b2a2378f46bde03e8bb38e6e7a271f09d7cfb3f425d302acb2826"
     }
   },
   {
     "id": "26310501",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Chimeric Winged Lion",
     "type": "BEAST",
     "title": "Solo Accompanist",
@@ -82094,6 +82114,7 @@
       }
     },
     "liveComparison": {
+      "liveHash": "7adabf5d2228a4813ffe061ac70102e9e7f8f73aac2fd1c11a94167680253296",
       "currentHash": "7adabf5d2228a4813ffe061ac70102e9e7f8f73aac2fd1c11a94167680253296"
     }
   },
@@ -82727,7 +82748,7 @@
   },
   {
     "id": "28020414",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Morozhound",
     "type": "ANIMAL",
     "description": "Humanity's best friend!\\nMorozhounds have stunning endurance and gentle personalities. And so, humans fitted them with harnesses and had them pull sleds, forming the first transport teams on the snowy plains.\\nToday, dog-pulled sleds have slowly become more of a tourist attraction in small border towns, with a tiny minority who still respect sledding as a traditional competitive sport. Still, the people of the snowfields continue to regard Morozhounds as the closest of companions.",
@@ -82736,6 +82757,7 @@
     },
     "rewards": [],
     "liveComparison": {
+      "liveHash": "be87e7d3450ad6cd7228e4c3cc656d83ff98f8922bc06a7fba2f43c64fc7a95d",
       "currentHash": "be87e7d3450ad6cd7228e4c3cc656d83ff98f8922bc06a7fba2f43c64fc7a95d"
     }
   },
@@ -83071,7 +83093,7 @@
   },
   {
     "id": "28021404",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Fuzzbadger",
     "type": "ANIMAL",
     "description": "Close kin of the Chic Badgers, these animals make their dwelling in the Snezhnayan interior.\\nFuzzbadgers are clad in long, thick, and soft fur, allowing them to travel as they please, even in the coldest of climes.\\nDespite their fluffy appearance, they possess a fierce temperament and never back down, even when facing massive foes. Such is the law of survival on the snowy plains: Do not tread upon the territory of a Fuzzbadger carelessly, lest they show their claws and swiftly make an example of any trespassers.",
@@ -83080,6 +83102,7 @@
     },
     "rewards": [],
     "liveComparison": {
+      "liveHash": "c8a78c281bb611140b70b196ae3954f7b8074225f73d4635f1b8394d6e22f7fc",
       "currentHash": "c8a78c281bb611140b70b196ae3954f7b8074225f73d4635f1b8394d6e22f7fc"
     }
   },
@@ -83115,7 +83138,7 @@
   },
   {
     "id": "28021503",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Severelk",
     "type": "ANIMAL",
     "description": "Tall and tame animals with a pair of eyes that seem to see through all things.\\nThe Severelk living on the snowy plains have thick fur and sturdy horns, yet their feet are light and fleet, and their sense of smell is so keen that they can forage for food even in the thickest snow, and they flee pursuit from predators swiftly.\\nIn old Snezhanyan fairy tales, Severelk are gentle and winsome, and will enter the dreams of children to bring them the gift that is \"growing up well.\"",
@@ -83124,12 +83147,13 @@
     },
     "rewards": [],
     "liveComparison": {
+      "liveHash": "f4f42dc5d1aba307e81ce6981e812353b5187286e7e75ff527eb819c8697fb07",
       "currentHash": "f4f42dc5d1aba307e81ce6981e812353b5187286e7e75ff527eb819c8697fb07"
     }
   },
   {
     "id": "28021601",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Fluffahog",
     "type": "ANIMAL",
     "description": "Beasts covered from head to toe in spikes save for their soft bellies.\\nThe Fluffahog is a gentle soul that enjoys sleeping. Indeed, they are skilled at making hidden nests using plants and leaves, so that they can have sweet dreams even in the winter cold. If their nests are discovered, they will curl into a ball, presenting their wall of tough spikes to the world, as though meaning to repel all threats this way.\\nIn Snezhnayan folk stories, the Fluffahog is the smartest amongst animals, knowing formulae for wondrous herbal remedies, comprehending the secrets to stemming the tides of weakening age, even knowing how to open a lock that has no key.",
@@ -83138,12 +83162,13 @@
     },
     "rewards": [],
     "liveComparison": {
+      "liveHash": "ce2e02056321918aa18b1ff9f85c172526ee7516fef4daecb371d8a190c84746",
       "currentHash": "ce2e02056321918aa18b1ff9f85c172526ee7516fef4daecb371d8a190c84746"
     }
   },
   {
     "id": "28021701",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Polyarbear",
     "type": "ANIMAL",
     "description": "Animals that can survive even extreme cold, and that boast large bodies and thick fur.\\nDespite their size, Polyarbears are actually quite agile, being able to leap between ice floes and pursue their prey without making a sound, making them the best hunters in the tundra.\\nSkilled in combat, the Polyarbear is no tame beast, and will not submit to either beast or man easily. As such, they are regarded in some regions of Snezhnaya as a symbol of strength.",
@@ -83152,6 +83177,7 @@
     },
     "rewards": [],
     "liveComparison": {
+      "liveHash": "1feaedb6c07f0c30e44ca08ca8b2ea329cd0679295176c882b31f53420c5e827",
       "currentHash": "1feaedb6c07f0c30e44ca08ca8b2ea329cd0679295176c882b31f53420c5e827"
     }
   },
@@ -83907,7 +83933,7 @@
   },
   {
     "id": "28030711",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Red-Bellied Plover",
     "type": "AVIARY",
     "description": "Small Snezhnayan flying birds named for their feathers.\\nRed-Bellied Plovers occasionally call in slow, gentle, and even slightly mournful voices. As such, poets have written of them as singing about someone's tragedies.\\nOf course, these are just romantic interpolations by humans. Red-Bellied Plovers are an innocent, even naive sort, agile in flight, and tough to boot. Forests, fruit orchards, and the water's edge can all serve as their habitats. And for this Plover species, there is likely no more critical activity in life than foraging.",
@@ -83916,21 +83942,23 @@
     },
     "rewards": [],
     "liveComparison": {
+      "liveHash": "3d7d9e2b06f2abd0f329d620c318a020d9ea6cb4f9ce285c1bfe7baa8d18fefd",
       "currentHash": "3d7d9e2b06f2abd0f329d620c318a020d9ea6cb4f9ce285c1bfe7baa8d18fefd"
     }
   },
   {
     "id": "28030712",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Nochhornowl",
     "type": "AVIARY",
-    "description": "Birds that make Snezhnaya their home. They have a full-body covering of snow-white feathers, and their habit of hunting after sunset has earned them their name.\\nAs the most agile hunters to stalk the tundra, the Nochhornowl is skilled at the arts of disguise, observation, and rapid pursuit.\\nMany hunters see them as a symbol of wisdom, believing them to have spirits and giving them due respect. In return, these owls sometimes guide hunters, sending them messages from the forest depths.",
+    "description": "Birds that make Snezhnaya their home. They have a full-body covering of feathers that evoke the night sky, and their habit of hunting after sunset has earned them their name.\\nAs the most agile hunters to stalk the tundra, the Nochhornowl is skilled at the arts of disguise, observation, and rapid pursuit.\\nMany hunters see them as a symbol of wisdom, believing them to have spirits and giving them due respect. In return, these owls sometimes guide hunters, sending them messages from the forest depths.",
     "assets": {
       "icon": "GameData/gi/assets/monsters/UI_AnimalIcon_Owl_01.webp"
     },
     "rewards": [],
     "liveComparison": {
-      "currentHash": "a2d2fdd511e82cd8cc308b1f4be91ddaae83608c34e258234639153633807f38"
+      "liveHash": "69e2ce69daeb73f3b56a6c63258ea5e3356fd2e5ef6fb83ff80b20efc5f994d0",
+      "currentHash": "69e2ce69daeb73f3b56a6c63258ea5e3356fd2e5ef6fb83ff80b20efc5f994d0"
     }
   },
   {
@@ -84910,7 +84938,7 @@
   },
   {
     "id": "28042001",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Charcoal Snowfin",
     "type": "FISH",
     "description": "A plump, spherical Snezhnayan fish, this species might look like a distant cousin to the pufferfish found throughout Teyvat. However, the two actually belong to entirely separate lineages. When the Fishing Association first recorded it, its code name was \"Snowland Roundfin.\" After more than a dozen generations of anglers, this informal name gradually evolved into \"Snowfin.\"\\nThe Charcoal Snowfin is the most common subspecies in this family. It is said that the fine, powdery scales contain special components. When dried and ground, and then mixed with the dried powder of Golden Fern roots, they can serve as a remarkably efficient fire starter, prized by many Snezhnayan adventurers.",
@@ -84919,12 +84947,13 @@
     },
     "rewards": [],
     "liveComparison": {
+      "liveHash": "45d6928e078313e3353ec989ae6775efd5b9971dbded4594b9d3dd5363a2cbf8",
       "currentHash": "45d6928e078313e3353ec989ae6775efd5b9971dbded4594b9d3dd5363a2cbf8"
     }
   },
   {
     "id": "28042002",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Cream Snowfin",
     "type": "FISH",
     "description": "A plump, spherical Snezhnayan fish, this species might look like a distant cousin to the pufferfish found throughout Teyvat. However, the two actually belong to entirely separate lineages. When the Fishing Association first recorded it, its code name was \"Snowland Roundfin.\" After more than a dozen generations of anglers, this informal name gradually evolved into \"Snowfin.\"\\nThe Cream Snowfin, thanks to its near-pure-white coloration and its scarcity, is considered the most precious of Snezhnayan fish. Legend has it that the moment its waters grow even slightly impure, other colors begin to leach into its body. Several fairy tales cast it as their protagonist, telling the dreamlike story of a gifted young angler-lad following one of these Snowfins to the \"Kingdom of Cream\" — a story that briefly caused a citywide cream shortage.",
@@ -84933,12 +84962,13 @@
     },
     "rewards": [],
     "liveComparison": {
+      "liveHash": "0d264d403c010813d6cf43efe36684270e4db1423674f9c168344b7302246ef2",
       "currentHash": "0d264d403c010813d6cf43efe36684270e4db1423674f9c168344b7302246ef2"
     }
   },
   {
     "id": "28042003",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Moonlight Snowfin",
     "type": "FISH",
     "description": "A plump, spherical Snezhnayan fish, this species might look like a distant cousin to the pufferfish found throughout Teyvat. However, the two actually belong to entirely separate lineages. When the Fishing Association first recorded it, its code name was \"Snowland Roundfin.\" After more than a dozen generations of anglers, this informal name gradually evolved into \"Snowfin.\"\\nFolklore claims the Moonlight Snowfin has the strongest endurance and the best sense of direction of any Snezhnayan fish, its unusual coloration being a gift from moonlight — its ancestors, so the story goes, once traveled far to the waters of Nod-Krai and were baptized in moonbeams. Merchants returning from Nod-Krai deny the tale, and biologists point out that the color most likely comes from the underwater plants it favors as food. But since \"moonlight\" is such a pleasant and memorable prefix, the name has stuck to this day.",
@@ -84947,12 +84977,13 @@
     },
     "rewards": [],
     "liveComparison": {
+      "liveHash": "44aa3f84affc16584587ee050ba90bc0817b369218708569152d13ccc586d6fb",
       "currentHash": "44aa3f84affc16584587ee050ba90bc0817b369218708569152d13ccc586d6fb"
     }
   },
   {
     "id": "28042101",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Ruby Starbloom Fish",
     "type": "FISH",
     "description": "A special species that swims the waters of Snezhnaya. Viewed from the front, its six fins form a shape resembling stars and snowflakes, and so the angler who first discovered them called them \"Starbloom Fish.\" The red subspecies is close in color to a red beet and was therefore given the prefix \"Ruby.\" That said, the prefix is only a description of appearance. Some scholars have found that the surface coloration serves mainly to intimidate predators, thereby protecting the fish. It is thus somewhat ironic that from a human perspective, this makes them look all the more delicious.",
@@ -84961,12 +84992,13 @@
     },
     "rewards": [],
     "liveComparison": {
+      "liveHash": "f1d65c64645c51482489b240533946db5b7171b72bdd0c014029d292e5c11993",
       "currentHash": "f1d65c64645c51482489b240533946db5b7171b72bdd0c014029d292e5c11993"
     }
   },
   {
     "id": "28042102",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Frostpetal Starbloom Fish",
     "type": "FISH",
     "description": "A special species that swims the waters of Snezhnaya. Viewed from the front, its six fins form a shape resembling stars and snowflakes, and so the angler who first discovered them called them \"Starbloom Fish.\" The azure subspecies has coloration akin to the outer petal-edges of a Frostfairy Flower, and so was given the prefix \"Frostpetal.\" Compared to its kin, the Frostpetal Starbloom Fish has the keenest senses of the family, always able to detect danger from far off. And thanks to the propulsion advantage of its six fins, they are also quick to flee from said danger.",
@@ -84975,12 +85007,13 @@
     },
     "rewards": [],
     "liveComparison": {
+      "liveHash": "40c976292db754198da62e4ce75fedce9b2e241f8fefcfeb5f00c6eca9490c2a",
       "currentHash": "40c976292db754198da62e4ce75fedce9b2e241f8fefcfeb5f00c6eca9490c2a"
     }
   },
   {
     "id": "28042103",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Iridescent Starbloom Fish",
     "type": "FISH",
     "description": "A special species that swims the waters of Snezhnaya. Viewed from the front, its six fins form a shape resembling stars and snowflakes, and so the angler who first discovered them called them \"Starbloom Fish.\" The blue subspecies' scales have superb texture and coloration — under certain light, they look like rainbow-reflecting crystal, earning it the elegant prefix \"Iridescent.\" Thanks to this shimmering appearance, Iridescent Starbloom Fish are prized guests of Snezhnayan fish collectors. Indeed, some have even built expensive aquarium landscapes solely for this fish, only to find themselves unable to catch one for the longest time...",
@@ -84989,6 +85022,7 @@
     },
     "rewards": [],
     "liveComparison": {
+      "liveHash": "a236497b1291820e2c52f0b90e4dffdd86d50e906f559e4aacf80efbb10c7849",
       "currentHash": "a236497b1291820e2c52f0b90e4dffdd86d50e906f559e4aacf80efbb10c7849"
     }
   },
@@ -85279,7 +85313,7 @@
   },
   {
     "id": "28051201",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Ledobug",
     "type": "CRITTER",
     "description": "A flying insect commonly found near mines. Beneath its icy-blue fuzz lies a body that resembles Kristall.\\nThis creature is much beloved by many miners. With even the faintest light source, Ledobugs in the mines can reflect the light and illuminate the dark caverns.",
@@ -85288,21 +85322,23 @@
     },
     "rewards": [],
     "liveComparison": {
+      "liveHash": "95b80a29fa3a2ea38a854663416128ab03f62458dea4e373f9fccb8b6f8f7c52",
       "currentHash": "95b80a29fa3a2ea38a854663416128ab03f62458dea4e373f9fccb8b6f8f7c52"
     }
   },
   {
     "id": "28051301",
-    "contentStatus": "beta",
-    "name": "Kristall Worm",
+    "contentStatus": "live",
+    "name": "Kristall Bug",
     "type": "CRITTER",
-    "description": "A beetle commonly found near mines. Its shell is hard, and its color and shape resemble that of Kresnik Kristall, hence its name.\\nIt is said that people first discovered the rich mineral deposits beneath these frozen lands by following the trails of Kristall Worms, and from those riches built a great civilization amid the bitter cold.",
+    "description": "A beetle commonly found near mines. Its shell is hard, and its color and shape resemble that of Kresnik Kristall, hence its name.\\nIt is said that people first discovered the rich mineral deposits beneath these frozen lands by following the trails of Kristall Bugs, and from those riches built a great civilization amid the bitter cold.",
     "assets": {
       "icon": "GameData/gi/assets/monsters/UI_AnimalIcon_Boltbug_KrsnikGround_01.webp"
     },
     "rewards": [],
     "liveComparison": {
-      "currentHash": "2769aed836a48d676edc231872e4004d34818cd392234677bf6340fd16ab3788"
+      "liveHash": "4e306165912a0ddf1676261a60f2e73a19358e446ac9c4db17475c7b53ee3834",
+      "currentHash": "4e306165912a0ddf1676261a60f2e73a19358e446ac9c4db17475c7b53ee3834"
     }
   },
   {
@@ -85412,7 +85448,7 @@
   },
   {
     "id": "28061601",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "White Sumpter Beast",
     "type": "ANIMAL",
     "description": "These white-furred quadrupeds are distant relatives of Sumeru's Sumpter Beasts.\\nThe White Sumpter Beasts are friendly to humans and resistant to the cold by nature, and they were once the most important mode of transport across the frozen fields. Even today, they remain good helpers to the Snezhnayan traveling merchant.",
@@ -85421,6 +85457,7 @@
     },
     "rewards": [],
     "liveComparison": {
+      "liveHash": "965df6c1a0f13098b17b92fd6238fab9058958ff02b95d91076496130b09b524",
       "currentHash": "965df6c1a0f13098b17b92fd6238fab9058958ff02b95d91076496130b09b524"
     }
   },

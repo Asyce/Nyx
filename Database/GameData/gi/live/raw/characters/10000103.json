@@ -4145,34 +4145,6 @@
         "tag": "FallingAttack",
         "group": "default"
       },
-      "poise": {
-        "level": "LV2",
-        "value": 25
-      },
-      "element": "None",
-      "attack_type": "Melee",
-      "strike_type": "Slash"
-    },
-    {
-      "name": "FallingAnthem",
-      "icd": {
-        "tag": "FallingAttack",
-        "group": "default"
-      },
-      "poise": {
-        "level": "LV2",
-        "value": 25
-      },
-      "element": "Rock",
-      "attack_type": "Melee",
-      "strike_type": "Slash"
-    },
-    {
-      "name": "FallingAnthem",
-      "icd": {
-        "tag": "FallingAttack",
-        "group": "default"
-      },
       "gauge": 1,
       "poise": {
         "level": "LV4",
@@ -4226,6 +4198,34 @@
       "element": "Rock",
       "attack_type": "Melee",
       "strike_type": "Blunt"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 25
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Slash"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 25
+      },
+      "element": "Rock",
+      "attack_type": "Melee",
+      "strike_type": "Slash"
     },
     {
       "name": "ElementalBurst_Gadget_DamageField",

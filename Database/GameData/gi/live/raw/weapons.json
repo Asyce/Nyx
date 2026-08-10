@@ -431,6 +431,30 @@
     "zh": "织月者的曙色",
     "ja": "月紡ぎの曙光"
   },
+  "11435": {
+    "icon": "UI_EquipIcon_Sword_SerpentTooth",
+    "rank": 4,
+    "type": "WEAPON_SWORD_ONE_HAND",
+    "en": "Heretic's Molten Blade",
+    "atk": 510,
+    "sub": "FIGHT_PROP_CRITICAL",
+    "desc": "He drew this weapon once more when he first met that God of Flame, revered by all, but it had been too long since he had last used it.",
+    "ko": "이단을 가르는 불꽃",
+    "zh": "熔猎异端之刃",
+    "ja": "異端を狩る熔刃"
+  },
+  "11436": {
+    "icon": "UI_EquipIcon_Sword_GlintstoneSword",
+    "rank": 4,
+    "type": "WEAPON_SWORD_ONE_HAND",
+    "en": "Emberwell",
+    "atk": 510,
+    "sub": "FIGHT_PROP_ELEMENT_MASTERY",
+    "desc": "A longsword that is entirely gemstone, said to be crafted for the path of righteousness. When unsheathed, it glows with the luster of blue flame.",
+    "ko": "불꽃의 인도자",
+    "zh": "引火之源",
+    "ja": "導炎の源"
+  },
   "11501": {
     "icon": "UI_EquipIcon_Sword_Falcon",
     "rank": 5,
@@ -622,6 +646,30 @@
     "ko": "신월의 달빛",
     "zh": "朏魄含光",
     "ja": "三日月の含光"
+  },
+  "11520": {
+    "icon": "UI_EquipIcon_Sword_Swanlake",
+    "rank": 5,
+    "type": "WEAPON_SWORD_ONE_HAND",
+    "en": "Whitelake Frostfeather",
+    "atk": 674,
+    "sub": "FIGHT_PROP_CRITICAL",
+    "desc": "A longsword light as the feathers of a snow swan, and which stays pure and untainted at all times.",
+    "ko": "백조의 호수",
+    "zh": "白湖冬羽",
+    "ja": "白銀の湖を舞う翼"
+  },
+  "11521": {
+    "icon": "UI_EquipIcon_Sword_WeaponQuestSnezhnaya",
+    "rank": 5,
+    "type": "WEAPON_SWORD_ONE_HAND",
+    "en": "Exaiphanes Blade",
+    "atk": 608,
+    "sub": "FIGHT_PROP_CRITICAL",
+    "desc": "A longsword that once shone with the light of the very stars. In the voyager's hand, it becomes a brand-new light that has nothing to do with any past era.",
+    "ko": "별빛검",
+    "zh": "星锋剑",
+    "ja": "星鋒の剣"
   },
   "12101": {
     "icon": "UI_EquipIcon_Claymore_Aniki",
@@ -1006,6 +1054,30 @@
     "ko": "만능 열쇠",
     "zh": "万能钥匙",
     "ja": "万能の鍵"
+  },
+  "12435": {
+    "icon": "UI_EquipIcon_Claymore_EscapeWheel",
+    "rank": 4,
+    "type": "WEAPON_CLAYMORE",
+    "en": "Forged by the Golden Melody",
+    "atk": 510,
+    "sub": "FIGHT_PROP_CRITICAL",
+    "desc": "A greatsword decorated in gold. Legend has it that it was the favored weapon of a certain exalted Harmost back in the distant past.",
+    "ko": "황금빛 선율",
+    "zh": "金律铸影",
+    "ja": "シンフォニーの鋳影"
+  },
+  "12436": {
+    "icon": "UI_EquipIcon_Claymore_GlintstoneClaymore",
+    "rank": 4,
+    "type": "WEAPON_CLAYMORE",
+    "en": "Blade of Atonement",
+    "atk": 565,
+    "sub": "FIGHT_PROP_ATTACK_PERCENT",
+    "desc": "A greatsword passed down by the Luchkin. It is said that only the bravest warrior is qualified to wield it.",
+    "ko": "구원의 대검",
+    "zh": "救赎之斩",
+    "ja": "救済の剣"
   },
   "12501": {
     "icon": "UI_EquipIcon_Claymore_Dvalin",
@@ -1474,6 +1546,30 @@
     "ko": "신성한 제사의 지팡이",
     "zh": "圣祭者的辉杖",
     "ja": "聖祭者の輝杖"
+  },
+  "13435": {
+    "icon": "UI_EquipIcon_Pole_FaesCrystalle",
+    "rank": 4,
+    "type": "WEAPON_POLE",
+    "en": "Frostbreath",
+    "atk": 510,
+    "sub": "FIGHT_PROP_CHARGE_EFFICIENCY",
+    "desc": "A spear of solid ice imbued with an icy chill. It is said that it once belonged to the Belyi Tsar who ruled Snezhnaya in the distant past.",
+    "ko": "서리 숨결",
+    "zh": "寒息",
+    "ja": "氷の吐息"
+  },
+  "13436": {
+    "icon": "UI_EquipIcon_Pole_GlintstonePolearm",
+    "rank": 4,
+    "type": "WEAPON_POLE",
+    "en": "Song of the Vigil",
+    "atk": 565,
+    "sub": "FIGHT_PROP_ELEMENT_MASTERY",
+    "desc": "A long spear that once stood guard over all. Today, it has found a new purpose with children and their games of make-believe.",
+    "ko": "수호의 노래",
+    "zh": "戍望谣歌",
+    "ja": "遠望の歌"
   },
   "13501": {
     "icon": "UI_EquipIcon_Pole_Homa",
@@ -2014,6 +2110,30 @@
     "ko": "서릿빛 새벽",
     "zh": "霜辰",
     "ja": "霜辰"
+  },
+  "14435": {
+    "icon": "UI_EquipIcon_Catalyst_SandMemoria",
+    "rank": 4,
+    "type": "WEAPON_CATALYST",
+    "en": "Clash of Kings",
+    "atk": 510,
+    "sub": "FIGHT_PROP_CRITICAL",
+    "desc": "A golden box lavishly inlaid with precious jewels. It houses a game much beloved by the kings of the sands.",
+    "ko": "왕들의 대국",
+    "zh": "群王局戏",
+    "ja": "諸王の対局"
+  },
+  "14436": {
+    "icon": "UI_EquipIcon_Catalyst_GlintstoneCatalyst",
+    "rank": 4,
+    "type": "WEAPON_CATALYST",
+    "en": "Echoes of the Heart",
+    "atk": 565,
+    "sub": "FIGHT_PROP_ATTACK_PERCENT",
+    "desc": "A Catalyst said to crystallize voice. Within it lies a sealed oath of loyalty, as well as a heart long since forgotten by mankind.",
+    "ko": "충성의 메아리",
+    "zh": "寸心余响",
+    "ja": "胸中の谺"
   },
   "14501": {
     "icon": "UI_EquipIcon_Catalyst_Dvalin",
@@ -2663,6 +2783,30 @@
     "zh": "虹蛇的雨弦",
     "ja": "虹蛇の雨弦"
   },
+  "15435": {
+    "icon": "UI_EquipIcon_Bow_ShatteredMirror",
+    "rank": 4,
+    "type": "WEAPON_BOW",
+    "en": "Jade Vista",
+    "atk": 510,
+    "sub": "FIGHT_PROP_CRITICAL",
+    "desc": "A longbow of immense strength. It shines with the radiance of dreams even in the darkest of nights.",
+    "ko": "옥빛 장궁",
+    "zh": "悬黎千钧",
+    "ja": "千鈞懸黎"
+  },
+  "15436": {
+    "icon": "UI_EquipIcon_Bow_GlintstoneBow",
+    "rank": 4,
+    "type": "WEAPON_BOW",
+    "en": "Covenant of Frost and Snow",
+    "atk": 510,
+    "sub": "FIGHT_PROP_DEFENSE_PERCENT",
+    "desc": "A longbow crafted to preserve order. Its cold radiance perfectly emanates the ideals of absolute fairness and justice.",
+    "ko": "서리의 서약",
+    "zh": "霜雪誓约",
+    "ja": "霜雪の契"
+  },
   "15501": {
     "icon": "UI_EquipIcon_Bow_Dvalin",
     "rank": 5,
@@ -2807,6 +2951,86 @@
     "zh": "霜结的誓金枝",
     "ja": "霜契の金枝"
   },
+  "224001": {
+    "icon": "UI_EquipIcon_AssaultRifle_Glacia",
+    "rank": 4,
+    "type": "ITEM_TPS_WEAPON",
+    "en": "Shatanaya's Frostsilver",
+    "desc": "An assault rifle that can accumulate Frigid Glory using Normal Attacks to switch to Breakthrough mode and use Charged Attacks.",
+    "ko": "샤타나야의 서리",
+    "zh": "莎塔娜娅的苍银",
+    "ja": "シャタナヤの蒼銀"
+  },
+  "224002": {
+    "icon": "UI_EquipIcon_AssaultRifle_Fulmen",
+    "rank": 4,
+    "type": "ITEM_TPS_WEAPON",
+    "en": "Ashamez's Thunder",
+    "desc": "An assault rifle that can switch Normal Attacks to Chain Lightning mode, allowing you to lock onto and track targets.",
+    "ko": "아샤메즈의 천둥",
+    "zh": "阿夏梅兹的千光",
+    "ja": "アシャメズの千光"
+  },
+  "224003": {
+    "icon": "UI_EquipIcon_GrenadeLauncher_Ignis",
+    "rank": 4,
+    "type": "ITEM_TPS_WEAPON",
+    "en": "Balsag's Sunwheel",
+    "desc": "A grenade launcher that can cycle between Pyro, Hydro, and Cryo as the current grenade Elemental Type.",
+    "ko": "발사그의 태양",
+    "zh": "瓦尔萨格的日轮",
+    "ja": "バルサグの日輪"
+  },
+  "224004": {
+    "icon": "UI_EquipIcon_Grenade_Fire",
+    "rank": 4,
+    "type": "ITEM_TPS_WEAPON",
+    "en": "Frag Crystal - Pyro",
+    "desc": "Tactical throwable that can deal AoE Pyro DMG.",
+    "ko": "결정 수류탄·불",
+    "zh": "榴晶·火",
+    "ja": "晶榴弾・炎"
+  },
+  "224005": {
+    "icon": "UI_EquipIcon_Grenade_Water",
+    "rank": 4,
+    "type": "ITEM_TPS_WEAPON",
+    "en": "Frag Crystal - Hydro",
+    "desc": "Tactical throwable that can deal AoE Hydro DMG.",
+    "ko": "결정 수류탄·물",
+    "zh": "榴晶·水",
+    "ja": "晶榴弾・水"
+  },
+  "224006": {
+    "icon": "UI_EquipIcon_Grenade_Electric",
+    "rank": 4,
+    "type": "ITEM_TPS_WEAPON",
+    "en": "Frag Crystal - Electro",
+    "desc": "Tactical throwable that can deal AoE Electro DMG.",
+    "ko": "결정 수류탄·번개",
+    "zh": "榴晶·雷",
+    "ja": "晶榴弾・雷"
+  },
+  "224007": {
+    "icon": "UI_EquipIcon_Grenade_Ice",
+    "rank": 4,
+    "type": "ITEM_TPS_WEAPON",
+    "en": "Frag Crystal - Cryo",
+    "desc": "Tactical throwable that can deal AoE Cryo DMG.",
+    "ko": "결정 수류탄·얼음",
+    "zh": "榴晶·冰",
+    "ja": "晶榴弾・氷"
+  },
+  "224008": {
+    "icon": "Sword_Template",
+    "rank": 4,
+    "type": "ITEM_TPS_WEAPON",
+    "en": "Specialized Frag Crystals within the Shadow Realm",
+    "desc": "Tactical throwable that can deal massive damage to Shadow Realm constructs",
+    "ko": "그림자 영역 특화 결정 수류탄",
+    "zh": "影域特化榴晶",
+    "ja": "闇域特化晶榴弾"
+  },
   "310001": {
     "icon": "UI_EquipIcon_Sword_MorphVinces_{0}",
     "rank": 4,
@@ -2830,6 +3054,30 @@
     "ko": "삼키는 뱀·실체",
     "zh": "蛇噬·真化",
     "ja": "呑蛇・真化"
+  },
+  "310003": {
+    "icon": "UI_EquipIcon_Sword_MorphNemorensis_{0}",
+    "rank": 4,
+    "type": "WEAPON_SWORD_ONE_HAND",
+    "en": "Golden Bough of Nemorensis",
+    "skin": true,
+    "tag": "TAG_TYPE_COLOR_BY_ELEMENT",
+    "desc": "A glorious, illusory weapon that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its wielder. It is said that, in an ancient age beyond all recollection, a divine envoy of the high heavens bestowed this longsword upon the high priest of Arcadia, granting them the right to lead the holy city blessed by the thousand winds.",
+    "ko": "네모렌시스의 황금 가지",
+    "zh": "涅墨林塞的金枝",
+    "ja": "ネモレンシスの金枝"
+  },
+  "310004": {
+    "icon": "UI_EquipIcon_Sword_MorphNemorensis_Great_{0}",
+    "rank": 5,
+    "type": "WEAPON_SWORD_ONE_HAND",
+    "en": "Golden Bough of Nemorensis - Sublimation",
+    "skin": true,
+    "tag": "TAG_TYPE_COLOR_BY_ELEMENT",
+    "desc": "A glorious, illusory weapon that emerged from the depths of the Ley Lines, shimmering with the light of \"Eternity.\" It can change its appearance based on the Elemental Type of its wielder. It is said that, in an ancient age beyond all recollection, a divine envoy of the high heavens bestowed the gilded longsword upon the high priest of Arcadia, granting them the right to lead the holy city before it was entombed by death.",
+    "ko": "네모렌시스의 황금 가지·실체",
+    "zh": "涅墨林塞的金枝·真化",
+    "ja": "ネモレンシスの金枝・真化"
   },
   "320001": {
     "icon": "UI_EquipIcon_Claymore_MorphGravitas_{0}",
@@ -2855,6 +3103,30 @@
     "zh": "赫烈·真化",
     "ja": "煌烈・真化"
   },
+  "320003": {
+    "icon": "UI_EquipIcon_Claymore_MorphGradlon_{0}",
+    "rank": 4,
+    "type": "WEAPON_CLAYMORE",
+    "en": "Silver Radiance of Gradlon",
+    "skin": true,
+    "tag": "TAG_TYPE_COLOR_BY_ELEMENT",
+    "desc": "A glorious, illusory weapon that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its wielder. It is said that, in an ancient age beyond all recollection, a divine envoy of the high heavens bestowed this claymore upon the high priest of Ys, granting them the right to lead the harbor where waters and grasses flourished.",
+    "ko": "그라들롱의 은빛",
+    "zh": "贾尔杜莱的银辉",
+    "ja": "グラドロンの銀光"
+  },
+  "320004": {
+    "icon": "UI_EquipIcon_Claymore_MorphGradlon_Great_{0}",
+    "rank": 5,
+    "type": "WEAPON_CLAYMORE",
+    "en": "Silver Radiance of Gradlon - Sublimation",
+    "skin": true,
+    "tag": "TAG_TYPE_COLOR_BY_ELEMENT",
+    "desc": "A glorious, illusory weapon that emerged from the depths of the Ley Lines, shimmering with the light of \"Eternity.\" It can change its appearance based on the Elemental Type of its wielder. It is said that, in an ancient age beyond all recollection, a divine envoy of the high heavens bestowed the gilded longsword upon the high priest of Ys, granting them the right to lead the harbor before it sank beneath the sands.",
+    "ko": "그라들롱의 은빛·실체",
+    "zh": "贾尔杜莱的银辉·真化",
+    "ja": "グラドロンの銀光・真化"
+  },
   "330001": {
     "icon": "UI_EquipIcon_Pole_MorphSpinifer_{0}",
     "rank": 4,
@@ -2878,6 +3150,30 @@
     "ko": "부서진 달·실체",
     "zh": "碎月·真化",
     "ja": "砕月・真化"
+  },
+  "330003": {
+    "icon": "UI_EquipIcon_Pole_MorphFylkir_{0}",
+    "rank": 4,
+    "type": "WEAPON_POLE",
+    "en": "Starlight of Fylkir",
+    "skin": true,
+    "tag": "TAG_TYPE_COLOR_BY_ELEMENT",
+    "desc": "A glorious, illusory weapon that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its wielder. It is said that, in an ancient age beyond all recollection, a divine envoy of the high heavens bestowed this spear upon the high priest of Sal Vindagnyr, granting them the right to lead the city-state wreathed in verdant shade.",
+    "ko": "필키르의 별빛",
+    "zh": "芬里基亚的星芒",
+    "ja": "フュルキルの星芒"
+  },
+  "330004": {
+    "icon": "UI_EquipIcon_Pole_MorphFylkir_Great_{0}",
+    "rank": 5,
+    "type": "WEAPON_POLE",
+    "en": "Starlight of Fylkir - Sublimation",
+    "skin": true,
+    "tag": "TAG_TYPE_COLOR_BY_ELEMENT",
+    "desc": "A glorious, illusory weapon that emerged from the depths of the Ley Lines, shimmering with the light of \"Eternity.\" It can change its appearance based on the Elemental Type of its wielder. It is said that, in an ancient age beyond all recollection, a divine envoy of the high heavens bestowed the gilded spear upon the high priest of Sal Vindagnyr, granting them the right to lead the city-state before it was buried in silver frost.",
+    "ko": "필키르의 별빛·실체",
+    "zh": "芬里基亚的星芒·真化",
+    "ja": "フュルキルの星芒・真化"
   },
   "340001": {
     "icon": "UI_EquipIcon_Catalyst_MorphIlia_{0}",
@@ -2903,6 +3199,30 @@
     "zh": "圣缚·真化",
     "ja": "聖縛・真化"
   },
+  "340003": {
+    "icon": "UI_EquipIcon_Catalyst_MorphShahar_{0}",
+    "rank": 4,
+    "type": "WEAPON_CATALYST",
+    "en": "Dawnstar of Shahar",
+    "skin": true,
+    "tag": "TAG_TYPE_COLOR_BY_ELEMENT",
+    "desc": "A glorious, illusory weapon that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its wielder. It is said that, in an ancient age beyond all recollection, the first divine envoy bestowed her sacred sigil upon the high priest of Hyperborea, granting them the right to lead the resplendent city of gold.",
+    "ko": "샤하르의 새벽별",
+    "zh": "撒哈律尔的曙星",
+    "ja": "シャヘルの暁星"
+  },
+  "340004": {
+    "icon": "UI_EquipIcon_Catalyst_MorphShahar_Great_{0}",
+    "rank": 5,
+    "type": "WEAPON_CATALYST",
+    "en": "Dawnstar of Shahar - Sublimation",
+    "skin": true,
+    "tag": "TAG_TYPE_COLOR_BY_ELEMENT",
+    "desc": "A glorious, illusory weapon that emerged from the depths of the Ley Lines, shimmering with the light of \"Eternity.\" It can change its appearance based on the Elemental Type of its wielder. It is said that, in an ancient age beyond all recollection, the first divine envoy bestowed the gilded sacred sigil upon the high priest of Hyperborea, granting them the right to lead the great city, ere it faded into the shadows.",
+    "ko": "샤하르의 새벽별·실체",
+    "zh": "撒哈律尔的曙星·真化",
+    "ja": "シャヘルの暁星・真化"
+  },
   "350001": {
     "icon": "UI_EquipIcon_Bow_MorphChrod_{0}",
     "rank": 4,
@@ -2927,6 +3247,30 @@
     "zh": "贯星·真化",
     "ja": "貫星・真化"
   },
+  "350003": {
+    "icon": "UI_EquipIcon_Bow_MorphYayu_{0}",
+    "rank": 4,
+    "type": "WEAPON_BOW",
+    "en": "Yayu",
+    "skin": true,
+    "tag": "TAG_TYPE_COLOR_BY_ELEMENT",
+    "desc": "A glorious, illusory weapon that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its wielder. It is said that, in an ancient age beyond all recollection, a divine envoy of the high heavens bestowed this longbow upon the high priest of Lang-Gan, granting them the right to lead the newborn civilization.",
+    "ko": "알유",
+    "zh": "猰貐",
+    "ja": "猰貐"
+  },
+  "350004": {
+    "icon": "UI_EquipIcon_Bow_MorphYayu_Great_{0}",
+    "rank": 5,
+    "type": "WEAPON_BOW",
+    "en": "Yayu - Sublimation",
+    "skin": true,
+    "tag": "TAG_TYPE_COLOR_BY_ELEMENT",
+    "desc": "A glorious, illusory weapon that emerged from the depths of the Ley Lines, shimmering with the light of \"Eternity.\" It can change its appearance based on the Elemental Type of its wielder. It is said that, in an ancient age beyond all recollection, a divine envoy of the high heavens bestowed the gilded longbow upon the high priest of Lang-Gan, granting them the right to lead the civilization before it plunged into the abyss.",
+    "ko": "알유·실체",
+    "zh": "猰貐·真化",
+    "ja": "猰貐・真化"
+  },
   "380001": {
     "icon": "UI_EquipIcon_Catalyst_Kristall",
     "rank": 4,
@@ -2950,6 +3294,18 @@
     "ko": "「슈퍼 울트라 마법 열쇠」",
     "zh": "「超厉害魔法钥匙」",
     "ja": "「マジカルマジックキー」"
+  },
+  "380003": {
+    "icon": "UI_EquipIcon_Sword_Icecream",
+    "rank": 4,
+    "type": "WEAPON_SWORD_ONE_HAND",
+    "en": "A Touch of Frost in Scorching Summer!",
+    "skin": true,
+    "tag": "TAG_TYPE_NONE",
+    "desc": "A small gift from the Jack Frosts to their good friends! It looks wildly tasty and seems berry jam-flavored. One bite, and a refreshing chill and delightful sweetness would surely dance together across your tongue... if only this were actually edible. It looks super delicious, though.",
+    "ko": "아이스바!",
+    "zh": "炎夏轻霜！",
+    "ja": "真夏のアイスポップ！"
   },
   "390001": {
     "icon": "UI_EquipIcon_Claymore_VarkaTunkeldegen",

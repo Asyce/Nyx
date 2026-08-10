@@ -4124,6 +4124,22 @@
       },
       "gauge": 1,
       "poise": {
+        "level": "LV3",
+        "value": 120
+      },
+      "element": "Water",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "Spoondrift_Damage"
+    },
+    {
+      "name": "Spoondrift",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
         "level": "LV2",
         "value": 120
       },
@@ -4150,7 +4166,7 @@
       "element": "Water",
       "attack_type": "Melee",
       "strike_type": "Slash",
-      "damage_param": "Spoondrift_Damage"
+      "damage_param": "Backwash_Damage"
     },
     {
       "name": "Spoondrift",
@@ -4171,22 +4187,6 @@
         "ShieldExtraDamageRatio",
         "MUL"
       ]
-    },
-    {
-      "name": "Spoondrift",
-      "icd": {
-        "tag": "Elemental_Art",
-        "group": "default"
-      },
-      "gauge": 1,
-      "poise": {
-        "level": "LV3",
-        "value": 120
-      },
-      "element": "Water",
-      "attack_type": "Melee",
-      "strike_type": "Slash",
-      "damage_param": "Backwash_Damage"
     },
     {
       "name": "PhantomShield",
@@ -4282,21 +4282,6 @@
         "tag": "FallingAttack",
         "group": "default"
       },
-      "poise": {
-        "level": "LV2",
-        "value": 25
-      },
-      "element": "None",
-      "attack_type": "Melee",
-      "strike_type": "Slash",
-      "damage_param": "FallingAnthem_Normal_Loop_Damage"
-    },
-    {
-      "name": "FallingAnthem",
-      "icd": {
-        "tag": "FallingAttack",
-        "group": "default"
-      },
       "gauge": 1,
       "poise": {
         "level": "LV4",
@@ -4322,6 +4307,21 @@
       "attack_type": "Melee",
       "strike_type": "Blunt",
       "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 25
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
     }
   ],
   "energy": [

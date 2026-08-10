@@ -112,7 +112,7 @@
     "icon": "UI_MonsterIcon_Slime_Fire_03",
     "en": "Large Pyro Slime",
     "desc": "A monster created by the sedimentation of Pyro dispersed throughout nature.\\nThough its intelligence has not increased with its size, it is very hot. During dry seasons, it can cause wildfires. It will spit forth blazing fireballs when angered, and will turn dark when it is feeling down. A most expressive slime, indeed.",
-    "ko": "",
+    "ko": "거대 화염 슬라임",
     "zh": "大型火史莱姆",
     "ja": "大型炎スライム"
   },
@@ -931,7 +931,7 @@
     "icon": "UI_MonsterIcon_Skirmisher_Male_Fat_SprayGun_Water_01",
     "en": "Fatui Skirmisher - Hydrogunner Legionnaire",
     "desc": "A soldier encased within a Fatui war machine.\\nArmed with equipment that can control the elements to a certain extent, their guns are capable of firing jets of water.\\nThese skirmishers do not question if they shall live or die as they advance into nations far from home to complete reconnaissance missions and lay the groundwork for operations to come.",
-    "ko": "",
+    "ko": "우인단 선발대·물총 중보병",
     "zh": "愚人众先遣队·水铳重卫士",
     "ja": "ファデュイ先遣隊·重衛士·水銃"
   },
@@ -1084,7 +1084,7 @@
     "icon": "UI_MonsterIcon_Oprichnik_Male_Strong_LanceArquebus",
     "en": "Oprichniki Fireblade Shock Trooper",
     "desc": "An elite officer of the Fatui Oprichniki who specializes in close combat using a giant blade.\\nWhether it be in the war against the dark calamity or against those ignoramuses who dare stand against the Tsaritsa's ideals, those who breach at the tip of the spear suffer the greatest casualties. As such, those who survive multiple battles are naturally the elite of the elite. There will always be those willing to become the fire and sword of the empire, just as there will always be those who chafe against the injustice of fate and the inequity of the Old World.",
-    "ko": "",
+    "ko": "우인단 특수부대·화염검 돌격대",
     "zh": "愚人众特辖队·火刃突击队",
     "ja": "ファデュイ特務隊・突撃兵・ファイアーブレイド"
   },
@@ -1246,9 +1246,9 @@
     "icon": "UI_MonsterIcon_Apparatus_Enigma_BionicInsecta",
     "en": "Ruin Defender",
     "desc": "Various bizarrely-shaped machines that have taken different forms and functions to adapt to different goals.\\nLegend has it that they are war machines left behind by a nation that has already been destroyed. Compared to the more common Ruin Guards, their design has greater value in the study of biomimesis. The insect-like limbs are more agile than those of humanoid machines. The shield formed by its various components can resist any frontal attack.",
-    "ko": "",
+    "ko": "유적 방어자",
     "zh": "遗迹防卫者",
-    "ja": ""
+    "ja": "遺跡防衛者"
   },
   "24020401": {
     "codex": "AUTOMATRON",
@@ -1363,7 +1363,7 @@
     "icon": "UI_MonsterIcon_MachinaIustitia_Recon",
     "en": "Underwater Survey Mek",
     "desc": "A clockwork meka designed for underwater surveying.\\nIn the absence of significant breakthroughs in dynamics research, kinematics research has had the most significant impact on clockwork meka design. For machines designed to perform specific tasks, biomimesis has sometimes provided the most convenient solutions.",
-    "ko": "",
+    "ko": "장치·수중 탐측 타입",
     "zh": "机关·水下勘测型",
     "ja": "マシナリー·水中観測型"
   },
@@ -1588,7 +1588,7 @@
     "icon": "UI_MonsterIcon_Thoarder_Male_Crossbow_01",
     "en": "Treasure Hoarders: Raptor",
     "desc": "",
-    "ko": "",
+    "ko": "보물 사냥단·「괴조」",
     "zh": "盗宝团·「怪鸟」",
     "ja": "宝盗団·「怪鳥」"
   },
@@ -1726,6 +1726,150 @@
     "ko": "해란귀·염위",
     "zh": "海乱鬼·炎威",
     "ja": "海乱鬼·炎威"
+  },
+  "25130101": {
+    "codex": "BEAST",
+    "icon": "UI_MonsterIcon_Human_Girl_Vila_Glaive",
+    "en": "Winged Halberd-Knight",
+    "desc": "A winged Vila capable of flight.\\nRecords show that in the century after the Tsaritsa ascended the throne, the Vila went through many turbulent periods. Among them were fae who launched small-scale rebellions out of dissatisfaction with the Tsaritsa's policies toward the fae nobility.\\nThe rebellions were soon suppressed, but the fact that their leaders were descendants of the old Vila nobility once led to a major split within the Vila people.",
+    "ko": "바람 요정 미늘창 기사",
+    "zh": "持戟羽骑士",
+    "ja": "ハルバードの羽騎士"
+  },
+  "25130201": {
+    "codex": "BEAST",
+    "icon": "UI_MonsterIcon_Human_Girl_Vila_Blade",
+    "en": "Winged Soarer Knight",
+    "desc": "A winged Vila capable of flight.\\nIt's said that the Vila were among the fae clans that followed the Belyi Tsar from the very beginning of his campaign to unify the frozen lands. Their ability to take brief flight gives them exceptional mobility, allowing them to scout enemy formations and carry out long-distance raids with ease.\\nMost members of the Druzhna, the personal guard founded during the Belyi Tsar reign, were Vila.",
+    "ko": "바람 요정 검무 기사",
+    "zh": "舞空羽骑士",
+    "ja": "大空の羽騎士"
+  },
+  "25131001": {
+    "codex": "BEAST",
+    "icon": "UI_MonsterIcon_Vukodlak_Strong_NoWeapon",
+    "en": "Volkodlak Lobber",
+    "desc": "A relatively large and powerfully built type of Volkodlak found among the many that roam Snezhnaya.\\nWith the strength of beasts and humanoid bodies, their powerful upper bodies allow them to throw with greater force and precision. Volkodlak may not excel at shaping Prime Ice or wielding elemental power, but among the many fae lineages, few can match their command over physical strength.",
+    "ko": "야수 요정 투척수",
+    "zh": "兽怪投掷者",
+    "ja": "ヴァルコドラクの投擲手"
+  },
+  "25131201": {
+    "codex": "BEAST",
+    "icon": "UI_MonsterIcon_Vukodlak_Strong_Sword",
+    "en": "Volkodlak Basher",
+    "desc": "A relatively large and powerfully built type of Volkodlak found among the many that roam Snezhnaya.\\nWith the strength of beasts and humanoid bodies, they possess a feral instinct for bringing their own power to bear. Should an untrained human face such a Volkodlak with weapons in hand, victory would undoubtedly belong to the latter.",
+    "ko": "야수 요정 분쇄자",
+    "zh": "兽怪敲打者",
+    "ja": "ヴァルコドラクの打撃手"
+  },
+  "25131401": {
+    "codex": "BEAST",
+    "icon": "UI_MonsterIcon_Vukodlak_Thin_Sword",
+    "en": "Volkodlak Raider",
+    "desc": "A relatively small and agile type of Volkodlak found among the many that roam Snezhnaya.\\nWith their swift movements and senses keener than a human's, they can evade many attacks in battle by instinct alone, making them quite troublesome opponents in close-quarters combat.",
+    "ko": "야수 요정 약탈자",
+    "zh": "兽怪捷掠者",
+    "ja": "ヴァルコドラクの略奪手"
+  },
+  "25131601": {
+    "codex": "BEAST",
+    "icon": "UI_MonsterIcon_Vukodlak_Thin_Pistol",
+    "en": "Volkodlak Sharpshooter",
+    "desc": "A relatively small and agile type of Volkodlak found among the many that roam Snezhnaya.\\nThey possess senses keener than those of humans. Whether in their perception of wind speed or their vision under certain conditions, these traits give them unique advantages, allowing them to achieve far greater accuracy than ordinary people when firing bows, crossbows, or cannons from long range.",
+    "ko": "야수 요정 저격수",
+    "zh": "兽怪瞄击者",
+    "ja": "ヴァルコドラクの狙撃手"
+  },
+  "25132601": {
+    "codex": "BEAST",
+    "icon": "UI_MonsterIcon_Volkodlak_Sheepdog",
+    "en": "Leomastiff Guard",
+    "desc": "A Volkodlak of the canine clans that usually appears somewhat lazy.\\nAmong the many Volkodlak clans, the canine clans have always enjoyed a better reputation. Loyal, friendly, and usually mild-mannered. Though they will turn ferocious when those they have sworn to serve, or friends they know well, are placed in danger, striking down anyone they deem enemies.\\nIt is said that during a war long ago, their clan fought His Majesty the Tsar to the last in defense of their own king, and for this, earned His Majesty's favor.",
+    "ko": "사자개 호위병",
+    "zh": "狮獒护卫",
+    "ja": "レオマスティフ・ガード"
+  },
+  "25132701": {
+    "codex": "BEAST",
+    "icon": "UI_MonsterIcon_Volkodlak_Arctichare",
+    "en": "Long-Eared Striker",
+    "desc": "A Volkodlak that usually conceals its slender body beneath a cloak and moves in secrecy.\\nIt is said that long ago, the artisans of the Golden City, who held the authority of creation, fashioned bodies for fae for many different purposes. This type of Volkodlak was originally created to test the limits of reproductive capability.\\nYet after the calamity that reduced that golden realm to ruins, the long-eared clan survived to the present day thanks to their great numbers.\\nNow, they are masters of their own bodies. Agile enough to move deftly even across snow, they have become a threat that those crossing the snowy plains must handle with care.",
+    "ko": "토끼 강습자",
+    "zh": "长耳强袭者",
+    "ja": "長耳のストライカー"
+  },
+  "25132801": {
+    "codex": "BEAST",
+    "icon": "UI_MonsterIcon_Volkodlak_Beaver",
+    "en": "Channel Contact",
+    "desc": "A cunning Volkodlak that disguises its hand cannon as a tree trunk.\\nSkilled at disguising the weapons and cargo they carry, they are often entrusted with transporting goods or relaying intelligence.\\nThe hand cannon they carry was likely something they made in their spare time. At times, they also use it to fire signal rounds disguised as fireworks.\\nDon't be fooled by their appearance. These fae are far more shrewd and cunning than they seem.",
+    "ko": "비버 연락책",
+    "zh": "渠道联络人",
+    "ja": "ルートコネクター"
+  },
+  "25133601": {
+    "codex": "BEAST",
+    "icon": "UI_MonsterIcon_Volkodlak_Mammoth",
+    "en": "Fanged Zealot",
+    "desc": "A Volkodlak that has become extremely powerful after inheriting more of the mighty power in its bloodline.\\nAmong the many different Volkodlaks, those resembling giant elephants or mammoths possess some of the noblest bloodlines. Their clan once produced many formidable war leaders, many of whom even served as close retainers to the King of Beasts.\\nYet the greater an individual fae's power and the longer its life, the harder it becomes for such beings to form a clan. Compared with other Volkodlaks, this type is now far rarer in Snezhnaya.",
+    "ko": "매머드 광전사",
+    "zh": "牙兽狂徒",
+    "ja": "牙獣の狂信者"
+  },
+  "25133701": {
+    "codex": "BEAST",
+    "icon": "UI_MonsterIcon_Volkodlak_Greyhound",
+    "en": "Voywolf Hunter",
+    "desc": "A Volkodlak that has become extremely powerful after inheriting more of the mighty power in its bloodline.\\nTheir clan once prospered to the point that they could serve as an independent army under the King of Beasts. Yet after the Belyi Tsar, master of the Pale Star's royal court, unified the frozen lands, the clan's relatively small losses in the war caused them to fall under suspicion. They gradually declined, and by the time the Tsaritsa ascended the throne, they had withdrawn from the center of power in Snezhnaya. Today, most wolf-pack Volkodlak make their homes in the snowy plains and mountain forests.",
+    "ko": "늑대 추적자",
+    "zh": "嗥狼追猎者",
+    "ja": "蒼狼の追跡者"
+  },
+  "25135001": {
+    "codex": "BEAST",
+    "icon": "UI_MonsterIcon_Human_Female_Staff_Snegurochka",
+    "en": "Glaciomancer",
+    "desc": "A Snegovik born of love amid the snow and ice.\\nFemale Snegovik are known as Snegurochka, and most are born as mages capable of freely wielding the power of ice and snow. It's said that when Snegovik were first created, their souls were incomplete, and only by falling in love with humans could they make themselves whole.\\nYet once a Snegovik has attained wholeness, does it still need love? Perhaps not.\\nMaybe this is why so many stories of love between Snegovik and human end in tragedy.",
+    "ko": "눈의 비법사",
+    "zh": "凝冰秘法师",
+    "ja": "氷の秘法師"
+  },
+  "25135101": {
+    "codex": "BEAST",
+    "icon": "UI_MonsterIcon_Snegurochka_Male",
+    "en": "Glacial Warden",
+    "desc": "A Snegovik born of love amid the snow and ice.\\nMale Snegovik are natural-born knights, and most are born able to freely forge weapons from ice and snow.\\nLegend tells that during the Belyi Tsar's campaign against the dark tide, a Snegovik serving as his guard unleashed a power that didn't belong to his kind, transforming into a towering giant.\\nThough his final fate remains unknown, one who violated such a taboo surely could not have met with a happy end.",
+    "ko": "눈의 수호기사",
+    "zh": "凝冰戍卫",
+    "ja": "氷の番人"
+  },
+  "25137001": {
+    "codex": "BEAST",
+    "icon": "UI_MonsterIcon_Leshy_Mature_01",
+    "en": "Rugged Elder Leshy",
+    "desc": "A Leshy that grows in forests and wilds.\\nWith only fragmentary sentience and no ability to speak, Leshies may appear to be the result of the Golden Realm's early experiments. Yet according to records, the truth is the opposite. Only after its artisans had almost fully mastered the authority over life did they create this race of fae.\\nPerhaps there is some true purpose within this that neither the fae nor humans of the present can fully understand.",
+    "ko": "고목 요정",
+    "zh": "苍遒的木灵长",
+    "ja": "宿老の樹霊"
+  },
+  "25138001": {
+    "codex": "BEAST",
+    "icon": "UI_MonsterIcon_Leshy_Normal_01",
+    "en": "Juvenile Tree Segment",
+    "desc": "A Leshy that grows in forests and wilds.\\nAmong the many fae of Snezhnaya, Leshies are a very unusual kind, rarely appearing in cities. They may well be the longest-lived among all fae, and few members of other long-lived races have ever witnessed a Leshy's life from beginning to end. Of course, most people would likely struggle even to distinguish one Leshy from another.",
+    "ko": "묘목 요정",
+    "zh": "幼嫩的分节树",
+    "ja": "若枝の木霊"
+  },
+  "25140101": {
+    "codex": "BEAST",
+    "icon": "UI_MonsterIcon_Zharptitsa_02",
+    "en": "Immortal Construct",
+    "desc": "A byproduct created by the alchemist Koshchei during his creation of the individual known as the Firebird.\\nPerhaps this was the gloomy alchemist's habit: whenever one experimental subject from a batch succeeded, all the others would be abandoned or disposed of as he pleased.\\nThis derivative creation should have fused with some form of power and reached completion. Now, however, it can only wander endlessly through the mountain gorges as an incomplete, mindless beast.",
+    "ko": "불멸의 부산물",
+    "zh": "不灭衍生造物",
+    "ja": "不滅の副産物"
   },
   "25210101": {
     "codex": "HUMAN",
@@ -2272,7 +2416,7 @@
     "icon": "UI_MonsterIcon_Fungus_Un_Delta_Wind",
     "en": "Floating Anemo Fungus",
     "desc": "A spore organism of some intelligence. It possesses extreme adaptability.\\nThis mushroom may have a sizable cap, but the umbrella-shaped structure is in fact hollow, and thus does not make for a particularly good meal.",
-    "ko": "",
+    "ko": "둥실 바람 버섯몬",
     "zh": "浮游风蕈兽",
     "ja": "プカプカ風キノコン"
   },
@@ -2290,7 +2434,7 @@
     "icon": "UI_MonsterIcon_Fungus_Trois_Alpha_Ice",
     "en": "Whirling Cryo Fungus",
     "desc": "A spore organism of some intelligence. It possesses extreme adaptability.\\nPutting Fungi on ice does not make them taste any better, but it does at least help with relieving the heat.",
-    "ko": "",
+    "ko": "빙글 얼음 버섯몬",
     "zh": "旋转冰蕈兽",
     "ja": "グルグル氷キノコン"
   },
@@ -2915,6 +3059,51 @@
     "zh": "蕴光月守宫",
     "ja": "集光の月ヤモリ"
   },
+  "26310101": {
+    "codex": "BEAST",
+    "icon": "UI_MonsterIcon_Chimera_BeetleLion",
+    "en": "Chimeric Armored Beast",
+    "desc": "A product of bio-alchemy that was once widespread across the frozen lands, an aberrant chimeric monster.\\nIf a four-legged beast were given a carapace and charging horn like those of an Onikabuto, it might well become a shock force capable of breaking through enemy formations.\\nIn theory, man-made monsters designed around a single function rarely survive in the wild. Once they lose the place or purpose for which they were made, most perish for having defied the laws of nature. Clearly, however, the Armored Beast is not one of them.\\nToday, on the frozen lands of Snezhnaya, Armored Beasts can often be seen hunting in packs.",
+    "ko": "갑각 키메라",
+    "zh": "嵌合鍪甲兽",
+    "ja": "合成獣・アーマービースト"
+  },
+  "26310201": {
+    "codex": "BEAST",
+    "icon": "UI_MonsterIcon_Chimera_OwlPangolin",
+    "en": "Chimeric Burrowbeast",
+    "desc": "A product of bio-alchemy that was once widespread across the frozen lands, an aberrant chimeric monster.\\nIf a monster that burrows and moves through earth and snow were granted vision that could see all within the shadows, could it become an even stronger predator?\\nThe experiment proved astonishingly successful. These Burrowbeasts move beneath the surface at night, digging traps in the dark or hiding in the shadows to hunt.\\nAccording to a report in Vestnik, a worker living in Svetloledovka once saw a giant Burrowbeast nearly as tall as two people... though that is probably nothing more than a wild rumor.",
+    "ko": "땅굴 키메라",
+    "zh": "嵌合梭地兽",
+    "ja": "合成獣・バロウビースト"
+  },
+  "26310301": {
+    "codex": "BEAST",
+    "icon": "UI_MonsterIcon_Chimera_ElephantBird",
+    "en": "Chimeric Winged Elephant",
+    "desc": "A product of bio-alchemy that was once widespread across the frozen lands, an aberrant chimeric monster.\\nA short-legged elephant with wings could likely migrate without being restricted by terrain, and would also be able to reach fruit growing in higher places.\\nFor that purpose alone, its creator brought such a beast into being. Later, during the war against the dark tide, Chimeric Winged Elephants worked alongside the Vila in intelligence and communications, ensuring that the Belyi Tsar's commands could pass smoothly and swiftly as his army advanced.",
+    "ko": "코끼리 키메라",
+    "zh": "嵌合翼象兽",
+    "ja": "合成獣・ウィングエレファント"
+  },
+  "26310401": {
+    "codex": "BEAST",
+    "icon": "UI_MonsterIcon_Chimera_BearDeer",
+    "en": "Chimeric Horned Bear",
+    "desc": "A product of bio-alchemy, a man-made monster with an exceptionally unusual formation.\\nA man-made monster not formed according to its creator's design, but through the spontaneous assembly of life segments. As a result, it came to possess certain wondrous traits, including the ability to freely wield elemental power.\\nEven if life is broken down until almost nothing remains but segments, could some will or power still guide them to grow according to a mysterious plan?\\nPerhaps no one knows the answer to that by now.",
+    "ko": "뿔곰 키메라",
+    "zh": "嵌合角熊",
+    "ja": "合成獣・ホーンベア"
+  },
+  "26310501": {
+    "codex": "BEAST",
+    "icon": "UI_MonsterIcon_Chimera_Manticore",
+    "en": "Chimeric Winged Lion",
+    "desc": "A product of bio-alchemy, one of the man-made monsters that was abandoned.\\nTo bring a certain great wish to fruition, an alchemist created numerous primordial bodies known as \"Prototypes\" through a technique that must never be retold.\\nOf these, only one successfully grew into the perfect creation he had planned. The others, though close to perfection, ultimately failed, and were carelessly remade into two-headed monsters.\\nThough regarded as failures, these special two-headed monsters still possess tremendous power. Among chimeras, there is nothing that can stand against them.",
+    "ko": "날개 사자 키메라",
+    "zh": "嵌合翼骏狮",
+    "ja": "合成獣・フリューゲルレーヴェ"
+  },
   "28010101": {
     "codex": "CRITTER",
     "icon": "UI_AnimalIcon_Crab_01",
@@ -3293,6 +3482,15 @@
     "zh": "琥珀猎犬",
     "ja": "琥珀ハウンド"
   },
+  "28020414": {
+    "codex": "ANIMAL",
+    "icon": "UI_AnimalIcon_SledDog_01",
+    "en": "Morozhound",
+    "desc": "Humanity's best friend!\\nMorozhounds have stunning endurance and gentle personalities. And so, humans fitted them with harnesses and had them pull sleds, forming the first transport teams on the snowy plains.\\nToday, dog-pulled sleds have slowly become more of a tourist attraction in small border towns, with a tiny minority who still respect sledding as a traditional competitive sport. Still, the people of the snowfields continue to regard Morozhounds as the closest of companions.",
+    "ko": "썰매견",
+    "zh": "雪地犬",
+    "ja": "スノーハウンド"
+  },
   "28020501": {
     "codex": "ANIMAL",
     "icon": "UI_AnimalIcon_Cat_01",
@@ -3491,6 +3689,15 @@
     "zh": "帔髦獾",
     "ja": "モサモサアナグマ"
   },
+  "28021404": {
+    "codex": "ANIMAL",
+    "icon": "UI_AnimalIcon_Wolverine_04",
+    "en": "Fuzzbadger",
+    "desc": "Close kin of the Chic Badgers, these animals make their dwelling in the Snezhnayan interior.\\nFuzzbadgers are clad in long, thick, and soft fur, allowing them to travel as they please, even in the coldest of climes.\\nDespite their fluffy appearance, they possess a fierce temperament and never back down, even when facing massive foes. Such is the law of survival on the snowy plains: Do not tread upon the territory of a Fuzzbadger carelessly, lest they show their claws and swiftly make an example of any trespassers.",
+    "ko": "복슬 오소리",
+    "zh": "茸茸獾",
+    "ja": "モフモフアナグマ"
+  },
   "28021501": {
     "codex": "ANIMAL",
     "icon": "UI_AnimalIcon_Reindeer_01",
@@ -3508,6 +3715,33 @@
     "ko": "낙타뿔 사슴",
     "zh": "驼角鹿",
     "ja": "アカシカ"
+  },
+  "28021503": {
+    "codex": "ANIMAL",
+    "icon": "UI_AnimalIcon_Reindeer_03",
+    "en": "Severelk",
+    "desc": "Tall and tame animals with a pair of eyes that seem to see through all things.\\nThe Severelk living on the snowy plains have thick fur and sturdy horns, yet their feet are light and fleet, and their sense of smell is so keen that they can forage for food even in the thickest snow, and they flee pursuit from predators swiftly.\\nIn old Snezhanyan fairy tales, Severelk are gentle and winsome, and will enter the dreams of children to bring them the gift that is \"growing up well.\"",
+    "ko": "주걱뿔 사슴",
+    "zh": "雪驼鹿",
+    "ja": "北ヘラジカ"
+  },
+  "28021601": {
+    "codex": "ANIMAL",
+    "icon": "UI_AnimalIcon_Hedgehog_01",
+    "en": "Fluffahog",
+    "desc": "Beasts covered from head to toe in spikes save for their soft bellies.\\nThe Fluffahog is a gentle soul that enjoys sleeping. Indeed, they are skilled at making hidden nests using plants and leaves, so that they can have sweet dreams even in the winter cold. If their nests are discovered, they will curl into a ball, presenting their wall of tough spikes to the world, as though meaning to repel all threats this way.\\nIn Snezhnayan folk stories, the Fluffahog is the smartest amongst animals, knowing formulae for wondrous herbal remedies, comprehending the secrets to stemming the tides of weakening age, even knowing how to open a lock that has no key.",
+    "ko": "말랑 고슴도치",
+    "zh": "软猬兽",
+    "ja": "モコモコネズミ"
+  },
+  "28021701": {
+    "codex": "ANIMAL",
+    "icon": "UI_AnimalIcon_Bear_01",
+    "en": "Polyarbear",
+    "desc": "Animals that can survive even extreme cold, and that boast large bodies and thick fur.\\nDespite their size, Polyarbears are actually quite agile, being able to leap between ice floes and pursue their prey without making a sound, making them the best hunters in the tundra.\\nSkilled in combat, the Polyarbear is no tame beast, and will not submit to either beast or man easily. As such, they are regarded in some regions of Snezhnaya as a symbol of strength.",
+    "ko": "극지곰",
+    "zh": "极地熊",
+    "ja": "ユキグマ"
   },
   "28022001": {
     "codex": "ANIMAL",
@@ -3958,6 +4192,24 @@
     "ko": "왕관 수리",
     "zh": "冠饰鹰",
     "ja": "カンムリ鷹"
+  },
+  "28030711": {
+    "codex": "AVIARY",
+    "icon": "UI_AnimalIcon_Bird_Small_Snezhnaya_01",
+    "en": "Red-Bellied Plover",
+    "desc": "Small Snezhnayan flying birds named for their feathers.\\nRed-Bellied Plovers occasionally call in slow, gentle, and even slightly mournful voices. As such, poets have written of them as singing about someone's tragedies.\\nOf course, these are just romantic interpolations by humans. Red-Bellied Plovers are an innocent, even naive sort, agile in flight, and tough to boot. Forests, fruit orchards, and the water's edge can all serve as their habitats. And for this Plover species, there is likely no more critical activity in life than foraging.",
+    "ko": "붉은배 물떼새",
+    "zh": "赤腹兰鸻",
+    "ja": "アカハラチドリ"
+  },
+  "28030712": {
+    "codex": "AVIARY",
+    "icon": "UI_AnimalIcon_Owl_01",
+    "en": "Nochhornowl",
+    "desc": "Birds that make Snezhnaya their home. They have a full-body covering of feathers that evoke the night sky, and their habit of hunting after sunset has earned them their name.\\nAs the most agile hunters to stalk the tundra, the Nochhornowl is skilled at the arts of disguise, observation, and rapid pursuit.\\nMany hunters see them as a symbol of wisdom, believing them to have spirits and giving them due respect. In return, these owls sometimes guide hunters, sending them messages from the forest depths.",
+    "ko": "밤소쩍새",
+    "zh": "夜角鸮",
+    "ja": "ヨルミミズク"
   },
   "28030723": {
     "codex": "AVIARY",
@@ -4544,6 +4796,60 @@
     "zh": "月芒水母",
     "ja": "月光クラゲ"
   },
+  "28042001": {
+    "codex": "FISH",
+    "icon": "UI_ItemIcon_131054",
+    "en": "Charcoal Snowfin",
+    "desc": "A plump, spherical Snezhnayan fish, this species might look like a distant cousin to the pufferfish found throughout Teyvat. However, the two actually belong to entirely separate lineages. When the Fishing Association first recorded it, its code name was \"Snowland Roundfin.\" After more than a dozen generations of anglers, this informal name gradually evolved into \"Snowfin.\"\\nThe Charcoal Snowfin is the most common subspecies in this family. It is said that the fine, powdery scales contain special components. When dried and ground, and then mixed with the dried powder of Golden Fern roots, they can serve as a remarkably efficient fire starter, prized by many Snezhnayan adventurers.",
+    "ko": "잿빛 눈도치",
+    "zh": "炭灰雪圆鳍",
+    "ja": "ハイマルウオ"
+  },
+  "28042002": {
+    "codex": "FISH",
+    "icon": "UI_ItemIcon_131055",
+    "en": "Cream Snowfin",
+    "desc": "A plump, spherical Snezhnayan fish, this species might look like a distant cousin to the pufferfish found throughout Teyvat. However, the two actually belong to entirely separate lineages. When the Fishing Association first recorded it, its code name was \"Snowland Roundfin.\" After more than a dozen generations of anglers, this informal name gradually evolved into \"Snowfin.\"\\nThe Cream Snowfin, thanks to its near-pure-white coloration and its scarcity, is considered the most precious of Snezhnayan fish. Legend has it that the moment its waters grow even slightly impure, other colors begin to leach into its body. Several fairy tales cast it as their protagonist, telling the dreamlike story of a gifted young angler-lad following one of these Snowfins to the \"Kingdom of Cream\" — a story that briefly caused a citywide cream shortage.",
+    "ko": "크림 눈도치",
+    "zh": "奶油雪圆鳍",
+    "ja": "ユキマルウオ"
+  },
+  "28042003": {
+    "codex": "FISH",
+    "icon": "UI_ItemIcon_131056",
+    "en": "Moonlight Snowfin",
+    "desc": "A plump, spherical Snezhnayan fish, this species might look like a distant cousin to the pufferfish found throughout Teyvat. However, the two actually belong to entirely separate lineages. When the Fishing Association first recorded it, its code name was \"Snowland Roundfin.\" After more than a dozen generations of anglers, this informal name gradually evolved into \"Snowfin.\"\\nFolklore claims the Moonlight Snowfin has the strongest endurance and the best sense of direction of any Snezhnayan fish, its unusual coloration being a gift from moonlight — its ancestors, so the story goes, once traveled far to the waters of Nod-Krai and were baptized in moonbeams. Merchants returning from Nod-Krai deny the tale, and biologists point out that the color most likely comes from the underwater plants it favors as food. But since \"moonlight\" is such a pleasant and memorable prefix, the name has stuck to this day.",
+    "ko": "달빛 눈도치",
+    "zh": "月光雪圆鳍",
+    "ja": "ゲッコウマルウオ"
+  },
+  "28042101": {
+    "codex": "FISH",
+    "icon": "UI_ItemIcon_131057",
+    "en": "Ruby Starbloom Fish",
+    "desc": "A special species that swims the waters of Snezhnaya. Viewed from the front, its six fins form a shape resembling stars and snowflakes, and so the angler who first discovered them called them \"Starbloom Fish.\" The red subspecies is close in color to a red beet and was therefore given the prefix \"Ruby.\" That said, the prefix is only a description of appearance. Some scholars have found that the surface coloration serves mainly to intimidate predators, thereby protecting the fish. It is thus somewhat ironic that from a human perspective, this makes them look all the more delicious.",
+    "ko": "붉은 별꽃날치",
+    "zh": "赤甜星花鱼",
+    "ja": "レッドスターフィッシュ"
+  },
+  "28042102": {
+    "codex": "FISH",
+    "icon": "UI_ItemIcon_131058",
+    "en": "Frostpetal Starbloom Fish",
+    "desc": "A special species that swims the waters of Snezhnaya. Viewed from the front, its six fins form a shape resembling stars and snowflakes, and so the angler who first discovered them called them \"Starbloom Fish.\" The azure subspecies has coloration akin to the outer petal-edges of a Frostfairy Flower, and so was given the prefix \"Frostpetal.\" Compared to its kin, the Frostpetal Starbloom Fish has the keenest senses of the family, always able to detect danger from far off. And thanks to the propulsion advantage of its six fins, they are also quick to flee from said danger.",
+    "ko": "서리 별꽃날치",
+    "zh": "青仙星花鱼",
+    "ja": "ブルースターフィッシュ"
+  },
+  "28042103": {
+    "codex": "FISH",
+    "icon": "UI_ItemIcon_131059",
+    "en": "Iridescent Starbloom Fish",
+    "desc": "A special species that swims the waters of Snezhnaya. Viewed from the front, its six fins form a shape resembling stars and snowflakes, and so the angler who first discovered them called them \"Starbloom Fish.\" The blue subspecies' scales have superb texture and coloration — under certain light, they look like rainbow-reflecting crystal, earning it the elegant prefix \"Iridescent.\" Thanks to this shimmering appearance, Iridescent Starbloom Fish are prized guests of Snezhnayan fish collectors. Indeed, some have even built expensive aquarium landscapes solely for this fish, only to find themselves unable to catch one for the longest time...",
+    "ko": "무지개 별꽃날치",
+    "zh": "虹晶星花鱼",
+    "ja": "プリズムスターフィッシュ"
+  },
   "28050101": {
     "codex": "CRITTER",
     "icon": "UI_AnimalIcon_Wisp_Wind_01",
@@ -4715,6 +5021,24 @@
     "zh": "空羽蛾",
     "ja": "フェザーモス"
   },
+  "28051201": {
+    "codex": "CRITTER",
+    "icon": "UI_AnimalIcon_Boltbug_KrsnikFly_01",
+    "en": "Ledobug",
+    "desc": "A flying insect commonly found near mines. Beneath its icy-blue fuzz lies a body that resembles Kristall.\\nThis creature is much beloved by many miners. With even the faintest light source, Ledobugs in the mines can reflect the light and illuminate the dark caverns.",
+    "ko": "얼음 벌레",
+    "zh": "冰魄虫",
+    "ja": "氷魂虫"
+  },
+  "28051301": {
+    "codex": "CRITTER",
+    "icon": "UI_AnimalIcon_Boltbug_KrsnikGround_01",
+    "en": "Kristall Bug",
+    "desc": "A beetle commonly found near mines. Its shell is hard, and its color and shape resemble that of Kresnik Kristall, hence its name.\\nIt is said that people first discovered the rich mineral deposits beneath these frozen lands by following the trails of Kristall Bugs, and from those riches built a great civilization amid the bitter cold.",
+    "ko": "광석 갑충",
+    "zh": "晶矿虫",
+    "ja": "晶鉱虫"
+  },
   "28060101": {
     "codex": "ANIMAL",
     "icon": "UI_AnimalIcon_Gator_01",
@@ -4777,6 +5101,15 @@
     "ko": "날뱀",
     "zh": "飞蛇",
     "ja": "トビヘビ"
+  },
+  "28061601": {
+    "codex": "ANIMAL",
+    "icon": "UI_AnimalIcon_Megamoth_Snezhnaya",
+    "en": "White Sumpter Beast",
+    "desc": "These white-furred quadrupeds are distant relatives of Sumeru's Sumpter Beasts.\\nThe White Sumpter Beasts are friendly to humans and resistant to the cold by nature, and they were once the most important mode of transport across the frozen fields. Even today, they remain good helpers to the Snezhnayan traveling merchant.",
+    "ko": "흰 동물 짐꾼",
+    "zh": "白驮兽",
+    "ja": "ホワイト駄獣"
   },
   "28070701": {
     "codex": "FISH",

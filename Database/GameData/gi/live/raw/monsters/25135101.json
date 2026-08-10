@@ -1,0 +1,339 @@
+{
+  "name": "Glacial Warden",
+  "desc": "A Snegovik born of love amid the snow and ice.\\nMale Snegovik are natural-born knights, and most are born able to freely forge weapons from ice and snow.\\nLegend tells that during the Belyi Tsar's campaign against the dark tide, a Snegovik serving as his guard unleashed a power that didn't belong to his kind, transforming into a towering giant.\\nThough his final fate remains unknown, one who violated such a taboo surely could not have met with a happy end.",
+  "icon": "UI_MonsterIcon_Snegurochka_Male",
+  "codex": "BEAST",
+  "title": "Snegovik Created From Ice",
+  "special_names": [
+    "Glacial Warden"
+  ],
+  "reward": [
+    {
+      "id": 202,
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    {
+      "id": 112148,
+      "rank": 3,
+      "icon": "UI_ItemIcon_112148"
+    },
+    {
+      "id": 112147,
+      "rank": 2,
+      "icon": "UI_ItemIcon_112147"
+    },
+    {
+      "id": 112146,
+      "rank": 1,
+      "icon": "UI_ItemIcon_112146"
+    }
+  ],
+  "child": {
+    "25135101": {
+      "monster_name": "Snegurochka_Male_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010016,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010016,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010016,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.3,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 81.504,
+        "atk": 75.36,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25135102": {
+      "monster_name": "Snegurochka_Male_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "kill_drop_id": 0,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.3,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 20.116318,
+        "atk": 112.64574,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25135103": {
+      "monster_name": "Snegurochka_Male_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010016,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010016,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010016,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.3,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 81.504,
+        "atk": 75.36,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25135104": {
+      "monster_name": "Snegurochka_Male_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "kill_drop_id": 0,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.3,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 109.725365,
+        "atk": 112.64574,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25135105": {
+      "monster_name": "Snegurochka_Male_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "kill_drop_id": 0,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.3,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 20.116318,
+        "atk": 112.64574,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25135106": {
+      "monster_name": "Snegurochka_Male_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010016,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010016,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010016,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.3,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 81.504,
+        "atk": 75.36,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25135191": {
+      "monster_name": "Snegurochka_Male_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "kill_drop_id": 0,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0,
+        "grass": 0,
+        "water": 0,
+        "elec": 0,
+        "wind": 0,
+        "ice": 0,
+        "rock": 0,
+        "physical": 0
+      },
+      "base": {
+        "hp": 128.01292,
+        "atk": 22.529148,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "name": "Chimeric Armored Beast",
+  "desc": "A product of bio-alchemy that was once widespread across the frozen lands, an aberrant chimeric monster.\\nIf a four-legged beast were given a carapace and charging horn like those of an Onikabuto, it might well become a shock force capable of breaking through enemy formations.\\nIn theory, man-made monsters designed around a single function rarely survive in the wild. Once they lose the place or purpose for which they were made, most perish for having defied the laws of nature. Clearly, however, the Armored Beast is not one of them.\\nToday, on the frozen lands of Snezhnaya, Armored Beasts can often be seen hunting in packs.",
+  "icon": "UI_MonsterIcon_Chimera_BeetleLion",
+  "codex": "BEAST",
+  "title": "Patchwork Beast",
+  "special_names": [
+    "Chimeric Armored Beast"
+  ],
+  "reward": [
+    {
+      "id": 202,
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    {
+      "id": 112151,
+      "rank": 3,
+      "icon": "UI_ItemIcon_112151"
+    },
+    {
+      "id": 112150,
+      "rank": 2,
+      "icon": "UI_ItemIcon_112150"
+    },
+    {
+      "id": 112149,
+      "rank": 1,
+      "icon": "UI_ItemIcon_112149"
+    }
+  ],
+  "child": {
+    "26310101": {
+      "monster_name": "Monster_Chimera_BeetleLion",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "kill_drop_id": 22010017,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.2,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 27.168,
+        "atk": 30.144,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "26310102": {
+      "monster_name": "Monster_Chimera_BeetleLion_Tps",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "kill_drop_id": 0,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.2,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 7.315024,
+        "atk": 58.575787,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

@@ -1,19 +1,21 @@
 {
-  "generatedAt": "2026-08-09T18:13:18.168Z",
+  "generatedAt": "2026-08-10T23:59:07.518Z",
   "note": "overviewArtPool is used only by overview favourite cards. Material/detail art stays on normal character assets.",
   "counts": {
-    "roster": 116,
+    "roster": 118,
     "withCharacterCard": 106,
     "withManualExtra": 39,
     "withOverviewPool": 108,
-    "missingOverviewPool": 8
+    "missingOverviewPool": 10
   },
   "missingCharacterCards": [
+    "Alyosha",
     "Columbina",
     "Illuga",
     "Linnea",
     "Lohen",
     "Nicole",
+    "Odette",
     "Prune",
     "Sandrone",
     "Traveler",
@@ -21,10 +23,12 @@
     "Zibai"
   ],
   "missingOverviewPool": [
+    "Alyosha",
     "Illuga",
     "Linnea",
     "Lohen",
     "Nicole",
+    "Odette",
     "Prune",
     "Sandrone",
     "Varka",
@@ -41,6 +45,18 @@
     }
   ],
   "characters": [
+    {
+      "name": "Odette",
+      "automatic": 0,
+      "manual": 0,
+      "pool": 0
+    },
+    {
+      "name": "Alyosha",
+      "automatic": 0,
+      "manual": 0,
+      "pool": 0
+    },
     {
       "name": "Sandrone",
       "automatic": 0,
@@ -606,6 +622,12 @@
       "pool": 1
     },
     {
+      "name": "Traveler",
+      "automatic": 0,
+      "manual": 1,
+      "pool": 1
+    },
+    {
       "name": "Diluc",
       "automatic": 1,
       "manual": 0,
@@ -729,12 +751,6 @@
       "name": "Xingqiu",
       "automatic": 1,
       "manual": 0,
-      "pool": 1
-    },
-    {
-      "name": "Traveler",
-      "automatic": 0,
-      "manual": 1,
       "pool": 1
     }
   ]

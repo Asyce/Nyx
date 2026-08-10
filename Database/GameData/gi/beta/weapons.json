@@ -22849,7 +22849,7 @@
   },
   {
     "id": "11435",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Heretic's Molten Blade",
     "rarity": 4,
     "type": "WEAPON_SWORD_ONE_HAND",
@@ -23199,7 +23199,7 @@
     "refinements": {
       "1": {
         "name": "Lone Light's Blessing",
-        "desc": "When the equipping character unleashes their Elemental Skill, they gain \"Gleam of First Light\": Every second, increases said character's ATK by between <color=#99FFFFFF>18%</color> and <color=#99FFFFFF>36%</color> depending on how much they have traveled over the last 1s while the effect is active. This effect, which lasts 14s, can trigger once every 14s. It is removed when the equipping character leaves the field.",
+        "desc": "After the equipping character uses their Elemental Skill, they gain \"Gleam of First Light.\" While active, Gleam of First Light tracks their distance traveled. Each second, the equipping character gains an ATK Bonus ranging from <color=#99FFFFFF>18%</color> to <color=#99FFFFFF>36%</color> based on the distance traveled during the previous second. Gleam of First Light lasts 14s, can be triggered once every 14s, and is removed when the equipping character leaves the field.",
         "param_list": [
           14,
           14,
@@ -23213,7 +23213,7 @@
       },
       "2": {
         "name": "Lone Light's Blessing",
-        "desc": "When the equipping character unleashes their Elemental Skill, they gain \"Gleam of First Light\": Every second, increases said character's ATK by between <color=#99FFFFFF>22.5%</color> and <color=#99FFFFFF>45%</color> depending on how much they have traveled over the last 1s while the effect is active. This effect, which lasts 14s, can trigger once every 14s. It is removed when the equipping character leaves the field.",
+        "desc": "After the equipping character uses their Elemental Skill, they gain \"Gleam of First Light.\" While active, Gleam of First Light tracks their distance traveled. Each second, the equipping character gains an ATK Bonus ranging from <color=#99FFFFFF>22.5%</color> to <color=#99FFFFFF>45%</color> based on the distance traveled during the previous second. Gleam of First Light lasts 14s, can be triggered once every 14s, and is removed when the equipping character leaves the field.",
         "param_list": [
           14,
           14,
@@ -23227,7 +23227,7 @@
       },
       "3": {
         "name": "Lone Light's Blessing",
-        "desc": "When the equipping character unleashes their Elemental Skill, they gain \"Gleam of First Light\": Every second, increases said character's ATK by between <color=#99FFFFFF>27%</color> and <color=#99FFFFFF>54%</color> depending on how much they have traveled over the last 1s while the effect is active. This effect, which lasts 14s, can trigger once every 14s. It is removed when the equipping character leaves the field.",
+        "desc": "After the equipping character uses their Elemental Skill, they gain \"Gleam of First Light.\" While active, Gleam of First Light tracks their distance traveled. Each second, the equipping character gains an ATK Bonus ranging from <color=#99FFFFFF>27%</color> to <color=#99FFFFFF>54%</color> based on the distance traveled during the previous second. Gleam of First Light lasts 14s, can be triggered once every 14s, and is removed when the equipping character leaves the field.",
         "param_list": [
           14,
           14,
@@ -23241,7 +23241,7 @@
       },
       "4": {
         "name": "Lone Light's Blessing",
-        "desc": "When the equipping character unleashes their Elemental Skill, they gain \"Gleam of First Light\": Every second, increases said character's ATK by between <color=#99FFFFFF>31.5%</color> and <color=#99FFFFFF>63%</color> depending on how much they have traveled over the last 1s while the effect is active. This effect, which lasts 14s, can trigger once every 14s. It is removed when the equipping character leaves the field.<color=#99FFFFFF></color>",
+        "desc": "After the equipping character uses their Elemental Skill, they gain \"Gleam of First Light.\" While active, Gleam of First Light tracks their distance traveled. Each second, the equipping character gains an ATK Bonus ranging from <color=#99FFFFFF>31.5%</color> to <color=#99FFFFFF>63%</color> based on the distance traveled during the previous second. Gleam of First Light lasts 14s, can be triggered once every 14s, and is removed when the equipping character leaves the field.",
         "param_list": [
           14,
           14,
@@ -23255,7 +23255,7 @@
       },
       "5": {
         "name": "Lone Light's Blessing",
-        "desc": "When the equipping character unleashes their Elemental Skill, they gain \"Gleam of First Light\": Every second, increases said character's ATK by between <color=#99FFFFFF>36%</color> and <color=#99FFFFFF>72%</color> depending on how mu<color=#99FFFFFF></color>ch they have traveled over the last 1s while the effect is active. This effect, which lasts 14s, can trigger once every 14s. It is removed when the equipping character leaves the field.<color=#99FFFFFF></color>",
+        "desc": "After the equipping character uses their Elemental Skill, they gain \"Gleam of First Light.\" While active, Gleam of First Light tracks their distance traveled. Each second, the equipping character gains an ATK Bonus ranging from <color=#99FFFFFF>36%</color> to <color=#99FFFFFF>72%</color> based on the distance traveled during the previous second. Gleam of First Light lasts 14s, can be triggered once every 14s, and is removed when the equipping character leaves the field.",
         "param_list": [
           14,
           14,
@@ -23489,12 +23489,13 @@
       }
     },
     "liveComparison": {
-      "currentHash": "38d61e0348a0c0149b006ce6aa8e729100bfcb2842292426af3c0f1e60355e71"
+      "liveHash": "78a3bb3cd89e9824cc4fd2e7a1a4dbdc2b3cc20c3c26642470f6ec9f3b02f9d8",
+      "currentHash": "78a3bb3cd89e9824cc4fd2e7a1a4dbdc2b3cc20c3c26642470f6ec9f3b02f9d8"
     }
   },
   {
     "id": "11436",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Emberwell",
     "rarity": 4,
     "type": "WEAPON_SWORD_ONE_HAND",
@@ -24134,6 +24135,7 @@
       }
     },
     "liveComparison": {
+      "liveHash": "d61207e0cc480dc3d5fdbd38924c9eaa3fd260f7d13b264fe46daf9c5a034b88",
       "currentHash": "d61207e0cc480dc3d5fdbd38924c9eaa3fd260f7d13b264fe46daf9c5a034b88"
     }
   },
@@ -34481,7 +34483,7 @@
   },
   {
     "id": "11520",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Whitelake Frostfeather",
     "rarity": 5,
     "type": "WEAPON_SWORD_ONE_HAND",
@@ -35127,12 +35129,13 @@
       }
     },
     "liveComparison": {
+      "liveHash": "404c44dba4185a35d3ebc1b9aa964af28e86190449dd2d94d53382430e698092",
       "currentHash": "404c44dba4185a35d3ebc1b9aa964af28e86190449dd2d94d53382430e698092"
     }
   },
   {
     "id": "11521",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Exaiphanes Blade",
     "rarity": 5,
     "type": "WEAPON_SWORD_ONE_HAND",
@@ -35772,6 +35775,7 @@
       }
     },
     "liveComparison": {
+      "liveHash": "468ae1436c13ec01d43e990bb9e856d4547a3abbe2fde4c342d022bae5dd2567",
       "currentHash": "468ae1436c13ec01d43e990bb9e856d4547a3abbe2fde4c342d022bae5dd2567"
     }
   },
@@ -56153,7 +56157,7 @@
   },
   {
     "id": "12435",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Forged by the Golden Melody",
     "rarity": 4,
     "type": "WEAPON_CLAYMORE",
@@ -56793,12 +56797,13 @@
       }
     },
     "liveComparison": {
+      "liveHash": "7976d81e87536638cbd1454760305baa253869299df42efc106ea49ae915d3f6",
       "currentHash": "7976d81e87536638cbd1454760305baa253869299df42efc106ea49ae915d3f6"
     }
   },
   {
     "id": "12436",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Blade of Atonement",
     "rarity": 4,
     "type": "WEAPON_CLAYMORE",
@@ -57438,6 +57443,7 @@
       }
     },
     "liveComparison": {
+      "liveHash": "d4a9073fc636339c4a5249069d4cfb871d563e5f42d0c6765ab559f62baaa50f",
       "currentHash": "d4a9073fc636339c4a5249069d4cfb871d563e5f42d0c6765ab559f62baaa50f"
     }
   },
@@ -63903,7 +63909,7 @@
   },
   {
     "id": "12516",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "A Teaspoon of Transcendence",
     "rarity": 5,
     "type": "WEAPON_CLAYMORE",
@@ -64543,7 +64549,7 @@
       }
     },
     "liveComparison": {
-      "liveHash": "1d252608d5e32dc5a5f864bcdb1a309aae4573d8c3a8775ec85baee32ad8b9d6",
+      "liveHash": "911041f70ffd5ad88b79ce5b1d76637d8fd1403587581201cb87bb0cfeb3ce8b",
       "currentHash": "911041f70ffd5ad88b79ce5b1d76637d8fd1403587581201cb87bb0cfeb3ce8b"
     }
   },
@@ -82341,7 +82347,7 @@
   },
   {
     "id": "13435",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Frostbreath",
     "rarity": 4,
     "type": "WEAPON_POLE",
@@ -82981,12 +82987,13 @@
       }
     },
     "liveComparison": {
+      "liveHash": "65a8d39cadf6b8241b85acbf9acb5728ac247baeeb508fa0867736013fbcafda",
       "currentHash": "65a8d39cadf6b8241b85acbf9acb5728ac247baeeb508fa0867736013fbcafda"
     }
   },
   {
     "id": "13436",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Song of the Vigil",
     "rarity": 4,
     "type": "WEAPON_POLE",
@@ -83626,6 +83633,7 @@
       }
     },
     "liveComparison": {
+      "liveHash": "4e65d5dc3c08ab95bcadec3d1284b96821210202a339bd6f7c8b923fb42a7338",
       "currentHash": "4e65d5dc3c08ab95bcadec3d1284b96821210202a339bd6f7c8b923fb42a7338"
     }
   },
@@ -112405,7 +112413,7 @@
   },
   {
     "id": "14435",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Clash of Kings",
     "rarity": 4,
     "type": "WEAPON_CATALYST",
@@ -113045,12 +113053,13 @@
       }
     },
     "liveComparison": {
+      "liveHash": "0e55d9b3368a778a219e50f57681e8e56f54f0f9e2f05934c97e69e24003bc59",
       "currentHash": "0e55d9b3368a778a219e50f57681e8e56f54f0f9e2f05934c97e69e24003bc59"
     }
   },
   {
     "id": "14436",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Echoes of the Heart",
     "rarity": 4,
     "type": "WEAPON_CATALYST",
@@ -113690,6 +113699,7 @@
       }
     },
     "liveComparison": {
+      "liveHash": "afc5ec52435f58f55ee08274f7f7cce809530ef4b1d1540d36490a7a20710d4f",
       "currentHash": "afc5ec52435f58f55ee08274f7f7cce809530ef4b1d1540d36490a7a20710d4f"
     }
   },
@@ -122093,7 +122103,7 @@
   },
   {
     "id": "14518",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Sunny Morning Sleep-In",
     "rarity": 5,
     "type": "WEAPON_CATALYST",
@@ -122733,7 +122743,7 @@
       }
     },
     "liveComparison": {
-      "liveHash": "d1cba6bccfb086d21cbb1974c9e4061dcef9d723c32dbb1cde4baf65175b7da4",
+      "liveHash": "46558e7b169d4bf7ddbbedb7fad388068404f5b573e2994e031fff8773bfb53c",
       "currentHash": "46558e7b169d4bf7ddbbedb7fad388068404f5b573e2994e031fff8773bfb53c"
     }
   },
@@ -148227,7 +148237,7 @@
   },
   {
     "id": "15435",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Jade Vista",
     "rarity": 4,
     "type": "WEAPON_BOW",
@@ -148577,7 +148587,7 @@
     "refinements": {
       "1": {
         "name": "A Candle Woven From the Night",
-        "desc": "For every party member other than the equipping character:\\n· Who is of the same Elemental Type as the equipper: The equipping character's Elemental Mastery is increased by <color=#99FFFFFF>64</color>;\\n· Who is not of the same Elemental Type as the equipper: The equipping character's ATK increases by <color=#99FFFFFF>12%</color>.\\nThe two effects described above can stack up to 3 times in total, with Elemental Mastery buffs applied first.",
+        "desc": "For every party member other than the equipping character: · Who is of the same Elemental Type as the equipper: The equipping character's Elemental Mastery is increased by <color=#99FFFFFF>64</color>; · Who is not of the same Elemental Type as the equipper: The equipping character's ATK increases by <color=#99FFFFFF>12%</color>. The two effects described above can stack up to 3 times in total, with Elemental Mastery buffs applied first.",
         "param_list": [
           0.12,
           64,
@@ -148591,7 +148601,7 @@
       },
       "2": {
         "name": "A Candle Woven From the Night",
-        "desc": "For every party member other than the equipping character:\\n· Who is of the same Elemental Type as the equipper: The equipping character's Elemental Mastery is increased by <color=#99FFFFFF>80</color>;\\n· Who is not of the same Elemental Type as the equipper: The equipping character's ATK increases by <color=#99FFFFFF>15%</color>.\\nThe two effects described above can stack up to 3 times in total, with Elemental Mastery buffs applied first.",
+        "desc": "For every party member other than the equipping character: · Who is of the same Elemental Type as the equipper: The equipping character's Elemental Mastery is increased by <color=#99FFFFFF>80</color>; · Who is not of the same Elemental Type as the equipper: The equipping character's ATK increases by <color=#99FFFFFF>15%</color>. The two effects described above can stack up to 3 times in total, with Elemental Mastery buffs applied first.",
         "param_list": [
           0.15,
           80,
@@ -148605,7 +148615,7 @@
       },
       "3": {
         "name": "A Candle Woven From the Night",
-        "desc": "For every party member other than the equipping character:\\n· Who is of the same Elemental Type as the equipper: The equipping character's Elemental Mastery is increased by <color=#99FFFFFF>96</color>;\\n· Who is not of the same Elemental Type as the equipper: The equipping character's ATK increases by <color=#99FFFFFF>18%</color>.\\nThe two effects described above can stack up to 3 times in total, with Elemental Mastery buffs applied first.",
+        "desc": "For every party member other than the equipping character: · Who is of the same Elemental Type as the equipper: The equipping character's Elemental Mastery is increased by <color=#99FFFFFF>96</color>; · Who is not of the same Elemental Type as the equipper: The equipping character's ATK increases by <color=#99FFFFFF>18%</color>. The two effects described above can stack up to 3 times in total, with Elemental Mastery buffs applied first.",
         "param_list": [
           0.18,
           96,
@@ -148619,7 +148629,7 @@
       },
       "4": {
         "name": "A Candle Woven From the Night",
-        "desc": "For every party member other than the equipping character:\\n· Who is of the same Elemental Type as the equipper: The equipping character's Elemental Mastery is increased by <color=#99FFFFFF>112</color>;\\n· Who is not of the same Elemental Type as the equipper: The equipping character's ATK increases by <color=#99FFFFFF>21%</color>.\\nThe two effects described above can stack up to 3 times in total, with Elemental Mastery buffs applied first.",
+        "desc": "For every party member other than the equipping character: · Who is of the same Elemental Type as the equipper: The equipping character's Elemental Mastery is increased by <color=#99FFFFFF>112</color>; · Who is not of the same Elemental Type as the equipper: The equipping character's ATK increases by <color=#99FFFFFF>21%</color>. The two effects described above can stack up to 3 times in total, with Elemental Mastery buffs applied first.",
         "param_list": [
           0.21,
           112,
@@ -148633,7 +148643,7 @@
       },
       "5": {
         "name": "A Candle Woven From the Night",
-        "desc": "For every party member other than the equipping character:\\n· Who is of the same Elemental Type as the equipper: The equipping character's Elemental Mastery is increased by <color=#99FFFFFF>128</color>;\\n· Who is not of the same Elemental Type as the equipper: The equipping character's ATK increases by <color=#99FFFFFF>24%</color>.\\nThe two effects described above can stack up to 3 times in total, with Elemental Mastery buffs applied first.",
+        "desc": "For every party member other than the equipping character: · Who is of the same Elemental Type as the equipper: The equipping character's Elemental Mastery is increased by <color=#99FFFFFF>128</color>; · Who is not of the same Elemental Type as the equipper: The equipping character's ATK increases by <color=#99FFFFFF>24%</color>. The two effects described above can stack up to 3 times in total, with Elemental Mastery buffs applied first.",
         "param_list": [
           0.24,
           128,
@@ -148867,12 +148877,13 @@
       }
     },
     "liveComparison": {
-      "currentHash": "4fb8fb3b27ce2d3c53d66bca0e038348d68141a935f3a01eec33c96397cd035b"
+      "liveHash": "49fd72cefa3915262fd0383e445a5a39dbd81d34522bcd38d295f95660c2f9b1",
+      "currentHash": "49fd72cefa3915262fd0383e445a5a39dbd81d34522bcd38d295f95660c2f9b1"
     }
   },
   {
     "id": "15436",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Covenant of Frost and Snow",
     "rarity": 4,
     "type": "WEAPON_BOW",
@@ -149512,6 +149523,7 @@
       }
     },
     "liveComparison": {
+      "liveHash": "e04fdd5aa8f94bb52e24e75f023c73cdb9f3966fa76ca4e89a7a23f66ca3cf46",
       "currentHash": "e04fdd5aa8f94bb52e24e75f023c73cdb9f3966fa76ca4e89a7a23f66ca3cf46"
     }
   },
@@ -155331,7 +155343,7 @@
   },
   {
     "id": "15514",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Astral Vulture's Crimson Plumage",
     "rarity": 5,
     "type": "WEAPON_BOW",
@@ -155971,7 +155983,7 @@
       }
     },
     "liveComparison": {
-      "liveHash": "070ddd95c954f5a5a87b4409ca15bf600fa38bad7cddabc5571e74090592b740",
+      "liveHash": "aa96b5c64a119bbde0f38e1ae1550080ffba7dc347517c85ea0900604cca24e4",
       "currentHash": "aa96b5c64a119bbde0f38e1ae1550080ffba7dc347517c85ea0900604cca24e4"
     }
   },
@@ -157269,7 +157281,7 @@
   },
   {
     "id": "224001",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Shatanaya's Frostsilver",
     "rarity": 4,
     "type": "ITEM_TPS_WEAPON",
@@ -157279,94 +157291,109 @@
     },
     "properties": [],
     "liveComparison": {
+      "liveHash": "09a346c66e77c83565793330ebc478d65e7d9fc8ad842b7b54f10fd74c273f0c",
       "currentHash": "09a346c66e77c83565793330ebc478d65e7d9fc8ad842b7b54f10fd74c273f0c"
     }
   },
   {
     "id": "224002",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Ashamez's Thunder",
     "rarity": 4,
     "type": "ITEM_TPS_WEAPON",
-    "description": "An assault rifle that can switch Normal ATKs to Chain Lightning mode, allowing you to lock onto and track targets.",
+    "description": "An assault rifle that can switch Normal Attacks to Chain Lightning mode, allowing you to lock onto and track targets.",
     "assets": {
       "icon": "GameData/gi/assets/weapons/icons/UI_EquipIcon_AssaultRifle_Fulmen.webp"
     },
     "properties": [],
     "liveComparison": {
-      "currentHash": "3cc0f85713d74531019f2007d5de45d3f41f56af32876d81432083a6b179b78a"
+      "liveHash": "2c95d28b9f5c82eb0e5f393c07815f8526eb1ee42dd74615f16e91164be42628",
+      "currentHash": "2c95d28b9f5c82eb0e5f393c07815f8526eb1ee42dd74615f16e91164be42628"
     }
   },
   {
     "id": "224003",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Balsag's Sunwheel",
     "rarity": 4,
     "type": "ITEM_TPS_WEAPON",
-    "description": "A grenade launcher that can cycle between Pyro, Hydro, and Cryo as the current grenade element.",
+    "description": "A grenade launcher that can cycle between Pyro, Hydro, and Cryo as the current grenade Elemental Type.",
     "assets": {
       "icon": "GameData/gi/assets/weapons/icons/UI_EquipIcon_GrenadeLauncher_Ignis.webp"
     },
     "properties": [],
     "liveComparison": {
-      "currentHash": "28ab016c61f0351b56b2ec4a65b26601c90169931932049ac02f464355b05e33"
+      "liveHash": "3dc6f38dc6dccafd2625dabffea848b95050e89e2fad1e7a691cf4dc0010aaaa",
+      "currentHash": "3dc6f38dc6dccafd2625dabffea848b95050e89e2fad1e7a691cf4dc0010aaaa"
     }
   },
   {
     "id": "224004",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Frag Crystal - Pyro",
     "rarity": 4,
     "type": "ITEM_TPS_WEAPON",
     "description": "Tactical throwable that can deal AoE Pyro DMG.",
-    "assets": {},
+    "assets": {
+      "icon": "GameData/gi/assets/weapons/icons/UI_EquipIcon_Grenade_Fire.webp"
+    },
     "properties": [],
     "liveComparison": {
-      "currentHash": "3df69b7948528cdf339f44163bc44c549c9a30b1873fe9859c5d9d423260d18d"
+      "liveHash": "4a280fd511020c22b7fbe2b8c90b801b407866519e0378ca14c6125e418d0c30",
+      "currentHash": "4a280fd511020c22b7fbe2b8c90b801b407866519e0378ca14c6125e418d0c30"
     }
   },
   {
     "id": "224005",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Frag Crystal - Hydro",
     "rarity": 4,
     "type": "ITEM_TPS_WEAPON",
     "description": "Tactical throwable that can deal AoE Hydro DMG.",
-    "assets": {},
+    "assets": {
+      "icon": "GameData/gi/assets/weapons/icons/UI_EquipIcon_Grenade_Water.webp"
+    },
     "properties": [],
     "liveComparison": {
-      "currentHash": "c56f671e246e2f8c444f2f7fcd1fae1d35a37d2a2d8897ae86067e8e02b01342"
+      "liveHash": "e1798abe130a21fd372eef446f192e3415a48fbfdb54cc55a9a8e15bb8835c9d",
+      "currentHash": "e1798abe130a21fd372eef446f192e3415a48fbfdb54cc55a9a8e15bb8835c9d"
     }
   },
   {
     "id": "224006",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Frag Crystal - Electro",
     "rarity": 4,
     "type": "ITEM_TPS_WEAPON",
     "description": "Tactical throwable that can deal AoE Electro DMG.",
-    "assets": {},
+    "assets": {
+      "icon": "GameData/gi/assets/weapons/icons/UI_EquipIcon_Grenade_Electric.webp"
+    },
     "properties": [],
     "liveComparison": {
-      "currentHash": "fdbfb3db15acebc0018555d63fa6153392673961769f271de794c6b218e4acf1"
+      "liveHash": "3627a68c96b9e20e6a49296f192dba28139f99de018fc2bfe0f98cfa1c1718df",
+      "currentHash": "3627a68c96b9e20e6a49296f192dba28139f99de018fc2bfe0f98cfa1c1718df"
     }
   },
   {
     "id": "224007",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Frag Crystal - Cryo",
     "rarity": 4,
     "type": "ITEM_TPS_WEAPON",
     "description": "Tactical throwable that can deal AoE Cryo DMG.",
-    "assets": {},
+    "assets": {
+      "icon": "GameData/gi/assets/weapons/icons/UI_EquipIcon_Grenade_Ice.webp"
+    },
     "properties": [],
     "liveComparison": {
-      "currentHash": "a436f5f7a818f725b840edde2374026ca149562222e1f1788c5409ca4f73c77b"
+      "liveHash": "419f45e490a82ce954205dbbc50e97e66932f1177123a1aba377e9819a13b003",
+      "currentHash": "419f45e490a82ce954205dbbc50e97e66932f1177123a1aba377e9819a13b003"
     }
   },
   {
     "id": "224008",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Specialized Frag Crystals within the Shadow Realm",
     "rarity": 4,
     "type": "ITEM_TPS_WEAPON",
@@ -157374,6 +157401,7 @@
     "assets": {},
     "properties": [],
     "liveComparison": {
+      "liveHash": "79d92690bdf7bfc14b50b0dde9906f3b0daa705c3e7974f03843476f9042524b",
       "currentHash": "79d92690bdf7bfc14b50b0dde9906f3b0daa705c3e7974f03843476f9042524b"
     }
   },
@@ -157406,6 +157434,34 @@
     }
   },
   {
+    "id": "310003",
+    "contentStatus": "live",
+    "name": "Golden Bough of Nemorensis",
+    "rarity": 4,
+    "type": "WEAPON_SWORD_ONE_HAND",
+    "description": "A glorious, illusory weapon that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its wielder. It is said that, in an ancient age beyond all recollection, a divine envoy of the high heavens bestowed this longsword upon the high priest of Arcadia, granting them the right to lead the holy city blessed by the thousand winds.",
+    "assets": {},
+    "properties": [],
+    "liveComparison": {
+      "liveHash": "50876ce30034ec6d5e8dc6d06b5379abc0cf886750d55eb60d3154a86963c66c",
+      "currentHash": "50876ce30034ec6d5e8dc6d06b5379abc0cf886750d55eb60d3154a86963c66c"
+    }
+  },
+  {
+    "id": "310004",
+    "contentStatus": "live",
+    "name": "Golden Bough of Nemorensis - Sublimation",
+    "rarity": 5,
+    "type": "WEAPON_SWORD_ONE_HAND",
+    "description": "A glorious, illusory weapon that emerged from the depths of the Ley Lines, shimmering with the light of \"Eternity.\" It can change its appearance based on the Elemental Type of its wielder. It is said that, in an ancient age beyond all recollection, a divine envoy of the high heavens bestowed the gilded longsword upon the high priest of Arcadia, granting them the right to lead the holy city before it was entombed by death.",
+    "assets": {},
+    "properties": [],
+    "liveComparison": {
+      "liveHash": "131e578dc84fc5e533bcdf698388b52f90e9330fa49450d3b9e96d13a2d547a8",
+      "currentHash": "131e578dc84fc5e533bcdf698388b52f90e9330fa49450d3b9e96d13a2d547a8"
+    }
+  },
+  {
     "id": "320001",
     "contentStatus": "live",
     "name": "Ardent Storm",
@@ -157431,6 +157487,34 @@
     "liveComparison": {
       "liveHash": "0c11ad7ed72a5b344b3455ed65498ce0d2288cf89202638089b02f619b047851",
       "currentHash": "0c11ad7ed72a5b344b3455ed65498ce0d2288cf89202638089b02f619b047851"
+    }
+  },
+  {
+    "id": "320003",
+    "contentStatus": "live",
+    "name": "Silver Radiance of Gradlon",
+    "rarity": 4,
+    "type": "WEAPON_CLAYMORE",
+    "description": "A glorious, illusory weapon that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its wielder. It is said that, in an ancient age beyond all recollection, a divine envoy of the high heavens bestowed this claymore upon the high priest of Ys, granting them the right to lead the harbor where waters and grasses flourished.",
+    "assets": {},
+    "properties": [],
+    "liveComparison": {
+      "liveHash": "34970c6ccc39bda91941ef8c4eb37727ba6b66914af1ce8caeacf3affbeae0d6",
+      "currentHash": "34970c6ccc39bda91941ef8c4eb37727ba6b66914af1ce8caeacf3affbeae0d6"
+    }
+  },
+  {
+    "id": "320004",
+    "contentStatus": "live",
+    "name": "Silver Radiance of Gradlon - Sublimation",
+    "rarity": 5,
+    "type": "WEAPON_CLAYMORE",
+    "description": "A glorious, illusory weapon that emerged from the depths of the Ley Lines, shimmering with the light of \"Eternity.\" It can change its appearance based on the Elemental Type of its wielder. It is said that, in an ancient age beyond all recollection, a divine envoy of the high heavens bestowed the gilded longsword upon the high priest of Ys, granting them the right to lead the harbor before it sank beneath the sands.",
+    "assets": {},
+    "properties": [],
+    "liveComparison": {
+      "liveHash": "cb1333dc9ba8659cab8d64da2ccbd08b74b7ff409ad049e14198a4479a3fa3cd",
+      "currentHash": "cb1333dc9ba8659cab8d64da2ccbd08b74b7ff409ad049e14198a4479a3fa3cd"
     }
   },
   {
@@ -157462,6 +157546,34 @@
     }
   },
   {
+    "id": "330003",
+    "contentStatus": "live",
+    "name": "Starlight of Fylkir",
+    "rarity": 4,
+    "type": "WEAPON_POLE",
+    "description": "A glorious, illusory weapon that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its wielder. It is said that, in an ancient age beyond all recollection, a divine envoy of the high heavens bestowed this spear upon the high priest of Sal Vindagnyr, granting them the right to lead the city-state wreathed in verdant shade.",
+    "assets": {},
+    "properties": [],
+    "liveComparison": {
+      "liveHash": "54a17db6156d1a8a4684499e849c496a25efb0c4479d08554a23712ed37fc168",
+      "currentHash": "54a17db6156d1a8a4684499e849c496a25efb0c4479d08554a23712ed37fc168"
+    }
+  },
+  {
+    "id": "330004",
+    "contentStatus": "live",
+    "name": "Starlight of Fylkir - Sublimation",
+    "rarity": 5,
+    "type": "WEAPON_POLE",
+    "description": "A glorious, illusory weapon that emerged from the depths of the Ley Lines, shimmering with the light of \"Eternity.\" It can change its appearance based on the Elemental Type of its wielder. It is said that, in an ancient age beyond all recollection, a divine envoy of the high heavens bestowed the gilded spear upon the high priest of Sal Vindagnyr, granting them the right to lead the city-state before it was buried in silver frost.",
+    "assets": {},
+    "properties": [],
+    "liveComparison": {
+      "liveHash": "83abe64602faeb9e77f66964b6f402936f1f269eddb6bf6578d3d26cc8a28c0a",
+      "currentHash": "83abe64602faeb9e77f66964b6f402936f1f269eddb6bf6578d3d26cc8a28c0a"
+    }
+  },
+  {
     "id": "340001",
     "contentStatus": "live",
     "name": "Hallowed Fetters",
@@ -157490,6 +157602,34 @@
     }
   },
   {
+    "id": "340003",
+    "contentStatus": "live",
+    "name": "Dawnstar of Shahar",
+    "rarity": 4,
+    "type": "WEAPON_CATALYST",
+    "description": "A glorious, illusory weapon that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its wielder. It is said that, in an ancient age beyond all recollection, the first divine envoy bestowed her sacred sigil upon the high priest of Hyperborea, granting them the right to lead the resplendent city of gold.",
+    "assets": {},
+    "properties": [],
+    "liveComparison": {
+      "liveHash": "34f4537dcd5a5b0a05e86b47d1191560975cb17b44e8858c34add3d956256595",
+      "currentHash": "34f4537dcd5a5b0a05e86b47d1191560975cb17b44e8858c34add3d956256595"
+    }
+  },
+  {
+    "id": "340004",
+    "contentStatus": "live",
+    "name": "Dawnstar of Shahar - Sublimation",
+    "rarity": 5,
+    "type": "WEAPON_CATALYST",
+    "description": "A glorious, illusory weapon that emerged from the depths of the Ley Lines, shimmering with the light of \"Eternity.\" It can change its appearance based on the Elemental Type of its wielder. It is said that, in an ancient age beyond all recollection, the first divine envoy bestowed the gilded sacred sigil upon the high priest of Hyperborea, granting them the right to lead the great city, ere it faded into the shadows.",
+    "assets": {},
+    "properties": [],
+    "liveComparison": {
+      "liveHash": "fa2c6dc8d25ad98be63c66abab50c3e1fff391059d3a706128e2b484b1d9e510",
+      "currentHash": "fa2c6dc8d25ad98be63c66abab50c3e1fff391059d3a706128e2b484b1d9e510"
+    }
+  },
+  {
     "id": "350001",
     "contentStatus": "live",
     "name": "Starpiercer",
@@ -157515,6 +157655,34 @@
     "liveComparison": {
       "liveHash": "847489b2004d81a3440248d6e639a6b8dfc7fea10f95aa7e4617a66a133601bd",
       "currentHash": "847489b2004d81a3440248d6e639a6b8dfc7fea10f95aa7e4617a66a133601bd"
+    }
+  },
+  {
+    "id": "350003",
+    "contentStatus": "live",
+    "name": "Yayu",
+    "rarity": 4,
+    "type": "WEAPON_BOW",
+    "description": "A glorious, illusory weapon that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its wielder. It is said that, in an ancient age beyond all recollection, a divine envoy of the high heavens bestowed this longbow upon the high priest of Lang-Gan, granting them the right to lead the newborn civilization.",
+    "assets": {},
+    "properties": [],
+    "liveComparison": {
+      "liveHash": "8baaf72af4bb294d374f5586cca559181b5d306c186f4e8889cd5936c668c978",
+      "currentHash": "8baaf72af4bb294d374f5586cca559181b5d306c186f4e8889cd5936c668c978"
+    }
+  },
+  {
+    "id": "350004",
+    "contentStatus": "live",
+    "name": "Yayu - Sublimation",
+    "rarity": 5,
+    "type": "WEAPON_BOW",
+    "description": "A glorious, illusory weapon that emerged from the depths of the Ley Lines, shimmering with the light of \"Eternity.\" It can change its appearance based on the Elemental Type of its wielder. It is said that, in an ancient age beyond all recollection, a divine envoy of the high heavens bestowed the gilded longbow upon the high priest of Lang-Gan, granting them the right to lead the civilization before it plunged into the abyss.",
+    "assets": {},
+    "properties": [],
+    "liveComparison": {
+      "liveHash": "930c895b4c9c09b9823e8c6f382311683651573d9ca944f61bea25b91a31366a",
+      "currentHash": "930c895b4c9c09b9823e8c6f382311683651573d9ca944f61bea25b91a31366a"
     }
   },
   {
@@ -157550,7 +157718,7 @@
   },
   {
     "id": "380003",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "A Touch of Frost in Scorching Summer!",
     "rarity": 4,
     "type": "WEAPON_SWORD_ONE_HAND",
@@ -157561,6 +157729,7 @@
     },
     "properties": [],
     "liveComparison": {
+      "liveHash": "0b310779aac8192a0acc33f07909fdbf51d01033514df7030ede534b8d3aa304",
       "currentHash": "0b310779aac8192a0acc33f07909fdbf51d01033514df7030ede534b8d3aa304"
     }
   },

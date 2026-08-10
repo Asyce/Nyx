@@ -2924,7 +2924,7 @@
   },
   {
     "id": "15002",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Viridescent Venerer",
     "rarity": [
       3,
@@ -3075,7 +3075,7 @@
       }
     ],
     "liveComparison": {
-      "liveHash": "229ee6450715d49de367514651a551f203384da1fd3c8719762dda459b569ca0",
+      "liveHash": "eb4d2eafd04f9e1cf19ae348c7beb76e06c9fa7fa599880ce58a4bab9e045e2a",
       "currentHash": "eb4d2eafd04f9e1cf19ae348c7beb76e06c9fa7fa599880ce58a4bab9e045e2a"
     }
   },
@@ -9637,7 +9637,7 @@
   },
   {
     "id": "15047",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Scarlet Proof",
     "rarity": [
       4,
@@ -9792,12 +9792,13 @@
       }
     ],
     "liveComparison": {
+      "liveHash": "965b7a382b3b410520587c8c655683ba2c759586c24f3a2bc366c7aa519bff2b",
       "currentHash": "965b7a382b3b410520587c8c655683ba2c759586c24f3a2bc366c7aa519bff2b"
     }
   },
   {
     "id": "15048",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Heart of the Furnace",
     "rarity": [
       4,
@@ -9952,6 +9953,7 @@
       }
     ],
     "liveComparison": {
+      "liveHash": "33c54dfe2dc67e9945ee867720bcf66336e99e57610cf71e9209903ea1cd1b7f",
       "currentHash": "33c54dfe2dc67e9945ee867720bcf66336e99e57610cf71e9209903ea1cd1b7f"
     }
   }

@@ -1,0 +1,9 @@
+{
+  "name": "Frag Crystal - Pyro",
+  "desc": "Tactical throwable that can deal AoE Pyro DMG.",
+  "weapon_type": "ITEM_TPS_WEAPON",
+  "rarity": 4,
+  "icon": "UI_EquipIcon_Grenade_Fire",
+  "skill": 999004,
+  "tps": true
+}

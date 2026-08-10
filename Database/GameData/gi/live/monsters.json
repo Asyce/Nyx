@@ -5775,6 +5775,53 @@
           "em": 0
         }
       },
+      "20020102": {
+        "monster_name": "Elemental_Wind_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {
+            "drop_id": 22010035,
+            "hp_percent": 66
+          },
+          {
+            "drop_id": 22010035,
+            "hp_percent": 33
+          },
+          {}
+        ],
+        "kill_drop_id": 22010035,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 67.92,
+          "atk": 62.8,
+          "def": 500,
+          "em": 0
+        }
+      },
       "20020191": {
         "monster_name": "Elemental_Wind_02",
         "type": "MONSTER_ORDINARY",
@@ -11694,6 +11741,50 @@
           {}
         ],
         "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 13.584,
+          "atk": 22.608,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "21010121": {
+        "monster_name": "Hili_None_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {
+            "drop_id": 22010010,
+            "hp_percent": 60
+          },
+          {},
+          {}
+        ],
+        "kill_drop_id": 22010010,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -28732,6 +28823,88 @@
           "em": 0
         }
       },
+      "23070103": {
+        "monster_name": "Human_Male_Standard_Gun_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 22010016,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": -0.2
+        },
+        "base": {
+          "hp": 16.3008,
+          "atk": 22.608,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "23070104": {
+        "monster_name": "Human_Male_Standard_Gun_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 22010016,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": -0.2
+        },
+        "base": {
+          "hp": 16.3008,
+          "atk": 22.608,
+          "def": 500,
+          "em": 0
+        }
+      },
       "23070105": {
         "monster_name": "NPC_NodKrai_Male_Standard_LightKeeperGunMan_7624",
         "type": "MONSTER_ORDINARY",
@@ -29054,6 +29227,47 @@
           "em": 0
         }
       },
+      "23072102": {
+        "monster_name": "Human_MuscleMan_Shield_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 22010017,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": -0.2
+        },
+        "base": {
+          "hp": 19.0176,
+          "atk": 20.096,
+          "def": 500,
+          "em": 0
+        }
+      },
       "23072190": {
         "monster_name": "Human_MuscleMan_Shield_01",
         "type": "MONSTER_ORDINARY",
@@ -29211,6 +29425,88 @@
           "def": 500,
           "em": 0
         }
+      },
+      "23073103": {
+        "monster_name": "Human_Female_Shoulder_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 22010015,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": -0.2
+        },
+        "base": {
+          "hp": 13.584,
+          "atk": 20.096,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "23073104": {
+        "monster_name": "Human_Female_Shoulder_02",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 22010015,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": -0.2
+        },
+        "base": {
+          "hp": 13.584,
+          "atk": 20.096,
+          "def": 500,
+          "em": 0
+        }
       }
     }
   },
@@ -29328,6 +29624,88 @@
           "def": 500,
           "em": 0
         }
+      },
+      "23074103": {
+        "monster_name": "Human_Male_Standard_Claymore_PipeWrench_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 22010014,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": -0.2
+        },
+        "base": {
+          "hp": 16.3008,
+          "atk": 22.608,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "23074104": {
+        "monster_name": "Human_Male_Standard_Claymore_PipeWrench_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 22010014,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": -0.2
+        },
+        "base": {
+          "hp": 16.3008,
+          "atk": 22.608,
+          "def": 500,
+          "em": 0
+        }
       }
     }
   },
@@ -29406,6 +29784,88 @@
         }
       },
       "23076102": {
+        "monster_name": "Human_Male_Standard_Cudgel_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 22010012,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": -0.2
+        },
+        "base": {
+          "hp": 13.584,
+          "atk": 22.608,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "23076103": {
+        "monster_name": "Human_Male_Standard_Cudgel_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 22010012,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": -0.2
+        },
+        "base": {
+          "hp": 13.584,
+          "atk": 22.608,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "23076104": {
         "monster_name": "Human_Male_Standard_Cudgel_01",
         "type": "MONSTER_ORDINARY",
         "hp_drops": [
@@ -29603,6 +30063,88 @@
           "def": 500,
           "em": 0
         }
+      },
+      "23078103": {
+        "monster_name": "Human_Male_Standard_NoWeapon_BombBackpack_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 22010011,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": -0.2
+        },
+        "base": {
+          "hp": 13.584,
+          "atk": 25.12,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "23078104": {
+        "monster_name": "Human_Male_Standard_NoWeapon_BombBackpack_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 22010011,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": -0.2
+        },
+        "base": {
+          "hp": 13.584,
+          "atk": 25.12,
+          "def": 500,
+          "em": 0
+        }
       }
     }
   },
@@ -29687,6 +30229,53 @@
         }
       },
       "23079102": {
+        "monster_name": "Oprichnik_Male_Strong_LanceArquebus_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {
+            "drop_id": 22010011,
+            "hp_percent": 66
+          },
+          {
+            "drop_id": 22010011,
+            "hp_percent": 33
+          },
+          {}
+        ],
+        "kill_drop_id": 22010011,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": -0.2
+        },
+        "base": {
+          "hp": 59.7696,
+          "atk": 50.24,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "23079103": {
         "monster_name": "Oprichnik_Male_Strong_LanceArquebus_01",
         "type": "MONSTER_ORDINARY",
         "hp_drops": [
@@ -29985,6 +30574,53 @@
           "em": 0
         }
       },
+      "23079203": {
+        "monster_name": "Oprichnik_Male_Fat_CannonShield_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {
+            "drop_id": 22010016,
+            "hp_percent": 66
+          },
+          {
+            "drop_id": 22010016,
+            "hp_percent": 33
+          },
+          {}
+        ],
+        "kill_drop_id": 22010016,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": -0.2
+        },
+        "base": {
+          "hp": 65.2032,
+          "atk": 55.264,
+          "def": 500,
+          "em": 0
+        }
+      },
       "23079204": {
         "monster_name": "Oprichnik_Male_Fat_CannonShield_01",
         "type": "MONSTER_ORDINARY",
@@ -30196,6 +30832,53 @@
           "em": 0
         }
       },
+      "23079303": {
+        "monster_name": "prichnik_Female_Slim_MachineGun_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {
+            "drop_id": 22010014,
+            "hp_percent": 66
+          },
+          {
+            "drop_id": 22010014,
+            "hp_percent": 33
+          },
+          {}
+        ],
+        "kill_drop_id": 22010014,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": -0.2
+        },
+        "base": {
+          "hp": 54.336,
+          "atk": 50.24,
+          "def": 500,
+          "em": 0
+        }
+      },
       "23079304": {
         "monster_name": "prichnik_Female_Slim_MachineGun_01",
         "type": "MONSTER_ORDINARY",
@@ -30335,6 +31018,94 @@
           "def": 500,
           "em": 0
         }
+      },
+      "23080103": {
+        "monster_name": "Fatuimecha_CoreA_MoveB_AttackA_Fire_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {
+            "drop_id": 22010010,
+            "hp_percent": 60
+          },
+          {},
+          {}
+        ],
+        "kill_drop_id": 22010010,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 32.6016,
+          "atk": 22.608,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "23080104": {
+        "monster_name": "Fatuimecha_CoreA_MoveB_AttackA_Fire_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {
+            "drop_id": 22010010,
+            "hp_percent": 60
+          },
+          {},
+          {}
+        ],
+        "kill_drop_id": 22010010,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 32.6016,
+          "atk": 22.608,
+          "def": 500,
+          "em": 0
+        }
       }
     }
   },
@@ -30372,6 +31143,94 @@
     ],
     "child": {
       "23080201": {
+        "monster_name": "Fatuimecha_CoreA_MoveA_AttackC_Water_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {
+            "drop_id": 22010010,
+            "hp_percent": 60
+          },
+          {},
+          {}
+        ],
+        "kill_drop_id": 22010010,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 32.6016,
+          "atk": 22.608,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "23080202": {
+        "monster_name": "Fatuimecha_CoreA_MoveA_AttackC_Water_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {
+            "drop_id": 22010010,
+            "hp_percent": 60
+          },
+          {},
+          {}
+        ],
+        "kill_drop_id": 22010010,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 32.6016,
+          "atk": 22.608,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "23080203": {
         "monster_name": "Fatuimecha_CoreA_MoveA_AttackC_Water_01",
         "type": "MONSTER_ORDINARY",
         "hp_drops": [
@@ -30537,6 +31396,94 @@
           "def": 500,
           "em": 0
         }
+      },
+      "23080303": {
+        "monster_name": "Fatuimecha_CoreB_MoveB_AttackB_Grass_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {
+            "drop_id": 22010010,
+            "hp_percent": 60
+          },
+          {},
+          {}
+        ],
+        "kill_drop_id": 22010010,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 27.168,
+          "atk": 27.632,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "23080304": {
+        "monster_name": "Fatuimecha_CoreB_MoveB_AttackB_Grass_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {
+            "drop_id": 22010010,
+            "hp_percent": 60
+          },
+          {},
+          {}
+        ],
+        "kill_drop_id": 22010010,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 27.168,
+          "atk": 27.632,
+          "def": 500,
+          "em": 0
+        }
       }
     }
   },
@@ -30660,6 +31607,94 @@
           "def": 500,
           "em": 0
         }
+      },
+      "23080403": {
+        "monster_name": "Fatuimecha_CoreB_MoveA_AttackB_Ice_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {
+            "drop_id": 22010010,
+            "hp_percent": 60
+          },
+          {},
+          {}
+        ],
+        "kill_drop_id": 22010010,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 27.168,
+          "atk": 27.632,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "23080404": {
+        "monster_name": "Fatuimecha_CoreB_MoveA_AttackB_Ice_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {
+            "drop_id": 22010010,
+            "hp_percent": 60
+          },
+          {},
+          {}
+        ],
+        "kill_drop_id": 22010010,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 27.168,
+          "atk": 27.632,
+          "def": 500,
+          "em": 0
+        }
       }
     }
   },
@@ -30697,6 +31732,94 @@
     ],
     "child": {
       "23080501": {
+        "monster_name": "Fatuimecha_CoreB_MoveE_AttackB_Wind_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {
+            "drop_id": 22010010,
+            "hp_percent": 60
+          },
+          {},
+          {}
+        ],
+        "kill_drop_id": 22010010,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 21.7344,
+          "atk": 27.632,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "23080502": {
+        "monster_name": "Fatuimecha_CoreB_MoveE_AttackB_Wind_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {
+            "drop_id": 22010010,
+            "hp_percent": 60
+          },
+          {},
+          {}
+        ],
+        "kill_drop_id": 22010010,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 21.7344,
+          "atk": 27.632,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "23080503": {
         "monster_name": "Fatuimecha_CoreB_MoveE_AttackB_Wind_01",
         "type": "MONSTER_ORDINARY",
         "hp_drops": [
@@ -30868,6 +31991,100 @@
           "def": 500,
           "em": 0
         }
+      },
+      "23085103": {
+        "monster_name": "Fatuimecha_CoreC_MoveD_AttackA_AttackC_AttackB_Electric_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {
+            "drop_id": 22010010,
+            "hp_percent": 66
+          },
+          {
+            "drop_id": 22010010,
+            "hp_percent": 33
+          },
+          {}
+        ],
+        "kill_drop_id": 22010010,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 95.088,
+          "atk": 75.36,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "23085104": {
+        "monster_name": "Fatuimecha_CoreC_MoveD_AttackA_AttackC_AttackB_Electric_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {
+            "drop_id": 22010010,
+            "hp_percent": 66
+          },
+          {
+            "drop_id": 22010010,
+            "hp_percent": 33
+          },
+          {}
+        ],
+        "kill_drop_id": 22010010,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 95.088,
+          "atk": 75.36,
+          "def": 500,
+          "em": 0
+        }
       }
     }
   },
@@ -30952,6 +32169,100 @@
         }
       },
       "23085202": {
+        "monster_name": "Fatuimecha_CoreC_MoveC_AttackD_AttackC_AttackB_Water_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {
+            "drop_id": 22010010,
+            "hp_percent": 66
+          },
+          {
+            "drop_id": 22010010,
+            "hp_percent": 33
+          },
+          {}
+        ],
+        "kill_drop_id": 22010010,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 108.672,
+          "atk": 62.8,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "23085203": {
+        "monster_name": "Fatuimecha_CoreC_MoveC_AttackD_AttackC_AttackB_Water_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {
+            "drop_id": 22010010,
+            "hp_percent": 66
+          },
+          {
+            "drop_id": 22010010,
+            "hp_percent": 33
+          },
+          {}
+        ],
+        "kill_drop_id": 22010010,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 108.672,
+          "atk": 62.8,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "23085204": {
         "monster_name": "Fatuimecha_CoreC_MoveC_AttackD_AttackC_AttackB_Water_01",
         "type": "MONSTER_ORDINARY",
         "hp_drops": [
@@ -31170,6 +32481,100 @@
       },
       "23085304": {
         "monster_name": "ConfigMonster_Fatuimecha_CoreC_MoveF_AttackB_Fire_01_MagnetCanyon",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {
+            "drop_id": 22010010,
+            "hp_percent": 66
+          },
+          {
+            "drop_id": 22010010,
+            "hp_percent": 33
+          },
+          {}
+        ],
+        "kill_drop_id": 22010010,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 81.504,
+          "atk": 75.36,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "23085305": {
+        "monster_name": "Fatuimecha_CoreC_MoveF_AttackB_Fire_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {
+            "drop_id": 22010010,
+            "hp_percent": 66
+          },
+          {
+            "drop_id": 22010010,
+            "hp_percent": 33
+          },
+          {}
+        ],
+        "kill_drop_id": 22010010,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 81.504,
+          "atk": 75.36,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "23085306": {
+        "monster_name": "Fatuimecha_CoreC_MoveF_AttackB_Fire_01",
         "type": "MONSTER_ORDINARY",
         "hp_drops": [
           {
@@ -31847,6 +33252,56 @@
         },
         "base": {
           "hp": 400000,
+          "atk": 60.288,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "24010113": {
+        "monster_name": "Defender_None_10",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {
+            "drop_id": 22010040,
+            "hp_percent": 75
+          },
+          {
+            "drop_id": 22010040,
+            "hp_percent": 50
+          },
+          {
+            "drop_id": 22010040,
+            "hp_percent": 25
+          }
+        ],
+        "kill_drop_id": 22010030,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.7
+        },
+        "base": {
+          "hp": 95.088,
           "atk": 60.288,
           "def": 500,
           "em": 0
@@ -47924,6 +49379,3898 @@
     }
   },
   {
+    "id": "25130101",
+    "contentStatus": "live",
+    "name": "Winged Halberd-Knight",
+    "type": "BEAST",
+    "title": "Vila of the Dancing Wings",
+    "description": "A winged Vila capable of flight.\\nRecords show that in the century after the Tsaritsa ascended the throne, the Vila went through many turbulent periods. Among them were fae who launched small-scale rebellions out of dissatisfaction with the Tsaritsa's policies toward the fae nobility.\\nThe rebellions were soon suppressed, but the fact that their leaders were descendants of the old Vila nobility once led to a major split within the Vila people.",
+    "assets": {
+      "icon": "GameData/gi/assets/monsters/UI_MonsterIcon_Human_Girl_Vila_Glaive.webp"
+    },
+    "rewards": [
+      {
+        "id": 202,
+        "rank": 3,
+        "icon": "UI_ItemIcon_202"
+      },
+      {
+        "id": 112148,
+        "rank": 3,
+        "icon": "UI_ItemIcon_112148"
+      },
+      {
+        "id": 112147,
+        "rank": 2,
+        "icon": "UI_ItemIcon_112147"
+      },
+      {
+        "id": 112146,
+        "rank": 1,
+        "icon": "UI_ItemIcon_112146"
+      }
+    ],
+    "child": {
+      "25130101": {
+        "monster_name": "Human_Girl_Vila_Glaive_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 22010015,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.2,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 20.376,
+          "atk": 27.632,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "25130102": {
+        "monster_name": "Human_Girl_Vila_Glaive_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.2,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 5.486268,
+          "atk": 49.564125,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "25130191": {
+        "monster_name": "Human_Girl_Vila_Glaive_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0,
+          "grass": 0,
+          "water": 0,
+          "elec": 0,
+          "wind": 0,
+          "ice": 0,
+          "rock": 0,
+          "physical": 0
+        },
+        "base": {
+          "hp": 19.95007,
+          "atk": 22.529148,
+          "def": 500,
+          "em": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "25130201",
+    "contentStatus": "live",
+    "name": "Winged Soarer Knight",
+    "type": "BEAST",
+    "title": "Vila of the Dancing Wings",
+    "description": "A winged Vila capable of flight.\\nIt's said that the Vila were among the fae clans that followed the Belyi Tsar from the very beginning of his campaign to unify the frozen lands. Their ability to take brief flight gives them exceptional mobility, allowing them to scout enemy formations and carry out long-distance raids with ease.\\nMost members of the Druzhna, the personal guard founded during the Belyi Tsar reign, were Vila.",
+    "assets": {
+      "icon": "GameData/gi/assets/monsters/UI_MonsterIcon_Human_Girl_Vila_Blade.webp"
+    },
+    "rewards": [
+      {
+        "id": 202,
+        "rank": 3,
+        "icon": "UI_ItemIcon_202"
+      },
+      {
+        "id": 112148,
+        "rank": 3,
+        "icon": "UI_ItemIcon_112148"
+      },
+      {
+        "id": 112147,
+        "rank": 2,
+        "icon": "UI_ItemIcon_112147"
+      },
+      {
+        "id": 112146,
+        "rank": 1,
+        "icon": "UI_ItemIcon_112146"
+      }
+    ],
+    "child": {
+      "25130201": {
+        "monster_name": "Human_Boy_Vila_Blade_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 22010015,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.2,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 19.0176,
+          "atk": 22.608,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "25130202": {
+        "monster_name": "Human_Boy_Vila_Blade_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 22010015,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.2,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 19.0176,
+          "atk": 22.608,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "25130203": {
+        "monster_name": "Human_Boy_Vila_Blade_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.2,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 4.57189,
+          "atk": 40.552467,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "25130204": {
+        "monster_name": "Human_Boy_Vila_Blade_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.2,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 4.57189,
+          "atk": 40.552467,
+          "def": 500,
+          "em": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "25131001",
+    "contentStatus": "live",
+    "name": "Volkodlak Lobber",
+    "type": "BEAST",
+    "title": "Volkodlak Brute",
+    "description": "A relatively large and powerfully built type of Volkodlak found among the many that roam Snezhnaya.\\nWith the strength of beasts and humanoid bodies, their powerful upper bodies allow them to throw with greater force and precision. Volkodlak may not excel at shaping Prime Ice or wielding elemental power, but among the many fae lineages, few can match their command over physical strength.",
+    "assets": {
+      "icon": "GameData/gi/assets/monsters/UI_MonsterIcon_Vukodlak_Strong_NoWeapon.webp"
+    },
+    "rewards": [
+      {
+        "id": 202,
+        "rank": 3,
+        "icon": "UI_ItemIcon_202"
+      },
+      {
+        "id": 112154,
+        "rank": 4,
+        "icon": "UI_ItemIcon_112154"
+      },
+      {
+        "id": 112153,
+        "rank": 3,
+        "icon": "UI_ItemIcon_112153"
+      },
+      {
+        "id": 112152,
+        "rank": 2,
+        "icon": "UI_ItemIcon_112152"
+      },
+      {
+        "id": 112148,
+        "rank": 3,
+        "icon": "UI_ItemIcon_112148"
+      },
+      {
+        "id": 112147,
+        "rank": 2,
+        "icon": "UI_ItemIcon_112147"
+      },
+      {
+        "id": 112146,
+        "rank": 1,
+        "icon": "UI_ItemIcon_112146"
+      },
+      {
+        "id": 400023,
+        "rank": 4,
+        "icon": "UI_RelicIcon_10005_4"
+      },
+      {
+        "id": 400033,
+        "rank": 4,
+        "icon": "UI_RelicIcon_10007_4"
+      },
+      {
+        "id": 400043,
+        "rank": 4,
+        "icon": "UI_RelicIcon_10009_4"
+      },
+      {
+        "id": 400022,
+        "rank": 3,
+        "icon": "UI_RelicIcon_10005_4"
+      },
+      {
+        "id": 400032,
+        "rank": 3,
+        "icon": "UI_RelicIcon_10007_4"
+      },
+      {
+        "id": 400042,
+        "rank": 3,
+        "icon": "UI_RelicIcon_10009_4"
+      },
+      {
+        "id": 400062,
+        "rank": 3,
+        "icon": "UI_RelicIcon_10013_4"
+      }
+    ],
+    "child": {
+      "25131001": {
+        "monster_name": "Vukodlak_Strong_NoWeapon_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 22010010,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 20.376,
+          "atk": 25.12,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "25131002": {
+        "monster_name": "Vukodlak_Strong_NoWeapon_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 22010010,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 20.376,
+          "atk": 25.12,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "25131003": {
+        "monster_name": "Vukodlak_Strong_NoWeapon_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 22010010,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 20.376,
+          "atk": 25.12,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "25131004": {
+        "monster_name": "Vukodlak_Strong_NoWeapon_TPS",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 6.400646,
+          "atk": 45.058296,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "25131005": {
+        "monster_name": "Vukodlak_Strong_NoWeapon_TPS",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 6.400646,
+          "atk": 45.058296,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "25131008": {
+        "monster_name": "Vukodlak_Strong_NoWeapon_01_GangSneak",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 22010010,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 20.376,
+          "atk": 25.12,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "25131011": {
+        "monster_name": "Vukodlak_Strong_NoWeapon_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 22010010,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 20.376,
+          "atk": 25.12,
+          "def": 500,
+          "em": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "25131201",
+    "contentStatus": "live",
+    "name": "Volkodlak Basher",
+    "type": "BEAST",
+    "title": "Volkodlak Brute",
+    "description": "A relatively large and powerfully built type of Volkodlak found among the many that roam Snezhnaya.\\nWith the strength of beasts and humanoid bodies, they possess a feral instinct for bringing their own power to bear. Should an untrained human face such a Volkodlak with weapons in hand, victory would undoubtedly belong to the latter.",
+    "assets": {
+      "icon": "GameData/gi/assets/monsters/UI_MonsterIcon_Vukodlak_Strong_Sword.webp"
+    },
+    "rewards": [
+      {
+        "id": 202,
+        "rank": 3,
+        "icon": "UI_ItemIcon_202"
+      },
+      {
+        "id": 112154,
+        "rank": 4,
+        "icon": "UI_ItemIcon_112154"
+      },
+      {
+        "id": 112153,
+        "rank": 3,
+        "icon": "UI_ItemIcon_112153"
+      },
+      {
+        "id": 112152,
+        "rank": 2,
+        "icon": "UI_ItemIcon_112152"
+      },
+      {
+        "id": 112148,
+        "rank": 3,
+        "icon": "UI_ItemIcon_112148"
+      },
+      {
+        "id": 112147,
+        "rank": 2,
+        "icon": "UI_ItemIcon_112147"
+      },
+      {
+        "id": 112146,
+        "rank": 1,
+        "icon": "UI_ItemIcon_112146"
+      },
+      {
+        "id": 400023,
+        "rank": 4,
+        "icon": "UI_RelicIcon_10005_4"
+      },
+      {
+        "id": 400033,
+        "rank": 4,
+        "icon": "UI_RelicIcon_10007_4"
+      },
+      {
+        "id": 400043,
+        "rank": 4,
+        "icon": "UI_RelicIcon_10009_4"
+      },
+      {
+        "id": 400022,
+        "rank": 3,
+        "icon": "UI_RelicIcon_10005_4"
+      },
+      {
+        "id": 400032,
+        "rank": 3,
+        "icon": "UI_RelicIcon_10007_4"
+      },
+      {
+        "id": 400042,
+        "rank": 3,
+        "icon": "UI_RelicIcon_10009_4"
+      },
+      {
+        "id": 400062,
+        "rank": 3,
+        "icon": "UI_RelicIcon_10013_4"
+      }
+    ],
+    "child": {
+      "25131201": {
+        "monster_name": "Vukodlak_Strong_Sword_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 22010010,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 20.376,
+          "atk": 25.12,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "25131202": {
+        "monster_name": "Vukodlak_Strong_Sword_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 22010010,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 20.376,
+          "atk": 25.12,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "25131203": {
+        "monster_name": "Vukodlak_Strong_Sword_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 22010010,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 20.376,
+          "atk": 25.12,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "25131205": {
+        "monster_name": "Vukodlak_Strong_Sword_TPS",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 7.315024,
+          "atk": 49.564125,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "25131206": {
+        "monster_name": "Vukodlak_Strong_Sword_TPS",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 7.315024,
+          "atk": 49.564125,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "25131211": {
+        "monster_name": "Vukodlak_Strong_Sword_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 22010010,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 20.376,
+          "atk": 25.12,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "25131221": {
+        "monster_name": "Monster_Vukodlak_Strong_Sword_NPC_17050",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 22010010,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 20.376,
+          "atk": 25.12,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "25131222": {
+        "monster_name": "Monster_Vukodlak_Strong_Sword_NPC_Standard_001",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 22010010,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 20.376,
+          "atk": 25.12,
+          "def": 500,
+          "em": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "25131401",
+    "contentStatus": "live",
+    "name": "Volkodlak Raider",
+    "type": "BEAST",
+    "title": "Volkodlak Brute",
+    "description": "A relatively small and agile type of Volkodlak found among the many that roam Snezhnaya.\\nWith their swift movements and senses keener than a human's, they can evade many attacks in battle by instinct alone, making them quite troublesome opponents in close-quarters combat.",
+    "assets": {
+      "icon": "GameData/gi/assets/monsters/UI_MonsterIcon_Vukodlak_Thin_Sword.webp"
+    },
+    "rewards": [
+      {
+        "id": 202,
+        "rank": 3,
+        "icon": "UI_ItemIcon_202"
+      },
+      {
+        "id": 112154,
+        "rank": 4,
+        "icon": "UI_ItemIcon_112154"
+      },
+      {
+        "id": 112153,
+        "rank": 3,
+        "icon": "UI_ItemIcon_112153"
+      },
+      {
+        "id": 112152,
+        "rank": 2,
+        "icon": "UI_ItemIcon_112152"
+      },
+      {
+        "id": 112148,
+        "rank": 3,
+        "icon": "UI_ItemIcon_112148"
+      },
+      {
+        "id": 112147,
+        "rank": 2,
+        "icon": "UI_ItemIcon_112147"
+      },
+      {
+        "id": 112146,
+        "rank": 1,
+        "icon": "UI_ItemIcon_112146"
+      },
+      {
+        "id": 400023,
+        "rank": 4,
+        "icon": "UI_RelicIcon_10005_4"
+      },
+      {
+        "id": 400033,
+        "rank": 4,
+        "icon": "UI_RelicIcon_10007_4"
+      },
+      {
+        "id": 400043,
+        "rank": 4,
+        "icon": "UI_RelicIcon_10009_4"
+      },
+      {
+        "id": 400022,
+        "rank": 3,
+        "icon": "UI_RelicIcon_10005_4"
+      },
+      {
+        "id": 400032,
+        "rank": 3,
+        "icon": "UI_RelicIcon_10007_4"
+      },
+      {
+        "id": 400042,
+        "rank": 3,
+        "icon": "UI_RelicIcon_10009_4"
+      },
+      {
+        "id": 400062,
+        "rank": 3,
+        "icon": "UI_RelicIcon_10013_4"
+      }
+    ],
+    "child": {
+      "25131401": {
+        "monster_name": "Vukodlak_Thin_Sword_01_01B",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 22010010,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 17.6592,
+          "atk": 20.096,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "25131402": {
+        "monster_name": "Vukodlak_Thin_Sword_01_01B",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 22010010,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 17.6592,
+          "atk": 20.096,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "25131403": {
+        "monster_name": "Vukodlak_Thin_Sword_01_01B",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 22010010,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 17.6592,
+          "atk": 20.096,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "25131411": {
+        "monster_name": "Vukodlak_Thin_Sword_01_01B",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 22010010,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 17.6592,
+          "atk": 20.096,
+          "def": 500,
+          "em": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "25131601",
+    "contentStatus": "live",
+    "name": "Volkodlak Sharpshooter",
+    "type": "BEAST",
+    "title": "Volkodlak Brute",
+    "description": "A relatively small and agile type of Volkodlak found among the many that roam Snezhnaya.\\nThey possess senses keener than those of humans. Whether in their perception of wind speed or their vision under certain conditions, these traits give them unique advantages, allowing them to achieve far greater accuracy than ordinary people when firing bows, crossbows, or cannons from long range.",
+    "assets": {
+      "icon": "GameData/gi/assets/monsters/UI_MonsterIcon_Vukodlak_Thin_Pistol.webp"
+    },
+    "rewards": [
+      {
+        "id": 202,
+        "rank": 3,
+        "icon": "UI_ItemIcon_202"
+      },
+      {
+        "id": 112154,
+        "rank": 4,
+        "icon": "UI_ItemIcon_112154"
+      },
+      {
+        "id": 112153,
+        "rank": 3,
+        "icon": "UI_ItemIcon_112153"
+      },
+      {
+        "id": 112152,
+        "rank": 2,
+        "icon": "UI_ItemIcon_112152"
+      },
+      {
+        "id": 112148,
+        "rank": 3,
+        "icon": "UI_ItemIcon_112148"
+      },
+      {
+        "id": 112147,
+        "rank": 2,
+        "icon": "UI_ItemIcon_112147"
+      },
+      {
+        "id": 112146,
+        "rank": 1,
+        "icon": "UI_ItemIcon_112146"
+      },
+      {
+        "id": 400023,
+        "rank": 4,
+        "icon": "UI_RelicIcon_10005_4"
+      },
+      {
+        "id": 400033,
+        "rank": 4,
+        "icon": "UI_RelicIcon_10007_4"
+      },
+      {
+        "id": 400043,
+        "rank": 4,
+        "icon": "UI_RelicIcon_10009_4"
+      },
+      {
+        "id": 400022,
+        "rank": 3,
+        "icon": "UI_RelicIcon_10005_4"
+      },
+      {
+        "id": 400032,
+        "rank": 3,
+        "icon": "UI_RelicIcon_10007_4"
+      },
+      {
+        "id": 400042,
+        "rank": 3,
+        "icon": "UI_RelicIcon_10009_4"
+      },
+      {
+        "id": 400062,
+        "rank": 3,
+        "icon": "UI_RelicIcon_10013_4"
+      }
+    ],
+    "child": {
+      "25131601": {
+        "monster_name": "Vukodlak_Thin_Pistol_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 22010010,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 16.3008,
+          "atk": 22.608,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "25131602": {
+        "monster_name": "Vukodlak_Thin_Pistol_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 22010010,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 16.3008,
+          "atk": 22.608,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "25131603": {
+        "monster_name": "Vukodlak_Thin_Pistol_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 22010010,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 16.3008,
+          "atk": 22.608,
+          "def": 500,
+          "em": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "25132601",
+    "contentStatus": "live",
+    "name": "Leomastiff Guard",
+    "type": "BEAST",
+    "title": "Volkodlak Brute",
+    "description": "A Volkodlak of the canine clans that usually appears somewhat lazy.\\nAmong the many Volkodlak clans, the canine clans have always enjoyed a better reputation. Loyal, friendly, and usually mild-mannered. Though they will turn ferocious when those they have sworn to serve, or friends they know well, are placed in danger, striking down anyone they deem enemies.\\nIt is said that during a war long ago, their clan fought His Majesty the Tsar to the last in defense of their own king, and for this, earned His Majesty's favor.",
+    "assets": {
+      "icon": "GameData/gi/assets/monsters/UI_MonsterIcon_Volkodlak_Sheepdog.webp"
+    },
+    "rewards": [
+      {
+        "id": 202,
+        "rank": 3,
+        "icon": "UI_ItemIcon_202"
+      },
+      {
+        "id": 112154,
+        "rank": 4,
+        "icon": "UI_ItemIcon_112154"
+      },
+      {
+        "id": 112153,
+        "rank": 3,
+        "icon": "UI_ItemIcon_112153"
+      },
+      {
+        "id": 112152,
+        "rank": 2,
+        "icon": "UI_ItemIcon_112152"
+      },
+      {
+        "id": 112148,
+        "rank": 3,
+        "icon": "UI_ItemIcon_112148"
+      },
+      {
+        "id": 112147,
+        "rank": 2,
+        "icon": "UI_ItemIcon_112147"
+      },
+      {
+        "id": 112146,
+        "rank": 1,
+        "icon": "UI_ItemIcon_112146"
+      },
+      {
+        "id": 400023,
+        "rank": 4,
+        "icon": "UI_RelicIcon_10005_4"
+      },
+      {
+        "id": 400033,
+        "rank": 4,
+        "icon": "UI_RelicIcon_10007_4"
+      },
+      {
+        "id": 400043,
+        "rank": 4,
+        "icon": "UI_RelicIcon_10009_4"
+      },
+      {
+        "id": 400022,
+        "rank": 3,
+        "icon": "UI_RelicIcon_10005_4"
+      },
+      {
+        "id": 400032,
+        "rank": 3,
+        "icon": "UI_RelicIcon_10007_4"
+      },
+      {
+        "id": 400042,
+        "rank": 3,
+        "icon": "UI_RelicIcon_10009_4"
+      },
+      {
+        "id": 400062,
+        "rank": 3,
+        "icon": "UI_RelicIcon_10013_4"
+      }
+    ],
+    "child": {
+      "25132601": {
+        "monster_name": "Volkodlak_Sheepdog_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 22010012,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 35.3184,
+          "atk": 22.608,
+          "def": 500,
+          "em": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "25132701",
+    "contentStatus": "live",
+    "name": "Long-Eared Striker",
+    "type": "BEAST",
+    "title": "Volkodlak Brute",
+    "description": "A Volkodlak that usually conceals its slender body beneath a cloak and moves in secrecy.\\nIt is said that long ago, the artisans of the Golden City, who held the authority of creation, fashioned bodies for fae for many different purposes. This type of Volkodlak was originally created to test the limits of reproductive capability.\\nYet after the calamity that reduced that golden realm to ruins, the long-eared clan survived to the present day thanks to their great numbers.\\nNow, they are masters of their own bodies. Agile enough to move deftly even across snow, they have become a threat that those crossing the snowy plains must handle with care.",
+    "assets": {
+      "icon": "GameData/gi/assets/monsters/UI_MonsterIcon_Volkodlak_Arctichare.webp"
+    },
+    "rewards": [
+      {
+        "id": 202,
+        "rank": 3,
+        "icon": "UI_ItemIcon_202"
+      },
+      {
+        "id": 112154,
+        "rank": 4,
+        "icon": "UI_ItemIcon_112154"
+      },
+      {
+        "id": 112153,
+        "rank": 3,
+        "icon": "UI_ItemIcon_112153"
+      },
+      {
+        "id": 112152,
+        "rank": 2,
+        "icon": "UI_ItemIcon_112152"
+      },
+      {
+        "id": 112148,
+        "rank": 3,
+        "icon": "UI_ItemIcon_112148"
+      },
+      {
+        "id": 112147,
+        "rank": 2,
+        "icon": "UI_ItemIcon_112147"
+      },
+      {
+        "id": 112146,
+        "rank": 1,
+        "icon": "UI_ItemIcon_112146"
+      },
+      {
+        "id": 400023,
+        "rank": 4,
+        "icon": "UI_RelicIcon_10005_4"
+      },
+      {
+        "id": 400033,
+        "rank": 4,
+        "icon": "UI_RelicIcon_10007_4"
+      },
+      {
+        "id": 400043,
+        "rank": 4,
+        "icon": "UI_RelicIcon_10009_4"
+      },
+      {
+        "id": 400022,
+        "rank": 3,
+        "icon": "UI_RelicIcon_10005_4"
+      },
+      {
+        "id": 400032,
+        "rank": 3,
+        "icon": "UI_RelicIcon_10007_4"
+      },
+      {
+        "id": 400042,
+        "rank": 3,
+        "icon": "UI_RelicIcon_10009_4"
+      },
+      {
+        "id": 400062,
+        "rank": 3,
+        "icon": "UI_RelicIcon_10013_4"
+      }
+    ],
+    "child": {
+      "25132701": {
+        "monster_name": "Volkodlak_Arctichare_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 22010015,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 25.8096,
+          "atk": 27.632,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "25132702": {
+        "monster_name": "Volkodlak_Arctichare_01_WQDefence",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 22010015,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 25.8096,
+          "atk": 27.632,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "25132791": {
+        "monster_name": "Volkodlak_Arctichare_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0,
+          "grass": 0,
+          "water": 0,
+          "elec": 0,
+          "wind": 0,
+          "ice": 0,
+          "rock": 0,
+          "physical": 0
+        },
+        "base": {
+          "hp": 12.46879,
+          "atk": 22.529148,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "25132792": {
+        "monster_name": "Volkodlak_Arctichare_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0,
+          "grass": 0,
+          "water": 0,
+          "elec": 0,
+          "wind": 0,
+          "ice": 0,
+          "rock": 0,
+          "physical": 0
+        },
+        "base": {
+          "hp": 24.93758,
+          "atk": 22.529148,
+          "def": 500,
+          "em": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "25132801",
+    "contentStatus": "live",
+    "name": "Channel Contact",
+    "type": "BEAST",
+    "title": "Volkodlak Brute",
+    "description": "A cunning Volkodlak that disguises its hand cannon as a tree trunk.\\nSkilled at disguising the weapons and cargo they carry, they are often entrusted with transporting goods or relaying intelligence.\\nThe hand cannon they carry was likely something they made in their spare time. At times, they also use it to fire signal rounds disguised as fireworks.\\nDon't be fooled by their appearance. These fae are far more shrewd and cunning than they seem.",
+    "assets": {
+      "icon": "GameData/gi/assets/monsters/UI_MonsterIcon_Volkodlak_Beaver.webp"
+    },
+    "rewards": [
+      {
+        "id": 202,
+        "rank": 3,
+        "icon": "UI_ItemIcon_202"
+      },
+      {
+        "id": 112154,
+        "rank": 4,
+        "icon": "UI_ItemIcon_112154"
+      },
+      {
+        "id": 112153,
+        "rank": 3,
+        "icon": "UI_ItemIcon_112153"
+      },
+      {
+        "id": 112152,
+        "rank": 2,
+        "icon": "UI_ItemIcon_112152"
+      },
+      {
+        "id": 112148,
+        "rank": 3,
+        "icon": "UI_ItemIcon_112148"
+      },
+      {
+        "id": 112147,
+        "rank": 2,
+        "icon": "UI_ItemIcon_112147"
+      },
+      {
+        "id": 112146,
+        "rank": 1,
+        "icon": "UI_ItemIcon_112146"
+      },
+      {
+        "id": 400023,
+        "rank": 4,
+        "icon": "UI_RelicIcon_10005_4"
+      },
+      {
+        "id": 400033,
+        "rank": 4,
+        "icon": "UI_RelicIcon_10007_4"
+      },
+      {
+        "id": 400043,
+        "rank": 4,
+        "icon": "UI_RelicIcon_10009_4"
+      },
+      {
+        "id": 400022,
+        "rank": 3,
+        "icon": "UI_RelicIcon_10005_4"
+      },
+      {
+        "id": 400032,
+        "rank": 3,
+        "icon": "UI_RelicIcon_10007_4"
+      },
+      {
+        "id": 400042,
+        "rank": 3,
+        "icon": "UI_RelicIcon_10009_4"
+      },
+      {
+        "id": 400062,
+        "rank": 3,
+        "icon": "UI_RelicIcon_10013_4"
+      }
+    ],
+    "child": {
+      "25132801": {
+        "monster_name": "Volkodlak_Beaver_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 22010013,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 28.5264,
+          "atk": 25.12,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "25132802": {
+        "monster_name": "Volkodlak_Beaver_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 12.801292,
+          "atk": 45.058296,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "25132803": {
+        "monster_name": "Volkodlak_Beaver_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 12.801292,
+          "atk": 45.058296,
+          "def": 500,
+          "em": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "25133601",
+    "contentStatus": "live",
+    "name": "Fanged Zealot",
+    "type": "BEAST",
+    "title": "Enchanted Beast of Unrivaled Might",
+    "description": "A Volkodlak that has become extremely powerful after inheriting more of the mighty power in its bloodline.\\nAmong the many different Volkodlaks, those resembling giant elephants or mammoths possess some of the noblest bloodlines. Their clan once produced many formidable war leaders, many of whom even served as close retainers to the King of Beasts.\\nYet the greater an individual fae's power and the longer its life, the harder it becomes for such beings to form a clan. Compared with other Volkodlaks, this type is now far rarer in Snezhnaya.",
+    "assets": {
+      "icon": "GameData/gi/assets/monsters/UI_MonsterIcon_Volkodlak_Mammoth.webp"
+    },
+    "rewards": [
+      {
+        "id": 202,
+        "rank": 3,
+        "icon": "UI_ItemIcon_202"
+      },
+      {
+        "id": 112154,
+        "rank": 4,
+        "icon": "UI_ItemIcon_112154"
+      },
+      {
+        "id": 112153,
+        "rank": 3,
+        "icon": "UI_ItemIcon_112153"
+      },
+      {
+        "id": 112152,
+        "rank": 2,
+        "icon": "UI_ItemIcon_112152"
+      },
+      {
+        "id": 112148,
+        "rank": 3,
+        "icon": "UI_ItemIcon_112148"
+      },
+      {
+        "id": 112147,
+        "rank": 2,
+        "icon": "UI_ItemIcon_112147"
+      },
+      {
+        "id": 112146,
+        "rank": 1,
+        "icon": "UI_ItemIcon_112146"
+      },
+      {
+        "id": 400023,
+        "rank": 4,
+        "icon": "UI_RelicIcon_10005_4"
+      },
+      {
+        "id": 400033,
+        "rank": 4,
+        "icon": "UI_RelicIcon_10007_4"
+      },
+      {
+        "id": 400043,
+        "rank": 4,
+        "icon": "UI_RelicIcon_10009_4"
+      },
+      {
+        "id": 400022,
+        "rank": 3,
+        "icon": "UI_RelicIcon_10005_4"
+      },
+      {
+        "id": 400032,
+        "rank": 3,
+        "icon": "UI_RelicIcon_10007_4"
+      },
+      {
+        "id": 400042,
+        "rank": 3,
+        "icon": "UI_RelicIcon_10009_4"
+      },
+      {
+        "id": 400062,
+        "rank": 3,
+        "icon": "UI_RelicIcon_10013_4"
+      }
+    ],
+    "child": {
+      "25133601": {
+        "monster_name": "Volkodlak_Mammoth_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {
+            "drop_id": 22010011,
+            "hp_percent": 66
+          },
+          {
+            "drop_id": 22010011,
+            "hp_percent": 33
+          },
+          {}
+        ],
+        "kill_drop_id": 22010011,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.3,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 54.336,
+          "atk": 45.216,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "25133602": {
+        "monster_name": "Volkodlak_Mammoth_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.3,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 231.00076,
+          "atk": 112.64574,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "25133691": {
+        "monster_name": "Volkodlak_Mammoth_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0,
+          "grass": 0,
+          "water": 0,
+          "elec": 0,
+          "wind": 0,
+          "ice": 0,
+          "rock": 0,
+          "physical": 0
+        },
+        "base": {
+          "hp": 128.01292,
+          "atk": 22.529148,
+          "def": 500,
+          "em": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "25133701",
+    "contentStatus": "live",
+    "name": "Voywolf Hunter",
+    "type": "BEAST",
+    "title": "Enchanted Beast of Unrivaled Might",
+    "description": "A Volkodlak that has become extremely powerful after inheriting more of the mighty power in its bloodline.\\nTheir clan once prospered to the point that they could serve as an independent army under the King of Beasts. Yet after the Belyi Tsar, master of the Pale Star's royal court, unified the frozen lands, the clan's relatively small losses in the war caused them to fall under suspicion. They gradually declined, and by the time the Tsaritsa ascended the throne, they had withdrawn from the center of power in Snezhnaya. Today, most wolf-pack Volkodlak make their homes in the snowy plains and mountain forests.",
+    "assets": {
+      "icon": "GameData/gi/assets/monsters/UI_MonsterIcon_Volkodlak_Greyhound.webp"
+    },
+    "rewards": [
+      {
+        "id": 202,
+        "rank": 3,
+        "icon": "UI_ItemIcon_202"
+      },
+      {
+        "id": 112154,
+        "rank": 4,
+        "icon": "UI_ItemIcon_112154"
+      },
+      {
+        "id": 112153,
+        "rank": 3,
+        "icon": "UI_ItemIcon_112153"
+      },
+      {
+        "id": 112152,
+        "rank": 2,
+        "icon": "UI_ItemIcon_112152"
+      },
+      {
+        "id": 112148,
+        "rank": 3,
+        "icon": "UI_ItemIcon_112148"
+      },
+      {
+        "id": 112147,
+        "rank": 2,
+        "icon": "UI_ItemIcon_112147"
+      },
+      {
+        "id": 112146,
+        "rank": 1,
+        "icon": "UI_ItemIcon_112146"
+      },
+      {
+        "id": 400023,
+        "rank": 4,
+        "icon": "UI_RelicIcon_10005_4"
+      },
+      {
+        "id": 400033,
+        "rank": 4,
+        "icon": "UI_RelicIcon_10007_4"
+      },
+      {
+        "id": 400043,
+        "rank": 4,
+        "icon": "UI_RelicIcon_10009_4"
+      },
+      {
+        "id": 400022,
+        "rank": 3,
+        "icon": "UI_RelicIcon_10005_4"
+      },
+      {
+        "id": 400032,
+        "rank": 3,
+        "icon": "UI_RelicIcon_10007_4"
+      },
+      {
+        "id": 400042,
+        "rank": 3,
+        "icon": "UI_RelicIcon_10009_4"
+      },
+      {
+        "id": 400062,
+        "rank": 3,
+        "icon": "UI_RelicIcon_10013_4"
+      }
+    ],
+    "child": {
+      "25133701": {
+        "monster_name": "Volkodlak_Greyhound_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {
+            "drop_id": 22010016,
+            "hp_percent": 60
+          },
+          {},
+          {}
+        ],
+        "kill_drop_id": 22010016,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.3,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 48.9024,
+          "atk": 56.52,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "25133702": {
+        "monster_name": "Volkodlak_Greyhound_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.3,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 18.287561,
+          "atk": 90.11659,
+          "def": 500,
+          "em": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "25135001",
+    "contentStatus": "live",
+    "name": "Glaciomancer",
+    "type": "BEAST",
+    "title": "Snegovik Created From Ice",
+    "description": "A Snegovik born of love amid the snow and ice.\\nFemale Snegovik are known as Snegurochka, and most are born as mages capable of freely wielding the power of ice and snow. It's said that when Snegovik were first created, their souls were incomplete, and only by falling in love with humans could they make themselves whole.\\nYet once a Snegovik has attained wholeness, does it still need love? Perhaps not.\\nMaybe this is why so many stories of love between Snegovik and human end in tragedy.",
+    "assets": {
+      "icon": "GameData/gi/assets/monsters/UI_MonsterIcon_Human_Female_Staff_Snegurochka.webp"
+    },
+    "rewards": [
+      {
+        "id": 202,
+        "rank": 3,
+        "icon": "UI_ItemIcon_202"
+      },
+      {
+        "id": 112148,
+        "rank": 3,
+        "icon": "UI_ItemIcon_112148"
+      },
+      {
+        "id": 112147,
+        "rank": 2,
+        "icon": "UI_ItemIcon_112147"
+      },
+      {
+        "id": 112146,
+        "rank": 1,
+        "icon": "UI_ItemIcon_112146"
+      }
+    ],
+    "child": {
+      "25135001": {
+        "monster_name": "Human_Female_Staff_Snegurochka_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 22010016,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.3,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 16.3008,
+          "atk": 32.656,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "25135002": {
+        "monster_name": "Human_Female_Staff_Snegurochka_01_02",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 22010016,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.3,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 16.3008,
+          "atk": 32.656,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "25135003": {
+        "monster_name": "Human_Female_Staff_Snegurochka_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.3,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 4.57189,
+          "atk": 58.575787,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "25135004": {
+        "monster_name": "Human_Female_Staff_Snegurochka_01_02",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.3,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 4.57189,
+          "atk": 58.575787,
+          "def": 500,
+          "em": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "25135101",
+    "contentStatus": "live",
+    "name": "Glacial Warden",
+    "type": "BEAST",
+    "title": "Snegovik Created From Ice",
+    "description": "A Snegovik born of love amid the snow and ice.\\nMale Snegovik are natural-born knights, and most are born able to freely forge weapons from ice and snow.\\nLegend tells that during the Belyi Tsar's campaign against the dark tide, a Snegovik serving as his guard unleashed a power that didn't belong to his kind, transforming into a towering giant.\\nThough his final fate remains unknown, one who violated such a taboo surely could not have met with a happy end.",
+    "assets": {
+      "icon": "GameData/gi/assets/monsters/UI_MonsterIcon_Snegurochka_Male.webp"
+    },
+    "rewards": [
+      {
+        "id": 202,
+        "rank": 3,
+        "icon": "UI_ItemIcon_202"
+      },
+      {
+        "id": 112148,
+        "rank": 3,
+        "icon": "UI_ItemIcon_112148"
+      },
+      {
+        "id": 112147,
+        "rank": 2,
+        "icon": "UI_ItemIcon_112147"
+      },
+      {
+        "id": 112146,
+        "rank": 1,
+        "icon": "UI_ItemIcon_112146"
+      }
+    ],
+    "child": {
+      "25135101": {
+        "monster_name": "Snegurochka_Male_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {
+            "drop_id": 22010016,
+            "hp_percent": 66
+          },
+          {
+            "drop_id": 22010016,
+            "hp_percent": 33
+          },
+          {}
+        ],
+        "kill_drop_id": 22010016,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.3,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 81.504,
+          "atk": 75.36,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "25135102": {
+        "monster_name": "Snegurochka_Male_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.3,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 20.116318,
+          "atk": 112.64574,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "25135103": {
+        "monster_name": "Snegurochka_Male_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {
+            "drop_id": 22010016,
+            "hp_percent": 66
+          },
+          {
+            "drop_id": 22010016,
+            "hp_percent": 33
+          },
+          {}
+        ],
+        "kill_drop_id": 22010016,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.3,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 81.504,
+          "atk": 75.36,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "25135104": {
+        "monster_name": "Snegurochka_Male_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.3,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 109.725365,
+          "atk": 112.64574,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "25135105": {
+        "monster_name": "Snegurochka_Male_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.3,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 20.116318,
+          "atk": 112.64574,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "25135106": {
+        "monster_name": "Snegurochka_Male_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {
+            "drop_id": 22010016,
+            "hp_percent": 66
+          },
+          {
+            "drop_id": 22010016,
+            "hp_percent": 33
+          },
+          {}
+        ],
+        "kill_drop_id": 22010016,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.3,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 81.504,
+          "atk": 75.36,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "25135191": {
+        "monster_name": "Snegurochka_Male_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0,
+          "grass": 0,
+          "water": 0,
+          "elec": 0,
+          "wind": 0,
+          "ice": 0,
+          "rock": 0,
+          "physical": 0
+        },
+        "base": {
+          "hp": 128.01292,
+          "atk": 22.529148,
+          "def": 500,
+          "em": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "25137001",
+    "contentStatus": "live",
+    "name": "Rugged Elder Leshy",
+    "type": "BEAST",
+    "title": "Leshy Born of the Mystic Wilds",
+    "description": "A Leshy that grows in forests and wilds.\\nWith only fragmentary sentience and no ability to speak, Leshies may appear to be the result of the Golden Realm's early experiments. Yet according to records, the truth is the opposite. Only after its artisans had almost fully mastered the authority over life did they create this race of fae.\\nPerhaps there is some true purpose within this that neither the fae nor humans of the present can fully understand.",
+    "assets": {
+      "icon": "GameData/gi/assets/monsters/UI_MonsterIcon_Leshy_Mature_01.webp"
+    },
+    "rewards": [
+      {
+        "id": 202,
+        "rank": 3,
+        "icon": "UI_ItemIcon_202"
+      },
+      {
+        "id": 112157,
+        "rank": 4,
+        "icon": "UI_ItemIcon_112157"
+      },
+      {
+        "id": 112156,
+        "rank": 3,
+        "icon": "UI_ItemIcon_112156"
+      },
+      {
+        "id": 112155,
+        "rank": 2,
+        "icon": "UI_ItemIcon_112155"
+      },
+      {
+        "id": 112148,
+        "rank": 3,
+        "icon": "UI_ItemIcon_112148"
+      },
+      {
+        "id": 112147,
+        "rank": 2,
+        "icon": "UI_ItemIcon_112147"
+      },
+      {
+        "id": 112146,
+        "rank": 1,
+        "icon": "UI_ItemIcon_112146"
+      },
+      {
+        "id": 400023,
+        "rank": 4,
+        "icon": "UI_RelicIcon_10005_4"
+      },
+      {
+        "id": 400033,
+        "rank": 4,
+        "icon": "UI_RelicIcon_10007_4"
+      },
+      {
+        "id": 400043,
+        "rank": 4,
+        "icon": "UI_RelicIcon_10009_4"
+      },
+      {
+        "id": 400022,
+        "rank": 3,
+        "icon": "UI_RelicIcon_10005_4"
+      },
+      {
+        "id": 400032,
+        "rank": 3,
+        "icon": "UI_RelicIcon_10007_4"
+      },
+      {
+        "id": 400042,
+        "rank": 3,
+        "icon": "UI_RelicIcon_10009_4"
+      },
+      {
+        "id": 400062,
+        "rank": 3,
+        "icon": "UI_RelicIcon_10013_4"
+      }
+    ],
+    "child": {
+      "25137001": {
+        "monster_name": "Leshy_Mature_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {
+            "drop_id": 22010017,
+            "hp_percent": 66
+          },
+          {
+            "drop_id": 22010017,
+            "hp_percent": 33
+          },
+          {}
+        ],
+        "kill_drop_id": 22010017,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": -0.2,
+          "grass": 0.3,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.3,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 108.672,
+          "atk": 62.8,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "25137002": {
+        "monster_name": "Leshy_Mature_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": -0.2,
+          "grass": 0.3,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.3,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 137.15671,
+          "atk": 94.62242,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "25137003": {
+        "monster_name": "Leshy_Mature_03",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": -0.2,
+          "grass": 0.3,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.3,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 21.945072,
+          "atk": 94.62242,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "25137004": {
+        "monster_name": "Leshy_Mature_04",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": -0.2,
+          "grass": 0.3,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.3,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 84.12278,
+          "atk": 94.62242,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "25137005": {
+        "monster_name": "Leshy_Mature_03",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": -0.2,
+          "grass": 0.3,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.3,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 21.945072,
+          "atk": 94.62242,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "25137006": {
+        "monster_name": "Leshy_Mature_03",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": -0.2,
+          "grass": 0.3,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.3,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 21.945072,
+          "atk": 94.62242,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "25137091": {
+        "monster_name": "Leshy_Mature_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0,
+          "grass": 0,
+          "water": 0,
+          "elec": 0,
+          "wind": 0,
+          "ice": 0,
+          "rock": 0,
+          "physical": 0
+        },
+        "base": {
+          "hp": 128.01292,
+          "atk": 22.529148,
+          "def": 500,
+          "em": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "25138001",
+    "contentStatus": "live",
+    "name": "Juvenile Tree Segment",
+    "type": "BEAST",
+    "title": "Leshy Born of the Mystic Wilds",
+    "description": "A Leshy that grows in forests and wilds.\\nAmong the many fae of Snezhnaya, Leshies are a very unusual kind, rarely appearing in cities. They may well be the longest-lived among all fae, and few members of other long-lived races have ever witnessed a Leshy's life from beginning to end. Of course, most people would likely struggle even to distinguish one Leshy from another.",
+    "assets": {
+      "icon": "GameData/gi/assets/monsters/UI_MonsterIcon_Leshy_Normal_01.webp"
+    },
+    "rewards": [
+      {
+        "id": 202,
+        "rank": 3,
+        "icon": "UI_ItemIcon_202"
+      },
+      {
+        "id": 112157,
+        "rank": 4,
+        "icon": "UI_ItemIcon_112157"
+      },
+      {
+        "id": 112156,
+        "rank": 3,
+        "icon": "UI_ItemIcon_112156"
+      },
+      {
+        "id": 112155,
+        "rank": 2,
+        "icon": "UI_ItemIcon_112155"
+      },
+      {
+        "id": 112148,
+        "rank": 3,
+        "icon": "UI_ItemIcon_112148"
+      },
+      {
+        "id": 112147,
+        "rank": 2,
+        "icon": "UI_ItemIcon_112147"
+      },
+      {
+        "id": 112146,
+        "rank": 1,
+        "icon": "UI_ItemIcon_112146"
+      },
+      {
+        "id": 400023,
+        "rank": 4,
+        "icon": "UI_RelicIcon_10005_4"
+      },
+      {
+        "id": 400033,
+        "rank": 4,
+        "icon": "UI_RelicIcon_10007_4"
+      },
+      {
+        "id": 400043,
+        "rank": 4,
+        "icon": "UI_RelicIcon_10009_4"
+      },
+      {
+        "id": 400022,
+        "rank": 3,
+        "icon": "UI_RelicIcon_10005_4"
+      },
+      {
+        "id": 400032,
+        "rank": 3,
+        "icon": "UI_RelicIcon_10007_4"
+      },
+      {
+        "id": 400042,
+        "rank": 3,
+        "icon": "UI_RelicIcon_10009_4"
+      },
+      {
+        "id": 400062,
+        "rank": 3,
+        "icon": "UI_RelicIcon_10013_4"
+      }
+    ],
+    "child": {
+      "25138001": {
+        "monster_name": "Leshy_Normal_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 22010017,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": -0.2,
+          "grass": 0.2,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.2,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 27.168,
+          "atk": 25.12,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "25138002": {
+        "monster_name": "Leshy_Normal_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": -0.2,
+          "grass": 0.2,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.2,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 6.400646,
+          "atk": 45.058296,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "25138003": {
+        "monster_name": "Leshy_Normal_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": -0.2,
+          "grass": 0.2,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.2,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 6.400646,
+          "atk": 45.058296,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "25138091": {
+        "monster_name": "Leshy_Normal_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0,
+          "grass": 0,
+          "water": 0,
+          "elec": 0,
+          "wind": 0,
+          "ice": 0,
+          "rock": 0,
+          "physical": 0
+        },
+        "base": {
+          "hp": 41.56264,
+          "atk": 22.529148,
+          "def": 500,
+          "em": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "25140101",
+    "contentStatus": "live",
+    "name": "Immortal Construct",
+    "type": "BEAST",
+    "title": "Immortal Construct",
+    "description": "A byproduct created by the alchemist Koshchei during his creation of the individual known as the Firebird.\\nPerhaps this was the gloomy alchemist's habit: whenever one experimental subject from a batch succeeded, all the others would be abandoned or disposed of as he pleased.\\nThis derivative creation should have fused with some form of power and reached completion. Now, however, it can only wander endlessly through the mountain gorges as an incomplete, mindless beast.",
+    "assets": {
+      "icon": "GameData/gi/assets/monsters/UI_MonsterIcon_Zharptitsa_02.webp"
+    },
+    "rewards": [
+      {
+        "id": 102,
+        "rank": 3,
+        "icon": "UI_ItemIcon_102"
+      },
+      {
+        "id": 202,
+        "rank": 3,
+        "icon": "UI_ItemIcon_202"
+      },
+      {
+        "id": 105,
+        "rank": 3,
+        "icon": "UI_ItemIcon_105"
+      },
+      {
+        "id": 113090,
+        "rank": 4,
+        "icon": "UI_ItemIcon_113090"
+      },
+      {
+        "id": 104114,
+        "rank": 5,
+        "icon": "UI_ItemIcon_104114"
+      },
+      {
+        "id": 104113,
+        "rank": 4,
+        "icon": "UI_ItemIcon_104113"
+      },
+      {
+        "id": 104112,
+        "rank": 3,
+        "icon": "UI_ItemIcon_104112"
+      },
+      {
+        "id": 104111,
+        "rank": 2,
+        "icon": "UI_ItemIcon_104111"
+      },
+      {
+        "id": 400089,
+        "rank": 5,
+        "icon": "UI_RelicIcon_15001_4"
+      },
+      {
+        "id": 400099,
+        "rank": 5,
+        "icon": "UI_RelicIcon_15003_4"
+      },
+      {
+        "id": 400088,
+        "rank": 4,
+        "icon": "UI_RelicIcon_15001_4"
+      },
+      {
+        "id": 400098,
+        "rank": 4,
+        "icon": "UI_RelicIcon_15003_4"
+      },
+      {
+        "id": 400023,
+        "rank": 4,
+        "icon": "UI_RelicIcon_10005_4"
+      },
+      {
+        "id": 400033,
+        "rank": 4,
+        "icon": "UI_RelicIcon_10007_4"
+      },
+      {
+        "id": 400128,
+        "rank": 4,
+        "icon": "UI_RelicIcon_15009_3"
+      },
+      {
+        "id": 400022,
+        "rank": 3,
+        "icon": "UI_RelicIcon_10005_4"
+      },
+      {
+        "id": 400032,
+        "rank": 3,
+        "icon": "UI_RelicIcon_10007_4"
+      },
+      {
+        "id": 400127,
+        "rank": 3,
+        "icon": "UI_RelicIcon_15009_3"
+      },
+      {
+        "id": 400047,
+        "rank": 3,
+        "icon": "UI_RelicIcon_10010_4"
+      }
+    ],
+    "child": {
+      "25140101": {
+        "monster_name": "Monster_Zharptitsa_02",
+        "type": "MONSTER_BOSS",
+        "hp_drops": [
+          {
+            "drop_id": 22010030,
+            "hp_percent": 75
+          },
+          {
+            "drop_id": 22010030,
+            "hp_percent": 50
+          },
+          {
+            "drop_id": 22010030,
+            "hp_percent": 25
+          }
+        ],
+        "kill_drop_id": 22010030,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.5,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 421.104,
+          "atk": 100.48,
+          "def": 500,
+          "em": 0
+        }
+      }
+    }
+  },
+  {
     "id": "25210101",
     "contentStatus": "live",
     "name": "Eremite Axe Vanguard",
@@ -57173,6 +62520,47 @@
           "em": 0
         }
       },
+      "26010111": {
+        "monster_name": "Mimik_Ice",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.5,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 9.14378,
+          "atk": 40.552467,
+          "def": 500,
+          "em": 0
+        }
+      },
       "26010190": {
         "monster_name": "Mimik_Ice_MvM",
         "type": "MONSTER_ORDINARY",
@@ -57298,6 +62686,47 @@
           "def": 500,
           "em": 0
         }
+      },
+      "26010211": {
+        "monster_name": "Mimik_Fire",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.5,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 9.14378,
+          "atk": 60.8287,
+          "def": 500,
+          "em": 0
+        }
       }
     }
   },
@@ -57380,6 +62809,47 @@
         "base": {
           "hp": 40.752,
           "atk": 25.12,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "26010311": {
+        "monster_name": "Mimik_Electric",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.5,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 9.14378,
+          "atk": 40.552467,
           "def": 500,
           "em": 0
         }
@@ -74402,6 +79872,873 @@
     }
   },
   {
+    "id": "26310101",
+    "contentStatus": "live",
+    "name": "Chimeric Armored Beast",
+    "type": "BEAST",
+    "title": "Patchwork Beast",
+    "description": "A product of bio-alchemy that was once widespread across the frozen lands, an aberrant chimeric monster.\\nIf a four-legged beast were given a carapace and charging horn like those of an Onikabuto, it might well become a shock force capable of breaking through enemy formations.\\nIn theory, man-made monsters designed around a single function rarely survive in the wild. Once they lose the place or purpose for which they were made, most perish for having defied the laws of nature. Clearly, however, the Armored Beast is not one of them.\\nToday, on the frozen lands of Snezhnaya, Armored Beasts can often be seen hunting in packs.",
+    "assets": {
+      "icon": "GameData/gi/assets/monsters/UI_MonsterIcon_Chimera_BeetleLion.webp"
+    },
+    "rewards": [
+      {
+        "id": 202,
+        "rank": 3,
+        "icon": "UI_ItemIcon_202"
+      },
+      {
+        "id": 112151,
+        "rank": 3,
+        "icon": "UI_ItemIcon_112151"
+      },
+      {
+        "id": 112150,
+        "rank": 2,
+        "icon": "UI_ItemIcon_112150"
+      },
+      {
+        "id": 112149,
+        "rank": 1,
+        "icon": "UI_ItemIcon_112149"
+      }
+    ],
+    "child": {
+      "26310101": {
+        "monster_name": "Monster_Chimera_BeetleLion",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 22010017,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.2,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 27.168,
+          "atk": 30.144,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "26310102": {
+        "monster_name": "Monster_Chimera_BeetleLion_Tps",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.2,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 7.315024,
+          "atk": 58.575787,
+          "def": 500,
+          "em": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "26310201",
+    "contentStatus": "live",
+    "name": "Chimeric Burrowbeast",
+    "type": "BEAST",
+    "title": "Patchwork Beast",
+    "description": "A product of bio-alchemy that was once widespread across the frozen lands, an aberrant chimeric monster.\\nIf a monster that burrows and moves through earth and snow were granted vision that could see all within the shadows, could it become an even stronger predator?\\nThe experiment proved astonishingly successful. These Burrowbeasts move beneath the surface at night, digging traps in the dark or hiding in the shadows to hunt.\\nAccording to a report in Vestnik, a worker living in Svetloledovka once saw a giant Burrowbeast nearly as tall as two people... though that is probably nothing more than a wild rumor.",
+    "assets": {
+      "icon": "GameData/gi/assets/monsters/UI_MonsterIcon_Chimera_OwlPangolin.webp"
+    },
+    "rewards": [
+      {
+        "id": 202,
+        "rank": 3,
+        "icon": "UI_ItemIcon_202"
+      },
+      {
+        "id": 112151,
+        "rank": 3,
+        "icon": "UI_ItemIcon_112151"
+      },
+      {
+        "id": 112150,
+        "rank": 2,
+        "icon": "UI_ItemIcon_112150"
+      },
+      {
+        "id": 112149,
+        "rank": 1,
+        "icon": "UI_ItemIcon_112149"
+      }
+    ],
+    "child": {
+      "26310201": {
+        "monster_name": "Monster_Chimera_OwlPangolin",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 22010014,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.2,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 27.168,
+          "atk": 30.144,
+          "def": 500,
+          "em": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "26310301",
+    "contentStatus": "live",
+    "name": "Chimeric Winged Elephant",
+    "type": "BEAST",
+    "title": "Patchwork Beast",
+    "description": "A product of bio-alchemy that was once widespread across the frozen lands, an aberrant chimeric monster.\\nA short-legged elephant with wings could likely migrate without being restricted by terrain, and would also be able to reach fruit growing in higher places.\\nFor that purpose alone, its creator brought such a beast into being. Later, during the war against the dark tide, Chimeric Winged Elephants worked alongside the Vila in intelligence and communications, ensuring that the Belyi Tsar's commands could pass smoothly and swiftly as his army advanced.",
+    "assets": {
+      "icon": "GameData/gi/assets/monsters/UI_MonsterIcon_Chimera_ElephantBird.webp"
+    },
+    "rewards": [
+      {
+        "id": 202,
+        "rank": 3,
+        "icon": "UI_ItemIcon_202"
+      },
+      {
+        "id": 112151,
+        "rank": 3,
+        "icon": "UI_ItemIcon_112151"
+      },
+      {
+        "id": 112150,
+        "rank": 2,
+        "icon": "UI_ItemIcon_112150"
+      },
+      {
+        "id": 112149,
+        "rank": 1,
+        "icon": "UI_ItemIcon_112149"
+      }
+    ],
+    "child": {
+      "26310301": {
+        "monster_name": "Monster_Chimera_ElephantBird",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 22010015,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.2,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 27.168,
+          "atk": 30.144,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "26310302": {
+        "monster_name": "Monster_Chimera_ElephantBird_Tps",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.2,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 5.486268,
+          "atk": 54.069954,
+          "def": 500,
+          "em": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "26310401",
+    "contentStatus": "live",
+    "name": "Chimeric Horned Bear",
+    "type": "BEAST",
+    "title": "Manmade Wildwood Spirit",
+    "description": "A product of bio-alchemy, a man-made monster with an exceptionally unusual formation.\\nA man-made monster not formed according to its creator's design, but through the spontaneous assembly of life segments. As a result, it came to possess certain wondrous traits, including the ability to freely wield elemental power.\\nEven if life is broken down until almost nothing remains but segments, could some will or power still guide them to grow according to a mysterious plan?\\nPerhaps no one knows the answer to that by now.",
+    "assets": {
+      "icon": "GameData/gi/assets/monsters/UI_MonsterIcon_Chimera_BearDeer.webp"
+    },
+    "rewards": [
+      {
+        "id": 202,
+        "rank": 3,
+        "icon": "UI_ItemIcon_202"
+      },
+      {
+        "id": 112151,
+        "rank": 3,
+        "icon": "UI_ItemIcon_112151"
+      },
+      {
+        "id": 112150,
+        "rank": 2,
+        "icon": "UI_ItemIcon_112150"
+      },
+      {
+        "id": 112149,
+        "rank": 1,
+        "icon": "UI_ItemIcon_112149"
+      }
+    ],
+    "child": {
+      "26310401": {
+        "monster_name": "Monster_Chimera_BearDeer_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {
+            "drop_id": 22010011,
+            "hp_percent": 60
+          },
+          {},
+          {}
+        ],
+        "kill_drop_id": 22010011,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.3,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 108.672,
+          "atk": 60.288,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "26310402": {
+        "monster_name": "Monster_Chimera_BearDeer_01_Tps",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.3,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 27.431341,
+          "atk": 90.11659,
+          "def": 500,
+          "em": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "26310501",
+    "contentStatus": "live",
+    "name": "Chimeric Winged Lion",
+    "type": "BEAST",
+    "title": "Solo Accompanist",
+    "description": "A product of bio-alchemy, one of the man-made monsters that was abandoned.\\nTo bring a certain great wish to fruition, an alchemist created numerous primordial bodies known as \"Prototypes\" through a technique that must never be retold.\\nOf these, only one successfully grew into the perfect creation he had planned. The others, though close to perfection, ultimately failed, and were carelessly remade into two-headed monsters.\\nThough regarded as failures, these special two-headed monsters still possess tremendous power. Among chimeras, there is nothing that can stand against them.",
+    "assets": {
+      "icon": "GameData/gi/assets/monsters/UI_MonsterIcon_Chimera_Manticore.webp"
+    },
+    "rewards": [
+      {
+        "id": 102,
+        "rank": 3,
+        "icon": "UI_ItemIcon_102"
+      },
+      {
+        "id": 202,
+        "rank": 3,
+        "icon": "UI_ItemIcon_202"
+      },
+      {
+        "id": 105,
+        "rank": 3,
+        "icon": "UI_ItemIcon_105"
+      },
+      {
+        "id": 113091,
+        "rank": 4,
+        "icon": "UI_ItemIcon_113091"
+      },
+      {
+        "id": 104154,
+        "rank": 5,
+        "icon": "UI_ItemIcon_104154"
+      },
+      {
+        "id": 104153,
+        "rank": 4,
+        "icon": "UI_ItemIcon_104153"
+      },
+      {
+        "id": 104152,
+        "rank": 3,
+        "icon": "UI_ItemIcon_104152"
+      },
+      {
+        "id": 104151,
+        "rank": 2,
+        "icon": "UI_ItemIcon_104151"
+      },
+      {
+        "id": 104144,
+        "rank": 5,
+        "icon": "UI_ItemIcon_104144"
+      },
+      {
+        "id": 104143,
+        "rank": 4,
+        "icon": "UI_ItemIcon_104143"
+      },
+      {
+        "id": 104142,
+        "rank": 3,
+        "icon": "UI_ItemIcon_104142"
+      },
+      {
+        "id": 104141,
+        "rank": 2,
+        "icon": "UI_ItemIcon_104141"
+      },
+      {
+        "id": 400089,
+        "rank": 5,
+        "icon": "UI_RelicIcon_15001_4"
+      },
+      {
+        "id": 400099,
+        "rank": 5,
+        "icon": "UI_RelicIcon_15003_4"
+      },
+      {
+        "id": 400088,
+        "rank": 4,
+        "icon": "UI_RelicIcon_15001_4"
+      },
+      {
+        "id": 400098,
+        "rank": 4,
+        "icon": "UI_RelicIcon_15003_4"
+      },
+      {
+        "id": 400023,
+        "rank": 4,
+        "icon": "UI_RelicIcon_10005_4"
+      },
+      {
+        "id": 400033,
+        "rank": 4,
+        "icon": "UI_RelicIcon_10007_4"
+      },
+      {
+        "id": 400022,
+        "rank": 3,
+        "icon": "UI_RelicIcon_10005_4"
+      },
+      {
+        "id": 400032,
+        "rank": 3,
+        "icon": "UI_RelicIcon_10007_4"
+      },
+      {
+        "id": 400052,
+        "rank": 3,
+        "icon": "UI_RelicIcon_10011_4"
+      }
+    ],
+    "child": {
+      "26310501": {
+        "monster_name": "Monster_Chimera_Manticore_01",
+        "type": "MONSTER_BOSS",
+        "hp_drops": [
+          {
+            "drop_id": 22010034,
+            "hp_percent": 66
+          },
+          {
+            "drop_id": 22010034,
+            "hp_percent": 33
+          },
+          {}
+        ],
+        "kill_drop_id": 22010024,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.5,
+          "wind": 0.5,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 296.1312,
+          "atk": 95.456,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "26310502": {
+        "monster_name": "Monster_Chimera_Manticore_01",
+        "type": "MONSTER_BOSS",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.5,
+          "wind": 0.5,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 329.1761,
+          "atk": 135.17488,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "26310503": {
+        "monster_name": "Monster_Chimera_Manticore_01",
+        "type": "MONSTER_BOSS",
+        "hp_drops": [
+          {
+            "drop_id": 22010034,
+            "hp_percent": 66
+          },
+          {
+            "drop_id": 22010034,
+            "hp_percent": 33
+          },
+          {}
+        ],
+        "kill_drop_id": 22010024,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.5,
+          "wind": 0.5,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 296.1312,
+          "atk": 95.456,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "26310504": {
+        "monster_name": "Monster_Chimera_Manticore_01",
+        "type": "MONSTER_BOSS",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.5,
+          "wind": 0.5,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 100.58158,
+          "atk": 135.17488,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "26310505": {
+        "monster_name": "Monster_Chimera_Manticore_01",
+        "type": "MONSTER_BOSS",
+        "hp_drops": [
+          {
+            "drop_id": 22010034,
+            "hp_percent": 66
+          },
+          {
+            "drop_id": 22010034,
+            "hp_percent": 33
+          },
+          {}
+        ],
+        "kill_drop_id": 22010024,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.5,
+          "wind": 0.5,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 350.27457,
+          "atk": 95.456,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "26310506": {
+        "monster_name": "Monster_Chimera_Manticore_01",
+        "type": "MONSTER_BOSS",
+        "hp_drops": [
+          {
+            "drop_id": 22010034,
+            "hp_percent": 66
+          },
+          {
+            "drop_id": 22010034,
+            "hp_percent": 33
+          },
+          {}
+        ],
+        "kill_drop_id": 22010024,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.5,
+          "wind": 0.5,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 350.27457,
+          "atk": 95.456,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "26310507": {
+        "monster_name": "Monster_Chimera_Manticore_01",
+        "type": "MONSTER_BOSS",
+        "hp_drops": [
+          {
+            "drop_id": 22010034,
+            "hp_percent": 66
+          },
+          {
+            "drop_id": 22010034,
+            "hp_percent": 33
+          },
+          {}
+        ],
+        "kill_drop_id": 22010024,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.5,
+          "wind": 0.5,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 350.27457,
+          "atk": 95.456,
+          "def": 500,
+          "em": 0
+        }
+      }
+    }
+  },
+  {
     "id": "28010101",
     "contentStatus": "live",
     "name": "Golden Crab",
@@ -74862,6 +81199,17 @@
     "rewards": []
   },
   {
+    "id": "28020414",
+    "contentStatus": "live",
+    "name": "Morozhound",
+    "type": "ANIMAL",
+    "description": "Humanity's best friend!\\nMorozhounds have stunning endurance and gentle personalities. And so, humans fitted them with harnesses and had them pull sleds, forming the first transport teams on the snowy plains.\\nToday, dog-pulled sleds have slowly become more of a tourist attraction in small border towns, with a tiny minority who still respect sledding as a traditional competitive sport. Still, the people of the snowfields continue to regard Morozhounds as the closest of companions.",
+    "assets": {
+      "icon": "GameData/gi/assets/monsters/UI_AnimalIcon_SledDog_01.webp"
+    },
+    "rewards": []
+  },
+  {
     "id": "28020501",
     "contentStatus": "live",
     "name": "Sapphire",
@@ -75104,6 +81452,17 @@
     "rewards": []
   },
   {
+    "id": "28021404",
+    "contentStatus": "live",
+    "name": "Fuzzbadger",
+    "type": "ANIMAL",
+    "description": "Close kin of the Chic Badgers, these animals make their dwelling in the Snezhnayan interior.\\nFuzzbadgers are clad in long, thick, and soft fur, allowing them to travel as they please, even in the coldest of climes.\\nDespite their fluffy appearance, they possess a fierce temperament and never back down, even when facing massive foes. Such is the law of survival on the snowy plains: Do not tread upon the territory of a Fuzzbadger carelessly, lest they show their claws and swiftly make an example of any trespassers.",
+    "assets": {
+      "icon": "GameData/gi/assets/monsters/UI_AnimalIcon_Wolverine_04.webp"
+    },
+    "rewards": []
+  },
+  {
     "id": "28021501",
     "contentStatus": "live",
     "name": "Rimehorn Deer",
@@ -75122,6 +81481,39 @@
     "description": "A tall and gentle creature, with eyes that seem to see through all things.\\nFound across Mondstadt's plains and woodland borders, it feeds on fresh leaves and fruit. As the seasons shift, it moves and migrates accordingly, though it always remains close to the lands it knows best.\\nLight on its feet and keen of hearing, the Camelhorn Deer can detect danger carried on even the faintest breeze. For this reason, only experienced hunters who know how to conceal their presence and sound have any chance of approaching it unnoticed.",
     "assets": {
       "icon": "GameData/gi/assets/monsters/UI_AnimalIcon_Reindeer_02.webp"
+    },
+    "rewards": []
+  },
+  {
+    "id": "28021503",
+    "contentStatus": "live",
+    "name": "Severelk",
+    "type": "ANIMAL",
+    "description": "Tall and tame animals with a pair of eyes that seem to see through all things.\\nThe Severelk living on the snowy plains have thick fur and sturdy horns, yet their feet are light and fleet, and their sense of smell is so keen that they can forage for food even in the thickest snow, and they flee pursuit from predators swiftly.\\nIn old Snezhanyan fairy tales, Severelk are gentle and winsome, and will enter the dreams of children to bring them the gift that is \"growing up well.\"",
+    "assets": {
+      "icon": "GameData/gi/assets/monsters/UI_AnimalIcon_Reindeer_03.webp"
+    },
+    "rewards": []
+  },
+  {
+    "id": "28021601",
+    "contentStatus": "live",
+    "name": "Fluffahog",
+    "type": "ANIMAL",
+    "description": "Beasts covered from head to toe in spikes save for their soft bellies.\\nThe Fluffahog is a gentle soul that enjoys sleeping. Indeed, they are skilled at making hidden nests using plants and leaves, so that they can have sweet dreams even in the winter cold. If their nests are discovered, they will curl into a ball, presenting their wall of tough spikes to the world, as though meaning to repel all threats this way.\\nIn Snezhnayan folk stories, the Fluffahog is the smartest amongst animals, knowing formulae for wondrous herbal remedies, comprehending the secrets to stemming the tides of weakening age, even knowing how to open a lock that has no key.",
+    "assets": {
+      "icon": "GameData/gi/assets/monsters/UI_AnimalIcon_Hedgehog_01.webp"
+    },
+    "rewards": []
+  },
+  {
+    "id": "28021701",
+    "contentStatus": "live",
+    "name": "Polyarbear",
+    "type": "ANIMAL",
+    "description": "Animals that can survive even extreme cold, and that boast large bodies and thick fur.\\nDespite their size, Polyarbears are actually quite agile, being able to leap between ice floes and pursue their prey without making a sound, making them the best hunters in the tundra.\\nSkilled in combat, the Polyarbear is no tame beast, and will not submit to either beast or man easily. As such, they are regarded in some regions of Snezhnaya as a symbol of strength.",
+    "assets": {
+      "icon": "GameData/gi/assets/monsters/UI_AnimalIcon_Bear_01.webp"
     },
     "rewards": []
   },
@@ -75672,6 +82064,28 @@
     "description": "A sharp-eyed eagle whose noble crown further enhances its regal bearing.\\nThe Crowned Eagle excels at circling high above its prey, and due to its strong build and wide wingspan, its dive attacks are particularly lethal.\\nA faint glow ripples across the Crowned Eagle's feathers due to the influence of kuuvahki. It is a creature that is fiercely proud of its crest — whether it is confronting a rival or resting among its kin, its tall, eminent crown feathers shift with its mood, as though it is quietly declaring its lofty nature.",
     "assets": {
       "icon": "GameData/gi/assets/monsters/UI_AnimalIcon_Falcon_Laurus_01.webp"
+    },
+    "rewards": []
+  },
+  {
+    "id": "28030711",
+    "contentStatus": "live",
+    "name": "Red-Bellied Plover",
+    "type": "AVIARY",
+    "description": "Small Snezhnayan flying birds named for their feathers.\\nRed-Bellied Plovers occasionally call in slow, gentle, and even slightly mournful voices. As such, poets have written of them as singing about someone's tragedies.\\nOf course, these are just romantic interpolations by humans. Red-Bellied Plovers are an innocent, even naive sort, agile in flight, and tough to boot. Forests, fruit orchards, and the water's edge can all serve as their habitats. And for this Plover species, there is likely no more critical activity in life than foraging.",
+    "assets": {
+      "icon": "GameData/gi/assets/monsters/UI_AnimalIcon_Bird_Small_Snezhnaya_01.webp"
+    },
+    "rewards": []
+  },
+  {
+    "id": "28030712",
+    "contentStatus": "live",
+    "name": "Nochhornowl",
+    "type": "AVIARY",
+    "description": "Birds that make Snezhnaya their home. They have a full-body covering of feathers that evoke the night sky, and their habit of hunting after sunset has earned them their name.\\nAs the most agile hunters to stalk the tundra, the Nochhornowl is skilled at the arts of disguise, observation, and rapid pursuit.\\nMany hunters see them as a symbol of wisdom, believing them to have spirits and giving them due respect. In return, these owls sometimes guide hunters, sending them messages from the forest depths.",
+    "assets": {
+      "icon": "GameData/gi/assets/monsters/UI_AnimalIcon_Owl_01.webp"
     },
     "rewards": []
   },
@@ -76391,6 +82805,72 @@
     "rewards": []
   },
   {
+    "id": "28042001",
+    "contentStatus": "live",
+    "name": "Charcoal Snowfin",
+    "type": "FISH",
+    "description": "A plump, spherical Snezhnayan fish, this species might look like a distant cousin to the pufferfish found throughout Teyvat. However, the two actually belong to entirely separate lineages. When the Fishing Association first recorded it, its code name was \"Snowland Roundfin.\" After more than a dozen generations of anglers, this informal name gradually evolved into \"Snowfin.\"\\nThe Charcoal Snowfin is the most common subspecies in this family. It is said that the fine, powdery scales contain special components. When dried and ground, and then mixed with the dried powder of Golden Fern roots, they can serve as a remarkably efficient fire starter, prized by many Snezhnayan adventurers.",
+    "assets": {
+      "icon": "GameData/gi/assets/monsters/UI_ItemIcon_131054.webp"
+    },
+    "rewards": []
+  },
+  {
+    "id": "28042002",
+    "contentStatus": "live",
+    "name": "Cream Snowfin",
+    "type": "FISH",
+    "description": "A plump, spherical Snezhnayan fish, this species might look like a distant cousin to the pufferfish found throughout Teyvat. However, the two actually belong to entirely separate lineages. When the Fishing Association first recorded it, its code name was \"Snowland Roundfin.\" After more than a dozen generations of anglers, this informal name gradually evolved into \"Snowfin.\"\\nThe Cream Snowfin, thanks to its near-pure-white coloration and its scarcity, is considered the most precious of Snezhnayan fish. Legend has it that the moment its waters grow even slightly impure, other colors begin to leach into its body. Several fairy tales cast it as their protagonist, telling the dreamlike story of a gifted young angler-lad following one of these Snowfins to the \"Kingdom of Cream\" — a story that briefly caused a citywide cream shortage.",
+    "assets": {
+      "icon": "GameData/gi/assets/monsters/UI_ItemIcon_131055.webp"
+    },
+    "rewards": []
+  },
+  {
+    "id": "28042003",
+    "contentStatus": "live",
+    "name": "Moonlight Snowfin",
+    "type": "FISH",
+    "description": "A plump, spherical Snezhnayan fish, this species might look like a distant cousin to the pufferfish found throughout Teyvat. However, the two actually belong to entirely separate lineages. When the Fishing Association first recorded it, its code name was \"Snowland Roundfin.\" After more than a dozen generations of anglers, this informal name gradually evolved into \"Snowfin.\"\\nFolklore claims the Moonlight Snowfin has the strongest endurance and the best sense of direction of any Snezhnayan fish, its unusual coloration being a gift from moonlight — its ancestors, so the story goes, once traveled far to the waters of Nod-Krai and were baptized in moonbeams. Merchants returning from Nod-Krai deny the tale, and biologists point out that the color most likely comes from the underwater plants it favors as food. But since \"moonlight\" is such a pleasant and memorable prefix, the name has stuck to this day.",
+    "assets": {
+      "icon": "GameData/gi/assets/monsters/UI_ItemIcon_131056.webp"
+    },
+    "rewards": []
+  },
+  {
+    "id": "28042101",
+    "contentStatus": "live",
+    "name": "Ruby Starbloom Fish",
+    "type": "FISH",
+    "description": "A special species that swims the waters of Snezhnaya. Viewed from the front, its six fins form a shape resembling stars and snowflakes, and so the angler who first discovered them called them \"Starbloom Fish.\" The red subspecies is close in color to a red beet and was therefore given the prefix \"Ruby.\" That said, the prefix is only a description of appearance. Some scholars have found that the surface coloration serves mainly to intimidate predators, thereby protecting the fish. It is thus somewhat ironic that from a human perspective, this makes them look all the more delicious.",
+    "assets": {
+      "icon": "GameData/gi/assets/monsters/UI_ItemIcon_131057.webp"
+    },
+    "rewards": []
+  },
+  {
+    "id": "28042102",
+    "contentStatus": "live",
+    "name": "Frostpetal Starbloom Fish",
+    "type": "FISH",
+    "description": "A special species that swims the waters of Snezhnaya. Viewed from the front, its six fins form a shape resembling stars and snowflakes, and so the angler who first discovered them called them \"Starbloom Fish.\" The azure subspecies has coloration akin to the outer petal-edges of a Frostfairy Flower, and so was given the prefix \"Frostpetal.\" Compared to its kin, the Frostpetal Starbloom Fish has the keenest senses of the family, always able to detect danger from far off. And thanks to the propulsion advantage of its six fins, they are also quick to flee from said danger.",
+    "assets": {
+      "icon": "GameData/gi/assets/monsters/UI_ItemIcon_131058.webp"
+    },
+    "rewards": []
+  },
+  {
+    "id": "28042103",
+    "contentStatus": "live",
+    "name": "Iridescent Starbloom Fish",
+    "type": "FISH",
+    "description": "A special species that swims the waters of Snezhnaya. Viewed from the front, its six fins form a shape resembling stars and snowflakes, and so the angler who first discovered them called them \"Starbloom Fish.\" The blue subspecies' scales have superb texture and coloration — under certain light, they look like rainbow-reflecting crystal, earning it the elegant prefix \"Iridescent.\" Thanks to this shimmering appearance, Iridescent Starbloom Fish are prized guests of Snezhnayan fish collectors. Indeed, some have even built expensive aquarium landscapes solely for this fish, only to find themselves unable to catch one for the longest time...",
+    "assets": {
+      "icon": "GameData/gi/assets/monsters/UI_ItemIcon_131059.webp"
+    },
+    "rewards": []
+  },
+  {
     "id": "28050101",
     "contentStatus": "live",
     "name": "Anemo Crystalfly",
@@ -76600,6 +83080,28 @@
     "rewards": []
   },
   {
+    "id": "28051201",
+    "contentStatus": "live",
+    "name": "Ledobug",
+    "type": "CRITTER",
+    "description": "A flying insect commonly found near mines. Beneath its icy-blue fuzz lies a body that resembles Kristall.\\nThis creature is much beloved by many miners. With even the faintest light source, Ledobugs in the mines can reflect the light and illuminate the dark caverns.",
+    "assets": {
+      "icon": "GameData/gi/assets/monsters/UI_AnimalIcon_Boltbug_KrsnikFly_01.webp"
+    },
+    "rewards": []
+  },
+  {
+    "id": "28051301",
+    "contentStatus": "live",
+    "name": "Kristall Bug",
+    "type": "CRITTER",
+    "description": "A beetle commonly found near mines. Its shell is hard, and its color and shape resemble that of Kresnik Kristall, hence its name.\\nIt is said that people first discovered the rich mineral deposits beneath these frozen lands by following the trails of Kristall Bugs, and from those riches built a great civilization amid the bitter cold.",
+    "assets": {
+      "icon": "GameData/gi/assets/monsters/UI_AnimalIcon_Boltbug_KrsnikGround_01.webp"
+    },
+    "rewards": []
+  },
+  {
     "id": "28060101",
     "contentStatus": "live",
     "name": "Spinocrocodile",
@@ -76673,6 +83175,17 @@
     "description": "A reptile with a limited ability to hover.\\nFlying serpents do not truly possess the ability to fly; their ability to hover seems to derive from their bird-like hollow bones and the sparkle of Anemo that imbues them with a subtle influence over the wind. The desert is a far way from the nation of Anemo, but its lands are still ever-graced by gales intent on eroding everything. Everything, from cities to history, will eventually be razed to sand grains by the winnowing currents that drift over the Great Red Sand. Only creatures such as the flying serpents, which have learned to live with the wind, can continue to survive in the desert long after all has been reduced to dust.",
     "assets": {
       "icon": "GameData/gi/assets/monsters/UI_AnimalIcon_Chrysopelea.webp"
+    },
+    "rewards": []
+  },
+  {
+    "id": "28061601",
+    "contentStatus": "live",
+    "name": "White Sumpter Beast",
+    "type": "ANIMAL",
+    "description": "These white-furred quadrupeds are distant relatives of Sumeru's Sumpter Beasts.\\nThe White Sumpter Beasts are friendly to humans and resistant to the cold by nature, and they were once the most important mode of transport across the frozen fields. Even today, they remain good helpers to the Snezhnayan traveling merchant.",
+    "assets": {
+      "icon": "GameData/gi/assets/monsters/UI_AnimalIcon_Megamoth_Snezhnaya.webp"
     },
     "rewards": []
   },

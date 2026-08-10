@@ -3140,7 +3140,7 @@
     {
       "id": 1132101,
       "name": "Field Medic's Vision",
-      "desc": "When Ifa is in the Nightsoul's Blessing state, every 1 Nightsoul point out of the total in his entire party will grant him 1 {LINK#N11130002}<color=#FFD780FF>Rescue Essentials</color>{/LINK} point. Rescue Essentials will increase the Swirl, Electro-Charged, and Lunar-Charged DMG dealt by nearby party members.",
+      "desc": "When Ifa is in the Nightsoul's Blessing state, every 1 Nightsoul point out of the current total in his entire party will grant him 1 {LINK#N11130002}<color=#FFD780FF>Rescue Essentials</color>{/LINK} point. Rescue Essentials will increase the Swirl, Stellar Swirl, Electro-Charged, and Lunar-Charged reaction DMG dealt by nearby party members.",
       "icon": "UI_Talent_S_Ifa_05",
       "unlock": 1,
       "param_list": [
@@ -3148,7 +3148,7 @@
         1,
         150,
         0.015,
-        0,
+        0.0024,
         0,
         0,
         0,
@@ -4152,21 +4152,6 @@
         "tag": "FallingAttack",
         "group": "default"
       },
-      "poise": {
-        "level": "LV2",
-        "value": 5
-      },
-      "element": "Wind",
-      "attack_type": "Default",
-      "strike_type": "Default",
-      "damage_param": "FallingAnthem_Normal_Loop_Damage"
-    },
-    {
-      "name": "FallingAnthem",
-      "icd": {
-        "tag": "FallingAttack",
-        "group": "default"
-      },
       "gauge": 1,
       "poise": {
         "level": "LV3",
@@ -4194,7 +4179,7 @@
       "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
     },
     {
-      "name": "NyxState_FallingAnthem",
+      "name": "FallingAnthem",
       "icd": {
         "tag": "FallingAttack",
         "group": "default"
@@ -4239,6 +4224,21 @@
       "attack_type": "Default",
       "strike_type": "Default",
       "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    },
+    {
+      "name": "NyxState_FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 5
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
     },
     {
       "name": "HoverAttack_Bullet_01",

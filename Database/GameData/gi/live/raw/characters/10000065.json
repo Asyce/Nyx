@@ -4094,21 +4094,6 @@
       },
       "gauge": 1,
       "poise": {
-        "level": "LV2",
-        "value": 20
-      },
-      "element": "Electric",
-      "attack_type": "Default",
-      "strike_type": "Default"
-    },
-    {
-      "name": "Shinobu_ElementalBurst_Gadget",
-      "icd": {
-        "tag": "Elemental_Burst",
-        "group": "default"
-      },
-      "gauge": 1,
-      "poise": {
         "level": "LV1",
         "value": 20
       },
@@ -4207,19 +4192,19 @@
       "strike_type": "Default"
     },
     {
-      "name": "FallingAnthem",
+      "name": "Shinobu_ElementalBurst_Gadget",
       "icd": {
-        "tag": "FallingAttack",
+        "tag": "Elemental_Burst",
         "group": "default"
       },
+      "gauge": 1,
       "poise": {
         "level": "LV2",
-        "value": 25
+        "value": 20
       },
-      "element": "None",
-      "attack_type": "Melee",
-      "strike_type": "Slash",
-      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default"
     },
     {
       "name": "FallingAnthem",
@@ -4252,6 +4237,21 @@
       "attack_type": "Melee",
       "strike_type": "Blunt",
       "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 25
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
     }
   ],
   "energy": [

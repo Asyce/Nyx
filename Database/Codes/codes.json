@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T02:15:00.254Z",
+  "generatedAt": "2026-08-10T00:02:24.181Z",
   "maxAgeDays": 28,
   "games": [
     {
@@ -9,12 +9,12 @@
       "redeemBase": "https://genshin.hoyoverse.com/en/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/GI/codes/",
-      "lastSuccessfulFetch": "2026-08-09T02:14:30.342Z",
+      "lastSuccessfulFetch": "2026-08-10T00:02:05.290Z",
       "codes": [
         {
           "code": "EHVE2TEAFY6O",
           "rewards": "",
-          "added": "2026-08-09",
+          "added": "2026-08-10",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=EHVE2TEAFY6O",
           "hoyoVerified": true,
           "premium": false,
@@ -25,7 +25,7 @@
         {
           "code": "LEGEDILJKSGM",
           "rewards": "Primogem x 60, Adventurer's Experience x 5",
-          "added": "2026-08-09",
+          "added": "2026-08-10",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=LEGEDILJKSGM",
           "hoyoVerified": true,
           "premium": true,
@@ -36,7 +36,7 @@
         {
           "code": "P7G0XA30H0Q3",
           "rewards": "",
-          "added": "2026-08-09",
+          "added": "2026-08-10",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=P7G0XA30H0Q3",
           "hoyoVerified": true,
           "premium": false,
@@ -47,7 +47,7 @@
         {
           "code": "UIVIBUQM6Q8A",
           "rewards": "Mora x 10000, Adventurer's Experience x 10, Fine Enhancement Ore x 5, Jueyun Chili Chicken x 5, Stir-Fried Fish Noodles x 5",
-          "added": "2026-08-09",
+          "added": "2026-08-10",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=UIVIBUQM6Q8A",
           "hoyoVerified": true,
           "premium": false,
@@ -114,12 +114,12 @@
       "redeemBase": "https://hsr.hoyoverse.com/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/HSR/codes/",
-      "lastSuccessfulFetch": "2026-08-09T02:14:30.376Z",
+      "lastSuccessfulFetch": "2026-08-10T00:02:05.292Z",
       "codes": [
         {
           "code": "4TKSX77Y58QK",
           "rewards": "30 stellar jade, three traveler's guides, five condensed aether, four lost gold fragments, and 20k credits",
-          "added": "2026-08-09",
+          "added": "2026-08-10",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=4TKSX77Y58QK",
           "hoyoVerified": true,
           "premium": true,
@@ -130,7 +130,7 @@
         {
           "code": "5S6ZHRWTDNJB",
           "rewards": "60 stellar jade",
-          "added": "2026-08-09",
+          "added": "2026-08-10",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=5S6ZHRWTDNJB",
           "hoyoVerified": true,
           "premium": true,
@@ -141,7 +141,7 @@
         {
           "code": "CREATIONNYMPH",
           "rewards": "60 stellar jade and one fuel",
-          "added": "2026-08-09",
+          "added": "2026-08-10",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=CREATIONNYMPH",
           "hoyoVerified": true,
           "premium": true,
@@ -152,7 +152,7 @@
         {
           "code": "CTK5DRQVT48F",
           "rewards": "",
-          "added": "2026-08-09",
+          "added": "2026-08-10",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=CTK5DRQVT48F",
           "hoyoVerified": true,
           "premium": false,
@@ -163,7 +163,7 @@
         {
           "code": "FAREWELL",
           "rewards": "60 stellar jade and one fuel",
-          "added": "2026-08-09",
+          "added": "2026-08-10",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=FAREWELL",
           "hoyoVerified": true,
           "premium": true,
@@ -174,7 +174,7 @@
         {
           "code": "IFYOUAREREADINGTHIS",
           "rewards": "60 stellar jade and one fuel",
-          "added": "2026-08-09",
+          "added": "2026-08-10",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=IFYOUAREREADINGTHIS",
           "hoyoVerified": true,
           "premium": true,
@@ -185,7 +185,7 @@
         {
           "code": "OMEGA",
           "rewards": "60 stellar jade and one fuel",
-          "added": "2026-08-09",
+          "added": "2026-08-10",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=OMEGA",
           "hoyoVerified": true,
           "premium": true,
@@ -196,7 +196,7 @@
         {
           "code": "STARRAILGIFT",
           "rewards": "50 stellar jade, 10k credits, two traveler's guides, and five bottled soda",
-          "added": "2026-08-09",
+          "added": "2026-08-10",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=STARRAILGIFT",
           "hoyoVerified": true,
           "premium": true,
@@ -243,18 +243,29 @@
       "redeemBase": "https://zenless.hoyoverse.com/redemption?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/ZZZ/codes/",
-      "lastSuccessfulFetch": "2026-08-09T02:14:30.856Z",
+      "lastSuccessfulFetch": "2026-08-10T00:02:04.808Z",
       "codes": [
         {
           "code": "CBW0884678",
           "rewards": "Denny x 20,000",
-          "added": "2026-08-09",
+          "added": "2026-08-10",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=CBW0884678",
           "hoyoVerified": true,
           "premium": false,
           "premium100": false,
           "cwSeen": false,
           "firstSeen": "2026-08-07T04:03:19.449Z"
+        },
+        {
+          "code": "ZENLESSGIFT",
+          "rewards": "50 polychrome, two official investigator logs, three w-engine power supplies, and one bangboo algorithm module",
+          "added": "2026-08-10",
+          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZENLESSGIFT",
+          "hoyoVerified": true,
+          "premium": true,
+          "premium100": false,
+          "cwSeen": true,
+          "firstSeen": "2026-07-05T17:19:07.479Z"
         },
         {
           "code": "VOIDWATCHINGYOU",
@@ -266,17 +277,6 @@
           "premium100": false,
           "cwSeen": false,
           "firstSeen": "2026-08-02T13:44:49.170Z"
-        },
-        {
-          "code": "ZENLESSGIFT",
-          "rewards": "50 polychrome, two official investigator logs, three w-engine power supplies, and one bangboo algorithm module",
-          "added": "2026-08-09",
-          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZENLESSGIFT",
-          "hoyoVerified": true,
-          "premium": true,
-          "premium100": false,
-          "cwSeen": true,
-          "firstSeen": "2026-07-05T17:19:07.479Z"
         },
         {
           "code": "ZZZMEIJI",
@@ -317,7 +317,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Terminal > Settings > Other Settings > Redemption Code",
       "sourceUrl": "https://nexus-codes.app/games/WUWA/codes/",
-      "lastSuccessfulFetch": "2026-08-09T02:15:00.254Z",
+      "lastSuccessfulFetch": "2026-08-10T00:02:24.181Z",
       "codes": [
         {
           "code": "ETERNALFLAME",
@@ -371,7 +371,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Settings > Account > Exchange Code",
       "sourceUrl": "https://nexus-codes.app/games/ARKEN/codes/",
-      "lastSuccessfulFetch": "2026-08-09T02:14:30.315Z",
+      "lastSuccessfulFetch": "2026-08-10T00:02:04.793Z",
       "codes": [
         {
           "code": "ENDFIELDRENEW",

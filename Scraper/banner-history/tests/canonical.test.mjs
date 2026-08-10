@@ -35,7 +35,12 @@ test('permanent/novice records and honest date-only rows survive normalization',
   for (const name of ['Tidal Chorus','Standard Weapon Convene','Utterance of Marvels',"Beginner's Choice Convene"]) assert(wuwa.some((row) => row.name === name && row.permanent), name);
   assert(wuwa.some((row) => row.dateOnly && !Object.keys(row.windowsByRegion).length), 'WuWa sourced date-only record');
   const ae = load('ae').records;
-  assert(ae.some((row) => row.name === 'Crimson Hued' && !Object.values(row.windowsByRegion).some((window) => window.end)), 'provisional Endfield end omitted');
+  // Naming a specific in-flight banner here rots the moment Gryphline publishes its end,
+  // so assert the behaviour instead: a still-running record keeps its starts and omits ends.
+  assert(ae.some((row) => {
+    const windows = Object.values(row.windowsByRegion);
+    return windows.length && windows.every((window) => window.start && !window.end);
+  }), 'provisional Endfield ends omitted');
 });
 
 test('Endfield dedicated official notices override exact regional boundaries and preserve unknown ends', () => {
@@ -45,9 +50,19 @@ test('Endfield dedicated official notices override exact regional boundaries and
   const expunger = byName('Expunger of Sin');
   assert.match(expunger.officialSource.url, /\/6175\?/); assert.equal(expunger.windowsByRegion.asia.start, '2026-06-26T04:00:00.000Z'); assert.equal(expunger.windowsByRegion.america.start, '2026-06-26T17:00:00.000Z');
   const crimson = byName('Crimson Hued');
-  assert.match(crimson.officialSource.url, /\/1321\?/); assert.equal(crimson.windowsByRegion.america.start, '2026-06-26T17:00:00.000Z'); assert(!Object.values(crimson.windowsByRegion).some((window) => window.end));
+  assert.match(crimson.officialSource.url, /\/1321\?/); assert.equal(crimson.windowsByRegion.america.start, '2026-06-26T17:00:00.000Z');
   const scarlet = byName('Scarlet Knot');
-  assert.match(scarlet.officialSource.url, /\/4492\?/); assert(!Object.values(scarlet.windowsByRegion).some((window) => window.end));
+  assert.match(scarlet.officialSource.url, /\/4492\?/);
+  // "Preserve unknown ends" means ends are reported, never invented. A region holds an
+  // omitted end until an official notice publishes one — and a later notice legitimately
+  // may, per region, so pinning a named banner as open forever is what previously broke
+  // this suite. Assert the invariant that survives new notices instead.
+  for (const row of rows) for (const [region, window] of Object.entries(row.windowsByRegion)) {
+    if (!window.end) continue;
+    assert(Number.isFinite(Date.parse(window.end)), `${row.name} ${region} end parses`);
+    assert(Date.parse(window.end) > Date.parse(window.start), `${row.name} ${region} end follows start`);
+  }
+  assert(rows.some((row) => Object.values(row.windowsByRegion).some((window) => window.start && !window.end)), 'unpublished Endfield ends stay omitted');
 });
 
 test('written canonical records keep official regional windows even when a fresh scrape misses the notice', () => {

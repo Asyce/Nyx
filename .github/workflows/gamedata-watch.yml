@@ -96,6 +96,28 @@ jobs:
           CHANGED_GAMES: ${{ steps.manifest.outputs.games }}
         run: node ./gamedata/validate-output.mjs "$CHANGED_GAMES"
 
+      # The R2 asset manifest inventories Git-*tracked* Database assets (git
+      # ls-files), while generated site data resolves icons off disk. A freshly
+      # synced upstream image is therefore visible to the build but absent from
+      # the manifest until it is staged, and in r2-only mode build-deploy aborts
+      # with "deploy references an untracked Database image". So commit the
+      # synced GameData first and let the preflight build run against a tracked
+      # tree, exactly as the sibling data workflows do. Nothing is published
+      # here: this commit is local, and the push below is still gated on the
+      # preflight build, both smokes, and the exact post-commit repackage.
+      - name: Commit synced GameData
+        if: ${{ steps.manifest.outputs.changed == 'true' }}
+        run: |
+          git config user.name "pengo-bot"
+          git config user.email "bot@pengo.gg"
+          git add -A Database/GameData Database/Audits Database/reports
+          if git diff --cached --quiet; then
+            echo "::error::Nanoka manifest changed but the sync produced no tracked change."
+            exit 1
+          fi
+          git diff --cached --stat
+          git commit -m "chore(data): sync Nanoka GameData [skip ci]"
+
       # Build before publishing the data commit, so broken generated output can
       # never be pushed merely because the upstream manifest changed.
       - name: Preflight site build
@@ -112,28 +134,25 @@ jobs:
           PENGO_DATABASE_ASSET_MODE: ${{ vars.DATABASE_ASSET_MODE || 'local' }}
         run: npm run smoke:deploy:generated
 
-      - name: Stage verified GameData and generated output
+      # The GameData itself is already committed above; fold the generated output
+      # the verified build produced into that same commit. Generated output may
+      # legitimately be identical when an upstream change does not reach the
+      # site, so an empty amend is not an error here — "the sync produced no
+      # tracked change" is already enforced at commit time.
+      - name: Amend verified generated output
         if: ${{ steps.manifest.outputs.changed == 'true' }}
+        id: commit
         run: |
           git add -A Database/GameData Database/Audits Database/reports Site/src/data/generated
-          if git diff --cached --quiet; then
-            echo "::error::Nanoka manifest changed but the verified build produced no tracked change."
-            exit 1
-          fi
           if ! git diff --quiet; then
             echo "::error::The GameData build changed an unexpected tracked path."
             git diff --stat
             exit 1
           fi
-          git diff --cached --stat
-
-      - name: Commit refreshed GameData
-        if: ${{ steps.manifest.outputs.changed == 'true' }}
-        id: commit
-        run: |
-          git config user.name "pengo-bot"
-          git config user.email "bot@pengo.gg"
-          git commit -m "chore(data): sync Nanoka GameData [skip ci]"
+          if ! git diff --cached --quiet; then
+            git diff --cached --stat
+            git commit --amend --no-edit
+          fi
           git pull --rebase origin main
 
       # A rebase can bring in newer source/data. Rebuild from that exact base,

@@ -6,7 +6,7 @@ import { fileURLToPath } from 'node:url';
 
 const rootDir = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', '..', '..');
 const workflowDir = path.resolve(rootDir, '.github', 'workflows');
-const scheduled = [
+const producerDeploys = [
   'banner-history-refresh.yml',
   'code-watch.yml',
   'data-refresh.yml',
@@ -22,8 +22,8 @@ test('deploy guard permits exactly the Cloudflare asset limit after SEO', async 
   assert.doesNotMatch(source, /files\.length >= hardFileLimit - POST_BUILD_FILE_RESERVE/);
 });
 
-test('every scheduled deploy pushes the exact commit before publishing R2 manifests', async () => {
-  for (const name of scheduled) {
+test('every producer manual deploy pushes the exact commit before publishing R2 manifests', async () => {
+  for (const name of producerDeploys) {
     const source = await fs.readFile(path.resolve(workflowDir, name), 'utf8');
     const push = source.indexOf('- name: Push verified');
     const sync = source.indexOf('- name: Additively sync Database assets to R2');
@@ -54,6 +54,34 @@ test('every scheduled deploy pushes the exact commit before publishing R2 manife
       assert.match(block, /PENGO_DATABASE_ASSET_MODE:/, `${name} smoke uses the same explicit Database asset mode as its build`);
     }
   }
+});
+
+test('daily deploy syncs pushed main and verifies a renewed exact snapshot before Cloudflare', async () => {
+  const source = await fs.readFile(path.resolve(workflowDir, 'daily-deploy.yml'), 'utf8');
+  const liveCheck = source.indexOf('- name: Check whether main is already live');
+  const rebase = source.indexOf('- name: Rebase before deployment');
+  const lfsPull = source.indexOf('git lfs pull');
+  const install = source.indexOf('- name: Install site dependencies');
+  const launcherSnapshot = source.indexOf('id: launcher_snapshot');
+  const firstBuild = source.indexOf('- name: Build verified launcher snapshot');
+  const firstSmoke = source.indexOf('- name: Smoke verified launcher snapshot');
+  const firstPush = source.indexOf('- name: Push verified launcher snapshot');
+  const sync = source.indexOf('- name: Additively sync Database assets to R2');
+  const refresh = source.indexOf('- name: Refresh deployment launcher snapshot');
+  const snapshot = source.indexOf('id: deployment_snapshot');
+  const build = source.indexOf('- name: Build exact deployment artifact');
+  const smoke = source.indexOf('- name: Smoke exact deployment artifact');
+  const push = source.indexOf('- name: Push exact deployment snapshot');
+  const deploy = source.indexOf('- name: Deploy to Cloudflare');
+
+  assert(liveCheck >= 0 && liveCheck < rebase, 'the no-op check must precede the expensive path');
+  assert(rebase < lfsPull && lfsPull < install, 'the exact rebased commit must own LFS files and dependencies');
+  assert(install < launcherSnapshot && launcherSnapshot < firstBuild && firstBuild < firstSmoke && firstSmoke < firstPush && firstPush < sync, 'the rebased launcher snapshot must be verified and pushed before R2');
+  assert(sync < refresh && refresh < snapshot, 'launcher freshness must be renewed after R2');
+  assert(snapshot < build && build < smoke && smoke < push && push < deploy, 'the renewed commit must build, smoke, and push before deploy');
+  assert.match(source.slice(sync, refresh), /PENGO_DEPLOY_COMMIT: \$\{\{ steps\.launcher_snapshot\.outputs\.sha \}\}/);
+  assert.match(source.slice(build, smoke), /PENGO_DEPLOY_COMMIT: \$\{\{ steps\.deployment_snapshot\.outputs\.sha \}\}/);
+  assert.match(source.slice(deploy), /steps\.deployment_snapshot\.outputs\.fresh == 'true'/);
 });
 
 test('GameData preflight and rebased checks use the configured Database asset mode', async () => {

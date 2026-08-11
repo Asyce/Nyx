@@ -1,17 +1,25 @@
 # Scheduled workflows
 
-Seven scheduled jobs keep pengo.gg fresh and deploy automatically.
+Six scheduled refresh jobs keep the data fresh; one daily job publishes the
+newest verified `main` branch. Manual refresh runs can still deploy immediately.
 
 | Workflow | Cadence | What it does |
 |---|---|---|
-| `gamedata-watch.yml` | hourly, at 20 past | compare Nanoka's manifest -> when a supported game changed, sync its live/beta JSON and assets -> GameData-only validate -> build -> smoke -> commit -> rebuild with exact commit metadata -> deploy |
-| `code-watch.yml` | hourly, plus half-hour checks during detected livestream windows | detect official livestream windows -> active-code-only scrape -> semantic diff -> validate -> commit -> build -> smoke -> deploy only when codes changed |
-| `data-refresh.yml` | every 6h | retry banners + scrape codes -> unit tests -> strict validate -> commit `Database/` -> build -> smoke -> push -> deploy; an expected banner source outage warns and exits as a no-op, while unexpected scraper errors fail red |
-| `roster-sync.yml` | daily | scrape secondary rosters/materials/titles + banners + codes -> structural validate -> commit `Database/` -> build -> smoke -> push -> deploy |
-| `side-data-sync.yml` | daily | scrape birthdays/namecards/signatures/holidays/TCG/furniture/Endfield skill icons/Genshin banner history -> structural validate -> commit `Database/` and Genshin banner helper -> build -> smoke -> push -> deploy |
-| `gamedata-asset-sync.yml` | daily | download missing local GameData assets -> commit only `Database/GameData/*/assets` -> build -> smoke -> push -> deploy |
+| `code-watch.yml` | every 6h, at 7 past | detect official livestream windows -> active-code-only scrape -> semantic diff -> validate -> commit -> build -> smoke -> push |
+| `gamedata-watch.yml` | 02:20 and 14:20 UTC daily | compare Nanoka's manifest -> when a supported game changed, sync its live/beta JSON and assets -> GameData-only validate -> build -> smoke -> commit -> push |
+| `data-refresh.yml` | 03:15 UTC daily | retry banners + scrape codes and events -> unit tests -> strict validate -> build -> smoke -> push |
+| `banner-history-refresh.yml` | 04:45 UTC Monday and Thursday | refresh banner history and activities -> structural validate -> build -> smoke -> push |
+| `roster-sync.yml` | 05:30 UTC Sunday | refresh slower rosters/materials/titles -> structural validate -> build -> smoke -> push |
+| `side-data-sync.yml` | 06:45 UTC Sunday and Wednesday | refresh birthdays/namecards/signatures/holidays/TCG/furniture/Endfield skill icons/Genshin banner history -> structural validate -> build -> smoke -> push |
+| `daily-deploy.yml` | 11:00 Europe/Paris daily | skip when `main` is already live; otherwise verify and push a fresh launcher snapshot, sync R2, renew the snapshot, verify it again, and deploy once |
+| `gamedata-asset-sync.yml` | manual only | repair missing local GameData assets, verify them, push, and deploy |
 
 Before any deploy:
+- All refresh and deploy workflows share the `pengo-deploy` lock with
+  `queue: max`, so overlapping runs wait in order instead of replacing one another.
+- Automatic data-owner runs stop after pushing a verified commit. Their manual
+  `workflow_dispatch` runs retain the immediate deploy path. `daily-deploy.yml`
+  combines automatic changes into at most one scheduled production deploy per day.
 - Every deploy-capable workflow builds and smokes an exact-commit artifact in
   the repository-selected mode and pushes that verified commit. In `dual` or
   `r2-only` mode it then additively syncs its Database inventory before
@@ -33,8 +41,8 @@ Before any deploy:
 `code-watch.yml` is intentionally lighter than the full refresh:
 - Before deciding its mode, it runs `npm run codes:livestreams`, which scans official YouTube feeds for version livestreams across Genshin, HSR, ZZZ, WuWa, and Arknights: Endfield, then updates `Scraper/codes/livestream-windows.json` only when the effective windows changed.
 - Normal mode runs `npm run codes:watch`, which skips expired-table sweeps and Reddit.
-- During active windows listed in `Scraper/codes/livestream-windows.json`, it runs `npm run codes:watch:deep`, which adds Reddit back for the detected game(s) and also enables the half-hour schedule.
-- `--change-gated` ignores timestamp-only changes (`generatedAt`, `lastSuccessfulFetch`, existing `firstSeen`) and leaves `Database/Codes/codes.json` untouched when the actual code set did not change.
+- During active windows listed in `Scraper/codes/livestream-windows.json`, it runs `npm run codes:watch:deep`, which adds Reddit back for the detected game(s).
+- `--change-gated` ignores timestamp-only changes (`generatedAt`, `lastSuccessfulFetch`, existing `firstSeen`), while the scraper preserves an existing code's earlier `added` date when an active source only reports "today".
 
 ## Actions minutes budget
 
@@ -43,14 +51,15 @@ minutes/month**, and **every job is billed a one-minute minimum** even when it s
 finds nothing to do, and exits in seconds. Polling cadence therefore costs minutes
 whether or not any work happens.
 
-Approximate monthly floor at current cadences:
+Approximate monthly floor at the current cadences (31-day month):
 
 | Workflow | Runs/month | Billed floor |
 |---|---|---|
-| `gamedata-watch.yml` (hourly) | ~720 | ~720 min |
-| `code-watch.yml` (:07 + :37) | ~1,440 | ~1,440 min |
-| `data-refresh.yml` + `banner-history-refresh.yml` (every 6h) | ~240 | ~240 min |
-| three daily syncs | ~90 | ~90 min |
+| `code-watch.yml` (4/day) | 124 | 124 min |
+| `gamedata-watch.yml` (2/day) | 62 | 62 min |
+| `data-refresh.yml` + `daily-deploy.yml` (1/day each) | 62 | 62 min |
+| banner history + roster + side data | ~23 | ~23 min |
+| **Total automatic starts** | **~271** | **~271 min minimum** |
 
 In July 2026 `gamedata-watch.yml` ran every 15 minutes (~2,880 runs) and the account hit
 the cap on the 30th; jobs then refused to start until the cycle reset. Before increasing
@@ -65,11 +74,11 @@ any cron frequency, check the headroom against this table.
 - **`REDDIT_PROXY_BASE`** - the Contabo proxy base URL used by code-watch deep mode when GitHub runner IPs are rate-limited by Reddit RSS.
 - **`REDDIT_PROXY_SECRET`** - shared secret sent as `X-Proxy-Secret` to the Contabo proxy. Keep this value synchronized with `/opt/asyce-reddit-proxy/.env` on the VPS.
 
-Set these under **Settings -> Secrets and variables -> Actions**. Without the Cloudflare token, the workflows still scrape, validate, build, and commit data; they just skip the live deploy.
+Set these under **Settings -> Secrets and variables -> Actions**. Without the Cloudflare token, the data workflows still scrape, validate, build, and commit data; the daily deploy warns and exits before its expensive path.
 
-The Reddit proxy secrets are only needed for Reddit-backed deep code checks. Without them, normal hourly code-watch still runs, but livestream Reddit fallback is weaker when Reddit rate-limits GitHub Actions.
+The Reddit proxy secrets are only needed for Reddit-backed deep code checks. Without them, normal six-hour code-watch still runs, but livestream Reddit fallback is weaker when Reddit rate-limits GitHub Actions.
 
-GameData asset syncs are automated without `--force-assets`, so existing local images are not re-downloaded. Use a manual run only when you intentionally need to re-fetch existing images:
+GameData asset sync omits `--force-assets`, so existing local images are not re-downloaded. Run this command manually only when you intentionally need to re-fetch existing images:
 
 ```bash
 cd Scraper && node ./gamedata/scrape.mjs --game all --force-assets

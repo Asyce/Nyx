@@ -1,16 +1,14 @@
 name: GameData asset sync & deploy
 
-# Daily fill for local GameData image/material assets. The roster workflow keeps
-# data fresh with --skip-assets; this job downloads only missing asset files and
-# commits those assets separately so normal data commits stay small and readable.
+# Manual fill for local GameData image/material assets. The Nanoka watcher already
+# syncs assets when GameData changes; use this only to repair missing local files.
 
 on:
-  schedule:
-    - cron: '35 7 * * *' # 07:35 UTC daily, after roster + side-data sync
   workflow_dispatch: {}
 
 concurrency:
   group: pengo-deploy
+  queue: max
   cancel-in-progress: false
 
 permissions:
@@ -131,7 +129,7 @@ jobs:
 
       - name: Additively sync Database assets to R2
         id: r2_sync
-        if: ${{ steps.launcher_snapshot.outputs.fresh == 'true' && env.DATABASE_ASSET_MODE != 'local' && env.CF_API_TOKEN != '' }}
+        if: ${{ github.event_name == 'workflow_dispatch' && steps.launcher_snapshot.outputs.fresh == 'true' && env.DATABASE_ASSET_MODE != 'local' && env.CF_API_TOKEN != '' }}
         working-directory: Site
         env:
           PENGO_DEPLOY_COMMIT: ${{ steps.launcher_snapshot.outputs.sha }}
@@ -143,13 +141,13 @@ jobs:
       # R2 reconciliation can exceed the 15-minute launcher freshness window.
       # Re-commit and rebuild the exact deployment snapshot after that slow step.
       - name: Refresh final deployment launcher snapshot
-        if: ${{ steps.launcher_snapshot.outputs.fresh == 'true' && (env.DATABASE_ASSET_MODE == 'local' || steps.r2_sync.outputs.ready == 'true') && env.CF_API_TOKEN != '' }}
+        if: ${{ github.event_name == 'workflow_dispatch' && steps.launcher_snapshot.outputs.fresh == 'true' && (env.DATABASE_ASSET_MODE == 'local' || steps.r2_sync.outputs.ready == 'true') && env.CF_API_TOKEN != '' }}
         working-directory: Site
         run: npm run generate:data && npm run refresh:launcher
 
       - name: Commit final deployment launcher snapshot
         id: deployment_snapshot
-        if: ${{ steps.launcher_snapshot.outputs.fresh == 'true' && (env.DATABASE_ASSET_MODE == 'local' || steps.r2_sync.outputs.ready == 'true') && env.CF_API_TOKEN != '' }}
+        if: ${{ github.event_name == 'workflow_dispatch' && steps.launcher_snapshot.outputs.fresh == 'true' && (env.DATABASE_ASSET_MODE == 'local' || steps.r2_sync.outputs.ready == 'true') && env.CF_API_TOKEN != '' }}
         run: |
           git config user.name "pengo-bot"
           git config user.email "bot@pengo.gg"
@@ -181,7 +179,7 @@ jobs:
         run: git push
 
       - name: Deploy to Cloudflare
-        if: ${{ steps.launcher_snapshot.outputs.fresh == 'true' && steps.deployment_snapshot.outputs.fresh == 'true' && env.CF_API_TOKEN != '' }}
+        if: ${{ github.event_name == 'workflow_dispatch' && steps.launcher_snapshot.outputs.fresh == 'true' && steps.deployment_snapshot.outputs.fresh == 'true' && env.CF_API_TOKEN != '' }}
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         run: npx --yes wrangler deploy

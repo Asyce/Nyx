@@ -1,16 +1,17 @@
 name: Side data sync & deploy
 
-# Daily refresh for the smaller secondary datasets that the site uses around the
+# Twice-weekly refresh for the smaller secondary datasets that the site uses around the
 # main rosters: birthdays, namecards, signatures, TCG, furniture, Wonderland, The Library, holidays,
-# and Endfield skill icons. Banner history has its own isolated six-hour workflow.
+# and Endfield skill icons. Banner history has its own isolated workflow.
 
 on:
   schedule:
-    - cron: '45 6 * * *' # 06:45 UTC daily, after roster-sync
+    - cron: '45 6 * * 0,3' # 06:45 UTC Sunday and Wednesday
   workflow_dispatch: {}
 
 concurrency:
   group: pengo-deploy
+  queue: max
   cancel-in-progress: false
 
 permissions:
@@ -128,7 +129,7 @@ jobs:
 
       - name: Additively sync Database assets to R2
         id: r2_sync
-        if: ${{ steps.launcher_snapshot.outputs.fresh == 'true' && env.DATABASE_ASSET_MODE != 'local' && env.CF_API_TOKEN != '' }}
+        if: ${{ github.event_name == 'workflow_dispatch' && steps.launcher_snapshot.outputs.fresh == 'true' && env.DATABASE_ASSET_MODE != 'local' && env.CF_API_TOKEN != '' }}
         working-directory: Site
         env:
           PENGO_DEPLOY_COMMIT: ${{ steps.launcher_snapshot.outputs.sha }}
@@ -140,13 +141,13 @@ jobs:
       # R2 reconciliation can exceed the 15-minute launcher freshness window.
       # Re-commit and rebuild the exact deployment snapshot after that slow step.
       - name: Refresh final deployment launcher snapshot
-        if: ${{ steps.launcher_snapshot.outputs.fresh == 'true' && (env.DATABASE_ASSET_MODE == 'local' || steps.r2_sync.outputs.ready == 'true') && env.CF_API_TOKEN != '' }}
+        if: ${{ github.event_name == 'workflow_dispatch' && steps.launcher_snapshot.outputs.fresh == 'true' && (env.DATABASE_ASSET_MODE == 'local' || steps.r2_sync.outputs.ready == 'true') && env.CF_API_TOKEN != '' }}
         working-directory: Site
         run: npm run generate:data && npm run refresh:launcher
 
       - name: Commit final deployment launcher snapshot
         id: deployment_snapshot
-        if: ${{ steps.launcher_snapshot.outputs.fresh == 'true' && (env.DATABASE_ASSET_MODE == 'local' || steps.r2_sync.outputs.ready == 'true') && env.CF_API_TOKEN != '' }}
+        if: ${{ github.event_name == 'workflow_dispatch' && steps.launcher_snapshot.outputs.fresh == 'true' && (env.DATABASE_ASSET_MODE == 'local' || steps.r2_sync.outputs.ready == 'true') && env.CF_API_TOKEN != '' }}
         run: |
           git config user.name "pengo-bot"
           git config user.email "bot@pengo.gg"
@@ -178,7 +179,7 @@ jobs:
         run: git push
 
       - name: Deploy to Cloudflare
-        if: ${{ steps.launcher_snapshot.outputs.fresh == 'true' && steps.deployment_snapshot.outputs.fresh == 'true' && env.CF_API_TOKEN != '' }}
+        if: ${{ github.event_name == 'workflow_dispatch' && steps.launcher_snapshot.outputs.fresh == 'true' && steps.deployment_snapshot.outputs.fresh == 'true' && env.CF_API_TOKEN != '' }}
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         run: npx --yes wrangler deploy

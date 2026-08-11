@@ -99,6 +99,60 @@ test('every scheduled publishing workflow pushes only after a deploy smoke test'
   }
 });
 
+test('automatic schedules stay budgeted and only the daily job deploys automatically', () => {
+  const workflowDir = path.join(root, '.github/workflows');
+  const expectedCrons = {
+    'code-watch.yml': '7 */6 * * *',
+    'gamedata-watch.yml': '20 2,14 * * *',
+    'data-refresh.yml': '15 3 * * *',
+    'banner-history-refresh.yml': '45 4 * * 1,4',
+    'roster-sync.yml': '30 5 * * 0',
+    'side-data-sync.yml': '45 6 * * 0,3',
+    'daily-deploy.yml': '0 11 * * *',
+  };
+  const source = (file) => fs.readFileSync(path.join(workflowDir, file), 'utf8');
+
+  for (const [file, cron] of Object.entries(expectedCrons)) {
+    assert(source(file).includes(`cron: '${cron}'`) || source(file).includes(`cron: "${cron}"`), `${file} must use ${cron}`);
+  }
+
+  const assetHeader = source('gamedata-asset-sync.yml').split('\nconcurrency:')[0];
+  assert.doesNotMatch(assetHeader, /\bschedule:/, 'GameData asset repair must stay manual-only');
+
+  for (const file of [...Object.keys(expectedCrons), 'gamedata-asset-sync.yml', 'r2-database-reconcile.yml']) {
+    assert.match(source(file), /concurrency:\s*\r?\n\s*group: pengo-deploy\s*\r?\n\s*queue: max\s*\r?\n\s*cancel-in-progress: false/, `${file} must serialize without replacing pending runs`);
+  }
+
+  const daily = source('daily-deploy.yml');
+  assert.match(daily, /timezone:\s*["']Europe\/Paris["']/, 'daily deploy must stay at 11:00 Paris time across clock changes');
+  const liveCheck = daily.indexOf('- name: Check whether main is already live');
+  const rebase = daily.indexOf('- name: Rebase before deployment');
+  const lfsPull = daily.indexOf('git lfs pull');
+  const install = daily.indexOf('- name: Install site dependencies');
+  const r2Sync = daily.indexOf('- name: Additively sync Database assets to R2');
+  const refresh = daily.indexOf('- name: Refresh deployment launcher snapshot');
+  assert(liveCheck >= 0 && liveCheck < rebase && rebase < lfsPull && lfsPull < install && install < r2Sync && r2Sync < refresh, 'daily deploy must rebase before installing and renew freshness after R2');
+  assert.doesNotMatch(daily.slice(0, liveCheck), /lfs:\s*true/, 'the cheap live check must happen before any LFS download');
+
+  for (const file of [
+    'banner-history-refresh.yml',
+    'code-watch.yml',
+    'data-refresh.yml',
+    'gamedata-asset-sync.yml',
+    'gamedata-watch.yml',
+    'roster-sync.yml',
+    'side-data-sync.yml',
+  ]) {
+    const workflow = source(file);
+    for (const name of ['Additively sync Database assets to R2', 'Refresh final deployment launcher snapshot', 'Commit final deployment launcher snapshot', 'Deploy to Cloudflare']) {
+      const start = workflow.indexOf(`- name: ${name}`);
+      const end = workflow.indexOf('\n      - name:', start + 1);
+      assert(start >= 0, `${file} is missing ${name}`);
+      assert.match(workflow.slice(start, end), /github\.event_name == 'workflow_dispatch'/, `${file} ${name} must be manual-only`);
+    }
+  }
+});
+
 test('only the current-banner owner requires live scraper freshness and retries transient failures', () => {
   const workflow = (file) => fs.readFileSync(path.join(root, '.github/workflows', file), 'utf8');
   const dataRefresh = workflow('data-refresh.yml');

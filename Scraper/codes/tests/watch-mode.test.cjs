@@ -3,7 +3,7 @@ const assert = require("node:assert/strict");
 
 const { diffSemanticCodes } = require("../semantic-diff.cjs");
 const { decideWatchMode } = require("../watch-mode.cjs");
-const { parseCliOptions, parseGameList } = require("../scrape.cjs");
+const { parseCliOptions, parseGameList, preserveEarlierAddedDates } = require("../scrape.cjs");
 
 function baseCodes() {
   return {
@@ -104,4 +104,20 @@ test("active-only scraper mode preserves prior codes and skips destructive sweep
 
 test("reddit game list normalizes comma and whitespace separated values", () => {
   assert.deepEqual(parseGameList(" WUWA, zzz hsr "), ["wuwa", "zzz", "hsr"]);
+});
+
+test("date-less active sources cannot make an existing code look new each day", () => {
+  const entries = [
+    { code: "STABLECODE", added: "2026-08-09" },
+    { code: "CORRECTEDCODE", added: "2026-08-01" },
+  ];
+  preserveEarlierAddedDates(entries, {
+    codes: [
+      { code: "stablecode", added: "2026-08-03" },
+      { code: "correctedcode", added: "2026-08-05" },
+    ],
+  });
+
+  assert.equal(entries[0].added, "2026-08-03");
+  assert.equal(entries[1].added, "2026-08-01");
 });

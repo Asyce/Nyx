@@ -1707,9 +1707,12 @@ function CodeCardRow({ row, currency, onCopy, onToggleRedeemed }){
         <input type="checkbox" checked={redeemed} onChange={() => { if (onToggleRedeemed) onToggleRedeemed(r.code); }} />
         <span className="box"></span>
       </label>
+      {/* The code sits in its own invisible column and shrinks a step at a time
+          rather than truncating, so a long code still reads in full
+          (user 2026-08-11). */}
       {r.redeemUrl
-        ? <a className="cc" href={r.redeemUrl} target="_blank" rel="noopener noreferrer" title="Open the redeem page">{r.code}</a>
-        : <span className="cc no-link" title="No redeem link available">{r.code}</span>}
+        ? <a className="cc" href={r.redeemUrl} target="_blank" rel="noopener noreferrer" title="Open the redeem page"><FitText as="span" className="cc-text" text={r.code} /></a>
+        : <span className="cc no-link" title="No redeem link available"><FitText as="span" className="cc-text" text={r.code} /></span>}
       <span className={'cc-reward' + (r.premium ? '' : ' plain')} tabIndex={0} aria-label="Show all rewards">
         {r.premium && (safeCurrency.icon
           ? <img src={safeCurrency.icon} alt={safeCurrency.name} draggable="false" />
@@ -1718,11 +1721,15 @@ function CodeCardRow({ row, currency, onCopy, onToggleRedeemed }){
         {!r.premium && <span className="reward-text">{NYX_CODE_GOODIES_LABEL}</span>}
         <span className="cc-reward-pop" role="tooltip"><RewardChips reward={r.reward} full /></span>
       </span>
-      <button type="button" className="cc-copy"
-              title="Copy" aria-label={'Copy ' + r.code} onClick={() => onCopy(r.code)}>
-        <span className="i-copy"></span>
-      </button>
-      {r.st === 'copied' && <span className="cc-copied-pop" role="status">Copied</span>}
+      {/* The button and its "Copied" flash share one cell so the flash still has
+          something to anchor to now that the row itself draws no box. */}
+      <span className="cc-copy-cell">
+        <button type="button" className="cc-copy"
+                title="Copy" aria-label={'Copy ' + r.code} onClick={() => onCopy(r.code)}>
+          <span className="i-copy"></span>
+        </button>
+        {r.st === 'copied' && <span className="cc-copied-pop" role="status">Copied</span>}
+      </span>
     </div>
   );
 }

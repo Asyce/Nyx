@@ -1,16 +1,16 @@
 {
   "provider": "EndfieldWiki",
   "game": "endfield",
-  "generatedAt": "2026-08-08T06:06:08.237Z",
+  "generatedAt": "2026-08-11T06:14:26.549Z",
   "summary": {
     "characters": {
       "added": 0,
       "removed": 0,
-      "changed": 0,
-      "unchanged": 31
+      "changed": 1,
+      "unchanged": 30
     },
     "weapons": {
-      "added": 0,
+      "added": 1,
       "removed": 0,
       "changed": 0,
       "unchanged": 73
@@ -26,21 +26,35 @@
     "characters": {
       "added": [],
       "removed": [],
-      "changed": [],
-      "unchanged": 31,
+      "changed": [
+        {
+          "id": "liino",
+          "name": "Liino",
+          "previousHash": "499dc545a7e05055e66499b7cc466e559485e1e2b73b712d4ea3fcbd7e13f0e8",
+          "currentHash": "f1578b2e88b1c453f9bbbae67ac8dfe320a68a15dabc9106431beedf02b1b05d"
+        }
+      ],
+      "unchanged": 30,
       "totals": {
         "previous": 31,
         "current": 31
       }
     },
     "weapons": {
-      "added": [],
+      "added": [
+        {
+          "id": "Bedazzling_Night_Debut",
+          "name": "Bedazzling Night Debut",
+          "previousHash": null,
+          "currentHash": "5e33b43b71c08882bf8d1da5c64f6a819f9d86dc1b3e27b732c6f6ffe9634574"
+        }
+      ],
       "removed": [],
       "changed": [],
       "unchanged": 73,
       "totals": {
         "previous": 73,
-        "current": 73
+        "current": 74
       }
     },
     "items": {

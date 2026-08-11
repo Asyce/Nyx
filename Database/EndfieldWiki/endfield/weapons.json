@@ -2,7 +2,7 @@
   "provider": "EndfieldWiki",
   "game": "endfield",
   "gameName": "Arknights: Endfield",
-  "scrapedAt": "2026-08-08T06:06:08.237Z",
+  "scrapedAt": "2026-08-11T06:14:26.549Z",
   "source": {
     "site": "endfield.wiki.gg",
     "api": "MediaWiki API rendered Weapon pages",
@@ -328,6 +328,115 @@
           },
           {
             "id": "Igneosite",
+            "count": 8
+          },
+          {
+            "id": "T-Creds",
+            "count": 90000
+          }
+        ]
+      ]
+    },
+    {
+      "id": "Bedazzling_Night_Debut",
+      "name": "Bedazzling Night Debut",
+      "pageName": "Bedazzling_Night_Debut",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Bedazzling_Night_Debut",
+      "rarity": 6,
+      "weaponType": "Polearm",
+      "source": "Acquisition Center: Arsenal Exchange",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/weapons/bedazzling-night-debut/icon.png",
+        "url": "https://endfield.wiki.gg/images/Bedazzling_Night_Debut_icon.png?77b290"
+      },
+      "materials": [
+        {
+          "id": "Cast_Die",
+          "count": 23
+        },
+        {
+          "id": "Kalkonyx",
+          "count": 3
+        },
+        {
+          "id": "T-Creds",
+          "count": 125700
+        },
+        {
+          "id": "Auronyx",
+          "count": 5
+        },
+        {
+          "id": "Heavy_Cast_Die",
+          "count": 50
+        },
+        {
+          "id": "Umbronyx",
+          "count": 5
+        },
+        {
+          "id": "Metadiastima_Photoemission_Tube",
+          "count": 16
+        },
+        {
+          "id": "Protocolith",
+          "count": 8
+        }
+      ],
+      "tuningStages": [
+        [
+          {
+            "id": "Cast_Die",
+            "count": 5
+          },
+          {
+            "id": "Kalkonyx",
+            "count": 3
+          },
+          {
+            "id": "T-Creds",
+            "count": 2200
+          }
+        ],
+        [
+          {
+            "id": "Cast_Die",
+            "count": 18
+          },
+          {
+            "id": "Auronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 8500
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 20
+          },
+          {
+            "id": "Umbronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 25000
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 30
+          },
+          {
+            "id": "Metadiastima_Photoemission_Tube",
+            "count": 16
+          },
+          {
+            "id": "Protocolith",
             "count": 8
           },
           {

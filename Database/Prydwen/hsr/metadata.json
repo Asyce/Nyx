@@ -2,7 +2,7 @@
   "provider": "Prydwen",
   "game": "hsr",
   "gameName": "Honkai: Star Rail",
-  "scrapedAt": "2026-08-08T06:04:07.817Z",
+  "scrapedAt": "2026-08-11T06:12:43.600Z",
   "sample": null,
   "source": {
     "site": "prydwen.gg",
@@ -12,7 +12,7 @@
     "collections": 3,
     "records": 95,
     "characters": 92,
-    "assetsPlanned": 729,
+    "assetsPlanned": 730,
     "errors": 0
   },
   "files": {
@@ -24,8 +24,8 @@
     "missingAssets": "Prydwen/hsr/missing-assets.json"
   },
   "assets": {
-    "requested": 729,
-    "downloaded": 0,
+    "requested": 730,
+    "downloaded": 1,
     "cached": 729,
     "missing": 0
   },

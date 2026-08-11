@@ -2,7 +2,7 @@
   "provider": "EndfieldWiki",
   "game": "endfield",
   "gameName": "Arknights: Endfield",
-  "scrapedAt": "2026-08-08T06:06:08.237Z",
+  "scrapedAt": "2026-08-11T06:14:26.549Z",
   "source": {
     "site": "endfield.wiki.gg",
     "api": "MediaWiki API + Cargo Operators table",
@@ -11,11 +11,11 @@
   "sample": null,
   "counts": {
     "characters": 31,
-    "charactersWithMaterials": 30,
-    "weapons": 73,
+    "charactersWithMaterials": 31,
+    "weapons": 74,
     "materialItems": 31,
-    "assetsPlanned": 223,
-    "missingAssets": 5
+    "assetsPlanned": 225,
+    "missingAssets": 4
   },
   "files": {
     "characters": "EndfieldWiki/endfield/characters.json",
@@ -27,8 +27,8 @@
     "missingAssets": "EndfieldWiki/endfield/missing-assets.json"
   },
   "assets": {
-    "requested": 223,
-    "downloaded": 0,
+    "requested": 225,
+    "downloaded": 2,
     "cached": 223,
     "missing": 0
   },

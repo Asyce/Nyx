@@ -89,10 +89,8 @@
     "slug": "arcane",
     "sourcePath": "/arknights-endfield/characters/arcane",
     "contentStatus": "live",
-    "statusLabels": [
-      "New"
-    ],
-    "updatedText": "31/July/2026",
+    "statusLabels": [],
+    "updatedText": "09/August/2026",
     "facts": {},
     "art": {
       "card": "Prydwen/endfield/assets/characters/arcane-card-f6342e13426a.webp",
@@ -105,7 +103,7 @@
       "best-weapons",
       "best-gear"
     ],
-    "assetCount": 36
+    "assetCount": 37
   },
   {
     "id": "arclight",
@@ -187,7 +185,7 @@
       "best-weapons",
       "best-gear"
     ],
-    "assetCount": 22
+    "assetCount": 23
   },
   {
     "id": "camille",
@@ -539,11 +537,11 @@
     "name": "Liino",
     "slug": "liino",
     "sourcePath": "/arknights-endfield/characters/liino",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "statusLabels": [
-      "Soon"
+      "New"
     ],
-    "updatedText": "16/July/2026",
+    "updatedText": "10/August/2026",
     "facts": {
       "rarity": 6,
       "weapon": "Polearm",
@@ -552,7 +550,8 @@
     },
     "art": {
       "card": "Prydwen/endfield/assets/characters/liino-card-46712342b038.webp",
-      "full": "Prydwen/endfield/assets/characters/liino-full-illustration-a88184098f8f.webp"
+      "full": "Prydwen/endfield/assets/characters/liino-full-illustration-a88184098f8f.webp",
+      "icon": "Prydwen/endfield/assets/characters/xaihi-b26fc37d4ba6.webp"
     },
     "pageFile": "Prydwen/endfield/pages/characters/liino.json",
     "recommendationSections": [
@@ -560,7 +559,7 @@
       "best-weapons",
       "best-gear"
     ],
-    "assetCount": 2
+    "assetCount": 29
   },
   {
     "id": "mi-fu",
@@ -857,7 +856,7 @@
     "art": {
       "card": "Prydwen/endfield/assets/characters/zhuang-fangyi-card-fab17e9e9121.webp",
       "full": "Prydwen/endfield/assets/characters/zhuang-fangyi-full-illustration-a672907f742d.webp",
-      "icon": "Prydwen/endfield/assets/characters/alesh-4631b4aa4d51.webp"
+      "icon": "Prydwen/endfield/assets/characters/liino-b6c6f96b12f0.webp"
     },
     "pageFile": "Prydwen/endfield/pages/characters/zhuang-fangyi.json",
     "recommendationSections": [
@@ -865,6 +864,6 @@
       "best-weapons",
       "best-gear"
     ],
-    "assetCount": 37
+    "assetCount": 38
   }
 ]

@@ -81,7 +81,7 @@
     "art": {
       "card": "Prydwen/hsr/assets/characters/anaxa-5979b0746f3c.webp",
       "full": "Prydwen/hsr/assets/characters/anaxa-9deca43a40ab.webp",
-      "icon": "Prydwen/hsr/assets/characters/fu-xuan-17e078e8c1e4.webp"
+      "icon": "Prydwen/hsr/assets/characters/mortenax-blade-99361e4717fa.webp"
     },
     "pageFile": "Prydwen/hsr/pages/characters/anaxa.json",
     "recommendationSections": [
@@ -93,7 +93,7 @@
       "traces-priority",
       "synergy"
     ],
-    "assetCount": 54
+    "assetCount": 55
   },
   {
     "id": "archer",
@@ -113,7 +113,7 @@
     "art": {
       "card": "Prydwen/hsr/assets/characters/archer-cbcfd61516cc.webp",
       "full": "Prydwen/hsr/assets/characters/archer-3a9c56eb8499.webp",
-      "icon": "Prydwen/hsr/assets/characters/mortenax-blade-99361e4717fa.webp"
+      "icon": "Prydwen/hsr/assets/characters/cerydra-1b219ef71829.webp"
     },
     "pageFile": "Prydwen/hsr/pages/characters/archer.json",
     "recommendationSections": [
@@ -125,7 +125,7 @@
       "traces-priority",
       "synergy"
     ],
-    "assetCount": 48
+    "assetCount": 45
   },
   {
     "id": "argenti",
@@ -253,7 +253,7 @@
       "traces-priority",
       "synergy"
     ],
-    "assetCount": 50
+    "assetCount": 54
   },
   {
     "id": "aventurine",
@@ -273,7 +273,7 @@
     "art": {
       "card": "Prydwen/hsr/assets/characters/aventurine-ec37a043dccd.webp",
       "full": "Prydwen/hsr/assets/characters/aventurine-7eab8a728935.webp",
-      "icon": "Prydwen/hsr/assets/characters/ashveil-f380b4ccce3e.webp"
+      "icon": "Prydwen/hsr/assets/characters/jade-e6bae04d3cb1.webp"
     },
     "pageFile": "Prydwen/hsr/pages/characters/aventurine.json",
     "recommendationSections": [
@@ -285,7 +285,7 @@
       "traces-priority",
       "synergy"
     ],
-    "assetCount": 62
+    "assetCount": 63
   },
   {
     "id": "aventurine-waveflair",
@@ -331,7 +331,7 @@
     "art": {
       "card": "Prydwen/hsr/assets/characters/bailu-c44b2e3eb5c3.webp",
       "full": "Prydwen/hsr/assets/characters/bailu-6d808a5df95b.webp",
-      "icon": "Prydwen/hsr/assets/characters/sunday-3d568cb7f29d.webp"
+      "icon": "Prydwen/hsr/assets/characters/acheron-fbcfe4133d08.webp"
     },
     "pageFile": "Prydwen/hsr/pages/characters/bailu.json",
     "recommendationSections": [
@@ -363,7 +363,7 @@
     "art": {
       "card": "Prydwen/hsr/assets/characters/black-swan-270afa85f18e.webp",
       "full": "Prydwen/hsr/assets/characters/black-swan-eaa0eb62d57f.webp",
-      "icon": "Prydwen/hsr/assets/characters/tribbie-2cde7699adbf.webp"
+      "icon": "Prydwen/hsr/assets/characters/cipher-552dee34688a.webp"
     },
     "pageFile": "Prydwen/hsr/pages/characters/black-swan.json",
     "recommendationSections": [
@@ -459,7 +459,7 @@
     "art": {
       "card": "Prydwen/hsr/assets/characters/bronya-8b9a40705315.webp",
       "full": "Prydwen/hsr/assets/characters/bronya-4ae6e88598ab.webp",
-      "icon": "Prydwen/hsr/assets/characters/seele-a7cbdc174382.webp"
+      "icon": "Prydwen/hsr/assets/characters/cyrene-005597837585.webp"
     },
     "pageFile": "Prydwen/hsr/pages/characters/bronya.json",
     "recommendationSections": [
@@ -523,7 +523,7 @@
     "art": {
       "card": "Prydwen/hsr/assets/characters/cerydra-a700141d7887.webp",
       "full": "Prydwen/hsr/assets/characters/cerydra-d76dfbe116b9.webp",
-      "icon": "Prydwen/hsr/assets/characters/tribbie-2cde7699adbf.webp"
+      "icon": "Prydwen/hsr/assets/characters/robin-e985c6a49a99.webp"
     },
     "pageFile": "Prydwen/hsr/pages/characters/cerydra.json",
     "recommendationSections": [
@@ -555,7 +555,7 @@
     "art": {
       "card": "Prydwen/hsr/assets/characters/cipher-c7debfb39bc2.webp",
       "full": "Prydwen/hsr/assets/characters/cipher-015686a982c5.webp",
-      "icon": "Prydwen/hsr/assets/characters/robin-e985c6a49a99.webp"
+      "icon": "Prydwen/hsr/assets/characters/rin-tohsaka-b27695507159.webp"
     },
     "pageFile": "Prydwen/hsr/pages/characters/cipher.json",
     "recommendationSections": [
@@ -779,7 +779,7 @@
     "art": {
       "card": "Prydwen/hsr/assets/characters/evanescia-7567d1297c5d.webp",
       "full": "Prydwen/hsr/assets/characters/evanescia-67e58c4745c7.webp",
-      "icon": "Prydwen/hsr/assets/characters/tribbie-2cde7699adbf.webp"
+      "icon": "Prydwen/hsr/assets/characters/gallagher-30d074a1060a.webp"
     },
     "pageFile": "Prydwen/hsr/pages/characters/evanescia.json",
     "recommendationSections": [
@@ -791,7 +791,7 @@
       "traces-priority",
       "synergy"
     ],
-    "assetCount": 41
+    "assetCount": 42
   },
   {
     "id": "feixiao",
@@ -823,7 +823,7 @@
       "traces-priority",
       "synergy"
     ],
-    "assetCount": 53
+    "assetCount": 52
   },
   {
     "id": "firefly",
@@ -907,7 +907,7 @@
     "art": {
       "card": "Prydwen/hsr/assets/characters/gallagher-53eb230701d1.webp",
       "full": "Prydwen/hsr/assets/characters/gallagher-3b2d2ab7dcb6.webp",
-      "icon": "Prydwen/hsr/assets/characters/cipher-552dee34688a.webp"
+      "icon": "Prydwen/hsr/assets/characters/sparkle-da99d2d9a505.webp"
     },
     "pageFile": "Prydwen/hsr/pages/characters/gallagher.json",
     "recommendationSections": [
@@ -939,7 +939,7 @@
     "art": {
       "card": "Prydwen/hsr/assets/characters/gepard-c0e7cf4bb1f9.webp",
       "full": "Prydwen/hsr/assets/characters/gepard-8f06a975750f.webp",
-      "icon": "Prydwen/hsr/assets/characters/evanescia-abea49c1784d.webp"
+      "icon": "Prydwen/hsr/assets/characters/trailblazer-elation-c721ded1f2e0.webp"
     },
     "pageFile": "Prydwen/hsr/pages/characters/gepard.json",
     "recommendationSections": [
@@ -951,7 +951,7 @@
       "traces-priority",
       "synergy"
     ],
-    "assetCount": 56
+    "assetCount": 59
   },
   {
     "id": "gilgamesh",
@@ -1038,7 +1038,7 @@
     "art": {
       "card": "Prydwen/hsr/assets/characters/hanya-e05f75e0ed4b.webp",
       "full": "Prydwen/hsr/assets/characters/hanya-ef653980c8ac.webp",
-      "icon": "Prydwen/hsr/assets/characters/dan-heng-imbibitor-lunae-0ed3dbce2c95.webp"
+      "icon": "Prydwen/hsr/assets/characters/gallagher-30d074a1060a.webp"
     },
     "pageFile": "Prydwen/hsr/pages/characters/hanya.json",
     "recommendationSections": [
@@ -1050,7 +1050,7 @@
       "traces-priority",
       "synergy"
     ],
-    "assetCount": 28
+    "assetCount": 35
   },
   {
     "id": "herta",
@@ -1070,7 +1070,7 @@
     "art": {
       "card": "Prydwen/hsr/assets/characters/herta-d93a5aec8214.webp",
       "full": "Prydwen/hsr/assets/characters/herta-5eb921b823ca.webp",
-      "icon": "Prydwen/hsr/assets/characters/ashveil-f380b4ccce3e.webp"
+      "icon": "Prydwen/hsr/assets/characters/trailblazer-remembrance-d3e344772d55.webp"
     },
     "pageFile": "Prydwen/hsr/pages/characters/herta.json",
     "recommendationSections": [
@@ -1082,7 +1082,7 @@
       "traces-priority",
       "synergy"
     ],
-    "assetCount": 54
+    "assetCount": 52
   },
   {
     "id": "himeko",
@@ -1114,7 +1114,7 @@
       "traces-priority",
       "synergy"
     ],
-    "assetCount": 50
+    "assetCount": 55
   },
   {
     "id": "himeko-nova",
@@ -1211,7 +1211,7 @@
       "traces-priority",
       "synergy"
     ],
-    "assetCount": 54
+    "assetCount": 56
   },
   {
     "id": "hyacine",
@@ -1327,7 +1327,7 @@
     "art": {
       "card": "Prydwen/hsr/assets/characters/jiaoqiu-29056a8915e0.webp",
       "full": "Prydwen/hsr/assets/characters/jiaoqiu-ba3564847373.webp",
-      "icon": "Prydwen/hsr/assets/characters/luocha-901456d3c61d.webp"
+      "icon": "Prydwen/hsr/assets/characters/tribbie-2cde7699adbf.webp"
     },
     "pageFile": "Prydwen/hsr/pages/characters/jiaoqiu.json",
     "recommendationSections": [
@@ -1519,7 +1519,7 @@
     "art": {
       "card": "Prydwen/hsr/assets/characters/luocha-50ed93457dad.webp",
       "full": "Prydwen/hsr/assets/characters/luocha-81418a99216b.webp",
-      "icon": "Prydwen/hsr/assets/characters/cipher-552dee34688a.webp"
+      "icon": "Prydwen/hsr/assets/characters/sparkle-da99d2d9a505.webp"
     },
     "pageFile": "Prydwen/hsr/pages/characters/luocha.json",
     "recommendationSections": [
@@ -1531,7 +1531,7 @@
       "traces-priority",
       "synergy"
     ],
-    "assetCount": 58
+    "assetCount": 60
   },
   {
     "id": "lynx",
@@ -1563,7 +1563,7 @@
       "traces-priority",
       "synergy"
     ],
-    "assetCount": 50
+    "assetCount": 53
   },
   {
     "id": "march-7th",
@@ -1583,7 +1583,7 @@
     "art": {
       "card": "Prydwen/hsr/assets/characters/march-7th-c5b60a50f43d.webp",
       "full": "Prydwen/hsr/assets/characters/march-7th-b9b058e0b744.webp",
-      "icon": "Prydwen/hsr/assets/characters/march-7th-a213c54a2877.webp"
+      "icon": "Prydwen/hsr/assets/characters/tribbie-2cde7699adbf.webp"
     },
     "pageFile": "Prydwen/hsr/pages/characters/march-7th.json",
     "recommendationSections": [
@@ -1595,7 +1595,7 @@
       "traces-priority",
       "synergy"
     ],
-    "assetCount": 41
+    "assetCount": 43
   },
   {
     "id": "march-7th-evernight",
@@ -1711,7 +1711,7 @@
     "art": {
       "card": "Prydwen/hsr/assets/characters/mortenax-blade-95aef83c18a0.webp",
       "full": "Prydwen/hsr/assets/characters/mortenax-blade-def9f0bdd69e.webp",
-      "icon": "Prydwen/hsr/assets/characters/gilgamesh-f70d7668d425.webp"
+      "icon": "Prydwen/hsr/assets/characters/gallagher-30d074a1060a.webp"
     },
     "pageFile": "Prydwen/hsr/pages/characters/blade-mortenax.json",
     "recommendationSections": [
@@ -1948,7 +1948,7 @@
       "traces-priority",
       "synergy"
     ],
-    "assetCount": 39
+    "assetCount": 40
   },
   {
     "id": "rin-tohsaka",
@@ -1970,7 +1970,7 @@
     "art": {
       "card": "Prydwen/hsr/assets/characters/rin-tohsaka-0ac7ee84c320.webp",
       "full": "Prydwen/hsr/assets/characters/rin-tohsaka-ac78bcd23e3e.webp",
-      "icon": "Prydwen/hsr/assets/characters/welt-60cd0853b302.webp"
+      "icon": "Prydwen/hsr/assets/characters/aventurine-0658046ea612.webp"
     },
     "pageFile": "Prydwen/hsr/pages/characters/rin-tohsaka.json",
     "recommendationSections": [
@@ -2073,7 +2073,7 @@
       "traces-priority",
       "synergy"
     ],
-    "assetCount": 55
+    "assetCount": 54
   },
   {
     "id": "saber",
@@ -2297,7 +2297,7 @@
       "traces-priority",
       "synergy"
     ],
-    "assetCount": 48
+    "assetCount": 49
   },
   {
     "id": "sparxie",
@@ -2317,7 +2317,7 @@
     "art": {
       "card": "Prydwen/hsr/assets/characters/sparxie-67b870bc5ac4.webp",
       "full": "Prydwen/hsr/assets/characters/sparxie-234f67152306.webp",
-      "icon": "Prydwen/hsr/assets/characters/evanescia-abea49c1784d.webp"
+      "icon": "Prydwen/hsr/assets/characters/gallagher-30d074a1060a.webp"
     },
     "pageFile": "Prydwen/hsr/pages/characters/sparxie.json",
     "recommendationSections": [
@@ -2329,7 +2329,7 @@
       "traces-priority",
       "synergy"
     ],
-    "assetCount": 42
+    "assetCount": 43
   },
   {
     "id": "sunday",
@@ -2605,7 +2605,7 @@
     "art": {
       "card": "Prydwen/hsr/assets/characters/trailblazer-elation-b7e8d644ade6.webp",
       "full": "Prydwen/hsr/assets/characters/trailblazer-elation-add66215f06a.webp",
-      "icon": "Prydwen/hsr/assets/characters/sparkle-da99d2d9a505.webp"
+      "icon": "Prydwen/hsr/assets/characters/fu-xuan-17e078e8c1e4.webp"
     },
     "pageFile": "Prydwen/hsr/pages/characters/trailblazer-elation.json",
     "recommendationSections": [
@@ -2617,7 +2617,7 @@
       "traces-priority",
       "synergy"
     ],
-    "assetCount": 43
+    "assetCount": 42
   },
   {
     "id": "trailblazer-harmony",
@@ -2669,7 +2669,7 @@
     "art": {
       "card": "Prydwen/hsr/assets/characters/trailblazer-preservation-81565a7917de.webp",
       "full": "Prydwen/hsr/assets/characters/trailblazer-preservation-eab569c8a012.webp",
-      "icon": "Prydwen/hsr/assets/characters/acheron-fbcfe4133d08.webp"
+      "icon": "Prydwen/hsr/assets/characters/trailblazer-preservation-22f3139bd04b.webp"
     },
     "pageFile": "Prydwen/hsr/pages/characters/trailblazer-preservation.json",
     "recommendationSections": [
@@ -2680,7 +2680,7 @@
       "traces-priority",
       "synergy"
     ],
-    "assetCount": 27
+    "assetCount": 33
   },
   {
     "id": "trailblazer-remembrance",
@@ -2700,7 +2700,7 @@
     "art": {
       "card": "Prydwen/hsr/assets/characters/trailblazer-remembrance-eb61b9ef8eaa.webp",
       "full": "Prydwen/hsr/assets/characters/trailblazer-remembrance-f5dae98ced6c.webp",
-      "icon": "Prydwen/hsr/assets/characters/huohuo-c4a9c00e98ef.webp"
+      "icon": "Prydwen/hsr/assets/characters/welt-60cd0853b302.webp"
     },
     "pageFile": "Prydwen/hsr/pages/characters/trailblazer-remembrance.json",
     "recommendationSections": [
@@ -2712,7 +2712,7 @@
       "traces-priority",
       "synergy"
     ],
-    "assetCount": 56
+    "assetCount": 57
   },
   {
     "id": "tribbie",
@@ -2891,7 +2891,7 @@
     "art": {
       "card": "Prydwen/hsr/assets/characters/yukong-ec992fb513db.webp",
       "full": "Prydwen/hsr/assets/characters/yukong-237e9805e9d7.webp",
-      "icon": "Prydwen/hsr/assets/characters/trailblazer-remembrance-d3e344772d55.webp"
+      "icon": "Prydwen/hsr/assets/characters/yukong-19b0f39e5396.webp"
     },
     "pageFile": "Prydwen/hsr/pages/characters/yukong.json",
     "recommendationSections": [
@@ -2903,7 +2903,7 @@
       "traces-priority",
       "synergy"
     ],
-    "assetCount": 38
+    "assetCount": 36
   },
   {
     "id": "yunli",
@@ -2923,7 +2923,7 @@
     "art": {
       "card": "Prydwen/hsr/assets/characters/yunli-0ec74736d83e.webp",
       "full": "Prydwen/hsr/assets/characters/yunli-fee0a789395c.webp",
-      "icon": "Prydwen/hsr/assets/characters/silver-wolf-7eec89c1a7e2.webp"
+      "icon": "Prydwen/hsr/assets/characters/luocha-901456d3c61d.webp"
     },
     "pageFile": "Prydwen/hsr/pages/characters/yunli.json",
     "recommendationSections": [
@@ -2935,6 +2935,6 @@
       "traces-priority",
       "synergy"
     ],
-    "assetCount": 50
+    "assetCount": 48
   }
 ]

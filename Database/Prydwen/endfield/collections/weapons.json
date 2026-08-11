@@ -11,8 +11,8 @@
   "sourcePath": "/arknights-endfield/weapons",
   "contentStatus": "live",
   "statusLabels": [],
-  "scrapedAt": "2026-08-08T06:04:07.817Z",
-  "updatedText": "16/July/2026",
+  "scrapedAt": "2026-08-11T06:12:43.600Z",
+  "updatedText": "09/August/2026",
   "meta": {
     "title": "Weapons | Arknights: Endfield",
     "description": ""
@@ -86,6 +86,16 @@
       "name": "Weapon",
       "fileStem": "weapon-72",
       "path": "Prydwen/endfield/assets/weapons/weapon-72-7257409e7ffd.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "15ec9994063c",
+      "sourceHash": "15ec9994063c",
+      "kind": "weapons",
+      "name": "Weapon",
+      "fileStem": "weapon-76",
+      "path": "Prydwen/endfield/assets/weapons/weapon-76-15ec9994063c.webp",
       "width": 70,
       "height": 70
     },
@@ -785,14 +795,14 @@
       "id": "arknights-endfield-weapons-list-0",
       "level": 1,
       "heading": "Arknights: Endfield Weapons List",
-      "text": "List of all Weapons available in Arknights: Endfield.\n Last updated: 16/July/2026",
+      "text": "List of all Weapons available in Arknights: Endfield.\n Last updated: 09/August/2026",
       "assets": []
     },
     {
       "id": "arknights-endfield-weapons-1",
       "level": 2,
       "heading": "Arknights: Endfield Weapons",
-      "text": "Showing 75 weapons\n For 3✦ , 4✦ and 5✦ Weapons, we're showing their stat and passives boosts maxed so 9/9 , since getting their dupes won't be a problem. Still, for the 6✦ Weapons, only the stat boosts are shown at 9/9, because you can achieve that just by leveling the weapon; without dupes though, passive boost will be locked at 4/9 and that's what we're showing below.\n\n Filters",
+      "text": "Showing 76 weapons\n For 3✦ , 4✦ and 5✦ Weapons, we're showing their stat and passives boosts maxed so 9/9 , since getting their dupes won't be a problem. Still, for the 6✦ Weapons, only the stat boosts are shown at 9/9, because you can achieve that just by leveling the weapon; without dupes though, passive boost will be locked at 4/9 and that's what we're showing below.\n\n Filters",
       "assets": [
         {
           "id": "7240419185cc",
@@ -903,6 +913,24 @@
       "text": "Rarity: 6 ✦\n Type: Polearm\n Base ATK: 485\n\n Stat 1 Boost - 9/9\n Agility : + 156\n\n Stat 2 Boost - 9/9\n Ultimate Gain Eff. : + 46.40%\n\n Passive Boost - 4/9\n Heat DMG Bonus : + 11.20%\n When the wielder's skill applies Heat Infliction , the wielder gains Physical and Heat DMG Dealt +12.8% for 20s . When the wielder's skill applies Heat Susceptibility , the entire team gains Physical and Heat DMG Dealt +6.4% for 30s .\n\n Show Effects",
       "assets": [
         {
+          "id": "15ec9994063c",
+          "sourceHash": "15ec9994063c",
+          "kind": "weapons",
+          "name": "Weapon",
+          "fileStem": "weapon-76",
+          "path": "Prydwen/endfield/assets/weapons/weapon-76-15ec9994063c.webp",
+          "width": 70,
+          "height": 70
+        }
+      ]
+    },
+    {
+      "id": "bedazzling-night-debut-8",
+      "level": 4,
+      "heading": "Bedazzling Night Debut",
+      "text": "Rarity: 6 ✦\n Type: Polearm\n Base ATK: 500\n\n Stat 1 Boost - 9/9\n Will : + 156\n\n Stat 2 Boost - 9/9\n Treatment Bonus : + 46.40%\n\n Passive Boost - 4/9\n Main Attribute : + 25.60%\n When the wielder's skill grants HP Treatment to other operators in the team, the operator receiving the wielder's treatment also gains ATK +5.6% for 20s .\nMax stacks for effects of the same name: 4 . Duration of each stack is counted separately. Each operator can gain this effect at most once every 0.1s .",
+      "assets": [
+        {
           "id": "9283863046e5",
           "sourceHash": "9283863046e5",
           "kind": "weapons",
@@ -915,7 +943,7 @@
       ]
     },
     {
-      "id": "blessing-of-lustrous-carmine-8",
+      "id": "blessing-of-lustrous-carmine-9",
       "level": 4,
       "heading": "Blessing of Lustrous Carmine",
       "text": "Rarity: 6 ✦\n Type: Polearm\n Base ATK: 500\n\n Stat 1 Boost - 9/9\n Agility : + 156\n\n Stat 2 Boost - 9/9\n Heat DMG Bonus : + 43.30%\n\n Passive Boost - 4/9\n Ultimate Gain Eff. : + 28.80%\n When the wielder’s skill recovers SP, the entire team gains ATK +9.6% for 20s . When the wielder’s skill applies Heat Infliction , the entire team gains Heat DMG Dealt +9.6% for 20s .\nThe two effects apply separately and do not stack with themselves.",
@@ -933,7 +961,7 @@
       ]
     },
     {
-      "id": "brigands-calling-9",
+      "id": "brigands-calling-10",
       "level": 4,
       "heading": "Brigand's Calling",
       "text": "Rarity: 6 ✦\n Type: Handcannon\n Base ATK: 505\n\n Stat 1 Boost - 9/9\n Agility : + 156\n\n Stat 2 Boost - 9/9\n Attack : + 39%\n\n Passive Boost - 4/9\n Cryo DMG Bonus : + 25.60%\n When the wielder applies Cryo Infliction via battle skills or ultimates, the wielder gains Cryo DMG Dealt +32% for 20s .\nWhen the wielder's battle skill or ultimate applies Arts Susceptibility , the target enemy suffers Arts DMG Taken +9.6% for 20s . The two effects apply separately and do not stack with themselves.\n\n Show Effects",
@@ -951,7 +979,7 @@
       ]
     },
     {
-      "id": "chimeric-justice-10",
+      "id": "chimeric-justice-11",
       "level": 4,
       "heading": "Chimeric Justice",
       "text": "Rarity: 5 ✦\n Type: Polearm\n Base ATK: 411\n\n Stat 1 Boost - 9/9\n Strength : + 124\n\n Stat 2 Boost - 9/9\n Ultimate Gain Eff. : + 37.10%\n\n Passive Boost - 9/9\n Critical Rate : + 8.40%\n After the wielder applies Vulnerability to an enemy with no Vulnerability stacks, ATK +42% for 15s . Effects of the same name cannot stack.\n\n Show Effects",
@@ -969,7 +997,7 @@
       ]
     },
     {
-      "id": "chivalric-virtues-11",
+      "id": "chivalric-virtues-12",
       "level": 4,
       "heading": "Chivalric Virtues",
       "text": "Rarity: 6 ✦\n Type: Arts Unit\n Base ATK: 485\n\n Stat 1 Boost - 9/9\n Will : + 156\n\n Stat 2 Boost - 9/9\n Max HP : + 78.00%\n\n Passive Boost - 4/9\n Treatment Efficiency +16% . After the wielder gives HP Treatment with their own skill, the entire team gains ATK +14.4% for 15s . Effects of the same name cannot stack.",
@@ -987,7 +1015,7 @@
       ]
     },
     {
-      "id": "clannibal-12",
+      "id": "clannibal-13",
       "level": 4,
       "heading": "Clannibal",
       "text": "Rarity: 6 ✦\n Type: Handcannon\n Base ATK: 490\n\n Stat 1 Boost - 9/9\n Main Attribute : + 132\n\n Stat 2 Boost - 9/9\n Arts DMG Bonus : + 43.30%\n\n Passive Boost - 4/9\n Arts DMG Bonus : + 19.20%\n After the wielder consumes an Arts Reaction, target enemy suffers Arts DMG taken +16% (for the specified element) for 15s . Effect only triggers once every 25s .\n\n Show Effects",
@@ -1005,7 +1033,7 @@
       ]
     },
     {
-      "id": "cohesive-traction-13",
+      "id": "cohesive-traction-14",
       "level": 4,
       "heading": "Cohesive Traction",
       "text": "Rarity: 5 ✦\n Type: Polearm\n Base ATK: 411\n\n Stat 1 Boost - 9/9\n Will : + 124\n\n Stat 2 Boost - 9/9\n Electric DMG Bonus : + 34.70%\n\n Passive Boost - 9/9\n Combo Skill DMG Bonus : + 28.00%\n For 30s after the wielder casts a Combo Skill, the wielder gains Electric DMG dealt +28% during the next Battle Skill cast. Max stacks for effects of the same name: 3 . Duration of each stack is counted separately.",
@@ -1023,7 +1051,7 @@
       ]
     },
     {
-      "id": "contingent-measure-14",
+      "id": "contingent-measure-15",
       "level": 4,
       "heading": "Contingent Measure",
       "text": "Rarity: 4 ✦\n Type: Sword\n Base ATK: 341\n\n Stat 1 Boost - 9/9\n Agility : + 93\n\n Stat 2 Boost - 9/9\n Physical DMG Bonus : + 26.00%\n\n Passive Boost - 9/9\n After the wielder's Battle Skill hits the enemy, ATK +33.6% for 20s . Effects of the same name cannot stack.",
@@ -1041,7 +1069,7 @@
       ]
     },
     {
-      "id": "darhoff-7-15",
+      "id": "darhoff-7-16",
       "level": 4,
       "heading": "Darhoff 7",
       "text": "Rarity: 3 ✦\n Type: Greatsword\n Base ATK: 283\n\n Stat 1 Boost - 9/9\n Main Attribute : + 79\n\n Passive Boost - 9/9\n Flat ATK : + 34",
@@ -1059,7 +1087,7 @@
       ]
     },
     {
-      "id": "delivery-guaranteed-16",
+      "id": "delivery-guaranteed-17",
       "level": 4,
       "heading": "Delivery Guaranteed",
       "text": "Rarity: 6 ✦\n Type: Arts Unit\n Base ATK: 500\n\n Stat 1 Boost - 9/9\n Will : + 156\n\n Stat 2 Boost - 9/9\n Ultimate Gain Eff. : + 46.40%\n\n Passive Boost - 4/9\n Nature DMG Bonus : + 25.60%\n After the wielder applies Lifted with their own Combo Skill, the team gains Arts DMG dealt +19.2% for 15s . For every enemy Lifted , the team gains bonus Arts DMG dealt +5.6% , up to a max of 16.8% . Effects of the same name cannot stack.\n\n Show Effects",
@@ -1077,7 +1105,7 @@
       ]
     },
     {
-      "id": "detonation-unit-17",
+      "id": "detonation-unit-18",
       "level": 4,
       "heading": "Detonation Unit",
       "text": "Rarity: 6 ✦\n Type: Arts Unit\n Base ATK: 490\n\n Stat 1 Boost - 9/9\n Main Attribute : + 132\n\n Stat 2 Boost - 9/9\n Arts Intensity : + 78\n\n Passive Boost - 4/9\n Sec. Attribute : + 16.00%\n After the wielder applies an Arts Burst, target enemy suffers Arts DMG taken +14.4% for 15s . Effects of the same name cannot stack.\n\n Show Effects",
@@ -1095,7 +1123,7 @@
       ]
     },
     {
-      "id": "dreams-of-the-starry-beach-18",
+      "id": "dreams-of-the-starry-beach-19",
       "level": 4,
       "heading": "Dreams of the Starry Beach",
       "text": "Rarity: 6 ✦\n Type: Arts Unit\n Base ATK: 495\n\n Stat 1 Boost - 9/9\n Intellect : + 156\n\n Stat 2 Boost - 9/9\n Treatment Bonus : + 46.40%\n\n Passive Boost - 4/9\n Sec. Attribute : + 25.60%\n After the wielder consumes Corrosion , target enemy suffers Arts DMG taken +16% for 25s . Effects of the same name cannot stack.\n\n Show Effects",
@@ -1113,7 +1141,7 @@
       ]
     },
     {
-      "id": "eminent-repute-19",
+      "id": "eminent-repute-20",
       "level": 4,
       "heading": "Eminent Repute",
       "text": "Rarity: 6 ✦\n Type: Sword\n Base ATK: 490\n\n Stat 1 Boost - 9/9\n Main Attribute : + 132\n\n Stat 2 Boost - 9/9\n Physical DMG Bonus : + 43.30%\n\n Passive Boost - 4/9\n Attack : + 16.00%\n After the wielder consumes Vulnerability stack(s), ATK + [8% + 4% x Stacks Consumed] while other Operators in the team gain half of this buff for 20s . Effects of the same name cannot stack.\n\n Show Effects",
@@ -1131,7 +1159,7 @@
       ]
     },
     {
-      "id": "exemplar-20",
+      "id": "exemplar-21",
       "level": 4,
       "heading": "Exemplar",
       "text": "Rarity: 6 ✦\n Type: Greatsword\n Base ATK: 500\n\n Stat 1 Boost - 9/9\n Main Attribute : + 132\n\n Stat 2 Boost - 9/9\n Attack : + 39.00%\n\n Passive Boost - 4/9\n Physical DMG Bonus : + 16.00%\n After the wielder's Battle Skill or Ultimate hits the enemy, the wielder gains Physical DMG dealt +16% for 30s . Max stacks for effects of the same name: 3 . Duration of each stack is counted separately. Effect only triggers once every 0.1s .",
@@ -1149,7 +1177,7 @@
       ]
     },
     {
-      "id": "finchaser-3-0-21",
+      "id": "finchaser-3-0-22",
       "level": 4,
       "heading": "Finchaser 3.0",
       "text": "Rarity: 5 ✦\n Type: Sword\n Base ATK: 411\n\n Stat 1 Boost - 9/9\n Strength : + 124\n\n Stat 2 Boost - 9/9\n Cryo DMG Bonus : + 34.70%\n\n Passive Boost - 9/9\n Attack : + 14.00%\n After the wielder's Battle Skill applies Solidification , target enemy suffers Cryo DMG taken +19.6% for 15s .\n\n Show Effects",
@@ -1167,7 +1195,7 @@
       ]
     },
     {
-      "id": "finishing-call-22",
+      "id": "finishing-call-23",
       "level": 4,
       "heading": "Finishing Call",
       "text": "Rarity: 5 ✦\n Type: Greatsword\n Base ATK: 411\n\n Stat 1 Boost - 9/9\n Strength : + 124\n\n Stat 2 Boost - 9/9\n Max HP : + 62.40%\n\n Passive Boost - 9/9\n Sec. Attribute : + 14.00%\n Combo Skill HP Treatment effect +56% .",
@@ -1185,7 +1213,7 @@
       ]
     },
     {
-      "id": "flickers-in-the-mist-23",
+      "id": "flickers-in-the-mist-24",
       "level": 4,
       "heading": "Flickers in the Mist",
       "text": "Rarity: 6 ✦\n Type: Arts Unit\n Base ATK: 490\n\n Stat 1 Boost - 9/9\n Will : + 156\n\n Stat 2 Boost - 9/9\n Electric DMG Bonus : + 43.30%\n\n Passive Boost - 4/9\n ATK : + 11.20%\n When the wielder gains Electric Amp the wielder also gains Electric DMG Dealt +8.8% for 30s .\nMax stacks for effects of the same name: 3 .\nDuration of each stack is counted separately.\nThis effect only triggers once every 0.1s .\n\n Show Effects",
@@ -1203,7 +1231,7 @@
       ]
     },
     {
-      "id": "fluorescent-roc-24",
+      "id": "fluorescent-roc-25",
       "level": 4,
       "heading": "Fluorescent Roc",
       "text": "Rarity: 4 ✦\n Type: Arts Unit\n Base ATK: 341\n\n Stat 1 Boost - 9/9\n Will : + 93\n\n Stat 2 Boost - 9/9\n Attack : + 23.40%\n\n Passive Boost - 9/9\n After the wielder's Battle Skill hits the enemy, ATK +33.6% for 20s . Effects of the same name cannot stack.",
@@ -1221,7 +1249,7 @@
       ]
     },
     {
-      "id": "forgeborn-scathe-25",
+      "id": "forgeborn-scathe-26",
       "level": 4,
       "heading": "Forgeborn Scathe",
       "text": "Rarity: 6 ✦\n Type: Sword\n Base ATK: 510\n\n Stat 1 Boost - 9/9\n Intellect : + 156\n\n Stat 2 Boost - 9/9\n Attack : + 39.00%\n\n Passive Boost - 4/9\n Heat DMG Bonus : + 25.60%\n After the wielder casts an Ultimate, the wielder gains Basic Attack DMG dealt +120% for 20s . Effects of the same name cannot stack.",
@@ -1239,7 +1267,7 @@
       ]
     },
     {
-      "id": "former-finery-26",
+      "id": "former-finery-27",
       "level": 4,
       "heading": "Former Finery",
       "text": "Rarity: 6 ✦\n Type: Greatsword\n Base ATK: 495\n\n Stat 1 Boost - 9/9\n Will : + 156\n\n Stat 2 Boost - 9/9\n Max HP : + 78.00%\n\n Passive Boost - 4/9\n Treatment Efficiency +16% . When a Protected Operator takes DMG, the wielder restores the said Operator's HP by [134 + Will x 1.12] . Effect only triggers once every 15s .",
@@ -1257,7 +1285,7 @@
       ]
     },
     {
-      "id": "fortmaker-27",
+      "id": "fortmaker-28",
       "level": 4,
       "heading": "Fortmaker",
       "text": "Rarity: 5 ✦\n Type: Sword\n Base ATK: 411\n\n Stat 1 Boost - 9/9\n Intellect : + 124\n\n Stat 2 Boost - 9/9\n Ultimate Gain Eff. : + 37.10%\n\n Passive Boost - 9/9\n Attack : + 14.00%\n Arts Intensity : + 70",
@@ -1275,7 +1303,7 @@
       ]
     },
     {
-      "id": "freedom-to-proselytize-28",
+      "id": "freedom-to-proselytize-29",
       "level": 4,
       "heading": "Freedom to Proselytize",
       "text": "Rarity: 5 ✦\n Type: Arts Unit\n Base ATK: 411\n\n Stat 1 Boost - 9/9\n Will : + 124\n\n Stat 2 Boost - 9/9\n Treatment Bonus : + 37.10%\n\n Passive Boost - 9/9\n Main Attribute : + 14.00%\n When the wielder restores HP with their own Battle Skill, the Controlled Operator is restored for another [168 + Will x 1.4] Effect only triggers once every 15s .",
@@ -1293,7 +1321,7 @@
       ]
     },
     {
-      "id": "glorious-memory-29",
+      "id": "glorious-memory-30",
       "level": 4,
       "heading": "Glorious Memory",
       "text": "Rarity: 6 ✦\n Type: Sword\n Base ATK: 490\n\n Stat 1 Boost - 9/9\n Agility : + 156\n\n Stat 2 Boost - 9/9\n Critical Rate : + 19.50%\n\n Passive Boost - 4/9\n ATK : + 11.20%\n When the wielder's skill applies Vulnerability , during the next ultimate cast within 30s , the wielder gains DMG Dealt +19.2% .\nMax stacks for effects of the same name: 3 . Duration of each stack is counted separately. Effect is only triggered once every 0.5s .\n\n Show Effects",
@@ -1311,7 +1339,7 @@
       ]
     },
     {
-      "id": "golden-age-30",
+      "id": "golden-age-31",
       "level": 4,
       "heading": "Golden Age",
       "text": "Rarity: 6 ✦\n Type: Polearm\n Base ATK: 485\n\n Stat 1 Boost - 9/9\n Will : + 156\n\n Stat 2 Boost - 9/9\n Treatment Bonus : + 46.40%\n\n Passive Boost - 4/9\n Electric DMG Bonus : + 9.60%\n When the wielder's combo skill deals DMG, the wielder gains Treatment Efficiency +6.4% for 15s . When the wielder's combo skill grants HP Treatment to other operators in the team, the entire team gains Arts DMG Dealt +8.0% for 20s .\nEffects of the same name cannot stack.",
@@ -1329,7 +1357,7 @@
       ]
     },
     {
-      "id": "grand-vision-31",
+      "id": "grand-vision-32",
       "level": 4,
       "heading": "Grand Vision",
       "text": "Rarity: 6 ✦\n Type: Sword\n Base ATK: 500\n\n Stat 1 Boost - 9/9\n Agility : + 156\n\n Stat 2 Boost - 9/9\n Attack : + 39.00%\n\n Passive Boost - 4/9\n Arts Intensity : + 48\n For 20s after the wielder applies Originium Crystals or Solidification the wielder gains Physical DMG dealt +57.6% during the next Battle Skill or Ultimate cast. Effects of the same name cannot stack.\n\n Show Effects",
@@ -1347,7 +1375,7 @@
       ]
     },
     {
-      "id": "home-longing-32",
+      "id": "home-longing-33",
       "level": 4,
       "heading": "Home Longing",
       "text": "Rarity: 6 ✦\n Type: Handcannon\n Base ATK: 490\n\n Stat 1 Boost - 9/9\n Agility : + 156\n\n Stat 2 Boost - 9/9\n Cryo DMG Dealt : + 43.33%\n\n Passive Boost - 4/9\n ATK : + 11.20%\n For 20s after the wielder casts a combo skill, the wielder's next battle skill gains Cryo and Nature DMG Dealt +12.8% . Max stacks for effects of the same name: 2 . Duration of each stack is counted separately.",
@@ -1365,7 +1393,7 @@
       ]
     },
     {
-      "id": "howling-guard-33",
+      "id": "howling-guard-34",
       "level": 4,
       "heading": "Howling Guard",
       "text": "Rarity: 4 ✦\n Type: Handcannon\n Base ATK: 341\n\n Stat 1 Boost - 9/9\n Intellect : + 93\n\n Stat 2 Boost - 9/9\n Attack : + 23.40%\n\n Passive Boost - 9/9\n After the wielder's Battle Skill hits the enemy, ATK +33.6% for 20s . Effects of the same name cannot stack.",
@@ -1383,7 +1411,7 @@
       ]
     },
     {
-      "id": "hypernova-auto-34",
+      "id": "hypernova-auto-35",
       "level": 4,
       "heading": "Hypernova Auto",
       "text": "Rarity: 4 ✦\n Type: Arts Unit\n Base ATK: 341\n\n Stat 1 Boost - 9/9\n Intellect : + 93\n\n Stat 2 Boost - 9/9\n Arts DMG Bonus : + 26.00%\n\n Passive Boost - 9/9\n When the wielder's HP is above 80% , ATK +42% .",
@@ -1401,7 +1429,7 @@
       ]
     },
     {
-      "id": "industry-0-1-35",
+      "id": "industry-0-1-36",
       "level": 4,
       "heading": "Industry 0.1",
       "text": "Rarity: 4 ✦\n Type: Greatsword\n Base ATK: 341\n\n Stat 1 Boost - 9/9\n Strength : + 93\n\n Stat 2 Boost - 9/9\n Attack : + 23.40%\n\n Passive Boost - 9/9\n After the wielder's Battle Skill hits the enemy, ATK +33.6% for 20s . Effects of the same name cannot stack.",
@@ -1419,7 +1447,7 @@
       ]
     },
     {
-      "id": "jet-36",
+      "id": "jet-37",
       "level": 4,
       "heading": "JET",
       "text": "Rarity: 6 ✦\n Type: Polearm\n Base ATK: 500\n\n Stat 1 Boost - 9/9\n Main Attribute : + 132\n\n Stat 2 Boost - 9/9\n Attack : + 39.00%\n\n Passive Boost - 4/9\n Arts DMG Bonus : + 19.20%\n After the wielder casts a Battle Skill, the wielder gains Arts DMG dealt +19.2% for 15s . After the wielder casts a Combo Skill, Arts DMG dealt +19.2% for 15s . The two effects apply separately and do not stack with themselves.\n\n Show Effects",
@@ -1437,7 +1465,7 @@
       ]
     },
     {
-      "id": "jiminy-12-37",
+      "id": "jiminy-12-38",
       "level": 4,
       "heading": "Jiminy 12",
       "text": "Rarity: 3 ✦\n Type: Arts Unit\n Base ATK: 283\n\n Stat 1 Boost - 9/9\n Main Attribute : + 79\n\n Passive Boost - 9/9\n Flat ATK : + 34",
@@ -1455,7 +1483,7 @@
       ]
     },
     {
-      "id": "junction-point-38",
+      "id": "junction-point-39",
       "level": 4,
       "heading": "Junction Point",
       "text": "Rarity: 6 ✦\n Type: Arts Unit\n Base ATK: 490\n\n Stat 1 Boost - 9/9\n Intellect : + 156\n\n Stat 2 Boost - 9/9\n Ultimate Gain Eff. : + 46.40%\n\n Passive Boost - 4/9\n Nature DMG Bonus : + 11.20%\n When the wielder applies Arts Susceptibility or Arts Infliction with a combo skill, the wielder gains ATK +9.6% while other operators in the team gain ATK +2.4% . Duration: 20s .\nMax stacks for effects of the same name: 2 . Duration of each stack is counted separately.\n\n Show Effects",
@@ -1473,7 +1501,7 @@
       ]
     },
     {
-      "id": "khravengger-39",
+      "id": "khravengger-40",
       "level": 4,
       "heading": "Khravengger",
       "text": "Rarity: 6 ✦\n Type: Greatsword\n Base ATK: 505\n\n Stat 1 Boost - 9/9\n Strength : + 156\n\n Stat 2 Boost - 9/9\n Attack : + 39.00%\n\n Passive Boost - 4/9\n All Skill DMG Bonus : + 32.00%\n When the wielder's Battle Skill applies Cryo Infliction , the wielder gains Cryo DMG dealt +16% for 15s . When the wielder deals Combo Skill DMG to an enemy with Cryo Infliction , the wielder gains Cryo DMG dealt +32% for 15s . The two effects apply seperately and do not stack with themselves.\n\n Show Effects",
@@ -1491,7 +1519,7 @@
       ]
     },
     {
-      "id": "lone-barge-40",
+      "id": "lone-barge-41",
       "level": 4,
       "heading": "Lone Barge",
       "text": "Rarity: 6 ✦\n Type: Arts Unit\n Base ATK: 0\n\n Stat 1 Boost - 9/9\n Will : + 156\n\n Stat 2 Boost - 9/9\n ATK : + 39%\n\n Passive Boost - 4/9\n Electric DMG Bonus : + 25.60%\n When the wielder's battle skill consumes Arts Reactions, the wielder gains Battle Skill Electric DMG Dealt +32% for 20s .\nThis effect can reach 2 stacks.\nDuration of each stack is counted separately.\nThis effect only triggers once every 0.1s .\nAfter the wielder casts an ultimate, the wielder gains Battle Skill Electric DMG Dealt +64% for 25s . This effect cannot stack",
@@ -1509,7 +1537,7 @@
       ]
     },
     {
-      "id": "long-road-41",
+      "id": "long-road-42",
       "level": 4,
       "heading": "Long Road",
       "text": "Rarity: 4 ✦\n Type: Handcannon\n Base ATK: 341\n\n Stat 1 Boost - 9/9\n Strength : + 93\n\n Stat 2 Boost - 9/9\n Arts DMG Bonus : + 26.00%\n\n Passive Boost - 9/9\n After the wielder casts a Combo Skill, ATK +33.6% for 20s . Effects of the same name cannot stack.",
@@ -1527,7 +1555,7 @@
       ]
     },
     {
-      "id": "lupine-scarlet-42",
+      "id": "lupine-scarlet-43",
       "level": 4,
       "heading": "Lupine Scarlet",
       "text": "Rarity: 6 ✦\n Type: Sword\n Base ATK: 505\n\n Stat 1 Boost - 9/9\n Agility : + 156\n\n Stat 2 Boost - 9/9\n Critical Rate : + 19.50%\n\n Passive Boost - 4/9\n ATK : + 25.60%\n After the wielder's skill deals Critical DMG, the wielder gains 1 stack of Wolven Blood that grants Physical and Heat DMG Dealt +1.6% . Wolven Blood can reach 16 stacks. After reaching 16 stacks, the wielder gains another Physical and Heat DMG Dealt +38.4% for 20s . After the Dealt duration ends, all Wolven Blood stacks are removed.",
@@ -1545,7 +1573,7 @@
       ]
     },
     {
-      "id": "monaihe-43",
+      "id": "monaihe-44",
       "level": 4,
       "heading": "Monaihe",
       "text": "Rarity: 5 ✦\n Type: Arts Unit\n Base ATK: 411\n\n Stat 1 Boost - 9/9\n Will : + 124\n\n Stat 2 Boost - 9/9\n Ultimate Gain Eff. : + 37.10%\n\n Passive Boost - 9/9\n Main Attribute : + 14.00%\n Arts Intensity : + 70",
@@ -1563,7 +1591,7 @@
       ]
     },
     {
-      "id": "mountain-bearer-44",
+      "id": "mountain-bearer-45",
       "level": 4,
       "heading": "Mountain Bearer",
       "text": "Rarity: 6 ✦\n Type: Polearm\n Base ATK: 500\n\n Stat 1 Boost - 9/9\n Agility : + 156\n\n Stat 2 Boost - 9/9\n Physical DMG Bonus : + 43.30%\n\n Passive Boost - 4/9\n Against Vulnerability enemies, the wielder gains DMG dealt +32% . When the wielder's Battle Skill applies Vulnerability , the wielder gains All Attributes +12.8% for 15s . When the wielder's Battle Skill applies Physical Susceptibility , the wielder gains all attributes +12.8% for 15 s . Max stacks for effects of the same name: 2 . Duration of each stack is counted separately. Effect only triggers once every 0.1s .\n\n Show Effects",
@@ -1581,7 +1609,7 @@
       ]
     },
     {
-      "id": "navigator-45",
+      "id": "navigator-46",
       "level": 4,
       "heading": "Navigator",
       "text": "Rarity: 6 ✦\n Type: Handcannon\n Base ATK: 490\n\n Stat 1 Boost - 9/9\n Intellect : + 156\n\n Stat 2 Boost - 9/9\n Cryo DMG Bonus : + 43.30%\n\n Passive Boost - 4/9\n Critical Rate : + 5.60%\n When Solidification or Corrosion is applied to enemies, the wielder gains Cryo DMG dealt and Nature DMG dealt +5.6% , and Critical Rate +3.2% for 15s . If this effect is triggered by the wielder, double the increase gained. Effects of the same name cannot stack.\n\n Show Effects",
@@ -1599,7 +1627,7 @@
       ]
     },
     {
-      "id": "never-rest-46",
+      "id": "never-rest-47",
       "level": 4,
       "heading": "Never Rest",
       "text": "Rarity: 6 ✦\n Type: Sword\n Base ATK: 500\n\n Stat 1 Boost - 9/9\n Will : + 156\n\n Stat 2 Boost - 9/9\n Attack : + 39.00%\n\n Passive Boost - 4/9\n Physical DMG Bonus : + 25.60%\n After the wielder recovers SP with their own skills, the wielder gains Physical DMG dealt +8% while other Operators in the team gain Physical DMG dealt +4% for 30s . Max stacks for effects of the same name: 5 . Duration of each stack is counted separately. Effect only triggers once every 0.1s .",
@@ -1617,7 +1645,7 @@
       ]
     },
     {
-      "id": "obj-arts-identifier-47",
+      "id": "obj-arts-identifier-48",
       "level": 4,
       "heading": "OBJ Arts Identifier",
       "text": "Rarity: 5 ✦\n Type: Arts Unit\n Base ATK: 411\n\n Stat 1 Boost - 9/9\n Intellect : + 124\n\n Stat 2 Boost - 9/9\n Arts Intensity : + 62\n\n Passive Boost - 9/9\n Max HP : + 28.00%\n After the wielder applies Arts Burst or Physical Status with their own Combo Skill, the entire team gains Heat DMG dealt and Electric DMG dealt +22.4% for 15s . Effects of the same name cannot stack.\n\n Show Effects",
@@ -1635,7 +1663,7 @@
       ]
     },
     {
-      "id": "obj-edge-of-lightness-48",
+      "id": "obj-edge-of-lightness-49",
       "level": 4,
       "heading": "OBJ Edge of Lightness",
       "text": "Rarity: 5 ✦\n Type: Sword\n Base ATK: 411\n\n Stat 1 Boost - 9/9\n Agility : + 124\n\n Stat 2 Boost - 9/9\n Attack : + 31.20%\n\n Passive Boost - 9/9\n Sec. Attribute : + 14.00%\n After the wielder recovers SP by their own skill, the entire team gains Heat DMG dealt and Electric DMG dealt +8.4% for 20s . Max stacks for effects of the same name: 3 . Duration of each stack is counted separately.",
@@ -1653,7 +1681,7 @@
       ]
     },
     {
-      "id": "obj-heavy-burden-49",
+      "id": "obj-heavy-burden-50",
       "level": 4,
       "heading": "OBJ Heavy Burden",
       "text": "Rarity: 5 ✦\n Type: Greatsword\n Base ATK: 411\n\n Stat 1 Boost - 9/9\n Strength : + 124\n\n Stat 2 Boost - 9/9\n Max HP : + 62.40%\n\n Passive Boost - 9/9\n Sec. Attribute : + 14.00%\n After the wielder applies Knocked Down or Weakened , DEF +50.4% for 15s . Effects of the same name cannot stack.\n\n Show Effects",
@@ -1671,7 +1699,7 @@
       ]
     },
     {
-      "id": "obj-razohorn-50",
+      "id": "obj-razohorn-51",
       "level": 4,
       "heading": "OBJ Razohorn",
       "text": "Rarity: 5 ✦\n Type: Polearm\n Base ATK: 411\n\n Stat 1 Boost - 9/9\n Will : + 124\n\n Stat 2 Boost - 9/9\n Physical DMG Bonus : + 34.70%\n\n Passive Boost - 9/9\n To enemies with Cryo Infliction or Solidification , the wielder gains DMG dealt +22.4% . After consuming Solidification , ATK +33.6% for 15s . Effects of the same name cannot stack.\n\n Show Effects",
@@ -1689,7 +1717,7 @@
       ]
     },
     {
-      "id": "obj-velocitous-51",
+      "id": "obj-velocitous-52",
       "level": 4,
       "heading": "OBJ Velocitous",
       "text": "Rarity: 5 ✦\n Type: Handcannon\n Base ATK: 411\n\n Stat 1 Boost - 9/9\n Agility : + 124\n\n Stat 2 Boost - 9/9\n Ultimate Gain Eff. : + 37.10%\n\n Passive Boost - 9/9\n Attack : + 14.00%\n After the wielder consumes an Arts Infliction , the wielder gains Nature DMG dealt +[14% x Stacks Consumed] for 20s . Effects of the same name cannot stack.\n\n Show Effects",
@@ -1707,7 +1735,7 @@
       ]
     },
     {
-      "id": "oblivion-52",
+      "id": "oblivion-53",
       "level": 4,
       "heading": "Oblivion",
       "text": "Rarity: 6 ✦\n Type: Arts Unit\n Base ATK: 495\n\n Stat 1 Boost - 9/9\n Intellect : + 156\n\n Stat 2 Boost - 9/9\n Arts DMG Bonus : + 43.30%\n\n Passive Boost - 4/9\n Critical Rate : + 8.00%\n After the wielder casts an Ultimate, the wielder gains Arts DMG dealt +38.4% for 15s . After the wielder casts a Combo Skill, the wielder gains Arts DMG dealt +19.2% for 15s . The two effects apply separately and do not stack with themselves.\n\n Show Effects",
@@ -1725,7 +1753,7 @@
       ]
     },
     {
-      "id": "opero-77-53",
+      "id": "opero-77-54",
       "level": 4,
       "heading": "Opero 77",
       "text": "Rarity: 3 ✦\n Type: Polearm\n Base ATK: 283\n\n Stat 1 Boost - 9/9\n Main Attribute : + 79\n\n Passive Boost - 9/9\n Flat ATK : + 34",
@@ -1743,7 +1771,7 @@
       ]
     },
     {
-      "id": "opus-etch-figure-54",
+      "id": "opus-etch-figure-55",
       "level": 4,
       "heading": "Opus: Etch Figure",
       "text": "Rarity: 6 ✦\n Type: Arts Unit\n Base ATK: 485\n\n Stat 1 Boost - 9/9\n Will : + 156\n\n Stat 2 Boost - 9/9\n Nature DMG Bonus : + 43.30%\n\n Passive Boost - 4/9\n Attack : + 11.20%\n After the wielder applies a Nature Infliction with their own Battle Skill, the team gains Arts DMG dealt +8% for 15s . For every enemy suffering from Nature Infliction applied by the said Battle Skill, the team gains Bonus Arts DMG dealt +3.2% , up to a max of +9.6% . Effects of the same name cannot stack.\n\n Show Effects",
@@ -1761,7 +1789,7 @@
       ]
     },
     {
-      "id": "opus-the-living-55",
+      "id": "opus-the-living-56",
       "level": 4,
       "heading": "Opus: The Living",
       "text": "Rarity: 5 ✦\n Type: Handcannon\n Base ATK: 411\n\n Stat 1 Boost - 9/9\n Agility : + 124\n\n Stat 2 Boost - 9/9\n Arts DMG Bonus : + 34.70%\n\n Passive Boost - 9/9\n Critical Rate : + 8.40%\n After the wielder applies an Arts Reaction, ATK 21% for 20s . Max stacks for effects of the same name: 2 . Duration of each stack is counted separately. Effect only triggers once every 0.1s .",
@@ -1779,7 +1807,7 @@
       ]
     },
     {
-      "id": "pathfinders-beacon-56",
+      "id": "pathfinders-beacon-57",
       "level": 4,
       "heading": "Pathfinder's Beacon",
       "text": "Rarity: 4 ✦\n Type: Polearm\n Base ATK: 341\n\n Stat 1 Boost - 9/9\n Agility : + 93\n\n Stat 2 Boost - 9/9\n Attack : + 23.40%\n\n Passive Boost - 9/9\n When the wielder's HP is above 80% , ATK + 42% .",
@@ -1797,7 +1825,7 @@
       ]
     },
     {
-      "id": "peco-5-57",
+      "id": "peco-5-58",
       "level": 4,
       "heading": "Peco 5",
       "text": "Rarity: 3 ✦\n Type: Handcannon\n Base ATK: 283\n\n Stat 1 Boost - 9/9\n Main Attribute : + 79\n\n Passive Boost - 9/9\n Flat ATK : + 34",
@@ -1815,7 +1843,7 @@
       ]
     },
     {
-      "id": "phantom-pain-58",
+      "id": "phantom-pain-59",
       "level": 4,
       "heading": "Phantom Pain",
       "text": "Rarity: 6 ✦\n Type: Greatsword\n Base ATK: 490\n\n Stat 1 Boost - 9/9\n Strength : + 156\n\n Stat 2 Boost - 9/9\n Arts Intensity : + 78\n\n Passive Boost - 4/9\n Physical DMG Bonus : + 11.20%\n When the wielder casts battle skills or combo skills, the wielder gains Physical DMG Dealt +15.4% for 20s .",
@@ -1833,7 +1861,7 @@
       ]
     },
     {
-      "id": "quencher-59",
+      "id": "quencher-60",
       "level": 4,
       "heading": "Quencher",
       "text": "Rarity: 4 ✦\n Type: Greatsword\n Base ATK: 341\n\n Stat 1 Boost - 9/9\n Will : + 93\n\n Stat 2 Boost - 9/9\n Max HP : + 46.80%\n\n Passive Boost - 9/9\n After the wielder performs a Final Strike on the enemy, ATK +33.6% for 10s . Effects of the same name cannot stack.\n\n Show Effects",
@@ -1851,7 +1879,7 @@
       ]
     },
     {
-      "id": "rapid-ascent-60",
+      "id": "rapid-ascent-61",
       "level": 4,
       "heading": "Rapid Ascent",
       "text": "Rarity: 6 ✦\n Type: Sword\n Base ATK: 495\n\n Stat 1 Boost - 9/9\n Main Attribute : + 132\n\n Stat 2 Boost - 9/9\n Critical Rate : + 19.50%\n\n Passive Boost - 4/9\n Battle Skills and Ultimates gain Physical DMG dealt +24% . Against staggered enemies, Battle Skills and Ultimates also gain DMG dealt +56% .",
@@ -1869,7 +1897,7 @@
       ]
     },
     {
-      "id": "rational-farewell-61",
+      "id": "rational-farewell-62",
       "level": 4,
       "heading": "Rational Farewell",
       "text": "Rarity: 5 ✦\n Type: Handcannon\n Base ATK: 411\n\n Stat 1 Boost - 9/9\n Strength : + 124\n\n Stat 2 Boost - 9/9\n Heat DMG Bonus : + 34.70%\n\n Passive Boost - 9/9\n Battle Skill DMG : + 28.00%\n After the wielder's combo skil applies Arts Burst or Combusted , ATK +44.8% for 15s . Effects of the same name cannot stack.\n\n Show Effects",
@@ -1887,7 +1915,7 @@
       ]
     },
     {
-      "id": "seeker-of-dark-lung-62",
+      "id": "seeker-of-dark-lung-63",
       "level": 4,
       "heading": "Seeker of Dark Lung",
       "text": "Rarity: 5 ✦\n Type: Greatsword\n Base ATK: 411\n\n Stat 1 Boost - 9/9\n Strength : + 124\n\n Stat 2 Boost - 9/9\n Ultimate Gain Eff. : + 37.10%\n\n Passive Boost - 9/9\n Main Attribute : + 14.00%\n After the wielder applies an Arts Burst, ATK +16.8% for 30s . Max stacks for effects of the same name: 3 . Duration of each stack is counted separately. Effect only triggers once every 0.1s .",
@@ -1905,7 +1933,7 @@
       ]
     },
     {
-      "id": "stanza-of-memorials-63",
+      "id": "stanza-of-memorials-64",
       "level": 4,
       "heading": "Stanza of Memorials",
       "text": "Rarity: 5 ✦\n Type: Arts Unit\n Base ATK: 411\n\n Stat 1 Boost - 9/9\n Intellect : + 124\n\n Stat 2 Boost - 9/9\n Attack : + 31.20%\n\n Passive Boost - 9/9\n Max HP : + 28.00%\n After the wielder casts an Ultimate, Operators whose elements differ from the wielder gain ATK +22.4% for 20s . Effects of the same name cannot stack.",
@@ -1923,7 +1951,7 @@
       ]
     },
     {
-      "id": "sundered-prince-64",
+      "id": "sundered-prince-65",
       "level": 4,
       "heading": "Sundered Prince",
       "text": "Rarity: 6 ✦\n Type: Greatsword\n Base ATK: 490\n\n Stat 1 Boost - 9/9\n Strength : + 156\n\n Stat 2 Boost - 9/9\n Critical Rate : + 19.50%\n\n Passive Boost - 4/9\n After the wielder performs a Final Strike on the enemy, ATK +16% for 8s . If the wielder is also the Controlled Operator, double the ATK increase gained and buff the Final Strike so that it deals Stagger +19.2% to the enemy. Effects of the same name cannot stack.\n\n Show Effects",
@@ -1941,7 +1969,7 @@
       ]
     },
     {
-      "id": "sundering-steel-65",
+      "id": "sundering-steel-66",
       "level": 4,
       "heading": "Sundering Steel",
       "text": "Rarity: 5 ✦\n Type: Sword\n Base ATK: 411\n\n Stat 1 Boost - 9/9\n Agility : + 124\n\n Stat 2 Boost - 9/9\n Physical DMG Bonus : + 34.70%\n\n Passive Boost - 9/9\n Attack : + 14.00%\n After the wielder deals a Physical Status , ATK +21% for 20s . Max stacks for effects of the same name: 2 . Duration of each stack is counted separately. Effect only triggers once every 0.1s .",
@@ -1959,7 +1987,7 @@
       ]
     },
     {
-      "id": "tarr-11-66",
+      "id": "tarr-11-67",
       "level": 4,
       "heading": "Tarr 11",
       "text": "Rarity: 3 ✦\n Type: Sword\n Base ATK: 283\n\n Stat 1 Boost - 9/9\n Main Attribute : + 79\n\n Passive Boost - 9/9\n Flat ATK : + 34",
@@ -1977,7 +2005,7 @@
       ]
     },
     {
-      "id": "thermite-cutter-67",
+      "id": "thermite-cutter-68",
       "level": 4,
       "heading": "Thermite Cutter",
       "text": "Rarity: 6 ✦\n Type: Sword\n Base ATK: 490\n\n Stat 1 Boost - 9/9\n Will : + 156\n\n Stat 2 Boost - 9/9\n Attack : + 39.00%\n\n Passive Boost - 4/9\n Attack : + 16.00%\n After the wielder's skill recovers SP or grants a Link state, the entire team gains ATK +8% for 20s . Max stacks for effects of the same name: 2 . Duration of each stack counted separately.\n\n Show Effects",
@@ -1995,7 +2023,7 @@
       ]
     },
     {
-      "id": "thunderberge-68",
+      "id": "thunderberge-69",
       "level": 4,
       "heading": "Thunderberge",
       "text": "Rarity: 6 ✦\n Type: Greatsword\n Base ATK: 495\n\n Stat 1 Boost - 9/9\n Strength : + 156\n\n Stat 2 Boost - 9/9\n Max HP : + 78.00%\n\n Passive Boost - 4/9\n Shield applied +38.4% . When the wielder restores HP with their own Combo Skill, grant the Controlled Operator an additional [11.2 x Wielder's Max HP] Shield for 15s . Effect only triggers once every 15s .\n\n Show Effects",
@@ -2013,7 +2041,7 @@
       ]
     },
     {
-      "id": "twelve-questions-69",
+      "id": "twelve-questions-70",
       "level": 4,
       "heading": "Twelve Questions",
       "text": "Rarity: 5 ✦\n Type: Sword\n Base ATK: 411\n\n Stat 1 Boost - 9/9\n Agility : + 124\n\n Stat 2 Boost - 9/9\n Attack : + 31.20%\n\n Passive Boost - 9/9\n Sec. Attribute : + 14.00%\n After the wielder consumes an Arts Reaction, ATK +21% for 20s . Max stacks for effects of the same name: 2 . Duration of each stack is counted separately.",
@@ -2031,7 +2059,7 @@
       ]
     },
     {
-      "id": "type-42-solemn-phalanx-70",
+      "id": "type-42-solemn-phalanx-71",
       "level": 4,
       "heading": "Type 42: Solemn Phalanx",
       "text": "Rarity: 6 ✦\n Type: Arts Unit\n Base ATK: 505\n\n Stat 1 Boost - 9/9\n Intellect : + 156\n\n Stat 2 Boost - 9/9\n Ultimate Gain Eff. : + 46.40%\n\n Passive Boost - 4/9\n ATK : + 25.60%\n Wielder's Intellect ≥ Will : When the wielder applies Arts Infliction with their own skill, the wielder gains Arts DMG Dealt +32.0% for 20s ; when the wielder applies Arts Susceptibility with their own skill, the wielder gains ATK +32.0% for 20s ;\n Wielder's Will ＞ Intellect : When the wielder applies Arts Burst with their own skill, the target enemy suffers Arts DMG Taken +9.6% for 25s ; when the wielder applies Arts Susceptibility with their own skill, the target enemy suffers Arts DMG Taken +9.6% for 25s .\nEffects of the same name cannot stack. The aforementioned attributes only include effects from the wielder's level, talents, potentials, and attribute bonuses provided by equipped gear and weapons.\n\n Show Effects",
@@ -2049,7 +2077,7 @@
       ]
     },
     {
-      "id": "umbral-torch-71",
+      "id": "umbral-torch-72",
       "level": 4,
       "heading": "Umbral Torch",
       "text": "Rarity: 6 ✦\n Type: Sword\n Base ATK: 490\n\n Stat 1 Boost - 9/9\n Intellect : + 156\n\n Stat 2 Boost - 9/9\n Heat DMG Bonus : + 43.30%\n\n Passive Boost - 4/9\n Attack : + 11.20%\n Whenever Combustion or Corrosion is applied to an enemy, the wielder gains Heat DMG dealt and Nature DMG dealt +12.8% for 20s .. Max stacks for effects of the same name: 2 . Duration of each stack is counted seperately. Effect only triggers once every 0.1s .\n\n Show Effects",
@@ -2067,7 +2095,7 @@
       ]
     },
     {
-      "id": "valiant-72",
+      "id": "valiant-73",
       "level": 4,
       "heading": "Valiant",
       "text": "Rarity: 6 ✦\n Type: Polearm\n Base ATK: 495\n\n Stat 1 Boost - 9/9\n Agility : + 156\n\n Stat 2 Boost - 9/9\n Physical DMG Bonus : + 43.30%\n\n Passive Boost - 4/9\n Attack : + 16.00%\n When the wielder applies Physical Statuses , the wielder also deals another hit of Physical DMG equal to 192% of the wielder's ATK.\n\n Show Effects",
@@ -2085,7 +2113,7 @@
       ]
     },
     {
-      "id": "wave-tide-73",
+      "id": "wave-tide-74",
       "level": 4,
       "heading": "Wave Tide",
       "text": "Rarity: 4 ✦\n Type: Sword\n Base ATK: 341\n\n Stat 1 Boost - 9/9\n Intellect : + 93\n\n Stat 2 Boost - 9/9\n Attack : + 23.40%\n\n Passive Boost - 9/9\n After the wielder casts a Combo Skill, ATK +33.6% for 20s . Effects of the same name cannot stack.",
@@ -2103,7 +2131,7 @@
       ]
     },
     {
-      "id": "wedge-74",
+      "id": "wedge-75",
       "level": 4,
       "heading": "Wedge",
       "text": "Rarity: 6 ✦\n Type: Handcannon\n Base ATK: 500\n\n Stat 1 Boost - 9/9\n Main Attribute : + 132\n\n Stat 2 Boost - 9/9\n Critical Rate : + 19.50%\n\n Passive Boost - 4/9\n Arts DMG Bonus : + 19.20%\n After the wielder casts a Battle Skill, the wielder gains Arts DMG dealt +12.8% for 15s . After the wielder applies an Arts Reaction with their own Battle Skill, the wielder gains Arts DMG dealt +25.6% for 15s . The two effects apply separately and do not stack with themselves.\n\n Show Effects",
@@ -2121,7 +2149,7 @@
       ]
     },
     {
-      "id": "white-night-nova-75",
+      "id": "white-night-nova-76",
       "level": 4,
       "heading": "White Night Nova",
       "text": "Rarity: 6 ✦\n Type: Sword\n Base ATK: 505\n\n Stat 1 Boost - 9/9\n Main Attribute : + 132\n\n Stat 2 Boost - 9/9\n Arts Intensity : + 78\n\n Passive Boost - 4/9\n Arts DMG Bonus : + 19.20%\n After the wielder applies Combustion or Electrification , the wielder gains Arts DMG dealt +19.2% and Arts Intensity +40 for 15s . Effects of the same name cannot stack.\n\n Show Effects",
@@ -2139,7 +2167,7 @@
       ]
     },
     {
-      "id": "wild-wanderer-76",
+      "id": "wild-wanderer-77",
       "level": 4,
       "heading": "Wild Wanderer",
       "text": "Rarity: 5 ✦\n Type: Arts Unit\n Base ATK: 411\n\n Stat 1 Boost - 9/9\n Intellect : + 124\n\n Stat 2 Boost - 9/9\n Electric DMG Bonus : + 34.70%\n\n Passive Boost - 9/9\n Arts Intensity : + 28\n After the wielder applies Electrification , the team gains Physical DMG dealt and Electric DMG dealt +22.4% for 15s . Effects of the same name cannot stack.\n\n Show Effects",
@@ -2148,7 +2176,7 @@
   ],
   "recommendations": {},
   "tables": [],
-  "text": "Weapons | Arknights: Endfield\n \n\n Arknights: Endfield\n Home Database Characters Gear Weapons\n Tier Lists Tier List Team Tier List\n Guides Guides\n Tools Team Builder Adv. Team Builder Rotation Builder Gacha Simulator Material Planner Character Comparison Patch Timeline\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Arknights: Endfield\n /\n Weapons List\n\n Arknights: Endfield Weapons List\n List of all Weapons available in Arknights: Endfield.\n Last updated: 16/July/2026\n\n Arknights: Endfield Weapons\n Showing 75 weapons\n For 3✦ , 4✦ and 5✦ Weapons, we're showing their stat and passives boosts maxed so 9/9 , since getting their dupes won't be a problem. Still, for the 6✦ Weapons, only the stat boosts are shown at 9/9, because you can achieve that just by leveling the weapon; without dupes though, passive boost will be locked at 4/9 and that's what we're showing below.\n\n Filters\n\n Aggeloslayer\n Rarity: 4 ✦\n Type: Polearm\n Base ATK: 341\n\n Stat 1 Boost - 9/9\n Will : + 93\n\n Stat 2 Boost - 9/9\n Arts DMG Bonus : + 26.00%\n\n Passive Boost - 9/9\n After the wielder's Battle Skill hits the enemy, ATK +33.6% for 20s . Effects of the same name cannot stack.\n\n Amaranthine Tassel\n Rarity: 6 ✦\n Type: Greatsword\n Base ATK: 510\n\n Stat 1 Boost - 9/9\n Strength : + 156\n\n Stat 2 Boost - 9/9\n ATK : + 39%\n\n Passive Boost - 4/9\n Physical DMG Bonus : + 25.60%\n When the wielder applies Physical Susceptibility , the wielder gains Arts Intensity +48 for 20s . When the wielder applies Crush , the wielder gains Physical DMG Dealt +[14.4% + (4.8% x Max Number of Vulnerability stacks consumed from one enemy)] for 30s .\n\n Show Effects\n\n Ancient Canal\n Rarity: 5 ✦\n Type: Greatsword\n Base ATK: 411\n\n Stat 1 Boost - 9/9\n Strength : + 124\n\n Stat 2 Boost - 9/9\n Arts Intensity : + 62\n\n Passive Boost - 9/9\n Arts Intensity : + 28\n After the wielder consumes Vulnerability stack(s), the wielder gains Physical DMG dealt +[14% x stacks consumed] for 20s . Effects of the same name cannot stack.\n\n Show Effects\n\n Artzy Tyrannical\n Rarity: 6 ✦\n Type: Handcannon\n Base ATK: 505\n\n Stat 1 Boost - 9/9\n Intellect : + 156\n\n Stat 2 Boost - 9/9\n Critical Rate : + 19.50%\n\n Passive Boost - 4/9\n Cryo DMG Bonus : + 25.60%\n After the wielder scores a critical hit with a Battle Skill or Combo Skill, the wielder gains Cryo DMG dealt +22.4% for 30s . Max stacks for effects of the same name: 3 . Duration of each stack is counted separately. Effect only triggers once every 0.1s .\n\n Aspirant\n Rarity: 5 ✦\n Type: Sword\n Base ATK: 411\n\n Stat 1 Boost - 9/9\n Agility : + 124\n\n Stat 2 Boost - 9/9\n Physical DMG Bonus : + 34.70%\n\n Passive Boost - 9/9\n Ultimate DMG Bonus : + 44.80%\n For 30s after the wielder applies Lifted , the wielder gains Physical DMG dealt +33.6% during the next Ultimate cast. Max stacks for effects of the same name: 3 . Duration of each stack is counted separately. Effect only triggers once every 0.5s .\n\n Show Effects\n\n Beacon of Duty\n Rarity: 6 ✦\n Type: Polearm\n Base ATK: 485\n\n Stat 1 Boost - 9/9\n Agility : + 156\n\n Stat 2 Boost - 9/9\n Ultimate Gain Eff. : + 46.40%\n\n Passive Boost - 4/9\n Heat DMG Bonus : + 11.20%\n When the wielder's skill applies Heat Infliction , the wielder gains Physical and Heat DMG Dealt +12.8% for 20s . When the wielder's skill applies Heat Susceptibility , the entire team gains Physical and Heat DMG Dealt +6.4% for 30s .\n\n Show Effects\n\n Blessing of Lustrous Carmine\n Rarity: 6 ✦\n Type: Polearm\n Base ATK: 500\n\n Stat 1 Boost - 9/9\n Agility : + 156\n\n Stat 2 Boost - 9/9\n Heat DMG Bonus : + 43.30%\n\n Passive Boost - 4/9\n Ultimate Gain Eff. : + 28.80%\n When the wielder’s skill recovers SP, the entire team gains ATK +9.6% for 20s . When the wielder’s skill applies Heat Infliction , the entire team gains Heat DMG Dealt +9.6% for 20s .\nThe two effects apply separately and do not stack with themselves.\n\n Brigand's Calling\n Rarity: 6 ✦\n Type: Handcannon\n Base ATK: 505\n\n Stat 1 Boost - 9/9\n Agility : + 156\n\n Stat 2 Boost - 9/9\n Attack : + 39%\n\n Passive Boost - 4/9\n Cryo DMG Bonus : + 25.60%\n When the wielder applies Cryo Infliction via battle skills or ultimates, the wielder gains Cryo DMG Dealt +32% for 20s .\nWhen the wielder's battle skill or ultimate applies Arts Susceptibility , the target enemy suffers Arts DMG Taken +9.6% for 20s . The two effects apply separately and do not stack with themselves.\n\n Show Effects\n\n Chimeric Justice\n Rarity: 5 ✦\n Type: Polearm\n Base ATK: 411\n\n Stat 1 Boost - 9/9\n Strength : + 124\n\n Stat 2 Boost - 9/9\n Ultimate Gain Eff. : + 37.10%\n\n Passive Boost - 9/9\n Critical Rate : + 8.40%\n After the wielder applies Vulnerability to an enemy with no Vulnerability stacks, ATK +42% for 15s . Effects of the same name cannot stack.\n\n Show Effects\n\n Chivalric Virtues\n Rarity: 6 ✦\n Type: Arts Unit\n Base ATK: 485\n\n Stat 1 Boost - 9/9\n Will : + 156\n\n Stat 2 Boost - 9/9\n Max HP : + 78.00%\n\n Passive Boost - 4/9\n Treatment Efficiency +16% . After the wielder gives HP Treatment with their own skill, the entire team gains ATK +14.4% for 15s . Effects of the same name cannot stack.\n\n Clannibal\n Rarity: 6 ✦\n Type: Handcannon\n Base ATK: 490\n\n Stat 1 Boost - 9/9\n Main Attribute : + 132\n\n Stat 2 Boost - 9/9\n Arts DMG Bonus : + 43.30%\n\n Passive Boost - 4/9\n Arts DMG Bonus : + 19.20%\n After the wielder consumes an Arts Reaction, target enemy suffers Arts DMG taken +16% (for the specified element) for 15s . Effect only triggers once every 25s .\n\n Show Effects\n\n Cohesive Traction\n Rarity: 5 ✦\n Type: Polearm\n Base ATK: 411\n\n Stat 1 Boost - 9/9\n Will : + 124\n\n Stat 2 Boost - 9/9\n Electric DMG Bonus : + 34.70%\n\n Passive Boost - 9/9\n Combo Skill DMG Bonus : + 28.00%\n For 30s after the wielder casts a Combo Skill, the wielder gains Electric DMG dealt +28% during the next Battle Skill cast. Max stacks for effects of the same name: 3 . Duration of each stack is counted separately.\n\n Contingent Measure\n Rarity: 4 ✦\n Type: Sword\n Base ATK: 341\n\n Stat 1 Boost - 9/9\n Agility : + 93\n\n Stat 2 Boost - 9/9\n Physical DMG Bonus : + 26.00%\n\n Passive Boost - 9/9\n After the wielder's Battle Skill hits the enemy, ATK +33.6% for 20s . Effects of the same name cannot stack.\n\n Darhoff 7\n Rarity: 3 ✦\n Type: Greatsword\n Base ATK: 283\n\n Stat 1 Boost - 9/9\n Main Attribute : + 79\n\n Passive Boost - 9/9\n Flat ATK : + 34\n\n Delivery Guaranteed\n Rarity: 6 ✦\n Type: Arts Unit\n Base ATK: 500\n\n Stat 1 Boost - 9/9\n Will : + 156\n\n Stat 2 Boost - 9/9\n Ultimate Gain Eff. : + 46.40%\n\n Passive Boost - 4/9\n Nature DMG Bonus : + 25.60%\n After the wielder applies Lifted with their own Combo Skill, the team gains Arts DMG dealt +19.2% for 15s . For every enemy Lifted , the team gains bonus Arts DMG dealt +5.6% , up to a max of 16.8% . Effects of the same name cannot stack.\n\n Show Effects\n\n Detonation Unit\n Rarity: 6 ✦\n Type: Arts Unit\n Base ATK: 490\n\n Stat 1 Boost - 9/9\n Main Attribute : + 132\n\n Stat 2 Boost - 9/9\n Arts Intensity : + 78\n\n Passive Boost - 4/9\n Sec. Attribute : + 16.00%\n After the wielder applies an Arts Burst, target enemy suffers Arts DMG taken +14.4% for 15s . Effects of the same name cannot stack.\n\n Show Effects\n\n Dreams of the Starry Beach\n Rarity: 6 ✦\n Type: Arts Unit\n Base ATK: 495\n\n Stat 1 Boost - 9/9\n Intellect : + 156\n\n Stat 2 Boost - 9/9\n Treatment Bonus : + 46.40%\n\n Passive Boost - 4/9\n Sec. Attribute : + 25.60%\n After the wielder consumes Corrosion , target enemy suffers Arts DMG taken +16% for 25s . Effects of the same name cannot stack.\n\n Show Effects\n\n Eminent Repute\n Rarity: 6 ✦\n Type: Sword\n Base ATK: 490\n\n Stat 1 Boost - 9/9\n Main Attribute : + 132\n\n Stat 2 Boost - 9/9\n Physical DMG Bonus : + 43.30%\n\n Passive Boost - 4/9\n Attack : + 16.00%\n After the wielder consumes Vulnerability stack(s), ATK + [8% + 4% x Stacks Consumed] while other Operators in the team gain half of this buff for 20s . Effects of the same name cannot stack.\n\n Show Effects\n\n Exemplar\n Rarity: 6 ✦\n Type: Greatsword\n Base ATK: 500\n\n Stat 1 Boost - 9/9\n Main Attribute : + 132\n\n Stat 2 Boost - 9/9\n Attack : + 39.00%\n\n Passive Boost - 4/9\n Physical DMG Bonus : + 16.00%\n After the wielder's Battle Skill or Ultimate hits the enemy, the wielder gains Physical DMG dealt +16% for 30s . Max stacks for effects of the same name: 3 . Duration of each stack is counted separately. Effect only triggers once every 0.1s .\n\n Finchaser 3.0\n Rarity: 5 ✦\n Type: Sword\n Base ATK: 411\n\n Stat 1 Boost - 9/9\n Strength : + 124\n\n Stat 2 Boost - 9/9\n Cryo DMG Bonus : + 34.70%\n\n Passive Boost - 9/9\n Attack : + 14.00%\n After the wielder's Battle Skill applies Solidification , target enemy suffers Cryo DMG taken +19.6% for 15s .\n\n Show Effects\n\n Finishing Call\n Rarity: 5 ✦\n Type: Greatsword\n Base ATK: 411\n\n Stat 1 Boost - 9/9\n Strength : + 124\n\n Stat 2 Boost - 9/9\n Max HP : + 62.40%\n\n Passive Boost - 9/9\n Sec. Attribute : + 14.00%\n Combo Skill HP Treatment effect +56% .\n\n Flickers in the Mist\n Rarity: 6 ✦\n Type: Arts Unit\n Base ATK: 490\n\n Stat 1 Boost - 9/9\n Will : + 156\n\n Stat 2 Boost - 9/9\n Electric DMG Bonus : + 43.30%\n\n Passive Boost - 4/9\n ATK : + 11.20%\n When the wielder gains Electric Amp the wielder also gains Electric DMG Dealt +8.8% for 30s .\nMax stacks for effects of the same name: 3 .\nDuration of each stack is counted separately.\nThis effect only triggers once every 0.1s .\n\n Show Effects\n\n Fluorescent Roc\n Rarity: 4 ✦\n Type: Arts Unit\n Base ATK: 341\n\n Stat 1 Boost - 9/9\n Will : + 93\n\n Stat 2 Boost - 9/9\n Attack : + 23.40%\n\n Passive Boost - 9/9\n After the wielder's Battle Skill hits the enemy, ATK +33.6% for 20s . Effects of the same name cannot stack.\n\n Forgeborn Scathe\n Rarity: 6 ✦\n Type: Sword\n Base ATK: 510\n\n Stat 1 Boost - 9/9\n Intellect : + 156\n\n Stat 2 Boost - 9/9\n Attack : + 39.00%\n\n Passive Boost - 4/9\n Heat DMG Bonus : + 25.60%\n After the wielder casts an Ultimate, the wielder gains Basic Attack DMG dealt +120% for 20s . Effects of the same name cannot stack.\n\n Former Finery\n Rarity: 6 ✦\n Type: Greatsword\n Base ATK: 495\n\n Stat 1 Boost - 9/9\n Will : + 156\n\n Stat 2 Boost - 9/9\n Max HP : + 78.00%\n\n Passive Boost - 4/9\n Treatment Efficiency +16% . When a Protected Operator takes DMG, the wielder restores the said Operator's HP by [134 + Will x 1.12] . Effect only triggers once every 15s .\n\n Fortmaker\n Rarity: 5 ✦\n Type: Sword\n Base ATK: 411\n\n Stat 1 Boost - 9/9\n Intellect : + 124\n\n Stat 2 Boost - 9/9\n Ultimate Gain Eff. : + 37.10%\n\n Passive Boost - 9/9\n Attack : + 14.00%\n Arts Intensity : + 70\n\n Freedom to Proselytize\n Rarity: 5 ✦\n Type: Arts Unit\n Base ATK: 411\n\n Stat 1 Boost - 9/9\n Will : + 124\n\n Stat 2 Boost - 9/9\n Treatment Bonus : + 37.10%\n\n Passive Boost - 9/9\n Main Attribute : + 14.00%\n When the wielder restores HP with their own Battle Skill, the Controlled Operator is restored for another [168 + Will x 1.4] Effect only triggers once every 15s .\n\n Glorious Memory\n Rarity: 6 ✦\n Type: Sword\n Base ATK: 490\n\n Stat 1 Boost - 9/9\n Agility : + 156\n\n Stat 2 Boost - 9/9\n Critical Rate : + 19.50%\n\n Passive Boost - 4/9\n ATK : + 11.20%\n When the wielder's skill applies Vulnerability , during the next ultimate cast within 30s , the wielder gains DMG Dealt +19.2% .\nMax stacks for effects of the same name: 3 . Duration of each stack is counted separately. Effect is only triggered once every 0.5s .\n\n Show Effects\n\n Golden Age\n Rarity: 6 ✦\n Type: Polearm\n Base ATK: 485\n\n Stat 1 Boost - 9/9\n Will : + 156\n\n Stat 2 Boost - 9/9\n Treatment Bonus : + 46.40%\n\n Passive Boost - 4/9\n Electric DMG Bonus : + 9.60%\n When the wielder's combo skill deals DMG, the wielder gains Treatment Efficiency +6.4% for 15s . When the wielder's combo skill grants HP Treatment to other operators in the team, the entire team gains Arts DMG Dealt +8.0% for 20s .\nEffects of the same name cannot stack.\n\n Grand Vision\n Rarity: 6 ✦\n Type: Sword\n Base ATK: 500\n\n Stat 1 Boost - 9/9\n Agility : + 156\n\n Stat 2 Boost - 9/9\n Attack : + 39.00%\n\n Passive Boost - 4/9\n Arts Intensity : + 48\n For 20s after the wielder applies Originium Crystals or Solidification the wielder gains Physical DMG dealt +57.6% during the next Battle Skill or Ultimate cast. Effects of the same name cannot stack.\n\n Show Effects\n\n Home Longing\n Rarity: 6 ✦\n Type: Handcannon\n Base ATK: 490\n\n Stat 1 Boost - 9/9\n Agility : + 156\n\n Stat 2 Boost - 9/9\n Cryo DMG Dealt : + 43.33%\n\n Passive Boost - 4/9\n ATK : + 11.20%\n For 20s after the wielder casts a combo skill, the wielder's next battle skill gains Cryo and Nature DMG Dealt +12.8% . Max stacks for effects of the same name: 2 . Duration of each stack is counted separately.\n\n Howling Guard\n Rarity: 4 ✦\n Type: Handcannon\n Base ATK: 341\n\n Stat 1 Boost - 9/9\n Intellect : + 93\n\n Stat 2 Boost - 9/9\n Attack : + 23.40%\n\n Passive Boost - 9/9\n After the wielder's Battle Skill hits the enemy, ATK +33.6% for 20s . Effects of the same name cannot stack.\n\n Hypernova Auto\n Rarity: 4 ✦\n Type: Arts Unit\n Base ATK: 341\n\n Stat 1 Boost - 9/9\n Intellect : + 93\n\n Stat 2 Boost - 9/9\n Arts DMG Bonus : + 26.00%\n\n Passive Boost - 9/9\n When the wielder's HP is above 80% , ATK +42% .\n\n Industry 0.1\n Rarity: 4 ✦\n Type: Greatsword\n Base ATK: 341\n\n Stat 1 Boost - 9/9\n Strength : + 93\n\n Stat 2 Boost - 9/9\n Attack : + 23.40%\n\n Passive Boost - 9/9\n After the wielder's Battle Skill hits the enemy, ATK +33.6% for 20s . Effects of the same name cannot stack.\n\n JET\n Rarity: 6 ✦\n Type: Polearm\n Base ATK: 500\n\n Stat 1 Boost - 9/9\n Main Attribute : + 132\n\n Stat 2 Boost - 9/9\n Attack : + 39.00%\n\n Passive Boost - 4/9\n Arts DMG Bonus : + 19.20%\n After the wielder casts a Battle Skill, the wielder gains Arts DMG dealt +19.2% for 15s . After the wielder casts a Combo Skill, Arts DMG dealt +19.2% for 15s . The two effects apply separately and do not stack with themselves.\n\n Show Effects\n\n Jiminy 12\n Rarity: 3 ✦\n Type: Arts Unit\n Base ATK: 283\n\n Stat 1 Boost - 9/9\n Main Attribute : + 79\n\n Passive Boost - 9/9\n Flat ATK : + 34\n\n Junction Point\n Rarity: 6 ✦\n Type: Arts Unit\n Base ATK: 490\n\n Stat 1 Boost - 9/9\n Intellect : + 156\n\n Stat 2 Boost - 9/9\n Ultimate Gain Eff. : + 46.40%\n\n Passive Boost - 4/9\n Nature DMG Bonus : + 11.20%\n When the wielder applies Arts Susceptibility or Arts Infliction with a combo skill, the wielder gains ATK +9.6% while other operators in the team gain ATK +2.4% . Duration: 20s .\nMax stacks for effects of the same name: 2 . Duration of each stack is counted separately.\n\n Show Effects\n\n Khravengger\n Rarity: 6 ✦\n Type: Greatsword\n Base ATK: 505\n\n Stat 1 Boost - 9/9\n Strength : + 156\n\n Stat 2 Boost - 9/9\n Attack : + 39.00%\n\n Passive Boost - 4/9\n All Skill DMG Bonus : + 32.00%\n When the wielder's Battle Skill applies Cryo Infliction , the wielder gains Cryo DMG dealt +16% for 15s . When the wielder deals Combo Skill DMG to an enemy with Cryo Infliction , the wielder gains Cryo DMG dealt +32% for 15s . The two effects apply seperately and do not stack with themselves.\n\n Show Effects\n\n Lone Barge\n Rarity: 6 ✦\n Type: Arts Unit\n Base ATK: 0\n\n Stat 1 Boost - 9/9\n Will : + 156\n\n Stat 2 Boost - 9/9\n ATK : + 39%\n\n Passive Boost - 4/9\n Electric DMG Bonus : + 25.60%\n When the wielder's battle skill consumes Arts Reactions, the wielder gains Battle Skill Electric DMG Dealt +32% for 20s .\nThis effect can reach 2 stacks.\nDuration of each stack is counted separately.\nThis effect only triggers once every 0.1s .\nAfter the wielder casts an ultimate, the wielder gains Battle Skill Electric DMG Dealt +64% for 25s . This effect cannot stack\n\n Long Road\n Rarity: 4 ✦\n Type: Handcannon\n Base ATK: 341\n\n Stat 1 Boost - 9/9\n Strength : + 93\n\n Stat 2 Boost - 9/9\n Arts DMG Bonus : + 26.00%\n\n Passive Boost - 9/9\n After the wielder casts a Combo Skill, ATK +33.6% for 20s . Effects of the same name cannot stack.\n\n Lupine Scarlet\n Rarity: 6 ✦\n Type: Sword\n Base ATK: 505\n\n Stat 1 Boost - 9/9\n Agility : + 156\n\n Stat 2 Boost - 9/9\n Critical Rate : + 19.50%\n\n Passive Boost - 4/9\n ATK : + 25.60%\n After the wielder's skill deals Critical DMG, the wielder gains 1 stack of Wolven Blood that grants Physical and Heat DMG Dealt +1.6% . Wolven Blood can reach 16 stacks. After reaching 16 stacks, the wielder gains another Physical and Heat DMG Dealt +38.4% for 20s . After the Dealt duration ends, all Wolven Blood stacks are removed.\n\n Monaihe\n Rarity: 5 ✦\n Type: Arts Unit\n Base ATK: 411\n\n Stat 1 Boost - 9/9\n Will : + 124\n\n Stat 2 Boost - 9/9\n Ultimate Gain Eff. : + 37.10%\n\n Passive Boost - 9/9\n Main Attribute : + 14.00%\n Arts Intensity : + 70\n\n Mountain Bearer\n Rarity: 6 ✦\n Type: Polearm\n Base ATK: 500\n\n Stat 1 Boost - 9/9\n Agility : + 156\n\n Stat 2 Boost - 9/9\n Physical DMG Bonus : + 43.30%\n\n Passive Boost - 4/9\n Against Vulnerability enemies, the wielder gains DMG dealt +32% . When the wielder's Battle Skill applies Vulnerability , the wielder gains All Attributes +12.8% for 15s . When the wielder's Battle Skill applies Physical Susceptibility , the wielder gains all attributes +12.8% for 15 s . Max stacks for effects of the same name: 2 . Duration of each stack is counted separately. Effect only triggers once every 0.1s .\n\n Show Effects\n\n Navigator\n Rarity: 6 ✦\n Type: Handcannon\n Base ATK: 490\n\n Stat 1 Boost - 9/9\n Intellect : + 156\n\n Stat 2 Boost - 9/9\n Cryo DMG Bonus : + 43.30%\n\n Passive Boost - 4/9\n Critical Rate : + 5.60%\n When Solidification or Corrosion is applied to enemies, the wielder gains Cryo DMG dealt and Nature DMG dealt +5.6% , and Critical Rate +3.2% for 15s . If this effect is triggered by the wielder, double the increase gained. Effects of the same name cannot stack.\n\n Show Effects\n\n Never Rest\n Rarity: 6 ✦\n Type: Sword\n Base ATK: 500\n\n Stat 1 Boost - 9/9\n Will : + 156\n\n Stat 2 Boost - 9/9\n Attack : + 39.00%\n\n Passive Boost - 4/9\n Physical DMG Bonus : + 25.60%\n After the wielder recovers SP with their own skills, the wielder gains Physical DMG dealt +8% while other Operators in the team gain Physical DMG dealt +4% for 30s . Max stacks for effects of the same name: 5 . Duration of each stack is counted separately. Effect only triggers once every 0.1s .\n\n OBJ Arts Identifier\n Rarity: 5 ✦\n Type: Arts Unit\n Base ATK: 411\n\n Stat 1 Boost - 9/9\n Intellect : + 124\n\n Stat 2 Boost - 9/9\n Arts Intensity : + 62\n\n Passive Boost - 9/9\n Max HP : + 28.00%\n After the wielder applies Arts Burst or Physical Status with their own Combo Skill, the entire team gains Heat DMG dealt and Electric DMG dealt +22.4% for 15s . Effects of the same name cannot stack.\n\n Show Effects\n\n OBJ Edge of Lightness\n Rarity: 5 ✦\n Type: Sword\n Base ATK: 411\n\n Stat 1 Boost - 9/9\n Agility : + 124\n\n Stat 2 Boost - 9/9\n Attack : + 31.20%\n\n Passive Boost - 9/9\n Sec. Attribute : + 14.00%\n After the wielder recovers SP by their own skill, the entire team gains Heat DMG dealt and Electric DMG dealt +8.4% for 20s . Max stacks for effects of the same name: 3 . Duration of each stack is counted separately.\n\n OBJ Heavy Burden\n Rarity: 5 ✦\n Type: Greatsword\n Base ATK: 411\n\n Stat 1 Boost - 9/9\n Strength : + 124\n\n Stat 2 Boost - 9/9\n Max HP : + 62.40%\n\n Passive Boost - 9/9\n Sec. Attribute : + 14.00%\n After the wielder applies Knocked Down or Weakened , DEF +50.4% for 15s . Effects of the same name cannot stack.\n\n Show Effects\n\n OBJ Razohorn\n Rarity: 5 ✦\n Type: Polearm\n Base ATK: 411\n\n Stat 1 Boost - 9/9\n Will : + 124\n\n Stat 2 Boost - 9/9\n Physical DMG Bonus : + 34.70%\n\n Passive Boost - 9/9\n To enemies with Cryo Infliction or Solidification , the wielder gains DMG dealt +22.4% . After consuming Solidification , ATK +33.6% for 15s . Effects of the same name cannot stack.\n\n Show Effects\n\n OBJ Velocitous\n Rarity: 5 ✦\n Type: Handcannon\n Base ATK: 411\n\n Stat 1 Boost - 9/9\n Agility : + 124\n\n Stat 2 Boost - 9/9\n Ultimate Gain Eff. : + 37.10%\n\n Passive Boost - 9/9\n Attack : + 14.00%\n After the wielder consumes an Arts Infliction , the wielder gains Nature DMG dealt +[14% x Stacks Consumed] for 20s . Effects of the same name cannot stack.\n\n Show Effects\n\n Oblivion\n Rarity: 6 ✦\n Type: Arts Unit\n Base ATK: 495\n\n Stat 1 Boost - 9/9\n Intellect : + 156\n\n Stat 2 Boost - 9/9\n Arts DMG Bonus : + 43.30%\n\n Passive Boost - 4/9\n Critical Rate : + 8.00%\n After the wielder casts an Ultimate, the wielder gains Arts DMG dealt +38.4% for 15s . After the wielder casts a Combo Skill, the wielder gains Arts DMG dealt +19.2% for 15s . The two effects apply separately and do not stack with themselves.\n\n Show Effects\n\n Opero 77\n Rarity: 3 ✦\n Type: Polearm\n Base ATK: 283\n\n Stat 1 Boost - 9/9\n Main Attribute : + 79\n\n Passive Boost - 9/9\n Flat ATK : + 34\n\n Opus: Etch Figure\n Rarity: 6 ✦\n Type: Arts Unit\n Base ATK: 485\n\n Stat 1 Boost - 9/9\n Will : + 156\n\n Stat 2 Boost - 9/9\n Nature DMG Bonus : + 43.30%\n\n Passive Boost - 4/9\n Attack : + 11.20%\n After the wielder applies a Nature Infliction with their own Battle Skill, the team gains Arts DMG dealt +8% for 15s . For every enemy suffering from Nature Infliction applied by the said Battle Skill, the team gains Bonus Arts DMG dealt +3.2% , up to a max of +9.6% . Effects of the same name cannot stack.\n\n Show Effects\n\n Opus: The Living\n Rarity: 5 ✦\n Type: Handcannon\n Base ATK: 411\n\n Stat 1 Boost - 9/9\n Agility : + 124\n\n Stat 2 Boost - 9/9\n Arts DMG Bonus : + 34.70%\n\n Passive Boost - 9/9\n Critical Rate : + 8.40%\n After the wielder applies an Arts Reaction, ATK 21% for 20s . Max stacks for effects of the same name: 2 . Duration of each stack is counted separately. Effect only triggers once every 0.1s .\n\n Pathfinder's Beacon\n Rarity: 4 ✦\n Type: Polearm\n Base ATK: 341\n\n Stat 1 Boost - 9/9\n Agility : + 93\n\n Stat 2 Boost - 9/9\n Attack : + 23.40%\n\n Passive Boost - 9/9\n When the wielder's HP is above 80% , ATK + 42% .\n\n Peco 5\n Rarity: 3 ✦\n Type: Handcannon\n Base ATK: 283\n\n Stat 1 Boost - 9/9\n Main Attribute : + 79\n\n Passive Boost - 9/9\n Flat ATK : + 34\n\n Phantom Pain\n Rarity: 6 ✦\n Type: Greatsword\n Base ATK: 490\n\n Stat 1 Boost - 9/9\n Strength : + 156\n\n Stat 2 Boost - 9/9\n Arts Intensity : + 78\n\n Passive Boost - 4/9\n Physical DMG Bonus : + 11.20%\n When the wielder casts battle skills or combo skills, the wielder gains Physical DMG Dealt +15.4% for 20s .\n\n Quencher\n Rarity: 4 ✦\n Type: Greatsword\n Base ATK: 341\n\n Stat 1 Boost - 9/9\n Will : + 93\n\n Stat 2 Boost - 9/9\n Max HP : + 46.80%\n\n Passive Boost - 9/9\n After the wielder performs a Final Strike on the enemy, ATK +33.6% for 10s . Effects of the same name cannot stack.\n\n Show Effects\n\n Rapid Ascent\n Rarity: 6 ✦\n Type: Sword\n Base ATK: 495\n\n Stat 1 Boost - 9/9\n Main Attribute : + 132\n\n Stat 2 Boost - 9/9\n Critical Rate : + 19.50%\n\n Passive Boost - 4/9\n Battle Skills and Ultimates gain Physical DMG dealt +24% . Against staggered enemies, Battle Skills and Ultimates also gain DMG dealt +56% .\n\n Rational Farewell\n Rarity: 5 ✦\n Type: Handcannon\n Base ATK: 411\n\n Stat 1 Boost - 9/9\n Strength : + 124\n\n Stat 2 Boost - 9/9\n Heat DMG Bonus : + 34.70%\n\n Passive Boost - 9/9\n Battle Skill DMG : + 28.00%\n After the wielder's combo skil applies Arts Burst or Combusted , ATK +44.8% for 15s . Effects of the same name cannot stack.\n\n Show Effects\n\n Seeker of Dark Lung\n Rarity: 5 ✦\n Type: Greatsword\n Base ATK: 411\n\n Stat 1 Boost - 9/9\n Strength : + 124\n\n Stat 2 Boost - 9/9\n Ultimate Gain Eff. : + 37.10%\n\n Passive Boost - 9/9\n Main Attribute : + 14.00%\n After the wielder applies an Arts Burst, ATK +16.8% for 30s . Max stacks for effects of the same name: 3 . Duration of each stack is counted separately. Effect only triggers once every 0.1s .\n\n Stanza of Memorials\n Rarity: 5 ✦\n Type: Arts Unit\n Base ATK: 411\n\n Stat 1 Boost - 9/9\n Intellect : + 124\n\n Stat 2 Boost - 9/9\n Attack : + 31.20%\n\n Passive Boost - 9/9\n Max HP : + 28.00%\n After the wielder casts an Ultimate, Operators whose elements differ from the wielder gain ATK +22.4% for 20s . Effects of the same name cannot stack.\n\n Sundered Prince\n Rarity: 6 ✦\n Type: Greatsword\n Base ATK: 490\n\n Stat 1 Boost - 9/9\n Strength : + 156\n\n Stat 2 Boost - 9/9\n Critical Rate : + 19.50%\n\n Passive Boost - 4/9\n After the wielder performs a Final Strike on the enemy, ATK +16% for 8s . If the wielder is also the Controlled Operator, double the ATK increase gained and buff the Final Strike so that it deals Stagger +19.2% to the enemy. Effects of the same name cannot stack.\n\n Show Effects\n\n Sundering Steel\n Rarity: 5 ✦\n Type: Sword\n Base ATK: 411\n\n Stat 1 Boost - 9/9\n Agility : + 124\n\n Stat 2 Boost - 9/9\n Physical DMG Bonus : + 34.70%\n\n Passive Boost - 9/9\n Attack : + 14.00%\n After the wielder deals a Physical Status , ATK +21% for 20s . Max stacks for effects of the same name: 2 . Duration of each stack is counted separately. Effect only triggers once every 0.1s .\n\n Tarr 11\n Rarity: 3 ✦\n Type: Sword\n Base ATK: 283\n\n Stat 1 Boost - 9/9\n Main Attribute : + 79\n\n Passive Boost - 9/9\n Flat ATK : + 34\n\n Thermite Cutter\n Rarity: 6 ✦\n Type: Sword\n Base ATK: 490\n\n Stat 1 Boost - 9/9\n Will : + 156\n\n Stat 2 Boost - 9/9\n Attack : + 39.00%\n\n Passive Boost - 4/9\n Attack : + 16.00%\n After the wielder's skill recovers SP or grants a Link state, the entire team gains ATK +8% for 20s . Max stacks for effects of the same name: 2 . Duration of each stack counted separately.\n\n Show Effects\n\n Thunderberge\n Rarity: 6 ✦\n Type: Greatsword\n Base ATK: 495\n\n Stat 1 Boost - 9/9\n Strength : + 156\n\n Stat 2 Boost - 9/9\n Max HP : + 78.00%\n\n Passive Boost - 4/9\n Shield applied +38.4% . When the wielder restores HP with their own Combo Skill, grant the Controlled Operator an additional [11.2 x Wielder's Max HP] Shield for 15s . Effect only triggers once every 15s .\n\n Show Effects\n\n Twelve Questions\n Rarity: 5 ✦\n Type: Sword\n Base ATK: 411\n\n Stat 1 Boost - 9/9\n Agility : + 124\n\n Stat 2 Boost - 9/9\n Attack : + 31.20%\n\n Passive Boost - 9/9\n Sec. Attribute : + 14.00%\n After the wielder consumes an Arts Reaction, ATK +21% for 20s . Max stacks for effects of the same name: 2 . Duration of each stack is counted separately.\n\n Type 42: Solemn Phalanx\n Rarity: 6 ✦\n Type: Arts Unit\n Base ATK: 505\n\n Stat 1 Boost - 9/9\n Intellect : + 156\n\n Stat 2 Boost - 9/9\n Ultimate Gain Eff. : + 46.40%\n\n Passive Boost - 4/9\n ATK : + 25.60%\n Wielder's Intellect ≥ Will : When the wielder applies Arts Infliction with their own skill, the wielder gains Arts DMG Dealt +32.0% for 20s ; when the wielder applies Arts Susceptibility with their own skill, the wielder gains ATK +32.0% for 20s ;\n Wielder's Will ＞ Intellect : When the wielder applies Arts Burst with their own skill, the target enemy suffers Arts DMG Taken +9.6% for 25s ; when the wielder applies Arts Susceptibility with their own skill, the target enemy suffers Arts DMG Taken +9.6% for 25s .\nEffects of the same name cannot stack. The aforementioned attributes only include effects from the wielder's level, talents, potentials, and attribute bonuses provided by equipped gear and weapons.\n\n Show Effects\n\n Umbral Torch\n Rarity: 6 ✦\n Type: Sword\n Base ATK: 490\n\n Stat 1 Boost - 9/9\n Intellect : + 156\n\n Stat 2 Boost - 9/9\n Heat DMG Bonus : + 43.30%\n\n Passive Boost - 4/9\n Attack : + 11.20%\n Whenever Combustion or Corrosion is applied to an enemy, the wielder gains Heat DMG dealt and Nature DMG dealt +12.8% for 20s .. Max stacks for effects of the same name: 2 . Duration of each stack is counted seperately. Effect only triggers once every 0.1s .\n\n Show Effects\n\n Valiant\n Rarity: 6 ✦\n Type: Polearm\n Base ATK: 495\n\n Stat 1 Boost - 9/9\n Agility : + 156\n\n Stat 2 Boost - 9/9\n Physical DMG Bonus : + 43.30%\n\n Passive Boost - 4/9\n Attack : + 16.00%\n When the wielder applies Physical Statuses , the wielder also deals another hit of Physical DMG equal to 192% of the wielder's ATK.\n\n Show Effects\n\n Wave Tide\n Rarity: 4 ✦\n Type: Sword\n Base ATK: 341\n\n Stat 1 Boost - 9/9\n Intellect : + 93\n\n Stat 2 Boost - 9/9\n Attack : + 23.40%\n\n Passive Boost - 9/9\n After the wielder casts a Combo Skill, ATK +33.6% for 20s . Effects of the same name cannot stack.\n\n Wedge\n Rarity: 6 ✦\n Type: Handcannon\n Base ATK: 500\n\n Stat 1 Boost - 9/9\n Main Attribute : + 132\n\n Stat 2 Boost - 9/9\n Critical Rate : + 19.50%\n\n Passive Boost - 4/9\n Arts DMG Bonus : + 19.20%\n After the wielder casts a Battle Skill, the wielder gains Arts DMG dealt +12.8% for 15s . After the wielder applies an Arts Reaction with their own Battle Skill, the wielder gains Arts DMG dealt +25.6% for 15s . The two effects apply separately and do not stack with themselves.\n\n Show Effects\n\n White Night Nova\n Rarity: 6 ✦\n Type: Sword\n Base ATK: 505\n\n Stat 1 Boost - 9/9\n Main Attribute : + 132\n\n Stat 2 Boost - 9/9\n Arts Intensity : + 78\n\n Passive Boost - 4/9\n Arts DMG Bonus : + 19.20%\n After the wielder applies Combustion or Electrification , the wielder gains Arts DMG dealt +19.2% and Arts Intensity +40 for 15s . Effects of the same name cannot stack.\n\n Show Effects\n\n Wild Wanderer\n Rarity: 5 ✦\n Type: Arts Unit\n Base ATK: 411\n\n Stat 1 Boost - 9/9\n Intellect : + 124\n\n Stat 2 Boost - 9/9\n Electric DMG Bonus : + 34.70%\n\n Passive Boost - 9/9\n Arts Intensity : + 28\n After the wielder applies Electrification , the team gains Physical DMG dealt and Electric DMG dealt +22.4% for 15s . Effects of the same name cannot stack.\n\n Show Effects",
+  "text": "Weapons | Arknights: Endfield\n \n\n Arknights: Endfield\n Home Database Characters Gear Weapons\n Tier Lists Tier List Team Tier List\n Guides Guides\n Tools Team Builder Adv. Team Builder Rotation Builder Gacha Simulator Material Planner Character Comparison Patch Timeline\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Arknights: Endfield\n /\n Weapons List\n\n Arknights: Endfield Weapons List\n List of all Weapons available in Arknights: Endfield.\n Last updated: 09/August/2026\n\n Arknights: Endfield Weapons\n Showing 76 weapons\n For 3✦ , 4✦ and 5✦ Weapons, we're showing their stat and passives boosts maxed so 9/9 , since getting their dupes won't be a problem. Still, for the 6✦ Weapons, only the stat boosts are shown at 9/9, because you can achieve that just by leveling the weapon; without dupes though, passive boost will be locked at 4/9 and that's what we're showing below.\n\n Filters\n\n Aggeloslayer\n Rarity: 4 ✦\n Type: Polearm\n Base ATK: 341\n\n Stat 1 Boost - 9/9\n Will : + 93\n\n Stat 2 Boost - 9/9\n Arts DMG Bonus : + 26.00%\n\n Passive Boost - 9/9\n After the wielder's Battle Skill hits the enemy, ATK +33.6% for 20s . Effects of the same name cannot stack.\n\n Amaranthine Tassel\n Rarity: 6 ✦\n Type: Greatsword\n Base ATK: 510\n\n Stat 1 Boost - 9/9\n Strength : + 156\n\n Stat 2 Boost - 9/9\n ATK : + 39%\n\n Passive Boost - 4/9\n Physical DMG Bonus : + 25.60%\n When the wielder applies Physical Susceptibility , the wielder gains Arts Intensity +48 for 20s . When the wielder applies Crush , the wielder gains Physical DMG Dealt +[14.4% + (4.8% x Max Number of Vulnerability stacks consumed from one enemy)] for 30s .\n\n Show Effects\n\n Ancient Canal\n Rarity: 5 ✦\n Type: Greatsword\n Base ATK: 411\n\n Stat 1 Boost - 9/9\n Strength : + 124\n\n Stat 2 Boost - 9/9\n Arts Intensity : + 62\n\n Passive Boost - 9/9\n Arts Intensity : + 28\n After the wielder consumes Vulnerability stack(s), the wielder gains Physical DMG dealt +[14% x stacks consumed] for 20s . Effects of the same name cannot stack.\n\n Show Effects\n\n Artzy Tyrannical\n Rarity: 6 ✦\n Type: Handcannon\n Base ATK: 505\n\n Stat 1 Boost - 9/9\n Intellect : + 156\n\n Stat 2 Boost - 9/9\n Critical Rate : + 19.50%\n\n Passive Boost - 4/9\n Cryo DMG Bonus : + 25.60%\n After the wielder scores a critical hit with a Battle Skill or Combo Skill, the wielder gains Cryo DMG dealt +22.4% for 30s . Max stacks for effects of the same name: 3 . Duration of each stack is counted separately. Effect only triggers once every 0.1s .\n\n Aspirant\n Rarity: 5 ✦\n Type: Sword\n Base ATK: 411\n\n Stat 1 Boost - 9/9\n Agility : + 124\n\n Stat 2 Boost - 9/9\n Physical DMG Bonus : + 34.70%\n\n Passive Boost - 9/9\n Ultimate DMG Bonus : + 44.80%\n For 30s after the wielder applies Lifted , the wielder gains Physical DMG dealt +33.6% during the next Ultimate cast. Max stacks for effects of the same name: 3 . Duration of each stack is counted separately. Effect only triggers once every 0.5s .\n\n Show Effects\n\n Beacon of Duty\n Rarity: 6 ✦\n Type: Polearm\n Base ATK: 485\n\n Stat 1 Boost - 9/9\n Agility : + 156\n\n Stat 2 Boost - 9/9\n Ultimate Gain Eff. : + 46.40%\n\n Passive Boost - 4/9\n Heat DMG Bonus : + 11.20%\n When the wielder's skill applies Heat Infliction , the wielder gains Physical and Heat DMG Dealt +12.8% for 20s . When the wielder's skill applies Heat Susceptibility , the entire team gains Physical and Heat DMG Dealt +6.4% for 30s .\n\n Show Effects\n\n Bedazzling Night Debut\n Rarity: 6 ✦\n Type: Polearm\n Base ATK: 500\n\n Stat 1 Boost - 9/9\n Will : + 156\n\n Stat 2 Boost - 9/9\n Treatment Bonus : + 46.40%\n\n Passive Boost - 4/9\n Main Attribute : + 25.60%\n When the wielder's skill grants HP Treatment to other operators in the team, the operator receiving the wielder's treatment also gains ATK +5.6% for 20s .\nMax stacks for effects of the same name: 4 . Duration of each stack is counted separately. Each operator can gain this effect at most once every 0.1s .\n\n Blessing of Lustrous Carmine\n Rarity: 6 ✦\n Type: Polearm\n Base ATK: 500\n\n Stat 1 Boost - 9/9\n Agility : + 156\n\n Stat 2 Boost - 9/9\n Heat DMG Bonus : + 43.30%\n\n Passive Boost - 4/9\n Ultimate Gain Eff. : + 28.80%\n When the wielder’s skill recovers SP, the entire team gains ATK +9.6% for 20s . When the wielder’s skill applies Heat Infliction , the entire team gains Heat DMG Dealt +9.6% for 20s .\nThe two effects apply separately and do not stack with themselves.\n\n Brigand's Calling\n Rarity: 6 ✦\n Type: Handcannon\n Base ATK: 505\n\n Stat 1 Boost - 9/9\n Agility : + 156\n\n Stat 2 Boost - 9/9\n Attack : + 39%\n\n Passive Boost - 4/9\n Cryo DMG Bonus : + 25.60%\n When the wielder applies Cryo Infliction via battle skills or ultimates, the wielder gains Cryo DMG Dealt +32% for 20s .\nWhen the wielder's battle skill or ultimate applies Arts Susceptibility , the target enemy suffers Arts DMG Taken +9.6% for 20s . The two effects apply separately and do not stack with themselves.\n\n Show Effects\n\n Chimeric Justice\n Rarity: 5 ✦\n Type: Polearm\n Base ATK: 411\n\n Stat 1 Boost - 9/9\n Strength : + 124\n\n Stat 2 Boost - 9/9\n Ultimate Gain Eff. : + 37.10%\n\n Passive Boost - 9/9\n Critical Rate : + 8.40%\n After the wielder applies Vulnerability to an enemy with no Vulnerability stacks, ATK +42% for 15s . Effects of the same name cannot stack.\n\n Show Effects\n\n Chivalric Virtues\n Rarity: 6 ✦\n Type: Arts Unit\n Base ATK: 485\n\n Stat 1 Boost - 9/9\n Will : + 156\n\n Stat 2 Boost - 9/9\n Max HP : + 78.00%\n\n Passive Boost - 4/9\n Treatment Efficiency +16% . After the wielder gives HP Treatment with their own skill, the entire team gains ATK +14.4% for 15s . Effects of the same name cannot stack.\n\n Clannibal\n Rarity: 6 ✦\n Type: Handcannon\n Base ATK: 490\n\n Stat 1 Boost - 9/9\n Main Attribute : + 132\n\n Stat 2 Boost - 9/9\n Arts DMG Bonus : + 43.30%\n\n Passive Boost - 4/9\n Arts DMG Bonus : + 19.20%\n After the wielder consumes an Arts Reaction, target enemy suffers Arts DMG taken +16% (for the specified element) for 15s . Effect only triggers once every 25s .\n\n Show Effects\n\n Cohesive Traction\n Rarity: 5 ✦\n Type: Polearm\n Base ATK: 411\n\n Stat 1 Boost - 9/9\n Will : + 124\n\n Stat 2 Boost - 9/9\n Electric DMG Bonus : + 34.70%\n\n Passive Boost - 9/9\n Combo Skill DMG Bonus : + 28.00%\n For 30s after the wielder casts a Combo Skill, the wielder gains Electric DMG dealt +28% during the next Battle Skill cast. Max stacks for effects of the same name: 3 . Duration of each stack is counted separately.\n\n Contingent Measure\n Rarity: 4 ✦\n Type: Sword\n Base ATK: 341\n\n Stat 1 Boost - 9/9\n Agility : + 93\n\n Stat 2 Boost - 9/9\n Physical DMG Bonus : + 26.00%\n\n Passive Boost - 9/9\n After the wielder's Battle Skill hits the enemy, ATK +33.6% for 20s . Effects of the same name cannot stack.\n\n Darhoff 7\n Rarity: 3 ✦\n Type: Greatsword\n Base ATK: 283\n\n Stat 1 Boost - 9/9\n Main Attribute : + 79\n\n Passive Boost - 9/9\n Flat ATK : + 34\n\n Delivery Guaranteed\n Rarity: 6 ✦\n Type: Arts Unit\n Base ATK: 500\n\n Stat 1 Boost - 9/9\n Will : + 156\n\n Stat 2 Boost - 9/9\n Ultimate Gain Eff. : + 46.40%\n\n Passive Boost - 4/9\n Nature DMG Bonus : + 25.60%\n After the wielder applies Lifted with their own Combo Skill, the team gains Arts DMG dealt +19.2% for 15s . For every enemy Lifted , the team gains bonus Arts DMG dealt +5.6% , up to a max of 16.8% . Effects of the same name cannot stack.\n\n Show Effects\n\n Detonation Unit\n Rarity: 6 ✦\n Type: Arts Unit\n Base ATK: 490\n\n Stat 1 Boost - 9/9\n Main Attribute : + 132\n\n Stat 2 Boost - 9/9\n Arts Intensity : + 78\n\n Passive Boost - 4/9\n Sec. Attribute : + 16.00%\n After the wielder applies an Arts Burst, target enemy suffers Arts DMG taken +14.4% for 15s . Effects of the same name cannot stack.\n\n Show Effects\n\n Dreams of the Starry Beach\n Rarity: 6 ✦\n Type: Arts Unit\n Base ATK: 495\n\n Stat 1 Boost - 9/9\n Intellect : + 156\n\n Stat 2 Boost - 9/9\n Treatment Bonus : + 46.40%\n\n Passive Boost - 4/9\n Sec. Attribute : + 25.60%\n After the wielder consumes Corrosion , target enemy suffers Arts DMG taken +16% for 25s . Effects of the same name cannot stack.\n\n Show Effects\n\n Eminent Repute\n Rarity: 6 ✦\n Type: Sword\n Base ATK: 490\n\n Stat 1 Boost - 9/9\n Main Attribute : + 132\n\n Stat 2 Boost - 9/9\n Physical DMG Bonus : + 43.30%\n\n Passive Boost - 4/9\n Attack : + 16.00%\n After the wielder consumes Vulnerability stack(s), ATK + [8% + 4% x Stacks Consumed] while other Operators in the team gain half of this buff for 20s . Effects of the same name cannot stack.\n\n Show Effects\n\n Exemplar\n Rarity: 6 ✦\n Type: Greatsword\n Base ATK: 500\n\n Stat 1 Boost - 9/9\n Main Attribute : + 132\n\n Stat 2 Boost - 9/9\n Attack : + 39.00%\n\n Passive Boost - 4/9\n Physical DMG Bonus : + 16.00%\n After the wielder's Battle Skill or Ultimate hits the enemy, the wielder gains Physical DMG dealt +16% for 30s . Max stacks for effects of the same name: 3 . Duration of each stack is counted separately. Effect only triggers once every 0.1s .\n\n Finchaser 3.0\n Rarity: 5 ✦\n Type: Sword\n Base ATK: 411\n\n Stat 1 Boost - 9/9\n Strength : + 124\n\n Stat 2 Boost - 9/9\n Cryo DMG Bonus : + 34.70%\n\n Passive Boost - 9/9\n Attack : + 14.00%\n After the wielder's Battle Skill applies Solidification , target enemy suffers Cryo DMG taken +19.6% for 15s .\n\n Show Effects\n\n Finishing Call\n Rarity: 5 ✦\n Type: Greatsword\n Base ATK: 411\n\n Stat 1 Boost - 9/9\n Strength : + 124\n\n Stat 2 Boost - 9/9\n Max HP : + 62.40%\n\n Passive Boost - 9/9\n Sec. Attribute : + 14.00%\n Combo Skill HP Treatment effect +56% .\n\n Flickers in the Mist\n Rarity: 6 ✦\n Type: Arts Unit\n Base ATK: 490\n\n Stat 1 Boost - 9/9\n Will : + 156\n\n Stat 2 Boost - 9/9\n Electric DMG Bonus : + 43.30%\n\n Passive Boost - 4/9\n ATK : + 11.20%\n When the wielder gains Electric Amp the wielder also gains Electric DMG Dealt +8.8% for 30s .\nMax stacks for effects of the same name: 3 .\nDuration of each stack is counted separately.\nThis effect only triggers once every 0.1s .\n\n Show Effects\n\n Fluorescent Roc\n Rarity: 4 ✦\n Type: Arts Unit\n Base ATK: 341\n\n Stat 1 Boost - 9/9\n Will : + 93\n\n Stat 2 Boost - 9/9\n Attack : + 23.40%\n\n Passive Boost - 9/9\n After the wielder's Battle Skill hits the enemy, ATK +33.6% for 20s . Effects of the same name cannot stack.\n\n Forgeborn Scathe\n Rarity: 6 ✦\n Type: Sword\n Base ATK: 510\n\n Stat 1 Boost - 9/9\n Intellect : + 156\n\n Stat 2 Boost - 9/9\n Attack : + 39.00%\n\n Passive Boost - 4/9\n Heat DMG Bonus : + 25.60%\n After the wielder casts an Ultimate, the wielder gains Basic Attack DMG dealt +120% for 20s . Effects of the same name cannot stack.\n\n Former Finery\n Rarity: 6 ✦\n Type: Greatsword\n Base ATK: 495\n\n Stat 1 Boost - 9/9\n Will : + 156\n\n Stat 2 Boost - 9/9\n Max HP : + 78.00%\n\n Passive Boost - 4/9\n Treatment Efficiency +16% . When a Protected Operator takes DMG, the wielder restores the said Operator's HP by [134 + Will x 1.12] . Effect only triggers once every 15s .\n\n Fortmaker\n Rarity: 5 ✦\n Type: Sword\n Base ATK: 411\n\n Stat 1 Boost - 9/9\n Intellect : + 124\n\n Stat 2 Boost - 9/9\n Ultimate Gain Eff. : + 37.10%\n\n Passive Boost - 9/9\n Attack : + 14.00%\n Arts Intensity : + 70\n\n Freedom to Proselytize\n Rarity: 5 ✦\n Type: Arts Unit\n Base ATK: 411\n\n Stat 1 Boost - 9/9\n Will : + 124\n\n Stat 2 Boost - 9/9\n Treatment Bonus : + 37.10%\n\n Passive Boost - 9/9\n Main Attribute : + 14.00%\n When the wielder restores HP with their own Battle Skill, the Controlled Operator is restored for another [168 + Will x 1.4] Effect only triggers once every 15s .\n\n Glorious Memory\n Rarity: 6 ✦\n Type: Sword\n Base ATK: 490\n\n Stat 1 Boost - 9/9\n Agility : + 156\n\n Stat 2 Boost - 9/9\n Critical Rate : + 19.50%\n\n Passive Boost - 4/9\n ATK : + 11.20%\n When the wielder's skill applies Vulnerability , during the next ultimate cast within 30s , the wielder gains DMG Dealt +19.2% .\nMax stacks for effects of the same name: 3 . Duration of each stack is counted separately. Effect is only triggered once every 0.5s .\n\n Show Effects\n\n Golden Age\n Rarity: 6 ✦\n Type: Polearm\n Base ATK: 485\n\n Stat 1 Boost - 9/9\n Will : + 156\n\n Stat 2 Boost - 9/9\n Treatment Bonus : + 46.40%\n\n Passive Boost - 4/9\n Electric DMG Bonus : + 9.60%\n When the wielder's combo skill deals DMG, the wielder gains Treatment Efficiency +6.4% for 15s . When the wielder's combo skill grants HP Treatment to other operators in the team, the entire team gains Arts DMG Dealt +8.0% for 20s .\nEffects of the same name cannot stack.\n\n Grand Vision\n Rarity: 6 ✦\n Type: Sword\n Base ATK: 500\n\n Stat 1 Boost - 9/9\n Agility : + 156\n\n Stat 2 Boost - 9/9\n Attack : + 39.00%\n\n Passive Boost - 4/9\n Arts Intensity : + 48\n For 20s after the wielder applies Originium Crystals or Solidification the wielder gains Physical DMG dealt +57.6% during the next Battle Skill or Ultimate cast. Effects of the same name cannot stack.\n\n Show Effects\n\n Home Longing\n Rarity: 6 ✦\n Type: Handcannon\n Base ATK: 490\n\n Stat 1 Boost - 9/9\n Agility : + 156\n\n Stat 2 Boost - 9/9\n Cryo DMG Dealt : + 43.33%\n\n Passive Boost - 4/9\n ATK : + 11.20%\n For 20s after the wielder casts a combo skill, the wielder's next battle skill gains Cryo and Nature DMG Dealt +12.8% . Max stacks for effects of the same name: 2 . Duration of each stack is counted separately.\n\n Howling Guard\n Rarity: 4 ✦\n Type: Handcannon\n Base ATK: 341\n\n Stat 1 Boost - 9/9\n Intellect : + 93\n\n Stat 2 Boost - 9/9\n Attack : + 23.40%\n\n Passive Boost - 9/9\n After the wielder's Battle Skill hits the enemy, ATK +33.6% for 20s . Effects of the same name cannot stack.\n\n Hypernova Auto\n Rarity: 4 ✦\n Type: Arts Unit\n Base ATK: 341\n\n Stat 1 Boost - 9/9\n Intellect : + 93\n\n Stat 2 Boost - 9/9\n Arts DMG Bonus : + 26.00%\n\n Passive Boost - 9/9\n When the wielder's HP is above 80% , ATK +42% .\n\n Industry 0.1\n Rarity: 4 ✦\n Type: Greatsword\n Base ATK: 341\n\n Stat 1 Boost - 9/9\n Strength : + 93\n\n Stat 2 Boost - 9/9\n Attack : + 23.40%\n\n Passive Boost - 9/9\n After the wielder's Battle Skill hits the enemy, ATK +33.6% for 20s . Effects of the same name cannot stack.\n\n JET\n Rarity: 6 ✦\n Type: Polearm\n Base ATK: 500\n\n Stat 1 Boost - 9/9\n Main Attribute : + 132\n\n Stat 2 Boost - 9/9\n Attack : + 39.00%\n\n Passive Boost - 4/9\n Arts DMG Bonus : + 19.20%\n After the wielder casts a Battle Skill, the wielder gains Arts DMG dealt +19.2% for 15s . After the wielder casts a Combo Skill, Arts DMG dealt +19.2% for 15s . The two effects apply separately and do not stack with themselves.\n\n Show Effects\n\n Jiminy 12\n Rarity: 3 ✦\n Type: Arts Unit\n Base ATK: 283\n\n Stat 1 Boost - 9/9\n Main Attribute : + 79\n\n Passive Boost - 9/9\n Flat ATK : + 34\n\n Junction Point\n Rarity: 6 ✦\n Type: Arts Unit\n Base ATK: 490\n\n Stat 1 Boost - 9/9\n Intellect : + 156\n\n Stat 2 Boost - 9/9\n Ultimate Gain Eff. : + 46.40%\n\n Passive Boost - 4/9\n Nature DMG Bonus : + 11.20%\n When the wielder applies Arts Susceptibility or Arts Infliction with a combo skill, the wielder gains ATK +9.6% while other operators in the team gain ATK +2.4% . Duration: 20s .\nMax stacks for effects of the same name: 2 . Duration of each stack is counted separately.\n\n Show Effects\n\n Khravengger\n Rarity: 6 ✦\n Type: Greatsword\n Base ATK: 505\n\n Stat 1 Boost - 9/9\n Strength : + 156\n\n Stat 2 Boost - 9/9\n Attack : + 39.00%\n\n Passive Boost - 4/9\n All Skill DMG Bonus : + 32.00%\n When the wielder's Battle Skill applies Cryo Infliction , the wielder gains Cryo DMG dealt +16% for 15s . When the wielder deals Combo Skill DMG to an enemy with Cryo Infliction , the wielder gains Cryo DMG dealt +32% for 15s . The two effects apply seperately and do not stack with themselves.\n\n Show Effects\n\n Lone Barge\n Rarity: 6 ✦\n Type: Arts Unit\n Base ATK: 0\n\n Stat 1 Boost - 9/9\n Will : + 156\n\n Stat 2 Boost - 9/9\n ATK : + 39%\n\n Passive Boost - 4/9\n Electric DMG Bonus : + 25.60%\n When the wielder's battle skill consumes Arts Reactions, the wielder gains Battle Skill Electric DMG Dealt +32% for 20s .\nThis effect can reach 2 stacks.\nDuration of each stack is counted separately.\nThis effect only triggers once every 0.1s .\nAfter the wielder casts an ultimate, the wielder gains Battle Skill Electric DMG Dealt +64% for 25s . This effect cannot stack\n\n Long Road\n Rarity: 4 ✦\n Type: Handcannon\n Base ATK: 341\n\n Stat 1 Boost - 9/9\n Strength : + 93\n\n Stat 2 Boost - 9/9\n Arts DMG Bonus : + 26.00%\n\n Passive Boost - 9/9\n After the wielder casts a Combo Skill, ATK +33.6% for 20s . Effects of the same name cannot stack.\n\n Lupine Scarlet\n Rarity: 6 ✦\n Type: Sword\n Base ATK: 505\n\n Stat 1 Boost - 9/9\n Agility : + 156\n\n Stat 2 Boost - 9/9\n Critical Rate : + 19.50%\n\n Passive Boost - 4/9\n ATK : + 25.60%\n After the wielder's skill deals Critical DMG, the wielder gains 1 stack of Wolven Blood that grants Physical and Heat DMG Dealt +1.6% . Wolven Blood can reach 16 stacks. After reaching 16 stacks, the wielder gains another Physical and Heat DMG Dealt +38.4% for 20s . After the Dealt duration ends, all Wolven Blood stacks are removed.\n\n Monaihe\n Rarity: 5 ✦\n Type: Arts Unit\n Base ATK: 411\n\n Stat 1 Boost - 9/9\n Will : + 124\n\n Stat 2 Boost - 9/9\n Ultimate Gain Eff. : + 37.10%\n\n Passive Boost - 9/9\n Main Attribute : + 14.00%\n Arts Intensity : + 70\n\n Mountain Bearer\n Rarity: 6 ✦\n Type: Polearm\n Base ATK: 500\n\n Stat 1 Boost - 9/9\n Agility : + 156\n\n Stat 2 Boost - 9/9\n Physical DMG Bonus : + 43.30%\n\n Passive Boost - 4/9\n Against Vulnerability enemies, the wielder gains DMG dealt +32% . When the wielder's Battle Skill applies Vulnerability , the wielder gains All Attributes +12.8% for 15s . When the wielder's Battle Skill applies Physical Susceptibility , the wielder gains all attributes +12.8% for 15 s . Max stacks for effects of the same name: 2 . Duration of each stack is counted separately. Effect only triggers once every 0.1s .\n\n Show Effects\n\n Navigator\n Rarity: 6 ✦\n Type: Handcannon\n Base ATK: 490\n\n Stat 1 Boost - 9/9\n Intellect : + 156\n\n Stat 2 Boost - 9/9\n Cryo DMG Bonus : + 43.30%\n\n Passive Boost - 4/9\n Critical Rate : + 5.60%\n When Solidification or Corrosion is applied to enemies, the wielder gains Cryo DMG dealt and Nature DMG dealt +5.6% , and Critical Rate +3.2% for 15s . If this effect is triggered by the wielder, double the increase gained. Effects of the same name cannot stack.\n\n Show Effects\n\n Never Rest\n Rarity: 6 ✦\n Type: Sword\n Base ATK: 500\n\n Stat 1 Boost - 9/9\n Will : + 156\n\n Stat 2 Boost - 9/9\n Attack : + 39.00%\n\n Passive Boost - 4/9\n Physical DMG Bonus : + 25.60%\n After the wielder recovers SP with their own skills, the wielder gains Physical DMG dealt +8% while other Operators in the team gain Physical DMG dealt +4% for 30s . Max stacks for effects of the same name: 5 . Duration of each stack is counted separately. Effect only triggers once every 0.1s .\n\n OBJ Arts Identifier\n Rarity: 5 ✦\n Type: Arts Unit\n Base ATK: 411\n\n Stat 1 Boost - 9/9\n Intellect : + 124\n\n Stat 2 Boost - 9/9\n Arts Intensity : + 62\n\n Passive Boost - 9/9\n Max HP : + 28.00%\n After the wielder applies Arts Burst or Physical Status with their own Combo Skill, the entire team gains Heat DMG dealt and Electric DMG dealt +22.4% for 15s . Effects of the same name cannot stack.\n\n Show Effects\n\n OBJ Edge of Lightness\n Rarity: 5 ✦\n Type: Sword\n Base ATK: 411\n\n Stat 1 Boost - 9/9\n Agility : + 124\n\n Stat 2 Boost - 9/9\n Attack : + 31.20%\n\n Passive Boost - 9/9\n Sec. Attribute : + 14.00%\n After the wielder recovers SP by their own skill, the entire team gains Heat DMG dealt and Electric DMG dealt +8.4% for 20s . Max stacks for effects of the same name: 3 . Duration of each stack is counted separately.\n\n OBJ Heavy Burden\n Rarity: 5 ✦\n Type: Greatsword\n Base ATK: 411\n\n Stat 1 Boost - 9/9\n Strength : + 124\n\n Stat 2 Boost - 9/9\n Max HP : + 62.40%\n\n Passive Boost - 9/9\n Sec. Attribute : + 14.00%\n After the wielder applies Knocked Down or Weakened , DEF +50.4% for 15s . Effects of the same name cannot stack.\n\n Show Effects\n\n OBJ Razohorn\n Rarity: 5 ✦\n Type: Polearm\n Base ATK: 411\n\n Stat 1 Boost - 9/9\n Will : + 124\n\n Stat 2 Boost - 9/9\n Physical DMG Bonus : + 34.70%\n\n Passive Boost - 9/9\n To enemies with Cryo Infliction or Solidification , the wielder gains DMG dealt +22.4% . After consuming Solidification , ATK +33.6% for 15s . Effects of the same name cannot stack.\n\n Show Effects\n\n OBJ Velocitous\n Rarity: 5 ✦\n Type: Handcannon\n Base ATK: 411\n\n Stat 1 Boost - 9/9\n Agility : + 124\n\n Stat 2 Boost - 9/9\n Ultimate Gain Eff. : + 37.10%\n\n Passive Boost - 9/9\n Attack : + 14.00%\n After the wielder consumes an Arts Infliction , the wielder gains Nature DMG dealt +[14% x Stacks Consumed] for 20s . Effects of the same name cannot stack.\n\n Show Effects\n\n Oblivion\n Rarity: 6 ✦\n Type: Arts Unit\n Base ATK: 495\n\n Stat 1 Boost - 9/9\n Intellect : + 156\n\n Stat 2 Boost - 9/9\n Arts DMG Bonus : + 43.30%\n\n Passive Boost - 4/9\n Critical Rate : + 8.00%\n After the wielder casts an Ultimate, the wielder gains Arts DMG dealt +38.4% for 15s . After the wielder casts a Combo Skill, the wielder gains Arts DMG dealt +19.2% for 15s . The two effects apply separately and do not stack with themselves.\n\n Show Effects\n\n Opero 77\n Rarity: 3 ✦\n Type: Polearm\n Base ATK: 283\n\n Stat 1 Boost - 9/9\n Main Attribute : + 79\n\n Passive Boost - 9/9\n Flat ATK : + 34\n\n Opus: Etch Figure\n Rarity: 6 ✦\n Type: Arts Unit\n Base ATK: 485\n\n Stat 1 Boost - 9/9\n Will : + 156\n\n Stat 2 Boost - 9/9\n Nature DMG Bonus : + 43.30%\n\n Passive Boost - 4/9\n Attack : + 11.20%\n After the wielder applies a Nature Infliction with their own Battle Skill, the team gains Arts DMG dealt +8% for 15s . For every enemy suffering from Nature Infliction applied by the said Battle Skill, the team gains Bonus Arts DMG dealt +3.2% , up to a max of +9.6% . Effects of the same name cannot stack.\n\n Show Effects\n\n Opus: The Living\n Rarity: 5 ✦\n Type: Handcannon\n Base ATK: 411\n\n Stat 1 Boost - 9/9\n Agility : + 124\n\n Stat 2 Boost - 9/9\n Arts DMG Bonus : + 34.70%\n\n Passive Boost - 9/9\n Critical Rate : + 8.40%\n After the wielder applies an Arts Reaction, ATK 21% for 20s . Max stacks for effects of the same name: 2 . Duration of each stack is counted separately. Effect only triggers once every 0.1s .\n\n Pathfinder's Beacon\n Rarity: 4 ✦\n Type: Polearm\n Base ATK: 341\n\n Stat 1 Boost - 9/9\n Agility : + 93\n\n Stat 2 Boost - 9/9\n Attack : + 23.40%\n\n Passive Boost - 9/9\n When the wielder's HP is above 80% , ATK + 42% .\n\n Peco 5\n Rarity: 3 ✦\n Type: Handcannon\n Base ATK: 283\n\n Stat 1 Boost - 9/9\n Main Attribute : + 79\n\n Passive Boost - 9/9\n Flat ATK : + 34\n\n Phantom Pain\n Rarity: 6 ✦\n Type: Greatsword\n Base ATK: 490\n\n Stat 1 Boost - 9/9\n Strength : + 156\n\n Stat 2 Boost - 9/9\n Arts Intensity : + 78\n\n Passive Boost - 4/9\n Physical DMG Bonus : + 11.20%\n When the wielder casts battle skills or combo skills, the wielder gains Physical DMG Dealt +15.4% for 20s .\n\n Quencher\n Rarity: 4 ✦\n Type: Greatsword\n Base ATK: 341\n\n Stat 1 Boost - 9/9\n Will : + 93\n\n Stat 2 Boost - 9/9\n Max HP : + 46.80%\n\n Passive Boost - 9/9\n After the wielder performs a Final Strike on the enemy, ATK +33.6% for 10s . Effects of the same name cannot stack.\n\n Show Effects\n\n Rapid Ascent\n Rarity: 6 ✦\n Type: Sword\n Base ATK: 495\n\n Stat 1 Boost - 9/9\n Main Attribute : + 132\n\n Stat 2 Boost - 9/9\n Critical Rate : + 19.50%\n\n Passive Boost - 4/9\n Battle Skills and Ultimates gain Physical DMG dealt +24% . Against staggered enemies, Battle Skills and Ultimates also gain DMG dealt +56% .\n\n Rational Farewell\n Rarity: 5 ✦\n Type: Handcannon\n Base ATK: 411\n\n Stat 1 Boost - 9/9\n Strength : + 124\n\n Stat 2 Boost - 9/9\n Heat DMG Bonus : + 34.70%\n\n Passive Boost - 9/9\n Battle Skill DMG : + 28.00%\n After the wielder's combo skil applies Arts Burst or Combusted , ATK +44.8% for 15s . Effects of the same name cannot stack.\n\n Show Effects\n\n Seeker of Dark Lung\n Rarity: 5 ✦\n Type: Greatsword\n Base ATK: 411\n\n Stat 1 Boost - 9/9\n Strength : + 124\n\n Stat 2 Boost - 9/9\n Ultimate Gain Eff. : + 37.10%\n\n Passive Boost - 9/9\n Main Attribute : + 14.00%\n After the wielder applies an Arts Burst, ATK +16.8% for 30s . Max stacks for effects of the same name: 3 . Duration of each stack is counted separately. Effect only triggers once every 0.1s .\n\n Stanza of Memorials\n Rarity: 5 ✦\n Type: Arts Unit\n Base ATK: 411\n\n Stat 1 Boost - 9/9\n Intellect : + 124\n\n Stat 2 Boost - 9/9\n Attack : + 31.20%\n\n Passive Boost - 9/9\n Max HP : + 28.00%\n After the wielder casts an Ultimate, Operators whose elements differ from the wielder gain ATK +22.4% for 20s . Effects of the same name cannot stack.\n\n Sundered Prince\n Rarity: 6 ✦\n Type: Greatsword\n Base ATK: 490\n\n Stat 1 Boost - 9/9\n Strength : + 156\n\n Stat 2 Boost - 9/9\n Critical Rate : + 19.50%\n\n Passive Boost - 4/9\n After the wielder performs a Final Strike on the enemy, ATK +16% for 8s . If the wielder is also the Controlled Operator, double the ATK increase gained and buff the Final Strike so that it deals Stagger +19.2% to the enemy. Effects of the same name cannot stack.\n\n Show Effects\n\n Sundering Steel\n Rarity: 5 ✦\n Type: Sword\n Base ATK: 411\n\n Stat 1 Boost - 9/9\n Agility : + 124\n\n Stat 2 Boost - 9/9\n Physical DMG Bonus : + 34.70%\n\n Passive Boost - 9/9\n Attack : + 14.00%\n After the wielder deals a Physical Status , ATK +21% for 20s . Max stacks for effects of the same name: 2 . Duration of each stack is counted separately. Effect only triggers once every 0.1s .\n\n Tarr 11\n Rarity: 3 ✦\n Type: Sword\n Base ATK: 283\n\n Stat 1 Boost - 9/9\n Main Attribute : + 79\n\n Passive Boost - 9/9\n Flat ATK : + 34\n\n Thermite Cutter\n Rarity: 6 ✦\n Type: Sword\n Base ATK: 490\n\n Stat 1 Boost - 9/9\n Will : + 156\n\n Stat 2 Boost - 9/9\n Attack : + 39.00%\n\n Passive Boost - 4/9\n Attack : + 16.00%\n After the wielder's skill recovers SP or grants a Link state, the entire team gains ATK +8% for 20s . Max stacks for effects of the same name: 2 . Duration of each stack counted separately.\n\n Show Effects\n\n Thunderberge\n Rarity: 6 ✦\n Type: Greatsword\n Base ATK: 495\n\n Stat 1 Boost - 9/9\n Strength : + 156\n\n Stat 2 Boost - 9/9\n Max HP : + 78.00%\n\n Passive Boost - 4/9\n Shield applied +38.4% . When the wielder restores HP with their own Combo Skill, grant the Controlled Operator an additional [11.2 x Wielder's Max HP] Shield for 15s . Effect only triggers once every 15s .\n\n Show Effects\n\n Twelve Questions\n Rarity: 5 ✦\n Type: Sword\n Base ATK: 411\n\n Stat 1 Boost - 9/9\n Agility : + 124\n\n Stat 2 Boost - 9/9\n Attack : + 31.20%\n\n Passive Boost - 9/9\n Sec. Attribute : + 14.00%\n After the wielder consumes an Arts Reaction, ATK +21% for 20s . Max stacks for effects of the same name: 2 . Duration of each stack is counted separately.\n\n Type 42: Solemn Phalanx\n Rarity: 6 ✦\n Type: Arts Unit\n Base ATK: 505\n\n Stat 1 Boost - 9/9\n Intellect : + 156\n\n Stat 2 Boost - 9/9\n Ultimate Gain Eff. : + 46.40%\n\n Passive Boost - 4/9\n ATK : + 25.60%\n Wielder's Intellect ≥ Will : When the wielder applies Arts Infliction with their own skill, the wielder gains Arts DMG Dealt +32.0% for 20s ; when the wielder applies Arts Susceptibility with their own skill, the wielder gains ATK +32.0% for 20s ;\n Wielder's Will ＞ Intellect : When the wielder applies Arts Burst with their own skill, the target enemy suffers Arts DMG Taken +9.6% for 25s ; when the wielder applies Arts Susceptibility with their own skill, the target enemy suffers Arts DMG Taken +9.6% for 25s .\nEffects of the same name cannot stack. The aforementioned attributes only include effects from the wielder's level, talents, potentials, and attribute bonuses provided by equipped gear and weapons.\n\n Show Effects\n\n Umbral Torch\n Rarity: 6 ✦\n Type: Sword\n Base ATK: 490\n\n Stat 1 Boost - 9/9\n Intellect : + 156\n\n Stat 2 Boost - 9/9\n Heat DMG Bonus : + 43.30%\n\n Passive Boost - 4/9\n Attack : + 11.20%\n Whenever Combustion or Corrosion is applied to an enemy, the wielder gains Heat DMG dealt and Nature DMG dealt +12.8% for 20s .. Max stacks for effects of the same name: 2 . Duration of each stack is counted seperately. Effect only triggers once every 0.1s .\n\n Show Effects\n\n Valiant\n Rarity: 6 ✦\n Type: Polearm\n Base ATK: 495\n\n Stat 1 Boost - 9/9\n Agility : + 156\n\n Stat 2 Boost - 9/9\n Physical DMG Bonus : + 43.30%\n\n Passive Boost - 4/9\n Attack : + 16.00%\n When the wielder applies Physical Statuses , the wielder also deals another hit of Physical DMG equal to 192% of the wielder's ATK.\n\n Show Effects\n\n Wave Tide\n Rarity: 4 ✦\n Type: Sword\n Base ATK: 341\n\n Stat 1 Boost - 9/9\n Intellect : + 93\n\n Stat 2 Boost - 9/9\n Attack : + 23.40%\n\n Passive Boost - 9/9\n After the wielder casts a Combo Skill, ATK +33.6% for 20s . Effects of the same name cannot stack.\n\n Wedge\n Rarity: 6 ✦\n Type: Handcannon\n Base ATK: 500\n\n Stat 1 Boost - 9/9\n Main Attribute : + 132\n\n Stat 2 Boost - 9/9\n Critical Rate : + 19.50%\n\n Passive Boost - 4/9\n Arts DMG Bonus : + 19.20%\n After the wielder casts a Battle Skill, the wielder gains Arts DMG dealt +12.8% for 15s . After the wielder applies an Arts Reaction with their own Battle Skill, the wielder gains Arts DMG dealt +25.6% for 15s . The two effects apply separately and do not stack with themselves.\n\n Show Effects\n\n White Night Nova\n Rarity: 6 ✦\n Type: Sword\n Base ATK: 505\n\n Stat 1 Boost - 9/9\n Main Attribute : + 132\n\n Stat 2 Boost - 9/9\n Arts Intensity : + 78\n\n Passive Boost - 4/9\n Arts DMG Bonus : + 19.20%\n After the wielder applies Combustion or Electrification , the wielder gains Arts DMG dealt +19.2% and Arts Intensity +40 for 15s . Effects of the same name cannot stack.\n\n Show Effects\n\n Wild Wanderer\n Rarity: 5 ✦\n Type: Arts Unit\n Base ATK: 411\n\n Stat 1 Boost - 9/9\n Intellect : + 124\n\n Stat 2 Boost - 9/9\n Electric DMG Bonus : + 34.70%\n\n Passive Boost - 9/9\n Arts Intensity : + 28\n After the wielder applies Electrification , the team gains Physical DMG dealt and Electric DMG dealt +22.4% for 15s . Effects of the same name cannot stack.\n\n Show Effects",
   "entries": [
     {
       "id": "aggeloslayer",
@@ -2255,6 +2283,25 @@
         "heat_dmg_bonus": "+ 11.20%"
       },
       "text": "Beacon of Duty\nRarity: 6 ✦\nType: Polearm\nBase ATK: 485\nStat 1 Boost - 9/9\nAgility : + 156\nStat 2 Boost - 9/9\nUltimate Gain Eff. : + 46.40%\nPassive Boost - 4/9\nHeat DMG Bonus : + 11.20%\nWhen the wielder's skill applies Heat Infliction , the wielder gains Physical and Heat DMG Dealt +12.8% for 20s . When the wielder's skill applies Heat Susceptibility , the entire team gains Physical and Heat DMG Dealt +6.4% for 30s .\nShow Effects"
+    },
+    {
+      "id": "bedazzling-night-debut",
+      "name": "Bedazzling Night Debut",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/weapons/weapon-76-15ec9994063c.webp",
+      "assetId": "15ec9994063c",
+      "fields": {
+        "rarity": "6 ✦",
+        "type": "Polearm",
+        "base_atk": "500",
+        "will": "+ 156",
+        "treatment_bonus": "+ 46.40%",
+        "main_attribute": "+ 25.60%",
+        "max_stacks_for_effects_of_the_same_name": "4 . Duration of each stack is counted separately. Each operator can gain this effect at most once every 0.1s ."
+      },
+      "text": "Bedazzling Night Debut\nRarity: 6 ✦\nType: Polearm\nBase ATK: 500\nStat 1 Boost - 9/9\nWill : + 156\nStat 2 Boost - 9/9\nTreatment Bonus : + 46.40%\nPassive Boost - 4/9\nMain Attribute : + 25.60%\nWhen the wielder's skill grants HP Treatment to other operators in the team, the operator receiving the wielder's treatment also gains ATK +5.6% for 20s .\nMax stacks for effects of the same name: 4 . Duration of each stack is counted separately. Each operator can gain this effect at most once every 0.1s ."
     },
     {
       "id": "blessing-of-lustrous-carmine",

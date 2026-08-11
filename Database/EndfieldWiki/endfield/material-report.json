@@ -1,12 +1,12 @@
 {
   "provider": "EndfieldWiki",
   "game": "endfield",
-  "generatedAt": "2026-08-08T06:06:08.237Z",
+  "generatedAt": "2026-08-11T06:14:26.549Z",
   "counts": {
     "characters": 31,
-    "charactersWithMaterials": 30,
-    "charactersMissingMaterials": 1,
-    "weapons": 73,
+    "charactersWithMaterials": 31,
+    "charactersMissingMaterials": 0,
+    "weapons": 74,
     "items": 31
   },
   "characters": [
@@ -615,29 +615,29 @@
       "name": "Liino",
       "pageName": "Liino",
       "sourceUrl": "https://endfield.wiki.gg/wiki/Liino",
-      "status": "missing-materials",
+      "status": "ok",
       "sections": {
         "Promotion": {
-          "stages": 0,
-          "items": 0
+          "stages": 4,
+          "items": 13
         },
         "Skill_upgrades": {
-          "rows": 0,
-          "skillLevelStages": 0,
-          "skillMasteryStages": 0,
-          "items": 0
+          "rows": 11,
+          "skillLevelStages": 8,
+          "skillMasteryStages": 3,
+          "items": 84
         },
         "Talent_upgrades": {
-          "items": 0
+          "items": 19
         },
         "Base_Skill_upgrades": {
-          "items": 0
+          "items": 8
         }
       },
       "counts": {
-        "ascension": 0,
-        "skill": 0,
-        "extras": 0
+        "ascension": 8,
+        "skill": 10,
+        "extras": 3
       }
     },
     {

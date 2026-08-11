@@ -9,12 +9,12 @@
   "name": "Liino",
   "title": "Liino Best Build Guide",
   "sourcePath": "/arknights-endfield/characters/liino",
-  "contentStatus": "beta",
+  "contentStatus": "live",
   "statusLabels": [
-    "Soon"
+    "New"
   ],
-  "scrapedAt": "2026-08-08T06:04:07.817Z",
-  "updatedText": "16/July/2026",
+  "scrapedAt": "2026-08-11T06:12:43.600Z",
+  "updatedText": "10/August/2026",
   "meta": {
     "title": "Liino Best Build Guide | Arknights: Endfield",
     "description": ""
@@ -37,6 +37,46 @@
       "height": 800
     },
     {
+      "id": "356f5dfcc644",
+      "sourceHash": "356f5dfcc644",
+      "kind": "icons",
+      "name": "Strength",
+      "fileStem": "stat-strength",
+      "path": "Prydwen/endfield/assets/icons/strength-356f5dfcc644.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "fa8b0679d3bd",
+      "sourceHash": "fa8b0679d3bd",
+      "kind": "icons",
+      "name": "Agility",
+      "fileStem": "stat-agility",
+      "path": "Prydwen/endfield/assets/icons/agility-fa8b0679d3bd.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "0638c69e0b8e",
+      "sourceHash": "0638c69e0b8e",
+      "kind": "icons",
+      "name": "Intellect",
+      "fileStem": "stat-intellect",
+      "path": "Prydwen/endfield/assets/icons/intellect-0638c69e0b8e.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "6ae9fe735963",
+      "sourceHash": "6ae9fe735963",
+      "kind": "icons",
+      "name": "Will",
+      "fileStem": "stat-will",
+      "path": "Prydwen/endfield/assets/icons/will-6ae9fe735963.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
       "id": "a88184098f8f",
       "sourceHash": "a88184098f8f",
       "kind": "characters",
@@ -45,6 +85,236 @@
       "path": "Prydwen/endfield/assets/characters/liino-full-illustration-a88184098f8f.webp",
       "width": 600,
       "height": 800
+    },
+    {
+      "id": "15ec9994063c",
+      "sourceHash": "15ec9994063c",
+      "kind": "weapons",
+      "name": "Weapon",
+      "fileStem": "weapon-76",
+      "path": "Prydwen/endfield/assets/weapons/weapon-76-15ec9994063c.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "e410cbd7f1ae",
+      "sourceHash": "e410cbd7f1ae",
+      "kind": "weapons",
+      "name": "Weapon",
+      "fileStem": "weapon-74",
+      "path": "Prydwen/endfield/assets/weapons/weapon-74-e410cbd7f1ae.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "878ac8b93409",
+      "sourceHash": "878ac8b93409",
+      "kind": "gear",
+      "name": "Gear Set",
+      "fileStem": "gear-14",
+      "path": "Prydwen/endfield/assets/gear/gear-14-878ac8b93409.webp",
+      "width": 50,
+      "height": 50
+    },
+    {
+      "id": "5f92f82aa557",
+      "sourceHash": "5f92f82aa557",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-142",
+      "path": "Prydwen/endfield/assets/gear/gear-142-5f92f82aa557.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "a7d37211c7be",
+      "sourceHash": "a7d37211c7be",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-140",
+      "path": "Prydwen/endfield/assets/gear/gear-140-a7d37211c7be.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "120fdd57c9bd",
+      "sourceHash": "120fdd57c9bd",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-41",
+      "path": "Prydwen/endfield/assets/gear/gear-41-120fdd57c9bd.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "6b91c70d34fd",
+      "sourceHash": "6b91c70d34fd",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-139",
+      "path": "Prydwen/endfield/assets/gear/gear-139-6b91c70d34fd.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "e9a04471a2be",
+      "sourceHash": "e9a04471a2be",
+      "kind": "gear",
+      "name": "Gear Set",
+      "fileStem": "gear-37",
+      "path": "Prydwen/endfield/assets/gear/gear-37-e9a04471a2be.webp",
+      "width": 50,
+      "height": 50
+    },
+    {
+      "id": "db17783dfcb0",
+      "sourceHash": "db17783dfcb0",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-147",
+      "path": "Prydwen/endfield/assets/gear/gear-147-db17783dfcb0.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "da37226de93d",
+      "sourceHash": "da37226de93d",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-148",
+      "path": "Prydwen/endfield/assets/gear/gear-148-da37226de93d.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "a6785db56762",
+      "sourceHash": "a6785db56762",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-150",
+      "path": "Prydwen/endfield/assets/gear/gear-150-a6785db56762.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "ae1ff97576c0",
+      "sourceHash": "ae1ff97576c0",
+      "kind": "characters",
+      "name": "Zhuang Fangyi",
+      "fileStem": "zhuang-fangyi-icon",
+      "path": "Prydwen/endfield/assets/characters/zhuang-fangyi-ae1ff97576c0.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "21e0d5281fdd",
+      "sourceHash": "21e0d5281fdd",
+      "kind": "icons",
+      "name": "Electric",
+      "fileStem": "element-electric",
+      "path": "Prydwen/endfield/assets/icons/electric-21e0d5281fdd.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "647c6800c6a1",
+      "sourceHash": "647c6800c6a1",
+      "kind": "characters",
+      "name": "Arcane",
+      "fileStem": "arcane-icon",
+      "path": "Prydwen/endfield/assets/characters/arcane-647c6800c6a1.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "3c1cc57bcd5f",
+      "sourceHash": "3c1cc57bcd5f",
+      "kind": "icons",
+      "name": "Nature",
+      "fileStem": "element-nature",
+      "path": "Prydwen/endfield/assets/icons/nature-3c1cc57bcd5f.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "ee3f25e30847",
+      "sourceHash": "ee3f25e30847",
+      "kind": "characters",
+      "name": "Avywenna",
+      "fileStem": "avywenna-icon",
+      "path": "Prydwen/endfield/assets/characters/avywenna-ee3f25e30847.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "34393427391b",
+      "sourceHash": "34393427391b",
+      "kind": "characters",
+      "name": "Perlica",
+      "fileStem": "perlica-icon",
+      "path": "Prydwen/endfield/assets/characters/perlica-34393427391b.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "15421cba5670",
+      "sourceHash": "15421cba5670",
+      "kind": "characters",
+      "name": "Ardelia",
+      "fileStem": "ardelia-icon",
+      "path": "Prydwen/endfield/assets/characters/ardelia-15421cba5670.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "e0644812a9c1",
+      "sourceHash": "e0644812a9c1",
+      "kind": "characters",
+      "name": "Gilberta",
+      "fileStem": "gilberta-icon",
+      "path": "Prydwen/endfield/assets/characters/gilberta-e0644812a9c1.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "ae3ab8fe6aa1",
+      "sourceHash": "ae3ab8fe6aa1",
+      "kind": "characters",
+      "name": "Arclight",
+      "fileStem": "arclight-icon",
+      "path": "Prydwen/endfield/assets/characters/arclight-ae3ab8fe6aa1.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "b6c6f96b12f0",
+      "sourceHash": "b6c6f96b12f0",
+      "kind": "characters",
+      "name": "Liino",
+      "fileStem": "liino-icon",
+      "path": "Prydwen/endfield/assets/characters/liino-b6c6f96b12f0.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "01dc84e9ffad",
+      "sourceHash": "01dc84e9ffad",
+      "kind": "characters",
+      "name": "Tangtang",
+      "fileStem": "tangtang-icon",
+      "path": "Prydwen/endfield/assets/characters/tangtang-01dc84e9ffad.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "b26fc37d4ba6",
+      "sourceHash": "b26fc37d4ba6",
+      "kind": "characters",
+      "name": "Xaihi",
+      "fileStem": "xaihi-icon",
+      "path": "Prydwen/endfield/assets/characters/xaihi-b26fc37d4ba6.webp",
+      "width": 60,
+      "height": 60
     }
   ],
   "sections": [
@@ -52,7 +322,7 @@
       "id": "liino-best-build-guide-0",
       "level": 1,
       "heading": "Liino Best Build Guide",
-      "text": "Last updated: 16/July/2026",
+      "text": "Last updated: 10/August/2026",
       "assets": [
         {
           "id": "46712342b038",
@@ -84,7 +354,7 @@
       "id": "update-tracker-3",
       "level": 2,
       "heading": "Update tracker",
-      "text": "Last review update\n Not yet available\n\n Last major build/calcs update\n Not yet available\n\n Last profile update*\n 16/July/2026\n\n *Profile update means smaller edits to the guide that don't require new calculations.\n\n To learn more about Liino check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - whether it's best build, teams, synergies or calculations.",
+      "text": "Last review update\n Patch 1.4\n\n Last major build/calcs update\n Patch 1.4\n\n Last profile update*\n 10/August/2026\n\n *Profile update means smaller edits to the guide that don't require new calculations.\n\n To learn more about Liino check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - whether it's best build, teams, synergies or calculations.",
       "assets": []
     },
     {
@@ -98,8 +368,49 @@
       "id": "attributes-level-90-9",
       "level": 3,
       "heading": "Attributes (level 90)",
-      "text": "The yellow color shows the Primary Attribute and the green Secondary Attribute . Both of those attributes, on top of their normal bonuses, provide additional ATK to the character.\n Liino attributes aren't available yet. They will be added soon!",
-      "assets": []
+      "text": "The yellow color shows the Primary Attribute and the green Secondary Attribute . Both of those attributes, on top of their normal bonuses, provide additional ATK to the character.\n Strength\n 89\n\n Agility\n 121\n\n Intellect\n 91\n\n Will\n 177",
+      "assets": [
+        {
+          "id": "356f5dfcc644",
+          "sourceHash": "356f5dfcc644",
+          "kind": "icons",
+          "name": "Strength",
+          "fileStem": "stat-strength",
+          "path": "Prydwen/endfield/assets/icons/strength-356f5dfcc644.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "fa8b0679d3bd",
+          "sourceHash": "fa8b0679d3bd",
+          "kind": "icons",
+          "name": "Agility",
+          "fileStem": "stat-agility",
+          "path": "Prydwen/endfield/assets/icons/agility-fa8b0679d3bd.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "0638c69e0b8e",
+          "sourceHash": "0638c69e0b8e",
+          "kind": "icons",
+          "name": "Intellect",
+          "fileStem": "stat-intellect",
+          "path": "Prydwen/endfield/assets/icons/intellect-0638c69e0b8e.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "6ae9fe735963",
+          "sourceHash": "6ae9fe735963",
+          "kind": "icons",
+          "name": "Will",
+          "fileStem": "stat-will",
+          "path": "Prydwen/endfield/assets/icons/will-6ae9fe735963.webp",
+          "width": 24,
+          "height": 24
+        }
+      ]
     },
     {
       "id": "skills-11",
@@ -112,28 +423,35 @@
       "id": "basic-attack-12",
       "level": 6,
       "heading": "BASIC ATTACK:",
-      "text": "Liino can perform up to 5 basic attack sequences, dealing Electric DMG to the enemy. When performing a Finisher on an enemy, Liino deals massive Electric DMG and restores some SP.",
+      "text": "An attack with up to 5 sequences that deals Electric DMG . As the controlled operator, Final Strike also deals 19 Stagger .",
+      "assets": []
+    },
+    {
+      "id": "dive-attack-13",
+      "level": 6,
+      "heading": "DIVE ATTACK:",
+      "text": "Basic attack performed in mid-air becomes a dive attack that deals Electric DMG to nearby enemies.",
       "assets": []
     },
     {
       "id": "finisher-14",
       "level": 6,
       "heading": "FINISHER:",
-      "text": "Battle Skill\n Dazzling Focus\n\n Costs a small amount of SP to deal Electric DMG to enemies, and then enters Vocalist Stance for an extended period. While this stance is active, Liino grants the entire team an ATK Boost, provides HP Treatment to operators within range, and periodically performs additional attacks on nearby enemies.\n\n Combo Skill\n Delightful Harmonics\n\n Deals Electric DMG to enemies, grants HP Treatment to the controlled operator, and gains additional Ultimate Energy to herself.\n\n Trigger: While Vocalist Stance is active, when an Arts Reaction is consumed or applied on an enemy.\n\n Ultimate\n Dawnstar Concerto\n\n Liino gives HP Treatment to the entire team while entering Cosmovoice Stance for a period of time, dealing DMG and forcibly applying Electrification to enemies in a large area of effect (AOE). While active, this stance continuously grants powerful buffs and HP Treatment to allied operators while dealing continuous DMG to enemies.",
+      "text": "Basic attack performed near a Stagger ed enemy becomes a finisher that deals massive Electric DMG and recovers some SP.\n\n Multipliers (Rank 12)\n\n Show Effects\n\n Battle Skill\n Dazzling Focus\n SP Cost : 25\n\n Liino deals Electric DMG to enemies and then enters her Vocalist Stance . While this stance is active, if there are enemies nearby, Liino will perform an Additional ATK (that deals Electric DMG to enemies) on a regular basis.\n Vocalist Stance : While this stance is active, Liino grants the entire team an ATK Boost. After entering battle, Liino will also grant continuous HP Treatment to operators within range.\n During Vocalist Stance, her battle skill is replaced with End Stance. Casting this will end her Vocalist Stance early without consuming any SP, after which the battle skill will enter a short cooldown.\n\n Multipliers (Rank 12)\n\n Show Effects\n\n Combo Skill\n Delightful Harmonics\n Cooldown: 10 s\n\n Liino deals Electric DMG to enemies, grants HP Treatment to the controlled operator, and gains additional Ultimate Energy.\n Casting the combo skill Delightful Harmonics does not interrupt Vocalist Stance.\n\n Trigger: While Vocalist Stance is active, an Arts Reaction is consumed or is applied on an enemy.\n\n Multipliers (Rank 12)\n\n Show Effects\n\n Ultimate\n Dawnstar Concerto\n Energy cost : 160\n\n Liino grants HP Treatment to the entire team, enters her Cosmovoice Stance at the same time, unleashes a continuous display of Stage Pyrotechnics that deals Electric DMG , and then triggers an Electrifying Extravaganza that deals Electric DMG and forcibly applies Electrification to enemies in a large area of effect (AOE).\n Cosmovoice Stance : This stance replaces Liino's Vocalist Stance. While active, the stance grants the entire team Electric Amp and Nature Amp (effects are further increased by the attribute of Will) as well as an ATK Boost. The beats of Liino's song also deal Electric DMG to enemies in the AOE and grant continuous HP Treatment to allied operators in the AOE. When the stance ends, deals 3 times the DMG from a single beat to enemies in the AOE, and grants 3 times the HP treatment from a single beat to the entire team. This effect does not trigger if the stance is ended early.\n During the stance, her battle skill is replaced with End Stance. Casting the battle skill during Cosmovoice Stance ends it early and does not consume any SP.\n\n Multipliers (Rank 12)\n\n Show Effects",
       "assets": []
     },
     {
       "id": "talents-16",
       "level": 3,
       "heading": "Talents",
-      "text": "Liino Talents are currently missing. They will be added soon!",
+      "text": "Base Talent\n Idol Passion\n\n Assign to Reception Room to slow Mood Drop of all operators in it by 14/18% .\n\n Base Talent\n Stage Vibe That Lingers\n\n Assign to Control Nexus to grant all operators' Mood Regen +12/16% .\n\n Combat Talent\n Idol Zone\n\n During Vocalist Stance or Cosmovoice Stance, operators within the area of effect (AOE) gain Treatment Received Bonus +10/20% and DMG Taken -10/20% . These effects persist for 3s after leaving the AOE.\n\n Combat Talent\n Starry Boost of 1st Magnitude\n\n For 30s after casting Liino's combo skill Delightful Harmonics, casting a battle skill of an Electric or Nature operator returns 5/10 SP. This effect cannot stack and ends after triggering.",
       "assets": []
     },
     {
       "id": "potential-dupes-18",
       "level": 3,
       "heading": "Potential (dupes)",
-      "text": "Liino Potential information are currently missing. They will be added soon!",
+      "text": "P1\n Flawless Stage Work\n Potential 1\n\n After entering battle without her Vocalist Stance active, the first casting of the battle skill Dazzling Focus returns 25 additional SP. Effects of ATK Boost granted by Vocalist Stance and Cosmovoice Stance are increased by +6% .\n\n P2\n Committed Rehearsals\n Potential 2\n\n Will +20 , Treatment Efficiency +10% .\n\n P3\n Longing for the Horizon\n Potential 3\n\n Combo skill Delightful Harmonics improved : Length of cooldown -1s . DMG Multiplier and HP Treatment are increased to 1.4 times the original.\n\n P4\n Meteoric Rhythm\n Potential 4\n\n Ultimate Dawnstar Concerto improved: Ultimate Energy cost -15% .\n\n P5\n Heart-Whipping Q&A\n Potential 5\n\n Amp effect of Dawnstar Concerto is increased to 1.2 times the original. DMG Multipliers of battle skill Dazzling Focus and ultimate Dawnstar Concerto are increased to 1.2 times the original.",
       "assets": []
     },
     {
@@ -169,80 +487,735 @@
       ]
     },
     {
-      "id": "ratings-26",
-      "level": 3,
-      "heading": "Ratings",
-      "text": "Liino ratings aren't available yet. It will be added soon!",
+      "id": "buffer-27",
+      "level": 6,
+      "heading": "Buffer",
+      "text": "T0\n Umbral Monument",
       "assets": []
     },
     {
-      "id": "pros-cons-28",
-      "level": 3,
-      "heading": "Pros & Cons",
-      "text": "Liino pros & cons aren't available yet. They will be added soon.",
+      "id": "pros-30",
+      "level": 5,
+      "heading": "Pros",
+      "text": "Easy-to-use character with 'set-and-forget' gameplay, providing very high buff value with few active management needs and even fewer resource demands.\n\n High passive healing and sustain, which isn't reliant on additional conditions (like hitting multiple enemies or collecting drops), making her very forgiving to use.\n\n Diversified buffs that tend to not be highly saturated (ATK, Amp), while also having flexible gearing options to cover multiple set combinations and Energy needs.\n\n Dealing with scalpers is no longer an issue when the Morning Star of La Fantoma can give you personal concerts for the low, low price of 25 SP.",
       "assets": []
     },
     {
-      "id": "review-30",
+      "id": "cons-31",
+      "level": 5,
+      "heading": "Cons",
+      "text": "Long Combo Skill animation and loss of interrupt immunity on cast can make it frustrating to use at times. The SP return that follows its use may also cause issues in some rotations.\n\n Being locked out of dodges during her stances means she can take on more damage than she can heal, ironically making her struggle in some aggressive encounters.\n\n Polearm user with middling personal damage, making her highly reliant on her Signature weapon for best performance.\n\n By purchasing this concert ticket, the consumer hereby releases, waives, and forever discharges the TGCC from any and all liability, claims, demands, or causes of action arising out of Djall witchcraft.",
+      "assets": []
+    },
+    {
+      "id": "review-33",
       "level": 3,
       "heading": "Review",
-      "text": "Liino review isn't available yet. It will be added soon!\n\n Build",
+      "text": "💡 Tip",
       "assets": []
     },
     {
-      "id": "best-weapons-32",
+      "id": "kit-intro-35",
+      "level": 5,
+      "heading": "Kit Intro",
+      "text": "Liino is a 6-star, Electric, Arts Unit Support who’s tailor-made to enhance the performance of Electric and Nature teams. She’s capable of providing incredibly strong buffs and healing at the press of a button.\n Through her “Stances”, she locks herself out of Basic Attacks, but in return gets a high interrupt resistance, boosts the team’s ATK and pulses out damage and healing. When reactions are applied or consumed, her Combo Skill can be used for a massive Energy boost, and when her Ultimate is ready, using it yields a very high Amp for Electric and Nature damage.\n Her general gameplay needs little direct player interaction: use her Battle Skill, then her Combo Skills as they come. As she can’t Basic Attack, there isn’t a reason to swap to her outside of very niche scenarios, and her Combo Skill cooldown is relatively low, so not much thought is required to align it with rotations.\n This simplicity beguiles how strong she is, because the raw value of these buffs and heals makes her competitive in all forms of endgame content.",
+      "assets": []
+    },
+    {
+      "id": "battle-skill-36",
+      "level": 6,
+      "heading": "Battle Skill",
+      "text": "“Dazzling Focus” is Liino’s Battle Skill, and it’s the core of her kit. It costs only 25 SP, and on cast she will attack the enemy once and create an area around her, entering the “Vocalist Stance”. After 3 seconds, operators inside this area will be healed, the value of which scales with her AGI. Additional attacks then happen every 10 seconds, with healing pulses repeating every 3 seconds.\n This Battle Skill will build 3 stagger on cast, but only then. Additional attacks and healing pulses do not contribute to it.\n Liino will also buff the entire team with an ATK boost, maxing out at 10% at M3. Although operators must be inside of the area to receive healing, the ATK boost is applied unconditionally.\n The Vocalist Stance lasts for 60 seconds, and while it's up Liino will follow the controlled operator around, but it can be ended early, where it’ll go on a short 3-second cooldown before it can be used again. While it’s active, it has the unique property of locking Liino’s Basic Attacks and dodges. Pressing or holding Basic will lead to some special visual effects, like thumbs up, hearts and lightsticks appearing around her, but that’s all. Dodging will do nothing.\n Whether she’s controlled or non-controlled, her Basic Attacks cannot be used until she exits the stance, and she’s also unable to avoid enemy attacks while in the stance. She does, however, gain high interrupt resistance while in it, ensuring that she can’t be knocked out of the stance by enemy attacks.\n ℹ️ Info\n\n Since healing is tied to the local area effect, it’s still important to try to stay inside early on to ramp up stacks on her Signature if applicable.",
+      "assets": []
+    },
+    {
+      "id": "ultimate-37",
+      "level": 6,
+      "heading": "Ultimate",
+      "text": "“Dawnstar Concerto” is Liino’s Ultimate, costing 160 Energy, and like her Battle Skill, it will create an area that heals operators in it, buffs the team’s ATK and locks her out of both Basic Attacks and dodges. This is distinct from the Vocalist Stance, instead being the “Cosmovoice Stance”.\n Unlike the Battle Skill, however, the ATK bonus is fixed to 10% regardless of the level and pulses out for healing every 1.5 seconds. It also provides Electric and Nature Amp to the whole team, scaling with the skill’s level and Liino’s WILL attribute, maxing out at 60%, with a rate of 0.04% in Amp per point of WILL (1500 WILL total required).\n The cast of the Ultimate itself applies Amp and “Stage Pyrotechnics”, healing the whole team and doing some damage to nearby enemies. It’s only after a short while that it strikes with “Electrifying Extravaganza”, being a burst of damage building 20 stagger and forcibly applying Electrification to enemies hit. She will then remain in the stance for 15 seconds (from cast, not hit!), with the healing pulses also damaging enemies inside the area.\n Once the stance expires, it will do one final pulse for 3 times the healing and damage of a regular pulse and exit all stances . This resets Liino to a neutral state, so another Battle Skill cast would be required to bring her back to Vocalist Stance.\n ℹ️ Info\n\n Managing her Ultimate is very important, as it has a notable delay between its cast and the stagger/Electrification, which influences when it’s used in rotations.",
+      "assets": []
+    },
+    {
+      "id": "combo-skill-38",
+      "level": 6,
+      "heading": "Combo Skill",
+      "text": "“Delightful Harmonics” is Liino’s Combo Skill, having a short 8-second cooldown, and dealing middling Electric DMG, healing the controlled operator and, most importantly, generating 20 Ultimate Energy on hit. It’s because of this skill that Liino’s 160 Energy Ultimate requirement isn’t as daunting as it first appears.\n It’s triggered when an Arts Reaction is applied or consumed while in the Vocalist Stance! That means this Combo Skill cannot be triggered during Ultimate (Cosmovoice Stance) or in a neutral state.\n Using it won’t end her Vocalist Stance, so it can be used freely while she’s in it. It will, however, temporarily halt its interrupt resistance as she executes the skill, so be careful with enemy attacks. If Liino is knocked down during her Combo, that will cancel her stance!\n It also happens to have a very low stagger value of 5. Given the low cooldown, though, it can match up or even exceed the stagger build of other operators if the team can sustain frequent uses.\n The main purpose of the Combo Skill is to build up to her Ultimate, but it can also help condense rotations, owing to her Talents.",
+      "assets": []
+    },
+    {
+      "id": "talent-39",
+      "level": 6,
+      "heading": "Talent",
+      "text": "“ Idol Zone ” is Liino’s first Talent, and it provides a 20% increase to Treatment received and a 20% DMG reduction buff to operators inside the AoE of her Stances. Even after leaving, the effects persist for another 3 seconds, and with Liino following the controlled operator around, it has very good uptime.\n It doesn’t provide any damage gains, as her ATK and Amp buffs apply regardless, but it’s a nice to have for survivability and could prove very useful for endgame modes like Contingency Contract.\n “ Starry Boost of 1st Magnitude ” is her second Talent, and after using her Combo Skill, the next Battle Skill of any Electric or Nature operator returns 10 SP.\n This effect does not stack and is consumed on trigger! So after using 1 Combo Skill, the 1 Electric or Nature Battle Skill will return 10 SP, but the 2nd, 3rd or any others after will not unless the Combo Skill is used again.\n Conversely, if using 2 Combo Skills with no Battle Skills between them, the effect still only applies to the next, singular Battle Skill.\n Depending on the number of Combo Skills used, this can make Liino be a net contributor to SP, as after 30 SP being returned, she’s adding more to the team than what was used on her Battle Skill.\n ℹ️ Info\n\n The SP return can cause issues in some rotations, especially at higher Potentials! Do the math on Energy breakpoints and see if the number of Combo Skills and Battle Skills following them would demand adjustments.",
+      "assets": []
+    },
+    {
+      "id": "basic-attack-40",
+      "level": 6,
+      "heading": "Basic Attack",
+      "text": "“ Starry Heart Throb ” is Liino's Basic Attack, and happens to be surprisingly good. It’s a 5-sequence string, which recovers 19 SP and deals 20 stagger on its Final Strike.\n Its multipliers aren’t extraordinary, but it has animation cancel points on every single one of its sequences:\n Basic 1 can be cancelled after the first swing.\n\n Basic 2 can be cancelled as soon as purple effects appear on the Polearm twirl.\n\n Basic 3 can be cancelled when projectiles begin firing.\n\n Basic 4 can also be cancelled when projectiles begin firing.\n\n What holds it back is the dodge cooldown, with Basic 2 and 4 giving the greatest time saves. With proper cancelling, having some of the best time to stagger/SP ratios of any non-Greatsword operator.\n Unfortunately, it’s also never used. With both her Battle Skill and Ultimate locking out Basic Attack use whatsoever, its strength doesn’t matter. Even as a non-controlled operator, Liino cannot attack, so it’s a great ability that’s mostly ignored.\n Surprisingly, this does have upsides.",
+      "assets": []
+    },
+    {
+      "id": "basic-attack-slots-41",
+      "level": 6,
+      "heading": "Basic Attack Slots",
+      "text": "In Endfield, non-controlled operators can fill in “Basic Attack slots”. This means that only a certain number of attacks can be performed by them at any given time.\n It will usually be only a single operator attacking, which is then replaced by another after a full Basic Attack string, with the occasional situation where multiple will attack at once if enemy mechanics, interrupts or distance caused one of the non-controlled operators to miss out on Basic Attacks.\n As the non-controlled operators alternate between each other, it means that Support operators that aren’t built for damage can take up the slots and lower total team damage. As Liino cannot Basic Attack, she cannot take a Basic Attack slot, which means that the 2 remaining non-controlled operators will take turns.\n Given that Liino’s Basic Attack multipliers aren’t great, this frees up stronger operators to do damage, which can lead to a non-negligible damage increase.\n ℹ️ Info\n\n This doesn’t make other non-controlled operators attack faster or give the team more non-controlled operator attacks. Instead, those left will attack more often when Liino is in her stances because they get more turns at the slot, as only 2 operators, rather than 3, compete for it.",
+      "assets": []
+    },
+    {
+      "id": "energy-42",
+      "level": 5,
+      "heading": "Energy",
+      "text": "As Liino gets so much Energy from her Combo Skills, her breakpoints can be split into how many Combo Skills she can use in a rotation, then subtracting the SP return from ally Battle Skills that benefit from her Talent.\n Most rotations are balanced around 600 SP, so that can be used as a template:",
+      "assets": []
+    },
+    {
+      "id": "600-sp-5-combo-skills-43",
+      "level": 6,
+      "heading": "600 SP, 5 Combo Skills",
+      "text": "Ability\n Uses\n Energy\n Total\n\n Battle Skill\n 6.25\n 6.5\n 40.625\n\n Combo Skill\n 5\n 20\n 100\n\n SP Return\n 50\n 6.5\n -3.25\n\n Sum\n\n 137.375\n\n Ultimate Gain Efficiency\n\n 16.47%\n 160\n\n At 5 Combo Skills, assuming that every single one leads to a 10 SP return on Battle Skill use, is well above the 16.02% Ultimate Gain Efficiency that an Armor can give. It is possible to make do with a 40 SP return scenario, by delaying the 5th Combo Skill use (15.93%), but it’s rather situational. In such circumstances there could be very slight gains on using a non-Ultimate Gain Efficiency glove, but it’d need rotations that can accommodate a late 5th Combo Skill.",
+      "assets": []
+    },
+    {
+      "id": "600-sp-4-combo-skills-44",
+      "level": 6,
+      "heading": "600 SP, 4 Combo Skills",
+      "text": "Ability\n Uses\n Energy\n Total\n\n Battle Skill\n 6.25\n 6.5\n 40.625\n\n Combo Skill\n 4\n 20\n 80\n\n SP Return\n 40\n 6.5\n -2.6\n\n Sum\n\n 118.025\n\n Ultimate Gain Efficiency\n\n 35.57%\n 160\n\n At 4 Combo Skills, she is above the 33.43% Ultimate Gain Efficiency that a no-set Kit could give, so she’s often going to be running at least an Armor and Glove, giving a total of 42.72% in Ultimate Gain Efficiency.",
+      "assets": []
+    },
+    {
+      "id": "600-sp-3-combo-skills-45",
+      "level": 6,
+      "heading": "600 SP, 3 Combo Skills",
+      "text": "Ability\n Uses\n Energy\n Total\n\n Battle Skill\n 6.25\n 6.5\n 40.625\n\n Combo Skill\n 3\n 20\n 60\n\n SP Return\n 30\n 6.5\n -1.95\n\n Sum\n\n 98.675\n\n Ultimate Gain Efficiency\n\n 62.15%\n 160\n\n At 3 Combo Skills, an Ultimate Gain Efficiency kit is now also needed to get enough Energy, with her managing 74.76% on the set-up. This is a good target point for Liino rotations, as it allows her to run an off-piece Main Attribute Bonus Kit (e.g. LYNX Slab) to maximise the value out of her Ultimate buffs.",
+      "assets": []
+    },
+    {
+      "id": "600-sp-2-combo-skills-46",
+      "level": 6,
+      "heading": "600 SP, 2 Combo Skills",
+      "text": "Ability\n Uses\n Energy\n Total\n\n Battle Skill\n 6.25\n 6.5\n 40.625\n\n Combo Skill\n 2\n 20\n 40\n\n SP Return\n 20\n 6.5\n -1.3\n\n Sum\n\n 79.325\n\n Ultimate Gain Efficiency\n\n 101.71%\n 160\n\n At 2 Combo Skills, Liino now needs every piece to provide Ultimate Gain Efficiency. With Armor, Gloves and 2 Kits, she can reach 106.8% in the stat, which is just about enough to cover it.\n Keep in mind that this may not be enough if other sources of SP return are considered. If she’s running with an Arcane/Tangtang team, 7 Battle Skills would be needed, owing to Arcane’s Battle Skill and Tangtang’s Whirlpool returns.\n Tailor Liino’s gear around her requirements for different teams and rotations.",
+      "assets": []
+    },
+    {
+      "id": "how-to-play-47",
+      "level": 5,
+      "heading": "How to Play",
+      "text": "Liino is very straightforward, amounting mostly to a gameplay of:\n Battle Skill early, to begin building Bedazzling Night Debut’s or Golden Age’s buffs and unlocking her Combo Skill.\n\n Apply and consume reactions as per rotation needs and use her Combo Skills when triggered. The 8s cooldown means it’s often up when it matters.\n At best, be careful to not use it while enemies are performing attacks that may knockback operators, as she loses interrupt resistance during Combo Skills.\n\n Use her Ultimate to apply Electrification (Arts DMG Taken) and buff the team with Electric and Nature Amp for the burst period.\n\n Once the stance ends, Battle Skill again and repeat.\n\n It’s not as if there are no optimisations to make with her. Managing her Ultimate is very important, owing to its delay between cast and hit. For teams where she’s the sole Electrification applicant, or where other operators are unable to do so due to cooldown or resource constraints, timing her Ultimate cast to have it land for the strongest skills matters.\n Other teams, however, need to work around its forced Electrification. Perlica for example, has a stronger forced Electrification and tends to be built for Arts Intensity, so overwriting hers with Liino’s can lead to a significant damage loss. This demands either a very early cast, or a delayed cast.\n The forced Electrification can also be used in certain rotations, such as a means to trigger Gilberta’s Combo Skill, or to allow for Avywenna’s Combo Skill to be triggered on the next Final Strike.\n From a speedrunning scenario, the interrupt resistance on her stances means that it’s a way to tank attacks without getting knocked back or being forced to Perfect Dodge, which can at times be an issue owing to timestop.\n For most players though, Liino is a ‘set-and-forget’ type character: Battle Skill, Combo Skill as it comes, Ultimate for the burst, then repeat.\n\n Build",
+      "assets": []
+    },
+    {
+      "id": "best-weapons-49",
       "level": 2,
       "heading": "Best Weapons",
-      "text": "Liino best Weapons aren't available yet. They will be added soon.",
-      "assets": []
+      "text": "Liino best Weapons are placed in order of what fits their playstyle the most . Check the comments to get additional context.\n\n 1\n\n Bedazzling Night Debut (P 0 )\n\n Liino's Signature weapon, and it's a significant improvement over any other option. It has a matching main attribute on line 1 and Treatment Efficiency on line 2. The former is expected and a must have for Amp scaling, whereas the latter is a middling bonus that helps in survivability but offers no damage contribution to the team. The strength of this weapon is loaded on its line 3, which gives 25.6% in Main Attribute bonus at P0 as well as a stacking ATK buff that affects other operators on healing them that lasts 20s and caps out at 22.4%. The boost to Liino's WILL can amount to an increase of over 7% in Amp scaling, and the ATK buff is a competitive multiplier as it tends to see less saturation in her teams. Although it does demand heals to build up, Liino triggers them often enough that it's capped out at most within 12 seconds of her Battle Skill use, which is then sustained over the course of an entire fight as she will follow around the controlled operator while in its Stance. Note that as it is on healing, operators outside of the range of her Battle Skill may struggle to have full uptime of this, which makes it important to prioritise controlling main damage dealers.\n\n 2\n\n Golden Age (P 5 )\n\n The Battle Pass weapon alternative, and the best non-Signature pick. It has the same line 1 and line 2 as her Signature, with WILL and Treatment Efficiency respectively, but a far weaker line 3. It provides a middling increase to Electric DMG Dealt for Liino, and up to 14% in Arts DMG Dealt to the team after healing for 20s. This is weaker than even 5-star weapons, like Wild Wanderer, OBJ Arts Identifier and Edge of Lightness, and can see significant saturation in some of the teams Liino runs in. It still better than anything else at P5 though, and the gap between it and her Signature lessens the more saturated teams are in ATK and the less saturated they are in DMG Dealt.",
+      "assets": [
+        {
+          "id": "15ec9994063c",
+          "sourceHash": "15ec9994063c",
+          "kind": "weapons",
+          "name": "Weapon",
+          "fileStem": "weapon-76",
+          "path": "Prydwen/endfield/assets/weapons/weapon-76-15ec9994063c.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "e410cbd7f1ae",
+          "sourceHash": "e410cbd7f1ae",
+          "kind": "weapons",
+          "name": "Weapon",
+          "fileStem": "weapon-74",
+          "path": "Prydwen/endfield/assets/weapons/weapon-74-e410cbd7f1ae.webp",
+          "width": 70,
+          "height": 70
+        }
+      ]
     },
     {
-      "id": "best-gear-34",
+      "id": "best-gear-51",
       "level": 2,
       "heading": "Best Gear",
-      "text": "Liino best Gear aren't available yet. They will be added soon.",
+      "text": "Liino best sets are placed in order of what fits their playstyle the most . Check the comments to get additional context.\n\n 1\n\n Eternal Xiranite",
+      "assets": [
+        {
+          "id": "878ac8b93409",
+          "sourceHash": "878ac8b93409",
+          "kind": "gear",
+          "name": "Gear Set",
+          "fileStem": "gear-14",
+          "path": "Prydwen/endfield/assets/gear/gear-14-878ac8b93409.webp",
+          "width": 50,
+          "height": 50
+        }
+      ]
+    },
+    {
+      "id": "description-52",
+      "level": 6,
+      "heading": "Description",
+      "text": "The best general buffing set for Liino. As its pieces have matching attributes and provide more than enough in Ultimate Gain Efficiency to cover her rotations, it's the go-to pick for the majority of her teams. Note that Liino can only activate its effect through her Ultimate, as her ATK bonuses do not count for it.",
       "assets": []
     },
     {
-      "id": "best-gear-pieces-36",
+      "id": "pieces-53",
+      "level": 6,
+      "heading": "Pieces",
+      "text": "Armor\n Eternal Xiranite Light Armor Eternal Xiranite\n\n Gloves\n Eternal Xiranite Hands Eternal Xiranite\n\n Kit\n Eternal Xiranite Auxiliary Arm Eternal Xiranite\n\n Kit\n LYNX Slab LYNX",
+      "assets": [
+        {
+          "id": "5f92f82aa557",
+          "sourceHash": "5f92f82aa557",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-142",
+          "path": "Prydwen/endfield/assets/gear/gear-142-5f92f82aa557.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "a7d37211c7be",
+          "sourceHash": "a7d37211c7be",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-140",
+          "path": "Prydwen/endfield/assets/gear/gear-140-a7d37211c7be.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "878ac8b93409",
+          "sourceHash": "878ac8b93409",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-14",
+          "path": "Prydwen/endfield/assets/gear/gear-14-878ac8b93409.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "120fdd57c9bd",
+          "sourceHash": "120fdd57c9bd",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-41",
+          "path": "Prydwen/endfield/assets/gear/gear-41-120fdd57c9bd.webp",
+          "width": 70,
+          "height": 70
+        }
+      ]
+    },
+    {
+      "id": "alternative-pieces-54",
+      "level": 6,
+      "heading": "Alternative Pieces",
+      "text": "Eternal Xiranite Bracing Slab\n - If Liino has enough Ultimate Gain Efficiency without needing an Auxiliary Arm, using a Bracing Slab as the Eternal Xiranite Kit gives the highest WILL. The Secondary Attribute on it is also helpful at increasing Liino's personal damage a bit, as well as the scaling on her heals.\n Eternal Xiranite Auxiliary Arm\n - If even with a single Auxiliary Arm, Liino doesn't have the necessary Ultimate Gain Efficiency (such as in 2 Combo Skill rotations), she can run a full Xiranite set-up with 2 Auxiliary Arms. Losing out on LYNX Slab is a sizable decrease to her Amp, but it may be necessary if there aren't many reactions being applied/consumed in a team.\n\n 2\n\n LYNX",
+      "assets": [
+        {
+          "id": "6b91c70d34fd",
+          "sourceHash": "6b91c70d34fd",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-139",
+          "path": "Prydwen/endfield/assets/gear/gear-139-6b91c70d34fd.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "878ac8b93409",
+          "sourceHash": "878ac8b93409",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-14",
+          "path": "Prydwen/endfield/assets/gear/gear-14-878ac8b93409.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "e9a04471a2be",
+          "sourceHash": "e9a04471a2be",
+          "kind": "gear",
+          "name": "Gear Set",
+          "fileStem": "gear-37",
+          "path": "Prydwen/endfield/assets/gear/gear-37-e9a04471a2be.webp",
+          "width": 50,
+          "height": 50
+        }
+      ]
+    },
+    {
+      "id": "description-55",
+      "level": 6,
+      "heading": "Description",
+      "text": "In situations where Eternal Xiranite is already being used by another operator, the LYNX set offers a good balance of buff value - with a hefty increase to Liino's Amp owing to double Slabs - and sustain - with the set effect making it much harder for Liino and other non-controlled operators to die against aggressive enemies.",
+      "assets": []
+    },
+    {
+      "id": "pieces-56",
+      "level": 6,
+      "heading": "Pieces",
+      "text": "Armor\n Eternal Xiranite Light Armor Eternal Xiranite\n\n Gloves\n LYNX Gauntlets T1 LYNX\n\n Kit\n LYNX Slab LYNX\n\n Kit\n LYNX Slab LYNX",
+      "assets": [
+        {
+          "id": "5f92f82aa557",
+          "sourceHash": "5f92f82aa557",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-142",
+          "path": "Prydwen/endfield/assets/gear/gear-142-5f92f82aa557.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "db17783dfcb0",
+          "sourceHash": "db17783dfcb0",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-147",
+          "path": "Prydwen/endfield/assets/gear/gear-147-db17783dfcb0.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "120fdd57c9bd",
+          "sourceHash": "120fdd57c9bd",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-41",
+          "path": "Prydwen/endfield/assets/gear/gear-41-120fdd57c9bd.webp",
+          "width": 70,
+          "height": 70
+        }
+      ]
+    },
+    {
+      "id": "alternative-pieces-57",
+      "level": 6,
+      "heading": "Alternative Pieces",
+      "text": "LYNX Cuirass, Eternal Xiranite Auxiliary Arm - Double LYNX Slabs are great, but this does lead to less Ultimate Gain Efficiency than Auxiliary Arm set-ups with Eternal Xiranite. By trading out 1 LYNX Slab for an Eternal Xiranite Auxiliary Arm, this can match up to the Eternal Xiranite set in Ultimate Gain Efficiency with only a slight WILL loss, which can be a worthwhile trade-off if the sustain from the LYNX set is desired.\n\n 3\n No Set",
+      "assets": []
+    },
+    {
+      "id": "description-58",
+      "level": 6,
+      "heading": "Description",
+      "text": "In some situations, like on full Ultimate Energy starts, or if at P5, Liino can give up on Ultimate Gain Efficiency altogether and focus on maximising her WILL for better Ultimate Amp scaling instead. At P0, this will be worse than Eternal Xiranite for most teams, but it offers greater gains than LYNX if the set is filled by another operator when Ultimate Energy isn't a concern.",
+      "assets": []
+    },
+    {
+      "id": "pieces-59",
+      "level": 6,
+      "heading": "Pieces",
+      "text": "Armor\n Rift Trekker Heavy Armor\n\n Gloves\n Rift Trekker Hands\n\n Kit\n LYNX Slab LYNX\n\n Kit\n LYNX Slab LYNX",
+      "assets": [
+        {
+          "id": "da37226de93d",
+          "sourceHash": "da37226de93d",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-148",
+          "path": "Prydwen/endfield/assets/gear/gear-148-da37226de93d.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "a6785db56762",
+          "sourceHash": "a6785db56762",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-150",
+          "path": "Prydwen/endfield/assets/gear/gear-150-a6785db56762.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "120fdd57c9bd",
+          "sourceHash": "120fdd57c9bd",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-41",
+          "path": "Prydwen/endfield/assets/gear/gear-41-120fdd57c9bd.webp",
+          "width": 70,
+          "height": 70
+        }
+      ]
+    },
+    {
+      "id": "alternative-pieces-60",
+      "level": 6,
+      "heading": "Alternative Pieces",
+      "text": "Eternal Xiranite Light Armor, Aethertech Light Gloves - If at P5, Liino would still demand some level of Ultimate Gain Efficiency even if at 5 Combo Skill uses on a 600 SP rotation, owing to the SP return on her Talent and P1. For this, Eternal Xiranite Light Armor is the best alternative. As for Aethertech, although Rift Trekker does provide higher WILL, the combined increase in damage multipliers from Liino's P3 and P5 means that sacrificing on a bit of WILL for All Skill DMG Dealt Bonus can yield better results.",
+      "assets": []
+    },
+    {
+      "id": "best-gear-pieces-62",
       "level": 3,
       "heading": "Best Gear Pieces",
       "text": "Liino is a Support, hence there will be no calculations available for them to show the various gear pieces and their percentage difference.",
       "assets": []
     },
     {
-      "id": "potentials-review-38",
+      "id": "potentials-review-64",
       "level": 2,
       "heading": "Potentials Review",
-      "text": "Liino dupes reviews aren't available yet. They will be added soon.",
+      "text": "P 1\n Flawless Stage Work\n\n This effectively makes Liino's first Battle Skill free to use, with it consuming no SP nor giving any Ultimate Energy back as a result. Unfortunately, this can cause problems with rotations as the SP return from her Talent adds up, especially for other operators that also have SP return and/or get it from their Potentials. Although most rotations should be fine, it's worth checking if a specific combination will face issues with this (e.g. an Arcane P1 + Tangtang P1 team). In cases where it is a problem, re-casting Liino's Battle Skill for the SP spend can be used as a workaround. Energy aside, the ATK % bonus is nice and works as a direct damage increase.\n\n P 2\n Committed Rehearsals\n\n A generic attribute increase. Treatment Efficiency does nothing for damage, but the higher WILL is helpful at increasing Liino's Amp scaling. With a Main Attribute Kit and Bedazzling Night Debut, it's only a 1.24% increase to her Amp, so it's useful, but nothing stellar.\n\n P 3\n Longing for the Horizon\n\n The 1 second reduction to Combo Skill cooldown can be situationally useful, allowing for much more consistent rotations in some teams. This may give her an additional Combo Skill use depending on the length of the rotation, but such scenarios are very niche. The x1.4 increase to Combo Skill DMG and healing sounds big, but Liino's personal damage isn't too significant at this point for it to matter much.\n\n P 4\n Meteoric Rhythm\n\n The standard Ultimate Energy cost reduction Potential. The benefit from this can vary wildly: some teams can sustain enough Combo Skill uses that she gets no value, as Liino will be using the same gear pieces regardless. Others, like those which demand x2 Ultimate Gain Efficiency Kits, see a significant uplift as it can open up LYNX Slab as a Kit option, giving a notable increase to her Amp. The biggest gain however, comes when Liino is at P5, as it allows her to run full WILL set-ups for the strongest buffs.\n\n P 5\n Heart-Whipping Q&A\n\n By far Liino's best Potential. The x1.2 increase to Ultimate Amp is applied to the % gain (30% becomes 36%, 50% becomes 60%, and so on), but Amp itself is a damage multiplier. Going from x1.3 to x1.36 is a 4.6% relative increase, but going from x1.5 to x1.6 is a 6.6% increase instead. This makes WILL have an outsized impact on Liino's buff value, to the point that she gets more damage by dropping Eternal Xiranite and running pure WILL set-ups, which is possible in some teams owing to P4. The x1.2 increase to Ultimate and Battle Skill DMG helps her contribute more in personal damage, to the point sacrificing some WILL for DMG % bonuses could even yield better results.",
       "assets": []
     },
     {
-      "id": "calculations-40",
+      "id": "calculations-66",
       "level": 3,
       "heading": "Calculations",
       "text": "Liino is a Support, hence there will be no calculations available for them to show the team setup and damage split.",
       "assets": []
     },
     {
-      "id": "skill-priority-42",
-      "level": 2,
-      "heading": "Skill Priority",
-      "text": "Liino skill priority information aren't available yet. They will be added soon.\n\n Teams and Synergies",
+      "id": "off-field-69",
+      "level": 6,
+      "heading": "Off Field :",
+      "text": "Ultimate > Combo Skill = Battle Skill > Basic Attack\n\n Teams and Synergies",
       "assets": []
     },
     {
-      "id": "synergies-44",
+      "id": "synergies-71",
       "level": 3,
       "heading": "Synergies",
-      "text": "Liino synergies aren't available yet. They will be added soon.",
+      "text": "Electric\n\n Zhuang Fangyi Electric\n\n Fangyi is one of the most reliable ways to trigger Liino’s Combo Skill owing to her Electrification consumption, lessening Energy demands and making Liino a net SP contributor, condensing rotations.\n\n Liino’s Amp duration is long enough that she can fully buff a Finisher and up to 3 enhanced Battle Skills, more than most other operators that’d compete for the slot.\n\n The free Electrification on Liino’s Ultimate can be used alongside other operators (like Perlica) to maximise the DMG and scaling on Fangyi’s Battle Skills.\n\n Amp is partially saturated by Fangyi’s Talent, and 15 seconds isn’t anywhere near enough to cover all the enhanced Battle Skills in an Ultimate state.\n\n Nature\n\n Arcane Nature\n\n Arcane’s damage may be loaded on her 2nd Ultimate, but no small amount of it comes on the lead-up to it, and Liino’s Amp lasts long enough to cover it all.\n\n As Arcane prioritises Corrosion and her Ultimate forcefully applies it, she has multiple ways of providing Liino with Combo Skill triggers when other teammates can’t.\n\n Arcane teams tend to have steep SP requirements (700+ before Ultimate!), so Liino’s low resource demands make her easy to slot in.\n\n The high amount of Amp from Arcane’s teams (e.g. Xaihi) as well as her own Ultimate state lessen the value that Liino can provide.\n\n Electric\n\n Avywenna Electric\n\n Avywenna and her teams see little saturation on the buffs provided by Liino, increasing their value.\n\n Liino’s relatively long Amp means that she is able to buff the entirety of the burst, rather than just a few skills (e.g. Link).\n\n Liino is a great flex pick who can replace most previous operators used in Avywenna teams, being a significant uplift regardless of account investment.\n\n Buff alignment can be difficult (like not overwriting Perlica’s Electrification), and Avywenna’s inability to consume Electrifications means fewer Liino Combo Skill triggers.\n\n Electric\n\n Perlica Electric\n\n Forced Electrification on Perlica’s Combo Skill is one of the most accessible ways to access Liino’s own Combo Skill, often being the driving force behind her rotations.\n\n Liino’s buffs aren’t only for carries, they’re team-wide. As Perlica can do decent damage herself, the increase to her total contribution can make a difference.\n\n The Arts DMG Taken that Perlica can provide (be it through Electrification or Detonation Unit) is diversified from Liino’s buffs, maximising each others’ value.\n\n The Electrification on Liino’s Ultimate can overlap with Perlica’s own, and the loss of a high Arts Intensity, P4 buffed Electrification can tank team damage.\n\n Nature\n\n Ardelia Nature\n\n Ardelia’s forced Corrosion can trigger Liino’s Combo Skill, as can her Battle Skill, which consumes it.\n\n Ardelia can be the Eternal Xiranite holder in a team, which can increase Liino’s contributions by enabling double LYNX Slab set-ups.\n\n Liino’s lack of SP demands frees the resource up for Ardelia, and Susceptibility is a diversified buff from Liino’s Amp and ATK.\n\n Ardelia’s SP requirements and long Susceptibility duration means that it isn’t used often, limiting the number of Liino Combo Skill triggers and often leading to longer rotations.\n\n Nature\n\n Gilberta Nature\n\n Both Gilberta and Liino have their Combo Skills be triggered by Arts Reactions, meaning a team that slots one can usually slot the other.\n\n Liino using Eternal Xiranite opens up full Arts Intensity options for Gilberta, or alternatively Gilberta can use it to allow for double LYNX Slab set-ups on Liino, which are more likely to work owing to the Messenger Song Talent.\n\n Gilberta’s forced Lift can help make up for Liino’s low stagger contribution in teams with few Combo Skill triggers.\n\n The mismatch between Gilberta and Liino’s Ultimate buff durations can make for awkward rotations.",
+      "assets": [
+        {
+          "id": "ae1ff97576c0",
+          "sourceHash": "ae1ff97576c0",
+          "kind": "characters",
+          "name": "Zhuang Fangyi",
+          "fileStem": "zhuang-fangyi-icon",
+          "path": "Prydwen/endfield/assets/characters/zhuang-fangyi-ae1ff97576c0.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "21e0d5281fdd",
+          "sourceHash": "21e0d5281fdd",
+          "kind": "icons",
+          "name": "Electric",
+          "fileStem": "element-electric",
+          "path": "Prydwen/endfield/assets/icons/electric-21e0d5281fdd.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "647c6800c6a1",
+          "sourceHash": "647c6800c6a1",
+          "kind": "characters",
+          "name": "Arcane",
+          "fileStem": "arcane-icon",
+          "path": "Prydwen/endfield/assets/characters/arcane-647c6800c6a1.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "3c1cc57bcd5f",
+          "sourceHash": "3c1cc57bcd5f",
+          "kind": "icons",
+          "name": "Nature",
+          "fileStem": "element-nature",
+          "path": "Prydwen/endfield/assets/icons/nature-3c1cc57bcd5f.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "ee3f25e30847",
+          "sourceHash": "ee3f25e30847",
+          "kind": "characters",
+          "name": "Avywenna",
+          "fileStem": "avywenna-icon",
+          "path": "Prydwen/endfield/assets/characters/avywenna-ee3f25e30847.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "34393427391b",
+          "sourceHash": "34393427391b",
+          "kind": "characters",
+          "name": "Perlica",
+          "fileStem": "perlica-icon",
+          "path": "Prydwen/endfield/assets/characters/perlica-34393427391b.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "15421cba5670",
+          "sourceHash": "15421cba5670",
+          "kind": "characters",
+          "name": "Ardelia",
+          "fileStem": "ardelia-icon",
+          "path": "Prydwen/endfield/assets/characters/ardelia-15421cba5670.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "e0644812a9c1",
+          "sourceHash": "e0644812a9c1",
+          "kind": "characters",
+          "name": "Gilberta",
+          "fileStem": "gilberta-icon",
+          "path": "Prydwen/endfield/assets/characters/gilberta-e0644812a9c1.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "teams-73",
+      "level": 3,
+      "heading": "Teams",
+      "text": "Liino teams aren't listed in any specific order - so they're not listed best to worst or vice versa. Check our Team Tier List for more information about best teams.\n\n Team #1",
       "assets": []
     },
     {
-      "id": "teams-46",
-      "level": 3,
-      "heading": "Teams",
-      "text": "Liino teams aren't listed in any specific order - so they're not listed best to worst or vice versa. Check our Team Tier List for more information about best teams.\n\n Liino team compositions aren't available yet. They will be added soon.",
+      "id": "team-members-74",
+      "level": 6,
+      "heading": "Team Members",
+      "text": "Zhuang Fangyi\n\n Perlica\n\n Arclight\n\n Liino",
+      "assets": [
+        {
+          "id": "ae1ff97576c0",
+          "sourceHash": "ae1ff97576c0",
+          "kind": "characters",
+          "name": "Zhuang Fangyi",
+          "fileStem": "zhuang-fangyi-icon",
+          "path": "Prydwen/endfield/assets/characters/zhuang-fangyi-ae1ff97576c0.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "34393427391b",
+          "sourceHash": "34393427391b",
+          "kind": "characters",
+          "name": "Perlica",
+          "fileStem": "perlica-icon",
+          "path": "Prydwen/endfield/assets/characters/perlica-34393427391b.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "ae3ab8fe6aa1",
+          "sourceHash": "ae3ab8fe6aa1",
+          "kind": "characters",
+          "name": "Arclight",
+          "fileStem": "arclight-icon",
+          "path": "Prydwen/endfield/assets/characters/arclight-ae3ab8fe6aa1.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "b6c6f96b12f0",
+          "sourceHash": "b6c6f96b12f0",
+          "kind": "characters",
+          "name": "Liino",
+          "fileStem": "liino-icon",
+          "path": "Prydwen/endfield/assets/characters/liino-b6c6f96b12f0.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "rotation-75",
+      "level": 6,
+      "heading": "Rotation",
+      "text": "Zhuang Fangyi Gear: Xiranflow Light Armor, Xiranflow Gloves, Xiranflow Baton, LYNX Slab, Lone Barge\n\n Perlica Gear: Qingbo Light Armor, Pulser Labs Gloves, Qingbo Cask × 2, Wild Wanderer\n\n Arclight Gear: Frontiers Protection Suit, Frontiers Fiber Gloves T1, Frontiers Extra O2 Tube, Redeemer Seal, Thermite Cutter\n\n Liino Gear: Eternal Xiranite Light Armor, Eternal Xiranite Hands, Eternal Xiranite Bracing Slab, LYNX Slab, Bedazzling Night Debut\n See rotation at 00:21 on the embedded video. Check back later for a full rotation breakdown!\n\n 0 s\n 1 s\n 2 s\n 3 s\n 4 s\n 5 s\n 6 s\n 7 s\n 8 s\n 9 s\n 10 s\n 11 s\n 12 s\n 13 s\n 14 s\n 15 s\n 16 s\n 17 s\n 18 s\n 19 s\n 20 s\n 21 s\n 22 s\n 23 s\n 24 s\n 25 s\n 26 s\n 27 s\n 28 s\n 29 s\n 30 s\n\n Final Strike\n\n Battle Skill\n\n Final Strike\n\n Combo Skill\n\n Battle Skill\n\n Final Strike\n\n Final Strike\n\n Battle Skill\n\n Final Strike\n\n Combo Skill\n\n Battle Skill\n\n Final Strike\n\n Battle Skill\n\n Finisher\n\n Ultimate\n\n Battle Skill\n\n Final Strike\n\n Combo Skill\n\n Battle Skill\n\n Final Strike\n\n Combo Skill\n\n Battle Skill\n\n Combo Skill\n\n Battle Skill\n\n Combo Skill\n\n Combo Skill\n\n Ultimate\n\n Combo Skill\n\n Combo Skill\n\n Combo Skill\n\n Combo Skill\n\n Combo Skill\n\n Combo Skill\n\n Combo Skill\n\n Ultimate\n\n Combo Skill\n\n Combo Skill\n\n Combo Skill\n\n Combo Skill\n\n Combo Skill\n\n Combo Skill\n\n Ultimate\n\n Combo Skill\n\n Battle Skill\n\n Combo Skill\n\n Combo Skill\n\n Combo Skill\n\n Combo Skill\n\n Combo Skill\n\n Ultimate\n\n Team #2",
+      "assets": [
+        {
+          "id": "ae1ff97576c0",
+          "sourceHash": "ae1ff97576c0",
+          "kind": "characters",
+          "name": "Zhuang Fangyi",
+          "fileStem": "zhuang-fangyi-icon",
+          "path": "Prydwen/endfield/assets/characters/zhuang-fangyi-ae1ff97576c0.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "34393427391b",
+          "sourceHash": "34393427391b",
+          "kind": "characters",
+          "name": "Perlica",
+          "fileStem": "perlica-icon",
+          "path": "Prydwen/endfield/assets/characters/perlica-34393427391b.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "ae3ab8fe6aa1",
+          "sourceHash": "ae3ab8fe6aa1",
+          "kind": "characters",
+          "name": "Arclight",
+          "fileStem": "arclight-icon",
+          "path": "Prydwen/endfield/assets/characters/arclight-ae3ab8fe6aa1.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "b6c6f96b12f0",
+          "sourceHash": "b6c6f96b12f0",
+          "kind": "characters",
+          "name": "Liino",
+          "fileStem": "liino-icon",
+          "path": "Prydwen/endfield/assets/characters/liino-b6c6f96b12f0.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "team-members-76",
+      "level": 6,
+      "heading": "Team Members",
+      "text": "Arcane\n\n Tangtang\n\n Xaihi\n\n Liino",
+      "assets": [
+        {
+          "id": "647c6800c6a1",
+          "sourceHash": "647c6800c6a1",
+          "kind": "characters",
+          "name": "Arcane",
+          "fileStem": "arcane-icon",
+          "path": "Prydwen/endfield/assets/characters/arcane-647c6800c6a1.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "01dc84e9ffad",
+          "sourceHash": "01dc84e9ffad",
+          "kind": "characters",
+          "name": "Tangtang",
+          "fileStem": "tangtang-icon",
+          "path": "Prydwen/endfield/assets/characters/tangtang-01dc84e9ffad.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "b26fc37d4ba6",
+          "sourceHash": "b26fc37d4ba6",
+          "kind": "characters",
+          "name": "Xaihi",
+          "fileStem": "xaihi-icon",
+          "path": "Prydwen/endfield/assets/characters/xaihi-b26fc37d4ba6.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "b6c6f96b12f0",
+          "sourceHash": "b6c6f96b12f0",
+          "kind": "characters",
+          "name": "Liino",
+          "fileStem": "liino-icon",
+          "path": "Prydwen/endfield/assets/characters/liino-b6c6f96b12f0.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "rotation-77",
+      "level": 6,
+      "heading": "Rotation",
+      "text": "Arcane Gear: Hot Work Exo-Rig, Hot Work Hands PPE, Hot Work Insulation Slab, LYNX Slab, Type 42: Solemn Phalanx\n\n Tangtang Gear: Bonekrusha Heavy Armor T2, Bonekrusha Wristband T1, Bonekrusha Mask T2, LYNX Slab, Brigand’s Calling\n\n Xaihi Gear: Redeemer Armor, AIC Fieldwork Wraps, Frontiers Extra 02 Tube T1 × 2, Detonation Unit\n\n Liino Gear: Eternal Xiranite Light Armor, Eternal Xiranite Hands, Eternal Xiranite Auxiliary Arm × 2, Bedazzling Night Debut\n\n See rotation at 03:32 on the embedded video. Check back later for a full rotation breakdown!\n\n 0 s\n 1 s\n 2 s\n 3 s\n 4 s\n 5 s\n 6 s\n 7 s\n 8 s\n 9 s\n 10 s\n 11 s\n 12 s\n 13 s\n 14 s\n 15 s\n 16 s\n 17 s\n 18 s\n 19 s\n 20 s\n 21 s\n 22 s\n 23 s\n 24 s\n 25 s\n 26 s\n 27 s\n 28 s\n 29 s\n 30 s\n\n Final Strike\n\n Final Strike\n\n Final Strike\n\n Final Strike\n\n Combo Skill\n\n Final Strike\n\n Final Strike\n\n Final Strike\n\n Combo Skill\n\n Battle Skill\n\n Final Strike\n\n Final Strike\n\n Final Strike\n\n Final Strike\n\n Combo Skill\n\n Ultimate\n\n Battle Skill\n\n Finisher\n\n Final Strike\n\n Combo Skill\n\n Battle Skill\n\n Ultimate\n\n Battle Skill\n\n Combo Skill\n\n Combo Skill\n\n Battle Skill\n\n Combo Skill\n\n Battle Skill\n\n Combo Skill\n\n Battle Skill\n\n Combo Skill\n\n Ultimate\n\n Ultimate\n\n Battle Skill\n\n Combo Skill\n\n Battle Skill\n\n Combo Skill\n\n Battle Skill\n\n Combo Skill\n\n Ultimate\n\n Battle Skill\n\n Combo Skill\n\n Combo Skill\n\n Ultimate\n\n Team #3",
+      "assets": [
+        {
+          "id": "647c6800c6a1",
+          "sourceHash": "647c6800c6a1",
+          "kind": "characters",
+          "name": "Arcane",
+          "fileStem": "arcane-icon",
+          "path": "Prydwen/endfield/assets/characters/arcane-647c6800c6a1.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "01dc84e9ffad",
+          "sourceHash": "01dc84e9ffad",
+          "kind": "characters",
+          "name": "Tangtang",
+          "fileStem": "tangtang-icon",
+          "path": "Prydwen/endfield/assets/characters/tangtang-01dc84e9ffad.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "b26fc37d4ba6",
+          "sourceHash": "b26fc37d4ba6",
+          "kind": "characters",
+          "name": "Xaihi",
+          "fileStem": "xaihi-icon",
+          "path": "Prydwen/endfield/assets/characters/xaihi-b26fc37d4ba6.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "b6c6f96b12f0",
+          "sourceHash": "b6c6f96b12f0",
+          "kind": "characters",
+          "name": "Liino",
+          "fileStem": "liino-icon",
+          "path": "Prydwen/endfield/assets/characters/liino-b6c6f96b12f0.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "team-members-78",
+      "level": 6,
+      "heading": "Team Members",
+      "text": "Avywenna\n\n Perlica\n\n Gilberta\n\n Liino",
+      "assets": [
+        {
+          "id": "ee3f25e30847",
+          "sourceHash": "ee3f25e30847",
+          "kind": "characters",
+          "name": "Avywenna",
+          "fileStem": "avywenna-icon",
+          "path": "Prydwen/endfield/assets/characters/avywenna-ee3f25e30847.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "34393427391b",
+          "sourceHash": "34393427391b",
+          "kind": "characters",
+          "name": "Perlica",
+          "fileStem": "perlica-icon",
+          "path": "Prydwen/endfield/assets/characters/perlica-34393427391b.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "e0644812a9c1",
+          "sourceHash": "e0644812a9c1",
+          "kind": "characters",
+          "name": "Gilberta",
+          "fileStem": "gilberta-icon",
+          "path": "Prydwen/endfield/assets/characters/gilberta-e0644812a9c1.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "b6c6f96b12f0",
+          "sourceHash": "b6c6f96b12f0",
+          "kind": "characters",
+          "name": "Liino",
+          "fileStem": "liino-icon",
+          "path": "Prydwen/endfield/assets/characters/liino-b6c6f96b12f0.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "rotation-79",
+      "level": 6,
+      "heading": "Rotation",
+      "text": "Avywenna Gear: Bonekrusha Poncho T1, Bonekrusha Gloves, Bonekrusha Figurine, LYNX Slab, JET\n\n Perlica Gear: Pulser Labs Disruptor Suit, Pulser Labs Gloves, Pulser Labs Calibrator × 2, Detonation Unit\n\n Gilberta Gear: Eternal Xiranite Light Armor, Hot Work Gloves, Hot Work Power Cartridge × 2, Delivery Guaranteed\n\n Liino Gear: Eternal Xiranite Light Armor, Eternal Xiranite Hands, Eternal Xiranite Auxiliary Arm, LYNX Slab, Bedazzling Night Debut\n\n Check back later for a full rotation breakdown video!",
       "assets": []
     }
   ],
@@ -257,7 +1230,7 @@
         },
         {
           "heading": "Teams",
-          "text": "Liino teams aren't listed in any specific order - so they're not listed best to worst or vice versa. Check our Team Tier List for more information about best teams.\n\n Liino team compositions aren't available yet. They will be added soon.",
+          "text": "Liino teams aren't listed in any specific order - so they're not listed best to worst or vice versa. Check our Team Tier List for more information about best teams.\n\n Team #1",
           "assets": []
         }
       ]
@@ -267,8 +1240,29 @@
       "sections": [
         {
           "heading": "Best Weapons",
-          "text": "Liino best Weapons aren't available yet. They will be added soon.",
-          "assets": []
+          "text": "Liino best Weapons are placed in order of what fits their playstyle the most . Check the comments to get additional context.\n\n 1\n\n Bedazzling Night Debut (P 0 )\n\n Liino's Signature weapon, and it's a significant improvement over any other option. It has a matching main attribute on line 1 and Treatment Efficiency on line 2. The former is expected and a must have for Amp scaling, whereas the latter is a middling bonus that helps in survivability but offers no damage contribution to the team. The strength of this weapon is loaded on its line 3, which gives 25.6% in Main Attribute bonus at P0 as well as a stacking ATK buff that affects other operators on healing them that lasts 20s and caps out at 22.4%. The boost to Liino's WILL can amount to an increase of over 7% in Amp scaling, and the ATK buff is a competitive multiplier as it tends to see less saturation in her teams. Although it does demand heals to build up, Liino triggers them often enough that it's capped out at most within 12 seconds of her Battle Skill use, which is then sustained over the course of an entire fight as she will follow around the controlled operator while in its Stance. Note that as it is on healing, operators outside of the range of her Battle Skill may struggle to have full uptime of this, which makes it important to prioritise controlling main damage dealers.\n\n 2\n\n Golden Age (P 5 )\n\n The Battle Pass weapon alternative, and the best non-Signature pick. It has the same line 1 and line 2 as her Signature, with WILL and Treatment Efficiency respectively, but a far weaker line 3. It provides a middling increase to Electric DMG Dealt for Liino, and up to 14% in Arts DMG Dealt to the team after healing for 20s. This is weaker than even 5-star weapons, like Wild Wanderer, OBJ Arts Identifier and Edge of Lightness, and can see significant saturation in some of the teams Liino runs in. It still better than anything else at P5 though, and the gap between it and her Signature lessens the more saturated teams are in ATK and the less saturated they are in DMG Dealt.",
+          "assets": [
+            {
+              "id": "15ec9994063c",
+              "sourceHash": "15ec9994063c",
+              "kind": "weapons",
+              "name": "Weapon",
+              "fileStem": "weapon-76",
+              "path": "Prydwen/endfield/assets/weapons/weapon-76-15ec9994063c.webp",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "id": "e410cbd7f1ae",
+              "sourceHash": "e410cbd7f1ae",
+              "kind": "weapons",
+              "name": "Weapon",
+              "fileStem": "weapon-74",
+              "path": "Prydwen/endfield/assets/weapons/weapon-74-e410cbd7f1ae.webp",
+              "width": 70,
+              "height": 70
+            }
+          ]
         }
       ]
     },
@@ -277,8 +1271,19 @@
       "sections": [
         {
           "heading": "Best Gear",
-          "text": "Liino best Gear aren't available yet. They will be added soon.",
-          "assets": []
+          "text": "Liino best sets are placed in order of what fits their playstyle the most . Check the comments to get additional context.\n\n 1\n\n Eternal Xiranite",
+          "assets": [
+            {
+              "id": "878ac8b93409",
+              "sourceHash": "878ac8b93409",
+              "kind": "gear",
+              "name": "Gear Set",
+              "fileStem": "gear-14",
+              "path": "Prydwen/endfield/assets/gear/gear-14-878ac8b93409.webp",
+              "width": 50,
+              "height": 50
+            }
+          ]
         },
         {
           "heading": "Best Gear Pieces",
@@ -288,6 +1293,167 @@
       ]
     }
   },
-  "tables": [],
-  "text": "Liino Best Build Guide | Arknights: Endfield\n \n\n Arknights: Endfield\n Home Database Characters Gear Weapons\n Tier Lists Tier List Team Tier List\n Guides Guides\n Tools Team Builder Adv. Team Builder Rotation Builder Gacha Simulator Material Planner Character Comparison Patch Timeline\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Arknights: Endfield\n /\n Characters\n /\n Liino\n Liino Best Build Guide\n Last updated: 16/July/2026\n\n Introduction\n\n Liino is a 6 -star character in Arknights: Endfield (AKE). Liino wields a Polearm and belongs to the Supporter class. Liino also has access to the Electric element. This guide provides a comprehensive overview of Liino 's best build, including recommended Weapons, Gear pieces, Stats, and the strongest team compositions and rotations that maximize their potential.\n\n To learn more about Liino check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - whether it's best build, teams, synergies or calculations.\n\n Video guide\n\n Liino has no video guide yet.\n\n Update tracker\n\n Last review update\n Not yet available\n\n Last major build/calcs update\n Not yet available\n\n Last profile update*\n 16/July/2026\n\n *Profile update means smaller edits to the guide that don't require new calculations.\n\n To learn more about Liino check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - whether it's best build, teams, synergies or calculations.\n\n Kit\n\n Review\n\n Build\n\n Best Teams\n\n Profile\n\n Attributes (level 90)\n\n The yellow color shows the Primary Attribute and the green Secondary Attribute . Both of those attributes, on top of their normal bonuses, provide additional ATK to the character.\n Liino attributes aren't available yet. They will be added soon!\n\n Skills\n\n Basic Attack\n Starry Heart Throb\n\n BASIC ATTACK:\n Liino can perform up to 5 basic attack sequences, dealing Electric DMG to the enemy. When performing a Finisher on an enemy, Liino deals massive Electric DMG and restores some SP.\n\n DIVE ATTACK:\n\n FINISHER:\n\n Battle Skill\n Dazzling Focus\n\n Costs a small amount of SP to deal Electric DMG to enemies, and then enters Vocalist Stance for an extended period. While this stance is active, Liino grants the entire team an ATK Boost, provides HP Treatment to operators within range, and periodically performs additional attacks on nearby enemies.\n\n Combo Skill\n Delightful Harmonics\n\n Deals Electric DMG to enemies, grants HP Treatment to the controlled operator, and gains additional Ultimate Energy to herself.\n\n Trigger: While Vocalist Stance is active, when an Arts Reaction is consumed or applied on an enemy.\n\n Ultimate\n Dawnstar Concerto\n\n Liino gives HP Treatment to the entire team while entering Cosmovoice Stance for a period of time, dealing DMG and forcibly applying Electrification to enemies in a large area of effect (AOE). While active, this stance continuously grants powerful buffs and HP Treatment to allied operators while dealing continuous DMG to enemies.\n\n Talents\n\n Liino Talents are currently missing. They will be added soon!\n\n Potential (dupes)\n\n Liino Potential information are currently missing. They will be added soon!\n\n Lore\n\n Liino lore is currently missing. It will be added soon!\n\n Voice Actors\n\n ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -\n\n Gallery\n\n Review\n\n Ratings\n\n Liino ratings aren't available yet. It will be added soon!\n\n Pros & Cons\n\n Liino pros & cons aren't available yet. They will be added soon.\n\n Review\n\n Liino review isn't available yet. It will be added soon!\n\n Build\n\n Best Weapons\n\n Liino best Weapons aren't available yet. They will be added soon.\n\n Best Gear\n\n Liino best Gear aren't available yet. They will be added soon.\n\n Best Gear Pieces\n\n Liino is a Support, hence there will be no calculations available for them to show the various gear pieces and their percentage difference.\n\n Potentials Review\n\n Liino dupes reviews aren't available yet. They will be added soon.\n\n Calculations\n\n Liino is a Support, hence there will be no calculations available for them to show the team setup and damage split.\n\n Skill Priority\n\n Liino skill priority information aren't available yet. They will be added soon.\n\n Teams and Synergies\n\n Synergies\n\n Liino synergies aren't available yet. They will be added soon.\n\n Teams\n\n Liino teams aren't listed in any specific order - so they're not listed best to worst or vice versa. Check our Team Tier List for more information about best teams.\n\n Liino team compositions aren't available yet. They will be added soon."
+  "tables": [
+    {
+      "rows": [
+        [
+          "Ability",
+          "Uses",
+          "Energy",
+          "Total"
+        ],
+        [
+          "Battle Skill",
+          "6.25",
+          "6.5",
+          "40.625"
+        ],
+        [
+          "Combo Skill",
+          "5",
+          "20",
+          "100"
+        ],
+        [
+          "SP Return",
+          "50",
+          "6.5",
+          "-3.25"
+        ],
+        [
+          "Sum",
+          "",
+          "",
+          "137.375"
+        ],
+        [
+          "Ultimate Gain Efficiency",
+          "",
+          "16.47%",
+          "160"
+        ]
+      ]
+    },
+    {
+      "rows": [
+        [
+          "Ability",
+          "Uses",
+          "Energy",
+          "Total"
+        ],
+        [
+          "Battle Skill",
+          "6.25",
+          "6.5",
+          "40.625"
+        ],
+        [
+          "Combo Skill",
+          "4",
+          "20",
+          "80"
+        ],
+        [
+          "SP Return",
+          "40",
+          "6.5",
+          "-2.6"
+        ],
+        [
+          "Sum",
+          "",
+          "",
+          "118.025"
+        ],
+        [
+          "Ultimate Gain Efficiency",
+          "",
+          "35.57%",
+          "160"
+        ]
+      ]
+    },
+    {
+      "rows": [
+        [
+          "Ability",
+          "Uses",
+          "Energy",
+          "Total"
+        ],
+        [
+          "Battle Skill",
+          "6.25",
+          "6.5",
+          "40.625"
+        ],
+        [
+          "Combo Skill",
+          "3",
+          "20",
+          "60"
+        ],
+        [
+          "SP Return",
+          "30",
+          "6.5",
+          "-1.95"
+        ],
+        [
+          "Sum",
+          "",
+          "",
+          "98.675"
+        ],
+        [
+          "Ultimate Gain Efficiency",
+          "",
+          "62.15%",
+          "160"
+        ]
+      ]
+    },
+    {
+      "rows": [
+        [
+          "Ability",
+          "Uses",
+          "Energy",
+          "Total"
+        ],
+        [
+          "Battle Skill",
+          "6.25",
+          "6.5",
+          "40.625"
+        ],
+        [
+          "Combo Skill",
+          "2",
+          "20",
+          "40"
+        ],
+        [
+          "SP Return",
+          "20",
+          "6.5",
+          "-1.3"
+        ],
+        [
+          "Sum",
+          "",
+          "",
+          "79.325"
+        ],
+        [
+          "Ultimate Gain Efficiency",
+          "",
+          "101.71%",
+          "160"
+        ]
+      ]
+    }
+  ],
+  "text": "Liino Best Build Guide | Arknights: Endfield\n \n\n Arknights: Endfield\n Home Database Characters Gear Weapons\n Tier Lists Tier List Team Tier List\n Guides Guides\n Tools Team Builder Adv. Team Builder Rotation Builder Gacha Simulator Material Planner Character Comparison Patch Timeline\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Arknights: Endfield\n /\n Characters\n /\n Liino\n Liino Best Build Guide\n Last updated: 10/August/2026\n\n Introduction\n\n Liino is a 6 -star character in Arknights: Endfield (AKE). Liino wields a Polearm and belongs to the Supporter class. Liino also has access to the Electric element. This guide provides a comprehensive overview of Liino 's best build, including recommended Weapons, Gear pieces, Stats, and the strongest team compositions and rotations that maximize their potential.\n\n To learn more about Liino check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - whether it's best build, teams, synergies or calculations.\n\n Video guide\n\n Liino has no video guide yet.\n\n Update tracker\n\n Last review update\n Patch 1.4\n\n Last major build/calcs update\n Patch 1.4\n\n Last profile update*\n 10/August/2026\n\n *Profile update means smaller edits to the guide that don't require new calculations.\n\n To learn more about Liino check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - whether it's best build, teams, synergies or calculations.\n\n Kit\n\n Review\n\n Build\n\n Best Teams\n\n Profile\n\n Attributes (level 90)\n\n The yellow color shows the Primary Attribute and the green Secondary Attribute . Both of those attributes, on top of their normal bonuses, provide additional ATK to the character.\n Strength\n 89\n\n Agility\n 121\n\n Intellect\n 91\n\n Will\n 177\n\n Skills\n\n Basic Attack\n Starry Heart Throb\n\n BASIC ATTACK:\n An attack with up to 5 sequences that deals Electric DMG . As the controlled operator, Final Strike also deals 19 Stagger .\n\n DIVE ATTACK:\n Basic attack performed in mid-air becomes a dive attack that deals Electric DMG to nearby enemies.\n\n FINISHER:\n Basic attack performed near a Stagger ed enemy becomes a finisher that deals massive Electric DMG and recovers some SP.\n\n Multipliers (Rank 12)\n\n Show Effects\n\n Battle Skill\n Dazzling Focus\n SP Cost : 25\n\n Liino deals Electric DMG to enemies and then enters her Vocalist Stance . While this stance is active, if there are enemies nearby, Liino will perform an Additional ATK (that deals Electric DMG to enemies) on a regular basis.\n Vocalist Stance : While this stance is active, Liino grants the entire team an ATK Boost. After entering battle, Liino will also grant continuous HP Treatment to operators within range.\n During Vocalist Stance, her battle skill is replaced with End Stance. Casting this will end her Vocalist Stance early without consuming any SP, after which the battle skill will enter a short cooldown.\n\n Multipliers (Rank 12)\n\n Show Effects\n\n Combo Skill\n Delightful Harmonics\n Cooldown: 10 s\n\n Liino deals Electric DMG to enemies, grants HP Treatment to the controlled operator, and gains additional Ultimate Energy.\n Casting the combo skill Delightful Harmonics does not interrupt Vocalist Stance.\n\n Trigger: While Vocalist Stance is active, an Arts Reaction is consumed or is applied on an enemy.\n\n Multipliers (Rank 12)\n\n Show Effects\n\n Ultimate\n Dawnstar Concerto\n Energy cost : 160\n\n Liino grants HP Treatment to the entire team, enters her Cosmovoice Stance at the same time, unleashes a continuous display of Stage Pyrotechnics that deals Electric DMG , and then triggers an Electrifying Extravaganza that deals Electric DMG and forcibly applies Electrification to enemies in a large area of effect (AOE).\n Cosmovoice Stance : This stance replaces Liino's Vocalist Stance. While active, the stance grants the entire team Electric Amp and Nature Amp (effects are further increased by the attribute of Will) as well as an ATK Boost. The beats of Liino's song also deal Electric DMG to enemies in the AOE and grant continuous HP Treatment to allied operators in the AOE. When the stance ends, deals 3 times the DMG from a single beat to enemies in the AOE, and grants 3 times the HP treatment from a single beat to the entire team. This effect does not trigger if the stance is ended early.\n During the stance, her battle skill is replaced with End Stance. Casting the battle skill during Cosmovoice Stance ends it early and does not consume any SP.\n\n Multipliers (Rank 12)\n\n Show Effects\n\n Talents\n\n Base Talent\n Idol Passion\n\n Assign to Reception Room to slow Mood Drop of all operators in it by 14/18% .\n\n Base Talent\n Stage Vibe That Lingers\n\n Assign to Control Nexus to grant all operators' Mood Regen +12/16% .\n\n Combat Talent\n Idol Zone\n\n During Vocalist Stance or Cosmovoice Stance, operators within the area of effect (AOE) gain Treatment Received Bonus +10/20% and DMG Taken -10/20% . These effects persist for 3s after leaving the AOE.\n\n Combat Talent\n Starry Boost of 1st Magnitude\n\n For 30s after casting Liino's combo skill Delightful Harmonics, casting a battle skill of an Electric or Nature operator returns 5/10 SP. This effect cannot stack and ends after triggering.\n\n Potential (dupes)\n\n P1\n Flawless Stage Work\n Potential 1\n\n After entering battle without her Vocalist Stance active, the first casting of the battle skill Dazzling Focus returns 25 additional SP. Effects of ATK Boost granted by Vocalist Stance and Cosmovoice Stance are increased by +6% .\n\n P2\n Committed Rehearsals\n Potential 2\n\n Will +20 , Treatment Efficiency +10% .\n\n P3\n Longing for the Horizon\n Potential 3\n\n Combo skill Delightful Harmonics improved : Length of cooldown -1s . DMG Multiplier and HP Treatment are increased to 1.4 times the original.\n\n P4\n Meteoric Rhythm\n Potential 4\n\n Ultimate Dawnstar Concerto improved: Ultimate Energy cost -15% .\n\n P5\n Heart-Whipping Q&A\n Potential 5\n\n Amp effect of Dawnstar Concerto is increased to 1.2 times the original. DMG Multipliers of battle skill Dazzling Focus and ultimate Dawnstar Concerto are increased to 1.2 times the original.\n\n Lore\n\n Liino lore is currently missing. It will be added soon!\n\n Voice Actors\n\n ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -\n\n Gallery\n\n Review\n\n Ratings\n\n Buffer\n T0\n Umbral Monument\n\n Pros & Cons\n\n Pros\n Easy-to-use character with 'set-and-forget' gameplay, providing very high buff value with few active management needs and even fewer resource demands.\n\n High passive healing and sustain, which isn't reliant on additional conditions (like hitting multiple enemies or collecting drops), making her very forgiving to use.\n\n Diversified buffs that tend to not be highly saturated (ATK, Amp), while also having flexible gearing options to cover multiple set combinations and Energy needs.\n\n Dealing with scalpers is no longer an issue when the Morning Star of La Fantoma can give you personal concerts for the low, low price of 25 SP.\n\n Cons\n Long Combo Skill animation and loss of interrupt immunity on cast can make it frustrating to use at times. The SP return that follows its use may also cause issues in some rotations.\n\n Being locked out of dodges during her stances means she can take on more damage than she can heal, ironically making her struggle in some aggressive encounters.\n\n Polearm user with middling personal damage, making her highly reliant on her Signature weapon for best performance.\n\n By purchasing this concert ticket, the consumer hereby releases, waives, and forever discharges the TGCC from any and all liability, claims, demands, or causes of action arising out of Djall witchcraft.\n\n Review\n\n 💡 Tip\n\n For this Endfield review and some additional content (e.g. rotations), we worked alongside Lin-0 . Any calculations and derived data are our own.\n\n Kit Intro\n Liino is a 6-star, Electric, Arts Unit Support who’s tailor-made to enhance the performance of Electric and Nature teams. She’s capable of providing incredibly strong buffs and healing at the press of a button.\n Through her “Stances”, she locks herself out of Basic Attacks, but in return gets a high interrupt resistance, boosts the team’s ATK and pulses out damage and healing. When reactions are applied or consumed, her Combo Skill can be used for a massive Energy boost, and when her Ultimate is ready, using it yields a very high Amp for Electric and Nature damage.\n Her general gameplay needs little direct player interaction: use her Battle Skill, then her Combo Skills as they come. As she can’t Basic Attack, there isn’t a reason to swap to her outside of very niche scenarios, and her Combo Skill cooldown is relatively low, so not much thought is required to align it with rotations.\n This simplicity beguiles how strong she is, because the raw value of these buffs and heals makes her competitive in all forms of endgame content.\n Battle Skill\n “Dazzling Focus” is Liino’s Battle Skill, and it’s the core of her kit. It costs only 25 SP, and on cast she will attack the enemy once and create an area around her, entering the “Vocalist Stance”. After 3 seconds, operators inside this area will be healed, the value of which scales with her AGI. Additional attacks then happen every 10 seconds, with healing pulses repeating every 3 seconds.\n This Battle Skill will build 3 stagger on cast, but only then. Additional attacks and healing pulses do not contribute to it.\n Liino will also buff the entire team with an ATK boost, maxing out at 10% at M3. Although operators must be inside of the area to receive healing, the ATK boost is applied unconditionally.\n The Vocalist Stance lasts for 60 seconds, and while it's up Liino will follow the controlled operator around, but it can be ended early, where it’ll go on a short 3-second cooldown before it can be used again. While it’s active, it has the unique property of locking Liino’s Basic Attacks and dodges. Pressing or holding Basic will lead to some special visual effects, like thumbs up, hearts and lightsticks appearing around her, but that’s all. Dodging will do nothing.\n Whether she’s controlled or non-controlled, her Basic Attacks cannot be used until she exits the stance, and she’s also unable to avoid enemy attacks while in the stance. She does, however, gain high interrupt resistance while in it, ensuring that she can’t be knocked out of the stance by enemy attacks.\n ℹ️ Info\n\n Since healing is tied to the local area effect, it’s still important to try to stay inside early on to ramp up stacks on her Signature if applicable.\n\n Ultimate\n “Dawnstar Concerto” is Liino’s Ultimate, costing 160 Energy, and like her Battle Skill, it will create an area that heals operators in it, buffs the team’s ATK and locks her out of both Basic Attacks and dodges. This is distinct from the Vocalist Stance, instead being the “Cosmovoice Stance”.\n Unlike the Battle Skill, however, the ATK bonus is fixed to 10% regardless of the level and pulses out for healing every 1.5 seconds. It also provides Electric and Nature Amp to the whole team, scaling with the skill’s level and Liino’s WILL attribute, maxing out at 60%, with a rate of 0.04% in Amp per point of WILL (1500 WILL total required).\n The cast of the Ultimate itself applies Amp and “Stage Pyrotechnics”, healing the whole team and doing some damage to nearby enemies. It’s only after a short while that it strikes with “Electrifying Extravaganza”, being a burst of damage building 20 stagger and forcibly applying Electrification to enemies hit. She will then remain in the stance for 15 seconds (from cast, not hit!), with the healing pulses also damaging enemies inside the area.\n Once the stance expires, it will do one final pulse for 3 times the healing and damage of a regular pulse and exit all stances . This resets Liino to a neutral state, so another Battle Skill cast would be required to bring her back to Vocalist Stance.\n ℹ️ Info\n\n Managing her Ultimate is very important, as it has a notable delay between its cast and the stagger/Electrification, which influences when it’s used in rotations.\n\n Combo Skill\n “Delightful Harmonics” is Liino’s Combo Skill, having a short 8-second cooldown, and dealing middling Electric DMG, healing the controlled operator and, most importantly, generating 20 Ultimate Energy on hit. It’s because of this skill that Liino’s 160 Energy Ultimate requirement isn’t as daunting as it first appears.\n It’s triggered when an Arts Reaction is applied or consumed while in the Vocalist Stance! That means this Combo Skill cannot be triggered during Ultimate (Cosmovoice Stance) or in a neutral state.\n Using it won’t end her Vocalist Stance, so it can be used freely while she’s in it. It will, however, temporarily halt its interrupt resistance as she executes the skill, so be careful with enemy attacks. If Liino is knocked down during her Combo, that will cancel her stance!\n It also happens to have a very low stagger value of 5. Given the low cooldown, though, it can match up or even exceed the stagger build of other operators if the team can sustain frequent uses.\n The main purpose of the Combo Skill is to build up to her Ultimate, but it can also help condense rotations, owing to her Talents.\n Talent\n “ Idol Zone ” is Liino’s first Talent, and it provides a 20% increase to Treatment received and a 20% DMG reduction buff to operators inside the AoE of her Stances. Even after leaving, the effects persist for another 3 seconds, and with Liino following the controlled operator around, it has very good uptime.\n It doesn’t provide any damage gains, as her ATK and Amp buffs apply regardless, but it’s a nice to have for survivability and could prove very useful for endgame modes like Contingency Contract.\n “ Starry Boost of 1st Magnitude ” is her second Talent, and after using her Combo Skill, the next Battle Skill of any Electric or Nature operator returns 10 SP.\n This effect does not stack and is consumed on trigger! So after using 1 Combo Skill, the 1 Electric or Nature Battle Skill will return 10 SP, but the 2nd, 3rd or any others after will not unless the Combo Skill is used again.\n Conversely, if using 2 Combo Skills with no Battle Skills between them, the effect still only applies to the next, singular Battle Skill.\n Depending on the number of Combo Skills used, this can make Liino be a net contributor to SP, as after 30 SP being returned, she’s adding more to the team than what was used on her Battle Skill.\n ℹ️ Info\n\n The SP return can cause issues in some rotations, especially at higher Potentials! Do the math on Energy breakpoints and see if the number of Combo Skills and Battle Skills following them would demand adjustments.\n\n Basic Attack\n “ Starry Heart Throb ” is Liino's Basic Attack, and happens to be surprisingly good. It’s a 5-sequence string, which recovers 19 SP and deals 20 stagger on its Final Strike.\n Its multipliers aren’t extraordinary, but it has animation cancel points on every single one of its sequences:\n Basic 1 can be cancelled after the first swing.\n\n Basic 2 can be cancelled as soon as purple effects appear on the Polearm twirl.\n\n Basic 3 can be cancelled when projectiles begin firing.\n\n Basic 4 can also be cancelled when projectiles begin firing.\n\n What holds it back is the dodge cooldown, with Basic 2 and 4 giving the greatest time saves. With proper cancelling, having some of the best time to stagger/SP ratios of any non-Greatsword operator.\n Unfortunately, it’s also never used. With both her Battle Skill and Ultimate locking out Basic Attack use whatsoever, its strength doesn’t matter. Even as a non-controlled operator, Liino cannot attack, so it’s a great ability that’s mostly ignored.\n Surprisingly, this does have upsides.\n Basic Attack Slots\n In Endfield, non-controlled operators can fill in “Basic Attack slots”. This means that only a certain number of attacks can be performed by them at any given time.\n It will usually be only a single operator attacking, which is then replaced by another after a full Basic Attack string, with the occasional situation where multiple will attack at once if enemy mechanics, interrupts or distance caused one of the non-controlled operators to miss out on Basic Attacks.\n As the non-controlled operators alternate between each other, it means that Support operators that aren’t built for damage can take up the slots and lower total team damage. As Liino cannot Basic Attack, she cannot take a Basic Attack slot, which means that the 2 remaining non-controlled operators will take turns.\n Given that Liino’s Basic Attack multipliers aren’t great, this frees up stronger operators to do damage, which can lead to a non-negligible damage increase.\n ℹ️ Info\n\n This doesn’t make other non-controlled operators attack faster or give the team more non-controlled operator attacks. Instead, those left will attack more often when Liino is in her stances because they get more turns at the slot, as only 2 operators, rather than 3, compete for it.\n\n Energy\n As Liino gets so much Energy from her Combo Skills, her breakpoints can be split into how many Combo Skills she can use in a rotation, then subtracting the SP return from ally Battle Skills that benefit from her Talent.\n Most rotations are balanced around 600 SP, so that can be used as a template:\n 600 SP, 5 Combo Skills\n Ability\n Uses\n Energy\n Total\n\n Battle Skill\n 6.25\n 6.5\n 40.625\n\n Combo Skill\n 5\n 20\n 100\n\n SP Return\n 50\n 6.5\n -3.25\n\n Sum\n\n 137.375\n\n Ultimate Gain Efficiency\n\n 16.47%\n 160\n\n At 5 Combo Skills, assuming that every single one leads to a 10 SP return on Battle Skill use, is well above the 16.02% Ultimate Gain Efficiency that an Armor can give. It is possible to make do with a 40 SP return scenario, by delaying the 5th Combo Skill use (15.93%), but it’s rather situational. In such circumstances there could be very slight gains on using a non-Ultimate Gain Efficiency glove, but it’d need rotations that can accommodate a late 5th Combo Skill.\n 600 SP, 4 Combo Skills\n Ability\n Uses\n Energy\n Total\n\n Battle Skill\n 6.25\n 6.5\n 40.625\n\n Combo Skill\n 4\n 20\n 80\n\n SP Return\n 40\n 6.5\n -2.6\n\n Sum\n\n 118.025\n\n Ultimate Gain Efficiency\n\n 35.57%\n 160\n\n At 4 Combo Skills, she is above the 33.43% Ultimate Gain Efficiency that a no-set Kit could give, so she’s often going to be running at least an Armor and Glove, giving a total of 42.72% in Ultimate Gain Efficiency.\n 600 SP, 3 Combo Skills\n Ability\n Uses\n Energy\n Total\n\n Battle Skill\n 6.25\n 6.5\n 40.625\n\n Combo Skill\n 3\n 20\n 60\n\n SP Return\n 30\n 6.5\n -1.95\n\n Sum\n\n 98.675\n\n Ultimate Gain Efficiency\n\n 62.15%\n 160\n\n At 3 Combo Skills, an Ultimate Gain Efficiency kit is now also needed to get enough Energy, with her managing 74.76% on the set-up. This is a good target point for Liino rotations, as it allows her to run an off-piece Main Attribute Bonus Kit (e.g. LYNX Slab) to maximise the value out of her Ultimate buffs.\n 600 SP, 2 Combo Skills\n Ability\n Uses\n Energy\n Total\n\n Battle Skill\n 6.25\n 6.5\n 40.625\n\n Combo Skill\n 2\n 20\n 40\n\n SP Return\n 20\n 6.5\n -1.3\n\n Sum\n\n 79.325\n\n Ultimate Gain Efficiency\n\n 101.71%\n 160\n\n At 2 Combo Skills, Liino now needs every piece to provide Ultimate Gain Efficiency. With Armor, Gloves and 2 Kits, she can reach 106.8% in the stat, which is just about enough to cover it.\n Keep in mind that this may not be enough if other sources of SP return are considered. If she’s running with an Arcane/Tangtang team, 7 Battle Skills would be needed, owing to Arcane’s Battle Skill and Tangtang’s Whirlpool returns.\n Tailor Liino’s gear around her requirements for different teams and rotations.\n\n How to Play\n Liino is very straightforward, amounting mostly to a gameplay of:\n Battle Skill early, to begin building Bedazzling Night Debut’s or Golden Age’s buffs and unlocking her Combo Skill.\n\n Apply and consume reactions as per rotation needs and use her Combo Skills when triggered. The 8s cooldown means it’s often up when it matters.\n At best, be careful to not use it while enemies are performing attacks that may knockback operators, as she loses interrupt resistance during Combo Skills.\n\n Use her Ultimate to apply Electrification (Arts DMG Taken) and buff the team with Electric and Nature Amp for the burst period.\n\n Once the stance ends, Battle Skill again and repeat.\n\n It’s not as if there are no optimisations to make with her. Managing her Ultimate is very important, owing to its delay between cast and hit. For teams where she’s the sole Electrification applicant, or where other operators are unable to do so due to cooldown or resource constraints, timing her Ultimate cast to have it land for the strongest skills matters.\n Other teams, however, need to work around its forced Electrification. Perlica for example, has a stronger forced Electrification and tends to be built for Arts Intensity, so overwriting hers with Liino’s can lead to a significant damage loss. This demands either a very early cast, or a delayed cast.\n The forced Electrification can also be used in certain rotations, such as a means to trigger Gilberta’s Combo Skill, or to allow for Avywenna’s Combo Skill to be triggered on the next Final Strike.\n From a speedrunning scenario, the interrupt resistance on her stances means that it’s a way to tank attacks without getting knocked back or being forced to Perfect Dodge, which can at times be an issue owing to timestop.\n For most players though, Liino is a ‘set-and-forget’ type character: Battle Skill, Combo Skill as it comes, Ultimate for the burst, then repeat.\n\n Build\n\n Best Weapons\n\n Liino best Weapons are placed in order of what fits their playstyle the most . Check the comments to get additional context.\n\n 1\n\n Bedazzling Night Debut (P 0 )\n\n Liino's Signature weapon, and it's a significant improvement over any other option. It has a matching main attribute on line 1 and Treatment Efficiency on line 2. The former is expected and a must have for Amp scaling, whereas the latter is a middling bonus that helps in survivability but offers no damage contribution to the team. The strength of this weapon is loaded on its line 3, which gives 25.6% in Main Attribute bonus at P0 as well as a stacking ATK buff that affects other operators on healing them that lasts 20s and caps out at 22.4%. The boost to Liino's WILL can amount to an increase of over 7% in Amp scaling, and the ATK buff is a competitive multiplier as it tends to see less saturation in her teams. Although it does demand heals to build up, Liino triggers them often enough that it's capped out at most within 12 seconds of her Battle Skill use, which is then sustained over the course of an entire fight as she will follow around the controlled operator while in its Stance. Note that as it is on healing, operators outside of the range of her Battle Skill may struggle to have full uptime of this, which makes it important to prioritise controlling main damage dealers.\n\n 2\n\n Golden Age (P 5 )\n\n The Battle Pass weapon alternative, and the best non-Signature pick. It has the same line 1 and line 2 as her Signature, with WILL and Treatment Efficiency respectively, but a far weaker line 3. It provides a middling increase to Electric DMG Dealt for Liino, and up to 14% in Arts DMG Dealt to the team after healing for 20s. This is weaker than even 5-star weapons, like Wild Wanderer, OBJ Arts Identifier and Edge of Lightness, and can see significant saturation in some of the teams Liino runs in. It still better than anything else at P5 though, and the gap between it and her Signature lessens the more saturated teams are in ATK and the less saturated they are in DMG Dealt.\n\n Best Gear\n\n Liino best sets are placed in order of what fits their playstyle the most . Check the comments to get additional context.\n\n 1\n\n Eternal Xiranite\n\n Description\n The best general buffing set for Liino. As its pieces have matching attributes and provide more than enough in Ultimate Gain Efficiency to cover her rotations, it's the go-to pick for the majority of her teams. Note that Liino can only activate its effect through her Ultimate, as her ATK bonuses do not count for it.\n Pieces\n Armor\n Eternal Xiranite Light Armor Eternal Xiranite\n\n Gloves\n Eternal Xiranite Hands Eternal Xiranite\n\n Kit\n Eternal Xiranite Auxiliary Arm Eternal Xiranite\n\n Kit\n LYNX Slab LYNX\n\n Alternative Pieces\n Eternal Xiranite Bracing Slab\n - If Liino has enough Ultimate Gain Efficiency without needing an Auxiliary Arm, using a Bracing Slab as the Eternal Xiranite Kit gives the highest WILL. The Secondary Attribute on it is also helpful at increasing Liino's personal damage a bit, as well as the scaling on her heals.\n Eternal Xiranite Auxiliary Arm\n - If even with a single Auxiliary Arm, Liino doesn't have the necessary Ultimate Gain Efficiency (such as in 2 Combo Skill rotations), she can run a full Xiranite set-up with 2 Auxiliary Arms. Losing out on LYNX Slab is a sizable decrease to her Amp, but it may be necessary if there aren't many reactions being applied/consumed in a team.\n\n 2\n\n LYNX\n\n Description\n In situations where Eternal Xiranite is already being used by another operator, the LYNX set offers a good balance of buff value - with a hefty increase to Liino's Amp owing to double Slabs - and sustain - with the set effect making it much harder for Liino and other non-controlled operators to die against aggressive enemies.\n Pieces\n Armor\n Eternal Xiranite Light Armor Eternal Xiranite\n\n Gloves\n LYNX Gauntlets T1 LYNX\n\n Kit\n LYNX Slab LYNX\n\n Kit\n LYNX Slab LYNX\n\n Alternative Pieces\n LYNX Cuirass, Eternal Xiranite Auxiliary Arm - Double LYNX Slabs are great, but this does lead to less Ultimate Gain Efficiency than Auxiliary Arm set-ups with Eternal Xiranite. By trading out 1 LYNX Slab for an Eternal Xiranite Auxiliary Arm, this can match up to the Eternal Xiranite set in Ultimate Gain Efficiency with only a slight WILL loss, which can be a worthwhile trade-off if the sustain from the LYNX set is desired.\n\n 3\n No Set\n\n Description\n In some situations, like on full Ultimate Energy starts, or if at P5, Liino can give up on Ultimate Gain Efficiency altogether and focus on maximising her WILL for better Ultimate Amp scaling instead. At P0, this will be worse than Eternal Xiranite for most teams, but it offers greater gains than LYNX if the set is filled by another operator when Ultimate Energy isn't a concern.\n Pieces\n Armor\n Rift Trekker Heavy Armor\n\n Gloves\n Rift Trekker Hands\n\n Kit\n LYNX Slab LYNX\n\n Kit\n LYNX Slab LYNX\n\n Alternative Pieces\n Eternal Xiranite Light Armor, Aethertech Light Gloves - If at P5, Liino would still demand some level of Ultimate Gain Efficiency even if at 5 Combo Skill uses on a 600 SP rotation, owing to the SP return on her Talent and P1. For this, Eternal Xiranite Light Armor is the best alternative. As for Aethertech, although Rift Trekker does provide higher WILL, the combined increase in damage multipliers from Liino's P3 and P5 means that sacrificing on a bit of WILL for All Skill DMG Dealt Bonus can yield better results.\n\n Best Gear Pieces\n\n Liino is a Support, hence there will be no calculations available for them to show the various gear pieces and their percentage difference.\n\n Potentials Review\n\n P 1\n Flawless Stage Work\n\n This effectively makes Liino's first Battle Skill free to use, with it consuming no SP nor giving any Ultimate Energy back as a result. Unfortunately, this can cause problems with rotations as the SP return from her Talent adds up, especially for other operators that also have SP return and/or get it from their Potentials. Although most rotations should be fine, it's worth checking if a specific combination will face issues with this (e.g. an Arcane P1 + Tangtang P1 team). In cases where it is a problem, re-casting Liino's Battle Skill for the SP spend can be used as a workaround. Energy aside, the ATK % bonus is nice and works as a direct damage increase.\n\n P 2\n Committed Rehearsals\n\n A generic attribute increase. Treatment Efficiency does nothing for damage, but the higher WILL is helpful at increasing Liino's Amp scaling. With a Main Attribute Kit and Bedazzling Night Debut, it's only a 1.24% increase to her Amp, so it's useful, but nothing stellar.\n\n P 3\n Longing for the Horizon\n\n The 1 second reduction to Combo Skill cooldown can be situationally useful, allowing for much more consistent rotations in some teams. This may give her an additional Combo Skill use depending on the length of the rotation, but such scenarios are very niche. The x1.4 increase to Combo Skill DMG and healing sounds big, but Liino's personal damage isn't too significant at this point for it to matter much.\n\n P 4\n Meteoric Rhythm\n\n The standard Ultimate Energy cost reduction Potential. The benefit from this can vary wildly: some teams can sustain enough Combo Skill uses that she gets no value, as Liino will be using the same gear pieces regardless. Others, like those which demand x2 Ultimate Gain Efficiency Kits, see a significant uplift as it can open up LYNX Slab as a Kit option, giving a notable increase to her Amp. The biggest gain however, comes when Liino is at P5, as it allows her to run full WILL set-ups for the strongest buffs.\n\n P 5\n Heart-Whipping Q&A\n\n By far Liino's best Potential. The x1.2 increase to Ultimate Amp is applied to the % gain (30% becomes 36%, 50% becomes 60%, and so on), but Amp itself is a damage multiplier. Going from x1.3 to x1.36 is a 4.6% relative increase, but going from x1.5 to x1.6 is a 6.6% increase instead. This makes WILL have an outsized impact on Liino's buff value, to the point that she gets more damage by dropping Eternal Xiranite and running pure WILL set-ups, which is possible in some teams owing to P4. The x1.2 increase to Ultimate and Battle Skill DMG helps her contribute more in personal damage, to the point sacrificing some WILL for DMG % bonuses could even yield better results.\n\n Calculations\n\n Liino is a Support, hence there will be no calculations available for them to show the team setup and damage split.\n\n Skill Priority\n\n Off Field :\n Ultimate > Combo Skill = Battle Skill > Basic Attack\n\n Teams and Synergies\n\n Synergies\n\n Electric\n\n Zhuang Fangyi Electric\n\n Fangyi is one of the most reliable ways to trigger Liino’s Combo Skill owing to her Electrification consumption, lessening Energy demands and making Liino a net SP contributor, condensing rotations.\n\n Liino’s Amp duration is long enough that she can fully buff a Finisher and up to 3 enhanced Battle Skills, more than most other operators that’d compete for the slot.\n\n The free Electrification on Liino’s Ultimate can be used alongside other operators (like Perlica) to maximise the DMG and scaling on Fangyi’s Battle Skills.\n\n Amp is partially saturated by Fangyi’s Talent, and 15 seconds isn’t anywhere near enough to cover all the enhanced Battle Skills in an Ultimate state.\n\n Nature\n\n Arcane Nature\n\n Arcane’s damage may be loaded on her 2nd Ultimate, but no small amount of it comes on the lead-up to it, and Liino’s Amp lasts long enough to cover it all.\n\n As Arcane prioritises Corrosion and her Ultimate forcefully applies it, she has multiple ways of providing Liino with Combo Skill triggers when other teammates can’t.\n\n Arcane teams tend to have steep SP requirements (700+ before Ultimate!), so Liino’s low resource demands make her easy to slot in.\n\n The high amount of Amp from Arcane’s teams (e.g. Xaihi) as well as her own Ultimate state lessen the value that Liino can provide.\n\n Electric\n\n Avywenna Electric\n\n Avywenna and her teams see little saturation on the buffs provided by Liino, increasing their value.\n\n Liino’s relatively long Amp means that she is able to buff the entirety of the burst, rather than just a few skills (e.g. Link).\n\n Liino is a great flex pick who can replace most previous operators used in Avywenna teams, being a significant uplift regardless of account investment.\n\n Buff alignment can be difficult (like not overwriting Perlica’s Electrification), and Avywenna’s inability to consume Electrifications means fewer Liino Combo Skill triggers.\n\n Electric\n\n Perlica Electric\n\n Forced Electrification on Perlica’s Combo Skill is one of the most accessible ways to access Liino’s own Combo Skill, often being the driving force behind her rotations.\n\n Liino’s buffs aren’t only for carries, they’re team-wide. As Perlica can do decent damage herself, the increase to her total contribution can make a difference.\n\n The Arts DMG Taken that Perlica can provide (be it through Electrification or Detonation Unit) is diversified from Liino’s buffs, maximising each others’ value.\n\n The Electrification on Liino’s Ultimate can overlap with Perlica’s own, and the loss of a high Arts Intensity, P4 buffed Electrification can tank team damage.\n\n Nature\n\n Ardelia Nature\n\n Ardelia’s forced Corrosion can trigger Liino’s Combo Skill, as can her Battle Skill, which consumes it.\n\n Ardelia can be the Eternal Xiranite holder in a team, which can increase Liino’s contributions by enabling double LYNX Slab set-ups.\n\n Liino’s lack of SP demands frees the resource up for Ardelia, and Susceptibility is a diversified buff from Liino’s Amp and ATK.\n\n Ardelia’s SP requirements and long Susceptibility duration means that it isn’t used often, limiting the number of Liino Combo Skill triggers and often leading to longer rotations.\n\n Nature\n\n Gilberta Nature\n\n Both Gilberta and Liino have their Combo Skills be triggered by Arts Reactions, meaning a team that slots one can usually slot the other.\n\n Liino using Eternal Xiranite opens up full Arts Intensity options for Gilberta, or alternatively Gilberta can use it to allow for double LYNX Slab set-ups on Liino, which are more likely to work owing to the Messenger Song Talent.\n\n Gilberta’s forced Lift can help make up for Liino’s low stagger contribution in teams with few Combo Skill triggers.\n\n The mismatch between Gilberta and Liino’s Ultimate buff durations can make for awkward rotations.\n\n Teams\n\n Liino teams aren't listed in any specific order - so they're not listed best to worst or vice versa. Check our Team Tier List for more information about best teams.\n\n Team #1\n Team Members\n\n Zhuang Fangyi\n\n Perlica\n\n Arclight\n\n Liino\n\n Rotation\n Zhuang Fangyi Gear: Xiranflow Light Armor, Xiranflow Gloves, Xiranflow Baton, LYNX Slab, Lone Barge\n\n Perlica Gear: Qingbo Light Armor, Pulser Labs Gloves, Qingbo Cask × 2, Wild Wanderer\n\n Arclight Gear: Frontiers Protection Suit, Frontiers Fiber Gloves T1, Frontiers Extra O2 Tube, Redeemer Seal, Thermite Cutter\n\n Liino Gear: Eternal Xiranite Light Armor, Eternal Xiranite Hands, Eternal Xiranite Bracing Slab, LYNX Slab, Bedazzling Night Debut\n See rotation at 00:21 on the embedded video. Check back later for a full rotation breakdown!\n\n 0 s\n 1 s\n 2 s\n 3 s\n 4 s\n 5 s\n 6 s\n 7 s\n 8 s\n 9 s\n 10 s\n 11 s\n 12 s\n 13 s\n 14 s\n 15 s\n 16 s\n 17 s\n 18 s\n 19 s\n 20 s\n 21 s\n 22 s\n 23 s\n 24 s\n 25 s\n 26 s\n 27 s\n 28 s\n 29 s\n 30 s\n\n Final Strike\n\n Battle Skill\n\n Final Strike\n\n Combo Skill\n\n Battle Skill\n\n Final Strike\n\n Final Strike\n\n Battle Skill\n\n Final Strike\n\n Combo Skill\n\n Battle Skill\n\n Final Strike\n\n Battle Skill\n\n Finisher\n\n Ultimate\n\n Battle Skill\n\n Final Strike\n\n Combo Skill\n\n Battle Skill\n\n Final Strike\n\n Combo Skill\n\n Battle Skill\n\n Combo Skill\n\n Battle Skill\n\n Combo Skill\n\n Combo Skill\n\n Ultimate\n\n Combo Skill\n\n Combo Skill\n\n Combo Skill\n\n Combo Skill\n\n Combo Skill\n\n Combo Skill\n\n Combo Skill\n\n Ultimate\n\n Combo Skill\n\n Combo Skill\n\n Combo Skill\n\n Combo Skill\n\n Combo Skill\n\n Combo Skill\n\n Ultimate\n\n Combo Skill\n\n Battle Skill\n\n Combo Skill\n\n Combo Skill\n\n Combo Skill\n\n Combo Skill\n\n Combo Skill\n\n Ultimate\n\n Team #2\n Team Members\n\n Arcane\n\n Tangtang\n\n Xaihi\n\n Liino\n\n Rotation\n Arcane Gear: Hot Work Exo-Rig, Hot Work Hands PPE, Hot Work Insulation Slab, LYNX Slab, Type 42: Solemn Phalanx\n\n Tangtang Gear: Bonekrusha Heavy Armor T2, Bonekrusha Wristband T1, Bonekrusha Mask T2, LYNX Slab, Brigand’s Calling\n\n Xaihi Gear: Redeemer Armor, AIC Fieldwork Wraps, Frontiers Extra 02 Tube T1 × 2, Detonation Unit\n\n Liino Gear: Eternal Xiranite Light Armor, Eternal Xiranite Hands, Eternal Xiranite Auxiliary Arm × 2, Bedazzling Night Debut\n\n See rotation at 03:32 on the embedded video. Check back later for a full rotation breakdown!\n\n 0 s\n 1 s\n 2 s\n 3 s\n 4 s\n 5 s\n 6 s\n 7 s\n 8 s\n 9 s\n 10 s\n 11 s\n 12 s\n 13 s\n 14 s\n 15 s\n 16 s\n 17 s\n 18 s\n 19 s\n 20 s\n 21 s\n 22 s\n 23 s\n 24 s\n 25 s\n 26 s\n 27 s\n 28 s\n 29 s\n 30 s\n\n Final Strike\n\n Final Strike\n\n Final Strike\n\n Final Strike\n\n Combo Skill\n\n Final Strike\n\n Final Strike\n\n Final Strike\n\n Combo Skill\n\n Battle Skill\n\n Final Strike\n\n Final Strike\n\n Final Strike\n\n Final Strike\n\n Combo Skill\n\n Ultimate\n\n Battle Skill\n\n Finisher\n\n Final Strike\n\n Combo Skill\n\n Battle Skill\n\n Ultimate\n\n Battle Skill\n\n Combo Skill\n\n Combo Skill\n\n Battle Skill\n\n Combo Skill\n\n Battle Skill\n\n Combo Skill\n\n Battle Skill\n\n Combo Skill\n\n Ultimate\n\n Ultimate\n\n Battle Skill\n\n Combo Skill\n\n Battle Skill\n\n Combo Skill\n\n Battle Skill\n\n Combo Skill\n\n Ultimate\n\n Battle Skill\n\n Combo Skill\n\n Combo Skill\n\n Ultimate\n\n Team #3\n Team Members\n\n Avywenna\n\n Perlica\n\n Gilberta\n\n Liino\n\n Rotation\n Avywenna Gear: Bonekrusha Poncho T1, Bonekrusha Gloves, Bonekrusha Figurine, LYNX Slab, JET\n\n Perlica Gear: Pulser Labs Disruptor Suit, Pulser Labs Gloves, Pulser Labs Calibrator × 2, Detonation Unit\n\n Gilberta Gear: Eternal Xiranite Light Armor, Hot Work Gloves, Hot Work Power Cartridge × 2, Delivery Guaranteed\n\n Liino Gear: Eternal Xiranite Light Armor, Eternal Xiranite Hands, Eternal Xiranite Auxiliary Arm, LYNX Slab, Bedazzling Night Debut\n\n Check back later for a full rotation breakdown video!"
 }

@@ -3,7 +3,7 @@
   "game": "endfield",
   "collection": "characters",
   "sourcePath": "/arknights-endfield/characters",
-  "scrapedAt": "2026-08-08T06:04:07.817Z",
+  "scrapedAt": "2026-08-11T06:12:43.600Z",
   "detailPagesTotal": 31,
   "detailPagesScraped": 31,
   "staleDetailPagesRemoved": 0,
@@ -35,12 +35,10 @@
     {
       "id": "arcane",
       "slug": "arcane",
-      "name": "Arcane New",
+      "name": "Arcane",
       "sourcePath": "/arknights-endfield/characters/arcane",
       "contentStatus": "live",
-      "statusLabels": [
-        "New"
-      ]
+      "statusLabels": []
     },
     {
       "id": "arclight",
@@ -165,11 +163,11 @@
     {
       "id": "liino",
       "slug": "liino",
-      "name": "Liino Soon",
+      "name": "Liino New",
       "sourcePath": "/arknights-endfield/characters/liino",
-      "contentStatus": "beta",
+      "contentStatus": "live",
       "statusLabels": [
-        "Soon"
+        "New"
       ]
     },
     {

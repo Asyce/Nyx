@@ -1,6 +1,6 @@
 {
   "game": "endfield",
-  "updatedAt": "2026-08-08T06:06:08.237Z",
+  "updatedAt": "2026-08-11T06:14:26.549Z",
   "hashes": {
     "characters": {
       "arcane": "4cfcc844154f3797cca40888e1a120426ba44cb69bf5645c0335b9c0c3023f52",
@@ -13,7 +13,7 @@
       "laevatain": "39e539020a4e1912a4e59f89f5d0f3b6e521bcd8faff0d316ef4563dc2032bd1",
       "last-rite": "ae35e5ebec3af3d8fb80a1895f0733cc65f98286d346864f50aa79274cc5ef11",
       "lifeng": "38d62d2371ac4f8936819a69977960b624036a5d1f6013a7c7679e675b27af34",
-      "liino": "499dc545a7e05055e66499b7cc466e559485e1e2b73b712d4ea3fcbd7e13f0e8",
+      "liino": "f1578b2e88b1c453f9bbbae67ac8dfe320a68a15dabc9106431beedf02b1b05d",
       "mi-fu": "1ffb4dec112d1524fdca8efd76b8feed6b1ad6b699ee19607e7a9b5c20d3be74",
       "pogranichnik": "2eca9a5d15b022bdd8ee83b90dd3e27a6b13ee5cfef91c9e4efbb3119e655956",
       "rossi": "c6bc3ff6267abcc17054859234044575c33d641619515b4b27d0d23871457fd1",
@@ -39,6 +39,7 @@
       "Amaranthine_Tassel": "2b01eeb74fc53cee3d7dcfcb7abf16d20aafb36a7fac92780ef25c73cd6f8072",
       "Artzy_Tyrannical": "01660c44e7b22ab5766e4b94f753f726ad2829f6d031ced7b5951a24f73881f0",
       "Beacon_of_Duty": "b397c73b9e0c50b1f5aaa6d88687eb873e6c2adcd8b0fe132696554244a3cac3",
+      "Bedazzling_Night_Debut": "5e33b43b71c08882bf8d1da5c64f6a819f9d86dc1b3e27b732c6f6ffe9634574",
       "Blessing_of_Lustrous_Carmine": "c3a6009ddfd321f6b9bb73eb7e87bb8a83da6152922abcd30da4c532c1f709e7",
       "Brigand's_Calling": "3eb988de56c5b14b36fe214c4506fed9d48a4459ada6206aa97eddcd42d30dfd",
       "Chivalric_Virtues": "98805caa210ed2b7c300d1cb9ff8d8e78a56af9aa5aa2b80ac954fdbd4d8c0aa",

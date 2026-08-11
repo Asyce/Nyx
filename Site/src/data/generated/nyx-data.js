@@ -4,9 +4,9 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-08-11T03:12:06.529Z",
+  "generatedAt": "2026-08-11T06:15:01.568Z",
   "codes": {
-    "updated": "2026-08-11T00:21:01.194Z",
+    "updated": "2026-08-11T06:14:48.221Z",
     "maxAgeDays": 28,
     "games": {
       "gi": [
@@ -67,20 +67,6 @@ var NYX_DB = {
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=UIVI13C8X156"
         },
         {
-          "code": "Everwinter",
-          "reward": "x100 Primogems and x10 Mystic Enchancement Ore",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Primogems",
-            "needle": "primogem",
-            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
-          },
-          "added": "2026-07-31",
-          "firstSeen": "2026-08-08T06:33:46.946Z",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=Everwinter",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=Everwinter"
-        },
-        {
           "code": "Odettte0812",
           "reward": "x100 Primogems and x50,000 Mora",
           "premium": true,
@@ -93,20 +79,6 @@ var NYX_DB = {
           "firstSeen": "2026-08-01T21:03:08.107Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=Odettte0812",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=Odettte0812"
-        },
-        {
-          "code": "OntoSnezhnaya",
-          "reward": "x100 Primogems and x5 Hero S Wit",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Primogems",
-            "needle": "primogem",
-            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
-          },
-          "added": "2026-07-31",
-          "firstSeen": "2026-08-08T06:33:46.946Z",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=OntoSnezhnaya",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=OntoSnezhnaya"
         }
       ],
       "hsr": [
@@ -441,16 +413,17 @@ var NYX_DB = {
   },
   "banners": {
     "updated": "2026-08-09T18:13:08.454Z",
-    "checkedAt": "2026-08-09T18:13:08.454Z",
+    "checkedAt": "2026-08-11T06:14:35.298Z",
     "games": {
       "hsr": {
         "name": "Honkai: Star Rail",
         "freshness": {
-          "status": "fresh",
-          "checkedAt": "2026-08-09T18:13:08.454Z",
+          "status": "stale",
+          "checkedAt": "2026-08-11T06:14:35.298Z",
           "lastSuccessfulFetch": "2026-08-09T18:13:08.454Z",
           "lastValidUpdate": "2026-08-09T18:13:08.454Z",
-          "source": "game8"
+          "source": "game8",
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
           "phase": "4.4",
@@ -581,11 +554,12 @@ var NYX_DB = {
       "gi": {
         "name": "Genshin Impact",
         "freshness": {
-          "status": "fresh",
-          "checkedAt": "2026-08-09T18:13:08.454Z",
+          "status": "stale",
+          "checkedAt": "2026-08-11T06:14:35.298Z",
           "lastSuccessfulFetch": "2026-08-09T18:13:08.454Z",
           "lastValidUpdate": "2026-08-09T18:13:08.454Z",
-          "source": "game8"
+          "source": "game8",
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
           "phase": "Luna VIII",
@@ -801,11 +775,12 @@ var NYX_DB = {
       "wuwa": {
         "name": "Wuthering Waves",
         "freshness": {
-          "status": "fresh",
-          "checkedAt": "2026-08-09T18:13:08.454Z",
+          "status": "stale",
+          "checkedAt": "2026-08-11T06:14:35.298Z",
           "lastSuccessfulFetch": "2026-08-09T18:13:08.454Z",
           "lastValidUpdate": "2026-08-09T18:13:08.454Z",
-          "source": "game8"
+          "source": "game8",
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
           "phase": "3.5",
@@ -936,11 +911,12 @@ var NYX_DB = {
       "zzz": {
         "name": "Zenless Zone Zero",
         "freshness": {
-          "status": "fresh",
-          "checkedAt": "2026-08-09T18:13:08.454Z",
+          "status": "stale",
+          "checkedAt": "2026-08-11T06:14:35.298Z",
           "lastSuccessfulFetch": "2026-08-09T18:13:08.454Z",
           "lastValidUpdate": "2026-08-09T18:13:08.454Z",
-          "source": "game8"
+          "source": "game8",
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
           "phase": "3.1",
@@ -1093,11 +1069,12 @@ var NYX_DB = {
       "ae": {
         "name": "Arknights: Endfield",
         "freshness": {
-          "status": "fresh",
-          "checkedAt": "2026-08-09T18:13:08.454Z",
+          "status": "stale",
+          "checkedAt": "2026-08-11T06:14:35.298Z",
           "lastSuccessfulFetch": "2026-08-09T18:13:08.454Z",
           "lastValidUpdate": "2026-08-09T18:13:08.454Z",
-          "source": "game8"
+          "source": "game8",
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
           "phase": "1.4 Phase 2",
@@ -5418,20 +5395,6 @@ var NYX_DB = {
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=UIVI13C8X156"
         },
         {
-          "code": "Everwinter",
-          "reward": "x100 Primogems and x10 Mystic Enchancement Ore",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Primogems",
-            "needle": "primogem",
-            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
-          },
-          "added": "2026-07-31",
-          "firstSeen": "2026-08-08T06:33:46.946Z",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=Everwinter",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=Everwinter"
-        },
-        {
           "code": "Odettte0812",
           "reward": "x100 Primogems and x50,000 Mora",
           "premium": true,
@@ -5444,30 +5407,17 @@ var NYX_DB = {
           "firstSeen": "2026-08-01T21:03:08.107Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=Odettte0812",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=Odettte0812"
-        },
-        {
-          "code": "OntoSnezhnaya",
-          "reward": "x100 Primogems and x5 Hero S Wit",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Primogems",
-            "needle": "primogem",
-            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
-          },
-          "added": "2026-07-31",
-          "firstSeen": "2026-08-08T06:33:46.946Z",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=OntoSnezhnaya",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=OntoSnezhnaya"
         }
       ],
       "banners": {
         "name": "Genshin Impact",
         "freshness": {
-          "status": "fresh",
-          "checkedAt": "2026-08-09T18:13:08.454Z",
+          "status": "stale",
+          "checkedAt": "2026-08-11T06:14:35.298Z",
           "lastSuccessfulFetch": "2026-08-09T18:13:08.454Z",
           "lastValidUpdate": "2026-08-09T18:13:08.454Z",
-          "source": "game8"
+          "source": "game8",
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
           "phase": "Luna VIII",
@@ -152321,11 +152271,12 @@ var NYX_DB = {
       "banners": {
         "name": "Honkai: Star Rail",
         "freshness": {
-          "status": "fresh",
-          "checkedAt": "2026-08-09T18:13:08.454Z",
+          "status": "stale",
+          "checkedAt": "2026-08-11T06:14:35.298Z",
           "lastSuccessfulFetch": "2026-08-09T18:13:08.454Z",
           "lastValidUpdate": "2026-08-09T18:13:08.454Z",
-          "source": "game8"
+          "source": "game8",
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
           "phase": "4.4",
@@ -158035,11 +157986,12 @@ var NYX_DB = {
       "banners": {
         "name": "Zenless Zone Zero",
         "freshness": {
-          "status": "fresh",
-          "checkedAt": "2026-08-09T18:13:08.454Z",
+          "status": "stale",
+          "checkedAt": "2026-08-11T06:14:35.298Z",
           "lastSuccessfulFetch": "2026-08-09T18:13:08.454Z",
           "lastValidUpdate": "2026-08-09T18:13:08.454Z",
-          "source": "game8"
+          "source": "game8",
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
           "phase": "3.1",
@@ -163040,11 +162992,12 @@ var NYX_DB = {
       "banners": {
         "name": "Wuthering Waves",
         "freshness": {
-          "status": "fresh",
-          "checkedAt": "2026-08-09T18:13:08.454Z",
+          "status": "stale",
+          "checkedAt": "2026-08-11T06:14:35.298Z",
           "lastSuccessfulFetch": "2026-08-09T18:13:08.454Z",
           "lastValidUpdate": "2026-08-09T18:13:08.454Z",
-          "source": "game8"
+          "source": "game8",
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
           "phase": "3.5",
@@ -164193,9 +164146,9 @@ var NYX_DB = {
         {
           "key": "weapons",
           "title": "Weapons",
-          "updatedText": "16/July/2026",
+          "updatedText": "09/August/2026",
           "source": "Prydwen",
-          "count": 75,
+          "count": 76,
           "items": [
             {
               "id": "aggeloslayer",
@@ -164298,6 +164251,25 @@ var NYX_DB = {
               "text": "Beacon of Duty\nRarity: 6 \u2726\nType: Polearm\nBase ATK: 485\nStat 1 Boost - 9/9\nAgility : + 156\nStat 2 Boost - 9/9\nUltimate Gain Eff. : + 46.40%\nPassive Boost - 4/9\nHeat DMG Bonus : + 11.20%\nWhen the wielder's skill applies Heat Infliction , the wielder gains Physical and Heat DMG Dealt +12.8% for 20s . When the wielder's skill applies Heat Susceptibility , the entire team gains Physical and Heat DMG Dealt +6.4% for 30s .\nShow Effects",
               "status": "live",
               "labels": []
+            },
+            {
+              "id": "bedazzling-night-debut",
+              "name": "Bedazzling Night Debut",
+              "kind": "weapons",
+              "art": "../../Database/Prydwen/endfield/assets/weapons/weapon-76-15ec9994063c.webp",
+              "fields": {
+                "rarity": "6 \u2605",
+                "type": "Polearm",
+                "base_atk": "500",
+                "will": "+ 156",
+                "treatment_bonus": "+ 46.40%",
+                "main_attribute": "+ 25.60%",
+                "max_stacks_for_effects_of_the_same_name": "4 . Duration of each stack is counted separately. Each operator can gain this effect at most once every 0.1s ."
+              },
+              "text": "Bedazzling Night Debut\nRarity: 6 \u2726\nType: Polearm\nBase ATK: 500\nStat 1 Boost - 9/9\nWill : + 156\nStat 2 Boost - 9/9\nTreatment Bonus : + 46.40%\nPassive Boost - 4/9\nMain Attribute : + 25.60%\nWhen the wielder's skill grants HP Treatment to other operators in the team, the operator receiving the wielder's treatment also gains ATK +5.6% for 20s .\nMax stacks for effects of the same name: 4 . Duration of each stack is counted separately. Each operator can gain this effect at most once every 0.1s .",
+              "status": "live",
+              "labels": [],
+              "released": "2026-08-09"
             },
             {
               "id": "blessing-of-lustrous-carmine",
@@ -168184,11 +168156,12 @@ var NYX_DB = {
       "banners": {
         "name": "Arknights: Endfield",
         "freshness": {
-          "status": "fresh",
-          "checkedAt": "2026-08-09T18:13:08.454Z",
+          "status": "stale",
+          "checkedAt": "2026-08-11T06:14:35.298Z",
           "lastSuccessfulFetch": "2026-08-09T18:13:08.454Z",
           "lastValidUpdate": "2026-08-09T18:13:08.454Z",
-          "source": "game8"
+          "source": "game8",
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
           "phase": "1.4 Phase 2",
@@ -168426,7 +168399,8 @@ var NYX_DB = {
           "icon": "../../Database/EndfieldWiki/endfield/assets/operators/liino/icon.png",
           "art": "../../Database/EndfieldWiki/endfield/assets/operators/liino/splash.png",
           "facts": {
-            "faction": "Talos-II General Chamber of Commerce"
+            "faction": "Talos-II General Chamber of Commerce (TGCC)",
+            "birthday": "July 27"
           },
           "forms": []
         },

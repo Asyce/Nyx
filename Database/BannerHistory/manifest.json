@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-09T12:04:11.750Z",
+  "generatedAt": "2026-08-11T02:50:29.337Z",
   "games": {
     "gi": {
-      "count": 293,
+      "count": 294,
       "character": 183,
-      "weapon": 102,
+      "weapon": 103,
       "mixed": 8,
       "permanent": 2,
-      "confirmed": 291,
+      "confirmed": 294,
       "dateRange": {
         "start": "2020-09-28T02:00:00.000Z",
-        "end": "2026-08-12T03:00:00.000Z"
+        "end": "2026-09-01T09:59:59.000Z"
       },
       "revisions": [
         "maintained-wiki:1508272",
@@ -297,16 +297,17 @@
         "maintained-wiki:2136757",
         "maintained-wiki:2136759",
         "maintained-wiki:2136760",
-        "maintained-wiki:2137962",
         "maintained-wiki:2137967",
         "maintained-wiki:2137968",
         "maintained-wiki:2137969",
-        "maintained-wiki:2137970",
         "maintained-wiki:2137973",
         "maintained-wiki:2137974",
         "maintained-wiki:2137975",
         "maintained-wiki:2138352",
-        "maintained-wiki:2138353"
+        "maintained-wiki:2138353",
+        "maintained-wiki:2141446",
+        "maintained-wiki:2141489",
+        "maintained-wiki:2141502"
       ],
       "officialRevisions": [
         "official-latest:21743",
@@ -316,9 +317,12 @@
         "official-latest:21757",
         "official-latest:21758",
         "official-latest:21759",
+        "official-latest:21803",
+        "official-latest:21804",
+        "official-latest:21807",
         "official-latest:45076841"
       ],
-      "contentHash": "7b8604643125815bc625ce49796a0d625ff33588d4b42095cf8449f105cb4d2c"
+      "contentHash": "e026d5bae3adee41aaeb3bfac4450e4a605f8237d9efa3e9123b289487250b8a"
     },
     "hsr": {
       "count": 218,
@@ -937,7 +941,6 @@
         "official-latest:4493",
         "official-latest:4591",
         "official-latest:4691",
-        "official-latest:4712",
         "official-latest:4836",
         "official-latest:4852",
         "official-latest:4885",
@@ -947,7 +950,7 @@
         "official-latest:5220",
         "official-latest:5227"
       ],
-      "contentHash": "2be1839f1a20a7b5a544475c397cb9da62288efedd9872aa7e4dcef590cc0f1e"
+      "contentHash": "6c3ecd59373a13cba2e808eae5acb7fa8e6d7d9296fe41ec4d9e7ddbe9b636b3"
     },
     "ae": {
       "count": 30,
@@ -962,7 +965,7 @@
       },
       "revisions": [
         "maintained-wiki:59792",
-        "maintained-wiki:59936"
+        "maintained-wiki:59966"
       ],
       "officialRevisions": [
         "official-latest:0754",
@@ -987,7 +990,7 @@
         "official-latest:9564",
         "official-latest:9579"
       ],
-      "contentHash": "0cc722e463e28f67c3d5af65ac1b96e19a4c39e8471a1b9ad211d97511e368f1"
+      "contentHash": "35b2e4679cbc43c9a6e2d7b02ab40f30dbc5bee85095f825c0fc2d5ba36b7447"
     }
   }
 }

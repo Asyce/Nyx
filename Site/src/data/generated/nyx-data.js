@@ -4,7 +4,7 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-08-11T00:40:48.469Z",
+  "generatedAt": "2026-08-11T02:51:08.882Z",
   "codes": {
     "updated": "2026-08-11T00:21:01.194Z",
     "maxAgeDays": 28,
@@ -653,7 +653,7 @@ var NYX_DB = {
         "next": {
           "phase": "7.0 Phase 1",
           "start": "2026-08-12T03:00:00.000Z",
-          "end": null,
+          "end": "2026-09-01T09:59:59.000Z",
           "characters": [
             {
               "name": "Odette",
@@ -676,6 +676,28 @@ var NYX_DB = {
               "rarity": 4,
               "debut": true,
               "debutAt": "2026-08-12"
+            },
+            {
+              "name": "Sucrose",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Sucrose_Circle.webp",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Sucrose.webp",
+              "namecard": "../../Database/GenshinWiki/namecards/Sucrose.png",
+              "rarity": 4,
+              "debut": false,
+              "debutAt": "2020-10-20"
+            },
+            {
+              "name": "Lynette",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Linette_Circle.webp",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Linette.webp",
+              "namecard": "../../Database/GenshinWiki/namecards/Linette.png",
+              "rarity": 4,
+              "debut": false,
+              "debutAt": "2023-08-16"
             },
             {
               "name": "Arlecchino",
@@ -1114,6 +1136,17 @@ var NYX_DB = {
               "rarity": 6,
               "debut": false,
               "debutAt": "2026-06-26"
+            },
+            {
+              "name": "Avywenna",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/operators/avywenna/icon.png",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/EndfieldWiki/endfield/assets/operators/avywenna/splash.png",
+              "namecard": null,
+              "rarity": 5,
+              "debut": false,
+              "debutAt": "2026-01-22"
             }
           ],
           "subBanners": []
@@ -2545,7 +2578,8 @@ var NYX_DB = {
                 "type": "Sword",
                 "atk": 674
               },
-              "text": "A longsword light as the feathers of a snow swan, and which stays pure and untainted at all times."
+              "text": "A longsword light as the feathers of a snow swan, and which stays pure and untainted at all times.",
+              "released": "2026-08-12"
             },
             {
               "id": "gi-wpn-11521",
@@ -5501,7 +5535,7 @@ var NYX_DB = {
         "next": {
           "phase": "7.0 Phase 1",
           "start": "2026-08-12T03:00:00.000Z",
-          "end": null,
+          "end": "2026-09-01T09:59:59.000Z",
           "characters": [
             {
               "name": "Odette",
@@ -5524,6 +5558,28 @@ var NYX_DB = {
               "rarity": 4,
               "debut": true,
               "debutAt": "2026-08-12"
+            },
+            {
+              "name": "Sucrose",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Sucrose_Circle.webp",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Sucrose.webp",
+              "namecard": "../../Database/GenshinWiki/namecards/Sucrose.png",
+              "rarity": 4,
+              "debut": false,
+              "debutAt": "2020-10-20"
+            },
+            {
+              "name": "Lynette",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Linette_Circle.webp",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Linette.webp",
+              "namecard": "../../Database/GenshinWiki/namecards/Linette.png",
+              "rarity": 4,
+              "debut": false,
+              "debutAt": "2023-08-16"
             },
             {
               "name": "Arlecchino",
@@ -168171,6 +168227,17 @@ var NYX_DB = {
               "rarity": 6,
               "debut": false,
               "debutAt": "2026-06-26"
+            },
+            {
+              "name": "Avywenna",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/operators/avywenna/icon.png",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/EndfieldWiki/endfield/assets/operators/avywenna/splash.png",
+              "namecard": null,
+              "rarity": 5,
+              "debut": false,
+              "debutAt": "2026-01-22"
             }
           ],
           "subBanners": []

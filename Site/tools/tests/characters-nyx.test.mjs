@@ -187,12 +187,15 @@ test('Endfield material overview uses the exact sourced Growth and Progression l
   const growthGenerated = new Set(ae.midGroups.flatMap((group) => group.chars));
   const progressionGenerated = new Set(ae.bossGroups.flatMap((group) => group.chars));
   assert.equal(ae.roster.length, 30);
-  assert.equal(growthSource.size, 29);
-  assert.equal(progressionSource.size, 29);
+  // Liino shipped with an unfilled wiki page, so 29 of the 30 operators had
+  // sourced requirements. That page is filled in now, so the whole roster is
+  // covered and nothing is left unsourced (2026-08-11).
+  assert.equal(growthSource.size, 30);
+  assert.equal(progressionSource.size, 30);
   const missingSourcedRequirements = ae.roster
     .map((character) => character.n)
     .filter((name) => !growthSource.has(name) || !progressionSource.has(name));
-  assert.deepEqual(plain(missingSourcedRequirements), ['Liino']);
+  assert.deepEqual(plain(missingSourcedRequirements), []);
   assert.deepEqual([...growthGenerated].sort(), [...growthSource].sort());
   assert.deepEqual([...progressionGenerated].sort(), [...progressionSource].sort());
 

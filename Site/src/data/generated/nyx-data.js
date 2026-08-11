@@ -4,7 +4,7 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-08-11T09:30:58.330Z",
+  "generatedAt": "2026-08-11T10:25:18.942Z",
   "codes": {
     "updated": "2026-08-11T07:19:03.071Z",
     "maxAgeDays": 28,
@@ -440,16 +440,16 @@ var NYX_DB = {
     }
   },
   "banners": {
-    "updated": "2026-08-11T09:17:13.441Z",
-    "checkedAt": "2026-08-11T09:17:13.441Z",
+    "updated": "2026-08-11T10:14:55.599Z",
+    "checkedAt": "2026-08-11T10:14:55.599Z",
     "games": {
       "hsr": {
         "name": "Honkai: Star Rail",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-08-11T09:17:13.441Z",
-          "lastSuccessfulFetch": "2026-08-11T09:17:13.441Z",
-          "lastValidUpdate": "2026-08-11T09:17:13.441Z",
+          "checkedAt": "2026-08-11T10:14:55.599Z",
+          "lastSuccessfulFetch": "2026-08-11T10:14:55.599Z",
+          "lastValidUpdate": "2026-08-11T10:14:55.599Z",
           "source": "game8"
         },
         "current": {
@@ -545,10 +545,10 @@ var NYX_DB = {
           "characters": [
             {
               "name": "Robin \u2022 Summeretto",
-              "icon": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1512.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1512.webp",
+              "icon": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1512.webp",
+              "iconFallback": null,
               "iconZoom": false,
-              "art": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1512.webp",
+              "art": "https://static.nanoka.cc/assets/hsr/avatardrawcard/1512.webp",
               "namecard": null,
               "rarity": 5,
               "debut": true,
@@ -566,10 +566,10 @@ var NYX_DB = {
             "characters": [
               {
                 "name": "Aventurine \u2022 Waveflair",
-                "icon": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1513.webp",
-                "iconFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1513.webp",
+                "icon": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1513.webp",
+                "iconFallback": null,
                 "iconZoom": false,
-                "art": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1513.webp",
+                "art": "https://static.nanoka.cc/assets/hsr/avatardrawcard/1513.webp",
                 "namecard": null,
                 "rarity": 5,
                 "debut": true,
@@ -584,9 +584,9 @@ var NYX_DB = {
         "name": "Genshin Impact",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-08-11T09:17:13.441Z",
-          "lastSuccessfulFetch": "2026-08-11T09:17:13.441Z",
-          "lastValidUpdate": "2026-08-11T09:17:13.441Z",
+          "checkedAt": "2026-08-11T10:14:55.599Z",
+          "lastSuccessfulFetch": "2026-08-11T10:14:55.599Z",
+          "lastValidUpdate": "2026-08-11T10:14:55.599Z",
           "source": "game8"
         },
         "current": {
@@ -753,9 +753,9 @@ var NYX_DB = {
         "name": "Wuthering Waves",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-08-11T09:17:13.441Z",
-          "lastSuccessfulFetch": "2026-08-11T09:17:13.441Z",
-          "lastValidUpdate": "2026-08-11T09:17:13.441Z",
+          "checkedAt": "2026-08-11T10:14:55.599Z",
+          "lastSuccessfulFetch": "2026-08-11T10:14:55.599Z",
+          "lastValidUpdate": "2026-08-11T10:14:55.599Z",
           "source": "game8"
         },
         "current": {
@@ -890,9 +890,9 @@ var NYX_DB = {
         "name": "Zenless Zone Zero",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-08-11T09:17:13.441Z",
-          "lastSuccessfulFetch": "2026-08-11T09:17:13.441Z",
-          "lastValidUpdate": "2026-08-11T09:17:13.441Z",
+          "checkedAt": "2026-08-11T10:14:55.599Z",
+          "lastSuccessfulFetch": "2026-08-11T10:14:55.599Z",
+          "lastValidUpdate": "2026-08-11T10:14:55.599Z",
           "source": "game8"
         },
         "current": {
@@ -1005,9 +1005,9 @@ var NYX_DB = {
         "name": "Arknights: Endfield",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-08-11T09:17:13.441Z",
-          "lastSuccessfulFetch": "2026-08-11T09:17:13.441Z",
-          "lastValidUpdate": "2026-08-11T09:17:13.441Z",
+          "checkedAt": "2026-08-11T10:14:55.599Z",
+          "lastSuccessfulFetch": "2026-08-11T10:14:55.599Z",
+          "lastValidUpdate": "2026-08-11T10:14:55.599Z",
           "source": "game8"
         },
         "current": {
@@ -5418,9 +5418,9 @@ var NYX_DB = {
         "name": "Genshin Impact",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-08-11T09:17:13.441Z",
-          "lastSuccessfulFetch": "2026-08-11T09:17:13.441Z",
-          "lastValidUpdate": "2026-08-11T09:17:13.441Z",
+          "checkedAt": "2026-08-11T10:14:55.599Z",
+          "lastSuccessfulFetch": "2026-08-11T10:14:55.599Z",
+          "lastValidUpdate": "2026-08-11T10:14:55.599Z",
           "source": "game8"
         },
         "current": {
@@ -152225,9 +152225,9 @@ var NYX_DB = {
         "name": "Honkai: Star Rail",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-08-11T09:17:13.441Z",
-          "lastSuccessfulFetch": "2026-08-11T09:17:13.441Z",
-          "lastValidUpdate": "2026-08-11T09:17:13.441Z",
+          "checkedAt": "2026-08-11T10:14:55.599Z",
+          "lastSuccessfulFetch": "2026-08-11T10:14:55.599Z",
+          "lastValidUpdate": "2026-08-11T10:14:55.599Z",
           "source": "game8"
         },
         "current": {
@@ -152323,10 +152323,10 @@ var NYX_DB = {
           "characters": [
             {
               "name": "Robin \u2022 Summeretto",
-              "icon": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1512.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1512.webp",
+              "icon": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1512.webp",
+              "iconFallback": null,
               "iconZoom": false,
-              "art": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1512.webp",
+              "art": "https://static.nanoka.cc/assets/hsr/avatardrawcard/1512.webp",
               "namecard": null,
               "rarity": 5,
               "debut": true,
@@ -152344,10 +152344,10 @@ var NYX_DB = {
             "characters": [
               {
                 "name": "Aventurine \u2022 Waveflair",
-                "icon": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1513.webp",
-                "iconFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1513.webp",
+                "icon": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1513.webp",
+                "iconFallback": null,
                 "iconZoom": false,
-                "art": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1513.webp",
+                "art": "https://static.nanoka.cc/assets/hsr/avatardrawcard/1513.webp",
                 "namecard": null,
                 "rarity": 5,
                 "debut": true,
@@ -157941,9 +157941,9 @@ var NYX_DB = {
         "name": "Zenless Zone Zero",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-08-11T09:17:13.441Z",
-          "lastSuccessfulFetch": "2026-08-11T09:17:13.441Z",
-          "lastValidUpdate": "2026-08-11T09:17:13.441Z",
+          "checkedAt": "2026-08-11T10:14:55.599Z",
+          "lastSuccessfulFetch": "2026-08-11T10:14:55.599Z",
+          "lastValidUpdate": "2026-08-11T10:14:55.599Z",
           "source": "game8"
         },
         "current": {
@@ -162904,9 +162904,9 @@ var NYX_DB = {
         "name": "Wuthering Waves",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-08-11T09:17:13.441Z",
-          "lastSuccessfulFetch": "2026-08-11T09:17:13.441Z",
-          "lastValidUpdate": "2026-08-11T09:17:13.441Z",
+          "checkedAt": "2026-08-11T10:14:55.599Z",
+          "lastSuccessfulFetch": "2026-08-11T10:14:55.599Z",
+          "lastValidUpdate": "2026-08-11T10:14:55.599Z",
           "source": "game8"
         },
         "current": {
@@ -168069,9 +168069,9 @@ var NYX_DB = {
         "name": "Arknights: Endfield",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-08-11T09:17:13.441Z",
-          "lastSuccessfulFetch": "2026-08-11T09:17:13.441Z",
-          "lastValidUpdate": "2026-08-11T09:17:13.441Z",
+          "checkedAt": "2026-08-11T10:14:55.599Z",
+          "lastSuccessfulFetch": "2026-08-11T10:14:55.599Z",
+          "lastValidUpdate": "2026-08-11T10:14:55.599Z",
           "source": "game8"
         },
         "current": {

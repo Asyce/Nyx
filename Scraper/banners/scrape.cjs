@@ -246,6 +246,10 @@ const GAMEDATA_GAMES = {
     // not the `icon` slug field.
     primaryUrl:  (id, _rec) => `https://static.nanoka.cc/assets/hsr/avataricon/avatar/${id}.webp`,
     fallbackUrl: (id, _rec) => `https://static.nanoka.cc/assets/hsr/avatarroundicon/${id}.webp`,
+    // Full-body art for the banner card. The avatar icon above is a headshot;
+    // the draw card is what the site wants behind a headline banner, and it is
+    // published for brand-new characters before the icon variant is.
+    splashUrl:   (id, _rec) => `https://static.nanoka.cc/assets/hsr/avatardrawcard/${id}.webp`,
   },
   genshin: {
     manifestKey: 'gi',
@@ -373,10 +377,12 @@ async function loadGameDataMap(gameId) {
     const en = stripTags(enRaw);
     const image = cfg.primaryUrl(id, rec) || null;
     const fallback = cfg.fallbackUrl ? (cfg.fallbackUrl(id, rec) || null) : null;
+    const splash = cfg.splashUrl ? (cfg.splashUrl(id, rec) || null) : null;
     const useFallback = fallback && fallback !== image;
     const entry = {
       name: en,
       image,
+      imageSplash: splash,
       imageFallback: useFallback ? fallback : null,
       imageFallbackZoom: useFallback && cfg.zoomFallback ? true : false,
       // Carry the upstream rank so the banner pipeline can filter out
@@ -503,6 +509,33 @@ const MIN_BANNER_RANK = { hsr: 5, genshin: 5, zzz: null /* S = 4 in gamedata */,
 // Resolve a single character name → record, or `null` if the name has no
 // match in the gamedata roster (= weapon / light cone / typo) or is below
 // the min rank for this game.
+// A URL built from a pattern is a guess until the CDN confirms it. nanoka
+// publishes the round icon and draw card for a brand-new character days before
+// the avatar-icon variant exists, so the pattern 404s and the card renders
+// blank (Robin • Summeretto and Aventurine • Waveflair, 2026-08-11). Check the
+// candidates and keep the first that answers. Results are memoised so one
+// character costs at most one request per run.
+const artUrlChecks = new Map();
+async function artUrlExists(url) {
+  if (!url) return false;
+  if (artUrlChecks.has(url)) return artUrlChecks.get(url);
+  const check = (async () => {
+    try {
+      const res = await fetch(url, { method: 'HEAD', headers: FETCH_HEADERS, signal: AbortSignal.timeout(8000) });
+      return res.ok;
+    } catch { return false; }
+  })();
+  artUrlChecks.set(url, check);
+  return check;
+}
+
+async function firstLiveArtUrl(candidates) {
+  for (const candidate of candidates) {
+    if (candidate && await artUrlExists(candidate)) return candidate;
+  }
+  return null;
+}
+
 async function resolveCharacterIcon(gameId, name) {
   const data = await fetchCharacterMap(gameId);
   if (!data) return { name, image: null };
@@ -525,8 +558,12 @@ async function resolveCharacterIcon(gameId, name) {
     }
     console.log(`[${gameId}] keeping "${name}" — rank ${found.rank} but recent debut`);
   }
-  const out = { name, image: found.image };
-  if (found.imageFallback) out.imageFallback = found.imageFallback;
+  // Prefer a URL the CDN actually serves over the first pattern that matches.
+  const icon = await firstLiveArtUrl([found.image, found.imageFallback, found.imageSplash]);
+  const splash = await firstLiveArtUrl([found.imageSplash, found.image, found.imageFallback]);
+  const out = { name, image: icon || found.image };
+  if (splash && splash !== out.image) out.imageSplash = splash;
+  if (found.imageFallback && found.imageFallback !== out.image) out.imageFallback = found.imageFallback;
   if (found.imageFallbackZoom) out.imageFallbackZoom = true;
   // Forward the roster rarity so the site can badge characters that aren't in
   // its local roster yet (site-side roster hits still take precedence).

@@ -584,9 +584,14 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
    is worse than two lines. */
 .gp-oban-unit b{
   min-width:0;
-  overflow-wrap:anywhere;
+  /* One line, shrinking to fit rather than wrapping or clipping — long alt
+     names like "Aventurine • Waveflair" broke onto two rows (user
+     2026-08-11). useFitText steps --fit down until it fits. */
+  overflow:hidden;
+  white-space:nowrap;
+  text-overflow:ellipsis;
   font-family:var(--nyx-font-display);
-  font-size:var(--gp-oban-name-size);
+  font-size:calc(var(--gp-oban-name-size) * var(--fit, 1));
   line-height:1.08;
   font-weight:var(--nyx-weight-extrabold);
   text-shadow:var(--nyx-compat-shadow-text-b0e15cea0bf0);
@@ -676,7 +681,9 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
   white-space:nowrap;
   color:var(--nyx-color-heading);
   font-weight:var(--nyx-weight-semibold);
-  font-size:var(--nyx-type-section);
+  /* --fit is stepped down by useFitText when the line would not fit on one
+     row at the viewer's width (user 2026-08-11). */
+  font-size:calc(var(--nyx-type-section) * var(--fit, 1));
   letter-spacing:var(--nyx-compat-tracking-p05em);
   text-shadow:var(--nyx-compat-shadow-text-b0e15cea0bf0);
 }
@@ -687,7 +694,7 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
   text-overflow:ellipsis;
   white-space:nowrap;
   color:var(--nyx-compat-color-hex-b9aee6);
-  font-size:var(--nyx-type-body);
+  font-size:calc(var(--nyx-type-body) * var(--fit, 1));
   letter-spacing:var(--nyx-compat-tracking-p03em);
 }
 /* The progress bar under a card was removed 2026-08-08 at the user's request. */
@@ -902,7 +909,10 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
   min-width:0;
   display:grid;
   grid-template-columns:repeat(3, minmax(0, 1fr)) minmax(200px, 0.85fr) minmax(220px, 0.95fr);
-  align-items:stretch;
+  /* Each column is as tall as its own content. Stretching made Timers and
+     Redemption Codes run the full height of the events grid with nothing in
+     the extra space (user 2026-08-11). */
+  align-items:start;
   gap:var(--nyx-space-12);
 }
 .gp-ov-lower > .gp-current-events{ grid-column:1 / 4; margin-top:0; }
@@ -915,7 +925,6 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
 }
 .gp-ov-side{
   min-width:0;
-  height:100%;
   display:flex;
   flex-direction:column;
   gap:var(--nyx-space-10);
@@ -8135,4 +8144,42 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
   border:1px solid var(--nyx-compat-color-fe41f066fa45);
   border-radius:var(--nyx-radius-pill);
   background:var(--nyx-compat-color-0708ad8b00ca);
+}
+
+/* ZZZ splash art sits inside the card rather than filling it edge to edge, so
+   a full-body agent render is not cropped to a torso. Zoomed slightly and
+   anchored high so the face stays in frame (user 2026-08-11). */
+.gp-ovb .gp-oban.is-contain-art .gp-oban-art{
+  background-size:contain;
+  background-repeat:no-repeat;
+  background-position:50% 0%;
+  transform:scale(1.2);
+  transform-origin:50% 0%;
+}
+/* The "?" beside Endfield's loss pool. */
+.gp-oban-supports-label{ display:inline-flex; align-items:center; gap:var(--nyx-space-6); }
+.gp-oban-supports-help{
+  width:16px; height:16px; flex:none; display:inline-flex; align-items:center; justify-content:center;
+  border:1px solid var(--nyx-compat-color-97cd05e0c6e8); border-radius:50%;
+  background:var(--nyx-compat-color-e1b276e64ad6); color:var(--nyx-compat-color-hex-cfc4ff);
+  font-family:var(--nyx-compat-family-bbbd64e38bdd); font-size:var(--nyx-type-caption); line-height:1;
+  cursor:pointer; padding:0;
+}
+.gp-oban-supports-help:hover,
+.gp-oban-supports-help:focus-visible{ color:var(--nyx-color-text-max); border-color:var(--nyx-compat-color-d489b77ef351); }
+/* Loss-rate explainer overlay. */
+.gp-ovb-modal{
+  position:fixed; inset:0; z-index:80; display:flex; align-items:center; justify-content:center;
+  padding:var(--nyx-space-20); background:var(--nyx-compat-color-9fa4120a9f58); backdrop-filter:blur(2px);
+}
+.gp-ovb-modal-box{
+  position:relative; max-width:min(920px, 92vw); max-height:88vh; overflow:auto;
+  padding:var(--nyx-space-12); border-radius:var(--nyx-radius-card);
+  background:var(--nyx-color-surface); box-shadow:var(--nyx-compat-shadow-box-4f7cd9937d9b);
+}
+.gp-ovb-modal-box img{ display:block; max-width:100%; height:auto; border-radius:var(--nyx-radius-control); }
+.gp-ovb-modal-close{
+  position:absolute; top:var(--nyx-space-6); right:var(--nyx-space-8);
+  width:28px; height:28px; border:0; border-radius:50%; cursor:pointer;
+  background:var(--nyx-compat-color-e1b276e64ad6); color:var(--nyx-color-text-max); font-size:var(--nyx-type-body); line-height:1;
 }

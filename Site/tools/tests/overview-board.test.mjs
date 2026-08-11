@@ -81,7 +81,9 @@ test('the board splits each phase into a headline banner and the rest', () => {
   // Featured lower-rarity units ride along on the headline card — except in
   // Endfield, where that slot carries the 50/50 loss pool instead.
   assert.match(appSource, /all\.filter\(\(unit\) => unit\.rarity && unit\.rarity < rank\)/);
-  assert.match(appSource, /support:cfg\.key === 'ae'/);
+  assert.match(appSource, /cfg\.key === 'ae' \? ranked\.filter/);
+  // ZZZ shows no lower-rarity row at all.
+  assert.match(appSource, /support:cfg\.key === 'zzz' \? \[\]/);
   // Both headline cards in a phase list them, so the row stays uniform.
   assert.match(appSource, /others:column\.support,/);
 });
@@ -119,7 +121,13 @@ test("Endfield's off-banner characters are labelled as the 50/50 loss pool", () 
   // so those names are a loss pool, not banners running alongside.
   assert.match(appSource, /const lossPool = cfg\.key === 'ae'/);
   // The pool now sits on the headline card, labelled there...
-  assert.match(appSource, /supportLabel:cfg\.key === 'ae' \? 'Loss pool' : null/);
+  assert.match(appSource, /supportLabel:cfg\.key === 'ae' \? 'Available on loss' : null/);
+  // The "?" opens a self-hosted copy of the rate table — never a hotlink.
+  assert.match(appSource, /assets\/info\/endfield-loss-rates\.webp/);
+  assert.doesNotMatch(appSource, /cdn\.prydwen\.gg/);
+  // Endfield fills columns 2-4 with what is coming and drops the fifth.
+  assert.match(appSource, /const aeUpcoming = lossPool \? laterUnits\.slice\(0, 3\) : \[\]/);
+  assert.match(appSource, /\{!lossPool && \(/);
   // ...so the neighbouring column must not repeat the same names.
   assert.match(appSource, /if \(!lossPool && column && column\.others\.length\)/);
   assert.match(sharedCss, /\.gp-oban-supports-label\{/);

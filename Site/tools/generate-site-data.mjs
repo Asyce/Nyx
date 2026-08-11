@@ -5382,6 +5382,10 @@ function normalizeBannerCharacter(rosters, key, entry, runCounts) {
   // banners show the same face" bug).
   const entryImage = typeof entry === 'object' ? (localImageRef(entry.image || entry.icon || null)) : null;
   const entryFallback = typeof entry === 'object' ? (localImageRef(entry.imageFallback || null)) : null;
+  // Full-body art the scraper confirmed the CDN actually serves. A character
+  // too new for the local roster (Robin • Summeretto) otherwise falls back to
+  // a headshot URL that 404s, leaving the card blank.
+  const entrySplash = typeof entry === 'object' ? (localImageRef(entry.imageSplash || null)) : null;
   const beta = local ? null : (bannerBetaAssets(key).get(String(name).toLowerCase()) || null);
   // Display the game's own name for the character rather than the community
   // feed's shorthand (user 2026-08-09): game8 announces "Summeretto" and
@@ -5393,7 +5397,7 @@ function normalizeBannerCharacter(rosters, key, entry, runCounts) {
     icon: local?.icon || entryImage || beta?.icon || null,
     iconFallback: entryFallback || null,
     iconZoom: typeof entry === 'object' ? !!entry.imageFallbackZoom : false,
-    art: local?.art || local?.card || entryImage || beta?.art || null,
+    art: local?.art || local?.card || entrySplash || entryImage || beta?.art || null,
     namecard: local?.namecard || null, // G31: GI banner art prefers the namecard
     rarity: local?.r || entry?.rarity || beta?.rarity || null,
     debut,

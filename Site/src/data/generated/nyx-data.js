@@ -4,7 +4,7 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-08-11T09:07:42.429Z",
+  "generatedAt": "2026-08-11T14:45:58.417Z",
   "codes": {
     "updated": "2026-08-11T07:19:03.071Z",
     "maxAgeDays": 28,
@@ -582,43 +582,14 @@ var NYX_DB = {
       "gi": {
         "name": "Genshin Impact",
         "freshness": {
-          "status": "stale",
+          "status": "invalid",
           "checkedAt": "2026-08-11T06:14:35.298Z",
           "lastSuccessfulFetch": "2026-08-09T18:13:08.454Z",
-          "lastValidUpdate": "2026-08-09T18:13:08.454Z",
+          "lastValidUpdate": null,
           "source": "game8",
           "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
-        "current": {
-          "phase": "6.7 Phase 1",
-          "start": null,
-          "end": "2026-08-11T10:00:00.000Z",
-          "characters": [
-            {
-              "name": "Sandrone",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_MarionetteNew_Circle.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_MarionetteNew.webp",
-              "iconZoom": true,
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_MarionetteNew.webp",
-              "namecard": "../../Database/GenshinWiki/namecards/MarionetteNew.png",
-              "rarity": 5,
-              "debut": true,
-              "debutAt": "2026-07-01"
-            },
-            {
-              "name": "Citlali",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Citlali_Circle.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Citlali.webp",
-              "iconZoom": true,
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Citlali.webp",
-              "namecard": "../../Database/GenshinWiki/namecards/Citlali.png",
-              "rarity": 5,
-              "debut": false,
-              "debutAt": "2025-01-01"
-            }
-          ],
-          "subBanners": []
-        },
+        "current": null,
         "next": {
           "phase": "7.0 Phase 1",
           "start": "2026-08-12T03:00:00.000Z",
@@ -5435,43 +5406,14 @@ var NYX_DB = {
       "banners": {
         "name": "Genshin Impact",
         "freshness": {
-          "status": "stale",
+          "status": "invalid",
           "checkedAt": "2026-08-11T06:14:35.298Z",
           "lastSuccessfulFetch": "2026-08-09T18:13:08.454Z",
-          "lastValidUpdate": "2026-08-09T18:13:08.454Z",
+          "lastValidUpdate": null,
           "source": "game8",
           "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
-        "current": {
-          "phase": "6.7 Phase 1",
-          "start": null,
-          "end": "2026-08-11T10:00:00.000Z",
-          "characters": [
-            {
-              "name": "Sandrone",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_MarionetteNew_Circle.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_MarionetteNew.webp",
-              "iconZoom": true,
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_MarionetteNew.webp",
-              "namecard": "../../Database/GenshinWiki/namecards/MarionetteNew.png",
-              "rarity": 5,
-              "debut": true,
-              "debutAt": "2026-07-01"
-            },
-            {
-              "name": "Citlali",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Citlali_Circle.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Citlali.webp",
-              "iconZoom": true,
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Citlali.webp",
-              "namecard": "../../Database/GenshinWiki/namecards/Citlali.png",
-              "rarity": 5,
-              "debut": false,
-              "debutAt": "2025-01-01"
-            }
-          ],
-          "subBanners": []
-        },
+        "current": null,
         "next": {
           "phase": "7.0 Phase 1",
           "start": "2026-08-12T03:00:00.000Z",

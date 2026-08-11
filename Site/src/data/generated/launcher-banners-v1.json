@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "91ed99d25269ab94a4445646298b58e1254c2f11a4facc57b8d74e7a2da497e5",
-  "generatedAt": "2026-08-11T17:31:12.031Z",
+  "revision": "6b8c31f344f2a23323f2aa16b1c1b2d39fc9e9e301b3b26e436382127a764dad",
+  "generatedAt": "2026-08-11T17:38:53.384Z",
   "health": {
     "status": "ok",
     "games": {
@@ -43,7 +43,7 @@
         "remaining": {
           "startsAt": "2026-07-21T23:00:00.000Z",
           "endsAt": "2026-08-11T19:59:00.000Z",
-          "durationSeconds": 8867
+          "durationSeconds": 8406
         },
         "characters": [
           {
@@ -51,7 +51,7 @@
             "name": "Raiden Shogun",
             "rarity": 5,
             "limited": true,
-            "debut": "2021-08-31T22:00:00.000Z",
+            "debut": "2021-09-01T00:00:00.000Z",
             "icon": {
               "id": "10000052-icon",
               "source": "character-icon",
@@ -110,7 +110,7 @@
             "name": "Columbina",
             "rarity": 5,
             "limited": true,
-            "debut": "2026-01-12T23:00:00.000Z",
+            "debut": "2026-01-13T00:00:00.000Z",
             "icon": {
               "id": "10000125-icon",
               "source": "character-icon",
@@ -170,7 +170,7 @@
           "name": "Columbina",
           "rarity": 5,
           "limited": true,
-          "debut": "2026-01-12T23:00:00.000Z",
+          "debut": "2026-01-13T00:00:00.000Z",
           "icon": {
             "id": "10000125-icon",
             "source": "character-icon",
@@ -360,6 +360,18 @@
           "currency": "Primogems"
         },
         {
+          "code": "Everwinter",
+          "added": "2026-07-31",
+          "amount": 100,
+          "currency": "Primogems"
+        },
+        {
+          "code": "OntoSnezhnaya",
+          "added": "2026-07-31",
+          "amount": 100,
+          "currency": "Primogems"
+        },
+        {
           "code": "Odettte0812",
           "added": "2026-07-31",
           "amount": 100,
@@ -377,7 +389,7 @@
         "remaining": {
           "startsAt": "2026-08-05T11:00:00.000Z",
           "endsAt": "2026-08-25T14:00:00.000Z",
-          "durationSeconds": 1196927
+          "durationSeconds": 1196466
         },
         "characters": [
           {
@@ -807,7 +819,7 @@
         "remaining": {
           "startsAt": "2026-07-29T03:00:00.000Z",
           "endsAt": "2026-08-19T03:59:59.000Z",
-          "durationSeconds": 642526
+          "durationSeconds": 642065
         },
         "characters": [
           {
@@ -1141,7 +1153,7 @@
         "remaining": {
           "startsAt": "2026-07-30T09:00:00.000Z",
           "endsAt": "2026-08-19T10:59:00.000Z",
-          "durationSeconds": 667667
+          "durationSeconds": 667206
         },
         "characters": [
           {
@@ -1475,7 +1487,7 @@
         "remaining": {
           "startsAt": "2026-08-09T04:00:00.000Z",
           "endsAt": "2026-09-01T21:59:59.000Z",
-          "durationSeconds": 1830526
+          "durationSeconds": 1830065
         },
         "characters": [
           {

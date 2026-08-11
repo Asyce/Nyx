@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T07:19:03.071Z",
+  "generatedAt": "2026-08-11T15:35:53.483Z",
   "maxAgeDays": 28,
   "games": [
     {
@@ -9,7 +9,7 @@
       "redeemBase": "https://genshin.hoyoverse.com/en/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/GI/codes/",
-      "lastSuccessfulFetch": "2026-08-11T07:18:44.630Z",
+      "lastSuccessfulFetch": "2026-08-11T15:35:53.483Z",
       "codes": [
         {
           "code": "EHVE2TEAFY6O",
@@ -76,16 +76,6 @@
           "firstSeen": "2026-07-22T18:21:43.993Z"
         },
         {
-          "code": "Everwinter",
-          "rewards": "x100 Primogems and x10 Mystic Enchancement Ore",
-          "added": "2026-07-31",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=Everwinter",
-          "premium": true,
-          "premium100": false,
-          "cwSeen": false,
-          "firstSeen": "2026-08-11T07:18:44.630Z"
-        },
-        {
           "code": "Odettte0812",
           "rewards": "x100 Primogems and x50,000 Mora",
           "added": "2026-07-31",
@@ -94,16 +84,6 @@
           "premium100": false,
           "cwSeen": false,
           "firstSeen": "2026-08-01T21:03:08.107Z"
-        },
-        {
-          "code": "OntoSnezhnaya",
-          "rewards": "x100 Primogems and x5 Hero S Wit",
-          "added": "2026-07-31",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=OntoSnezhnaya",
-          "premium": true,
-          "premium100": false,
-          "cwSeen": false,
-          "firstSeen": "2026-08-11T07:18:44.630Z"
         }
       ]
     },
@@ -114,7 +94,7 @@
       "redeemBase": "https://hsr.hoyoverse.com/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/HSR/codes/",
-      "lastSuccessfulFetch": "2026-08-11T07:19:03.071Z",
+      "lastSuccessfulFetch": "2026-08-11T15:35:45.573Z",
       "codes": [
         {
           "code": "4TKSX77Y58QK",
@@ -243,7 +223,7 @@
       "redeemBase": "https://zenless.hoyoverse.com/redemption?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/ZZZ/codes/",
-      "lastSuccessfulFetch": "2026-08-11T07:18:44.639Z",
+      "lastSuccessfulFetch": "2026-08-11T15:35:47.146Z",
       "codes": [
         {
           "code": "CBW0884678",
@@ -306,7 +286,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Terminal > Settings > Other Settings > Redemption Code",
       "sourceUrl": "https://nexus-codes.app/games/WUWA/codes/",
-      "lastSuccessfulFetch": "2026-08-11T07:18:44.558Z",
+      "lastSuccessfulFetch": "2026-08-11T15:35:47.947Z",
       "codes": [
         {
           "code": "ETERNALFLAME",
@@ -360,7 +340,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Settings > Account > Exchange Code",
       "sourceUrl": "https://nexus-codes.app/games/ARKEN/codes/",
-      "lastSuccessfulFetch": "2026-08-11T07:18:44.576Z",
+      "lastSuccessfulFetch": "2026-08-11T15:35:49.563Z",
       "codes": [
         {
           "code": "ENDFIELDRENEW",

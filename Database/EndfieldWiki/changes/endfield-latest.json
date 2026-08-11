@@ -1,7 +1,7 @@
 {
   "provider": "EndfieldWiki",
   "game": "endfield",
-  "generatedAt": "2026-08-11T06:14:26.549Z",
+  "generatedAt": "2026-08-11T15:35:31.366Z",
   "summary": {
     "characters": {
       "added": 0,
@@ -10,10 +10,10 @@
       "unchanged": 30
     },
     "weapons": {
-      "added": 1,
+      "added": 0,
       "removed": 0,
       "changed": 0,
-      "unchanged": 73
+      "unchanged": 74
     },
     "items": {
       "added": 0,
@@ -28,10 +28,10 @@
       "removed": [],
       "changed": [
         {
-          "id": "liino",
-          "name": "Liino",
-          "previousHash": "499dc545a7e05055e66499b7cc466e559485e1e2b73b712d4ea3fcbd7e13f0e8",
-          "currentHash": "f1578b2e88b1c453f9bbbae67ac8dfe320a68a15dabc9106431beedf02b1b05d"
+          "id": "rossi",
+          "name": "Rossi",
+          "previousHash": "c6bc3ff6267abcc17054859234044575c33d641619515b4b27d0d23871457fd1",
+          "currentHash": "7d319a6008f1333dadbf49f6b53af2f536ff0c9bf43190649166fad2a23307df"
         }
       ],
       "unchanged": 30,
@@ -41,19 +41,12 @@
       }
     },
     "weapons": {
-      "added": [
-        {
-          "id": "Bedazzling_Night_Debut",
-          "name": "Bedazzling Night Debut",
-          "previousHash": null,
-          "currentHash": "5e33b43b71c08882bf8d1da5c64f6a819f9d86dc1b3e27b732c6f6ffe9634574"
-        }
-      ],
+      "added": [],
       "removed": [],
       "changed": [],
-      "unchanged": 73,
+      "unchanged": 74,
       "totals": {
-        "previous": 73,
+        "previous": 74,
         "current": 74
       }
     },

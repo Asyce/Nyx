@@ -1,6 +1,6 @@
 {
   "game": "hsr",
-  "updatedAt": "2026-08-11T06:12:43.600Z",
+  "updatedAt": "2026-08-11T15:33:50.046Z",
   "hashes": {
     "records": {
       "characters:acheron": "8e83e2818ab1e1917960baf829d32f18cc29dde67eb8af6b1ea80b63ae13f48c",
@@ -30,7 +30,7 @@
       "characters:evanescia": "740b16f05b40b7be9768ebc506b11544c711c4c8db88df8ebcf41b7b7e27b13e",
       "characters:feixiao": "c908605ce728c5b1a4c38543f0094d15091b095b66febbd603a3f284ef7d1006",
       "characters:firefly": "bd9ecbbfacb34b0857225c53d4b2bbda1e06fdee5e3271632f7b9beb8c0cc61a",
-      "characters:fu-xuan": "6e612d54cb272c3071138f7f52e2f199361d11fb976f296507af87657af4bcd2",
+      "characters:fu-xuan": "fae4868498ae511ead504b99db315d55434eabaaa70279d30eaaade9619de8cf",
       "characters:gallagher": "0cb8849186987d6489858fc04ec416b51d93e3fc59d4fe7f2b50023b4fec3e8e",
       "characters:gepard": "0ac8052db727c96a3c112f82ea586934fbcdcef3d5356f3b5b12050dcccf27e8",
       "characters:gilgamesh": "3fcd062b1e10a108ac1adaa75b719b9abb0167862326ce5c17e4d2318c9f8418",
@@ -44,7 +44,7 @@
       "characters:hyacine": "10d9fbe17d7b0a7706be1f223244c9984e25eacbdaa0ef66cfa5b8f53f27b810",
       "characters:hysilens": "08d7198ae790fcc4d961a3b448c9b93b08ff8dae004c6e32cc83decba910a4ec",
       "characters:imbibitor-lunae": "94f24e03a9d91c37da4a755c1e9c881038ab731c80b82bbbf41a348b9f3d23fb",
-      "characters:jade": "a32967852188b65595bbd0a0109283424b038f06ecc26492c3e2a26615c1abc8",
+      "characters:jade": "5f3d8c10693f879f16bdc30fd719ba027ec214f3aebd9079aa31b0956dfe9250",
       "characters:jiaoqiu": "da16dfa7f7ba43bc2043dcc9753d032962e97c53b94db8578f333997de9120e0",
       "characters:jing-yuan": "0e876eaca46d873af35f185d756b7aced7203d558d44f5a30f0f97741d44063b",
       "characters:jingliu": "62286afb4cb7452171be0f1613750b9be15d5918102926eb373868187575d03f",

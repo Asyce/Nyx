@@ -1,6 +1,6 @@
 {
   "provider": "Prydwen",
-  "generatedAt": "2026-08-11T06:12:43.600Z",
+  "generatedAt": "2026-08-11T15:33:50.046Z",
   "games": {
     "hsr": {
       "game": "hsr",
@@ -14,16 +14,16 @@
       },
       "assets": {
         "requested": 730,
-        "downloaded": 1,
-        "cached": 729,
+        "downloaded": 0,
+        "cached": 730,
         "missing": 0
       },
       "changes": {
         "records": {
           "added": 0,
           "removed": 0,
-          "changed": 95,
-          "unchanged": 0
+          "changed": 2,
+          "unchanged": 93
         }
       }
     },
@@ -47,8 +47,8 @@
         "records": {
           "added": 0,
           "removed": 0,
-          "changed": 1,
-          "unchanged": 62
+          "changed": 0,
+          "unchanged": 63
         }
       }
     },
@@ -89,16 +89,16 @@
       },
       "assets": {
         "requested": 323,
-        "downloaded": 2,
-        "cached": 317,
+        "downloaded": 0,
+        "cached": 319,
         "missing": 4
       },
       "changes": {
         "records": {
           "added": 0,
           "removed": 0,
-          "changed": 8,
-          "unchanged": 26
+          "changed": 0,
+          "unchanged": 34
         }
       }
     }

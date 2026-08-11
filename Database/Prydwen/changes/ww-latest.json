@@ -1,28 +1,21 @@
 {
   "provider": "Prydwen",
   "game": "ww",
-  "generatedAt": "2026-08-11T06:12:43.600Z",
+  "generatedAt": "2026-08-11T15:33:50.046Z",
   "summary": {
     "records": {
       "added": 0,
       "removed": 0,
-      "changed": 1,
-      "unchanged": 62
+      "changed": 0,
+      "unchanged": 63
     }
   },
   "sections": {
     "records": {
       "added": [],
       "removed": [],
-      "changed": [
-        {
-          "id": "characters:taoqi",
-          "name": "Taoqi",
-          "previousHash": "cd1aca4b20a98189c747532e9e47f3a1807650e3df59b30b8cd09f763c4eaa55",
-          "currentHash": "5db322e8195c0d5869bd71e46929d08650fe80259462edcb9d2d134a179fdf05"
-        }
-      ],
-      "unchanged": 62,
+      "changed": [],
+      "unchanged": 63,
       "totals": {
         "previous": 63,
         "current": 63

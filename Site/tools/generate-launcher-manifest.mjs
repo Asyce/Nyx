@@ -36,7 +36,6 @@ const BANNER_HISTORY_HOSTS = {
 };
 const BANNER_REGIONS = ['europe', 'asia', 'america', 'global'];
 const REMOTE_WUWA_ICON_HOST = 'static.nanoka.cc';
-const REMOTE_GAME8_ART_HOST = 'img.game8.co';
 export const MAX_REMOTE_LAUNCHER_ART_BYTES = 2 * 1024 * 1024;
 const PREMIUM_CURRENCY = {
   gi: { name: 'Primogems', aliases: ['primogem', 'primogems'] },
@@ -289,33 +288,11 @@ function remoteWuwaIconUrl(value) {
   }
 }
 
-function remoteGame8ArtUrl(value) {
-  if (typeof value !== 'string' || !value) return null;
-  try {
-    const parsed = new URL(value);
-    if (parsed.protocol !== 'https:'
-      || parsed.hostname.toLowerCase() !== REMOTE_GAME8_ART_HOST
-      || parsed.username
-      || parsed.password
-      || parsed.port
-      || parsed.search
-      || parsed.hash
-      || !/^\/\d+\/[a-f0-9]{32}\.png\/show$/.test(parsed.pathname)) return null;
-    return parsed.toString();
-  } catch {
-    return null;
-  }
-}
-
-function remoteLauncherArtUrl(value) {
-  return remoteWuwaIconUrl(value) ?? remoteGame8ArtUrl(value);
-}
-
 export async function fetchRemoteLauncherArt(sourceUrl, {
   fetchImpl = globalThis.fetch,
   maxBytes = MAX_REMOTE_LAUNCHER_ART_BYTES,
 } = {}) {
-  const approvedUrl = remoteLauncherArtUrl(sourceUrl);
+  const approvedUrl = remoteWuwaIconUrl(sourceUrl);
   if (!approvedUrl || approvedUrl !== sourceUrl) throw new Error(`Launcher art source URL is not approved: ${sourceUrl}`);
   if (!Number.isSafeInteger(maxBytes) || maxBytes <= 0) throw new TypeError('Launcher art byte limit must be a positive safe integer');
   const response = await fetchImpl(approvedUrl, {
@@ -358,25 +335,12 @@ export async function fetchRemoteLauncherArt(sourceUrl, {
     reader.releaseLock?.();
   }
   if (!total) throw new Error(`Launcher art source is empty: ${approvedUrl}`);
-  const bytes = Buffer.concat(chunks, total);
-  const signatureMime = bytes.subarray(0, 8).equals(Buffer.from([137, 80, 78, 71, 13, 10, 26, 10]))
-    ? 'image/png'
-    : bytes.toString('ascii', 0, 4) === 'RIFF' && bytes.toString('ascii', 8, 12) === 'WEBP'
-      ? 'image/webp'
-      : bytes.length >= 3 && bytes[0] === 0xff && bytes[1] === 0xd8 && bytes[2] === 0xff
-        ? 'image/jpeg'
-        : null;
-  if (signatureMime !== contentType) throw new Error(`Launcher art source signature does not match its MIME type: ${approvedUrl}`);
-  return bytes;
+  return Buffer.concat(chunks, total);
 }
 
 function remoteCharacterIcon(game, raw, variantId) {
-  if (game !== 'wuwa' && game !== 'ae') return null;
-  // `image` now holds the copy we host ourselves, so the original publisher URL
-  // travels alongside it as `imageSource` — that is what the launcher fetches.
-  const sourceUrl = game === 'wuwa'
-    ? remoteWuwaIconUrl(raw?.imageSource ?? raw?.image ?? raw?.icon)
-    : remoteGame8ArtUrl(raw?.imageSource ?? raw?.image ?? raw?.icon);
+  if (game !== 'wuwa') return null;
+  const sourceUrl = remoteWuwaIconUrl(raw?.image ?? raw?.icon);
   if (!sourceUrl) return null;
   return {
     id: variantId,
@@ -575,9 +539,7 @@ function buildCharacter(game, raw, rosters, prydwen, db, debuts) {
   if (!name) return null;
   const roster = rosterEntry(rosters, game, name, raw?.image ?? raw?.icon);
   const provider = rosterEntry({ [game]: prydwen }, game, name);
-  const rosterIsExact = roster && [roster.name, roster.displayName, roster.id].some((value) => norm(value) === norm(name));
-  const providerIsExact = provider && [provider.name, provider.displayName, provider.id].some((value) => norm(value) === norm(name));
-  const record = rosterIsExact ? roster : providerIsExact ? provider : roster ?? provider ?? {};
+  const record = roster ?? provider ?? {};
   const rarity = parseRarity(raw?.rarity ?? record.rarity ?? record.facts?.rarity);
   const debut = parseDebut({ ...record, ...raw }) ?? sourcedDebut(debuts?.[game], name);
   const limited = typeof raw?.limited === 'boolean' ? raw.limited : isLimited(record);
@@ -591,8 +553,7 @@ function buildCharacter(game, raw, rosters, prydwen, db, debuts) {
     source: 'character-icon',
     placement: { anchor: 'center', fit: 'cover', x: 0.5, y: 0.5 },
   } : null;
-  const approvedLocalIcon = inspectAsset(raw?.image, 'character-icon', `${id}-icon`, { fit: 'cover', x: 0.5, y: 0.5 }, db);
-  const icon = localCharacterIcon(game, record, db) ?? approvedLocalIcon ?? verifiedArtIcon ?? remoteCharacterIcon(game, raw, `${id}-icon`);
+  const icon = localCharacterIcon(game, record, db) ?? verifiedArtIcon ?? remoteCharacterIcon(game, raw, `${id}-icon`);
   return { id, name, rarity, limited, debut, icon, variants };
 }
 
@@ -629,102 +590,13 @@ function loadEvents(db = DATABASE) {
   return Object.fromEntries(GAMES.map((game) => [game, exists(path.join(db, files[game])) ? readJson(path.join(db, files[game])) : { events: [] }]));
 }
 
-function loadApprovedPengoUpcoming(db = DATABASE) {
-  const file = path.join(db, 'Banners', 'launcher-upcoming-approved.json');
-  if (!exists(file)) return Object.fromEntries(GAMES.map((game) => [game, []]));
-  const input = readJson(file);
-  let source;
-  try {
-    source = new URL(input?.sourceUrl);
-  } catch {
-    throw new Error('Approved Pengo upcoming source URL is invalid');
-  }
-  if (input?.schemaVersion !== 1
-    || source.protocol !== 'https:'
-    || source.hostname !== 'pengo.gg'
-    || source.username
-    || source.password
-    || source.port
-    || source.hash
-    || source.pathname !== '/dist/nyx-data.js'
-    || !/^\?v=[a-f0-9]{12}$/.test(source.search)
-    || !iso(input?.sourceGeneratedAt)
-    || !iso(input?.verifiedAt)
-    || Object.keys(input?.games ?? {}).sort().join(',') !== [...GAMES].sort().join(',')) {
-    throw new Error('Approved Pengo upcoming snapshot is invalid');
-  }
-  return Object.fromEntries(GAMES.map((game) => {
-    const phases = input.games[game];
-    if (!Array.isArray(phases) || phases.length > 5) throw new Error(`${game} approved Pengo upcoming phases are invalid`);
-    let previousEnd = null;
-    const normalized = phases.map((phase) => {
-      const start = iso(phase?.start);
-      const end = iso(phase?.end);
-      const characters = Array.isArray(phase?.characters) ? phase.characters : [];
-      if (!start || !end || timestamp(end) <= timestamp(start) || (previousEnd && timestamp(start) < timestamp(previousEnd))
-        || !characters.length || characters.length > 8) {
-        throw new Error(`${game} approved Pengo upcoming phase is incomplete or overlapping`);
-      }
-      previousEnd = end;
-      const seen = new Set();
-      const approvedCharacters = characters.map((character) => {
-        const name = cleanText(character?.name, 80);
-        const key = norm(name);
-        const image = character?.image == null ? null : safeAssetPath(character.image, db);
-        if (!name || seen.has(key) || (character?.image != null && !image)) {
-          throw new Error(`${game} approved Pengo upcoming character is invalid`);
-        }
-        seen.add(key);
-        return {
-          name,
-          rarity: parseRarity(character?.rarity),
-          limited: character?.limited === true,
-          ...(image ? { image: character.image } : {}),
-        };
-      });
-      return {
-        phase: cleanText(phase?.phase, 48) || null,
-        start,
-        end,
-        characters: approvedCharacters,
-        _sourcedWindow: true,
-      };
-    });
-    return [game, normalized];
-  }));
-}
-
 export function applySourcedBannerWindows(banners, db = DATABASE, nowMs = Date.now()) {
   const copy = structuredClone(banners ?? { games: [] });
-  const approvedUpcoming = loadApprovedPengoUpcoming(db);
   for (const group of copy.games ?? []) {
     const game = canonicalGame(group?.id ?? group?.slug ?? group?.name);
     if (!game) continue;
     const corroboratingGroup = structuredClone(group);
-    group._displayUpcoming = approvedUpcoming[game] ?? [];
-    group._displayAnnounced = game === 'ae'
-      && group?.freshness?.status === 'fresh'
-      && cleanText(group?.freshness?.source, 64) === 'game8'
-      ? (group.upcoming ?? []).filter((phase) => phase?.teased === true && phase?.start == null && phase?.end == null)
-        .map((phase) => ({
-          phase: cleanText(phase?.phase, 48) || null,
-          announced: true,
-          start: null,
-          end: null,
-          characters: (phase?.characters ?? []).map((character) => ({
-            name: cleanText(character?.name, 80),
-            rarity: parseRarity(character?.rarity),
-            limited: character?.limited === true,
-            // `image` is the copy the site hosts; the publisher URL the
-            // launcher fetches travels beside it as `imageSource`.
-            image: remoteGame8ArtUrl(character?.imageSource ?? character?.image),
-          })),
-        }))
-        .filter((phase) => phase.characters.length > 0
-          && phase.characters.length <= 8
-          && phase.characters.every((character) => character.name && character.image)
-          && new Set(phase.characters.map((character) => norm(character.name))).size === phase.characters.length)
-      : [];
+    group._displayUpcoming = [];
     group.current = null;
     group.next = null;
     group.upcoming = [];
@@ -747,8 +619,8 @@ export function applySourcedBannerWindows(banners, db = DATABASE, nowMs = Date.n
         if (!(timestamp(start) <= nowMs && nowMs < timestamp(end))) continue;
         if (!hasIndependentCurrentCorroboration(corroboratingGroup, record, window, nowMs)) continue;
         const characters = (record.featured ?? [])
-          .filter((entry) => (entry?.primary === true || (game === 'ae' && parseRarity(entry?.rarity) === 6)) && norm(entry?.name))
-          .map((entry) => ({ name: cleanText(entry.name, 80), rarity: parseRarity(entry.rarity), limited: entry?.primary === true }));
+          .filter((entry) => entry?.primary === true && norm(entry?.name))
+          .map((entry) => ({ name: cleanText(entry.name, 80), rarity: parseRarity(entry.rarity), limited: true }));
         if (!characters.length) continue;
         candidateActive.push({ recordId: record.id, category: record.category, version: cleanText(record.version, 48) || null, start, end, characters });
       }
@@ -814,7 +686,7 @@ export function applySourcedBannerWindows(banners, db = DATABASE, nowMs = Date.n
       if (!futureWindows.has(key)) futureWindows.set(key, []);
       futureWindows.get(key).push(record);
     }
-    const trustedUpcoming = [...futureWindows.entries()].flatMap(([key, records]) => {
+    group._displayUpcoming = [...futureWindows.entries()].flatMap(([key, records]) => {
       const [futureStart, futureEnd] = key.split('\u0000');
       const futureVersions = new Set(records.map((record) => cleanText(record.version, 48)).filter(Boolean));
       if (records.some((record) => !cleanText(record.version, 48)) || futureVersions.size !== 1) return [];
@@ -839,9 +711,9 @@ export function applySourcedBannerWindows(banners, db = DATABASE, nowMs = Date.n
         _sourceChannels: records.map((record) => ({ recordId: record.id, category: record.category })),
       }];
     }).sort((left, right) => left.start.localeCompare(right.start));
-    if (trustedUpcoming.length) group._displayUpcoming = trustedUpcoming;
-    // Raw next/upcoming timestamps never enter the launcher feed. Trusted
-    // history wins; the fixed, manually reviewed Pengo snapshot fills gaps.
+    // Raw next/upcoming timestamps never enter the launcher feed. Complete,
+    // confirmed records with the same trusted history identity as current data
+    // are the only future-banner authority.
   }
   return copy;
 }
@@ -858,7 +730,7 @@ function buildUpcomingPhases(game, group, rosters, prydwen, db, debuts, nowMs) {
   const raw = Array.isArray(group?._displayUpcoming)
     ? group._displayUpcoming
     : [];
-  const scheduled = raw
+  return raw
     .map((phase, index) => normalizePhase(group, phase, index))
     .filter((phase) => !phase.uncertain && phase.startMs > nowMs)
     .sort((left, right) => left.startMs - right.startMs)
@@ -875,20 +747,6 @@ function buildUpcomingPhases(game, group, rosters, prydwen, db, debuts, nowMs) {
     // Upcoming art is optional. Omit an incomplete phase instead of shipping
     // a broken remote reference or failing the known-good current feed.
     .filter((phase) => phase.characters.length > 0 && phase.characters.every((character) => character.icon));
-  const announced = (Array.isArray(group?._displayAnnounced) ? group._displayAnnounced : [])
-    .slice(0, Math.max(0, 5 - scheduled.length))
-    .map((phase) => ({
-      phase: phase.phase,
-      announced: true,
-      start: null,
-      end: null,
-      characters: phase.characters
-        .map((entry) => buildCharacter(game, entry, rosters ?? {}, prydwen[game] ?? [], db, debuts))
-        .filter(Boolean)
-        .map((character) => ({ ...character, variants: [] })),
-    }))
-    .filter((phase) => phase.characters.length > 0 && phase.characters.every((character) => character.icon));
-  return [...scheduled, ...announced];
 }
 
 function stableStringify(value) {
@@ -936,44 +794,22 @@ export function reconcileLauncherCodes(manifest, codesFeed) {
 }
 
 /**
- * Copy launcher splash art into the small, content-addressed launcher-art
- * directory. Character icons keep their validated Database identity and use
- * Pengo's existing read-only legacy asset host.
+ * Copy current-phase art and the small upcoming character icons referenced by a manifest into the small,
+ * packageable launcher-art directory. Files are content-addressed so the
+ * shipped manifest never needs to expose a provider/database path.
  */
-export function installManifestAtomically(target, bytes, { replaceFile = fs.renameSync } = {}) {
-  const directory = path.dirname(target);
-  const nonce = `${process.pid}-${crypto.randomBytes(6).toString('hex')}`;
-  const temporary = path.join(directory, `.${path.basename(target)}.${nonce}.tmp`);
-  fs.mkdirSync(directory, { recursive: true });
-  try {
-    const handle = fs.openSync(temporary, 'wx');
-    try {
-      fs.writeFileSync(handle, bytes);
-      fs.fsyncSync(handle);
-    } finally {
-      fs.closeSync(handle);
-    }
-    if (!fs.readFileSync(temporary).equals(bytes)) throw new Error('Launcher manifest verification failed.');
-    replaceFile(temporary, target);
-  } finally {
-    fs.rmSync(temporary, { force: true });
-  }
-}
-
 export async function mirrorLauncherArt(manifest, {
   outputDir = LAUNCHER_ART,
   sourceRoot = ROOT,
   publicBaseUrl = 'https://pengo.gg/dist/launcher-art',
   requireDeployable = false,
-  manifestOutput = null,
-  installManifest = installManifestAtomically,
-  fetchRemoteArt = fetchRemoteLauncherArt,
 } = {}) {
   if (!manifest || typeof manifest !== 'object') throw new TypeError('A launcher manifest is required.');
   const root = path.resolve(sourceRoot);
   const destination = path.resolve(outputDir);
   const nonce = `${process.pid}-${crypto.randomBytes(6).toString('hex')}`;
   const staging = `${destination}.tmp-${nonce}`;
+  const backup = `${destination}.bak-${nonce}`;
   const working = structuredClone(manifest);
   fs.mkdirSync(staging, { recursive: true });
   const processed = new Map();
@@ -990,25 +826,12 @@ export async function mirrorLauncherArt(manifest, {
       for (const asset of assets) {
         if (!asset || seenAssets.has(asset)) continue;
         seenAssets.add(asset);
-        if (asset.source === 'character-icon' && typeof asset.path === 'string' && asset.path.startsWith('/Database/')) {
-          const relative = asset.path.slice(1).replace(/\//g, path.sep);
-          const source = path.resolve(root, relative);
-          if (!source.startsWith(`${root}${path.sep}`) || !exists(source) || !fs.statSync(source).isFile()) {
-            throw new Error(`Launcher art source is missing: ${asset.path}`);
-          }
-          const bytes = fs.readFileSync(source);
-          const actual = crypto.createHash('sha256').update(bytes).digest('hex');
-          if (actual !== asset.sha256 || bytes.length !== asset.size) throw new Error(`Launcher art source metadata mismatch: ${asset.path}`);
-          asset.url = `https://assets.pengo.gg/legacy${asset.path}`;
-          delete asset.sourceUrl;
-          continue;
-        }
         let source = null;
         let bytes;
         if (typeof asset.sourceUrl === 'string') {
-          const sourceUrl = remoteLauncherArtUrl(asset.sourceUrl);
-          if (!sourceUrl) throw new Error(`Launcher art source URL is not approved: ${asset.sourceUrl}`);
-          bytes = await fetchRemoteArt(sourceUrl);
+          const sourceUrl = remoteWuwaIconUrl(asset.sourceUrl);
+          if (!sourceUrl) throw new Error(`Launcher art source URL is not an approved WuWa icon: ${asset.sourceUrl}`);
+          bytes = await fetchRemoteLauncherArt(sourceUrl);
           source = sourceUrl;
         } else {
           if (typeof asset.path !== 'string' || !asset.path.startsWith('/Database/')) {
@@ -1051,36 +874,23 @@ export async function mirrorLauncherArt(manifest, {
     }
     working.revision = manifestRevision(working);
     if (requireDeployable) validatePackagedManifest(working, { now: Date.parse(working.generatedAt) });
-    fs.mkdirSync(destination, { recursive: true });
-    for (const file of fs.readdirSync(staging)) {
-      const source = path.join(staging, file);
-      const target = path.join(destination, file);
-      if (exists(target)) {
-        if (!fs.readFileSync(target).equals(fs.readFileSync(source))) throw new Error(`Existing launcher art does not match its content hash: ${file}`);
-      } else {
-        fs.renameSync(source, target);
-      }
+    const hadDestination = exists(destination);
+    if (hadDestination) fs.renameSync(destination, backup);
+    try {
+      fs.renameSync(staging, destination);
+    } catch (error) {
+      if (hadDestination && exists(backup) && !exists(destination)) fs.renameSync(backup, destination);
+      throw error;
     }
-    const referenced = new Set([...processed.values()].map((item) => item.filename));
-    const manifestBytes = Buffer.from(`${JSON.stringify(working, null, 2)}\n`);
-    if (manifestOutput) installManifest(path.resolve(manifestOutput), manifestBytes);
+    if (hadDestination) fs.rmSync(backup, { recursive: true, force: true });
     for (const key of Object.keys(manifest)) delete manifest[key];
     Object.assign(manifest, working);
-    try {
-      for (const file of fs.readdirSync(destination, { withFileTypes: true })) {
-        if (file.isFile() && !referenced.has(file.name)) fs.rmSync(path.join(destination, file.name), { force: true });
-      }
-    } catch {
-      // The installed manifest remains valid if obsolete content-addressed art
-      // cannot be pruned yet; a later generation can retry.
-    }
     const unique = new Map([...processed.values()].map((item) => [item.hash, item]));
     return { manifest, outputDir: destination, count: unique.size, bytes: [...unique.values()].reduce((total, item) => total + item.size, 0) };
   } catch (error) {
     fs.rmSync(staging, { recursive: true, force: true });
+    if (exists(backup) && !exists(destination)) fs.renameSync(backup, destination);
     throw error;
-  } finally {
-    fs.rmSync(staging, { recursive: true, force: true });
   }
 }
 
@@ -1169,12 +979,6 @@ export function validatePackagedManifest(manifest, { now = Date.now(), maxAgeMs 
       if (!character?.icon) errors.push(`${game} current character ${character?.name ?? '<unknown>'} has no icon`);
     }
     for (const phase of entry?.upcoming ?? []) {
-      const announced = phase?.announced === true;
-      const upcomingStart = Date.parse(phase?.start ?? '');
-      const upcomingEnd = Date.parse(phase?.end ?? '');
-      if (announced ? phase?.start !== null || phase?.end !== null : !Number.isFinite(upcomingStart) || !Number.isFinite(upcomingEnd) || upcomingEnd <= upcomingStart) {
-        errors.push(`${game} upcoming phase timing is invalid`);
-      }
       for (const character of phase?.characters ?? []) {
         if (!character?.icon) errors.push(`${game} upcoming character ${character?.name ?? '<unknown>'} has no icon`);
       }
@@ -1187,21 +991,10 @@ export function validatePackagedManifest(manifest, { now = Date.now(), maxAgeMs 
     );
   }
   for (const asset of assets) {
-    const assetPath = String(asset?.path ?? '');
-    const databaseIcon = asset?.source === 'character-icon'
-      && assetPath.startsWith('/Database/')
-      && !assetPath.includes('\\')
-      && assetPath.slice(1).split('/').every((part) => part && part !== '.' && part !== '..');
-    if (databaseIcon) {
-      if (asset?.url !== `https://assets.pengo.gg/legacy${asset.path}`) errors.push(`asset URL is invalid: ${asset?.url ?? '<missing>'}`);
-      if (!/^[a-f0-9]{64}$/.test(asset?.sha256 ?? '')) errors.push(`asset path/hash is invalid: ${asset?.path ?? '<missing>'}`);
-    } else {
-      const match = String(asset?.path ?? '').match(/^\/launcher-art\/([a-f0-9]{64})\.webp$/);
-      if (!match || match[1] !== asset?.sha256) errors.push(`asset path/hash is invalid: ${asset?.path ?? '<missing>'}`);
-      if (asset?.url !== `https://pengo.gg/dist${asset?.path ?? ''}`) errors.push(`asset URL is invalid: ${asset?.url ?? '<missing>'}`);
-    }
-    if (!(databaseIcon ? ['image/webp', 'image/png'].includes(asset?.mime) : asset?.mime === 'image/webp')
-      || !Number.isSafeInteger(asset?.size) || asset.size <= 0) errors.push(`asset metadata is invalid: ${asset?.path ?? '<missing>'}`);
+    const match = String(asset?.path ?? '').match(/^\/launcher-art\/([a-f0-9]{64})\.webp$/);
+    if (!match || match[1] !== asset?.sha256) errors.push(`asset path/hash is invalid: ${asset?.path ?? '<missing>'}`);
+    if (asset?.url !== `https://pengo.gg/dist${asset?.path ?? ''}`) errors.push(`asset URL is invalid: ${asset?.url ?? '<missing>'}`);
+    if (asset?.mime !== 'image/webp' || !Number.isSafeInteger(asset?.size) || asset.size <= 0) errors.push(`asset metadata is invalid: ${asset?.path ?? '<missing>'}`);
     if (!Number.isSafeInteger(asset?.dimensions?.width) || asset.dimensions.width <= 0
       || !Number.isSafeInteger(asset?.dimensions?.height) || asset.dimensions.height <= 0) errors.push(`asset dimensions are invalid: ${asset?.path ?? '<missing>'}`);
   }
@@ -1209,7 +1002,7 @@ export function validatePackagedManifest(manifest, { now = Date.now(), maxAgeMs 
   // `token` is matched as a credential, not as the English word: official event
   // titles legitimately contain it ("...Prismatic Crystals, the Token for the
   // Colorful Surprise Box"), and the bare-word match blocked every deploy.
-  if (/nanoka|drive\.google|google drive|sourceUrl|[a-z]:\\\\|[\\/]Users[\\/]|(?:access|api|auth|bearer|refresh|secret|session)[_-]?token|token[\"']?\s*[=:]\s*[\"']?[\w-]{8}/i.test(serialized)) {
+  if (/nanoka|drive\.google|google drive|sourceUrl|(?:^|[\"/])Database(?:[\/\"]|$)|[a-z]:\\\\|[\\/]Users[\\/]|(?:access|api|auth|bearer|refresh|secret|session)[_-]?token|token[\"']?\s*[=:]\s*[\"']?[\w-]{8}/i.test(serialized)) {
     errors.push('manifest contains internal provenance or secret-like metadata');
   }
   if (errors.length) throw new Error(`Launcher manifest is not deployable:\n- ${errors.join('\n- ')}`);
@@ -1227,8 +1020,10 @@ async function cli() {
   const manifest = buildManifest({ ...loadManifestInputs({ now: at }), now: at, generatedAt });
   const artArg = process.argv.find((arg) => arg.startsWith('--art-output='));
   const artOutput = artArg ? path.resolve(artArg.slice(13)) : LAUNCHER_ART;
-  const mirrored = await mirrorLauncherArt(manifest, { outputDir: artOutput, requireDeployable: true, manifestOutput: output });
+  const mirrored = await mirrorLauncherArt(manifest, { outputDir: artOutput, requireDeployable: true });
   validatePackagedManifest(manifest, { now: at });
+  fs.mkdirSync(path.dirname(output), { recursive: true });
+  fs.writeFileSync(output, `${JSON.stringify(manifest, null, 2)}\n`, 'utf8');
   process.stdout.write(`launcher manifest: ${output} (${manifest.revision}); art: ${mirrored.count} files (${mirrored.bytes} bytes)\n`);
 }
 

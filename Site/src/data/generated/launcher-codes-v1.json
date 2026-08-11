@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-10T00:02:24.181Z",
+  "generatedAt": "2026-08-11T00:21:01.194Z",
   "games": {
     "gi": [
       {
         "code": "LEGEDILJKSGM",
-        "added": "2026-08-10",
+        "added": "2026-08-11",
         "amount": 60,
         "currency": "Primogems"
       },
@@ -37,31 +37,31 @@
     "hsr": [
       {
         "code": "5S6ZHRWTDNJB",
-        "added": "2026-08-10",
+        "added": "2026-08-11",
         "amount": 60,
         "currency": "Stellar Jade"
       },
       {
         "code": "4TKSX77Y58QK",
-        "added": "2026-08-10",
+        "added": "2026-08-11",
         "amount": 30,
         "currency": "Stellar Jade"
       },
       {
         "code": "CREATIONNYMPH",
-        "added": "2026-08-10",
+        "added": "2026-08-11",
         "amount": 60,
         "currency": "Stellar Jade"
       },
       {
         "code": "FAREWELL",
-        "added": "2026-08-10",
+        "added": "2026-08-11",
         "amount": 60,
         "currency": "Stellar Jade"
       },
       {
         "code": "IFYOUAREREADINGTHIS",
-        "added": "2026-08-10",
+        "added": "2026-08-11",
         "amount": 60,
         "currency": "Stellar Jade"
       }
@@ -69,7 +69,7 @@
     "zzz": [
       {
         "code": "ZENLESSGIFT",
-        "added": "2026-08-10",
+        "added": "2026-08-11",
         "amount": 50,
         "currency": "Polychrome"
       },
@@ -115,5 +115,5 @@
       }
     ]
   },
-  "revision": "4d1036a365be9d71bbe3a3af091a500a10961a7e8f4f6724eee6af47c176b241"
+  "revision": "b7c52cf33dc6614dc10dcbc91c83506c0736d21f378ae75aa06f245a2907c661"
 }

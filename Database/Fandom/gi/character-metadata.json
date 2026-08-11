@@ -83,6 +83,27 @@
     ]
   },
   {
+    "name": "Alyosha",
+    "pageTitle": "Alyosha",
+    "aliases": [
+      "Alyosha",
+      "10000148"
+    ],
+    "releaseDate": "2026-08-12 11:00:00 GMT+8",
+    "releasePatch": "7.0",
+    "voiceActors": {
+      "english": "imdb:nm8517409|Kevin Andrew Rivera",
+      "chinese": "https://zh.moegirl.org.cn/王辅平|Wang Fuping (王辅平)",
+      "japanese": "Gen Satō|Sato Gen (佐藤 元)",
+      "korean": "https://namu.wiki/w/김혜성(성우)|Kim Hye-sung (김혜성)"
+    },
+    "categories": [
+      "Category:Introduced in Version Luna VI",
+      "Category:Released in Version 7.0",
+      "Category:Version"
+    ]
+  },
+  {
     "name": "Amber",
     "pageTitle": "Amber",
     "aliases": [
@@ -1630,6 +1651,27 @@
     },
     "categories": [
       "Category:Released in Version 1.0",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Odette",
+    "pageTitle": "Odette",
+    "aliases": [
+      "Odette",
+      "10000150"
+    ],
+    "releaseDate": "2026-08-12 11:00:00 GMT+8",
+    "releasePatch": "7.0",
+    "voiceActors": {
+      "english": "Alexis Tipton",
+      "chinese": "https://zh.moegirl.org.cn/潘丹妮|Pan Danni (潘丹妮)",
+      "japanese": "Sumire Uesaka|Uesaka Sumire (上坂すみれ)",
+      "korean": "https://namu.wiki/w/최현지(성우)|Choi Hyeon-ji (최현지)"
+    },
+    "categories": [
+      "Category:Introduced in Version Luna VII",
+      "Category:Released in Version 7.0",
       "Category:Version"
     ]
   },

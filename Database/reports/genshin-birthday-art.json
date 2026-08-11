@@ -1,13 +1,18 @@
 {
-  "startedAt": "2026-08-07T08:01:20.100Z",
-  "generatedAt": "2026-08-07T08:02:19.628Z",
-  "total": 116,
+  "startedAt": "2026-08-11T08:13:37.214Z",
+  "generatedAt": "2026-08-11T08:14:40.357Z",
+  "total": 118,
   "withBirthdayArt": 107,
   "fallbackToSplash": [
     {
       "name": "Aino",
       "status": "fallback",
       "page": "Aino/Gallery"
+    },
+    {
+      "name": "Alyosha",
+      "status": "fallback",
+      "page": "Alyosha/Gallery"
     },
     {
       "name": "Columbina",
@@ -28,6 +33,11 @@
       "name": "Nicole",
       "status": "fallback",
       "page": "Nicole/Gallery"
+    },
+    {
+      "name": "Odette",
+      "status": "fallback",
+      "page": "Odette/Gallery"
     },
     {
       "name": "Prune",

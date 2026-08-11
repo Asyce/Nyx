@@ -172,5 +172,11 @@
     "EndfieldWiki/endfield/skill-icons/Skill-Arcane1.png",
     "EndfieldWiki/endfield/skill-icons/Combo-Arcane1.png",
     "EndfieldWiki/endfield/skill-icons/Ult-Arcane1.png"
+  ],
+  "liino": [
+    "EndfieldWiki/endfield/skill-icons/Attack-Polearm.png",
+    "EndfieldWiki/endfield/skill-icons/Skill-Liino.png",
+    "EndfieldWiki/endfield/skill-icons/Combo-Liino.png",
+    "EndfieldWiki/endfield/skill-icons/Ult-Liino.png"
   ]
 }

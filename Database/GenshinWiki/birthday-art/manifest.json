@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T08:02:19.628Z",
+  "generatedAt": "2026-08-11T08:14:40.357Z",
   "source": "Genshin Impact Wiki / Fandom MediaWiki API",
   "sourceExample": "https://genshin-impact.fandom.com/wiki/Ifa/Gallery",
   "requestedWidth": 1800,
@@ -233,6 +233,13 @@
       ]
     },
     {
+      "name": "Alyosha",
+      "key": "alyosha",
+      "page": "Alyosha/Gallery",
+      "status": "fallback",
+      "artworks": []
+    },
+    {
       "name": "Amber",
       "key": "amber",
       "page": "Amber/Gallery",
@@ -323,9 +330,21 @@
           "mime": "image/png"
         },
         {
+          "file": "Amber Birthday 2026.jpg",
+          "title": "Amber Birthday 2026.jpg (3.54 MB)",
+          "localAsset": "GenshinWiki/birthday-art/amber/08-Amber Birthday 2026.jpg",
+          "sourcePage": "https://genshin-impact.fandom.com/wiki/Amber/Gallery",
+          "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Amber_Birthday_2026.jpg",
+          "width": 1800,
+          "height": 1800,
+          "originalWidth": 5000,
+          "originalHeight": 5000,
+          "mime": "image/jpeg"
+        },
+        {
           "file": "Amber TPRGT 2022 - Aether.png",
           "title": "Amber TPRGT 2022 - Aether.png (2.18 MB)",
-          "localAsset": "GenshinWiki/birthday-art/amber/08-Amber TPRGT 2022 - Aether.png",
+          "localAsset": "GenshinWiki/birthday-art/amber/09-Amber TPRGT 2022 - Aether.png",
           "sourcePage": "https://genshin-impact.fandom.com/wiki/Amber/Gallery",
           "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Amber_TPRGT_2022_-_Aether.png",
           "width": 1800,
@@ -337,7 +356,7 @@
         {
           "file": "Amber TPRGT 2022 - Lumine.png",
           "title": "Amber TPRGT 2022 - Lumine.png (2.19 MB)",
-          "localAsset": "GenshinWiki/birthday-art/amber/09-Amber TPRGT 2022 - Lumine.png",
+          "localAsset": "GenshinWiki/birthday-art/amber/10-Amber TPRGT 2022 - Lumine.png",
           "sourcePage": "https://genshin-impact.fandom.com/wiki/Amber/Gallery",
           "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Amber_TPRGT_2022_-_Lumine.png",
           "width": 1800,
@@ -349,7 +368,7 @@
         {
           "file": "Amber TPRGT 2023 - Aether.png",
           "title": "Amber TPRGT 2023 - Aether.png (2.05 MB)",
-          "localAsset": "GenshinWiki/birthday-art/amber/10-Amber TPRGT 2023 - Aether.png",
+          "localAsset": "GenshinWiki/birthday-art/amber/11-Amber TPRGT 2023 - Aether.png",
           "sourcePage": "https://genshin-impact.fandom.com/wiki/Amber/Gallery",
           "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Amber_TPRGT_2023_-_Aether.png",
           "width": 1800,
@@ -361,7 +380,7 @@
         {
           "file": "Amber TPRGT 2023 - Lumine.png",
           "title": "Amber TPRGT 2023 - Lumine.png (2.05 MB)",
-          "localAsset": "GenshinWiki/birthday-art/amber/11-Amber TPRGT 2023 - Lumine.png",
+          "localAsset": "GenshinWiki/birthday-art/amber/12-Amber TPRGT 2023 - Lumine.png",
           "sourcePage": "https://genshin-impact.fandom.com/wiki/Amber/Gallery",
           "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Amber_TPRGT_2023_-_Lumine.png",
           "width": 1800,
@@ -3140,6 +3159,18 @@
           "originalWidth": 2048,
           "originalHeight": 2048,
           "mime": "image/png"
+        },
+        {
+          "file": "Iansan Birthday 2026.jpg",
+          "title": "Iansan Birthday 2026.jpg (1.88 MB)",
+          "localAsset": "GenshinWiki/birthday-art/iansan/02-Iansan Birthday 2026.jpg",
+          "sourcePage": "https://genshin-impact.fandom.com/wiki/Iansan/Gallery",
+          "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Iansan_Birthday_2026.jpg",
+          "width": 1800,
+          "height": 1800,
+          "originalWidth": 5000,
+          "originalHeight": 5000,
+          "mime": "image/jpeg"
         }
       ]
     },
@@ -5060,9 +5091,21 @@
           "mime": "image/png"
         },
         {
+          "file": "Mika Birthday 2026.png",
+          "title": "Mika Birthday 2026.png (3.46 MB)",
+          "localAsset": "GenshinWiki/birthday-art/mika/04-Mika Birthday 2026.png",
+          "sourcePage": "https://genshin-impact.fandom.com/wiki/Mika/Gallery",
+          "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Mika_Birthday_2026.png",
+          "width": 1800,
+          "height": 1800,
+          "originalWidth": 2500,
+          "originalHeight": 2500,
+          "mime": "image/png"
+        },
+        {
           "file": "Mika TPRGT 2023 - Aether.png",
           "title": "Mika TPRGT 2023 - Aether.png (2.71 MB)",
-          "localAsset": "GenshinWiki/birthday-art/mika/04-Mika TPRGT 2023 - Aether.png",
+          "localAsset": "GenshinWiki/birthday-art/mika/05-Mika TPRGT 2023 - Aether.png",
           "sourcePage": "https://genshin-impact.fandom.com/wiki/Mika/Gallery",
           "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Mika_TPRGT_2023_-_Aether.png",
           "width": 1800,
@@ -5074,7 +5117,7 @@
         {
           "file": "Mika TPRGT 2023 - Lumine.png",
           "title": "Mika TPRGT 2023 - Lumine.png (2.74 MB)",
-          "localAsset": "GenshinWiki/birthday-art/mika/05-Mika TPRGT 2023 - Lumine.png",
+          "localAsset": "GenshinWiki/birthday-art/mika/06-Mika TPRGT 2023 - Lumine.png",
           "sourcePage": "https://genshin-impact.fandom.com/wiki/Mika/Gallery",
           "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Mika_TPRGT_2023_-_Lumine.png",
           "width": 1800,
@@ -5835,6 +5878,13 @@
           "mime": "image/png"
         }
       ]
+    },
+    {
+      "name": "Odette",
+      "key": "odette",
+      "page": "Odette/Gallery",
+      "status": "fallback",
+      "artworks": []
     },
     {
       "name": "Ororon",

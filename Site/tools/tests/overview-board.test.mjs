@@ -53,10 +53,17 @@ test('what is live comes from the official history, not the community scrape', (
   // The scrape lags on the running phase (2026-08-08: it still listed Genshin
   // 6.7 Phase 1 while Phase 2 was live), so the official feed wins for current.
   assert.match(generator, /function officialPhases/);
-  assert.match(generator, /current: keepLabel\(official\.current, scrapedCurrent\)/);
+  assert.match(generator, /const current = keepLabel\(official\.current, scrapedCurrent\)/);
+  // Every region is examined, not just the first. They end hours apart, so
+  // stopping at one (Asia) dropped a banner still running in Europe and fell
+  // the whole game back to the community scrape.
+  assert.match(generator, /if \(!running \|\| end > running\.end\) running =/);
+  // The community feed repeats a phase inside its own upcoming list; those
+  // repeats must not become extra "later" phases.
+  assert.match(generator, /const alreadyShown = new Set/);
   // Next comes from official history too — it is the only source that lists the
   // featured 4-stars (Alyosha on both Genshin 7.0 Phase 1 banners).
-  assert.match(generator, /next: keepLabel\(official\.next, scrapedNext\)/);
+  assert.match(generator, /const next = keepLabel\(official\.next, scrapedNext\)/);
   // Deliberately no assertion that the shipped current phase is still running:
   // the payload is rebuilt on a schedule, so between a phase rollover and the
   // next refresh it is legitimately behind. Asserting freshness here would fail
@@ -71,8 +78,12 @@ test('the board splits each phase into a headline banner and the rest', () => {
   assert.match(appSource, /left\.unit\.debut !== right\.unit\.debut/);
   assert.match(appSource, /row\.unit\.debutAt \|\| ''/);
   assert.match(appSource, /units\.length === 2 \? ranked\.slice\(0, 2\) : ranked\.slice\(0, 1\)/);
-  // Featured lower-rarity units ride along on the headline card.
-  assert.match(appSource, /support:all\.filter\(\(unit\) => unit\.rarity && unit\.rarity < rank\)/);
+  // Featured lower-rarity units ride along on the headline card — except in
+  // Endfield, where that slot carries the 50/50 loss pool instead.
+  assert.match(appSource, /all\.filter\(\(unit\) => unit\.rarity && unit\.rarity < rank\)/);
+  assert.match(appSource, /support:cfg\.key === 'ae'/);
+  // Both headline cards in a phase list them, so the row stays uniform.
+  assert.match(appSource, /others:column\.support,/);
 });
 
 test('the overview renders five banner columns and folds the old rail into the grid', () => {
@@ -95,7 +106,9 @@ test('the overview renders five banner columns and folds the old rail into the g
 });
 
 test('the grid reflows instead of overflowing on narrow screens', () => {
-  assert.match(sharedCss, /\.gp-ovb\{[\s\S]*?grid-template-columns:minmax\(0, 1\.35fr\) minmax\(0, 1fr\) minmax\(0, 1\.35fr\)/);
+  // Columns 1-4 are equal width so a phase's two headline cards match and
+  // nothing squashes; column 5 is the narrower "later" list.
+  assert.match(sharedCss, /\.gp-ovb\{[\s\S]*?grid-template-columns:repeat\(4, minmax\(0, 1fr\)\) minmax\(0, 0\.82fr\)/);
   assert.match(sharedCss, /\.gp-ov-lower\{[\s\S]*?grid-template-columns:repeat\(3, minmax\(0, 1fr\)\)/);
   assert.match(sharedCss, /@media \(max-width:1500px\)\{[\s\S]*?\.gp-ovb\{ grid-template-columns:repeat\(2, minmax\(0, 1fr\)\)/);
   assert.match(sharedCss, /@media \(max-width:900px\)\{[\s\S]*?grid-template-columns:minmax\(0, 1fr\)/);
@@ -105,9 +118,11 @@ test("Endfield's off-banner characters are labelled as the 50/50 loss pool", () 
   // Losing the 50/50 in Endfield gives one of the previous banner characters,
   // so those names are a loss pool, not banners running alongside.
   assert.match(appSource, /const lossPool = cfg\.key === 'ae'/);
-  assert.match(appSource, /<BannerBoardNote title="Banner Loss Characters">/);
-  assert.equal((appSource.match(/<BannerBoardNote title="Banner Loss Characters">/g) || []).length, 2,
-    'both the running and the upcoming Endfield column are the loss pool');
+  // The pool now sits on the headline card, labelled there...
+  assert.match(appSource, /supportLabel:cfg\.key === 'ae' \? 'Loss pool' : null/);
+  // ...so the neighbouring column must not repeat the same names.
+  assert.match(appSource, /if \(!lossPool && column && column\.others\.length\)/);
+  assert.match(sharedCss, /\.gp-oban-supports-label\{/);
   assert.match(sharedCss, /\.gp-ovb-note\{/);
 });
 

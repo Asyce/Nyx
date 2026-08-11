@@ -599,6 +599,15 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
   font-size:var(--nyx-type-caption);
   letter-spacing:var(--nyx-compat-tracking-p06em);
 }
+/* Endfield labels this row: those names are the 50/50 loss pool, not extra
+   featured units (user 2026-08-11). */
+.gp-oban-supports-label{
+  font-family:var(--nyx-compat-family-bbbd64e38bdd);
+  font-size:var(--nyx-type-caption);
+  letter-spacing:var(--nyx-compat-tracking-p14em);
+  text-transform:uppercase;
+  color:var(--nyx-color-text-muted);
+}
 .gp-oban-supports{
   min-width:0;
   display:flex;
@@ -694,7 +703,9 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
 .gp-ovb{
   min-width:0;
   display:grid;
-  grid-template-columns:minmax(0, 1.35fr) minmax(0, 1fr) minmax(0, 1.35fr) minmax(0, 1fr) minmax(0, 1fr);
+  /* Columns 1-4 are equal so a phase's two headline cards match and nothing
+     squashes; column 5 is the narrower "later" list (user 2026-08-11). */
+  grid-template-columns:repeat(4, minmax(0, 1fr)) minmax(0, 0.82fr);
   align-items:stretch;
   gap:var(--nyx-space-12);
 }

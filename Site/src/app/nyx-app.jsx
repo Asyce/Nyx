@@ -773,6 +773,7 @@ function BannerPhaseCard({ card, now, showGame, unitLink }){
         </div>
         {!!card.others.length && (
           <div className="gp-oban-supports">
+            {card.supportLabel && <span className="gp-oban-supports-label">{card.supportLabel}</span>}
             {card.others.map((unit) => (
               <BannerUnit key={unit.name} unit={unit} onOpen={unitLink && unitLink(unit)} showBadge={false} />
             ))}
@@ -818,9 +819,14 @@ function bannerBoardColumn(cfg, phase, status){
     end:phase.end ? new Date(phase.end).getTime() : NaN,
     heroes,
     others:ranked.filter((unit) => !heroes.includes(unit)),
-    // Featured lower-rarity units ride along on the headline card, marked with
-    // their rarity so a 4-star is never mistaken for the banner's draw.
-    support:all.filter((unit) => unit.rarity && unit.rarity < rank),
+    // What rides along under the headline unit. Normally the featured
+    // lower-rarity units, marked with their rarity so a 4-star is never
+    // mistaken for the banner's draw. Endfield has no featured 4-stars to
+    // show — what matters there is the loss pool, so its off-banner
+    // headliners take that slot instead (user 2026-08-11).
+    support:cfg.key === 'ae'
+      ? ranked.filter((unit) => !heroes.includes(unit))
+      : all.filter((unit) => unit.rarity && unit.rarity < rank),
   };
 }
 
@@ -951,8 +957,11 @@ function OverviewBannerBoard({ cfg, onOpenMaterial }){
     start:column.start,
     end:column.end,
     featured:[hero],
-    // Featured 4-stars ride along under the headline unit.
-    others:index === 0 ? column.support : [],
+    // Both headline banners in a phase share the same featured lower-rarity
+    // units in game, so both cards list them — that also keeps every card in
+    // the row the same shape (user 2026-08-11).
+    others:column.support,
+    supportLabel:cfg.key === 'ae' ? 'Loss pool' : null,
     // One art only — a two-entry pool would crossfade the splash against the
     // namecard every few seconds.
     artPool:[hero.splash].filter(Boolean),
@@ -967,7 +976,11 @@ function OverviewBannerBoard({ cfg, onOpenMaterial }){
   // lists whatever else is running in the same phase.
   const sideColumn = (column, cards, status, emptyText) => {
     if (cards.length > 1) return <BannerPhaseCard card={cards[1]} now={now} unitLink={unitLink} />;
-    if (column && column.others.length) return column.others.map((unit) => <BannerBoardRow key={unit.name} unit={unit} status={status} onOpen={unitLink(unit)} />);
+    // Endfield's off-banner names are the loss pool and already sit on the
+    // headline card, so this column must not repeat them.
+    if (!lossPool && column && column.others.length) {
+      return column.others.map((unit) => <BannerBoardRow key={unit.name} unit={unit} status={status} onOpen={unitLink(unit)} />);
+    }
     return <BannerBoardEmpty>{emptyText}</BannerBoardEmpty>;
   };
   return (
@@ -976,18 +989,12 @@ function OverviewBannerBoard({ cfg, onOpenMaterial }){
         {currentHeroes.length ? <BannerPhaseCard card={currentHeroes[0]} now={now} unitLink={unitLink} /> : <BannerBoardEmpty>No confirmed banner right now.</BannerBoardEmpty>}
       </BannerBoardColumn>
       <BannerBoardColumn>
-        {lossPool && board.current && board.current.others.length > 0 && (
-          <BannerBoardNote title="Banner Loss Characters">Previous banners — what a 50/50 loss gives you</BannerBoardNote>
-        )}
-        {sideColumn(board.current, currentHeroes, 'live', 'Nothing else running.')}
+        {sideColumn(board.current, currentHeroes, 'live', lossPool ? 'No other banner running.' : 'Nothing else running.')}
       </BannerBoardColumn>
       <BannerBoardColumn heading={bannerPhaseHeading(board.next)}>
         {nextHeroes.length ? <BannerPhaseCard card={nextHeroes[0]} now={now} unitLink={unitLink} /> : <BannerBoardEmpty />}
       </BannerBoardColumn>
       <BannerBoardColumn>
-        {lossPool && board.next && board.next.others.length > 0 && nextHeroes.length <= 1 && (
-          <BannerBoardNote title="Banner Loss Characters">Previous banners — what a 50/50 loss gives you</BannerBoardNote>
-        )}
         {sideColumn(board.next, nextHeroes, 'next', undefined)}
       </BannerBoardColumn>
       <BannerBoardColumn heading={board.later.length ? bannerNextPhaseHeading(board.later[0], board.next) : null}>

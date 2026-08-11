@@ -5419,6 +5419,7 @@ function normalizeBannerPhase(rosters, key, phase, runCounts) {
   const nowMs = Date.now();
   return {
     phase: phase?.phase || null,
+    teased: phase?.teased === true,
     start: plausibleBannerDate(phase?.start, nowMs),
     end: plausibleBannerDate(phase?.end, nowMs),
     characters,
@@ -5481,16 +5482,27 @@ function officialPhases(key, rosters, runCounts, now) {
   const future = [];
   for (const record of readJson(file).records || []) {
     if (record?.permanent || record?.bannerType === 'weapon') continue;
+    // Every region is considered, not just the first: the regions end hours
+    // apart, so stopping at (say) Asia drops a banner that is still running in
+    // Europe and silently falls the whole game back to the community scrape.
+    let running = null;
+    let starting = null;
     for (const window of Object.values(record.windowsByRegion || {})) {
       const start = Date.parse(window?.start);
       const end = Date.parse(window?.end);
       if (!Number.isFinite(start)) continue;
       // "Live" needs a published end — without one an ancient record would
       // masquerade as running. "Upcoming" only needs a start.
-      if (start > now) future.push({ record, start, end });
-      else if (Number.isFinite(end) && end >= now) live.push({ record, start, end });
-      break;
+      if (start <= now && Number.isFinite(end) && end >= now) {
+        // Prefer the region that runs longest, so the countdown matches the
+        // last server still on this banner.
+        if (!running || end > running.end) running = { record, start, end };
+      } else if (start > now && (!starting || start < starting.start)) {
+        starting = { record, start, end };
+      }
     }
+    if (running) live.push(running);
+    else if (starting) future.push(starting);
   }
   // "Next" is only the soonest future phase, not everything on the wiki.
   const soonest = future.length ? Math.min(...future.map((row) => row.start)) : null;
@@ -5522,16 +5534,34 @@ function buildBannersData(rosters) {
       const sameRun = scraped?.phase && scraped.characters.some((row) => officialPhase.characters.some((hit) => hit.name === row.name));
       return { ...officialPhase, phase:sameRun ? scraped.phase : officialPhase.phase };
     };
-    const normalized = {
-      name: group.name,
-      freshness: group.freshness || null,
-      current: keepLabel(official.current, scrapedCurrent) || scrapedCurrent,
-      next: keepLabel(official.next, scrapedNext) || scrapedNext,
-      upcoming: (group.upcoming || []).map((phase) => normalizeBannerPhase(rosters, key, phase, runCounts)),
-    };
+    const current = keepLabel(official.current, scrapedCurrent) || scrapedCurrent;
+    const next = keepLabel(official.next, scrapedNext) || scrapedNext;
+    // The community feed repeats a phase in its own `upcoming` list — Genshin
+    // publishes both `next: [Odette, Arlecchino]` and
+    // `upcoming: [Odette, Arlecchino, Ineffa, Flins]`. Left alone those repeats
+    // become extra "later" phases and the same characters appear twice on the
+    // board, so anything already covered by current/next is dropped here.
+    const alreadyShown = new Set([...(current?.characters || []), ...(next?.characters || [])]
+      .map((row) => rosterNameKey(row.name)).filter(Boolean));
+    const upcoming = [];
+    for (const phase of group.upcoming || []) {
+      const built = normalizeBannerPhase(rosters, key, phase, runCounts);
+      const fresh = built.characters.filter((row) => !alreadyShown.has(rosterNameKey(row.name)));
+      if (!fresh.length) continue;
+      for (const row of fresh) alreadyShown.add(rosterNameKey(row.name));
+      upcoming.push({ ...built, characters:fresh });
+    }
+    const normalized = { name: group.name, freshness: group.freshness || null, current, next, upcoming };
+    // Reflow keeps only phases with a real start — correct for scheduled
+    // banners, but it would throw away announced-but-unscheduled reveals
+    // (Endfield teases operators long before a window exists). Those are set
+    // aside and re-attached after re-threading.
+    const teased = upcoming.filter((phase) => phase.teased);
+    normalized.upcoming = upcoming.filter((phase) => !phase.teased);
     // 2) Re-thread current/next/upcoming from the timeline and compute honest
     //    freshness (drops expired-as-current, merges identical windows).
     games[key] = reflowBannerGroup(normalized, now);
+    if (teased.length) games[key].upcoming = [...(games[key].upcoming || []), ...teased];
   }
   return { updated: src.updated || src.generatedAt || null, checkedAt: src.checkedAt || null, games };
 }

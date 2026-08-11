@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T23:59:07.518Z",
+  "generatedAt": "2026-08-11T15:08:15.209Z",
   "note": "overviewArtPool is used only by overview favourite cards. Material/detail art stays on normal character assets.",
   "counts": {
     "roster": 118,
@@ -622,12 +622,6 @@
       "pool": 1
     },
     {
-      "name": "Traveler",
-      "automatic": 0,
-      "manual": 1,
-      "pool": 1
-    },
-    {
       "name": "Diluc",
       "automatic": 1,
       "manual": 0,
@@ -751,6 +745,12 @@
       "name": "Xingqiu",
       "automatic": 1,
       "manual": 0,
+      "pool": 1
+    },
+    {
+      "name": "Traveler",
+      "automatic": 0,
+      "manual": 1,
       "pool": 1
     }
   ]

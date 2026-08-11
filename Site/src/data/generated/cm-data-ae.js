@@ -5933,6 +5933,272 @@
       "cost": 0
     },
     {
+      "id": "Bedazzling_Night_Debut",
+      "name": "Bedazzling Night Debut",
+      "rarity": 6,
+      "weaponType": "Polearm",
+      "type": "Polearm",
+      "source": "Acquisition Center: Arsenal Exchange",
+      "icon": "../../Database/EndfieldWiki/endfield/assets/weapons/bedazzling-night-debut/icon.png",
+      "art": "../../Database/EndfieldWiki/endfield/assets/weapons/bedazzling-night-debut/icon.png",
+      "items": [
+        {
+          "id": "ae:Metadiastima_Photoemission_Tube",
+          "name": "Metadiastima Photoemission Tube",
+          "n": "Metadiastima Photoemission Tube",
+          "qty": 16,
+          "rar": 5,
+          "kind": "gem",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/items/metadiastima-photoemission-tube.png",
+          "source": "Protocol Space: Hazardous Material Landfill, Crisis Pandemonium: Rhodagn (Deep Dive), Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (D",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Metadiastima_Photoemission_Tube"
+        },
+        {
+          "id": "ae:Cast_Die",
+          "name": "Cast Die",
+          "n": "Cast Die",
+          "qty": 23,
+          "rar": 3,
+          "kind": "weapon",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/items/cast-die.png",
+          "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Cast_Die"
+        },
+        {
+          "id": "ae:Heavy_Cast_Die",
+          "name": "Heavy Cast Die",
+          "n": "Heavy Cast Die",
+          "qty": 50,
+          "rar": 4,
+          "kind": "weapon",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/items/heavy-cast-die.png",
+          "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Heavy_Cast_Die"
+        },
+        {
+          "id": "ae:Auronyx",
+          "name": "Auronyx",
+          "n": "Auronyx",
+          "qty": 5,
+          "rar": 4,
+          "kind": "specialty",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/items/auronyx.png",
+          "source": "Area found: Originium Science Park, Rare Mining Sites, Dijiang Production: Growth Chamber, Origin Lodespring",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Auronyx"
+        },
+        {
+          "id": "ae:Kalkonyx",
+          "name": "Kalkonyx",
+          "n": "Kalkonyx",
+          "qty": 3,
+          "rar": 4,
+          "kind": "specialty",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/items/kalkonyx.png",
+          "source": "Area found: Hub Base, Rare Mining Sites, Dijiang Production: Growth Chamber, The Hub",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Kalkonyx"
+        },
+        {
+          "id": "ae:Protocolith",
+          "name": "Protocolith",
+          "n": "Protocolith",
+          "qty": 8,
+          "rar": 5,
+          "kind": "specialty",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/items/protocolith.png",
+          "source": "Rare Mining Sites, Dijiang Production: Growth Chamber, North Wuling Exclusion Zone",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Protocolith"
+        },
+        {
+          "id": "ae:Umbronyx",
+          "name": "Umbronyx",
+          "n": "Umbronyx",
+          "qty": 5,
+          "rar": 4,
+          "kind": "specialty",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/items/umbronyx.png",
+          "source": "Area found: Power Plateau, Rare Mining Sites, Dijiang Production: Growth Chamber, Jingyu Valley",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Umbronyx"
+        },
+        {
+          "id": "ae:T-Creds",
+          "name": "T-Creds",
+          "n": "T-Creds",
+          "qty": 125700,
+          "rar": 4,
+          "kind": "currency",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+          "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+        }
+      ],
+      "tuningStages": [
+        {
+          "items": [
+            {
+              "id": "ae:Cast_Die",
+              "name": "Cast Die",
+              "n": "Cast Die",
+              "qty": 5,
+              "rar": 3,
+              "kind": "weapon",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/cast-die.png",
+              "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Cast_Die"
+            },
+            {
+              "id": "ae:Kalkonyx",
+              "name": "Kalkonyx",
+              "n": "Kalkonyx",
+              "qty": 3,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/kalkonyx.png",
+              "source": "Area found: Hub Base, Rare Mining Sites, Dijiang Production: Growth Chamber, The Hub",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Kalkonyx"
+            },
+            {
+              "id": "ae:T-Creds",
+              "name": "T-Creds",
+              "n": "T-Creds",
+              "qty": 2200,
+              "rar": 4,
+              "kind": "currency",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+              "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+            }
+          ],
+          "cost": 0
+        },
+        {
+          "items": [
+            {
+              "id": "ae:Cast_Die",
+              "name": "Cast Die",
+              "n": "Cast Die",
+              "qty": 18,
+              "rar": 3,
+              "kind": "weapon",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/cast-die.png",
+              "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Cast_Die"
+            },
+            {
+              "id": "ae:Auronyx",
+              "name": "Auronyx",
+              "n": "Auronyx",
+              "qty": 5,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/auronyx.png",
+              "source": "Area found: Originium Science Park, Rare Mining Sites, Dijiang Production: Growth Chamber, Origin Lodespring",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Auronyx"
+            },
+            {
+              "id": "ae:T-Creds",
+              "name": "T-Creds",
+              "n": "T-Creds",
+              "qty": 8500,
+              "rar": 4,
+              "kind": "currency",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+              "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+            }
+          ],
+          "cost": 0
+        },
+        {
+          "items": [
+            {
+              "id": "ae:Heavy_Cast_Die",
+              "name": "Heavy Cast Die",
+              "n": "Heavy Cast Die",
+              "qty": 20,
+              "rar": 4,
+              "kind": "weapon",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/heavy-cast-die.png",
+              "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Heavy_Cast_Die"
+            },
+            {
+              "id": "ae:Umbronyx",
+              "name": "Umbronyx",
+              "n": "Umbronyx",
+              "qty": 5,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/umbronyx.png",
+              "source": "Area found: Power Plateau, Rare Mining Sites, Dijiang Production: Growth Chamber, Jingyu Valley",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Umbronyx"
+            },
+            {
+              "id": "ae:T-Creds",
+              "name": "T-Creds",
+              "n": "T-Creds",
+              "qty": 25000,
+              "rar": 4,
+              "kind": "currency",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+              "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+            }
+          ],
+          "cost": 0
+        },
+        {
+          "items": [
+            {
+              "id": "ae:Metadiastima_Photoemission_Tube",
+              "name": "Metadiastima Photoemission Tube",
+              "n": "Metadiastima Photoemission Tube",
+              "qty": 16,
+              "rar": 5,
+              "kind": "gem",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/metadiastima-photoemission-tube.png",
+              "source": "Protocol Space: Hazardous Material Landfill, Crisis Pandemonium: Rhodagn (Deep Dive), Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (D",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Metadiastima_Photoemission_Tube"
+            },
+            {
+              "id": "ae:Heavy_Cast_Die",
+              "name": "Heavy Cast Die",
+              "n": "Heavy Cast Die",
+              "qty": 30,
+              "rar": 4,
+              "kind": "weapon",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/heavy-cast-die.png",
+              "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Heavy_Cast_Die"
+            },
+            {
+              "id": "ae:Protocolith",
+              "name": "Protocolith",
+              "n": "Protocolith",
+              "qty": 8,
+              "rar": 5,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/protocolith.png",
+              "source": "Rare Mining Sites, Dijiang Production: Growth Chamber, North Wuling Exclusion Zone",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Protocolith"
+            },
+            {
+              "id": "ae:T-Creds",
+              "name": "T-Creds",
+              "n": "T-Creds",
+              "qty": 90000,
+              "rar": 4,
+              "kind": "currency",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+              "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+            }
+          ],
+          "cost": 0
+        }
+      ],
+      "cost": 0
+    },
+    {
       "id": "Blessing_of_Lustrous_Carmine",
       "name": "Blessing of Lustrous Carmine",
       "rarity": 6,
@@ -33444,18 +33710,1284 @@
       "el": "Electric",
       "cls": "Supporter",
       "w": "Polearm",
-      "tag": "Talos-II General Chamber of Commerce",
+      "tag": "Talos-II General Chamber of Commerce (TGCC)",
       "icon": "../../Database/EndfieldWiki/endfield/assets/operators/liino/icon.png",
       "art": "../../Database/EndfieldWiki/endfield/assets/operators/liino/splash.png",
-      "card": "../../Database/EndfieldWiki/endfield/assets/operators/liino/splash.png",
+      "card": "../../Database/EndfieldWiki/endfield/assets/operators/liino/banner.png",
+      "skillIcons": [
+        "../../Database/EndfieldWiki/endfield/skill-icons/Attack-Polearm.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Skill-Liino.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Liino.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Liino.png"
+      ],
       "baseStats": {},
       "facts": {
-        "faction": "Talos-II General Chamber of Commerce"
+        "faction": "Talos-II General Chamber of Commerce (TGCC)",
+        "birthday": "July 27"
       },
-      "req": null,
-      "reliableData": false,
-      "aePreferredItems": [],
-      "aeSkillItems": [],
+      "kit": {
+        "source": "EndfieldWiki",
+        "channel": "live",
+        "version": "live",
+        "sections": [
+          {
+            "title": "Combat Skills",
+            "entries": [
+              {
+                "name": "Starry Heart Throb",
+                "type": "Combat Skill",
+                "desc": "BASIC ATTACK:\nAn attack with up to 5 sequences that deals Electric DMG. As the controlled operator, Final Strike also deals 19 Stagger.\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Electric DMG to nearby enemies.\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher that deals massive Electric DMG and recovers some SP.",
+                "stats": [
+                  {
+                    "label": "BATK SEQ 1 Multiplier",
+                    "value": "42%"
+                  },
+                  {
+                    "label": "BATK SEQ 2 Multiplier",
+                    "value": "60%"
+                  },
+                  {
+                    "label": "BATK SEQ 3 Multiplier",
+                    "value": "60%"
+                  },
+                  {
+                    "label": "BATK SEQ 4 Multiplier",
+                    "value": "81%"
+                  },
+                  {
+                    "label": "BATK SEQ 5 Multiplier",
+                    "value": "100%"
+                  },
+                  {
+                    "label": "Finisher ATK Multiplier",
+                    "value": "900%"
+                  },
+                  {
+                    "label": "Dive ATK Multiplier",
+                    "value": "180%"
+                  }
+                ]
+              },
+              {
+                "name": "Dazzling Focus",
+                "type": "Combat Skill",
+                "desc": "SKILL DESCRIPTION: Liino deals Electric DMG to enemies and then enters her Vocalist Stance. While this stance is active, if there are enemies nearby, Liino will perform an Additional ATK (that deals Electric DMG to enemies) on a regular basis.\nVocalist Stance: While this stance is active, Liino grants the entire team an ATK Boost. After entering battle, Liino will also grant continuous HP Treatment to operators within range.\nDuring Vocalist Stance, her battle skill is replaced with End Stance. Casting this will end her Vocalist Stance early without consuming any SP, after which the battle skill will enter a short cooldown.",
+                "stats": [
+                  {
+                    "label": "SP Cost",
+                    "value": "25"
+                  },
+                  {
+                    "label": "First ATK Multiplier",
+                    "value": "240%"
+                  },
+                  {
+                    "label": "Additional ATK DMG Multiplier",
+                    "value": "120%"
+                  },
+                  {
+                    "label": "Additional ATK Interval (s)",
+                    "value": "10"
+                  },
+                  {
+                    "label": "Beat Interval (s)",
+                    "value": "3"
+                  },
+                  {
+                    "label": "Vocalist Stance Duration (s)",
+                    "value": "60"
+                  },
+                  {
+                    "label": "ATK Boost",
+                    "value": "10%"
+                  },
+                  {
+                    "label": "Base Treatment",
+                    "value": "41"
+                  },
+                  {
+                    "label": "Treatment Increase per Agility",
+                    "value": "0.09"
+                  },
+                  {
+                    "label": "Stagger",
+                    "value": "3"
+                  }
+                ]
+              },
+              {
+                "name": "Delightful Harmonics",
+                "type": "Combat Skill",
+                "desc": "COMBO TRIGGER: While Vocalist Stance is active, an Arts Reaction is Debuff Consumption or is applied on an enemy.\n SKILL DESCRIPTION: Liino deals Electric DMG to enemies, grants HP Treatment to the controlled operator, and gains additional Ultimate Energy.\nCasting the combo skill Delightful Harmonics does not interrupt Vocalist Stance.",
+                "stats": [
+                  {
+                    "label": "Cooldown",
+                    "value": "8"
+                  },
+                  {
+                    "label": "DMG Multiplier",
+                    "value": "360%"
+                  },
+                  {
+                    "label": "Stagger",
+                    "value": "5"
+                  },
+                  {
+                    "label": "Ultimate Energy Gain",
+                    "value": "20"
+                  },
+                  {
+                    "label": "Base Treatment",
+                    "value": "162"
+                  },
+                  {
+                    "label": "Treatment Increase per Agility",
+                    "value": "0.38"
+                  }
+                ]
+              },
+              {
+                "name": "Dawnstar Concerto",
+                "type": "Combat Skill",
+                "desc": "SKILL DESCRIPTION: Liino grants HP Treatment to the entire team, enters her Cosmovoice Stance at the same time, unleashes a continuous display of Stage Pyrotechnics that deals Electric DMG, and then triggers an Electrifying Extravaganza that deals Electric DMG and forcibly applies Electrification to enemies in a large area of effect (AOE).\nCosmovoice Stance: This stance replaces Liino's Vocalist Stance. While active, the stance grants the entire team Electric Amp and Nature Amp (effects are further increased by the attribute of Will) as well as an ATK Boost. The beats of Liino's song also deal Electric DMG to enemies in the AOE and grant continuous HP Treatment to allied operators in the AOE. When the stance ends, deals 3 times the DMG from a single beat to enemies in the AOE, and grants 3 times the HP treatment from a single beat to the entire team. This effect does not trigger if the stance is ended early.\nDuring the stance, her battle skill is replaced with End Stance. Casting the battle skill during Cosmovoice Stance ends it early and does not consume any SP.",
+                "stats": [
+                  {
+                    "label": "Ultimate Energy Cost",
+                    "value": "160"
+                  },
+                  {
+                    "label": "Stage Pyrotechnics DMG Multiplier",
+                    "value": "320%"
+                  },
+                  {
+                    "label": "Electrifying Extravaganza DMG Multiplier",
+                    "value": "640%"
+                  },
+                  {
+                    "label": "ATK Boost",
+                    "value": "10%"
+                  },
+                  {
+                    "label": "Amp Increase per Will",
+                    "value": "0.04%"
+                  },
+                  {
+                    "label": "MAX Amp from Will",
+                    "value": "60%"
+                  },
+                  {
+                    "label": "Base Treatment for 1st Treatment",
+                    "value": "729"
+                  },
+                  {
+                    "label": "Treatment Increase per Agility",
+                    "value": "1.7"
+                  },
+                  {
+                    "label": "DMG Multiplier per Beat",
+                    "value": "60%"
+                  },
+                  {
+                    "label": "Base Treatment per Beat",
+                    "value": "81"
+                  },
+                  {
+                    "label": "Treatment Increase per Agility",
+                    "value": "0.19"
+                  },
+                  {
+                    "label": "Beat Interval (s)",
+                    "value": "1.5"
+                  },
+                  {
+                    "label": "Cosmovoice Stance Duration (s)",
+                    "value": "15"
+                  },
+                  {
+                    "label": "Electrifying Extravaganza Stagger",
+                    "value": "20"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "signatureWeapon": {
+        "id": "Bedazzling_Night_Debut",
+        "name": "Bedazzling Night Debut",
+        "path": "Polearm",
+        "type": "Polearm",
+        "educated": false
+      },
+      "signatureWeaponId": "Bedazzling_Night_Debut",
+      "signatureWeaponName": "Bedazzling Night Debut",
+      "req": {
+        "ascension": [
+          {
+            "id": "ae:Protodisk",
+            "name": "Protodisk",
+            "n": "Protodisk",
+            "qty": 33,
+            "rar": 3,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/assets/items/protodisk.png",
+            "source": "Protocol Space: Promotions, Acquisition Center: AIC Trading, Exploring and Gathering",
+            "sourceUrl": "https://endfield.wiki.gg/wiki/Protodisk"
+          },
+          {
+            "id": "ae:Protoset",
+            "name": "Protoset",
+            "n": "Protoset",
+            "qty": 60,
+            "rar": 4,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/assets/items/protoset.png",
+            "source": "Protocol Space: Promotions, Acquisition Center: AIC Trading, Exploring and Gathering",
+            "sourceUrl": "https://endfield.wiki.gg/wiki/Protoset"
+          },
+          {
+            "id": "ae:Quadrant_Fitting_Fluid",
+            "name": "Quadrant Fitting Fluid",
+            "n": "Quadrant Fitting Fluid",
+            "qty": 20,
+            "rar": 5,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/assets/items/quadrant-fitting-fluid.png",
+            "source": "Protocol Space: Hazardous Material Institute, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+            "sourceUrl": "https://endfield.wiki.gg/wiki/Quadrant_Fitting_Fluid"
+          },
+          {
+            "id": "ae:Pink_Bolete",
+            "name": "Pink Bolete",
+            "n": "Pink Bolete",
+            "qty": 3,
+            "rar": 4,
+            "kind": "specialty",
+            "icon": "../../Database/EndfieldWiki/endfield/assets/items/pink-bolete.png",
+            "source": "Area found: Hub Base, Rare Gathering Sites, Dijiang Production: Growth Chamber, The Hub",
+            "sourceUrl": "https://endfield.wiki.gg/wiki/Pink_Bolete"
+          },
+          {
+            "id": "ae:Red_Bolete",
+            "name": "Red Bolete",
+            "n": "Red Bolete",
+            "qty": 5,
+            "rar": 4,
+            "kind": "specialty",
+            "icon": "../../Database/EndfieldWiki/endfield/assets/items/red-bolete.png",
+            "source": "Area found: Originium Science Park, Rare Gathering Sites, Dijiang Production: Growth Chamber, Origin Lodespring",
+            "sourceUrl": "https://endfield.wiki.gg/wiki/Red_Bolete"
+          },
+          {
+            "id": "ae:Ruby_Bolete",
+            "name": "Ruby Bolete",
+            "n": "Ruby Bolete",
+            "qty": 5,
+            "rar": 4,
+            "kind": "specialty",
+            "icon": "../../Database/EndfieldWiki/endfield/assets/items/ruby-bolete.png",
+            "source": "Area found: Power Plateau, Rare Gathering Sites, Dijiang Production: Growth Chamber, Jingyu Valley",
+            "sourceUrl": "https://endfield.wiki.gg/wiki/Ruby_Bolete"
+          },
+          {
+            "id": "ae:Talos_Cap",
+            "name": "Talos Cap",
+            "n": "Talos Cap",
+            "qty": 8,
+            "rar": 5,
+            "kind": "specialty",
+            "icon": "../../Database/EndfieldWiki/endfield/assets/items/talos-cap.png",
+            "source": "Rare Gathering Sites, Dijiang Production: Growth Chamber, Yinglung Pass",
+            "sourceUrl": "https://endfield.wiki.gg/wiki/Talos_Cap"
+          },
+          {
+            "id": "ae:T-Creds",
+            "name": "T-Creds",
+            "n": "T-Creds",
+            "qty": 126100,
+            "rar": 4,
+            "kind": "currency",
+            "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+            "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+            "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+          }
+        ],
+        "talents": [
+          {
+            "id": "ae:Metadiastima_Photoemission_Tube",
+            "name": "Metadiastima Photoemission Tube",
+            "n": "Metadiastima Photoemission Tube",
+            "qty": 116,
+            "rar": 5,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/assets/items/metadiastima-photoemission-tube.png",
+            "source": "Protocol Space: Hazardous Material Landfill, Crisis Pandemonium: Rhodagn (Deep Dive), Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (D",
+            "sourceUrl": "https://endfield.wiki.gg/wiki/Metadiastima_Photoemission_Tube"
+          },
+          {
+            "id": "ae:Blighted_Jadeleaf",
+            "name": "Blighted Jadeleaf",
+            "n": "Blighted Jadeleaf",
+            "qty": 84,
+            "rar": 5,
+            "kind": "specialty",
+            "icon": "../../Database/EndfieldWiki/endfield/assets/items/blighted-jadeleaf.png",
+            "source": "Area found: Wuling Outskirts, Rare Gathering Sites, Dijiang Production: Growth Chamber, Wuling City",
+            "sourceUrl": "https://endfield.wiki.gg/wiki/Blighted_Jadeleaf"
+          },
+          {
+            "id": "ae:Chrysodendra",
+            "name": "Chrysodendra",
+            "n": "Chrysodendra",
+            "qty": 16,
+            "rar": 4,
+            "kind": "specialty",
+            "icon": "../../Database/EndfieldWiki/endfield/assets/items/chrysodendra.png",
+            "source": "Area found: Originium Science Park, Rare Gathering Sites, Dijiang Production: Growth Chamber, Origin Lodespring",
+            "sourceUrl": "https://endfield.wiki.gg/wiki/Chrysodendra"
+          },
+          {
+            "id": "ae:Kalkodendra",
+            "name": "Kalkodendra",
+            "n": "Kalkodendra",
+            "qty": 12,
+            "rar": 4,
+            "kind": "specialty",
+            "icon": "../../Database/EndfieldWiki/endfield/assets/items/kalkodendra.png",
+            "source": "Area found: Hub Base, Rare Gathering Sites, Dijiang Production: Growth Chamber, The Hub",
+            "sourceUrl": "https://endfield.wiki.gg/wiki/Kalkodendra"
+          },
+          {
+            "id": "ae:Vitrodendra",
+            "name": "Vitrodendra",
+            "n": "Vitrodendra",
+            "qty": 16,
+            "rar": 4,
+            "kind": "specialty",
+            "icon": "../../Database/EndfieldWiki/endfield/assets/items/vitrodendra.png",
+            "source": "Area found: Power Plateau, Rare Gathering Sites, Dijiang Production: Growth Chamber, Jingyu Valley",
+            "sourceUrl": "https://endfield.wiki.gg/wiki/Vitrodendra"
+          },
+          {
+            "id": "ae:Protohedron",
+            "name": "Protohedron",
+            "n": "Protohedron",
+            "qty": 562,
+            "rar": 4,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/assets/items/protohedron.png",
+            "source": "Protocol Space: Skill Up, Acquisition Center: AIC Trading, Exploring and Gathering",
+            "sourceUrl": "https://endfield.wiki.gg/wiki/Protohedron"
+          },
+          {
+            "id": "ae:Protoprism",
+            "name": "Protoprism",
+            "n": "Protoprism",
+            "qty": 461,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/assets/items/protoprism.png",
+            "source": "Protocol Space: Skill Up, Acquisition Center: AIC Trading, Exploring and Gathering",
+            "sourceUrl": "https://endfield.wiki.gg/wiki/Protoprism"
+          },
+          {
+            "id": "ae:D96_Steel_Sample_4",
+            "name": "D96 Steel Sample 4",
+            "n": "D96 Steel Sample 4",
+            "qty": 116,
+            "rar": 5,
+            "kind": "skill",
+            "icon": "../../Database/EndfieldWiki/endfield/assets/items/d96-steel-sample-4.png",
+            "source": "Protocol Space: Hazardous Material Collection Site, Crisis Calamity: Triaggelos (Deep Dive), Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Cr",
+            "sourceUrl": "https://endfield.wiki.gg/wiki/D96_Steel_Sample_4"
+          },
+          {
+            "id": "ae:Mark_of_Perseverance",
+            "name": "Mark of Perseverance",
+            "n": "Mark of Perseverance",
+            "qty": 24,
+            "rar": 5,
+            "kind": "skill",
+            "icon": "../../Database/EndfieldWiki/endfield/assets/items/mark-of-perseverance.png",
+            "source": "Reward: Protocol Pass, Acquisition Center: Bond Quota Exchange, Reward: Events",
+            "sourceUrl": "https://endfield.wiki.gg/wiki/Mark_of_Perseverance"
+          },
+          {
+            "id": "ae:T-Creds",
+            "name": "T-Creds",
+            "n": "T-Creds",
+            "qty": 813300,
+            "rar": 4,
+            "kind": "currency",
+            "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+            "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+            "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+          }
+        ],
+        "promotionStages": [
+          {
+            "items": [
+              {
+                "id": "ae:Protodisk",
+                "name": "Protodisk",
+                "n": "Protodisk",
+                "qty": 8,
+                "rar": 3,
+                "kind": "gem",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/protodisk.png",
+                "source": "Protocol Space: Promotions, Acquisition Center: AIC Trading, Exploring and Gathering",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Protodisk"
+              },
+              {
+                "id": "ae:Pink_Bolete",
+                "name": "Pink Bolete",
+                "n": "Pink Bolete",
+                "qty": 3,
+                "rar": 4,
+                "kind": "specialty",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/pink-bolete.png",
+                "source": "Area found: Hub Base, Rare Gathering Sites, Dijiang Production: Growth Chamber, The Hub",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Pink_Bolete"
+              },
+              {
+                "id": "ae:T-Creds",
+                "name": "T-Creds",
+                "n": "T-Creds",
+                "qty": 1600,
+                "rar": 4,
+                "kind": "currency",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+                "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+              }
+            ],
+            "cost": 0
+          },
+          {
+            "items": [
+              {
+                "id": "ae:Protodisk",
+                "name": "Protodisk",
+                "n": "Protodisk",
+                "qty": 25,
+                "rar": 3,
+                "kind": "gem",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/protodisk.png",
+                "source": "Protocol Space: Promotions, Acquisition Center: AIC Trading, Exploring and Gathering",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Protodisk"
+              },
+              {
+                "id": "ae:Red_Bolete",
+                "name": "Red Bolete",
+                "n": "Red Bolete",
+                "qty": 5,
+                "rar": 4,
+                "kind": "specialty",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/red-bolete.png",
+                "source": "Area found: Originium Science Park, Rare Gathering Sites, Dijiang Production: Growth Chamber, Origin Lodespring",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Red_Bolete"
+              },
+              {
+                "id": "ae:T-Creds",
+                "name": "T-Creds",
+                "n": "T-Creds",
+                "qty": 6500,
+                "rar": 4,
+                "kind": "currency",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+                "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+              }
+            ],
+            "cost": 0
+          },
+          {
+            "items": [
+              {
+                "id": "ae:Protoset",
+                "name": "Protoset",
+                "n": "Protoset",
+                "qty": 24,
+                "rar": 4,
+                "kind": "gem",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/protoset.png",
+                "source": "Protocol Space: Promotions, Acquisition Center: AIC Trading, Exploring and Gathering",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Protoset"
+              },
+              {
+                "id": "ae:Ruby_Bolete",
+                "name": "Ruby Bolete",
+                "n": "Ruby Bolete",
+                "qty": 5,
+                "rar": 4,
+                "kind": "specialty",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/ruby-bolete.png",
+                "source": "Area found: Power Plateau, Rare Gathering Sites, Dijiang Production: Growth Chamber, Jingyu Valley",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Ruby_Bolete"
+              },
+              {
+                "id": "ae:T-Creds",
+                "name": "T-Creds",
+                "n": "T-Creds",
+                "qty": 18000,
+                "rar": 4,
+                "kind": "currency",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+                "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+              }
+            ],
+            "cost": 0
+          },
+          {
+            "items": [
+              {
+                "id": "ae:Protoset",
+                "name": "Protoset",
+                "n": "Protoset",
+                "qty": 36,
+                "rar": 4,
+                "kind": "gem",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/protoset.png",
+                "source": "Protocol Space: Promotions, Acquisition Center: AIC Trading, Exploring and Gathering",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Protoset"
+              },
+              {
+                "id": "ae:Quadrant_Fitting_Fluid",
+                "name": "Quadrant Fitting Fluid",
+                "n": "Quadrant Fitting Fluid",
+                "qty": 20,
+                "rar": 5,
+                "kind": "gem",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/quadrant-fitting-fluid.png",
+                "source": "Protocol Space: Hazardous Material Institute, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Quadrant_Fitting_Fluid"
+              },
+              {
+                "id": "ae:Talos_Cap",
+                "name": "Talos Cap",
+                "n": "Talos Cap",
+                "qty": 8,
+                "rar": 5,
+                "kind": "specialty",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/talos-cap.png",
+                "source": "Rare Gathering Sites, Dijiang Production: Growth Chamber, Yinglung Pass",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Talos_Cap"
+              },
+              {
+                "id": "ae:T-Creds",
+                "name": "T-Creds",
+                "n": "T-Creds",
+                "qty": 100000,
+                "rar": 4,
+                "kind": "currency",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+                "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+              }
+            ],
+            "cost": 0
+          }
+        ],
+        "skillLevelStages": [
+          {
+            "items": [
+              {
+                "id": "ae:Kalkodendra",
+                "name": "Kalkodendra",
+                "n": "Kalkodendra",
+                "qty": 1,
+                "rar": 4,
+                "kind": "specialty",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/kalkodendra.png",
+                "source": "Area found: Hub Base, Rare Gathering Sites, Dijiang Production: Growth Chamber, The Hub",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Kalkodendra"
+              },
+              {
+                "id": "ae:Protoprism",
+                "name": "Protoprism",
+                "n": "Protoprism",
+                "qty": 6,
+                "rar": 3,
+                "kind": "book",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/protoprism.png",
+                "source": "Protocol Space: Skill Up, Acquisition Center: AIC Trading, Exploring and Gathering",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Protoprism"
+              },
+              {
+                "id": "ae:T-Creds",
+                "name": "T-Creds",
+                "n": "T-Creds",
+                "qty": 1000,
+                "rar": 4,
+                "kind": "currency",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+                "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+              }
+            ],
+            "cost": 0
+          },
+          {
+            "items": [
+              {
+                "id": "ae:Kalkodendra",
+                "name": "Kalkodendra",
+                "n": "Kalkodendra",
+                "qty": 2,
+                "rar": 4,
+                "kind": "specialty",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/kalkodendra.png",
+                "source": "Area found: Hub Base, Rare Gathering Sites, Dijiang Production: Growth Chamber, The Hub",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Kalkodendra"
+              },
+              {
+                "id": "ae:Protoprism",
+                "name": "Protoprism",
+                "n": "Protoprism",
+                "qty": 12,
+                "rar": 3,
+                "kind": "book",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/protoprism.png",
+                "source": "Protocol Space: Skill Up, Acquisition Center: AIC Trading, Exploring and Gathering",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Protoprism"
+              },
+              {
+                "id": "ae:T-Creds",
+                "name": "T-Creds",
+                "n": "T-Creds",
+                "qty": 2700,
+                "rar": 4,
+                "kind": "currency",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+                "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+              }
+            ],
+            "cost": 0
+          },
+          {
+            "items": [
+              {
+                "id": "ae:Chrysodendra",
+                "name": "Chrysodendra",
+                "n": "Chrysodendra",
+                "qty": 1,
+                "rar": 4,
+                "kind": "specialty",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/chrysodendra.png",
+                "source": "Area found: Originium Science Park, Rare Gathering Sites, Dijiang Production: Growth Chamber, Origin Lodespring",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Chrysodendra"
+              },
+              {
+                "id": "ae:Protoprism",
+                "name": "Protoprism",
+                "n": "Protoprism",
+                "qty": 16,
+                "rar": 3,
+                "kind": "book",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/protoprism.png",
+                "source": "Protocol Space: Skill Up, Acquisition Center: AIC Trading, Exploring and Gathering",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Protoprism"
+              },
+              {
+                "id": "ae:T-Creds",
+                "name": "T-Creds",
+                "n": "T-Creds",
+                "qty": 3200,
+                "rar": 4,
+                "kind": "currency",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+                "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+              }
+            ],
+            "cost": 0
+          },
+          {
+            "items": [
+              {
+                "id": "ae:Chrysodendra",
+                "name": "Chrysodendra",
+                "n": "Chrysodendra",
+                "qty": 1,
+                "rar": 4,
+                "kind": "specialty",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/chrysodendra.png",
+                "source": "Area found: Originium Science Park, Rare Gathering Sites, Dijiang Production: Growth Chamber, Origin Lodespring",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Chrysodendra"
+              },
+              {
+                "id": "ae:Protoprism",
+                "name": "Protoprism",
+                "n": "Protoprism",
+                "qty": 21,
+                "rar": 3,
+                "kind": "book",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/protoprism.png",
+                "source": "Protocol Space: Skill Up, Acquisition Center: AIC Trading, Exploring and Gathering",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Protoprism"
+              },
+              {
+                "id": "ae:T-Creds",
+                "name": "T-Creds",
+                "n": "T-Creds",
+                "qty": 4200,
+                "rar": 4,
+                "kind": "currency",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+                "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+              }
+            ],
+            "cost": 0
+          },
+          {
+            "items": [
+              {
+                "id": "ae:Chrysodendra",
+                "name": "Chrysodendra",
+                "n": "Chrysodendra",
+                "qty": 2,
+                "rar": 4,
+                "kind": "specialty",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/chrysodendra.png",
+                "source": "Area found: Originium Science Park, Rare Gathering Sites, Dijiang Production: Growth Chamber, Origin Lodespring",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Chrysodendra"
+              },
+              {
+                "id": "ae:Protoprism",
+                "name": "Protoprism",
+                "n": "Protoprism",
+                "qty": 27,
+                "rar": 3,
+                "kind": "book",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/protoprism.png",
+                "source": "Protocol Space: Skill Up, Acquisition Center: AIC Trading, Exploring and Gathering",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Protoprism"
+              },
+              {
+                "id": "ae:T-Creds",
+                "name": "T-Creds",
+                "n": "T-Creds",
+                "qty": 5400,
+                "rar": 4,
+                "kind": "currency",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+                "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+              }
+            ],
+            "cost": 0
+          },
+          {
+            "items": [
+              {
+                "id": "ae:Vitrodendra",
+                "name": "Vitrodendra",
+                "n": "Vitrodendra",
+                "qty": 1,
+                "rar": 4,
+                "kind": "specialty",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/vitrodendra.png",
+                "source": "Area found: Power Plateau, Rare Gathering Sites, Dijiang Production: Growth Chamber, Jingyu Valley",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Vitrodendra"
+              },
+              {
+                "id": "ae:Protohedron",
+                "name": "Protohedron",
+                "n": "Protohedron",
+                "qty": 6,
+                "rar": 4,
+                "kind": "book",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/protohedron.png",
+                "source": "Protocol Space: Skill Up, Acquisition Center: AIC Trading, Exploring and Gathering",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Protohedron"
+              },
+              {
+                "id": "ae:T-Creds",
+                "name": "T-Creds",
+                "n": "T-Creds",
+                "qty": 8200,
+                "rar": 4,
+                "kind": "currency",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+                "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+              }
+            ],
+            "cost": 0
+          },
+          {
+            "items": [
+              {
+                "id": "ae:Vitrodendra",
+                "name": "Vitrodendra",
+                "n": "Vitrodendra",
+                "qty": 1,
+                "rar": 4,
+                "kind": "specialty",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/vitrodendra.png",
+                "source": "Area found: Power Plateau, Rare Gathering Sites, Dijiang Production: Growth Chamber, Jingyu Valley",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Vitrodendra"
+              },
+              {
+                "id": "ae:Protohedron",
+                "name": "Protohedron",
+                "n": "Protohedron",
+                "qty": 8,
+                "rar": 4,
+                "kind": "book",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/protohedron.png",
+                "source": "Protocol Space: Skill Up, Acquisition Center: AIC Trading, Exploring and Gathering",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Protohedron"
+              },
+              {
+                "id": "ae:T-Creds",
+                "name": "T-Creds",
+                "n": "T-Creds",
+                "qty": 10500,
+                "rar": 4,
+                "kind": "currency",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+                "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+              }
+            ],
+            "cost": 0
+          },
+          {
+            "items": [
+              {
+                "id": "ae:Vitrodendra",
+                "name": "Vitrodendra",
+                "n": "Vitrodendra",
+                "qty": 2,
+                "rar": 4,
+                "kind": "specialty",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/vitrodendra.png",
+                "source": "Area found: Power Plateau, Rare Gathering Sites, Dijiang Production: Growth Chamber, Jingyu Valley",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Vitrodendra"
+              },
+              {
+                "id": "ae:Protohedron",
+                "name": "Protohedron",
+                "n": "Protohedron",
+                "qty": 15,
+                "rar": 4,
+                "kind": "book",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/protohedron.png",
+                "source": "Protocol Space: Skill Up, Acquisition Center: AIC Trading, Exploring and Gathering",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Protohedron"
+              },
+              {
+                "id": "ae:T-Creds",
+                "name": "T-Creds",
+                "n": "T-Creds",
+                "qty": 18000,
+                "rar": 4,
+                "kind": "currency",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+                "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+              }
+            ],
+            "cost": 0
+          }
+        ],
+        "skillMasteryStages": [
+          {
+            "items": [
+              {
+                "id": "ae:Metadiastima_Photoemission_Tube",
+                "name": "Metadiastima Photoemission Tube",
+                "n": "Metadiastima Photoemission Tube",
+                "qty": 12,
+                "rar": 5,
+                "kind": "gem",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/metadiastima-photoemission-tube.png",
+                "source": "Protocol Space: Hazardous Material Landfill, Crisis Pandemonium: Rhodagn (Deep Dive), Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (D",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Metadiastima_Photoemission_Tube"
+              },
+              {
+                "id": "ae:Blighted_Jadeleaf",
+                "name": "Blighted Jadeleaf",
+                "n": "Blighted Jadeleaf",
+                "qty": 12,
+                "rar": 5,
+                "kind": "specialty",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/blighted-jadeleaf.png",
+                "source": "Area found: Wuling Outskirts, Rare Gathering Sites, Dijiang Production: Growth Chamber, Wuling City",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Blighted_Jadeleaf"
+              },
+              {
+                "id": "ae:Protohedron",
+                "name": "Protohedron",
+                "n": "Protohedron",
+                "qty": 60,
+                "rar": 4,
+                "kind": "book",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/protohedron.png",
+                "source": "Protocol Space: Skill Up, Acquisition Center: AIC Trading, Exploring and Gathering",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Protohedron"
+              },
+              {
+                "id": "ae:D96_Steel_Sample_4",
+                "name": "D96 Steel Sample 4",
+                "n": "D96 Steel Sample 4",
+                "qty": 12,
+                "rar": 5,
+                "kind": "skill",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/d96-steel-sample-4.png",
+                "source": "Protocol Space: Hazardous Material Collection Site, Crisis Calamity: Triaggelos (Deep Dive), Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Cr",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/D96_Steel_Sample_4"
+              },
+              {
+                "id": "ae:Mark_of_Perseverance",
+                "name": "Mark of Perseverance",
+                "n": "Mark of Perseverance",
+                "qty": 4,
+                "rar": 5,
+                "kind": "skill",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/mark-of-perseverance.png",
+                "source": "Reward: Protocol Pass, Acquisition Center: Bond Quota Exchange, Reward: Events",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Mark_of_Perseverance"
+              },
+              {
+                "id": "ae:T-Creds",
+                "name": "T-Creds",
+                "n": "T-Creds",
+                "qty": 96000,
+                "rar": 4,
+                "kind": "currency",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+                "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+              }
+            ],
+            "cost": 0
+          },
+          {
+            "items": [
+              {
+                "id": "ae:Metadiastima_Photoemission_Tube",
+                "name": "Metadiastima Photoemission Tube",
+                "n": "Metadiastima Photoemission Tube",
+                "qty": 32,
+                "rar": 5,
+                "kind": "gem",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/metadiastima-photoemission-tube.png",
+                "source": "Protocol Space: Hazardous Material Landfill, Crisis Pandemonium: Rhodagn (Deep Dive), Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (D",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Metadiastima_Photoemission_Tube"
+              },
+              {
+                "id": "ae:Blighted_Jadeleaf",
+                "name": "Blighted Jadeleaf",
+                "n": "Blighted Jadeleaf",
+                "qty": 24,
+                "rar": 5,
+                "kind": "specialty",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/blighted-jadeleaf.png",
+                "source": "Area found: Wuling Outskirts, Rare Gathering Sites, Dijiang Production: Growth Chamber, Wuling City",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Blighted_Jadeleaf"
+              },
+              {
+                "id": "ae:Protohedron",
+                "name": "Protohedron",
+                "n": "Protohedron",
+                "qty": 96,
+                "rar": 4,
+                "kind": "book",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/protohedron.png",
+                "source": "Protocol Space: Skill Up, Acquisition Center: AIC Trading, Exploring and Gathering",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Protohedron"
+              },
+              {
+                "id": "ae:D96_Steel_Sample_4",
+                "name": "D96 Steel Sample 4",
+                "n": "D96 Steel Sample 4",
+                "qty": 32,
+                "rar": 5,
+                "kind": "skill",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/d96-steel-sample-4.png",
+                "source": "Protocol Space: Hazardous Material Collection Site, Crisis Calamity: Triaggelos (Deep Dive), Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Cr",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/D96_Steel_Sample_4"
+              },
+              {
+                "id": "ae:Mark_of_Perseverance",
+                "name": "Mark of Perseverance",
+                "n": "Mark of Perseverance",
+                "qty": 8,
+                "rar": 5,
+                "kind": "skill",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/mark-of-perseverance.png",
+                "source": "Reward: Protocol Pass, Acquisition Center: Bond Quota Exchange, Reward: Events",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Mark_of_Perseverance"
+              },
+              {
+                "id": "ae:T-Creds",
+                "name": "T-Creds",
+                "n": "T-Creds",
+                "qty": 120000,
+                "rar": 4,
+                "kind": "currency",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+                "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+              }
+            ],
+            "cost": 0
+          },
+          {
+            "items": [
+              {
+                "id": "ae:Metadiastima_Photoemission_Tube",
+                "name": "Metadiastima Photoemission Tube",
+                "n": "Metadiastima Photoemission Tube",
+                "qty": 72,
+                "rar": 5,
+                "kind": "gem",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/metadiastima-photoemission-tube.png",
+                "source": "Protocol Space: Hazardous Material Landfill, Crisis Pandemonium: Rhodagn (Deep Dive), Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (D",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Metadiastima_Photoemission_Tube"
+              },
+              {
+                "id": "ae:Blighted_Jadeleaf",
+                "name": "Blighted Jadeleaf",
+                "n": "Blighted Jadeleaf",
+                "qty": 48,
+                "rar": 5,
+                "kind": "specialty",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/blighted-jadeleaf.png",
+                "source": "Area found: Wuling Outskirts, Rare Gathering Sites, Dijiang Production: Growth Chamber, Wuling City",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Blighted_Jadeleaf"
+              },
+              {
+                "id": "ae:Protohedron",
+                "name": "Protohedron",
+                "n": "Protohedron",
+                "qty": 200,
+                "rar": 4,
+                "kind": "book",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/protohedron.png",
+                "source": "Protocol Space: Skill Up, Acquisition Center: AIC Trading, Exploring and Gathering",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Protohedron"
+              },
+              {
+                "id": "ae:D96_Steel_Sample_4",
+                "name": "D96 Steel Sample 4",
+                "n": "D96 Steel Sample 4",
+                "qty": 72,
+                "rar": 5,
+                "kind": "skill",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/d96-steel-sample-4.png",
+                "source": "Protocol Space: Hazardous Material Collection Site, Crisis Calamity: Triaggelos (Deep Dive), Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Cr",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/D96_Steel_Sample_4"
+              },
+              {
+                "id": "ae:Mark_of_Perseverance",
+                "name": "Mark of Perseverance",
+                "n": "Mark of Perseverance",
+                "qty": 12,
+                "rar": 5,
+                "kind": "skill",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/mark-of-perseverance.png",
+                "source": "Reward: Protocol Pass, Acquisition Center: Bond Quota Exchange, Reward: Events",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Mark_of_Perseverance"
+              },
+              {
+                "id": "ae:T-Creds",
+                "name": "T-Creds",
+                "n": "T-Creds",
+                "qty": 260000,
+                "rar": 4,
+                "kind": "currency",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+                "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+              }
+            ],
+            "cost": 0
+          }
+        ],
+        "extras": [
+          {
+            "id": "ae:Protohedron",
+            "name": "Protohedron",
+            "n": "Protohedron",
+            "qty": 90,
+            "rar": 4,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/assets/items/protohedron.png",
+            "source": "Protocol Space: Skill Up, Acquisition Center: AIC Trading, Exploring and Gathering",
+            "sourceUrl": "https://endfield.wiki.gg/wiki/Protohedron"
+          },
+          {
+            "id": "ae:Protoprism",
+            "name": "Protoprism",
+            "n": "Protoprism",
+            "qty": 133,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/assets/items/protoprism.png",
+            "source": "Protocol Space: Skill Up, Acquisition Center: AIC Trading, Exploring and Gathering",
+            "sourceUrl": "https://endfield.wiki.gg/wiki/Protoprism"
+          },
+          {
+            "id": "ae:T-Creds",
+            "name": "T-Creds",
+            "n": "T-Creds",
+            "qty": 124500,
+            "rar": 4,
+            "kind": "currency",
+            "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+            "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+            "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+          }
+        ],
+        "ascCost": 0,
+        "talentCost": 0,
+        "currency": 0,
+        "weapon": {
+          "id": "Bedazzling_Night_Debut",
+          "name": "Bedazzling Night Debut",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/weapons/bedazzling-night-debut/icon.png",
+          "art": "../../Database/EndfieldWiki/endfield/assets/weapons/bedazzling-night-debut/icon.png",
+          "path": "Polearm",
+          "weaponType": "Polearm",
+          "type": "Polearm",
+          "items": [
+            {
+              "id": "ae:Metadiastima_Photoemission_Tube",
+              "name": "Metadiastima Photoemission Tube",
+              "n": "Metadiastima Photoemission Tube",
+              "qty": 16,
+              "rar": 5,
+              "kind": "gem",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/metadiastima-photoemission-tube.png",
+              "source": "Protocol Space: Hazardous Material Landfill, Crisis Pandemonium: Rhodagn (Deep Dive), Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (D",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Metadiastima_Photoemission_Tube"
+            },
+            {
+              "id": "ae:Cast_Die",
+              "name": "Cast Die",
+              "n": "Cast Die",
+              "qty": 23,
+              "rar": 3,
+              "kind": "weapon",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/cast-die.png",
+              "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Cast_Die"
+            },
+            {
+              "id": "ae:Heavy_Cast_Die",
+              "name": "Heavy Cast Die",
+              "n": "Heavy Cast Die",
+              "qty": 50,
+              "rar": 4,
+              "kind": "weapon",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/heavy-cast-die.png",
+              "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Heavy_Cast_Die"
+            },
+            {
+              "id": "ae:Auronyx",
+              "name": "Auronyx",
+              "n": "Auronyx",
+              "qty": 5,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/auronyx.png",
+              "source": "Area found: Originium Science Park, Rare Mining Sites, Dijiang Production: Growth Chamber, Origin Lodespring",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Auronyx"
+            },
+            {
+              "id": "ae:Kalkonyx",
+              "name": "Kalkonyx",
+              "n": "Kalkonyx",
+              "qty": 3,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/kalkonyx.png",
+              "source": "Area found: Hub Base, Rare Mining Sites, Dijiang Production: Growth Chamber, The Hub",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Kalkonyx"
+            },
+            {
+              "id": "ae:Protocolith",
+              "name": "Protocolith",
+              "n": "Protocolith",
+              "qty": 8,
+              "rar": 5,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/protocolith.png",
+              "source": "Rare Mining Sites, Dijiang Production: Growth Chamber, North Wuling Exclusion Zone",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Protocolith"
+            },
+            {
+              "id": "ae:Umbronyx",
+              "name": "Umbronyx",
+              "n": "Umbronyx",
+              "qty": 5,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/umbronyx.png",
+              "source": "Area found: Power Plateau, Rare Mining Sites, Dijiang Production: Growth Chamber, Jingyu Valley",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Umbronyx"
+            },
+            {
+              "id": "ae:T-Creds",
+              "name": "T-Creds",
+              "n": "T-Creds",
+              "qty": 125700,
+              "rar": 4,
+              "kind": "currency",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+              "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+            }
+          ],
+          "cost": 0,
+          "educated": false
+        }
+      },
+      "aePreferredItems": [
+        {
+          "id": "weapon:bedazzling-night-debut",
+          "name": "Bedazzling Night Debut",
+          "n": "Bedazzling Night Debut",
+          "kind": "weapon",
+          "rar": 6,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-76-15ec9994063c.webp",
+          "assetId": "15ec9994063c",
+          "type": "Polearm",
+          "source": "Prydwen recommendation"
+        },
+        {
+          "id": "weapon:golden-age",
+          "name": "Golden Age",
+          "n": "Golden Age",
+          "kind": "weapon",
+          "rar": 6,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-74-e410cbd7f1ae.webp",
+          "assetId": "e410cbd7f1ae",
+          "type": "Polearm",
+          "source": "Prydwen recommendation"
+        }
+      ],
+      "aeSkillItems": [
+        {
+          "id": "gear:bonekrusha-poncho",
+          "name": "Bonekrusha Poncho",
+          "n": "Bonekrusha Poncho",
+          "kind": "gear",
+          "rar": 4,
+          "icon": "../../Database/Prydwen/endfield/assets/gear/gear-14-878ac8b93409.webp",
+          "assetId": "878ac8b93409",
+          "type": "Armor",
+          "source": "Prydwen recommendation"
+        }
+      ],
       "aeStatItems": []
     },
     {
@@ -58667,6 +60199,7 @@
         "Laevatain",
         "Last Rite",
         "Lifeng",
+        "Liino",
         "Mi Fu",
         "Perlica",
         "Pogranichnik",
@@ -58719,6 +60252,7 @@
         "Laevatain",
         "Last Rite",
         "Lifeng",
+        "Liino",
         "Mi Fu",
         "Perlica",
         "Pogranichnik",
@@ -58771,6 +60305,7 @@
         "Laevatain",
         "Last Rite",
         "Lifeng",
+        "Liino",
         "Mi Fu",
         "Perlica",
         "Pogranichnik",
@@ -58812,6 +60347,7 @@
         "Laevatain",
         "Last Rite",
         "Lifeng",
+        "Liino",
         "Mi Fu",
         "Perlica",
         "Pogranichnik",
@@ -58895,6 +60431,7 @@
         "Endministrator",
         "Estella",
         "Laevatain",
+        "Liino",
         "Mi Fu",
         "Perlica",
         "Tangtang",
@@ -58934,6 +60471,7 @@
         "Endministrator",
         "Laevatain",
         "Lifeng",
+        "Liino",
         "Perlica",
         "Pogranichnik",
         "Rossi",
@@ -58974,6 +60512,7 @@
         "Gilberta",
         "Last Rite",
         "Lifeng",
+        "Liino",
         "Mi Fu",
         "Pogranichnik",
         "Rossi",
@@ -59106,6 +60645,7 @@
         "Laevatain",
         "Last Rite",
         "Lifeng",
+        "Liino",
         "Mi Fu",
         "Perlica",
         "Pogranichnik",
@@ -59137,6 +60677,7 @@
         "Laevatain",
         "Last Rite",
         "Lifeng",
+        "Liino",
         "Mi Fu",
         "Perlica",
         "Pogranichnik",
@@ -59189,6 +60730,7 @@
         "Laevatain",
         "Last Rite",
         "Lifeng",
+        "Liino",
         "Mi Fu",
         "Perlica",
         "Pogranichnik",
@@ -59220,6 +60762,7 @@
         "Laevatain",
         "Last Rite",
         "Lifeng",
+        "Liino",
         "Mi Fu",
         "Perlica",
         "Pogranichnik",
@@ -59318,6 +60861,7 @@
           "Laevatain",
           "Last Rite",
           "Lifeng",
+          "Liino",
           "Mi Fu",
           "Perlica",
           "Pogranichnik",
@@ -59355,6 +60899,7 @@
           "Laevatain",
           "Last Rite",
           "Lifeng",
+          "Liino",
           "Mi Fu",
           "Perlica",
           "Pogranichnik",
@@ -59392,6 +60937,7 @@
           "Laevatain",
           "Last Rite",
           "Lifeng",
+          "Liino",
           "Mi Fu",
           "Perlica",
           "Pogranichnik",
@@ -59429,6 +60975,7 @@
           "Laevatain",
           "Last Rite",
           "Lifeng",
+          "Liino",
           "Mi Fu",
           "Perlica",
           "Pogranichnik",
@@ -59466,6 +61013,7 @@
           "Laevatain",
           "Last Rite",
           "Lifeng",
+          "Liino",
           "Mi Fu",
           "Perlica",
           "Pogranichnik",
@@ -59503,6 +61051,7 @@
           "Laevatain",
           "Last Rite",
           "Lifeng",
+          "Liino",
           "Mi Fu",
           "Perlica",
           "Pogranichnik",
@@ -59540,6 +61089,7 @@
           "Laevatain",
           "Last Rite",
           "Lifeng",
+          "Liino",
           "Mi Fu",
           "Perlica",
           "Pogranichnik",
@@ -59577,6 +61127,7 @@
           "Laevatain",
           "Last Rite",
           "Lifeng",
+          "Liino",
           "Mi Fu",
           "Perlica",
           "Pogranichnik",
@@ -59595,7 +61146,8 @@
           "ascension"
         ],
         "characters": [
-          "Arcane"
+          "Arcane",
+          "Liino"
         ]
       }
     ]

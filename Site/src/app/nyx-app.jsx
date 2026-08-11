@@ -541,7 +541,9 @@ function bannerWhen(card, now){
     return {
       state:card.status,
       headline:'Starts in ' + durationParts(card.start - now),
-      sub:bannerAbsTime(card.start) + (hasEnd ? ' \u2192 ' + bannerAbsTime(card.end) : ''),
+      // Only the start: an upcoming banner's end is noise next to "starts in"
+      // and it pushed the line past the card (user 2026-08-11).
+      sub:'Begins ' + bannerAbsTime(card.start),
       pct:null,
     };
   }
@@ -703,11 +705,61 @@ function gameBannerCards(gameCfg, source){
 // A featured unit is a button when the page can route to that character, and
 // plain text otherwise (the Nyx hub strip lists units from games whose roster
 // is not loaded). Same markup either way so the card layout never shifts.
+// Step a single line of text down in size until it fits its box.
+//
+// CSS cannot do this on its own: whether "Aventurine • Waveflair" fits depends
+// on the rendered width of that exact string in the user's font at their
+// window size. The element declares its size as `calc(base * var(--fit))`, and
+// this walks --fit down until the text stops overflowing (user 2026-08-11).
+// The parent is observed rather than the element itself — observing a node
+// whose font-size you are changing feeds the observer its own output.
+const NYX_FIT_STEPS = [0.92, 0.84, 0.76, 0.68, 0.6, 0.54, 0.48];
+
+function useFitText(text){
+  const ref = React.useRef(null);
+  React.useLayoutEffect(() => {
+    const el = ref.current;
+    if (!el) return undefined;
+    let alive = true;
+    const fits = () => el.scrollWidth <= el.clientWidth + 1;
+    const fit = () => {
+      if (!alive || !el.isConnected) return;
+      el.style.removeProperty('--fit');
+      if (fits()) return;
+      for (const step of NYX_FIT_STEPS) {
+        el.style.setProperty('--fit', String(step));
+        if (fits()) return;
+      }
+    };
+    fit();
+    // The display faces are webfonts. The first measurement runs against the
+    // fallback metrics, which are narrower, so a name that really does overflow
+    // measures as fitting. Re-fit once the real faces are in and once more
+    // after layout settles (user 2026-08-11).
+    const frame = requestAnimationFrame(fit);
+    if (document.fonts && document.fonts.ready) document.fonts.ready.then(fit).catch(() => {});
+    const box = el.parentElement;
+    const observer = box && window.ResizeObserver ? new ResizeObserver(fit) : null;
+    if (observer) observer.observe(box);
+    return () => {
+      alive = false;
+      cancelAnimationFrame(frame);
+      if (observer) observer.disconnect();
+    };
+  }, [text]);
+  return ref;
+}
+
+function FitText({ as:Tag = 'b', text, className }){
+  const ref = useFitText(text);
+  return <Tag ref={ref} className={className}>{text}</Tag>;
+}
+
 function BannerUnit({ unit, onOpen, showBadge = true }){
   const inner = (
     <React.Fragment>
       {unit.icon && <img src={unit.icon} alt="" draggable="false" />}
-      <b>{unit.name}</b>
+      <FitText text={unit.name} />
       {showBadge && unit.badge && <em>{unit.badge}</em>}
     </React.Fragment>
   );
@@ -751,7 +803,7 @@ function BannerPhaseCard({ card, now, showGame, unitLink }){
   const meta = BANNER_STATUS_META[when.state] || BANNER_STATUS_META[card.status] || BANNER_STATUS_META.live;
   const gameIcon = card.game?.icon || GAME_REGISTRY[card.game?.key]?.benchIcon;
   return (
-    <article className={'gp-oban st-' + meta.cls}>
+    <article className={'gp-oban st-' + meta.cls + (card.containArt ? ' is-contain-art' : '')}>
       <div className="gp-oban-art" style={{ backgroundImage:bgUrl(art) }}></div>
       <div className="gp-oban-shade"></div>
       <div className="gp-oban-body">
@@ -773,14 +825,24 @@ function BannerPhaseCard({ card, now, showGame, unitLink }){
         </div>
         {!!card.others.length && (
           <div className="gp-oban-supports">
+            {card.supportLabel && (
+              <span className="gp-oban-supports-label">
+                {card.supportLabel}
+                {card.supportHelp && (
+                  <button type="button" className="gp-oban-supports-help"
+                          aria-label={card.supportHelp.label}
+                          onClick={() => card.supportHelp.onOpen()}>?</button>
+                )}
+              </span>
+            )}
             {card.others.map((unit) => (
               <BannerUnit key={unit.name} unit={unit} onOpen={unitLink && unitLink(unit)} showBadge={false} />
             ))}
           </div>
         )}
         <div className="gp-oban-foot">
-          <b>{when.headline}</b>
-          {when.sub && <span>{when.sub}</span>}
+          <FitText text={when.headline} />
+          {when.sub && <FitText as="span" text={when.sub} />}
         </div>
       </div>
     </article>
@@ -818,9 +880,16 @@ function bannerBoardColumn(cfg, phase, status){
     end:phase.end ? new Date(phase.end).getTime() : NaN,
     heroes,
     others:ranked.filter((unit) => !heroes.includes(unit)),
-    // Featured lower-rarity units ride along on the headline card, marked with
-    // their rarity so a 4-star is never mistaken for the banner's draw.
-    support:all.filter((unit) => unit.rarity && unit.rarity < rank),
+    // What rides along under the headline unit. Normally the featured
+    // lower-rarity units, marked with their rarity so a 4-star is never
+    // mistaken for the banner's draw. Endfield has no featured 4-stars to
+    // show — what matters there is the loss pool, so its off-banner
+    // headliners take that slot instead (user 2026-08-11).
+    // ZZZ shows no lower-rarity row at all (user 2026-08-11) — its A-ranks
+    // crowd the card without telling a player anything they act on.
+    support:cfg.key === 'zzz' ? []
+      : cfg.key === 'ae' ? ranked.filter((unit) => !heroes.includes(unit))
+      : all.filter((unit) => unit.rarity && unit.rarity < rank),
   };
 }
 
@@ -923,6 +992,8 @@ function BannerBoardNote({ title, children }){
 
 function OverviewBannerBoard({ cfg, onOpenMaterial }){
   const now = useNowTick(1000);
+  // Endfield's loss-rate explainer, opened from the "?" beside the pool.
+  const [lossHelp, setLossHelp] = React.useState(false);
   const board = React.useMemo(() => overviewBannerBoard(cfg), [cfg.key]);
   // A banner name is a link into that character's own page, and the Back button
   // there returns here rather than to the roster (user 2026-08-09). Only units
@@ -951,8 +1022,17 @@ function OverviewBannerBoard({ cfg, onOpenMaterial }){
     start:column.start,
     end:column.end,
     featured:[hero],
-    // Featured 4-stars ride along under the headline unit.
-    others:index === 0 ? column.support : [],
+    // Both headline banners in a phase share the same featured lower-rarity
+    // units in game, so both cards list them — that also keeps every card in
+    // the row the same shape (user 2026-08-11).
+    others:column.support,
+    // ZZZ agent renders are full-body; letting them cover the card crops the
+    // agent to a torso, so they are contained and zoomed instead.
+    containArt:cfg.key === 'zzz',
+    supportLabel:cfg.key === 'ae' ? 'Available on loss' : null,
+    supportHelp:cfg.key === 'ae'
+      ? { label:'How the loss rates work', onOpen:() => setLossHelp(true) }
+      : null,
     // One art only — a two-entry pool would crossfade the splash against the
     // namecard every few seconds.
     artPool:[hero.splash].filter(Boolean),
@@ -963,11 +1043,23 @@ function OverviewBannerBoard({ cfg, onOpenMaterial }){
   // Endfield's off-banner characters are the loss pool, not parallel banners.
   const lossPool = cfg.key === 'ae';
   const laterUnits = board.later.flatMap((column) => [...column.heroes, ...column.others].map((unit) => ({ unit, label:bannerPhaseHeading(column) })));
+  // Endfield runs one banner at a time and announces little, so the middle
+  // columns would sit empty while the later column overflowed. Its upcoming
+  // operators move up into columns 2-4 and the later column is dropped
+  // entirely — no placeholder (user 2026-08-11).
+  const aeUpcoming = lossPool ? laterUnits.slice(0, 3) : [];
+  const aeColumn = (index) => (aeUpcoming[index]
+    ? <BannerBoardRow unit={aeUpcoming[index].unit} status="upcoming" onOpen={unitLink(aeUpcoming[index].unit)} />
+    : <BannerBoardEmpty />);
   // A second headline card takes the neighbouring column; otherwise that column
   // lists whatever else is running in the same phase.
   const sideColumn = (column, cards, status, emptyText) => {
     if (cards.length > 1) return <BannerPhaseCard card={cards[1]} now={now} unitLink={unitLink} />;
-    if (column && column.others.length) return column.others.map((unit) => <BannerBoardRow key={unit.name} unit={unit} status={status} onOpen={unitLink(unit)} />);
+    // Endfield's off-banner names are the loss pool and already sit on the
+    // headline card, so this column must not repeat them.
+    if (!lossPool && column && column.others.length) {
+      return column.others.map((unit) => <BannerBoardRow key={unit.name} unit={unit} status={status} onOpen={unitLink(unit)} />);
+    }
     return <BannerBoardEmpty>{emptyText}</BannerBoardEmpty>;
   };
   return (
@@ -975,28 +1067,37 @@ function OverviewBannerBoard({ cfg, onOpenMaterial }){
       <BannerBoardColumn heading={bannerPhaseHeading(board.current)}>
         {currentHeroes.length ? <BannerPhaseCard card={currentHeroes[0]} now={now} unitLink={unitLink} /> : <BannerBoardEmpty>No confirmed banner right now.</BannerBoardEmpty>}
       </BannerBoardColumn>
+      <BannerBoardColumn heading={lossPool && aeUpcoming.length ? 'Upcoming' : null}>
+        {lossPool ? aeColumn(0) : sideColumn(board.current, currentHeroes, 'live', 'Nothing else running.')}
+      </BannerBoardColumn>
+      <BannerBoardColumn heading={lossPool ? null : bannerPhaseHeading(board.next)}>
+        {lossPool
+          ? aeColumn(1)
+          : (nextHeroes.length ? <BannerPhaseCard card={nextHeroes[0]} now={now} unitLink={unitLink} /> : <BannerBoardEmpty />)}
+      </BannerBoardColumn>
       <BannerBoardColumn>
-        {lossPool && board.current && board.current.others.length > 0 && (
-          <BannerBoardNote title="Banner Loss Characters">Previous banners — what a 50/50 loss gives you</BannerBoardNote>
-        )}
-        {sideColumn(board.current, currentHeroes, 'live', 'Nothing else running.')}
+        {lossPool ? aeColumn(2) : sideColumn(board.next, nextHeroes, 'next', undefined)}
       </BannerBoardColumn>
-      <BannerBoardColumn heading={bannerPhaseHeading(board.next)}>
-        {nextHeroes.length ? <BannerPhaseCard card={nextHeroes[0]} now={now} unitLink={unitLink} /> : <BannerBoardEmpty />}
-      </BannerBoardColumn>
-      <BannerBoardColumn>
-        {lossPool && board.next && board.next.others.length > 0 && nextHeroes.length <= 1 && (
-          <BannerBoardNote title="Banner Loss Characters">Previous banners — what a 50/50 loss gives you</BannerBoardNote>
-        )}
-        {sideColumn(board.next, nextHeroes, 'next', undefined)}
-      </BannerBoardColumn>
-      <BannerBoardColumn heading={board.later.length ? bannerNextPhaseHeading(board.later[0], board.next) : null}>
-        {laterUnits.length
-          ? laterUnits.map((row) => (
-              <BannerBoardRow key={(row.label || '') + row.unit.name} unit={row.unit} status="upcoming" onOpen={unitLink(row.unit)} />
-            ))
-          : <BannerBoardEmpty />}
-      </BannerBoardColumn>
+      {/* Endfield has nothing to put here, and an empty frame reads as a
+          missing banner, so the column is omitted outright. */}
+      {!lossPool && (
+        <BannerBoardColumn heading={board.later.length ? bannerNextPhaseHeading(board.later[0], board.next) : null}>
+          {laterUnits.length
+            ? laterUnits.map((row) => (
+                <BannerBoardRow key={(row.label || '') + row.unit.name} unit={row.unit} status="upcoming" onOpen={unitLink(row.unit)} />
+              ))
+            : <BannerBoardEmpty />}
+        </BannerBoardColumn>
+      )}
+      {lossHelp && (
+        <div className="gp-ovb-modal" role="dialog" aria-modal="true" aria-label="Endfield loss rates"
+             onClick={() => setLossHelp(false)}>
+          <div className="gp-ovb-modal-box" onClick={(event) => event.stopPropagation()}>
+            <button type="button" className="gp-ovb-modal-close" onClick={() => setLossHelp(false)} aria-label="Close">×</button>
+            <img src="../assets/info/endfield-loss-rates.webp" alt="Arknights: Endfield headhunting rates, showing what a 50/50 loss can give" />
+          </div>
+        </div>
+      )}
     </section>
   );
 }
@@ -1606,9 +1707,12 @@ function CodeCardRow({ row, currency, onCopy, onToggleRedeemed }){
         <input type="checkbox" checked={redeemed} onChange={() => { if (onToggleRedeemed) onToggleRedeemed(r.code); }} />
         <span className="box"></span>
       </label>
+      {/* The code sits in its own invisible column and shrinks a step at a time
+          rather than truncating, so a long code still reads in full
+          (user 2026-08-11). */}
       {r.redeemUrl
-        ? <a className="cc" href={r.redeemUrl} target="_blank" rel="noopener noreferrer" title="Open the redeem page">{r.code}</a>
-        : <span className="cc no-link" title="No redeem link available">{r.code}</span>}
+        ? <a className="cc" href={r.redeemUrl} target="_blank" rel="noopener noreferrer" title="Open the redeem page"><FitText as="span" className="cc-text" text={r.code} /></a>
+        : <span className="cc no-link" title="No redeem link available"><FitText as="span" className="cc-text" text={r.code} /></span>}
       <span className={'cc-reward' + (r.premium ? '' : ' plain')} tabIndex={0} aria-label="Show all rewards">
         {r.premium && (safeCurrency.icon
           ? <img src={safeCurrency.icon} alt={safeCurrency.name} draggable="false" />
@@ -1617,11 +1721,15 @@ function CodeCardRow({ row, currency, onCopy, onToggleRedeemed }){
         {!r.premium && <span className="reward-text">{NYX_CODE_GOODIES_LABEL}</span>}
         <span className="cc-reward-pop" role="tooltip"><RewardChips reward={r.reward} full /></span>
       </span>
-      <button type="button" className="cc-copy"
-              title="Copy" aria-label={'Copy ' + r.code} onClick={() => onCopy(r.code)}>
-        <span className="i-copy"></span>
-      </button>
-      {r.st === 'copied' && <span className="cc-copied-pop" role="status">Copied</span>}
+      {/* The button and its "Copied" flash share one cell so the flash still has
+          something to anchor to now that the row itself draws no box. */}
+      <span className="cc-copy-cell">
+        <button type="button" className="cc-copy"
+                title="Copy" aria-label={'Copy ' + r.code} onClick={() => onCopy(r.code)}>
+          <span className="i-copy"></span>
+        </button>
+        {r.st === 'copied' && <span className="cc-copied-pop" role="status">Copied</span>}
+      </span>
     </div>
   );
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T23:59:13.371Z",
+  "generatedAt": "2026-08-11T15:08:25.529Z",
   "policy": "Every generated Database row is counted. Released rows remain visible when art or description is missing; only rows with no usable localized display name or proven internal/test provenance are quarantined.",
   "coverage": {
     "before": {
@@ -226,12 +226,12 @@
       "scope": "inline",
       "game": "ae",
       "collection": "weapons",
-      "sourceCount": 75,
-      "normalizedCount": 75,
+      "sourceCount": 76,
+      "normalizedCount": 76,
       "quarantinedCount": 0,
-      "approvedSourceCount": 75,
-      "generatedCount": 75,
-      "localArtCount": 75,
+      "approvedSourceCount": 76,
+      "generatedCount": 76,
+      "localArtCount": 76,
       "missingArtCount": 0
     },
     {

@@ -19,7 +19,14 @@ const GAMES = [
     name: 'Honkai: Star Rail',
     game8Url: 'https://game8.co/games/Honkai-Star-Rail/archives/408381',
     fallbackUrl: 'https://prydwen.gg/star-rail/',
-    preferFallback: true,  // Prydwen has cleaner HSR data; game8 mixes characters with light cones
+    // Prydwen was preferred because game8 used to mix light cones into the HSR
+    // character list, but Prydwen has been answering 403 to this scraper on
+    // every run (checked 2026-08-11, all three of its game pages), so HSR has
+    // silently been running on game8 the whole time. game8 carries the future
+    // phases correctly — it is where "Robin • Summeretto" (4.5 Phase 1) and
+    // "Aventurine • Waveflair" (4.5 Phase 2) come from. Prefer the source that
+    // answers; Prydwen stays as the fallback for whenever it lets us back in.
+    preferFallback: false,
     defaultHourUtc: 16,
     tzOffsetHours: -5,
   },
@@ -48,6 +55,11 @@ const GAMES = [
     id: 'endfield',
     name: 'Arknights: Endfield',
     game8Url: 'https://game8.co/games/Arknights-Endfield/archives/524215',
+    // Endfield teases operators long before a banner window exists. game8's
+    // "New and Upcoming Characters" page is the only consistently maintained
+    // list of them, so it fills the board's later column until a real
+    // schedule is published (user 2026-08-11).
+    game8UpcomingUrl: 'https://game8.co/games/Arknights-Endfield/archives/529966',
     defaultHourUtc: 2,   // 10:00 UTC+8 (typical Endfield maintenance window)
     tzOffsetHours: 8,
   },
@@ -234,6 +246,10 @@ const GAMEDATA_GAMES = {
     // not the `icon` slug field.
     primaryUrl:  (id, _rec) => `https://static.nanoka.cc/assets/hsr/avataricon/avatar/${id}.webp`,
     fallbackUrl: (id, _rec) => `https://static.nanoka.cc/assets/hsr/avatarroundicon/${id}.webp`,
+    // Full-body art for the banner card. The avatar icon above is a headshot;
+    // the draw card is what the site wants behind a headline banner, and it is
+    // published for brand-new characters before the icon variant is.
+    splashUrl:   (id, _rec) => `https://static.nanoka.cc/assets/hsr/avatardrawcard/${id}.webp`,
   },
   genshin: {
     manifestKey: 'gi',
@@ -361,10 +377,12 @@ async function loadGameDataMap(gameId) {
     const en = stripTags(enRaw);
     const image = cfg.primaryUrl(id, rec) || null;
     const fallback = cfg.fallbackUrl ? (cfg.fallbackUrl(id, rec) || null) : null;
+    const splash = cfg.splashUrl ? (cfg.splashUrl(id, rec) || null) : null;
     const useFallback = fallback && fallback !== image;
     const entry = {
       name: en,
       image,
+      imageSplash: splash,
       imageFallback: useFallback ? fallback : null,
       imageFallbackZoom: useFallback && cfg.zoomFallback ? true : false,
       // Carry the upstream rank so the banner pipeline can filter out
@@ -491,6 +509,33 @@ const MIN_BANNER_RANK = { hsr: 5, genshin: 5, zzz: null /* S = 4 in gamedata */,
 // Resolve a single character name → record, or `null` if the name has no
 // match in the gamedata roster (= weapon / light cone / typo) or is below
 // the min rank for this game.
+// A URL built from a pattern is a guess until the CDN confirms it. nanoka
+// publishes the round icon and draw card for a brand-new character days before
+// the avatar-icon variant exists, so the pattern 404s and the card renders
+// blank (Robin • Summeretto and Aventurine • Waveflair, 2026-08-11). Check the
+// candidates and keep the first that answers. Results are memoised so one
+// character costs at most one request per run.
+const artUrlChecks = new Map();
+async function artUrlExists(url) {
+  if (!url) return false;
+  if (artUrlChecks.has(url)) return artUrlChecks.get(url);
+  const check = (async () => {
+    try {
+      const res = await fetch(url, { method: 'HEAD', headers: FETCH_HEADERS, signal: AbortSignal.timeout(8000) });
+      return res.ok;
+    } catch { return false; }
+  })();
+  artUrlChecks.set(url, check);
+  return check;
+}
+
+async function firstLiveArtUrl(candidates) {
+  for (const candidate of candidates) {
+    if (candidate && await artUrlExists(candidate)) return candidate;
+  }
+  return null;
+}
+
 async function resolveCharacterIcon(gameId, name) {
   const data = await fetchCharacterMap(gameId);
   if (!data) return { name, image: null };
@@ -513,8 +558,12 @@ async function resolveCharacterIcon(gameId, name) {
     }
     console.log(`[${gameId}] keeping "${name}" — rank ${found.rank} but recent debut`);
   }
-  const out = { name, image: found.image };
-  if (found.imageFallback) out.imageFallback = found.imageFallback;
+  // Prefer a URL the CDN actually serves over the first pattern that matches.
+  const icon = await firstLiveArtUrl([found.image, found.imageFallback, found.imageSplash]);
+  const splash = await firstLiveArtUrl([found.imageSplash, found.image, found.imageFallback]);
+  const out = { name, image: icon || found.image };
+  if (splash && splash !== out.image) out.imageSplash = splash;
+  if (found.imageFallback && found.imageFallback !== out.image) out.imageFallback = found.imageFallback;
   if (found.imageFallbackZoom) out.imageFallbackZoom = true;
   // Forward the roster rarity so the site can badge characters that aren't in
   // its local roster yet (site-side roster hits still take precedence).
@@ -1248,6 +1297,20 @@ async function main() {
         return otherNames.length < names.size && otherNames.every((name) => names.has(name));
       });
     });
+    // Teased-but-unscheduled operators go last, and only names the dated
+    // phases do not already cover — a real schedule always wins.
+    if (game.game8UpcomingUrl) {
+      const teased = await scrapeGame8UpcomingCharacters(game.game8UpcomingUrl);
+      const known = new Set([
+        ...currentChars, ...nextChars,
+        ...upcomingEnriched.flatMap((u) => u.characters),
+      ].map((c) => normName(c.name || c)));
+      const fresh = teased.filter((row) => !known.has(normName(row.name)));
+      if (fresh.length) {
+        upcomingEnriched = [...upcomingEnriched, { characters: fresh, start: null, end: null, teased: true }];
+      }
+    }
+
     // Endfield: enrich each sub-banner the same way + drop any that
     // ended up with zero matched characters after enrichment (heuristic
     // false positives upstream of the gamedata filter).
@@ -1268,7 +1331,11 @@ async function main() {
     // If the scraped "next" has no characters but "upcoming[0]" does, promote
     // upcoming[0] into next (typical for ZZZ where game8's overview only labels
     // one section "current" and the next phase lives under a sub-heading).
-    if (!nextChars.length && upcomingEnriched.length && upcomingEnriched[0].characters.length) {
+    // A teased phase carries no window, so promoting it to "next" would claim a
+    // schedule that does not exist — and it would then be dropped for having no
+    // dates. It stays in the later list instead.
+    if (!nextChars.length && upcomingEnriched.length && upcomingEnriched[0].characters.length
+      && !upcomingEnriched[0].teased) {
       const promoted = upcomingEnriched.shift();
       nextChars = promoted.characters;
       nextStart = promoted.start ?? nextStart;
@@ -1366,6 +1433,51 @@ async function main() {
     }
   }
 }
+
+// ---------------------------------------------------------------------------
+// Announced-but-unscheduled characters (game8 "New and Upcoming Characters").
+//
+// The page lists each teased character as an <h3> under the "Upcoming
+// Characters" heading, usually with a teaser still. There are no dates — these
+// are reveals, not scheduled banners — so they are emitted as a dateless phase
+// that the board shows last and that a real dated phase supersedes.
+// ---------------------------------------------------------------------------
+function parseGame8UpcomingCharacters(html) {
+  const text = String(html || '');
+  const start = text.search(/<h2[^>]*>\s*Upcoming Characters/i);
+  if (start < 0) return [];
+  const rest = text.slice(start);
+  const nextHeading = rest.slice(1).search(/<h2[^>]*>/i);
+  const block = nextHeading > 0 ? rest.slice(0, nextHeading + 1) : rest;
+  const out = [];
+  const seen = new Set();
+  const re = /<h3[^>]*>([\s\S]*?)<\/h3>([\s\S]*?)(?=<h3[^>]*>|$)/g;
+  let match;
+  while ((match = re.exec(block))) {
+    const name = normalizeText(stripTags(match[1]));
+    if (!name || name.length > 60) continue;
+    const key = normName(name);
+    if (!key || seen.has(key)) continue;
+    const image = match[2].match(/data-src=['"]([^'"]+)['"]/);
+    seen.add(key);
+    out.push({ name, image: image ? image[1] : null });
+  }
+  return out;
+}
+
+async function scrapeGame8UpcomingCharacters(url, logger = console) {
+  try {
+    const html = await fetchHtml(url);
+    const rows = parseGame8UpcomingCharacters(html);
+    logger.log(`[endfield] game8 upcoming characters: ${rows.length} found`);
+    return rows;
+  } catch (err) {
+    // Never fatal: a teaser list is a bonus, not a requirement.
+    logger.log(`[endfield] game8 upcoming characters unavailable: ${err.message}`);
+    return [];
+  }
+}
+
 
 async function runCli(task = main, logger = console) {
   try {

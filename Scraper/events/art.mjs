@@ -45,6 +45,8 @@ const ALLOWED_HOSTS = new Set([
   'web-static.kurobbs.com',
   // Gryphline (Arknights: Endfield) bulletin covers
   'web-static.hg-cdn.com',
+  // game8 teaser stills for announced-but-unscheduled characters
+  'img.game8.co',
 ]);
 
 // Two of the three CDNs are Alibaba OSS-backed and will resize on request
@@ -137,8 +139,8 @@ export function artFileName(buffer, mediaType) {
   return `${crypto.createHash('sha256').update(buffer).digest('hex')}.${ext}`;
 }
 
-export function runtimeArtPath(game, fileName) {
-  return `${RUNTIME_PREFIX}/${game}/${fileName}`;
+export function runtimeArtPath(bucket, fileName) {
+  return `${RUNTIME_PREFIX}/${bucket}/${fileName}`;
 }
 
 async function exists(file) {
@@ -161,6 +163,7 @@ async function defaultFetchImage(url) {
 // provenance rows for the ones that gained art.
 export async function localizeEventArt({
   game,
+  folder = null,
   events = [],
   artByRecordId = new Map(),
   rootDir,
@@ -168,7 +171,8 @@ export async function localizeEventArt({
   shouldFetch = () => true,
   now = new Date().toISOString(),
 } = {}) {
-  const gameDir = path.resolve(rootDir, ART_DIR_RELATIVE, game);
+  const bucket = folder || game;
+  const gameDir = path.resolve(rootDir, ART_DIR_RELATIVE, bucket);
   const provenance = [];
   const problems = [];
   let downloaded = 0;
@@ -183,7 +187,7 @@ export async function localizeEventArt({
     // outside the window, or a wiped assets folder). Only a file that is
     // actually on disk counts as having art; a dangling path is cleared here
     // and re-fetched below, so a broken image is never shipped.
-    const stored = String(original?.image || '').startsWith(`${RUNTIME_PREFIX}/${game}/`)
+    const stored = String(original?.image || '').startsWith(`${RUNTIME_PREFIX}/${bucket}/`)
       ? await exists(path.resolve(gameDir, original.image.split('/').pop()))
       : Boolean(original?.image);
     const event = stored || !original?.image ? original : { ...original, image:null };
@@ -213,14 +217,14 @@ export async function localizeEventArt({
           downloaded += 1;
         }
         resolved = {
-          runtimePath:runtimeArtPath(game, fileName),
+          runtimePath:runtimeArtPath(bucket, fileName),
           row:{
             game,
             fileName,
             sourceUrl:remote,
             requestUrl:requestUrl === remote ? null : requestUrl,
-            runtimePath:runtimeArtPath(game, fileName),
-            localPath:`${ART_DIR_RELATIVE}/${game}/${fileName}`,
+            runtimePath:runtimeArtPath(bucket, fileName),
+            localPath:`${ART_DIR_RELATIVE}/${bucket}/${fileName}`,
             sha256:fileName.replace(/\.[a-z0-9]+$/i, ''),
             bytes:buffer.length,
             mediaType:sniffed,
@@ -251,12 +255,13 @@ export async function localizeEventArt({
 // only ever grows: an event's art is downloaded once and the event itself is
 // eventually aged out of the feed. Only ever removes files inside the game's
 // own art folder, and only ones matching the hashed name this module writes.
-export async function pruneEventArt({ game, events = [], rootDir } = {}) {
-  const gameDir = path.resolve(rootDir, ART_DIR_RELATIVE, game);
+export async function pruneEventArt({ game, folder = null, events = [], rootDir } = {}) {
+  const bucket = folder || game;
+  const gameDir = path.resolve(rootDir, ART_DIR_RELATIVE, bucket);
   const keep = new Set();
   for (const event of events) {
     const image = String(event?.image || '');
-    if (image.startsWith(`${RUNTIME_PREFIX}/${game}/`)) keep.add(image.slice(`${RUNTIME_PREFIX}/${game}/`.length));
+    if (image.startsWith(`${RUNTIME_PREFIX}/${bucket}/`)) keep.add(image.slice(`${RUNTIME_PREFIX}/${bucket}/`.length));
   }
   let removed = 0;
   let names;

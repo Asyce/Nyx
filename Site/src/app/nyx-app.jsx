@@ -552,7 +552,9 @@ function bannerWhen(card, now){
     if (ref <= now) return { state:'ended', headline:'Ended ' + shortDuration(now - ref) + ' ago', sub:bannerAbsTime(ref), pct:null };
     return { state:card.status, headline:durationParts(ref - now) + ' left', sub:'Ends ' + bannerAbsTime(ref), pct:null };
   }
-  return { state:card.status, headline:'Dates not confirmed yet', sub:null, pct:null };
+  // Nothing is known about when this runs, so the footer stays empty rather
+  // than announcing the absence of a date (user 2026-08-11).
+  return { state:card.status, headline:null, sub:null, pct:null };
 }
 
 const BANNER_WEAPON_COLLECTIONS = {
@@ -840,10 +842,12 @@ function BannerPhaseCard({ card, now, showGame, unitLink }){
             ))}
           </div>
         )}
-        <div className="gp-oban-foot">
-          <FitText text={when.headline} />
-          {when.sub && <FitText as="span" text={when.sub} />}
-        </div>
+        {when.headline && (
+          <div className="gp-oban-foot">
+            <FitText text={when.headline} />
+            {when.sub && <FitText as="span" text={when.sub} />}
+          </div>
+        )}
       </div>
     </article>
   );

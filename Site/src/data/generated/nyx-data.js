@@ -4,9 +4,9 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-08-11T06:29:57.894Z",
+  "generatedAt": "2026-08-11T07:19:18.126Z",
   "codes": {
-    "updated": "2026-08-11T06:14:48.221Z",
+    "updated": "2026-08-11T07:19:03.071Z",
     "maxAgeDays": 28,
     "games": {
       "gi": [
@@ -67,6 +67,20 @@ var NYX_DB = {
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=UIVI13C8X156"
         },
         {
+          "code": "Everwinter",
+          "reward": "x100 Primogems and x10 Mystic Enchancement Ore",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Primogems",
+            "needle": "primogem",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
+          },
+          "added": "2026-07-31",
+          "firstSeen": "2026-08-11T07:18:44.630Z",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=Everwinter",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=Everwinter"
+        },
+        {
           "code": "Odettte0812",
           "reward": "x100 Primogems and x50,000 Mora",
           "premium": true,
@@ -79,6 +93,20 @@ var NYX_DB = {
           "firstSeen": "2026-08-01T21:03:08.107Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=Odettte0812",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=Odettte0812"
+        },
+        {
+          "code": "OntoSnezhnaya",
+          "reward": "x100 Primogems and x5 Hero S Wit",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Primogems",
+            "needle": "primogem",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
+          },
+          "added": "2026-07-31",
+          "firstSeen": "2026-08-11T07:18:44.630Z",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=OntoSnezhnaya",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=OntoSnezhnaya"
         }
       ],
       "hsr": [
@@ -562,64 +590,31 @@ var NYX_DB = {
           "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
-          "phase": "Luna VIII",
-          "start": "2026-07-21T10:00:00.000Z",
-          "end": "2026-08-11T06:59:00.000Z",
+          "phase": "6.7 Phase 1",
+          "start": null,
+          "end": "2026-08-11T10:00:00.000Z",
           "characters": [
             {
-              "name": "Raiden Shogun",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Shougun_Circle.webp",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Shougun.webp",
-              "namecard": "../../Database/GenshinWiki/namecards/Shougun.png",
+              "name": "Sandrone",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_MarionetteNew_Circle.webp",
+              "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_MarionetteNew.webp",
+              "iconZoom": true,
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_MarionetteNew.webp",
+              "namecard": "../../Database/GenshinWiki/namecards/MarionetteNew.png",
+              "rarity": 5,
+              "debut": true,
+              "debutAt": "2026-07-01"
+            },
+            {
+              "name": "Citlali",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Citlali_Circle.webp",
+              "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Citlali.webp",
+              "iconZoom": true,
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Citlali.webp",
+              "namecard": "../../Database/GenshinWiki/namecards/Citlali.png",
               "rarity": 5,
               "debut": false,
-              "debutAt": "2021-09-01"
-            },
-            {
-              "name": "Jahoda",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Jahoda_Circle.webp",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Jahoda.webp",
-              "namecard": "../../Database/GenshinWiki/namecards/Jahoda.png",
-              "rarity": 4,
-              "debut": false,
-              "debutAt": "2025-12-03"
-            },
-            {
-              "name": "Ororon",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Olorun_Circle.webp",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Olorun.webp",
-              "namecard": "../../Database/GenshinWiki/namecards/Olorun.png",
-              "rarity": 4,
-              "debut": false,
-              "debutAt": "2024-11-20"
-            },
-            {
-              "name": "Sethos",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Sethos_Circle.webp",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Sethos.webp",
-              "namecard": "../../Database/GenshinWiki/namecards/Sethos.png",
-              "rarity": 4,
-              "debut": false,
-              "debutAt": "2024-06-05"
-            },
-            {
-              "name": "Columbina",
-              "icon": "../../Database/GameData/gi/assets/characters/icons/UI_AvatarIcon_Columbina.webp",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Columbina.webp",
-              "namecard": "../../Database/GenshinWiki/namecards/Columbina.png",
-              "rarity": 5,
-              "debut": false,
-              "debutAt": "2026-01-14"
+              "debutAt": "2025-01-01"
             }
           ],
           "subBanners": []
@@ -5395,6 +5390,20 @@ var NYX_DB = {
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=UIVI13C8X156"
         },
         {
+          "code": "Everwinter",
+          "reward": "x100 Primogems and x10 Mystic Enchancement Ore",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Primogems",
+            "needle": "primogem",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
+          },
+          "added": "2026-07-31",
+          "firstSeen": "2026-08-11T07:18:44.630Z",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=Everwinter",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=Everwinter"
+        },
+        {
           "code": "Odettte0812",
           "reward": "x100 Primogems and x50,000 Mora",
           "premium": true,
@@ -5407,6 +5416,20 @@ var NYX_DB = {
           "firstSeen": "2026-08-01T21:03:08.107Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=Odettte0812",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=Odettte0812"
+        },
+        {
+          "code": "OntoSnezhnaya",
+          "reward": "x100 Primogems and x5 Hero S Wit",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Primogems",
+            "needle": "primogem",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
+          },
+          "added": "2026-07-31",
+          "firstSeen": "2026-08-11T07:18:44.630Z",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=OntoSnezhnaya",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=OntoSnezhnaya"
         }
       ],
       "banners": {
@@ -5420,64 +5443,31 @@ var NYX_DB = {
           "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
-          "phase": "Luna VIII",
-          "start": "2026-07-21T10:00:00.000Z",
-          "end": "2026-08-11T06:59:00.000Z",
+          "phase": "6.7 Phase 1",
+          "start": null,
+          "end": "2026-08-11T10:00:00.000Z",
           "characters": [
             {
-              "name": "Raiden Shogun",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Shougun_Circle.webp",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Shougun.webp",
-              "namecard": "../../Database/GenshinWiki/namecards/Shougun.png",
+              "name": "Sandrone",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_MarionetteNew_Circle.webp",
+              "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_MarionetteNew.webp",
+              "iconZoom": true,
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_MarionetteNew.webp",
+              "namecard": "../../Database/GenshinWiki/namecards/MarionetteNew.png",
+              "rarity": 5,
+              "debut": true,
+              "debutAt": "2026-07-01"
+            },
+            {
+              "name": "Citlali",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Citlali_Circle.webp",
+              "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Citlali.webp",
+              "iconZoom": true,
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Citlali.webp",
+              "namecard": "../../Database/GenshinWiki/namecards/Citlali.png",
               "rarity": 5,
               "debut": false,
-              "debutAt": "2021-09-01"
-            },
-            {
-              "name": "Jahoda",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Jahoda_Circle.webp",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Jahoda.webp",
-              "namecard": "../../Database/GenshinWiki/namecards/Jahoda.png",
-              "rarity": 4,
-              "debut": false,
-              "debutAt": "2025-12-03"
-            },
-            {
-              "name": "Ororon",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Olorun_Circle.webp",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Olorun.webp",
-              "namecard": "../../Database/GenshinWiki/namecards/Olorun.png",
-              "rarity": 4,
-              "debut": false,
-              "debutAt": "2024-11-20"
-            },
-            {
-              "name": "Sethos",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Sethos_Circle.webp",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Sethos.webp",
-              "namecard": "../../Database/GenshinWiki/namecards/Sethos.png",
-              "rarity": 4,
-              "debut": false,
-              "debutAt": "2024-06-05"
-            },
-            {
-              "name": "Columbina",
-              "icon": "../../Database/GameData/gi/assets/characters/icons/UI_AvatarIcon_Columbina.webp",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Columbina.webp",
-              "namecard": "../../Database/GenshinWiki/namecards/Columbina.png",
-              "rarity": 5,
-              "debut": false,
-              "debutAt": "2026-01-14"
+              "debutAt": "2025-01-01"
             }
           ],
           "subBanners": []

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "c54f94786c2ab2f2d1099d805533890422a51acf1f388e647f43ef74327c2d4b",
-  "generatedAt": "2026-08-11T06:29:59.524Z",
+  "revision": "86e141ce095e5d88c44ea5a6b1b4ef5250057b1f72db4e91cfa08432c63c1881",
+  "generatedAt": "2026-08-11T07:19:19.752Z",
   "health": {
     "status": "ok",
     "games": {
@@ -43,7 +43,7 @@
         "remaining": {
           "startsAt": "2026-07-21T17:00:00.000Z",
           "endsAt": "2026-08-11T13:59:00.000Z",
-          "durationSeconds": 26940
+          "durationSeconds": 23980
         },
         "characters": [
           {
@@ -360,6 +360,18 @@
           "currency": "Primogems"
         },
         {
+          "code": "Everwinter",
+          "added": "2026-07-31",
+          "amount": 100,
+          "currency": "Primogems"
+        },
+        {
+          "code": "OntoSnezhnaya",
+          "added": "2026-07-31",
+          "amount": 100,
+          "currency": "Primogems"
+        },
+        {
           "code": "Odettte0812",
           "added": "2026-07-31",
           "amount": 100,
@@ -377,7 +389,7 @@
         "remaining": {
           "startsAt": "2026-08-05T11:00:00.000Z",
           "endsAt": "2026-08-25T14:00:00.000Z",
-          "durationSeconds": 1236600
+          "durationSeconds": 1233640
         },
         "characters": [
           {
@@ -807,7 +819,7 @@
         "remaining": {
           "startsAt": "2026-07-29T03:00:00.000Z",
           "endsAt": "2026-08-19T03:59:59.000Z",
-          "durationSeconds": 682199
+          "durationSeconds": 679239
         },
         "characters": [
           {
@@ -1141,7 +1153,7 @@
         "remaining": {
           "startsAt": "2026-07-30T09:00:00.000Z",
           "endsAt": "2026-08-19T10:59:00.000Z",
-          "durationSeconds": 707340
+          "durationSeconds": 704380
         },
         "characters": [
           {
@@ -1475,7 +1487,7 @@
         "remaining": {
           "startsAt": "2026-08-09T04:00:00.000Z",
           "endsAt": "2026-09-01T21:59:59.000Z",
-          "durationSeconds": 1870199
+          "durationSeconds": 1867239
         },
         "characters": [
           {

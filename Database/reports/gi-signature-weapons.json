@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-11T08:15:20.885Z",
-  "startedAt": "2026-08-11T08:14:50.315Z",
+  "generatedAt": "2026-08-11T16:00:09.891Z",
+  "startedAt": "2026-08-11T15:59:36.344Z",
   "dryRun": false,
   "source": "GameWith character build pages + web consensus fallback",
   "sourcePage": "https://gamewith.net/genshin-impact/article/show/22357",
@@ -141,14 +141,6 @@
           "matchedText": "w are Alyosha's best weapons. Alyosha mainly wants Energy Recharge to use his Elemental Burst every rotation, while also benefiting from ATK due to his healing and damage scaling. Engulfing Lightning R1 Timeless Dream: Eternal Stove Base ATK: 608 Energy Recharge: 55.1% ATK increased by 28% / 35% / 42% / 49% / 56% of Energy Recharge over the base 100%. You ca"
         },
         {
-          "title": "Alyosha Guide - Best Weapons, Artifacts, and Team Comps",
-          "url": "https://www.ign.com/wikis/genshin-impact/Alyosha_Guide_-_Best_Weapons,_Artifacts,_and_Team_Comps",
-          "domain": "ign.com",
-          "query": "Alyosha Genshin Impact signature weapon",
-          "searchProvider": "bing-rss",
-          "status": "no-match"
-        },
-        {
           "title": "Genshin Impact | Alyosha Release Date & Best Build Guide",
           "url": "https://gamewith.net/genshin-impact/article/show/76471",
           "domain": "gamewith.net",
@@ -159,6 +151,14 @@
           "weaponName": "Symphonist of Scents",
           "kind": "signature",
           "matchedText": "anner.- It increases both Energy Recharge and ATK.- It provides a large amount of ER, allowing you to build the other stats Alyosha needs to maximize his Burst DMG and healing.2nd Symphonist Of ScentsGet from Limited Banner- This is Escoffier's signature weapon, only available when she is featured on a rate-up banner.- It has a CRIT DMG substat for a Sub-DPS"
+        },
+        {
+          "title": "Alyosha Guide - Best Weapons, Artifacts, and Team Comps",
+          "url": "https://www.ign.com/wikis/genshin-impact/Alyosha_Guide_-_Best_Weapons,_Artifacts,_and_Team_Comps",
+          "domain": "ign.com",
+          "query": "Alyosha Genshin Impact signature weapon",
+          "searchProvider": "bing-rss",
+          "status": "no-match"
         }
       ],
       "consensusSearchQueries": [

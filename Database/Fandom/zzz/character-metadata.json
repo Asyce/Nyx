@@ -572,17 +572,14 @@
   },
   {
     "name": "Nekomata",
-    "pageTitle": "Agent Focus: Nekomata",
+    "pageTitle": "Tutorial/(Character Intro) Nekomata",
     "aliases": [
       "Nekomata",
       "1021"
     ],
     "releaseDate": null,
-    "releasePatch": "1.0",
-    "categories": [
-      "Category:Released in Version 1.0",
-      "Category:Version"
-    ]
+    "releasePatch": null,
+    "categories": []
   },
   {
     "name": "Nicole",
@@ -779,23 +776,14 @@
   },
   {
     "name": "Rina",
-    "pageTitle": "Alexandrina Sebastiane",
+    "pageTitle": "Alexandrina Sebastiane/Lore",
     "aliases": [
       "Rina",
       "1211"
     ],
-    "releaseDate": "2024-07-04",
-    "releasePatch": "1.0",
-    "voiceActors": {
-      "english": "Morgan Lauré",
-      "chinese": "https://zh.moegirl.org.cn/张若瑜|Zhang Ruoyu (张若瑜)",
-      "japanese": "Satomi Arai|Arai Satomi (新井 里美)",
-      "korean": "ko:이은조|Lee Eun-jo (이은조)"
-    },
-    "categories": [
-      "Category:Released in Version 1.0",
-      "Category:Version"
-    ]
+    "releaseDate": null,
+    "releasePatch": null,
+    "categories": []
   },
   {
     "name": "Seed",

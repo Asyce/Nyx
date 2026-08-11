@@ -1,0 +1,32 @@
+{
+  "buckets": {
+    "ae": [
+      {
+        "name": "Hongshan Imperial Guard",
+        "localPath": "/assets/banners/ae/d6bb2d5206e6c0769a39bf0ad08c5839.png",
+        "sourceUrl": "https://img.game8.co/4556702/e097cc052bb598300312ad87ea3cef28.png/show",
+        "sourceSha256": "d6bb2d5206e6c0769a39bf0ad08c58393b193cb976018e38f3812714714e9761",
+        "sourceBytes": 155828,
+        "mediaType": "image/png"
+      },
+      {
+        "name": "Sarkaz Archer",
+        "localPath": "/assets/banners/ae/8b301e87737de7bee77d0207b15af0f8.png",
+        "sourceUrl": "https://img.game8.co/4556703/aad0545c854d09ac00a9b816f70230c0.png/show",
+        "sourceSha256": "8b301e87737de7bee77d0207b15af0f891071e8d5b29ef281de3bb618a23debb",
+        "sourceBytes": 171114,
+        "mediaType": "image/png"
+      },
+      {
+        "name": "Si (Feranmut Proxy)",
+        "localPath": "/assets/banners/ae/fd3eda13a889b82719e4542a2adfeb3b.png",
+        "sourceUrl": "https://img.game8.co/4556216/2c5a1a5333a8fd3ec41795dfa39e175e.png/show",
+        "sourceSha256": "fd3eda13a889b82719e4542a2adfeb3bfb8d5b3436e706ddbd8a769c3727ab96",
+        "sourceBytes": 158791,
+        "mediaType": "image/png"
+      }
+    ]
+  },
+  "generatedAt": "2026-08-11T16:47:53.184Z",
+  "policy": "Teaser stills are copied to our own origin because the site CSP blocks publisher CDNs. Filenames are the source sha256 prefix."
+}

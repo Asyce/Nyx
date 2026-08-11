@@ -4,7 +4,7 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-08-11T16:22:36.948Z",
+  "generatedAt": "2026-08-11T16:57:02.429Z",
   "codes": {
     "updated": "2026-08-11T15:35:53.483Z",
     "maxAgeDays": 28,
@@ -413,17 +413,16 @@ var NYX_DB = {
   },
   "banners": {
     "updated": "2026-08-11T10:14:55.599Z",
-    "checkedAt": "2026-08-11T15:35:40.423Z",
+    "checkedAt": "2026-08-11T10:14:55.599Z",
     "games": {
       "hsr": {
         "name": "Honkai: Star Rail",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-08-11T15:35:40.423Z",
+          "checkedAt": "2026-08-11T10:14:55.599Z",
           "lastSuccessfulFetch": "2026-08-11T10:14:55.599Z",
           "lastValidUpdate": "2026-08-11T10:14:55.599Z",
-          "source": "game8",
-          "message": "This game failed to scrape during the latest banner check; preserved previous data."
+          "source": "game8"
         },
         "current": {
           "phase": "4.4",
@@ -557,11 +556,10 @@ var NYX_DB = {
         "name": "Genshin Impact",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-08-11T15:35:40.423Z",
+          "checkedAt": "2026-08-11T10:14:55.599Z",
           "lastSuccessfulFetch": "2026-08-11T10:14:55.599Z",
           "lastValidUpdate": "2026-08-11T10:14:55.599Z",
-          "source": "game8",
-          "message": "This game failed to scrape during the latest banner check; preserved previous data."
+          "source": "game8"
         },
         "current": {
           "phase": "6.7 Phase 2",
@@ -727,11 +725,10 @@ var NYX_DB = {
         "name": "Wuthering Waves",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-08-11T15:35:40.423Z",
+          "checkedAt": "2026-08-11T10:14:55.599Z",
           "lastSuccessfulFetch": "2026-08-11T10:14:55.599Z",
           "lastValidUpdate": "2026-08-11T10:14:55.599Z",
-          "source": "game8",
-          "message": "This game failed to scrape during the latest banner check; preserved previous data."
+          "source": "game8"
         },
         "current": {
           "phase": "3.5",
@@ -865,11 +862,10 @@ var NYX_DB = {
         "name": "Zenless Zone Zero",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-08-11T15:35:40.423Z",
+          "checkedAt": "2026-08-11T10:14:55.599Z",
           "lastSuccessfulFetch": "2026-08-11T10:14:55.599Z",
           "lastValidUpdate": "2026-08-11T10:14:55.599Z",
-          "source": "game8",
-          "message": "This game failed to scrape during the latest banner check; preserved previous data."
+          "source": "game8"
         },
         "current": {
           "phase": "3.1",
@@ -981,11 +977,10 @@ var NYX_DB = {
         "name": "Arknights: Endfield",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-08-11T15:35:40.423Z",
+          "checkedAt": "2026-08-11T10:14:55.599Z",
           "lastSuccessfulFetch": "2026-08-11T10:14:55.599Z",
           "lastValidUpdate": "2026-08-11T10:14:55.599Z",
-          "source": "game8",
-          "message": "This game failed to scrape during the latest banner check; preserved previous data."
+          "source": "game8"
         },
         "current": {
           "phase": "1.4 Phase 2",
@@ -1049,10 +1044,10 @@ var NYX_DB = {
             "characters": [
               {
                 "name": "Si (Feranmut Proxy)",
-                "icon": "https://img.game8.co/4556216/2c5a1a5333a8fd3ec41795dfa39e175e.png/show",
+                "icon": "/assets/banners/ae/fd3eda13a889b82719e4542a2adfeb3b.png",
                 "iconFallback": null,
                 "iconZoom": false,
-                "art": "https://img.game8.co/4556216/2c5a1a5333a8fd3ec41795dfa39e175e.png/show",
+                "art": "/assets/banners/ae/fd3eda13a889b82719e4542a2adfeb3b.png",
                 "namecard": null,
                 "rarity": null,
                 "debut": true,
@@ -1060,10 +1055,10 @@ var NYX_DB = {
               },
               {
                 "name": "Hongshan Imperial Guard",
-                "icon": "https://img.game8.co/4556702/e097cc052bb598300312ad87ea3cef28.png/show",
+                "icon": "/assets/banners/ae/d6bb2d5206e6c0769a39bf0ad08c5839.png",
                 "iconFallback": null,
                 "iconZoom": false,
-                "art": "https://img.game8.co/4556702/e097cc052bb598300312ad87ea3cef28.png/show",
+                "art": "/assets/banners/ae/d6bb2d5206e6c0769a39bf0ad08c5839.png",
                 "namecard": null,
                 "rarity": null,
                 "debut": true,
@@ -1071,10 +1066,10 @@ var NYX_DB = {
               },
               {
                 "name": "Sarkaz Archer",
-                "icon": "https://img.game8.co/4556703/aad0545c854d09ac00a9b816f70230c0.png/show",
+                "icon": "/assets/banners/ae/8b301e87737de7bee77d0207b15af0f8.png",
                 "iconFallback": null,
                 "iconZoom": false,
-                "art": "https://img.game8.co/4556703/aad0545c854d09ac00a9b816f70230c0.png/show",
+                "art": "/assets/banners/ae/8b301e87737de7bee77d0207b15af0f8.png",
                 "namecard": null,
                 "rarity": null,
                 "debut": true,
@@ -5367,11 +5362,10 @@ var NYX_DB = {
         "name": "Genshin Impact",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-08-11T15:35:40.423Z",
+          "checkedAt": "2026-08-11T10:14:55.599Z",
           "lastSuccessfulFetch": "2026-08-11T10:14:55.599Z",
           "lastValidUpdate": "2026-08-11T10:14:55.599Z",
-          "source": "game8",
-          "message": "This game failed to scrape during the latest banner check; preserved previous data."
+          "source": "game8"
         },
         "current": {
           "phase": "6.7 Phase 2",
@@ -148075,233 +148069,6 @@ var NYX_DB = {
           "forms": []
         },
         {
-          "id": "gi-traveler",
-          "name": "Traveler",
-          "aliases": [
-            "Aether",
-            "Lumine"
-          ],
-          "title": "Descender",
-          "rarity": 5,
-          "element": "Anemo",
-          "role": "Sword",
-          "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
-          "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
-          "facts": {
-            "constellation": "Viator"
-          },
-          "overviewArt": "../../Database/GameData/gi/gcg/other cards/assets/332001-The Bestest Travel Companion!.webp",
-          "overviewArtPool": [
-            "../../Database/GameData/gi/gcg/other cards/assets/332001-The Bestest Travel Companion!.webp"
-          ],
-          "forms": [
-            {
-              "name": "Traveler",
-              "label": "Anemo",
-              "variant": "Anemo",
-              "gender": "male",
-              "element": "Anemo",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
-              "facts": {
-                "constellation": "Viator"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Anemo",
-              "variant": "Anemo",
-              "gender": "female",
-              "element": "Anemo",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
-              "facts": {
-                "constellation": "Viatrix"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Geo",
-              "variant": "Geo",
-              "gender": "male",
-              "element": "Geo",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
-              "facts": {
-                "constellation": "Viator"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Geo",
-              "variant": "Geo",
-              "gender": "female",
-              "element": "Geo",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
-              "facts": {
-                "constellation": "Viatrix"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Electro",
-              "variant": "Electro",
-              "gender": "male",
-              "element": "Electro",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
-              "facts": {
-                "constellation": "Viator"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Electro",
-              "variant": "Electro",
-              "gender": "female",
-              "element": "Electro",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
-              "facts": {
-                "constellation": "Viatrix"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Dendro",
-              "variant": "Dendro",
-              "gender": "male",
-              "element": "Dendro",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
-              "facts": {
-                "constellation": "Viator"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Dendro",
-              "variant": "Dendro",
-              "gender": "female",
-              "element": "Dendro",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
-              "facts": {
-                "constellation": "Viatrix"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Hydro",
-              "variant": "Hydro",
-              "gender": "male",
-              "element": "Hydro",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
-              "facts": {
-                "constellation": "Viator"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Hydro",
-              "variant": "Hydro",
-              "gender": "female",
-              "element": "Hydro",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
-              "facts": {
-                "constellation": "Viatrix"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Pyro",
-              "variant": "Pyro",
-              "gender": "male",
-              "element": "Pyro",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
-              "facts": {
-                "constellation": "Viator"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Pyro",
-              "variant": "Pyro",
-              "gender": "female",
-              "element": "Pyro",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
-              "facts": {
-                "constellation": "Viatrix"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Cryo",
-              "variant": "Cryo",
-              "gender": "male",
-              "element": "Cryo",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
-              "facts": {
-                "constellation": "Viator"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "None",
-              "variant": "None",
-              "gender": "male",
-              "element": "None",
-              "role": "WEAPON_CROSSBOW",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
-              "facts": {}
-            },
-            {
-              "name": "Traveler",
-              "label": "Cryo",
-              "variant": "Cryo",
-              "gender": "female",
-              "element": "Cryo",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
-              "facts": {
-                "constellation": "Viatrix"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "None",
-              "variant": "None",
-              "gender": "female",
-              "element": "None",
-              "role": "WEAPON_CROSSBOW",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
-              "facts": {}
-            }
-          ]
-        },
-        {
           "id": "gi-10000016",
           "name": "Diluc",
           "aliases": [],
@@ -148791,6 +148558,233 @@ var NYX_DB = {
             "../../Database/GameData/gi/gcg/character cards/assets/1202-Xingqiu.webp"
           ],
           "forms": []
+        },
+        {
+          "id": "gi-traveler",
+          "name": "Traveler",
+          "aliases": [
+            "Aether",
+            "Lumine"
+          ],
+          "title": "Descender",
+          "rarity": 5,
+          "element": "Anemo",
+          "role": "Sword",
+          "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
+          "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
+          "facts": {
+            "constellation": "Viator"
+          },
+          "overviewArt": "../../Database/GameData/gi/gcg/other cards/assets/332001-The Bestest Travel Companion!.webp",
+          "overviewArtPool": [
+            "../../Database/GameData/gi/gcg/other cards/assets/332001-The Bestest Travel Companion!.webp"
+          ],
+          "forms": [
+            {
+              "name": "Traveler",
+              "label": "Anemo",
+              "variant": "Anemo",
+              "gender": "male",
+              "element": "Anemo",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
+              "facts": {
+                "constellation": "Viator"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Anemo",
+              "variant": "Anemo",
+              "gender": "female",
+              "element": "Anemo",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
+              "facts": {
+                "constellation": "Viatrix"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Geo",
+              "variant": "Geo",
+              "gender": "male",
+              "element": "Geo",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
+              "facts": {
+                "constellation": "Viator"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Geo",
+              "variant": "Geo",
+              "gender": "female",
+              "element": "Geo",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
+              "facts": {
+                "constellation": "Viatrix"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Electro",
+              "variant": "Electro",
+              "gender": "male",
+              "element": "Electro",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
+              "facts": {
+                "constellation": "Viator"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Electro",
+              "variant": "Electro",
+              "gender": "female",
+              "element": "Electro",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
+              "facts": {
+                "constellation": "Viatrix"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Dendro",
+              "variant": "Dendro",
+              "gender": "male",
+              "element": "Dendro",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
+              "facts": {
+                "constellation": "Viator"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Dendro",
+              "variant": "Dendro",
+              "gender": "female",
+              "element": "Dendro",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
+              "facts": {
+                "constellation": "Viatrix"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Hydro",
+              "variant": "Hydro",
+              "gender": "male",
+              "element": "Hydro",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
+              "facts": {
+                "constellation": "Viator"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Hydro",
+              "variant": "Hydro",
+              "gender": "female",
+              "element": "Hydro",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
+              "facts": {
+                "constellation": "Viatrix"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Pyro",
+              "variant": "Pyro",
+              "gender": "male",
+              "element": "Pyro",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
+              "facts": {
+                "constellation": "Viator"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Pyro",
+              "variant": "Pyro",
+              "gender": "female",
+              "element": "Pyro",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
+              "facts": {
+                "constellation": "Viatrix"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Cryo",
+              "variant": "Cryo",
+              "gender": "male",
+              "element": "Cryo",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
+              "facts": {
+                "constellation": "Viator"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "None",
+              "variant": "None",
+              "gender": "male",
+              "element": "None",
+              "role": "WEAPON_CROSSBOW",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
+              "facts": {}
+            },
+            {
+              "name": "Traveler",
+              "label": "Cryo",
+              "variant": "Cryo",
+              "gender": "female",
+              "element": "Cryo",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
+              "facts": {
+                "constellation": "Viatrix"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "None",
+              "variant": "None",
+              "gender": "female",
+              "element": "None",
+              "role": "WEAPON_CROSSBOW",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
+              "facts": {}
+            }
+          ]
         }
       ]
     },
@@ -152175,11 +152169,10 @@ var NYX_DB = {
         "name": "Honkai: Star Rail",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-08-11T15:35:40.423Z",
+          "checkedAt": "2026-08-11T10:14:55.599Z",
           "lastSuccessfulFetch": "2026-08-11T10:14:55.599Z",
           "lastValidUpdate": "2026-08-11T10:14:55.599Z",
-          "source": "game8",
-          "message": "This game failed to scrape during the latest banner check; preserved previous data."
+          "source": "game8"
         },
         "current": {
           "phase": "4.4",
@@ -157892,11 +157885,10 @@ var NYX_DB = {
         "name": "Zenless Zone Zero",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-08-11T15:35:40.423Z",
+          "checkedAt": "2026-08-11T10:14:55.599Z",
           "lastSuccessfulFetch": "2026-08-11T10:14:55.599Z",
           "lastValidUpdate": "2026-08-11T10:14:55.599Z",
-          "source": "game8",
-          "message": "This game failed to scrape during the latest banner check; preserved previous data."
+          "source": "game8"
         },
         "current": {
           "phase": "3.1",
@@ -162856,11 +162848,10 @@ var NYX_DB = {
         "name": "Wuthering Waves",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-08-11T15:35:40.423Z",
+          "checkedAt": "2026-08-11T10:14:55.599Z",
           "lastSuccessfulFetch": "2026-08-11T10:14:55.599Z",
           "lastValidUpdate": "2026-08-11T10:14:55.599Z",
-          "source": "game8",
-          "message": "This game failed to scrape during the latest banner check; preserved previous data."
+          "source": "game8"
         },
         "current": {
           "phase": "3.5",
@@ -168022,11 +168013,10 @@ var NYX_DB = {
         "name": "Arknights: Endfield",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-08-11T15:35:40.423Z",
+          "checkedAt": "2026-08-11T10:14:55.599Z",
           "lastSuccessfulFetch": "2026-08-11T10:14:55.599Z",
           "lastValidUpdate": "2026-08-11T10:14:55.599Z",
-          "source": "game8",
-          "message": "This game failed to scrape during the latest banner check; preserved previous data."
+          "source": "game8"
         },
         "current": {
           "phase": "1.4 Phase 2",
@@ -168090,10 +168080,10 @@ var NYX_DB = {
             "characters": [
               {
                 "name": "Si (Feranmut Proxy)",
-                "icon": "https://img.game8.co/4556216/2c5a1a5333a8fd3ec41795dfa39e175e.png/show",
+                "icon": "/assets/banners/ae/fd3eda13a889b82719e4542a2adfeb3b.png",
                 "iconFallback": null,
                 "iconZoom": false,
-                "art": "https://img.game8.co/4556216/2c5a1a5333a8fd3ec41795dfa39e175e.png/show",
+                "art": "/assets/banners/ae/fd3eda13a889b82719e4542a2adfeb3b.png",
                 "namecard": null,
                 "rarity": null,
                 "debut": true,
@@ -168101,10 +168091,10 @@ var NYX_DB = {
               },
               {
                 "name": "Hongshan Imperial Guard",
-                "icon": "https://img.game8.co/4556702/e097cc052bb598300312ad87ea3cef28.png/show",
+                "icon": "/assets/banners/ae/d6bb2d5206e6c0769a39bf0ad08c5839.png",
                 "iconFallback": null,
                 "iconZoom": false,
-                "art": "https://img.game8.co/4556702/e097cc052bb598300312ad87ea3cef28.png/show",
+                "art": "/assets/banners/ae/d6bb2d5206e6c0769a39bf0ad08c5839.png",
                 "namecard": null,
                 "rarity": null,
                 "debut": true,
@@ -168112,10 +168102,10 @@ var NYX_DB = {
               },
               {
                 "name": "Sarkaz Archer",
-                "icon": "https://img.game8.co/4556703/aad0545c854d09ac00a9b816f70230c0.png/show",
+                "icon": "/assets/banners/ae/8b301e87737de7bee77d0207b15af0f8.png",
                 "iconFallback": null,
                 "iconZoom": false,
-                "art": "https://img.game8.co/4556703/aad0545c854d09ac00a9b816f70230c0.png/show",
+                "art": "/assets/banners/ae/8b301e87737de7bee77d0207b15af0f8.png",
                 "namecard": null,
                 "rarity": null,
                 "debut": true,

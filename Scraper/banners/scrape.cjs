@@ -1465,12 +1465,93 @@ function parseGame8UpcomingCharacters(html) {
   return out;
 }
 
-async function scrapeGame8UpcomingCharacters(url, logger = console) {
+// Teaser stills come off game8's own CDN, which the site's img-src CSP does not
+// allow, so a hotlinked URL renders as a broken image in production even though
+// it loads fine in a local preview (no CSP there). Every still is copied here
+// and served from our own origin instead, with provenance recorded next to it.
+const TEASER_ART_DIR = path.join(__dirname, '..', '..', 'Site', 'assets', 'banners');
+const TEASER_ART_PROVENANCE = path.join(__dirname, '..', '..', 'Database', 'reports', 'banner-teaser-art-provenance.json');
+const TEASER_ART_HOSTS = new Set(['img.game8.co']);
+const TEASER_ART_MAX_BYTES = 2_000_000;
+const TEASER_ART_TYPES = [
+  { ext: 'png',  mime: 'image/png',  test: (b) => b.length > 8 && b[0] === 0x89 && b[1] === 0x50 && b[2] === 0x4e && b[3] === 0x47 },
+  { ext: 'jpg',  mime: 'image/jpeg', test: (b) => b.length > 3 && b[0] === 0xff && b[1] === 0xd8 && b[2] === 0xff },
+  { ext: 'webp', mime: 'image/webp', test: (b) => b.length > 12 && b.toString('ascii', 0, 4) === 'RIFF' && b.toString('ascii', 8, 12) === 'WEBP' },
+  { ext: 'gif',  mime: 'image/gif',  test: (b) => b.length > 6 && b.toString('ascii', 0, 3) === 'GIF' },
+];
+
+function teaserArtType(buffer) {
+  return TEASER_ART_TYPES.find((type) => type.test(buffer)) || null;
+}
+
+// Content-addressed: the same still keeps the same filename across runs, so a
+// re-scrape neither re-downloads nor churns the committed tree.
+async function localizeTeaserArt(bucket, rows, logger = console) {
+  const dir = path.join(TEASER_ART_DIR, bucket);
+  const provenance = [];
+  const out = [];
+  for (const row of rows) {
+    const remote = row && row.image ? String(row.image) : '';
+    let host = '';
+    try { host = new URL(remote).hostname; } catch { host = ''; }
+    if (!remote || !TEASER_ART_HOSTS.has(host)) {
+      // An unknown host means the page shape changed; ship the name with no
+      // picture rather than fetching from wherever it now points.
+      if (remote) logger.log(`[${bucket}] teaser art host not allowed for "${row.name}" (${host || 'unparseable'})`);
+      out.push({ ...row, image: remote && TEASER_ART_HOSTS.has(host) ? remote : null });
+      continue;
+    }
+    try {
+      const res = await fetch(remote, { headers: FETCH_HEADERS, signal: AbortSignal.timeout(FETCH_TIMEOUT_MS) });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const buffer = Buffer.from(await res.arrayBuffer());
+      if (!buffer.length || buffer.length > TEASER_ART_MAX_BYTES) throw new Error(`unexpected size ${buffer.length}`);
+      const type = teaserArtType(buffer);
+      if (!type) throw new Error('not an image');
+      const digest = require('crypto').createHash('sha256').update(buffer).digest('hex');
+      const file = `${digest.slice(0, 32)}.${type.ext}`;
+      const dest = path.join(dir, file);
+      if (!fs.existsSync(dest)) {
+        fs.mkdirSync(dir, { recursive: true });
+        fs.writeFileSync(dest, buffer);
+      }
+      provenance.push({
+        name: row.name,
+        localPath: `/assets/banners/${bucket}/${file}`,
+        sourceUrl: remote,
+        sourceSha256: digest,
+        sourceBytes: buffer.length,
+        mediaType: type.mime,
+      });
+      // The site needs the local copy (its CSP blocks the publisher CDN); the
+      // launcher fetches and re-encodes art itself and wants the original, so
+      // both are kept rather than one overwriting the other.
+      out.push({ ...row, image: `/assets/banners/${bucket}/${file}`, imageSource: remote });
+    } catch (err) {
+      logger.log(`[${bucket}] teaser art unavailable for "${row.name}": ${err.message}`);
+      out.push({ ...row, image: null });
+    }
+  }
+  if (provenance.length) {
+    fs.mkdirSync(path.dirname(TEASER_ART_PROVENANCE), { recursive: true });
+    const previous = fs.existsSync(TEASER_ART_PROVENANCE)
+      ? JSON.parse(fs.readFileSync(TEASER_ART_PROVENANCE, 'utf8'))
+      : { buckets: {} };
+    previous.buckets = previous.buckets || {};
+    previous.buckets[bucket] = provenance.sort((a, b) => (a.name > b.name ? 1 : -1));
+    previous.generatedAt = new Date().toISOString();
+    previous.policy = 'Teaser stills are copied to our own origin because the site CSP blocks publisher CDNs. Filenames are the source sha256 prefix.';
+    fs.writeFileSync(TEASER_ART_PROVENANCE, `${JSON.stringify(previous, null, 2)}\n`);
+  }
+  return out;
+}
+
+async function scrapeGame8UpcomingCharacters(url, logger = console, bucket = 'ae') {
   try {
     const html = await fetchHtml(url);
     const rows = parseGame8UpcomingCharacters(html);
     logger.log(`[endfield] game8 upcoming characters: ${rows.length} found`);
-    return rows;
+    return await localizeTeaserArt(bucket, rows, logger);
   } catch (err) {
     // Never fatal: a teaser list is a bonus, not a requirement.
     logger.log(`[endfield] game8 upcoming characters unavailable: ${err.message}`);
@@ -1498,5 +1579,7 @@ if (require.main === module) {
 module.exports = {
   requiredCurrentSourceFailures,
   SourceUnavailableError,
+  localizeTeaserArt,
+  parseGame8UpcomingCharacters,
   runCli
 };

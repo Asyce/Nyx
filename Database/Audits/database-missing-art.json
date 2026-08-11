@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T15:13:02.405Z",
+  "generatedAt": "2026-08-11T16:57:04.080Z",
   "policy": "Every generated Database row is counted. Released rows remain visible when art or description is missing; only rows with no usable localized display name or proven internal/test provenance are quarantined.",
   "coverage": {
     "before": {

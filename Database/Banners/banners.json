@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-08-11T15:35:40.423Z",
+  "checkedAt": "2026-08-11T10:14:55.599Z",
   "updated": "2026-08-11T10:14:55.599Z",
   "games": [
     {
@@ -7,10 +7,9 @@
       "name": "Honkai: Star Rail",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-08-11T15:35:40.423Z",
+        "checkedAt": "2026-08-11T10:14:55.599Z",
         "lastSuccessfulFetch": "2026-08-11T10:14:55.599Z",
-        "source": "game8",
-        "message": "This game failed to scrape during the latest banner check; preserved previous data."
+        "source": "game8"
       },
       "current": {
         "phase": "4.4",
@@ -104,10 +103,9 @@
       "name": "Genshin Impact",
       "freshness": {
         "status": "transition",
-        "checkedAt": "2026-08-11T15:35:40.423Z",
+        "checkedAt": "2026-08-11T10:14:55.599Z",
         "lastSuccessfulFetch": "2026-08-11T10:14:55.599Z",
-        "source": "game8",
-        "message": "This game failed to scrape during the latest banner check; preserved previous data."
+        "source": "game8"
       },
       "current": {
         "phase": "6.7 Phase 2",
@@ -203,10 +201,9 @@
       "name": "Wuthering Waves",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-08-11T15:35:40.423Z",
+        "checkedAt": "2026-08-11T10:14:55.599Z",
         "lastSuccessfulFetch": "2026-08-11T10:14:55.599Z",
-        "source": "game8",
-        "message": "This game failed to scrape during the latest banner check; preserved previous data."
+        "source": "game8"
       },
       "current": {
         "phase": null,
@@ -309,10 +306,9 @@
       "name": "Zenless Zone Zero",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-08-11T15:35:40.423Z",
+        "checkedAt": "2026-08-11T10:14:55.599Z",
         "lastSuccessfulFetch": "2026-08-11T10:14:55.599Z",
-        "source": "game8",
-        "message": "This game failed to scrape during the latest banner check; preserved previous data."
+        "source": "game8"
       },
       "current": {
         "phase": null,
@@ -385,10 +381,9 @@
       "name": "Arknights: Endfield",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-08-11T15:35:40.423Z",
+        "checkedAt": "2026-08-11T10:14:55.599Z",
         "lastSuccessfulFetch": "2026-08-11T10:14:55.599Z",
-        "source": "game8",
-        "message": "This game failed to scrape during the latest banner check; preserved previous data."
+        "source": "game8"
       },
       "current": {
         "phase": "1.4 Phase 2",
@@ -414,15 +409,18 @@
           "characters": [
             {
               "name": "Si (Feranmut Proxy)",
-              "image": "https://img.game8.co/4556216/2c5a1a5333a8fd3ec41795dfa39e175e.png/show"
+              "image": "/assets/banners/ae/fd3eda13a889b82719e4542a2adfeb3b.png",
+              "imageSource": "https://img.game8.co/4556216/2c5a1a5333a8fd3ec41795dfa39e175e.png/show"
             },
             {
               "name": "Hongshan Imperial Guard",
-              "image": "https://img.game8.co/4556702/e097cc052bb598300312ad87ea3cef28.png/show"
+              "image": "/assets/banners/ae/d6bb2d5206e6c0769a39bf0ad08c5839.png",
+              "imageSource": "https://img.game8.co/4556702/e097cc052bb598300312ad87ea3cef28.png/show"
             },
             {
               "name": "Sarkaz Archer",
-              "image": "https://img.game8.co/4556703/aad0545c854d09ac00a9b816f70230c0.png/show"
+              "image": "/assets/banners/ae/8b301e87737de7bee77d0207b15af0f8.png",
+              "imageSource": "https://img.game8.co/4556703/aad0545c854d09ac00a9b816f70230c0.png/show"
             }
           ],
           "start": null,

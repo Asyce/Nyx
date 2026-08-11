@@ -37638,7 +37638,7 @@
               },
               {
                 "name": "Moment of Blazing Shadow",
-                "type": "Combat Skill",
+                "type": "Rossi immediately gains the Critical Rate and Critical DMG buffs after casting t",
                 "desc": "COMBO TRIGGER: When an enemy has both Vulnerable and Arts Infliction stacks.\n SKILL DESCRIPTION: Rossi's combo skill has 2 consecutive sequences. COMBO SEQUENCE 1 deals Physical DMG to the target.\nCOMBO SEQUENCE 2 Debuff Consumption all Arts Infliction stacks from the target, deals Physical DMG based on the number of Arts Infliction stacks Debuff Consumption, applies 1 instance of Lift, and buffs Rossi's Critical Rate and Critical DMG Dealt at the same time.\nIf COMBO SEQUENCE 2 is cast with perfect timing, it applies 1 more stack of Vulnerable.",
                 "stats": [
                   {

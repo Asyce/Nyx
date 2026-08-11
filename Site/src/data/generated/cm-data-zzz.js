@@ -60127,7 +60127,6 @@
       },
       "title": "Patience of a Cat",
       "slug": "nekomata",
-      "releasePatch": "1.0",
       "updated": 1785276000000,
       "sourceOrder": 0,
       "voiceActors": {
@@ -78831,15 +78830,11 @@
       },
       "title": "The Truth",
       "slug": "rina",
-      "release": 1720051200000,
-      "releasePatch": "1.0",
       "updated": 1785276000000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "Morgan Laur\u00e9",
-        "japanese": "Satomi Arai|Arai Satomi (\u65b0\u4e95 \u91cc\u7f8e)",
-        "chinese": "https://zh.moegirl.org.cn/\u5f20\u82e5\u745c|Zhang Ruoyu (\u5f20\u82e5\u745c)",
-        "korean": "ko:\uc774\uc740\uc870|Lee Eun-jo (\uc774\uc740\uc870)"
+        "japanese": "Arai Satomi (\u65b0\u4e95 \u91cc\u7f8e)",
+        "chinese": "Zh\u0101ngru\u00f2y\u00fa (\u5f20\u82e5\u745c)"
       },
       "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle22.webp",
       "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole22.webp",

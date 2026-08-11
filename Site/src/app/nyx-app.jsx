@@ -974,8 +974,11 @@ function BannerBoardColumn({ heading, children }){
   );
 }
 
+// A column with nothing in it says nothing — the "Not announced yet" filler was
+// removed 2026-08-11. Only an explicit message renders.
 function BannerBoardEmpty({ children }){
-  return <div className="gp-ovb-empty">{children || 'Not announced yet'}</div>;
+  if (!children) return null;
+  return <div className="gp-ovb-empty">{children}</div>;
 }
 
 // Endfield only: losing the 50/50 on the limited banner gives you one of the
@@ -1042,14 +1045,24 @@ function OverviewBannerBoard({ cfg, onOpenMaterial }){
   const nextHeroes = heroCards(board.next);
   // Endfield's off-banner characters are the loss pool, not parallel banners.
   const lossPool = cfg.key === 'ae';
-  const laterUnits = board.later.flatMap((column) => [...column.heroes, ...column.others].map((unit) => ({ unit, label:bannerPhaseHeading(column) })));
+  const laterUnits = board.later.flatMap((column) => [...column.heroes, ...column.others].map((unit) => ({ unit, column, label:bannerPhaseHeading(column) })));
   // Endfield runs one banner at a time and announces little, so the middle
   // columns would sit empty while the later column overflowed. Its upcoming
   // operators move up into columns 2-4 and the later column is dropped
   // entirely — no placeholder (user 2026-08-11).
   const aeUpcoming = lossPool ? laterUnits.slice(0, 3) : [];
-  const aeColumn = (index) => (aeUpcoming[index]
-    ? <BannerBoardRow unit={aeUpcoming[index].unit} status="upcoming" onOpen={unitLink(aeUpcoming[index].unit)} />
+  // Shown as full-art cards, the same shape as the live banner (user
+  // 2026-08-11). A teased operator has no dates and no known loss pool yet, so
+  // the card carries the art and the name and nothing it cannot stand behind.
+  const aeUpcomingCards = aeUpcoming.map((row, index) => ({
+    ...heroCard(row.column, row.unit, 'later-' + index),
+    status:'upcoming',
+    others:[],
+    supportLabel:null,
+    supportHelp:null,
+  }));
+  const aeColumn = (index) => (aeUpcomingCards[index]
+    ? <BannerPhaseCard card={aeUpcomingCards[index]} now={now} unitLink={unitLink} />
     : <BannerBoardEmpty />);
   // A second headline card takes the neighbouring column; otherwise that column
   // lists whatever else is running in the same phase.

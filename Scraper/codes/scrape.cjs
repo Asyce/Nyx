@@ -35,6 +35,22 @@ function parseGameList(value = "") {
     .filter(Boolean);
 }
 
+function preserveEarlierAddedDates(entries, prevGame) {
+  const previous = new Map();
+  for (const entry of [...(prevGame?.codes || []), ...(prevGame?.review?.codes || [])]) {
+    const key = codeKey(entry?.code);
+    const time = Date.parse(entry?.added);
+    if (!key || !Number.isFinite(time)) continue;
+    const known = previous.get(key);
+    if (!known || time < known.time) previous.set(key, { value: entry.added, time });
+  }
+  for (const entry of entries) {
+    const known = previous.get(codeKey(entry?.code));
+    if (known && known.time < Date.parse(entry.added)) entry.added = known.value;
+  }
+  return entries;
+}
+
 function parseCliOptions(argv = process.argv.slice(2), env = process.env) {
   const flags = new Set(argv);
   const redditGamesArg = argv.find((arg) => arg.startsWith("--reddit-games="));
@@ -1280,7 +1296,9 @@ async function processGame(game, prevGame, options = {}) {
   // live records before Reddit so an already-published authoritative record
   // (for example Game8-backed WuWa livestream codes) cannot be downgraded to a
   // Reddit-only review item when the active source misses a run.
-  if (options.preserveMissing) consume(prevGame?.codes);
+  if (options.preserveMissing) {
+    consume((prevGame?.codes || []).map((entry) => ({ ...entry, keepWhileActive: true })));
+  }
   // Reddit last so authoritative sources win the dedupe (date + rewards).
   // Reddit-only codes still survive — they just lose the metadata race.
   consume(reddit);
@@ -1312,6 +1330,10 @@ async function processGame(game, prevGame, options = {}) {
   for (const c of kept) {
     if (gateHeldKeys.has(codeKey(c.code))) console.log(`[${game.slug}] holding Reddit-only code ${c.code}: ${c.reviewReason}`);
   }
+
+  // Date-less active sources stamp "today". Preserve an existing earlier date
+  // so unchanged codes do not look newly added on every scheduled run.
+  preserveEarlierAddedDates(kept, prevGame);
 
   kept.sort((a, b) =>
     new Date(b.added) - new Date(a.added) || a.code.localeCompare(b.code));
@@ -1476,6 +1498,7 @@ module.exports = {
   parseGame8EndfieldActive,
   parseCliOptions,
   parseGameList,
+  preserveEarlierAddedDates,
   codeKey,
   CN_CONTEXT_RE,
   REDDIT_SUBS,

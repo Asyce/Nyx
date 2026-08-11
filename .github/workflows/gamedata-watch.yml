@@ -1,23 +1,20 @@
 name: Nanoka GameData watch & deploy
 
 # Nanoka does not provide this repository with a webhook, so poll its small
-# manifest hourly. The expensive scrape/build path runs only when a supported
+# manifest twice daily. The expensive scrape/build path runs only when a supported
 # game's manifest section really changed.
 #
-# Cadence is hourly rather than every 15 minutes because Actions bills a minimum
-# of one minute per job: a poll that finds no change still costs a full minute,
-# so */15 burned ~2,880 minutes/month on its own against a 3,000-minute plan.
-# Runs once an hour at 20 past ('20 * * * *', not '*/20'), chosen to stay clear
-# of the other workflows' minutes and of the top-of-hour peak, when GitHub is
-# most likely to drop scheduled runs.
+# Scheduled publishing is handled by daily-deploy.yml. Manual runs retain the
+# immediate deploy path when an upstream update must be published urgently.
 
 on:
   schedule:
-    - cron: '20 * * * *'
+    - cron: '20 2,14 * * *'
   workflow_dispatch: {}
 
 concurrency:
   group: pengo-deploy
+  queue: max
   cancel-in-progress: false
 
 permissions:
@@ -210,7 +207,7 @@ jobs:
 
       - name: Additively sync Database assets to R2
         id: r2_sync
-        if: ${{ steps.launcher_snapshot.outputs.fresh == 'true' && env.DATABASE_ASSET_MODE != 'local' && env.CF_API_TOKEN != '' }}
+        if: ${{ github.event_name == 'workflow_dispatch' && steps.launcher_snapshot.outputs.fresh == 'true' && env.DATABASE_ASSET_MODE != 'local' && env.CF_API_TOKEN != '' }}
         working-directory: Site
         env:
           PENGO_DEPLOY_COMMIT: ${{ steps.launcher_snapshot.outputs.sha }}
@@ -222,13 +219,13 @@ jobs:
       # R2 reconciliation can exceed the 15-minute launcher freshness window.
       # Re-commit and rebuild the exact deployment snapshot after that slow step.
       - name: Refresh final deployment launcher snapshot
-        if: ${{ steps.launcher_snapshot.outputs.fresh == 'true' && (env.DATABASE_ASSET_MODE == 'local' || steps.r2_sync.outputs.ready == 'true') && env.CF_API_TOKEN != '' }}
+        if: ${{ github.event_name == 'workflow_dispatch' && steps.launcher_snapshot.outputs.fresh == 'true' && (env.DATABASE_ASSET_MODE == 'local' || steps.r2_sync.outputs.ready == 'true') && env.CF_API_TOKEN != '' }}
         working-directory: Site
         run: npm run generate:data && npm run refresh:launcher
 
       - name: Commit final deployment launcher snapshot
         id: deployment_snapshot
-        if: ${{ steps.launcher_snapshot.outputs.fresh == 'true' && (env.DATABASE_ASSET_MODE == 'local' || steps.r2_sync.outputs.ready == 'true') && env.CF_API_TOKEN != '' }}
+        if: ${{ github.event_name == 'workflow_dispatch' && steps.launcher_snapshot.outputs.fresh == 'true' && (env.DATABASE_ASSET_MODE == 'local' || steps.r2_sync.outputs.ready == 'true') && env.CF_API_TOKEN != '' }}
         run: |
           git config user.name "pengo-bot"
           git config user.email "bot@pengo.gg"
@@ -260,7 +257,7 @@ jobs:
         run: git push
 
       - name: Deploy to Cloudflare
-        if: ${{ steps.launcher_snapshot.outputs.fresh == 'true' && steps.deployment_snapshot.outputs.fresh == 'true' && env.CF_API_TOKEN != '' }}
+        if: ${{ github.event_name == 'workflow_dispatch' && steps.launcher_snapshot.outputs.fresh == 'true' && steps.deployment_snapshot.outputs.fresh == 'true' && env.CF_API_TOKEN != '' }}
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         run: npx --yes wrangler deploy

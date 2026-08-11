@@ -5,9 +5,9 @@ import test from 'node:test';
 import { fileURLToPath } from 'node:url';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../../..');
-test('history workflow is isolated, six-hourly, serialized, and scoped', () => {
+test('history workflow is isolated, twice-weekly, serialized, and scoped', () => {
   const workflow = fs.readFileSync(path.join(root, '.github/workflows/banner-history-refresh.yml'), 'utf8');
-  assert.match(workflow, /cron: '45 \*\/6 \* \* \*'/);
+  assert.match(workflow, /cron: '45 4 \* \* 1,4'/);
   assert.match(workflow, /group: pengo-deploy/);
   assert.match(workflow, /npm run banners:history:test/);
   assert.match(workflow, /npm run banners:history/);

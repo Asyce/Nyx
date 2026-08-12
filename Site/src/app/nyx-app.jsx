@@ -3590,6 +3590,10 @@ function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings, 
             game={cfg.key}
             selectedName={materialSelection?.game === cfg.key ? materialSelection.name : null}
             selectedFrom={materialSelection?.game === cfg.key ? materialSelection.from : null}
+            sharedCard={materialSelection?.game === cfg.key ? materialSelection.shareCard : null}
+            onCloseSharedCard={() => {
+              if (setMaterialSelection) setMaterialSelection((current) => current?.game === cfg.key ? { ...current, shareCard:null } : current);
+            }}
             pageTab={tab}
             onPageTab={setTab}
             sections={sections}
@@ -4213,7 +4217,8 @@ function routeFromLocation(){
     const hashTab = ROUTE_TO_GAME_TAB[legacyHash];
     const databaseView = sub === 'database' ? (ROUTE_TO_GAME_TAB[parts[2] || ''] || hashTab) : null;
     const tab = character ? 'mats' : (databaseView || ROUTE_TO_GAME_TAB[sub] || hashTab || 'overview');
-    return { key, tab:coerceTabForKey(key, tab), character:character || null };
+    const shareCard = character ? nyxParseMaterialsCardSearch(location.search) : null;
+    return { key, tab:coerceTabForKey(key, tab), character:character || null, shareCard };
   } catch (e) {
     return {};
   }
@@ -4878,7 +4883,7 @@ function NyxApp(){
   const [materialSelection, setMaterialSelection] = React.useState(() => (
     initialRoute.character && initialKey !== 'nyx'
       ? { game:initialKey, name:initialRoute.character, slug:initialRoute.character,
-          from:nyxCalendarHistoryOrigin(initialHistoryState, initialRoute.character) }
+          from:nyxCalendarHistoryOrigin(initialHistoryState, initialRoute.character), shareCard:initialRoute.shareCard }
       : null
   ));
   const [characterCustomize, setCharacterCustomize] = React.useState(null);
@@ -4911,7 +4916,18 @@ function NyxApp(){
       const timelineHash = safeKey === 'nyx' && safeTab === 'timeline'
         && /^#tl\.[0-9a-z]+\.\d+$/.test(String(location.hash || ''))
         ? location.hash : '';
-      const target = href + String(location.search || '') + timelineHash;
+      const query = new URLSearchParams(location.search);
+      ['card', 'weapon', 'form', 'gender', 'channel'].forEach((name) => query.delete(name));
+      const shareCard = selection && selection.game === safeKey ? selection.shareCard : null;
+      if (shareCard) {
+        query.append('card', '1');
+        if (shareCard.weaponId != null && String(shareCard.weaponId).trim()) query.append('weapon', String(shareCard.weaponId));
+        if (shareCard.variantKey != null && String(shareCard.variantKey).trim()) query.append('form', String(shareCard.variantKey));
+        if (shareCard.gender != null && String(shareCard.gender).trim()) query.append('gender', String(shareCard.gender));
+        query.append('channel', String(shareCard.channel || 'live'));
+      }
+      const search = query.toString();
+      const target = href + (search ? '?' + search : '') + timelineHash;
       if (href && location.pathname + location.search + location.hash !== target) {
         const method = opts && opts.replace ? 'replaceState' : 'pushState';
         window.history[method](routeStateFor(safeKey, safeTab, selection), '', target);
@@ -5082,7 +5098,7 @@ function NyxApp(){
       setCharacterCustomize(null);
       const state = window.history.state || {};
       setMaterialSelection(next.character && k !== 'nyx' ? { game:k, name:next.character, slug:next.character,
-        from:nyxCalendarHistoryOrigin(state, next.character) } : null);
+        from:nyxCalendarHistoryOrigin(state, next.character), shareCard:next.shareCard } : null);
       if (next.timelineGame) setTimelineGame(next.timelineGame);
     };
     window.addEventListener('popstate', onPop);
@@ -5196,7 +5212,7 @@ function NyxApp(){
             <img src="../assets/icon/kofi-logo.png" alt="" draggable="false" />
           </a>
         </div>
-        {!isNyx && <NyxChannelToggle gameKey={activeKey} />}
+        {!isNyx && !(materialSelection?.game === activeKey && materialSelection.shareCard) && <NyxChannelToggle gameKey={activeKey} />}
       </div>
 
       {isNyx

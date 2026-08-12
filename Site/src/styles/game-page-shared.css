@@ -5863,6 +5863,19 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 .cm-pop.ledger .cm-presets-ledger button:hover{ color:var(--nyx-compat-color-hex-efe8ff); }
 .cm-pop.ledger .cm-presets-ledger button.on{ color:var(--nyx-compat-color-hex-f3eeff); background:transparent;
   box-shadow:var(--nyx-compat-shadow-box-f64575d175a5); } /* G17: purple underline, not the element colour */
+.cm-pop.ledger .cm-presets-ledger button:disabled{ cursor:wait; opacity:.55; }
+.cm-share-status{ flex:1 0 100%; padding-top:var(--nyx-space-4); text-align:right; font-size:var(--nyx-type-caption); color:var(--nyx-color-text-muted); }
+.cm-share-status.error{ color:var(--nyx-color-danger); }
+.cm-share-preview{ min-height:360px; display:flex; flex-direction:column; align-items:center; gap:var(--nyx-space-12); padding:var(--nyx-space-14);
+  border:1px solid var(--nyx-compat-color-7c44b5fd4230); border-radius:var(--nyx-radius-card); background:var(--nyx-compat-color-a4cfb227c1ed); }
+.cm-share-preview-actions{ align-self:stretch; display:flex; flex-wrap:wrap; align-items:center; gap:var(--nyx-space-8); }
+.cm-share-preview-actions button{ min-height:34px; border:1px solid var(--nyx-compat-color-92028f0fbac1); border-radius:var(--nyx-radius-control); cursor:pointer;
+  padding:var(--nyx-space-6) var(--nyx-space-12); color:var(--nyx-compat-color-hex-efe8ff); background:var(--nyx-compat-color-26ecac6a6aec); font:inherit; }
+.cm-share-preview-actions button:hover:not(:disabled){ border-color:var(--nyx-compat-color-hex-9a89ea); }
+.cm-share-preview-actions button:disabled{ cursor:not-allowed; opacity:.45; }
+.cm-share-preview-status{ align-self:stretch; min-height:20px; color:var(--nyx-color-text-muted); font-size:var(--nyx-type-small); }
+.cm-share-preview-status.error{ color:var(--nyx-color-danger); }
+.cm-share-preview > img{ display:block; width:min(100%, 1000px); height:auto; border-radius:var(--nyx-radius-control); box-shadow:var(--nyx-compat-shadow-box-11c181ca8b74); }
 .cm-form-switches.compact{ display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:var(--nyx-space-8);
   padding:var(--nyx-space-8) var(--nyx-space-10); border-radius:var(--nyx-radius-card); background:var(--nyx-compat-color-a4cfb227c1ed); }
 .cm-form-switches.compact .cm-form-row{ grid-template-columns:74px minmax(0, 1fr); }

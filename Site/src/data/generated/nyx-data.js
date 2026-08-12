@@ -4,15 +4,15 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-08-12T15:22:56.465Z",
+  "generatedAt": "2026-08-12T19:16:11.230Z",
   "codes": {
-    "updated": "2026-08-12T13:38:29.521Z",
+    "updated": "2026-08-12T19:15:56.154Z",
     "maxAgeDays": 28,
     "games": {
       "gi": [
         {
           "code": "XVIZDH2B9WGX",
-          "reward": "Mora x 10000, Adventurer's Experience x 10, Fine Enhancement Ore x 5, Jueyun Chili Chicken x 5, Stir-Fried Fish Noodles x 5",
+          "reward": "10000 Mora, 10 Adventurer's Experience, 5 Fine Enhancement Ore, 5 Jueyun Chili Chicken, 5 Stir-Fried Fish Noodles",
           "premium": false,
           "premiumCurrency": {
             "name": "Primogems",
@@ -21,7 +21,7 @@ var NYX_DB = {
           },
           "added": "2026-08-12",
           "firstSeen": "2026-08-12T07:46:42.167Z",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=XVIZDH2B9WGX",
+          "sourceUrl": "https://www.crimsonwitch.com/codes/Genshin_Impact",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=XVIZDH2B9WGX"
         },
         {
@@ -5258,7 +5258,7 @@ var NYX_DB = {
       "codes": [
         {
           "code": "XVIZDH2B9WGX",
-          "reward": "Mora x 10000, Adventurer's Experience x 10, Fine Enhancement Ore x 5, Jueyun Chili Chicken x 5, Stir-Fried Fish Noodles x 5",
+          "reward": "10000 Mora, 10 Adventurer's Experience, 5 Fine Enhancement Ore, 5 Jueyun Chili Chicken, 5 Stir-Fried Fish Noodles",
           "premium": false,
           "premiumCurrency": {
             "name": "Primogems",
@@ -5267,7 +5267,7 @@ var NYX_DB = {
           },
           "added": "2026-08-12",
           "firstSeen": "2026-08-12T07:46:42.167Z",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=XVIZDH2B9WGX",
+          "sourceUrl": "https://www.crimsonwitch.com/codes/Genshin_Impact",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=XVIZDH2B9WGX"
         },
         {

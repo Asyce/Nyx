@@ -4,7 +4,7 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-08-12T07:47:17.689Z",
+  "generatedAt": "2026-08-12T10:14:23.114Z",
   "codes": {
     "updated": "2026-08-12T07:47:01.431Z",
     "maxAgeDays": 28,
@@ -588,7 +588,7 @@ var NYX_DB = {
               "iconFallback": null,
               "iconZoom": false,
               "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Odette.webp",
-              "namecard": null,
+              "namecard": "../../Database/GenshinWiki/namecards/Odette.png",
               "rarity": 5,
               "debut": true,
               "debutAt": "2026-08-12"
@@ -599,7 +599,7 @@ var NYX_DB = {
               "iconFallback": null,
               "iconZoom": false,
               "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Alyosha.webp",
-              "namecard": null,
+              "namecard": "../../Database/GenshinWiki/namecards/Alyosha.png",
               "rarity": 4,
               "debut": true,
               "debutAt": "2026-08-12"
@@ -641,69 +641,37 @@ var NYX_DB = {
           "subBanners": []
         },
         "next": {
-          "phase": "7.0 Phase 1",
+          "phase": null,
           "teased": false,
-          "start": "2026-08-12T10:00:00.000Z",
-          "end": null,
+          "start": "2026-09-01T10:00:00.000Z",
+          "end": "2026-09-22T10:00:00.000Z",
           "characters": [
             {
-              "name": "Odette",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Odette_Circle.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Odette.webp",
+              "name": "Ineffa",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Ineffa_Circle.webp",
+              "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Ineffa.webp",
               "iconZoom": true,
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Odette.webp",
-              "namecard": null,
-              "rarity": 5,
-              "debut": true,
-              "debutAt": "2026-08-12"
-            },
-            {
-              "name": "Arlecchino",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Arlecchino_Circle.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Arlecchino.webp",
-              "iconZoom": true,
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Arlecchino.webp",
-              "namecard": "../../Database/GenshinWiki/namecards/Arlecchino.png",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Ineffa.webp",
+              "namecard": "../../Database/GenshinWiki/namecards/Ineffa.png",
               "rarity": 5,
               "debut": false,
-              "debutAt": "2024-04-24"
+              "debutAt": "2025-07-30"
+            },
+            {
+              "name": "Flins",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Flins_Circle.webp",
+              "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Flins.webp",
+              "iconZoom": true,
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Flins.webp",
+              "namecard": "../../Database/GenshinWiki/namecards/Flins.png",
+              "rarity": 5,
+              "debut": false,
+              "debutAt": "2025-09-30"
             }
           ],
           "subBanners": []
         },
-        "upcoming": [
-          {
-            "phase": null,
-            "teased": false,
-            "start": "2026-09-01T10:00:00.000Z",
-            "end": "2026-09-22T10:00:00.000Z",
-            "characters": [
-              {
-                "name": "Ineffa",
-                "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Ineffa_Circle.webp",
-                "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Ineffa.webp",
-                "iconZoom": true,
-                "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Ineffa.webp",
-                "namecard": "../../Database/GenshinWiki/namecards/Ineffa.png",
-                "rarity": 5,
-                "debut": false,
-                "debutAt": "2025-07-30"
-              },
-              {
-                "name": "Flins",
-                "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Flins_Circle.webp",
-                "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Flins.webp",
-                "iconZoom": true,
-                "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Flins.webp",
-                "namecard": "../../Database/GenshinWiki/namecards/Flins.png",
-                "rarity": 5,
-                "debut": false,
-                "debutAt": "2025-09-30"
-              }
-            ],
-            "subBanners": []
-          }
-        ]
+        "upcoming": []
       },
       "wuwa": {
         "name": "Wuthering Waves",
@@ -5394,7 +5362,7 @@ var NYX_DB = {
               "iconFallback": null,
               "iconZoom": false,
               "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Odette.webp",
-              "namecard": null,
+              "namecard": "../../Database/GenshinWiki/namecards/Odette.png",
               "rarity": 5,
               "debut": true,
               "debutAt": "2026-08-12"
@@ -5405,7 +5373,7 @@ var NYX_DB = {
               "iconFallback": null,
               "iconZoom": false,
               "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Alyosha.webp",
-              "namecard": null,
+              "namecard": "../../Database/GenshinWiki/namecards/Alyosha.png",
               "rarity": 4,
               "debut": true,
               "debutAt": "2026-08-12"
@@ -5447,69 +5415,37 @@ var NYX_DB = {
           "subBanners": []
         },
         "next": {
-          "phase": "7.0 Phase 1",
+          "phase": null,
           "teased": false,
-          "start": "2026-08-12T10:00:00.000Z",
-          "end": null,
+          "start": "2026-09-01T10:00:00.000Z",
+          "end": "2026-09-22T10:00:00.000Z",
           "characters": [
             {
-              "name": "Odette",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Odette_Circle.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Odette.webp",
+              "name": "Ineffa",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Ineffa_Circle.webp",
+              "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Ineffa.webp",
               "iconZoom": true,
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Odette.webp",
-              "namecard": null,
-              "rarity": 5,
-              "debut": true,
-              "debutAt": "2026-08-12"
-            },
-            {
-              "name": "Arlecchino",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Arlecchino_Circle.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Arlecchino.webp",
-              "iconZoom": true,
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Arlecchino.webp",
-              "namecard": "../../Database/GenshinWiki/namecards/Arlecchino.png",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Ineffa.webp",
+              "namecard": "../../Database/GenshinWiki/namecards/Ineffa.png",
               "rarity": 5,
               "debut": false,
-              "debutAt": "2024-04-24"
+              "debutAt": "2025-07-30"
+            },
+            {
+              "name": "Flins",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Flins_Circle.webp",
+              "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Flins.webp",
+              "iconZoom": true,
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Flins.webp",
+              "namecard": "../../Database/GenshinWiki/namecards/Flins.png",
+              "rarity": 5,
+              "debut": false,
+              "debutAt": "2025-09-30"
             }
           ],
           "subBanners": []
         },
-        "upcoming": [
-          {
-            "phase": null,
-            "teased": false,
-            "start": "2026-09-01T10:00:00.000Z",
-            "end": "2026-09-22T10:00:00.000Z",
-            "characters": [
-              {
-                "name": "Ineffa",
-                "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Ineffa_Circle.webp",
-                "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Ineffa.webp",
-                "iconZoom": true,
-                "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Ineffa.webp",
-                "namecard": "../../Database/GenshinWiki/namecards/Ineffa.png",
-                "rarity": 5,
-                "debut": false,
-                "debutAt": "2025-07-30"
-              },
-              {
-                "name": "Flins",
-                "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Flins_Circle.webp",
-                "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Flins.webp",
-                "iconZoom": true,
-                "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Flins.webp",
-                "namecard": "../../Database/GenshinWiki/namecards/Flins.png",
-                "rarity": 5,
-                "debut": false,
-                "debutAt": "2025-09-30"
-              }
-            ],
-            "subBanners": []
-          }
-        ]
+        "upcoming": []
       },
       "tcg": {
         "updated": "2026-08-08T06:06:45.912Z",

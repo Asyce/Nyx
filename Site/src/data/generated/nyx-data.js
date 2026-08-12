@@ -4,12 +4,26 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-08-12T04:24:10.973Z",
+  "generatedAt": "2026-08-12T07:47:17.689Z",
   "codes": {
-    "updated": "2026-08-11T17:38:35.815Z",
+    "updated": "2026-08-12T07:47:01.431Z",
     "maxAgeDays": 28,
     "games": {
       "gi": [
+        {
+          "code": "XVIZDH2B9WGX",
+          "reward": "Mora x 10000, Adventurer's Experience x 10, Fine Enhancement Ore x 5, Jueyun Chili Chicken x 5, Stir-Fried Fish Noodles x 5",
+          "premium": false,
+          "premiumCurrency": {
+            "name": "Primogems",
+            "needle": "primogem",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
+          },
+          "added": "2026-08-12",
+          "firstSeen": "2026-08-12T07:46:42.167Z",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=XVIZDH2B9WGX",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=XVIZDH2B9WGX"
+        },
         {
           "code": "LEGEDILJKSGM",
           "reward": "Primogem x 60, Adventurer's Experience x 5",
@@ -23,20 +37,6 @@ var NYX_DB = {
           "firstSeen": "2026-07-05T17:19:20.440Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=LEGEDILJKSGM",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=LEGEDILJKSGM"
-        },
-        {
-          "code": "UIVIBUQM6Q8A",
-          "reward": "Mora x 10000, Adventurer's Experience x 10, Fine Enhancement Ore x 5, Jueyun Chili Chicken x 5, Stir-Fried Fish Noodles x 5",
-          "premium": false,
-          "premiumCurrency": {
-            "name": "Primogems",
-            "needle": "primogem",
-            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
-          },
-          "added": "2026-08-11",
-          "firstSeen": "2026-08-01T21:03:08.107Z",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=UIVIBUQM6Q8A",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=UIVIBUQM6Q8A"
         },
         {
           "code": "2BJ64QRZ7RT8",
@@ -53,18 +53,18 @@ var NYX_DB = {
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=2BJ64QRZ7RT8"
         },
         {
-          "code": "UIVI13C8X156",
-          "reward": "10k Mora, Ten Adventurer S Experience, Five Fine Enhancement Ore, Five Jueyun Chili Chicken, and Five Stir Fried Fish Noodles",
+          "code": "GS70YTASTJ",
+          "reward": "30000 Mora, 5 Hero's Wit, 5 Mystic Enhancement Ore",
           "premium": false,
           "premiumCurrency": {
             "name": "Primogems",
             "needle": "primogem",
             "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
           },
-          "added": "2026-08-07",
-          "firstSeen": "2026-07-22T18:21:43.993Z",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=UIVI13C8X156",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=UIVI13C8X156"
+          "added": "2026-08-06",
+          "firstSeen": "2026-08-12T07:46:42.167Z",
+          "sourceUrl": "https://www.crimsonwitch.com/codes/Genshin_Impact",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=GS70YTASTJ"
         },
         {
           "code": "Everwinter",
@@ -252,20 +252,6 @@ var NYX_DB = {
         }
       ],
       "zzz": [
-        {
-          "code": "CBW0884678",
-          "reward": "Denny x 20,000",
-          "premium": false,
-          "premiumCurrency": {
-            "name": "Polychrome",
-            "needle": "polychrome",
-            "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
-          },
-          "added": "2026-08-11",
-          "firstSeen": "2026-08-07T04:03:19.449Z",
-          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=CBW0884678",
-          "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=CBW0884678"
-        },
         {
           "code": "ZENLESSGIFT",
           "reward": "50 polychrome, two official investigator logs, three w-engine power supplies, and one bangboo algorithm module",
@@ -5289,6 +5275,20 @@ var NYX_DB = {
       ],
       "codes": [
         {
+          "code": "XVIZDH2B9WGX",
+          "reward": "Mora x 10000, Adventurer's Experience x 10, Fine Enhancement Ore x 5, Jueyun Chili Chicken x 5, Stir-Fried Fish Noodles x 5",
+          "premium": false,
+          "premiumCurrency": {
+            "name": "Primogems",
+            "needle": "primogem",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
+          },
+          "added": "2026-08-12",
+          "firstSeen": "2026-08-12T07:46:42.167Z",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=XVIZDH2B9WGX",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=XVIZDH2B9WGX"
+        },
+        {
           "code": "LEGEDILJKSGM",
           "reward": "Primogem x 60, Adventurer's Experience x 5",
           "premium": true,
@@ -5301,20 +5301,6 @@ var NYX_DB = {
           "firstSeen": "2026-07-05T17:19:20.440Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=LEGEDILJKSGM",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=LEGEDILJKSGM"
-        },
-        {
-          "code": "UIVIBUQM6Q8A",
-          "reward": "Mora x 10000, Adventurer's Experience x 10, Fine Enhancement Ore x 5, Jueyun Chili Chicken x 5, Stir-Fried Fish Noodles x 5",
-          "premium": false,
-          "premiumCurrency": {
-            "name": "Primogems",
-            "needle": "primogem",
-            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
-          },
-          "added": "2026-08-11",
-          "firstSeen": "2026-08-01T21:03:08.107Z",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=UIVIBUQM6Q8A",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=UIVIBUQM6Q8A"
         },
         {
           "code": "2BJ64QRZ7RT8",
@@ -5331,18 +5317,18 @@ var NYX_DB = {
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=2BJ64QRZ7RT8"
         },
         {
-          "code": "UIVI13C8X156",
-          "reward": "10k Mora, Ten Adventurer S Experience, Five Fine Enhancement Ore, Five Jueyun Chili Chicken, and Five Stir Fried Fish Noodles",
+          "code": "GS70YTASTJ",
+          "reward": "30000 Mora, 5 Hero's Wit, 5 Mystic Enhancement Ore",
           "premium": false,
           "premiumCurrency": {
             "name": "Primogems",
             "needle": "primogem",
             "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
           },
-          "added": "2026-08-07",
-          "firstSeen": "2026-07-22T18:21:43.993Z",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=UIVI13C8X156",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=UIVI13C8X156"
+          "added": "2026-08-06",
+          "firstSeen": "2026-08-12T07:46:42.167Z",
+          "sourceUrl": "https://www.crimsonwitch.com/codes/Genshin_Impact",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=GS70YTASTJ"
         },
         {
           "code": "Everwinter",
@@ -157809,20 +157795,6 @@ var NYX_DB = {
         }
       ],
       "codes": [
-        {
-          "code": "CBW0884678",
-          "reward": "Denny x 20,000",
-          "premium": false,
-          "premiumCurrency": {
-            "name": "Polychrome",
-            "needle": "polychrome",
-            "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
-          },
-          "added": "2026-08-11",
-          "firstSeen": "2026-08-07T04:03:19.449Z",
-          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=CBW0884678",
-          "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=CBW0884678"
-        },
         {
           "code": "ZENLESSGIFT",
           "reward": "50 polychrome, two official investigator logs, three w-engine power supplies, and one bangboo algorithm module",

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-11T17:38:35.815Z",
+  "generatedAt": "2026-08-12T07:47:01.431Z",
   "games": {
     "gi": [
       {
@@ -115,5 +115,5 @@
       }
     ]
   },
-  "revision": "ae0a5e02761f8edda3506ef1fae563b186bd1d3f2516b0a94f7f3b255a041b38"
+  "revision": "26d05dfc72709088047d2ab8290c5dce6511ef315c764ac820e7809992e559bb"
 }

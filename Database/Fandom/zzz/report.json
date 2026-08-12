@@ -2,15 +2,14 @@
   "game": "zzz",
   "label": "Zenless Zone Zero",
   "source": "https://zenless-zone-zero.fandom.com/api.php",
-  "scrapedAt": "2026-08-11T15:58:13.219Z",
+  "scrapedAt": "2026-08-12T08:06:11.984Z",
   "total": 58,
   "saved": 58,
   "withReleaseDate": 54,
-  "withReleasePatch": 56,
+  "withReleasePatch": 57,
   "withVoiceActors": 53,
   "missing": [],
   "thin": [
-    "Nekomata",
     "Rina"
   ]
 }

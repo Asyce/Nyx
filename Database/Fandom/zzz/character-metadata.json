@@ -572,14 +572,17 @@
   },
   {
     "name": "Nekomata",
-    "pageTitle": "Tutorial/(Character Intro) Nekomata",
+    "pageTitle": "Agent Focus: Nekomata",
     "aliases": [
       "Nekomata",
       "1021"
     ],
     "releaseDate": null,
-    "releasePatch": null,
-    "categories": []
+    "releasePatch": "1.0",
+    "categories": [
+      "Category:Released in Version 1.0",
+      "Category:Version"
+    ]
   },
   {
     "name": "Nicole",

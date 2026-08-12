@@ -60127,6 +60127,7 @@
       },
       "title": "Patience of a Cat",
       "slug": "nekomata",
+      "releasePatch": "1.0",
       "updated": 1785283200000,
       "sourceOrder": 0,
       "voiceActors": {

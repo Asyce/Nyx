@@ -1,0 +1,4301 @@
+{
+  "name": "Vodyanitsa",
+  "desc": "",
+  "chara_info": {
+    "release_date": "1970-01-01 00:00:00",
+    "birth": [
+      1,
+      1
+    ],
+    "vision": "",
+    "vision_special_type_before": "",
+    "vision_special_type_after": "",
+    "constellation": "",
+    "region": "ASSOC_TYPE_SNEZHNAYA",
+    "title": "",
+    "native": "",
+    "detail": "",
+    "va": {
+      "chinese": "???",
+      "japanese": "???",
+      "english": "???",
+      "korean": "???"
+    },
+    "stories": [
+      {
+        "title": "???",
+        "text": "",
+        "unlock": []
+      },
+      {
+        "title": "???",
+        "text": "",
+        "unlock": []
+      },
+      {
+        "title": "???",
+        "text": "",
+        "unlock": []
+      },
+      {
+        "title": "???",
+        "text": "",
+        "unlock": []
+      },
+      {
+        "title": "???",
+        "text": "",
+        "unlock": []
+      },
+      {
+        "title": "???",
+        "text": "",
+        "unlock": []
+      },
+      {
+        "title": "",
+        "text": "",
+        "unlock": []
+      },
+      {
+        "title": "???",
+        "text": "",
+        "unlock": []
+      }
+    ],
+    "quotes": [
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      }
+    ],
+    "special_food": {
+      "id": 132036,
+      "recipe": 3708,
+      "name": "Iridescent Aria",
+      "icon": "UI_ItemIcon_108906",
+      "rank": 3
+    },
+    "namecard": {
+      "id": 210296,
+      "name": "???",
+      "desc": "???",
+      "icon": "UI_NameCardPic_Vodyanitsa_P"
+    },
+    "costume": [
+      {
+        "id": 214000,
+        "name": "",
+        "desc": "",
+        "icon": "",
+        "quality": 0
+      }
+    ],
+    "trace_effect": []
+  },
+  "weapon": "WEAPON_CATALYST",
+  "rarity": "QUALITY_ORANGE",
+  "element": "Hydro",
+  "icon": "UI_AvatarIcon_Vodyanitsa",
+  "stamina_recovery": 25,
+  "base_hp": 1153.5172,
+  "base_atk": 8.379,
+  "base_def": 37.6929,
+  "crit_rate": 0.05,
+  "crit_dmg": 0.5,
+  "elemental_mastery": 0,
+  "level_exp": [
+    1000,
+    1325,
+    1700,
+    2150,
+    2625,
+    3150,
+    3725,
+    4350,
+    5000,
+    5700,
+    6450,
+    7225,
+    8050,
+    8925,
+    9825,
+    10750,
+    11725,
+    12725,
+    13775,
+    14875,
+    16800,
+    18000,
+    19250,
+    20550,
+    21875,
+    23250,
+    24650,
+    26100,
+    27575,
+    29100,
+    30650,
+    32250,
+    33875,
+    35550,
+    37250,
+    38975,
+    40750,
+    42575,
+    44425,
+    46300,
+    50625,
+    52700,
+    54775,
+    56900,
+    59075,
+    61275,
+    63525,
+    65800,
+    68125,
+    70475,
+    76500,
+    79050,
+    81650,
+    84275,
+    86950,
+    89650,
+    92400,
+    95175,
+    98000,
+    100875,
+    108950,
+    112050,
+    115175,
+    118325,
+    121525,
+    124775,
+    128075,
+    131400,
+    134775,
+    138175,
+    148700,
+    152375,
+    156075,
+    159825,
+    163600,
+    167425,
+    171300,
+    175225,
+    179175,
+    183175,
+    216225,
+    243025,
+    273100,
+    306800,
+    344600,
+    386950,
+    434425,
+    487625,
+    547200,
+    613950
+  ],
+  "stats_modifier": {
+    "hp": {
+      "1": 1,
+      "2": 1.083,
+      "3": 1.166,
+      "4": 1.25,
+      "5": 1.333,
+      "6": 1.417,
+      "7": 1.5,
+      "8": 1.584,
+      "9": 1.668,
+      "10": 1.751,
+      "11": 1.835,
+      "12": 1.919,
+      "13": 2.003,
+      "14": 2.088,
+      "15": 2.172,
+      "16": 2.256,
+      "17": 2.341,
+      "18": 2.425,
+      "19": 2.51,
+      "20": 2.594,
+      "21": 2.679,
+      "22": 2.764,
+      "23": 2.849,
+      "24": 2.934,
+      "25": 3.019,
+      "26": 3.105,
+      "27": 3.19,
+      "28": 3.275,
+      "29": 3.361,
+      "30": 3.446,
+      "31": 3.532,
+      "32": 3.618,
+      "33": 3.704,
+      "34": 3.789,
+      "35": 3.875,
+      "36": 3.962,
+      "37": 4.048,
+      "38": 4.134,
+      "39": 4.22,
+      "40": 4.307,
+      "41": 4.393,
+      "42": 4.48,
+      "43": 4.567,
+      "44": 4.653,
+      "45": 4.74,
+      "46": 4.827,
+      "47": 4.914,
+      "48": 5.001,
+      "49": 5.089,
+      "50": 5.176,
+      "51": 5.263,
+      "52": 5.351,
+      "53": 5.438,
+      "54": 5.526,
+      "55": 5.614,
+      "56": 5.702,
+      "57": 5.79,
+      "58": 5.878,
+      "59": 5.966,
+      "60": 6.054,
+      "61": 6.142,
+      "62": 6.23,
+      "63": 6.319,
+      "64": 6.407,
+      "65": 6.496,
+      "66": 6.585,
+      "67": 6.673,
+      "68": 6.762,
+      "69": 6.851,
+      "70": 6.94,
+      "71": 7.029,
+      "72": 7.119,
+      "73": 7.208,
+      "74": 7.297,
+      "75": 7.387,
+      "76": 7.476,
+      "77": 7.566,
+      "78": 7.656,
+      "79": 7.746,
+      "80": 7.836,
+      "81": 7.926,
+      "82": 8.016,
+      "83": 8.106,
+      "84": 8.196,
+      "85": 8.286,
+      "86": 8.377,
+      "87": 8.467,
+      "88": 8.558,
+      "89": 8.649,
+      "90": 8.739,
+      "91": 8.83,
+      "92": 8.921,
+      "93": 9.012,
+      "94": 9.103,
+      "95": 9.195,
+      "96": 9.286,
+      "97": 9.377,
+      "98": 9.469,
+      "99": 9.56,
+      "100": 9.652
+    },
+    "atk": {
+      "1": 1,
+      "2": 1.083,
+      "3": 1.166,
+      "4": 1.25,
+      "5": 1.333,
+      "6": 1.417,
+      "7": 1.5,
+      "8": 1.584,
+      "9": 1.668,
+      "10": 1.751,
+      "11": 1.835,
+      "12": 1.919,
+      "13": 2.003,
+      "14": 2.088,
+      "15": 2.172,
+      "16": 2.256,
+      "17": 2.341,
+      "18": 2.425,
+      "19": 2.51,
+      "20": 2.594,
+      "21": 2.679,
+      "22": 2.764,
+      "23": 2.849,
+      "24": 2.934,
+      "25": 3.019,
+      "26": 3.105,
+      "27": 3.19,
+      "28": 3.275,
+      "29": 3.361,
+      "30": 3.446,
+      "31": 3.532,
+      "32": 3.618,
+      "33": 3.704,
+      "34": 3.789,
+      "35": 3.875,
+      "36": 3.962,
+      "37": 4.048,
+      "38": 4.134,
+      "39": 4.22,
+      "40": 4.307,
+      "41": 4.393,
+      "42": 4.48,
+      "43": 4.567,
+      "44": 4.653,
+      "45": 4.74,
+      "46": 4.827,
+      "47": 4.914,
+      "48": 5.001,
+      "49": 5.089,
+      "50": 5.176,
+      "51": 5.263,
+      "52": 5.351,
+      "53": 5.438,
+      "54": 5.526,
+      "55": 5.614,
+      "56": 5.702,
+      "57": 5.79,
+      "58": 5.878,
+      "59": 5.966,
+      "60": 6.054,
+      "61": 6.142,
+      "62": 6.23,
+      "63": 6.319,
+      "64": 6.407,
+      "65": 6.496,
+      "66": 6.585,
+      "67": 6.673,
+      "68": 6.762,
+      "69": 6.851,
+      "70": 6.94,
+      "71": 7.029,
+      "72": 7.119,
+      "73": 7.208,
+      "74": 7.297,
+      "75": 7.387,
+      "76": 7.476,
+      "77": 7.566,
+      "78": 7.656,
+      "79": 7.746,
+      "80": 7.836,
+      "81": 7.926,
+      "82": 8.016,
+      "83": 8.106,
+      "84": 8.196,
+      "85": 8.286,
+      "86": 8.377,
+      "87": 8.467,
+      "88": 8.558,
+      "89": 8.649,
+      "90": 8.739,
+      "91": 9.028,
+      "92": 9.317,
+      "93": 9.606,
+      "94": 9.895,
+      "95": 10.184,
+      "96": 10.473,
+      "97": 10.762,
+      "98": 11.051,
+      "99": 11.34,
+      "100": 11.629
+    },
+    "def": {
+      "1": 1,
+      "2": 1.083,
+      "3": 1.166,
+      "4": 1.25,
+      "5": 1.333,
+      "6": 1.417,
+      "7": 1.5,
+      "8": 1.584,
+      "9": 1.668,
+      "10": 1.751,
+      "11": 1.835,
+      "12": 1.919,
+      "13": 2.003,
+      "14": 2.088,
+      "15": 2.172,
+      "16": 2.256,
+      "17": 2.341,
+      "18": 2.425,
+      "19": 2.51,
+      "20": 2.594,
+      "21": 2.679,
+      "22": 2.764,
+      "23": 2.849,
+      "24": 2.934,
+      "25": 3.019,
+      "26": 3.105,
+      "27": 3.19,
+      "28": 3.275,
+      "29": 3.361,
+      "30": 3.446,
+      "31": 3.532,
+      "32": 3.618,
+      "33": 3.704,
+      "34": 3.789,
+      "35": 3.875,
+      "36": 3.962,
+      "37": 4.048,
+      "38": 4.134,
+      "39": 4.22,
+      "40": 4.307,
+      "41": 4.393,
+      "42": 4.48,
+      "43": 4.567,
+      "44": 4.653,
+      "45": 4.74,
+      "46": 4.827,
+      "47": 4.914,
+      "48": 5.001,
+      "49": 5.089,
+      "50": 5.176,
+      "51": 5.263,
+      "52": 5.351,
+      "53": 5.438,
+      "54": 5.526,
+      "55": 5.614,
+      "56": 5.702,
+      "57": 5.79,
+      "58": 5.878,
+      "59": 5.966,
+      "60": 6.054,
+      "61": 6.142,
+      "62": 6.23,
+      "63": 6.319,
+      "64": 6.407,
+      "65": 6.496,
+      "66": 6.585,
+      "67": 6.673,
+      "68": 6.762,
+      "69": 6.851,
+      "70": 6.94,
+      "71": 7.029,
+      "72": 7.119,
+      "73": 7.208,
+      "74": 7.297,
+      "75": 7.387,
+      "76": 7.476,
+      "77": 7.566,
+      "78": 7.656,
+      "79": 7.746,
+      "80": 7.836,
+      "81": 7.926,
+      "82": 8.016,
+      "83": 8.106,
+      "84": 8.196,
+      "85": 8.286,
+      "86": 8.377,
+      "87": 8.467,
+      "88": 8.558,
+      "89": 8.649,
+      "90": 8.739,
+      "91": 8.83,
+      "92": 8.921,
+      "93": 9.012,
+      "94": 9.103,
+      "95": 9.195,
+      "96": 9.286,
+      "97": 9.377,
+      "98": 9.469,
+      "99": 9.56,
+      "100": 9.652
+    },
+    "ascension": [
+      {
+        "fight_prop_base_hp": 989.0367,
+        "fight_prop_base_defense": 32.319,
+        "fight_prop_base_attack": 7.18371,
+        "fight_prop_hp_percent": 0
+      },
+      {
+        "fight_prop_base_hp": 1691.7733,
+        "fight_prop_base_defense": 55.2825,
+        "fight_prop_base_attack": 12.287925,
+        "fight_prop_hp_percent": 0.072
+      },
+      {
+        "fight_prop_base_hp": 2628.7554,
+        "fight_prop_base_defense": 85.9005,
+        "fight_prop_base_attack": 19.093546,
+        "fight_prop_hp_percent": 0.144
+      },
+      {
+        "fight_prop_base_hp": 3331.492,
+        "fight_prop_base_defense": 108.864,
+        "fight_prop_base_attack": 24.19776,
+        "fight_prop_hp_percent": 0.144
+      },
+      {
+        "fight_prop_base_hp": 4034.2285,
+        "fight_prop_base_defense": 131.8275,
+        "fight_prop_base_attack": 29.301975,
+        "fight_prop_hp_percent": 0.216
+      },
+      {
+        "fight_prop_base_hp": 4736.9653,
+        "fight_prop_base_defense": 154.791,
+        "fight_prop_base_attack": 34.40619,
+        "fight_prop_hp_percent": 0.288
+      }
+    ],
+    "prop_grow_curves": [
+      {
+        "grow_curve": "GROW_CURVE_HP_S5",
+        "type": "FIGHT_PROP_BASE_HP"
+      },
+      {
+        "grow_curve": "GROW_CURVE_ATTACK_S5",
+        "type": "FIGHT_PROP_BASE_ATTACK"
+      },
+      {
+        "grow_curve": "GROW_CURVE_HP_S5",
+        "type": "FIGHT_PROP_BASE_DEFENSE"
+      }
+    ],
+    "recommended_props": []
+  },
+  "skills": [
+    {
+      "id": 11401,
+      "name": "Waltz of the Water Imp",
+      "desc": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to 4 soundwave attacks that deal <color=#80C0FFFF>Hydro DMG</color>.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to fire bubbleballs which deal <color=#80C0FFFF>Hydro DMG</color> after a short casting time.",
+      "promote": {
+        "0": {
+          "level": 1,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}",
+            "Charged Attack DMG|{param5:F1P}",
+            "Charged Attack Stamina Cost|{param6:F1}",
+            "Plunge DMG|{param7:F1P}",
+            "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.433848,
+            0.40232,
+            0.493016,
+            0.655632,
+            1.2376,
+            50,
+            0.568288,
+            1.136335,
+            1.419344,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "1": {
+          "level": 2,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}",
+            "Charged Attack DMG|{param5:F1P}",
+            "Charged Attack Stamina Cost|{param6:F1}",
+            "Plunge DMG|{param7:F1P}",
+            "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.466387,
+            0.432494,
+            0.529992,
+            0.704804,
+            1.33042,
+            50,
+            0.614544,
+            1.228828,
+            1.534872,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "2": {
+          "level": 3,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}",
+            "Charged Attack DMG|{param5:F1P}",
+            "Charged Attack Stamina Cost|{param6:F1}",
+            "Plunge DMG|{param7:F1P}",
+            "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.498925,
+            0.462668,
+            0.566968,
+            0.753977,
+            1.42324,
+            50,
+            0.6608,
+            1.32132,
+            1.6504,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "3": {
+          "level": 4,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}",
+            "Charged Attack DMG|{param5:F1P}",
+            "Charged Attack Stamina Cost|{param6:F1}",
+            "Plunge DMG|{param7:F1P}",
+            "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.54231,
+            0.5029,
+            0.61627,
+            0.81954,
+            1.547,
+            50,
+            0.72688,
+            1.453452,
+            1.81544,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "4": {
+          "level": 5,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}",
+            "Charged Attack DMG|{param5:F1P}",
+            "Charged Attack Stamina Cost|{param6:F1}",
+            "Plunge DMG|{param7:F1P}",
+            "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.574849,
+            0.533074,
+            0.653246,
+            0.868712,
+            1.63982,
+            50,
+            0.773136,
+            1.545944,
+            1.930968,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "5": {
+          "level": 6,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}",
+            "Charged Attack DMG|{param5:F1P}",
+            "Charged Attack Stamina Cost|{param6:F1}",
+            "Plunge DMG|{param7:F1P}",
+            "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.607387,
+            0.563248,
+            0.690222,
+            0.917885,
+            1.73264,
+            50,
+            0.826,
+            1.65165,
+            2.063,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "6": {
+          "level": 7,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}",
+            "Charged Attack DMG|{param5:F1P}",
+            "Charged Attack Stamina Cost|{param6:F1}",
+            "Plunge DMG|{param7:F1P}",
+            "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.650772,
+            0.60348,
+            0.739524,
+            0.983448,
+            1.8564,
+            50,
+            0.898688,
+            1.796995,
+            2.244544,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "7": {
+          "level": 8,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}",
+            "Charged Attack DMG|{param5:F1P}",
+            "Charged Attack Stamina Cost|{param6:F1}",
+            "Plunge DMG|{param7:F1P}",
+            "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.694157,
+            0.643712,
+            0.788826,
+            1.049011,
+            1.98016,
+            50,
+            0.971376,
+            1.94234,
+            2.426088,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "8": {
+          "level": 9,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}",
+            "Charged Attack DMG|{param5:F1P}",
+            "Charged Attack Stamina Cost|{param6:F1}",
+            "Plunge DMG|{param7:F1P}",
+            "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.737542,
+            0.683944,
+            0.838127,
+            1.114574,
+            2.10392,
+            50,
+            1.044064,
+            2.087686,
+            2.607632,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "9": {
+          "level": 10,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}",
+            "Charged Attack DMG|{param5:F1P}",
+            "Charged Attack Stamina Cost|{param6:F1}",
+            "Plunge DMG|{param7:F1P}",
+            "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.780926,
+            0.724176,
+            0.887429,
+            1.180138,
+            2.22768,
+            50,
+            1.12336,
+            2.246244,
+            2.80568,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "10": {
+          "level": 11,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}",
+            "Charged Attack DMG|{param5:F1P}",
+            "Charged Attack Stamina Cost|{param6:F1}",
+            "Plunge DMG|{param7:F1P}",
+            "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.824311,
+            0.764408,
+            0.93673,
+            1.245701,
+            2.35144,
+            50,
+            1.202656,
+            2.404802,
+            3.003728,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "11": {
+          "level": 12,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}",
+            "Charged Attack DMG|{param5:F1P}",
+            "Charged Attack Stamina Cost|{param6:F1}",
+            "Plunge DMG|{param7:F1P}",
+            "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.867696,
+            0.80464,
+            0.986032,
+            1.311264,
+            2.4752,
+            50,
+            1.281952,
+            2.563361,
+            3.201776,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "12": {
+          "level": 13,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}",
+            "Charged Attack DMG|{param5:F1P}",
+            "Charged Attack Stamina Cost|{param6:F1}",
+            "Plunge DMG|{param7:F1P}",
+            "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.921927,
+            0.85493,
+            1.047659,
+            1.393218,
+            2.6299,
+            50,
+            1.361248,
+            2.721919,
+            3.399824,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "13": {
+          "level": 14,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}",
+            "Charged Attack DMG|{param5:F1P}",
+            "Charged Attack Stamina Cost|{param6:F1}",
+            "Plunge DMG|{param7:F1P}",
+            "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.976158,
+            0.90522,
+            1.109286,
+            1.475172,
+            2.7846,
+            50,
+            1.440544,
+            2.880478,
+            3.597872,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "14": {
+          "level": 15,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}",
+            "Charged Attack DMG|{param5:F1P}",
+            "Charged Attack Stamina Cost|{param6:F1}",
+            "Plunge DMG|{param7:F1P}",
+            "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.030389,
+            0.95551,
+            1.170913,
+            1.557126,
+            2.9393,
+            50,
+            1.51984,
+            3.039036,
+            3.79592,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": 11402,
+      "name": "Overture of the Water Imp",
+      "desc": "Vodyanitsa turns into a mermaid, dealing an instance of <color=#80C0FFFF>Hydro DMG</color>. Then, she enters the <color=#FFD780FF>Microphone Summons</color> state, and summons and performs with a microphone again and again for a period of time. During this time, the microphone periodically appears on the field and attacks the opponent alongside currently active characters to deal <color=#80C0FFFF>Hydro DMG</color> and reduce the opponent's <color=#80C0FFFF>Hydro RES</color> and <color=#99FFFFFF>Cryo RES</color>.\\nDuring the time the microphone is being summoned, the currently active character's Interruption RES is enhanced, and they are also periodically healed.",
+      "promote": {
+        "0": {
+          "level": 1,
+          "icon": "Skill_S_Vodyanitsa_01",
+          "desc": [
+            "Skill DMG|{param1:F2P} Max HP",
+            "Duration|{param2:I}s",
+            "Microphone Summons Interval|{param3:F1}s",
+            "Microphone DMG|{param4:F2P} Max HP",
+            "Microphone Healing|{param5:I} + {param6:F2P} Max HP",
+            "Healing Interval|{param7:F1}s",
+            "Hydro & Cryo RES Decrease|{param8:F1P}",
+            "RES Decrease Duration|{param9:F1}s",
+            "Skill CD|{param10:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.03272,
+            16,
+            3,
+            0.03272,
+            269.62854,
+            0.028,
+            1.5,
+            0.143,
+            6,
+            16,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "1": {
+          "level": 2,
+          "icon": "Skill_S_Vodyanitsa_01",
+          "desc": [
+            "Skill DMG|{param1:F2P} Max HP",
+            "Duration|{param2:I}s",
+            "Microphone Summons Interval|{param3:F1}s",
+            "Microphone DMG|{param4:F2P} Max HP",
+            "Microphone Healing|{param5:I} + {param6:F2P} Max HP",
+            "Healing Interval|{param7:F1}s",
+            "Hydro & Cryo RES Decrease|{param8:F1P}",
+            "RES Decrease Duration|{param9:F1}s",
+            "Skill CD|{param10:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.035174,
+            16,
+            3,
+            0.035174,
+            296.59515,
+            0.0301,
+            1.5,
+            0.156,
+            6,
+            16,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "2": {
+          "level": 3,
+          "icon": "Skill_S_Vodyanitsa_01",
+          "desc": [
+            "Skill DMG|{param1:F2P} Max HP",
+            "Duration|{param2:I}s",
+            "Microphone Summons Interval|{param3:F1}s",
+            "Microphone DMG|{param4:F2P} Max HP",
+            "Microphone Healing|{param5:I} + {param6:F2P} Max HP",
+            "Healing Interval|{param7:F1}s",
+            "Hydro & Cryo RES Decrease|{param8:F1P}",
+            "RES Decrease Duration|{param9:F1}s",
+            "Skill CD|{param10:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.037628,
+            16,
+            3,
+            0.037628,
+            325.80896,
+            0.0322,
+            1.5,
+            0.169,
+            6,
+            16,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "3": {
+          "level": 4,
+          "icon": "Skill_S_Vodyanitsa_01",
+          "desc": [
+            "Skill DMG|{param1:F2P} Max HP",
+            "Duration|{param2:I}s",
+            "Microphone Summons Interval|{param3:F1}s",
+            "Microphone DMG|{param4:F2P} Max HP",
+            "Microphone Healing|{param5:I} + {param6:F2P} Max HP",
+            "Healing Interval|{param7:F1}s",
+            "Hydro & Cryo RES Decrease|{param8:F1P}",
+            "RES Decrease Duration|{param9:F1}s",
+            "Skill CD|{param10:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.0409,
+            16,
+            3,
+            0.0409,
+            357.27,
+            0.035,
+            1.5,
+            0.182,
+            6,
+            16,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "4": {
+          "level": 5,
+          "icon": "Skill_S_Vodyanitsa_01",
+          "desc": [
+            "Skill DMG|{param1:F2P} Max HP",
+            "Duration|{param2:I}s",
+            "Microphone Summons Interval|{param3:F1}s",
+            "Microphone DMG|{param4:F2P} Max HP",
+            "Microphone Healing|{param5:I} + {param6:F2P} Max HP",
+            "Healing Interval|{param7:F1}s",
+            "Hydro & Cryo RES Decrease|{param8:F1P}",
+            "RES Decrease Duration|{param9:F1}s",
+            "Skill CD|{param10:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.043354,
+            16,
+            3,
+            0.043354,
+            390.97824,
+            0.0371,
+            1.5,
+            0.195,
+            6,
+            16,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "5": {
+          "level": 6,
+          "icon": "Skill_S_Vodyanitsa_01",
+          "desc": [
+            "Skill DMG|{param1:F2P} Max HP",
+            "Duration|{param2:I}s",
+            "Microphone Summons Interval|{param3:F1}s",
+            "Microphone DMG|{param4:F2P} Max HP",
+            "Microphone Healing|{param5:I} + {param6:F2P} Max HP",
+            "Healing Interval|{param7:F1}s",
+            "Hydro & Cryo RES Decrease|{param8:F1P}",
+            "RES Decrease Duration|{param9:F1}s",
+            "Skill CD|{param10:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.045808,
+            16,
+            3,
+            0.045808,
+            426.93372,
+            0.0392,
+            1.5,
+            0.208,
+            6,
+            16,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "6": {
+          "level": 7,
+          "icon": "Skill_S_Vodyanitsa_01",
+          "desc": [
+            "Skill DMG|{param1:F2P} Max HP",
+            "Duration|{param2:I}s",
+            "Microphone Summons Interval|{param3:F1}s",
+            "Microphone DMG|{param4:F2P} Max HP",
+            "Microphone Healing|{param5:I} + {param6:F2P} Max HP",
+            "Healing Interval|{param7:F1}s",
+            "Hydro & Cryo RES Decrease|{param8:F1P}",
+            "RES Decrease Duration|{param9:F1}s",
+            "Skill CD|{param10:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.04908,
+            16,
+            3,
+            0.04908,
+            465.1364,
+            0.042,
+            1.5,
+            0.221,
+            6,
+            16,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "7": {
+          "level": 8,
+          "icon": "Skill_S_Vodyanitsa_01",
+          "desc": [
+            "Skill DMG|{param1:F2P} Max HP",
+            "Duration|{param2:I}s",
+            "Microphone Summons Interval|{param3:F1}s",
+            "Microphone DMG|{param4:F2P} Max HP",
+            "Microphone Healing|{param5:I} + {param6:F2P} Max HP",
+            "Healing Interval|{param7:F1}s",
+            "Hydro & Cryo RES Decrease|{param8:F1P}",
+            "RES Decrease Duration|{param9:F1}s",
+            "Skill CD|{param10:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.052352,
+            16,
+            3,
+            0.052352,
+            505.5863,
+            0.0448,
+            1.5,
+            0.234,
+            6,
+            16,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "8": {
+          "level": 9,
+          "icon": "Skill_S_Vodyanitsa_01",
+          "desc": [
+            "Skill DMG|{param1:F2P} Max HP",
+            "Duration|{param2:I}s",
+            "Microphone Summons Interval|{param3:F1}s",
+            "Microphone DMG|{param4:F2P} Max HP",
+            "Microphone Healing|{param5:I} + {param6:F2P} Max HP",
+            "Healing Interval|{param7:F1}s",
+            "Hydro & Cryo RES Decrease|{param8:F1P}",
+            "RES Decrease Duration|{param9:F1}s",
+            "Skill CD|{param10:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.055624,
+            16,
+            3,
+            0.055624,
+            548.28345,
+            0.0476,
+            1.5,
+            0.247,
+            6,
+            16,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "9": {
+          "level": 10,
+          "icon": "Skill_S_Vodyanitsa_01",
+          "desc": [
+            "Skill DMG|{param1:F2P} Max HP",
+            "Duration|{param2:I}s",
+            "Microphone Summons Interval|{param3:F1}s",
+            "Microphone DMG|{param4:F2P} Max HP",
+            "Microphone Healing|{param5:I} + {param6:F2P} Max HP",
+            "Healing Interval|{param7:F1}s",
+            "Hydro & Cryo RES Decrease|{param8:F1P}",
+            "RES Decrease Duration|{param9:F1}s",
+            "Skill CD|{param10:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.058896,
+            16,
+            3,
+            0.058896,
+            593.2278,
+            0.0504,
+            1.5,
+            0.26,
+            6,
+            16,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "10": {
+          "level": 11,
+          "icon": "Skill_S_Vodyanitsa_01",
+          "desc": [
+            "Skill DMG|{param1:F2P} Max HP",
+            "Duration|{param2:I}s",
+            "Microphone Summons Interval|{param3:F1}s",
+            "Microphone DMG|{param4:F2P} Max HP",
+            "Microphone Healing|{param5:I} + {param6:F2P} Max HP",
+            "Healing Interval|{param7:F1}s",
+            "Hydro & Cryo RES Decrease|{param8:F1P}",
+            "RES Decrease Duration|{param9:F1}s",
+            "Skill CD|{param10:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.062168,
+            16,
+            3,
+            0.062168,
+            640.4193,
+            0.0532,
+            1.5,
+            0.2756,
+            6,
+            16,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "11": {
+          "level": 12,
+          "icon": "Skill_S_Vodyanitsa_01",
+          "desc": [
+            "Skill DMG|{param1:F2P} Max HP",
+            "Duration|{param2:I}s",
+            "Microphone Summons Interval|{param3:F1}s",
+            "Microphone DMG|{param4:F2P} Max HP",
+            "Microphone Healing|{param5:I} + {param6:F2P} Max HP",
+            "Healing Interval|{param7:F1}s",
+            "Hydro & Cryo RES Decrease|{param8:F1P}",
+            "RES Decrease Duration|{param9:F1}s",
+            "Skill CD|{param10:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.06544,
+            16,
+            3,
+            0.06544,
+            689.8581,
+            0.056,
+            1.5,
+            0.2912,
+            6,
+            16,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "12": {
+          "level": 13,
+          "icon": "Skill_S_Vodyanitsa_01",
+          "desc": [
+            "Skill DMG|{param1:F2P} Max HP",
+            "Duration|{param2:I}s",
+            "Microphone Summons Interval|{param3:F1}s",
+            "Microphone DMG|{param4:F2P} Max HP",
+            "Microphone Healing|{param5:I} + {param6:F2P} Max HP",
+            "Healing Interval|{param7:F1}s",
+            "Hydro & Cryo RES Decrease|{param8:F1P}",
+            "RES Decrease Duration|{param9:F1}s",
+            "Skill CD|{param10:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.06953,
+            16,
+            3,
+            0.06953,
+            741.54407,
+            0.0595,
+            1.5,
+            0.3068,
+            6,
+            16,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "13": {
+          "level": 14,
+          "icon": "Skill_S_Vodyanitsa_01",
+          "desc": [
+            "Skill DMG|{param1:F2P} Max HP",
+            "Duration|{param2:I}s",
+            "Microphone Summons Interval|{param3:F1}s",
+            "Microphone DMG|{param4:F2P} Max HP",
+            "Microphone Healing|{param5:I} + {param6:F2P} Max HP",
+            "Healing Interval|{param7:F1}s",
+            "Hydro & Cryo RES Decrease|{param8:F1P}",
+            "RES Decrease Duration|{param9:F1}s",
+            "Skill CD|{param10:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.07362,
+            16,
+            3,
+            0.07362,
+            795.4773,
+            0.063,
+            1.5,
+            0.3224,
+            6,
+            16,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "14": {
+          "level": 15,
+          "icon": "Skill_S_Vodyanitsa_01",
+          "desc": [
+            "Skill DMG|{param1:F2P} Max HP",
+            "Duration|{param2:I}s",
+            "Microphone Summons Interval|{param3:F1}s",
+            "Microphone DMG|{param4:F2P} Max HP",
+            "Microphone Healing|{param5:I} + {param6:F2P} Max HP",
+            "Healing Interval|{param7:F1}s",
+            "Hydro & Cryo RES Decrease|{param8:F1P}",
+            "RES Decrease Duration|{param9:F1}s",
+            "Skill CD|{param10:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.07771,
+            16,
+            3,
+            0.07771,
+            851.6577,
+            0.0665,
+            1.5,
+            0.338,
+            6,
+            16,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": 11405,
+      "name": "Aria of the Water Imp",
+      "desc": "Vodyanitsa sings to her heart's content, dealing to the opponent <color=#80C0FFFF>AoE Hydro DMG</color>.\\nThe DMG dealt with this attack is enhanced if she is performing with a microphone.",
+      "promote": {
+        "0": {
+          "level": 1,
+          "icon": "Skill_E_Vodyanitsa_01",
+          "desc": [
+            "Skill DMG|{param1:F1P} Max HP",
+            "Microphone Resonance Bonus|{param2:F1P}",
+            "CD|{param3:F1}s",
+            "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.456768,
+            0.48,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "1": {
+          "level": 2,
+          "icon": "Skill_E_Vodyanitsa_01",
+          "desc": [
+            "Skill DMG|{param1:F1P} Max HP",
+            "Microphone Resonance Bonus|{param2:F1P}",
+            "CD|{param3:F1}s",
+            "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.491026,
+            0.516,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "2": {
+          "level": 3,
+          "icon": "Skill_E_Vodyanitsa_01",
+          "desc": [
+            "Skill DMG|{param1:F1P} Max HP",
+            "Microphone Resonance Bonus|{param2:F1P}",
+            "CD|{param3:F1}s",
+            "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.525283,
+            0.552,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "3": {
+          "level": 4,
+          "icon": "Skill_E_Vodyanitsa_01",
+          "desc": [
+            "Skill DMG|{param1:F1P} Max HP",
+            "Microphone Resonance Bonus|{param2:F1P}",
+            "CD|{param3:F1}s",
+            "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.57096,
+            0.6,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "4": {
+          "level": 5,
+          "icon": "Skill_E_Vodyanitsa_01",
+          "desc": [
+            "Skill DMG|{param1:F1P} Max HP",
+            "Microphone Resonance Bonus|{param2:F1P}",
+            "CD|{param3:F1}s",
+            "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.605218,
+            0.636,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "5": {
+          "level": 6,
+          "icon": "Skill_E_Vodyanitsa_01",
+          "desc": [
+            "Skill DMG|{param1:F1P} Max HP",
+            "Microphone Resonance Bonus|{param2:F1P}",
+            "CD|{param3:F1}s",
+            "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.639475,
+            0.672,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "6": {
+          "level": 7,
+          "icon": "Skill_E_Vodyanitsa_01",
+          "desc": [
+            "Skill DMG|{param1:F1P} Max HP",
+            "Microphone Resonance Bonus|{param2:F1P}",
+            "CD|{param3:F1}s",
+            "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.685152,
+            0.72,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "7": {
+          "level": 8,
+          "icon": "Skill_E_Vodyanitsa_01",
+          "desc": [
+            "Skill DMG|{param1:F1P} Max HP",
+            "Microphone Resonance Bonus|{param2:F1P}",
+            "CD|{param3:F1}s",
+            "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.730829,
+            0.768,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "8": {
+          "level": 9,
+          "icon": "Skill_E_Vodyanitsa_01",
+          "desc": [
+            "Skill DMG|{param1:F1P} Max HP",
+            "Microphone Resonance Bonus|{param2:F1P}",
+            "CD|{param3:F1}s",
+            "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.776506,
+            0.816,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "9": {
+          "level": 10,
+          "icon": "Skill_E_Vodyanitsa_01",
+          "desc": [
+            "Skill DMG|{param1:F1P} Max HP",
+            "Microphone Resonance Bonus|{param2:F1P}",
+            "CD|{param3:F1}s",
+            "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.822182,
+            0.864,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "10": {
+          "level": 11,
+          "icon": "Skill_E_Vodyanitsa_01",
+          "desc": [
+            "Skill DMG|{param1:F1P} Max HP",
+            "Microphone Resonance Bonus|{param2:F1P}",
+            "CD|{param3:F1}s",
+            "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.867859,
+            0.912,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "11": {
+          "level": 12,
+          "icon": "Skill_E_Vodyanitsa_01",
+          "desc": [
+            "Skill DMG|{param1:F1P} Max HP",
+            "Microphone Resonance Bonus|{param2:F1P}",
+            "CD|{param3:F1}s",
+            "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.913536,
+            0.96,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "12": {
+          "level": 13,
+          "icon": "Skill_E_Vodyanitsa_01",
+          "desc": [
+            "Skill DMG|{param1:F1P} Max HP",
+            "Microphone Resonance Bonus|{param2:F1P}",
+            "CD|{param3:F1}s",
+            "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.970632,
+            1.02,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "13": {
+          "level": 14,
+          "icon": "Skill_E_Vodyanitsa_01",
+          "desc": [
+            "Skill DMG|{param1:F1P} Max HP",
+            "Microphone Resonance Bonus|{param2:F1P}",
+            "CD|{param3:F1}s",
+            "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.027728,
+            1.08,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "14": {
+          "level": 15,
+          "icon": "Skill_E_Vodyanitsa_01",
+          "desc": [
+            "Skill DMG|{param1:F1P} Max HP",
+            "Microphone Resonance Bonus|{param2:F1P}",
+            "CD|{param3:F1}s",
+            "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.084824,
+            1.14,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    }
+  ],
+  "passives": [
+    {
+      "id": 1402101,
+      "name": "Ascension Talent 1",
+      "desc": "During the Elemental Skill, any Anemograna generated by the party is turned into a <color=#FFD780FF>Mutant Anemograna</color>, which reduces the <color=#80FFD7FF>Anemo RES</color> of nearby opponents by 30% for 6s when it is formed and when it explodes.",
+      "icon": "UI_Talent_S_Vodyanitsa_06",
+      "unlock": 1,
+      "param_list": [
+        0.3,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 1402201,
+      "name": "Ascension Talent 2",
+      "desc": "When entering the <color=#FFD780FF>Microphone Summons</color> state, Vodyanitsa gains 17 {LINK#N11400001}<color=#FFD780FF>Solo</color>{/LINK} stacks and 10 {LINK#N11400002}<color=#FFD780FF>Concerto</color>{/LINK} stacks.",
+      "icon": "UI_Talent_S_Vodyanitsa_05",
+      "unlock": 4,
+      "param_list": [
+        17,
+        10,
+        40000,
+        260,
+        140,
+        6500,
+        3500,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 1402301,
+      "name": "Passive Talent",
+      "desc": "Holding the Elemental Skill when not in combat consumes Stamina, allowing Vodyanitsa to move quickly while in mermaid form. During this time, she can move along the water surface for some time. Vodyanitsa will exit this state when Stamina is used up or when the Elemental Skill is used again.\\nAdditionally, Vodyanitsa can consume greater Stamina to move even faster while swimming...",
+      "icon": "UI_Talent_S_Vodyanitsa_07",
+      "unlock": 0,
+      "param_list": [
+        24,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 1402501,
+      "name": "Life Talent",
+      "desc": "When Vodyanitsa plays a musical instrument, it produces not its usual sound, but Vodyanitsa's a cappella singing instead.",
+      "icon": "UI_Talent_S_Vodyanitsa_08",
+      "unlock": 0,
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "constellations": [
+    {
+      "id": 1401,
+      "name": "C1",
+      "desc": "Each time Vodyanitsa performs healing, the ATK of nearby party members is increased by 0.7% of her Max HP for 3s.",
+      "icon": "UI_Talent_S_Vodyanitsa_01",
+      "param_list": [
+        0.007,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 1402,
+      "name": "C2",
+      "desc": "Every microphone attack, Vodyanitsa also gains the <color=#FFD780FF>Ensemble</color> effect, which increases the CRIT DMG of <color=#80C0FFFF>Hydro DMG</color> and <color=#99FFFFFF>Cryo DMG</color> dealt by the active character by 50% for 5s.\\nIf there are any, or have been any, <color=#FFD780FF>Mutant Anemograna</color> on the field, <color=#FFD780FF>Ensemble</color> will become the <color=#FFD780FF>Variation</color> effect instead, increasing Stellar Swirl reaction DMG dealt by the currently active character by 60% for 5s.\\nAdditionally, the duration of the Elemental Skill's <color=#FFD780FF>Microphone Summons</color> is extended by 9s.",
+      "icon": "UI_Talent_S_Vodyanitsa_02",
+      "param_list": [
+        0.5,
+        0.6,
+        5,
+        9,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 1403,
+      "name": "C3",
+      "desc": "Increases the Level of the <color=#FFD780FF>{LINK#S11402}Elemental Skill{/LINK}</color> by 3.\\nMaximum upgrade level is 15.",
+      "icon": "UI_Talent_U_Vodyanitsa_01",
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 1404,
+      "name": "C4",
+      "desc": "Each time Vodyanitsa performs healing, different effects are granted depending on the healed character's HP:\\n· When the healed character's HP is below 40%, the current instance of healing is boosted by 50%;\\n· When the healed character's HP is higher than 40%, Vodyanitsa's HP is increased by 20% for 6s. Max 3 stacks, and each stack's duration is independent of the others'.",
+      "icon": "UI_Talent_S_Vodyanitsa_03",
+      "param_list": [
+        0.4,
+        0.5,
+        0.2,
+        6,
+        3,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 1405,
+      "name": "C5",
+      "desc": "Increases the Level of the <color=#FFD780FF>{LINK#S11405}Elemental Burst{/LINK}</color> by 3.\\nMaximum upgrade level is 15.",
+      "icon": "UI_Talent_U_Vodyanitsa_02",
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 1406,
+      "name": "C6",
+      "desc": "At C2, the <color=#FFD780FF>Ensemble</color> and <color=#FFD780FF>Variation</color> effects will apply to all nearby party members.\\nAdditionally, when the Elemental Skill's <color=#FFD780FF>Microphone Summons</color> is active, Stellar Swirl DMG dealt by nearby party members is elevated by 25% while <color=#80C0FFFF>Hydro DMG</color> and <color=#99FFFFFF>Cryo DMG</color> are increased by 50%.",
+      "icon": "UI_Talent_S_Vodyanitsa_04",
+      "param_list": [
+        0.25,
+        0.5,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "materials": {
+    "ascensions": [
+      {
+        "mats": [
+          {
+            "name": "Varunada Lazurite Sliver",
+            "id": 104121,
+            "count": 1,
+            "rank": 2
+          },
+          {
+            "name": "Frostfairy Flower",
+            "id": 101275,
+            "count": 3,
+            "rank": 0
+          },
+          {
+            "name": "Chimeric Core",
+            "id": 112149,
+            "count": 3,
+            "rank": 1
+          }
+        ],
+        "cost": 20000
+      },
+      {
+        "mats": [
+          {
+            "name": "Varunada Lazurite Fragment",
+            "id": 104122,
+            "count": 3,
+            "rank": 3
+          },
+          {
+            "name": "Unscorched Blossom Branch",
+            "id": 113090,
+            "count": 2,
+            "rank": 4
+          },
+          {
+            "name": "Frostfairy Flower",
+            "id": 101275,
+            "count": 10,
+            "rank": 0
+          },
+          {
+            "name": "Chimeric Core",
+            "id": 112149,
+            "count": 15,
+            "rank": 1
+          }
+        ],
+        "cost": 40000
+      },
+      {
+        "mats": [
+          {
+            "name": "Varunada Lazurite Fragment",
+            "id": 104122,
+            "count": 6,
+            "rank": 3
+          },
+          {
+            "name": "Unscorched Blossom Branch",
+            "id": 113090,
+            "count": 4,
+            "rank": 4
+          },
+          {
+            "name": "Frostfairy Flower",
+            "id": 101275,
+            "count": 20,
+            "rank": 0
+          },
+          {
+            "name": "Symbiotic Chimeric Nucleus",
+            "id": 112150,
+            "count": 12,
+            "rank": 2
+          }
+        ],
+        "cost": 60000
+      },
+      {
+        "mats": [
+          {
+            "name": "Varunada Lazurite Chunk",
+            "id": 104123,
+            "count": 3,
+            "rank": 4
+          },
+          {
+            "name": "Unscorched Blossom Branch",
+            "id": 113090,
+            "count": 8,
+            "rank": 4
+          },
+          {
+            "name": "Frostfairy Flower",
+            "id": 101275,
+            "count": 30,
+            "rank": 0
+          },
+          {
+            "name": "Symbiotic Chimeric Nucleus",
+            "id": 112150,
+            "count": 18,
+            "rank": 2
+          }
+        ],
+        "cost": 80000
+      },
+      {
+        "mats": [
+          {
+            "name": "Varunada Lazurite Chunk",
+            "id": 104123,
+            "count": 6,
+            "rank": 4
+          },
+          {
+            "name": "Unscorched Blossom Branch",
+            "id": 113090,
+            "count": 12,
+            "rank": 4
+          },
+          {
+            "name": "Frostfairy Flower",
+            "id": 101275,
+            "count": 45,
+            "rank": 0
+          },
+          {
+            "name": "Prime Chimeric Nexus",
+            "id": 112151,
+            "count": 12,
+            "rank": 3
+          }
+        ],
+        "cost": 100000
+      },
+      {
+        "mats": [
+          {
+            "name": "Varunada Lazurite Gemstone",
+            "id": 104124,
+            "count": 6,
+            "rank": 5
+          },
+          {
+            "name": "Unscorched Blossom Branch",
+            "id": 113090,
+            "count": 20,
+            "rank": 4
+          },
+          {
+            "name": "Frostfairy Flower",
+            "id": 101275,
+            "count": 60,
+            "rank": 0
+          },
+          {
+            "name": "Prime Chimeric Nexus",
+            "id": 112151,
+            "count": 24,
+            "rank": 3
+          }
+        ],
+        "cost": 120000
+      }
+    ],
+    "talents": [
+      [
+        {
+          "mats": [
+            {
+              "name": "Teachings of Fortitude",
+              "id": 104368,
+              "count": 3,
+              "rank": 2
+            },
+            {
+              "name": "Chimeric Core",
+              "id": 112149,
+              "count": 6,
+              "rank": 1
+            }
+          ],
+          "cost": 12500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Fortitude",
+              "id": 104369,
+              "count": 2,
+              "rank": 3
+            },
+            {
+              "name": "Symbiotic Chimeric Nucleus",
+              "id": 112150,
+              "count": 3,
+              "rank": 2
+            }
+          ],
+          "cost": 17500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Fortitude",
+              "id": 104369,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Symbiotic Chimeric Nucleus",
+              "id": 112150,
+              "count": 4,
+              "rank": 2
+            }
+          ],
+          "cost": 25000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Fortitude",
+              "id": 104369,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Symbiotic Chimeric Nucleus",
+              "id": 112150,
+              "count": 6,
+              "rank": 2
+            }
+          ],
+          "cost": 30000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Fortitude",
+              "id": 104369,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Symbiotic Chimeric Nucleus",
+              "id": 112150,
+              "count": 9,
+              "rank": 2
+            }
+          ],
+          "cost": 37500
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Fortitude",
+              "id": 104370,
+              "count": 4,
+              "rank": 4
+            },
+            {
+              "name": "Prime Chimeric Nexus",
+              "id": 112151,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Madman's Restraint",
+              "id": 113082,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 120000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Fortitude",
+              "id": 104370,
+              "count": 6,
+              "rank": 4
+            },
+            {
+              "name": "Prime Chimeric Nexus",
+              "id": 112151,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Madman's Restraint",
+              "id": 113082,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 260000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Fortitude",
+              "id": 104370,
+              "count": 12,
+              "rank": 4
+            },
+            {
+              "name": "Prime Chimeric Nexus",
+              "id": 112151,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Madman's Restraint",
+              "id": 113082,
+              "count": 2,
+              "rank": 5
+            }
+          ],
+          "cost": 450000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Fortitude",
+              "id": 104370,
+              "count": 16,
+              "rank": 4
+            },
+            {
+              "name": "Prime Chimeric Nexus",
+              "id": 112151,
+              "count": 12,
+              "rank": 3
+            },
+            {
+              "name": "Madman's Restraint",
+              "id": 113082,
+              "count": 2,
+              "rank": 5
+            },
+            {
+              "name": "Crown of Insight",
+              "id": 104319,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 700000
+        }
+      ],
+      [
+        {
+          "mats": [
+            {
+              "name": "Teachings of Fortitude",
+              "id": 104368,
+              "count": 3,
+              "rank": 2
+            },
+            {
+              "name": "Chimeric Core",
+              "id": 112149,
+              "count": 6,
+              "rank": 1
+            }
+          ],
+          "cost": 12500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Fortitude",
+              "id": 104369,
+              "count": 2,
+              "rank": 3
+            },
+            {
+              "name": "Symbiotic Chimeric Nucleus",
+              "id": 112150,
+              "count": 3,
+              "rank": 2
+            }
+          ],
+          "cost": 17500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Fortitude",
+              "id": 104369,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Symbiotic Chimeric Nucleus",
+              "id": 112150,
+              "count": 4,
+              "rank": 2
+            }
+          ],
+          "cost": 25000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Fortitude",
+              "id": 104369,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Symbiotic Chimeric Nucleus",
+              "id": 112150,
+              "count": 6,
+              "rank": 2
+            }
+          ],
+          "cost": 30000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Fortitude",
+              "id": 104369,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Symbiotic Chimeric Nucleus",
+              "id": 112150,
+              "count": 9,
+              "rank": 2
+            }
+          ],
+          "cost": 37500
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Fortitude",
+              "id": 104370,
+              "count": 4,
+              "rank": 4
+            },
+            {
+              "name": "Prime Chimeric Nexus",
+              "id": 112151,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Madman's Restraint",
+              "id": 113082,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 120000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Fortitude",
+              "id": 104370,
+              "count": 6,
+              "rank": 4
+            },
+            {
+              "name": "Prime Chimeric Nexus",
+              "id": 112151,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Madman's Restraint",
+              "id": 113082,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 260000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Fortitude",
+              "id": 104370,
+              "count": 12,
+              "rank": 4
+            },
+            {
+              "name": "Prime Chimeric Nexus",
+              "id": 112151,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Madman's Restraint",
+              "id": 113082,
+              "count": 2,
+              "rank": 5
+            }
+          ],
+          "cost": 450000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Fortitude",
+              "id": 104370,
+              "count": 16,
+              "rank": 4
+            },
+            {
+              "name": "Prime Chimeric Nexus",
+              "id": 112151,
+              "count": 12,
+              "rank": 3
+            },
+            {
+              "name": "Madman's Restraint",
+              "id": 113082,
+              "count": 2,
+              "rank": 5
+            },
+            {
+              "name": "Crown of Insight",
+              "id": 104319,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 700000
+        }
+      ],
+      [
+        {
+          "mats": [
+            {
+              "name": "Teachings of Fortitude",
+              "id": 104368,
+              "count": 3,
+              "rank": 2
+            },
+            {
+              "name": "Chimeric Core",
+              "id": 112149,
+              "count": 6,
+              "rank": 1
+            }
+          ],
+          "cost": 12500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Fortitude",
+              "id": 104369,
+              "count": 2,
+              "rank": 3
+            },
+            {
+              "name": "Symbiotic Chimeric Nucleus",
+              "id": 112150,
+              "count": 3,
+              "rank": 2
+            }
+          ],
+          "cost": 17500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Fortitude",
+              "id": 104369,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Symbiotic Chimeric Nucleus",
+              "id": 112150,
+              "count": 4,
+              "rank": 2
+            }
+          ],
+          "cost": 25000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Fortitude",
+              "id": 104369,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Symbiotic Chimeric Nucleus",
+              "id": 112150,
+              "count": 6,
+              "rank": 2
+            }
+          ],
+          "cost": 30000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Fortitude",
+              "id": 104369,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Symbiotic Chimeric Nucleus",
+              "id": 112150,
+              "count": 9,
+              "rank": 2
+            }
+          ],
+          "cost": 37500
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Fortitude",
+              "id": 104370,
+              "count": 4,
+              "rank": 4
+            },
+            {
+              "name": "Prime Chimeric Nexus",
+              "id": 112151,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Madman's Restraint",
+              "id": 113082,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 120000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Fortitude",
+              "id": 104370,
+              "count": 6,
+              "rank": 4
+            },
+            {
+              "name": "Prime Chimeric Nexus",
+              "id": 112151,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Madman's Restraint",
+              "id": 113082,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 260000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Fortitude",
+              "id": 104370,
+              "count": 12,
+              "rank": 4
+            },
+            {
+              "name": "Prime Chimeric Nexus",
+              "id": 112151,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Madman's Restraint",
+              "id": 113082,
+              "count": 2,
+              "rank": 5
+            }
+          ],
+          "cost": 450000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Fortitude",
+              "id": 104370,
+              "count": 16,
+              "rank": 4
+            },
+            {
+              "name": "Prime Chimeric Nexus",
+              "id": 112151,
+              "count": 12,
+              "rank": 3
+            },
+            {
+              "name": "Madman's Restraint",
+              "id": 113082,
+              "count": 2,
+              "rank": 5
+            },
+            {
+              "name": "Crown of Insight",
+              "id": 104319,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 700000
+        }
+      ]
+    ]
+  },
+  "attack": [],
+  "energy": []
+}

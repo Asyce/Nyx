@@ -1444,8 +1444,8 @@
   },
   {
     "id": "199",
-    "contentStatus": "live",
-    "name": "Prime Ice Count",
+    "contentStatus": "beta_changed",
+    "name": "Prime Ice Resource",
     "rarity": 3,
     "type": "ITEM_VIRTUAL",
     "description": "Stored within the internal reservoir of the Eye of Graeae, it can be utilized to build the various mechanisms and constructs detailed in the blueprints.",
@@ -1454,7 +1454,21 @@
     },
     "liveComparison": {
       "liveHash": "4d98b419718eeb8b9f4a99d6c214c862829f28b25850f36aae133f699b19790e",
-      "currentHash": "4d98b419718eeb8b9f4a99d6c214c862829f28b25850f36aae133f699b19790e"
+      "currentHash": "163f5d1c5206ec742e2a0b20f9bf0cac2b7a586cfa82cae581d35387b603700a"
+    }
+  },
+  {
+    "id": "200",
+    "contentStatus": "beta",
+    "name": "Victory Emblem",
+    "rarity": 3,
+    "type": "ITEM_VIRTUAL",
+    "description": "A ticket representing confidence. Cast it for the team you think will win the battle!",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_ItemIcon_200.webp"
+    },
+    "liveComparison": {
+      "currentHash": "f75bffea19955814a5ddc0e13bc10e63d92525429916f0142cef518af24de266"
     }
   },
   {
@@ -1828,6 +1842,32 @@
     }
   },
   {
+    "id": "244",
+    "contentStatus": "beta",
+    "name": "244",
+    "rarity": 5,
+    "type": "ITEM_VIRTUAL",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_ItemIcon_244.webp"
+    },
+    "liveComparison": {
+      "currentHash": "7982b8d7f4a11cbdc08a482065bb71d8cc9c9d8b1d2308469ac5dab535588d48"
+    }
+  },
+  {
+    "id": "245",
+    "contentStatus": "beta",
+    "name": "245",
+    "rarity": 5,
+    "type": "ITEM_VIRTUAL",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_ItemIcon_244.webp"
+    },
+    "liveComparison": {
+      "currentHash": "2ed147ef242f5e28f43854a96994da1f1d16a23cf37709470453208e12d94ed0"
+    }
+  },
+  {
     "id": "301",
     "contentStatus": "live",
     "name": "Pyro Sigil",
@@ -2113,6 +2153,31 @@
     }
   },
   {
+    "id": "401",
+    "contentStatus": "beta",
+    "name": "Prediction Score",
+    "rarity": 3,
+    "type": "ITEM_VIRTUAL",
+    "assets": {},
+    "liveComparison": {
+      "currentHash": "72d3c03afb9c745a7f0df4c3ad25cb41c3a13f3e26505bf9c5c7000bdcf71abe"
+    }
+  },
+  {
+    "id": "402",
+    "contentStatus": "beta",
+    "name": "Festive Cheer",
+    "rarity": 3,
+    "type": "ITEM_VIRTUAL",
+    "description": "???",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_ItemIcon_402.webp"
+    },
+    "liveComparison": {
+      "currentHash": "697f12a4a51fc3038155357682591422b76c792b80f6fcff08dc66a68ddb6197"
+    }
+  },
+  {
     "id": "403",
     "contentStatus": "live",
     "name": "Expedition Insights",
@@ -2125,6 +2190,20 @@
     "liveComparison": {
       "liveHash": "e0162d0a3b4ce2648a07120d9c61fea759729aa24853304e64c909314e66bcd2",
       "currentHash": "e0162d0a3b4ce2648a07120d9c61fea759729aa24853304e64c909314e66bcd2"
+    }
+  },
+  {
+    "id": "404",
+    "contentStatus": "beta",
+    "name": "Festive Fever",
+    "rarity": 3,
+    "type": "ITEM_VIRTUAL",
+    "description": "Fanfare increases as the gala's popularity grows. Once it reaches a certain amount, it can be exchanged for corresponding material rewards.",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_ItemIcon_404.webp"
+    },
+    "liveComparison": {
+      "currentHash": "4e3b2ac02401b3dd7f481cfd071bc4a039d83a6b7e0aefe6d72f07e2957664da"
     }
   },
   {
@@ -6060,6 +6139,32 @@
     }
   },
   {
+    "id": "4140",
+    "contentStatus": "beta",
+    "name": "Vodyanitsa",
+    "rarity": 5,
+    "type": "Unlocks the associated character",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_AvatarIcon_Vodyanitsa_Card.webp"
+    },
+    "liveComparison": {
+      "currentHash": "f7781cfb6e7eb25d7ee8fd7b39725271f4dbf1e6a6aa7ead52aef3be99ff2813"
+    }
+  },
+  {
+    "id": "4143",
+    "contentStatus": "beta",
+    "name": "Vesna",
+    "rarity": 5,
+    "type": "Unlocks the associated character",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_AvatarIcon_Vesna_Card.webp"
+    },
+    "liveComparison": {
+      "currentHash": "be50304b5b19d9c3de6d0025bed6327a9cabb9d628ce88ccca346dddab8ffb5c"
+    }
+  },
+  {
     "id": "4148",
     "contentStatus": "live",
     "name": "Alyosha",
@@ -6567,6 +6672,34 @@
     "liveComparison": {
       "liveHash": "ce5701d3418c0e398676a58800d08d3dcf5869f106ba362a2f0569b36d2daa8d",
       "currentHash": "ce5701d3418c0e398676a58800d08d3dcf5869f106ba362a2f0569b36d2daa8d"
+    }
+  },
+  {
+    "id": "5140",
+    "contentStatus": "beta",
+    "name": "Vodyanitsa's Stella Fortuna",
+    "rarity": 5,
+    "type": "Activates Constellation",
+    "description": "Vodyanitsa's Constellation Activation Material",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_ItemIcon_1102.webp"
+    },
+    "liveComparison": {
+      "currentHash": "5de40e474e91824e064f9bb7a8d10fe99e0a091004fcaed5cf0cb53413a718af"
+    }
+  },
+  {
+    "id": "5143",
+    "contentStatus": "beta",
+    "name": "Vesna's Stella Fortuna",
+    "rarity": 5,
+    "type": "Activates Constellation",
+    "description": "Vesna's Constellation Activation Material",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_ItemIcon_1102.webp"
+    },
+    "liveComparison": {
+      "currentHash": "d6fae984479be017761a666a1bd001b5df280636c65488c3347b3585cb9aa494"
     }
   },
   {
@@ -8367,6 +8500,34 @@
     "liveComparison": {
       "liveHash": "691d040fda06638462f3f63cd9ced4ebacc0eb24eef11e93625017756b1aeeeb",
       "currentHash": "691d040fda06638462f3f63cd9ced4ebacc0eb24eef11e93625017756b1aeeeb"
+    }
+  },
+  {
+    "id": "6140",
+    "contentStatus": "beta",
+    "name": "Vodyanitsa's Stella Fortuna",
+    "rarity": 5,
+    "type": "Activates Constellation",
+    "description": "Vodyanitsa's Constellation Activation Material",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_ItemIcon_1102.webp"
+    },
+    "liveComparison": {
+      "currentHash": "7472bc883db88fed662eb8886e4fbf380bb54a30a61cb6020d5f71af6cb279f9"
+    }
+  },
+  {
+    "id": "6143",
+    "contentStatus": "beta",
+    "name": "Vesna's Stella Fortuna",
+    "rarity": 5,
+    "type": "Activates Constellation",
+    "description": "Vesna's Constellation Activation Material",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_ItemIcon_1102.webp"
+    },
+    "liveComparison": {
+      "currentHash": "5dca1656749c41925cdde69493ec665c06a4838ed95edf928af0c0cf858448f8"
     }
   },
   {
@@ -53675,6 +53836,48 @@
     }
   },
   {
+    "id": "109666",
+    "contentStatus": "beta",
+    "name": "Recipe: Royal Grilled Fish",
+    "rarity": 4,
+    "type": "Recipe",
+    "description": "A detailed step-by-step recipe for making Royal Grilled Fish.",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_ItemIcon_109000.webp"
+    },
+    "liveComparison": {
+      "currentHash": "fe67453272eb4885eb14a5d6f265224cea58a2e105575547d69ee7073d61cfd8"
+    }
+  },
+  {
+    "id": "109667",
+    "contentStatus": "beta",
+    "name": "???",
+    "rarity": 4,
+    "type": "Recipe",
+    "description": "???",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_ItemIcon_109000.webp"
+    },
+    "liveComparison": {
+      "currentHash": "bc8c10048b32c38e4722be099e8787121053a93242775d9ad92f437307b80858"
+    }
+  },
+  {
+    "id": "109668",
+    "contentStatus": "beta",
+    "name": "Recipe: Mors",
+    "rarity": 3,
+    "type": "Recipe",
+    "description": "A detailed step-by-step recipe for making Mors.",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_ItemIcon_109000.webp"
+    },
+    "liveComparison": {
+      "currentHash": "b1cd2088f4b339a5f2c02c7657065e7954f879d97308024dd644f4c0b2ca01cf"
+    }
+  },
+  {
     "id": "110000",
     "contentStatus": "live",
     "name": "Crafted Items",
@@ -58139,6 +58342,20 @@
     "liveComparison": {
       "liveHash": "8d0be2d27f2700dfda71c368c59c3470bc9d4066f6b90f9e72fbd04849c164eb",
       "currentHash": "8d0be2d27f2700dfda71c368c59c3470bc9d4066f6b90f9e72fbd04849c164eb"
+    }
+  },
+  {
+    "id": "113092",
+    "contentStatus": "beta",
+    "name": "Vagabond's Cracked Armor",
+    "rarity": 4,
+    "type": "Character Level-Up Material",
+    "description": "An ancient piece of Snegovik armor with cracks all over it.\\nArmor forged in the old days was never built to last this long. The cracks that have appeared over time have merely been masked by the Snegovik's steadily advancing mastery of Prime Ice technology. Like the cracks across this armor's surface, the oath to safeguard and protect reveals its fragility the instant its keeper is lost.",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_ItemIcon_113092.webp"
+    },
+    "liveComparison": {
+      "currentHash": "dc57d769479f062161423c92719e04e0a9ddb151d9348506436d04e036c7bdb5"
     }
   },
   {
@@ -72899,16 +73116,17 @@
   },
   {
     "id": "120809",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Chioriya Boutique - Darkness Disguised Behind a Facade of Fashion",
     "rarity": 0,
     "type": "Quest Item",
+    "description": "？？？",
     "assets": {
       "icon": "GameData/gi/assets/items/UI_ItemIcon_100101.webp"
     },
     "liveComparison": {
       "liveHash": "3e8a80e3b141a60c249d36b1344258d5bda45852f3b46a71208275c600209834",
-      "currentHash": "3e8a80e3b141a60c249d36b1344258d5bda45852f3b46a71208275c600209834"
+      "currentHash": "3aa144ab86e26e77c65566750964814ce20216dfa60c3c5e0698c096b407a439"
     }
   },
   {
@@ -73774,30 +73992,32 @@
   },
   {
     "id": "120868",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Shikanoin Heizou's Message",
     "rarity": 0,
     "type": "Quest Item",
+    "description": "???",
     "assets": {
       "icon": "GameData/gi/assets/items/UI_ItemIcon_100214.webp"
     },
     "liveComparison": {
       "liveHash": "9367025b11a885a75668f5d7454148edd8460e4c42a293da3381affe28fc30e2",
-      "currentHash": "9367025b11a885a75668f5d7454148edd8460e4c42a293da3381affe28fc30e2"
+      "currentHash": "e17f9f5441640423e365c547c3ccfa7f553ee02a82e5d5a46cd8efd654b51c31"
     }
   },
   {
     "id": "120869",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Puppy Union Admission Details",
     "rarity": 0,
     "type": "Quest Item",
+    "description": "???",
     "assets": {
       "icon": "GameData/gi/assets/items/UI_ItemIcon_100172.webp"
     },
     "liveComparison": {
       "liveHash": "446b32af584842283e7362486b746ebcf8ae9dd70b5f0e12093f0a02d1132da3",
-      "currentHash": "446b32af584842283e7362486b746ebcf8ae9dd70b5f0e12093f0a02d1132da3"
+      "currentHash": "458a952f1a342d8ddafaec2df58d84fbd2f59e255b647a279ba028ac6aea0d1e"
     }
   },
   {
@@ -73907,44 +74127,47 @@
   },
   {
     "id": "120877",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Official Script",
     "rarity": 0,
     "type": "Quest Item",
+    "description": "？？？",
     "assets": {
       "icon": "GameData/gi/assets/items/UI_ItemIcon_100101.webp"
     },
     "liveComparison": {
       "liveHash": "1c30b3d6242e4cf6c36349dfa17757392ec2fc4e008fe7c45a00bf6ce0340a83",
-      "currentHash": "1c30b3d6242e4cf6c36349dfa17757392ec2fc4e008fe7c45a00bf6ce0340a83"
+      "currentHash": "8566559f442c612a1fad5d2d97d735f58bf6cca8e0800ac91b9ecd137e0211b5"
     }
   },
   {
     "id": "120878",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "\"Original Script\"",
     "rarity": 0,
     "type": "Quest Item",
+    "description": "？？？",
     "assets": {
       "icon": "GameData/gi/assets/items/UI_ItemIcon_100101.webp"
     },
     "liveComparison": {
       "liveHash": "4f15e40c74d3a68dd19c6e4b8436449a86113eb1316fc19ed11e779e73c9cc26",
-      "currentHash": "4f15e40c74d3a68dd19c6e4b8436449a86113eb1316fc19ed11e779e73c9cc26"
+      "currentHash": "17b9c57f7e447e4b8e3610c12dc7c4ba0bd05118a8bbb3e14c307b2795a996de"
     }
   },
   {
     "id": "120879",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Manuscript",
     "rarity": 0,
     "type": "Quest Item",
+    "description": "？？？",
     "assets": {
       "icon": "GameData/gi/assets/items/UI_ItemIcon_100101.webp"
     },
     "liveComparison": {
       "liveHash": "7d84d340884a923e93182d711ad0087927ef56bcc5efa31455888c9bc0225a3e",
-      "currentHash": "7d84d340884a923e93182d711ad0087927ef56bcc5efa31455888c9bc0225a3e"
+      "currentHash": "fa7ae5025f1be95f25a29820885d0f024e9a1feaa3982847469dd380996f2a6e"
     }
   },
   {
@@ -75458,16 +75681,17 @@
   },
   {
     "id": "120985",
-    "contentStatus": "live",
-    "name": "（test）卡齐娜送你的小石头",
+    "contentStatus": "beta_changed",
+    "name": "???",
     "rarity": 0,
     "type": "Quest Item",
+    "description": "???",
     "assets": {
       "icon": "GameData/gi/assets/items/UI_ItemIcon_120985.webp"
     },
     "liveComparison": {
       "liveHash": "74bcc5b7d8d8a26c3d2f2550dbec0da20727b417a8096cc4710968a2440028c8",
-      "currentHash": "74bcc5b7d8d8a26c3d2f2550dbec0da20727b417a8096cc4710968a2440028c8"
+      "currentHash": "9813e810db3939aa6601fc9a5cff30ef6acb175310d277b70727c4d76b91e7c1"
     }
   },
   {
@@ -79821,30 +80045,32 @@
   },
   {
     "id": "121291",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Scribbled Notes",
     "rarity": 0,
     "type": "Quest Item",
+    "description": "???",
     "assets": {
       "icon": "GameData/gi/assets/items/UI_ItemIcon_100226.webp"
     },
     "liveComparison": {
       "liveHash": "6e045314cec00b608831ef2db0340067bf61d6dd3424775c3d4f58eb74b12156",
-      "currentHash": "6e045314cec00b608831ef2db0340067bf61d6dd3424775c3d4f58eb74b12156"
+      "currentHash": "33c462da770cf9775fd160d4f298d236910825a7f76e818bf8a8b98f845602dd"
     }
   },
   {
     "id": "121292",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Beautifully-Written Notes",
     "rarity": 0,
     "type": "Quest Item",
+    "description": "???",
     "assets": {
       "icon": "GameData/gi/assets/items/UI_ItemIcon_100226.webp"
     },
     "liveComparison": {
       "liveHash": "856f3f00e3dee8913a1f88d443718e3a0ec6dab045accd8f1ef6a749d538ac58",
-      "currentHash": "856f3f00e3dee8913a1f88d443718e3a0ec6dab045accd8f1ef6a749d538ac58"
+      "currentHash": "c323665cf10d9d760544ad2bd6a1d5d6c44674c5b4d39ee9a63fbce1fb3a2821"
     }
   },
   {
@@ -80664,30 +80890,32 @@
   },
   {
     "id": "121348",
-    "contentStatus": "live",
-    "name": "(test）灯塔信号说明",
+    "contentStatus": "beta_changed",
+    "name": "???",
     "rarity": 0,
     "type": "Quest Item",
+    "description": "???",
     "assets": {
       "icon": "GameData/gi/assets/items/UI_ItemIcon_121146.webp"
     },
     "liveComparison": {
       "liveHash": "ffb5402f669e743eac6cf62149ff3da22133427ba065362367a7ed7d9f15a5ef",
-      "currentHash": "ffb5402f669e743eac6cf62149ff3da22133427ba065362367a7ed7d9f15a5ef"
+      "currentHash": "d482f524d87f069acfebf0b09cd2c3f9f7ad1539e5408626bcba81495bd5dad3"
     }
   },
   {
     "id": "121349",
-    "contentStatus": "live",
-    "name": "(test)灯内纸条",
+    "contentStatus": "beta_changed",
+    "name": "???",
     "rarity": 0,
     "type": "Quest Item",
+    "description": "???",
     "assets": {
       "icon": "GameData/gi/assets/items/UI_ItemIcon_121146.webp"
     },
     "liveComparison": {
       "liveHash": "be3c558074f9093a64ba705e75c200d488fdf8d02c00d6c2967611d74b9bb813",
-      "currentHash": "be3c558074f9093a64ba705e75c200d488fdf8d02c00d6c2967611d74b9bb813"
+      "currentHash": "9ce49c4fa2dbe7ad5c46589dccdba6d9188fb95947f653aebb10d1a4fc242670"
     }
   },
   {
@@ -81466,16 +81694,17 @@
   },
   {
     "id": "121402",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Half-Burned Page",
     "rarity": 0,
     "type": "Quest Item",
+    "description": "???",
     "assets": {
       "icon": "GameData/gi/assets/items/UI_ItemIcon_71700047.webp"
     },
     "liveComparison": {
       "liveHash": "abb7efe27a2927f9d7d12cadcb8f13e01136000101afa154103373e9ca03aef6",
-      "currentHash": "abb7efe27a2927f9d7d12cadcb8f13e01136000101afa154103373e9ca03aef6"
+      "currentHash": "d3e203bbe295121edc67d443d85afbbd1853eb136192bcbcc93f380b258713c0"
     }
   },
   {
@@ -81705,16 +81934,17 @@
   },
   {
     "id": "121418",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Scribbled Letter",
     "rarity": 0,
     "type": "Quest Item",
+    "description": "???",
     "assets": {
       "icon": "GameData/gi/assets/items/UI_ItemIcon_71700047.webp"
     },
     "liveComparison": {
       "liveHash": "d3349b88c8482aa072051e6a872651741ae15ecb16183a6a8f81def7ba9aa1ae",
-      "currentHash": "d3349b88c8482aa072051e6a872651741ae15ecb16183a6a8f81def7ba9aa1ae"
+      "currentHash": "ad0c3829662ca7e91317e954414ccf9e900579de012f38938461a47812832408"
     }
   },
   {
@@ -84088,8 +84318,8 @@
   },
   {
     "id": "121594",
-    "contentStatus": "live",
-    "name": "Yet-to-be-Completed \"New High Table Melody\"",
+    "contentStatus": "beta_changed",
+    "name": "Yet-to-be-Completed \"New High Table Rules\"",
     "rarity": 0,
     "type": "Quest Item",
     "assets": {
@@ -84097,7 +84327,7 @@
     },
     "liveComparison": {
       "liveHash": "266c3775af8fdca7a7d9509ecae38982aee36a7c7d2df9cab05d6b13e344a466",
-      "currentHash": "266c3775af8fdca7a7d9509ecae38982aee36a7c7d2df9cab05d6b13e344a466"
+      "currentHash": "fe3700a7842ee8e44230d2d6167d86bc0ed50eb85e02fe7b1b3155bfc767d87e"
     }
   },
   {
@@ -84251,8 +84481,8 @@
   },
   {
     "id": "121607",
-    "contentStatus": "live",
-    "name": "（test）沃雅妮莎的信件",
+    "contentStatus": "beta_changed",
+    "name": "???",
     "rarity": 0,
     "type": "Quest Item",
     "description": "Vodyanitsa's Letter",
@@ -84261,13 +84491,13 @@
     },
     "liveComparison": {
       "liveHash": "703e4b232b8924d266f201bae382c298e053eb1a069170d88bb8539cd4bde601",
-      "currentHash": "703e4b232b8924d266f201bae382c298e053eb1a069170d88bb8539cd4bde601"
+      "currentHash": "f61a00e5b008b558b9f7be5dc164527b514a7ec4a2bb2d799d3d86d2d09fc70d"
     }
   },
   {
     "id": "121608",
-    "contentStatus": "live",
-    "name": "（test）闹鬼的调查报告",
+    "contentStatus": "beta_changed",
+    "name": "???",
     "rarity": 0,
     "type": "Quest Item",
     "description": "Report of Investigation Into Alleged Ghost Haunting",
@@ -84276,21 +84506,22 @@
     },
     "liveComparison": {
       "liveHash": "3dd0d42d474f9985e6f33474b09cff5b21ab6ccf22b312bbdc6f52e5c97e7f22",
-      "currentHash": "3dd0d42d474f9985e6f33474b09cff5b21ab6ccf22b312bbdc6f52e5c97e7f22"
+      "currentHash": "37e5b9f9e220f25616f99e155cd0eba0e270f77e55fc0510f864d986ad2c4dda"
     }
   },
   {
     "id": "121609",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Alain Guillotin's Epitaph",
     "rarity": 0,
     "type": "Quest Item",
+    "description": "???",
     "assets": {
       "icon": "GameData/gi/assets/items/UI_ItemIcon_100003.webp"
     },
     "liveComparison": {
       "liveHash": "76db6f1c100cd220e3761d2ac0fb3143ad54754267eff56112407586d589d10b",
-      "currentHash": "76db6f1c100cd220e3761d2ac0fb3143ad54754267eff56112407586d589d10b"
+      "currentHash": "58473b654cc1496be427f1a9c95de6dfbaaaefb9e33b5df5f90380b7a04e456d"
     }
   },
   {
@@ -84483,6 +84714,28 @@
     }
   },
   {
+    "id": "121623",
+    "contentStatus": "beta",
+    "name": "？？？",
+    "rarity": 3,
+    "type": "Quest Item",
+    "assets": {},
+    "liveComparison": {
+      "currentHash": "7ba1e1d92bd5f49300bb3717af5bfa84abe74b68ae4becd538f5078110c774f7"
+    }
+  },
+  {
+    "id": "121624",
+    "contentStatus": "beta",
+    "name": "？？？",
+    "rarity": 2,
+    "type": "Quest Item",
+    "assets": {},
+    "liveComparison": {
+      "currentHash": "cca79ca65f7b6c849888338695c377eb34d0939731d4af862a4e447da330aeee"
+    }
+  },
+  {
     "id": "121625",
     "contentStatus": "live",
     "name": "Moongazer's Engraving (I)",
@@ -84539,6 +84792,20 @@
     "liveComparison": {
       "liveHash": "ec7abf184d50bf8661c4c7267ab23c89ca49006d5d70bcce14673e9299b026b4",
       "currentHash": "ec7abf184d50bf8661c4c7267ab23c89ca49006d5d70bcce14673e9299b026b4"
+    }
+  },
+  {
+    "id": "121629",
+    "contentStatus": "beta",
+    "name": "???",
+    "rarity": 3,
+    "type": "Quest Item",
+    "description": "???",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_ItemIcon_121629.webp"
+    },
+    "liveComparison": {
+      "currentHash": "44c1c729a6467019a9bfadbbe869fd01ebf04859d80cf0982d45f8ef986b737e"
     }
   },
   {
@@ -84689,17 +84956,17 @@
   },
   {
     "id": "121640",
-    "contentStatus": "live",
-    "name": "Scarf: Dream Star",
+    "contentStatus": "beta_changed",
+    "name": "Scarf: Novelty Brace",
     "rarity": 3,
     "type": "Quest Item",
-    "description": "A snowman's accessory. The patterns on this scarf mirror the stars of a dream. When a snowman dreams, does it envision a sky filled with drifting snow, or the deep ocean where the meltwater flows?",
+    "description": "A snowman's accessory. A scarf of a rather... unique design. Or perhaps it's a neck brace...? In any case, putting it on might just make the snowman look a bit more... amusing?",
     "assets": {
       "icon": "GameData/gi/assets/items/UI_ItemIcon_121640.webp"
     },
     "liveComparison": {
       "liveHash": "bbc93cd973faeabcba2ce74318535e08f97904b501c71c74c58744780cbb53f2",
-      "currentHash": "bbc93cd973faeabcba2ce74318535e08f97904b501c71c74c58744780cbb53f2"
+      "currentHash": "4b3f9ddf1994ed1df629befa78f4f08da5c4c39d0dfbaa46aa49db5222b9e4d1"
     }
   },
   {
@@ -84719,17 +84986,17 @@
   },
   {
     "id": "121642",
-    "contentStatus": "live",
-    "name": "Scarf: Novelty Brace",
+    "contentStatus": "beta_changed",
+    "name": "Scarf: Dream Star",
     "rarity": 3,
     "type": "Quest Item",
-    "description": "A snowman's accessory. A scarf of a rather... unique design. Or perhaps it's a neck brace...? In any case, putting it on might just make the snowman look a bit more... amusing?",
+    "description": "A snowman's accessory. The patterns on this scarf mirror the stars of a dream. When a snowman dreams, does it envision a sky filled with drifting snow, or the deep ocean where the meltwater flows?",
     "assets": {
       "icon": "GameData/gi/assets/items/UI_ItemIcon_121642.webp"
     },
     "liveComparison": {
       "liveHash": "9e5cb3193ccb7c93df4f877b5904faf045a58e97fb42ec90e156c64ad1a04e7f",
-      "currentHash": "9e5cb3193ccb7c93df4f877b5904faf045a58e97fb42ec90e156c64ad1a04e7f"
+      "currentHash": "0c8adb4b1a8605d7b94ae4ec16aa66e7c43b98d5a46b9b9d5e7fae1fae6a2218"
     }
   },
   {
@@ -84925,6 +85192,20 @@
     }
   },
   {
+    "id": "121658",
+    "contentStatus": "beta",
+    "name": "???",
+    "rarity": 4,
+    "type": "Quest Item",
+    "description": "???",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_ItemIcon_121658.webp"
+    },
+    "liveComparison": {
+      "currentHash": "c6d15a1da2d8b9e86d485ddd0b411c9792447127f14e0f53be60be45c2159b66"
+    }
+  },
+  {
     "id": "121659",
     "contentStatus": "live",
     "name": "Remnant Incense Guide - Snowgrave",
@@ -84967,6 +85248,18 @@
     "liveComparison": {
       "liveHash": "e36c4781e5058edc4a60c3a2d9cda883136ae85731ccde47983affa500b4ccdf",
       "currentHash": "e36c4781e5058edc4a60c3a2d9cda883136ae85731ccde47983affa500b4ccdf"
+    }
+  },
+  {
+    "id": "121662",
+    "contentStatus": "beta",
+    "name": "???",
+    "rarity": 4,
+    "type": "Quest Item",
+    "description": "???",
+    "assets": {},
+    "liveComparison": {
+      "currentHash": "8a575a60b2e77bb15c0ce74678a570a7a9bd1ba26b74326e7db8350a4f7ab370"
     }
   },
   {
@@ -85072,6 +85365,18 @@
     }
   },
   {
+    "id": "121670",
+    "contentStatus": "beta",
+    "name": "???",
+    "rarity": 4,
+    "type": "Quest Item",
+    "description": "???",
+    "assets": {},
+    "liveComparison": {
+      "currentHash": "a10d4bbb0e210716ac5ca1b738196a8cd6d29c0bce41d0d928820e0b066f3c4d"
+    }
+  },
+  {
     "id": "121671",
     "contentStatus": "live",
     "name": "Kresnik Energy",
@@ -85099,6 +85404,20 @@
     "liveComparison": {
       "liveHash": "c8610dca1ef657aef4ddd2d542130bd259b9cda494e01070eba37c702003ff11",
       "currentHash": "c8610dca1ef657aef4ddd2d542130bd259b9cda494e01070eba37c702003ff11"
+    }
+  },
+  {
+    "id": "121673",
+    "contentStatus": "beta",
+    "name": "???",
+    "rarity": 3,
+    "type": "Quest Item",
+    "description": "???",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_ItemIcon_121673.webp"
+    },
+    "liveComparison": {
+      "currentHash": "856b25406ade1e9b61c797fd092477843e8a10f4501fe23f81bda27b9e45e35e"
     }
   },
   {
@@ -85237,6 +85556,18 @@
     "liveComparison": {
       "liveHash": "377baa55fdf4e119f2b49a98705412383124f1c7dca6962543536528f72ac5d2",
       "currentHash": "377baa55fdf4e119f2b49a98705412383124f1c7dca6962543536528f72ac5d2"
+    }
+  },
+  {
+    "id": "121684",
+    "contentStatus": "beta",
+    "name": "???",
+    "rarity": 4,
+    "type": "Quest Item",
+    "description": "???",
+    "assets": {},
+    "liveComparison": {
+      "currentHash": "3575f420237c95f8ffc62b5dcc74fccfc034d84691c8a052f273f45e65f232eb"
     }
   },
   {
@@ -85497,6 +85828,150 @@
     "liveComparison": {
       "liveHash": "0f9a529782db1d10eddcfd2d75aae98cd5e490fc28a7adf8c7c7f43ef27c5965",
       "currentHash": "0f9a529782db1d10eddcfd2d75aae98cd5e490fc28a7adf8c7c7f43ef27c5965"
+    }
+  },
+  {
+    "id": "121703",
+    "contentStatus": "beta",
+    "name": "???",
+    "rarity": 0,
+    "type": "Quest Item",
+    "description": "???",
+    "assets": {},
+    "liveComparison": {
+      "currentHash": "484c1836d7379a9eb56bbdecad626e19d7e9af22f222d48f3fc541349f1ca059"
+    }
+  },
+  {
+    "id": "121704",
+    "contentStatus": "beta",
+    "name": "???",
+    "rarity": 0,
+    "type": "Quest Item",
+    "description": "???",
+    "assets": {},
+    "liveComparison": {
+      "currentHash": "19c5b2e86aceaea55404f2e3339379935188dc1de8ce9f2f0384a06c91b0da9f"
+    }
+  },
+  {
+    "id": "121705",
+    "contentStatus": "beta",
+    "name": "Special Ice Cream Container",
+    "rarity": 2,
+    "type": "Consumable",
+    "description": "A container for storing specially made ice cream. It appears to have been custom-made for someone specific. In any case, please enjoy it as soon as possible before it melts.",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_ItemIcon_100101.webp"
+    },
+    "liveComparison": {
+      "currentHash": "4a9bc4186a6ce3a1eff11242e2f3f39656f6e6332dfdbe0bb99eb59d48bf557e"
+    }
+  },
+  {
+    "id": "121706",
+    "contentStatus": "beta",
+    "name": "Special Ice Cream Container",
+    "rarity": 2,
+    "type": "Consumable",
+    "description": "A container for storing specially made ice cream. It appears to have been custom-made for someone specific. In any case, please enjoy it as soon as possible before it melts.",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_ItemIcon_100101.webp"
+    },
+    "liveComparison": {
+      "currentHash": "9408252e1de9551d8b0264bf5c2563718fb422e78a721ab150a7096625fb0545"
+    }
+  },
+  {
+    "id": "121707",
+    "contentStatus": "beta",
+    "name": "Request to Expand VIP Room",
+    "rarity": 0,
+    "type": "Quest Item",
+    "description": "Request to Expand VIP Room",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_ItemIcon_100003.webp"
+    },
+    "liveComparison": {
+      "currentHash": "eeab1da366728b79d8fa7b88f8321bed93e97014bdee233a8aa9b2a3b228f3b3"
+    }
+  },
+  {
+    "id": "121709",
+    "contentStatus": "beta",
+    "name": "???",
+    "rarity": 0,
+    "type": "Quest Item",
+    "description": "???",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_ItemIcon_100003.webp"
+    },
+    "liveComparison": {
+      "currentHash": "f4792600425f469557fca4db95ab372a3724ee398ae6d7da3a4b37dd8b05801c"
+    }
+  },
+  {
+    "id": "121710",
+    "contentStatus": "beta",
+    "name": "???",
+    "rarity": 0,
+    "type": "Quest Item",
+    "description": "???",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_ItemIcon_100302.webp"
+    },
+    "liveComparison": {
+      "currentHash": "67cf00d6a2f6f20422f31954fc6924ddc56549488070765cdda9b09116d62edf"
+    }
+  },
+  {
+    "id": "121713",
+    "contentStatus": "beta",
+    "name": "???",
+    "rarity": 3,
+    "type": "Prime Ice Construct Appearance",
+    "description": "???",
+    "assets": {},
+    "liveComparison": {
+      "currentHash": "aab8915f7362e5a66fff986333b7807b1ca8f441769f675009fa05001e6dd0aa"
+    }
+  },
+  {
+    "id": "121714",
+    "contentStatus": "beta",
+    "name": "???",
+    "rarity": 0,
+    "type": "Quest Item",
+    "description": "???",
+    "assets": {},
+    "liveComparison": {
+      "currentHash": "811696994c2e989ec2f90de981384348730aaf8b7b710d11eaeb6b0802b3538b"
+    }
+  },
+  {
+    "id": "121715",
+    "contentStatus": "beta",
+    "name": "???",
+    "rarity": 2,
+    "type": "Quest Item",
+    "description": "???",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_ItemIcon_121715.webp"
+    },
+    "liveComparison": {
+      "currentHash": "f1cf998067db7129ba545be15669926442d3f7c51bb30c1fdedd71f4f5853eff"
+    }
+  },
+  {
+    "id": "121716",
+    "contentStatus": "beta",
+    "name": "???",
+    "rarity": 2,
+    "type": "Quest Item",
+    "description": "???",
+    "assets": {},
+    "liveComparison": {
+      "currentHash": "2a0e600ce9a07ac1f186b773fba9b6bdf99860f06e712a88e2958ebc8a987311"
     }
   },
   {
@@ -87596,6 +88071,189 @@
     }
   },
   {
+    "id": "132027",
+    "contentStatus": "beta",
+    "name": "Suspicious Royal Grilled Fish",
+    "rarity": 4,
+    "type": "Food",
+    "description": "A fish served whole from head to tail. Clumps of sauce cling to its surface, making for a rather unappetizing sight. The flesh is so overdone, you may as well be gnawing on a tree root dug up from Snezhnaya's frozen soil... It's probably best to consign this to \"exile\" before it ruins a banquet entirely.",
+    "effect": "Increases all party members' DEF by 215 and healing effects by 6% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_ItemIcon_108903.webp"
+    },
+    "liveComparison": {
+      "currentHash": "8177178eb81714f82c892a8e1097af599ad62325c7268a9d28ec91b97141688a"
+    }
+  },
+  {
+    "id": "132028",
+    "contentStatus": "beta",
+    "name": "Royal Grilled Fish",
+    "rarity": 4,
+    "type": "Food",
+    "description": "A fish served whole from head to tail, and a dish that reflects the heartiness and quiet dignity of the frozen north. The fish is first marinated before grilling, then garnished with sides before serving. With a recipe said to have originated in Zapolyarny Palace, this elaborately prepared dish has since become a must-have at banquets across Snezhnaya.",
+    "effect": "Increases all party members' DEF by 261 and healing effects by 8% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_ItemIcon_108903.webp"
+    },
+    "liveComparison": {
+      "currentHash": "1f85097cfda16edcd1f8dce53918e03e5e76db9a9cca1ad226754c1d8986b78c"
+    }
+  },
+  {
+    "id": "132029",
+    "contentStatus": "beta",
+    "name": "Delicious Royal Grilled Fish",
+    "rarity": 4,
+    "type": "Food",
+    "description": "A fish served whole from head to tail. Beneath its golden grilled crust is flesh so delicate and tender it practically melts in your mouth, with a rich cream sauce that blooms across the palate with every savory bite. Surely even the most taciturn of Snezhnayan nobles would be moved to wax lyrical should this dish grace their banquet table.",
+    "effect": "Increases all party members' DEF by 308 and healing effects by 10% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_ItemIcon_108903.webp"
+    },
+    "liveComparison": {
+      "currentHash": "2606b8ce6236420184cadc1eb02584bf9eb24e944c1aa2ae554fe8caff983305"
+    }
+  },
+  {
+    "id": "132030",
+    "contentStatus": "beta",
+    "name": "???",
+    "rarity": 4,
+    "type": "Food",
+    "description": "???",
+    "effect": "Increases all party members' ATK by 224 and CRIT Rate by 6% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "assets": {},
+    "liveComparison": {
+      "currentHash": "7a559c51863192ba26a67cdf0f45987011a7040fdc89ab474aec2c3dea913dba"
+    }
+  },
+  {
+    "id": "132031",
+    "contentStatus": "beta",
+    "name": "???",
+    "rarity": 4,
+    "type": "Food",
+    "description": "???",
+    "effect": "Increases all party members' ATK by 272 and CRIT Rate by 8% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "assets": {},
+    "liveComparison": {
+      "currentHash": "95c5e76032ccb85016f9dd498ba18909e838e4d106ef2c8473f432a593f72bfe"
+    }
+  },
+  {
+    "id": "132032",
+    "contentStatus": "beta",
+    "name": "???",
+    "rarity": 4,
+    "type": "Food",
+    "description": "???",
+    "effect": "Increases all party members' ATK by 320 and CRIT Rate by 10% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "assets": {},
+    "liveComparison": {
+      "currentHash": "50a0e0fd0b2c2e9c1f781642314ab5dd90897b79fecc682c4d80071922369e82"
+    }
+  },
+  {
+    "id": "132033",
+    "contentStatus": "beta",
+    "name": "Suspicious Mors",
+    "rarity": 3,
+    "type": "Food",
+    "description": "A fruit beverage in a deep red color. This murky, almost-purple drink is unbearably sour and bitter, as if it was made from a bucket of ink and rotting fruit peels. It seems such a shame to pour it down the sink... but then again, drinking it doesn't seem any wiser.",
+    "effect": "Restores 26% of Max HP to the selected character and regenerates 450 HP every 5s for 30s.",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_ItemIcon_108905.webp"
+    },
+    "liveComparison": {
+      "currentHash": "e6349eeb96f5da80d52ab2b5f0c5f1d8c4590dac459b272610a6865009d5381a"
+    }
+  },
+  {
+    "id": "132034",
+    "contentStatus": "beta",
+    "name": "Mors",
+    "rarity": 3,
+    "type": "Food",
+    "description": "A fruit beverage in a deep red color, highly popular with young women in Snezhnaya for its pleasing sweet-and-sour taste. Wild-picked berries are slowly simmered over a low fire, then crushed and strained. The resulting liquid is then mixed with honey and a little sugar before being left to cool and served.",
+    "effect": "Restores 28% of Max HP to the selected character and regenerates 620 HP every 5s for 30s.",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_ItemIcon_108905.webp"
+    },
+    "liveComparison": {
+      "currentHash": "6e234d0f7a15f022cde184e36a2522ea4798499c51529705e457bf440bc7398b"
+    }
+  },
+  {
+    "id": "132035",
+    "contentStatus": "beta",
+    "name": "Delicious Mors",
+    "rarity": 3,
+    "type": "Food",
+    "description": "A fruit beverage in a deep red color. The sweet aroma of berry greets you before the glass ever reaches your lips. This perfectly balanced drink is bright and refreshing without ever feeling thin, with just enough honey to round out the berries' gentle tartness. One sip of this is all it takes to win over even the most discerning palate.",
+    "effect": "Restores 30% of Max HP to the selected character and regenerates 790 HP every 5s for 30s.",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_ItemIcon_108905.webp"
+    },
+    "liveComparison": {
+      "currentHash": "b9e262746d8edafc8dd7e55d737bbd54825af76e6504151901c3cedf04697c4e"
+    }
+  },
+  {
+    "id": "132036",
+    "contentStatus": "beta",
+    "name": "Iridescent Aria",
+    "rarity": 3,
+    "type": "Food",
+    "description": "Vodyanitsa's specialty. This crystal-clear drink served in an antique pearl-adorned goblet glows with a dreamy radiance. Give it a gentle swirl, and a veil of tiny bubbles rises to the surface before bursting one by one, as though someone in the water has just let out peals of laughter. Could this wonder be the work of some mysterious melody she was humming while it simmered?",
+    "effect": "Restores 34% of Max HP to the selected character and regenerates 980 HP every 5s for 30s.",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_ItemIcon_108906.webp"
+    },
+    "liveComparison": {
+      "currentHash": "ae28908b163856b419502fbc09eb6649b97a5a6e889f9b2a373e243167558b8e"
+    }
+  },
+  {
+    "id": "132037",
+    "contentStatus": "beta",
+    "name": "Hoarfrost Soup",
+    "rarity": 3,
+    "type": "Food",
+    "description": "Vesna's specialty. Very carefully, she places an exquisite Prime Ice Construct into the pot before proudly declaring that she's making a \"Secret Vila Snow Flurry Soup.\" Anyone who'd like a taste, she says, is welcome to add whatever ingredients they fancy. Tempted by the prospect of savoring a little more of the broth, Paimon eagerly parts with every ingredient you've just spent all day collecting. By the time the \"secret soup\" is ready, you see that it's made entirely from the ingredients Paimon just contributed... though Vesna is the one who ends up eating most of it.",
+    "effect": "Increases all party members' DEF by 282 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "assets": {},
+    "liveComparison": {
+      "currentHash": "a1cbb375d7f4d5f2caa6fe58322f6fd1fc76b1ad6b5c8bb5b101a0d287e0915a"
+    }
+  },
+  {
+    "id": "132038",
+    "contentStatus": "beta",
+    "name": "???",
+    "rarity": 2,
+    "type": "Food",
+    "description": "???",
+    "effect": "It looks great and tastes wonderful, but it doesn't really have any effect.",
+    "assets": {},
+    "liveComparison": {
+      "currentHash": "d8b14315dd614660a4142a587c3eb8dcfac8904fe3561caaec2a257cbfb45505"
+    }
+  },
+  {
+    "id": "132039",
+    "contentStatus": "beta",
+    "name": "???",
+    "rarity": 2,
+    "type": "Food",
+    "description": "???",
+    "effect": "It looks great and tastes wonderful, but it doesn't really have any effect.",
+    "assets": {},
+    "liveComparison": {
+      "currentHash": "96a7a9a56e44d962a3b642402c7382998a000e6cefe637692f76ee930346bf03"
+    }
+  },
+  {
     "id": "140001",
     "contentStatus": "live",
     "name": "Wings of First Flight",
@@ -87863,6 +88521,20 @@
     "liveComparison": {
       "liveHash": "7e8a02d5e1992867e75389952da04e8b42836099399aec5a51fa91e135353434",
       "currentHash": "7e8a02d5e1992867e75389952da04e8b42836099399aec5a51fa91e135353434"
+    }
+  },
+  {
+    "id": "140019",
+    "contentStatus": "beta",
+    "name": "Snezhnaya Wind Glider",
+    "rarity": 4,
+    "type": "ITEM_MATERIAL",
+    "description": "???",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_FlycloakIcon_Snezhnaya.webp"
+    },
+    "liveComparison": {
+      "currentHash": "b6853397696214d87d711525f6597f9c8701f121d74e700ca6f816c70edb07b4"
     }
   },
   {
@@ -91151,6 +91823,62 @@
     }
   },
   {
+    "id": "141303",
+    "contentStatus": "beta",
+    "name": "???",
+    "rarity": 4,
+    "type": "Adventure Item",
+    "description": "???",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_ItemIcon_BGM_Common.webp"
+    },
+    "liveComparison": {
+      "currentHash": "cacfb57bced3e0990ac25faef590b9f91c00825dda9014eb7ffd4f6681255f00"
+    }
+  },
+  {
+    "id": "141304",
+    "contentStatus": "beta",
+    "name": "???",
+    "rarity": 4,
+    "type": "Adventure Item",
+    "description": "???",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_ItemIcon_BGM_Common.webp"
+    },
+    "liveComparison": {
+      "currentHash": "02f3a042f91e33ca6ff22fe8c70c6109b0b7ae6050f559267fbbeaa6d6b6dd01"
+    }
+  },
+  {
+    "id": "141305",
+    "contentStatus": "beta",
+    "name": "???",
+    "rarity": 4,
+    "type": "Adventure Item",
+    "description": "???",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_ItemIcon_BGM_Common.webp"
+    },
+    "liveComparison": {
+      "currentHash": "8a5e5511df6c6869c5fcda5a7be76bafb89da83f604c20820d73b8b585dcb881"
+    }
+  },
+  {
+    "id": "141306",
+    "contentStatus": "beta",
+    "name": "???",
+    "rarity": 4,
+    "type": "Adventure Item",
+    "description": "???",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_ItemIcon_BGM_Common.webp"
+    },
+    "liveComparison": {
+      "currentHash": "d44a7a79c5b1f93c0a710de85e3f24bbbf15dd40935cbf0be6917343ffd52fa2"
+    }
+  },
+  {
     "id": "200001",
     "contentStatus": "live",
     "name": "Lantern Fiber",
@@ -91688,6 +92416,17 @@
     "liveComparison": {
       "liveHash": "f6f910658469c60b8f9ce59990a69ba9da231ab57ce0191f103f310d5926777f",
       "currentHash": "f6f910658469c60b8f9ce59990a69ba9da231ab57ce0191f103f310d5926777f"
+    }
+  },
+  {
+    "id": "200129",
+    "contentStatus": "beta",
+    "name": "200129",
+    "rarity": 4,
+    "type": "Refinement Material",
+    "assets": {},
+    "liveComparison": {
+      "currentHash": "008b295e4ce7cfddf6f8205a8970c9e7bff31400465cc1decaedc22abb77f88d"
     }
   },
   {
@@ -97106,6 +97845,62 @@
     }
   },
   {
+    "id": "210295",
+    "contentStatus": "beta",
+    "name": "???",
+    "rarity": 4,
+    "type": "ITEM_MATERIAL",
+    "description": "???",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_NameCardIcon_Vesna.webp"
+    },
+    "liveComparison": {
+      "currentHash": "6016a915d4b5d810482e61b780a2c77f2e387aaba472d07873c4ab46d5e978ae"
+    }
+  },
+  {
+    "id": "210296",
+    "contentStatus": "beta",
+    "name": "???",
+    "rarity": 4,
+    "type": "ITEM_MATERIAL",
+    "description": "???",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_NameCardIcon_Vodyanitsa.webp"
+    },
+    "liveComparison": {
+      "currentHash": "bcac6620d0d2d05254f6b40d4dea89de0ca74695b2f996342c7490b0c3948716"
+    }
+  },
+  {
+    "id": "210297",
+    "contentStatus": "beta",
+    "name": "???",
+    "rarity": 4,
+    "type": "ITEM_MATERIAL",
+    "description": "???",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_NameCardIcon_Queen1.webp"
+    },
+    "liveComparison": {
+      "currentHash": "380c663a0300cef2421ce963267812b2b8dfa7112a39962a40f99859e95a0f95"
+    }
+  },
+  {
+    "id": "210298",
+    "contentStatus": "beta",
+    "name": "???",
+    "rarity": 4,
+    "type": "ITEM_MATERIAL",
+    "description": "???",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_NameCardIcon_Bp53.webp"
+    },
+    "liveComparison": {
+      "currentHash": "7310b1fdb17ffc5e4cb55f0ff61e77af4f351dd1ca1ac9a6e7c19f6ace76095e"
+    }
+  },
+  {
     "id": "215001",
     "contentStatus": "live",
     "name": "Echo: Dandelion Knight",
@@ -99587,6 +100382,28 @@
     "liveComparison": {
       "liveHash": "453686c0e2ba9d542bd062de927b5ac85f0cc452ea80e7f189e998c541b4006f",
       "currentHash": "453686c0e2ba9d542bd062de927b5ac85f0cc452ea80e7f189e998c541b4006f"
+    }
+  },
+  {
+    "id": "220137",
+    "contentStatus": "beta",
+    "name": "???",
+    "rarity": 4,
+    "type": "Gadget",
+    "assets": {},
+    "liveComparison": {
+      "currentHash": "c37e984e404a49a4b3b1b2eb3bb4fedf9feea029ac543a1e615bce6594ff6dec"
+    }
+  },
+  {
+    "id": "220138",
+    "contentStatus": "beta",
+    "name": "???",
+    "rarity": 4,
+    "type": "Gadget",
+    "assets": {},
+    "liveComparison": {
+      "currentHash": "e8ef00214cdedb8d81a9c20d2c2102f73e863c9c9152d045e289da9ce1c40650"
     }
   },
   {
@@ -103924,6 +104741,110 @@
     }
   },
   {
+    "id": "318205",
+    "contentStatus": "beta",
+    "name": "Relaxed Readiness",
+    "rarity": 3,
+    "type": "ITEM_MATERIAL",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_ItemIcon_223018.webp"
+    },
+    "liveComparison": {
+      "currentHash": "b090fc80cd44286248278e19a10796bbf3e0209d2c5f3bb02eee2477c1f91c35"
+    }
+  },
+  {
+    "id": "318206",
+    "contentStatus": "beta",
+    "name": "Ready for Battle",
+    "rarity": 3,
+    "type": "ITEM_MATERIAL",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_ItemIcon_223018.webp"
+    },
+    "liveComparison": {
+      "currentHash": "7d9d56229e43d2791d91188dcfa584d2a1c13c7a2eec7c4b7feaf2b794a6bf10"
+    }
+  },
+  {
+    "id": "318207",
+    "contentStatus": "beta",
+    "name": "Chore Time",
+    "rarity": 3,
+    "type": "ITEM_MATERIAL",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_ItemIcon_223018.webp"
+    },
+    "liveComparison": {
+      "currentHash": "90a4943cb11f7df9d187ba64e18abbd92c168b1cf0680301306788e80fd1a206"
+    }
+  },
+  {
+    "id": "318208",
+    "contentStatus": "beta",
+    "name": "Enjoy Food",
+    "rarity": 3,
+    "type": "ITEM_MATERIAL",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_ItemIcon_223018.webp"
+    },
+    "liveComparison": {
+      "currentHash": "cb361f42f638646c84b0e4082dc5ad47fd6eb970eb85c22c3b0b4967ed7ce54b"
+    }
+  },
+  {
+    "id": "318209",
+    "contentStatus": "beta",
+    "name": "Valiant Battle Pose",
+    "rarity": 3,
+    "type": "ITEM_MATERIAL",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_ItemIcon_223018.webp"
+    },
+    "liveComparison": {
+      "currentHash": "9a15df51c06542e39a336232c0d60bc50ffb037d3752725dcdd50f5f2b92c69a"
+    }
+  },
+  {
+    "id": "318210",
+    "contentStatus": "beta",
+    "name": "Hearty Drink",
+    "rarity": 3,
+    "type": "ITEM_MATERIAL",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_ItemIcon_223018.webp"
+    },
+    "liveComparison": {
+      "currentHash": "8f1af067464b0364225bc147b98adebcf7f99467b5b0435053d2d07b7e00082b"
+    }
+  },
+  {
+    "id": "318211",
+    "contentStatus": "beta",
+    "name": "Please enjoy the food",
+    "rarity": 3,
+    "type": "ITEM_MATERIAL",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_ItemIcon_223018.webp"
+    },
+    "liveComparison": {
+      "currentHash": "7094c938e766ffd8ef6a624cf4f85f29a2406b6bb40334d8166230d1a0f66a18"
+    }
+  },
+  {
+    "id": "318212",
+    "contentStatus": "beta",
+    "name": "Eagerly Awaiting",
+    "rarity": 3,
+    "type": "ITEM_MATERIAL",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_ItemIcon_223018.webp"
+    },
+    "liveComparison": {
+      "currentHash": "da04797faf76d7115432e07c1a951f18ece51527c2038b993ad4417ca699a6ba"
+    }
+  },
+  {
     "id": "319001",
     "contentStatus": "live",
     "name": "Fantastical Marvel",
@@ -106197,6 +107118,30 @@
     }
   },
   {
+    "id": "326145",
+    "contentStatus": "beta",
+    "name": "Columbina",
+    "rarity": 4,
+    "type": "ITEM_MATERIAL",
+    "description": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+    "assets": {},
+    "liveComparison": {
+      "currentHash": "e5d3e1d927e4626a2207d0a810d8cb893703ec29edd77e3d9c8591499981641f"
+    }
+  },
+  {
+    "id": "326146",
+    "contentStatus": "beta",
+    "name": "Illuga",
+    "rarity": 4,
+    "type": "ITEM_MATERIAL",
+    "description": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+    "assets": {},
+    "liveComparison": {
+      "currentHash": "a9fd2ec26eff349044383448b55fa096de80029aea124a88d9ae46998c8e73e4"
+    }
+  },
+  {
     "id": "326500",
     "contentStatus": "live",
     "name": "Undivided Heart",
@@ -108134,6 +109079,66 @@
     }
   },
   {
+    "id": "326649",
+    "contentStatus": "beta",
+    "name": "Radiance Over Blossoms and Peaks",
+    "rarity": 4,
+    "type": "ITEM_MATERIAL",
+    "description": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+    "assets": {},
+    "liveComparison": {
+      "currentHash": "fc362409927ca7ae34d9096d9583b04e24f89f87b448afb7011a6be2c0d830db"
+    }
+  },
+  {
+    "id": "326650",
+    "contentStatus": "beta",
+    "name": "Surge of Lightning",
+    "rarity": 4,
+    "type": "ITEM_MATERIAL",
+    "description": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+    "assets": {},
+    "liveComparison": {
+      "currentHash": "c89c48a80a81f442ad299d2fb2ee9423b61f436b674b33762f70815c4166e322"
+    }
+  },
+  {
+    "id": "326651",
+    "contentStatus": "beta",
+    "name": "Sevenfold Transmutation",
+    "rarity": 4,
+    "type": "ITEM_MATERIAL",
+    "description": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+    "assets": {},
+    "liveComparison": {
+      "currentHash": "3e77b5dc9f640b1dbba4c8e339a7c6ce81fc835e0fe6cae36b3809be18d6eac4"
+    }
+  },
+  {
+    "id": "326652",
+    "contentStatus": "beta",
+    "name": "Book of Blinding Light",
+    "rarity": 4,
+    "type": "ITEM_MATERIAL",
+    "description": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+    "assets": {},
+    "liveComparison": {
+      "currentHash": "c8260b1108ca3921b4b675b006642541418e25cf47505045bf21c3568d90b2b7"
+    }
+  },
+  {
+    "id": "326653",
+    "contentStatus": "beta",
+    "name": "Elk With Fanged Antlers",
+    "rarity": 4,
+    "type": "ITEM_MATERIAL",
+    "description": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+    "assets": {},
+    "liveComparison": {
+      "currentHash": "04f8b7cc74711a618f5c84e5819eaec0d482c23f7480d5a224b09d9b4eb2ad61"
+    }
+  },
+  {
     "id": "327000",
     "contentStatus": "live",
     "name": "Magic Guide",
@@ -109655,6 +110660,18 @@
     }
   },
   {
+    "id": "327117",
+    "contentStatus": "beta",
+    "name": "Recollection of Days Past",
+    "rarity": 4,
+    "type": "ITEM_MATERIAL",
+    "description": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+    "assets": {},
+    "liveComparison": {
+      "currentHash": "3ebf18d81d125a4d1be7117d8e5a46a8126e6f294d7d589041bf18906458f2e5"
+    }
+  },
+  {
     "id": "328000",
     "contentStatus": "live",
     "name": "Liyue Harbor Wharf",
@@ -110783,6 +111800,18 @@
     "liveComparison": {
       "liveHash": "fbf4a91b16e8dbe66467673fa0d6e5b405e6c47bded5cc1ea957214a3ddb9479",
       "currentHash": "fbf4a91b16e8dbe66467673fa0d6e5b405e6c47bded5cc1ea957214a3ddb9479"
+    }
+  },
+  {
+    "id": "328087",
+    "contentStatus": "beta",
+    "name": "Elemental Transfiguration: Overload Blessing",
+    "rarity": 4,
+    "type": "ITEM_MATERIAL",
+    "description": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+    "assets": {},
+    "liveComparison": {
+      "currentHash": "dbb4d08af41dd9196d42d53f23d28122ef032b92d83402c12c9516e8cf8027c1"
     }
   },
   {
@@ -112356,6 +113385,18 @@
     "liveComparison": {
       "liveHash": "77a0337e6dc474cf04fabc036345c3d23aa51c42372138337c59de95bd0b5d0b",
       "currentHash": "77a0337e6dc474cf04fabc036345c3d23aa51c42372138337c59de95bd0b5d0b"
+    }
+  },
+  {
+    "id": "329121",
+    "contentStatus": "beta",
+    "name": "Return of the Three Moons",
+    "rarity": 4,
+    "type": "ITEM_MATERIAL",
+    "description": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+    "assets": {},
+    "liveComparison": {
+      "currentHash": "9c7c60d36520e1ad2596eab78967f1e13f09ce631f9d00e6ad5e62a289ef2297"
     }
   },
   {
@@ -114531,6 +115572,34 @@
     "liveComparison": {
       "liveHash": "75fd8e015c95bafdb42840fa78361cd8a76c55bf337e2e7f0bc2573c750e84e5",
       "currentHash": "75fd8e015c95bafdb42840fa78361cd8a76c55bf337e2e7f0bc2573c750e84e5"
+    }
+  },
+  {
+    "id": "330145",
+    "contentStatus": "beta",
+    "name": "Columbina",
+    "rarity": 3,
+    "type": "ITEM_MATERIAL",
+    "description": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_Gcg_CardFace_Char_Avatar_Columbina.webp"
+    },
+    "liveComparison": {
+      "currentHash": "5332c812b194e3dfa9ff5ad47f830b9a76467863b7f3535e717fec6afa776708"
+    }
+  },
+  {
+    "id": "330146",
+    "contentStatus": "beta",
+    "name": "Illuga",
+    "rarity": 3,
+    "type": "ITEM_MATERIAL",
+    "description": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_Gcg_CardFace_Char_Avatar_Illuga.webp"
+    },
+    "liveComparison": {
+      "currentHash": "f5beeddd9a424acdee21fba2d8d3044de45b619c4dfa33cb9968953565658e83"
     }
   },
   {
@@ -116769,6 +117838,76 @@
     }
   },
   {
+    "id": "330649",
+    "contentStatus": "beta",
+    "name": "Radiance Over Blossoms and Peaks",
+    "rarity": 3,
+    "type": "ITEM_MATERIAL",
+    "description": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_Columbina.webp"
+    },
+    "liveComparison": {
+      "currentHash": "f7fb0011fc2327f18352b99ee5cab0bec5cae88c79ca2945d04ddbc96874fd86"
+    }
+  },
+  {
+    "id": "330650",
+    "contentStatus": "beta",
+    "name": "Surge of Lightning",
+    "rarity": 3,
+    "type": "ITEM_MATERIAL",
+    "description": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_Modao_Razor.webp"
+    },
+    "liveComparison": {
+      "currentHash": "11f0d5b3c752c5dc23e7df4dfcad87a824cf08528766878c1f60cec7a14e469a"
+    }
+  },
+  {
+    "id": "330651",
+    "contentStatus": "beta",
+    "name": "Sevenfold Transmutation",
+    "rarity": 3,
+    "type": "ITEM_MATERIAL",
+    "description": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_Modao_Sucrose.webp"
+    },
+    "liveComparison": {
+      "currentHash": "be2f842db7ef4d77d7e4a559107601c7dc988ab0925b0d4869835a48b42dbc58"
+    }
+  },
+  {
+    "id": "330652",
+    "contentStatus": "beta",
+    "name": "Book of Blinding Light",
+    "rarity": 3,
+    "type": "ITEM_MATERIAL",
+    "description": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_Modao_Albedo.webp"
+    },
+    "liveComparison": {
+      "currentHash": "7000c7ffdac66282c0abf60b54ab96baee8b7bd3475f7e2b45b45d7969b725a2"
+    }
+  },
+  {
+    "id": "330653",
+    "contentStatus": "beta",
+    "name": "Elk With Fanged Antlers",
+    "rarity": 3,
+    "type": "ITEM_MATERIAL",
+    "description": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_Illuga.webp"
+    },
+    "liveComparison": {
+      "currentHash": "1833eb805268e3f9304b88e1c6457f3724898ba48401621342f50c91a5588658"
+    }
+  },
+  {
     "id": "331000",
     "contentStatus": "live",
     "name": "Magic Guide",
@@ -118524,6 +119663,20 @@
     }
   },
   {
+    "id": "331117",
+    "contentStatus": "beta",
+    "name": "Recollection of Days Past",
+    "rarity": 3,
+    "type": "ITEM_MATERIAL",
+    "description": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_Gcg_CardFace_Modify_Artifact_XishiXiao.webp"
+    },
+    "liveComparison": {
+      "currentHash": "b113a3fd39d21f7286a9df28bdeba15a28b1ec328d7c1c72b28d9ca2644d01cb"
+    }
+  },
+  {
     "id": "332000",
     "contentStatus": "live",
     "name": "Liyue Harbor Wharf",
@@ -119826,6 +120979,20 @@
     "liveComparison": {
       "liveHash": "d49b8f00ae3b7512b0dae81584516ef72efd7dc1255abb9b8d48333d9858cdaa",
       "currentHash": "d49b8f00ae3b7512b0dae81584516ef72efd7dc1255abb9b8d48333d9858cdaa"
+    }
+  },
+  {
+    "id": "332087",
+    "contentStatus": "beta",
+    "name": "Elemental Transfiguration: Overload Blessing",
+    "rarity": 3,
+    "type": "ITEM_MATERIAL",
+    "description": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_Gcg_CardFace_Event_Resonance_ElecFire.webp"
+    },
+    "liveComparison": {
+      "currentHash": "76399a1cae703b6b15f0904edf51079c06d3a38195cf1c9d7051f70bc3b1f93b"
     }
   },
   {
@@ -121641,6 +122808,20 @@
     "liveComparison": {
       "liveHash": "38a6f2403ad8c877c008977a31e7f85a821366093c02727dd5835ba0e4cc1141",
       "currentHash": "38a6f2403ad8c877c008977a31e7f85a821366093c02727dd5835ba0e4cc1141"
+    }
+  },
+  {
+    "id": "333121",
+    "contentStatus": "beta",
+    "name": "Return of the Three Moons",
+    "rarity": 3,
+    "type": "ITEM_MATERIAL",
+    "description": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_Gcg_CardFace_Event_Event_Sanyue.webp"
+    },
+    "liveComparison": {
+      "currentHash": "b1788a2784f687c7eb2333e4915544a5b6c4b086de6e56ee3861b8c16f226186"
     }
   },
   {
@@ -123526,6 +124707,30 @@
     "liveComparison": {
       "liveHash": "45cfb3f915654530a26e712034d2a1055f996252043579c0febff4b3315e1ae4",
       "currentHash": "45cfb3f915654530a26e712034d2a1055f996252043579c0febff4b3315e1ae4"
+    }
+  },
+  {
+    "id": "334145",
+    "contentStatus": "beta",
+    "name": "Columbina",
+    "rarity": 4,
+    "type": "ITEM_MATERIAL",
+    "description": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+    "assets": {},
+    "liveComparison": {
+      "currentHash": "7d90c1fd85721e1e7cf470682cc731ae75135e55bd7559f0b2d5a84d67992cd3"
+    }
+  },
+  {
+    "id": "334146",
+    "contentStatus": "beta",
+    "name": "Illuga",
+    "rarity": 4,
+    "type": "ITEM_MATERIAL",
+    "description": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+    "assets": {},
+    "liveComparison": {
+      "currentHash": "2d71fbe45dfb9d7c70a6b46b2a54ebed2b7ebdf52394605e1baf2113e6ef7e57"
     }
   },
   {
@@ -125466,6 +126671,66 @@
     }
   },
   {
+    "id": "334649",
+    "contentStatus": "beta",
+    "name": "Radiance Over Blossoms and Peaks",
+    "rarity": 4,
+    "type": "ITEM_MATERIAL",
+    "description": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+    "assets": {},
+    "liveComparison": {
+      "currentHash": "322b7178c9fe078ded0979b753931aed5536669d1bbea4d96b748c10a2bd4683"
+    }
+  },
+  {
+    "id": "334650",
+    "contentStatus": "beta",
+    "name": "Surge of Lightning",
+    "rarity": 4,
+    "type": "ITEM_MATERIAL",
+    "description": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+    "assets": {},
+    "liveComparison": {
+      "currentHash": "da73a2149517d7dfe4d7430b1211dba0d6b5f75c961876b9e464dd6903c323c0"
+    }
+  },
+  {
+    "id": "334651",
+    "contentStatus": "beta",
+    "name": "Sevenfold Transmutation",
+    "rarity": 4,
+    "type": "ITEM_MATERIAL",
+    "description": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+    "assets": {},
+    "liveComparison": {
+      "currentHash": "788b17e167b6195631879d1cfa13d5e91d8a9e6302d680a1c3fe7473ee0a12a9"
+    }
+  },
+  {
+    "id": "334652",
+    "contentStatus": "beta",
+    "name": "Book of Blinding Light",
+    "rarity": 4,
+    "type": "ITEM_MATERIAL",
+    "description": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+    "assets": {},
+    "liveComparison": {
+      "currentHash": "c562b0ae85ca4d7f3423b1e7bef45ee3ecc365af6016731016e6959fc5c73143"
+    }
+  },
+  {
+    "id": "334653",
+    "contentStatus": "beta",
+    "name": "Elk With Fanged Antlers",
+    "rarity": 4,
+    "type": "ITEM_MATERIAL",
+    "description": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+    "assets": {},
+    "liveComparison": {
+      "currentHash": "61fa85480750895cc4b9d2c9c5b0402d48f71ceef0372ef4c92f83f2c0e3e98a"
+    }
+  },
+  {
     "id": "335000",
     "contentStatus": "live",
     "name": "Magic Guide",
@@ -126987,6 +128252,18 @@
     }
   },
   {
+    "id": "335117",
+    "contentStatus": "beta",
+    "name": "Recollection of Days Past",
+    "rarity": 4,
+    "type": "ITEM_MATERIAL",
+    "description": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+    "assets": {},
+    "liveComparison": {
+      "currentHash": "c6522f316f9afb8419c4b4705f99890ef9febec00381966054ac714a6ba63338"
+    }
+  },
+  {
     "id": "336000",
     "contentStatus": "live",
     "name": "Liyue Harbor Wharf",
@@ -128115,6 +129392,18 @@
     "liveComparison": {
       "liveHash": "f2fdb15b696b2aed13aa3057455ae401078432319c79dfbc764ef3acb5f7ee2e",
       "currentHash": "f2fdb15b696b2aed13aa3057455ae401078432319c79dfbc764ef3acb5f7ee2e"
+    }
+  },
+  {
+    "id": "336087",
+    "contentStatus": "beta",
+    "name": "Elemental Transfiguration: Overload Blessing",
+    "rarity": 4,
+    "type": "ITEM_MATERIAL",
+    "description": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+    "assets": {},
+    "liveComparison": {
+      "currentHash": "f9bbf0d60923a3ce571c10f249a4db7d23155601e2dd266d8d645cc66172473d"
     }
   },
   {
@@ -129691,6 +130980,18 @@
     }
   },
   {
+    "id": "337121",
+    "contentStatus": "beta",
+    "name": "Return of the Three Moons",
+    "rarity": 4,
+    "type": "ITEM_MATERIAL",
+    "description": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+    "assets": {},
+    "liveComparison": {
+      "currentHash": "4be9a2ac59c46e4b15595f6ccea1579c3af617d144871e0704d4d48fd33c416d"
+    }
+  },
+  {
     "id": "339000",
     "contentStatus": "live",
     "name": "Origin",
@@ -131208,6 +132509,34 @@
     "liveComparison": {
       "liveHash": "ebe8e925d9293fd9ef208ed59f4524002fb1eca4209b570a13bbc7c8667b4a8e",
       "currentHash": "ebe8e925d9293fd9ef208ed59f4524002fb1eca4209b570a13bbc7c8667b4a8e"
+    }
+  },
+  {
+    "id": "341902",
+    "contentStatus": "beta",
+    "name": "Exaiphanes Blade",
+    "rarity": 4,
+    "type": "ITEM_MATERIAL",
+    "description": "A star-hued longsword that flashes with radiance, a special illusory sword that can only be equipped by the Traveler.\\n\\n<i>\"I am the nothingness at the dawn of all things. I am the spark newly born after all things have fallen into ruin.\"</i>\\n<i>\"Behold, my great work shall now be complete.\"</i>",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_EquipIcon_Sword_WeaponQuestSnezhnaya01.webp"
+    },
+    "liveComparison": {
+      "currentHash": "ce45bed486c45629cceaa6445a9ccaadd0d7cf56a5f19fcd80ac729148150dee"
+    }
+  },
+  {
+    "id": "341903",
+    "contentStatus": "beta",
+    "name": "Exaiphanes Blade",
+    "rarity": 4,
+    "type": "ITEM_MATERIAL",
+    "description": "A star-hued longsword that flashes with radiance, a special weapon skin gifted by the Traveler to a friend.\\n\\n\"But this world shall never burn again, for the justice beyond this world has arrived.\"</i>\\n<i>\"Behold... The stars shine ever so bright tonight.\"</i>",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_EquipIcon_Sword_WeaponQuestSnezhnaya02.webp"
+    },
+    "liveComparison": {
+      "currentHash": "cd36c05f331882be579a3912619a548455487c7b362c0667bec44aa5df0fd786"
     }
   },
   {
@@ -134253,6 +135582,32 @@
     "liveComparison": {
       "liveHash": "9c121506a633cd6eaff289eea621a419ef1f54333afe7a1423f84c1a5bdc88f1",
       "currentHash": "9c121506a633cd6eaff289eea621a419ef1f54333afe7a1423f84c1a5bdc88f1"
+    }
+  },
+  {
+    "id": "380485",
+    "contentStatus": "beta",
+    "name": "（test）逐月节灯笼A",
+    "rarity": 3,
+    "type": "Furnishing Blueprint",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+    },
+    "liveComparison": {
+      "currentHash": "a522975beae4de850425a54a5869e2d01edfa70ff1e8697c6b6f14ba6314f610"
+    }
+  },
+  {
+    "id": "380486",
+    "contentStatus": "beta",
+    "name": "（test）逐月节灯笼B",
+    "rarity": 3,
+    "type": "Furnishing Blueprint",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+    },
+    "liveComparison": {
+      "currentHash": "f8e79a2793b06e573ac7e9a491b15cdb005116197a43d1733e090b1ea4799024"
     }
   },
   {
@@ -139537,17 +140892,17 @@
   },
   {
     "id": "383442",
-    "contentStatus": "live",
-    "name": "\"Balanced Boughs\"",
+    "contentStatus": "beta_changed",
+    "name": "Faint Swaying Gold",
     "rarity": 3,
     "type": "Furnishing Blueprint",
-    "description": "A detailed step-by-step blueprint for making \"Balanced Boughs.\"\\nAfter using this item, you can view it in the Creation Screen.",
+    "description": "A detailed step-by-step blueprint for making \"Faint Swaying Gold.\"\\nAfter using this item, you can view it in the Creation Screen.",
     "assets": {
       "icon": "GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
     },
     "liveComparison": {
       "liveHash": "8290fab7aa02ed1fde3342be2675efd18a869ebd06ce84f2f8b5a1e3daf5ff68",
-      "currentHash": "8290fab7aa02ed1fde3342be2675efd18a869ebd06ce84f2f8b5a1e3daf5ff68"
+      "currentHash": "01f2d8e41853c618801795213385669b84440abe9648a9d48d511a5f557b3399"
     }
   },
   {
@@ -140388,6 +141743,20 @@
     "liveComparison": {
       "liveHash": "0f61ed7d03fba3ef8546c974fb0d8ec1b2c3552a4a6880f04707c17949fa457e",
       "currentHash": "0f61ed7d03fba3ef8546c974fb0d8ec1b2c3552a4a6880f04707c17949fa457e"
+    }
+  },
+  {
+    "id": "384526",
+    "contentStatus": "beta",
+    "name": "???",
+    "rarity": 3,
+    "type": "Furnishing Blueprint",
+    "description": "???",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+    },
+    "liveComparison": {
+      "currentHash": "a95617c7019f21daf35c09140f9a268c48755a3fa29539c3ef382631b6bc35a2"
     }
   },
   {
@@ -141603,6 +142972,45 @@
     "liveComparison": {
       "liveHash": "51a7a75724b51db302d5fa8548ec5bd0245bb7394989961f578b6988a25c565f",
       "currentHash": "51a7a75724b51db302d5fa8548ec5bd0245bb7394989961f578b6988a25c565f"
+    }
+  },
+  {
+    "id": "390343",
+    "contentStatus": "beta",
+    "name": "（test）海屑镇摊位1",
+    "rarity": 3,
+    "type": "Furnishing Blueprint",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+    },
+    "liveComparison": {
+      "currentHash": "d274e6b6652aeedfa6aaefc7bf263044f02934c658366c8efa968caf053408bc"
+    }
+  },
+  {
+    "id": "390344",
+    "contentStatus": "beta",
+    "name": "（test）海屑镇摊位2",
+    "rarity": 3,
+    "type": "Furnishing Blueprint",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+    },
+    "liveComparison": {
+      "currentHash": "440073a90c9f46d5e32e0f3d3fbf0b2f086feb2b6ff2b8c8276c68c24cce4b0c"
+    }
+  },
+  {
+    "id": "390345",
+    "contentStatus": "beta",
+    "name": "（test）海屑镇摊位3",
+    "rarity": 3,
+    "type": "Furnishing Blueprint",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+    },
+    "liveComparison": {
+      "currentHash": "3519d74a001d081057e6284811d0bbc1ce54fd282323c9b4fb2346eaaab5d796"
     }
   },
   {
@@ -153228,6 +154636,20 @@
     "liveComparison": {
       "liveHash": "499bbb2c19ec283b418c8e4b8dbad652cf14ec15465707ee71c17003acdff387",
       "currentHash": "499bbb2c19ec283b418c8e4b8dbad652cf14ec15465707ee71c17003acdff387"
+    }
+  },
+  {
+    "id": "394852",
+    "contentStatus": "beta",
+    "name": "???",
+    "rarity": 3,
+    "type": "Furnishing Blueprint",
+    "description": "???",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+    },
+    "liveComparison": {
+      "currentHash": "4ba198df8ef52211fa103f929dd2b3e3bdf4b22c5fcd3e2cd45a9ff318d812db"
     }
   }
 ]

@@ -902,7 +902,7 @@
   },
   {
     "id": "20010501",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Electro Slime",
     "type": "ELEMENTAL",
     "title": "Electro Slime",
@@ -1392,11 +1392,52 @@
           "def": 500,
           "em": 0
         }
+      },
+      "20010593": {
+        "monster_name": "Slime_Electric_04_MvM3",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ACTIVITY_ATTACK_1",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 63.873833,
+          "atk": 17.210419,
+          "def": 500,
+          "em": 0
+        }
       }
     },
     "liveComparison": {
       "liveHash": "669e71d2470c20834227fbc941b578cef533000f518f7f7e90f2b6b0d0e3b259",
-      "currentHash": "669e71d2470c20834227fbc941b578cef533000f518f7f7e90f2b6b0d0e3b259"
+      "currentHash": "8a2a1746c646f66fa46e04b5603f29117e79e3097a4c599de1189ccb5e9f7733"
     }
   },
   {
@@ -2591,7 +2632,7 @@
   },
   {
     "id": "20010901",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Large Cryo Slime",
     "type": "ELEMENTAL",
     "title": "Large Cryo Slime",
@@ -3096,16 +3137,57 @@
           "def": 500,
           "em": 0
         }
+      },
+      "20010994": {
+        "monster_name": "Slime_Ice_03_MvM3",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ACTIVITY_ATTACK_1",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 59.311417,
+          "atk": 31.962206,
+          "def": 500,
+          "em": 0
+        }
       }
     },
     "liveComparison": {
       "liveHash": "276693582c93c46f397cc578c1c6f59c24ba7c0d30d9da1eba2f24bcd7ce6bba",
-      "currentHash": "276693582c93c46f397cc578c1c6f59c24ba7c0d30d9da1eba2f24bcd7ce6bba"
+      "currentHash": "4249095a660943b3652ed9ff3516c6ffac45e57bca1e6a321d301921e79c829d"
     }
   },
   {
     "id": "20011001",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Hydro Slime",
     "type": "ELEMENTAL",
     "title": "Hydro Slime",
@@ -3472,16 +3554,57 @@
           "def": 500,
           "em": 0
         }
+      },
+      "20011092": {
+        "monster_name": "Slime_Water_02_MvM3",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ACTIVITY_ATTACK_1",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 63.873833,
+          "atk": 17.210419,
+          "def": 500,
+          "em": 0
+        }
       }
     },
     "liveComparison": {
       "liveHash": "e02b315a85e93020e92e00c459631cd4061a313624c5315d2b3582788db0d793",
-      "currentHash": "e02b315a85e93020e92e00c459631cd4061a313624c5315d2b3582788db0d793"
+      "currentHash": "131bd2176b369681cde535204acbeda121430d426e6788b64e8d6f0bdc3dded6"
     }
   },
   {
     "id": "20011101",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Large Hydro Slime",
     "type": "ELEMENTAL",
     "title": "Large Hydro Slime",
@@ -3945,16 +4068,57 @@
           "def": 500,
           "em": 0
         }
+      },
+      "20011195": {
+        "monster_name": "Slime_Water_03_MvM3",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ACTIVITY_ATTACK_1",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 63.873833,
+          "atk": 31.962206,
+          "def": 500,
+          "em": 0
+        }
       }
     },
     "liveComparison": {
       "liveHash": "f9eb9cf1d82315be5a556dbf013455ca031876f033fb143051cc1c9465aa0982",
-      "currentHash": "f9eb9cf1d82315be5a556dbf013455ca031876f033fb143051cc1c9465aa0982"
+      "currentHash": "efc8e333d045e92e48ac33e7a63a6c792ade196584f58d9fb1237b8eb31e8af5"
     }
   },
   {
     "id": "20011201",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Pyro Slime",
     "type": "ELEMENTAL",
     "title": "Pyro Slime",
@@ -4529,11 +4693,52 @@
           "def": 500,
           "em": 0
         }
+      },
+      "20011293": {
+        "monster_name": "Slime_Fire_06_MvM3",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ACTIVITY_ATTACK_1",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 63.873833,
+          "atk": 16.390875,
+          "def": 500,
+          "em": 0
+        }
       }
     },
     "liveComparison": {
       "liveHash": "ec7187753fee94effe23031816d67b12fc7b897310c4f9c2096fe7c092a5888d",
-      "currentHash": "ec7187753fee94effe23031816d67b12fc7b897310c4f9c2096fe7c092a5888d"
+      "currentHash": "ad78e301de7b38cb268ef9df8649e858bbf94e8a0cb9c5151227ae2b9fe58c1b"
     }
   },
   {
@@ -5434,7 +5639,7 @@
   },
   {
     "id": "20011501",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Large Geo Slime",
     "type": "ELEMENTAL",
     "title": "Large Geo Slime",
@@ -5641,6 +5846,47 @@
           "em": 0
         }
       },
+      "20011505": {
+        "monster_name": "Slime_Rock_03_MvM3",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ACTIVITY_ATTACK_1",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 95.810745,
+          "atk": 54.089886,
+          "def": 500,
+          "em": 0
+        }
+      },
       "20011581": {
         "monster_name": "Slime_Rock_03",
         "type": "MONSTER_ORDINARY",
@@ -5773,7 +6019,7 @@
     },
     "liveComparison": {
       "liveHash": "dc643da61992a30de5afdf82595498964911093c0b044c1b1eb06138a884ad9f",
-      "currentHash": "dc643da61992a30de5afdf82595498964911093c0b044c1b1eb06138a884ad9f"
+      "currentHash": "8393a6095570a20155f9f0f652404a0f73e2664899fe928d2a00e831d247c94b"
     }
   },
   {
@@ -9084,7 +9330,7 @@
   },
   {
     "id": "20060401",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Cryo Specter",
     "type": "ELEMENTAL",
     "title": "Cryo Specter",
@@ -9304,16 +9550,57 @@
           "def": 500,
           "em": 0
         }
+      },
+      "20060493": {
+        "monster_name": "Sylph_Ice_02_MvM3",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ACTIVITY_ATTACK_1",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 91.24833,
+          "atk": 63.92441,
+          "def": 500,
+          "em": 0
+        }
       }
     },
     "liveComparison": {
       "liveHash": "e87c0b1705adfe63086f6788f634031287a81068860a4fbe7e6ddeb8f2c3695c",
-      "currentHash": "e87c0b1705adfe63086f6788f634031287a81068860a4fbe7e6ddeb8f2c3695c"
+      "currentHash": "cfb5c6a40a44317913af360baa302f54e87f617a9deb76fb463ceb0d45f21be0"
     }
   },
   {
     "id": "20060501",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Electro Specter",
     "type": "ELEMENTAL",
     "title": "Electro Specter",
@@ -9533,16 +9820,57 @@
           "def": 500,
           "em": 0
         }
+      },
+      "20060593": {
+        "monster_name": "Sylph_Electric_02_MvM3",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ACTIVITY_ATTACK_1",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 91.24833,
+          "atk": 63.92441,
+          "def": 500,
+          "em": 0
+        }
       }
     },
     "liveComparison": {
       "liveHash": "e4775184b0085642fb2806e97f4fd1b9c114a5c16c69aab9652aac363ffdc184",
-      "currentHash": "e4775184b0085642fb2806e97f4fd1b9c114a5c16c69aab9652aac363ffdc184"
+      "currentHash": "4fe2a3237f3cba90258f30b113c7591d26aede94d124fab20cde530c0bb882e6"
     }
   },
   {
     "id": "20060601",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Pyro Specter",
     "type": "ELEMENTAL",
     "title": "Pyro Specter",
@@ -9762,11 +10090,52 @@
           "def": 500,
           "em": 0
         }
+      },
+      "20060693": {
+        "monster_name": "Sylph_Fire_02_MvM3",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ACTIVITY_ATTACK_1",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 91.24833,
+          "atk": 63.92441,
+          "def": 500,
+          "em": 0
+        }
       }
     },
     "liveComparison": {
       "liveHash": "b8a5f2ece85cd4d6789a9dcad7b079969bead126237ebc9a8bb77f495346926a",
-      "currentHash": "b8a5f2ece85cd4d6789a9dcad7b079969bead126237ebc9a8bb77f495346926a"
+      "currentHash": "e220846dc6ae598a40aeb1d2cc2acbd6130cfbca6cca7b6d576b5cb0a32a06d3"
     }
   },
   {
@@ -11120,7 +11489,7 @@
   },
   {
     "id": "20081001",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Frostnight Herra",
     "type": "ELEMENTAL",
     "title": "Guardian of the Holy Light",
@@ -11445,11 +11814,52 @@
           "def": 500,
           "em": 0
         }
+      },
+      "20081011": {
+        "monster_name": "Monster_HerraFrost_03",
+        "type": "MONSTER_BOSS",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 747.12,
+          "atk": 30.144,
+          "def": 500,
+          "em": 0
+        }
       }
     },
     "liveComparison": {
       "liveHash": "f78db8b0ac15822bb548fafa249df26068c69b64c852fc0d4b74b696be352fe6",
-      "currentHash": "f78db8b0ac15822bb548fafa249df26068c69b64c852fc0d4b74b696be352fe6"
+      "currentHash": "4cd4cef81a229281dacbd6af1c03800d3edb66f4d8af5b6faed27ddc6ca45b2a"
     }
   },
   {
@@ -12041,7 +12451,7 @@
   },
   {
     "id": "21010201",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Hilichurl Fighter",
     "type": "HILICHURL",
     "title": "Hilichurl",
@@ -12529,6 +12939,47 @@
           "em": 0
         }
       },
+      "21010296": {
+        "monster_name": "Hili_None_02_Club_MvM3",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ACTIVITY_ATTACK_1",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 41.06175,
+          "atk": 32.78175,
+          "def": 500,
+          "em": 0
+        }
+      },
       "21010299": {
         "monster_name": "Hili_None_01_Club_NoAI",
         "type": "MONSTER_ORDINARY",
@@ -12573,7 +13024,7 @@
     },
     "liveComparison": {
       "liveHash": "5484f004ec638803789224e3da26e2540e22433a1ab9f021b8fb95d451cb56c6",
-      "currentHash": "5484f004ec638803789224e3da26e2540e22433a1ab9f021b8fb95d451cb56c6"
+      "currentHash": "630d214b479696183e1de9954378e0276e119a739399a12b85b37e57fad7b9cc"
     }
   },
   {
@@ -13184,7 +13635,7 @@
   },
   {
     "id": "21010501",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Pyro Hilichurl Shooter",
     "type": "HILICHURL",
     "title": "Hilichurl Shooter",
@@ -13531,11 +13982,52 @@
           "def": 500,
           "em": 0
         }
+      },
+      "21010593": {
+        "monster_name": "Hili_Fire_Range_MvM3",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ACTIVITY_ATTACK_1",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 41.06175,
+          "atk": 38.518555,
+          "def": 500,
+          "em": 0
+        }
       }
     },
     "liveComparison": {
       "liveHash": "3f6c2d923c6581e0f428500c98c6589c4c31b569fd8867c00cb5cb9e4ddf3104",
-      "currentHash": "3f6c2d923c6581e0f428500c98c6589c4c31b569fd8867c00cb5cb9e4ddf3104"
+      "currentHash": "5dedad8f31a70ce97beb4c3f19c1cbd86da2d2a93cddd528dbfcb9957801a674"
     }
   },
   {
@@ -14314,7 +14806,7 @@
   },
   {
     "id": "21011001",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Electro Hilichurl Shooter",
     "type": "HILICHURL",
     "title": "Hilichurl Shooter",
@@ -14658,11 +15150,52 @@
           "def": 500,
           "em": 0
         }
+      },
+      "21011093": {
+        "monster_name": "Hili_Electric_Range_03_MvM3",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ACTIVITY_ATTACK_1",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 41.06175,
+          "atk": 38.518555,
+          "def": 500,
+          "em": 0
+        }
       }
     },
     "liveComparison": {
       "liveHash": "e108d631aca753564b1d3d5dfab80b497bbf57ff64489eaf38269804931f4bc1",
-      "currentHash": "e108d631aca753564b1d3d5dfab80b497bbf57ff64489eaf38269804931f4bc1"
+      "currentHash": "389223c79a09e37f084e0d4af7ae6606524304aecf2ca59fc24abb7d6b174f4e"
     }
   },
   {
@@ -16874,7 +17407,7 @@
   },
   {
     "id": "21020401",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Frostarm Lawachurl",
     "type": "HILICHURL",
     "title": "Frostarm Lawachurl",
@@ -17391,11 +17924,52 @@
           "def": 500,
           "em": 0
         }
+      },
+      "21020496": {
+        "monster_name": "Brute_Ice_None_01_MvM3",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ACTIVITY_ATTACK_1",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 337.61884,
+          "atk": 96.70616,
+          "def": 500,
+          "em": 0
+        }
       }
     },
     "liveComparison": {
       "liveHash": "dc60cd42e1f44bf29a48715a015772d90443c1e2c4c2aafd2bb05f7b01eed127",
-      "currentHash": "dc60cd42e1f44bf29a48715a015772d90443c1e2c4c2aafd2bb05f7b01eed127"
+      "currentHash": "e6bc68c086d8124e955c0e021372db098978cb281ce05b601a2b6b3d75d68409"
     }
   },
   {
@@ -18735,7 +19309,7 @@
   },
   {
     "id": "21030101",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Hydro Samachurl",
     "type": "HILICHURL",
     "title": "Hydro Samachurl",
@@ -19202,11 +19776,52 @@
           "def": 500,
           "em": 0
         }
+      },
+      "21030195": {
+        "monster_name": "Shaman_Water_03_MvM3",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ACTIVITY_ATTACK_1",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 45.624165,
+          "atk": 41.79673,
+          "def": 500,
+          "em": 0
+        }
       }
     },
     "liveComparison": {
       "liveHash": "dfa60758c49e63527ed47137d7231e5885259562b373e1b7867c475032ca6de4",
-      "currentHash": "dfa60758c49e63527ed47137d7231e5885259562b373e1b7867c475032ca6de4"
+      "currentHash": "e48d8f4cbf57242cae309c02ec6cd9e949895f06a9df2c951f0f748cacd626fb"
     }
   },
   {
@@ -19482,7 +20097,7 @@
   },
   {
     "id": "21030301",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Anemo Samachurl",
     "type": "HILICHURL",
     "title": "Anemo Samachurl",
@@ -19914,11 +20529,52 @@
           "def": 500,
           "em": 0
         }
+      },
+      "21030393": {
+        "monster_name": "Shaman_Wind_02_MvM3",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ACTIVITY_ATTACK_1",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 31.936916,
+          "atk": 45.074905,
+          "def": 500,
+          "em": 0
+        }
       }
     },
     "liveComparison": {
       "liveHash": "6d7b7b1c078b9a6e9f19e9740c3db52032beb7fde6cc257adcd472b175b3670b",
-      "currentHash": "6d7b7b1c078b9a6e9f19e9740c3db52032beb7fde6cc257adcd472b175b3670b"
+      "currentHash": "832f1b1e57b633841c11cabe93db659e189e22043a4876f6810522e6d266a957"
     }
   },
   {
@@ -27562,7 +28218,7 @@
   },
   {
     "id": "23010101",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Fatui Skirmisher - Cryogunner Legionnaire",
     "type": "FATUI",
     "title": "Fatui Skirmisher - Cryogunner Legionnaire",
@@ -27680,11 +28336,52 @@
           "def": 500,
           "em": 0
         }
+      },
+      "23010103": {
+        "monster_name": "Skirmisher_Male_Fat_SprayGun_Ice_01_MvM3",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ACTIVITY_ATTACK_1",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 114.06041,
+          "atk": 86.05209,
+          "def": 500,
+          "em": 0
+        }
       }
     },
     "liveComparison": {
       "liveHash": "c63145342166bb4e3bd4fe2b2d9d5a4321465638eb5d8e5a119218482a9d44cc",
-      "currentHash": "c63145342166bb4e3bd4fe2b2d9d5a4321465638eb5d8e5a119218482a9d44cc"
+      "currentHash": "2f540e89b8e64d8289be84d524d7708ad92e9429076a5de3cf0bb749ec5b5b5f"
     }
   },
   {
@@ -28074,7 +28771,7 @@
   },
   {
     "id": "23010601",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Fatui Skirmisher - Pyroslinger Bracer",
     "type": "FATUI",
     "title": "Fatui Skirmisher - Pyroslinger Bracer",
@@ -28239,11 +28936,52 @@
           "def": 500,
           "em": 0
         }
+      },
+      "23010604": {
+        "monster_name": "Skirmisher_Male_Standard_Rifle_Fire_01_MvM3",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ACTIVITY_ATTACK_1",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 95.810745,
+          "atk": 36.059925,
+          "def": 500,
+          "em": 0
+        }
       }
     },
     "liveComparison": {
       "liveHash": "e8b5acbb81601db2d87b9325e2c66e20e01f71c10837f4f8c5956947cd5d74e0",
-      "currentHash": "e8b5acbb81601db2d87b9325e2c66e20e01f71c10837f4f8c5956947cd5d74e0"
+      "currentHash": "13fc13b3751d57252e056885b206aab90a5e0f4aebb8dd35c407dcb3cde126d9"
     }
   },
   {
@@ -30933,7 +31671,7 @@
   },
   {
     "id": "23079201",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Oprichniki Hailstorm Cannoneer",
     "type": "FATUI",
     "title": "Oprichniki",
@@ -31146,6 +31884,47 @@
           "em": 0
         }
       },
+      "23079205": {
+        "monster_name": "Oprichnik_Male_Fat_CannonShield_01_MvM3",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ACTIVITY_ATTACK_1",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 196.18391,
+          "atk": 229.47224,
+          "def": 500,
+          "em": 0
+        }
+      },
       "23079290": {
         "monster_name": "Oprichnik_Male_Fat_CannonShield_01",
         "type": "MONSTER_ORDINARY",
@@ -31190,12 +31969,12 @@
     },
     "liveComparison": {
       "liveHash": "007f5cea381299a010b90c0d8077472b2d9734d2fd7f94896120f505af00b3c8",
-      "currentHash": "007f5cea381299a010b90c0d8077472b2d9734d2fd7f94896120f505af00b3c8"
+      "currentHash": "fbd4a218b49c507eb6667e082ac32b2b0729bab807a7ffb49cccf603977d14bb"
     }
   },
   {
     "id": "23079301",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Oprichniki Thunderblitz Gvardiya",
     "type": "FATUI",
     "title": "Oprichniki",
@@ -31408,6 +32187,47 @@
           "em": 0
         }
       },
+      "23079305": {
+        "monster_name": "prichnik_Female_Slim_MachineGun_01_MvM3",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ACTIVITY_ATTACK_1",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 205.30875,
+          "atk": 31.142662,
+          "def": 500,
+          "em": 0
+        }
+      },
       "23079390": {
         "monster_name": "prichnik_Female_Slim_MachineGun_01",
         "type": "MONSTER_ORDINARY",
@@ -31452,7 +32272,7 @@
     },
     "liveComparison": {
       "liveHash": "f46fe1ebfdf6917800cbb7dd22b2483131ea9a38e3e233bb016e7b428229ce1d",
-      "currentHash": "f46fe1ebfdf6917800cbb7dd22b2483131ea9a38e3e233bb016e7b428229ce1d"
+      "currentHash": "d1b18fa88874e5e68d7c05893c54d1cc4426619020d330981179ce84743e0b08"
     }
   },
   {
@@ -33382,7 +34202,7 @@
   },
   {
     "id": "24010101",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Ruin Guard",
     "type": "AUTOMATRON",
     "title": "Ruin Guard",
@@ -34139,11 +34959,52 @@
           "def": 500,
           "em": 0
         }
+      },
+      "24010195": {
+        "monster_name": "Defender_None_04_MvM3",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ACTIVITY_ATTACK_1",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.5
+        },
+        "base": {
+          "hp": 337.61884,
+          "atk": 41.79673,
+          "def": 500,
+          "em": 0
+        }
       }
     },
     "liveComparison": {
       "liveHash": "c22eac163cca3cec00029b2defe2a00f1f09d652374f762e8bff6b6cffe7c213",
-      "currentHash": "c22eac163cca3cec00029b2defe2a00f1f09d652374f762e8bff6b6cffe7c213"
+      "currentHash": "706eeec57feb28923a2daf9cfe69d7219a6c52386e402e5780e36b4b30c63e04"
     }
   },
   {
@@ -41462,7 +42323,7 @@
   },
   {
     "id": "25010201",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Treasure Hoarders: Scout",
     "type": "HUMAN",
     "title": "Treasure Hoarders: Scout",
@@ -43160,16 +44021,57 @@
           "def": 500,
           "em": 0
         }
+      },
+      "25010294": {
+        "monster_name": "Thoarder_Male_Standard_NoWeapon_02_MvM3",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ACTIVITY_ATTACK_1",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 59.311417,
+          "atk": 18.849506,
+          "def": 500,
+          "em": 0
+        }
       }
     },
     "liveComparison": {
       "liveHash": "3c0efa3f648f16bdade6cdc9b34ecff1ca68ed113e439698be49c21d5fb27cf9",
-      "currentHash": "3c0efa3f648f16bdade6cdc9b34ecff1ca68ed113e439698be49c21d5fb27cf9"
+      "currentHash": "880711a2b8f267db4d9d50a06d8488441b2c014d64b6f8af8127a0736fed07b6"
     }
   },
   {
     "id": "25010301",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Treasure Hoarders: Pyro Potioneer",
     "type": "HUMAN",
     "title": "Treasure Hoarders: Pyro Potioneer",
@@ -43645,11 +44547,52 @@
           "def": 200,
           "em": 0
         }
+      },
+      "25010394": {
+        "monster_name": "Thoarder_Male_Standard_NoWeapon_Fire_03_MvM3",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ACTIVITY_ATTACK_1",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 95.810745,
+          "atk": 50.81171,
+          "def": 500,
+          "em": 0
+        }
       }
     },
     "liveComparison": {
       "liveHash": "529924c2237a146ae97080d4824ad82e1f2003545cc216e0c6a3a4714a82bc7f",
-      "currentHash": "529924c2237a146ae97080d4824ad82e1f2003545cc216e0c6a3a4714a82bc7f"
+      "currentHash": "f3f9f12ff93cb61953e4efe5b4eeef21b6a0507fc95b61ede1a219721f4d1cfc"
     }
   },
   {
@@ -44705,7 +45648,7 @@
   },
   {
     "id": "25010701",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Treasure Hoarders: Handyman",
     "type": "HUMAN",
     "title": "Treasure Hoarders: Handyman",
@@ -45008,11 +45951,52 @@
           "def": 500,
           "em": 0
         }
+      },
+      "25010794": {
+        "monster_name": "Thoarder_Male_Fat_NoWeapon_01_MvM3",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ACTIVITY_ATTACK_1",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 100.37316,
+          "atk": 14.751787,
+          "def": 500,
+          "em": 0
+        }
       }
     },
     "liveComparison": {
       "liveHash": "3b6746bd051d6cfcaada5a5135c54dbd18a9e30ea151acb7760cd1097c6357ec",
-      "currentHash": "3b6746bd051d6cfcaada5a5135c54dbd18a9e30ea151acb7760cd1097c6357ec"
+      "currentHash": "5c1b32565771eb0629ecc1355cd1c9442be0df6cdd3b27f346a6fcc3ad4fef56"
     }
   },
   {
@@ -48478,7 +49462,7 @@
   },
   {
     "id": "25080301",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Nobushi: Kikouban",
     "type": "HUMAN",
     "title": "Nobushi: Kikouban",
@@ -48763,11 +49747,52 @@
           "def": 500,
           "em": 0
         }
+      },
+      "25080393": {
+        "monster_name": "Samurai_Ronin_05_MvM3",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ACTIVITY_ATTACK_1",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 114.06041,
+          "atk": 43.435818,
+          "def": 500,
+          "em": 0
+        }
       }
     },
     "liveComparison": {
       "liveHash": "a9285736111f7861910d5246a8e4dca95a81c453488545d66a8b1d2f7ac328e5",
-      "currentHash": "a9285736111f7861910d5246a8e4dca95a81c453488545d66a8b1d2f7ac328e5"
+      "currentHash": "d019b083b109d8e1a90ea5b0e16e26e60c27032b57e98f78e209d4d3430e625e"
     }
   },
   {
@@ -53304,6 +54329,442 @@
     }
   },
   {
+    "id": "25135202",
+    "contentStatus": "beta",
+    "name": "Guardian Blade of Drifting Snow",
+    "type": "BEAST",
+    "title": "Guardian Blade of Drifting Snow",
+    "description": "An ancient Snegovik held in high esteem among her kin.\\nShe once served the legendary Great Snegurochka, whose name was steeped in crimson infamy, and was entrusted with the solemn duty of protecting the Snegovik clan for the rest of her life. It is said that seven were given this charge, but she alone remains. Every succession of the Snegovik sovereign must therefore take place under her watchful eye.\\nAfter the current Snegurochka princess ascended to power, she left the clan's manor in the mountains — perhaps because their ideals no longer aligned.",
+    "assets": {
+      "icon": "GameData/gi/assets/monsters/UI_MonsterIcon_Snegurochka_Contessa_02.webp"
+    },
+    "rewards": [
+      {
+        "id": 102,
+        "rank": 3,
+        "icon": "UI_ItemIcon_102"
+      },
+      {
+        "id": 202,
+        "rank": 3,
+        "icon": "UI_ItemIcon_202"
+      },
+      {
+        "id": 105,
+        "rank": 3,
+        "icon": "UI_ItemIcon_105"
+      },
+      {
+        "id": 113092,
+        "rank": 4,
+        "icon": "UI_ItemIcon_113092"
+      },
+      {
+        "id": 104164,
+        "rank": 5,
+        "icon": "UI_ItemIcon_104164"
+      },
+      {
+        "id": 104163,
+        "rank": 4,
+        "icon": "UI_ItemIcon_104163"
+      },
+      {
+        "id": 104162,
+        "rank": 3,
+        "icon": "UI_ItemIcon_104162"
+      },
+      {
+        "id": 104161,
+        "rank": 2,
+        "icon": "UI_ItemIcon_104161"
+      },
+      {
+        "id": 400089,
+        "rank": 5,
+        "icon": "UI_RelicIcon_15001_4"
+      },
+      {
+        "id": 400099,
+        "rank": 5,
+        "icon": "UI_RelicIcon_15003_4"
+      },
+      {
+        "id": 400088,
+        "rank": 4,
+        "icon": "UI_RelicIcon_15001_4"
+      },
+      {
+        "id": 400098,
+        "rank": 4,
+        "icon": "UI_RelicIcon_15003_4"
+      },
+      {
+        "id": 400023,
+        "rank": 4,
+        "icon": "UI_RelicIcon_10005_4"
+      },
+      {
+        "id": 400043,
+        "rank": 4,
+        "icon": "UI_RelicIcon_10009_4"
+      },
+      {
+        "id": 400148,
+        "rank": 4,
+        "icon": "UI_RelicIcon_15013_3"
+      },
+      {
+        "id": 400022,
+        "rank": 3,
+        "icon": "UI_RelicIcon_10005_4"
+      },
+      {
+        "id": 400042,
+        "rank": 3,
+        "icon": "UI_RelicIcon_10009_4"
+      },
+      {
+        "id": 400147,
+        "rank": 3,
+        "icon": "UI_RelicIcon_15013_3"
+      },
+      {
+        "id": 400052,
+        "rank": 3,
+        "icon": "UI_RelicIcon_10011_4"
+      }
+    ],
+    "child": {
+      "25135201": {
+        "monster_name": "Monster_Snegurochka_Contessa_01",
+        "type": "MONSTER_BOSS",
+        "hp_drops": [
+          {
+            "drop_id": 22010036,
+            "hp_percent": 66
+          },
+          {
+            "drop_id": 22010036,
+            "hp_percent": 33
+          },
+          {}
+        ],
+        "kill_drop_id": 22010026,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.5,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 260.8128,
+          "atk": 87.92,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "25135202": {
+        "monster_name": "Monster_Snegurochka_Contessa_02",
+        "type": "MONSTER_BOSS",
+        "hp_drops": [
+          {
+            "drop_id": 22010036,
+            "hp_percent": 66
+          },
+          {
+            "drop_id": 22010036,
+            "hp_percent": 33
+          },
+          {}
+        ],
+        "kill_drop_id": 22010026,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.5,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 366.768,
+          "atk": 95.456,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "25135203": {
+        "monster_name": "Monster_Snegurochka_Contessa_02",
+        "type": "MONSTER_BOSS",
+        "hp_drops": [
+          {
+            "drop_id": 22010036,
+            "hp_percent": 66
+          },
+          {
+            "drop_id": 22010036,
+            "hp_percent": 33
+          },
+          {}
+        ],
+        "kill_drop_id": 22010026,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.5,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 366.768,
+          "atk": 95.456,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "25135204": {
+        "monster_name": "Monster_Snegurochka_Contessa_01_TPS",
+        "type": "MONSTER_BOSS",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.5,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 109.725365,
+          "atk": 81.104935,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "25135205": {
+        "monster_name": "Monster_Snegurochka_Contessa_02",
+        "type": "MONSTER_BOSS",
+        "hp_drops": [
+          {
+            "drop_id": 22010036,
+            "hp_percent": 66
+          },
+          {
+            "drop_id": 22010036,
+            "hp_percent": 33
+          },
+          {}
+        ],
+        "kill_drop_id": 22010026,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.5,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 364.86932,
+          "atk": 95.456,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "25135206": {
+        "monster_name": "Monster_Snegurochka_Contessa_02",
+        "type": "MONSTER_BOSS",
+        "hp_drops": [
+          {
+            "drop_id": 22010036,
+            "hp_percent": 66
+          },
+          {
+            "drop_id": 22010036,
+            "hp_percent": 33
+          },
+          {}
+        ],
+        "kill_drop_id": 22010026,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.5,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 364.86932,
+          "atk": 95.456,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "25135207": {
+        "monster_name": "Monster_Snegurochka_Contessa_02",
+        "type": "MONSTER_BOSS",
+        "hp_drops": [
+          {
+            "drop_id": 22010036,
+            "hp_percent": 66
+          },
+          {
+            "drop_id": 22010036,
+            "hp_percent": 33
+          },
+          {}
+        ],
+        "kill_drop_id": 22010026,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 364.86932,
+          "atk": 95.456,
+          "def": 500,
+          "em": 0
+        }
+      }
+    },
+    "liveComparison": {
+      "currentHash": "0f275dda21ef4f329e7b21355f7c0b36605b48af452db33500ed111b6e46be2e"
+    }
+  },
+  {
     "id": "25137001",
     "contentStatus": "live",
     "name": "Rugged Elder Leshy",
@@ -56763,7 +58224,7 @@
   },
   {
     "id": "25310101",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Eremite Desert Clearwater",
     "type": "HUMAN",
     "title": "Eremite Desert Clearwater",
@@ -57113,16 +58574,57 @@
           "def": 200,
           "em": 0
         }
+      },
+      "25310193": {
+        "monster_name": "Eremite_Female_Slim_PushDagger_03_MvM3",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ACTIVITY_ATTACK_1",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 250.9329,
+          "atk": 45.074905,
+          "def": 500,
+          "em": 0
+        }
       }
     },
     "liveComparison": {
       "liveHash": "7046704f2660c4e5d15c4b7d6bb8ed22e46f2125417d1c5f50bec6f25755d857",
-      "currentHash": "7046704f2660c4e5d15c4b7d6bb8ed22e46f2125417d1c5f50bec6f25755d857"
+      "currentHash": "74d31b41081a1a485f9576fe627c456de3ed5fef23e838f0bd48836b31ac7bff"
     }
   },
   {
     "id": "25310201",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Eremite Sunfrost",
     "type": "HUMAN",
     "title": "Eremite Sunfrost",
@@ -57434,11 +58936,52 @@
           "def": 500,
           "em": 0
         }
+      },
+      "25310292": {
+        "monster_name": "Eremite_Male_Standard_Glaive_03_MvM3",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ACTIVITY_ATTACK_1",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 250.9329,
+          "atk": 45.074905,
+          "def": 500,
+          "em": 0
+        }
       }
     },
     "liveComparison": {
       "liveHash": "eb1176deea3b001266a22cbf5a85d6dff38d7e845ffcf1abbe594ae7f6ba8207",
-      "currentHash": "eb1176deea3b001266a22cbf5a85d6dff38d7e845ffcf1abbe594ae7f6ba8207"
+      "currentHash": "647728b9db453dea2eaa18cda4e773143f7f3a6eab35f60149e7cf61840eced9"
     }
   },
   {
@@ -57903,7 +59446,7 @@
   },
   {
     "id": "25410201",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Eremite Galehunter",
     "type": "HUMAN",
     "title": "Eremite Stone Enchanter",
@@ -58153,16 +59696,57 @@
           "def": 500,
           "em": 0
         }
+      },
+      "25410292": {
+        "monster_name": "Eremite_Female_Standard_Longbow_01_MvM3",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ACTIVITY_ATTACK_1",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 155.12216,
+          "atk": 45.074905,
+          "def": 500,
+          "em": 0
+        }
       }
     },
     "liveComparison": {
       "liveHash": "2d983f9a4e2da69e058120f8d8052c02bdd02121ee51a2e016830dcfd87f00c1",
-      "currentHash": "2d983f9a4e2da69e058120f8d8052c02bdd02121ee51a2e016830dcfd87f00c1"
+      "currentHash": "a1297a8b7ea245f9f580516caddd7604bbb5f73118bd2e894465e131011e92fd"
     }
   },
   {
     "id": "25410301",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Eremite Scorching Loremaster",
     "type": "HUMAN",
     "title": "Eremite Scorching Loremaster",
@@ -58535,11 +60119,52 @@
           "def": 500,
           "em": 0
         }
+      },
+      "25410394": {
+        "monster_name": "Eremite_Female_Standard_Oracle_01_MvM3",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ACTIVITY_ATTACK_1",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 155.12216,
+          "atk": 45.074905,
+          "def": 500,
+          "em": 0
+        }
       }
     },
     "liveComparison": {
       "liveHash": "9cceba36b1ad48fc99933de8626f98de7655845f378a45e80ebb85d3a598671a",
-      "currentHash": "9cceba36b1ad48fc99933de8626f98de7655845f378a45e80ebb85d3a598671a"
+      "currentHash": "b143d6fa7222a632c13918d40de0707a4423ce096f89a2c528196a6be6a5745e"
     }
   },
   {
@@ -63614,7 +65239,7 @@
   },
   {
     "id": "26010201",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Pyro Whopperflower",
     "type": "BEAST",
     "title": "Pyro Whopperflower",
@@ -63735,16 +65360,57 @@
           "def": 500,
           "em": 0
         }
+      },
+      "26010221": {
+        "monster_name": "Mimik_Fire_TPS",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.5,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 14.630048,
+          "atk": 60.8287,
+          "def": 500,
+          "em": 0
+        }
       }
     },
     "liveComparison": {
       "liveHash": "1b16b04bf7cbcb765a6e0e7dd44ba770ca6490ae89a41d3342127ffe3253f9a0",
-      "currentHash": "1b16b04bf7cbcb765a6e0e7dd44ba770ca6490ae89a41d3342127ffe3253f9a0"
+      "currentHash": "8d712ac60306c7e21e5a5c679e831dbf9b6160c460598969931aa2ded5579eee"
     }
   },
   {
     "id": "26010301",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Electro Whopperflower",
     "type": "BEAST",
     "title": "Electro Whopperflower",
@@ -63865,11 +65531,52 @@
           "def": 500,
           "em": 0
         }
+      },
+      "26010321": {
+        "monster_name": "Mimik_Electric_TPS",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.5,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 14.630048,
+          "atk": 40.552467,
+          "def": 500,
+          "em": 0
+        }
       }
     },
     "liveComparison": {
       "liveHash": "61ce75f61cf55b014c6b915efec6780efef129556063120dce682d6dd7024c44",
-      "currentHash": "61ce75f61cf55b014c6b915efec6780efef129556063120dce682d6dd7024c44"
+      "currentHash": "cf3b63f15e19c11a6eb64e7b6f5ad86c950725c94d769ea2905a3491769fb933"
     }
   },
   {
@@ -66697,7 +68404,7 @@
   },
   {
     "id": "26060101",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Electro Cicin",
     "type": "BEAST",
     "title": "Electro Cicin",
@@ -66873,16 +68580,57 @@
           "def": 500,
           "em": 0
         }
+      },
+      "26060193": {
+        "monster_name": "Cicin_Thunder_02_MvM3",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ACTIVITY_ATTACK_1",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.5,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 13.68725,
+          "atk": 19.66905,
+          "def": 500,
+          "em": 0
+        }
       }
     },
     "liveComparison": {
       "liveHash": "0f9b3682aaaf78c0b30b86dcb76c81b173f79dbde9ca860f07f664f589635a64",
-      "currentHash": "0f9b3682aaaf78c0b30b86dcb76c81b173f79dbde9ca860f07f664f589635a64"
+      "currentHash": "6103bd39eaa646ad15996c9a3de4ac1c4645feafc4f7c0898e4045f1c9d53406"
     }
   },
   {
     "id": "26060201",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Hydro Cicin",
     "type": "BEAST",
     "title": "Hydro Cicin",
@@ -67058,11 +68806,52 @@
           "def": 500,
           "em": 0
         }
+      },
+      "26060293": {
+        "monster_name": "Cicin_Water_02_MvM3",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ACTIVITY_ATTACK_1",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.5,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 13.68725,
+          "atk": 19.66905,
+          "def": 500,
+          "em": 0
+        }
       }
     },
     "liveComparison": {
       "liveHash": "9fb60ff1cff17ecc04c13ea89d0224a5ed79b6440354238c421f36a73710750d",
-      "currentHash": "9fb60ff1cff17ecc04c13ea89d0224a5ed79b6440354238c421f36a73710750d"
+      "currentHash": "1c41496232a1d38b82b276d532d4e5f4d2c6b4862facd009f91fe486d44bb913"
     }
   },
   {
@@ -67129,7 +68918,7 @@
   },
   {
     "id": "26090101",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Floating Hydro Fungus",
     "type": "BEAST",
     "title": "Floating Hydro Fungus",
@@ -67461,11 +69250,52 @@
           "def": 500,
           "em": 0
         }
+      },
+      "26090195": {
+        "monster_name": "Fungus_Un_Gamma_Water_01_MvM3",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ACTIVITY_ATTACK_1",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 50.18658,
+          "atk": 55.728973,
+          "def": 500,
+          "em": 0
+        }
       }
     },
     "liveComparison": {
       "liveHash": "bc3abe989553035e06d9d84ba975ab8be3dd732f651ef21d3812056e5055688c",
-      "currentHash": "bc3abe989553035e06d9d84ba975ab8be3dd732f651ef21d3812056e5055688c"
+      "currentHash": "e10020cefb4a4ce9dba2e57ffd7d8ac6036b0aa15295bbab75e5e840714631c7"
     }
   },
   {
@@ -67770,7 +69600,7 @@
   },
   {
     "id": "26090301",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Floating Anemo Fungus",
     "type": "BEAST",
     "title": "Floating Anemo Fungus",
@@ -68143,11 +69973,52 @@
           "def": 500,
           "em": 0
         }
+      },
+      "26090397": {
+        "monster_name": "Fungus_Un_Delta_Wind_02_MvM3",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ACTIVITY_ATTACK_1",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 50.18658,
+          "atk": 68.02213,
+          "def": 500,
+          "em": 0
+        }
       }
     },
     "liveComparison": {
       "liveHash": "403670bc24c1585420f1822049dc59d80148c706de22a26441385aed17cc7a6b",
-      "currentHash": "403670bc24c1585420f1822049dc59d80148c706de22a26441385aed17cc7a6b"
+      "currentHash": "00f8f5880a79fab44c5838db80dd19b7dba2b8e4cd58387646d036a8137a0a5e"
     }
   },
   {
@@ -69936,7 +71807,7 @@
   },
   {
     "id": "26100301",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Consecrated Red Vulture",
     "type": "BEAST",
     "title": "Conflagration: Consecrated Red Vulture",
@@ -70130,16 +72001,57 @@
           "def": 500,
           "em": 0
         }
+      },
+      "26100393": {
+        "monster_name": "Vulture_Sacred_Fire_02_MvM3",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ACTIVITY_ATTACK_1",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 214.43358,
+          "atk": 153.25468,
+          "def": 500,
+          "em": 0
+        }
       }
     },
     "liveComparison": {
       "liveHash": "1c59867a851b887e6304a82acf7112c0d7b01158fe50745d0af88be6634decbb",
-      "currentHash": "1c59867a851b887e6304a82acf7112c0d7b01158fe50745d0af88be6634decbb"
+      "currentHash": "b0c6cce4246ff7b09ada995603c2c824c1c594ca9a03352fa84e67e1d6b9752c"
     }
   },
   {
     "id": "26100401",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Consecrated Scorpion",
     "type": "BEAST",
     "title": "Tempest: Consecrated Scorpion",
@@ -70333,11 +72245,52 @@
           "def": 500,
           "em": 0
         }
+      },
+      "26100493": {
+        "monster_name": "Scorpion_Sacred_Electric_02_MvM3",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ACTIVITY_ATTACK_1",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 260.05774,
+          "atk": 121.29247,
+          "def": 500,
+          "em": 0
+        }
       }
     },
     "liveComparison": {
       "liveHash": "5d50a15c85e7d6dde11bd044031aa5386fd71e45ad7fa9d6cba90ca7dd275b2f",
-      "currentHash": "5d50a15c85e7d6dde11bd044031aa5386fd71e45ad7fa9d6cba90ca7dd275b2f"
+      "currentHash": "d87ecc90982fe66144f9e8de8b72d00e186a5e075dc32fab0b0c334f9a4d5bc0"
     }
   },
   {
@@ -70850,7 +72803,7 @@
   },
   {
     "id": "26120201",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Winged Cryoshroom",
     "type": "BEAST",
     "title": "Winged Cryoshroom",
@@ -71065,11 +73018,52 @@
           "def": 500,
           "em": 0
         }
+      },
+      "26120293": {
+        "monster_name": "Fungus_Amanita_Unu_Svarita_Ices_01_MvM3",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ACTIVITY_ATTACK_1",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 91.24833,
+          "atk": 75.398026,
+          "def": 500,
+          "em": 0
+        }
       }
     },
     "liveComparison": {
       "liveHash": "ed74d87387031bb603d3e518dcea5584e4ce4b3832779bb717b05b38121b8416",
-      "currentHash": "ed74d87387031bb603d3e518dcea5584e4ce4b3832779bb717b05b38121b8416"
+      "currentHash": "bb6e53863e408d301c689f7980005e102dde4ab7845cd8d24175185224ef9502"
     }
   },
   {
@@ -74349,7 +76343,7 @@
   },
   {
     "id": "26160101",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Sternshield Crab",
     "type": "BEAST",
     "title": "Sternshield Crab",
@@ -74748,11 +76742,52 @@
           "def": 500,
           "em": 0
         }
+      },
+      "26160193": {
+        "monster_name": "HermitCrab_Mature_01_Land_MvM3",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ACTIVITY_ATTACK_1",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 95.810745,
+          "atk": 82.77392,
+          "def": 500,
+          "em": 0
+        }
       }
     },
     "liveComparison": {
       "liveHash": "a74873d54568d27ebf789f63f531d41c7e1be43ca9c31c5e53e483e899feceea",
-      "currentHash": "a74873d54568d27ebf789f63f531d41c7e1be43ca9c31c5e53e483e899feceea"
+      "currentHash": "b871d45bc616919c153a583254b1c4f9603b283e0c2ad120d4ee9090d296825e"
     }
   },
   {
@@ -74960,7 +76995,7 @@
   },
   {
     "id": "26160301",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Bubbler Seahorse",
     "type": "BEAST",
     "title": "Bubbler Seahorse",
@@ -75277,16 +77312,57 @@
           "def": 500,
           "em": 0
         }
+      },
+      "26160393": {
+        "monster_name": "SeaHorse_Mature_02_MvM3",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ACTIVITY_ATTACK_1",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 95.810745,
+          "atk": 58.187607,
+          "def": 500,
+          "em": 0
+        }
       }
     },
     "liveComparison": {
       "liveHash": "4ca0e86d7690e7df424b4af9a658495d8edac0eb885c3e0f162fcea20113f305",
-      "currentHash": "4ca0e86d7690e7df424b4af9a658495d8edac0eb885c3e0f162fcea20113f305"
+      "currentHash": "e051c5aa48e7bdd0ed2dadccfca86092334129454e2a041a82cee13267f62873"
     }
   },
   {
     "id": "26160302",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Emperor of Fire and Iron",
     "type": "BEAST",
     "title": "Emperor of Fire and Iron",
@@ -75603,11 +77679,52 @@
           "def": 500,
           "em": 0
         }
+      },
+      "26160393": {
+        "monster_name": "SeaHorse_Mature_02_MvM3",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ACTIVITY_ATTACK_1",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 95.810745,
+          "atk": 58.187607,
+          "def": 500,
+          "em": 0
+        }
       }
     },
     "liveComparison": {
       "liveHash": "70eb72fbe60edc81d002cafd4123abbec9fe64f36b7965dfb99fb220b01e356b",
-      "currentHash": "70eb72fbe60edc81d002cafd4123abbec9fe64f36b7965dfb99fb220b01e356b"
+      "currentHash": "f3545b395a62cd046c45d6c1a8ebe52b0031c02f92b2c5c4693fe1c8bad91907"
     }
   },
   {
@@ -87131,7 +89248,7 @@
   },
   {
     "id": "29100101",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "The Knave",
     "type": "BOSS",
     "title": "The Knave",
@@ -87304,11 +89421,52 @@
           "def": 500,
           "em": 0
         }
+      },
+      "29100105": {
+        "monster_name": "Monster_Nihil_01",
+        "type": "MONSTER_BOSS",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.7,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 652.032,
+          "atk": 87.92,
+          "def": 500,
+          "em": 0
+        }
       }
     },
     "liveComparison": {
       "liveHash": "b88461d2b09655532bfef893e319de5b6524cad045096608f36eae53c92f1606",
-      "currentHash": "b88461d2b09655532bfef893e319de5b6524cad045096608f36eae53c92f1606"
+      "currentHash": "fc1370cc2dfa728e29be95ab767a297d96f48a62e26c66b2958afc2b348b8f74"
     }
   },
   {

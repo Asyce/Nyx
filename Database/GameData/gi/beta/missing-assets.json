@@ -312,6 +312,10 @@
     "gamedataAssetPath": "UI_GcgIcon_CardCurrency.webp"
   },
   {
+    "path": "GameData/gi/assets/items/UI_ItemIcon_401.webp",
+    "gamedataAssetPath": "UI_ItemIcon_401.webp"
+  },
+  {
     "path": "GameData/gi/assets/items/UI_ItemIcon_2001.webp",
     "gamedataAssetPath": "UI_ItemIcon_2001.webp"
   },
@@ -872,6 +876,14 @@
     "gamedataAssetPath": "UI_ItemIcon_121614.webp"
   },
   {
+    "path": "GameData/gi/assets/items/UI_ItemIcon_121623.webp",
+    "gamedataAssetPath": "UI_ItemIcon_121623.webp"
+  },
+  {
+    "path": "GameData/gi/assets/items/UI_ItemIcon_121624.webp",
+    "gamedataAssetPath": "UI_ItemIcon_121624.webp"
+  },
+  {
     "path": "GameData/gi/assets/items/UI_ItemIcon_121637.webp",
     "gamedataAssetPath": "UI_ItemIcon_121637.webp"
   },
@@ -908,8 +920,16 @@
     "gamedataAssetPath": "UI_ItemIcon_121656.webp"
   },
   {
+    "path": "GameData/gi/assets/items/UI_ItemIcon_121662.webp",
+    "gamedataAssetPath": "UI_ItemIcon_121662.webp"
+  },
+  {
     "path": "GameData/gi/assets/items/UI_ItemIcon_121663.webp",
     "gamedataAssetPath": "UI_ItemIcon_121663.webp"
+  },
+  {
+    "path": "GameData/gi/assets/items/UI_ItemIcon_121670.webp",
+    "gamedataAssetPath": "UI_ItemIcon_121670.webp"
   },
   {
     "path": "GameData/gi/assets/items/UI_ItemIcon_121675.webp",
@@ -920,8 +940,60 @@
     "gamedataAssetPath": "UI_ItemIcon_121680.webp"
   },
   {
+    "path": "GameData/gi/assets/items/UI_ItemIcon_121684.webp",
+    "gamedataAssetPath": "UI_ItemIcon_121684.webp"
+  },
+  {
+    "path": "GameData/gi/assets/items/UI_ItemIcon_121703.webp",
+    "gamedataAssetPath": "UI_ItemIcon_121703.webp"
+  },
+  {
+    "path": "GameData/gi/assets/items/UI_ItemIcon_121704.webp",
+    "gamedataAssetPath": "UI_ItemIcon_121704.webp"
+  },
+  {
+    "path": "GameData/gi/assets/items/UI_ItemIcon_121713.webp",
+    "gamedataAssetPath": "UI_ItemIcon_121713.webp"
+  },
+  {
+    "path": "GameData/gi/assets/items/UI_ItemIcon_121714.webp",
+    "gamedataAssetPath": "UI_ItemIcon_121714.webp"
+  },
+  {
+    "path": "GameData/gi/assets/items/UI_ItemIcon_121716.webp",
+    "gamedataAssetPath": "UI_ItemIcon_121716.webp"
+  },
+  {
+    "path": "GameData/gi/assets/items/UI_ItemIcon_108904.webp",
+    "gamedataAssetPath": "UI_ItemIcon_108904.webp"
+  },
+  {
+    "path": "GameData/gi/assets/items/UI_ItemIcon_108907.webp",
+    "gamedataAssetPath": "UI_ItemIcon_108907.webp"
+  },
+  {
+    "path": "GameData/gi/assets/items/UI_ItemIcon_108908.webp",
+    "gamedataAssetPath": "UI_ItemIcon_108908.webp"
+  },
+  {
+    "path": "GameData/gi/assets/items/UI_ItemIcon_108909.webp",
+    "gamedataAssetPath": "UI_ItemIcon_108909.webp"
+  },
+  {
+    "path": "GameData/gi/assets/items/UI_ItemIcon_200129.webp",
+    "gamedataAssetPath": "UI_ItemIcon_200129.webp"
+  },
+  {
     "path": "GameData/gi/assets/items/UI_ItemIcon_220092.webp",
     "gamedataAssetPath": "UI_ItemIcon_220092.webp"
+  },
+  {
+    "path": "GameData/gi/assets/items/UI_ItemIcon_220137.webp",
+    "gamedataAssetPath": "UI_ItemIcon_220137.webp"
+  },
+  {
+    "path": "GameData/gi/assets/items/UI_ItemIcon_220138.webp",
+    "gamedataAssetPath": "UI_ItemIcon_220138.webp"
   },
   {
     "path": "GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Ayaka.webp",
@@ -1514,6 +1586,14 @@
   {
     "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Char_Monster_EffigyWater_Platinum.webp",
     "gamedataAssetPath": "UI_Gcg_CardFace_Char_Monster_EffigyWater_Platinum.webp"
+  },
+  {
+    "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Char_Avatar_Columbina_Platinum.webp",
+    "gamedataAssetPath": "UI_Gcg_CardFace_Char_Avatar_Columbina_Platinum.webp"
+  },
+  {
+    "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Char_Avatar_Illuga_Platinum.webp",
+    "gamedataAssetPath": "UI_Gcg_CardFace_Char_Avatar_Illuga_Platinum.webp"
   },
   {
     "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_Ganyu_Platinum.webp",
@@ -2112,6 +2192,26 @@
     "gamedataAssetPath": "UI_Gcg_CardFace_Modify_Talent_Modao_Venti_Platinum.webp"
   },
   {
+    "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_Columbina_Platinum.webp",
+    "gamedataAssetPath": "UI_Gcg_CardFace_Modify_Talent_Columbina_Platinum.webp"
+  },
+  {
+    "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_Modao_Razor_Platinum.webp",
+    "gamedataAssetPath": "UI_Gcg_CardFace_Modify_Talent_Modao_Razor_Platinum.webp"
+  },
+  {
+    "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_Modao_Sucrose_Platinum.webp",
+    "gamedataAssetPath": "UI_Gcg_CardFace_Modify_Talent_Modao_Sucrose_Platinum.webp"
+  },
+  {
+    "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_Modao_Albedo_Platinum.webp",
+    "gamedataAssetPath": "UI_Gcg_CardFace_Modify_Talent_Modao_Albedo_Platinum.webp"
+  },
+  {
+    "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_Illuga_Platinum.webp",
+    "gamedataAssetPath": "UI_Gcg_CardFace_Modify_Talent_Illuga_Platinum.webp"
+  },
+  {
     "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Modify_Weapon_CatalystIntro_Platinum.webp",
     "gamedataAssetPath": "UI_Gcg_CardFace_Modify_Weapon_CatalystIntro_Platinum.webp"
   },
@@ -2580,6 +2680,10 @@
     "gamedataAssetPath": "UI_Gcg_CardFace_Modify_Artifact_JuedoushiDa_Platinum.webp"
   },
   {
+    "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Modify_Artifact_XishiXiao_Platinum.webp",
+    "gamedataAssetPath": "UI_Gcg_CardFace_Modify_Artifact_XishiXiao_Platinum.webp"
+  },
+  {
     "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Assist_Location_LiyueHarbor_Platinum.webp",
     "gamedataAssetPath": "UI_Gcg_CardFace_Assist_Location_LiyueHarbor_Platinum.webp"
   },
@@ -2926,6 +3030,10 @@
   {
     "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Event_Resonance_ElecGrass_Platinum.webp",
     "gamedataAssetPath": "UI_Gcg_CardFace_Event_Resonance_ElecGrass_Platinum.webp"
+  },
+  {
+    "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Event_Resonance_ElecFire_Platinum.webp",
+    "gamedataAssetPath": "UI_Gcg_CardFace_Event_Resonance_ElecFire_Platinum.webp"
   },
   {
     "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Event_ResonanceB_Ice_Platinum.webp",
@@ -3410,6 +3518,10 @@
   {
     "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Event_Event_XumiFriend_Platinum.webp",
     "gamedataAssetPath": "UI_Gcg_CardFace_Event_Event_XumiFriend_Platinum.webp"
+  },
+  {
+    "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Event_Event_Sanyue_Platinum.webp",
+    "gamedataAssetPath": "UI_Gcg_CardFace_Event_Event_Sanyue_Platinum.webp"
   },
   {
     "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Char_Avatar_Ganyu_Golden.webp",
@@ -3990,6 +4102,14 @@
   {
     "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Char_Monster_EffigyWater_Golden.webp",
     "gamedataAssetPath": "UI_Gcg_CardFace_Char_Monster_EffigyWater_Golden.webp"
+  },
+  {
+    "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Char_Avatar_Columbina_Golden.webp",
+    "gamedataAssetPath": "UI_Gcg_CardFace_Char_Avatar_Columbina_Golden.webp"
+  },
+  {
+    "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Char_Avatar_Illuga_Golden.webp",
+    "gamedataAssetPath": "UI_Gcg_CardFace_Char_Avatar_Illuga_Golden.webp"
   },
   {
     "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_Ganyu_Golden.webp",
@@ -4588,6 +4708,26 @@
     "gamedataAssetPath": "UI_Gcg_CardFace_Modify_Talent_Modao_Venti_Golden.webp"
   },
   {
+    "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_Columbina_Golden.webp",
+    "gamedataAssetPath": "UI_Gcg_CardFace_Modify_Talent_Columbina_Golden.webp"
+  },
+  {
+    "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_Modao_Razor_Golden.webp",
+    "gamedataAssetPath": "UI_Gcg_CardFace_Modify_Talent_Modao_Razor_Golden.webp"
+  },
+  {
+    "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_Modao_Sucrose_Golden.webp",
+    "gamedataAssetPath": "UI_Gcg_CardFace_Modify_Talent_Modao_Sucrose_Golden.webp"
+  },
+  {
+    "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_Modao_Albedo_Golden.webp",
+    "gamedataAssetPath": "UI_Gcg_CardFace_Modify_Talent_Modao_Albedo_Golden.webp"
+  },
+  {
+    "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_Illuga_Golden.webp",
+    "gamedataAssetPath": "UI_Gcg_CardFace_Modify_Talent_Illuga_Golden.webp"
+  },
+  {
     "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Modify_Weapon_CatalystIntro_Golden.webp",
     "gamedataAssetPath": "UI_Gcg_CardFace_Modify_Weapon_CatalystIntro_Golden.webp"
   },
@@ -5056,6 +5196,10 @@
     "gamedataAssetPath": "UI_Gcg_CardFace_Modify_Artifact_JuedoushiDa_Golden.webp"
   },
   {
+    "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Modify_Artifact_XishiXiao_Golden.webp",
+    "gamedataAssetPath": "UI_Gcg_CardFace_Modify_Artifact_XishiXiao_Golden.webp"
+  },
+  {
     "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Assist_Location_LiyueHarbor_Golden.webp",
     "gamedataAssetPath": "UI_Gcg_CardFace_Assist_Location_LiyueHarbor_Golden.webp"
   },
@@ -5402,6 +5546,10 @@
   {
     "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Event_Resonance_ElecGrass_Golden.webp",
     "gamedataAssetPath": "UI_Gcg_CardFace_Event_Resonance_ElecGrass_Golden.webp"
+  },
+  {
+    "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Event_Resonance_ElecFire_Golden.webp",
+    "gamedataAssetPath": "UI_Gcg_CardFace_Event_Resonance_ElecFire_Golden.webp"
   },
   {
     "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Event_ResonanceB_Ice_Golden.webp",
@@ -5886,6 +6034,10 @@
   {
     "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Event_Event_XumiFriend_Golden.webp",
     "gamedataAssetPath": "UI_Gcg_CardFace_Event_Event_XumiFriend_Golden.webp"
+  },
+  {
+    "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Event_Event_Sanyue_Golden.webp",
+    "gamedataAssetPath": "UI_Gcg_CardFace_Event_Event_Sanyue_Golden.webp"
   },
   {
     "path": "GameData/gi/assets/items/UI_Gcg_CardBack_Mengde.webp",

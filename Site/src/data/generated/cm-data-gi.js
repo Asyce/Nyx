@@ -53030,6 +53030,7 @@
       },
       "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Odette_Circle.webp",
       "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Odette.webp",
+      "namecard": "../../Database/GenshinWiki/namecards/Odette.png",
       "skillIcons": [
         "../../Database/GameData/gi/assets/skills/Skill_A_01.webp",
         "../../Database/GameData/gi/assets/skills/Skill_S_Odette_01.webp",
@@ -55660,6 +55661,7 @@
       },
       "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Alyosha_Circle.webp",
       "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Alyosha.webp",
+      "namecard": "../../Database/GenshinWiki/namecards/Alyosha.png",
       "skillIcons": [
         "../../Database/GameData/gi/assets/skills/Skill_A_03.webp",
         "../../Database/GameData/gi/assets/skills/Skill_S_Alyosha_01.webp",
@@ -296844,10 +296846,10 @@
       "release": 1605067200000,
       "releasePatch": "1.1",
       "voiceActors": {
-        "english": "imdb:nm4232585|Griffin Burns",
         "japanese": "Ry\u014dhei Kimura|Kimura Ryohei (\u6728\u6751\u826f\u5e73)",
         "chinese": "https://zh.moegirl.org.cn/\u9c7c\u51bb|Yudong (\u9c7c\u51bb)",
-        "korean": "Nam Doh-hyeong|Nam Do-hyeong (\ub0a8\ub3c4\ud615)"
+        "korean": "Nam Doh-hyeong|Nam Do-hyeong (\ub0a8\ub3c4\ud615)",
+        "english": "Griffin Burns"
       },
       "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Tartaglia_Circle.webp",
       "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Tartaglia.webp",

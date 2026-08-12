@@ -2448,7 +2448,7 @@
           "ja": "炉炎溶錬の心"
         },
         "desc": {
-          "en": "Increases the equipping character's ATK by 12% for 12s when they trigger a Stellar Glimmer reaction or deal Stellar Glimmer reaction DMG. Also increases Stellar Glimmer reaction DMG dealt by all nearby party members by 50%. The above effects can trigger even when the equipping character is not on the field, and he DMG bonus from multiple Artifact Sets with the same name do not stack.",
+          "en": "Increases the equipping character's ATK by 12% for 12s when they trigger a Stellar Glimmer reaction or deal Stellar Glimmer reaction DMG. Also increases Stellar Glimmer reaction DMG dealt by all nearby party members by 50%. The above effects can trigger even when the equipping character is not on the field, and the DMG bonus from multiple Artifact Sets with the same name do not stack.",
           "ko": "장착 캐릭터가 별빛 반응을 발동하거나 별빛 반응 피해를 준 후 12초 동안 공격력이 12% 증가하고, 주변에 있는 파티 내 모든 캐릭터가 주는 별빛 반응 피해가 50% 증가한다. 장착 캐릭터가 대기 상태일 때도 상술한 효과가 발동된다. 동명의 성유물 세트가 생성한 피해 보너스 효과는 중첩되지 않는다",
           "zh": "装备者触发星烁反应或造成星烁反应伤害后的12秒内，攻击力提升12%，队伍中附近的所有角色造成的星烁反应伤害提升50%。装备者处于后台时也能触发上述效果。同名圣遗物套装产生的伤害加成效果无法叠加。",
           "ja": "装備者が星反応を起こす、または星反応ダメージを与えた後の12秒間、攻撃力+12%、近くにいるチーム内のすべてのキャラクターが与える星反応ダメージ+50%。装備したキャラクターが待機している場合にも効果を発動できる。同じ名前の聖遺物セットによるダメージアップ効果は重ね掛けできない。"

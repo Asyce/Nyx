@@ -1881,6 +1881,38 @@
     "zh": "旅行者",
     "ja": "旅人"
   },
+  "10000140": {
+    "birth": [
+      1,
+      1
+    ],
+    "release": "1970-01-01 00:00:00",
+    "icon": "UI_AvatarIcon_Vodyanitsa",
+    "rank": "QUALITY_ORANGE",
+    "weapon": "WEAPON_CATALYST",
+    "element": "Hydro",
+    "en": "Vodyanitsa",
+    "desc": "",
+    "ko": "보댜니차",
+    "zh": "沃雅妮莎",
+    "ja": "ヴォジャニーツァ"
+  },
+  "10000143": {
+    "birth": [
+      1,
+      1
+    ],
+    "release": "1970-01-01 00:00:00",
+    "icon": "UI_AvatarIcon_Vesna",
+    "rank": "QUALITY_ORANGE",
+    "weapon": "WEAPON_SWORD_ONE_HAND",
+    "element": "Anemo",
+    "en": "Vesna",
+    "desc": "",
+    "ko": "베스나",
+    "zh": "薇斯纳",
+    "ja": "ヴェスナ"
+  },
   "10000148": {
     "birth": [
       2,

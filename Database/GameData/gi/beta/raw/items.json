@@ -10791,6 +10791,12 @@
     "icon": "UI_ItemIcon_113091",
     "type": "Character Level-Up Material"
   },
+  "113092": {
+    "name": "Vagabond's Cracked Armor",
+    "rank": 4,
+    "icon": "UI_ItemIcon_113092",
+    "type": "Character Level-Up Material"
+  },
   "114001": {
     "name": "Tile of Decarabian's Tower",
     "rank": 2,
@@ -12573,6 +12579,93 @@
     "icon": "UI_ItemIcon_108890",
     "type": "Food"
   },
+  "132027": {
+    "name": "Suspicious Royal Grilled Fish",
+    "rank": 4,
+    "icon": "UI_ItemIcon_108903",
+    "type": "Food",
+    "food": "FOOD_QUALITY_STRANGE"
+  },
+  "132028": {
+    "name": "Royal Grilled Fish",
+    "rank": 4,
+    "icon": "UI_ItemIcon_108903",
+    "type": "Food",
+    "food": "FOOD_QUALITY_ORDINARY"
+  },
+  "132029": {
+    "name": "Delicious Royal Grilled Fish",
+    "rank": 4,
+    "icon": "UI_ItemIcon_108903",
+    "type": "Food",
+    "food": "FOOD_QUALITY_DELICIOUS"
+  },
+  "132030": {
+    "name": "???",
+    "rank": 4,
+    "icon": "UI_ItemIcon_108904",
+    "type": "Food",
+    "food": "FOOD_QUALITY_STRANGE"
+  },
+  "132031": {
+    "name": "???",
+    "rank": 4,
+    "icon": "UI_ItemIcon_108904",
+    "type": "Food",
+    "food": "FOOD_QUALITY_ORDINARY"
+  },
+  "132032": {
+    "name": "???",
+    "rank": 4,
+    "icon": "UI_ItemIcon_108904",
+    "type": "Food",
+    "food": "FOOD_QUALITY_DELICIOUS"
+  },
+  "132033": {
+    "name": "Suspicious Mors",
+    "rank": 3,
+    "icon": "UI_ItemIcon_108905",
+    "type": "Food",
+    "food": "FOOD_QUALITY_STRANGE"
+  },
+  "132034": {
+    "name": "Mors",
+    "rank": 3,
+    "icon": "UI_ItemIcon_108905",
+    "type": "Food",
+    "food": "FOOD_QUALITY_ORDINARY"
+  },
+  "132035": {
+    "name": "Delicious Mors",
+    "rank": 3,
+    "icon": "UI_ItemIcon_108905",
+    "type": "Food",
+    "food": "FOOD_QUALITY_DELICIOUS"
+  },
+  "132036": {
+    "name": "Iridescent Aria",
+    "rank": 3,
+    "icon": "UI_ItemIcon_108906",
+    "type": "Food"
+  },
+  "132037": {
+    "name": "Hoarfrost Soup",
+    "rank": 3,
+    "icon": "UI_ItemIcon_108907",
+    "type": "Food"
+  },
+  "132038": {
+    "name": "???",
+    "rank": 2,
+    "icon": "UI_ItemIcon_108908",
+    "type": "Food"
+  },
+  "132039": {
+    "name": "???",
+    "rank": 2,
+    "icon": "UI_ItemIcon_108909",
+    "type": "Food"
+  },
   "200005": {
     "name": "Celebratory Xiao Lantern",
     "rank": 4,
@@ -12745,6 +12838,12 @@
     "name": "Refined Heart",
     "rank": 4,
     "icon": "UI_ItemIcon_200128",
+    "type": "Refinement Material"
+  },
+  "200129": {
+    "name": "",
+    "rank": 4,
+    "icon": "UI_ItemIcon_200129",
     "type": "Refinement Material"
   },
   "200900": {
@@ -13495,6 +13594,18 @@
     "name": "Cryo Treasure Compass",
     "rank": 4,
     "icon": "UI_ItemIcon_220136",
+    "type": "Gadget"
+  },
+  "220137": {
+    "name": "???",
+    "rank": 4,
+    "icon": "UI_ItemIcon_220137",
+    "type": "Gadget"
+  },
+  "220138": {
+    "name": "???",
+    "rank": 4,
+    "icon": "UI_ItemIcon_220138",
     "type": "Gadget"
   }
 }

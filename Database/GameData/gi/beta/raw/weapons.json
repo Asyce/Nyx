@@ -455,6 +455,30 @@
     "zh": "引火之源",
     "ja": "導炎の源"
   },
+  "11437": {
+    "icon": "UI_EquipIcon_Sword_SpikedStake",
+    "rank": 4,
+    "type": "WEAPON_SWORD_ONE_HAND",
+    "en": "Weapon: Sword",
+    "atk": 510,
+    "sub": "FIGHT_PROP_CRITICAL_HURT",
+    "desc": "",
+    "ko": "무기-한손검",
+    "zh": "武器-单手剑",
+    "ja": "武器片手剣"
+  },
+  "11438": {
+    "icon": "UI_EquipIcon_Sword_Fajian",
+    "rank": 4,
+    "type": "WEAPON_SWORD_ONE_HAND",
+    "en": "Weapon: Sword",
+    "atk": 510,
+    "sub": "FIGHT_PROP_ATTACK_PERCENT",
+    "desc": "",
+    "ko": "무기-한손검",
+    "zh": "武器-单手剑",
+    "ja": "武器片手剣"
+  },
   "11501": {
     "icon": "UI_EquipIcon_Sword_Falcon",
     "rank": 5,
@@ -666,10 +690,22 @@
     "en": "Exaiphanes Blade",
     "atk": 608,
     "sub": "FIGHT_PROP_CRITICAL",
-    "desc": "A longsword that once shone with the light of the very stars. In the voyager's hand, it becomes a brand-new light that has nothing to do with any past era.",
+    "desc": "A longsword that once shone with the Pale Star's light. In the voyager's hand, it becomes a brand-new light that has nothing to do with any past era.",
     "ko": "별빛검",
     "zh": "星锋剑",
     "ja": "星鋒の剣"
+  },
+  "11522": {
+    "icon": "UI_EquipIcon_Sword_Samosvist",
+    "rank": 5,
+    "type": "WEAPON_SWORD_ONE_HAND",
+    "en": "Weapon: Sword",
+    "atk": 674,
+    "sub": "FIGHT_PROP_CRITICAL_HURT",
+    "desc": "",
+    "ko": "무기-한손검",
+    "zh": "武器-单手剑",
+    "ja": "武器片手剣"
   },
   "12101": {
     "icon": "UI_EquipIcon_Claymore_Aniki",
@@ -2135,6 +2171,18 @@
     "zh": "寸心余响",
     "ja": "胸中の谺"
   },
+  "14437": {
+    "icon": "UI_EquipIcon_Catalyst_FrostScepter",
+    "rank": 4,
+    "type": "WEAPON_CATALYST",
+    "en": "Weapon: Catalyst",
+    "atk": 510,
+    "sub": "FIGHT_PROP_CRITICAL_HURT",
+    "desc": "",
+    "ko": "무기-법구",
+    "zh": "武器-法器",
+    "ja": "武器法器"
+  },
   "14501": {
     "icon": "UI_EquipIcon_Catalyst_Dvalin",
     "rank": 5,
@@ -2362,6 +2410,18 @@
     "ko": "일곱빛 계시",
     "zh": "尘光七谕",
     "ja": "塵と光の七つの誓約"
+  },
+  "14524": {
+    "icon": "UI_EquipIcon_Catalyst_Bludnye",
+    "rank": 5,
+    "type": "WEAPON_CATALYST",
+    "en": "Weapon: Catalyst",
+    "atk": 542,
+    "sub": "FIGHT_PROP_HP_PERCENT",
+    "desc": "",
+    "ko": "무기-법구",
+    "zh": "武器-法器",
+    "ja": "武器法器"
   },
   "15101": {
     "icon": "UI_EquipIcon_Bow_Hunters",
@@ -2806,6 +2866,18 @@
     "ko": "서리의 서약",
     "zh": "霜雪誓约",
     "ja": "霜雪の契"
+  },
+  "15437": {
+    "icon": "UI_EquipIcon_Bow_Windtalker",
+    "rank": 4,
+    "type": "WEAPON_BOW",
+    "en": "Weapon: Bow",
+    "atk": 510,
+    "sub": "FIGHT_PROP_CRITICAL",
+    "desc": "",
+    "ko": "무기-활",
+    "zh": "武器-弓",
+    "ja": "武器弓"
   },
   "15501": {
     "icon": "UI_EquipIcon_Bow_Dvalin",
@@ -3318,5 +3390,29 @@
     "ko": "불멸·듀란달",
     "zh": "无毁·督兰嘉德",
     "ja": "無毀・デュランガルド"
+  },
+  "390002": {
+    "icon": "UI_EquipIcon_Sword_WeaponQuestSnezhnaya01",
+    "rank": 4,
+    "type": "WEAPON_SWORD_ONE_HAND",
+    "en": "",
+    "skin": true,
+    "tag": "TAG_TYPE_NONE",
+    "desc": "",
+    "ko": "",
+    "zh": "星锋剑",
+    "ja": "星鋒の剣"
+  },
+  "390003": {
+    "icon": "UI_EquipIcon_Sword_WeaponQuestSnezhnaya02",
+    "rank": 4,
+    "type": "WEAPON_SWORD_ONE_HAND",
+    "en": "",
+    "skin": true,
+    "tag": "TAG_TYPE_NONE",
+    "desc": "",
+    "ko": "",
+    "zh": "星锋剑",
+    "ja": "星鋒の剣"
   }
 }

@@ -24140,6 +24140,1278 @@
     }
   },
   {
+    "id": "11437",
+    "contentStatus": "beta",
+    "name": "Weapon: Sword",
+    "rarity": 4,
+    "type": "WEAPON_SWORD_ONE_HAND",
+    "attack": 510,
+    "subStat": "FIGHT_PROP_CRITICAL_HURT",
+    "assets": {
+      "icon": "GameData/gi/assets/weapons/icons/UI_EquipIcon_Sword_SpikedStake.webp",
+      "gacha": "GameData/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Sword_SpikedStake.webp"
+    },
+    "properties": [
+      {
+        "init_value": 42.401,
+        "prop_type": "FIGHT_PROP_BASE_ATTACK",
+        "type": "GROW_CURVE_ATTACK_201"
+      },
+      {
+        "init_value": 0.12,
+        "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+        "type": "GROW_CURVE_CRITICAL_201"
+      }
+    ],
+    "stats": {
+      "atk": {
+        "base": 42.401,
+        "levels": {
+          "1": 1,
+          "2": 1.083,
+          "3": 1.165,
+          "4": 1.248,
+          "5": 1.33,
+          "6": 1.413,
+          "7": 1.495,
+          "8": 1.578,
+          "9": 1.661,
+          "10": 1.743,
+          "11": 1.826,
+          "12": 1.908,
+          "13": 1.991,
+          "14": 2.073,
+          "15": 2.156,
+          "16": 2.239,
+          "17": 2.321,
+          "18": 2.404,
+          "19": 2.486,
+          "20": 2.569,
+          "21": 2.651,
+          "22": 2.734,
+          "23": 2.817,
+          "24": 2.899,
+          "25": 2.982,
+          "26": 3.064,
+          "27": 3.147,
+          "28": 3.229,
+          "29": 3.312,
+          "30": 3.394,
+          "31": 3.477,
+          "32": 3.56,
+          "33": 3.642,
+          "34": 3.725,
+          "35": 3.807,
+          "36": 3.89,
+          "37": 3.972,
+          "38": 4.055,
+          "39": 4.138,
+          "40": 4.22,
+          "41": 4.303,
+          "42": 4.385,
+          "43": 4.468,
+          "44": 4.55,
+          "45": 4.633,
+          "46": 4.716,
+          "47": 4.798,
+          "48": 4.881,
+          "49": 4.963,
+          "50": 5.046,
+          "51": 5.128,
+          "52": 5.211,
+          "53": 5.294,
+          "54": 5.376,
+          "55": 5.459,
+          "56": 5.541,
+          "57": 5.624,
+          "58": 5.706,
+          "59": 5.789,
+          "60": 5.872,
+          "61": 5.954,
+          "62": 6.037,
+          "63": 6.119,
+          "64": 6.202,
+          "65": 6.284,
+          "66": 6.367,
+          "67": 6.45,
+          "68": 6.532,
+          "69": 6.615,
+          "70": 6.697,
+          "71": 6.78,
+          "72": 6.862,
+          "73": 6.945,
+          "74": 7.028,
+          "75": 7.11,
+          "76": 7.193,
+          "77": 7.275,
+          "78": 7.358,
+          "79": 7.44,
+          "80": 7.523,
+          "81": 7.606,
+          "82": 7.688,
+          "83": 7.771,
+          "84": 7.853,
+          "85": 7.936,
+          "86": 8.018,
+          "87": 8.101,
+          "88": 8.183,
+          "89": 8.266,
+          "90": 8.349,
+          "91": 8.431,
+          "92": 8.514,
+          "93": 8.596,
+          "94": 8.679,
+          "95": 8.761,
+          "96": 8.844,
+          "97": 8.927,
+          "98": 9.009,
+          "99": 9.092,
+          "100": 9.174
+        }
+      },
+      "fight_prop_critical_hurt": {
+        "base": 0.12,
+        "levels": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1.162,
+          "6": 1.162,
+          "7": 1.162,
+          "8": 1.162,
+          "9": 1.162,
+          "10": 1.363,
+          "11": 1.363,
+          "12": 1.363,
+          "13": 1.363,
+          "14": 1.363,
+          "15": 1.565,
+          "16": 1.565,
+          "17": 1.565,
+          "18": 1.565,
+          "19": 1.565,
+          "20": 1.767,
+          "21": 1.767,
+          "22": 1.767,
+          "23": 1.767,
+          "24": 1.767,
+          "25": 1.969,
+          "26": 1.969,
+          "27": 1.969,
+          "28": 1.969,
+          "29": 1.969,
+          "30": 2.171,
+          "31": 2.171,
+          "32": 2.171,
+          "33": 2.171,
+          "34": 2.171,
+          "35": 2.373,
+          "36": 2.373,
+          "37": 2.373,
+          "38": 2.373,
+          "39": 2.373,
+          "40": 2.575,
+          "41": 2.575,
+          "42": 2.575,
+          "43": 2.575,
+          "44": 2.575,
+          "45": 2.777,
+          "46": 2.777,
+          "47": 2.777,
+          "48": 2.777,
+          "49": 2.777,
+          "50": 2.979,
+          "51": 2.979,
+          "52": 2.979,
+          "53": 2.979,
+          "54": 2.979,
+          "55": 3.181,
+          "56": 3.181,
+          "57": 3.181,
+          "58": 3.181,
+          "59": 3.181,
+          "60": 3.383,
+          "61": 3.383,
+          "62": 3.383,
+          "63": 3.383,
+          "64": 3.383,
+          "65": 3.585,
+          "66": 3.585,
+          "67": 3.585,
+          "68": 3.585,
+          "69": 3.585,
+          "70": 3.786,
+          "71": 3.786,
+          "72": 3.786,
+          "73": 3.786,
+          "74": 3.786,
+          "75": 3.988,
+          "76": 3.988,
+          "77": 3.988,
+          "78": 3.988,
+          "79": 3.988,
+          "80": 4.19,
+          "81": 4.19,
+          "82": 4.19,
+          "83": 4.19,
+          "84": 4.19,
+          "85": 4.392,
+          "86": 4.392,
+          "87": 4.392,
+          "88": 4.392,
+          "89": 4.392,
+          "90": 4.594,
+          "91": 4.594,
+          "92": 4.594,
+          "93": 4.594,
+          "94": 4.594,
+          "95": 4.796,
+          "96": 4.796,
+          "97": 4.796,
+          "98": 4.796,
+          "99": 4.796,
+          "100": 4.998
+        }
+      }
+    },
+    "xpRequirements": {
+      "1": 400,
+      "2": 625,
+      "3": 900,
+      "4": 1200,
+      "5": 1550,
+      "6": 1950,
+      "7": 2350,
+      "8": 2800,
+      "9": 3300,
+      "10": 3800,
+      "11": 4350,
+      "12": 4925,
+      "13": 5525,
+      "14": 6150,
+      "15": 6800,
+      "16": 7500,
+      "17": 8200,
+      "18": 8950,
+      "19": 9725,
+      "20": 10500,
+      "21": 11900,
+      "22": 12775,
+      "23": 13700,
+      "24": 14650,
+      "25": 15625,
+      "26": 16625,
+      "27": 17650,
+      "28": 18700,
+      "29": 19775,
+      "30": 20900,
+      "31": 22025,
+      "32": 23200,
+      "33": 24375,
+      "34": 25600,
+      "35": 26825,
+      "36": 28100,
+      "37": 29400,
+      "38": 30725,
+      "39": 32075,
+      "40": 33425,
+      "41": 36575,
+      "42": 38075,
+      "43": 39600,
+      "44": 41150,
+      "45": 42725,
+      "46": 44325,
+      "47": 45950,
+      "48": 47600,
+      "49": 49300,
+      "50": 51000,
+      "51": 55375,
+      "52": 57225,
+      "53": 59100,
+      "54": 61025,
+      "55": 62950,
+      "56": 64925,
+      "57": 66900,
+      "58": 68925,
+      "59": 70975,
+      "60": 73050,
+      "61": 78900,
+      "62": 81125,
+      "63": 83400,
+      "64": 85700,
+      "65": 88025,
+      "66": 90375,
+      "67": 92750,
+      "68": 95150,
+      "69": 97575,
+      "70": 100050,
+      "71": 107675,
+      "72": 110325,
+      "73": 113000,
+      "74": 115700,
+      "75": 118425,
+      "76": 121200,
+      "77": 124000,
+      "78": 126825,
+      "79": 129675,
+      "80": 132575,
+      "81": 156475,
+      "82": 175875,
+      "83": 197600,
+      "84": 221975,
+      "85": 249300,
+      "86": 279950,
+      "87": 314250,
+      "88": 352700,
+      "89": 395775,
+      "90": 444025
+    },
+    "ascensions": {
+      "1": {
+        "fight_prop_base_attack": 25.9
+      },
+      "2": {
+        "fight_prop_base_attack": 51.9
+      },
+      "3": {
+        "fight_prop_base_attack": 77.8
+      },
+      "4": {
+        "fight_prop_base_attack": 103.7
+      },
+      "5": {
+        "fight_prop_base_attack": 129.7
+      },
+      "6": {
+        "fight_prop_base_attack": 155.6
+      }
+    },
+    "refinements": {
+      "1": {
+        "name": "",
+        "desc": "In the 12s after using Elemental Skill: each time an attack hits the opponent, ATK is increased by <color=#99FFFFFF>4%</color> while Elemental Mastery is increased by <color=#99FFFFFF>20</color> for 6s. This effect can trigger once every second, max 3 stacks. The aforementioned effect can trigger even when the equipping character is not on the field, and if the character is in the Radiance: Stellar-Conduct or Radiance: Stellar Swirl state, the buff is changed to a <color=#99FFFFFF>6%</color> ATK and <color=#99FFFFFF>8%</color>Stellar-Conduct/Stellar Swirl reaction DMG increase instead.",
+        "param_list": [
+          12,
+          6,
+          3,
+          0.04,
+          0.06,
+          20,
+          0.08,
+          1
+        ]
+      },
+      "2": {
+        "name": "",
+        "desc": "In the 12s after using Elemental Skill: each time an attack hits the opponent, ATK is increased by <color=#99FFFFFF>5%</color> while Elemental Mastery is increased by <color=#99FFFFFF>25</color> for 6s. This effect can trigger once every second, max 3 stacks. The aforementioned effect can trigger even when the equipping character is not on the field, and if the character is in the Radiance: Stellar-Conduct or Radiance: Stellar Swirl state, the buff is changed to a <color=#99FFFFFF>7.5%</color> ATK and <color=#99FFFFFF>10%</color>Stellar-Conduct/Stellar Swirl reaction DMG increase instead.",
+        "param_list": [
+          12,
+          6,
+          3,
+          0.05,
+          0.075,
+          25,
+          0.1,
+          1
+        ]
+      },
+      "3": {
+        "name": "",
+        "desc": "In the 12s after using Elemental Skill: each time an attack hits the opponent, ATK is increased by <color=#99FFFFFF>6%</color> while Elemental Mastery is increased by <color=#99FFFFFF>30</color> for 6s. This effect can trigger once every second, max 3 stacks. The aforementioned effect can trigger even when the equipping character is not on the field, and if the character is in the Radiance: Stellar-Conduct or Radiance: Stellar Swirl state, the buff is changed to a <color=#99FFFFFF>9%</color> ATK and <color=#99FFFFFF>12%</color>Stellar-Conduct/Stellar Swirl reaction DMG increase instead.",
+        "param_list": [
+          12,
+          6,
+          3,
+          0.06,
+          0.09,
+          30,
+          0.12,
+          1
+        ]
+      },
+      "4": {
+        "name": "",
+        "desc": "In the 12s after using Elemental Skill: each time an attack hits the opponent, ATK is increased by <color=#99FFFFFF>7%</color> while Elemental Mastery is increased by <color=#99FFFFFF>35</color> for 6s. This effect can trigger once every second, max 3 stacks. The aforementioned effect can trigger even when the equipping character is not on the field, and if the character is in the Radiance: Stellar-Conduct or Radiance: Stellar Swirl state, the buff is changed to a <color=#99FFFFFF>10.5%</color> ATK and <color=#99FFFFFF>14%</color>Stellar-Conduct/Stellar Swirl reaction DMG increase instead.",
+        "param_list": [
+          12,
+          6,
+          3,
+          0.07,
+          0.105,
+          35,
+          0.14,
+          1
+        ]
+      },
+      "5": {
+        "name": "",
+        "desc": "In the 12s after using Elemental Skill: each time an attack hits the opponent, ATK is increased by <color=#99FFFFFF>8%</color> while Elemental Mastery is increased by <color=#99FFFFFF>40</color> for 6s. This effect can trigger once every second, max 3 stacks. The aforementioned effect can trigger even when the equipping character is not on the field, and if the character is in the Radiance: Stellar-Conduct or Radiance: Stellar Swirl state, the buff is changed to a <color=#99FFFFFF>12%</color> ATK and <color=#99FFFFFF>16%</color>Stellar-Conduct/Stellar Swirl reaction DMG increase instead.",
+        "param_list": [
+          12,
+          6,
+          3,
+          0.08,
+          0.12,
+          40,
+          0.16,
+          1
+        ]
+      }
+    },
+    "materials": {
+      "1": {
+        "cost": 5000,
+        "materials": [
+          {
+            "itemId": "114089",
+            "quantity": 3,
+            "name": "Measured Pour of the Cellared Spiritual Nectar",
+            "rarity": 2,
+            "type": "Weapon Ascension Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_114089.webp"
+            }
+          },
+          {
+            "itemId": "112155",
+            "quantity": 3,
+            "name": "Hollow Root of Life",
+            "rarity": 2,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_112155.webp"
+            }
+          },
+          {
+            "itemId": "112149",
+            "quantity": 2,
+            "name": "Chimeric Core",
+            "rarity": 1,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_112149.webp"
+            }
+          }
+        ]
+      },
+      "2": {
+        "cost": 15000,
+        "materials": [
+          {
+            "itemId": "114090",
+            "quantity": 3,
+            "name": "Intoxication of the Cellared Spiritual Nectar",
+            "rarity": 3,
+            "type": "Weapon Ascension Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_114090.webp"
+            }
+          },
+          {
+            "itemId": "112155",
+            "quantity": 12,
+            "name": "Hollow Root of Life",
+            "rarity": 2,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_112155.webp"
+            }
+          },
+          {
+            "itemId": "112149",
+            "quantity": 8,
+            "name": "Chimeric Core",
+            "rarity": 1,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_112149.webp"
+            }
+          }
+        ]
+      },
+      "3": {
+        "cost": 20000,
+        "materials": [
+          {
+            "itemId": "114090",
+            "quantity": 6,
+            "name": "Intoxication of the Cellared Spiritual Nectar",
+            "rarity": 3,
+            "type": "Weapon Ascension Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_114090.webp"
+            }
+          },
+          {
+            "itemId": "112156",
+            "quantity": 6,
+            "name": "Sprout Node of Life",
+            "rarity": 3,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_112156.webp"
+            }
+          },
+          {
+            "itemId": "112150",
+            "quantity": 6,
+            "name": "Symbiotic Chimeric Nucleus",
+            "rarity": 2,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_112150.webp"
+            }
+          }
+        ]
+      },
+      "4": {
+        "cost": 30000,
+        "materials": [
+          {
+            "itemId": "114091",
+            "quantity": 3,
+            "name": "Exhilaration of the Cellared Spiritual Nectar",
+            "rarity": 4,
+            "type": "Weapon Ascension Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_114091.webp"
+            }
+          },
+          {
+            "itemId": "112156",
+            "quantity": 12,
+            "name": "Sprout Node of Life",
+            "rarity": 3,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_112156.webp"
+            }
+          },
+          {
+            "itemId": "112150",
+            "quantity": 9,
+            "name": "Symbiotic Chimeric Nucleus",
+            "rarity": 2,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_112150.webp"
+            }
+          }
+        ]
+      },
+      "5": {
+        "cost": 35000,
+        "materials": [
+          {
+            "itemId": "114091",
+            "quantity": 6,
+            "name": "Exhilaration of the Cellared Spiritual Nectar",
+            "rarity": 4,
+            "type": "Weapon Ascension Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_114091.webp"
+            }
+          },
+          {
+            "itemId": "112157",
+            "quantity": 9,
+            "name": "Coiled Core of Life",
+            "rarity": 4,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_112157.webp"
+            }
+          },
+          {
+            "itemId": "112151",
+            "quantity": 6,
+            "name": "Prime Chimeric Nexus",
+            "rarity": 3,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_112151.webp"
+            }
+          }
+        ]
+      },
+      "6": {
+        "cost": 45000,
+        "materials": [
+          {
+            "itemId": "114092",
+            "quantity": 4,
+            "name": "Revelry of the Cellared Spiritual Nectar",
+            "rarity": 5,
+            "type": "Weapon Ascension Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_114092.webp"
+            }
+          },
+          {
+            "itemId": "112157",
+            "quantity": 18,
+            "name": "Coiled Core of Life",
+            "rarity": 4,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_112157.webp"
+            }
+          },
+          {
+            "itemId": "112151",
+            "quantity": 12,
+            "name": "Prime Chimeric Nexus",
+            "rarity": 3,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_112151.webp"
+            }
+          }
+        ]
+      }
+    },
+    "liveComparison": {
+      "currentHash": "6ba1e4e559a0fb4fda10f4f1ab129c189e0fe73957a0e669f50d28094245f45c"
+    }
+  },
+  {
+    "id": "11438",
+    "contentStatus": "beta",
+    "name": "Weapon: Sword",
+    "rarity": 4,
+    "type": "WEAPON_SWORD_ONE_HAND",
+    "attack": 510,
+    "subStat": "FIGHT_PROP_ATTACK_PERCENT",
+    "assets": {
+      "icon": "GameData/gi/assets/weapons/icons/UI_EquipIcon_Sword_Fajian.webp",
+      "gacha": "GameData/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Sword_Fajian.webp"
+    },
+    "properties": [
+      {
+        "init_value": 42.401,
+        "prop_type": "FIGHT_PROP_BASE_ATTACK",
+        "type": "GROW_CURVE_ATTACK_201"
+      },
+      {
+        "init_value": 0.09,
+        "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+        "type": "GROW_CURVE_CRITICAL_201"
+      }
+    ],
+    "stats": {
+      "atk": {
+        "base": 42.401,
+        "levels": {
+          "1": 1,
+          "2": 1.083,
+          "3": 1.165,
+          "4": 1.248,
+          "5": 1.33,
+          "6": 1.413,
+          "7": 1.495,
+          "8": 1.578,
+          "9": 1.661,
+          "10": 1.743,
+          "11": 1.826,
+          "12": 1.908,
+          "13": 1.991,
+          "14": 2.073,
+          "15": 2.156,
+          "16": 2.239,
+          "17": 2.321,
+          "18": 2.404,
+          "19": 2.486,
+          "20": 2.569,
+          "21": 2.651,
+          "22": 2.734,
+          "23": 2.817,
+          "24": 2.899,
+          "25": 2.982,
+          "26": 3.064,
+          "27": 3.147,
+          "28": 3.229,
+          "29": 3.312,
+          "30": 3.394,
+          "31": 3.477,
+          "32": 3.56,
+          "33": 3.642,
+          "34": 3.725,
+          "35": 3.807,
+          "36": 3.89,
+          "37": 3.972,
+          "38": 4.055,
+          "39": 4.138,
+          "40": 4.22,
+          "41": 4.303,
+          "42": 4.385,
+          "43": 4.468,
+          "44": 4.55,
+          "45": 4.633,
+          "46": 4.716,
+          "47": 4.798,
+          "48": 4.881,
+          "49": 4.963,
+          "50": 5.046,
+          "51": 5.128,
+          "52": 5.211,
+          "53": 5.294,
+          "54": 5.376,
+          "55": 5.459,
+          "56": 5.541,
+          "57": 5.624,
+          "58": 5.706,
+          "59": 5.789,
+          "60": 5.872,
+          "61": 5.954,
+          "62": 6.037,
+          "63": 6.119,
+          "64": 6.202,
+          "65": 6.284,
+          "66": 6.367,
+          "67": 6.45,
+          "68": 6.532,
+          "69": 6.615,
+          "70": 6.697,
+          "71": 6.78,
+          "72": 6.862,
+          "73": 6.945,
+          "74": 7.028,
+          "75": 7.11,
+          "76": 7.193,
+          "77": 7.275,
+          "78": 7.358,
+          "79": 7.44,
+          "80": 7.523,
+          "81": 7.606,
+          "82": 7.688,
+          "83": 7.771,
+          "84": 7.853,
+          "85": 7.936,
+          "86": 8.018,
+          "87": 8.101,
+          "88": 8.183,
+          "89": 8.266,
+          "90": 8.349,
+          "91": 8.431,
+          "92": 8.514,
+          "93": 8.596,
+          "94": 8.679,
+          "95": 8.761,
+          "96": 8.844,
+          "97": 8.927,
+          "98": 9.009,
+          "99": 9.092,
+          "100": 9.174
+        }
+      },
+      "fight_prop_attack_percent": {
+        "base": 0.09,
+        "levels": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1.162,
+          "6": 1.162,
+          "7": 1.162,
+          "8": 1.162,
+          "9": 1.162,
+          "10": 1.363,
+          "11": 1.363,
+          "12": 1.363,
+          "13": 1.363,
+          "14": 1.363,
+          "15": 1.565,
+          "16": 1.565,
+          "17": 1.565,
+          "18": 1.565,
+          "19": 1.565,
+          "20": 1.767,
+          "21": 1.767,
+          "22": 1.767,
+          "23": 1.767,
+          "24": 1.767,
+          "25": 1.969,
+          "26": 1.969,
+          "27": 1.969,
+          "28": 1.969,
+          "29": 1.969,
+          "30": 2.171,
+          "31": 2.171,
+          "32": 2.171,
+          "33": 2.171,
+          "34": 2.171,
+          "35": 2.373,
+          "36": 2.373,
+          "37": 2.373,
+          "38": 2.373,
+          "39": 2.373,
+          "40": 2.575,
+          "41": 2.575,
+          "42": 2.575,
+          "43": 2.575,
+          "44": 2.575,
+          "45": 2.777,
+          "46": 2.777,
+          "47": 2.777,
+          "48": 2.777,
+          "49": 2.777,
+          "50": 2.979,
+          "51": 2.979,
+          "52": 2.979,
+          "53": 2.979,
+          "54": 2.979,
+          "55": 3.181,
+          "56": 3.181,
+          "57": 3.181,
+          "58": 3.181,
+          "59": 3.181,
+          "60": 3.383,
+          "61": 3.383,
+          "62": 3.383,
+          "63": 3.383,
+          "64": 3.383,
+          "65": 3.585,
+          "66": 3.585,
+          "67": 3.585,
+          "68": 3.585,
+          "69": 3.585,
+          "70": 3.786,
+          "71": 3.786,
+          "72": 3.786,
+          "73": 3.786,
+          "74": 3.786,
+          "75": 3.988,
+          "76": 3.988,
+          "77": 3.988,
+          "78": 3.988,
+          "79": 3.988,
+          "80": 4.19,
+          "81": 4.19,
+          "82": 4.19,
+          "83": 4.19,
+          "84": 4.19,
+          "85": 4.392,
+          "86": 4.392,
+          "87": 4.392,
+          "88": 4.392,
+          "89": 4.392,
+          "90": 4.594,
+          "91": 4.594,
+          "92": 4.594,
+          "93": 4.594,
+          "94": 4.594,
+          "95": 4.796,
+          "96": 4.796,
+          "97": 4.796,
+          "98": 4.796,
+          "99": 4.796,
+          "100": 4.998
+        }
+      }
+    },
+    "xpRequirements": {
+      "1": 400,
+      "2": 625,
+      "3": 900,
+      "4": 1200,
+      "5": 1550,
+      "6": 1950,
+      "7": 2350,
+      "8": 2800,
+      "9": 3300,
+      "10": 3800,
+      "11": 4350,
+      "12": 4925,
+      "13": 5525,
+      "14": 6150,
+      "15": 6800,
+      "16": 7500,
+      "17": 8200,
+      "18": 8950,
+      "19": 9725,
+      "20": 10500,
+      "21": 11900,
+      "22": 12775,
+      "23": 13700,
+      "24": 14650,
+      "25": 15625,
+      "26": 16625,
+      "27": 17650,
+      "28": 18700,
+      "29": 19775,
+      "30": 20900,
+      "31": 22025,
+      "32": 23200,
+      "33": 24375,
+      "34": 25600,
+      "35": 26825,
+      "36": 28100,
+      "37": 29400,
+      "38": 30725,
+      "39": 32075,
+      "40": 33425,
+      "41": 36575,
+      "42": 38075,
+      "43": 39600,
+      "44": 41150,
+      "45": 42725,
+      "46": 44325,
+      "47": 45950,
+      "48": 47600,
+      "49": 49300,
+      "50": 51000,
+      "51": 55375,
+      "52": 57225,
+      "53": 59100,
+      "54": 61025,
+      "55": 62950,
+      "56": 64925,
+      "57": 66900,
+      "58": 68925,
+      "59": 70975,
+      "60": 73050,
+      "61": 78900,
+      "62": 81125,
+      "63": 83400,
+      "64": 85700,
+      "65": 88025,
+      "66": 90375,
+      "67": 92750,
+      "68": 95150,
+      "69": 97575,
+      "70": 100050,
+      "71": 107675,
+      "72": 110325,
+      "73": 113000,
+      "74": 115700,
+      "75": 118425,
+      "76": 121200,
+      "77": 124000,
+      "78": 126825,
+      "79": 129675,
+      "80": 132575,
+      "81": 156475,
+      "82": 175875,
+      "83": 197600,
+      "84": 221975,
+      "85": 249300,
+      "86": 279950,
+      "87": 314250,
+      "88": 352700,
+      "89": 395775,
+      "90": 444025
+    },
+    "ascensions": {
+      "1": {
+        "fight_prop_base_attack": 25.9
+      },
+      "2": {
+        "fight_prop_base_attack": 51.9
+      },
+      "3": {
+        "fight_prop_base_attack": 77.8
+      },
+      "4": {
+        "fight_prop_base_attack": 103.7
+      },
+      "5": {
+        "fight_prop_base_attack": 129.7
+      },
+      "6": {
+        "fight_prop_base_attack": 155.6
+      }
+    },
+    "refinements": {
+      "1": {
+        "name": "",
+        "desc": "When using the Elemental Skill, Elemental Mastery is increased by <color=#99FFFFFF>52</color> for 12s. This effect has a maximum of 2 stacks, and the duration of each stack is independent of the others.",
+        "param_list": [
+          52,
+          12,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "2": {
+        "name": "",
+        "desc": "When using the Elemental Skill, Elemental Mastery is increased by <color=#99FFFFFF>65</color> for 12s. This effect has a maximum of 2 stacks, and the duration of each stack is independent of the others.",
+        "param_list": [
+          65,
+          12,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "3": {
+        "name": "",
+        "desc": "When using the Elemental Skill, Elemental Mastery is increased by <color=#99FFFFFF>78</color> for 12s. This effect has a maximum of 2 stacks, and the duration of each stack is independent of the others.",
+        "param_list": [
+          78,
+          12,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "4": {
+        "name": "",
+        "desc": "When using the Elemental Skill, Elemental Mastery is increased by <color=#99FFFFFF>91</color> for 12s. This effect has a maximum of 2 stacks, and the duration of each stack is independent of the others.",
+        "param_list": [
+          91,
+          12,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "5": {
+        "name": "",
+        "desc": "When using the Elemental Skill, Elemental Mastery is increased by <color=#99FFFFFF>104</color> for 12s. This effect has a maximum of 2 stacks, and the duration of each stack is independent of the others.",
+        "param_list": [
+          104,
+          12,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "materials": {
+      "1": {
+        "cost": 5000,
+        "materials": [
+          {
+            "itemId": "114021",
+            "quantity": 3,
+            "name": "Grain of Aerosiderite",
+            "rarity": 2,
+            "type": "Weapon Ascension Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_114021.webp"
+            }
+          },
+          {
+            "itemId": "112041",
+            "quantity": 3,
+            "name": "Fragile Bone Shard",
+            "rarity": 2,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_112041.webp"
+            }
+          },
+          {
+            "itemId": "112032",
+            "quantity": 2,
+            "name": "Recruit's Insignia",
+            "rarity": 1,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_112032.webp"
+            }
+          }
+        ]
+      },
+      "2": {
+        "cost": 15000,
+        "materials": [
+          {
+            "itemId": "114022",
+            "quantity": 3,
+            "name": "Piece of Aerosiderite",
+            "rarity": 3,
+            "type": "Weapon Ascension Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_114022.webp"
+            }
+          },
+          {
+            "itemId": "112041",
+            "quantity": 12,
+            "name": "Fragile Bone Shard",
+            "rarity": 2,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_112041.webp"
+            }
+          },
+          {
+            "itemId": "112032",
+            "quantity": 8,
+            "name": "Recruit's Insignia",
+            "rarity": 1,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_112032.webp"
+            }
+          }
+        ]
+      },
+      "3": {
+        "cost": 20000,
+        "materials": [
+          {
+            "itemId": "114022",
+            "quantity": 6,
+            "name": "Piece of Aerosiderite",
+            "rarity": 3,
+            "type": "Weapon Ascension Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_114022.webp"
+            }
+          },
+          {
+            "itemId": "112042",
+            "quantity": 6,
+            "name": "Sturdy Bone Shard",
+            "rarity": 3,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_112042.webp"
+            }
+          },
+          {
+            "itemId": "112033",
+            "quantity": 6,
+            "name": "Sergeant's Insignia",
+            "rarity": 2,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_112033.webp"
+            }
+          }
+        ]
+      },
+      "4": {
+        "cost": 30000,
+        "materials": [
+          {
+            "itemId": "114023",
+            "quantity": 3,
+            "name": "Bit of Aerosiderite",
+            "rarity": 4,
+            "type": "Weapon Ascension Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_114023.webp"
+            }
+          },
+          {
+            "itemId": "112042",
+            "quantity": 12,
+            "name": "Sturdy Bone Shard",
+            "rarity": 3,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_112042.webp"
+            }
+          },
+          {
+            "itemId": "112033",
+            "quantity": 9,
+            "name": "Sergeant's Insignia",
+            "rarity": 2,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_112033.webp"
+            }
+          }
+        ]
+      },
+      "5": {
+        "cost": 35000,
+        "materials": [
+          {
+            "itemId": "114023",
+            "quantity": 6,
+            "name": "Bit of Aerosiderite",
+            "rarity": 4,
+            "type": "Weapon Ascension Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_114023.webp"
+            }
+          },
+          {
+            "itemId": "112043",
+            "quantity": 9,
+            "name": "Fossilized Bone Shard",
+            "rarity": 4,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_112043.webp"
+            }
+          },
+          {
+            "itemId": "112034",
+            "quantity": 6,
+            "name": "Lieutenant's Insignia",
+            "rarity": 3,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_112034.webp"
+            }
+          }
+        ]
+      },
+      "6": {
+        "cost": 45000,
+        "materials": [
+          {
+            "itemId": "114024",
+            "quantity": 4,
+            "name": "Chunk of Aerosiderite",
+            "rarity": 5,
+            "type": "Weapon Ascension Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_114024.webp"
+            }
+          },
+          {
+            "itemId": "112043",
+            "quantity": 18,
+            "name": "Fossilized Bone Shard",
+            "rarity": 4,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_112043.webp"
+            }
+          },
+          {
+            "itemId": "112034",
+            "quantity": 12,
+            "name": "Lieutenant's Insignia",
+            "rarity": 3,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_112034.webp"
+            }
+          }
+        ]
+      }
+    },
+    "liveComparison": {
+      "currentHash": "5799f67544b09609cff38866848f77f391c0b81d97b781c36b5ffdb6499d9b86"
+    }
+  },
+  {
     "id": "11501",
     "contentStatus": "live",
     "name": "Aquila Favonia",
@@ -35135,11 +36407,11 @@
   },
   {
     "id": "11521",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Exaiphanes Blade",
     "rarity": 5,
     "type": "WEAPON_SWORD_ONE_HAND",
-    "description": "A longsword that once shone with the light of the very stars. In the voyager's hand, it becomes a brand-new light that has nothing to do with any past era.",
+    "description": "A longsword that once shone with the Pale Star's light. In the voyager's hand, it becomes a brand-new light that has nothing to do with any past era.",
     "attack": 608,
     "subStat": "FIGHT_PROP_CRITICAL",
     "assets": {
@@ -35776,7 +37048,643 @@
     },
     "liveComparison": {
       "liveHash": "468ae1436c13ec01d43e990bb9e856d4547a3abbe2fde4c342d022bae5dd2567",
-      "currentHash": "468ae1436c13ec01d43e990bb9e856d4547a3abbe2fde4c342d022bae5dd2567"
+      "currentHash": "f69ce7c2a55921e95c8efcc2813f6565fe804b8b35fc07fdf97ab93acb6387fe"
+    }
+  },
+  {
+    "id": "11522",
+    "contentStatus": "beta",
+    "name": "Weapon: Sword",
+    "rarity": 5,
+    "type": "WEAPON_SWORD_ONE_HAND",
+    "attack": 674,
+    "subStat": "FIGHT_PROP_CRITICAL_HURT",
+    "assets": {
+      "icon": "GameData/gi/assets/weapons/icons/UI_EquipIcon_Sword_Samosvist.webp",
+      "gacha": "GameData/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Sword_Samosvist.webp"
+    },
+    "properties": [
+      {
+        "init_value": 47.537,
+        "prop_type": "FIGHT_PROP_BASE_ATTACK",
+        "type": "GROW_CURVE_ATTACK_302"
+      },
+      {
+        "init_value": 0.096,
+        "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+        "type": "GROW_CURVE_CRITICAL_301"
+      }
+    ],
+    "stats": {
+      "atk": {
+        "base": 47.537,
+        "levels": {
+          "1": 1,
+          "2": 1.091,
+          "3": 1.183,
+          "4": 1.275,
+          "5": 1.368,
+          "6": 1.461,
+          "7": 1.554,
+          "8": 1.648,
+          "9": 1.743,
+          "10": 1.837,
+          "11": 1.933,
+          "12": 2.028,
+          "13": 2.124,
+          "14": 2.22,
+          "15": 2.317,
+          "16": 2.414,
+          "17": 2.511,
+          "18": 2.608,
+          "19": 2.706,
+          "20": 2.804,
+          "21": 2.903,
+          "22": 3.002,
+          "23": 3.101,
+          "24": 3.2,
+          "25": 3.3,
+          "26": 3.4,
+          "27": 3.5,
+          "28": 3.601,
+          "29": 3.701,
+          "30": 3.803,
+          "31": 3.904,
+          "32": 4.005,
+          "33": 4.107,
+          "34": 4.209,
+          "35": 4.312,
+          "36": 4.414,
+          "37": 4.517,
+          "38": 4.62,
+          "39": 4.723,
+          "40": 4.827,
+          "41": 4.931,
+          "42": 5.035,
+          "43": 5.139,
+          "44": 5.243,
+          "45": 5.348,
+          "46": 5.453,
+          "47": 5.558,
+          "48": 5.663,
+          "49": 5.768,
+          "50": 5.874,
+          "51": 5.98,
+          "52": 6.086,
+          "53": 6.192,
+          "54": 6.299,
+          "55": 6.406,
+          "56": 6.513,
+          "57": 6.62,
+          "58": 6.727,
+          "59": 6.835,
+          "60": 6.942,
+          "61": 7.05,
+          "62": 7.158,
+          "63": 7.267,
+          "64": 7.375,
+          "65": 7.484,
+          "66": 7.592,
+          "67": 7.701,
+          "68": 7.811,
+          "69": 7.92,
+          "70": 8.03,
+          "71": 8.139,
+          "72": 8.249,
+          "73": 8.359,
+          "74": 8.47,
+          "75": 8.58,
+          "76": 8.691,
+          "77": 8.802,
+          "78": 8.913,
+          "79": 9.024,
+          "80": 9.135,
+          "81": 9.247,
+          "82": 9.358,
+          "83": 9.47,
+          "84": 9.582,
+          "85": 9.694,
+          "86": 9.807,
+          "87": 9.919,
+          "88": 10.032,
+          "89": 10.145,
+          "90": 10.258,
+          "91": 10.371,
+          "92": 10.485,
+          "93": 10.598,
+          "94": 10.712,
+          "95": 10.826,
+          "96": 10.94,
+          "97": 11.054,
+          "98": 11.168,
+          "99": 11.283,
+          "100": 11.397
+        }
+      },
+      "fight_prop_critical_hurt": {
+        "base": 0.096,
+        "levels": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1.162,
+          "6": 1.162,
+          "7": 1.162,
+          "8": 1.162,
+          "9": 1.162,
+          "10": 1.363,
+          "11": 1.363,
+          "12": 1.363,
+          "13": 1.363,
+          "14": 1.363,
+          "15": 1.565,
+          "16": 1.565,
+          "17": 1.565,
+          "18": 1.565,
+          "19": 1.565,
+          "20": 1.767,
+          "21": 1.767,
+          "22": 1.767,
+          "23": 1.767,
+          "24": 1.767,
+          "25": 1.969,
+          "26": 1.969,
+          "27": 1.969,
+          "28": 1.969,
+          "29": 1.969,
+          "30": 2.171,
+          "31": 2.171,
+          "32": 2.171,
+          "33": 2.171,
+          "34": 2.171,
+          "35": 2.373,
+          "36": 2.373,
+          "37": 2.373,
+          "38": 2.373,
+          "39": 2.373,
+          "40": 2.575,
+          "41": 2.575,
+          "42": 2.575,
+          "43": 2.575,
+          "44": 2.575,
+          "45": 2.777,
+          "46": 2.777,
+          "47": 2.777,
+          "48": 2.777,
+          "49": 2.777,
+          "50": 2.979,
+          "51": 2.979,
+          "52": 2.979,
+          "53": 2.979,
+          "54": 2.979,
+          "55": 3.181,
+          "56": 3.181,
+          "57": 3.181,
+          "58": 3.181,
+          "59": 3.181,
+          "60": 3.383,
+          "61": 3.383,
+          "62": 3.383,
+          "63": 3.383,
+          "64": 3.383,
+          "65": 3.585,
+          "66": 3.585,
+          "67": 3.585,
+          "68": 3.585,
+          "69": 3.585,
+          "70": 3.786,
+          "71": 3.786,
+          "72": 3.786,
+          "73": 3.786,
+          "74": 3.786,
+          "75": 3.988,
+          "76": 3.988,
+          "77": 3.988,
+          "78": 3.988,
+          "79": 3.988,
+          "80": 4.19,
+          "81": 4.19,
+          "82": 4.19,
+          "83": 4.19,
+          "84": 4.19,
+          "85": 4.392,
+          "86": 4.392,
+          "87": 4.392,
+          "88": 4.392,
+          "89": 4.392,
+          "90": 4.594,
+          "91": 4.594,
+          "92": 4.594,
+          "93": 4.594,
+          "94": 4.594,
+          "95": 4.796,
+          "96": 4.796,
+          "97": 4.796,
+          "98": 4.796,
+          "99": 4.796,
+          "100": 4.998
+        }
+      }
+    },
+    "xpRequirements": {
+      "1": 600,
+      "2": 950,
+      "3": 1350,
+      "4": 1800,
+      "5": 2325,
+      "6": 2925,
+      "7": 3525,
+      "8": 4200,
+      "9": 4950,
+      "10": 5700,
+      "11": 6525,
+      "12": 7400,
+      "13": 8300,
+      "14": 9225,
+      "15": 10200,
+      "16": 11250,
+      "17": 12300,
+      "18": 13425,
+      "19": 14600,
+      "20": 15750,
+      "21": 17850,
+      "22": 19175,
+      "23": 20550,
+      "24": 21975,
+      "25": 23450,
+      "26": 24950,
+      "27": 26475,
+      "28": 28050,
+      "29": 29675,
+      "30": 31350,
+      "31": 33050,
+      "32": 34800,
+      "33": 36575,
+      "34": 38400,
+      "35": 40250,
+      "36": 42150,
+      "37": 44100,
+      "38": 46100,
+      "39": 48125,
+      "40": 50150,
+      "41": 54875,
+      "42": 57125,
+      "43": 59400,
+      "44": 61725,
+      "45": 64100,
+      "46": 66500,
+      "47": 68925,
+      "48": 71400,
+      "49": 73950,
+      "50": 76500,
+      "51": 83075,
+      "52": 85850,
+      "53": 88650,
+      "54": 91550,
+      "55": 94425,
+      "56": 97400,
+      "57": 100350,
+      "58": 103400,
+      "59": 106475,
+      "60": 109575,
+      "61": 118350,
+      "62": 121700,
+      "63": 125100,
+      "64": 128550,
+      "65": 132050,
+      "66": 135575,
+      "67": 139125,
+      "68": 142725,
+      "69": 146375,
+      "70": 150075,
+      "71": 161525,
+      "72": 165500,
+      "73": 169500,
+      "74": 173550,
+      "75": 177650,
+      "76": 181800,
+      "77": 186000,
+      "78": 190250,
+      "79": 194525,
+      "80": 198875,
+      "81": 234725,
+      "82": 263825,
+      "83": 296400,
+      "84": 332975,
+      "85": 373950,
+      "86": 419925,
+      "87": 471375,
+      "88": 529050,
+      "89": 593675,
+      "90": 666050
+    },
+    "ascensions": {
+      "1": {
+        "fight_prop_base_attack": 31.1
+      },
+      "2": {
+        "fight_prop_base_attack": 62.2
+      },
+      "3": {
+        "fight_prop_base_attack": 93.4
+      },
+      "4": {
+        "fight_prop_base_attack": 124.5
+      },
+      "5": {
+        "fight_prop_base_attack": 155.6
+      },
+      "6": {
+        "fight_prop_base_attack": 186.7
+      }
+    },
+    "refinements": {
+      "1": {
+        "name": "Weapon Affix",
+        "desc": "The equipping character becomes the center of attention when they use their Elemental Skill or Elemental Burst, and gains different Attention effects:\\nBlazing Attention: CRIT DMG is increased by <color=#99FFFFFF>48%</color> for the next 10s;\\nDazzling Attention: Stellar Swirl reaction DMG is increased by <color=#99FFFFFF>28%</color> for the next 10s;\\nRadiant Attention: Regenerates <color=#99FFFFFF>3</color> Elemental Energy.\\nEach trigger applies one of the above effects, cycling through the sequence above.",
+        "param_list": [
+          0.48,
+          0.28,
+          3,
+          10,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "2": {
+        "name": "Weapon Affix",
+        "desc": "The equipping character becomes the center of attention when they use their Elemental Skill or Elemental Burst, and gains different Attention effects:\\nBlazing Attention: CRIT DMG is increased by <color=#99FFFFFF>62%</color> for the next 10s;\\nDazzling Attention: Stellar Swirl reaction DMG is increased by <color=#99FFFFFF>35%</color> for the next 10s;\\nRadiant Attention: Regenerates <color=#99FFFFFF>3.5</color> Elemental Energy.\\nEach trigger applies one of the above effects, cycling through the sequence above.",
+        "param_list": [
+          0.62,
+          0.35,
+          3.5,
+          10,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "3": {
+        "name": "Weapon Affix",
+        "desc": "The equipping character becomes the center of attention when they use their Elemental Skill or Elemental Burst, and gains different Attention effects:\\nBlazing Attention: CRIT DMG is increased by <color=#99FFFFFF>76%</color> for the next 10s;\\nDazzling Attention: Stellar Swirl reaction DMG is increased by <color=#99FFFFFF>42%</color> for the next 10s;\\nRadiant Attention: Regenerates <color=#99FFFFFF>4</color> Elemental Energy.\\nEach trigger applies one of the above effects, cycling through the sequence above.",
+        "param_list": [
+          0.76,
+          0.42,
+          4,
+          10,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "4": {
+        "name": "Weapon Affix",
+        "desc": "The equipping character becomes the center of attention when they use their Elemental Skill or Elemental Burst, and gains different Attention effects:\\nBlazing Attention: CRIT DMG is increased by <color=#99FFFFFF>90%</color> for the next 10s;\\nDazzling Attention: Stellar Swirl reaction DMG is increased by <color=#99FFFFFF>49%</color> for the next 10s;\\nRadiant Attention: Regenerates <color=#99FFFFFF>4.5</color> Elemental Energy.\\nEach trigger applies one of the above effects, cycling through the sequence above.",
+        "param_list": [
+          0.9,
+          0.49,
+          4.5,
+          10,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "5": {
+        "name": "Weapon Affix",
+        "desc": "The equipping character becomes the center of attention when they use their Elemental Skill or Elemental Burst, and gains different Attention effects:\\nBlazing Attention: CRIT DMG is increased by <color=#99FFFFFF>104%</color> for the next 10s;\\nDazzling Attention: Stellar Swirl reaction DMG is increased by <color=#99FFFFFF>56%</color> for the next 10s;\\nRadiant Attention: Regenerates <color=#99FFFFFF>5</color> Elemental Energy.\\nEach trigger applies one of the above effects, cycling through the sequence above.",
+        "param_list": [
+          1.04,
+          0.56,
+          5,
+          10,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "materials": {
+      "1": {
+        "cost": 10000,
+        "materials": [
+          {
+            "itemId": "114085",
+            "quantity": 5,
+            "name": "Rise of the Pale Star Army",
+            "rarity": 2,
+            "type": "Weapon Ascension Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_114085.webp"
+            }
+          },
+          {
+            "itemId": "112155",
+            "quantity": 5,
+            "name": "Hollow Root of Life",
+            "rarity": 2,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_112155.webp"
+            }
+          },
+          {
+            "itemId": "112149",
+            "quantity": 3,
+            "name": "Chimeric Core",
+            "rarity": 1,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_112149.webp"
+            }
+          }
+        ]
+      },
+      "2": {
+        "cost": 20000,
+        "materials": [
+          {
+            "itemId": "114086",
+            "quantity": 5,
+            "name": "Muster of the Pale Star Army",
+            "rarity": 3,
+            "type": "Weapon Ascension Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_114086.webp"
+            }
+          },
+          {
+            "itemId": "112155",
+            "quantity": 18,
+            "name": "Hollow Root of Life",
+            "rarity": 2,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_112155.webp"
+            }
+          },
+          {
+            "itemId": "112149",
+            "quantity": 12,
+            "name": "Chimeric Core",
+            "rarity": 1,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_112149.webp"
+            }
+          }
+        ]
+      },
+      "3": {
+        "cost": 30000,
+        "materials": [
+          {
+            "itemId": "114086",
+            "quantity": 9,
+            "name": "Muster of the Pale Star Army",
+            "rarity": 3,
+            "type": "Weapon Ascension Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_114086.webp"
+            }
+          },
+          {
+            "itemId": "112156",
+            "quantity": 9,
+            "name": "Sprout Node of Life",
+            "rarity": 3,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_112156.webp"
+            }
+          },
+          {
+            "itemId": "112150",
+            "quantity": 9,
+            "name": "Symbiotic Chimeric Nucleus",
+            "rarity": 2,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_112150.webp"
+            }
+          }
+        ]
+      },
+      "4": {
+        "cost": 45000,
+        "materials": [
+          {
+            "itemId": "114087",
+            "quantity": 5,
+            "name": "Clarion of the Pale Star Army",
+            "rarity": 4,
+            "type": "Weapon Ascension Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_114087.webp"
+            }
+          },
+          {
+            "itemId": "112156",
+            "quantity": 18,
+            "name": "Sprout Node of Life",
+            "rarity": 3,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_112156.webp"
+            }
+          },
+          {
+            "itemId": "112150",
+            "quantity": 14,
+            "name": "Symbiotic Chimeric Nucleus",
+            "rarity": 2,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_112150.webp"
+            }
+          }
+        ]
+      },
+      "5": {
+        "cost": 55000,
+        "materials": [
+          {
+            "itemId": "114087",
+            "quantity": 9,
+            "name": "Clarion of the Pale Star Army",
+            "rarity": 4,
+            "type": "Weapon Ascension Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_114087.webp"
+            }
+          },
+          {
+            "itemId": "112157",
+            "quantity": 14,
+            "name": "Coiled Core of Life",
+            "rarity": 4,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_112157.webp"
+            }
+          },
+          {
+            "itemId": "112151",
+            "quantity": 9,
+            "name": "Prime Chimeric Nexus",
+            "rarity": 3,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_112151.webp"
+            }
+          }
+        ]
+      },
+      "6": {
+        "cost": 65000,
+        "materials": [
+          {
+            "itemId": "114088",
+            "quantity": 6,
+            "name": "Triumph of the Pale Star Army",
+            "rarity": 5,
+            "type": "Weapon Ascension Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_114088.webp"
+            }
+          },
+          {
+            "itemId": "112157",
+            "quantity": 27,
+            "name": "Coiled Core of Life",
+            "rarity": 4,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_112157.webp"
+            }
+          },
+          {
+            "itemId": "112151",
+            "quantity": 18,
+            "name": "Prime Chimeric Nexus",
+            "rarity": 3,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_112151.webp"
+            }
+          }
+        ]
+      }
+    },
+    "liveComparison": {
+      "currentHash": "e1c16910eab08cc1f6526518fc55fb298259c2e54495b16c2dc26dde289a498c"
     }
   },
   {
@@ -113704,6 +115612,642 @@
     }
   },
   {
+    "id": "14437",
+    "contentStatus": "beta",
+    "name": "Weapon: Catalyst",
+    "rarity": 4,
+    "type": "WEAPON_CATALYST",
+    "attack": 510,
+    "subStat": "FIGHT_PROP_CRITICAL_HURT",
+    "assets": {
+      "icon": "GameData/gi/assets/weapons/icons/UI_EquipIcon_Catalyst_FrostScepter.webp",
+      "gacha": "GameData/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Catalyst_FrostScepter.webp"
+    },
+    "properties": [
+      {
+        "init_value": 42.401,
+        "prop_type": "FIGHT_PROP_BASE_ATTACK",
+        "type": "GROW_CURVE_ATTACK_201"
+      },
+      {
+        "init_value": 0.12,
+        "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+        "type": "GROW_CURVE_CRITICAL_201"
+      }
+    ],
+    "stats": {
+      "atk": {
+        "base": 42.401,
+        "levels": {
+          "1": 1,
+          "2": 1.083,
+          "3": 1.165,
+          "4": 1.248,
+          "5": 1.33,
+          "6": 1.413,
+          "7": 1.495,
+          "8": 1.578,
+          "9": 1.661,
+          "10": 1.743,
+          "11": 1.826,
+          "12": 1.908,
+          "13": 1.991,
+          "14": 2.073,
+          "15": 2.156,
+          "16": 2.239,
+          "17": 2.321,
+          "18": 2.404,
+          "19": 2.486,
+          "20": 2.569,
+          "21": 2.651,
+          "22": 2.734,
+          "23": 2.817,
+          "24": 2.899,
+          "25": 2.982,
+          "26": 3.064,
+          "27": 3.147,
+          "28": 3.229,
+          "29": 3.312,
+          "30": 3.394,
+          "31": 3.477,
+          "32": 3.56,
+          "33": 3.642,
+          "34": 3.725,
+          "35": 3.807,
+          "36": 3.89,
+          "37": 3.972,
+          "38": 4.055,
+          "39": 4.138,
+          "40": 4.22,
+          "41": 4.303,
+          "42": 4.385,
+          "43": 4.468,
+          "44": 4.55,
+          "45": 4.633,
+          "46": 4.716,
+          "47": 4.798,
+          "48": 4.881,
+          "49": 4.963,
+          "50": 5.046,
+          "51": 5.128,
+          "52": 5.211,
+          "53": 5.294,
+          "54": 5.376,
+          "55": 5.459,
+          "56": 5.541,
+          "57": 5.624,
+          "58": 5.706,
+          "59": 5.789,
+          "60": 5.872,
+          "61": 5.954,
+          "62": 6.037,
+          "63": 6.119,
+          "64": 6.202,
+          "65": 6.284,
+          "66": 6.367,
+          "67": 6.45,
+          "68": 6.532,
+          "69": 6.615,
+          "70": 6.697,
+          "71": 6.78,
+          "72": 6.862,
+          "73": 6.945,
+          "74": 7.028,
+          "75": 7.11,
+          "76": 7.193,
+          "77": 7.275,
+          "78": 7.358,
+          "79": 7.44,
+          "80": 7.523,
+          "81": 7.606,
+          "82": 7.688,
+          "83": 7.771,
+          "84": 7.853,
+          "85": 7.936,
+          "86": 8.018,
+          "87": 8.101,
+          "88": 8.183,
+          "89": 8.266,
+          "90": 8.349,
+          "91": 8.431,
+          "92": 8.514,
+          "93": 8.596,
+          "94": 8.679,
+          "95": 8.761,
+          "96": 8.844,
+          "97": 8.927,
+          "98": 9.009,
+          "99": 9.092,
+          "100": 9.174
+        }
+      },
+      "fight_prop_critical_hurt": {
+        "base": 0.12,
+        "levels": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1.162,
+          "6": 1.162,
+          "7": 1.162,
+          "8": 1.162,
+          "9": 1.162,
+          "10": 1.363,
+          "11": 1.363,
+          "12": 1.363,
+          "13": 1.363,
+          "14": 1.363,
+          "15": 1.565,
+          "16": 1.565,
+          "17": 1.565,
+          "18": 1.565,
+          "19": 1.565,
+          "20": 1.767,
+          "21": 1.767,
+          "22": 1.767,
+          "23": 1.767,
+          "24": 1.767,
+          "25": 1.969,
+          "26": 1.969,
+          "27": 1.969,
+          "28": 1.969,
+          "29": 1.969,
+          "30": 2.171,
+          "31": 2.171,
+          "32": 2.171,
+          "33": 2.171,
+          "34": 2.171,
+          "35": 2.373,
+          "36": 2.373,
+          "37": 2.373,
+          "38": 2.373,
+          "39": 2.373,
+          "40": 2.575,
+          "41": 2.575,
+          "42": 2.575,
+          "43": 2.575,
+          "44": 2.575,
+          "45": 2.777,
+          "46": 2.777,
+          "47": 2.777,
+          "48": 2.777,
+          "49": 2.777,
+          "50": 2.979,
+          "51": 2.979,
+          "52": 2.979,
+          "53": 2.979,
+          "54": 2.979,
+          "55": 3.181,
+          "56": 3.181,
+          "57": 3.181,
+          "58": 3.181,
+          "59": 3.181,
+          "60": 3.383,
+          "61": 3.383,
+          "62": 3.383,
+          "63": 3.383,
+          "64": 3.383,
+          "65": 3.585,
+          "66": 3.585,
+          "67": 3.585,
+          "68": 3.585,
+          "69": 3.585,
+          "70": 3.786,
+          "71": 3.786,
+          "72": 3.786,
+          "73": 3.786,
+          "74": 3.786,
+          "75": 3.988,
+          "76": 3.988,
+          "77": 3.988,
+          "78": 3.988,
+          "79": 3.988,
+          "80": 4.19,
+          "81": 4.19,
+          "82": 4.19,
+          "83": 4.19,
+          "84": 4.19,
+          "85": 4.392,
+          "86": 4.392,
+          "87": 4.392,
+          "88": 4.392,
+          "89": 4.392,
+          "90": 4.594,
+          "91": 4.594,
+          "92": 4.594,
+          "93": 4.594,
+          "94": 4.594,
+          "95": 4.796,
+          "96": 4.796,
+          "97": 4.796,
+          "98": 4.796,
+          "99": 4.796,
+          "100": 4.998
+        }
+      }
+    },
+    "xpRequirements": {
+      "1": 400,
+      "2": 625,
+      "3": 900,
+      "4": 1200,
+      "5": 1550,
+      "6": 1950,
+      "7": 2350,
+      "8": 2800,
+      "9": 3300,
+      "10": 3800,
+      "11": 4350,
+      "12": 4925,
+      "13": 5525,
+      "14": 6150,
+      "15": 6800,
+      "16": 7500,
+      "17": 8200,
+      "18": 8950,
+      "19": 9725,
+      "20": 10500,
+      "21": 11900,
+      "22": 12775,
+      "23": 13700,
+      "24": 14650,
+      "25": 15625,
+      "26": 16625,
+      "27": 17650,
+      "28": 18700,
+      "29": 19775,
+      "30": 20900,
+      "31": 22025,
+      "32": 23200,
+      "33": 24375,
+      "34": 25600,
+      "35": 26825,
+      "36": 28100,
+      "37": 29400,
+      "38": 30725,
+      "39": 32075,
+      "40": 33425,
+      "41": 36575,
+      "42": 38075,
+      "43": 39600,
+      "44": 41150,
+      "45": 42725,
+      "46": 44325,
+      "47": 45950,
+      "48": 47600,
+      "49": 49300,
+      "50": 51000,
+      "51": 55375,
+      "52": 57225,
+      "53": 59100,
+      "54": 61025,
+      "55": 62950,
+      "56": 64925,
+      "57": 66900,
+      "58": 68925,
+      "59": 70975,
+      "60": 73050,
+      "61": 78900,
+      "62": 81125,
+      "63": 83400,
+      "64": 85700,
+      "65": 88025,
+      "66": 90375,
+      "67": 92750,
+      "68": 95150,
+      "69": 97575,
+      "70": 100050,
+      "71": 107675,
+      "72": 110325,
+      "73": 113000,
+      "74": 115700,
+      "75": 118425,
+      "76": 121200,
+      "77": 124000,
+      "78": 126825,
+      "79": 129675,
+      "80": 132575,
+      "81": 156475,
+      "82": 175875,
+      "83": 197600,
+      "84": 221975,
+      "85": 249300,
+      "86": 279950,
+      "87": 314250,
+      "88": 352700,
+      "89": 395775,
+      "90": 444025
+    },
+    "ascensions": {
+      "1": {
+        "fight_prop_base_attack": 25.9
+      },
+      "2": {
+        "fight_prop_base_attack": 51.9
+      },
+      "3": {
+        "fight_prop_base_attack": 77.8
+      },
+      "4": {
+        "fight_prop_base_attack": 103.7
+      },
+      "5": {
+        "fight_prop_base_attack": 129.7
+      },
+      "6": {
+        "fight_prop_base_attack": 155.6
+      }
+    },
+    "refinements": {
+      "1": {
+        "name": "",
+        "desc": "For every Cryo character in the party, the equipping character's Elemental Mastery is increased by <color=#99FFFFFF>24</color>. For every Electro character in the party, ATK is increased by <color=#99FFFFFF>4.8%</color>. Cryo character buffs are applied first. If the equipping character is in the Radiance: Stellar-Conduct or Radiance: Stellar Swirl state, each Cryo or Electro character in the party will grant the equipping character <color=#99FFFFFF>20</color> Elemental Mastery and a <color=#99FFFFFF>6%</color> Stellar-Conduct/Stellar Swirl reaction DMG increase. This boost can be obtained for a maximum of 4 characters in the party.",
+        "param_list": [
+          24,
+          0.048,
+          20,
+          0.06,
+          4,
+          0,
+          0,
+          0
+        ]
+      },
+      "2": {
+        "name": "",
+        "desc": "For every Cryo character in the party, the equipping character's Elemental Mastery is increased by <color=#99FFFFFF>30</color>. For every Electro character in the party, ATK is increased by <color=#99FFFFFF>6%</color>. Cryo character buffs are applied first. If the equipping character is in the Radiance: Stellar-Conduct or Radiance: Stellar Swirl state, each Cryo or Electro character in the party will grant the equipping character <color=#99FFFFFF>25</color> Elemental Mastery and a <color=#99FFFFFF>7.5%</color> Stellar-Conduct/Stellar Swirl reaction DMG increase. This boost can be obtained for a maximum of 4 characters in the party.",
+        "param_list": [
+          30,
+          0.06,
+          25,
+          0.075,
+          4,
+          0,
+          0,
+          0
+        ]
+      },
+      "3": {
+        "name": "",
+        "desc": "For every Cryo character in the party, the equipping character's Elemental Mastery is increased by <color=#99FFFFFF>36</color>. For every Electro character in the party, ATK is increased by <color=#99FFFFFF>7.2%</color>. Cryo character buffs are applied first. If the equipping character is in the Radiance: Stellar-Conduct or Radiance: Stellar Swirl state, each Cryo or Electro character in the party will grant the equipping character <color=#99FFFFFF>30</color> Elemental Mastery and a <color=#99FFFFFF>9%</color> Stellar-Conduct/Stellar Swirl reaction DMG increase. This boost can be obtained for a maximum of 4 characters in the party.",
+        "param_list": [
+          36,
+          0.072,
+          30,
+          0.09,
+          4,
+          0,
+          0,
+          0
+        ]
+      },
+      "4": {
+        "name": "",
+        "desc": "For every Cryo character in the party, the equipping character's Elemental Mastery is increased by <color=#99FFFFFF>42</color>. For every Electro character in the party, ATK is increased by <color=#99FFFFFF>8.4%</color>. Cryo character buffs are applied first. If the equipping character is in the Radiance: Stellar-Conduct or Radiance: Stellar Swirl state, each Cryo or Electro character in the party will grant the equipping character <color=#99FFFFFF>30</color> Elemental Mastery and a <color=#99FFFFFF>10.5%</color> Stellar-Conduct/Stellar Swirl reaction DMG increase. This boost can be obtained for a maximum of 4 characters in the party.",
+        "param_list": [
+          42,
+          0.084,
+          35,
+          0.105,
+          4,
+          0,
+          0,
+          0
+        ]
+      },
+      "5": {
+        "name": "",
+        "desc": "For every Cryo character in the party, the equipping character's Elemental Mastery is increased by <color=#99FFFFFF>48</color>. For every Electro character in the party, ATK is increased by <color=#99FFFFFF>9.6%</color>. Cryo character buffs are applied first. If the equipping character is in the Radiance: Stellar-Conduct or Radiance: Stellar Swirl state, each Cryo or Electro character in the party will grant the equipping character <color=#99FFFFFF>40</color> Elemental Mastery and a <color=#99FFFFFF>12%</color> Stellar-Conduct/Stellar Swirl reaction DMG increase. This boost can be obtained for a maximum of 4 characters in the party.",
+        "param_list": [
+          48,
+          0.096,
+          40,
+          0.12,
+          4,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "materials": {
+      "1": {
+        "cost": 5000,
+        "materials": [
+          {
+            "itemId": "114093",
+            "quantity": 3,
+            "name": "The Frost Emperor's Revival",
+            "rarity": 2,
+            "type": "Weapon Ascension Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_114093.webp"
+            }
+          },
+          {
+            "itemId": "112155",
+            "quantity": 3,
+            "name": "Hollow Root of Life",
+            "rarity": 2,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_112155.webp"
+            }
+          },
+          {
+            "itemId": "112146",
+            "quantity": 2,
+            "name": "Ethereal Glimmershard",
+            "rarity": 1,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_112146.webp"
+            }
+          }
+        ]
+      },
+      "2": {
+        "cost": 15000,
+        "materials": [
+          {
+            "itemId": "114094",
+            "quantity": 3,
+            "name": "The Frost Emperor's Ceremony",
+            "rarity": 3,
+            "type": "Weapon Ascension Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_114094.webp"
+            }
+          },
+          {
+            "itemId": "112155",
+            "quantity": 12,
+            "name": "Hollow Root of Life",
+            "rarity": 2,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_112155.webp"
+            }
+          },
+          {
+            "itemId": "112146",
+            "quantity": 8,
+            "name": "Ethereal Glimmershard",
+            "rarity": 1,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_112146.webp"
+            }
+          }
+        ]
+      },
+      "3": {
+        "cost": 20000,
+        "materials": [
+          {
+            "itemId": "114094",
+            "quantity": 6,
+            "name": "The Frost Emperor's Ceremony",
+            "rarity": 3,
+            "type": "Weapon Ascension Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_114094.webp"
+            }
+          },
+          {
+            "itemId": "112156",
+            "quantity": 6,
+            "name": "Sprout Node of Life",
+            "rarity": 3,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_112156.webp"
+            }
+          },
+          {
+            "itemId": "112147",
+            "quantity": 6,
+            "name": "Ethereal Crystal",
+            "rarity": 2,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_112147.webp"
+            }
+          }
+        ]
+      },
+      "4": {
+        "cost": 30000,
+        "materials": [
+          {
+            "itemId": "114095",
+            "quantity": 3,
+            "name": "The Frost Emperor's Lament",
+            "rarity": 4,
+            "type": "Weapon Ascension Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_114095.webp"
+            }
+          },
+          {
+            "itemId": "112156",
+            "quantity": 12,
+            "name": "Sprout Node of Life",
+            "rarity": 3,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_112156.webp"
+            }
+          },
+          {
+            "itemId": "112147",
+            "quantity": 9,
+            "name": "Ethereal Crystal",
+            "rarity": 2,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_112147.webp"
+            }
+          }
+        ]
+      },
+      "5": {
+        "cost": 35000,
+        "materials": [
+          {
+            "itemId": "114095",
+            "quantity": 6,
+            "name": "The Frost Emperor's Lament",
+            "rarity": 4,
+            "type": "Weapon Ascension Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_114095.webp"
+            }
+          },
+          {
+            "itemId": "112157",
+            "quantity": 9,
+            "name": "Coiled Core of Life",
+            "rarity": 4,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_112157.webp"
+            }
+          },
+          {
+            "itemId": "112148",
+            "quantity": 6,
+            "name": "Ethereal Crystalscale Stone",
+            "rarity": 3,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_112148.webp"
+            }
+          }
+        ]
+      },
+      "6": {
+        "cost": 45000,
+        "materials": [
+          {
+            "itemId": "114096",
+            "quantity": 4,
+            "name": "The Frost Emperor's Farewell",
+            "rarity": 5,
+            "type": "Weapon Ascension Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_114096.webp"
+            }
+          },
+          {
+            "itemId": "112157",
+            "quantity": 18,
+            "name": "Coiled Core of Life",
+            "rarity": 4,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_112157.webp"
+            }
+          },
+          {
+            "itemId": "112148",
+            "quantity": 12,
+            "name": "Ethereal Crystalscale Stone",
+            "rarity": 3,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_112148.webp"
+            }
+          }
+        ]
+      }
+    },
+    "liveComparison": {
+      "currentHash": "57c3f1aef1a6ccf005e4b9676c183a11f552fc7ff437b638414af02358ea298e"
+    }
+  },
+  {
     "id": "14501",
     "contentStatus": "live",
     "name": "Skyward Atlas",
@@ -125975,6 +128519,642 @@
     "liveComparison": {
       "liveHash": "ddf0ecf38537b34ff6dc5bd5ae39bedaba08dd657081776bd85cbd83b2b5a268",
       "currentHash": "ddf0ecf38537b34ff6dc5bd5ae39bedaba08dd657081776bd85cbd83b2b5a268"
+    }
+  },
+  {
+    "id": "14524",
+    "contentStatus": "beta",
+    "name": "Weapon: Catalyst",
+    "rarity": 5,
+    "type": "WEAPON_CATALYST",
+    "attack": 542,
+    "subStat": "FIGHT_PROP_HP_PERCENT",
+    "assets": {
+      "icon": "GameData/gi/assets/weapons/icons/UI_EquipIcon_Catalyst_Bludnye.webp",
+      "gacha": "GameData/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Catalyst_Bludnye.webp"
+    },
+    "properties": [
+      {
+        "init_value": 44.3358,
+        "prop_type": "FIGHT_PROP_BASE_ATTACK",
+        "type": "GROW_CURVE_ATTACK_304"
+      },
+      {
+        "init_value": 0.144,
+        "prop_type": "FIGHT_PROP_HP_PERCENT",
+        "type": "GROW_CURVE_CRITICAL_301"
+      }
+    ],
+    "stats": {
+      "atk": {
+        "base": 44.3358,
+        "levels": {
+          "1": 1,
+          "2": 1.079,
+          "3": 1.159,
+          "4": 1.238,
+          "5": 1.317,
+          "6": 1.395,
+          "7": 1.474,
+          "8": 1.552,
+          "9": 1.631,
+          "10": 1.709,
+          "11": 1.787,
+          "12": 1.865,
+          "13": 1.942,
+          "14": 2.02,
+          "15": 2.098,
+          "16": 2.175,
+          "17": 2.253,
+          "18": 2.33,
+          "19": 2.408,
+          "20": 2.485,
+          "21": 2.562,
+          "22": 2.639,
+          "23": 2.717,
+          "24": 2.794,
+          "25": 2.871,
+          "26": 2.948,
+          "27": 3.026,
+          "28": 3.103,
+          "29": 3.18,
+          "30": 3.257,
+          "31": 3.334,
+          "32": 3.412,
+          "33": 3.489,
+          "34": 3.566,
+          "35": 3.644,
+          "36": 3.721,
+          "37": 3.798,
+          "38": 3.876,
+          "39": 3.953,
+          "40": 4.031,
+          "41": 4.109,
+          "42": 4.186,
+          "43": 4.264,
+          "44": 4.342,
+          "45": 4.419,
+          "46": 4.497,
+          "47": 4.575,
+          "48": 4.653,
+          "49": 4.731,
+          "50": 4.81,
+          "51": 4.888,
+          "52": 4.966,
+          "53": 5.044,
+          "54": 5.123,
+          "55": 5.201,
+          "56": 5.28,
+          "57": 5.359,
+          "58": 5.437,
+          "59": 5.516,
+          "60": 5.595,
+          "61": 5.674,
+          "62": 5.753,
+          "63": 5.833,
+          "64": 5.912,
+          "65": 5.991,
+          "66": 6.071,
+          "67": 6.15,
+          "68": 6.23,
+          "69": 6.31,
+          "70": 6.39,
+          "71": 6.47,
+          "72": 6.55,
+          "73": 6.63,
+          "74": 6.71,
+          "75": 6.791,
+          "76": 6.871,
+          "77": 6.952,
+          "78": 7.033,
+          "79": 7.113,
+          "80": 7.194,
+          "81": 7.275,
+          "82": 7.357,
+          "83": 7.438,
+          "84": 7.519,
+          "85": 7.601,
+          "86": 7.682,
+          "87": 7.764,
+          "88": 7.846,
+          "89": 7.928,
+          "90": 8.01,
+          "91": 8.092,
+          "92": 8.174,
+          "93": 8.257,
+          "94": 8.339,
+          "95": 8.422,
+          "96": 8.505,
+          "97": 8.588,
+          "98": 8.671,
+          "99": 8.754,
+          "100": 8.837
+        }
+      },
+      "fight_prop_hp_percent": {
+        "base": 0.144,
+        "levels": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1.162,
+          "6": 1.162,
+          "7": 1.162,
+          "8": 1.162,
+          "9": 1.162,
+          "10": 1.363,
+          "11": 1.363,
+          "12": 1.363,
+          "13": 1.363,
+          "14": 1.363,
+          "15": 1.565,
+          "16": 1.565,
+          "17": 1.565,
+          "18": 1.565,
+          "19": 1.565,
+          "20": 1.767,
+          "21": 1.767,
+          "22": 1.767,
+          "23": 1.767,
+          "24": 1.767,
+          "25": 1.969,
+          "26": 1.969,
+          "27": 1.969,
+          "28": 1.969,
+          "29": 1.969,
+          "30": 2.171,
+          "31": 2.171,
+          "32": 2.171,
+          "33": 2.171,
+          "34": 2.171,
+          "35": 2.373,
+          "36": 2.373,
+          "37": 2.373,
+          "38": 2.373,
+          "39": 2.373,
+          "40": 2.575,
+          "41": 2.575,
+          "42": 2.575,
+          "43": 2.575,
+          "44": 2.575,
+          "45": 2.777,
+          "46": 2.777,
+          "47": 2.777,
+          "48": 2.777,
+          "49": 2.777,
+          "50": 2.979,
+          "51": 2.979,
+          "52": 2.979,
+          "53": 2.979,
+          "54": 2.979,
+          "55": 3.181,
+          "56": 3.181,
+          "57": 3.181,
+          "58": 3.181,
+          "59": 3.181,
+          "60": 3.383,
+          "61": 3.383,
+          "62": 3.383,
+          "63": 3.383,
+          "64": 3.383,
+          "65": 3.585,
+          "66": 3.585,
+          "67": 3.585,
+          "68": 3.585,
+          "69": 3.585,
+          "70": 3.786,
+          "71": 3.786,
+          "72": 3.786,
+          "73": 3.786,
+          "74": 3.786,
+          "75": 3.988,
+          "76": 3.988,
+          "77": 3.988,
+          "78": 3.988,
+          "79": 3.988,
+          "80": 4.19,
+          "81": 4.19,
+          "82": 4.19,
+          "83": 4.19,
+          "84": 4.19,
+          "85": 4.392,
+          "86": 4.392,
+          "87": 4.392,
+          "88": 4.392,
+          "89": 4.392,
+          "90": 4.594,
+          "91": 4.594,
+          "92": 4.594,
+          "93": 4.594,
+          "94": 4.594,
+          "95": 4.796,
+          "96": 4.796,
+          "97": 4.796,
+          "98": 4.796,
+          "99": 4.796,
+          "100": 4.998
+        }
+      }
+    },
+    "xpRequirements": {
+      "1": 600,
+      "2": 950,
+      "3": 1350,
+      "4": 1800,
+      "5": 2325,
+      "6": 2925,
+      "7": 3525,
+      "8": 4200,
+      "9": 4950,
+      "10": 5700,
+      "11": 6525,
+      "12": 7400,
+      "13": 8300,
+      "14": 9225,
+      "15": 10200,
+      "16": 11250,
+      "17": 12300,
+      "18": 13425,
+      "19": 14600,
+      "20": 15750,
+      "21": 17850,
+      "22": 19175,
+      "23": 20550,
+      "24": 21975,
+      "25": 23450,
+      "26": 24950,
+      "27": 26475,
+      "28": 28050,
+      "29": 29675,
+      "30": 31350,
+      "31": 33050,
+      "32": 34800,
+      "33": 36575,
+      "34": 38400,
+      "35": 40250,
+      "36": 42150,
+      "37": 44100,
+      "38": 46100,
+      "39": 48125,
+      "40": 50150,
+      "41": 54875,
+      "42": 57125,
+      "43": 59400,
+      "44": 61725,
+      "45": 64100,
+      "46": 66500,
+      "47": 68925,
+      "48": 71400,
+      "49": 73950,
+      "50": 76500,
+      "51": 83075,
+      "52": 85850,
+      "53": 88650,
+      "54": 91550,
+      "55": 94425,
+      "56": 97400,
+      "57": 100350,
+      "58": 103400,
+      "59": 106475,
+      "60": 109575,
+      "61": 118350,
+      "62": 121700,
+      "63": 125100,
+      "64": 128550,
+      "65": 132050,
+      "66": 135575,
+      "67": 139125,
+      "68": 142725,
+      "69": 146375,
+      "70": 150075,
+      "71": 161525,
+      "72": 165500,
+      "73": 169500,
+      "74": 173550,
+      "75": 177650,
+      "76": 181800,
+      "77": 186000,
+      "78": 190250,
+      "79": 194525,
+      "80": 198875,
+      "81": 234725,
+      "82": 263825,
+      "83": 296400,
+      "84": 332975,
+      "85": 373950,
+      "86": 419925,
+      "87": 471375,
+      "88": 529050,
+      "89": 593675,
+      "90": 666050
+    },
+    "ascensions": {
+      "1": {
+        "fight_prop_base_attack": 31.1
+      },
+      "2": {
+        "fight_prop_base_attack": 62.2
+      },
+      "3": {
+        "fight_prop_base_attack": 93.4
+      },
+      "4": {
+        "fight_prop_base_attack": 124.5
+      },
+      "5": {
+        "fight_prop_base_attack": 155.6
+      },
+      "6": {
+        "fight_prop_base_attack": 186.7
+      }
+    },
+    "refinements": {
+      "1": {
+        "name": "7.1 Promo Weapon",
+        "desc": "Increases Healing Bonus by <color=#99FFFFFF>8%</color>.\\nWhen the equipping character performs healing, they receive 1 stack of the \"Hymn of the Water Imp\" effect, which increases their Max HP by <color=#99FFFFFF>5%</color>. Additionally, every 1,000 Max HP the equipping character has over 40,000 will also increase the active character's ATK by <color=#99FFFFFF>0.25%</color>, up to <color=#99FFFFFF>5%</color> in total.\\nHymn of the Water Imp lasts 8s, max 3 stacks. Each stack's duration is independent of the others'.\\nWhen a nearby party member triggers a Frozen or Stellar Swirl reaction, any currently active instances of Hymn of the Water Imp, as well as any instances that come into effect within the next 5s, become \"Triumph of the Water Imp\" instead, which further increases Max HP and ATK by 75%.\\nThe aforementioned effects can trigger even when the equipping character is not on the field.",
+        "param_list": [
+          0.05,
+          40000,
+          0.0025,
+          0.05,
+          8,
+          3,
+          5,
+          0.75
+        ]
+      },
+      "2": {
+        "name": "7.1 Promo Weapon",
+        "desc": "Increases Healing Bonus by <color=#99FFFFFF>10%</color>.\\nWhen the equipping character performs healing, they receive 1 stack of the \"Hymn of the Water Imp\" effect, which increases their Max HP by <color=#99FFFFFF>6%</color>. Additionally, every 1,000 Max HP the equipping character has over 40,000 will also increase the active character's ATK by <color=#99FFFFFF>0.325%</color>, up to <color=#99FFFFFF>6.5%</color> in total.\\nHymn of the Water Imp lasts 8s, max 3 stacks. Each stack's duration is independent of the others'.\\nWhen a nearby party member triggers a Frozen or Stellar Swirl reaction, any currently active instances of Hymn of the Water Imp, as well as any instances that come into effect within the next 5s, become \"Triumph of the Water Imp\" instead, which further increases Max HP and ATK by 75%.\\nThe aforementioned effects can trigger even when the equipping character is not on the field.",
+        "param_list": [
+          0.06,
+          40000,
+          0.00325,
+          0.065,
+          8,
+          3,
+          5,
+          0.75
+        ]
+      },
+      "3": {
+        "name": "7.1 Promo Weapon",
+        "desc": "Increases Healing Bonus by <color=#99FFFFFF>12%</color>.\\nWhen the equipping character performs healing, they receive 1 stack of the \"Hymn of the Water Imp\" effect, which increases their Max HP by <color=#99FFFFFF>7%</color>. Additionally, every 1,000 Max HP the equipping character has over 40,000 will also increase the active character's ATK by <color=#99FFFFFF>0.4%</color>, up to <color=#99FFFFFF>8%</color> in total.\\nHymn of the Water Imp lasts 8s, max 3 stacks. Each stack's duration is independent of the others'.\\nWhen a nearby party member triggers a Frozen or Stellar Swirl reaction, any currently active instances of Hymn of the Water Imp, as well as any instances that come into effect within the next 5s, become \"Triumph of the Water Imp\" instead, which further increases Max HP and ATK by 75%.\\nThe aforementioned effects can trigger even when the equipping character is not on the field.",
+        "param_list": [
+          0.07,
+          40000,
+          0.004,
+          0.08,
+          8,
+          3,
+          5,
+          0.75
+        ]
+      },
+      "4": {
+        "name": "7.1 Promo Weapon",
+        "desc": "Increases Healing Bonus by <color=#99FFFFFF>14%</color>.\\nWhen the equipping character performs healing, they receive 1 stack of the \"Hymn of the Water Imp\" effect, which increases their Max HP by <color=#99FFFFFF>8%</color>. Additionally, every 1,000 Max HP the equipping character has over 40,000 will also increase the active character's ATK by <color=#99FFFFFF>0.475%</color>, up to <color=#99FFFFFF>9.5%</color> in total.\\nHymn of the Water Imp lasts 8s, max 3 stacks. Each stack's duration is independent of the others'.\\nWhen a nearby party member triggers a Frozen or Stellar Swirl reaction, any currently active instances of Hymn of the Water Imp, as well as any instances that come into effect within the next 5s, become \"Triumph of the Water Imp\" instead, which further increases Max HP and ATK by 75%.\\nThe aforementioned effects can trigger even when the equipping character is not on the field.",
+        "param_list": [
+          0.08,
+          40000,
+          0.00475,
+          0.095,
+          8,
+          3,
+          5,
+          0.75
+        ]
+      },
+      "5": {
+        "name": "7.1 Promo Weapon",
+        "desc": "Increases Healing Bonus by <color=#99FFFFFF>16%</color>.\\nWhen the equipping character performs healing, they receive 1 stack of the \"Hymn of the Water Imp\" effect, which increases their Max HP by <color=#99FFFFFF>9%</color>. Additionally, every 1,000 Max HP the equipping character has over 40,000 will also increase the active character's ATK by <color=#99FFFFFF>0.55%</color>, up to <color=#99FFFFFF>11%</color> in total.\\nHymn of the Water Imp lasts 8s, max 3 stacks. Each stack's duration is independent of the others'.\\nWhen a nearby party member triggers a Frozen or Stellar Swirl reaction, any currently active instances of Hymn of the Water Imp, as well as any instances that come into effect within the next 5s, become \"Triumph of the Water Imp\" instead, which further increases Max HP and ATK by 75%.\\nThe aforementioned effects can trigger even when the equipping character is not on the field.",
+        "param_list": [
+          0.09,
+          40000,
+          0.0055,
+          0.11,
+          8,
+          3,
+          5,
+          0.75
+        ]
+      }
+    },
+    "materials": {
+      "1": {
+        "cost": 10000,
+        "materials": [
+          {
+            "itemId": "114089",
+            "quantity": 5,
+            "name": "Measured Pour of the Cellared Spiritual Nectar",
+            "rarity": 2,
+            "type": "Weapon Ascension Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_114089.webp"
+            }
+          },
+          {
+            "itemId": "112152",
+            "quantity": 5,
+            "name": "Accreted Fragment",
+            "rarity": 2,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_112152.webp"
+            }
+          },
+          {
+            "itemId": "112146",
+            "quantity": 3,
+            "name": "Ethereal Glimmershard",
+            "rarity": 1,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_112146.webp"
+            }
+          }
+        ]
+      },
+      "2": {
+        "cost": 20000,
+        "materials": [
+          {
+            "itemId": "114090",
+            "quantity": 5,
+            "name": "Intoxication of the Cellared Spiritual Nectar",
+            "rarity": 3,
+            "type": "Weapon Ascension Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_114090.webp"
+            }
+          },
+          {
+            "itemId": "112152",
+            "quantity": 18,
+            "name": "Accreted Fragment",
+            "rarity": 2,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_112152.webp"
+            }
+          },
+          {
+            "itemId": "112146",
+            "quantity": 12,
+            "name": "Ethereal Glimmershard",
+            "rarity": 1,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_112146.webp"
+            }
+          }
+        ]
+      },
+      "3": {
+        "cost": 30000,
+        "materials": [
+          {
+            "itemId": "114090",
+            "quantity": 9,
+            "name": "Intoxication of the Cellared Spiritual Nectar",
+            "rarity": 3,
+            "type": "Weapon Ascension Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_114090.webp"
+            }
+          },
+          {
+            "itemId": "112153",
+            "quantity": 9,
+            "name": "Accreted Mass",
+            "rarity": 3,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_112153.webp"
+            }
+          },
+          {
+            "itemId": "112147",
+            "quantity": 9,
+            "name": "Ethereal Crystal",
+            "rarity": 2,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_112147.webp"
+            }
+          }
+        ]
+      },
+      "4": {
+        "cost": 45000,
+        "materials": [
+          {
+            "itemId": "114091",
+            "quantity": 5,
+            "name": "Exhilaration of the Cellared Spiritual Nectar",
+            "rarity": 4,
+            "type": "Weapon Ascension Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_114091.webp"
+            }
+          },
+          {
+            "itemId": "112153",
+            "quantity": 18,
+            "name": "Accreted Mass",
+            "rarity": 3,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_112153.webp"
+            }
+          },
+          {
+            "itemId": "112147",
+            "quantity": 14,
+            "name": "Ethereal Crystal",
+            "rarity": 2,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_112147.webp"
+            }
+          }
+        ]
+      },
+      "5": {
+        "cost": 55000,
+        "materials": [
+          {
+            "itemId": "114091",
+            "quantity": 9,
+            "name": "Exhilaration of the Cellared Spiritual Nectar",
+            "rarity": 4,
+            "type": "Weapon Ascension Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_114091.webp"
+            }
+          },
+          {
+            "itemId": "112154",
+            "quantity": 14,
+            "name": "Accreted Growth",
+            "rarity": 4,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_112154.webp"
+            }
+          },
+          {
+            "itemId": "112148",
+            "quantity": 9,
+            "name": "Ethereal Crystalscale Stone",
+            "rarity": 3,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_112148.webp"
+            }
+          }
+        ]
+      },
+      "6": {
+        "cost": 65000,
+        "materials": [
+          {
+            "itemId": "114092",
+            "quantity": 6,
+            "name": "Revelry of the Cellared Spiritual Nectar",
+            "rarity": 5,
+            "type": "Weapon Ascension Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_114092.webp"
+            }
+          },
+          {
+            "itemId": "112154",
+            "quantity": 27,
+            "name": "Accreted Growth",
+            "rarity": 4,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_112154.webp"
+            }
+          },
+          {
+            "itemId": "112148",
+            "quantity": 18,
+            "name": "Ethereal Crystalscale Stone",
+            "rarity": 3,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_112148.webp"
+            }
+          }
+        ]
+      }
+    },
+    "liveComparison": {
+      "currentHash": "4895be5cdfcb052a4c5fc833997df1235eaf5826fd6246d2cfe00576730e8f66"
     }
   },
   {
@@ -149528,6 +152708,642 @@
     }
   },
   {
+    "id": "15437",
+    "contentStatus": "beta",
+    "name": "Weapon: Bow",
+    "rarity": 4,
+    "type": "WEAPON_BOW",
+    "attack": 510,
+    "subStat": "FIGHT_PROP_CRITICAL",
+    "assets": {
+      "icon": "GameData/gi/assets/weapons/icons/UI_EquipIcon_Bow_Windtalker.webp",
+      "gacha": "GameData/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Bow_Windtalker.webp"
+    },
+    "properties": [
+      {
+        "init_value": 42.401,
+        "prop_type": "FIGHT_PROP_BASE_ATTACK",
+        "type": "GROW_CURVE_ATTACK_201"
+      },
+      {
+        "init_value": 0.06,
+        "prop_type": "FIGHT_PROP_CRITICAL",
+        "type": "GROW_CURVE_CRITICAL_201"
+      }
+    ],
+    "stats": {
+      "atk": {
+        "base": 42.401,
+        "levels": {
+          "1": 1,
+          "2": 1.083,
+          "3": 1.165,
+          "4": 1.248,
+          "5": 1.33,
+          "6": 1.413,
+          "7": 1.495,
+          "8": 1.578,
+          "9": 1.661,
+          "10": 1.743,
+          "11": 1.826,
+          "12": 1.908,
+          "13": 1.991,
+          "14": 2.073,
+          "15": 2.156,
+          "16": 2.239,
+          "17": 2.321,
+          "18": 2.404,
+          "19": 2.486,
+          "20": 2.569,
+          "21": 2.651,
+          "22": 2.734,
+          "23": 2.817,
+          "24": 2.899,
+          "25": 2.982,
+          "26": 3.064,
+          "27": 3.147,
+          "28": 3.229,
+          "29": 3.312,
+          "30": 3.394,
+          "31": 3.477,
+          "32": 3.56,
+          "33": 3.642,
+          "34": 3.725,
+          "35": 3.807,
+          "36": 3.89,
+          "37": 3.972,
+          "38": 4.055,
+          "39": 4.138,
+          "40": 4.22,
+          "41": 4.303,
+          "42": 4.385,
+          "43": 4.468,
+          "44": 4.55,
+          "45": 4.633,
+          "46": 4.716,
+          "47": 4.798,
+          "48": 4.881,
+          "49": 4.963,
+          "50": 5.046,
+          "51": 5.128,
+          "52": 5.211,
+          "53": 5.294,
+          "54": 5.376,
+          "55": 5.459,
+          "56": 5.541,
+          "57": 5.624,
+          "58": 5.706,
+          "59": 5.789,
+          "60": 5.872,
+          "61": 5.954,
+          "62": 6.037,
+          "63": 6.119,
+          "64": 6.202,
+          "65": 6.284,
+          "66": 6.367,
+          "67": 6.45,
+          "68": 6.532,
+          "69": 6.615,
+          "70": 6.697,
+          "71": 6.78,
+          "72": 6.862,
+          "73": 6.945,
+          "74": 7.028,
+          "75": 7.11,
+          "76": 7.193,
+          "77": 7.275,
+          "78": 7.358,
+          "79": 7.44,
+          "80": 7.523,
+          "81": 7.606,
+          "82": 7.688,
+          "83": 7.771,
+          "84": 7.853,
+          "85": 7.936,
+          "86": 8.018,
+          "87": 8.101,
+          "88": 8.183,
+          "89": 8.266,
+          "90": 8.349,
+          "91": 8.431,
+          "92": 8.514,
+          "93": 8.596,
+          "94": 8.679,
+          "95": 8.761,
+          "96": 8.844,
+          "97": 8.927,
+          "98": 9.009,
+          "99": 9.092,
+          "100": 9.174
+        }
+      },
+      "fight_prop_critical": {
+        "base": 0.06,
+        "levels": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1.162,
+          "6": 1.162,
+          "7": 1.162,
+          "8": 1.162,
+          "9": 1.162,
+          "10": 1.363,
+          "11": 1.363,
+          "12": 1.363,
+          "13": 1.363,
+          "14": 1.363,
+          "15": 1.565,
+          "16": 1.565,
+          "17": 1.565,
+          "18": 1.565,
+          "19": 1.565,
+          "20": 1.767,
+          "21": 1.767,
+          "22": 1.767,
+          "23": 1.767,
+          "24": 1.767,
+          "25": 1.969,
+          "26": 1.969,
+          "27": 1.969,
+          "28": 1.969,
+          "29": 1.969,
+          "30": 2.171,
+          "31": 2.171,
+          "32": 2.171,
+          "33": 2.171,
+          "34": 2.171,
+          "35": 2.373,
+          "36": 2.373,
+          "37": 2.373,
+          "38": 2.373,
+          "39": 2.373,
+          "40": 2.575,
+          "41": 2.575,
+          "42": 2.575,
+          "43": 2.575,
+          "44": 2.575,
+          "45": 2.777,
+          "46": 2.777,
+          "47": 2.777,
+          "48": 2.777,
+          "49": 2.777,
+          "50": 2.979,
+          "51": 2.979,
+          "52": 2.979,
+          "53": 2.979,
+          "54": 2.979,
+          "55": 3.181,
+          "56": 3.181,
+          "57": 3.181,
+          "58": 3.181,
+          "59": 3.181,
+          "60": 3.383,
+          "61": 3.383,
+          "62": 3.383,
+          "63": 3.383,
+          "64": 3.383,
+          "65": 3.585,
+          "66": 3.585,
+          "67": 3.585,
+          "68": 3.585,
+          "69": 3.585,
+          "70": 3.786,
+          "71": 3.786,
+          "72": 3.786,
+          "73": 3.786,
+          "74": 3.786,
+          "75": 3.988,
+          "76": 3.988,
+          "77": 3.988,
+          "78": 3.988,
+          "79": 3.988,
+          "80": 4.19,
+          "81": 4.19,
+          "82": 4.19,
+          "83": 4.19,
+          "84": 4.19,
+          "85": 4.392,
+          "86": 4.392,
+          "87": 4.392,
+          "88": 4.392,
+          "89": 4.392,
+          "90": 4.594,
+          "91": 4.594,
+          "92": 4.594,
+          "93": 4.594,
+          "94": 4.594,
+          "95": 4.796,
+          "96": 4.796,
+          "97": 4.796,
+          "98": 4.796,
+          "99": 4.796,
+          "100": 4.998
+        }
+      }
+    },
+    "xpRequirements": {
+      "1": 400,
+      "2": 625,
+      "3": 900,
+      "4": 1200,
+      "5": 1550,
+      "6": 1950,
+      "7": 2350,
+      "8": 2800,
+      "9": 3300,
+      "10": 3800,
+      "11": 4350,
+      "12": 4925,
+      "13": 5525,
+      "14": 6150,
+      "15": 6800,
+      "16": 7500,
+      "17": 8200,
+      "18": 8950,
+      "19": 9725,
+      "20": 10500,
+      "21": 11900,
+      "22": 12775,
+      "23": 13700,
+      "24": 14650,
+      "25": 15625,
+      "26": 16625,
+      "27": 17650,
+      "28": 18700,
+      "29": 19775,
+      "30": 20900,
+      "31": 22025,
+      "32": 23200,
+      "33": 24375,
+      "34": 25600,
+      "35": 26825,
+      "36": 28100,
+      "37": 29400,
+      "38": 30725,
+      "39": 32075,
+      "40": 33425,
+      "41": 36575,
+      "42": 38075,
+      "43": 39600,
+      "44": 41150,
+      "45": 42725,
+      "46": 44325,
+      "47": 45950,
+      "48": 47600,
+      "49": 49300,
+      "50": 51000,
+      "51": 55375,
+      "52": 57225,
+      "53": 59100,
+      "54": 61025,
+      "55": 62950,
+      "56": 64925,
+      "57": 66900,
+      "58": 68925,
+      "59": 70975,
+      "60": 73050,
+      "61": 78900,
+      "62": 81125,
+      "63": 83400,
+      "64": 85700,
+      "65": 88025,
+      "66": 90375,
+      "67": 92750,
+      "68": 95150,
+      "69": 97575,
+      "70": 100050,
+      "71": 107675,
+      "72": 110325,
+      "73": 113000,
+      "74": 115700,
+      "75": 118425,
+      "76": 121200,
+      "77": 124000,
+      "78": 126825,
+      "79": 129675,
+      "80": 132575,
+      "81": 156475,
+      "82": 175875,
+      "83": 197600,
+      "84": 221975,
+      "85": 249300,
+      "86": 279950,
+      "87": 314250,
+      "88": 352700,
+      "89": 395775,
+      "90": 444025
+    },
+    "ascensions": {
+      "1": {
+        "fight_prop_base_attack": 25.9
+      },
+      "2": {
+        "fight_prop_base_attack": 51.9
+      },
+      "3": {
+        "fight_prop_base_attack": 77.8
+      },
+      "4": {
+        "fight_prop_base_attack": 103.7
+      },
+      "5": {
+        "fight_prop_base_attack": 129.7
+      },
+      "6": {
+        "fight_prop_base_attack": 155.6
+      }
+    },
+    "refinements": {
+      "1": {
+        "name": "",
+        "desc": "Energy Recharge is increased by <color=#99FFFFFF>20%</color>, and hitting the opponent with an Elemental Skill or Elemental Burst grants 1 point. This effect can trigger once every 0.03s, and when the character reaches 3 points, the entire party gains a <color=#99FFFFFF>24%</color> Stellar-Conduct/Stellar Swirl DMG boost for 12s. No points are granted in the 12s after this effect is triggered, and while the duration of the effect refreshes, it does not stack. The aforementioned effects can trigger even when the character is not on the field.",
+        "param_list": [
+          0.24,
+          3,
+          0.03,
+          12,
+          12,
+          0,
+          0,
+          0
+        ]
+      },
+      "2": {
+        "name": "",
+        "desc": "Energy Recharge is increased by <color=#99FFFFFF>25%</color>, and hitting the opponent with an Elemental Skill or Elemental Burst grants 1 point. This effect can trigger once every 0.03s, and when the character reaches 3 points, the entire party gains a <color=#99FFFFFF>30%</color> Stellar-Conduct/Stellar Swirl DMG boost for 12s. No points are granted in the 12s after this effect is triggered, and while the duration of the effect refreshes, it does not stack. The aforementioned effects can trigger even when the character is not on the field.",
+        "param_list": [
+          0.3,
+          3,
+          0.03,
+          12,
+          12,
+          0,
+          0,
+          0
+        ]
+      },
+      "3": {
+        "name": "",
+        "desc": "Energy Recharge is increased by <color=#99FFFFFF>30%</color>, and hitting the opponent with an Elemental Skill or Elemental Burst grants 1 point. This effect can trigger once every 0.03s, and when the character reaches 3 points, the entire party gains a <color=#99FFFFFF>36%</color> Stellar-Conduct/Stellar Swirl DMG boost for 12s. No points are granted in the 12s after this effect is triggered, and while the duration of the effect refreshes, it does not stack. The aforementioned effects can trigger even when the character is not on the field.",
+        "param_list": [
+          0.36,
+          3,
+          0.03,
+          12,
+          12,
+          0,
+          0,
+          0
+        ]
+      },
+      "4": {
+        "name": "",
+        "desc": "Energy Recharge is increased by <color=#99FFFFFF>35%</color>, and hitting the opponent with an Elemental Skill or Elemental Burst grants 1 point. This effect can trigger once every 0.03s, and when the character reaches 3 points, the entire party gains a <color=#99FFFFFF>42%</color> Stellar-Conduct/Stellar Swirl DMG boost for 12s. No points are granted in the 12s after this effect is triggered, and while the duration of the effect refreshes, it does not stack. The aforementioned effects can trigger even when the character is not on the field.",
+        "param_list": [
+          0.42,
+          3,
+          0.03,
+          12,
+          12,
+          0,
+          0,
+          0
+        ]
+      },
+      "5": {
+        "name": "",
+        "desc": "Energy Recharge is increased by <color=#99FFFFFF>40%</color>, and hitting the opponent with an Elemental Skill or Elemental Burst grants 1 point. This effect can trigger once every 0.03s, and when the character reaches 3 points, the entire party gains a <color=#99FFFFFF>48%</color> Stellar-Conduct/Stellar Swirl DMG boost for 12s. No points are granted in the 12s after this effect is triggered, and while the duration of the effect refreshes, it does not stack. The aforementioned effects can trigger even when the character is not on the field.",
+        "param_list": [
+          0.48,
+          3,
+          0.03,
+          12,
+          12,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "materials": {
+      "1": {
+        "cost": 5000,
+        "materials": [
+          {
+            "itemId": "114093",
+            "quantity": 3,
+            "name": "The Frost Emperor's Revival",
+            "rarity": 2,
+            "type": "Weapon Ascension Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_114093.webp"
+            }
+          },
+          {
+            "itemId": "112152",
+            "quantity": 3,
+            "name": "Accreted Fragment",
+            "rarity": 2,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_112152.webp"
+            }
+          },
+          {
+            "itemId": "112149",
+            "quantity": 2,
+            "name": "Chimeric Core",
+            "rarity": 1,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_112149.webp"
+            }
+          }
+        ]
+      },
+      "2": {
+        "cost": 15000,
+        "materials": [
+          {
+            "itemId": "114094",
+            "quantity": 3,
+            "name": "The Frost Emperor's Ceremony",
+            "rarity": 3,
+            "type": "Weapon Ascension Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_114094.webp"
+            }
+          },
+          {
+            "itemId": "112152",
+            "quantity": 12,
+            "name": "Accreted Fragment",
+            "rarity": 2,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_112152.webp"
+            }
+          },
+          {
+            "itemId": "112149",
+            "quantity": 8,
+            "name": "Chimeric Core",
+            "rarity": 1,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_112149.webp"
+            }
+          }
+        ]
+      },
+      "3": {
+        "cost": 20000,
+        "materials": [
+          {
+            "itemId": "114094",
+            "quantity": 6,
+            "name": "The Frost Emperor's Ceremony",
+            "rarity": 3,
+            "type": "Weapon Ascension Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_114094.webp"
+            }
+          },
+          {
+            "itemId": "112153",
+            "quantity": 6,
+            "name": "Accreted Mass",
+            "rarity": 3,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_112153.webp"
+            }
+          },
+          {
+            "itemId": "112150",
+            "quantity": 6,
+            "name": "Symbiotic Chimeric Nucleus",
+            "rarity": 2,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_112150.webp"
+            }
+          }
+        ]
+      },
+      "4": {
+        "cost": 30000,
+        "materials": [
+          {
+            "itemId": "114095",
+            "quantity": 3,
+            "name": "The Frost Emperor's Lament",
+            "rarity": 4,
+            "type": "Weapon Ascension Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_114095.webp"
+            }
+          },
+          {
+            "itemId": "112153",
+            "quantity": 12,
+            "name": "Accreted Mass",
+            "rarity": 3,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_112153.webp"
+            }
+          },
+          {
+            "itemId": "112150",
+            "quantity": 9,
+            "name": "Symbiotic Chimeric Nucleus",
+            "rarity": 2,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_112150.webp"
+            }
+          }
+        ]
+      },
+      "5": {
+        "cost": 35000,
+        "materials": [
+          {
+            "itemId": "114095",
+            "quantity": 6,
+            "name": "The Frost Emperor's Lament",
+            "rarity": 4,
+            "type": "Weapon Ascension Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_114095.webp"
+            }
+          },
+          {
+            "itemId": "112154",
+            "quantity": 9,
+            "name": "Accreted Growth",
+            "rarity": 4,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_112154.webp"
+            }
+          },
+          {
+            "itemId": "112151",
+            "quantity": 6,
+            "name": "Prime Chimeric Nexus",
+            "rarity": 3,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_112151.webp"
+            }
+          }
+        ]
+      },
+      "6": {
+        "cost": 45000,
+        "materials": [
+          {
+            "itemId": "114096",
+            "quantity": 4,
+            "name": "The Frost Emperor's Farewell",
+            "rarity": 5,
+            "type": "Weapon Ascension Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_114096.webp"
+            }
+          },
+          {
+            "itemId": "112154",
+            "quantity": 18,
+            "name": "Accreted Growth",
+            "rarity": 4,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_112154.webp"
+            }
+          },
+          {
+            "itemId": "112151",
+            "quantity": 12,
+            "name": "Prime Chimeric Nexus",
+            "rarity": 3,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "GameData/gi/assets/items/UI_ItemIcon_112151.webp"
+            }
+          }
+        ]
+      }
+    },
+    "liveComparison": {
+      "currentHash": "83ace7e0e9f79a5e4dab6936a07a984086a2138cbfe573df20253af737dae691"
+    }
+  },
+  {
     "id": "15501",
     "contentStatus": "live",
     "name": "Skyward Harp",
@@ -157748,6 +161564,36 @@
     "liveComparison": {
       "liveHash": "5a96d1aafa8030a3c070e764465faa19b5528000706732888bf0d1054aacdd0b",
       "currentHash": "5a96d1aafa8030a3c070e764465faa19b5528000706732888bf0d1054aacdd0b"
+    }
+  },
+  {
+    "id": "390002",
+    "contentStatus": "beta",
+    "name": "390002",
+    "rarity": 4,
+    "type": "WEAPON_SWORD_ONE_HAND",
+    "assets": {
+      "icon": "GameData/gi/assets/weapons/icons/UI_EquipIcon_Sword_WeaponQuestSnezhnaya01.webp",
+      "gacha": "GameData/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Sword_WeaponQuestSnezhnaya01.webp"
+    },
+    "properties": [],
+    "liveComparison": {
+      "currentHash": "aa79e717f9024b80cb35022f758e8db430f50c7447259fd02f1cd590c052ae47"
+    }
+  },
+  {
+    "id": "390003",
+    "contentStatus": "beta",
+    "name": "390003",
+    "rarity": 4,
+    "type": "WEAPON_SWORD_ONE_HAND",
+    "assets": {
+      "icon": "GameData/gi/assets/weapons/icons/UI_EquipIcon_Sword_WeaponQuestSnezhnaya02.webp",
+      "gacha": "GameData/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Sword_WeaponQuestSnezhnaya02.webp"
+    },
+    "properties": [],
+    "liveComparison": {
+      "currentHash": "ed5788fa290f10de8ebfb4f4bd8dcc684fe9121bc233e97cd4522d0b13446ba5"
     }
   }
 ]

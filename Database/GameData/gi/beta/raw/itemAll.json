@@ -1514,7 +1514,7 @@
     "type": ""
   },
   "199": {
-    "name": "Prime Ice Count",
+    "name": "Prime Ice Resource",
     "desc": "Stored within the internal reservoir of the Eye of Graeae, it can be utilized to build the various mechanisms and constructs detailed in the blueprints.",
     "rank": 3,
     "icon": "UI_ItemIcon_199",
@@ -1524,6 +1524,20 @@
     "source_list": [
       "Obtained by exploring Snezhnaya"
     ],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": ""
+  },
+  "200": {
+    "name": "Victory Emblem",
+    "desc": "A ticket representing confidence. Cast it for the team you think will win the battle!",
+    "rank": 3,
+    "icon": "UI_ItemIcon_200",
+    "item_type": "ITEM_VIRTUAL",
+    "material_type": "MATERIAL_NONE",
+    "jump_descs": [],
+    "source_list": [],
     "title": "",
     "effect": "",
     "special": "",
@@ -1888,6 +1902,34 @@
     "special": "",
     "type": ""
   },
+  "244": {
+    "name": "",
+    "desc": "",
+    "rank": 5,
+    "icon": "UI_ItemIcon_244",
+    "item_type": "ITEM_VIRTUAL",
+    "material_type": "MATERIAL_NONE",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": ""
+  },
+  "245": {
+    "name": "",
+    "desc": "",
+    "rank": 5,
+    "icon": "UI_ItemIcon_244",
+    "item_type": "ITEM_VIRTUAL",
+    "material_type": "MATERIAL_NONE",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": ""
+  },
   "301": {
     "name": "Pyro Sigil",
     "desc": "A sigil representing the acknowledgment of Natlan's flames.\\nCan be offered to the Tablet of Tona at the Temple of Pax to obtain the blessings of the Sacred Flame.",
@@ -2170,11 +2212,55 @@
     "special": "",
     "type": ""
   },
+  "401": {
+    "name": "Prediction Score",
+    "desc": "",
+    "rank": 3,
+    "icon": "UI_ItemIcon_401",
+    "item_type": "ITEM_VIRTUAL",
+    "material_type": "MATERIAL_NONE",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": ""
+  },
+  "402": {
+    "name": "Festive Cheer",
+    "desc": "???",
+    "rank": 3,
+    "icon": "UI_ItemIcon_402",
+    "item_type": "ITEM_VIRTUAL",
+    "material_type": "MATERIAL_NONE",
+    "jump_descs": [],
+    "source_list": [
+      "Obtained from Event 1"
+    ],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": ""
+  },
   "403": {
     "name": "Expedition Insights",
     "desc": "Insights gained from exploring featured Wonderland stages. Collect enough of them, and it seems they can unlock gifts bestowed in response by the Wonderland itself...",
     "rank": 3,
     "icon": "UI_ItemIcon_403",
+    "item_type": "ITEM_VIRTUAL",
+    "material_type": "MATERIAL_NONE",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": ""
+  },
+  "404": {
+    "name": "Festive Fever",
+    "desc": "Fanfare increases as the gala's popularity grows. Once it reaches a certain amount, it can be exchanged for corresponding material rewards.",
+    "rank": 3,
+    "icon": "UI_ItemIcon_404",
     "item_type": "ITEM_VIRTUAL",
     "material_type": "MATERIAL_NONE",
     "jump_descs": [],
@@ -6418,6 +6504,38 @@
     "special": "",
     "type": "Unlocks the associated character"
   },
+  "4140": {
+    "name": "Vodyanitsa",
+    "desc": "",
+    "rank": 5,
+    "icon": "UI_AvatarIcon_Vodyanitsa_Card",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_AVATAR",
+    "jump_descs": [],
+    "source_list": [
+      "Wish"
+    ],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "Unlocks the associated character"
+  },
+  "4143": {
+    "name": "Vesna",
+    "desc": "",
+    "rank": 5,
+    "icon": "UI_AvatarIcon_Vesna_Card",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_AVATAR",
+    "jump_descs": [],
+    "source_list": [
+      "Wish"
+    ],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "Unlocks the associated character"
+  },
   "4148": {
     "name": "Alyosha",
     "desc": "A \"professional hunter\" and master of the Snezhnayan snowfields. A fierce, distinct \"idealism\" burns beneath his calm demeanor.",
@@ -6949,6 +7067,38 @@
   "5133": {
     "name": "Sandrone's Stella Fortuna",
     "desc": "Sandrone's Constellation Activation Material",
+    "rank": 5,
+    "icon": "UI_ItemIcon_1102",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_TALENT",
+    "jump_descs": [],
+    "source_list": [
+      "Wish"
+    ],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "Activates Constellation"
+  },
+  "5140": {
+    "name": "Vodyanitsa's Stella Fortuna",
+    "desc": "Vodyanitsa's Constellation Activation Material",
+    "rank": 5,
+    "icon": "UI_ItemIcon_1102",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_TALENT",
+    "jump_descs": [],
+    "source_list": [
+      "Wish"
+    ],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "Activates Constellation"
+  },
+  "5143": {
+    "name": "Vesna's Stella Fortuna",
+    "desc": "Vesna's Constellation Activation Material",
     "rank": 5,
     "icon": "UI_ItemIcon_1102",
     "item_type": "ITEM_MATERIAL",
@@ -8869,6 +9019,38 @@
   "6133": {
     "name": "Sandrone's Stella Fortuna",
     "desc": "Sandrone's Constellation Activation Material",
+    "rank": 5,
+    "icon": "UI_ItemIcon_1102",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_AVATAR_TALENT_MATERIAL",
+    "jump_descs": [],
+    "source_list": [
+      "Wish"
+    ],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "Activates Constellation"
+  },
+  "6140": {
+    "name": "Vodyanitsa's Stella Fortuna",
+    "desc": "Vodyanitsa's Constellation Activation Material",
+    "rank": 5,
+    "icon": "UI_ItemIcon_1102",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_AVATAR_TALENT_MATERIAL",
+    "jump_descs": [],
+    "source_list": [
+      "Wish"
+    ],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "Activates Constellation"
+  },
+  "6143": {
+    "name": "Vesna's Stella Fortuna",
+    "desc": "Vesna's Constellation Activation Material",
     "rank": 5,
     "icon": "UI_ItemIcon_1102",
     "item_type": "ITEM_MATERIAL",
@@ -54479,6 +54661,48 @@
     "special": "",
     "type": "Recipe"
   },
+  "109666": {
+    "name": "Recipe: Royal Grilled Fish",
+    "desc": "A detailed step-by-step recipe for making Royal Grilled Fish.",
+    "rank": 4,
+    "icon": "UI_ItemIcon_109000",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_CONSUME",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "Recipe"
+  },
+  "109667": {
+    "name": "???",
+    "desc": "???",
+    "rank": 4,
+    "icon": "UI_ItemIcon_109000",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_CONSUME",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "Recipe"
+  },
+  "109668": {
+    "name": "Recipe: Mors",
+    "desc": "A detailed step-by-step recipe for making Mors.",
+    "rank": 3,
+    "icon": "UI_ItemIcon_109000",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_CONSUME",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "Recipe"
+  },
   "110000": {
     "name": "Crafted Items",
     "desc": "Items produced through the Crafting System.",
@@ -59561,6 +59785,22 @@
     "material_type": "MATERIAL_AVATAR_MATERIAL",
     "jump_descs": [
       "Dropped by Lv. 30+ Chimeric Winged Lions"
+    ],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "Character Level-Up Material"
+  },
+  "113092": {
+    "name": "Vagabond's Cracked Armor",
+    "desc": "An ancient piece of Snegovik armor with cracks all over it.\\nArmor forged in the old days was never built to last this long. The cracks that have appeared over time have merely been masked by the Snegovik's steadily advancing mastery of Prime Ice technology. Like the cracks across this armor's surface, the oath to safeguard and protect reveals its fragility the instant its keeper is lost.",
+    "rank": 4,
+    "icon": "UI_ItemIcon_113092",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_AVATAR_MATERIAL",
+    "jump_descs": [
+      "Dropped by Lv. 30+ Guardian Blade of Drifting Snow"
     ],
     "source_list": [],
     "title": "",
@@ -73964,7 +74204,7 @@
   },
   "120809": {
     "name": "Chioriya Boutique - Darkness Disguised Behind a Facade of Fashion",
-    "desc": "",
+    "desc": "？？？",
     "rank": 0,
     "icon": "UI_ItemIcon_100101",
     "item_type": "ITEM_MATERIAL",
@@ -74792,7 +75032,7 @@
   },
   "120868": {
     "name": "Shikanoin Heizou's Message",
-    "desc": "",
+    "desc": "???",
     "rank": 0,
     "icon": "UI_ItemIcon_100214",
     "item_type": "ITEM_MATERIAL",
@@ -74806,7 +75046,7 @@
   },
   "120869": {
     "name": "Puppy Union Admission Details",
-    "desc": "",
+    "desc": "???",
     "rank": 0,
     "icon": "UI_ItemIcon_100172",
     "item_type": "ITEM_MATERIAL",
@@ -74918,7 +75158,7 @@
   },
   "120877": {
     "name": "Official Script",
-    "desc": "",
+    "desc": "？？？",
     "rank": 0,
     "icon": "UI_ItemIcon_100101",
     "item_type": "ITEM_MATERIAL",
@@ -74932,7 +75172,7 @@
   },
   "120878": {
     "name": "\"Original Script\"",
-    "desc": "",
+    "desc": "？？？",
     "rank": 0,
     "icon": "UI_ItemIcon_100101",
     "item_type": "ITEM_MATERIAL",
@@ -74946,7 +75186,7 @@
   },
   "120879": {
     "name": "Manuscript",
-    "desc": "",
+    "desc": "？？？",
     "rank": 0,
     "icon": "UI_ItemIcon_100101",
     "item_type": "ITEM_MATERIAL",
@@ -76405,8 +76645,8 @@
     "type": "Quest Item"
   },
   "120985": {
-    "name": "（test）卡齐娜送你的小石头",
-    "desc": "",
+    "name": "???",
+    "desc": "???",
     "rank": 0,
     "icon": "UI_ItemIcon_120985",
     "item_type": "ITEM_MATERIAL",
@@ -80590,7 +80830,7 @@
   },
   "121291": {
     "name": "Scribbled Notes",
-    "desc": "",
+    "desc": "???",
     "rank": 0,
     "icon": "UI_ItemIcon_100226",
     "item_type": "ITEM_MATERIAL",
@@ -80604,7 +80844,7 @@
   },
   "121292": {
     "name": "Beautifully-Written Notes",
-    "desc": "",
+    "desc": "???",
     "rank": 0,
     "icon": "UI_ItemIcon_100226",
     "item_type": "ITEM_MATERIAL",
@@ -81387,8 +81627,8 @@
     "type": "Quest Item"
   },
   "121348": {
-    "name": "(test）灯塔信号说明",
-    "desc": "",
+    "name": "???",
+    "desc": "???",
     "rank": 0,
     "icon": "UI_ItemIcon_121146",
     "item_type": "ITEM_MATERIAL",
@@ -81401,8 +81641,8 @@
     "type": "Quest Item"
   },
   "121349": {
-    "name": "(test)灯内纸条",
-    "desc": "",
+    "name": "???",
+    "desc": "???",
     "rank": 0,
     "icon": "UI_ItemIcon_121146",
     "item_type": "ITEM_MATERIAL",
@@ -82146,7 +82386,7 @@
   },
   "121402": {
     "name": "Half-Burned Page",
-    "desc": "",
+    "desc": "???",
     "rank": 0,
     "icon": "UI_ItemIcon_71700047",
     "item_type": "ITEM_MATERIAL",
@@ -82370,7 +82610,7 @@
   },
   "121418": {
     "name": "Scribbled Letter",
-    "desc": "",
+    "desc": "???",
     "rank": 0,
     "icon": "UI_ItemIcon_71700047",
     "item_type": "ITEM_MATERIAL",
@@ -84745,7 +84985,7 @@
     "type": "Quest Item"
   },
   "121594": {
-    "name": "Yet-to-be-Completed \"New High Table Melody\"",
+    "name": "Yet-to-be-Completed \"New High Table Rules\"",
     "desc": "",
     "rank": 0,
     "icon": "UI_ItemIcon_101633",
@@ -84907,7 +85147,7 @@
     "type": "Quest Item"
   },
   "121607": {
-    "name": "（test）沃雅妮莎的信件",
+    "name": "???",
     "desc": "Vodyanitsa's Letter",
     "rank": 0,
     "icon": "UI_ItemIcon_121596",
@@ -84921,7 +85161,7 @@
     "type": "Quest Item"
   },
   "121608": {
-    "name": "（test）闹鬼的调查报告",
+    "name": "???",
     "desc": "Report of Investigation Into Alleged Ghost Haunting",
     "rank": 0,
     "icon": "UI_ItemIcon_121596",
@@ -84936,7 +85176,7 @@
   },
   "121609": {
     "name": "Alain Guillotin's Epitaph",
-    "desc": "",
+    "desc": "???",
     "rank": 0,
     "icon": "UI_ItemIcon_100003",
     "item_type": "ITEM_MATERIAL",
@@ -85130,6 +85370,34 @@
     "special": "",
     "type": "Quest Item"
   },
+  "121623": {
+    "name": "？？？",
+    "desc": "",
+    "rank": 3,
+    "icon": "UI_ItemIcon_121623",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_QUEST",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "Quest Item"
+  },
+  "121624": {
+    "name": "？？？",
+    "desc": "",
+    "rank": 2,
+    "icon": "UI_ItemIcon_121624",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_QUEST",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "Quest Item"
+  },
   "121625": {
     "name": "Moongazer's Engraving (I)",
     "desc": "An ancient stone tablet discovered on the moon. Though the writing upon it is completely indecipherable, for some reason, anyone who reads it can understand its meaning in their native tongue.",
@@ -85179,6 +85447,20 @@
     "icon": "UI_ItemIcon_121625",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_QUEST",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "Quest Item"
+  },
+  "121629": {
+    "name": "???",
+    "desc": "???",
+    "rank": 3,
+    "icon": "UI_ItemIcon_121629",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_LUNARITEV2_INVITE",
     "jump_descs": [],
     "source_list": [],
     "title": "",
@@ -85327,8 +85609,8 @@
     "type": "Quest Item"
   },
   "121640": {
-    "name": "Scarf: Dream Star",
-    "desc": "A snowman's accessory. The patterns on this scarf mirror the stars of a dream. When a snowman dreams, does it envision a sky filled with drifting snow, or the deep ocean where the meltwater flows?",
+    "name": "Scarf: Novelty Brace",
+    "desc": "A snowman's accessory. A scarf of a rather... unique design. Or perhaps it's a neck brace...? In any case, putting it on might just make the snowman look a bit more... amusing?",
     "rank": 3,
     "icon": "UI_ItemIcon_121640",
     "item_type": "ITEM_MATERIAL",
@@ -85355,8 +85637,8 @@
     "type": "Quest Item"
   },
   "121642": {
-    "name": "Scarf: Novelty Brace",
-    "desc": "A snowman's accessory. A scarf of a rather... unique design. Or perhaps it's a neck brace...? In any case, putting it on might just make the snowman look a bit more... amusing?",
+    "name": "Scarf: Dream Star",
+    "desc": "A snowman's accessory. The patterns on this scarf mirror the stars of a dream. When a snowman dreams, does it envision a sky filled with drifting snow, or the deep ocean where the meltwater flows?",
     "rank": 3,
     "icon": "UI_ItemIcon_121642",
     "item_type": "ITEM_MATERIAL",
@@ -85580,6 +85862,20 @@
     "special": "",
     "type": "Very Special Item"
   },
+  "121658": {
+    "name": "???",
+    "desc": "???",
+    "rank": 4,
+    "icon": "UI_ItemIcon_121658",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_QUEST",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "Quest Item"
+  },
   "121659": {
     "name": "Remnant Incense Guide - Snowgrave",
     "desc": "Gathering three pieces of the Remnant Incense Guide - Snowgrave allows you to unseal the vault of Shadow Realm at the Snowgrave.\\nLegend has it that early squads exploring the Shadow Realm would occasionally find themselves unable to retrieve the treasures they discovered. In such cases, they would leave a specific \"scent trail\" behind. Only by piecing together the incense trail can one track down the locations of these long-lost relics.",
@@ -85627,6 +85923,20 @@
     "effect": "",
     "special": "",
     "type": "Adventure Item"
+  },
+  "121662": {
+    "name": "???",
+    "desc": "???",
+    "rank": 4,
+    "icon": "UI_ItemIcon_121662",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_VODYANITSA_OUTLOOK",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "Quest Item"
   },
   "121663": {
     "name": "\"Spirit Seeker\" Preview Commemorative Photo",
@@ -85726,6 +86036,20 @@
     "special": "",
     "type": "Quest Item"
   },
+  "121670": {
+    "name": "???",
+    "desc": "???",
+    "rank": 4,
+    "icon": "UI_ItemIcon_121670",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_VESNA_FASHION",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "Quest Item"
+  },
   "121671": {
     "name": "Kresnik Energy",
     "desc": "Energy required to operate the Eye of Graeae.\\nKresnik Energy can be restored either by entering the range of heat sources powered by Kresnik Kristall in Snezhnaya, or by collecting Kresnik Kristall during exploration.",
@@ -85748,6 +86072,20 @@
     "desc": "A sample extracted from the \"special cargo\" transported out of Izmaylov. Could it truly be connected to the Shadow Realm?",
     "rank": 0,
     "icon": "UI_ItemIcon_107036",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_QUEST",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "Quest Item"
+  },
+  "121673": {
+    "name": "???",
+    "desc": "???",
+    "rank": 3,
+    "icon": "UI_ItemIcon_121673",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_QUEST",
     "jump_descs": [],
@@ -85896,6 +86234,20 @@
     "effect": "",
     "special": "",
     "type": "Consumable"
+  },
+  "121684": {
+    "name": "???",
+    "desc": "???",
+    "rank": 4,
+    "icon": "UI_ItemIcon_121684",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_QUEST",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "Quest Item"
   },
   "121685": {
     "name": "Picture of Nastya With Her Mom",
@@ -86140,6 +86492,160 @@
     "desc": "Document With Yellowed Pages",
     "rank": 0,
     "icon": "UI_ItemIcon_101633",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_QUEST",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "Quest Item"
+  },
+  "121703": {
+    "name": "???",
+    "desc": "???",
+    "rank": 0,
+    "icon": "UI_ItemIcon_121703",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_QUEST",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "Quest Item"
+  },
+  "121704": {
+    "name": "???",
+    "desc": "???",
+    "rank": 0,
+    "icon": "UI_ItemIcon_121704",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_QUEST",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "Quest Item"
+  },
+  "121705": {
+    "name": "Special Ice Cream Container",
+    "desc": "A container for storing specially made ice cream. It appears to have been custom-made for someone specific. In any case, please enjoy it as soon as possible before it melts.",
+    "rank": 2,
+    "icon": "UI_ItemIcon_100101",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_CHEST",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "Consumable"
+  },
+  "121706": {
+    "name": "Special Ice Cream Container",
+    "desc": "A container for storing specially made ice cream. It appears to have been custom-made for someone specific. In any case, please enjoy it as soon as possible before it melts.",
+    "rank": 2,
+    "icon": "UI_ItemIcon_100101",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_CHEST",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "Consumable"
+  },
+  "121707": {
+    "name": "Request to Expand VIP Room",
+    "desc": "Request to Expand VIP Room",
+    "rank": 0,
+    "icon": "UI_ItemIcon_100003",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_QUEST",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "Quest Item"
+  },
+  "121709": {
+    "name": "???",
+    "desc": "???",
+    "rank": 0,
+    "icon": "UI_ItemIcon_100003",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_QUEST",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "Quest Item"
+  },
+  "121710": {
+    "name": "???",
+    "desc": "???",
+    "rank": 0,
+    "icon": "UI_ItemIcon_100302",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_QUEST",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "Quest Item"
+  },
+  "121713": {
+    "name": "???",
+    "desc": "???",
+    "rank": 3,
+    "icon": "UI_ItemIcon_121713",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_NONE",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "Prime Ice Construct Appearance"
+  },
+  "121714": {
+    "name": "???",
+    "desc": "???",
+    "rank": 0,
+    "icon": "UI_ItemIcon_121714",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_QUEST",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "Quest Item"
+  },
+  "121715": {
+    "name": "???",
+    "desc": "???",
+    "rank": 2,
+    "icon": "UI_ItemIcon_121715",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_QUEST",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "Quest Item"
+  },
+  "121716": {
+    "name": "???",
+    "desc": "???",
+    "rank": 2,
+    "icon": "UI_ItemIcon_121716",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_QUEST",
     "jump_descs": [],
@@ -88275,6 +88781,223 @@
     "special": "",
     "type": "Food"
   },
+  "132027": {
+    "name": "Suspicious Royal Grilled Fish",
+    "desc": "A fish served whole from head to tail. Clumps of sauce cling to its surface, making for a rather unappetizing sight. The flesh is so overdone, you may as well be gnawing on a tree root dug up from Snezhnaya's frozen soil... It's probably best to consign this to \"exile\" before it ruins a banquet entirely.",
+    "rank": 4,
+    "icon": "UI_ItemIcon_108903",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_FOOD",
+    "jump_descs": [],
+    "source_list": [
+      "Obtained by cooking"
+    ],
+    "title": "",
+    "effect": "Increases all party members' DEF by 215 and healing effects by 6% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "special": "",
+    "type": "Food",
+    "food_quality": "FOOD_QUALITY_STRANGE"
+  },
+  "132028": {
+    "name": "Royal Grilled Fish",
+    "desc": "A fish served whole from head to tail, and a dish that reflects the heartiness and quiet dignity of the frozen north. The fish is first marinated before grilling, then garnished with sides before serving. With a recipe said to have originated in Zapolyarny Palace, this elaborately prepared dish has since become a must-have at banquets across Snezhnaya.",
+    "rank": 4,
+    "icon": "UI_ItemIcon_108903",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_FOOD",
+    "jump_descs": [],
+    "source_list": [
+      "Obtained by cooking"
+    ],
+    "title": "",
+    "effect": "Increases all party members' DEF by 261 and healing effects by 8% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "special": "",
+    "type": "Food",
+    "food_quality": "FOOD_QUALITY_ORDINARY"
+  },
+  "132029": {
+    "name": "Delicious Royal Grilled Fish",
+    "desc": "A fish served whole from head to tail. Beneath its golden grilled crust is flesh so delicate and tender it practically melts in your mouth, with a rich cream sauce that blooms across the palate with every savory bite. Surely even the most taciturn of Snezhnayan nobles would be moved to wax lyrical should this dish grace their banquet table.",
+    "rank": 4,
+    "icon": "UI_ItemIcon_108903",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_FOOD",
+    "jump_descs": [],
+    "source_list": [
+      "Obtained by cooking"
+    ],
+    "title": "",
+    "effect": "Increases all party members' DEF by 308 and healing effects by 10% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "special": "",
+    "type": "Food",
+    "food_quality": "FOOD_QUALITY_DELICIOUS"
+  },
+  "132030": {
+    "name": "???",
+    "desc": "???",
+    "rank": 4,
+    "icon": "UI_ItemIcon_108904",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_FOOD",
+    "jump_descs": [],
+    "source_list": [
+      "Obtained by cooking"
+    ],
+    "title": "",
+    "effect": "Increases all party members' ATK by 224 and CRIT Rate by 6% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "special": "",
+    "type": "Food",
+    "food_quality": "FOOD_QUALITY_STRANGE"
+  },
+  "132031": {
+    "name": "???",
+    "desc": "???",
+    "rank": 4,
+    "icon": "UI_ItemIcon_108904",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_FOOD",
+    "jump_descs": [],
+    "source_list": [
+      "Obtained by cooking"
+    ],
+    "title": "",
+    "effect": "Increases all party members' ATK by 272 and CRIT Rate by 8% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "special": "",
+    "type": "Food",
+    "food_quality": "FOOD_QUALITY_ORDINARY"
+  },
+  "132032": {
+    "name": "???",
+    "desc": "???",
+    "rank": 4,
+    "icon": "UI_ItemIcon_108904",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_FOOD",
+    "jump_descs": [],
+    "source_list": [
+      "Obtained by cooking"
+    ],
+    "title": "",
+    "effect": "Increases all party members' ATK by 320 and CRIT Rate by 10% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "special": "",
+    "type": "Food",
+    "food_quality": "FOOD_QUALITY_DELICIOUS"
+  },
+  "132033": {
+    "name": "Suspicious Mors",
+    "desc": "A fruit beverage in a deep red color. This murky, almost-purple drink is unbearably sour and bitter, as if it was made from a bucket of ink and rotting fruit peels. It seems such a shame to pour it down the sink... but then again, drinking it doesn't seem any wiser.",
+    "rank": 3,
+    "icon": "UI_ItemIcon_108905",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_NOTICE_ADD_HP",
+    "jump_descs": [],
+    "source_list": [
+      "Obtained by cooking"
+    ],
+    "title": "",
+    "effect": "Restores 26% of Max HP to the selected character and regenerates 450 HP every 5s for 30s.",
+    "special": "",
+    "type": "Food",
+    "food_quality": "FOOD_QUALITY_STRANGE"
+  },
+  "132034": {
+    "name": "Mors",
+    "desc": "A fruit beverage in a deep red color, highly popular with young women in Snezhnaya for its pleasing sweet-and-sour taste. Wild-picked berries are slowly simmered over a low fire, then crushed and strained. The resulting liquid is then mixed with honey and a little sugar before being left to cool and served.",
+    "rank": 3,
+    "icon": "UI_ItemIcon_108905",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_NOTICE_ADD_HP",
+    "jump_descs": [],
+    "source_list": [
+      "Obtained by cooking"
+    ],
+    "title": "",
+    "effect": "Restores 28% of Max HP to the selected character and regenerates 620 HP every 5s for 30s.",
+    "special": "",
+    "type": "Food",
+    "food_quality": "FOOD_QUALITY_ORDINARY"
+  },
+  "132035": {
+    "name": "Delicious Mors",
+    "desc": "A fruit beverage in a deep red color. The sweet aroma of berry greets you before the glass ever reaches your lips. This perfectly balanced drink is bright and refreshing without ever feeling thin, with just enough honey to round out the berries' gentle tartness. One sip of this is all it takes to win over even the most discerning palate.",
+    "rank": 3,
+    "icon": "UI_ItemIcon_108905",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_NOTICE_ADD_HP",
+    "jump_descs": [],
+    "source_list": [
+      "Obtained by cooking"
+    ],
+    "title": "",
+    "effect": "Restores 30% of Max HP to the selected character and regenerates 790 HP every 5s for 30s.",
+    "special": "",
+    "type": "Food",
+    "food_quality": "FOOD_QUALITY_DELICIOUS"
+  },
+  "132036": {
+    "name": "Iridescent Aria",
+    "desc": "Vodyanitsa's specialty. This crystal-clear drink served in an antique pearl-adorned goblet glows with a dreamy radiance. Give it a gentle swirl, and a veil of tiny bubbles rises to the surface before bursting one by one, as though someone in the water has just let out peals of laughter. Could this wonder be the work of some mysterious melody she was humming while it simmered?",
+    "rank": 3,
+    "icon": "UI_ItemIcon_108906",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_NOTICE_ADD_HP",
+    "jump_descs": [],
+    "source_list": [
+      "Obtained by cooking"
+    ],
+    "title": "",
+    "effect": "Restores 34% of Max HP to the selected character and regenerates 980 HP every 5s for 30s.",
+    "special": "",
+    "type": "Food"
+  },
+  "132037": {
+    "name": "Hoarfrost Soup",
+    "desc": "Vesna's specialty. Very carefully, she places an exquisite Prime Ice Construct into the pot before proudly declaring that she's making a \"Secret Vila Snow Flurry Soup.\" Anyone who'd like a taste, she says, is welcome to add whatever ingredients they fancy. Tempted by the prospect of savoring a little more of the broth, Paimon eagerly parts with every ingredient you've just spent all day collecting. By the time the \"secret soup\" is ready, you see that it's made entirely from the ingredients Paimon just contributed... though Vesna is the one who ends up eating most of it.",
+    "rank": 3,
+    "icon": "UI_ItemIcon_108907",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_FOOD",
+    "jump_descs": [],
+    "source_list": [
+      "Obtained by cooking"
+    ],
+    "title": "",
+    "effect": "Increases all party members' DEF by 282 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "special": "",
+    "type": "Food"
+  },
+  "132038": {
+    "name": "???",
+    "desc": "???",
+    "rank": 2,
+    "icon": "UI_ItemIcon_108908",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_NOTICE_ADD_HP",
+    "jump_descs": [],
+    "source_list": [
+      "???"
+    ],
+    "title": "",
+    "effect": "It looks great and tastes wonderful, but it doesn't really have any effect.",
+    "special": "",
+    "type": "Food"
+  },
+  "132039": {
+    "name": "???",
+    "desc": "???",
+    "rank": 2,
+    "icon": "UI_ItemIcon_108909",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_NOTICE_ADD_HP",
+    "jump_descs": [],
+    "source_list": [
+      "???"
+    ],
+    "title": "",
+    "effect": "It looks great and tastes wonderful, but it doesn't really have any effect.",
+    "special": "",
+    "type": "Food"
+  },
   "140001": {
     "name": "Wings of First Flight",
     "desc": "A stylized wind glider that bears the passionate longing of an Outrider.",
@@ -88551,6 +89274,22 @@
     "jump_descs": [],
     "source_list": [
       "Obtained from a collaboration event"
+    ],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": ""
+  },
+  "140019": {
+    "name": "Snezhnaya Wind Glider",
+    "desc": "???",
+    "rank": 4,
+    "icon": "UI_FlycloakIcon_Snezhnaya",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_FLYCLOAK",
+    "jump_descs": [],
+    "source_list": [
+      "???"
     ],
     "title": "",
     "effect": "",
@@ -91623,6 +92362,62 @@
     "special": "",
     "type": "Adventure Item"
   },
+  "141303": {
+    "name": "???",
+    "desc": "???",
+    "rank": 4,
+    "icon": "UI_ItemIcon_BGM_Common",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_BGM",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "Adventure Item"
+  },
+  "141304": {
+    "name": "???",
+    "desc": "???",
+    "rank": 4,
+    "icon": "UI_ItemIcon_BGM_Common",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_BGM",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "Adventure Item"
+  },
+  "141305": {
+    "name": "???",
+    "desc": "???",
+    "rank": 4,
+    "icon": "UI_ItemIcon_BGM_Common",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_BGM",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "Adventure Item"
+  },
+  "141306": {
+    "name": "???",
+    "desc": "???",
+    "rank": 4,
+    "icon": "UI_ItemIcon_BGM_Common",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_BGM",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "Adventure Item"
+  },
   "200001": {
     "name": "Lantern Fiber",
     "desc": "Used in Lantern Rite as material with which to construct Xiao Lanterns.\\nThis commonly encountered fibrous material can be processed into lantern wrappings so that the lanterns can float away, carrying their beautiful wishes far afield.",
@@ -92127,6 +92922,20 @@
     "desc": "Specialized refinement material for \"Rainbow Serpent's Rain Bow.\"\\nA brightly colored, exquisitely crafted finger guard long worn by archers.\\nThe accuracy of an arrow hinges on the archer's experience: The more one draws the bowstring with focused breath, the more seamlessly bow and arrow move in unison. To nock and draw is to temper the spirit. The wear on the guard reflects the sharpness of the archer's resolve.",
     "rank": 4,
     "icon": "UI_ItemIcon_200128",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_AVATAR_MATERIAL",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "Refinement Material"
+  },
+  "200129": {
+    "name": "",
+    "desc": "",
+    "rank": 4,
+    "icon": "UI_ItemIcon_200129",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_AVATAR_MATERIAL",
     "jump_descs": [],
@@ -97784,6 +98593,70 @@
     "special": "\"Travel Notes: Frostfarer\" namecard style.",
     "type": ""
   },
+  "210295": {
+    "name": "???",
+    "desc": "???",
+    "rank": 4,
+    "icon": "UI_NameCardIcon_Vesna",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_NAMECARD",
+    "jump_descs": [],
+    "source_list": [
+      "???"
+    ],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": ""
+  },
+  "210296": {
+    "name": "???",
+    "desc": "???",
+    "rank": 4,
+    "icon": "UI_NameCardIcon_Vodyanitsa",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_NAMECARD",
+    "jump_descs": [],
+    "source_list": [
+      "???"
+    ],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": ""
+  },
+  "210297": {
+    "name": "???",
+    "desc": "???",
+    "rank": 4,
+    "icon": "UI_NameCardIcon_Queen1",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_NAMECARD",
+    "jump_descs": [],
+    "source_list": [
+      "???"
+    ],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": ""
+  },
+  "210298": {
+    "name": "???",
+    "desc": "???",
+    "rank": 4,
+    "icon": "UI_NameCardIcon_Bp53",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_NAMECARD",
+    "jump_descs": [],
+    "source_list": [
+      "BP Reward"
+    ],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": ""
+  },
   "215001": {
     "name": "Echo: Dandelion Knight",
     "desc": "Jean's Envisaged Echo flutters like dandelions in the wind, swirling about her, accompanying her on her resolute journey.",
@@ -100203,6 +101076,34 @@
     "desc": "A compass that can be used in Snezhnaya to search for nearby treasure and relevant clues.\\nMany treasures lie frozen in hidden places across the land of snow. Those who can undo the seals may claim the gifts left within the ice.",
     "rank": 4,
     "icon": "UI_ItemIcon_220136",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_WIDGET",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "Gadget"
+  },
+  "220137": {
+    "name": "???",
+    "desc": "",
+    "rank": 4,
+    "icon": "UI_ItemIcon_220137",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_WIDGET",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "Gadget"
+  },
+  "220138": {
+    "name": "???",
+    "desc": "",
+    "rank": 4,
+    "icon": "UI_ItemIcon_220138",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_WIDGET",
     "jump_descs": [],
@@ -104474,6 +105375,118 @@
     "special": "",
     "type": ""
   },
+  "318205": {
+    "name": "Relaxed Readiness",
+    "desc": "",
+    "rank": 3,
+    "icon": "UI_ItemIcon_223018",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_PHOTOGRAPH_POSE",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": ""
+  },
+  "318206": {
+    "name": "Ready for Battle",
+    "desc": "",
+    "rank": 3,
+    "icon": "UI_ItemIcon_223018",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_PHOTOGRAPH_POSE",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": ""
+  },
+  "318207": {
+    "name": "Chore Time",
+    "desc": "",
+    "rank": 3,
+    "icon": "UI_ItemIcon_223018",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_PHOTOGRAPH_POSE",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": ""
+  },
+  "318208": {
+    "name": "Enjoy Food",
+    "desc": "",
+    "rank": 3,
+    "icon": "UI_ItemIcon_223018",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_PHOTOGRAPH_POSE",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": ""
+  },
+  "318209": {
+    "name": "Valiant Battle Pose",
+    "desc": "",
+    "rank": 3,
+    "icon": "UI_ItemIcon_223018",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_PHOTOGRAPH_POSE",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": ""
+  },
+  "318210": {
+    "name": "Hearty Drink",
+    "desc": "",
+    "rank": 3,
+    "icon": "UI_ItemIcon_223018",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_PHOTOGRAPH_POSE",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": ""
+  },
+  "318211": {
+    "name": "Please enjoy the food",
+    "desc": "",
+    "rank": 3,
+    "icon": "UI_ItemIcon_223018",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_PHOTOGRAPH_POSE",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": ""
+  },
+  "318212": {
+    "name": "Eagerly Awaiting",
+    "desc": "",
+    "rank": 3,
+    "icon": "UI_ItemIcon_223018",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_PHOTOGRAPH_POSE",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": ""
+  },
   "319001": {
     "name": "Fantastical Marvel",
     "desc": "",
@@ -106900,6 +107913,34 @@
     "special": "",
     "type": ""
   },
+  "326145": {
+    "name": "Columbina",
+    "desc": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+    "rank": 4,
+    "icon": "UI_Gcg_CardFace_Char_Avatar_Columbina_Platinum",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_GCG_CARD_FACE",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": ""
+  },
+  "326146": {
+    "name": "Illuga",
+    "desc": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+    "rank": 4,
+    "icon": "UI_Gcg_CardFace_Char_Avatar_Illuga_Platinum",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_GCG_CARD_FACE",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": ""
+  },
   "326500": {
     "name": "Undivided Heart",
     "desc": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
@@ -108986,6 +110027,76 @@
     "special": "",
     "type": ""
   },
+  "326649": {
+    "name": "Radiance Over Blossoms and Peaks",
+    "desc": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+    "rank": 4,
+    "icon": "UI_Gcg_CardFace_Modify_Talent_Columbina_Platinum",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_GCG_CARD_FACE",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": ""
+  },
+  "326650": {
+    "name": "Surge of Lightning",
+    "desc": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+    "rank": 4,
+    "icon": "UI_Gcg_CardFace_Modify_Talent_Modao_Razor_Platinum",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_GCG_CARD_FACE",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": ""
+  },
+  "326651": {
+    "name": "Sevenfold Transmutation",
+    "desc": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+    "rank": 4,
+    "icon": "UI_Gcg_CardFace_Modify_Talent_Modao_Sucrose_Platinum",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_GCG_CARD_FACE",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": ""
+  },
+  "326652": {
+    "name": "Book of Blinding Light",
+    "desc": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+    "rank": 4,
+    "icon": "UI_Gcg_CardFace_Modify_Talent_Modao_Albedo_Platinum",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_GCG_CARD_FACE",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": ""
+  },
+  "326653": {
+    "name": "Elk With Fanged Antlers",
+    "desc": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+    "rank": 4,
+    "icon": "UI_Gcg_CardFace_Modify_Talent_Illuga_Platinum",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_GCG_CARD_FACE",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": ""
+  },
   "327000": {
     "name": "Magic Guide",
     "desc": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
@@ -110624,6 +111735,20 @@
     "special": "",
     "type": ""
   },
+  "327117": {
+    "name": "Recollection of Days Past",
+    "desc": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+    "rank": 4,
+    "icon": "UI_Gcg_CardFace_Modify_Artifact_XishiXiao_Platinum",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_GCG_CARD_FACE",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": ""
+  },
   "328000": {
     "name": "Liyue Harbor Wharf",
     "desc": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
@@ -111833,6 +112958,20 @@
     "desc": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
     "rank": 4,
     "icon": "UI_Gcg_CardFace_Event_Resonance_ElecGrass_Platinum",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_GCG_CARD_FACE",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": ""
+  },
+  "328087": {
+    "name": "Elemental Transfiguration: Overload Blessing",
+    "desc": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+    "rank": 4,
+    "icon": "UI_Gcg_CardFace_Event_Resonance_ElecFire_Platinum",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_GCG_CARD_FACE",
     "jump_descs": [],
@@ -113527,6 +114666,20 @@
     "desc": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
     "rank": 4,
     "icon": "UI_Gcg_CardFace_Event_Event_XumiFriend_Platinum",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_GCG_CARD_FACE",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": ""
+  },
+  "329121": {
+    "name": "Return of the Three Moons",
+    "desc": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+    "rank": 4,
+    "icon": "UI_Gcg_CardFace_Event_Event_Sanyue_Platinum",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_GCG_CARD_FACE",
     "jump_descs": [],
@@ -115557,6 +116710,34 @@
     "desc": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
     "rank": 3,
     "icon": "UI_Gcg_CardFace_Char_Monster_EffigyWater",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_GCG_CARD",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": ""
+  },
+  "330145": {
+    "name": "Columbina",
+    "desc": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+    "rank": 3,
+    "icon": "UI_Gcg_CardFace_Char_Avatar_Columbina",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_GCG_CARD",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": ""
+  },
+  "330146": {
+    "name": "Illuga",
+    "desc": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+    "rank": 3,
+    "icon": "UI_Gcg_CardFace_Char_Avatar_Illuga",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_GCG_CARD",
     "jump_descs": [],
@@ -117652,6 +118833,76 @@
     "special": "",
     "type": ""
   },
+  "330649": {
+    "name": "Radiance Over Blossoms and Peaks",
+    "desc": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+    "rank": 3,
+    "icon": "UI_Gcg_CardFace_Modify_Talent_Columbina",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_GCG_CARD",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": ""
+  },
+  "330650": {
+    "name": "Surge of Lightning",
+    "desc": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+    "rank": 3,
+    "icon": "UI_Gcg_CardFace_Modify_Talent_Modao_Razor",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_GCG_CARD",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": ""
+  },
+  "330651": {
+    "name": "Sevenfold Transmutation",
+    "desc": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+    "rank": 3,
+    "icon": "UI_Gcg_CardFace_Modify_Talent_Modao_Sucrose",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_GCG_CARD",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": ""
+  },
+  "330652": {
+    "name": "Book of Blinding Light",
+    "desc": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+    "rank": 3,
+    "icon": "UI_Gcg_CardFace_Modify_Talent_Modao_Albedo",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_GCG_CARD",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": ""
+  },
+  "330653": {
+    "name": "Elk With Fanged Antlers",
+    "desc": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+    "rank": 3,
+    "icon": "UI_Gcg_CardFace_Modify_Talent_Illuga",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_GCG_CARD",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": ""
+  },
   "331000": {
     "name": "Magic Guide",
     "desc": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
@@ -119290,6 +120541,20 @@
     "special": "",
     "type": ""
   },
+  "331117": {
+    "name": "Recollection of Days Past",
+    "desc": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+    "rank": 3,
+    "icon": "UI_Gcg_CardFace_Modify_Artifact_XishiXiao",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_GCG_CARD",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": ""
+  },
   "332000": {
     "name": "Liyue Harbor Wharf",
     "desc": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
@@ -120499,6 +121764,20 @@
     "desc": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
     "rank": 3,
     "icon": "UI_Gcg_CardFace_Event_Resonance_ElecGrass",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_GCG_CARD",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": ""
+  },
+  "332087": {
+    "name": "Elemental Transfiguration: Overload Blessing",
+    "desc": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+    "rank": 3,
+    "icon": "UI_Gcg_CardFace_Event_Resonance_ElecFire",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_GCG_CARD",
     "jump_descs": [],
@@ -122193,6 +123472,20 @@
     "desc": "Cards from the \"Genius Invokation TCG\" tabletop game. They have a tough texture, and the exquisite illustrations on the face of the cards seem to have been printed with some special method.",
     "rank": 3,
     "icon": "UI_Gcg_CardFace_Event_Event_XumiFriend",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_GCG_CARD",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": ""
+  },
+  "333121": {
+    "name": "Return of the Three Moons",
+    "desc": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+    "rank": 3,
+    "icon": "UI_Gcg_CardFace_Event_Event_Sanyue",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_GCG_CARD",
     "jump_descs": [],
@@ -124223,6 +125516,34 @@
     "desc": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
     "rank": 4,
     "icon": "UI_Gcg_CardFace_Char_Monster_EffigyWater_Golden",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_GCG_CARD_FACE",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": ""
+  },
+  "334145": {
+    "name": "Columbina",
+    "desc": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+    "rank": 4,
+    "icon": "UI_Gcg_CardFace_Char_Avatar_Columbina_Golden",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_GCG_CARD_FACE",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": ""
+  },
+  "334146": {
+    "name": "Illuga",
+    "desc": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+    "rank": 4,
+    "icon": "UI_Gcg_CardFace_Char_Avatar_Illuga_Golden",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_GCG_CARD_FACE",
     "jump_descs": [],
@@ -126318,6 +127639,76 @@
     "special": "",
     "type": ""
   },
+  "334649": {
+    "name": "Radiance Over Blossoms and Peaks",
+    "desc": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+    "rank": 4,
+    "icon": "UI_Gcg_CardFace_Modify_Talent_Columbina_Golden",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_GCG_CARD_FACE",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": ""
+  },
+  "334650": {
+    "name": "Surge of Lightning",
+    "desc": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+    "rank": 4,
+    "icon": "UI_Gcg_CardFace_Modify_Talent_Modao_Razor_Golden",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_GCG_CARD_FACE",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": ""
+  },
+  "334651": {
+    "name": "Sevenfold Transmutation",
+    "desc": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+    "rank": 4,
+    "icon": "UI_Gcg_CardFace_Modify_Talent_Modao_Sucrose_Golden",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_GCG_CARD_FACE",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": ""
+  },
+  "334652": {
+    "name": "Book of Blinding Light",
+    "desc": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+    "rank": 4,
+    "icon": "UI_Gcg_CardFace_Modify_Talent_Modao_Albedo_Golden",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_GCG_CARD_FACE",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": ""
+  },
+  "334653": {
+    "name": "Elk With Fanged Antlers",
+    "desc": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+    "rank": 4,
+    "icon": "UI_Gcg_CardFace_Modify_Talent_Illuga_Golden",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_GCG_CARD_FACE",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": ""
+  },
   "335000": {
     "name": "Magic Guide",
     "desc": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
@@ -127956,6 +129347,20 @@
     "special": "",
     "type": ""
   },
+  "335117": {
+    "name": "Recollection of Days Past",
+    "desc": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+    "rank": 4,
+    "icon": "UI_Gcg_CardFace_Modify_Artifact_XishiXiao_Golden",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_GCG_CARD_FACE",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": ""
+  },
   "336000": {
     "name": "Liyue Harbor Wharf",
     "desc": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
@@ -129165,6 +130570,20 @@
     "desc": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
     "rank": 4,
     "icon": "UI_Gcg_CardFace_Event_Resonance_ElecGrass_Golden",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_GCG_CARD_FACE",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": ""
+  },
+  "336087": {
+    "name": "Elemental Transfiguration: Overload Blessing",
+    "desc": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+    "rank": 4,
+    "icon": "UI_Gcg_CardFace_Event_Resonance_ElecFire_Golden",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_GCG_CARD_FACE",
     "jump_descs": [],
@@ -130868,6 +132287,20 @@
     "special": "",
     "type": ""
   },
+  "337121": {
+    "name": "Return of the Three Moons",
+    "desc": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+    "rank": 4,
+    "icon": "UI_Gcg_CardFace_Event_Event_Sanyue_Golden",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_GCG_CARD_FACE",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": ""
+  },
   "339000": {
     "name": "Origin",
     "desc": "A Genius Invokation TCG card back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby.",
@@ -132478,6 +133911,34 @@
     "jump_descs": [
       "Obtained after completing the high-difficulty challenge \"Nameless Bloodstained Monument\""
     ],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": ""
+  },
+  "341902": {
+    "name": "Exaiphanes Blade",
+    "desc": "A star-hued longsword that flashes with radiance, a special illusory sword that can only be equipped by the Traveler.\\n\\n<i>\"I am the nothingness at the dawn of all things. I am the spark newly born after all things have fallen into ruin.\"</i>\\n<i>\"Behold, my great work shall now be complete.\"</i>",
+    "rank": 4,
+    "icon": "UI_EquipIcon_Sword_WeaponQuestSnezhnaya01",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_WEAPON_SKIN",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": ""
+  },
+  "341903": {
+    "name": "Exaiphanes Blade",
+    "desc": "A star-hued longsword that flashes with radiance, a special weapon skin gifted by the Traveler to a friend.\\n\\n\"But this world shall never burn again, for the justice beyond this world has arrived.\"</i>\\n<i>\"Behold... The stars shine ever so bright tonight.\"</i>",
+    "rank": 4,
+    "icon": "UI_EquipIcon_Sword_WeaponQuestSnezhnaya02",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_WEAPON_SKIN",
+    "jump_descs": [],
     "source_list": [],
     "title": "",
     "effect": "",
@@ -135315,6 +136776,34 @@
   "380484": {
     "name": "\"Chirping About As Birds Do\"",
     "desc": "A detailed step-by-step blueprint for making \"Chirping About As Birds Do.\"\\nAfter using this item, you can view it in the Creation Screen.",
+    "rank": 3,
+    "icon": "UI_ItemIcon_Home_Common",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_FURNITURE_FORMULA",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "Furnishing Blueprint"
+  },
+  "380485": {
+    "name": "（test）逐月节灯笼A",
+    "desc": "",
+    "rank": 3,
+    "icon": "UI_ItemIcon_Home_Common",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_FURNITURE_FORMULA",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "Furnishing Blueprint"
+  },
+  "380486": {
+    "name": "（test）逐月节灯笼B",
+    "desc": "",
     "rank": 3,
     "icon": "UI_ItemIcon_Home_Common",
     "item_type": "ITEM_MATERIAL",
@@ -140255,8 +141744,8 @@
     "type": "Furnishing Blueprint"
   },
   "383442": {
-    "name": "\"Balanced Boughs\"",
-    "desc": "A detailed step-by-step blueprint for making \"Balanced Boughs.\"\\nAfter using this item, you can view it in the Creation Screen.",
+    "name": "Faint Swaying Gold",
+    "desc": "A detailed step-by-step blueprint for making \"Faint Swaying Gold.\"\\nAfter using this item, you can view it in the Creation Screen.",
     "rank": 3,
     "icon": "UI_ItemIcon_Home_Common",
     "item_type": "ITEM_MATERIAL",
@@ -141042,6 +142531,20 @@
     "name": "\"The Love One Seeks\"",
     "desc": "A detailed step-by-step blueprint for making \"The Love One Seeks.\"\\nAfter using this item, you can view it in the Creation Screen.",
     "rank": 4,
+    "icon": "UI_ItemIcon_Home_Common",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_FURNITURE_FORMULA",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "Furnishing Blueprint"
+  },
+  "384526": {
+    "name": "???",
+    "desc": "???",
+    "rank": 3,
     "icon": "UI_ItemIcon_Home_Common",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_FURNITURE_FORMULA",
@@ -142175,6 +143678,48 @@
   "390342": {
     "name": "Nasha Stall: Unending Search",
     "desc": "A detailed step-by-step blueprint for making a Nasha Stall: Unending Search.\\nAfter using this item, you can view it in the Creation Screen.",
+    "rank": 3,
+    "icon": "UI_ItemIcon_Home_Common",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_FURNITURE_FORMULA",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "Furnishing Blueprint"
+  },
+  "390343": {
+    "name": "（test）海屑镇摊位1",
+    "desc": "",
+    "rank": 3,
+    "icon": "UI_ItemIcon_Home_Common",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_FURNITURE_FORMULA",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "Furnishing Blueprint"
+  },
+  "390344": {
+    "name": "（test）海屑镇摊位2",
+    "desc": "",
+    "rank": 3,
+    "icon": "UI_ItemIcon_Home_Common",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_FURNITURE_FORMULA",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "Furnishing Blueprint"
+  },
+  "390345": {
+    "name": "（test）海屑镇摊位3",
+    "desc": "",
     "rank": 3,
     "icon": "UI_ItemIcon_Home_Common",
     "item_type": "ITEM_MATERIAL",
@@ -153034,6 +154579,20 @@
     "title": "",
     "effect": "",
     "special": "\"Dancing Beneath Silver-White Wings\"",
+    "type": "Furnishing Blueprint"
+  },
+  "394852": {
+    "name": "???",
+    "desc": "???",
+    "rank": 3,
+    "icon": "UI_ItemIcon_Home_Common",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_FURNITURE_FORMULA",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "???",
     "type": "Furnishing Blueprint"
   }
 }

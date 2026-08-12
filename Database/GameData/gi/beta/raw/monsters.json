@@ -411,7 +411,7 @@
     "desc": "The primitive wandering inhabitants of Teyvat's wildernesses.\\nHilichurl warriors who have wooden shields. These shields are not only sturdy defensive tools but also treasured items within the tribe. According to many reports, hilichurls will often charge at travelers making camp to cook and will snatch their pot lids after chasing them away.",
     "ko": "나무방패 츄츄",
     "zh": "木盾丘丘人",
-    "ja": "ヒルチャール·木盾"
+    "ja": ""
   },
   "21010401": {
     "codex": "HILICHURL",
@@ -546,7 +546,7 @@
     "desc": "A mysterious \"lord\" of hilichurls that stalks the snow and fog.\\nThis huge hilichurl is referred to as a \"lawa\" by its brethren. Its body, honed to the very limit, almost seems to blend into its Cryo-filled environment, and its stoic nobility is like that of the frozen northland rivers.",
     "ko": "츄츄 서리왕",
     "zh": "丘丘霜铠王",
-    "ja": "ヒルチャール·霜鎧の王"
+    "ja": ""
   },
   "21020501": {
     "codex": "HILICHURL",
@@ -1437,7 +1437,7 @@
     "desc": "A type of large clockwork meka which also has immeasurable value when utilized in building construction and archeological excavation. Its name comes from an engineer employed by Callas during the construction of the Clementine Line.\\nWith Callas' financial backing, this engineer built the legendary \"Golden Vessel\" — a gigantic piece of construction machinery which was used to dig the Poisson Tunnel. Once the job was complete, this type of clockwork meka was designed with a similar structure but reduced to a smaller scale.",
     "ko": "건설 특화 타입 장치",
     "zh": "建造特化型机关",
-    "ja": "建造特化型マシナリー"
+    "ja": ""
   },
   "24070301": {
     "codex": "AUTOMATRON",
@@ -1473,7 +1473,7 @@
     "desc": "A manufacturing machine from the ancient ruins. This type of machine, which can transform into numerous shapes, was used by the masters of the ancient ruins to perform various manufacturing tasks. As long as you learn how to use such a machine, you could build a city colossal beyond imagination, even within extreme environments like the depths of a volcano.\\nIn addition, it also seems to be able to be used as a weapon. Though the ancient civilization has long since fallen, this machine, shaped like a giant claw and powered by the golden designs engraved on it, can still engage in battle based upon its preset instructions.",
     "ko": "비밀근원 기계·구축기",
     "zh": "秘源机兵·构型械",
-    "ja": "秘源機兵・機巧デバイス"
+    "ja": ""
   },
   "24090501": {
     "codex": "AUTOMATRON",
@@ -1831,7 +1831,7 @@
     "icon": "UI_MonsterIcon_Human_Female_Staff_Snegurochka",
     "en": "Glaciomancer",
     "desc": "A Snegovik born of love amid the snow and ice.\\nFemale Snegovik are known as Snegurochka, and most are born as mages capable of freely wielding the power of ice and snow. It's said that when Snegovik were first created, their souls were incomplete, and only by falling in love with humans could they make themselves whole.\\nYet once a Snegovik has attained wholeness, does it still need love? Perhaps not.\\nMaybe this is why so many stories of love between Snegovik and human end in tragedy.",
-    "ko": "눈의 비법사",
+    "ko": "눈의 비술사",
     "zh": "凝冰秘法师",
     "ja": "氷の秘法師"
   },
@@ -1843,6 +1843,15 @@
     "ko": "눈의 수호기사",
     "zh": "凝冰戍卫",
     "ja": "氷の番人"
+  },
+  "25135202": {
+    "codex": "BEAST",
+    "icon": "UI_MonsterIcon_Snegurochka_Contessa_02",
+    "en": "Guardian Blade of Drifting Snow",
+    "desc": "An ancient Snegovik held in high esteem among her kin.\\nShe once served the legendary Great Snegurochka, whose name was steeped in crimson infamy, and was entrusted with the solemn duty of protecting the Snegovik clan for the rest of her life. It is said that seven were given this charge, but she alone remains. Every succession of the Snegovik sovereign must therefore take place under her watchful eye.\\nAfter the current Snegurochka princess ascended to power, she left the clan's manor in the mountains — perhaps because their ideals no longer aligned.",
+    "ko": "유설의 호인",
+    "zh": "游雪的护刃",
+    "ja": "游雪の刃JP0D"
   },
   "25137001": {
     "codex": "BEAST",
@@ -2373,7 +2382,7 @@
     "desc": "Little creatures that can ever so slightly manipulate Electro.\\nThey and other such creatures are known collectively as Cicins, and though they are individually weak, they can cause significant damage under the right circumstances.",
     "ko": "번개 치친",
     "zh": "雷萤",
-    "ja": "雷蛍"
+    "ja": ""
   },
   "26060201": {
     "codex": "BEAST",

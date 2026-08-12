@@ -3,325 +3,109 @@
   "game": "gi",
   "gameName": "Genshin Impact",
   "channel": "beta",
-  "version": "7.0",
+  "version": "7.0.50",
   "liveVersion": "7.0",
-  "betaVersion": "7.0",
+  "betaVersion": "7.0.50",
   "availableVersions": [
-    "7.0"
+    "7.0",
+    "7.0.50"
   ],
-  "scrapedAt": "2026-08-12T04:20:56.582Z",
+  "scrapedAt": "2026-08-12T15:19:42.072Z",
   "counts": {
-    "characters": 148,
-    "weapons": 278,
+    "characters": 150,
+    "weapons": 286,
     "artifacts": 65,
-    "monsters": 584,
-    "items": 10404
+    "monsters": 585,
+    "items": 10511
   },
   "sourceCounts": {
-    "characters": 148,
-    "weapons": 278,
+    "characters": 150,
+    "weapons": 286,
     "artifacts": 65,
-    "monsters": 584,
-    "items": 10404
+    "monsters": 585,
+    "items": 10511
   },
   "newInManifest": {
     "character": [
-      10000148,
-      10000150,
-      "10000007-5",
-      "10000118-5",
-      10000135
+      10000140,
+      10000143
     ],
     "weapon": [
-      11435,
-      11436,
-      11520,
-      11521,
-      12435,
-      12436,
-      13435,
-      13436,
-      14435,
-      14436,
-      15435,
-      15436,
-      224001,
-      224002,
-      224003,
-      224004,
-      224005,
-      224006,
-      224007,
-      224008,
-      310003,
-      310004,
-      320003,
-      320004,
-      330003,
-      330004,
-      340003,
-      340004,
-      350003,
-      350004,
-      380003
+      11437,
+      11438,
+      11522,
+      14437,
+      14524,
+      15437,
+      390002,
+      390003
     ],
-    "artifact": [
-      15047,
-      15048
-    ],
+    "artifact": [],
     "monster": [
-      25130101,
-      25130201,
-      25131001,
-      25131201,
-      25131401,
-      25131601,
-      25132601,
-      25132701,
-      25132801,
-      25133601,
-      25133701,
-      25135001,
-      25135101,
-      25137001,
-      25138001,
-      25140101,
-      26310101,
-      26310201,
-      26310301,
-      26310401,
-      26310501,
-      28020414,
-      28021404,
-      28021503,
-      28021601,
-      28021701,
-      28030711,
-      28030712,
-      28042001,
-      28042002,
-      28042003,
-      28042101,
-      28042102,
-      28042103,
-      28051201,
-      28051301,
-      28061601
+      25135202
     ],
     "item": [
-      101278,
-      101279,
-      101280,
-      101281,
-      101282,
-      101331,
-      101332,
-      101333,
-      101334,
-      104365,
-      104366,
-      104367,
-      104368,
-      104369,
-      104370,
-      104371,
-      104372,
-      104373,
-      107035,
-      107036,
-      107037,
-      108985,
-      108986,
-      108987,
-      108988,
-      108989,
-      108990,
-      108991,
-      108992,
-      108993,
-      108994,
-      108995,
-      108996,
-      108997,
-      108998,
-      108999,
-      110017,
-      111037,
-      112146,
-      112147,
-      112148,
-      112149,
-      112150,
-      112151,
-      112152,
-      112153,
-      112154,
-      112155,
-      112156,
-      112157,
-      113090,
-      113091,
-      114085,
-      114086,
-      114087,
-      114088,
-      114089,
-      114090,
-      114091,
-      114092,
-      114093,
-      114094,
-      114095,
-      114096,
-      118013,
-      118014,
-      121657,
-      121659,
-      121660,
-      121661,
-      121674,
-      130045,
-      130046,
-      130047,
-      130048,
-      130049,
-      130050,
-      131054,
-      131055,
-      131056,
-      131057,
-      131058,
-      131059,
-      132001,
-      132002,
-      132003,
-      132004,
-      132005,
-      132006,
-      132007,
-      132008,
-      132009,
-      132010,
-      132011,
-      132012,
-      132013,
-      132014,
-      132015,
-      132016,
-      132017,
-      132018,
-      132019,
-      132020,
-      132021,
-      132022,
-      132023,
-      132024,
-      132025,
-      132026,
-      200909,
-      220133,
-      220135,
-      220136
+      113092,
+      132027,
+      132028,
+      132029,
+      132030,
+      132031,
+      132032,
+      132033,
+      132034,
+      132035,
+      132036,
+      132037,
+      132038,
+      132039,
+      200129,
+      220137,
+      220138
     ],
     "gcg": [
-      1317,
-      1516,
-      2208,
-      212032,
-      213062,
-      213171,
-      214012,
-      215032,
-      215161,
-      222081,
-      332065,
-      332066
+      1217,
+      1612,
+      212171,
+      214022,
+      215012,
+      216042,
+      216121,
+      312046,
+      330014,
+      331012
     ],
     "furniture": [
-      360484,
-      361126,
-      361127,
-      361350,
-      361415,
-      362136,
-      362137,
-      362325,
-      362326,
-      362408,
-      363121,
-      363122,
-      363399,
-      363400,
-      363417,
-      363418,
-      363419,
-      363420,
-      363421,
-      363422,
-      363423,
-      363424,
-      363425,
-      363426,
-      363427,
-      363428,
-      363429,
-      363430,
-      363431,
-      363432,
-      363433,
-      363434,
-      363435,
-      363436,
-      363437,
-      363438,
-      363439,
-      363440,
-      363441,
-      363442,
-      363443,
-      363513,
-      363514,
-      364524,
-      364525,
-      368218,
-      368219,
-      369231,
-      369232,
-      369233,
-      369234,
-      369235,
-      369236,
-      369237,
-      371050,
-      371051,
-      371052,
-      371053,
-      371054,
-      371055,
-      371056,
-      371057,
-      371058,
-      372363,
-      372525,
-      372526,
-      373942,
-      373943,
-      373944,
-      374224,
-      374225,
-      374334,
-      374661,
-      374662,
-      374663,
-      374664,
-      374665,
-      374666,
-      374844,
-      374845,
-      374846,
-      374847,
-      374848,
-      374849
+      360485,
+      360486,
+      362409,
+      363123,
+      364526,
+      368220,
+      368221,
+      370343,
+      370344,
+      370345,
+      371059,
+      372114,
+      372115,
+      372116,
+      372242,
+      372244,
+      372364,
+      372365,
+      372366,
+      372367,
+      372368,
+      372369,
+      372370,
+      372527,
+      372529,
+      372710,
+      374850,
+      374851,
+      374852,
+      374853
     ],
     "suite": [],
     "beyond_costume": [
@@ -472,17 +256,17 @@
     "items": "GameData/gi/beta/items.json",
     "raw": "GameData/gi/beta/raw"
   },
-  "assetsPlanned": 8574,
+  "assetsPlanned": 8692,
   "betaOmissions": {
     "count": 0,
     "records": []
   },
   "contentStatus": "Beta records are compared to Live and marked live, beta, or beta_changed.",
   "assets": {
-    "requested": 8574,
-    "downloaded": 0,
+    "requested": 8692,
+    "downloaded": 80,
     "cached": 7052,
-    "missing": 1522,
+    "missing": 1560,
     "missingAssets": [
       {
         "path": "GameData/gi/assets/characters/cards/UI_AvatarIcon_MannequinBoy_Card.webp",
@@ -795,6 +579,10 @@
       {
         "path": "GameData/gi/assets/items/UI_GcgIcon_CardCurrency.webp",
         "gamedataAssetPath": "UI_GcgIcon_CardCurrency.webp"
+      },
+      {
+        "path": "GameData/gi/assets/items/UI_ItemIcon_401.webp",
+        "gamedataAssetPath": "UI_ItemIcon_401.webp"
       },
       {
         "path": "GameData/gi/assets/items/UI_ItemIcon_2001.webp",
@@ -1357,6 +1145,14 @@
         "gamedataAssetPath": "UI_ItemIcon_121614.webp"
       },
       {
+        "path": "GameData/gi/assets/items/UI_ItemIcon_121623.webp",
+        "gamedataAssetPath": "UI_ItemIcon_121623.webp"
+      },
+      {
+        "path": "GameData/gi/assets/items/UI_ItemIcon_121624.webp",
+        "gamedataAssetPath": "UI_ItemIcon_121624.webp"
+      },
+      {
         "path": "GameData/gi/assets/items/UI_ItemIcon_121637.webp",
         "gamedataAssetPath": "UI_ItemIcon_121637.webp"
       },
@@ -1393,8 +1189,16 @@
         "gamedataAssetPath": "UI_ItemIcon_121656.webp"
       },
       {
+        "path": "GameData/gi/assets/items/UI_ItemIcon_121662.webp",
+        "gamedataAssetPath": "UI_ItemIcon_121662.webp"
+      },
+      {
         "path": "GameData/gi/assets/items/UI_ItemIcon_121663.webp",
         "gamedataAssetPath": "UI_ItemIcon_121663.webp"
+      },
+      {
+        "path": "GameData/gi/assets/items/UI_ItemIcon_121670.webp",
+        "gamedataAssetPath": "UI_ItemIcon_121670.webp"
       },
       {
         "path": "GameData/gi/assets/items/UI_ItemIcon_121675.webp",
@@ -1405,8 +1209,60 @@
         "gamedataAssetPath": "UI_ItemIcon_121680.webp"
       },
       {
+        "path": "GameData/gi/assets/items/UI_ItemIcon_121684.webp",
+        "gamedataAssetPath": "UI_ItemIcon_121684.webp"
+      },
+      {
+        "path": "GameData/gi/assets/items/UI_ItemIcon_121703.webp",
+        "gamedataAssetPath": "UI_ItemIcon_121703.webp"
+      },
+      {
+        "path": "GameData/gi/assets/items/UI_ItemIcon_121704.webp",
+        "gamedataAssetPath": "UI_ItemIcon_121704.webp"
+      },
+      {
+        "path": "GameData/gi/assets/items/UI_ItemIcon_121713.webp",
+        "gamedataAssetPath": "UI_ItemIcon_121713.webp"
+      },
+      {
+        "path": "GameData/gi/assets/items/UI_ItemIcon_121714.webp",
+        "gamedataAssetPath": "UI_ItemIcon_121714.webp"
+      },
+      {
+        "path": "GameData/gi/assets/items/UI_ItemIcon_121716.webp",
+        "gamedataAssetPath": "UI_ItemIcon_121716.webp"
+      },
+      {
+        "path": "GameData/gi/assets/items/UI_ItemIcon_108904.webp",
+        "gamedataAssetPath": "UI_ItemIcon_108904.webp"
+      },
+      {
+        "path": "GameData/gi/assets/items/UI_ItemIcon_108907.webp",
+        "gamedataAssetPath": "UI_ItemIcon_108907.webp"
+      },
+      {
+        "path": "GameData/gi/assets/items/UI_ItemIcon_108908.webp",
+        "gamedataAssetPath": "UI_ItemIcon_108908.webp"
+      },
+      {
+        "path": "GameData/gi/assets/items/UI_ItemIcon_108909.webp",
+        "gamedataAssetPath": "UI_ItemIcon_108909.webp"
+      },
+      {
+        "path": "GameData/gi/assets/items/UI_ItemIcon_200129.webp",
+        "gamedataAssetPath": "UI_ItemIcon_200129.webp"
+      },
+      {
         "path": "GameData/gi/assets/items/UI_ItemIcon_220092.webp",
         "gamedataAssetPath": "UI_ItemIcon_220092.webp"
+      },
+      {
+        "path": "GameData/gi/assets/items/UI_ItemIcon_220137.webp",
+        "gamedataAssetPath": "UI_ItemIcon_220137.webp"
+      },
+      {
+        "path": "GameData/gi/assets/items/UI_ItemIcon_220138.webp",
+        "gamedataAssetPath": "UI_ItemIcon_220138.webp"
       },
       {
         "path": "GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Ayaka.webp",
@@ -1999,6 +1855,14 @@
       {
         "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Char_Monster_EffigyWater_Platinum.webp",
         "gamedataAssetPath": "UI_Gcg_CardFace_Char_Monster_EffigyWater_Platinum.webp"
+      },
+      {
+        "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Char_Avatar_Columbina_Platinum.webp",
+        "gamedataAssetPath": "UI_Gcg_CardFace_Char_Avatar_Columbina_Platinum.webp"
+      },
+      {
+        "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Char_Avatar_Illuga_Platinum.webp",
+        "gamedataAssetPath": "UI_Gcg_CardFace_Char_Avatar_Illuga_Platinum.webp"
       },
       {
         "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_Ganyu_Platinum.webp",
@@ -2597,6 +2461,26 @@
         "gamedataAssetPath": "UI_Gcg_CardFace_Modify_Talent_Modao_Venti_Platinum.webp"
       },
       {
+        "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_Columbina_Platinum.webp",
+        "gamedataAssetPath": "UI_Gcg_CardFace_Modify_Talent_Columbina_Platinum.webp"
+      },
+      {
+        "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_Modao_Razor_Platinum.webp",
+        "gamedataAssetPath": "UI_Gcg_CardFace_Modify_Talent_Modao_Razor_Platinum.webp"
+      },
+      {
+        "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_Modao_Sucrose_Platinum.webp",
+        "gamedataAssetPath": "UI_Gcg_CardFace_Modify_Talent_Modao_Sucrose_Platinum.webp"
+      },
+      {
+        "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_Modao_Albedo_Platinum.webp",
+        "gamedataAssetPath": "UI_Gcg_CardFace_Modify_Talent_Modao_Albedo_Platinum.webp"
+      },
+      {
+        "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_Illuga_Platinum.webp",
+        "gamedataAssetPath": "UI_Gcg_CardFace_Modify_Talent_Illuga_Platinum.webp"
+      },
+      {
         "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Modify_Weapon_CatalystIntro_Platinum.webp",
         "gamedataAssetPath": "UI_Gcg_CardFace_Modify_Weapon_CatalystIntro_Platinum.webp"
       },
@@ -3065,6 +2949,10 @@
         "gamedataAssetPath": "UI_Gcg_CardFace_Modify_Artifact_JuedoushiDa_Platinum.webp"
       },
       {
+        "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Modify_Artifact_XishiXiao_Platinum.webp",
+        "gamedataAssetPath": "UI_Gcg_CardFace_Modify_Artifact_XishiXiao_Platinum.webp"
+      },
+      {
         "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Assist_Location_LiyueHarbor_Platinum.webp",
         "gamedataAssetPath": "UI_Gcg_CardFace_Assist_Location_LiyueHarbor_Platinum.webp"
       },
@@ -3411,6 +3299,10 @@
       {
         "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Event_Resonance_ElecGrass_Platinum.webp",
         "gamedataAssetPath": "UI_Gcg_CardFace_Event_Resonance_ElecGrass_Platinum.webp"
+      },
+      {
+        "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Event_Resonance_ElecFire_Platinum.webp",
+        "gamedataAssetPath": "UI_Gcg_CardFace_Event_Resonance_ElecFire_Platinum.webp"
       },
       {
         "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Event_ResonanceB_Ice_Platinum.webp",
@@ -3895,6 +3787,10 @@
       {
         "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Event_Event_XumiFriend_Platinum.webp",
         "gamedataAssetPath": "UI_Gcg_CardFace_Event_Event_XumiFriend_Platinum.webp"
+      },
+      {
+        "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Event_Event_Sanyue_Platinum.webp",
+        "gamedataAssetPath": "UI_Gcg_CardFace_Event_Event_Sanyue_Platinum.webp"
       },
       {
         "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Char_Avatar_Ganyu_Golden.webp",
@@ -4475,6 +4371,14 @@
       {
         "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Char_Monster_EffigyWater_Golden.webp",
         "gamedataAssetPath": "UI_Gcg_CardFace_Char_Monster_EffigyWater_Golden.webp"
+      },
+      {
+        "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Char_Avatar_Columbina_Golden.webp",
+        "gamedataAssetPath": "UI_Gcg_CardFace_Char_Avatar_Columbina_Golden.webp"
+      },
+      {
+        "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Char_Avatar_Illuga_Golden.webp",
+        "gamedataAssetPath": "UI_Gcg_CardFace_Char_Avatar_Illuga_Golden.webp"
       },
       {
         "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_Ganyu_Golden.webp",
@@ -5073,6 +4977,26 @@
         "gamedataAssetPath": "UI_Gcg_CardFace_Modify_Talent_Modao_Venti_Golden.webp"
       },
       {
+        "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_Columbina_Golden.webp",
+        "gamedataAssetPath": "UI_Gcg_CardFace_Modify_Talent_Columbina_Golden.webp"
+      },
+      {
+        "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_Modao_Razor_Golden.webp",
+        "gamedataAssetPath": "UI_Gcg_CardFace_Modify_Talent_Modao_Razor_Golden.webp"
+      },
+      {
+        "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_Modao_Sucrose_Golden.webp",
+        "gamedataAssetPath": "UI_Gcg_CardFace_Modify_Talent_Modao_Sucrose_Golden.webp"
+      },
+      {
+        "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_Modao_Albedo_Golden.webp",
+        "gamedataAssetPath": "UI_Gcg_CardFace_Modify_Talent_Modao_Albedo_Golden.webp"
+      },
+      {
+        "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_Illuga_Golden.webp",
+        "gamedataAssetPath": "UI_Gcg_CardFace_Modify_Talent_Illuga_Golden.webp"
+      },
+      {
         "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Modify_Weapon_CatalystIntro_Golden.webp",
         "gamedataAssetPath": "UI_Gcg_CardFace_Modify_Weapon_CatalystIntro_Golden.webp"
       },
@@ -5541,6 +5465,10 @@
         "gamedataAssetPath": "UI_Gcg_CardFace_Modify_Artifact_JuedoushiDa_Golden.webp"
       },
       {
+        "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Modify_Artifact_XishiXiao_Golden.webp",
+        "gamedataAssetPath": "UI_Gcg_CardFace_Modify_Artifact_XishiXiao_Golden.webp"
+      },
+      {
         "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Assist_Location_LiyueHarbor_Golden.webp",
         "gamedataAssetPath": "UI_Gcg_CardFace_Assist_Location_LiyueHarbor_Golden.webp"
       },
@@ -5887,6 +5815,10 @@
       {
         "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Event_Resonance_ElecGrass_Golden.webp",
         "gamedataAssetPath": "UI_Gcg_CardFace_Event_Resonance_ElecGrass_Golden.webp"
+      },
+      {
+        "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Event_Resonance_ElecFire_Golden.webp",
+        "gamedataAssetPath": "UI_Gcg_CardFace_Event_Resonance_ElecFire_Golden.webp"
       },
       {
         "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Event_ResonanceB_Ice_Golden.webp",
@@ -6371,6 +6303,10 @@
       {
         "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Event_Event_XumiFriend_Golden.webp",
         "gamedataAssetPath": "UI_Gcg_CardFace_Event_Event_XumiFriend_Golden.webp"
+      },
+      {
+        "path": "GameData/gi/assets/items/UI_Gcg_CardFace_Event_Event_Sanyue_Golden.webp",
+        "gamedataAssetPath": "UI_Gcg_CardFace_Event_Event_Sanyue_Golden.webp"
       },
       {
         "path": "GameData/gi/assets/items/UI_Gcg_CardBack_Mengde.webp",

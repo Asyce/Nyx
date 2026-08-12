@@ -9798,7 +9798,7 @@
   },
   {
     "id": "15048",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Heart of the Furnace",
     "rarity": [
       4,
@@ -9843,7 +9843,7 @@
         "id": "2150481",
         "pieces": 4,
         "name": "Heart of the Furnace",
-        "description": "Increases the equipping character's ATK by 12% for 12s when they trigger a Stellar Glimmer reaction or deal Stellar Glimmer reaction DMG. Also increases Stellar Glimmer reaction DMG dealt by all nearby party members by 50%. The above effects can trigger even when the equipping character is not on the field, and he DMG bonus from multiple Artifact Sets with the same name do not stack.",
+        "description": "Increases the equipping character's ATK by 12% for 12s when they trigger a Stellar Glimmer reaction or deal Stellar Glimmer reaction DMG. Also increases Stellar Glimmer reaction DMG dealt by all nearby party members by 50%. The above effects can trigger even when the equipping character is not on the field, and the DMG bonus from multiple Artifact Sets with the same name do not stack.",
         "params": [
           0.12,
           0.5,
@@ -9954,7 +9954,7 @@
     ],
     "liveComparison": {
       "liveHash": "33c54dfe2dc67e9945ee867720bcf66336e99e57610cf71e9209903ea1cd1b7f",
-      "currentHash": "33c54dfe2dc67e9945ee867720bcf66336e99e57610cf71e9209903ea1cd1b7f"
+      "currentHash": "70ea35c157153978e1b4a7d055fb88b12e6517fa6c1fd8eb9c6004484c3f12d0"
     }
   }
 ]

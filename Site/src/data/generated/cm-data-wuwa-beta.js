@@ -25,7 +25,7 @@
       "slug": "zani",
       "release": 1745884800000,
       "releasePatch": "2.3",
-      "updated": 1785362400000,
+      "updated": 1785369600000,
       "sourceOrder": 1507,
       "voiceActors": {
         "english": "imdb:nm3229078|Alexandra Metaxa",
@@ -1671,7 +1671,7 @@
       "slug": "suisui",
       "release": 1785369600000,
       "releasePatch": "3.5",
-      "updated": 1785535200000,
+      "updated": 1785542400000,
       "sourceOrder": 1110,
       "voiceActors": {
         "english": "imdb:nm5069067|Emily Piggford",

@@ -7,10 +7,9 @@
   "liveVersion": "7.0",
   "betaVersion": "7.0",
   "availableVersions": [
-    "6.7",
     "7.0"
   ],
-  "scrapedAt": "2026-08-10T23:55:56.317Z",
+  "scrapedAt": "2026-08-12T04:20:49.803Z",
   "counts": {
     "characters": 148,
     "weapons": 278,
@@ -481,8 +480,8 @@
   "contentStatus": "All records are Live records from the GameData live manifest version.",
   "assets": {
     "requested": 8574,
-    "downloaded": 17,
-    "cached": 7035,
+    "downloaded": 0,
+    "cached": 7052,
     "missing": 1522,
     "missingAssets": [
       {

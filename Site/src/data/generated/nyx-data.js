@@ -4,7 +4,7 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-08-11T17:54:28.507Z",
+  "generatedAt": "2026-08-12T04:24:10.973Z",
   "codes": {
     "updated": "2026-08-11T17:38:35.815Z",
     "maxAgeDays": 28,
@@ -592,70 +592,7 @@ var NYX_DB = {
           "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
-          "phase": "6.7 Phase 2",
-          "start": "2026-07-21T23:00:00.000Z",
-          "end": "2026-08-11T19:59:00.000Z",
-          "characters": [
-            {
-              "name": "Raiden Shogun",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Shougun_Circle.webp",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Shougun.webp",
-              "namecard": "../../Database/GenshinWiki/namecards/Shougun.png",
-              "rarity": 5,
-              "debut": false,
-              "debutAt": "2021-09-01"
-            },
-            {
-              "name": "Jahoda",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Jahoda_Circle.webp",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Jahoda.webp",
-              "namecard": "../../Database/GenshinWiki/namecards/Jahoda.png",
-              "rarity": 4,
-              "debut": false,
-              "debutAt": "2025-12-03"
-            },
-            {
-              "name": "Ororon",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Olorun_Circle.webp",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Olorun.webp",
-              "namecard": "../../Database/GenshinWiki/namecards/Olorun.png",
-              "rarity": 4,
-              "debut": false,
-              "debutAt": "2024-11-20"
-            },
-            {
-              "name": "Sethos",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Sethos_Circle.webp",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Sethos.webp",
-              "namecard": "../../Database/GenshinWiki/namecards/Sethos.png",
-              "rarity": 4,
-              "debut": false,
-              "debutAt": "2024-06-05"
-            },
-            {
-              "name": "Columbina",
-              "icon": "../../Database/GameData/gi/assets/characters/icons/UI_AvatarIcon_Columbina.webp",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Columbina.webp",
-              "namecard": "../../Database/GenshinWiki/namecards/Columbina.png",
-              "rarity": 5,
-              "debut": false,
-              "debutAt": "2026-01-14"
-            }
-          ],
-          "subBanners": []
-        },
-        "next": {
-          "phase": "7.0 Phase 1",
+          "phase": "7.0",
           "start": "2026-08-12T03:00:00.000Z",
           "end": "2026-09-01T09:59:59.000Z",
           "characters": [
@@ -708,6 +645,37 @@ var NYX_DB = {
               "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Arlecchino_Circle.webp",
               "iconFallback": null,
               "iconZoom": false,
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Arlecchino.webp",
+              "namecard": "../../Database/GenshinWiki/namecards/Arlecchino.png",
+              "rarity": 5,
+              "debut": false,
+              "debutAt": "2024-04-24"
+            }
+          ],
+          "subBanners": []
+        },
+        "next": {
+          "phase": "7.0 Phase 1",
+          "teased": false,
+          "start": "2026-08-12T10:00:00.000Z",
+          "end": null,
+          "characters": [
+            {
+              "name": "Odette",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Odette_Circle.webp",
+              "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Odette.webp",
+              "iconZoom": true,
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Odette.webp",
+              "namecard": null,
+              "rarity": 5,
+              "debut": true,
+              "debutAt": "2026-08-12"
+            },
+            {
+              "name": "Arlecchino",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Arlecchino_Circle.webp",
+              "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Arlecchino.webp",
+              "iconZoom": true,
               "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Arlecchino.webp",
               "namecard": "../../Database/GenshinWiki/namecards/Arlecchino.png",
               "rarity": 5,
@@ -5430,70 +5398,7 @@ var NYX_DB = {
           "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
-          "phase": "6.7 Phase 2",
-          "start": "2026-07-21T23:00:00.000Z",
-          "end": "2026-08-11T19:59:00.000Z",
-          "characters": [
-            {
-              "name": "Raiden Shogun",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Shougun_Circle.webp",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Shougun.webp",
-              "namecard": "../../Database/GenshinWiki/namecards/Shougun.png",
-              "rarity": 5,
-              "debut": false,
-              "debutAt": "2021-09-01"
-            },
-            {
-              "name": "Jahoda",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Jahoda_Circle.webp",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Jahoda.webp",
-              "namecard": "../../Database/GenshinWiki/namecards/Jahoda.png",
-              "rarity": 4,
-              "debut": false,
-              "debutAt": "2025-12-03"
-            },
-            {
-              "name": "Ororon",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Olorun_Circle.webp",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Olorun.webp",
-              "namecard": "../../Database/GenshinWiki/namecards/Olorun.png",
-              "rarity": 4,
-              "debut": false,
-              "debutAt": "2024-11-20"
-            },
-            {
-              "name": "Sethos",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Sethos_Circle.webp",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Sethos.webp",
-              "namecard": "../../Database/GenshinWiki/namecards/Sethos.png",
-              "rarity": 4,
-              "debut": false,
-              "debutAt": "2024-06-05"
-            },
-            {
-              "name": "Columbina",
-              "icon": "../../Database/GameData/gi/assets/characters/icons/UI_AvatarIcon_Columbina.webp",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Columbina.webp",
-              "namecard": "../../Database/GenshinWiki/namecards/Columbina.png",
-              "rarity": 5,
-              "debut": false,
-              "debutAt": "2026-01-14"
-            }
-          ],
-          "subBanners": []
-        },
-        "next": {
-          "phase": "7.0 Phase 1",
+          "phase": "7.0",
           "start": "2026-08-12T03:00:00.000Z",
           "end": "2026-09-01T09:59:59.000Z",
           "characters": [
@@ -5546,6 +5451,37 @@ var NYX_DB = {
               "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Arlecchino_Circle.webp",
               "iconFallback": null,
               "iconZoom": false,
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Arlecchino.webp",
+              "namecard": "../../Database/GenshinWiki/namecards/Arlecchino.png",
+              "rarity": 5,
+              "debut": false,
+              "debutAt": "2024-04-24"
+            }
+          ],
+          "subBanners": []
+        },
+        "next": {
+          "phase": "7.0 Phase 1",
+          "teased": false,
+          "start": "2026-08-12T10:00:00.000Z",
+          "end": null,
+          "characters": [
+            {
+              "name": "Odette",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Odette_Circle.webp",
+              "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Odette.webp",
+              "iconZoom": true,
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Odette.webp",
+              "namecard": null,
+              "rarity": 5,
+              "debut": true,
+              "debutAt": "2026-08-12"
+            },
+            {
+              "name": "Arlecchino",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Arlecchino_Circle.webp",
+              "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Arlecchino.webp",
+              "iconZoom": true,
               "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Arlecchino.webp",
               "namecard": "../../Database/GenshinWiki/namecards/Arlecchino.png",
               "rarity": 5,

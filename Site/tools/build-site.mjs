@@ -97,6 +97,7 @@ await compileJsxBundle(
     'components/game-page-components.jsx',
     'shared/pinned-favourites.js',
     'features/materials/char-materials.jsx',
+    'features/materials/char-materials-share-card.js',
     'data/generated/pulls-weapons-gi.js',
     'data/generated/pulls-weapons-hsr.js',
     'data/generated/pulls-weapons-zzz.js',

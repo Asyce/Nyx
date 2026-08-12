@@ -9,6 +9,45 @@ const generated = path.join(site, 'src/data/generated');
 const read = (rel) => fs.readFile(path.join(site, rel), 'utf8');
 const plain = (value) => JSON.parse(JSON.stringify(value));
 
+async function loadMaterialsShareCard(){
+  const requirementCalls = [];
+  const currencyCosts = [];
+  const context = {
+    URL,
+    URLSearchParams,
+    location:{ origin:'https://pengo.gg' },
+    CM_TALENT_CFG:{
+      gi:{ max:[10, 10, 10] },
+      hsr:{ max:[6, 10, 10, 10] },
+      zzz:{ max:[12, 12, 12, 12, 12, 6] },
+    },
+    CM_ELEM:{ fire:'#ff6655' },
+    cmRouteSlug:(value) => String(value || '').trim().toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, ''),
+    cmRequirements:(gameKey, view, options) => {
+      requirementCalls.push({ gameKey, options });
+      return {
+        ascCost:11,
+        talentCost:22,
+        weaponCost:33,
+        ascension:[{ name:'Ascension', kind:'gem', qty:1 }],
+        talents:[{ name:'Talent', kind:'book', qty:2 }],
+      };
+    },
+    cmCurrencyMat:(cfg, cost) => {
+      currencyCosts.push(cost);
+      return cost === 0 ? null : { name:'Currency', kind:'currency', qty:cost };
+    },
+    cmReqItems:(items) => items.filter(Boolean),
+    cmCombineReqItems:(...groups) => groups.flat(),
+    cmMetaChips:() => [],
+    cmMetaIconSrc:() => null,
+    cmWeaponRowLabel:(gameKey) => gameKey === 'hsr' ? 'LIGHT CONE' : gameKey === 'zzz' ? 'W-ENGINE' : 'WEAPON',
+  };
+  vm.runInNewContext(`${await read('src/features/materials/char-materials-share-card.js')}
+    this.shareCardApi = { nyxBuildMaterialsCardModel, nyxMaterialsCardUrl, nyxParseMaterialsCardSearch };`, context);
+  return { ...context.shareCardApi, requirementCalls, currencyCosts };
+}
+
 async function loadGenerated(file, key, beta = false){
   const window = { CM_CFG:{}, CM_CFG_BETA:{}, dispatchEvent(){} };
   vm.runInNewContext(await fs.readFile(path.join(generated, file), 'utf8'), {
@@ -247,4 +286,140 @@ test('released and announced ZZZ portraits are local, status-correct, and Mavuik
   assert.ok((await fs.stat(mavuika)).size > 0);
   assert.match(materials, /ch\.icon, ch\.originalIcon, ch\.circle, ch\.card, ch\.art/);
   assert.match(materials, /onError=\{\(\) => setSourceIndex/);
+});
+
+test('materials share URLs round-trip unknown selections in deterministic order', async () => {
+  const { nyxMaterialsCardUrl, nyxParseMaterialsCardSearch } = await loadMaterialsShareCard();
+  const href = nyxMaterialsCardUrl({
+    origin:'https://pengo.gg/ignored/path',
+    gameKey:'gi',
+    characterName:'Future Traveler',
+    weaponId:'unknown weapon',
+    variantKey:'future/form',
+    gender:'unreleased-art',
+    channel:'beta',
+  });
+  assert.equal(href, 'https://pengo.gg/genshin/characters/future-traveler?card=1&weapon=unknown+weapon&form=future%2Fform&gender=unreleased-art&channel=beta');
+  assert.deepEqual(plain(nyxParseMaterialsCardSearch(href)), {
+    weaponId:'unknown weapon',
+    variantKey:'future/form',
+    gender:'unreleased-art',
+    channel:'beta',
+  });
+  assert.equal(nyxParseMaterialsCardSearch('?weapon=unknown&channel=beta'), null);
+});
+
+test('materials share models always use every game max, standard art, and a literal zero weapon cost', async () => {
+  const { nyxBuildMaterialsCardModel, requirementCalls, currencyCosts } = await loadMaterialsShareCard();
+  const expected = {
+    gi:{ level:90, targets:[10, 10, 10] },
+    hsr:{ level:80, targets:[6, 10, 10, 10] },
+    zzz:{ level:60, targets:[12, 12, 12, 12, 12, 6] },
+    wuwa:{ level:90, targets:null },
+    ae:{ level:80, targets:null },
+  };
+  for (const [gameKey, max] of Object.entries(expected)) {
+    const model = nyxBuildMaterialsCardModel({
+      gameKey,
+      view:{
+        n:'Test Character',
+        el:'fire',
+        originalArt:'/standard-art.webp',
+        art:'data:image/png;base64,local-custom-art',
+        originalIcon:'/standard-icon.webp',
+        icon:'data:image/png;base64,local-custom-icon',
+      },
+      cfg:{},
+      activeWeapon:{ id:'zero-cost', name:'Zero Cost', cost:0, items:[] },
+      midLabel:gameKey === 'ae' ? 'Growth Materials' : 'Talents',
+    });
+    assert.equal(model.maxLevel, max.level, gameKey + ' uses its character level cap');
+    assert.deepEqual(plain(model.targets), max.targets, gameKey + ' uses its max talent targets');
+    assert.equal(model.art, '/standard-art.webp');
+    assert.equal(model.icon, '/standard-icon.webp');
+  }
+  assert.deepEqual(plain(requirementCalls.map((call) => call.options?.targets || null)), Object.values(expected).map((row) => row.targets));
+  assert.deepEqual(currencyCosts.filter((_, index) => index % 3 === 2), [0, 0, 0, 0, 0], 'weapon cost 0 never falls back to the requirement cost');
+});
+
+test('materials share gender is protagonist-only and genderless forms resolve from copied URLs', async () => {
+  const materials = await read('src/features/materials/char-materials.jsx');
+  const genderSource = materials.match(/function cmMaterialsShareGender\([\s\S]*?\n\}/)?.[0];
+  const identitySource = materials.match(/function cmSharedIdentityGender\([\s\S]*?\n\}/)?.[0];
+  const resolverSource = materials.match(/const sharedForms = Array\.isArray\(materialSel\?\.forms\)[\s\S]*?\n\s*: null;/)?.[0];
+  assert.ok(genderSource && identitySource && resolverSource, 'shared gender generation and resolver logic exist');
+  const context = { cmSanitizeIdentityPrefs:(prefs) => prefs };
+  vm.runInNewContext(`${genderSource}; this.shareGender = cmMaterialsShareGender;`, context);
+  const { nyxMaterialsCardUrl, nyxParseMaterialsCardSearch } = await loadMaterialsShareCard();
+  for (const [gameKey, view, prefs] of [
+    ['hsr', { id:'hsr-march-7th', baseName:'March 7th', gender:null }, { receptacle:'stelle' }],
+    ['wuwa', { id:'wuwa-jiyan', baseName:'Jiyan', gender:null }, { rover:'female' }],
+  ]) {
+    const gender = context.shareGender(gameKey, view, prefs);
+    const href = nyxMaterialsCardUrl({ origin:'https://pengo.gg', gameKey, characterName:view.baseName, gender, channel:'live' });
+    assert.equal(gender, null, gameKey + ' ordinary character has no derived gender');
+    assert.equal(new URL(href).searchParams.has('gender'), false, gameKey + ' ordinary URL omits gender');
+  }
+
+  const protagonists = [
+    ['hsr', { id:'hsr-trailblazer-fire', baseName:'Trailblazer', gender:null }, { receptacle:'caelus' }, 'male', { id:'hsr-trailblazer', baseName:'Trailblazer' }],
+    ['hsr', { id:'hsr-trailblazer-fire', baseName:'Trailblazer', gender:null }, { receptacle:'stelle' }, 'female', { id:'hsr-trailblazer', baseName:'Trailblazer' }],
+    ['hsr', { id:'hsr-trailblazer-fire', baseName:'Trailblazer', gender:null }, { receptacle:'pom_pom' }, 'male', { id:'hsr-trailblazer', baseName:'Trailblazer' }],
+    ['hsr', { id:'hsr-trailblazer-fire', baseName:'Trailblazer', gender:null }, { receptacle:'gepard' }, 'male', { id:'hsr-trailblazer', baseName:'Trailblazer' }],
+    ['hsr', { id:'hsr-trailblazer-fire', baseName:'Trailblazer', gender:null }, { receptacle:'trash' }, 'male', { id:'hsr-trailblazer', baseName:'Trailblazer' }],
+    ['wuwa', { id:'ww-rover-spectro', baseName:'Rover', gender:null }, { rover:'male' }, 'male', { id:'wuwa-rover', baseName:'Rover' }],
+    ['wuwa', { id:'ww-rover-spectro', baseName:'Rover', gender:null }, { rover:'female' }, 'female', { id:'wuwa-rover', baseName:'Rover' }],
+    ['wuwa', { id:'ww-rover-spectro', baseName:'Rover', gender:null }, { rover:'abby' }, 'male', { id:'wuwa-rover', baseName:'Rover' }],
+  ];
+  for (const [gameKey, view, prefs, expected, root] of protagonists) {
+    const gender = context.shareGender(gameKey, view, prefs);
+    const href = nyxMaterialsCardUrl({ origin:'https://pengo.gg', gameKey, characterName:view.baseName, variantKey:'physical', gender, channel:'live' });
+    const sharedCard = nyxParseMaterialsCardSearch(href);
+    assert.equal(sharedCard.gender, expected, `${gameKey}/${Object.values(prefs)[0]} is encoded as ${expected}`);
+    const resolverContext = {
+      gk:gameKey,
+      materialSel:{ ...root, forms:[{ id:'genderless-form', variantKey:'physical', gender:null }] },
+      sharedCard,
+      sharedVariantProvided:true,
+      sharedGenderProvided:true,
+      sharedVariantKey:sharedCard.variantKey,
+      sharedGenderKey:sharedCard.gender,
+    };
+    vm.runInNewContext(`${identitySource}\n${resolverSource}\nthis.resolved = sharedForm;`, resolverContext);
+    assert.equal(resolverContext.resolved?.id, 'genderless-form', gameKey + ' identity gender accepts a genderless protagonist form');
+  }
+});
+
+test('materials share cards stay stateless, bundle-local, and wired through the character route', async () => {
+  const [shareCard, materials, app, build, css] = await Promise.all([
+    read('src/features/materials/char-materials-share-card.js'),
+    read('src/features/materials/char-materials.jsx'),
+    read('src/app/nyx-app.jsx'),
+    read('tools/build-site.mjs'),
+    read('src/styles/game-page-shared.css'),
+  ]);
+  assert.match(shareCard, /const NYX_MATERIALS_CARD_WIDTH = 2000;/);
+  assert.doesNotMatch(shareCard, /devicePixelRatio|\bfetch\s*\(|\bClipboardItem\b|cmMatSourceDetails|weeklyBosses|Object\.assign\(window|window\.nyx/i);
+  const materialsEntry = build.indexOf("'features/materials/char-materials.jsx'");
+  const shareEntry = build.indexOf("'features/materials/char-materials-share-card.js'");
+  const appEntry = build.indexOf("'app/nyx-app.jsx'");
+  assert.ok(materialsEntry >= 0 && materialsEntry < shareEntry && shareEntry < appEntry, 'share helpers load after materials helpers and before their route consumers');
+  assert.match(materials, /function CMMaterialsShareCard\(/);
+  assert.match(materials, />Copy share link<\/button>/);
+  assert.match(materials, /navigator\.clipboard\.writeText\(shareUrl\)/);
+  assert.match(materials, /window\.prompt\('Copy this share link:', shareUrl\)/);
+  assert.match(materials, /<div className="cm-share-preview"/);
+  assert.match(materials, /function cmApplySharedIdentityDisplay\(gameKey, ch, prefs, sharedCard\)/);
+  assert.match(materials, /const prefKey = \{ gi:'twin', hsr:'receptacle', wuwa:'rover', ae:'endmin' \}\[gameKey\][\s\S]*gi:\{ male:'aether', female:'lumine' \}[\s\S]*hsr:\{ male:'caelus', female:'stelle' \}[\s\S]*wuwa:\{ male:'male', female:'female' \}[\s\S]*ae:\{ male:'male', female:'female' \}/);
+  assert.match(materials, /\.filter\(\(ch\) => !!sharedCard \|\| cmSpecialUnitVisible\(activeGame, ch, unitPrefs\)\)/);
+  assert.match(materials, /\.filter\(\(ch\) => cmSpecialUnitVisible\(gk, ch, unitPrefs\)\)/);
+  assert.match(materials, /characterName:sel\?\.baseName \|\| sel\?\.rawName \|\| sel\?\.n/);
+  assert.match(materials, /gender:cmMaterialsShareGender\(gk, view, identityPrefs\)/);
+  assert.match(materials, /else if \(!sharedCard && cfg && sel\) \{\s*setSel\(null\);\s*setActiveVariant\(null\);\s*setActiveGender\(null\);\s*\}[\s\S]*?\[selectedName, game, gk, effectiveChannel, sharedCard,/);
+  assert.doesNotMatch(materials, /nyxBuildMaterialsCardModel\(input\)/);
+  assert.match(app, /character \? nyxParseMaterialsCardSearch\(location\.search\) : null/);
+  assert.match(app, /shareCard:initialRoute\.shareCard/);
+  assert.match(app, /\['card', 'weapon', 'form', 'gender', 'channel'\]\.forEach/);
+  assert.match(app, /!isNyx && !\(materialSelection\?\.game === activeKey && materialSelection\.shareCard\) && <NyxChannelToggle gameKey=\{activeKey\} \/>/);
+  assert.match(css, /\.cm-share-preview\{/);
 });

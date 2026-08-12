@@ -2005,6 +2005,49 @@ function cmApplyIdentityDisplay(gameKey, ch, prefs){
   return ch;
 }
 
+function cmApplySharedIdentityDisplay(gameKey, ch, prefs, sharedCard){
+  const gender = sharedCard?.gender === 'female' || sharedCard?.gender === 'male' ? sharedCard.gender : null;
+  const prefKey = { gi:'twin', hsr:'receptacle', wuwa:'rover', ae:'endmin' }[gameKey];
+  const choice = gender && {
+    gi:{ male:'aether', female:'lumine' },
+    hsr:{ male:'caelus', female:'stelle' },
+    wuwa:{ male:'male', female:'female' },
+    ae:{ male:'male', female:'female' },
+  }[gameKey]?.[gender];
+  const displayed = cmApplyIdentityDisplay(gameKey, ch, choice ? { ...prefs, [prefKey]:choice } : prefs);
+  if (!Array.isArray(ch?.forms) || !Array.isArray(displayed?.forms)) return displayed;
+  const formKey = (form) => form?.id || form?.formKey || `${form?.variantKey || ''}:${form?.gender || ''}`;
+  const decoratedForms = new Map(displayed.forms.map((form) => [formKey(form), form]));
+  return {
+    ...displayed,
+    forms:ch.forms.map((form) => (
+      gender && form.gender && form.gender !== gender ? form : (decoratedForms.get(formKey(form)) || form)
+    )),
+  };
+}
+
+function cmMaterialsShareGender(gameKey, view, prefs){
+  if (view?.gender === 'female' || view?.gender === 'male') return view.gender;
+  const id = String(view?.id || '').toLowerCase();
+  const baseName = String(view?.baseName || view?.rawName || '').toLowerCase();
+  const safe = cmSanitizeIdentityPrefs(prefs);
+  if (gameKey === 'hsr' && (id === 'hsr-trailblazer' || id.startsWith('hsr-trailblazer-') || baseName === 'trailblazer')) {
+    return safe.receptacle === 'stelle' ? 'female' : 'male';
+  }
+  if (gameKey === 'wuwa' && (id === 'wuwa-rover' || id.startsWith('ww-rover-') || baseName === 'rover')) {
+    return safe.rover === 'female' ? 'female' : 'male';
+  }
+  return null;
+}
+
+function cmSharedIdentityGender(gameKey, ch, gender){
+  if (gender !== 'female' && gender !== 'male') return false;
+  const id = String(ch?.id || '').toLowerCase();
+  const baseName = String(ch?.baseName || ch?.rawName || '').toLowerCase();
+  return (gameKey === 'hsr' && (id === 'hsr-trailblazer' || baseName === 'trailblazer'))
+    || (gameKey === 'wuwa' && (id === 'wuwa-rover' || baseName === 'rover'));
+}
+
 function cmKitEntryGroups(entries){
   const rows = (entries || []).filter(Boolean);
   const counts = new Map();
@@ -2303,7 +2346,129 @@ function cmMergeBetaCfg(liveCfg, betaPack){
   return { ...liveCfg, roster, weapons, __betaActive:true };
 }
 
-function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom, modalOnly, pageTab, onPageTab, sections, pinnedFavourites, customizeOnly, onCustomizeCharacter, onBackCustomize, onSelectedClose, onSelectCharacter }){
+function cmDownloadMaterialsCard(blob, filename){
+  const url = URL.createObjectURL(blob);
+  const anchor = document.createElement('a');
+  anchor.href = url;
+  anchor.download = filename;
+  document.body.appendChild(anchor);
+  anchor.click();
+  anchor.remove();
+  setTimeout(() => URL.revokeObjectURL(url), 0);
+}
+
+function CMMaterialsShareCard({ gameKey, view, cfg, activeWeapon, midLabel, shareUrl, preview, unavailable, onBack, renderKey }){
+  const [renderState, setRenderState] = React.useState({ status:preview ? 'busy' : 'idle', message:'' });
+  const [copyMessage, setCopyMessage] = React.useState('');
+  const blobRef = React.useRef(null);
+  const urlRef = React.useRef(null);
+  const runRef = React.useRef(0);
+
+  const clearPreview = React.useCallback(() => {
+    blobRef.current = null;
+    if (urlRef.current) URL.revokeObjectURL(urlRef.current);
+    urlRef.current = null;
+  }, []);
+
+  const renderCard = async (download) => {
+    const run = ++runRef.current;
+    setCopyMessage('');
+    setRenderState({ status:'busy', message:'Rendering image…' });
+    if (preview) clearPreview();
+    try {
+      const input = { gameKey, view, cfg, activeWeapon, midLabel };
+      const blob = await nyxRenderMaterialsCard(input);
+      if (run !== runRef.current) return;
+      if (!(blob instanceof Blob)) throw new Error('The image renderer returned no image.');
+      if (download) {
+        cmDownloadMaterialsCard(blob, nyxMaterialsCardFilename({ gameKey, view }));
+        setRenderState({ status:'ready', message:'Image downloaded.' });
+        return;
+      }
+      const nextUrl = URL.createObjectURL(blob);
+      if (run !== runRef.current) {
+        URL.revokeObjectURL(nextUrl);
+        return;
+      }
+      clearPreview();
+      blobRef.current = blob;
+      urlRef.current = nextUrl;
+      setRenderState({ status:'ready', message:'Image preview ready.' });
+    } catch (error) {
+      if (run !== runRef.current) return;
+      setRenderState({ status:'error', message:error?.message || 'Image rendering failed.' });
+    }
+  };
+
+  const copyLink = async () => {
+    if (!shareUrl) return;
+    try {
+      if (!navigator.clipboard?.writeText) throw new Error('Clipboard unavailable');
+      await navigator.clipboard.writeText(shareUrl);
+      setCopyMessage('Share link copied.');
+    } catch (error) {
+      window.prompt('Copy this share link:', shareUrl);
+      setCopyMessage('Share link ready to copy.');
+    }
+  };
+
+  React.useEffect(() => () => {
+    runRef.current += 1;
+    clearPreview();
+  }, [clearPreview]);
+
+  React.useEffect(() => {
+    if (!preview) return undefined;
+    runRef.current += 1;
+    clearPreview();
+    setCopyMessage('');
+    if (unavailable) {
+      setRenderState({ status:'error', message:unavailable });
+      return undefined;
+    }
+    renderCard(false);
+    return () => { runRef.current += 1; };
+  }, [preview, renderKey, unavailable]);
+
+  if (!preview) {
+    const busy = renderState.status === 'busy';
+    return (
+      <React.Fragment>
+        <button type="button" disabled={busy || !!unavailable} onClick={() => renderCard(true)}>
+          {busy ? 'Rendering…' : 'Download image'}
+        </button>
+        <button type="button" disabled={!shareUrl} onClick={copyLink}>Copy share link</button>
+        {(renderState.message || copyMessage) && (
+          <span className={'cm-share-status' + (renderState.status === 'error' ? ' error' : '')}
+                role={renderState.status === 'error' ? 'alert' : 'status'}>
+            {renderState.status === 'error' ? renderState.message : (copyMessage || renderState.message)}
+          </span>
+        )}
+      </React.Fragment>
+    );
+  }
+
+  const ready = renderState.status === 'ready' && !!urlRef.current;
+  return (
+    <div className="cm-share-preview" aria-busy={renderState.status === 'busy'}>
+      <div className="cm-share-preview-actions">
+        <button type="button" onClick={onBack}><span>{'\u2039'}</span> Back</button>
+        <button type="button" disabled={!ready} onClick={() => cmDownloadMaterialsCard(blobRef.current, nyxMaterialsCardFilename({ gameKey, view }))}>Download image</button>
+        <button type="button" disabled={!shareUrl} onClick={copyLink}>Copy link</button>
+        {renderState.status === 'error' && !unavailable && <button type="button" onClick={() => renderCard(false)}>Retry</button>}
+      </div>
+      {(renderState.message || copyMessage) && (
+        <div className={'cm-share-preview-status' + (renderState.status === 'error' ? ' error' : '')}
+             role={renderState.status === 'error' ? 'alert' : 'status'}>
+          {renderState.status === 'error' ? renderState.message : (copyMessage || renderState.message)}
+        </div>
+      )}
+      {ready && <img src={urlRef.current} alt={`Maxed material card for ${view?.n || 'character'}`} />}
+    </div>
+  );
+}
+
+function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom, modalOnly, pageTab, onPageTab, sections, pinnedFavourites, customizeOnly, onCustomizeCharacter, onBackCustomize, onSelectedClose, onSelectCharacter, sharedCard, onCloseSharedCard }){
   const [gk, setGk] = React.useState(game || 'gi');
   const [channel, setChannel] = React.useState(() => cmLoadChannel(game || 'gi'));
   const [dataTick, setDataTick] = React.useState(0);
@@ -2352,8 +2517,11 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
   const betaAvailable = cmHasBeta(gk);
   const liveCfg = CM_CFG[gk] || null;
   const betaPack = (typeof window !== 'undefined' && window.CM_CFG_BETA) ? window.CM_CFG_BETA[gk] : null;
-  const useBeta = channel === 'beta' && betaAvailable;
-  const cfg = (useBeta && betaPack) ? cmMergeBetaCfg(liveCfg, betaPack) : liveCfg;
+  const sharedChannel = sharedCard ? String(sharedCard.channel || 'live') : null;
+  const sharedChannelValid = !sharedCard || sharedChannel === 'live' || sharedChannel === 'beta';
+  const effectiveChannel = sharedCard ? (sharedChannelValid ? sharedChannel : 'live') : channel;
+  const useBeta = effectiveChannel === 'beta' && betaAvailable;
+  const cfg = useBeta ? (betaPack ? cmMergeBetaCfg(liveCfg, betaPack) : null) : liveCfg;
 
   const switchChannel = React.useCallback((ch) => {
     setChannel(ch);
@@ -2421,7 +2589,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
   }, [gk, open, inline, modalOnly, customizeOnly]);
 
   React.useEffect(() => {
-    if (channel !== 'beta' || !betaAvailable) return undefined;
+    if (effectiveChannel !== 'beta' || !betaAvailable) return undefined;
     let live = true;
     const onBeta = (event) => { if (!event.detail || event.detail.key === gk) setDataTick((v) => v + 1); };
     window.addEventListener('nyx:cm-beta-loaded', onBeta);
@@ -2429,7 +2597,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
       window.loadNyxCmBeta(gk).then(() => { if (live) setDataTick((v) => v + 1); }).catch(() => {});
     }
     return () => { live = false; window.removeEventListener('nyx:cm-beta-loaded', onBeta); };
-  }, [gk, channel, betaAvailable]);
+  }, [gk, effectiveChannel, betaAvailable]);
 
   // the Live/Beta toggle now lives in the page bottom-left corner (rendered by
   // the shell); sync this panel's channel when it fires for our game.
@@ -2474,16 +2642,23 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
     try { localStorage.setItem('nyx:character-material-tab:v1', tab); } catch (e) {}
   }, [tab]);
   React.useEffect(() => {
+    if (!sharedCard) return;
+    setCustomizeOpen(false);
+    setDetailTab('materials');
+  }, [sharedCard]);
+  React.useEffect(() => {
     if (!selectedName) return;
     const activeGame = game || gk;
     const nextCfg = cfg || CM_CFG[activeGame] || { roster:[] };
-    const nextRoster = (nextCfg.roster || [])
-      .map((ch) => cmApplyIdentityDisplay(activeGame, ch, identityPrefs))
-      .filter((ch) => cmSpecialUnitVisible(activeGame, ch, unitPrefs))
-      .map((ch) => cmApplyLanguageDisplay(activeGame, ch, languagePrefs))
-      .map((ch) => nyxApplyCharacterCustomImages(activeGame, ch, characterImagePrefs));
     const wanted = String(selectedName).toLowerCase();
     const wantedSlug = cmRouteSlug(selectedName);
+    const nextRoster = (nextCfg.roster || [])
+      .map((ch) => sharedCard
+        ? cmApplySharedIdentityDisplay(activeGame, ch, identityPrefs, sharedCard)
+        : cmApplyIdentityDisplay(activeGame, ch, identityPrefs))
+      .filter((ch) => !!sharedCard || cmSpecialUnitVisible(activeGame, ch, unitPrefs))
+      .map((ch) => cmApplyLanguageDisplay(activeGame, ch, languagePrefs))
+      .map((ch) => nyxApplyCharacterCustomImages(activeGame, ch, characterImagePrefs));
     const matchesSelected = (value) => {
       const raw = String(value || '');
       return raw.toLowerCase() === wanted || cmRouteSlug(raw) === wantedSlug;
@@ -2499,8 +2674,12 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
         setActiveVariant(form.variantKey || null);
         setActiveGender(form.gender || null);
       }
+    } else if (!sharedCard && cfg && sel) {
+      setSel(null);
+      setActiveVariant(null);
+      setActiveGender(null);
     }
-  }, [selectedName, game, gk, dataTick, identityPrefs, unitPrefs, languagePrefs, characterImagePrefs, openCharacter]);
+  }, [selectedName, game, gk, effectiveChannel, sharedCard, dataTick, identityPrefs, unitPrefs, languagePrefs, characterImagePrefs, openCharacter]);
   React.useEffect(() => {
     if (!(open || inline) || customizeOnly || sel) return undefined;
     const onKey = (event) => {
@@ -2595,6 +2774,14 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
     .filter((ch) => cmSpecialUnitVisible(gk, ch, unitPrefs))
     .map((ch) => cmApplyLanguageDisplay(gk, ch, languagePrefs))
     .map((ch) => nyxApplyCharacterCustomImages(gk, ch, characterImagePrefs));
+  const sharedMaterialBase = sharedCard && sel
+    ? (cfg.roster || []).find((ch) => cmHiddenKey(ch) === cmHiddenKey(sel)) || null
+    : null;
+  const sharedMaterialSel = sharedMaterialBase
+    ? nyxApplyCharacterCustomImages(gk,
+      cmApplyLanguageDisplay(gk, cmApplySharedIdentityDisplay(gk, sharedMaterialBase, identityPrefs, sharedCard), languagePrefs),
+      characterImagePrefs)
+    : null;
   const byName = {};
   displayRoster.forEach(ch => {
     [ch.n, ch.rawName, ch.baseName, ...(ch.aliases || [])].filter(Boolean).forEach((key) => {
@@ -2747,11 +2934,34 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
   const activePreset = CM_GI_PRESETS.find((p) => p.targets.every((v, i) => v === giTargets[i]))
     || { key:'custom', label:giTargets.join('/'), targets:giTargets };
 
-  const viewBase = sel ? cmActiveForm(sel, activeVariant, activeGender) : null;
+  const materialSel = sharedMaterialSel || (sel
+    ? displayRoster.find((row) => cmHiddenKey(row) === cmHiddenKey(sel)) || sel
+    : sel);
+  const formOptions = cmFormOptions(materialSel);
+  const genderOptions = cmGenderOptions(materialSel);
+  const sharedVariantProvided = !!sharedCard && sharedCard.variantKey !== undefined && sharedCard.variantKey !== null && String(sharedCard.variantKey) !== '';
+  const sharedGenderProvided = !!sharedCard && sharedCard.gender !== undefined && sharedCard.gender !== null && String(sharedCard.gender) !== '';
+  const sharedVariantKey = sharedVariantProvided ? String(sharedCard.variantKey) : null;
+  const sharedGenderKey = sharedGenderProvided ? String(sharedCard.gender) : null;
+  const sharedForms = Array.isArray(materialSel?.forms) ? materialSel.forms : [];
+  const sharedIdentityGender = cmSharedIdentityGender(gk, materialSel, sharedGenderKey);
+  const sharedForm = sharedCard && (sharedVariantProvided || sharedGenderProvided)
+    ? sharedForms.find((form) => (!sharedVariantProvided || (form.variantKey != null && String(form.variantKey) === sharedVariantKey))
+      && (!sharedGenderProvided || sharedIdentityGender || (form.gender != null && String(form.gender) === sharedGenderKey))) || null
+    : null;
+  let sharedSelectionError = '';
+  if (sharedCard && !sharedChannelValid) sharedSelectionError = 'This shared card uses an invalid data channel.';
+  else if (sharedCard && sharedChannel === 'beta' && !betaAvailable) sharedSelectionError = 'The beta data used by this shared card is unavailable.';
+  else if (sharedVariantProvided && !sharedForms.some((form) => form.variantKey != null && String(form.variantKey) === sharedVariantKey)) sharedSelectionError = 'The form used by this shared card is unavailable.';
+  else if (sharedGenderProvided && !sharedIdentityGender && !sharedForms.some((form) => form.gender != null && String(form.gender) === sharedGenderKey)) sharedSelectionError = 'The artwork choice used by this shared card is unavailable.';
+  else if ((sharedVariantProvided || sharedGenderProvided) && !sharedForm) sharedSelectionError = 'This form and artwork combination is unavailable.';
+  const viewBase = materialSel
+    ? (sharedCard
+      ? (sharedForm || cmActiveForm(materialSel, null, null))
+      : cmActiveForm(materialSel, activeVariant, activeGender))
+    : null;
   const view = viewBase ? nyxApplyCharacterCustomImages(gk, viewBase, characterImagePrefs) : null;
   const noReliableInfo = view ? cmIsUpcomingOnly(view) : false;
-  const formOptions = cmFormOptions(sel);
-  const genderOptions = cmGenderOptions(sel);
   const hsrTalentTargets = hsrMax ? CM_TALENT_CFG.hsr.max : hsrTargets;
   const zzzTalentTargets = zzzMax ? CM_TALENT_CFG.zzz.max : zzzTargets;
   const talentTargets = gk === 'gi' ? giTargets
@@ -2782,7 +2992,15 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
     cost: Number(req.weapon.cost || req.weaponCost || 0),
     educated: !!req.weapon.educated,
   } : null;
-  const activeWeapon = pickedWeapon || signatureWeapon || fallbackWeapon;
+  const sharedWeaponProvided = !!sharedCard && sharedCard.weaponId !== undefined && sharedCard.weaponId !== null && String(sharedCard.weaponId) !== '';
+  const sharedWeapon = sharedWeaponProvided
+    ? weaponOptions.find((weapon) => weapon.id != null && String(weapon.id) === String(sharedCard.weaponId))
+      || (fallbackWeapon?.id != null && String(fallbackWeapon.id) === String(sharedCard.weaponId) ? fallbackWeapon : null)
+    : null;
+  if (!sharedSelectionError && sharedWeaponProvided && !sharedWeapon) sharedSelectionError = 'The weapon used by this shared card is unavailable for this character.';
+  const activeWeapon = sharedCard
+    ? (sharedWeaponProvided ? sharedWeapon : (signatureWeapon || fallbackWeapon))
+    : (pickedWeapon || signatureWeapon || fallbackWeapon);
   const weaponReq = activeWeapon ? cmReqItems([cmCurrencyMat(cfg, activeWeapon.cost || req?.weaponCost), ...(activeWeapon.items || [])]) : [];
   const totalIncludeKey = view ? `${gk}:${cmHiddenKey(view)}` : null;
   const ledgerInclude = {
@@ -2801,6 +3019,9 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
   const hasAscData = !!(req && Array.isArray(req.ascension) && req.ascension.length > 0);
   const hasTalentData = !!(req && ((Array.isArray(req.talents) && req.talents.length > 0)
     || (Array.isArray(req.talentStages) && req.talentStages.some((s) => s.length))));
+  const canShareMaterials = !noReliableInfo && (hasAscData || hasTalentData || !!activeWeapon);
+  if (sharedCard && !sharedSelectionError && noReliableInfo) sharedSelectionError = 'Reliable material data for this shared card is unavailable.';
+  else if (sharedCard && !sharedSelectionError && !canShareMaterials) sharedSelectionError = 'Material data for this shared card is unavailable.';
   // D1: character pages always default to the character's splash art — no
   // birthday/holiday rotation here (special art lives on favourite cards only;
   // the pools stay available as manual picks in Customize Visuals).
@@ -2907,6 +3128,36 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
   const displayTabs = gk === 'ae'
     ? { ...cfg.tabs, mid:'Growth Materials', boss:'Progression' }
     : cfg.tabs;
+  let materialsShareUrl = '';
+  if (view && !sharedSelectionError) {
+    try {
+      materialsShareUrl = nyxMaterialsCardUrl({
+        origin:window.location.origin,
+        gameKey:gk,
+        characterName:sel?.baseName || sel?.rawName || sel?.n,
+        weaponId:activeWeapon?.id,
+        variantKey:view.variantKey,
+        gender:cmMaterialsShareGender(gk, view, identityPrefs),
+        channel:useBeta ? 'beta' : 'live',
+      });
+    } catch (error) {
+      if (sharedCard) sharedSelectionError = error?.message || 'This shared card link is invalid.';
+    }
+  }
+  const materialsShareRenderKey = [
+    gk,
+    effectiveChannel,
+    cmHiddenKey(view),
+    view?.n,
+    view?.variantKey,
+    view?.gender,
+    view?.__beta ? 'beta' : 'live',
+    view?.updated,
+    view?.originalArt || view?.art,
+    activeWeapon?.id,
+    activeWeapon?.name,
+    dataTick,
+  ].join('|');
   const hasBoss = !!displayTabs.boss;
   const tabs = [{ k:'roster', label:'Roster' }, { k:'mid', label:displayTabs.mid }];
   if (hasBoss) tabs.push({ k:'boss', label:displayTabs.boss });
@@ -3204,9 +3455,14 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
                     </div>
                   </div>
 
-                  {detailTab === 'materials' && gk === 'gi' && view.req?.talentStages?.length > 0 && (
+                  {detailTab === 'materials' && !customizeOpen && !sharedCard && (
+                    canShareMaterials
+                    || (gk === 'gi' && view.req?.talentStages?.length > 0)
+                    || (gk === 'hsr' && view.req?.talentStages?.some?.((s) => s.length))
+                    || (gk === 'zzz' && view.req?.talentStages?.some?.((s) => s.length))
+                  ) && (
                     <div className="cm-presets cm-presets-ledger">
-                      {CM_GI_PRESETS.map((preset) => (
+                      {gk === 'gi' && view.req?.talentStages?.length > 0 && CM_GI_PRESETS.map((preset) => (
                         <button
                           type="button"
                           key={preset.key}
@@ -3216,19 +3472,25 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
                           {preset.label}
                         </button>
                       ))}
-                    </div>
-                  )}
-                  {/* G36: HSR "Max" toggle sits top-right, same slot/format as the GI presets */}
-                  {detailTab === 'materials' && gk === 'hsr' && view.req?.talentStages?.some?.((s) => s.length) && (
-                    <div className="cm-presets cm-presets-ledger cm-hsr-max-row">
-                      <button type="button" className={'cm-trace-max' + (hsrMax ? ' on' : '')} aria-pressed={hsrMax}
-                              title="Max out all traces" onClick={() => { setHsrTargets(CM_TALENT_CFG.hsr.max.slice()); setHsrMax(true); }}>Max</button>
-                    </div>
-                  )}
-                  {detailTab === 'materials' && gk === 'zzz' && view.req?.talentStages?.some?.((s) => s.length) && (
-                    <div className="cm-presets cm-presets-ledger cm-hsr-max-row">
-                      <button type="button" className={'cm-trace-max' + (zzzMax ? ' on' : '')} aria-pressed={zzzMax}
-                              title="Max out all skills" onClick={() => { setZzzTargets(CM_TALENT_CFG.zzz.max.slice()); setZzzMax(true); }}>Max</button>
+                      {gk === 'hsr' && view.req?.talentStages?.some?.((s) => s.length) && (
+                        <button type="button" className={'cm-trace-max' + (hsrMax ? ' on' : '')} aria-pressed={hsrMax}
+                                title="Max out all traces" onClick={() => { setHsrTargets(CM_TALENT_CFG.hsr.max.slice()); setHsrMax(true); }}>Max</button>
+                      )}
+                      {gk === 'zzz' && view.req?.talentStages?.some?.((s) => s.length) && (
+                        <button type="button" className={'cm-trace-max' + (zzzMax ? ' on' : '')} aria-pressed={zzzMax}
+                                title="Max out all skills" onClick={() => { setZzzTargets(CM_TALENT_CFG.zzz.max.slice()); setZzzMax(true); }}>Max</button>
+                      )}
+                      {canShareMaterials && (
+                        <CMMaterialsShareCard
+                          key={materialsShareRenderKey}
+                          gameKey={gk}
+                          view={view}
+                          cfg={cfg}
+                          activeWeapon={activeWeapon}
+                          midLabel={displayTabs.mid}
+                          shareUrl={materialsShareUrl}
+                        />
+                      )}
                     </div>
                   )}
                 </div>
@@ -3248,6 +3510,20 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
                   </div>
                 ) : detailTab === 'kit' ? (
                   <CharacterKitPanel kit={view?.kit} baseStats={view?.baseStats} facts={view?.facts} gameKey={gk} emptyText={kitEmptyText} />
+                ) : sharedCard ? (
+                  <CMMaterialsShareCard
+                    key={materialsShareRenderKey}
+                    gameKey={gk}
+                    view={view}
+                    cfg={cfg}
+                    activeWeapon={activeWeapon}
+                    midLabel={displayTabs.mid}
+                    shareUrl={materialsShareUrl}
+                    preview
+                    unavailable={sharedSelectionError}
+                    onBack={onCloseSharedCard}
+                    renderKey={materialsShareRenderKey}
+                  />
                 ) : (
                   <React.Fragment>
                 {(formOptions.length > 1 || genderOptions.length > 1) && (

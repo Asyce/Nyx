@@ -2678,6 +2678,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
       setSel(null);
       setActiveVariant(null);
       setActiveGender(null);
+      if (onSelectedClose) onSelectedClose();
     }
   }, [selectedName, game, gk, effectiveChannel, sharedCard, dataTick, identityPrefs, unitPrefs, languagePrefs, characterImagePrefs, openCharacter]);
   React.useEffect(() => {

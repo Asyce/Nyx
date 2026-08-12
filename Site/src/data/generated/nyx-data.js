@@ -4,9 +4,9 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-08-12T10:29:39.575Z",
+  "generatedAt": "2026-08-12T13:38:45.167Z",
   "codes": {
-    "updated": "2026-08-12T07:47:01.431Z",
+    "updated": "2026-08-12T13:38:29.521Z",
     "maxAgeDays": 28,
     "games": {
       "gi": [
@@ -51,6 +51,20 @@ var NYX_DB = {
           "firstSeen": "2026-08-01T21:03:08.107Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=2BJ64QRZ7RT8",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=2BJ64QRZ7RT8"
+        },
+        {
+          "code": "UIVI13C8X156",
+          "reward": "10k Mora, Ten Adventurer S Experience, Five Fine Enhancement Ore, Five Jueyun Chili Chicken, and Five Stir Fried Fish Noodles",
+          "premium": false,
+          "premiumCurrency": {
+            "name": "Primogems",
+            "needle": "primogem",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
+          },
+          "added": "2026-08-07",
+          "firstSeen": "2026-08-12T13:38:10.848Z",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=UIVI13C8X156",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=UIVI13C8X156"
         },
         {
           "code": "GS70YTASTJ",
@@ -5283,6 +5297,20 @@ var NYX_DB = {
           "firstSeen": "2026-08-01T21:03:08.107Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=2BJ64QRZ7RT8",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=2BJ64QRZ7RT8"
+        },
+        {
+          "code": "UIVI13C8X156",
+          "reward": "10k Mora, Ten Adventurer S Experience, Five Fine Enhancement Ore, Five Jueyun Chili Chicken, and Five Stir Fried Fish Noodles",
+          "premium": false,
+          "premiumCurrency": {
+            "name": "Primogems",
+            "needle": "primogem",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
+          },
+          "added": "2026-08-07",
+          "firstSeen": "2026-08-12T13:38:10.848Z",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=UIVI13C8X156",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=UIVI13C8X156"
         },
         {
           "code": "GS70YTASTJ",

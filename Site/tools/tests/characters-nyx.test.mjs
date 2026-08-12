@@ -415,7 +415,7 @@ test('materials share cards stay stateless, bundle-local, and wired through the 
   assert.match(materials, /\.filter\(\(ch\) => cmSpecialUnitVisible\(gk, ch, unitPrefs\)\)/);
   assert.match(materials, /characterName:sel\?\.baseName \|\| sel\?\.rawName \|\| sel\?\.n/);
   assert.match(materials, /gender:cmMaterialsShareGender\(gk, view, identityPrefs\)/);
-  assert.match(materials, /else if \(!sharedCard && cfg && sel\) \{\s*setSel\(null\);\s*setActiveVariant\(null\);\s*setActiveGender\(null\);\s*\}[\s\S]*?\[selectedName, game, gk, effectiveChannel, sharedCard,/);
+  assert.match(materials, /else if \(!sharedCard && cfg && sel\) \{\s*setSel\(null\);\s*setActiveVariant\(null\);\s*setActiveGender\(null\);\s*if \(onSelectedClose\) onSelectedClose\(\);\s*\}[\s\S]*?\[selectedName, game, gk, effectiveChannel, sharedCard,/);
   assert.doesNotMatch(materials, /nyxBuildMaterialsCardModel\(input\)/);
   assert.match(app, /character \? nyxParseMaterialsCardSearch\(location\.search\) : null/);
   assert.match(app, /shareCard:initialRoute\.shareCard/);

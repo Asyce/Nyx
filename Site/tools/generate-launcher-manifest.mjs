@@ -36,6 +36,9 @@ const BANNER_HISTORY_HOSTS = {
 };
 const BANNER_REGIONS = ['europe', 'asia', 'america', 'global'];
 const REMOTE_WUWA_ICON_HOST = 'static.nanoka.cc';
+const RAW_FUTURE_MAX_AGE_MS = 7 * 24 * 60 * 60 * 1000;
+const RAW_FUTURE_MAX_WINDOW_MS = 35 * 24 * 60 * 60 * 1000;
+const RAW_FUTURE_MAX_HORIZON_MS = 180 * 24 * 60 * 60 * 1000;
 export const MAX_REMOTE_LAUNCHER_ART_BYTES = 2 * 1024 * 1024;
 const PREMIUM_CURRENCY = {
   gi: { name: 'Primogems', aliases: ['primogem', 'primogems'] },
@@ -368,7 +371,11 @@ function rosterEntry(rosters, game, name, sourceIcon = null) {
   }
   const exact = rows.find((entry) => norm(entry?.name) === wanted || norm(entry?.displayName) === wanted || norm(entry?.id) === wanted);
   if (exact || game === 'wuwa') return exact ?? null;
-  return rows.find((entry) => sameCharacterName(norm(entry?.name ?? entry?.displayName), wanted)) ?? null;
+  const aliases = rows.filter((entry) => {
+    const candidate = norm(entry?.name ?? entry?.displayName);
+    return sameCharacterName(candidate, wanted) || (game === 'hsr' && wanted.length >= 6 && candidate.endsWith(wanted));
+  });
+  return aliases.length === 1 ? aliases[0] : null;
 }
 
 function parseRarity(value) {
@@ -554,7 +561,13 @@ function buildCharacter(game, raw, rosters, prydwen, db, debuts) {
     placement: { anchor: 'center', fit: 'cover', x: 0.5, y: 0.5 },
   } : null;
   const icon = localCharacterIcon(game, record, db) ?? verifiedArtIcon ?? remoteCharacterIcon(game, raw, `${id}-icon`);
-  return { id, name, rarity, limited, debut, icon, variants };
+  const displayName = game === 'hsr'
+    && provider
+    && norm(provider.name) !== norm(name)
+    && norm(provider.name).endsWith(norm(name))
+    ? cleanText(provider.name, 80)
+    : name;
+  return { id, name: displayName, rarity, limited, debut, icon, variants };
 }
 
 function selectCharacter(characters) {
@@ -590,13 +603,85 @@ function loadEvents(db = DATABASE) {
   return Object.fromEntries(GAMES.map((game) => [game, exists(path.join(db, files[game])) ? readJson(path.join(db, files[game])) : { events: [] }]));
 }
 
+function trustedRawFuturePhases(group, nowMs) {
+  const source = cleanText(group?.freshness?.source, 32);
+  const status = cleanText(group?.freshness?.status, 32);
+  const successfulMs = timestamp(iso(group?.freshness?.lastSuccessfulFetch));
+  if (source !== 'game8'
+    || !['fresh', 'transition'].includes(status)
+    || successfulMs == null
+    || successfulMs > nowMs + 60_000
+    || nowMs - successfulMs > RAW_FUTURE_MAX_AGE_MS) return [];
+
+  const windows = new Map();
+  for (const raw of [group?.next, ...(group?.upcoming ?? [])]) {
+    const start = iso(raw?.start);
+    const end = iso(raw?.end);
+    const startMs = timestamp(start);
+    const endMs = timestamp(end);
+    const rawCharacters = Array.isArray(raw?.characters) ? raw.characters : [];
+    if (startMs == null
+      || endMs == null
+      || startMs <= nowMs
+      || startMs > nowMs + RAW_FUTURE_MAX_HORIZON_MS
+      || endMs <= startMs
+      || endMs - startMs > RAW_FUTURE_MAX_WINDOW_MS
+      || rawCharacters.length < 1
+      || rawCharacters.length > 20) continue;
+    const characters = rawCharacters.map((entry) => {
+      const name = cleanText(entry?.name ?? entry, 80);
+      return name ? (typeof entry === 'object' ? { ...entry, name } : { name }) : null;
+    });
+    if (characters.some((entry) => !entry)) continue;
+    const key = `${start}\u0000${end}`;
+    const window = windows.get(key) ?? {
+      phase: cleanText(raw?.phase, 48) || null,
+      start,
+      end,
+      characters: [],
+      _sourcedWindow: true,
+    };
+    for (const character of characters) {
+      if (!window.characters.some((entry) => sameBannerCharacter(canonicalGame(group?.id) ?? '', entry.name, character.name))) {
+        window.characters.push(character);
+      }
+    }
+    windows.set(key, window);
+  }
+
+  const result = [];
+  for (const candidate of [...windows.values()].sort((left, right) => left.start.localeCompare(right.start) || left.end.localeCompare(right.end))) {
+    if (result.some((selected) => timestamp(candidate.start) < timestamp(selected.end))) continue;
+    result.push(candidate);
+  }
+  return result.slice(0, 5);
+}
+
+function mergeFuturePhases(trusted, raw, currentEnd) {
+  const boundary = timestamp(iso(currentEnd));
+  const exact = new Map();
+  for (const phase of [...trusted, ...raw]) {
+    const start = iso(phase?.start);
+    const end = iso(phase?.end);
+    if (!start || !end || (boundary != null && timestamp(start) < boundary)) continue;
+    const key = `${start}\u0000${end}`;
+    if (!exact.has(key)) exact.set(key, { ...phase, start, end });
+  }
+  const result = [];
+  for (const candidate of [...exact.values()].sort((left, right) => left.start.localeCompare(right.start) || left.end.localeCompare(right.end))) {
+    if (result.some((selected) => timestamp(candidate.start) < timestamp(selected.end))) continue;
+    result.push(candidate);
+  }
+  return result.slice(0, 5);
+}
+
 export function applySourcedBannerWindows(banners, db = DATABASE, nowMs = Date.now()) {
   const copy = structuredClone(banners ?? { games: [] });
   for (const group of copy.games ?? []) {
     const game = canonicalGame(group?.id ?? group?.slug ?? group?.name);
     if (!game) continue;
     const corroboratingGroup = structuredClone(group);
-    group._displayUpcoming = [];
+    group._displayUpcoming = trustedRawFuturePhases(corroboratingGroup, nowMs);
     group.current = null;
     group.next = null;
     group.upcoming = [];
@@ -686,7 +771,7 @@ export function applySourcedBannerWindows(banners, db = DATABASE, nowMs = Date.n
       if (!futureWindows.has(key)) futureWindows.set(key, []);
       futureWindows.get(key).push(record);
     }
-    group._displayUpcoming = [...futureWindows.entries()].flatMap(([key, records]) => {
+    const historyUpcoming = [...futureWindows.entries()].flatMap(([key, records]) => {
       const [futureStart, futureEnd] = key.split('\u0000');
       const futureVersions = new Set(records.map((record) => cleanText(record.version, 48)).filter(Boolean));
       if (records.some((record) => !cleanText(record.version, 48)) || futureVersions.size !== 1) return [];
@@ -711,9 +796,9 @@ export function applySourcedBannerWindows(banners, db = DATABASE, nowMs = Date.n
         _sourceChannels: records.map((record) => ({ recordId: record.id, category: record.category })),
       }];
     }).sort((left, right) => left.start.localeCompare(right.start));
-    // Raw next/upcoming timestamps never enter the launcher feed. Complete,
-    // confirmed records with the same trusted history identity as current data
-    // are the only future-banner authority.
+    group._displayUpcoming = mergeFuturePhases(historyUpcoming, group._displayUpcoming, group.current.end);
+    // Current state remains history-authoritative. Future Game8 windows may fill
+    // gaps only while the Pengo-owned scrape is recent and fully bounded.
   }
   return copy;
 }

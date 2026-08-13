@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-13T07:48:20.942Z",
+  "generatedAt": "2026-08-13T14:24:01.881Z",
   "games": {
     "gi": [
       {
-        "code": "MYSNEZHNAYACAREER",
+        "code": "MySnezhnayaCareer",
         "added": "2026-08-13",
         "amount": 160,
         "currency": "Primogems"
@@ -115,5 +115,5 @@
       }
     ]
   },
-  "revision": "289e246cacf9acfbf16a0ebec00c9e65918dabf1e2f57ad6649fb57cff24fb27"
+  "revision": "268465142f9316514444337f9486c3bfb9768134f3576cb377019bd371e1d42c"
 }

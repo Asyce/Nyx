@@ -4,9 +4,9 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-08-13T12:18:56.351Z",
+  "generatedAt": "2026-08-13T14:24:18.269Z",
   "codes": {
-    "updated": "2026-08-13T07:48:20.942Z",
+    "updated": "2026-08-13T14:24:01.881Z",
     "maxAgeDays": 28,
     "games": {
       "gi": [
@@ -25,8 +25,8 @@ var NYX_DB = {
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=GS70XRNWFB"
         },
         {
-          "code": "MYSNEZHNAYACAREER",
-          "reward": "Primogem x 160, Mora x 20000, Hero's Wit x 3",
+          "code": "MySnezhnayaCareer",
+          "reward": "160 Primogem, 20000 Mora, 3 Hero's Wit",
           "premium": true,
           "premiumCurrency": {
             "name": "Primogems",
@@ -35,8 +35,8 @@ var NYX_DB = {
           },
           "added": "2026-08-13",
           "firstSeen": "2026-08-13T07:48:02.606Z",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=MYSNEZHNAYACAREER",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=MYSNEZHNAYACAREER"
+          "sourceUrl": "https://www.crimsonwitch.com/codes/Genshin_Impact",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=MySnezhnayaCareer"
         },
         {
           "code": "XVIZDH2B9WGX",
@@ -5294,8 +5294,8 @@ var NYX_DB = {
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=GS70XRNWFB"
         },
         {
-          "code": "MYSNEZHNAYACAREER",
-          "reward": "Primogem x 160, Mora x 20000, Hero's Wit x 3",
+          "code": "MySnezhnayaCareer",
+          "reward": "160 Primogem, 20000 Mora, 3 Hero's Wit",
           "premium": true,
           "premiumCurrency": {
             "name": "Primogems",
@@ -5304,8 +5304,8 @@ var NYX_DB = {
           },
           "added": "2026-08-13",
           "firstSeen": "2026-08-13T07:48:02.606Z",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=MYSNEZHNAYACAREER",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=MYSNEZHNAYACAREER"
+          "sourceUrl": "https://www.crimsonwitch.com/codes/Genshin_Impact",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=MySnezhnayaCareer"
         },
         {
           "code": "XVIZDH2B9WGX",

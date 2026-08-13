@@ -49,7 +49,7 @@ async function loadMaterialsShareCard(){
     },
     cmMetaChips:() => [],
     cmMetaIconSrc:() => null,
-    cmWeaponRowLabel:(gameKey) => gameKey === 'hsr' ? 'LIGHT CONE' : gameKey === 'zzz' ? 'W-ENGINE' : 'WEAPON',
+    cmWeaponRowLabel:(gameKey) => gameKey === 'hsr' ? 'Light Cone' : gameKey === 'zzz' ? 'W-Engine' : 'Weapon',
   };
   vm.runInNewContext(`${await read('src/features/materials/char-materials-share-card.js')}
     this.shareCardApi = { nyxBuildMaterialsCardModel, nyxMaterialsCardFitWrappedText, nyxMaterialsCardUrl, nyxParseMaterialsCardSearch };`, context);
@@ -82,11 +82,31 @@ test('Characters tabs share the shell control and pinned favourites stay on Rost
   assert.match(materials, /curTab === 'roster' && pinnedFavourites/);
   assert.doesNotMatch(materials, /cm-tab-orbit/);
   assert.ok(materials.indexOf('curTab === \'roster\' && pinnedFavourites') > materials.indexOf('<div className="cm-body">'), 'favourites scroll with the roster body');
-  assert.match(materials, /<span className="cm-character-tabs">[\s\S]*className="cm-detail-back"[\s\S]*>Materials<\/button>/, 'Back sits beside Materials and Character Kit');
+  assert.match(materials, /<span className="cm-character-tabs">[\s\S]*className="cm-detail-back"[\s\S]*>Materials<\/button>[\s\S]*>Character Kit<\/button>[\s\S]*>Gallery<\/button>/, 'Back, Materials, Character Kit, and Gallery share one row');
   // 2026-08-09: tabs hug their own label instead of sharing one width — equal
   // 1fr columns made the active-tab underline far wider than the word.
   assert.match(css, /\.cm-tabs\{[^}]*display:inline-flex/, 'each tab sizes to its own label (2026-08-09)');
   assert.doesNotMatch(css, /\.cm-tabs\{[^}]*grid-auto-columns:1fr/);
+});
+
+test('character pages expose clean artwork and keep guide actions below maxed totals', async () => {
+  const [materials, css] = await Promise.all([
+    read('src/features/materials/char-materials.jsx'),
+    read('src/styles/game-page-shared.css'),
+  ]);
+  assert.match(materials, /useState\('10-10-10'\)/);
+  assert.match(materials, /useState\(\[10, 10, 10\]\)/);
+  assert.match(materials, /function cmCharacterGalleryItems\([\s\S]*label:'Namecard'[\s\S]*label:'Profile'[\s\S]*label:'Splash Art'/);
+  assert.match(materials, /function CharacterGalleryPanel\(/);
+  assert.match(materials, /detailTab === 'gallery'[\s\S]*<CharacterGalleryPanel/);
+  assert.match(materials, /<b>Ascension<\/b>/);
+  assert.match(materials, /<b>\{displayTabs\.mid \|\| 'Materials'\}<\/b>/);
+  assert.match(materials, /return 'Light Cone';[\s\S]*return 'W-Engine';[\s\S]*return 'Weapon';/);
+  const total = materials.indexOf('<div className="cm-ledger-row total">');
+  const actions = materials.indexOf('<CMMaterialsShareCard', total);
+  assert.ok(total >= 0 && actions > total, 'Download Guide and Link render inside the Total row');
+  assert.match(css, /\.cm-share-actions\{[^}]*grid-column:2/);
+  assert.match(css, /\.cm-character-gallery\{/);
 });
 
 // 2026-08-09: pinned favourites are icons, always, for every game including the
@@ -508,7 +528,8 @@ test('materials share cards stay stateless, bundle-local, and wired through the 
   const appEntry = build.indexOf("'app/nyx-app.jsx'");
   assert.ok(materialsEntry >= 0 && materialsEntry < shareEntry && shareEntry < appEntry, 'share helpers load after materials helpers and before their route consumers');
   assert.match(materials, /function CMMaterialsShareCard\(/);
-  assert.match(materials, />Copy share link<\/button>/);
+  assert.match(materials, />Download Guide<\/button>/);
+  assert.match(materials, />Link<\/button>/);
   assert.match(materials, /navigator\.clipboard\.writeText\(shareUrl\)/);
   assert.match(materials, /window\.prompt\('Copy this share link:', shareUrl\)/);
   assert.match(materials, /const img = new Image\(\);\s*img\.decoding = 'async';\s*img\.crossOrigin = 'anonymous';[\s\S]*?img\.src = cmSpriteCorsUrl\(sprite\);/, 'ZZZ sprite frames request CORS access before loading');

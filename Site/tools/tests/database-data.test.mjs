@@ -13,6 +13,7 @@ import {
   databaseRecordClassification,
   databaseZzzDriveDiscTwoPieceStat,
 } from '../lib/database-data-helpers.mjs';
+import { avatarEntryAfterFailure } from '../scrape-genshin-avatars.mjs';
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(here, '..', '..', '..');
@@ -37,6 +38,13 @@ function readNyxDatabase() {
   vm.runInNewContext(code, context);
   return JSON.parse(JSON.stringify(context.NYX_DB || context.window.NYX_DB));
 }
+
+test('Genshin avatar refresh retries changed art after a transient download failure', () => {
+  const next = { id:'1', sourceUrl:'new', art:'new.webp' };
+  const previous = { id:'1', sourceUrl:'old', art:'old.webp' };
+  assert.deepEqual(avatarEntryAfterFailure(next, previous, true), previous);
+  assert.deepEqual(avatarEntryAfterFailure(next, null, false), { ...next, failed:true });
+});
 
 test('cross-game rarity fixtures normalize and sort 1 ★ through 5 ★ explicitly', () => {
   const fixtures = {
@@ -300,6 +308,7 @@ test('missing-art audit accounts for every intentional neutral fallback', () => 
     ...(gi.gallery?.namecards || []),
     ...(gi.gallery?.portraits || []),
     ...(gi.gallery?.avatarFrames || []),
+    ...(gi.gallery?.splashArts || []),
   ];
   const generatedRows = [...lazyRows, ...inlineRows, ...specialRows];
   const fallbacks = generatedRows.filter((row) => row.artStatus === 'intentional-fallback');
@@ -350,8 +359,14 @@ test('Genshin Items routes duplicate tabs, currencies, Gallery, and Pot from sou
     const file = path.resolve(root, row.art.replace(/^\.\.\/\.\.\//, ''));
     assert.equal(fs.readFileSync(file).subarray(8, 12).toString(), 'WEBP', row.name);
   }
-  assert.deepEqual(nyx.gallery.portraits.filter((row) => /^32/.test(String(row.id))).map((row) => row.name).sort(), ['Diligent Study', 'Vigorous Yapping']);
+  const avatarManifest = readJson('Database/GenshinWiki/avatars/manifest.json');
+  assert.equal(nyx.gallery.portraits.length, avatarManifest.entries.length);
+  for (const name of ['Diligent Study', 'Vigorous Yapping', 'Provisional Head Priestess of the Asase Shrine', 'Ann & Mary-Ann']) {
+    assert.equal(nyx.gallery.portraits.some((row) => row.name === name), true, name);
+  }
   assert.equal(nyx.gallery.avatarFrames.length, Object.values(raw).filter((row) => row.material_type === 'MATERIAL_PROFILE_FRAME').length);
+  assert.equal(nyx.gallery.splashArts.length, nyx.roster.length);
+  assert.equal(nyx.gallery.splashArts.every((row) => row.art), true);
   assert.equal(nyx.furniture.blueprints.length, normalized.filter((row) => /Blueprint/i.test(row.type || '') && ['Furnishing Blueprint', 'Furnishing Blueprints', 'Furnishing Set Blueprint'].includes(row.type)).length);
   assert.equal(nyx.furniture.materials.every((row) => row.category === 'Material' && /\bfurniture\b|\bRealm Within\b/i.test(row.description || '')), true);
 });

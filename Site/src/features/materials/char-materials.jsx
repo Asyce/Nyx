@@ -1031,9 +1031,9 @@ function cmSaveTotalIncludePrefs(next){
 }
 
 function cmWeaponRowLabel(gameKey){
-  if (gameKey === 'hsr') return 'LIGHT CONE';
-  if (gameKey === 'zzz') return 'W-ENGINE';
-  return 'WEAPON';
+  if (gameKey === 'hsr') return 'Light Cone';
+  if (gameKey === 'zzz') return 'W-Engine';
+  return 'Weapon';
 }
 
 function cmWeaponCompatible(gameKey, ch, weapon){
@@ -2305,6 +2305,27 @@ function CharacterKitPanel({ kit, baseStats, facts, gameKey, emptyText }){
   );
 }
 
+function cmCharacterGalleryItems(base, view){
+  return [
+    { key:'namecard', label:'Namecard', src:view?.namecard || base?.namecard },
+    { key:'profile', label:'Profile', src:view?.originalIcon || view?.icon || view?.circle || base?.icon || base?.circle },
+    { key:'splash', label:'Splash Art', src:view?.originalArt || view?.art || view?.card || base?.art || base?.card },
+  ].filter((item) => nyxSafeImageSrc(item.src));
+}
+
+function CharacterGalleryPanel({ items, name }){
+  return (
+    <div className="cm-character-gallery" aria-label={`${name || 'Character'} gallery`}>
+      {items.map((item) => (
+        <figure className={'cm-character-gallery-card is-' + item.key} key={item.key}>
+          <div className="cm-character-gallery-art"><img src={item.src} alt={`${name || 'Character'} ${item.label}`} draggable="false" /></div>
+          <figcaption>{item.label}</figcaption>
+        </figure>
+      ))}
+    </div>
+  );
+}
+
 // ----- Beta / Live channel (user-approved opt-in toggle, defaults to Live) -----
 function cmHasBeta(gk){
   return !!(typeof window !== 'undefined' && window.CM_BETA_FILES && window.CM_BETA_FILES[gk]);
@@ -2435,18 +2456,18 @@ function CMMaterialsShareCard({ gameKey, view, cfg, activeWeapon, midLabel, shar
   if (!preview) {
     const busy = renderState.status === 'busy';
     return (
-      <React.Fragment>
+      <div className="cm-share-actions">
         <button type="button" disabled={busy || !!unavailable} onClick={() => renderCard(true)}>
-          {busy ? 'Rendering…' : 'Download image'}
+          {busy ? 'Rendering…' : 'Download Guide'}
         </button>
-        <button type="button" disabled={!shareUrl} onClick={copyLink}>Copy share link</button>
+        <button type="button" disabled={!shareUrl} onClick={copyLink}>Link</button>
         {(renderState.message || copyMessage) && (
           <span className={'cm-share-status' + (renderState.status === 'error' ? ' error' : '')}
                 role={renderState.status === 'error' ? 'alert' : 'status'}>
             {renderState.status === 'error' ? renderState.message : (copyMessage || renderState.message)}
           </span>
         )}
-      </React.Fragment>
+      </div>
     );
   }
 
@@ -2455,8 +2476,8 @@ function CMMaterialsShareCard({ gameKey, view, cfg, activeWeapon, midLabel, shar
     <div className="cm-share-preview" aria-busy={renderState.status === 'busy'}>
       <div className="cm-share-preview-actions">
         <button type="button" onClick={onBack}><span>{'\u2039'}</span> Back</button>
-        <button type="button" disabled={!ready} onClick={() => cmDownloadMaterialsCard(blobRef.current, nyxMaterialsCardFilename({ gameKey, view }))}>Download image</button>
-        <button type="button" disabled={!shareUrl} onClick={copyLink}>Copy link</button>
+        <button type="button" disabled={!ready} onClick={() => cmDownloadMaterialsCard(blobRef.current, nyxMaterialsCardFilename({ gameKey, view }))}>Download Guide</button>
+        <button type="button" disabled={!shareUrl} onClick={copyLink}>Link</button>
         {renderState.status === 'error' && !unavailable && <button type="button" onClick={() => renderCard(false)}>Retry</button>}
       </div>
       {(renderState.message || copyMessage) && (
@@ -2492,8 +2513,8 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
   const [showHidden, setShowHidden] = React.useState(false);
   const [hiddenPrefs, setHiddenPrefs] = React.useState(cmLoadHiddenPrefs);
   const [day, setDay] = React.useState(() => { const d = new Date().getDay(); return d === 0 ? 6 : d - 1; }); // 0=Mon..6=Sun
-  const [giPreset, setGiPreset] = React.useState('9-9-9');
-  const [giTargets, setGiTargets] = React.useState([9, 9, 9]);
+  const [giPreset, setGiPreset] = React.useState('10-10-10');
+  const [giTargets, setGiTargets] = React.useState([10, 10, 10]);
   const [giAscLevel, setGiAscLevel] = React.useState(90);
   const [hsrTargets, setHsrTargets] = React.useState([6, 10, 10, 10]);
   const [hsrMax, setHsrMax] = React.useState(true);
@@ -3034,6 +3055,8 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
   const voiceRows = view ? cmVoiceRows(view, gk) : [];
   const hasKit = !!(view?.kit?.sections || []).some((section) => (section?.entries || []).length)
     || cmHasProfile(view?.baseStats, view?.facts);
+  const characterGalleryItems = cmCharacterGalleryItems(materialSel, view);
+  const hasGallery = characterGalleryItems.length > 0;
   const kitEmptyText = noReliableInfo
     ? 'Currently no reliable information available for this unit. The kit will update automatically when a trusted source has data.'
     : 'No character kit data available yet.';
@@ -3454,13 +3477,13 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
                         )}
                         <button type="button" className={detailTab === 'materials' ? 'on' : ''} onClick={() => setDetailTab('materials')}>Materials</button>
                         <button type="button" className={detailTab === 'kit' ? 'on' : ''} disabled={!hasKit} title={hasKit ? 'Character Kit' : 'No kit data available yet'} onClick={() => hasKit && setDetailTab('kit')}>Character Kit</button>
+                        <button type="button" className={detailTab === 'gallery' ? 'on' : ''} disabled={!hasGallery} title={hasGallery ? 'Gallery' : 'No artwork available yet'} onClick={() => hasGallery && setDetailTab('gallery')}>Gallery</button>
                       </span>
                     </div>
                   </div>
 
                   {detailTab === 'materials' && !customizeOpen && !sharedCard && (
-                    canShareMaterials
-                    || (gk === 'gi' && view.req?.talentStages?.length > 0)
+                    (gk === 'gi' && view.req?.talentStages?.length > 0)
                     || (gk === 'hsr' && view.req?.talentStages?.some?.((s) => s.length))
                     || (gk === 'zzz' && view.req?.talentStages?.some?.((s) => s.length))
                   ) && (
@@ -3483,17 +3506,6 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
                         <button type="button" className={'cm-trace-max' + (zzzMax ? ' on' : '')} aria-pressed={zzzMax}
                                 title="Max out all skills" onClick={() => { setZzzTargets(CM_TALENT_CFG.zzz.max.slice()); setZzzMax(true); }}>Max</button>
                       )}
-                      {canShareMaterials && (
-                        <CMMaterialsShareCard
-                          key={materialsShareRenderKey}
-                          gameKey={gk}
-                          view={view}
-                          cfg={cfg}
-                          activeWeapon={activeWeapon}
-                          midLabel={displayTabs.mid}
-                          shareUrl={materialsShareUrl}
-                        />
-                      )}
                     </div>
                   )}
                 </div>
@@ -3513,6 +3525,8 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
                   </div>
                 ) : detailTab === 'kit' ? (
                   <CharacterKitPanel kit={view?.kit} baseStats={view?.baseStats} facts={view?.facts} gameKey={gk} emptyText={kitEmptyText} />
+                ) : detailTab === 'gallery' ? (
+                  <CharacterGalleryPanel items={characterGalleryItems} name={view?.n} />
                 ) : sharedCard ? (
                   <CMMaterialsShareCard
                     key={materialsShareRenderKey}
@@ -3572,7 +3586,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
                   {selArt && <div className="cm-ledger-art" aria-hidden="true"><img src={selArt} alt="" draggable="false" /></div>}
                   {hasAscData && (
                     <div className="cm-ledger-row">
-                      <div className="cm-ledger-label"><b>ASCENSION</b>
+                      <div className="cm-ledger-label"><b>Ascension</b>
                         {gk === 'gi'
                           ? <label className="cm-asc-level" title="Type a target level (1-90)"><span className="lv">Lv</span>
                               <CMNumberInput
@@ -3592,7 +3606,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
                   {hasTalentData && (
                     <div className="cm-ledger-row">
                       <div className="cm-ledger-label">
-                        <b>{String(displayTabs.mid || 'Materials').toUpperCase()}</b>
+                        <b>{displayTabs.mid || 'Materials'}</b>
                         {(() => {
                           const tcfg = CM_TALENT_CFG[gk];
                           const hasInputs = tcfg && view?.req?.talentStages?.some?.((s) => s.length);
@@ -3739,7 +3753,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
                   {hasAnyLedgerReq && (
                     <div className="cm-ledger-row total">
                       <div className="cm-ledger-label">
-                        <b>TOTAL</b>
+                        <b>Total</b>
                         <div className="cm-total-checks">
                           {ascReq.length > 0 && (
                             <button type="button" className={ledgerInclude.ascension ? 'on' : ''} aria-pressed={ledgerInclude.ascension} onClick={() => toggleLedger('ascension')}>
@@ -3753,7 +3767,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
                           )}
                           {weaponReq.length > 0 && (
                             <button type="button" className={ledgerInclude.weapon ? 'on' : ''} aria-pressed={ledgerInclude.weapon} onClick={() => toggleLedger('weapon')}>
-                              <span className="box"></span><span>{weaponLabel.replace('-', '-').toLowerCase().replace(/\b\w/g, (c) => c.toUpperCase())}</span>
+                              <span className="box"></span><span>{weaponLabel}</span>
                             </button>
                           )}
                         </div>
@@ -3763,6 +3777,17 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
                           ? totalReq.map((m, i) => <MatTile key={i} m={m} />)
                           : <div className="cm-total-empty">Select at least one section.</div>}
                       </div>
+                      {canShareMaterials && (
+                        <CMMaterialsShareCard
+                          key={materialsShareRenderKey}
+                          gameKey={gk}
+                          view={view}
+                          cfg={cfg}
+                          activeWeapon={activeWeapon}
+                          midLabel={displayTabs.mid}
+                          shareUrl={materialsShareUrl}
+                        />
+                      )}
                     </div>
                   )}
                   {!hasAnyLedgerReq && (

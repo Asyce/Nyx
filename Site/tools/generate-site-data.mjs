@@ -965,6 +965,14 @@ const GENSHIN_NAMECARD_ART = (() => {
   }
   return map;
 })();
+const GENSHIN_AVATARS = exists('GenshinWiki/avatars/manifest.json')
+  ? (readJson('GenshinWiki/avatars/manifest.json').entries || []).map((entry) => ({
+      id:`wiki-avatar-${entry.id}`,
+      name:cleanText(entry.name, 120),
+      art:dbAsset(entry.art),
+      sortId:Number(entry.sortId || entry.id || 0),
+    })).filter((entry) => entry.name && entry.art)
+  : [];
 
 function genshinLibraryNames() {
   const dir = path.resolve(dbDir, 'Library', 'gi');
@@ -4999,7 +5007,20 @@ function buildGenshinGallery() {
   const avatarFrames = items
     .filter((item) => rawItems.get(String(item.id))?.material_type === 'MATERIAL_PROFILE_FRAME')
     .map(galleryItem);
-  return { namecards, portraits:[...portraitItems, ...characterPortraits], avatarFrames };
+  const splashArts = rosters.gi.map((character) => ({
+    id:`splash-${character.id}`,
+    name:character.n,
+    description:character.title || '',
+    rarity:databaseRarityLabel(character.r),
+    art:character.art,
+    sortId:String(character.id).match(/(\d+)$/)?.[1] || '0',
+  })).filter((item) => item.art);
+  return {
+    namecards,
+    portraits:GENSHIN_AVATARS.length ? GENSHIN_AVATARS : [...portraitItems, ...characterPortraits],
+    avatarFrames,
+    splashArts,
+  };
 }
 
 const DATABASE_AUDIT_CONFIG = {
@@ -5254,6 +5275,7 @@ function buildDatabaseArtAudit(lazyCollections, inlineCollections, specials) {
   auditGeneratedCollection('special', 'gi', 'gallery-namecards', specials?.gallery?.namecards);
   auditGeneratedCollection('special', 'gi', 'gallery-portraits', specials?.gallery?.portraits);
   auditGeneratedCollection('special', 'gi', 'gallery-avatar-frames', specials?.gallery?.avatarFrames);
+  auditGeneratedCollection('special', 'gi', 'gallery-splash-art', specials?.gallery?.splashArts);
 
   records.sort((a, b) => a.game.localeCompare(b.game)
     || a.collection.localeCompare(b.collection)
@@ -5325,6 +5347,7 @@ function applyDatabaseIntentionalFallbacks(lazyCollections, inlineCollections, s
   apply('gi', specials?.gallery?.namecards);
   apply('gi', specials?.gallery?.portraits);
   apply('gi', specials?.gallery?.avatarFrames);
+  apply('gi', specials?.gallery?.splashArts);
   return count;
 }
 

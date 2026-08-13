@@ -10,6 +10,7 @@ const jobs = [
   ['Character metadata', ['tools/scrape-character-fandom-metadata.mjs']],
   ['Genshin birthday art', ['tools/scrape-genshin-birthday-art.mjs']],
   ['Genshin namecards', ['tools/scrape-genshin-namecards.mjs']],
+  ['Genshin avatars', ['tools/scrape-genshin-avatars.mjs']],
   ['Endfield skill icons', ['tools/scrape-endfield-skill-icons.mjs']],
   ['Genshin signature weapons', ['tools/scrape-genshin-signature-weapons.mjs']],
   ['HSR holiday art', ['tools/scrape-hsr-holiday-art.mjs']],

@@ -479,8 +479,9 @@ async function main() {
     galleryNamecards:genshin?.gallery?.namecards || [],
     galleryPortraits:genshin?.gallery?.portraits || [],
     galleryAvatarFrames:genshin?.gallery?.avatarFrames || [],
+    gallerySplashArts:genshin?.gallery?.splashArts || [],
   };
-  for (const [key, minimum] of Object.entries({ tcg:600, furnitureBlueprints:1400, furnitureMaterials:50, shadowRealm:19, galleryNamecards:280, galleryPortraits:100, galleryAvatarFrames:10 })) {
+  for (const [key, minimum] of Object.entries({ tcg:600, furnitureBlueprints:1400, furnitureMaterials:50, shadowRealm:19, galleryNamecards:280, galleryPortraits:150, galleryAvatarFrames:10, gallerySplashArts:100 })) {
     if (genshinItemPartitions[key].length < minimum) throw new Error(`Genshin ${key} count is below safe minimum ${minimum}`);
   }
   const genshinItemIds = new Set(Object.values(genshinItemPartitions).flat().map((item) => String(item.id || '').replace(/^gi-(?:item|shadow-(?:weapon|accessory))-/, '')).filter(Boolean));

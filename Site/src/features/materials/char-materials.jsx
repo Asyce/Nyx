@@ -735,7 +735,7 @@ function MatTile({ m }){
     <div className={'cm-mat' + (m.kind === 'currency' ? ' cur' : '')} title={(m.name || 'Material') + (qty ? ' x' + qty.toLocaleString('en-US') : '') + (source ? '\n' + source : '')}
          style={{ '--rA':pal.a, '--rB':pal.b, '--rarBg':'url("../../assets/mats/rarity' + rarity + '.png")' }}>
       <CMItemFrame icon={icon} sprite={m.sprite} glyph={g} rarity={rarity} quantity={qty} />
-      <span className="nm">{m.name}</span>
+      <FitText as="span" className="nm" text={m.name} multiline />
       <span className="src-tip" role="tooltip">
         <b>{m.name}</b>
         {details.length > 0 ? (() => {
@@ -969,7 +969,7 @@ function CMToken({ name, glyph, icon, sprite, rarity, meta, bandless }){
   return (
     <div className="cm-mtoken">
       <CMItemFrame icon={icon} sprite={sprite} glyph={glyph} rarity={rarity} quantity={quantity} bandless={bandless} />
-      <span className="lbl">{name}</span>
+      <FitText as="span" className="lbl" text={name} multiline />
       {meta && !quantity && <span className="mt">{meta}</span>}
     </div>
   );

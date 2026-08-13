@@ -52,7 +52,7 @@ async function loadMaterialsShareCard(){
     cmWeaponRowLabel:(gameKey) => gameKey === 'hsr' ? 'LIGHT CONE' : gameKey === 'zzz' ? 'W-ENGINE' : 'WEAPON',
   };
   vm.runInNewContext(`${await read('src/features/materials/char-materials-share-card.js')}
-    this.shareCardApi = { nyxBuildMaterialsCardModel, nyxMaterialsCardUrl, nyxParseMaterialsCardSearch };`, context);
+    this.shareCardApi = { nyxBuildMaterialsCardModel, nyxMaterialsCardFitWrappedText, nyxMaterialsCardUrl, nyxParseMaterialsCardSearch };`, context);
   return { ...context.shareCardApi, requirementCalls, currencyCosts };
 }
 
@@ -350,6 +350,32 @@ test('materials share models always use every game max, standard art, and a lite
   assert.deepEqual(currencyCosts.filter((_, index) => index % 3 === 2), [0, 0, 0, 0, 0], 'weapon cost 0 never falls back to the requirement cost');
 });
 
+test('materials share cards use Nyx purple and shrink names without ellipses', async () => {
+  const { nyxBuildMaterialsCardModel, nyxMaterialsCardFitWrappedText } = await loadMaterialsShareCard();
+  const model = nyxBuildMaterialsCardModel({
+    gameKey:'gi',
+    view:{ n:'Test Character', el:'fire', originalArt:'/standard-art.webp', originalIcon:'/standard-icon.webp' },
+    cfg:{},
+    activeWeapon:null,
+    midLabel:'Talents',
+  });
+  assert.equal(model.accent, '#9f85ff');
+
+  const ctx = {
+    font:'',
+    measureText(value){
+      const size = Number(this.font.match(/(\d+)px/)?.[1] || 20);
+      return { width:String(value).length * size * .55 };
+    },
+  };
+  const name = 'Ethereal Crystalscale Stone';
+  const fitted = nyxMaterialsCardFitWrappedText(ctx, name, 162, 2, 20, 'sans-serif');
+  assert.ok(fitted.size < 20);
+  assert.ok(fitted.lines.length <= 2);
+  assert.equal(fitted.lines.join(' '), name);
+  assert.equal(fitted.lines.some((line) => line.includes('…')), false);
+});
+
 test('materials share models include max-level EXP packs and leveling currency for every game', async () => {
   const { nyxBuildMaterialsCardModel, currencyCosts } = await loadMaterialsShareCard();
   const cases = [
@@ -487,6 +513,9 @@ test('materials share cards stay stateless, bundle-local, and wired through the 
   assert.match(materials, /window\.prompt\('Copy this share link:', shareUrl\)/);
   assert.match(materials, /const img = new Image\(\);\s*img\.decoding = 'async';\s*img\.crossOrigin = 'anonymous';[\s\S]*?img\.src = sprite;/, 'ZZZ sprite frames request CORS access before loading');
   assert.match(materials, /<div className="cm-share-preview"/);
+  assert.match(materials, /<FitText as="span" className="nm" text=\{m\.name\} multiline \/>/);
+  assert.match(materials, /<FitText as="span" className="lbl" text=\{name\} multiline \/>/);
+  assert.doesNotMatch(shareCard, /fillRect\(0, 0, NYX_MATERIALS_CARD_WIDTH, 6\)/);
   assert.match(materials, /function cmApplySharedIdentityDisplay\(gameKey, ch, prefs, sharedCard\)/);
   assert.match(materials, /const prefKey = \{ gi:'twin', hsr:'receptacle', wuwa:'rover', ae:'endmin' \}\[gameKey\][\s\S]*gi:\{ male:'aether', female:'lumine' \}[\s\S]*hsr:\{ male:'caelus', female:'stelle' \}[\s\S]*wuwa:\{ male:'male', female:'female' \}[\s\S]*ae:\{ male:'male', female:'female' \}/);
   assert.match(materials, /\.filter\(\(ch\) => !!sharedCard \|\| cmSpecialUnitVisible\(activeGame, ch, unitPrefs\)\)/);

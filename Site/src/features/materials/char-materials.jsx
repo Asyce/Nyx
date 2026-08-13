@@ -900,7 +900,7 @@ function ZzzSpriteIcon({ icon, sprite, alt }){
 
   return (
     <span className={'zzz-sprite' + (animated ? ' is-animated' : '')}>
-      {icon && <img src={icon} alt={alt || ''} draggable="false" />}
+      {icon && <img src={icon} crossOrigin="anonymous" alt={alt || ''} draggable="false" />}
       <canvas ref={canvasRef} aria-hidden="true"></canvas>
     </span>
   );

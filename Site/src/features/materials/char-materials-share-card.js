@@ -209,7 +209,7 @@ function nyxBuildMaterialsCardModel({ gameKey, view, cfg, activeWeapon, midLabel
     maxLevel:NYX_MATERIALS_CARD_MAX_LEVEL[gameKey],
     targets,
     midLabel:midLabel || 'Talents',
-    accent:CM_ELEM[view.el] || '#9f85ff',
+    accent:'#9f85ff',
     art:view.originalArt || view.art || view.card || null,
     icon:view.originalIcon || view.icon || view.circle || null,
     skillIcons:(view.skillIcons || []).filter(Boolean),
@@ -251,7 +251,7 @@ function nyxMaterialsCardFitFont(ctx, text, maxWidth, start, minimum, family){
   return size;
 }
 
-function nyxMaterialsCardWrapText(ctx, text, maxWidth, maxLines){
+function nyxMaterialsCardWrapText(ctx, text, maxWidth){
   const words = String(text || '').trim().split(/\s+/).filter(Boolean);
   if (!words.length) return [];
   const lines = [];
@@ -264,21 +264,20 @@ function nyxMaterialsCardWrapText(ctx, text, maxWidth, maxLines){
     }
     lines.push(line);
     line = word;
-    if (lines.length === maxLines - 1) break;
   }
-  if (lines.length < maxLines && line) lines.push(line);
-  const used = lines.join(' ').split(/\s+/).filter(Boolean).length;
-  if (used < words.length && lines.length) {
-    let last = lines[lines.length - 1];
-    while (last && ctx.measureText(last + '…').width > maxWidth) last = last.slice(0, -1);
-    lines[lines.length - 1] = (last || '') + '…';
+  if (line) lines.push(line);
+  return lines;
+}
+
+function nyxMaterialsCardFitWrappedText(ctx, text, maxWidth, maxLines, start, family){
+  for (let size = start; size >= 1; size -= 1) {
+    ctx.font = '400 ' + size + 'px ' + family;
+    const lines = nyxMaterialsCardWrapText(ctx, text, maxWidth);
+    if (lines.length <= maxLines && lines.every((line) => ctx.measureText(line).width <= maxWidth)) {
+      return { size, lines };
+    }
   }
-  return lines.map((value) => {
-    if (ctx.measureText(value).width <= maxWidth) return value;
-    let clipped = value;
-    while (clipped && ctx.measureText(clipped + '…').width > maxWidth) clipped = clipped.slice(0, -1);
-    return (clipped || '') + '…';
-  });
+  return { size:1, lines:[String(text || '')] };
 }
 
 function nyxMaterialsCardDrawFittedImage(ctx, img, dx, dy, dw, dh, source){
@@ -510,11 +509,10 @@ function nyxMaterialsCardDrawLabel(ctx, model, row, assets, x, y, height){
       nyxMaterialsCardDrawFittedImage(ctx, weapon, x + 178, y + 54, 190, Math.min(190, height - 70));
       ctx.restore();
     }
-    const fontSize = nyxMaterialsCardFitFont(ctx, row.weaponName, NYX_MATERIALS_CARD_LABEL_WIDTH - 60, 30, 22, '"HSR", sans-serif');
-    ctx.font = '400 ' + fontSize + 'px "HSR", sans-serif';
+    const fitted = nyxMaterialsCardFitWrappedText(ctx, row.weaponName, NYX_MATERIALS_CARD_LABEL_WIDTH - 60, 2, 30, '"HSR", sans-serif');
+    ctx.font = '400 ' + fitted.size + 'px "HSR", sans-serif';
     ctx.fillStyle = 'rgba(224,216,242,.78)';
-    const lines = nyxMaterialsCardWrapText(ctx, row.weaponName, NYX_MATERIALS_CARD_LABEL_WIDTH - 60, 2);
-    lines.forEach((line, index) => ctx.fillText(line, textX, y + 105 + index * (fontSize + 6)));
+    fitted.lines.forEach((line, index) => ctx.fillText(line, textX, y + 105 + index * (fitted.size + 6)));
     return;
   }
   if (row.key !== 'talents') return;
@@ -619,11 +617,11 @@ function nyxMaterialsCardDrawTile(ctx, item, assets, x, y){
   }
 
   ctx.fillStyle = 'rgba(246,242,255,.92)';
-  ctx.font = '400 20px "HSR", sans-serif';
   ctx.textAlign = 'center';
   ctx.textBaseline = 'alphabetic';
-  const lines = nyxMaterialsCardWrapText(ctx, item.name, NYX_MATERIALS_CARD_TILE_WIDTH + 12, 2);
-  lines.forEach((line, index) => ctx.fillText(line, x + 75, y + 213 + index * 24));
+  const fitted = nyxMaterialsCardFitWrappedText(ctx, item.name, NYX_MATERIALS_CARD_TILE_WIDTH + 12, 2, 20, '"HSR", sans-serif');
+  ctx.font = '400 ' + fitted.size + 'px "HSR", sans-serif';
+  fitted.lines.forEach((line, index) => ctx.fillText(line, x + 75, y + 213 + index * (fitted.size + 4)));
   ctx.restore();
 }
 
@@ -687,8 +685,6 @@ async function nyxRenderMaterialsCard(input){
   background.addColorStop(1, '#090514');
   ctx.fillStyle = background;
   ctx.fillRect(0, 0, NYX_MATERIALS_CARD_WIDTH, height);
-  ctx.fillStyle = model.accent;
-  ctx.fillRect(0, 0, NYX_MATERIALS_CARD_WIDTH, 6);
   nyxMaterialsCardDrawHeader(ctx, model, assets);
   const contentY = NYX_MATERIALS_CARD_MARGIN + NYX_MATERIALS_CARD_HEADER_HEIGHT;
   nyxMaterialsCardDrawSplash(ctx, model, assets, contentY, height - contentY - NYX_MATERIALS_CARD_MARGIN);

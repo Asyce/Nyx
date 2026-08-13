@@ -707,23 +707,23 @@ function gameBannerCards(gameCfg, source){
 // A featured unit is a button when the page can route to that character, and
 // plain text otherwise (the Nyx hub strip lists units from games whose roster
 // is not loaded). Same markup either way so the card layout never shifts.
-// Step a single line of text down in size until it fits its box.
+// Step text down in size until it fits its box.
 //
-// CSS cannot do this on its own: whether "Aventurine • Waveflair" fits depends
-// on the rendered width of that exact string in the user's font at their
-// window size. The element declares its size as `calc(base * var(--fit))`, and
-// this walks --fit down until the text stops overflowing (user 2026-08-11).
+// CSS cannot do this on its own: the rendered text and font decide whether a
+// one- or two-line box overflows. The element declares its size as
+// `calc(base * var(--fit))`, and this walks --fit down until it fits.
 // The parent is observed rather than the element itself — observing a node
 // whose font-size you are changing feeds the observer its own output.
 const NYX_FIT_STEPS = [0.92, 0.84, 0.76, 0.68, 0.6, 0.54, 0.48];
 
-function useFitText(text){
+function useFitText(text, multiline = false){
   const ref = React.useRef(null);
   React.useLayoutEffect(() => {
     const el = ref.current;
     if (!el) return undefined;
     let alive = true;
-    const fits = () => el.scrollWidth <= el.clientWidth + 1;
+    const fits = () => el.scrollWidth <= el.clientWidth + 1
+      && (!multiline || el.scrollHeight <= el.clientHeight + 1);
     const fit = () => {
       if (!alive || !el.isConnected) return;
       el.style.removeProperty('--fit');
@@ -748,12 +748,12 @@ function useFitText(text){
       cancelAnimationFrame(frame);
       if (observer) observer.disconnect();
     };
-  }, [text]);
+  }, [text, multiline]);
   return ref;
 }
 
-function FitText({ as:Tag = 'b', text, className }){
-  const ref = useFitText(text);
+function FitText({ as:Tag = 'b', text, className, multiline = false }){
+  const ref = useFitText(text, multiline);
   return <Tag ref={ref} className={className}>{text}</Tag>;
 }
 

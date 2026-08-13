@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "f6670e04210c74f7a5fc0a31dc38f2dfc568d5912ee5a2305d483622db5a6ac7",
-  "generatedAt": "2026-08-13T17:51:48.698Z",
+  "revision": "5621d3d4a0beceff71561f7d9f424122d18b3bec502fb2ad84702fd79f2e7703",
+  "generatedAt": "2026-08-13T18:16:22.359Z",
   "health": {
     "status": "ok",
     "games": {
@@ -43,7 +43,7 @@
         "remaining": {
           "startsAt": "2026-08-12T03:00:00.000Z",
           "endsAt": "2026-09-01T09:59:59.000Z",
-          "durationSeconds": 1613290
+          "durationSeconds": 1611816
         },
         "characters": [
           {
@@ -356,68 +356,68 @@
       ],
       "news": [
         {
-          "id": "gi-hoyo-ann-7b9c2d416fd2",
-          "title": "\"To Temper Thyself and Journey Far\": Rewards of Dedication",
+          "id": "gi-hoyo-ann-03ff7c741c30",
+          "title": "\"The Godforsaken Frostlands\" Event: Complete Exploration Missions Within the Specified Duration to Obtain an Additional Primogems ×400",
           "type": "event",
-          "start": "2026-08-10T03:00:00.000Z",
-          "end": "2026-11-02T02:59:00.000Z",
-          "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21761"
+          "start": "2026-08-12T03:00:00.000Z",
+          "end": "2026-11-03T13:59:00.000Z",
+          "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21811"
         },
         {
-          "id": "gi-hoyo-ann-092fe78454ec",
-          "title": "\"Ley Line Overflow\" Event - Double Drops From Blossoms of Wealth and Blossoms of Revelation!",
-          "type": "event",
-          "start": "2026-08-03T03:00:00.000Z",
-          "end": "2026-08-10T02:59:00.000Z",
-          "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=3364"
+          "id": "gi-hoyo-ann-362c7b658c03",
+          "title": "Event Wish \"Epitome Invocation\" - Boosted Drop Rates for Whitelake Frostfeather (Sword) and Crimson Moon's Semblance (Polearm)!",
+          "type": "banner",
+          "start": "2026-08-12T03:00:00.000Z",
+          "end": "2026-09-01T16:59:00.000Z",
+          "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21807"
         },
         {
-          "id": "gi-hoyo-ann-b73309f9d348",
-          "title": "Participate in \"Starlight Voyage: Splendor Aglow\" to Obtain Prismatic Crystals, the Token for the Colorful Surprise Box",
+          "id": "gi-hoyo-ann-63830df76aca",
+          "title": "\"Mutual Aid in Bloom: Into the Frostlands\" Event: Snezhnaya Expedition Operation",
           "type": "event",
-          "start": "2026-07-27T09:00:00.000Z",
-          "end": "2026-08-10T02:59:00.000Z",
-          "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21764"
+          "start": "2026-08-12T03:00:00.000Z",
+          "end": "2026-08-24T02:59:00.000Z",
+          "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21814"
         },
         {
-          "id": "gi-hoyo-ann-264753e69913",
-          "title": "\"Dance Dance Easy-Breezy Disco\" Event: Co-Op Dance Challenge",
-          "type": "event",
-          "start": "2026-07-24T09:00:00.000Z",
-          "end": "2026-08-03T02:59:00.000Z",
-          "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21760"
+          "id": "gi-hoyo-ann-6796a55db605",
+          "title": "Event Wish \"The Hearth's Ashen Shadow\" - Boosted Drop Rate for \"Dire Balemoon\" Arlecchino (Pyro)!",
+          "type": "banner",
+          "start": "2026-08-12T03:00:00.000Z",
+          "end": "2026-09-01T16:59:00.000Z",
+          "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21804"
         },
         {
-          "id": "gi-hoyo-ann-d0488121c15e",
-          "title": "\"Genius Invokation TCG\" Heated Battle Mode: Automatic Artistry",
+          "id": "gi-hoyo-ann-7d9e9eeb5111",
+          "title": "Complete the Archon Quest \"Everwinter Without Mercy\" Within the Specified Duration to Obtain Additional Primogems, Character Ascension Materials, and Other Rewards",
           "type": "event",
-          "start": "2026-07-18T09:00:00.000Z",
-          "end": "2026-08-03T02:59:00.000Z",
-          "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21368"
+          "start": "2026-08-12T03:00:00.000Z",
+          "end": "2026-09-22T13:59:00.000Z",
+          "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21809"
         },
         {
-          "id": "gi-hoyo-ann-d2a6bcc311cd",
-          "title": "\"Final Long-Range Sightlines\" Event: Shooting Strategy Challenge",
-          "type": "event",
-          "start": "2026-07-17T09:00:00.000Z",
-          "end": "2026-07-27T02:59:00.000Z",
-          "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21756"
+          "id": "gi-hoyo-ann-821ceb44ea6d",
+          "title": "Event Wish \"Swan's Shadow in Silken Ice\" - Boosted Drop Rate for \"Swirling Snow\" Odette (Cryo)!",
+          "type": "banner",
+          "start": "2026-08-12T03:00:00.000Z",
+          "end": "2026-09-01T16:59:00.000Z",
+          "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21803"
         },
         {
-          "id": "gi-hoyo-ann-5e481c62dc26",
-          "title": "Stygian Onslaught Event: Disturbance-affected Ley Line challenges",
-          "type": "challenge",
-          "start": "2026-07-08T09:00:00.000Z",
-          "end": "2026-08-11T02:59:00.000Z",
-          "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21168"
+          "id": "gi-hoyo-ann-97d85a301135",
+          "title": "\"Wonderland Treasures: Phantasmagoric Discourse\": New Manekin Cosmetics Now Available",
+          "type": "event",
+          "start": "2026-08-12T03:00:00.000Z",
+          "end": "2026-09-21T02:59:00.000Z",
+          "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21828"
         },
         {
-          "id": "gi-hoyo-ann-82ebf8a67d40",
-          "title": "\"Sunny Summer Fontinalia\" Event: Participate to Obtain Charlotte's Outfit and Invite \"Lens of Verity\" Charlotte (Cryo)",
+          "id": "gi-hoyo-ann-d9fdacc2d761",
+          "title": "\"Frostfarer\" Event Details",
           "type": "event",
-          "start": "2026-07-01T03:00:00.000Z",
-          "end": "2026-08-11T02:59:00.000Z",
-          "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21749"
+          "start": "2026-08-12T03:00:00.000Z",
+          "end": "2026-09-21T02:59:00.000Z",
+          "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21818"
         }
       ],
       "codes": [
@@ -463,7 +463,7 @@
         "remaining": {
           "startsAt": "2026-08-05T11:00:00.000Z",
           "endsAt": "2026-08-25T14:00:00.000Z",
-          "durationSeconds": 1022891
+          "durationSeconds": 1021417
         },
         "characters": [
           {
@@ -867,6 +867,14 @@
       ],
       "news": [
         {
+          "id": "hsr-hoyo-ann-093f57d0dc07",
+          "title": "Fate[UBW] Collaboration Warp Details",
+          "type": "banner",
+          "start": "2026-08-14T03:00:00.000Z",
+          "end": "2026-08-24T02:59:00.000Z",
+          "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1339"
+        },
+        {
           "id": "hsr-hoyo-ann-59582dfb96bb",
           "title": "Version 4.4 Event Warp: Phase II",
           "type": "banner",
@@ -913,14 +921,6 @@
           "start": "2026-07-03T07:00:00.000Z",
           "end": "2026-08-25T16:00:00.000Z",
           "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1299"
-        },
-        {
-          "id": "hsr-hoyo-ann-093f57d0dc07",
-          "title": "Fate[UBW] Collaboration Warp Details",
-          "type": "banner",
-          "start": "2026-07-03T06:55:00.000Z",
-          "end": null,
-          "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1339"
         },
         {
           "id": "hsr-hoyo-ann-df1a5352d767",
@@ -974,7 +974,7 @@
         "remaining": {
           "startsAt": "2026-07-29T03:00:00.000Z",
           "endsAt": "2026-08-19T03:59:59.000Z",
-          "durationSeconds": 468490
+          "durationSeconds": 467016
         },
         "characters": [
           {
@@ -1353,6 +1353,14 @@
       ],
       "news": [
         {
+          "id": "zzz-hoyo-ann-6e42a70461e4",
+          "title": "\"Extensive Patrol: Triple Bounty\" Event Details",
+          "type": "event",
+          "start": "2026-08-12T03:00:00.000Z",
+          "end": "2026-08-17T02:59:00.000Z",
+          "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1243"
+        },
+        {
           "id": "zzz-hoyo-ann-e5b14140c51c",
           "title": "\"Snap! Focus Showdown!\" Event Details",
           "type": "event",
@@ -1407,14 +1415,6 @@
           "start": "2026-07-22T03:00:00.000Z",
           "end": "2026-07-27T02:59:00.000Z",
           "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1227"
-        },
-        {
-          "id": "zzz-hoyo-ann-dc5ffc5377a7",
-          "title": "\"'En-Nah' Into Your Lap\" Event Details",
-          "type": "event",
-          "start": "2026-07-08T09:00:00.000Z",
-          "end": "2026-07-28T02:59:00.000Z",
-          "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1226"
         }
       ],
       "codes": [
@@ -1448,7 +1448,7 @@
         "remaining": {
           "startsAt": "2026-07-30T09:00:00.000Z",
           "endsAt": "2026-08-19T10:59:00.000Z",
-          "durationSeconds": 493631
+          "durationSeconds": 492157
         },
         "characters": [
           {
@@ -1929,7 +1929,7 @@
         "remaining": {
           "startsAt": "2026-08-09T04:00:00.000Z",
           "endsAt": "2026-09-01T21:59:59.000Z",
-          "durationSeconds": 1656490
+          "durationSeconds": 1655016
         },
         "characters": [
           {

@@ -849,6 +849,7 @@ function ZzzSpriteIcon({ icon, sprite, alt }){
     let cancelled = false;
     const img = new Image();
     img.decoding = 'async';
+    img.crossOrigin = 'anonymous';
 
     const play = (frames) => {
       if (cancelled) return;

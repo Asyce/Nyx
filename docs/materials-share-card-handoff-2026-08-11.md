@@ -38,6 +38,7 @@ This also means the image is not an immutable snapshot. If a future requirement 
 
 - Canvas width is fixed at 2000 internal pixels. Height is deterministic from fixed header and row sizes plus eight tiles per line. Browser zoom and device pixel ratio do not change the output dimensions.
 - Max character levels are GI 90, HSR 80, ZZZ 60, WuWa 90, and Endfield 80.
+- Character and weapon rows include the EXP materials and currency needed to reach those levels. Weapon packs follow the selected weapon's rarity; Endfield uses its first three promotion/tuning stages so its materials remain aligned with the approved Lv 80 target.
 - Max talent targets are GI `10/10/10`, HSR `6/10/10/10`, and ZZZ `12/12/12/12/12/6`. WuWa and Endfield use their max-material requirement data and show `Max` where no numbered target array exists.
 - The card always combines max ascension, max talents, and the selected weapon. It does not inherit the interactive ledger's lower level, lower talent, or row checkbox choices.
 - An explicit weapon cost of `0` stays zero through nullish fallback (`activeWeapon.cost ?? req.weaponCost`).

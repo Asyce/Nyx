@@ -462,6 +462,51 @@ test('production preprocessing publishes only complete confirmed future history 
   }
 });
 
+test('recent Game8 future windows publish automatically in two non-overlapping phases', () => {
+  const raw = { games: [{
+    id: 'hsr',
+    freshness: { status: 'fresh', source: 'game8', lastSuccessfulFetch: '2026-07-17T00:00:00.000Z' },
+    next: phase('2026-07-18T00:00:00Z', '2026-08-08T00:00:00Z', [{ name: 'Summeretto' }]),
+    upcoming: [
+      phase('2026-07-18T00:00:00Z', '2026-08-08T00:00:00Z', [{ name: 'Summeretto' }]),
+      phase('2026-08-08T00:00:00Z', '2026-08-29T00:00:00Z', [{ name: 'Waveflair' }]),
+      phase('2026-07-18T00:00:00Z', '2026-08-29T00:00:00Z', [{ name: 'Summary Row' }]),
+    ],
+  }] };
+
+  const normalized = applySourcedBannerWindows(raw, path.join(ROOT, 'missing-banner-history'), NOW);
+
+  assert.deepEqual(normalized.games[0]._displayUpcoming.map((entry) => ({
+    start: entry.start,
+    end: entry.end,
+    names: entry.characters.map((character) => character.name),
+  })), [
+    { start: '2026-07-18T00:00:00.000Z', end: '2026-08-08T00:00:00.000Z', names: ['Summeretto'] },
+    { start: '2026-08-08T00:00:00.000Z', end: '2026-08-29T00:00:00.000Z', names: ['Waveflair'] },
+  ]);
+});
+
+test('stale, non-Game8, and malformed future windows stay out of the launcher feed', () => {
+  const candidate = (overrides = {}) => ({
+    id: 'hsr',
+    freshness: { status: 'fresh', source: 'game8', lastSuccessfulFetch: '2026-07-17T00:00:00.000Z' },
+    next: phase('2026-07-18T00:00:00Z', '2026-08-08T00:00:00Z', [{ name: 'Future' }]),
+    ...overrides,
+  });
+  const rejected = [
+    candidate({ freshness: { status: 'stale', source: 'game8', lastSuccessfulFetch: '2026-07-17T00:00:00.000Z' } }),
+    candidate({ freshness: { status: 'fresh', source: 'other', lastSuccessfulFetch: '2026-07-17T00:00:00.000Z' } }),
+    candidate({ freshness: { status: 'fresh', source: 'game8', lastSuccessfulFetch: '2026-07-01T00:00:00.000Z' } }),
+    candidate({ next: phase('2026-07-18T00:00:00Z', '2026-09-01T00:00:00Z', [{ name: 'Too Long' }]) }),
+    candidate({ next: phase('2026-08-08T00:00:00Z', '2026-07-18T00:00:00Z', [{ name: 'Backwards' }]) }),
+  ];
+
+  for (const group of rejected) {
+    const normalized = applySourcedBannerWindows({ games: [group] }, path.join(ROOT, 'missing-banner-history'), NOW);
+    assert.deepEqual(normalized.games[0]._displayUpcoming, []);
+  }
+});
+
 test('a matching sourced phase label replaces an unhelpful history version', () => {
   const db = fs.mkdtempSync(path.join(ROOT, 'Site', 'banner-history-display-phase-test-'));
   try {
@@ -666,7 +711,7 @@ test('production snapshot selects the newest splash art and exposes future patch
   assert.ok(manifest.games.gi.upcoming.some((phase) => phase.characters.some((character) => character.name === 'Columbina')));
   assert.deepEqual(manifest.games.zzz.upcoming, []);
   assert.deepEqual(manifest.games.wuwa.upcoming[0].characters.map((character) => character.name), ['Suisui', 'Aemeath']);
-  assert.deepEqual(manifest.games.ae.upcoming, []);
+  assert.deepEqual(manifest.games.ae.upcoming.map((entry) => entry.characters.map((character) => character.name)), [['Liino']]);
 });
 
 test('production source rolls Genshin from Sandrone to Columbina at the trusted boundary', () => {

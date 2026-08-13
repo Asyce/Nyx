@@ -133,7 +133,16 @@ function nyxDatabaseItemRarity(item){
    bottom rather than sitting among real entries (user 2026-08-09).
    The site build marks them `artStatus:'intentional-fallback'` when it falls
    back to the shared placeholder. */
-const NYX_DATABASE_UNRELEASED_LABEL = 'No artwork in live or beta';
+const NYX_DATABASE_UNRELEASED_LABEL = '???';
+
+const NYX_DATABASE_COLLAPSED_GROUPS = new Set([
+  'Unlocks the associated character',
+  'Activates Constellation',
+]);
+
+function nyxDatabaseGroupCollapsed(label){
+  return NYX_DATABASE_COLLAPSED_GROUPS.has(String(label || ''));
+}
 
 function nyxDatabaseIsUnreleased(item){
   if (item?.artStatus === 'intentional-fallback') return true;
@@ -176,9 +185,13 @@ function nyxDatabaseGroupItems(items, options){
     label,
     items:list.slice().sort(nyxDatabaseCompareItems),
   }));
-  groups.sort((left, right) => (
-    nyxDatabaseCompareItems(left.items[0], right.items[0]) || String(left.label).localeCompare(String(right.label))
-  ));
+  groups.sort((left, right) => {
+    const leftCollapsed = nyxDatabaseGroupCollapsed(left.label) ? 1 : 0;
+    const rightCollapsed = nyxDatabaseGroupCollapsed(right.label) ? 1 : 0;
+    return leftCollapsed - rightCollapsed
+      || nyxDatabaseCompareItems(left.items[0], right.items[0])
+      || String(left.label).localeCompare(String(right.label));
+  });
   if (unreleased.length) {
     groups.push({
       key:'__unreleased__',
@@ -190,10 +203,10 @@ function nyxDatabaseGroupItems(items, options){
   return { groupKey:key, groups };
 }
 
-// 3-star and below is hidden until asked for (user 2026-08-09). Only offered
+// 1-2 star items are hidden until asked for; 3-star items always display. Only offered
 // when the collection actually spans rarities — hiding half of a list that has
 // no rarity at all would just lose rows.
-const NYX_DATABASE_LOW_RARITY_MAX = 3;
+const NYX_DATABASE_LOW_RARITY_MAX = 2;
 
 function nyxDatabaseHasLowRarity(items){
   const rows = Array.isArray(items) ? items : [];

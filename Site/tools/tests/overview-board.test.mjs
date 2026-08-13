@@ -19,6 +19,18 @@ const banners = sandbox.window.NYX_DB?.banners?.games || {};
 const GAMES = ['gi', 'hsr', 'zzz', 'wuwa', 'ae'];
 const phases = (group) => [group?.current, group?.next, ...(group?.upcoming || [])].filter(Boolean);
 
+function sourceFunction(name) {
+  const from = appSource.indexOf(`function ${name}`);
+  assert.ok(from >= 0, `${name} not found`);
+  const open = appSource.indexOf('{', from);
+  let depth = 0;
+  for (let index = open; index < appSource.length; index += 1) {
+    if (appSource[index] === '{') depth += 1;
+    else if (appSource[index] === '}' && --depth === 0) return appSource.slice(from, index + 1);
+  }
+  throw new Error(`${name} is incomplete`);
+}
+
 test('every shipped banner character carries a debut verdict', () => {
   const games = Object.keys(banners);
   assert.ok(games.length >= 4, `expected banner data for most games, got ${games.join(',') || 'none'}`);
@@ -74,23 +86,24 @@ test('the board splits each phase into a headline banner and the rest', () => {
   assert.match(appSource, /function bannerBoardColumn/);
   assert.match(appSource, /function overviewBannerBoard/);
   // Debut headlines the phase; with no debut the most recently added character
-  // takes the slot; two characters means two headline cards.
-  assert.match(appSource, /left\.unit\.debut !== right\.unit\.debut/);
-  assert.match(appSource, /row\.unit\.debutAt \|\| ''/);
-  assert.match(appSource, /units\.length === 2 \? ranked\.slice\(0, 2\) : ranked\.slice\(0, 1\)/);
-  // Featured lower-rarity units ride along on the headline card — except in
-  // Endfield, where that slot carries the 50/50 loss pool instead.
+  // takes the slot. Only Endfield keeps paired headline cards.
+  assert.match(appSource, /function bannerUnitRecency/);
+  assert.match(appSource, /const ranked = \[\.\.\.units\]\.sort\(bannerUnitRecency\)/);
+  assert.match(appSource, /cfg\.key === 'ae' && units\.length === 2 \? ranked\.slice\(0, 2\) : ranked\.slice\(0, 1\)/);
+  assert.match(appSource, /column\.others\.map/);
+  // Featured lower-rarity units use an icon rail; Endfield keeps the 50/50
+  // loss pool on its headline card instead.
   assert.match(appSource, /all\.filter\(\(unit\) => unit\.rarity && unit\.rarity < rank\)/);
   assert.match(appSource, /cfg\.key === 'ae' \? ranked\.filter/);
-  // ZZZ shows no lower-rarity row at all.
-  assert.match(appSource, /support:cfg\.key === 'zzz' \? \[\]/);
-  // Both headline cards in a phase list them, so the row stays uniform.
-  assert.match(appSource, /others:column\.support,/);
+  assert.match(appSource, /function BannerBoardRail/);
+  assert.match(appSource, /<BannerBoardRail units=\{column\.support\}/);
+  assert.match(appSource, /others:cfg\.key === 'ae' \? column\.support : \[\]/);
 });
 
 test('the overview renders five banner columns and folds the old rail into the grid', () => {
   // Five columns, and the captions under them were removed 2026-08-08.
-  assert.equal((appSource.match(/<BannerBoardColumn/g) || []).length, 5);
+  assert.equal((appSource.match(/<BannerBoardColumn/g) || []).length, 9);
+  assert.match(appSource, /if \(!lossPool\) \{[\s\S]*?board\.planned\[0\][\s\S]*?board\.planned\[1\][\s\S]*?'Announced'/);
   assert.doesNotMatch(appSource, /gp-ovb-caption/);
   assert.doesNotMatch(appSource, /New Character Banner/);
   assert.match(appSource, /<OverviewBannerBoard cfg=\{cfg\}/);
@@ -127,9 +140,8 @@ test("Endfield's off-banner characters are labelled as the 50/50 loss pool", () 
   assert.doesNotMatch(appSource, /cdn\.prydwen\.gg/);
   // Endfield fills columns 2-4 with what is coming and drops the fifth.
   assert.match(appSource, /const aeUpcoming = lossPool \? laterUnits\.slice\(0, 3\) : \[\]/);
-  assert.match(appSource, /\{!lossPool && \(/);
-  // ...so the neighbouring column must not repeat the same names.
-  assert.match(appSource, /if \(!lossPool && column && column\.others\.length\)/);
+  assert.match(appSource, /if \(!lossPool\) \{/);
+  assert.match(appSource, /const aeColumn = \(index\)/);
   assert.match(sharedCss, /\.gp-oban-supports-label\{/);
   assert.match(sharedCss, /\.gp-ovb-note\{/);
 });
@@ -211,4 +223,98 @@ test('the phase after next rolls into the following patch, never a third phase',
   assert.equal(advance('Luna VIII Phase 2'), null);
   assert.equal(advance('Luna VIII'), null);
   assert.equal(advance(''), null);
+});
+
+test('the shipped roadmap keeps the requested order and self-hosted art', () => {
+  const expected = {
+    gi:['Vesna', 'Vodyanitsa', 'Mitya', 'Valeriy', 'The Tsaritsa Anastasya Feodorovna Snezhnaya', 'Danica', 'Noy'],
+    hsr:['Pearl', 'Nihilux'],
+    zzz:['Claret', 'Roxy', 'Sunbringer', 'Phoenix', 'The Storyteller'],
+    wuwa:['Jingran', 'Suoming', 'Hsin'],
+  };
+  for (const [key, names] of Object.entries(expected)) {
+    const rows = banners[key]?.roadmap || [];
+    assert.deepEqual(Array.from(rows.slice(0, names.length), (row) => row.name), names, `${key} roadmap order`);
+    for (const row of rows.slice(0, names.length)) {
+      assert.match(row.icon || row.art || '', /^(?:\.\.\/|\/)assets\//, `${key}: ${row.name} art must be self-hosted`);
+    }
+  }
+  assert.match(appSource, /const trustedFuture = new Set/);
+  const rowNameStart = sharedCss.indexOf('\n.gp-ovb-row b{');
+  const rowNameCss = sharedCss.slice(rowNameStart, sharedCss.indexOf('}', rowNameStart) + 1);
+  assert.match(rowNameCss, /white-space:nowrap/);
+  assert.match(rowNameCss, /var\(--fit, 1\)/);
+  assert.doesNotMatch(rowNameCss, /text-overflow:ellipsis/);
+});
+
+test('short overlap banners do not invent an extra phase', () => {
+  const from = generator.indexOf('const BANNER_PHASE_GAP_MS');
+  const to = generator.indexOf('function officialPhases');
+  assert.ok(from > 0 && to > from, 'official phase grouping helper not found');
+  const box = { window:{} };
+  vm.createContext(box);
+  vm.runInContext(generator.slice(from, to) + ';window.starts = bannerPhaseStarts;', box);
+  const day = 24 * 60 * 60 * 1000;
+  assert.deepEqual(Array.from(box.window.starts([0, 9 * day, 21 * day])), [0, 21 * day]);
+});
+
+test('the five-column model matches each requested game roadmap', () => {
+  const phaseHelpers = appSource.slice(
+    appSource.indexOf('const BANNER_PHASES_PER_PATCH'),
+    appSource.indexOf('function bannerNextPhaseHeading'),
+  );
+  const box = { window:{}, groups:banners };
+  vm.createContext(box);
+  vm.runInContext(`
+    function dbBannerGroup(key){ return groups[key]; }
+    function rosterUnitMap(){ return new Map(); }
+    ${sourceFunction('normalizeUnitName')}
+    ${sourceFunction('bannerFeaturedRank')}
+    ${sourceFunction('bannerRarityValue')}
+    ${sourceFunction('bannerRarityLabel')}
+    ${sourceFunction('dedupeByName')}
+    ${sourceFunction('phaseUnit')}
+    ${sourceFunction('bannerUnitRecency')}
+    ${sourceFunction('bannerBoardColumn')}
+    ${phaseHelpers}
+    ${sourceFunction('bannerRoadmapVersion')}
+    ${sourceFunction('bannerPlanLabelFromHint')}
+    ${sourceFunction('bannerApplyPlanLabels')}
+    ${sourceFunction('overviewBannerBoard')}
+    window.board = (key) => overviewBannerBoard({ key });
+    window.rank = bannerUnitRecency;
+  `, box);
+  const board = (key) => JSON.parse(JSON.stringify(box.window.board(key)));
+  const names = (rows) => (rows || []).map((row) => row.name);
+
+  const gi = board('gi');
+  assert.deepEqual([gi.current.label, gi.next.label], ['7.0 Phase 1', '7.0 Phase 2']);
+  assert.equal(gi.current.heroes[0].name, 'Odette');
+  assert.deepEqual(names(gi.current.others), ['Arlecchino']);
+  assert.equal(gi.next.heroes[0].name, 'Flins');
+  assert.deepEqual(names(gi.next.others), ['Ineffa']);
+  assert.deepEqual(gi.planned.map((column) => column.heroes[0].name), ['Vesna', 'Vodyanitsa']);
+  assert.deepEqual(gi.planned.map((column) => column.label), ['7.1 Phase 1', '7.1 Phase 2']);
+  assert.ok(gi.planned.every((column) => column.start === null && column.end === null));
+  assert.deepEqual(names(gi.future).slice(0, 5), ['Mitya', 'Valeriy', 'The Tsaritsa Anastasya Feodorovna Snezhnaya', 'Danica', 'Noy']);
+
+  const hsr = board('hsr');
+  assert.deepEqual([hsr.current.label, hsr.next.label], ['4.4 Phase 2', '4.5 Phase 1']);
+  assert.deepEqual(hsr.planned.map((column) => column.heroes[0].name), ['Aventurine • Waveflair', 'Pearl']);
+  assert.deepEqual(hsr.planned.map((column) => column.label), ['4.5 Phase 2', '4.6 Phase 1']);
+  assert.deepEqual(names(hsr.future), ['Nihilux']);
+
+  const zzz = board('zzz');
+  assert.deepEqual([zzz.current.label, zzz.next.label], ['3.1 Phase 1', '3.1 Phase 2']);
+  assert.equal(zzz.next.heroes[0].name, 'Sigrid');
+  assert.deepEqual(zzz.planned.map((column) => column.heroes[0].name), ['Claret', 'Roxy']);
+  assert.deepEqual(names(zzz.future), ['Sunbringer', 'Phoenix', 'The Storyteller']);
+
+  const wuwa = board('wuwa');
+  assert.deepEqual([wuwa.current.label, wuwa.next.label], ['3.5 Phase 2', '3.6 Phase 1']);
+  assert.equal(wuwa.next.heroes[0].name, 'Qingxiao');
+  assert.deepEqual(wuwa.planned.map((column) => column.heroes[0].name), ['Jingran']);
+  assert.deepEqual(wuwa.planned.map((column) => column.label), ['3.6 Phase 2']);
+  assert.deepEqual(names(wuwa.future), ['Suoming', 'Hsin']);
+  assert.deepEqual(names([...wuwa.current.support].sort(box.window.rank)), ['Lumi', 'Baizhi', 'Mortefi']);
 });

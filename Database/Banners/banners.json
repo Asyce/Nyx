@@ -1,14 +1,14 @@
 {
-  "checkedAt": "2026-08-13T10:46:00.184Z",
-  "updated": "2026-08-13T10:46:00.184Z",
+  "checkedAt": "2026-08-13T13:21:44.402Z",
+  "updated": "2026-08-13T13:21:44.402Z",
   "games": [
     {
       "id": "hsr",
       "name": "Honkai: Star Rail",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-08-13T10:46:00.184Z",
-        "lastSuccessfulFetch": "2026-08-13T10:46:00.184Z",
+        "checkedAt": "2026-08-13T13:21:44.402Z",
+        "lastSuccessfulFetch": "2026-08-13T13:21:44.402Z",
         "source": "game8"
       },
       "current": {
@@ -96,6 +96,24 @@
           "start": "2026-09-16T16:00:00.000Z",
           "end": "2026-10-06T16:00:00.000Z"
         }
+      ],
+      "roadmap": [
+        {
+          "name": "Pearl",
+          "image": "/assets/banners/hsr/30988ea93b8d36c7cd124310a61341f3.png",
+          "hint": "Robin - Summeretto Release in Phase 1 of Version 4.6",
+          "imageSource": "https://img.game8.co/4583947/4c18ce22132d458c3363deed4f419db0.png/show",
+          "source": "game8",
+          "sourceUrl": "https://game8.co/games/Honkai-Star-Rail/archives/415899"
+        },
+        {
+          "name": "Nihilux",
+          "image": "/assets/banners/hsr/5e5f97c054dc875bc8bd76a64859350b.png",
+          "hint": "Upcoming Planarcadia Characters",
+          "imageSource": "https://img.game8.co/4386209/6d81b1e74ad901f8d555203ed5f22f00.png/show",
+          "source": "game8",
+          "sourceUrl": "https://game8.co/games/Honkai-Star-Rail/archives/415899"
+        }
       ]
     },
     {
@@ -103,8 +121,8 @@
       "name": "Genshin Impact",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-08-13T10:46:00.184Z",
-        "lastSuccessfulFetch": "2026-08-13T10:46:00.184Z",
+        "checkedAt": "2026-08-13T13:21:44.402Z",
+        "lastSuccessfulFetch": "2026-08-13T13:21:44.402Z",
         "source": "game8"
       },
       "current": {
@@ -194,6 +212,64 @@
           "start": "2026-08-12T10:00:00.000Z",
           "end": "2206-09-01T10:00:00.000Z"
         }
+      ],
+      "roadmap": [
+        {
+          "name": "Vesna",
+          "image": "/assets/banners/genshin/0337246ce778ffd2dbd49ef89e98c850.png",
+          "hint": "Characters from Official Channels",
+          "imageSource": "https://img.game8.co/4543306/5e9d45898e0311d7d3974ee9b5411668.png/show",
+          "source": "game8",
+          "sourceUrl": "https://game8.co/games/Genshin-Impact/archives/307054"
+        },
+        {
+          "name": "Noy",
+          "image": "/assets/banners/genshin/c234b9b143af0e8200c8183ad61c2d8f.png",
+          "hint": "Characters from Official Channels",
+          "imageSource": "https://img.game8.co/4543303/278c7446ead442a16054999404cf4463.png/show",
+          "source": "game8",
+          "sourceUrl": "https://game8.co/games/Genshin-Impact/archives/307054"
+        },
+        {
+          "name": "Mitya",
+          "image": "/assets/banners/genshin/3d32eb837a594869e0ed4232ddfeeb3f.png",
+          "hint": "Characters from Official Channels",
+          "imageSource": "https://img.game8.co/4574403/88966227130f2b1006618baeb35e9b6c.png/show",
+          "source": "game8",
+          "sourceUrl": "https://game8.co/games/Genshin-Impact/archives/307054"
+        },
+        {
+          "name": "Valeriy",
+          "image": "/assets/banners/genshin/897e0023c986e263f0ac1a17e34d0b14.png",
+          "hint": "Characters from Official Channels",
+          "imageSource": "https://img.game8.co/4543292/f741501666f83bd9f3af1de96ecabdaa.png/show",
+          "source": "game8",
+          "sourceUrl": "https://game8.co/games/Genshin-Impact/archives/307054"
+        },
+        {
+          "name": "Danica",
+          "image": "/assets/banners/genshin/b289e61a8574531fb41e42073bafa9f1.png",
+          "hint": "Characters from Official Channels",
+          "imageSource": "https://img.game8.co/4574404/63b9c5087e220e3d773d6ca7d5ebd02c.png/show",
+          "source": "game8",
+          "sourceUrl": "https://game8.co/games/Genshin-Impact/archives/307054"
+        },
+        {
+          "name": "Tsaritsa",
+          "image": "/assets/banners/genshin/cdefdbb52093ca1327576623c156a77e.png",
+          "hint": "Characters Mentioned In-Game",
+          "imageSource": "https://img.game8.co/4543364/833b140879211c4968885b1525645c19.png/show",
+          "source": "game8",
+          "sourceUrl": "https://game8.co/games/Genshin-Impact/archives/307054"
+        },
+        {
+          "name": "Vodyanitsa",
+          "image": "/assets/banners/genshin/32d0b3910929f0da9a9a16dfc0f9ea9a.png",
+          "hint": "Characters Mentioned In-Game",
+          "imageSource": "https://img.game8.co/4543260/0116c26fa74f1168cfa729c68003e791.png/show",
+          "source": "game8",
+          "sourceUrl": "https://game8.co/games/Genshin-Impact/archives/307054"
+        }
       ]
     },
     {
@@ -201,8 +277,8 @@
       "name": "Wuthering Waves",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-08-13T10:46:00.184Z",
-        "lastSuccessfulFetch": "2026-08-13T10:46:00.184Z",
+        "checkedAt": "2026-08-13T13:21:44.402Z",
+        "lastSuccessfulFetch": "2026-08-13T13:21:44.402Z",
         "source": "game8"
       },
       "current": {
@@ -299,6 +375,32 @@
           "start": "2026-08-20T10:00:00.000Z",
           "end": "2026-09-10T10:00:00.000Z"
         }
+      ],
+      "roadmap": [
+        {
+          "name": "Jingran",
+          "image": "/assets/banners/wuwa/a0e1e743f0d6efa832282a01068b456a.png",
+          "hint": "Qingxiao and Jingran in Version 3.6",
+          "imageSource": "https://img.game8.co/4572123/18932eed923cdd845d400e0990924543.png/show",
+          "source": "game8",
+          "sourceUrl": "https://game8.co/games/Wuthering-Waves/archives/452883"
+        },
+        {
+          "name": "Suoming",
+          "image": "/assets/banners/wuwa/2bfd02b98d9d13d873f2ea210ed6eea3.png",
+          "hint": "Future Mengzhou Characters",
+          "imageSource": "https://img.game8.co/4533350/fb1039862fba37364d660df79f24c38d.png/show",
+          "source": "game8",
+          "sourceUrl": "https://game8.co/games/Wuthering-Waves/archives/452883"
+        },
+        {
+          "name": "Hsin",
+          "image": "/assets/banners/wuwa/95b3dcd95d0da5c9dd2b8907fb4f3f17.png",
+          "hint": "Future Mengzhou Characters",
+          "imageSource": "https://img.game8.co/4533348/50f0e1f7147d9cd331d7a9574b7306a4.png/show",
+          "source": "game8",
+          "sourceUrl": "https://game8.co/games/Wuthering-Waves/archives/452883"
+        }
       ]
     },
     {
@@ -306,8 +408,8 @@
       "name": "Zenless Zone Zero",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-08-13T10:46:00.184Z",
-        "lastSuccessfulFetch": "2026-08-13T10:46:00.184Z",
+        "checkedAt": "2026-08-13T13:21:44.402Z",
+        "lastSuccessfulFetch": "2026-08-13T13:21:44.402Z",
         "source": "game8"
       },
       "current": {
@@ -374,6 +476,48 @@
           "start": "2026-08-19T10:00:00.000Z",
           "end": "2026-09-08T10:00:00.000Z"
         }
+      ],
+      "roadmap": [
+        {
+          "name": "Claret",
+          "image": "/assets/banners/zzz/f66bfa90111ddba48430580e96a4e079.png",
+          "hint": "Claret Release in 3.2",
+          "imageSource": "https://img.game8.co/4581362/77f1bcaea6d3de6108e2d242f32f2150.png/show",
+          "source": "game8",
+          "sourceUrl": "https://game8.co/games/Zenless-Zone-Zero/archives/460160"
+        },
+        {
+          "name": "Roxy",
+          "image": "/assets/banners/zzz/1012e67e8352eb03ae2266095558ca8e.png",
+          "hint": "Roxy Release in 3.2",
+          "imageSource": "https://img.game8.co/4581324/9169a4a2d47ca1e8f589aca86b35ece5.png/show",
+          "source": "game8",
+          "sourceUrl": "https://game8.co/games/Zenless-Zone-Zero/archives/460160"
+        },
+        {
+          "name": "Sunbringer",
+          "image": "/assets/banners/zzz/3a1947e4be23cefcd7bced059562905b.png",
+          "hint": "New Characters in Season 3",
+          "imageSource": "https://img.game8.co/4485709/0d5338af7a71856a2990ec05f091b0e5.png/show",
+          "source": "game8",
+          "sourceUrl": "https://game8.co/games/Zenless-Zone-Zero/archives/460160"
+        },
+        {
+          "name": "Phoenix",
+          "image": "/assets/banners/zzz/037940a9eae08de1fe62a8adcb5c1b0c.png",
+          "hint": "New Characters in Season 3",
+          "imageSource": "https://img.game8.co/4485334/c963d61f5bc9d92dfa54234fdad01ccf.png/show",
+          "source": "game8",
+          "sourceUrl": "https://game8.co/games/Zenless-Zone-Zero/archives/460160"
+        },
+        {
+          "name": "The Storyteller",
+          "image": "/assets/banners/zzz/7eada0eff64d90692d083489f83c57ad.png",
+          "hint": "New Characters in Season 3",
+          "imageSource": "https://img.game8.co/4485333/46456205e18b38a9d10ba080b5cdb0f7.png/show",
+          "source": "game8",
+          "sourceUrl": "https://game8.co/games/Zenless-Zone-Zero/archives/460160"
+        }
       ]
     },
     {
@@ -381,8 +525,8 @@
       "name": "Arknights: Endfield",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-08-13T10:46:00.184Z",
-        "lastSuccessfulFetch": "2026-08-13T10:46:00.184Z",
+        "checkedAt": "2026-08-13T13:21:44.402Z",
+        "lastSuccessfulFetch": "2026-08-13T13:21:44.402Z",
         "source": "game8"
       },
       "current": {

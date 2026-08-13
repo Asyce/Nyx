@@ -4,7 +4,7 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-08-13T14:24:18.269Z",
+  "generatedAt": "2026-08-13T14:44:27.520Z",
   "codes": {
     "updated": "2026-08-13T14:24:01.881Z",
     "maxAgeDays": 28,
@@ -468,20 +468,20 @@ var NYX_DB = {
     }
   },
   "banners": {
-    "updated": "2026-08-13T10:46:00.184Z",
-    "checkedAt": "2026-08-13T10:46:00.184Z",
+    "updated": "2026-08-13T13:21:44.402Z",
+    "checkedAt": "2026-08-13T13:21:44.402Z",
     "games": {
       "hsr": {
         "name": "Honkai: Star Rail",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-08-13T10:46:00.184Z",
-          "lastSuccessfulFetch": "2026-08-13T10:46:00.184Z",
-          "lastValidUpdate": "2026-08-13T10:46:00.184Z",
+          "checkedAt": "2026-08-13T13:21:44.402Z",
+          "lastSuccessfulFetch": "2026-08-13T13:21:44.402Z",
+          "lastValidUpdate": "2026-08-13T13:21:44.402Z",
           "source": "game8"
         },
         "current": {
-          "phase": "4.4",
+          "phase": "4.4 Phase 2",
           "start": "2026-07-15T03:00:00.000Z",
           "end": "2026-08-25T20:00:00.000Z",
           "characters": [
@@ -606,19 +606,73 @@ var NYX_DB = {
             ],
             "subBanners": []
           }
+        ],
+        "beta": [
+          {
+            "name": "Aventurine Waveflair",
+            "icon": "../../Database/GameData/hsr/assets/characters/round/1513.webp",
+            "iconFallback": null,
+            "iconZoom": false,
+            "art": "../../Database/GameData/hsr/assets/characters/draw-card/1513.webp",
+            "namecard": null,
+            "rarity": 5,
+            "debut": true,
+            "debutAt": null
+          },
+          {
+            "name": "Robin Summeretto",
+            "icon": "../../Database/GameData/hsr/assets/characters/round/1512.webp",
+            "iconFallback": null,
+            "iconZoom": false,
+            "art": "../../Database/GameData/hsr/assets/characters/draw-card/1512.webp",
+            "namecard": null,
+            "rarity": 5,
+            "debut": true,
+            "debutAt": null
+          }
+        ],
+        "roadmap": [
+          {
+            "name": "Pearl",
+            "icon": "/assets/banners/hsr/30988ea93b8d36c7cd124310a61341f3.png",
+            "iconFallback": null,
+            "iconZoom": false,
+            "art": "/assets/banners/hsr/30988ea93b8d36c7cd124310a61341f3.png",
+            "namecard": null,
+            "rarity": null,
+            "debut": true,
+            "debutAt": null,
+            "hint": "Robin - Summeretto Release in Phase 1 of Version 4.6",
+            "source": "game8",
+            "sourceUrl": "https://game8.co/games/Honkai-Star-Rail/archives/415899"
+          },
+          {
+            "name": "Nihilux",
+            "icon": "/assets/banners/hsr/5e5f97c054dc875bc8bd76a64859350b.png",
+            "iconFallback": null,
+            "iconZoom": false,
+            "art": "/assets/banners/hsr/5e5f97c054dc875bc8bd76a64859350b.png",
+            "namecard": null,
+            "rarity": null,
+            "debut": true,
+            "debutAt": null,
+            "hint": "Upcoming Planarcadia Characters",
+            "source": "game8",
+            "sourceUrl": "https://game8.co/games/Honkai-Star-Rail/archives/415899"
+          }
         ]
       },
       "gi": {
         "name": "Genshin Impact",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-08-13T10:46:00.184Z",
-          "lastSuccessfulFetch": "2026-08-13T10:46:00.184Z",
-          "lastValidUpdate": "2026-08-13T10:46:00.184Z",
+          "checkedAt": "2026-08-13T13:21:44.402Z",
+          "lastSuccessfulFetch": "2026-08-13T13:21:44.402Z",
+          "lastValidUpdate": "2026-08-13T13:21:44.402Z",
           "source": "game8"
         },
         "current": {
-          "phase": "7.0",
+          "phase": "7.0 Phase 1",
           "start": "2026-08-12T03:00:00.000Z",
           "end": "2026-09-01T09:59:59.000Z",
           "characters": [
@@ -711,19 +765,143 @@ var NYX_DB = {
           ],
           "subBanners": []
         },
-        "upcoming": []
+        "upcoming": [],
+        "beta": [
+          {
+            "name": "Vesna",
+            "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Vesna_Circle.webp",
+            "iconFallback": null,
+            "iconZoom": false,
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Vesna.webp",
+            "namecard": null,
+            "rarity": 5,
+            "debut": true,
+            "debutAt": null
+          },
+          {
+            "name": "Vodyanitsa",
+            "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Vodyanitsa_Circle.webp",
+            "iconFallback": null,
+            "iconZoom": false,
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Vodyanitsa.webp",
+            "namecard": null,
+            "rarity": 5,
+            "debut": true,
+            "debutAt": null
+          }
+        ],
+        "roadmap": [
+          {
+            "name": "Vesna",
+            "icon": "/assets/banners/genshin/0337246ce778ffd2dbd49ef89e98c850.png",
+            "iconFallback": null,
+            "iconZoom": false,
+            "art": "/assets/banners/genshin/0337246ce778ffd2dbd49ef89e98c850.png",
+            "namecard": null,
+            "rarity": 5,
+            "debut": true,
+            "debutAt": null,
+            "hint": "Characters from Official Channels",
+            "source": "game8",
+            "sourceUrl": "https://game8.co/games/Genshin-Impact/archives/307054"
+          },
+          {
+            "name": "Vodyanitsa",
+            "icon": "/assets/banners/genshin/32d0b3910929f0da9a9a16dfc0f9ea9a.png",
+            "iconFallback": null,
+            "iconZoom": false,
+            "art": "/assets/banners/genshin/32d0b3910929f0da9a9a16dfc0f9ea9a.png",
+            "namecard": null,
+            "rarity": 5,
+            "debut": true,
+            "debutAt": null,
+            "hint": "Characters Mentioned In-Game",
+            "source": "game8",
+            "sourceUrl": "https://game8.co/games/Genshin-Impact/archives/307054"
+          },
+          {
+            "name": "Mitya",
+            "icon": "/assets/banners/genshin/3d32eb837a594869e0ed4232ddfeeb3f.png",
+            "iconFallback": null,
+            "iconZoom": false,
+            "art": "/assets/banners/genshin/3d32eb837a594869e0ed4232ddfeeb3f.png",
+            "namecard": null,
+            "rarity": null,
+            "debut": true,
+            "debutAt": null,
+            "hint": "Characters from Official Channels",
+            "source": "game8",
+            "sourceUrl": "https://game8.co/games/Genshin-Impact/archives/307054"
+          },
+          {
+            "name": "Valeriy",
+            "icon": "/assets/banners/genshin/897e0023c986e263f0ac1a17e34d0b14.png",
+            "iconFallback": null,
+            "iconZoom": false,
+            "art": "/assets/banners/genshin/897e0023c986e263f0ac1a17e34d0b14.png",
+            "namecard": null,
+            "rarity": null,
+            "debut": true,
+            "debutAt": null,
+            "hint": "Characters from Official Channels",
+            "source": "game8",
+            "sourceUrl": "https://game8.co/games/Genshin-Impact/archives/307054"
+          },
+          {
+            "name": "The Tsaritsa Anastasya Feodorovna Snezhnaya",
+            "icon": "/assets/banners/genshin/cdefdbb52093ca1327576623c156a77e.png",
+            "iconFallback": null,
+            "iconZoom": false,
+            "art": "/assets/banners/genshin/cdefdbb52093ca1327576623c156a77e.png",
+            "namecard": null,
+            "rarity": null,
+            "debut": true,
+            "debutAt": null,
+            "hint": "Characters Mentioned In-Game",
+            "source": "game8",
+            "sourceUrl": "https://game8.co/games/Genshin-Impact/archives/307054"
+          },
+          {
+            "name": "Danica",
+            "icon": "/assets/banners/genshin/b289e61a8574531fb41e42073bafa9f1.png",
+            "iconFallback": null,
+            "iconZoom": false,
+            "art": "/assets/banners/genshin/b289e61a8574531fb41e42073bafa9f1.png",
+            "namecard": null,
+            "rarity": null,
+            "debut": true,
+            "debutAt": null,
+            "hint": "Characters from Official Channels",
+            "source": "game8",
+            "sourceUrl": "https://game8.co/games/Genshin-Impact/archives/307054"
+          },
+          {
+            "name": "Noy",
+            "icon": "/assets/banners/genshin/c234b9b143af0e8200c8183ad61c2d8f.png",
+            "iconFallback": null,
+            "iconZoom": false,
+            "art": "/assets/banners/genshin/c234b9b143af0e8200c8183ad61c2d8f.png",
+            "namecard": null,
+            "rarity": null,
+            "debut": true,
+            "debutAt": null,
+            "hint": "Characters from Official Channels",
+            "source": "game8",
+            "sourceUrl": "https://game8.co/games/Genshin-Impact/archives/307054"
+          }
+        ]
       },
       "wuwa": {
         "name": "Wuthering Waves",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-08-13T10:46:00.184Z",
-          "lastSuccessfulFetch": "2026-08-13T10:46:00.184Z",
-          "lastValidUpdate": "2026-08-13T10:46:00.184Z",
+          "checkedAt": "2026-08-13T13:21:44.402Z",
+          "lastSuccessfulFetch": "2026-08-13T13:21:44.402Z",
+          "lastValidUpdate": "2026-08-13T13:21:44.402Z",
           "source": "game8"
         },
         "current": {
-          "phase": "3.5",
+          "phase": "3.5 Phase 2",
           "start": "2026-07-30T15:00:00.000Z",
           "end": "2026-08-19T16:59:00.000Z",
           "characters": [
@@ -848,19 +1026,63 @@ var NYX_DB = {
             ],
             "subBanners": []
           }
+        ],
+        "roadmap": [
+          {
+            "name": "Jingran",
+            "icon": "/assets/banners/wuwa/a0e1e743f0d6efa832282a01068b456a.png",
+            "iconFallback": null,
+            "iconZoom": false,
+            "art": "../../Database/Prydwen/ww/assets/characters/jingran-2b0e720255d4.webp",
+            "namecard": null,
+            "rarity": 5,
+            "debut": true,
+            "debutAt": null,
+            "hint": "Qingxiao and Jingran in Version 3.6",
+            "source": "game8",
+            "sourceUrl": "https://game8.co/games/Wuthering-Waves/archives/452883"
+          },
+          {
+            "name": "Suoming",
+            "icon": "/assets/banners/wuwa/2bfd02b98d9d13d873f2ea210ed6eea3.png",
+            "iconFallback": null,
+            "iconZoom": false,
+            "art": "../../Database/Prydwen/ww/assets/characters/suoming-bb9eb3850344.webp",
+            "namecard": null,
+            "rarity": 5,
+            "debut": true,
+            "debutAt": null,
+            "hint": "Future Mengzhou Characters",
+            "source": "game8",
+            "sourceUrl": "https://game8.co/games/Wuthering-Waves/archives/452883"
+          },
+          {
+            "name": "Hsin",
+            "icon": "/assets/banners/wuwa/95b3dcd95d0da5c9dd2b8907fb4f3f17.png",
+            "iconFallback": null,
+            "iconZoom": false,
+            "art": "../../Database/Prydwen/ww/assets/characters/hsin-652a82fc04a8.webp",
+            "namecard": null,
+            "rarity": 5,
+            "debut": true,
+            "debutAt": null,
+            "hint": "Future Mengzhou Characters",
+            "source": "game8",
+            "sourceUrl": "https://game8.co/games/Wuthering-Waves/archives/452883"
+          }
         ]
       },
       "zzz": {
         "name": "Zenless Zone Zero",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-08-13T10:46:00.184Z",
-          "lastSuccessfulFetch": "2026-08-13T10:46:00.184Z",
-          "lastValidUpdate": "2026-08-13T10:46:00.184Z",
+          "checkedAt": "2026-08-13T13:21:44.402Z",
+          "lastSuccessfulFetch": "2026-08-13T13:21:44.402Z",
+          "lastValidUpdate": "2026-08-13T13:21:44.402Z",
           "source": "game8"
         },
         "current": {
-          "phase": "3.1",
+          "phase": "3.1 Phase 1",
           "start": "2026-07-29T03:00:00.000Z",
           "end": "2026-09-08T06:59:59.000Z",
           "characters": [
@@ -912,7 +1134,7 @@ var NYX_DB = {
           "subBanners": []
         },
         "next": {
-          "phase": "3.1",
+          "phase": "3.1 Phase 2",
           "start": "2026-08-19T04:00:00.000Z",
           "end": "2026-09-08T06:59:59.000Z",
           "characters": [
@@ -963,15 +1185,111 @@ var NYX_DB = {
           ],
           "subBanners": []
         },
-        "upcoming": []
+        "upcoming": [],
+        "beta": [
+          {
+            "name": "Anby",
+            "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle01.webp",
+            "iconFallback": null,
+            "iconZoom": false,
+            "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole01.webp",
+            "namecard": null,
+            "rarity": "A",
+            "debut": false,
+            "debutAt": "2025-03-12"
+          },
+          {
+            "name": "Billy",
+            "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle10.webp",
+            "iconFallback": null,
+            "iconZoom": false,
+            "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole10.webp",
+            "namecard": null,
+            "rarity": "A",
+            "debut": true,
+            "debutAt": null
+          }
+        ],
+        "roadmap": [
+          {
+            "name": "Claret",
+            "icon": "/assets/banners/zzz/f66bfa90111ddba48430580e96a4e079.png",
+            "iconFallback": null,
+            "iconZoom": false,
+            "art": "/assets/banners/zzz/f66bfa90111ddba48430580e96a4e079.png",
+            "namecard": null,
+            "rarity": null,
+            "debut": true,
+            "debutAt": null,
+            "hint": "Claret Release in 3.2",
+            "source": "game8",
+            "sourceUrl": "https://game8.co/games/Zenless-Zone-Zero/archives/460160"
+          },
+          {
+            "name": "Roxy",
+            "icon": "/assets/banners/zzz/1012e67e8352eb03ae2266095558ca8e.png",
+            "iconFallback": null,
+            "iconZoom": false,
+            "art": "/assets/banners/zzz/1012e67e8352eb03ae2266095558ca8e.png",
+            "namecard": null,
+            "rarity": null,
+            "debut": true,
+            "debutAt": null,
+            "hint": "Roxy Release in 3.2",
+            "source": "game8",
+            "sourceUrl": "https://game8.co/games/Zenless-Zone-Zero/archives/460160"
+          },
+          {
+            "name": "Sunbringer",
+            "icon": "/assets/banners/zzz/3a1947e4be23cefcd7bced059562905b.png",
+            "iconFallback": null,
+            "iconZoom": false,
+            "art": "/assets/banners/zzz/3a1947e4be23cefcd7bced059562905b.png",
+            "namecard": null,
+            "rarity": null,
+            "debut": true,
+            "debutAt": null,
+            "hint": "New Characters in Season 3",
+            "source": "game8",
+            "sourceUrl": "https://game8.co/games/Zenless-Zone-Zero/archives/460160"
+          },
+          {
+            "name": "Phoenix",
+            "icon": "/assets/banners/zzz/037940a9eae08de1fe62a8adcb5c1b0c.png",
+            "iconFallback": null,
+            "iconZoom": false,
+            "art": "/assets/banners/zzz/037940a9eae08de1fe62a8adcb5c1b0c.png",
+            "namecard": null,
+            "rarity": null,
+            "debut": true,
+            "debutAt": null,
+            "hint": "New Characters in Season 3",
+            "source": "game8",
+            "sourceUrl": "https://game8.co/games/Zenless-Zone-Zero/archives/460160"
+          },
+          {
+            "name": "The Storyteller",
+            "icon": "/assets/banners/zzz/7eada0eff64d90692d083489f83c57ad.png",
+            "iconFallback": null,
+            "iconZoom": false,
+            "art": "/assets/banners/zzz/7eada0eff64d90692d083489f83c57ad.png",
+            "namecard": null,
+            "rarity": null,
+            "debut": true,
+            "debutAt": null,
+            "hint": "New Characters in Season 3",
+            "source": "game8",
+            "sourceUrl": "https://game8.co/games/Zenless-Zone-Zero/archives/460160"
+          }
+        ]
       },
       "ae": {
         "name": "Arknights: Endfield",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-08-13T10:46:00.184Z",
-          "lastSuccessfulFetch": "2026-08-13T10:46:00.184Z",
-          "lastValidUpdate": "2026-08-13T10:46:00.184Z",
+          "checkedAt": "2026-08-13T13:21:44.402Z",
+          "lastSuccessfulFetch": "2026-08-13T13:21:44.402Z",
+          "lastValidUpdate": "2026-08-13T13:21:44.402Z",
           "source": "game8"
         },
         "current": {
@@ -1811,7 +2129,7 @@ var NYX_DB = {
           "key": "weapons",
           "title": "Weapons",
           "source": "GameData",
-          "count": 278,
+          "count": 270,
           "items": [
             {
               "id": "gi-wpn-11101",
@@ -4880,96 +5198,6 @@ var NYX_DB = {
               "released": "2026-04-08"
             },
             {
-              "id": "gi-wpn-224001",
-              "name": "Shatanaya's Frostsilver",
-              "kind": "weapon",
-              "art": "../../Database/GameData/gi/assets/weapons/icons/UI_EquipIcon_AssaultRifle_Glacia.webp",
-              "fields": {
-                "rarity": "4 \u2605",
-                "type": "ITEM_TPS_WEAPON"
-              },
-              "text": "An assault rifle that can accumulate Frigid Glory using Normal Attacks to switch to Breakthrough mode and use Charged Attacks."
-            },
-            {
-              "id": "gi-wpn-224002",
-              "name": "Ashamez's Thunder",
-              "kind": "weapon",
-              "art": "../../Database/GameData/gi/assets/weapons/icons/UI_EquipIcon_AssaultRifle_Fulmen.webp",
-              "fields": {
-                "rarity": "4 \u2605",
-                "type": "ITEM_TPS_WEAPON"
-              },
-              "text": "An assault rifle that can switch Normal Attacks to Chain Lightning mode, allowing you to lock onto and track targets."
-            },
-            {
-              "id": "gi-wpn-224003",
-              "name": "Balsag's Sunwheel",
-              "kind": "weapon",
-              "art": "../../Database/GameData/gi/assets/weapons/icons/UI_EquipIcon_GrenadeLauncher_Ignis.webp",
-              "fields": {
-                "rarity": "4 \u2605",
-                "type": "ITEM_TPS_WEAPON"
-              },
-              "text": "A grenade launcher that can cycle between Pyro, Hydro, and Cryo as the current grenade Elemental Type."
-            },
-            {
-              "id": "gi-wpn-224004",
-              "name": "Frag Crystal - Pyro",
-              "kind": "weapon",
-              "art": "../../Database/GameData/gi/assets/weapons/icons/UI_EquipIcon_Grenade_Fire.webp",
-              "fields": {
-                "rarity": "4 \u2605",
-                "type": "ITEM_TPS_WEAPON"
-              },
-              "text": "Tactical throwable that can deal AoE Pyro DMG."
-            },
-            {
-              "id": "gi-wpn-224005",
-              "name": "Frag Crystal - Hydro",
-              "kind": "weapon",
-              "art": "../../Database/GameData/gi/assets/weapons/icons/UI_EquipIcon_Grenade_Water.webp",
-              "fields": {
-                "rarity": "4 \u2605",
-                "type": "ITEM_TPS_WEAPON"
-              },
-              "text": "Tactical throwable that can deal AoE Hydro DMG."
-            },
-            {
-              "id": "gi-wpn-224006",
-              "name": "Frag Crystal - Electro",
-              "kind": "weapon",
-              "art": "../../Database/GameData/gi/assets/weapons/icons/UI_EquipIcon_Grenade_Electric.webp",
-              "fields": {
-                "rarity": "4 \u2605",
-                "type": "ITEM_TPS_WEAPON"
-              },
-              "text": "Tactical throwable that can deal AoE Electro DMG."
-            },
-            {
-              "id": "gi-wpn-224007",
-              "name": "Frag Crystal - Cryo",
-              "kind": "weapon",
-              "art": "../../Database/GameData/gi/assets/weapons/icons/UI_EquipIcon_Grenade_Ice.webp",
-              "fields": {
-                "rarity": "4 \u2605",
-                "type": "ITEM_TPS_WEAPON"
-              },
-              "text": "Tactical throwable that can deal AoE Cryo DMG."
-            },
-            {
-              "id": "gi-wpn-224008",
-              "name": "Specialized Frag Crystals within the Shadow Realm",
-              "kind": "weapon",
-              "art": "../../Database/Shared/database-fallbacks/gi.svg",
-              "fields": {
-                "rarity": "4 \u2605",
-                "type": "ITEM_TPS_WEAPON"
-              },
-              "text": "Tactical throwable that can deal massive damage to Shadow Realm constructs",
-              "artStatus": "intentional-fallback",
-              "artSource": "neutral-database-placeholder"
-            },
-            {
               "id": "gi-wpn-310001",
               "name": "Serpent Devourer",
               "kind": "weapon",
@@ -5424,13 +5652,13 @@ var NYX_DB = {
         "name": "Genshin Impact",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-08-13T10:46:00.184Z",
-          "lastSuccessfulFetch": "2026-08-13T10:46:00.184Z",
-          "lastValidUpdate": "2026-08-13T10:46:00.184Z",
+          "checkedAt": "2026-08-13T13:21:44.402Z",
+          "lastSuccessfulFetch": "2026-08-13T13:21:44.402Z",
+          "lastValidUpdate": "2026-08-13T13:21:44.402Z",
           "source": "game8"
         },
         "current": {
-          "phase": "7.0",
+          "phase": "7.0 Phase 1",
           "start": "2026-08-12T03:00:00.000Z",
           "end": "2026-09-01T09:59:59.000Z",
           "characters": [
@@ -5523,7 +5751,131 @@ var NYX_DB = {
           ],
           "subBanners": []
         },
-        "upcoming": []
+        "upcoming": [],
+        "beta": [
+          {
+            "name": "Vesna",
+            "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Vesna_Circle.webp",
+            "iconFallback": null,
+            "iconZoom": false,
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Vesna.webp",
+            "namecard": null,
+            "rarity": 5,
+            "debut": true,
+            "debutAt": null
+          },
+          {
+            "name": "Vodyanitsa",
+            "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Vodyanitsa_Circle.webp",
+            "iconFallback": null,
+            "iconZoom": false,
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Vodyanitsa.webp",
+            "namecard": null,
+            "rarity": 5,
+            "debut": true,
+            "debutAt": null
+          }
+        ],
+        "roadmap": [
+          {
+            "name": "Vesna",
+            "icon": "/assets/banners/genshin/0337246ce778ffd2dbd49ef89e98c850.png",
+            "iconFallback": null,
+            "iconZoom": false,
+            "art": "/assets/banners/genshin/0337246ce778ffd2dbd49ef89e98c850.png",
+            "namecard": null,
+            "rarity": 5,
+            "debut": true,
+            "debutAt": null,
+            "hint": "Characters from Official Channels",
+            "source": "game8",
+            "sourceUrl": "https://game8.co/games/Genshin-Impact/archives/307054"
+          },
+          {
+            "name": "Vodyanitsa",
+            "icon": "/assets/banners/genshin/32d0b3910929f0da9a9a16dfc0f9ea9a.png",
+            "iconFallback": null,
+            "iconZoom": false,
+            "art": "/assets/banners/genshin/32d0b3910929f0da9a9a16dfc0f9ea9a.png",
+            "namecard": null,
+            "rarity": 5,
+            "debut": true,
+            "debutAt": null,
+            "hint": "Characters Mentioned In-Game",
+            "source": "game8",
+            "sourceUrl": "https://game8.co/games/Genshin-Impact/archives/307054"
+          },
+          {
+            "name": "Mitya",
+            "icon": "/assets/banners/genshin/3d32eb837a594869e0ed4232ddfeeb3f.png",
+            "iconFallback": null,
+            "iconZoom": false,
+            "art": "/assets/banners/genshin/3d32eb837a594869e0ed4232ddfeeb3f.png",
+            "namecard": null,
+            "rarity": null,
+            "debut": true,
+            "debutAt": null,
+            "hint": "Characters from Official Channels",
+            "source": "game8",
+            "sourceUrl": "https://game8.co/games/Genshin-Impact/archives/307054"
+          },
+          {
+            "name": "Valeriy",
+            "icon": "/assets/banners/genshin/897e0023c986e263f0ac1a17e34d0b14.png",
+            "iconFallback": null,
+            "iconZoom": false,
+            "art": "/assets/banners/genshin/897e0023c986e263f0ac1a17e34d0b14.png",
+            "namecard": null,
+            "rarity": null,
+            "debut": true,
+            "debutAt": null,
+            "hint": "Characters from Official Channels",
+            "source": "game8",
+            "sourceUrl": "https://game8.co/games/Genshin-Impact/archives/307054"
+          },
+          {
+            "name": "The Tsaritsa Anastasya Feodorovna Snezhnaya",
+            "icon": "/assets/banners/genshin/cdefdbb52093ca1327576623c156a77e.png",
+            "iconFallback": null,
+            "iconZoom": false,
+            "art": "/assets/banners/genshin/cdefdbb52093ca1327576623c156a77e.png",
+            "namecard": null,
+            "rarity": null,
+            "debut": true,
+            "debutAt": null,
+            "hint": "Characters Mentioned In-Game",
+            "source": "game8",
+            "sourceUrl": "https://game8.co/games/Genshin-Impact/archives/307054"
+          },
+          {
+            "name": "Danica",
+            "icon": "/assets/banners/genshin/b289e61a8574531fb41e42073bafa9f1.png",
+            "iconFallback": null,
+            "iconZoom": false,
+            "art": "/assets/banners/genshin/b289e61a8574531fb41e42073bafa9f1.png",
+            "namecard": null,
+            "rarity": null,
+            "debut": true,
+            "debutAt": null,
+            "hint": "Characters from Official Channels",
+            "source": "game8",
+            "sourceUrl": "https://game8.co/games/Genshin-Impact/archives/307054"
+          },
+          {
+            "name": "Noy",
+            "icon": "/assets/banners/genshin/c234b9b143af0e8200c8183ad61c2d8f.png",
+            "iconFallback": null,
+            "iconZoom": false,
+            "art": "/assets/banners/genshin/c234b9b143af0e8200c8183ad61c2d8f.png",
+            "namecard": null,
+            "rarity": null,
+            "debut": true,
+            "debutAt": null,
+            "hint": "Characters from Official Channels",
+            "source": "game8",
+            "sourceUrl": "https://game8.co/games/Genshin-Impact/archives/307054"
+          }
+        ]
       },
       "tcg": {
         "updated": "2026-08-08T06:06:45.912Z",
@@ -112315,6 +112667,12178 @@ var NYX_DB = {
             "artStatus": "intentional-fallback",
             "artSource": "neutral-database-placeholder"
           }
+        ],
+        "blueprints": [
+          {
+            "id": "394847",
+            "name": "\"Dancing Beneath Silver-White Wings\"",
+            "description": "A detailed step-by-step blueprint for making \"Dancing Beneath Silver-White Wings.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394843",
+            "name": "Moon Envoy of Silver Radiance",
+            "description": "A detailed step-by-step blueprint for making \"Moon Envoy of Silver Radiance.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394842",
+            "name": "Infinite Recursion Formula",
+            "description": "A detailed step-by-step blueprint for making \"Infinite Recursion Formula.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394837",
+            "name": "\"Miniature Stonecraft\"",
+            "description": "A detailed step-by-step blueprint for making \"Miniature Stonecraft\".\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394831",
+            "name": "\"All Fangs and Snarls\"",
+            "description": "A detailed step-by-step blueprint for making \"All Fangs and Snarls.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394823",
+            "name": "Jumbo Sparks 'n' Splash Statue",
+            "description": "A detailed step-by-step blueprint for making \"Jumbo Sparks 'n' Splash Statue.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394818",
+            "name": "Dragon on the Move",
+            "description": "A detailed step-by-step blueprint for making \"Dragon on the Move.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394816",
+            "name": "Master Weaselmind",
+            "description": "A detailed step-by-step blueprint for making \"Master Weaselmind.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394815",
+            "name": "Gourmet Bandit",
+            "description": "A detailed step-by-step blueprint for making \"Gourmet Bandit.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394814",
+            "name": "Little Finchie",
+            "description": "A detailed step-by-step blueprint for making \"Little Finchie.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394810",
+            "name": "Loafing Kitty",
+            "description": "A detailed step-by-step blueprint for making a \"Loafing Kitty.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394809",
+            "name": "Porky-Worky Chef",
+            "description": "A detailed step-by-step blueprint for making a \"Porky-Worky Chef.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394803",
+            "name": "Dance-Off Stage: \"Revelrous Rhythm\"",
+            "description": "A detailed step-by-step blueprint for making a Dance-Off Stage: \"Revelrous Rhythm\".\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394800",
+            "name": "Sir Capy of the Long Incisors",
+            "description": "A detailed step-by-step blueprint for making a \"Sir Capy of the Long Incisors.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394666",
+            "name": "Small \"Gauge-Panel\" Control Console",
+            "description": "A detailed step-by-step blueprint for making a Small \"Gauge-Panel\" Control Console.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394665",
+            "name": "Prime Ice Ore: \"Neatly Arrayed\"",
+            "description": "A detailed step-by-step blueprint for making a Prime Ice Ore: \"Neatly Arrayed.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394664",
+            "name": "Portable Small Heating Device",
+            "description": "A detailed step-by-step blueprint for making a Portable Small Heating Device.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394663",
+            "name": "\"Sturdy as Solid Ice\"",
+            "description": "A detailed step-by-step blueprint for making \"Sturdy as Solid Ice.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394662",
+            "name": "Basic Tent: \"A Nap Beneath the Snow\"",
+            "description": "A detailed step-by-step blueprint for making a Simple Basic Tent: \"A Nap Beneath the Snow.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394661",
+            "name": "Basic Transport Sled",
+            "description": "A detailed step-by-step blueprint for making a Basic Transport Sled.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394660",
+            "name": "Signalless Tower",
+            "description": "A detailed step-by-step blueprint for making \"Signalless Tower.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394659",
+            "name": "Medium Metal Scrap Barrel",
+            "description": "A detailed step-by-step blueprint for making \"Medium Metal Scrap Barrel.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394658",
+            "name": "Medium Cargo Crate: Basic Supplies",
+            "description": "A detailed step-by-step blueprint for making \"Medium Cargo Crate: Basic Supplies.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394657",
+            "name": "Large Cargo Crate: Reliable Support",
+            "description": "A detailed step-by-step blueprint for making \"Large Cargo Crate: Reliable Support.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394656",
+            "name": "Vessel of the Past",
+            "description": "A detailed step-by-step blueprint for making \"Vessel of the Past.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394655",
+            "name": "Nasha Stall: Deep-Rooted Traditions",
+            "description": "A detailed step-by-step blueprint for making a \"Nasha Stall: Deep-Rooted Traditions.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394651",
+            "name": "\"Blooming Splendor\"",
+            "description": "A detailed step-by-step blueprint for making \"Blooming Splendor.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394650",
+            "name": "\"Crimson Flow\"",
+            "description": "A detailed step-by-step blueprint for making \"Crimson Flow.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394649",
+            "name": "Town Noticeboard: \"Odds, Ends, and Everything Between\"",
+            "description": "A detailed step-by-step blueprint for making a Town Noticeboard: \"Odds, Ends, and Everything Between.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394648",
+            "name": "Pavilion of Hidden Treasures",
+            "description": "A detailed step-by-step blueprint for making \"Pavilion of Hidden Treasures.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394647",
+            "name": "\"Shimmer of Life\"",
+            "description": "A detailed step-by-step blueprint for making \"Shimmer of Life.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394644",
+            "name": "\"Lightkeepers' Moving Lighthouse\"",
+            "description": "A detailed step-by-step blueprint for making \"Lightkeepers' Moving Lighthouse.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394643",
+            "name": "Simple Weapon Rack: \"Easy Access\"",
+            "description": "A detailed step-by-step blueprint for making Simple Weapon Rack: \"Easy Access.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394642",
+            "name": "\"Command With Confidence\"",
+            "description": "A detailed step-by-step blueprint for making \"Command With Confidence.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394641",
+            "name": "Vertical Bipolar Tri-Leg Tower",
+            "description": "A detailed step-by-step blueprint for making \"Vertical Bipolar Tri-Leg Tower.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394640",
+            "name": "Wobbly Pony Ride",
+            "description": "A detailed step-by-step blueprint for making \"Wobbly Pony Ride.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394639",
+            "name": "Grillmaster Supreme",
+            "description": "A detailed step-by-step blueprint for making \"Grillmaster Supreme.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394637",
+            "name": "One-Sec Whiz",
+            "description": "A detailed step-by-step blueprint for making \"One-Sec Whiz.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394636",
+            "name": "Puzzlepal: \"Keep Calm and Carry On\"",
+            "description": "A detailed step-by-step blueprint for making a Puzzlepal: \"Keep Calm and Carry on.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394633",
+            "name": "Medium Cargo Hold: Swift Transport",
+            "description": "A detailed step-by-step blueprint for making a Medium Cargo Hold: Swift Transport.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394632",
+            "name": "Little Round-Belly",
+            "description": "A detailed step-by-step blueprint for making \"Little Round-Belly.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394631",
+            "name": "Mechanical Figurine: Flash of Inspiration",
+            "description": "A detailed step-by-step blueprint for making a Mechanical Figurine: Flash of Inspiration.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394628",
+            "name": "Fly Higher Together",
+            "description": "A detailed step-by-step blueprint for making \"Fly Higher Together.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394627",
+            "name": "Fizzy Fireworks",
+            "description": "A detailed step-by-step blueprint for making Fizzy Fireworks.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394626",
+            "name": "Grainfruit Puffer",
+            "description": "A detailed step-by-step blueprint for making a \"Grainfruit Puffer.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394625",
+            "name": "Storage 101",
+            "description": "A detailed step-by-step blueprint for making a \"Storage 101.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394624",
+            "name": "Barbell Rack: Heftiest Load",
+            "description": "A detailed step-by-step blueprint for making a \"Barbell Rack: Heftiest Load.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394623",
+            "name": "Saurian's Might",
+            "description": "A detailed step-by-step blueprint for making a \"Saurian's Might.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394622",
+            "name": "Paddock Straw Mattress: Makeshift Bed",
+            "description": "A detailed step-by-step blueprint for making a Paddock Straw Mattress: Makeshift Bed.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394621",
+            "name": "Paddock Millstone: Perfect Prep Companion",
+            "description": "A detailed step-by-step blueprint for making a Paddock Millstone: Perfect Prep Companion.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394620",
+            "name": "By Cinder City's Glowing Light",
+            "description": "A detailed step-by-step blueprint for making \"By Cinder City's Glowing Light.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394619",
+            "name": "Promise of Abundance",
+            "description": "A detailed step-by-step blueprint for making \"Promise of Abundance.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394618",
+            "name": "Secrets of Good Health",
+            "description": "A detailed step-by-step blueprint for making \"Secrets of Good Health.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394617",
+            "name": "Fair's Treasures and Trinkets",
+            "description": "A detailed step-by-step blueprint for making \"Fair's Treasures and Trinkets.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394616",
+            "name": "Bear Witness",
+            "description": "A detailed step-by-step blueprint for making \"Bear Witness.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394615",
+            "name": "Forever in Arms",
+            "description": "A detailed step-by-step blueprint for making \"Forever in Arms.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394614",
+            "name": "Our Destination",
+            "description": "A detailed step-by-step blueprint for making \"Our Destination.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394613",
+            "name": "\"The Embers of Cinder City\"",
+            "description": "A detailed step-by-step blueprint for making \"The Embers of Cinder City.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394612",
+            "name": "Wooden Target: Training Regimen",
+            "description": "A detailed step-by-step blueprint for making a \"Wooden Target: Training Regimen.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394611",
+            "name": "Tezcatepetonco Fence: Path of Discovery",
+            "description": "A detailed step-by-step blueprint for making a \"Tezcatepetonco Fence: Path of Discovery.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394610",
+            "name": "Tezcatepetonco Fence: Sun's Journey",
+            "description": "A detailed step-by-step blueprint for making a \"Tezcatepetonco Fence: Sun's Journey.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394609",
+            "name": "\"Way to the Extreme\"",
+            "description": "A detailed step-by-step blueprint for making \"Way to the Extreme.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394608",
+            "name": "\"Tailored Courier Service\"",
+            "description": "A detailed step-by-step blueprint for making \"Tailored Courier Service.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394607",
+            "name": "\"Courier's Timely Dispatch\"",
+            "description": "A detailed step-by-step blueprint for making \"Courier's Timely Dispatch.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394606",
+            "name": "\"Riding the Inferno\"",
+            "description": "A detailed step-by-step blueprint for making \"Riding the Inferno.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394605",
+            "name": "\"Mega-Mighty Boulder Breaker\"",
+            "description": "A detailed step-by-step blueprint for making \"Mega-Mighty Boulder Breaker.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394604",
+            "name": "Schedule-Abiding Train Station Sign",
+            "description": "A detailed step-by-step blueprint for making a \"Schedule-Abiding Train Station Sign.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394603",
+            "name": "Easy Breezy Shelter Canopy",
+            "description": "A detailed step-by-step blueprint for making an \"Easy Breezy Shelter Canopy.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394602",
+            "name": "Sword-Bearing Statue: \"Aesthetics of Incompleteness\"",
+            "description": "A detailed step-by-step blueprint for making Sword-Bearing Statue: \"Aesthetics of Incompleteness.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394601",
+            "name": "Sword-Bearing Statue: \"Eternal Watch\"",
+            "description": "A detailed step-by-step blueprint for making Sword-Bearing Statue: \"Eternal Watch.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394507",
+            "name": "Blanket of Stars",
+            "description": "A detailed step-by-step blueprint for making a Blanket of Stars.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394506",
+            "name": "Tearstone Tile: Perspective Theory",
+            "description": "A detailed step-by-step blueprint for making a Tearstone Tile: Perspective Theory.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394505",
+            "name": "Foundations of Stone: Grand Design",
+            "description": "A detailed step-by-step blueprint for making \"Foundations of Stone: Grand Design.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394504",
+            "name": "Of Fields Green: Cookie Road",
+            "description": "A detailed step-by-step blueprint for making Of Fields Green: Cookie Road.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394503",
+            "name": "Foundations of Stone: Double-Time",
+            "description": "A detailed step-by-step blueprint for making \"Foundations of Stone: Double-Time.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394502",
+            "name": "Foundations of Stone: Timely Arrival",
+            "description": "A detailed step-by-step blueprint for making \"Foundations of Stone: Timely Arrival.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394501",
+            "name": "Foundations of Stone: Path of Cultivation",
+            "description": "A detailed step-by-step blueprint for making \"Foundations of Stone: Path of Cultivation.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394404",
+            "name": "\"The Blue Ocean's Treasure\"",
+            "description": "A detailed step-by-step blueprint for making \"The Blue Ocean's Treasures.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394403",
+            "name": "\"Cradle of Flowers\"",
+            "description": "A detailed step-by-step blueprint for making a \"Cradle of Flowers.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394402",
+            "name": "Crude Double-Decker Pallet",
+            "description": "A detailed step-by-step blueprint for making a Crude Double-Decker Pallet.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394401",
+            "name": "Wine Shop Display Counter: To Your Heart's Content",
+            "description": "A detailed step-by-step blueprint for making a Wine Shop Display Counter: To Your Heart's Content.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394334",
+            "name": "\"Useless Advice\"",
+            "description": "A detailed step-by-step blueprint for making \"Useless Advice.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394332",
+            "name": "\"Warm and Cozy\"",
+            "description": "A detailed step-by-step blueprint for making \"Warm and Cozy.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394331",
+            "name": "Leisurely Feast",
+            "description": "A detailed step-by-step blueprint for making \"Leisurely Feast.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394330",
+            "name": "Silver Fir Wood Round Low Table",
+            "description": "A detailed step-by-step blueprint for making a Silver Fir Wood Round Low Table.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394329",
+            "name": "Rusty Sheet-Metal Workbench",
+            "description": "A detailed step-by-step blueprint for making a Rusty Sheet-Metal Workbench.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394328",
+            "name": "Fair Table: Uncut Original",
+            "description": "A detailed step-by-step blueprint for making a \"Fair Table: Uncut Original.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394327",
+            "name": "White Chestnut Oak Wood \"Raw Finish\" Low Table",
+            "description": "A detailed step-by-step blueprint for making a White Chestnut Oak Wood \"Raw Finish\" Low Table.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394326",
+            "name": "\"Compact Long Table: Courier's Edition\"",
+            "description": "A detailed step-by-step blueprint for making \"Compact Long Table: Courier's Edition.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394325",
+            "name": "Joyous Forest Party",
+            "description": "A detailed step-by-step blueprint for making a \"Joyous Forest Party.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394324",
+            "name": "Mallow Wood Round Table: \"A Shared Drink\"",
+            "description": "A detailed step-by-step blueprint for making a Mallow Wood Round Table: \"A Shared Drink.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394323",
+            "name": "Mallow Wood Long Table: \"Engraved Memories\"",
+            "description": "A detailed step-by-step blueprint for making a Mallow Wood Long Table: \"Engraved Memories.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394322",
+            "name": "Tea Village Stone Table: Cultured Leisure",
+            "description": "A detailed step-by-step blueprint for making a Tea Village Stone Table: Cultured Leisure.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394321",
+            "name": "Square Tea Table: Friendly Welcome",
+            "description": "A detailed step-by-step blueprint for making Square Tea Table: Friendly Welcome.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394320",
+            "name": "Production Rack: Custom Build",
+            "description": "A detailed step-by-step blueprint for making a Production Rack: Custom Build.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394319",
+            "name": "Production Rack: The Basics",
+            "description": "A detailed step-by-step blueprint for making a Production Rack: The Basics.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394318",
+            "name": "Passage's Pristine Round Table",
+            "description": "A detailed step-by-step blueprint for making a Passage's Pristine Round Table.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprints",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394317",
+            "name": "Karmaphala Display Table",
+            "description": "A detailed step-by-step blueprint for making a Karmaphala Display Table.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394316",
+            "name": "Pear Orchard Accessory: Attend and Listen",
+            "description": "A detailed step-by-step blueprint for making a Pear Orchard Accessory: Attend and Listen.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394315",
+            "name": "Pear Orchard Seat: Of Tunes and Fragrant Tea",
+            "description": "A detailed step-by-step blueprint for making a Pear Orchard Seat: Of Tunes and Fragrant Tea.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394313",
+            "name": "Otogi \"Rakushi\" Square Table",
+            "description": "A detailed step-by-step blueprint for making an Otogi \"Rakushi\" Square Table.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394312",
+            "name": "Long Yumemiru Table",
+            "description": "A detailed step-by-step blueprint for making a Long Yumemiru Table.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394311",
+            "name": "Googol Table",
+            "description": "A detailed step-by-step blueprint for making a Googol Table.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394310",
+            "name": "\"Summer Forest Banquet\"",
+            "description": "A detailed step-by-step blueprint for making \"Summer Forest Banquet.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394309",
+            "name": "Wooden Outdoor Tea Table",
+            "description": "A detailed step-by-step blueprint for making a Wooden Outdoor Tea Table.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394308",
+            "name": "Bamboo Outdoor Tea Table",
+            "description": "A detailed step-by-step blueprint for making a Bamboo Outdoor Tea Table.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394307",
+            "name": "Two-Tier Vendor's Booth: Rising Fortunes",
+            "description": "A detailed step-by-step blueprint for making a Two-Tier Vendor's Booth: Rising Fortunes.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394306",
+            "name": "Alchemist's Crafting Bench",
+            "description": "A detailed step-by-step blueprint for making an Alchemist's Crafting Bench.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394305",
+            "name": "Large Stone Mill",
+            "description": "A detailed step-by-step blueprint for making a Large Stone Mill.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394304",
+            "name": "Long Pine Table",
+            "description": "A detailed step-by-step blueprint for making a Long Pine Table.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394303",
+            "name": "Heavy Fir Forging Table",
+            "description": "A detailed step-by-step blueprint for making a Heavy Fir Forging Table.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394302",
+            "name": "Doorless Pine Cupboard",
+            "description": "A detailed step-by-step blueprint for making a Doorless Pine Cupboard.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394301",
+            "name": "Two-Story Hilichurl Sentry Tower",
+            "description": "A detailed step-by-step blueprint for making a Two-Story Hilichurl Sentry Tower.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394225",
+            "name": "\"The Lingering Warmth of the Wait\"",
+            "description": "A detailed step-by-step blueprint for making \"The Lingering Warmth of the Wait.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394224",
+            "name": "Station Bench: \"Reading Between Trains\"",
+            "description": "A detailed step-by-step blueprint for making a Station Bench: \"Reading Between Trains.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394223",
+            "name": "\"Echoes of Silence\"",
+            "description": "A detailed step-by-step blueprint for making \"Echoes of Silence.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394222",
+            "name": "Dining Bench: Steadfast",
+            "description": "A detailed step-by-step blueprint for making a Dining Bench: Steadfast.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394221",
+            "name": "Pedunculate Oak Wood \"Moonward\" Backed Chair",
+            "description": "A detailed step-by-step blueprint for making a Pedunculate Oak Wood \"Moonward\" Backed Chair.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394220",
+            "name": "Warmth Shared With Friends",
+            "description": "A detailed step-by-step blueprint for making \"Warmth Shared With Friends.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394219",
+            "name": "Deckchair: Healthy Glow",
+            "description": "A detailed step-by-step blueprint for making a Deckchair: Healthy Glow.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394218",
+            "name": "Night-Wind Stone Stool: Harmonious Unity",
+            "description": "A detailed step-by-step blueprint for making a Night-Wind Stone Stool: Harmonious Unity.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394217",
+            "name": "\"Aligned\" Volcanic Stone Stool",
+            "description": "A detailed step-by-step blueprint for making an \"'Aligned' Volcanic Stone Stool.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394216",
+            "name": "\"Surging Harmonies of the Springs\"",
+            "description": "A detailed step-by-step blueprint for making \"Surging Harmonies of the Springs.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394215",
+            "name": "\"Azure Gem of the Springs\"",
+            "description": "A detailed step-by-step blueprint for making \"Azure Gem of the Springs.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394214",
+            "name": "Mallow Wood Chair: \"E-Z Fold\"",
+            "description": "A detailed step-by-step blueprint for making a Mallow Wood Chair: \"E-Z Fold.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394213",
+            "name": "Mallow Wood Bench: \"Hidden Melody\"",
+            "description": "A detailed step-by-step blueprint for making a Mallow Wood Bench: \"Hidden Melody.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394212",
+            "name": "\"Tea Village Stone Bench: Safe, Spacious, Sturdy\"",
+            "description": "A detailed step-by-step blueprint for making a \"Tea Village Stone Bench: Safe, Spacious, Sturdy.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394211",
+            "name": "Tea Chair: Cool Breeze",
+            "description": "A detailed step-by-step blueprint for making Tea Chair: Cool Breeze.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394210",
+            "name": "Passage's Evening Ensemble",
+            "description": "A detailed step-by-step blueprint for making a Passage's Evening Ensemble.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprints",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394209",
+            "name": "Passage's Languid Lifestyle",
+            "description": "A detailed step-by-step blueprint for making a Passage's Languid Lifestyle.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprints",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394208",
+            "name": "\"Deadline? What Deadline?\" Director's Chair",
+            "description": "A detailed step-by-step blueprint for making a \"Deadline? What Deadline?\" Director's Chair.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394207",
+            "name": "Pear Orchard Seat: Gathered in Joy",
+            "description": "A detailed step-by-step blueprint for making a Pear Orchard Seat: Gathered in Joy.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394205",
+            "name": "Otogi \"Rakushi\" Square Stool",
+            "description": "A detailed step-by-step blueprint for making an Otogi \"Rakushi\" Square Stool.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394204",
+            "name": "Square Yumemiru Stool",
+            "description": "A detailed step-by-step blueprint for making a Square Yumemiru Stool.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394203",
+            "name": "Googol Chair",
+            "description": "A detailed step-by-step blueprint for making a Googol Chair.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394202",
+            "name": "Smooth Stone Bench",
+            "description": "A detailed step-by-step blueprint for making a Smooth Stone Bench.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394201",
+            "name": "Smooth Wooden Bench",
+            "description": "A detailed step-by-step blueprint for making a Smooth Wooden Bench.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394131",
+            "name": "\"Temple Openwork Railing\"",
+            "description": "A detailed step-by-step blueprint for making a Temple Openwork Railing.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394130",
+            "name": "Town Railing: Blue, Blue Waves",
+            "description": "A detailed step-by-step blueprint for making a Town Railing: Blue, Blue Waves.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394129",
+            "name": "Town Railing: Convenient Bench",
+            "description": "A detailed step-by-step blueprint for making a Town Railing: Convenient Bench.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394128",
+            "name": "Uncertain Boundaries",
+            "description": "A detailed step-by-step blueprint for making \"Uncertain Boundaries.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394127",
+            "name": "Land of Plenty's Bounds",
+            "description": "A detailed step-by-step blueprint for making a \"Land of Plenty's Bounds.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394126",
+            "name": "Paddock Gate: Foundational Framework",
+            "description": "A detailed step-by-step blueprint for making a Paddock Gate: Foundational Framework.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394125",
+            "name": "Paddock Fence: Simple Boundary",
+            "description": "A detailed step-by-step blueprint for making a Paddock Fence: Simple Boundary.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394124",
+            "name": "\"Tether at the Summit of Quahuacan Cliff\"",
+            "description": "A detailed step-by-step blueprint for making a \"Tether at the Summit of Quahuacan Cliff.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394123",
+            "name": "\"Balustrade of the Springs\"",
+            "description": "A detailed step-by-step blueprint for making \"Balustrade of the Springs.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394122",
+            "name": "\"Hanging Post of Coatepec Mountain\"",
+            "description": "A detailed step-by-step blueprint for making \"Hanging Post of Coatepec Mountain.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394121",
+            "name": "\"Tequemecan Stronghold\"",
+            "description": "A detailed step-by-step blueprint for making \"Tequemecan Stronghold.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394120",
+            "name": "Garden Stellar Musical Pillar",
+            "description": "A detailed step-by-step blueprint for making a \"Garden Stellar Musical Pillar.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394119",
+            "name": "Gate of Stars",
+            "description": "A detailed step-by-step blueprint for making a \"Gate of Stars.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394118",
+            "name": "Window to Prophecy",
+            "description": "A detailed step-by-step blueprint for making a \"Window to Prophecy.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394117",
+            "name": "Primordial Forest Beauty",
+            "description": "A detailed step-by-step blueprint for making a \"Primordial Forest Beauty.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394116",
+            "name": "Mallow Wood Fence: \"Tides\"",
+            "description": "A detailed step-by-step blueprint for making a Mallow Wood Fence: \"Tides.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394115",
+            "name": "Mallow Wood Doorframe: \"Gentle Melody\"",
+            "description": "A detailed step-by-step blueprint for making a Mallow Wood Doorframe: \"Gentle Melody.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394114",
+            "name": "Standard Railing: Scattered Structure",
+            "description": "A detailed step-by-step blueprint for making a Standard Railing: Scattered Structure.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394113",
+            "name": "Standard Railing: Order and Symmetry",
+            "description": "A detailed step-by-step blueprint for making a Standard Railing: Order and Symmetry.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394112",
+            "name": "Court of Justice's Barrier",
+            "description": "A detailed step-by-step blueprint for making a \"Court of Justice's Barrier.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprints",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394111",
+            "name": "\"Sanzai\" Otogi Flower Terrace",
+            "description": "A detailed step-by-step blueprint for making a \"Sanzai\" Otogi Flower Terrace.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394110",
+            "name": "\"Kyuukou\" Otogi Flower Terrace",
+            "description": "A detailed step-by-step blueprint for making a \"Kyuukou\" Otogi Flower Terrace.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394109",
+            "name": "The Fruit Farmer's Thrift",
+            "description": "A detailed step-by-step blueprint for making \"The Fruit Farmer's Thrift.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394108",
+            "name": "Half-Constructed Fence",
+            "description": "A detailed step-by-step blueprint for making a Half-Constructed Fence.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394107",
+            "name": "Simple Wooden Fence",
+            "description": "A detailed step-by-step blueprint for making a Simple Wooden Fence.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394106",
+            "name": "Newly Grown Grapevines",
+            "description": "A detailed step-by-step blueprint for making Newly Grown Grapevines.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394105",
+            "name": "Lush Grapevine",
+            "description": "A detailed step-by-step blueprint for making a Lush Grapevine.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394104",
+            "name": "Hilichurl Totem Fence",
+            "description": "A detailed step-by-step blueprint for making a Hilichurl Totem Fence.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394103",
+            "name": "Wooden Hilichurl Fence",
+            "description": "A detailed step-by-step blueprint for making a Wooden Hilichurl Fence.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394102",
+            "name": "Sturdy Pine Fence",
+            "description": "A detailed step-by-step blueprint for making a Sturdy Pine Fence.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "394101",
+            "name": "Weathered Bamboo Fence",
+            "description": "A detailed step-by-step blueprint for making a Weathered Bamboo Fence.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393944",
+            "name": "\"Open Wide!\"",
+            "description": "A detailed step-by-step blueprint for making \"Open Wide!\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393943",
+            "name": "\"An Unmelted Home\"",
+            "description": "A detailed step-by-step blueprint for making \"An Unmelted Home.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393942",
+            "name": "\"Cherish the Present\"",
+            "description": "A detailed step-by-step blueprint for making \"Cherish the Present.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393941",
+            "name": "Unusable Legacy",
+            "description": "A detailed step-by-step blueprint for making \"Unusable Legacy.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393940",
+            "name": "Gentle Embrace",
+            "description": "A detailed step-by-step blueprint for making \"Gentle Embrace.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393939",
+            "name": "Utility Pocket Detector",
+            "description": "A detailed step-by-step blueprint for making \"Utility Pocket Detector.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393938",
+            "name": "Small Cargo Container: Safe Stowage",
+            "description": "A detailed step-by-step blueprint for making a Small Cargo Container: Safe Stowage.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393937",
+            "name": "Ice Cream Cutie",
+            "description": "A detailed step-by-step blueprint for making \"Ice Cream Cutie.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393936",
+            "name": "Mechanical Ornament: Waaaaah",
+            "description": "A detailed step-by-step blueprint for making a Mechanical Ornament: Waaaaah.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393935",
+            "name": "Mechanical Ornament: Beep-Bop",
+            "description": "A detailed step-by-step blueprint for making a Mechanical Ornament: Beep-Bop.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393934",
+            "name": "Fixed Torch: Extremity",
+            "description": "A detailed step-by-step blueprint for making a \"Fixed Torch: Extremity.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393933",
+            "name": "Fixed Torch: Safeguard",
+            "description": "A detailed step-by-step blueprint for making a \"Fixed Torch: Safeguard.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393932",
+            "name": "Art of Transport",
+            "description": "A detailed step-by-step blueprint for making an \"Art of Transport.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393931",
+            "name": "Musings on Colors and Hues",
+            "description": "A detailed step-by-step blueprint for making \"Musings on Colors and Hues.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393930",
+            "name": "Spattered Colors and Hues",
+            "description": "A detailed step-by-step blueprint for making \"Spattered Colors and Hues.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393929",
+            "name": "Climax of Colors and Hues",
+            "description": "A detailed step-by-step blueprint for making \"Climax of Colors and Hues.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393928",
+            "name": "Pilgrimage by the Hammer's Blow",
+            "description": "A detailed step-by-step blueprint for making \"Pilgrimage by the Hammer's Blow.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393927",
+            "name": "Black Gold of the Blazing Realm",
+            "description": "A detailed step-by-step blueprint for making \"Black Gold of the Blazing Realm.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393926",
+            "name": "Fixed Torch: Pursuit of Victory",
+            "description": "A detailed step-by-step blueprint for making a \"Fixed Torch: Pursuit of Victory.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393925",
+            "name": "\"Famished Thoughts\"",
+            "description": "A detailed step-by-step blueprint for making \"Famished Thoughts.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393924",
+            "name": "\"Our Path\"",
+            "description": "A detailed step-by-step blueprint for making \"Our Path.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393923",
+            "name": "\"Spirituality and Sealing\"",
+            "description": "A detailed step-by-step blueprint for making \"Spirituality and Sealing.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393922",
+            "name": "\"Vessel of Purification and Calm\"",
+            "description": "A detailed step-by-step blueprint for making a \"Vessel of Purification and Calm.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393921",
+            "name": "Rope-Bound Multi-Purpose Barrel",
+            "description": "A detailed step-by-step blueprint for making a \"Rope-Bound Multi-Purpose Barrel.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393920",
+            "name": "\"The Silent Meditator\"",
+            "description": "A detailed step-by-step blueprint for making \"The Silent Meditator.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393919",
+            "name": "Clairvoyance Model: Projection Censer",
+            "description": "A detailed step-by-step blueprint for making a \"Clairvoyance Model: Projection Censer.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393918",
+            "name": "Clairvoyance Model: Spiritloom",
+            "description": "A detailed step-by-step blueprint for making a \"Clairvoyance Model: Spiritloom.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393917",
+            "name": "Model Contraption: Standard Musical Mode",
+            "description": "A detailed step-by-step blueprint for making a Model Contraption: Standard Musical Mode.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393916",
+            "name": "Mallow Wood Mailbox: \"Storage\"",
+            "description": "A detailed step-by-step blueprint for making a Mallow Wood Mailbox: \"Storage.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393915",
+            "name": "\"Tea Harvest's Sun-Dried Fragrance\"",
+            "description": "A detailed step-by-step blueprint for making a \"Tea Harvest's Sun-Dried Fragrance.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393914",
+            "name": "\"Tea Harvest's Formula for Fragrance\"",
+            "description": "A detailed step-by-step blueprint for making a \"Tea Harvest's Formula for Fragrance.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393913",
+            "name": "\"Tea Harvest's Multifunction Rack\"",
+            "description": "A detailed step-by-step blueprint for making a \"Tea Harvest's Multifunction Rack.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393912",
+            "name": "\"Tea Harvest's Fishery Inspiration\"",
+            "description": "A detailed step-by-step blueprint for making a \"Tea Harvest's Fishery Inspiration.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393911",
+            "name": "\"Tea Harvest's Stockpiling and Transport\"",
+            "description": "A detailed step-by-step blueprint for making a \"Tea Harvest's Stockpiling and Transport.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393910",
+            "name": "Speedy Wanderer",
+            "description": "A detailed step-by-step blueprint for making a \"Speedy Wanderer.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393909",
+            "name": "Fluffy Alpaca Sheriff",
+            "description": "A detailed step-by-step blueprint for making a \"Fluffy Alpaca Sheriff.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393908",
+            "name": "Ashas' Paint Drum: Rampage",
+            "description": "A detailed step-by-step blueprint for making an Ashas' Paint Drum: Rampage.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393907",
+            "name": "Wavey Shark",
+            "description": "A detailed step-by-step blueprint for making a Wavey Shark.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393905",
+            "name": "Wooden Model: \"Sun\"",
+            "description": "A detailed step-by-step blueprint for making a Wooden Model: \"Sun.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393603",
+            "name": "\"Molten Lava Pool\"",
+            "description": "A detailed step-by-step blueprint for making a \"Molten Lava Pool.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393602",
+            "name": "Shaded Clarity",
+            "description": "A detailed step-by-step blueprint for making Shaded Clarity.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393601",
+            "name": "Pool of Sapphire Grace",
+            "description": "A detailed step-by-step blueprint for making a Pool of Sapphire Grace.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393518",
+            "name": "Small Standing Glass Display Case",
+            "description": "A detailed step-by-step blueprint for making a Small Standing Glass Display Case.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393517",
+            "name": "Moonlit Quietude",
+            "description": "A detailed step-by-step blueprint for making \"Moonlit Quietude.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393516",
+            "name": "\"Courier's System of Sort and Dispatch\"",
+            "description": "A detailed step-by-step blueprint for making \"Courier's System of Sort and Dispatch.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393515",
+            "name": "Cleverly Crafted Shelf: Hot Sales Strategy",
+            "description": "A detailed step-by-step blueprint for making a Cleverly Crafted Shelf: Hot Sales Strategy.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393514",
+            "name": "Cleverly Crafted Cabinet: Regular Organization",
+            "description": "A detailed step-by-step blueprint for making a Cleverly Crafted Cabinet: Regular Organization.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393513",
+            "name": "Bookshelf: Focused Effect",
+            "description": "A detailed step-by-step blueprint for making a Bookshelf: Focused Effect.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393512",
+            "name": "Bookshelf: Speedy Browsing",
+            "description": "A detailed step-by-step blueprint for making a Bookshelf: Speedy Browsing.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393511",
+            "name": "Bookshelf: Free Reading",
+            "description": "A detailed step-by-step blueprint for making a Bookshelf: Free Reading.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393495",
+            "name": "Camp Barrier: Treatment Area",
+            "description": "A detailed step-by-step blueprint for making \"Camp Barrier: Treatment Area.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393494",
+            "name": "Little Cover",
+            "description": "A detailed step-by-step blueprint for making a Little Cover.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393493",
+            "name": "Painted Pedunculate Oak Wood Barrel",
+            "description": "A detailed step-by-step blueprint for making a Painted Pedunculate Oak Wood Barrel.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393492",
+            "name": "Twin-Handled Hanging Pot: Hot Soup",
+            "description": "A detailed step-by-step blueprint for making a Twin-Handled Hanging Pot: Hot Soup.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393491",
+            "name": "Shadow of the Frostmoon",
+            "description": "A detailed step-by-step blueprint for making \"Shadow of the Frostmoon.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393490",
+            "name": "Heavy Hooffall",
+            "description": "A detailed step-by-step blueprint for making \"Heavy Hooffall.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393488",
+            "name": "Parasol: Sand and the Sea Breeze",
+            "description": "A detailed step-by-step blueprint for making a Parasol: Sand and the Sea Breeze.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393487",
+            "name": "Journey Through Wind and Waves",
+            "description": "A detailed step-by-step blueprint for making \"Journey Through Wind and Waves.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393486",
+            "name": "Fighting Chords",
+            "description": "A detailed step-by-step blueprint for making \"Fighting Chords.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393485",
+            "name": "Film Stand: Surintendante Chevalmarin",
+            "description": "A detailed step-by-step blueprint for making a \"Film Stand: Surintendante Chevalmarin.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393484",
+            "name": "Revelrous Outburst",
+            "description": "A detailed step-by-step blueprint for making a \"Revelrous Outburst.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393483",
+            "name": "Portrait of Heroic Might",
+            "description": "A detailed step-by-step blueprint for making a \"Portrait of Heroic Might.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393477",
+            "name": "Springtime Folding Screen: Fragrance Fills the Air",
+            "description": "A detailed step-by-step blueprint for making a \"Springtime Folding Screen: Fragrance Fills the Air.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393476",
+            "name": "Springtime Folding Screen: A Touch of Red",
+            "description": "A detailed step-by-step blueprint for making a \"Springtime Folding Screen: A Touch of Red.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393475",
+            "name": "Wooden Signboard: Enchanting Experience",
+            "description": "A detailed step-by-step blueprint for making a \"Wooden Signboard: Enchanting Experience.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393474",
+            "name": "\"Tlalocan's Drawing\"",
+            "description": "A detailed step-by-step blueprint for making \"Tlalocan's Drawing.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393473",
+            "name": "\"Endless Aspiration\"",
+            "description": "A detailed step-by-step blueprint for making \"Endless Aspiration.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393472",
+            "name": "\"Tail Pouch of the Mountain Wind\"",
+            "description": "A detailed step-by-step blueprint for making a \"Tail Pouch of the Mountain Wind.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393463",
+            "name": "\"Flag of Huitztlan\"",
+            "description": "A detailed step-by-step blueprint for making \"Flag of Huitztlan.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393462",
+            "name": "\"Ceaseless Clash\"",
+            "description": "A detailed step-by-step blueprint for making \"Ceaseless Clash.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393461",
+            "name": "\"Nanatzcayan Artistry\"",
+            "description": "A detailed step-by-step blueprint for making \"Nanatzcayan Artistry.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393460",
+            "name": "Conscientious Windcatcher Sentinel",
+            "description": "A detailed step-by-step blueprint for making a \"Conscientious Windcatcher Sentinel.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393459",
+            "name": "Music Town's Breeze Bells: \"Cheeping Finches\"",
+            "description": "A detailed step-by-step blueprint for making Music Town's Breeze Bells: \"Cheeping Finches.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393458",
+            "name": "\"Crystalline Glory\"",
+            "description": "A detailed step-by-step blueprint for making \"Crystalline Glory.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393457",
+            "name": "\"Mirror-Reflection Lyre\"",
+            "description": "A detailed step-by-step blueprint for making \"Mirror-Reflection Lyre.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393456",
+            "name": "\"Hidden Serpent\"",
+            "description": "A detailed step-by-step blueprint for making \"Hidden Serpent.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393455",
+            "name": "\"Legion's Furious Horns\"",
+            "description": "A detailed step-by-step blueprint for making \"Legion's Furious Horns.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393454",
+            "name": "\"Origin of Music\"",
+            "description": "A detailed step-by-step blueprint for making \"Origin of Music.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393453",
+            "name": "Cleverly Crafted Contraption: Born in Blessed Bitterness",
+            "description": "A detailed step-by-step blueprint for making a Cleverly Crafted Contraption: Born in Blessed Bitterness.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393452",
+            "name": "Fragrant Cedar Wood Announcement Board",
+            "description": "A detailed step-by-step blueprint for making a Fragrant Cedar Wood Announcement Board.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393451",
+            "name": "Celebratory Kite: Prosperity and Wealth",
+            "description": "A detailed step-by-step blueprint for making Celebratory Kite: Prosperity and Wealth.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393450",
+            "name": "Celebratory Kite: Butterfly Dance",
+            "description": "A detailed step-by-step blueprint for making Celebratory Kite: Butterfly Dance.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393449",
+            "name": "Celebratory Kite: All's Well",
+            "description": "A detailed step-by-step blueprint for making Celebratory Kite: All's Well.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393448",
+            "name": "Celebratory Kite: Successive Prosperity",
+            "description": "A detailed step-by-step blueprint for making Celebratory Kite: Successive Prosperity.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393444",
+            "name": "Banquet Screen: Crying Swallows and Chirping Sparrows",
+            "description": "A detailed step-by-step blueprint for making Banquet Screen: Crying Swallows and Chirping Sparrows.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393443",
+            "name": "Banquet Screen: Dancing Butterflies and Leaping Fish",
+            "description": "A detailed step-by-step blueprint for making Banquet Screen: Dancing Butterflies and Leaping Fish.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393442",
+            "name": "Wushou Dance Doll: Sleepy Suanni",
+            "description": "A detailed step-by-step blueprint for making Wushou Dance Doll: Sleepy Suanni.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393441",
+            "name": "Wushou Dance Costume: Roaring Suanni",
+            "description": "A detailed step-by-step blueprint for making Wushou Dance Costume: Roaring Suanni.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393439",
+            "name": "Stone Drum: Sonic Reverberation",
+            "description": "A detailed step-by-step blueprint for making Stone Drum: Sonic Reverberation.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393436",
+            "name": "\"Poisson Door Frame\"",
+            "description": "A detailed step-by-step blueprint for making \"Poisson Door Frame.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393435",
+            "name": "Area Marker: Downward",
+            "description": "A detailed step-by-step blueprint for making an Area Marker: Downward.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393434",
+            "name": "Area Marker: Upward",
+            "description": "A detailed step-by-step blueprint for making an Area Marker: Upward.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393433",
+            "name": "\"Overburdening of the Forbidden Fortress\"",
+            "description": "A detailed step-by-step blueprint for making \"Overburdening of the Forbidden Fortress.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393432",
+            "name": "\"A Sister's Duty\"",
+            "description": "A detailed step-by-step blueprint for making \"A Sister's Duty.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393431",
+            "name": "\"Satisfying Weight\"",
+            "description": "A detailed step-by-step blueprint for making the \"Satisfying Weight.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393430",
+            "name": "\"Good Stuff Is for Sharing!\"",
+            "description": "A detailed step-by-step blueprint for making \"Good Stuff Is for Sharing!\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393429",
+            "name": "\"Let's Play!\"",
+            "description": "A detailed step-by-step blueprint for making \"Let's Play!\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393428",
+            "name": "\"Soft Water's Voice\"",
+            "description": "A detailed step-by-step blueprint for making \"Soft Water's Voice.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393427",
+            "name": "\"Fury's Torch\"",
+            "description": "A detailed step-by-step blueprint for making a \"Fury's Torch.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393426",
+            "name": "\"Dueling Sigil\"",
+            "description": "A detailed step-by-step blueprint for making the \"Dueling Sigil.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393425",
+            "name": "\"Court of Justice's Trivia\"",
+            "description": "A detailed step-by-step blueprint for making a \"Court of Justice's Trivia.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393424",
+            "name": "\"Yet Another Discussion\"",
+            "description": "A detailed step-by-step blueprint for making \"Yet Another Discussion.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393423",
+            "name": "Linden Wood Half-Metal Announcement Board",
+            "description": "A detailed step-by-step blueprint for making a Linden Wood Half-Metal Announcement Board.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393416",
+            "name": "Aralia \"Renzou\" Street Lamp",
+            "description": "A detailed step-by-step blueprint for making an Aralia \"Renzou\" Street Lamp.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393415",
+            "name": "Simple Otogi Street Lamp",
+            "description": "A detailed step-by-step blueprint for making a Simple Otogi Street Lamp.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393414",
+            "name": "Otogi Countryside Street Lamp",
+            "description": "A detailed step-by-step blueprint for making an Otogi Countryside Street Lamp.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393413",
+            "name": "White Fish Tallow Candle: Evenlight",
+            "description": "A detailed step-by-step blueprint for making a White Fish Tallow Candle: Evenlight.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393412",
+            "name": "Yumemiru \"Juunen\" Street Lamp",
+            "description": "A detailed step-by-step blueprint for making a Yumemiru \"Juunen\" Street Lamp.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393411",
+            "name": "Yumemiru \"Kuukai\" Street Lamp",
+            "description": "A detailed step-by-step blueprint for making a Yumemiru \"Kuukai\" Street Lamp.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393410",
+            "name": "Five-Lantern Festival Gate",
+            "description": "A detailed step-by-step blueprint for making a Five-Lantern Festival Gate.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393409",
+            "name": "Otogi \"Meichuu\" Standing Lamp",
+            "description": "A detailed step-by-step blueprint for making an Otogi \"Meichuu\" Standing Lamp.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393408",
+            "name": "Whitestone \"Meichuu\" Standing Lamp",
+            "description": "A detailed step-by-step blueprint for making a Whitestone \"Meichuu\" Standing Lamp.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393407",
+            "name": "\"Three Reaches Bright\"",
+            "description": "A detailed step-by-step blueprint for making \"Three Reaches Bright.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393406",
+            "name": "Stone Lantern: Fudoumyou's Light",
+            "description": "A detailed step-by-step blueprint for making a Stone Lantern: Fudoumyou's Light.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393405",
+            "name": "Shadow Lamp: Painted Shadow",
+            "description": "A detailed step-by-step blueprint for making a Shadow Lamp: Painted Shadow.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393404",
+            "name": "Four Corners Lantern: Amity From Afar",
+            "description": "A detailed step-by-step blueprint for making a Four Corners Lantern: Amity From Afar.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393403",
+            "name": "Evil-Repelling Lantern: All-Around Lighting",
+            "description": "A detailed step-by-step blueprint for making an Evil-Repelling Lantern: All-Around Lighting.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393402",
+            "name": "Pine Street Light",
+            "description": "A detailed step-by-step blueprint for making a Pine Street Light.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393401",
+            "name": "Wrought Iron Carved Street Light",
+            "description": "A detailed step-by-step blueprint for making a Wrought Iron Carved Street Light.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393399",
+            "name": "Passage's Parasol",
+            "description": "A detailed step-by-step blueprint for making a Passage's Parasol.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprints",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393395",
+            "name": "Amusement Park Broadcast Tower",
+            "description": "A detailed step-by-step blueprint for making an Amusement Park Broadcast Tower.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393386",
+            "name": "\"Kshahrewar Flag\"",
+            "description": "A detailed step-by-step blueprint for making \"Kshahrewar Flag.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393385",
+            "name": "\"Rtawahist Flag\"",
+            "description": "A detailed step-by-step blueprint for making \"Rtawahist Flag.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393384",
+            "name": "\"Amurta Flag\"",
+            "description": "A detailed step-by-step blueprint for making \"Amurta Flag.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393383",
+            "name": "\"Haravatat Flag\"",
+            "description": "A detailed step-by-step blueprint for making \"Haravatat Flag.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393382",
+            "name": "\"Spantamad Flag\"",
+            "description": "A detailed step-by-step blueprint for making \"Spantamad Flag.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393381",
+            "name": "\"Vahumana Flag\"",
+            "description": "A detailed step-by-step blueprint for making \"Vahumana Flag.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393380",
+            "name": "Athel Wood Light Cargo Boxes",
+            "description": "A detailed step-by-step blueprint for making Athel Wood Light Cargo Boxes.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393379",
+            "name": "\"Scent of the Blazing Sun\"",
+            "description": "A detailed step-by-step blueprint for making \"Scent of the Blazing Sun.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393378",
+            "name": "\"Team Spirit\"",
+            "description": "A detailed step-by-step blueprint for making \"Team Spirit.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393377",
+            "name": "\"Petaled Shade\"",
+            "description": "A detailed step-by-step blueprint for making a \"Petaled Shade.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393376",
+            "name": "Ersatz Balloon: Bumper Shroom",
+            "description": "A detailed step-by-step blueprint for making an Ersatz Balloon: Bumper Shroom.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393375",
+            "name": "Ersatz Balloon: Spherical Squall",
+            "description": "A detailed step-by-step blueprint for making an Ersatz Balloon: Spherical Squall.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393374",
+            "name": "Ersatz Balloon: Whispering Breeze",
+            "description": "A detailed step-by-step blueprint for making an Ersatz Balloon: Whispering Breeze.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393372",
+            "name": "\"Trumpet and Firewood\"",
+            "description": "A detailed step-by-step blueprint for making a \"Trumpet and Firewood.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393371",
+            "name": "Propitious Screen: Genuine Words Travel Far",
+            "description": "A detailed step-by-step blueprint for making a Propitious Screen: Genuine Words Travel Far.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393370",
+            "name": "Propitious Screen: Overlapping Clouds Above Peaks",
+            "description": "A detailed step-by-step blueprint for making a Propitious Screen: Overlapping Clouds Above Peaks.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393369",
+            "name": "Propitious Screen: Old Songs Lingering",
+            "description": "A detailed step-by-step blueprint for making a Propitious Screen: Old Songs Lingering.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393368",
+            "name": "Propitious Screen: Instruments in the Distance",
+            "description": "A detailed step-by-step blueprint for making a Propitious Screen: Instruments in the Distance.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393367",
+            "name": "Propitious Screen: Fleet Feathers Against Emerald Waves",
+            "description": "A detailed step-by-step blueprint for making a Propitious Screen: Fleet Feathers Against Emerald Waves.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393366",
+            "name": "Propitious Screen: Fog Gathering on Smoky Mountains",
+            "description": "A detailed step-by-step blueprint for making a Propitious Screen: Fog Gathering on Smoky Mountains.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393365",
+            "name": "Tea-Break Shade",
+            "description": "A detailed step-by-step blueprint for making a \"Tea-Break Shade.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393364",
+            "name": "Karmaphala Three-Ply Noticeboard",
+            "description": "A detailed step-by-step blueprint for making a Karmaphala Three-Ply Noticeboard.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393363",
+            "name": "A Mellow Voice",
+            "description": "A detailed step-by-step blueprint for making \"A Mellow Voice.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393362",
+            "name": "An Elegant Voice",
+            "description": "A detailed step-by-step blueprint for making \"An Elegant Voice.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393361",
+            "name": "The Eremites' Fame",
+            "description": "A detailed step-by-step blueprint for making the Eremites' Fame.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393360",
+            "name": "The Eremites' Odyssey",
+            "description": "A detailed step-by-step blueprint for making the Eremites' Odyssey.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393359",
+            "name": "Steel Stopper",
+            "description": "A detailed step-by-step blueprint for making a Steel Stopper.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393358",
+            "name": "Embodiment of Warfare",
+            "description": "A detailed step-by-step blueprint for making an Embodiment of Warfare.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393357",
+            "name": "The Eremites' Flame of Vigor",
+            "description": "A detailed step-by-step blueprint for making The Eremites' Flame of Vigor.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393356",
+            "name": "The Essentials",
+            "description": "A detailed step-by-step blueprint for making The Essentials.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393355",
+            "name": "Fisherman's Craftsmanship",
+            "description": "A detailed step-by-step blueprint for making a Fisherman's Craftsmanship.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393354",
+            "name": "Dodoco's Sunshade Umbrella",
+            "description": "A detailed step-by-step blueprint for making Dodoco's Sunshade Umbrella.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393353",
+            "name": "Dodoco's Collection Cupboard",
+            "description": "A detailed step-by-step blueprint for making Dodoco's Collection Cupboard.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393352",
+            "name": "Dodoco's Beach Nap",
+            "description": "A detailed step-by-step blueprint for making Dodoco's Beach Nap.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393351",
+            "name": "Dodoco's Dodo Stove",
+            "description": "A detailed step-by-step blueprint for making Dodoco's Dodo Stove.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393350",
+            "name": "Dodoco's Travel Bag",
+            "description": "A detailed step-by-step blueprint for making Dodoco's Travel Bag.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393347",
+            "name": "Pear Orchard Screen: Deft",
+            "description": "A detailed step-by-step blueprint for making a Pear Orchard Screen: Deft.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393346",
+            "name": "Pear Orchard Screen: Dexterous",
+            "description": "A detailed step-by-step blueprint for making a Pear Orchard Screen: Dexterous.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393344",
+            "name": "\"Kitsune Guuji\" Exclusive Painted Flag Banner",
+            "description": "A detailed step-by-step blueprint for making a \"Kitsune Guuji\" Exclusive Painted Flag Banner.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393343",
+            "name": "Tanuki Hugs Photo Board",
+            "description": "A detailed step-by-step blueprint for making a Tanuki Hugs Photo Board.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393339",
+            "name": "Gold-Inscribed Evil-Cleansing Banner",
+            "description": "A detailed step-by-step blueprint for making a Gold-Inscribed Evil-Cleansing Banner.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393338",
+            "name": "Rainbow Cloud Flying Satin Pole",
+            "description": "A detailed step-by-step blueprint for making Rainbow Cloud Flying Satin Pole.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393337",
+            "name": "Rainbow Lights: Lovely Night View",
+            "description": "A detailed step-by-step blueprint for making Rainbow Lights: Lovely Night View.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393333",
+            "name": "Village Well: Subterranean Secrets",
+            "description": "A detailed step-by-step blueprint for making a Village Well: Subterranean Secrets.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393332",
+            "name": "\"Henji\" Aralia Noticeboard",
+            "description": "A detailed step-by-step blueprint for making a \"Henji\" Aralia Noticeboard.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393331",
+            "name": "The Bamboo's Call",
+            "description": "A detailed step-by-step blueprint for making \"The Bamboo's Call.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393330",
+            "name": "Ancestral Sword Rack: Iron Sharpens Iron",
+            "description": "A detailed step-by-step blueprint for making an Ancestral Sword Rack: Iron Sharpens Iron.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393329",
+            "name": "Yumemiru \"Seiken\" Offering Box",
+            "description": "A detailed step-by-step blueprint for making a Yumemiru \"Seiken\" Offering Box.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393328",
+            "name": "Village Well: Underground Spring",
+            "description": "A detailed step-by-step blueprint for making a Village Well: Underground Spring.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393327",
+            "name": "Shrine Statue: \"Seirai Ward\"",
+            "description": "A detailed step-by-step blueprint for making a Shrine Statue: \"Seirai Ward.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393326",
+            "name": "Glowstone Parasol",
+            "description": "A detailed step-by-step blueprint for making a Glowstone Parasol.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393325",
+            "name": "Red-Iron Coral",
+            "description": "A detailed step-by-step blueprint for making a Red-Iron Coral.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393324",
+            "name": "Maple Wood White Kitsune",
+            "description": "A detailed step-by-step blueprint for making a Maple Wood White Kitsune.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393323",
+            "name": "Maple Wood Tanuki",
+            "description": "A detailed step-by-step blueprint for making a Maple Wood Tanuki.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393322",
+            "name": "High-Flying Fish Flag",
+            "description": "A detailed step-by-step blueprint for making a High-Flying Fish Flag.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393321",
+            "name": "Sky Kitsune Statue: Hakushin's Legacy",
+            "description": "A detailed step-by-step blueprint for making a Sky Kitsune Statue: Hakushin's Legacy.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393320",
+            "name": "Camp Barricade: Taking Sides",
+            "description": "A detailed step-by-step blueprint for making a Camp Barricade: Taking Sides.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393319",
+            "name": "Camp Bonfire: Glorious Clarity",
+            "description": "A detailed step-by-step blueprint for making a Camp Bonfire: Glorious Clarity.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393318",
+            "name": "Camp Spear-Rack: Point Break",
+            "description": "A detailed step-by-step blueprint for making a Camp Spear-Rack: Point Break.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393317",
+            "name": "Camp Bow-Rack: Fletching",
+            "description": "A detailed step-by-step blueprint for making a Camp Bow-Rack: Fletching.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393316",
+            "name": "Narukami's Banner",
+            "description": "A detailed step-by-step blueprint for making Narukami's Banner.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393315",
+            "name": "Yumemiru \"Saikyo\" Fortune Slip Hanger",
+            "description": "A detailed step-by-step blueprint for making a Yumemiru \"Saikyo\" Fortune Slip Hanger.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393313",
+            "name": "\"Witch's Chorus\"",
+            "description": "A detailed step-by-step blueprint for making the \"Witch's Chorus.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393312",
+            "name": "\"The Adventurer's Treasures\"",
+            "description": "A detailed step-by-step blueprint for making \"The Adventurer's Treasures.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393311",
+            "name": "Countryside Tea Stand",
+            "description": "A detailed step-by-step blueprint for making a Countryside Tea Stand.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393310",
+            "name": "Stone Lion Statue: The Knowing",
+            "description": "A detailed step-by-step blueprint for making a Stone Lion Statue: The Knowing.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393309",
+            "name": "Stone Lion Statue: The Warding",
+            "description": "A detailed step-by-step blueprint for making a Stone Lion Statue: The Warding.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393308",
+            "name": "Roofed Well: For Purity",
+            "description": "A detailed step-by-step blueprint for making a Roofed Well: For Purity.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393307",
+            "name": "Old Well",
+            "description": "A detailed step-by-step blueprint for making an Old Well.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393306",
+            "name": "Farmer's Scarecrow",
+            "description": "A detailed step-by-step blueprint for making a Farmer's Scarecrow.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393305",
+            "name": "Sturdy Stone Well",
+            "description": "A detailed step-by-step blueprint for making a Sturdy Stone Well.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393304",
+            "name": "Simple Cargo Cart",
+            "description": "A detailed step-by-step blueprint for making a Simple Cargo Cart.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393303",
+            "name": "Hardwood Weapon Rack",
+            "description": "A detailed step-by-step blueprint for making a Hardwood Weapon Rack.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393302",
+            "name": "Fir Weapon Rack",
+            "description": "A detailed step-by-step blueprint for making a Fir Weapon Rack.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393301",
+            "name": "Fir Shelves",
+            "description": "A detailed step-by-step blueprint for making Fir Shelves.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393228",
+            "name": "\"As Rainfall Cascades\"",
+            "description": "A detailed step-by-step blueprint for making \"As Rainfall Cascades.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393227",
+            "name": "\"Fragrant Confluence\"",
+            "description": "A detailed step-by-step blueprint for making \"Fragrant Confluence.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393226",
+            "name": "Decorative Flower Bed: \"Verdant Order\"",
+            "description": "A detailed step-by-step blueprint for making a Decorative Flower Bed: \"Verdant Order.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393225",
+            "name": "\"Cradle of Fragrance\"",
+            "description": "A detailed step-by-step blueprint for making \"Cradle of Fragrance.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393224",
+            "name": "Bright Verdure",
+            "description": "A detailed step-by-step blueprint for making Bright Verdure.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393223",
+            "name": "Lush Verdure",
+            "description": "A detailed step-by-step blueprint for making Lush Verdure.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393222",
+            "name": "Petals Without Perfume",
+            "description": "A detailed step-by-step blueprint for making \"Petals Without Perfume.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393221",
+            "name": "Soft-Hued Hydrangeas",
+            "description": "A detailed step-by-step blueprint for making Soft-Hued Hydrangeas.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393220",
+            "name": "Twilight Threaded Leaves",
+            "description": "A detailed step-by-step blueprint for making \"Twilight Threaded Leaves.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393219",
+            "name": "\"Solid Roots\"",
+            "description": "A detailed step-by-step blueprint for making \"Solid Roots.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393218",
+            "name": "Sweet Down",
+            "description": "A detailed step-by-step blueprint for making a \"Sweet Down.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393217",
+            "name": "Ageless Agave",
+            "description": "A detailed step-by-step blueprint for making an \"Ageless Agave.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393216",
+            "name": "\"Salubrious Fragrance\"",
+            "description": "A detailed step-by-step blueprint for making \"Salubrious Fragrance.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393215",
+            "name": "\"Inspiration's Pure White Blossoms\"",
+            "description": "A detailed step-by-step blueprint for making \"Inspiration's Pure White Blossoms.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393214",
+            "name": "\"Royal Purple\"",
+            "description": "A detailed step-by-step blueprint for making a \"Royal Purple.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393213",
+            "name": "Passage's Perfumed Potted Plants",
+            "description": "A detailed step-by-step blueprint for making Passage's Perfumed Potted Plants.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprints",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393204",
+            "name": "\"Pines Awaiting the Twilight\"",
+            "description": "A detailed step-by-step blueprint for making \"Pines Awaiting the Twilight.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393203",
+            "name": "Soil-Carrying Wooden Barrel",
+            "description": "A detailed step-by-step blueprint for making a Soil-Carrying Wooden Barrel.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393202",
+            "name": "Water-Retaining Flower Beds",
+            "description": "A detailed step-by-step blueprint for making Water-Retaining Flower Beds.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393201",
+            "name": "Potted Plant: Verdant Vastness",
+            "description": "A detailed step-by-step blueprint for making a Potted Plant: Verdant Vastness.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393200",
+            "name": "High-Flyers' Trampoline",
+            "description": "A detailed step-by-step blueprint for making a High-Flyers' Trampoline.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393199",
+            "name": "Peaceful Forest Dream",
+            "description": "A detailed step-by-step blueprint for making a \"Peaceful Forest Dream.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393198",
+            "name": "Plated Target: Rhythm of War",
+            "description": "A detailed step-by-step blueprint for making a Plated Target: Rhythm of War.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393197",
+            "name": "Exquisite Carving",
+            "description": "A detailed step-by-step blueprint for making an \"Exquisite Carving.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393189",
+            "name": "Origami Model: Hard As Can Be",
+            "description": "A detailed step-by-step blueprint for making an Origami Model: Hard As Can Be.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393188",
+            "name": "Origami Model: Whoooosh!",
+            "description": "A detailed step-by-step blueprint for making an Origami Model: Whoooosh!\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393187",
+            "name": "Origami Model: Round Rummy Tum",
+            "description": "A detailed step-by-step blueprint for making an Origami Model: Round Rummy Tum.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393186",
+            "name": "Origami Model: Hop, Skip, and a Jump",
+            "description": "A detailed step-by-step blueprint for making an Origami Model: Hop, Skip, and a Jump.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393185",
+            "name": "Improved Crococannon",
+            "description": "A detailed step-by-step blueprint for making an Improved Crococannon.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393181",
+            "name": "\"Boxing Target of the Forbidden Fortress\"",
+            "description": "A detailed step-by-step blueprint for making a \"Boxing Target of the Forbidden Fortress.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393180",
+            "name": "Model Contraption: Rockcracker Anchor",
+            "description": "A detailed step-by-step blueprint for making a Model Contraption: Rockcracker Anchor.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393179",
+            "name": "Model Contraption: Repair",
+            "description": "A detailed step-by-step blueprint for making a Model Contraption: Repair.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393177",
+            "name": "Common Cooking Device",
+            "description": "A detailed step-by-step blueprint for making a Common Cooking Device.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393176",
+            "name": "\"Majesty of the Forbidden Fortress\"",
+            "description": "A detailed step-by-step blueprint for making \"Majesty of the Forbidden Fortress.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393172",
+            "name": "Maintenance Mek: Technical Demo Type",
+            "description": "A detailed step-by-step blueprint for making a Maintenance Mek: Technical Demo Type.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprints",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393171",
+            "name": "Wind-Up Great Owl Spirit Mechanism",
+            "description": "A detailed step-by-step blueprint for making a Wind-Up Great Owl Spirit Mechanism.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393170",
+            "name": "Hey-Ha-Hoo Slime Box Trio",
+            "description": "A detailed step-by-step blueprint for making a Hey-Ha-Hoo Slime Box Trio.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393169",
+            "name": "VIP Guest Bleachers",
+            "description": "A detailed step-by-step blueprint for making VIP Guest Bleachers.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393168",
+            "name": "Scripts: Requirements and Principles",
+            "description": "A detailed step-by-step blueprint for making Scripts: Requirements and Principles.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393167",
+            "name": "Leisure Device: Puffy Tubby",
+            "description": "A detailed step-by-step blueprint for making a Leisure Device: Puffy Tubby.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprints",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393163",
+            "name": "Brightwood Fabric Box Platform",
+            "description": "A detailed step-by-step blueprint for making a Brightwood Fabric Box Platform.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393162",
+            "name": "Brightwood Self-Tightening Wine Buckets",
+            "description": "A detailed step-by-step blueprint for making Brightwood Self-Tightening Wine Buckets.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393161",
+            "name": "Plain Vase: Stupor for Ten",
+            "description": "A detailed step-by-step blueprint for making a Plain Vase: Stupor for Ten.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393160",
+            "name": "Plain Vase: Drinks for a Hundred",
+            "description": "A detailed step-by-step blueprint for making a Plain Vase: Drinks for a Hundred.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393159",
+            "name": "Caravan Ribat Type III Land Transport Pallet",
+            "description": "A detailed step-by-step blueprint for making a Caravan Ribat Type III Land Transport Pallet.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393158",
+            "name": "Leisure Device: Bouncy Chubby",
+            "description": "A detailed step-by-step blueprint for making a Leisure Device: Bouncy Chubby.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393157",
+            "name": "Leisure Device: Bouncy Tubby",
+            "description": "A detailed step-by-step blueprint for making a Leisure Device: Bouncy Tubby.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393156",
+            "name": "Coloration and Precipitation",
+            "description": "A detailed step-by-step blueprint for making a \"Coloration and Precipitation.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393155",
+            "name": "\"It Just Might Work!\"",
+            "description": "A detailed step-by-step blueprint for making an \"It just might work!\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393154",
+            "name": "Ingenuity of the Forest Forager",
+            "description": "A detailed step-by-step blueprint for making an \"Ingenuity of the Forest Forager.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393153",
+            "name": "\"String, Feather, Trajectory\"",
+            "description": "A detailed step-by-step blueprint for making a \"String, Feather, Trajectory.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393152",
+            "name": "Karmaphala Wood Liquid Cargo Rack",
+            "description": "A detailed step-by-step blueprint for making a Karmaphala Wood Liquid Cargo Rack.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393151",
+            "name": "\"Iron, Water, Steam\"",
+            "description": "A detailed step-by-step blueprint for making an \"Iron, Water, Steam.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393150",
+            "name": "\"Iron, Blood, Broken Armor\"",
+            "description": "A detailed step-by-step blueprint for making an \"Iron, Blood, Broken Armor.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393149",
+            "name": "\"Iron, Sand, Treasure\"",
+            "description": "A detailed step-by-step blueprint for making an \"Iron, Sand, Treasure.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393148",
+            "name": "Heavy Brightwood Pottery Wheel",
+            "description": "A detailed step-by-step blueprint for making a Heavy Brightwood Pottery Wheel.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393146",
+            "name": "Fisherman's Clemency",
+            "description": "A detailed step-by-step blueprint for making a Fisherman's Clemency.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393145",
+            "name": "Fisherman's Efforts",
+            "description": "A detailed step-by-step blueprint for making a Fisherman's Efforts.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393144",
+            "name": "Fisherman's Storage Solution",
+            "description": "A detailed step-by-step blueprint for making a Fisherman's Storage Solution.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393143",
+            "name": "Fisherman's Delicacy",
+            "description": "A detailed step-by-step blueprint for making a Fisherman's Delicacy.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393142",
+            "name": "Fisherman's Catch",
+            "description": "A detailed step-by-step blueprint for making a Fisherman's Catch.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393141",
+            "name": "Allegro Bloom: Special Tuning",
+            "description": "A detailed step-by-step blueprint for making an Allegro Bloom: Special Tuning.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393138",
+            "name": "Serene Flames",
+            "description": "A detailed step-by-step blueprint for making Serene Flames.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393137",
+            "name": "Heavy-Duty Restaurant Stove",
+            "description": "A detailed step-by-step blueprint for making a Heavy-Duty Restaurant Stove.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393134",
+            "name": "Mountain of Festive Gifts",
+            "description": "A detailed step-by-step blueprint for making a Mountain of Festive Gifts.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393133",
+            "name": "Replica Ancient Otogi Crate",
+            "description": "A detailed step-by-step blueprint for making a Replica Ancient Otogi Crate.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393132",
+            "name": "Replica Ancient Otogi Keg",
+            "description": "A detailed step-by-step blueprint for making a Replica Ancient Otogi Keg.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393131",
+            "name": "\"Kokutan\" Thick-Walled Clay Water Tank",
+            "description": "A detailed step-by-step blueprint for making a \"Kokutan\" Thick-Walled Clay Water Tank.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393130",
+            "name": "Otogi \"Tanin\" Wood Barrel",
+            "description": "A detailed step-by-step blueprint for making an Otogi \"Tanin\" Wood Barrel.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393129",
+            "name": "Otogi \"Rikuyou\" Wooden Barrel",
+            "description": "A detailed step-by-step blueprint for making an Otogi \"Rikuyou\" Wooden Barrel.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393128",
+            "name": "Simple Otogi Workshop",
+            "description": "A detailed step-by-step blueprint for making a Simple Otogi Workshop.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393127",
+            "name": "War Drum: Line-Breaking Reverb",
+            "description": "A detailed step-by-step blueprint for making a War Drum: Line-Breaking Reverb.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393126",
+            "name": "Headquarters Alarm: Sound of Thunder",
+            "description": "A detailed step-by-step blueprint for making a Headquarters Alarm: Sound of Thunder.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393125",
+            "name": "\"Courtyard Cleansing Pool\"",
+            "description": "A detailed step-by-step blueprint for making a \"Courtyard Cleansing Pool.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393124",
+            "name": "\"A Messenger in the Summer Woods\"",
+            "description": "A detailed step-by-step blueprint for making \"A Messenger in the Summer Woods.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393123",
+            "name": "Training Ground Support Stakes",
+            "description": "A detailed step-by-step blueprint for making Training Ground Support Stakes.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393122",
+            "name": "\"A Guide in the Summer Woods\"",
+            "description": "A detailed step-by-step blueprint for making \"A Guide in the Summer Woods.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393121",
+            "name": "\"A Bloatty Floatty's Dream of the Sky\"",
+            "description": "A detailed step-by-step blueprint for making \"A Bloatty Floatty's Dream of the Sky.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393120",
+            "name": "\"Feather-Light Praise\"",
+            "description": "A detailed step-by-step blueprint for making \"Feather-Light Praise.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393119",
+            "name": "Stone Cup-Shaped Pool",
+            "description": "A detailed step-by-step blueprint for making a Stone Cup-Shaped Pool.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393118",
+            "name": "Rainproof Fir Cargo Container",
+            "description": "A detailed step-by-step blueprint for making a Rainproof Fir Cargo Container.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393117",
+            "name": "Wood Bundle",
+            "description": "A detailed step-by-step blueprint for making a Wood Bundle.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393116",
+            "name": "Tall Wooden Pole",
+            "description": "A detailed step-by-step blueprint for making a Tall Wooden Pole.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393115",
+            "name": "Sturdy Wooden Barrel",
+            "description": "A detailed step-by-step blueprint for making a Sturdy Wooden Barrel.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393114",
+            "name": "\"The Adventurer's Burdens\"",
+            "description": "A detailed step-by-step blueprint for making \"The Adventurer's Burdens.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393113",
+            "name": "Deadwood Road Sign",
+            "description": "A detailed step-by-step blueprint for making a Deadwood Road Sign.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393112",
+            "name": "Hilichurl Horned Pot",
+            "description": "A detailed step-by-step blueprint for making a Hilichurl Horned Pot.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393111",
+            "name": "Hilichurl Archery Target",
+            "description": "A detailed step-by-step blueprint for making a Hilichurl Archery Target.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393110",
+            "name": "Hardened Glazed Vase",
+            "description": "A detailed step-by-step blueprint for making a Hardened Glazed Vase.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393109",
+            "name": "Fruit Seller's Toil",
+            "description": "A detailed step-by-step blueprint for making the Fruit Seller's Toil.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393108",
+            "name": "Fruit Seller's Caution",
+            "description": "A detailed step-by-step blueprint for making the Fruit Seller's Caution.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393107",
+            "name": "Storage Sack: Buzz-Off Bag",
+            "description": "A detailed step-by-step blueprint for making a Storage Sack: Buzz-Off Bag.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393106",
+            "name": "Umbrella Shop: Kaleidoscope of Parasol Colors",
+            "description": "A detailed step-by-step blueprint for making an Umbrella Shop: Kaleidoscope of Parasol Colors.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393105",
+            "name": "Toy Stand: Dazzling Delights",
+            "description": "A detailed step-by-step blueprint for making a Toy Stand: Dazzling Delights.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393104",
+            "name": "Wine Jar With Bamboo Casing: Spirits Awaiting Moonrise",
+            "description": "A detailed step-by-step blueprint for making a Wine Jar With Bamboo Casing: Spirits Awaiting Moonrise.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393103",
+            "name": "Heavy Hay Bale",
+            "description": "A detailed step-by-step blueprint for making a Heavy Hay Bale.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393102",
+            "name": "Neat Stack of Fir Kegs",
+            "description": "A detailed step-by-step blueprint for making a Neat Stack of Fir Kegs.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "393101",
+            "name": "Messy Pile of Fir Crates",
+            "description": "A detailed step-by-step blueprint for making a Messy Pile of Fir Crates.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "392607",
+            "name": "Sub-Space Structure: Treetop Stroll",
+            "description": "A detailed step-by-step blueprint for making a Sub-Space Structure: Treetop Stroll.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "392606",
+            "name": "Sub-space Structure: Suspended Pathway",
+            "description": "A detailed step-by-step blueprint for making a Sub-space Structure: Suspended Pathway.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "392107",
+            "name": "Foundations of Stone: Fortunate Times",
+            "description": "A detailed step-by-step blueprint for making \"Foundations of Stone: Fortunate Times.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391273",
+            "name": "Ashen Aratiku Wood \"Minimalist\" Staircase",
+            "description": "A detailed step-by-step blueprint for making an \"Ashen Aratiku Wood 'Minimalist' Staircase.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391272",
+            "name": "Guardian Pillar: Exalted Heroes",
+            "description": "A detailed step-by-step blueprint for making a \"Guardian Pillar: Exalted Heroes.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391271",
+            "name": "Guardian Pillar: Innumerable Sparks",
+            "description": "A detailed step-by-step blueprint for making a \"Guardian Pillar: Innumerable Sparks.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391270",
+            "name": "Guardian Pillar: Abundant Shamans",
+            "description": "A detailed step-by-step blueprint for making a \"Guardian Pillar: Abundant Shamans.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391269",
+            "name": "Guardian Pillar: Myriad Warriors",
+            "description": "A detailed step-by-step blueprint for making a \"Guardian Pillar: Myriad Warriors.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391268",
+            "name": "Stadium's \"Tempered\" Steps",
+            "description": "A detailed step-by-step blueprint for making \"Stadium's 'Tempered' Steps.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391267",
+            "name": "Dwelling Wall: Graffiti Panel",
+            "description": "A detailed step-by-step blueprint for making a \"Dwelling Wall: Graffiti Panel.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391266",
+            "name": "Dwelling Wall: Warped Perspective",
+            "description": "A detailed step-by-step blueprint for making a \"Dwelling Wall: Warped Perspective.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391265",
+            "name": "Dwelling Wall: Guiding Lines",
+            "description": "A detailed step-by-step blueprint for making a \"Dwelling Wall: Guiding Lines.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391264",
+            "name": "Dwelling Wall: Journey Through Art",
+            "description": "A detailed step-by-step blueprint for making a \"Dwelling Wall: Journey Through Art.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391263",
+            "name": "Dwelling Portal: Sacred Duty",
+            "description": "A detailed step-by-step blueprint for making a \"Dwelling Portal: Sacred Duty.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391262",
+            "name": "Valley Stone Steps: Foundation Stone",
+            "description": "A detailed step-by-step blueprint for making Valley Stone Steps: Foundation Stone.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391261",
+            "name": "Valley Gable: Rain Shelter",
+            "description": "A detailed step-by-step blueprint for making Valley Gable: Rain Shelter.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391260",
+            "name": "Valley Gable: Warding Wind and Fire",
+            "description": "A detailed step-by-step blueprint for making Valley Gable: Warding Wind and Fire.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391259",
+            "name": "Valley Stone Wall: Carp and Kite",
+            "description": "A detailed step-by-step blueprint for making Valley Stone Wall: Carp and Kite.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391258",
+            "name": "Valley Stone Wall: Flowers and Willows",
+            "description": "A detailed step-by-step blueprint for making Valley Stone Wall: Flowers and Willows.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391257",
+            "name": "Valley Stone Wall: Jade Belt River",
+            "description": "A detailed step-by-step blueprint for making Valley Stone Wall: Jade Belt River.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391256",
+            "name": "Valley Wall Corner: Like Gathering Waves",
+            "description": "A detailed step-by-step blueprint for making Valley Wall Corner: Like Gathering Waves.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391255",
+            "name": "Valley Cave: The Fan's Winding Path",
+            "description": "A detailed step-by-step blueprint for making Valley Cave: The Fan's Winding Path.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391254",
+            "name": "Valley Gate: Mountains Beyond the Gate",
+            "description": "A detailed step-by-step blueprint for making Valley Gate: Mountains Beyond the Gate.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391253",
+            "name": "Valley Gate: Bustling Yard",
+            "description": "A detailed step-by-step blueprint for making Valley Gate: Bustling Yard.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391252",
+            "name": "Courtyard Wall: A Bit of Scenery",
+            "description": "A detailed step-by-step blueprint for making a Courtyard Wall: A Bit of Scenery.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391251",
+            "name": "Courtyard Archway: Moment of Glory",
+            "description": "A detailed step-by-step blueprint for making a Courtyard Archway: Moment of Glory.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391250",
+            "name": "Courtyard Corridor: Manifold Corners",
+            "description": "A detailed step-by-step blueprint for making a Courtyard Corridor: Manifold Corners.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391249",
+            "name": "Courtyard Corridor: The Mora Dividend",
+            "description": "A detailed step-by-step blueprint for making a Courtyard Corridor: The Mora Dividend.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391248",
+            "name": "Textured Whitestone Stairs",
+            "description": "A detailed step-by-step blueprint for making Textured Whitestone Stairs.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391247",
+            "name": "Common Wooden Stairs",
+            "description": "A detailed step-by-step blueprint for making Common Wooden Stairs.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391246",
+            "name": "Pilaster of the City of Wisdom",
+            "description": "A detailed step-by-step blueprint for making a \"Pilaster of the City of Wisdom.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391245",
+            "name": "Light Shield of the City of Wisdom",
+            "description": "A detailed step-by-step blueprint for making a \"Light Shield of the City of Wisdom.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391244",
+            "name": "Partition of the City of Wisdom",
+            "description": "A detailed step-by-step blueprint for making a \"Partition of the City of Wisdom.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391243",
+            "name": "Vision of the City of Wisdom",
+            "description": "A detailed step-by-step blueprint for making a \"Vision of the City of Wisdom.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391242",
+            "name": "Domed Wall: The Birds Sang",
+            "description": "A detailed step-by-step blueprint for making a Domed Wall: The Birds Sang.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391241",
+            "name": "Domed Gate: Forest Tune",
+            "description": "A detailed step-by-step blueprint for making a Domed Gate: Forest Tune.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391240",
+            "name": "Desert Gate: Windjammer",
+            "description": "A detailed step-by-step blueprint for making a Desert Gate: Windjammer.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391239",
+            "name": "Desert Wall: Stalwart Defense",
+            "description": "A detailed step-by-step blueprint for making \"Desert Wall: Stalwart Defense.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391238",
+            "name": "Desert Wall: Surprise Attack",
+            "description": "A detailed step-by-step blueprint for making \"Desert Wall: Surprise Attack.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391237",
+            "name": "Desert Stone Steps: Climbing",
+            "description": "A detailed step-by-step blueprint for making \"Desert Stone Steps: Climbing.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391236",
+            "name": "\"No Fishing Ahead\"",
+            "description": "A detailed step-by-step blueprint for making \"No Fishing Ahead.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391235",
+            "name": "Fisherman's Fence",
+            "description": "A detailed step-by-step blueprint for making a Fisherman's Fence.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391230",
+            "name": "Hot Spring Foyer: Shelter from the Cold",
+            "description": "A detailed step-by-step blueprint for making a Hot Spring Foyer: Shelter from the Cold.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391229",
+            "name": "Hot Spring Wall: Well-Grounded",
+            "description": "A detailed step-by-step blueprint for making a Hot Spring Wall: Well-Grounded.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391228",
+            "name": "Hot Spring Outer Wall: No Vaulting",
+            "description": "A detailed step-by-step blueprint for making a Hot Spring Outer Wall: No Vaulting.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391227",
+            "name": "Hot Spring Folding Screen: Moderation",
+            "description": "A detailed step-by-step blueprint for making a Hot Spring Folding Screen: Moderation.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391226",
+            "name": "Estate Wall Corner: Old City Palisade",
+            "description": "A detailed step-by-step blueprint for making an Estate Wall Corner: Old City Palisade.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391225",
+            "name": "Estate Courtyard Wall: Hidden Boundary",
+            "description": "A detailed step-by-step blueprint for making an Estate Courtyard Wall: Hidden Boundary.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391224",
+            "name": "Estate Courtyard Wall: Harmonious Corner",
+            "description": "A detailed step-by-step blueprint for making an Estate Courtyard Wall: Harmonious Corner.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391223",
+            "name": "Estate Courtyard Wall: Stoneguard",
+            "description": "A detailed step-by-step blueprint for making an Estate Courtyard Wall: Stoneguard.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391222",
+            "name": "Shrine Corridor: Vermilion Gaze",
+            "description": "A detailed step-by-step blueprint for making a Shrine Corridor: Vermilion Gaze.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391221",
+            "name": "Shrine Corridor: Sakura-Dusted Path",
+            "description": "A detailed step-by-step blueprint for making a Shrine Corridor: Sakura-Dusted Path.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391220",
+            "name": "Encampment Fence: Honing Goad",
+            "description": "A detailed step-by-step blueprint for making an Encampment Fence: Honing Goad.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391219",
+            "name": "Encampment Fence: Decisive Judgment",
+            "description": "A detailed step-by-step blueprint for making an Encampment Fence: Decisive Judgment.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391218",
+            "name": "Encampment Fence: Jagged Teeth",
+            "description": "A detailed step-by-step blueprint for making an Encampment Fence: Jagged Teeth.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391217",
+            "name": "Otogi \"Kintake\" Fence",
+            "description": "A detailed step-by-step blueprint for making an Otogi \"Kintake\" Fence.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391216",
+            "name": "Otogi \"Kintake\" Courtyard Gate",
+            "description": "A detailed step-by-step blueprint for making an Otogi \"Kintake\" Courtyard Gate.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391215",
+            "name": "Fence Corner: Long Watch",
+            "description": "A detailed step-by-step blueprint for making a Fence Corner: Long Watch.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391214",
+            "name": "Key Fence: Self-Restraint",
+            "description": "A detailed step-by-step blueprint for making a Key Fence: Self-Restraint.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391213",
+            "name": "Key Gateway: Beneath the Clouds",
+            "description": "A detailed step-by-step blueprint for making a Key Gateway: Beneath the Clouds.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391212",
+            "name": "Veranda Corner: Pavilion's Watch",
+            "description": "A detailed step-by-step blueprint for making a Veranda Corner: Pavilion's Watch.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391211",
+            "name": "Perimeter Wall: Scenic Archway",
+            "description": "A detailed step-by-step blueprint for making a Perimeter Wall: Scenic Archway.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391210",
+            "name": "Main Entrance: Gateway to the Clouds",
+            "description": "A detailed step-by-step blueprint for making a Main Entrance: Gateway to the Clouds.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391209",
+            "name": "Courtyard Wall: Peace Across",
+            "description": "A detailed step-by-step blueprint for making a Courtyard Wall: Peace Across.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391208",
+            "name": "Courtyard Wall: All in a Row",
+            "description": "A detailed step-by-step blueprint for making a Courtyard Wall: All in a Row.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391207",
+            "name": "Wall Corner: Fragrant Nook",
+            "description": "A detailed step-by-step blueprint for making a Wall Corner: Fragrant Nook.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391206",
+            "name": "Courtyard Wall: Spring and Autumn Splendor",
+            "description": "A detailed step-by-step blueprint for making a Courtyard Wall: Spring and Autumn Splendor.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391205",
+            "name": "Scenic Corridor: Sylvan Stroll",
+            "description": "A detailed step-by-step blueprint for making a Scenic Corridor: Sylvan Stroll.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391204",
+            "name": "Carved Courtyard Fence",
+            "description": "A detailed step-by-step blueprint for making a Carved Courtyard Fence.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391203",
+            "name": "Carved Courtyard Fence Ending",
+            "description": "A detailed step-by-step blueprint for making a Carved Courtyard Fence Ending.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391202",
+            "name": "Birch Main Courtyard Gate",
+            "description": "A detailed step-by-step blueprint for making a Birch Main Courtyard Gate.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391201",
+            "name": "Adeptus Gate",
+            "description": "A detailed step-by-step blueprint for making an Adeptus Gate.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391152",
+            "name": "Coffee Time",
+            "description": "A detailed step-by-step blueprint for making \"Coffee Time.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391151",
+            "name": "Market Statue: Vibrant Vacation",
+            "description": "A detailed step-by-step blueprint for making a Market Statue: Vibrant Vacation.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391150",
+            "name": "Lord of the Ocean Tides",
+            "description": "A detailed step-by-step blueprint for making \"Lord of the Ocean Tides.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391148",
+            "name": "Flower-Feather Clan \"Warning\" Balloon",
+            "description": "A detailed step-by-step blueprint for making a \"Flower-Feather Clan 'Warning' Balloon.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391147",
+            "name": "\"Dawn of Flight\"",
+            "description": "A detailed step-by-step blueprint for making \"Dawn of Flight.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391146",
+            "name": "\"Even-Handed Judgment\"",
+            "description": "A detailed step-by-step blueprint for making \"Even-Handed Judgment.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391145",
+            "name": "Brimming Freight Car",
+            "description": "A detailed step-by-step blueprint for making a \"Brimming Freight Car.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391144",
+            "name": "Snoozy Rest Car",
+            "description": "A detailed step-by-step blueprint for making a \"Snoozy Rest Car.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391143",
+            "name": "Wavesmasher Locomotive",
+            "description": "A detailed step-by-step blueprint for making a \"Wavesmasher Locomotive.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391140",
+            "name": "Large Shipping Pallet",
+            "description": "A detailed step-by-step blueprint for making a Large Shipping Pallet.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391139",
+            "name": "Standard Shipping Pallet",
+            "description": "A detailed step-by-step blueprint for making a Standard Shipping Pallet.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391138",
+            "name": "Standard Fluid Shipping Unit",
+            "description": "A detailed step-by-step blueprint for making a Standard Fluid Shipping Unit.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391137",
+            "name": "Lumidouce Harbor Type-05 Combine Lifter",
+            "description": "A detailed step-by-step blueprint for making a Lumidouce Harbor Type-05 Combine Lifter.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391136",
+            "name": "\"A Thousand Ephemeral Visions of Dew\"",
+            "description": "A detailed step-by-step blueprint for making \"A Thousand Ephemeral Visions of Dew.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391135",
+            "name": "\"Immaculate Judgment\"",
+            "description": "A detailed step-by-step blueprint for making \"Immaculate Judgment.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391134",
+            "name": "Automnequi's Cask",
+            "description": "A detailed step-by-step blueprint for making an \"Automnequi's Cask.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprints",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391132",
+            "name": "Three-Wheeled Mountain Hand Cart",
+            "description": "A detailed step-by-step blueprint for making a Three-Wheeled Mountain Hand Cart.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391131",
+            "name": "Composite Timber In-Port Transfer Cart",
+            "description": "A detailed step-by-step blueprint for making a Composite Timber In-Port Transfer Cart.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391130",
+            "name": "Composite Timber Long-Distance Hand Cart",
+            "description": "A detailed step-by-step blueprint for making a Composite Timber Long-Distance Hand Cart.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391129",
+            "name": "Port Ormos GP Crane III",
+            "description": "A detailed step-by-step blueprint for making a Port Ormos GP Crane III.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391128",
+            "name": "Floral Swing",
+            "description": "A detailed step-by-step blueprint for making a Floral Swing.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391127",
+            "name": "Clarity from the Land of Wisdom",
+            "description": "A detailed step-by-step blueprint for making a Clarity from the Land of Wisdom.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391126",
+            "name": "Theater's Cool Mist",
+            "description": "A detailed step-by-step blueprint for making Theater's Cool Mist.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391125",
+            "name": "Desert Hut: Rest",
+            "description": "A detailed step-by-step blueprint for making a Desert Hut: Rest.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391124",
+            "name": "Desert Hut: Wilting",
+            "description": "A detailed step-by-step blueprint for making a Desert Hut: Wilting.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391123",
+            "name": "Desert Hut: Questions",
+            "description": "A detailed step-by-step blueprint for making a Desert Hut: Questions.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391122",
+            "name": "Desert Hut: Minutiae",
+            "description": "A detailed step-by-step blueprint for making a Desert Hut: Minutiae.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391120",
+            "name": "Stoneworks Crane: Hill Tamer",
+            "description": "A detailed step-by-step blueprint for making a Stoneworks Crane: Hill Tamer.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391119",
+            "name": "Stoneworks Crane: Mountain Mover",
+            "description": "A detailed step-by-step blueprint for making a Stoneworks Crane: Mountain Mover.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391118",
+            "name": "Sub-Space Cabochon: In Soaring Flight",
+            "description": "A detailed step-by-step blueprint for making a Sub-Space Cabochon: In Soaring Flight.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391117",
+            "name": "Of Fields Green: Clear Spring Fountain",
+            "description": "A detailed step-by-step blueprint for making Of Fields Green: Clear Spring Fountain.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391116",
+            "name": "Whitestone Hot Spring: Diffusing Warmth",
+            "description": "A detailed step-by-step blueprint for making a Whitestone Hot Spring: Diffusing Warmth.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391115",
+            "name": "Estate Courtyard Corner: Measured Harmony",
+            "description": "A detailed step-by-step blueprint for making an Estate Courtyard Corner: Measured Harmony.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391114",
+            "name": "Estate Corridor: Onward With Ease",
+            "description": "A detailed step-by-step blueprint for making an Estate Corridor: Onward With Ease.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391113",
+            "name": "Estate Gate: Windy Doors",
+            "description": "A detailed step-by-step blueprint for making an Estate Gate: Windy Doors.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391112",
+            "name": "Scarlet Torii Gate: Way of Restoration",
+            "description": "A detailed step-by-step blueprint for making a Scarlet Torii Gate: Way of Restoration.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391110",
+            "name": "Scarlet Torii Gate: Door of Silence",
+            "description": "A detailed step-by-step blueprint for making a Scarlet Torii Gate: Door of Silence.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391109",
+            "name": "\"Pure Gorgeous Summer\"",
+            "description": "A detailed step-by-step blueprint for making \"Pure Gorgeous Summer.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391107",
+            "name": "Temporary Work Quarters",
+            "description": "A detailed step-by-step blueprint for making Temporary Work Quarters.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391104",
+            "name": "\"Ballad-Spinning Windwheel\"",
+            "description": "A detailed step-by-step blueprint for making a Ballad-Spinning Windwheel.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391103",
+            "name": "Hilichurl Straw Hut",
+            "description": "A detailed step-by-step blueprint for making a Hilichurl Straw Hut.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391102",
+            "name": "Hilichurl Spiral Watchtower",
+            "description": "A detailed step-by-step blueprint for making a Hilichurl Spiral Watchtower.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391101",
+            "name": "Bird and Blossom Design Fountain",
+            "description": "A detailed step-by-step blueprint for making a Bird and Blossom Design Fountain.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391056",
+            "name": "Snezhnayan Dwelling: \"Elegant Carvings\"",
+            "description": "A detailed step-by-step blueprint for making a Snezhnayan Dwelling: \"Elegant Carvings.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391055",
+            "name": "\"The Round Onion\"",
+            "description": "A detailed step-by-step blueprint for making \"The Round Onion.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391054",
+            "name": "Snezhnayan Dwelling: \"Warm-Toned Portico\"",
+            "description": "A detailed step-by-step blueprint for making a Snezhnayan Dwelling: \"Warm-Toned Portico.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391053",
+            "name": "Waiting Platform: \"Quiet Anticipation\"",
+            "description": "A detailed step-by-step blueprint for making a Waiting Platform: \"Quiet Anticipation.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391052",
+            "name": "\"The Round Snowball\"",
+            "description": "A detailed step-by-step blueprint for making \"The Round Snowball.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391051",
+            "name": "Town Dwelling: \"Cozy Warmth\"",
+            "description": "A detailed step-by-step blueprint for making a Town Dwelling: \"Cozy Warmth.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391050",
+            "name": "Large Winch-and-Axle Crane",
+            "description": "A detailed step-by-step blueprint for making \"Large Winch-and-Axle Crane.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391029",
+            "name": "Base Pillar: Universal Beacon",
+            "description": "A detailed step-by-step blueprint for making a Base Pillar: Universal Beacon.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391028",
+            "name": "Base Wall: Line of Obstruction",
+            "description": "A detailed step-by-step blueprint for making a Base Wall: Line of Obstruction.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391027",
+            "name": "Base Platform: Solid Foundation",
+            "description": "A detailed step-by-step blueprint for making a Base Platform: Solid Foundation.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391026",
+            "name": "Base Gate: Access Logic",
+            "description": "A detailed step-by-step blueprint for making a Base Gate: Access Logic.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391025",
+            "name": "Base Windwheel: Auxiliary Power",
+            "description": "A detailed step-by-step blueprint for making a Base Windwheel: Auxiliary Power.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391024",
+            "name": "Base Auxiliary Building: Water Tower",
+            "description": "A detailed step-by-step blueprint for making a Base Auxiliary Building: Water Tower.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391023",
+            "name": "Base Auxiliary Building: Secret Space",
+            "description": "A detailed step-by-step blueprint for making a Base Auxiliary Building: Secret Space.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391022",
+            "name": "Base Auxiliary Building: Multipurpose Greenhouse",
+            "description": "A detailed step-by-step blueprint for making a Base Auxiliary Building: Multipurpose Greenhouse.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391020",
+            "name": "\"Starshyna Walking\"",
+            "description": "A detailed step-by-step blueprint for making \"Starshyna Walking.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391019",
+            "name": "\"Forge in the City of the Ever-Watchful\"",
+            "description": "A detailed step-by-step blueprint for making \"Forge in the City of the Ever-Watchful.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391018",
+            "name": "\"Care in the City of the Ever-Watchful\"",
+            "description": "A detailed step-by-step blueprint for making \"Care in the City of the Ever-Watchful.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391017",
+            "name": "\"A Corner of One's Own\"",
+            "description": "A detailed step-by-step blueprint for making \"A Corner of One's Own.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391016",
+            "name": "\"Shelter in the City of the Ever-Watchful\"",
+            "description": "A detailed step-by-step blueprint for making \"Shelter in the City of the Ever-Watchful.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391015",
+            "name": "\"Solitude in the City of the Ever-Watchful\"",
+            "description": "A detailed step-by-step blueprint for making \"Solitude in the City of the Ever-Watchful.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391014",
+            "name": "Adjustable Metal Barrier",
+            "description": "A detailed step-by-step blueprint for making an Adjustable Metal Barrier.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391010",
+            "name": "Steelbound Secrecy",
+            "description": "A detailed step-by-step blueprint for making \"Steelbound Secrecy.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391009",
+            "name": "Colossal Assisted Movement Pivot",
+            "description": "A detailed step-by-step blueprint for making a Colossal Assisted Movement Pivot.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391008",
+            "name": "Nasha Market: Seize the Dawn",
+            "description": "A detailed step-by-step blueprint for making \"Nasha Market: Seize the Dawn.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391007",
+            "name": "Nasha Market: Forge of a Thousand Trials",
+            "description": "A detailed step-by-step blueprint for making \"Nasha Market: Forge of a Thousand Trials.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391006",
+            "name": "Nasha Market: Lure of Lingering Fragrance",
+            "description": "A detailed step-by-step blueprint for making \"Nasha Market: Lure of Lingering Fragrance.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391005",
+            "name": "Nasha Market: Impenetrable Vault",
+            "description": "A detailed step-by-step blueprint for making \"Nasha Market: Impenetrable Vault.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391004",
+            "name": "Nasha Market: Wares Worth Staying For",
+            "description": "A detailed step-by-step blueprint for making \"Nasha Market: Wares Worth Staying For.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391003",
+            "name": "Nasha Market: Seeing Is Believing",
+            "description": "A detailed step-by-step blueprint for making \"Nasha Market: Seeing Is Believing.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391002",
+            "name": "Workshop Cabin: Ship Ashore",
+            "description": "A detailed step-by-step blueprint for making a Workshop Cabin: Ship Ashore.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "391001",
+            "name": "Workshop Cabin: Steady Shroom",
+            "description": "A detailed step-by-step blueprint for making a Workshop Cabin: Steady Shroom.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390940",
+            "name": "Reimagined Colors",
+            "description": "A detailed step-by-step blueprint for making \"Reimagined Colors.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390939",
+            "name": "Easy-Breezy Nights",
+            "description": "A detailed step-by-step blueprint for making \"Easy-Breezy Nights.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390938",
+            "name": "Easy-Breezy Flutterby",
+            "description": "A detailed step-by-step blueprint for making an \"Easy-Breezy Flutterby.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390937",
+            "name": "Easy-Breezy Comfort",
+            "description": "A detailed step-by-step blueprint for making an \"Easy-Breezy Comfort.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390936",
+            "name": "Easy-Breezy Guest House",
+            "description": "A detailed step-by-step blueprint for making an \"Easy-Breezy Guest House.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390935",
+            "name": "Easy-Breezy Nest",
+            "description": "A detailed step-by-step blueprint for making an \"Easy-Breezy Nest.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390934",
+            "name": "Easy-Breezy Wilderness",
+            "description": "A detailed step-by-step blueprint for making an \"Easy-Breezy Wilderness.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390933",
+            "name": "Land of Plenty's Sentinel",
+            "description": "A detailed step-by-step blueprint for making a \"Land of Plenty's Sentinel.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390932",
+            "name": "Land of Plenty's Contention",
+            "description": "A detailed step-by-step blueprint for making a \"Land of Plenty's Contention.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390931",
+            "name": "Hut of Plenty: Stopgap Selection",
+            "description": "A detailed step-by-step blueprint for making a \"Hut of Plenty: Stopgap Selection.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390930",
+            "name": "Hut of Plenty: Permanent Pick",
+            "description": "A detailed step-by-step blueprint for making a \"Hut of Plenty: Permanent Pick.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390929",
+            "name": "Villa of Plenty: Everyday Essentials",
+            "description": "A detailed step-by-step blueprint for making a \"Villa of Plenty: Everyday Essentials.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390928",
+            "name": "Villa of Plenty: Stow-Pro Storeroom",
+            "description": "A detailed step-by-step blueprint for making a \"Villa of Plenty: Stow-Pro Storeroom.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390927",
+            "name": "Pilgrimage of Flame",
+            "description": "A detailed step-by-step blueprint for making \"Pilgrimage of Flame.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390926",
+            "name": "Ashen Aratiku Wood \"Giant Claw\" Platform",
+            "description": "A detailed step-by-step blueprint for making an \"Ashen Aratiku Wood 'Giant Claw' Platform.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390925",
+            "name": "Flower-Feather Stable: Saurian's Repose",
+            "description": "A detailed step-by-step blueprint for making a \"Flower-Feather Stable: Saurian's Repose.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390924",
+            "name": "Simple Flower-Feather House: Fallback Measures",
+            "description": "A detailed step-by-step blueprint for making a \"Simple Flower-Feather House: Fallback Measures.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390923",
+            "name": "Flower-Feather Residence: Logic of Flight",
+            "description": "A detailed step-by-step blueprint for making a \"Flower-Feather Residence: Logic of Flight.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390922",
+            "name": "Flower-Feather Residence: Chasing Triviality",
+            "description": "A detailed step-by-step blueprint for making \"Flower-Feather Residence: Chasing Triviality.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390921",
+            "name": "Night-Wind Architecture: Mundane Way",
+            "description": "A detailed step-by-step blueprint for making \"Night-Wind Architecture: Mundane Way.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390920",
+            "name": "Night-Wind Architecture: Arcane Foundation",
+            "description": "A detailed step-by-step blueprint for making a \"Night-Wind Architecture: Arcane Foundation.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390919",
+            "name": "Night-Wind Architecture: Needs of Exchange",
+            "description": "A detailed step-by-step blueprint for making a \"Night-Wind Architecture: Needs of Exchange.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390918",
+            "name": "Hot Spring Retreat: Top Choice",
+            "description": "A detailed step-by-step blueprint for making \"Hot Spring Retreat: Top Choice.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390917",
+            "name": "\"Skiff of the Springs\"",
+            "description": "A detailed step-by-step blueprint for making \"Skiff of the Springs.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390916",
+            "name": "\"Wings of the Springs\"",
+            "description": "A detailed step-by-step blueprint for making \"Wings of the Springs.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390915",
+            "name": "Hot Spring Retreat: Tidal Surge",
+            "description": "A detailed step-by-step blueprint for making \"Hot Spring Retreat: Tidal Surge.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390914",
+            "name": "Hot Spring Retreat: Go With the Flow",
+            "description": "A detailed step-by-step blueprint for making \"Hot Spring Retreat: Go With the Flow.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390913",
+            "name": "Hot Spring Retreat: Marketing Strategy",
+            "description": "A detailed step-by-step blueprint for making \"Hot Spring Retreat: Marketing Strategy.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390912",
+            "name": "Hot Spring Retreat: Secret Menu",
+            "description": "A detailed step-by-step blueprint for making \"Hot Spring Retreat: Secret Menu.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390911",
+            "name": "Huitztlan Campground: Distribution Hub",
+            "description": "A detailed step-by-step blueprint for making \"Huitztlan Campground: Distribution Hub.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390910",
+            "name": "Huitztlan Campground: Steadfast in the Storm",
+            "description": "A detailed step-by-step blueprint for making \"Huitztlan Campground: Steadfast in the Storm.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390909",
+            "name": "Huitztlan Campground: Foolproof Plan",
+            "description": "A detailed step-by-step blueprint for making \"Huitztlan Campground: Foolproof Plan.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390908",
+            "name": "Huitztlan Campground: Companions' Connection",
+            "description": "A detailed step-by-step blueprint for making \"Huitztlan Campground: Companions' Connection.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390907",
+            "name": "Huitztlan Campground: Multi-Purpose Space",
+            "description": "A detailed step-by-step blueprint for making \"Huitztlan Campground: Multi-Purpose Space.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390906",
+            "name": "Huitztlan Campground: Sort and Order",
+            "description": "A detailed step-by-step blueprint for making \"Huitztlan Campground: Sort and Order.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390905",
+            "name": "\"Tequemecan Ingenuity\"",
+            "description": "A detailed step-by-step blueprint for making \"Tequemecan Ingenuity.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390904",
+            "name": "\"Tequemecan Treasures\"",
+            "description": "A detailed step-by-step blueprint for making \"Tequemecan Treasures.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390903",
+            "name": "\"Tequemecan Dance-Off\"",
+            "description": "A detailed step-by-step blueprint for making \"Tequemecan Dance-Off.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390902",
+            "name": "Stonehut of Echoes: High-Top Boots",
+            "description": "A detailed step-by-step blueprint for making \"Stonehut of Echoes: High-Top Boots.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390901",
+            "name": "Stonehut of Echoes: Alpha Dragon",
+            "description": "A detailed step-by-step blueprint for making \"Stonehut of Echoes: Alpha Dragon.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390900",
+            "name": "Stonehut of Echoes: Standard Workshop",
+            "description": "A detailed step-by-step blueprint for making \"Stonehut of Echoes: Standard Workshop.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390830",
+            "name": "Grand Repertory Playhouse",
+            "description": "A detailed step-by-step blueprint for making a \"Grand Repertory Playhouse.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390829",
+            "name": "\"Resourceful Residence in the Musicmaking Town\"",
+            "description": "A detailed step-by-step blueprint for making \"Resourceful Residence in the Musicmaking Town.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390828",
+            "name": "\"Workshop in the Musicmaking Town\"",
+            "description": "A detailed step-by-step blueprint for making \"Workshop in the Musicmaking Town.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390827",
+            "name": "\"Peaceful Residence in the Musicmaking Town\"",
+            "description": "A detailed step-by-step blueprint for making \"Peaceful Residence in the Musicmaking Town.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390826",
+            "name": "\"Tolling of the Musicmaking Town\"",
+            "description": "A detailed step-by-step blueprint for making \"Tolling of the Musicmaking Town.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390825",
+            "name": "\"A Simple Residence in Poisson\"",
+            "description": "A detailed step-by-step blueprint for making \"A Simple Residence in Poisson.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390824",
+            "name": "\"The Wisdom of Poisson\"",
+            "description": "A detailed step-by-step blueprint for making \"The Wisdom of Poisson.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390823",
+            "name": "\"The Arena Where Fists Reemerge\"",
+            "description": "A detailed step-by-step blueprint for making \"The Arena Where Fists Reemerge.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390822",
+            "name": "\"Small Stonecrab\"",
+            "description": "A detailed step-by-step blueprint for making a \"Small Stonecrab.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390821",
+            "name": "\"Bedroom Bedlam\"",
+            "description": "A detailed step-by-step blueprint for making \"Bedroom Bedlam.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390820",
+            "name": "\"Slippery Shack\"",
+            "description": "A detailed step-by-step blueprint for making a \"Slippery Shack.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390819",
+            "name": "\"Court of Justice's Respect\"",
+            "description": "A detailed step-by-step blueprint for making a \"Court of Justice's Respect.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390818",
+            "name": "\"Court of Justice's Authenticity\"",
+            "description": "A detailed step-by-step blueprint for making a \"Court of Justice's Authenticity.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390817",
+            "name": "Courtyard Pavilion: Amidst the Rivers",
+            "description": "A detailed step-by-step blueprint for making a Courtyard Pavilion: Amidst the Rivers.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390816",
+            "name": "Distributed Forward Supply Depot",
+            "description": "A detailed step-by-step blueprint for making a Distributed Forward Supply Depot.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprints",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390815",
+            "name": "Automnequi's Chimney Smoke",
+            "description": "A detailed step-by-step blueprint for making an \"Automnequi's Chimney Smoke.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprints",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390814",
+            "name": "Automnequi's Watch",
+            "description": "A detailed step-by-step blueprint for making an \"Automnequi's Watch.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprints",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390813",
+            "name": "Court of Justice's Newsstand",
+            "description": "A detailed step-by-step blueprint for making a \"Court of Justice's Newsstand.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprints",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390812",
+            "name": "Court of Justice's Fragrance",
+            "description": "A detailed step-by-step blueprint for making a \"Court of Justice's Fragrance.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprints",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390811",
+            "name": "Court of Justice's Green Grocers",
+            "description": "A detailed step-by-step blueprint for making a \"Court of Justice's Green Grocers.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprints",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390810",
+            "name": "Court of Justice's Couture",
+            "description": "A detailed step-by-step blueprint for making a \"Court of Justice's Couture.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprints",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390809",
+            "name": "Court of Justice's Diligence",
+            "description": "A detailed step-by-step blueprint for making a \"Court of Justice's Diligence.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprints",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390808",
+            "name": "Court of Justice's Commerce",
+            "description": "A detailed step-by-step blueprint for making a \"Court of Justice's Commerce.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprints",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390807",
+            "name": "Court of Justice's Merchandise",
+            "description": "A detailed step-by-step blueprint for making a \"Court of Justice's Merchandise.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprints",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390806",
+            "name": "Court of Justice's Prosperity",
+            "description": "A detailed step-by-step blueprint for making a \"Court of Justice's Prosperity.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprints",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390805",
+            "name": "Court of Justice's Mellow Aroma",
+            "description": "A detailed step-by-step blueprint for making a \"Court of Justice's Mellow Aroma.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprints",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390804",
+            "name": "Court of Justice's Conscientiousness",
+            "description": "A detailed step-by-step blueprint for making a \"Court of Justice's Conscientiousness.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprints",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390803",
+            "name": "Court of Justice's Artistry",
+            "description": "A detailed step-by-step blueprint for making a \"Court of Justice's Artistry.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprints",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390802",
+            "name": "Court of Justice's Steel",
+            "description": "A detailed step-by-step blueprint for making a \"Court of Justice's Steel.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprints",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390801",
+            "name": "Court of Justice's Valor",
+            "description": "A detailed step-by-step blueprint for making a \"Court of Justice's Valor.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprints",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390800",
+            "name": "Court of Justice's Leisure",
+            "description": "A detailed step-by-step blueprint for making a \"Court of Justice's Leisure.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprints",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390737",
+            "name": "\"Fine Sand in Warm Weather\"",
+            "description": "A detailed step-by-step blueprint for making \"Fine Sand in Warm Weather.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390736",
+            "name": "Singing in the Tranquil Court",
+            "description": "A detailed step-by-step blueprint for making a \"Singing in the Tranquil Court.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390735",
+            "name": "Tea Fragrance in the Tranquil Court",
+            "description": "A detailed step-by-step blueprint for making a \"Tea Fragrance in the Tranquil Court.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390734",
+            "name": "Night of Serenity in the Sandy Breeze",
+            "description": "A detailed step-by-step blueprint for making a Night of Serenity in the Sandy Breeze.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390733",
+            "name": "Silky Queller of Sea Monsters",
+            "description": "A detailed step-by-step blueprint for making a \"Silky Queller of Sea Monsters.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390732",
+            "name": "Errands in the City of Wisdom",
+            "description": "A detailed step-by-step blueprint for making Errands in the City of Wisdom.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390731",
+            "name": "Peace in the City of Wisdom",
+            "description": "A detailed step-by-step blueprint for making Peace in the City of Wisdom.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390730",
+            "name": "Contrasts of the City of Wisdom",
+            "description": "A detailed step-by-step blueprint for making Contrasts of the City of Wisdom.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390729",
+            "name": "Building Block of the City of Wisdom",
+            "description": "A detailed step-by-step blueprint for making Building Block of the City of Wisdom.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390728",
+            "name": "Diligence of the City of Wisdom",
+            "description": "A detailed step-by-step blueprint for making Diligence of the City of Wisdom.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390727",
+            "name": "Pottery of the City of Wisdom",
+            "description": "A detailed step-by-step blueprint for making Pottery of the City of Wisdom.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390726",
+            "name": "Fabric of the City of Wisdom",
+            "description": "A detailed step-by-step blueprint for making Fabric of the City of Wisdom.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390724",
+            "name": "Light in the Tranquil Court",
+            "description": "A detailed step-by-step blueprint for making a Light in the Tranquil Court.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390723",
+            "name": "Shade in the Tranquil Court",
+            "description": "A detailed step-by-step blueprint for making a Shade in the Tranquil Court.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390722",
+            "name": "Commerce of the City of Wisdom",
+            "description": "A detailed step-by-step blueprint for making Commerce of the City of Wisdom.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390721",
+            "name": "Tenacity of the City of Wisdom",
+            "description": "A detailed step-by-step blueprint for making Tenacity of the City of Wisdom.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390720",
+            "name": "Aromas of the City of Wisdom",
+            "description": "A detailed step-by-step blueprint for making Aromas of the City of Wisdom.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390719",
+            "name": "Delicacies of the City of Wisdom",
+            "description": "A detailed step-by-step blueprint for making Delicacies of the City of Wisdom.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390718",
+            "name": "Treasures of the City of Wisdom",
+            "description": "A detailed step-by-step blueprint for making Treasures of the City of Wisdom.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390716",
+            "name": "Mansion Courtyard \u2014 Cuisinier's Abode",
+            "description": "A detailed step-by-step blueprint for making a Mansion Courtyard \u2014 Cuisinier's Abode.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390715",
+            "name": "Mansion Courtyard \u2014 Place of Repose",
+            "description": "A detailed step-by-step blueprint for making a Mansion Courtyard \u2014 Place of Repose.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390714",
+            "name": "Mansion Courtyard \u2014 Watchtower of Foresight",
+            "description": "A detailed step-by-step blueprint for making a Mansion Courtyard \u2014 Watchtower of Foresight.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390713",
+            "name": "Mansion Courtyard \u2014 Warbling Pavilion",
+            "description": "A detailed step-by-step blueprint for making a Mansion Courtyard \u2014 Warbling Pavilion.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390712",
+            "name": "Mansion Pagoda \u2014 Tree of Pondering",
+            "description": "A detailed step-by-step blueprint for making a Mansion Pagoda \u2014 Tree of Pondering.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390711",
+            "name": "Mansion Pagoda \u2014 Flower of Revelation",
+            "description": "A detailed step-by-step blueprint for making a Mansion Pagoda \u2014 Flower of Revelation.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390710",
+            "name": "Desert House: Save and Store",
+            "description": "A detailed step-by-step blueprint for making a Desert House: Save and Store.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390709",
+            "name": "Desert House: Hidden Light",
+            "description": "A detailed step-by-step blueprint for making a Desert House: Hidden Light.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390708",
+            "name": "Desert House: Brief Sleep",
+            "description": "A detailed step-by-step blueprint for making a Desert House: Brief Sleep.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390707",
+            "name": "Desert House: Hue and Cry",
+            "description": "A detailed step-by-step blueprint for making a Desert House: Hue and Cry.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390706",
+            "name": "Desert House: Spices Abound",
+            "description": "A detailed step-by-step blueprint for making a Desert House: Spices Abound.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390705",
+            "name": "Desert House: Ordinary Lives",
+            "description": "A detailed step-by-step blueprint for making a Desert House: Ordinary Lives.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390704",
+            "name": "Deepwood Dweller's Perseverance",
+            "description": "A detailed step-by-step blueprint for making Deepwood Dweller's Perseverance.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390703",
+            "name": "Deepwood Dweller's Lonesome",
+            "description": "A detailed step-by-step blueprint for making Deepwood Dweller's Lonesome.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390702",
+            "name": "Deepwood Dweller's Estimation",
+            "description": "A detailed step-by-step blueprint for making Deepwood Dweller's Estimation.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390701",
+            "name": "Deepwood Dweller's Deliberation",
+            "description": "A detailed step-by-step blueprint for making Deepwood Dweller's Deliberation.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390630",
+            "name": "Inazuman Home: Stormhouse",
+            "description": "A detailed step-by-step blueprint for making an Inazuman Home: Stormhouse.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390629",
+            "name": "Inazuman Home: House of Coral",
+            "description": "A detailed step-by-step blueprint for making an Inazuman Home: House of Coral.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390628",
+            "name": "Inazuman Home: Watatsumi Reminiscence",
+            "description": "A detailed step-by-step blueprint for making an Inazuman Home: Watatsumi Reminiscence.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390627",
+            "name": "Estate Storehouse: We Have Reserves",
+            "description": "A detailed step-by-step blueprint for making an Estate Storehouse: We Have Reserves.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390626",
+            "name": "Estate Reception: Prim and Proper",
+            "description": "A detailed step-by-step blueprint for making an Estate Reception: Prim and Proper.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390625",
+            "name": "Shrine Annex: Pleased to Serve",
+            "description": "A detailed step-by-step blueprint for making a Shrine Annex: Pleased to Serve.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390624",
+            "name": "Shrine Hall: Gentle Wishes",
+            "description": "A detailed step-by-step blueprint for making a Shrine Hall: Gentle Wishes.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390623",
+            "name": "Fortune Slip Stand: Omen-Reader",
+            "description": "A detailed step-by-step blueprint for making a Fortune Slip Stand: Omen-Reader.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390621",
+            "name": "Camp Gate: Fealty",
+            "description": "A detailed step-by-step blueprint for making a Camp Gate: Fealty.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390620",
+            "name": "Camp Dwelling: Shoring Up",
+            "description": "A detailed step-by-step blueprint for making a Camp Dwelling: Shoring Up.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390619",
+            "name": "Camp Tent: Timely Tactics",
+            "description": "A detailed step-by-step blueprint for making a Camp Tent: Timely Tactics.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390618",
+            "name": "Camp Watchtower: Viewport",
+            "description": "A detailed step-by-step blueprint for making a Camp Watchtower: Viewport.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390617",
+            "name": "Official Residence Corridor: Power's Reach",
+            "description": "A detailed step-by-step blueprint for making an Inazuman Official Residence: Power's Reach.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390616",
+            "name": "Inazuman Official Residence: Strict Adherence",
+            "description": "A detailed step-by-step blueprint for making an Inazuman Official Residence: Strict Adherence.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390615",
+            "name": "Inazuman Official Residence: Forcefulness",
+            "description": "A detailed step-by-step blueprint for making an Inazuman Official Residence: Forcefulness.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390614",
+            "name": "Inazuman Home: Irreplaceable Foresight",
+            "description": "A detailed step-by-step blueprint for making an Inazuman Home: Irreplaceable Foresight.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390613",
+            "name": "Inazuman Workshop: Sweetness Sought",
+            "description": "A detailed step-by-step blueprint for making an Inazuman Workshop: Sweetness Sought.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390612",
+            "name": "Inazuman Home: Clanking Metal",
+            "description": "A detailed step-by-step blueprint for making an Inazuman Home: Clanking Metal.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390611",
+            "name": "Inazuman Workshop: Multipurpose",
+            "description": "A detailed step-by-step blueprint for making an Inazuman Workshop: Multipurpose.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390610",
+            "name": "Inazuman Bamboo-Roofed Home: Wild Heart",
+            "description": "A detailed step-by-step blueprint for making an Inazuman Bamboo-Roofed Home: Wild Heart.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390609",
+            "name": "Inazuman Bamboo-Roofed Home: The Long Peace",
+            "description": "A detailed step-by-step blueprint for making an Inazuman Bamboo-Roofed Home: The Long Peace.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390608",
+            "name": "Inazuman Home: Routine Dimensions",
+            "description": "A detailed step-by-step blueprint for making an Inazuman Home: Routine Dimensions.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390607",
+            "name": "Inazuman Workshop: Exhaustive Regularity",
+            "description": "A detailed step-by-step blueprint for making an Inazuman Workshop: Exhaustive Regularity.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390606",
+            "name": "Inazuman Home: Easy Adaptation",
+            "description": "A detailed step-by-step blueprint for making an Inazuman Home: Easy Adaptation.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390605",
+            "name": "Inazuman Home: The Work of Generations",
+            "description": "A detailed step-by-step blueprint for making an Inazuman Home: The Work of Generations.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390604",
+            "name": "Inazuman Store: Numberless Gems",
+            "description": "A detailed step-by-step blueprint for making an Inazuman Store: Numberless Gems.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390603",
+            "name": "Inazuman Mansion: As One",
+            "description": "A detailed step-by-step blueprint for making an Inazuman Mansion: As One.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390602",
+            "name": "Cleansing Shrine",
+            "description": "A detailed step-by-step blueprint for making a Cleansing Shrine.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390601",
+            "name": "Ritual Shrine",
+            "description": "A detailed step-by-step blueprint for making a Ritual Shrine.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390530",
+            "name": "Magical Forest Hut",
+            "description": "A detailed step-by-step blueprint for making a \"Magical Forest Hut.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390529",
+            "name": "Ding-Dong Unit",
+            "description": "A detailed step-by-step blueprint for making a \"Ding-Dong Unit.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390528",
+            "name": "Boom-Boom Unit",
+            "description": "A detailed step-by-step blueprint for making a \"Boom-Boom Unit.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390527",
+            "name": "Metropole Funhouse: Conductor",
+            "description": "A detailed step-by-step blueprint for making a Metropole Funhouse: Conductor.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390526",
+            "name": "Metropole Funhouse: Cymbalist",
+            "description": "A detailed step-by-step blueprint for making a Metropole Funhouse: Cymbalist.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390525",
+            "name": "Metropole Funhouse: Trumpeter",
+            "description": "A detailed step-by-step blueprint for making a Metropole Funhouse: Trumpeter.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390524",
+            "name": "\"Site of Artful Ascension\"",
+            "description": "A detailed step-by-step blueprint for making a \"Site of Artful Ascension.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390523",
+            "name": "Amusement Park Celebration Tent",
+            "description": "A detailed step-by-step blueprint for making an Amusement Park Celebration Tent.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390522",
+            "name": "Sample Amusement Park \"Building\"",
+            "description": "A detailed step-by-step blueprint for making a Sample Amusement Park \"Building.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390521",
+            "name": "Sample Amusement Park \"Engineering\"",
+            "description": "A detailed step-by-step blueprint for making Sample Amusement Park \"Engineering.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390520",
+            "name": "Choo-Choo Cart Rest Stop",
+            "description": "A detailed step-by-step blueprint for making a Choo-Choo Cart Rest Stop.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390518",
+            "name": "Dodoco's Summertime",
+            "description": "A detailed step-by-step blueprint for making Dodoco's Summertime.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390517",
+            "name": "Festival Booth - \"Literary Talent\"",
+            "description": "A detailed step-by-step blueprint for making a Festival Booth - \"Literary Talent.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390516",
+            "name": "Festival Booth - \"Strange Wonders\"",
+            "description": "A detailed step-by-step blueprint for making a Festival Booth - \"Strange Wonders.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390515",
+            "name": "Rainbow Stall: Ruby Red",
+            "description": "A detailed step-by-step blueprint for making a Rainbow Stall: Ruby Red.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390514",
+            "name": "Rainbow Stall: Ultramarine",
+            "description": "A detailed step-by-step blueprint for making a Rainbow Stall: Ultramarine.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390513",
+            "name": "Fine Stall: Splash of Color",
+            "description": "A detailed step-by-step blueprint for making a Fine Stall: Splash of Color.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390512",
+            "name": "\"Kouki\" Aralia Mask Rack",
+            "description": "A detailed step-by-step blueprint for making a \"Kouki\" Aralia Mask Rack.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390511",
+            "name": "Festival \"Kiban\" Store",
+            "description": "A detailed step-by-step blueprint for making a Festival \"Kiban\" Store.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390510",
+            "name": "Festival \"Teiban\" Store",
+            "description": "A detailed step-by-step blueprint for making a Festival \"Teiban\" Store.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390509",
+            "name": "Fruit and Veggie Stall: Good Honest Flavor",
+            "description": "A detailed step-by-step blueprint for making a Fruit and Veggie Stall: Good Honest Flavor.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390508",
+            "name": "Umbrella Shop: Drapes of Differing Dreams",
+            "description": "A detailed step-by-step blueprint for making an Umbrella Shop: Drapes of Differing Dreams.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390507",
+            "name": "Otogi Wood Granary Cart",
+            "description": "A detailed step-by-step blueprint for making an Otogi Wood Granary Cart.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390505",
+            "name": "Otogi Wood Rice Cake Soup Stand",
+            "description": "A detailed step-by-step blueprint for making an Otogi Wood Rice Cake Soup Stand.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390504",
+            "name": "Simple Single-Person Tent",
+            "description": "A detailed step-by-step blueprint for making a Simple Single-Person Tent.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390503",
+            "name": "Lightning Protective Tent",
+            "description": "A detailed step-by-step blueprint for making a Lightning Protective Tent.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390502",
+            "name": "Straw Shed",
+            "description": "A detailed step-by-step blueprint for making a Straw Shed.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390501",
+            "name": "\"Clouds East of Bishui\"",
+            "description": "A detailed step-by-step blueprint for making \"Clouds East of Bishui.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390402",
+            "name": "Hilichurl Chieftain Hall",
+            "description": "A detailed step-by-step blueprint for making a Hilichurl Chieftain Hall.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390401",
+            "name": "Hilichurl Outpost Hut",
+            "description": "A detailed step-by-step blueprint for making a Hilichurl Outpost Hut.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390342",
+            "name": "Nasha Stall: Unending Search",
+            "description": "A detailed step-by-step blueprint for making a Nasha Stall: Unending Search.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390341",
+            "name": "Nasha Stall: Emergency Provisions",
+            "description": "A detailed step-by-step blueprint for making a Nasha Stall: Emergency Provisions.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390340",
+            "name": "Alluring Flavors of the Sacred Flame",
+            "description": "A detailed step-by-step blueprint for making \"Alluring Flavors of the Sacred Flame.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390339",
+            "name": "Curious Countenances of the Sacred Flame",
+            "description": "A detailed step-by-step blueprint for making \"Curious Countenances of the Sacred Flame.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390338",
+            "name": "Glorious Hues of the Sacred Flame",
+            "description": "A detailed step-by-step blueprint for making \"Glorious Hues of the Sacred Flame.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390337",
+            "name": "Woven Hut: Rhythmic Stripes",
+            "description": "A detailed step-by-step blueprint for making a \"Woven Hut: Rhythmic Stripes.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390336",
+            "name": "Woven Hut: Serene Indigo",
+            "description": "A detailed step-by-step blueprint for making a \"Woven Hut: Serene Indigo.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390335",
+            "name": "\"Sales Savvy 101\"",
+            "description": "A detailed step-by-step blueprint for making \"Sales Savvy 101.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390333",
+            "name": "Music Town's Hut: \"Mardouce Harmony\"",
+            "description": "A detailed step-by-step blueprint for making Music Town's Hut: \"Mardouce Harmony.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390332",
+            "name": "\"Poisson's Seasonal Produce\"",
+            "description": "A detailed step-by-step blueprint for making \"Poisson's Seasonal Produce.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390331",
+            "name": "\"Quick Temporary Workshed\"",
+            "description": "A detailed step-by-step blueprint for making a \"Quick Temporary Workshed.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390330",
+            "name": "Passage's Principles of Punctuality",
+            "description": "A detailed step-by-step blueprint for making Passage's Principles of Punctuality.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprints",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390329",
+            "name": "Passage's Plentiful Produce",
+            "description": "A detailed step-by-step blueprint for making Passage's Plentiful Produce.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprints",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390328",
+            "name": "Passage's Polychromatic Potted Plants",
+            "description": "A detailed step-by-step blueprint for making Passage's Polychromatic Potted Plants.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprints",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390327",
+            "name": "Machine-Dyed Awning: \"Lumidouce Blue\"",
+            "description": "A detailed step-by-step blueprint for making a Machine-Dyed Awning: \"Lumidouce Blue.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprints",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390326",
+            "name": "Machine-Dyed Awning: \"Marcotte Red\"",
+            "description": "A detailed step-by-step blueprint for making a Machine-Dyed Awning: \"Marcotte Red.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprints",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390325",
+            "name": "Adhigama Wood Open-Air Food Stall",
+            "description": "A detailed step-by-step blueprint for making an Adhigama Wood Open-Air Food Stall.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390324",
+            "name": "Karmaphala Wood Bulk Goods Berth",
+            "description": "A detailed step-by-step blueprint for making a Karmaphala Wood Bulk Goods Berth.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390323",
+            "name": "Deliberation of Choice",
+            "description": "A detailed step-by-step blueprint for making a Deliberation of Choice.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390322",
+            "name": "Abundance of Crisp Air",
+            "description": "A detailed step-by-step blueprint for making an Abundance of Crisp Air.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390321",
+            "name": "Brightwood Kebab Cart",
+            "description": "A detailed step-by-step blueprint for making a Brightwood Kebab Cart.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390320",
+            "name": "Brightwood Grocery Stall",
+            "description": "A detailed step-by-step blueprint for making a Brightwood Grocery Stall.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390319",
+            "name": "Fisherman's Maintenance",
+            "description": "A detailed step-by-step blueprint for making a Fisherman's Maintenance.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390318",
+            "name": "Fisherman's Preservation Trick",
+            "description": "A detailed step-by-step blueprint for making a Fisherman's Preservation Trick.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390317",
+            "name": "Fisherman's Dealings",
+            "description": "A detailed step-by-step blueprint for making a Fisherman's Dealings.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390316",
+            "name": "Sweetness in Storage",
+            "description": "A detailed step-by-step blueprint for making Sweetness in Storage.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390315",
+            "name": "Sweetness in the Shade",
+            "description": "A detailed step-by-step blueprint for making Sweetness in the Shade.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390314",
+            "name": "Sweetness in Exchange",
+            "description": "A detailed step-by-step blueprint for making Sweetness in Exchange.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390313",
+            "name": "Woven Fruition",
+            "description": "A detailed step-by-step blueprint for making Woven Fruition.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390312",
+            "name": "Woven Length",
+            "description": "A detailed step-by-step blueprint for making Woven Length.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390311",
+            "name": "Woven Depth",
+            "description": "A detailed step-by-step blueprint for making Woven Depth.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390310",
+            "name": "Otogi Wood Ramen Stand",
+            "description": "A detailed step-by-step blueprint for making an Otogi Wood Ramen Stand.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390309",
+            "name": "Fruit and Veggie Stall: Harvest Bounties",
+            "description": "A detailed step-by-step blueprint for making a Fruit and Veggie Stall: Harvest Bounties.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390308",
+            "name": "\"Four-Quadrant Cooking Cauldron\"",
+            "description": "A detailed step-by-step blueprint for making a Four-Quadrant Cooking Cauldron.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390307",
+            "name": "Roll-Roofed Fruit and Vegetable Cart",
+            "description": "A detailed step-by-step blueprint for making a Roll-Roofed Fruit and Vegetable Cart.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390306",
+            "name": "\"Traveling Merchant North of the Stone Gate\"",
+            "description": "A detailed step-by-step blueprint for making \"Traveling Merchant North of the Stone Gate.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390305",
+            "name": "Bountiful Harvest Fruit Cart",
+            "description": "A detailed step-by-step blueprint for making a Bountiful Harvest Fruit Cart.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390304",
+            "name": "Open-Air Workshop",
+            "description": "A detailed step-by-step blueprint for making an Open-Air Workshop.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390303",
+            "name": "Real Deal Fruit Stand",
+            "description": "A detailed step-by-step blueprint for making a Real Deal Fruit Stand.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390302",
+            "name": "Profitable Fruit Stand",
+            "description": "A detailed step-by-step blueprint for making a Profitable Fruit Stand.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390301",
+            "name": "Bustling Sundry Stand",
+            "description": "A detailed step-by-step blueprint for making a Bustling Sundry Stand.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390208",
+            "name": "Liyue House: Time Waits for No One",
+            "description": "A detailed step-by-step blueprint for making a Liyue House: Time Waits for No One.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390207",
+            "name": "Pocket-Sized Pine Cabin",
+            "description": "A detailed step-by-step blueprint for making a Pocket-Sized Pine Cabin.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390206",
+            "name": "Classic Country Home",
+            "description": "A detailed step-by-step blueprint for making a Classic Country Home.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390205",
+            "name": "Country Home With Tall Attic",
+            "description": "A detailed step-by-step blueprint for making a Country Home With Tall Attic.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390204",
+            "name": "Old Wind-Resistant Mondstadt House",
+            "description": "A detailed step-by-step blueprint for making an Old Wind-Resistant Mondstadt House.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390203",
+            "name": "Warm and Dry Mondstadt Apartment",
+            "description": "A detailed step-by-step blueprint for making a Warm and Dry Mondstadt Apartment.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390202",
+            "name": "Mondstadt House With Overhanging Attic",
+            "description": "A detailed step-by-step blueprint for making a Mondstadt House With Overhanging Attic.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390201",
+            "name": "Multi-Arched Mondstadt Building",
+            "description": "A detailed step-by-step blueprint for making a Multi-Arched Mondstadt Building.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390132",
+            "name": "\"Port's Fabulous Flavors\"",
+            "description": "A detailed step-by-step blueprint for making \"Port's Fabulous Flavors.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390131",
+            "name": "Valley Residence: It's Classified",
+            "description": "A detailed step-by-step blueprint for making Valley Residence: It's Classified.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390130",
+            "name": "Valley Residence: Measured Building",
+            "description": "A detailed step-by-step blueprint for making Valley Residence: Measured Building.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390129",
+            "name": "Valley Residence: Tender Countryside",
+            "description": "A detailed step-by-step blueprint for making Valley Residence: Tender Countryside.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390128",
+            "name": "Valley Residence: Total Focus",
+            "description": "A detailed step-by-step blueprint for making Valley Residence: Total Focus.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390127",
+            "name": "Valley Residence: Custom Complexity",
+            "description": "A detailed step-by-step blueprint for making Valley Residence: Custom Complexity.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390126",
+            "name": "Valley Residence: Tranquility",
+            "description": "A detailed step-by-step blueprint for making Valley Residence: Tranquility.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390125",
+            "name": "Valley Residence: Towering Mountains",
+            "description": "A detailed step-by-step blueprint for making Valley Residence: Towering Mountains.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390124",
+            "name": "Valley Watchtower: Vigilance",
+            "description": "A detailed step-by-step blueprint for making Valley Watchtower: Vigilance.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390123",
+            "name": "Valley Pergola: Sun and Rain",
+            "description": "A detailed step-by-step blueprint for making Valley Pergola: Sun and Rain.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390122",
+            "name": "Valley Stone Archway: Recurring Omen of Abundance",
+            "description": "A detailed step-by-step blueprint for making Valley Stone Archway: Recurring Omen of Abundance.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390121",
+            "name": "Valley Pavilion: Warm Daylight",
+            "description": "A detailed step-by-step blueprint for making Valley Pavilion: Warm Daylight.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390120",
+            "name": "Valley Veranda: From Solid Foundations to Thrive",
+            "description": "A detailed step-by-step blueprint for making Valley Veranda: From Solid Foundations to Thrive.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390119",
+            "name": "Valley Veranda: Distant Beginnings",
+            "description": "A detailed step-by-step blueprint for making Valley Veranda: Distant Beginnings.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390118",
+            "name": "Valley Stage: Billowing Cloud Waves",
+            "description": "A detailed step-by-step blueprint for making Valley Stage: Billowing Cloud Waves.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390117",
+            "name": "Valley Store: The Leisure of Tea",
+            "description": "A detailed step-by-step blueprint for making Valley Store: The Leisure of Tea.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390116",
+            "name": "Pear Orchard Stage: Yun-Han Style",
+            "description": "A detailed step-by-step blueprint for making a Pear Orchard Stage: Yun-Han Style.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390115",
+            "name": "Yumemiru \"Decorum\" Kimono Rack",
+            "description": "A detailed step-by-step blueprint for making a Yumemiru \"Decorum\" Kimono Rack.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390114",
+            "name": "Yumemiru \"Dewcover\" Wardrobe",
+            "description": "A detailed step-by-step blueprint for making a Yumemiru \"Dewcover\" Wardrobe.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390113",
+            "name": "Aralia \"Fusen\" Cupboard",
+            "description": "A detailed step-by-step blueprint for making an Aralia \"Fusen\" Cupboard.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390112",
+            "name": "Aralia \"Bangaku\" Shelf",
+            "description": "A detailed step-by-step blueprint for making an Aralia \"Bangaku\" Shelf.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390111",
+            "name": "\"Hyoutei\" Stacked Aralia Wood Boxes",
+            "description": "A detailed step-by-step blueprint for making \"Hyoutei\" Stacked Aralia Wood Boxes.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390110",
+            "name": "Pavilion: Stargazer's Shelter",
+            "description": "A detailed step-by-step blueprint for making a Pavilion: Stargazer's Shelter.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390109",
+            "name": "Wing House: Dawn & Dusk",
+            "description": "A detailed step-by-step blueprint for making a Wing House: Dawn & Dusk.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390108",
+            "name": "Liyue Shop: Citywide Favorite",
+            "description": "A detailed step-by-step blueprint for making a Liyue Shop: Citywide Favorite.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390107",
+            "name": "Liyue House: Amity Abounds",
+            "description": "A detailed step-by-step blueprint for making a Liyue House: Amity Abounds.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390106",
+            "name": "Liyue House: Moon-Crested Eaves",
+            "description": "A detailed step-by-step blueprint for making a Liyue House: Moon-Crested Eaves.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390105",
+            "name": "Liyue Pitstop: Tea Fragrance on the Old Road",
+            "description": "A detailed step-by-step blueprint for making a Liyue Pitstop: Tea Fragrance on the Old Road.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390104",
+            "name": "Liyue House: Of Timber and Stone",
+            "description": "A detailed step-by-step blueprint for making a Liyue House: Of Timber and Stone.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390103",
+            "name": "Liyue House: Solitary Retreat",
+            "description": "A detailed step-by-step blueprint for making a Liyue House: Solitary Retreat.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390102",
+            "name": "Straw Depot",
+            "description": "A detailed step-by-step blueprint for making a Straw Depot.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "390101",
+            "name": "Straw Hut",
+            "description": "A detailed step-by-step blueprint for making a Straw Hut.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "384525",
+            "name": "\"The Love One Seeks\"",
+            "description": "A detailed step-by-step blueprint for making \"The Love One Seeks.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "384524",
+            "name": "\"A Golden Winter\"",
+            "description": "A detailed step-by-step blueprint for making \"A Golden Winter.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "384501",
+            "name": "Lingering Moment",
+            "description": "A detailed step-by-step blueprint for making Lingering Moment.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "384230",
+            "name": "Temple Wall Lamp: \"Warm Radiance\"",
+            "description": "A detailed step-by-step blueprint for making a Temple Wall Lamp: \"Warm Radiance.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "384229",
+            "name": "Tavern Wall Lamp: Hovering Hallway Light",
+            "description": "A detailed step-by-step blueprint for making a Tavern Wall Lamp: Hovering Hallway Light.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "384228",
+            "name": "Banner of the Lightkeepers",
+            "description": "A detailed step-by-step blueprint for making \"Banner of the Lightkeepers.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "384227",
+            "name": "Steadfast as Iron",
+            "description": "A detailed step-by-step blueprint for making \"Steadfast as Iron.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "384226",
+            "name": "Flag of Piramida",
+            "description": "A detailed step-by-step blueprint for making a Flag of Piramida.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "384225",
+            "name": "Tavern Notice: Whispers of the Street",
+            "description": "A detailed step-by-step blueprint for making \"Tavern Notice: Whispers of the Street.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "384224",
+            "name": "Tavern Dartboard: \"Valid Throw\"",
+            "description": "A detailed step-by-step blueprint for making a Tavern Dartboard: \"Valid Throw.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "384223",
+            "name": "Factory Broadcast: \"Invigoration\"",
+            "description": "A detailed step-by-step blueprint for making a Factory Broadcast: \"Invigoration.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "384222",
+            "name": "Savey-Wavey Life Ring",
+            "description": "A detailed step-by-step blueprint for making a \"Savey-Wavey Life Ring.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "384221",
+            "name": "Bobbly-Wobbly Water Donut",
+            "description": "A detailed step-by-step blueprint for making a \"Bobbly-Wobbly Water Donut.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "384220",
+            "name": "Phlogiston Hanging Lamp: Road Guide",
+            "description": "A detailed step-by-step blueprint for making a Phlogiston Hanging Lamp: Road Guide.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "384219",
+            "name": "Meka Luminaire: \"Silent Night's Contemplation\"",
+            "description": "A detailed step-by-step blueprint for making Meka Luminaire: \"Silent Night's Contemplation.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "384218",
+            "name": "Indoor Lamp: The Twilight Sea",
+            "description": "A detailed step-by-step blueprint for making an Indoor Lamp: The Twilight Sea.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "384217",
+            "name": "Athelwood Metal Combat Shield",
+            "description": "A detailed step-by-step blueprint for making an Athelwood Metal Combat Shield.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "384216",
+            "name": "Forest Watcher's Considerations",
+            "description": "A detailed step-by-step blueprint for making Forest Watcher's Considerations.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "384215",
+            "name": "Desert Wall-Drapes: Flaming Feathers",
+            "description": "A detailed step-by-step blueprint for making Desert Wall-Drapes: Flaming Feathers.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "384214",
+            "name": "Desert Wall-Drapes: Sunset",
+            "description": "A detailed step-by-step blueprint for making Desert Wall-Drapes: Sunset.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "384213",
+            "name": "Athelwood Metal Buckler",
+            "description": "A detailed step-by-step blueprint for making an Athelwood Metal Buckler.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "384211",
+            "name": "Embroidered Curtains",
+            "description": "A detailed step-by-step blueprint for making Embroidered Curtains.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "384210",
+            "name": "Mounted Noticeboard",
+            "description": "A detailed step-by-step blueprint for making a Mounted Noticeboard.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "384209",
+            "name": "Mounted Record Board",
+            "description": "A detailed step-by-step blueprint for making a Mounted Record Board.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "384208",
+            "name": "Favonius Coat of Arms",
+            "description": "A detailed step-by-step blueprint for making a Favonius Coat of Arms.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "384207",
+            "name": "Pure Spirit Banner",
+            "description": "A detailed step-by-step blueprint for making a Pure Spirit Banner.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "384206",
+            "name": "Rally Banner",
+            "description": "A detailed step-by-step blueprint for making a Rally Banner.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "384205",
+            "name": "Well-Worn Sword",
+            "description": "A detailed step-by-step blueprint for making a Well-Worn Sword.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "384204",
+            "name": "Well-Worn Shield",
+            "description": "A detailed step-by-step blueprint for making a Well-Worn Shield.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "384203",
+            "name": "Well-Worn Buckler",
+            "description": "A detailed step-by-step blueprint for making a Well-Worn Buckler.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "384202",
+            "name": "Bright Vase-Shaped Sconce",
+            "description": "A detailed step-by-step blueprint for making a Bright Vase-Shaped Sconce.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "384201",
+            "name": "Wooden Restaurant Signboard",
+            "description": "A detailed step-by-step blueprint for making a Wooden Restaurant Signboard.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "384110",
+            "name": "Replica Mural: Ancient Ritual in a Sea of Fog",
+            "description": "A detailed step-by-step blueprint for making a Replica Mural: Ancient Ritual in a Sea of Fog.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "384109",
+            "name": "Replica Mural: Lone Peak in a Sea of Fog",
+            "description": "A detailed step-by-step blueprint for making a Replica Mural: Lone Peak in a Sea of Fog.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "384108",
+            "name": "Painted Vision: Stunning Waters",
+            "description": "A detailed step-by-step blueprint for making a Painted Vision: Stunning Waters.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "384107",
+            "name": "Painted Vision: Of Mountains and Skies Distant",
+            "description": "A detailed step-by-step blueprint for making a Painted Vision: Of Mountains and Skies Distant.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "384106",
+            "name": "Fine Brushwork: Mountains Rising From the Mist",
+            "description": "A detailed step-by-step blueprint for making \"Fine Brushwork: Mountains Rising From the Mist.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "384105",
+            "name": "Fine Brushwork: Bowl of Blossoms",
+            "description": "A detailed step-by-step blueprint for making \"Fine Brushwork: Bowl of Blossoms.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "384104",
+            "name": "Fine Brushwork: Peaks of Minlin",
+            "description": "A detailed step-by-step blueprint for making \"Fine Brushwork: Peaks of Minlin.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "384103",
+            "name": "Landscape Painting: Nameless Precipice",
+            "description": "A detailed step-by-step blueprint for making a Landscape Painting: Nameless Precipice.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "384102",
+            "name": "Landscape Painting: Distant Clouds",
+            "description": "A detailed step-by-step blueprint for making a Landscape Painting: Distant Clouds.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "384101",
+            "name": "Landscape Painting: Country Home",
+            "description": "A detailed step-by-step blueprint for making a Landscape Painting: Country Home.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383514",
+            "name": "Decorative Flowerbed: \"Brightcore Blossoms\"",
+            "description": "A detailed step-by-step blueprint for making Decorative Flowerbed: \"Brightcore Blossoms.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383513",
+            "name": "Potted Bouquet: \"Elegant Blackthorn\"",
+            "description": "A detailed step-by-step blueprint for making Potted Bouquet: \"Elegant Blackthorn\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383512",
+            "name": "Decorative Potted Plant: \"Budding Fragrance\"",
+            "description": "A detailed step-by-step blueprint for making a Decorative Potted Plant: \"Budding Fragrance.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383511",
+            "name": "Branches Against the Blue Sky",
+            "description": "A detailed step-by-step blueprint for making \"Branches Against the Blue Sky.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383510",
+            "name": "Mountain Fireworks",
+            "description": "A detailed step-by-step blueprint for making Mountain Fireworks.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383509",
+            "name": "Unbeaten Hero",
+            "description": "A detailed step-by-step blueprint for making Unbeaten Hero.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383508",
+            "name": "Echoes of the Shore",
+            "description": "A detailed step-by-step blueprint for making Echoes of the Shore.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383507",
+            "name": "Floral Arrangement: \"Art of Contrast\"",
+            "description": "A detailed step-by-step blueprint for making Floral Arrangement: \"Art of Contrast.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383506",
+            "name": "Floral Arrangement: \"Blooming Purity\"",
+            "description": "A detailed step-by-step blueprint for making Floral Arrangement: \"Blooming Purity.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383505",
+            "name": "Floral Arrangement: \"Nearly Aquamarine\"",
+            "description": "A detailed step-by-step blueprint for making Floral Arrangement: \"Nearly Aquamarine.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383504",
+            "name": "The Art of Retaining Water",
+            "description": "A detailed step-by-step blueprint for making \"The Art of Retaining Water.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383502",
+            "name": "Restorative Fragrance",
+            "description": "A detailed step-by-step blueprint for making a \"Restorative Fragrance.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383501",
+            "name": "\"Realizations from the Land of Wisdom\"",
+            "description": "A detailed step-by-step blueprint for making a \"Realizations from the Land of Wisdom.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383443",
+            "name": "\"Steady Companion Through Dreams\"",
+            "description": "A detailed step-by-step blueprint for making \"Steady Companion Through Dreams.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383442",
+            "name": "\"Balanced Boughs\"",
+            "description": "A detailed step-by-step blueprint for making \"Balanced Boughs.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383441",
+            "name": "\"Tea-Time Etiquette\"",
+            "description": "A detailed step-by-step blueprint for making \"Tea-Time Etiquette.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383416",
+            "name": "Tea Party Cup: Refreshing Flavor",
+            "description": "A detailed step-by-step blueprint for making \"Tea Party Cup: Refreshing Flavor.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383415",
+            "name": "Frost Moon Small Table: Aroma of Fresh Fruit",
+            "description": "A detailed step-by-step blueprint for making a Frost Moon Small Table: Aroma of Fresh Fruit.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383414",
+            "name": "Someone's Notes",
+            "description": "A detailed step-by-step blueprint for making \"Someone's Notes.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383413",
+            "name": "Burst of Appetite",
+            "description": "A detailed step-by-step blueprint for making \"Burst of Appetite.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383412",
+            "name": "Lucky Spin",
+            "description": "A detailed step-by-step blueprint for making \"Lucky Spin.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383411",
+            "name": "Gleam & Glow",
+            "description": "A detailed step-by-step blueprint for making \"Gleam & Glow.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383410",
+            "name": "Model Dish: Saurus Crackers",
+            "description": "A detailed step-by-step blueprint for making a \"Model Dish: Saurus Crackers.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383409",
+            "name": "Riding the Tranquil Waters",
+            "description": "A detailed step-by-step blueprint for making \"Riding the Tranquil Waters.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383408",
+            "name": "Towards Greater Heights",
+            "description": "A detailed step-by-step blueprint for making \"Towards Greater Heights.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383407",
+            "name": "Javelin Imminent",
+            "description": "A detailed step-by-step blueprint for making \"Javelin Imminent.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383406",
+            "name": "Windtracker",
+            "description": "A detailed step-by-step blueprint for making \"Windtracker.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383405",
+            "name": "Fair's Feasting and Drinking",
+            "description": "A detailed step-by-step blueprint for making \"Fair's Feasting and Drinking.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383404",
+            "name": "Model Dish: The Usual Selection",
+            "description": "A detailed step-by-step blueprint for making a Model Dish: The Usual Selection.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383403",
+            "name": "Model Dish: Not to Be Missed",
+            "description": "A detailed step-by-step blueprint for making a Model Dish: Not to Be Missed.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383402",
+            "name": "\"Mellow Tea in a Red Clay Pot\"",
+            "description": "A detailed step-by-step blueprint for making \"Mellow Tea in a Red Clay Pot.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383401",
+            "name": "Teahouse Tool: Miniscule Misses Make a Mile",
+            "description": "A detailed step-by-step blueprint for making a Teahouse Tool: Miniscule Misses Make a Mile.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383400",
+            "name": "\"Wind-and-Snowpiercer\"",
+            "description": "A detailed step-by-step blueprint for making \"Wind-and-Snowpiercer.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383399",
+            "name": "\"Round and Round, the Little Fish Go\"",
+            "description": "A detailed step-by-step blueprint for making \"Round and Round, the Little Fish Go.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383397",
+            "name": "Tea Party Cart: Dessert Time",
+            "description": "A detailed step-by-step blueprint for making \"Tea Party Cart: Dessert Time.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383384",
+            "name": "Flower-Shaped Machine Component",
+            "description": "A detailed step-by-step blueprint for making a Flower-Shaped Machine Component.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383382",
+            "name": "\"Sweet Dreams\"",
+            "description": "A detailed step-by-step blueprint for making \"Sweet Dreams.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383361",
+            "name": "Common-Use Note Holder",
+            "description": "A detailed step-by-step blueprint for making a Common-Use Note Holder.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383360",
+            "name": "Model Contraption: Reasonable Roundabout",
+            "description": "A detailed step-by-step blueprint for making a Model Contraption: Reasonable Roundabout.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383359",
+            "name": "\"Passage's Stable Storage\"",
+            "description": "A detailed step-by-step blueprint for making \"Passage's Stable Storage.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383358",
+            "name": "Compact Air Supply Device",
+            "description": "A detailed step-by-step blueprint for making a Compact Air Supply Device.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383357",
+            "name": "\"Maison Cardinalice's Clerk\"",
+            "description": "A detailed step-by-step blueprint for making \"Maison Cardinalice's Clerk.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383356",
+            "name": "\"Maison Cardinalice's Musical Tone\"",
+            "description": "A detailed step-by-step blueprint for making \"Maison Cardinalice's Musical Tone.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383352",
+            "name": "\"Prince's Weeping Fish\"",
+            "description": "A detailed step-by-step blueprint for making \"Prince's Weeping Fish.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprints",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383351",
+            "name": "Desk Combo - Verdant Totem",
+            "description": "A detailed step-by-step blueprint for making a Desk Combo - Verdant Totem.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprints",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383350",
+            "name": "Desk Combo - Middlelake Isle",
+            "description": "A detailed step-by-step blueprint for making a Desk Combo - Middlelake Isle.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprints",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383347",
+            "name": "\"The Dust Differential\"",
+            "description": "A detailed step-by-step blueprint for making \"The Dust Differential.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383346",
+            "name": "\"In Drink's Clarity\"",
+            "description": "A detailed step-by-step blueprint for making \"In Drink's Clarity.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383345",
+            "name": "\"Sweet and Fruity\" Painted Plate",
+            "description": "A detailed step-by-step blueprint for making a \"Sweet and Fruity\" Painted Plate.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383344",
+            "name": "\"Salty and Meaty\" Painted Plate",
+            "description": "A detailed step-by-step blueprint for making a \"Salty and Meaty\" Painted Plate.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383343",
+            "name": "Hued Vase: Eventide",
+            "description": "A detailed step-by-step blueprint for making a Hued Vase: Eventide.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383342",
+            "name": "Star-Shaped Multipurpose Bottle",
+            "description": "A detailed step-by-step blueprint for making a Star-Shaped Multipurpose Bottle.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383341",
+            "name": "Hued Vase: Sprout",
+            "description": "A detailed step-by-step blueprint for making a Hued Vase: Sprout.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383340",
+            "name": "Deepwood Dweller's Brilliance",
+            "description": "A detailed step-by-step blueprint for making Deepwood Dweller's Brilliance.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383339",
+            "name": "Deepwood Dweller's Ingenuity",
+            "description": "A detailed step-by-step blueprint for making Deepwood Dweller's Ingenuity.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383338",
+            "name": "Amidst Bitter Aromas",
+            "description": "A detailed step-by-step blueprint for making Amidst Bitter Aromas.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383337",
+            "name": "Ephemeral Spirit",
+            "description": "A detailed step-by-step blueprint for making Ephemeral Spirit.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383336",
+            "name": "Ceramic Centerpiece",
+            "description": "A detailed step-by-step blueprint for making a Ceramic Centerpiece.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383335",
+            "name": "Appraiser's Treasure",
+            "description": "A detailed step-by-step blueprint for making Appraiser's Treasure.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383332",
+            "name": "The Twisting Mist",
+            "description": "A detailed step-by-step blueprint for making The Twisting Mist.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383331",
+            "name": "The Crisp Sweetness",
+            "description": "A detailed step-by-step blueprint for making The Crisp Sweetness.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383330",
+            "name": "The Mellow Pot",
+            "description": "A detailed step-by-step blueprint for making The Mellow Pot.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383326",
+            "name": "Jubilant Posture",
+            "description": "A detailed step-by-step blueprint for making Jubilant Posture.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383325",
+            "name": "A Lush Glimpse",
+            "description": "A detailed step-by-step blueprint for making A Lush Glimpse.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383322",
+            "name": "Cosmos Within",
+            "description": "A detailed step-by-step blueprint for making a Cosmos Within.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383318",
+            "name": "\"True Cookery\": Nuki-Nuki Daruma",
+            "description": "A detailed step-by-step blueprint for making a \"True Cookery\": Nuki-Nuki Daruma.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383317",
+            "name": "\"Divine Nose:\" Kitsu-Kitsu Daruma",
+            "description": "A detailed step-by-step blueprint for making a \"Divine Nose:\" Kitsu-Kitsu Daruma.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383316",
+            "name": "Spiritchaser Screen",
+            "description": "A detailed step-by-step blueprint for making a Spiritchaser Screen.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383315",
+            "name": "Evil-Slaying Bows",
+            "description": "A detailed step-by-step blueprint for making Evil-Slaying Bows.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383314",
+            "name": "Calligraphy Set: Proper Penmanship",
+            "description": "A detailed step-by-step blueprint for making a Calligraphy Set: Proper Penmanship.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383313",
+            "name": "Teahouse Vessel: Scent-Sealer",
+            "description": "A detailed step-by-step blueprint for making a Teahouse Vessel: Scent-Sealer.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383312",
+            "name": "\"Tea Wisp-Clouded White Couch\"",
+            "description": "A detailed step-by-step blueprint for making a \"Tea Wisp-Clouded White Couch.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383310",
+            "name": "Glazed Porcelain Tea Set: \"Embracing Truth\"",
+            "description": "A detailed step-by-step blueprint for making a Glazed Porcelain Tea Set: \"Embracing Truth.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383309",
+            "name": "Golden Triple-Arm Candelabrum",
+            "description": "A detailed step-by-step blueprint for making a Golden Triple-Arm Candelabrum.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383308",
+            "name": "Calligraphy Set: Assiduous Calligraphy",
+            "description": "A detailed step-by-step blueprint for making a Calligraphy Set: Assiduous Calligraphy.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383307",
+            "name": "Alchemic Component: Burden of Dust",
+            "description": "A detailed step-by-step blueprint for making an Alchemic Component: Burden of Dust.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383306",
+            "name": "Alchemic Device: Between Fire and Water",
+            "description": "A detailed step-by-step blueprint for making an Alchemic Device: Between Fire and Water.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383305",
+            "name": "Exquisite Hourglass Ornament",
+            "description": "A detailed step-by-step blueprint for making an Exquisite Hourglass Ornament.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383304",
+            "name": "\"Etiquette of Correspondence\"",
+            "description": "A detailed step-by-step blueprint for making \"Etiquette of Correspondence.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383303",
+            "name": "\"Scholar's Weariness\"",
+            "description": "A detailed step-by-step blueprint for making \"Scholar's Weariness.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383302",
+            "name": "Neat Stack of Books",
+            "description": "A detailed step-by-step blueprint for making a Neat Stack of Books.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383301",
+            "name": "Classical Lyre: Tenor of the Wind",
+            "description": "A detailed step-by-step blueprint for making a Classical Lyre: Tenor of the Wind.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383208",
+            "name": "A Favor Returned",
+            "description": "A detailed step-by-step blueprint for making \"A Favor Returned.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383207",
+            "name": "The Essential Vase",
+            "description": "A detailed step-by-step blueprint for making \"The Essential Vase.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383206",
+            "name": "Cast in Clay",
+            "description": "A detailed step-by-step blueprint for making \"Cast in Clay.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383205",
+            "name": "Potted Plant: Petite Perrenial",
+            "description": "A detailed step-by-step blueprint for making a Potted Plant: Petite Perrenial.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383204",
+            "name": "Potted Flower: Fragrant Facade",
+            "description": "A detailed step-by-step blueprint for making a Potted Flower: Fragrant Facade.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383203",
+            "name": "Flower Arrangement: Sprawling Daybreak",
+            "description": "A detailed step-by-step blueprint for making a Flower Arrangement: Sprawling Daybreak.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383202",
+            "name": "Potted Plant: Crystalline Breeze",
+            "description": "A detailed step-by-step blueprint for making a Potted Plant: Crystalline Breeze.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383201",
+            "name": "Flower Arrangement: Baby Blue Tranquility",
+            "description": "A detailed step-by-step blueprint for making a Flower Arrangement: Baby Blue Tranquility.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383122",
+            "name": "Indoor Table Lamp: \"Soft Light\"",
+            "description": "A detailed step-by-step blueprint for making an Indoor Table Lamp: \"Soft Light.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383121",
+            "name": "\"For Whom It Shines\"",
+            "description": "A detailed step-by-step blueprint for making \"For Whom It Shines.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383120",
+            "name": "Twisty Mushroom",
+            "description": "A detailed step-by-step blueprint for making \"Twisty Mushroom.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383119",
+            "name": "Rimehorn Glimmer",
+            "description": "A detailed step-by-step blueprint for making \"Rimehorn Glimmer.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383117",
+            "name": "Miniature Candlestand: Miniature \"Sun\"",
+            "description": "A detailed step-by-step blueprint for making a Miniature Candlestand: Miniature \"Sun.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383116",
+            "name": "Phlogiston Lamp: Rain Cover",
+            "description": "A detailed step-by-step blueprint for making a \"Phlogiston Lamp: Rain Cover.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383115",
+            "name": "Phlogiston Floor Lamp: Cost-Effective Convenience",
+            "description": "A detailed step-by-step blueprint for making a Phlogiston Floor Lamp: Cost-Effective Convenience.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383114",
+            "name": "Phlogiston Desk Lamp: Sufficiently Weighty",
+            "description": "A detailed step-by-step blueprint for making a Phlogiston Desk Lamp: Sufficiently Weighty.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383113",
+            "name": "Simple Lighting: \"Locally Sourced Materials\"",
+            "description": "A detailed step-by-step blueprint for making Simple Lighting: \"Locally Sourced Materials.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383112",
+            "name": "Two-Way Iron Lamp",
+            "description": "A detailed step-by-step blueprint for making a Two-Way Iron Lamp.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383111",
+            "name": "Listening Candlelight",
+            "description": "A detailed step-by-step blueprint for making a \"Listening Candlelight.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383110",
+            "name": "Nightwatcher's Candlelight",
+            "description": "A detailed step-by-step blueprint for making a \"Nightwatcher's Candlelight.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383109",
+            "name": "Light of the Land of Wisdom",
+            "description": "A detailed step-by-step blueprint for making a Light of the Land of Wisdom.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383108",
+            "name": "Joyful Illumination",
+            "description": "A detailed step-by-step blueprint for making Joyful Illumination.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383107",
+            "name": "Desert Lamp: Lingering Light",
+            "description": "A detailed step-by-step blueprint for making a Desert Lamp: Lingering Light.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383106",
+            "name": "Tranquil Starlight",
+            "description": "A detailed step-by-step blueprint for making a Tranquil Starlight.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383104",
+            "name": "Seashell Table Lamp",
+            "description": "A detailed step-by-step blueprint for making a Seashell Table Lamp.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383103",
+            "name": "Tianyuan Lantern: Fragrant Brilliance",
+            "description": "A detailed step-by-step blueprint for making a Tianyuan Lantern: Fragrant Brilliance.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383102",
+            "name": "Liuli Pavilion Sandbearer Floor Lamp",
+            "description": "A detailed step-by-step blueprint for making a Liuli Pavilion Sandbearer Floor Lamp.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "383101",
+            "name": "Trusty Portable Lamp",
+            "description": "A detailed step-by-step blueprint for making a Trusty Portable Lamp.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382408",
+            "name": "\"Tall-Capped Sentinel\"",
+            "description": "A detailed step-by-step blueprint for making \"Tall-Capped Sentinel.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382406",
+            "name": "Heroic Warcry",
+            "description": "A detailed step-by-step blueprint for making a \"Heroic Warcry.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382405",
+            "name": "Rhythmic Synchrony",
+            "description": "A detailed step-by-step blueprint for making a \"Rhythmic Synchrony.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382404",
+            "name": "Model Contraption: Boom Boom Buff",
+            "description": "A detailed step-by-step blueprint for making a \"Model Contraption: Boom Boom Buff.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382403",
+            "name": "Quadripedal Puppet: Ready-Steady",
+            "description": "A detailed step-by-step blueprint for making a Quadripedal Puppet: Ready-Steady.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382402",
+            "name": "Bipedal Puppet: Shaky-Quaky",
+            "description": "A detailed step-by-step blueprint for making a Bipedal Puppet: Shaky-Quaky.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382401",
+            "name": "Vibrant Pot: Born in Flames",
+            "description": "A detailed step-by-step blueprint for making a Vibrant Pot: Born in Flames.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382326",
+            "name": "Indoor Rug: \"Warmth\"",
+            "description": "A detailed step-by-step blueprint for making an Indoor Rug: \"Warmth.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382325",
+            "name": "Indoor Rug: \"Frostbloom Beneath the Ice\"",
+            "description": "A detailed step-by-step blueprint for making an Indoor Rug: \"Frostbloom Beneath the Ice.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382324",
+            "name": "Tea Party Carpet: Soft to the Touch",
+            "description": "A detailed step-by-step blueprint for making \"Tea Party Carpet: Soft to the Touch.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382323",
+            "name": "Fluffy Little Rug",
+            "description": "A detailed step-by-step blueprint for making a \"Fluffy Little Rug.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382322",
+            "name": "Frost Moon Carpet: Limpid Hue",
+            "description": "A detailed step-by-step blueprint for making a Frost Moon Carpet: Limpid Hue.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382321",
+            "name": "Indoor Rug: \"Starlit Night\"",
+            "description": "A detailed step-by-step blueprint for making an Indoor Rug: \"Starlit Night.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382320",
+            "name": "Indoor Rug: \"Soft & Plush\"",
+            "description": "A detailed step-by-step blueprint for making an Indoor Rug: \"Soft & Plush.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382319",
+            "name": "Fair Carpet: Warmth and Passion",
+            "description": "A detailed step-by-step blueprint for making a \"Fair Carpet: Warmth and Passion.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382318",
+            "name": "Weary Rug: Lay Down Your Burden",
+            "description": "A detailed step-by-step blueprint for making a Weary Rug: Lay Down Your Burden.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382316",
+            "name": "\"Fading Afterglow\"",
+            "description": "A detailed step-by-step blueprint for making \"Fading Afterglow.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382315",
+            "name": "Fontainian Carpet: \"Fair and Square\"",
+            "description": "A detailed step-by-step blueprint for making Fontainian Carpet: \"Fair and Square.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382314",
+            "name": "Restaurant Rug: \"Bathing in the Breeze\"",
+            "description": "A detailed step-by-step blueprint for making a Restaurant Rug: \"Bathing in the Breeze.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382313",
+            "name": "Restaurant Rug: \"Equal Dialogue\"",
+            "description": "A detailed step-by-step blueprint for making a Restaurant Rug: \"Equal Dialogue.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382312",
+            "name": "Tavern Carpet - \"Duelist's Wisdom\"",
+            "description": "A detailed step-by-step blueprint for making a Tavern Carpet - \"Duelist's Wisdom.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprints",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382311",
+            "name": "Tavern Carpet - \"Passion of Play\"",
+            "description": "A detailed step-by-step blueprint for making a Tavern Carpet - \"Passion of Play.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprints",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382310",
+            "name": "Pure Like Wheat Sprouts",
+            "description": "A detailed step-by-step blueprint for making a Pure Like Wheat Sprouts.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382309",
+            "name": "The Olive Grove",
+            "description": "A detailed step-by-step blueprint for making The Olive Grove.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382308",
+            "name": "Sun-Scorched Solemnity",
+            "description": "A detailed step-by-step blueprint for making Sun-Scorched Solemnity.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382307",
+            "name": "Musing Tawny Tapestry",
+            "description": "A detailed step-by-step blueprint for making a Musing Tawny Tapestry.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382306",
+            "name": "Dazzling Golden Tapestry",
+            "description": "A detailed step-by-step blueprint for making a Dazzling Golden Tapestry.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382305",
+            "name": "Glorious Emerald Tapestry",
+            "description": "A detailed step-by-step blueprint for making a Glorious Emerald Tapestry.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382304",
+            "name": "Entrance Rug: A Warm Welcome",
+            "description": "A detailed step-by-step blueprint for making an Entrance Rug: A Warm Welcome.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382303",
+            "name": "Tavern Rug: Home Away From Home",
+            "description": "A detailed step-by-step blueprint for making a Tavern Rug: Home Away From Home.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382302",
+            "name": "Mondstadt Rug: Tireless Search",
+            "description": "A detailed step-by-step blueprint for making a Mondstadt Rug: Tireless Search.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382301",
+            "name": "Mondstadt Rug: Crimson Ardor",
+            "description": "A detailed step-by-step blueprint for making a Mondstadt Rug: Crimson Ardor.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382282",
+            "name": "Hidden Secrets",
+            "description": "A detailed step-by-step blueprint for making \"Hidden Secrets.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382278",
+            "name": "\"Bottoms Up\"",
+            "description": "A detailed step-by-step blueprint for making \"Bottoms Up.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382277",
+            "name": "Simple Stretcher: \"Steady Evacuation\"",
+            "description": "A detailed step-by-step blueprint for making Simple Stretcher: \"Steady Evacuation.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382276",
+            "name": "Multifunctional Pedunculate Oak Wood Cat Tree",
+            "description": "A detailed step-by-step blueprint for making a Multifunctional Pedunculate Oak Wood Cat Tree.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382275",
+            "name": "Tipsy Playlist",
+            "description": "A detailed step-by-step blueprint for making a \"Tipsy Playlist.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382274",
+            "name": "Boat of Clouds",
+            "description": "A detailed step-by-step blueprint for making a \"Boat of Clouds.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382271",
+            "name": "Portable All-Purpose Grill",
+            "description": "A detailed step-by-step blueprint for making a \"Portable All-Purpose Grill\".\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382270",
+            "name": "The Distance Between It and the Flames",
+            "description": "A detailed step-by-step blueprint for making \"The Distance Between It and the Flames.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382269",
+            "name": "Traveler on the Road",
+            "description": "A detailed step-by-step blueprint for making \"Traveler on the Road.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382268",
+            "name": "Fair's Fresh Vegetables",
+            "description": "A detailed step-by-step blueprint for making \"Fair's Fresh Vegetables.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382266",
+            "name": "Hotel Railing: \"Perfect Viewing Arc\"",
+            "description": "A detailed step-by-step blueprint for making Hotel Railing: \"Perfect Viewing Arc.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382265",
+            "name": "Hotel Railing: \"Fresh Mint Leaves\"",
+            "description": "A detailed step-by-step blueprint for making Hotel Railing: \"Fresh Mint Leaves.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382263",
+            "name": "Teahouse Tool: Clear View",
+            "description": "A detailed step-by-step blueprint for making a Teahouse Tool: Clear View.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382262",
+            "name": "Teahouse Tool: Dry Storage",
+            "description": "A detailed step-by-step blueprint for making a Teahouse Tool: Dry Storage.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382261",
+            "name": "\"Fresh Buds From Mountains and Waters\"",
+            "description": "A detailed step-by-step blueprint for making \"Fresh Buds From Mountains and Waters.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382259",
+            "name": "Standard Music Stand: Accurate Tuning",
+            "description": "A detailed step-by-step blueprint for making a Standard Music Stand: Accurate Tuning.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382258",
+            "name": "\"Burden of the Forbidden Fortress\"",
+            "description": "A detailed step-by-step blueprint for making \"Burden of the Forbidden Fortress.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382257",
+            "name": "Mallow Wood \"Sturdy\" Cargo Container",
+            "description": "A detailed step-by-step blueprint for making Mallow Wood \"Sturdy\" Cargo Container.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382256",
+            "name": "Mallow Wood \"Enhanced\" Platform Ladder",
+            "description": "A detailed step-by-step blueprint for making a Mallow Wood \"Enhanced\" Platform Ladder.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382255",
+            "name": "\"Maison Cardinalice's Stores\"",
+            "description": "A detailed step-by-step blueprint for making \"Maison Cardinalice's Stores.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382254",
+            "name": "\"Maison Cardinalice's Lockbox\"",
+            "description": "A detailed step-by-step blueprint for making \"Maison Cardinalice's Lockbox.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382253",
+            "name": "\"Maison Cardinalice's Punctuality\"",
+            "description": "A detailed step-by-step blueprint for making \"Maison Cardinalice's Punctuality.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382252",
+            "name": "\"Chill Afternoon Tea Time\"",
+            "description": "A detailed step-by-step blueprint for making \"Chill Afternoon Tea Time.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382251",
+            "name": "\"Wisdom of the Forbidden Fortress\"",
+            "description": "A detailed step-by-step blueprint for making \"Wisdom of the Forbidden Fortress.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382249",
+            "name": "Tavern Dining Cart - \"A Snack Between Dishes\"",
+            "description": "A detailed step-by-step blueprint for making Tavern Dining Cart - \"A Snack Between Dishes.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprints",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382248",
+            "name": "\"Diona's Mini Sofa\"",
+            "description": "A detailed step-by-step blueprint for making \"Diona's Mini Sofa.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprints",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382247",
+            "name": "\"Baobab's Golden Cradle\"",
+            "description": "A detailed step-by-step blueprint for making \"Baobab's Golden Cradle.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprints",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382246",
+            "name": "\"Night Pilot's Watchtower\"",
+            "description": "A detailed step-by-step blueprint for making \"Night Pilot's Watchtower.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprints",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382245",
+            "name": "\"Little Rose's Mangrove House\"",
+            "description": "A detailed step-by-step blueprint for making \"Little Rose's Mangrove House.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprints",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382243",
+            "name": "\"Pure Heat\"",
+            "description": "A detailed step-by-step blueprint for making \"Pure Heat.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382242",
+            "name": "Hued Vase: Crimson Sands",
+            "description": "A detailed step-by-step blueprint for making a Hued Vase: Crimson Sands.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382241",
+            "name": "Hued Vase: Ajilenakh",
+            "description": "A detailed step-by-step blueprint for making a Hued Vase: Ajilenakh.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382240",
+            "name": "\"Warmth and Cold Overlaid\"",
+            "description": "A detailed step-by-step blueprint for making \"Warmth and Cold Overlaid.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382239",
+            "name": "Hued Vase: Molten Sand",
+            "description": "A detailed step-by-step blueprint for making a Hued Vase: Molten Sand.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382238",
+            "name": "Deepwood Dweller's Aggregation",
+            "description": "A detailed step-by-step blueprint for making Deepwood Dweller's Aggregation.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382237",
+            "name": "Fragrance of Low-Heat Roast",
+            "description": "A detailed step-by-step blueprint for making Fragrance of Low-Heat Roast.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382236",
+            "name": "Aroma of High-Heat Barbecue",
+            "description": "A detailed step-by-step blueprint for making Aroma of High-Heat Barbecue.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382235",
+            "name": "Deepwood Dweller's Delicacies",
+            "description": "A detailed step-by-step blueprint for making Deepwood Dweller's Delicacies.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382234",
+            "name": "Forest Ranger's Provisions",
+            "description": "A detailed step-by-step blueprint for making Forest Ranger's Provisions.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382233",
+            "name": "Forest Watcher's Fastidiousness",
+            "description": "A detailed step-by-step blueprint for making Forest Watcher's Fastidiousness.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382231",
+            "name": "Amidst the Fleeing Smoke",
+            "description": "A detailed step-by-step blueprint for making Amidst the Fleeing Smoke.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382229",
+            "name": "Hued Vase: Dark Rock",
+            "description": "A detailed step-by-step blueprint for making a Hued Vase: Dark Rock.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382228",
+            "name": "Hued Vase: Seashell",
+            "description": "A detailed step-by-step blueprint for making a Hued Vase: Seashell.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382227",
+            "name": "Plain Vase: Sepia",
+            "description": "A detailed step-by-step blueprint for making a Plain Vase: Sepia.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382226",
+            "name": "Plain Vase: Ocher",
+            "description": "A detailed step-by-step blueprint for making a Plain Vase: Ocher.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382225",
+            "name": "Plain Vase: Tawny",
+            "description": "A detailed step-by-step blueprint for making a Plain Vase: Tawny.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382224",
+            "name": "Plain Vase: Bronze",
+            "description": "A detailed step-by-step blueprint for making a Plain Vase: Bronze.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382223",
+            "name": "Hued Vase: Amber",
+            "description": "A detailed step-by-step blueprint for making a Hued Vase: Amber.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382222",
+            "name": "Hued Vase: Malachite",
+            "description": "A detailed step-by-step blueprint for making a Hued Vase: Malachite.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382221",
+            "name": "Hued Vase: Cerulean",
+            "description": "A detailed step-by-step blueprint for making a Hued Vase: Cerulean.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382219",
+            "name": "Festive Fragrance: Of Gold and Jade",
+            "description": "A detailed step-by-step blueprint for making \"Festive Fragrance: Of Gold and Jade.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382218",
+            "name": "Festive Fragrance: Goods Piled High",
+            "description": "A detailed step-by-step blueprint for making \"Festive Fragrance: Goods Piled High.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382216",
+            "name": "Yumemiru \"Jukaku\" Folding Screen",
+            "description": "A detailed step-by-step blueprint for making a Yumemiru \"Jukaku\" Folding Screen.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382215",
+            "name": "Hatamoto Armor: Eijin Genkou",
+            "description": "A detailed step-by-step blueprint for making Hatamoto Armor: Eijin Genkou.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382214",
+            "name": "Ancestral Sword Rack: Four Core Principles",
+            "description": "A detailed step-by-step blueprint for making an Ancestral Sword Rack: Four Core Principles.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382213",
+            "name": "Teahouse Folding Screen: Hidden Heart of Gold",
+            "description": "A detailed step-by-step blueprint for making a Teahouse Folding Screen: Hidden Heart of Gold.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382212",
+            "name": "Maple Wood Ritual Drum: A Great Din",
+            "description": "A detailed step-by-step blueprint for making a Maple Wood Ritual Drum: A Great Din.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382211",
+            "name": "Maple Wood Ritual Drum: Festive Music",
+            "description": "A detailed step-by-step blueprint for making a Maple Wood Ritual Drum: Festive Music.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382210",
+            "name": "Teahouse Cushion: Night-Woven",
+            "description": "A detailed step-by-step blueprint for making a Teahouse Cushion: Night-Woven.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382209",
+            "name": "Lantern-Lit Stage: Crescendo",
+            "description": "A detailed step-by-step blueprint for making a Lantern-Lit Stage: Crescendo.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382208",
+            "name": "Thundering Heavens Drum",
+            "description": "A detailed step-by-step blueprint for making a Thundering Heavens Drum.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382207",
+            "name": "Floral Screen: Jade and Gold",
+            "description": "A detailed step-by-step blueprint for making a Floral Screen: Jade and Gold.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382206",
+            "name": "Silk Curtains: Fetching the Sanguine Sky",
+            "description": "A detailed step-by-step blueprint for making Silk Curtains: Fetching the Sanguine Sky.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382205",
+            "name": "Gold-Lined Sandbearer Nightstand",
+            "description": "A detailed step-by-step blueprint for making a Gold-Lined Sandbearer Nightstand.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382204",
+            "name": "Birch Double Drawer Nightstand",
+            "description": "A detailed step-by-step blueprint for making a Birch Double Drawer Nightstand.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382203",
+            "name": "Hardwood Screen: Morning Mist in Jueyun",
+            "description": "A detailed step-by-step blueprint for making a Hardwood Screen: Morning Mist in Jueyun.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382202",
+            "name": "Pine Folding Screen: Billowing Sails",
+            "description": "A detailed step-by-step blueprint for making a Pine Folding Screen: Billowing Sails.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382201",
+            "name": "Northern Stone Hearth",
+            "description": "A detailed step-by-step blueprint for making a Northern Stone Hearth.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382137",
+            "name": "Indoor Seat: \"Clashing Colors\"",
+            "description": "A detailed step-by-step blueprint for making Indoor Seat: \"Clashing Colors.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382136",
+            "name": "\"A Quiet Sigh on a Snowbound Night\"",
+            "description": "A detailed step-by-step blueprint for making \"A Quiet Sigh on a Snowbound Night.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382135",
+            "name": "Tea Party Chair: Crimson and Gold",
+            "description": "A detailed step-by-step blueprint for making a \"Tea Party Chair: Crimson and Gold.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382134",
+            "name": "Pedunculate Oak Wood \"Moonrest\" Backed Chair",
+            "description": "A detailed step-by-step blueprint for making a Pedunculate Oak Wood \"Moonrest\" Backed Chair.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382133",
+            "name": "\"To a Friend\"",
+            "description": "A detailed step-by-step blueprint for making \"To a Friend.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382132",
+            "name": "Factory Stool: Multirole Seating Device",
+            "description": "A detailed step-by-step blueprint for making a Factory Stool: Multirole Seating Device.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382131",
+            "name": "Hazelwood Jade-Backed Chair",
+            "description": "A detailed step-by-step blueprint for making a Hazelwood Jade-Backed Chair.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382130",
+            "name": "Quiet and Cozy",
+            "description": "A detailed step-by-step blueprint for making a \"Quiet and Cozy.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382129",
+            "name": "Glug in One Go",
+            "description": "A detailed step-by-step blueprint for making \"Glug in One Go.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382128",
+            "name": "Stadium \"Speedy Snack\" Round Stool",
+            "description": "A detailed step-by-step blueprint for making a Stadium \"Speedy Snack\" Round Stool.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382127",
+            "name": "Stadium \"Round Seating\" Bench",
+            "description": "A detailed step-by-step blueprint for making a Stadium \"Round Seating\" Bench.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382126",
+            "name": "Stadium's \"Spicy Feast\" Backed Chair",
+            "description": "A detailed step-by-step blueprint for making a Stadium's \"Spicy Feast\" Backed Chair.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382125",
+            "name": "Teahouse Bench: Simple Seating",
+            "description": "A detailed step-by-step blueprint for making a Teahouse Bench: Simple Seating.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382124",
+            "name": "\"Momentary Rest in the Central Hub\"",
+            "description": "A detailed step-by-step blueprint for making \"Momentary Rest in the Central Hub.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382123",
+            "name": "Linden Wood \"Subduing Seat\" Backed Chair",
+            "description": "A detailed step-by-step blueprint for making a Linden Wood \"Subduing Seat\" Backed Chair.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382122",
+            "name": "Mallow Wood \"Viewing Rites\" Chair",
+            "description": "A detailed step-by-step blueprint for making a Mallow Wood \"Viewing Rites\" Chair.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382121",
+            "name": "\"Elation of Social Drinking\"",
+            "description": "A detailed step-by-step blueprint for making \"Elation of Social Drinking.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382120",
+            "name": "\"Witness to Great Focus\"",
+            "description": "A detailed step-by-step blueprint for making \"Witness to Great Focus.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382119",
+            "name": "\"Comfort of a Home Away From Home\"",
+            "description": "A detailed step-by-step blueprint for making \"Comfort of a Home Away From Home.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382118",
+            "name": "\"Conversation of the Forbidden Fortress\"",
+            "description": "A detailed step-by-step blueprint for making \"Conversation of the Forbidden Fortress.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382117",
+            "name": "Tavern Dining Chair - \"Accelerated Sobriety\"",
+            "description": "A detailed step-by-step blueprint for making a Tavern Dining Chair - \"Accelerated Sobriety.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprints",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382116",
+            "name": "Tavern Dining Chair - \"Flavor's Multiplicity\"",
+            "description": "A detailed step-by-step blueprint for making a Tavern Dining Chair - \"Flavor's Multiplicity.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprints",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382115",
+            "name": "\"Finnick's Cranberry Sea\"",
+            "description": "A detailed step-by-step blueprint for making \"Finnick's Cranberry Sea.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprints",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382114",
+            "name": "\"Sneku's Thicket\"",
+            "description": "A detailed step-by-step blueprint for making \"Sneku's Thicket.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprints",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382112",
+            "name": "Adhigama Vine-Backed Chair",
+            "description": "A detailed step-by-step blueprint for making an Adhigama Vine-Backed Chair.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382111",
+            "name": "Satisfaction of Sated Thirst",
+            "description": "A detailed step-by-step blueprint for making Satisfaction of Sated Thirst.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382110",
+            "name": "Karmaphala Wood \"Counter-Assault\" Dining Chair",
+            "description": "A detailed step-by-step blueprint for making a Karmaphala Wood \"Counter-Assault\" Dining Chair.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382109",
+            "name": "Karmaphala Wood \"Subdued Speech\" Bench",
+            "description": "A detailed step-by-step blueprint for making a Karmaphala Wood \"Subdued Speech\" Bench.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382108",
+            "name": "Teahouse Round Stool: Pain Point Reduction",
+            "description": "A detailed step-by-step blueprint for making a Teahouse Round Stool: Pain Point Reduction.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382106",
+            "name": "Red Pine Wood Round Stool",
+            "description": "A detailed step-by-step blueprint for making a Red Pine Wood Round Stool.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382105",
+            "name": "Pine-Backed Tea Chair",
+            "description": "A detailed step-by-step blueprint for making a Pine-Backed Tea Chair.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382104",
+            "name": "Pine Dining Chair",
+            "description": "A detailed step-by-step blueprint for making a Pine Dining Chair.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382103",
+            "name": "\"Unwavering Determination\"",
+            "description": "A detailed step-by-step blueprint for making \"Unwavering Determination.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382102",
+            "name": "\"Clear Blue Afternoon\"",
+            "description": "A detailed step-by-step blueprint for making a \"Clear Blue Afternoon.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "382101",
+            "name": "Soft Lounge Sofa",
+            "description": "A detailed step-by-step blueprint for making a Soft Lounge Sofa.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381511",
+            "name": "Question With a Price Tag",
+            "description": "A detailed step-by-step blueprint for making a \"Question With a Price Tag.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381509",
+            "name": "Teahouse Stove: Slow Steaming",
+            "description": "A detailed step-by-step blueprint for making a Teahouse Stove: Slow Steaming.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381508",
+            "name": "Teahouse Stove: A Capital Cook",
+            "description": "A detailed step-by-step blueprint for making a Teahouse Stove: A Capital Cook.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381507",
+            "name": "\"Celebration of an Ad-Hoc Performance\"",
+            "description": "A detailed step-by-step blueprint for making \"Celebration of an Ad-Hoc Performance.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381506",
+            "name": "Witness of Tavern Affairs",
+            "description": "A detailed step-by-step blueprint for making Witness of Tavern Affairs.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381505",
+            "name": "Desert Study: Conscientiousness",
+            "description": "A detailed step-by-step blueprint for making a Desert Study: Conscientiousness.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381504",
+            "name": "Desert Fireplace: Warmth",
+            "description": "A detailed step-by-step blueprint for making a Desert Fireplace: Warmth.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381503",
+            "name": "Desert Stone Platform: Sturdy",
+            "description": "A detailed step-by-step blueprint for making a Desert Stone Platform: Sturdy.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381502",
+            "name": "Teahouse Counter: \"Toshimaru\"",
+            "description": "A detailed step-by-step blueprint for making a Teahouse Counter: \"Toshimaru.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381501",
+            "name": "Pine Reception Counter",
+            "description": "A detailed step-by-step blueprint for making a Pine Reception Counter.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381415",
+            "name": "\"Sweet, Untroubled Slumber\"",
+            "description": "A detailed step-by-step blueprint for making \"Sweet, Untroubled Slumber.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381414",
+            "name": "Frost Moon Stone Bed: Fresh & Cool",
+            "description": "A detailed step-by-step blueprint for making a Frost Moon Stone Bed: Fresh & Cool.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381413",
+            "name": "Bestest Little Nest",
+            "description": "A detailed step-by-step blueprint for making \"Bestest Little Nest.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381412",
+            "name": "Simple Care Bed",
+            "description": "A detailed step-by-step blueprint for making a Simple Care Bed.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381411",
+            "name": "Tavern Bed: \"Not Great, Not Terrible\"",
+            "description": "A detailed step-by-step blueprint for making a Tavern Bed: \"Not Great, Not Terrible.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381410",
+            "name": "Friends Through Friction",
+            "description": "A detailed step-by-step blueprint for making a \"Friends Through Friction.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381409",
+            "name": "Stone Bed: Peaceful Sleep",
+            "description": "A detailed step-by-step blueprint for making a \"Stone Bed: Peaceful Sleep.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381408",
+            "name": "Linden Wood \"Sweet Slumber\" Bed",
+            "description": "A detailed step-by-step blueprint for making a Linden Wood \"Sweet Slumber\" Bed.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381407",
+            "name": "Linden Wood \"Sturdy\" Bunk",
+            "description": "A detailed step-by-step blueprint for making a Linden Wood \"Sturdy\" Bunk.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381406",
+            "name": "Adhigama Wood \"Repose\" Couch",
+            "description": "A detailed step-by-step blueprint for making an \"Adhigama Wood 'Repose' Couch.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprints",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381405",
+            "name": "Adhigama Wood \"Comfort\" Bed",
+            "description": "A detailed step-by-step blueprint for making an Adhigama Wood \"Comfort\" Bed.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381404",
+            "name": "Brightwood \"Concord\" Bed",
+            "description": "A detailed step-by-step blueprint for making a Brightwood \"Concord\" Bed.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381403",
+            "name": "Yumemiru \"Sakura's Rest\" Bed",
+            "description": "A detailed step-by-step blueprint for making a Yumemiru \"Sakura's Rest\" Bed.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381402",
+            "name": "Cloudy Haze Bed",
+            "description": "A detailed step-by-step blueprint for making a Cloudy Haze Bed.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381401",
+            "name": "Breeze-Blessed Bed",
+            "description": "A detailed step-by-step blueprint for making a Breeze-Blessed Bed.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381350",
+            "name": "\"Candle Perch\" Tall Square Table",
+            "description": "A detailed step-by-step blueprint for making a \"Candle Perch\" Tall Square Table.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381348",
+            "name": "Tea Party Dining Table: The Perfect Gathering",
+            "description": "A detailed step-by-step blueprint for making \"Tea Party Dining Table: The Perfect Gathering.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381347",
+            "name": "Frost Moon Round Table: A Soft Blue Sky",
+            "description": "A detailed step-by-step blueprint for making a Frost Moon Round Table: A Soft Blue Sky.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381346",
+            "name": "Clink-Clank House of Storage",
+            "description": "A detailed step-by-step blueprint for making the \"Clink-Clank House of Storage.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381345",
+            "name": "Cookie Round",
+            "description": "A detailed step-by-step blueprint for making a \"Cookie Round.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381344",
+            "name": "\"Whispers in the Moonlight\"",
+            "description": "A detailed step-by-step blueprint for making \"Whispers in the Moonlight.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381343",
+            "name": "Indoor Long Table: \"Marks of Love\"",
+            "description": "A detailed step-by-step blueprint for making an Indoor Long Table: \"Marks of Love.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381342",
+            "name": "Tavern Square Table: \"Self-Defense\"",
+            "description": "A detailed step-by-step blueprint for making a Tavern Square Table: \"Self-Defense.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381341",
+            "name": "Factory Long Table: \"No Time to Waste\"",
+            "description": "A detailed step-by-step blueprint for making a Factory Long Table: \"No Time to Waste.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381340",
+            "name": "Fair's Simple Sales Strategy",
+            "description": "A detailed step-by-step blueprint for making \"Fair's Simple Sales Strategy.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381339",
+            "name": "Countless Services",
+            "description": "A detailed step-by-step blueprint for making Countless Services.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381338",
+            "name": "Nameless and Silent",
+            "description": "A detailed step-by-step blueprint for making Nameless and Silent.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381337",
+            "name": "Four-Legged Tower Shield",
+            "description": "A detailed step-by-step blueprint for making a Four-Legged Tower Shield.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381336",
+            "name": "\"One-Legged Round Shield\"",
+            "description": "A detailed step-by-step blueprint for making a One-Legged Round Shield.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381335",
+            "name": "Teahouse Tool: Qualitea Review",
+            "description": "A detailed step-by-step blueprint for making a Teahouse Tool: Qualitea Review.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381334",
+            "name": "Teahouse Long Table: Tools of Nostalgia",
+            "description": "A detailed step-by-step blueprint for making a Teahouse Long Table: Tools of Nostalgia.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381333",
+            "name": "\"The Leisure of Daily Meetings\"",
+            "description": "A detailed step-by-step blueprint for making \"The Leisure of Daily Meetings.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381332",
+            "name": "\"Rest Time in the Central Hub\"",
+            "description": "A detailed step-by-step blueprint for making \"Rest Time in the Central Hub.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381331",
+            "name": "\"Stable Work Station in the Central Hub\"",
+            "description": "A detailed step-by-step blueprint for making \"Stable Work Station in the Central Hub.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381330",
+            "name": "\"Maison Cardinalice's Focus\"",
+            "description": "A detailed step-by-step blueprint for making \"Maison Cardinalice's Focus.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381329",
+            "name": "\"Steady Stately Stability\"",
+            "description": "A detailed step-by-step blueprint for making \"Steady Stately Stability.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381328",
+            "name": "\"Contented Elegance\"",
+            "description": "A detailed step-by-step blueprint for making \"Contented Elegance.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381327",
+            "name": "\"Everyday Life in the Forbidden Fortress\"",
+            "description": "A detailed step-by-step blueprint for making \"Everyday Life in the Forbidden Fortress.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381326",
+            "name": "\"Study of the Forbidden Fortress\"",
+            "description": "A detailed step-by-step blueprint for making \"Study of the Forbidden Fortress.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381325",
+            "name": "Round Tavern Table - Leaps and Bounds",
+            "description": "A detailed step-by-step blueprint for making a Round Tavern Table - Leaps and Bounds.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprints",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381324",
+            "name": "Athel Wood Compact Desk",
+            "description": "A detailed step-by-step blueprint for making an Athel Wood Compact Desk.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381322",
+            "name": "Long Adhigama Chamfer Table",
+            "description": "A detailed step-by-step blueprint for making a Long Adhigama Chamfer Table.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381321",
+            "name": "A Table for Two",
+            "description": "A detailed step-by-step blueprint for making A Table for Two.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381320",
+            "name": "Spirit of the Banquet",
+            "description": "A detailed step-by-step blueprint for making Spirit of the Banquet.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381319",
+            "name": "A Choice of Delicacies",
+            "description": "A detailed step-by-step blueprint for making A Choice of Delicacies.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381318",
+            "name": "Long Athelwood Table",
+            "description": "A detailed step-by-step blueprint for making a Long Athelwood Table.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381317",
+            "name": "Brightwood Pottery Worktable",
+            "description": "A detailed step-by-step blueprint for making a Brightwood Pottery Worktable.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381316",
+            "name": "Teahouse Long Table: Seamless Seating",
+            "description": "A detailed step-by-step blueprint for making a Teahouse Long Table: Seamless Seating.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381315",
+            "name": "\"Sekijou\" Aralia Tea Table",
+            "description": "A detailed step-by-step blueprint for making a \"Sekijou\" Aralia Tea Table.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381314",
+            "name": "Yumemiru \"Cold and Warmth\" Kotatsu",
+            "description": "A detailed step-by-step blueprint for making a Yumemiru \"Cold and Warmth\" Kotatsu.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381313",
+            "name": "Common Cast Iron Stove",
+            "description": "A detailed step-by-step blueprint for making a Common Cast Iron Stove.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381311",
+            "name": "Sturdy Birch Vanity",
+            "description": "A detailed step-by-step blueprint for making a Sturdy Birch Vanity.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381310",
+            "name": "Red Cedar Round Table",
+            "description": "A detailed step-by-step blueprint for making a Red Cedar Round Table.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381309",
+            "name": "Square Pine Tea Table",
+            "description": "A detailed step-by-step blueprint for making a Square Pine Tea Table.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381308",
+            "name": "Intricately Carved Calligraphy Table",
+            "description": "A detailed step-by-step blueprint for making an Intricately Carved Calligraphy Table.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381307",
+            "name": "Multi-Seat Round Pine Table",
+            "description": "A detailed step-by-step blueprint for making a Multi-Seat Round Pine Table.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381306",
+            "name": "Long Table With Tablecloth",
+            "description": "A detailed step-by-step blueprint for making a Long Table With Tablecloth.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381305",
+            "name": "Portable Stove",
+            "description": "A detailed step-by-step blueprint for making a Portable Stove.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381304",
+            "name": "Wide Stone Stove",
+            "description": "A detailed step-by-step blueprint for making a Wide Stone Stove.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381303",
+            "name": "Favonius Conference Table",
+            "description": "A detailed step-by-step blueprint for making a Favonius Conference Table.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381302",
+            "name": "Favonius Office Table",
+            "description": "A detailed step-by-step blueprint for making a Favonius Office Table.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381301",
+            "name": "Sturdy Library Table",
+            "description": "A detailed step-by-step blueprint for making a Sturdy Library Table.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381220",
+            "name": "\"A Thousand Texts in the Central Hub\"",
+            "description": "A detailed step-by-step blueprint for making \"A Thousand Texts in the Central Hub.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381219",
+            "name": "\"Maison Cardinalice's Little Helper\"",
+            "description": "A detailed step-by-step blueprint for making \"Maison Cardinalice's Little Helper.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381218",
+            "name": "\"Maison Cardinalice's Winged Shelf\"",
+            "description": "A detailed step-by-step blueprint for making \"Maison Cardinalice's Winged Shelf.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381217",
+            "name": "\"Maison Cardinalice's High Shelf\"",
+            "description": "A detailed step-by-step blueprint for making \"Maison Cardinalice's High Shelf.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381216",
+            "name": "\"Maison Cardinalice's Cabinet\"",
+            "description": "A detailed step-by-step blueprint for making \"Maison Cardinalice's Cabinet.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381215",
+            "name": "Tavern Bookcase - \"Essential Knowledge\"",
+            "description": "A detailed step-by-step blueprint for making a Tavern Bookcase - \"Essential Knowledge.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprints",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381214",
+            "name": "Scrolls from the Land of Wisdom",
+            "description": "A detailed step-by-step blueprint for making Scrolls from the Land of Wisdom.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381213",
+            "name": "Treasure from the Land of Wisdom",
+            "description": "A detailed step-by-step blueprint for making a Treasure from the Land of Wisdom.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381212",
+            "name": "Desert Cabinet: Odds and Ends",
+            "description": "A detailed step-by-step blueprint for making a Desert Cabinet: Odds and Ends.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381210",
+            "name": "Maple Wood Bookcase: Trove of a Thousand Tomes",
+            "description": "A detailed step-by-step blueprint for making a Maple Wood Bookcase: Trove of a Thousand Tomes.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381209",
+            "name": "Maple Wood Bookcase: Inkheart",
+            "description": "A detailed step-by-step blueprint for making a Maple Wood Bookcase: Inkheart.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381208",
+            "name": "Shopkeeper's Cedar Shelf",
+            "description": "A detailed step-by-step blueprint for making a Shopkeeper's Cedar Shelf.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381207",
+            "name": "Red Cedar Curio Stand",
+            "description": "A detailed step-by-step blueprint for making a Red Cedar Curio Stand.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381206",
+            "name": "Red Cedar Scroll Shelf",
+            "description": "A detailed step-by-step blueprint for making a Red Cedar Scroll Shelf.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381205",
+            "name": "\"Archivist's Treasure Trove\"",
+            "description": "A detailed step-by-step blueprint for making an Archivist's Treasure Trove.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381204",
+            "name": "\"Lost Between the Pages of a Book\"",
+            "description": "A detailed step-by-step blueprint for making \"Lost Between the Pages of a Book.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381203",
+            "name": "Economy Cuihua Bookshelf",
+            "description": "A detailed step-by-step blueprint for making an Economy Cuihua Bookshelf.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381202",
+            "name": "Exquisite Cuihua Bookshelf",
+            "description": "A detailed step-by-step blueprint for making an Exquisite Cuihua Bookshelf.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381201",
+            "name": "Two-Tier Library Bookshelf",
+            "description": "A detailed step-by-step blueprint for making a Two-Tier Library Bookshelf.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381127",
+            "name": "Indoor Standing Cabinet: \"The Steepled Little House\"",
+            "description": "A detailed step-by-step blueprint for making an Indoor Standing Cabinet: \"The Steepled Little House.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381126",
+            "name": "\"Opening Business Hours\"",
+            "description": "A detailed step-by-step blueprint for making \"Opening Business Hours.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381125",
+            "name": "Hotel Wardrobe: Extra Room",
+            "description": "A detailed step-by-step blueprint for making a Hotel Wardrobe: Extra Room.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381124",
+            "name": "Towering Cabinet",
+            "description": "A detailed step-by-step blueprint for making \"Towering Cabinet.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381123",
+            "name": "Indoor Counter: Visitor's Welcome",
+            "description": "A detailed step-by-step blueprint for making an Indoor Counter: Visitor's Welcome.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381122",
+            "name": "Indoor Bookshelf: Readerly Leisure",
+            "description": "A detailed step-by-step blueprint for making an Indoor Bookshelf: Readerly Leisure.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381121",
+            "name": "Indoor Low Table: Unique Importance",
+            "description": "A detailed step-by-step blueprint for making an Indoor Low Table: Unique Importance.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381120",
+            "name": "Factory Cabinet: \"Slapdash Storage\"",
+            "description": "A detailed step-by-step blueprint for making a Factory Cabinet: \"Slapdash Storage\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381119",
+            "name": "Deduction and Induction",
+            "description": "A detailed step-by-step blueprint for making \"Deduction and Induction.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381118",
+            "name": "Xochicuicatl Marketing Method",
+            "description": "A detailed step-by-step blueprint for making a \"Xochicuicatl Marketing Method.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381117",
+            "name": "Fair's Thoughts in Order",
+            "description": "A detailed step-by-step blueprint for making \"Fair's Thoughts in Order.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381116",
+            "name": "Peach Palm Wood \"Fulcrum\" Container",
+            "description": "A detailed step-by-step blueprint for making a Peach Palm Wood \"Fulcrum\" Container.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381115",
+            "name": "Fair's Splendid Textiles",
+            "description": "A detailed step-by-step blueprint for making \"Fair's Splendid Textiles.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381114",
+            "name": "Fair's Distribution",
+            "description": "A detailed step-by-step blueprint for making \"Fair's Distribution.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381113",
+            "name": "Mallow Wood \"Multi-Model\" Wardrobe",
+            "description": "A detailed step-by-step blueprint for making a Mallow Wood \"Multi-Model\" Wardrobe.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381112",
+            "name": "Athel Pottery Shelf",
+            "description": "A detailed step-by-step blueprint for making Athel Pottery Shelf.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381111",
+            "name": "Athel Triple Drawer Cabinet",
+            "description": "A detailed step-by-step blueprint for making an Athel Triple Drawer Cabinet.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381110",
+            "name": "Brightwood \"Invigorating\" Nightstand",
+            "description": "A detailed step-by-step blueprint for making a Brightwood \"Invigorating\" Nightstand.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381109",
+            "name": "Adhigama Wood \"Versatile\" Shelves",
+            "description": "A detailed step-by-step blueprint for making Adhigama Wood \"Versatile\" Shelves.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381108",
+            "name": "Desert Desk: Hospitality",
+            "description": "A detailed step-by-step blueprint for making a Desert Desk: Hospitality.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381107",
+            "name": "Plain Brightwood Shelf",
+            "description": "A detailed step-by-step blueprint for making a Plain Brightwood Shelf.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381106",
+            "name": "Gold-Lined Sandbearer Wardrobe",
+            "description": "A detailed step-by-step blueprint for making a Gold-Lined Sandbearer Wardrobe.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381105",
+            "name": "Large Birch Wardrobe",
+            "description": "A detailed step-by-step blueprint for making a Large Birch Wardrobe.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381104",
+            "name": "Classic Fir Cabinet",
+            "description": "A detailed step-by-step blueprint for making a Classic Fir Cabinet.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381103",
+            "name": "Fir Case Shelf Combination",
+            "description": "A detailed step-by-step blueprint for making a Fir Case Shelf Combination.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381102",
+            "name": "Open-Top Fir Shelf",
+            "description": "A detailed step-by-step blueprint for making an Open-Top Fir Shelf.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "381101",
+            "name": "Northern Birch Folding Counter",
+            "description": "A detailed step-by-step blueprint for making a Northern Birch Folding Counter.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380507",
+            "name": "Base's Soft Tranquility",
+            "description": "A detailed step-by-step blueprint for making \"Base's Soft Tranquility.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380506",
+            "name": "Lofty Tower's Flaming Brazier",
+            "description": "A detailed step-by-step blueprint for making a \"Lofty Tower's Flaming Brazier.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380505",
+            "name": "Annex's Swirling Light",
+            "description": "A detailed step-by-step blueprint for making \"Annex's Swirling Light.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380504",
+            "name": "Efflorescent Illumination",
+            "description": "A detailed step-by-step blueprint for making Efflorescent Illumination.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380484",
+            "name": "\"Chirping About As Birds Do\"",
+            "description": "A detailed step-by-step blueprint for making \"Chirping About As Birds Do.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380483",
+            "name": "Standing Street Lamp: Beacon in the Misty Night",
+            "description": "A detailed step-by-step blueprint for making a \"Standing Street Lamp: Beacon in the Misty Night.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380482",
+            "name": "Movable Small Spotlight",
+            "description": "A detailed step-by-step blueprint for making \"Movable Small Spotlight.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380481",
+            "name": "City Street Lamp: \"Low Lanternlight\"",
+            "description": "A detailed step-by-step blueprint for making a City Street Lamp: \"Low Lanternlight.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380480",
+            "name": "\"Shimmering Luster\"",
+            "description": "A detailed step-by-step blueprint for making \"Shimmering Luster.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380472",
+            "name": "Vibrant Xiao Lantern: \"A Meeting With Friends\"",
+            "description": "A detailed step-by-step blueprint for making Vibrant Xiao Lantern: \"A Meeting With Friends.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380471",
+            "name": "Vibrant Xiao Lantern: \"May My Wish Travel Far\"",
+            "description": "A detailed step-by-step blueprint for making Vibrant Xiao Lantern: \"May My Wish Travel Far.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380470",
+            "name": "Standing Street Lamp: \"Efficiency Maxed\"",
+            "description": "A detailed step-by-step blueprint for making Standing Street Lamp: \"Efficiency Maxed.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380469",
+            "name": "Lightweight Metal Lamp",
+            "description": "A detailed step-by-step blueprint for making a Lightweight Metal Lamp.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380468",
+            "name": "Timeless Shine",
+            "description": "A detailed step-by-step blueprint for making \"Timeless Shine.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380467",
+            "name": "The Lonely Wayfarer",
+            "description": "A detailed step-by-step blueprint for making \"The Lonely Wayfarer.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380466",
+            "name": "Cloud-Wrapped Moon",
+            "description": "A detailed step-by-step blueprint for making a Cloud-Wrapped Moon.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380465",
+            "name": "Pale Moonlight Guides the Way Home",
+            "description": "A detailed step-by-step blueprint for making \"Pale Moonlight Guides the Way Home.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380464",
+            "name": "Simple Luminescent Lamp",
+            "description": "A detailed step-by-step blueprint for making a Simple Luminescent Lamp.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380463",
+            "name": "City Street Lamp: Clear Path Ahead",
+            "description": "A detailed step-by-step blueprint for making a City Street Lamp: Clear Path Ahead.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380462",
+            "name": "Standing Flammabomb Wood Street Lamp",
+            "description": "A detailed step-by-step blueprint for making a Standing Flammabomb Wood Street Lamp.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380461",
+            "name": "Gentle Night Sky",
+            "description": "A detailed step-by-step blueprint for making a \"Gentle Night Sky.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380460",
+            "name": "Aglow Through the Lingering Day",
+            "description": "A detailed step-by-step blueprint for making \"Aglow Through the Lingering Day\".\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380458",
+            "name": "Phlogiston Floor Lamp: Homecoming",
+            "description": "A detailed step-by-step blueprint for making a \"Phlogiston Floor Lamp: Homecoming.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380457",
+            "name": "Phlogiston Street Lamp: Threefold",
+            "description": "A detailed step-by-step blueprint for making a \"Phlogiston Street Lamp: Threefold.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380456",
+            "name": "Phlogiston Street Lamp: The Road Ahead",
+            "description": "A detailed step-by-step blueprint for making a \"Phlogiston Street Lamp: The Road Ahead.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380455",
+            "name": "White Chestnut Oak Wood \"Twilight\" Floor Lamp",
+            "description": "A detailed step-by-step blueprint for making a White Chestnut Oak Wood \"Twilight\" Floor Lamp.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380454",
+            "name": "White Chestnut Oak Wood \"Harpoon\" Street Lamp",
+            "description": "A detailed step-by-step blueprint for making a White Chestnut Oak Wood \"Harpoon\" Street Lamp.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380453",
+            "name": "Ashen Aratiku Wood \"Nifty\" Street Lamp",
+            "description": "A detailed step-by-step blueprint for making an Ashen Aratiku Wood \"Nifty\" Street Lamp.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380452",
+            "name": "Flammabomb Wood \"Dancer\" Street Lamp",
+            "description": "A detailed step-by-step blueprint for making a Flammabomb Wood \"Dancer\" Street Lamp.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380451",
+            "name": "Glowing Forest Fruit",
+            "description": "A detailed step-by-step blueprint for making a \"Glowing Forest Fruit.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380450",
+            "name": "Music Town's Streetlamp: \"Safety Lighting\"",
+            "description": "A detailed step-by-step blueprint for making Music Town's Streetlamp: \"Safety Lighting.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 2,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380449",
+            "name": "\"Cider Lakelight\"",
+            "description": "A detailed step-by-step blueprint for making \"Cider Lakelight.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380448",
+            "name": "Valley Stone Lamp: Everbright Light",
+            "description": "A detailed step-by-step blueprint for making Valley Stone Lamp: Everbright Light.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380447",
+            "name": "Port Street Light: Good Things Come in Pairs",
+            "description": "A detailed step-by-step blueprint for making Port Street Light: Good Things Come in Pairs.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380446",
+            "name": "Port Floor Light: Wisp of Fragrance",
+            "description": "A detailed step-by-step blueprint for making Port Floor Light: Wisp of Fragrance.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380445",
+            "name": "Artisan Fish Lantern: Spring Profits",
+            "description": "A detailed step-by-step blueprint for making Artisan Fish Lantern: Spring Profits.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380444",
+            "name": "Artisanal Fish Lantern: Carp's Well",
+            "description": "A detailed step-by-step blueprint for making Artisanal Fish Lantern: Carp's Well.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380441",
+            "name": "Forbidden Zone Floor Lamp: Nightlight",
+            "description": "A detailed step-by-step blueprint for making a \"Forbidden Zone Floor Lamp: Nightlight.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380440",
+            "name": "Forbidden Zone Floor Lamp: Ironhammer",
+            "description": "A detailed step-by-step blueprint for making a \"Forbidden Zone Floor Lamp: Ironhammer.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380439",
+            "name": "\"Shiny Shell\"",
+            "description": "A detailed step-by-step blueprint for making \"Shiny Shell.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380438",
+            "name": "\"Hello! Welcome!\"",
+            "description": "A detailed step-by-step blueprint for making a \"Hello! Welcome!\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380437",
+            "name": "Meka Luminaire: Shining Sea",
+            "description": "A detailed step-by-step blueprint for making a Meka Luminaire: Shining Sea.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380436",
+            "name": "Splendorous Night: Overflowing Light",
+            "description": "A detailed step-by-step blueprint for making Splendorous Night: Overflowing Light.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380435",
+            "name": "Meka Luminaire: Radiant Countryside",
+            "description": "A detailed step-by-step blueprint for making a Meka Luminaire: Radiant Countryside.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprints",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380434",
+            "name": "Meka Luminaire: Radiant Grounds",
+            "description": "A detailed step-by-step blueprint for making a Meka Luminaire: Radiant Grounds.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprints",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380433",
+            "name": "Meka Luminaire: Radiant Path",
+            "description": "A detailed step-by-step blueprint for making a Meka Luminaire: Radiant Path.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprints",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380432",
+            "name": "Passage's Appetizing Lamp",
+            "description": "A detailed step-by-step blueprint for making Passage's Appetizing Lamp.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprints",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380431",
+            "name": "Glowing Amusement Park Candy Lamp",
+            "description": "A detailed step-by-step blueprint for making Glowing Amusement Park Candy Lamp.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380430",
+            "name": "Shining Spotlight",
+            "description": "A detailed step-by-step blueprint for making a Shining Spotlight.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380429",
+            "name": "\"Light's Constancy\"",
+            "description": "A detailed step-by-step blueprint for making \"Light's Constancy.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380428",
+            "name": "\"Sweet Luster\"",
+            "description": "A detailed step-by-step blueprint for making \"Sweet Luster.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380427",
+            "name": "Light of Slumber",
+            "description": "A detailed step-by-step blueprint for making a \"Light of Slumber.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380426",
+            "name": "Fluttering Light",
+            "description": "A detailed step-by-step blueprint for making a \"Fluttering Light.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380424",
+            "name": "Blooming Illumination",
+            "description": "A detailed step-by-step blueprint for making Blooming Illumination.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380423",
+            "name": "Perennial Illumination",
+            "description": "A detailed step-by-step blueprint for making a Perennial Illumination.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380422",
+            "name": "Immersive Light",
+            "description": "A detailed step-by-step blueprint for making Immersive Light.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380421",
+            "name": "Deepwood Illumination",
+            "description": "A detailed step-by-step blueprint for making Deepwood Illumination.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380420",
+            "name": "Dripping Verdant Light",
+            "description": "A detailed step-by-step blueprint for making Dripping Verdant Light.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380419",
+            "name": "Slumbering Dewlight",
+            "description": "A detailed step-by-step blueprint for making a Slumbering Dewlight.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380418",
+            "name": "Stoneworks Lamp: Deeping-Gloom Candle",
+            "description": "A detailed step-by-step blueprint for making a Stoneworks Lamp: Deeping-Gloom Candle.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380417",
+            "name": "Countless Homes Light Up the Moon",
+            "description": "A detailed step-by-step blueprint for making \"Countless Homes Light Up the Moon.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380416",
+            "name": "Rainbow Lights: At Dawn We Celebrate",
+            "description": "A detailed step-by-step blueprint for making Rainbow Lights: At Dawn We Celebrate.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380415",
+            "name": "Blooming Candle: Pure as a Lotus",
+            "description": "A detailed step-by-step blueprint for making a Blooming Candle: Pure as a Lotus.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380414",
+            "name": "Maple Wood Chandelier: Illume",
+            "description": "A detailed step-by-step blueprint for making a Maple Wood Chandelier: Illume.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380413",
+            "name": "Court Lantern: Thundering Heart",
+            "description": "A detailed step-by-step blueprint for making a Court Lantern: Thundering Heart.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380412",
+            "name": "Court Lantern: Red Moon of Yore",
+            "description": "A detailed step-by-step blueprint for making a Court Lantern: Red Moon of Yore.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380411",
+            "name": "Court Lantern: Lingering Majesty",
+            "description": "A detailed step-by-step blueprint for making a Court Lantern: Lingering Majesty.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380410",
+            "name": "Maple Wood Floor Lamp: Clarity",
+            "description": "A detailed step-by-step blueprint for making a Maple Wood Floor Lamp: Clarity.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380409",
+            "name": "Maple Wood Lamp: Light Fragrance",
+            "description": "A detailed step-by-step blueprint for making a Maple Wood Lamp: Light Fragrance.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380408",
+            "name": "Teahouse Lamp: Light Concealed",
+            "description": "A detailed step-by-step blueprint for making a Teahouse Lamp: Light Concealed.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380407",
+            "name": "Teahouse Candlestand: Scentless Flame",
+            "description": "A detailed step-by-step blueprint for making a Teahouse Candlestand: Scentless Flame.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380406",
+            "name": "Tasseled Lantern: Deck the Streets",
+            "description": "A detailed step-by-step blueprint for making a Tasseled Lantern: Deck the Streets.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380405",
+            "name": "Embroidered Lantern: Lofty Grandeur",
+            "description": "A detailed step-by-step blueprint for making an Embroidered Lantern: Lofty Grandeur.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 4,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380404",
+            "name": "\"Night of the Party Pumpkins\"",
+            "description": "A detailed step-by-step blueprint for making a Night of the Party Pumpkins.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380403",
+            "name": "Six-Sided Lantern: Harmony in Friendship",
+            "description": "A detailed step-by-step blueprint for making a Six-Sided Lantern: Harmony in Friendship.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380402",
+            "name": "Eight-Sided Lantern: Lucky Day",
+            "description": "A detailed step-by-step blueprint for making an Eight-Sided Lantern: Lucky Day.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380401",
+            "name": "Two-Tier Candle Chandelier",
+            "description": "A detailed step-by-step blueprint for making a Two-Tier Candle Chandelier.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380307",
+            "name": "Base Paneled Ceiling",
+            "description": "A detailed step-by-step blueprint for making a \"Base Paneled Ceiling.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380306",
+            "name": "Lofty Tower's Radiant Ceiling",
+            "description": "A detailed step-by-step blueprint for making a \"Lofty Tower's Radiant Ceiling.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380305",
+            "name": "Annex's Spotless Dome",
+            "description": "A detailed step-by-step blueprint for making \"Annex's Spotless Dome.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380304",
+            "name": "Brightwood Chiseled Ceiling",
+            "description": "A detailed step-by-step blueprint for making a Brightwood Chiseled Ceiling.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380303",
+            "name": "Maple Wood Square Ceiling",
+            "description": "A detailed step-by-step blueprint for making a Maple Wood Square Ceiling.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380302",
+            "name": "Dark Checkered Ceiling",
+            "description": "A detailed step-by-step blueprint for making a Dark Checkered Ceiling.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380301",
+            "name": "Checkered Cedar Ceiling",
+            "description": "A detailed step-by-step blueprint for making a Checkered Cedar Ceiling.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380207",
+            "name": "Base Alloy Flooring",
+            "description": "A detailed step-by-step blueprint for making \"Base Alloy Flooring.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380206",
+            "name": "Lofty Tower's Floor of Trials",
+            "description": "A detailed step-by-step blueprint for making a \"Lofty Tower's Floor of Trials.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380205",
+            "name": "Annex's Mirror-Sheen Floor Tile",
+            "description": "A detailed step-by-step blueprint for making \"Annex's Mirror-Sheen Floor Tile.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380204",
+            "name": "Dark Brightwood Flooring",
+            "description": "A detailed step-by-step blueprint for making Dark Brightwood Flooring.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380203",
+            "name": "Brown Maple Flooring",
+            "description": "A detailed step-by-step blueprint for making Brown Maple Flooring.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380202",
+            "name": "Colorful Checkered Tile",
+            "description": "A detailed step-by-step blueprint for making a Colorful Checkered Tile.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380201",
+            "name": "Traditional Cedar Flooring",
+            "description": "A detailed step-by-step blueprint for making Traditional Cedar Flooring.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380107",
+            "name": "Base's Cooling Secret",
+            "description": "A detailed step-by-step blueprint for making \"Base's Cooling Secret.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380106",
+            "name": "Lofty Tower's Fashionable Canvas",
+            "description": "A detailed step-by-step blueprint for making a \"Lofty Tower's Fashionable Canvas.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380105",
+            "name": "Annex's Golden Mosaic",
+            "description": "A detailed step-by-step blueprint for making \"Annex's Golden Mosaic.\"\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380104",
+            "name": "Simple Brightwood Carved Wall",
+            "description": "A detailed step-by-step blueprint for making a Simple Brightwood Carved Wall.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380103",
+            "name": "Maple Wood Vaulted Wall",
+            "description": "A detailed step-by-step blueprint for making a Maple Wood Vaulted Wall.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380102",
+            "name": "Dark Wood Arch Wall",
+            "description": "A detailed step-by-step blueprint for making a Dark Wood Arch Wall.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "380101",
+            "name": "Timber Wall With Jade Eaves",
+            "description": "A detailed step-by-step blueprint for making a Timber Wall With Jade Eaves.\nAfter using this item, you can view it in the Creation Screen.",
+            "rarity": 3,
+            "category": "Furnishing Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+          },
+          {
+            "id": "350111",
+            "name": "Crescent Moon Serenity",
+            "description": "A courtyard inspired by Silvermoon Hall. Its style exudes tranquility and serenity, like a dreamlike realm just beyond reach.\nThe moonlight always gently guides all living beings. Perhaps, the followers of the Moon Goddess have once asked themselves: what kind of view or scenery could guide the new moon into her own peaceful slumber?\nThe only way to know the answer is to visit Silvermoon Hall and gaze upon every flower and blade of grass there...\nThis Furnishing Set is favored by the following companions: Columbina",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Outdoor.webp"
+          },
+          {
+            "id": "350110",
+            "name": "Promising Workshops",
+            "description": "A small settlement inspired by the Clink-Clank Krumkake Craftshop, with comfortable hemispherical iron houses and buildings shaped like iron ships. These structures are more than enough to meet the basic needs of workshop owners.\nAll great workshops have their origin in a single, simple structure. With these buildings as a foundation, and proper planning and materials in place, transforming your Realm Within into a giant workshop becomes a very real possibility...\nThis Furnishing Set is favored by the following companions: Ineffa, Aino",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Outdoor.webp"
+          },
+          {
+            "id": "350109",
+            "name": "Solitary Light in the Long Night",
+            "description": "A settlement of sturdy houses, its layout and architecture inspired by the outdoor defensive strongholds of the Lightkeepers. Built to withstand wind and rain, it retains formidable defensive capabilities even against the Wild Hunt. As the Lightkeepers' oath states: \"We are the Lightkeepers, who shine the eternal light of hope into the endless snow-swept plains.\"\nOn the vast plains outside Piramida, strongholds like this one stand tall and bright, carrying the light of hope with them.\nThis Furnishing Set is favored by the following companions: Flins, Illuga",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Outdoor.webp"
+          },
+          {
+            "id": "350108",
+            "name": "Tranquil Prayer Under the Moon",
+            "description": "An open-air setting modeled after Frostmoon Enclave, featuring various implements arranged according to the customs of the Frostmoon Scions and vegetation planted to complement each item. Step into this space, and you'll immediately sense the tranquility and harmony that so define the Frostmoon Scions. It feels as though gentle, melodic hymns are echoing softly, carrying away all troubles and suffering on the breeze, leaving behind only a serene and peaceful state of mind.\nThis Furnishing Set is favored by the following companions: Lauma, Columbina",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Outdoor.webp"
+          },
+          {
+            "id": "350107",
+            "name": "Bustling Border Town",
+            "description": "A regional landscape centered on various distinctive buildings, with shops of various kinds. It is a perfect re-creation of a corner of Nasha Town.\nIt is said that Nasha Town differs from other cities in that it has no true administrator and no clear planning structure. This has led to countless narrow passages and scarcely noticed gaps emerging between the town's buildings. For most residents, these passages are merely conduits for noise. For those focused on gathering information, however, they serve as pathways for the spread of secrets and shortcuts for ease of travel.\nThis Furnishing Set is favored by the following companions: Nefer, Jahoda, Varka, Lohen, Prune",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Outdoor.webp"
+          },
+          {
+            "id": "350106",
+            "name": "Wilderness of the Far North",
+            "description": "A wilderness that brings together vegetation and landforms that are commonly seen in Nod-Krai, particularly an authentic recreation of the unique landscape of Hiisi Island.\nNod-Krai enjoys an abundance of kuuvahki, which in turn has given rise to brightly colored plants, creatures with distinctive habits, and landforms of unusual shapes. For naturalists, this area holds countless treasures of new knowledge, while for ordinary tourists, it offers wondrous sights that demand a pause to admire.\nThis Furnishing Set is favored by the following companions: Durin, Linnea, Nicole",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Outdoor.webp"
+          },
+          {
+            "id": "350105",
+            "name": "A Tea Party at Leisure",
+            "description": "A cozy and comfortable tea party setting inspired by the tastes of a certain host who loves gathering with friends. It captures a scene of friends seated around a table, chatting away in comfort. Delicious desserts, fragrant tea, an elegant tea table, soft carpets, and comfortable high-backed chairs... Every little detail helps guests settle in and relax. Here, all anyone needs to do is savor this peaceful, precious moment.\nThis Furnishing Set is favored by the following companions: Sandrone",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Indoor.webp"
+          },
+          {
+            "id": "350104",
+            "name": "Pre-Battle Respite",
+            "description": "A fully equipped communal lounge, modeled after the room layouts of Piramida, recreates the quiet moments of rest the Ratniki take before battle. Veteran Ratniki know that the war against the Wild Hunt is long and unforgiving, and that whenever circumstances allow, rest is essential to maintaining peak combat readiness. Besides, a thoughtfully arranged lounge also gives the Ratniki time to get to know one another. On the battlefield, fighting alongside trusted companions inspires far greater confidence and coordination than fighting beside strangers. For this reason, the construction of rest lounges has long been a priority for the Starshyna.\nThis Furnishing Set is favored by the following companions: Flins, Illuga",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Indoor.webp"
+          },
+          {
+            "id": "350103",
+            "name": "The Bestest and Warmest Home",
+            "description": "A Nod-Krai-style bedroom with a layout that evokes a warm and cozy feeling. It is the ideal place to shed one's fatigue after a busy day. All the furnishings in this bedroom, which were carefully selected by the \"Parent\" herself from the Clink-Clank Krumkake Craftshop, are the bestest, warmest, and most practical furniture in the whole world. However, this exceptional comfort comes with a downside: its occupants sometimes oversleep, even missing important appointments because the room is just so comfy. A firm but considerate wake-up method might be necessary to ensure everyone gets up on time.\nThis Furnishing Set is favored by the following companions: Ineffa, Aino",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Indoor.webp"
+          },
+          {
+            "id": "350102",
+            "name": "The Orderly Grid of Secrets",
+            "description": "This distinctive workspace draws heavily from the layout of the Curatorium of Secrets, faithfully recreating the scene as it appears when its owner is hard at work. Everything is arranged with meticulous order.\nInformation analysis is a demanding and complex task. When threads of data intertwine, it's easy to feel at a loss. Yet in a room where every furnishing is thoughtfully placed and every supporting tool close at hand, the mind may find greater clarity, and productivity is sure to follow...\nThis Furnishing Set is favored by the following companions: Nefer, Jahoda",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Indoor.webp"
+          },
+          {
+            "id": "350101",
+            "name": "Sweet Slumber Beneath the Moon",
+            "description": "A simple-but-elegant bedroom, furnished with pieces carefully selected by the Frostmoon Scions. The overall atmosphere here is that of refined simplicity and warmth. It is said that a tranquil and natural environment can help one relax better, and this bedroom appears to be the perfect embodiment of that principle. With lamp light as gentle as the moonlight casting its soft glow, and the fresh scent of fruit in the air, those who stay here may feel their weariness and pain slowly ease away, as the peace and calm of repose quietly takes over...\nThis Furnishing Set is favored by the following companions: Lauma",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Indoor.webp"
+          },
+          {
+            "id": "350100",
+            "name": "A Comfy Room for Guests From Near and Far",
+            "description": "A fully furnished room, inspired by the guest rooms at The Flagship, the largest tavern in Nasha Town. Targeted improvements have been made to better meet the needs of its occupants.\nThe guests of The Flagship come from a variety of backgrounds, each with their own idea of what \"comfort\" means. Striking a balance between all these different expectations is no easy task. Eventually, The Flagship settled on a unique solution: furnish its rooms with every amenity a client might possibly need, then remove the unneeded items based on their feedback. Although the room may feel a little cluttered as a result, it provides everything a guest could need, allowing them to find comfort in their own way.\nThis Furnishing Set is favored by the following companions: Linnea, Nicole",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Indoor.webp"
+          },
+          {
+            "id": "350099",
+            "name": "Companions' Haven",
+            "description": "A clean and well-kept dwelling fitted out with saurian-friendly features, tried and tested by the people of Natlan. It makes an ideal home for saurians and other large creatures alike.\nFor a Natlanese warrior, saurians are more than just companions \u2014 they are considered family, sharing in both their struggles and triumphs. With a saurian by one's side, all troubles seem to melt away.\nThis Furnishing Set is favored by the following companion: Ifa",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Outdoor.webp"
+          },
+          {
+            "id": "350098",
+            "name": "Gallant March of the Collective of Plenty",
+            "description": "A scenic piece inspired by the landscapes of the Collective of Plenty, exuding the tranquil charm of rural life.\nThe people of the Collective of Plenty's lifestyle is defined by farming and fitness, both of which demand resilience and dedication to bear fruit. Perhaps that's why simply being in this setting seems to stir a quiet yet unyielding strength from within...\nThis Furnishing Set is favored by the following companions: Iansan, Varesa",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Outdoor.webp"
+          },
+          {
+            "id": "350097",
+            "name": "Masters of the Night-Wind's Tranquility",
+            "description": "A small settlement that strives to recreate the scenery of the Masters of the Night-Wind, with buildings laid out to resemble the crest of an Iktomisaurus.\nTo the eyes of outsiders, the Masters of the Night-Wind are a mysterious and inscrutable tribe, and most assume their shamans to be eccentric and hard to approach \u2014 not without good reason, for the environs which the Masters of the Night-Wind inhabit are not somewhere that those of a more conventional disposition would thrive.\nEccentricity aside, these shamans excel at tending to themselves \u2014 in addition to their festivals. How else would they be able to meditate in comfort all day long?\nThis Furnishing Set is favored by the following companions: Ororon, Citlali",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Outdoor.webp"
+          },
+          {
+            "id": "350096",
+            "name": "Flower-Feather Clan's Conquest",
+            "description": "A settlement comprised of various floating platforms, hot air balloons, and training grounds that recreate the character and style of the Flower-Feather Clan. It's said that nearly every member of the Flower-Feather Clan dreams of joining the flying squad and setting off on a crusade to conquer the sky. For those with such aspirations, each day is a training session. A certain warrior once said: \"Only the effort you put in will never betray you,\" and these words inspire many to work hard and strive to achieve their dreams.\nThis Furnishing Set is favored by the following companions: Chasca, Ifa",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Outdoor.webp"
+          },
+          {
+            "id": "350095",
+            "name": "Scions of the Canopy's Duty",
+            "description": "A courier's post with a convenient, comfortable hut that takes its inspiration from the Scions of the Canopy. Decked out with communications equipment and a windmill system for monitoring changes in the weather, it provides almost everything a courier might need to fulfill their duties.\nBeing a courier is a complex task and requires a broad set of skills, including the ability to traverse varied terrain, survive for long periods in the wilderness, and accurately determine and track directions. Such skills require more than just a spirit of adventure to perfect.\nThis Furnishing Set is favored by the following companions: Kinich",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Outdoor.webp"
+          },
+          {
+            "id": "350094",
+            "name": "People of the Springs' Relaxation",
+            "description": "A small settlement filled with curious shops and stalls that takes its inspiration from the People of the Springs. While away lazy afternoons in the shade of an overhead canopy as you sit back and relax with a cooling drink in hand.\nThere is a wide variety of water sports equipment on offer, as well as unique music and instruments to listen to... Spend enough time in these leisurely surroundings and your cares, no matter how big, are sure to melt away...\nThis Furnishing Set is favored by the following companions: Mualani",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Outdoor.webp"
+          },
+          {
+            "id": "350093",
+            "name": "Children of Echoes' Passion",
+            "description": "A lively area that encapsulates the energetic essence of a typical Children of Echoes street scene, with its large dance stage, eye-catching graffiti, and distinctive stone architecture.\nFrenzied dance battles and rhythmic percussion form the pulse of the Children of Echoes, and anyone immersed in such an atmosphere can't help but feel the infectious excitement and passion wash over them, instilling them with a fresh sense of purpose.\nThis Furnishing Set is favored by the following companions: Kachina, Xilonen",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Outdoor.webp"
+          },
+          {
+            "id": "350092",
+            "name": "Treading the Untrodden Path",
+            "description": "A wild landscape brimming with raw, natural vitality that largely captures the essence of Natlan's unique geology and flora. Standing in its midst, you can almost hear the howling winds.\nThe wilds of Natlan are vast and untamed, with countless unconquered mountains, innumerable untouched skies, and myriad mysteries still waiting to be solved. In short, it is an adventurer's paradise.\nThis Furnishing Set is favored by the following companions: Kinich, Ororon",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Outdoor.webp"
+          },
+          {
+            "id": "350091",
+            "name": "Born Among Searing Flames",
+            "description": "A working space that combines mining equipment, processing facilities, and a display shelf for finished weapons \u2014 a one-stop shop from production to retail and enough to satisfy the needs of a full team of Natlan craftspeople.\nNatlan is a land shaped by war where weapons and their production are viewed with great importance. Its furnaces are kept burning with an unrivaled heat, in hopes that this fiery baptism will forge weapons for warriors that shall endure and defeat even the strongest of foes, just as the Sacred Flame does.\nThis Furnishing Set is favored by the following companions: Xilonen, Iansan",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Outdoor.webp"
+          },
+          {
+            "id": "350090",
+            "name": "Fomenting Fashion at the Fair",
+            "description": "A vibrant market street based on the Stadium of the Sacred Flame's Chuwen Fair. Shops and stalls of all colors stand shoulder to shoulder, decked out in graffiti and decorations that lend the scene a style and a vital glow unique to Natlan.\nOrnaments and paints in rainbow hues are the calling cards of Natlan's markets and the common currency for those who wish to express their affinity with the latest trends. It would be no overstatement to say that countless new fashions are birthed in the stands and stalls of markets like this all over Natlan.\nThis Furnishing Set is favored by the following companions: Mualani",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Outdoor.webp"
+          },
+          {
+            "id": "350089",
+            "name": "Sleep Now, Rest Your Weary Head",
+            "description": "A warm and cozy bedroom modeled on the rooms at the Weary Inn and containing some of the same furnishings, designed to soothe the nerves and promote quality sleep.\nAs a place of rest for tourists, businesspeople, and warriors participating in tournaments, the design ethos of the Weary Inn is focused on the recovery of body and mind. To provide the pinnacle of hospitality, the owner has invested no small amount of time and effort. Staying in a bedroom that so faithfully captures the style and feel of the Weary Inn should provide an excellent, restful night.\nThis Furnishing Set is favored by the following companions: Kachina, Citlali, Varesa",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Indoor.webp"
+          },
+          {
+            "id": "350088",
+            "name": "Arena's Toast to Triumph",
+            "description": "A banquet hall filled with a panoply of delicious food inspired by the inn at the Stadium of the Sacred Flame. It faithfully recreates a touching scene of warriors gathered together in celebration of triumph. All know that victory is precious and seldom comes easily, and so any site for feast and celebration must be carefully chosen. Of utmost importance is to create a relaxing yet passionate atmosphere, one that will set those present at ease and encourage the liberal flow of drink.\nThis Furnishing Set is favored by the following companions: Mavuika",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Indoor.webp"
+          },
+          {
+            "id": "350087",
+            "name": "Carefully Considered Words",
+            "description": "A fully furnished study complete with items selected for the Speaker's Chamber and inspired by the decor of the Stadium of the Sacred Flame. The warm light from the desk lamp helps create an atmosphere well-suited to solitary contemplation and study. The name \"Speaker's Chamber\" implies a place for conversation and discourse, yet every word there spoken affects Natlan's fate. Each utterance must be weighed carefully, and there could be far worse places to consider a statement yet to be made than the tranquil confines of this study...\nThis Furnishing Set is favored by the following companions: Chasca, Mavuika",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Indoor.webp"
+          },
+          {
+            "id": "350086",
+            "name": "The Nation of Hydro's Mottled Colors",
+            "description": "A countryside scene full of luxurious plants. It contains all sorts of flowers and bushes that can be found everywhere in Fontaine. Flowers and plants are common themes in paintings, and are a starting point for explorations into \"color.\" Some painters in Fontaine believe that the world's palette uses plants to demonstrate the perfect combination of colors. As such, if all the colors in a painting may find their source in flowers, then this painting must surely have harmonious beauty equal to that of natural scenery. Of course, this is predicated on you not mixing all plant-derived colors together in a single conversation...\nThis Furnishing Set is favored by the following companions: Clorinde, Emilie, Escoffier, Sandrone",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Outdoor.webp"
+          },
+          {
+            "id": "350085",
+            "name": "Full Force Forward in the Forbidden Fortress",
+            "description": "An arena whose centerpiece is a boxing ring. Standing within it, you can hear again the cheers and applause of the audience, the excited commentary of the host, and the dull sound of fists thudding against flesh coming from both competitors \u2014 such is the deep impression that the Fortress of Meropide's Pankration Ring leaves.\n\"In a ring where your fists decide everything, you can only go full force forward to claim the glory \u2014 and the Credit Coupons \u2014 that should be yours.\" ...Many Pankration Ring competitors take this as their motto even after departing the Fortress altogether...\nThis Furnishing Set is favored by the following companions: Wriothesley, Chevreuse, Sigewinne",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Outdoor.webp"
+          },
+          {
+            "id": "350084",
+            "name": "Undersea Merusea's Luster",
+            "description": "A small settlement that makes an effort to recapture the scenery in Merusea Village, with unique and rather eye-catching buildings.\nThe Melusines dwell within Elynas, beneath the waves, and few normal people visit their village, though those who do all sing its praises upon their return. Some artists have tried to draw the place based on the descriptions and information gained from interviewing Melusines in the Court of Fontaine. However, there was always a \"color difference\" between their work and the real colors of the village that was hard to ignore. This problem was only solved once Kamera-taken images of Merusea Village became widespread, thus more or less solving the problem...\nThis Furnishing Set is favored by the following companions: Freminet, Sigewinne",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Outdoor.webp"
+          },
+          {
+            "id": "350083",
+            "name": "Poisson the Unassuming",
+            "description": "A landscape centered around various unique buildings that recreate a corner of Poisson. Structures that emphasize practicality elevate the work efficiency of those who dwell in them, though this does not immediately translate to busywork and exhaustion, but rather is a way of safeguarding one's leisurely days. Many residents of Poisson, indeed, live by the adage \"Let us be done with work swiftly, so that we may enjoy our rest,\" living full yet simple lives.\nThis Furnishing Set is favored by the following companion: Navia",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Outdoor.webp"
+          },
+          {
+            "id": "350082",
+            "name": "Court of Justice's Fresh Mist",
+            "description": "A square filled with green bushes, vibrant flowers, and a luxurious fountain. The design concept is based on the Fountain of Lucine on Erinnyes.\nWhen the weather is fine, the fresh mist threads through the flowers on Erinnyes, the sight of which lifts the spirits of both residents and visitors from abroad. Even should one arrive amid a driving shower, the legends that surround the Fountain still fill the heart with wondrous hope.\nThis Furnishing Set is favored by the following companions: Neuvillette, Furina, Emilie",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Outdoor.webp"
+          },
+          {
+            "id": "350081",
+            "name": "Court of Justice's Booming Commerce",
+            "description": "Based on the Quartier Lyonnais in the Court of Fontaine, this place is filled with tons of Fontainian specialty stores and tables at which to also rest and enjoy some tea.\nSome experienced tourists will tell you that you can ask the residents here if you are unfamiliar with the stores and characteristics of the goods on sale. Since many stores strictly follow the price controls set by the Palais Mermonia, very few people will purchase items with incongruent prices.\nThis Furnishing Set is favored by the following companions: Lynette, Lyney, Chiori",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Outdoor.webp"
+          },
+          {
+            "id": "350080",
+            "name": "Court of Justice's Placid Days",
+            "description": "A lane using the ordinary streets of Fontaine's residential districts as the blueprint. The numerous residences have also reproduced the authentic look of the Court of Fontaine.\nFor many residents of Fontaine, a large part of their lives consists of orderly activity, getting on and off work on time, resting, meeting friends for a meal or shopping, and occasionally heading to the Opera Epiclese for a grand performance. Even some crisis-tested adventurers might sometimes think that such a placid lifestyle might be nice...\nThis Furnishing Set is favored by the following companion: Charlotte, Arlecchino",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Outdoor.webp"
+          },
+          {
+            "id": "350079",
+            "name": "Wellspring of Rule Violation Prevention",
+            "description": "An office with a solemn air that accurately reproduces the office of the Fortress of Meropide's \"Duke.\"\nThey say that after the Duke took over the Fortress, he only changed a few small office furnishings, and otherwise left the place alone \u2014 this, then, was the type of office in which the regulations the many inmates must follow were written up.\nThis Furnishing Set is favored by the following companion: Wriothesley",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Indoor.webp"
+          },
+          {
+            "id": "350078",
+            "name": "Continuous Clockwork Inspiration",
+            "description": "A room based around a clockwork workshop with enough machinery processing equipment to meet most artisans' needs.\nSome Fontainian poets believe that clockwork meka are creations worthy of respect, respect that should shine upon the artisan's tools as well. \"Inspiration inclines the ears of these components, it teaches them to dance as one at a pace perpetual.\"\nThis Furnishing Set is favored by the following companion: Freminet",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Indoor.webp"
+          },
+          {
+            "id": "350077",
+            "name": "Perfectly-Drawn Focus",
+            "description": "An interior with a middle-sized stage as its centerpiece, large enough to stage a small performance.\nFor those new to performing, an audience too large will cause them undue nerves and affect their performance, and for seasoned masters, sometimes a show put on for one's friends brings one far more happiness than a sold-out extravaganza. As such, most performers can appreciate the lack of grandeur in this stage.\nThis Furnishing Set is favored by the following companions: Lynette, Lyney, Arlecchino",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Indoor.webp"
+          },
+          {
+            "id": "350076",
+            "name": "Garb for Glorious Gourmet",
+            "description": "A fully decked-out restaurant built in imitation of the Hotel Debord. It is suited to staging lively family banquets to which large numbers of relatives and friends will be invited.\nEven seasoned chefs cannot deny that the gastronomical mise en scene dictates the feelings of the diners, which influences their overall rating of the food. As such, a beautiful restaurant can also be considered a sort of outer garment for good food and drink.\nThis Furnishing Set is favored by the following companions: Furina, Navia, Escoffier",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Indoor.webp"
+          },
+          {
+            "id": "350075",
+            "name": "Strict Adherence to Office Codes",
+            "description": "A classic study layout based on the Palais Mermonia's furnishings, recreating that ever-bustling office, where everything is in accordance with regulations.\nA certain Fontaine Research Institute researcher once claimed that \"a person's environment will greatly affect their state at work.\" Following this principle, one who is within an environment so much like the Palais might subconsciously, reliably follow every process to the letter...\nThis Furnishing Set is favored by the following companions: Neuvillette, Clorinde",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Indoor.webp"
+          },
+          {
+            "id": "350074",
+            "name": "Key to a Stable Work-Rest Cycle",
+            "description": "A simple, large bedroom that balances warmth and sophistication. For exhausted people, the bed means a quick entry into dreamland, and those who wake in the morning will enter just as swiftly into work mode.\nMany Fontainians treat interior design as a key factor in sleep, and stable sleep is key to one's work-rest cycle. From this perspective, bedroom design is indeed critical.\nThis Furnishing Set is favored by the following companions: Charlotte, Chevreuse",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Indoor.webp"
+          },
+          {
+            "id": "350073",
+            "name": "Chorus of Desert and Wood",
+            "description": "#Many varieties of plants grow in fecundity in this marvelous space, seemingly by the grace of Sub-Space Creation in harmonizing the various specialties that these plants possess such that even ones that come from the desert and the forest can coexist side by side, thus orchestrating a beautiful chorus of flower, tree, and wild grass.\nFor researchers who love plants, such areas are veritable treasure troves for research, though these vibrant woods will also prove sites of unique interest to ordinary passers-by.\nThis Furnishing Set is favored by the following companions: Tighnari, {REALNAME[ID(1)|HOSTONLY(true)]}",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Outdoor.webp"
+          },
+          {
+            "id": "350072",
+            "name": "Amidst Scents and Serenity",
+            "description": "An elegant and serene garden that utilizes gazebos drawn from Razan Garden and Pardis Dhyai. This place is less concerned with the absolute unity of the disparate architectural styles, but is more focused on creating an overall air of tranquility.\nThe lovely blossoms slumber here in peace, and the standing lamps set the fountain aglow... Once the night hours approach, a walk through this garden can cause the noisy thoughts in your head to dissipate like wispy clouds. Perhaps you might even gain inspiration that you would normally struggle to find...\nThis Furnishing Set is favored by the following companions: Nahida, Kaveh, Kirara",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Outdoor.webp"
+          },
+          {
+            "id": "350071",
+            "name": "The Traveling Troop's Pomp",
+            "description": "This military-style camp is filled with various goods. Defensive fortifications have been set up, and well-placed campfires lay the groundwork for night operations. In theory, at least, this type of encampment can withstand the assault from many foes, and can even form the fulcrum of a defensive line should there be sufficient manpower to do so.\nNo matter how bothersome the setup and transport of the materials might be, and no matter how the lack of tents that block the wind or rain may lead to rather tough conditions... Battle-hardened mercenaries need only a bed of straw to sleep soundly, and as such do not worry over-much about such small flaws.\nThis Furnishing Set is favored by the following companions: Dehya",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Outdoor.webp"
+          },
+          {
+            "id": "350070",
+            "name": "Setekh Demurs",
+            "description": "This settlement, which is based off Aaru Village, comprises heavyset houses that fear neither erosion from sand nor the intrusion of uninvited wild beasts, for they have defensive strength equal to wooden structures. It is just that, or so you hear, the building materials are rather special, and thus the inner walls require regular maintenance on the part of those that inhabit such structures to check if they have begun to crack under long periods of weathering the searing wind and the burning sun, repairing them where necessary. Such work also helps to hone the perception of the inhabitants, making them more careful and precise about each aspect of their lives.\nThis Furnishing Set is favored by the following companions: Candace, Layla",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Outdoor.webp"
+          },
+          {
+            "id": "350069",
+            "name": "Quiet Times by the Riverbank",
+            "description": "#A tranquil settlement that takes on the unique aesthetic of Vimara Village. Even if this furnishing set is not situated by a river or at the seaside, a whiff of the aroma of fish that wafts through this village will set the sound of water gurgling through your ears.\nVimara Village has a very different feeling from the Forest Ranger camp, for its inhabitants largely do not shoulder important duties and thus lead leisurely lives, making it a very nice place to be for those who wish to relax.\nThis Furnishing Set is favored by the following companion: {REALNAME[ID(1)|HOSTONLY(true)]}",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Outdoor.webp"
+          },
+          {
+            "id": "350068",
+            "name": "Of Twirling Dances Unfettered",
+            "description": "A grand and lovely theater. In many things \u2014 the magnificent stage, the mists of the spouting fountain, and the many precious flowers brought to life by Sub-Space Creation \u2014 this place imitates the festive atmosphere of Zubayr Theater.\nThey say that some shows are best appreciated at night. The placement of the theater lamps seems to be the result of careful study that aims to maximize the clarity with which each audience member can see the dancers, no matter the angle they are sitting or standing at, while the illumination and glow of the lamps are also adjusted just right to maximize the brightness of the scene.\nThis Furnishing Set is favored by the following companions: Nilou, Kaveh",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Outdoor.webp"
+          },
+          {
+            "id": "350067",
+            "name": "Deep in the Quiet Forest",
+            "description": "This settlement is made in the style of Gandharva Ville, with much aesthetic inspiration taken from the rainforest itself, such that you be able to live out the forest experience amidst the calming greens and blues regardless of the surrounding area.\nOf course, you will need to master more survival skills for times when you must truly enter the forest, such as adjusting your routines and rhythms to avoid the minor quibbles caused by the humid climate. You might also need to understand some Forest Rangers' daily habits...\nThis Furnishing Set is favored by the following companions: Collei, Cyno",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Outdoor.webp"
+          },
+          {
+            "id": "350066",
+            "name": "Amidst Prospering Markets",
+            "description": "An exquisitely-furnished mercantile district that pays homage to the layout of Sumeru City's streets and its Grand Bazaar. Fresh fruits, delectable dishes, and all manner of lifestyle goods may be found at the stalls here. A few rounds around the area, and you will find a unique ambience one feels when stepping foot into a bustling market.\nThey say that the shops and stalls on either side of Sumeru's streets have been modified according to specific rules that are the product of some Akademiya research, such that they can provide holistic service with the minimum possible management difficulty and acreage used.\nThis Furnishing Set is favored by the following companions: Dori, Faruzan, Sethos",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Outdoor.webp"
+          },
+          {
+            "id": "350065",
+            "name": "Dwelling Amidst the Sands",
+            "description": "An unadorned room that uses implements and utensils that hail from interior designs common to Aaru Village. Those who live amidst the desert winds have many habits suited to life in their unique environment, such as shaking off the sand that might have been brought in along with their clothes in a timely manner, or maintaining the temperature and moisture of a room at little cost...\nOf course, such practices are not very necessary in the comfy confines of the Realm Within, but they can still cheer and warm the heart, and are thus worthy of respect. This interior setup pays attention to many a small detail such that living in it feels just like living in a desert home.\nThis Furnishing Set is favored by the following companion: Candace",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Indoor.webp"
+          },
+          {
+            "id": "350064",
+            "name": "A Farewell Brief to Bustle and Bother",
+            "description": "A bedroom fashioned in the style of those found in Sumeru. The various implements and utensils in here can be found in many houses throughout the city. Thanks to the perfect replication powers of Sub-Space Creation, each furnishing appears as if they were freshly made, giving off a clean, neat, open, and generous feel to any who enter \u2014 a fine place for rest and repose, if you might say so yourself.\nEven those who need not worry about food or clothing will sometimes be affected by negativity, and even those in positions most others might envy cannot escape the troubles of life. At such times, emptying one's mind and getting some good sleep, such that one might face the world again at full strength, is the safe and stable choice.\nThis Furnishing Set is favored by the following companions: Nahida, Layla",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Indoor.webp"
+          },
+          {
+            "id": "350063",
+            "name": "Of Settled Thoughts",
+            "description": "A study stacked with tomes, its bookcases towering like insurmountable walls. When most people gaze upon the many books laid before their eyes, it might be hard not to feel a little overawed.\nOf course, those in the know are aware that the boundary between wisdom and ignorance is not some boundary that may not be crossed. So long as one is willing to settle in and read these books, one at a time, following a carefully laid out plan, one will gain an incalculable amount of new knowledge before long.\nThis Furnishing Set is favored by the following companions: Cyno, Faruzan, Alhaitham, Skirk",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Indoor.webp"
+          },
+          {
+            "id": "350062",
+            "name": "Fervid Aroma",
+            "description": "The blueprint for this exquisitely decorated restaurant is a famous tavern in Sumeru City... modified for use within the Serenitea Pot, of course. Steam and the scent of spices alike waft through the air, each doubling up on an already joyful experience. All one would then need was some friends for company and a few jugs of fine wine, and this would be the perfect dining experience.\nFor those who travel together often, barbecue places are perfect when considering the number of seats and amount of food needed. As for those who move alone, the raucous atmosphere of such establishments allows them to conceal their movements, alongside providing safe conditions for observing, tracking, or even plotting.\nThis Furnishing Set is favored by the following companions: Alhaitham, Dehya, Sethos",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Indoor.webp"
+          },
+          {
+            "id": "350061",
+            "name": "Coalesced Brilliance",
+            "description": "A room that is bedecked with various gems, ornaments, and a collection of precious items. Its interior gives off an air of luxury, and lighting but a single lamp in the corner will allow the scattered light to reflect all about, dazzling the senses.\nFor those who seek wealth, such a storeroom is akin to a sweet treat with just the right amount of sugar and a lingering aftertaste. And as for those who appreciate the aesthetics more, they will find the sparkle of the artworks in here a pleasant surprise, no matter the angle from which they look.\nThis Furnishing Set is favored by the following companions: Dori, Nilou",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Indoor.webp"
+          },
+          {
+            "id": "350060",
+            "name": "Forest Patrol Anecdotes",
+            "description": "A fully decked-out break room that takes design cues from the dwellings of the Forest Rangers in Gandharva Ville. The layout of the room has also been tuned to the missions that the Rangers carry out.\nWhenever the call goes out, they can immediately grab their bags and go, and when they return from patrol, they can also quickly get down to processing, storing, or analyzing samples. If they are on guard until late in the night, they can even use the stove inside to make some supper and restore some energy. All things considered, this break room will allow the Forest Rangers to maintain peak performance at all times... As long as the rosters have been done well, of course.\nThis Furnishing Set is favored by the following companions: Tighnari, Collei",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Indoor.webp"
+          },
+          {
+            "id": "350059",
+            "name": "Of Maple and Tea Scents Entwined",
+            "description": "A detailed step-by-step blueprint for making Of Maple and Tea Scents Entwined.\nThe layout of this traditional Inazuman teahouse has used Komore Teahouse as reference material and has used similar Maple Wood tables and tea ceremony items, all of which evoke that elegant but not overly strict, friendly but not arbitrary atmosphere.\nLegend has it that various forms of inspiration spring forth unto those who sit in a tea room filled with the fragrance of maple wood and tea. As such, some poets tend to write their poetry while sipping tea, with the young wanderer who gave many plants their elegant nicknames counting amongst this number.\nThis Furnishing Set is favored by the following companions: Thoma, Kaedehara Kazuha, Yumemizuki Mizuki",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Indoor.webp"
+          },
+          {
+            "id": "350058",
+            "name": "Scholarly Trove",
+            "description": "A detailed step-by-step blueprint for making a Scholarly Trove.\nA healthy collection of texts has been placed here using the large bookcase preferred by all arms of the Tri-Commission. This could fit at least a hundred books for sure. But to some Inazumans, it is not the number of books that counts, but instead \"precision\" and \"precipitation\" \u2014 that is to say that you must deposit every word of each good book you read into your heart. As such, one merely needs to arrange one's books according to how much one values them. For books that you have long ago read and committed to memory, you can lend them or even sell them if you like. They say that the Divine Priestess of Watatsumi Island has this exact habit.\nAfter using this item, you can view it in the Placement Screen.\nThis Furnishing Set is favored by the following companions: Sangonomiya Kokomi, Kuki Shinobu",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Indoor.webp"
+          },
+          {
+            "id": "350057",
+            "name": "A Thousand Swings",
+            "description": "A detailed step-by-step blueprint for making A Thousand Swings.\nThis is a place where true swordsmanship is forged. Many hereditary clan swords are arranged here, and a solemn, upright-seated armor sets the austere atmosphere. The Evil-Slaying Bows and Spiritchaser Screen that serve as ornaments have the ceremonial purpose of purging both the surroundings and the hearts of those training there of any wicked thought.\nMost Inazuman martial artists believe that aside from swinging your sword a thousand times, you only need to maintain the will to sharpen your skills and put your utmost effort into it, and you will surely push yourself to the pinnacle of your art.\nAfter using this item, you can view it in the Placement Screen.\nThis Furnishing Set is favored by the following companions: Raiden Shogun, Kamisato Ayaka",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Indoor.webp"
+          },
+          {
+            "id": "350056",
+            "name": "Eternal Domain of Fleeting Dreams",
+            "description": "A detailed step-by-step blueprint for making an Eternal Domain of Fleeting Dreams.\nThis bedroom is filled with a unique Inazuman aesthetic but also adopts ideas from other nations quite freely, thus striking a brilliant balance between tradition and practicality. The design process included considerations as to how guests might feel, and the room itself was designed for them to relax sufficiently, such that they will feel re-energized, as one might after a long, dreaming sleep, even after only taking a short rest. The kotatsu that has been kindly set up also contributes to the feeling of never wanting to leave your room.\nAfter using this item, you can view it in the Placement Screen.\nThis Furnishing Set is favored by the following companions: Sayu, Sangonomiya Kokomi, Shikanoin Heizou",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Indoor.webp"
+          },
+          {
+            "id": "350055",
+            "name": "Sakura-Hued Street",
+            "description": "A detailed step-by-step blueprint for making a Sakura-Hued Street.\nA perfect facsimile of Inazuma City's carefully planned shopping district.\nNo matter what happens, the people of Inazuma live life in a calm, peaceful atmosphere. The walkable streets reflect the living conditions of the residents, which is the truest depiction of the city. By following Thoma, the Kamisato Clan's Housekeeper who knows Inazuma inside and out, and checking out the various businesses and shops, one can truly understand and appreciate the local customs.\nAfter using this item, you can view it in the Placement Screen.\nThis Furnishing Set is favored by the following companions: Yoimiya, Thoma, Kuki Shinobu, Kirara, Skirk",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Outdoor.webp"
+          },
+          {
+            "id": "350054",
+            "name": "Summer Night's Recollection",
+            "description": "A detailed step-by-step blueprint for making a Summer Night's Recollection.\nThe scenery perfectly recreates the lively atmosphere found in the festivals of Inazuma.\nInazuma City holds several festivals each year, but the biggest, most memorable ones often fall during the middle of summer. The food stalls, games, and fireworks in the night sky will make visitors linger a little longer. The stalls may disappear after the last day, but the good times shared with companions will last forever.\nAfter using this item, you can view it in the Placement Screen.\nThis Furnishing Set is favored by the following companions: Kamisato Ayaka, Arataki Itto, Kamisato Ayato",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Outdoor.webp"
+          },
+          {
+            "id": "350053",
+            "name": "Jade Wilds",
+            "description": "A detailed step-by-step blueprint for making Jade Wilds.\nA quiet, serene landscape on the outskirts of Inazuma. A shrine made of Otogi Wood stands tall amongst the Sakura trees, the maple trees, and the colorful flowers. The candlelight flickers, blending in with an intangible sense of majesty and stability. Everywhere, the falling petals seem to be touched by spirituality.\nAfter using this item, you can view it in the Placement Screen.\nThis Furnishing Set is favored by the following companions: Kaedehara Kazuha, Arataki Itto",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Outdoor.webp"
+          },
+          {
+            "id": "350052",
+            "name": "Military Exercise Grounds",
+            "description": "A detailed step-by-step blueprint for making a Military Exercise Grounds.\nDraws inspiration from the layout of the military buildings and furnishings of the Kujou Encampment.\nDuring the conflict between the Shogun's Army and the resistance, both sides have sought various ways to improve the quality of their new recruits upon joining their respective armies. Compared with traditional training sites, this type of training ground not only provides all kinds of equipment, it also can simulate the urgency of being on the frontline, giving an experience that is very close to the real thing. Naturally, this allows the new recruits to get a sufficient amount of training.\nAfter using this item, you can view it in the Placement Screen.\nThis Furnishing Set is favored by the following companions: Kujou Sara",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Outdoor.webp"
+          },
+          {
+            "id": "350051",
+            "name": "Ancient Branch Shrine",
+            "description": "A detailed step-by-step blueprint for making an Ancient Branch Shrine.\nThe architectural design, the bright red paint, and the overall layout of the serene and beautiful shrine comes in the same style as the Grand Narukami Shrine. It serves as a place of meditation for mortals, but for Her Excellency the Shogun, the sight of it was enough to form a hazy, but vivid memory of a bygone era...\nAfter using this item, you can view it in the Placement Screen.\nThis Furnishing Set is favored by the following companions: Raiden Shogun, Yae Miko",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Outdoor.webp"
+          },
+          {
+            "id": "350050",
+            "name": "Rural Concealment",
+            "description": "A detailed step-by-step blueprint for making Rural Concealment.\nThis Inazuman village quite effectively recalls the scenery of Konda Village. These buildings are already of a certain \"age,\" but they are far from dilapidated. Instead, they give off a feeling of simple leisure. None of the buildings stand out in particular, and it even seems like they might all blend in with the nearby mountains in a few more years... These are, of course, all the hallmarks of an excellent hiding spot \u2014 and you can be sure that a certain lazy Shuumatsuban ninja has done just that before, slacking off and sleeping somewhere in an equally sleepy village.\nAfter using this item, you can view it in the Placement Screen.\nThis Furnishing Set is favored by the following companions: Sayu, Gorou",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Outdoor.webp"
+          },
+          {
+            "id": "350049",
+            "name": "Wakeful Spring",
+            "description": "A detailed step-by-step blueprint for making a Wakeful Spring.\nA feature-complete open-air hot spring. The minerals and elements present here may not be the equal of Aisa Bathhouse, but hot springs of this kind win in terms of their relaxed, casual atmosphere and the relative lack of regulations.\nJust a half-hour soak in here and all the fatigue you've accumulated from work will dissipate into nothingness, replaced by a reawakened vigor, and if there's time, you can lean against a nearby white stone and have some tea and a chat with your friends.\nOf course, please keep some basic etiquette in mind before entering: enjoying the hot spring with friends is fine, but do not stay too long. If you spend too much time in there with chatty folk like the Queen of the Summer Festival, you might get dizzy.\nAfter using this item, you can view it in the Placement Screen.\nThis Furnishing Set is favored by the following companions: Yoimiya, Gorou, Yae Miko, Shikanoin Heizou, Chiori, Yumemizuki Mizuki",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Outdoor.webp"
+          },
+          {
+            "id": "350048",
+            "name": "Court of the Upright",
+            "description": "A detailed step-by-step blueprint for making a Court of the Upright.\nThis majestic structure combines the Tri-Commission buildings and the Police Station to great effect, it has both the aura of a stately mansion and the practiced professional air of an executive agency, all while maintaining an optimized aesthetic. \"Proper\" is the operative word here indeed.\nThose of distinguished background and honest character will surely approve of this courtyard layout. Indeed, you have heard it said that a certain Tenryou Commission general once recommended that officials should stay close to the commission estates such that they might get to work more quickly and contribute more effectively to the Almighty Shogun's dream of achieving \"eternity.\"\nAfter using this item, you can view it in the Placement Screen.\nThis Furnishing Set is favored by the following companions: Kujou Sara, Kamisato Ayato",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Outdoor.webp"
+          },
+          {
+            "id": "350047",
+            "name": "Dawn Orchard",
+            "description": "A detailed step-by-step blueprint for making a \"Dawn Orchard.\"\nThe orchards of the Dawn Winery are quite famous indeed. It is said that someone from the wine industry in another nation visited the Dawn Winery years ago to study it and gather experience in orchard management. The wine industries in various other nations raced to follow the resultant Dawn Orchard model.\nUnfortunately, the excellence of the base ingredients is only one factor in the production of fine wines, and it is the Dawn Winery's skill in wine making that is key to its position at the apex of the industry. Unable to compete, some of its rivals had to resort to using part of their produce to make fruit juice to balance the books.\nAfter using this item, you can view it in the Placement Screen.\nThis Furnishing Set is favored by the following companions: Diluc, Kaeya, Venti, Rosaria",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Outdoor.webp"
+          },
+          {
+            "id": "350046",
+            "name": "Iter Ad Astra Abyssosque",
+            "description": "A detailed step-by-step blueprint for making \"Iter Ad Astra Abyssosque.\"\nAn adventurer camp that can often be seen out in the wild. It uses the latest and greatest in tent designs.\nExperienced adventurers are used to leading a hard existence and require only a lightweight and durable tent to sleep soundly \u2014 even in a howling storm. After regaining their strength the next day, they move on to their next destination. As such, attractive and affordable tents like these have always had ready buyers.\nAfter using this item, you can view it in the Placement Screen.\nThis Furnishing Set is favored by the following companions: Bennett, Qiqi, Chongyun, Fischl, Albedo, Aloy, Mika",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Outdoor.webp"
+          },
+          {
+            "id": "350045",
+            "name": "Of Hunting and Dancing",
+            "description": "A detailed step-by-step blueprint for making \"Of Hunting and Dancing.\"\nAn encampment set up with some skill that has referenced the famed writings of the researcher Musk to recreate a hilichurl dwelling, and which can be used to study their living habits.\nThey say that in the past, the Knights of Favonius would set up such camps and engage in detailed planning, led by the Outriders, ahead of expeditions against monsters. The seafaring Crux Fleet also tends to set sand tables up in a similar fashion based on various sources of intelligence to simulate boarding an island and clearing it of monsters.\nAfter using this item, you can view it in the Placement Screen.\nThis Furnishing Set is favored by the following companions: Amber, Sucrose, Klee, Beidou, Aloy, Lohen",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Outdoor.webp"
+          },
+          {
+            "id": "350044",
+            "name": "Qingce Cloud Residence",
+            "description": "A detailed step-by-step blueprint for making a \"Qingce Cloud Residence.\"\nA mountain hamlet modeled after Qingce Village. It is said that the friendly atmosphere there is infectious and that visitors who enter will find themselves calmed and more appreciative of simple joys that they may have once forgotten.\nTo head out in pursuit of one's ideals and spend one's years magnificently chasing a career is certainly praiseworthy. But after spending so long on such endeavors, one may eventually tire. When that happens, a quiet and peaceful life out in the countryside remains a good choice. Qingce Village has always maintained its acceptance of young folk who head out to seek their fortunes, and is ready to welcome them back with open arms at any time.\nAfter using this item, you can view it in the Placement Screen.\nThis Furnishing Set is favored by the following companions: Xinyan, Xiao, Hu Tao, Qiqi, Shenhe, Yelan, Yaoyao, Xianyun, Zibai",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Outdoor.webp"
+          },
+          {
+            "id": "350043",
+            "name": "Glittering Street",
+            "description": "A detailed step-by-step blueprint for making a \"Glittering Street.\"\nAn urban area filled with goods and wares, from strange and precious treasures to everyday items, recreating the bustle of Liyue's markets.\n\"Glittering\" here is no overstatement, for Liyue is the place where all ships go and all stocks flow. As such, the vast majority of its citizens do not want for necessities. But if something is indeed lacking, you can wait for the end of the month to send feedback to the purple-haired young woman who often roams the markets during that time. Her true identity is unclear, but what is known is that most goods brought to her attention will soon appear on the markets.\nAfter using this item, you can view it in the Placement Screen.\nThis Furnishing Set is favored by the following companions: Ningguang, Keqing, Yanfei, Xingqiu, Zhongli, Yun Jin, Shenhe, Lan Yan",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Outdoor.webp"
+          },
+          {
+            "id": "350042",
+            "name": "Gathering of Gourmets",
+            "description": "A detailed step-by-step blueprint for making a \"Gathering of Gourmets.\"\nA food street with outdoor facilities that replicates the bustle of Chihu Rock.\nTo call this a \"gathering of gourmets\" is an understatement, and while it may seem that there aren't too many cooking utensils lying around, there are more than enough to cover all the known specialties of the Liyue region. After all, skilled chefs can make delicious dishes with the simplest of utensils, and it certainly helps that many ingredients that don't require complex preparation have become pillars of some of the most renowned dishes.\nAfter using this item, you can view it in the Placement Screen.\nThis Furnishing Set is favored by the following companions: Beidou, Xiangling, Ganyu, Xinyan, Tartaglia, Yelan, Gaming, Xianyun",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Outdoor.webp"
+          },
+          {
+            "id": "350041",
+            "name": "Bird and Blossom Park",
+            "description": "A detailed step-by-step blueprint for making a \"Bird and Blossom Park.\"\nA Mondstadt-style park lined with lush hedgerows and sturdy trees that surround a fountain. A passing breeze is sure to carry the lovely fragrances enjoyed by finches and butterflies.\nIn the eyes of some poets, flowers and birds are a symbol of goodness and nature. As such, bards will sometimes sing by the fountains, which often attracts the attention of passers-by \u2014 and their various pets, of course.\nAfter using this item, you can view it in the Placement Screen.\nThis Furnishing Set is favored by the following companions: Venti, Rosaria, Barbara, Jean, Kaeya, Dahlia",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Outdoor.webp"
+          },
+          {
+            "id": "350040",
+            "name": "Idyllic Town",
+            "description": "A detailed step-by-step blueprint for making an \"Idyllic Town.\"\nA corner of a rural town that follows after the style of Springvale.\nAmong the many praises that visitors sing of Springvale, \"a relaxing environment\" and \"a comfortable lifestyle\" stand out. But of course, these tourists largely stay in Springvale for but a short while. Long-term living in these places requires such skills as hunting and farming. Only by mastering such skills can one truly keep up with the locals' lifestyle, appreciate the gifts of nature, and enjoy Springvale's breezes and idylls.\nAfter using this item, you can view it in the Placement Screen.\nThis Furnishing Set is favored by the following companions: Diona, Amber, Razor",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Outdoor.webp"
+          },
+          {
+            "id": "350039",
+            "name": "Weapon Forging Station",
+            "description": "A detailed step-by-step blueprint for making a \"Weapon Forging Station.\"\nA fully-equipped blacksmith's that can accommodate the work of many smiths at once to produce the greatest number of high-quality weapons or repair damaged weaponry most efficiently.\nAs long as monsters still exist on this continent and the wayfaring footsteps of adventurers do not cease, weapons and equipment will always be in demand. To meet this demand, smiths must be trained over many long years, and given that some duds will be produced during this training, it can be quite a huge expense. As such, blacksmiths will at times be strapped for cash, during which the Knights of Favonius will try to secure orders for them to help maintain their quality of life. Rumor has it that a certain farsighted winery owner has also provided some timely injections of capital in the past.\nAfter using this item, you can view it in the Placement Screen.\nThis Furnishing Set is favored by the following companions: Noelle, Bennett, Diluc, Diona, Varka",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Outdoor.webp"
+          },
+          {
+            "id": "350038",
+            "name": "Cottage Kitchen",
+            "description": "A detailed step-by-step blueprint for making a \"Cottage Kitchen.\"\nA fully equipped kitchen with a cabinet full of carefully prepared seasonings.\nChefs seeking excellence will buy fresh ingredients from the market daily, and true culinary artists will even pay close attention to the firewood used in their stoves. The young head chef of Wanmin Restaurant once shared that to make the traditional dishes of Qingce Village, one must first place dry bamboo chips into the stove and carefully control the flame. If one can process the shrubbery near Wolfhooks into thin firewood, one can even add a little Mondstadt flair in.\nDifferent kinds of firewood produce vastly different effects, and most chefs will never truly master them. As such, Wanmin Restaurant has a monopoly on this particular technique.\nAfter using this item, you can view it in the Placement Screen.\nThis Furnishing Set is favored by the following companions: Tartaglia, Mona, Xiao, Xiangling, Razor, Yaoyao, Mika, Baizhu",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Indoor.webp"
+          },
+          {
+            "id": "350037",
+            "name": "Secret Research Lab",
+            "description": "A detailed step-by-step blueprint for making a \"Secret Research Lab.\"\nA plain old alchemy workshop. Take out the specialized, intricate apparatus and it would look just like any other study, but for the collection of books on the shelves, the reagents in their containers, and the various experimental samples marked \"Do Not Open,\" the uses of which can only be wildly guessed at by the uninitiated. An incident is probably unavoidable should some curious cat fail to heed this instruction.\nAfter actual cats that mistakenly entered the workshop caused two such alchemical potion accidents, the Knights of Favonius Investigation Team would place strict entry-exit regulations on alchemy workshops within the city. A great number of the strange rumors concerning alchemy were also born around this time, causing no small number of headaches for researchers just trying to concentrate on their work.\nAfter using this item, you can view it in the Placement Screen.\nThis Furnishing Set is favored by the following companions: Klee, Sucrose, Albedo, Lisa, Prune",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Indoor.webp"
+          },
+          {
+            "id": "350036",
+            "name": "Cloudy Haze Dream-Court",
+            "description": "A detailed step-by-step blueprint for making a \"Cloudy Haze Dream-Court.\"\n\"Of cloud-haze faintly dreaming.\"\nA humble and unassuming bedroom alike in many ways to one you might find in Wangshu Inn. This bedroom's mystery is hard to explain in words. Sometimes it will evoke remembrance in those who pass through, like the sunlight poking through the swirling clouds. Yet it will remove the sorrows therein and leave only the marks of happenings past.\nWe are all adrift in this mortal life, and only by remembering who \"we\" are can we remain steady along our course. Our thoughts are clearest in the interstice between dreaming and waking. No wonder those who visit Wangshu Inn for a night find themselves re-energized a hundred times over, radiant and ready to embark on their journey once more.\nAfter using this item, you can view it in the Placement Screen.\nThis Furnishing Set is favored by the following companions: Hu Tao, Yanfei, Ganyu, Keqing, Chongyun, Gaming",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Indoor.webp"
+          },
+          {
+            "id": "350035",
+            "name": "Feiyun Study Room",
+            "description": "A detailed step-by-step blueprint for making a \"Feiyun Study Room.\"\nThere are many ways to fashion a study in Liyue, but luxury is optional, for the learned prefer \"spirit\" and \"elegance.\" A potted plant here balances out the moisture in the room, and the table and shelves exude a light woody fragrance that combines with the plain layout and the sunset glow of the lamps to inspire genius and elevate writing.\nThey say that many years ago, a certain guest at Feiyun Slope laid just such a study out, and this design was taken up by the previous boss of Wanwen Bookhouse. Thus, it was ever after known as the Feiyun Study Room and became recognized throughout Liyue.\nAfter using this item, you can view it in the Placement Screen.\nThis Furnishing Set is favored by the following companions: Xingqiu, Zhongli, Ningguang, Yun Jin, Baizhu, Lan Yan, Zibai",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Indoor.webp"
+          },
+          {
+            "id": "350034",
+            "name": "Amidst Whispering Winds",
+            "description": "A detailed step-by-step blueprint for making \"Amidst Whispering Winds.\"\nA bedroom that embodies the idea of a \"caring heart.\" For busy folk, a bedroom may just be a place that contains a bed, a place where one gets a little shut-eye, and which does not require too much care. But for those with an eye for detail, every part of one's living space is worth time and care.\nWhether they be the winds of freedom or resistance, they all began as the tiniest of gentle breezes. One who travels far must take good care of themselves, and surely fatigue will slip away unnoticed if one lives surrounded by warmth and comfort.\nAfter using this item, you can view it in the Placement Screen.\nThis Furnishing Set is favored by the following companions: Barbara, Eula, Noelle",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Indoor.webp"
+          },
+          {
+            "id": "350033",
+            "name": "Amidst Poetic Pondering",
+            "description": "A detailed step-by-step blueprint for making \"Amidst Poetic Pondering.\"\nA subtly-decorated study based heavily upon the Knights of Favonius office. It's been said that each part of this study has followed careful placement rules, allowing the candle lights and shadows to blend perfectly to create a unique lighting effect. Literature-loving readers and writers will find a wellspring of inspiration here, while the busy can get in the zone with minimal fuss and chance of interruption.\nAfter using this item, you can view it in the Placement Screen.\nThis Furnishing Set is favored by the following companions: Jean, Lisa, Fischl, Mona, Eula, Dahlia, Durin",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Indoor.webp"
+          },
+          {
+            "id": "350030",
+            "name": "Dialogue Twixt Ancient Tree and Rock",
+            "description": "A detailed step-by-step blueprint for setting up \"Dialogue Twixt Ancient Tree and Rock.\"\nThis green-leafed tree and mountain rock aren't anything special.\nA certain alley poet once claimed that everything in this world has an aura and that this tree and the rock were having a wordless conversation. Many others, influenced by her words, came to believe more and more that these words were quite fitting indeed.\nAfter using this item, you can view it in the Placement Screen.",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Outdoor.webp"
+          },
+          {
+            "id": "350029",
+            "name": "Climate Crossover",
+            "description": "A detailed step-by-step blueprint for setting up a \"Climate Crossover.\"\nA strange area where different weather conditions interweave, and where plants with different specialties grow. At first, some scholars believed that this might be a result of abnormalities in the ley lines, but later investigations would reveal that this is simply one of Teyvat's many wondrous natural phenomena.\nAfter using this item, you can view it in the Placement Screen.",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Outdoor.webp"
+          },
+          {
+            "id": "350028",
+            "name": "Lone and Cautious Adventurer",
+            "description": "A detailed step-by-step blueprint for setting up a \"Lone and Cautious Adventurer.\"\nAdventurers who travel solo tend to be rather conscientious, setting up camp near to road signs as these are places where others tend to have traveled before, chasing the nearby monsters off.\nAfter using this item, you can view it in the Placement Screen.",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Outdoor.webp"
+          },
+          {
+            "id": "350027",
+            "name": "Rural Water Source",
+            "description": "A detailed step-by-step blueprint for setting up a Rural Water Source.\nA well that sticks close to a tree.\nThe tree grows lushly, showing that the water is clean and that those who come hither may draw and drink without fear.\nAfter using this item, you can view it in the Placement Screen.",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Outdoor.webp"
+          },
+          {
+            "id": "350026",
+            "name": "Ever-Popular Eatery",
+            "description": "A detailed step-by-step blueprint for setting up an Ever-Popular Eatery.\nSome Liyue restaurants boast top-quality dishes that will feed any hungry mouth, and patrons visit them in droves every night. These eateries often set up outdoor tables in an effort to retain every customer possible.\nAfter using this item, you can view it in the Placement Screen.",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Outdoor.webp"
+          },
+          {
+            "id": "350025",
+            "name": "Thoroughfare Entrance: Evil Banisher",
+            "description": "A detailed step-by-step blueprint for setting up a Thoroughfare Entrance: Evil Banisher.\nAdepti plates and stone lions guard this main thoroughfare. Such symbolic gestures are enough to deter monsters, but the Millelith have never slackened their vigilance nonetheless.\nAfter using this item, you can view it in the Placement Screen.",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Outdoor.webp"
+          },
+          {
+            "id": "350024",
+            "name": "Festival Market",
+            "description": "A detailed step-by-step blueprint for setting up a Festival Market.\nThe sight of a bustling city, toys on sale, colorful parasols, and all manner of affordable but lovely gifts, is a dazzling one indeed \u2014 a feast for the eyes of children, and not too grievous a blow to the parents' wallets.\nAfter using this item, you can view it in the Placement Screen.",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Outdoor.webp"
+          },
+          {
+            "id": "350023",
+            "name": "Cargo Transfer Station",
+            "description": "A detailed step-by-step blueprint for setting up a Cargo Transfer Station.\nA transit point for moving goods from place to place. Beside the piled-high cargo crates and wooden barrels are drinks prepared for the workers.\nThough common bottles and jugs are quite sturdy nowadays, they will still break easily if squashed under a very heavy object. Thus, the workers have always hoped that their foreman might get a cupboard of some sort, rather than leave the bottles on the ground.\nAfter using this item, you can view it in the Placement Screen.",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Outdoor.webp"
+          },
+          {
+            "id": "350022",
+            "name": "Arms Factory",
+            "description": "A detailed step-by-step blueprint for setting up an Arms Factory.\nA stable weapon-making operation. Even seasoned smiths may be restricted by the quality of the ore they have to work with, which makes for weapons of so-so quality. Thus, they will place a number of weapon racks to divide the weaponry up by quality and sell them as such.\nAfter using this item, you can view it in the Placement Screen.",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Outdoor.webp"
+          },
+          {
+            "id": "350021",
+            "name": "Training Ground",
+            "description": "A detailed step-by-step blueprint for setting up a Training Ground.\nNew recruits tend to cause unnecessary damage to their own weapons due to improper use during their training. As such, training grounds tend to come with a large number of weapons for them to use.\nFor the Millelith, the weapon wear and tear caused by training is no big deal, but leaving them in the Treasure Hoarder's hands is cause for salary docking for sure...\nAfter using this item, you can view it in the Placement Screen.",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Outdoor.webp"
+          },
+          {
+            "id": "350020",
+            "name": "Fruit & Veg Market",
+            "description": "A detailed step-by-step blueprint for setting up a \"Fruit & Veg Market.\"\nThis market comes with quite a few stores. The fruits that people often buy can be found at this sort of place.\nAfter using this item, you can view it in the Placement Screen.",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Outdoor.webp"
+          },
+          {
+            "id": "350019",
+            "name": "Harvest Season Stall",
+            "description": "A detailed step-by-step blueprint for setting up a Harvest Season Stall.\nEvery time the harvest season arrives, the people of the town will set stalls up to sell all manner of wares. Such things contain not only the harvested fruits, vegetables, and wheat, but also secondhand goods of good quality and hay rolls.\nAfter using this item, you can view it in the Placement Screen.",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Outdoor.webp"
+          },
+          {
+            "id": "350018",
+            "name": "Hamlet House",
+            "description": "A detailed step-by-step blueprint for setting up a Hamlet House.\nA common dwelling found in Mondstadt's countryside. There is a rather large space between the fence and the house, all the better to plant some produce with which to provide some food self-sufficiency.\nAfter using this item, you can view it in the Placement Screen.",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Outdoor.webp"
+          },
+          {
+            "id": "350017",
+            "name": "Hermit's Hut",
+            "description": "A detailed step-by-step blueprint for setting up a Hermit's Hut.\nA house that can found in many places around Liyue. A street light is set up outside the door for the convenience of passers-by.\nThe people of Liyue are a friendly sort for the most part. Even those who live apart from others in the mountains don't mind receiving a guest for the night. Indeed, you can expect a fine meal and some tea should you drop by.\nAfter using this item, you can view it in the Placement Screen.",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Outdoor.webp"
+          },
+          {
+            "id": "350016",
+            "name": "Well-Equipped Study",
+            "description": "A detailed step-by-step blueprint for setting up a Well-Equipped Study.\nBooks line the wall in this Mondstadt-style study. Considering that the books are many but the users are few, splitting the books into proper categories is of particular importance.\nAfter using this item, you can view it in the Placement Screen.",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Indoor.webp"
+          },
+          {
+            "id": "350015",
+            "name": "Parlor Cordiality",
+            "description": "A detailed step-by-step blueprint for setting \"Parlor Cordiality\" up.\nThe sconces that light up this reception area suffuse the area with warmth that relaxes the body and soul. Add on a few cups of strong wine, and you've got everything you need to talk down even some aggressive Snezhnayan businesspeople.\nAfter using this item, you can view it in the Placement Screen.",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Indoor.webp"
+          },
+          {
+            "id": "350014",
+            "name": "Merchant's Working Lunch",
+            "description": "A detailed step-by-step blueprint for setting up a \"Merchant's Working Lunch.\"\nPeople manning a merchant store must be ready to receive customers at any time. As such, they often use simple stoves to make lunch for themselves to avoid missing any business due to not manning the store constantly.\nAfter using this item, you can view it in the Placement Screen.",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Indoor.webp"
+          },
+          {
+            "id": "350013",
+            "name": "Wine O' Clock",
+            "description": "A detailed step-by-step blueprint for setting up \"Wine O'Clock.\"\nA table and chair set often used during gatherings. The candle stand is used to adjust the lighting and make the food look more enticing. Nonetheless, do watch out for the fire hazard, especially when spirits get high around the table.\nAfter using this item, you can view it in the Placement Screen.",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Indoor.webp"
+          },
+          {
+            "id": "350012",
+            "name": "Meeting Room of the \"Strategic Six\"",
+            "description": "A detailed step-by-step blueprint for setting up a \"Meeting Room of the 'Strategic Six'.\"\nA meeting room that was based on the one in the Knights of Favonius Headquarters. A rumor spread among the citizenry, judging from the number of chairs present, that \"six shall be present at any key decision the Knights make.\"\nThe truth is that only six members of the Knights' leadership enjoy sitting down for meetings. The number of attendees has never been fixed.\nAfter using this item, you can view it in the Placement Screen.",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Indoor.webp"
+          },
+          {
+            "id": "350011",
+            "name": "Fully Furnished Mondstadt Bedroom",
+            "description": "A detailed step-by-step blueprint for setting up a Fully Furnished Mondstadt Bedroom.\nThis is a standard-issue Mondstadt bedroom, with the furniture placement taking reference from that of the Knights of Favonius quarters.\nAs the Deaconess was praying over the wardrobe to ward off evil, the Knights also set an example by facing the wardrobe with the foot of their beds, claiming that they would give any ghostly rapscallions that should show up a hard knock on the head as a form of intimidation.\nAfter using this item, you can view it in the Placement Screen.",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Indoor.webp"
+          },
+          {
+            "id": "350010",
+            "name": "Book Lover's Study",
+            "description": "A detailed step-by-step blueprint for setting up a Book Lover's Study.\nA Liyue-style study chock-full of books. One may gain much by spending half a day here in peace and quiet.\nThey say that the commonly-seen style of study designs nowadays is largely derived from the Feiyun Commerce Guild manor, which was improved by its second young master to greatly increase the efficiency with which one may study and write.\nAfter using this item, you can view it in the Placement Screen.",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Indoor.webp"
+          },
+          {
+            "id": "350009",
+            "name": "Tea Talk",
+            "description": "A detailed step-by-step blueprint for setting up \"Tea Talk.\"\nThe people of Liyue often invite friends over to their places to sit and have a chat over some tea. A good time can be had with just this tea table and two chairs.\nAfter using this item, you can view it in the Placement Screen.",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Indoor.webp"
+          },
+          {
+            "id": "350008",
+            "name": "Busy Kitchen",
+            "description": "A detailed step-by-step blueprint for setting up a Busy Kitchen.\nThe towering shelves are stocked with ingredients and the large and small stoves are both in full flame. A skilled chef would be able to use such a kitchen to cook a feast fit for a hundred stomachs.\nAfter using this item, you can view it in the Placement Screen.",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Indoor.webp"
+          },
+          {
+            "id": "350007",
+            "name": "Table & Chairs",
+            "description": "A detailed step-by-step blueprint for setting up \"Table & Chairs.\"\nA sturdy and wide pine table that comes with pen and paper for work. The papers and books can be cleared aside should you need to eat \u2014 truly, this is one furniture set to rule them all.\nAfter using this item, you can view it in the Placement Screen.",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Indoor.webp"
+          },
+          {
+            "id": "350006",
+            "name": "Suburbia Lighting",
+            "description": "A detailed step-by-step blueprint for setting up \"Suburbia Lighting.\"\nStreet lights and fences that stand under the trees. These Evil-Repelling Lanterns will allow those who walk about at night some peace of mind.\nAfter using this item, you can view it in the Placement Screen.",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Outdoor.webp"
+          },
+          {
+            "id": "350005",
+            "name": "Corner of the Teahouse",
+            "description": "A detailed step-by-step blueprint for setting up a \"Corner of the Teahouse.\"\nEnjoying some tea with friends and relatives while listening to the witty words of the storytellers is the simplest joy of the teahouse.\nAfter using this item, you can view it in the Placement Screen.",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Indoor.webp"
+          },
+          {
+            "id": "350004",
+            "name": "Plain Liyue Bedroom",
+            "description": "A detailed step-by-step blueprint for setting up a Plain Liyue Bedroom.\nEven the richest of Liyue's households simply won't do without some of these bedroom essentials.\nUnder the efficient direction of the Liyue Qixing, the income of the average resident of Liyue has steadily climbed, ensuring that these Sandbearer household furnishings are no longer a rarity.\nAfter using this item, you can view it in the Placement Screen.",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Indoor.webp"
+          },
+          {
+            "id": "350003",
+            "name": "Rocks & Plants",
+            "description": "A detailed step-by-step blueprint for setting up \"Rocks & Plants.\"\nThe grass and trees grow free in the wilds where human feet do not tread. Rocks are also piled up in a corner, seemingly the work of some beast.\nAfter using this item, you can view it in the Placement Screen.",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Outdoor.webp"
+          },
+          {
+            "id": "350002",
+            "name": "Frontier Life",
+            "description": "A detailed step-by-step blueprint for setting up \"Frontier Life.\"\nThe previous Grand Master of the Knights of Favonius once suggested that knight companies attending to duties in the wild should attempt to set up as secure a dwelling as possible to guard against any sudden attacks. The Pocket-Sized Pine Cabin proved to be the best choice in that regard.\nAfter using this item, you can view it in the Placement Screen.",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Outdoor.webp"
+          },
+          {
+            "id": "350001",
+            "name": "Adventurer Camp",
+            "description": "A detailed step-by-step blueprint for setting up an Adventurer Camp.\nA campsite hastily made by adventurers deep in the wilds.\nWhen adventurers make camp, they must be sure to place a fence down to fend wild beasts off. But since the area rarely has enough wood to create complete protection, they must often keep watch on shifts and sound the alarm to avoid any slip-ups and mishaps.\nAfter using this item, you can view it in the Placement Screen.",
+            "rarity": 4,
+            "category": "Furnishing Set Blueprint",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_Home_Outdoor.webp"
+          }
+        ],
+        "materials": [
+          {
+            "id": "130050",
+            "name": "Snowball Flower Seed",
+            "description": "A seed obtained from the Seed Dispensary. A quality seed full of life, just waiting to be planted in the fields of the Realm Within. After some time, it will grow into a Snowball Flower.",
+            "rarity": null,
+            "category": "Material",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_130050.webp"
+          },
+          {
+            "id": "130049",
+            "name": "Rimecurrant Seed",
+            "description": "A seed obtained from the Seed Dispensary. A quality seed full of life, just waiting to be planted in the fields of the Realm Within. After some time, it will grow into a Rimecurrant.",
+            "rarity": null,
+            "category": "Material",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_130049.webp"
+          },
+          {
+            "id": "130048",
+            "name": "Red Beet Seed",
+            "description": "A seed obtained from the Seed Dispensary. A quality seed full of life, just waiting to be planted in the fields of the Realm Within. After some time, it will grow into a Red Beet.",
+            "rarity": null,
+            "category": "Material",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_130048.webp"
+          },
+          {
+            "id": "130047",
+            "name": "Golden Fern Seed",
+            "description": "A seed obtained from the Seed Dispensary. A quality seed full of life, just waiting to be planted in the fields of the Realm Within. After some time, it will grow into a Golden Fern.",
+            "rarity": null,
+            "category": "Material",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_130047.webp"
+          },
+          {
+            "id": "130046",
+            "name": "Flockingweed Seed",
+            "description": "A seed obtained from the Seed Dispensary. A quality seed full of life, just waiting to be planted in the fields of the Realm Within. After some time, it will grow into Flockingweed.",
+            "rarity": null,
+            "category": "Material",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_130046.webp"
+          },
+          {
+            "id": "130045",
+            "name": "Frostfairy Flower Seed",
+            "description": "A seed obtained from the Seed Dispensary. A quality seed full of life, just waiting to be planted in the fields of the Realm Within. After some time, it will grow into a Frostfairy Flower.",
+            "rarity": null,
+            "category": "Material",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_130045.webp"
+          },
+          {
+            "id": "130044",
+            "name": "Pine Amber Seed",
+            "description": "A seed obtained from the Seed Dispensary. A quality seed full of life, just waiting to be planted in the fields of the Realm Within. After some time, it will grow into a Pine Amber.",
+            "rarity": null,
+            "category": "Material",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_130044.webp"
+          },
+          {
+            "id": "130043",
+            "name": "Winter Icelea Seed",
+            "description": "A seed obtained from the Seed Dispensary. A quality seed full of life, just waiting to be planted in the fields of the Realm Within. After some time, it will grow into a Winter Icelea.",
+            "rarity": null,
+            "category": "Material",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_130043.webp"
+          },
+          {
+            "id": "130042",
+            "name": "Lakkaberry Seed",
+            "description": "A seed obtained from the Seed Dispensary. A quality seed full of life, just waiting to be planted in the fields of the Realm Within. After some time, it will grow into Lakkaberry.",
+            "rarity": null,
+            "category": "Material",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_130042.webp"
+          },
+          {
+            "id": "130041",
+            "name": "Midsommar Berry Seed",
+            "description": "A seed obtained from the Seed Dispensary. A quality spore full of life, just waiting to be planted in the fields of the Realm Within. After some time, it will grow into a Midsommar Berry.",
+            "rarity": null,
+            "category": "Material",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_130041.webp"
+          },
+          {
+            "id": "130040",
+            "name": "Frostlamp Flower Seed",
+            "description": "A seed obtained from the Seed Dispensary. A quality seed full of life, just waiting to be planted in the fields of the Realm Within. After some time, it will grow into a Frostlamp Flower.",
+            "rarity": null,
+            "category": "Material",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_130040.webp"
+          },
+          {
+            "id": "130039",
+            "name": "Skysplit Gembloom Seed",
+            "description": "A seed obtained from the Seed Dispensary. A quality seed full of life, just waiting to be planted in the fields of the Realm Within. After some time, it will grow into Skysplit Gemblooms.",
+            "rarity": null,
+            "category": "Material",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_130039.webp"
+          },
+          {
+            "id": "130038",
+            "name": "Glowing Hornshroom Spore",
+            "description": "A spore obtained from the Seed Dispensary. A quality seed full of life, just waiting to be planted in the fields of the Realm Within. After some time, it will grow into a Glowing Hornshroom.",
+            "rarity": null,
+            "category": "Material",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_130038.webp"
+          },
+          {
+            "id": "130037",
+            "name": "Sprayfeather Gill Seed",
+            "description": "A seed obtained from the Seed Dispensary. A quality seed full of life, just waiting to be planted in the fields of the Realm Within. After some time, it will grow into a Sprayfeather Gill.",
+            "rarity": null,
+            "category": "Material",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_130037.webp"
+          },
+          {
+            "id": "130036",
+            "name": "Brilliant Chrysanthemum Seed",
+            "description": "A seed obtained from the Seed Dispensary. A quality seed full of life, just waiting to be planted in the fields of the Realm Within. After some time, it will grow into a Brilliant Chrysanthemum.",
+            "rarity": null,
+            "category": "Material",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_130036.webp"
+          },
+          {
+            "id": "130035",
+            "name": "Quenepa Berry Seed",
+            "description": "A seed obtained from the Seed Dispensary. A quality seed full of life, just waiting to be planted in the fields of the Realm Within. After some time, it will grow into Quenepa Berries.",
+            "rarity": null,
+            "category": "Material",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_130035.webp"
+          },
+          {
+            "id": "130034",
+            "name": "Saurian Claw Succulent Seed",
+            "description": "A seed obtained from the Seed Dispensary. A quality seed full of life, just waiting to be planted in the fields of the Realm Within. After some time, it will grow into a Saurian Claw Succulent.",
+            "rarity": null,
+            "category": "Material",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_130034.webp"
+          },
+          {
+            "id": "130033",
+            "name": "Cacahuatl Seed",
+            "description": "A seed obtained from the Seed Dispensary. A quality seed full of life, just waiting to be planted in the fields of the Realm Within. After some time, it will grow into Cacahuatl.",
+            "rarity": null,
+            "category": "Material",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_130033.webp"
+          },
+          {
+            "id": "130032",
+            "name": "Grainfruit Kernel",
+            "description": "A seed obtained from the Seed Dispensary. A quality seed full of life, just waiting to be planted in the fields of the Realm Within. After some time, it will grow into Grainfruit.",
+            "rarity": null,
+            "category": "Material",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_130032.webp"
+          },
+          {
+            "id": "130031",
+            "name": "Rainbow Rose Seed",
+            "description": "A seed obtained from the Seed Dispensary. A quality seed full of life, just waiting to be planted in the fields of the Realm Within. After some time, it will grow into a Rainbow Rose.",
+            "rarity": null,
+            "category": "Material",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_130031.webp"
+          },
+          {
+            "id": "130030",
+            "name": "Lumidouce Bell Seed",
+            "description": "A seed obtained from the Seed Dispensary. A quality seed full of life, just waiting to be planted in the fields of the Realm Within. After some time, it will grow into a Lumidouce Bell.",
+            "rarity": null,
+            "category": "Material",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_130030.webp"
+          },
+          {
+            "id": "130029",
+            "name": "Marcotte Seed",
+            "description": "A seed obtained from the Seed Dispensary. A quality seed full of life, just waiting to be planted in the fields of the Realm Within. After some time, it will grow into a Marcotte.",
+            "rarity": null,
+            "category": "Material",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_130029.webp"
+          },
+          {
+            "id": "130028",
+            "name": "Pluie Lotus Seed",
+            "description": "A seed obtained from the Seed Dispensary. A quality seed full of life, just waiting to be planted in the fields of the Realm Within. After some time, it will grow into a Pluie Lotus.",
+            "rarity": null,
+            "category": "Material",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_130028.webp"
+          },
+          {
+            "id": "130027",
+            "name": "Sumeru Rose Seed",
+            "description": "A seed obtained from the Seed Dispensary. A quality seed full of life, just waiting to be planted in the fields of the Realm Within. After some time, it will grow into a Sumeru Rose.",
+            "rarity": null,
+            "category": "Material",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_130027.webp"
+          },
+          {
+            "id": "130026",
+            "name": "Zaytun Peach Seed",
+            "description": "A seed obtained from the Seed Dispensary. A quality seed full of life, just waiting to be planted in the fields of the Realm Within. After some time, it will grow into a Zaytun Peach.",
+            "rarity": null,
+            "category": "Material",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_130026.webp"
+          },
+          {
+            "id": "130025",
+            "name": "Harra Fruit Seed",
+            "description": "A seed obtained from the Seed Dispensary. A quality seed full of life, just waiting to be planted in the fields of the Realm Within. After some time, it will grow into a Harra Fruit.",
+            "rarity": null,
+            "category": "Material",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_130025.webp"
+          },
+          {
+            "id": "130024",
+            "name": "Dreambloom: Silkpod Seed",
+            "description": "A seed obtained from Sakuya. A quality seed full of life, just waiting to be planted in the fields of the Realm Within. After some time, it will grow into a Dreambloom: Silkpod.",
+            "rarity": null,
+            "category": "Material",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_130024.webp"
+          },
+          {
+            "id": "130023",
+            "name": "Dreambloom: Pearbell Seed",
+            "description": "A seed obtained from Sakuya. A quality seed full of life, just waiting to be planted in the fields of the Realm Within. After some time, it will grow into a Dreambloom: Pearbell.",
+            "rarity": null,
+            "category": "Material",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_130023.webp"
+          },
+          {
+            "id": "130022",
+            "name": "Dreambloom: Star Hibiscus Seed",
+            "description": "A seed obtained from Sakuya. A quality seed full of life, just waiting to be planted in the fields of the Realm Within. After some time, it will grow into a Dreambloom: Star Hibiscus.",
+            "rarity": null,
+            "category": "Material",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_130022.webp"
+          },
+          {
+            "id": "130021",
+            "name": "Sea Ganoderma Cutting",
+            "description": "A cutting obtained from the Seed Dispensary. A quality cutting full of life, just waiting to be planted in the Realm Within's fields. After some time it will grow into a Sea Ganoderma.",
+            "rarity": null,
+            "category": "Material",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_130021.webp"
+          },
+          {
+            "id": "130020",
+            "name": "Seagrass Seed",
+            "description": "A seed obtained from the Seed Dispensary. A quality seed full of life, just waiting to be planted in the fields of the Realm Within. After some time, it will grow into Seagrass.",
+            "rarity": null,
+            "category": "Material",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_130020.webp"
+          },
+          {
+            "id": "130019",
+            "name": "Calla Lily Seed",
+            "description": "A seed obtained from the Seed Dispensary. A quality seed full of life, just waiting to be planted in the fields of the Realm Within. After some time, it will grow into a Calla Lily.",
+            "rarity": null,
+            "category": "Material",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_130019.webp"
+          },
+          {
+            "id": "130018",
+            "name": "Lotus Seed",
+            "description": "A seed obtained from the Seed Dispensary. A quality seed full of life, just waiting to be planted in the fields of the Realm Within. After some time, it will grow into a Lotus Head.",
+            "rarity": null,
+            "category": "Material",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_130018.webp"
+          },
+          {
+            "id": "130017",
+            "name": "Snapdragon Seed",
+            "description": "A seed obtained from the Seed Dispensary. A quality seed full of life, just waiting to be planted in the fields of the Realm Within. After some time, it will grow into a Snapdragon.",
+            "rarity": null,
+            "category": "Material",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_130017.webp"
+          },
+          {
+            "id": "130016",
+            "name": "Horsetail Seed",
+            "description": "A seed obtained from the Seed Dispensary. A quality seed full of life, just waiting to be planted in the fields of the Realm Within. After some time, it will grow into Horsetail.",
+            "rarity": null,
+            "category": "Material",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_130016.webp"
+          },
+          {
+            "id": "130015",
+            "name": "Naku Weed Seed",
+            "description": "A seed obtained from the Seed Dispensary. A quality seed full of life, just waiting to be planted in the fields of the Realm Within. After some time, it will grow into a Naku Weed.",
+            "rarity": null,
+            "category": "Material",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_130015.webp"
+          },
+          {
+            "id": "130014",
+            "name": "Mushroom Spore",
+            "description": "A spore obtained from the Seed Dispensary. A quality spore full of life, just waiting to be planted in the Realm Within's fields. After some time it will grow into a Mushroom.",
+            "rarity": null,
+            "category": "Material",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_130014.webp"
+          },
+          {
+            "id": "130013",
+            "name": "Mint Seed",
+            "description": "A seed obtained from the Seed Dispensary. A quality seed full of life, just waiting to be planted in the fields of the Realm Within. After some time, it will grow into Mint.",
+            "rarity": null,
+            "category": "Material",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_130013.webp"
+          },
+          {
+            "id": "130012",
+            "name": "Radish Seed",
+            "description": "A seed obtained from the Seed Dispensary. A quality seed full of life, just waiting to be planted in the fields of the Realm Within. After some time, it will grow into a Radish.",
+            "rarity": null,
+            "category": "Material",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_130012.webp"
+          },
+          {
+            "id": "130011",
+            "name": "Carrot Seed",
+            "description": "A seed obtained from the Seed Dispensary. A quality seed full of life, just waiting to be planted in the fields of the Realm Within. After some time, it will grow into a Carrot.",
+            "rarity": null,
+            "category": "Material",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_130011.webp"
+          },
+          {
+            "id": "130010",
+            "name": "Jueyun Chili Seed",
+            "description": "A seed obtained from the Seed Dispensary. A quality seed full of life, just waiting to be planted in the fields of the Realm Within. After some time, it will grow into Jueyun Chilis.",
+            "rarity": null,
+            "category": "Material",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_130010.webp"
+          },
+          {
+            "id": "130009",
+            "name": "Small Lamp Grass Seed",
+            "description": "A seed obtained from the Seed Dispensary. A quality seed full of life, just waiting to be planted in the fields of the Realm Within. After some time, it will grow into a Small Lamp Grass.",
+            "rarity": null,
+            "category": "Material",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_130009.webp"
+          },
+          {
+            "id": "130008",
+            "name": "Valberry Seed",
+            "description": "A seed obtained from the Seed Dispensary. A quality seed full of life, just waiting to be planted in the fields of the Realm Within. After some time, it will grow into Valberries.",
+            "rarity": null,
+            "category": "Material",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_130008.webp"
+          },
+          {
+            "id": "130007",
+            "name": "Violetgrass Seed",
+            "description": "A seed obtained from the Seed Dispensary. A quality seed full of life, just waiting to be planted in the fields of the Realm Within. After some time, it will grow into a Violetgrass.",
+            "rarity": null,
+            "category": "Material",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_130007.webp"
+          },
+          {
+            "id": "130006",
+            "name": "Qingxin Seed",
+            "description": "A seed obtained from the Seed Dispensary. A quality seed full of life, just waiting to be planted in the fields of the Realm Within. After some time, it will grow into a Qingxin.",
+            "rarity": null,
+            "category": "Material",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_130006.webp"
+          },
+          {
+            "id": "130005",
+            "name": "Windwheel Aster Seed",
+            "description": "A seed obtained from the Seed Dispensary. A quality seed full of life, just waiting to be planted in the fields of the Realm Within. After some time, it will grow into a Windwheel Aster.",
+            "rarity": null,
+            "category": "Material",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_130005.webp"
+          },
+          {
+            "id": "130004",
+            "name": "Glaze Lily Seed",
+            "description": "A seed obtained from the Seed Dispensary. A quality seed full of life, just waiting to be planted in the fields of the Realm Within. After some time, it will grow into a Glaze Lily.",
+            "rarity": null,
+            "category": "Material",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_130004.webp"
+          },
+          {
+            "id": "130003",
+            "name": "Cecilia Seed",
+            "description": "A seed obtained from the Seed Dispensary. A quality seed full of life, just waiting to be planted in the fields of the Realm Within. After some time, it will grow into a Cecilia.",
+            "rarity": null,
+            "category": "Material",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_130003.webp"
+          },
+          {
+            "id": "130002",
+            "name": "Sweet Flower Seed",
+            "description": "A seed obtained from the Seed Dispensary. A quality seed full of life, just waiting to be planted in the fields of the Realm Within. After some time, it will grow into a Sweet Flower.",
+            "rarity": null,
+            "category": "Material",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_130002.webp"
+          },
+          {
+            "id": "130001",
+            "name": "Silk Flower Seed",
+            "description": "A seed obtained from the Seed Dispensary. A quality seed full of life, just waiting to be planted in the fields of the Realm Within. After some time, it will grow into Silk Flowers.",
+            "rarity": null,
+            "category": "Material",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_130001.webp"
+          },
+          {
+            "id": "101330",
+            "name": "Alder Wood",
+            "description": "Wood from the Alder Tree. It demonstrates considerable resistance to moisture and cold, making it a fine raw material for both furniture and musical instruments.",
+            "rarity": 1,
+            "category": "Material",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101330.webp"
+          },
+          {
+            "id": "101318",
+            "name": "Mallow Wood",
+            "description": "Wood from the Mallow Tree. With a tough core, it is suitable for building the foundations and frames of houses. It is easy to craft and process, so it takes relatively less manual labor to produce beautiful furniture.\nCan be used to create furnishings.",
+            "rarity": 1,
+            "category": "Material",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101318.webp"
+          },
+          {
+            "id": "101301",
+            "name": "Birch Wood",
+            "description": "Timber obtained from birches. It is easy to work with and produces smooth cuts. Furniture made using such wood is both beautiful and durable.\nCan be used to create furnishings.",
+            "rarity": 1,
+            "category": "Material",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101301.webp"
+          }
         ]
       },
       "wonderland": {
@@ -145858,6 +158382,3298 @@ var NYX_DB = {
           }
         ]
       },
+      "shadowRealm": {
+        "items": [
+          {
+            "id": "gi-shadow-weapon-224001",
+            "name": "Shatanaya's Frostsilver",
+            "kind": "weapon",
+            "art": "../../Database/GameData/gi/assets/weapons/icons/UI_EquipIcon_AssaultRifle_Glacia.webp",
+            "fields": {
+              "rarity": "4 \u2605",
+              "type": "Weapon"
+            },
+            "text": "An assault rifle that can accumulate Frigid Glory using Normal Attacks to switch to Breakthrough mode and use Charged Attacks."
+          },
+          {
+            "id": "gi-shadow-weapon-224002",
+            "name": "Ashamez's Thunder",
+            "kind": "weapon",
+            "art": "../../Database/GameData/gi/assets/weapons/icons/UI_EquipIcon_AssaultRifle_Fulmen.webp",
+            "fields": {
+              "rarity": "4 \u2605",
+              "type": "Weapon"
+            },
+            "text": "An assault rifle that can switch Normal Attacks to Chain Lightning mode, allowing you to lock onto and track targets."
+          },
+          {
+            "id": "gi-shadow-weapon-224003",
+            "name": "Balsag's Sunwheel",
+            "kind": "weapon",
+            "art": "../../Database/GameData/gi/assets/weapons/icons/UI_EquipIcon_GrenadeLauncher_Ignis.webp",
+            "fields": {
+              "rarity": "4 \u2605",
+              "type": "Weapon"
+            },
+            "text": "A grenade launcher that can cycle between Pyro, Hydro, and Cryo as the current grenade Elemental Type."
+          },
+          {
+            "id": "gi-shadow-weapon-224004",
+            "name": "Frag Crystal - Pyro",
+            "kind": "weapon",
+            "art": "../../Database/GameData/gi/assets/weapons/icons/UI_EquipIcon_Grenade_Fire.webp",
+            "fields": {
+              "rarity": "4 \u2605",
+              "type": "Weapon"
+            },
+            "text": "Tactical throwable that can deal AoE Pyro DMG."
+          },
+          {
+            "id": "gi-shadow-weapon-224005",
+            "name": "Frag Crystal - Hydro",
+            "kind": "weapon",
+            "art": "../../Database/GameData/gi/assets/weapons/icons/UI_EquipIcon_Grenade_Water.webp",
+            "fields": {
+              "rarity": "4 \u2605",
+              "type": "Weapon"
+            },
+            "text": "Tactical throwable that can deal AoE Hydro DMG."
+          },
+          {
+            "id": "gi-shadow-weapon-224006",
+            "name": "Frag Crystal - Electro",
+            "kind": "weapon",
+            "art": "../../Database/GameData/gi/assets/weapons/icons/UI_EquipIcon_Grenade_Electric.webp",
+            "fields": {
+              "rarity": "4 \u2605",
+              "type": "Weapon"
+            },
+            "text": "Tactical throwable that can deal AoE Electro DMG."
+          },
+          {
+            "id": "gi-shadow-weapon-224007",
+            "name": "Frag Crystal - Cryo",
+            "kind": "weapon",
+            "art": "../../Database/GameData/gi/assets/weapons/icons/UI_EquipIcon_Grenade_Ice.webp",
+            "fields": {
+              "rarity": "4 \u2605",
+              "type": "Weapon"
+            },
+            "text": "Tactical throwable that can deal AoE Cryo DMG."
+          },
+          {
+            "id": "gi-shadow-weapon-224008",
+            "name": "Specialized Frag Crystals within the Shadow Realm",
+            "kind": "weapon",
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "fields": {
+              "rarity": "4 \u2605",
+              "type": "Weapon"
+            },
+            "text": "Tactical throwable that can deal massive damage to Shadow Realm constructs",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
+          },
+          {
+            "id": "gi-shadow-item-223111",
+            "name": "Shatanaya's Frostsilver: Muzzle",
+            "kind": "item",
+            "art": "../../Database/GameData/gi/assets/items/UI_EquipIcon_AssaultRifle_Glacia_Part03.webp",
+            "fields": {
+              "rarity": "4 \u2605",
+              "type": "Firearm Accessory Blueprint"
+            },
+            "text": "Blueprint for a firearm accessory that can be used to create said inscribed weapon accessory by consuming materials in the Eye of Graeae's HUD."
+          },
+          {
+            "id": "gi-shadow-item-223112",
+            "name": "Shatanaya's Frostsilver: Ammo Feed",
+            "kind": "item",
+            "art": "../../Database/GameData/gi/assets/items/UI_EquipIcon_AssaultRifle_Glacia_Part01.webp",
+            "fields": {
+              "rarity": "4 \u2605",
+              "type": "Firearm Accessory Blueprint"
+            },
+            "text": "Blueprint for a firearm accessory that can be used to create said inscribed weapon accessory by consuming materials in the Eye of Graeae's HUD."
+          },
+          {
+            "id": "gi-shadow-item-223113",
+            "name": "Shatanaya's Frostsilver: Gunstock",
+            "kind": "item",
+            "art": "../../Database/GameData/gi/assets/items/UI_EquipIcon_AssaultRifle_Glacia_Part04.webp",
+            "fields": {
+              "rarity": "4 \u2605",
+              "type": "Firearm Accessory Blueprint"
+            },
+            "text": "Blueprint for a firearm accessory that can be used to create said inscribed weapon accessory by consuming materials in the Eye of Graeae's HUD."
+          },
+          {
+            "id": "gi-shadow-item-223114",
+            "name": "Shatanaya's Frostsilver: Sight",
+            "kind": "item",
+            "art": "../../Database/GameData/gi/assets/items/UI_EquipIcon_AssaultRifle_Glacia_Part02.webp",
+            "fields": {
+              "rarity": "4 \u2605",
+              "type": "Firearm Accessory Blueprint"
+            },
+            "text": "Blueprint for a firearm accessory that can be used to create said inscribed weapon accessory by consuming materials in the Eye of Graeae's HUD."
+          },
+          {
+            "id": "gi-shadow-item-223121",
+            "name": "Balsag's Sunwheel: Muzzle",
+            "kind": "item",
+            "art": "../../Database/GameData/gi/assets/items/UI_EquipIcon_GrenadeLauncher_Ignis_Part03.webp",
+            "fields": {
+              "rarity": "4 \u2605",
+              "type": "Firearm Accessory Blueprint"
+            },
+            "text": "Blueprint for a firearm accessory that can be used to create said inscribed weapon accessory by consuming materials in the Eye of Graeae's HUD."
+          },
+          {
+            "id": "gi-shadow-item-223122",
+            "name": "Balsag's Sunwheel: Ammo Feed",
+            "kind": "item",
+            "art": "../../Database/GameData/gi/assets/items/UI_EquipIcon_GrenadeLauncher_Ignis_Part01.webp",
+            "fields": {
+              "rarity": "4 \u2605",
+              "type": "Firearm Accessory Blueprint"
+            },
+            "text": "Blueprint for a firearm accessory that can be used to create said inscribed weapon accessory by consuming materials in the Eye of Graeae's HUD."
+          },
+          {
+            "id": "gi-shadow-item-223123",
+            "name": "Balsag's Sunwheel: Gunstock",
+            "kind": "item",
+            "art": "../../Database/GameData/gi/assets/items/UI_EquipIcon_GrenadeLauncher_Ignis_Part04.webp",
+            "fields": {
+              "rarity": "4 \u2605",
+              "type": "Firearm Accessory Blueprint"
+            },
+            "text": "Blueprint for a firearm accessory that can be used to create said inscribed weapon accessory by consuming materials in the Eye of Graeae's HUD."
+          },
+          {
+            "id": "gi-shadow-item-223124",
+            "name": "Balsag's Sunwheel: Sight",
+            "kind": "item",
+            "art": "../../Database/GameData/gi/assets/items/UI_EquipIcon_GrenadeLauncher_Ignis_Part02.webp",
+            "fields": {
+              "rarity": "4 \u2605",
+              "type": "Firearm Accessory Blueprint"
+            },
+            "text": "Blueprint for a firearm accessory that can be used to create said inscribed weapon accessory by consuming materials in the Eye of Graeae's HUD."
+          },
+          {
+            "id": "gi-shadow-item-223131",
+            "name": "Ashamez's Thunder: Muzzle",
+            "kind": "item",
+            "art": "../../Database/GameData/gi/assets/items/UI_EquipIcon_AssaultRifle_Fulmen_Part03.webp",
+            "fields": {
+              "rarity": "4 \u2605",
+              "type": "Firearm Accessory Blueprint"
+            },
+            "text": "Blueprint for a firearm accessory that can be used to create said inscribed weapon accessory by consuming materials in the Eye of Graeae's HUD."
+          },
+          {
+            "id": "gi-shadow-item-223132",
+            "name": "Ashamez's Thunder: Ammo Feed",
+            "kind": "item",
+            "art": "../../Database/GameData/gi/assets/items/UI_EquipIcon_AssaultRifle_Fulmen_Part01.webp",
+            "fields": {
+              "rarity": "4 \u2605",
+              "type": "Firearm Accessory Blueprint"
+            },
+            "text": "Blueprint for a firearm accessory that can be used to create said inscribed weapon accessory by consuming materials in the Eye of Graeae's HUD."
+          },
+          {
+            "id": "gi-shadow-item-223133",
+            "name": "Ashamez's Thunder: Gunstock",
+            "kind": "item",
+            "art": "../../Database/GameData/gi/assets/items/UI_EquipIcon_AssaultRifle_Fulmen_Part04.webp",
+            "fields": {
+              "rarity": "4 \u2605",
+              "type": "Firearm Accessory Blueprint"
+            },
+            "text": "Blueprint for a firearm accessory that can be used to create said inscribed weapon accessory by consuming materials in the Eye of Graeae's HUD."
+          },
+          {
+            "id": "gi-shadow-item-223134",
+            "name": "Ashamez's Thunder: Sight",
+            "kind": "item",
+            "art": "../../Database/GameData/gi/assets/items/UI_EquipIcon_AssaultRifle_Fulmen_Part02.webp",
+            "fields": {
+              "rarity": "4 \u2605",
+              "type": "Firearm Accessory Blueprint"
+            },
+            "text": "Blueprint for a firearm accessory that can be used to create said inscribed weapon accessory by consuming materials in the Eye of Graeae's HUD."
+          }
+        ]
+      },
+      "gallery": {
+        "namecards": [
+          {
+            "id": "210001",
+            "name": "Genshin Impact: A New World",
+            "description": "Namecard style.\n\"Welcome to Teyvat!\"",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210001.webp"
+          },
+          {
+            "id": "210002",
+            "name": "Travel Notes: Catch the Wind",
+            "description": "Namecard style.\nThe most difficult part of writing a travel journal is coming up with the beginning.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210002.webp"
+          },
+          {
+            "id": "210003",
+            "name": "Amber: Bunny",
+            "description": "Namecard style.\n\"It's Baron Bunny!\"",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210003.webp"
+          },
+          {
+            "id": "210004",
+            "name": "Klee: Explosive",
+            "description": "Namecard style.\nKlee's lucky explosive \u2014 can you tell if it's Jumpy Dumpty or Dodoco? (Hint: Look carefully at the tail...)",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210004.webp"
+          },
+          {
+            "id": "210005",
+            "name": "Diluc: Flames",
+            "description": "Namecard style.\nMaster Crepus painted many eagles during his lifetime, but he never could've foreseen creating an eagle with such fire.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210005.webp"
+          },
+          {
+            "id": "210006",
+            "name": "Razor: Wolvensprint",
+            "description": "Namecard style.\nIt's quite a sight to behold Razor and the wolves prepare their dinner, but they won't let Klee or the Traveler see the slightly gruesome affair.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210006.webp"
+          },
+          {
+            "id": "210007",
+            "name": "Venti: Azure Sky",
+            "description": "Namecard style.\nThe bright blue of a cloudless sky and the melodious tone of Der Fr\u00fchling complement each other perfectly.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210007.webp"
+          },
+          {
+            "id": "210008",
+            "name": "Jean: The Winds' Course",
+            "description": "Namecard style.\nThe dandelion, also called \"lion's fang\" by some, is the flower most sensitive to the direction of the wind.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210008.webp"
+          },
+          {
+            "id": "210009",
+            "name": "Barbara: Flow",
+            "description": "Namecard style.\nWhen Barbara sings, her melodic voice flows like the tender healing of a clear spring.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210009.webp"
+          },
+          {
+            "id": "210010",
+            "name": "Kaeya: Pavo Ocellus",
+            "description": "Namecard style.\nThe pattern of peacock feathers resembles eyes that never shut. Can we really say that this Pavo Ocellus is missing an eye...?",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210010.webp"
+          },
+          {
+            "id": "210011",
+            "name": "Lisa: Tempus Fugit",
+            "description": "Namecard style.\nAn hourglass marks the end of the work day for Lisa. Its sand moves fast.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210011.webp"
+          },
+          {
+            "id": "210012",
+            "name": "Sucrose: Bio-Alchemy",
+            "description": "Namecard style.\nIf you closely examine an Anemo Hypostasis before it disappears, you will discover that they are actually quite square.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210012.webp"
+          },
+          {
+            "id": "210013",
+            "name": "Fischl: Night Raven",
+            "description": "Namecard style.\nA raven dark as midnight with wings that can block out the sun. \"I permit thee to conceive his likeness upon such decoration!\"",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210013.webp"
+          },
+          {
+            "id": "210014",
+            "name": "Noelle: Protector",
+            "description": "Namecard style.\nNoelle is quite special. Noelle won't let any harm come to you.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210014.webp"
+          },
+          {
+            "id": "210015",
+            "name": "Mona: Starry Sky",
+            "description": "Namecard style.\nA girl gazes down at the stars' reflection on the water, pondering the joys and sorrows of life.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210015.webp"
+          },
+          {
+            "id": "210016",
+            "name": "Bennett: Recognition",
+            "description": "Namecard style.\nA sign of recognition from Benny's Adventure Team.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210016.webp"
+          },
+          {
+            "id": "210017",
+            "name": "Xiangling: Fresh from the Pan",
+            "description": "Namecard style.\nTry saying this three times fast: \"Guoba sears sea snails by Liyue's sea shore.\"",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210017.webp"
+          },
+          {
+            "id": "210018",
+            "name": "Xingqiu: Rainbow",
+            "description": "Namecard style.\nCome watch the night rain that brings no rainbow.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210018.webp"
+          },
+          {
+            "id": "210019",
+            "name": "Qiqi: Cold Storage",
+            "description": "Namecard style.\nWhat should be kept in the fridge? Dr. Baizhu's herbs, coconut milk... and Hu Tao.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210019.webp"
+          },
+          {
+            "id": "210020",
+            "name": "Keqing: Lightning Stiletto",
+            "description": "Namecard style.\nIt was originally invented to just test out one's surroundings and climb to high places, really...",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210020.webp"
+          },
+          {
+            "id": "210021",
+            "name": "Achievement: Explorer",
+            "description": "Namecard style.\nAfter all your wanderings throughout the world, do not forget the reason why you first set out.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210021.webp"
+          },
+          {
+            "id": "210022",
+            "name": "Achievement: Virtuoso",
+            "description": "Namecard style.\nAfter mastering these skills, you may just find that you can get by just fine without engaging in battle. If you are without any commission to complete, that is.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210022.webp"
+          },
+          {
+            "id": "210023",
+            "name": "Achievement: Hero",
+            "description": "Namecard style.\nYour hero's journey began before you knew it, but it's the experiences that really made it special.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210023.webp"
+          },
+          {
+            "id": "210024",
+            "name": "Mondstadt: Whistling Wind",
+            "description": "Namecard style.\nListen to the singing of Mondstadt's birds and winds.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210024.webp"
+          },
+          {
+            "id": "210025",
+            "name": "Liyue: Stillness of Stone",
+            "description": "Namecard style.\nWitness the lonely, cloud-covered peaks of Liyue.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210025.webp"
+          },
+          {
+            "id": "210026",
+            "name": "Achievement: Colors of the Rainbow",
+            "description": "Namecard style.\nLight can refract into countless colors, but people stop at seven because they're lazy to count. Perhaps the elements are like that, too.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210026.webp"
+          },
+          {
+            "id": "210027",
+            "name": "Achievement: Bowmaster",
+            "description": "Namecard style.\nDraw that bowstring taut!",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210027.webp"
+          },
+          {
+            "id": "210028",
+            "name": "Achievement: Challenger",
+            "description": "Namecard style.\nEven if you're just going out to get a single dandelion, there will be obstacles in your path. But you love a challenge, don't you?",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210028.webp"
+          },
+          {
+            "id": "210029",
+            "name": "Achievement: Deep & Dark",
+            "description": "Namecard style.\nThe deeper you delve, the more secrets you shall uncover.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210029.webp"
+          },
+          {
+            "id": "210030",
+            "name": "Achievement: Hill Dwellers",
+            "description": "Namecard style.\nThe hilichurls were dubbed the \"hill devils.\" But a certain young girl named Musk insists on calling them the \"hill dwellers.\"",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210030.webp"
+          },
+          {
+            "id": "210031",
+            "name": "Achievement: Snowy Land",
+            "description": "Namecard style.\nYou've heard many stories about Snezhnaya. What does it look like in your mind's eye?",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210031.webp"
+          },
+          {
+            "id": "210032",
+            "name": "Achievement: Cliffhanger",
+            "description": "Namecard style.\nThey say that storytellers love their cliffhangers \u2014 but you? You've heard it all before.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210032.webp"
+          },
+          {
+            "id": "210033",
+            "name": "Achievement: Reunion",
+            "description": "Namecard style.\nWe shall meet again someday.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210033.webp"
+          },
+          {
+            "id": "210038",
+            "name": "Ningguang: Phoenix",
+            "description": "Namecard style.\nThey say that \"more's the pity that phoenixes are few.\" But seriously, one Ningguang is more than enough...",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210038.webp"
+          },
+          {
+            "id": "210039",
+            "name": "Beidou: Weighing Anchor",
+            "description": "Namecard style.\n\"Weighing anchor out to sea, one is wont to waver. But look to the skies, and the stars shall light the way.\"",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210039.webp"
+          },
+          {
+            "id": "210040",
+            "name": "Chongyun: Spirit Blade",
+            "description": "Namecard style.\nThis was originally a peachwood sword made of ice. But a big enough ice block makes a better exorcist's tool than peachwood.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210040.webp"
+          },
+          {
+            "id": "210041",
+            "name": "Achievement: Challenger II",
+            "description": "Namecard style.\nThat which awaits at the end of the challenges is...",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210041.webp"
+          },
+          {
+            "id": "210042",
+            "name": "Travel Notes: Fading Star",
+            "description": "Namecard style.\nSo long as there is still desire left in your heart, when you hold your head high you will see that which glitters but is not light.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210042.webp"
+          },
+          {
+            "id": "210043",
+            "name": "Diona: Meow!",
+            "description": "Namecard style.\nAll who have K\u00e4tzlein blood will have such feline features. An ancient prank played by a certain someone, perhaps?",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210043.webp"
+          },
+          {
+            "id": "210044",
+            "name": "Zhongli: Planet Befall",
+            "description": "Namecard style.\nStars fall, light dims.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210044.webp"
+          },
+          {
+            "id": "210045",
+            "name": "Xinyan: Song's End",
+            "description": "Namecard style.\nXinyan only has time to examine her instrument carefully after the performance is over. Even in silence, it is a beauty.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210045.webp"
+          },
+          {
+            "id": "210046",
+            "name": "Childe: Foul Legacy",
+            "description": "Namecard style.\nThis bears all the marks of that fellow who gallivants as he pleases across the continent with his ever-changing combat styles. Yet, his \"Foul Legacy\" was not originally his. Rather, it was taught to him by that solitary girl who dwelt in the darkest corners of the universe.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210046.webp"
+          },
+          {
+            "id": "210047",
+            "name": "Mondstadt: Hero's Fame",
+            "description": "Namecard style.\nThe name of the Honorary Knight has spread far and wide among the citizenry.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210047.webp"
+          },
+          {
+            "id": "210048",
+            "name": "Mondstadt: Blessing",
+            "description": "Namecard style.\nThey who have it in their hearts to bless others shall themselves be blessed.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210048.webp"
+          },
+          {
+            "id": "210049",
+            "name": "Liyue: A Thousand Ships",
+            "description": "Namecard style.\nMany boats have been numbered by day and night.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210049.webp"
+          },
+          {
+            "id": "210050",
+            "name": "Liyue: In the Clouds",
+            "description": "Namecard style.\nThe peaks adorn the clouded moon.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210050.webp"
+          },
+          {
+            "id": "210051",
+            "name": "Achievement: Challenger III",
+            "description": "Namecard style.\nFinally, a worthy opponent! Our battle will be legendary!",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210051.webp"
+          },
+          {
+            "id": "210052",
+            "name": "Achievement: Snowy Summit",
+            "description": "Namecard style.\nA draconian peak must be scaled.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210052.webp"
+          },
+          {
+            "id": "210053",
+            "name": "Ganyu: Qilin",
+            "description": "Namecard style.\nDo no harm to plant nor insect.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210053.webp"
+          },
+          {
+            "id": "210054",
+            "name": "Albedo: Sun Blossom",
+            "description": "Namecard style.\nAllow me to bear witness to this miracle.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210054.webp"
+          },
+          {
+            "id": "210055",
+            "name": "Travel Notes: Chalk",
+            "description": "Namecard style.\nRemember to keep warm when setting foot on the mountain.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210055.webp"
+          },
+          {
+            "id": "210056",
+            "name": "Frostbearing: Ancient Tree",
+            "description": "Namecard style.\nWe shall rise again \u2014 the tree of old has sprouted anew.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210056.webp"
+          },
+          {
+            "id": "210057",
+            "name": "Celebration: Hypostasis",
+            "description": "Namecard style.\nMy opponent for today seems to have an artistic temperament.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210057.webp"
+          },
+          {
+            "id": "210058",
+            "name": "Xiao: Mask",
+            "description": "Namecard style.\nHe longs for a day to come when he will wear the mask and dance \u2014 not to conquer demons, but to the tune of that flute amid a sea of flowers.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210058.webp"
+          },
+          {
+            "id": "210059",
+            "name": "Hu Tao: Spirit Soother",
+            "description": "Namecard style.\nDirector Hu Tao isn't scary at all. Probably.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210059.webp"
+          },
+          {
+            "id": "210060",
+            "name": "Travel Notes: Mingxiao",
+            "description": "Namecard style.\nWhen everyone's wishes are gathered together, they can light up the long night.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210060.webp"
+          },
+          {
+            "id": "210061",
+            "name": "Celebration: Lantern-Light",
+            "description": "Namecard style.\nEvery year on this day, the lanterns light up the night. May the fire never die, and may humanity endure.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210061.webp"
+          },
+          {
+            "id": "210062",
+            "name": "Celebration: Mechanicus",
+            "description": "Namecard style.\nYou claim to have seen all mechanisms, but have you ever considered playing yourself as a pawn?",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210062.webp"
+          },
+          {
+            "id": "210063",
+            "name": "Rosaria: Indenture",
+            "description": "Namecard style.\nThe unselfish warmth and goodwill of the people is, to her, a kindness that she must repay, and so it is an indenture that follows her forever.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210063.webp"
+          },
+          {
+            "id": "210064",
+            "name": "Travel Notes: Windblume",
+            "description": "Namecard style.\nWho has seen the wind? Neither you nor I. Nor has anyone ever seen love, till a bouquet comes flying by.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210064.webp"
+          },
+          {
+            "id": "210065",
+            "name": "Celebration: Feast",
+            "description": "Namecard style.\nExcellent!",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210065.webp"
+          },
+          {
+            "id": "210066",
+            "name": "Celebration: Shining Scale",
+            "description": "Namecard style.\nThe universe does play host to just such a snake, whose scales glitter with precisely these colors.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210066.webp"
+          },
+          {
+            "id": "210067",
+            "name": "Celebration: Fruit of Wisdom",
+            "description": "Namecard style.\nWhat knowledge might the fruit of wisdom bring, were it to descend upon the land? Either way, it'll taste good as a drink if left in Diona's hands.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210067.webp"
+          },
+          {
+            "id": "210068",
+            "name": "Celebration: Peekaboo!",
+            "description": "Namecard style.\nYou can't see me. You can't see me.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210068.webp"
+          },
+          {
+            "id": "210069",
+            "name": "Yanfei: Impartial",
+            "description": "Namecard style.\nJustice, signed in scarlet.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210069.webp"
+          },
+          {
+            "id": "210070",
+            "name": "Eula: Ice-Sealed",
+            "description": "Namecard style.\nA cold heart is but a shell to protect oneself.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210070.webp"
+          },
+          {
+            "id": "210071",
+            "name": "Travel Notes: Sub-Space Recreation",
+            "description": "Namecard style.\nHow many nights have you spent with a stone for your pillow?",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210071.webp"
+          },
+          {
+            "id": "210072",
+            "name": "Achievement: Tea Time",
+            "description": "Namecard style.\nThe days and months pass within the teapot.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210072.webp"
+          },
+          {
+            "id": "210073",
+            "name": "Kaedehara Kazuha: Autumn Maple-Viewing",
+            "description": "Namecard style.\n\"The pine-song ripples as red leaves billow.\"",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210073.webp"
+          },
+          {
+            "id": "210074",
+            "name": "Travel Notes: Midsummer",
+            "description": "Namecard style.\nIt's adventure time!",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210074.webp"
+          },
+          {
+            "id": "210075",
+            "name": "Achievement: Vacation Home",
+            "description": "Namecard style.\nThe world is wide under the eaves.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210075.webp"
+          },
+          {
+            "id": "210076",
+            "name": "Celebration: Vastness",
+            "description": "Namecard style.\nImagine the vast expanse of a sea of stars. Imagine a one followed by a hundred zeros.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210076.webp"
+          },
+          {
+            "id": "210077",
+            "name": "Celebration: Kaboomball",
+            "description": "Namecard style.\n\"In a land far, far away, there was a kingdom known as the Grand Alliance, and the people living there could throw ever-changing, quick, and powerful Kaboomballs.\"",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210077.webp"
+          },
+          {
+            "id": "210078",
+            "name": "Celebration: Battlesong",
+            "description": "Namecard style.\nGood omens must appear thrice for good fortune to come. One bows thrice at curtain call. The opponents to defeat number three.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210078.webp"
+          },
+          {
+            "id": "210079",
+            "name": "Inazuma: Sacred Sakura",
+            "description": "Namecard style.\nWherever the sakura petals fall, there the protection of the sacred tree rests.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210079.webp"
+          },
+          {
+            "id": "210080",
+            "name": "Travel Notes: Grand Narukami Shrine",
+            "description": "Namecard style.\nThe sakura of Mt. Yougou symbolizes the Grand Narukami Shrine.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210080.webp"
+          },
+          {
+            "id": "210081",
+            "name": "Kamisato Ayaka: Folding Fan",
+            "description": "Namecard style.\nAyaka does constantly change out the fans she carries with her, of course. If you're buying her some as gifts, remember not to send summer fans or throwing fans. Dancing fans or tea fans are good choices, though.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210081.webp"
+          },
+          {
+            "id": "210082",
+            "name": "Yoimiya: Auratus Spark",
+            "description": "Namecard style.\nEven momentary sparks can leave beautiful, unquenchable flames in the hearts of those who watch the night sky.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210082.webp"
+          },
+          {
+            "id": "210083",
+            "name": "Sayu: Muji-Muji Daruma",
+            "description": "Namecard style.\nIt is even smaller than Sayu, sure, but it can help her do the things she doesn't want to do.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210083.webp"
+          },
+          {
+            "id": "210084",
+            "name": "Inazuma: Raiden Emblem",
+            "description": "Namecard style.\nThis is the emblem of the Ogosho Shogun, and is the banner of her troops, the Electro Mitsudomoe.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210084.webp"
+          },
+          {
+            "id": "210085",
+            "name": "Inazuma: Kamisato Crest",
+            "description": "Namecard style.\nThis Tri-Commission house-crest represents the Yashiro Commission's Kamisato Clan.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210085.webp"
+          },
+          {
+            "id": "210086",
+            "name": "Achievement: Gate",
+            "description": "Namecard style.\nWhat encounters lie on the other side of this door?",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210086.webp"
+          },
+          {
+            "id": "210087",
+            "name": "Achievement: Traversal",
+            "description": "Namecard style.\nA traveler shall experience ten thousand tales, and each shall form a part of the traveler's soul.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210087.webp"
+          },
+          {
+            "id": "210088",
+            "name": "Achievement: Stone Dragon",
+            "description": "Namecard style.\nOur journey among the precipices.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210088.webp"
+          },
+          {
+            "id": "210089",
+            "name": "Achievement: Full Bloom",
+            "description": "Namecard style.\nGather ye then soil from all corners of the universe, and from it may countless flowers grow.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210089.webp"
+          },
+          {
+            "id": "210090",
+            "name": "Inazuma: Kujou Insignia",
+            "description": "Namecard style.\nThis Tri-Commission house-crest represents the Tenryou Commission's Kujou Clan.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210090.webp"
+          },
+          {
+            "id": "210091",
+            "name": "Celebration: Wondrous Calculation",
+            "description": "Namecard style.\nA true grandmaster can see the board a thousand steps ahead.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210091.webp"
+          },
+          {
+            "id": "210092",
+            "name": "Raiden Shogun: Enlightenment",
+            "description": "Namecard style.\nNot simply Ei, and not merely the Raiden Shogun. Observe yourself also with one stormy eye, and you will someday reach a breakthrough.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210092.webp"
+          },
+          {
+            "id": "210093",
+            "name": "Sangonomiya Kokomi: The Deep",
+            "description": "Namecard style.\nAll Watatsumi islanders know this tale: that deep beneath the waves lies their former home.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210093.webp"
+          },
+          {
+            "id": "210094",
+            "name": "Kujou Sara: Tengu",
+            "description": "Namecard style.\nKujou Sara may have forsaken the arrogant life of the tengu race, but she has never neglected their brilliance with the sword or their supernatural might.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210094.webp"
+          },
+          {
+            "id": "210095",
+            "name": "Aloy: Dawn",
+            "description": "Namecard style.\n\"Everything I do is in the service of life, not death.\"",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210095.webp"
+          },
+          {
+            "id": "210096",
+            "name": "Travel Notes: Moonchaser",
+            "description": "Namecard style.\nMay the moonlight wash over you, O pursuer!",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210096.webp"
+          },
+          {
+            "id": "210097",
+            "name": "Inazuma: Sangonomiya Crest",
+            "description": "Namecard style.\nThis is the emblem of the Sangonomiya Clan, the leaders of Watatsumi's people.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210097.webp"
+          },
+          {
+            "id": "210098",
+            "name": "Achievement: Nails",
+            "description": "Namecard style.\n\"Wait, if these fish can't be eaten, then why are we hammering these nails into fishhooks?\" \"Oh, you wouldn't understand.\"",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210098.webp"
+          },
+          {
+            "id": "210099",
+            "name": "Celebration: Tuneful Delight",
+            "description": "Namecard style.\nO stars and mountains above, listen to my song!",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210099.webp"
+          },
+          {
+            "id": "210100",
+            "name": "Celebration: Ikki",
+            "description": "Namecard style.\n\"I will ask you a question, and you shall answer me with your sword.\"",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210100.webp"
+          },
+          {
+            "id": "210101",
+            "name": "Thoma: Blazing Guard",
+            "description": "Namecard style.\nBlazing armor, flaming guards.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210101.webp"
+          },
+          {
+            "id": "210102",
+            "name": "Travel Notes: Heavenly General",
+            "description": "Namecard style.\n\"You were not created to punish evil. But as to what your purpose is... I fear that I, too, do not know.\"",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210102.webp"
+          },
+          {
+            "id": "210103",
+            "name": "Inazuma: Eagleplume",
+            "description": "Namecard style.\nPirka chikappo! Kapatcir kamuy!",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210103.webp"
+          },
+          {
+            "id": "210104",
+            "name": "Gorou: Leisurely Hound",
+            "description": "Namecard style.\nAs long as you believe in the path you are walking, then everything you encounter on your journey will be a source of happiness.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210104.webp"
+          },
+          {
+            "id": "210105",
+            "name": "Itto: Oni Face",
+            "description": "Namecard style.\nA real man puts sorrow and anger behind him and smiles brightly for the world to see!",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210105.webp"
+          },
+          {
+            "id": "210106",
+            "name": "Travel Notes: Lyratum",
+            "description": "Namecard.\nOnly this flower remains on the heights where all trees have withered.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210106.webp"
+          },
+          {
+            "id": "210107",
+            "name": "Shenhe: Comb",
+            "description": "Namecard style.\nThe early onset of white hair is often correlated to one's sorrows. Since \"comb\" and \"scatter\" are similarly read in Liyue's language, they believe that combing one's hair is the same as scattering one's misfortunes.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210107.webp"
+          },
+          {
+            "id": "210108",
+            "name": "Yun Jin: Rhyme",
+            "description": "Namecard style.\nMs. Yun has two sorts of teachers. The critics of her onstage performances are one, and the books on rhyme she references while writing are the other.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210108.webp"
+          },
+          {
+            "id": "210109",
+            "name": "Inazuma: Tokoyo",
+            "description": "Namecard style.\n\"O Mighty Sun! What use are your heat and light if you cannot own all that they survey?\"",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210109.webp"
+          },
+          {
+            "id": "210110",
+            "name": "Travel Notes: Flowing Hues",
+            "description": "Namecard style.\nThe luxurious colors flow past \u2014 all things are renewed.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210110.webp"
+          },
+          {
+            "id": "210111",
+            "name": "Celebration: Binge Vessel",
+            "description": "Namecard.\nThere's a great many stories here, but no alcohol, so it's safe for Paimon to drink.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210111.webp"
+          },
+          {
+            "id": "210112",
+            "name": "Yae Miko: Kitsune Dreaming",
+            "description": "Namecard style.\nWhere can Yae Miko's fox form be found? In your dreams, that's where.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210112.webp"
+          },
+          {
+            "id": "210113",
+            "name": "Travel Notes: Awakening",
+            "description": "Namecard style.\nThe three realms quake, heaven and earth awaken. The Sangacorexes, too, rise again from their eternal slumber.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210113.webp"
+          },
+          {
+            "id": "210114",
+            "name": "Kamisato Ayato: Ripple",
+            "description": "Namecard style.\nThe camellia alights upon the mirrored pond, sending ripples throughout the water.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210114.webp"
+          },
+          {
+            "id": "210115",
+            "name": "Lumens: Stone of Light",
+            "description": "Namecard style.\nWhat flows within this nameless, voiceless azure crystal? The secrets of the heavens? Or the whispers of the abyss?",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210115.webp"
+          },
+          {
+            "id": "210116",
+            "name": "Achievement: Thunderclap",
+            "description": "Namecard style.\nListen to the sound that comes from the clouds. That is its resentful rage, and its tiny wish.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210116.webp"
+          },
+          {
+            "id": "210117",
+            "name": "Achievement: Chasm",
+            "description": "Namecard style.\nWhere once miners industriously delved and tunneled, now all is silent. Only the Glazed Sand Crystal and marrows of stone, both millennia-old, still give off any brilliance.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210117.webp"
+          },
+          {
+            "id": "210118",
+            "name": "Travel Notes: Irodori",
+            "description": "Namecard style.\nThose who share a hobby are known as a group as \"fans.\" Best come up with those stories, everyone, before the kitsune editor-in-chief dreams up copyright law... Or perhaps she has already dreamed it up, but does not altogether mind?",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210118.webp"
+          },
+          {
+            "id": "210119",
+            "name": "Yelan: Throw",
+            "description": "Namecard style.\n\"Dice are always quite hard to make 'fair.' That goes double for dice with shoddier workmanship. The weighting on each numbered side will almost certainly be unbalanced.\"",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210119.webp"
+          },
+          {
+            "id": "210120",
+            "name": "Kuki Shinobu: Net",
+            "description": "Namecard style.\n\"You know those Naku Weed rings they have in Inazuma? You know, the kind that can drive out evil? Shinobu got the idea that since wicked things won't cross their boundaries willingly, we could make them into items that could be actively used. Ah, her talent for being a shrine maiden truly is frightening...\"",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210120.webp"
+          },
+          {
+            "id": "210121",
+            "name": "Travel Notes: Divine Will",
+            "description": "Namecard style.\n\"Once upon a time, loyal souls did scatter east and west like swan geese.\" \"Today I light my lantern, that they may not lose their way.\"",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210121.webp"
+          },
+          {
+            "id": "210122",
+            "name": "Shikanoin Heizou: Temari",
+            "description": "Namecard style.\nA Temari of entwining strings in various colors. It must have taken someone's great effort to make such an item, yet Heizou only sees it as a simple game to untangle each string.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210122.webp"
+          },
+          {
+            "id": "210123",
+            "name": "Travel Notes: Azure Main",
+            "description": "Namecard style.\nYears have gone by, and you wake from an old dream. Inside the keepsake shell, lingers the blue ocean of those summer days.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210123.webp"
+          },
+          {
+            "id": "210124",
+            "name": "Tighnari: Dew-Kissed",
+            "description": "Namecard style.\nTighnari takes good care of his big, fluffy tail. The essential oil he uses was extracted from flowers and mixed together meticulously. It gives off a faint, calming scent.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210124.webp"
+          },
+          {
+            "id": "210125",
+            "name": "Collei: Good Virtue",
+            "description": "Namecard style.\n\"I\u2014It's Cuilein-Anbar! I, uh...\"",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210125.webp"
+          },
+          {
+            "id": "210126",
+            "name": "Dori: Jinni",
+            "description": "Namecard style.\nIf you wipe the lamp she gave you and then scrub the Mora you gave her, no wish is unattainable... right?",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210126.webp"
+          },
+          {
+            "id": "210127",
+            "name": "Travel Notes: Woodlands",
+            "description": "Namecard style.\nBeneath the tranquil moon and inside the deep valley grows blooming roses. 'Tis a paradise with your presence.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210127.webp"
+          },
+          {
+            "id": "210128",
+            "name": "Achievement: Roaming",
+            "description": "Namecard style.\nEvery journey and memory is a unique miracle that only belongs to the traveler.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210128.webp"
+          },
+          {
+            "id": "210129",
+            "name": "Achievement: Fated Encounter",
+            "description": "Namecard style.\nOne day, our encounter at this moment shall shine like a star of reminiscence in our hearts.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210129.webp"
+          },
+          {
+            "id": "210130",
+            "name": "Sumeru: Shimmering Woods",
+            "description": "Namecard style.\nWhat dreams lie within the rich slumber of the stories deep in the woods?",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210130.webp"
+          },
+          {
+            "id": "210131",
+            "name": "Sumeru: Observance",
+            "description": "Namecard style.\nBehold everything the world has to offer; see through all that the sky's light surveys.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210131.webp"
+          },
+          {
+            "id": "210132",
+            "name": "Sumeru: Unsullied",
+            "description": "Namecard style.\nThe wise, graced with the thorough knowledge of the truth, will not be sullied by sin. They are like the Nilotpala Lotus, which remains clear and pure even after the rains and winds have passed.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210132.webp"
+          },
+          {
+            "id": "210133",
+            "name": "Travel Notes: Returning Winds",
+            "description": "Namecard style.\nThe years come and go. Only remembrance and the winds that return do not change.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210133.webp"
+          },
+          {
+            "id": "210134",
+            "name": "Cyno: Silence",
+            "description": "Namecard style.\nWhenever Cyno falls into a profound silence, he must be considering some weighty judgment... Or perhaps he is simply considering something amusing.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210134.webp"
+          },
+          {
+            "id": "210135",
+            "name": "Candace: Gray Heron",
+            "description": "Namecard style.\nThe burning winds of the past ruffle the heron's feathers, but the bird has eyes only for the morning star at first light.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210135.webp"
+          },
+          {
+            "id": "210136",
+            "name": "Nilou: Lotus Dance",
+            "description": "Namecard style.\nThe lotus that blooms amidst the pure water is naught but a flash of light beneath her toes.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210136.webp"
+          },
+          {
+            "id": "210137",
+            "name": "Achievement: Seven Lights",
+            "description": "Namecard style.\nAnyone can play a tune that belongs just to them, and like the dew upon grass, can reflect the seven lights of heaven.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210137.webp"
+          },
+          {
+            "id": "210138",
+            "name": "Sumeru: Sandtreader",
+            "description": "Namecard style.\nThe sands subsume the tracks of travelers, and they await the day when a gust of wind will reveal gilded memories once more.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210138.webp"
+          },
+          {
+            "id": "210139",
+            "name": "Achievement: Mirrored Dreams",
+            "description": "Namecard style.\n\"A millennium of obsession and tragic yearning has long been lost in the sandstorms of those blazing nights. But the eternal verdant oasis of her dreams is, in all likelihood, as tender as it was at the first...\"",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210139.webp"
+          },
+          {
+            "id": "210140",
+            "name": "Nahida: Crescent",
+            "description": "Namecard style.\nThe rising moon admires the sun, because her light can shine all over the earth. On the other hand, the setting sun is envious of the moon, for she can be accompanied by the sweetest of dreams.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210140.webp"
+          },
+          {
+            "id": "210141",
+            "name": "Layla: Daydream",
+            "description": "Namecard style.\n\"The starry sky in your dreams will illuminate your way forward, on the premise that the crystal in your heart reflects clear lights.\"",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210141.webp"
+          },
+          {
+            "id": "210142",
+            "name": "Travel Notes: Fungus Land",
+            "description": "Namecard style.\n\"Traveler, there is no need to grieve, for the wind at dawn will blow the fungal spores carrying beautiful dreams to the fields that contain your hopes...\"",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210142.webp"
+          },
+          {
+            "id": "210143",
+            "name": "Wanderer: Drifter's Ballad",
+            "description": "Namecard style.\nIn a world most transient does the past hide, and in the whims of flowing flowers does thin snow abide.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210143.webp"
+          },
+          {
+            "id": "210144",
+            "name": "Faruzan: Sealed Secret",
+            "description": "Namecard style.\n\"A\u2014Anyway! Next time, remember to refer to me as Madam Faruzan before you ask a question! Seriously...\"",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210144.webp"
+          },
+          {
+            "id": "210145",
+            "name": "Achievement: Invoker",
+            "description": "Namecard style.\n\"In this village, no one can defeat me!\"",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210145.webp"
+          },
+          {
+            "id": "210146",
+            "name": "Travel Notes: Stellar Rivers",
+            "description": "Namecard style.\nForgotten is the name of the ancient feast, scattered are the three rivers amongst a plumage of clouds, and across the curve of twilight does autumn yet linger.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210146.webp"
+          },
+          {
+            "id": "210147",
+            "name": "Alhaitham: Enlightenment",
+            "description": "Namecard style.\n\"The only things researchers should abide by are debates and dialectics. Only by questioning everything at all times can one avoid falling into prejudice.\"",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210147.webp"
+          },
+          {
+            "id": "210148",
+            "name": "Yaoyao: Yuegui",
+            "description": "Namecard style.\n\"Can you guess which one here is Yuegui? That's right, all of them are!\"",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210148.webp"
+          },
+          {
+            "id": "210149",
+            "name": "Celebration: Lenticular Clouds",
+            "description": "Namecard style.\nThe floating clouds dispersed to the thousand peaks at dawn.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210149.webp"
+          },
+          {
+            "id": "210150",
+            "name": "Travel Notes: Rhythm and Rhyme",
+            "description": "Namecard style.\nWith magnificent sunglow sheds light on the night sky, chimes are orchestrated to celebrate the bygone year. The gilded palaces are adorned with beaded curtains, the railings painted silver by bright moonlight, and the feasts brimmed with jolly singing and dances. Is that flowers or fireworks? A wealth of instruments plays in unison, harmonious and pleasant.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210150.webp"
+          },
+          {
+            "id": "210151",
+            "name": "Sumeru: Sandstorm",
+            "description": "Namecard style.\nThe endless sandstorm conceals ancient dreams...",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210151.webp"
+          },
+          {
+            "id": "210152",
+            "name": "Dehya: Purifying Flame",
+            "description": "Namecard style.\nThose that should be burned will be reduced to fly ash, so that all the precious things that should be preserved can be revealed.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210152.webp"
+          },
+          {
+            "id": "210153",
+            "name": "Mika: Index",
+            "description": "Namecard style.\nEvery time he holds the map he illustrated in his hands, the boy feels like he is holding a small piece of rubbing of this world.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210153.webp"
+          },
+          {
+            "id": "210154",
+            "name": "Travel Notes: Artful Intent",
+            "description": "Namecard style.\nIt is said that experiencing true love is like seeing a ghost. Most folks speak of both as hearsay, but true witnesses remain few and far between. That said, since even ghosts can manifest here, perhaps true love is also waiting right around the next corner.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210154.webp"
+          },
+          {
+            "id": "210155",
+            "name": "Baizhu: Relief",
+            "description": "Namecard style.\nSincerity begets longevity.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210155.webp"
+          },
+          {
+            "id": "210156",
+            "name": "Kaveh: Domed Court",
+            "description": "Namecard style.\n\"When conceptualizing architecture, there is nothing wrong with imagining that the structure we build will surmount the firmament and outlast the stars.\"",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210156.webp"
+          },
+          {
+            "id": "210157",
+            "name": "Achievement: Infinitum",
+            "description": "Namecard style.\n\"Oh, Khvarena in your endless forms, protect this imperiled land. The blights and glories of the earthly realm are naught but the illusion of existing seeds.\"",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210157.webp"
+          },
+          {
+            "id": "210158",
+            "name": "Achievement: Transient Twilight",
+            "description": "Namecard style.\n\"I will forget the flowers of yesteryear, the daylight, the rain. I ask that you remember in my stead, in this nascent world, and hold to that lost dream.\"",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210158.webp"
+          },
+          {
+            "id": "210159",
+            "name": "Sumeru: The Great Dream",
+            "description": "Namecard style.\n\"The time to flourish has yet to come. Hide me with care between the blades of grass and beneath the tallness of trees. Let me linger in that place of dreams.\"",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210159.webp"
+          },
+          {
+            "id": "210160",
+            "name": "Sumeru: Amrita",
+            "description": "Namecard style.\nThe ancient Amrita Pool is suffused with recollections of times past. Perhaps it also contains the power that will create the future.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210160.webp"
+          },
+          {
+            "id": "210161",
+            "name": "Travel Notes: Crown of Glory",
+            "description": "Namecard style.\n\"Knowledge serves as the crown of time, and reminiscence is bound to the time we shared as one.\"",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210161.webp"
+          },
+          {
+            "id": "210162",
+            "name": "Kirara: Neko Box",
+            "description": "Namecard style.\n\"To Kirara, the smiles on her customers' faces are the best rewards possible.\"",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210162.webp"
+          },
+          {
+            "id": "210163",
+            "name": "Travel Notes: Secrets",
+            "description": "Namecard style.\nNever forget the time you once spent with games and good friends. Never forget what it feels like to have no worries about the future.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210163.webp"
+          },
+          {
+            "id": "210164",
+            "name": "Travel Notes: Vivid Illumination",
+            "description": "Namecard style\nWho knows? Perhaps the phantasmal light that only exists on the other side of this transparent glass can ever so slightly brighten up the world on this one.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210164.webp"
+          },
+          {
+            "id": "210165",
+            "name": "Lyney: Pretense",
+            "description": "Namecard style.\nOne major type of magic revolves around making things \"vanish.\" Lyney has an arsenal of tricks up his sleeve. As his accomplice, as long as you are willing to turn a blind eye, all your problems may vanish as well.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210165.webp"
+          },
+          {
+            "id": "210166",
+            "name": "Lynette: Earnestness",
+            "description": "Namecard style.\nOne major type of magic revolves around \"appearing suddenly.\" Lynette is usually conserving her energy, but her serious side can \"appear\" as abruptly as pigeons from a hat.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210166.webp"
+          },
+          {
+            "id": "210167",
+            "name": "Freminet: Progress",
+            "description": "Namecard style.\nAs the clockwork devices do naught but round and round in circles turn, the dolls march forward.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210167.webp"
+          },
+          {
+            "id": "210168",
+            "name": "Fontaine: Judgment",
+            "description": "Namecard style.\nThe insignia of the new Hydro Archon. Even without any legal notice, it is understood that none dare use it without permission.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210168.webp"
+          },
+          {
+            "id": "210169",
+            "name": "Achievement: Orbits",
+            "description": "Namecard style.\n\"O Almighty Sovereign, the Universitas Magistrorum has provided the predictions you requested: The two stars have been captured by the world's gravity... After a lengthy orbital period, today their paths shall intertwine once more.\"",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210169.webp"
+          },
+          {
+            "id": "210170",
+            "name": "Achievement: Mariner",
+            "description": "Namecard style.\nThe hands of travelers have touched ten thousand streams. They all flow from the same font of the world's waters, and all return to the same sea.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210170.webp"
+          },
+          {
+            "id": "210171",
+            "name": "Fontaine: Wondrous Machine",
+            "description": "Namecard style.\nThe symbol of the energy blocks used by all of Fontaine's clockwork meka. There was once a great debate over whether it should be registered as a trademark, but in the end, the public was simply called upon not to use it too freely.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210171.webp"
+          },
+          {
+            "id": "210172",
+            "name": "Fontaine: Big News",
+            "description": "Namecard style.\nThe trademarked logo of The Steambird. If you are discovered using it without first obtaining prior permission, we will uphold our rights and prosecute the offense to the fullest extent of the law!",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210172.webp"
+          },
+          {
+            "id": "210173",
+            "name": "Travel Notes: Primordial Waters",
+            "description": "Namecard style.\nTimepieces accompany the tranquil passing of the years, as fish accompany the swirling of the clear waters of the font. If all that is must one day wither, why is my yearning as clear as ever?",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210173.webp"
+          },
+          {
+            "id": "210174",
+            "name": "Neuvillette: Surge",
+            "description": "Namecard style.\nThe water's surface may seem placid as a pristine gem, but it may yet be lying in wait for an opportune moment to gush forth.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210174.webp"
+          },
+          {
+            "id": "210175",
+            "name": "Wriothesley: Detention",
+            "description": "Namecard style.\nMaintaining order at the Fortress of Meropide is no simple affair. As such, a deft and sometimes firm hand is needed \u2014 along with a small pinch of truly regrettable cruelty.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210175.webp"
+          },
+          {
+            "id": "210176",
+            "name": "Travel Notes: Falling Star",
+            "description": "Namecard style.\nMake a wish before you toss the arrow. If you manage to get it into the pot, who knows \u2014 your wish just might come true.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210176.webp"
+          },
+          {
+            "id": "210177",
+            "name": "Celebration: Euphonia",
+            "description": "Namecard style.\nThe trees sing on the slopes of a thousand mountain valleys, accompanied by the music of the passing rain.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210177.webp"
+          },
+          {
+            "id": "210178",
+            "name": "Achievement: Perpetual",
+            "description": "Namecard style.\n\"No one hears the dream that shattered between the conches and the gears. Only the tireless mechanical dancer still queries the echoes of the past day and night with its every elegant step.\"",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210178.webp"
+          },
+          {
+            "id": "210179",
+            "name": "Fontaine: Redemption",
+            "description": "Namecard style.\nThe official logo of the Fortress of Meropide. It is our dearest hope that all who wish to honor order and live out their lives in peace shall not ever be associated with the organization this insignia represents.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210179.webp"
+          },
+          {
+            "id": "210180",
+            "name": "Furina: Banquet",
+            "description": "Namecard style.\nCan one person eat every cake? If they eat one per day, they should be able to enjoy cake for a week or so, right? But will the cakes stay fresh that long? Hmm... Well, don't worry, because there will be friends coming to eat the cakes together.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210180.webp"
+          },
+          {
+            "id": "210181",
+            "name": "Charlotte: Exclusive",
+            "description": "Namecard style.\n\"One, I've written an exclusive, and it's going to generate a lot of buzz for sure! Two, the newspaper said the situation is developing too slowly, so they're changing to a press release instead... Three, the person writing the press release will be in the Opera Epiclese as the defendant tomorrow, so they've decided to run my piece after all!\"",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210181.webp"
+          },
+          {
+            "id": "210182",
+            "name": "Fontaine: Completeness",
+            "description": "Namecard style.\n\"The evening clouds scatter in the sky and the creek shines gold under the setting sun. My shadow wanders alone, akin to a lonely apparition at the bottom of a waterfall.\"",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210182.webp"
+          },
+          {
+            "id": "210183",
+            "name": "Travel Notes: Whirling Waltz",
+            "description": "Namecard style.\nEven if the clockwork stops ticking, even if the puppets stop stepping forward. Though our memories be frozen eternally as coral, do not forget our adventures and the time we spent together.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210183.webp"
+          },
+          {
+            "id": "210184",
+            "name": "Navia: Rosula",
+            "description": "Namecard style.\nRoses shall bloom, and thus does Ms. Navia's umbrella flower. Yet beware, for roses have thorns, and Navia's booming brolly packs a powerful punch.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210184.webp"
+          },
+          {
+            "id": "210185",
+            "name": "Chevreuse: Type II",
+            "description": "Namecard style.\nThe standard issue weapon of the Special Security and Surveillance Patrol is known as the \"Special Security and Surveillance Patrol Type II Standard Musket.\" Yet, though there may be countless flowers in this world, the one you treasure is special, even if it should be known to the world as nothing at all special.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210185.webp"
+          },
+          {
+            "id": "210186",
+            "name": "Travel Notes: Time Inscribed",
+            "description": "Namecard style.\nWho knows how long it shall take before film in Teyvat will advance to the point of reinventing the art of \"carving time\"? Still, this scene has indeed frozen the sinful past.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210186.webp"
+          },
+          {
+            "id": "210187",
+            "name": "Xianyun: White Clouds",
+            "description": "Namecard style.\nThose who the truth tell, commuted shall their sentence be. Be honest. When Cloud Retainer asked you, \"Do you perceive one as merely some larger bird?\", did you also append the thoughts, \"Yes, and you talk, and fiddle with funny machines\"?",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210187.webp"
+          },
+          {
+            "id": "210188",
+            "name": "Gaming: Man Chai",
+            "description": "Namecard style.\n\"Don't stop believing, Man Chai. One day, we'll soar high, with nary a patched hole in our trousers.\"",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210188.webp"
+          },
+          {
+            "id": "210189",
+            "name": "Achievement: Adeptal Valley",
+            "description": "Namecard style.\n...After that, the fish sank to the bottom of the lake, and the snake was split into several pieces. The remaining beasts waited on mountains, rivers, and moon, awaiting their silent answer.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210189.webp"
+          },
+          {
+            "id": "210190",
+            "name": "Chenyu: Rainjade Rite",
+            "description": "Namecard style.\nStars flicker brightly above the tranquil sea and rivers. The mountain folk dance in harmony with birds and beasts.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210190.webp"
+          },
+          {
+            "id": "210191",
+            "name": "Travel Notes: Vibrant Harriers",
+            "description": "Namecard style.\nHarriers and cranes come early in spring. Let the wind rise and the kites soar.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210191.webp"
+          },
+          {
+            "id": "210192",
+            "name": "Album: The Stellar Moments",
+            "description": "Namecard style.\nWe parted in one melody and reunited in another.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210192.webp"
+          },
+          {
+            "id": "210193",
+            "name": "Chiori: Spectacular Sleeves",
+            "description": "Namecard style.\nThe doll known as \"Tamoto-chan\" was one of Chiori's earliest works, and is also the model that requires the least fabric and tailoring.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210193.webp"
+          },
+          {
+            "id": "210194",
+            "name": "Travel Notes: Arcane Amassing",
+            "description": "Namecard style.\nAlchemy is a discipline that studies the conversion from one substance to another, but using alchemy to make potions reduces the quality by a drop. I don't know, perhaps that missing drop is converted into making everyone's mood a bit lighter.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210194.webp"
+          },
+          {
+            "id": "210195",
+            "name": "Arlecchino: Edict",
+            "description": "Namecard style.\n\"Father\" laid down the harsh strictures of the House of the Hearth, and some of these seem almost unreasonable. Those familiar with her can use these rules to trace the outline of the ideals she so rarely speaks of.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210195.webp"
+          },
+          {
+            "id": "210196",
+            "name": "Fontaine: Attunement",
+            "description": "Namecard style.\nThe symphony known as \"Phobos\" has gone out of control, and a Harmost must bring it back in harmony. Yet Fortuna's wheels turn on noiselessly, for destiny knows that even the perfect melody must someday end.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210196.webp"
+          },
+          {
+            "id": "210197",
+            "name": "Achievement: Whalewrangler",
+            "description": "Namecard style.\nThis time, Tartaglia fought this entity for a long time, though he remained unable to defeat it. Hunting the same whale thrice is considered unlucky, but he will not give up. That said, it will be a long while before the creature fully recovers.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210197.webp"
+          },
+          {
+            "id": "210198",
+            "name": "Fontaine: Lucine",
+            "description": "Namecard style.\nDon't drink from the Fountain of Lucine. You never know whose tears you're swallowing.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210198.webp"
+          },
+          {
+            "id": "210199",
+            "name": "Travel Notes: The Realms Rocked",
+            "description": "Namecard style.\n\"The world does not love its children. If not, why chase them into the next one?\" \"What do you know? Maybe that one rocks even harder.\"",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210199.webp"
+          },
+          {
+            "id": "210200",
+            "name": "Clorinde: Roleplay",
+            "description": "Namecard style.\nDedicated Game Masters at the Tabletop Troupe will sometimes switch hats to indicate their change in role. Hmm, in that case, does Clorinde\u2014\nForget about it! She doesn't even take that hat off when swimming.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210200.webp"
+          },
+          {
+            "id": "210201",
+            "name": "Sigewinne: Treatment",
+            "description": "Namecard style.\nSigewinne will take good care of her patients. Don't worry, her injections aren't that painful \u2014 and while the medicines aren't very tasty, you'd take them over the barren wasteland that special blend milkshakes represent.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210201.webp"
+          },
+          {
+            "id": "210202",
+            "name": "Sethos: Ba Fragment",
+            "description": "Namecard style.\nEach Ba Fragment has its unique symbol. While this one resembles an hourglass, it represents King Deshret's rule over both Upper and Lower Setekh. As for the light within, it stands for the wisdom of Hermanubis.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210202.webp"
+          },
+          {
+            "id": "210203",
+            "name": "Achievement: Poetic Pages",
+            "description": "Namecard style.\nThe dreams someone weaves into being are false, but they nonetheless point toward something real. There must be an eternity forged from \"memory\" at the end of this path.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210203.webp"
+          },
+          {
+            "id": "210204",
+            "name": "Travel Notes: Simulnation",
+            "description": "Namecard style.\n\"Victory is but a mere trick of the player's imagination. Silence is the chessboard's true endgame. As such, the one virtuous deed is to play, and to forfeit is the sole sin.\" \"Hey, why don't you play a few less wargames?\"",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210204.webp"
+          },
+          {
+            "id": "210205",
+            "name": "Emilie: Base Note",
+            "description": "Namecard style.\n\"The top note is sweet, the middle rich but not distracting, and the base \u2014 Ah! Such a faint fragrance! Such an exquisite perfume.\"\nOrders flow in and out in an endless stream, and to prevent any scents from disturbing her work, Emilie very seldom uses perfume herself. Alas. When will she have the chance to delight in those base notes?",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210205.webp"
+          },
+          {
+            "id": "210206",
+            "name": "Travel Notes: Fanciful Fabrication",
+            "description": "Namecard style.\nWood is processed into paper, and paper is folded into trees. All who are of folded paper shelter a true self within a falsehood.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210206.webp"
+          },
+          {
+            "id": "210207",
+            "name": "Celebration: Feast (II)",
+            "description": "Namecard style.\nWhat makes a feast? Tomatoes, onions, and all other delicious things.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210207.webp"
+          },
+          {
+            "id": "210208",
+            "name": "Kinich: Ajaw",
+            "description": "Namecard style.\nAt first glance, you might think that the Almighty Dragonlord, K'uhul Ajaw had finally succeeded in turning the puny Kinich into a vessel of his will. Sadly, though, this is just the way namecards are named.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210208.webp"
+          },
+          {
+            "id": "210209",
+            "name": "Mualani: Sharky",
+            "description": "Namecard style.\nSharks that live in the sea don't actually like eating people \u2014 they prefer marine creatures. So as a shark that lives in freshwater hot springs, it's only natural that Mualani's Sharky Surfboard will only eat hot spring creatures. ...Just kidding, those Capybaras can sleep easy. Firstly, because their meat's too tough. And secondly, because... it's a surfboard?",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210209.webp"
+          },
+          {
+            "id": "210210",
+            "name": "Kachina: Twirly",
+            "description": "Namecard style.\nThe upper half of the Turbo Twirly is very stable, but if the lower half gets stuck, there's a high chance you'll end up with one very dizzy rider.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210210.webp"
+          },
+          {
+            "id": "210211",
+            "name": "Natlan: Divine Army",
+            "description": "Namecard style.\n\"...Bathed by a hidden sun, Xbalanque's forces advance with unstoppable momentum. He brings all-out war to the world once more, but his goals don't stop there...\"",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210211.webp"
+          },
+          {
+            "id": "210212",
+            "name": "Natlan: Fiery Dragon",
+            "description": "Namecard style.\n\"...Sharer of light, heat, and wisdom, the dragon king awaits the coming visitor in silence beneath returning moonlight. His reawakening is not simply for...\"",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210212.webp"
+          },
+          {
+            "id": "210213",
+            "name": "Achievement: Endpoint",
+            "description": "Namecard style.\nThe orbits of the true stars are traced in myriad rings across the night sky. A sea of blossom awaits the return of a single flower, anticipating the day when both hearts and petals shall become soft and tender.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210213.webp"
+          },
+          {
+            "id": "210214",
+            "name": "Achievement: Feline Fortune",
+            "description": "Namecard style.\nYou want to know what the future holds? Then stay here and sit tight. Let this little kitty resist the urge to knock the crystal ball onto the ground, and steal the secrets of fate for you.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210214.webp"
+          },
+          {
+            "id": "210215",
+            "name": "Natlan: Return of the Flame",
+            "description": "Namecard style.\nGive yourself over to the joy of the contest \u2014 for victor and vanquished shall earn honor in equal measure, with both belonging to the flames of the night.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210215.webp"
+          },
+          {
+            "id": "210216",
+            "name": "Achievement: Lord of the Night",
+            "description": "Namecard style.\nHow can restless thoughts be calmed? In this land, the only way is battle!",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210216.webp"
+          },
+          {
+            "id": "210217",
+            "name": "Travel Notes: Primal Fire",
+            "description": "Namecard style.\nBut why green, brown, and purple? Shouldn't the first companions we meet be red, green, and blue, or... yellow?",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210217.webp"
+          },
+          {
+            "id": "210218",
+            "name": "Celebration: Crispy and Sweet",
+            "description": "Namecard style.\nThis golden array of food is the perfect balance of salty and sweet.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210218.webp"
+          },
+          {
+            "id": "210219",
+            "name": "Xilonen: Cue Point",
+            "description": "Namecard style.\nRight on cue, the mountains echo with the rhythm of Xilonen's forge-hammer. When the final echo fades, she has already long ceased her toil and found a sunlit spot for her afternoon nap.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210219.webp"
+          },
+          {
+            "id": "210220",
+            "name": "Travel Notes: Sabzeruz",
+            "description": "Namecard style.\n\"Twelve moons and twelve more, new memories will grow.\"",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210220.webp"
+          },
+          {
+            "id": "210221",
+            "name": "Chasca: Fully Loaded",
+            "description": "Namecard style.\nFear not, she's here to make peace, not to fight. The only question is whether to save a few bullets... Y'know, the type that get fired into the sky as warning shots.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210221.webp"
+          },
+          {
+            "id": "210222",
+            "name": "Ororon: Nightshade",
+            "description": "Namecard style.\nJust as starlight cannot overpower the darkness of night, so too do shadows linger beneath the candle's light. Likewise, the heart's emptiness cannot easily be filled.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210222.webp"
+          },
+          {
+            "id": "210223",
+            "name": "Natlan: Fleeting Dreams",
+            "description": "Namecard style.\nBefore one could become a sage among dragons, or a king among men, the ploys of one's ambition would have long since turned to naught but dreams. Yet to be incomplete is good; superior, in fact, to perfection.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210223.webp"
+          },
+          {
+            "id": "210224",
+            "name": "Achievement: Fighting Spirit",
+            "description": "Namecard style.\nEven if one was to lose their physical form and find themselves trapped in the cold depths of some ghostly spring, the will to fight on shall never fade away.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210224.webp"
+          },
+          {
+            "id": "210225",
+            "name": "Travel Notes: Spiritweaver",
+            "description": "Namecard style.\nThe reason that the Masters of the Night-Wind are able to record stories in their scrolls is very simple \u2014 that everything in this world has its warp and weft. All that has been is no less than the very fabric of existence.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210225.webp"
+          },
+          {
+            "id": "210226",
+            "name": "Mavuika: Sun-Crowned",
+            "description": "Namecard style.\nNo Pyro Archon has ever intended to contest the sun. But as ordinary people see it, this \"solar ring\" is the crown of leaders as radiant as the sun.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210226.webp"
+          },
+          {
+            "id": "210227",
+            "name": "Citlali: Opalstar",
+            "description": "Namecard style.\nThe black one is akin to obsidian, and is thus called \"Itzpapa.\" The white one is white as a star, and has thus been named \"Citlalin.\"",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210227.webp"
+          },
+          {
+            "id": "210228",
+            "name": "Lan Yan: Silver Swallow",
+            "description": "Namecard style.\nThe swallow's arrival shall bring forth cleansing rains, washing the worries of wizened winter away.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210228.webp"
+          },
+          {
+            "id": "210229",
+            "name": "Achievement: All-Seeing",
+            "description": "Namecard style.\nThe gaze of a traveler looks upon all like a light, and your impression of things will someday resurface in your mind in vivid, intense color.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210229.webp"
+          },
+          {
+            "id": "210230",
+            "name": "Achievement: Blaze",
+            "description": "Namecard style.\nAfter the flame that once represented light, heat, and wisdom became corroded by the tenebrous dark, the only thing that yet belonged to the imprisoned titan was its inextinguishable will to fight.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210230.webp"
+          },
+          {
+            "id": "210231",
+            "name": "Achievement: Repertoire",
+            "description": "Namecard style.\nPerhaps a melody may exist that collects and contains all the wondrous music in the world. Surging heartbeats mark the musical phrase, anxious thoughts form brief rests, and within the notes lie all things \u2014 laughter, tears, forgotten dreams, and dancing raindrops...",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210231.webp"
+          },
+          {
+            "id": "210232",
+            "name": "Travel Notes: The Flame Renewed",
+            "description": "Namecard style.\nThe spring comes on sure, and old peach wood charms must be burned. Raise your cups of herbal wine in toast, then exchange those old talismans for new ones.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210232.webp"
+          },
+          {
+            "id": "210233",
+            "name": "Yumemizuki Mizuki: Nightmare Devourer",
+            "description": "Namecard style.\nThe yumekui-baku consume nightmares and leave only pleasant dreams. But what if dreams are to be understood in reverse? Faced with such conjecture, her warm-natured response: A truly beautiful dream, even if turned upside down through reality's lens, would still remain beautiful.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210233.webp"
+          },
+          {
+            "id": "210234",
+            "name": "Celebration: Scorch",
+            "description": "Namecard style.\nThe secret to unleashing a powerful attack is to pull back your fist and then strike out with unwavering conviction.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210234.webp"
+          },
+          {
+            "id": "210235",
+            "name": "Travel Notes: Wondrous Reverie",
+            "description": "Namecard style.\nAs flowers bloom and distant songs fade, faint traces of dreams remain.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210235.webp"
+          },
+          {
+            "id": "210236",
+            "name": "Varesa: Powerhouse",
+            "description": "Namecard style.\nWhat could possibly be the secret to her immense strength? D'you think it's got something to do with her nigh-on insatiable appetite...?",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210236.webp"
+          },
+          {
+            "id": "210237",
+            "name": "Iansan: Unyielding",
+            "description": "Namecard style.\n\"If you really need to, and you push yourself hard enough, you can even train in your dreams!\" Sounds great, but... Is it actually possible?",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210237.webp"
+          },
+          {
+            "id": "210238",
+            "name": "Natlan: Draconic Gaze",
+            "description": "Namecard style.\nHaving once beheld the old world in all its glory, these draconic eyes now shine with fresh vigor, heralding the dawn of a new one.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210238.webp"
+          },
+          {
+            "id": "210239",
+            "name": "Achievement: Tranquil Peace",
+            "description": "Namecard style.\nIf ever the day comes when all worldly conflicts can finally be put to rest, then even the gods of night themselves may drift off into peaceful slumber.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210239.webp"
+          },
+          {
+            "id": "210240",
+            "name": "Travel Notes: Blooming Glory",
+            "description": "Namecard style.\nWe learn to fight through play and pursuit, to stand firm through wounds and hardship, and with that strength, set forth for the very limits of the world.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210240.webp"
+          },
+          {
+            "id": "210241",
+            "name": "Escoffier: Charm",
+            "description": "Namecard style.\nFor Escoffier, a certain relationship exists between rhythm and flavor. Why, then, does she not fuel her compositions with delicious food? The answer is quite simple \u2014 consistent flavors are reliable and comforting, but no one wants to hear the same song over and over.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210241.webp"
+          },
+          {
+            "id": "210242",
+            "name": "Ifa: Bro",
+            "description": "Namecard style.\n\"'Is there any point in getting close to Ifa?' Of course there is, bro, absolutely.\" \"Of course there is, bro, of course there is.\"",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210242.webp"
+          },
+          {
+            "id": "210243",
+            "name": "Travel Notes: Balletica",
+            "description": "Namecard style.\nScript supervisors perform a vital role. They record every detail of each scene to ensure continuity. Thinking about it, you're the best script supervisor there is \u2014 you already remember everything.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210243.webp"
+          },
+          {
+            "id": "210244",
+            "name": "Skirk: Lone Shadow",
+            "description": "Namecard style.\nHer solitude is not some show meant to maintain an air of mystery. She was once the last rabbit left standing in the wildfire's wake \u2014 now, she's a lion in disguise, unable to speak her truth to the sheep.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210244.webp"
+          },
+          {
+            "id": "210245",
+            "name": "Dahlia: Sacred Duty",
+            "description": "Namecard style.\nIf the essence of being an \"idol\" is simply \"being loved,\" then Dahlia might've found his sacred calling. Barbara still strives to perfect her image, while Dahlia need only guard his privacy \u2014 lest someone spot him sharing drinks with a certain bard...\n...Though that may not be as easy as it seems.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210245.webp"
+          },
+          {
+            "id": "210246",
+            "name": "Celebration: Lavish Gala",
+            "description": "Namecard style.\nAmid the ticking countdown, the gala commences on schedule. After their masked waltz, the two set their separate schemes into motion...\nPerhaps this unspoken understanding is the true \"treasure\" to be cherished.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210246.webp"
+          },
+          {
+            "id": "210247",
+            "name": "Travel Notes: Speculation",
+            "description": "Namecard style.\nShould chess pieces ever grow minds of their own, could they too force their players into awkward zugzwang?",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210247.webp"
+          },
+          {
+            "id": "210248",
+            "name": "Ineffa: Command",
+            "description": "Namecard style.\nThe household robot awaits your command, but Birgitta will keep her aim on you, silently urging you to choose your next words carefully. She does come equipped with a laser module, after all.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210248.webp"
+          },
+          {
+            "id": "210249",
+            "name": "Natlan: Wheel of Flame",
+            "description": "Namecard style.\nThe stone wheel of the totem turns. Not just with the passage of time, but with the blazing of all souls.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210249.webp"
+          },
+          {
+            "id": "210250",
+            "name": "Natlan: Chasing the Wind",
+            "description": "Namecard style.\nEven when the winds no longer sweep these broken plains, those who chase the breeze through the ashes will still remain.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210250.webp"
+          },
+          {
+            "id": "210251",
+            "name": "Travel Notes: Easy Breezy",
+            "description": "Namecard style.\nTime floats easy, light and free. You sway so breezy, just let it be. No rush to go, no need to know \u2014 just pick a poem and go with the flow.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210251.webp"
+          },
+          {
+            "id": "210252",
+            "name": "Celebration: Tuna On Rice",
+            "description": "Namecard style.\nThe rotation is meant to display all the delicious food before you. The deliciousness, on the other hand, is meant to fill your heart with happiness.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210252.webp"
+          },
+          {
+            "id": "210253",
+            "name": "Lauma: Branched Antlers",
+            "description": "Namecard style.\nIn a distant land, there are legends of those who bear antlers. Antlers are said to be the outgrowth of wisdom too vast for the mind to contain, branching upward like the limbs of a tree. One can't help but wonder if Lauma's antlers were once soft and covered in velvet.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210253.webp"
+          },
+          {
+            "id": "210254",
+            "name": "Flins: Oathkeeper's Lantern",
+            "description": "Namecard style.\nAs the saying goes, \"Will-o'-the-wisps are like love \u2014 most visible in the barren swamp, and just as likely to lead you into danger.\" Of course, the saying only relates to the natural phenomenon.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210254.webp"
+          },
+          {
+            "id": "210255",
+            "name": "Aino: Whoopsie Ducksie",
+            "description": "Namecard style.\nWhen a \"Cool Your Jets Ducky\" is overheating, does Aino throw out another Ducky to cool its jets, or does she just say \"Whoopsie Ducksie\" and leave it at that?",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210255.webp"
+          },
+          {
+            "id": "210256",
+            "name": "Nod-Krai: Moonlight",
+            "description": "Namecard style.\nOf the thousand nights before, none held a new moon as beautiful as the one we saw.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210256.webp"
+          },
+          {
+            "id": "210257",
+            "name": "Nod-Krai: Sacred Realm",
+            "description": "Namecard style.\nUnder the moonlight, people chase the tides, for they are the traces left behind by the rising new moon.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210257.webp"
+          },
+          {
+            "id": "210258",
+            "name": "Achievement: Time Apart",
+            "description": "Namecard style.\nAfter ten thousand winters come ten thousand springs anew. After ten thousand partings, ten thousand reunions, too. The past has slipped away. Yet tomorrow holds the promise of you.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210258.webp"
+          },
+          {
+            "id": "210259",
+            "name": "Travel Notes: Glacial Moon",
+            "description": "Namecard style.\nThe moon's shadow stretches like a sea of ice, across which we journey. Amid shattered isles, the lost once longed deeply for a... new savior.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210259.webp"
+          },
+          {
+            "id": "210260",
+            "name": "Celebration: Sublime Flavors",
+            "description": "Namecard style.\nSome say cooking a dish is a duel between a chef and a customer, and that the reward for the former's victory is the latter's satisfied smile.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210260.webp"
+          },
+          {
+            "id": "210261",
+            "name": "Nefer: Secrets",
+            "description": "Namecard style.\nEven the ugliest victory is preferable to noble defeat. Unbesmirched innocence has no place amid the blood and sand. This is simply how the desert folk survive.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210261.webp"
+          },
+          {
+            "id": "210262",
+            "name": "Travel Notes: Bygone Ruins",
+            "description": "Namecard style.\nHidden beyond time and veiled in eternal shadow, the one who embraces the silent spring of dreams with riddles awaits the world's answer in the wake of a falling star.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210262.webp"
+          },
+          {
+            "id": "210263",
+            "name": "Durin: Radiant Heart",
+            "description": "Namecard style.\nThe ceaseless drumming in his chest reminds him thus: \"You carry the hopes of a distant past. Your soul is resplendent and nascent, and within you burns a fervor no winter blizzard can quench.\"",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210263.webp"
+          },
+          {
+            "id": "210264",
+            "name": "Jahoda: Helping Hand",
+            "description": "Namecard style.\n\"Whenever things get too busy, I wish I could borrow Jahoda's hand!\" \u2014 Surely that means the owner of said \"lendable hand\" is both agile and reliable, right?",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210264.webp"
+          },
+          {
+            "id": "210265",
+            "name": "Travel Notes: Blazing Snow",
+            "description": "Namecard style.\nWhen braving wind, snow, and rain, what truly matters isn't sheer bravery alone, but the careful discernment to find the right path forward.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210265.webp"
+          },
+          {
+            "id": "210266",
+            "name": "Celebration: Dream Reader",
+            "description": "Namecard style.\nThey say that one's dreams at night reflect one's thoughts by day. Perhaps the same goes for the books one reads... Though that probably doesn't count as a nightmare. Probably.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210266.webp"
+          },
+          {
+            "id": "210267",
+            "name": "Columbina: Someday",
+            "description": "Namecard style.\nShe dances in the shallows of clear streams and drifts with the current, falling asleep beneath the pale shadows of the mountains. She wanders through the ripples of time, playing hide-and-seek with the kuuhenki.\nShe rests in the garden of all things, humming softly to every living creature. In the quiet hours before dawn, she waits for the day of their reunion.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210267.webp"
+          },
+          {
+            "id": "210268",
+            "name": "Zibai: Veiled Vista",
+            "description": "Namecard style.\nHeaven and earth are but a wayfarer's lodge, and time a wanderer passing through the ages.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210268.webp"
+          },
+          {
+            "id": "210269",
+            "name": "Illuga: Nightmare Songbird",
+            "description": "Namecard style.\nHaving braved the darkness of night, the nightingale pours its ardor into the bright world of day, and sears the nightmares with fierce fury.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210269.webp"
+          },
+          {
+            "id": "210270",
+            "name": "Achievement: Far-Sighted",
+            "description": "Namecard style.\nThe traveler once stood atop the town, gazing toward the distant horizon, confident that the far-off sights within view would one day become milestones in the journey ahead.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210270.webp"
+          },
+          {
+            "id": "210271",
+            "name": "Nod-Krai: Lantern of Longest Night",
+            "description": "Namecard style.\nIn the blackest of nights, a lamp shall rise, tonight, and for a thousand nights beyond.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210271.webp"
+          },
+          {
+            "id": "210272",
+            "name": "Travel Notes: Lanternlit Ode",
+            "description": "Namecard style.\nPray for me a bright moon, wish me a fair day. Clad in my spring cloak, I follow moonbeams' sway.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210272.webp"
+          },
+          {
+            "id": "210273",
+            "name": "Varka: Lead Wolf",
+            "description": "Namecard style.\nThe pack of wolves chased the northern wind, but only the leader knew that the wind had already begun swirling at their paws the moment they started running.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210273.webp"
+          },
+          {
+            "id": "210274",
+            "name": "Travel Notes: Northerly Winds",
+            "description": "Namecard style.\nIt was something the wind could bring from the north: a hint of cold, the last faint scent of the flowers before they would fall from their perches, and the news that a traveler from afar would soon return.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210274.webp"
+          },
+          {
+            "id": "210275",
+            "name": "Linnea: Rattling Resonance",
+            "description": "Namecard style.\nLinnea had long assumed the rhythmic clatter coming from Lumi was merely the compression of frozen snow. But then came the day Lumi reached behind her back and produced \u2014 a pair of maracas.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210275.webp"
+          },
+          {
+            "id": "210276",
+            "name": "Mondstadt: Watchtower",
+            "description": "Namecard style.\nAfter being stuffed with all sorts of oddities, Segment-Domain Tau looked less like a vault than ever. Ever since her departure, it had been transformed from a temple into a watchtower, yearning for its mistress to come home.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210276.webp"
+          },
+          {
+            "id": "210277",
+            "name": "Empty Temple: Overflowing Memories",
+            "description": "Namecard style.\nMemory Factors are the building blocks of civilization. Even so, an archive brimming with them cannot replicate the high price of an antique \u2014 simply because it lacks the \"weathering.\"",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210277.webp"
+          },
+          {
+            "id": "210278",
+            "name": "Travel Notes: Homecoming",
+            "description": "Namecard style.\nEverything in this world holds its own past and its own secrets. Tell me, can you see the lingering gaze of those who once cherished these artifacts?",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210278.webp"
+          },
+          {
+            "id": "210279",
+            "name": "Nicole: Heavenly Stairway",
+            "description": "Namecard style.\nOnce, Nicole still bore a form close to that of a human, making her way down the stairway step by step. Whatever else it was, it seemed far more dignified than falling or being cast down. Silent all the while, she passed beneath the sky and into a city that no longer belonged to angels.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210279.webp"
+          },
+          {
+            "id": "210280",
+            "name": "Lohen: Benevolence",
+            "description": "Namecard style.\n\"Benevolence\" may be the last word anyone would use to describe Lohen. Then again, even the sharpest thorns grow from gentle soil.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210280.webp"
+          },
+          {
+            "id": "210281",
+            "name": "Prune: Judgment",
+            "description": "Namecard style.\n\"If I ever write my memoirs, the title will obviously be The Iron Hammer That Punished the Wicked Witch! It's only fitting for a life as grand and eventful as mine!\" Though in fairness, that \"grand and eventful life\" has only spanned a few short years.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210281.webp"
+          },
+          {
+            "id": "210283",
+            "name": "Travel Notes: Gift of Splendor",
+            "description": "Namecard style.\nA gift box is meant to stir up anticipation. But these little ones were never going to stop there \u2014 what's inside is nothing less than a beyond-expectations surprise!",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210283.webp"
+          },
+          {
+            "id": "210284",
+            "name": "Sandrone: Tea Break",
+            "description": "Namecard style.\nSandrone may have learned to enjoy tea parties from Alain. In those days, even a tea break for two never felt dull. But later, when there were finally enough people for a proper tea party, they left one after another. And in their absence, she seemed to come a little closer to the loneliness Alain had known.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210284.webp"
+          },
+          {
+            "id": "210285",
+            "name": "Nod-Krai: Moonbright",
+            "description": "Namecard style.\nThe moon before my eyes is the moon above, and the figure upon it is the one I hold dear. I look up, as if to meet the moon, only to wonder whether my beloved sees me there.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210285.webp"
+          },
+          {
+            "id": "210286",
+            "name": "Travel Notes: Sunny Summer",
+            "description": "Namecard style.\nSometimes, it's okay to go with the flow. Let go of your exhaustion and worries, and allow things to unfold as they will. Like waking from a long dream, you may find the world there, ready to embrace you in our place.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210286.webp"
+          },
+          {
+            "id": "210287",
+            "name": "Odette: The Singular Swan",
+            "description": "Namecard style.\nWhether in Liyue or Snezhnaya, swans are universally seen as majestic, haughty creatures. Yet there lives a lone black swan among the gregarious snow ones. Well, at least that's how the story goes in the \"Black Snow Swan.\"",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210287.webp"
+          },
+          {
+            "id": "210288",
+            "name": "Alyosha: Sit",
+            "description": "Namecard style.\n\"Down\" and \"sit\" are two entirely different commands to Tugarin. Can a hundred-Realm-Currency dog in the Serenitea Pot actually pull that off?",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210288.webp"
+          },
+          {
+            "id": "210289",
+            "name": "Achievement: Resplendence",
+            "description": "Namecard style.\nWhenever I recall that outstretched hand at the start of our journey, the lake becomes adrift with falling Inteyvats.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210289.webp"
+          },
+          {
+            "id": "210290",
+            "name": "Snezhnaya: Long Night",
+            "description": "Namecard style.\nWith our own hands, we raise fortresses against the frost \u2014 all to cross the endless night, to catch the chords of songs yet unsung, and to ensure that you and I might still watch the fresh snow fall, winter after winter.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210290.webp"
+          },
+          {
+            "id": "210291",
+            "name": "Achievement: Treading Snow",
+            "description": "Namecard style.\nSnowflakes alight in the Traveler's palm, only to melt away moments later. Whilst some stories have already concluded, their memories remain forever etched in the Traveler's heart.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210291.webp"
+          },
+          {
+            "id": "210292",
+            "name": "Snezhnaya: Fleeting Glimpses",
+            "description": "Namecard style.\nCountless people wander through narratives without beginning or end. Surpass them, for your will to see the ending is stronger than that of anyone else.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210292.webp"
+          },
+          {
+            "id": "210293",
+            "name": "Achievement: Enigmatic Core",
+            "description": "Namecard style.\nOmens of suffering always appear like bubbles rising to the surface.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210293.webp"
+          },
+          {
+            "id": "210294",
+            "name": "Travel Notes: Frostfarer",
+            "description": "Namecard style.\nOnce the long snowstorm has passed, the skies will clear.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GenshinWiki/namecards/all/210294.webp"
+          }
+        ],
+        "portraits": [
+          {
+            "id": "320002",
+            "name": "Vigorous Yapping",
+            "description": "You see, the secret to keeping a spirited conversation going is actually...",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_320002.webp"
+          },
+          {
+            "id": "320003",
+            "name": "Diligent Study",
+            "description": "Daytime learning fuels nighttime dreams. Maybe this is how knowledge naturally finds its way into our minds...",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_320003.webp"
+          },
+          {
+            "id": "gi-10000150",
+            "name": "Odette",
+            "description": "Swirling Snow",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Odette_Circle.webp",
+            "sortId": "10000150"
+          },
+          {
+            "id": "gi-10000148",
+            "name": "Alyosha",
+            "description": "Swift-Striding Hound",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Alyosha_Circle.webp",
+            "sortId": "10000148"
+          },
+          {
+            "id": "gi-10000133",
+            "name": "Sandrone",
+            "description": "Mirrored Analysis",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_MarionetteNew_Circle.webp",
+            "sortId": "10000133"
+          },
+          {
+            "id": "gi-10000129",
+            "name": "Lohen",
+            "description": "Sharpened Arrowhead",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Lohen_Circle.webp",
+            "sortId": "10000129"
+          },
+          {
+            "id": "gi-10000131",
+            "name": "Nicole",
+            "description": "Clamor Within",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Nicole_Circle.webp",
+            "sortId": "10000131"
+          },
+          {
+            "id": "gi-10000132",
+            "name": "Prune",
+            "description": "Childlike Dreams Cherished",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Prune_Circle.webp",
+            "sortId": "10000132"
+          },
+          {
+            "id": "gi-10000130",
+            "name": "Linnea",
+            "description": "Augur of Wonders",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Linnea_Circle.webp",
+            "sortId": "10000130"
+          },
+          {
+            "id": "gi-10000128",
+            "name": "Varka",
+            "description": "Knight of Boreas",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Varka_Circle.webp",
+            "sortId": "10000128"
+          },
+          {
+            "id": "gi-10000126",
+            "name": "Zibai",
+            "description": "White Horse's Fleeting Spring",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/icons/UI_AvatarIcon_Zibai.webp",
+            "sortId": "10000126"
+          },
+          {
+            "id": "gi-10000127",
+            "name": "Illuga",
+            "description": "Nightmare's Burning Heart",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/icons/UI_AvatarIcon_Illuga.webp",
+            "sortId": "10000127"
+          },
+          {
+            "id": "gi-10000125",
+            "name": "Columbina",
+            "description": "Welkin Moon's Homecoming",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/icons/UI_AvatarIcon_Columbina.webp",
+            "sortId": "10000125"
+          },
+          {
+            "id": "gi-10000123",
+            "name": "Durin",
+            "description": "\"The Undying Fire\"",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/icons/UI_AvatarIcon_Durin.webp",
+            "sortId": "10000123"
+          },
+          {
+            "id": "gi-10000124",
+            "name": "Jahoda",
+            "description": "Windthreading Shadow",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Jahoda_Circle.webp",
+            "sortId": "10000124"
+          },
+          {
+            "id": "gi-10000122",
+            "name": "Nefer",
+            "description": "Secret Beneath the Sands",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/icons/UI_AvatarIcon_Nefer.webp",
+            "sortId": "10000122"
+          },
+          {
+            "id": "gi-10000120",
+            "name": "Flins",
+            "description": "Shadowy Lights, Stranger Wights",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Flins_Circle.webp",
+            "sortId": "10000120"
+          },
+          {
+            "id": "gi-10000119",
+            "name": "Lauma",
+            "description": "Evermoon's Sacrament Song",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Lauma_Circle.webp",
+            "sortId": "10000119"
+          },
+          {
+            "id": "gi-10000121",
+            "name": "Aino",
+            "description": "Clinky-Clank Gadgets-A-Gogo",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Aino_Circle.webp",
+            "sortId": "10000121"
+          },
+          {
+            "id": "gi-10000116",
+            "name": "Ineffa",
+            "description": "Boom Boom Thunderwave",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Ineffa_Circle.webp",
+            "sortId": "10000116"
+          },
+          {
+            "id": "gi-10000114",
+            "name": "Skirk",
+            "description": "Void Star",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_SkirkNew_Circle.webp",
+            "sortId": "10000114"
+          },
+          {
+            "id": "gi-10000115",
+            "name": "Dahlia",
+            "description": "Ode and Oblation",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Dahlia_Circle.webp",
+            "sortId": "10000115"
+          },
+          {
+            "id": "gi-10000112",
+            "name": "Escoffier",
+            "description": "Tasteful Excellence",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Escoffier_Circle.webp",
+            "sortId": "10000112"
+          },
+          {
+            "id": "gi-10000113",
+            "name": "Ifa",
+            "description": "In the Wake of Wandering Winds",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Ifa_Circle.webp",
+            "sortId": "10000113"
+          },
+          {
+            "id": "gi-10000111",
+            "name": "Varesa",
+            "description": "Strength in Serenity",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Varesa_Circle.webp",
+            "sortId": "10000111"
+          },
+          {
+            "id": "gi-10000110",
+            "name": "Iansan",
+            "description": "Tempered in Molten Stone",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Iansan_Circle.webp",
+            "sortId": "10000110"
+          },
+          {
+            "id": "gi-10000109",
+            "name": "Yumemizuki Mizuki",
+            "description": "Embrace of Enchanting Dreams",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Mizuki_Circle.webp",
+            "sortId": "10000109"
+          },
+          {
+            "id": "gi-10000108",
+            "name": "Lan Yan",
+            "description": "Spring Woven From Jade",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Lanyan_Circle.webp",
+            "sortId": "10000108"
+          },
+          {
+            "id": "gi-10000107",
+            "name": "Citlali",
+            "description": "Obsidian Opalstar",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Citlali_Circle.webp",
+            "sortId": "10000107"
+          },
+          {
+            "id": "gi-10000106",
+            "name": "Mavuika",
+            "description": "Night-Igniting Flame",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Mavuika_Circle.webp",
+            "sortId": "10000106"
+          },
+          {
+            "id": "gi-10000104",
+            "name": "Chasca",
+            "description": "Skyborne Arbiter",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Chasca_Circle.webp",
+            "sortId": "10000104"
+          },
+          {
+            "id": "gi-10000105",
+            "name": "Ororon",
+            "description": "Shadow of the Night-Wind",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Olorun_Circle.webp",
+            "sortId": "10000105"
+          },
+          {
+            "id": "gi-10000103",
+            "name": "Xilonen",
+            "description": "Ardent Flames Forge the Soul",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Xilonen_Circle.webp",
+            "sortId": "10000103"
+          },
+          {
+            "id": "gi-10000101",
+            "name": "Kinich",
+            "description": "Turnfire Hunt",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Kinich_Circle.webp",
+            "sortId": "10000101"
+          },
+          {
+            "id": "gi-10000102",
+            "name": "Mualani",
+            "description": "Splish-Splash Wavechaser",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Mualani_Circle.webp",
+            "sortId": "10000102"
+          },
+          {
+            "id": "gi-10000100",
+            "name": "Kachina",
+            "description": "Mottled Gold Yet Unsmelted",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Kachina_Circle.webp",
+            "sortId": "10000100"
+          },
+          {
+            "id": "gi-10000099",
+            "name": "Emilie",
+            "description": "A Thousand Scents Traced",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Emilie_Circle.webp",
+            "sortId": "10000099"
+          },
+          {
+            "id": "gi-10000095",
+            "name": "Sigewinne",
+            "description": "Wondrous Dragonheir",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Sigewinne_Circle.webp",
+            "sortId": "10000095"
+          },
+          {
+            "id": "gi-10000098",
+            "name": "Clorinde",
+            "description": "Candlebearer, Shadowhunter",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Clorinde_Circle.webp",
+            "sortId": "10000098"
+          },
+          {
+            "id": "gi-10000097",
+            "name": "Sethos",
+            "description": "Wisdom's Measure",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Sethos_Circle.webp",
+            "sortId": "10000097"
+          },
+          {
+            "id": "gi-10000096",
+            "name": "Arlecchino",
+            "description": "Dire Balemoon",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Arlecchino_Circle.webp",
+            "sortId": "10000096"
+          },
+          {
+            "id": "gi-10000094",
+            "name": "Chiori",
+            "description": "The Thundering Seamstress",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Chiori_Circle.webp",
+            "sortId": "10000094"
+          },
+          {
+            "id": "gi-10000093",
+            "name": "Xianyun",
+            "description": "Passerine Herald",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Liuyun_Circle.webp",
+            "sortId": "10000093"
+          },
+          {
+            "id": "gi-10000092",
+            "name": "Gaming",
+            "description": "Leonine Vanguard",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Gaming_Circle.webp",
+            "sortId": "10000092"
+          },
+          {
+            "id": "gi-10000090",
+            "name": "Chevreuse",
+            "description": "Executor of Justice",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Chevreuse_Circle.webp",
+            "sortId": "10000090"
+          },
+          {
+            "id": "gi-10000091",
+            "name": "Navia",
+            "description": "Helm of the Radiant Rose",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Navia_Circle.webp",
+            "sortId": "10000091"
+          },
+          {
+            "id": "gi-10000089",
+            "name": "Furina",
+            "description": "Endless Solo of Solitude",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Furina_Circle.webp",
+            "sortId": "10000089"
+          },
+          {
+            "id": "gi-10000088",
+            "name": "Charlotte",
+            "description": "Lens of Verity",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Charlotte_Circle.webp",
+            "sortId": "10000088"
+          },
+          {
+            "id": "gi-10000086",
+            "name": "Wriothesley",
+            "description": "Emissary of Solitary Iniquity",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Wriothesley_Circle.webp",
+            "sortId": "10000086"
+          },
+          {
+            "id": "gi-10000087",
+            "name": "Neuvillette",
+            "description": "Ordainer of Inexorable Judgment",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Neuvillette_Circle.webp",
+            "sortId": "10000087"
+          },
+          {
+            "id": "gi-10000085",
+            "name": "Freminet",
+            "description": "Yearning for Unseen Depths",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Freminet_Circle.webp",
+            "sortId": "10000085"
+          },
+          {
+            "id": "gi-10000084",
+            "name": "Lyney",
+            "description": "Spectacle of Phantasmagoria",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Liney_Circle.webp",
+            "sortId": "10000084"
+          },
+          {
+            "id": "gi-10000083",
+            "name": "Lynette",
+            "description": "Elegance in the Shadows",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Linette_Circle.webp",
+            "sortId": "10000083"
+          },
+          {
+            "id": "gi-10000061",
+            "name": "Kirara",
+            "description": "Cat Upon the Eaves",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Momoka_Circle.webp",
+            "sortId": "10000061"
+          },
+          {
+            "id": "gi-10000082",
+            "name": "Baizhu",
+            "description": "Beyond Mortality",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Baizhuer_Circle.webp",
+            "sortId": "10000082"
+          },
+          {
+            "id": "gi-10000081",
+            "name": "Kaveh",
+            "description": "Empyrean Reflection",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Kaveh_Circle.webp",
+            "sortId": "10000081"
+          },
+          {
+            "id": "gi-10000080",
+            "name": "Mika",
+            "description": "Coordinates of Clear Frost",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Mika_Circle.webp",
+            "sortId": "10000080"
+          },
+          {
+            "id": "gi-10000079",
+            "name": "Dehya",
+            "description": "Flame-Mane",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Dehya_Circle.webp",
+            "sortId": "10000079"
+          },
+          {
+            "id": "gi-10000078",
+            "name": "Alhaitham",
+            "description": "Admonishing Instruction",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Alhatham_Circle.webp",
+            "sortId": "10000078"
+          },
+          {
+            "id": "gi-10000077",
+            "name": "Yaoyao",
+            "description": "Burgeoning Grace",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Yaoyao_Circle.webp",
+            "sortId": "10000077"
+          },
+          {
+            "id": "gi-10000075",
+            "name": "Wanderer",
+            "description": "Eons Adrift",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Wanderer_Circle.webp",
+            "sortId": "10000075"
+          },
+          {
+            "id": "gi-10000076",
+            "name": "Faruzan",
+            "description": "Enigmatic Machinist",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Faruzan_Circle.webp",
+            "sortId": "10000076"
+          },
+          {
+            "id": "gi-10000074",
+            "name": "Layla",
+            "description": "Fantastical Evening Star",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Layla_Circle.webp",
+            "sortId": "10000074"
+          },
+          {
+            "id": "gi-10000073",
+            "name": "Nahida",
+            "description": "Physic of Purity",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Nahida_Circle.webp",
+            "sortId": "10000073"
+          },
+          {
+            "id": "gi-10000070",
+            "name": "Nilou",
+            "description": "Dance of Lotuslight",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Nilou_Circle.webp",
+            "sortId": "10000070"
+          },
+          {
+            "id": "gi-10000071",
+            "name": "Cyno",
+            "description": "Judicator of Secrets",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Cyno_Circle.webp",
+            "sortId": "10000071"
+          },
+          {
+            "id": "gi-10000072",
+            "name": "Candace",
+            "description": "Golden Vow",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Candace_Circle.webp",
+            "sortId": "10000072"
+          },
+          {
+            "id": "gi-10000068",
+            "name": "Dori",
+            "description": "Treasure of Dream Garden",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Dori_Circle.webp",
+            "sortId": "10000068"
+          },
+          {
+            "id": "gi-10000069",
+            "name": "Tighnari",
+            "description": "Verdant Strider",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Tighnari_Circle.webp",
+            "sortId": "10000069"
+          },
+          {
+            "id": "gi-10000067",
+            "name": "Collei",
+            "description": "Sprout of Rebirth",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Collei_Circle.webp",
+            "sortId": "10000067"
+          },
+          {
+            "id": "gi-10000059",
+            "name": "Shikanoin Heizou",
+            "description": "Analytical Harmony",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Heizo_Circle.webp",
+            "sortId": "10000059"
+          },
+          {
+            "id": "gi-10000065",
+            "name": "Kuki Shinobu",
+            "description": "Mender of Tribulations",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Shinobu_Circle.webp",
+            "sortId": "10000065"
+          },
+          {
+            "id": "gi-10000060",
+            "name": "Yelan",
+            "description": "Valley Orchid",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Yelan_Circle.webp",
+            "sortId": "10000060"
+          },
+          {
+            "id": "gi-10000066",
+            "name": "Kamisato Ayato",
+            "description": "Pillar of Fortitude",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Ayato_Circle.webp",
+            "sortId": "10000066"
+          },
+          {
+            "id": "gi-10000058",
+            "name": "Yae Miko",
+            "description": "Astute Amusement",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Yae_Circle.webp",
+            "sortId": "10000058"
+          },
+          {
+            "id": "gi-10000063",
+            "name": "Shenhe",
+            "description": "Lonesome Transcendence",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Shenhe_Circle.webp",
+            "sortId": "10000063"
+          },
+          {
+            "id": "gi-10000064",
+            "name": "Yun Jin",
+            "description": "Stage Lucida",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Yunjin_Circle.webp",
+            "sortId": "10000064"
+          },
+          {
+            "id": "gi-10000057",
+            "name": "Arataki Itto",
+            "description": "Hanamizaka Heroics",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Itto_Circle.webp",
+            "sortId": "10000057"
+          },
+          {
+            "id": "gi-10000055",
+            "name": "Gorou",
+            "description": "Canine Warrior",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Gorou_Circle.webp",
+            "sortId": "10000055"
+          },
+          {
+            "id": "gi-10000050",
+            "name": "Thoma",
+            "description": "Protector From Afar",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Tohma_Circle.webp",
+            "sortId": "10000050"
+          },
+          {
+            "id": "gi-10000054",
+            "name": "Sangonomiya Kokomi",
+            "description": "Pearl of Wisdom",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Kokomi_Circle.webp",
+            "sortId": "10000054"
+          },
+          {
+            "id": "gi-10000052",
+            "name": "Raiden Shogun",
+            "description": "Plane of Euthymia",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Shougun_Circle.webp",
+            "sortId": "10000052"
+          },
+          {
+            "id": "gi-10000056",
+            "name": "Kujou Sara",
+            "description": "Crowfeather Kaburaya",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Sara_Circle.webp",
+            "sortId": "10000056"
+          },
+          {
+            "id": "gi-10000049",
+            "name": "Yoimiya",
+            "description": "Frolicking Flames",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Yoimiya_Circle.webp",
+            "sortId": "10000049"
+          },
+          {
+            "id": "gi-10000053",
+            "name": "Sayu",
+            "description": "Mujina Ninja",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Sayu_Circle.webp",
+            "sortId": "10000053"
+          },
+          {
+            "id": "gi-10000002",
+            "name": "Kamisato Ayaka",
+            "description": "Frostflake Heron",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Ayaka_Circle.webp",
+            "sortId": "10000002"
+          },
+          {
+            "id": "gi-10000047",
+            "name": "Kaedehara Kazuha",
+            "description": "Scarlet Leaves Pursue Wild Waves",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Kazuha_Circle.webp",
+            "sortId": "10000047"
+          },
+          {
+            "id": "gi-10000051",
+            "name": "Eula",
+            "description": "Dance of the Shimmering Wave",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Eula_Circle.webp",
+            "sortId": "10000051"
+          },
+          {
+            "id": "gi-10000048",
+            "name": "Yanfei",
+            "description": "Wise Innocence",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Feiyan_Circle.webp",
+            "sortId": "10000048"
+          },
+          {
+            "id": "gi-10000045",
+            "name": "Rosaria",
+            "description": "Thorny Benevolence",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Rosaria_Circle.webp",
+            "sortId": "10000045"
+          },
+          {
+            "id": "gi-10000046",
+            "name": "Hu Tao",
+            "description": "Fragrance in Thaw",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Hutao_Circle.webp",
+            "sortId": "10000046"
+          },
+          {
+            "id": "gi-10000026",
+            "name": "Xiao",
+            "description": "Vigilant Yaksha",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Xiao_Circle.webp",
+            "sortId": "10000026"
+          },
+          {
+            "id": "gi-10000037",
+            "name": "Ganyu",
+            "description": "Plenilune Gaze",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Ganyu_Circle.webp",
+            "sortId": "10000037"
+          },
+          {
+            "id": "gi-10000038",
+            "name": "Albedo",
+            "description": "Kreideprinz",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Albedo_Circle.webp",
+            "sortId": "10000038"
+          },
+          {
+            "id": "gi-10000030",
+            "name": "Zhongli",
+            "description": "Vago Mundo",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Zhongli_Circle.webp",
+            "sortId": "10000030"
+          },
+          {
+            "id": "gi-10000044",
+            "name": "Xinyan",
+            "description": "Blazing Riff",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Xinyan_Circle.webp",
+            "sortId": "10000044"
+          },
+          {
+            "id": "gi-10000033",
+            "name": "Tartaglia",
+            "description": "Childe",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Tartaglia_Circle.webp",
+            "sortId": "10000033"
+          },
+          {
+            "id": "gi-10000039",
+            "name": "Diona",
+            "description": "K\u00e4tzlein Cocktail",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Diona_Circle.webp",
+            "sortId": "10000039"
+          },
+          {
+            "id": "gi-10000016",
+            "name": "Diluc",
+            "description": "Dark Side of Dawn",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Diluc_Circle.webp",
+            "sortId": "10000016"
+          },
+          {
+            "id": "gi-10000003",
+            "name": "Jean",
+            "description": "Dandelion Knight",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Qin_Circle.webp",
+            "sortId": "10000003"
+          },
+          {
+            "id": "gi-10000042",
+            "name": "Keqing",
+            "description": "Driving Thunder",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Keqing_Circle.webp",
+            "sortId": "10000042"
+          },
+          {
+            "id": "gi-10000029",
+            "name": "Klee",
+            "description": "Fleeing Sunlight",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Klee_Circle.webp",
+            "sortId": "10000029"
+          },
+          {
+            "id": "gi-10000041",
+            "name": "Mona",
+            "description": "Astral Reflection",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Mona_Circle.webp",
+            "sortId": "10000041"
+          },
+          {
+            "id": "gi-10000035",
+            "name": "Qiqi",
+            "description": "Icy Resurrection",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Qiqi_Circle.webp",
+            "sortId": "10000035"
+          },
+          {
+            "id": "gi-10000022",
+            "name": "Venti",
+            "description": "Windborne Bard",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Venti_Circle.webp",
+            "sortId": "10000022"
+          },
+          {
+            "id": "gi-10000021",
+            "name": "Amber",
+            "description": "Gliding Champion",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Ambor_Circle.webp",
+            "sortId": "10000021"
+          },
+          {
+            "id": "gi-10000014",
+            "name": "Barbara",
+            "description": "Shining Idol",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Barbara_Circle.webp",
+            "sortId": "10000014"
+          },
+          {
+            "id": "gi-10000024",
+            "name": "Beidou",
+            "description": "Uncrowned Lord of the Ocean",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Beidou_Circle.webp",
+            "sortId": "10000024"
+          },
+          {
+            "id": "gi-10000032",
+            "name": "Bennett",
+            "description": "Trial by Fire",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Bennett_Circle.webp",
+            "sortId": "10000032"
+          },
+          {
+            "id": "gi-10000036",
+            "name": "Chongyun",
+            "description": "Frozen Ardor",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Chongyun_Circle.webp",
+            "sortId": "10000036"
+          },
+          {
+            "id": "gi-10000031",
+            "name": "Fischl",
+            "description": "Prinzessin der Verurteilung!",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Fischl_Circle.webp",
+            "sortId": "10000031"
+          },
+          {
+            "id": "gi-10000015",
+            "name": "Kaeya",
+            "description": "Frostwind Swordsman",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Kaeya_Circle.webp",
+            "sortId": "10000015"
+          },
+          {
+            "id": "gi-10000006",
+            "name": "Lisa",
+            "description": "Witch of Purple Rose",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Lisa_Circle.webp",
+            "sortId": "10000006"
+          },
+          {
+            "id": "gi-10000027",
+            "name": "Ningguang",
+            "description": "Eclipsing Star",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Ningguang_Circle.webp",
+            "sortId": "10000027"
+          },
+          {
+            "id": "gi-10000034",
+            "name": "Noelle",
+            "description": "Chivalric Blossom",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Noel_Circle.webp",
+            "sortId": "10000034"
+          },
+          {
+            "id": "gi-10000020",
+            "name": "Razor",
+            "description": "Wolf Boy",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Razor_Circle.webp",
+            "sortId": "10000020"
+          },
+          {
+            "id": "gi-10000043",
+            "name": "Sucrose",
+            "description": "Harmless Sweetie",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Sucrose_Circle.webp",
+            "sortId": "10000043"
+          },
+          {
+            "id": "gi-10000023",
+            "name": "Xiangling",
+            "description": "Exquisite Delicacy",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Xiangling_Circle.webp",
+            "sortId": "10000023"
+          },
+          {
+            "id": "gi-10000025",
+            "name": "Xingqiu",
+            "description": "Juvenile Galant",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Xingqiu_Circle.webp",
+            "sortId": "10000025"
+          },
+          {
+            "id": "gi-traveler",
+            "name": "Traveler",
+            "description": "Descender",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
+            "sortId": "0"
+          }
+        ],
+        "avatarFrames": [
+          {
+            "id": "216001",
+            "name": "Faint Glow",
+            "description": "When stars first ascend from a corner of the sky, their colors are as subtle as a whisper of darkness.",
+            "rarity": "2 \u2605",
+            "art": "../../Database/GameData/gi/assets/items/UI_AvatarFrameIcon_001.webp"
+          },
+          {
+            "id": "216002",
+            "name": "First Light",
+            "description": "The first light is always faint, but the seed of its glow is already sown within, awaiting only the moment to flourish.",
+            "rarity": "3 \u2605",
+            "art": "../../Database/GameData/gi/assets/items/UI_AvatarFrameIcon_002.webp"
+          },
+          {
+            "id": "216003",
+            "name": "Glimmering Glory",
+            "description": "Rise in the dying night where no light remains, ignite hope in those who chase the dawn, and blaze through the darkness that the sun cannot reach.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/items/UI_AvatarFrameIcon_003.webp"
+          },
+          {
+            "id": "216004",
+            "name": "Brimming Spiritflow",
+            "description": "It is light shining from above, and a gentle glow flowing from the heart. Lost children chase dreams of delicate moonlight. Amid the endless cycle of day and night, this place remains the only Elysium left in time.",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/items/UI_AvatarFrameIcon_004.webp"
+          },
+          {
+            "id": "216005",
+            "name": "Keen Edge",
+            "description": "Even after hundreds of hard-fought battles, it remains as keen as a freshly forged blade, its edge undiminished.",
+            "rarity": "3 \u2605",
+            "art": "../../Database/GameData/gi/assets/items/UI_AvatarFrameIcon_TPS_001.webp"
+          },
+          {
+            "id": "216006",
+            "name": "Siege Breach",
+            "description": "Like a heavy bullet, it punches through defenses and shatters the enemy's lines.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/items/UI_AvatarFrameIcon_TPS_002.webp"
+          },
+          {
+            "id": "216007",
+            "name": "Tempered Iron",
+            "description": "Make adversity your crucible, forging the will to crush mighty foes and honing battle skills that none can withstand.",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/items/UI_AvatarFrameIcon_TPS_003.webp"
+          },
+          {
+            "id": "216008",
+            "name": "First Snow",
+            "description": "The endless snow falling with the light of dawn is nothing but drifting debris as the firmament breaks apart.",
+            "rarity": "2 \u2605",
+            "art": "../../Database/GameData/gi/assets/items/UI_AvatarFrameIcon_Snezhnaya_001.webp"
+          },
+          {
+            "id": "216009",
+            "name": "Crystalline Frost",
+            "description": "The north wind carries the breath of the first freeze, the eternal singing of the King of Winter Icelea's maidens. Let the world be held still in this moment forever! Only that wish was ever granted.",
+            "rarity": "3 \u2605",
+            "art": "../../Database/GameData/gi/assets/items/UI_AvatarFrameIcon_Snezhnaya_002.webp"
+          },
+          {
+            "id": "216010",
+            "name": "Snowbound",
+            "description": "Cold, silent streets and temples, layered corridors and palace halls, lie buried beneath a seal of ice that never melts. Under the reign of the King of Winter Icelea, the ever-frozen land quietly welcomes its end without end.",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/items/UI_AvatarFrameIcon_Snezhnaya_003.webp"
+          },
+          {
+            "id": "216011",
+            "name": "Everwinter",
+            "description": "The once grand and solemn ancient capital became a playground for the Jack Frost. All things lay sealed beneath the vast snow, as if for eternity. Only the sly Jack Frost knew that, when winter reaches its end, spring will return to the earth once more.",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/items/UI_AvatarFrameIcon_Snezhnaya_004.webp"
+          }
+        ]
+      },
       "roster": [
         {
           "id": "gi-10000150",
@@ -148067,233 +163883,6 @@ var NYX_DB = {
           "forms": []
         },
         {
-          "id": "gi-traveler",
-          "name": "Traveler",
-          "aliases": [
-            "Aether",
-            "Lumine"
-          ],
-          "title": "Descender",
-          "rarity": 5,
-          "element": "Anemo",
-          "role": "Sword",
-          "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
-          "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
-          "facts": {
-            "constellation": "Viator"
-          },
-          "overviewArt": "../../Database/GameData/gi/gcg/other cards/assets/332001-The Bestest Travel Companion!.webp",
-          "overviewArtPool": [
-            "../../Database/GameData/gi/gcg/other cards/assets/332001-The Bestest Travel Companion!.webp"
-          ],
-          "forms": [
-            {
-              "name": "Traveler",
-              "label": "Anemo",
-              "variant": "Anemo",
-              "gender": "male",
-              "element": "Anemo",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
-              "facts": {
-                "constellation": "Viator"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Anemo",
-              "variant": "Anemo",
-              "gender": "female",
-              "element": "Anemo",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
-              "facts": {
-                "constellation": "Viatrix"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Geo",
-              "variant": "Geo",
-              "gender": "male",
-              "element": "Geo",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
-              "facts": {
-                "constellation": "Viator"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Geo",
-              "variant": "Geo",
-              "gender": "female",
-              "element": "Geo",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
-              "facts": {
-                "constellation": "Viatrix"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Electro",
-              "variant": "Electro",
-              "gender": "male",
-              "element": "Electro",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
-              "facts": {
-                "constellation": "Viator"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Electro",
-              "variant": "Electro",
-              "gender": "female",
-              "element": "Electro",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
-              "facts": {
-                "constellation": "Viatrix"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Dendro",
-              "variant": "Dendro",
-              "gender": "male",
-              "element": "Dendro",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
-              "facts": {
-                "constellation": "Viator"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Dendro",
-              "variant": "Dendro",
-              "gender": "female",
-              "element": "Dendro",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
-              "facts": {
-                "constellation": "Viatrix"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Hydro",
-              "variant": "Hydro",
-              "gender": "male",
-              "element": "Hydro",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
-              "facts": {
-                "constellation": "Viator"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Hydro",
-              "variant": "Hydro",
-              "gender": "female",
-              "element": "Hydro",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
-              "facts": {
-                "constellation": "Viatrix"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Pyro",
-              "variant": "Pyro",
-              "gender": "male",
-              "element": "Pyro",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
-              "facts": {
-                "constellation": "Viator"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Pyro",
-              "variant": "Pyro",
-              "gender": "female",
-              "element": "Pyro",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
-              "facts": {
-                "constellation": "Viatrix"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Cryo",
-              "variant": "Cryo",
-              "gender": "male",
-              "element": "Cryo",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
-              "facts": {
-                "constellation": "Viator"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "None",
-              "variant": "None",
-              "gender": "male",
-              "element": "None",
-              "role": "WEAPON_CROSSBOW",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
-              "facts": {}
-            },
-            {
-              "name": "Traveler",
-              "label": "Cryo",
-              "variant": "Cryo",
-              "gender": "female",
-              "element": "Cryo",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
-              "facts": {
-                "constellation": "Viatrix"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "None",
-              "variant": "None",
-              "gender": "female",
-              "element": "None",
-              "role": "WEAPON_CROSSBOW",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
-              "facts": {}
-            }
-          ]
-        },
-        {
           "id": "gi-10000016",
           "name": "Diluc",
           "aliases": [],
@@ -148783,6 +164372,233 @@ var NYX_DB = {
             "../../Database/GameData/gi/gcg/character cards/assets/1202-Xingqiu.webp"
           ],
           "forms": []
+        },
+        {
+          "id": "gi-traveler",
+          "name": "Traveler",
+          "aliases": [
+            "Aether",
+            "Lumine"
+          ],
+          "title": "Descender",
+          "rarity": 5,
+          "element": "Anemo",
+          "role": "Sword",
+          "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
+          "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
+          "facts": {
+            "constellation": "Viator"
+          },
+          "overviewArt": "../../Database/GameData/gi/gcg/other cards/assets/332001-The Bestest Travel Companion!.webp",
+          "overviewArtPool": [
+            "../../Database/GameData/gi/gcg/other cards/assets/332001-The Bestest Travel Companion!.webp"
+          ],
+          "forms": [
+            {
+              "name": "Traveler",
+              "label": "Anemo",
+              "variant": "Anemo",
+              "gender": "male",
+              "element": "Anemo",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
+              "facts": {
+                "constellation": "Viator"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Anemo",
+              "variant": "Anemo",
+              "gender": "female",
+              "element": "Anemo",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
+              "facts": {
+                "constellation": "Viatrix"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Geo",
+              "variant": "Geo",
+              "gender": "male",
+              "element": "Geo",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
+              "facts": {
+                "constellation": "Viator"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Geo",
+              "variant": "Geo",
+              "gender": "female",
+              "element": "Geo",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
+              "facts": {
+                "constellation": "Viatrix"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Electro",
+              "variant": "Electro",
+              "gender": "male",
+              "element": "Electro",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
+              "facts": {
+                "constellation": "Viator"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Electro",
+              "variant": "Electro",
+              "gender": "female",
+              "element": "Electro",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
+              "facts": {
+                "constellation": "Viatrix"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Dendro",
+              "variant": "Dendro",
+              "gender": "male",
+              "element": "Dendro",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
+              "facts": {
+                "constellation": "Viator"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Dendro",
+              "variant": "Dendro",
+              "gender": "female",
+              "element": "Dendro",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
+              "facts": {
+                "constellation": "Viatrix"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Hydro",
+              "variant": "Hydro",
+              "gender": "male",
+              "element": "Hydro",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
+              "facts": {
+                "constellation": "Viator"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Hydro",
+              "variant": "Hydro",
+              "gender": "female",
+              "element": "Hydro",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
+              "facts": {
+                "constellation": "Viatrix"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Pyro",
+              "variant": "Pyro",
+              "gender": "male",
+              "element": "Pyro",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
+              "facts": {
+                "constellation": "Viator"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Pyro",
+              "variant": "Pyro",
+              "gender": "female",
+              "element": "Pyro",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
+              "facts": {
+                "constellation": "Viatrix"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Cryo",
+              "variant": "Cryo",
+              "gender": "male",
+              "element": "Cryo",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
+              "facts": {
+                "constellation": "Viator"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "None",
+              "variant": "None",
+              "gender": "male",
+              "element": "None",
+              "role": "WEAPON_CROSSBOW",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
+              "facts": {}
+            },
+            {
+              "name": "Traveler",
+              "label": "Cryo",
+              "variant": "Cryo",
+              "gender": "female",
+              "element": "Cryo",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
+              "facts": {
+                "constellation": "Viatrix"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "None",
+              "variant": "None",
+              "gender": "female",
+              "element": "None",
+              "role": "WEAPON_CROSSBOW",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
+              "facts": {}
+            }
+          ]
         }
       ]
     },
@@ -152167,13 +167983,13 @@ var NYX_DB = {
         "name": "Honkai: Star Rail",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-08-13T10:46:00.184Z",
-          "lastSuccessfulFetch": "2026-08-13T10:46:00.184Z",
-          "lastValidUpdate": "2026-08-13T10:46:00.184Z",
+          "checkedAt": "2026-08-13T13:21:44.402Z",
+          "lastSuccessfulFetch": "2026-08-13T13:21:44.402Z",
+          "lastValidUpdate": "2026-08-13T13:21:44.402Z",
           "source": "game8"
         },
         "current": {
-          "phase": "4.4",
+          "phase": "4.4 Phase 2",
           "start": "2026-07-15T03:00:00.000Z",
           "end": "2026-08-25T20:00:00.000Z",
           "characters": [
@@ -152297,6 +168113,60 @@ var NYX_DB = {
               }
             ],
             "subBanners": []
+          }
+        ],
+        "beta": [
+          {
+            "name": "Aventurine Waveflair",
+            "icon": "../../Database/GameData/hsr/assets/characters/round/1513.webp",
+            "iconFallback": null,
+            "iconZoom": false,
+            "art": "../../Database/GameData/hsr/assets/characters/draw-card/1513.webp",
+            "namecard": null,
+            "rarity": 5,
+            "debut": true,
+            "debutAt": null
+          },
+          {
+            "name": "Robin Summeretto",
+            "icon": "../../Database/GameData/hsr/assets/characters/round/1512.webp",
+            "iconFallback": null,
+            "iconZoom": false,
+            "art": "../../Database/GameData/hsr/assets/characters/draw-card/1512.webp",
+            "namecard": null,
+            "rarity": 5,
+            "debut": true,
+            "debutAt": null
+          }
+        ],
+        "roadmap": [
+          {
+            "name": "Pearl",
+            "icon": "/assets/banners/hsr/30988ea93b8d36c7cd124310a61341f3.png",
+            "iconFallback": null,
+            "iconZoom": false,
+            "art": "/assets/banners/hsr/30988ea93b8d36c7cd124310a61341f3.png",
+            "namecard": null,
+            "rarity": null,
+            "debut": true,
+            "debutAt": null,
+            "hint": "Robin - Summeretto Release in Phase 1 of Version 4.6",
+            "source": "game8",
+            "sourceUrl": "https://game8.co/games/Honkai-Star-Rail/archives/415899"
+          },
+          {
+            "name": "Nihilux",
+            "icon": "/assets/banners/hsr/5e5f97c054dc875bc8bd76a64859350b.png",
+            "iconFallback": null,
+            "iconZoom": false,
+            "art": "/assets/banners/hsr/5e5f97c054dc875bc8bd76a64859350b.png",
+            "namecard": null,
+            "rarity": null,
+            "debut": true,
+            "debutAt": null,
+            "hint": "Upcoming Planarcadia Characters",
+            "source": "game8",
+            "sourceUrl": "https://game8.co/games/Honkai-Star-Rail/archives/415899"
           }
         ]
       },
@@ -157869,13 +173739,13 @@ var NYX_DB = {
         "name": "Zenless Zone Zero",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-08-13T10:46:00.184Z",
-          "lastSuccessfulFetch": "2026-08-13T10:46:00.184Z",
-          "lastValidUpdate": "2026-08-13T10:46:00.184Z",
+          "checkedAt": "2026-08-13T13:21:44.402Z",
+          "lastSuccessfulFetch": "2026-08-13T13:21:44.402Z",
+          "lastValidUpdate": "2026-08-13T13:21:44.402Z",
           "source": "game8"
         },
         "current": {
-          "phase": "3.1",
+          "phase": "3.1 Phase 1",
           "start": "2026-07-29T03:00:00.000Z",
           "end": "2026-09-08T06:59:59.000Z",
           "characters": [
@@ -157927,7 +173797,7 @@ var NYX_DB = {
           "subBanners": []
         },
         "next": {
-          "phase": "3.1",
+          "phase": "3.1 Phase 2",
           "start": "2026-08-19T04:00:00.000Z",
           "end": "2026-09-08T06:59:59.000Z",
           "characters": [
@@ -157978,7 +173848,103 @@ var NYX_DB = {
           ],
           "subBanners": []
         },
-        "upcoming": []
+        "upcoming": [],
+        "beta": [
+          {
+            "name": "Anby",
+            "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle01.webp",
+            "iconFallback": null,
+            "iconZoom": false,
+            "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole01.webp",
+            "namecard": null,
+            "rarity": "A",
+            "debut": false,
+            "debutAt": "2025-03-12"
+          },
+          {
+            "name": "Billy",
+            "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle10.webp",
+            "iconFallback": null,
+            "iconZoom": false,
+            "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole10.webp",
+            "namecard": null,
+            "rarity": "A",
+            "debut": true,
+            "debutAt": null
+          }
+        ],
+        "roadmap": [
+          {
+            "name": "Claret",
+            "icon": "/assets/banners/zzz/f66bfa90111ddba48430580e96a4e079.png",
+            "iconFallback": null,
+            "iconZoom": false,
+            "art": "/assets/banners/zzz/f66bfa90111ddba48430580e96a4e079.png",
+            "namecard": null,
+            "rarity": null,
+            "debut": true,
+            "debutAt": null,
+            "hint": "Claret Release in 3.2",
+            "source": "game8",
+            "sourceUrl": "https://game8.co/games/Zenless-Zone-Zero/archives/460160"
+          },
+          {
+            "name": "Roxy",
+            "icon": "/assets/banners/zzz/1012e67e8352eb03ae2266095558ca8e.png",
+            "iconFallback": null,
+            "iconZoom": false,
+            "art": "/assets/banners/zzz/1012e67e8352eb03ae2266095558ca8e.png",
+            "namecard": null,
+            "rarity": null,
+            "debut": true,
+            "debutAt": null,
+            "hint": "Roxy Release in 3.2",
+            "source": "game8",
+            "sourceUrl": "https://game8.co/games/Zenless-Zone-Zero/archives/460160"
+          },
+          {
+            "name": "Sunbringer",
+            "icon": "/assets/banners/zzz/3a1947e4be23cefcd7bced059562905b.png",
+            "iconFallback": null,
+            "iconZoom": false,
+            "art": "/assets/banners/zzz/3a1947e4be23cefcd7bced059562905b.png",
+            "namecard": null,
+            "rarity": null,
+            "debut": true,
+            "debutAt": null,
+            "hint": "New Characters in Season 3",
+            "source": "game8",
+            "sourceUrl": "https://game8.co/games/Zenless-Zone-Zero/archives/460160"
+          },
+          {
+            "name": "Phoenix",
+            "icon": "/assets/banners/zzz/037940a9eae08de1fe62a8adcb5c1b0c.png",
+            "iconFallback": null,
+            "iconZoom": false,
+            "art": "/assets/banners/zzz/037940a9eae08de1fe62a8adcb5c1b0c.png",
+            "namecard": null,
+            "rarity": null,
+            "debut": true,
+            "debutAt": null,
+            "hint": "New Characters in Season 3",
+            "source": "game8",
+            "sourceUrl": "https://game8.co/games/Zenless-Zone-Zero/archives/460160"
+          },
+          {
+            "name": "The Storyteller",
+            "icon": "/assets/banners/zzz/7eada0eff64d90692d083489f83c57ad.png",
+            "iconFallback": null,
+            "iconZoom": false,
+            "art": "/assets/banners/zzz/7eada0eff64d90692d083489f83c57ad.png",
+            "namecard": null,
+            "rarity": null,
+            "debut": true,
+            "debutAt": null,
+            "hint": "New Characters in Season 3",
+            "source": "game8",
+            "sourceUrl": "https://game8.co/games/Zenless-Zone-Zero/archives/460160"
+          }
+        ]
       },
       "roster": [
         {
@@ -162832,13 +178798,13 @@ var NYX_DB = {
         "name": "Wuthering Waves",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-08-13T10:46:00.184Z",
-          "lastSuccessfulFetch": "2026-08-13T10:46:00.184Z",
-          "lastValidUpdate": "2026-08-13T10:46:00.184Z",
+          "checkedAt": "2026-08-13T13:21:44.402Z",
+          "lastSuccessfulFetch": "2026-08-13T13:21:44.402Z",
+          "lastValidUpdate": "2026-08-13T13:21:44.402Z",
           "source": "game8"
         },
         "current": {
-          "phase": "3.5",
+          "phase": "3.5 Phase 2",
           "start": "2026-07-30T15:00:00.000Z",
           "end": "2026-08-19T16:59:00.000Z",
           "characters": [
@@ -162962,6 +178928,50 @@ var NYX_DB = {
               }
             ],
             "subBanners": []
+          }
+        ],
+        "roadmap": [
+          {
+            "name": "Jingran",
+            "icon": "/assets/banners/wuwa/a0e1e743f0d6efa832282a01068b456a.png",
+            "iconFallback": null,
+            "iconZoom": false,
+            "art": "../../Database/Prydwen/ww/assets/characters/jingran-2b0e720255d4.webp",
+            "namecard": null,
+            "rarity": 5,
+            "debut": true,
+            "debutAt": null,
+            "hint": "Qingxiao and Jingran in Version 3.6",
+            "source": "game8",
+            "sourceUrl": "https://game8.co/games/Wuthering-Waves/archives/452883"
+          },
+          {
+            "name": "Suoming",
+            "icon": "/assets/banners/wuwa/2bfd02b98d9d13d873f2ea210ed6eea3.png",
+            "iconFallback": null,
+            "iconZoom": false,
+            "art": "../../Database/Prydwen/ww/assets/characters/suoming-bb9eb3850344.webp",
+            "namecard": null,
+            "rarity": 5,
+            "debut": true,
+            "debutAt": null,
+            "hint": "Future Mengzhou Characters",
+            "source": "game8",
+            "sourceUrl": "https://game8.co/games/Wuthering-Waves/archives/452883"
+          },
+          {
+            "name": "Hsin",
+            "icon": "/assets/banners/wuwa/95b3dcd95d0da5c9dd2b8907fb4f3f17.png",
+            "iconFallback": null,
+            "iconZoom": false,
+            "art": "../../Database/Prydwen/ww/assets/characters/hsin-652a82fc04a8.webp",
+            "namecard": null,
+            "rarity": 5,
+            "debut": true,
+            "debutAt": null,
+            "hint": "Future Mengzhou Characters",
+            "source": "game8",
+            "sourceUrl": "https://game8.co/games/Wuthering-Waves/archives/452883"
           }
         ]
       },
@@ -167997,9 +184007,9 @@ var NYX_DB = {
         "name": "Arknights: Endfield",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-08-13T10:46:00.184Z",
-          "lastSuccessfulFetch": "2026-08-13T10:46:00.184Z",
-          "lastValidUpdate": "2026-08-13T10:46:00.184Z",
+          "checkedAt": "2026-08-13T13:21:44.402Z",
+          "lastSuccessfulFetch": "2026-08-13T13:21:44.402Z",
+          "lastValidUpdate": "2026-08-13T13:21:44.402Z",
           "source": "game8"
         },
         "current": {

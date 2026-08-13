@@ -18,6 +18,8 @@ const GAMES = [
     id: 'hsr',
     name: 'Honkai: Star Rail',
     game8Url: 'https://game8.co/games/Honkai-Star-Rail/archives/408381',
+    game8RoadmapUrl: 'https://game8.co/games/Honkai-Star-Rail/archives/415899',
+    roadmapNames: ['Pearl', 'Nihilux'],
     fallbackUrl: 'https://prydwen.gg/star-rail/',
     // Prydwen was preferred because game8 used to mix light cones into the HSR
     // character list, but Prydwen has been answering 403 to this scraper on
@@ -34,6 +36,8 @@ const GAMES = [
     id: 'genshin',
     name: 'Genshin Impact',
     game8Url: 'https://game8.co/games/Genshin-Impact/archives/305012',
+    game8RoadmapUrl: 'https://game8.co/games/Genshin-Impact/archives/307054',
+    roadmapNames: ['Vesna', 'Vodyanitsa', 'Mitya', 'Valeriy', 'Tsaritsa', 'Danica', 'Noy'],
     defaultHourUtc: 10,  // 18:00 UTC+8
     tzOffsetHours: 8,
   },
@@ -41,6 +45,8 @@ const GAMES = [
     id: 'wuwa',
     name: 'Wuthering Waves',
     game8Url: 'https://game8.co/games/Wuthering-Waves/archives/453303',
+    game8RoadmapUrl: 'https://game8.co/games/Wuthering-Waves/archives/452883',
+    roadmapNames: ['Qingxiao', 'Jingran', 'Suoming', 'Hsin'],
     defaultHourUtc: 10,  // 18:00 UTC+8
     tzOffsetHours: 8,
   },
@@ -48,6 +54,8 @@ const GAMES = [
     id: 'zzz',
     name: 'Zenless Zone Zero',
     game8Url: 'https://game8.co/games/Zenless-Zone-Zero/archives/435687',
+    game8RoadmapUrl: 'https://game8.co/games/Zenless-Zone-Zero/archives/460160',
+    roadmapNames: ['Claret', 'Roxy', 'Sunbringer', 'Phoenix', 'The Storyteller'],
     defaultHourUtc: 10,  // 18:00 UTC+8
     tzOffsetHours: 8,
   },
@@ -1311,6 +1319,15 @@ async function main() {
       }
     }
 
+    const roadmapKnown = new Set([
+      ...currentChars,
+      ...nextChars,
+      ...upcomingEnriched.flatMap((phase) => phase.characters),
+    ].map((row) => normName(row.name || row)));
+    const roadmap = game.game8RoadmapUrl
+      ? (await scrapeGame8RoadmapCharacters(game.game8RoadmapUrl, game, roadmapKnown) ?? old?.roadmap ?? [])
+      : old?.roadmap ?? [];
+
     // Endfield: enrich each sub-banner the same way + drop any that
     // ended up with zero matched characters after enrichment (heuristic
     // false positives upstream of the gamedata filter).
@@ -1384,6 +1401,7 @@ async function main() {
         source,
       },
       upcoming: upcomingEnriched,
+      ...(roadmap.length ? { roadmap } : {}),
     });
   }
 
@@ -1462,6 +1480,61 @@ function parseGame8UpcomingCharacters(html) {
     seen.add(key);
     out.push({ name, image: image ? image[1] : null });
   }
+  return out;
+}
+
+// The four live-service games expose their longer character roadmap on a
+// separate Game8 page. Keep the section heading that introduced each name so
+// the site can distinguish a dated/versioned reveal from a general teaser.
+const ROADMAP_SECTIONS = {
+  genshin: /Upcoming Character Releases|Future Characters/i,
+  hsr: /List of Upcoming Characters/i,
+  zzz: /New and Upcoming Characters/i,
+  wuwa: /Upcoming WuWa Characters/i,
+};
+
+const ROADMAP_JUNK = /^(?:unknown|[1-6][- ]?star|[sabc][- ]?rank|anemo|geo|electro|dendro|hydro|pyro|cryo|physical|quantum|imaginary|fire|ice|wind|lightning|ether|electric|spectro|havoc|aero|glacio|fusion|sword|claymore|polearm|bow|catalyst|broadblade|gauntlets?|pistols?|rectifier|attack|stun|anomaly|support|defense|rupture|hunt|harmony|nihility|preservation|abundance|destruction|erudition|remembrance|elation|the hunt|the harmony|the nihility|the preservation|the abundance|the destruction|the erudition|the remembrance|the elation)$/i;
+
+function parseGame8RoadmapCharacters(html, gameId) {
+  const sectionPattern = ROADMAP_SECTIONS[gameId];
+  if (!sectionPattern) return [];
+  const $ = cheerio.load(String(html || ''));
+  const out = [];
+  const seen = new Set();
+  const add = (name, image, hint) => {
+    const cleanName = normalizeText(name);
+    const key = normName(cleanName);
+    if (!key || seen.has(key) || cleanName.length > 70 || ROADMAP_JUNK.test(cleanName)) return;
+    let host = '';
+    try { host = new URL(image).hostname; } catch { host = ''; }
+    if (!TEASER_ART_HOSTS.has(host)) return;
+    seen.add(key);
+    out.push({ name:cleanName, image, hint:normalizeText(hint) || null });
+  };
+
+  $('h2').filter((_, heading) => sectionPattern.test(normalizeText($(heading).text()))).each((_, heading) => {
+    let node = $(heading).next();
+    let hint = normalizeText($(heading).text());
+    while (node.length && !node.is('h2')) {
+      if (node.is('h3,h4')) {
+        hint = normalizeText(node.text());
+        // Some character sections use a full-width picture rather than a
+        // linked icon (Claret and Roxy). Trust it only when the picture's alt
+        // text repeats the character named by the heading.
+        const match = hint.match(/^(.+?)\s+(?:Release\b|in Version\b)/i);
+        if (match) {
+          const image = node.nextUntil('h2,h3,h4').find('table img[data-src]').first();
+          const remote = image.attr('data-src');
+          if (remote && normName(image.attr('alt')).includes(normName(match[1]))) add(match[1], remote, hint);
+        }
+      }
+      node.find('table a:has(img)').addBack('table a:has(img)').each((_, anchor) => {
+        const image = $(anchor).find('img').first();
+        add($(anchor).text(), image.attr('data-src'), hint);
+      });
+      node = node.next();
+    }
+  });
   return out;
 }
 
@@ -1559,6 +1632,49 @@ async function scrapeGame8UpcomingCharacters(url, logger = console, bucket = 'ae
   }
 }
 
+function localRoadmapNames(gameId) {
+  const names = new Set();
+  const dataKey = { genshin:'gi', hsr:'hsr', zzz:'zzz', wuwa:'ww' }[gameId];
+  const files = [
+    dataKey && path.join(__dirname, '..', '..', 'Database', 'Prydwen', dataKey, 'characters.json'),
+    dataKey && path.join(__dirname, '..', '..', 'Database', 'GameData', dataKey, 'beta', gameId === 'zzz' ? 'agents.json' : 'characters.json'),
+  ].filter(Boolean);
+  for (const file of files) {
+    if (!fs.existsSync(file)) continue;
+    const raw = JSON.parse(fs.readFileSync(file, 'utf8'));
+    const rows = Array.isArray(raw) ? raw : (raw?.characters || raw?.items || Object.values(raw || {}));
+    for (const row of rows) {
+      if (row?.name && row.contentStatus === 'beta') names.add(normName(row.name));
+    }
+  }
+  return names;
+}
+
+async function scrapeGame8RoadmapCharacters(url, game, excluded = new Set(), logger = console) {
+  const gameId = game.id;
+  try {
+    const html = await fetchHtml(url);
+    const approved = new Set((game.roadmapNames || []).map(normName));
+    const catalog = localRoadmapNames(gameId);
+    const parsed = parseGame8RoadmapCharacters(html, gameId);
+    if (!parsed.length) {
+      logger.log(`[${gameId}] game8 roadmap parser found no candidates; preserving prior data`);
+      return null;
+    }
+    const rows = parsed.filter((row) => {
+      const name = normName(row.name);
+      return !excluded.has(name) && (approved.has(name) || catalog.has(name));
+    });
+    logger.log(`[${gameId}] game8 roadmap characters: ${rows.length} found`);
+    const localized = await localizeTeaserArt(gameId, rows, logger);
+    return localized.map((row) => ({ ...row, source:'game8', sourceUrl:url }));
+  } catch (err) {
+    // Optional: preserve the last successful roadmap when this page is down.
+    logger.log(`[${gameId}] game8 roadmap unavailable: ${err.message}`);
+    return null;
+  }
+}
+
 
 async function runCli(task = main, logger = console) {
   try {
@@ -1580,6 +1696,7 @@ module.exports = {
   requiredCurrentSourceFailures,
   SourceUnavailableError,
   localizeTeaserArt,
+  parseGame8RoadmapCharacters,
   parseGame8UpcomingCharacters,
   runCli
 };

@@ -25,8 +25,152 @@
         "sourceBytes": 158791,
         "mediaType": "image/png"
       }
+    ],
+    "hsr": [
+      {
+        "name": "Nihilux",
+        "localPath": "/assets/banners/hsr/5e5f97c054dc875bc8bd76a64859350b.png",
+        "sourceUrl": "https://img.game8.co/4386209/6d81b1e74ad901f8d555203ed5f22f00.png/show",
+        "sourceSha256": "5e5f97c054dc875bc8bd76a64859350bf6355bfd38599ebb4d3d654a9127a755",
+        "sourceBytes": 98288,
+        "mediaType": "image/png"
+      },
+      {
+        "name": "Pearl",
+        "localPath": "/assets/banners/hsr/30988ea93b8d36c7cd124310a61341f3.png",
+        "sourceUrl": "https://img.game8.co/4583947/4c18ce22132d458c3363deed4f419db0.png/show",
+        "sourceSha256": "30988ea93b8d36c7cd124310a61341f31865a05db54c0dd6433f4422174c3ae7",
+        "sourceBytes": 249478,
+        "mediaType": "image/png"
+      }
+    ],
+    "genshin": [
+      {
+        "name": "Danica",
+        "localPath": "/assets/banners/genshin/b289e61a8574531fb41e42073bafa9f1.png",
+        "sourceUrl": "https://img.game8.co/4574404/63b9c5087e220e3d773d6ca7d5ebd02c.png/show",
+        "sourceSha256": "b289e61a8574531fb41e42073bafa9f12ca0f12e92a514fb7e9ede3119b83b7e",
+        "sourceBytes": 22131,
+        "mediaType": "image/png"
+      },
+      {
+        "name": "Mitya",
+        "localPath": "/assets/banners/genshin/3d32eb837a594869e0ed4232ddfeeb3f.png",
+        "sourceUrl": "https://img.game8.co/4574403/88966227130f2b1006618baeb35e9b6c.png/show",
+        "sourceSha256": "3d32eb837a594869e0ed4232ddfeeb3fa01a7ab147bbc44969fd29822d8e7502",
+        "sourceBytes": 19797,
+        "mediaType": "image/png"
+      },
+      {
+        "name": "Noy",
+        "localPath": "/assets/banners/genshin/c234b9b143af0e8200c8183ad61c2d8f.png",
+        "sourceUrl": "https://img.game8.co/4543303/278c7446ead442a16054999404cf4463.png/show",
+        "sourceSha256": "c234b9b143af0e8200c8183ad61c2d8f44ed0db3baf23f7151c640de0664bcb1",
+        "sourceBytes": 258577,
+        "mediaType": "image/png"
+      },
+      {
+        "name": "Tsaritsa",
+        "localPath": "/assets/banners/genshin/cdefdbb52093ca1327576623c156a77e.png",
+        "sourceUrl": "https://img.game8.co/4543364/833b140879211c4968885b1525645c19.png/show",
+        "sourceSha256": "cdefdbb52093ca1327576623c156a77e611bafc5c97676383d3770c681ab6979",
+        "sourceBytes": 23067,
+        "mediaType": "image/png"
+      },
+      {
+        "name": "Valeriy",
+        "localPath": "/assets/banners/genshin/897e0023c986e263f0ac1a17e34d0b14.png",
+        "sourceUrl": "https://img.game8.co/4543292/f741501666f83bd9f3af1de96ecabdaa.png/show",
+        "sourceSha256": "897e0023c986e263f0ac1a17e34d0b14196e8355c41b574151e77c167f2b9b9a",
+        "sourceBytes": 18929,
+        "mediaType": "image/png"
+      },
+      {
+        "name": "Vesna",
+        "localPath": "/assets/banners/genshin/0337246ce778ffd2dbd49ef89e98c850.png",
+        "sourceUrl": "https://img.game8.co/4543306/5e9d45898e0311d7d3974ee9b5411668.png/show",
+        "sourceSha256": "0337246ce778ffd2dbd49ef89e98c85041b031447d53d49b1eb07b1a1f8ca605",
+        "sourceBytes": 92868,
+        "mediaType": "image/png"
+      },
+      {
+        "name": "Vodyanitsa",
+        "localPath": "/assets/banners/genshin/32d0b3910929f0da9a9a16dfc0f9ea9a.png",
+        "sourceUrl": "https://img.game8.co/4543260/0116c26fa74f1168cfa729c68003e791.png/show",
+        "sourceSha256": "32d0b3910929f0da9a9a16dfc0f9ea9a44072cebac06f99f8dcbd2d0d8032e84",
+        "sourceBytes": 20678,
+        "mediaType": "image/png"
+      }
+    ],
+    "wuwa": [
+      {
+        "name": "Hsin",
+        "localPath": "/assets/banners/wuwa/95b3dcd95d0da5c9dd2b8907fb4f3f17.png",
+        "sourceUrl": "https://img.game8.co/4533348/50f0e1f7147d9cd331d7a9574b7306a4.png/show",
+        "sourceSha256": "95b3dcd95d0da5c9dd2b8907fb4f3f17eae51f74fabc89c8ed8baf729ec0f915",
+        "sourceBytes": 107676,
+        "mediaType": "image/png"
+      },
+      {
+        "name": "Jingran",
+        "localPath": "/assets/banners/wuwa/a0e1e743f0d6efa832282a01068b456a.png",
+        "sourceUrl": "https://img.game8.co/4572123/18932eed923cdd845d400e0990924543.png/show",
+        "sourceSha256": "a0e1e743f0d6efa832282a01068b456a50c5893a632732867845f7124b2204e1",
+        "sourceBytes": 288503,
+        "mediaType": "image/png"
+      },
+      {
+        "name": "Suoming",
+        "localPath": "/assets/banners/wuwa/2bfd02b98d9d13d873f2ea210ed6eea3.png",
+        "sourceUrl": "https://img.game8.co/4533350/fb1039862fba37364d660df79f24c38d.png/show",
+        "sourceSha256": "2bfd02b98d9d13d873f2ea210ed6eea37e6244c12a1e0f46e4fbe7740aa402b8",
+        "sourceBytes": 106926,
+        "mediaType": "image/png"
+      }
+    ],
+    "zzz": [
+      {
+        "name": "Claret",
+        "localPath": "/assets/banners/zzz/f66bfa90111ddba48430580e96a4e079.png",
+        "sourceUrl": "https://img.game8.co/4581362/77f1bcaea6d3de6108e2d242f32f2150.png/show",
+        "sourceSha256": "f66bfa90111ddba48430580e96a4e07933cd497f7ad269dbc3e57c4dc083a562",
+        "sourceBytes": 135715,
+        "mediaType": "image/png"
+      },
+      {
+        "name": "Phoenix",
+        "localPath": "/assets/banners/zzz/037940a9eae08de1fe62a8adcb5c1b0c.png",
+        "sourceUrl": "https://img.game8.co/4485334/c963d61f5bc9d92dfa54234fdad01ccf.png/show",
+        "sourceSha256": "037940a9eae08de1fe62a8adcb5c1b0ca991887df68c394c7f9dc3ff99fb1068",
+        "sourceBytes": 261452,
+        "mediaType": "image/png"
+      },
+      {
+        "name": "Roxy",
+        "localPath": "/assets/banners/zzz/1012e67e8352eb03ae2266095558ca8e.png",
+        "sourceUrl": "https://img.game8.co/4581324/9169a4a2d47ca1e8f589aca86b35ece5.png/show",
+        "sourceSha256": "1012e67e8352eb03ae2266095558ca8e84ddb0130f2bbe8d69da5556847fe1b8",
+        "sourceBytes": 123818,
+        "mediaType": "image/png"
+      },
+      {
+        "name": "Sunbringer",
+        "localPath": "/assets/banners/zzz/3a1947e4be23cefcd7bced059562905b.png",
+        "sourceUrl": "https://img.game8.co/4485709/0d5338af7a71856a2990ec05f091b0e5.png/show",
+        "sourceSha256": "3a1947e4be23cefcd7bced059562905bc1c1e5eb51ea31442485ef4df288d181",
+        "sourceBytes": 207818,
+        "mediaType": "image/png"
+      },
+      {
+        "name": "The Storyteller",
+        "localPath": "/assets/banners/zzz/7eada0eff64d90692d083489f83c57ad.png",
+        "sourceUrl": "https://img.game8.co/4485333/46456205e18b38a9d10ba080b5cdb0f7.png/show",
+        "sourceSha256": "7eada0eff64d90692d083489f83c57add95b4f61ecb506e4f59868c261a38f23",
+        "sourceBytes": 261691,
+        "mediaType": "image/png"
+      }
     ]
   },
-  "generatedAt": "2026-08-13T10:46:12.262Z",
+  "generatedAt": "2026-08-13T13:21:57.584Z",
   "policy": "Teaser stills are copied to our own origin because the site CSP blocks publisher CDNs. Filenames are the source sha256 prefix."
 }

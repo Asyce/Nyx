@@ -10,7 +10,7 @@ const root = path.resolve(here, '../..');
 const helperSource = await fs.readFile(path.join(root, 'src/features/database/database-ui.js'), 'utf8');
 const appSource = await fs.readFile(path.join(root, 'src/app/nyx-app.jsx'), 'utf8');
 const context = { console };
-vm.runInNewContext(`${helperSource}\n;globalThis.__api={NYX_DATABASE_PAGE_SIZE,nyxDatabaseFacetValue,nyxDatabaseRarityTier,nyxDatabaseActiveFilterCount,nyxDatabaseHasFacets,nyxDatabaseFacetLabel,nyxDatabaseSortFacetValues,nyxDatabaseNextLimit,nyxDatabaseEscapeAction};`, context);
+vm.runInNewContext(`${helperSource}\n;globalThis.__api={NYX_DATABASE_PAGE_SIZE,NYX_DATABASE_UNRELEASED_LABEL,nyxDatabaseFacetValue,nyxDatabaseRarityTier,nyxDatabaseActiveFilterCount,nyxDatabaseHasFacets,nyxDatabaseFacetLabel,nyxDatabaseSortFacetValues,nyxDatabaseNextLimit,nyxDatabaseEscapeAction,nyxDatabaseGroupCollapsed,nyxDatabaseGroupItems,nyxDatabaseApplyRarityFloor};`, context);
 const api = context.__api;
 const plain = (value) => JSON.parse(JSON.stringify(value));
 
@@ -118,4 +118,34 @@ test('every Database list and detail surface uses the filled rarity frame', () =
   assert.doesNotMatch(appSource, /db-rarity-frame/);
   assert.equal(api.nyxDatabaseRarityTier(undefined), 0, 'missing source rarity is explicit Unknown');
   assert.equal(api.nyxDatabaseRarityTier(1), 1, 'known 1-star stays distinct from Unknown');
+});
+
+test('Genshin item cleanup keeps 3-star rows and collapses the two character-token groups last', () => {
+  const rows = [
+    { id:'ordinary', name:'Ordinary', art:'local.webp', fields:{ rarity:'5 ★', type:'Material' } },
+    { id:'unlock', name:'Unlock', art:'local.webp', fields:{ rarity:'4 ★', type:'Unlocks the associated character' } },
+    { id:'constellation', name:'Constellation', art:'local.webp', fields:{ rarity:'5 ★', type:'Activates Constellation' } },
+  ];
+  const labels = plain(api.nyxDatabaseGroupItems(rows, { groupKey:'type' })).groups.map((group) => group.label);
+  assert.equal(labels[0], 'Material');
+  assert.deepEqual(new Set(labels.slice(-2)), new Set(['Unlocks the associated character', 'Activates Constellation']));
+  assert.equal(api.nyxDatabaseGroupCollapsed('Unlocks the associated character'), true);
+  assert.equal(api.nyxDatabaseGroupCollapsed('Activates Constellation'), true);
+  assert.equal(api.NYX_DATABASE_UNRELEASED_LABEL, '???');
+  assert.deepEqual(
+    plain(api.nyxDatabaseApplyRarityFloor([
+      { id:'two', fields:{ rarity:'2 ★' } },
+      { id:'three', fields:{ rarity:'3 ★' } },
+      { id:'five', fields:{ rarity:'5 ★' } },
+    ], false)).map((item) => item.id),
+    ['three', 'five'],
+  );
+});
+
+test('Genshin navigation exposes Gallery and Shadow Realm in the requested order', () => {
+  assert.match(appSource, /fns:\['Characters','Database','Gallery','Wish Tracker'\]/);
+  assert.match(appSource, /specialViews = game === 'gi' \? \[\{ key:'shadow', title:'TPS: Shadow Realm' \}, \{ key:'tcg', title:'TCG' \}/);
+  assert.match(appSource, /shadow:'database\/tps-shadow-realm'/);
+  assert.match(appSource, /gallery:'gallery'/);
+  assert.match(appSource, /className="pot-extra-toggle" aria-expanded=/);
 });

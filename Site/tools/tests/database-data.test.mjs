@@ -99,7 +99,7 @@ test('source, normalized, and generated Database counts match deterministically'
       const output = generated.collections.find((row) => row.key === collection);
       const summary = audit.summary.find((row) => row.game === game && row.collection === collection);
       assert.equal(Object.keys(source).length, normalized.length, `${game}/${collection} source -> normalized`);
-      assert.equal(normalized.length, output.count + summary.quarantinedCount, `${game}/${collection} normalized -> approved + quarantined`);
+      assert.equal(normalized.length, output.count + summary.quarantinedCount + (summary.routedCount || 0), `${game}/${collection} normalized -> generated + routed + quarantined`);
       assert.equal(output.count, output.items.length, `${game}/${collection} generated payload`);
       assert.equal(output.items.some((row) => /^https?:\/\//i.test(row.art || '')), false, `${game}/${collection} local art only`);
     }
@@ -264,7 +264,7 @@ test('Unknown rarity gates remain explicit until a trustworthy source exists', (
     endfieldGear:countUnknown(inlineCollection('ae', 'gear')),
   }, {
     giMonsters:547,
-    giItems:2270,
+    giItems:2353,
     hsrMonsters:612,
     hsrRelicSets:60,
     hsrLightCones:4,
@@ -291,9 +291,15 @@ test('missing-art audit accounts for every intentional neutral fallback', () => 
     ...(gi.tcg?.characterCards || []),
     ...(gi.tcg?.otherCards || []),
     ...(gi.furniture?.items || []),
+    ...(gi.furniture?.blueprints || []),
+    ...(gi.furniture?.materials || []),
     ...(gi.wonderland?.costumes || []),
     ...(gi.wonderland?.suits || []),
     ...(gi.wonderland?.items || []),
+    ...(gi.shadowRealm?.items || []),
+    ...(gi.gallery?.namecards || []),
+    ...(gi.gallery?.portraits || []),
+    ...(gi.gallery?.avatarFrames || []),
   ];
   const generatedRows = [...lazyRows, ...inlineRows, ...specialRows];
   const fallbacks = generatedRows.filter((row) => row.artStatus === 'intentional-fallback');
@@ -315,17 +321,42 @@ test('missing-art audit accounts for every intentional neutral fallback', () => 
   assert.equal(audit.records.some((row) => row.result === 'no-approved-source-icon' && row.sourceUrl), false);
 });
 
-test('Genshin Golden and Platinum TCG item variants reuse their exact trusted base-card art', () => {
-  const audit = readJson('Database/Audits/database-missing-art.json');
+test('Genshin Items routes duplicate tabs, currencies, Gallery, and Pot from source markers', () => {
+  const nyx = readNyxDatabase().games.gi;
   const items = readGenerated('gi').collections.find((collection) => collection.key === 'items').items;
-  const variants = items.filter((row) => row.artStatus === 'trusted-local-reuse');
-  assert.equal(variants.length, 1214);
-  assert.equal(variants.every((row) => row.artSource === 'genshin-tcg-base-card'), true);
-  assert.equal(variants.every((row) => row.art?.startsWith('../../Database/GameData/gi/gcg/')), true);
-  assert.equal(audit.records.some((row) => /^UI_Gcg_CardFace_.+_(?:Golden|Platinum)$/.test(row.sourceIconField?.value || '')), false);
+  const raw = readJson('Database/GameData/gi/live/raw/itemAll.json');
+  const normalized = readJson('Database/GameData/gi/live/items.json');
+  const itemIds = new Set(items.map((row) => row.id.replace(/^gi-item-/, '')));
+  const excludedMaterialTypes = new Set([
+    'MATERIAL_NAMECARD', 'MATERIAL_PROFILE_PICTURE', 'MATERIAL_PROFILE_FRAME',
+    'MATERIAL_GCG_CARD', 'MATERIAL_GCG_CARD_FACE', 'MATERIAL_FURNITURE_FORMULA',
+    'MATERIAL_FURNITURE_SUITE_FORMULA', 'MATERIAL_PHOTOGRAPH_POSE', 'MATERIAL_COSTUME',
+    'MATERIAL_BEYOND_COSTUME_SELECTABLE_CHEST', 'MATERIAL_WEAPON_SKIN',
+  ]);
+  for (const id of itemIds) assert.equal(excludedMaterialTypes.has(raw[id]?.material_type), false, id);
+  assert.equal(items.some((row) => row.fields?.type === 'Unknown Weapon'), false);
+  assert.equal(items.some((row) => row.fields?.type === 'Firearm Accessory Blueprint'), false);
+  assert.equal(items.filter((row) => row.fields?.type === 'Special Currency').length, 10);
+  for (const type of ['Wishing Item', 'Limited Wishing Item', 'Superior Voucher', 'Common Voucher']) {
+    assert.equal(items.some((row) => row.fields?.type === type), false, type);
+  }
+
+  const tpsWeapons = normalized.filter((row) => row.type === 'Firearm Accessory Blueprint').length
+    + readJson('Database/GameData/gi/live/weapons.json').filter((row) => row.type === 'ITEM_TPS_WEAPON').length;
+  assert.equal(nyx.shadowRealm.items.length, tpsWeapons);
+  assert.equal(nyx.collections.find((row) => row.key === 'weapons').items.some((row) => row.fields?.type === 'ITEM_TPS_WEAPON'), false);
+  assert.equal(nyx.gallery.namecards.length, Object.values(raw).filter((row) => row.material_type === 'MATERIAL_NAMECARD').length);
+  for (const row of nyx.gallery.namecards) {
+    const file = path.resolve(root, row.art.replace(/^\.\.\/\.\.\//, ''));
+    assert.equal(fs.readFileSync(file).subarray(8, 12).toString(), 'WEBP', row.name);
+  }
+  assert.deepEqual(nyx.gallery.portraits.filter((row) => /^32/.test(String(row.id))).map((row) => row.name).sort(), ['Diligent Study', 'Vigorous Yapping']);
+  assert.equal(nyx.gallery.avatarFrames.length, Object.values(raw).filter((row) => row.material_type === 'MATERIAL_PROFILE_FRAME').length);
+  assert.equal(nyx.furniture.blueprints.length, normalized.filter((row) => /Blueprint/i.test(row.type || '') && ['Furnishing Blueprint', 'Furnishing Blueprints', 'Furnishing Set Blueprint'].includes(row.type)).length);
+  assert.equal(nyx.furniture.materials.every((row) => row.category === 'Material' && /\bfurniture\b|\bRealm Within\b/i.test(row.description || '')), true);
 });
 
-test('trusted exact-source Genshin art backfill is complete, hashed, and removed from the missing-art audit', () => {
+test('trusted exact-source Genshin backfill stays hashed after duplicate TCG variants leave Items', () => {
   const provenance = readJson('Database/Audits/database-art-backfill-provenance.json');
   const audit = readJson('Database/Audits/database-missing-art.json');
   const items = readGenerated('gi').collections.find((collection) => collection.key === 'items').items;
@@ -347,7 +378,6 @@ test('trusted exact-source Genshin art backfill is complete, hashed, and removed
     assert.ok(asset.provider);
     assert.ok(asset.sourceUrl);
   }
-  assert.equal(backfilled.length, provenance.resolvedRecordCount);
-  assert.equal(backfilled.every((row) => row.artSource === 'database-art-backfill-provenance'), true);
+  assert.equal(backfilled.length, 0, 'the backfilled Golden and Platinum duplicates now live only under TCG');
   assert.equal(audit.records.some((row) => sourceIcons.has(row.sourceIconField?.value)), false);
 });

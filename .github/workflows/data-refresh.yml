@@ -89,7 +89,9 @@ jobs:
             if [ "$attempt" -lt 3 ]; then sleep $((attempt * 5)); fi
           done
           if [ "$banner_ready" != true ]; then
-            echo "::warning::required banner sources stayed unavailable after 3 attempts; skipping validation, commit, build, and deploy"
+            echo "::warning::required banner sources stayed unavailable after 3 attempts; carrying forward banners while events continue"
+            git restore --source=HEAD -- ../Database/Banners/banners.json ../Database/reports/banner-teaser-art-provenance.json
+            git clean -fd -- ../Site/assets/banners
             echo "fresh=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
@@ -102,24 +104,32 @@ jobs:
       # This is also where WuWa's aki-game.net and the sg- HoYo hosts get probed live
       # from the Actions runner (they may behave differently than a local machine).
       - name: Scrape in-game events
-        if: ${{ steps.banner_refresh.outputs.fresh == 'true' }}
         working-directory: Scraper
         run: node ./events/index.mjs || echo "::warning::events scrape had errors; carry-forward applied"
 
       # Structural gate on the REAL scraped output. Non-zero here = refuse to
       # commit/deploy, so the already-live last-known-good is preserved.
       - name: Validate scraped data
-        if: ${{ steps.banner_refresh.outputs.fresh == 'true' }}
         working-directory: Scraper
-        run: npm run validate:strict
+        run: |
+          if [ "${{ steps.banner_refresh.outputs.fresh }}" = "true" ]; then
+            npm run validate:strict
+          else
+            npm run validate
+          fi
 
       - name: Commit refreshed data
         id: data_commit
-        if: ${{ steps.banner_refresh.outputs.fresh == 'true' }}
         run: |
           git config user.name "pengo-bot"
           git config user.email "bot@pengo.gg"
-          git add Database
+          if [ "${{ steps.banner_refresh.outputs.fresh }}" = "true" ]; then
+            git add Database
+            git add -A Site/assets/banners Site/assets/events
+          else
+            git add Database/Events Database/Activities Database/reports/event-art-provenance.json
+            git add -A Site/assets/events
+          fi
           if git diff --cached --quiet; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
             echo "No data changes to commit."
@@ -130,13 +140,13 @@ jobs:
           fi
 
       - name: Refresh committed site and launcher feeds
-        if: ${{ steps.banner_refresh.outputs.fresh == 'true' && steps.data_commit.outputs.changed == 'true' }}
+        if: ${{ steps.data_commit.outputs.changed == 'true' }}
         working-directory: Site
         run: npm run generate:data && npm run refresh:launcher
 
       - name: Commit refreshed launcher snapshot
         id: launcher_snapshot
-        if: ${{ steps.banner_refresh.outputs.fresh == 'true' && steps.data_commit.outputs.changed == 'true' }}
+        if: ${{ steps.data_commit.outputs.changed == 'true' }}
         run: |
           git add Site/src/data/generated/nyx-data.js Site/src/data/generated/launcher-codes-v1.json Site/src/data/generated/launcher-banners-v1.json
           git add -A Site/src/data/generated/launcher-art
@@ -147,7 +157,7 @@ jobs:
           echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
 
       - name: Build site
-        if: ${{ steps.banner_refresh.outputs.fresh == 'true' && steps.launcher_snapshot.outputs.fresh == 'true' }}
+        if: ${{ steps.launcher_snapshot.outputs.fresh == 'true' }}
         working-directory: Site
         env:
           PENGO_DEPLOY_COMMIT: ${{ steps.launcher_snapshot.outputs.sha }}
@@ -155,14 +165,14 @@ jobs:
         run: npm run build:deploy
 
       - name: Smoke deploy artifact
-        if: ${{ steps.banner_refresh.outputs.fresh == 'true' && steps.launcher_snapshot.outputs.fresh == 'true' }}
+        if: ${{ steps.launcher_snapshot.outputs.fresh == 'true' }}
         working-directory: Site
         env:
           PENGO_DATABASE_ASSET_MODE: ${{ vars.DATABASE_ASSET_MODE || 'local' }}
         run: npm run smoke:deploy
 
       - name: Push verified data
-        if: ${{ steps.banner_refresh.outputs.fresh == 'true' && steps.launcher_snapshot.outputs.fresh == 'true' }}
+        if: ${{ steps.launcher_snapshot.outputs.fresh == 'true' }}
         run: git push
 
       - name: Additively sync Database assets to R2

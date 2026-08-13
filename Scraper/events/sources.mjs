@@ -12,7 +12,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { cleanTitle, classifyType, decodeEntities, makeEvent, mergeRegionalEvents, parseEndfieldAvailability, parseHoyoDuration, parseScopedDateRange } from './core.mjs';
+import { cleanTitle, classifyType, decodeEntities, makeEvent, mergeRegionalEvents, parseEndfieldAvailability, parseHoyoDuration, parseScopedDateRange, toIso } from './core.mjs';
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 export const RAW_DIR = path.join(here, 'raw');
@@ -159,9 +159,23 @@ export function isHoyoEventCandidate(ann, body) {
   if (!title || HOYO_NOTICE_ONLY.test(title)) return false;
   const duration = parseHoyoDuration(body?.content || '', '+00:00');
   if (duration.start || duration.permanent) return true;
+  if (/Event\s+(?:Wish\s+)?Duration|Event\s+Period|Specified\s+Duration|〓\s*Time〓/i.test(decodeEntities(body?.content || ''))) return true;
   if (ann?._pic && hoyoPicWindow(ann, '+00:00').start) return true;
   const classified = classifyType(title, { typeLabel: ann?.type_label || '' });
   return classified !== 'event' || HOYO_EVENT_TITLE.test(title);
+}
+
+function hoyoVersionStarts(anns, contentById) {
+  const starts = {};
+  for (const ann of anns) {
+    const version = cleanTitle(ann?.title || '').match(/\bVersion\s+(\d+(?:\.\d+)+)\s+Update Details\b/i)?.[1];
+    const body = version && contentById.get(ann.ann_id)?.content;
+    if (!body) continue;
+    const schedule = decodeEntities(body).match(/Update maintenance begins[\s\S]{0,240}?(\d{4}[-/]\d{1,2}[-/]\d{1,2}\s+\d{1,2}:\d{2}(?::\d{2})?)[\s\S]{0,160}?estimated to take\s+(\d+(?:\.\d+)?)\s+hours?/i);
+    const maintenance = schedule && toIso(schedule[1], '+08:00');
+    if (maintenance) starts[version] = new Date(Date.parse(maintenance) + Number(schedule[2]) * 60 * 60 * 1000).toISOString();
+  }
+  return starts;
 }
 
 // Pure parser: given a getAnnList payload + getAnnContent payload, produce events.
@@ -169,6 +183,7 @@ export function parseHoyo(game, listPayload, contentPayload, region = 'europe', 
   const cfg = hoyoRegionConfig(game, region);
   const { anns } = flattenAnnList(listPayload);
   const contentById = new Map((contentPayload?.data?.list || []).map((c) => [c.ann_id, c]));
+  const versionStarts = hoyoVersionStarts(anns, contentById);
   const events = [];
   for (const ann of anns) {
     const title = cleanTitle(ann.title);
@@ -177,7 +192,7 @@ export function parseHoyo(game, listPayload, contentPayload, region = 'europe', 
     if (!isHoyoEventCandidate(ann, body)) continue;
     let start = null; let end = null; let permanent = false; let dateSource = 'content';
     if (body) {
-      const parsed = parseHoyoDuration(body.content, cfg.offset);
+      const parsed = parseHoyoDuration(body.content, cfg.offset, versionStarts);
       if (parsed.permanent) permanent = true;
       if (parsed.start) { start = parsed.start; end = parsed.end; dateSource = 'content'; }
     }

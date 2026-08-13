@@ -7,7 +7,7 @@ newest verified `main` branch. Manual refresh runs can still deploy immediately.
 |---|---|---|
 | `code-watch.yml` | hourly, at :00 | detect official livestream windows -> active-code-only scrape -> semantic diff -> validate -> commit -> build -> smoke -> push |
 | `gamedata-watch.yml` | 02:20 and 14:20 UTC daily | compare Nanoka's manifest -> when a supported game changed, sync its live/beta JSON and assets -> GameData-only validate -> build -> smoke -> commit -> push |
-| `data-refresh.yml` | 03:15 UTC daily | retry banners + scrape codes and events -> unit tests -> strict validate -> build -> smoke -> push |
+| `data-refresh.yml` | 03:15 UTC daily | retry banners + scrape codes and official events -> validate -> build -> smoke -> push |
 | `banner-history-refresh.yml` | 04:45 UTC Monday and Thursday | refresh banner history and activities -> structural validate -> build -> smoke -> push |
 | `roster-sync.yml` | 05:30 UTC Sunday | refresh slower rosters/materials/titles -> structural validate -> build -> smoke -> push |
 | `side-data-sync.yml` | 06:45 UTC Sunday and Wednesday | refresh birthdays/namecards/signatures/holidays/TCG/furniture/Endfield skill icons/Genshin banner history -> structural validate -> build -> smoke -> push |
@@ -28,12 +28,12 @@ Before any deploy:
   those R2-backed deploys. In the default `local` mode, R2 sync is skipped and
   does not block the live deploy.
 - `gamedata-watch.yml` takes the expensive path only when Nanoka's supported manifest sections differ from the tracked manifest. Its collapse guard and GameData-only validator cover both live and beta output without letting unrelated banner or Endfield failures block the refresh. It downloads new assets in the same run.
-- `data-refresh.yml` retries only the banner scraper's explicit source-unavailable result (exit 2) three times. Required games must have both a current-run source success and a fresh timeline. If either is still missing, the job warns and skips validation, commit, build, push, and deploy. Unexpected scraper failures use exit 1 and fail the job red.
+- `data-refresh.yml` retries only the banner scraper's explicit source-unavailable result (exit 2) three times. If a required banner source stays unavailable, its partial output is restored, official events still refresh through the structural gate, and immediate deployment remains blocked. Unexpected scraper failures use exit 1 and fail the job red.
 - `roster-sync.yml`, `side-data-sync.yml`, and `banner-history-refresh.yml` run the full structural gate (`npm run validate`). Current-banner freshness remains owned by `data-refresh.yml`, so a source outage cannot turn unrelated refreshes red.
 - `side-data-sync.yml` installs Crawl4AI and Chromium, but each Crawl4AI-backed fetch has a plain HTTP fallback.
 - `gamedata-asset-sync.yml` runs scraper unit tests and restores scraper-generated JSON churn before committing, so the deploy maps to an asset-only commit.
 - `code-watch.yml` runs the structural data gate (`npm run validate`) because it is a fast codes-only deploy path and does not refresh banners.
-- A failed validation stops the run, so the already-live last-known-good is preserved. A banner-source outage is a successful warned no-op and cannot publish preserved or stale data; coding and parsing failures remain visible as failed runs.
+- A failed validation stops the run, so the already-live last-known-good is preserved. A banner-source outage cannot publish changed banner data, but it no longer leaves independent event data stale; coding and parsing failures remain visible as failed runs.
 - Refreshed data is committed locally before the build, then pushed only after build and smoke verification, so broken candidates never reach `main` and the deployed site maps back to a Git commit.
 - `Site` runs `npm run smoke:deploy` after `build:deploy` and before Wrangler deploy. It checks clean routes, key assets, import-helper copy, encrypted sync UI, bundled React output, script checksum, and `version.json`.
 - The deploy step is skipped automatically when no Cloudflare token is configured.

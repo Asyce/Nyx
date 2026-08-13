@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T19:15:56.154Z",
+  "generatedAt": "2026-08-13T02:40:34.807Z",
   "maxAgeDays": 28,
   "games": [
     {
@@ -9,16 +9,13 @@
       "redeemBase": "https://genshin.hoyoverse.com/en/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/GI/codes/",
-      "lastSuccessfulFetch": "2026-08-12T19:15:37.639Z",
+      "lastSuccessfulFetch": "2026-08-13T02:40:16.454Z",
       "codes": [
         {
           "code": "XVIZDH2B9WGX",
-          "rewards": "10000 Mora, 10 Adventurer's Experience, 5 Fine Enhancement Ore, 5 Jueyun Chili Chicken, 5 Stir-Fried Fish Noodles",
+          "rewards": "10000 Mora, Adventure Experience 10, Fine Enhancement Ore 5, Jueyun Chili Chicken 5, Stir Fried Fish Noodle 5",
           "added": "2026-08-12",
-          "sourceUrl": "https://www.crimsonwitch.com/codes/Genshin_Impact",
-          "regionLocked": null,
-          "expires": null,
-          "variants": [],
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=XVIZDH2B9WGX",
           "premium": false,
           "premium100": false,
           "cwSeen": true,
@@ -131,7 +128,7 @@
       "redeemBase": "https://hsr.hoyoverse.com/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/HSR/codes/",
-      "lastSuccessfulFetch": "2026-08-12T19:15:56.154Z",
+      "lastSuccessfulFetch": "2026-08-13T02:40:34.807Z",
       "codes": [
         {
           "code": "4TKSX77Y58QK",
@@ -260,7 +257,7 @@
       "redeemBase": "https://zenless.hoyoverse.com/redemption?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/ZZZ/codes/",
-      "lastSuccessfulFetch": "2026-08-12T19:15:37.966Z",
+      "lastSuccessfulFetch": "2026-08-13T02:40:16.469Z",
       "codes": [
         {
           "code": "ZENLESSGIFT",
@@ -312,7 +309,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Terminal > Settings > Other Settings > Redemption Code",
       "sourceUrl": "https://nexus-codes.app/games/WUWA/codes/",
-      "lastSuccessfulFetch": "2026-08-12T19:15:37.623Z",
+      "lastSuccessfulFetch": "2026-08-13T02:40:16.437Z",
       "codes": [
         {
           "code": "ETERNALFLAME",
@@ -366,7 +363,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Settings > Account > Exchange Code",
       "sourceUrl": "https://nexus-codes.app/games/ARKEN/codes/",
-      "lastSuccessfulFetch": "2026-08-12T19:15:37.653Z",
+      "lastSuccessfulFetch": "2026-08-13T02:40:16.462Z",
       "codes": [
         {
           "code": "ENDFIELDRENEW",

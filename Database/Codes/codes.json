@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T14:24:01.881Z",
+  "generatedAt": "2026-08-13T17:51:31.335Z",
   "maxAgeDays": 28,
   "games": [
     {
@@ -9,7 +9,7 @@
       "redeemBase": "https://genshin.hoyoverse.com/en/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/GI/codes/",
-      "lastSuccessfulFetch": "2026-08-13T14:23:47.411Z",
+      "lastSuccessfulFetch": "2026-08-13T17:51:31.335Z",
       "codes": [
         {
           "code": "GS70XRNWFB",
@@ -19,7 +19,7 @@
           "hoyoVerified": true,
           "premium": false,
           "premium100": false,
-          "cwSeen": false,
+          "cwSeen": true,
           "firstSeen": "2026-08-13T07:48:02.606Z"
         },
         {
@@ -106,7 +106,8 @@
           "regionLocked": null,
           "expires": null,
           "variants": [
-            "GS70XINGOJ"
+            "GS70XINGOJ",
+            "GS70XRNWFB"
           ],
           "premium": false,
           "premium100": false,
@@ -152,7 +153,7 @@
       "redeemBase": "https://hsr.hoyoverse.com/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/HSR/codes/",
-      "lastSuccessfulFetch": "2026-08-13T14:24:01.881Z",
+      "lastSuccessfulFetch": "2026-08-13T17:51:30.958Z",
       "codes": [
         {
           "code": "4TKSX77Y58QK",
@@ -281,7 +282,7 @@
       "redeemBase": "https://zenless.hoyoverse.com/redemption?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/ZZZ/codes/",
-      "lastSuccessfulFetch": "2026-08-13T14:23:47.765Z",
+      "lastSuccessfulFetch": "2026-08-13T17:51:31.293Z",
       "codes": [
         {
           "code": "ZENLESSGIFT",
@@ -333,7 +334,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Terminal > Settings > Other Settings > Redemption Code",
       "sourceUrl": "https://nexus-codes.app/games/WUWA/codes/",
-      "lastSuccessfulFetch": "2026-08-13T14:23:47.376Z",
+      "lastSuccessfulFetch": "2026-08-13T17:51:30.855Z",
       "codes": [
         {
           "code": "ETERNALFLAME",
@@ -387,7 +388,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Settings > Account > Exchange Code",
       "sourceUrl": "https://nexus-codes.app/games/ARKEN/codes/",
-      "lastSuccessfulFetch": "2026-08-13T14:23:47.387Z",
+      "lastSuccessfulFetch": "2026-08-13T17:51:30.906Z",
       "codes": [
         {
           "code": "ENDFIELDRENEW",

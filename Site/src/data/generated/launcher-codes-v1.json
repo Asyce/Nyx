@@ -1,8 +1,14 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-13T02:40:34.807Z",
+  "generatedAt": "2026-08-13T07:48:20.942Z",
   "games": {
     "gi": [
+      {
+        "code": "MYSNEZHNAYACAREER",
+        "added": "2026-08-13",
+        "amount": 160,
+        "currency": "Primogems"
+      },
       {
         "code": "LEGEDILJKSGM",
         "added": "2026-08-11",
@@ -23,12 +29,6 @@
       },
       {
         "code": "OntoSnezhnaya",
-        "added": "2026-07-31",
-        "amount": 100,
-        "currency": "Primogems"
-      },
-      {
-        "code": "Odettte0812",
         "added": "2026-07-31",
         "amount": 100,
         "currency": "Primogems"
@@ -115,5 +115,5 @@
       }
     ]
   },
-  "revision": "219d41d0dd9de8f25a8fdcb94c75ffeb20535d9480b0de6ac564b8cec68bdeda"
+  "revision": "289e246cacf9acfbf16a0ebec00c9e65918dabf1e2f57ad6649fb57cff24fb27"
 }

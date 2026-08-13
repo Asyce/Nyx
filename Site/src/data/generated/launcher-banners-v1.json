@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "62c60baac26d84e54d2b81e6ac37a2ccdde0ba01bbd8b9a3eb3f312807a5bb5b",
-  "generatedAt": "2026-08-13T06:06:26.870Z",
+  "revision": "da51f5cf9fc4c0b3ed7818d8d4a36c4d1a6e08ccb6bbe4d0a583f939e4ba129b",
+  "generatedAt": "2026-08-13T07:48:39.365Z",
   "health": {
     "status": "ok",
     "games": {
@@ -43,7 +43,7 @@
         "remaining": {
           "startsAt": "2026-08-12T03:00:00.000Z",
           "endsAt": "2026-09-01T09:59:59.000Z",
-          "durationSeconds": 1655612
+          "durationSeconds": 1649479
         },
         "characters": [
           {
@@ -348,6 +348,12 @@
       ],
       "codes": [
         {
+          "code": "MYSNEZHNAYACAREER",
+          "added": "2026-08-13",
+          "amount": 160,
+          "currency": "Primogems"
+        },
+        {
           "code": "LEGEDILJKSGM",
           "added": "2026-08-11",
           "amount": 60,
@@ -370,12 +376,6 @@
           "added": "2026-07-31",
           "amount": 100,
           "currency": "Primogems"
-        },
-        {
-          "code": "Odettte0812",
-          "added": "2026-07-31",
-          "amount": 100,
-          "currency": "Primogems"
         }
       ]
     },
@@ -389,7 +389,7 @@
         "remaining": {
           "startsAt": "2026-08-05T11:00:00.000Z",
           "endsAt": "2026-08-25T14:00:00.000Z",
-          "durationSeconds": 1065213
+          "durationSeconds": 1059080
         },
         "characters": [
           {
@@ -819,7 +819,7 @@
         "remaining": {
           "startsAt": "2026-07-29T03:00:00.000Z",
           "endsAt": "2026-08-19T03:59:59.000Z",
-          "durationSeconds": 510812
+          "durationSeconds": 504679
         },
         "characters": [
           {
@@ -1153,7 +1153,7 @@
         "remaining": {
           "startsAt": "2026-07-30T09:00:00.000Z",
           "endsAt": "2026-08-19T10:59:00.000Z",
-          "durationSeconds": 535953
+          "durationSeconds": 529820
         },
         "characters": [
           {
@@ -1487,7 +1487,7 @@
         "remaining": {
           "startsAt": "2026-08-09T04:00:00.000Z",
           "endsAt": "2026-09-01T21:59:59.000Z",
-          "durationSeconds": 1698812
+          "durationSeconds": 1692679
         },
         "characters": [
           {

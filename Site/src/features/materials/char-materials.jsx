@@ -2161,6 +2161,7 @@ const CM_PROFILE_STATS = [
   ['critRate', 'CRIT Rate'], ['critDmg', 'CRIT DMG'], ['energyRecharge', 'Energy Recharge'],
   ['elementalMastery', 'Elemental Mastery'], ['impact', 'Impact'],
   ['anomalyProficiency', 'Anomaly Proficiency'], ['anomalyMastery', 'Anomaly Mastery'],
+  ['strength', 'Strength'], ['agility', 'Agility'], ['intellect', 'Intellect'], ['will', 'Will'],
 ];
 
 const CM_PROFILE_FACTS = {
@@ -2179,15 +2180,29 @@ function cmProfileValue(key, value){
 }
 
 function cmHasProfile(baseStats, facts){
-  const hasStats = Object.keys(baseStats?.level1 || {}).some((key) => key !== 'level' && Number.isFinite(Number(baseStats.level1[key])));
+  const checkpoints = Array.isArray(baseStats?.levels) ? baseStats.levels : [baseStats?.level1, baseStats?.max];
+  const hasStats = checkpoints.some((row) => Object.keys(row || {}).some((key) => !['label', 'level', 'cap'].includes(key) && Number.isFinite(Number(row[key]))));
   const hasFacts = Object.values(facts || {}).some((value) => value !== undefined && value !== null && String(value).trim());
   return hasStats || hasFacts;
 }
 
-function CharacterProfile({ gameKey, baseStats, facts }){
-  const level1 = baseStats?.level1 || {};
-  const max = baseStats?.max || {};
-  const statRows = CM_PROFILE_STATS.filter(([key]) => Number.isFinite(Number(level1[key])) || Number.isFinite(Number(max[key])));
+function cmProfileCheckpoints(baseStats){
+  const sourced = (Array.isArray(baseStats?.levels) ? baseStats.levels : [])
+    .filter((row) => row && CM_PROFILE_STATS.some(([key]) => Number.isFinite(Number(row[key]))))
+    .map((row) => ({ ...row, label:row.label || `Lv. ${row.level || '?'}` }));
+  if (sourced.length) return sourced;
+  return [
+    baseStats?.level1 && { ...baseStats.level1, label:'Lv. 1', level:1 },
+    baseStats?.max && { ...baseStats.max, label:`Lv. ${baseStats.max.level || 'Max'}` },
+  ].filter((row) => row && CM_PROFILE_STATS.some(([key]) => Number.isFinite(Number(row[key]))));
+}
+
+function CharacterProfile({ gameKey, baseStats, facts, characterName }){
+  const checkpoints = cmProfileCheckpoints(baseStats);
+  const [levelIndex, setLevelIndex] = React.useState(Math.max(0, checkpoints.length - 1));
+  const rangeId = React.useId();
+  const checkpoint = checkpoints[Math.min(levelIndex, Math.max(0, checkpoints.length - 1))] || {};
+  const statRows = CM_PROFILE_STATS.filter(([key]) => checkpoints.some((row) => Number.isFinite(Number(row[key]))));
   const factRows = (CM_PROFILE_FACTS[gameKey] || CM_PROFILE_FACTS.ae)
     .map(([key, label]) => ({ key, label, value:facts?.[key] }))
     .filter((row) => row.value !== undefined && row.value !== null && String(row.value).trim());
@@ -2201,22 +2216,123 @@ function CharacterProfile({ gameKey, baseStats, facts }){
         </div>
       )}
       {statRows.length > 0 && (
-        <div className="cm-profile-stat-grid" role="table" aria-label="Base stats">
-          <div className="cm-profile-stat-head" role="row">
-            <b role="columnheader">Base Stat</b><span role="columnheader">Lv.1</span><span role="columnheader">Lv.{max.level || 'Max'}</span>
+        <div className="cm-profile-stat-grid">
+          <div className="cm-profile-level-control">
+            <label htmlFor={rangeId}>{characterName || 'Character'} profile level</label>
+            {checkpoints.length > 1 ? (
+              <React.Fragment>
+                <input id={rangeId} type="range" min="0" max={checkpoints.length - 1} step="1" value={levelIndex}
+                       aria-valuetext={checkpoint.label} onChange={(event) => setLevelIndex(Number(event.target.value))} />
+                <output htmlFor={rangeId}>{checkpoint.label}</output>
+              </React.Fragment>
+            ) : <output>{checkpoint.label}</output>}
           </div>
-          {statRows.map(([key, label]) => (
-            <div className="cm-profile-stat-row" role="row" key={key}>
-              <b role="rowheader">{label}</b><span role="cell">{cmProfileValue(key, level1[key])}</span><span role="cell">{cmProfileValue(key, max[key])}</span>
-            </div>
-          ))}
+          <table className="cm-profile-stat-table">
+            <thead><tr><th>Base Stat</th><th>{checkpoint.label}</th></tr></thead>
+            <tbody>
+              {statRows.map(([key, label]) => (
+                <tr key={key}><th scope="row">{label}</th><td>{cmProfileValue(key, checkpoint[key])}</td></tr>
+              ))}
+            </tbody>
+          </table>
         </div>
       )}
     </section>
   );
 }
 
-function CharacterKitPanel({ kit, baseStats, facts, gameKey, emptyText }){
+function cmKitLevelLabels(entry){
+  const candidates = [];
+  if (entry?.levels?.length) candidates.push(entry.levels.map((row, index) => row.label || `Lv. ${index + 1}`));
+  (entry?.scaling || []).forEach((group) => {
+    if (group?.columns?.length) candidates.push(group.columns);
+  });
+  return candidates.reduce((longest, labels) => labels.length > longest.length ? labels : longest, []);
+}
+
+function cmKitLevelIndex(labels){
+  const levelTen = labels.findIndex((label) => /(?:^|\D)10(?:\D|$)/.test(String(label)));
+  return levelTen >= 0 ? levelTen : Math.max(0, labels.length - 1);
+}
+
+function cmKitMatchingIndex(labels, selectedLabel, fallback){
+  const exact = (labels || []).findIndex((label) => String(label) === String(selectedLabel));
+  return exact >= 0 ? exact : fallback;
+}
+
+function cmKitEntryIcon(gameKey, skillIcons, sectionTitle, entry, entryIndex){
+  if (entry?.icon) return entry.icon;
+  if (gameKey === 'zzz') {
+    const type = String(entry?.type || '').toLowerCase();
+    const iconIndex = Object.entries({ basic:0, dodge:1, assist:2, special:3, chain:4 })
+      .find(([prefix]) => type.startsWith(prefix))?.[1];
+    if (iconIndex !== undefined && skillIcons?.[iconIndex]) return skillIcons[iconIndex];
+  }
+  if (gameKey === 'ae' && String(sectionTitle || '').toLowerCase() === 'combat skills' && skillIcons?.[entryIndex]) return skillIcons[entryIndex];
+  return '../../assets/icon/nyx_logo.png';
+}
+
+function CharacterKitEntry({ entry, entryIndex, sectionTitle, gameKey, characterName, skillIcons, groupLabel }){
+  const labels = cmKitLevelLabels(entry);
+  const [levelIndex, setLevelIndex] = React.useState(() => cmKitLevelIndex(labels));
+  const rangeId = React.useId();
+  const selectedLabel = labels[Math.min(levelIndex, Math.max(0, labels.length - 1))] || '';
+  const levelRows = entry?.levels || [];
+  const descriptionIndex = levelRows.length === labels.length
+    ? levelIndex
+    : cmKitMatchingIndex(levelRows.map((row) => row.label), selectedLabel, levelIndex);
+  const description = levelRows[descriptionIndex]?.text || entry?.desc;
+  return (
+    <article className="cm-kit-entry">
+      <div className="cm-kit-entry-head">
+        <img src={cmKitEntryIcon(gameKey, skillIcons, sectionTitle, entry, entryIndex)} alt="" draggable="false" />
+        <div>
+          {entry.type && entry.type !== groupLabel && <span>{entry.type}</span>}
+          <b>{entry.name || 'Skill'}</b>
+        </div>
+      </div>
+      {description && <p>{description}</p>}
+      {Array.isArray(entry.stats) && entry.stats.length > 0 && (
+        <dl className="cm-kit-stats">
+          {entry.stats.map((stat, index) => (
+            <div key={(stat.label || 'stat') + index}><dt>{stat.label}</dt><dd>{stat.value}</dd></div>
+          ))}
+        </dl>
+      )}
+      {labels.length > 1 && (
+        <details className="cm-kit-levels">
+          <summary>Skill level values</summary>
+          <div className="cm-kit-level-detail">
+            <div className="cm-kit-level-control">
+              <label htmlFor={rangeId}>{characterName || 'Character'} {entry.name || 'skill'} level</label>
+              <input id={rangeId} type="range" min="0" max={labels.length - 1} step="1" value={levelIndex}
+                     aria-valuetext={selectedLabel} onChange={(event) => setLevelIndex(Number(event.target.value))} />
+              <output htmlFor={rangeId}>{selectedLabel}</output>
+            </div>
+            {(entry.scaling || []).map((scaling, scalingIndex) => {
+              const valueIndex = cmKitMatchingIndex(scaling.columns, selectedLabel, levelIndex);
+              return (
+                <section className="cm-kit-scale-table" key={(scaling.title || 'scaling') + scalingIndex}>
+                  <h4>{scaling.title || 'Scaling'}</h4>
+                  <table>
+                    <thead><tr><th>Stat</th><th>Value</th></tr></thead>
+                    <tbody>
+                      {(scaling.rows || []).map((row, rowIndex) => (
+                        <tr key={(row.label || 'row') + rowIndex}><th scope="row">{row.label}</th><td>{row.values?.[valueIndex] ?? '\u2014'}</td></tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </section>
+              );
+            })}
+          </div>
+        </details>
+      )}
+    </article>
+  );
+}
+
+function CharacterKitPanel({ kit, baseStats, facts, gameKey, characterName, skillIcons, emptyText }){
   const sections = (kit?.sections || []).filter((section) => (section?.entries || []).length);
   const hasProfile = cmHasProfile(baseStats, facts);
   if (!sections.length && !hasProfile) return <div className="cm-empty">{emptyText || 'No character kit data available yet.'}</div>;
@@ -2227,7 +2343,7 @@ function CharacterKitPanel({ kit, baseStats, facts, gameKey, emptyText }){
   ].filter(Boolean) : [];
   return (
     <div className="cm-kit-panel">
-      <CharacterProfile gameKey={gameKey} baseStats={baseStats} facts={facts} />
+      <CharacterProfile key={characterName || gameKey} gameKey={gameKey} baseStats={baseStats} facts={facts} characterName={characterName} />
       {versionParts.length > 0 && <div className="cm-kit-source">{versionParts.join(' / ')}</div>}
       {sections.map((section, si) => (
         <div className="cm-kit-section" key={section.title || si}>
@@ -2237,63 +2353,8 @@ function CharacterKitPanel({ kit, baseStats, facts, gameKey, emptyText }){
               {group.label && <div className="cm-kit-type-title">{group.label}</div>}
               <div className="cm-kit-list">
                 {(group.entries || []).map((entry, ei) => (
-                  <article className="cm-kit-entry" key={(entry.name || 'entry') + ei}>
-                    <div className="cm-kit-entry-head">
-                      {entry.icon && <img src={entry.icon} alt="" draggable="false" />}
-                      <div>
-                        {entry.type && entry.type !== group.label && <span>{entry.type}</span>}
-                        <b>{entry.name || 'Skill'}</b>
-                      </div>
-                    </div>
-                    {entry.desc && <p>{entry.desc}</p>}
-                    {Array.isArray(entry.stats) && entry.stats.length > 0 && (
-                      <div className="cm-kit-stats">
-                        {entry.stats.map((stat, i) => (
-                          <span key={(stat.label || 'stat') + i}><b>{stat.label}</b><em>{stat.value}</em></span>
-                        ))}
-                      </div>
-                    )}
-                    {Array.isArray(entry.levels) && entry.levels.length > 0 && (
-                      <details className="cm-kit-levels">
-                        <summary>Level changes</summary>
-                        <div className="cm-kit-level-list">
-                          {entry.levels.map((level, i) => (
-                            <div className="cm-kit-level-row" key={(level.label || 'level') + i}>
-                              <b>{level.label}</b>
-                              <p>{level.text}</p>
-                            </div>
-                          ))}
-                        </div>
-                      </details>
-                    )}
-                    {Array.isArray(entry.scaling) && entry.scaling.length > 0 && (
-                      <div className="cm-kit-scaling">
-                        {entry.scaling.map((group, gsi) => (
-                          <details className="cm-kit-scale-table" key={(group.title || 'scaling') + gsi}>
-                            <summary>{group.title || 'Scaling'}</summary>
-                            <div className="cm-kit-scale-scroll">
-                              <table>
-                                <thead>
-                                  <tr>
-                                    <th>Stat</th>
-                                    {(group.columns || []).map((column, ci) => <th key={(column || 'lv') + ci}>{column}</th>)}
-                                  </tr>
-                                </thead>
-                                <tbody>
-                                  {(group.rows || []).map((row, ri) => (
-                                    <tr key={(row.label || 'row') + ri}>
-                                      <th>{row.label}</th>
-                                      {(row.values || []).map((value, vi) => <td key={vi}>{value}</td>)}
-                                    </tr>
-                                  ))}
-                                </tbody>
-                              </table>
-                            </div>
-                          </details>
-                        ))}
-                      </div>
-                    )}
-                  </article>
+                  <CharacterKitEntry key={`${characterName || 'character'}-${section.title || si}-${entry.name || 'entry'}-${ei}`} entry={entry} entryIndex={ei} sectionTitle={section.title}
+                                     gameKey={gameKey} characterName={characterName} skillIcons={skillIcons} groupLabel={group.label} />
                 ))}
               </div>
             </div>
@@ -3524,7 +3585,8 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
                     />
                   </div>
                 ) : detailTab === 'kit' ? (
-                  <CharacterKitPanel kit={view?.kit} baseStats={view?.baseStats} facts={view?.facts} gameKey={gk} emptyText={kitEmptyText} />
+                  <CharacterKitPanel kit={view?.kit} baseStats={view?.baseStats} facts={view?.facts} gameKey={gk}
+                                     characterName={view?.n} skillIcons={view?.skillIcons} emptyText={kitEmptyText} />
                 ) : detailTab === 'gallery' ? (
                   <CharacterGalleryPanel items={characterGalleryItems} name={view?.n} />
                 ) : sharedCard ? (

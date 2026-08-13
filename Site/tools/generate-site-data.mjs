@@ -124,13 +124,14 @@ function parsePrydwenDate(s) {
   if (!m) return 0;
   const months = { Jan:0, January:0, Feb:1, February:1, Mar:2, March:2, Apr:3, April:3, May:4, Jun:5, June:5, Jul:6, July:6, Aug:7, August:7, Sep:8, September:8, Oct:9, October:9, Nov:10, November:10, Dec:11, December:11 };
   const mo = months[m[2]] ?? months[m[2].slice(0, 3)];
-  return mo === undefined ? 0 : new Date(Number(m[3]), mo, Number(m[1])).getTime();
+  return mo === undefined ? 0 : Date.UTC(Number(m[3]), mo, Number(m[1]));
 }
 
 function parseRelease(value) {
   if (!value) return 0;
   if (typeof value === 'number') return value * 1000;
-  const t = Date.parse(value);
+  const text = String(value);
+  const t = Date.parse(/^\d{4}-\d{2}-\d{2}(?:[ T]\d{2}:\d{2}:\d{2})?$/.test(text) ? `${text.replace(' ', 'T')}Z` : text);
   return Number.isFinite(t) ? t : 0;
 }
 
@@ -1736,43 +1737,57 @@ function profileBirthday(value) {
   return monthIndex >= 0 && day >= 1 && day <= 31 ? `${PROFILE_MONTHS[monthIndex]} ${day}` : undefined;
 }
 
+function profileCheckpoint(level, cap, stats) {
+  return { label:`Lv. ${level}/${cap}`, level, cap, ...stats };
+}
+
+function profileBaseStats(levels, legacyMax = levels.at(-1)) {
+  if (!levels.length) return {};
+  const { label:_firstLabel, level:_firstLevel, cap:_firstCap, ...level1 } = levels[0];
+  const { label:_maxLabel, cap:_maxCap, ...max } = legacyMax || levels.at(-1);
+  return { level1, max, levels };
+}
+
 function giProfileData(ch) {
   const stats = ch?.stats || {};
   const modifiers = stats.modifiers || {};
-  const maxLevel = 90;
-  const ascension = Array.isArray(modifiers.ascension) ? modifiers.ascension.at(-1) || {} : {};
-  const scaled = (key, ascensionKey) => {
-    const base = Number(stats[key]);
-    const curve = Number(modifiers[key === 'baseHp' ? 'hp' : key === 'baseAtk' ? 'atk' : 'def']?.[maxLevel]);
-    if (!Number.isFinite(base) || !Number.isFinite(curve)) return undefined;
-    return profileNumber(base * curve + Number(ascension[ascensionKey] || 0));
+  const ascensions = Array.isArray(modifiers.ascension) ? modifiers.ascension : [];
+  const hasEnergyRecharge = ascensions.some((row) => Number(row?.fight_prop_charge_efficiency || 0));
+  const checkpointStats = (level, ascension = {}) => {
+    const scaled = (key, ascensionKey) => {
+      const base = Number(stats[key]);
+      const curveKey = key === 'baseHp' ? 'hp' : key === 'baseAtk' ? 'atk' : 'def';
+      const curve = Number(modifiers[curveKey]?.[level]);
+      if (!Number.isFinite(base) || !Number.isFinite(curve)) return undefined;
+      return profileNumber(base * curve + Number(ascension[ascensionKey] || 0));
+    };
+    return {
+      hp: scaled('baseHp', 'fight_prop_base_hp'),
+      atk: scaled('baseAtk', 'fight_prop_base_attack'),
+      def: scaled('baseDef', 'fight_prop_base_defense'),
+      critRate: profileNumber(Number(stats.critRate || 0) + Number(ascension.fight_prop_critical || 0), 4),
+      critDmg: profileNumber(Number(stats.critDmg || 0) + Number(ascension.fight_prop_critical_hurt || 0), 4),
+      elementalMastery: profileNumber(Number(stats.elementalMastery || 0) + Number(ascension.fight_prop_element_mastery || 0)),
+      ...(hasEnergyRecharge ? { energyRecharge:profileNumber(1 + Number(ascension.fight_prop_charge_efficiency || 0), 4) } : {}),
+    };
   };
-  const level1 = {
-    hp: profileNumber(stats.baseHp),
-    atk: profileNumber(stats.baseAtk),
-    def: profileNumber(stats.baseDef),
-    critRate: profileNumber(stats.critRate, 4),
-    critDmg: profileNumber(stats.critDmg, 4),
-    elementalMastery: profileNumber(stats.elementalMastery),
-  };
-  const max = {
-    level: maxLevel,
-    hp: scaled('baseHp', 'fight_prop_base_hp'),
-    atk: scaled('baseAtk', 'fight_prop_base_attack'),
-    def: scaled('baseDef', 'fight_prop_base_defense'),
-    critRate: profileNumber(Number(stats.critRate || 0) + Number(ascension.fight_prop_critical || 0), 4),
-    critDmg: profileNumber(Number(stats.critDmg || 0) + Number(ascension.fight_prop_critical_hurt || 0), 4),
-    elementalMastery: profileNumber(Number(stats.elementalMastery || 0) + Number(ascension.fight_prop_element_mastery || 0)),
-  };
-  const rechargeBonus = Number(ascension.fight_prop_charge_efficiency || 0);
-  if (rechargeBonus) {
-    level1.energyRecharge = 1;
-    max.energyRecharge = profileNumber(1 + rechargeBonus, 4);
-  }
+  const checkpointSpecs = [
+    [1, 20, null], [20, 40, 0], [40, 50, 1], [50, 60, 2],
+    [60, 70, 3], [70, 80, 4], [80, 90, 5], [90, 90, 5],
+  ];
+  const levels = checkpointSpecs.map(([level, cap, ascensionIndex]) => profileCheckpoint(
+    level,
+    cap,
+    checkpointStats(level, ascensionIndex === null ? {} : ascensions[ascensionIndex] || {}),
+  ));
+  const hasStats = levels.some((row) => ['hp', 'atk', 'def'].some((key) => Number.isFinite(Number(row[key]))));
+  /* Keep the old level1/max fields for existing consumers. `levels` is the
+     source-backed promotion ruler used by the shared character profile. */
+  const baseStats = hasStats ? profileBaseStats(levels) : {};
   const isTraveler = /^1000000[57]/.test(String(ch?.id || '')) || /^Traveler$/i.test(String(ch?.name || ''));
   const nation = String(ch?.profile?.region || '').replace(/^ASSOC_TYPE_/, '').replace(/_/g, ' ');
   return {
-    baseStats: Object.keys(level1).some((key) => level1[key] !== undefined) ? { level1, max } : {},
+    baseStats,
     facts: {
       title: profileText(ch?.profile?.title),
       affiliation: profileText(ch?.profile?.native),
@@ -1784,48 +1799,59 @@ function giProfileData(ch) {
 }
 
 function hsrProfileData(ch) {
-  const ascensions = Array.isArray(ch?.ascensions) ? ch.ascensions : [];
-  const first = ascensions[0]?.stats || {};
-  const last = ascensions.at(-1)?.stats || {};
-  const maxLevel = 80;
-  const grow = (baseKey, addKey) => profileNumber(Number(last[baseKey]) + Number(last[addKey] || 0) * (maxLevel - 1));
-  const hasStats = Object.keys(first).length > 0;
+  const ascensions = (Array.isArray(ch?.ascensions) ? ch.ascensions : [])
+    .filter((row) => row?.stats)
+    .sort((a, b) => Number(a.promotion ?? a.key) - Number(b.promotion ?? b.key));
+  const phaseStats = (phase, level) => {
+    const stats = phase?.stats || {};
+    const grow = (baseKey, addKey) => profileNumber(Number(stats[baseKey]) + Number(stats[addKey] || 0) * (level - 1));
+    return {
+      hp: grow('hp_base', 'hp_add'), atk: grow('attack_base', 'attack_add'), def: grow('defence_base', 'defence_add'),
+      speed: profileNumber(stats.speed_base), critRate: profileNumber(stats.critical_chance, 4), critDmg: profileNumber(stats.critical_damage, 4),
+    };
+  };
+  const levels = ascensions.map((phase, index) => {
+    const promotion = Number(phase.promotion ?? phase.key ?? index);
+    const level = promotion === 0 ? 1 : promotion * 10 + 10;
+    const cap = promotion * 10 + 20;
+    return profileCheckpoint(level, cap, phaseStats(phase, level));
+  });
+  const finalPhase = ascensions.find((phase) => Number(phase.promotion ?? phase.key) === 6) || ascensions.at(-1);
+  if (finalPhase) levels.push(profileCheckpoint(80, 80, phaseStats(finalPhase, 80)));
   return {
-    baseStats: hasStats ? {
-      level1: {
-        hp: profileNumber(first.hp_base), atk: profileNumber(first.attack_base), def: profileNumber(first.defence_base),
-        speed: profileNumber(first.speed_base), critRate: profileNumber(first.critical_chance, 4), critDmg: profileNumber(first.critical_damage, 4),
-      },
-      max: {
-        level: maxLevel, hp: grow('hp_base', 'hp_add'), atk: grow('attack_base', 'attack_add'), def: grow('defence_base', 'defence_add'),
-        speed: profileNumber(last.speed_base), critRate: profileNumber(last.critical_chance, 4), critDmg: profileNumber(last.critical_damage, 4),
-      },
-    } : {},
+    baseStats: profileBaseStats(levels),
     facts: { camp: profileText(ch?.profile?.camp) },
   };
 }
 
 function zzzProfileData(ch) {
   const stats = ch?.stats || {};
-  const maxLevel = 60;
-  const promotion = ch?.levels?.[6] || Object.values(ch?.levels || {}).at(-1) || {};
-  const grow = (baseKey, growthKey, promotionKey = baseKey) => profileNumber(
-    Number(stats[baseKey]) + Number(stats[growthKey] || 0) / 10000 * (maxLevel - 1) + Number(promotion[promotionKey] || 0),
-  );
   const hasStats = Number.isFinite(Number(stats.hp_max));
+  const stages = Object.entries(ch?.levels || {})
+    .map(([key, stage]) => ({ key:Number(key), ...stage }))
+    .sort((a, b) => a.key - b.key);
+  const stageStats = (stage, level) => {
+    const grow = (baseKey, growthKey, promotionKey = baseKey) => profileNumber(
+      Number(stats[baseKey]) + Number(stats[growthKey] || 0) / 10000 * (level - 1) + Number(stage?.[promotionKey] || 0),
+    );
+    return {
+      hp: grow('hp_max', 'hp_growth'), atk: grow('attack', 'attack_growth'), def: grow('defence', 'defence_growth'),
+      critRate: profileNumber(Number(stats.crit) / 10000, 4), critDmg: profileNumber(Number(stats.crit_damage) / 10000, 4),
+      impact: profileNumber(stats.break_stun), anomalyProficiency: profileNumber(stats.element_abnormal_power), anomalyMastery: profileNumber(stats.element_mystery),
+    };
+  };
+  const levels = stages.map((stage, index) => {
+    const level = index === 0 ? 1 : Number(stage.level_min);
+    const cap = Number(stage.level_max);
+    return profileCheckpoint(level, cap, stageStats(stage, level));
+  }).filter((row) => Number.isFinite(row.level) && Number.isFinite(row.cap));
+  const finalStage = stages.at(-1);
+  if (finalStage) {
+    const maxLevel = Number(finalStage.level_max);
+    levels.push(profileCheckpoint(maxLevel, maxLevel, stageStats(finalStage, maxLevel)));
+  }
   return {
-    baseStats: hasStats ? {
-      level1: {
-        hp: profileNumber(stats.hp_max), atk: profileNumber(stats.attack), def: profileNumber(stats.defence),
-        critRate: profileNumber(Number(stats.crit) / 10000, 4), critDmg: profileNumber(Number(stats.crit_damage) / 10000, 4),
-        impact: profileNumber(stats.break_stun), anomalyProficiency: profileNumber(stats.element_abnormal_power), anomalyMastery: profileNumber(stats.element_mystery),
-      },
-      max: {
-        level: maxLevel, hp: grow('hp_max', 'hp_growth'), atk: grow('attack', 'attack_growth'), def: grow('defence', 'defence_growth'),
-        critRate: profileNumber(Number(stats.crit) / 10000, 4), critDmg: profileNumber(Number(stats.crit_damage) / 10000, 4),
-        impact: profileNumber(stats.break_stun), anomalyProficiency: profileNumber(stats.element_abnormal_power), anomalyMastery: profileNumber(stats.element_mystery),
-      },
-    } : {},
+    baseStats: hasStats ? profileBaseStats(levels) : {},
     facts: {
       fullName: resolvedProfileText(ch?.profile?.full_name),
       faction: resolvedProfileText(profileFirst(ch?.camp)),
@@ -1843,17 +1869,22 @@ function resolvedProfileText(value, max = 120) {
 
 function wuwaProfileData(ch) {
   const curves = ch?.stats?.stats || {};
-  const firstCurve = curves[Object.keys(curves).sort((a, b) => Number(a) - Number(b))[0]] || {};
-  const lastCurve = curves[Object.keys(curves).sort((a, b) => Number(a) - Number(b)).at(-1)] || {};
-  const first = firstCurve[Object.keys(firstCurve).sort((a, b) => Number(a) - Number(b))[0]] || {};
-  const maxLevel = Number(Object.keys(lastCurve).sort((a, b) => Number(a) - Number(b)).at(-1));
-  const maxRow = lastCurve[maxLevel] || {};
+  const phases = Object.keys(curves).sort((a, b) => Number(a) - Number(b)).map((key) => curves[key] || {});
+  const checkpoint = (level, cap, row) => profileCheckpoint(level, cap, {
+    hp: profileNumber(row?.life), atk: profileNumber(row?.atk), def: profileNumber(row?.def),
+  });
+  const levels = phases.map((phase) => {
+    const phaseLevels = Object.keys(phase).sort((a, b) => Number(a) - Number(b));
+    const level = Number(phaseLevels[0]);
+    const cap = Number(phaseLevels.at(-1));
+    return checkpoint(level, cap, phase[level]);
+  }).filter((row) => Number.isFinite(row.level) && Number.isFinite(row.cap));
+  const lastPhase = phases.at(-1) || {};
+  const maxLevel = Number(Object.keys(lastPhase).sort((a, b) => Number(a) - Number(b)).at(-1));
+  if (Number.isFinite(maxLevel)) levels.push(checkpoint(maxLevel, maxLevel, lastPhase[maxLevel]));
   const info = ch?.profile?.charaInfo || {};
   return {
-    baseStats: Object.keys(first).length ? {
-      level1: { hp: profileNumber(first.life), atk: profileNumber(first.atk), def: profileNumber(first.def) },
-      max: { level: maxLevel, hp: profileNumber(maxRow.life), atk: profileNumber(maxRow.atk), def: profileNumber(maxRow.def) },
-    } : {},
+    baseStats: profileBaseStats(levels),
     facts: {
       birthday: profileBirthday(info.birth),
       nation: profileText(info.country),
@@ -1862,11 +1893,16 @@ function wuwaProfileData(ch) {
   };
 }
 
-function endfieldProfileData(ch) {
+function endfieldProfileData(ch, page = endfieldPageForCharacter(ch)) {
+  const section = page?.sections?.find((row) => String(row?.heading || '').trim() === 'Attributes (level 90)');
+  const attributes = {};
+  for (const label of ['Strength', 'Agility', 'Intellect', 'Will']) {
+    const match = String(section?.text || '').match(new RegExp(`${label}\\s*\\n\\s*(-?\\d+(?:\\.\\d+)?)`, 'i'));
+    if (match) attributes[label.toLowerCase()] = profileNumber(match[1]);
+  }
+  const levels = Object.keys(attributes).length ? [profileCheckpoint(90, 90, attributes)] : [];
   return {
-    // The current structured Cargo/infobox records do not expose numeric operator
-    // base stats. Keep the normalized object present and empty instead of guessing.
-    baseStats: {},
+    baseStats: levels.length ? { max:{ level:90, ...attributes }, levels } : {},
     facts: {
       faction: profileText(ch?.faction || ch?.infobox?.faction),
       birthday: profileBirthday(ch?.birthDate || ch?.infobox?.birthdate),
@@ -3611,6 +3647,35 @@ function endfieldPageForCharacter(ch) {
   return null;
 }
 
+function endfieldPrydwenKitSections(page) {
+  const section = (heading, marker) => page?.sections?.find((row) => (
+    String(row?.heading || '').trim() === heading
+    && (!marker || String(row?.text || '').includes(marker))
+  ));
+  const stripEffects = (value) => String(value || '')
+    .replace(/\r/g, '')
+    .replace(/(?:\n[ \t]*)?Show Effects[ \t]*(?:\n[ \t]*)*$/i, '')
+    .trim();
+  const sections = [];
+  const talentSection = page?.sections?.find((row) => (
+    String(row?.heading || '').trim() === 'Talents'
+    && /(?:Base|Combat) Talent\s*\n/i.test(String(row?.text || ''))
+  ));
+  const talentText = String(talentSection?.text || '').replace(/\r/g, '');
+  const talents = [...talentText.matchAll(
+    /(?:^|\n)[ \t]*(Base Talent|Combat Talent)[ \t]*\n[ \t]*([^\n]+?)[ \t]*\n([\s\S]*?)(?=\n[ \t]*(?:Base Talent|Combat Talent)[ \t]*\n|$)/g,
+  )].map((match) => kitEntry({ type:match[1], name:match[2], desc:stripEffects(match[3]) })).filter(Boolean);
+  if (talents.length) sections.push({ title:'Talents', entries:talents });
+
+  const potentialText = String(section('Potential (dupes)', 'P1')?.text || '').replace(/\r/g, '');
+  const potentials = [...potentialText.matchAll(
+    /(?:^|\n)[ \t]*P([1-5])[ \t]*\n[ \t]*([^\n]+?)[ \t]*\n[ \t]*Potential[ \t]+[1-5][ \t]*\n([\s\S]*?)(?=\n[ \t]*P[1-5][ \t]*\n|$)/g,
+  )].map((match) => kitEntry({ type:`Potential ${match[1]}`, name:match[2], desc:stripEffects(match[3]) }))
+    .filter((entry) => entry && !/^\?+$/.test(entry.name || '') && !/^\?+$/.test(entry.desc || ''));
+  if (potentials.length) sections.push({ title:'Potentials', entries:potentials });
+  return sections;
+}
+
 function extractRankedRecommendationNames(text) {
   return String(text || '')
     .split(/\n\s*\d+\s*\n+/)
@@ -3711,8 +3776,9 @@ function endfieldCombatSkillStats(fields) {
     .filter(Boolean);
 }
 
-function buildEndfieldKit(ch) {
+function buildEndfieldKit(ch, page = endfieldPageForCharacter(ch)) {
   const sections = [];
+  let hasWiki = false;
   const combatText = (ch.sections || []).find((row) => /combat skills/i.test(row?.heading || ''))?.text || '';
   const entries = [...String(combatText).matchAll(/\{\{Combat skill([\s\S]*?)\}\}/g)]
     .map((match) => {
@@ -3725,15 +3791,23 @@ function buildEndfieldKit(ch) {
       });
     })
     .filter(Boolean);
-  if (entries.length) sections.push({ title: 'Combat Skills', entries });
+  if (entries.length) {
+    sections.push({ title: 'Combat Skills', entries });
+    hasWiki = true;
+  }
 
   const baseText = (ch.sections || []).find((row) => /base skills/i.test(row?.heading || ''))?.text;
   if (baseText) {
     const entry = kitEntry({ name: 'Base Skills', type: 'Base', desc: baseText });
-    if (entry) sections.push({ title: 'Base Skills', entries: [entry] });
+    if (entry) {
+      sections.push({ title: 'Base Skills', entries: [entry] });
+      hasWiki = true;
+    }
   }
+  const supplement = endfieldPrydwenKitSections(page);
+  sections.push(...supplement);
   return sections.length ? {
-    source: 'EndfieldWiki',
+    source: [hasWiki ? 'Endfield Wiki' : '', supplement.length ? 'Prydwen' : ''].filter(Boolean).join(' + '),
     channel: ch.contentStatus || 'live',
     version: ch.contentStatus || null,
     sections,
@@ -3929,8 +4003,9 @@ function buildEndfieldRoster() {
       },
       currency: Number(reqBase?.currency || 0) + Number(signatureWeapon.cost || 0),
     } : reqBase;
-    const kit = buildEndfieldKit(ch);
-    const profileData = endfieldProfileData(ch);
+    const page = endfieldPageForCharacter(ch);
+    const kit = buildEndfieldKit(ch, page);
+    const profileData = endfieldProfileData(ch, page);
     return {
       id: 'ae-' + (ch.id || ch.slug || ch.name.toLowerCase().replace(/\W+/g, '-')),
       n: ch.name,

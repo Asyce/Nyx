@@ -53735,7 +53735,97 @@
           "critRate": 0.05,
           "critDmg": 0.884,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 1010.52,
+            "atk": 26.07,
+            "def": 61.27,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 3487.72,
+            "atk": 89.97,
+            "def": 211.45,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 5834.36,
+            "atk": 150.5,
+            "def": 353.73,
+            "critRate": 0.05,
+            "critDmg": 0.596,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 7533.32,
+            "atk": 194.33,
+            "def": 456.73,
+            "critRate": 0.05,
+            "critDmg": 0.692,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 9036.18,
+            "atk": 233.1,
+            "def": 547.85,
+            "critRate": 0.05,
+            "critDmg": 0.692,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 10547.12,
+            "atk": 272.07,
+            "def": 639.46,
+            "critRate": 0.05,
+            "critDmg": 0.788,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 12068.17,
+            "atk": 311.31,
+            "def": 731.68,
+            "critRate": 0.05,
+            "critDmg": 0.884,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 12980.67,
+            "atk": 334.85,
+            "def": 787,
+            "critRate": 0.05,
+            "critDmg": 0.884,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Swirling Snow",
@@ -56228,7 +56318,105 @@
           "critDmg": 0.5,
           "elementalMastery": 0,
           "energyRecharge": 1.2667
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 1002.97,
+            "atk": 22.26,
+            "def": 58.94,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0,
+            "energyRecharge": 1
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 3325.9,
+            "atk": 73.82,
+            "def": 195.45,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0,
+            "energyRecharge": 1
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 5514.18,
+            "atk": 122.38,
+            "def": 324.05,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0,
+            "energyRecharge": 1.0667
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 7052.47,
+            "atk": 156.52,
+            "def": 414.45,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0,
+            "energyRecharge": 1.1333
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 8413.3,
+            "atk": 186.73,
+            "def": 494.43,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0,
+            "energyRecharge": 1.1333
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 9773.12,
+            "atk": 216.91,
+            "def": 574.34,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0,
+            "energyRecharge": 1.2
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 11133.95,
+            "atk": 247.11,
+            "def": 654.31,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0,
+            "energyRecharge": 1.2667
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 11962.41,
+            "atk": 265.5,
+            "def": 703,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0,
+            "energyRecharge": 1.2667
+          }
+        ]
       },
       "facts": {
         "title": "Swift-Striding Hound",
@@ -58480,7 +58668,97 @@
           "critRate": 0.242,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 1029.59,
+            "atk": 26.63,
+            "def": 58.57,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 3553.52,
+            "atk": 91.9,
+            "def": 202.16,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 5944.44,
+            "atk": 153.73,
+            "def": 338.18,
+            "critRate": 0.098,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 7675.46,
+            "atk": 198.49,
+            "def": 436.66,
+            "critRate": 0.146,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 9206.67,
+            "atk": 238.09,
+            "def": 523.78,
+            "critRate": 0.146,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 10746.12,
+            "atk": 277.9,
+            "def": 611.36,
+            "critRate": 0.194,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 12295.87,
+            "atk": 317.98,
+            "def": 699.52,
+            "critRate": 0.242,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 13225.58,
+            "atk": 342.03,
+            "def": 752.41,
+            "critRate": 0.242,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Mirrored Analysis",
@@ -61304,7 +61582,97 @@
           "critRate": 0.05,
           "critDmg": 0.884,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 1000.99,
+            "atk": 26.81,
+            "def": 61.03,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 3454.81,
+            "atk": 92.54,
+            "def": 210.63,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 5779.31,
+            "atk": 154.8,
+            "def": 352.35,
+            "critRate": 0.05,
+            "critDmg": 0.596,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 7462.25,
+            "atk": 199.88,
+            "def": 454.95,
+            "critRate": 0.05,
+            "critDmg": 0.692,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 8950.93,
+            "atk": 239.76,
+            "def": 545.71,
+            "critRate": 0.05,
+            "critDmg": 0.692,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 10447.62,
+            "atk": 279.85,
+            "def": 636.96,
+            "critRate": 0.05,
+            "critDmg": 0.788,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 11954.32,
+            "atk": 320.2,
+            "def": 728.82,
+            "critRate": 0.05,
+            "critDmg": 0.884,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 12858.21,
+            "atk": 344.42,
+            "def": 783.93,
+            "critRate": 0.05,
+            "critDmg": 0.884,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Sharpened Arrowhead",
@@ -63744,7 +64112,97 @@
           "critRate": 0.05,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 810.32,
+            "atk": 26.63,
+            "def": 43.8,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 2796.75,
+            "atk": 91.9,
+            "def": 151.16,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 4678.49,
+            "atk": 153.73,
+            "def": 252.86,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 6040.87,
+            "atk": 198.49,
+            "def": 326.49,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 7245.99,
+            "atk": 238.09,
+            "def": 391.63,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 8457.6,
+            "atk": 277.9,
+            "def": 457.11,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 9677.3,
+            "atk": 317.98,
+            "def": 523.03,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 10409.02,
+            "atk": 342.03,
+            "def": 562.58,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Clamor Within",
@@ -66334,7 +66792,97 @@
           "critRate": 0.05,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 811.49,
+            "atk": 18.52,
+            "def": 48.64,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 2690.96,
+            "atk": 61.41,
+            "def": 161.3,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 4461.47,
+            "atk": 101.82,
+            "def": 267.42,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 5706.09,
+            "atk": 130.23,
+            "def": 342.02,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 6807.12,
+            "atk": 155.36,
+            "def": 408.02,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 7907.35,
+            "atk": 180.47,
+            "def": 473.97,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 9008.38,
+            "atk": 205.6,
+            "def": 539.97,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 9678.67,
+            "atk": 220.89,
+            "def": 580.14,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Childlike Dreams Cherished",
@@ -68980,7 +69528,97 @@
           "critRate": 0.242,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 770.28,
+            "atk": 11.17,
+            "def": 70.6,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 2658.56,
+            "atk": 38.56,
+            "def": 243.67,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 4447.32,
+            "atk": 64.5,
+            "def": 407.62,
+            "critRate": 0.098,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 5742.38,
+            "atk": 83.28,
+            "def": 526.32,
+            "critRate": 0.146,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 6887.96,
+            "atk": 99.9,
+            "def": 631.31,
+            "critRate": 0.146,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 8039.69,
+            "atk": 116.6,
+            "def": 736.87,
+            "critRate": 0.194,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 9199.13,
+            "atk": 133.42,
+            "def": 843.14,
+            "critRate": 0.242,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 9894.7,
+            "atk": 143.51,
+            "def": 906.89,
+            "critRate": 0.242,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Augur of Wonders",
@@ -71803,7 +72441,97 @@
           "critRate": 0.05,
           "critDmg": 0.884,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 981.92,
+            "atk": 27.46,
+            "def": 61.92,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 3389.01,
+            "atk": 94.79,
+            "def": 213.73,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 5669.23,
+            "atk": 158.57,
+            "def": 357.53,
+            "critRate": 0.05,
+            "critDmg": 0.596,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 7320.12,
+            "atk": 204.74,
+            "def": 461.64,
+            "critRate": 0.05,
+            "critDmg": 0.692,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 8780.44,
+            "atk": 245.58,
+            "def": 553.74,
+            "critRate": 0.05,
+            "critDmg": 0.692,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 10248.62,
+            "atk": 286.65,
+            "def": 646.33,
+            "critRate": 0.05,
+            "critDmg": 0.788,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 11726.61,
+            "atk": 327.99,
+            "def": 739.54,
+            "critRate": 0.05,
+            "critDmg": 0.884,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 12613.29,
+            "atk": 352.79,
+            "def": 795.45,
+            "critRate": 0.05,
+            "critDmg": 0.884,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Knight of Boreas",
@@ -74550,7 +75278,97 @@
           "critRate": 0.05,
           "critDmg": 0.884,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 1005.75,
+            "atk": 17.5,
+            "def": 74.49,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 3471.26,
+            "atk": 60.41,
+            "def": 257.09,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 5806.83,
+            "atk": 101.05,
+            "def": 430.07,
+            "critRate": 0.05,
+            "critDmg": 0.596,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 7497.79,
+            "atk": 130.48,
+            "def": 555.31,
+            "critRate": 0.05,
+            "critDmg": 0.692,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 8993.56,
+            "atk": 156.51,
+            "def": 666.09,
+            "critRate": 0.05,
+            "critDmg": 0.692,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 10497.37,
+            "atk": 182.68,
+            "def": 777.47,
+            "critRate": 0.05,
+            "critDmg": 0.788,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 12011.24,
+            "atk": 209.02,
+            "def": 889.59,
+            "critRate": 0.05,
+            "critDmg": 0.884,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 12919.44,
+            "atk": 224.83,
+            "def": 956.85,
+            "critRate": 0.05,
+            "critDmg": 0.884,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "White Horse's Fleeting Spring",
@@ -77234,7 +78052,97 @@
           "critRate": 0.05,
           "critDmg": 0.5,
           "elementalMastery": 96
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 1002.97,
+            "atk": 16.03,
+            "def": 68.21,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 3325.9,
+            "atk": 53.15,
+            "def": 226.2,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 5514.18,
+            "atk": 88.12,
+            "def": 375.02,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 24
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 7052.47,
+            "atk": 112.7,
+            "def": 479.64,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 48
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 8413.3,
+            "atk": 134.44,
+            "def": 572.19,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 48
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 9773.12,
+            "atk": 156.17,
+            "def": 664.67,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 72
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 11133.95,
+            "atk": 177.92,
+            "def": 757.22,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 96
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 11962.41,
+            "atk": 191.16,
+            "def": 813.57,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 96
+          }
+        ]
       },
       "facts": {
         "title": "Nightmare's Burning Heart",
@@ -79958,7 +80866,97 @@
           "critRate": 0.242,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 1143.98,
+            "atk": 7.45,
+            "def": 40.09,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 3948.36,
+            "atk": 25.71,
+            "def": 138.35,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 6604.93,
+            "atk": 43,
+            "def": 231.44,
+            "critRate": 0.098,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 8528.29,
+            "atk": 55.52,
+            "def": 298.84,
+            "critRate": 0.146,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 10229.64,
+            "atk": 66.6,
+            "def": 358.46,
+            "critRate": 0.146,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 11940.14,
+            "atk": 77.74,
+            "def": 418.4,
+            "critRate": 0.194,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 13662.08,
+            "atk": 88.95,
+            "def": 478.73,
+            "critRate": 0.242,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 14695.09,
+            "atk": 95.67,
+            "def": 514.93,
+            "critRate": 0.242,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Welkin Moon's Homecoming",
@@ -82671,7 +83669,97 @@
           "critRate": 0.05,
           "critDmg": 0.884,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 967.62,
+            "atk": 27,
+            "def": 64.02,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 3339.65,
+            "atk": 93.18,
+            "def": 220.95,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 5586.67,
+            "atk": 155.88,
+            "def": 369.62,
+            "critRate": 0.05,
+            "critDmg": 0.596,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 7213.51,
+            "atk": 201.27,
+            "def": 477.25,
+            "critRate": 0.05,
+            "critDmg": 0.692,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 8652.57,
+            "atk": 241.42,
+            "def": 572.46,
+            "critRate": 0.05,
+            "critDmg": 0.692,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 10099.37,
+            "atk": 281.79,
+            "def": 668.18,
+            "critRate": 0.05,
+            "critDmg": 0.788,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 11555.84,
+            "atk": 322.43,
+            "def": 764.54,
+            "critRate": 0.05,
+            "critDmg": 0.884,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 12429.6,
+            "atk": 346.81,
+            "def": 822.35,
+            "critRate": 0.05,
+            "critDmg": 0.884,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "\"The Undying Fire\"",
@@ -85383,7 +86471,97 @@
           "critRate": 0.05,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 808.76,
+            "atk": 18.7,
+            "def": 48.64,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 2681.88,
+            "atk": 62.01,
+            "def": 161.3,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 4446.43,
+            "atk": 102.8,
+            "def": 267.42,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 5686.85,
+            "atk": 131.48,
+            "def": 342.02,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 6784.18,
+            "atk": 156.85,
+            "def": 408.02,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 7880.69,
+            "atk": 182.2,
+            "def": 473.97,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 8978.01,
+            "atk": 207.57,
+            "def": 539.97,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 9646.05,
+            "atk": 223.02,
+            "def": 580.14,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Windthreading Shadow",
@@ -88174,7 +89352,97 @@
           "critRate": 0.05,
           "critDmg": 0.884,
           "elementalMastery": 100
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 988.97,
+            "atk": 26.81,
+            "def": 62.22,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 100
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 3413.36,
+            "atk": 92.54,
+            "def": 214.76,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 100
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 5709.96,
+            "atk": 154.8,
+            "def": 359.26,
+            "critRate": 0.05,
+            "critDmg": 0.596,
+            "elementalMastery": 100
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 7372.71,
+            "atk": 199.88,
+            "def": 463.87,
+            "critRate": 0.05,
+            "critDmg": 0.692,
+            "elementalMastery": 100
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 8843.52,
+            "atk": 239.76,
+            "def": 556.41,
+            "critRate": 0.05,
+            "critDmg": 0.692,
+            "elementalMastery": 100
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 10322.25,
+            "atk": 279.85,
+            "def": 649.45,
+            "critRate": 0.05,
+            "critDmg": 0.788,
+            "elementalMastery": 100
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 11810.86,
+            "atk": 320.2,
+            "def": 743.11,
+            "critRate": 0.05,
+            "critDmg": 0.884,
+            "elementalMastery": 100
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 12703.91,
+            "atk": 344.42,
+            "def": 799.3,
+            "critRate": 0.05,
+            "critDmg": 0.884,
+            "elementalMastery": 100
+          }
+        ]
       },
       "facts": {
         "title": "Secret Beneath the Sands",
@@ -90993,7 +92261,97 @@
           "critRate": 0.05,
           "critDmg": 0.884,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 972.39,
+            "atk": 27.37,
+            "def": 62.94,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 3356.1,
+            "atk": 94.47,
+            "def": 217.24,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 5614.19,
+            "atk": 158.03,
+            "def": 363.4,
+            "critRate": 0.05,
+            "critDmg": 0.596,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 7249.05,
+            "atk": 204.05,
+            "def": 469.22,
+            "critRate": 0.05,
+            "critDmg": 0.692,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 8695.19,
+            "atk": 244.75,
+            "def": 562.83,
+            "critRate": 0.05,
+            "critDmg": 0.692,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 10149.12,
+            "atk": 285.68,
+            "def": 656.94,
+            "critRate": 0.05,
+            "critDmg": 0.788,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 11612.76,
+            "atk": 326.88,
+            "def": 751.68,
+            "critRate": 0.05,
+            "critDmg": 0.884,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 12490.83,
+            "atk": 351.59,
+            "def": 808.52,
+            "critRate": 0.05,
+            "critDmg": 0.884,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Shadowy Lights, Stranger Wights",
@@ -93843,7 +95201,97 @@
           "critRate": 0.05,
           "critDmg": 0.5,
           "elementalMastery": 315.2
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 829.39,
+            "atk": 19.85,
+            "def": 52.05,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 200
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 2862.56,
+            "atk": 68.51,
+            "def": 179.65,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 200
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 4788.57,
+            "atk": 114.6,
+            "def": 300.53,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 228.8
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 6183.01,
+            "atk": 147.97,
+            "def": 388.05,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 257.6
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 7416.49,
+            "atk": 177.49,
+            "def": 465.46,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 257.6
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 8656.6,
+            "atk": 207.16,
+            "def": 543.29,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 286.4
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 9905,
+            "atk": 237.04,
+            "def": 621.64,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 315.2
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 10653.94,
+            "atk": 254.96,
+            "def": 668.64,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 315.2
+          }
+        ]
       },
       "facts": {
         "title": "Evermoon's Sacrament Song",
@@ -96438,7 +97886,97 @@
           "critRate": 0.05,
           "critDmg": 0.5,
           "elementalMastery": 96
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 939.14,
+            "atk": 20.3,
+            "def": 50.93,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 3114.25,
+            "atk": 67.32,
+            "def": 168.89,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 5163.28,
+            "atk": 111.61,
+            "def": 280.01,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 24
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 6603.67,
+            "atk": 142.75,
+            "def": 358.12,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 48
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 7877.91,
+            "atk": 170.29,
+            "def": 427.22,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 48
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 9151.2,
+            "atk": 197.82,
+            "def": 496.27,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 72
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 10425.43,
+            "atk": 225.36,
+            "def": 565.38,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 96
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 11201.16,
+            "atk": 242.13,
+            "def": 607.44,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 96
+          }
+        ]
       },
       "facts": {
         "title": "Clinky-Clank Gadgets-A-Gogo",
@@ -99090,7 +100628,97 @@
           "critRate": 0.242,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 981.92,
+            "atk": 25.7,
+            "def": 64.44,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 3389.01,
+            "atk": 88.68,
+            "def": 222.4,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 5669.23,
+            "atk": 148.35,
+            "def": 372.04,
+            "critRate": 0.098,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 7320.12,
+            "atk": 191.55,
+            "def": 480.37,
+            "critRate": 0.146,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 8780.44,
+            "atk": 229.77,
+            "def": 576.21,
+            "critRate": 0.146,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 10248.62,
+            "atk": 268.19,
+            "def": 672.55,
+            "critRate": 0.194,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 11726.61,
+            "atk": 306.86,
+            "def": 769.55,
+            "critRate": 0.242,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 12613.29,
+            "atk": 330.07,
+            "def": 827.73,
+            "critRate": 0.242,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Boom Boom Thunderwave",
@@ -101917,7 +103545,97 @@
           "critRate": 0.05,
           "critDmg": 0.884,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 966.67,
+            "atk": 27.93,
+            "def": 62.76,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 3336.36,
+            "atk": 96.4,
+            "def": 216.62,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 5581.17,
+            "atk": 161.25,
+            "def": 362.36,
+            "critRate": 0.05,
+            "critDmg": 0.596,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 7206.41,
+            "atk": 208.21,
+            "def": 467.89,
+            "critRate": 0.05,
+            "critDmg": 0.692,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 8644.04,
+            "atk": 249.75,
+            "def": 561.23,
+            "critRate": 0.05,
+            "critDmg": 0.692,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 10089.42,
+            "atk": 291.51,
+            "def": 655.07,
+            "critRate": 0.05,
+            "critDmg": 0.788,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 11544.45,
+            "atk": 333.55,
+            "def": 749.54,
+            "critRate": 0.05,
+            "critDmg": 0.884,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 12417.35,
+            "atk": 358.77,
+            "def": 806.21,
+            "critRate": 0.05,
+            "critDmg": 0.884,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Void Star",
@@ -103863,7 +105581,97 @@
           "critRate": 0.05,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 1048.56,
+            "atk": 15.85,
+            "def": 46.92,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 3477.08,
+            "atk": 52.56,
+            "def": 155.6,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 5764.82,
+            "atk": 87.14,
+            "def": 257.98,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 7373.03,
+            "atk": 111.45,
+            "def": 329.95,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 8795.72,
+            "atk": 132.95,
+            "def": 393.62,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 10217.36,
+            "atk": 154.44,
+            "def": 457.24,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 11640.04,
+            "atk": 175.94,
+            "def": 520.91,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 12506.15,
+            "atk": 189.03,
+            "def": 559.67,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Ode and Oblation",
@@ -106266,7 +108074,97 @@
           "critRate": 0.242,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 1039.12,
+            "atk": 27,
+            "def": 56.96,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 3586.42,
+            "atk": 93.18,
+            "def": 196.59,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 5999.48,
+            "atk": 155.88,
+            "def": 328.86,
+            "critRate": 0.098,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 7746.53,
+            "atk": 201.27,
+            "def": 424.62,
+            "critRate": 0.146,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 9291.92,
+            "atk": 241.42,
+            "def": 509.33,
+            "critRate": 0.146,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 10845.62,
+            "atk": 281.79,
+            "def": 594.5,
+            "critRate": 0.194,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 12409.72,
+            "atk": 322.43,
+            "def": 680.23,
+            "critRate": 0.242,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 13348.04,
+            "atk": 346.81,
+            "def": 731.66,
+            "critRate": 0.242,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Tasteful Excellence",
@@ -108217,7 +110115,97 @@
           "critRate": 0.05,
           "critDmg": 0.5,
           "elementalMastery": 96
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 845.23,
+            "atk": 14.96,
+            "def": 50.76,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 2802.83,
+            "atk": 49.6,
+            "def": 168.32,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 4646.95,
+            "atk": 82.24,
+            "def": 279.06,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 24
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 5943.31,
+            "atk": 105.18,
+            "def": 356.91,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 48
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 7090.12,
+            "atk": 125.48,
+            "def": 425.78,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 48
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 8236.08,
+            "atk": 145.76,
+            "def": 494.6,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 72
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 9382.89,
+            "atk": 166.06,
+            "def": 563.47,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 96
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 10081.05,
+            "atk": 178.41,
+            "def": 605.4,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 96
+          }
+        ]
       },
       "facts": {
         "title": "In the Wake of Wandering Winds",
@@ -111029,7 +113017,97 @@
           "critRate": 0.242,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 988.59,
+            "atk": 27.74,
+            "def": 60.85,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 3412.04,
+            "atk": 95.75,
+            "def": 210.01,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 5707.76,
+            "atk": 160.18,
+            "def": 351.31,
+            "critRate": 0.098,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 7369.87,
+            "atk": 206.82,
+            "def": 453.61,
+            "critRate": 0.146,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 8840.11,
+            "atk": 248.08,
+            "def": 544.11,
+            "critRate": 0.146,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 10318.27,
+            "atk": 289.56,
+            "def": 635.09,
+            "critRate": 0.194,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 11806.31,
+            "atk": 331.32,
+            "def": 726.67,
+            "critRate": 0.242,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 12699.01,
+            "atk": 356.38,
+            "def": 781.62,
+            "critRate": 0.242,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Strength in Serenity",
@@ -113721,7 +115799,97 @@
           "critRate": 0.05,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 893.56,
+            "atk": 21.55,
+            "def": 53.51,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 2963.07,
+            "atk": 71.45,
+            "def": 177.43,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 4912.63,
+            "atk": 118.47,
+            "def": 294.16,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 6283.11,
+            "atk": 151.52,
+            "def": 376.23,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 7495.48,
+            "atk": 180.75,
+            "def": 448.82,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 8706.96,
+            "atk": 209.97,
+            "def": 521.37,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 9919.34,
+            "atk": 239.2,
+            "def": 593.96,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 10657.42,
+            "atk": 257,
+            "def": 638.16,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Tempered in Molten Stone",
@@ -116414,7 +118582,97 @@
           "critRate": 0.05,
           "critDmg": 0.5,
           "elementalMastery": 115.2
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 991.45,
+            "atk": 16.76,
+            "def": 58.93,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 3421.91,
+            "atk": 57.84,
+            "def": 203.4,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 5724.27,
+            "atk": 96.75,
+            "def": 340.26,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 28.8
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 7391.19,
+            "atk": 124.93,
+            "def": 439.34,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 57.6
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 8865.69,
+            "atk": 149.85,
+            "def": 526.99,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 57.6
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 10348.12,
+            "atk": 174.9,
+            "def": 615.1,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 86.4
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 11840.47,
+            "atk": 200.13,
+            "def": 703.81,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 115.2
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 12735.75,
+            "atk": 215.26,
+            "def": 757.03,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 115.2
+          }
+        ]
       },
       "facts": {
         "title": "Embrace of Enchanting Dreams",
@@ -118888,7 +121146,97 @@
           "critRate": 0.05,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 775.02,
+            "atk": 21.01,
+            "def": 48.64,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 2570.01,
+            "atk": 69.68,
+            "def": 161.3,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 4260.96,
+            "atk": 115.53,
+            "def": 267.42,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 5449.63,
+            "atk": 147.76,
+            "def": 342.02,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 6501.18,
+            "atk": 176.27,
+            "def": 408.02,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 7551.96,
+            "atk": 204.76,
+            "def": 473.97,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 8603.51,
+            "atk": 233.27,
+            "def": 539.97,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 9243.68,
+            "atk": 250.63,
+            "def": 580.14,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Spring Woven From Jade",
@@ -121224,7 +123572,97 @@
           "critRate": 0.05,
           "critDmg": 0.5,
           "elementalMastery": 115.2
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 905.65,
+            "atk": 9.87,
+            "def": 59.41,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 3125.78,
+            "atk": 34.06,
+            "def": 205.05,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 5228.9,
+            "atk": 56.98,
+            "def": 343.02,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 28.8
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 6751.56,
+            "atk": 73.57,
+            "def": 442.91,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 57.6
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 8098.46,
+            "atk": 88.24,
+            "def": 531.27,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 57.6
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 9452.61,
+            "atk": 103,
+            "def": 620.1,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 86.4
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 10815.81,
+            "atk": 117.85,
+            "def": 709.53,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 115.2
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 11633.62,
+            "atk": 126.76,
+            "def": 763.17,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 115.2
+          }
+        ]
       },
       "facts": {
         "title": "Obsidian Opalstar",
@@ -124116,7 +126554,97 @@
           "critRate": 0.05,
           "critDmg": 0.884,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 977.15,
+            "atk": 27.93,
+            "def": 61.62,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 3372.56,
+            "atk": 96.4,
+            "def": 212.69,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 5641.71,
+            "atk": 161.25,
+            "def": 355.8,
+            "critRate": 0.05,
+            "critDmg": 0.596,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 7284.58,
+            "atk": 208.21,
+            "def": 459.41,
+            "critRate": 0.05,
+            "critDmg": 0.692,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 8737.82,
+            "atk": 249.75,
+            "def": 551.06,
+            "critRate": 0.05,
+            "critDmg": 0.692,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 10198.87,
+            "atk": 291.51,
+            "def": 643.2,
+            "critRate": 0.05,
+            "critDmg": 0.788,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 11669.69,
+            "atk": 333.55,
+            "def": 735.96,
+            "critRate": 0.05,
+            "critDmg": 0.884,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 12552.06,
+            "atk": 358.77,
+            "def": 791.61,
+            "critRate": 0.05,
+            "critDmg": 0.884,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Night-Igniting Flame",
@@ -126810,7 +129338,97 @@
           "critRate": 0.242,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 762.66,
+            "atk": 27,
+            "def": 47.86,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 2632.24,
+            "atk": 93.18,
+            "def": 165.2,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 4403.29,
+            "atk": 155.88,
+            "def": 276.35,
+            "critRate": 0.098,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 5685.53,
+            "atk": 201.27,
+            "def": 356.82,
+            "critRate": 0.146,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 6819.76,
+            "atk": 241.42,
+            "def": 428.01,
+            "critRate": 0.146,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 7960.09,
+            "atk": 281.79,
+            "def": 499.58,
+            "critRate": 0.194,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 9108.05,
+            "atk": 322.43,
+            "def": 571.62,
+            "critRate": 0.242,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 9796.73,
+            "atk": 346.81,
+            "def": 614.84,
+            "critRate": 0.242,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Skyborne Arbiter",
@@ -129402,7 +132020,97 @@
           "critRate": 0.05,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 775.02,
+            "atk": 20.48,
+            "def": 49.21,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 2570.01,
+            "atk": 67.91,
+            "def": 163.19,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 4260.96,
+            "atk": 112.59,
+            "def": 270.57,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 5449.63,
+            "atk": 144,
+            "def": 346.05,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 6501.18,
+            "atk": 171.79,
+            "def": 412.82,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 7551.96,
+            "atk": 199.55,
+            "def": 479.55,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 8603.51,
+            "atk": 227.34,
+            "def": 546.32,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 9243.68,
+            "atk": 244.26,
+            "def": 586.97,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Shadow of the Night-Wind",
@@ -132175,7 +134883,97 @@
           "critRate": 0.05,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 965.71,
+            "atk": 21.41,
+            "def": 72.39,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 3333.07,
+            "atk": 73.9,
+            "def": 249.86,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 5575.66,
+            "atk": 123.63,
+            "def": 417.98,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 7199.3,
+            "atk": 159.63,
+            "def": 539.7,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 8635.52,
+            "atk": 191.47,
+            "def": 647.36,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 10079.47,
+            "atk": 223.49,
+            "def": 755.61,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 11533.07,
+            "atk": 255.72,
+            "def": 864.58,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 12405.11,
+            "atk": 275.06,
+            "def": 929.95,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Ardent Flames Forge the Soul",
@@ -134815,7 +137613,97 @@
           "critRate": 0.05,
           "critDmg": 0.884,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 1000.99,
+            "atk": 25.88,
+            "def": 62.4,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 3454.81,
+            "atk": 89.33,
+            "def": 215.38,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 5779.31,
+            "atk": 149.43,
+            "def": 360.29,
+            "critRate": 0.05,
+            "critDmg": 0.596,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 7462.25,
+            "atk": 192.94,
+            "def": 465.21,
+            "critRate": 0.05,
+            "critDmg": 0.692,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 8950.93,
+            "atk": 231.43,
+            "def": 558.02,
+            "critRate": 0.05,
+            "critDmg": 0.692,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 10447.62,
+            "atk": 270.13,
+            "def": 651.32,
+            "critRate": 0.05,
+            "critDmg": 0.788,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 11954.32,
+            "atk": 309.09,
+            "def": 745.25,
+            "critRate": 0.05,
+            "critDmg": 0.884,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 12858.21,
+            "atk": 332.46,
+            "def": 801.6,
+            "critRate": 0.05,
+            "critDmg": 0.884,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Turnfire Hunt",
@@ -137416,7 +140304,97 @@
           "critRate": 0.242,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 1182.12,
+            "atk": 14.15,
+            "def": 44.39,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 4079.97,
+            "atk": 48.84,
+            "def": 153.22,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 6825.1,
+            "atk": 81.7,
+            "def": 256.31,
+            "critRate": 0.098,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 8812.57,
+            "atk": 105.49,
+            "def": 330.95,
+            "critRate": 0.146,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 10570.63,
+            "atk": 126.54,
+            "def": 396.98,
+            "critRate": 0.146,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 12338.14,
+            "atk": 147.7,
+            "def": 463.36,
+            "critRate": 0.194,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 14117.48,
+            "atk": 169,
+            "def": 530.18,
+            "critRate": 0.242,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 15184.93,
+            "atk": 181.78,
+            "def": 570.27,
+            "critRate": 0.242,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Splish-Splash Wavechaser",
@@ -140049,7 +143027,97 @@
           "critRate": 0.05,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 989.29,
+            "atk": 18.16,
+            "def": 66.44,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 3280.55,
+            "atk": 60.23,
+            "def": 220.31,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 5438.99,
+            "atk": 99.86,
+            "def": 365.27,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 6956.3,
+            "atk": 127.72,
+            "def": 467.17,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 8298.57,
+            "atk": 152.37,
+            "def": 557.31,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 9639.85,
+            "atk": 177,
+            "def": 647.39,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 10982.13,
+            "atk": 201.64,
+            "def": 737.53,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 11799.28,
+            "atk": 216.65,
+            "def": 792.41,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Mottled Gold Yet Unsmelted",
@@ -142737,7 +145805,97 @@
           "critRate": 0.05,
           "critDmg": 0.884,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 1056.28,
+            "atk": 26.07,
+            "def": 56.84,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 3645.65,
+            "atk": 89.97,
+            "def": 196.17,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 6098.55,
+            "atk": 150.5,
+            "def": 328.17,
+            "critRate": 0.05,
+            "critDmg": 0.596,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 7874.46,
+            "atk": 194.33,
+            "def": 423.73,
+            "critRate": 0.05,
+            "critDmg": 0.692,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 9445.37,
+            "atk": 233.1,
+            "def": 508.26,
+            "critRate": 0.05,
+            "critDmg": 0.692,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 11024.73,
+            "atk": 272.07,
+            "def": 593.25,
+            "critRate": 0.05,
+            "critDmg": 0.788,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 12614.65,
+            "atk": 311.31,
+            "def": 678.8,
+            "critRate": 0.05,
+            "critDmg": 0.884,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 13568.47,
+            "atk": 334.85,
+            "def": 730.13,
+            "critRate": 0.05,
+            "critDmg": 0.884,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "A Thousand Scents Traced",
@@ -144712,7 +147870,97 @@
           "critRate": 0.05,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 1039.12,
+            "atk": 14.99,
+            "def": 38.89,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 3586.42,
+            "atk": 51.73,
+            "def": 134.22,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 5999.48,
+            "atk": 86.54,
+            "def": 224.53,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 7746.53,
+            "atk": 111.74,
+            "def": 289.92,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 9291.92,
+            "atk": 134.03,
+            "def": 347.76,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 10845.62,
+            "atk": 156.44,
+            "def": 405.91,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 12409.72,
+            "atk": 179,
+            "def": 464.44,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 13348.04,
+            "atk": 192.54,
+            "def": 499.56,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Wondrous Dragonheir",
@@ -147459,7 +150707,97 @@
           "critRate": 0.242,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 1008.61,
+            "atk": 26.25,
+            "def": 61.03,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 3481.14,
+            "atk": 90.61,
+            "def": 210.63,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 5823.35,
+            "atk": 151.58,
+            "def": 352.35,
+            "critRate": 0.098,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 7519.11,
+            "atk": 195.72,
+            "def": 454.95,
+            "critRate": 0.146,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 9019.13,
+            "atk": 234.76,
+            "def": 545.71,
+            "critRate": 0.146,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 10527.22,
+            "atk": 274.02,
+            "def": 636.96,
+            "critRate": 0.194,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 12045.4,
+            "atk": 313.53,
+            "def": 728.82,
+            "critRate": 0.242,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 12956.17,
+            "atk": 337.24,
+            "def": 783.93,
+            "critRate": 0.242,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Candlebearer, Shadowhunter",
@@ -150066,7 +153404,97 @@
           "critRate": 0.05,
           "critDmg": 0.5,
           "elementalMastery": 96
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 820.61,
+            "atk": 19.05,
+            "def": 46.92,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 2721.19,
+            "atk": 63.19,
+            "def": 155.6,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 4511.6,
+            "atk": 104.76,
+            "def": 257.98,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 24
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 5770.2,
+            "atk": 133.98,
+            "def": 329.95,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 48
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 6883.61,
+            "atk": 159.84,
+            "def": 393.62,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 48
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 7996.19,
+            "atk": 185.67,
+            "def": 457.24,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 72
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 9109.6,
+            "atk": 211.53,
+            "def": 520.91,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 96
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 9787.42,
+            "atk": 227.26,
+            "def": 559.67,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 96
+          }
+        ]
       },
       "facts": {
         "title": "Wisdom's Measure",
@@ -152760,7 +156188,97 @@
           "critRate": 0.05,
           "critDmg": 0.884,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 1020.05,
+            "atk": 26.63,
+            "def": 59.53,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 3520.62,
+            "atk": 91.9,
+            "def": 205.47,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 5889.4,
+            "atk": 153.73,
+            "def": 343.71,
+            "critRate": 0.05,
+            "critDmg": 0.596,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 7604.39,
+            "atk": 198.49,
+            "def": 443.8,
+            "critRate": 0.05,
+            "critDmg": 0.692,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 9121.43,
+            "atk": 238.09,
+            "def": 532.34,
+            "critRate": 0.05,
+            "critDmg": 0.692,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 10646.62,
+            "atk": 277.9,
+            "def": 621.35,
+            "critRate": 0.05,
+            "critDmg": 0.788,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 12182.02,
+            "atk": 317.98,
+            "def": 710.96,
+            "critRate": 0.05,
+            "critDmg": 0.884,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 13103.12,
+            "atk": 342.03,
+            "def": 764.71,
+            "critRate": 0.05,
+            "critDmg": 0.884,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Dire Balemoon",
@@ -155387,7 +158905,97 @@
           "critRate": 0.242,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 890.4,
+            "atk": 25.14,
+            "def": 74.19,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 3073.14,
+            "atk": 86.76,
+            "def": 256.06,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 5140.84,
+            "atk": 145.13,
+            "def": 428.34,
+            "critRate": 0.098,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 6637.85,
+            "atk": 187.39,
+            "def": 553.08,
+            "critRate": 0.146,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 7962.07,
+            "atk": 224.77,
+            "def": 663.41,
+            "critRate": 0.146,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 9293.41,
+            "atk": 262.36,
+            "def": 774.34,
+            "critRate": 0.194,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 10633.65,
+            "atk": 300.19,
+            "def": 886.01,
+            "critRate": 0.242,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 11437.68,
+            "atk": 322.89,
+            "def": 953.01,
+            "critRate": 0.242,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "The Thundering Seamstress",
@@ -157785,7 +161393,97 @@
           "critRate": 0.05,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 810.32,
+            "atk": 26.07,
+            "def": 44.57,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 2796.75,
+            "atk": 89.97,
+            "def": 153.84,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 4678.49,
+            "atk": 150.5,
+            "def": 257.35,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 6040.87,
+            "atk": 194.33,
+            "def": 332.29,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 7245.99,
+            "atk": 233.1,
+            "def": 398.58,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 8457.6,
+            "atk": 272.07,
+            "def": 465.23,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 9677.3,
+            "atk": 311.31,
+            "def": 532.32,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 10409.02,
+            "atk": 334.85,
+            "def": 572.57,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Passerine Herald",
@@ -160452,7 +164150,97 @@
           "critRate": 0.05,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 957.38,
+            "atk": 25.29,
+            "def": 58.94,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 3174.72,
+            "atk": 83.85,
+            "def": 195.45,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 5263.54,
+            "atk": 139.03,
+            "def": 324.05,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 6731.9,
+            "atk": 177.81,
+            "def": 414.45,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 8030.87,
+            "atk": 212.12,
+            "def": 494.43,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 9328.89,
+            "atk": 246.41,
+            "def": 574.34,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 10627.86,
+            "atk": 280.72,
+            "def": 654.31,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 11418.66,
+            "atk": 301.6,
+            "def": 703,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Leonine Vanguard",
@@ -163156,7 +166944,97 @@
           "critRate": 0.05,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 1002.97,
+            "atk": 16.21,
+            "def": 50.7,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 3325.9,
+            "atk": 53.74,
+            "def": 168.13,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 5514.18,
+            "atk": 89.09,
+            "def": 278.75,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 7052.47,
+            "atk": 113.95,
+            "def": 356.51,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 8413.3,
+            "atk": 135.94,
+            "def": 425.3,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 9773.12,
+            "atk": 157.91,
+            "def": 494.04,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 11133.95,
+            "atk": 179.9,
+            "def": 562.83,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 11962.41,
+            "atk": 193.28,
+            "def": 604.71,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Executor of Justice",
@@ -165203,7 +169081,97 @@
           "critRate": 0.05,
           "critDmg": 0.884,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 984.78,
+            "atk": 27.37,
+            "def": 61.74,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 3398.88,
+            "atk": 94.47,
+            "def": 213.11,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 5685.74,
+            "atk": 158.03,
+            "def": 356.49,
+            "critRate": 0.05,
+            "critDmg": 0.596,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 7341.44,
+            "atk": 204.05,
+            "def": 460.3,
+            "critRate": 0.05,
+            "critDmg": 0.692,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 8806.01,
+            "atk": 244.75,
+            "def": 552.13,
+            "critRate": 0.05,
+            "critDmg": 0.692,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 10278.47,
+            "atk": 285.68,
+            "def": 644.45,
+            "critRate": 0.05,
+            "critDmg": 0.788,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 11760.77,
+            "atk": 326.88,
+            "def": 737.39,
+            "critRate": 0.05,
+            "critDmg": 0.884,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 12650.03,
+            "atk": 351.59,
+            "def": 793.15,
+            "critRate": 0.05,
+            "critDmg": 0.884,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Helm of the Radiant Rose",
@@ -168044,7 +172012,97 @@
           "critRate": 0.242,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 1191.65,
+            "atk": 18.99,
+            "def": 54.15,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 4112.87,
+            "atk": 65.55,
+            "def": 186.88,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 6880.14,
+            "atk": 109.65,
+            "def": 312.62,
+            "critRate": 0.098,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 8883.64,
+            "atk": 141.58,
+            "def": 403.66,
+            "critRate": 0.146,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 10655.87,
+            "atk": 169.83,
+            "def": 484.18,
+            "critRate": 0.146,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 12437.64,
+            "atk": 198.23,
+            "def": 565.15,
+            "critRate": 0.194,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 14231.33,
+            "atk": 226.81,
+            "def": 646.65,
+            "critRate": 0.242,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 15307.39,
+            "atk": 243.96,
+            "def": 695.54,
+            "critRate": 0.242,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Endless Solo of Solitude",
@@ -170478,7 +174536,97 @@
           "critRate": 0.05,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 902.67,
+            "atk": 14.51,
+            "def": 45.78,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 2993.31,
+            "atk": 48.13,
+            "def": 151.81,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 4962.76,
+            "atk": 79.79,
+            "def": 251.69,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 6347.22,
+            "atk": 102.05,
+            "def": 321.91,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 7571.97,
+            "atk": 121.75,
+            "def": 384.02,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 8795.81,
+            "atk": 141.42,
+            "def": 446.09,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 10020.56,
+            "atk": 161.12,
+            "def": 508.2,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 10766.17,
+            "atk": 173.1,
+            "def": 546.02,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Lens of Verity",
@@ -172493,7 +176641,97 @@
           "critRate": 0.05,
           "critDmg": 0.884,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 1058.19,
+            "atk": 24.21,
+            "def": 59.41,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 3652.23,
+            "atk": 83.54,
+            "def": 205.05,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 6109.56,
+            "atk": 139.75,
+            "def": 343.02,
+            "critRate": 0.05,
+            "critDmg": 0.596,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 7888.67,
+            "atk": 180.45,
+            "def": 442.91,
+            "critRate": 0.05,
+            "critDmg": 0.692,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 9462.42,
+            "atk": 216.45,
+            "def": 531.27,
+            "critRate": 0.05,
+            "critDmg": 0.692,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 11044.63,
+            "atk": 252.64,
+            "def": 620.1,
+            "critRate": 0.05,
+            "critDmg": 0.788,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 12637.42,
+            "atk": 289.07,
+            "def": 709.53,
+            "critRate": 0.05,
+            "critDmg": 0.884,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 13592.96,
+            "atk": 310.93,
+            "def": 763.17,
+            "critRate": 0.05,
+            "critDmg": 0.884,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Emissary of Solitary Iniquity",
@@ -174523,7 +178761,97 @@
           "critRate": 0.05,
           "critDmg": 0.884,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 1143.98,
+            "atk": 16.22,
+            "def": 44.87,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 3948.36,
+            "atk": 55.97,
+            "def": 154.87,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 6604.93,
+            "atk": 93.63,
+            "def": 259.08,
+            "critRate": 0.05,
+            "critDmg": 0.596,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 8528.29,
+            "atk": 120.9,
+            "def": 334.52,
+            "critRate": 0.05,
+            "critDmg": 0.692,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 10229.64,
+            "atk": 145.02,
+            "def": 401.26,
+            "critRate": 0.05,
+            "critDmg": 0.692,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 11940.14,
+            "atk": 169.27,
+            "def": 468.35,
+            "critRate": 0.05,
+            "critDmg": 0.788,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 13662.08,
+            "atk": 193.68,
+            "def": 535.9,
+            "critRate": 0.05,
+            "critDmg": 0.884,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 14695.09,
+            "atk": 208.32,
+            "def": 576.42,
+            "critRate": 0.05,
+            "critDmg": 0.884,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Ordainer of Inexorable Judgment",
@@ -177314,7 +181642,97 @@
           "critRate": 0.05,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 1012.09,
+            "atk": 21.37,
+            "def": 59.4,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 3356.14,
+            "atk": 70.86,
+            "def": 196.97,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 5564.31,
+            "atk": 117.49,
+            "def": 326.57,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 7116.58,
+            "atk": 150.26,
+            "def": 417.67,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 8489.78,
+            "atk": 179.26,
+            "def": 498.27,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 9861.97,
+            "atk": 208.23,
+            "def": 578.8,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 11235.17,
+            "atk": 237.23,
+            "def": 659.39,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 12071.16,
+            "atk": 254.88,
+            "def": 708.46,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Yearning for Unseen Depths",
@@ -180099,7 +184517,97 @@
           "critRate": 0.242,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 857.99,
+            "atk": 24.76,
+            "def": 41.88,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 2961.27,
+            "atk": 85.47,
+            "def": 144.55,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 4953.7,
+            "atk": 142.98,
+            "def": 241.81,
+            "critRate": 0.098,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 6396.22,
+            "atk": 184.61,
+            "def": 312.22,
+            "critRate": 0.146,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 7672.23,
+            "atk": 221.44,
+            "def": 374.51,
+            "critRate": 0.146,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 8955.1,
+            "atk": 258.47,
+            "def": 437.13,
+            "critRate": 0.194,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 10246.56,
+            "atk": 295.74,
+            "def": 500.17,
+            "critRate": 0.242,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 11021.32,
+            "atk": 318.11,
+            "def": 537.99,
+            "critRate": 0.242,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Spectacle of Phantasmagoria",
@@ -182824,7 +187332,97 @@
           "critRate": 0.05,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 1039.44,
+            "atk": 19.41,
+            "def": 59.69,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 3446.84,
+            "atk": 64.37,
+            "def": 197.92,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 5714.7,
+            "atk": 106.72,
+            "def": 328.14,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 7308.92,
+            "atk": 136.49,
+            "def": 419.68,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 8719.24,
+            "atk": 162.83,
+            "def": 500.67,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 10128.51,
+            "atk": 189.14,
+            "def": 581.59,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 11538.82,
+            "atk": 215.48,
+            "def": 662.57,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 12397.4,
+            "atk": 231.51,
+            "def": 711.87,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Elegance in the Shadows",
@@ -184888,7 +189486,97 @@
           "critRate": 0.05,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 1021.21,
+            "atk": 18.7,
+            "def": 45.78,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 3386.37,
+            "atk": 62.01,
+            "def": 151.81,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 5614.44,
+            "atk": 102.8,
+            "def": 251.69,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 7180.69,
+            "atk": 131.48,
+            "def": 321.91,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 8566.27,
+            "atk": 156.85,
+            "def": 384.02,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 9950.82,
+            "atk": 182.2,
+            "def": 446.09,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 11336.39,
+            "atk": 207.57,
+            "def": 508.2,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 12179.9,
+            "atk": 223.02,
+            "def": 546.02,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Cat Upon the Eaves",
@@ -187256,7 +191944,97 @@
           "critRate": 0.05,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 1039.12,
+            "atk": 14.99,
+            "def": 38.89,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 3586.42,
+            "atk": 51.73,
+            "def": 134.22,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 5999.48,
+            "atk": 86.54,
+            "def": 224.53,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 7746.53,
+            "atk": 111.74,
+            "def": 289.92,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 9291.92,
+            "atk": 134.03,
+            "def": 347.76,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 10845.62,
+            "atk": 156.44,
+            "def": 405.91,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 12409.72,
+            "atk": 179,
+            "def": 464.44,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 13348.04,
+            "atk": 192.54,
+            "def": 499.56,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Beyond Mortality",
@@ -189869,7 +194647,97 @@
           "critRate": 0.05,
           "critDmg": 0.5,
           "elementalMastery": 96
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 1002.97,
+            "atk": 19.59,
+            "def": 62.95,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 3325.9,
+            "atk": 64.96,
+            "def": 208.74,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 5514.18,
+            "atk": 107.7,
+            "def": 346.08,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 24
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 7052.47,
+            "atk": 137.74,
+            "def": 442.62,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 48
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 8413.3,
+            "atk": 164.32,
+            "def": 528.03,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 48
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 9773.12,
+            "atk": 190.88,
+            "def": 613.37,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 72
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 11133.95,
+            "atk": 217.46,
+            "def": 698.78,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 96
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 11962.41,
+            "atk": 233.64,
+            "def": 750.77,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 96
+          }
+        ]
       },
       "facts": {
         "title": "Empyrean Reflection",
@@ -192568,7 +197436,97 @@
           "critRate": 0.05,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 1048.56,
+            "atk": 18.7,
+            "def": 59.8,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 3477.08,
+            "atk": 62.01,
+            "def": 198.3,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 5764.82,
+            "atk": 102.8,
+            "def": 328.77,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 7373.03,
+            "atk": 131.48,
+            "def": 420.49,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 8795.72,
+            "atk": 156.85,
+            "def": 501.63,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 10217.36,
+            "atk": 182.2,
+            "def": 582.7,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 11640.04,
+            "atk": 207.57,
+            "def": 663.84,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 12506.15,
+            "atk": 223.02,
+            "def": 713.23,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Coordinates of Clear Frost",
@@ -195307,7 +200265,97 @@
           "critRate": 0.05,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 1220.25,
+            "atk": 20.67,
+            "def": 48.88,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 4211.58,
+            "atk": 71.33,
+            "def": 168.71,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 7045.26,
+            "atk": 119.33,
+            "def": 282.22,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 9096.84,
+            "atk": 154.08,
+            "def": 364.41,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 10911.61,
+            "atk": 184.81,
+            "def": 437.1,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 12736.15,
+            "atk": 215.72,
+            "def": 510.19,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 14572.88,
+            "atk": 246.82,
+            "def": 583.77,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 15674.77,
+            "atk": 265.49,
+            "def": 627.91,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Flame-Mane",
@@ -198067,7 +203115,97 @@
           "critRate": 0.05,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 1039.12,
+            "atk": 24.39,
+            "def": 60.85,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 3586.42,
+            "atk": 84.19,
+            "def": 210.01,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 5999.48,
+            "atk": 140.83,
+            "def": 351.31,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 7746.53,
+            "atk": 181.84,
+            "def": 453.61,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 9291.92,
+            "atk": 218.11,
+            "def": 544.11,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 10845.62,
+            "atk": 254.58,
+            "def": 635.09,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 12409.72,
+            "atk": 291.3,
+            "def": 726.67,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 13348.04,
+            "atk": 313.32,
+            "def": 781.62,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Admonishing Instruction",
@@ -200733,7 +205871,97 @@
           "critRate": 0.05,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 1030.32,
+            "atk": 17.81,
+            "def": 62.95,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 3416.61,
+            "atk": 59.05,
+            "def": 208.74,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 5664.57,
+            "atk": 97.91,
+            "def": 346.08,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 7244.81,
+            "atk": 125.22,
+            "def": 442.62,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 8642.75,
+            "atk": 149.38,
+            "def": 528.03,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 10039.66,
+            "atk": 173.53,
+            "def": 613.37,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 11437.61,
+            "atk": 197.69,
+            "def": 698.78,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 12288.65,
+            "atk": 212.4,
+            "def": 750.77,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Burgeoning Grace",
@@ -203301,7 +208529,97 @@
           "critRate": 0.242,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 791.26,
+            "atk": 25.51,
+            "def": 47.27,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 2730.95,
+            "atk": 88.04,
+            "def": 163.13,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 4568.41,
+            "atk": 147.28,
+            "def": 272.9,
+            "critRate": 0.098,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 5898.73,
+            "atk": 190.17,
+            "def": 352.36,
+            "critRate": 0.146,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 7075.5,
+            "atk": 228.1,
+            "def": 422.66,
+            "critRate": 0.146,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 8258.59,
+            "atk": 266.24,
+            "def": 493.33,
+            "critRate": 0.194,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 9449.6,
+            "atk": 304.64,
+            "def": 564.48,
+            "critRate": 0.242,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 10164.11,
+            "atk": 327.67,
+            "def": 607.16,
+            "critRate": 0.242,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Eons Adrift",
@@ -205865,7 +211183,97 @@
           "critRate": 0.05,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 802.38,
+            "atk": 16.47,
+            "def": 52.65,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 2660.72,
+            "atk": 54.62,
+            "def": 174.58,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 4411.34,
+            "atk": 90.56,
+            "def": 289.45,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 5641.97,
+            "atk": 115.83,
+            "def": 370.19,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 6730.64,
+            "atk": 138.18,
+            "def": 441.62,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 7818.5,
+            "atk": 160.51,
+            "def": 513,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 8907.16,
+            "atk": 182.86,
+            "def": 584.43,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 9569.93,
+            "atk": 196.47,
+            "def": 627.92,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Enigmatic Machinist",
@@ -208485,7 +213893,97 @@
           "critRate": 0.05,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 930.03,
+            "atk": 18.16,
+            "def": 54.94,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 3084.02,
+            "atk": 60.23,
+            "def": 182.17,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 5113.15,
+            "atk": 99.86,
+            "def": 302.03,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 6539.56,
+            "atk": 127.72,
+            "def": 386.29,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 7801.42,
+            "atk": 152.37,
+            "def": 460.82,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 9062.35,
+            "atk": 177,
+            "def": 535.31,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 10324.21,
+            "atk": 201.64,
+            "def": 609.84,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 11092.41,
+            "atk": 216.65,
+            "def": 655.22,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Fantastical Evening Star",
@@ -211262,7 +216760,97 @@
           "critRate": 0.05,
           "critDmg": 0.5,
           "elementalMastery": 115.2
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 806.51,
+            "atk": 23.27,
+            "def": 49.06,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 2783.59,
+            "atk": 80.33,
+            "def": 169.33,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 4656.48,
+            "atk": 134.38,
+            "def": 283.26,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 28.8
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 6012.45,
+            "atk": 173.51,
+            "def": 365.74,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 57.6
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 7211.89,
+            "atk": 208.12,
+            "def": 438.71,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 57.6
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 8417.8,
+            "atk": 242.92,
+            "def": 512.07,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 86.4
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 9631.76,
+            "atk": 277.96,
+            "def": 585.91,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 115.2
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 10360.04,
+            "atk": 298.97,
+            "def": 630.21,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 115.2
+          }
+        ]
       },
       "facts": {
         "title": "Physic of Purity",
@@ -213912,7 +219500,97 @@
           "critRate": 0.05,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 1182.12,
+            "atk": 17.88,
+            "def": 56.72,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 4079.97,
+            "atk": 61.69,
+            "def": 195.76,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 6825.1,
+            "atk": 103.2,
+            "def": 327.48,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 8812.57,
+            "atk": 133.25,
+            "def": 422.84,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 10570.63,
+            "atk": 159.84,
+            "def": 507.19,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 12338.14,
+            "atk": 186.56,
+            "def": 592,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 14117.48,
+            "atk": 213.47,
+            "def": 677.37,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 15184.93,
+            "atk": 229.61,
+            "def": 728.59,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Dance of Lotuslight",
@@ -216749,7 +222427,97 @@
           "critRate": 0.05,
           "critDmg": 0.884,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 972.39,
+            "atk": 24.76,
+            "def": 66.89,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 3356.1,
+            "atk": 85.47,
+            "def": 230.87,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 5614.19,
+            "atk": 142.98,
+            "def": 386.2,
+            "critRate": 0.05,
+            "critDmg": 0.596,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 7249.05,
+            "atk": 184.61,
+            "def": 498.66,
+            "critRate": 0.05,
+            "critDmg": 0.692,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 8695.19,
+            "atk": 221.44,
+            "def": 598.14,
+            "critRate": 0.05,
+            "critDmg": 0.692,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 10149.12,
+            "atk": 258.47,
+            "def": 698.16,
+            "critRate": 0.05,
+            "critDmg": 0.788,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 11612.76,
+            "atk": 295.74,
+            "def": 798.84,
+            "critRate": 0.05,
+            "critDmg": 0.884,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 12490.83,
+            "atk": 318.11,
+            "def": 859.24,
+            "critRate": 0.05,
+            "critDmg": 0.884,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Judicator of Secrets",
@@ -219461,7 +225229,97 @@
           "critRate": 0.05,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 911.79,
+            "atk": 17.81,
+            "def": 57.23,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 3023.55,
+            "atk": 59.05,
+            "def": 189.76,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 5012.89,
+            "atk": 97.91,
+            "def": 314.61,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 6411.33,
+            "atk": 125.22,
+            "def": 402.38,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 7648.45,
+            "atk": 149.38,
+            "def": 480.03,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 8884.66,
+            "atk": 173.53,
+            "def": 557.61,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 10121.78,
+            "atk": 197.69,
+            "def": 635.25,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 10874.91,
+            "atk": 212.4,
+            "def": 682.52,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Golden Vow",
@@ -222135,7 +227993,97 @@
           "critRate": 0.05,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 1039.44,
+            "atk": 18.7,
+            "def": 60.66,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 3446.84,
+            "atk": 62.01,
+            "def": 201.15,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 5714.7,
+            "atk": 102.8,
+            "def": 333.49,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 7308.92,
+            "atk": 131.48,
+            "def": 426.53,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 8719.24,
+            "atk": 156.85,
+            "def": 508.83,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 10128.51,
+            "atk": 182.2,
+            "def": 591.07,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 11538.82,
+            "atk": 207.57,
+            "def": 673.37,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 12397.4,
+            "atk": 223.02,
+            "def": 723.47,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Treasure of Dream Garden",
@@ -224808,7 +230756,97 @@
           "critRate": 0.05,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 844.64,
+            "atk": 20.85,
+            "def": 49.06,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 2915.2,
+            "atk": 71.98,
+            "def": 169.33,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 4876.64,
+            "atk": 120.4,
+            "def": 283.26,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 6296.72,
+            "atk": 155.46,
+            "def": 365.74,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 7552.88,
+            "atk": 186.48,
+            "def": 438.71,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 8815.8,
+            "atk": 217.66,
+            "def": 512.07,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 10087.17,
+            "atk": 249.05,
+            "def": 585.91,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 10849.88,
+            "atk": 267.88,
+            "def": 630.21,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Verdant Strider",
@@ -227388,7 +233426,97 @@
           "critRate": 0.05,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 820.61,
+            "atk": 16.74,
+            "def": 50.36,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 2721.19,
+            "atk": 55.51,
+            "def": 166.99,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 4511.6,
+            "atk": 92.03,
+            "def": 276.86,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 5770.2,
+            "atk": 117.71,
+            "def": 354.1,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 6883.61,
+            "atk": 140.42,
+            "def": 422.42,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 7996.19,
+            "atk": 163.11,
+            "def": 490.7,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 9109.6,
+            "atk": 185.83,
+            "def": 559.02,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 9787.42,
+            "atk": 199.65,
+            "def": 600.62,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Sprout of Rebirth",
@@ -229766,7 +235894,97 @@
           "critRate": 0.05,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 893.56,
+            "atk": 18.88,
+            "def": 57.34,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 2963.07,
+            "atk": 62.6,
+            "def": 190.14,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 4912.63,
+            "atk": 103.78,
+            "def": 315.24,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 6283.11,
+            "atk": 132.73,
+            "def": 403.19,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 7495.48,
+            "atk": 158.34,
+            "def": 480.99,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 8706.96,
+            "atk": 183.94,
+            "def": 558.73,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 9919.34,
+            "atk": 209.55,
+            "def": 636.52,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 10657.42,
+            "atk": 225.14,
+            "def": 683.89,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Analytical Harmony",
@@ -232460,7 +238678,97 @@
           "critRate": 0.05,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 1030.32,
+            "atk": 17.81,
+            "def": 62.95,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 3416.61,
+            "atk": 59.05,
+            "def": 208.74,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 5664.57,
+            "atk": 97.91,
+            "def": 346.08,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 7244.81,
+            "atk": 125.22,
+            "def": 442.62,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 8642.75,
+            "atk": 149.38,
+            "def": 528.03,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 10039.66,
+            "atk": 173.53,
+            "def": 613.37,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 11437.61,
+            "atk": 197.69,
+            "def": 698.78,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 12288.65,
+            "atk": 212.4,
+            "def": 750.77,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Mender of Tribulations",
@@ -234848,7 +241156,97 @@
           "critRate": 0.242,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 1124.92,
+            "atk": 18.99,
+            "def": 42.66,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 3882.55,
+            "atk": 65.55,
+            "def": 147.23,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 6494.85,
+            "atk": 109.65,
+            "def": 246.3,
+            "critRate": 0.098,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 8386.15,
+            "atk": 141.58,
+            "def": 318.02,
+            "critRate": 0.146,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 10059.14,
+            "atk": 169.83,
+            "def": 381.46,
+            "critRate": 0.146,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 11741.13,
+            "atk": 198.23,
+            "def": 445.25,
+            "critRate": 0.194,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 13434.37,
+            "atk": 226.81,
+            "def": 509.46,
+            "critRate": 0.242,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 14450.17,
+            "atk": 243.96,
+            "def": 547.98,
+            "critRate": 0.242,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Valley Orchid",
@@ -237600,7 +243998,97 @@
           "critRate": 0.05,
           "critDmg": 0.884,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 1067.72,
+            "atk": 23.27,
+            "def": 59.83,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 3685.13,
+            "atk": 80.33,
+            "def": 206.5,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 6164.6,
+            "atk": 134.38,
+            "def": 345.44,
+            "critRate": 0.05,
+            "critDmg": 0.596,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 7959.74,
+            "atk": 173.51,
+            "def": 446.03,
+            "critRate": 0.05,
+            "critDmg": 0.692,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 9547.66,
+            "atk": 208.12,
+            "def": 535.01,
+            "critRate": 0.05,
+            "critDmg": 0.692,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 11144.13,
+            "atk": 242.92,
+            "def": 624.47,
+            "critRate": 0.05,
+            "critDmg": 0.788,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 12751.27,
+            "atk": 277.96,
+            "def": 714.53,
+            "critRate": 0.05,
+            "critDmg": 0.884,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 13715.42,
+            "atk": 298.97,
+            "def": 768.55,
+            "critRate": 0.05,
+            "critDmg": 0.884,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Pillar of Fortitude",
@@ -240127,7 +246615,97 @@
           "critRate": 0.242,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 807.46,
+            "atk": 26.44,
+            "def": 44.27,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 2786.88,
+            "atk": 91.25,
+            "def": 152.81,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 4661.98,
+            "atk": 152.65,
+            "def": 255.62,
+            "critRate": 0.098,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 6019.55,
+            "atk": 197.11,
+            "def": 330.06,
+            "critRate": 0.146,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 7220.42,
+            "atk": 236.43,
+            "def": 395.91,
+            "critRate": 0.146,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 8427.75,
+            "atk": 275.96,
+            "def": 462.11,
+            "critRate": 0.194,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 9643.15,
+            "atk": 315.76,
+            "def": 528.75,
+            "critRate": 0.242,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 10372.29,
+            "atk": 339.63,
+            "def": 568.73,
+            "critRate": 0.242,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Astute Amusement",
@@ -242751,7 +249329,97 @@
           "critRate": 0.05,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 1011.47,
+            "atk": 23.65,
+            "def": 64.62,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 3491.01,
+            "atk": 81.62,
+            "def": 223.02,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 5839.86,
+            "atk": 136.53,
+            "def": 373.07,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 7540.43,
+            "atk": 176.29,
+            "def": 481.71,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 9044.71,
+            "atk": 211.45,
+            "def": 577.81,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 10557.07,
+            "atk": 246.81,
+            "def": 674.43,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 12079.55,
+            "atk": 282.4,
+            "def": 771.69,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 12992.91,
+            "atk": 303.76,
+            "def": 830.04,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Lonesome Transcendence",
@@ -245073,7 +251741,105 @@
           "critDmg": 0.5,
           "elementalMastery": 0,
           "energyRecharge": 1.2667
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 893.56,
+            "atk": 16.03,
+            "def": 61.57,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0,
+            "energyRecharge": 1
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 2963.07,
+            "atk": 53.15,
+            "def": 204.18,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0,
+            "energyRecharge": 1
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 4912.63,
+            "atk": 88.12,
+            "def": 338.53,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0,
+            "energyRecharge": 1.0667
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 6283.11,
+            "atk": 112.7,
+            "def": 432.96,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0,
+            "energyRecharge": 1.1333
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 7495.48,
+            "atk": 134.44,
+            "def": 516.51,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0,
+            "energyRecharge": 1.1333
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 8706.96,
+            "atk": 156.17,
+            "def": 599.99,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0,
+            "energyRecharge": 1.2
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 9919.34,
+            "atk": 177.92,
+            "def": 683.53,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0,
+            "energyRecharge": 1.2667
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 10657.42,
+            "atk": 191.16,
+            "def": 734.39,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0,
+            "energyRecharge": 1.2667
+          }
+        ]
       },
       "facts": {
         "title": "Stage Lucida",
@@ -247788,7 +254554,97 @@
           "critRate": 0.242,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 1000.99,
+            "atk": 17.69,
+            "def": 74.67,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 3454.81,
+            "atk": 61.05,
+            "def": 257.71,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 5779.31,
+            "atk": 102.13,
+            "def": 431.11,
+            "critRate": 0.098,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 7462.25,
+            "atk": 131.87,
+            "def": 556.65,
+            "critRate": 0.146,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 8950.93,
+            "atk": 158.17,
+            "def": 667.69,
+            "critRate": 0.146,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 10447.62,
+            "atk": 184.62,
+            "def": 779.34,
+            "critRate": 0.194,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 11954.32,
+            "atk": 211.25,
+            "def": 891.73,
+            "critRate": 0.242,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 12858.21,
+            "atk": 227.22,
+            "def": 959.16,
+            "critRate": 0.242,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Hanamizaka Heroics",
@@ -250464,7 +257320,97 @@
           "critRate": 0.05,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 802.38,
+            "atk": 15.31,
+            "def": 54.36,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 2660.72,
+            "atk": 50.79,
+            "def": 180.27,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 4411.34,
+            "atk": 84.2,
+            "def": 298.88,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 5641.97,
+            "atk": 107.69,
+            "def": 382.26,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 6730.64,
+            "atk": 128.47,
+            "def": 456.02,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 7818.5,
+            "atk": 149.23,
+            "def": 529.73,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 8907.16,
+            "atk": 170.01,
+            "def": 603.49,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 9569.93,
+            "atk": 182.66,
+            "def": 648.4,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Canine Warrior",
@@ -252915,7 +259861,97 @@
           "critRate": 0.05,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 866.2,
+            "atk": 16.92,
+            "def": 62.95,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 2872.37,
+            "atk": 56.1,
+            "def": 208.74,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 4762.25,
+            "atk": 93.01,
+            "def": 346.08,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 6090.77,
+            "atk": 118.96,
+            "def": 442.62,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 7266.03,
+            "atk": 141.91,
+            "def": 528.03,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 8440.43,
+            "atk": 164.85,
+            "def": 613.37,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 9615.69,
+            "atk": 187.8,
+            "def": 698.78,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 10331.17,
+            "atk": 201.78,
+            "def": 750.77,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Protector From Afar",
@@ -255614,7 +262650,97 @@
           "critRate": 0.05,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 1048.65,
+            "atk": 18.25,
+            "def": 51.15,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 3619.33,
+            "atk": 62.98,
+            "def": 176.56,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 6054.52,
+            "atk": 105.35,
+            "def": 295.35,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 7817.6,
+            "atk": 136.03,
+            "def": 381.36,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 9377.17,
+            "atk": 163.17,
+            "def": 457.43,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 10945.13,
+            "atk": 190.45,
+            "def": 533.92,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 12523.57,
+            "atk": 217.92,
+            "def": 610.92,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 13470.5,
+            "atk": 234.39,
+            "def": 657.11,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Pearl of Wisdom",
@@ -258268,7 +265394,105 @@
           "critDmg": 0.5,
           "elementalMastery": 0,
           "energyRecharge": 1.32
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 1004.8,
+            "atk": 26.25,
+            "def": 61.45,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0,
+            "energyRecharge": 1
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 3467.97,
+            "atk": 90.61,
+            "def": 212.07,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0,
+            "energyRecharge": 1
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 5801.33,
+            "atk": 151.58,
+            "def": 354.76,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0,
+            "energyRecharge": 1.08
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 7490.68,
+            "atk": 195.72,
+            "def": 458.07,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0,
+            "energyRecharge": 1.16
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 8985.03,
+            "atk": 234.76,
+            "def": 549.46,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0,
+            "energyRecharge": 1.16
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 10487.42,
+            "atk": 274.02,
+            "def": 641.33,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0,
+            "energyRecharge": 1.24
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 11999.86,
+            "atk": 313.53,
+            "def": 733.82,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0,
+            "energyRecharge": 1.32
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 12907.19,
+            "atk": 337.24,
+            "def": 789.31,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0,
+            "energyRecharge": 1.32
+          }
+        ]
       },
       "facts": {
         "title": "Plane of Euthymia",
@@ -260793,7 +268017,97 @@
           "critRate": 0.05,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 802.38,
+            "atk": 16.38,
+            "def": 52.65,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 2660.72,
+            "atk": 54.33,
+            "def": 174.58,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 4411.34,
+            "atk": 90.07,
+            "def": 289.45,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 5641.97,
+            "atk": 115.2,
+            "def": 370.19,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 6730.64,
+            "atk": 137.43,
+            "def": 441.62,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 7818.5,
+            "atk": 159.64,
+            "def": 513,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 8907.16,
+            "atk": 181.87,
+            "def": 584.43,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 9569.93,
+            "atk": 195.41,
+            "def": 627.92,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Crowfeather Kaburaya",
@@ -263468,7 +270782,97 @@
           "critRate": 0.242,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 791.26,
+            "atk": 25.14,
+            "def": 47.86,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 2730.95,
+            "atk": 86.76,
+            "def": 165.2,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 4568.41,
+            "atk": 145.13,
+            "def": 276.35,
+            "critRate": 0.098,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 5898.73,
+            "atk": 187.39,
+            "def": 356.82,
+            "critRate": 0.146,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 7075.5,
+            "atk": 224.77,
+            "def": 428.01,
+            "critRate": 0.146,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 8258.59,
+            "atk": 262.36,
+            "def": 499.58,
+            "critRate": 0.194,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 9449.6,
+            "atk": 300.19,
+            "def": 571.62,
+            "critRate": 0.242,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 10164.11,
+            "atk": 322.89,
+            "def": 614.84,
+            "critRate": 0.242,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Frolicking Flames",
@@ -266262,7 +273666,97 @@
           "critRate": 0.05,
           "critDmg": 0.5,
           "elementalMastery": 96
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 993.85,
+            "atk": 20.48,
+            "def": 62.43,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 3295.66,
+            "atk": 67.91,
+            "def": 207.03,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 5464.05,
+            "atk": 112.59,
+            "def": 343.24,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 24
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 6988.35,
+            "atk": 144,
+            "def": 439,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 48
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 8336.81,
+            "atk": 171.79,
+            "def": 523.71,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 48
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 9684.28,
+            "atk": 199.55,
+            "def": 608.35,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 72
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 11032.74,
+            "atk": 227.34,
+            "def": 693.06,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 96
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 11853.66,
+            "atk": 244.26,
+            "def": 744.63,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 96
+          }
+        ]
       },
       "facts": {
         "title": "Mujina Ninja",
@@ -268535,7 +276029,97 @@
           "critRate": 0.05,
           "critDmg": 0.884,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 1000.99,
+            "atk": 26.63,
+            "def": 61.03,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 3454.81,
+            "atk": 91.9,
+            "def": 210.63,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 5779.31,
+            "atk": 153.73,
+            "def": 352.35,
+            "critRate": 0.05,
+            "critDmg": 0.596,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 7462.25,
+            "atk": 198.49,
+            "def": 454.95,
+            "critRate": 0.05,
+            "critDmg": 0.692,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 8950.93,
+            "atk": 238.09,
+            "def": 545.71,
+            "critRate": 0.05,
+            "critDmg": 0.692,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 10447.62,
+            "atk": 277.9,
+            "def": 636.96,
+            "critRate": 0.05,
+            "critDmg": 0.788,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 11954.32,
+            "atk": 317.98,
+            "def": 728.82,
+            "critRate": 0.05,
+            "critDmg": 0.884,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 12858.21,
+            "atk": 342.03,
+            "def": 783.93,
+            "critRate": 0.05,
+            "critDmg": 0.884,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Frostflake Heron",
@@ -271098,7 +278682,97 @@
           "critRate": 0.05,
           "critDmg": 0.5,
           "elementalMastery": 115.2
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 1039.12,
+            "atk": 23.09,
+            "def": 62.82,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 3586.42,
+            "atk": 79.69,
+            "def": 216.82,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 5999.48,
+            "atk": 133.3,
+            "def": 362.71,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 28.8
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 7746.53,
+            "atk": 172.12,
+            "def": 468.33,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 57.6
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 9291.92,
+            "atk": 206.46,
+            "def": 561.76,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 57.6
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 10845.62,
+            "atk": 240.98,
+            "def": 655.69,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 86.4
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 12409.72,
+            "atk": 275.73,
+            "def": 750.25,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 115.2
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 13348.04,
+            "atk": 296.58,
+            "def": 806.98,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 115.2
+          }
+        ]
       },
       "facts": {
         "title": "Scarlet Leaves Pursue Wild Waves",
@@ -273952,7 +281626,97 @@
           "critRate": 0.05,
           "critDmg": 0.884,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 1029.59,
+            "atk": 26.63,
+            "def": 58.45,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 3553.52,
+            "atk": 91.9,
+            "def": 201.75,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 5944.44,
+            "atk": 153.73,
+            "def": 337.49,
+            "critRate": 0.05,
+            "critDmg": 0.596,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 7675.46,
+            "atk": 198.49,
+            "def": 435.77,
+            "critRate": 0.05,
+            "critDmg": 0.692,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 9206.67,
+            "atk": 238.09,
+            "def": 522.71,
+            "critRate": 0.05,
+            "critDmg": 0.692,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 10746.12,
+            "atk": 277.9,
+            "def": 610.11,
+            "critRate": 0.05,
+            "critDmg": 0.788,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 12295.87,
+            "atk": 317.98,
+            "def": 698.09,
+            "critRate": 0.05,
+            "critDmg": 0.884,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 13225.58,
+            "atk": 342.03,
+            "def": 750.88,
+            "critRate": 0.05,
+            "critDmg": 0.884,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Dance of the Shimmering Wave",
@@ -276607,7 +284371,97 @@
           "critRate": 0.05,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 784.14,
+            "atk": 20.12,
+            "def": 49.21,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 2600.25,
+            "atk": 66.73,
+            "def": 163.19,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 4311.09,
+            "atk": 110.63,
+            "def": 270.57,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 5513.75,
+            "atk": 141.5,
+            "def": 346.05,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 6577.67,
+            "atk": 168.8,
+            "def": 412.82,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 7640.81,
+            "atk": 196.08,
+            "def": 479.55,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 8704.73,
+            "atk": 223.39,
+            "def": 546.32,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 9352.43,
+            "atk": 240.01,
+            "def": 586.97,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Wise Innocence",
@@ -279241,7 +287095,97 @@
           "critRate": 0.05,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 1030.32,
+            "atk": 20.12,
+            "def": 59.51,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 3416.61,
+            "atk": 66.73,
+            "def": 197.35,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 5664.57,
+            "atk": 110.63,
+            "def": 327.2,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 7244.81,
+            "atk": 141.5,
+            "def": 418.48,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 8642.75,
+            "atk": 168.8,
+            "def": 499.23,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 10039.66,
+            "atk": 196.08,
+            "def": 579.92,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 11437.61,
+            "atk": 223.39,
+            "def": 660.66,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 12288.65,
+            "atk": 240.01,
+            "def": 709.82,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Thorny Benevolence",
@@ -281998,7 +289942,97 @@
           "critRate": 0.05,
           "critDmg": 0.884,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 1210.72,
+            "atk": 8.29,
+            "def": 68.21,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 4178.68,
+            "atk": 28.6,
+            "def": 235.41,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 6990.22,
+            "atk": 47.84,
+            "def": 393.8,
+            "critRate": 0.05,
+            "critDmg": 0.596,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 9025.78,
+            "atk": 61.77,
+            "def": 508.47,
+            "critRate": 0.05,
+            "critDmg": 0.692,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 10826.37,
+            "atk": 74.09,
+            "def": 609.91,
+            "critRate": 0.05,
+            "critDmg": 0.692,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 12636.64,
+            "atk": 86.48,
+            "def": 711.9,
+            "critRate": 0.05,
+            "critDmg": 0.788,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 14459.03,
+            "atk": 98.95,
+            "def": 814.56,
+            "critRate": 0.05,
+            "critDmg": 0.884,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 15552.31,
+            "atk": 106.43,
+            "def": 876.15,
+            "critRate": 0.05,
+            "critDmg": 0.884,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Fragrance in Thaw",
@@ -284260,7 +292294,97 @@
           "critRate": 0.242,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 991.45,
+            "atk": 27.19,
+            "def": 62.22,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 3421.91,
+            "atk": 93.83,
+            "def": 214.76,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 5724.27,
+            "atk": 156.95,
+            "def": 359.26,
+            "critRate": 0.098,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 7391.19,
+            "atk": 202.66,
+            "def": 463.87,
+            "critRate": 0.146,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 8865.69,
+            "atk": 243.09,
+            "def": 556.41,
+            "critRate": 0.146,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 10348.12,
+            "atk": 283.73,
+            "def": 649.45,
+            "critRate": 0.194,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 11840.47,
+            "atk": 324.65,
+            "def": 743.11,
+            "critRate": 0.242,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 12735.75,
+            "atk": 349.2,
+            "def": 799.3,
+            "critRate": 0.242,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Vigilant Yaksha",
@@ -286976,7 +295100,97 @@
           "critRate": 0.05,
           "critDmg": 0.884,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 762.66,
+            "atk": 26.07,
+            "def": 49.06,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 2632.24,
+            "atk": 89.97,
+            "def": 169.33,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 4403.29,
+            "atk": 150.5,
+            "def": 283.26,
+            "critRate": 0.05,
+            "critDmg": 0.596,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 5685.53,
+            "atk": 194.33,
+            "def": 365.74,
+            "critRate": 0.05,
+            "critDmg": 0.692,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 6819.76,
+            "atk": 233.1,
+            "def": 438.71,
+            "critRate": 0.05,
+            "critDmg": 0.692,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 7960.09,
+            "atk": 272.07,
+            "def": 512.07,
+            "critRate": 0.05,
+            "critDmg": 0.788,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 9108.05,
+            "atk": 311.31,
+            "def": 585.91,
+            "critRate": 0.05,
+            "critDmg": 0.884,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 9796.73,
+            "atk": 334.85,
+            "def": 630.21,
+            "critRate": 0.05,
+            "critDmg": 0.884,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Plenilune Gaze",
@@ -289239,7 +297453,97 @@
           "critRate": 0.05,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 1029.59,
+            "atk": 19.55,
+            "def": 68.21,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 3553.52,
+            "atk": 67.48,
+            "def": 235.41,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 5944.44,
+            "atk": 112.88,
+            "def": 393.8,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 7675.46,
+            "atk": 145.75,
+            "def": 508.47,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 9206.67,
+            "atk": 174.82,
+            "def": 609.91,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 10746.12,
+            "atk": 204.06,
+            "def": 711.9,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 12295.87,
+            "atk": 233.48,
+            "def": 814.56,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 13225.58,
+            "atk": 251.14,
+            "def": 876.15,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Kreideprinz",
@@ -291974,7 +300278,97 @@
           "critRate": 0.05,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 1143.98,
+            "atk": 19.55,
+            "def": 57.44,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 3948.36,
+            "atk": 67.48,
+            "def": 198.24,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 6604.93,
+            "atk": 112.88,
+            "def": 331.62,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 8528.29,
+            "atk": 145.75,
+            "def": 428.19,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 10229.64,
+            "atk": 174.82,
+            "def": 513.61,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 11940.14,
+            "atk": 204.06,
+            "def": 599.49,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 13662.08,
+            "atk": 233.48,
+            "def": 685.95,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 14695.09,
+            "atk": 251.14,
+            "def": 737.81,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Vago Mundo",
@@ -294730,7 +303124,97 @@
           "critRate": 0.05,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 939.14,
+            "atk": 20.84,
+            "def": 66.95,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 3114.25,
+            "atk": 69.09,
+            "def": 222.02,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 5163.28,
+            "atk": 114.55,
+            "def": 368.1,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 6603.67,
+            "atk": 146.51,
+            "def": 470.79,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 7877.91,
+            "atk": 174.78,
+            "def": 561.63,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 9151.2,
+            "atk": 203.03,
+            "def": 652.4,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 10425.43,
+            "atk": 231.29,
+            "def": 743.25,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 11201.16,
+            "atk": 248.5,
+            "def": 798.55,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Blazing Riff",
@@ -297685,7 +306169,97 @@
           "critRate": 0.05,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 1020.05,
+            "atk": 23.46,
+            "def": 63.42,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 3520.62,
+            "atk": 80.97,
+            "def": 218.89,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 5889.4,
+            "atk": 135.45,
+            "def": 366.16,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 7604.39,
+            "atk": 174.9,
+            "def": 472.79,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 9121.43,
+            "atk": 209.79,
+            "def": 567.11,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 10646.62,
+            "atk": 244.87,
+            "def": 661.94,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 12182.02,
+            "atk": 280.18,
+            "def": 757.4,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 13103.12,
+            "atk": 301.36,
+            "def": 814.67,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Childe",
@@ -300407,7 +308981,97 @@
           "critRate": 0.05,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 802.38,
+            "atk": 17.81,
+            "def": 50.36,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 2660.72,
+            "atk": 59.05,
+            "def": 166.99,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 4411.34,
+            "atk": 97.91,
+            "def": 276.86,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 5641.97,
+            "atk": 125.22,
+            "def": 354.1,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 6730.64,
+            "atk": 149.38,
+            "def": 422.42,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 7818.5,
+            "atk": 173.53,
+            "def": 490.7,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 8907.16,
+            "atk": 197.69,
+            "def": 559.02,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 9569.93,
+            "atk": 212.4,
+            "def": 600.62,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "K\u00e4tzlein Cocktail",
@@ -302845,7 +311509,97 @@
           "critRate": 0.05,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 911.79,
+            "atk": 17.81,
+            "def": 57.23,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 3023.55,
+            "atk": 59.05,
+            "def": 189.76,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 5012.89,
+            "atk": 97.91,
+            "def": 314.61,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 6411.33,
+            "atk": 125.22,
+            "def": 402.38,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 7648.45,
+            "atk": 149.38,
+            "def": 480.03,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 8884.66,
+            "atk": 173.53,
+            "def": 557.61,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 10121.78,
+            "atk": 197.69,
+            "def": 635.25,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 10874.91,
+            "atk": 212.4,
+            "def": 682.52,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "constellation": "Viator"
@@ -305444,7 +314198,97 @@
               "critRate": 0.05,
               "critDmg": 0.5,
               "elementalMastery": 0
-            }
+            },
+            "levels": [
+              {
+                "label": "Lv. 1/20",
+                "level": 1,
+                "cap": 20,
+                "hp": 911.79,
+                "atk": 17.81,
+                "def": 57.23,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 20/40",
+                "level": 20,
+                "cap": 40,
+                "hp": 3023.55,
+                "atk": 59.05,
+                "def": 189.76,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 40/50",
+                "level": 40,
+                "cap": 50,
+                "hp": 5012.89,
+                "atk": 97.91,
+                "def": 314.61,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 50/60",
+                "level": 50,
+                "cap": 60,
+                "hp": 6411.33,
+                "atk": 125.22,
+                "def": 402.38,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 60/70",
+                "level": 60,
+                "cap": 70,
+                "hp": 7648.45,
+                "atk": 149.38,
+                "def": 480.03,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 70/80",
+                "level": 70,
+                "cap": 80,
+                "hp": 8884.66,
+                "atk": 173.53,
+                "def": 557.61,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 80/90",
+                "level": 80,
+                "cap": 90,
+                "hp": 10121.78,
+                "atk": 197.69,
+                "def": 635.25,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 90/90",
+                "level": 90,
+                "cap": 90,
+                "hp": 10874.91,
+                "atk": 212.4,
+                "def": 682.52,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              }
+            ]
           },
           "facts": {
             "constellation": "Viator"
@@ -308039,7 +316883,97 @@
               "critRate": 0.05,
               "critDmg": 0.5,
               "elementalMastery": 0
-            }
+            },
+            "levels": [
+              {
+                "label": "Lv. 1/20",
+                "level": 1,
+                "cap": 20,
+                "hp": 911.79,
+                "atk": 17.81,
+                "def": 57.23,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 20/40",
+                "level": 20,
+                "cap": 40,
+                "hp": 3023.55,
+                "atk": 59.05,
+                "def": 189.76,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 40/50",
+                "level": 40,
+                "cap": 50,
+                "hp": 5012.89,
+                "atk": 97.91,
+                "def": 314.61,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 50/60",
+                "level": 50,
+                "cap": 60,
+                "hp": 6411.33,
+                "atk": 125.22,
+                "def": 402.38,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 60/70",
+                "level": 60,
+                "cap": 70,
+                "hp": 7648.45,
+                "atk": 149.38,
+                "def": 480.03,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 70/80",
+                "level": 70,
+                "cap": 80,
+                "hp": 8884.66,
+                "atk": 173.53,
+                "def": 557.61,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 80/90",
+                "level": 80,
+                "cap": 90,
+                "hp": 10121.78,
+                "atk": 197.69,
+                "def": 635.25,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 90/90",
+                "level": 90,
+                "cap": 90,
+                "hp": 10874.91,
+                "atk": 212.4,
+                "def": 682.52,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              }
+            ]
           },
           "facts": {
             "constellation": "Viatrix"
@@ -310554,7 +319488,97 @@
               "critRate": 0.05,
               "critDmg": 0.5,
               "elementalMastery": 0
-            }
+            },
+            "levels": [
+              {
+                "label": "Lv. 1/20",
+                "level": 1,
+                "cap": 20,
+                "hp": 911.79,
+                "atk": 17.81,
+                "def": 57.23,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 20/40",
+                "level": 20,
+                "cap": 40,
+                "hp": 3023.55,
+                "atk": 59.05,
+                "def": 189.76,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 40/50",
+                "level": 40,
+                "cap": 50,
+                "hp": 5012.89,
+                "atk": 97.91,
+                "def": 314.61,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 50/60",
+                "level": 50,
+                "cap": 60,
+                "hp": 6411.33,
+                "atk": 125.22,
+                "def": 402.38,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 60/70",
+                "level": 60,
+                "cap": 70,
+                "hp": 7648.45,
+                "atk": 149.38,
+                "def": 480.03,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 70/80",
+                "level": 70,
+                "cap": 80,
+                "hp": 8884.66,
+                "atk": 173.53,
+                "def": 557.61,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 80/90",
+                "level": 80,
+                "cap": 90,
+                "hp": 10121.78,
+                "atk": 197.69,
+                "def": 635.25,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 90/90",
+                "level": 90,
+                "cap": 90,
+                "hp": 10874.91,
+                "atk": 212.4,
+                "def": 682.52,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              }
+            ]
           },
           "facts": {
             "constellation": "Viator"
@@ -312953,7 +321977,97 @@
               "critRate": 0.05,
               "critDmg": 0.5,
               "elementalMastery": 0
-            }
+            },
+            "levels": [
+              {
+                "label": "Lv. 1/20",
+                "level": 1,
+                "cap": 20,
+                "hp": 911.79,
+                "atk": 17.81,
+                "def": 57.23,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 20/40",
+                "level": 20,
+                "cap": 40,
+                "hp": 3023.55,
+                "atk": 59.05,
+                "def": 189.76,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 40/50",
+                "level": 40,
+                "cap": 50,
+                "hp": 5012.89,
+                "atk": 97.91,
+                "def": 314.61,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 50/60",
+                "level": 50,
+                "cap": 60,
+                "hp": 6411.33,
+                "atk": 125.22,
+                "def": 402.38,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 60/70",
+                "level": 60,
+                "cap": 70,
+                "hp": 7648.45,
+                "atk": 149.38,
+                "def": 480.03,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 70/80",
+                "level": 70,
+                "cap": 80,
+                "hp": 8884.66,
+                "atk": 173.53,
+                "def": 557.61,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 80/90",
+                "level": 80,
+                "cap": 90,
+                "hp": 10121.78,
+                "atk": 197.69,
+                "def": 635.25,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 90/90",
+                "level": 90,
+                "cap": 90,
+                "hp": 10874.91,
+                "atk": 212.4,
+                "def": 682.52,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              }
+            ]
           },
           "facts": {
             "constellation": "Viatrix"
@@ -315452,7 +324566,97 @@
               "critRate": 0.05,
               "critDmg": 0.5,
               "elementalMastery": 0
-            }
+            },
+            "levels": [
+              {
+                "label": "Lv. 1/20",
+                "level": 1,
+                "cap": 20,
+                "hp": 911.79,
+                "atk": 17.81,
+                "def": 57.23,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 20/40",
+                "level": 20,
+                "cap": 40,
+                "hp": 3023.55,
+                "atk": 59.05,
+                "def": 189.76,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 40/50",
+                "level": 40,
+                "cap": 50,
+                "hp": 5012.89,
+                "atk": 97.91,
+                "def": 314.61,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 50/60",
+                "level": 50,
+                "cap": 60,
+                "hp": 6411.33,
+                "atk": 125.22,
+                "def": 402.38,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 60/70",
+                "level": 60,
+                "cap": 70,
+                "hp": 7648.45,
+                "atk": 149.38,
+                "def": 480.03,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 70/80",
+                "level": 70,
+                "cap": 80,
+                "hp": 8884.66,
+                "atk": 173.53,
+                "def": 557.61,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 80/90",
+                "level": 80,
+                "cap": 90,
+                "hp": 10121.78,
+                "atk": 197.69,
+                "def": 635.25,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 90/90",
+                "level": 90,
+                "cap": 90,
+                "hp": 10874.91,
+                "atk": 212.4,
+                "def": 682.52,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              }
+            ]
           },
           "facts": {
             "constellation": "Viator"
@@ -317947,7 +327151,97 @@
               "critRate": 0.05,
               "critDmg": 0.5,
               "elementalMastery": 0
-            }
+            },
+            "levels": [
+              {
+                "label": "Lv. 1/20",
+                "level": 1,
+                "cap": 20,
+                "hp": 911.79,
+                "atk": 17.81,
+                "def": 57.23,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 20/40",
+                "level": 20,
+                "cap": 40,
+                "hp": 3023.55,
+                "atk": 59.05,
+                "def": 189.76,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 40/50",
+                "level": 40,
+                "cap": 50,
+                "hp": 5012.89,
+                "atk": 97.91,
+                "def": 314.61,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 50/60",
+                "level": 50,
+                "cap": 60,
+                "hp": 6411.33,
+                "atk": 125.22,
+                "def": 402.38,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 60/70",
+                "level": 60,
+                "cap": 70,
+                "hp": 7648.45,
+                "atk": 149.38,
+                "def": 480.03,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 70/80",
+                "level": 70,
+                "cap": 80,
+                "hp": 8884.66,
+                "atk": 173.53,
+                "def": 557.61,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 80/90",
+                "level": 80,
+                "cap": 90,
+                "hp": 10121.78,
+                "atk": 197.69,
+                "def": 635.25,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 90/90",
+                "level": 90,
+                "cap": 90,
+                "hp": 10874.91,
+                "atk": 212.4,
+                "def": 682.52,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              }
+            ]
           },
           "facts": {
             "constellation": "Viatrix"
@@ -320342,7 +329636,97 @@
               "critRate": 0.05,
               "critDmg": 0.5,
               "elementalMastery": 0
-            }
+            },
+            "levels": [
+              {
+                "label": "Lv. 1/20",
+                "level": 1,
+                "cap": 20,
+                "hp": 911.79,
+                "atk": 17.81,
+                "def": 57.23,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 20/40",
+                "level": 20,
+                "cap": 40,
+                "hp": 3023.55,
+                "atk": 59.05,
+                "def": 189.76,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 40/50",
+                "level": 40,
+                "cap": 50,
+                "hp": 5012.89,
+                "atk": 97.91,
+                "def": 314.61,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 50/60",
+                "level": 50,
+                "cap": 60,
+                "hp": 6411.33,
+                "atk": 125.22,
+                "def": 402.38,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 60/70",
+                "level": 60,
+                "cap": 70,
+                "hp": 7648.45,
+                "atk": 149.38,
+                "def": 480.03,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 70/80",
+                "level": 70,
+                "cap": 80,
+                "hp": 8884.66,
+                "atk": 173.53,
+                "def": 557.61,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 80/90",
+                "level": 80,
+                "cap": 90,
+                "hp": 10121.78,
+                "atk": 197.69,
+                "def": 635.25,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 90/90",
+                "level": 90,
+                "cap": 90,
+                "hp": 10874.91,
+                "atk": 212.4,
+                "def": 682.52,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              }
+            ]
           },
           "facts": {
             "constellation": "Viator"
@@ -322857,7 +332241,97 @@
               "critRate": 0.05,
               "critDmg": 0.5,
               "elementalMastery": 0
-            }
+            },
+            "levels": [
+              {
+                "label": "Lv. 1/20",
+                "level": 1,
+                "cap": 20,
+                "hp": 911.79,
+                "atk": 17.81,
+                "def": 57.23,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 20/40",
+                "level": 20,
+                "cap": 40,
+                "hp": 3023.55,
+                "atk": 59.05,
+                "def": 189.76,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 40/50",
+                "level": 40,
+                "cap": 50,
+                "hp": 5012.89,
+                "atk": 97.91,
+                "def": 314.61,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 50/60",
+                "level": 50,
+                "cap": 60,
+                "hp": 6411.33,
+                "atk": 125.22,
+                "def": 402.38,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 60/70",
+                "level": 60,
+                "cap": 70,
+                "hp": 7648.45,
+                "atk": 149.38,
+                "def": 480.03,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 70/80",
+                "level": 70,
+                "cap": 80,
+                "hp": 8884.66,
+                "atk": 173.53,
+                "def": 557.61,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 80/90",
+                "level": 80,
+                "cap": 90,
+                "hp": 10121.78,
+                "atk": 197.69,
+                "def": 635.25,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 90/90",
+                "level": 90,
+                "cap": 90,
+                "hp": 10874.91,
+                "atk": 212.4,
+                "def": 682.52,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              }
+            ]
           },
           "facts": {
             "constellation": "Viatrix"
@@ -325472,7 +334946,97 @@
               "critRate": 0.05,
               "critDmg": 0.5,
               "elementalMastery": 0
-            }
+            },
+            "levels": [
+              {
+                "label": "Lv. 1/20",
+                "level": 1,
+                "cap": 20,
+                "hp": 911.79,
+                "atk": 17.81,
+                "def": 57.23,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 20/40",
+                "level": 20,
+                "cap": 40,
+                "hp": 3023.55,
+                "atk": 59.05,
+                "def": 189.76,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 40/50",
+                "level": 40,
+                "cap": 50,
+                "hp": 5012.89,
+                "atk": 97.91,
+                "def": 314.61,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 50/60",
+                "level": 50,
+                "cap": 60,
+                "hp": 6411.33,
+                "atk": 125.22,
+                "def": 402.38,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 60/70",
+                "level": 60,
+                "cap": 70,
+                "hp": 7648.45,
+                "atk": 149.38,
+                "def": 480.03,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 70/80",
+                "level": 70,
+                "cap": 80,
+                "hp": 8884.66,
+                "atk": 173.53,
+                "def": 557.61,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 80/90",
+                "level": 80,
+                "cap": 90,
+                "hp": 10121.78,
+                "atk": 197.69,
+                "def": 635.25,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 90/90",
+                "level": 90,
+                "cap": 90,
+                "hp": 10874.91,
+                "atk": 212.4,
+                "def": 682.52,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              }
+            ]
           },
           "facts": {
             "constellation": "Viator"
@@ -328087,7 +337651,97 @@
               "critRate": 0.05,
               "critDmg": 0.5,
               "elementalMastery": 0
-            }
+            },
+            "levels": [
+              {
+                "label": "Lv. 1/20",
+                "level": 1,
+                "cap": 20,
+                "hp": 911.79,
+                "atk": 17.81,
+                "def": 57.23,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 20/40",
+                "level": 20,
+                "cap": 40,
+                "hp": 3023.55,
+                "atk": 59.05,
+                "def": 189.76,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 40/50",
+                "level": 40,
+                "cap": 50,
+                "hp": 5012.89,
+                "atk": 97.91,
+                "def": 314.61,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 50/60",
+                "level": 50,
+                "cap": 60,
+                "hp": 6411.33,
+                "atk": 125.22,
+                "def": 402.38,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 60/70",
+                "level": 60,
+                "cap": 70,
+                "hp": 7648.45,
+                "atk": 149.38,
+                "def": 480.03,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 70/80",
+                "level": 70,
+                "cap": 80,
+                "hp": 8884.66,
+                "atk": 173.53,
+                "def": 557.61,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 80/90",
+                "level": 80,
+                "cap": 90,
+                "hp": 10121.78,
+                "atk": 197.69,
+                "def": 635.25,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 90/90",
+                "level": 90,
+                "cap": 90,
+                "hp": 10874.91,
+                "atk": 212.4,
+                "def": 682.52,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              }
+            ]
           },
           "facts": {
             "constellation": "Viatrix"
@@ -330622,7 +340276,97 @@
               "critRate": 0.05,
               "critDmg": 0.5,
               "elementalMastery": 0
-            }
+            },
+            "levels": [
+              {
+                "label": "Lv. 1/20",
+                "level": 1,
+                "cap": 20,
+                "hp": 911.79,
+                "atk": 17.81,
+                "def": 57.23,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 20/40",
+                "level": 20,
+                "cap": 40,
+                "hp": 3023.55,
+                "atk": 59.05,
+                "def": 189.76,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 40/50",
+                "level": 40,
+                "cap": 50,
+                "hp": 5012.89,
+                "atk": 97.91,
+                "def": 314.61,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 50/60",
+                "level": 50,
+                "cap": 60,
+                "hp": 6411.33,
+                "atk": 125.22,
+                "def": 402.38,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 60/70",
+                "level": 60,
+                "cap": 70,
+                "hp": 7648.45,
+                "atk": 149.38,
+                "def": 480.03,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 70/80",
+                "level": 70,
+                "cap": 80,
+                "hp": 8884.66,
+                "atk": 173.53,
+                "def": 557.61,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 80/90",
+                "level": 80,
+                "cap": 90,
+                "hp": 10121.78,
+                "atk": 197.69,
+                "def": 635.25,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 90/90",
+                "level": 90,
+                "cap": 90,
+                "hp": 10874.91,
+                "atk": 212.4,
+                "def": 682.52,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              }
+            ]
           },
           "facts": {
             "constellation": "Viator"
@@ -333067,7 +342811,97 @@
               "critRate": 0.05,
               "critDmg": 0.5,
               "elementalMastery": 0
-            }
+            },
+            "levels": [
+              {
+                "label": "Lv. 1/20",
+                "level": 1,
+                "cap": 20,
+                "hp": 911.79,
+                "atk": 17.81,
+                "def": 57.23,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 20/40",
+                "level": 20,
+                "cap": 40,
+                "hp": 3023.55,
+                "atk": 59.05,
+                "def": 189.76,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 40/50",
+                "level": 40,
+                "cap": 50,
+                "hp": 5012.89,
+                "atk": 97.91,
+                "def": 314.61,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 50/60",
+                "level": 50,
+                "cap": 60,
+                "hp": 6411.33,
+                "atk": 125.22,
+                "def": 402.38,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 60/70",
+                "level": 60,
+                "cap": 70,
+                "hp": 7648.45,
+                "atk": 149.38,
+                "def": 480.03,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 70/80",
+                "level": 70,
+                "cap": 80,
+                "hp": 8884.66,
+                "atk": 173.53,
+                "def": 557.61,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 80/90",
+                "level": 80,
+                "cap": 90,
+                "hp": 10121.78,
+                "atk": 197.69,
+                "def": 635.25,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 90/90",
+                "level": 90,
+                "cap": 90,
+                "hp": 10874.91,
+                "atk": 212.4,
+                "def": 682.52,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              }
+            ]
           },
           "facts": {
             "constellation": "Viatrix"
@@ -335637,7 +345471,97 @@
               "critRate": 0.05,
               "critDmg": 0.5,
               "elementalMastery": 0
-            }
+            },
+            "levels": [
+              {
+                "label": "Lv. 1/20",
+                "level": 1,
+                "cap": 20,
+                "hp": 911.79,
+                "atk": 17.81,
+                "def": 57.23,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 20/40",
+                "level": 20,
+                "cap": 40,
+                "hp": 3023.55,
+                "atk": 59.05,
+                "def": 189.76,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 40/50",
+                "level": 40,
+                "cap": 50,
+                "hp": 5012.89,
+                "atk": 97.91,
+                "def": 314.61,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 50/60",
+                "level": 50,
+                "cap": 60,
+                "hp": 6411.33,
+                "atk": 125.22,
+                "def": 402.38,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 60/70",
+                "level": 60,
+                "cap": 70,
+                "hp": 7648.45,
+                "atk": 149.38,
+                "def": 480.03,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 70/80",
+                "level": 70,
+                "cap": 80,
+                "hp": 8884.66,
+                "atk": 173.53,
+                "def": 557.61,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 80/90",
+                "level": 80,
+                "cap": 90,
+                "hp": 10121.78,
+                "atk": 197.69,
+                "def": 635.25,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 90/90",
+                "level": 90,
+                "cap": 90,
+                "hp": 10874.91,
+                "atk": 212.4,
+                "def": 682.52,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              }
+            ]
           },
           "facts": {
             "constellation": "Viator"
@@ -337231,7 +347155,97 @@
               "critRate": 0,
               "critDmg": 0.5,
               "elementalMastery": 0
-            }
+            },
+            "levels": [
+              {
+                "label": "Lv. 1/20",
+                "level": 1,
+                "cap": 20,
+                "hp": 1167.77,
+                "atk": 389.26,
+                "def": 233.55,
+                "critRate": 0,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 20/40",
+                "level": 20,
+                "cap": 40,
+                "hp": 3000,
+                "atk": 1000,
+                "def": 600,
+                "critRate": 0,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 40/50",
+                "level": 40,
+                "cap": 50,
+                "hp": 4927.99,
+                "atk": 1642.66,
+                "def": 985.6,
+                "critRate": 0,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 50/60",
+                "level": 50,
+                "cap": 60,
+                "hp": 5892.56,
+                "atk": 1964.19,
+                "def": 1178.51,
+                "critRate": 0,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 60/70",
+                "level": 60,
+                "cap": 70,
+                "hp": 6857.14,
+                "atk": 2285.71,
+                "def": 1371.43,
+                "critRate": 0,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 70/80",
+                "level": 70,
+                "cap": 80,
+                "hp": 7820.55,
+                "atk": 2606.85,
+                "def": 1564.11,
+                "critRate": 0,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 80/90",
+                "level": 80,
+                "cap": 90,
+                "hp": 8785.13,
+                "atk": 2928.38,
+                "def": 1757.03,
+                "critRate": 0,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 90/90",
+                "level": 90,
+                "cap": 90,
+                "hp": 9749.71,
+                "atk": 3249.9,
+                "def": 1949.94,
+                "critRate": 0,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              }
+            ]
           },
           "facts": {},
           "book": null,
@@ -337917,7 +347931,97 @@
               "critRate": 0.05,
               "critDmg": 0.5,
               "elementalMastery": 0
-            }
+            },
+            "levels": [
+              {
+                "label": "Lv. 1/20",
+                "level": 1,
+                "cap": 20,
+                "hp": 911.79,
+                "atk": 17.81,
+                "def": 57.23,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 20/40",
+                "level": 20,
+                "cap": 40,
+                "hp": 3023.55,
+                "atk": 59.05,
+                "def": 189.76,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 40/50",
+                "level": 40,
+                "cap": 50,
+                "hp": 5012.89,
+                "atk": 97.91,
+                "def": 314.61,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 50/60",
+                "level": 50,
+                "cap": 60,
+                "hp": 6411.33,
+                "atk": 125.22,
+                "def": 402.38,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 60/70",
+                "level": 60,
+                "cap": 70,
+                "hp": 7648.45,
+                "atk": 149.38,
+                "def": 480.03,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 70/80",
+                "level": 70,
+                "cap": 80,
+                "hp": 8884.66,
+                "atk": 173.53,
+                "def": 557.61,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 80/90",
+                "level": 80,
+                "cap": 90,
+                "hp": 10121.78,
+                "atk": 197.69,
+                "def": 635.25,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 90/90",
+                "level": 90,
+                "cap": 90,
+                "hp": 10874.91,
+                "atk": 212.4,
+                "def": 682.52,
+                "critRate": 0.05,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              }
+            ]
           },
           "facts": {
             "constellation": "Viatrix"
@@ -339511,7 +349615,97 @@
               "critRate": 0,
               "critDmg": 0.5,
               "elementalMastery": 0
-            }
+            },
+            "levels": [
+              {
+                "label": "Lv. 1/20",
+                "level": 1,
+                "cap": 20,
+                "hp": 1167.77,
+                "atk": 389.26,
+                "def": 233.55,
+                "critRate": 0,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 20/40",
+                "level": 20,
+                "cap": 40,
+                "hp": 3000,
+                "atk": 1000,
+                "def": 600,
+                "critRate": 0,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 40/50",
+                "level": 40,
+                "cap": 50,
+                "hp": 4927.99,
+                "atk": 1642.66,
+                "def": 985.6,
+                "critRate": 0,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 50/60",
+                "level": 50,
+                "cap": 60,
+                "hp": 5892.56,
+                "atk": 1964.19,
+                "def": 1178.51,
+                "critRate": 0,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 60/70",
+                "level": 60,
+                "cap": 70,
+                "hp": 6857.14,
+                "atk": 2285.71,
+                "def": 1371.43,
+                "critRate": 0,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 70/80",
+                "level": 70,
+                "cap": 80,
+                "hp": 7820.55,
+                "atk": 2606.85,
+                "def": 1564.11,
+                "critRate": 0,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 80/90",
+                "level": 80,
+                "cap": 90,
+                "hp": 8785.13,
+                "atk": 2928.38,
+                "def": 1757.03,
+                "critRate": 0,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              },
+              {
+                "label": "Lv. 90/90",
+                "level": 90,
+                "cap": 90,
+                "hp": 9749.71,
+                "atk": 3249.9,
+                "def": 1949.94,
+                "critRate": 0,
+                "critDmg": 0.5,
+                "elementalMastery": 0
+              }
+            ]
           },
           "facts": {},
           "book": null,
@@ -340153,7 +350347,97 @@
           "critRate": 0.242,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 1010.52,
+            "atk": 26.07,
+            "def": 61.03,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 3487.72,
+            "atk": 89.97,
+            "def": 210.63,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 5834.36,
+            "atk": 150.5,
+            "def": 352.35,
+            "critRate": 0.098,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 7533.32,
+            "atk": 194.33,
+            "def": 454.95,
+            "critRate": 0.146,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 9036.18,
+            "atk": 233.1,
+            "def": 545.71,
+            "critRate": 0.146,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 10547.12,
+            "atk": 272.07,
+            "def": 636.96,
+            "critRate": 0.194,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 12068.17,
+            "atk": 311.31,
+            "def": 728.82,
+            "critRate": 0.242,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 12980.67,
+            "atk": 334.85,
+            "def": 783.93,
+            "critRate": 0.242,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Dark Side of Dawn",
@@ -342849,7 +353133,97 @@
           "critRate": 0.05,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 1143.98,
+            "atk": 18.62,
+            "def": 59.83,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 3948.36,
+            "atk": 64.26,
+            "def": 206.5,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 6604.93,
+            "atk": 107.5,
+            "def": 345.44,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 8528.29,
+            "atk": 138.81,
+            "def": 446.03,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 10229.64,
+            "atk": 166.5,
+            "def": 535.01,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 11940.14,
+            "atk": 194.34,
+            "def": 624.47,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 13662.08,
+            "atk": 222.36,
+            "def": 714.53,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 14695.09,
+            "atk": 239.18,
+            "def": 768.55,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Dandelion Knight",
@@ -345524,7 +355898,97 @@
           "critRate": 0.05,
           "critDmg": 0.884,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 1020.05,
+            "atk": 25.14,
+            "def": 62.22,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 3520.62,
+            "atk": 86.76,
+            "def": 214.76,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 5889.4,
+            "atk": 145.13,
+            "def": 359.26,
+            "critRate": 0.05,
+            "critDmg": 0.596,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 7604.39,
+            "atk": 187.39,
+            "def": 463.87,
+            "critRate": 0.05,
+            "critDmg": 0.692,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 9121.43,
+            "atk": 224.77,
+            "def": 556.41,
+            "critRate": 0.05,
+            "critDmg": 0.692,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 10646.62,
+            "atk": 262.36,
+            "def": 649.45,
+            "critRate": 0.05,
+            "critDmg": 0.788,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 12182.02,
+            "atk": 300.19,
+            "def": 743.11,
+            "critRate": 0.05,
+            "critDmg": 0.884,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 13103.12,
+            "atk": 322.89,
+            "def": 799.3,
+            "critRate": 0.05,
+            "critDmg": 0.884,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Driving Thunder",
@@ -347738,7 +358202,97 @@
           "critRate": 0.05,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 800.79,
+            "atk": 24.21,
+            "def": 47.86,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 2763.85,
+            "atk": 83.54,
+            "def": 165.2,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 4623.45,
+            "atk": 139.75,
+            "def": 276.35,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 5969.8,
+            "atk": 180.45,
+            "def": 356.82,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 7160.75,
+            "atk": 216.45,
+            "def": 428.01,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 8358.1,
+            "atk": 252.64,
+            "def": 499.58,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 9563.45,
+            "atk": 289.07,
+            "def": 571.62,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 10286.57,
+            "atk": 310.93,
+            "def": 614.84,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Fleeing Sunlight",
@@ -350415,7 +360969,105 @@
           "critDmg": 0.5,
           "elementalMastery": 0,
           "energyRecharge": 1.32
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 810.32,
+            "atk": 22.34,
+            "def": 50.86,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0,
+            "energyRecharge": 1
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 2796.75,
+            "atk": 77.12,
+            "def": 175.52,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0,
+            "energyRecharge": 1
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 4678.49,
+            "atk": 129,
+            "def": 293.62,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0,
+            "energyRecharge": 1.08
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 6040.87,
+            "atk": 166.57,
+            "def": 379.13,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0,
+            "energyRecharge": 1.16
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 7245.99,
+            "atk": 199.8,
+            "def": 454.76,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0,
+            "energyRecharge": 1.16
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 8457.6,
+            "atk": 233.21,
+            "def": 530.8,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0,
+            "energyRecharge": 1.24
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 9677.3,
+            "atk": 266.84,
+            "def": 607.35,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0,
+            "energyRecharge": 1.32
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 10409.02,
+            "atk": 287.01,
+            "def": 653.27,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0,
+            "energyRecharge": 1.32
+          }
+        ]
       },
       "facts": {
         "title": "Astral Reflection",
@@ -352809,7 +363461,97 @@
           "critRate": 0.05,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 962.85,
+            "atk": 22.34,
+            "def": 71.8,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 3323.2,
+            "atk": 77.12,
+            "def": 247.8,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 5559.15,
+            "atk": 129,
+            "def": 414.53,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 7177.98,
+            "atk": 166.57,
+            "def": 535.24,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 8609.95,
+            "atk": 199.8,
+            "def": 642.01,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 10049.62,
+            "atk": 233.21,
+            "def": 749.36,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 11498.91,
+            "atk": 266.84,
+            "def": 857.43,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 12368.37,
+            "atk": 287.01,
+            "def": 922.27,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Icy Resurrection",
@@ -355520,7 +366262,105 @@
           "critDmg": 0.5,
           "elementalMastery": 0,
           "energyRecharge": 1.32
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 819.86,
+            "atk": 20.48,
+            "def": 52.05,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0,
+            "energyRecharge": 1
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 2829.66,
+            "atk": 70.69,
+            "def": 179.65,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0,
+            "energyRecharge": 1
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 4733.53,
+            "atk": 118.25,
+            "def": 300.53,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0,
+            "energyRecharge": 1.08
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 6111.94,
+            "atk": 152.69,
+            "def": 388.05,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0,
+            "energyRecharge": 1.16
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 7331.24,
+            "atk": 183.15,
+            "def": 465.46,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0,
+            "energyRecharge": 1.16
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 8557.1,
+            "atk": 213.77,
+            "def": 543.29,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0,
+            "energyRecharge": 1.24
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 9791.15,
+            "atk": 244.6,
+            "def": 621.64,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0,
+            "energyRecharge": 1.32
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 10531.48,
+            "atk": 263.1,
+            "def": 668.64,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0,
+            "energyRecharge": 1.32
+          }
+        ]
       },
       "facts": {
         "title": "Windborne Bard",
@@ -358166,7 +369006,97 @@
           "critRate": 0.05,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 793.26,
+            "atk": 18.7,
+            "def": 50.36,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 2630.48,
+            "atk": 62.01,
+            "def": 166.99,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 4361.22,
+            "atk": 102.8,
+            "def": 276.86,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 5577.86,
+            "atk": 131.48,
+            "def": 354.1,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 6654.15,
+            "atk": 156.85,
+            "def": 422.42,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 7729.65,
+            "atk": 182.2,
+            "def": 490.7,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 8805.94,
+            "atk": 207.57,
+            "def": 559.02,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 9461.18,
+            "atk": 223.02,
+            "def": 600.62,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Gliding Champion",
@@ -360539,7 +371469,97 @@
           "critRate": 0.05,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 820.61,
+            "atk": 13.36,
+            "def": 56.08,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 2721.19,
+            "atk": 44.29,
+            "def": 185.97,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 4511.6,
+            "atk": 73.43,
+            "def": 308.32,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 5770.2,
+            "atk": 93.91,
+            "def": 394.33,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 6883.61,
+            "atk": 112.04,
+            "def": 470.42,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 7996.19,
+            "atk": 130.14,
+            "def": 546.46,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 9109.6,
+            "atk": 148.27,
+            "def": 622.55,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 9787.42,
+            "atk": 159.3,
+            "def": 668.87,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Shining Idol",
@@ -363266,7 +374286,97 @@
           "critRate": 0.05,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 1094.15,
+            "atk": 18.88,
+            "def": 54.36,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 3628.25,
+            "atk": 62.6,
+            "def": 180.27,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 6015.47,
+            "atk": 103.78,
+            "def": 298.88,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 7693.6,
+            "atk": 132.73,
+            "def": 382.26,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 9178.14,
+            "atk": 158.34,
+            "def": 456.02,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 10661.59,
+            "atk": 183.94,
+            "def": 529.73,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 12146.13,
+            "atk": 209.55,
+            "def": 603.49,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 13049.9,
+            "atk": 225.14,
+            "def": 648.4,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Uncrowned Lord of the Ocean",
@@ -365983,7 +377093,105 @@
           "critDmg": 0.5,
           "elementalMastery": 0,
           "energyRecharge": 1.2667
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 1039.44,
+            "atk": 16.03,
+            "def": 64.66,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0,
+            "energyRecharge": 1
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 3446.84,
+            "atk": 53.15,
+            "def": 214.43,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0,
+            "energyRecharge": 1
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 5714.7,
+            "atk": 88.12,
+            "def": 355.51,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0,
+            "energyRecharge": 1.0667
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 7308.92,
+            "atk": 112.7,
+            "def": 454.69,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0,
+            "energyRecharge": 1.1333
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 8719.24,
+            "atk": 134.44,
+            "def": 542.43,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0,
+            "energyRecharge": 1.1333
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 10128.51,
+            "atk": 156.17,
+            "def": 630.1,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0,
+            "energyRecharge": 1.2
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 11538.82,
+            "atk": 177.92,
+            "def": 717.84,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0,
+            "energyRecharge": 1.2667
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 12397.4,
+            "atk": 191.16,
+            "def": 771.25,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0,
+            "energyRecharge": 1.2667
+          }
+        ]
       },
       "facts": {
         "title": "Trial by Fire",
@@ -368638,7 +379846,97 @@
           "critRate": 0.05,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 920.91,
+            "atk": 18.7,
+            "def": 54.36,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 3053.78,
+            "atk": 62.01,
+            "def": 180.27,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 5063.02,
+            "atk": 102.8,
+            "def": 298.88,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 6475.45,
+            "atk": 131.48,
+            "def": 382.26,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 7724.94,
+            "atk": 156.85,
+            "def": 456.02,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 8973.5,
+            "atk": 182.2,
+            "def": 529.73,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 10222.99,
+            "atk": 207.57,
+            "def": 603.49,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 10983.66,
+            "atk": 223.02,
+            "def": 648.4,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Frozen Ardor",
@@ -371280,7 +382578,97 @@
           "critRate": 0.05,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 770.46,
+            "atk": 20.48,
+            "def": 49.79,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 2554.9,
+            "atk": 67.91,
+            "def": 165.09,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 4235.89,
+            "atk": 112.59,
+            "def": 273.71,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 5417.58,
+            "atk": 144,
+            "def": 350.07,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 6462.94,
+            "atk": 171.79,
+            "def": 417.62,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 7507.54,
+            "atk": 199.55,
+            "def": 485.12,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 8552.9,
+            "atk": 227.34,
+            "def": 552.67,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 9189.3,
+            "atk": 244.26,
+            "def": 593.79,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Prinzessin der Verurteilung!",
@@ -373620,7 +385008,105 @@
           "critDmg": 0.5,
           "elementalMastery": 0,
           "energyRecharge": 1.2667
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 975.62,
+            "atk": 18.7,
+            "def": 66.38,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0,
+            "energyRecharge": 1
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 3235.19,
+            "atk": 62.01,
+            "def": 220.12,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0,
+            "energyRecharge": 1
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 5363.79,
+            "atk": 102.8,
+            "def": 364.95,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0,
+            "energyRecharge": 1.0667
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 6860.13,
+            "atk": 131.48,
+            "def": 466.76,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0,
+            "energyRecharge": 1.1333
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 8183.84,
+            "atk": 156.85,
+            "def": 556.83,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0,
+            "energyRecharge": 1.1333
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 9506.58,
+            "atk": 182.2,
+            "def": 646.83,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0,
+            "energyRecharge": 1.2
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 10830.3,
+            "atk": 207.57,
+            "def": 736.89,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0,
+            "energyRecharge": 1.2667
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 11636.16,
+            "atk": 223.02,
+            "def": 791.72,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0,
+            "energyRecharge": 1.2667
+          }
+        ]
       },
       "facts": {
         "title": "Frostwind Swordsman",
@@ -376304,7 +387790,97 @@
           "critRate": 0.05,
           "critDmg": 0.5,
           "elementalMastery": 96
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 802.38,
+            "atk": 19.41,
+            "def": 48.07,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 2660.72,
+            "atk": 64.37,
+            "def": 159.4,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 4411.34,
+            "atk": 106.72,
+            "def": 264.28,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 24
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 5641.97,
+            "atk": 136.49,
+            "def": 338,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 48
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 6730.64,
+            "atk": 162.83,
+            "def": 403.22,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 48
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 7818.5,
+            "atk": 189.14,
+            "def": 468.39,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 72
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 8907.16,
+            "atk": 215.48,
+            "def": 533.61,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 96
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 9569.93,
+            "atk": 231.51,
+            "def": 573.32,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 96
+          }
+        ]
       },
       "facts": {
         "title": "Witch of Purple Rose",
@@ -378860,7 +390436,97 @@
           "critRate": 0.05,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 820.61,
+            "atk": 17.81,
+            "def": 48.07,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 2721.19,
+            "atk": 59.05,
+            "def": 159.4,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 4511.6,
+            "atk": 97.91,
+            "def": 264.28,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 5770.2,
+            "atk": 125.22,
+            "def": 338,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 6883.61,
+            "atk": 149.38,
+            "def": 403.22,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 7996.19,
+            "atk": 173.53,
+            "def": 468.39,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 9109.6,
+            "atk": 197.69,
+            "def": 533.61,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 9787.42,
+            "atk": 212.4,
+            "def": 573.32,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Eclipsing Star",
@@ -381605,7 +393271,97 @@
           "critRate": 0.05,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 1012.09,
+            "atk": 16.03,
+            "def": 66.95,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 3356.14,
+            "atk": 53.15,
+            "def": 222.02,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 5564.31,
+            "atk": 88.12,
+            "def": 368.1,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 7116.58,
+            "atk": 112.7,
+            "def": 470.79,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 8489.78,
+            "atk": 134.44,
+            "def": 561.63,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 9861.97,
+            "atk": 156.17,
+            "def": 652.4,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 11235.17,
+            "atk": 177.92,
+            "def": 743.25,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 12071.16,
+            "atk": 191.16,
+            "def": 798.55,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Chivalric Blossom",
@@ -384406,7 +396162,97 @@
           "critRate": 0.05,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 1002.97,
+            "atk": 19.59,
+            "def": 62.95,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 3325.9,
+            "atk": 64.96,
+            "def": 208.74,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 5514.18,
+            "atk": 107.7,
+            "def": 346.08,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 7052.47,
+            "atk": 137.74,
+            "def": 442.62,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 8413.3,
+            "atk": 164.32,
+            "def": 528.03,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 9773.12,
+            "atk": 190.88,
+            "def": 613.37,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 11133.95,
+            "atk": 217.46,
+            "def": 698.78,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 11962.41,
+            "atk": 233.64,
+            "def": 750.77,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Wolf Boy",
@@ -387026,7 +398872,97 @@
           "critRate": 0.05,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 775.02,
+            "atk": 14.25,
+            "def": 58.94,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 2570.01,
+            "atk": 47.24,
+            "def": 195.45,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 4260.96,
+            "atk": 78.33,
+            "def": 324.05,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 5449.63,
+            "atk": 100.18,
+            "def": 414.45,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 6501.18,
+            "atk": 119.51,
+            "def": 494.43,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 7551.96,
+            "atk": 138.82,
+            "def": 574.34,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 8603.51,
+            "atk": 158.15,
+            "def": 654.31,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 9243.68,
+            "atk": 169.92,
+            "def": 703,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Harmless Sweetie",
@@ -389292,7 +401228,97 @@
           "critRate": 0.05,
           "critDmg": 0.5,
           "elementalMastery": 96
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 911.79,
+            "atk": 18.88,
+            "def": 56.08,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 3023.55,
+            "atk": 62.6,
+            "def": 185.97,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 5012.89,
+            "atk": 103.78,
+            "def": 308.32,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 24
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 6411.33,
+            "atk": 132.73,
+            "def": 394.33,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 48
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 7648.45,
+            "atk": 158.34,
+            "def": 470.42,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 48
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 8884.66,
+            "atk": 183.94,
+            "def": 546.46,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 72
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 10121.78,
+            "atk": 209.55,
+            "def": 622.55,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 96
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 10874.91,
+            "atk": 225.14,
+            "def": 668.87,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 96
+          }
+        ]
       },
       "facts": {
         "title": "Exquisite Delicacy",
@@ -391948,7 +403974,97 @@
           "critRate": 0.05,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 857.08,
+            "atk": 16.92,
+            "def": 63.52,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 2842.13,
+            "atk": 56.1,
+            "def": 210.63,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 4712.12,
+            "atk": 93.01,
+            "def": 349.22,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 6026.65,
+            "atk": 118.96,
+            "def": 446.64,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 7189.55,
+            "atk": 141.91,
+            "def": 532.83,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 8351.58,
+            "atk": 164.85,
+            "def": 618.95,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 9514.47,
+            "atk": 187.8,
+            "def": 705.13,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 10222.42,
+            "atk": 201.78,
+            "def": 757.6,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "title": "Juvenile Galant",

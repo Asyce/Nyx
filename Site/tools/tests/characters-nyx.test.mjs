@@ -511,8 +511,9 @@ test('materials share cards stay stateless, bundle-local, and wired through the 
   assert.match(materials, />Copy share link<\/button>/);
   assert.match(materials, /navigator\.clipboard\.writeText\(shareUrl\)/);
   assert.match(materials, /window\.prompt\('Copy this share link:', shareUrl\)/);
-  assert.match(materials, /const img = new Image\(\);\s*img\.decoding = 'async';\s*img\.crossOrigin = 'anonymous';[\s\S]*?img\.src = sprite;/, 'ZZZ sprite frames request CORS access before loading');
-  assert.match(materials, /<img src=\{icon\} crossOrigin="anonymous"/, 'ZZZ sprite fallback uses the same CORS cache mode');
+  assert.match(materials, /const img = new Image\(\);\s*img\.decoding = 'async';\s*img\.crossOrigin = 'anonymous';[\s\S]*?img\.src = cmSpriteCorsUrl\(sprite\);/, 'ZZZ sprite frames request CORS access before loading');
+  assert.match(materials, /const cmSpriteCorsUrl = .*cors=1/, 'ZZZ sprites bypass legacy non-CORS cache entries');
+  assert.match(materials, /<img src=\{cmSpriteCorsUrl\(icon\)\} crossOrigin="anonymous"/, 'ZZZ sprite fallback uses the same CORS cache mode');
   assert.match(materials, /<div className="cm-share-preview"/);
   assert.match(materials, /<FitText as="span" className="nm" text=\{m\.name\} multiline \/>/);
   assert.match(materials, /<FitText as="span" className="lbl" text=\{name\} multiline \/>/);

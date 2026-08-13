@@ -771,6 +771,7 @@ function MatTile({ m }){
 // places). Returns an array of {x,y,w,h} source rects, or null for a plain
 // single-image icon that should just render statically.
 const CM_SPRITE_FRAME_CACHE = new Map();
+const cmSpriteCorsUrl = (url) => url && url + (url.includes('?') ? '&' : '?') + 'cors=1';
 
 function cmDetectSpriteFrames(img){
   const nw = img.naturalWidth, nh = img.naturalHeight;
@@ -891,7 +892,7 @@ function ZzzSpriteIcon({ icon, sprite, alt }){
       play(frames);
     };
     img.onerror = () => setAnimated(false);
-    img.src = sprite;
+    img.src = cmSpriteCorsUrl(sprite);
     return () => {
       cancelled = true;
       if (raf) cancelAnimationFrame(raf);
@@ -900,7 +901,7 @@ function ZzzSpriteIcon({ icon, sprite, alt }){
 
   return (
     <span className={'zzz-sprite' + (animated ? ' is-animated' : '')}>
-      {icon && <img src={icon} crossOrigin="anonymous" alt={alt || ''} draggable="false" />}
+      {icon && <img src={cmSpriteCorsUrl(icon)} crossOrigin="anonymous" alt={alt || ''} draggable="false" />}
       <canvas ref={canvasRef} aria-hidden="true"></canvas>
     </span>
   );

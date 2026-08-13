@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "f6670e04210c74f7a5fc0a31dc38f2dfc568d5912ee5a2305d483622db5a6ac7",
-  "generatedAt": "2026-08-13T14:24:19.909Z",
+  "revision": "ae087a3043de9493af4fe4e2b3b1a8cc7732acebdbda43a12cfa2a30e1149667",
+  "generatedAt": "2026-08-13T14:54:07.207Z",
   "health": {
     "status": "ok",
     "games": {
@@ -43,7 +43,7 @@
         "remaining": {
           "startsAt": "2026-08-12T03:00:00.000Z",
           "endsAt": "2026-09-01T09:59:59.000Z",
-          "durationSeconds": 1625739
+          "durationSeconds": 1623951
         },
         "characters": [
           {
@@ -51,7 +51,7 @@
             "name": "Odette",
             "rarity": 5,
             "limited": true,
-            "debut": "2026-08-11T00:00:00.000Z",
+            "debut": "2026-08-10T22:00:00.000Z",
             "icon": {
               "id": "10000150-icon",
               "source": "character-icon",
@@ -110,7 +110,7 @@
             "name": "Arlecchino",
             "rarity": 5,
             "limited": true,
-            "debut": "2024-04-23T00:00:00.000Z",
+            "debut": "2024-04-22T22:00:00.000Z",
             "icon": {
               "id": "10000096-icon",
               "source": "character-icon",
@@ -170,7 +170,7 @@
           "name": "Odette",
           "rarity": 5,
           "limited": true,
-          "debut": "2026-08-11T00:00:00.000Z",
+          "debut": "2026-08-10T22:00:00.000Z",
           "icon": {
             "id": "10000150-icon",
             "source": "character-icon",
@@ -290,7 +290,7 @@
               "name": "Ineffa",
               "rarity": 5,
               "limited": null,
-              "debut": "2025-07-29T00:00:00.000Z",
+              "debut": "2025-07-28T22:00:00.000Z",
               "icon": {
                 "id": "10000116-icon",
                 "source": "character-icon",
@@ -323,7 +323,7 @@
               "name": "Flins",
               "rarity": 5,
               "limited": null,
-              "debut": "2025-09-30T18:00:00.000Z",
+              "debut": "2025-09-30T16:00:00.000Z",
               "icon": {
                 "id": "10000120-icon",
                 "source": "character-icon",
@@ -463,7 +463,7 @@
         "remaining": {
           "startsAt": "2026-08-05T11:00:00.000Z",
           "endsAt": "2026-08-25T14:00:00.000Z",
-          "durationSeconds": 1035340
+          "durationSeconds": 1033552
         },
         "characters": [
           {
@@ -974,7 +974,7 @@
         "remaining": {
           "startsAt": "2026-07-29T03:00:00.000Z",
           "endsAt": "2026-08-19T03:59:59.000Z",
-          "durationSeconds": 480939
+          "durationSeconds": 479151
         },
         "characters": [
           {
@@ -1448,7 +1448,7 @@
         "remaining": {
           "startsAt": "2026-07-30T09:00:00.000Z",
           "endsAt": "2026-08-19T10:59:00.000Z",
-          "durationSeconds": 506080
+          "durationSeconds": 504292
         },
         "characters": [
           {
@@ -1929,7 +1929,7 @@
         "remaining": {
           "startsAt": "2026-08-09T04:00:00.000Z",
           "endsAt": "2026-09-01T21:59:59.000Z",
-          "durationSeconds": 1668939
+          "durationSeconds": 1667151
         },
         "characters": [
           {

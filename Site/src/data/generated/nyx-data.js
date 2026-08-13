@@ -4,7 +4,7 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-08-13T15:30:48.822Z",
+  "generatedAt": "2026-08-13T16:47:50.241Z",
   "codes": {
     "updated": "2026-08-13T14:24:01.881Z",
     "maxAgeDays": 28,
@@ -162547,6 +162547,14 @@ var NYX_DB = {
             "sortId": "10000039"
           },
           {
+            "id": "splash-gi-traveler",
+            "name": "Traveler",
+            "description": "Descender",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
+            "sortId": "0"
+          },
+          {
             "id": "splash-gi-10000016",
             "name": "Diluc",
             "description": "Dark Side of Dawn",
@@ -162713,14 +162721,6 @@ var NYX_DB = {
             "rarity": "4 \u2605",
             "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Xingqiu.webp",
             "sortId": "10000025"
-          },
-          {
-            "id": "splash-gi-traveler",
-            "name": "Traveler",
-            "description": "Descender",
-            "rarity": "5 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
-            "sortId": "0"
           }
         ]
       },

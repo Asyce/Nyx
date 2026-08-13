@@ -226,7 +226,7 @@ test('Genshin weekly bosses keep exact drops, local boss art, chronology, and so
   const rosterCharacters = new Set(gi.roster.map((character) => character.n));
   assert.deepEqual([...sourcedCharacters].sort(), [...rosterCharacters].sort());
   assert.deepEqual([...generatedCharacters].sort(), [...sourcedCharacters].sort());
-  assert.deepEqual([...travelerIds].sort(), ['113005', '113006', '113017', '113032', '113046']);
+  assert.deepEqual([...travelerIds].sort(), ['113005', '113006', '113017', '113032', '113046', '113075']);
   assert.ok(!drops.some((drop) => String(drop.id) === '113063'), 'Pyro Traveler story reward is not a weekly boss drop');
 });
 
@@ -298,6 +298,76 @@ test('Endfield uses user-facing Growth and Progression tab labels without mutati
   assert.match(materials, /label:displayTabs\.boss/);
 });
 
+test('all character profiles use generic sourced checkpoints and the shared level controls', async () => {
+  const [gi, hsr, zzz, wuwa, ae, materials, generator, css] = await Promise.all([
+    loadGenerated('cm-data-gi.js', 'gi'), loadGenerated('cm-data-hsr.js', 'hsr'),
+    loadGenerated('cm-data-zzz.js', 'zzz'), loadGenerated('cm-data-wuwa.js', 'wuwa'),
+    loadGenerated('cm-data-ae.js', 'ae'), read('src/features/materials/char-materials.jsx'),
+    read('tools/generate-site-data.mjs'), read('src/styles/game-page-shared.css'),
+  ]);
+  const configs = { gi, hsr, zzz, wuwa, ae };
+  const legacyMaxLevels = { gi:90, hsr:80, zzz:60, wuwa:90 };
+  const targets = {
+    gi:{ name:'Odette', labels:['Lv. 1/20', 'Lv. 20/40', 'Lv. 40/50', 'Lv. 50/60', 'Lv. 60/70', 'Lv. 70/80', 'Lv. 80/90', 'Lv. 90/90'], sections:3, entries:13, controls:3 },
+    hsr:{ name:'Himeko Nova', labels:['Lv. 1/20', 'Lv. 20/30', 'Lv. 30/40', 'Lv. 40/50', 'Lv. 50/60', 'Lv. 60/70', 'Lv. 70/80', 'Lv. 80/80'], sections:3, entries:20, controls:9 },
+    zzz:{ name:'Remielle', labels:['Lv. 1/10', 'Lv. 10/20', 'Lv. 20/30', 'Lv. 30/40', 'Lv. 40/50', 'Lv. 50/60', 'Lv. 60/60'], sections:3, entries:24, controls:16 },
+    wuwa:{ name:'Suisui', labels:['Lv. 1/20', 'Lv. 20/40', 'Lv. 40/50', 'Lv. 50/60', 'Lv. 60/70', 'Lv. 70/80', 'Lv. 80/90', 'Lv. 90/90'], sections:2, entries:16, controls:5 },
+    ae:{ name:'Laevatain', labels:['Lv. 90/90'], sections:3, entries:13, controls:0 },
+  };
+  for (const [game, expected] of Object.entries(targets)) {
+    const character = configs[game].roster.find((row) => row.n === expected.name);
+    assert.ok(character, `${expected.name} is routed through the ${game} generated roster`);
+    assert.deepEqual(plain(character.baseStats.levels.map((row) => row.label)), expected.labels, `${expected.name} uses exact sourced checkpoints`);
+    assert.equal(character.baseStats.level1?.hp, character.baseStats.levels[0]?.hp, `${expected.name} keeps legacy level1`);
+    if (game !== 'ae') assert.equal(character.baseStats.max?.level, legacyMaxLevels[game], `${expected.name} keeps legacy max`);
+    const sections = character.kit?.sections || [];
+    const entries = sections.flatMap((section) => section.entries || []);
+    assert.equal(sections.length, expected.sections, `${expected.name} section count`);
+    assert.equal(entries.length, expected.entries, `${expected.name} entry count`);
+    assert.equal(entries.filter((entry) => entry.levels?.length || entry.scaling?.length).length, expected.controls, `${expected.name} level-control count`);
+  }
+  const duplicateLevelEntry = zzz.roster.flatMap((character) => (character.kit?.sections || []).flatMap((section) => section.entries || []))
+    .find((entry) => (entry.levels || []).some((row, index, rows) => rows.slice(0, index).some((candidate) => candidate.label === row.label && candidate.text !== row.text)));
+  assert.ok(duplicateLevelEntry, 'ZZZ keeps distinct descriptions that share a visible level label');
+  assert.equal((materials.match(/function CharacterKitPanel\(/g) || []).length, 1, 'one shared kit renderer');
+  assert.equal((materials.match(/<CharacterKitPanel\b/g) || []).length, 1, 'every character route uses the shared kit renderer');
+  assert.match(materials, /checkpoints\.length > 1[\s\S]*type="range"/, 'profile ranges are disabled when fewer than two checkpoints exist');
+  assert.match(materials, /function cmKitLevelLabels[\s\S]*labels\.length > longest\.length/, 'future skills choose the longest source label list');
+  assert.match(materials, /function cmKitMatchingIndex[\s\S]*String\(label\) === String\(selectedLabel\)/, 'scaling uses exact source-column matching');
+  assert.match(materials, /levelRows\.length === labels\.length[\s\S]*\? levelIndex[\s\S]*: cmKitMatchingIndex/, 'description sliders preserve duplicate-label source rows by position');
+  assert.match(materials, /<summary>Skill level values<\/summary>/);
+  assert.match(materials, /<CharacterProfile key=\{characterName \|\| gameKey\}/, 'profile level resets when the selected character changes');
+  assert.match(materials, /'\.\.\/\.\.\/assets\/icon\/nyx_logo\.png'/, 'missing skill art gets a local Nyx fallback');
+  assert.doesNotMatch(materials, /cm-kit-level-row|cm-kit-scale-scroll/, 'only selected source values render');
+  assert.match(generator, /function endfieldPrydwenKitSections\(page\)/);
+  assert.match(generator, /const page = endfieldPageForCharacter\(ch\);[\s\S]*buildEndfieldKit\(ch, page\)[\s\S]*endfieldProfileData\(ch, page\)/, 'future Endfield rows use their matching local page without name routing');
+  assert.match(css, /\.cm-kit-list\{[^}]*grid-template-columns:minmax\(0, 1fr\)/, 'kit cards are full width');
+  assert.match(css, /@media \(prefers-reduced-motion:reduce\)[\s\S]*\.cm-kit-levels/);
+});
+
+test('Endfield local pages generically add available Attributes, Talents, and Potentials', async () => {
+  const ae = await loadGenerated('cm-data-ae.js', 'ae');
+  const find = (name) => ae.roster.find((row) => row.n === name);
+  const count = (character, title) => character?.kit?.sections?.find((section) => section.title === title)?.entries?.length || 0;
+  const laevatain = find('Laevatain');
+  assert.deepEqual(plain(laevatain.baseStats.levels[0]), {
+    label:'Lv. 90/90', level:90, cap:90, strength:121, agility:99, intellect:177, will:89,
+  });
+  assert.equal(count(laevatain, 'Talents'), 4);
+  assert.equal(count(laevatain, 'Potentials'), 5);
+  assert.equal(count(find('Endministrator'), 'Talents'), 2, 'Combat-only Talent blocks are parsed');
+  assert.equal(count(find('Endministrator'), 'Potentials'), 2, 'unrevealed placeholder Potentials stay absent');
+  assert.equal(count(find('Mi Fu'), 'Talents'), 3, 'valid partial Talent lists are preserved');
+  assert.equal(count(find('Si'), 'Talents'), 0, 'missing Talent blocks stay absent');
+  assert.equal(count(find('Si'), 'Potentials'), 0, 'missing Potential blocks stay absent');
+  const supplemented = ae.roster.flatMap((character) => (character.kit?.sections || [])
+    .filter((section) => ['Talents', 'Potentials'].includes(section.title))
+    .flatMap((section) => section.entries || []));
+  assert.ok(supplemented.length > 0);
+  assert.ok(supplemented.every((entry) => !/^\?+$/.test(entry.name || '') && !/^\?+$/.test(entry.desc || '')), 'placeholder entries stay absent');
+  assert.ok(supplemented.every((entry) => !/Show Effects\s*$/i.test(entry.desc || '')), 'only trailing Show Effects labels are removed');
+});
+
 test('released and announced ZZZ portraits are local, status-correct, and Mavuika has fallback protection', async () => {
   const [zzz, beta, materials] = await Promise.all([
     loadGenerated('cm-data-zzz.js', 'zzz'),
@@ -305,9 +375,8 @@ test('released and announced ZZZ portraits are local, status-correct, and Mavuik
     read('src/features/materials/char-materials.jsx'),
   ]);
   const pyrois = zzz.roster.find((ch) => ch.n === 'Pyrois');
-  const sigrid = beta.roster.find((ch) => ch.n === 'Sigrid');
+  const sigrid = zzz.roster.find((ch) => ch.n === 'Sigrid') || beta.roster.find((ch) => ch.n === 'Sigrid');
   assert.ok(pyrois && pyrois.portraitProvenance?.status === 'released');
-  assert.ok(!zzz.roster.some((ch) => ch.n === 'Sigrid'), 'Sigrid is not moved to Live');
   assert.ok(sigrid && sigrid.portraitProvenance?.status === 'announced');
   for (const ch of [pyrois, sigrid]) assert.ok((await fs.stat(localAsset(ch.icon))).size > 0, ch.n + ' portrait exists locally');
   const mavuika = path.resolve(site, '../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Mavuika_Circle.webp');

@@ -654,7 +654,97 @@
           "critRate": 0.242,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 1032.45,
+            "atk": 27.56,
+            "def": 56.84,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 3563.39,
+            "atk": 95.11,
+            "def": 196.17,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 5960.95,
+            "atk": 159.1,
+            "def": 328.17,
+            "critRate": 0.098,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 7696.78,
+            "atk": 205.43,
+            "def": 423.73,
+            "critRate": 0.146,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 9232.25,
+            "atk": 246.42,
+            "def": 508.26,
+            "critRate": 0.146,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 10775.97,
+            "atk": 287.62,
+            "def": 593.25,
+            "critRate": 0.194,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 12330.02,
+            "atk": 329.1,
+            "def": 678.8,
+            "critRate": 0.242,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 13262.32,
+            "atk": 353.98,
+            "def": 730.13,
+            "critRate": 0.242,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "birthday": "January 1",
@@ -3165,7 +3255,97 @@
           "critRate": 0.05,
           "critDmg": 0.5,
           "elementalMastery": 0
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 1153.52,
+            "atk": 8.38,
+            "def": 37.69,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 3981.26,
+            "atk": 28.92,
+            "def": 130.09,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 6659.97,
+            "atk": 48.38,
+            "def": 217.63,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 8599.36,
+            "atk": 62.46,
+            "def": 281,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 10314.89,
+            "atk": 74.92,
+            "def": 337.06,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 12039.64,
+            "atk": 87.45,
+            "def": 393.42,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 13775.93,
+            "atk": 100.06,
+            "def": 450.15,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 14817.55,
+            "atk": 107.63,
+            "def": 484.19,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "elementalMastery": 0
+          }
+        ]
       },
       "facts": {
         "birthday": "January 1",

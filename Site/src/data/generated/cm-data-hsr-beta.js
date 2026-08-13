@@ -70,7 +70,97 @@
           "speed": 98,
           "critRate": 0.05,
           "critDmg": 0.5
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 153.12,
+            "atk": 102.96,
+            "def": 66,
+            "speed": 98,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 20/30",
+            "level": 20,
+            "cap": 30,
+            "hp": 359.83,
+            "atk": 241.96,
+            "def": 155.1,
+            "speed": 98,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 30/40",
+            "level": 30,
+            "cap": 40,
+            "hp": 497.64,
+            "atk": 334.62,
+            "def": 214.5,
+            "speed": 98,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 635.45,
+            "atk": 427.28,
+            "def": 273.9,
+            "speed": 98,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 773.26,
+            "atk": 519.95,
+            "def": 333.3,
+            "speed": 98,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 911.06,
+            "atk": 612.61,
+            "def": 392.7,
+            "speed": 98,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 1048.87,
+            "atk": 705.28,
+            "def": 452.1,
+            "speed": 98,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 80/80",
+            "level": 80,
+            "cap": 80,
+            "hp": 1125.43,
+            "atk": 756.76,
+            "def": 485.1,
+            "speed": 98,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          }
+        ]
       },
       "facts": {
         "title": "Ad Astra Nova"
@@ -1791,7 +1881,97 @@
           "speed": 107,
           "critRate": 0.05,
           "critDmg": 0.5
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 184.8,
+            "atk": 73.92,
+            "def": 66,
+            "speed": 107,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 20/30",
+            "level": 20,
+            "cap": 30,
+            "hp": 434.28,
+            "atk": 173.71,
+            "def": 155.1,
+            "speed": 107,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 30/40",
+            "level": 30,
+            "cap": 40,
+            "hp": 600.6,
+            "atk": 240.24,
+            "def": 214.5,
+            "speed": 107,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 766.92,
+            "atk": 306.77,
+            "def": 273.9,
+            "speed": 107,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 933.24,
+            "atk": 373.3,
+            "def": 333.3,
+            "speed": 107,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 1099.56,
+            "atk": 439.82,
+            "def": 392.7,
+            "speed": 107,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 1265.88,
+            "atk": 506.35,
+            "def": 452.1,
+            "speed": 107,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 80/80",
+            "level": 80,
+            "cap": 80,
+            "hp": 1358.28,
+            "atk": 543.31,
+            "def": 485.1,
+            "speed": 107,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          }
+        ]
       },
       "facts": {
         "title": "Now I Am Become Blade"
@@ -3278,7 +3458,97 @@
           "speed": 107,
           "critRate": 0.05,
           "critDmg": 0.5
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 158.4,
+            "atk": 66,
+            "def": 82.5,
+            "speed": 107,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 20/30",
+            "level": 20,
+            "cap": 30,
+            "hp": 372.24,
+            "atk": 155.1,
+            "def": 193.88,
+            "speed": 107,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 30/40",
+            "level": 30,
+            "cap": 40,
+            "hp": 514.8,
+            "atk": 214.5,
+            "def": 268.13,
+            "speed": 107,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 657.36,
+            "atk": 273.9,
+            "def": 342.38,
+            "speed": 107,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 799.92,
+            "atk": 333.3,
+            "def": 416.63,
+            "speed": 107,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 942.48,
+            "atk": 392.7,
+            "def": 490.88,
+            "speed": 107,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 1085.04,
+            "atk": 452.1,
+            "def": 565.13,
+            "speed": 107,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 80/80",
+            "level": 80,
+            "cap": 80,
+            "hp": 1164.24,
+            "atk": 485.1,
+            "def": 606.38,
+            "speed": 107,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          }
+        ]
       },
       "facts": {},
       "skillIcons": [
@@ -4783,7 +5053,97 @@
           "speed": 95,
           "critRate": 0.05,
           "critDmg": 0.5
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 163.68,
+            "atk": 81.84,
+            "def": 66,
+            "speed": 95,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 20/30",
+            "level": 20,
+            "cap": 30,
+            "hp": 384.65,
+            "atk": 192.32,
+            "def": 155.1,
+            "speed": 95,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 30/40",
+            "level": 30,
+            "cap": 40,
+            "hp": 531.96,
+            "atk": 265.98,
+            "def": 214.5,
+            "speed": 95,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 679.27,
+            "atk": 339.64,
+            "def": 273.9,
+            "speed": 95,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 826.58,
+            "atk": 413.29,
+            "def": 333.3,
+            "speed": 95,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 973.9,
+            "atk": 486.95,
+            "def": 392.7,
+            "speed": 95,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 1121.21,
+            "atk": 560.6,
+            "def": 452.1,
+            "speed": 95,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 80/80",
+            "level": 80,
+            "cap": 80,
+            "hp": 1203.05,
+            "atk": 601.52,
+            "def": 485.1,
+            "speed": 95,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          }
+        ]
       },
       "facts": {},
       "skillIcons": [
@@ -6158,7 +6518,97 @@
           "speed": 104,
           "critRate": 0.05,
           "critDmg": 0.5
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 142.56,
+            "atk": 100.32,
+            "def": 62.7,
+            "speed": 104,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 20/30",
+            "level": 20,
+            "cap": 30,
+            "hp": 335.02,
+            "atk": 235.75,
+            "def": 147.34,
+            "speed": 104,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 30/40",
+            "level": 30,
+            "cap": 40,
+            "hp": 463.32,
+            "atk": 326.04,
+            "def": 203.77,
+            "speed": 104,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 591.62,
+            "atk": 416.33,
+            "def": 260.2,
+            "speed": 104,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 719.93,
+            "atk": 506.62,
+            "def": 316.63,
+            "speed": 104,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 848.23,
+            "atk": 596.9,
+            "def": 373.06,
+            "speed": 104,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 976.54,
+            "atk": 687.19,
+            "def": 429.5,
+            "speed": 104,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 80/80",
+            "level": 80,
+            "cap": 80,
+            "hp": 1047.82,
+            "atk": 737.35,
+            "def": 460.85,
+            "speed": 104,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          }
+        ]
       },
       "facts": {
         "title": "The Demoiselle in Charge"
@@ -7607,7 +8057,97 @@
           "speed": 101,
           "critRate": 0.05,
           "critDmg": 0.5
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 168.96,
+            "atk": 63.36,
+            "def": 89.1,
+            "speed": 101,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 20/30",
+            "level": 20,
+            "cap": 30,
+            "hp": 397.06,
+            "atk": 148.9,
+            "def": 209.38,
+            "speed": 101,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 30/40",
+            "level": 30,
+            "cap": 40,
+            "hp": 549.12,
+            "atk": 205.92,
+            "def": 289.57,
+            "speed": 101,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 701.18,
+            "atk": 262.94,
+            "def": 369.76,
+            "speed": 101,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 853.25,
+            "atk": 319.97,
+            "def": 449.96,
+            "speed": 101,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 1005.31,
+            "atk": 376.99,
+            "def": 530.14,
+            "speed": 101,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 1157.38,
+            "atk": 434.02,
+            "def": 610.34,
+            "speed": 101,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 80/80",
+            "level": 80,
+            "cap": 80,
+            "hp": 1241.86,
+            "atk": 465.7,
+            "def": 654.88,
+            "speed": 101,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          }
+        ]
       },
       "facts": {
         "title": "Gleam of a Thousand Plumes"
@@ -9051,7 +9591,97 @@
           "speed": 99,
           "critRate": 0.05,
           "critDmg": 0.5
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 184.8,
+            "atk": 84.48,
+            "def": 66,
+            "speed": 99,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 20/30",
+            "level": 20,
+            "cap": 30,
+            "hp": 434.28,
+            "atk": 198.53,
+            "def": 155.1,
+            "speed": 99,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 30/40",
+            "level": 30,
+            "cap": 40,
+            "hp": 600.6,
+            "atk": 274.56,
+            "def": 214.5,
+            "speed": 99,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 766.92,
+            "atk": 350.59,
+            "def": 273.9,
+            "speed": 99,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 933.24,
+            "atk": 426.62,
+            "def": 333.3,
+            "speed": 99,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 1099.56,
+            "atk": 502.66,
+            "def": 392.7,
+            "speed": 99,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 1265.88,
+            "atk": 578.69,
+            "def": 452.1,
+            "speed": 99,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 80/80",
+            "level": 80,
+            "cap": 80,
+            "hp": 1358.28,
+            "atk": 620.93,
+            "def": 485.1,
+            "speed": 99,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          }
+        ]
       },
       "facts": {
         "title": "The Iron Tamer of Tides"
@@ -10431,7 +11061,97 @@
           "speed": 106,
           "critRate": 0.05,
           "critDmg": 0.5
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 116.16,
+            "atk": 105.6,
+            "def": 52.8,
+            "speed": 106,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 20/30",
+            "level": 20,
+            "cap": 30,
+            "hp": 272.98,
+            "atk": 248.16,
+            "def": 124.08,
+            "speed": 106,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 30/40",
+            "level": 30,
+            "cap": 40,
+            "hp": 377.52,
+            "atk": 343.2,
+            "def": 171.6,
+            "speed": 106,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 482.06,
+            "atk": 438.24,
+            "def": 219.12,
+            "speed": 106,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 586.61,
+            "atk": 533.28,
+            "def": 266.64,
+            "speed": 106,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 691.15,
+            "atk": 628.32,
+            "def": 314.16,
+            "speed": 106,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 795.7,
+            "atk": 723.36,
+            "def": 361.68,
+            "speed": 106,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 80/80",
+            "level": 80,
+            "cap": 80,
+            "hp": 853.78,
+            "atk": 776.16,
+            "def": 388.08,
+            "speed": 106,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          }
+        ]
       },
       "facts": {
         "title": "A Hunt Through Night"
@@ -11810,7 +12530,97 @@
           "speed": 106,
           "critRate": 0.05,
           "critDmg": 0.5
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 126.72,
+            "atk": 87.12,
+            "def": 69.3,
+            "speed": 106,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 20/30",
+            "level": 20,
+            "cap": 30,
+            "hp": 297.79,
+            "atk": 204.73,
+            "def": 162.85,
+            "speed": 106,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 30/40",
+            "level": 30,
+            "cap": 40,
+            "hp": 411.84,
+            "atk": 283.14,
+            "def": 225.22,
+            "speed": 106,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 525.89,
+            "atk": 361.55,
+            "def": 287.6,
+            "speed": 106,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 639.94,
+            "atk": 439.96,
+            "def": 349.97,
+            "speed": 106,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 753.98,
+            "atk": 518.36,
+            "def": 412.34,
+            "speed": 106,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 868.03,
+            "atk": 596.77,
+            "def": 474.7,
+            "speed": 106,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 80/80",
+            "level": 80,
+            "cap": 80,
+            "hp": 931.39,
+            "atk": 640.33,
+            "def": 509.36,
+            "speed": 106,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          }
+        ]
       },
       "facts": {
         "title": "Slick and Speedy Steals the Sky"
@@ -13190,7 +14000,97 @@
           "speed": 101,
           "critRate": 0.05,
           "critDmg": 0.5
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 190.08,
+            "atk": 60.72,
+            "def": 79.2,
+            "speed": 101,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 20/30",
+            "level": 20,
+            "cap": 30,
+            "hp": 446.69,
+            "atk": 142.69,
+            "def": 186.12,
+            "speed": 101,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 30/40",
+            "level": 30,
+            "cap": 40,
+            "hp": 617.76,
+            "atk": 197.34,
+            "def": 257.4,
+            "speed": 101,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 788.83,
+            "atk": 251.99,
+            "def": 328.68,
+            "speed": 101,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 959.9,
+            "atk": 306.64,
+            "def": 399.96,
+            "speed": 101,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 1130.98,
+            "atk": 361.28,
+            "def": 471.24,
+            "speed": 101,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 1302.05,
+            "atk": 415.93,
+            "def": 542.52,
+            "speed": 101,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 80/80",
+            "level": 80,
+            "cap": 80,
+            "hp": 1397.09,
+            "atk": 446.29,
+            "def": 582.12,
+            "speed": 101,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          }
+        ]
       },
       "facts": {
         "title": "Ripples Rejoined"
@@ -14631,7 +15531,97 @@
           "speed": 97,
           "critRate": 0.05,
           "critDmg": 0.5
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 142.56,
+            "atk": 79.2,
+            "def": 105.6,
+            "speed": 97,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 20/30",
+            "level": 20,
+            "cap": 30,
+            "hp": 335.02,
+            "atk": 186.12,
+            "def": 248.16,
+            "speed": 97,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 30/40",
+            "level": 30,
+            "cap": 40,
+            "hp": 463.32,
+            "atk": 257.4,
+            "def": 343.2,
+            "speed": 97,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 591.62,
+            "atk": 328.68,
+            "def": 438.24,
+            "speed": 97,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 719.93,
+            "atk": 399.96,
+            "def": 533.28,
+            "speed": 97,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 848.23,
+            "atk": 471.24,
+            "def": 628.32,
+            "speed": 97,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 976.54,
+            "atk": 542.52,
+            "def": 723.36,
+            "speed": 97,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 80/80",
+            "level": 80,
+            "cap": 80,
+            "hp": 1047.82,
+            "atk": 582.12,
+            "def": 776.16,
+            "speed": 97,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          }
+        ]
       },
       "facts": {
         "title": "Slay Until Evil Ends"
@@ -16007,7 +16997,97 @@
           "speed": 102,
           "critRate": 0.05,
           "critDmg": 0.5
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 163.68,
+            "atk": 81.84,
+            "def": 66,
+            "speed": 102,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 20/30",
+            "level": 20,
+            "cap": 30,
+            "hp": 384.65,
+            "atk": 192.32,
+            "def": 155.1,
+            "speed": 102,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 30/40",
+            "level": 30,
+            "cap": 40,
+            "hp": 531.96,
+            "atk": 265.98,
+            "def": 214.5,
+            "speed": 102,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 679.27,
+            "atk": 339.64,
+            "def": 273.9,
+            "speed": 102,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 826.58,
+            "atk": 413.29,
+            "def": 333.3,
+            "speed": 102,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 973.9,
+            "atk": 486.95,
+            "def": 392.7,
+            "speed": 102,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 1121.21,
+            "atk": 560.6,
+            "def": 452.1,
+            "speed": 102,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 80/80",
+            "level": 80,
+            "cap": 80,
+            "hp": 1203.05,
+            "atk": 601.52,
+            "def": 485.1,
+            "speed": 102,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          }
+        ]
       },
       "facts": {
         "title": "Winedark Swansong"
@@ -17389,7 +18469,97 @@
           "speed": 99,
           "critRate": 0.05,
           "critDmg": 0.5
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 179.52,
+            "atk": 73.92,
+            "def": 79.2,
+            "speed": 99,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 20/30",
+            "level": 20,
+            "cap": 30,
+            "hp": 421.87,
+            "atk": 173.71,
+            "def": 186.12,
+            "speed": 99,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 30/40",
+            "level": 30,
+            "cap": 40,
+            "hp": 583.44,
+            "atk": 240.24,
+            "def": 257.4,
+            "speed": 99,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 745.01,
+            "atk": 306.77,
+            "def": 328.68,
+            "speed": 99,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 906.58,
+            "atk": 373.3,
+            "def": 399.96,
+            "speed": 99,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 1068.14,
+            "atk": 439.82,
+            "def": 471.24,
+            "speed": 99,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 1229.71,
+            "atk": 506.35,
+            "def": 542.52,
+            "speed": 99,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 80/80",
+            "level": 80,
+            "cap": 80,
+            "hp": 1319.47,
+            "atk": 543.31,
+            "def": 582.12,
+            "speed": 99,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          }
+        ]
       },
       "facts": {
         "title": "The Remembrance of None"
@@ -18776,7 +19946,97 @@
           "speed": 94,
           "critRate": 0.05,
           "critDmg": 0.5
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 195.36,
+            "atk": 79.2,
+            "def": 95.7,
+            "speed": 94,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 20/30",
+            "level": 20,
+            "cap": 30,
+            "hp": 459.1,
+            "atk": 186.12,
+            "def": 224.89,
+            "speed": 94,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 30/40",
+            "level": 30,
+            "cap": 40,
+            "hp": 634.92,
+            "atk": 257.4,
+            "def": 311.02,
+            "speed": 94,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 810.74,
+            "atk": 328.68,
+            "def": 397.15,
+            "speed": 94,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 986.57,
+            "atk": 399.96,
+            "def": 483.28,
+            "speed": 94,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 1162.39,
+            "atk": 471.24,
+            "def": 569.41,
+            "speed": 94,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 1338.22,
+            "atk": 542.52,
+            "def": 655.55,
+            "speed": 94,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 80/80",
+            "level": 80,
+            "cap": 80,
+            "hp": 1435.9,
+            "atk": 582.12,
+            "def": 703.39,
+            "speed": 94,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          }
+        ]
       },
       "facts": {
         "title": "To Evermore Burn as the Sun"
@@ -20397,7 +21657,97 @@
           "speed": 110,
           "critRate": 0.05,
           "critDmg": 0.5
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 142.56,
+            "atk": 52.8,
+            "def": 89.1,
+            "speed": 110,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 20/30",
+            "level": 20,
+            "cap": 30,
+            "hp": 335.02,
+            "atk": 124.08,
+            "def": 209.38,
+            "speed": 110,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 30/40",
+            "level": 30,
+            "cap": 40,
+            "hp": 463.32,
+            "atk": 171.6,
+            "def": 289.57,
+            "speed": 110,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 591.62,
+            "atk": 219.12,
+            "def": 369.76,
+            "speed": 110,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 719.93,
+            "atk": 266.64,
+            "def": 449.96,
+            "speed": 110,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 848.23,
+            "atk": 314.16,
+            "def": 530.14,
+            "speed": 110,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 976.54,
+            "atk": 361.68,
+            "def": 610.34,
+            "speed": 110,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 80/80",
+            "level": 80,
+            "cap": 80,
+            "hp": 1047.82,
+            "atk": 388.08,
+            "def": 654.88,
+            "speed": 110,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          }
+        ]
       },
       "facts": {
         "title": "Godmode Player"
@@ -21916,7 +23266,97 @@
           "speed": 107,
           "critRate": 0.05,
           "critDmg": 0.5
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 142.56,
+            "atk": 87.12,
+            "def": 62.7,
+            "speed": 107,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 20/30",
+            "level": 20,
+            "cap": 30,
+            "hp": 335.02,
+            "atk": 204.73,
+            "def": 147.34,
+            "speed": 107,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 30/40",
+            "level": 30,
+            "cap": 40,
+            "hp": 463.32,
+            "atk": 283.14,
+            "def": 203.77,
+            "speed": 107,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 591.62,
+            "atk": 361.55,
+            "def": 260.2,
+            "speed": 107,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 719.93,
+            "atk": 439.96,
+            "def": 316.63,
+            "speed": 107,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 848.23,
+            "atk": 518.36,
+            "def": 373.06,
+            "speed": 107,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 976.54,
+            "atk": 596.77,
+            "def": 429.5,
+            "speed": 107,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 80/80",
+            "level": 80,
+            "cap": 80,
+            "hp": 1047.82,
+            "atk": 640.33,
+            "def": 460.85,
+            "speed": 107,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          }
+        ]
       },
       "facts": {
         "title": "Project: Party Time"
@@ -23419,7 +24859,97 @@
           "speed": 96,
           "critRate": 0.05,
           "critDmg": 0.5
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 168.96,
+            "atk": 87.12,
+            "def": 72.6,
+            "speed": 96,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 20/30",
+            "level": 20,
+            "cap": 30,
+            "hp": 397.06,
+            "atk": 204.73,
+            "def": 170.61,
+            "speed": 96,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 30/40",
+            "level": 30,
+            "cap": 40,
+            "hp": 549.12,
+            "atk": 283.14,
+            "def": 235.95,
+            "speed": 96,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 701.18,
+            "atk": 361.55,
+            "def": 301.29,
+            "speed": 96,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 853.25,
+            "atk": 439.96,
+            "def": 366.63,
+            "speed": 96,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 1005.31,
+            "atk": 518.36,
+            "def": 431.97,
+            "speed": 96,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 1157.38,
+            "atk": 596.77,
+            "def": 497.31,
+            "speed": 96,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 80/80",
+            "level": 80,
+            "cap": 80,
+            "hp": 1241.86,
+            "atk": 640.33,
+            "def": 533.61,
+            "speed": 96,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          }
+        ]
       },
       "facts": {
         "title": "Eyes to the Stars"
@@ -24804,7 +26334,97 @@
           "speed": 96,
           "critRate": 0.05,
           "critDmg": 0.5
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 147.84,
+            "atk": 92.4,
+            "def": 82.5,
+            "speed": 96,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 20/30",
+            "level": 20,
+            "cap": 30,
+            "hp": 347.42,
+            "atk": 217.14,
+            "def": 193.88,
+            "speed": 96,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 30/40",
+            "level": 30,
+            "cap": 40,
+            "hp": 480.48,
+            "atk": 300.3,
+            "def": 268.13,
+            "speed": 96,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 613.54,
+            "atk": 383.46,
+            "def": 342.38,
+            "speed": 96,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 746.59,
+            "atk": 466.62,
+            "def": 416.63,
+            "speed": 96,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 879.65,
+            "atk": 549.78,
+            "def": 490.88,
+            "speed": 96,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 1012.7,
+            "atk": 632.94,
+            "def": 565.13,
+            "speed": 96,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 80/80",
+            "level": 80,
+            "cap": 80,
+            "hp": 1086.62,
+            "atk": 679.14,
+            "def": 606.38,
+            "speed": 96,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          }
+        ]
       },
       "facts": {
         "title": "Dance in Flame"
@@ -26152,7 +27772,97 @@
           "speed": 99,
           "critRate": 0.05,
           "critDmg": 0.5
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 179.52,
+            "atk": 73.92,
+            "def": 79.2,
+            "speed": 99,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 20/30",
+            "level": 20,
+            "cap": 30,
+            "hp": 421.87,
+            "atk": 173.71,
+            "def": 186.12,
+            "speed": 99,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 30/40",
+            "level": 30,
+            "cap": 40,
+            "hp": 583.44,
+            "atk": 240.24,
+            "def": 257.4,
+            "speed": 99,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 745.01,
+            "atk": 306.77,
+            "def": 328.68,
+            "speed": 99,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 906.58,
+            "atk": 373.3,
+            "def": 399.96,
+            "speed": 99,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 1068.14,
+            "atk": 439.82,
+            "def": 471.24,
+            "speed": 99,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 1229.71,
+            "atk": 506.35,
+            "def": 542.52,
+            "speed": 99,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 80/80",
+            "level": 80,
+            "cap": 80,
+            "hp": 1319.47,
+            "atk": 543.31,
+            "def": 582.12,
+            "speed": 99,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          }
+        ]
       },
       "facts": {},
       "signatureLightCone": {

@@ -45,7 +45,100 @@
           "impact": 93,
           "anomalyProficiency": 94,
           "anomalyMastery": 93
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/10",
+            "level": 1,
+            "cap": 10,
+            "hp": 617,
+            "atk": 134,
+            "def": 49,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "impact": 93,
+            "anomalyProficiency": 94,
+            "anomalyMastery": 93
+          },
+          {
+            "label": "Lv. 10/20",
+            "level": 10,
+            "cap": 20,
+            "hp": 1793.51,
+            "atk": 255.49,
+            "def": 143.19,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "impact": 93,
+            "anomalyProficiency": 94,
+            "anomalyMastery": 93
+          },
+          {
+            "label": "Lv. 20/30",
+            "level": 20,
+            "cap": 30,
+            "hp": 3054.75,
+            "atk": 384.14,
+            "def": 244.08,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "impact": 93,
+            "anomalyProficiency": 94,
+            "anomalyMastery": 93
+          },
+          {
+            "label": "Lv. 30/40",
+            "level": 30,
+            "cap": 40,
+            "hp": 4314.99,
+            "atk": 513.8,
+            "def": 343.96,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "impact": 93,
+            "anomalyProficiency": 94,
+            "anomalyMastery": 93
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 5576.23,
+            "atk": 643.45,
+            "def": 444.84,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "impact": 93,
+            "anomalyProficiency": 94,
+            "anomalyMastery": 93
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 6836.47,
+            "atk": 773.1,
+            "def": 545.72,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "impact": 93,
+            "anomalyProficiency": 94,
+            "anomalyMastery": 93
+          },
+          {
+            "label": "Lv. 60/60",
+            "level": 60,
+            "cap": 60,
+            "hp": 7673.7,
+            "atk": 854.76,
+            "def": 612.6,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "impact": 93,
+            "anomalyProficiency": 94,
+            "anomalyMastery": 93
+          }
+        ]
       },
       "facts": {
         "faction": "New Eridu Defense Force"
@@ -2747,7 +2840,100 @@
           "impact": 95,
           "anomalyProficiency": 90,
           "anomalyMastery": 89
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/10",
+            "level": 1,
+            "cap": 10,
+            "hp": 683,
+            "atk": 124,
+            "def": 36,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "impact": 95,
+            "anomalyProficiency": 90,
+            "anomalyMastery": 89
+          },
+          {
+            "label": "Lv. 10/20",
+            "level": 10,
+            "cap": 20,
+            "hp": 1986.43,
+            "atk": 235.1,
+            "def": 104.78,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "impact": 95,
+            "anomalyProficiency": 90,
+            "anomalyMastery": 89
+          },
+          {
+            "label": "Lv. 20/30",
+            "level": 20,
+            "cap": 30,
+            "hp": 3382.57,
+            "atk": 353.67,
+            "def": 177.42,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "impact": 95,
+            "anomalyProficiency": 90,
+            "anomalyMastery": 89
+          },
+          {
+            "label": "Lv. 30/40",
+            "level": 30,
+            "cap": 40,
+            "hp": 4778.71,
+            "atk": 472.23,
+            "def": 251.07,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "impact": 95,
+            "anomalyProficiency": 90,
+            "anomalyMastery": 89
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 6173.86,
+            "atk": 591.79,
+            "def": 323.71,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "impact": 95,
+            "anomalyProficiency": 90,
+            "anomalyMastery": 89
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 7570,
+            "atk": 710.35,
+            "def": 397.36,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "impact": 95,
+            "anomalyProficiency": 90,
+            "anomalyMastery": 89
+          },
+          {
+            "label": "Lv. 60/60",
+            "level": 60,
+            "cap": 60,
+            "hp": 8497.14,
+            "atk": 784.91,
+            "def": 446,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "impact": 95,
+            "anomalyProficiency": 90,
+            "anomalyMastery": 89
+          }
+        ]
       },
       "facts": {
         "faction": "Cunning Hares"
@@ -5375,7 +5561,100 @@
           "impact": 116,
           "anomalyProficiency": 97,
           "anomalyMastery": 96
-        }
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/10",
+            "level": 1,
+            "cap": 10,
+            "hp": 653,
+            "atk": 106,
+            "def": 48,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "impact": 116,
+            "anomalyProficiency": 97,
+            "anomalyMastery": 96
+          },
+          {
+            "label": "Lv. 10/20",
+            "level": 10,
+            "cap": 20,
+            "hp": 1899.15,
+            "atk": 199.81,
+            "def": 139.36,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "impact": 116,
+            "anomalyProficiency": 97,
+            "anomalyMastery": 96
+          },
+          {
+            "label": "Lv. 20/30",
+            "level": 20,
+            "cap": 30,
+            "hp": 3234.98,
+            "atk": 299.81,
+            "def": 237.21,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "impact": 116,
+            "anomalyProficiency": 97,
+            "anomalyMastery": 96
+          },
+          {
+            "label": "Lv. 30/40",
+            "level": 30,
+            "cap": 40,
+            "hp": 4569.81,
+            "atk": 398.82,
+            "def": 334.05,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "impact": 116,
+            "anomalyProficiency": 97,
+            "anomalyMastery": 96
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 5905.64,
+            "atk": 498.83,
+            "def": 431.9,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "impact": 116,
+            "anomalyProficiency": 97,
+            "anomalyMastery": 96
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 7240.48,
+            "atk": 598.83,
+            "def": 529.74,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "impact": 116,
+            "anomalyProficiency": 97,
+            "anomalyMastery": 96
+          },
+          {
+            "label": "Lv. 60/60",
+            "level": 60,
+            "cap": 60,
+            "hp": 8127.31,
+            "atk": 660.84,
+            "def": 594.59,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "impact": 116,
+            "anomalyProficiency": 97,
+            "anomalyMastery": 96
+          }
+        ]
       },
       "facts": {
         "fullName": "Koleda Belobog",

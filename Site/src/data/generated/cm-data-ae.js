@@ -19784,13 +19784,32 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Arcane1.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Arcane1.png"
       ],
-      "baseStats": {},
+      "baseStats": {
+        "max": {
+          "level": 90,
+          "strength": 91,
+          "agility": 93,
+          "intellect": 176,
+          "will": 121
+        },
+        "levels": [
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "strength": 91,
+            "agility": 93,
+            "intellect": 176,
+            "will": 121
+          }
+        ]
+      },
       "facts": {
         "faction": "Hongshan Academy of Sciences (HAS)",
         "birthday": "July 7"
       },
       "kit": {
-        "source": "EndfieldWiki",
+        "source": "Endfield Wiki + Prydwen",
         "channel": "live",
         "version": "live",
         "sections": [
@@ -20076,6 +20095,61 @@
                     "value": "10"
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "title": "Talents",
+            "entries": [
+              {
+                "name": "Pluck the Mountain, Boil the Sea",
+                "type": "Base Talent",
+                "desc": "Assign to Growth Chamber to grant rare mineral growth rate +20/30% ."
+              },
+              {
+                "name": "Botanophile",
+                "type": "Base Talent",
+                "desc": "Assign to Growth Chamber to grant vitrified plant growth rate +20/30% ."
+              },
+              {
+                "name": "Tactical Planning",
+                "type": "Combat Talent",
+                "desc": "When Arcane's Intellect \u2265 Will, switch skill type to Array Arcana: INT . If not, then switch to Array Arcana: WILL .\n Attribute requirements for the 2 types of Array Arcana only include effects from operator levels, talents, potentials, and attribute bonuses provided by equipped gear and weapons.\n Promote to E2 to activate the upgraded effect below.\n When Arcane's Intellect \u2265 Will, switch skill type to Array Arcana: INT . If not, then switch to Array Arcana: WILL .\n Ultimate Gloompurge improved:\n Array Arcana: INT : During the ultimate, Arcane gains 24% Arts Amp.\n Array Arcana: WILL : When Gloompurger Array (ultimate sequence 1) and Gloompurge Arcana (ultimate sequence 2) deal DMG to the enemy, they also apply [Will \u00d7 0.02%] Nature Susceptibility and Cryo Susceptibility (max: 12.8% ) for 10s . This effect cannot stack.\n Attribute requirements for the 2 types of Array Arcana only include effects from operator levels, talents, potentials, and attribute bonuses provided by equipped gear and weapons."
+              },
+              {
+                "name": "Weapon Honing",
+                "type": "Combat Talent",
+                "desc": "Corrosion applied by Arcane lasts 5/10s longer, and Max Resistance Reduction is increased to 1.05/1.10 times the original."
+              }
+            ]
+          },
+          {
+            "title": "Potentials",
+            "entries": [
+              {
+                "name": "Watcher of the Sea",
+                "type": "Potential 1",
+                "desc": "Combo skill Yinglung Stance IV improved:\n DMG Multiplier is increased to 1.3 times the original.\n\n Array Arcana: INT : Hitting an enemy under Imprisonment with Arcane's battle skill returns 10 additional SP.\n\n Array Arcana: WILL : Effects of Nature Susceptibility and Cryo Susceptibility applied +6% ."
+              },
+              {
+                "name": "Heart of Ice Cold Ferrium",
+                "type": "Potential 2",
+                "desc": "Intellect and Will +15 , Arts Intensity +16 ."
+              },
+              {
+                "name": "Wielder of Stone",
+                "type": "Potential 3",
+                "desc": "Talent Weapon Honing improved: Corrosion applied by Arcane lasts 5s longer, and Max Resistance Reduction is increased by 20% of the original."
+              },
+              {
+                "name": "Mind of Refined Steel",
+                "type": "Potential 4",
+                "desc": "Ultimate Gloompurge improved: Ultimate Energy cost -15% ."
+              },
+              {
+                "name": "Homeward Glance",
+                "type": "Potential 5",
+                "desc": "Ultimate Gloompurge improved:\n Array Arcana: INT : During the ultimate, Arcane gains 16% Arts Amp. DMG Multiplier of Gloompurge Arcana (ultimate sequence 2) is increased to 1.3 times the original.\n Array Arcana: WILL : Further increases the effects of Nature Susceptibility and Cryo Susceptibility applied by Gloompurger Array (ultimate sequence 1) and Gloompurge Arcana (ultimate sequence 2) by +7% . After casting Gloompurge Arcana (ultimate sequence 2), if combo skill Yinglung Stance IV is still in its cooldown, immediately shorten the length of the cooldown by 30% ."
               }
             ]
           }
@@ -21089,13 +21163,32 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Ardelia.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Ardelia.png"
       ],
-      "baseStats": {},
+      "baseStats": {
+        "max": {
+          "level": 90,
+          "strength": 112,
+          "agility": 93,
+          "intellect": 145,
+          "will": 118
+        },
+        "levels": [
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "strength": 112,
+            "agility": 93,
+            "intellect": 145,
+            "will": 118
+          }
+        ]
+      },
       "facts": {
         "faction": "Rhodes Island",
         "birthday": "October 18"
       },
       "kit": {
-        "source": "EndfieldWiki",
+        "source": "Endfield Wiki + Prydwen",
         "channel": "live",
         "version": "live",
         "sections": [
@@ -21213,6 +21306,61 @@
                     "value": "3"
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "title": "Talents",
+            "entries": [
+              {
+                "name": "Tales of the Land",
+                "type": "Base Talent",
+                "desc": "Assign to Reception Room to grant operator clue collecting efficiency +20/30% ."
+              },
+              {
+                "name": "Mr. Dolly's Game",
+                "type": "Base Talent",
+                "desc": "Assign to Reception Room to slow Mood Drop of all operators in it by 14/18% ."
+              },
+              {
+                "name": "Friendly Presence",
+                "type": "Combat Talent",
+                "desc": "The battle skill Dolly Rush creates 3 Shadows of Mr. Dolly after hitting the enemy. The copies of Mr. Dolly scattered by the ultimate Wooly Party also has a 10% chance to create Shadows of Mr. Dolly when they fall to the ground.\nWhen the controlled operator touches a Shadow of Mr. Dolly, Ardelia restores the said operator's HP by [ 45 + Will\u00d70.38 ]/ [63 + Will\u00d70.53]/[90 + Will\u00d70.75] .\nIf the controlled operator is already at max HP, then restore the HP of the teammate with lowest percentage HP. Shadows of Mr. Dolly lasts for 10s and up to 10 can exist in the battlefield."
+              },
+              {
+                "name": "Mountainpeak Surfer",
+                "type": "Combat Talent",
+                "desc": "Battle skill Dolly Rush improved: Triggering the additional effect while an enemy with Corrosion is nearby immediately casts the battle skill again. This effect only triggers once per active battle skill casting."
+              }
+            ]
+          },
+          {
+            "title": "Potentials",
+            "entries": [
+              {
+                "name": "Dolly Paradise",
+                "type": "Potential 1",
+                "desc": "Battle skill Dolly Rush improved: Consuming Corrosion now applies Physical Susceptibility and Arts Susceptibility with effects +8% ."
+              },
+              {
+                "name": "Game Rewards",
+                "type": "Potential 2",
+                "desc": "Talent Friendly Presence improved: When the controlled operator touches the Shadow of Mr. Dolly, Ardelia also treats another allied operator with the lowest percentage HP with half of the treatment effects."
+              },
+              {
+                "name": "Explosive Eruption",
+                "type": "Potential 3",
+                "desc": "Ultimate Wooly Party improved: Duration +1s ; chance to create Shadow of Mr. Dolly is increased to 1.2 times the original."
+              },
+              {
+                "name": "Rock Blossom",
+                "type": "Potential 4",
+                "desc": "Ultimate Wooly Party improved: Ultimate Energy cost -15% ."
+              },
+              {
+                "name": "Volcanic Steam",
+                "type": "Potential 5",
+                "desc": "Combo skill Eruption Column improved: Length of cooldown -2s ; DMG multiplier is increased to 1.2 times the original; duration of Corrosion applied +4s ."
               }
             ]
           }
@@ -22315,13 +22463,32 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Camille.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Camille.png"
       ],
-      "baseStats": {},
+      "baseStats": {
+        "max": {
+          "level": 90,
+          "strength": 102,
+          "agility": 160,
+          "intellect": 129,
+          "will": 92
+        },
+        "levels": [
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "strength": 102,
+            "agility": 160,
+            "intellect": 129,
+            "will": 92
+          }
+        ]
+      },
       "facts": {
         "faction": "Se\u0161'qa",
         "birthday": "November 20"
       },
       "kit": {
-        "source": "EndfieldWiki",
+        "source": "Endfield Wiki + Prydwen",
         "channel": "live",
         "version": "live",
         "sections": [
@@ -22463,6 +22630,61 @@
                     "value": "15"
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "title": "Talents",
+            "entries": [
+              {
+                "name": "Hemo-Vitreography",
+                "type": "Base Talent",
+                "desc": "Assign to Growth Chamber to grant vitrified plant growth rate +20/30% ."
+              },
+              {
+                "name": "Aga\u2019smekanaz\u2019s Manual",
+                "type": "Base Talent",
+                "desc": "Assign to Manufacturing Cabin to grant operator EXP material production efficiency +20/30% ."
+              },
+              {
+                "name": "Hunter of Transgression",
+                "type": "Combat Talent",
+                "desc": "Combo skill Heartstake Thorn improved: When hitting an enemy with hovering Firefang Vesperwings, Camille restores [30 + Intellect \u00d7 0.15] / [60 + Intellect \u00d7 0.3] HP to himself and grants a [ Link ] buff for 15 seconds.\n When casting Hunter Pursuit, this effect can be triggered even when hitting a target with no hovering Vesperwings."
+              },
+              {
+                "name": "Bloodfount Revival",
+                "type": "Combat Talent",
+                "desc": "Whenever Camille restores HP via a skill, he gains Heat DMG Dealt +2/4% (max stacks: 5 ) for 40s while other operators in the team gain 25% of this effect. This effect can reach 5 stacks.\n If Camille is already at Max HP, each trigger gives 2 stacks of the effect."
+              }
+            ]
+          },
+          {
+            "title": "Potentials",
+            "entries": [
+              {
+                "name": "Flame-Anointed Lance",
+                "type": "Potential 1",
+                "desc": "Battle skill Blazing Exorcism improved: The skill applies Weakness +5% and Heat Susceptibility +5% . Firefang Vesperwings hover duration +15s ."
+              },
+              {
+                "name": "Tracker of Witch Scent",
+                "type": "Potential 2",
+                "desc": "Agility +20 , Intellect +20 ."
+              },
+              {
+                "name": "Horned Incapacitor",
+                "type": "Potential 3",
+                "desc": "Combo skill Heartstake Thorn improved: Length of cooldown -2s . Heartstake Thorn and Hunter Pursuit improved: DMG Multipliers are increased to 1.3 times the original; SP Recoveries are increased to 1.15 times the original."
+              },
+              {
+                "name": "Aga\u2019slehem\u2019s Sigil",
+                "type": "Potential 4",
+                "desc": "Ultimate Sanguine Downpour improved: Ultimate Energy cost -15% ."
+              },
+              {
+                "name": "Sanguine Convention",
+                "type": "Potential 5",
+                "desc": "Talent Bloodfount Revival improved: Heat DMG boost per stack +6% ."
               }
             ]
           }
@@ -23565,13 +23787,32 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Ember.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Ember.png"
       ],
-      "baseStats": {},
+      "baseStats": {
+        "max": {
+          "level": 90,
+          "strength": 176,
+          "agility": 96,
+          "intellect": 86,
+          "will": 120
+        },
+        "levels": [
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "strength": 176,
+            "agility": 96,
+            "intellect": 86,
+            "will": 120
+          }
+        ]
+      },
       "facts": {
         "faction": "Order of Steel Oath",
         "birthday": "April 10"
       },
       "kit": {
-        "source": "EndfieldWiki",
+        "source": "Endfield Wiki + Prydwen",
         "channel": "live",
         "version": "live",
         "sections": [
@@ -23689,6 +23930,61 @@
                     "value": "10"
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "title": "Talents",
+            "entries": [
+              {
+                "name": "Special Northern Training",
+                "type": "Base Talent",
+                "desc": "Assign to Manufacturing Cabin to grant operator EXP material productivity efficiency +20/30% ."
+              },
+              {
+                "name": "Keepers of the Banner",
+                "type": "Base Talent",
+                "desc": "Assign to Reception Room to grant operators a small Clue 4/Clue 4 Rate-UP: Order of Steel Oath (activates upon assignment; effects of the same type cannot stack)"
+              },
+              {
+                "name": "Inflamed for the Assault",
+                "type": "Combat Talent",
+                "desc": "When casting the battle skill Forward March and the combo skill Frontline Support, Ember gains of 30/50% Protection and is less likely to be interrupted."
+              },
+              {
+                "name": "Pay the Ferric Price",
+                "type": "Combat Talent",
+                "desc": "When Ember receives DMG from the enemy, she gains ATK +6/9% for 7 s. This effect can reach 3 stacks."
+              }
+            ]
+          },
+          {
+            "title": "Potentials",
+            "entries": [
+              {
+                "name": "Nomadic Forst",
+                "type": "Potential 1",
+                "desc": "Talent Inflamed for the Assault improved: Protection effect +20% ; hitting an enemy extends the duration by 1.5 s."
+              },
+              {
+                "name": "Steel-Hardened Veteran",
+                "type": "Potential 2",
+                "desc": "Strength +20 , Will +20"
+              },
+              {
+                "name": "Indomitable Front",
+                "type": "Potential 3",
+                "desc": "Combo skill Frontline Support improved: Restores the HP of another teammate with the lowest percentage HP at 50% of the base effect."
+              },
+              {
+                "name": "Undying Embers",
+                "type": "Potential 4",
+                "desc": "Ultimate Re-Ignited Oath improved: Ultimate Energy cost -15% ."
+              },
+              {
+                "name": "The Steel Oath",
+                "type": "Potential 5",
+                "desc": "Ultimate Re-Ignited Oath improved: Shield effect is multiplied by 1.2 ; while this Shield is active, the wielder gains ATK +10% ."
               }
             ]
           }
@@ -24824,12 +25120,31 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Endmin.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Endmin.png"
       ],
-      "baseStats": {},
+      "baseStats": {
+        "max": {
+          "level": 90,
+          "strength": 123,
+          "agility": 140,
+          "intellect": 96,
+          "will": 107
+        },
+        "levels": [
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "strength": 123,
+            "agility": 140,
+            "intellect": 96,
+            "will": 107
+          }
+        ]
+      },
       "facts": {
         "faction": "Endfield Industries"
       },
       "kit": {
-        "source": "EndfieldWiki",
+        "source": "Endfield Wiki + Prydwen",
         "channel": "live",
         "version": "live",
         "sections": [
@@ -24953,6 +25268,36 @@
                 "name": "Base Skills",
                 "type": "Base",
                 "desc": "The Endministrator does not possess any Base Skill."
+              }
+            ]
+          },
+          {
+            "title": "Talents",
+            "entries": [
+              {
+                "name": "Essence Disintegration",
+                "type": "Combat Talent",
+                "desc": "When the Originium Crystals attached to the enemy is consumed , the Endministrator gains ATK +15/30% for 15s . This effect cannot stack."
+              },
+              {
+                "name": "Realspace Stasis",
+                "type": "Combat Talent",
+                "desc": "Enemies with attached Originium Crystals suffer Physical DMG Taken +10/20% ."
+              }
+            ]
+          },
+          {
+            "title": "Potentials",
+            "entries": [
+              {
+                "name": "Final Awakening",
+                "type": "Potential 1",
+                "desc": "Battle skill Constructive Sequence improved: Consuming Originium Crystals returns 50 SP."
+              },
+              {
+                "name": "Reflection of Authority",
+                "type": "Potential 2",
+                "desc": "Talent Essence Disintegration improved: When the Endministrator gains the ATK buff, other allied operators gain half of this ATK buff."
               }
             ]
           }
@@ -26097,12 +26442,31 @@
             "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Endmin.png",
             "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Endmin.png"
           ],
-          "baseStats": {},
+          "baseStats": {
+            "max": {
+              "level": 90,
+              "strength": 123,
+              "agility": 140,
+              "intellect": 96,
+              "will": 107
+            },
+            "levels": [
+              {
+                "label": "Lv. 90/90",
+                "level": 90,
+                "cap": 90,
+                "strength": 123,
+                "agility": 140,
+                "intellect": 96,
+                "will": 107
+              }
+            ]
+          },
           "facts": {
             "faction": "Endfield Industries"
           },
           "kit": {
-            "source": "EndfieldWiki",
+            "source": "Endfield Wiki + Prydwen",
             "channel": "live",
             "version": "live",
             "sections": [
@@ -26226,6 +26590,36 @@
                     "name": "Base Skills",
                     "type": "Base",
                     "desc": "The Endministrator does not possess any Base Skill."
+                  }
+                ]
+              },
+              {
+                "title": "Talents",
+                "entries": [
+                  {
+                    "name": "Essence Disintegration",
+                    "type": "Combat Talent",
+                    "desc": "When the Originium Crystals attached to the enemy is consumed , the Endministrator gains ATK +15/30% for 15s . This effect cannot stack."
+                  },
+                  {
+                    "name": "Realspace Stasis",
+                    "type": "Combat Talent",
+                    "desc": "Enemies with attached Originium Crystals suffer Physical DMG Taken +10/20% ."
+                  }
+                ]
+              },
+              {
+                "title": "Potentials",
+                "entries": [
+                  {
+                    "name": "Final Awakening",
+                    "type": "Potential 1",
+                    "desc": "Battle skill Constructive Sequence improved: Consuming Originium Crystals returns 50 SP."
+                  },
+                  {
+                    "name": "Reflection of Authority",
+                    "type": "Potential 2",
+                    "desc": "Talent Essence Disintegration improved: When the Endministrator gains the ATK buff, other allied operators gain half of this ATK buff."
                   }
                 ]
               }
@@ -27369,12 +27763,31 @@
             "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Endmin.png",
             "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Endmin.png"
           ],
-          "baseStats": {},
+          "baseStats": {
+            "max": {
+              "level": 90,
+              "strength": 123,
+              "agility": 140,
+              "intellect": 96,
+              "will": 107
+            },
+            "levels": [
+              {
+                "label": "Lv. 90/90",
+                "level": 90,
+                "cap": 90,
+                "strength": 123,
+                "agility": 140,
+                "intellect": 96,
+                "will": 107
+              }
+            ]
+          },
           "facts": {
             "faction": "Endfield Industries"
           },
           "kit": {
-            "source": "EndfieldWiki",
+            "source": "Endfield Wiki + Prydwen",
             "channel": "live",
             "version": "live",
             "sections": [
@@ -27498,6 +27911,36 @@
                     "name": "Base Skills",
                     "type": "Base",
                     "desc": "The Endministrator does not possess any Base Skill."
+                  }
+                ]
+              },
+              {
+                "title": "Talents",
+                "entries": [
+                  {
+                    "name": "Essence Disintegration",
+                    "type": "Combat Talent",
+                    "desc": "When the Originium Crystals attached to the enemy is consumed , the Endministrator gains ATK +15/30% for 15s . This effect cannot stack."
+                  },
+                  {
+                    "name": "Realspace Stasis",
+                    "type": "Combat Talent",
+                    "desc": "Enemies with attached Originium Crystals suffer Physical DMG Taken +10/20% ."
+                  }
+                ]
+              },
+              {
+                "title": "Potentials",
+                "entries": [
+                  {
+                    "name": "Final Awakening",
+                    "type": "Potential 1",
+                    "desc": "Battle skill Constructive Sequence improved: Consuming Originium Crystals returns 50 SP."
+                  },
+                  {
+                    "name": "Reflection of Authority",
+                    "type": "Potential 2",
+                    "desc": "Talent Essence Disintegration improved: When the Endministrator gains the ATK buff, other allied operators gain half of this ATK buff."
                   }
                 ]
               }
@@ -28643,13 +29086,32 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Gilberta.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Gilberta.png"
       ],
-      "baseStats": {},
+      "baseStats": {
+        "max": {
+          "level": 90,
+          "strength": 89,
+          "agility": 92,
+          "intellect": 127,
+          "will": 171
+        },
+        "levels": [
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "strength": 89,
+            "agility": 92,
+            "intellect": 127,
+            "will": 171
+          }
+        ]
+      },
       "facts": {
         "faction": "Rhodes Island",
         "birthday": "November 28"
       },
       "kit": {
-        "source": "EndfieldWiki",
+        "source": "Endfield Wiki + Prydwen",
         "channel": "live",
         "version": "live",
         "sections": [
@@ -28767,6 +29229,61 @@
                     "value": "3%"
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "title": "Talents",
+            "entries": [
+              {
+                "name": "Messengerial Processing",
+                "type": "Base Talent",
+                "desc": "Assign to Manufacturing Cabin to slow Mood Drop of all operators in it by 14/18% ."
+              },
+              {
+                "name": "Messengerial Arms Mastery",
+                "type": "Base Talent",
+                "desc": "Assign to Manufacturing Cabin to grant weapon EXP material production efficiency 20/30% ."
+              },
+              {
+                "name": "Messenger\u2019s Song",
+                "type": "Combat Talent",
+                "desc": "When fighting in the battlefield, all allied guards, casters, and supporters gain Ultimate Gain Efficiency +4/7% ."
+              },
+              {
+                "name": "Late Reply",
+                "type": "Combat Talent",
+                "desc": "Battle skill Arcane Staff: Gravity Mode and combo skill Arcane Staff: Matrix Displacement improved: Hitting at least 2 enemies with either the combo skill or the last sequence of the battle skill restores [72 + Intellect\u00d70.60]/[108 + Intellect\u00d70.90] HP to the controlled operator.\n If the controlled operator is already at max HP, then restore the HP of the teammate with the lowest percentage HP."
+              }
+            ]
+          },
+          {
+            "title": "Potentials",
+            "entries": [
+              {
+                "name": "Above the Clouds",
+                "type": "Potential 1",
+                "desc": "Battle skill Arcane Staff: Gravity Mode improved: Effect radius +20% ."
+              },
+              {
+                "name": "Wind Walker",
+                "type": "Potential 2",
+                "desc": "Ultimate Arcane Staff: Gravity Field improved: When an enemy is affected by the Anomalous Gravity Field of the ultimate, each stack of Vulnerability multiplies the effect of Arts Susceptibility . When finalizing the effects, the target is treated as having 1 additional stack of Vulnerability (maxes out at 4 stacks)."
+              },
+              {
+                "name": "Quick, Gentle Steps",
+                "type": "Potential 3",
+                "desc": "Talent Messenger\u2019s Song improved: Ultimate Gain Efficiency +5% ."
+              },
+              {
+                "name": "Dances with Clouds",
+                "type": "Potential 4",
+                "desc": "Ultimate Arcane Staff: Gravity Field improved: Ultimate Energy cost -15% ."
+              },
+              {
+                "name": "Special Mail",
+                "type": "Potential 5",
+                "desc": "Combo skill Arcane Staff: Matrix Displacement improved: Length of cooldown -2s ; DMG multiplier is increased to 1.3 times the original."
               }
             ]
           }
@@ -29891,12 +30408,31 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Laevatain.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Laevatain.png"
       ],
-      "baseStats": {},
+      "baseStats": {
+        "max": {
+          "level": 90,
+          "strength": 121,
+          "agility": 99,
+          "intellect": 177,
+          "will": 89
+        },
+        "levels": [
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "strength": 121,
+            "agility": 99,
+            "intellect": 177,
+            "will": 89
+          }
+        ]
+      },
       "facts": {
         "faction": "Rhodes Island"
       },
       "kit": {
-        "source": "EndfieldWiki",
+        "source": "Endfield Wiki + Prydwen",
         "channel": "live",
         "version": "live",
         "sections": [
@@ -30066,6 +30602,61 @@
                     "value": "456%"
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "title": "Talents",
+            "entries": [
+              {
+                "name": "Memory Crucible",
+                "type": "Base Talent",
+                "desc": "Assign to Manufacturing Cabin to grant operator EXP material production efficiency +20/30% ."
+              },
+              {
+                "name": "Undying Flames",
+                "type": "Base Talent",
+                "desc": "Assign to Manufacturing Cabin to slow Mood Drop of all operators in it by 14/18% ."
+              },
+              {
+                "name": "Scorching Heart",
+                "type": "Combat Talent",
+                "desc": "When the controlled operator's Final Strike or Finisher hits the enemy, Laevatain absorbs Heat Infliction from nearby enemies.\nEvery stack of Heat Infliction absorbed gives Laevatain 1 stack of Melting Flame (max stacks: 4 ). At 4 stacks, DMG dealt by Laevatain ignores 10/15/20 Heat Resistance of the enemy for 20s .\nLaevatain also absorbs Heat Infliction from enemies defeated nearby."
+              },
+              {
+                "name": "Re-Ignition",
+                "type": "Combat Talent",
+                "desc": "When HP drops below 40% , gain 90% Protection and restore 5% Max HP per second for 4/8s . This effect triggers once every 120s ."
+              }
+            ]
+          },
+          {
+            "title": "Potentials",
+            "entries": [
+              {
+                "name": "Heart of Melting Flame",
+                "type": "Potential 1",
+                "desc": "Battle skill Smouldering Fire improved: Additional attack multiplier is increased to 1.2 times the original, and scoring a hit returns 20 SP."
+              },
+              {
+                "name": "Pursuit of Memories",
+                "type": "Potential 2",
+                "desc": "Intellect +20 , Basic Attack DMG Dealt +15% ."
+              },
+              {
+                "name": "Fragments from the Past",
+                "type": "Potential 3",
+                "desc": "Battle skill Smouldering Fire improved: Duration of the Combustion applied by the skill is increased by 50% . DMG of the Combustion applied by the skills is increased to 1.5 times the original."
+              },
+              {
+                "name": "Ice Cream Furnace",
+                "type": "Potential 4",
+                "desc": "Ultimate Twilight improved: Ultimate Energy cost -15% ."
+              },
+              {
+                "name": "Proof of Existence",
+                "type": "Potential 5",
+                "desc": "Ultimate Twilight improved: Enhanced basic attack DMG multiplier is increased to 1.2 times the original; during the ultimate, every enemy defeated by Laevatain extends ultimate duration by +1s (max: +7s )."
               }
             ]
           }
@@ -31190,13 +31781,32 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Lastrite.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Lastrite.png"
       ],
-      "baseStats": {},
+      "baseStats": {
+        "max": {
+          "level": 90,
+          "strength": 155,
+          "agility": 104,
+          "intellect": 93,
+          "will": 109
+        },
+        "levels": [
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "strength": 155,
+            "agility": 104,
+            "intellect": 93,
+            "will": 109
+          }
+        ]
+      },
       "facts": {
         "faction": "Se\u0161'qa",
         "birthday": "November 12"
       },
       "kit": {
-        "source": "EndfieldWiki",
+        "source": "Endfield Wiki + Prydwen",
         "channel": "live",
         "version": "live",
         "sections": [
@@ -31330,6 +31940,61 @@
                     "value": "10"
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "title": "Talents",
+            "entries": [
+              {
+                "name": "Cemetery Gardening",
+                "type": "Base Talent",
+                "desc": "Assign to Growth Chamber to grant vitrified plant growth rate +20/30% ."
+              },
+              {
+                "name": "Fame of the Royal Courts",
+                "type": "Base Talent",
+                "desc": "Assign to Reception Room to grant operators a small Clue 7/Clue 7 Rate-UP: Se\u0161'qa (activates upon assignment; effects of the same type cannot stack)"
+              },
+              {
+                "name": "Hypothermia",
+                "type": "Combat Talent",
+                "desc": "When Last Rite consumes any Arts Infliction , apply Cryo Susceptibility to the target with the effect of [Number of Arts Infliction stacks consumed \u00d7 2/4% ] for 15s . This effect cannot stack."
+              },
+              {
+                "name": "Cryogenic Embrittlement",
+                "type": "Combat Talent",
+                "desc": "Ultimate Vigil Services improved: When the ultimate deals DMG to an enemy with Cryo Susceptibility , the effect of that Cryo Susceptibility is 1.2/1.5 times the original."
+              }
+            ]
+          },
+          {
+            "title": "Potentials",
+            "entries": [
+              {
+                "name": "Undertaker's Gift",
+                "type": "Potential 1",
+                "desc": "When the controlled operator with Hypothermic Perfusion performs a Final Strike that hits the enemy, it deals another 20% DMG and 5 Stagger ."
+              },
+              {
+                "name": "Absolute Zero Armament",
+                "type": "Potential 2",
+                "desc": "Strength +20 , Cryo DMG Dealt +10% ."
+              },
+              {
+                "name": "Overlord of Winter",
+                "type": "Potential 3",
+                "desc": "Combo skill Winter's Devourer and ultimate Vigil Services improved: DMG multiplier increased to 1.15 times the original."
+              },
+              {
+                "name": "Sincere Wake",
+                "type": "Potential 4",
+                "desc": "Ultimate Vigil Services improved: Ultimate Energy cost -15% ."
+              },
+              {
+                "name": "Winter is Returning",
+                "type": "Potential 5",
+                "desc": "Battle skill Esoteric Legacy of Se\u0161'qa improved: Amount of SP returned is increased by another 5 ; Mirage Additional ATK Multiplier is increased to 1.2 times the original."
               }
             ]
           }
@@ -32465,13 +33130,32 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Lifeng.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Lifeng.png"
       ],
-      "baseStats": {},
+      "baseStats": {
+        "max": {
+          "level": 90,
+          "strength": 123,
+          "agility": 132,
+          "intellect": 115,
+          "will": 117
+        },
+        "levels": [
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "strength": 123,
+            "agility": 132,
+            "intellect": 115,
+            "will": 117
+          }
+        ]
+      },
       "facts": {
         "faction": "Hongshan Academy of Sciences (HAS)",
         "birthday": "July 16"
       },
       "kit": {
-        "source": "EndfieldWiki",
+        "source": "Endfield Wiki + Prydwen",
         "channel": "live",
         "version": "live",
         "sections": [
@@ -32609,6 +33293,61 @@
                     "value": "5"
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "title": "Talents",
+            "entries": [
+              {
+                "name": "Youthful Ambition",
+                "type": "Base Talent",
+                "desc": "Assign to Control Nexus to grant all operators' Mood Regen +12/16% ."
+              },
+              {
+                "name": "Laddie Reliable",
+                "type": "Base Talent",
+                "desc": "Assign to Reception Room to grant operators a small Clue 3/Clue 3 Rate-UP: HAS (activates upon assignment; effects of the same type cannot stack)"
+              },
+              {
+                "name": "Illumination",
+                "type": "Combat Talent",
+                "desc": "Every point of Intellect and Will further grants ATK +0.10/0.15% ."
+              },
+              {
+                "name": "Subduer of Evil",
+                "type": "Combat Talent",
+                "desc": "Applying Knock Down also deals 50/100% ATK of Physical DMG ."
+              }
+            ]
+          },
+          {
+            "title": "Potentials",
+            "entries": [
+              {
+                "name": "Breaking the Obsession",
+                "type": "Potential 1",
+                "desc": "Battle skill Turbid Avatar improved: Physical Susceptibility +5% ; also triggers this additional effect to enemies with no more than 2 Vulnerability stack(s)."
+              },
+              {
+                "name": "Self Refinement",
+                "type": "Potential 2",
+                "desc": "All attributes +15 ."
+              },
+              {
+                "name": "Spiritual Cultivation",
+                "type": "Potential 3",
+                "desc": "Talent Illumination improved: Every point in the attributes of Intellect and Will grants Lifeng an additional ATK +0.05% ."
+              },
+              {
+                "name": "Brief Instant",
+                "type": "Potential 4",
+                "desc": "Ultimate Heart of the Unmoving improved: Ultimate Energy cost -15% ."
+              },
+              {
+                "name": "Unremitting",
+                "type": "Potential 5",
+                "desc": "Talent Subduer of Evil improved: Every 15s , the next effect triggered deals another 250% ATK of Physical DMG and 5 Stagger ."
               }
             ]
           }
@@ -33720,13 +34459,32 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Liino.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Liino.png"
       ],
-      "baseStats": {},
+      "baseStats": {
+        "max": {
+          "level": 90,
+          "strength": 89,
+          "agility": 121,
+          "intellect": 91,
+          "will": 177
+        },
+        "levels": [
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "strength": 89,
+            "agility": 121,
+            "intellect": 91,
+            "will": 177
+          }
+        ]
+      },
       "facts": {
         "faction": "Talos-II General Chamber of Commerce (TGCC)",
         "birthday": "July 27"
       },
       "kit": {
-        "source": "EndfieldWiki",
+        "source": "Endfield Wiki + Prydwen",
         "channel": "live",
         "version": "live",
         "sections": [
@@ -33908,6 +34666,61 @@
                     "value": "20"
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "title": "Talents",
+            "entries": [
+              {
+                "name": "Idol Passion",
+                "type": "Base Talent",
+                "desc": "Assign to Reception Room to slow Mood Drop of all operators in it by 14/18% ."
+              },
+              {
+                "name": "Stage Vibe That Lingers",
+                "type": "Base Talent",
+                "desc": "Assign to Control Nexus to grant all operators' Mood Regen +12/16% ."
+              },
+              {
+                "name": "Idol Zone",
+                "type": "Combat Talent",
+                "desc": "During Vocalist Stance or Cosmovoice Stance, operators within the area of effect (AOE) gain Treatment Received Bonus +10/20% and DMG Taken -10/20% . These effects persist for 3s after leaving the AOE."
+              },
+              {
+                "name": "Starry Boost of 1st Magnitude",
+                "type": "Combat Talent",
+                "desc": "For 30s after casting Liino's combo skill Delightful Harmonics, casting a battle skill of an Electric or Nature operator returns 5/10 SP. This effect cannot stack and ends after triggering."
+              }
+            ]
+          },
+          {
+            "title": "Potentials",
+            "entries": [
+              {
+                "name": "Flawless Stage Work",
+                "type": "Potential 1",
+                "desc": "After entering battle without her Vocalist Stance active, the first casting of the battle skill Dazzling Focus returns 25 additional SP. Effects of ATK Boost granted by Vocalist Stance and Cosmovoice Stance are increased by +6% ."
+              },
+              {
+                "name": "Committed Rehearsals",
+                "type": "Potential 2",
+                "desc": "Will +20 , Treatment Efficiency +10% ."
+              },
+              {
+                "name": "Longing for the Horizon",
+                "type": "Potential 3",
+                "desc": "Combo skill Delightful Harmonics improved : Length of cooldown -1s . DMG Multiplier and HP Treatment are increased to 1.4 times the original."
+              },
+              {
+                "name": "Meteoric Rhythm",
+                "type": "Potential 4",
+                "desc": "Ultimate Dawnstar Concerto improved: Ultimate Energy cost -15% ."
+              },
+              {
+                "name": "Heart-Whipping Q&A",
+                "type": "Potential 5",
+                "desc": "Amp effect of Dawnstar Concerto is increased to 1.2 times the original. DMG Multipliers of battle skill Dazzling Focus and ultimate Dawnstar Concerto are increased to 1.2 times the original."
               }
             ]
           }
@@ -35008,13 +35821,32 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Mifu.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Mifu.png"
       ],
-      "baseStats": {},
+      "baseStats": {
+        "max": {
+          "level": 90,
+          "strength": 173,
+          "agility": 92,
+          "intellect": 90,
+          "will": 119
+        },
+        "levels": [
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "strength": 173,
+            "agility": 92,
+            "intellect": 90,
+            "will": 119
+          }
+        ]
+      },
       "facts": {
         "faction": "Hongshan Academy of Sciences (HAS)",
         "birthday": "July 9"
       },
       "kit": {
-        "source": "EndfieldWiki",
+        "source": "Endfield Wiki + Prydwen",
         "channel": "live",
         "version": "live",
         "sections": [
@@ -35132,6 +35964,56 @@
                     "value": "20"
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "title": "Talents",
+            "entries": [
+              {
+                "name": "Secret Informants",
+                "type": "Base Talent",
+                "desc": "Assign to Reception Room to grant operators a small Clue 3 Rate-UP: HAS/Clue 3 Rate-UP: HAS (activates upon assignment; effects of the same type cannot stack)"
+              },
+              {
+                "name": "Esoteric Tisane",
+                "type": "Base Talent",
+                "desc": "Assign to Growth Chamber to grant fungal matter growth rate +20/30% ."
+              },
+              {
+                "name": "Stern Crackdown",
+                "type": "Combat Talent",
+                "desc": "Battle skill move World Splitter improved: When hitting a target with Physical Susceptibility or Stagger ed, DMG Multiplier is increased to 1.1/1.2 times the original.\n\n Show Effects\n\n Talent\n Vigilant Fury\n\n Combo skill improved: Casting the combo creates a shield with 15/30% Max HP and a duration of 10s . While the shield is active, Mi Fu becomes harder to interrupt.\n This effect can only trigger once every 60s ."
+              }
+            ]
+          },
+          {
+            "title": "Potentials",
+            "entries": [
+              {
+                "name": "Restless Watch",
+                "type": "Potential 1",
+                "desc": "Combo skill Fists of No Regrets improved: Length of cooldown -2s . Physical Susceptibility effect applied by the skill is further increased by +5% and has +4s duration."
+              },
+              {
+                "name": "Kinesthesia of Harmony",
+                "type": "Potential 2",
+                "desc": "Strength +20 , Arts Intensity +16 ."
+              },
+              {
+                "name": "Complete Warmup",
+                "type": "Potential 3",
+                "desc": "Talent Vigilant Fury improved: Shield duration +5s . Shield trigger cooldown -15s . Each time the shield is triggered, Mi Fu gains ATK +6% for 20s ."
+              },
+              {
+                "name": "Qi Thrice-Refined",
+                "type": "Potential 4",
+                "desc": "Ultimate Pile of No Mercy improved: Ultimate Energy cost -15% ."
+              },
+              {
+                "name": "Pugilist of the Stockade",
+                "type": "Potential 5",
+                "desc": "Battle skill improved: DMG Multipliers of the moves Cloudtrapper, Trail and Mangle, and World Splitter are increased to 1.1 times the original. Ultimate Pile of No Mercy improved: Stagger Dealt +5 .\n The Battle Skill DMG Multiplier buff can stack with the talent Stern Crackdown."
               }
             ]
           }
@@ -36243,13 +37125,32 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Pogranichnik.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Pogranichnik.png"
       ],
-      "baseStats": {},
+      "baseStats": {
+        "max": {
+          "level": 90,
+          "strength": 101,
+          "agility": 110,
+          "intellect": 97,
+          "will": 173
+        },
+        "levels": [
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "strength": 101,
+            "agility": 110,
+            "intellect": 97,
+            "will": 173
+          }
+        ]
+      },
       "facts": {
         "faction": "Rhodes Island",
         "birthday": "July 23"
       },
       "kit": {
-        "source": "EndfieldWiki",
+        "source": "Endfield Wiki + Prydwen",
         "channel": "live",
         "version": "live",
         "sections": [
@@ -36439,6 +37340,61 @@
                     "value": "40"
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "title": "Talents",
+            "entries": [
+              {
+                "name": "Hone the Weapons",
+                "type": "Base Talent",
+                "desc": "Assign to Manufacturing Cabin to grant weapon EXP material production efficiency +20/30% ."
+              },
+              {
+                "name": "Morale Boost",
+                "type": "Base Talent",
+                "desc": "Assign to Manufacturing Cabin to slow Mood Drop of all operators in it by 14/18% ."
+              },
+              {
+                "name": "The Living Banner",
+                "type": "Combat Talent",
+                "desc": "During battle, recovering 80 SP with his own skills grants Fervent Morale for 20s .\nFervent Morale effects: ATK +4/8% and Arts Intensity +4/8 .\nThis effect can reach 3 stacks. Duration of each stack is counted separately."
+              },
+              {
+                "name": "Tactical Instruction",
+                "type": "Combat Talent",
+                "desc": "Ultimate Shieldguard Banner, Forward improved: Any operator triggering the ultimate's subsequent effects also gains Fervent Morale for 5/10s .\nRequires activation of talent: The Living Banner."
+              }
+            ]
+          },
+          {
+            "title": "Potentials",
+            "entries": [
+              {
+                "name": "Frontline Sweep",
+                "type": "Potential 1",
+                "desc": "Battle skill The Pulverizing Front improved:When hitting at least 2 enemies, returns 15 SP."
+              },
+              {
+                "name": "Advance",
+                "type": "Potential 2",
+                "desc": "Will +20 , Physical DMG Dealt +10% ."
+              },
+              {
+                "name": "When the Banner Flutters",
+                "type": "Potential 3",
+                "desc": "Talent The Living Banner improved: Amount of SP recovery needed to gain Fervent Morale is reduced to 60 . Max Fervent Morale stacks on self +2 ."
+              },
+              {
+                "name": "Shield of Talos-ll",
+                "type": "Potential 4",
+                "desc": "Ultimate Shieldguard Banner, Forward improved: Ultimate Energy cost -15% ."
+              },
+              {
+                "name": "Newly Forged Blade",
+                "type": "Potential 5",
+                "desc": "Combo skill Full Moon Slash improved: Length of cooldown -2s ; SP recovery is increased to 1.2 times the original."
               }
             ]
           }
@@ -37561,13 +38517,32 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Rossi.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Rossi.png"
       ],
-      "baseStats": {},
+      "baseStats": {
+        "max": {
+          "level": 90,
+          "strength": 97,
+          "agility": 176,
+          "intellect": 118,
+          "will": 89
+        },
+        "levels": [
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "strength": 97,
+            "agility": 176,
+            "intellect": 118,
+            "will": 89
+          }
+        ]
+      },
       "facts": {
         "faction": "Endfield Industries",
         "birthday": "March 10"
       },
       "kit": {
-        "source": "EndfieldWiki",
+        "source": "Endfield Wiki + Prydwen",
         "channel": "live",
         "version": "live",
         "sections": [
@@ -37713,6 +38688,61 @@
                     "value": "60%"
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "title": "Talents",
+            "entries": [
+              {
+                "name": "Clan Etiquette",
+                "type": "Base Talent",
+                "desc": "Assign to Reception Room to slow Mood Drop of all operators in it by 14/18% ."
+              },
+              {
+                "name": "Scent of the Hunt",
+                "type": "Base Talent",
+                "desc": "Assign to Reception Room to grant operator clue collecting efficiency +20/30% ."
+              },
+              {
+                "name": "Nicks and Scratches",
+                "type": "Combat Talent",
+                "desc": "Battle skill improved: After Wolven Ambrage deals DMG, Rossi applies Razor Clawmark to the target for 15/25s . This effect cannot stack. For the duration of Razor Clawmark, the target takes 25/30% ATK (Rossi's) of Physical DMG per second and suffers Physical DMG Taken and Heat DMG Taken +6/12% ."
+              },
+              {
+                "name": "Seething Blood",
+                "type": "Combat Talent",
+                "desc": "When Rossi's skill deals Critical DMG to a Razor Clawmarked enemy, trigger another hit that deals 12/24% ATK (Rossi's) of Heat DMG and restores [Intellect x 0.04/0.08 ] HP to Rossi. If the target is also Combusted , then the aforementioned DMG and HP Restoration effects are increased to 1.5 times."
+              }
+            ]
+          },
+          {
+            "title": "Potentials",
+            "entries": [
+              {
+                "name": "Origin of Admiration",
+                "type": "Potential 1",
+                "desc": "Battle skill Crimson Shadow and combo skill Moment of Blazing Shadow improved: The DMG Multipliers of these skills are increased to 1.15 times of the original.\nWolven Ambrage of the battle skill also returns 10 SP after hitting the enemy."
+              },
+              {
+                "name": "Gap to Perfection",
+                "type": "Potential 2",
+                "desc": "Agility +20 , Critical Rate +7% ."
+              },
+              {
+                "name": "Tangible Duties",
+                "type": "Potential 3",
+                "desc": "Talent Seething Blood improved: When triggered, it grants Base DMG Multiplier +8% and restores HP +[lntellect x 0.04 ]."
+              },
+              {
+                "name": "Innocent Wish",
+                "type": "Potential 4",
+                "desc": "Ultimate \"Razorclaw\" Ambuscade improved: Ultimate Energy cost -15% ."
+              },
+              {
+                "name": "Legendary Destination",
+                "type": "Potential 5",
+                "desc": "Ultimate \"Razorclaw\" Ambuscade improved: DMG Multiplier is increased to 1.1 times of the original; Critical DMG Dealt is increased by +30% ."
               }
             ]
           }
@@ -38846,13 +39876,32 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Tangtang.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Tangtang.png"
       ],
-      "baseStats": {},
+      "baseStats": {
+        "max": {
+          "level": 90,
+          "strength": 123,
+          "agility": 179,
+          "intellect": 85,
+          "will": 102
+        },
+        "levels": [
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "strength": 123,
+            "agility": 179,
+            "intellect": 85,
+            "will": 102
+          }
+        ]
+      },
       "facts": {
         "faction": "Endfield Industries",
         "birthday": "November 29"
       },
       "kit": {
-        "source": "EndfieldWiki",
+        "source": "Endfield Wiki + Prydwen",
         "channel": "live",
         "version": "live",
         "sections": [
@@ -38998,6 +40047,61 @@
                     "value": "20"
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "title": "Talents",
+            "entries": [
+              {
+                "name": "Supreme Chief",
+                "type": "Base Talent",
+                "desc": "Assign to Growth Chamber to slow Mood Drop of all operators in it by 14/18% ."
+              },
+              {
+                "name": "River's Daughter",
+                "type": "Base Talent",
+                "desc": "Assign to Growth Chamber to grant vitrified plant growth rate +20/30% ."
+              },
+              {
+                "name": "Fam of Honor",
+                "type": "Combat Talent",
+                "desc": "When within a 5-meter radius of a Whirlpool, allied operators gain 10/20% Haste while enemies suffer 20/40% Slow . These effects persist for 3s after leaving the area of effect."
+              },
+              {
+                "name": "Riot Bringer",
+                "type": "Combat Talent",
+                "desc": "During OLDEN STARE, performing a dive attack with the controlled operator ends its evolution early and creates a Waterspout. All nearby Whirlpools are also consumed and converted into additional Waterspouts.\nWaterspouts created this way have the same effects as those created by the battle skill IMA WAVERIDAAH! and gain DMG Dealt +40/60% ."
+              }
+            ]
+          },
+          {
+            "title": "Potentials",
+            "entries": [
+              {
+                "name": "Reserve Hoard",
+                "type": "Potential 1",
+                "desc": "Combo skill RIVER, TO ME! improved: DMG Multiplier is increased to 1.2 times of the original, and cooldown is now -2s .\nBattle skill IMA WAVERIDAAH! improved: For every Whirlpool consumed and converted into a Waterspout, return 5 additional SP."
+              },
+              {
+                "name": "River's Daughter",
+                "type": "Potential 2",
+                "desc": "Agility +20 , Cryo DMG Dealt +10% ."
+              },
+              {
+                "name": "Chiefly Vibe",
+                "type": "Potential 3",
+                "desc": "Battle skill IMA WAVERIDAAH! improved: DMG Multiplier is increased to 1.1 times the original. When forming multiple Waterspouts, the resulting Arts Susceptibility effect is increased by +5% ."
+              },
+              {
+                "name": "Qingbo Meditation",
+                "type": "Potential 4",
+                "desc": "Ultimate DA CHIEF SEES YOU! improved: Ultimate Energy cost -15% ."
+              },
+              {
+                "name": "Chief's All-Eldritch Gaze",
+                "type": "Potential 5",
+                "desc": "Ultimate DA CHIEF SEES YOU! improved: DMG Multiplier is increased to 1.15 times the original.\nTalent Riot Bringer improved: DMG effects of any Waterspout created by the ultimate DA CHIEF SEES YOU! are increased by +80% ."
               }
             ]
           }
@@ -40109,13 +41213,32 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Yvonne.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Yvonne.png"
       ],
-      "baseStats": {},
+      "baseStats": {
+        "max": {
+          "level": 90,
+          "strength": 82,
+          "agility": 128,
+          "intellect": 176,
+          "will": 105
+        },
+        "levels": [
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "strength": 82,
+            "agility": 128,
+            "intellect": 176,
+            "will": 105
+          }
+        ]
+      },
       "facts": {
         "faction": "Endfield Industries",
         "birthday": "May 9"
       },
       "kit": {
-        "source": "EndfieldWiki",
+        "source": "Endfield Wiki + Prydwen",
         "channel": "live",
         "version": "live",
         "sections": [
@@ -40273,6 +41396,61 @@
                     "value": "60%"
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "title": "Talents",
+            "entries": [
+              {
+                "name": "Fungal Pigment Extraction",
+                "type": "Base Talent",
+                "desc": "Assign to Growth Chamber to grant fungal matter growth rate +20/30% ."
+              },
+              {
+                "name": "Fashionista",
+                "type": "Base Talent",
+                "desc": "Assign to Growth Chamber to slow Mood Drop of all operators in it by 14/18% ."
+              },
+              {
+                "name": "Barrage of Technology",
+                "type": "Combat Talent",
+                "desc": "Battle skill Brr-Brr-Bomb \u00df improved: After applying Solidification , the next basic attack performed becomes a Final Strike . At level 2, the Final Strike has a buff of DMG Dealt +50% ."
+              },
+              {
+                "name": "Freezing Point",
+                "type": "Combat Talent",
+                "desc": "Against enemies with active Cryo Infliction , gains Critical DMG Dealt +10/20% . Effect is doubled against enemies with Solidification ."
+              }
+            ]
+          },
+          {
+            "title": "Potentials",
+            "entries": [
+              {
+                "name": "Flash Freezer",
+                "type": "Potential 1",
+                "desc": "Combo skill Flashfreezer u37 improved: Effect radius +20% ; releases energy 2 more times; ; and gains an additional 15 Ultimate Energy after dealing DMG."
+              },
+              {
+                "name": "Flawless Creation",
+                "type": "Potential 2",
+                "desc": "Intellect +20 , Critical Rate +7% ."
+              },
+              {
+                "name": "Tink-a-Power",
+                "type": "Potential 3",
+                "desc": "Talent Freezing Point improved: Against enemies with Cryo Infliction , Critical DMG Dealt +10% ; this effect is also doubled against enemies with Solidification ."
+              },
+              {
+                "name": "Rebellious Mood",
+                "type": "Potential 4",
+                "desc": "Battle skill Brr-Brr-Bomb \u00df improved: If the first explosion hits only one enemy, return 10 SP."
+              },
+              {
+                "name": "Expert Mechcrafter",
+                "type": "Potential 5",
+                "desc": "Ultimate Cryoblasting Pistolier improved: During the ultimate, ATK +10% and Critical DMG Dealt +30% ."
               }
             ]
           }
@@ -41417,13 +42595,32 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Zhuangfangyi.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Zhuangfangyi.png"
       ],
-      "baseStats": {},
+      "baseStats": {
+        "max": {
+          "level": 90,
+          "strength": 99,
+          "agility": 99,
+          "intellect": 123,
+          "will": 184
+        },
+        "levels": [
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "strength": 99,
+            "agility": 99,
+            "intellect": 123,
+            "will": 184
+          }
+        ]
+      },
       "facts": {
         "faction": "Hongshan Academy of Sciences (HAS)",
         "birthday": "August 7"
       },
       "kit": {
-        "source": "EndfieldWiki",
+        "source": "Endfield Wiki + Prydwen",
         "channel": "live",
         "version": "live",
         "sections": [
@@ -41565,6 +42762,61 @@
                     "value": "300%"
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "title": "Talents",
+            "entries": [
+              {
+                "name": "Viceroy Experience",
+                "type": "Base Talent",
+                "desc": "Assign to Manufacturing Cabin to slow Mood Drop of all operators in it by 14/18% ."
+              },
+              {
+                "name": "Tianshi Chi Meditation",
+                "type": "Base Talent",
+                "desc": "Assign to Manufacturing Cabin to grant operator EXP material production efficiency +20/30% ."
+              },
+              {
+                "name": "Force of Nature",
+                "type": "Combat Talent",
+                "desc": "Battle skill Mantra of Sundering improved: Casting the battle skill grants Zhuang Fangyi 9/18% Electric Amp for 5s . Scoring hits with the battle skill's Thunder Strike increases this effect by +1/2% . Every casting of the battle skill Mantra of Sundering again resets this Electric Amp effect."
+              },
+              {
+                "name": "Ordained by Heaven",
+                "type": "Combat Talent",
+                "desc": "Gains a 9% chance of immunity against DMG taken, with each Sunderblade nearby increasing this chance by +1% . After DMG Immunity is triggered, Zhuang Fangyi is also restored for 9/18% Max HP. The HP restoration effect only triggers once every 99s ."
+              }
+            ]
+          },
+          {
+            "title": "Potentials",
+            "entries": [
+              {
+                "name": "Four Symbols of Harmony",
+                "type": "Potential 1",
+                "desc": "Battle skill Mantra of Sundering improved: DMG multiplier is increased to 1.15 times the original. After entering battle, Zhuang Fangyi's first battle skill casting also creates 1 more Sunderblade.\nThe additional Sunderblade created by this skill can exceed the Sunderblade creation limit from a single casting of the battle skill."
+              },
+              {
+                "name": "Acuity of Fine Details",
+                "type": "Potential 2",
+                "desc": "Will +20 , Battle Skill DMG Dealt +15% ."
+              },
+              {
+                "name": "Sense and Response",
+                "type": "Potential 3",
+                "desc": "Battle skill Mantra of Sundering improved: After consuming Electrification , the battle skill returns 10 SP. Sunderblade duration +10 s."
+              },
+              {
+                "name": "Absolute Composure",
+                "type": "Potential 4",
+                "desc": "Ultimate Smiting Tempest improved: Ultimate Energy cost -15% ."
+              },
+              {
+                "name": "Storm of Transformation",
+                "type": "Potential 5",
+                "desc": "During the Empyrean of Truth transformation, DMG Dealt by Zhuang Fangyi ignores 15 of the enemy's Electric Resistance."
               }
             ]
           }
@@ -42676,13 +43928,32 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Alesh.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Alesh.png"
       ],
-      "baseStats": {},
+      "baseStats": {
+        "max": {
+          "level": 90,
+          "strength": 158,
+          "agility": 95,
+          "intellect": 125,
+          "will": 89
+        },
+        "levels": [
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "strength": 158,
+            "agility": 95,
+            "intellect": 125,
+            "will": 89
+          }
+        ]
+      },
       "facts": {
         "faction": "United Workers' Syndicates of Talos II",
         "birthday": "September 1"
       },
       "kit": {
-        "source": "EndfieldWiki",
+        "source": "Endfield Wiki + Prydwen",
         "channel": "live",
         "version": "live",
         "sections": [
@@ -42828,6 +44099,61 @@
                     "value": "20"
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "title": "Talents",
+            "entries": [
+              {
+                "name": "Casual Angling",
+                "type": "Base Talent",
+                "desc": "Assign to Control Nexus to grant all operators\u2019 Mood Regen +8/12% ."
+              },
+              {
+                "name": "Anglers' Intel Network",
+                "type": "Base Talent",
+                "desc": "Assign to Reception Room to grant operators a small Clue 1/Clue 1 Rate-UP: UWST (activates upon assignment; effects of the same type cannot stack)"
+              },
+              {
+                "name": "Flash-frozen for Freshness",
+                "type": "Combat Talent",
+                "desc": "After Solidification or Originium Crystals are applied to a nearby enemy, Alesh gains 3/4 Ultimate Energy. If the Solidification is applied by Alesh, double the amount of Ultimate Energy gained. Effect can only trigger once every 3s ."
+              },
+              {
+                "name": "Veteran Angler",
+                "type": "Combat Talent",
+                "desc": "Combo skill Auger Angling improved: Every 10 Intellect grants Rare Fin catching chance +0.2/0.5% (max: +30% )."
+              }
+            ]
+          },
+          {
+            "title": "Potentials",
+            "entries": [
+              {
+                "name": "Super Salty Comeback",
+                "type": "Potential 1",
+                "desc": "Battle skill Unconventional Lure improved: SP Recovery grants an additional 10 SP."
+              },
+              {
+                "name": "Calm and Tranquil",
+                "type": "Potential 2",
+                "desc": "Strength +15 , Intellect +15 ."
+              },
+              {
+                "name": "May the Willing Bite",
+                "type": "Potential 3",
+                "desc": "Combo skill Auger Angling improved: After catching a Rare Fin, the entire team gains ATK +15% for 10s . This effect cannot stack."
+              },
+              {
+                "name": "Insane Angling Set",
+                "type": "Potential 4",
+                "desc": "Ultimate One Monster Catch! improved: Ultimate Energy cost -15% ."
+              },
+              {
+                "name": "Mega Lunker Rumors",
+                "type": "Potential 5",
+                "desc": "Ultimate One Monster Catch! improved: Hitting a target below 50% HP increases the DMG Multiplier to 1.5 times the original."
               }
             ]
           }
@@ -43928,13 +45254,32 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Arclight.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Arclight.png"
       ],
-      "baseStats": {},
+      "baseStats": {
+        "max": {
+          "level": 90,
+          "strength": 107,
+          "agility": 145,
+          "intellect": 123,
+          "will": 100
+        },
+        "levels": [
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "strength": 107,
+            "agility": 145,
+            "intellect": 123,
+            "will": 100
+          }
+        ]
+      },
       "facts": {
         "faction": "Hannabit Circuit",
         "birthday": "January 3"
       },
       "kit": {
-        "source": "EndfieldWiki",
+        "source": "Endfield Wiki + Prydwen",
         "channel": "live",
         "version": "live",
         "sections": [
@@ -44064,6 +45409,61 @@
                     "value": "10"
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "title": "Talents",
+            "entries": [
+              {
+                "name": "Blade of the Wildlands",
+                "type": "Base Talent",
+                "desc": "Assign to Manufacturing Cabin to grant weapon EXP material production efficiency +10/20% ."
+              },
+              {
+                "name": "Hanna Traditions",
+                "type": "Base Talent",
+                "desc": "Assign to Reception Room to grant operators a small Clue 6/Clue 6 Rate-UP: Hannabit Circuit (activates upon assignment; effects of the same type cannot stack)"
+              },
+              {
+                "name": "Wildland Trekker",
+                "type": "Combat Talent",
+                "desc": "Battle skill Tempestuous Arc improved: Triggering the additional effect 3 time(s) grants the team Electric DMG Dealt +0.05/0.08% for every point of Arclight's Intellect. This effect has a 15s duration and cannot stack."
+              },
+              {
+                "name": "Hannabit Wisdom",
+                "type": "Combat Talent",
+                "desc": "30/50% chance to ignore an Arts Infliction applied on her."
+              }
+            ]
+          },
+          {
+            "title": "Potentials",
+            "entries": [
+              {
+                "name": "Child of the Storm",
+                "type": "Potential 1",
+                "desc": "Battle skill Tempestuous Arc improved: Triggering additional effects recovers another 10 SP."
+              },
+              {
+                "name": "Speed Battler",
+                "type": "Potential 2",
+                "desc": "Agility +15 , Intellect +15 ."
+              },
+              {
+                "name": "Hanna",
+                "type": "Potential 3",
+                "desc": "Talent Wildland Trekker improved: DMG Boost effect increased to 1.3 times the original."
+              },
+              {
+                "name": "Aldertone's Teachings",
+                "type": "Potential 4",
+                "desc": "Ultimate Exploding Blitz improved: Ultimate Energy cost -15% ."
+              },
+              {
+                "name": "Servant of the Wildlands",
+                "type": "Potential 5",
+                "desc": "Talent Wildland Trekker improved: Trigger requirement is reduced to 2 time(s)."
               }
             ]
           }
@@ -45208,13 +46608,32 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Avywenna.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Avywenna.png"
       ],
-      "baseStats": {},
+      "baseStats": {
+        "max": {
+          "level": 90,
+          "strength": 107,
+          "agility": 106,
+          "intellect": 110,
+          "will": 148
+        },
+        "levels": [
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "strength": 107,
+            "agility": 106,
+            "intellect": 110,
+            "will": 148
+          }
+        ]
+      },
       "facts": {
         "faction": "Talos-II General Chamber of Commerce (TGCC)",
         "birthday": "October 25"
       },
       "kit": {
-        "source": "EndfieldWiki",
+        "source": "Endfield Wiki + Prydwen",
         "channel": "live",
         "version": "live",
         "sections": [
@@ -45340,6 +46759,61 @@
                     "value": "30"
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "title": "Talents",
+            "entries": [
+              {
+                "name": "Residence Advisor",
+                "type": "Base Talent",
+                "desc": "Assign to Control Nexus to grant all operators' Mood Regen +8/12% ."
+              },
+              {
+                "name": "Messenger's Secret",
+                "type": "Base Talent",
+                "desc": "Assign to Reception Room to grant operators a small Clue 2/Clue 2 Rate-UP: TGCC (activates upon assignment; effects of the same type cannot stack)"
+              },
+              {
+                "name": "Expedited Delivery",
+                "type": "Combat Talent",
+                "desc": "After a thrown or returning Thunderlance or Thunderlance EX hits the enemy, Avywenna gains 3/4 Ultimate Energy."
+              },
+              {
+                "name": "Tactful Approach",
+                "type": "Combat Talent",
+                "desc": "Ultimate Thunderlance: Final Shock improved: Also applies 6/10% Electric Susceptibility for 10s to enemies it hits."
+              }
+            ]
+          },
+          {
+            "title": "Potentials",
+            "entries": [
+              {
+                "name": "Doubling Down",
+                "type": "Potential 1",
+                "desc": "Talent Expedited Delivery improved: Ultimate Energy gain +2 ."
+              },
+              {
+                "name": "Pole of Menace",
+                "type": "Potential 2",
+                "desc": "Thunderlance and Thunderlance EX duration +20s ."
+              },
+              {
+                "name": "Hard Negotiator",
+                "type": "Potential 3",
+                "desc": "Will +15 , Electric DMG Dealt +8% ."
+              },
+              {
+                "name": "Very Experienced",
+                "type": "Potential 4",
+                "desc": "Ultimate Thunderlance: Final Shock improved: Ultimate Energy cost -15% ."
+              },
+              {
+                "name": "Carrot and Sharp Stick",
+                "type": "Potential 5",
+                "desc": "When returning Thunderlances and Thunderlances EX hit an Electric Susceptible enemy, DMG multiplier is increased to 1.15 times the original."
               }
             ]
           }
@@ -46451,13 +47925,32 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Chen.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Chen.png"
       ],
-      "baseStats": {},
+      "baseStats": {
+        "max": {
+          "level": 90,
+          "strength": 106,
+          "agility": 171,
+          "intellect": 85,
+          "will": 93
+        },
+        "levels": [
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "strength": 106,
+            "agility": 171,
+            "intellect": 85,
+            "will": 93
+          }
+        ]
+      },
       "facts": {
         "faction": "Endfield Industries",
         "birthday": "August 18"
       },
       "kit": {
-        "source": "EndfieldWiki",
+        "source": "Endfield Wiki + Prydwen",
         "channel": "live",
         "version": "live",
         "sections": [
@@ -46567,6 +48060,61 @@
                     "value": "20"
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "title": "Talents",
+            "entries": [
+              {
+                "name": "Blade Critique",
+                "type": "Base Talent",
+                "desc": "Assign to Manufacturing Cabin to grant weapon EXP material production efficiency +10/20% ."
+              },
+              {
+                "name": "Jadeworking",
+                "type": "Base Talent",
+                "desc": "Assign to Growth Chamber to grant rare mineral growth rate +20/30% ."
+              },
+              {
+                "name": "Slashing Edge",
+                "type": "Combat Talent",
+                "desc": "After hitting an enemy with skills, Chen gains ATK +4/8% for 10s . This effect can reach 5 stacks."
+              },
+              {
+                "name": "Momentum Breaker",
+                "type": "Combat Talent",
+                "desc": "Interrupting the enemy's charge up deals another 5/10 Stagger ."
+              }
+            ]
+          },
+          {
+            "title": "Potentials",
+            "entries": [
+              {
+                "name": "Shadowless",
+                "type": "Potential 1",
+                "desc": "DMG Dealt +20% to enemies below 50% HP."
+              },
+              {
+                "name": "Heirloom Martial Arts",
+                "type": "Potential 2",
+                "desc": "Agility +15 , Physical DMG Dealt +8% ."
+              },
+              {
+                "name": "Dual-Wielding Swordmancer",
+                "type": "Potential 3",
+                "desc": "Battle skill Ascending Strike, combo skill Soar to the Stars, and ultimate Blade Gale improved: DMG Multiplier is increased to 1.1 times the original."
+              },
+              {
+                "name": "Improvised Chi Xiao",
+                "type": "Potential 4",
+                "desc": "Ultimate Blade Gale improved: Ultimate Energy cost -15% ."
+              },
+              {
+                "name": "Bonded with the World",
+                "type": "Potential 5",
+                "desc": "Combo skill Soar to the Stars improved: Length of cooldown -3s ."
               }
             ]
           }
@@ -47711,13 +49259,32 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Dapan.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Dapan.png"
       ],
-      "baseStats": {},
+      "baseStats": {
+        "max": {
+          "level": 90,
+          "strength": 175,
+          "agility": 96,
+          "intellect": 94,
+          "will": 102
+        },
+        "levels": [
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "strength": 175,
+            "agility": 96,
+            "intellect": 94,
+            "will": 102
+          }
+        ]
+      },
       "facts": {
         "faction": "Hongshan Academy of Sciences (HAS)",
         "birthday": "May 19"
       },
       "kit": {
-        "source": "EndfieldWiki",
+        "source": "Endfield Wiki + Prydwen",
         "channel": "live",
         "version": "live",
         "sections": [
@@ -47823,6 +49390,61 @@
                     "value": "400%"
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "title": "Talents",
+            "entries": [
+              {
+                "name": "Chef of Forage and Game",
+                "type": "Base Talent",
+                "desc": "Assign to Growth Chamber to grant fungal matter growth rate +10/20% ."
+              },
+              {
+                "name": "Worldly Wisdom",
+                "type": "Base Talent",
+                "desc": "Assign to Control Nexus to grant all operators' Mood Regen +12/16% ."
+              },
+              {
+                "name": "Reduce and Thicken",
+                "type": "Combat Talent",
+                "desc": "After consuming 1 Vulnerability stack, Da Pan gains Physical DMG Dealt +4/6% for 10s . This effect can reach 4 stacks."
+              },
+              {
+                "name": "Salty or Mild",
+                "type": "Combat Talent",
+                "desc": "Ultimate CHOP 'N DUNK! improved: For every enemy hit by the final sequence of the ultimate, gains 1 stack of Prep Ingredients for 20s (max stacks: 1/2 ). When Prep Ingredients is active, hitting an enemy with combo skills immediately shortens cooldown by 40% and consumes 1 stack of Prep Ingredients."
+              }
+            ]
+          },
+          {
+            "title": "Potentials",
+            "entries": [
+              {
+                "name": "Fine Cooking",
+                "type": "Potential 1",
+                "desc": "Ultimate CHOP 'N DUNK! improved: If the ultimate defeats at least one enemy, Da Pan deals +30% Physical DMG for 15s . This effect cannot stack."
+              },
+              {
+                "name": "Harmonized Flavors",
+                "type": "Potential 2",
+                "desc": "Talent Salty or Mild improved: Prep Ingredients buff duration +10s , max stacks +1 ."
+              },
+              {
+                "name": "Model Employee",
+                "type": "Potential 3",
+                "desc": "Strength +15 , Physical DMG Dealt +8% ."
+              },
+              {
+                "name": "Special Blend",
+                "type": "Potential 4",
+                "desc": "Ultimate CHOP 'N DUNK! improved: Ultimate Energy cost -15% ."
+              },
+              {
+                "name": "Fire it Up",
+                "type": "Potential 5",
+                "desc": "Battle skill FLIP DA WOK! improved: If the skill hits only one enemy, apply 1 more stack of Vulnerability on the target. Effect only triggers once every 45s ."
               }
             ]
           }
@@ -48967,13 +50589,32 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Perlica.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Perlica.png"
       ],
-      "baseStats": {},
+      "baseStats": {
+        "max": {
+          "level": 90,
+          "strength": 91,
+          "agility": 93,
+          "intellect": 161,
+          "will": 113
+        },
+        "levels": [
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "strength": 91,
+            "agility": 93,
+            "intellect": 161,
+            "will": 113
+          }
+        ]
+      },
       "facts": {
         "faction": "Endfield Industries",
         "birthday": "March 16"
       },
       "kit": {
-        "source": "EndfieldWiki",
+        "source": "Endfield Wiki + Prydwen",
         "channel": "live",
         "version": "live",
         "sections": [
@@ -49075,6 +50716,61 @@
                     "value": "20"
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "title": "Talents",
+            "entries": [
+              {
+                "name": "Supervisor",
+                "type": "Base Talent",
+                "desc": "Assign to Control Nexus to grant all operators' Mood Regen +8/12% ."
+              },
+              {
+                "name": "Protocol Redistribution",
+                "type": "Base Talent",
+                "desc": "Assign to Manufacturing Cabin to grant weapon EXP material production efficiency +20/30% ."
+              },
+              {
+                "name": "Obliteration Protocol",
+                "type": "Combat Talent",
+                "desc": "DMG Dealt +20/30% to Stagger ed enemies."
+              },
+              {
+                "name": "Cycle Protocol",
+                "type": "Combat Talent",
+                "desc": "Combo skill Instant Protocol: Chain improved: When hitting a Vulnerable enemy, the hit chains 1 more time."
+              }
+            ]
+          },
+          {
+            "title": "Potentials",
+            "entries": [
+              {
+                "name": "Crisis Handling",
+                "type": "Potential 1",
+                "desc": "Combo skill Instant Protocol: Chain improved: Electrification duration +75% ."
+              },
+              {
+                "name": "Negotiation Tactics",
+                "type": "Potential 2",
+                "desc": "Ultimate Protocol \u03b5: 70.41K improved: Ultimate Energy cost -15% ."
+              },
+              {
+                "name": "Supervisory Duties",
+                "type": "Potential 3",
+                "desc": "After Perlica applies Electrification to the enemy, she gains ATK +20% for 5s . This effect can reach 2 stacks."
+              },
+              {
+                "name": "Constant Guidance",
+                "type": "Potential 4",
+                "desc": "Combo skill Instant Protocol: Chain improved: The Arts DMG Taken debuff effects on the enemy applied by the skill's Electrification are increased to 1.33 times the original."
+              },
+              {
+                "name": "Reentry Control",
+                "type": "Potential 5",
+                "desc": "Ultimate Protocol \u03b5: 70.41K improved: Critical Rate +30% ."
               }
             ]
           }
@@ -50186,13 +51882,32 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Snowshine.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Snowshine.png"
       ],
-      "baseStats": {},
+      "baseStats": {
+        "max": {
+          "level": 90,
+          "strength": 154,
+          "agility": 104,
+          "intellect": 93,
+          "will": 108
+        },
+        "levels": [
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "strength": 154,
+            "agility": 104,
+            "intellect": 93,
+            "will": 108
+          }
+        ]
+      },
       "facts": {
         "faction": "Rhodes Island",
         "birthday": "December 19"
       },
       "kit": {
-        "source": "EndfieldWiki",
+        "source": "Endfield Wiki + Prydwen",
         "channel": "live",
         "version": "live",
         "sections": [
@@ -50322,6 +52037,61 @@
                     "value": "5"
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "title": "Talents",
+            "entries": [
+              {
+                "name": "Rescuer's Perseverance",
+                "type": "Base Talent",
+                "desc": "Assign to Manufacturing Cabin to slow Mood Drop of all operators in it by 10/14% ."
+              },
+              {
+                "name": "Happy-Go-Lucky",
+                "type": "Base Talent",
+                "desc": "Assign to Control Nexus to grant all operators' Mood Regen +12/16% ."
+              },
+              {
+                "name": "Polar Survival",
+                "type": "Combat Talent",
+                "desc": "Treatment Effect +15/25% for targets of 45/55% HP or below."
+              },
+              {
+                "name": "SAR Professional",
+                "type": "Combat Talent",
+                "desc": "Battle skill Saturated Defense improved: Successful retaliating an enemy attack gives another 6/10 Ultimate Energy."
+              }
+            ]
+          },
+          {
+            "title": "Potentials",
+            "entries": [
+              {
+                "name": "Cold Shelter",
+                "type": "Potential 1",
+                "desc": "Battle skill Saturated Defense is improved: During the blocking effect, Arts Inflictions cannot be applied to allied operators with Protection ."
+              },
+              {
+                "name": "Storm Region",
+                "type": "Potential 2",
+                "desc": "Ultimate Frigid Snowfield improved: Effect radius +20% ."
+              },
+              {
+                "name": "Polar Survival Guide",
+                "type": "Potential 3",
+                "desc": "Ultimate Frigid Snowfield improved: Duration of the Solidification applied by the skill is increased by 2s ."
+              },
+              {
+                "name": "Tundra Aegis",
+                "type": "Potential 4",
+                "desc": "DEF +20 , Will +20 ."
+              },
+              {
+                "name": "Cold Disaster Specialist",
+                "type": "Potential 5",
+                "desc": "Battle skill Saturated Defense improved: Successfully retaliating an enemy attack returns 10 SP."
               }
             ]
           }
@@ -51455,13 +53225,32 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Wulfgard.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Wulfgard.png"
       ],
-      "baseStats": {},
+      "baseStats": {
+        "max": {
+          "level": 90,
+          "strength": 161,
+          "agility": 95,
+          "intellect": 92,
+          "will": 111
+        },
+        "levels": [
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "strength": 161,
+            "agility": 95,
+            "intellect": 92,
+            "will": 111
+          }
+        ]
+      },
       "facts": {
         "faction": "Endfield Industries",
         "birthday": "November 16"
       },
       "kit": {
-        "source": "EndfieldWiki",
+        "source": "Endfield Wiki + Prydwen",
         "channel": "live",
         "version": "live",
         "sections": [
@@ -51567,6 +53356,61 @@
                     "value": "15"
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "title": "Talents",
+            "entries": [
+              {
+                "name": "Pack Techniques",
+                "type": "Base Talent",
+                "desc": "Assign to Manufacturing Cabin to grant operator EXP material production efficiency +10/20% ."
+              },
+              {
+                "name": "Knack for the Wildlands",
+                "type": "Base Talent",
+                "desc": "Assign to Growth Chamber to grant rare mineral growth rate +20/30% ."
+              },
+              {
+                "name": "Scorching Fangs",
+                "type": "Combat Talent",
+                "desc": "Whenever Wulfgard applies Combustion , he gains Scorching Fangs for 10s . This effect cannot stack.\n Scorching Fangs : While active, Wulfgard gains Heat DMG Dealt +20/30% ."
+              },
+              {
+                "name": "Code of Restraint",
+                "type": "Combat Talent",
+                "desc": "Whenever the battle skill Thermite Tracers successfully consumes an Arts Reaction , return 5/10 SP."
+              }
+            ]
+          },
+          {
+            "title": "Potentials",
+            "entries": [
+              {
+                "name": "Lone Wolf",
+                "type": "Potential 1",
+                "desc": "Strength +15 , Agility +15 ."
+              },
+              {
+                "name": "Firearm Mods",
+                "type": "Potential 2",
+                "desc": "Talent Code of Restraint improved: Returns 10 additional SP."
+              },
+              {
+                "name": "Hunting Hour",
+                "type": "Potential 3",
+                "desc": "While Scorching Fangs is active, triggering the battle skill's additional effects immediately resets the Scorching Fangs duration and grants other teammates Scorching Fangs with 50% of the base effects."
+              },
+              {
+                "name": "Will of the Pack",
+                "type": "Potential 4",
+                "desc": "Ultimate Wolven Fury improved: Ultimate Energy cost -15% ."
+              },
+              {
+                "name": "Natural Predator",
+                "type": "Potential 5",
+                "desc": "Casting the ultimate Wolven Fury immediately resets the cooldown of the combo skill Frag Grenade\u00b7\u03b2."
               }
             ]
           }
@@ -52722,13 +54566,32 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Xaihi.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Xaihi.png"
       ],
-      "baseStats": {},
+      "baseStats": {
+        "max": {
+          "level": 90,
+          "strength": 89,
+          "agility": 91,
+          "intellect": 127,
+          "will": 150
+        },
+        "levels": [
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "strength": 89,
+            "agility": 91,
+            "intellect": 127,
+            "will": 150
+          }
+        ]
+      },
       "facts": {
         "faction": "Cabal of Tranquility",
         "birthday": "May 16"
       },
       "kit": {
-        "source": "EndfieldWiki",
+        "source": "Endfield Wiki + Prydwen",
         "channel": "live",
         "version": "live",
         "sections": [
@@ -52854,6 +54717,61 @@
                     "value": "12"
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "title": "Talents",
+            "entries": [
+              {
+                "name": "Standardized Scripting",
+                "type": "Base Talent",
+                "desc": "Assign to Manufacturing Cabin to grant operator EXP material production efficiency +10/20% ."
+              },
+              {
+                "name": "Murmuring Session",
+                "type": "Base Talent",
+                "desc": "Assign to Reception Room to grant operators a small Clue 5/Clue 5 Rate-UP: Cabal of Tranquility (activates upon assignment; effects of the same type cannot stack)"
+              },
+              {
+                "name": "Execute Process",
+                "type": "Combat Talent",
+                "desc": "Combo skill Stress Testing improved: Hitting an enemy with Cryo Infliction or Solidification also causes the enemy to take Cryo DMG Dealt +7/10% for 5s . This effect cannot stack."
+              },
+              {
+                "name": "Freeze Protocol",
+                "type": "Combat Talent",
+                "desc": "Ultimate Stack Overflow improved: The ultimate also dispels Cryo Infliction and Solidification from the entire team."
+              }
+            ]
+          },
+          {
+            "title": "Potentials",
+            "entries": [
+              {
+                "name": "Agile Execution",
+                "type": "Potential 1",
+                "desc": "Arts Amp granted by the Auxiliary Crystal is increased by another 5% ."
+              },
+              {
+                "name": "Link Aggregation",
+                "type": "Potential 2",
+                "desc": "Ultimate Stack Overflow improved: Ultimate Energy cost -10% ."
+              },
+              {
+                "name": "Mapping Node",
+                "type": "Potential 3",
+                "desc": "Combo skill Stress Testing improved: When hitting the target, the hit chains 1 time to 1 additional target nearby."
+              },
+              {
+                "name": "Grayscale Release",
+                "type": "Potential 4",
+                "desc": "Intellect +15 , Treatment Efficiency +10% ."
+              },
+              {
+                "name": "Controlled Recursion",
+                "type": "Potential 5",
+                "desc": "Ultimate Stack Overflow improved: Amp effect is increased to 1.1 times the original."
               }
             ]
           }
@@ -53965,13 +55883,32 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Akekuri.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Akekuri.png"
       ],
-      "baseStats": {},
+      "baseStats": {
+        "max": {
+          "level": 90,
+          "strength": 110,
+          "agility": 140,
+          "intellect": 106,
+          "will": 108
+        },
+        "levels": [
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "strength": 110,
+            "agility": 140,
+            "intellect": 106,
+            "will": 108
+          }
+        ]
+      },
       "facts": {
         "faction": "Endfield Industries",
         "birthday": "March 31"
       },
       "kit": {
-        "source": "EndfieldWiki",
+        "source": "Endfield Wiki + Prydwen",
         "channel": "live",
         "version": "live",
         "sections": [
@@ -54069,6 +56006,61 @@
                     "value": "80"
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "title": "Talents",
+            "entries": [
+              {
+                "name": "Coffee or Tea",
+                "type": "Base Talent",
+                "desc": "Assign to Manufacturing Cabin to slow Mood Drop of all operators in it by 10/14% ."
+              },
+              {
+                "name": "Icebreaker",
+                "type": "Base Talent",
+                "desc": "Assign to Reception Room to slow Mood Drop of all operators in it by 10/14% ."
+              },
+              {
+                "name": "Cheer of Victory",
+                "type": "Combat Talent",
+                "desc": "Combo skill Flash and Dash improved: For every 10 points of Intellect, SP Recovery + 1/1.5% (max: 50/75% )."
+              },
+              {
+                "name": "Staying in the Zone",
+                "type": "Combat Talent",
+                "desc": "Ultimate SQUAD! ON ME! improved: When ultimate is active, gains Link ."
+              }
+            ]
+          },
+          {
+            "title": "Potentials",
+            "entries": [
+              {
+                "name": "Positive Feedback",
+                "type": "Potential 1",
+                "desc": "After recovering SP with skills, Akekuri gains ATK +10% for 10s . This effect can reach 5 stacks."
+              },
+              {
+                "name": "Passionate Idealist",
+                "type": "Potential 2",
+                "desc": "Agility +10 , Intellect +10 ."
+              },
+              {
+                "name": "Committed Team Player",
+                "type": "Potential 3",
+                "desc": "Ultimate SQUAD! ON ME! improved: While ultimate is active, entire team gains ATK +10% ."
+              },
+              {
+                "name": "Super Perfect Status",
+                "type": "Potential 4",
+                "desc": "Ultimate SQUAD! ON ME! improved: Ultimate Energy cost -10% ."
+              },
+              {
+                "name": "Tempo of Awareness",
+                "type": "Potential 5",
+                "desc": "Talent Staying in the Zone improved: Even when the ultimate SQUAD! ON ME! ends, the Link buff persists for 5 s."
               }
             ]
           }
@@ -55180,13 +57172,32 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Antal.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Antal.png"
       ],
-      "baseStats": {},
+      "baseStats": {
+        "max": {
+          "level": 90,
+          "strength": 129,
+          "agility": 86,
+          "intellect": 165,
+          "will": 82
+        },
+        "levels": [
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "strength": 129,
+            "agility": 86,
+            "intellect": 165,
+            "will": 82
+          }
+        ]
+      },
       "facts": {
         "faction": "Endfield Industries",
         "birthday": "April 10"
       },
       "kit": {
-        "source": "EndfieldWiki",
+        "source": "Endfield Wiki + Prydwen",
         "channel": "live",
         "version": "live",
         "sections": [
@@ -55296,6 +57307,61 @@
                     "value": "12"
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "title": "Talents",
+            "entries": [
+              {
+                "name": "Experimental Arts Unit",
+                "type": "Base Talent",
+                "desc": "Assign to Manufacturing Cabin to grant weapon EXP material production efficiency +10/20% ."
+              },
+              {
+                "name": "Pun-isher Studies",
+                "type": "Base Talent",
+                "desc": "Assign to Growth Chamber to slow Mood Drop of all operators in it by 14/18% ."
+              },
+              {
+                "name": "Improviser",
+                "type": "Combat Talent",
+                "desc": "After an Amped teammate deals Skill DMG, Antal restores the said teammate's HP by [72 + Strength\u00d70.6] / [108 + Strength\u00d70.9] . This HP restoring effect triggers 1 time every 30s for each operator."
+              },
+              {
+                "name": "Subconscious Act",
+                "type": "Combat Talent",
+                "desc": "Gains 30% chance of Physical DMG immunity and restores HP of self by [27 + Strength\u00d70.23]/[45 + Strength\u00d70.38] ."
+              }
+            ]
+          },
+          {
+            "title": "Potentials",
+            "entries": [
+              {
+                "name": "Arts Talent",
+                "type": "Potential 1",
+                "desc": "Ultimate Overclocked Moment improved: Electric Amp and Heat Amp effects are increased to 1.1 times the original."
+              },
+              {
+                "name": "Improved Automation",
+                "type": "Potential 2",
+                "desc": "Ultimate Overclocked Moment improved: Ultimate Energy cost -10% ."
+              },
+              {
+                "name": "Applied Originium Theory",
+                "type": "Potential 3",
+                "desc": "When an enemy with an active Focus debuff is defeated, returns 15 SP."
+              },
+              {
+                "name": "Granny's Reminder",
+                "type": "Potential 4",
+                "desc": "Intellect +10 , Max HP +10% ."
+              },
+              {
+                "name": "High Specs Tech Tester",
+                "type": "Potential 5",
+                "desc": "Applying Focus on the same target for 20s increases Electric Susceptibility and Heat Susceptibility effects by 4% ."
               }
             ]
           }
@@ -56407,13 +58473,32 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Catcher.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Catcher.png"
       ],
-      "baseStats": {},
+      "baseStats": {
+        "max": {
+          "level": 90,
+          "strength": 176,
+          "agility": 96,
+          "intellect": 86,
+          "will": 106
+        },
+        "levels": [
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "strength": 176,
+            "agility": 96,
+            "intellect": 86,
+            "will": 106
+          }
+        ]
+      },
       "facts": {
         "faction": "Endfield Industries",
         "birthday": "August 16"
       },
       "kit": {
-        "source": "EndfieldWiki",
+        "source": "Endfield Wiki + Prydwen",
         "channel": "live",
         "version": "live",
         "sections": [
@@ -56559,6 +58644,61 @@
                     "value": "8"
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "title": "Talents",
+            "entries": [
+              {
+                "name": "Silent Caretaker",
+                "type": "Base Talent",
+                "desc": "Assign to Control Nexus to grant all operators' Mood Regen +8/12% ."
+              },
+              {
+                "name": "Grounded Approach",
+                "type": "Base Talent",
+                "desc": "Assign to Growth Chamber to slow Mood Drop of all operators in it by 14/18% ."
+              },
+              {
+                "name": "Resilient Defense",
+                "type": "Combat Talent",
+                "desc": "For every 10 Will, DEF +1/1.2 ."
+              },
+              {
+                "name": "Comprehensive Mindset",
+                "type": "Combat Talent",
+                "desc": "Ultimate Textbook Assault improved: Final hit creates 2/3 shockwave(s), each dealing 30/45% ATK of Physical DMG ."
+              }
+            ]
+          },
+          {
+            "title": "Potentials",
+            "entries": [
+              {
+                "name": "Multi-layered Readiness",
+                "type": "Potential 1",
+                "desc": "Battle skill Rigid Interdiction and ultimate Textbook Assault improved: After hitting the enemy, deals another strike that deals [300 + DEF x 5] of Physical DMG ."
+              },
+              {
+                "name": "Bonus Spec Training",
+                "type": "Potential 2",
+                "desc": "DEF +20 , Will +10 ."
+              },
+              {
+                "name": "Unwavering Post",
+                "type": "Potential 3",
+                "desc": "Combo skill Timely Suppression improved: Shield duration +5s ."
+              },
+              {
+                "name": "Compensated Suffering",
+                "type": "Potential 4",
+                "desc": "Ultimate Textbook Assault improved: Ultimate Energy cost -10% ."
+              },
+              {
+                "name": "Choice Without Regrets",
+                "type": "Potential 5",
+                "desc": "Battle skill Rigid Interdiction improved: Hitting an enemy while the shield is active returns 10 SP."
               }
             ]
           }
@@ -57692,13 +59832,32 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Estella.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Estella.png"
       ],
-      "baseStats": {},
+      "baseStats": {
+        "max": {
+          "level": 90,
+          "strength": 104,
+          "agility": 97,
+          "intellect": 110,
+          "will": 151
+        },
+        "levels": [
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "strength": 104,
+            "agility": 97,
+            "intellect": 110,
+            "will": 151
+          }
+        ]
+      },
       "facts": {
         "faction": "Endfield Industries",
         "birthday": "April 9"
       },
       "kit": {
-        "source": "EndfieldWiki",
+        "source": "Endfield Wiki + Prydwen",
         "channel": "live",
         "version": "live",
         "sections": [
@@ -57808,6 +59967,61 @@
                     "value": "20"
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "title": "Talents",
+            "entries": [
+              {
+                "name": "Fragmented Rest",
+                "type": "Base Talent",
+                "desc": "Assign to Control Nexus to grant all operators' Mood Regen +8/12% ."
+              },
+              {
+                "name": "Frequency Monitoring",
+                "type": "Base Talent",
+                "desc": "Assign to Reception Room to grant operator clue collecting efficiency +20/30%"
+              },
+              {
+                "name": "Commiseration",
+                "type": "Combat Talent",
+                "desc": "When triggering Shatter , the next battle skill Onomatopoeia cast returns 7.5/15 SP. This effect cannot stack."
+              },
+              {
+                "name": "Laziness Pays Off Now",
+                "type": "Combat Talent",
+                "desc": "Ignores Cryo Infliction and receives Cryo DMG -10/20% ."
+              }
+            ]
+          },
+          {
+            "title": "Potentials",
+            "entries": [
+              {
+                "name": "Habitual Delay",
+                "type": "Potential 1",
+                "desc": "Combo skill Distortion improved: Physical Susceptibility duration +3s ."
+              },
+              {
+                "name": "Lowered Expectations",
+                "type": "Potential 2",
+                "desc": "Ultimate Tremolo improved: Ultimate Energy cost -10% ."
+              },
+              {
+                "name": "Delayed Work",
+                "type": "Potential 3",
+                "desc": "Battle skill Onomatopoeia improved: Freezing sound wave range +50% and DMG Dealt +40% to the first enemy hit."
+              },
+              {
+                "name": "Life Over Mission",
+                "type": "Potential 4",
+                "desc": "Will +10 , Strength +10 ."
+              },
+              {
+                "name": "Survival is a Win",
+                "type": "Potential 5",
+                "desc": "After applying Solidification to an enemy, Estella gains 5 Ultimate Energy. Effect can only trigger once every 1s ."
               }
             ]
           }
@@ -58941,13 +61155,32 @@
         "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Fluorite.png",
         "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Fluorite.png"
       ],
-      "baseStats": {},
+      "baseStats": {
+        "max": {
+          "level": 90,
+          "strength": 90,
+          "agility": 168,
+          "intellect": 114,
+          "will": 91
+        },
+        "levels": [
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "strength": 90,
+            "agility": 168,
+            "intellect": 114,
+            "will": 91
+          }
+        ]
+      },
       "facts": {
         "faction": "Endfield Industries",
         "birthday": "June 21"
       },
       "kit": {
-        "source": "EndfieldWiki",
+        "source": "Endfield Wiki + Prydwen",
         "channel": "live",
         "version": "live",
         "sections": [
@@ -59069,6 +61302,61 @@
                     "value": "20"
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "title": "Talents",
+            "entries": [
+              {
+                "name": "Wildlands Trekker",
+                "type": "Base Talent",
+                "desc": "Assign to Growth Chamber to grant rare mineral growth rate +10/20% ."
+              },
+              {
+                "name": "Reader of Emotions",
+                "type": "Base Talent",
+                "desc": "Assign to Control Nexus to grant all operators' Mood Regen +12/16% ."
+              },
+              {
+                "name": "Love the Stab and Twist",
+                "type": "Combat Talent",
+                "desc": "Fluorite gains DMG Dealt +10/20% against Slowed targets."
+              },
+              {
+                "name": "Unpredictable",
+                "type": "Combat Talent",
+                "desc": "Grants 20% chance of Arts DMG immunity and grants Fluorite ATK +10/20% for 10s . This effect cannot stack."
+              }
+            ]
+          },
+          {
+            "title": "Potentials",
+            "entries": [
+              {
+                "name": "Ten-Finger Smith",
+                "type": "Potential 1",
+                "desc": "Agility +10 , Intellect +10 ."
+              },
+              {
+                "name": "Mind Reading Technique",
+                "type": "Potential 2",
+                "desc": "Talent Unpredictable improved: Chance to ignore Arts DMG +10% ."
+              },
+              {
+                "name": "Triple Surprise",
+                "type": "Potential 3",
+                "desc": "Battle skill Tiny Surprise improved: After Improvised Explosive explodes, the slow effect is applied to all enemies hit and lasts 6s ."
+              },
+              {
+                "name": "Prank Master",
+                "type": "Potential 4",
+                "desc": "Ultimate Apex Prankster improved: Ultimate Energy cost -10% ."
+              },
+              {
+                "name": "Craver of Chaos",
+                "type": "Potential 5",
+                "desc": "Combo skill Free Giveaway improved: Whenever Cryo Infliction or Nature Infliction is applied to the enemy, cooldown is shortened by 1s .\nEffect can only trigger once every 1s ."
               }
             ]
           }

@@ -1,7 +1,7 @@
 name: Code Watch Deploy
 
 # Lightweight redemption-code watcher.
-# Normal cadence: every six hours at :07.
+# Normal cadence: every hour at :00.
 # Windows are refreshed from official YouTube feeds before each mode decision.
 # Every automated commit is verified by a site build and smoke test before it
 # is pushed. Scheduled publishing is handled by daily-deploy.yml; manual runs
@@ -16,7 +16,7 @@ on:
         default: false
         type: boolean
   schedule:
-    - cron: "7 */6 * * *"
+    - cron: "0 * * * *"
 
 concurrency:
   group: pengo-deploy

@@ -5,7 +5,7 @@ newest verified `main` branch. Manual refresh runs can still deploy immediately.
 
 | Workflow | Cadence | What it does |
 |---|---|---|
-| `code-watch.yml` | every 6h, at 7 past | detect official livestream windows -> active-code-only scrape -> semantic diff -> validate -> commit -> build -> smoke -> push |
+| `code-watch.yml` | hourly, at :00 | detect official livestream windows -> active-code-only scrape -> semantic diff -> validate -> commit -> build -> smoke -> push |
 | `gamedata-watch.yml` | 02:20 and 14:20 UTC daily | compare Nanoka's manifest -> when a supported game changed, sync its live/beta JSON and assets -> GameData-only validate -> build -> smoke -> commit -> push |
 | `data-refresh.yml` | 03:15 UTC daily | retry banners + scrape codes and events -> unit tests -> strict validate -> build -> smoke -> push |
 | `banner-history-refresh.yml` | 04:45 UTC Monday and Thursday | refresh banner history and activities -> structural validate -> build -> smoke -> push |
@@ -46,24 +46,23 @@ Before any deploy:
 
 ## Actions minutes budget
 
-This is a private repo on GitHub Pro, so runs are metered against **3,000 included
-minutes/month**, and **every job is billed a one-minute minimum** even when it starts,
-finds nothing to do, and exits in seconds. Polling cadence therefore costs minutes
-whether or not any work happens.
+Nyx is public, so standard GitHub-hosted runners do not consume the GitHub Pro
+allowance for private repositories. GitHub still reports the raw usage minutes.
+If Nyx becomes private again, recheck this cadence against the available allowance.
 
 Approximate monthly floor at the current cadences (31-day month):
 
-| Workflow | Runs/month | Billed floor |
+| Workflow | Runs/month | Private-repo billed floor |
 |---|---|---|
-| `code-watch.yml` (4/day) | 124 | 124 min |
+| `code-watch.yml` (24/day) | 744 | 744 min |
 | `gamedata-watch.yml` (2/day) | 62 | 62 min |
 | `data-refresh.yml` + `daily-deploy.yml` (1/day each) | 62 | 62 min |
 | banner history + roster + side data | ~23 | ~23 min |
-| **Total automatic starts** | **~271** | **~271 min minimum** |
+| **Total automatic starts** | **~891** | **~891 min minimum** |
 
-In July 2026 `gamedata-watch.yml` ran every 15 minutes (~2,880 runs) and the account hit
-the cap on the 30th; jobs then refused to start until the cycle reset. Before increasing
-any cron frequency, check the headroom against this table.
+In July 2026, while the repository was private, `gamedata-watch.yml` ran every 15
+minutes (~2,880 runs) and the account hit the cap on the 30th; jobs then refused to
+start until the cycle reset.
 
 ## Required repository secrets
 
@@ -76,7 +75,7 @@ any cron frequency, check the headroom against this table.
 
 Set these under **Settings -> Secrets and variables -> Actions**. Without the Cloudflare token, the data workflows still scrape, validate, build, and commit data; the daily deploy warns and exits before its expensive path.
 
-The Reddit proxy secrets are only needed for Reddit-backed deep code checks. Without them, normal six-hour code-watch still runs, but livestream Reddit fallback is weaker when Reddit rate-limits GitHub Actions.
+The Reddit proxy secrets are only needed for Reddit-backed deep code checks. Without them, normal hourly code-watch still runs, but livestream Reddit fallback is weaker when Reddit rate-limits GitHub Actions.
 
 GameData asset sync omits `--force-assets`, so existing local images are not re-downloaded. Run this command manually only when you intentionally need to re-fetch existing images:
 

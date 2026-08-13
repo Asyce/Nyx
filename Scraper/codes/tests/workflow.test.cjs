@@ -99,10 +99,10 @@ test('every scheduled publishing workflow pushes only after a deploy smoke test'
   }
 });
 
-test('automatic schedules stay budgeted and only the daily job deploys automatically', () => {
+test('automatic schedules stay fixed and only the daily job deploys automatically', () => {
   const workflowDir = path.join(root, '.github/workflows');
   const expectedCrons = {
-    'code-watch.yml': '7 */6 * * *',
+    'code-watch.yml': '0 * * * *',
     'gamedata-watch.yml': '20 2,14 * * *',
     'data-refresh.yml': '15 3 * * *',
     'banner-history-refresh.yml': '45 4 * * 1,4',

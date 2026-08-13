@@ -693,10 +693,9 @@ function gameBannerCards(gameCfg, source){
       phase:phase.phase || null,
       start:phase.start ? new Date(phase.start).getTime() : NaN,
       end:phase.end ? new Date(phase.end).getTime() : NaN,
-      // Featured = top rank (or unknown rarity, which the scrape lists first);
-      // anything confirmed lower-rank rides along in the "Also featured" row.
+      // Top rank only. Lower-rarity lineups are intentionally omitted.
       featured:units.filter((u) => !u.rarity || u.rarity >= rank),
-      others:units.filter((u) => u.rarity && u.rarity < rank),
+      others:[],
       artPool:units.filter((u) => !u.rarity || u.rarity >= rank).map((u) => u.art).filter(Boolean),
     });
   };
@@ -889,13 +888,9 @@ function bannerBoardColumn(cfg, phase, status){
     end:phase.end ? new Date(phase.end).getTime() : NaN,
     heroes,
     others:ranked.filter((unit) => !heroes.includes(unit)),
-    // What rides along under the headline unit. Normally the featured
-    // lower-rarity units, marked with their rarity so a 4-star is never
-    // mistaken for the banner's draw. Endfield has no featured 4-stars to
-    // show — what matters there is the loss pool, so its off-banner
-    // headliners take that slot instead (user 2026-08-11).
-    support:cfg.key === 'ae' ? ranked.filter((unit) => !heroes.includes(unit))
-      : all.filter((unit) => unit.rarity && unit.rarity < rank),
+    // Endfield's off-banner headliners are its loss pool. Other games omit
+    // lower-rarity featured characters (user 2026-08-13).
+    support:cfg.key === 'ae' ? ranked.filter((unit) => !heroes.includes(unit)) : [],
   };
 }
 
@@ -933,6 +928,7 @@ function overviewBannerBoard(cfg){
     ...(row.column || {}),
     status:'upcoming',
     label:row.column?.label || null,
+    phaseUnknown:row.source === 'beta' && !row.column?.label,
     hint:row.hint,
     start:NaN,
     end:NaN,
@@ -1014,6 +1010,15 @@ function bannerPlanLabelFromHint(hint, previous){
     : `${parsed.version} Phase 1`;
 }
 
+function bannerUnknownPhaseLabel(previous){
+  const text = String(previous || '').trim();
+  const existing = text.match(/^(\d+(?:\.\d+)+)\s+Phase\s+\?$/i);
+  if (existing) return `${existing[1]} Phase ?`;
+  const advanced = bannerAdvancePhaseLabel(text);
+  const version = String(advanced || '').match(/^(\d+(?:\.\d+)+)\s+Phase\s+\d+$/i);
+  return version ? `${version[1]} Phase ?` : null;
+}
+
 function bannerApplyPlanLabels(current, next, planned, roadmap){
   const roadmapHintFor = (column) => {
     const names = new Set([...(column?.heroes || []), ...(column?.others || [])]
@@ -1024,7 +1029,9 @@ function bannerApplyPlanLabels(current, next, planned, roadmap){
   if (next && !next.label) next.label = bannerPlanLabelFromHint(roadmapHintFor(next), current?.label || null);
   let previous = next?.label || current?.label || null;
   for (const column of planned) {
-    column.label = column.label || bannerPlanLabelFromHint(column.hint, previous);
+    column.label = column.label || (column.phaseUnknown
+      ? bannerUnknownPhaseLabel(previous)
+      : bannerPlanLabelFromHint(column.hint, previous));
     previous = column.label || previous;
   }
 }
@@ -1047,36 +1054,14 @@ function BannerBoardRow({ unit, status, onOpen }){
   );
 }
 
-function BannerBoardRail({ units, onOpen }){
-  const sorted = [...(units || [])].sort(bannerUnitRecency);
-  if (!sorted.length) return null;
-  return (
-    <div className="gp-ovb-rank-rail" aria-label="Featured lower-rarity characters">
-      {sorted.map((unit) => {
-        const open = onOpen && onOpen(unit);
-        const icon = unit.icon && <img src={unit.icon} alt="" draggable="false" loading="lazy" />;
-        return open
-          ? <button type="button" key={unit.name} title={unit.name} aria-label={unit.name} onClick={open}>{icon}</button>
-          : <span role="img" key={unit.name} title={unit.name} aria-label={unit.name}>{icon}</span>;
-      })}
-    </div>
-  );
-}
-
 function BannerBoardColumn({ heading, children }){
+  if (!React.Children.count(children)) return <div aria-hidden="true"></div>;
   return (
     <div className="gp-ovb-col">
       <b className={'gp-ovb-heading' + (heading ? '' : ' is-blank')}>{heading || ' '}</b>
       <div className="gp-ovb-body">{children}</div>
     </div>
   );
-}
-
-// A column with nothing in it says nothing — the "Not announced yet" filler was
-// removed 2026-08-11. Only an explicit message renders.
-function BannerBoardEmpty({ children }){
-  if (!children) return null;
-  return <div className="gp-ovb-empty">{children}</div>;
 }
 
 // Endfield only: losing the 50/50 on the limited banner gives you one of the
@@ -1123,8 +1108,7 @@ function OverviewBannerBoard({ cfg, onOpenMaterial }){
     start:column.start,
     end:column.end,
     featured:[hero],
-    // Endfield's paired headline banners share the same loss pool. Other games
-    // render their lower-rarity units in the icon rail below the card.
+    // Endfield's paired headline banners share the same loss pool.
     others:cfg.key === 'ae' ? column.support : [],
     // ZZZ agent renders are full-body; letting them cover the card crops the
     // agent to a torso, so they are contained and zoomed instead.
@@ -1159,17 +1143,16 @@ function OverviewBannerBoard({ cfg, onOpenMaterial }){
   }));
   const aeColumn = (index) => (aeUpcomingCards[index]
     ? <BannerPhaseCard card={aeUpcomingCards[index]} now={now} unitLink={unitLink} />
-    : <BannerBoardEmpty />);
-  const phaseColumn = (column, emptyText) => {
+    : null);
+  const phaseColumn = (column) => {
     const cards = heroCards(column);
-    if (!cards.length) return <BannerBoardEmpty>{emptyText}</BannerBoardEmpty>;
+    if (!cards.length) return null;
     return (
       <React.Fragment>
         <BannerPhaseCard card={cards[0]} now={now} unitLink={unitLink} />
         {column.others.map((unit) => (
           <BannerBoardRow key={unit.name} unit={unit} status={column.status} onOpen={unitLink(unit)} />
         ))}
-        <BannerBoardRail units={column.support} onOpen={unitLink} />
       </React.Fragment>
     );
   };
@@ -1177,7 +1160,7 @@ function OverviewBannerBoard({ cfg, onOpenMaterial }){
     return (
       <section className="gp-ovb" aria-label="Banner schedule">
         <BannerBoardColumn heading={bannerPhaseHeading(board.current)}>
-          {phaseColumn(board.current, 'No confirmed banner right now.')}
+          {phaseColumn(board.current)}
         </BannerBoardColumn>
         <BannerBoardColumn heading={bannerPhaseHeading(board.next)}>
           {phaseColumn(board.next)}
@@ -1199,7 +1182,7 @@ function OverviewBannerBoard({ cfg, onOpenMaterial }){
   return (
     <section className="gp-ovb" aria-label="Banner schedule">
       <BannerBoardColumn heading={bannerPhaseHeading(board.current)}>
-        {currentHeroes.length ? <BannerPhaseCard card={currentHeroes[0]} now={now} unitLink={unitLink} /> : <BannerBoardEmpty>No confirmed banner right now.</BannerBoardEmpty>}
+        {currentHeroes.length ? <BannerPhaseCard card={currentHeroes[0]} now={now} unitLink={unitLink} /> : null}
       </BannerBoardColumn>
       <BannerBoardColumn heading={aeUpcoming.length ? 'Upcoming' : null}>
         {aeColumn(0)}
@@ -4173,8 +4156,7 @@ function NyxBannerColumn({ cfg, onOpenMaterial, now }){
   const seen = new Set();
   const push = (column, heading, status) => {
     if (!column) return;
-    // `support` is the featured 4-stars — the hub lists headline units only
-    // (user 2026-08-09).
+    // The hub lists headline units only.
     const units = [...column.heroes, ...column.others]
       .filter((unit) => {
         // Matched on BOTH name and artwork: feeds spell alt versions two ways
@@ -4197,32 +4179,31 @@ function NyxBannerColumn({ cfg, onOpenMaterial, now }){
   board.later.forEach((column, index) => {
     push(column, (index === 0 ? bannerNextPhaseHeading(column, board.next) : bannerPhaseHeading(column)) || 'Later', 'upcoming');
   });
+  if (!sections.length) return <div aria-hidden="true"></div>;
   return (
     <section className="nyx-ban-col" aria-label={cfg.name + ' banners'}>
       <header className="nyx-ban-col-head">
         {cfg.icon && <img src={cfg.icon} alt="" draggable="false" />}
         <b>{cfg.name}</b>
       </header>
-      {sections.length
-        ? sections.map((section) => (
-            <div className="nyx-ban-phase" key={section.key}>
-              <div className="nyx-ban-phase-head">
-                <b>{section.heading}</b>
-                {/* Each group carries its own countdown and window
-                    (user 2026-08-09). */}
-                {section.when && section.when.headline && (
-                  <span className="nyx-ban-phase-when">
-                    <b>{section.when.headline}</b>
-                    {section.when.sub && <em>{section.when.sub}</em>}
-                  </span>
-                )}
-              </div>
-              {section.units.map((unit) => (
-                <BannerBoardRow key={section.key + unit.name} unit={unit} status={section.status} onOpen={unitLink(unit)} />
-              ))}
-            </div>
-          ))
-        : <BannerBoardEmpty>No confirmed banners.</BannerBoardEmpty>}
+      {sections.map((section) => (
+        <div className="nyx-ban-phase" key={section.key}>
+          <div className="nyx-ban-phase-head">
+            <b>{section.heading}</b>
+            {/* Each group carries its own countdown and window
+                (user 2026-08-09). */}
+            {section.when && section.when.headline && (
+              <span className="nyx-ban-phase-when">
+                <b>{section.when.headline}</b>
+                {section.when.sub && <em>{section.when.sub}</em>}
+              </span>
+            )}
+          </div>
+          {section.units.map((unit) => (
+            <BannerBoardRow key={section.key + unit.name} unit={unit} status={section.status} onOpen={unitLink(unit)} />
+          ))}
+        </div>
+      ))}
     </section>
   );
 }

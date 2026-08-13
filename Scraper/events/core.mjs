@@ -96,31 +96,41 @@ export function monthNameToIso(value, offset = '+00:00') {
 // Pull the two boundary timestamps out of a HoYo "〓Event Duration〓" body.
 // Prefers <t class="t_lc">…</t> markers, falls back to bare Y/M/D H:M strings.
 // Returns { start, end, permanent } (ISO strings, or nulls).
-export function parseHoyoDuration(contentHtml, offset = '+00:00') {
+export function parseHoyoDuration(contentHtml, offset = '+00:00', versionStarts = {}) {
   const decoded = decodeEntities(String(contentHtml || ''));
   // Only trust dates that sit inside an explicit Event Duration section. No section
   // means this notice doesn't state its own window (version notes, known issues); the
   // caller falls back to the announcement's list validity window instead of us
   // scraping unrelated reward-claim dates out of the body.
-  const durIdx = decoded.search(/Event\s+(?:Wish\s+)?Duration|Event\s+Period|〓\s*Time〓/i);
-  if (durIdx < 0) return { start: null, end: null, permanent: false };
-  // Bound the scope to just the duration value. The section header is often
-  // "〓Event Duration〓" — that closing 〓 sits ~14 chars in, so skip it (when close)
-  // and bound at the NEXT 〓, which starts the following section (Eligibility, etc.).
-  const after = decoded.slice(durIdx);
-  const headerMarker = after.indexOf('〓');
-  const rest = headerMarker >= 0 && headerMarker < 30 ? after.slice(headerMarker + 1) : after;
+  const label = '(?:Event\\s+(?:Wish\\s+)?Duration|Event\\s+Period|Specified\\s+Duration|Time)';
+  const header = new RegExp(`〓\\s*${label}\\s*〓`, 'i').exec(decoded)
+    || new RegExp(`<(?:h[1-6]|p)\\b[^>]*>(?:\\s*<[^>]+>)*\\s*${label}\\s*(?:<\\/[^>]+>\\s*)*<\\/(?:h[1-6]|p)>`, 'i').exec(decoded)
+    || new RegExp(`${label}\\s*[:：]`, 'i').exec(decoded);
+  if (!header) return { start: null, end: null, permanent: false };
+  // Start after an actual section label, not the same words in surrounding
+  // prose or a table heading elsewhere in the announcement.
+  const rest = decoded.slice(header.index + header[0].length);
   const nextMarker = rest.indexOf('〓');
-  const scope = nextMarker >= 0 ? rest.slice(0, nextMarker) : rest.slice(0, 400);
-  const tMatches = [...scope.matchAll(/<t\b[^>]*>\s*(\d{4}[-/]\d{1,2}[-/]\d{1,2}\s+\d{1,2}:\d{2}(?::\d{2})?)\s*<\/t>/gi)].map((m) => m[1]);
-  const raw = tMatches.length ? tMatches : [...scope.matchAll(/(\d{4}[-/]\d{1,2}[-/]\d{1,2}\s+\d{1,2}:\d{2}(?::\d{2})?)/g)].map((m) => m[1]);
-  const isos = raw.map((v) => toIso(v, offset)).filter(Boolean);
+  const tableEnd = rest.indexOf('</table>');
+  const scope = nextMarker >= 0
+    ? rest.slice(0, nextMarker)
+    : tableEnd >= 0 && tableEnd < 2400 ? rest.slice(0, tableEnd) : rest.slice(0, 400);
+  const date = '(\\d{4}[-/]\\d{1,2}[-/]\\d{1,2}(?:\\s+\\d{1,2}:\\d{2}(?::\\d{2})?)?)';
+  const tokens = [...scope.matchAll(new RegExp(`<t\\b([^>]*)>\\s*${date}\\s*<\\/t>|${date}`, 'gi'))];
+  const isos = tokens.map((match) => {
+    const value = match[2] || match[3];
+    const tokenOffset = /\bt_gl\b/i.test(match[1] || '') ? '+08:00' : offset;
+    return toIso(/\d:\d{2}/.test(value) ? value : `${value} 00:00`, tokenOffset);
+  }).filter(Boolean);
   // Require an ordered start<end pair. Open-start events ("After the Version update –
   // <date>") and single-boundary notices fall through to needs_review, never a guess.
   for (let i = 0; i + 1 < isos.length; i += 1) {
     if (Date.parse(isos[i + 1]) > Date.parse(isos[i])) return { start: isos[i], end: isos[i + 1], permanent: false };
   }
   if (/permanent|permanently available|indefinite/i.test(scope)) return { start: null, end: null, permanent: true };
+  const version = scope.match(/After\s+(?:the\s+)?Version\s+(\d+(?:\.\d+)+)\s+update/i)?.[1];
+  const start = version && versionStarts[version];
+  if (start && isos[0] && Date.parse(isos[0]) > Date.parse(start)) return { start, end: isos[0], permanent: false };
   return { start: null, end: null, permanent: false };
 }
 

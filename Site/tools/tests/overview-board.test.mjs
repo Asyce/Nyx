@@ -91,13 +91,13 @@ test('the board splits each phase into a headline banner and the rest', () => {
   assert.match(appSource, /const ranked = \[\.\.\.units\]\.sort\(bannerUnitRecency\)/);
   assert.match(appSource, /cfg\.key === 'ae' && units\.length === 2 \? ranked\.slice\(0, 2\) : ranked\.slice\(0, 1\)/);
   assert.match(appSource, /column\.others\.map/);
-  // Featured lower-rarity units use an icon rail; Endfield keeps the 50/50
-  // loss pool on its headline card instead.
-  assert.match(appSource, /all\.filter\(\(unit\) => unit\.rarity && unit\.rarity < rank\)/);
+  // Lower-rarity featured units are omitted; Endfield alone keeps its 50/50
+  // loss pool on the headline card.
   assert.match(appSource, /cfg\.key === 'ae' \? ranked\.filter/);
-  assert.match(appSource, /function BannerBoardRail/);
-  assert.match(appSource, /<BannerBoardRail units=\{column\.support\}/);
+  assert.doesNotMatch(appSource, /function BannerBoardRail/);
+  assert.doesNotMatch(sharedCss, /\.gp-ovb-rank-rail/);
   assert.match(appSource, /others:cfg\.key === 'ae' \? column\.support : \[\]/);
+  assert.match(appSource, /support:cfg\.key === 'ae'[\s\S]*?: \[\]/);
 });
 
 test('the overview renders five banner columns and folds the old rail into the grid', () => {
@@ -279,6 +279,7 @@ test('the five-column model matches each requested game roadmap', () => {
     ${phaseHelpers}
     ${sourceFunction('bannerRoadmapVersion')}
     ${sourceFunction('bannerPlanLabelFromHint')}
+    ${sourceFunction('bannerUnknownPhaseLabel')}
     ${sourceFunction('bannerApplyPlanLabels')}
     ${sourceFunction('overviewBannerBoard')}
     window.board = (key) => overviewBannerBoard({ key });
@@ -294,7 +295,7 @@ test('the five-column model matches each requested game roadmap', () => {
   assert.equal(gi.next.heroes[0].name, 'Flins');
   assert.deepEqual(names(gi.next.others), ['Ineffa']);
   assert.deepEqual(gi.planned.map((column) => column.heroes[0].name), ['Vesna', 'Vodyanitsa']);
-  assert.deepEqual(gi.planned.map((column) => column.label), ['7.1 Phase 1', '7.1 Phase 2']);
+  assert.deepEqual(gi.planned.map((column) => column.label), ['7.1 Phase ?', '7.1 Phase ?']);
   assert.ok(gi.planned.every((column) => column.start === null && column.end === null));
   assert.deepEqual(names(gi.future).slice(0, 5), ['Mitya', 'Valeriy', 'The Tsaritsa Anastasya Feodorovna Snezhnaya', 'Danica', 'Noy']);
 
@@ -316,5 +317,12 @@ test('the five-column model matches each requested game roadmap', () => {
   assert.deepEqual(wuwa.planned.map((column) => column.heroes[0].name), ['Jingran']);
   assert.deepEqual(wuwa.planned.map((column) => column.label), ['3.6 Phase 2']);
   assert.deepEqual(names(wuwa.future), ['Suoming', 'Hsin']);
-  assert.deepEqual(names([...wuwa.current.support].sort(box.window.rank)), ['Lumi', 'Baizhi', 'Mortefi']);
+  assert.deepEqual(names(wuwa.current.support), []);
+});
+
+test('banner art overrides survive automatic data regeneration', () => {
+  const pearl = banners.hsr?.roadmap?.find((row) => row.name === 'Pearl');
+  const qingxiao = phases(banners.wuwa).flatMap((phase) => phase.characters || []).find((row) => row.name === 'Qingxiao');
+  assert.equal(pearl?.art, '/assets/banners/hsr/pearl-splash-3c9ede1f47fc14b1.png');
+  assert.equal(qingxiao?.icon, '/assets/banners/wuwa/qingxiao-icon-4a0339409ff85cad.png');
 });

@@ -1,21 +1,65 @@
 {
   "schemaVersion": 1,
   "game": "zzz",
-  "generatedAt": "2026-08-08T13:05:05.886Z",
+  "generatedAt": "2026-08-13T17:52:02.263Z",
   "source": {
     "name": "Zenless Zone Zero Official",
     "endpoint": "sg-announcement-api.hoyoverse.com getAnnList+getAnnContent"
   },
   "counts": {
-    "total": 17,
-    "needs_review": 5,
+    "total": 20,
+    "needs_review": 7,
     "banner": 0,
     "byType": {
-      "event": 16,
+      "event": 19,
       "challenge": 1
     }
   },
   "events": [
+    {
+      "game": "zzz",
+      "id": "zzz-hoyo-ann-6e42a70461e4",
+      "title": "\"Extensive Patrol: Triple Bounty\" Event Details",
+      "type": "event",
+      "start": "2026-08-12T03:00:00.000Z",
+      "end": "2026-08-17T02:59:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Zenless Zone Zero Official",
+        "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1243",
+        "kind": "official-announcement-api",
+        "recordId": "1243",
+        "fetchedAt": "2026-08-13T17:52:07.716Z",
+        "priority": 1
+      },
+      "confidence": "high",
+      "scheduleStatus": "exact",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "/assets/events/zzz/93f4a319e483639edc3d07097f7d3c492a680a717d7c339743354aab4814a107.jpg",
+      "description": "Event Duration 2026/08/12 04:00 (server time) – 2026/08/17 03:59 (server time) Requirements Complete the Inter-Knot Reputation Rank-Up Mission \"Path of the Proxy I\", reach Inter-Knot Lv. 21, and unlock Area Patrol to participate. Event…",
+      "windowsByRegion": {
+        "europe": {
+          "start": "2026-08-12T03:00:00.000Z",
+          "end": "2026-08-17T02:59:00.000Z",
+          "timezone": "UTC+01:00",
+          "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1243"
+        },
+        "asia": {
+          "start": "2026-08-11T20:00:00.000Z",
+          "end": "2026-08-16T19:59:00.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1243"
+        },
+        "america": {
+          "start": "2026-08-12T09:00:00.000Z",
+          "end": "2026-08-17T08:59:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1243"
+        }
+      }
+    },
     {
       "game": "zzz",
       "id": "zzz-hoyo-ann-e5b14140c51c",
@@ -30,7 +74,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1241",
         "kind": "official-announcement-api",
         "recordId": "1241",
-        "fetchedAt": "2026-08-08T13:05:11.108Z",
+        "fetchedAt": "2026-08-13T17:52:07.716Z",
         "priority": 1
       },
       "confidence": "high",
@@ -74,7 +118,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=220",
         "kind": "official-announcement-api",
         "recordId": "220",
-        "fetchedAt": "2026-08-08T13:05:11.108Z",
+        "fetchedAt": "2026-08-13T17:52:07.716Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -118,7 +162,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=226",
         "kind": "official-announcement-api",
         "recordId": "226",
-        "fetchedAt": "2026-08-08T13:05:11.108Z",
+        "fetchedAt": "2026-08-13T17:52:07.716Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -156,7 +200,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=219",
         "kind": "official-announcement-api",
         "recordId": "219",
-        "fetchedAt": "2026-08-08T13:05:11.108Z",
+        "fetchedAt": "2026-08-13T17:52:07.716Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -200,7 +244,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=227",
         "kind": "official-announcement-api",
         "recordId": "227",
-        "fetchedAt": "2026-08-08T13:05:11.108Z",
+        "fetchedAt": "2026-08-13T17:52:07.716Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -244,7 +288,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=218",
         "kind": "official-announcement-api",
         "recordId": "218",
-        "fetchedAt": "2026-08-08T13:05:11.108Z",
+        "fetchedAt": "2026-08-13T17:52:07.716Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -521,6 +565,31 @@
     },
     {
       "game": "zzz",
+      "id": "zzz-hoyo-ann-22759e1dd26d",
+      "title": "Version 3.1 New Eridu City Fund Details",
+      "type": "event",
+      "start": null,
+      "end": null,
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Zenless Zone Zero Official",
+        "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1236",
+        "kind": "official-announcement-api",
+        "recordId": "1236",
+        "fetchedAt": "2026-08-13T17:52:07.716Z",
+        "priority": 1
+      },
+      "confidence": "low",
+      "scheduleStatus": "expected",
+      "permanence": "unknown",
+      "needs_review": true,
+      "image": null,
+      "description": "Dear Proxies, During this event, you can earn generous rewards by raising your City Fund Level in New Eridu City Fund. Unlock the Growth Plan to instantly receive Polychrome ×680 and the exclusive avatar \"Berry Party\". Unlock the Premium…",
+      "windowsByRegion": {}
+    },
+    {
+      "game": "zzz",
       "id": "zzz-hoyo-ann-748a1e2314e8",
       "title": "\"Summer Waves Roll In\" Event Details",
       "type": "event",
@@ -533,7 +602,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1238",
         "kind": "official-announcement-api",
         "recordId": "1238",
-        "fetchedAt": "2026-08-08T13:05:11.108Z",
+        "fetchedAt": "2026-08-13T17:52:07.716Z",
         "priority": 1
       },
       "confidence": "low",
@@ -558,7 +627,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1242",
         "kind": "official-announcement-api",
         "recordId": "1242",
-        "fetchedAt": "2026-08-08T13:05:11.108Z",
+        "fetchedAt": "2026-08-13T17:52:07.716Z",
         "priority": 1
       },
       "confidence": "low",
@@ -583,7 +652,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1237",
         "kind": "official-announcement-api",
         "recordId": "1237",
-        "fetchedAt": "2026-08-08T13:05:11.108Z",
+        "fetchedAt": "2026-08-13T17:52:07.716Z",
         "priority": 1
       },
       "confidence": "low",
@@ -592,6 +661,31 @@
       "needs_review": true,
       "image": null,
       "description": "Event Duration After the Version 3.1 update – 2026/09/08 03:59 (server time) Requirements Reach Inter-Knot Lv. 5, and unlock the Event feature in the Main Story Prologue \"The Hare and the Proxy\" Event Details • During the \"\"Gift From the…",
+      "windowsByRegion": {}
+    },
+    {
+      "game": "zzz",
+      "id": "zzz-hoyo-ann-c3c87ef847e7",
+      "title": "Version 3.1 \"The Long Goodbye\" Update Announcement",
+      "type": "event",
+      "start": null,
+      "end": null,
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Zenless Zone Zero Official",
+        "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1234",
+        "kind": "official-announcement-api",
+        "recordId": "1234",
+        "fetchedAt": "2026-08-13T17:52:07.716Z",
+        "priority": 1
+      },
+      "confidence": "low",
+      "scheduleStatus": "expected",
+      "permanence": "unknown",
+      "needs_review": true,
+      "image": null,
+      "description": "Dear Proxies, Below is the updated content and compensation for Version 3.1 \"The Long Goodbye.\" [Update Start Time] 2026/07/29 06:00 (UTC+8) It will take about five hours to complete. [Compensation Details] • Server Update Compensation…",
       "windowsByRegion": {}
     },
     {
@@ -608,7 +702,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1239",
         "kind": "official-announcement-api",
         "recordId": "1239",
-        "fetchedAt": "2026-08-08T13:05:11.108Z",
+        "fetchedAt": "2026-08-13T17:52:07.716Z",
         "priority": 1
       },
       "confidence": "low",
@@ -633,7 +727,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1240",
         "kind": "official-announcement-api",
         "recordId": "1240",
-        "fetchedAt": "2026-08-08T13:05:11.108Z",
+        "fetchedAt": "2026-08-13T17:52:07.716Z",
         "priority": 1
       },
       "confidence": "low",

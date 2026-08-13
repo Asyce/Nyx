@@ -5555,6 +5555,14 @@ function bannerBetaAssets(key) {
   return map;
 }
 
+const BANNER_ICON_OVERRIDES = {
+  'wuwa:qingxiao':'/assets/banners/wuwa/qingxiao-icon-4a0339409ff85cad.png',
+};
+
+const BANNER_ART_OVERRIDES = {
+  'hsr:pearl':'/assets/banners/hsr/pearl-splash-3c9ede1f47fc14b1.png',
+};
+
 function normalizeBannerCharacter(rosters, key, entry, runCounts) {
   const name = typeof entry === 'string' ? entry : entry?.name;
   if (!name) return null;
@@ -5580,12 +5588,13 @@ function normalizeBannerCharacter(rosters, key, entry, runCounts) {
   // "Ukinami Yuzuha", the game calls them "Robin • Summeretto" and "Yuzuha".
   // Only when the roster actually matched — an unmatched name stays as scraped.
   const displayName = entry?.displayName || local?.n || beta?.name || name;
+  const assetKey = `${key}:${rosterNameKey(name)}`;
   return {
     name: displayName,
-    icon: local?.icon || entryImage || beta?.icon || null,
+    icon: BANNER_ICON_OVERRIDES[assetKey] || local?.icon || entryImage || beta?.icon || null,
     iconFallback: entryFallback || null,
     iconZoom: typeof entry === 'object' ? !!entry.imageFallbackZoom : false,
-    art: local?.art || local?.card || entrySplash || entryImage || beta?.art || null,
+    art: BANNER_ART_OVERRIDES[assetKey] || local?.art || local?.card || entrySplash || entryImage || beta?.art || null,
     namecard: local?.namecard || null, // G31: GI banner art prefers the namecard
     rarity: local?.r || entry?.rarity || beta?.rarity || null,
     debut,

@@ -4,7 +4,7 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-08-13T17:51:47.234Z",
+  "generatedAt": "2026-08-13T18:12:49.425Z",
   "codes": {
     "updated": "2026-08-13T17:51:31.335Z",
     "maxAgeDays": 28,
@@ -637,7 +637,7 @@ var NYX_DB = {
             "icon": "/assets/banners/hsr/30988ea93b8d36c7cd124310a61341f3.png",
             "iconFallback": null,
             "iconZoom": false,
-            "art": "/assets/banners/hsr/30988ea93b8d36c7cd124310a61341f3.png",
+            "art": "/assets/banners/hsr/pearl-splash-3c9ede1f47fc14b1.png",
             "namecard": null,
             "rarity": null,
             "debut": true,
@@ -971,7 +971,7 @@ var NYX_DB = {
           "characters": [
             {
               "name": "Qingxiao",
-              "icon": "https://static.nanoka.cc/assets/ww/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_73_UI.webp",
+              "icon": "/assets/banners/wuwa/qingxiao-icon-4a0339409ff85cad.png",
               "iconFallback": null,
               "iconZoom": false,
               "art": "../../Database/Prydwen/ww/assets/characters/qingxiao-df2ddd77ec24.webp",
@@ -169195,7 +169195,7 @@ var NYX_DB = {
             "icon": "/assets/banners/hsr/30988ea93b8d36c7cd124310a61341f3.png",
             "iconFallback": null,
             "iconZoom": false,
-            "art": "/assets/banners/hsr/30988ea93b8d36c7cd124310a61341f3.png",
+            "art": "/assets/banners/hsr/pearl-splash-3c9ede1f47fc14b1.png",
             "namecard": null,
             "rarity": null,
             "debut": true,
@@ -179924,7 +179924,7 @@ var NYX_DB = {
           "characters": [
             {
               "name": "Qingxiao",
-              "icon": "https://static.nanoka.cc/assets/ww/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_73_UI.webp",
+              "icon": "/assets/banners/wuwa/qingxiao-icon-4a0339409ff85cad.png",
               "iconFallback": null,
               "iconZoom": false,
               "art": "../../Database/Prydwen/ww/assets/characters/qingxiao-df2ddd77ec24.webp",

@@ -91,6 +91,26 @@ test('parseHoyoDuration returns nulls for open-start ("After the Version update 
   assert.deepEqual(r, { start: null, end: null, permanent: false });
 });
 
+test('parseHoyoDuration anchors an open-start event to its official version launch', () => {
+  const html = '<p>Complete missions within the specified duration.</p><p>〓Specified Duration〓</p><p>After the Version 7.0 update – &lt;t class="t_lc"&gt;2026/08/24 03:59&lt;/t&gt;</p>';
+  const r = parseHoyoDuration(html, '+01:00', { '7.0':'2026-08-12T03:00:00.000Z' });
+  assert.deepEqual(r, { start:'2026-08-12T03:00:00.000Z', end:'2026-08-24T02:59:00.000Z', permanent:false });
+});
+
+test('parseHoyoDuration reads a wish duration from its announcement table', () => {
+  const html = '<table><tr><td><p><span>Event Wish Duration</span></p></td></tr><tr><td>After the Version 7.0 update – &lt;t class="t_lc"&gt;2026/09/01 17:59&lt;/t&gt;</td></tr></table><p>Claim rewards 2030/01/01 00:00</p>';
+  assert.deepEqual(parseHoyoDuration(html, '+01:00', { '7.0':'2026-08-12T03:00:00.000Z' }), {
+    start:'2026-08-12T03:00:00.000Z', end:'2026-09-01T16:59:00.000Z', permanent:false,
+  });
+});
+
+test('parseHoyoDuration accepts a date-only start and global timestamp end', () => {
+  const html = '<p>〓Event Duration〓</p><p>2026/08/12 – &lt;t class="t_gl"&gt;2026/08/25 23:59&lt;/t&gt;</p>';
+  assert.deepEqual(parseHoyoDuration(html, '+01:00'), {
+    start:'2026-08-11T23:00:00.000Z', end:'2026-08-25T15:59:00.000Z', permanent:false,
+  });
+});
+
 test('parseHoyoDuration ignores dates when there is no duration section', () => {
   const r = parseHoyoDuration('<p>Version notes updated 2026/07/01 00:00 fixed bug 2026/07/02 00:00</p>', '+01:00');
   assert.deepEqual(r, { start: null, end: null, permanent: false });
@@ -189,6 +209,21 @@ test('parseHoyo filters notices and never uses list visibility windows as event 
   assert.equal(challenge.needs_review, true);
   assert.ok(!events.some((e) => /Fair Gaming|Survey/.test(e.title)));
   assert.equal(isHoyoEventCandidate({ title:'Social Media Fair Use Notice', type_label:'Event' }, null), false);
+});
+
+test('parseHoyo derives open event starts from the official update schedule', () => {
+  const list = { retcode:0, data:{ list:[{ type_label:'Event', list:[
+    { ann_id:200, title:'"Everwinter" Version 7.0 Update Details' },
+    { ann_id:201, title:'Mutual Aid Event' },
+  ] }] } };
+  const content = { data:{ list:[
+    { ann_id:200, content:'<p>Update maintenance begins &lt;t class="t_gl"&gt;2026/08/12 06:00&lt;/t&gt; and is estimated to take 5 hours.</p>' },
+    { ann_id:201, content:'<p>〓Event Duration〓</p><p>After the Version 7.0 update – &lt;t class="t_lc"&gt;2026/08/24 03:59&lt;/t&gt;</p>' },
+  ] } };
+  const event = parseHoyo('gi', list, content).find((row) => row.source.recordId === '201');
+  assert.equal(event.start, '2026-08-12T03:00:00.000Z');
+  assert.equal(event.end, '2026-08-24T02:59:00.000Z');
+  assert.equal(event.needs_review, false);
 });
 
 test('parseWuwaArticle and parseEndfieldDetail produce valid events', () => {

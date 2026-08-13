@@ -167,7 +167,7 @@ test('only the current-banner owner requires live scraper freshness and retries 
   }
 });
 
-test('data refresh treats an exhausted banner outage as a warned no-op', () => {
+test('data refresh carries banners forward while independently refreshing events', () => {
   const source = fs.readFileSync(path.join(root, '.github/workflows/data-refresh.yml'), 'utf8');
   const scrape = source.indexOf('- name: Scrape banners + codes');
   const events = source.indexOf('- name: Scrape in-game events');
@@ -184,13 +184,19 @@ test('data refresh treats an exhausted banner outage as a warned no-op', () => {
   assert.match(source.slice(scrape, events), /exit "\$banner_status"/);
   assert.match(source.slice(scrape, events), /echo "fresh=false"/);
   assert.match(source.slice(scrape, events), /warning::required banner sources stayed unavailable after 3 attempts/);
+  assert.match(source.slice(scrape, events), /git restore --source=HEAD -- \.\.\/Database\/Banners\/banners\.json \.\.\/Database\/reports\/banner-teaser-art-provenance\.json/);
+  assert.match(source.slice(scrape, events), /git clean -fd -- \.\.\/Site\/assets\/banners/);
+  const eventsEnd = source.indexOf('\n      - name:', events + 1);
+  assert.doesNotMatch(source.slice(events, eventsEnd), /banner_refresh\.outputs\.fresh/, 'events must refresh even when a banner source is down');
+  assert.match(source.slice(commit, build), /git add -A Site\/assets\/events/, 'event art must be committed with event data');
+  assert.match(source.slice(commit, build), /git add -A Site\/assets\/banners Site\/assets\/events/, 'fresh banner art must be committed with banner data');
 
-  const freshCondition = "steps.banner_refresh.outputs.fresh == 'true'";
-  for (const start of [events, validate, commit, build, deploy]) {
+  for (const start of [commit, build]) {
     const next = source.indexOf('\n      - name:', start + 1);
-    const condition = source.indexOf(freshCondition, start);
-    assert(condition > start && (next < 0 || condition < next), 'publishing path must require a fresh banner result');
+    assert.doesNotMatch(source.slice(start, next), /if:\s*\$\{\{[^\n]*banner_refresh\.outputs\.fresh/, 'event publishing must not require a fresh banner result');
   }
+  const deployEnd = source.indexOf('\n      - name:', deploy + 1);
+  assert.match(source.slice(deploy, deployEnd < 0 ? source.length : deployEnd), /banner_refresh\.outputs\.fresh/, 'deployment must still require fresh banners');
 });
 
 test('every production deploy requires a freshly committed launcher snapshot', () => {

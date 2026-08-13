@@ -1,26 +1,466 @@
 {
   "schemaVersion": 1,
   "game": "gi",
-  "generatedAt": "2026-08-08T13:05:05.886Z",
+  "generatedAt": "2026-08-13T17:52:02.263Z",
   "source": {
     "name": "Genshin Impact Official",
     "endpoint": "sg-hk4e-api.hoyoverse.com getAnnList+getAnnContent"
   },
   "counts": {
-    "total": 21,
-    "needs_review": 7,
+    "total": 28,
+    "needs_review": 4,
     "banner": 3,
     "byType": {
-      "event": 12,
-      "challenge": 2,
+      "event": 19,
+      "banner": 3,
       "web_event": 1,
+      "challenge": 2,
       "shop": 1,
       "login": 1,
-      "permanent": 1,
-      "banner": 3
+      "permanent": 1
     }
   },
   "events": [
+    {
+      "game": "gi",
+      "id": "gi-hoyo-ann-03ff7c741c30",
+      "title": "\"The Godforsaken Frostlands\" Event: Complete Exploration Missions Within the Specified Duration to Obtain an Additional Primogems ×400",
+      "type": "event",
+      "start": "2026-08-12T03:00:00.000Z",
+      "end": "2026-11-03T13:59:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Genshin Impact Official",
+        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21811",
+        "kind": "official-announcement-api",
+        "recordId": "21811",
+        "fetchedAt": "2026-08-13T17:52:02.268Z",
+        "priority": 1
+      },
+      "confidence": "high",
+      "scheduleStatus": "exact",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "/assets/events/gi/48e1c432a4834c97ef10350e053ea239c536d09181a7112cdeb46b2f9375ebb7.jpg",
+      "description": "After the version update, the following new areas of Snezhnaya will be unlocked: Volkodlak Tundra, Everfrozen Earth, Fellfrost Peak, Flamefeather Valley, and White Birch Snowgrave. Complete the corresponding exploration missions within…",
+      "windowsByRegion": {
+        "europe": {
+          "start": "2026-08-12T03:00:00.000Z",
+          "end": "2026-11-03T13:59:00.000Z",
+          "timezone": "UTC+01:00",
+          "sourceUrl": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21811"
+        },
+        "asia": {
+          "start": "2026-08-12T03:00:00.000Z",
+          "end": "2026-11-03T06:59:00.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21811"
+        },
+        "america": {
+          "start": "2026-08-12T03:00:00.000Z",
+          "end": "2026-11-03T19:59:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21811"
+        }
+      }
+    },
+    {
+      "game": "gi",
+      "id": "gi-hoyo-ann-362c7b658c03",
+      "title": "Event Wish \"Epitome Invocation\" - Boosted Drop Rates for Whitelake Frostfeather (Sword) and Crimson Moon's Semblance (Polearm)!",
+      "type": "banner",
+      "start": "2026-08-12T03:00:00.000Z",
+      "end": "2026-09-01T16:59:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Genshin Impact Official",
+        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21807",
+        "kind": "official-announcement-api",
+        "recordId": "21807",
+        "fetchedAt": "2026-08-13T17:52:02.268Z",
+        "priority": 1
+      },
+      "confidence": "high",
+      "scheduleStatus": "exact",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "/assets/events/gi/a2dd301594cd96c01f939cd5eaed7ef012a1a484affe2f591199f1a683eca260.jpg",
+      "description": "Travelers, stock up on weapons and characters in \"Epitome Invocation\" to make your party stronger in combat! 〓Event Wish Details〓 Event Wish Duration Promotional Weapons (5-Star) Featured Weapons (4-Star) After the Version 7.0 update –…",
+      "windowsByRegion": {
+        "europe": {
+          "start": "2026-08-12T03:00:00.000Z",
+          "end": "2026-09-01T16:59:00.000Z",
+          "timezone": "UTC+01:00",
+          "sourceUrl": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21807"
+        },
+        "asia": {
+          "start": "2026-08-12T03:00:00.000Z",
+          "end": "2026-09-01T09:59:00.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21807"
+        },
+        "america": {
+          "start": "2026-08-12T03:00:00.000Z",
+          "end": "2026-09-01T22:59:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21807"
+        }
+      }
+    },
+    {
+      "game": "gi",
+      "id": "gi-hoyo-ann-63830df76aca",
+      "title": "\"Mutual Aid in Bloom: Into the Frostlands\" Event: Snezhnaya Expedition Operation",
+      "type": "event",
+      "start": "2026-08-12T03:00:00.000Z",
+      "end": "2026-08-24T02:59:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Genshin Impact Official",
+        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21814",
+        "kind": "official-announcement-api",
+        "recordId": "21814",
+        "fetchedAt": "2026-08-13T17:52:02.268Z",
+        "priority": 1
+      },
+      "confidence": "high",
+      "scheduleStatus": "exact",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "/assets/events/gi/a76836d3b34ce2c88918c3726d3b5bd3721b4797ea7aee43af7bb04ac9696287.jpg",
+      "description": "〓Event Rewards〓 〓Event Duration〓 After the Version 7.0 update – 2026/08/24 03:59 〓Eligibility〓 Adventure Rank 20 or above Complete Archon Quest Prologue: Act III \"Song of the Dragon and Freedom\" Complete the \"Gunfire in the Silent Lands\"…",
+      "windowsByRegion": {
+        "europe": {
+          "start": "2026-08-12T03:00:00.000Z",
+          "end": "2026-08-24T02:59:00.000Z",
+          "timezone": "UTC+01:00",
+          "sourceUrl": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21814"
+        },
+        "asia": {
+          "start": "2026-08-12T03:00:00.000Z",
+          "end": "2026-08-23T19:59:00.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21814"
+        },
+        "america": {
+          "start": "2026-08-12T03:00:00.000Z",
+          "end": "2026-08-24T08:59:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21814"
+        }
+      }
+    },
+    {
+      "game": "gi",
+      "id": "gi-hoyo-ann-6796a55db605",
+      "title": "Event Wish \"The Hearth's Ashen Shadow\" - Boosted Drop Rate for \"Dire Balemoon\" Arlecchino (Pyro)!",
+      "type": "banner",
+      "start": "2026-08-12T03:00:00.000Z",
+      "end": "2026-09-01T16:59:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Genshin Impact Official",
+        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21804",
+        "kind": "official-announcement-api",
+        "recordId": "21804",
+        "fetchedAt": "2026-08-13T17:52:02.268Z",
+        "priority": 1
+      },
+      "confidence": "high",
+      "scheduleStatus": "exact",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "/assets/events/gi/66499b09baa027dd01596a502b95c5049412280eb970aeee3d4922f2fbeb270d.jpg",
+      "description": "Travelers, stock up on weapons and characters in the event wish to make your party stronger in combat! 〓Event Wish Details〓 Event Wish Duration Promotional Character (5-Star) Featured Characters (4-Star) After the Version 7.0 update –…",
+      "windowsByRegion": {
+        "europe": {
+          "start": "2026-08-12T03:00:00.000Z",
+          "end": "2026-09-01T16:59:00.000Z",
+          "timezone": "UTC+01:00",
+          "sourceUrl": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21804"
+        },
+        "asia": {
+          "start": "2026-08-12T03:00:00.000Z",
+          "end": "2026-09-01T09:59:00.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21804"
+        },
+        "america": {
+          "start": "2026-08-12T03:00:00.000Z",
+          "end": "2026-09-01T22:59:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21804"
+        }
+      }
+    },
+    {
+      "game": "gi",
+      "id": "gi-hoyo-ann-7d9e9eeb5111",
+      "title": "Complete the Archon Quest \"Everwinter Without Mercy\" Within the Specified Duration to Obtain Additional Primogems, Character Ascension Materials, and Other Rewards",
+      "type": "event",
+      "start": "2026-08-12T03:00:00.000Z",
+      "end": "2026-09-22T13:59:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Genshin Impact Official",
+        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21809",
+        "kind": "official-announcement-api",
+        "recordId": "21809",
+        "fetchedAt": "2026-08-13T17:52:02.268Z",
+        "priority": 1
+      },
+      "confidence": "high",
+      "scheduleStatus": "exact",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "/assets/events/gi/0abce8f0e536cefdf5d578064b6c7fc1d6a6b783e5b17f76015f5530a95e8e40.jpg",
+      "description": "After the Version update, Archon Quests Chapter VII: Act I and Act II will be permanently available. Meet the unlock criteria to unlock said Archon Quests. Complete the corresponding Archon Quest within the specified duration to obtain…",
+      "windowsByRegion": {
+        "europe": {
+          "start": "2026-08-12T03:00:00.000Z",
+          "end": "2026-09-22T13:59:00.000Z",
+          "timezone": "UTC+01:00",
+          "sourceUrl": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21809"
+        },
+        "asia": {
+          "start": "2026-08-12T03:00:00.000Z",
+          "end": "2026-09-22T06:59:00.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21809"
+        },
+        "america": {
+          "start": "2026-08-12T03:00:00.000Z",
+          "end": "2026-09-22T19:59:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21809"
+        }
+      }
+    },
+    {
+      "game": "gi",
+      "id": "gi-hoyo-ann-821ceb44ea6d",
+      "title": "Event Wish \"Swan's Shadow in Silken Ice\" - Boosted Drop Rate for \"Swirling Snow\" Odette (Cryo)!",
+      "type": "banner",
+      "start": "2026-08-12T03:00:00.000Z",
+      "end": "2026-09-01T16:59:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Genshin Impact Official",
+        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21803",
+        "kind": "official-announcement-api",
+        "recordId": "21803",
+        "fetchedAt": "2026-08-13T17:52:02.268Z",
+        "priority": 1
+      },
+      "confidence": "high",
+      "scheduleStatus": "exact",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "/assets/events/gi/64fb87ded563c90cbb628e2ebcf23c253bbbb461bb405d7ccb50269c1662c1ad.jpg",
+      "description": "Travelers, stock up on weapons and characters in the event wish to make your party stronger in combat! 〓Event Wish Details〓 Event Wish Duration Promotional Character (5-Star) Featured Characters (4-Star) After the Version 7.0 update –…",
+      "windowsByRegion": {
+        "europe": {
+          "start": "2026-08-12T03:00:00.000Z",
+          "end": "2026-09-01T16:59:00.000Z",
+          "timezone": "UTC+01:00",
+          "sourceUrl": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21803"
+        },
+        "asia": {
+          "start": "2026-08-12T03:00:00.000Z",
+          "end": "2026-09-01T09:59:00.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21803"
+        },
+        "america": {
+          "start": "2026-08-12T03:00:00.000Z",
+          "end": "2026-09-01T22:59:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21803"
+        }
+      }
+    },
+    {
+      "game": "gi",
+      "id": "gi-hoyo-ann-97d85a301135",
+      "title": "\"Wonderland Treasures: Phantasmagoric Discourse\": New Manekin Cosmetics Now Available",
+      "type": "event",
+      "start": "2026-08-12T03:00:00.000Z",
+      "end": "2026-09-21T02:59:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Genshin Impact Official",
+        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21828",
+        "kind": "official-announcement-api",
+        "recordId": "21828",
+        "fetchedAt": "2026-08-13T17:52:02.268Z",
+        "priority": 1
+      },
+      "confidence": "high",
+      "scheduleStatus": "exact",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "/assets/events/gi/b9f1a7ca16e497b36ff8d13c3827181f787fbd5e2f8be0947fb0f791687df7c3.jpg",
+      "description": "During the event, Travelers can obtain desired Manekin Cosmetics via the Event Ode \"Phantasmagoric Discourse,\" \"Phantasmagoric Chronicle,\" or the Miliastra Shop! Play Popular Miliastra Wonderland stages with your new Sets or Try-On Capes…",
+      "windowsByRegion": {
+        "europe": {
+          "start": "2026-08-12T03:00:00.000Z",
+          "end": "2026-09-21T02:59:00.000Z",
+          "timezone": "UTC+01:00",
+          "sourceUrl": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21828"
+        },
+        "asia": {
+          "start": "2026-08-12T03:00:00.000Z",
+          "end": "2026-09-20T19:59:00.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21828"
+        },
+        "america": {
+          "start": "2026-08-12T03:00:00.000Z",
+          "end": "2026-09-21T08:59:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21828"
+        }
+      }
+    },
+    {
+      "game": "gi",
+      "id": "gi-hoyo-ann-d9fdacc2d761",
+      "title": "\"Frostfarer\" Event Details",
+      "type": "event",
+      "start": "2026-08-12T03:00:00.000Z",
+      "end": "2026-09-21T02:59:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Genshin Impact Official",
+        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21818",
+        "kind": "official-announcement-api",
+        "recordId": "21818",
+        "fetchedAt": "2026-08-13T17:52:02.268Z",
+        "priority": 1
+      },
+      "confidence": "high",
+      "scheduleStatus": "exact",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "/assets/events/gi/bd7b63611f1b38177d626d4201c87b10fcbd4dd008a034940b408050f84fb2af.jpg",
+      "description": "Travelers can earn rich rewards in \"Frostfarer\" during the event duration. Unlock Gnostic Hymn or Gnostic Chorus to further earn Intertwined Fate and a designated 4-star weapon! Purchase Gnostic Chorus directly to get the exclusive BP…",
+      "windowsByRegion": {
+        "europe": {
+          "start": "2026-08-12T03:00:00.000Z",
+          "end": "2026-09-21T02:59:00.000Z",
+          "timezone": "UTC+01:00",
+          "sourceUrl": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21818"
+        },
+        "asia": {
+          "start": "2026-08-12T03:00:00.000Z",
+          "end": "2026-09-20T19:59:00.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21818"
+        },
+        "america": {
+          "start": "2026-08-12T03:00:00.000Z",
+          "end": "2026-09-21T08:59:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21818"
+        }
+      }
+    },
+    {
+      "game": "gi",
+      "id": "gi-hoyo-ann-e93313eaeff5",
+      "title": "Take Part in \"Raiment Collection: Gentle Warmth\" to Obtain an \"Amber Nectar\" Manekin Cosmetic Set of Your Choice",
+      "type": "event",
+      "start": "2026-08-12T03:00:00.000Z",
+      "end": "2026-09-23T04:59:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Genshin Impact Official",
+        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21830",
+        "kind": "official-announcement-api",
+        "recordId": "21830",
+        "fetchedAt": "2026-08-13T17:52:02.268Z",
+        "priority": 1
+      },
+      "confidence": "high",
+      "scheduleStatus": "exact",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "/assets/events/gi/df2aa6fd6112da570aa63e18cdc3886c5700543a51c803eaba734ba532891ea3.jpg",
+      "description": "〓Event Duration〓 After Version 7.0 Update – 2026/09/23 05:59 〓Event Rewards〓 An \"Amber Nectar\" Manekin Cosmetics Set of your choice and Geodes of Replication 〓Eligibility〓 After awakening your Miliastra Wonderland Manekin 〓Event Details〓…",
+      "windowsByRegion": {
+        "europe": {
+          "start": "2026-08-12T03:00:00.000Z",
+          "end": "2026-09-23T04:59:00.000Z",
+          "timezone": "UTC+01:00",
+          "sourceUrl": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21830"
+        },
+        "asia": {
+          "start": "2026-08-12T03:00:00.000Z",
+          "end": "2026-09-22T21:59:00.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21830"
+        },
+        "america": {
+          "start": "2026-08-12T03:00:00.000Z",
+          "end": "2026-09-23T10:59:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21830"
+        }
+      }
+    },
+    {
+      "game": "gi",
+      "id": "gi-hoyo-ann-aa01f220df2c",
+      "title": "The \"Snezhnaya Travel Guide\" Web Event Is Now Live! Take Part to Receive Guaranteed Primogems!",
+      "type": "web_event",
+      "start": "2026-08-11T23:00:00.000Z",
+      "end": "2026-08-25T15:59:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Genshin Impact Official",
+        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21798",
+        "kind": "official-announcement-api",
+        "recordId": "21798",
+        "fetchedAt": "2026-08-13T17:52:02.268Z",
+        "priority": 1
+      },
+      "confidence": "high",
+      "scheduleStatus": "exact",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "/assets/events/gi/e1bfcb2f380ecf24102e7b898f465d96091cbfeed5b0c3e8e1b66dcfbb2bf286.jpg",
+      "description": "The new limited-time web event \"Snezhnaya Travel Guide\" is now available. Click to take part in the event 〓Event Duration〓 2026/08/12 – 2026/08/25 23:59 *Rewards cannot be claimed after the event ends. Please claim them in time.…",
+      "windowsByRegion": {
+        "europe": {
+          "start": "2026-08-11T23:00:00.000Z",
+          "end": "2026-08-25T15:59:00.000Z",
+          "timezone": "UTC+01:00",
+          "sourceUrl": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21798"
+        },
+        "asia": {
+          "start": "2026-08-11T16:00:00.000Z",
+          "end": "2026-08-25T15:59:00.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21798"
+        },
+        "america": {
+          "start": "2026-08-12T05:00:00.000Z",
+          "end": "2026-08-25T15:59:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21798"
+        }
+      }
+    },
     {
       "game": "gi",
       "id": "gi-hoyo-ann-7b9c2d416fd2",
@@ -35,7 +475,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21761",
         "kind": "official-announcement-api",
         "recordId": "21761",
-        "fetchedAt": "2026-08-08T13:05:05.890Z",
+        "fetchedAt": "2026-08-13T17:52:02.268Z",
         "priority": 1
       },
       "confidence": "high",
@@ -475,31 +915,6 @@
     },
     {
       "game": "gi",
-      "id": "gi-hoyo-ann-1a8067c8e445",
-      "title": "The \"Snezhnaya Awaits\" web event is now available! It's time to look back on your journey through Teyvat so far and pre-register for the new version to earn up to Primogems ×80!",
-      "type": "web_event",
-      "start": null,
-      "end": null,
-      "server": "europe",
-      "timezone": "UTC+01:00",
-      "source": {
-        "name": "Genshin Impact Official",
-        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21771",
-        "kind": "official-announcement-api",
-        "recordId": "21771",
-        "fetchedAt": "2026-08-08T13:05:05.890Z",
-        "priority": 1
-      },
-      "confidence": "low",
-      "scheduleStatus": "expected",
-      "permanence": "unknown",
-      "needs_review": true,
-      "image": null,
-      "description": "The new limited-time web event \"Snezhnaya Awaits\" is now available. Click to Take Part in Event 〓Event Duration〓 2026/07/31 – 2026/08/11 23:59 *Rewards cannot be claimed after the event ends. Please claim your rewards in time. Rewards…",
-      "windowsByRegion": {}
-    },
-    {
-      "game": "gi",
       "id": "gi-hoyo-ann-31eafabc7d8c",
       "title": "Official Top-Up Center Now Online",
       "type": "shop",
@@ -512,7 +927,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=1249",
         "kind": "official-announcement-api",
         "recordId": "1249",
-        "fetchedAt": "2026-08-08T13:05:05.890Z",
+        "fetchedAt": "2026-08-13T17:52:02.268Z",
         "priority": 1
       },
       "confidence": "low",
@@ -537,7 +952,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21838",
         "kind": "official-announcement-api",
         "recordId": "21838",
-        "fetchedAt": "2026-08-08T13:05:05.890Z",
+        "fetchedAt": "2026-08-13T17:52:02.268Z",
         "priority": 1
       },
       "confidence": "high",
@@ -550,58 +965,8 @@
     },
     {
       "game": "gi",
-      "id": "gi-hoyo-ann-a5cce407856a",
-      "title": "\"The Clink Clank Whiz-Kid!\" Event: Progress the Archon Quest \"A Dance of Snowy Tides and Hoarfrost Groves\" and invite \"Clinky-Clank Gadgets-A-Gogo\" Aino (Hydro)",
-      "type": "permanent",
-      "start": null,
-      "end": null,
-      "server": "europe",
-      "timezone": "UTC+01:00",
-      "source": {
-        "name": "Genshin Impact Official",
-        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21282",
-        "kind": "official-announcement-api",
-        "recordId": "21282",
-        "fetchedAt": "2026-08-08T13:05:05.890Z",
-        "priority": 1
-      },
-      "confidence": "high",
-      "scheduleStatus": "exact",
-      "permanence": "permanent",
-      "needs_review": false,
-      "image": null,
-      "description": "〓Event Duration〓 Permanently available after the Version \"Luna I\" update 〓Event Rewards〓 〓Eligibility〓 Complete the Archon Quest \"The Journey Home\" ※ After completing the Archon Quest \"A New Star Approaches,\" you can use the \"Quick Start\"…",
-      "windowsByRegion": {}
-    },
-    {
-      "game": "gi",
-      "id": "gi-hoyo-ann-a6b42213c1aa",
-      "title": "Event Wish \"Somnias a Luna\" - Boosted drop rate for \"Welkin Moon's Homecoming\" Columbina (Hydro)!",
-      "type": "banner",
-      "start": null,
-      "end": null,
-      "server": "europe",
-      "timezone": "UTC+01:00",
-      "source": {
-        "name": "Genshin Impact Official",
-        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21757",
-        "kind": "official-announcement-api",
-        "recordId": "21757",
-        "fetchedAt": "2026-08-08T13:05:05.890Z",
-        "priority": 1
-      },
-      "confidence": "low",
-      "scheduleStatus": "expected",
-      "permanence": "unknown",
-      "needs_review": true,
-      "image": null,
-      "description": "Travelers, stock up on weapons and characters in the event wish to make your party stronger in combat! 〓Event Wish Details〓 Event Wish Duration Promotional Character (5-Star) Featured Characters (4-Star) 2026/07/21 18:00 – 2026/08/11…",
-      "windowsByRegion": {}
-    },
-    {
-      "game": "gi",
-      "id": "gi-hoyo-ann-c79e53886783",
-      "title": "\"Sunny Summer\" Event Details",
+      "id": "gi-hoyo-ann-aba28f3c20cd",
+      "title": "\"When We Look Up at the Moon\": Complete the Exploration Missions Within the Specified Duration to Obtain an Additional Reward of Primogems ×400",
       "type": "event",
       "start": null,
       "end": null,
@@ -609,10 +974,10 @@
       "timezone": "UTC+01:00",
       "source": {
         "name": "Genshin Impact Official",
-        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21755",
+        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21750",
         "kind": "official-announcement-api",
-        "recordId": "21755",
-        "fetchedAt": "2026-08-08T13:05:05.890Z",
+        "recordId": "21750",
+        "fetchedAt": "2026-08-13T17:52:02.268Z",
         "priority": 1
       },
       "confidence": "low",
@@ -620,32 +985,32 @@
       "permanence": "unknown",
       "needs_review": true,
       "image": null,
-      "description": "Travelers can earn rich rewards in \"Sunny Summer\" during the event duration. Unlock Gnostic Hymn or Gnostic Chorus to further earn Intertwined Fate and a designated 4-star weapon! Purchase Gnostic Chorus directly to get the exclusive BP…",
+      "description": "Version \"Luna VIII\" introduces the following new areas: Dunanna Pit, Lunar Highlands, Moontide Sea, and the Dark Side of the Moon Complete the corresponding exploration missions within the specified duration to obtain an additional reward…",
       "windowsByRegion": {}
     },
     {
       "game": "gi",
-      "id": "gi-hoyo-ann-c9c136091c50",
-      "title": "Event Wish \"Epitome Invocation\" - Boosted Drop Rate for Nocturne's Curtain Call (Catalyst) and Engulfing Lightning (Polearm)!",
-      "type": "banner",
+      "id": "gi-hoyo-ann-c957814fbc8f",
+      "title": "\"The Hunt Begins!\" Event: Progress Through the Archon Quest \"Everwinter Without Mercy\" and Invite \"Swift-Striding Hound\" Alyosha (Electro)",
+      "type": "permanent",
       "start": null,
       "end": null,
       "server": "europe",
       "timezone": "UTC+01:00",
       "source": {
         "name": "Genshin Impact Official",
-        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21759",
+        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21812",
         "kind": "official-announcement-api",
-        "recordId": "21759",
-        "fetchedAt": "2026-08-08T13:05:05.890Z",
+        "recordId": "21812",
+        "fetchedAt": "2026-08-13T17:52:02.268Z",
         "priority": 1
       },
-      "confidence": "low",
-      "scheduleStatus": "expected",
-      "permanence": "unknown",
-      "needs_review": true,
+      "confidence": "high",
+      "scheduleStatus": "exact",
+      "permanence": "permanent",
+      "needs_review": false,
       "image": null,
-      "description": "Travelers, stock up on weapons and characters in \"Epitome Invocation\" to make your party stronger in combat! 〓Event Wish Details〓 Event Wish Duration Promotional Weapons (5-Star) Featured Weapons (4-Star) 2026/07/21 18:00 – 2026/08/11…",
+      "description": "〓Event Duration〓 Permanently available after the Version 7.0 update 〓Event Rewards〓 〓Eligibility〓 Adventure Rank 18 or above and complete Archon Quest Prologue: Act III \"Song of the Dragon and Freedom\" 〓Event Details〓 Progress through the…",
       "windowsByRegion": {}
     },
     {
@@ -662,7 +1027,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21707",
         "kind": "official-announcement-api",
         "recordId": "21707",
-        "fetchedAt": "2026-08-08T13:05:05.890Z",
+        "fetchedAt": "2026-08-13T17:52:02.268Z",
         "priority": 1
       },
       "confidence": "low",
@@ -675,19 +1040,19 @@
     },
     {
       "game": "gi",
-      "id": "gi-hoyo-ann-f6a29cf12034",
-      "title": "Event Wish \"Reign of Serenity\" - Boosted Drop Rate for \"Plane of Euthymia\" Raiden Shogun (Electro)!",
-      "type": "banner",
+      "id": "gi-hoyo-ann-fbd693ed1b09",
+      "title": "\"Genius Invokation TCG\" The Forge Realm's Temper: Game of Wits",
+      "type": "event",
       "start": null,
       "end": null,
       "server": "europe",
       "timezone": "UTC+01:00",
       "source": {
         "name": "Genshin Impact Official",
-        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21758",
+        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=20661",
         "kind": "official-announcement-api",
-        "recordId": "21758",
-        "fetchedAt": "2026-08-08T13:05:05.890Z",
+        "recordId": "20661",
+        "fetchedAt": "2026-08-13T17:52:02.268Z",
         "priority": 1
       },
       "confidence": "low",
@@ -695,7 +1060,7 @@
       "permanence": "unknown",
       "needs_review": true,
       "image": null,
-      "description": "Travelers, stock up on weapons and characters in the event wish to make your party stronger in combat! 〓Event Wish Details〓 Event Wish Duration Promotional Character (5-Star) Featured Characters (4-Star) 2026/07/21 18:00 – 2026/08/11…",
+      "description": "〓Event Rewards〓 〓Event Duration〓 Available throughout the entirety of Version 7.0 〓Eligibility〓 Adventure Rank 32 or above Complete Archon Quest Prologue: Act III \"Song of the Dragon and Freedom\" And complete the World Quest \"Battlefield…",
       "windowsByRegion": {}
     }
   ]

@@ -965,6 +965,48 @@ const GENSHIN_NAMECARD_ART = (() => {
   }
   return map;
 })();
+
+function genshinLibraryNames() {
+  const dir = path.resolve(dbDir, 'Library', 'gi');
+  if (!fs.existsSync(dir)) return new Set();
+  return new Set(fs.readdirSync(dir)
+    .filter((name) => name.endsWith('.json'))
+    .map((name) => cleanText(readJson(`Library/gi/${name}`).name, 180))
+    .filter(Boolean)
+    .map(normKey));
+}
+
+const GENSHIN_LIBRARY_NAMES = genshinLibraryNames();
+
+function genshinItemDestination(item, source) {
+  const materialType = String(source?.material_type || '');
+  const type = String(source?.type || item?.type || '').trim();
+  const description = String(source?.desc || item?.description || '');
+  if (['MATERIAL_NAMECARD', 'MATERIAL_PROFILE_PICTURE', 'MATERIAL_PROFILE_FRAME'].includes(materialType)) return 'gallery';
+  if (materialType === 'MATERIAL_GCG_CARD' || materialType === 'MATERIAL_GCG_CARD_FACE') return 'tcg';
+  if (materialType === 'MATERIAL_WEAPON_SKIN') return 'weapons';
+  if (type === 'Firearm Accessory Blueprint') return 'shadowRealm';
+  if (materialType === 'MATERIAL_FURNITURE_FORMULA'
+      || materialType === 'MATERIAL_FURNITURE_SUITE_FORMULA'
+      || (type === 'Material' && /\bfurniture\b|\bRealm Within\b/i.test(description))) return 'pot';
+  if (materialType === 'MATERIAL_PHOTOGRAPH_POSE'
+      || materialType === 'MATERIAL_COSTUME'
+      || materialType === 'MATERIAL_BEYOND_COSTUME_SELECTABLE_CHEST'
+      || type === 'Wonderland EXP') return 'wonderland';
+  if (GENSHIN_LIBRARY_NAMES.has(normKey(item?.name))) return 'library';
+  if (type === 'Unknown Weapon') return 'duplicate';
+  return 'items';
+}
+
+function genshinDatabaseItemReleased(item, source) {
+  return databaseRecordClassification({
+    game:'gi',
+    collection:'items',
+    recordId:item?.id,
+    name:item?.name,
+    sourceIcon:sourceIconField(source)?.value,
+  }) === 'released';
+}
 // G37: Endfield skill icons scraped from endfield.wiki.gg, keyed normKey(name) -> [Basic, Skill, Combo, Ult].
 const ENDFIELD_SKILL_ICONS = (() => {
   const rel = 'EndfieldWiki/endfield/skill-icons/manifest.json';
@@ -1442,6 +1484,28 @@ function buildGenshinFurniture() {
   const categories = [...catCounts.entries()]
     .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
     .map(([key, count]) => ({ key, count }));
+  const sourceItems = databaseSourceRows('gi', 'items');
+  const inventoryItem = (item) => ({
+      id:String(item.id),
+      name:item.name,
+      description:cleanDatabaseText(item.description),
+      rarity:Number(item.rarity) || null,
+      category:item.type,
+      art:dbAsset(item.assets?.icon),
+    });
+  const potItems = readJson('GameData/gi/live/items.json')
+    .filter((item) => {
+      const source = sourceItems.get(String(item.id));
+      return genshinDatabaseItemReleased(item, source) && genshinItemDestination(item, source) === 'pot';
+    });
+  const blueprints = potItems
+    .filter((item) => /Blueprint/i.test(item.type || ''))
+    .map(inventoryItem)
+    .sort((left, right) => Number(right.id) - Number(left.id));
+  const materials = potItems
+    .filter((item) => !/Blueprint/i.test(item.type || ''))
+    .map(inventoryItem)
+    .sort((left, right) => Number(right.id) - Number(left.id));
   const report = exists(reportRel) ? readJson(reportRel) : null;
   return {
     updated:report?.generatedAt || null,
@@ -1449,6 +1513,8 @@ function buildGenshinFurniture() {
     counts:{ items:items.length, craftable:items.filter((i) => i.recipe).length },
     categories,
     items,
+    blueprints,
+    materials,
   };
 }
 
@@ -4665,6 +4731,16 @@ function buildCollections() {
 }
 
 function buildCollectionsRaw() {
+  const genshinWeapons = normalizeGameDataItems('GameData/gi/live/weapons.json', 'Weapons', 'GameData', (it) => ({
+    id: 'gi-wpn-' + it.id,
+    name: it.name,
+    kind: 'weapon',
+    art: dbAsset(it.assets?.icon || it.assets?.gacha),
+    fields: { rarity: databaseRarityLabel(it.rarity), type: weaponMap[it.type] || it.type, atk: it.attack },
+    text: cleanDatabaseText(it.description),
+  }));
+  genshinWeapons.items = genshinWeapons.items.filter((item) => item.fields.type !== 'ITEM_TPS_WEAPON');
+  genshinWeapons.count = genshinWeapons.items.length;
   return {
     gi: [
       normalizeGameDataItems('GameData/gi/live/artifacts.json', 'Artifacts', 'GameData', (it) => ({
@@ -4677,14 +4753,7 @@ function buildCollectionsRaw() {
         fields: { rarity: databaseRarityLabel(Array.isArray(it.rarity) && it.rarity.length ? Math.max(...it.rarity) : it.rarity), type: it.type },
         text: cleanDatabaseText((it.setEffects || []).map((e) => `(${e.pieces}) ${e.description}`).join('\n\n')),
       })),
-      normalizeGameDataItems('GameData/gi/live/weapons.json', 'Weapons', 'GameData', (it) => ({
-        id: 'gi-wpn-' + it.id,
-        name: it.name,
-        kind: 'weapon',
-        art: dbAsset(it.assets?.icon || it.assets?.gacha),
-        fields: { rarity: databaseRarityLabel(it.rarity), type: weaponMap[it.type] || it.type, atk: it.attack },
-        text: cleanDatabaseText(it.description),
-      })),
+      genshinWeapons,
     ],
     hsr: [
       normalizePrydwenCollection('Prydwen/hsr/collections/light-cones.json', 'Light Cones'),
@@ -4741,6 +4810,14 @@ function buildLazyCollections() {
   };
   const objectLabel = (value) => value && typeof value === 'object' ? humanize(Object.values(value)[0]) : humanize(value);
   const iconOrNull = (icon) => dbAsset(icon) || null;
+  const genshinItemType = (item) => {
+    const source = databaseSourceRows('gi', 'items').get(String(item?.id));
+    const type = String(source?.type || item?.type || '').trim();
+    if (['Wishing Item', 'Limited Wishing Item', 'Superior Voucher', 'Common Voucher', 'Special Currency'].includes(type)) {
+      return 'Special Currency';
+    }
+    return humanize(type);
+  };
   const genshinTcgVariantArt = buildGenshinTcgItemVariantArtMap();
   const genshinItemArt = (item) => {
     const direct = iconOrNull(item?.assets?.icon);
@@ -4787,12 +4864,14 @@ function buildLazyCollections() {
       } : null),
       normalizeGameDataItems('GameData/gi/live/items.json', 'Items', 'GameData', (it) => {
         if (!it?.name || !approved('gi', 'items', it)) return null;
+        const source = databaseSourceRows('gi', 'items').get(String(it.id));
+        if (genshinItemDestination(it, source) !== 'items') return null;
         return {
           id: 'gi-item-' + it.id,
           name: it.name,
           kind: 'item',
           ...genshinItemArt(it),
-          fields: { rarity: databaseRarityLabel(it.rarity), type: humanize(it.type) },
+          fields: { rarity: databaseRarityLabel(it.rarity), type: genshinItemType(it) },
           text: cleanDatabaseText(it.description),
         };
       }),
@@ -4856,6 +4935,71 @@ function buildLazyCollections() {
       } : null),
     ],
   };
+}
+
+function buildGenshinShadowRealm() {
+  const weapons = readJson('GameData/gi/live/weapons.json')
+    .filter((item) => item?.name && item.type === 'ITEM_TPS_WEAPON')
+    .map((item) => ({
+      id:`gi-shadow-weapon-${item.id}`,
+      name:item.name,
+      kind:'weapon',
+      art:dbAsset(item.assets?.icon || item.assets?.gacha),
+      fields:{ rarity:databaseRarityLabel(item.rarity), type:'Weapon', atk:item.attack },
+      text:cleanDatabaseText(item.description),
+    }));
+  const accessories = readJson('GameData/gi/live/items.json')
+    .filter((item) => item?.name && item.type === 'Firearm Accessory Blueprint'
+      && genshinDatabaseItemReleased(item, databaseSourceRows('gi', 'items').get(String(item.id))))
+    .map((item) => ({
+      id:`gi-shadow-item-${item.id}`,
+      name:item.name,
+      kind:'item',
+      art:dbAsset(item.assets?.icon),
+      fields:{ rarity:databaseRarityLabel(item.rarity), type:'Firearm Accessory Blueprint' },
+      text:cleanDatabaseText(item.description),
+    }));
+  return { items:[...weapons, ...accessories] };
+}
+
+function buildGenshinGallery() {
+  const rawItems = databaseSourceRows('gi', 'items');
+  const items = readJson('GameData/gi/live/items.json')
+    .filter((item) => genshinDatabaseItemReleased(item, rawItems.get(String(item.id))));
+  const galleryItem = (item) => ({
+    id:String(item.id),
+    name:item.name,
+    description:cleanDatabaseText(item.description),
+    rarity:databaseRarityLabel(item.rarity),
+    art:dbAsset(item.assets?.icon),
+  });
+  const namecards = items
+    .filter((item) => rawItems.get(String(item.id))?.material_type === 'MATERIAL_NAMECARD')
+    .map((item) => {
+      const source = rawItems.get(String(item.id));
+      const token = String(source?.icon || '').replace(/^UI_NameCard(?:Icon|Pic)_/, '');
+      return {
+        ...galleryItem(item),
+        art:dbAsset(`GenshinWiki/namecards/all/${item.id}.webp`)
+          || dbAsset(`GameData/gi/assets/items/UI_NameCardPic_${token}.webp`),
+      };
+    })
+    .filter((item) => item.art);
+  const portraitItems = items
+    .filter((item) => rawItems.get(String(item.id))?.material_type === 'MATERIAL_PROFILE_PICTURE')
+    .map(galleryItem);
+  const characterPortraits = rosters.gi.map((character) => ({
+    id:character.id,
+    name:character.n,
+    description:character.title || '',
+    rarity:databaseRarityLabel(character.r),
+    art:character.icon,
+    sortId:String(character.id).match(/(\d+)$/)?.[1] || '0',
+  }));
+  const avatarFrames = items
+    .filter((item) => rawItems.get(String(item.id))?.material_type === 'MATERIAL_PROFILE_FRAME')
+    .map(galleryItem);
+  return { namecards, portraits:[...portraitItems, ...characterPortraits], avatarFrames };
 }
 
 const DATABASE_AUDIT_CONFIG = {
@@ -4956,6 +5100,7 @@ function buildDatabaseArtAudit(lazyCollections, inlineCollections, specials) {
 
       let availableArt = 0;
       let quarantinedCount = 0;
+      let routedCount = 0;
       normalized.forEach((row) => {
         const sourceRow = sourceRows.get(String(row.id));
         const iconField = sourceIconField(sourceRow);
@@ -4984,6 +5129,12 @@ function buildDatabaseArtAudit(lazyCollections, inlineCollections, specials) {
               ? 'The source row has no usable localized display name. It is quarantined without guessing or substituting a name.'
               : 'The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance.',
           });
+          return;
+        }
+
+        if (siteGame === 'gi' && collection === 'items'
+            && genshinItemDestination(row, sourceRow) !== 'items') {
+          routedCount += 1;
           return;
         }
 
@@ -5027,9 +5178,9 @@ function buildDatabaseArtAudit(lazyCollections, inlineCollections, specials) {
         });
       });
 
-      if (generated.length + quarantinedCount !== normalized.length) {
+      if (generated.length + routedCount + quarantinedCount !== normalized.length) {
         throw new Error(
-          `Database quarantine count mismatch for ${siteGame}/${collection}: normalized=${normalized.length}, generated=${generated.length}, quarantined=${quarantinedCount}`,
+          `Database output count mismatch for ${siteGame}/${collection}: normalized=${normalized.length}, generated=${generated.length}, routed=${routedCount}, quarantined=${quarantinedCount}`,
         );
       }
 
@@ -5039,6 +5190,7 @@ function buildDatabaseArtAudit(lazyCollections, inlineCollections, specials) {
         sourceCount: sourceRows.size,
         normalizedCount: normalized.length,
         quarantinedCount,
+        routedCount,
         approvedSourceCount: normalized.length - quarantinedCount,
         generatedCount: generated.length,
         localArtCount: availableArt,
@@ -5077,6 +5229,7 @@ function buildDatabaseArtAudit(lazyCollections, inlineCollections, specials) {
       sourceCount:list.length,
       normalizedCount:list.length,
       quarantinedCount:0,
+      routedCount:0,
       approvedSourceCount:list.length,
       generatedCount:list.length,
       localArtCount,
@@ -5092,9 +5245,15 @@ function buildDatabaseArtAudit(lazyCollections, inlineCollections, specials) {
   auditGeneratedCollection('special', 'gi', 'tcg-character-cards', specials?.tcg?.characterCards);
   auditGeneratedCollection('special', 'gi', 'tcg-action-cards', specials?.tcg?.otherCards);
   auditGeneratedCollection('special', 'gi', 'furniture', specials?.furniture?.items);
+  auditGeneratedCollection('special', 'gi', 'furnishing-blueprints', specials?.furniture?.blueprints);
+  auditGeneratedCollection('special', 'gi', 'realm-materials', specials?.furniture?.materials);
   auditGeneratedCollection('special', 'gi', 'wonderland-costumes', specials?.wonderland?.costumes);
   auditGeneratedCollection('special', 'gi', 'wonderland-suits', specials?.wonderland?.suits);
   auditGeneratedCollection('special', 'gi', 'wonderland-items', specials?.wonderland?.items);
+  auditGeneratedCollection('special', 'gi', 'shadow-realm', specials?.shadowRealm?.items);
+  auditGeneratedCollection('special', 'gi', 'gallery-namecards', specials?.gallery?.namecards);
+  auditGeneratedCollection('special', 'gi', 'gallery-portraits', specials?.gallery?.portraits);
+  auditGeneratedCollection('special', 'gi', 'gallery-avatar-frames', specials?.gallery?.avatarFrames);
 
   records.sort((a, b) => a.game.localeCompare(b.game)
     || a.collection.localeCompare(b.collection)
@@ -5157,9 +5316,15 @@ function applyDatabaseIntentionalFallbacks(lazyCollections, inlineCollections, s
   apply('gi', specials?.tcg?.characterCards);
   apply('gi', specials?.tcg?.otherCards);
   apply('gi', specials?.furniture?.items);
+  apply('gi', specials?.furniture?.blueprints);
+  apply('gi', specials?.furniture?.materials);
   apply('gi', specials?.wonderland?.costumes);
   apply('gi', specials?.wonderland?.suits);
   apply('gi', specials?.wonderland?.items);
+  apply('gi', specials?.shadowRealm?.items);
+  apply('gi', specials?.gallery?.namecards);
+  apply('gi', specials?.gallery?.portraits);
+  apply('gi', specials?.gallery?.avatarFrames);
   return count;
 }
 
@@ -5391,7 +5556,7 @@ function normalizeBannerCharacter(rosters, key, entry, runCounts) {
   // feed's shorthand (user 2026-08-09): game8 announces "Summeretto" and
   // "Ukinami Yuzuha", the game calls them "Robin • Summeretto" and "Yuzuha".
   // Only when the roster actually matched — an unmatched name stays as scraped.
-  const displayName = local?.n || beta?.name || name;
+  const displayName = entry?.displayName || local?.n || beta?.name || name;
   return {
     name: displayName,
     icon: local?.icon || entryImage || beta?.icon || null,
@@ -5403,6 +5568,41 @@ function normalizeBannerCharacter(rosters, key, entry, runCounts) {
     debut,
     debutAt,
   };
+}
+
+// User-provided order is only the tie-breaker for dateless teases. Game8 keeps
+// the names and artwork fresh; Nanoka beta and official history take over as
+// soon as a character receives machine-readable patch data.
+const BANNER_ROADMAP_ORDER = {
+  gi:['vesna', 'vodyanitsa', 'mitya', 'valeriy', 'tsaritsa', 'danica', 'noy'],
+  hsr:['robinsummeretto', 'aventurinewaveflair', 'pearl', 'nihilux'],
+  zzz:['claret', 'roxy', 'sunbringer', 'phoenix', 'thestoryteller'],
+  wuwa:['qingxiao', 'jingran', 'suoming', 'hsin'],
+};
+
+const BANNER_ROADMAP_DISPLAY = {
+  'gi:tsaritsa':'The Tsaritsa Anastasya Feodorovna Snezhnaya',
+};
+
+function bannerRoadmapCharacters(rosters, key, rows, runCounts) {
+  const preferred = BANNER_ROADMAP_ORDER[key] || [];
+  const byName = new Map((rows || []).map((row) => [rosterNameKey(row?.name), row]).filter(([name]) => name));
+  const selected = preferred.map((name) => byName.get(name)).filter(Boolean);
+  const selectedNames = new Set(selected.map((row) => rosterNameKey(row.name)));
+  for (const row of rows || []) {
+    const name = rosterNameKey(row?.name);
+    if (!name || selectedNames.has(name)) continue;
+    selected.push(row);
+    selectedNames.add(name);
+  }
+  return selected.map((row) => {
+    const sourceName = rosterNameKey(row.name);
+    const unit = normalizeBannerCharacter(rosters, key, {
+      ...row,
+      displayName:BANNER_ROADMAP_DISPLAY[`${key}:${sourceName}`] || undefined,
+    }, runCounts);
+    return unit ? { ...unit, hint:row.hint || null, source:row.source || null, sourceUrl:row.sourceUrl || null } : null;
+  }).filter(Boolean);
 }
 
 // Community banner pages occasionally publish a typo'd year (2026-08-08: the
@@ -5463,13 +5663,25 @@ function officialPhaseFrom(rows, key, rosters, runCounts) {
   if (!characters.length) return null;
   // A just-announced phase often has a start and no published end yet.
   const ends = rows.map((row) => row.end).filter((value) => Number.isFinite(value));
+  const latestPhase = rows.reduce((latest, row) => row.start > latest.start ? row : latest, rows[0]);
   return {
-    phase: rows[0].record.version || null,
+    phase: latestPhase.phase || latestPhase.record.version || null,
     start: new Date(Math.min(...rows.map((row) => row.start))).toISOString(),
     end: ends.length ? new Date(Math.max(...ends)).toISOString() : null,
     characters,
     subBanners: [],
   };
+}
+
+// Short overlap banners (for example HSR collaborations) do not start a new
+// three-week phase. A real phase boundary is at least two weeks later.
+const BANNER_PHASE_GAP_MS = 14 * 24 * 60 * 60 * 1000;
+function bannerPhaseStarts(starts) {
+  const phases = [];
+  for (const start of starts.sort((a, b) => a - b)) {
+    if (!phases.length || start - phases.at(-1) >= BANNER_PHASE_GAP_MS) phases.push(start);
+  }
+  return phases;
 }
 
 // What is live now and what is confirmed next, straight from the official
@@ -5482,9 +5694,29 @@ function officialPhaseFrom(rows, key, rosters, runCounts) {
 function officialPhases(key, rosters, runCounts, now) {
   const file = `BannerHistory/${key}.json`;
   if (!exists(file)) return { current:null, next:null };
+  const records = readJson(file).records || [];
+  const startsByVersion = new Map();
+  for (const record of records) {
+    if (record?.permanent || record?.bannerType === 'weapon' || !record?.version) continue;
+    const starts = Object.values(record.windowsByRegion || {}).map((window) => Date.parse(window?.start)).filter(Number.isFinite);
+    if (!starts.length) continue;
+    const version = String(record.version).trim();
+    if (!startsByVersion.has(version)) startsByVersion.set(version, []);
+    startsByVersion.get(version).push(Math.min(...starts));
+  }
+  for (const [version, starts] of startsByVersion) {
+    startsByVersion.set(version, bannerPhaseStarts(starts));
+  }
+  const phaseLabel = (record, start) => {
+    const version = String(record?.version || '').trim();
+    if (!version || /\bphase\s*\d+\b/i.test(version)) return version || null;
+    const starts = startsByVersion.get(version) || [];
+    const index = starts.findIndex((known) => Math.abs(known - start) < 36 * 60 * 60 * 1000);
+    return `${version} Phase ${Math.max(0, index) + 1}`;
+  };
   const live = [];
   const future = [];
-  for (const record of readJson(file).records || []) {
+  for (const record of records) {
     if (record?.permanent || record?.bannerType === 'weapon') continue;
     // Every region is considered, not just the first: the regions end hours
     // apart, so stopping at (say) Asia drops a banner that is still running in
@@ -5500,9 +5732,9 @@ function officialPhases(key, rosters, runCounts, now) {
       if (start <= now && Number.isFinite(end) && end >= now) {
         // Prefer the region that runs longest, so the countdown matches the
         // last server still on this banner.
-        if (!running || end > running.end) running = { record, start, end };
+        if (!running || end > running.end) running = { record, start, end, phase:phaseLabel(record, start) };
       } else if (start > now && (!starting || start < starting.start)) {
-        starting = { record, start, end };
+        starting = { record, start, end, phase:phaseLabel(record, start) };
       }
     }
     if (running) live.push(running);
@@ -5517,7 +5749,7 @@ function officialPhases(key, rosters, runCounts, now) {
   };
 }
 
-function buildBannersData(rosters) {
+function buildBannersData(rosters, betaDeltas = {}) {
   if (!exists('Banners/banners.json')) return { updated: null, games: {} };
   const src = readJson('Banners/banners.json');
   const now = Date.now();
@@ -5536,7 +5768,8 @@ function buildBannersData(rosters) {
     const keepLabel = (officialPhase, scraped) => {
       if (!officialPhase) return null;
       const sameRun = scraped?.phase && scraped.characters.some((row) => officialPhase.characters.some((hit) => hit.name === row.name));
-      return { ...officialPhase, phase:sameRun ? scraped.phase : officialPhase.phase };
+      if (key === 'ae') return { ...officialPhase, phase:sameRun ? scraped.phase : officialPhase.phase };
+      return { ...officialPhase, phase:officialPhase.phase || (sameRun ? scraped.phase : null) };
     };
     const current = keepLabel(official.current, scrapedCurrent) || scrapedCurrent;
     const next = keepLabel(official.next, scrapedNext) || scrapedNext;
@@ -5566,6 +5799,18 @@ function buildBannersData(rosters) {
     //    freshness (drops expired-as-current, merges identical windows).
     games[key] = reflowBannerGroup(normalized, now);
     if (teased.length) games[key].upcoming = [...(games[key].upcoming || []), ...teased];
+    const beta = (betaDeltas[key]?.roster || [])
+      .filter((row) => row?.betaStatus === 'new')
+      .map((row) => normalizeBannerCharacter(rosters, key, {
+        name:row.n,
+        image:row.icon,
+        imageSplash:row.art,
+        rarity:row.r ?? row.rarity ?? null,
+      }, runCounts))
+      .filter(Boolean);
+    if (beta.length) games[key].beta = beta;
+    const roadmap = bannerRoadmapCharacters(rosters, key, group.roadmap, runCounts);
+    if (roadmap.length) games[key].roadmap = roadmap;
   }
   return { updated: src.updated || src.generatedAt || null, checkedAt: src.checkedAt || null, games };
 }
@@ -5820,10 +6065,12 @@ fs.writeFileSync(
 );
 const collections = buildCollections();
 const codes = buildCodesData();
-const banners = buildBannersData(rosters);
+const banners = buildBannersData(rosters, cmBetaDeltas);
 const genshinTcgCards = buildGenshinTcgCards();
 const genshinFurniture = buildGenshinFurniture();
 const genshinWonderland = buildGenshinWonderland();
+const genshinShadowRealm = buildGenshinShadowRealm();
+const genshinGallery = buildGenshinGallery();
 const meta = sourceMeta();
 
 fs.mkdirSync(generatedDataDir, { recursive: true });
@@ -5874,11 +6121,15 @@ const databaseArtAudit = buildDatabaseArtAudit(lazyCollections, collections, {
   tcg:genshinTcgCards,
   furniture:genshinFurniture,
   wonderland:genshinWonderland,
+  shadowRealm:genshinShadowRealm,
+  gallery:genshinGallery,
 });
 const intentionalFallbackCount = applyDatabaseIntentionalFallbacks(lazyCollections, collections, {
   tcg:genshinTcgCards,
   furniture:genshinFurniture,
   wonderland:genshinWonderland,
+  shadowRealm:genshinShadowRealm,
+  gallery:genshinGallery,
 });
 if (intentionalFallbackCount !== databaseArtAudit.missingArtCount) {
   throw new Error(`Database fallback count mismatch: audit=${databaseArtAudit.missingArtCount}, applied=${intentionalFallbackCount}`);
@@ -5925,6 +6176,8 @@ const nyxData = {
       tcg: key === 'gi' ? genshinTcgCards : undefined,
       furniture: key === 'gi' ? genshinFurniture : undefined,
       wonderland: key === 'gi' ? genshinWonderland : undefined,
+      shadowRealm: key === 'gi' ? genshinShadowRealm : undefined,
+      gallery: key === 'gi' ? genshinGallery : undefined,
       roster: cmCfg[key].roster.map((ch) => ({
         id: ch.id,
         name: ch.n,
@@ -5965,7 +6218,7 @@ if (databaseOnly && fs.existsSync(nyxDataFile)) {
   for (const [game, next] of Object.entries(nyxData.games || {})) {
     current.games ||= {};
     current.games[game] ||= {};
-    for (const field of ['collections', 'tcg', 'furniture', 'wonderland']) {
+    for (const field of ['collections', 'tcg', 'furniture', 'wonderland', 'shadowRealm', 'gallery']) {
       if (Object.prototype.hasOwnProperty.call(next, field)) current.games[game][field] = next[field];
       else delete current.games[game][field];
     }

@@ -143,7 +143,9 @@ const NYX_SPECIAL_UNIT_NAMES = {
 };
 
 function normalizeUnitName(name){
-  return String(name || '').trim().toLowerCase().replace(/\s+/g, ' ');
+  return String(name || '').trim().toLowerCase()
+    .replace(/[\u00b7\u2022\u2013\u2014-]+/g, ' ')
+    .replace(/\s+/g, ' ');
 }
 
 function sanitizeSpecialUnits(raw){
@@ -374,7 +376,7 @@ const GAME_REGISTRY = {
     key:'gi', name:'Genshin Impact', charName:'Skirk',
     art:'../assets/char/skirk.jpg', benchIcon:'../assets/char/skirk_icon.png',
     pageBg:'../assets/bg/backgroundnyx.png', bgPos:'42% 38%', bgSize:'138% auto', bgTransform:'scale(1.04) rotate(-2deg)',
-    fns:['Characters','Database','Wish Tracker'],
+    fns:['Characters','Database','Gallery','Wish Tracker'],
     track:{ pull:'Wish', pulls:'Wishes', title:'Wish Tracker', currency:'Primogems', cost:160,
       fives:['Skirk','Mavuika','Neuvillette','Arlecchino','Furina'], fours:['Bennett','Xiangling','Fischl','Sucrose','Rosaria'] },
     codes:[
@@ -714,7 +716,7 @@ function gameBannerCards(gameCfg, source){
 // `calc(base * var(--fit))`, and this walks --fit down until it fits.
 // The parent is observed rather than the element itself — observing a node
 // whose font-size you are changing feeds the observer its own output.
-const NYX_FIT_STEPS = [0.92, 0.84, 0.76, 0.68, 0.6, 0.54, 0.48];
+const NYX_FIT_STEPS = [0.92, 0.84, 0.76, 0.68, 0.6, 0.54, 0.48, 0.42, 0.36];
 
 function useFitText(text, multiline = false){
   const ref = React.useRef(null);
@@ -859,6 +861,13 @@ function BannerPhaseCard({ card, now, showGame, unitLink }){
    starting next in the same split, and whatever is known after that.
    Same NYX_DB banner group every other banner surface reads — the board only
    decides which banner earns the big card. */
+function bannerUnitRecency(left, right){
+  if (left.debut !== right.debut) return left.debut ? -1 : 1;
+  const at = (unit) => unit.debutAt || (unit.debut ? '9999-12-31' : '');
+  if (at(left) !== at(right)) return at(left) > at(right) ? -1 : 1;
+  return left.order - right.order;
+}
+
 function bannerBoardColumn(cfg, phase, status){
   if (!phase) return null;
   const rosterMap = rosterUnitMap(cfg);
@@ -869,14 +878,10 @@ function bannerBoardColumn(cfg, phase, status){
   // Headline order: whoever is debuting, else whoever joined the game most
   // recently (user 2026-08-08 — a phase pairing a recent character with an
   // ancient rerun should lead with the recent one), else feed order.
-  const ranked = units.map((unit, index) => ({ unit, index })).sort((left, right) => {
-    if (left.unit.debut !== right.unit.debut) return left.unit.debut ? -1 : 1;
-    const at = (row) => row.unit.debutAt || '';
-    if (at(left) !== at(right)) return at(left) > at(right) ? -1 : 1;
-    return left.index - right.index;
-  }).map((row) => row.unit);
-  // Two characters means two headline cards — there is no "other" to demote.
-  const heroes = units.length === 2 ? ranked.slice(0, 2) : ranked.slice(0, 1);
+  const ranked = [...units].sort(bannerUnitRecency);
+  // Endfield keeps its paired headline cards; every other game demotes the
+  // simultaneous 5-star banners into compact rows under the newest one.
+  const heroes = cfg.key === 'ae' && units.length === 2 ? ranked.slice(0, 2) : ranked.slice(0, 1);
   return {
     status,
     label:phase.phase || null,
@@ -889,22 +894,61 @@ function bannerBoardColumn(cfg, phase, status){
     // mistaken for the banner's draw. Endfield has no featured 4-stars to
     // show — what matters there is the loss pool, so its off-banner
     // headliners take that slot instead (user 2026-08-11).
-    // ZZZ shows no lower-rarity row at all (user 2026-08-11) — its A-ranks
-    // crowd the card without telling a player anything they act on.
-    support:cfg.key === 'zzz' ? []
-      : cfg.key === 'ae' ? ranked.filter((unit) => !heroes.includes(unit))
+    support:cfg.key === 'ae' ? ranked.filter((unit) => !heroes.includes(unit))
       : all.filter((unit) => unit.rarity && unit.rarity < rank),
   };
 }
 
 function overviewBannerBoard(cfg){
   const group = dbBannerGroup(cfg.key);
-  if (!group) return { current:null, next:null, later:[] };
-  return {
-    current:bannerBoardColumn(cfg, group.current, 'live'),
-    next:bannerBoardColumn(cfg, group.next, 'next'),
-    later:(group.upcoming || []).map((phase) => bannerBoardColumn(cfg, phase, 'upcoming')).filter(Boolean).slice(0, 3),
+  if (!group) return { current:null, next:null, later:[], planned:[], future:[] };
+  const current = bannerBoardColumn(cfg, group.current, 'live');
+  const next = bannerBoardColumn(cfg, group.next, 'next');
+  const later = (group.upcoming || []).map((phase) => bannerBoardColumn(cfg, phase, 'upcoming')).filter(Boolean).slice(0, 3);
+  if (cfg.key === 'ae') return { current, next, later, planned:[], future:[] };
+
+  const rosterMap = rosterUnitMap(cfg);
+  const shown = new Set([current, next].filter(Boolean)
+    .flatMap((column) => [...column.heroes, ...column.others, ...column.support])
+    .map((unit) => normalizeUnitName(unit.name)));
+  const trustedFuture = new Set([...(group.beta || []), ...(group.roadmap || [])]
+    .map((unit) => normalizeUnitName(unit.name)));
+  const rows = [];
+  const add = (unit, source, hint = null, column = null) => {
+    const key = normalizeUnitName(unit?.name);
+    if (!key || shown.has(key)) return;
+    shown.add(key);
+    rows.push({ unit, source, hint, column });
   };
+  for (const column of later) {
+    for (const unit of [...column.heroes, ...column.others]) {
+      if (trustedFuture.has(normalizeUnitName(unit.name))) add(unit, 'scheduled', null, column);
+    }
+  }
+  const versionedRoadmap = (group.roadmap || []).filter((unit) => bannerRoadmapVersion(unit.hint));
+  for (const unit of versionedRoadmap) add(phaseUnit(cfg, unit, rosterMap, 0), 'roadmap', unit.hint);
+  for (const unit of group.beta || []) add(phaseUnit(cfg, unit, rosterMap, 0), 'beta');
+
+  const planned = rows.slice(0, 2).map((row) => ({
+    ...(row.column || {}),
+    status:'upcoming',
+    label:row.column?.label || null,
+    hint:row.hint,
+    start:NaN,
+    end:NaN,
+    heroes:[row.unit],
+    others:[],
+    support:[],
+  }));
+  const future = rows.slice(2).filter((row) => row.source !== 'beta').map((row) => row.unit);
+  for (const unit of group.roadmap || []) {
+    const key = normalizeUnitName(unit?.name);
+    if (!key || shown.has(key)) continue;
+    shown.add(key);
+    future.push(phaseUnit(cfg, unit, rosterMap, 0));
+  }
+  bannerApplyPlanLabels(current, next, planned, group.roadmap || []);
+  return { current, next, later, planned, future:future.filter(Boolean) };
 }
 
 // "6.7 Phase 2" reads as a patch; "Luna VIII" is already a name. Only prefix
@@ -951,11 +995,45 @@ function bannerNextPhaseHeading(later, next){
   return advanced ? bannerPhaseHeading({ label:advanced }) : null;
 }
 
+function bannerRoadmapVersion(hint){
+  const text = String(hint || '').trim();
+  const phaseFirst = text.match(/\bPhase\s*(\d+)\b[\s\S]*?\b(?:Version|Patch)\s*(\d+(?:\.\d+)+)/i);
+  if (phaseFirst) return { version:phaseFirst[2], phase:Number(phaseFirst[1]) };
+  const versionFirst = text.match(/\b(?:Version|Patch)\s*(\d+(?:\.\d+)+)(?:[\s\S]*?\bPhase\s*(\d+)\b)?/i)
+    || text.match(/\bRelease\s+in\s+(\d+(?:\.\d+)+)\b/i);
+  return versionFirst ? { version:versionFirst[1], phase:versionFirst[2] ? Number(versionFirst[2]) : null } : null;
+}
+
+function bannerPlanLabelFromHint(hint, previous){
+  const parsed = bannerRoadmapVersion(hint);
+  if (!parsed) return bannerAdvancePhaseLabel(previous);
+  if (parsed.phase) return `${parsed.version} Phase ${parsed.phase}`;
+  const prior = String(previous || '').match(/^(\d+(?:\.\d+)+)\s+Phase\s+(\d+)$/i);
+  return prior && prior[1] === parsed.version
+    ? bannerAdvancePhaseLabel(previous)
+    : `${parsed.version} Phase 1`;
+}
+
+function bannerApplyPlanLabels(current, next, planned, roadmap){
+  const roadmapHintFor = (column) => {
+    const names = new Set([...(column?.heroes || []), ...(column?.others || [])]
+      .map((unit) => normalizeUnitName(unit.name)));
+    return (roadmap || []).find((row) => names.has(normalizeUnitName(row.name)))?.hint || null;
+  };
+  if (current && !current.label) current.label = bannerPlanLabelFromHint(roadmapHintFor(current), null);
+  if (next && !next.label) next.label = bannerPlanLabelFromHint(roadmapHintFor(next), current?.label || null);
+  let previous = next?.label || current?.label || null;
+  for (const column of planned) {
+    column.label = column.label || bannerPlanLabelFromHint(column.hint, previous);
+    previous = column.label || previous;
+  }
+}
+
 function BannerBoardRow({ unit, status, onOpen }){
   const body = (
     <React.Fragment>
       {unit.icon && <img src={unit.icon} alt="" draggable="false" loading="lazy" />}
-      <b title={unit.name}>{unit.name}</b>
+      <FitText text={unit.name} />
     </React.Fragment>
   );
   return (
@@ -965,6 +1043,22 @@ function BannerBoardRow({ unit, status, onOpen }){
         ? <button type="button" className="gp-ovb-row-body is-link" title={'Open ' + unit.name}
                   onClick={onOpen}>{body}</button>
         : <div className="gp-ovb-row-body">{body}</div>}
+    </div>
+  );
+}
+
+function BannerBoardRail({ units, onOpen }){
+  const sorted = [...(units || [])].sort(bannerUnitRecency);
+  if (!sorted.length) return null;
+  return (
+    <div className="gp-ovb-rank-rail" aria-label="Featured lower-rarity characters">
+      {sorted.map((unit) => {
+        const open = onOpen && onOpen(unit);
+        const icon = unit.icon && <img src={unit.icon} alt="" draggable="false" loading="lazy" />;
+        return open
+          ? <button type="button" key={unit.name} title={unit.name} aria-label={unit.name} onClick={open}>{icon}</button>
+          : <span role="img" key={unit.name} title={unit.name} aria-label={unit.name}>{icon}</span>;
+      })}
     </div>
   );
 }
@@ -1029,10 +1123,9 @@ function OverviewBannerBoard({ cfg, onOpenMaterial }){
     start:column.start,
     end:column.end,
     featured:[hero],
-    // Both headline banners in a phase share the same featured lower-rarity
-    // units in game, so both cards list them — that also keeps every card in
-    // the row the same shape (user 2026-08-11).
-    others:column.support,
+    // Endfield's paired headline banners share the same loss pool. Other games
+    // render their lower-rarity units in the icon rail below the card.
+    others:cfg.key === 'ae' ? column.support : [],
     // ZZZ agent renders are full-body; letting them cover the card crops the
     // agent to a torso, so they are contained and zoomed instead.
     containArt:cfg.key === 'zzz',
@@ -1046,7 +1139,6 @@ function OverviewBannerBoard({ cfg, onOpenMaterial }){
   });
   const heroCards = (column) => (column ? column.heroes.map((hero, index) => heroCard(column, hero, index)) : []);
   const currentHeroes = heroCards(board.current);
-  const nextHeroes = heroCards(board.next);
   // Endfield's off-banner characters are the loss pool, not parallel banners.
   const lossPool = cfg.key === 'ae';
   const laterUnits = board.later.flatMap((column) => [...column.heroes, ...column.others].map((unit) => ({ unit, column, label:bannerPhaseHeading(column) })));
@@ -1068,44 +1160,56 @@ function OverviewBannerBoard({ cfg, onOpenMaterial }){
   const aeColumn = (index) => (aeUpcomingCards[index]
     ? <BannerPhaseCard card={aeUpcomingCards[index]} now={now} unitLink={unitLink} />
     : <BannerBoardEmpty />);
-  // A second headline card takes the neighbouring column; otherwise that column
-  // lists whatever else is running in the same phase.
-  const sideColumn = (column, cards, status, emptyText) => {
-    if (cards.length > 1) return <BannerPhaseCard card={cards[1]} now={now} unitLink={unitLink} />;
-    // Endfield's off-banner names are the loss pool and already sit on the
-    // headline card, so this column must not repeat them.
-    if (!lossPool && column && column.others.length) {
-      return column.others.map((unit) => <BannerBoardRow key={unit.name} unit={unit} status={status} onOpen={unitLink(unit)} />);
-    }
-    return <BannerBoardEmpty>{emptyText}</BannerBoardEmpty>;
+  const phaseColumn = (column, emptyText) => {
+    const cards = heroCards(column);
+    if (!cards.length) return <BannerBoardEmpty>{emptyText}</BannerBoardEmpty>;
+    return (
+      <React.Fragment>
+        <BannerPhaseCard card={cards[0]} now={now} unitLink={unitLink} />
+        {column.others.map((unit) => (
+          <BannerBoardRow key={unit.name} unit={unit} status={column.status} onOpen={unitLink(unit)} />
+        ))}
+        <BannerBoardRail units={column.support} onOpen={unitLink} />
+      </React.Fragment>
+    );
   };
+  if (!lossPool) {
+    return (
+      <section className="gp-ovb" aria-label="Banner schedule">
+        <BannerBoardColumn heading={bannerPhaseHeading(board.current)}>
+          {phaseColumn(board.current, 'No confirmed banner right now.')}
+        </BannerBoardColumn>
+        <BannerBoardColumn heading={bannerPhaseHeading(board.next)}>
+          {phaseColumn(board.next)}
+        </BannerBoardColumn>
+        <BannerBoardColumn heading={bannerPhaseHeading(board.planned[0])}>
+          {phaseColumn(board.planned[0])}
+        </BannerBoardColumn>
+        <BannerBoardColumn heading={bannerPhaseHeading(board.planned[1])}>
+          {phaseColumn(board.planned[1])}
+        </BannerBoardColumn>
+        <BannerBoardColumn heading={board.future.length ? 'Announced' : null}>
+          {board.future.map((unit) => (
+            <BannerBoardRow key={unit.name} unit={unit} status="upcoming" onOpen={unitLink(unit)} />
+          ))}
+        </BannerBoardColumn>
+      </section>
+    );
+  }
   return (
     <section className="gp-ovb" aria-label="Banner schedule">
       <BannerBoardColumn heading={bannerPhaseHeading(board.current)}>
         {currentHeroes.length ? <BannerPhaseCard card={currentHeroes[0]} now={now} unitLink={unitLink} /> : <BannerBoardEmpty>No confirmed banner right now.</BannerBoardEmpty>}
       </BannerBoardColumn>
-      <BannerBoardColumn heading={lossPool && aeUpcoming.length ? 'Upcoming' : null}>
-        {lossPool ? aeColumn(0) : sideColumn(board.current, currentHeroes, 'live', 'Nothing else running.')}
-      </BannerBoardColumn>
-      <BannerBoardColumn heading={lossPool ? null : bannerPhaseHeading(board.next)}>
-        {lossPool
-          ? aeColumn(1)
-          : (nextHeroes.length ? <BannerPhaseCard card={nextHeroes[0]} now={now} unitLink={unitLink} /> : <BannerBoardEmpty />)}
+      <BannerBoardColumn heading={aeUpcoming.length ? 'Upcoming' : null}>
+        {aeColumn(0)}
       </BannerBoardColumn>
       <BannerBoardColumn>
-        {lossPool ? aeColumn(2) : sideColumn(board.next, nextHeroes, 'next', undefined)}
+        {aeColumn(1)}
       </BannerBoardColumn>
-      {/* Endfield has nothing to put here, and an empty frame reads as a
-          missing banner, so the column is omitted outright. */}
-      {!lossPool && (
-        <BannerBoardColumn heading={board.later.length ? bannerNextPhaseHeading(board.later[0], board.next) : null}>
-          {laterUnits.length
-            ? laterUnits.map((row) => (
-                <BannerBoardRow key={(row.label || '') + row.unit.name} unit={row.unit} status="upcoming" onOpen={unitLink(row.unit)} />
-              ))
-            : <BannerBoardEmpty />}
-        </BannerBoardColumn>
-      )}
+      <BannerBoardColumn>
+        {aeColumn(2)}
+      </BannerBoardColumn>
       {lossHelp && (
         <div className="gp-ovb-modal" role="dialog" aria-modal="true" aria-label="Endfield loss rates"
              onClick={() => setLossHelp(false)}>
@@ -1428,9 +1532,7 @@ function TimePreferenceControl({ gameKey }){
   const fieldId = 'nyx-time-zone-' + String(gameKey || 'nyx').replace(/[^a-z0-9_-]/gi, '');
   return (
     <div className="nyx-time-pref" ref={rootRef}>
-      {/* All four choices live in one segmented pill: the three servers, then
-          Custom as a fourth segment behind a divider (user 2026-08-09 —
-          Custom used to sit outside as its own separate control). */}
+      {/* Compact text choices: three servers, then Custom behind a divider. */}
       <div className="nyx-time-pref-switch" role="group" aria-label="Server region and display timezone">
         <div className="nyx-time-pref-regions">
           {['eu','na','asia'].map((key) => (
@@ -2088,7 +2190,7 @@ function CollectionLibrary({ game, view, onViewChange }){
   const [extraState, setExtraState] = React.useState(NYX_DB_EXTRA_FILES[game] ? 'loading' : 'ready');
   const extra = (window.NYX_DB_EXTRA && window.NYX_DB_EXTRA[game] && window.NYX_DB_EXTRA[game].collections) || [];
   const collections = [...inline, ...extra];
-  const specialViews = game === 'gi' ? [{ key:'tcg', title:'TCG' }, { key:'pot', title:'Serenitea Pot' }, { key:'wonderland', title:'Miliastra Wonderland' }] : [];
+  const specialViews = game === 'gi' ? [{ key:'shadow', title:'TPS: Shadow Realm' }, { key:'tcg', title:'TCG' }, { key:'pot', title:'Serenitea Pot' }, { key:'wonderland', title:'Miliastra Wonderland' }] : [];
   const [active, setActive] = React.useState(collections[0] ? collections[0].key : '');
   const [q, setQ] = React.useState('');
   const [filters, setFilters] = React.useState({});
@@ -2096,7 +2198,7 @@ function CollectionLibrary({ game, view, onViewChange }){
   const [showAllRarities, setShowAllRarities] = React.useState(false);
   const [detailItem, setDetailItem] = React.useState(null);
   const restoreFocusRef = React.useRef(null);
-  const specialActive = view === 'tcg' || view === 'pot' || view === 'wonderland';
+  const specialActive = view === 'shadow' || view === 'tcg' || view === 'pot' || view === 'wonderland';
 
   React.useEffect(() => {
     const gameInline = ((window.NYX_DB && window.NYX_DB.games && window.NYX_DB.games[game]) || {}).collections || [];
@@ -2204,7 +2306,7 @@ function CollectionLibrary({ game, view, onViewChange }){
         </div>
       )}
       {specialActive
-        ? (view === 'tcg' ? <GenshinTcgView /> : (view === 'pot' ? <GenshinPotView /> : <GenshinWonderlandView />))
+        ? (view === 'shadow' ? <GenshinShadowRealmView /> : (view === 'tcg' ? <GenshinTcgView /> : (view === 'pot' ? <GenshinPotView /> : <GenshinWonderlandView />)))
         : (
           <React.Fragment>
             <DatabaseGroupedList
@@ -2232,12 +2334,15 @@ function DatabaseGroupSection({ group, showHeading, renderItem, rowHeight = 132,
   const headRef = React.useRef(null);
   const tailRef = React.useRef(null);
   const total = group.items.length;
+  const collapsible = nyxDatabaseGroupCollapsed(group.label);
+  const [open, setOpen] = React.useState(!collapsible);
   // A section starts empty and grows a chunk at a time as it scrolls into view.
   // Painting a whole section at once is fine for 250 weapons and fatal for the
   // 9,700-row Items list, which locked the tab up for tens of seconds.
-  const [shown, setShown] = React.useState(() => (total <= DB_SECTION_CHUNK ? total : 0));
+  const [shown, setShown] = React.useState(() => (collapsible ? 0 : (total <= DB_SECTION_CHUNK ? total : 0)));
   React.useEffect(() => { setShown(total <= DB_SECTION_CHUNK ? total : 0); }, [group.key, total]);
   React.useEffect(() => {
+    if (!open) return undefined;
     if (shown >= total) return undefined;
     if (typeof IntersectionObserver !== 'function') { setShown(total); return undefined; }
     const targets = [headRef.current, tailRef.current].filter(Boolean);
@@ -2249,21 +2354,21 @@ function DatabaseGroupSection({ group, showHeading, renderItem, rowHeight = 132,
     }, { rootMargin:'800px 0px' });
     targets.forEach((target) => observer.observe(target));
     return () => observer.disconnect();
-  }, [shown, total, group.key]);
+  }, [open, shown, total, group.key]);
   // Reserve the height of what has not been painted yet so the scrollbar keeps
   // a stable length instead of lurching as sections fill in.
   const reserved = Math.ceil(Math.max(0, total - shown) / columns) * rowHeight;
   return (
-    <section className={'db-group' + (group.unreleased ? ' is-unreleased' : '')}>
+    <section className={'db-group' + (group.unreleased ? ' is-unreleased' : '') + (collapsible ? ' is-collapsible' : '')}>
       {showHeading && (
         <div className="db-group-head" ref={headRef}>
+          {collapsible && <button type="button" className="db-group-toggle" aria-expanded={open} onClick={() => setOpen((value) => !value)}>{open ? '−' : '+'}</button>}
           <span className="t">{group.label}</span>
           <span className="n">{total}</span>
-          {group.unreleased && <span className="db-group-note">not shipped in the game data yet</span>}
         </div>
       )}
-      {shown > 0 && <div className="db-grid">{group.items.slice(0, shown).map(renderItem)}</div>}
-      {shown < total && (
+      {open && shown > 0 && <div className="db-grid">{group.items.slice(0, shown).map(renderItem)}</div>}
+      {open && shown < total && (
         <div className="db-grid-placeholder" ref={tailRef} style={{ height:reserved + 'px' }} aria-hidden="true"></div>
       )}
       {!showHeading && shown === 0 && <div ref={headRef} aria-hidden="true"></div>}
@@ -2272,7 +2377,7 @@ function DatabaseGroupSection({ group, showHeading, renderItem, rowHeight = 132,
 }
 
 /* Shared renderer for every Database list: sections by category, highest rarity
-   first, newest first inside a rarity, with 3-star and below behind a toggle. */
+   first, newest first inside a rarity, with only 1-2-star rows behind a toggle. */
 function DatabaseGroupedList({ items, renderItem, showAllRarities, onShowAllRarities, groupKey }){
   const visible = React.useMemo(
     () => nyxDatabaseApplyRarityFloor(items, showAllRarities),
@@ -2294,7 +2399,7 @@ function DatabaseGroupedList({ items, renderItem, showAllRarities, onShowAllRari
       {offersToggle && (
         <button type="button" className="db-rarity-toggle" aria-pressed={!!showAllRarities}
                 onClick={() => onShowAllRarities(!showAllRarities)}>
-          {showAllRarities ? 'Hide 3★ and below' : 'Show 3★ and below'}
+          {showAllRarities ? 'Hide 1–2★' : 'Show 1–2★'}
         </button>
       )}
     </div>
@@ -2456,6 +2561,72 @@ function CollectionDetailModal({ item, onClose }){
     </div>
   );
   return ReactDOM.createPortal ? ReactDOM.createPortal(modal, document.body) : modal;
+}
+
+function GenshinShadowRealmView(){
+  const items = dbGame('gi')?.shadowRealm?.items || [];
+  const [q, setQ] = React.useState('');
+  const [detail, setDetail] = React.useState(null);
+  const query = q.trim().toLowerCase();
+  const visible = items.filter((item) => !query || dbSearchText([item.name, item.text, item.fields]).toLowerCase().includes(query));
+  return (
+    <div className="db-special-view">
+      <div className="db-search-tools">
+        <div className="gp-search">
+          <span className="ic"></span>
+          <input value={q} placeholder="Search Shadow Realm" spellCheck="false" onChange={(event) => setQ(event.target.value)} />
+          {q !== '' && <button type="button" className="x" title="Clear" onClick={() => setQ('')}>{'\u2715'}</button>}
+        </div>
+      </div>
+      <DatabaseGroupedList items={visible} showAllRarities groupKey="type"
+        renderItem={(item) => <CollectionCard key={item.id} item={item} onOpen={setDetail} />} />
+      {visible.length === 0 && <div className="db-empty">No Shadow Realm items match your search.</div>}
+      {detail && <CollectionDetailModal item={detail} onClose={() => setDetail(null)} />}
+    </div>
+  );
+}
+
+const GALLERY_TABS = [
+  ['namecards', 'Namecards'],
+  ['portraits', 'Portraits'],
+  ['avatarFrames', 'Avatar Frames'],
+];
+
+function GenshinGalleryView(){
+  const gallery = dbGame('gi')?.gallery || {};
+  const [tab, setTab] = React.useState('namecards');
+  const [q, setQ] = React.useState('');
+  const query = q.trim().toLowerCase();
+  const items = (gallery[tab] || [])
+    .filter((item) => !query || dbSearchText([item.name, item.description]).toLowerCase().includes(query))
+    .slice()
+    .sort((left, right) => Number(right.sortId || right.id) - Number(left.sortId || left.id) || String(left.name).localeCompare(String(right.name)));
+  return (
+    <div className="gallery-view">
+      <div className="gallery-toolbar">
+        <div className="db-tabs" role="tablist" aria-label="Gallery">
+          {GALLERY_TABS.map(([key, label]) => (
+            <button type="button" role="tab" key={key} className={tab === key ? 'on' : ''}
+                    aria-selected={tab === key} onClick={() => setTab(key)}>{label}</button>
+          ))}
+        </div>
+        <div className="gp-search">
+          <span className="ic"></span>
+          <input value={q} placeholder={'Search ' + GALLERY_TABS.find(([key]) => key === tab)[1]} spellCheck="false" onChange={(event) => setQ(event.target.value)} />
+          {q !== '' && <button type="button" className="x" title="Clear" onClick={() => setQ('')}>{'\u2715'}</button>}
+        </div>
+      </div>
+      <div className={'gallery-grid is-' + tab}>
+        {items.map((item) => (
+          <figure className="gallery-card" key={item.id}>
+            <div className="gallery-art">{item.art ? <img src={item.art} alt="" loading="lazy" draggable="false" /> : <span>{simInitials(item.name)}</span>}</div>
+            <figcaption><b>{item.name}</b></figcaption>
+          </figure>
+        ))}
+      </div>
+      {items.length === 0 && <div className="db-empty">No gallery entries match your search.</div>}
+    </div>
+  );
 }
 
 function wonderValues(items, key){
@@ -2937,10 +3108,15 @@ function GenshinPotView(){
   const gameData = dbGame('gi') || {};
   const pot = gameData.furniture || {};
   const items = pot.items || [];
+  const extraGroups = [
+    { key:'blueprints', label:'Furnishing Blueprints', items:pot.blueprints || [] },
+    { key:'materials', label:'Realm Materials', items:pot.materials || [] },
+  ];
   const [category, setCategory] = React.useState('all');
   const [sub, setSub] = React.useState('all');
   const [q, setQ] = React.useState('');
   const [filterOpen, setFilterOpen] = React.useState(false);
+  const [extraOpen, setExtraOpen] = React.useState({});
   const [activeItem, setActiveItem] = React.useState(null);
   const gridRef = React.useRef(null);
   const listSnapshotRef = React.useRef(null);
@@ -2968,6 +3144,12 @@ function GenshinPotView(){
       .filter(Boolean).join(' ').toLowerCase();
     return hay.includes(qq);
   });
+  const visibleExtraGroups = extraGroups.map((group) => ({
+    ...group,
+    items:category === 'all' && sub === 'all'
+      ? group.items.filter((item) => !qq || [item.name, item.description, item.category].filter(Boolean).join(' ').toLowerCase().includes(qq))
+      : [],
+  })).filter((group) => group.items.length);
   // Everything renders — "Load more" was removed 2026-08-09 — newest first
   // within the selected category.
   const ordered = React.useMemo(() => visible.slice().sort(nyxDatabaseCompareItems), [visible]);
@@ -3099,9 +3281,29 @@ function GenshinPotView(){
             </div>
           </button>
         ))}
+        {visibleExtraGroups.map((group) => (
+          <section className="pot-extra-group" key={group.key}>
+            <button type="button" className="pot-extra-toggle" aria-expanded={!!extraOpen[group.key]}
+                    onClick={() => setExtraOpen((current) => ({ ...current, [group.key]:!current[group.key] }))}>
+              <span>{group.label}</span><b>{group.items.length}</b><i>{extraOpen[group.key] ? '−' : '+'}</i>
+            </button>
+            {extraOpen[group.key] && (
+              <div className="pot-extra-grid">
+                {group.items.map((item) => (
+                  <button type="button" className="pot-card" key={item.id} data-db-focus-key={dbListFocusKey('pot', item.id)} onClick={() => openItem(item)}>
+                    <DatabaseItemFrame className="pot-art" art={item.art} fallback={simInitials(item.name)} rarity={item.rarity}>
+                      {Number.isFinite(Number(item.rarity)) && item.rarity > 0 && <i className="pot-rar">{item.rarity + '★'}</i>}
+                    </DatabaseItemFrame>
+                    <div className="pot-meta"><b>{item.name}</b><span>{item.category}</span></div>
+                  </button>
+                ))}
+              </div>
+            )}
+          </section>
+        ))}
       </div>
 
-      {visible.length === 0 && <div className="db-empty">No furnishings match your search.</div>}
+      {visible.length === 0 && visibleExtraGroups.length === 0 && <div className="db-empty">No furnishings match your search.</div>}
     </div>
   );
 }
@@ -3494,6 +3696,7 @@ function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings, 
     };
   }, [cfg.key]);
   const hasTcg = cfg.key === 'gi';
+  const hasGallery = cfg.key === 'gi';
   const hasLibrary = cfg.key === 'gi' || cfg.key === 'hsr';
   const hasAchievements = achievementsSupported(cfg.key);
   const betaActive = cfg.key !== 'ae' && typeof cmHasBeta === 'function' && cmHasBeta(cfg.key) && (cmChannel === 'beta' || window.NYX_ALWAYS_BETA === true);
@@ -3526,7 +3729,7 @@ function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings, 
     }, 40);
   };
   // G13: the section list the Characters header icon-dropdown switches between.
-  const sectionKey = (f) => /tracker$/i.test(f) ? 'tracker' : /^(characters|character materials)$/i.test(f) ? 'mats' : 'database';
+  const sectionKey = (f) => /tracker$/i.test(f) ? 'tracker' : /^gallery$/i.test(f) ? 'gallery' : /^(characters|character materials)$/i.test(f) ? 'mats' : 'database';
   const sections = [{ key:'overview', label:'Overview' }, ...visibleFns.map((f) => ({ key:sectionKey(f), label:f })), ...(hasAchievements ? [{ key:'achievements', label:'Achievements' }] : []), ...(hasLibrary ? [{ key:'books', label:'Library' }] : []), ...(betaActive ? [{ key:'beta', label:'Beta' }] : []), { key:'settings', label:'Settings' }];
   return (
     <div className="gp-layout">
@@ -3534,11 +3737,12 @@ function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings, 
         <GPSectionNavButton active={tab === 'overview'} label="Overview" arrow={false} onActivate={() => setTab('overview')} />
         {visibleFns.map(f => {
           const isTracker = /tracker$/i.test(f);
+          const isGallery = /^gallery$/i.test(f);
           const isMats = /^(characters|character materials)$/i.test(f);
-          const key = isTracker ? 'tracker' : isMats ? 'mats' : 'database';
+          const key = isTracker ? 'tracker' : isGallery ? 'gallery' : isMats ? 'mats' : 'database';
           // TCG + Serenitea Pot live INSIDE Database now \u2014 their tabs keep the
           // Database nav row lit.
-          const isOn = tab === key || (key === 'database' && (tab === 'tcg' || tab === 'pot'));
+          const isOn = tab === key || (key === 'database' && (tab === 'shadow' || tab === 'tcg' || tab === 'pot' || tab === 'wonderland'));
           return (
             <GPSectionNavButton key={f} active={isOn} label={f} onActivate={() => setTab(key)} />
           );
@@ -3623,13 +3827,14 @@ function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings, 
           <GachaTracker key={cfg.key} inline cfg={buildTrack(cfg)} />
         </main>
       )}
-      {(tab === 'database' || tab === 'tcg' || tab === 'pot' || tab === 'wonderland') && (
+      {(tab === 'database' || tab === 'shadow' || tab === 'tcg' || tab === 'pot' || tab === 'wonderland') && (
         <main className="gp-main-pane fill">
           <CollectionLibrary key={cfg.key} game={cfg.key}
             view={tab === 'database' ? undefined : tab}
             onViewChange={(next) => setTab(next)} />
         </main>
       )}
+      {tab === 'gallery' && hasGallery && <main className="gp-main-pane fill"><GenshinGalleryView /></main>}
       {tab === 'achievements' && hasAchievements && <AchievementPage key={cfg.key} game={cfg.key} />}
       {tab === 'books' && hasLibrary && <LibraryPage game={cfg.key} />}
       {tab === 'beta' && betaActive && <BetaDataPanel gameKey={cfg.key} onOpenCharacter={openBetaCharacter} />}
@@ -4105,7 +4310,9 @@ const GAME_TAB_TO_ROUTE = {
   overview:'',
   mats:'materials',
   database:'database',
+  gallery:'gallery',
   tracker:'tracker',
+  shadow:'database/tps-shadow-realm',
   tcg:'database/tcg',
   pot:'database/serenitea-pot',
   wonderland:'database/wonderland',
@@ -4136,10 +4343,13 @@ const ROUTE_TO_GAME_TAB = {
   character:'mats',
   database:'database',
   library:'database', // old bookmarks land on the renamed Database tab
+  gallery:'gallery',
   achievements:'achievements',
   books:'books',
   tracker:'tracker',
   tcg:'tcg',
+  'tps-shadow-realm':'shadow',
+  shadow:'shadow',
   'serenitea-pot':'pot',
   pot:'pot',
   furniture:'pot',
@@ -4261,7 +4471,7 @@ function routeTitleFor(key, tab, selection, timelineGame){
       || (tab ? tab.replace(/\b\w/g, (c) => c.toUpperCase()) : '');
     return nyxLabel ? 'Nyx \u2014 ' + nyxLabel : 'Nyx';
   }
-  const label = { mats:'Characters', database:'Database', tracker:'Tracker', tcg:'TCG', pot:'Serenitea Pot', wonderland:'Miliastra Wonderland', achievements:'Achievements', books:'Library', beta:'Beta', settings:'Settings' }[tab] || '';
+  const label = { mats:'Characters', database:'Database', gallery:'Gallery', tracker:'Tracker', shadow:'TPS: Shadow Realm', tcg:'TCG', pot:'Serenitea Pot', wonderland:'Miliastra Wonderland', achievements:'Achievements', books:'Library', beta:'Beta', settings:'Settings' }[tab] || '';
   return label ? 'Nyx \u2014 ' + label + ' \u2014 ' + name : 'Nyx \u2014 ' + name;
 }
 
@@ -4270,7 +4480,7 @@ function validTabsForKey(key){
   // hub 2026-08-09; their old URLs fall through to Banners (the overview).
   if (key === 'nyx') return ['overview','events','characters','calendar','codes','settings'];
   const tabs = ['overview','mats','char-customize','database','tracker'];
-  if (key === 'gi') tabs.push('tcg','pot','wonderland');
+  if (key === 'gi') tabs.push('gallery','shadow','tcg','pot','wonderland');
   if (achievementsSupported(key)) tabs.push('achievements');
   if (key === 'gi' || key === 'hsr') tabs.push('books');
   tabs.push('beta','settings');

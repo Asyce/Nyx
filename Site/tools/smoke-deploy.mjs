@@ -444,12 +444,17 @@ async function main() {
   await assertNotExists('assets/bg/index-bg.webm');
   await assertNotExists('assets/bg/index-bg-poster.webp');
   await assertNotExists('dist/vendor');
-  const expectedDbMinimums = { gi:{ monsters:500, items:9000 }, hsr:{ monsters:500, items:1400 }, zzz:{ monsters:250, items:4500 }, wuwa:{ monsters:250, items:2000 } };
+  const nyxPayload = await readDeployText('dist/nyx-data.js');
+  const nyxContext = { window:{} };
+  vm.runInNewContext(nyxPayload, nyxContext, { filename:'nyx-data.js' });
+  const expectedDbMinimums = { gi:{ monsters:500, items:6000 }, hsr:{ monsters:500, items:1400 }, zzz:{ monsters:250, items:4500 }, wuwa:{ monsters:250, items:2000 } };
+  let genshinItems = [];
   for (const [game, minimums] of Object.entries(expectedDbMinimums)) {
     const pack = await readDeployText(`dist/db-data-${game}.js`);
     const context = { window:{ dispatchEvent() {} }, CustomEvent:class {} };
     vm.runInNewContext(pack, context, { filename:`db-data-${game}.js` });
     const collections = context.window.NYX_DB_EXTRA?.[game]?.collections || [];
+    if (game === 'gi') genshinItems = collections.find((collection) => collection.key === 'items')?.items || [];
     for (const [key, minimum] of Object.entries(minimums)) {
       const count = Number(pack.match(new RegExp(`"key": "${key}"[\\s\\S]{0,200}?"count": (\\d+)`))?.[1] || 0);
       if (count < minimum) throw new Error(`dist/db-data-${game}.js ${key} count ${count} is below safe minimum ${minimum}`);
@@ -463,9 +468,23 @@ async function main() {
       }
     }
   }
-  const nyxPayload = await readDeployText('dist/nyx-data.js');
-  const nyxContext = { window:{} };
-  vm.runInNewContext(nyxPayload, nyxContext, { filename:'nyx-data.js' });
+  const genshin = nyxContext.window.NYX_DB?.games?.gi;
+  const genshinItemPartitions = {
+    items:genshinItems,
+    tcg:[...(genshin?.tcg?.characterCards || []), ...(genshin?.tcg?.otherCards || [])],
+    furnitureBlueprints:genshin?.furniture?.blueprints || [],
+    furnitureMaterials:genshin?.furniture?.materials || [],
+    wonderland:[...(genshin?.wonderland?.costumes || []), ...(genshin?.wonderland?.suits || []), ...(genshin?.wonderland?.items || [])],
+    shadowRealm:genshin?.shadowRealm?.items || [],
+    galleryNamecards:genshin?.gallery?.namecards || [],
+    galleryPortraits:genshin?.gallery?.portraits || [],
+    galleryAvatarFrames:genshin?.gallery?.avatarFrames || [],
+  };
+  for (const [key, minimum] of Object.entries({ tcg:600, furnitureBlueprints:1400, furnitureMaterials:50, shadowRealm:19, galleryNamecards:280, galleryPortraits:100, galleryAvatarFrames:10 })) {
+    if (genshinItemPartitions[key].length < minimum) throw new Error(`Genshin ${key} count is below safe minimum ${minimum}`);
+  }
+  const genshinItemIds = new Set(Object.values(genshinItemPartitions).flat().map((item) => String(item.id || '').replace(/^gi-(?:item|shadow-(?:weapon|accessory))-/, '')).filter(Boolean));
+  if (genshinItemIds.size < 9000) throw new Error(`Genshin partitioned Database coverage ${genshinItemIds.size} is below safe minimum 9000`);
   const launcherCodes = JSON.parse(await readDeployText('dist/launcher-codes-v1.json'));
   const endfieldLauncherCode = launcherCodes?.games?.ae?.find((entry) => entry.code === 'ENDFIELDGIFT');
   if (endfieldLauncherCode?.amount !== 150 || endfieldLauncherCode?.currency !== 'Oroberyl') {

@@ -6,12 +6,15 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import sharp from 'sharp';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, '..', '..');
 const dbDir = path.resolve(root, 'Database');
 const charsPath = path.resolve(dbDir, 'GameData', 'gi', 'live', 'characters.json');
+const itemsPath = path.resolve(dbDir, 'GameData', 'gi', 'live', 'raw', 'itemAll.json');
 const outDir = path.resolve(dbDir, 'GenshinWiki', 'namecards');
+const allOutDir = path.resolve(outDir, 'all');
 const manifestPath = path.resolve(outDir, 'manifest.json');
 const reportPath = path.resolve(dbDir, 'reports', 'genshin-namecards.json');
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) NyxNamecardScraper/1.0';
@@ -34,12 +37,19 @@ async function fetchImage(url){
 
 async function main(){
   fs.mkdirSync(outDir, { recursive: true });
+  fs.mkdirSync(allOutDir, { recursive: true });
   fs.mkdirSync(path.dirname(reportPath), { recursive: true });
   const chars = JSON.parse(fs.readFileSync(charsPath, 'utf8'));
   const targets = chars.map((ch) => {
     const m = ch.assets?.gacha?.match(/UI_Gacha_AvatarImg_(.+)\.webp$/);
-    return m ? { name: ch.name, token: m[1] } : null;
+    return m ? { name:ch.name, token:m[1], dest:path.resolve(outDir, `${m[1]}.png`), rel:`GenshinWiki/namecards/${m[1]}.png` } : null;
   }).filter(Boolean);
+  const rawItems = JSON.parse(fs.readFileSync(itemsPath, 'utf8'));
+  Object.entries(rawItems).forEach(([id, item]) => {
+    if (item?.material_type !== 'MATERIAL_NAMECARD') return;
+    const token = String(item.icon || '').replace(/^UI_NameCard(?:Icon|Pic)_/, '');
+    if (token) targets.push({ name:item.name, token, dest:path.resolve(allOutDir, `${id}.webp`), webp:true });
+  });
 
   const manifest = (!force && fs.existsSync(manifestPath)) ? JSON.parse(fs.readFileSync(manifestPath, 'utf8')) : {};
   let ok = 0, miss = 0, cached = 0;
@@ -47,14 +57,11 @@ async function main(){
   const worker = async () => {
     while (queue.length){
       const t = queue.shift();
-      const file = `${t.token}.png`;
-      const dest = path.resolve(outDir, file);
-      const rel = `GenshinWiki/namecards/${file}`;
-      if (!force && fs.existsSync(dest)){ manifest[normName(t.name)] = rel; cached++; continue; }
+      if (!force && fs.existsSync(t.dest)){ if (t.rel) manifest[normName(t.name)] = t.rel; cached++; continue; }
       const url = `https://enka.network/ui/UI_NameCardPic_${t.token}_P.png`;
       try {
         const buf = await fetchImage(url);
-        if (buf){ fs.writeFileSync(dest, buf); manifest[normName(t.name)] = rel; ok++; }
+        if (buf){ fs.writeFileSync(t.dest, t.webp ? await sharp(buf).webp({ quality:84 }).toBuffer() : buf); if (t.rel) manifest[normName(t.name)] = t.rel; ok++; }
         else { miss++; }
       } catch { miss++; }
     }

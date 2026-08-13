@@ -589,7 +589,6 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
      2026-08-11). useFitText steps --fit down until it fits. */
   overflow:hidden;
   white-space:nowrap;
-  text-overflow:ellipsis;
   font-family:var(--nyx-font-display);
   font-size:calc(var(--gp-oban-name-size) * var(--fit, 1));
   line-height:1.08;
@@ -866,13 +865,42 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
   min-width:0;
   flex:1;
   overflow:hidden;
-  text-overflow:ellipsis;
   white-space:nowrap;
   font-family:var(--nyx-font-display);
-  font-size:var(--nyx-compat-size-17px);
+  font-size:calc(var(--nyx-compat-size-17px) * var(--fit, 1));
   color:var(--nyx-color-heading);
   text-shadow:var(--nyx-compat-shadow-text-b0e15cea0bf0);
 }
+.gp-ovb-rank-rail{
+  flex:0 0 auto;
+  min-width:0;
+  display:flex;
+  align-items:center;
+  gap:var(--nyx-space-8);
+  overflow-x:auto;
+  padding:var(--nyx-space-6) var(--nyx-space-8);
+  border-radius:var(--nyx-radius-control);
+  background:var(--nyx-compat-color-e1b276e64ad6);
+  scrollbar-width:none;
+}
+.gp-ovb-rank-rail::-webkit-scrollbar{ display:none; }
+.gp-ovb-rank-rail button,
+.gp-ovb-rank-rail > span{
+  appearance:none;
+  flex:none;
+  width:44px;
+  height:44px;
+  display:grid;
+  place-items:center;
+  padding:0;
+  border:0;
+  border-radius:50%;
+  background:var(--nyx-compat-color-e1b276e64ad6);
+  box-shadow:var(--nyx-compat-shadow-box-940bdb001abd);
+}
+.gp-ovb-rank-rail button{ cursor:pointer; }
+.gp-ovb-rank-rail button:focus-visible{ outline:2px solid var(--nyx-compat-color-hex-d9ceff); outline-offset:2px; }
+.gp-ovb-rank-rail img{ width:44px; height:44px; border-radius:50%; object-fit:cover; }
 .gp-ovb-row.st-next,
 .gp-ovb-row.st-upcoming{ opacity:.86; }
 .gp-ovb-note{
@@ -3321,6 +3349,15 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
   margin-top:var(--nyx-space-14);
   padding:var(--nyx-space-2) var(--nyx-space-8) var(--nyx-space-6) var(--nyx-space-2);
 }
+.pot-extra-group{ grid-column:1/-1; min-width:0; display:grid; gap:var(--nyx-space-12); }
+.pot-extra-toggle{ width:100%; min-height:38px; display:flex; align-items:center; gap:var(--nyx-space-10);
+  border:0; border-top:1px solid var(--nyx-color-border-strong); padding:var(--nyx-space-8) var(--nyx-space-4);
+  color:var(--nyx-color-heading); background:transparent; cursor:pointer; text-align:left; }
+.pot-extra-toggle span{ font-family:var(--nyx-font-display); font-size:var(--nyx-type-body); letter-spacing:var(--nyx-compat-tracking-p08em); }
+.pot-extra-toggle b{ color:var(--nyx-color-text-faint); font-size:var(--nyx-type-small); }
+.pot-extra-toggle i{ margin-left:auto; color:var(--nyx-color-heading); font-size:var(--nyx-type-title); font-style:normal; }
+.pot-extra-toggle:focus-visible{ outline:var(--nyx-focus-ring); outline-offset:var(--nyx-focus-offset); }
+.pot-extra-grid{ min-width:0; display:grid; grid-template-columns:repeat(auto-fill,minmax(132px,1fr)); align-content:start; gap:var(--nyx-space-12); }
 .pot-card{
   min-width:0;
   height:var(--pot-card-h);
@@ -3725,20 +3762,17 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 .gp-aside-time .nyx-time-pref{ width:100%; }
 .gp-aside-time .nyx-time-pref-switch{ width:100%; box-sizing:border-box; }
 .gp-aside-time .nyx-time-pref-popover{ left:0; right:0; }
-/* One plain pill holding all four choices: EU / NA / ASIA, a divider, then
-   Custom (user 2026-08-09 — Custom used to be a second pill beside this one).
+/* Plain compact text choices: EU / NA / ASIA, then Custom.
    The active choice glows rather than filling.
    Deliberately NOT named *-buttons: the shared control chrome near the end of
    this file hexagon-clips every button inside .nyx-time-pref-buttons. */
 .nyx-time-pref-switch{ display:flex; align-items:center; }
 .nyx-time-pref-regions{
-  display:inline-flex; align-items:center; height:32px; padding:0 var(--nyx-space-14);
-  border:1px solid var(--nyx-compat-color-fe41f066fa45); border-radius:var(--nyx-radius-pill);
-  background:var(--nyx-compat-color-0708ad8b00ca); box-shadow:none;
+  display:inline-flex; align-items:center; height:32px; padding:0;
 }
-/* Sets Custom apart inside the shared pill without breaking it into two. */
+/* A quiet divider separates Custom from the server choices. */
 .nyx-time-pref-div{
-  width:1px; height:14px; flex:none; margin:0 var(--nyx-space-12);
+  width:1px; height:12px; flex:none; margin:0 var(--nyx-space-8);
   background:var(--nyx-compat-color-fe41f066fa45);
 }
 .nyx-time-pref-switch button{
@@ -3751,7 +3785,7 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 /* Slash separators between the three server buttons only — the divider element
    already separates Custom. */
 .nyx-time-pref-regions button + button:not(.nyx-time-pref-custom)::before{
-  content:"/"; margin:0 var(--nyx-space-8); color:var(--nyx-compat-color-fe41f066fa45); text-shadow:none;
+  content:"/"; margin:0 var(--nyx-space-4); color:var(--nyx-compat-color-fe41f066fa45); text-shadow:none;
 }
 .nyx-time-pref-switch button:hover{ color:var(--nyx-color-text-soft); }
 .nyx-time-pref-regions button.on,
@@ -5246,6 +5280,9 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 .db-group-head .t{ font-family:var(--nyx-compat-family-ffc6cbbeca26); font-size:var(--nyx-type-body);
   letter-spacing:var(--nyx-compat-tracking-p2em); text-transform:uppercase; color:var(--nyx-color-heading); }
 .db-group-head .n{ font-size:var(--nyx-type-small); color:var(--nyx-color-text-faint); }
+.db-group-toggle{ width:24px; height:24px; flex:none; border:0; padding:0; cursor:pointer;
+  color:var(--nyx-color-heading); background:transparent; font-size:var(--nyx-type-title); line-height:1; }
+.db-group-toggle:focus-visible{ outline:var(--nyx-focus-ring); outline-offset:var(--nyx-focus-offset); }
 /* The bottom section holds rows with no artwork in either game channel — cut or
    not-yet-shipped content (user 2026-08-09). It reads quieter than a real
    category so it never competes with the sections above it. */
@@ -5260,6 +5297,26 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
   box-shadow:var(--nyx-compat-shadow-box-fc1223acb7c7); font-size:var(--nyx-compat-size-11px); }
 .db-rarity-toggle:hover,.db-rarity-toggle:focus-visible{ outline:2px solid var(--nyx-compat-color-hex-d8ceff); outline-offset:2px; background:var(--nyx-compat-color-d57b2d640b5a); }
 .db-group .db-grid{ flex:none; overflow:visible; margin-top:0; padding:0; }
+.db-special-view{ min-height:0; display:flex; flex:1 1 auto; flex-direction:column; gap:var(--nyx-space-14); }
+.db-special-view > .db-search-tools{ justify-content:flex-end; }
+
+/* Gallery: wide namecards stay wide; portraits and frames use the same quiet
+   caption rhythm without borrowing Database rarity frames. */
+.gallery-view{ min-height:0; display:flex; flex:1 1 auto; flex-direction:column; gap:var(--nyx-space-16); }
+.gallery-toolbar{ flex:none; display:flex; align-items:center; justify-content:space-between; gap:var(--nyx-space-16); }
+.gallery-toolbar .db-tabs{ flex:1 1 auto; }
+.gallery-toolbar .gp-search{ flex:0 1 330px; }
+.gallery-grid{ min-height:0; overflow-y:auto; display:grid; grid-template-columns:repeat(auto-fill,minmax(300px,1fr));
+  gap:var(--nyx-space-18); padding:var(--nyx-space-2) var(--nyx-space-8) var(--nyx-space-16) var(--nyx-space-2); align-content:start; }
+.gallery-grid.is-portraits,.gallery-grid.is-avatarFrames{ grid-template-columns:repeat(auto-fill,minmax(150px,1fr)); }
+.gallery-card{ min-width:0; margin:0; display:grid; gap:var(--nyx-space-8); }
+.gallery-art{ width:100%; aspect-ratio:2.1/1; overflow:hidden; display:grid; place-items:center;
+  border-radius:var(--nyx-radius-card); background:var(--nyx-color-surface-nested); box-shadow:var(--nyx-shadow-edge-subtle); }
+.gallery-art img{ width:100%; height:100%; object-fit:cover; }
+.gallery-grid.is-portraits .gallery-art,.gallery-grid.is-avatarFrames .gallery-art{ aspect-ratio:1; }
+.gallery-grid.is-portraits .gallery-art img,.gallery-grid.is-avatarFrames .gallery-art img{ object-fit:contain; padding:var(--nyx-space-10); }
+.gallery-card figcaption{ min-width:0; display:grid; gap:var(--nyx-space-2); }
+.gallery-card figcaption b{ color:var(--nyx-color-heading); font-size:var(--nyx-type-body); line-height:1.2; overflow-wrap:anywhere; }
 .db-grid{ flex:1 1 0%; min-height:0; overflow-y:auto; margin-top:var(--nyx-space-16); padding:var(--nyx-space-2) var(--nyx-space-8) var(--nyx-space-6) var(--nyx-space-2);
   display:grid; grid-template-columns:repeat(auto-fill, minmax(112px, 1fr)); gap:var(--nyx-space-14); align-content:start; }
 .db-grid::-webkit-scrollbar{ width:7px; }
@@ -7024,6 +7081,10 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
     grid-template-columns:repeat(auto-fill, minmax(144px, 1fr));
   }
   .tcg-search-tools{ width:100%; min-width:0; }
+  .gallery-toolbar{ align-items:stretch; flex-direction:column; }
+  .gallery-toolbar .gp-search{ flex-basis:auto; width:100%; }
+  .gallery-grid{ grid-template-columns:1fr; }
+  .gallery-grid.is-portraits,.gallery-grid.is-avatarFrames{ grid-template-columns:repeat(auto-fill,minmax(120px,1fr)); }
   .tcg-filter-popout{ left:0; right:auto; width:100%; }
   .tcg-detail-panel,
   .pot-detail-panel,
@@ -8192,14 +8253,6 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
    `.gp-ov-timers .gp-reset-panel` loses to it. */
 /* Three classes deep to outrank the shared-surface :is() above. */
 .gp-ov-side.gp-ov-timers .gp-reset-panel{ padding:0; background:none; box-shadow:none; border:0; border-radius:0; }
-/* Re-assert the pill on Custom: the generic switch-button rule that strips
-   chrome from the server segments also matches it. */
-.nyx-time-pref-switch button.nyx-time-pref-custom{
-  padding:0 var(--nyx-space-14);
-  border:1px solid var(--nyx-compat-color-fe41f066fa45);
-  border-radius:var(--nyx-radius-pill);
-  background:var(--nyx-compat-color-0708ad8b00ca);
-}
 
 /* ZZZ splash art sits inside the card rather than filling it edge to edge, so
    a full-body agent render is not cropped to a torso. Zoomed slightly and

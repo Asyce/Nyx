@@ -20,6 +20,7 @@
     "scrape:character-meta": "node ./tools/scrape-character-fandom-metadata.mjs",
     "scrape:gi-birthdays": "node ./tools/scrape-genshin-birthday-art.mjs",
     "scrape:gi-namecards": "node ./tools/scrape-genshin-namecards.mjs",
+    "scrape:gi-avatars": "node ./tools/scrape-genshin-avatars.mjs",
     "scrape:ae-skills": "node ./tools/scrape-endfield-skill-icons.mjs",
     "scrape:gi-signatures": "node ./tools/scrape-genshin-signature-weapons.mjs",
     "scrape:hsr-holidays": "node ./tools/scrape-hsr-holiday-art.mjs",

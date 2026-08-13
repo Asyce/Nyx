@@ -160636,962 +160636,1066 @@ var NYX_DB = {
         ],
         "portraits": [
           {
-            "id": "320002",
-            "name": "Vigorous Yapping",
-            "description": "You see, the secret to keeping a spirited conversation going is actually...",
-            "rarity": "4 \u2605",
-            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_320002.webp"
+            "id": "wiki-avatar-473701",
+            "name": "Citlali: Whispers of Stars and Smoke",
+            "art": "../../Database/GenshinWiki/avatars/473701.webp",
+            "sortId": 473701
           },
           {
-            "id": "320003",
-            "name": "Diligent Study",
-            "description": "Daytime learning fuels nighttime dreams. Maybe this is how knowledge naturally finds its way into our minds...",
-            "rarity": "4 \u2605",
-            "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_320003.webp"
+            "id": "wiki-avatar-473700",
+            "name": "Charlotte - Hurlock Variations",
+            "art": "../../Database/GenshinWiki/avatars/473700.webp",
+            "sortId": 473700
           },
           {
-            "id": "gi-10000150",
-            "name": "Odette",
-            "description": "Swirling Snow",
-            "rarity": "5 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Odette_Circle.webp",
-            "sortId": "10000150"
-          },
-          {
-            "id": "gi-10000148",
-            "name": "Alyosha",
-            "description": "Swift-Striding Hound",
-            "rarity": "4 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Alyosha_Circle.webp",
-            "sortId": "10000148"
-          },
-          {
-            "id": "gi-10000133",
+            "id": "wiki-avatar-473699",
             "name": "Sandrone",
-            "description": "Mirrored Analysis",
-            "rarity": "5 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_MarionetteNew_Circle.webp",
-            "sortId": "10000133"
+            "art": "../../Database/GenshinWiki/avatars/473699.webp",
+            "sortId": 473699
           },
           {
-            "id": "gi-10000129",
+            "id": "wiki-avatar-473698",
             "name": "Lohen",
-            "description": "Sharpened Arrowhead",
-            "rarity": "5 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Lohen_Circle.webp",
-            "sortId": "10000129"
+            "art": "../../Database/GenshinWiki/avatars/473698.webp",
+            "sortId": 473698
           },
           {
-            "id": "gi-10000131",
+            "id": "wiki-avatar-473697",
             "name": "Nicole",
-            "description": "Clamor Within",
-            "rarity": "5 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Nicole_Circle.webp",
-            "sortId": "10000131"
+            "art": "../../Database/GenshinWiki/avatars/473697.webp",
+            "sortId": 473697
           },
           {
-            "id": "gi-10000132",
+            "id": "wiki-avatar-473696",
             "name": "Prune",
-            "description": "Childlike Dreams Cherished",
-            "rarity": "4 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Prune_Circle.webp",
-            "sortId": "10000132"
+            "art": "../../Database/GenshinWiki/avatars/473696.webp",
+            "sortId": 473696
           },
           {
-            "id": "gi-10000130",
+            "id": "wiki-avatar-473695",
             "name": "Linnea",
-            "description": "Augur of Wonders",
-            "rarity": "5 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Linnea_Circle.webp",
-            "sortId": "10000130"
+            "art": "../../Database/GenshinWiki/avatars/473695.webp",
+            "sortId": 473695
           },
           {
-            "id": "gi-10000128",
+            "id": "wiki-avatar-472528",
+            "name": "Nin-Kiggia",
+            "art": "../../Database/GenshinWiki/avatars/472528.webp",
+            "sortId": 472528
+          },
+          {
+            "id": "wiki-avatar-452006",
+            "name": "Zeitlind",
+            "art": "../../Database/GenshinWiki/avatars/452006.webp",
+            "sortId": 452006
+          },
+          {
+            "id": "wiki-avatar-443689",
             "name": "Varka",
-            "description": "Knight of Boreas",
-            "rarity": "5 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Varka_Circle.webp",
-            "sortId": "10000128"
+            "art": "../../Database/GenshinWiki/avatars/443689.webp",
+            "sortId": 443689
           },
           {
-            "id": "gi-10000126",
+            "id": "wiki-avatar-442135",
             "name": "Zibai",
-            "description": "White Horse's Fleeting Spring",
-            "rarity": "5 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/icons/UI_AvatarIcon_Zibai.webp",
-            "sortId": "10000126"
+            "art": "../../Database/GenshinWiki/avatars/442135.webp",
+            "sortId": 442135
           },
           {
-            "id": "gi-10000127",
+            "id": "wiki-avatar-442121",
             "name": "Illuga",
-            "description": "Nightmare's Burning Heart",
-            "rarity": "4 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/icons/UI_AvatarIcon_Illuga.webp",
-            "sortId": "10000127"
+            "art": "../../Database/GenshinWiki/avatars/442121.webp",
+            "sortId": 442121
           },
           {
-            "id": "gi-10000125",
-            "name": "Columbina",
-            "description": "Welkin Moon's Homecoming",
-            "rarity": "5 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/icons/UI_AvatarIcon_Columbina.webp",
-            "sortId": "10000125"
+            "id": "wiki-avatar-439511",
+            "name": "Yaoyao: Rainlit Bamboo Reverie",
+            "art": "../../Database/GenshinWiki/avatars/439511.webp",
+            "sortId": 439511
           },
           {
-            "id": "gi-10000123",
-            "name": "Durin",
-            "description": "\"The Undying Fire\"",
-            "rarity": "5 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/icons/UI_AvatarIcon_Durin.webp",
-            "sortId": "10000123"
+            "id": "wiki-avatar-434566",
+            "name": "Aether: As Heaven and Earth Are Made Anew",
+            "art": "../../Database/GenshinWiki/avatars/434566.webp",
+            "sortId": 434566
           },
           {
-            "id": "gi-10000124",
+            "id": "wiki-avatar-434565",
+            "name": "Lumine: As Heaven and Earth Are Made Anew",
+            "art": "../../Database/GenshinWiki/avatars/434565.webp",
+            "sortId": 434565
+          },
+          {
+            "id": "wiki-avatar-434562",
+            "name": "Durin: Toward the Distant Horizon",
+            "art": "../../Database/GenshinWiki/avatars/434562.webp",
+            "sortId": 434562
+          },
+          {
+            "id": "wiki-avatar-434559",
             "name": "Jahoda",
-            "description": "Windthreading Shadow",
-            "rarity": "4 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Jahoda_Circle.webp",
-            "sortId": "10000124"
+            "art": "../../Database/GenshinWiki/avatars/434559.webp",
+            "sortId": 434559
           },
           {
-            "id": "gi-10000122",
+            "id": "wiki-avatar-434558",
+            "name": "Durin",
+            "art": "../../Database/GenshinWiki/avatars/434558.webp",
+            "sortId": 434558
+          },
+          {
+            "id": "wiki-avatar-434557",
+            "name": "Neuvillette: Melusent Gift",
+            "art": "../../Database/GenshinWiki/avatars/434557.webp",
+            "sortId": 434557
+          },
+          {
+            "id": "wiki-avatar-434550",
+            "name": "Columbina",
+            "art": "../../Database/GenshinWiki/avatars/434550.webp",
+            "sortId": 434550
+          },
+          {
+            "id": "wiki-avatar-432267",
+            "name": "Arrow of Terpikeraunas",
+            "art": "../../Database/GenshinWiki/avatars/432267.webp",
+            "sortId": 432267
+          },
+          {
+            "id": "wiki-avatar-425888",
+            "name": "Diligent Study",
+            "art": "../../Database/GenshinWiki/avatars/425888.webp",
+            "sortId": 425888
+          },
+          {
+            "id": "wiki-avatar-417496",
             "name": "Nefer",
-            "description": "Secret Beneath the Sands",
-            "rarity": "5 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/icons/UI_AvatarIcon_Nefer.webp",
-            "sortId": "10000122"
+            "art": "../../Database/GenshinWiki/avatars/417496.webp",
+            "sortId": 417496
           },
           {
-            "id": "gi-10000120",
+            "id": "wiki-avatar-407337",
             "name": "Flins",
-            "description": "Shadowy Lights, Stranger Wights",
-            "rarity": "5 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Flins_Circle.webp",
-            "sortId": "10000120"
+            "art": "../../Database/GenshinWiki/avatars/407337.webp",
+            "sortId": 407337
           },
           {
-            "id": "gi-10000119",
+            "id": "wiki-avatar-404292",
+            "name": "The Other Side of the Frostmoon",
+            "art": "../../Database/GenshinWiki/avatars/404292.webp",
+            "sortId": 404292
+          },
+          {
+            "id": "wiki-avatar-404289",
+            "name": "Netochka",
+            "art": "../../Database/GenshinWiki/avatars/404289.webp",
+            "sortId": 404289
+          },
+          {
+            "id": "wiki-avatar-396185",
             "name": "Lauma",
-            "description": "Evermoon's Sacrament Song",
-            "rarity": "5 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Lauma_Circle.webp",
-            "sortId": "10000119"
+            "art": "../../Database/GenshinWiki/avatars/396185.webp",
+            "sortId": 396185
           },
           {
-            "id": "gi-10000121",
+            "id": "wiki-avatar-396131",
             "name": "Aino",
-            "description": "Clinky-Clank Gadgets-A-Gogo",
-            "rarity": "4 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Aino_Circle.webp",
-            "sortId": "10000121"
+            "art": "../../Database/GenshinWiki/avatars/396131.webp",
+            "sortId": 396131
           },
           {
-            "id": "gi-10000116",
+            "id": "wiki-avatar-391828",
+            "name": "Bennett: Adventures in Blazing Hue",
+            "art": "../../Database/GenshinWiki/avatars/391828.webp",
+            "sortId": 391828
+          },
+          {
+            "id": "wiki-avatar-391827",
             "name": "Ineffa",
-            "description": "Boom Boom Thunderwave",
-            "rarity": "5 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Ineffa_Circle.webp",
-            "sortId": "10000116"
+            "art": "../../Database/GenshinWiki/avatars/391827.webp",
+            "sortId": 391827
           },
           {
-            "id": "gi-10000114",
+            "id": "wiki-avatar-391794",
+            "name": "Yelan: Tranquil Banquet",
+            "art": "../../Database/GenshinWiki/avatars/391794.webp",
+            "sortId": 391794
+          },
+          {
+            "id": "wiki-avatar-391793",
+            "name": "The Scholar Who Crossed the Mare Jivari",
+            "art": "../../Database/GenshinWiki/avatars/391793.webp",
+            "sortId": 391793
+          },
+          {
+            "id": "wiki-avatar-383639",
+            "name": "Vigorous Yapping",
+            "art": "../../Database/GenshinWiki/avatars/383639.webp",
+            "sortId": 383639
+          },
+          {
+            "id": "wiki-avatar-379104",
             "name": "Skirk",
-            "description": "Void Star",
-            "rarity": "5 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_SkirkNew_Circle.webp",
-            "sortId": "10000114"
+            "art": "../../Database/GenshinWiki/avatars/379104.webp",
+            "sortId": 379104
           },
           {
-            "id": "gi-10000115",
+            "id": "wiki-avatar-379103",
             "name": "Dahlia",
-            "description": "Ode and Oblation",
-            "rarity": "4 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Dahlia_Circle.webp",
-            "sortId": "10000115"
+            "art": "../../Database/GenshinWiki/avatars/379103.webp",
+            "sortId": 379103
           },
           {
-            "id": "gi-10000112",
+            "id": "wiki-avatar-372312",
             "name": "Escoffier",
-            "description": "Tasteful Excellence",
-            "rarity": "5 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Escoffier_Circle.webp",
-            "sortId": "10000112"
+            "art": "../../Database/GenshinWiki/avatars/372312.webp",
+            "sortId": 372312
           },
           {
-            "id": "gi-10000113",
+            "id": "wiki-avatar-372311",
             "name": "Ifa",
-            "description": "In the Wake of Wandering Winds",
-            "rarity": "4 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Ifa_Circle.webp",
-            "sortId": "10000113"
+            "art": "../../Database/GenshinWiki/avatars/372311.webp",
+            "sortId": 372311
           },
           {
-            "id": "gi-10000111",
-            "name": "Varesa",
-            "description": "Strength in Serenity",
-            "rarity": "5 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Varesa_Circle.webp",
-            "sortId": "10000111"
+            "id": "wiki-avatar-370687",
+            "name": "Hu Tao: Cherries Snow-Laden",
+            "art": "../../Database/GenshinWiki/avatars/370687.webp",
+            "sortId": 370687
           },
           {
-            "id": "gi-10000110",
+            "id": "wiki-avatar-370686",
             "name": "Iansan",
-            "description": "Tempered in Molten Stone",
-            "rarity": "4 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Iansan_Circle.webp",
-            "sortId": "10000110"
+            "art": "../../Database/GenshinWiki/avatars/370686.webp",
+            "sortId": 370686
           },
           {
-            "id": "gi-10000109",
+            "id": "wiki-avatar-370685",
             "name": "Yumemizuki Mizuki",
-            "description": "Embrace of Enchanting Dreams",
-            "rarity": "5 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Mizuki_Circle.webp",
-            "sortId": "10000109"
+            "art": "../../Database/GenshinWiki/avatars/370685.webp",
+            "sortId": 370685
           },
           {
-            "id": "gi-10000108",
+            "id": "wiki-avatar-370684",
+            "name": "Varesa",
+            "art": "../../Database/GenshinWiki/avatars/370684.webp",
+            "sortId": 370684
+          },
+          {
+            "id": "wiki-avatar-370117",
+            "name": "Silent Reverie Across Time",
+            "art": "../../Database/GenshinWiki/avatars/370117.webp",
+            "sortId": 370117
+          },
+          {
+            "id": "wiki-avatar-370101",
+            "name": "Till We Meet Again",
+            "art": "../../Database/GenshinWiki/avatars/370101.webp",
+            "sortId": 370101
+          },
+          {
+            "id": "wiki-avatar-359929",
             "name": "Lan Yan",
-            "description": "Spring Woven From Jade",
-            "rarity": "4 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Lanyan_Circle.webp",
-            "sortId": "10000108"
+            "art": "../../Database/GenshinWiki/avatars/359929.webp",
+            "sortId": 359929
           },
           {
-            "id": "gi-10000107",
+            "id": "wiki-avatar-359927",
+            "name": "Xiangling: New Year's Cheer",
+            "art": "../../Database/GenshinWiki/avatars/359927.webp",
+            "sortId": 359927
+          },
+          {
+            "id": "wiki-avatar-357998",
             "name": "Citlali",
-            "description": "Obsidian Opalstar",
-            "rarity": "5 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Citlali_Circle.webp",
-            "sortId": "10000107"
+            "art": "../../Database/GenshinWiki/avatars/357998.webp",
+            "sortId": 357998
           },
           {
-            "id": "gi-10000106",
+            "id": "wiki-avatar-357997",
             "name": "Mavuika",
-            "description": "Night-Igniting Flame",
-            "rarity": "5 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Mavuika_Circle.webp",
-            "sortId": "10000106"
+            "art": "../../Database/GenshinWiki/avatars/357997.webp",
+            "sortId": 357997
           },
           {
-            "id": "gi-10000104",
+            "id": "wiki-avatar-346927",
+            "name": "Last Hero of Cinder City",
+            "art": "../../Database/GenshinWiki/avatars/346927.webp",
+            "sortId": 346927
+          },
+          {
+            "id": "wiki-avatar-346918",
             "name": "Chasca",
-            "description": "Skyborne Arbiter",
-            "rarity": "5 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Chasca_Circle.webp",
-            "sortId": "10000104"
+            "art": "../../Database/GenshinWiki/avatars/346918.webp",
+            "sortId": 346918
           },
           {
-            "id": "gi-10000105",
+            "id": "wiki-avatar-346917",
             "name": "Ororon",
-            "description": "Shadow of the Night-Wind",
-            "rarity": "4 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Olorun_Circle.webp",
-            "sortId": "10000105"
+            "art": "../../Database/GenshinWiki/avatars/346917.webp",
+            "sortId": 346917
           },
           {
-            "id": "gi-10000103",
+            "id": "wiki-avatar-346915",
             "name": "Xilonen",
-            "description": "Ardent Flames Forge the Soul",
-            "rarity": "5 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Xilonen_Circle.webp",
-            "sortId": "10000103"
+            "art": "../../Database/GenshinWiki/avatars/346915.webp",
+            "sortId": 346915
           },
           {
-            "id": "gi-10000101",
+            "id": "wiki-avatar-336466",
             "name": "Kinich",
-            "description": "Turnfire Hunt",
-            "rarity": "5 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Kinich_Circle.webp",
-            "sortId": "10000101"
+            "art": "../../Database/GenshinWiki/avatars/336466.webp",
+            "sortId": 336466
           },
           {
-            "id": "gi-10000102",
+            "id": "wiki-avatar-336465",
             "name": "Mualani",
-            "description": "Splish-Splash Wavechaser",
-            "rarity": "5 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Mualani_Circle.webp",
-            "sortId": "10000102"
+            "art": "../../Database/GenshinWiki/avatars/336465.webp",
+            "sortId": 336465
           },
           {
-            "id": "gi-10000100",
+            "id": "wiki-avatar-336464",
             "name": "Kachina",
-            "description": "Mottled Gold Yet Unsmelted",
-            "rarity": "4 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Kachina_Circle.webp",
-            "sortId": "10000100"
+            "art": "../../Database/GenshinWiki/avatars/336464.webp",
+            "sortId": 336464
           },
           {
-            "id": "gi-10000099",
+            "id": "wiki-avatar-336463",
             "name": "Emilie",
-            "description": "A Thousand Scents Traced",
-            "rarity": "5 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Emilie_Circle.webp",
-            "sortId": "10000099"
+            "art": "../../Database/GenshinWiki/avatars/336463.webp",
+            "sortId": 336463
           },
           {
-            "id": "gi-10000095",
+            "id": "wiki-avatar-336462",
             "name": "Sigewinne",
-            "description": "Wondrous Dragonheir",
-            "rarity": "5 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Sigewinne_Circle.webp",
-            "sortId": "10000095"
+            "art": "../../Database/GenshinWiki/avatars/336462.webp",
+            "sortId": 336462
           },
           {
-            "id": "gi-10000098",
-            "name": "Clorinde",
-            "description": "Candlebearer, Shadowhunter",
-            "rarity": "5 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Clorinde_Circle.webp",
-            "sortId": "10000098"
+            "id": "wiki-avatar-331581",
+            "name": "Your Saurian companion!",
+            "art": "../../Database/GenshinWiki/avatars/331581.webp",
+            "sortId": 331581
           },
           {
-            "id": "gi-10000097",
-            "name": "Sethos",
-            "description": "Wisdom's Measure",
-            "rarity": "4 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Sethos_Circle.webp",
-            "sortId": "10000097"
+            "id": "wiki-avatar-319932",
+            "name": "Kirara: Phantom in Boots",
+            "art": "../../Database/GenshinWiki/avatars/319932.webp",
+            "sortId": 319932
           },
           {
-            "id": "gi-10000096",
+            "id": "wiki-avatar-317177",
             "name": "Arlecchino",
-            "description": "Dire Balemoon",
-            "rarity": "5 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Arlecchino_Circle.webp",
-            "sortId": "10000096"
+            "art": "../../Database/GenshinWiki/avatars/317177.webp",
+            "sortId": 317177
           },
           {
-            "id": "gi-10000094",
+            "id": "wiki-avatar-317174",
+            "name": "Nilou: Breeze of Sabaa",
+            "art": "../../Database/GenshinWiki/avatars/317174.webp",
+            "sortId": 317174
+          },
+          {
+            "id": "wiki-avatar-309252",
+            "name": "Clorinde",
+            "art": "../../Database/GenshinWiki/avatars/309252.webp",
+            "sortId": 309252
+          },
+          {
+            "id": "wiki-avatar-309251",
+            "name": "Sethos",
+            "art": "../../Database/GenshinWiki/avatars/309251.webp",
+            "sortId": 309251
+          },
+          {
+            "id": "wiki-avatar-302829",
+            "name": "Nice to Meet You",
+            "art": "../../Database/GenshinWiki/avatars/302829.webp",
+            "sortId": 302829
+          },
+          {
+            "id": "wiki-avatar-302804",
+            "name": "Monsieur Os",
+            "art": "../../Database/GenshinWiki/avatars/302804.webp",
+            "sortId": 302804
+          },
+          {
+            "id": "wiki-avatar-302711",
+            "name": "Jeht and Benben",
+            "art": "../../Database/GenshinWiki/avatars/302711.webp",
+            "sortId": 302711
+          },
+          {
+            "id": "wiki-avatar-302709",
+            "name": "Hanachirusato's Mask",
+            "art": "../../Database/GenshinWiki/avatars/302709.webp",
+            "sortId": 302709
+          },
+          {
+            "id": "wiki-avatar-302705",
+            "name": "Dainichi Mikoshi",
+            "art": "../../Database/GenshinWiki/avatars/302705.webp",
+            "sortId": 302705
+          },
+          {
+            "id": "wiki-avatar-302703",
+            "name": "Crest of Artifice",
+            "art": "../../Database/GenshinWiki/avatars/302703.webp",
+            "sortId": 302703
+          },
+          {
+            "id": "wiki-avatar-302702",
+            "name": "Caterpillar",
+            "art": "../../Database/GenshinWiki/avatars/302702.webp",
+            "sortId": 302702
+          },
+          {
+            "id": "wiki-avatar-302701",
+            "name": "Bloomguard: Sorush",
+            "art": "../../Database/GenshinWiki/avatars/302701.webp",
+            "sortId": 302701
+          },
+          {
+            "id": "wiki-avatar-302700",
+            "name": "Arama",
+            "art": "../../Database/GenshinWiki/avatars/302700.webp",
+            "sortId": 302700
+          },
+          {
+            "id": "wiki-avatar-302699",
+            "name": "Ann & Mary-Ann",
+            "art": "../../Database/GenshinWiki/avatars/302699.webp",
+            "sortId": 302699
+          },
+          {
+            "id": "wiki-avatar-302698",
+            "name": "Zhiqiong's Signature",
+            "art": "../../Database/GenshinWiki/avatars/302698.webp",
+            "sortId": 302698
+          },
+          {
+            "id": "wiki-avatar-302697",
+            "name": "The Thunderbird and the Boy",
+            "art": "../../Database/GenshinWiki/avatars/302697.webp",
+            "sortId": 302697
+          },
+          {
+            "id": "wiki-avatar-302696",
+            "name": "The Formless Society",
+            "art": "../../Database/GenshinWiki/avatars/302696.webp",
+            "sortId": 302696
+          },
+          {
+            "id": "wiki-avatar-302695",
+            "name": "Provisional Head Priestess of the Asase Shrine",
+            "art": "../../Database/GenshinWiki/avatars/302695.webp",
+            "sortId": 302695
+          },
+          {
+            "id": "wiki-avatar-302694",
+            "name": "Pahsiv!",
+            "art": "../../Database/GenshinWiki/avatars/302694.webp",
+            "sortId": 302694
+          },
+          {
+            "id": "wiki-avatar-302693",
+            "name": "Mother of the Jinn",
+            "art": "../../Database/GenshinWiki/avatars/302693.webp",
+            "sortId": 302693
+          },
+          {
+            "id": "wiki-avatar-302068",
             "name": "Chiori",
-            "description": "The Thundering Seamstress",
-            "rarity": "5 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Chiori_Circle.webp",
-            "sortId": "10000094"
+            "art": "../../Database/GenshinWiki/avatars/302068.webp",
+            "sortId": 302068
           },
           {
-            "id": "gi-10000093",
+            "id": "wiki-avatar-302067",
             "name": "Xianyun",
-            "description": "Passerine Herald",
-            "rarity": "5 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Liuyun_Circle.webp",
-            "sortId": "10000093"
+            "art": "../../Database/GenshinWiki/avatars/302067.webp",
+            "sortId": 302067
           },
           {
-            "id": "gi-10000092",
+            "id": "wiki-avatar-302066",
             "name": "Gaming",
-            "description": "Leonine Vanguard",
-            "rarity": "4 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Gaming_Circle.webp",
-            "sortId": "10000092"
+            "art": "../../Database/GenshinWiki/avatars/302066.webp",
+            "sortId": 302066
           },
           {
-            "id": "gi-10000090",
+            "id": "wiki-avatar-302065",
             "name": "Chevreuse",
-            "description": "Executor of Justice",
-            "rarity": "4 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Chevreuse_Circle.webp",
-            "sortId": "10000090"
+            "art": "../../Database/GenshinWiki/avatars/302065.webp",
+            "sortId": 302065
           },
           {
-            "id": "gi-10000091",
+            "id": "wiki-avatar-302064",
             "name": "Navia",
-            "description": "Helm of the Radiant Rose",
-            "rarity": "5 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Navia_Circle.webp",
-            "sortId": "10000091"
+            "art": "../../Database/GenshinWiki/avatars/302064.webp",
+            "sortId": 302064
           },
           {
-            "id": "gi-10000089",
+            "id": "wiki-avatar-302063",
             "name": "Furina",
-            "description": "Endless Solo of Solitude",
-            "rarity": "5 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Furina_Circle.webp",
-            "sortId": "10000089"
+            "art": "../../Database/GenshinWiki/avatars/302063.webp",
+            "sortId": 302063
           },
           {
-            "id": "gi-10000088",
+            "id": "wiki-avatar-302062",
             "name": "Charlotte",
-            "description": "Lens of Verity",
-            "rarity": "4 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Charlotte_Circle.webp",
-            "sortId": "10000088"
+            "art": "../../Database/GenshinWiki/avatars/302062.webp",
+            "sortId": 302062
           },
           {
-            "id": "gi-10000086",
+            "id": "wiki-avatar-302061",
             "name": "Wriothesley",
-            "description": "Emissary of Solitary Iniquity",
-            "rarity": "5 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Wriothesley_Circle.webp",
-            "sortId": "10000086"
+            "art": "../../Database/GenshinWiki/avatars/302061.webp",
+            "sortId": 302061
           },
           {
-            "id": "gi-10000087",
+            "id": "wiki-avatar-302060",
             "name": "Neuvillette",
-            "description": "Ordainer of Inexorable Judgment",
-            "rarity": "5 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Neuvillette_Circle.webp",
-            "sortId": "10000087"
+            "art": "../../Database/GenshinWiki/avatars/302060.webp",
+            "sortId": 302060
           },
           {
-            "id": "gi-10000085",
+            "id": "wiki-avatar-302059",
             "name": "Freminet",
-            "description": "Yearning for Unseen Depths",
-            "rarity": "4 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Freminet_Circle.webp",
-            "sortId": "10000085"
+            "art": "../../Database/GenshinWiki/avatars/302059.webp",
+            "sortId": 302059
           },
           {
-            "id": "gi-10000084",
+            "id": "wiki-avatar-302058",
             "name": "Lyney",
-            "description": "Spectacle of Phantasmagoria",
-            "rarity": "5 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Liney_Circle.webp",
-            "sortId": "10000084"
+            "art": "../../Database/GenshinWiki/avatars/302058.webp",
+            "sortId": 302058
           },
           {
-            "id": "gi-10000083",
+            "id": "wiki-avatar-302057",
             "name": "Lynette",
-            "description": "Elegance in the Shadows",
-            "rarity": "4 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Linette_Circle.webp",
-            "sortId": "10000083"
+            "art": "../../Database/GenshinWiki/avatars/302057.webp",
+            "sortId": 302057
           },
           {
-            "id": "gi-10000061",
+            "id": "wiki-avatar-302056",
             "name": "Kirara",
-            "description": "Cat Upon the Eaves",
-            "rarity": "4 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Momoka_Circle.webp",
-            "sortId": "10000061"
+            "art": "../../Database/GenshinWiki/avatars/302056.webp",
+            "sortId": 302056
           },
           {
-            "id": "gi-10000082",
+            "id": "wiki-avatar-302055",
             "name": "Baizhu",
-            "description": "Beyond Mortality",
-            "rarity": "5 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Baizhuer_Circle.webp",
-            "sortId": "10000082"
+            "art": "../../Database/GenshinWiki/avatars/302055.webp",
+            "sortId": 302055
           },
           {
-            "id": "gi-10000081",
+            "id": "wiki-avatar-302054",
             "name": "Kaveh",
-            "description": "Empyrean Reflection",
-            "rarity": "4 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Kaveh_Circle.webp",
-            "sortId": "10000081"
+            "art": "../../Database/GenshinWiki/avatars/302054.webp",
+            "sortId": 302054
           },
           {
-            "id": "gi-10000080",
+            "id": "wiki-avatar-302053",
             "name": "Mika",
-            "description": "Coordinates of Clear Frost",
-            "rarity": "4 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Mika_Circle.webp",
-            "sortId": "10000080"
+            "art": "../../Database/GenshinWiki/avatars/302053.webp",
+            "sortId": 302053
           },
           {
-            "id": "gi-10000079",
+            "id": "wiki-avatar-302052",
             "name": "Dehya",
-            "description": "Flame-Mane",
-            "rarity": "5 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Dehya_Circle.webp",
-            "sortId": "10000079"
+            "art": "../../Database/GenshinWiki/avatars/302052.webp",
+            "sortId": 302052
           },
           {
-            "id": "gi-10000078",
+            "id": "wiki-avatar-302051",
             "name": "Alhaitham",
-            "description": "Admonishing Instruction",
-            "rarity": "5 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Alhatham_Circle.webp",
-            "sortId": "10000078"
+            "art": "../../Database/GenshinWiki/avatars/302051.webp",
+            "sortId": 302051
           },
           {
-            "id": "gi-10000077",
+            "id": "wiki-avatar-302050",
             "name": "Yaoyao",
-            "description": "Burgeoning Grace",
-            "rarity": "4 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Yaoyao_Circle.webp",
-            "sortId": "10000077"
+            "art": "../../Database/GenshinWiki/avatars/302050.webp",
+            "sortId": 302050
           },
           {
-            "id": "gi-10000075",
+            "id": "wiki-avatar-302049",
             "name": "Wanderer",
-            "description": "Eons Adrift",
-            "rarity": "5 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Wanderer_Circle.webp",
-            "sortId": "10000075"
+            "art": "../../Database/GenshinWiki/avatars/302049.webp",
+            "sortId": 302049
           },
           {
-            "id": "gi-10000076",
+            "id": "wiki-avatar-302048",
             "name": "Faruzan",
-            "description": "Enigmatic Machinist",
-            "rarity": "4 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Faruzan_Circle.webp",
-            "sortId": "10000076"
+            "art": "../../Database/GenshinWiki/avatars/302048.webp",
+            "sortId": 302048
           },
           {
-            "id": "gi-10000074",
+            "id": "wiki-avatar-302047",
             "name": "Layla",
-            "description": "Fantastical Evening Star",
-            "rarity": "4 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Layla_Circle.webp",
-            "sortId": "10000074"
+            "art": "../../Database/GenshinWiki/avatars/302047.webp",
+            "sortId": 302047
           },
           {
-            "id": "gi-10000073",
+            "id": "wiki-avatar-302046",
             "name": "Nahida",
-            "description": "Physic of Purity",
-            "rarity": "5 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Nahida_Circle.webp",
-            "sortId": "10000073"
+            "art": "../../Database/GenshinWiki/avatars/302046.webp",
+            "sortId": 302046
           },
           {
-            "id": "gi-10000070",
+            "id": "wiki-avatar-302045",
             "name": "Nilou",
-            "description": "Dance of Lotuslight",
-            "rarity": "5 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Nilou_Circle.webp",
-            "sortId": "10000070"
+            "art": "../../Database/GenshinWiki/avatars/302045.webp",
+            "sortId": 302045
           },
           {
-            "id": "gi-10000071",
+            "id": "wiki-avatar-302044",
             "name": "Cyno",
-            "description": "Judicator of Secrets",
-            "rarity": "5 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Cyno_Circle.webp",
-            "sortId": "10000071"
+            "art": "../../Database/GenshinWiki/avatars/302044.webp",
+            "sortId": 302044
           },
           {
-            "id": "gi-10000072",
+            "id": "wiki-avatar-302043",
             "name": "Candace",
-            "description": "Golden Vow",
-            "rarity": "4 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Candace_Circle.webp",
-            "sortId": "10000072"
+            "art": "../../Database/GenshinWiki/avatars/302043.webp",
+            "sortId": 302043
           },
           {
-            "id": "gi-10000068",
+            "id": "wiki-avatar-302042",
             "name": "Dori",
-            "description": "Treasure of Dream Garden",
-            "rarity": "4 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Dori_Circle.webp",
-            "sortId": "10000068"
+            "art": "../../Database/GenshinWiki/avatars/302042.webp",
+            "sortId": 302042
           },
           {
-            "id": "gi-10000069",
+            "id": "wiki-avatar-302041",
             "name": "Tighnari",
-            "description": "Verdant Strider",
-            "rarity": "5 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Tighnari_Circle.webp",
-            "sortId": "10000069"
+            "art": "../../Database/GenshinWiki/avatars/302041.webp",
+            "sortId": 302041
           },
           {
-            "id": "gi-10000067",
+            "id": "wiki-avatar-302040",
             "name": "Collei",
-            "description": "Sprout of Rebirth",
-            "rarity": "4 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Collei_Circle.webp",
-            "sortId": "10000067"
+            "art": "../../Database/GenshinWiki/avatars/302040.webp",
+            "sortId": 302040
           },
           {
-            "id": "gi-10000059",
+            "id": "wiki-avatar-302039",
             "name": "Shikanoin Heizou",
-            "description": "Analytical Harmony",
-            "rarity": "4 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Heizo_Circle.webp",
-            "sortId": "10000059"
+            "art": "../../Database/GenshinWiki/avatars/302039.webp",
+            "sortId": 302039
           },
           {
-            "id": "gi-10000065",
+            "id": "wiki-avatar-302038",
             "name": "Kuki Shinobu",
-            "description": "Mender of Tribulations",
-            "rarity": "4 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Shinobu_Circle.webp",
-            "sortId": "10000065"
+            "art": "../../Database/GenshinWiki/avatars/302038.webp",
+            "sortId": 302038
           },
           {
-            "id": "gi-10000060",
+            "id": "wiki-avatar-302037",
             "name": "Yelan",
-            "description": "Valley Orchid",
-            "rarity": "5 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Yelan_Circle.webp",
-            "sortId": "10000060"
+            "art": "../../Database/GenshinWiki/avatars/302037.webp",
+            "sortId": 302037
           },
           {
-            "id": "gi-10000066",
+            "id": "wiki-avatar-302036",
             "name": "Kamisato Ayato",
-            "description": "Pillar of Fortitude",
-            "rarity": "5 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Ayato_Circle.webp",
-            "sortId": "10000066"
+            "art": "../../Database/GenshinWiki/avatars/302036.webp",
+            "sortId": 302036
           },
           {
-            "id": "gi-10000058",
+            "id": "wiki-avatar-302035",
             "name": "Yae Miko",
-            "description": "Astute Amusement",
-            "rarity": "5 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Yae_Circle.webp",
-            "sortId": "10000058"
+            "art": "../../Database/GenshinWiki/avatars/302035.webp",
+            "sortId": 302035
           },
           {
-            "id": "gi-10000063",
+            "id": "wiki-avatar-302034",
+            "name": "Shenhe: Frostflower Dew",
+            "art": "../../Database/GenshinWiki/avatars/302034.webp",
+            "sortId": 302034
+          },
+          {
+            "id": "wiki-avatar-302033",
             "name": "Shenhe",
-            "description": "Lonesome Transcendence",
-            "rarity": "5 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Shenhe_Circle.webp",
-            "sortId": "10000063"
+            "art": "../../Database/GenshinWiki/avatars/302033.webp",
+            "sortId": 302033
           },
           {
-            "id": "gi-10000064",
+            "id": "wiki-avatar-302032",
             "name": "Yun Jin",
-            "description": "Stage Lucida",
-            "rarity": "4 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Yunjin_Circle.webp",
-            "sortId": "10000064"
+            "art": "../../Database/GenshinWiki/avatars/302032.webp",
+            "sortId": 302032
           },
           {
-            "id": "gi-10000057",
+            "id": "wiki-avatar-302031",
             "name": "Arataki Itto",
-            "description": "Hanamizaka Heroics",
-            "rarity": "5 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Itto_Circle.webp",
-            "sortId": "10000057"
+            "art": "../../Database/GenshinWiki/avatars/302031.webp",
+            "sortId": 302031
           },
           {
-            "id": "gi-10000055",
+            "id": "wiki-avatar-302030",
             "name": "Gorou",
-            "description": "Canine Warrior",
-            "rarity": "4 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Gorou_Circle.webp",
-            "sortId": "10000055"
+            "art": "../../Database/GenshinWiki/avatars/302030.webp",
+            "sortId": 302030
           },
           {
-            "id": "gi-10000050",
+            "id": "wiki-avatar-302029",
             "name": "Thoma",
-            "description": "Protector From Afar",
-            "rarity": "4 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Tohma_Circle.webp",
-            "sortId": "10000050"
+            "art": "../../Database/GenshinWiki/avatars/302029.webp",
+            "sortId": 302029
           },
           {
-            "id": "gi-10000054",
+            "id": "wiki-avatar-302028",
             "name": "Sangonomiya Kokomi",
-            "description": "Pearl of Wisdom",
-            "rarity": "5 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Kokomi_Circle.webp",
-            "sortId": "10000054"
+            "art": "../../Database/GenshinWiki/avatars/302028.webp",
+            "sortId": 302028
           },
           {
-            "id": "gi-10000052",
+            "id": "wiki-avatar-302027",
             "name": "Raiden Shogun",
-            "description": "Plane of Euthymia",
-            "rarity": "5 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Shougun_Circle.webp",
-            "sortId": "10000052"
+            "art": "../../Database/GenshinWiki/avatars/302027.webp",
+            "sortId": 302027
           },
           {
-            "id": "gi-10000056",
+            "id": "wiki-avatar-302026",
             "name": "Kujou Sara",
-            "description": "Crowfeather Kaburaya",
-            "rarity": "4 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Sara_Circle.webp",
-            "sortId": "10000056"
+            "art": "../../Database/GenshinWiki/avatars/302026.webp",
+            "sortId": 302026
           },
           {
-            "id": "gi-10000049",
+            "id": "wiki-avatar-302025",
+            "name": "Aloy",
+            "art": "../../Database/GenshinWiki/avatars/302025.webp",
+            "sortId": 302025
+          },
+          {
+            "id": "wiki-avatar-302024",
             "name": "Yoimiya",
-            "description": "Frolicking Flames",
-            "rarity": "5 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Yoimiya_Circle.webp",
-            "sortId": "10000049"
+            "art": "../../Database/GenshinWiki/avatars/302024.webp",
+            "sortId": 302024
           },
           {
-            "id": "gi-10000053",
+            "id": "wiki-avatar-302023",
             "name": "Sayu",
-            "description": "Mujina Ninja",
-            "rarity": "4 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Sayu_Circle.webp",
-            "sortId": "10000053"
+            "art": "../../Database/GenshinWiki/avatars/302023.webp",
+            "sortId": 302023
           },
           {
-            "id": "gi-10000002",
+            "id": "wiki-avatar-302022",
+            "name": "Kamisato Ayaka: Springbloom Missive",
+            "art": "../../Database/GenshinWiki/avatars/302022.webp",
+            "sortId": 302022
+          },
+          {
+            "id": "wiki-avatar-302021",
             "name": "Kamisato Ayaka",
-            "description": "Frostflake Heron",
-            "rarity": "5 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Ayaka_Circle.webp",
-            "sortId": "10000002"
+            "art": "../../Database/GenshinWiki/avatars/302021.webp",
+            "sortId": 302021
           },
           {
-            "id": "gi-10000047",
+            "id": "wiki-avatar-302020",
             "name": "Kaedehara Kazuha",
-            "description": "Scarlet Leaves Pursue Wild Waves",
-            "rarity": "5 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Kazuha_Circle.webp",
-            "sortId": "10000047"
+            "art": "../../Database/GenshinWiki/avatars/302020.webp",
+            "sortId": 302020
           },
           {
-            "id": "gi-10000051",
+            "id": "wiki-avatar-302019",
             "name": "Eula",
-            "description": "Dance of the Shimmering Wave",
-            "rarity": "5 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Eula_Circle.webp",
-            "sortId": "10000051"
+            "art": "../../Database/GenshinWiki/avatars/302019.webp",
+            "sortId": 302019
           },
           {
-            "id": "gi-10000048",
+            "id": "wiki-avatar-302018",
             "name": "Yanfei",
-            "description": "Wise Innocence",
-            "rarity": "4 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Feiyan_Circle.webp",
-            "sortId": "10000048"
+            "art": "../../Database/GenshinWiki/avatars/302018.webp",
+            "sortId": 302018
           },
           {
-            "id": "gi-10000045",
+            "id": "wiki-avatar-302017",
+            "name": "Rosaria: To the Church's Free Spirit",
+            "art": "../../Database/GenshinWiki/avatars/302017.webp",
+            "sortId": 302017
+          },
+          {
+            "id": "wiki-avatar-302016",
             "name": "Rosaria",
-            "description": "Thorny Benevolence",
-            "rarity": "4 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Rosaria_Circle.webp",
-            "sortId": "10000045"
+            "art": "../../Database/GenshinWiki/avatars/302016.webp",
+            "sortId": 302016
           },
           {
-            "id": "gi-10000046",
+            "id": "wiki-avatar-302015",
             "name": "Hu Tao",
-            "description": "Fragrance in Thaw",
-            "rarity": "5 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Hutao_Circle.webp",
-            "sortId": "10000046"
+            "art": "../../Database/GenshinWiki/avatars/302015.webp",
+            "sortId": 302015
           },
           {
-            "id": "gi-10000026",
+            "id": "wiki-avatar-302014",
             "name": "Xiao",
-            "description": "Vigilant Yaksha",
-            "rarity": "5 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Xiao_Circle.webp",
-            "sortId": "10000026"
+            "art": "../../Database/GenshinWiki/avatars/302014.webp",
+            "sortId": 302014
           },
           {
-            "id": "gi-10000037",
+            "id": "wiki-avatar-302013",
+            "name": "Ganyu: Twilight Blossom",
+            "art": "../../Database/GenshinWiki/avatars/302013.webp",
+            "sortId": 302013
+          },
+          {
+            "id": "wiki-avatar-302012",
             "name": "Ganyu",
-            "description": "Plenilune Gaze",
-            "rarity": "5 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Ganyu_Circle.webp",
-            "sortId": "10000037"
+            "art": "../../Database/GenshinWiki/avatars/302012.webp",
+            "sortId": 302012
           },
           {
-            "id": "gi-10000038",
+            "id": "wiki-avatar-302011",
             "name": "Albedo",
-            "description": "Kreideprinz",
-            "rarity": "5 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Albedo_Circle.webp",
-            "sortId": "10000038"
+            "art": "../../Database/GenshinWiki/avatars/302011.webp",
+            "sortId": 302011
           },
           {
-            "id": "gi-10000030",
+            "id": "wiki-avatar-302010",
             "name": "Zhongli",
-            "description": "Vago Mundo",
-            "rarity": "5 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Zhongli_Circle.webp",
-            "sortId": "10000030"
+            "art": "../../Database/GenshinWiki/avatars/302010.webp",
+            "sortId": 302010
           },
           {
-            "id": "gi-10000044",
+            "id": "wiki-avatar-302009",
             "name": "Xinyan",
-            "description": "Blazing Riff",
-            "rarity": "4 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Xinyan_Circle.webp",
-            "sortId": "10000044"
+            "art": "../../Database/GenshinWiki/avatars/302009.webp",
+            "sortId": 302009
           },
           {
-            "id": "gi-10000033",
+            "id": "wiki-avatar-302008",
             "name": "Tartaglia",
-            "description": "Childe",
-            "rarity": "5 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Tartaglia_Circle.webp",
-            "sortId": "10000033"
+            "art": "../../Database/GenshinWiki/avatars/302008.webp",
+            "sortId": 302008
           },
           {
-            "id": "gi-10000039",
+            "id": "wiki-avatar-302007",
             "name": "Diona",
-            "description": "K\u00e4tzlein Cocktail",
-            "rarity": "4 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Diona_Circle.webp",
-            "sortId": "10000039"
+            "art": "../../Database/GenshinWiki/avatars/302007.webp",
+            "sortId": 302007
           },
           {
-            "id": "gi-traveler",
-            "name": "Traveler",
-            "description": "Descender",
-            "rarity": "5 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
-            "sortId": "0"
+            "id": "wiki-avatar-302006",
+            "name": "Klee: Blossoming Starlight",
+            "art": "../../Database/GenshinWiki/avatars/302006.webp",
+            "sortId": 302006
           },
           {
-            "id": "gi-10000016",
-            "name": "Diluc",
-            "description": "Dark Side of Dawn",
-            "rarity": "5 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Diluc_Circle.webp",
-            "sortId": "10000016"
-          },
-          {
-            "id": "gi-10000003",
-            "name": "Jean",
-            "description": "Dandelion Knight",
-            "rarity": "5 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Qin_Circle.webp",
-            "sortId": "10000003"
-          },
-          {
-            "id": "gi-10000042",
-            "name": "Keqing",
-            "description": "Driving Thunder",
-            "rarity": "5 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Keqing_Circle.webp",
-            "sortId": "10000042"
-          },
-          {
-            "id": "gi-10000029",
+            "id": "wiki-avatar-302005",
             "name": "Klee",
-            "description": "Fleeing Sunlight",
-            "rarity": "5 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Klee_Circle.webp",
-            "sortId": "10000029"
+            "art": "../../Database/GenshinWiki/avatars/302005.webp",
+            "sortId": 302005
           },
           {
-            "id": "gi-10000041",
-            "name": "Mona",
-            "description": "Astral Reflection",
-            "rarity": "5 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Mona_Circle.webp",
-            "sortId": "10000041"
-          },
-          {
-            "id": "gi-10000035",
-            "name": "Qiqi",
-            "description": "Icy Resurrection",
-            "rarity": "5 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Qiqi_Circle.webp",
-            "sortId": "10000035"
-          },
-          {
-            "id": "gi-10000022",
+            "id": "wiki-avatar-302004",
             "name": "Venti",
-            "description": "Windborne Bard",
-            "rarity": "5 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Venti_Circle.webp",
-            "sortId": "10000022"
+            "art": "../../Database/GenshinWiki/avatars/302004.webp",
+            "sortId": 302004
           },
           {
-            "id": "gi-10000021",
-            "name": "Amber",
-            "description": "Gliding Champion",
-            "rarity": "4 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Ambor_Circle.webp",
-            "sortId": "10000021"
+            "id": "wiki-avatar-302003",
+            "name": "Keqing: Opulent Splendor",
+            "art": "../../Database/GenshinWiki/avatars/302003.webp",
+            "sortId": 302003
           },
           {
-            "id": "gi-10000014",
-            "name": "Barbara",
-            "description": "Shining Idol",
-            "rarity": "4 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Barbara_Circle.webp",
-            "sortId": "10000014"
+            "id": "wiki-avatar-302002",
+            "name": "Keqing",
+            "art": "../../Database/GenshinWiki/avatars/302002.webp",
+            "sortId": 302002
           },
           {
-            "id": "gi-10000024",
-            "name": "Beidou",
-            "description": "Uncrowned Lord of the Ocean",
-            "rarity": "4 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Beidou_Circle.webp",
-            "sortId": "10000024"
+            "id": "wiki-avatar-302001",
+            "name": "Mona: Pact of Stars and Moon",
+            "art": "../../Database/GenshinWiki/avatars/302001.webp",
+            "sortId": 302001
           },
           {
-            "id": "gi-10000032",
-            "name": "Bennett",
-            "description": "Trial by Fire",
-            "rarity": "4 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Bennett_Circle.webp",
-            "sortId": "10000032"
+            "id": "wiki-avatar-302000",
+            "name": "Mona",
+            "art": "../../Database/GenshinWiki/avatars/302000.webp",
+            "sortId": 302000
           },
           {
-            "id": "gi-10000036",
-            "name": "Chongyun",
-            "description": "Frozen Ardor",
-            "rarity": "4 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Chongyun_Circle.webp",
-            "sortId": "10000036"
+            "id": "wiki-avatar-301999",
+            "name": "Qiqi",
+            "art": "../../Database/GenshinWiki/avatars/301999.webp",
+            "sortId": 301999
           },
           {
-            "id": "gi-10000031",
-            "name": "Fischl",
-            "description": "Prinzessin der Verurteilung!",
-            "rarity": "4 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Fischl_Circle.webp",
-            "sortId": "10000031"
+            "id": "wiki-avatar-301998",
+            "name": "Diluc: Red Dead of Night",
+            "art": "../../Database/GenshinWiki/avatars/301998.webp",
+            "sortId": 301998
           },
           {
-            "id": "gi-10000015",
-            "name": "Kaeya",
-            "description": "Frostwind Swordsman",
-            "rarity": "4 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Kaeya_Circle.webp",
-            "sortId": "10000015"
+            "id": "wiki-avatar-301997",
+            "name": "Diluc",
+            "art": "../../Database/GenshinWiki/avatars/301997.webp",
+            "sortId": 301997
           },
           {
-            "id": "gi-10000006",
-            "name": "Lisa",
-            "description": "Witch of Purple Rose",
-            "rarity": "4 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Lisa_Circle.webp",
-            "sortId": "10000006"
+            "id": "wiki-avatar-301996",
+            "name": "Jean: Sea Breeze Dandelion",
+            "art": "../../Database/GenshinWiki/avatars/301996.webp",
+            "sortId": 301996
           },
           {
-            "id": "gi-10000027",
-            "name": "Ningguang",
-            "description": "Eclipsing Star",
-            "rarity": "4 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Ningguang_Circle.webp",
-            "sortId": "10000027"
+            "id": "wiki-avatar-301995",
+            "name": "Jean: Gunnhildr's Legacy",
+            "art": "../../Database/GenshinWiki/avatars/301995.webp",
+            "sortId": 301995
           },
           {
-            "id": "gi-10000034",
-            "name": "Noelle",
-            "description": "Chivalric Blossom",
-            "rarity": "4 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Noel_Circle.webp",
-            "sortId": "10000034"
+            "id": "wiki-avatar-301994",
+            "name": "Jean",
+            "art": "../../Database/GenshinWiki/avatars/301994.webp",
+            "sortId": 301994
           },
           {
-            "id": "gi-10000020",
-            "name": "Razor",
-            "description": "Wolf Boy",
-            "rarity": "4 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Razor_Circle.webp",
-            "sortId": "10000020"
-          },
-          {
-            "id": "gi-10000043",
+            "id": "wiki-avatar-301993",
             "name": "Sucrose",
-            "description": "Harmless Sweetie",
-            "rarity": "4 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Sucrose_Circle.webp",
-            "sortId": "10000043"
+            "art": "../../Database/GenshinWiki/avatars/301993.webp",
+            "sortId": 301993
           },
           {
-            "id": "gi-10000023",
-            "name": "Xiangling",
-            "description": "Exquisite Delicacy",
-            "rarity": "4 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Xiangling_Circle.webp",
-            "sortId": "10000023"
+            "id": "wiki-avatar-301992",
+            "name": "Chongyun",
+            "art": "../../Database/GenshinWiki/avatars/301992.webp",
+            "sortId": 301992
           },
           {
-            "id": "gi-10000025",
+            "id": "wiki-avatar-301991",
+            "name": "Noelle",
+            "art": "../../Database/GenshinWiki/avatars/301991.webp",
+            "sortId": 301991
+          },
+          {
+            "id": "wiki-avatar-301990",
+            "name": "Bennett",
+            "art": "../../Database/GenshinWiki/avatars/301990.webp",
+            "sortId": 301990
+          },
+          {
+            "id": "wiki-avatar-301989",
+            "name": "Fischl: Ein Immernachtstraum",
+            "art": "../../Database/GenshinWiki/avatars/301989.webp",
+            "sortId": 301989
+          },
+          {
+            "id": "wiki-avatar-301988",
+            "name": "Fischl",
+            "art": "../../Database/GenshinWiki/avatars/301988.webp",
+            "sortId": 301988
+          },
+          {
+            "id": "wiki-avatar-301987",
+            "name": "Ningguang: Orchid's Evening Gown",
+            "art": "../../Database/GenshinWiki/avatars/301987.webp",
+            "sortId": 301987
+          },
+          {
+            "id": "wiki-avatar-301986",
+            "name": "Ningguang",
+            "art": "../../Database/GenshinWiki/avatars/301986.webp",
+            "sortId": 301986
+          },
+          {
+            "id": "wiki-avatar-301985",
+            "name": "Xingqiu: Bamboo Rain",
+            "art": "../../Database/GenshinWiki/avatars/301985.webp",
+            "sortId": 301985
+          },
+          {
+            "id": "wiki-avatar-301984",
             "name": "Xingqiu",
-            "description": "Juvenile Galant",
-            "rarity": "4 \u2605",
-            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Xingqiu_Circle.webp",
-            "sortId": "10000025"
+            "art": "../../Database/GenshinWiki/avatars/301984.webp",
+            "sortId": 301984
+          },
+          {
+            "id": "wiki-avatar-301983",
+            "name": "Beidou",
+            "art": "../../Database/GenshinWiki/avatars/301983.webp",
+            "sortId": 301983
+          },
+          {
+            "id": "wiki-avatar-301982",
+            "name": "Xiangling",
+            "art": "../../Database/GenshinWiki/avatars/301982.webp",
+            "sortId": 301982
+          },
+          {
+            "id": "wiki-avatar-301981",
+            "name": "Razor",
+            "art": "../../Database/GenshinWiki/avatars/301981.webp",
+            "sortId": 301981
+          },
+          {
+            "id": "wiki-avatar-301980",
+            "name": "Barbara: Summertime Sparkle",
+            "art": "../../Database/GenshinWiki/avatars/301980.webp",
+            "sortId": 301980
+          },
+          {
+            "id": "wiki-avatar-301979",
+            "name": "Barbara",
+            "art": "../../Database/GenshinWiki/avatars/301979.webp",
+            "sortId": 301979
+          },
+          {
+            "id": "wiki-avatar-301978",
+            "name": "Lisa: A Sobriquet Under Shade",
+            "art": "../../Database/GenshinWiki/avatars/301978.webp",
+            "sortId": 301978
+          },
+          {
+            "id": "wiki-avatar-301977",
+            "name": "Lisa",
+            "art": "../../Database/GenshinWiki/avatars/301977.webp",
+            "sortId": 301977
+          },
+          {
+            "id": "wiki-avatar-301976",
+            "name": "Kaeya: Sailwind Shadow",
+            "art": "../../Database/GenshinWiki/avatars/301976.webp",
+            "sortId": 301976
+          },
+          {
+            "id": "wiki-avatar-301975",
+            "name": "Kaeya",
+            "art": "../../Database/GenshinWiki/avatars/301975.webp",
+            "sortId": 301975
+          },
+          {
+            "id": "wiki-avatar-301974",
+            "name": "Amber: 100% Outrider",
+            "art": "../../Database/GenshinWiki/avatars/301974.webp",
+            "sortId": 301974
+          },
+          {
+            "id": "wiki-avatar-301973",
+            "name": "Amber",
+            "art": "../../Database/GenshinWiki/avatars/301973.webp",
+            "sortId": 301973
+          },
+          {
+            "id": "wiki-avatar-301972",
+            "name": "Lumine",
+            "art": "../../Database/GenshinWiki/avatars/301972.webp",
+            "sortId": 301972
+          },
+          {
+            "id": "wiki-avatar-301971",
+            "name": "Aether",
+            "art": "../../Database/GenshinWiki/avatars/301971.webp",
+            "sortId": 301971
+          },
+          {
+            "id": "wiki-avatar-289096",
+            "name": "Rainjade Oblation",
+            "art": "../../Database/GenshinWiki/avatars/289096.webp",
+            "sortId": 289096
           }
         ],
         "avatarFrames": [
@@ -161671,6 +161775,952 @@ var NYX_DB = {
             "description": "The once grand and solemn ancient capital became a playground for the Jack Frost. All things lay sealed beneath the vast snow, as if for eternity. Only the sly Jack Frost knew that, when winter reaches its end, spring will return to the earth once more.",
             "rarity": "5 \u2605",
             "art": "../../Database/GameData/gi/assets/items/UI_AvatarFrameIcon_Snezhnaya_004.webp"
+          }
+        ],
+        "splashArts": [
+          {
+            "id": "splash-gi-10000150",
+            "name": "Odette",
+            "description": "Swirling Snow",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Odette.webp",
+            "sortId": "10000150"
+          },
+          {
+            "id": "splash-gi-10000148",
+            "name": "Alyosha",
+            "description": "Swift-Striding Hound",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Alyosha.webp",
+            "sortId": "10000148"
+          },
+          {
+            "id": "splash-gi-10000133",
+            "name": "Sandrone",
+            "description": "Mirrored Analysis",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_MarionetteNew.webp",
+            "sortId": "10000133"
+          },
+          {
+            "id": "splash-gi-10000129",
+            "name": "Lohen",
+            "description": "Sharpened Arrowhead",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Lohen.webp",
+            "sortId": "10000129"
+          },
+          {
+            "id": "splash-gi-10000131",
+            "name": "Nicole",
+            "description": "Clamor Within",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Nicole.webp",
+            "sortId": "10000131"
+          },
+          {
+            "id": "splash-gi-10000132",
+            "name": "Prune",
+            "description": "Childlike Dreams Cherished",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Prune.webp",
+            "sortId": "10000132"
+          },
+          {
+            "id": "splash-gi-10000130",
+            "name": "Linnea",
+            "description": "Augur of Wonders",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Linnea.webp",
+            "sortId": "10000130"
+          },
+          {
+            "id": "splash-gi-10000128",
+            "name": "Varka",
+            "description": "Knight of Boreas",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Varka.webp",
+            "sortId": "10000128"
+          },
+          {
+            "id": "splash-gi-10000126",
+            "name": "Zibai",
+            "description": "White Horse's Fleeting Spring",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Zibai.webp",
+            "sortId": "10000126"
+          },
+          {
+            "id": "splash-gi-10000127",
+            "name": "Illuga",
+            "description": "Nightmare's Burning Heart",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Illuga.webp",
+            "sortId": "10000127"
+          },
+          {
+            "id": "splash-gi-10000125",
+            "name": "Columbina",
+            "description": "Welkin Moon's Homecoming",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Columbina.webp",
+            "sortId": "10000125"
+          },
+          {
+            "id": "splash-gi-10000123",
+            "name": "Durin",
+            "description": "\"The Undying Fire\"",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Durin.webp",
+            "sortId": "10000123"
+          },
+          {
+            "id": "splash-gi-10000124",
+            "name": "Jahoda",
+            "description": "Windthreading Shadow",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Jahoda.webp",
+            "sortId": "10000124"
+          },
+          {
+            "id": "splash-gi-10000122",
+            "name": "Nefer",
+            "description": "Secret Beneath the Sands",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Nefer.webp",
+            "sortId": "10000122"
+          },
+          {
+            "id": "splash-gi-10000120",
+            "name": "Flins",
+            "description": "Shadowy Lights, Stranger Wights",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Flins.webp",
+            "sortId": "10000120"
+          },
+          {
+            "id": "splash-gi-10000119",
+            "name": "Lauma",
+            "description": "Evermoon's Sacrament Song",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Lauma.webp",
+            "sortId": "10000119"
+          },
+          {
+            "id": "splash-gi-10000121",
+            "name": "Aino",
+            "description": "Clinky-Clank Gadgets-A-Gogo",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Aino.webp",
+            "sortId": "10000121"
+          },
+          {
+            "id": "splash-gi-10000116",
+            "name": "Ineffa",
+            "description": "Boom Boom Thunderwave",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Ineffa.webp",
+            "sortId": "10000116"
+          },
+          {
+            "id": "splash-gi-10000114",
+            "name": "Skirk",
+            "description": "Void Star",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_SkirkNew.webp",
+            "sortId": "10000114"
+          },
+          {
+            "id": "splash-gi-10000115",
+            "name": "Dahlia",
+            "description": "Ode and Oblation",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Dahlia.webp",
+            "sortId": "10000115"
+          },
+          {
+            "id": "splash-gi-10000112",
+            "name": "Escoffier",
+            "description": "Tasteful Excellence",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Escoffier.webp",
+            "sortId": "10000112"
+          },
+          {
+            "id": "splash-gi-10000113",
+            "name": "Ifa",
+            "description": "In the Wake of Wandering Winds",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Ifa.webp",
+            "sortId": "10000113"
+          },
+          {
+            "id": "splash-gi-10000111",
+            "name": "Varesa",
+            "description": "Strength in Serenity",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Varesa.webp",
+            "sortId": "10000111"
+          },
+          {
+            "id": "splash-gi-10000110",
+            "name": "Iansan",
+            "description": "Tempered in Molten Stone",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Iansan.webp",
+            "sortId": "10000110"
+          },
+          {
+            "id": "splash-gi-10000109",
+            "name": "Yumemizuki Mizuki",
+            "description": "Embrace of Enchanting Dreams",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Mizuki.webp",
+            "sortId": "10000109"
+          },
+          {
+            "id": "splash-gi-10000108",
+            "name": "Lan Yan",
+            "description": "Spring Woven From Jade",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Lanyan.webp",
+            "sortId": "10000108"
+          },
+          {
+            "id": "splash-gi-10000107",
+            "name": "Citlali",
+            "description": "Obsidian Opalstar",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Citlali.webp",
+            "sortId": "10000107"
+          },
+          {
+            "id": "splash-gi-10000106",
+            "name": "Mavuika",
+            "description": "Night-Igniting Flame",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Mavuika.webp",
+            "sortId": "10000106"
+          },
+          {
+            "id": "splash-gi-10000104",
+            "name": "Chasca",
+            "description": "Skyborne Arbiter",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Chasca.webp",
+            "sortId": "10000104"
+          },
+          {
+            "id": "splash-gi-10000105",
+            "name": "Ororon",
+            "description": "Shadow of the Night-Wind",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Olorun.webp",
+            "sortId": "10000105"
+          },
+          {
+            "id": "splash-gi-10000103",
+            "name": "Xilonen",
+            "description": "Ardent Flames Forge the Soul",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Xilonen.webp",
+            "sortId": "10000103"
+          },
+          {
+            "id": "splash-gi-10000101",
+            "name": "Kinich",
+            "description": "Turnfire Hunt",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Kinich.webp",
+            "sortId": "10000101"
+          },
+          {
+            "id": "splash-gi-10000102",
+            "name": "Mualani",
+            "description": "Splish-Splash Wavechaser",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Mualani.webp",
+            "sortId": "10000102"
+          },
+          {
+            "id": "splash-gi-10000100",
+            "name": "Kachina",
+            "description": "Mottled Gold Yet Unsmelted",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Kachina.webp",
+            "sortId": "10000100"
+          },
+          {
+            "id": "splash-gi-10000099",
+            "name": "Emilie",
+            "description": "A Thousand Scents Traced",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Emilie.webp",
+            "sortId": "10000099"
+          },
+          {
+            "id": "splash-gi-10000095",
+            "name": "Sigewinne",
+            "description": "Wondrous Dragonheir",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Sigewinne.webp",
+            "sortId": "10000095"
+          },
+          {
+            "id": "splash-gi-10000098",
+            "name": "Clorinde",
+            "description": "Candlebearer, Shadowhunter",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Clorinde.webp",
+            "sortId": "10000098"
+          },
+          {
+            "id": "splash-gi-10000097",
+            "name": "Sethos",
+            "description": "Wisdom's Measure",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Sethos.webp",
+            "sortId": "10000097"
+          },
+          {
+            "id": "splash-gi-10000096",
+            "name": "Arlecchino",
+            "description": "Dire Balemoon",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Arlecchino.webp",
+            "sortId": "10000096"
+          },
+          {
+            "id": "splash-gi-10000094",
+            "name": "Chiori",
+            "description": "The Thundering Seamstress",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Chiori.webp",
+            "sortId": "10000094"
+          },
+          {
+            "id": "splash-gi-10000093",
+            "name": "Xianyun",
+            "description": "Passerine Herald",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Liuyun.webp",
+            "sortId": "10000093"
+          },
+          {
+            "id": "splash-gi-10000092",
+            "name": "Gaming",
+            "description": "Leonine Vanguard",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Gaming.webp",
+            "sortId": "10000092"
+          },
+          {
+            "id": "splash-gi-10000090",
+            "name": "Chevreuse",
+            "description": "Executor of Justice",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Chevreuse.webp",
+            "sortId": "10000090"
+          },
+          {
+            "id": "splash-gi-10000091",
+            "name": "Navia",
+            "description": "Helm of the Radiant Rose",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Navia.webp",
+            "sortId": "10000091"
+          },
+          {
+            "id": "splash-gi-10000089",
+            "name": "Furina",
+            "description": "Endless Solo of Solitude",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Furina.webp",
+            "sortId": "10000089"
+          },
+          {
+            "id": "splash-gi-10000088",
+            "name": "Charlotte",
+            "description": "Lens of Verity",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Charlotte.webp",
+            "sortId": "10000088"
+          },
+          {
+            "id": "splash-gi-10000086",
+            "name": "Wriothesley",
+            "description": "Emissary of Solitary Iniquity",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Wriothesley.webp",
+            "sortId": "10000086"
+          },
+          {
+            "id": "splash-gi-10000087",
+            "name": "Neuvillette",
+            "description": "Ordainer of Inexorable Judgment",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Neuvillette.webp",
+            "sortId": "10000087"
+          },
+          {
+            "id": "splash-gi-10000085",
+            "name": "Freminet",
+            "description": "Yearning for Unseen Depths",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Freminet.webp",
+            "sortId": "10000085"
+          },
+          {
+            "id": "splash-gi-10000084",
+            "name": "Lyney",
+            "description": "Spectacle of Phantasmagoria",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Liney.webp",
+            "sortId": "10000084"
+          },
+          {
+            "id": "splash-gi-10000083",
+            "name": "Lynette",
+            "description": "Elegance in the Shadows",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Linette.webp",
+            "sortId": "10000083"
+          },
+          {
+            "id": "splash-gi-10000061",
+            "name": "Kirara",
+            "description": "Cat Upon the Eaves",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Momoka.webp",
+            "sortId": "10000061"
+          },
+          {
+            "id": "splash-gi-10000082",
+            "name": "Baizhu",
+            "description": "Beyond Mortality",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Baizhuer.webp",
+            "sortId": "10000082"
+          },
+          {
+            "id": "splash-gi-10000081",
+            "name": "Kaveh",
+            "description": "Empyrean Reflection",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Kaveh.webp",
+            "sortId": "10000081"
+          },
+          {
+            "id": "splash-gi-10000080",
+            "name": "Mika",
+            "description": "Coordinates of Clear Frost",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Mika.webp",
+            "sortId": "10000080"
+          },
+          {
+            "id": "splash-gi-10000079",
+            "name": "Dehya",
+            "description": "Flame-Mane",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Dehya.webp",
+            "sortId": "10000079"
+          },
+          {
+            "id": "splash-gi-10000078",
+            "name": "Alhaitham",
+            "description": "Admonishing Instruction",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Alhatham.webp",
+            "sortId": "10000078"
+          },
+          {
+            "id": "splash-gi-10000077",
+            "name": "Yaoyao",
+            "description": "Burgeoning Grace",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Yaoyao.webp",
+            "sortId": "10000077"
+          },
+          {
+            "id": "splash-gi-10000075",
+            "name": "Wanderer",
+            "description": "Eons Adrift",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Wanderer.webp",
+            "sortId": "10000075"
+          },
+          {
+            "id": "splash-gi-10000076",
+            "name": "Faruzan",
+            "description": "Enigmatic Machinist",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Faruzan.webp",
+            "sortId": "10000076"
+          },
+          {
+            "id": "splash-gi-10000074",
+            "name": "Layla",
+            "description": "Fantastical Evening Star",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Layla.webp",
+            "sortId": "10000074"
+          },
+          {
+            "id": "splash-gi-10000073",
+            "name": "Nahida",
+            "description": "Physic of Purity",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Nahida.webp",
+            "sortId": "10000073"
+          },
+          {
+            "id": "splash-gi-10000070",
+            "name": "Nilou",
+            "description": "Dance of Lotuslight",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Nilou.webp",
+            "sortId": "10000070"
+          },
+          {
+            "id": "splash-gi-10000071",
+            "name": "Cyno",
+            "description": "Judicator of Secrets",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Cyno.webp",
+            "sortId": "10000071"
+          },
+          {
+            "id": "splash-gi-10000072",
+            "name": "Candace",
+            "description": "Golden Vow",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Candace.webp",
+            "sortId": "10000072"
+          },
+          {
+            "id": "splash-gi-10000068",
+            "name": "Dori",
+            "description": "Treasure of Dream Garden",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Dori.webp",
+            "sortId": "10000068"
+          },
+          {
+            "id": "splash-gi-10000069",
+            "name": "Tighnari",
+            "description": "Verdant Strider",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Tighnari.webp",
+            "sortId": "10000069"
+          },
+          {
+            "id": "splash-gi-10000067",
+            "name": "Collei",
+            "description": "Sprout of Rebirth",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Collei.webp",
+            "sortId": "10000067"
+          },
+          {
+            "id": "splash-gi-10000059",
+            "name": "Shikanoin Heizou",
+            "description": "Analytical Harmony",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Heizo.webp",
+            "sortId": "10000059"
+          },
+          {
+            "id": "splash-gi-10000065",
+            "name": "Kuki Shinobu",
+            "description": "Mender of Tribulations",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Shinobu.webp",
+            "sortId": "10000065"
+          },
+          {
+            "id": "splash-gi-10000060",
+            "name": "Yelan",
+            "description": "Valley Orchid",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Yelan.webp",
+            "sortId": "10000060"
+          },
+          {
+            "id": "splash-gi-10000066",
+            "name": "Kamisato Ayato",
+            "description": "Pillar of Fortitude",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Ayato.webp",
+            "sortId": "10000066"
+          },
+          {
+            "id": "splash-gi-10000058",
+            "name": "Yae Miko",
+            "description": "Astute Amusement",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Yae.webp",
+            "sortId": "10000058"
+          },
+          {
+            "id": "splash-gi-10000063",
+            "name": "Shenhe",
+            "description": "Lonesome Transcendence",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Shenhe.webp",
+            "sortId": "10000063"
+          },
+          {
+            "id": "splash-gi-10000064",
+            "name": "Yun Jin",
+            "description": "Stage Lucida",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Yunjin.webp",
+            "sortId": "10000064"
+          },
+          {
+            "id": "splash-gi-10000057",
+            "name": "Arataki Itto",
+            "description": "Hanamizaka Heroics",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Itto.webp",
+            "sortId": "10000057"
+          },
+          {
+            "id": "splash-gi-10000055",
+            "name": "Gorou",
+            "description": "Canine Warrior",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Gorou.webp",
+            "sortId": "10000055"
+          },
+          {
+            "id": "splash-gi-10000050",
+            "name": "Thoma",
+            "description": "Protector From Afar",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Tohma.webp",
+            "sortId": "10000050"
+          },
+          {
+            "id": "splash-gi-10000054",
+            "name": "Sangonomiya Kokomi",
+            "description": "Pearl of Wisdom",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Kokomi.webp",
+            "sortId": "10000054"
+          },
+          {
+            "id": "splash-gi-10000052",
+            "name": "Raiden Shogun",
+            "description": "Plane of Euthymia",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Shougun.webp",
+            "sortId": "10000052"
+          },
+          {
+            "id": "splash-gi-10000056",
+            "name": "Kujou Sara",
+            "description": "Crowfeather Kaburaya",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Sara.webp",
+            "sortId": "10000056"
+          },
+          {
+            "id": "splash-gi-10000049",
+            "name": "Yoimiya",
+            "description": "Frolicking Flames",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Yoimiya.webp",
+            "sortId": "10000049"
+          },
+          {
+            "id": "splash-gi-10000053",
+            "name": "Sayu",
+            "description": "Mujina Ninja",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Sayu.webp",
+            "sortId": "10000053"
+          },
+          {
+            "id": "splash-gi-10000002",
+            "name": "Kamisato Ayaka",
+            "description": "Frostflake Heron",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Ayaka.webp",
+            "sortId": "10000002"
+          },
+          {
+            "id": "splash-gi-10000047",
+            "name": "Kaedehara Kazuha",
+            "description": "Scarlet Leaves Pursue Wild Waves",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Kazuha.webp",
+            "sortId": "10000047"
+          },
+          {
+            "id": "splash-gi-10000051",
+            "name": "Eula",
+            "description": "Dance of the Shimmering Wave",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Eula.webp",
+            "sortId": "10000051"
+          },
+          {
+            "id": "splash-gi-10000048",
+            "name": "Yanfei",
+            "description": "Wise Innocence",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Feiyan.webp",
+            "sortId": "10000048"
+          },
+          {
+            "id": "splash-gi-10000045",
+            "name": "Rosaria",
+            "description": "Thorny Benevolence",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Rosaria.webp",
+            "sortId": "10000045"
+          },
+          {
+            "id": "splash-gi-10000046",
+            "name": "Hu Tao",
+            "description": "Fragrance in Thaw",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Hutao.webp",
+            "sortId": "10000046"
+          },
+          {
+            "id": "splash-gi-10000026",
+            "name": "Xiao",
+            "description": "Vigilant Yaksha",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Xiao.webp",
+            "sortId": "10000026"
+          },
+          {
+            "id": "splash-gi-10000037",
+            "name": "Ganyu",
+            "description": "Plenilune Gaze",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Ganyu.webp",
+            "sortId": "10000037"
+          },
+          {
+            "id": "splash-gi-10000038",
+            "name": "Albedo",
+            "description": "Kreideprinz",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Albedo.webp",
+            "sortId": "10000038"
+          },
+          {
+            "id": "splash-gi-10000030",
+            "name": "Zhongli",
+            "description": "Vago Mundo",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Zhongli.webp",
+            "sortId": "10000030"
+          },
+          {
+            "id": "splash-gi-10000044",
+            "name": "Xinyan",
+            "description": "Blazing Riff",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Xinyan.webp",
+            "sortId": "10000044"
+          },
+          {
+            "id": "splash-gi-10000033",
+            "name": "Tartaglia",
+            "description": "Childe",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Tartaglia.webp",
+            "sortId": "10000033"
+          },
+          {
+            "id": "splash-gi-10000039",
+            "name": "Diona",
+            "description": "K\u00e4tzlein Cocktail",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Diona.webp",
+            "sortId": "10000039"
+          },
+          {
+            "id": "splash-gi-10000016",
+            "name": "Diluc",
+            "description": "Dark Side of Dawn",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Diluc.webp",
+            "sortId": "10000016"
+          },
+          {
+            "id": "splash-gi-10000003",
+            "name": "Jean",
+            "description": "Dandelion Knight",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Qin.webp",
+            "sortId": "10000003"
+          },
+          {
+            "id": "splash-gi-10000042",
+            "name": "Keqing",
+            "description": "Driving Thunder",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Keqing.webp",
+            "sortId": "10000042"
+          },
+          {
+            "id": "splash-gi-10000029",
+            "name": "Klee",
+            "description": "Fleeing Sunlight",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Klee.webp",
+            "sortId": "10000029"
+          },
+          {
+            "id": "splash-gi-10000041",
+            "name": "Mona",
+            "description": "Astral Reflection",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Mona.webp",
+            "sortId": "10000041"
+          },
+          {
+            "id": "splash-gi-10000035",
+            "name": "Qiqi",
+            "description": "Icy Resurrection",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Qiqi.webp",
+            "sortId": "10000035"
+          },
+          {
+            "id": "splash-gi-10000022",
+            "name": "Venti",
+            "description": "Windborne Bard",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Venti.webp",
+            "sortId": "10000022"
+          },
+          {
+            "id": "splash-gi-10000021",
+            "name": "Amber",
+            "description": "Gliding Champion",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Ambor.webp",
+            "sortId": "10000021"
+          },
+          {
+            "id": "splash-gi-10000014",
+            "name": "Barbara",
+            "description": "Shining Idol",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Barbara.webp",
+            "sortId": "10000014"
+          },
+          {
+            "id": "splash-gi-10000024",
+            "name": "Beidou",
+            "description": "Uncrowned Lord of the Ocean",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Beidou.webp",
+            "sortId": "10000024"
+          },
+          {
+            "id": "splash-gi-10000032",
+            "name": "Bennett",
+            "description": "Trial by Fire",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Bennett.webp",
+            "sortId": "10000032"
+          },
+          {
+            "id": "splash-gi-10000036",
+            "name": "Chongyun",
+            "description": "Frozen Ardor",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Chongyun.webp",
+            "sortId": "10000036"
+          },
+          {
+            "id": "splash-gi-10000031",
+            "name": "Fischl",
+            "description": "Prinzessin der Verurteilung!",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Fischl.webp",
+            "sortId": "10000031"
+          },
+          {
+            "id": "splash-gi-10000015",
+            "name": "Kaeya",
+            "description": "Frostwind Swordsman",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Kaeya.webp",
+            "sortId": "10000015"
+          },
+          {
+            "id": "splash-gi-10000006",
+            "name": "Lisa",
+            "description": "Witch of Purple Rose",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Lisa.webp",
+            "sortId": "10000006"
+          },
+          {
+            "id": "splash-gi-10000027",
+            "name": "Ningguang",
+            "description": "Eclipsing Star",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Ningguang.webp",
+            "sortId": "10000027"
+          },
+          {
+            "id": "splash-gi-10000034",
+            "name": "Noelle",
+            "description": "Chivalric Blossom",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Noel.webp",
+            "sortId": "10000034"
+          },
+          {
+            "id": "splash-gi-10000020",
+            "name": "Razor",
+            "description": "Wolf Boy",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Razor.webp",
+            "sortId": "10000020"
+          },
+          {
+            "id": "splash-gi-10000043",
+            "name": "Sucrose",
+            "description": "Harmless Sweetie",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Sucrose.webp",
+            "sortId": "10000043"
+          },
+          {
+            "id": "splash-gi-10000023",
+            "name": "Xiangling",
+            "description": "Exquisite Delicacy",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Xiangling.webp",
+            "sortId": "10000023"
+          },
+          {
+            "id": "splash-gi-10000025",
+            "name": "Xingqiu",
+            "description": "Juvenile Galant",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Xingqiu.webp",
+            "sortId": "10000025"
+          },
+          {
+            "id": "splash-gi-traveler",
+            "name": "Traveler",
+            "description": "Descender",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
+            "sortId": "0"
           }
         ]
       },

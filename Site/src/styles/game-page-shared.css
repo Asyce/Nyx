@@ -5309,12 +5309,16 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 .gallery-grid{ min-height:0; overflow-y:auto; display:grid; grid-template-columns:repeat(auto-fill,minmax(300px,1fr));
   gap:var(--nyx-space-18); padding:var(--nyx-space-2) var(--nyx-space-8) var(--nyx-space-16) var(--nyx-space-2); align-content:start; }
 .gallery-grid.is-portraits,.gallery-grid.is-avatarFrames{ grid-template-columns:repeat(auto-fill,minmax(150px,1fr)); }
+.gallery-grid.is-splashArts{ grid-template-columns:repeat(auto-fill,minmax(220px,1fr)); }
 .gallery-card{ min-width:0; margin:0; display:grid; gap:var(--nyx-space-8); }
 .gallery-art{ width:100%; aspect-ratio:2.1/1; overflow:hidden; display:grid; place-items:center;
   border-radius:var(--nyx-radius-card); background:var(--nyx-color-surface-nested); box-shadow:var(--nyx-shadow-edge-subtle); }
 .gallery-art img{ width:100%; height:100%; object-fit:cover; }
+.gallery-grid.is-portraits .gallery-art,.gallery-grid.is-avatarFrames .gallery-art,.gallery-grid.is-splashArts .gallery-art{
+  overflow:visible; border-radius:0; background:transparent; box-shadow:none; }
 .gallery-grid.is-portraits .gallery-art,.gallery-grid.is-avatarFrames .gallery-art{ aspect-ratio:1; }
-.gallery-grid.is-portraits .gallery-art img,.gallery-grid.is-avatarFrames .gallery-art img{ object-fit:contain; padding:var(--nyx-space-10); }
+.gallery-grid.is-splashArts .gallery-art{ aspect-ratio:4/3; }
+.gallery-grid.is-portraits .gallery-art img,.gallery-grid.is-avatarFrames .gallery-art img,.gallery-grid.is-splashArts .gallery-art img{ object-fit:contain; padding:0; }
 .gallery-card figcaption{ min-width:0; display:grid; gap:var(--nyx-space-2); }
 .gallery-card figcaption b{ color:var(--nyx-color-heading); font-size:var(--nyx-type-body); line-height:1.2; overflow-wrap:anywhere; }
 .db-grid{ flex:1 1 0%; min-height:0; overflow-y:auto; margin-top:var(--nyx-space-16); padding:var(--nyx-space-2) var(--nyx-space-8) var(--nyx-space-6) var(--nyx-space-2);
@@ -5923,6 +5927,11 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 .cm-pop.ledger .cm-presets-ledger button:disabled{ cursor:wait; opacity:.55; }
 .cm-share-status{ flex:1 0 100%; padding-top:var(--nyx-space-4); text-align:right; font-size:var(--nyx-type-caption); color:var(--nyx-color-text-muted); }
 .cm-share-status.error{ color:var(--nyx-color-danger); }
+.cm-share-actions{ grid-column:2; display:flex; flex-wrap:wrap; align-items:center; justify-content:flex-end; gap:var(--nyx-space-8); }
+.cm-share-actions button{ min-height:34px; border:1px solid var(--nyx-compat-color-92028f0fbac1); border-radius:var(--nyx-radius-control); cursor:pointer;
+  padding:var(--nyx-space-6) var(--nyx-space-12); color:var(--nyx-compat-color-hex-efe8ff); background:var(--nyx-compat-color-26ecac6a6aec); font:inherit; }
+.cm-share-actions button:hover:not(:disabled){ border-color:var(--nyx-compat-color-hex-9a89ea); }
+.cm-share-actions button:disabled{ cursor:not-allowed; opacity:.45; }
 .cm-share-preview{ min-height:360px; display:flex; flex-direction:column; align-items:center; gap:var(--nyx-space-12); padding:var(--nyx-space-14);
   border:1px solid var(--nyx-compat-color-7c44b5fd4230); border-radius:var(--nyx-radius-card); background:var(--nyx-compat-color-a4cfb227c1ed); }
 .cm-share-preview-actions{ align-self:stretch; display:flex; flex-wrap:wrap; align-items:center; gap:var(--nyx-space-8); }
@@ -6144,6 +6153,8 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
   .cm-ledger-art{ left:0; }
   .cm-ledger-art::after{ background:var(--nyx-compat-color-07c5e98f60d2); }
   .cm-ledger-row.total{ min-height:0; }
+  .cm-share-actions{ grid-column:1; justify-content:flex-start; }
+  .cm-share-status{ text-align:left; }
   .cm-ledger-label b{ font-size:var(--nyx-compat-size-25px); }
   .cm-ledger-mats{ gap:var(--nyx-compat-spacing-9px); }
   .cm-ledger-mats .cm-mat{ --cm-frame-scale:.3269; width:72px; min-width:72px; }
@@ -6373,6 +6384,14 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 .cm-character-tabs button:disabled{ cursor:default; opacity:.42; }
 .cm-character-tabs .cm-detail-back{ min-height:27px; margin-right:var(--nyx-space-2); padding:0 var(--nyx-space-10) 0 var(--nyx-compat-spacing-7px); color:var(--nyx-compat-color-hex-d8d0f4); background:var(--nyx-compat-color-108ef61fc9ce); }
 .cm-character-tabs .cm-detail-back:hover,.cm-character-tabs .cm-detail-back:focus-visible{ color:var(--nyx-color-text-max); background:var(--nyx-compat-color-017421d156e5); outline:2px solid var(--character-hover); outline-offset:2px; }
+.cm-character-gallery{ display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); align-items:start; gap:var(--nyx-space-22); padding:var(--nyx-space-8) 0 var(--nyx-space-20); }
+.cm-character-gallery-card{ min-width:0; margin:0; display:grid; gap:var(--nyx-space-8); }
+.cm-character-gallery-art{ width:100%; aspect-ratio:4/3; display:grid; place-items:center; }
+.cm-character-gallery-card.is-profile .cm-character-gallery-art{ aspect-ratio:1; }
+.cm-character-gallery-card.is-namecard .cm-character-gallery-art{ aspect-ratio:2.1/1; }
+.cm-character-gallery-art img{ width:100%; height:100%; object-fit:contain; }
+.cm-character-gallery-card.is-namecard img{ object-fit:cover; }
+.cm-character-gallery-card figcaption{ color:var(--nyx-color-heading); font-family:var(--nyx-font-display); font-size:var(--nyx-type-body); }
 .cm-kit-panel{ display:flex; flex-direction:column; gap:var(--nyx-space-16); padding:var(--nyx-space-2) 0 var(--nyx-space-16); }
 .cm-kit-profile{ display:flex; flex-direction:column; gap:var(--nyx-space-10); }
 .cm-profile-facts{ display:flex; flex-wrap:wrap; gap:var(--nyx-compat-spacing-7px); }
@@ -7085,6 +7104,7 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
   .gallery-toolbar .gp-search{ flex-basis:auto; width:100%; }
   .gallery-grid{ grid-template-columns:1fr; }
   .gallery-grid.is-portraits,.gallery-grid.is-avatarFrames{ grid-template-columns:repeat(auto-fill,minmax(120px,1fr)); }
+  .gallery-grid.is-splashArts{ grid-template-columns:repeat(auto-fill,minmax(180px,1fr)); }
   .tcg-filter-popout{ left:0; right:auto; width:100%; }
   .tcg-detail-panel,
   .pot-detail-panel,

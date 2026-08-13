@@ -149,3 +149,9 @@ test('Genshin navigation exposes Gallery and Shadow Realm in the requested order
   assert.match(appSource, /gallery:'gallery'/);
   assert.match(appSource, /className="pot-extra-toggle" aria-expanded=/);
 });
+
+test('Genshin Gallery includes splash art and leaves portraits and frames unboxed', async () => {
+  const css = await fs.readFile(path.join(root, 'src/styles/game-page-shared.css'), 'utf8');
+  assert.match(appSource, /\['portraits', 'Portraits'\],[\s\S]*\['splashArts', 'Splash Art'\],[\s\S]*\['avatarFrames', 'Avatar Frames'\]/);
+  assert.match(css, /\.gallery-grid\.is-portraits \.gallery-art,\.gallery-grid\.is-avatarFrames \.gallery-art,\.gallery-grid\.is-splashArts \.gallery-art\{[\s\S]*background:transparent; box-shadow:none;/);
+});

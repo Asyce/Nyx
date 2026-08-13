@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T14:44:28.955Z",
+  "generatedAt": "2026-08-13T16:14:47.028Z",
   "policy": "Every generated Database row is counted. Released rows remain visible when art or description is missing; only rows with no usable localized display name or proven internal/test provenance are quarantined.",
   "coverage": {
     "before": {
@@ -18,7 +18,7 @@
         "lazy",
         "special"
       ],
-      "summaryCount": 31,
+      "summaryCount": 32,
       "missingArtCount": 800,
       "quarantinedCount": 492,
       "intentionalFallbackCount": 800,
@@ -399,13 +399,13 @@
       "scope": "special",
       "game": "gi",
       "collection": "gallery-portraits",
-      "sourceCount": 120,
-      "normalizedCount": 120,
+      "sourceCount": 177,
+      "normalizedCount": 177,
       "quarantinedCount": 0,
       "routedCount": 0,
-      "approvedSourceCount": 120,
-      "generatedCount": 120,
-      "localArtCount": 120,
+      "approvedSourceCount": 177,
+      "generatedCount": 177,
+      "localArtCount": 177,
       "missingArtCount": 0
     },
     {
@@ -419,6 +419,19 @@
       "approvedSourceCount": 11,
       "generatedCount": 11,
       "localArtCount": 11,
+      "missingArtCount": 0
+    },
+    {
+      "scope": "special",
+      "game": "gi",
+      "collection": "gallery-splash-art",
+      "sourceCount": 118,
+      "normalizedCount": 118,
+      "quarantinedCount": 0,
+      "routedCount": 0,
+      "approvedSourceCount": 118,
+      "generatedCount": 118,
+      "localArtCount": 118,
       "missingArtCount": 0
     }
   ],

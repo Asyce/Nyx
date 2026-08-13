@@ -2589,6 +2589,7 @@ function GenshinShadowRealmView(){
 const GALLERY_TABS = [
   ['namecards', 'Namecards'],
   ['portraits', 'Portraits'],
+  ['splashArts', 'Splash Art'],
   ['avatarFrames', 'Avatar Frames'],
 ];
 

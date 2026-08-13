@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "revision": "da51f5cf9fc4c0b3ed7818d8d4a36c4d1a6e08ccb6bbe4d0a583f939e4ba129b",
-  "generatedAt": "2026-08-13T11:22:09.126Z",
+  "generatedAt": "2026-08-13T11:30:20.230Z",
   "health": {
     "status": "ok",
     "games": {
@@ -43,7 +43,7 @@
         "remaining": {
           "startsAt": "2026-08-12T03:00:00.000Z",
           "endsAt": "2026-09-01T09:59:59.000Z",
-          "durationSeconds": 1636669
+          "durationSeconds": 1636178
         },
         "characters": [
           {
@@ -389,7 +389,7 @@
         "remaining": {
           "startsAt": "2026-08-05T11:00:00.000Z",
           "endsAt": "2026-08-25T14:00:00.000Z",
-          "durationSeconds": 1046270
+          "durationSeconds": 1045779
         },
         "characters": [
           {
@@ -819,7 +819,7 @@
         "remaining": {
           "startsAt": "2026-07-29T03:00:00.000Z",
           "endsAt": "2026-08-19T03:59:59.000Z",
-          "durationSeconds": 491869
+          "durationSeconds": 491378
         },
         "characters": [
           {
@@ -1153,7 +1153,7 @@
         "remaining": {
           "startsAt": "2026-07-30T09:00:00.000Z",
           "endsAt": "2026-08-19T10:59:00.000Z",
-          "durationSeconds": 517010
+          "durationSeconds": 516519
         },
         "characters": [
           {
@@ -1487,7 +1487,7 @@
         "remaining": {
           "startsAt": "2026-08-09T04:00:00.000Z",
           "endsAt": "2026-09-01T21:59:59.000Z",
-          "durationSeconds": 1679869
+          "durationSeconds": 1679378
         },
         "characters": [
           {

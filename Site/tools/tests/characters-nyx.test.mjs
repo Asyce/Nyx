@@ -38,7 +38,15 @@ async function loadMaterialsShareCard(){
       return cost === 0 ? null : { name:'Currency', kind:'currency', qty:cost };
     },
     cmReqItems:(items) => items.filter(Boolean),
-    cmCombineReqItems:(...groups) => groups.flat(),
+    cmCombineReqItems:(...groups) => {
+      const by = new Map();
+      groups.flat().filter(Boolean).forEach((item) => {
+        const key = item.id || item.name;
+        const current = by.get(key);
+        by.set(key, current ? { ...current, qty:Number(current.qty || 0) + Number(item.qty || 0) } : { ...item });
+      });
+      return [...by.values()];
+    },
     cmMetaChips:() => [],
     cmMetaIconSrc:() => null,
     cmWeaponRowLabel:(gameKey) => gameKey === 'hsr' ? 'LIGHT CONE' : gameKey === 'zzz' ? 'W-ENGINE' : 'WEAPON',
@@ -342,6 +350,75 @@ test('materials share models always use every game max, standard art, and a lite
   assert.deepEqual(currencyCosts.filter((_, index) => index % 3 === 2), [0, 0, 0, 0, 0], 'weapon cost 0 never falls back to the requirement cost');
 });
 
+test('materials share models include max-level EXP packs and leveling currency for every game', async () => {
+  const { nyxBuildMaterialsCardModel, currencyCosts } = await loadMaterialsShareCard();
+  const cases = [
+    ['gi', 3, "Hero's Wit", 415, 1673411, 'Mystic Enhancement Ore', 398, 398840],
+    ['gi', 4, "Hero's Wit", 415, 1673411, 'Mystic Enhancement Ore', 604, 604280],
+    ['gi', 5, "Hero's Wit", 415, 1673411, 'Mystic Enhancement Ore', 906, 906480],
+    ['hsr', 3, "Traveler's Guide", 287, 580111, 'Refined Aether', 97, 299750],
+    ['hsr', 4, "Traveler's Guide", 287, 580111, 'Refined Aether', 130, 399250],
+    ['hsr', 5, "Traveler's Guide", 287, 580111, 'Refined Aether', 162, 498500],
+    ['zzz', 3, 'Senior Investigator Log', 300, 11, 'W-Engine Energy Module', 160, 0],
+    ['zzz', 4, 'Senior Investigator Log', 300, 11, 'W-Engine Energy Module', 200, 0],
+    ['wuwa', 3, 'Premium Resonance Potion', 121, 853311, 'Premium Energy Core', 68, 549600],
+    ['wuwa', 4, 'Premium Resonance Potion', 121, 853311, 'Premium Energy Core', 114, 916000],
+    ['wuwa', 5, 'Premium Resonance Potion', 121, 853311, 'Premium Energy Core', 134, 1077200],
+    ['ae', 6, 'Advanced Combat Record', 74, 11, 'Arms INSP Set', 120, 0],
+  ];
+  const checkedIcons = new Set();
+  for (const [gameKey, rarity, charName, charQty, charCurrency, weaponName, weaponQty, weaponCurrency] of cases) {
+    const before = currencyCosts.length;
+    const endfieldStage = (name, qty) => ({ items:[{ id:'ae:' + name, name, qty, kind:name === 'T-Creds' ? 'currency' : 'gem' }] });
+    const model = nyxBuildMaterialsCardModel({
+      gameKey,
+      view:{
+        n:'Test Character',
+        el:'fire',
+        originalArt:'/standard-art.webp',
+        originalIcon:'/standard-icon.webp',
+        req:gameKey === 'ae' ? { promotionStages:[
+          endfieldStage('T-Creds', 1600),
+          endfieldStage('T-Creds', 6500),
+          endfieldStage('T-Creds', 18000),
+          endfieldStage('Lv 90 promotion', 1),
+        ] } : undefined,
+      },
+      cfg:{},
+      activeWeapon:{
+        id:'test-weapon',
+        name:'Test Weapon',
+        rarity,
+        cost:0,
+        items:[],
+        tuningStages:gameKey === 'ae' ? [
+          endfieldStage('T-Creds', 2200),
+          endfieldStage('T-Creds', 8500),
+          endfieldStage('T-Creds', 25000),
+          endfieldStage('Lv 90 tuning', 1),
+        ] : undefined,
+      },
+      midLabel:'Talents',
+    });
+    const ascension = model.rows.find((row) => row.key === 'ascension').items;
+    const weapon = model.rows.find((row) => row.key === 'weapon').items;
+    assert.equal(ascension.find((item) => item.name === charName)?.qty, charQty, `${gameKey}/${rarity} character EXP`);
+    assert.equal(weapon.find((item) => item.name === weaponName)?.qty, weaponQty, `${gameKey}/${rarity} weapon EXP`);
+    assert.deepEqual(currencyCosts.slice(before), [charCurrency, 22, weaponCurrency], `${gameKey}/${rarity} leveling currency is added once`);
+    if (gameKey === 'ae') {
+      assert.equal(ascension.find((item) => item.name === 'T-Creds')?.qty, 172540);
+      assert.equal(weapon.find((item) => item.name === 'T-Creds')?.qty, 159550);
+      assert.equal(ascension.some((item) => item.name === 'Lv 90 promotion'), false);
+      assert.equal(weapon.some((item) => item.name === 'Lv 90 tuning'), false);
+    }
+    for (const item of [...ascension, ...weapon].filter((entry) => entry.kind === 'exp')) {
+      if (checkedIcons.has(item.icon)) continue;
+      checkedIcons.add(item.icon);
+      assert.ok((await fs.stat(localAsset(item.icon))).size > 0, item.name + ' icon exists locally');
+    }
+  }
+});
+
 test('materials share gender is protagonist-only and genderless forms resolve from copied URLs', async () => {
   const materials = await read('src/features/materials/char-materials.jsx');
   const genderSource = materials.match(/function cmMaterialsShareGender\([\s\S]*?\n\}/)?.[0];
@@ -408,6 +485,7 @@ test('materials share cards stay stateless, bundle-local, and wired through the 
   assert.match(materials, />Copy share link<\/button>/);
   assert.match(materials, /navigator\.clipboard\.writeText\(shareUrl\)/);
   assert.match(materials, /window\.prompt\('Copy this share link:', shareUrl\)/);
+  assert.match(materials, /const img = new Image\(\);\s*img\.decoding = 'async';\s*img\.crossOrigin = 'anonymous';[\s\S]*?img\.src = sprite;/, 'ZZZ sprite frames request CORS access before loading');
   assert.match(materials, /<div className="cm-share-preview"/);
   assert.match(materials, /function cmApplySharedIdentityDisplay\(gameKey, ch, prefs, sharedCard\)/);
   assert.match(materials, /const prefKey = \{ gi:'twin', hsr:'receptacle', wuwa:'rover', ae:'endmin' \}\[gameKey\][\s\S]*gi:\{ male:'aether', female:'lumine' \}[\s\S]*hsr:\{ male:'caelus', female:'stelle' \}[\s\S]*wuwa:\{ male:'male', female:'female' \}[\s\S]*ae:\{ male:'male', female:'female' \}/);

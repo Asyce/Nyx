@@ -82,6 +82,9 @@ test('daily deploy syncs pushed main and verifies a renewed exact snapshot befor
   assert.match(source.slice(sync, refresh), /PENGO_DEPLOY_COMMIT: \$\{\{ steps\.launcher_snapshot\.outputs\.sha \}\}/);
   assert.match(source.slice(build, smoke), /PENGO_DEPLOY_COMMIT: \$\{\{ steps\.deployment_snapshot\.outputs\.sha \}\}/);
   assert.match(source.slice(deploy), /steps\.deployment_snapshot\.outputs\.fresh == 'true'/);
+  assert.match(source.slice(deploy), /working-directory: Site/);
+  assert.match(source.slice(deploy), /node \.\/node_modules\/wrangler\/bin\/wrangler\.js deploy/);
+  assert.doesNotMatch(source.slice(deploy), /npx --yes wrangler/);
 });
 
 test('GameData preflight and rebased checks use the configured Database asset mode', async () => {

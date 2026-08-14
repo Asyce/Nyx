@@ -167,6 +167,7 @@ jobs:
 
       - name: Deploy to Cloudflare
         if: ${{ steps.deployment_snapshot.outputs.fresh == 'true' && env.CF_API_TOKEN != '' }}
+        working-directory: Site
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-        run: npx --yes wrangler deploy
+        run: node ./node_modules/wrangler/bin/wrangler.js deploy

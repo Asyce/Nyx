@@ -4,7 +4,7 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-08-14T14:11:02.683Z",
+  "generatedAt": "2026-08-14T15:01:03.967Z",
   "codes": {
     "updated": "2026-08-14T14:10:41.704Z",
     "maxAgeDays": 28,
@@ -161906,6 +161906,30 @@ var NYX_DB = {
             "name": "Rainjade Oblation",
             "art": "../../Database/GenshinWiki/avatars/289096.webp",
             "sortId": 289096
+          },
+          {
+            "id": "gi-10000150",
+            "name": "Odette",
+            "description": "Swirling Snow",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Odette_Circle.webp",
+            "sortId": "10000150"
+          },
+          {
+            "id": "gi-10000148",
+            "name": "Alyosha",
+            "description": "Swift-Striding Hound",
+            "rarity": "4 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Alyosha_Circle.webp",
+            "sortId": "10000148"
+          },
+          {
+            "id": "gi-traveler",
+            "name": "Traveler",
+            "description": "Descender",
+            "rarity": "5 \u2605",
+            "art": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
+            "sortId": "0"
           }
         ],
         "avatarFrames": [

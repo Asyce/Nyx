@@ -31,6 +31,20 @@ function sourceFunction(name) {
   throw new Error(`${name} is incomplete`);
 }
 
+// Same idea for the object literals the board helpers close over
+// (the roadmap denylist and the pinned "copium" names).
+function sourceConst(name) {
+  const from = appSource.indexOf(`const ${name} = {`);
+  assert.ok(from >= 0, `${name} not found`);
+  const open = appSource.indexOf('{', from);
+  let depth = 0;
+  for (let index = open; index < appSource.length; index += 1) {
+    if (appSource[index] === '{') depth += 1;
+    else if (appSource[index] === '}' && --depth === 0) return `${appSource.slice(from, index + 1)};`;
+  }
+  throw new Error(`${name} is incomplete`);
+}
+
 test('every shipped banner character carries a debut verdict', () => {
   const games = Object.keys(banners);
   assert.ok(games.length >= 4, `expected banner data for most games, got ${games.join(',') || 'none'}`);
@@ -281,6 +295,10 @@ test('the five-column model matches each requested game roadmap', () => {
     ${sourceFunction('bannerPlanLabelFromHint')}
     ${sourceFunction('bannerUnknownPhaseLabel')}
     ${sourceFunction('bannerApplyPlanLabels')}
+    ${sourceConst('BANNER_ROADMAP_DENY')}
+    ${sourceConst('BANNER_COPIUM_PINS')}
+    ${sourceFunction('bannerRoadmapAllowed')}
+    ${sourceFunction('overviewBannerPins')}
     ${sourceFunction('overviewBannerBoard')}
     window.board = (key) => overviewBannerBoard({ key });
     window.rank = bannerUnitRecency;
@@ -325,4 +343,58 @@ test('banner art overrides survive automatic data regeneration', () => {
   const qingxiao = phases(banners.wuwa).flatMap((phase) => phase.characters || []).find((row) => row.name === 'Qingxiao');
   assert.equal(pearl?.art, '/assets/banners/hsr/pearl-splash-3c9ede1f47fc14b1.png');
   assert.equal(qingxiao?.icon, '/assets/banners/wuwa/qingxiao-icon-4a0339409ff85cad.png');
+});
+
+test('story NPCs never reach Announced, and the copium pair is pinned separately', () => {
+  // game8's roadmap page mixes long-teased story characters in with real
+  // upcoming units. They used to slip past the approved-name gate (anything
+  // flagged beta in the local gamedata was admitted) and filled the Announced
+  // column with names nobody expects to be playable (user 2026-08-14).
+  const box = { window:{}, groups:{
+    gi:{
+      current:{ phase:'7.0 Phase 1', characters:[{ name:'Odette' }], start:'2026-08-01T00:00:00Z', end:'2026-08-20T00:00:00Z' },
+      next:{ phase:'7.0 Phase 2', characters:[{ name:'Flins' }], start:'2026-08-20T00:00:00Z', end:'2026-09-10T00:00:00Z' },
+      upcoming:[],
+      roadmap:[
+        { name:'Mitya' }, { name:'Noy' },
+        { name:'Pantalone' }, { name:'Rerir' }, { name:'Pulcinella' }, { name:'Pierro' },
+        { name:'Dainsleif', image:'/assets/banners/genshin/dain.png' }, { name:'Alice' },
+      ],
+    },
+  } };
+  vm.createContext(box);
+  vm.runInContext(`
+    function dbBannerGroup(key){ return groups[key]; }
+    function rosterUnitMap(){ return new Map(); }
+    ${sourceFunction('normalizeUnitName')}
+    ${sourceFunction('bannerFeaturedRank')}
+    ${sourceFunction('bannerRarityValue')}
+    ${sourceFunction('bannerRarityLabel')}
+    ${sourceFunction('dedupeByName')}
+    ${sourceFunction('phaseUnit')}
+    ${sourceFunction('bannerUnitRecency')}
+    ${sourceFunction('bannerBoardColumn')}
+    ${appSource.slice(appSource.indexOf('const BANNER_PHASES_PER_PATCH'), appSource.indexOf('function bannerNextPhaseHeading'))}
+    ${sourceFunction('bannerRoadmapVersion')}
+    ${sourceFunction('bannerPlanLabelFromHint')}
+    ${sourceFunction('bannerUnknownPhaseLabel')}
+    ${sourceFunction('bannerApplyPlanLabels')}
+    ${sourceConst('BANNER_ROADMAP_DENY')}
+    ${sourceConst('BANNER_COPIUM_PINS')}
+    ${sourceFunction('bannerRoadmapAllowed')}
+    ${sourceFunction('overviewBannerPins')}
+    ${sourceFunction('overviewBannerBoard')}
+    window.board = overviewBannerBoard({ key:'gi' });
+  `, box);
+  const board = JSON.parse(JSON.stringify(box.window.board));
+  const listed = [...board.future, ...board.planned.flatMap((column) => column.heroes)].map((row) => row.name);
+  for (const denied of ['Pantalone', 'Rerir', 'Pulcinella', 'Pierro', 'Dainsleif', 'Alice']) {
+    assert.equal(listed.includes(denied), false, `${denied} is not announced`);
+  }
+  assert.deepEqual(listed.filter((name) => ['Mitya', 'Noy'].includes(name)).sort(), ['Mitya', 'Noy'], 'real roadmap names survive');
+  // The two the user keeps as a joke come back as a separate pinned list, so
+  // the board can render them under the real entries with a "copium" note.
+  assert.deepEqual(board.pinned.map((row) => row.name), ['Dainsleif', 'Alice']);
+  // Other games have neither a denylist nor pins.
+  assert.deepEqual(JSON.parse(JSON.stringify(box.window.board)).pinned.length, 2);
 });

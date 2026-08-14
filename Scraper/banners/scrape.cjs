@@ -36,6 +36,17 @@ const GAMES = [
     name: 'Genshin Impact',
     game8Url: 'https://game8.co/games/Genshin-Impact/archives/305012',
     game8RoadmapUrl: 'https://game8.co/games/Genshin-Impact/archives/307054',
+    // game8's roadmap page mixes "Characters That Appear in the Story" and
+    // long-teased NPCs in with genuine upcoming units, and the parser now
+    // trusts art identity rather than a manual allowlist — so the board filled
+    // up with names nobody expects to be playable (user 2026-08-14). Names here
+    // never reach the board.
+    roadmapExclude: ['Pantalone', 'Rerir', 'Pulcinella', 'Pierro'],
+    // ...except these two, which the user keeps as a running joke: pinned at
+    // the foot of Announced with a "copium" note. They stay in the scrape (so
+    // their teaser art is localized like everyone else's) but are flagged, and
+    // the site data splits them out of the real Announced list.
+    roadmapPinned: ['Dainsleif', 'Alice'],
     defaultHourUtc: 10,  // 18:00 UTC+8
     tzOffsetHours: 8,
   },
@@ -1823,6 +1834,25 @@ function localRoadmapNames(gameId) {
   return names;
 }
 
+/* Which parsed roadmap rows survive, and which survivors are the pinned joke
+ * entries rather than real announcements. Pure, so the rules can be tested
+ * without a network round trip.
+ *
+ * `roadmapExclude` wins over everything — those names are never coming.
+ * `roadmapPinned` rows are kept but flagged, so they ride through art
+ * localization with everyone else and get split out for display later. */
+function selectRoadmapRows(parsed, game, excluded = new Set()) {
+  const denied = new Set((game.roadmapExclude || []).map(normName));
+  const pinnedNames = new Set((game.roadmapPinned || []).map(normName));
+  return (parsed || []).reduce((rows, row) => {
+    const name = normName(row?.name);
+    if (!name || denied.has(name)) return rows;
+    if (pinnedNames.has(name)) rows.push({ ...row, pinned:true });
+    else if (!excluded.has(name)) rows.push(row);
+    return rows;
+  }, []);
+}
+
 async function scrapeGame8RoadmapCharacters(url, game, excluded = new Set(), logger = console, {
   fetchHtmlImpl = fetchHtml,
   localizeImpl = localizeTeaserArt,
@@ -1836,11 +1866,9 @@ async function scrapeGame8RoadmapCharacters(url, game, excluded = new Set(), log
       logger.log(`[${gameId}] game8 roadmap parser found no candidates; preserving prior data`);
       return null;
     }
-    const rows = parsed.filter((row) => {
-      const name = normName(row.name);
-      return !excluded.has(name);
-    });
-    logger.log(`[${gameId}] game8 roadmap characters: ${rows.length} found`);
+    const rows = selectRoadmapRows(parsed, game, excluded);
+    const pinnedCount = rows.filter((row) => row.pinned).length;
+    logger.log(`[${gameId}] game8 roadmap characters: ${rows.length - pinnedCount} found, ${pinnedCount} pinned, ${parsed.length - rows.length} filtered`);
     const localized = completeLocalizedSnapshot(gameId, await localizeImpl(gameId, rows, logger));
     if (!localized) {
       logger.log(`[${gameId}] game8 roadmap art incomplete; preserving prior data`);
@@ -1883,6 +1911,8 @@ module.exports = {
   roadmapSnapshot,
   scrapeGame8RoadmapCharacters,
   scrapeGame8UpcomingCharacters,
+  selectRoadmapRows,
   teaserSnapshot,
+  GAMES,
   runCli
 };

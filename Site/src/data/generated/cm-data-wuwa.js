@@ -18915,6 +18915,318 @@
             ]
           }
         ],
+        "ascensionStages": [
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "41100091",
+                "name": "LF Autopuppet Kernel",
+                "qty": 4,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_013_1_UI.webp",
+                "source": "Autopuppets / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Autopuppet Scout",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_1003_UI.webp"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              }
+            ],
+            "cost": 5000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "41100092",
+                "name": "MF Autopuppet Kernel",
+                "qty": 4,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_013_2_UI.webp",
+                "source": "Autopuppets / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Autopuppet Scout",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_1003_UI.webp"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400334",
+                "name": "Solidarity's Loneflame",
+                "qty": 3,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_029_UI.webp",
+                "source": "Myriad Snare: Rustfire Chassis / Myriad Snare: Rustfire Chassis - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Myriad Snare: Rustfire Chassis",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34030_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601600",
+                "name": "Cloudperch Seed",
+                "qty": 4,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_083_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Huaxu Apothecary",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Huaxu Apothecary"
+                  }
+                ]
+              }
+            ],
+            "cost": 10000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "41100092",
+                "name": "MF Autopuppet Kernel",
+                "qty": 8,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_013_2_UI.webp",
+                "source": "Autopuppets / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Autopuppet Scout",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_1003_UI.webp"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400334",
+                "name": "Solidarity's Loneflame",
+                "qty": 6,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_029_UI.webp",
+                "source": "Myriad Snare: Rustfire Chassis / Myriad Snare: Rustfire Chassis - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Myriad Snare: Rustfire Chassis",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34030_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601600",
+                "name": "Cloudperch Seed",
+                "qty": 8,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_083_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Huaxu Apothecary",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Huaxu Apothecary"
+                  }
+                ]
+              }
+            ],
+            "cost": 15000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "41100093",
+                "name": "HF Autopuppet Kernel",
+                "qty": 4,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_013_3_UI.webp",
+                "source": "Autopuppets",
+                "sourceDetails": [
+                  {
+                    "name": "Autopuppet Scout",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_1003_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "41400334",
+                "name": "Solidarity's Loneflame",
+                "qty": 9,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_029_UI.webp",
+                "source": "Myriad Snare: Rustfire Chassis / Myriad Snare: Rustfire Chassis - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Myriad Snare: Rustfire Chassis",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34030_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601600",
+                "name": "Cloudperch Seed",
+                "qty": 12,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_083_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Huaxu Apothecary",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Huaxu Apothecary"
+                  }
+                ]
+              }
+            ],
+            "cost": 20000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "41100093",
+                "name": "HF Autopuppet Kernel",
+                "qty": 8,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_013_3_UI.webp",
+                "source": "Autopuppets",
+                "sourceDetails": [
+                  {
+                    "name": "Autopuppet Scout",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_1003_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "41400334",
+                "name": "Solidarity's Loneflame",
+                "qty": 12,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_029_UI.webp",
+                "source": "Myriad Snare: Rustfire Chassis / Myriad Snare: Rustfire Chassis - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Myriad Snare: Rustfire Chassis",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34030_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601600",
+                "name": "Cloudperch Seed",
+                "qty": 16,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_083_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Huaxu Apothecary",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Huaxu Apothecary"
+                  }
+                ]
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 90,
+            "items": [
+              {
+                "id": "41100094",
+                "name": "FF Autopuppet Kernel",
+                "qty": 4,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_013_4_UI.webp",
+                "source": "Autopuppets",
+                "sourceDetails": [
+                  {
+                    "name": "Autopuppet Scout",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_1003_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "41400334",
+                "name": "Solidarity's Loneflame",
+                "qty": 16,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_029_UI.webp",
+                "source": "Myriad Snare: Rustfire Chassis / Myriad Snare: Rustfire Chassis - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Myriad Snare: Rustfire Chassis",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34030_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601600",
+                "name": "Cloudperch Seed",
+                "qty": 20,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_083_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Huaxu Apothecary",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Huaxu Apothecary"
+                  }
+                ]
+              }
+            ],
+            "cost": 80000
+          }
+        ],
         "talents": [
           {
             "id": "41100091",
@@ -21434,6 +21746,336 @@
             ]
           }
         ],
+        "ascensionStages": [
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "41100041",
+                "name": "LF Polygon Core",
+                "qty": 4,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_004_1_UI.webp",
+                "source": "Clamorlings or Tranquilites / Forgery Challenge / Masked Reverie",
+                "sourceDetails": [
+                  {
+                    "name": "Clamorlings or Tranquilites"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  },
+                  {
+                    "name": "Masked Reverie"
+                  }
+                ]
+              }
+            ],
+            "cost": 5000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "41100042",
+                "name": "MF Polygon Core",
+                "qty": 4,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_004_2_UI.webp",
+                "source": "Clamorlings or Tranquilites / Forgery Challenge / Masked Reverie",
+                "sourceDetails": [
+                  {
+                    "name": "Clamorlings or Tranquilites"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  },
+                  {
+                    "name": "Masked Reverie"
+                  }
+                ]
+              },
+              {
+                "id": "41400224",
+                "name": "Truth in Lies",
+                "qty": 3,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_019_UI.webp",
+                "source": "Fenrico: Deliverance in the Deep / Fenrico: Deliverance in the Deep - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Fenrico",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34015_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601250",
+                "name": "\"Afterlife\"",
+                "qty": 4,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_054_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Silver Helmet Store / The Lost Beyond",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Silver Helmet Store"
+                  },
+                  {
+                    "name": "The Lost Beyond"
+                  }
+                ]
+              }
+            ],
+            "cost": 10000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "41100042",
+                "name": "MF Polygon Core",
+                "qty": 8,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_004_2_UI.webp",
+                "source": "Clamorlings or Tranquilites / Forgery Challenge / Masked Reverie",
+                "sourceDetails": [
+                  {
+                    "name": "Clamorlings or Tranquilites"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  },
+                  {
+                    "name": "Masked Reverie"
+                  }
+                ]
+              },
+              {
+                "id": "41400224",
+                "name": "Truth in Lies",
+                "qty": 6,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_019_UI.webp",
+                "source": "Fenrico: Deliverance in the Deep / Fenrico: Deliverance in the Deep - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Fenrico",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34015_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601250",
+                "name": "\"Afterlife\"",
+                "qty": 8,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_054_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Silver Helmet Store / The Lost Beyond",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Silver Helmet Store"
+                  },
+                  {
+                    "name": "The Lost Beyond"
+                  }
+                ]
+              }
+            ],
+            "cost": 15000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "41100043",
+                "name": "HF Polygon Core",
+                "qty": 4,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_004_3_UI.webp",
+                "source": "Clamorlings or Tranquilites",
+                "sourceDetails": [
+                  {
+                    "name": "Clamorlings or Tranquilites"
+                  }
+                ]
+              },
+              {
+                "id": "41400224",
+                "name": "Truth in Lies",
+                "qty": 9,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_019_UI.webp",
+                "source": "Fenrico: Deliverance in the Deep / Fenrico: Deliverance in the Deep - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Fenrico",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34015_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601250",
+                "name": "\"Afterlife\"",
+                "qty": 12,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_054_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Silver Helmet Store / The Lost Beyond",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Silver Helmet Store"
+                  },
+                  {
+                    "name": "The Lost Beyond"
+                  }
+                ]
+              }
+            ],
+            "cost": 20000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "41100043",
+                "name": "HF Polygon Core",
+                "qty": 8,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_004_3_UI.webp",
+                "source": "Clamorlings or Tranquilites",
+                "sourceDetails": [
+                  {
+                    "name": "Clamorlings or Tranquilites"
+                  }
+                ]
+              },
+              {
+                "id": "41400224",
+                "name": "Truth in Lies",
+                "qty": 12,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_019_UI.webp",
+                "source": "Fenrico: Deliverance in the Deep / Fenrico: Deliverance in the Deep - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Fenrico",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34015_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601250",
+                "name": "\"Afterlife\"",
+                "qty": 16,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_054_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Silver Helmet Store / The Lost Beyond",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Silver Helmet Store"
+                  },
+                  {
+                    "name": "The Lost Beyond"
+                  }
+                ]
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 90,
+            "items": [
+              {
+                "id": "41100044",
+                "name": "FF Polygon Core",
+                "qty": 4,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_004_4_UI.webp",
+                "source": "Clamorlings or Tranquilites",
+                "sourceDetails": [
+                  {
+                    "name": "Clamorlings or Tranquilites"
+                  }
+                ]
+              },
+              {
+                "id": "41400224",
+                "name": "Truth in Lies",
+                "qty": 16,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_019_UI.webp",
+                "source": "Fenrico: Deliverance in the Deep / Fenrico: Deliverance in the Deep - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Fenrico",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34015_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601250",
+                "name": "\"Afterlife\"",
+                "qty": 20,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_054_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Silver Helmet Store / The Lost Beyond",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Silver Helmet Store"
+                  },
+                  {
+                    "name": "The Lost Beyond"
+                  }
+                ]
+              }
+            ],
+            "cost": 80000
+          }
+        ],
         "talents": [
           {
             "id": "41100041",
@@ -23927,6 +24569,321 @@
             ]
           }
         ],
+        "ascensionStages": [
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "41100041",
+                "name": "LF Polygon Core",
+                "qty": 4,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_004_1_UI.webp",
+                "source": "Clamorlings or Tranquilites / Forgery Challenge / Masked Reverie",
+                "sourceDetails": [
+                  {
+                    "name": "Clamorlings or Tranquilites"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  },
+                  {
+                    "name": "Masked Reverie"
+                  }
+                ]
+              }
+            ],
+            "cost": 5000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "41100042",
+                "name": "MF Polygon Core",
+                "qty": 4,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_004_2_UI.webp",
+                "source": "Clamorlings or Tranquilites / Forgery Challenge / Masked Reverie",
+                "sourceDetails": [
+                  {
+                    "name": "Clamorlings or Tranquilites"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  },
+                  {
+                    "name": "Masked Reverie"
+                  }
+                ]
+              },
+              {
+                "id": "41400164",
+                "name": "Cleansing Conch",
+                "qty": 3,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_009_UI.webp",
+                "source": "Lorelei / Lorelei - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Lorelei",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_33011_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601170",
+                "name": "Seaside Cendrelis",
+                "qty": 4,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconTask/T_IconTask_Task_144_UI.webp",
+                "source": "Collection Spots / Rosemary's Apothecary / Overworld Collection",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Rosemary's Apothecary"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  }
+                ]
+              }
+            ],
+            "cost": 10000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "41100042",
+                "name": "MF Polygon Core",
+                "qty": 8,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_004_2_UI.webp",
+                "source": "Clamorlings or Tranquilites / Forgery Challenge / Masked Reverie",
+                "sourceDetails": [
+                  {
+                    "name": "Clamorlings or Tranquilites"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  },
+                  {
+                    "name": "Masked Reverie"
+                  }
+                ]
+              },
+              {
+                "id": "41400164",
+                "name": "Cleansing Conch",
+                "qty": 6,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_009_UI.webp",
+                "source": "Lorelei / Lorelei - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Lorelei",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_33011_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601170",
+                "name": "Seaside Cendrelis",
+                "qty": 8,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconTask/T_IconTask_Task_144_UI.webp",
+                "source": "Collection Spots / Rosemary's Apothecary / Overworld Collection",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Rosemary's Apothecary"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  }
+                ]
+              }
+            ],
+            "cost": 15000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "41100043",
+                "name": "HF Polygon Core",
+                "qty": 4,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_004_3_UI.webp",
+                "source": "Clamorlings or Tranquilites",
+                "sourceDetails": [
+                  {
+                    "name": "Clamorlings or Tranquilites"
+                  }
+                ]
+              },
+              {
+                "id": "41400164",
+                "name": "Cleansing Conch",
+                "qty": 9,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_009_UI.webp",
+                "source": "Lorelei / Lorelei - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Lorelei",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_33011_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601170",
+                "name": "Seaside Cendrelis",
+                "qty": 12,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconTask/T_IconTask_Task_144_UI.webp",
+                "source": "Collection Spots / Rosemary's Apothecary / Overworld Collection",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Rosemary's Apothecary"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  }
+                ]
+              }
+            ],
+            "cost": 20000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "41100043",
+                "name": "HF Polygon Core",
+                "qty": 8,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_004_3_UI.webp",
+                "source": "Clamorlings or Tranquilites",
+                "sourceDetails": [
+                  {
+                    "name": "Clamorlings or Tranquilites"
+                  }
+                ]
+              },
+              {
+                "id": "41400164",
+                "name": "Cleansing Conch",
+                "qty": 12,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_009_UI.webp",
+                "source": "Lorelei / Lorelei - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Lorelei",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_33011_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601170",
+                "name": "Seaside Cendrelis",
+                "qty": 16,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconTask/T_IconTask_Task_144_UI.webp",
+                "source": "Collection Spots / Rosemary's Apothecary / Overworld Collection",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Rosemary's Apothecary"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  }
+                ]
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 90,
+            "items": [
+              {
+                "id": "41100044",
+                "name": "FF Polygon Core",
+                "qty": 4,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_004_4_UI.webp",
+                "source": "Clamorlings or Tranquilites",
+                "sourceDetails": [
+                  {
+                    "name": "Clamorlings or Tranquilites"
+                  }
+                ]
+              },
+              {
+                "id": "41400164",
+                "name": "Cleansing Conch",
+                "qty": 16,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_009_UI.webp",
+                "source": "Lorelei / Lorelei - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Lorelei",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_33011_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601170",
+                "name": "Seaside Cendrelis",
+                "qty": 20,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconTask/T_IconTask_Task_144_UI.webp",
+                "source": "Collection Spots / Rosemary's Apothecary / Overworld Collection",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Rosemary's Apothecary"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  }
+                ]
+              }
+            ],
+            "cost": 80000
+          }
+        ],
         "talents": [
           {
             "id": "41100041",
@@ -25679,6 +26636,321 @@
                 "name": "Overworld Collection"
               }
             ]
+          }
+        ],
+        "ascensionStages": [
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "41100051",
+                "name": "LF Tidal Residuum",
+                "qty": 4,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_005_1_UI.webp",
+                "source": "Tacet Discords influenced by the Dark Tide / Forgery Challenge / Masked Reverie",
+                "sourceDetails": [
+                  {
+                    "name": "Tacet Discords influenced by the Dark Tide"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  },
+                  {
+                    "name": "Masked Reverie"
+                  }
+                ]
+              }
+            ],
+            "cost": 5000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "41100052",
+                "name": "MF Tidal Residuum",
+                "qty": 4,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_005_2_UI.webp",
+                "source": "Tacet Discords influenced by the Dark Tide / Forgery Challenge / Masked Reverie",
+                "sourceDetails": [
+                  {
+                    "name": "Tacet Discords influenced by the Dark Tide"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  },
+                  {
+                    "name": "Masked Reverie"
+                  }
+                ]
+              },
+              {
+                "id": "41400164",
+                "name": "Cleansing Conch",
+                "qty": 3,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_009_UI.webp",
+                "source": "Lorelei / Lorelei - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Lorelei",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_33011_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601160",
+                "name": "Firecracker Jewelweed",
+                "qty": 4,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_043_UI.webp",
+                "source": "Collection Spots / Rosemary's Apothecary / Overworld Collection",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Rosemary's Apothecary"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  }
+                ]
+              }
+            ],
+            "cost": 10000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "41100052",
+                "name": "MF Tidal Residuum",
+                "qty": 8,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_005_2_UI.webp",
+                "source": "Tacet Discords influenced by the Dark Tide / Forgery Challenge / Masked Reverie",
+                "sourceDetails": [
+                  {
+                    "name": "Tacet Discords influenced by the Dark Tide"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  },
+                  {
+                    "name": "Masked Reverie"
+                  }
+                ]
+              },
+              {
+                "id": "41400164",
+                "name": "Cleansing Conch",
+                "qty": 6,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_009_UI.webp",
+                "source": "Lorelei / Lorelei - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Lorelei",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_33011_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601160",
+                "name": "Firecracker Jewelweed",
+                "qty": 8,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_043_UI.webp",
+                "source": "Collection Spots / Rosemary's Apothecary / Overworld Collection",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Rosemary's Apothecary"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  }
+                ]
+              }
+            ],
+            "cost": 15000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "41100053",
+                "name": "HF Tidal Residuum",
+                "qty": 4,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_005_3_UI.webp",
+                "source": "Tacet Discords influenced by the Dark Tide",
+                "sourceDetails": [
+                  {
+                    "name": "Tacet Discords influenced by the Dark Tide"
+                  }
+                ]
+              },
+              {
+                "id": "41400164",
+                "name": "Cleansing Conch",
+                "qty": 9,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_009_UI.webp",
+                "source": "Lorelei / Lorelei - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Lorelei",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_33011_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601160",
+                "name": "Firecracker Jewelweed",
+                "qty": 12,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_043_UI.webp",
+                "source": "Collection Spots / Rosemary's Apothecary / Overworld Collection",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Rosemary's Apothecary"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  }
+                ]
+              }
+            ],
+            "cost": 20000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "41100053",
+                "name": "HF Tidal Residuum",
+                "qty": 8,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_005_3_UI.webp",
+                "source": "Tacet Discords influenced by the Dark Tide",
+                "sourceDetails": [
+                  {
+                    "name": "Tacet Discords influenced by the Dark Tide"
+                  }
+                ]
+              },
+              {
+                "id": "41400164",
+                "name": "Cleansing Conch",
+                "qty": 12,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_009_UI.webp",
+                "source": "Lorelei / Lorelei - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Lorelei",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_33011_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601160",
+                "name": "Firecracker Jewelweed",
+                "qty": 16,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_043_UI.webp",
+                "source": "Collection Spots / Rosemary's Apothecary / Overworld Collection",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Rosemary's Apothecary"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  }
+                ]
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 90,
+            "items": [
+              {
+                "id": "41100054",
+                "name": "FF Tidal Residuum",
+                "qty": 4,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_005_4_UI.webp",
+                "source": "Tacet Discords influenced by the Dark Tide",
+                "sourceDetails": [
+                  {
+                    "name": "Tacet Discords influenced by the Dark Tide"
+                  }
+                ]
+              },
+              {
+                "id": "41400164",
+                "name": "Cleansing Conch",
+                "qty": 16,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_009_UI.webp",
+                "source": "Lorelei / Lorelei - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Lorelei",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_33011_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601160",
+                "name": "Firecracker Jewelweed",
+                "qty": 20,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_043_UI.webp",
+                "source": "Collection Spots / Rosemary's Apothecary / Overworld Collection",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Rosemary's Apothecary"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  }
+                ]
+              }
+            ],
+            "cost": 80000
           }
         ],
         "talents": [
@@ -27466,6 +28738,337 @@
                 "name": "Shifang Pharmacy"
               }
             ]
+          }
+        ],
+        "ascensionStages": [
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "41100011",
+                "name": "LF Whisperin Core",
+                "qty": 4,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_1_UI.webp",
+                "source": "Whisperins / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              }
+            ],
+            "cost": 5000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "41100012",
+                "name": "MF Whisperin Core",
+                "qty": 4,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_2_UI.webp",
+                "source": "Whisperins / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41300005",
+                "name": "Mysterious Code",
+                "qty": 1,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_002_1_UI.webp",
+                "source": "Casket Delivery / Quests",
+                "sourceDetails": [
+                  {
+                    "name": "Casket Delivery"
+                  },
+                  {
+                    "name": "Quests"
+                  }
+                ]
+              },
+              {
+                "id": "42300060",
+                "name": "Pecok Flower",
+                "qty": 4,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_18A_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Taoyuan Vale / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Taoyuan Vale"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 10000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "41100012",
+                "name": "MF Whisperin Core",
+                "qty": 8,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_2_UI.webp",
+                "source": "Whisperins / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41300005",
+                "name": "Mysterious Code",
+                "qty": 1,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_002_1_UI.webp",
+                "source": "Casket Delivery / Quests",
+                "sourceDetails": [
+                  {
+                    "name": "Casket Delivery"
+                  },
+                  {
+                    "name": "Quests"
+                  }
+                ]
+              },
+              {
+                "id": "42300060",
+                "name": "Pecok Flower",
+                "qty": 8,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_18A_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Taoyuan Vale / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Taoyuan Vale"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 15000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "41100013",
+                "name": "HF Whisperin Core",
+                "qty": 4,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_3_UI.webp",
+                "source": "Whisperins",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  }
+                ]
+              },
+              {
+                "id": "41300005",
+                "name": "Mysterious Code",
+                "qty": 1,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_002_1_UI.webp",
+                "source": "Casket Delivery / Quests",
+                "sourceDetails": [
+                  {
+                    "name": "Casket Delivery"
+                  },
+                  {
+                    "name": "Quests"
+                  }
+                ]
+              },
+              {
+                "id": "42300060",
+                "name": "Pecok Flower",
+                "qty": 12,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_18A_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Taoyuan Vale / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Taoyuan Vale"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 20000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "41100013",
+                "name": "HF Whisperin Core",
+                "qty": 8,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_3_UI.webp",
+                "source": "Whisperins",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  }
+                ]
+              },
+              {
+                "id": "41300005",
+                "name": "Mysterious Code",
+                "qty": 1,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_002_1_UI.webp",
+                "source": "Casket Delivery / Quests",
+                "sourceDetails": [
+                  {
+                    "name": "Casket Delivery"
+                  },
+                  {
+                    "name": "Quests"
+                  }
+                ]
+              },
+              {
+                "id": "42300060",
+                "name": "Pecok Flower",
+                "qty": 16,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_18A_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Taoyuan Vale / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Taoyuan Vale"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 90,
+            "items": [
+              {
+                "id": "41100014",
+                "name": "FF Whisperin Core",
+                "qty": 4,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_4_UI.webp",
+                "source": "Whisperins",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  }
+                ]
+              },
+              {
+                "id": "41300005",
+                "name": "Mysterious Code",
+                "qty": 1,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_002_1_UI.webp",
+                "source": "Casket Delivery / Quests",
+                "sourceDetails": [
+                  {
+                    "name": "Casket Delivery"
+                  },
+                  {
+                    "name": "Quests"
+                  }
+                ]
+              },
+              {
+                "id": "42300060",
+                "name": "Pecok Flower",
+                "qty": 20,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_18A_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Taoyuan Vale / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Taoyuan Vale"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 80000
           }
         ],
         "talents": [
@@ -29256,6 +30859,337 @@
                     "name": "Shifang Pharmacy"
                   }
                 ]
+              }
+            ],
+            "ascensionStages": [
+              {
+                "cap": 40,
+                "items": [
+                  {
+                    "id": "41100011",
+                    "name": "LF Whisperin Core",
+                    "qty": 4,
+                    "rar": 2,
+                    "kind": "mob",
+                    "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_1_UI.webp",
+                    "source": "Whisperins / Forgery Challenge",
+                    "sourceDetails": [
+                      {
+                        "name": "Whisperins"
+                      },
+                      {
+                        "name": "Forgery Challenge"
+                      }
+                    ]
+                  }
+                ],
+                "cost": 5000
+              },
+              {
+                "cap": 50,
+                "items": [
+                  {
+                    "id": "41100012",
+                    "name": "MF Whisperin Core",
+                    "qty": 4,
+                    "rar": 3,
+                    "kind": "mob",
+                    "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_2_UI.webp",
+                    "source": "Whisperins / Forgery Challenge",
+                    "sourceDetails": [
+                      {
+                        "name": "Whisperins"
+                      },
+                      {
+                        "name": "Forgery Challenge"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "41300005",
+                    "name": "Mysterious Code",
+                    "qty": 1,
+                    "rar": 5,
+                    "kind": "mob",
+                    "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_002_1_UI.webp",
+                    "source": "Casket Delivery / Quests",
+                    "sourceDetails": [
+                      {
+                        "name": "Casket Delivery"
+                      },
+                      {
+                        "name": "Quests"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "42300060",
+                    "name": "Pecok Flower",
+                    "qty": 4,
+                    "rar": 1,
+                    "kind": "mob",
+                    "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_18A_UI.webp",
+                    "source": "Overworld Collection / Collection Spots / Taoyuan Vale / Shifang Pharmacy",
+                    "sourceDetails": [
+                      {
+                        "name": "Overworld Collection"
+                      },
+                      {
+                        "name": "Collection Spots"
+                      },
+                      {
+                        "name": "Taoyuan Vale"
+                      },
+                      {
+                        "name": "Shifang Pharmacy"
+                      }
+                    ]
+                  }
+                ],
+                "cost": 10000
+              },
+              {
+                "cap": 60,
+                "items": [
+                  {
+                    "id": "41100012",
+                    "name": "MF Whisperin Core",
+                    "qty": 8,
+                    "rar": 3,
+                    "kind": "mob",
+                    "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_2_UI.webp",
+                    "source": "Whisperins / Forgery Challenge",
+                    "sourceDetails": [
+                      {
+                        "name": "Whisperins"
+                      },
+                      {
+                        "name": "Forgery Challenge"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "41300005",
+                    "name": "Mysterious Code",
+                    "qty": 1,
+                    "rar": 5,
+                    "kind": "mob",
+                    "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_002_1_UI.webp",
+                    "source": "Casket Delivery / Quests",
+                    "sourceDetails": [
+                      {
+                        "name": "Casket Delivery"
+                      },
+                      {
+                        "name": "Quests"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "42300060",
+                    "name": "Pecok Flower",
+                    "qty": 8,
+                    "rar": 1,
+                    "kind": "mob",
+                    "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_18A_UI.webp",
+                    "source": "Overworld Collection / Collection Spots / Taoyuan Vale / Shifang Pharmacy",
+                    "sourceDetails": [
+                      {
+                        "name": "Overworld Collection"
+                      },
+                      {
+                        "name": "Collection Spots"
+                      },
+                      {
+                        "name": "Taoyuan Vale"
+                      },
+                      {
+                        "name": "Shifang Pharmacy"
+                      }
+                    ]
+                  }
+                ],
+                "cost": 15000
+              },
+              {
+                "cap": 70,
+                "items": [
+                  {
+                    "id": "41100013",
+                    "name": "HF Whisperin Core",
+                    "qty": 4,
+                    "rar": 4,
+                    "kind": "mob",
+                    "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_3_UI.webp",
+                    "source": "Whisperins",
+                    "sourceDetails": [
+                      {
+                        "name": "Whisperins"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "41300005",
+                    "name": "Mysterious Code",
+                    "qty": 1,
+                    "rar": 5,
+                    "kind": "mob",
+                    "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_002_1_UI.webp",
+                    "source": "Casket Delivery / Quests",
+                    "sourceDetails": [
+                      {
+                        "name": "Casket Delivery"
+                      },
+                      {
+                        "name": "Quests"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "42300060",
+                    "name": "Pecok Flower",
+                    "qty": 12,
+                    "rar": 1,
+                    "kind": "mob",
+                    "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_18A_UI.webp",
+                    "source": "Overworld Collection / Collection Spots / Taoyuan Vale / Shifang Pharmacy",
+                    "sourceDetails": [
+                      {
+                        "name": "Overworld Collection"
+                      },
+                      {
+                        "name": "Collection Spots"
+                      },
+                      {
+                        "name": "Taoyuan Vale"
+                      },
+                      {
+                        "name": "Shifang Pharmacy"
+                      }
+                    ]
+                  }
+                ],
+                "cost": 20000
+              },
+              {
+                "cap": 80,
+                "items": [
+                  {
+                    "id": "41100013",
+                    "name": "HF Whisperin Core",
+                    "qty": 8,
+                    "rar": 4,
+                    "kind": "mob",
+                    "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_3_UI.webp",
+                    "source": "Whisperins",
+                    "sourceDetails": [
+                      {
+                        "name": "Whisperins"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "41300005",
+                    "name": "Mysterious Code",
+                    "qty": 1,
+                    "rar": 5,
+                    "kind": "mob",
+                    "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_002_1_UI.webp",
+                    "source": "Casket Delivery / Quests",
+                    "sourceDetails": [
+                      {
+                        "name": "Casket Delivery"
+                      },
+                      {
+                        "name": "Quests"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "42300060",
+                    "name": "Pecok Flower",
+                    "qty": 16,
+                    "rar": 1,
+                    "kind": "mob",
+                    "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_18A_UI.webp",
+                    "source": "Overworld Collection / Collection Spots / Taoyuan Vale / Shifang Pharmacy",
+                    "sourceDetails": [
+                      {
+                        "name": "Overworld Collection"
+                      },
+                      {
+                        "name": "Collection Spots"
+                      },
+                      {
+                        "name": "Taoyuan Vale"
+                      },
+                      {
+                        "name": "Shifang Pharmacy"
+                      }
+                    ]
+                  }
+                ],
+                "cost": 40000
+              },
+              {
+                "cap": 90,
+                "items": [
+                  {
+                    "id": "41100014",
+                    "name": "FF Whisperin Core",
+                    "qty": 4,
+                    "rar": 5,
+                    "kind": "mob",
+                    "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_4_UI.webp",
+                    "source": "Whisperins",
+                    "sourceDetails": [
+                      {
+                        "name": "Whisperins"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "41300005",
+                    "name": "Mysterious Code",
+                    "qty": 1,
+                    "rar": 5,
+                    "kind": "mob",
+                    "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_002_1_UI.webp",
+                    "source": "Casket Delivery / Quests",
+                    "sourceDetails": [
+                      {
+                        "name": "Casket Delivery"
+                      },
+                      {
+                        "name": "Quests"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "42300060",
+                    "name": "Pecok Flower",
+                    "qty": 20,
+                    "rar": 1,
+                    "kind": "mob",
+                    "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_18A_UI.webp",
+                    "source": "Overworld Collection / Collection Spots / Taoyuan Vale / Shifang Pharmacy",
+                    "sourceDetails": [
+                      {
+                        "name": "Overworld Collection"
+                      },
+                      {
+                        "name": "Collection Spots"
+                      },
+                      {
+                        "name": "Taoyuan Vale"
+                      },
+                      {
+                        "name": "Shifang Pharmacy"
+                      }
+                    ]
+                  }
+                ],
+                "cost": 80000
               }
             ],
             "talents": [
@@ -31252,6 +33186,337 @@
                 ]
               }
             ],
+            "ascensionStages": [
+              {
+                "cap": 40,
+                "items": [
+                  {
+                    "id": "41100011",
+                    "name": "LF Whisperin Core",
+                    "qty": 4,
+                    "rar": 2,
+                    "kind": "mob",
+                    "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_1_UI.webp",
+                    "source": "Whisperins / Forgery Challenge",
+                    "sourceDetails": [
+                      {
+                        "name": "Whisperins"
+                      },
+                      {
+                        "name": "Forgery Challenge"
+                      }
+                    ]
+                  }
+                ],
+                "cost": 5000
+              },
+              {
+                "cap": 50,
+                "items": [
+                  {
+                    "id": "41100012",
+                    "name": "MF Whisperin Core",
+                    "qty": 4,
+                    "rar": 3,
+                    "kind": "mob",
+                    "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_2_UI.webp",
+                    "source": "Whisperins / Forgery Challenge",
+                    "sourceDetails": [
+                      {
+                        "name": "Whisperins"
+                      },
+                      {
+                        "name": "Forgery Challenge"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "41300005",
+                    "name": "Mysterious Code",
+                    "qty": 1,
+                    "rar": 5,
+                    "kind": "mob",
+                    "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_002_1_UI.webp",
+                    "source": "Casket Delivery / Quests",
+                    "sourceDetails": [
+                      {
+                        "name": "Casket Delivery"
+                      },
+                      {
+                        "name": "Quests"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "42300060",
+                    "name": "Pecok Flower",
+                    "qty": 4,
+                    "rar": 1,
+                    "kind": "mob",
+                    "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_18A_UI.webp",
+                    "source": "Overworld Collection / Collection Spots / Taoyuan Vale / Shifang Pharmacy",
+                    "sourceDetails": [
+                      {
+                        "name": "Overworld Collection"
+                      },
+                      {
+                        "name": "Collection Spots"
+                      },
+                      {
+                        "name": "Taoyuan Vale"
+                      },
+                      {
+                        "name": "Shifang Pharmacy"
+                      }
+                    ]
+                  }
+                ],
+                "cost": 10000
+              },
+              {
+                "cap": 60,
+                "items": [
+                  {
+                    "id": "41100012",
+                    "name": "MF Whisperin Core",
+                    "qty": 8,
+                    "rar": 3,
+                    "kind": "mob",
+                    "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_2_UI.webp",
+                    "source": "Whisperins / Forgery Challenge",
+                    "sourceDetails": [
+                      {
+                        "name": "Whisperins"
+                      },
+                      {
+                        "name": "Forgery Challenge"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "41300005",
+                    "name": "Mysterious Code",
+                    "qty": 1,
+                    "rar": 5,
+                    "kind": "mob",
+                    "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_002_1_UI.webp",
+                    "source": "Casket Delivery / Quests",
+                    "sourceDetails": [
+                      {
+                        "name": "Casket Delivery"
+                      },
+                      {
+                        "name": "Quests"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "42300060",
+                    "name": "Pecok Flower",
+                    "qty": 8,
+                    "rar": 1,
+                    "kind": "mob",
+                    "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_18A_UI.webp",
+                    "source": "Overworld Collection / Collection Spots / Taoyuan Vale / Shifang Pharmacy",
+                    "sourceDetails": [
+                      {
+                        "name": "Overworld Collection"
+                      },
+                      {
+                        "name": "Collection Spots"
+                      },
+                      {
+                        "name": "Taoyuan Vale"
+                      },
+                      {
+                        "name": "Shifang Pharmacy"
+                      }
+                    ]
+                  }
+                ],
+                "cost": 15000
+              },
+              {
+                "cap": 70,
+                "items": [
+                  {
+                    "id": "41100013",
+                    "name": "HF Whisperin Core",
+                    "qty": 4,
+                    "rar": 4,
+                    "kind": "mob",
+                    "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_3_UI.webp",
+                    "source": "Whisperins",
+                    "sourceDetails": [
+                      {
+                        "name": "Whisperins"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "41300005",
+                    "name": "Mysterious Code",
+                    "qty": 1,
+                    "rar": 5,
+                    "kind": "mob",
+                    "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_002_1_UI.webp",
+                    "source": "Casket Delivery / Quests",
+                    "sourceDetails": [
+                      {
+                        "name": "Casket Delivery"
+                      },
+                      {
+                        "name": "Quests"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "42300060",
+                    "name": "Pecok Flower",
+                    "qty": 12,
+                    "rar": 1,
+                    "kind": "mob",
+                    "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_18A_UI.webp",
+                    "source": "Overworld Collection / Collection Spots / Taoyuan Vale / Shifang Pharmacy",
+                    "sourceDetails": [
+                      {
+                        "name": "Overworld Collection"
+                      },
+                      {
+                        "name": "Collection Spots"
+                      },
+                      {
+                        "name": "Taoyuan Vale"
+                      },
+                      {
+                        "name": "Shifang Pharmacy"
+                      }
+                    ]
+                  }
+                ],
+                "cost": 20000
+              },
+              {
+                "cap": 80,
+                "items": [
+                  {
+                    "id": "41100013",
+                    "name": "HF Whisperin Core",
+                    "qty": 8,
+                    "rar": 4,
+                    "kind": "mob",
+                    "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_3_UI.webp",
+                    "source": "Whisperins",
+                    "sourceDetails": [
+                      {
+                        "name": "Whisperins"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "41300005",
+                    "name": "Mysterious Code",
+                    "qty": 1,
+                    "rar": 5,
+                    "kind": "mob",
+                    "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_002_1_UI.webp",
+                    "source": "Casket Delivery / Quests",
+                    "sourceDetails": [
+                      {
+                        "name": "Casket Delivery"
+                      },
+                      {
+                        "name": "Quests"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "42300060",
+                    "name": "Pecok Flower",
+                    "qty": 16,
+                    "rar": 1,
+                    "kind": "mob",
+                    "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_18A_UI.webp",
+                    "source": "Overworld Collection / Collection Spots / Taoyuan Vale / Shifang Pharmacy",
+                    "sourceDetails": [
+                      {
+                        "name": "Overworld Collection"
+                      },
+                      {
+                        "name": "Collection Spots"
+                      },
+                      {
+                        "name": "Taoyuan Vale"
+                      },
+                      {
+                        "name": "Shifang Pharmacy"
+                      }
+                    ]
+                  }
+                ],
+                "cost": 40000
+              },
+              {
+                "cap": 90,
+                "items": [
+                  {
+                    "id": "41100014",
+                    "name": "FF Whisperin Core",
+                    "qty": 4,
+                    "rar": 5,
+                    "kind": "mob",
+                    "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_4_UI.webp",
+                    "source": "Whisperins",
+                    "sourceDetails": [
+                      {
+                        "name": "Whisperins"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "41300005",
+                    "name": "Mysterious Code",
+                    "qty": 1,
+                    "rar": 5,
+                    "kind": "mob",
+                    "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_002_1_UI.webp",
+                    "source": "Casket Delivery / Quests",
+                    "sourceDetails": [
+                      {
+                        "name": "Casket Delivery"
+                      },
+                      {
+                        "name": "Quests"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "42300060",
+                    "name": "Pecok Flower",
+                    "qty": 20,
+                    "rar": 1,
+                    "kind": "mob",
+                    "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_18A_UI.webp",
+                    "source": "Overworld Collection / Collection Spots / Taoyuan Vale / Shifang Pharmacy",
+                    "sourceDetails": [
+                      {
+                        "name": "Overworld Collection"
+                      },
+                      {
+                        "name": "Collection Spots"
+                      },
+                      {
+                        "name": "Taoyuan Vale"
+                      },
+                      {
+                        "name": "Shifang Pharmacy"
+                      }
+                    ]
+                  }
+                ],
+                "cost": 80000
+              }
+            ],
             "talents": [
               {
                 "id": "41100011",
@@ -33167,6 +35432,337 @@
                     "name": "Shifang Pharmacy"
                   }
                 ]
+              }
+            ],
+            "ascensionStages": [
+              {
+                "cap": 40,
+                "items": [
+                  {
+                    "id": "41100011",
+                    "name": "LF Whisperin Core",
+                    "qty": 4,
+                    "rar": 2,
+                    "kind": "mob",
+                    "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_1_UI.webp",
+                    "source": "Whisperins / Forgery Challenge",
+                    "sourceDetails": [
+                      {
+                        "name": "Whisperins"
+                      },
+                      {
+                        "name": "Forgery Challenge"
+                      }
+                    ]
+                  }
+                ],
+                "cost": 5000
+              },
+              {
+                "cap": 50,
+                "items": [
+                  {
+                    "id": "41100012",
+                    "name": "MF Whisperin Core",
+                    "qty": 4,
+                    "rar": 3,
+                    "kind": "mob",
+                    "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_2_UI.webp",
+                    "source": "Whisperins / Forgery Challenge",
+                    "sourceDetails": [
+                      {
+                        "name": "Whisperins"
+                      },
+                      {
+                        "name": "Forgery Challenge"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "41300005",
+                    "name": "Mysterious Code",
+                    "qty": 1,
+                    "rar": 5,
+                    "kind": "mob",
+                    "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_002_1_UI.webp",
+                    "source": "Casket Delivery / Quests",
+                    "sourceDetails": [
+                      {
+                        "name": "Casket Delivery"
+                      },
+                      {
+                        "name": "Quests"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "42300060",
+                    "name": "Pecok Flower",
+                    "qty": 4,
+                    "rar": 1,
+                    "kind": "mob",
+                    "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_18A_UI.webp",
+                    "source": "Overworld Collection / Collection Spots / Taoyuan Vale / Shifang Pharmacy",
+                    "sourceDetails": [
+                      {
+                        "name": "Overworld Collection"
+                      },
+                      {
+                        "name": "Collection Spots"
+                      },
+                      {
+                        "name": "Taoyuan Vale"
+                      },
+                      {
+                        "name": "Shifang Pharmacy"
+                      }
+                    ]
+                  }
+                ],
+                "cost": 10000
+              },
+              {
+                "cap": 60,
+                "items": [
+                  {
+                    "id": "41100012",
+                    "name": "MF Whisperin Core",
+                    "qty": 8,
+                    "rar": 3,
+                    "kind": "mob",
+                    "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_2_UI.webp",
+                    "source": "Whisperins / Forgery Challenge",
+                    "sourceDetails": [
+                      {
+                        "name": "Whisperins"
+                      },
+                      {
+                        "name": "Forgery Challenge"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "41300005",
+                    "name": "Mysterious Code",
+                    "qty": 1,
+                    "rar": 5,
+                    "kind": "mob",
+                    "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_002_1_UI.webp",
+                    "source": "Casket Delivery / Quests",
+                    "sourceDetails": [
+                      {
+                        "name": "Casket Delivery"
+                      },
+                      {
+                        "name": "Quests"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "42300060",
+                    "name": "Pecok Flower",
+                    "qty": 8,
+                    "rar": 1,
+                    "kind": "mob",
+                    "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_18A_UI.webp",
+                    "source": "Overworld Collection / Collection Spots / Taoyuan Vale / Shifang Pharmacy",
+                    "sourceDetails": [
+                      {
+                        "name": "Overworld Collection"
+                      },
+                      {
+                        "name": "Collection Spots"
+                      },
+                      {
+                        "name": "Taoyuan Vale"
+                      },
+                      {
+                        "name": "Shifang Pharmacy"
+                      }
+                    ]
+                  }
+                ],
+                "cost": 15000
+              },
+              {
+                "cap": 70,
+                "items": [
+                  {
+                    "id": "41100013",
+                    "name": "HF Whisperin Core",
+                    "qty": 4,
+                    "rar": 4,
+                    "kind": "mob",
+                    "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_3_UI.webp",
+                    "source": "Whisperins",
+                    "sourceDetails": [
+                      {
+                        "name": "Whisperins"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "41300005",
+                    "name": "Mysterious Code",
+                    "qty": 1,
+                    "rar": 5,
+                    "kind": "mob",
+                    "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_002_1_UI.webp",
+                    "source": "Casket Delivery / Quests",
+                    "sourceDetails": [
+                      {
+                        "name": "Casket Delivery"
+                      },
+                      {
+                        "name": "Quests"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "42300060",
+                    "name": "Pecok Flower",
+                    "qty": 12,
+                    "rar": 1,
+                    "kind": "mob",
+                    "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_18A_UI.webp",
+                    "source": "Overworld Collection / Collection Spots / Taoyuan Vale / Shifang Pharmacy",
+                    "sourceDetails": [
+                      {
+                        "name": "Overworld Collection"
+                      },
+                      {
+                        "name": "Collection Spots"
+                      },
+                      {
+                        "name": "Taoyuan Vale"
+                      },
+                      {
+                        "name": "Shifang Pharmacy"
+                      }
+                    ]
+                  }
+                ],
+                "cost": 20000
+              },
+              {
+                "cap": 80,
+                "items": [
+                  {
+                    "id": "41100013",
+                    "name": "HF Whisperin Core",
+                    "qty": 8,
+                    "rar": 4,
+                    "kind": "mob",
+                    "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_3_UI.webp",
+                    "source": "Whisperins",
+                    "sourceDetails": [
+                      {
+                        "name": "Whisperins"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "41300005",
+                    "name": "Mysterious Code",
+                    "qty": 1,
+                    "rar": 5,
+                    "kind": "mob",
+                    "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_002_1_UI.webp",
+                    "source": "Casket Delivery / Quests",
+                    "sourceDetails": [
+                      {
+                        "name": "Casket Delivery"
+                      },
+                      {
+                        "name": "Quests"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "42300060",
+                    "name": "Pecok Flower",
+                    "qty": 16,
+                    "rar": 1,
+                    "kind": "mob",
+                    "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_18A_UI.webp",
+                    "source": "Overworld Collection / Collection Spots / Taoyuan Vale / Shifang Pharmacy",
+                    "sourceDetails": [
+                      {
+                        "name": "Overworld Collection"
+                      },
+                      {
+                        "name": "Collection Spots"
+                      },
+                      {
+                        "name": "Taoyuan Vale"
+                      },
+                      {
+                        "name": "Shifang Pharmacy"
+                      }
+                    ]
+                  }
+                ],
+                "cost": 40000
+              },
+              {
+                "cap": 90,
+                "items": [
+                  {
+                    "id": "41100014",
+                    "name": "FF Whisperin Core",
+                    "qty": 4,
+                    "rar": 5,
+                    "kind": "mob",
+                    "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_4_UI.webp",
+                    "source": "Whisperins",
+                    "sourceDetails": [
+                      {
+                        "name": "Whisperins"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "41300005",
+                    "name": "Mysterious Code",
+                    "qty": 1,
+                    "rar": 5,
+                    "kind": "mob",
+                    "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_002_1_UI.webp",
+                    "source": "Casket Delivery / Quests",
+                    "sourceDetails": [
+                      {
+                        "name": "Casket Delivery"
+                      },
+                      {
+                        "name": "Quests"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "42300060",
+                    "name": "Pecok Flower",
+                    "qty": 20,
+                    "rar": 1,
+                    "kind": "mob",
+                    "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_18A_UI.webp",
+                    "source": "Overworld Collection / Collection Spots / Taoyuan Vale / Shifang Pharmacy",
+                    "sourceDetails": [
+                      {
+                        "name": "Overworld Collection"
+                      },
+                      {
+                        "name": "Collection Spots"
+                      },
+                      {
+                        "name": "Taoyuan Vale"
+                      },
+                      {
+                        "name": "Shifang Pharmacy"
+                      }
+                    ]
+                  }
+                ],
+                "cost": 80000
               }
             ],
             "talents": [
@@ -35792,6 +38388,337 @@
                 ]
               }
             ],
+            "ascensionStages": [
+              {
+                "cap": 40,
+                "items": [
+                  {
+                    "id": "41100011",
+                    "name": "LF Whisperin Core",
+                    "qty": 4,
+                    "rar": 2,
+                    "kind": "mob",
+                    "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_1_UI.webp",
+                    "source": "Whisperins / Forgery Challenge",
+                    "sourceDetails": [
+                      {
+                        "name": "Whisperins"
+                      },
+                      {
+                        "name": "Forgery Challenge"
+                      }
+                    ]
+                  }
+                ],
+                "cost": 5000
+              },
+              {
+                "cap": 50,
+                "items": [
+                  {
+                    "id": "41100012",
+                    "name": "MF Whisperin Core",
+                    "qty": 4,
+                    "rar": 3,
+                    "kind": "mob",
+                    "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_2_UI.webp",
+                    "source": "Whisperins / Forgery Challenge",
+                    "sourceDetails": [
+                      {
+                        "name": "Whisperins"
+                      },
+                      {
+                        "name": "Forgery Challenge"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "41300005",
+                    "name": "Mysterious Code",
+                    "qty": 1,
+                    "rar": 5,
+                    "kind": "mob",
+                    "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_002_1_UI.webp",
+                    "source": "Casket Delivery / Quests",
+                    "sourceDetails": [
+                      {
+                        "name": "Casket Delivery"
+                      },
+                      {
+                        "name": "Quests"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "42300060",
+                    "name": "Pecok Flower",
+                    "qty": 4,
+                    "rar": 1,
+                    "kind": "mob",
+                    "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_18A_UI.webp",
+                    "source": "Overworld Collection / Collection Spots / Taoyuan Vale / Shifang Pharmacy",
+                    "sourceDetails": [
+                      {
+                        "name": "Overworld Collection"
+                      },
+                      {
+                        "name": "Collection Spots"
+                      },
+                      {
+                        "name": "Taoyuan Vale"
+                      },
+                      {
+                        "name": "Shifang Pharmacy"
+                      }
+                    ]
+                  }
+                ],
+                "cost": 10000
+              },
+              {
+                "cap": 60,
+                "items": [
+                  {
+                    "id": "41100012",
+                    "name": "MF Whisperin Core",
+                    "qty": 8,
+                    "rar": 3,
+                    "kind": "mob",
+                    "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_2_UI.webp",
+                    "source": "Whisperins / Forgery Challenge",
+                    "sourceDetails": [
+                      {
+                        "name": "Whisperins"
+                      },
+                      {
+                        "name": "Forgery Challenge"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "41300005",
+                    "name": "Mysterious Code",
+                    "qty": 1,
+                    "rar": 5,
+                    "kind": "mob",
+                    "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_002_1_UI.webp",
+                    "source": "Casket Delivery / Quests",
+                    "sourceDetails": [
+                      {
+                        "name": "Casket Delivery"
+                      },
+                      {
+                        "name": "Quests"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "42300060",
+                    "name": "Pecok Flower",
+                    "qty": 8,
+                    "rar": 1,
+                    "kind": "mob",
+                    "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_18A_UI.webp",
+                    "source": "Overworld Collection / Collection Spots / Taoyuan Vale / Shifang Pharmacy",
+                    "sourceDetails": [
+                      {
+                        "name": "Overworld Collection"
+                      },
+                      {
+                        "name": "Collection Spots"
+                      },
+                      {
+                        "name": "Taoyuan Vale"
+                      },
+                      {
+                        "name": "Shifang Pharmacy"
+                      }
+                    ]
+                  }
+                ],
+                "cost": 15000
+              },
+              {
+                "cap": 70,
+                "items": [
+                  {
+                    "id": "41100013",
+                    "name": "HF Whisperin Core",
+                    "qty": 4,
+                    "rar": 4,
+                    "kind": "mob",
+                    "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_3_UI.webp",
+                    "source": "Whisperins",
+                    "sourceDetails": [
+                      {
+                        "name": "Whisperins"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "41300005",
+                    "name": "Mysterious Code",
+                    "qty": 1,
+                    "rar": 5,
+                    "kind": "mob",
+                    "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_002_1_UI.webp",
+                    "source": "Casket Delivery / Quests",
+                    "sourceDetails": [
+                      {
+                        "name": "Casket Delivery"
+                      },
+                      {
+                        "name": "Quests"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "42300060",
+                    "name": "Pecok Flower",
+                    "qty": 12,
+                    "rar": 1,
+                    "kind": "mob",
+                    "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_18A_UI.webp",
+                    "source": "Overworld Collection / Collection Spots / Taoyuan Vale / Shifang Pharmacy",
+                    "sourceDetails": [
+                      {
+                        "name": "Overworld Collection"
+                      },
+                      {
+                        "name": "Collection Spots"
+                      },
+                      {
+                        "name": "Taoyuan Vale"
+                      },
+                      {
+                        "name": "Shifang Pharmacy"
+                      }
+                    ]
+                  }
+                ],
+                "cost": 20000
+              },
+              {
+                "cap": 80,
+                "items": [
+                  {
+                    "id": "41100013",
+                    "name": "HF Whisperin Core",
+                    "qty": 8,
+                    "rar": 4,
+                    "kind": "mob",
+                    "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_3_UI.webp",
+                    "source": "Whisperins",
+                    "sourceDetails": [
+                      {
+                        "name": "Whisperins"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "41300005",
+                    "name": "Mysterious Code",
+                    "qty": 1,
+                    "rar": 5,
+                    "kind": "mob",
+                    "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_002_1_UI.webp",
+                    "source": "Casket Delivery / Quests",
+                    "sourceDetails": [
+                      {
+                        "name": "Casket Delivery"
+                      },
+                      {
+                        "name": "Quests"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "42300060",
+                    "name": "Pecok Flower",
+                    "qty": 16,
+                    "rar": 1,
+                    "kind": "mob",
+                    "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_18A_UI.webp",
+                    "source": "Overworld Collection / Collection Spots / Taoyuan Vale / Shifang Pharmacy",
+                    "sourceDetails": [
+                      {
+                        "name": "Overworld Collection"
+                      },
+                      {
+                        "name": "Collection Spots"
+                      },
+                      {
+                        "name": "Taoyuan Vale"
+                      },
+                      {
+                        "name": "Shifang Pharmacy"
+                      }
+                    ]
+                  }
+                ],
+                "cost": 40000
+              },
+              {
+                "cap": 90,
+                "items": [
+                  {
+                    "id": "41100014",
+                    "name": "FF Whisperin Core",
+                    "qty": 4,
+                    "rar": 5,
+                    "kind": "mob",
+                    "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_4_UI.webp",
+                    "source": "Whisperins",
+                    "sourceDetails": [
+                      {
+                        "name": "Whisperins"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "41300005",
+                    "name": "Mysterious Code",
+                    "qty": 1,
+                    "rar": 5,
+                    "kind": "mob",
+                    "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_002_1_UI.webp",
+                    "source": "Casket Delivery / Quests",
+                    "sourceDetails": [
+                      {
+                        "name": "Casket Delivery"
+                      },
+                      {
+                        "name": "Quests"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "42300060",
+                    "name": "Pecok Flower",
+                    "qty": 20,
+                    "rar": 1,
+                    "kind": "mob",
+                    "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_18A_UI.webp",
+                    "source": "Overworld Collection / Collection Spots / Taoyuan Vale / Shifang Pharmacy",
+                    "sourceDetails": [
+                      {
+                        "name": "Overworld Collection"
+                      },
+                      {
+                        "name": "Collection Spots"
+                      },
+                      {
+                        "name": "Taoyuan Vale"
+                      },
+                      {
+                        "name": "Shifang Pharmacy"
+                      }
+                    ]
+                  }
+                ],
+                "cost": 80000
+              }
+            ],
             "talents": [
               {
                 "id": "41100011",
@@ -38242,6 +41169,297 @@
             ]
           }
         ],
+        "ascensionStages": [
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "41100011",
+                "name": "LF Whisperin Core",
+                "qty": 4,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_1_UI.webp",
+                "source": "Whisperins / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              }
+            ],
+            "cost": 5000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "41100012",
+                "name": "MF Whisperin Core",
+                "qty": 4,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_2_UI.webp",
+                "source": "Whisperins / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400154",
+                "name": "Topological Confinement",
+                "qty": 3,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_015_UI.webp",
+                "source": "Fallacy of No Return / Fallacy of No Return - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Fallacy of No Return",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_350_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42310230",
+                "name": "Nova",
+                "qty": 4,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconTask/T_IconTask_Task_084_UI.webp",
+                "source": "Black Shores / Collection Spots",
+                "sourceDetails": [
+                  {
+                    "name": "Black Shores"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  }
+                ]
+              }
+            ],
+            "cost": 10000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "41100012",
+                "name": "MF Whisperin Core",
+                "qty": 8,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_2_UI.webp",
+                "source": "Whisperins / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400154",
+                "name": "Topological Confinement",
+                "qty": 6,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_015_UI.webp",
+                "source": "Fallacy of No Return / Fallacy of No Return - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Fallacy of No Return",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_350_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42310230",
+                "name": "Nova",
+                "qty": 8,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconTask/T_IconTask_Task_084_UI.webp",
+                "source": "Black Shores / Collection Spots",
+                "sourceDetails": [
+                  {
+                    "name": "Black Shores"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  }
+                ]
+              }
+            ],
+            "cost": 15000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "41100013",
+                "name": "HF Whisperin Core",
+                "qty": 4,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_3_UI.webp",
+                "source": "Whisperins",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  }
+                ]
+              },
+              {
+                "id": "41400154",
+                "name": "Topological Confinement",
+                "qty": 9,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_015_UI.webp",
+                "source": "Fallacy of No Return / Fallacy of No Return - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Fallacy of No Return",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_350_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42310230",
+                "name": "Nova",
+                "qty": 12,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconTask/T_IconTask_Task_084_UI.webp",
+                "source": "Black Shores / Collection Spots",
+                "sourceDetails": [
+                  {
+                    "name": "Black Shores"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  }
+                ]
+              }
+            ],
+            "cost": 20000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "41100013",
+                "name": "HF Whisperin Core",
+                "qty": 8,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_3_UI.webp",
+                "source": "Whisperins",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  }
+                ]
+              },
+              {
+                "id": "41400154",
+                "name": "Topological Confinement",
+                "qty": 12,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_015_UI.webp",
+                "source": "Fallacy of No Return / Fallacy of No Return - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Fallacy of No Return",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_350_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42310230",
+                "name": "Nova",
+                "qty": 16,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconTask/T_IconTask_Task_084_UI.webp",
+                "source": "Black Shores / Collection Spots",
+                "sourceDetails": [
+                  {
+                    "name": "Black Shores"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  }
+                ]
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 90,
+            "items": [
+              {
+                "id": "41100014",
+                "name": "FF Whisperin Core",
+                "qty": 4,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_4_UI.webp",
+                "source": "Whisperins",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  }
+                ]
+              },
+              {
+                "id": "41400154",
+                "name": "Topological Confinement",
+                "qty": 16,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_015_UI.webp",
+                "source": "Fallacy of No Return / Fallacy of No Return - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Fallacy of No Return",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_350_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42310230",
+                "name": "Nova",
+                "qty": 20,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconTask/T_IconTask_Task_084_UI.webp",
+                "source": "Black Shores / Collection Spots",
+                "sourceDetails": [
+                  {
+                    "name": "Black Shores"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  }
+                ]
+              }
+            ],
+            "cost": 80000
+          }
+        ],
         "talents": [
           {
             "id": "41100011",
@@ -40097,6 +43315,333 @@
             ]
           }
         ],
+        "ascensionStages": [
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "41100031",
+                "name": "Crude Ring",
+                "qty": 4,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_1_UI.webp",
+                "source": "Exiles / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Exile",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              }
+            ],
+            "cost": 5000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "41100032",
+                "name": "Basic Ring",
+                "qty": 4,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_2_UI.webp",
+                "source": "Exiles / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Exile",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400014",
+                "name": "Strife Tacet Core",
+                "qty": 3,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_004_1_UI.webp",
+                "source": "Crownless",
+                "sourceDetails": [
+                  {
+                    "name": "Crownless",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_999_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300070",
+                "name": "Belle Poppy",
+                "qty": 4,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_29A_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Sea of Flames / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Sea of Flames"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 10000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "41100032",
+                "name": "Basic Ring",
+                "qty": 8,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_2_UI.webp",
+                "source": "Exiles / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Exile",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400014",
+                "name": "Strife Tacet Core",
+                "qty": 6,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_004_1_UI.webp",
+                "source": "Crownless",
+                "sourceDetails": [
+                  {
+                    "name": "Crownless",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_999_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300070",
+                "name": "Belle Poppy",
+                "qty": 8,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_29A_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Sea of Flames / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Sea of Flames"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 15000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "41100033",
+                "name": "Improved Ring",
+                "qty": 4,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_3_UI.webp",
+                "source": "Exiles",
+                "sourceDetails": [
+                  {
+                    "name": "Exile",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "41400014",
+                "name": "Strife Tacet Core",
+                "qty": 9,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_004_1_UI.webp",
+                "source": "Crownless",
+                "sourceDetails": [
+                  {
+                    "name": "Crownless",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_999_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300070",
+                "name": "Belle Poppy",
+                "qty": 12,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_29A_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Sea of Flames / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Sea of Flames"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 20000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "41100033",
+                "name": "Improved Ring",
+                "qty": 8,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_3_UI.webp",
+                "source": "Exiles",
+                "sourceDetails": [
+                  {
+                    "name": "Exile",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "41400014",
+                "name": "Strife Tacet Core",
+                "qty": 12,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_004_1_UI.webp",
+                "source": "Crownless",
+                "sourceDetails": [
+                  {
+                    "name": "Crownless",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_999_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300070",
+                "name": "Belle Poppy",
+                "qty": 16,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_29A_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Sea of Flames / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Sea of Flames"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 90,
+            "items": [
+              {
+                "id": "41100034",
+                "name": "Tailored Ring",
+                "qty": 4,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_4_UI.webp",
+                "source": "Exiles",
+                "sourceDetails": [
+                  {
+                    "name": "Exile",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "41400014",
+                "name": "Strife Tacet Core",
+                "qty": 16,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_004_1_UI.webp",
+                "source": "Crownless",
+                "sourceDetails": [
+                  {
+                    "name": "Crownless",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_999_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300070",
+                "name": "Belle Poppy",
+                "qty": 20,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_29A_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Sea of Flames / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Sea of Flames"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 80000
+          }
+        ],
         "talents": [
           {
             "id": "41100031",
@@ -41936,6 +45481,327 @@
                 "name": "Shifang Pharmacy"
               }
             ]
+          }
+        ],
+        "ascensionStages": [
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "41100021",
+                "name": "LF Howler Core",
+                "qty": 4,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_1_UI.webp",
+                "source": "Howlers / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Howlers"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              }
+            ],
+            "cost": 5000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "41100022",
+                "name": "MF Howler Core",
+                "qty": 4,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+                "source": "Howlers / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Howlers"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400064",
+                "name": "Gold-Dissolving Feather",
+                "qty": 3,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_010_UI.webp",
+                "source": "Impermanence Heron",
+                "sourceDetails": [
+                  {
+                    "name": "Impermanence Heron",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_995_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300030",
+                "name": "Iris",
+                "qty": 4,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_33A_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Heron Wetland / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Heron Wetland"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 10000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "41100022",
+                "name": "MF Howler Core",
+                "qty": 8,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+                "source": "Howlers / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Howlers"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400064",
+                "name": "Gold-Dissolving Feather",
+                "qty": 6,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_010_UI.webp",
+                "source": "Impermanence Heron",
+                "sourceDetails": [
+                  {
+                    "name": "Impermanence Heron",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_995_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300030",
+                "name": "Iris",
+                "qty": 8,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_33A_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Heron Wetland / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Heron Wetland"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 15000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "41100023",
+                "name": "HF Howler Core",
+                "qty": 4,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+                "source": "Howlers",
+                "sourceDetails": [
+                  {
+                    "name": "Howlers"
+                  }
+                ]
+              },
+              {
+                "id": "41400064",
+                "name": "Gold-Dissolving Feather",
+                "qty": 9,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_010_UI.webp",
+                "source": "Impermanence Heron",
+                "sourceDetails": [
+                  {
+                    "name": "Impermanence Heron",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_995_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300030",
+                "name": "Iris",
+                "qty": 12,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_33A_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Heron Wetland / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Heron Wetland"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 20000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "41100023",
+                "name": "HF Howler Core",
+                "qty": 8,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+                "source": "Howlers",
+                "sourceDetails": [
+                  {
+                    "name": "Howlers"
+                  }
+                ]
+              },
+              {
+                "id": "41400064",
+                "name": "Gold-Dissolving Feather",
+                "qty": 12,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_010_UI.webp",
+                "source": "Impermanence Heron",
+                "sourceDetails": [
+                  {
+                    "name": "Impermanence Heron",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_995_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300030",
+                "name": "Iris",
+                "qty": 16,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_33A_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Heron Wetland / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Heron Wetland"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 90,
+            "items": [
+              {
+                "id": "41100024",
+                "name": "FF Howler Core",
+                "qty": 4,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_4_UI.webp",
+                "source": "Howlers",
+                "sourceDetails": [
+                  {
+                    "name": "Howlers"
+                  }
+                ]
+              },
+              {
+                "id": "41400064",
+                "name": "Gold-Dissolving Feather",
+                "qty": 16,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_010_UI.webp",
+                "source": "Impermanence Heron",
+                "sourceDetails": [
+                  {
+                    "name": "Impermanence Heron",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_995_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300030",
+                "name": "Iris",
+                "qty": 20,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_33A_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Heron Wetland / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Heron Wetland"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 80000
           }
         ],
         "talents": [
@@ -45462,6 +49328,312 @@
             ]
           }
         ],
+        "ascensionStages": [
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "41100061",
+                "name": "LF Exoswarm Core",
+                "qty": 4,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_021_UI.webp",
+                "source": "Exoswarm / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Exoswarm"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              }
+            ],
+            "cost": 5000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "41100062",
+                "name": "MF Exoswarm Core",
+                "qty": 4,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_022_UI.webp",
+                "source": "Exoswarm / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Exoswarm"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400314",
+                "name": "Nightmare Flashdrive",
+                "qty": 3,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_027_UI.webp",
+                "source": "Nightmare: Adam Smasher / Nightmare: Adam Smasher - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Nightmare: Adam Smasher",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34029_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601510",
+                "name": "Past Reveries",
+                "qty": 4,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_23_UI.webp",
+                "source": "Collection Spots / AI Variety Store in Somnoire: Night City / Somnoire: Night City",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "AI Variety Store in Somnoire: Night City"
+                  },
+                  {
+                    "name": "Somnoire: Night City"
+                  }
+                ]
+              }
+            ],
+            "cost": 10000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "41100062",
+                "name": "MF Exoswarm Core",
+                "qty": 8,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_022_UI.webp",
+                "source": "Exoswarm / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Exoswarm"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400314",
+                "name": "Nightmare Flashdrive",
+                "qty": 6,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_027_UI.webp",
+                "source": "Nightmare: Adam Smasher / Nightmare: Adam Smasher - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Nightmare: Adam Smasher",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34029_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601510",
+                "name": "Past Reveries",
+                "qty": 8,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_23_UI.webp",
+                "source": "Collection Spots / AI Variety Store in Somnoire: Night City / Somnoire: Night City",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "AI Variety Store in Somnoire: Night City"
+                  },
+                  {
+                    "name": "Somnoire: Night City"
+                  }
+                ]
+              }
+            ],
+            "cost": 15000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "41100063",
+                "name": "HF Exoswarm Core",
+                "qty": 4,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_023_UI.webp",
+                "source": "Exoswarm",
+                "sourceDetails": [
+                  {
+                    "name": "Exoswarm"
+                  }
+                ]
+              },
+              {
+                "id": "41400314",
+                "name": "Nightmare Flashdrive",
+                "qty": 9,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_027_UI.webp",
+                "source": "Nightmare: Adam Smasher / Nightmare: Adam Smasher - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Nightmare: Adam Smasher",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34029_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601510",
+                "name": "Past Reveries",
+                "qty": 12,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_23_UI.webp",
+                "source": "Collection Spots / AI Variety Store in Somnoire: Night City / Somnoire: Night City",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "AI Variety Store in Somnoire: Night City"
+                  },
+                  {
+                    "name": "Somnoire: Night City"
+                  }
+                ]
+              }
+            ],
+            "cost": 20000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "41100063",
+                "name": "HF Exoswarm Core",
+                "qty": 8,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_023_UI.webp",
+                "source": "Exoswarm",
+                "sourceDetails": [
+                  {
+                    "name": "Exoswarm"
+                  }
+                ]
+              },
+              {
+                "id": "41400314",
+                "name": "Nightmare Flashdrive",
+                "qty": 12,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_027_UI.webp",
+                "source": "Nightmare: Adam Smasher / Nightmare: Adam Smasher - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Nightmare: Adam Smasher",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34029_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601510",
+                "name": "Past Reveries",
+                "qty": 16,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_23_UI.webp",
+                "source": "Collection Spots / AI Variety Store in Somnoire: Night City / Somnoire: Night City",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "AI Variety Store in Somnoire: Night City"
+                  },
+                  {
+                    "name": "Somnoire: Night City"
+                  }
+                ]
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 90,
+            "items": [
+              {
+                "id": "41100064",
+                "name": "FF Exoswarm Core",
+                "qty": 4,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_024_UI.webp",
+                "source": "Exoswarm",
+                "sourceDetails": [
+                  {
+                    "name": "Exoswarm"
+                  }
+                ]
+              },
+              {
+                "id": "41400314",
+                "name": "Nightmare Flashdrive",
+                "qty": 16,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_027_UI.webp",
+                "source": "Nightmare: Adam Smasher / Nightmare: Adam Smasher - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Nightmare: Adam Smasher",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34029_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601510",
+                "name": "Past Reveries",
+                "qty": 20,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_23_UI.webp",
+                "source": "Collection Spots / AI Variety Store in Somnoire: Night City / Somnoire: Night City",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "AI Variety Store in Somnoire: Night City"
+                  },
+                  {
+                    "name": "Somnoire: Night City"
+                  }
+                ]
+              }
+            ],
+            "cost": 80000
+          }
+        ],
         "talents": [
           {
             "id": "41100061",
@@ -47953,6 +52125,312 @@
                 "name": "Resonator Nursing Unit"
               }
             ]
+          }
+        ],
+        "ascensionStages": [
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "41100081",
+                "name": "Fractured Exoswarm Pendant",
+                "qty": 4,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_1_UI.webp",
+                "source": "Roya Outcasts / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Roya Outcasts"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              }
+            ],
+            "cost": 5000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "41100082",
+                "name": "Worn Exoswarm Pendant",
+                "qty": 4,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_2_UI.webp",
+                "source": "Roya Outcasts / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Roya Outcasts"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400264",
+                "name": "Suncoveter's Reach",
+                "qty": 3,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_023_UI.webp",
+                "source": "Hyvatia / Hyvatia - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Hyvatia",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34021_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601430",
+                "name": "Edelschnee",
+                "qty": 4,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_074_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Resonator Nursing Unit",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Resonator Nursing Unit"
+                  }
+                ]
+              }
+            ],
+            "cost": 10000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "41100082",
+                "name": "Worn Exoswarm Pendant",
+                "qty": 8,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_2_UI.webp",
+                "source": "Roya Outcasts / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Roya Outcasts"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400264",
+                "name": "Suncoveter's Reach",
+                "qty": 6,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_023_UI.webp",
+                "source": "Hyvatia / Hyvatia - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Hyvatia",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34021_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601430",
+                "name": "Edelschnee",
+                "qty": 8,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_074_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Resonator Nursing Unit",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Resonator Nursing Unit"
+                  }
+                ]
+              }
+            ],
+            "cost": 15000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "41100083",
+                "name": "Chipped Exoswarm Pendant",
+                "qty": 4,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_3_UI.webp",
+                "source": "Roya Outcasts",
+                "sourceDetails": [
+                  {
+                    "name": "Roya Outcasts"
+                  }
+                ]
+              },
+              {
+                "id": "41400264",
+                "name": "Suncoveter's Reach",
+                "qty": 9,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_023_UI.webp",
+                "source": "Hyvatia / Hyvatia - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Hyvatia",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34021_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601430",
+                "name": "Edelschnee",
+                "qty": 12,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_074_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Resonator Nursing Unit",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Resonator Nursing Unit"
+                  }
+                ]
+              }
+            ],
+            "cost": 20000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "41100083",
+                "name": "Chipped Exoswarm Pendant",
+                "qty": 8,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_3_UI.webp",
+                "source": "Roya Outcasts",
+                "sourceDetails": [
+                  {
+                    "name": "Roya Outcasts"
+                  }
+                ]
+              },
+              {
+                "id": "41400264",
+                "name": "Suncoveter's Reach",
+                "qty": 12,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_023_UI.webp",
+                "source": "Hyvatia / Hyvatia - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Hyvatia",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34021_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601430",
+                "name": "Edelschnee",
+                "qty": 16,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_074_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Resonator Nursing Unit",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Resonator Nursing Unit"
+                  }
+                ]
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 90,
+            "items": [
+              {
+                "id": "41100084",
+                "name": "Intact Exoswarm Pendant",
+                "qty": 4,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_4_UI.webp",
+                "source": "Roya Outcasts",
+                "sourceDetails": [
+                  {
+                    "name": "Roya Outcasts"
+                  }
+                ]
+              },
+              {
+                "id": "41400264",
+                "name": "Suncoveter's Reach",
+                "qty": 16,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_023_UI.webp",
+                "source": "Hyvatia / Hyvatia - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Hyvatia",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34021_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601430",
+                "name": "Edelschnee",
+                "qty": 20,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_074_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Resonator Nursing Unit",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Resonator Nursing Unit"
+                  }
+                ]
+              }
+            ],
+            "cost": 80000
           }
         ],
         "talents": [
@@ -50922,6 +55400,312 @@
                 "name": "Resonator Nursing Unit"
               }
             ]
+          }
+        ],
+        "ascensionStages": [
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "41100061",
+                "name": "LF Exoswarm Core",
+                "qty": 4,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_021_UI.webp",
+                "source": "Exoswarm / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Exoswarm"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              }
+            ],
+            "cost": 5000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "41100062",
+                "name": "MF Exoswarm Core",
+                "qty": 4,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_022_UI.webp",
+                "source": "Exoswarm / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Exoswarm"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400264",
+                "name": "Suncoveter's Reach",
+                "qty": 3,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_023_UI.webp",
+                "source": "Hyvatia / Hyvatia - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Hyvatia",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34021_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601390",
+                "name": "Rimewisp",
+                "qty": 4,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_067_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Resonator Nursing Unit",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Resonator Nursing Unit"
+                  }
+                ]
+              }
+            ],
+            "cost": 10000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "41100062",
+                "name": "MF Exoswarm Core",
+                "qty": 8,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_022_UI.webp",
+                "source": "Exoswarm / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Exoswarm"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400264",
+                "name": "Suncoveter's Reach",
+                "qty": 6,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_023_UI.webp",
+                "source": "Hyvatia / Hyvatia - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Hyvatia",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34021_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601390",
+                "name": "Rimewisp",
+                "qty": 8,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_067_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Resonator Nursing Unit",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Resonator Nursing Unit"
+                  }
+                ]
+              }
+            ],
+            "cost": 15000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "41100063",
+                "name": "HF Exoswarm Core",
+                "qty": 4,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_023_UI.webp",
+                "source": "Exoswarm",
+                "sourceDetails": [
+                  {
+                    "name": "Exoswarm"
+                  }
+                ]
+              },
+              {
+                "id": "41400264",
+                "name": "Suncoveter's Reach",
+                "qty": 9,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_023_UI.webp",
+                "source": "Hyvatia / Hyvatia - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Hyvatia",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34021_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601390",
+                "name": "Rimewisp",
+                "qty": 12,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_067_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Resonator Nursing Unit",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Resonator Nursing Unit"
+                  }
+                ]
+              }
+            ],
+            "cost": 20000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "41100063",
+                "name": "HF Exoswarm Core",
+                "qty": 8,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_023_UI.webp",
+                "source": "Exoswarm",
+                "sourceDetails": [
+                  {
+                    "name": "Exoswarm"
+                  }
+                ]
+              },
+              {
+                "id": "41400264",
+                "name": "Suncoveter's Reach",
+                "qty": 12,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_023_UI.webp",
+                "source": "Hyvatia / Hyvatia - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Hyvatia",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34021_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601390",
+                "name": "Rimewisp",
+                "qty": 16,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_067_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Resonator Nursing Unit",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Resonator Nursing Unit"
+                  }
+                ]
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 90,
+            "items": [
+              {
+                "id": "41100064",
+                "name": "FF Exoswarm Core",
+                "qty": 4,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_024_UI.webp",
+                "source": "Exoswarm",
+                "sourceDetails": [
+                  {
+                    "name": "Exoswarm"
+                  }
+                ]
+              },
+              {
+                "id": "41400264",
+                "name": "Suncoveter's Reach",
+                "qty": 16,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_023_UI.webp",
+                "source": "Hyvatia / Hyvatia - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Hyvatia",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34021_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601390",
+                "name": "Rimewisp",
+                "qty": 20,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_067_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Resonator Nursing Unit",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Resonator Nursing Unit"
+                  }
+                ]
+              }
+            ],
+            "cost": 80000
           }
         ],
         "talents": [
@@ -54091,6 +58875,306 @@
             ]
           }
         ],
+        "ascensionStages": [
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "41100041",
+                "name": "LF Polygon Core",
+                "qty": 4,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_004_1_UI.webp",
+                "source": "Clamorlings or Tranquilites / Forgery Challenge / Masked Reverie",
+                "sourceDetails": [
+                  {
+                    "name": "Clamorlings or Tranquilites"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  },
+                  {
+                    "name": "Masked Reverie"
+                  }
+                ]
+              }
+            ],
+            "cost": 5000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "41100042",
+                "name": "MF Polygon Core",
+                "qty": 4,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_004_2_UI.webp",
+                "source": "Clamorlings or Tranquilites / Forgery Challenge / Masked Reverie",
+                "sourceDetails": [
+                  {
+                    "name": "Clamorlings or Tranquilites"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  },
+                  {
+                    "name": "Masked Reverie"
+                  }
+                ]
+              },
+              {
+                "id": "41400244",
+                "name": "Abyssal Husk",
+                "qty": 3,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_010_UI.webp",
+                "source": "Lady of the Sea / Lady of the Sea - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Lady of the Sea",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34018_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601310",
+                "name": "Summer Flower",
+                "qty": 4,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_060_UI.webp",
+                "source": "Collection Spots / Overworld Collection",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  }
+                ]
+              }
+            ],
+            "cost": 10000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "41100042",
+                "name": "MF Polygon Core",
+                "qty": 8,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_004_2_UI.webp",
+                "source": "Clamorlings or Tranquilites / Forgery Challenge / Masked Reverie",
+                "sourceDetails": [
+                  {
+                    "name": "Clamorlings or Tranquilites"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  },
+                  {
+                    "name": "Masked Reverie"
+                  }
+                ]
+              },
+              {
+                "id": "41400244",
+                "name": "Abyssal Husk",
+                "qty": 6,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_010_UI.webp",
+                "source": "Lady of the Sea / Lady of the Sea - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Lady of the Sea",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34018_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601310",
+                "name": "Summer Flower",
+                "qty": 8,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_060_UI.webp",
+                "source": "Collection Spots / Overworld Collection",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  }
+                ]
+              }
+            ],
+            "cost": 15000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "41100043",
+                "name": "HF Polygon Core",
+                "qty": 4,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_004_3_UI.webp",
+                "source": "Clamorlings or Tranquilites",
+                "sourceDetails": [
+                  {
+                    "name": "Clamorlings or Tranquilites"
+                  }
+                ]
+              },
+              {
+                "id": "41400244",
+                "name": "Abyssal Husk",
+                "qty": 9,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_010_UI.webp",
+                "source": "Lady of the Sea / Lady of the Sea - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Lady of the Sea",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34018_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601310",
+                "name": "Summer Flower",
+                "qty": 12,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_060_UI.webp",
+                "source": "Collection Spots / Overworld Collection",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  }
+                ]
+              }
+            ],
+            "cost": 20000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "41100043",
+                "name": "HF Polygon Core",
+                "qty": 8,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_004_3_UI.webp",
+                "source": "Clamorlings or Tranquilites",
+                "sourceDetails": [
+                  {
+                    "name": "Clamorlings or Tranquilites"
+                  }
+                ]
+              },
+              {
+                "id": "41400244",
+                "name": "Abyssal Husk",
+                "qty": 12,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_010_UI.webp",
+                "source": "Lady of the Sea / Lady of the Sea - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Lady of the Sea",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34018_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601310",
+                "name": "Summer Flower",
+                "qty": 16,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_060_UI.webp",
+                "source": "Collection Spots / Overworld Collection",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  }
+                ]
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 90,
+            "items": [
+              {
+                "id": "41100044",
+                "name": "FF Polygon Core",
+                "qty": 4,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_004_4_UI.webp",
+                "source": "Clamorlings or Tranquilites",
+                "sourceDetails": [
+                  {
+                    "name": "Clamorlings or Tranquilites"
+                  }
+                ]
+              },
+              {
+                "id": "41400244",
+                "name": "Abyssal Husk",
+                "qty": 16,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_010_UI.webp",
+                "source": "Lady of the Sea / Lady of the Sea - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Lady of the Sea",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34018_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601310",
+                "name": "Summer Flower",
+                "qty": 20,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_060_UI.webp",
+                "source": "Collection Spots / Overworld Collection",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  }
+                ]
+              }
+            ],
+            "cost": 80000
+          }
+        ],
         "talents": [
           {
             "id": "41100041",
@@ -56586,6 +61670,321 @@
             ]
           }
         ],
+        "ascensionStages": [
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "41100041",
+                "name": "LF Polygon Core",
+                "qty": 4,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_004_1_UI.webp",
+                "source": "Clamorlings or Tranquilites / Forgery Challenge / Masked Reverie",
+                "sourceDetails": [
+                  {
+                    "name": "Clamorlings or Tranquilites"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  },
+                  {
+                    "name": "Masked Reverie"
+                  }
+                ]
+              }
+            ],
+            "cost": 5000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "41100042",
+                "name": "MF Polygon Core",
+                "qty": 4,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_004_2_UI.webp",
+                "source": "Clamorlings or Tranquilites / Forgery Challenge / Masked Reverie",
+                "sourceDetails": [
+                  {
+                    "name": "Clamorlings or Tranquilites"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  },
+                  {
+                    "name": "Masked Reverie"
+                  }
+                ]
+              },
+              {
+                "id": "41400174",
+                "name": "Platinum Core",
+                "qty": 3,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_006_UI.webp",
+                "source": "Sentry Construct / Sentry Construct - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Sentry Construct",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_33012_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601150",
+                "name": "Sword Acorus",
+                "qty": 4,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_044_UI.webp",
+                "source": "Collection Spots / Rosemary's Apothecary / Overworld Collection",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Rosemary's Apothecary"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  }
+                ]
+              }
+            ],
+            "cost": 10000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "41100042",
+                "name": "MF Polygon Core",
+                "qty": 8,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_004_2_UI.webp",
+                "source": "Clamorlings or Tranquilites / Forgery Challenge / Masked Reverie",
+                "sourceDetails": [
+                  {
+                    "name": "Clamorlings or Tranquilites"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  },
+                  {
+                    "name": "Masked Reverie"
+                  }
+                ]
+              },
+              {
+                "id": "41400174",
+                "name": "Platinum Core",
+                "qty": 6,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_006_UI.webp",
+                "source": "Sentry Construct / Sentry Construct - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Sentry Construct",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_33012_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601150",
+                "name": "Sword Acorus",
+                "qty": 8,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_044_UI.webp",
+                "source": "Collection Spots / Rosemary's Apothecary / Overworld Collection",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Rosemary's Apothecary"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  }
+                ]
+              }
+            ],
+            "cost": 15000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "41100043",
+                "name": "HF Polygon Core",
+                "qty": 4,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_004_3_UI.webp",
+                "source": "Clamorlings or Tranquilites",
+                "sourceDetails": [
+                  {
+                    "name": "Clamorlings or Tranquilites"
+                  }
+                ]
+              },
+              {
+                "id": "41400174",
+                "name": "Platinum Core",
+                "qty": 9,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_006_UI.webp",
+                "source": "Sentry Construct / Sentry Construct - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Sentry Construct",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_33012_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601150",
+                "name": "Sword Acorus",
+                "qty": 12,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_044_UI.webp",
+                "source": "Collection Spots / Rosemary's Apothecary / Overworld Collection",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Rosemary's Apothecary"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  }
+                ]
+              }
+            ],
+            "cost": 20000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "41100043",
+                "name": "HF Polygon Core",
+                "qty": 8,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_004_3_UI.webp",
+                "source": "Clamorlings or Tranquilites",
+                "sourceDetails": [
+                  {
+                    "name": "Clamorlings or Tranquilites"
+                  }
+                ]
+              },
+              {
+                "id": "41400174",
+                "name": "Platinum Core",
+                "qty": 12,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_006_UI.webp",
+                "source": "Sentry Construct / Sentry Construct - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Sentry Construct",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_33012_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601150",
+                "name": "Sword Acorus",
+                "qty": 16,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_044_UI.webp",
+                "source": "Collection Spots / Rosemary's Apothecary / Overworld Collection",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Rosemary's Apothecary"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  }
+                ]
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 90,
+            "items": [
+              {
+                "id": "41100044",
+                "name": "FF Polygon Core",
+                "qty": 4,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_004_4_UI.webp",
+                "source": "Clamorlings or Tranquilites",
+                "sourceDetails": [
+                  {
+                    "name": "Clamorlings or Tranquilites"
+                  }
+                ]
+              },
+              {
+                "id": "41400174",
+                "name": "Platinum Core",
+                "qty": 16,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_006_UI.webp",
+                "source": "Sentry Construct / Sentry Construct - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Sentry Construct",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_33012_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601150",
+                "name": "Sword Acorus",
+                "qty": 20,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_044_UI.webp",
+                "source": "Collection Spots / Rosemary's Apothecary / Overworld Collection",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Rosemary's Apothecary"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  }
+                ]
+              }
+            ],
+            "cost": 80000
+          }
+        ],
         "talents": [
           {
             "id": "41100041",
@@ -58648,6 +64047,312 @@
                 "name": "Overworld Collection"
               }
             ]
+          }
+        ],
+        "ascensionStages": [
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "41100011",
+                "name": "LF Whisperin Core",
+                "qty": 4,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_1_UI.webp",
+                "source": "Whisperins / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              }
+            ],
+            "cost": 5000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "41100012",
+                "name": "MF Whisperin Core",
+                "qty": 4,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_2_UI.webp",
+                "source": "Whisperins / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400164",
+                "name": "Cleansing Conch",
+                "qty": 3,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_009_UI.webp",
+                "source": "Lorelei / Lorelei - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Lorelei",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_33011_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601160",
+                "name": "Firecracker Jewelweed",
+                "qty": 4,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_043_UI.webp",
+                "source": "Collection Spots / Rosemary's Apothecary / Overworld Collection",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Rosemary's Apothecary"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  }
+                ]
+              }
+            ],
+            "cost": 10000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "41100012",
+                "name": "MF Whisperin Core",
+                "qty": 8,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_2_UI.webp",
+                "source": "Whisperins / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400164",
+                "name": "Cleansing Conch",
+                "qty": 6,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_009_UI.webp",
+                "source": "Lorelei / Lorelei - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Lorelei",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_33011_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601160",
+                "name": "Firecracker Jewelweed",
+                "qty": 8,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_043_UI.webp",
+                "source": "Collection Spots / Rosemary's Apothecary / Overworld Collection",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Rosemary's Apothecary"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  }
+                ]
+              }
+            ],
+            "cost": 15000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "41100013",
+                "name": "HF Whisperin Core",
+                "qty": 4,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_3_UI.webp",
+                "source": "Whisperins",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  }
+                ]
+              },
+              {
+                "id": "41400164",
+                "name": "Cleansing Conch",
+                "qty": 9,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_009_UI.webp",
+                "source": "Lorelei / Lorelei - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Lorelei",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_33011_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601160",
+                "name": "Firecracker Jewelweed",
+                "qty": 12,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_043_UI.webp",
+                "source": "Collection Spots / Rosemary's Apothecary / Overworld Collection",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Rosemary's Apothecary"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  }
+                ]
+              }
+            ],
+            "cost": 20000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "41100013",
+                "name": "HF Whisperin Core",
+                "qty": 8,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_3_UI.webp",
+                "source": "Whisperins",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  }
+                ]
+              },
+              {
+                "id": "41400164",
+                "name": "Cleansing Conch",
+                "qty": 12,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_009_UI.webp",
+                "source": "Lorelei / Lorelei - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Lorelei",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_33011_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601160",
+                "name": "Firecracker Jewelweed",
+                "qty": 16,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_043_UI.webp",
+                "source": "Collection Spots / Rosemary's Apothecary / Overworld Collection",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Rosemary's Apothecary"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  }
+                ]
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 90,
+            "items": [
+              {
+                "id": "41100014",
+                "name": "FF Whisperin Core",
+                "qty": 4,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_4_UI.webp",
+                "source": "Whisperins",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  }
+                ]
+              },
+              {
+                "id": "41400164",
+                "name": "Cleansing Conch",
+                "qty": 16,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_009_UI.webp",
+                "source": "Lorelei / Lorelei - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Lorelei",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_33011_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601160",
+                "name": "Firecracker Jewelweed",
+                "qty": 20,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_043_UI.webp",
+                "source": "Collection Spots / Rosemary's Apothecary / Overworld Collection",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Rosemary's Apothecary"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  }
+                ]
+              }
+            ],
+            "cost": 80000
           }
         ],
         "talents": [
@@ -60767,6 +66472,297 @@
             ]
           }
         ],
+        "ascensionStages": [
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "41100011",
+                "name": "LF Whisperin Core",
+                "qty": 4,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_1_UI.webp",
+                "source": "Whisperins / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              }
+            ],
+            "cost": 5000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "41100012",
+                "name": "MF Whisperin Core",
+                "qty": 4,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_2_UI.webp",
+                "source": "Whisperins / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400154",
+                "name": "Topological Confinement",
+                "qty": 3,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_015_UI.webp",
+                "source": "Fallacy of No Return / Fallacy of No Return - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Fallacy of No Return",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_350_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42310230",
+                "name": "Nova",
+                "qty": 4,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconTask/T_IconTask_Task_084_UI.webp",
+                "source": "Black Shores / Collection Spots",
+                "sourceDetails": [
+                  {
+                    "name": "Black Shores"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  }
+                ]
+              }
+            ],
+            "cost": 10000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "41100012",
+                "name": "MF Whisperin Core",
+                "qty": 8,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_2_UI.webp",
+                "source": "Whisperins / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400154",
+                "name": "Topological Confinement",
+                "qty": 6,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_015_UI.webp",
+                "source": "Fallacy of No Return / Fallacy of No Return - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Fallacy of No Return",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_350_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42310230",
+                "name": "Nova",
+                "qty": 8,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconTask/T_IconTask_Task_084_UI.webp",
+                "source": "Black Shores / Collection Spots",
+                "sourceDetails": [
+                  {
+                    "name": "Black Shores"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  }
+                ]
+              }
+            ],
+            "cost": 15000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "41100013",
+                "name": "HF Whisperin Core",
+                "qty": 4,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_3_UI.webp",
+                "source": "Whisperins",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  }
+                ]
+              },
+              {
+                "id": "41400154",
+                "name": "Topological Confinement",
+                "qty": 9,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_015_UI.webp",
+                "source": "Fallacy of No Return / Fallacy of No Return - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Fallacy of No Return",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_350_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42310230",
+                "name": "Nova",
+                "qty": 12,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconTask/T_IconTask_Task_084_UI.webp",
+                "source": "Black Shores / Collection Spots",
+                "sourceDetails": [
+                  {
+                    "name": "Black Shores"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  }
+                ]
+              }
+            ],
+            "cost": 20000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "41100013",
+                "name": "HF Whisperin Core",
+                "qty": 8,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_3_UI.webp",
+                "source": "Whisperins",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  }
+                ]
+              },
+              {
+                "id": "41400154",
+                "name": "Topological Confinement",
+                "qty": 12,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_015_UI.webp",
+                "source": "Fallacy of No Return / Fallacy of No Return - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Fallacy of No Return",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_350_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42310230",
+                "name": "Nova",
+                "qty": 16,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconTask/T_IconTask_Task_084_UI.webp",
+                "source": "Black Shores / Collection Spots",
+                "sourceDetails": [
+                  {
+                    "name": "Black Shores"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  }
+                ]
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 90,
+            "items": [
+              {
+                "id": "41100014",
+                "name": "FF Whisperin Core",
+                "qty": 4,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_4_UI.webp",
+                "source": "Whisperins",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  }
+                ]
+              },
+              {
+                "id": "41400154",
+                "name": "Topological Confinement",
+                "qty": 16,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_015_UI.webp",
+                "source": "Fallacy of No Return / Fallacy of No Return - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Fallacy of No Return",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_350_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42310230",
+                "name": "Nova",
+                "qty": 20,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconTask/T_IconTask_Task_084_UI.webp",
+                "source": "Black Shores / Collection Spots",
+                "sourceDetails": [
+                  {
+                    "name": "Black Shores"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  }
+                ]
+              }
+            ],
+            "cost": 80000
+          }
+        ],
         "talents": [
           {
             "id": "41100011",
@@ -62781,6 +68777,342 @@
             ]
           }
         ],
+        "ascensionStages": [
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "41100021",
+                "name": "LF Howler Core",
+                "qty": 4,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_1_UI.webp",
+                "source": "Howlers / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Howlers"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              }
+            ],
+            "cost": 5000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "41100022",
+                "name": "MF Howler Core",
+                "qty": 4,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+                "source": "Howlers / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Howlers"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400024",
+                "name": "Thundering Tacet Core",
+                "qty": 3,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_001_1_UI.webp",
+                "source": "Thundering Mephis",
+                "sourceDetails": [
+                  {
+                    "name": "Thundering Mephis",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_226_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300040",
+                "name": "Terraspawn Fungus",
+                "qty": 4,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_HuiYanGu_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Withering Frontline / Camp Overwatch / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Withering Frontline"
+                  },
+                  {
+                    "name": "Camp Overwatch"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 10000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "41100022",
+                "name": "MF Howler Core",
+                "qty": 8,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+                "source": "Howlers / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Howlers"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400024",
+                "name": "Thundering Tacet Core",
+                "qty": 6,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_001_1_UI.webp",
+                "source": "Thundering Mephis",
+                "sourceDetails": [
+                  {
+                    "name": "Thundering Mephis",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_226_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300040",
+                "name": "Terraspawn Fungus",
+                "qty": 8,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_HuiYanGu_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Withering Frontline / Camp Overwatch / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Withering Frontline"
+                  },
+                  {
+                    "name": "Camp Overwatch"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 15000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "41100023",
+                "name": "HF Howler Core",
+                "qty": 4,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+                "source": "Howlers",
+                "sourceDetails": [
+                  {
+                    "name": "Howlers"
+                  }
+                ]
+              },
+              {
+                "id": "41400024",
+                "name": "Thundering Tacet Core",
+                "qty": 9,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_001_1_UI.webp",
+                "source": "Thundering Mephis",
+                "sourceDetails": [
+                  {
+                    "name": "Thundering Mephis",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_226_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300040",
+                "name": "Terraspawn Fungus",
+                "qty": 12,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_HuiYanGu_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Withering Frontline / Camp Overwatch / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Withering Frontline"
+                  },
+                  {
+                    "name": "Camp Overwatch"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 20000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "41100023",
+                "name": "HF Howler Core",
+                "qty": 8,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+                "source": "Howlers",
+                "sourceDetails": [
+                  {
+                    "name": "Howlers"
+                  }
+                ]
+              },
+              {
+                "id": "41400024",
+                "name": "Thundering Tacet Core",
+                "qty": 12,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_001_1_UI.webp",
+                "source": "Thundering Mephis",
+                "sourceDetails": [
+                  {
+                    "name": "Thundering Mephis",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_226_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300040",
+                "name": "Terraspawn Fungus",
+                "qty": 16,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_HuiYanGu_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Withering Frontline / Camp Overwatch / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Withering Frontline"
+                  },
+                  {
+                    "name": "Camp Overwatch"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 90,
+            "items": [
+              {
+                "id": "41100024",
+                "name": "FF Howler Core",
+                "qty": 4,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_4_UI.webp",
+                "source": "Howlers",
+                "sourceDetails": [
+                  {
+                    "name": "Howlers"
+                  }
+                ]
+              },
+              {
+                "id": "41400024",
+                "name": "Thundering Tacet Core",
+                "qty": 16,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_001_1_UI.webp",
+                "source": "Thundering Mephis",
+                "sourceDetails": [
+                  {
+                    "name": "Thundering Mephis",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_226_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300040",
+                "name": "Terraspawn Fungus",
+                "qty": 20,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_HuiYanGu_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Withering Frontline / Camp Overwatch / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Withering Frontline"
+                  },
+                  {
+                    "name": "Camp Overwatch"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 80000
+          }
+        ],
         "talents": [
           {
             "id": "41100021",
@@ -64712,6 +71044,327 @@
                 "name": "Shifang Pharmacy"
               }
             ]
+          }
+        ],
+        "ascensionStages": [
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "41100021",
+                "name": "LF Howler Core",
+                "qty": 4,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_1_UI.webp",
+                "source": "Howlers / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Howlers"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              }
+            ],
+            "cost": 5000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "41100022",
+                "name": "MF Howler Core",
+                "qty": 4,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+                "source": "Howlers / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Howlers"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400034",
+                "name": "Elegy Tacet Core",
+                "qty": 3,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_006_UI.webp",
+                "source": "Mourning Aix / Mourning Aix - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Mourning Aix",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_997_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300070",
+                "name": "Belle Poppy",
+                "qty": 4,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_29A_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Sea of Flames / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Sea of Flames"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 10000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "41100022",
+                "name": "MF Howler Core",
+                "qty": 8,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+                "source": "Howlers / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Howlers"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400034",
+                "name": "Elegy Tacet Core",
+                "qty": 6,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_006_UI.webp",
+                "source": "Mourning Aix / Mourning Aix - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Mourning Aix",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_997_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300070",
+                "name": "Belle Poppy",
+                "qty": 8,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_29A_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Sea of Flames / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Sea of Flames"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 15000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "41100023",
+                "name": "HF Howler Core",
+                "qty": 4,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+                "source": "Howlers",
+                "sourceDetails": [
+                  {
+                    "name": "Howlers"
+                  }
+                ]
+              },
+              {
+                "id": "41400034",
+                "name": "Elegy Tacet Core",
+                "qty": 9,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_006_UI.webp",
+                "source": "Mourning Aix / Mourning Aix - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Mourning Aix",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_997_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300070",
+                "name": "Belle Poppy",
+                "qty": 12,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_29A_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Sea of Flames / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Sea of Flames"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 20000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "41100023",
+                "name": "HF Howler Core",
+                "qty": 8,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+                "source": "Howlers",
+                "sourceDetails": [
+                  {
+                    "name": "Howlers"
+                  }
+                ]
+              },
+              {
+                "id": "41400034",
+                "name": "Elegy Tacet Core",
+                "qty": 12,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_006_UI.webp",
+                "source": "Mourning Aix / Mourning Aix - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Mourning Aix",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_997_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300070",
+                "name": "Belle Poppy",
+                "qty": 16,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_29A_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Sea of Flames / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Sea of Flames"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 90,
+            "items": [
+              {
+                "id": "41100024",
+                "name": "FF Howler Core",
+                "qty": 4,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_4_UI.webp",
+                "source": "Howlers",
+                "sourceDetails": [
+                  {
+                    "name": "Howlers"
+                  }
+                ]
+              },
+              {
+                "id": "41400034",
+                "name": "Elegy Tacet Core",
+                "qty": 16,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_006_UI.webp",
+                "source": "Mourning Aix / Mourning Aix - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Mourning Aix",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_997_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300070",
+                "name": "Belle Poppy",
+                "qty": 20,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_29A_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Sea of Flames / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Sea of Flames"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 80000
           }
         ],
         "talents": [
@@ -67300,6 +73953,312 @@
             ]
           }
         ],
+        "ascensionStages": [
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "41100081",
+                "name": "Fractured Exoswarm Pendant",
+                "qty": 4,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_1_UI.webp",
+                "source": "Roya Outcasts / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Roya Outcasts"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              }
+            ],
+            "cost": 5000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "41100082",
+                "name": "Worn Exoswarm Pendant",
+                "qty": 4,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_2_UI.webp",
+                "source": "Roya Outcasts / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Roya Outcasts"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400284",
+                "name": "Our Choice",
+                "qty": 3,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_024_UI.webp",
+                "source": "Nameless Explorer / Nameless Explorer - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Nameless Explorer",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34026_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601400",
+                "name": "Arithmetic Shell",
+                "qty": 4,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_063_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Resonator Nursing Unit",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Resonator Nursing Unit"
+                  }
+                ]
+              }
+            ],
+            "cost": 10000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "41100082",
+                "name": "Worn Exoswarm Pendant",
+                "qty": 8,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_2_UI.webp",
+                "source": "Roya Outcasts / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Roya Outcasts"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400284",
+                "name": "Our Choice",
+                "qty": 6,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_024_UI.webp",
+                "source": "Nameless Explorer / Nameless Explorer - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Nameless Explorer",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34026_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601400",
+                "name": "Arithmetic Shell",
+                "qty": 8,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_063_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Resonator Nursing Unit",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Resonator Nursing Unit"
+                  }
+                ]
+              }
+            ],
+            "cost": 15000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "41100083",
+                "name": "Chipped Exoswarm Pendant",
+                "qty": 4,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_3_UI.webp",
+                "source": "Roya Outcasts",
+                "sourceDetails": [
+                  {
+                    "name": "Roya Outcasts"
+                  }
+                ]
+              },
+              {
+                "id": "41400284",
+                "name": "Our Choice",
+                "qty": 9,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_024_UI.webp",
+                "source": "Nameless Explorer / Nameless Explorer - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Nameless Explorer",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34026_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601400",
+                "name": "Arithmetic Shell",
+                "qty": 12,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_063_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Resonator Nursing Unit",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Resonator Nursing Unit"
+                  }
+                ]
+              }
+            ],
+            "cost": 20000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "41100083",
+                "name": "Chipped Exoswarm Pendant",
+                "qty": 8,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_3_UI.webp",
+                "source": "Roya Outcasts",
+                "sourceDetails": [
+                  {
+                    "name": "Roya Outcasts"
+                  }
+                ]
+              },
+              {
+                "id": "41400284",
+                "name": "Our Choice",
+                "qty": 12,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_024_UI.webp",
+                "source": "Nameless Explorer / Nameless Explorer - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Nameless Explorer",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34026_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601400",
+                "name": "Arithmetic Shell",
+                "qty": 16,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_063_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Resonator Nursing Unit",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Resonator Nursing Unit"
+                  }
+                ]
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 90,
+            "items": [
+              {
+                "id": "41100084",
+                "name": "Intact Exoswarm Pendant",
+                "qty": 4,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_4_UI.webp",
+                "source": "Roya Outcasts",
+                "sourceDetails": [
+                  {
+                    "name": "Roya Outcasts"
+                  }
+                ]
+              },
+              {
+                "id": "41400284",
+                "name": "Our Choice",
+                "qty": 16,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_024_UI.webp",
+                "source": "Nameless Explorer / Nameless Explorer - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Nameless Explorer",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34026_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601400",
+                "name": "Arithmetic Shell",
+                "qty": 20,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_063_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Resonator Nursing Unit",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Resonator Nursing Unit"
+                  }
+                ]
+              }
+            ],
+            "cost": 80000
+          }
+        ],
         "talents": [
           {
             "id": "41100081",
@@ -69251,6 +76210,327 @@
                 "name": "Shifang Pharmacy"
               }
             ]
+          }
+        ],
+        "ascensionStages": [
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "41100011",
+                "name": "LF Whisperin Core",
+                "qty": 4,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_1_UI.webp",
+                "source": "Whisperins / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              }
+            ],
+            "cost": 5000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "41100012",
+                "name": "MF Whisperin Core",
+                "qty": 4,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_2_UI.webp",
+                "source": "Whisperins / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400224",
+                "name": "Truth in Lies",
+                "qty": 3,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_019_UI.webp",
+                "source": "Fenrico: Deliverance in the Deep / Fenrico: Deliverance in the Deep - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Fenrico",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34015_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300090",
+                "name": "Wintry Bell",
+                "qty": 4,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_31A_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Bell-Borne Ravine / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Bell-Borne Ravine"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 10000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "41100012",
+                "name": "MF Whisperin Core",
+                "qty": 8,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_2_UI.webp",
+                "source": "Whisperins / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400224",
+                "name": "Truth in Lies",
+                "qty": 6,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_019_UI.webp",
+                "source": "Fenrico: Deliverance in the Deep / Fenrico: Deliverance in the Deep - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Fenrico",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34015_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300090",
+                "name": "Wintry Bell",
+                "qty": 8,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_31A_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Bell-Borne Ravine / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Bell-Borne Ravine"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 15000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "41100013",
+                "name": "HF Whisperin Core",
+                "qty": 4,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_3_UI.webp",
+                "source": "Whisperins",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  }
+                ]
+              },
+              {
+                "id": "41400224",
+                "name": "Truth in Lies",
+                "qty": 9,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_019_UI.webp",
+                "source": "Fenrico: Deliverance in the Deep / Fenrico: Deliverance in the Deep - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Fenrico",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34015_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300090",
+                "name": "Wintry Bell",
+                "qty": 12,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_31A_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Bell-Borne Ravine / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Bell-Borne Ravine"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 20000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "41100013",
+                "name": "HF Whisperin Core",
+                "qty": 8,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_3_UI.webp",
+                "source": "Whisperins",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  }
+                ]
+              },
+              {
+                "id": "41400224",
+                "name": "Truth in Lies",
+                "qty": 12,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_019_UI.webp",
+                "source": "Fenrico: Deliverance in the Deep / Fenrico: Deliverance in the Deep - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Fenrico",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34015_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300090",
+                "name": "Wintry Bell",
+                "qty": 16,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_31A_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Bell-Borne Ravine / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Bell-Borne Ravine"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 90,
+            "items": [
+              {
+                "id": "41100014",
+                "name": "FF Whisperin Core",
+                "qty": 4,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_4_UI.webp",
+                "source": "Whisperins",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  }
+                ]
+              },
+              {
+                "id": "41400224",
+                "name": "Truth in Lies",
+                "qty": 16,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_019_UI.webp",
+                "source": "Fenrico: Deliverance in the Deep / Fenrico: Deliverance in the Deep - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Fenrico",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34015_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300090",
+                "name": "Wintry Bell",
+                "qty": 20,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_31A_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Bell-Borne Ravine / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Bell-Borne Ravine"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 80000
           }
         ],
         "talents": [
@@ -72010,6 +79290,321 @@
                 "name": "Silver Helmet Store"
               }
             ]
+          }
+        ],
+        "ascensionStages": [
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "41100041",
+                "name": "LF Polygon Core",
+                "qty": 4,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_004_1_UI.webp",
+                "source": "Clamorlings or Tranquilites / Forgery Challenge / Masked Reverie",
+                "sourceDetails": [
+                  {
+                    "name": "Clamorlings or Tranquilites"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  },
+                  {
+                    "name": "Masked Reverie"
+                  }
+                ]
+              }
+            ],
+            "cost": 5000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "41100042",
+                "name": "MF Polygon Core",
+                "qty": 4,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_004_2_UI.webp",
+                "source": "Clamorlings or Tranquilites / Forgery Challenge / Masked Reverie",
+                "sourceDetails": [
+                  {
+                    "name": "Clamorlings or Tranquilites"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  },
+                  {
+                    "name": "Masked Reverie"
+                  }
+                ]
+              },
+              {
+                "id": "41400244",
+                "name": "Abyssal Husk",
+                "qty": 3,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_010_UI.webp",
+                "source": "Lady of the Sea / Lady of the Sea - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Lady of the Sea",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34018_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601290",
+                "name": "Sliverglow Bloom",
+                "qty": 4,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_057_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Silver Helmet Store",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Silver Helmet Store"
+                  }
+                ]
+              }
+            ],
+            "cost": 10000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "41100042",
+                "name": "MF Polygon Core",
+                "qty": 8,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_004_2_UI.webp",
+                "source": "Clamorlings or Tranquilites / Forgery Challenge / Masked Reverie",
+                "sourceDetails": [
+                  {
+                    "name": "Clamorlings or Tranquilites"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  },
+                  {
+                    "name": "Masked Reverie"
+                  }
+                ]
+              },
+              {
+                "id": "41400244",
+                "name": "Abyssal Husk",
+                "qty": 6,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_010_UI.webp",
+                "source": "Lady of the Sea / Lady of the Sea - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Lady of the Sea",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34018_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601290",
+                "name": "Sliverglow Bloom",
+                "qty": 8,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_057_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Silver Helmet Store",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Silver Helmet Store"
+                  }
+                ]
+              }
+            ],
+            "cost": 15000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "41100043",
+                "name": "HF Polygon Core",
+                "qty": 4,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_004_3_UI.webp",
+                "source": "Clamorlings or Tranquilites",
+                "sourceDetails": [
+                  {
+                    "name": "Clamorlings or Tranquilites"
+                  }
+                ]
+              },
+              {
+                "id": "41400244",
+                "name": "Abyssal Husk",
+                "qty": 9,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_010_UI.webp",
+                "source": "Lady of the Sea / Lady of the Sea - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Lady of the Sea",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34018_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601290",
+                "name": "Sliverglow Bloom",
+                "qty": 12,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_057_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Silver Helmet Store",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Silver Helmet Store"
+                  }
+                ]
+              }
+            ],
+            "cost": 20000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "41100043",
+                "name": "HF Polygon Core",
+                "qty": 8,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_004_3_UI.webp",
+                "source": "Clamorlings or Tranquilites",
+                "sourceDetails": [
+                  {
+                    "name": "Clamorlings or Tranquilites"
+                  }
+                ]
+              },
+              {
+                "id": "41400244",
+                "name": "Abyssal Husk",
+                "qty": 12,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_010_UI.webp",
+                "source": "Lady of the Sea / Lady of the Sea - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Lady of the Sea",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34018_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601290",
+                "name": "Sliverglow Bloom",
+                "qty": 16,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_057_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Silver Helmet Store",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Silver Helmet Store"
+                  }
+                ]
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 90,
+            "items": [
+              {
+                "id": "41100044",
+                "name": "FF Polygon Core",
+                "qty": 4,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_004_4_UI.webp",
+                "source": "Clamorlings or Tranquilites",
+                "sourceDetails": [
+                  {
+                    "name": "Clamorlings or Tranquilites"
+                  }
+                ]
+              },
+              {
+                "id": "41400244",
+                "name": "Abyssal Husk",
+                "qty": 16,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_010_UI.webp",
+                "source": "Lady of the Sea / Lady of the Sea - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Lady of the Sea",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34018_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601290",
+                "name": "Sliverglow Bloom",
+                "qty": 20,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_057_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Silver Helmet Store",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Silver Helmet Store"
+                  }
+                ]
+              }
+            ],
+            "cost": 80000
           }
         ],
         "talents": [
@@ -75352,6 +82947,321 @@
             ]
           }
         ],
+        "ascensionStages": [
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "41100051",
+                "name": "LF Tidal Residuum",
+                "qty": 4,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_005_1_UI.webp",
+                "source": "Tacet Discords influenced by the Dark Tide / Forgery Challenge / Masked Reverie",
+                "sourceDetails": [
+                  {
+                    "name": "Tacet Discords influenced by the Dark Tide"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  },
+                  {
+                    "name": "Masked Reverie"
+                  }
+                ]
+              }
+            ],
+            "cost": 5000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "41100052",
+                "name": "MF Tidal Residuum",
+                "qty": 4,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_005_2_UI.webp",
+                "source": "Tacet Discords influenced by the Dark Tide / Forgery Challenge / Masked Reverie",
+                "sourceDetails": [
+                  {
+                    "name": "Tacet Discords influenced by the Dark Tide"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  },
+                  {
+                    "name": "Masked Reverie"
+                  }
+                ]
+              },
+              {
+                "id": "41400214",
+                "name": "Unfading Glory",
+                "qty": 3,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_018_UI.webp",
+                "source": "Lioness of Glory / Lioness of Glory - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Lioness of Glory",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_33022_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601220",
+                "name": "Bamboo Iris",
+                "qty": 4,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_bianzhuhua_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Silver Helmet Store",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Silver Helmet Store"
+                  }
+                ]
+              }
+            ],
+            "cost": 10000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "41100052",
+                "name": "MF Tidal Residuum",
+                "qty": 8,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_005_2_UI.webp",
+                "source": "Tacet Discords influenced by the Dark Tide / Forgery Challenge / Masked Reverie",
+                "sourceDetails": [
+                  {
+                    "name": "Tacet Discords influenced by the Dark Tide"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  },
+                  {
+                    "name": "Masked Reverie"
+                  }
+                ]
+              },
+              {
+                "id": "41400214",
+                "name": "Unfading Glory",
+                "qty": 6,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_018_UI.webp",
+                "source": "Lioness of Glory / Lioness of Glory - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Lioness of Glory",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_33022_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601220",
+                "name": "Bamboo Iris",
+                "qty": 8,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_bianzhuhua_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Silver Helmet Store",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Silver Helmet Store"
+                  }
+                ]
+              }
+            ],
+            "cost": 15000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "41100053",
+                "name": "HF Tidal Residuum",
+                "qty": 4,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_005_3_UI.webp",
+                "source": "Tacet Discords influenced by the Dark Tide",
+                "sourceDetails": [
+                  {
+                    "name": "Tacet Discords influenced by the Dark Tide"
+                  }
+                ]
+              },
+              {
+                "id": "41400214",
+                "name": "Unfading Glory",
+                "qty": 9,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_018_UI.webp",
+                "source": "Lioness of Glory / Lioness of Glory - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Lioness of Glory",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_33022_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601220",
+                "name": "Bamboo Iris",
+                "qty": 12,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_bianzhuhua_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Silver Helmet Store",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Silver Helmet Store"
+                  }
+                ]
+              }
+            ],
+            "cost": 20000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "41100053",
+                "name": "HF Tidal Residuum",
+                "qty": 8,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_005_3_UI.webp",
+                "source": "Tacet Discords influenced by the Dark Tide",
+                "sourceDetails": [
+                  {
+                    "name": "Tacet Discords influenced by the Dark Tide"
+                  }
+                ]
+              },
+              {
+                "id": "41400214",
+                "name": "Unfading Glory",
+                "qty": 12,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_018_UI.webp",
+                "source": "Lioness of Glory / Lioness of Glory - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Lioness of Glory",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_33022_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601220",
+                "name": "Bamboo Iris",
+                "qty": 16,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_bianzhuhua_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Silver Helmet Store",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Silver Helmet Store"
+                  }
+                ]
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 90,
+            "items": [
+              {
+                "id": "41100054",
+                "name": "FF Tidal Residuum",
+                "qty": 4,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_005_4_UI.webp",
+                "source": "Tacet Discords influenced by the Dark Tide",
+                "sourceDetails": [
+                  {
+                    "name": "Tacet Discords influenced by the Dark Tide"
+                  }
+                ]
+              },
+              {
+                "id": "41400214",
+                "name": "Unfading Glory",
+                "qty": 16,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_018_UI.webp",
+                "source": "Lioness of Glory / Lioness of Glory - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Lioness of Glory",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_33022_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601220",
+                "name": "Bamboo Iris",
+                "qty": 20,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_bianzhuhua_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Silver Helmet Store",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Silver Helmet Store"
+                  }
+                ]
+              }
+            ],
+            "cost": 80000
+          }
+        ],
         "talents": [
           {
             "id": "41100051",
@@ -77221,6 +85131,321 @@
                 "name": "Overworld Collection"
               }
             ]
+          }
+        ],
+        "ascensionStages": [
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "41100051",
+                "name": "LF Tidal Residuum",
+                "qty": 4,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_005_1_UI.webp",
+                "source": "Tacet Discords influenced by the Dark Tide / Forgery Challenge / Masked Reverie",
+                "sourceDetails": [
+                  {
+                    "name": "Tacet Discords influenced by the Dark Tide"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  },
+                  {
+                    "name": "Masked Reverie"
+                  }
+                ]
+              }
+            ],
+            "cost": 5000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "41100052",
+                "name": "MF Tidal Residuum",
+                "qty": 4,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_005_2_UI.webp",
+                "source": "Tacet Discords influenced by the Dark Tide / Forgery Challenge / Masked Reverie",
+                "sourceDetails": [
+                  {
+                    "name": "Tacet Discords influenced by the Dark Tide"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  },
+                  {
+                    "name": "Masked Reverie"
+                  }
+                ]
+              },
+              {
+                "id": "41400184",
+                "name": "Blazing Bone",
+                "qty": 3,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_008_UI.webp",
+                "source": "Dragon of Dirge / Dragon of Dirge - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Dragon of Dirge",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_33013_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601140",
+                "name": "Golden Fleece",
+                "qty": 4,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_045_UI.webp",
+                "source": "Collection Spots / Rosemary's Apothecary / Overworld Collection",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Rosemary's Apothecary"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  }
+                ]
+              }
+            ],
+            "cost": 10000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "41100052",
+                "name": "MF Tidal Residuum",
+                "qty": 8,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_005_2_UI.webp",
+                "source": "Tacet Discords influenced by the Dark Tide / Forgery Challenge / Masked Reverie",
+                "sourceDetails": [
+                  {
+                    "name": "Tacet Discords influenced by the Dark Tide"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  },
+                  {
+                    "name": "Masked Reverie"
+                  }
+                ]
+              },
+              {
+                "id": "41400184",
+                "name": "Blazing Bone",
+                "qty": 6,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_008_UI.webp",
+                "source": "Dragon of Dirge / Dragon of Dirge - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Dragon of Dirge",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_33013_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601140",
+                "name": "Golden Fleece",
+                "qty": 8,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_045_UI.webp",
+                "source": "Collection Spots / Rosemary's Apothecary / Overworld Collection",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Rosemary's Apothecary"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  }
+                ]
+              }
+            ],
+            "cost": 15000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "41100053",
+                "name": "HF Tidal Residuum",
+                "qty": 4,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_005_3_UI.webp",
+                "source": "Tacet Discords influenced by the Dark Tide",
+                "sourceDetails": [
+                  {
+                    "name": "Tacet Discords influenced by the Dark Tide"
+                  }
+                ]
+              },
+              {
+                "id": "41400184",
+                "name": "Blazing Bone",
+                "qty": 9,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_008_UI.webp",
+                "source": "Dragon of Dirge / Dragon of Dirge - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Dragon of Dirge",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_33013_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601140",
+                "name": "Golden Fleece",
+                "qty": 12,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_045_UI.webp",
+                "source": "Collection Spots / Rosemary's Apothecary / Overworld Collection",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Rosemary's Apothecary"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  }
+                ]
+              }
+            ],
+            "cost": 20000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "41100053",
+                "name": "HF Tidal Residuum",
+                "qty": 8,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_005_3_UI.webp",
+                "source": "Tacet Discords influenced by the Dark Tide",
+                "sourceDetails": [
+                  {
+                    "name": "Tacet Discords influenced by the Dark Tide"
+                  }
+                ]
+              },
+              {
+                "id": "41400184",
+                "name": "Blazing Bone",
+                "qty": 12,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_008_UI.webp",
+                "source": "Dragon of Dirge / Dragon of Dirge - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Dragon of Dirge",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_33013_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601140",
+                "name": "Golden Fleece",
+                "qty": 16,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_045_UI.webp",
+                "source": "Collection Spots / Rosemary's Apothecary / Overworld Collection",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Rosemary's Apothecary"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  }
+                ]
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 90,
+            "items": [
+              {
+                "id": "41100054",
+                "name": "FF Tidal Residuum",
+                "qty": 4,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_005_4_UI.webp",
+                "source": "Tacet Discords influenced by the Dark Tide",
+                "sourceDetails": [
+                  {
+                    "name": "Tacet Discords influenced by the Dark Tide"
+                  }
+                ]
+              },
+              {
+                "id": "41400184",
+                "name": "Blazing Bone",
+                "qty": 16,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_008_UI.webp",
+                "source": "Dragon of Dirge / Dragon of Dirge - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Dragon of Dirge",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_33013_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601140",
+                "name": "Golden Fleece",
+                "qty": 20,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_045_UI.webp",
+                "source": "Collection Spots / Rosemary's Apothecary / Overworld Collection",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Rosemary's Apothecary"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  }
+                ]
+              }
+            ],
+            "cost": 80000
           }
         ],
         "talents": [
@@ -79489,6 +87714,327 @@
             ]
           }
         ],
+        "ascensionStages": [
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "41100011",
+                "name": "LF Whisperin Core",
+                "qty": 4,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_1_UI.webp",
+                "source": "Whisperins / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              }
+            ],
+            "cost": 5000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "41100012",
+                "name": "MF Whisperin Core",
+                "qty": 4,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_2_UI.webp",
+                "source": "Whisperins / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400054",
+                "name": "Roaring Rock Fist",
+                "qty": 3,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_011_UI.webp",
+                "source": "Feilian Beringal / Feilian Beringal - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Feilian Beringal",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_996_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300050",
+                "name": "Lanternberry",
+                "qty": 4,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_denglongguo_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Tiger's Maw Mine / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Tiger's Maw Mine"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 10000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "41100012",
+                "name": "MF Whisperin Core",
+                "qty": 8,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_2_UI.webp",
+                "source": "Whisperins / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400054",
+                "name": "Roaring Rock Fist",
+                "qty": 6,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_011_UI.webp",
+                "source": "Feilian Beringal / Feilian Beringal - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Feilian Beringal",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_996_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300050",
+                "name": "Lanternberry",
+                "qty": 8,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_denglongguo_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Tiger's Maw Mine / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Tiger's Maw Mine"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 15000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "41100013",
+                "name": "HF Whisperin Core",
+                "qty": 4,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_3_UI.webp",
+                "source": "Whisperins",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  }
+                ]
+              },
+              {
+                "id": "41400054",
+                "name": "Roaring Rock Fist",
+                "qty": 9,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_011_UI.webp",
+                "source": "Feilian Beringal / Feilian Beringal - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Feilian Beringal",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_996_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300050",
+                "name": "Lanternberry",
+                "qty": 12,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_denglongguo_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Tiger's Maw Mine / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Tiger's Maw Mine"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 20000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "41100013",
+                "name": "HF Whisperin Core",
+                "qty": 8,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_3_UI.webp",
+                "source": "Whisperins",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  }
+                ]
+              },
+              {
+                "id": "41400054",
+                "name": "Roaring Rock Fist",
+                "qty": 12,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_011_UI.webp",
+                "source": "Feilian Beringal / Feilian Beringal - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Feilian Beringal",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_996_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300050",
+                "name": "Lanternberry",
+                "qty": 16,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_denglongguo_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Tiger's Maw Mine / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Tiger's Maw Mine"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 90,
+            "items": [
+              {
+                "id": "41100014",
+                "name": "FF Whisperin Core",
+                "qty": 4,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_4_UI.webp",
+                "source": "Whisperins",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  }
+                ]
+              },
+              {
+                "id": "41400054",
+                "name": "Roaring Rock Fist",
+                "qty": 16,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_011_UI.webp",
+                "source": "Feilian Beringal / Feilian Beringal - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Feilian Beringal",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_996_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300050",
+                "name": "Lanternberry",
+                "qty": 20,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_denglongguo_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Tiger's Maw Mine / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Tiger's Maw Mine"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 80000
+          }
+        ],
         "talents": [
           {
             "id": "41100011",
@@ -81387,6 +89933,327 @@
             ]
           }
         ],
+        "ascensionStages": [
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "41100021",
+                "name": "LF Howler Core",
+                "qty": 4,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_1_UI.webp",
+                "source": "Howlers / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Howlers"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              }
+            ],
+            "cost": 5000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "41100022",
+                "name": "MF Howler Core",
+                "qty": 4,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+                "source": "Howlers / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Howlers"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400054",
+                "name": "Roaring Rock Fist",
+                "qty": 3,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_011_UI.webp",
+                "source": "Feilian Beringal / Feilian Beringal - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Feilian Beringal",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_996_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300060",
+                "name": "Pecok Flower",
+                "qty": 4,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_18A_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Taoyuan Vale / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Taoyuan Vale"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 10000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "41100022",
+                "name": "MF Howler Core",
+                "qty": 8,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+                "source": "Howlers / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Howlers"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400054",
+                "name": "Roaring Rock Fist",
+                "qty": 6,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_011_UI.webp",
+                "source": "Feilian Beringal / Feilian Beringal - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Feilian Beringal",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_996_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300060",
+                "name": "Pecok Flower",
+                "qty": 8,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_18A_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Taoyuan Vale / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Taoyuan Vale"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 15000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "41100023",
+                "name": "HF Howler Core",
+                "qty": 4,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+                "source": "Howlers",
+                "sourceDetails": [
+                  {
+                    "name": "Howlers"
+                  }
+                ]
+              },
+              {
+                "id": "41400054",
+                "name": "Roaring Rock Fist",
+                "qty": 9,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_011_UI.webp",
+                "source": "Feilian Beringal / Feilian Beringal - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Feilian Beringal",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_996_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300060",
+                "name": "Pecok Flower",
+                "qty": 12,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_18A_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Taoyuan Vale / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Taoyuan Vale"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 20000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "41100023",
+                "name": "HF Howler Core",
+                "qty": 8,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+                "source": "Howlers",
+                "sourceDetails": [
+                  {
+                    "name": "Howlers"
+                  }
+                ]
+              },
+              {
+                "id": "41400054",
+                "name": "Roaring Rock Fist",
+                "qty": 12,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_011_UI.webp",
+                "source": "Feilian Beringal / Feilian Beringal - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Feilian Beringal",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_996_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300060",
+                "name": "Pecok Flower",
+                "qty": 16,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_18A_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Taoyuan Vale / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Taoyuan Vale"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 90,
+            "items": [
+              {
+                "id": "41100024",
+                "name": "FF Howler Core",
+                "qty": 4,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_4_UI.webp",
+                "source": "Howlers",
+                "sourceDetails": [
+                  {
+                    "name": "Howlers"
+                  }
+                ]
+              },
+              {
+                "id": "41400054",
+                "name": "Roaring Rock Fist",
+                "qty": 16,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_011_UI.webp",
+                "source": "Feilian Beringal / Feilian Beringal - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Feilian Beringal",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_996_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300060",
+                "name": "Pecok Flower",
+                "qty": 20,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_18A_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Taoyuan Vale / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Taoyuan Vale"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 80000
+          }
+        ],
         "talents": [
           {
             "id": "41100021",
@@ -82985,6 +91852,327 @@
                 "name": "Shifang Pharmacy"
               }
             ]
+          }
+        ],
+        "ascensionStages": [
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "41100021",
+                "name": "LF Howler Core",
+                "qty": 4,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_1_UI.webp",
+                "source": "Howlers / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Howlers"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              }
+            ],
+            "cost": 5000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "41100022",
+                "name": "MF Howler Core",
+                "qty": 4,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+                "source": "Howlers / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Howlers"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400054",
+                "name": "Roaring Rock Fist",
+                "qty": 3,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_011_UI.webp",
+                "source": "Feilian Beringal / Feilian Beringal - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Feilian Beringal",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_996_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300090",
+                "name": "Wintry Bell",
+                "qty": 4,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_31A_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Bell-Borne Ravine / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Bell-Borne Ravine"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 10000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "41100022",
+                "name": "MF Howler Core",
+                "qty": 8,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+                "source": "Howlers / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Howlers"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400054",
+                "name": "Roaring Rock Fist",
+                "qty": 6,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_011_UI.webp",
+                "source": "Feilian Beringal / Feilian Beringal - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Feilian Beringal",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_996_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300090",
+                "name": "Wintry Bell",
+                "qty": 8,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_31A_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Bell-Borne Ravine / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Bell-Borne Ravine"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 15000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "41100023",
+                "name": "HF Howler Core",
+                "qty": 4,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+                "source": "Howlers",
+                "sourceDetails": [
+                  {
+                    "name": "Howlers"
+                  }
+                ]
+              },
+              {
+                "id": "41400054",
+                "name": "Roaring Rock Fist",
+                "qty": 9,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_011_UI.webp",
+                "source": "Feilian Beringal / Feilian Beringal - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Feilian Beringal",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_996_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300090",
+                "name": "Wintry Bell",
+                "qty": 12,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_31A_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Bell-Borne Ravine / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Bell-Borne Ravine"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 20000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "41100023",
+                "name": "HF Howler Core",
+                "qty": 8,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+                "source": "Howlers",
+                "sourceDetails": [
+                  {
+                    "name": "Howlers"
+                  }
+                ]
+              },
+              {
+                "id": "41400054",
+                "name": "Roaring Rock Fist",
+                "qty": 12,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_011_UI.webp",
+                "source": "Feilian Beringal / Feilian Beringal - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Feilian Beringal",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_996_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300090",
+                "name": "Wintry Bell",
+                "qty": 16,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_31A_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Bell-Borne Ravine / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Bell-Borne Ravine"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 90,
+            "items": [
+              {
+                "id": "41100024",
+                "name": "FF Howler Core",
+                "qty": 4,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_4_UI.webp",
+                "source": "Howlers",
+                "sourceDetails": [
+                  {
+                    "name": "Howlers"
+                  }
+                ]
+              },
+              {
+                "id": "41400054",
+                "name": "Roaring Rock Fist",
+                "qty": 16,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_011_UI.webp",
+                "source": "Feilian Beringal / Feilian Beringal - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Feilian Beringal",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_996_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300090",
+                "name": "Wintry Bell",
+                "qty": 20,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_31A_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Bell-Borne Ravine / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Bell-Borne Ravine"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 80000
           }
         ],
         "talents": [
@@ -84591,6 +93779,333 @@
                 "name": "Shifang Pharmacy"
               }
             ]
+          }
+        ],
+        "ascensionStages": [
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "41100031",
+                "name": "Crude Ring",
+                "qty": 4,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_1_UI.webp",
+                "source": "Exiles / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Exile",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              }
+            ],
+            "cost": 5000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "41100032",
+                "name": "Basic Ring",
+                "qty": 4,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_2_UI.webp",
+                "source": "Exiles / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Exile",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400054",
+                "name": "Roaring Rock Fist",
+                "qty": 3,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_011_UI.webp",
+                "source": "Feilian Beringal / Feilian Beringal - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Feilian Beringal",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_996_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300090",
+                "name": "Wintry Bell",
+                "qty": 4,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_31A_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Bell-Borne Ravine / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Bell-Borne Ravine"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 10000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "41100032",
+                "name": "Basic Ring",
+                "qty": 8,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_2_UI.webp",
+                "source": "Exiles / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Exile",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400054",
+                "name": "Roaring Rock Fist",
+                "qty": 6,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_011_UI.webp",
+                "source": "Feilian Beringal / Feilian Beringal - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Feilian Beringal",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_996_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300090",
+                "name": "Wintry Bell",
+                "qty": 8,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_31A_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Bell-Borne Ravine / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Bell-Borne Ravine"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 15000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "41100033",
+                "name": "Improved Ring",
+                "qty": 4,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_3_UI.webp",
+                "source": "Exiles",
+                "sourceDetails": [
+                  {
+                    "name": "Exile",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "41400054",
+                "name": "Roaring Rock Fist",
+                "qty": 9,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_011_UI.webp",
+                "source": "Feilian Beringal / Feilian Beringal - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Feilian Beringal",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_996_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300090",
+                "name": "Wintry Bell",
+                "qty": 12,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_31A_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Bell-Borne Ravine / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Bell-Borne Ravine"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 20000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "41100033",
+                "name": "Improved Ring",
+                "qty": 8,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_3_UI.webp",
+                "source": "Exiles",
+                "sourceDetails": [
+                  {
+                    "name": "Exile",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "41400054",
+                "name": "Roaring Rock Fist",
+                "qty": 12,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_011_UI.webp",
+                "source": "Feilian Beringal / Feilian Beringal - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Feilian Beringal",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_996_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300090",
+                "name": "Wintry Bell",
+                "qty": 16,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_31A_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Bell-Borne Ravine / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Bell-Borne Ravine"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 90,
+            "items": [
+              {
+                "id": "41100034",
+                "name": "Tailored Ring",
+                "qty": 4,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_4_UI.webp",
+                "source": "Exiles",
+                "sourceDetails": [
+                  {
+                    "name": "Exile",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "41400054",
+                "name": "Roaring Rock Fist",
+                "qty": 16,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_011_UI.webp",
+                "source": "Feilian Beringal / Feilian Beringal - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Feilian Beringal",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_996_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300090",
+                "name": "Wintry Bell",
+                "qty": 20,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_31A_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Bell-Borne Ravine / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Bell-Borne Ravine"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 80000
           }
         ],
         "talents": [
@@ -87685,6 +97200,312 @@
             ]
           }
         ],
+        "ascensionStages": [
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "41100071",
+                "name": "LF Mech Core",
+                "qty": 4,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_025_UI.webp",
+                "source": "Clamorling TDs in Lahai-Roi / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Clamorling TDs in Lahai-Roi"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              }
+            ],
+            "cost": 5000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "41100072",
+                "name": "MF Mech Core",
+                "qty": 4,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_026_UI.webp",
+                "source": "Clamorling TDs in Lahai-Roi / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Clamorling TDs in Lahai-Roi"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400314",
+                "name": "Nightmare Flashdrive",
+                "qty": 3,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_027_UI.webp",
+                "source": "Nightmare: Adam Smasher / Nightmare: Adam Smasher - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Nightmare: Adam Smasher",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34029_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601510",
+                "name": "Past Reveries",
+                "qty": 4,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_23_UI.webp",
+                "source": "Collection Spots / AI Variety Store in Somnoire: Night City / Somnoire: Night City",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "AI Variety Store in Somnoire: Night City"
+                  },
+                  {
+                    "name": "Somnoire: Night City"
+                  }
+                ]
+              }
+            ],
+            "cost": 10000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "41100072",
+                "name": "MF Mech Core",
+                "qty": 8,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_026_UI.webp",
+                "source": "Clamorling TDs in Lahai-Roi / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Clamorling TDs in Lahai-Roi"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400314",
+                "name": "Nightmare Flashdrive",
+                "qty": 6,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_027_UI.webp",
+                "source": "Nightmare: Adam Smasher / Nightmare: Adam Smasher - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Nightmare: Adam Smasher",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34029_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601510",
+                "name": "Past Reveries",
+                "qty": 8,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_23_UI.webp",
+                "source": "Collection Spots / AI Variety Store in Somnoire: Night City / Somnoire: Night City",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "AI Variety Store in Somnoire: Night City"
+                  },
+                  {
+                    "name": "Somnoire: Night City"
+                  }
+                ]
+              }
+            ],
+            "cost": 15000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "41100073",
+                "name": "HF Mech Core",
+                "qty": 4,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_027_UI.webp",
+                "source": "Clamorling TDs in Lahai-Roi",
+                "sourceDetails": [
+                  {
+                    "name": "Clamorling TDs in Lahai-Roi"
+                  }
+                ]
+              },
+              {
+                "id": "41400314",
+                "name": "Nightmare Flashdrive",
+                "qty": 9,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_027_UI.webp",
+                "source": "Nightmare: Adam Smasher / Nightmare: Adam Smasher - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Nightmare: Adam Smasher",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34029_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601510",
+                "name": "Past Reveries",
+                "qty": 12,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_23_UI.webp",
+                "source": "Collection Spots / AI Variety Store in Somnoire: Night City / Somnoire: Night City",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "AI Variety Store in Somnoire: Night City"
+                  },
+                  {
+                    "name": "Somnoire: Night City"
+                  }
+                ]
+              }
+            ],
+            "cost": 20000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "41100073",
+                "name": "HF Mech Core",
+                "qty": 8,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_027_UI.webp",
+                "source": "Clamorling TDs in Lahai-Roi",
+                "sourceDetails": [
+                  {
+                    "name": "Clamorling TDs in Lahai-Roi"
+                  }
+                ]
+              },
+              {
+                "id": "41400314",
+                "name": "Nightmare Flashdrive",
+                "qty": 12,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_027_UI.webp",
+                "source": "Nightmare: Adam Smasher / Nightmare: Adam Smasher - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Nightmare: Adam Smasher",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34029_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601510",
+                "name": "Past Reveries",
+                "qty": 16,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_23_UI.webp",
+                "source": "Collection Spots / AI Variety Store in Somnoire: Night City / Somnoire: Night City",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "AI Variety Store in Somnoire: Night City"
+                  },
+                  {
+                    "name": "Somnoire: Night City"
+                  }
+                ]
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 90,
+            "items": [
+              {
+                "id": "41100074",
+                "name": "FF Mech Core",
+                "qty": 4,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_028_UI.webp",
+                "source": "Clamorling TDs in Lahai-Roi",
+                "sourceDetails": [
+                  {
+                    "name": "Clamorling TDs in Lahai-Roi"
+                  }
+                ]
+              },
+              {
+                "id": "41400314",
+                "name": "Nightmare Flashdrive",
+                "qty": 16,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_027_UI.webp",
+                "source": "Nightmare: Adam Smasher / Nightmare: Adam Smasher - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Nightmare: Adam Smasher",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34029_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601510",
+                "name": "Past Reveries",
+                "qty": 20,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_23_UI.webp",
+                "source": "Collection Spots / AI Variety Store in Somnoire: Night City / Somnoire: Night City",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "AI Variety Store in Somnoire: Night City"
+                  },
+                  {
+                    "name": "Somnoire: Night City"
+                  }
+                ]
+              }
+            ],
+            "cost": 80000
+          }
+        ],
         "talents": [
           {
             "id": "41100071",
@@ -89745,6 +99566,327 @@
                 "name": "Shifang Pharmacy"
               }
             ]
+          }
+        ],
+        "ascensionStages": [
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "41100011",
+                "name": "LF Whisperin Core",
+                "qty": 4,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_1_UI.webp",
+                "source": "Whisperins / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              }
+            ],
+            "cost": 5000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "41100012",
+                "name": "MF Whisperin Core",
+                "qty": 4,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_2_UI.webp",
+                "source": "Whisperins / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400234",
+                "name": "Blighted Crown of Puppet King",
+                "qty": 3,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_020_UI.webp",
+                "source": "The False Sovereign / The False Sovereign - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "The False Sovereign",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34017_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300060",
+                "name": "Pecok Flower",
+                "qty": 4,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_18A_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Taoyuan Vale / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Taoyuan Vale"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 10000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "41100012",
+                "name": "MF Whisperin Core",
+                "qty": 8,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_2_UI.webp",
+                "source": "Whisperins / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400234",
+                "name": "Blighted Crown of Puppet King",
+                "qty": 6,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_020_UI.webp",
+                "source": "The False Sovereign / The False Sovereign - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "The False Sovereign",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34017_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300060",
+                "name": "Pecok Flower",
+                "qty": 8,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_18A_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Taoyuan Vale / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Taoyuan Vale"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 15000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "41100013",
+                "name": "HF Whisperin Core",
+                "qty": 4,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_3_UI.webp",
+                "source": "Whisperins",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  }
+                ]
+              },
+              {
+                "id": "41400234",
+                "name": "Blighted Crown of Puppet King",
+                "qty": 9,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_020_UI.webp",
+                "source": "The False Sovereign / The False Sovereign - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "The False Sovereign",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34017_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300060",
+                "name": "Pecok Flower",
+                "qty": 12,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_18A_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Taoyuan Vale / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Taoyuan Vale"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 20000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "41100013",
+                "name": "HF Whisperin Core",
+                "qty": 8,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_3_UI.webp",
+                "source": "Whisperins",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  }
+                ]
+              },
+              {
+                "id": "41400234",
+                "name": "Blighted Crown of Puppet King",
+                "qty": 12,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_020_UI.webp",
+                "source": "The False Sovereign / The False Sovereign - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "The False Sovereign",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34017_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300060",
+                "name": "Pecok Flower",
+                "qty": 16,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_18A_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Taoyuan Vale / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Taoyuan Vale"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 90,
+            "items": [
+              {
+                "id": "41100014",
+                "name": "FF Whisperin Core",
+                "qty": 4,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_4_UI.webp",
+                "source": "Whisperins",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  }
+                ]
+              },
+              {
+                "id": "41400234",
+                "name": "Blighted Crown of Puppet King",
+                "qty": 16,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_020_UI.webp",
+                "source": "The False Sovereign / The False Sovereign - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "The False Sovereign",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34017_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300060",
+                "name": "Pecok Flower",
+                "qty": 20,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_18A_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Taoyuan Vale / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Taoyuan Vale"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 80000
           }
         ],
         "talents": [
@@ -92435,6 +102577,321 @@
             ]
           }
         ],
+        "ascensionStages": [
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "41100051",
+                "name": "LF Tidal Residuum",
+                "qty": 4,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_005_1_UI.webp",
+                "source": "Tacet Discords influenced by the Dark Tide / Forgery Challenge / Masked Reverie",
+                "sourceDetails": [
+                  {
+                    "name": "Tacet Discords influenced by the Dark Tide"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  },
+                  {
+                    "name": "Masked Reverie"
+                  }
+                ]
+              }
+            ],
+            "cost": 5000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "41100052",
+                "name": "MF Tidal Residuum",
+                "qty": 4,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_005_2_UI.webp",
+                "source": "Tacet Discords influenced by the Dark Tide / Forgery Challenge / Masked Reverie",
+                "sourceDetails": [
+                  {
+                    "name": "Tacet Discords influenced by the Dark Tide"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  },
+                  {
+                    "name": "Masked Reverie"
+                  }
+                ]
+              },
+              {
+                "id": "41400234",
+                "name": "Blighted Crown of Puppet King",
+                "qty": 3,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_020_UI.webp",
+                "source": "The False Sovereign / The False Sovereign - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "The False Sovereign",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34017_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601300",
+                "name": "Luminous Calendula",
+                "qty": 4,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_058_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Silver Helmet Store",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Silver Helmet Store"
+                  }
+                ]
+              }
+            ],
+            "cost": 10000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "41100052",
+                "name": "MF Tidal Residuum",
+                "qty": 8,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_005_2_UI.webp",
+                "source": "Tacet Discords influenced by the Dark Tide / Forgery Challenge / Masked Reverie",
+                "sourceDetails": [
+                  {
+                    "name": "Tacet Discords influenced by the Dark Tide"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  },
+                  {
+                    "name": "Masked Reverie"
+                  }
+                ]
+              },
+              {
+                "id": "41400234",
+                "name": "Blighted Crown of Puppet King",
+                "qty": 6,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_020_UI.webp",
+                "source": "The False Sovereign / The False Sovereign - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "The False Sovereign",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34017_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601300",
+                "name": "Luminous Calendula",
+                "qty": 8,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_058_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Silver Helmet Store",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Silver Helmet Store"
+                  }
+                ]
+              }
+            ],
+            "cost": 15000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "41100053",
+                "name": "HF Tidal Residuum",
+                "qty": 4,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_005_3_UI.webp",
+                "source": "Tacet Discords influenced by the Dark Tide",
+                "sourceDetails": [
+                  {
+                    "name": "Tacet Discords influenced by the Dark Tide"
+                  }
+                ]
+              },
+              {
+                "id": "41400234",
+                "name": "Blighted Crown of Puppet King",
+                "qty": 9,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_020_UI.webp",
+                "source": "The False Sovereign / The False Sovereign - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "The False Sovereign",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34017_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601300",
+                "name": "Luminous Calendula",
+                "qty": 12,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_058_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Silver Helmet Store",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Silver Helmet Store"
+                  }
+                ]
+              }
+            ],
+            "cost": 20000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "41100053",
+                "name": "HF Tidal Residuum",
+                "qty": 8,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_005_3_UI.webp",
+                "source": "Tacet Discords influenced by the Dark Tide",
+                "sourceDetails": [
+                  {
+                    "name": "Tacet Discords influenced by the Dark Tide"
+                  }
+                ]
+              },
+              {
+                "id": "41400234",
+                "name": "Blighted Crown of Puppet King",
+                "qty": 12,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_020_UI.webp",
+                "source": "The False Sovereign / The False Sovereign - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "The False Sovereign",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34017_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601300",
+                "name": "Luminous Calendula",
+                "qty": 16,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_058_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Silver Helmet Store",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Silver Helmet Store"
+                  }
+                ]
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 90,
+            "items": [
+              {
+                "id": "41100054",
+                "name": "FF Tidal Residuum",
+                "qty": 4,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_005_4_UI.webp",
+                "source": "Tacet Discords influenced by the Dark Tide",
+                "sourceDetails": [
+                  {
+                    "name": "Tacet Discords influenced by the Dark Tide"
+                  }
+                ]
+              },
+              {
+                "id": "41400234",
+                "name": "Blighted Crown of Puppet King",
+                "qty": 16,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_020_UI.webp",
+                "source": "The False Sovereign / The False Sovereign - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "The False Sovereign",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34017_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601300",
+                "name": "Luminous Calendula",
+                "qty": 20,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_058_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Silver Helmet Store",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Silver Helmet Store"
+                  }
+                ]
+              }
+            ],
+            "cost": 80000
+          }
+        ],
         "talents": [
           {
             "id": "41100051",
@@ -94509,6 +104966,342 @@
                 "name": "Shifang Pharmacy"
               }
             ]
+          }
+        ],
+        "ascensionStages": [
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "41100011",
+                "name": "LF Whisperin Core",
+                "qty": 4,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_1_UI.webp",
+                "source": "Whisperins / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              }
+            ],
+            "cost": 5000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "41100012",
+                "name": "MF Whisperin Core",
+                "qty": 4,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_2_UI.webp",
+                "source": "Whisperins / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400134",
+                "name": "Hidden Thunder Tacet Core",
+                "qty": 3,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_012_UI.webp",
+                "source": "Tempest Mephis / Tempest Mephis - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Tempest Mephis",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_225_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300100",
+                "name": "Violet Coral",
+                "qty": 4,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_Sep_061_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Norfall Barrens / Wuming Bay / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Norfall Barrens"
+                  },
+                  {
+                    "name": "Wuming Bay"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 10000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "41100012",
+                "name": "MF Whisperin Core",
+                "qty": 8,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_2_UI.webp",
+                "source": "Whisperins / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400134",
+                "name": "Hidden Thunder Tacet Core",
+                "qty": 6,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_012_UI.webp",
+                "source": "Tempest Mephis / Tempest Mephis - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Tempest Mephis",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_225_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300100",
+                "name": "Violet Coral",
+                "qty": 8,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_Sep_061_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Norfall Barrens / Wuming Bay / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Norfall Barrens"
+                  },
+                  {
+                    "name": "Wuming Bay"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 15000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "41100013",
+                "name": "HF Whisperin Core",
+                "qty": 4,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_3_UI.webp",
+                "source": "Whisperins",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  }
+                ]
+              },
+              {
+                "id": "41400134",
+                "name": "Hidden Thunder Tacet Core",
+                "qty": 9,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_012_UI.webp",
+                "source": "Tempest Mephis / Tempest Mephis - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Tempest Mephis",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_225_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300100",
+                "name": "Violet Coral",
+                "qty": 12,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_Sep_061_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Norfall Barrens / Wuming Bay / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Norfall Barrens"
+                  },
+                  {
+                    "name": "Wuming Bay"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 20000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "41100013",
+                "name": "HF Whisperin Core",
+                "qty": 8,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_3_UI.webp",
+                "source": "Whisperins",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  }
+                ]
+              },
+              {
+                "id": "41400134",
+                "name": "Hidden Thunder Tacet Core",
+                "qty": 12,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_012_UI.webp",
+                "source": "Tempest Mephis / Tempest Mephis - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Tempest Mephis",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_225_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300100",
+                "name": "Violet Coral",
+                "qty": 16,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_Sep_061_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Norfall Barrens / Wuming Bay / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Norfall Barrens"
+                  },
+                  {
+                    "name": "Wuming Bay"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 90,
+            "items": [
+              {
+                "id": "41100014",
+                "name": "FF Whisperin Core",
+                "qty": 4,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_4_UI.webp",
+                "source": "Whisperins",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  }
+                ]
+              },
+              {
+                "id": "41400134",
+                "name": "Hidden Thunder Tacet Core",
+                "qty": 16,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_012_UI.webp",
+                "source": "Tempest Mephis / Tempest Mephis - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Tempest Mephis",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_225_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300100",
+                "name": "Violet Coral",
+                "qty": 20,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_Sep_061_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Norfall Barrens / Wuming Bay / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Norfall Barrens"
+                  },
+                  {
+                    "name": "Wuming Bay"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 80000
           }
         ],
         "talents": [
@@ -96637,6 +107430,327 @@
             ]
           }
         ],
+        "ascensionStages": [
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "41100021",
+                "name": "LF Howler Core",
+                "qty": 4,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_1_UI.webp",
+                "source": "Howlers / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Howlers"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              }
+            ],
+            "cost": 5000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "41100022",
+                "name": "MF Howler Core",
+                "qty": 4,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+                "source": "Howlers / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Howlers"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400034",
+                "name": "Elegy Tacet Core",
+                "qty": 3,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_006_UI.webp",
+                "source": "Mourning Aix / Mourning Aix - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Mourning Aix",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_997_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42310210",
+                "name": "Loong's Pearl",
+                "qty": 4,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_030_UI.webp",
+                "source": "Mianloong Chamber / Collection Spots / Mt. Firmament / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Mianloong Chamber"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Mt. Firmament"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 10000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "41100022",
+                "name": "MF Howler Core",
+                "qty": 8,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+                "source": "Howlers / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Howlers"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400034",
+                "name": "Elegy Tacet Core",
+                "qty": 6,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_006_UI.webp",
+                "source": "Mourning Aix / Mourning Aix - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Mourning Aix",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_997_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42310210",
+                "name": "Loong's Pearl",
+                "qty": 8,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_030_UI.webp",
+                "source": "Mianloong Chamber / Collection Spots / Mt. Firmament / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Mianloong Chamber"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Mt. Firmament"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 15000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "41100023",
+                "name": "HF Howler Core",
+                "qty": 4,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+                "source": "Howlers",
+                "sourceDetails": [
+                  {
+                    "name": "Howlers"
+                  }
+                ]
+              },
+              {
+                "id": "41400034",
+                "name": "Elegy Tacet Core",
+                "qty": 9,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_006_UI.webp",
+                "source": "Mourning Aix / Mourning Aix - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Mourning Aix",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_997_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42310210",
+                "name": "Loong's Pearl",
+                "qty": 12,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_030_UI.webp",
+                "source": "Mianloong Chamber / Collection Spots / Mt. Firmament / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Mianloong Chamber"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Mt. Firmament"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 20000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "41100023",
+                "name": "HF Howler Core",
+                "qty": 8,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+                "source": "Howlers",
+                "sourceDetails": [
+                  {
+                    "name": "Howlers"
+                  }
+                ]
+              },
+              {
+                "id": "41400034",
+                "name": "Elegy Tacet Core",
+                "qty": 12,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_006_UI.webp",
+                "source": "Mourning Aix / Mourning Aix - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Mourning Aix",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_997_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42310210",
+                "name": "Loong's Pearl",
+                "qty": 16,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_030_UI.webp",
+                "source": "Mianloong Chamber / Collection Spots / Mt. Firmament / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Mianloong Chamber"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Mt. Firmament"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 90,
+            "items": [
+              {
+                "id": "41100024",
+                "name": "FF Howler Core",
+                "qty": 4,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_4_UI.webp",
+                "source": "Howlers",
+                "sourceDetails": [
+                  {
+                    "name": "Howlers"
+                  }
+                ]
+              },
+              {
+                "id": "41400034",
+                "name": "Elegy Tacet Core",
+                "qty": 16,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_006_UI.webp",
+                "source": "Mourning Aix / Mourning Aix - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Mourning Aix",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_997_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42310210",
+                "name": "Loong's Pearl",
+                "qty": 20,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_030_UI.webp",
+                "source": "Mianloong Chamber / Collection Spots / Mt. Firmament / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Mianloong Chamber"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Mt. Firmament"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 80000
+          }
+        ],
         "talents": [
           {
             "id": "41100021",
@@ -98671,6 +109785,348 @@
             ]
           }
         ],
+        "ascensionStages": [
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "41100031",
+                "name": "Crude Ring",
+                "qty": 4,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_1_UI.webp",
+                "source": "Exiles / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Exile",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              }
+            ],
+            "cost": 5000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "41100032",
+                "name": "Basic Ring",
+                "qty": 4,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_2_UI.webp",
+                "source": "Exiles / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Exile",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400134",
+                "name": "Hidden Thunder Tacet Core",
+                "qty": 3,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_012_UI.webp",
+                "source": "Tempest Mephis / Tempest Mephis - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Tempest Mephis",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_225_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300040",
+                "name": "Terraspawn Fungus",
+                "qty": 4,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_HuiYanGu_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Withering Frontline / Camp Overwatch / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Withering Frontline"
+                  },
+                  {
+                    "name": "Camp Overwatch"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 10000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "41100032",
+                "name": "Basic Ring",
+                "qty": 8,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_2_UI.webp",
+                "source": "Exiles / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Exile",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400134",
+                "name": "Hidden Thunder Tacet Core",
+                "qty": 6,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_012_UI.webp",
+                "source": "Tempest Mephis / Tempest Mephis - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Tempest Mephis",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_225_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300040",
+                "name": "Terraspawn Fungus",
+                "qty": 8,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_HuiYanGu_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Withering Frontline / Camp Overwatch / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Withering Frontline"
+                  },
+                  {
+                    "name": "Camp Overwatch"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 15000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "41100033",
+                "name": "Improved Ring",
+                "qty": 4,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_3_UI.webp",
+                "source": "Exiles",
+                "sourceDetails": [
+                  {
+                    "name": "Exile",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "41400134",
+                "name": "Hidden Thunder Tacet Core",
+                "qty": 9,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_012_UI.webp",
+                "source": "Tempest Mephis / Tempest Mephis - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Tempest Mephis",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_225_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300040",
+                "name": "Terraspawn Fungus",
+                "qty": 12,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_HuiYanGu_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Withering Frontline / Camp Overwatch / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Withering Frontline"
+                  },
+                  {
+                    "name": "Camp Overwatch"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 20000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "41100033",
+                "name": "Improved Ring",
+                "qty": 8,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_3_UI.webp",
+                "source": "Exiles",
+                "sourceDetails": [
+                  {
+                    "name": "Exile",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "41400134",
+                "name": "Hidden Thunder Tacet Core",
+                "qty": 12,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_012_UI.webp",
+                "source": "Tempest Mephis / Tempest Mephis - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Tempest Mephis",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_225_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300040",
+                "name": "Terraspawn Fungus",
+                "qty": 16,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_HuiYanGu_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Withering Frontline / Camp Overwatch / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Withering Frontline"
+                  },
+                  {
+                    "name": "Camp Overwatch"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 90,
+            "items": [
+              {
+                "id": "41100034",
+                "name": "Tailored Ring",
+                "qty": 4,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_4_UI.webp",
+                "source": "Exiles",
+                "sourceDetails": [
+                  {
+                    "name": "Exile",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "41400134",
+                "name": "Hidden Thunder Tacet Core",
+                "qty": 16,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_012_UI.webp",
+                "source": "Tempest Mephis / Tempest Mephis - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Tempest Mephis",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_225_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300040",
+                "name": "Terraspawn Fungus",
+                "qty": 20,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_HuiYanGu_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Withering Frontline / Camp Overwatch / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Withering Frontline"
+                  },
+                  {
+                    "name": "Camp Overwatch"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 80000
+          }
+        ],
         "talents": [
           {
             "id": "41100031",
@@ -100546,6 +112002,342 @@
                 "name": "Collection Spots"
               }
             ]
+          }
+        ],
+        "ascensionStages": [
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "41100011",
+                "name": "LF Whisperin Core",
+                "qty": 4,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_1_UI.webp",
+                "source": "Whisperins / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              }
+            ],
+            "cost": 5000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "41100012",
+                "name": "MF Whisperin Core",
+                "qty": 4,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_2_UI.webp",
+                "source": "Whisperins / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400084",
+                "name": "Group Abomination Tacet Core",
+                "qty": 3,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_009_UI.webp",
+                "source": "Mech Abomination / Mech Abomination - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Mech Abomination",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_993_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300080",
+                "name": "Coriolus",
+                "qty": 4,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_30A_UI.webp",
+                "source": "Overworld Collection / Giant Banyan / Forbidden Forest / Shifang Pharmacy / Collection Spots",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Giant Banyan"
+                  },
+                  {
+                    "name": "Forbidden Forest"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  }
+                ]
+              }
+            ],
+            "cost": 10000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "41100012",
+                "name": "MF Whisperin Core",
+                "qty": 8,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_2_UI.webp",
+                "source": "Whisperins / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400084",
+                "name": "Group Abomination Tacet Core",
+                "qty": 6,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_009_UI.webp",
+                "source": "Mech Abomination / Mech Abomination - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Mech Abomination",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_993_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300080",
+                "name": "Coriolus",
+                "qty": 8,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_30A_UI.webp",
+                "source": "Overworld Collection / Giant Banyan / Forbidden Forest / Shifang Pharmacy / Collection Spots",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Giant Banyan"
+                  },
+                  {
+                    "name": "Forbidden Forest"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  }
+                ]
+              }
+            ],
+            "cost": 15000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "41100013",
+                "name": "HF Whisperin Core",
+                "qty": 4,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_3_UI.webp",
+                "source": "Whisperins",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  }
+                ]
+              },
+              {
+                "id": "41400084",
+                "name": "Group Abomination Tacet Core",
+                "qty": 9,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_009_UI.webp",
+                "source": "Mech Abomination / Mech Abomination - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Mech Abomination",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_993_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300080",
+                "name": "Coriolus",
+                "qty": 12,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_30A_UI.webp",
+                "source": "Overworld Collection / Giant Banyan / Forbidden Forest / Shifang Pharmacy / Collection Spots",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Giant Banyan"
+                  },
+                  {
+                    "name": "Forbidden Forest"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  }
+                ]
+              }
+            ],
+            "cost": 20000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "41100013",
+                "name": "HF Whisperin Core",
+                "qty": 8,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_3_UI.webp",
+                "source": "Whisperins",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  }
+                ]
+              },
+              {
+                "id": "41400084",
+                "name": "Group Abomination Tacet Core",
+                "qty": 12,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_009_UI.webp",
+                "source": "Mech Abomination / Mech Abomination - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Mech Abomination",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_993_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300080",
+                "name": "Coriolus",
+                "qty": 16,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_30A_UI.webp",
+                "source": "Overworld Collection / Giant Banyan / Forbidden Forest / Shifang Pharmacy / Collection Spots",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Giant Banyan"
+                  },
+                  {
+                    "name": "Forbidden Forest"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  }
+                ]
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 90,
+            "items": [
+              {
+                "id": "41100014",
+                "name": "FF Whisperin Core",
+                "qty": 4,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_4_UI.webp",
+                "source": "Whisperins",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  }
+                ]
+              },
+              {
+                "id": "41400084",
+                "name": "Group Abomination Tacet Core",
+                "qty": 16,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_009_UI.webp",
+                "source": "Mech Abomination / Mech Abomination - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Mech Abomination",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_993_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300080",
+                "name": "Coriolus",
+                "qty": 20,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_30A_UI.webp",
+                "source": "Overworld Collection / Giant Banyan / Forbidden Forest / Shifang Pharmacy / Collection Spots",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Giant Banyan"
+                  },
+                  {
+                    "name": "Forbidden Forest"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  }
+                ]
+              }
+            ],
+            "cost": 80000
           }
         ],
         "talents": [
@@ -102614,6 +114406,333 @@
                 "name": "Shifang Pharmacy"
               }
             ]
+          }
+        ],
+        "ascensionStages": [
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "41100031",
+                "name": "Crude Ring",
+                "qty": 4,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_1_UI.webp",
+                "source": "Exiles / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Exile",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              }
+            ],
+            "cost": 5000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "41100032",
+                "name": "Basic Ring",
+                "qty": 4,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_2_UI.webp",
+                "source": "Exiles / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Exile",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400024",
+                "name": "Thundering Tacet Core",
+                "qty": 3,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_001_1_UI.webp",
+                "source": "Thundering Mephis",
+                "sourceDetails": [
+                  {
+                    "name": "Thundering Mephis",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_226_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300030",
+                "name": "Iris",
+                "qty": 4,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_33A_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Heron Wetland / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Heron Wetland"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 10000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "41100032",
+                "name": "Basic Ring",
+                "qty": 8,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_2_UI.webp",
+                "source": "Exiles / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Exile",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400024",
+                "name": "Thundering Tacet Core",
+                "qty": 6,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_001_1_UI.webp",
+                "source": "Thundering Mephis",
+                "sourceDetails": [
+                  {
+                    "name": "Thundering Mephis",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_226_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300030",
+                "name": "Iris",
+                "qty": 8,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_33A_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Heron Wetland / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Heron Wetland"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 15000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "41100033",
+                "name": "Improved Ring",
+                "qty": 4,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_3_UI.webp",
+                "source": "Exiles",
+                "sourceDetails": [
+                  {
+                    "name": "Exile",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "41400024",
+                "name": "Thundering Tacet Core",
+                "qty": 9,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_001_1_UI.webp",
+                "source": "Thundering Mephis",
+                "sourceDetails": [
+                  {
+                    "name": "Thundering Mephis",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_226_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300030",
+                "name": "Iris",
+                "qty": 12,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_33A_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Heron Wetland / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Heron Wetland"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 20000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "41100033",
+                "name": "Improved Ring",
+                "qty": 8,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_3_UI.webp",
+                "source": "Exiles",
+                "sourceDetails": [
+                  {
+                    "name": "Exile",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "41400024",
+                "name": "Thundering Tacet Core",
+                "qty": 12,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_001_1_UI.webp",
+                "source": "Thundering Mephis",
+                "sourceDetails": [
+                  {
+                    "name": "Thundering Mephis",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_226_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300030",
+                "name": "Iris",
+                "qty": 16,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_33A_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Heron Wetland / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Heron Wetland"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 90,
+            "items": [
+              {
+                "id": "41100034",
+                "name": "Tailored Ring",
+                "qty": 4,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_4_UI.webp",
+                "source": "Exiles",
+                "sourceDetails": [
+                  {
+                    "name": "Exile",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "41400024",
+                "name": "Thundering Tacet Core",
+                "qty": 16,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_001_1_UI.webp",
+                "source": "Thundering Mephis",
+                "sourceDetails": [
+                  {
+                    "name": "Thundering Mephis",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_226_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300030",
+                "name": "Iris",
+                "qty": 20,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_33A_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Heron Wetland / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Heron Wetland"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 80000
           }
         ],
         "talents": [
@@ -105549,6 +117668,312 @@
                 "name": "Resonator Nursing Unit"
               }
             ]
+          }
+        ],
+        "ascensionStages": [
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "41100071",
+                "name": "LF Mech Core",
+                "qty": 4,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_025_UI.webp",
+                "source": "Clamorling TDs in Lahai-Roi / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Clamorling TDs in Lahai-Roi"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              }
+            ],
+            "cost": 5000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "41100072",
+                "name": "MF Mech Core",
+                "qty": 4,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_026_UI.webp",
+                "source": "Clamorling TDs in Lahai-Roi / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Clamorling TDs in Lahai-Roi"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400274",
+                "name": "Burning Judgment",
+                "qty": 3,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_022_UI.webp",
+                "source": "Reactor Husk / Reactor Husk - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Reactor Husk",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34022_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601480",
+                "name": "Dream of Stars",
+                "qty": 4,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_075_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Resonator Nursing Unit",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Resonator Nursing Unit"
+                  }
+                ]
+              }
+            ],
+            "cost": 10000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "41100072",
+                "name": "MF Mech Core",
+                "qty": 8,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_026_UI.webp",
+                "source": "Clamorling TDs in Lahai-Roi / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Clamorling TDs in Lahai-Roi"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400274",
+                "name": "Burning Judgment",
+                "qty": 6,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_022_UI.webp",
+                "source": "Reactor Husk / Reactor Husk - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Reactor Husk",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34022_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601480",
+                "name": "Dream of Stars",
+                "qty": 8,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_075_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Resonator Nursing Unit",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Resonator Nursing Unit"
+                  }
+                ]
+              }
+            ],
+            "cost": 15000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "41100073",
+                "name": "HF Mech Core",
+                "qty": 4,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_027_UI.webp",
+                "source": "Clamorling TDs in Lahai-Roi",
+                "sourceDetails": [
+                  {
+                    "name": "Clamorling TDs in Lahai-Roi"
+                  }
+                ]
+              },
+              {
+                "id": "41400274",
+                "name": "Burning Judgment",
+                "qty": 9,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_022_UI.webp",
+                "source": "Reactor Husk / Reactor Husk - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Reactor Husk",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34022_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601480",
+                "name": "Dream of Stars",
+                "qty": 12,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_075_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Resonator Nursing Unit",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Resonator Nursing Unit"
+                  }
+                ]
+              }
+            ],
+            "cost": 20000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "41100073",
+                "name": "HF Mech Core",
+                "qty": 8,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_027_UI.webp",
+                "source": "Clamorling TDs in Lahai-Roi",
+                "sourceDetails": [
+                  {
+                    "name": "Clamorling TDs in Lahai-Roi"
+                  }
+                ]
+              },
+              {
+                "id": "41400274",
+                "name": "Burning Judgment",
+                "qty": 12,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_022_UI.webp",
+                "source": "Reactor Husk / Reactor Husk - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Reactor Husk",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34022_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601480",
+                "name": "Dream of Stars",
+                "qty": 16,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_075_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Resonator Nursing Unit",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Resonator Nursing Unit"
+                  }
+                ]
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 90,
+            "items": [
+              {
+                "id": "41100074",
+                "name": "FF Mech Core",
+                "qty": 4,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_028_UI.webp",
+                "source": "Clamorling TDs in Lahai-Roi",
+                "sourceDetails": [
+                  {
+                    "name": "Clamorling TDs in Lahai-Roi"
+                  }
+                ]
+              },
+              {
+                "id": "41400274",
+                "name": "Burning Judgment",
+                "qty": 16,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_022_UI.webp",
+                "source": "Reactor Husk / Reactor Husk - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Reactor Husk",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34022_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601480",
+                "name": "Dream of Stars",
+                "qty": 20,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_075_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Resonator Nursing Unit",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Resonator Nursing Unit"
+                  }
+                ]
+              }
+            ],
+            "cost": 80000
           }
         ],
         "talents": [
@@ -109109,6 +121534,312 @@
             ]
           }
         ],
+        "ascensionStages": [
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "41100061",
+                "name": "LF Exoswarm Core",
+                "qty": 4,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_021_UI.webp",
+                "source": "Exoswarm / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Exoswarm"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              }
+            ],
+            "cost": 5000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "41100062",
+                "name": "MF Exoswarm Core",
+                "qty": 4,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_022_UI.webp",
+                "source": "Exoswarm / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Exoswarm"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400284",
+                "name": "Our Choice",
+                "qty": 3,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_024_UI.webp",
+                "source": "Nameless Explorer / Nameless Explorer - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Nameless Explorer",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34026_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601420",
+                "name": "Moss Amber",
+                "qty": 4,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_072_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Resonator Nursing Unit",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Resonator Nursing Unit"
+                  }
+                ]
+              }
+            ],
+            "cost": 10000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "41100062",
+                "name": "MF Exoswarm Core",
+                "qty": 8,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_022_UI.webp",
+                "source": "Exoswarm / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Exoswarm"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400284",
+                "name": "Our Choice",
+                "qty": 6,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_024_UI.webp",
+                "source": "Nameless Explorer / Nameless Explorer - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Nameless Explorer",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34026_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601420",
+                "name": "Moss Amber",
+                "qty": 8,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_072_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Resonator Nursing Unit",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Resonator Nursing Unit"
+                  }
+                ]
+              }
+            ],
+            "cost": 15000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "41100063",
+                "name": "HF Exoswarm Core",
+                "qty": 4,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_023_UI.webp",
+                "source": "Exoswarm",
+                "sourceDetails": [
+                  {
+                    "name": "Exoswarm"
+                  }
+                ]
+              },
+              {
+                "id": "41400284",
+                "name": "Our Choice",
+                "qty": 9,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_024_UI.webp",
+                "source": "Nameless Explorer / Nameless Explorer - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Nameless Explorer",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34026_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601420",
+                "name": "Moss Amber",
+                "qty": 12,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_072_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Resonator Nursing Unit",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Resonator Nursing Unit"
+                  }
+                ]
+              }
+            ],
+            "cost": 20000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "41100063",
+                "name": "HF Exoswarm Core",
+                "qty": 8,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_023_UI.webp",
+                "source": "Exoswarm",
+                "sourceDetails": [
+                  {
+                    "name": "Exoswarm"
+                  }
+                ]
+              },
+              {
+                "id": "41400284",
+                "name": "Our Choice",
+                "qty": 12,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_024_UI.webp",
+                "source": "Nameless Explorer / Nameless Explorer - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Nameless Explorer",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34026_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601420",
+                "name": "Moss Amber",
+                "qty": 16,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_072_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Resonator Nursing Unit",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Resonator Nursing Unit"
+                  }
+                ]
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 90,
+            "items": [
+              {
+                "id": "41100064",
+                "name": "FF Exoswarm Core",
+                "qty": 4,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_024_UI.webp",
+                "source": "Exoswarm",
+                "sourceDetails": [
+                  {
+                    "name": "Exoswarm"
+                  }
+                ]
+              },
+              {
+                "id": "41400284",
+                "name": "Our Choice",
+                "qty": 16,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_024_UI.webp",
+                "source": "Nameless Explorer / Nameless Explorer - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Nameless Explorer",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34026_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601420",
+                "name": "Moss Amber",
+                "qty": 20,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_072_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Resonator Nursing Unit",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Resonator Nursing Unit"
+                  }
+                ]
+              }
+            ],
+            "cost": 80000
+          }
+        ],
         "talents": [
           {
             "id": "41100061",
@@ -111463,6 +124194,312 @@
                 "name": "Resonator Nursing Unit"
               }
             ]
+          }
+        ],
+        "ascensionStages": [
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "41100071",
+                "name": "LF Mech Core",
+                "qty": 4,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_025_UI.webp",
+                "source": "Clamorling TDs in Lahai-Roi / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Clamorling TDs in Lahai-Roi"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              }
+            ],
+            "cost": 5000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "41100072",
+                "name": "MF Mech Core",
+                "qty": 4,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_026_UI.webp",
+                "source": "Clamorling TDs in Lahai-Roi / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Clamorling TDs in Lahai-Roi"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400274",
+                "name": "Burning Judgment",
+                "qty": 3,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_022_UI.webp",
+                "source": "Reactor Husk / Reactor Husk - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Reactor Husk",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34022_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601380",
+                "name": "Gemini Spore",
+                "qty": 4,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_066_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Resonator Nursing Unit",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Resonator Nursing Unit"
+                  }
+                ]
+              }
+            ],
+            "cost": 10000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "41100072",
+                "name": "MF Mech Core",
+                "qty": 8,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_026_UI.webp",
+                "source": "Clamorling TDs in Lahai-Roi / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Clamorling TDs in Lahai-Roi"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400274",
+                "name": "Burning Judgment",
+                "qty": 6,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_022_UI.webp",
+                "source": "Reactor Husk / Reactor Husk - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Reactor Husk",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34022_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601380",
+                "name": "Gemini Spore",
+                "qty": 8,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_066_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Resonator Nursing Unit",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Resonator Nursing Unit"
+                  }
+                ]
+              }
+            ],
+            "cost": 15000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "41100073",
+                "name": "HF Mech Core",
+                "qty": 4,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_027_UI.webp",
+                "source": "Clamorling TDs in Lahai-Roi",
+                "sourceDetails": [
+                  {
+                    "name": "Clamorling TDs in Lahai-Roi"
+                  }
+                ]
+              },
+              {
+                "id": "41400274",
+                "name": "Burning Judgment",
+                "qty": 9,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_022_UI.webp",
+                "source": "Reactor Husk / Reactor Husk - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Reactor Husk",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34022_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601380",
+                "name": "Gemini Spore",
+                "qty": 12,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_066_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Resonator Nursing Unit",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Resonator Nursing Unit"
+                  }
+                ]
+              }
+            ],
+            "cost": 20000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "41100073",
+                "name": "HF Mech Core",
+                "qty": 8,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_027_UI.webp",
+                "source": "Clamorling TDs in Lahai-Roi",
+                "sourceDetails": [
+                  {
+                    "name": "Clamorling TDs in Lahai-Roi"
+                  }
+                ]
+              },
+              {
+                "id": "41400274",
+                "name": "Burning Judgment",
+                "qty": 12,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_022_UI.webp",
+                "source": "Reactor Husk / Reactor Husk - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Reactor Husk",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34022_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601380",
+                "name": "Gemini Spore",
+                "qty": 16,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_066_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Resonator Nursing Unit",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Resonator Nursing Unit"
+                  }
+                ]
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 90,
+            "items": [
+              {
+                "id": "41100074",
+                "name": "FF Mech Core",
+                "qty": 4,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_028_UI.webp",
+                "source": "Clamorling TDs in Lahai-Roi",
+                "sourceDetails": [
+                  {
+                    "name": "Clamorling TDs in Lahai-Roi"
+                  }
+                ]
+              },
+              {
+                "id": "41400274",
+                "name": "Burning Judgment",
+                "qty": 16,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_022_UI.webp",
+                "source": "Reactor Husk / Reactor Husk - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Reactor Husk",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34022_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601380",
+                "name": "Gemini Spore",
+                "qty": 20,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_066_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Resonator Nursing Unit",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Resonator Nursing Unit"
+                  }
+                ]
+              }
+            ],
+            "cost": 80000
           }
         ],
         "talents": [
@@ -114397,6 +127434,321 @@
             ]
           }
         ],
+        "ascensionStages": [
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "41100051",
+                "name": "LF Tidal Residuum",
+                "qty": 4,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_005_1_UI.webp",
+                "source": "Tacet Discords influenced by the Dark Tide / Forgery Challenge / Masked Reverie",
+                "sourceDetails": [
+                  {
+                    "name": "Tacet Discords influenced by the Dark Tide"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  },
+                  {
+                    "name": "Masked Reverie"
+                  }
+                ]
+              }
+            ],
+            "cost": 5000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "41100052",
+                "name": "MF Tidal Residuum",
+                "qty": 4,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_005_2_UI.webp",
+                "source": "Tacet Discords influenced by the Dark Tide / Forgery Challenge / Masked Reverie",
+                "sourceDetails": [
+                  {
+                    "name": "Tacet Discords influenced by the Dark Tide"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  },
+                  {
+                    "name": "Masked Reverie"
+                  }
+                ]
+              },
+              {
+                "id": "41400234",
+                "name": "Blighted Crown of Puppet King",
+                "qty": 3,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_020_UI.webp",
+                "source": "The False Sovereign / The False Sovereign - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "The False Sovereign",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34017_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601280",
+                "name": "Stone Rose",
+                "qty": 4,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_056_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Silver Helmet Store",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Silver Helmet Store"
+                  }
+                ]
+              }
+            ],
+            "cost": 10000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "41100052",
+                "name": "MF Tidal Residuum",
+                "qty": 8,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_005_2_UI.webp",
+                "source": "Tacet Discords influenced by the Dark Tide / Forgery Challenge / Masked Reverie",
+                "sourceDetails": [
+                  {
+                    "name": "Tacet Discords influenced by the Dark Tide"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  },
+                  {
+                    "name": "Masked Reverie"
+                  }
+                ]
+              },
+              {
+                "id": "41400234",
+                "name": "Blighted Crown of Puppet King",
+                "qty": 6,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_020_UI.webp",
+                "source": "The False Sovereign / The False Sovereign - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "The False Sovereign",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34017_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601280",
+                "name": "Stone Rose",
+                "qty": 8,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_056_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Silver Helmet Store",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Silver Helmet Store"
+                  }
+                ]
+              }
+            ],
+            "cost": 15000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "41100053",
+                "name": "HF Tidal Residuum",
+                "qty": 4,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_005_3_UI.webp",
+                "source": "Tacet Discords influenced by the Dark Tide",
+                "sourceDetails": [
+                  {
+                    "name": "Tacet Discords influenced by the Dark Tide"
+                  }
+                ]
+              },
+              {
+                "id": "41400234",
+                "name": "Blighted Crown of Puppet King",
+                "qty": 9,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_020_UI.webp",
+                "source": "The False Sovereign / The False Sovereign - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "The False Sovereign",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34017_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601280",
+                "name": "Stone Rose",
+                "qty": 12,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_056_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Silver Helmet Store",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Silver Helmet Store"
+                  }
+                ]
+              }
+            ],
+            "cost": 20000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "41100053",
+                "name": "HF Tidal Residuum",
+                "qty": 8,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_005_3_UI.webp",
+                "source": "Tacet Discords influenced by the Dark Tide",
+                "sourceDetails": [
+                  {
+                    "name": "Tacet Discords influenced by the Dark Tide"
+                  }
+                ]
+              },
+              {
+                "id": "41400234",
+                "name": "Blighted Crown of Puppet King",
+                "qty": 12,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_020_UI.webp",
+                "source": "The False Sovereign / The False Sovereign - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "The False Sovereign",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34017_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601280",
+                "name": "Stone Rose",
+                "qty": 16,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_056_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Silver Helmet Store",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Silver Helmet Store"
+                  }
+                ]
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 90,
+            "items": [
+              {
+                "id": "41100054",
+                "name": "FF Tidal Residuum",
+                "qty": 4,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_005_4_UI.webp",
+                "source": "Tacet Discords influenced by the Dark Tide",
+                "sourceDetails": [
+                  {
+                    "name": "Tacet Discords influenced by the Dark Tide"
+                  }
+                ]
+              },
+              {
+                "id": "41400234",
+                "name": "Blighted Crown of Puppet King",
+                "qty": 16,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_020_UI.webp",
+                "source": "The False Sovereign / The False Sovereign - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "The False Sovereign",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34017_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601280",
+                "name": "Stone Rose",
+                "qty": 20,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_056_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Silver Helmet Store",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Silver Helmet Store"
+                  }
+                ]
+              }
+            ],
+            "cost": 80000
+          }
+        ],
         "talents": [
           {
             "id": "41100051",
@@ -116946,6 +130298,312 @@
             ]
           }
         ],
+        "ascensionStages": [
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "41100021",
+                "name": "LF Howler Core",
+                "qty": 4,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_1_UI.webp",
+                "source": "Howlers / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Howlers"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              }
+            ],
+            "cost": 5000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "41100022",
+                "name": "MF Howler Core",
+                "qty": 4,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+                "source": "Howlers / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Howlers"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400214",
+                "name": "Unfading Glory",
+                "qty": 3,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_018_UI.webp",
+                "source": "Lioness of Glory / Lioness of Glory - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Lioness of Glory",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_33022_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601230",
+                "name": "Bloodleaf Viburnum",
+                "qty": 4,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_xueyejiami_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Silver Helmet Store",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Silver Helmet Store"
+                  }
+                ]
+              }
+            ],
+            "cost": 10000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "41100022",
+                "name": "MF Howler Core",
+                "qty": 8,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+                "source": "Howlers / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Howlers"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400214",
+                "name": "Unfading Glory",
+                "qty": 6,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_018_UI.webp",
+                "source": "Lioness of Glory / Lioness of Glory - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Lioness of Glory",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_33022_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601230",
+                "name": "Bloodleaf Viburnum",
+                "qty": 8,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_xueyejiami_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Silver Helmet Store",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Silver Helmet Store"
+                  }
+                ]
+              }
+            ],
+            "cost": 15000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "41100023",
+                "name": "HF Howler Core",
+                "qty": 4,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+                "source": "Howlers",
+                "sourceDetails": [
+                  {
+                    "name": "Howlers"
+                  }
+                ]
+              },
+              {
+                "id": "41400214",
+                "name": "Unfading Glory",
+                "qty": 9,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_018_UI.webp",
+                "source": "Lioness of Glory / Lioness of Glory - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Lioness of Glory",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_33022_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601230",
+                "name": "Bloodleaf Viburnum",
+                "qty": 12,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_xueyejiami_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Silver Helmet Store",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Silver Helmet Store"
+                  }
+                ]
+              }
+            ],
+            "cost": 20000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "41100023",
+                "name": "HF Howler Core",
+                "qty": 8,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+                "source": "Howlers",
+                "sourceDetails": [
+                  {
+                    "name": "Howlers"
+                  }
+                ]
+              },
+              {
+                "id": "41400214",
+                "name": "Unfading Glory",
+                "qty": 12,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_018_UI.webp",
+                "source": "Lioness of Glory / Lioness of Glory - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Lioness of Glory",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_33022_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601230",
+                "name": "Bloodleaf Viburnum",
+                "qty": 16,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_xueyejiami_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Silver Helmet Store",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Silver Helmet Store"
+                  }
+                ]
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 90,
+            "items": [
+              {
+                "id": "41100024",
+                "name": "FF Howler Core",
+                "qty": 4,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_4_UI.webp",
+                "source": "Howlers",
+                "sourceDetails": [
+                  {
+                    "name": "Howlers"
+                  }
+                ]
+              },
+              {
+                "id": "41400214",
+                "name": "Unfading Glory",
+                "qty": 16,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_018_UI.webp",
+                "source": "Lioness of Glory / Lioness of Glory - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Lioness of Glory",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_33022_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601230",
+                "name": "Bloodleaf Viburnum",
+                "qty": 20,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_xueyejiami_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Silver Helmet Store",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Silver Helmet Store"
+                  }
+                ]
+              }
+            ],
+            "cost": 80000
+          }
+        ],
         "talents": [
           {
             "id": "41100021",
@@ -119225,6 +132883,321 @@
             ]
           }
         ],
+        "ascensionStages": [
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "41100051",
+                "name": "LF Tidal Residuum",
+                "qty": 4,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_005_1_UI.webp",
+                "source": "Tacet Discords influenced by the Dark Tide / Forgery Challenge / Masked Reverie",
+                "sourceDetails": [
+                  {
+                    "name": "Tacet Discords influenced by the Dark Tide"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  },
+                  {
+                    "name": "Masked Reverie"
+                  }
+                ]
+              }
+            ],
+            "cost": 5000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "41100052",
+                "name": "MF Tidal Residuum",
+                "qty": 4,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_005_2_UI.webp",
+                "source": "Tacet Discords influenced by the Dark Tide / Forgery Challenge / Masked Reverie",
+                "sourceDetails": [
+                  {
+                    "name": "Tacet Discords influenced by the Dark Tide"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  },
+                  {
+                    "name": "Masked Reverie"
+                  }
+                ]
+              },
+              {
+                "id": "41400184",
+                "name": "Blazing Bone",
+                "qty": 3,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_008_UI.webp",
+                "source": "Dragon of Dirge / Dragon of Dirge - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Dragon of Dirge",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_33013_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601140",
+                "name": "Golden Fleece",
+                "qty": 4,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_045_UI.webp",
+                "source": "Collection Spots / Rosemary's Apothecary / Overworld Collection",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Rosemary's Apothecary"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  }
+                ]
+              }
+            ],
+            "cost": 10000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "41100052",
+                "name": "MF Tidal Residuum",
+                "qty": 8,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_005_2_UI.webp",
+                "source": "Tacet Discords influenced by the Dark Tide / Forgery Challenge / Masked Reverie",
+                "sourceDetails": [
+                  {
+                    "name": "Tacet Discords influenced by the Dark Tide"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  },
+                  {
+                    "name": "Masked Reverie"
+                  }
+                ]
+              },
+              {
+                "id": "41400184",
+                "name": "Blazing Bone",
+                "qty": 6,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_008_UI.webp",
+                "source": "Dragon of Dirge / Dragon of Dirge - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Dragon of Dirge",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_33013_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601140",
+                "name": "Golden Fleece",
+                "qty": 8,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_045_UI.webp",
+                "source": "Collection Spots / Rosemary's Apothecary / Overworld Collection",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Rosemary's Apothecary"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  }
+                ]
+              }
+            ],
+            "cost": 15000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "41100053",
+                "name": "HF Tidal Residuum",
+                "qty": 4,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_005_3_UI.webp",
+                "source": "Tacet Discords influenced by the Dark Tide",
+                "sourceDetails": [
+                  {
+                    "name": "Tacet Discords influenced by the Dark Tide"
+                  }
+                ]
+              },
+              {
+                "id": "41400184",
+                "name": "Blazing Bone",
+                "qty": 9,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_008_UI.webp",
+                "source": "Dragon of Dirge / Dragon of Dirge - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Dragon of Dirge",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_33013_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601140",
+                "name": "Golden Fleece",
+                "qty": 12,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_045_UI.webp",
+                "source": "Collection Spots / Rosemary's Apothecary / Overworld Collection",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Rosemary's Apothecary"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  }
+                ]
+              }
+            ],
+            "cost": 20000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "41100053",
+                "name": "HF Tidal Residuum",
+                "qty": 8,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_005_3_UI.webp",
+                "source": "Tacet Discords influenced by the Dark Tide",
+                "sourceDetails": [
+                  {
+                    "name": "Tacet Discords influenced by the Dark Tide"
+                  }
+                ]
+              },
+              {
+                "id": "41400184",
+                "name": "Blazing Bone",
+                "qty": 12,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_008_UI.webp",
+                "source": "Dragon of Dirge / Dragon of Dirge - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Dragon of Dirge",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_33013_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601140",
+                "name": "Golden Fleece",
+                "qty": 16,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_045_UI.webp",
+                "source": "Collection Spots / Rosemary's Apothecary / Overworld Collection",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Rosemary's Apothecary"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  }
+                ]
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 90,
+            "items": [
+              {
+                "id": "41100054",
+                "name": "FF Tidal Residuum",
+                "qty": 4,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_005_4_UI.webp",
+                "source": "Tacet Discords influenced by the Dark Tide",
+                "sourceDetails": [
+                  {
+                    "name": "Tacet Discords influenced by the Dark Tide"
+                  }
+                ]
+              },
+              {
+                "id": "41400184",
+                "name": "Blazing Bone",
+                "qty": 16,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_008_UI.webp",
+                "source": "Dragon of Dirge / Dragon of Dirge - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Dragon of Dirge",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_33013_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601140",
+                "name": "Golden Fleece",
+                "qty": 20,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_045_UI.webp",
+                "source": "Collection Spots / Rosemary's Apothecary / Overworld Collection",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Rosemary's Apothecary"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  }
+                ]
+              }
+            ],
+            "cost": 80000
+          }
+        ],
         "talents": [
           {
             "id": "41100051",
@@ -121155,6 +135128,333 @@
             ]
           }
         ],
+        "ascensionStages": [
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "41100031",
+                "name": "Crude Ring",
+                "qty": 4,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_1_UI.webp",
+                "source": "Exiles / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Exile",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              }
+            ],
+            "cost": 5000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "41100032",
+                "name": "Basic Ring",
+                "qty": 4,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_2_UI.webp",
+                "source": "Exiles / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Exile",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400044",
+                "name": "Rage Tacet Core",
+                "qty": 3,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_008_UI.webp",
+                "source": "Inferno Rider / Inferno Rider - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Inferno Rider",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_325_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42310200",
+                "name": "Pavo Plum",
+                "qty": 4,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_029_UI.webp",
+                "source": "Luminous Shore / Collection Spots / Mt. Firmament / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Luminous Shore"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Mt. Firmament"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 10000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "41100032",
+                "name": "Basic Ring",
+                "qty": 8,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_2_UI.webp",
+                "source": "Exiles / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Exile",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400044",
+                "name": "Rage Tacet Core",
+                "qty": 6,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_008_UI.webp",
+                "source": "Inferno Rider / Inferno Rider - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Inferno Rider",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_325_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42310200",
+                "name": "Pavo Plum",
+                "qty": 8,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_029_UI.webp",
+                "source": "Luminous Shore / Collection Spots / Mt. Firmament / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Luminous Shore"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Mt. Firmament"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 15000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "41100033",
+                "name": "Improved Ring",
+                "qty": 4,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_3_UI.webp",
+                "source": "Exiles",
+                "sourceDetails": [
+                  {
+                    "name": "Exile",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "41400044",
+                "name": "Rage Tacet Core",
+                "qty": 9,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_008_UI.webp",
+                "source": "Inferno Rider / Inferno Rider - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Inferno Rider",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_325_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42310200",
+                "name": "Pavo Plum",
+                "qty": 12,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_029_UI.webp",
+                "source": "Luminous Shore / Collection Spots / Mt. Firmament / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Luminous Shore"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Mt. Firmament"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 20000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "41100033",
+                "name": "Improved Ring",
+                "qty": 8,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_3_UI.webp",
+                "source": "Exiles",
+                "sourceDetails": [
+                  {
+                    "name": "Exile",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "41400044",
+                "name": "Rage Tacet Core",
+                "qty": 12,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_008_UI.webp",
+                "source": "Inferno Rider / Inferno Rider - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Inferno Rider",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_325_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42310200",
+                "name": "Pavo Plum",
+                "qty": 16,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_029_UI.webp",
+                "source": "Luminous Shore / Collection Spots / Mt. Firmament / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Luminous Shore"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Mt. Firmament"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 90,
+            "items": [
+              {
+                "id": "41100034",
+                "name": "Tailored Ring",
+                "qty": 4,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_4_UI.webp",
+                "source": "Exiles",
+                "sourceDetails": [
+                  {
+                    "name": "Exile",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "41400044",
+                "name": "Rage Tacet Core",
+                "qty": 16,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_008_UI.webp",
+                "source": "Inferno Rider / Inferno Rider - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Inferno Rider",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_325_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42310200",
+                "name": "Pavo Plum",
+                "qty": 20,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_029_UI.webp",
+                "source": "Luminous Shore / Collection Spots / Mt. Firmament / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Luminous Shore"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Mt. Firmament"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 80000
+          }
+        ],
         "talents": [
           {
             "id": "41100031",
@@ -122819,6 +137119,342 @@
                 "name": "Collection Spots"
               }
             ]
+          }
+        ],
+        "ascensionStages": [
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "41100011",
+                "name": "LF Whisperin Core",
+                "qty": 4,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_1_UI.webp",
+                "source": "Whisperins / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              }
+            ],
+            "cost": 5000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "41100012",
+                "name": "MF Whisperin Core",
+                "qty": 4,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_2_UI.webp",
+                "source": "Whisperins / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400044",
+                "name": "Rage Tacet Core",
+                "qty": 3,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_008_UI.webp",
+                "source": "Inferno Rider / Inferno Rider - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Inferno Rider",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_325_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300080",
+                "name": "Coriolus",
+                "qty": 4,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_30A_UI.webp",
+                "source": "Overworld Collection / Giant Banyan / Forbidden Forest / Shifang Pharmacy / Collection Spots",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Giant Banyan"
+                  },
+                  {
+                    "name": "Forbidden Forest"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  }
+                ]
+              }
+            ],
+            "cost": 10000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "41100012",
+                "name": "MF Whisperin Core",
+                "qty": 8,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_2_UI.webp",
+                "source": "Whisperins / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400044",
+                "name": "Rage Tacet Core",
+                "qty": 6,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_008_UI.webp",
+                "source": "Inferno Rider / Inferno Rider - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Inferno Rider",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_325_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300080",
+                "name": "Coriolus",
+                "qty": 8,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_30A_UI.webp",
+                "source": "Overworld Collection / Giant Banyan / Forbidden Forest / Shifang Pharmacy / Collection Spots",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Giant Banyan"
+                  },
+                  {
+                    "name": "Forbidden Forest"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  }
+                ]
+              }
+            ],
+            "cost": 15000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "41100013",
+                "name": "HF Whisperin Core",
+                "qty": 4,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_3_UI.webp",
+                "source": "Whisperins",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  }
+                ]
+              },
+              {
+                "id": "41400044",
+                "name": "Rage Tacet Core",
+                "qty": 9,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_008_UI.webp",
+                "source": "Inferno Rider / Inferno Rider - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Inferno Rider",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_325_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300080",
+                "name": "Coriolus",
+                "qty": 12,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_30A_UI.webp",
+                "source": "Overworld Collection / Giant Banyan / Forbidden Forest / Shifang Pharmacy / Collection Spots",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Giant Banyan"
+                  },
+                  {
+                    "name": "Forbidden Forest"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  }
+                ]
+              }
+            ],
+            "cost": 20000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "41100013",
+                "name": "HF Whisperin Core",
+                "qty": 8,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_3_UI.webp",
+                "source": "Whisperins",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  }
+                ]
+              },
+              {
+                "id": "41400044",
+                "name": "Rage Tacet Core",
+                "qty": 12,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_008_UI.webp",
+                "source": "Inferno Rider / Inferno Rider - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Inferno Rider",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_325_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300080",
+                "name": "Coriolus",
+                "qty": 16,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_30A_UI.webp",
+                "source": "Overworld Collection / Giant Banyan / Forbidden Forest / Shifang Pharmacy / Collection Spots",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Giant Banyan"
+                  },
+                  {
+                    "name": "Forbidden Forest"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  }
+                ]
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 90,
+            "items": [
+              {
+                "id": "41100014",
+                "name": "FF Whisperin Core",
+                "qty": 4,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_4_UI.webp",
+                "source": "Whisperins",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  }
+                ]
+              },
+              {
+                "id": "41400044",
+                "name": "Rage Tacet Core",
+                "qty": 16,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_008_UI.webp",
+                "source": "Inferno Rider / Inferno Rider - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Inferno Rider",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_325_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300080",
+                "name": "Coriolus",
+                "qty": 20,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_30A_UI.webp",
+                "source": "Overworld Collection / Giant Banyan / Forbidden Forest / Shifang Pharmacy / Collection Spots",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Giant Banyan"
+                  },
+                  {
+                    "name": "Forbidden Forest"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  }
+                ]
+              }
+            ],
+            "cost": 80000
           }
         ],
         "talents": [
@@ -124851,6 +139487,327 @@
             ]
           }
         ],
+        "ascensionStages": [
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "41100011",
+                "name": "LF Whisperin Core",
+                "qty": 4,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_1_UI.webp",
+                "source": "Whisperins / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              }
+            ],
+            "cost": 5000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "41100012",
+                "name": "MF Whisperin Core",
+                "qty": 4,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_2_UI.webp",
+                "source": "Whisperins / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400044",
+                "name": "Rage Tacet Core",
+                "qty": 3,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_008_UI.webp",
+                "source": "Inferno Rider / Inferno Rider - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Inferno Rider",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_325_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300060",
+                "name": "Pecok Flower",
+                "qty": 4,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_18A_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Taoyuan Vale / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Taoyuan Vale"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 10000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "41100012",
+                "name": "MF Whisperin Core",
+                "qty": 8,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_2_UI.webp",
+                "source": "Whisperins / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400044",
+                "name": "Rage Tacet Core",
+                "qty": 6,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_008_UI.webp",
+                "source": "Inferno Rider / Inferno Rider - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Inferno Rider",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_325_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300060",
+                "name": "Pecok Flower",
+                "qty": 8,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_18A_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Taoyuan Vale / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Taoyuan Vale"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 15000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "41100013",
+                "name": "HF Whisperin Core",
+                "qty": 4,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_3_UI.webp",
+                "source": "Whisperins",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  }
+                ]
+              },
+              {
+                "id": "41400044",
+                "name": "Rage Tacet Core",
+                "qty": 9,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_008_UI.webp",
+                "source": "Inferno Rider / Inferno Rider - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Inferno Rider",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_325_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300060",
+                "name": "Pecok Flower",
+                "qty": 12,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_18A_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Taoyuan Vale / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Taoyuan Vale"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 20000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "41100013",
+                "name": "HF Whisperin Core",
+                "qty": 8,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_3_UI.webp",
+                "source": "Whisperins",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  }
+                ]
+              },
+              {
+                "id": "41400044",
+                "name": "Rage Tacet Core",
+                "qty": 12,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_008_UI.webp",
+                "source": "Inferno Rider / Inferno Rider - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Inferno Rider",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_325_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300060",
+                "name": "Pecok Flower",
+                "qty": 16,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_18A_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Taoyuan Vale / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Taoyuan Vale"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 90,
+            "items": [
+              {
+                "id": "41100014",
+                "name": "FF Whisperin Core",
+                "qty": 4,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_4_UI.webp",
+                "source": "Whisperins",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  }
+                ]
+              },
+              {
+                "id": "41400044",
+                "name": "Rage Tacet Core",
+                "qty": 16,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_008_UI.webp",
+                "source": "Inferno Rider / Inferno Rider - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Inferno Rider",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_325_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300060",
+                "name": "Pecok Flower",
+                "qty": 20,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_18A_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Taoyuan Vale / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Taoyuan Vale"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 80000
+          }
+        ],
         "talents": [
           {
             "id": "41100011",
@@ -126458,6 +141415,327 @@
                 "name": "Shifang Pharmacy"
               }
             ]
+          }
+        ],
+        "ascensionStages": [
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "41100011",
+                "name": "LF Whisperin Core",
+                "qty": 4,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_1_UI.webp",
+                "source": "Whisperins / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              }
+            ],
+            "cost": 5000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "41100012",
+                "name": "MF Whisperin Core",
+                "qty": 4,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_2_UI.webp",
+                "source": "Whisperins / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400044",
+                "name": "Rage Tacet Core",
+                "qty": 3,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_008_UI.webp",
+                "source": "Inferno Rider / Inferno Rider - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Inferno Rider",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_325_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300070",
+                "name": "Belle Poppy",
+                "qty": 4,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_29A_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Sea of Flames / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Sea of Flames"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 10000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "41100012",
+                "name": "MF Whisperin Core",
+                "qty": 8,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_2_UI.webp",
+                "source": "Whisperins / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400044",
+                "name": "Rage Tacet Core",
+                "qty": 6,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_008_UI.webp",
+                "source": "Inferno Rider / Inferno Rider - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Inferno Rider",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_325_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300070",
+                "name": "Belle Poppy",
+                "qty": 8,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_29A_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Sea of Flames / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Sea of Flames"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 15000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "41100013",
+                "name": "HF Whisperin Core",
+                "qty": 4,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_3_UI.webp",
+                "source": "Whisperins",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  }
+                ]
+              },
+              {
+                "id": "41400044",
+                "name": "Rage Tacet Core",
+                "qty": 9,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_008_UI.webp",
+                "source": "Inferno Rider / Inferno Rider - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Inferno Rider",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_325_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300070",
+                "name": "Belle Poppy",
+                "qty": 12,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_29A_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Sea of Flames / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Sea of Flames"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 20000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "41100013",
+                "name": "HF Whisperin Core",
+                "qty": 8,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_3_UI.webp",
+                "source": "Whisperins",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  }
+                ]
+              },
+              {
+                "id": "41400044",
+                "name": "Rage Tacet Core",
+                "qty": 12,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_008_UI.webp",
+                "source": "Inferno Rider / Inferno Rider - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Inferno Rider",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_325_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300070",
+                "name": "Belle Poppy",
+                "qty": 16,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_29A_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Sea of Flames / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Sea of Flames"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 90,
+            "items": [
+              {
+                "id": "41100014",
+                "name": "FF Whisperin Core",
+                "qty": 4,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_4_UI.webp",
+                "source": "Whisperins",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  }
+                ]
+              },
+              {
+                "id": "41400044",
+                "name": "Rage Tacet Core",
+                "qty": 16,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_008_UI.webp",
+                "source": "Inferno Rider / Inferno Rider - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Inferno Rider",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_325_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300070",
+                "name": "Belle Poppy",
+                "qty": 20,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_29A_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Sea of Flames / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Sea of Flames"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 80000
           }
         ],
         "talents": [
@@ -129252,6 +144530,318 @@
             ]
           }
         ],
+        "ascensionStages": [
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "41100091",
+                "name": "LF Autopuppet Kernel",
+                "qty": 4,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_013_1_UI.webp",
+                "source": "Autopuppets / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Autopuppet Scout",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_1003_UI.webp"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              }
+            ],
+            "cost": 5000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "41100092",
+                "name": "MF Autopuppet Kernel",
+                "qty": 4,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_013_2_UI.webp",
+                "source": "Autopuppets / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Autopuppet Scout",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_1003_UI.webp"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400334",
+                "name": "Solidarity's Loneflame",
+                "qty": 3,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_029_UI.webp",
+                "source": "Myriad Snare: Rustfire Chassis / Myriad Snare: Rustfire Chassis - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Myriad Snare: Rustfire Chassis",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34030_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601610",
+                "name": "Flowborne Dream",
+                "qty": 4,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_087_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Huaxu Apothecary",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Huaxu Apothecary"
+                  }
+                ]
+              }
+            ],
+            "cost": 10000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "41100092",
+                "name": "MF Autopuppet Kernel",
+                "qty": 8,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_013_2_UI.webp",
+                "source": "Autopuppets / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Autopuppet Scout",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_1003_UI.webp"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400334",
+                "name": "Solidarity's Loneflame",
+                "qty": 6,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_029_UI.webp",
+                "source": "Myriad Snare: Rustfire Chassis / Myriad Snare: Rustfire Chassis - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Myriad Snare: Rustfire Chassis",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34030_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601610",
+                "name": "Flowborne Dream",
+                "qty": 8,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_087_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Huaxu Apothecary",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Huaxu Apothecary"
+                  }
+                ]
+              }
+            ],
+            "cost": 15000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "41100093",
+                "name": "HF Autopuppet Kernel",
+                "qty": 4,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_013_3_UI.webp",
+                "source": "Autopuppets",
+                "sourceDetails": [
+                  {
+                    "name": "Autopuppet Scout",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_1003_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "41400334",
+                "name": "Solidarity's Loneflame",
+                "qty": 9,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_029_UI.webp",
+                "source": "Myriad Snare: Rustfire Chassis / Myriad Snare: Rustfire Chassis - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Myriad Snare: Rustfire Chassis",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34030_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601610",
+                "name": "Flowborne Dream",
+                "qty": 12,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_087_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Huaxu Apothecary",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Huaxu Apothecary"
+                  }
+                ]
+              }
+            ],
+            "cost": 20000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "41100093",
+                "name": "HF Autopuppet Kernel",
+                "qty": 8,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_013_3_UI.webp",
+                "source": "Autopuppets",
+                "sourceDetails": [
+                  {
+                    "name": "Autopuppet Scout",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_1003_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "41400334",
+                "name": "Solidarity's Loneflame",
+                "qty": 12,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_029_UI.webp",
+                "source": "Myriad Snare: Rustfire Chassis / Myriad Snare: Rustfire Chassis - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Myriad Snare: Rustfire Chassis",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34030_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601610",
+                "name": "Flowborne Dream",
+                "qty": 16,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_087_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Huaxu Apothecary",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Huaxu Apothecary"
+                  }
+                ]
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 90,
+            "items": [
+              {
+                "id": "41100094",
+                "name": "FF Autopuppet Kernel",
+                "qty": 4,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_013_4_UI.webp",
+                "source": "Autopuppets",
+                "sourceDetails": [
+                  {
+                    "name": "Autopuppet Scout",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_1003_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "41400334",
+                "name": "Solidarity's Loneflame",
+                "qty": 16,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_029_UI.webp",
+                "source": "Myriad Snare: Rustfire Chassis / Myriad Snare: Rustfire Chassis - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Myriad Snare: Rustfire Chassis",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34030_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601610",
+                "name": "Flowborne Dream",
+                "qty": 20,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_087_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Huaxu Apothecary",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Huaxu Apothecary"
+                  }
+                ]
+              }
+            ],
+            "cost": 80000
+          }
+        ],
         "talents": [
           {
             "id": "41100091",
@@ -131990,6 +147580,312 @@
                 "name": "Resonator Nursing Unit"
               }
             ]
+          }
+        ],
+        "ascensionStages": [
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "41100071",
+                "name": "LF Mech Core",
+                "qty": 4,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_025_UI.webp",
+                "source": "Clamorling TDs in Lahai-Roi / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Clamorling TDs in Lahai-Roi"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              }
+            ],
+            "cost": 5000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "41100072",
+                "name": "MF Mech Core",
+                "qty": 4,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_026_UI.webp",
+                "source": "Clamorling TDs in Lahai-Roi / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Clamorling TDs in Lahai-Roi"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400264",
+                "name": "Suncoveter's Reach",
+                "qty": 3,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_023_UI.webp",
+                "source": "Hyvatia / Hyvatia - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Hyvatia",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34021_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601500",
+                "name": "Forget-Me-Not",
+                "qty": 4,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_077_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Resonator Nursing Unit",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Resonator Nursing Unit"
+                  }
+                ]
+              }
+            ],
+            "cost": 10000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "41100072",
+                "name": "MF Mech Core",
+                "qty": 8,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_026_UI.webp",
+                "source": "Clamorling TDs in Lahai-Roi / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Clamorling TDs in Lahai-Roi"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400264",
+                "name": "Suncoveter's Reach",
+                "qty": 6,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_023_UI.webp",
+                "source": "Hyvatia / Hyvatia - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Hyvatia",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34021_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601500",
+                "name": "Forget-Me-Not",
+                "qty": 8,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_077_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Resonator Nursing Unit",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Resonator Nursing Unit"
+                  }
+                ]
+              }
+            ],
+            "cost": 15000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "41100073",
+                "name": "HF Mech Core",
+                "qty": 4,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_027_UI.webp",
+                "source": "Clamorling TDs in Lahai-Roi",
+                "sourceDetails": [
+                  {
+                    "name": "Clamorling TDs in Lahai-Roi"
+                  }
+                ]
+              },
+              {
+                "id": "41400264",
+                "name": "Suncoveter's Reach",
+                "qty": 9,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_023_UI.webp",
+                "source": "Hyvatia / Hyvatia - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Hyvatia",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34021_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601500",
+                "name": "Forget-Me-Not",
+                "qty": 12,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_077_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Resonator Nursing Unit",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Resonator Nursing Unit"
+                  }
+                ]
+              }
+            ],
+            "cost": 20000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "41100073",
+                "name": "HF Mech Core",
+                "qty": 8,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_027_UI.webp",
+                "source": "Clamorling TDs in Lahai-Roi",
+                "sourceDetails": [
+                  {
+                    "name": "Clamorling TDs in Lahai-Roi"
+                  }
+                ]
+              },
+              {
+                "id": "41400264",
+                "name": "Suncoveter's Reach",
+                "qty": 12,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_023_UI.webp",
+                "source": "Hyvatia / Hyvatia - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Hyvatia",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34021_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601500",
+                "name": "Forget-Me-Not",
+                "qty": 16,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_077_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Resonator Nursing Unit",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Resonator Nursing Unit"
+                  }
+                ]
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 90,
+            "items": [
+              {
+                "id": "41100074",
+                "name": "FF Mech Core",
+                "qty": 4,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_028_UI.webp",
+                "source": "Clamorling TDs in Lahai-Roi",
+                "sourceDetails": [
+                  {
+                    "name": "Clamorling TDs in Lahai-Roi"
+                  }
+                ]
+              },
+              {
+                "id": "41400264",
+                "name": "Suncoveter's Reach",
+                "qty": 16,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_023_UI.webp",
+                "source": "Hyvatia / Hyvatia - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Hyvatia",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34021_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601500",
+                "name": "Forget-Me-Not",
+                "qty": 20,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_077_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Resonator Nursing Unit",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Resonator Nursing Unit"
+                  }
+                ]
+              }
+            ],
+            "cost": 80000
           }
         ],
         "talents": [
@@ -135255,6 +151151,312 @@
             ]
           }
         ],
+        "ascensionStages": [
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "41100061",
+                "name": "LF Exoswarm Core",
+                "qty": 4,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_021_UI.webp",
+                "source": "Exoswarm / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Exoswarm"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              }
+            ],
+            "cost": 5000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "41100062",
+                "name": "MF Exoswarm Core",
+                "qty": 4,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_022_UI.webp",
+                "source": "Exoswarm / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Exoswarm"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400284",
+                "name": "Our Choice",
+                "qty": 3,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_024_UI.webp",
+                "source": "Nameless Explorer / Nameless Explorer - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Nameless Explorer",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34026_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601490",
+                "name": "Redbell",
+                "qty": 4,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_076_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Resonator Nursing Unit",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Resonator Nursing Unit"
+                  }
+                ]
+              }
+            ],
+            "cost": 10000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "41100062",
+                "name": "MF Exoswarm Core",
+                "qty": 8,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_022_UI.webp",
+                "source": "Exoswarm / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Exoswarm"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400284",
+                "name": "Our Choice",
+                "qty": 6,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_024_UI.webp",
+                "source": "Nameless Explorer / Nameless Explorer - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Nameless Explorer",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34026_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601490",
+                "name": "Redbell",
+                "qty": 8,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_076_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Resonator Nursing Unit",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Resonator Nursing Unit"
+                  }
+                ]
+              }
+            ],
+            "cost": 15000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "41100063",
+                "name": "HF Exoswarm Core",
+                "qty": 4,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_023_UI.webp",
+                "source": "Exoswarm",
+                "sourceDetails": [
+                  {
+                    "name": "Exoswarm"
+                  }
+                ]
+              },
+              {
+                "id": "41400284",
+                "name": "Our Choice",
+                "qty": 9,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_024_UI.webp",
+                "source": "Nameless Explorer / Nameless Explorer - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Nameless Explorer",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34026_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601490",
+                "name": "Redbell",
+                "qty": 12,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_076_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Resonator Nursing Unit",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Resonator Nursing Unit"
+                  }
+                ]
+              }
+            ],
+            "cost": 20000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "41100063",
+                "name": "HF Exoswarm Core",
+                "qty": 8,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_023_UI.webp",
+                "source": "Exoswarm",
+                "sourceDetails": [
+                  {
+                    "name": "Exoswarm"
+                  }
+                ]
+              },
+              {
+                "id": "41400284",
+                "name": "Our Choice",
+                "qty": 12,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_024_UI.webp",
+                "source": "Nameless Explorer / Nameless Explorer - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Nameless Explorer",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34026_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601490",
+                "name": "Redbell",
+                "qty": 16,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_076_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Resonator Nursing Unit",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Resonator Nursing Unit"
+                  }
+                ]
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 90,
+            "items": [
+              {
+                "id": "41100064",
+                "name": "FF Exoswarm Core",
+                "qty": 4,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_024_UI.webp",
+                "source": "Exoswarm",
+                "sourceDetails": [
+                  {
+                    "name": "Exoswarm"
+                  }
+                ]
+              },
+              {
+                "id": "41400284",
+                "name": "Our Choice",
+                "qty": 16,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_024_UI.webp",
+                "source": "Nameless Explorer / Nameless Explorer - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Nameless Explorer",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34026_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601490",
+                "name": "Redbell",
+                "qty": 20,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_076_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Resonator Nursing Unit",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Resonator Nursing Unit"
+                  }
+                ]
+              }
+            ],
+            "cost": 80000
+          }
+        ],
         "talents": [
           {
             "id": "41100061",
@@ -137555,6 +153757,321 @@
             ]
           }
         ],
+        "ascensionStages": [
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "41100041",
+                "name": "LF Polygon Core",
+                "qty": 4,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_004_1_UI.webp",
+                "source": "Clamorlings or Tranquilites / Forgery Challenge / Masked Reverie",
+                "sourceDetails": [
+                  {
+                    "name": "Clamorlings or Tranquilites"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  },
+                  {
+                    "name": "Masked Reverie"
+                  }
+                ]
+              }
+            ],
+            "cost": 5000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "41100042",
+                "name": "MF Polygon Core",
+                "qty": 4,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_004_2_UI.webp",
+                "source": "Clamorlings or Tranquilites / Forgery Challenge / Masked Reverie",
+                "sourceDetails": [
+                  {
+                    "name": "Clamorlings or Tranquilites"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  },
+                  {
+                    "name": "Masked Reverie"
+                  }
+                ]
+              },
+              {
+                "id": "41400174",
+                "name": "Platinum Core",
+                "qty": 3,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_006_UI.webp",
+                "source": "Sentry Construct / Sentry Construct - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Sentry Construct",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_33012_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601150",
+                "name": "Sword Acorus",
+                "qty": 4,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_044_UI.webp",
+                "source": "Collection Spots / Rosemary's Apothecary / Overworld Collection",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Rosemary's Apothecary"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  }
+                ]
+              }
+            ],
+            "cost": 10000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "41100042",
+                "name": "MF Polygon Core",
+                "qty": 8,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_004_2_UI.webp",
+                "source": "Clamorlings or Tranquilites / Forgery Challenge / Masked Reverie",
+                "sourceDetails": [
+                  {
+                    "name": "Clamorlings or Tranquilites"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  },
+                  {
+                    "name": "Masked Reverie"
+                  }
+                ]
+              },
+              {
+                "id": "41400174",
+                "name": "Platinum Core",
+                "qty": 6,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_006_UI.webp",
+                "source": "Sentry Construct / Sentry Construct - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Sentry Construct",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_33012_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601150",
+                "name": "Sword Acorus",
+                "qty": 8,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_044_UI.webp",
+                "source": "Collection Spots / Rosemary's Apothecary / Overworld Collection",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Rosemary's Apothecary"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  }
+                ]
+              }
+            ],
+            "cost": 15000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "41100043",
+                "name": "HF Polygon Core",
+                "qty": 4,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_004_3_UI.webp",
+                "source": "Clamorlings or Tranquilites",
+                "sourceDetails": [
+                  {
+                    "name": "Clamorlings or Tranquilites"
+                  }
+                ]
+              },
+              {
+                "id": "41400174",
+                "name": "Platinum Core",
+                "qty": 9,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_006_UI.webp",
+                "source": "Sentry Construct / Sentry Construct - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Sentry Construct",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_33012_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601150",
+                "name": "Sword Acorus",
+                "qty": 12,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_044_UI.webp",
+                "source": "Collection Spots / Rosemary's Apothecary / Overworld Collection",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Rosemary's Apothecary"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  }
+                ]
+              }
+            ],
+            "cost": 20000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "41100043",
+                "name": "HF Polygon Core",
+                "qty": 8,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_004_3_UI.webp",
+                "source": "Clamorlings or Tranquilites",
+                "sourceDetails": [
+                  {
+                    "name": "Clamorlings or Tranquilites"
+                  }
+                ]
+              },
+              {
+                "id": "41400174",
+                "name": "Platinum Core",
+                "qty": 12,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_006_UI.webp",
+                "source": "Sentry Construct / Sentry Construct - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Sentry Construct",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_33012_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601150",
+                "name": "Sword Acorus",
+                "qty": 16,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_044_UI.webp",
+                "source": "Collection Spots / Rosemary's Apothecary / Overworld Collection",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Rosemary's Apothecary"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  }
+                ]
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 90,
+            "items": [
+              {
+                "id": "41100044",
+                "name": "FF Polygon Core",
+                "qty": 4,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_004_4_UI.webp",
+                "source": "Clamorlings or Tranquilites",
+                "sourceDetails": [
+                  {
+                    "name": "Clamorlings or Tranquilites"
+                  }
+                ]
+              },
+              {
+                "id": "41400174",
+                "name": "Platinum Core",
+                "qty": 16,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_006_UI.webp",
+                "source": "Sentry Construct / Sentry Construct - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Sentry Construct",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_33012_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601150",
+                "name": "Sword Acorus",
+                "qty": 20,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_044_UI.webp",
+                "source": "Collection Spots / Rosemary's Apothecary / Overworld Collection",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Rosemary's Apothecary"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  }
+                ]
+              }
+            ],
+            "cost": 80000
+          }
+        ],
         "talents": [
           {
             "id": "41100041",
@@ -139646,6 +156163,348 @@
             ]
           }
         ],
+        "ascensionStages": [
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "41100031",
+                "name": "Crude Ring",
+                "qty": 4,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_1_UI.webp",
+                "source": "Exiles / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Exile",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              }
+            ],
+            "cost": 5000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "41100032",
+                "name": "Basic Ring",
+                "qty": 4,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_2_UI.webp",
+                "source": "Exiles / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Exile",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400154",
+                "name": "Topological Confinement",
+                "qty": 3,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_015_UI.webp",
+                "source": "Fallacy of No Return / Fallacy of No Return - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Fallacy of No Return",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_350_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300100",
+                "name": "Violet Coral",
+                "qty": 4,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_Sep_061_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Norfall Barrens / Wuming Bay / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Norfall Barrens"
+                  },
+                  {
+                    "name": "Wuming Bay"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 10000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "41100032",
+                "name": "Basic Ring",
+                "qty": 8,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_2_UI.webp",
+                "source": "Exiles / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Exile",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400154",
+                "name": "Topological Confinement",
+                "qty": 6,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_015_UI.webp",
+                "source": "Fallacy of No Return / Fallacy of No Return - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Fallacy of No Return",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_350_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300100",
+                "name": "Violet Coral",
+                "qty": 8,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_Sep_061_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Norfall Barrens / Wuming Bay / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Norfall Barrens"
+                  },
+                  {
+                    "name": "Wuming Bay"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 15000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "41100033",
+                "name": "Improved Ring",
+                "qty": 4,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_3_UI.webp",
+                "source": "Exiles",
+                "sourceDetails": [
+                  {
+                    "name": "Exile",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "41400154",
+                "name": "Topological Confinement",
+                "qty": 9,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_015_UI.webp",
+                "source": "Fallacy of No Return / Fallacy of No Return - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Fallacy of No Return",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_350_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300100",
+                "name": "Violet Coral",
+                "qty": 12,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_Sep_061_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Norfall Barrens / Wuming Bay / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Norfall Barrens"
+                  },
+                  {
+                    "name": "Wuming Bay"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 20000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "41100033",
+                "name": "Improved Ring",
+                "qty": 8,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_3_UI.webp",
+                "source": "Exiles",
+                "sourceDetails": [
+                  {
+                    "name": "Exile",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "41400154",
+                "name": "Topological Confinement",
+                "qty": 12,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_015_UI.webp",
+                "source": "Fallacy of No Return / Fallacy of No Return - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Fallacy of No Return",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_350_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300100",
+                "name": "Violet Coral",
+                "qty": 16,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_Sep_061_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Norfall Barrens / Wuming Bay / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Norfall Barrens"
+                  },
+                  {
+                    "name": "Wuming Bay"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 90,
+            "items": [
+              {
+                "id": "41100034",
+                "name": "Tailored Ring",
+                "qty": 4,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_003_4_UI.webp",
+                "source": "Exiles",
+                "sourceDetails": [
+                  {
+                    "name": "Exile",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_977_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "41400154",
+                "name": "Topological Confinement",
+                "qty": 16,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_015_UI.webp",
+                "source": "Fallacy of No Return / Fallacy of No Return - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Fallacy of No Return",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_350_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300100",
+                "name": "Violet Coral",
+                "qty": 20,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_Sep_061_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Norfall Barrens / Wuming Bay / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Norfall Barrens"
+                  },
+                  {
+                    "name": "Wuming Bay"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 80000
+          }
+        ],
         "talents": [
           {
             "id": "41100031",
@@ -141571,6 +158430,327 @@
                 "name": "Shifang Pharmacy"
               }
             ]
+          }
+        ],
+        "ascensionStages": [
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "41100021",
+                "name": "LF Howler Core",
+                "qty": 4,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_1_UI.webp",
+                "source": "Howlers / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Howlers"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              }
+            ],
+            "cost": 5000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "41100022",
+                "name": "MF Howler Core",
+                "qty": 4,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+                "source": "Howlers / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Howlers"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400074",
+                "name": "Sound-Keeping Tacet Core",
+                "qty": 3,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_007_UI.webp",
+                "source": "Lampylumen Myriad / Lampylumen Myriad - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Lampylumen Myriad",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_994_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300050",
+                "name": "Lanternberry",
+                "qty": 4,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_denglongguo_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Tiger's Maw Mine / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Tiger's Maw Mine"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 10000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "41100022",
+                "name": "MF Howler Core",
+                "qty": 8,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+                "source": "Howlers / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Howlers"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400074",
+                "name": "Sound-Keeping Tacet Core",
+                "qty": 6,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_007_UI.webp",
+                "source": "Lampylumen Myriad / Lampylumen Myriad - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Lampylumen Myriad",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_994_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300050",
+                "name": "Lanternberry",
+                "qty": 8,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_denglongguo_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Tiger's Maw Mine / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Tiger's Maw Mine"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 15000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "41100023",
+                "name": "HF Howler Core",
+                "qty": 4,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+                "source": "Howlers",
+                "sourceDetails": [
+                  {
+                    "name": "Howlers"
+                  }
+                ]
+              },
+              {
+                "id": "41400074",
+                "name": "Sound-Keeping Tacet Core",
+                "qty": 9,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_007_UI.webp",
+                "source": "Lampylumen Myriad / Lampylumen Myriad - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Lampylumen Myriad",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_994_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300050",
+                "name": "Lanternberry",
+                "qty": 12,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_denglongguo_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Tiger's Maw Mine / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Tiger's Maw Mine"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 20000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "41100023",
+                "name": "HF Howler Core",
+                "qty": 8,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+                "source": "Howlers",
+                "sourceDetails": [
+                  {
+                    "name": "Howlers"
+                  }
+                ]
+              },
+              {
+                "id": "41400074",
+                "name": "Sound-Keeping Tacet Core",
+                "qty": 12,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_007_UI.webp",
+                "source": "Lampylumen Myriad / Lampylumen Myriad - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Lampylumen Myriad",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_994_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300050",
+                "name": "Lanternberry",
+                "qty": 16,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_denglongguo_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Tiger's Maw Mine / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Tiger's Maw Mine"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 90,
+            "items": [
+              {
+                "id": "41100024",
+                "name": "FF Howler Core",
+                "qty": 4,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_4_UI.webp",
+                "source": "Howlers",
+                "sourceDetails": [
+                  {
+                    "name": "Howlers"
+                  }
+                ]
+              },
+              {
+                "id": "41400074",
+                "name": "Sound-Keeping Tacet Core",
+                "qty": 16,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_007_UI.webp",
+                "source": "Lampylumen Myriad / Lampylumen Myriad - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Lampylumen Myriad",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_994_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300050",
+                "name": "Lanternberry",
+                "qty": 20,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_denglongguo_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Tiger's Maw Mine / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Tiger's Maw Mine"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 80000
           }
         ],
         "talents": [
@@ -143560,6 +160740,342 @@
             ]
           }
         ],
+        "ascensionStages": [
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "41100011",
+                "name": "LF Whisperin Core",
+                "qty": 4,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_1_UI.webp",
+                "source": "Whisperins / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              }
+            ],
+            "cost": 5000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "41100012",
+                "name": "MF Whisperin Core",
+                "qty": 4,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_2_UI.webp",
+                "source": "Whisperins / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400074",
+                "name": "Sound-Keeping Tacet Core",
+                "qty": 3,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_007_UI.webp",
+                "source": "Lampylumen Myriad / Lampylumen Myriad - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Lampylumen Myriad",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_994_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300080",
+                "name": "Coriolus",
+                "qty": 4,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_30A_UI.webp",
+                "source": "Overworld Collection / Giant Banyan / Forbidden Forest / Shifang Pharmacy / Collection Spots",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Giant Banyan"
+                  },
+                  {
+                    "name": "Forbidden Forest"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  }
+                ]
+              }
+            ],
+            "cost": 10000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "41100012",
+                "name": "MF Whisperin Core",
+                "qty": 8,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_2_UI.webp",
+                "source": "Whisperins / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400074",
+                "name": "Sound-Keeping Tacet Core",
+                "qty": 6,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_007_UI.webp",
+                "source": "Lampylumen Myriad / Lampylumen Myriad - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Lampylumen Myriad",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_994_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300080",
+                "name": "Coriolus",
+                "qty": 8,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_30A_UI.webp",
+                "source": "Overworld Collection / Giant Banyan / Forbidden Forest / Shifang Pharmacy / Collection Spots",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Giant Banyan"
+                  },
+                  {
+                    "name": "Forbidden Forest"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  }
+                ]
+              }
+            ],
+            "cost": 15000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "41100013",
+                "name": "HF Whisperin Core",
+                "qty": 4,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_3_UI.webp",
+                "source": "Whisperins",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  }
+                ]
+              },
+              {
+                "id": "41400074",
+                "name": "Sound-Keeping Tacet Core",
+                "qty": 9,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_007_UI.webp",
+                "source": "Lampylumen Myriad / Lampylumen Myriad - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Lampylumen Myriad",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_994_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300080",
+                "name": "Coriolus",
+                "qty": 12,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_30A_UI.webp",
+                "source": "Overworld Collection / Giant Banyan / Forbidden Forest / Shifang Pharmacy / Collection Spots",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Giant Banyan"
+                  },
+                  {
+                    "name": "Forbidden Forest"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  }
+                ]
+              }
+            ],
+            "cost": 20000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "41100013",
+                "name": "HF Whisperin Core",
+                "qty": 8,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_3_UI.webp",
+                "source": "Whisperins",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  }
+                ]
+              },
+              {
+                "id": "41400074",
+                "name": "Sound-Keeping Tacet Core",
+                "qty": 12,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_007_UI.webp",
+                "source": "Lampylumen Myriad / Lampylumen Myriad - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Lampylumen Myriad",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_994_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300080",
+                "name": "Coriolus",
+                "qty": 16,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_30A_UI.webp",
+                "source": "Overworld Collection / Giant Banyan / Forbidden Forest / Shifang Pharmacy / Collection Spots",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Giant Banyan"
+                  },
+                  {
+                    "name": "Forbidden Forest"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  }
+                ]
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 90,
+            "items": [
+              {
+                "id": "41100014",
+                "name": "FF Whisperin Core",
+                "qty": 4,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_4_UI.webp",
+                "source": "Whisperins",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  }
+                ]
+              },
+              {
+                "id": "41400074",
+                "name": "Sound-Keeping Tacet Core",
+                "qty": 16,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_007_UI.webp",
+                "source": "Lampylumen Myriad / Lampylumen Myriad - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Lampylumen Myriad",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_994_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300080",
+                "name": "Coriolus",
+                "qty": 20,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_30A_UI.webp",
+                "source": "Overworld Collection / Giant Banyan / Forbidden Forest / Shifang Pharmacy / Collection Spots",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Giant Banyan"
+                  },
+                  {
+                    "name": "Forbidden Forest"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  }
+                ]
+              }
+            ],
+            "cost": 80000
+          }
+        ],
         "talents": [
           {
             "id": "41100011",
@@ -145247,6 +162763,327 @@
                 "name": "Shifang Pharmacy"
               }
             ]
+          }
+        ],
+        "ascensionStages": [
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "41100021",
+                "name": "LF Howler Core",
+                "qty": 4,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_1_UI.webp",
+                "source": "Howlers / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Howlers"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              }
+            ],
+            "cost": 5000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "41100022",
+                "name": "MF Howler Core",
+                "qty": 4,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+                "source": "Howlers / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Howlers"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400074",
+                "name": "Sound-Keeping Tacet Core",
+                "qty": 3,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_007_UI.webp",
+                "source": "Lampylumen Myriad / Lampylumen Myriad - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Lampylumen Myriad",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_994_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300050",
+                "name": "Lanternberry",
+                "qty": 4,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_denglongguo_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Tiger's Maw Mine / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Tiger's Maw Mine"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 10000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "41100022",
+                "name": "MF Howler Core",
+                "qty": 8,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+                "source": "Howlers / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Howlers"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400074",
+                "name": "Sound-Keeping Tacet Core",
+                "qty": 6,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_007_UI.webp",
+                "source": "Lampylumen Myriad / Lampylumen Myriad - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Lampylumen Myriad",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_994_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300050",
+                "name": "Lanternberry",
+                "qty": 8,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_denglongguo_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Tiger's Maw Mine / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Tiger's Maw Mine"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 15000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "41100023",
+                "name": "HF Howler Core",
+                "qty": 4,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+                "source": "Howlers",
+                "sourceDetails": [
+                  {
+                    "name": "Howlers"
+                  }
+                ]
+              },
+              {
+                "id": "41400074",
+                "name": "Sound-Keeping Tacet Core",
+                "qty": 9,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_007_UI.webp",
+                "source": "Lampylumen Myriad / Lampylumen Myriad - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Lampylumen Myriad",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_994_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300050",
+                "name": "Lanternberry",
+                "qty": 12,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_denglongguo_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Tiger's Maw Mine / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Tiger's Maw Mine"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 20000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "41100023",
+                "name": "HF Howler Core",
+                "qty": 8,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+                "source": "Howlers",
+                "sourceDetails": [
+                  {
+                    "name": "Howlers"
+                  }
+                ]
+              },
+              {
+                "id": "41400074",
+                "name": "Sound-Keeping Tacet Core",
+                "qty": 12,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_007_UI.webp",
+                "source": "Lampylumen Myriad / Lampylumen Myriad - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Lampylumen Myriad",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_994_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300050",
+                "name": "Lanternberry",
+                "qty": 16,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_denglongguo_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Tiger's Maw Mine / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Tiger's Maw Mine"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 90,
+            "items": [
+              {
+                "id": "41100024",
+                "name": "FF Howler Core",
+                "qty": 4,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_4_UI.webp",
+                "source": "Howlers",
+                "sourceDetails": [
+                  {
+                    "name": "Howlers"
+                  }
+                ]
+              },
+              {
+                "id": "41400074",
+                "name": "Sound-Keeping Tacet Core",
+                "qty": 16,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_007_UI.webp",
+                "source": "Lampylumen Myriad / Lampylumen Myriad - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Lampylumen Myriad",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_994_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300050",
+                "name": "Lanternberry",
+                "qty": 20,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_denglongguo_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Tiger's Maw Mine / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Tiger's Maw Mine"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 80000
           }
         ],
         "talents": [
@@ -147015,6 +164852,327 @@
                 "name": "Shifang Pharmacy"
               }
             ]
+          }
+        ],
+        "ascensionStages": [
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "41100011",
+                "name": "LF Whisperin Core",
+                "qty": 4,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_1_UI.webp",
+                "source": "Whisperins / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              }
+            ],
+            "cost": 5000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "41100012",
+                "name": "MF Whisperin Core",
+                "qty": 4,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_2_UI.webp",
+                "source": "Whisperins / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400074",
+                "name": "Sound-Keeping Tacet Core",
+                "qty": 3,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_007_UI.webp",
+                "source": "Lampylumen Myriad / Lampylumen Myriad - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Lampylumen Myriad",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_994_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300090",
+                "name": "Wintry Bell",
+                "qty": 4,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_31A_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Bell-Borne Ravine / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Bell-Borne Ravine"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 10000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "41100012",
+                "name": "MF Whisperin Core",
+                "qty": 8,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_2_UI.webp",
+                "source": "Whisperins / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400074",
+                "name": "Sound-Keeping Tacet Core",
+                "qty": 6,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_007_UI.webp",
+                "source": "Lampylumen Myriad / Lampylumen Myriad - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Lampylumen Myriad",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_994_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300090",
+                "name": "Wintry Bell",
+                "qty": 8,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_31A_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Bell-Borne Ravine / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Bell-Borne Ravine"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 15000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "41100013",
+                "name": "HF Whisperin Core",
+                "qty": 4,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_3_UI.webp",
+                "source": "Whisperins",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  }
+                ]
+              },
+              {
+                "id": "41400074",
+                "name": "Sound-Keeping Tacet Core",
+                "qty": 9,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_007_UI.webp",
+                "source": "Lampylumen Myriad / Lampylumen Myriad - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Lampylumen Myriad",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_994_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300090",
+                "name": "Wintry Bell",
+                "qty": 12,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_31A_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Bell-Borne Ravine / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Bell-Borne Ravine"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 20000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "41100013",
+                "name": "HF Whisperin Core",
+                "qty": 8,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_3_UI.webp",
+                "source": "Whisperins",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  }
+                ]
+              },
+              {
+                "id": "41400074",
+                "name": "Sound-Keeping Tacet Core",
+                "qty": 12,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_007_UI.webp",
+                "source": "Lampylumen Myriad / Lampylumen Myriad - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Lampylumen Myriad",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_994_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300090",
+                "name": "Wintry Bell",
+                "qty": 16,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_31A_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Bell-Borne Ravine / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Bell-Borne Ravine"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 90,
+            "items": [
+              {
+                "id": "41100014",
+                "name": "FF Whisperin Core",
+                "qty": 4,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_4_UI.webp",
+                "source": "Whisperins",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  }
+                ]
+              },
+              {
+                "id": "41400074",
+                "name": "Sound-Keeping Tacet Core",
+                "qty": 16,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_007_UI.webp",
+                "source": "Lampylumen Myriad / Lampylumen Myriad - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Lampylumen Myriad",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_994_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300090",
+                "name": "Wintry Bell",
+                "qty": 20,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_31A_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Bell-Borne Ravine / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Bell-Borne Ravine"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 80000
           }
         ],
         "talents": [

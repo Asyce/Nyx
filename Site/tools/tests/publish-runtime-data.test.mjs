@@ -71,6 +71,20 @@ async function fixture() {
       achievements:[{ id:game === 'gi' ? '80091' : '4010101', categoryId:'1', name:'First achievement', description:'Complete a first step.', reward:5, version:'1.0', sortOrder:1 }],
     }));
   }
+  // Genshin character stories: one record per character plus an index, the
+  // source of /data/story/gi for the Story tab.
+  const storyDir = path.join(root, 'Database', 'CharacterStory', 'gi');
+  await fs.mkdir(storyDir, { recursive:true });
+  await fs.writeFile(path.join(storyDir, '10000150.json'), JSON.stringify({
+    schemaVersion:1, game:'gi', id:'gi-10000150', name:'Odette',
+    stories:[{ title:'Character Details', text:'A dancer.' }, { title:'Character Story 1', text:'More.', unlock:['Unlocks at Friendship Lv. 2'] }],
+    quotes:[{ title:'Hello', text:'Thanks for the support.' }],
+    va:[{ language:'english', name:'Alexis Tipton' }],
+  }));
+  await fs.writeFile(path.join(storyDir, 'index.json'), JSON.stringify({
+    schemaVersion:1, game:'gi', count:1,
+    entries:[{ id:'gi-10000150', key:'10000150', name:'Odette', stories:2, quotes:1 }],
+  }));
   const historyDir = path.join(root, 'Database', 'BannerHistory');
   const activityDir = path.join(root, 'Database', 'Activities');
   await fs.mkdir(historyDir, { recursive:true }); await fs.mkdir(activityDir, { recursive:true });
@@ -83,9 +97,9 @@ async function fixture() {
 test('publisher allowlists library data and writes verified manifest metadata', async () => {
   const rootDir = await fixture();
   const manifest = await publishRuntimeData({ rootDir, maxBytes:4096 });
-  assert.equal(manifest.files.length, 24);
+  assert.equal(manifest.files.length, 26);
   for (const entry of manifest.files) {
-    assert.match(entry.url, /^(?:\/data\/(?:library\/(?:gi|hsr)\/|achievements\/(?:gi|hsr)\/|banner-history\/|activities\/)|\/assets\/achievements\/(?:gi|hsr)\/(?:categories|rewards)\/)/);
+    assert.match(entry.url, /^(?:\/data\/(?:library\/(?:gi|hsr)\/|story\/gi\/|achievements\/(?:gi|hsr)\/|banner-history\/|activities\/)|\/assets\/achievements\/(?:gi|hsr)\/(?:categories|rewards)\/)/);
     assert.match(entry.sha256, /^[a-f0-9]{64}$/);
     assert.ok(entry.size > 0);
     assert.doesNotThrow(() => new Date(entry.dataTimestamp).toISOString());
@@ -251,7 +265,7 @@ async function withEvents(rootDir, gameToPayload) {
 test('publisher is unaffected when Events is absent (still-optional family)', async () => {
   const rootDir = await fixture();
   const manifest = await publishRuntimeData({ rootDir, maxBytes:4096 });
-  assert.equal(manifest.files.length, 24);
+  assert.equal(manifest.files.length, 26);
   assert.ok(!manifest.files.some((f) => f.url.startsWith('/data/events/')));
 });
 
@@ -265,7 +279,7 @@ test('publisher includes and validates Events when present, keyed by the backend
     endfield: { schemaVersion:1, game:'endfield', generatedAt:'2026-07-12T00:00:00Z', events:[] },
   });
   const manifest = await publishRuntimeData({ rootDir, maxBytes:4096 });
-  assert.equal(manifest.files.length, 31);
+  assert.equal(manifest.files.length, 33);
   const eventUrls = manifest.files.filter((f) => f.url.startsWith('/data/events/')).map((f) => f.url).sort();
   assert.deepEqual(eventUrls, ['/data/events/endfield.json', '/data/events/gi.json', '/data/events/history-state.json', '/data/events/hsr.json', '/data/events/manifest.json', '/data/events/wuwa.json', '/data/events/zzz.json']);
 });
@@ -298,4 +312,34 @@ test('publisher rejects an incomplete Events family (present dir, missing a requ
   const rootDir = await fixture();
   await withEvents(rootDir, { gi: { schemaVersion:1, game:'gi', events:[] } });
   await assert.rejects(publishRuntimeData({ rootDir, maxBytes:4096 }), /Runtime Events is missing hsr\.json/);
+});
+
+test('publisher validates character stories against their index and allowlists the story tree', async () => {
+  // /data/story is fetched per character by the Story tab, so a record that
+  // disagrees with the index would surface as a silently wrong page.
+  let rootDir = await fixture();
+  const storyDir = path.join(rootDir, 'Database', 'CharacterStory', 'gi');
+  const record = JSON.parse(await fs.readFile(path.join(storyDir, '10000150.json')));
+
+  await fs.writeFile(path.join(storyDir, '10000150.json'), JSON.stringify({ ...record, quotes:[] }));
+  await assert.rejects(publishRuntimeData({ rootDir, maxBytes:4096 }), /does not match its index counts/);
+
+  rootDir = await fixture();
+  await fs.writeFile(path.join(rootDir, 'Database', 'CharacterStory', 'gi', 'evil.svg'), '<svg/>');
+  await assert.rejects(publishRuntimeData({ rootDir, maxBytes:4096 }), /non-allowlisted/);
+
+  rootDir = await fixture();
+  await fs.rm(path.join(rootDir, 'Database', 'CharacterStory', 'gi', '10000150.json'));
+  await assert.rejects(publishRuntimeData({ rootDir, maxBytes:4096 }), /missing record/);
+
+  rootDir = await fixture();
+  const indexFile = path.join(rootDir, 'Database', 'CharacterStory', 'gi', 'index.json');
+  const index = JSON.parse(await fs.readFile(indexFile));
+  index.entries[0].key = '../../secrets';
+  await fs.writeFile(indexFile, JSON.stringify(index));
+  await assert.rejects(publishRuntimeData({ rootDir, maxBytes:4096 }), /unsafe key/);
+
+  rootDir = await fixture();
+  await fs.rm(path.join(rootDir, 'Database', 'CharacterStory'), { recursive:true });
+  await assert.rejects(publishRuntimeData({ rootDir, maxBytes:4096 }), /CharacterStory source is missing/);
 });

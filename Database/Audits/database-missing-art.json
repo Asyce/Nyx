@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T16:14:47.028Z",
+  "generatedAt": "2026-08-14T15:01:05.189Z",
   "policy": "Every generated Database row is counted. Released rows remain visible when art or description is missing; only rows with no usable localized display name or proven internal/test provenance are quarantined.",
   "coverage": {
     "before": {
@@ -8,7 +8,7 @@
         "lazy",
         "special"
       ],
-      "summaryCount": 31,
+      "summaryCount": 32,
       "missingArtCount": 800,
       "quarantinedCount": 492
     },
@@ -399,13 +399,13 @@
       "scope": "special",
       "game": "gi",
       "collection": "gallery-portraits",
-      "sourceCount": 177,
-      "normalizedCount": 177,
+      "sourceCount": 180,
+      "normalizedCount": 180,
       "quarantinedCount": 0,
       "routedCount": 0,
-      "approvedSourceCount": 177,
-      "generatedCount": 177,
-      "localArtCount": 177,
+      "approvedSourceCount": 180,
+      "generatedCount": 180,
+      "localArtCount": 180,
       "missingArtCount": 0
     },
     {

@@ -359,11 +359,24 @@ test('Genshin Items routes duplicate tabs, currencies, Gallery, and Pot from sou
     const file = path.resolve(root, row.art.replace(/^\.\.\/\.\.\//, ''));
     assert.equal(fs.readFileSync(file).subarray(8, 12).toString(), 'WEBP', row.name);
   }
+  // Portraits merge three sources instead of taking only the wiki manifest
+  // (user 2026-08-14): the manifest lags each release, so a non-empty manifest
+  // used to discard every roster-derived portrait — Odette had a splash art and
+  // a namecard in the gallery but no portrait. Every manifest entry still has
+  // to survive the merge, and the roster fills the gaps.
   const avatarManifest = readJson('Database/GenshinWiki/avatars/manifest.json');
-  assert.equal(nyx.gallery.portraits.length, avatarManifest.entries.length);
+  assert.ok(nyx.gallery.portraits.length >= avatarManifest.entries.length, 'the wiki manifest is never dropped');
+  const portraitNames = new Set(nyx.gallery.portraits.map((row) => row.name));
+  assert.equal(new Set(nyx.gallery.portraits.map((row) => row.id)).size, nyx.gallery.portraits.length, 'portrait ids are unique');
   for (const name of ['Diligent Study', 'Vigorous Yapping', 'Provisional Head Priestess of the Asase Shrine', 'Ann & Mary-Ann']) {
-    assert.equal(nyx.gallery.portraits.some((row) => row.name === name), true, name);
+    assert.equal(portraitNames.has(name), true, name);
   }
+  // The roster is newest-first, so the front of it is exactly where the wiki
+  // manifest lags — Odette had no portrait at all before the merge.
+  for (const row of nyx.roster.slice(0, 12)) {
+    assert.equal(portraitNames.has(row.name), true, `${row.name} has a portrait even before the wiki catches up`);
+  }
+  assert.equal(nyx.gallery.portraits.every((row) => row.art), true, 'every portrait has art');
   assert.equal(nyx.gallery.avatarFrames.length, Object.values(raw).filter((row) => row.material_type === 'MATERIAL_PROFILE_FRAME').length);
   assert.equal(nyx.gallery.splashArts.length, nyx.roster.length);
   assert.equal(nyx.gallery.splashArts.every((row) => row.art), true);

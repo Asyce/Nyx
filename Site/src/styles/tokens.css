@@ -25,6 +25,15 @@
   --nyx-color-character-hover:#c18cff;
   --nyx-color-character-hover-glow:rgba(193,140,255,.86);
   --nyx-color-sim-element:#9a72e8;
+  /* Character-kit emphasis (user 2026-08-14): the highlighted terms and
+     section headings inside a kit description used to be gold, which read as a
+     warning next to the element colours. Bright blue-purple instead — clearly
+     "look here" without competing with Pyro/Geo/Imaginary gold text. */
+  --nyx-color-kit-term:#8f9dff;
+  --nyx-rgb-kit-term:143,157,255;
+  /* Level sliders on the kit and materials tabs. Was --nyx-color-info (cyan),
+     which was the only blue control left on the character page. */
+  --nyx-color-kit-level:#8b7bff;
   /* Stable aliases also reach React portals mounted outside the game shell. */
   --accent:var(--nyx-color-accent);
   --accent-bright:var(--nyx-color-accent-bright);

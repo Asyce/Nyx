@@ -17,7 +17,9 @@ const {
   scrapeGame8RoadmapCharacters,
   scrapeGame8UpcomingCharacters,
   SourceUnavailableError,
+  selectRoadmapRows,
   teaserSnapshot,
+  GAMES,
   runCli
 } = require('../scrape.cjs');
 const { requiredBannerFreshnessFailures } = require('../normalize.cjs');
@@ -339,4 +341,34 @@ test('teaser art download stops no-length oversized streams and times out stalle
       releaseLock() {},
     }),
   }), /timed out after 10ms/);
+});
+
+test('story-only roadmap names are dropped and the pinned pair is flagged', () => {
+  // game8 lists story NPCs beside real upcoming units, and the parser now
+  // trusts art identity rather than a manual allowlist — so the denylist is
+  // the only thing keeping names nobody expects to play off the board.
+  const genshin = GAMES.find((game) => game.id === 'genshin');
+  const rows = selectRoadmapRows([
+    { name:'Vesna' }, { name:'Noy' },
+    { name:'Pantalone' }, { name:'Rerir' }, { name:'Pulcinella' }, { name:'Pierro' },
+    { name:'Dainsleif' }, { name:'Alice' },
+  ], genshin);
+
+  assert.deepEqual(rows.filter((row) => !row.pinned).map((row) => row.name), ['Vesna', 'Noy']);
+  // Pinned rows stay in the scrape so their teaser art is localized with
+  // everyone else's; the site data splits them out for display.
+  assert.deepEqual(rows.filter((row) => row.pinned).map((row) => row.name), ['Dainsleif', 'Alice']);
+});
+
+test('a pinned name outranks the caller-supplied exclusion set', () => {
+  // `excluded` holds names already shown in a live or next phase. A pin is a
+  // deliberate editorial choice and is not subject to it.
+  const genshin = GAMES.find((game) => game.id === 'genshin');
+  const rows = selectRoadmapRows(
+    [{ name:'Dainsleif' }, { name:'Vesna' }],
+    genshin,
+    new Set(['dainsleif', 'vesna']),
+  );
+
+  assert.deepEqual(rows.map((row) => `${row.name}:${row.pinned ? 'pinned' : 'plain'}`), ['Dainsleif:pinned']);
 });

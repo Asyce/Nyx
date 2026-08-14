@@ -525,10 +525,52 @@ async function handleLegacyDatabaseAsset(request, env, url) {
   });
 }
 
+// Gallery art lives on assets.pengo.gg, and the page CSP is `connect-src
+// 'self'` — so the browser can DISPLAY an asset but cannot read its bytes. The
+// gallery lightbox needs the bytes to offer Download and Copy-image, so this
+// streams a single asset back through the site's own origin.
+//
+// Deliberately narrow: only the content-addressed object layout the asset
+// pipeline emits (objects/sha256/<2 hex>/<64 hex>.<ext>, see
+// buildDatabaseAssetEntry in Site/tools/database-assets.mjs). No user-supplied
+// host, no path traversal, no arbitrary key — anything else is a 400, so this
+// cannot be turned into an open proxy.
+const DATABASE_OBJECT_KEY_RE = /^objects\/sha256\/[0-9a-f]{2}\/[0-9a-f]{64}\.(?:png|jpe?g|webp|gif|avif)$/;
+const DATABASE_ASSET_PROXY_PREFIX = '/api/asset/';
+
+async function handleDatabaseAssetProxy(request, env, url) {
+  if (request.method !== 'GET' && request.method !== 'HEAD') {
+    return new Response('Method not allowed', { status: 405, headers: { Allow: 'GET, HEAD' } });
+  }
+  let key;
+  try { key = decodeURIComponent(url.pathname.slice(DATABASE_ASSET_PROXY_PREFIX.length)); } catch { return new Response('Bad asset key', { status: 400 }); }
+  if (!DATABASE_OBJECT_KEY_RE.test(key)) return new Response('Bad asset key', { status: 400 });
+
+  const upstream = await fetch(`${DATABASE_ASSET_ORIGIN}/${encodedAssetKey(key)}`, {
+    method: request.method,
+    headers: { Accept: request.headers.get('Accept') || 'image/*' },
+    redirect: 'follow',
+  });
+  if (!upstream.ok) return new Response('Asset not found', { status: upstream.status === 404 ? 404 : 502 });
+
+  const headers = new Headers();
+  const type = upstream.headers.get('Content-Type');
+  if (type) headers.set('Content-Type', type);
+  const length = upstream.headers.get('Content-Length');
+  if (length) headers.set('Content-Length', length);
+  headers.set('Cache-Control', 'public, max-age=86400, immutable');
+  headers.set('X-Content-Type-Options', 'nosniff');
+  // Same-origin only. The point of this route is to satisfy `connect-src
+  // 'self'` for our own page, not to hand the assets to other sites.
+  headers.set('Vary', 'Accept');
+  return new Response(request.method === 'HEAD' ? null : upstream.body, { status: 200, headers });
+}
+
 export default {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
 
+    if (url.pathname.startsWith(DATABASE_ASSET_PROXY_PREFIX)) return handleDatabaseAssetProxy(request, env, url);
     if (url.pathname.startsWith('/Database/')) return handleLegacyDatabaseAsset(request, env, url);
 
     if (url.pathname === '/api/gacha/genshin') return handleHoyoGacha(request, 'genshin', env);

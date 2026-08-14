@@ -731,10 +731,31 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
 }
 .gp-ovb-heading.is-blank{ visibility:hidden; }
 .gp-ovb-body{ min-width:0; min-height:268px; display:flex; flex-direction:column; gap:var(--nyx-space-8); }
+/* The Announced column is a list of unknown length, and every column in this
+   grid stretches to the tallest one. Genshin's list ran to eleven names and
+   dragged the headline banner cards from ~200px to over 600px — three times
+   the size the same card has on HSR (user 2026-08-14). Capping this one column
+   and letting it scroll takes it out of the height calculation, so the phase
+   columns size to their own content again. */
+.gp-ovb-col.is-announced .gp-ovb-body{ max-height:340px; }
+.gp-ovb-scroll{ min-height:0; flex:1 1 auto; overflow-y:auto; display:flex; flex-direction:column; gap:var(--nyx-space-8);
+  scrollbar-width:thin; scrollbar-color:var(--nyx-color-border-active) transparent; }
+/* Pins live outside the scroller so they are always visible at the foot of the
+   column and never push the cap. They are a running joke, not schedule data,
+   so they run at two thirds the height of a real row and leave the space to
+   the entries that mean something. */
+.gp-ovb-pins{ flex:0 0 auto; display:flex; flex-direction:column; gap:var(--nyx-space-6); margin-top:var(--nyx-space-2); }
+.gp-ovb-pins .gp-ovb-row{ min-height:40px; opacity:.6; }
+.gp-ovb-pins .gp-ovb-row img{ width:28px; height:28px; }
+.gp-ovb-pins .gp-ovb-row-body{ padding:var(--nyx-space-4) var(--nyx-space-10); gap:var(--nyx-space-8); }
+.gp-ovb-pins .gp-ovb-row b{ font-size:calc(var(--nyx-compat-size-13px) * var(--fit, 1)); }
+.gp-ovb-pins .gp-ovb-row-art{ display:none; }
 /* Upcoming rows keep their own height instead of stretching to fill the column
    (user 2026-08-09): a row is exactly its 44px icon plus padding, so four or
    five fit in the space that used to hold two. */
-.gp-ovb-body > .gp-ovb-row{ flex:0 0 auto; }
+.gp-ovb-body > .gp-ovb-row,
+.gp-ovb-scroll > .gp-ovb-row,
+.gp-ovb-pins > .gp-ovb-row{ flex:0 0 auto; }
 /* The card is a flex column so its body fills the stretched height — without
    this the body keeps its content height and the countdown footer rides up
    under the name instead of sitting at the bottom. */
@@ -872,6 +893,17 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
 }
 .gp-ovb-row.st-next,
 .gp-ovb-row.st-upcoming{ opacity:.86; }
+/* Name plus an optional sub-line ("copium" on the pinned Dainsleif/Alice). */
+.gp-ovb-row-text{ min-width:0; flex:1; display:flex; flex-direction:column; justify-content:center; }
+.gp-ovb-row.has-note b{ flex:0 0 auto; }
+.gp-ovb-row-note{
+  font-family:var(--nyx-font-display);
+  font-size:var(--nyx-type-caption);
+  font-style:normal;
+  letter-spacing:var(--nyx-compat-tracking-p12em);
+  text-transform:uppercase;
+  color:var(--nyx-color-text-faint);
+}
 .gp-ovb-note{
   flex:0 0 auto;
   min-width:0;
@@ -5279,6 +5311,43 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 .gallery-grid.is-portraits .gallery-art img,.gallery-grid.is-avatarFrames .gallery-art img,.gallery-grid.is-splashArts .gallery-art img{ object-fit:contain; padding:0; }
 .gallery-card figcaption{ min-width:0; display:grid; gap:var(--nyx-space-2); }
 .gallery-card figcaption b{ color:var(--nyx-color-heading); font-size:var(--nyx-type-body); line-height:1.2; overflow-wrap:anywhere; }
+/* Every tile opens the lightbox, so the art frame is a button now. It has to
+   keep looking exactly like the old div. */
+.gallery-art.is-open{ border:0; padding:0; cursor:zoom-in; font:inherit; color:inherit; }
+.gallery-art.is-open:focus-visible{ outline:var(--nyx-focus-ring); outline-offset:var(--nyx-focus-offset); }
+.gallery-art.is-open:hover img{ transform:scale(1.03); }
+.gallery-art.is-open img{ transition:transform .18s ease; }
+
+/* ---- Gallery lightbox ----
+   Shares .db-modal / .db-modal-card for the backdrop, focus trap styling and
+   close button, but not its two-column media+copy layout: here the art is the
+   whole point, so the card is one wide column. Selectors are doubled up
+   (.db-modal-card.gallery-lightbox-card) to win over the base rule, which is
+   defined further down the file. */
+.db-modal-card.gallery-lightbox-card{ width:min(1100px, 100%); display:grid; grid-template-columns:minmax(0, 1fr);
+  gap:var(--nyx-space-16); }
+.gallery-lightbox-art{ min-height:0; display:grid; place-items:center; }
+.gallery-lightbox-art img{ max-width:100%; max-height:min(70vh, 720px); width:auto; height:auto; object-fit:contain;
+  border-radius:var(--nyx-radius-card); image-rendering:auto; }
+/* Show the asset at its real resolution rather than upscaling a small icon. */
+.gallery-lightbox-art img[src]{ min-width:0; }
+.gallery-lightbox-art span{ color:var(--nyx-compat-color-hex-f5f1ff); font-family:var(--nyx-font-display); font-size:var(--nyx-compat-size-42px); }
+.gallery-lightbox-copy{ min-width:0; }
+.gallery-lightbox-copy h2{ margin:var(--nyx-compat-spacing-7px) var(--nyx-compat-spacing-42px) 0 0; color:var(--nyx-color-text-max);
+  font-family:var(--nyx-font-display); font-size:var(--nyx-compat-size-28px); line-height:1.1; font-weight:var(--nyx-weight-regular); }
+.gallery-lightbox-actions{ display:flex; flex-wrap:wrap; align-items:center; gap:var(--nyx-space-8); }
+.gallery-lightbox-actions button{ min-height:38px; padding:0 var(--nyx-space-16); cursor:pointer;
+  border:1px solid var(--nyx-color-border-strong); border-radius:var(--nyx-radius-control);
+  color:var(--nyx-color-heading); background:var(--nyx-color-control-surface);
+  font-family:var(--nyx-compat-family-ffc6cbbeca26); font-size:var(--nyx-type-small); letter-spacing:var(--nyx-compat-tracking-p04em); }
+.gallery-lightbox-actions button:hover:not(:disabled){ color:var(--nyx-color-text-max); background:var(--nyx-color-control-surface-hover); }
+.gallery-lightbox-actions button:focus-visible{ outline:var(--nyx-focus-ring); outline-offset:var(--nyx-focus-offset); }
+.gallery-lightbox-actions button:disabled{ cursor:not-allowed; opacity:.45; }
+.gallery-lightbox-status{ min-height:1em; color:var(--nyx-color-text-muted); font-size:var(--nyx-type-caption); }
+@media (max-width:760px){
+  .gallery-lightbox-art img{ max-height:52vh; }
+  .gallery-lightbox-actions button{ flex:1 1 auto; }
+}
 .db-grid{ flex:1 1 0%; min-height:0; overflow-y:auto; margin-top:var(--nyx-space-16); padding:var(--nyx-space-2) var(--nyx-space-8) var(--nyx-space-6) var(--nyx-space-2);
   display:grid; grid-template-columns:repeat(auto-fill, minmax(112px, 1fr)); gap:var(--nyx-space-14); align-content:start; }
 .db-grid::-webkit-scrollbar{ width:7px; }
@@ -5400,165 +5469,6 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 .wonder-detail-art,.pot-detail-art{ width:100%; min-width:0; border-radius:var(--nyx-compat-radius-12px); align-self:start; }
 .tcg-detail-copy,.pot-detail-copy,.wonder-detail-copy{ min-width:0; overflow-wrap:anywhere; }
 .tcg-detail-copy p,.pot-detail-copy p,.wonder-detail-copy p{ white-space:pre-wrap; overflow-wrap:anywhere; }
-.beta-pane{
-  display:flex;
-  flex-direction:column;
-  gap:var(--nyx-space-18);
-  padding:var(--nyx-space-18);
-}
-.beta-pane-head{
-  display:flex;
-  align-items:flex-end;
-  justify-content:space-between;
-  gap:var(--nyx-space-14);
-  padding-bottom:var(--nyx-space-12);
-  border-bottom:1px solid var(--nyx-compat-color-b5dce4d08588);
-}
-.beta-pane-head div{
-  min-width:0;
-  display:flex;
-  flex-direction:column;
-  gap:var(--nyx-space-4);
-}
-.beta-pane-head b{
-  color:var(--nyx-color-text-max);
-  font-family:var(--nyx-font-display);
-  font-size:var(--nyx-type-title);
-  font-weight:var(--nyx-weight-regular);
-  line-height:1;
-}
-.beta-pane-head span,
-.beta-pane-head em{
-  color:var(--nyx-color-text-muted);
-  font-style:normal;
-  font-size:var(--nyx-type-small);
-  line-height:1.35;
-}
-.beta-section{
-  display:flex;
-  flex-direction:column;
-  gap:var(--nyx-space-10);
-}
-.beta-section-title{
-  color:var(--nyx-compat-color-hex-f5f1ff);
-  font-family:var(--nyx-font-display);
-  font-size:var(--nyx-type-section);
-  line-height:1;
-}
-.beta-grid{
-  display:grid;
-  grid-template-columns:repeat(auto-fill, minmax(272px, 1fr));
-  gap:var(--nyx-space-10);
-}
-.beta-card{
-  min-width:0;
-  min-height:70px;
-  display:flex;
-  align-items:center;
-  gap:var(--nyx-space-10);
-  border-radius:var(--nyx-radius-control);
-  padding:var(--nyx-space-10);
-  color:var(--nyx-compat-color-hex-dcd4f6);
-  background:var(--nyx-compat-color-fd59c5911642);
-  box-shadow:var(--nyx-compat-shadow-box-566d2ebc31c8);
-}
-.beta-card img{
-  width:48px;
-  height:48px;
-  object-fit:contain;
-  flex:none;
-  filter:var(--nyx-compat-shadow-drop-b2d665f45af0);
-}
-.beta-card div{
-  min-width:0;
-  display:flex;
-  flex-direction:column;
-  gap:var(--nyx-space-4);
-}
-.beta-card b{
-  color:var(--nyx-color-text-max);
-  font-size:var(--nyx-compat-size-13px);
-  line-height:1.2;
-  overflow-wrap:break-word;
-}
-.beta-card span{
-  color:var(--nyx-color-text-muted);
-  font-size:var(--nyx-compat-size-11px);
-  line-height:1.25;
-}
-.beta-character-card{ display:grid; grid-template-columns:minmax(0, 1fr) auto; padding:0; overflow:hidden; }
-.beta-card-main{ appearance:none; min-width:0; min-height:70px; border:0; display:flex; align-items:center; gap:var(--nyx-space-10);
-  padding:var(--nyx-space-10); color:inherit; text-align:left; background:transparent; }
-.beta-card-main > span{ min-width:0; display:flex; flex-direction:column; gap:var(--nyx-space-4); }
-.beta-card-main em{ color:var(--nyx-color-text-muted); font-size:var(--nyx-compat-size-11px); line-height:1.25; font-style:normal; }
-.beta-card-main:disabled{ opacity:1; cursor:default; }
-.beta-character-card.inspectable .beta-card-main{ cursor:pointer; }
-.beta-character-card.inspectable .beta-card-main:hover,
-.beta-character-card.inspectable .beta-card-main:focus-visible{ outline:none; background:var(--nyx-compat-color-108ef61fc9ce); }
-.beta-card-open{ align-self:stretch; width:76px; border:0; border-left:1px solid var(--nyx-compat-color-b5dce4d08588); padding:var(--nyx-space-8);
-  cursor:pointer; color:var(--nyx-compat-color-hex-c9c0eb); background:var(--nyx-compat-color-6eda07d8a498); font-size:var(--nyx-type-label); line-height:1.2; }
-.beta-card-open:hover,
-.beta-card-open:focus-visible{ outline:none; color:var(--nyx-color-text-max); background:var(--nyx-compat-color-05bf38071bda); box-shadow:var(--nyx-compat-shadow-box-9e8a9e591ee1); }
-.beta-diff-modal{ position:fixed; inset:0; z-index:1250; display:grid; place-items:center; padding:var(--nyx-space-24);
-  background:var(--nyx-compat-color-d647643a74ec); backdrop-filter:blur(9px); }
-.beta-diff-card{ width:min(1180px, 100%); max-height:calc(100vh - 48px); overflow:auto; padding:var(--nyx-compat-spacing-22px);
-  border-radius:var(--nyx-compat-radius-18px); color:var(--nyx-compat-color-hex-e5def8); background:linear-gradient(160deg, var(--nyx-compat-color-57ace46a77d4), var(--nyx-compat-color-c8461894b751));
-  box-shadow:var(--nyx-compat-shadow-box-551fec5782cf); }
-.beta-diff-card > header{ position:sticky; top:-22px; z-index:2; display:flex; align-items:flex-start; justify-content:space-between;
-  gap:var(--nyx-space-18); margin:var(--nyx-compat-spacing-neg-22px) var(--nyx-compat-spacing-neg-22px) var(--nyx-space-16); padding:var(--nyx-space-20) var(--nyx-compat-spacing-22px) var(--nyx-compat-spacing-15px); border-bottom:1px solid var(--nyx-compat-color-916a41171be5);
-  background:var(--nyx-compat-color-1b52e406d359); backdrop-filter:blur(9px); }
-.beta-diff-card header > div:first-child{ min-width:0; }
-.beta-diff-card header span,
-.beta-diff-card header em{ display:block; color:var(--nyx-color-text-muted); font-size:var(--nyx-type-label); font-style:normal; font-weight:var(--nyx-weight-extrabold); letter-spacing:var(--nyx-compat-tracking-p1em); text-transform:uppercase; }
-.beta-diff-card h2{ margin:var(--nyx-space-4) 0; color:var(--nyx-color-text-max); font-family:var(--nyx-font-display); font-size:var(--nyx-compat-size-28px); line-height:1.1; font-weight:var(--nyx-weight-regular); }
-.beta-diff-actions{ display:flex; gap:var(--nyx-space-8); flex:none; }
-.beta-diff-actions button{ min-height:34px; border:0; border-radius:var(--nyx-radius-control); padding:var(--nyx-space-8) var(--nyx-space-12); cursor:pointer; color:var(--nyx-compat-color-hex-d8d0f7);
-  background:var(--nyx-compat-color-108ef61fc9ce); box-shadow:var(--nyx-compat-shadow-box-16dee3c0fdb2); }
-.beta-diff-actions button:last-child{ width:34px; padding:0; border-radius:50%; }
-.beta-diff-actions button:hover,
-.beta-diff-actions button:focus-visible{ outline:none; color:var(--nyx-color-text-max); background:var(--nyx-compat-color-d57b2d640b5a);
-  box-shadow:var(--nyx-compat-shadow-box-84b7e73777fe); }
-.beta-diff-table{ display:flex; flex-direction:column; gap:var(--nyx-compat-spacing-7px); }
-.beta-diff-table-head,
-.beta-diff-row{ display:grid; grid-template-columns:minmax(150px, .55fr) repeat(2, minmax(0, 1fr)); gap:var(--nyx-compat-spacing-7px); }
-.beta-diff-table-head{ position:sticky; top:82px; z-index:1; color:var(--nyx-compat-color-hex-9f95ca); font-size:var(--nyx-type-caption); font-weight:var(--nyx-weight-black);
-  letter-spacing:var(--nyx-compat-tracking-p12em); text-transform:uppercase; background:var(--nyx-compat-color-23bcc5e35478); }
-.beta-diff-table-head > *{ padding:var(--nyx-space-8) var(--nyx-compat-spacing-11px); }
-.beta-diff-row > *{ min-width:0; padding:var(--nyx-compat-spacing-11px); border-radius:var(--nyx-compat-radius-9px); background:var(--nyx-compat-color-6eda07d8a498);
-  box-shadow:var(--nyx-compat-shadow-box-f23afef10f79); }
-.beta-diff-row > div:first-child span,
-.beta-diff-compact-list section > span{ display:block; margin-bottom:var(--nyx-space-4); color:var(--nyx-compat-color-hex-8f84bc); font-size:var(--nyx-compat-size-8px); font-weight:var(--nyx-weight-black);
-  letter-spacing:var(--nyx-compat-tracking-p11em); text-transform:uppercase; }
-.beta-diff-row > div:first-child b,
-.beta-diff-compact-list section > b{ color:var(--nyx-compat-color-hex-f5f1ff); font-size:var(--nyx-compat-size-11px); line-height:1.35; overflow-wrap:anywhere; }
-.beta-diff-row pre,
-.beta-diff-compact-list pre{ margin:0; color:var(--nyx-compat-color-hex-ded6f5); font:var(--nyx-compat-font-c1a65059b37d); white-space:pre-wrap; overflow-wrap:anywhere; }
-.beta-diff-long summary{ cursor:pointer; color:var(--nyx-compat-color-hex-b9afe1); font-size:var(--nyx-type-label); font-weight:var(--nyx-weight-bold); }
-.beta-diff-long[open] summary{ margin-bottom:var(--nyx-space-8); }
-.beta-diff-compact-list{ display:flex; flex-direction:column; gap:var(--nyx-space-8); }
-.beta-diff-compact-list section{ padding:var(--nyx-space-12); border-radius:var(--nyx-radius-card); background:var(--nyx-compat-color-6eda07d8a498);
-  box-shadow:var(--nyx-compat-shadow-box-1766dc5e697a); }
-.beta-diff-compact-list section > div{ display:grid; grid-template-columns:minmax(0, 1fr) auto minmax(0, 1fr); align-items:start; gap:var(--nyx-space-10);
-  margin-top:var(--nyx-space-8); }
-.beta-diff-compact-list section i{ color:var(--nyx-color-text-faint); font-style:normal; }
-.beta-diff-empty{ margin:var(--nyx-compat-spacing-40px) auto; max-width:560px; color:var(--nyx-compat-color-hex-b3a9d9); text-align:center; line-height:1.5; }
-@media (max-width:720px){
-  .beta-character-card{ grid-template-columns:minmax(0, 1fr); }
-  .beta-card-open{ width:auto; min-height:34px; border-left:0; border-top:1px solid var(--nyx-compat-color-b5dce4d08588); }
-  .beta-diff-modal{ padding:var(--nyx-space-8); }
-  .beta-diff-card{ max-height:calc(100vh - 16px); padding:var(--nyx-space-14); }
-  .beta-diff-card > header{ top:-14px; margin:var(--nyx-compat-spacing-neg-14px) var(--nyx-compat-spacing-neg-14px) var(--nyx-space-12); padding:var(--nyx-space-14); }
-  .beta-diff-table-head{ display:none; }
-  .beta-diff-row{ grid-template-columns:minmax(0, 1fr); }
-  .beta-diff-row > div:first-child{ background:var(--nyx-compat-color-c2b0ed1f9dca); }
-  .beta-diff-row > div:nth-child(2)::before,
-  .beta-diff-row > div:nth-child(3)::before{ display:block; margin-bottom:var(--nyx-compat-spacing-5px); color:var(--nyx-compat-color-hex-8f84bc); font-size:var(--nyx-compat-size-8px); font-weight:var(--nyx-weight-black);
-    letter-spacing:var(--nyx-compat-tracking-p11em); text-transform:uppercase; }
-  .beta-diff-row > div:nth-child(2)::before{ content:'Live'; }
-  .beta-diff-row > div:nth-child(3)::before{ content:'Beta'; }
-  .beta-diff-compact-list section > div{ grid-template-columns:minmax(0, 1fr); }
-  .beta-diff-compact-list section i{ transform:rotate(90deg); justify-self:center; }
-}
 
 /* ===== Character Materials (Art of Khemia) ===== */
 .cm-overlay{ position:absolute; inset:0; z-index:60; display:grid; place-items:center;
@@ -5883,9 +5793,12 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 .cm-pop.ledger .cm-presets-ledger button.on{ color:var(--nyx-compat-color-hex-f3eeff); background:transparent;
   box-shadow:var(--nyx-compat-shadow-box-f64575d175a5); } /* G17: purple underline, not the element colour */
 .cm-pop.ledger .cm-presets-ledger button:disabled{ cursor:wait; opacity:.55; }
-.cm-share-status{ flex:1 0 100%; padding-top:var(--nyx-space-4); text-align:right; font-size:var(--nyx-type-caption); color:var(--nyx-color-text-muted); }
+.cm-share-status{ flex:1 0 100%; padding-top:var(--nyx-space-4); text-align:left; font-size:var(--nyx-type-caption); color:var(--nyx-color-text-muted); }
 .cm-share-status.error{ color:var(--nyx-color-danger); }
-.cm-share-actions{ grid-column:2; display:flex; flex-wrap:wrap; align-items:center; justify-content:flex-end; gap:var(--nyx-space-8); }
+/* Share buttons sit in the Total row's LEFT column, under the "Total" label and
+   its section checkboxes (user 2026-08-14). They used to hang off the right end
+   under the material tiles, where they read as part of the tile grid. */
+.cm-share-actions{ grid-column:1; display:flex; flex-wrap:wrap; align-items:center; justify-content:flex-start; gap:var(--nyx-space-8); }
 .cm-share-actions button{ min-height:34px; border:1px solid var(--nyx-compat-color-92028f0fbac1); border-radius:var(--nyx-radius-control); cursor:pointer;
   padding:var(--nyx-space-6) var(--nyx-space-12); color:var(--nyx-compat-color-hex-efe8ff); background:var(--nyx-compat-color-26ecac6a6aec); font:inherit; }
 .cm-share-actions button:hover:not(:disabled){ border-color:var(--nyx-compat-color-hex-9a89ea); }
@@ -5940,6 +5853,17 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 .cm-ledger-label .cm-asc-level input::-webkit-inner-spin-button{ -webkit-appearance:none; margin:0; }
 .cm-ledger-label .cm-asc-level input:hover{ box-shadow:var(--nyx-compat-shadow-box-2ebf2f54de3b); }
 .cm-ledger-label .cm-asc-level input:focus{ background:var(--nyx-compat-color-233bf1f3374b); box-shadow:var(--nyx-compat-shadow-box-efccefd8bcaa); }
+/* The ascension target-level slider sits in the ledger's label column, which is
+   only ~260px wide — so it stacks (label over track over value) rather than
+   using the kit tab's three-across layout. */
+.cm-ledger-label .cm-asc-level-slider{ width:100%; min-height:0; grid-template-columns:minmax(0,1fr) auto;
+  gap:var(--nyx-space-6) var(--nyx-space-8); padding:0; background:transparent; }
+.cm-ledger-label .cm-asc-level-slider label{ grid-column:1 / -1; font-size:var(--nyx-type-caption); }
+.cm-ledger-label .cm-asc-level-slider input[type="range"]{ min-height:26px; }
+.cm-ledger-label .cm-asc-level-slider output{ min-width:64px; font-size:var(--nyx-type-label); }
+.cm-ledger-label .cm-asc-exp-note{ display:block; font-style:normal; font-size:var(--nyx-type-caption);
+  line-height:1.3; color:var(--nyx-color-text-faint); }
+
 /* G19: empty space, no outer box — each cell is just [skill icon][boxed number]. */
 .cm-talent-triplet{ width:max-content; max-width:100%; display:grid; grid-template-columns:repeat(3, auto); gap:var(--nyx-compat-spacing-9px);
   min-height:36px; padding:0; background:transparent; box-shadow:none; }
@@ -6111,8 +6035,6 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
   .cm-ledger-art{ left:0; }
   .cm-ledger-art::after{ background:var(--nyx-compat-color-07c5e98f60d2); }
   .cm-ledger-row.total{ min-height:0; }
-  .cm-share-actions{ grid-column:1; justify-content:flex-start; }
-  .cm-share-status{ text-align:left; }
   .cm-ledger-label b{ font-size:var(--nyx-compat-size-25px); }
   .cm-ledger-mats{ gap:var(--nyx-compat-spacing-9px); }
   .cm-ledger-mats .cm-mat{ --cm-frame-scale:.3269; width:72px; min-width:72px; }
@@ -6342,14 +6264,78 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 .cm-character-tabs button:disabled{ cursor:default; opacity:.42; }
 .cm-character-tabs .cm-detail-back{ min-height:27px; margin-right:var(--nyx-space-2); padding:0 var(--nyx-space-10) 0 var(--nyx-compat-spacing-7px); color:var(--nyx-compat-color-hex-d8d0f4); background:var(--nyx-compat-color-108ef61fc9ce); }
 .cm-character-tabs .cm-detail-back:hover,.cm-character-tabs .cm-detail-back:focus-visible{ color:var(--nyx-color-text-max); background:var(--nyx-compat-color-017421d156e5); outline:2px solid var(--character-hover); outline-offset:2px; }
-.cm-character-gallery{ display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); align-items:start; gap:var(--nyx-space-22); padding:var(--nyx-space-8) 0 var(--nyx-space-20); }
-.cm-character-gallery-card{ min-width:0; margin:0; display:grid; gap:var(--nyx-space-8); }
+/* Three cards of very different shapes, so they get explicit weights rather
+   than equal auto-fit columns (user 2026-08-14). Equal columns meant the
+   profile icon — a ~256px avatar — was blown up to fill a 240px+ square while
+   the splash art, a tall portrait, was letterboxed inside a 4/3 landscape box
+   and rendered tiny. Splash now leads at portrait ratio, the namecard keeps
+   its banner shape, and the profile icon never scales past its own size. */
+/* Three cards of very different shapes, so they get explicit weights rather
+   than equal auto-fit columns (user 2026-08-14). Equal columns meant the
+   profile icon — a 256px avatar — was blown up to fill a 240px+ square, while
+   the splash art (2048x1024 for Genshin) was letterboxed inside a 4/3 box and
+   rendered at a fraction of the space it had. Splash now leads and keeps its
+   own aspect ratio; the profile icon never scales past 1:1. */
+/* ---- Story tab (Genshin) ----
+   Reuses the kit panel's section chrome so Materials / Character Kit / Story
+   read as one page. Each entry is a <details> so a 76-line voice-line list
+   opens as a scannable index rather than a wall of text. */
+.cm-story-list{ display:flex; flex-direction:column; gap:var(--nyx-space-8); padding:var(--nyx-space-8) var(--nyx-space-16) var(--nyx-space-16); }
+.cm-story-entry{ min-width:0; border:1px solid var(--nyx-color-border-subtle); border-radius:var(--nyx-radius-control);
+  background:var(--nyx-color-surface-nested); }
+.cm-story-entry > summary{ display:flex; flex-wrap:wrap; align-items:baseline; gap:var(--nyx-space-4) var(--nyx-space-10);
+  padding:var(--nyx-space-10) var(--nyx-space-14); cursor:pointer; list-style:none; }
+.cm-story-entry > summary::-webkit-details-marker{ display:none; }
+.cm-story-entry > summary::before{ content:"\203A"; flex:none; color:var(--nyx-color-kit-term); font-size:var(--nyx-type-lead); line-height:1;
+  transform:rotate(0deg); transition:transform .16s ease; }
+.cm-story-entry[open] > summary::before{ transform:rotate(90deg); }
+.cm-story-entry > summary:hover{ background:var(--nyx-color-control-surface); }
+.cm-story-entry > summary:focus-visible{ outline:var(--nyx-focus-ring); outline-offset:var(--nyx-focus-offset); }
+.cm-story-entry > summary b{ min-width:0; color:var(--nyx-color-heading); font-family:var(--nyx-font-display);
+  font-size:var(--nyx-type-body); font-weight:var(--nyx-weight-regular); overflow-wrap:anywhere; }
+.cm-story-entry > summary span{ color:var(--nyx-color-text-faint); font-size:var(--nyx-type-caption); }
+.cm-story-entry > p{ margin:0; padding:0 var(--nyx-space-14) var(--nyx-space-14) var(--nyx-compat-spacing-30px);
+  color:var(--nyx-color-text-soft); font-family:'Segoe UI',system-ui,sans-serif; font-size:var(--nyx-type-body);
+  line-height:1.62; white-space:pre-line; overflow-wrap:anywhere; }
+.cm-story-retry{ margin-top:var(--nyx-space-10); min-height:34px; padding:0 var(--nyx-space-14); cursor:pointer;
+  border:1px solid var(--nyx-color-border-strong); border-radius:var(--nyx-radius-control);
+  color:var(--nyx-color-heading); background:var(--nyx-color-control-surface); font:inherit; }
+@media (max-width:760px){
+  .cm-story-list{ padding:var(--nyx-space-6) var(--nyx-space-10) var(--nyx-space-12); }
+  .cm-story-entry > p{ padding-left:var(--nyx-space-14); }
+}
+
+.cm-character-gallery{ display:grid; grid-template-columns:1fr 0.55fr 1.6fr; align-items:end;
+  gap:var(--nyx-space-22); padding:var(--nyx-space-8) 0 var(--nyx-space-20); }
+.cm-character-gallery-card{ min-width:0; margin:0; display:grid; gap:var(--nyx-space-8); align-content:end; }
 .cm-character-gallery-art{ width:100%; aspect-ratio:4/3; display:grid; place-items:center; }
-.cm-character-gallery-card.is-profile .cm-character-gallery-art{ aspect-ratio:1; }
-.cm-character-gallery-card.is-namecard .cm-character-gallery-art{ aspect-ratio:2.1/1; }
 .cm-character-gallery-art img{ width:100%; height:100%; object-fit:contain; }
-.cm-character-gallery-card.is-namecard img{ object-fit:cover; }
 .cm-character-gallery-card figcaption{ color:var(--nyx-color-heading); font-family:var(--nyx-font-display); font-size:var(--nyx-type-body); }
+
+/* Namecard: a real banner crop, so cover it. */
+.cm-character-gallery-card.is-namecard .cm-character-gallery-art{ aspect-ratio:2.1/1; }
+.cm-character-gallery-card.is-namecard img{ object-fit:cover; }
+
+/* Profile: an avatar icon gains nothing from upscaling, so the box is capped
+   and the image is allowed to sit smaller than it inside. */
+.cm-character-gallery-card.is-profile .cm-character-gallery-art{ aspect-ratio:1; max-width:200px; justify-self:center; }
+.cm-character-gallery-card.is-profile img{ width:auto; height:auto; max-width:100%; max-height:100%; }
+
+/* Splash: no fixed box. Splash art is wide in Genshin/HSR and tall elsewhere,
+   and any fixed ratio letterboxes half of them. The image keeps its own shape
+   and is bounded by height alone. */
+.cm-character-gallery-card.is-splash .cm-character-gallery-art{ aspect-ratio:auto; height:auto; }
+.cm-character-gallery-card.is-splash img{ width:100%; height:auto; max-height:420px; object-fit:contain; }
+
+@media (max-width:1180px){
+  .cm-character-gallery{ grid-template-columns:1fr 0.55fr; }
+  .cm-character-gallery-card.is-splash{ grid-column:1 / -1; }
+}
+@media (max-width:760px){
+  .cm-character-gallery{ grid-template-columns:1fr; gap:var(--nyx-space-16); }
+  .cm-character-gallery-card.is-splash{ grid-column:auto; }
+  .cm-character-gallery-card.is-splash img{ max-height:300px; }
+}
 .cm-kit-panel{ display:flex; flex-direction:column; gap:var(--nyx-space-16); padding:var(--nyx-space-2) 0 var(--nyx-space-16); }
 .cm-kit-profile{ display:flex; flex-direction:column; gap:var(--nyx-space-10); }
 .cm-profile-facts{ display:flex; flex-wrap:wrap; gap:var(--nyx-compat-spacing-7px); }
@@ -6400,7 +6386,7 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
   text-transform:uppercase;
 }
 .cm-profile-level-control input[type="range"],
-.cm-kit-level-control input[type="range"]{ width:100%; min-height:32px; accent-color:var(--nyx-color-info); cursor:pointer; }
+.cm-kit-level-control input[type="range"]{ width:100%; min-height:32px; accent-color:var(--nyx-color-kit-level); cursor:pointer; }
 .cm-profile-level-control input[type="range"]:focus-visible,
 .cm-kit-level-control input[type="range"]:focus-visible{ outline:var(--nyx-focus-ring); outline-offset:var(--nyx-focus-offset); }
 .cm-profile-level-control output,
@@ -6408,8 +6394,8 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
   min-width:70px;
   padding:var(--nyx-space-4) var(--nyx-space-8);
   border-radius:var(--nyx-radius-small);
-  color:var(--nyx-color-surface);
-  background:var(--nyx-color-info);
+  color:var(--nyx-color-canvas);
+  background:var(--nyx-color-kit-level);
   text-align:center;
   font-variant-numeric:tabular-nums;
 }
@@ -6484,8 +6470,8 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 .cm-kit-copy{ display:flex; flex-direction:column; gap:var(--nyx-space-14); padding:var(--nyx-space-16); color:var(--nyx-color-text-soft); font-family:'Segoe UI',system-ui,sans-serif; font-size:var(--nyx-type-body); font-weight:var(--nyx-weight-regular); line-height:1.58; overflow-wrap:anywhere; }
 .cm-kit-copy p{ position:relative; margin:0; }
 .cm-kit-copy-body{ white-space:pre-line; }
-.cm-kit-copy-heading{ display:block; margin-bottom:var(--nyx-space-2); color:var(--nyx-color-warning); font-weight:var(--nyx-weight-extrabold); }
-.cm-kit-copy .is-accent{ color:#f2c86f; font-weight:var(--nyx-weight-bold); }
+.cm-kit-copy-heading{ display:block; margin-bottom:var(--nyx-space-2); color:var(--nyx-color-kit-term); font-weight:var(--nyx-weight-extrabold); }
+.cm-kit-copy .is-accent{ color:var(--nyx-color-kit-term); font-weight:var(--nyx-weight-bold); }
 .cm-kit-copy .is-info{ color:var(--nyx-color-info); font-weight:var(--nyx-weight-bold); }
 .cm-kit-copy .is-pyro{ color:#ff9a83; font-weight:var(--nyx-weight-bold); }
 .cm-kit-copy .is-hydro{ color:#79c9ff; font-weight:var(--nyx-weight-bold); }
@@ -6507,12 +6493,12 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 .cm-kit-term > button{
   all:unset;
   border-radius:2px;
-  color:#f2c86f;
+  color:var(--nyx-color-kit-term);
   cursor:help;
   font:inherit;
   font-weight:var(--nyx-weight-bold);
   text-decoration:underline;
-  text-decoration-color:rgba(242,200,111,.55);
+  text-decoration-color:rgba(var(--nyx-rgb-kit-term),.55);
   text-decoration-thickness:1px;
   text-underline-offset:3px;
 }
@@ -7586,7 +7572,7 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 .achievement-toolbar :is(input,select){width:100%;min-width:0}
 .achievement-toolbar .achievement-status-filter{display:grid;grid-template-columns:repeat(3,auto);gap:var(--nyx-compat-spacing-3px);padding:var(--nyx-compat-spacing-3px);border:1px solid var(--nyx-compat-color-c201d2dab2c4);border-radius:var(--nyx-radius-card);background:var(--nyx-compat-color-99cc84676c14)}
 .achievement-toolbar .achievement-status-filter button{min-height:34px;padding:var(--nyx-compat-spacing-7px) var(--nyx-space-12);border:0;background:transparent;color:var(--nyx-compat-color-hex-847b90)}
-.achievement-toolbar .achievement-status-filter button.on{background:var(--nyx-compat-color-hex-eee9fa);color:var(--nyx-compat-color-hex-241d32);box-shadow:var(--nyx-compat-shadow-box-4928ac5770ed)}
+.achievement-toolbar .achievement-status-filter button.on{background:var(--ach-paper-sel);color:var(--ach-paper-ink);box-shadow:var(--nyx-compat-shadow-box-4928ac5770ed)}
 .achievement-gallery-toggle{min-height:42px!important;white-space:nowrap}
 
 .achievement-category-gallery{
@@ -7633,8 +7619,8 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 .achievement-atlas-search{padding:var(--nyx-space-8) var(--nyx-space-10) var(--nyx-space-6)}.achievement-atlas-check{padding:var(--nyx-space-2) var(--nyx-compat-spacing-11px) var(--nyx-space-8)}
 .achievement-atlas nav{gap:var(--nyx-space-4);padding:var(--nyx-space-4) var(--nyx-compat-spacing-7px) var(--nyx-space-10)}.achievement-atlas nav>button{grid-template-columns:46px minmax(0,1fr);min-height:57px;padding:var(--nyx-space-6) var(--nyx-space-8);border-color:var(--nyx-compat-color-2ed3367aa626);border-radius:var(--nyx-compat-radius-7px);background:var(--nyx-compat-color-99cc84676c14)}
 .achievement-atlas nav>button:hover{background:var(--nyx-compat-color-226f46ff22b2)}
-.achievement-atlas nav>button.on{border-color:var(--nyx-compat-color-hex-eee9fa);background:var(--nyx-compat-color-hex-eee9fa);box-shadow:var(--nyx-compat-shadow-box-4e18e70e69d1)}
-.achievement-atlas nav>button.on strong{color:var(--nyx-compat-color-hex-2b2438)}.achievement-atlas nav>button.on small{color:var(--nyx-compat-color-hex-756d7d)}.achievement-atlas nav>button.on small i{color:var(--nyx-compat-color-hex-8c6926)}
+.achievement-atlas nav>button.on{border-color:var(--ach-accent);background:var(--ach-paper-sel);box-shadow:var(--nyx-compat-shadow-box-4e18e70e69d1)}
+.achievement-atlas nav>button.on strong{color:var(--ach-paper-ink)}.achievement-atlas nav>button.on small{color:var(--ach-paper-muted)}.achievement-atlas nav>button.on small i{color:var(--ach-accent)}
 .achievement-atlas nav strong{font:var(--nyx-compat-font-6f6db41e21f7)}
 .achievement-category-orbit{width:42px}.achievement-category-icon{width:36px;height:36px}
 
@@ -7685,16 +7671,27 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
   .achievement-filter-bar,.achievement-hsr .achievement-filter-bar{grid-template-columns:1fr}.achievement-row{grid-template-columns:42px minmax(0,1fr)}.achievement-reward{grid-column:2;display:flex;justify-self:start;gap:var(--nyx-compat-spacing-5px)}.achievement-row-detail{grid-column:1/-1}.achievement-category-actions{grid-template-columns:1fr}
 }
 
-/* Approved achievement mockup translated to the Nyx palette. */
+/* Approved achievement mockup translated to the Nyx palette.
+
+   The ledger half of this page used to be a literal sheet of paper — a
+   near-white #f0ecf7 panel carrying the whole achievement list. Against the
+   rest of Nyx it read as a light-mode page dropped into a dark app and was
+   genuinely uncomfortable to look at (user 2026-08-14). The --ach-paper* names
+   are kept because 30+ rules below reference them, but they now describe a
+   DARK ledger: paper = the panel surface, ink = the text on it. */
 .achievement-page{
   --ach-accent:var(--nyx-compat-color-hex-ad96ff);
   --ach-accent-rgb:var(--nyx-compat-color-889449892a40);
   --ach-game-accent:var(--nyx-compat-color-hex-c8b8ff);
-  --ach-paper:var(--nyx-compat-color-hex-f0ecf7);
-  --ach-paper-2:var(--nyx-compat-color-hex-e3ddea);
-  --ach-paper-ink:var(--nyx-compat-color-hex-352d45);
-  --ach-paper-muted:var(--nyx-compat-color-hex-786f83);
-  --ach-paper-line:var(--nyx-compat-color-hex-cec5d8);
+  --ach-paper:#100c22;                              /* ledger body */
+  --ach-paper-2:#171130;                            /* heading / filter / result strips */
+  --ach-paper-row:rgba(183,170,255,.05);            /* a single achievement row */
+  --ach-paper-row-hover:rgba(183,170,255,.1);
+  --ach-paper-field:rgba(5,4,14,.7);                /* inputs, row detail, load-more */
+  --ach-paper-sel:rgba(var(--ach-accent-rgb),.2);   /* selected category / filter chip */
+  --ach-paper-ink:#f1edff;
+  --ach-paper-muted:#a79ecb;
+  --ach-paper-line:rgba(183,170,255,.16);
   --ach-nav:var(--nyx-compat-color-hex-151025);
   --ach-nav-2:var(--nyx-compat-color-hex-281d43);
 }
@@ -7717,7 +7714,7 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
   background:var(--nyx-compat-color-e99235e3558b);
 }
 .achievement-toolbar .achievement-search input{border-radius:var(--nyx-radius-pill)}
-.achievement-toolbar .achievement-status-filter button.on{background:var(--ach-paper);color:var(--ach-paper-ink)}
+.achievement-toolbar .achievement-status-filter button.on{background:var(--ach-paper-sel);color:var(--ach-paper-ink)}
 
 .achievement-archive{grid-template-columns:minmax(365px,410px) minmax(0,1fr)}
 .achievement-atlas{
@@ -7742,7 +7739,7 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 .achievement-atlas nav>button:hover{transform:translateX(2px);background:var(--nyx-compat-color-79f2e0da8494)}
 .achievement-atlas nav>button.on{
   border-color:var(--ach-accent);
-  background:var(--ach-paper);
+  background:var(--ach-paper-sel);
   box-shadow:var(--nyx-compat-shadow-box-22d029e13f2b);
 }
 .achievement-atlas nav>button.on::before{
@@ -7753,13 +7750,13 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
   height:0;
   border-top:7px solid transparent;
   border-bottom:7px solid transparent;
-  border-right:7px solid var(--ach-paper);
+  border-right:7px solid var(--ach-accent);
 }
 .achievement-atlas nav strong{font-size:var(--nyx-type-body)}
 .achievement-atlas nav small{font-size:var(--nyx-type-label)}
 .achievement-atlas nav>button.on strong{color:var(--ach-paper-ink)}
 .achievement-atlas nav>button.on small{color:var(--ach-paper-muted)}
-.achievement-atlas nav>button.on small i{color:var(--nyx-compat-color-hex-6e51c1)}
+.achievement-atlas nav>button.on small i{color:var(--ach-accent)}
 .achievement-category-orbit{width:48px}.achievement-category-icon{width:42px;height:42px}
 
 .achievement-ledger{
@@ -7778,49 +7775,49 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
   background:linear-gradient(100deg,var(--nyx-compat-color-3972e28257b7),transparent 48%);
 }
 .achievement-ledger-icon{width:68px;height:68px;border-color:var(--nyx-compat-color-f42edb24539a);background:var(--nyx-compat-color-4aaaecca2665)}
-.achievement-ledger-heading>div>span{color:var(--nyx-compat-color-hex-7259bd);font-size:var(--nyx-type-caption)}
+.achievement-ledger-heading>div>span{color:var(--ach-accent);font-size:var(--nyx-type-caption)}
 .achievement-ledger-heading h2{color:var(--ach-paper-ink);font-size:var(--nyx-compat-size-31px)}
 .achievement-ledger-heading p{color:var(--ach-paper-muted);font-size:var(--nyx-compat-size-11px)}
 .achievement-category-actions button{
   min-height:34px;
   border-color:var(--ach-paper-line);
-  background:var(--nyx-compat-color-aeceb004b4ec);
+  background:var(--ach-paper-field);
   color:var(--ach-paper-ink);
 }
-.achievement-category-actions button:hover{border-color:var(--ach-accent);background:var(--nyx-color-text-max)}
+.achievement-category-actions button:hover{border-color:var(--ach-accent);background:var(--ach-paper-sel)}
 .achievement-filter-bar,.achievement-hsr .achievement-filter-bar{
   padding:var(--nyx-space-10) var(--nyx-space-14);
   border-bottom:1px solid var(--ach-paper-line);
   background:var(--ach-paper-2);
 }
 .achievement-filter-bar label>span{color:var(--ach-paper-muted);font-size:var(--nyx-compat-size-8px)}
-.achievement-filter-bar :is(select,input){border-color:var(--ach-paper-line)!important;background:var(--nyx-compat-color-a44a21db690b)!important;color:var(--ach-paper-ink)!important}
+.achievement-filter-bar :is(select,input){border-color:var(--ach-paper-line)!important;background:var(--ach-paper-field)!important;color:var(--ach-paper-ink)!important}
 .achievement-result-strip{border-bottom:1px solid var(--ach-paper-line);background:var(--ach-paper-2);color:var(--ach-paper-muted);font-size:var(--nyx-type-caption)}
-.achievement-result-strip button{color:var(--nyx-compat-color-hex-6f52c2)}
+.achievement-result-strip button{color:var(--ach-accent)}
 .achievement-list{padding:var(--nyx-space-8) var(--nyx-space-12) var(--nyx-space-12);background:var(--ach-paper)}
 .achievement-row{
   min-height:88px;
   margin-bottom:var(--nyx-compat-spacing-5px);
   padding:var(--nyx-compat-spacing-11px) var(--nyx-compat-spacing-15px);
-  border:1px solid color-mix(in srgb,var(--ach-paper-line) 82%,var(--nyx-color-text-max));
-  background:var(--nyx-compat-color-5791f6bd14d8);
+  border:1px solid var(--ach-paper-line);
+  background:var(--ach-paper-row);
 }
-.achievement-row:hover{transform:translateX(2px);background:var(--nyx-compat-color-54e001f5fead)}
-.achievement-row.done{background:color-mix(in srgb,var(--ach-paper) 88%,var(--ach-accent))}
-.achievement-row .achievement-check{border-color:var(--nyx-compat-color-4068a7e421a9);background:var(--nyx-compat-color-b42fe74b2ccf);color:var(--ach-paper-ink)}
+.achievement-row:hover{transform:translateX(2px);background:var(--ach-paper-row-hover)}
+.achievement-row.done{background:color-mix(in srgb,var(--ach-paper) 82%,var(--ach-accent))}
+.achievement-row .achievement-check{border-color:var(--nyx-compat-color-4068a7e421a9);background:rgba(var(--ach-accent-rgb),.14);color:var(--ach-paper-ink)}
 .achievement-row .achievement-check[aria-pressed="true"]{background:var(--ach-accent);color:var(--nyx-compat-color-hex-211830)}
 .achievement-row-main>strong{color:var(--ach-paper-ink);font-size:var(--nyx-compat-size-18px)}
 .achievement-row-main>span:last-child{color:var(--ach-paper-muted);font-size:var(--nyx-type-small)}
-.achievement-row.done .achievement-row-main>strong{color:var(--nyx-compat-color-hex-5d5368)}
-.achievement-row-meta small{color:var(--nyx-compat-color-hex-8a8094);font-size:var(--nyx-compat-size-8px)}
-.achievement-row-meta em{border-color:var(--ach-paper-line);color:var(--nyx-compat-color-hex-746981);background:var(--nyx-compat-color-5596a8e94c0b)}
-.achievement-reward b{color:var(--nyx-compat-color-hex-6e51bd);font-size:var(--nyx-type-lead)}
+.achievement-row.done .achievement-row-main>strong{color:var(--ach-paper-muted)}
+.achievement-row-meta small{color:var(--ach-paper-muted);font-size:var(--nyx-compat-size-8px)}
+.achievement-row-meta em{border-color:var(--ach-paper-line);color:var(--ach-paper-muted);background:var(--ach-paper-row-hover)}
+.achievement-reward b{color:var(--ach-gold);font-size:var(--nyx-type-lead)}
 .achievement-reward small{color:var(--ach-paper-muted)}
-.achievement-row-detail{border-color:var(--ach-paper-line);background:var(--nyx-compat-color-83fd147115ec)}
-.achievement-row-detail>div>span{color:var(--nyx-compat-color-hex-7259bd)}.achievement-row-detail p,.achievement-row-detail dd{color:var(--ach-paper-ink)}.achievement-row-detail dt{color:var(--ach-paper-muted)}
+.achievement-row-detail{border-color:var(--ach-paper-line);background:var(--ach-paper-field)}
+.achievement-row-detail>div>span{color:var(--ach-accent)}.achievement-row-detail p,.achievement-row-detail dd{color:var(--ach-paper-ink)}.achievement-row-detail dt{color:var(--ach-paper-muted)}
 .achievement-empty,.achievement-zero-guide{color:var(--ach-paper-muted)}
 .achievement-empty strong,.achievement-zero-guide strong{color:var(--ach-paper-ink)}
-.achievement-load-more{margin:var(--nyx-space-8);border-color:var(--ach-paper-line)!important;background:var(--nyx-compat-color-3abf49ec81cd)!important;color:var(--ach-paper-ink)!important}
+.achievement-load-more{margin:var(--nyx-space-8);border-color:var(--ach-paper-line)!important;background:var(--ach-paper-field)!important;color:var(--ach-paper-ink)!important}
 
 @media(max-width:1180px){.achievement-archive{grid-template-columns:minmax(300px,340px) minmax(0,1fr)}.achievement-row-main>strong{font-size:var(--nyx-type-lead)}}
 @media(max-width:760px){.achievement-archive{grid-template-columns:1fr}.achievement-atlas-search,.achievement-atlas-check{display:flex}.achievement-ledger{clip-path:none}.achievement-row-main>strong{font-size:var(--nyx-compat-size-15px)}}

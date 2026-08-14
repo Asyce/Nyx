@@ -894,19 +894,49 @@ function bannerBoardColumn(cfg, phase, status){
   };
 }
 
+// game8's roadmap page lists story NPCs alongside real upcoming units, and a
+// published banners.json can still carry them until the next scrape runs. The
+// scraper filters these too (Scraper/banners/scrape.cjs `roadmapExclude`); this
+// is the client-side belt so already-deployed data is corrected immediately.
+const BANNER_ROADMAP_DENY = {
+  gi:new Set(['pantalone', 'rerir', 'pulcinella', 'pierro', 'dainsleif', 'alice']),
+};
+// ...and the two the user wants kept as a joke, pinned under the real entries
+// with a "copium" note. Sourced from `group.pinned` when the scraper has run;
+// otherwise recovered from the roadmap rows the denylist above just removed.
+const BANNER_COPIUM_PINS = { gi:['Dainsleif', 'Alice'] };
+
+function bannerRoadmapAllowed(cfg, unit){
+  const deny = BANNER_ROADMAP_DENY[cfg.key];
+  return !deny || !deny.has(normalizeUnitName(unit?.name));
+}
+
+function overviewBannerPins(cfg, group, rosterMap){
+  const wanted = BANNER_COPIUM_PINS[cfg.key];
+  if (!wanted || !wanted.length) return [];
+  const byName = new Map([...(group.pinned || []), ...(group.roadmap || [])]
+    .map((row) => [normalizeUnitName(row?.name), row]).filter(([name]) => name));
+  return wanted
+    .map((name) => byName.get(normalizeUnitName(name)) || { name })
+    .map((row) => phaseUnit(cfg, row, rosterMap, 0) || { name:row.name })
+    .filter((unit) => unit && unit.name);
+}
+
 function overviewBannerBoard(cfg){
   const group = dbBannerGroup(cfg.key);
-  if (!group) return { current:null, next:null, later:[], planned:[], future:[] };
+  if (!group) return { current:null, next:null, later:[], planned:[], future:[], pinned:[] };
   const current = bannerBoardColumn(cfg, group.current, 'live');
   const next = bannerBoardColumn(cfg, group.next, 'next');
   const later = (group.upcoming || []).map((phase) => bannerBoardColumn(cfg, phase, 'upcoming')).filter(Boolean).slice(0, 3);
-  if (cfg.key === 'ae') return { current, next, later, planned:[], future:[] };
+  if (cfg.key === 'ae') return { current, next, later, planned:[], future:[], pinned:[] };
 
   const rosterMap = rosterUnitMap(cfg);
+  const pinned = overviewBannerPins(cfg, group, rosterMap);
+  const roadmapRows = (group.roadmap || []).filter((unit) => bannerRoadmapAllowed(cfg, unit));
   const shown = new Set([current, next].filter(Boolean)
     .flatMap((column) => [...column.heroes, ...column.others, ...column.support])
     .map((unit) => normalizeUnitName(unit.name)));
-  const trustedFuture = new Set([...(group.beta || []), ...(group.roadmap || [])]
+  const trustedFuture = new Set([...(group.beta || []), ...roadmapRows]
     .map((unit) => normalizeUnitName(unit.name)));
   const rows = [];
   const add = (unit, source, hint = null, column = null) => {
@@ -920,7 +950,7 @@ function overviewBannerBoard(cfg){
       if (trustedFuture.has(normalizeUnitName(unit.name))) add(unit, 'scheduled', null, column);
     }
   }
-  const versionedRoadmap = (group.roadmap || []).filter((unit) => bannerRoadmapVersion(unit.hint));
+  const versionedRoadmap = roadmapRows.filter((unit) => bannerRoadmapVersion(unit.hint));
   for (const unit of versionedRoadmap) add(phaseUnit(cfg, unit, rosterMap, 0), 'roadmap', unit.hint);
   for (const unit of group.beta || []) add(phaseUnit(cfg, unit, rosterMap, 0), 'beta');
 
@@ -937,14 +967,14 @@ function overviewBannerBoard(cfg){
     support:[],
   }));
   const future = rows.slice(2).filter((row) => row.source !== 'beta').map((row) => row.unit);
-  for (const unit of group.roadmap || []) {
+  for (const unit of roadmapRows) {
     const key = normalizeUnitName(unit?.name);
     if (!key || shown.has(key)) continue;
     shown.add(key);
     future.push(phaseUnit(cfg, unit, rosterMap, 0));
   }
-  bannerApplyPlanLabels(current, next, planned, group.roadmap || []);
-  return { current, next, later, planned, future:future.filter(Boolean) };
+  bannerApplyPlanLabels(current, next, planned, roadmapRows);
+  return { current, next, later, planned, future:future.filter(Boolean), pinned };
 }
 
 // "6.7 Phase 2" reads as a patch; "Luna VIII" is already a name. Only prefix
@@ -1036,15 +1066,18 @@ function bannerApplyPlanLabels(current, next, planned, roadmap){
   }
 }
 
-function BannerBoardRow({ unit, status, onOpen }){
+function BannerBoardRow({ unit, status, onOpen, note }){
   const body = (
     <React.Fragment>
       {unit.icon && <img src={unit.icon} alt="" draggable="false" loading="lazy" />}
-      <FitText text={unit.name} />
+      <span className="gp-ovb-row-text">
+        <FitText text={unit.name} />
+        {note && <em className="gp-ovb-row-note">{note}</em>}
+      </span>
     </React.Fragment>
   );
   return (
-    <div className={'gp-ovb-row st-' + status}>
+    <div className={'gp-ovb-row st-' + status + (note ? ' has-note' : '')}>
       {unit.splash && <div className="gp-ovb-row-art" style={{ backgroundImage:bgUrl(unit.splash) }}></div>}
       {onOpen
         ? <button type="button" className="gp-ovb-row-body is-link" title={'Open ' + unit.name}
@@ -1054,10 +1087,10 @@ function BannerBoardRow({ unit, status, onOpen }){
   );
 }
 
-function BannerBoardColumn({ heading, children }){
+function BannerBoardColumn({ heading, className, children }){
   if (!React.Children.count(children)) return <div aria-hidden="true"></div>;
   return (
-    <div className="gp-ovb-col">
+    <div className={'gp-ovb-col' + (className ? ' ' + className : '')}>
       <b className={'gp-ovb-heading' + (heading ? '' : ' is-blank')}>{heading || ' '}</b>
       <div className="gp-ovb-body">{children}</div>
     </div>
@@ -1171,10 +1204,27 @@ function OverviewBannerBoard({ cfg, onOpenMaterial }){
         <BannerBoardColumn heading={bannerPhaseHeading(board.planned[1])}>
           {phaseColumn(board.planned[1])}
         </BannerBoardColumn>
-        <BannerBoardColumn heading={board.future.length ? 'Announced' : null}>
-          {board.future.map((unit) => (
-            <BannerBoardRow key={unit.name} unit={unit} status="upcoming" onOpen={unitLink(unit)} />
-          ))}
+        {/* The Announced list scrolls inside a capped body. Without the cap its
+            row count set the grid row height for every column, so a long list
+            inflated the headline banner cards to 3x the size they have on the
+            other games (user 2026-08-14). The copium pins sit below the scroll
+            area so they stay visible and don't count toward the cap. */}
+        <BannerBoardColumn className="is-announced"
+                           heading={(board.future.length || board.pinned.length) ? 'Announced' : null}>
+          {board.future.length > 0 && (
+            <div className="gp-ovb-scroll">
+              {board.future.map((unit) => (
+                <BannerBoardRow key={unit.name} unit={unit} status="upcoming" onOpen={unitLink(unit)} />
+              ))}
+            </div>
+          )}
+          {board.pinned.length > 0 && (
+            <div className="gp-ovb-pins">
+              {board.pinned.map((unit) => (
+                <BannerBoardRow key={unit.name} unit={unit} status="upcoming" note="copium" onOpen={unitLink(unit)} />
+              ))}
+            </div>
+          )}
         </BannerBoardColumn>
       </section>
     );
@@ -2576,10 +2626,165 @@ const GALLERY_TABS = [
   ['avatarFrames', 'Avatar Frames'],
 ];
 
+/* ---------- Gallery lightbox: full-size art with download / copy ----------
+   Gallery art is served from assets.pengo.gg while the page CSP is
+   `connect-src 'self'`, so the browser can show an image but not read its
+   bytes. Download and Copy both need the bytes, so a cross-origin asset is
+   routed through /api/asset/<key> (worker/worker.js) to stay same-origin.
+   Locally the art is a relative ../../Database path and needs no proxy. */
+function galleryAbsoluteUrl(src){
+  if (!src) return '';
+  try { return new URL(src, window.location.href).href; } catch (error) { return ''; }
+}
+
+function galleryFetchUrl(src){
+  const absolute = galleryAbsoluteUrl(src);
+  if (!absolute) return '';
+  let parsed;
+  try { parsed = new URL(absolute); } catch (error) { return ''; }
+  if (parsed.origin === window.location.origin) return absolute;
+  // Content-addressed objects (objects/sha256/aa/<hash>.<ext>) are the only
+  // shape the proxy accepts; anything else has no byte-level actions.
+  if (parsed.hostname !== 'assets.pengo.gg') return '';
+  const key = parsed.pathname.replace(/^\//, '');
+  if (!/^objects\/sha256\/[0-9a-f]{2}\/[0-9a-f]{64}\.(?:png|jpe?g|webp|gif|avif)$/.test(key)) return '';
+  return `/api/asset/${key}`;
+}
+
+function galleryFilename(name, src){
+  const extension = (galleryAbsoluteUrl(src).match(/\.([a-z0-9]+)(?:[?#]|$)/i) || [, 'webp'])[1].toLowerCase();
+  const base = String(name || 'artwork').replace(/[^\w\d]+/g, '-').replace(/^-+|-+$/g, '').slice(0, 80) || 'artwork';
+  return `${base}.${extension}`;
+}
+
+// Chrome only accepts image/png on the clipboard, and the art is WebP.
+function galleryBlobToPng(blob){
+  return new Promise((resolve, reject) => {
+    const url = URL.createObjectURL(blob);
+    const image = new Image();
+    image.onload = () => {
+      const canvas = document.createElement('canvas');
+      canvas.width = image.naturalWidth;
+      canvas.height = image.naturalHeight;
+      canvas.getContext('2d').drawImage(image, 0, 0);
+      canvas.toBlob((png) => {
+        URL.revokeObjectURL(url);
+        png ? resolve(png) : reject(new Error('Could not convert this image.'));
+      }, 'image/png');
+    };
+    image.onerror = () => { URL.revokeObjectURL(url); reject(new Error('Could not read this image.')); };
+    image.src = url;
+  });
+}
+
+function GalleryLightbox({ item, label, onClose }){
+  const closeRef = React.useRef(null);
+  const cardRef = React.useRef(null);
+  const [status, setStatus] = React.useState('');
+  const [busy, setBusy] = React.useState('');
+  const shareUrl = galleryAbsoluteUrl(item.art);
+  const fetchUrl = galleryFetchUrl(item.art);
+
+  React.useEffect(() => {
+    const onKeyDown = (event) => {
+      if (event.key === 'Escape') { event.preventDefault(); onClose(); return; }
+      if (event.key !== 'Tab') return;
+      const focusable = Array.from(cardRef.current?.querySelectorAll('button:not([disabled]), [href], [tabindex]:not([tabindex="-1"])') || []);
+      if (!focusable.length) { event.preventDefault(); cardRef.current?.focus(); return; }
+      const first = focusable[0];
+      const last = focusable[focusable.length - 1];
+      if (event.shiftKey && (document.activeElement === first || !cardRef.current?.contains(document.activeElement))) {
+        event.preventDefault();
+        last.focus();
+      } else if (!event.shiftKey && (document.activeElement === last || !cardRef.current?.contains(document.activeElement))) {
+        event.preventDefault();
+        first.focus();
+      }
+    };
+    document.addEventListener('keydown', onKeyDown);
+    closeRef.current?.focus();
+    return () => document.removeEventListener('keydown', onKeyDown);
+  }, [onClose]);
+
+  const loadBlob = async () => {
+    const response = await fetch(fetchUrl, { credentials:'same-origin' });
+    if (!response.ok) throw new Error(`Image returned ${response.status}`);
+    return response.blob();
+  };
+
+  const run = async (kind, work, done) => {
+    setBusy(kind);
+    setStatus('');
+    try {
+      await work();
+      setStatus(done);
+    } catch (error) {
+      setStatus(error?.message || 'That did not work.');
+    } finally {
+      setBusy('');
+    }
+  };
+
+  const download = () => run('download', async () => {
+    const blob = await loadBlob();
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = galleryFilename(item.name, item.art);
+    document.body.appendChild(link);
+    link.click();
+    link.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 30000);
+  }, 'Saved');
+
+  const copyImage = () => run('copy', async () => {
+    if (!navigator.clipboard || typeof window.ClipboardItem !== 'function') throw new Error('This browser cannot copy images.');
+    const png = await galleryBlobToPng(await loadBlob());
+    await navigator.clipboard.write([new window.ClipboardItem({ 'image/png':png })]);
+  }, 'Copied image');
+
+  const copyLink = () => run('link', async () => {
+    await navigator.clipboard.writeText(shareUrl);
+  }, 'Copied link');
+
+  const modal = (
+    <div className="db-modal gallery-lightbox" role="dialog" aria-modal="true" aria-label={item.name + ' artwork'}
+         onMouseDown={(event) => { if (event.target === event.currentTarget) onClose(); }}>
+      <article ref={cardRef} tabIndex={-1} className="db-modal-card gallery-lightbox-card">
+        <button type="button" ref={closeRef} className="db-modal-close" aria-label={'Close ' + item.name} onClick={onClose}>{'✕'}</button>
+        <div className="gallery-lightbox-art">
+          {item.art
+            ? <img src={item.art} alt={item.name} draggable="false" />
+            : <span>{simInitials(item.name)}</span>}
+        </div>
+        <div className="gallery-lightbox-copy">
+          <span className="db-modal-kind">{label}</span>
+          <h2>{item.name}</h2>
+          {item.description && <p className="db-modal-description">{item.description}</p>}
+        </div>
+        <div className="gallery-lightbox-actions">
+          <button type="button" disabled={!fetchUrl || !!busy} onClick={download}>
+            {busy === 'download' ? 'Saving…' : 'Download'}
+          </button>
+          <button type="button" disabled={!fetchUrl || !!busy} onClick={copyImage}>
+            {busy === 'copy' ? 'Copying…' : 'Copy'}
+          </button>
+          <button type="button" disabled={!shareUrl || !!busy} onClick={copyLink}>
+            {busy === 'link' ? 'Copying…' : 'Copy link'}
+          </button>
+          <span className="gallery-lightbox-status" role="status" aria-live="polite">{status}</span>
+        </div>
+      </article>
+    </div>
+  );
+  return ReactDOM.createPortal(modal, document.body);
+}
+
 function GenshinGalleryView(){
   const gallery = dbGame('gi')?.gallery || {};
   const [tab, setTab] = React.useState('namecards');
   const [q, setQ] = React.useState('');
+  const [detail, setDetail] = React.useState(null);
   const query = q.trim().toLowerCase();
   const items = (gallery[tab] || [])
     .filter((item) => !query || dbSearchText([item.name, item.description]).toLowerCase().includes(query))
@@ -2603,12 +2808,19 @@ function GenshinGalleryView(){
       <div className={'gallery-grid is-' + tab}>
         {items.map((item) => (
           <figure className="gallery-card" key={item.id}>
-            <div className="gallery-art">{item.art ? <img src={item.art} alt="" loading="lazy" draggable="false" /> : <span>{simInitials(item.name)}</span>}</div>
+            <button type="button" className="gallery-art is-open" title={'Open ' + item.name}
+                    onClick={() => setDetail(item)}>
+              {item.art ? <img src={item.art} alt="" loading="lazy" draggable="false" /> : <span>{simInitials(item.name)}</span>}
+            </button>
             <figcaption><b>{item.name}</b></figcaption>
           </figure>
         ))}
       </div>
       {items.length === 0 && <div className="db-empty">No gallery entries match your search.</div>}
+      {detail && (
+        <GalleryLightbox item={detail} label={GALLERY_TABS.find(([key]) => key === tab)[1]}
+                         onClose={() => setDetail(null)} />
+      )}
     </div>
   );
 }
@@ -3298,325 +3510,6 @@ function navKeyDown(fn){
   return (e) => { if (e.key === 'Enter' || e.key === ' ' || e.key === 'Spacebar') { e.preventDefault(); fn(); } };
 }
 
-const BETA_DIFF_STATS = [
-  ['hp', 'HP'], ['atk', 'ATK'], ['def', 'DEF'], ['speed', 'Speed'],
-  ['critRate', 'CRIT Rate'], ['critDmg', 'CRIT DMG'], ['energyRecharge', 'Energy Recharge'],
-  ['elementalMastery', 'Elemental Mastery'], ['impact', 'Impact'],
-  ['anomalyProficiency', 'Anomaly Proficiency'], ['anomalyMastery', 'Anomaly Mastery'],
-];
-
-const BETA_DIFF_MATERIAL_FIELDS = [
-  ['ascension', 'Ascension materials'], ['talents', 'Talent materials'],
-  ['talentStages', 'Talent stages'], ['talentBase', 'Talent base'],
-  ['talentBaseCost', 'Talent base cost'], ['ascCost', 'Ascension total cost'],
-  ['talentCost', 'Talent total cost'], ['currency', 'Currency'], ['weapon', 'Weapon materials'],
-];
-
-function betaRoundNumber(value){
-  if (!Number.isFinite(value)) return value;
-  return Number(value.toFixed(6));
-}
-
-function betaNormalizeString(value){
-  return String(value || '').replace(/\r\n?/g, '\n').trim();
-}
-
-function betaStableValue(value){
-  if (value === undefined || value === null || value === '') return null;
-  if (typeof value === 'number') return betaRoundNumber(value);
-  if (typeof value === 'string') return betaNormalizeString(value).replace(/\s+/g, ' ');
-  if (typeof value === 'boolean') return value;
-  if (Array.isArray(value)) {
-    return value.map(betaStableValue).filter((row) => row !== null)
-      .sort((a, b) => JSON.stringify(a).localeCompare(JSON.stringify(b)));
-  }
-  if (typeof value === 'object') {
-    return Object.keys(value).sort().reduce((out, key) => {
-      const row = betaStableValue(value[key]);
-      if (row !== null) out[key] = row;
-      return out;
-    }, {});
-  }
-  return String(value);
-}
-
-function betaMaterialValue(value){
-  if (Array.isArray(value)) return value.map(betaMaterialValue).filter((row) => row !== null);
-  if (!value || typeof value !== 'object') return value;
-  const allowed = ['id', 'name', 'qty', 'rar', 'kind', 'cost', 'items'];
-  return allowed.reduce((out, key) => {
-    if (value[key] !== undefined && value[key] !== null && value[key] !== '') out[key] = betaMaterialValue(value[key]);
-    return out;
-  }, {});
-}
-
-function betaSkillValue(value){
-  if (Array.isArray(value)) return value.map(betaSkillValue).filter((row) => row !== null);
-  if (!value || typeof value !== 'object') return value;
-  const allowed = ['label', 'text', 'title', 'columns', 'rows', 'values'];
-  return allowed.reduce((out, key) => {
-    if (value[key] !== undefined && value[key] !== null && value[key] !== '') out[key] = betaSkillValue(value[key]);
-    return out;
-  }, {});
-}
-
-function betaFieldValue(value){
-  if (value === undefined || value === null || value === '') return 'Not provided';
-  if (typeof value === 'string') return betaNormalizeString(value) || 'Not provided';
-  if (typeof value === 'number') return String(betaRoundNumber(value));
-  if (typeof value === 'boolean') return value ? 'Yes' : 'No';
-  return JSON.stringify(betaStableValue(value), null, 2) || 'Not provided';
-}
-
-function betaPairRows(beforeRows, afterRows, keyFns){
-  const before = Array.isArray(beforeRows) ? beforeRows : [];
-  const after = Array.isArray(afterRows) ? afterRows : [];
-  const unused = new Set(before.map((_, index) => index));
-  const pairs = after.map((afterRow, afterIndex) => {
-    let beforeIndex = -1;
-    for (const getKey of keyFns) {
-      const afterKey = betaNormalizeString(getKey(afterRow) || '').toLowerCase();
-      if (!afterKey) continue;
-      beforeIndex = before.findIndex((beforeRow, index) => (
-        unused.has(index) && betaNormalizeString(getKey(beforeRow) || '').toLowerCase() === afterKey
-      ));
-      if (beforeIndex >= 0) break;
-    }
-    if (beforeIndex < 0 && unused.has(afterIndex)) beforeIndex = afterIndex;
-    if (beforeIndex < 0) beforeIndex = [...unused][0] ?? -1;
-    if (beforeIndex >= 0) unused.delete(beforeIndex);
-    return { before:beforeIndex >= 0 ? before[beforeIndex] : {}, after:afterRow || {} };
-  });
-  for (const beforeIndex of unused) pairs.push({ before:before[beforeIndex] || {}, after:{} });
-  return pairs;
-}
-
-function betaDiffRows(live, beta){
-  if (!live || !beta) return [];
-  const rows = [];
-  const add = (group, label, before, after) => {
-    if (JSON.stringify(betaStableValue(before)) === JSON.stringify(betaStableValue(after))) return;
-    rows.push({ group, label, before, after });
-  };
-  add('Identity', 'Name', live.n, beta.n);
-  add('Identity', 'Title', live.title, beta.title);
-  add('Identity', 'Rarity', live.r, beta.r);
-
-  for (const [key, label] of BETA_DIFF_STATS) {
-    add('Base stats', `${label} (Level 1)`, live.baseStats?.level1?.[key], beta.baseStats?.level1?.[key]);
-    add('Base stats', `${label} (Max)`, live.baseStats?.max?.[key], beta.baseStats?.max?.[key]);
-  }
-  add('Base stats', 'Maximum level', live.baseStats?.max?.level, beta.baseStats?.max?.level);
-
-  for (const [key, label] of BETA_DIFF_MATERIAL_FIELDS) {
-    add('Materials', label, betaMaterialValue(live.req?.[key]), betaMaterialValue(beta.req?.[key]));
-  }
-
-  const liveSections = Array.isArray(live.kit?.sections) ? live.kit.sections : [];
-  const betaSections = Array.isArray(beta.kit?.sections) ? beta.kit.sections : [];
-  const sectionPairs = betaPairRows(liveSections, betaSections, [(section) => section?.title]);
-  for (let sectionIndex = 0; sectionIndex < sectionPairs.length; sectionIndex += 1) {
-    const beforeSection = sectionPairs[sectionIndex].before;
-    const afterSection = sectionPairs[sectionIndex].after;
-    const sectionName = afterSection.title || beforeSection.title || `Section ${sectionIndex + 1}`;
-    add('Skills and talents', `${sectionName} / Section name`, beforeSection.title, afterSection.title);
-    const beforeEntries = Array.isArray(beforeSection.entries) ? beforeSection.entries : [];
-    const afterEntries = Array.isArray(afterSection.entries) ? afterSection.entries : [];
-    const entryPairs = betaPairRows(beforeEntries, afterEntries, [
-      (entry) => `${entry?.name || ''}|${entry?.type || ''}`,
-      (entry) => entry?.name,
-      (entry) => entry?.type,
-    ]);
-    for (let entryIndex = 0; entryIndex < entryPairs.length; entryIndex += 1) {
-      const beforeEntry = entryPairs[entryIndex].before;
-      const afterEntry = entryPairs[entryIndex].after;
-      const entryName = afterEntry.name || beforeEntry.name || `Entry ${entryIndex + 1}`;
-      const prefix = `${sectionName} / ${entryName}`;
-      add('Skills and talents', `${prefix} / Name`, beforeEntry.name, afterEntry.name);
-      add('Skills and talents', `${prefix} / Type`, beforeEntry.type, afterEntry.type);
-      add('Skills and talents', `${prefix} / Description`, beforeEntry.desc, afterEntry.desc);
-      add('Skills and talents', `${prefix} / Levels`, betaSkillValue(beforeEntry.levels), betaSkillValue(afterEntry.levels));
-      add('Skills and talents', `${prefix} / Scaling`, betaSkillValue(beforeEntry.scaling), betaSkillValue(afterEntry.scaling));
-    }
-  }
-  return rows;
-}
-
-function BetaDiffValue({ value, compact }){
-  const text = betaFieldValue(value);
-  const isLong = text.length > (compact ? 120 : 260) || text.split('\n').length > (compact ? 3 : 7);
-  if (!isLong) return <pre>{text}</pre>;
-  return (
-    <details className="beta-diff-long">
-      <summary>{compact ? 'Show value' : 'Show full value'}</summary>
-      <pre>{text}</pre>
-    </details>
-  );
-}
-
-function BetaDiffModal({ character, liveCharacter, onClose }){
-  const [compact, setCompact] = React.useState(false);
-  const closeRef = React.useRef(null);
-  const cardRef = React.useRef(null);
-  const rows = React.useMemo(() => betaDiffRows(liveCharacter, character), [liveCharacter, character]);
-  React.useEffect(() => {
-    const onKeyDown = (event) => {
-      if (event.key === 'Escape') {
-        event.preventDefault();
-        onClose();
-      } else if (event.key === 'Tab') {
-        const focusable = Array.from(cardRef.current?.querySelectorAll('button:not([disabled]), summary, [href], [tabindex]:not([tabindex="-1"])') || []);
-        if (!focusable.length) {
-          event.preventDefault();
-          cardRef.current?.focus();
-          return;
-        }
-        const first = focusable[0];
-        const last = focusable[focusable.length - 1];
-        if (event.shiftKey && (document.activeElement === first || !cardRef.current?.contains(document.activeElement))) {
-          event.preventDefault();
-          last.focus();
-        } else if (!event.shiftKey && (document.activeElement === last || !cardRef.current?.contains(document.activeElement))) {
-          event.preventDefault();
-          first.focus();
-        }
-      }
-    };
-    document.addEventListener('keydown', onKeyDown);
-    closeRef.current?.focus();
-    return () => document.removeEventListener('keydown', onKeyDown);
-  }, [onClose]);
-  const modal = (
-    <div className="beta-diff-modal" role="dialog" aria-modal="true" aria-labelledby="beta-diff-title"
-         onMouseDown={(event) => { if (event.target === event.currentTarget) onClose(); }}>
-      <article ref={cardRef} tabIndex={-1} className={'beta-diff-card' + (compact ? ' compact' : '')}>
-        <header>
-          <div>
-            <span>Live vs Beta</span>
-            <h2 id="beta-diff-title">{character.n}</h2>
-            <em>{rows.length} trusted field {rows.length === 1 ? 'change' : 'changes'}</em>
-          </div>
-          <div className="beta-diff-actions">
-            <button type="button" aria-pressed={compact} onClick={() => setCompact((value) => !value)}>{compact ? 'Side by side' : 'Compact'}</button>
-            <button type="button" ref={closeRef} aria-label={`Close ${character.n} changes`} onClick={onClose}>{'\u2715'}</button>
-          </div>
-        </header>
-        {rows.length === 0 ? (
-          <p className="beta-diff-empty">This record is marked changed, but its trusted display fields match after normalization.</p>
-        ) : compact ? (
-          <div className="beta-diff-compact-list">
-            {rows.map((row, index) => (
-              <section key={`${row.group}-${row.label}-${index}`}>
-                <span>{row.group}</span><b>{row.label}</b>
-                <div><BetaDiffValue value={row.before} compact /><i aria-hidden="true">{'\u2192'}</i><BetaDiffValue value={row.after} compact /></div>
-              </section>
-            ))}
-          </div>
-        ) : (
-          <div className="beta-diff-table" role="table" aria-label={`${character.n} live and beta changes`}>
-            <div className="beta-diff-table-head" role="row"><span role="columnheader">Field</span><b role="columnheader">Live</b><b role="columnheader">Beta</b></div>
-            {rows.map((row, index) => (
-              <div className="beta-diff-row" role="row" key={`${row.group}-${row.label}-${index}`}>
-                <div role="rowheader"><span>{row.group}</span><b>{row.label}</b></div>
-                <div role="cell"><BetaDiffValue value={row.before} /></div>
-                <div role="cell"><BetaDiffValue value={row.after} /></div>
-              </div>
-            ))}
-          </div>
-        )}
-      </article>
-    </div>
-  );
-  return ReactDOM.createPortal ? ReactDOM.createPortal(modal, document.body) : modal;
-}
-
-function BetaDataPanel({ gameKey, onOpenCharacter }){
-  const [, setTick] = React.useState(0);
-  const [inspecting, setInspecting] = React.useState(null);
-  const restoreFocusRef = React.useRef(null);
-  React.useEffect(() => {
-    let live = true;
-    const onBeta = (event) => {
-      if (!event.detail || event.detail.key === gameKey) setTick((v) => v + 1);
-    };
-    window.addEventListener('nyx:cm-beta-loaded', onBeta);
-    if (window.loadNyxCmGame) window.loadNyxCmGame(gameKey).then(() => { if (live) setTick((v) => v + 1); }).catch(() => {});
-    if (window.loadNyxCmBeta) window.loadNyxCmBeta(gameKey).then(() => { if (live) setTick((v) => v + 1); }).catch(() => {});
-    return () => { live = false; window.removeEventListener('nyx:cm-beta-loaded', onBeta); };
-  }, [gameKey]);
-
-  React.useEffect(() => setInspecting(null), [gameKey]);
-
-  const pack = (window.CM_CFG_BETA || {})[gameKey] || null;
-  const liveCfg = (window.CM_CFG || {})[gameKey] || null;
-  const characters = (pack?.roster || []).slice().sort((a, b) => (a.betaStatus === 'new' ? 0 : 1) - (b.betaStatus === 'new' ? 0 : 1) || String(a.n || '').localeCompare(String(b.n || '')));
-  const weapons = (pack?.weapons || []).slice().sort((a, b) => String(a.name || '').localeCompare(String(b.name || '')));
-  const hasAny = characters.length || weapons.length;
-  const findLiveCharacter = (character) => (liveCfg?.roster || []).find((row) => String(row.id) === String(character.id))
-    || (liveCfg?.roster || []).find((row) => String(row.n || '').toLowerCase() === String(character.n || '').toLowerCase())
-    || null;
-  const openInspector = (character, event) => {
-    if (character.betaStatus !== 'changed') return;
-    restoreFocusRef.current = event?.currentTarget || document.activeElement;
-    setInspecting({ character, liveCharacter:findLiveCharacter(character) });
-  };
-  const closeInspector = React.useCallback(() => {
-    setInspecting(null);
-    const restore = restoreFocusRef.current;
-    restoreFocusRef.current = null;
-    if (restore && typeof restore.focus === 'function') requestAnimationFrame(() => restore.focus());
-  }, []);
-  return (
-    <main className="gp-main-pane fill beta-pane">
-      <div className="beta-pane-head">
-        <div>
-          <b>Beta</b>
-          <span>{[pack?.version ? `Version ${pack.version}` : '', pack?.liveVersion ? `Live ${pack.liveVersion}` : ''].filter(Boolean).join(' / ')}</span>
-        </div>
-        <em>{pack ? `${pack.newCount || 0} new / ${pack.changedCount || 0} changed` : ''}</em>
-      </div>
-      {characters.length > 0 && (
-        <section className="beta-section">
-          <div className="beta-section-title">Characters</div>
-          <div className="beta-grid">
-            {characters.map((ch) => {
-              const changed = ch.betaStatus === 'changed';
-              return (
-                <article className={'beta-card beta-character-card' + (changed ? ' inspectable' : '')} key={ch.id}>
-                  <button type="button" className="beta-card-main" disabled={!changed}
-                          aria-label={changed ? `Inspect live and beta changes for ${ch.n}` : `${ch.n} is new in beta`}
-                          onClick={(event) => openInspector(ch, event)}>
-                    {ch.icon && <img src={ch.icon} alt="" draggable="false" />}
-                    <span><b>{ch.n}</b><em>{ch.betaStatus === 'new' ? 'New' : 'Changed'}{ch.reliableData === false ? ' / No reliable data' : ''}</em></span>
-                  </button>
-                  <button type="button" className="beta-card-open" aria-label={`View ${ch.n} character`} onClick={() => onOpenCharacter(ch)}>View character</button>
-                </article>
-              );
-            })}
-          </div>
-        </section>
-      )}
-      {weapons.length > 0 && (
-        <section className="beta-section">
-          <div className="beta-section-title">{gameKey === 'hsr' ? 'Light Cones' : 'Weapons'}</div>
-          <div className="beta-grid">
-            {weapons.map((weapon) => (
-              <article className="beta-card" key={weapon.id}>
-                {weapon.icon && <img src={weapon.icon} alt="" draggable="false" />}
-                <div><b>{weapon.name}</b><span>{weapon.type || weapon.weaponType || liveCfg?.tabs?.mid || 'Beta'}</span></div>
-              </article>
-            ))}
-          </div>
-        </section>
-      )}
-      {!hasAny && <div className="db-empty">No beta datasets are available for this game right now.</div>}
-      {inspecting && (
-        <BetaDiffModal character={inspecting.character} liveCharacter={inspecting.liveCharacter} onClose={closeInspector} />
-      )}
-    </main>
-  );
-}
-
 // Which games have an achievement tracker.
 //
 // The multi-game registry (features/achievements/achievement-games.js) is part
@@ -3662,31 +3555,17 @@ function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings, 
   const fns = cfg.fns || ['Characters','Database','Wish Tracker'];
   const visibleFns = fns; // J: Database is always visible (gating + settings toggle removed)
   const sideNavRef = React.useRef(null);
-  const [cmChannel, setCmChannel] = React.useState(() => (typeof cmLoadChannel === 'function' ? cmLoadChannel(cfg.key) : 'live'));
-  React.useEffect(() => {
-    setCmChannel(typeof cmLoadChannel === 'function' ? cmLoadChannel(cfg.key) : 'live');
-  }, [cfg.key]);
-  React.useEffect(() => {
-    const onChannel = (event) => {
-      const detail = event.detail || {};
-      if (detail.key === cfg.key && (detail.channel === 'live' || detail.channel === 'beta')) setCmChannel(detail.channel);
-    };
-    const onSettings = () => setCmChannel(typeof cmLoadChannel === 'function' ? cmLoadChannel(cfg.key) : 'live');
-    window.addEventListener('nyx:cm-channel-changed', onChannel);
-    window.addEventListener('nyx:settings-changed', onSettings);
-    return () => {
-      window.removeEventListener('nyx:cm-channel-changed', onChannel);
-      window.removeEventListener('nyx:settings-changed', onSettings);
-    };
-  }, [cfg.key]);
+  // The channel state that used to live here only fed the Beta nav section
+  // (removed 2026-08-14). The Live/Beta toggle and CharMaterials each track the
+  // channel themselves, so GameContent no longer listens for it.
   const hasTcg = cfg.key === 'gi';
   const hasGallery = cfg.key === 'gi';
   const hasLibrary = cfg.key === 'gi' || cfg.key === 'hsr';
   const hasAchievements = achievementsSupported(cfg.key);
-  const betaActive = cfg.key !== 'ae' && typeof cmHasBeta === 'function' && cmHasBeta(cfg.key) && (cmChannel === 'beta' || window.NYX_ALWAYS_BETA === true);
-  React.useEffect(() => {
-    if (tab === 'beta' && !betaActive) setTab('mats');
-  }, [tab, betaActive, setTab]);
+  // The Beta section was removed from the side nav 2026-08-14 (user request).
+  // The Live/Beta channel toggle and all beta character data stay — only the
+  // standalone /<game>/beta data-diff page is gone. Old links fall back to the
+  // overview through validTabsForKey/coerceTabForKey.
   React.useEffect(() => {
     const nav = sideNavRef.current;
     if (nav && window.matchMedia('(max-width:760px)').matches) nav.scrollLeft = 0;
@@ -3694,15 +3573,6 @@ function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings, 
   const openCharacterCustomize = (payload) => {
     setCharacterCustomize(Object.assign({ game:cfg.key, restoreScroll:0 }, payload || {}));
     setTab('char-customize');
-  };
-  const openBetaCharacter = (character) => {
-    if (!character) return;
-    cmSaveChannel(cfg.key, 'beta');
-    try { window.dispatchEvent(new CustomEvent('nyx:cm-channel-changed', { detail:{ key:cfg.key, channel:'beta' } })); } catch (e) {}
-    setTab('mats');
-    // routeTab clears the prior page selection while changing tabs, so enqueue
-    // the beta character after it; the materials panel then opens this name.
-    if (setMaterialSelection) setMaterialSelection({ game:cfg.key, name:character.n, from:'beta' });
   };
   const backFromCharacterCustomize = () => {
     const restore = Number(characterCustomize?.restoreScroll || 0);
@@ -3714,7 +3584,7 @@ function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings, 
   };
   // G13: the section list the Characters header icon-dropdown switches between.
   const sectionKey = (f) => /tracker$/i.test(f) ? 'tracker' : /^gallery$/i.test(f) ? 'gallery' : /^(characters|character materials)$/i.test(f) ? 'mats' : 'database';
-  const sections = [{ key:'overview', label:'Overview' }, ...visibleFns.map((f) => ({ key:sectionKey(f), label:f })), ...(hasAchievements ? [{ key:'achievements', label:'Achievements' }] : []), ...(hasLibrary ? [{ key:'books', label:'Library' }] : []), ...(betaActive ? [{ key:'beta', label:'Beta' }] : []), { key:'settings', label:'Settings' }];
+  const sections = [{ key:'overview', label:'Overview' }, ...visibleFns.map((f) => ({ key:sectionKey(f), label:f })), ...(hasAchievements ? [{ key:'achievements', label:'Achievements' }] : []), ...(hasLibrary ? [{ key:'books', label:'Library' }] : []), { key:'settings', label:'Settings' }];
   return (
     <div className="gp-layout">
       <nav ref={sideNavRef} className="gp-side-nav" aria-label="Tools">
@@ -3740,9 +3610,6 @@ function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings, 
         )}
         {hasLibrary && (
           <GPSectionNavButton active={tab === 'books'} label="Library" onActivate={() => setTab('books')} />
-        )}
-        {betaActive && (
-          <GPSectionNavButton active={tab === 'beta'} label="Beta" onActivate={() => setTab('beta')} />
         )}
         <GPSectionNavButton active={tab === 'settings'} label="Settings" onActivate={() => setTab('settings')} />
       </nav>
@@ -3821,7 +3688,6 @@ function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings, 
       {tab === 'gallery' && hasGallery && <main className="gp-main-pane fill"><GenshinGalleryView /></main>}
       {tab === 'achievements' && hasAchievements && <AchievementPage key={cfg.key} game={cfg.key} />}
       {tab === 'books' && hasLibrary && <LibraryPage game={cfg.key} />}
-      {tab === 'beta' && betaActive && <BetaDataPanel gameKey={cfg.key} onOpenCharacter={openBetaCharacter} />}
       {tab === 'settings' && <SettingsPane settings={settings} setSettings={setSettings} />}
 
     </div>
@@ -4300,7 +4166,6 @@ const GAME_TAB_TO_ROUTE = {
   wonderland:'database/wonderland',
   achievements:'achievements',
   books:'books',
-  beta:'beta',
   settings:'settings',
 };
 // key -> URL segment (the inverse of ROUTE_SEGMENT_TO_KEY); used by the hub
@@ -4336,7 +4201,8 @@ const ROUTE_TO_GAME_TAB = {
   pot:'pot',
   furniture:'pot',
   wonderland:'wonderland',
-  beta:'beta',
+  // Retired 2026-08-14: /<game>/beta no longer has a page. The segment is left
+  // out of the map so coerceTabForKey falls the URL through to the overview.
   settings:'settings',
 };
 const ROUTE_TO_NYX_TAB = {
@@ -4453,7 +4319,7 @@ function routeTitleFor(key, tab, selection, timelineGame){
       || (tab ? tab.replace(/\b\w/g, (c) => c.toUpperCase()) : '');
     return nyxLabel ? 'Nyx \u2014 ' + nyxLabel : 'Nyx';
   }
-  const label = { mats:'Characters', database:'Database', gallery:'Gallery', tracker:'Tracker', shadow:'TPS: Shadow Realm', tcg:'TCG', pot:'Serenitea Pot', wonderland:'Miliastra Wonderland', achievements:'Achievements', books:'Library', beta:'Beta', settings:'Settings' }[tab] || '';
+  const label = { mats:'Characters', database:'Database', gallery:'Gallery', tracker:'Tracker', shadow:'TPS: Shadow Realm', tcg:'TCG', pot:'Serenitea Pot', wonderland:'Miliastra Wonderland', achievements:'Achievements', books:'Library', settings:'Settings' }[tab] || '';
   return label ? 'Nyx \u2014 ' + label + ' \u2014 ' + name : 'Nyx \u2014 ' + name;
 }
 
@@ -4465,7 +4331,8 @@ function validTabsForKey(key){
   if (key === 'gi') tabs.push('gallery','shadow','tcg','pot','wonderland');
   if (achievementsSupported(key)) tabs.push('achievements');
   if (key === 'gi' || key === 'hsr') tabs.push('books');
-  tabs.push('beta','settings');
+  // 'beta' was retired 2026-08-14; a bookmarked /<game>/beta coerces to overview.
+  tabs.push('settings');
   return tabs;
 }
 

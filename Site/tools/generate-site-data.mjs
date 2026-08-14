@@ -2115,6 +2115,32 @@ function materialLookup(mat, lookup) {
   return null;
 }
 
+/* Per-phase ascension costs, so the character page can price a target level
+   instead of always quoting the cost to max (user 2026-08-14). Each entry is
+   `{ cap, items, cost }` where `cap` is the maximum level that phase unlocks;
+   summing every stage up to a target level gives that level's real bill.
+   Genshin used to be the only game that could do this, via a hard-coded
+   per-phase pattern in char-materials.jsx — but every game already ships the
+   real numbers, they just were not carried through.
+
+   Caps by game (phases unlock at the previous cap):
+     GI / WuWa  40 50 60 70 80 90   (six phases, max 90)
+     HSR        30 40 50 60 70 80   (six promotions, max 80)
+     ZZZ        20 30 40 50 60      (five stages, max 60) */
+const ASCENSION_CAPS = {
+  gi:[40, 50, 60, 70, 80, 90],
+  wuwa:[40, 50, 60, 70, 80, 90],
+  hsr:[30, 40, 50, 60, 70, 80],
+  zzz:[20, 30, 40, 50, 60],
+};
+
+function ascensionStage(game, index, items, cost) {
+  const caps = ASCENSION_CAPS[game] || [];
+  const cap = caps[index];
+  if (!cap || (!items.length && !cost)) return null;
+  return { cap, items, cost };
+}
+
 function sumMaterials(rows, lookup = null, game = 'gi') {
   const byName = new Map();
   let cost = 0;
@@ -2354,8 +2380,13 @@ function giRequirements(raw) {
       cost: stage.cost,
     };
   }));
+  const ascensionStages = (raw.materials.ascensions || []).map((phase, index) => {
+    const stage = sumMaterials([phase], lookup, 'gi');
+    return ascensionStage('gi', index, stage.items.sort((a, b) => kindRank(a.kind) - kindRank(b.kind)), stage.cost);
+  }).filter(Boolean);
   return {
     ascension: asc.items.sort((a, b) => kindRank(a.kind) - kindRank(b.kind)).slice(0, 9),
+    ascensionStages,
     talents: tal.items.sort((a, b) => kindRank(a.kind) - kindRank(b.kind)).slice(0, 9),
     talentStages,
     ascCost: asc.cost,
@@ -2550,11 +2581,70 @@ function buildGiRoster() {
           signatureWeaponEducated: signature.educated || undefined,
         } : {}),
         req: giRequirements(raw),
+        story: giStoryRecord(ch),
       };
     });
   chars.sort((a, b) => (b.release || 0) - (a.release || 0) || Number(b.r) - Number(a.r) || a.n.localeCompare(b.n));
   markRecentBuckets(chars, (ch) => ch.release, 9);
+  writeGenshinStoryFiles(chars);
+  for (const ch of chars) delete ch.story;
   return chars;
+}
+
+/* ---- Genshin character stories -----------------------------------------
+   The Story tab shows what Nanoka's does: Character Stories (each with its
+   unlock condition) and Voice Lines, plus the voice cast, which the site had
+   nowhere else. All of it is already in GameData profile.stories / .quotes.
+
+   It is NOT baked into cm-data-gi.js: stories are 2.1 MB and voice lines 5.4 MB
+   across 148 characters, on top of a bundle that is already 17.8 MB. They ship
+   as one file per character, fetched when the tab is first opened — the same
+   shape the Library already uses for books. */
+function giStoryText(value) {
+  return cleanDatabaseText(String(value ?? '').replace(/\\r\\n|\\n|\\r/g, '\n'));
+}
+
+function giStoryEntries(rows) {
+  return (rows || []).map((row) => {
+    const text = giStoryText(row?.text);
+    const title = cleanText(row?.title, 120);
+    if (!title || !text) return null;
+    const unlock = [...(row?.unlock || []), ...(row?.unlocked || [])]
+      .map((value) => cleanText(value, 120)).filter(Boolean);
+    return { title, text, ...(unlock.length ? { unlock } : {}) };
+  }).filter(Boolean);
+}
+
+function giStoryRecord(ch) {
+  const stories = giStoryEntries(ch?.profile?.stories);
+  const quotes = giStoryEntries(ch?.profile?.quotes);
+  const va = Object.entries(ch?.profile?.va || {})
+    .map(([language, name]) => ({ language, name: cleanText(name, 80) }))
+    .filter((row) => row.name);
+  if (!stories.length && !quotes.length && !va.length) return null;
+  return { stories, quotes, va };
+}
+
+function writeGenshinStoryFiles(chars) {
+  const dir = path.resolve(dbDir, 'CharacterStory', 'gi');
+  fs.rmSync(dir, { recursive: true, force: true });
+  fs.mkdirSync(dir, { recursive: true });
+  const entries = [];
+  for (const ch of chars) {
+    if (!ch.story) continue;
+    // The id is `gi-<numeric>`; the file is keyed by the numeric part so the
+    // runtime path can be validated with a strict pattern.
+    const key = String(ch.id).replace(/^gi-/, '');
+    if (!/^[0-9]+(?:-[0-9]+)?$/.test(key)) continue;
+    const payload = { schemaVersion: 1, game: 'gi', id: ch.id, name: ch.n, ...ch.story };
+    fs.writeFileSync(path.join(dir, `${key}.json`), `${JSON.stringify(payload)}\n`);
+    entries.push({ id: ch.id, key, name: ch.n, stories: ch.story.stories.length, quotes: ch.story.quotes.length });
+  }
+  fs.writeFileSync(
+    path.resolve(dbDir, 'CharacterStory', 'gi', 'index.json'),
+    `${JSON.stringify({ schemaVersion: 1, game: 'gi', count: entries.length, entries }, null, 2)}\n`,
+  );
+  console.log(`Generated character stories (gi): ${entries.length} files`);
 }
 
 function hsrMaterialKind(id) {
@@ -2656,8 +2746,17 @@ function hsrRequirements(raw) {
     }
   }
   const traces = sumHsrMaterialList(traceRows, lookup);
+  // raw.stats is keyed by promotion ("0".."6"); promotion 6 is the final tier
+  // and carries no cost of its own.
+  const ascensionStages = Object.entries(raw.stats || {})
+    .sort((a, b) => Number(a[0]) - Number(b[0]))
+    .map(([, row], index) => {
+      const stage = sumHsrMaterialList(row?.cost || [], lookup);
+      return ascensionStage('hsr', index, sortItems(stage.items), stage.cost);
+    }).filter(Boolean);
   return {
     ascension: sortItems(asc.items).slice(0, 14),
+    ascensionStages,
     talents: sortItems(traces.items).slice(0, 14),
     talentStages,
     talentBase: sortItems(minor.items),
@@ -3143,8 +3242,17 @@ function zzzRequirements(raw) {
     ...ZZZ_SKILL_ORDER.map((key) => zzzStagesFromLevels(raw.skill?.[key]?.material)),
     zzzStagesFromLevels(raw.passive?.materials),
   ];
+  // raw.level is keyed "1".."6" with level_min/level_max; stage 6 is the top
+  // tier and has no materials.
+  const ascensionStages = Object.entries(raw.level || {})
+    .sort((a, b) => Number(a[0]) - Number(b[0]))
+    .map(([, stage], index) => {
+      const sums = sumGameDataMaterialPairs('zzz', objectMaterialPairs(stage?.materials), zzzMaterialKind, '10');
+      return ascensionStage('zzz', index, sums.items, sums.cost);
+    }).filter(Boolean);
   return {
     ascension: asc.items,
+    ascensionStages,
     talents: talents.items,
     talentStages,
     ascCost: asc.cost,
@@ -3291,8 +3399,16 @@ function wuwaRequirements(raw) {
   const talents = sumGameDataMaterialPairs('ww', skillPairs, wuwaMaterialKind, '2');
   const chosenWeekly = weekly && talents.items.find((item) => String(item.id) === String(weekly));
   if (chosenWeekly) chosenWeekly.kind = 'weekly';
+  const ascensionStages = Object.entries(raw.ascensions || {})
+    .sort((a, b) => Number(a[0]) - Number(b[0]))
+    .map(([, stage], index) => {
+      const pairs = (stage || []).map((row) => [String(row.key), Number(row.value || 0)]);
+      const sums = sumGameDataMaterialPairs('ww', pairs, wuwaMaterialKind, '2');
+      return ascensionStage('wuwa', index, sums.items, sums.cost);
+    }).filter(Boolean);
   return {
     ascension: asc.items,
+    ascensionStages,
     talents: talents.items,
     ascCost: asc.cost,
     talentCost: talents.cost,
@@ -5198,10 +5314,32 @@ function buildGenshinGallery() {
   })).filter((item) => item.art);
   return {
     namecards,
-    portraits:GENSHIN_AVATARS.length ? GENSHIN_AVATARS : [...portraitItems, ...characterPortraits],
+    // Was `GENSHIN_AVATARS.length ? GENSHIN_AVATARS : [...items, ...roster]` —
+    // either/or, so a non-empty wiki manifest silently discarded every
+    // roster-derived portrait. The manifest lags new releases (it had no Odette
+    // while the roster and splash arts did), which is exactly when a portrait
+    // is most wanted. Merged instead, wiki art first because it is the nicer
+    // crop, then the in-game profile pictures, then the roster icons as the
+    // guaranteed floor for anyone the other two have not caught up with.
+    portraits:mergeGalleryEntries(GENSHIN_AVATARS, portraitItems, characterPortraits),
     avatarFrames,
     splashArts,
   };
+}
+
+// De-duplicate by display name, keeping the first source that supplies one.
+function mergeGalleryEntries(...lists) {
+  const seen = new Set();
+  const merged = [];
+  for (const list of lists) {
+    for (const entry of list || []) {
+      const key = normKey(entry?.name);
+      if (!key || !entry.art || seen.has(key)) continue;
+      seen.add(key);
+      merged.push(entry);
+    }
+  }
+  return merged;
 }
 
 const DATABASE_AUDIT_CONFIG = {
@@ -6022,8 +6160,15 @@ function buildBannersData(rosters, betaDeltas = {}) {
       }, runCounts))
       .filter(Boolean);
     if (beta.length) games[key].beta = beta;
-    const roadmap = bannerRoadmapCharacters(rosters, key, group.roadmap, runCounts);
+    // Long-teased names the user keeps pinned at the foot of Announced as a
+    // joke (Genshin's Dainsleif + Alice). The scraper flags them inside
+    // `roadmap` so they localize their art like everyone else; the split is a
+    // display decision, so it happens here.
+    const roadmapRows = group.roadmap || [];
+    const roadmap = bannerRoadmapCharacters(rosters, key, roadmapRows.filter((row) => !row?.pinned), runCounts);
     if (roadmap.length) games[key].roadmap = roadmap;
+    const pinned = bannerRoadmapCharacters(rosters, key, roadmapRows.filter((row) => row?.pinned), runCounts);
+    if (pinned.length) games[key].pinned = pinned;
   }
   return { updated: src.updated || src.generatedAt || null, checkedAt: src.checkedAt || null, games };
 }
@@ -6288,13 +6433,46 @@ const meta = sourceMeta();
 
 fs.mkdirSync(generatedDataDir, { recursive: true });
 
+/* Character level-up costs per ascension band, scraped from each game's wiki
+   into Database/Leveling (Scraper/leveling). Shipped in cm-data.js — it is a
+   handful of rows per game, and both the character page and the downloadable
+   material image need it. Endfield has no published table and keeps the
+   max-level figure baked into char-materials-leveling.js. */
+function buildLevelingTables() {
+  const out = {};
+  for (const game of ['gi', 'hsr', 'zzz', 'wuwa']) {
+    const rel = `Leveling/${game}.json`;
+    if (!exists(rel)) continue;
+    const payload = readJson(rel);
+    if (payload?.schemaVersion !== 1 || !Array.isArray(payload.stages) || !payload.stages.length) continue;
+    out[game] = {
+      maxLevel: payload.maxLevel,
+      currency: payload.currency?.name || null,
+      stages: payload.stages.map((stage) => ({
+        cap: stage.cap,
+        cost: stage.cost,
+        items: stage.items.map((item) => ({
+          id: item.id,
+          name: item.name,
+          qty: item.qty,
+          rar: rarityNumber(item.rarity, 3),
+          kind: 'exp',
+          icon: dbAsset(item.icon),
+        })),
+      })),
+    };
+  }
+  return out;
+}
+
 const cmHeader = `// ============================================================\n// Nyx - generated Character Materials data\n// Source: Database/Prydwen, Database/GameData, Database/EndfieldWiki\n// Generated by Site/tools/generate-site-data.mjs\n// ============================================================\n\n`;
 
 const cmPalettes = `const CM_RAR = {\n  6:{ a:'#ef8a5e', b:'#d05a3a', ring:'#ffb07d', glow:'rgba(255,140,90,.6)' },\n  5:{ a:'#e3b269', b:'#caa14e', ring:'#ffd98a', glow:'rgba(255,190,90,.55)' },\n  4:{ a:'#9a89ea', b:'#6f57bf', ring:'#cdb3ff', glow:'rgba(150,120,255,.5)' },\n  3:{ a:'#4f7fc4', b:'#3a5d96', ring:'#9cc2ff', glow:'rgba(90,150,255,.45)' },\n  2:{ a:'#4faf8f', b:'#3a8068', ring:'#9ce8c8', glow:'rgba(90,210,160,.4)' },\n  1:{ a:'#8a94a6', b:'#596273', ring:'#d5d9e1', glow:'rgba(170,180,200,.28)' },\n  0:{ a:'#8a94a6', b:'#596273', ring:'#d5d9e1', glow:'rgba(170,180,200,.28)' },\n  S:{ a:'#e3b269', b:'#caa14e', ring:'#ffd98a', glow:'rgba(255,190,90,.55)' },\n  A:{ a:'#9a89ea', b:'#6f57bf', ring:'#cdb3ff', glow:'rgba(150,120,255,.5)' },\n  B:{ a:'#4f7fc4', b:'#3a5d96', ring:'#9cc2ff', glow:'rgba(90,150,255,.45)' }\n};\n\nconst CM_ELEM = {\n  Pyro:'#e6614c', Hydro:'#4cc5e6', Cryo:'#9fe3ec', Electro:'#c08fe6',\n  Dendro:'#90c84a', Anemo:'#74d6b0', Geo:'#e3b552', Ice:'#9fe3ec',\n  Wind:'#74d6b0', Lightning:'#c08fe6', Fire:'#e6614c', Physical:'#d8d2ea',\n  Quantum:'#8f7fd6', Imaginary:'#e6d24c', Ether:'#e07fb0', Electric:'#c08fe6',\n  Spectro:'#e6d24c', Havoc:'#c0608f', Aero:'#74d6b0', Glacio:'#9fe3ec',\n  Fusion:'#e6614c', Frost:'#7fb0e6', Heat:'#e6614c', Nature:'#90c84a',\n  Unknown:'#b7aaff'\n};\n\n`;
 
 fs.writeFileSync(
   path.resolve(generatedDataDir, 'cm-data.js'),
-  cmHeader + cmPalettes + `const CM_CFG = window.CM_CFG || {};\nconst CM_GAME_FILES = ${normalizeForJs(Object.fromEntries(Object.keys(cmCfg).map((key) => [key, `../dist/cm-data-${key}.js`])))};\nconst CM_GAME_LABELS = ${normalizeForJs(Object.fromEntries(Object.keys(cmCfg).map((key) => [key, cmCfg[key].name])))};\nconst CM_BETA_FILES = ${normalizeForJs(Object.fromEntries(Object.keys(cmBetaDeltas).map((key) => [key, `../dist/cm-data-${key}-beta.js`])))};\nconst CM_BETA_META = ${normalizeForJs(Object.fromEntries(Object.entries(cmBetaDeltas).map(([key, pack]) => [key, { version: pack.version, liveVersion: pack.liveVersion, newCount: pack.newCount, changedCount: pack.changedCount }])))};\nconst CM_LOADS = window.__NYX_CM_LOADS || {};\nconst CM_BETA_LOADS = window.__NYX_CM_BETA_LOADS || {};\nwindow.CM_CFG_BETA = window.CM_CFG_BETA || {};\n\nfunction loadNyxCmBeta(key) {\n  if (!key || !CM_BETA_FILES[key]) return Promise.resolve(null);\n  window.CM_CFG_BETA = window.CM_CFG_BETA || {};\n  if (window.CM_CFG_BETA[key]) return Promise.resolve(window.CM_CFG_BETA[key]);\n  if (CM_BETA_LOADS[key]) return CM_BETA_LOADS[key];\n  const src = CM_BETA_FILES[key];\n  CM_BETA_LOADS[key] = new Promise((resolve, reject) => {\n    const existing = document.querySelector('script[data-cm-beta=\"' + key + '\"]');\n    if (existing) {\n      existing.addEventListener('load', () => resolve(window.CM_CFG_BETA[key] || null), { once:true });\n      existing.addEventListener('error', () => reject(new Error('Failed to load ' + src)), { once:true });\n      return;\n    }\n    const script = document.createElement('script');\n    script.src = src;\n    script.async = true;\n    script.dataset.cmBeta = key;\n    script.onload = () => resolve(window.CM_CFG_BETA[key] || null);\n    script.onerror = () => reject(new Error('Failed to load ' + src));\n    document.head.appendChild(script);\n  });\n  return CM_BETA_LOADS[key];\n}\n\nfunction loadNyxCmGame(key) {\n  if (!key || key === 'nyx') return Promise.resolve(null);\n  window.CM_CFG = window.CM_CFG || CM_CFG;\n  if (window.CM_CFG[key]) return Promise.resolve(window.CM_CFG[key]);\n  if (CM_LOADS[key]) return CM_LOADS[key];\n  const src = CM_GAME_FILES[key];\n  if (!src) return Promise.reject(new Error('Unknown character-material game: ' + key));\n  CM_LOADS[key] = new Promise((resolve, reject) => {\n    const existing = document.querySelector('script[data-cm-game=\"' + key + '\"]');\n    if (existing) {\n      existing.addEventListener('load', () => resolve(window.CM_CFG[key] || null), { once:true });\n      existing.addEventListener('error', () => reject(new Error('Failed to load ' + src)), { once:true });\n      return;\n    }\n    const script = document.createElement('script');\n    script.src = src;\n    script.async = true;\n    script.dataset.cmGame = key;\n    script.onload = () => resolve(window.CM_CFG[key] || null);\n    script.onerror = () => reject(new Error('Failed to load ' + src));\n    document.head.appendChild(script);\n  });\n  return CM_LOADS[key];\n}\n\nfunction ensureNyxCmGames(keys) {\n  return Promise.all((keys || []).map((key) => loadNyxCmGame(key)));\n}\n\nObject.assign(window, { CM_CFG, CM_RAR, CM_ELEM, CM_GAME_FILES, CM_GAME_LABELS, CM_BETA_FILES, CM_BETA_META, loadNyxCmGame, loadNyxCmBeta, ensureNyxCmGames, __NYX_CM_LOADS: CM_LOADS, __NYX_CM_BETA_LOADS: CM_BETA_LOADS });\n`,
+  cmHeader + cmPalettes + `const CM_CFG = window.CM_CFG || {};\nconst CM_GAME_FILES = ${normalizeForJs(Object.fromEntries(Object.keys(cmCfg).map((key) => [key, `../dist/cm-data-${key}.js`])))};\nconst CM_GAME_LABELS = ${normalizeForJs(Object.fromEntries(Object.keys(cmCfg).map((key) => [key, cmCfg[key].name])))};\nconst CM_BETA_FILES = ${normalizeForJs(Object.fromEntries(Object.keys(cmBetaDeltas).map((key) => [key, `../dist/cm-data-${key}-beta.js`])))};\nconst CM_BETA_META = ${normalizeForJs(Object.fromEntries(Object.entries(cmBetaDeltas).map(([key, pack]) => [key, { version: pack.version, liveVersion: pack.liveVersion, newCount: pack.newCount, changedCount: pack.changedCount }])))};\nconst CM_LEVELING = ${normalizeForJs(buildLevelingTables())};
+const CM_LOADS = window.__NYX_CM_LOADS || {};\nconst CM_BETA_LOADS = window.__NYX_CM_BETA_LOADS || {};\nwindow.CM_CFG_BETA = window.CM_CFG_BETA || {};\n\nfunction loadNyxCmBeta(key) {\n  if (!key || !CM_BETA_FILES[key]) return Promise.resolve(null);\n  window.CM_CFG_BETA = window.CM_CFG_BETA || {};\n  if (window.CM_CFG_BETA[key]) return Promise.resolve(window.CM_CFG_BETA[key]);\n  if (CM_BETA_LOADS[key]) return CM_BETA_LOADS[key];\n  const src = CM_BETA_FILES[key];\n  CM_BETA_LOADS[key] = new Promise((resolve, reject) => {\n    const existing = document.querySelector('script[data-cm-beta=\"' + key + '\"]');\n    if (existing) {\n      existing.addEventListener('load', () => resolve(window.CM_CFG_BETA[key] || null), { once:true });\n      existing.addEventListener('error', () => reject(new Error('Failed to load ' + src)), { once:true });\n      return;\n    }\n    const script = document.createElement('script');\n    script.src = src;\n    script.async = true;\n    script.dataset.cmBeta = key;\n    script.onload = () => resolve(window.CM_CFG_BETA[key] || null);\n    script.onerror = () => reject(new Error('Failed to load ' + src));\n    document.head.appendChild(script);\n  });\n  return CM_BETA_LOADS[key];\n}\n\nfunction loadNyxCmGame(key) {\n  if (!key || key === 'nyx') return Promise.resolve(null);\n  window.CM_CFG = window.CM_CFG || CM_CFG;\n  if (window.CM_CFG[key]) return Promise.resolve(window.CM_CFG[key]);\n  if (CM_LOADS[key]) return CM_LOADS[key];\n  const src = CM_GAME_FILES[key];\n  if (!src) return Promise.reject(new Error('Unknown character-material game: ' + key));\n  CM_LOADS[key] = new Promise((resolve, reject) => {\n    const existing = document.querySelector('script[data-cm-game=\"' + key + '\"]');\n    if (existing) {\n      existing.addEventListener('load', () => resolve(window.CM_CFG[key] || null), { once:true });\n      existing.addEventListener('error', () => reject(new Error('Failed to load ' + src)), { once:true });\n      return;\n    }\n    const script = document.createElement('script');\n    script.src = src;\n    script.async = true;\n    script.dataset.cmGame = key;\n    script.onload = () => resolve(window.CM_CFG[key] || null);\n    script.onerror = () => reject(new Error('Failed to load ' + src));\n    document.head.appendChild(script);\n  });\n  return CM_LOADS[key];\n}\n\nfunction ensureNyxCmGames(keys) {\n  return Promise.all((keys || []).map((key) => loadNyxCmGame(key)));\n}\n\nObject.assign(window, { CM_CFG, CM_RAR, CM_ELEM, CM_LEVELING, CM_GAME_FILES, CM_GAME_LABELS, CM_BETA_FILES, CM_BETA_META, loadNyxCmGame, loadNyxCmBeta, ensureNyxCmGames, __NYX_CM_LOADS: CM_LOADS, __NYX_CM_BETA_LOADS: CM_BETA_LOADS });\n`,
   'utf8',
 );
 

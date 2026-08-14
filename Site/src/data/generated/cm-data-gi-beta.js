@@ -1406,6 +1406,540 @@
             ]
           }
         ],
+        "ascensionStages": [
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "104151",
+                "name": "Vayuda Turquoise Sliver",
+                "qty": 1,
+                "rar": 2,
+                "kind": "gem",
+                "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104151.webp",
+                "sourceDetails": [
+                  {
+                    "name": "Anemo Hypostasis",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Effigy_Wind.webp"
+                  },
+                  {
+                    "name": "Tenebrous Papilla: Type I",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_TheAbyss_Dendrite.webp"
+                  },
+                  {
+                    "name": "Algorithm of Semi-Intransient Matrix of Overseer Network",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Monolith_Starchild.webp"
+                  },
+                  {
+                    "name": "Maguu Kenki",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Samurai_Ningyo.webp"
+                  },
+                  {
+                    "name": "Setekh Wenut",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Sandworm.webp"
+                  },
+                  {
+                    "name": "Solitary Suanni",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Hermit.webp"
+                  }
+                ]
+              },
+              {
+                "id": "101277",
+                "name": "Golden Fern",
+                "qty": 3,
+                "rar": 1,
+                "kind": "specialty",
+                "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101277.webp"
+              },
+              {
+                "id": "112146",
+                "name": "Ethereal Glimmershard",
+                "qty": 3,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112146.webp",
+                "sourceDetails": [
+                  {
+                    "name": "Winged Halberd-Knight",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Human_Girl_Vila_Glaive.webp"
+                  },
+                  {
+                    "name": "Winged Soarer Knight",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Human_Girl_Vila_Blade.webp"
+                  },
+                  {
+                    "name": "Volkodlak Lobber",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Vukodlak_Strong_NoWeapon.webp"
+                  },
+                  {
+                    "name": "Volkodlak Basher",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Vukodlak_Strong_Sword.webp"
+                  },
+                  {
+                    "name": "Volkodlak Raider",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Vukodlak_Thin_Sword.webp"
+                  },
+                  {
+                    "name": "Volkodlak Sharpshooter",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Vukodlak_Thin_Pistol.webp"
+                  }
+                ]
+              }
+            ],
+            "cost": 20000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "104152",
+                "name": "Vayuda Turquoise Fragment",
+                "qty": 3,
+                "rar": 3,
+                "kind": "gem",
+                "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104152.webp",
+                "sourceDetails": [
+                  {
+                    "name": "Anemo Hypostasis",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Effigy_Wind.webp"
+                  },
+                  {
+                    "name": "Tenebrous Papilla: Type I",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_TheAbyss_Dendrite.webp"
+                  },
+                  {
+                    "name": "Algorithm of Semi-Intransient Matrix of Overseer Network",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Monolith_Starchild.webp"
+                  },
+                  {
+                    "name": "Maguu Kenki",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Samurai_Ningyo.webp"
+                  },
+                  {
+                    "name": "Setekh Wenut",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Sandworm.webp"
+                  },
+                  {
+                    "name": "Solitary Suanni",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Hermit.webp"
+                  }
+                ]
+              },
+              {
+                "id": "101277",
+                "name": "Golden Fern",
+                "qty": 10,
+                "rar": 1,
+                "kind": "specialty",
+                "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101277.webp"
+              },
+              {
+                "id": "113092",
+                "name": "Vagabond's Cracked Armor",
+                "qty": 2,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113092.webp"
+              },
+              {
+                "id": "112146",
+                "name": "Ethereal Glimmershard",
+                "qty": 15,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112146.webp",
+                "sourceDetails": [
+                  {
+                    "name": "Winged Halberd-Knight",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Human_Girl_Vila_Glaive.webp"
+                  },
+                  {
+                    "name": "Winged Soarer Knight",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Human_Girl_Vila_Blade.webp"
+                  },
+                  {
+                    "name": "Volkodlak Lobber",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Vukodlak_Strong_NoWeapon.webp"
+                  },
+                  {
+                    "name": "Volkodlak Basher",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Vukodlak_Strong_Sword.webp"
+                  },
+                  {
+                    "name": "Volkodlak Raider",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Vukodlak_Thin_Sword.webp"
+                  },
+                  {
+                    "name": "Volkodlak Sharpshooter",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Vukodlak_Thin_Pistol.webp"
+                  }
+                ]
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "104152",
+                "name": "Vayuda Turquoise Fragment",
+                "qty": 6,
+                "rar": 3,
+                "kind": "gem",
+                "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104152.webp",
+                "sourceDetails": [
+                  {
+                    "name": "Anemo Hypostasis",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Effigy_Wind.webp"
+                  },
+                  {
+                    "name": "Tenebrous Papilla: Type I",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_TheAbyss_Dendrite.webp"
+                  },
+                  {
+                    "name": "Algorithm of Semi-Intransient Matrix of Overseer Network",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Monolith_Starchild.webp"
+                  },
+                  {
+                    "name": "Maguu Kenki",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Samurai_Ningyo.webp"
+                  },
+                  {
+                    "name": "Setekh Wenut",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Sandworm.webp"
+                  },
+                  {
+                    "name": "Solitary Suanni",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Hermit.webp"
+                  }
+                ]
+              },
+              {
+                "id": "101277",
+                "name": "Golden Fern",
+                "qty": 20,
+                "rar": 1,
+                "kind": "specialty",
+                "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101277.webp"
+              },
+              {
+                "id": "113092",
+                "name": "Vagabond's Cracked Armor",
+                "qty": 4,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113092.webp"
+              },
+              {
+                "id": "112147",
+                "name": "Ethereal Crystal",
+                "qty": 12,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112147.webp",
+                "sourceDetails": [
+                  {
+                    "name": "Winged Halberd-Knight",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Human_Girl_Vila_Glaive.webp"
+                  },
+                  {
+                    "name": "Winged Soarer Knight",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Human_Girl_Vila_Blade.webp"
+                  },
+                  {
+                    "name": "Volkodlak Lobber",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Vukodlak_Strong_NoWeapon.webp"
+                  },
+                  {
+                    "name": "Volkodlak Basher",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Vukodlak_Strong_Sword.webp"
+                  },
+                  {
+                    "name": "Volkodlak Raider",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Vukodlak_Thin_Sword.webp"
+                  },
+                  {
+                    "name": "Volkodlak Sharpshooter",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Vukodlak_Thin_Pistol.webp"
+                  }
+                ]
+              }
+            ],
+            "cost": 60000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "104153",
+                "name": "Vayuda Turquoise Chunk",
+                "qty": 3,
+                "rar": 4,
+                "kind": "gem",
+                "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104153.webp",
+                "sourceDetails": [
+                  {
+                    "name": "Anemo Hypostasis",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Effigy_Wind.webp"
+                  },
+                  {
+                    "name": "Tenebrous Papilla: Type I",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_TheAbyss_Dendrite.webp"
+                  },
+                  {
+                    "name": "Algorithm of Semi-Intransient Matrix of Overseer Network",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Monolith_Starchild.webp"
+                  },
+                  {
+                    "name": "Maguu Kenki",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Samurai_Ningyo.webp"
+                  },
+                  {
+                    "name": "Setekh Wenut",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Sandworm.webp"
+                  },
+                  {
+                    "name": "Solitary Suanni",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Hermit.webp"
+                  }
+                ]
+              },
+              {
+                "id": "101277",
+                "name": "Golden Fern",
+                "qty": 30,
+                "rar": 1,
+                "kind": "specialty",
+                "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101277.webp"
+              },
+              {
+                "id": "113092",
+                "name": "Vagabond's Cracked Armor",
+                "qty": 8,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113092.webp"
+              },
+              {
+                "id": "112147",
+                "name": "Ethereal Crystal",
+                "qty": 18,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112147.webp",
+                "sourceDetails": [
+                  {
+                    "name": "Winged Halberd-Knight",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Human_Girl_Vila_Glaive.webp"
+                  },
+                  {
+                    "name": "Winged Soarer Knight",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Human_Girl_Vila_Blade.webp"
+                  },
+                  {
+                    "name": "Volkodlak Lobber",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Vukodlak_Strong_NoWeapon.webp"
+                  },
+                  {
+                    "name": "Volkodlak Basher",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Vukodlak_Strong_Sword.webp"
+                  },
+                  {
+                    "name": "Volkodlak Raider",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Vukodlak_Thin_Sword.webp"
+                  },
+                  {
+                    "name": "Volkodlak Sharpshooter",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Vukodlak_Thin_Pistol.webp"
+                  }
+                ]
+              }
+            ],
+            "cost": 80000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "104153",
+                "name": "Vayuda Turquoise Chunk",
+                "qty": 6,
+                "rar": 4,
+                "kind": "gem",
+                "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104153.webp",
+                "sourceDetails": [
+                  {
+                    "name": "Anemo Hypostasis",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Effigy_Wind.webp"
+                  },
+                  {
+                    "name": "Tenebrous Papilla: Type I",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_TheAbyss_Dendrite.webp"
+                  },
+                  {
+                    "name": "Algorithm of Semi-Intransient Matrix of Overseer Network",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Monolith_Starchild.webp"
+                  },
+                  {
+                    "name": "Maguu Kenki",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Samurai_Ningyo.webp"
+                  },
+                  {
+                    "name": "Setekh Wenut",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Sandworm.webp"
+                  },
+                  {
+                    "name": "Solitary Suanni",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Hermit.webp"
+                  }
+                ]
+              },
+              {
+                "id": "101277",
+                "name": "Golden Fern",
+                "qty": 45,
+                "rar": 1,
+                "kind": "specialty",
+                "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101277.webp"
+              },
+              {
+                "id": "113092",
+                "name": "Vagabond's Cracked Armor",
+                "qty": 12,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113092.webp"
+              },
+              {
+                "id": "112148",
+                "name": "Ethereal Crystalscale Stone",
+                "qty": 12,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112148.webp",
+                "sourceDetails": [
+                  {
+                    "name": "Winged Halberd-Knight",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Human_Girl_Vila_Glaive.webp"
+                  },
+                  {
+                    "name": "Winged Soarer Knight",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Human_Girl_Vila_Blade.webp"
+                  },
+                  {
+                    "name": "Volkodlak Lobber",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Vukodlak_Strong_NoWeapon.webp"
+                  },
+                  {
+                    "name": "Volkodlak Basher",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Vukodlak_Strong_Sword.webp"
+                  },
+                  {
+                    "name": "Volkodlak Raider",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Vukodlak_Thin_Sword.webp"
+                  },
+                  {
+                    "name": "Volkodlak Sharpshooter",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Vukodlak_Thin_Pistol.webp"
+                  }
+                ]
+              }
+            ],
+            "cost": 100000
+          },
+          {
+            "cap": 90,
+            "items": [
+              {
+                "id": "104154",
+                "name": "Vayuda Turquoise Gemstone",
+                "qty": 6,
+                "rar": 5,
+                "kind": "gem",
+                "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104154.webp",
+                "sourceDetails": [
+                  {
+                    "name": "Anemo Hypostasis",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Effigy_Wind.webp"
+                  },
+                  {
+                    "name": "Tenebrous Papilla: Type I",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_TheAbyss_Dendrite.webp"
+                  },
+                  {
+                    "name": "Algorithm of Semi-Intransient Matrix of Overseer Network",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Monolith_Starchild.webp"
+                  },
+                  {
+                    "name": "Maguu Kenki",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Samurai_Ningyo.webp"
+                  },
+                  {
+                    "name": "Setekh Wenut",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Sandworm.webp"
+                  },
+                  {
+                    "name": "Solitary Suanni",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Hermit.webp"
+                  }
+                ]
+              },
+              {
+                "id": "101277",
+                "name": "Golden Fern",
+                "qty": 60,
+                "rar": 1,
+                "kind": "specialty",
+                "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101277.webp"
+              },
+              {
+                "id": "113092",
+                "name": "Vagabond's Cracked Armor",
+                "qty": 20,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113092.webp"
+              },
+              {
+                "id": "112148",
+                "name": "Ethereal Crystalscale Stone",
+                "qty": 24,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112148.webp",
+                "sourceDetails": [
+                  {
+                    "name": "Winged Halberd-Knight",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Human_Girl_Vila_Glaive.webp"
+                  },
+                  {
+                    "name": "Winged Soarer Knight",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Human_Girl_Vila_Blade.webp"
+                  },
+                  {
+                    "name": "Volkodlak Lobber",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Vukodlak_Strong_NoWeapon.webp"
+                  },
+                  {
+                    "name": "Volkodlak Basher",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Vukodlak_Strong_Sword.webp"
+                  },
+                  {
+                    "name": "Volkodlak Raider",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Vukodlak_Thin_Sword.webp"
+                  },
+                  {
+                    "name": "Volkodlak Sharpshooter",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Vukodlak_Thin_Pistol.webp"
+                  }
+                ]
+              }
+            ],
+            "cost": 120000
+          }
+        ],
         "talents": [
           {
             "id": "112146",
@@ -4203,6 +4737,522 @@
                 "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Chimera_BearDeer.webp"
               }
             ]
+          }
+        ],
+        "ascensionStages": [
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "104121",
+                "name": "Varunada Lazurite Sliver",
+                "qty": 1,
+                "rar": 2,
+                "kind": "gem",
+                "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104121.webp",
+                "sourceDetails": [
+                  {
+                    "name": "Hydro Hypostasis",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Effigy_Water.webp"
+                  },
+                  {
+                    "name": "Oceanid",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Oceanid.webp"
+                  },
+                  {
+                    "name": "Hydro Tulpa",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Narcissusborn_Normal_01.webp"
+                  },
+                  {
+                    "name": "Frostnight Herra",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_HerraFrost.webp"
+                  },
+                  {
+                    "name": "Aeonblight Drake",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Gargoyle_Fafnir.webp"
+                  },
+                  {
+                    "name": "Secret Source Automaton: Overseer Device",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_DragonCollar.webp"
+                  }
+                ]
+              },
+              {
+                "id": "101275",
+                "name": "Frostfairy Flower",
+                "qty": 3,
+                "rar": 1,
+                "kind": "specialty",
+                "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101275.webp"
+              },
+              {
+                "id": "112149",
+                "name": "Chimeric Core",
+                "qty": 3,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112149.webp",
+                "sourceDetails": [
+                  {
+                    "name": "Chimeric Armored Beast",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Chimera_BeetleLion.webp"
+                  },
+                  {
+                    "name": "Chimeric Burrowbeast",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Chimera_OwlPangolin.webp"
+                  },
+                  {
+                    "name": "Chimeric Winged Elephant",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Chimera_ElephantBird.webp"
+                  },
+                  {
+                    "name": "Chimeric Horned Bear",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Chimera_BearDeer.webp"
+                  }
+                ]
+              }
+            ],
+            "cost": 20000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "104122",
+                "name": "Varunada Lazurite Fragment",
+                "qty": 3,
+                "rar": 3,
+                "kind": "gem",
+                "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104122.webp",
+                "sourceDetails": [
+                  {
+                    "name": "Hydro Hypostasis",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Effigy_Water.webp"
+                  },
+                  {
+                    "name": "Oceanid",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Oceanid.webp"
+                  },
+                  {
+                    "name": "Hydro Tulpa",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Narcissusborn_Normal_01.webp"
+                  },
+                  {
+                    "name": "Frostnight Herra",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_HerraFrost.webp"
+                  },
+                  {
+                    "name": "Aeonblight Drake",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Gargoyle_Fafnir.webp"
+                  },
+                  {
+                    "name": "Secret Source Automaton: Overseer Device",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_DragonCollar.webp"
+                  }
+                ]
+              },
+              {
+                "id": "101275",
+                "name": "Frostfairy Flower",
+                "qty": 10,
+                "rar": 1,
+                "kind": "specialty",
+                "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101275.webp"
+              },
+              {
+                "id": "113090",
+                "name": "Unscorched Blossom Branch",
+                "qty": 2,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113090.webp",
+                "sourceDetails": [
+                  {
+                    "name": "Immortal Construct",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Zharptitsa_02.webp"
+                  }
+                ]
+              },
+              {
+                "id": "112149",
+                "name": "Chimeric Core",
+                "qty": 15,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112149.webp",
+                "sourceDetails": [
+                  {
+                    "name": "Chimeric Armored Beast",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Chimera_BeetleLion.webp"
+                  },
+                  {
+                    "name": "Chimeric Burrowbeast",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Chimera_OwlPangolin.webp"
+                  },
+                  {
+                    "name": "Chimeric Winged Elephant",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Chimera_ElephantBird.webp"
+                  },
+                  {
+                    "name": "Chimeric Horned Bear",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Chimera_BearDeer.webp"
+                  }
+                ]
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "104122",
+                "name": "Varunada Lazurite Fragment",
+                "qty": 6,
+                "rar": 3,
+                "kind": "gem",
+                "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104122.webp",
+                "sourceDetails": [
+                  {
+                    "name": "Hydro Hypostasis",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Effigy_Water.webp"
+                  },
+                  {
+                    "name": "Oceanid",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Oceanid.webp"
+                  },
+                  {
+                    "name": "Hydro Tulpa",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Narcissusborn_Normal_01.webp"
+                  },
+                  {
+                    "name": "Frostnight Herra",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_HerraFrost.webp"
+                  },
+                  {
+                    "name": "Aeonblight Drake",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Gargoyle_Fafnir.webp"
+                  },
+                  {
+                    "name": "Secret Source Automaton: Overseer Device",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_DragonCollar.webp"
+                  }
+                ]
+              },
+              {
+                "id": "101275",
+                "name": "Frostfairy Flower",
+                "qty": 20,
+                "rar": 1,
+                "kind": "specialty",
+                "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101275.webp"
+              },
+              {
+                "id": "113090",
+                "name": "Unscorched Blossom Branch",
+                "qty": 4,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113090.webp",
+                "sourceDetails": [
+                  {
+                    "name": "Immortal Construct",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Zharptitsa_02.webp"
+                  }
+                ]
+              },
+              {
+                "id": "112150",
+                "name": "Symbiotic Chimeric Nucleus",
+                "qty": 12,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112150.webp",
+                "sourceDetails": [
+                  {
+                    "name": "Chimeric Armored Beast",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Chimera_BeetleLion.webp"
+                  },
+                  {
+                    "name": "Chimeric Burrowbeast",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Chimera_OwlPangolin.webp"
+                  },
+                  {
+                    "name": "Chimeric Winged Elephant",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Chimera_ElephantBird.webp"
+                  },
+                  {
+                    "name": "Chimeric Horned Bear",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Chimera_BearDeer.webp"
+                  }
+                ]
+              }
+            ],
+            "cost": 60000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "104123",
+                "name": "Varunada Lazurite Chunk",
+                "qty": 3,
+                "rar": 4,
+                "kind": "gem",
+                "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104123.webp",
+                "sourceDetails": [
+                  {
+                    "name": "Hydro Hypostasis",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Effigy_Water.webp"
+                  },
+                  {
+                    "name": "Oceanid",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Oceanid.webp"
+                  },
+                  {
+                    "name": "Hydro Tulpa",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Narcissusborn_Normal_01.webp"
+                  },
+                  {
+                    "name": "Frostnight Herra",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_HerraFrost.webp"
+                  },
+                  {
+                    "name": "Aeonblight Drake",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Gargoyle_Fafnir.webp"
+                  },
+                  {
+                    "name": "Secret Source Automaton: Overseer Device",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_DragonCollar.webp"
+                  }
+                ]
+              },
+              {
+                "id": "101275",
+                "name": "Frostfairy Flower",
+                "qty": 30,
+                "rar": 1,
+                "kind": "specialty",
+                "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101275.webp"
+              },
+              {
+                "id": "113090",
+                "name": "Unscorched Blossom Branch",
+                "qty": 8,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113090.webp",
+                "sourceDetails": [
+                  {
+                    "name": "Immortal Construct",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Zharptitsa_02.webp"
+                  }
+                ]
+              },
+              {
+                "id": "112150",
+                "name": "Symbiotic Chimeric Nucleus",
+                "qty": 18,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112150.webp",
+                "sourceDetails": [
+                  {
+                    "name": "Chimeric Armored Beast",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Chimera_BeetleLion.webp"
+                  },
+                  {
+                    "name": "Chimeric Burrowbeast",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Chimera_OwlPangolin.webp"
+                  },
+                  {
+                    "name": "Chimeric Winged Elephant",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Chimera_ElephantBird.webp"
+                  },
+                  {
+                    "name": "Chimeric Horned Bear",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Chimera_BearDeer.webp"
+                  }
+                ]
+              }
+            ],
+            "cost": 80000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "104123",
+                "name": "Varunada Lazurite Chunk",
+                "qty": 6,
+                "rar": 4,
+                "kind": "gem",
+                "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104123.webp",
+                "sourceDetails": [
+                  {
+                    "name": "Hydro Hypostasis",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Effigy_Water.webp"
+                  },
+                  {
+                    "name": "Oceanid",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Oceanid.webp"
+                  },
+                  {
+                    "name": "Hydro Tulpa",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Narcissusborn_Normal_01.webp"
+                  },
+                  {
+                    "name": "Frostnight Herra",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_HerraFrost.webp"
+                  },
+                  {
+                    "name": "Aeonblight Drake",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Gargoyle_Fafnir.webp"
+                  },
+                  {
+                    "name": "Secret Source Automaton: Overseer Device",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_DragonCollar.webp"
+                  }
+                ]
+              },
+              {
+                "id": "101275",
+                "name": "Frostfairy Flower",
+                "qty": 45,
+                "rar": 1,
+                "kind": "specialty",
+                "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101275.webp"
+              },
+              {
+                "id": "113090",
+                "name": "Unscorched Blossom Branch",
+                "qty": 12,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113090.webp",
+                "sourceDetails": [
+                  {
+                    "name": "Immortal Construct",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Zharptitsa_02.webp"
+                  }
+                ]
+              },
+              {
+                "id": "112151",
+                "name": "Prime Chimeric Nexus",
+                "qty": 12,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112151.webp",
+                "sourceDetails": [
+                  {
+                    "name": "Chimeric Armored Beast",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Chimera_BeetleLion.webp"
+                  },
+                  {
+                    "name": "Chimeric Burrowbeast",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Chimera_OwlPangolin.webp"
+                  },
+                  {
+                    "name": "Chimeric Winged Elephant",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Chimera_ElephantBird.webp"
+                  },
+                  {
+                    "name": "Chimeric Horned Bear",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Chimera_BearDeer.webp"
+                  }
+                ]
+              }
+            ],
+            "cost": 100000
+          },
+          {
+            "cap": 90,
+            "items": [
+              {
+                "id": "104124",
+                "name": "Varunada Lazurite Gemstone",
+                "qty": 6,
+                "rar": 5,
+                "kind": "gem",
+                "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104124.webp",
+                "sourceDetails": [
+                  {
+                    "name": "Hydro Hypostasis",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Effigy_Water.webp"
+                  },
+                  {
+                    "name": "Oceanid",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Oceanid.webp"
+                  },
+                  {
+                    "name": "Hydro Tulpa",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Narcissusborn_Normal_01.webp"
+                  },
+                  {
+                    "name": "Frostnight Herra",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_HerraFrost.webp"
+                  },
+                  {
+                    "name": "Aeonblight Drake",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Gargoyle_Fafnir.webp"
+                  },
+                  {
+                    "name": "Secret Source Automaton: Overseer Device",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_DragonCollar.webp"
+                  }
+                ]
+              },
+              {
+                "id": "101275",
+                "name": "Frostfairy Flower",
+                "qty": 60,
+                "rar": 1,
+                "kind": "specialty",
+                "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101275.webp"
+              },
+              {
+                "id": "113090",
+                "name": "Unscorched Blossom Branch",
+                "qty": 20,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113090.webp",
+                "sourceDetails": [
+                  {
+                    "name": "Immortal Construct",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Zharptitsa_02.webp"
+                  }
+                ]
+              },
+              {
+                "id": "112151",
+                "name": "Prime Chimeric Nexus",
+                "qty": 24,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112151.webp",
+                "sourceDetails": [
+                  {
+                    "name": "Chimeric Armored Beast",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Chimera_BeetleLion.webp"
+                  },
+                  {
+                    "name": "Chimeric Burrowbeast",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Chimera_OwlPangolin.webp"
+                  },
+                  {
+                    "name": "Chimeric Winged Elephant",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Chimera_ElephantBird.webp"
+                  },
+                  {
+                    "name": "Chimeric Horned Bear",
+                    "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Chimera_BearDeer.webp"
+                  }
+                ]
+              }
+            ],
+            "cost": 120000
           }
         ],
         "talents": [

@@ -193,6 +193,26 @@ async function verifyRuntimeData(base) {
     }
     await checkFetch(base, `/data/library/${game}/${index.entries[0].file}`, '"volumes"', 100);
   }
+  // Genshin character stories: the Story tab fetches one file per character at
+  // open time, so the route has to be live and the index has to agree with the
+  // records it points at.
+  {
+    const indexUrl = '/data/story/gi/index.json';
+    if (!urls.has(indexUrl)) throw new Error(`runtime manifest is missing ${indexUrl}`);
+    const index = JSON.parse(await readDeployText(indexUrl.slice(1)));
+    if (index?.schemaVersion !== 1 || index.game !== 'gi' || !Array.isArray(index.entries) || !index.entries.length
+      || index.entries.length !== index.count) throw new Error(`${indexUrl} is empty or invalid`);
+    for (const row of index.entries) {
+      const recordUrl = `/data/story/gi/${row.key}.json`;
+      if (!urls.has(recordUrl)) throw new Error(`${indexUrl} record is absent from manifest: ${row.key}`);
+      const record = JSON.parse(await readDeployText(recordUrl.slice(1)));
+      if (record?.schemaVersion !== 1 || record.game !== 'gi' || record.id !== row.id || record.name !== row.name
+        || !Array.isArray(record.stories) || !Array.isArray(record.quotes) || !Array.isArray(record.va)
+        || record.stories.length !== row.stories || record.quotes.length !== row.quotes) throw new Error(`${recordUrl} does not match ${indexUrl}`);
+    }
+    await checkFetch(base, indexUrl, '"entries"', 100);
+    await checkFetch(base, `/data/story/gi/${index.entries[0].key}.json`, '"quotes"', 100);
+  }
   for (const game of ['gi','hsr','zzz','wuwa','ae']) {
     const url = `/data/banner-history/${game}.json`;
     if (!urls.has(url)) throw new Error(`runtime manifest is missing ${url}`);

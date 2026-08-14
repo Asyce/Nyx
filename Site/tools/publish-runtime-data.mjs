@@ -210,6 +210,53 @@ async function validateAchievementAsset(file, filename, maxBytes) {
   if (filename !== `${hash}.${extension}`) throw new Error(`Runtime Achievement icon hash/magic mismatch: ${filename}`);
 }
 
+/* Genshin character stories and voice lines, one file per character, fetched
+   when the Story tab is first opened. Same shape as publishLibrary: an index
+   plus per-record files, both allowlisted so nothing unexpected can be served
+   from /data/story. Kept out of the character bundle because the whole corpus
+   is ~7 MB. */
+async function publishCharacterStories({ databaseDir, dataDir, maxBytes }) {
+  const sourceRoot = path.resolve(databaseDir, 'CharacterStory');
+  if (!(await exists(sourceRoot))) throw new Error('Runtime CharacterStory source is missing');
+  const all = await filesBelow(sourceRoot);
+  const sourceByRel = new Map(all.map((file) => [relativeInside(sourceRoot, file), file]));
+  const entries = [];
+  for (const game of ['gi']) {
+    const indexRel = `${game}/index.json`;
+    if (!sourceByRel.has(indexRel)) throw new Error(`Runtime CharacterStory is missing ${indexRel}`);
+    const { parsed: index } = await validatedJson(sourceByRel.get(indexRel), maxBytes);
+    if (index?.game !== game || !Array.isArray(index.entries) || index.count !== index.entries.length) throw new Error(`Runtime CharacterStory has an invalid ${indexRel}`);
+    const keys = new Set();
+    for (const row of index.entries) {
+      if (!row?.key || keys.has(row.key) || !/^[0-9]+(?:-[0-9]+)?$/.test(row.key)) throw new Error(`${indexRel} has an empty, duplicate, or unsafe key`);
+      keys.add(row.key);
+      const recordRel = `${game}/${row.key}.json`;
+      if (!sourceByRel.has(recordRel)) throw new Error(`${indexRel} references a missing record ${recordRel}`);
+      const { parsed: record } = await validatedJson(sourceByRel.get(recordRel), maxBytes);
+      if (record?.schemaVersion !== 1 || record.game !== game || record.id !== row.id || record.name !== row.name) throw new Error(`${recordRel} has invalid identity`);
+      if (!Array.isArray(record.stories) || !Array.isArray(record.quotes) || !Array.isArray(record.va)) throw new Error(`${recordRel} has invalid sections`);
+      if (record.stories.length !== row.stories || record.quotes.length !== row.quotes) throw new Error(`${recordRel} does not match its index counts`);
+      for (const entry of [...record.stories, ...record.quotes]) {
+        if (typeof entry?.title !== 'string' || !entry.title.trim() || typeof entry.text !== 'string' || !entry.text.trim()) throw new Error(`${recordRel} has an invalid entry`);
+        if (entry.unlock !== undefined && (!Array.isArray(entry.unlock) || entry.unlock.some((value) => typeof value !== 'string' || !value.trim()))) throw new Error(`${recordRel} has an invalid unlock list`);
+      }
+    }
+  }
+  for (const [relative, source] of sourceByRel) {
+    if (!/^gi\/(?:index|[0-9]+(?:-[0-9]+)?)\.json$/.test(relative)) throw new Error(`Runtime CharacterStory contains a non-allowlisted file: ${relative}`);
+    const { stat, parsed } = await validatedJson(source, maxBytes);
+    entries.push(await copyEntry({
+      source,
+      dest: path.resolve(dataDir, 'story', ...relative.split('/')),
+      url: `/data/story/${relative}`,
+      maxBytes,
+      parsed,
+      timestamp: dataTimestamp(parsed, stat),
+    }));
+  }
+  return entries;
+}
+
 async function publishAchievements({ databaseDir, dataDir, deployDir, maxBytes }) {
   const sourceRoot = path.resolve(databaseDir, 'Achievements');
   if (!(await exists(sourceRoot))) throw new Error('Runtime Achievement source is missing');
@@ -313,6 +360,7 @@ export async function publishRuntimeData({ rootDir = DEFAULT_ROOT, deployDir = p
   await fs.mkdir(dataDir, { recursive:true });
   try {
     const files = await publishLibrary({ databaseDir, dataDir, maxBytes });
+    files.push(...await publishCharacterStories({ databaseDir, dataDir, maxBytes }));
     files.push(...await publishAchievements({ databaseDir, dataDir, deployDir, maxBytes }));
     for (const family of FAMILY_CONFIG) files.push(...await publishFamily({ databaseDir, dataDir, maxBytes, ...family }));
     files.sort((a, b) => a.url.localeCompare(b.url));

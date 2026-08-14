@@ -1,0 +1,206 @@
+{
+  "schemaVersion": 1,
+  "game": "gi",
+  "generatedAt": "2026-08-14T11:41:08.650Z",
+  "source": {
+    "wiki": "https://genshin-impact.fandom.com/api.php",
+    "page": "Character EXP",
+    "section": "Leveling Characters"
+  },
+  "currency": {
+    "name": "Mora",
+    "id": "202"
+  },
+  "maxLevel": 90,
+  "stages": [
+    {
+      "cap": 20,
+      "exp": 120175,
+      "cost": 24200,
+      "items": [
+        {
+          "id": "104003",
+          "name": "Hero's Wit",
+          "qty": 6,
+          "rarity": 4,
+          "icon": "GameData/gi/assets/items/UI_ItemIcon_104003.webp"
+        },
+        {
+          "id": "104001",
+          "name": "Wanderer's Advice",
+          "qty": 1,
+          "rarity": 2,
+          "icon": "GameData/gi/assets/items/UI_ItemIcon_104001.webp"
+        }
+      ]
+    },
+    {
+      "cap": 40,
+      "exp": 698500,
+      "cost": 140000,
+      "items": [
+        {
+          "id": "104003",
+          "name": "Hero's Wit",
+          "qty": 34,
+          "rarity": 4,
+          "icon": "GameData/gi/assets/items/UI_ItemIcon_104003.webp"
+        },
+        {
+          "id": "104002",
+          "name": "Adventurer's Experience",
+          "qty": 3,
+          "rarity": 3,
+          "icon": "GameData/gi/assets/items/UI_ItemIcon_104002.webp"
+        },
+        {
+          "id": "104001",
+          "name": "Wanderer's Advice",
+          "qty": 5,
+          "rarity": 2,
+          "icon": "GameData/gi/assets/items/UI_ItemIcon_104001.webp"
+        }
+      ]
+    },
+    {
+      "cap": 50,
+      "exp": 1277600,
+      "cost": 256000,
+      "items": [
+        {
+          "id": "104003",
+          "name": "Hero's Wit",
+          "qty": 63,
+          "rarity": 4,
+          "icon": "GameData/gi/assets/items/UI_ItemIcon_104003.webp"
+        },
+        {
+          "id": "104002",
+          "name": "Adventurer's Experience",
+          "qty": 3,
+          "rarity": 3,
+          "icon": "GameData/gi/assets/items/UI_ItemIcon_104002.webp"
+        },
+        {
+          "id": "104001",
+          "name": "Wanderer's Advice",
+          "qty": 5,
+          "rarity": 2,
+          "icon": "GameData/gi/assets/items/UI_ItemIcon_104001.webp"
+        }
+      ]
+    },
+    {
+      "cap": 60,
+      "exp": 2131725,
+      "cost": 427200,
+      "items": [
+        {
+          "id": "104003",
+          "name": "Hero's Wit",
+          "qty": 105,
+          "rarity": 4,
+          "icon": "GameData/gi/assets/items/UI_ItemIcon_104003.webp"
+        },
+        {
+          "id": "104002",
+          "name": "Adventurer's Experience",
+          "qty": 6,
+          "rarity": 3,
+          "icon": "GameData/gi/assets/items/UI_ItemIcon_104002.webp"
+        },
+        {
+          "id": "104001",
+          "name": "Wanderer's Advice",
+          "qty": 5,
+          "rarity": 2,
+          "icon": "GameData/gi/assets/items/UI_ItemIcon_104001.webp"
+        }
+      ]
+    },
+    {
+      "cap": 70,
+      "exp": 3327650,
+      "cost": 666200,
+      "items": [
+        {
+          "id": "104003",
+          "name": "Hero's Wit",
+          "qty": 164,
+          "rarity": 4,
+          "icon": "GameData/gi/assets/items/UI_ItemIcon_104003.webp"
+        },
+        {
+          "id": "104002",
+          "name": "Adventurer's Experience",
+          "qty": 9,
+          "rarity": 3,
+          "icon": "GameData/gi/assets/items/UI_ItemIcon_104002.webp"
+        },
+        {
+          "id": "104001",
+          "name": "Wanderer's Advice",
+          "qty": 6,
+          "rarity": 2,
+          "icon": "GameData/gi/assets/items/UI_ItemIcon_104001.webp"
+        }
+      ]
+    },
+    {
+      "cap": 80,
+      "exp": 4939525,
+      "cost": 988600,
+      "items": [
+        {
+          "id": "104003",
+          "name": "Hero's Wit",
+          "qty": 244,
+          "rarity": 4,
+          "icon": "GameData/gi/assets/items/UI_ItemIcon_104003.webp"
+        },
+        {
+          "id": "104002",
+          "name": "Adventurer's Experience",
+          "qty": 11,
+          "rarity": 3,
+          "icon": "GameData/gi/assets/items/UI_ItemIcon_104002.webp"
+        },
+        {
+          "id": "104001",
+          "name": "Wanderer's Advice",
+          "qty": 8,
+          "rarity": 2,
+          "icon": "GameData/gi/assets/items/UI_ItemIcon_104001.webp"
+        }
+      ]
+    },
+    {
+      "cap": 90,
+      "exp": 8362650,
+      "cost": 1673400,
+      "items": [
+        {
+          "id": "104003",
+          "name": "Hero's Wit",
+          "qty": 415,
+          "rarity": 4,
+          "icon": "GameData/gi/assets/items/UI_ItemIcon_104003.webp"
+        },
+        {
+          "id": "104002",
+          "name": "Adventurer's Experience",
+          "qty": 11,
+          "rarity": 3,
+          "icon": "GameData/gi/assets/items/UI_ItemIcon_104002.webp"
+        },
+        {
+          "id": "104001",
+          "name": "Wanderer's Advice",
+          "qty": 12,
+          "rarity": 2,
+          "icon": "GameData/gi/assets/items/UI_ItemIcon_104001.webp"
+        }
+      ]
+    }
+  ]
+}

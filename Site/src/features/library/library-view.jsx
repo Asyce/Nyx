@@ -90,7 +90,23 @@ function LibraryPage({ game }){
 
   const normalizedQuery = nyxLibraryNormalizeText(query);
   const bodyMatches = React.useMemo(() => nyxLibrarySearchMatches(searchState.data, query), [searchState.data, query]);
-  const entries = indexState.data?.entries || [];
+  // Newest first (user 2026-08-14). The index used to arrive alphabetically,
+  // which buried every recent book. `sortId` is the book's in-game item id —
+  // handed out in release order, so higher is newer. Books the scraper could
+  // not match to an item have no id and follow, alphabetically, rather than
+  // being dumped at the top.
+  const entries = React.useMemo(() => {
+    const rows = indexState.data?.entries || [];
+    return rows.slice().sort((left, right) => {
+      const a = Number(left.sortId);
+      const b = Number(right.sortId);
+      const aOk = Number.isFinite(a);
+      const bOk = Number.isFinite(b);
+      if (aOk && bOk && a !== b) return b - a;
+      if (aOk !== bOk) return aOk ? -1 : 1;
+      return String(left.name).localeCompare(String(right.name));
+    });
+  }, [indexState.data]);
   const matches = entries.map((entry) => ({
     entry,
     titleMatch:!!normalizedQuery && nyxLibraryTextHasPhrase(entry.name, query),

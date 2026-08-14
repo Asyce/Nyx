@@ -36,9 +36,12 @@ const BANNER_HISTORY_HOSTS = {
 };
 const BANNER_REGIONS = ['europe', 'asia', 'america', 'global'];
 const REMOTE_WUWA_ICON_HOST = 'static.nanoka.cc';
+const REMOTE_GAME8_ART_HOST = 'img.game8.co';
 const RAW_FUTURE_MAX_AGE_MS = 7 * 24 * 60 * 60 * 1000;
 const RAW_FUTURE_MAX_WINDOW_MS = 35 * 24 * 60 * 60 * 1000;
 const RAW_FUTURE_MAX_HORIZON_MS = 180 * 24 * 60 * 60 * 1000;
+const EARLIEST_PLAUSIBLE_DEBUT_MS = Date.UTC(2000, 0, 1);
+const LATEST_PLAUSIBLE_DEBUT_MS = Date.UTC(2100, 0, 1);
 export const MAX_REMOTE_LAUNCHER_ART_BYTES = 2 * 1024 * 1024;
 const PREMIUM_CURRENCY = {
   gi: { name: 'Primogems', aliases: ['primogem', 'primogems'] },
@@ -159,7 +162,16 @@ function hasIndependentCurrentCorroboration(group, record, window, nowMs) {
 
 function iso(value) {
   if (value == null || value === '') return null;
-  const date = typeof value === 'number' ? new Date(value * 1000) : new Date(value);
+  let input = value;
+  if (typeof value === 'string') {
+    const text = value.trim();
+    const timezoneLess = /^\d{4}-\d{2}-\d{2}(?:[ T]\d{2}:\d{2}(?::\d{2}(?:\.\d{1,9})?)?)?$/;
+    const explicitlyZoned = /^\d{4}-\d{2}-\d{2}[ T]\d{2}:\d{2}(?::\d{2}(?:\.\d{1,9})?)?(?:Z|[+-]\d{2}:?\d{2})$/i;
+    if (timezoneLess.test(text)) input = `${text.replace(' ', 'T')}Z`;
+    else if (explicitlyZoned.test(text)) input = text.replace(' ', 'T');
+    else return null;
+  }
+  const date = typeof input === 'number' ? new Date(input * 1000) : new Date(input);
   return Number.isFinite(date.getTime()) ? date.toISOString() : null;
 }
 
@@ -190,6 +202,25 @@ function dimensions(bytes, mime) {
   if (mime === 'image/png' && bytes.length >= 24 && bytes.subarray(0, 8).equals(Buffer.from([137, 80, 78, 71, 13, 10, 26, 10]))) {
     return { width: bytes.readUInt32BE(16), height: bytes.readUInt32BE(20) };
   }
+  if (mime === 'image/gif' && bytes.length >= 10 && ['GIF87a', 'GIF89a'].includes(bytes.toString('ascii', 0, 6))) {
+    return { width: bytes.readUInt16LE(6), height: bytes.readUInt16LE(8) };
+  }
+  if (mime === 'image/jpeg' && bytes.length >= 4 && bytes[0] === 0xff && bytes[1] === 0xd8) {
+    const startOfFrame = new Set([0xc0, 0xc1, 0xc2, 0xc3, 0xc5, 0xc6, 0xc7, 0xc9, 0xca, 0xcb, 0xcd, 0xce, 0xcf]);
+    for (let offset = 2; offset + 3 < bytes.length;) {
+      if (bytes[offset] !== 0xff) { offset += 1; continue; }
+      const marker = bytes[offset + 1];
+      offset += 2;
+      if (marker === 0xff || marker === 0x01 || marker >= 0xd0 && marker <= 0xd9) continue;
+      const length = bytes.readUInt16BE(offset);
+      if (length < 2 || offset + length > bytes.length) return null;
+      if (startOfFrame.has(marker) && length >= 7) {
+        return { width: bytes.readUInt16BE(offset + 5), height: bytes.readUInt16BE(offset + 3) };
+      }
+      offset += length;
+    }
+    return null;
+  }
   if (mime !== 'image/webp' || bytes.length < 30 || bytes.toString('ascii', 0, 4) !== 'RIFF' || bytes.toString('ascii', 8, 12) !== 'WEBP') return null;
   const kind = bytes.toString('ascii', 12, 16);
   if (kind === 'VP8X') return { width: 1 + bytes.readUIntLE(24, 3), height: 1 + bytes.readUIntLE(27, 3) };
@@ -204,8 +235,9 @@ function dimensions(bytes, mime) {
 function mimeFor(file, bytes) {
   if (bytes.subarray(0, 8).equals(Buffer.from([137, 80, 78, 71, 13, 10, 26, 10]))) return 'image/png';
   if (bytes.toString('ascii', 0, 4) === 'RIFF' && bytes.toString('ascii', 8, 12) === 'WEBP') return 'image/webp';
-  const ext = path.extname(file).toLowerCase();
-  return ext === '.png' ? 'image/png' : ext === '.webp' ? 'image/webp' : null;
+  if (bytes.length >= 3 && bytes[0] === 0xff && bytes[1] === 0xd8 && bytes[2] === 0xff) return 'image/jpeg';
+  if (bytes.length >= 6 && ['GIF87a', 'GIF89a'].includes(bytes.toString('ascii', 0, 6))) return 'image/gif';
+  return null;
 }
 
 function safeAssetPath(relative, db = DATABASE) {
@@ -242,12 +274,24 @@ function safeAssetPath(relative, db = DATABASE) {
   return fallbacks.length === 1 ? fallbacks[0] : null;
 }
 
+const ANNOUNCED_ART_FOLDERS = { gi: 'genshin', hsr: 'hsr', zzz: 'zzz', wuwa: 'wuwa', ae: 'ae' };
+
+function announcedArtPath(game, value, db = DATABASE) {
+  const folder = ANNOUNCED_ART_FOLDERS[game];
+  if (!folder || typeof value !== 'string'
+    || !new RegExp(`^/assets/banners/${folder}/[a-f0-9]{32}\\.(?:png|jpe?g|webp|gif)$`).test(value)) return null;
+  const resolved = safeAssetPath(`Site${value}`, db);
+  return resolved?.path ?? null;
+}
+
 function inspectAsset(relative, source, variantId, placement = 'contain', db = DATABASE) {
   const resolved = safeAssetPath(relative, db);
   if (!resolved) return null;
   const bytes = fs.readFileSync(resolved.full);
   const mime = mimeFor(resolved.full, bytes);
   if (!mime) return null;
+  const expectedMime = { '.png': 'image/png', '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg', '.webp': 'image/webp', '.gif': 'image/gif' }[path.extname(resolved.full).toLowerCase()];
+  if (expectedMime && mime !== expectedMime) return null;
   const size = bytes.length;
   const dim = dimensions(bytes, mime);
   if (!dim || !dim.width || !dim.height || size <= 0) return null;
@@ -291,11 +335,33 @@ function remoteWuwaIconUrl(value) {
   }
 }
 
+function remoteGame8ArtUrl(value) {
+  if (typeof value !== 'string' || !value) return null;
+  try {
+    const parsed = new URL(value);
+    if (parsed.protocol !== 'https:'
+      || parsed.hostname.toLowerCase() !== REMOTE_GAME8_ART_HOST
+      || parsed.username
+      || parsed.password
+      || parsed.port
+      || parsed.search
+      || parsed.hash
+      || !/^\/\d+\/[a-f0-9]{32}\.png\/show$/.test(parsed.pathname)) return null;
+    return parsed.toString();
+  } catch {
+    return null;
+  }
+}
+
+function remoteLauncherArtUrl(value) {
+  return remoteWuwaIconUrl(value) ?? remoteGame8ArtUrl(value);
+}
+
 export async function fetchRemoteLauncherArt(sourceUrl, {
   fetchImpl = globalThis.fetch,
   maxBytes = MAX_REMOTE_LAUNCHER_ART_BYTES,
 } = {}) {
-  const approvedUrl = remoteWuwaIconUrl(sourceUrl);
+  const approvedUrl = remoteLauncherArtUrl(sourceUrl);
   if (!approvedUrl || approvedUrl !== sourceUrl) throw new Error(`Launcher art source URL is not approved: ${sourceUrl}`);
   if (!Number.isSafeInteger(maxBytes) || maxBytes <= 0) throw new TypeError('Launcher art byte limit must be a positive safe integer');
   const response = await fetchImpl(approvedUrl, {
@@ -338,12 +404,25 @@ export async function fetchRemoteLauncherArt(sourceUrl, {
     reader.releaseLock?.();
   }
   if (!total) throw new Error(`Launcher art source is empty: ${approvedUrl}`);
-  return Buffer.concat(chunks, total);
+  const bytes = Buffer.concat(chunks, total);
+  const signatureMime = bytes.subarray(0, 8).equals(Buffer.from([137, 80, 78, 71, 13, 10, 26, 10]))
+    ? 'image/png'
+    : bytes.toString('ascii', 0, 4) === 'RIFF' && bytes.toString('ascii', 8, 12) === 'WEBP'
+      ? 'image/webp'
+      : bytes.length >= 3 && bytes[0] === 0xff && bytes[1] === 0xd8 && bytes[2] === 0xff
+        ? 'image/jpeg'
+        : null;
+  if (signatureMime !== contentType) throw new Error(`Launcher art source signature does not match its MIME type: ${approvedUrl}`);
+  return bytes;
 }
 
 function remoteCharacterIcon(game, raw, variantId) {
-  if (game !== 'wuwa') return null;
-  const sourceUrl = remoteWuwaIconUrl(raw?.image ?? raw?.icon);
+  if (game !== 'wuwa' && game !== 'ae') return null;
+  // `image` now holds the copy we host ourselves, so the original publisher URL
+  // travels alongside it as `imageSource` — that is what the launcher fetches.
+  const sourceUrl = game === 'wuwa'
+    ? remoteWuwaIconUrl(raw?.imageSource ?? raw?.image ?? raw?.icon)
+    : remoteGame8ArtUrl(raw?.imageSource ?? raw?.image ?? raw?.icon);
   if (!sourceUrl) return null;
   return {
     id: variantId,
@@ -375,7 +454,8 @@ function rosterEntry(rosters, game, name, sourceIcon = null) {
     const candidate = norm(entry?.name ?? entry?.displayName);
     return sameCharacterName(candidate, wanted) || (game === 'hsr' && wanted.length >= 6 && candidate.endsWith(wanted));
   });
-  return aliases.length === 1 ? aliases[0] : null;
+  const identities = new Set(aliases.map((entry) => String(entry?.id ?? norm(entry?.name ?? entry?.displayName))));
+  return identities.size === 1 ? aliases[0] : null;
 }
 
 function parseRarity(value) {
@@ -388,7 +468,8 @@ function parseRarity(value) {
 function parseDebut(entry) {
   for (const value of [entry?.debut, entry?.release, entry?.releaseDate, entry?.profile?.release_date]) {
     const parsed = iso(value);
-    if (parsed) return parsed;
+    const parsedMs = timestamp(parsed);
+    if (parsedMs != null && parsedMs >= EARLIEST_PLAUSIBLE_DEBUT_MS && parsedMs < LATEST_PLAUSIBLE_DEBUT_MS) return parsed;
   }
   return null;
 }
@@ -436,11 +517,12 @@ function isLimited(entry) {
 
 function loadRosters(db = DATABASE) {
   const load = (file) => exists(path.join(db, file)) ? readJson(path.join(db, file)) : [];
+  const liveAndBeta = (live, beta) => [...load(live), ...load(beta)];
   return {
-    gi: load('GameData/gi/live/characters.json'),
-    hsr: load('GameData/hsr/live/characters.json'),
-    zzz: load('GameData/zzz/live/agents.json'),
-    wuwa: load('GameData/ww/live/characters.json'),
+    gi: liveAndBeta('GameData/gi/live/characters.json', 'GameData/gi/beta/characters.json'),
+    hsr: liveAndBeta('GameData/hsr/live/characters.json', 'GameData/hsr/beta/characters.json'),
+    zzz: liveAndBeta('GameData/zzz/live/agents.json', 'GameData/zzz/beta/agents.json'),
+    wuwa: liveAndBeta('GameData/ww/live/characters.json', 'GameData/ww/beta/characters.json'),
     ae: load('EndfieldWiki/endfield/characters.json'),
   };
 }
@@ -546,7 +628,9 @@ function buildCharacter(game, raw, rosters, prydwen, db, debuts) {
   if (!name) return null;
   const roster = rosterEntry(rosters, game, name, raw?.image ?? raw?.icon);
   const provider = rosterEntry({ [game]: prydwen }, game, name);
-  const record = roster ?? provider ?? {};
+  const rosterIsExact = roster && [roster.name, roster.displayName, roster.id].some((value) => norm(value) === norm(name));
+  const providerIsExact = provider && [provider.name, provider.displayName, provider.id].some((value) => norm(value) === norm(name));
+  const record = rosterIsExact ? roster : providerIsExact ? provider : roster ?? provider ?? {};
   const rarity = parseRarity(raw?.rarity ?? record.rarity ?? record.facts?.rarity);
   const debut = parseDebut({ ...record, ...raw }) ?? sourcedDebut(debuts?.[game], name);
   const limited = typeof raw?.limited === 'boolean' ? raw.limited : isLimited(record);
@@ -560,12 +644,13 @@ function buildCharacter(game, raw, rosters, prydwen, db, debuts) {
     source: 'character-icon',
     placement: { anchor: 'center', fit: 'cover', x: 0.5, y: 0.5 },
   } : null;
-  const icon = localCharacterIcon(game, record, db) ?? verifiedArtIcon ?? remoteCharacterIcon(game, raw, `${id}-icon`);
+  const approvedLocalIcon = inspectAsset(raw?.image, 'character-icon', `${id}-icon`, { fit: 'cover', x: 0.5, y: 0.5 }, db);
+  const icon = localCharacterIcon(game, record, db) ?? approvedLocalIcon ?? verifiedArtIcon ?? remoteCharacterIcon(game, raw, `${id}-icon`);
   const displayName = game === 'hsr'
-    && provider
-    && norm(provider.name) !== norm(name)
-    && norm(provider.name).endsWith(norm(name))
-    ? cleanText(provider.name, 80)
+    && record
+    && norm(record.name) !== norm(name)
+    && norm(record.name).endsWith(norm(name))
+    ? cleanText(record.name, 80)
     : name;
   return { id, name: displayName, rarity, limited, debut, icon, variants };
 }
@@ -603,15 +688,23 @@ function loadEvents(db = DATABASE) {
   return Object.fromEntries(GAMES.map((game) => [game, exists(path.join(db, files[game])) ? readJson(path.join(db, files[game])) : { events: [] }]));
 }
 
-function trustedRawFuturePhases(group, nowMs) {
-  const source = cleanText(group?.freshness?.source, 32);
+function hasRecentGame8Observation(freshness, nowMs) {
+  const source = cleanText(freshness?.source, 32);
+  const successfulMs = timestamp(iso(freshness?.lastSuccessfulFetch));
+  return source === 'game8'
+    && successfulMs != null
+    && successfulMs <= nowMs + 60_000
+    && nowMs - successfulMs <= RAW_FUTURE_MAX_AGE_MS;
+}
+
+function hasRecentGame8Source(group, nowMs) {
   const status = cleanText(group?.freshness?.status, 32);
-  const successfulMs = timestamp(iso(group?.freshness?.lastSuccessfulFetch));
-  if (source !== 'game8'
-    || !['fresh', 'transition'].includes(status)
-    || successfulMs == null
-    || successfulMs > nowMs + 60_000
-    || nowMs - successfulMs > RAW_FUTURE_MAX_AGE_MS) return [];
+  return ['fresh', 'transition'].includes(status)
+    && hasRecentGame8Observation(group?.freshness, nowMs);
+}
+
+function trustedRawFuturePhases(group, nowMs) {
+  if (!hasRecentGame8Source(group, nowMs)) return [];
 
   const windows = new Map();
   for (const raw of [group?.next, ...(group?.upcoming ?? [])]) {
@@ -659,20 +752,26 @@ function trustedRawFuturePhases(group, nowMs) {
 
 function mergeFuturePhases(trusted, raw, currentEnd) {
   const boundary = timestamp(iso(currentEnd));
-  const exact = new Map();
-  for (const phase of [...trusted, ...raw]) {
-    const start = iso(phase?.start);
-    const end = iso(phase?.end);
-    if (!start || !end || (boundary != null && timestamp(start) < boundary)) continue;
-    const key = `${start}\u0000${end}`;
-    if (!exact.has(key)) exact.set(key, { ...phase, start, end });
-  }
+  const normalized = (phases) => {
+    const exact = new Map();
+    for (const phase of phases) {
+      const start = iso(phase?.start);
+      const end = iso(phase?.end);
+      if (!start || !end || (boundary != null && timestamp(start) < boundary)) continue;
+      const key = `${start}\u0000${end}`;
+      if (!exact.has(key)) exact.set(key, { ...phase, start, end });
+    }
+    return [...exact.values()].sort((left, right) => left.start.localeCompare(right.start) || left.end.localeCompare(right.end));
+  };
+  const overlaps = (left, right) => timestamp(left.start) < timestamp(right.end) && timestamp(left.end) > timestamp(right.start);
   const result = [];
-  for (const candidate of [...exact.values()].sort((left, right) => left.start.localeCompare(right.start) || left.end.localeCompare(right.end))) {
-    if (result.some((selected) => timestamp(candidate.start) < timestamp(selected.end))) continue;
-    result.push(candidate);
+  for (const phases of [normalized(trusted), normalized(raw)]) {
+    for (const candidate of phases) {
+      if (result.length >= 5 || result.some((selected) => overlaps(candidate, selected))) continue;
+      result.push(candidate);
+    }
   }
-  return result.slice(0, 5);
+  return result.sort((left, right) => left.start.localeCompare(right.start) || left.end.localeCompare(right.end));
 }
 
 export function applySourcedBannerWindows(banners, db = DATABASE, nowMs = Date.now()) {
@@ -682,6 +781,44 @@ export function applySourcedBannerWindows(banners, db = DATABASE, nowMs = Date.n
     if (!game) continue;
     const corroboratingGroup = structuredClone(group);
     group._displayUpcoming = trustedRawFuturePhases(corroboratingGroup, nowMs);
+    const announcedSource = game === 'ae'
+      ? (group.upcoming ?? []).filter((phase) => phase?.teased === true && phase?.start == null && phase?.end == null)
+      : Array.isArray(group.roadmap) && group.roadmap.length
+        ? [{ phase: null, characters: (() => {
+            const betaFile = { gi: 'GameData/gi/beta/characters.json', hsr: 'GameData/hsr/beta/characters.json', zzz: 'GameData/zzz/beta/agents.json', wuwa: 'GameData/ww/beta/characters.json' }[game];
+            const betaNames = new Set((betaFile && exists(path.join(db, betaFile)) ? readJson(path.join(db, betaFile)) : [])
+              .filter((entry) => entry?.contentStatus === 'beta')
+              .map((entry) => norm(entry?.name)));
+            const betaRoadmap = betaNames.size
+              ? group.roadmap.filter((entry) => betaNames.has(norm(entry?.name)))
+              : [];
+            return betaRoadmap.length ? betaRoadmap : group.roadmap;
+          })() }]
+        : [];
+    const announcedIsFresh = hasRecentGame8Source(corroboratingGroup, nowMs)
+      && hasRecentGame8Observation(
+        game === 'ae' ? corroboratingGroup?.teaserFreshness : corroboratingGroup?.roadmapFreshness,
+        nowMs,
+      );
+    group._displayAnnounced = announcedIsFresh
+      ? announcedSource
+        .map((phase) => ({
+          phase: cleanText(phase?.phase, 48) || null,
+          announced: true,
+          start: null,
+          end: null,
+          characters: (phase?.characters ?? []).map((character) => ({
+            name: cleanText(character?.name, 80),
+            rarity: parseRarity(character?.rarity),
+            limited: typeof character?.limited === 'boolean' ? character.limited : null,
+            image: announcedArtPath(game, character?.image ?? character?.icon, db),
+          })),
+        }))
+        .filter((phase) => phase.characters.length > 0
+          && phase.characters.length <= 8
+          && phase.characters.every((character) => character.name && character.image)
+          && new Set(phase.characters.map((character) => norm(character.name))).size === phase.characters.length)
+      : [];
     group.current = null;
     group.next = null;
     group.upcoming = [];
@@ -704,8 +841,8 @@ export function applySourcedBannerWindows(banners, db = DATABASE, nowMs = Date.n
         if (!(timestamp(start) <= nowMs && nowMs < timestamp(end))) continue;
         if (!hasIndependentCurrentCorroboration(corroboratingGroup, record, window, nowMs)) continue;
         const characters = (record.featured ?? [])
-          .filter((entry) => entry?.primary === true && norm(entry?.name))
-          .map((entry) => ({ name: cleanText(entry.name, 80), rarity: parseRarity(entry.rarity), limited: true }));
+          .filter((entry) => (entry?.primary === true || (game === 'ae' && parseRarity(entry?.rarity) === 6)) && norm(entry?.name))
+          .map((entry) => ({ name: cleanText(entry.name, 80), rarity: parseRarity(entry.rarity), limited: entry?.primary === true }));
         if (!characters.length) continue;
         candidateActive.push({ recordId: record.id, category: record.category, version: cleanText(record.version, 48) || null, start, end, characters });
       }
@@ -771,7 +908,7 @@ export function applySourcedBannerWindows(banners, db = DATABASE, nowMs = Date.n
       if (!futureWindows.has(key)) futureWindows.set(key, []);
       futureWindows.get(key).push(record);
     }
-    const historyUpcoming = [...futureWindows.entries()].flatMap(([key, records]) => {
+    const trustedUpcoming = [...futureWindows.entries()].flatMap(([key, records]) => {
       const [futureStart, futureEnd] = key.split('\u0000');
       const futureVersions = new Set(records.map((record) => cleanText(record.version, 48)).filter(Boolean));
       if (records.some((record) => !cleanText(record.version, 48)) || futureVersions.size !== 1) return [];
@@ -796,7 +933,7 @@ export function applySourcedBannerWindows(banners, db = DATABASE, nowMs = Date.n
         _sourceChannels: records.map((record) => ({ recordId: record.id, category: record.category })),
       }];
     }).sort((left, right) => left.start.localeCompare(right.start));
-    group._displayUpcoming = mergeFuturePhases(historyUpcoming, group._displayUpcoming, group.current.end);
+    group._displayUpcoming = mergeFuturePhases(trustedUpcoming, group._displayUpcoming, group.current.end);
     // Current state remains history-authoritative. Future Game8 windows may fill
     // gaps only while the Pengo-owned scrape is recent and fully bounded.
   }
@@ -815,7 +952,7 @@ function buildUpcomingPhases(game, group, rosters, prydwen, db, debuts, nowMs) {
   const raw = Array.isArray(group?._displayUpcoming)
     ? group._displayUpcoming
     : [];
-  return raw
+  const scheduled = raw
     .map((phase, index) => normalizePhase(group, phase, index))
     .filter((phase) => !phase.uncertain && phase.startMs > nowMs)
     .sort((left, right) => left.startMs - right.startMs)
@@ -832,6 +969,20 @@ function buildUpcomingPhases(game, group, rosters, prydwen, db, debuts, nowMs) {
     // Upcoming art is optional. Omit an incomplete phase instead of shipping
     // a broken remote reference or failing the known-good current feed.
     .filter((phase) => phase.characters.length > 0 && phase.characters.every((character) => character.icon));
+  const announced = (Array.isArray(group?._displayAnnounced) ? group._displayAnnounced : [])
+    .slice(0, Math.max(0, 5 - scheduled.length))
+    .map((phase) => ({
+      phase: phase.phase,
+      announced: true,
+      start: null,
+      end: null,
+      characters: phase.characters
+        .map((entry) => buildCharacter(game, entry, rosters ?? {}, prydwen[game] ?? [], db, debuts))
+        .filter(Boolean)
+        .map((character) => ({ ...character, variants: [] })),
+    }))
+    .filter((phase) => phase.characters.length > 0 && phase.characters.every((character) => character.icon));
+  return [...scheduled, ...announced];
 }
 
 function stableStringify(value) {
@@ -879,22 +1030,44 @@ export function reconcileLauncherCodes(manifest, codesFeed) {
 }
 
 /**
- * Copy current-phase art and the small upcoming character icons referenced by a manifest into the small,
- * packageable launcher-art directory. Files are content-addressed so the
- * shipped manifest never needs to expose a provider/database path.
+ * Copy launcher splash art into the small, content-addressed launcher-art
+ * directory. Character icons keep their validated Database identity and use
+ * Pengo's existing read-only legacy asset host.
  */
+export function installManifestAtomically(target, bytes, { replaceFile = fs.renameSync } = {}) {
+  const directory = path.dirname(target);
+  const nonce = `${process.pid}-${crypto.randomBytes(6).toString('hex')}`;
+  const temporary = path.join(directory, `.${path.basename(target)}.${nonce}.tmp`);
+  fs.mkdirSync(directory, { recursive: true });
+  try {
+    const handle = fs.openSync(temporary, 'wx');
+    try {
+      fs.writeFileSync(handle, bytes);
+      fs.fsyncSync(handle);
+    } finally {
+      fs.closeSync(handle);
+    }
+    if (!fs.readFileSync(temporary).equals(bytes)) throw new Error('Launcher manifest verification failed.');
+    replaceFile(temporary, target);
+  } finally {
+    fs.rmSync(temporary, { force: true });
+  }
+}
+
 export async function mirrorLauncherArt(manifest, {
   outputDir = LAUNCHER_ART,
   sourceRoot = ROOT,
   publicBaseUrl = 'https://pengo.gg/dist/launcher-art',
   requireDeployable = false,
+  manifestOutput = null,
+  installManifest = installManifestAtomically,
+  fetchRemoteArt = fetchRemoteLauncherArt,
 } = {}) {
   if (!manifest || typeof manifest !== 'object') throw new TypeError('A launcher manifest is required.');
   const root = path.resolve(sourceRoot);
   const destination = path.resolve(outputDir);
   const nonce = `${process.pid}-${crypto.randomBytes(6).toString('hex')}`;
   const staging = `${destination}.tmp-${nonce}`;
-  const backup = `${destination}.bak-${nonce}`;
   const working = structuredClone(manifest);
   fs.mkdirSync(staging, { recursive: true });
   const processed = new Map();
@@ -911,16 +1084,19 @@ export async function mirrorLauncherArt(manifest, {
       for (const asset of assets) {
         if (!asset || seenAssets.has(asset)) continue;
         seenAssets.add(asset);
+        const isDatabasePath = typeof asset.path === 'string' && asset.path.startsWith('/Database/');
+        const isAnnouncedSplashPath = typeof asset.path === 'string'
+          && /^\/Site\/assets\/banners\/(?:ae|genshin|hsr|zzz|wuwa)\/[a-f0-9]{32}\.(?:png|jpe?g|webp|gif)$/.test(asset.path);
         let source = null;
         let bytes;
         if (typeof asset.sourceUrl === 'string') {
-          const sourceUrl = remoteWuwaIconUrl(asset.sourceUrl);
-          if (!sourceUrl) throw new Error(`Launcher art source URL is not an approved WuWa icon: ${asset.sourceUrl}`);
-          bytes = await fetchRemoteLauncherArt(sourceUrl);
+          const sourceUrl = remoteLauncherArtUrl(asset.sourceUrl);
+          if (!sourceUrl) throw new Error(`Launcher art source URL is not approved: ${asset.sourceUrl}`);
+          bytes = await fetchRemoteArt(sourceUrl);
           source = sourceUrl;
         } else {
-          if (typeof asset.path !== 'string' || !asset.path.startsWith('/Database/')) {
-            throw new Error(`Launcher art source is not a local Database path: ${asset?.path ?? '<missing>'}`);
+          if (!isDatabasePath && !isAnnouncedSplashPath) {
+            throw new Error(`Launcher art source is not an approved local path: ${asset?.path ?? '<missing>'}`);
           }
           const relative = asset.path.slice(1).replace(/\//g, path.sep);
           source = path.resolve(root, relative);
@@ -959,23 +1135,36 @@ export async function mirrorLauncherArt(manifest, {
     }
     working.revision = manifestRevision(working);
     if (requireDeployable) validatePackagedManifest(working, { now: Date.parse(working.generatedAt) });
-    const hadDestination = exists(destination);
-    if (hadDestination) fs.renameSync(destination, backup);
-    try {
-      fs.renameSync(staging, destination);
-    } catch (error) {
-      if (hadDestination && exists(backup) && !exists(destination)) fs.renameSync(backup, destination);
-      throw error;
+    fs.mkdirSync(destination, { recursive: true });
+    for (const file of fs.readdirSync(staging)) {
+      const source = path.join(staging, file);
+      const target = path.join(destination, file);
+      if (exists(target)) {
+        if (!fs.readFileSync(target).equals(fs.readFileSync(source))) throw new Error(`Existing launcher art does not match its content hash: ${file}`);
+      } else {
+        fs.renameSync(source, target);
+      }
     }
-    if (hadDestination) fs.rmSync(backup, { recursive: true, force: true });
+    const referenced = new Set([...processed.values()].map((item) => item.filename));
+    const manifestBytes = Buffer.from(`${JSON.stringify(working, null, 2)}\n`);
+    if (manifestOutput) installManifest(path.resolve(manifestOutput), manifestBytes);
     for (const key of Object.keys(manifest)) delete manifest[key];
     Object.assign(manifest, working);
+    try {
+      for (const file of fs.readdirSync(destination, { withFileTypes: true })) {
+        if (file.isFile() && !referenced.has(file.name)) fs.rmSync(path.join(destination, file.name), { force: true });
+      }
+    } catch {
+      // The installed manifest remains valid if obsolete content-addressed art
+      // cannot be pruned yet; a later generation can retry.
+    }
     const unique = new Map([...processed.values()].map((item) => [item.hash, item]));
     return { manifest, outputDir: destination, count: unique.size, bytes: [...unique.values()].reduce((total, item) => total + item.size, 0) };
   } catch (error) {
     fs.rmSync(staging, { recursive: true, force: true });
-    if (exists(backup) && !exists(destination)) fs.renameSync(backup, destination);
     throw error;
+  } finally {
+    fs.rmSync(staging, { recursive: true, force: true });
   }
 }
 
@@ -1064,6 +1253,12 @@ export function validatePackagedManifest(manifest, { now = Date.now(), maxAgeMs 
       if (!character?.icon) errors.push(`${game} current character ${character?.name ?? '<unknown>'} has no icon`);
     }
     for (const phase of entry?.upcoming ?? []) {
+      const announced = phase?.announced === true;
+      const upcomingStart = Date.parse(phase?.start ?? '');
+      const upcomingEnd = Date.parse(phase?.end ?? '');
+      if (announced ? phase?.start !== null || phase?.end !== null : !Number.isFinite(upcomingStart) || !Number.isFinite(upcomingEnd) || upcomingEnd <= upcomingStart) {
+        errors.push(`${game} upcoming phase timing is invalid`);
+      }
       for (const character of phase?.characters ?? []) {
         if (!character?.icon) errors.push(`${game} upcoming character ${character?.name ?? '<unknown>'} has no icon`);
       }
@@ -1076,10 +1271,21 @@ export function validatePackagedManifest(manifest, { now = Date.now(), maxAgeMs 
     );
   }
   for (const asset of assets) {
-    const match = String(asset?.path ?? '').match(/^\/launcher-art\/([a-f0-9]{64})\.webp$/);
-    if (!match || match[1] !== asset?.sha256) errors.push(`asset path/hash is invalid: ${asset?.path ?? '<missing>'}`);
-    if (asset?.url !== `https://pengo.gg/dist${asset?.path ?? ''}`) errors.push(`asset URL is invalid: ${asset?.url ?? '<missing>'}`);
-    if (asset?.mime !== 'image/webp' || !Number.isSafeInteger(asset?.size) || asset.size <= 0) errors.push(`asset metadata is invalid: ${asset?.path ?? '<missing>'}`);
+    const assetPath = String(asset?.path ?? '');
+    const databaseIcon = asset?.source === 'character-icon'
+      && assetPath.startsWith('/Database/')
+      && !assetPath.includes('\\')
+      && assetPath.slice(1).split('/').every((part) => part && part !== '.' && part !== '..');
+    if (databaseIcon) {
+      if (asset?.url !== `https://assets.pengo.gg/legacy${asset.path}`) errors.push(`asset URL is invalid: ${asset?.url ?? '<missing>'}`);
+      if (!/^[a-f0-9]{64}$/.test(asset?.sha256 ?? '')) errors.push(`asset path/hash is invalid: ${asset?.path ?? '<missing>'}`);
+    } else {
+      const match = String(asset?.path ?? '').match(/^\/launcher-art\/([a-f0-9]{64})\.webp$/);
+      if (!match || match[1] !== asset?.sha256) errors.push(`asset path/hash is invalid: ${asset?.path ?? '<missing>'}`);
+      if (asset?.url !== `https://pengo.gg/dist${asset?.path ?? ''}`) errors.push(`asset URL is invalid: ${asset?.url ?? '<missing>'}`);
+    }
+    if (!(databaseIcon ? ['image/webp', 'image/png'].includes(asset?.mime) : asset?.mime === 'image/webp')
+      || !Number.isSafeInteger(asset?.size) || asset.size <= 0) errors.push(`asset metadata is invalid: ${asset?.path ?? '<missing>'}`);
     if (!Number.isSafeInteger(asset?.dimensions?.width) || asset.dimensions.width <= 0
       || !Number.isSafeInteger(asset?.dimensions?.height) || asset.dimensions.height <= 0) errors.push(`asset dimensions are invalid: ${asset?.path ?? '<missing>'}`);
   }
@@ -1087,7 +1293,7 @@ export function validatePackagedManifest(manifest, { now = Date.now(), maxAgeMs 
   // `token` is matched as a credential, not as the English word: official event
   // titles legitimately contain it ("...Prismatic Crystals, the Token for the
   // Colorful Surprise Box"), and the bare-word match blocked every deploy.
-  if (/nanoka|drive\.google|google drive|sourceUrl|(?:^|[\"/])Database(?:[\/\"]|$)|[a-z]:\\\\|[\\/]Users[\\/]|(?:access|api|auth|bearer|refresh|secret|session)[_-]?token|token[\"']?\s*[=:]\s*[\"']?[\w-]{8}/i.test(serialized)) {
+  if (/nanoka|drive\.google|google drive|sourceUrl|[a-z]:\\\\|[\\/]Users[\\/]|(?:access|api|auth|bearer|refresh|secret|session)[_-]?token|token[\"']?\s*[=:]\s*[\"']?[\w-]{8}/i.test(serialized)) {
     errors.push('manifest contains internal provenance or secret-like metadata');
   }
   if (errors.length) throw new Error(`Launcher manifest is not deployable:\n- ${errors.join('\n- ')}`);
@@ -1105,10 +1311,8 @@ async function cli() {
   const manifest = buildManifest({ ...loadManifestInputs({ now: at }), now: at, generatedAt });
   const artArg = process.argv.find((arg) => arg.startsWith('--art-output='));
   const artOutput = artArg ? path.resolve(artArg.slice(13)) : LAUNCHER_ART;
-  const mirrored = await mirrorLauncherArt(manifest, { outputDir: artOutput, requireDeployable: true });
+  const mirrored = await mirrorLauncherArt(manifest, { outputDir: artOutput, requireDeployable: true, manifestOutput: output });
   validatePackagedManifest(manifest, { now: at });
-  fs.mkdirSync(path.dirname(output), { recursive: true });
-  fs.writeFileSync(output, `${JSON.stringify(manifest, null, 2)}\n`, 'utf8');
   process.stdout.write(`launcher manifest: ${output} (${manifest.revision}); art: ${mirrored.count} files (${mirrored.bytes} bytes)\n`);
 }
 

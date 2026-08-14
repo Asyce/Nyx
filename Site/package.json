@@ -8,7 +8,10 @@
     "generate:launcher-codes": "node ./tools/generate-launcher-codes.mjs",
     "reconcile:launcher-codes": "node ./tools/reconcile-launcher-codes.mjs",
     "generate:launcher-manifest": "node ./tools/generate-launcher-manifest.mjs",
+    "generate:launcher-visuals": "node ./tools/generate-launcher-visuals.mjs",
     "refresh:launcher": "npm run generate:launcher-codes && npm run generate:launcher-manifest",
+    "verify:launcher-visuals:source": "node ./tools/verify-launcher-visuals.mjs --source",
+    "sync:launcher-visuals:r2": "node ./tools/sync-launcher-visuals-r2.mjs",
     "verify:launcher:source": "node ./tools/verify-committed-launcher.mjs --source",
     "verify:launcher:dist": "node ./tools/verify-committed-launcher.mjs --dist",
     "verify:launcher:deploy": "node ./tools/verify-committed-launcher.mjs --deploy",
@@ -47,6 +50,7 @@
     "test:achievements": "node --test ./tools/tests/achievement-import-storage.test.mjs ./tools/tests/achievement-view-model.test.mjs",
     "test:achievement-extractor": "node --test ./tools/tests/achievement-extractor-script.test.mjs",
     "test:achievement-hoyolab": "node --test ./tools/tests/achievement-hoyolab-exporter.test.mjs",
+    "test:launcher-visuals": "node --test ./tools/tests/launcher-visuals.test.mjs",
     "serve": "python -m http.server 5173 --bind 127.0.0.1 --directory .."
   },
   "dependencies": {
@@ -56,7 +60,8 @@
   "devDependencies": {
     "@aws-sdk/client-s3": "^3.1097.0",
     "esbuild": "^0.28.1",
-    "sharp": "0.35.3"
+    "sharp": "0.35.3",
+    "wrangler": "4.86.0"
   },
   "engines": {
     "node": ">=20"

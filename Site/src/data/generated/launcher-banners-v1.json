@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "7d65e53218d7b5f83ce961cd28e95c1505d0afea0239bcc0485e06cc74d3add5",
-  "generatedAt": "2026-08-14T04:58:25.947Z",
+  "revision": "5db8a4cf4b14c945eae339e0a647b063f2dd2b63406797416388a6f9ec8c6768",
+  "generatedAt": "2026-08-14T05:04:45.491Z",
   "health": {
     "status": "ok",
     "games": {
@@ -43,7 +43,7 @@
         "remaining": {
           "startsAt": "2026-08-12T03:00:00.000Z",
           "endsAt": "2026-09-01T09:59:59.000Z",
-          "durationSeconds": 1573293
+          "durationSeconds": 1572913
         },
         "characters": [
           {
@@ -537,7 +537,7 @@
         "remaining": {
           "startsAt": "2026-08-05T11:00:00.000Z",
           "endsAt": "2026-08-25T14:00:00.000Z",
-          "durationSeconds": 982894
+          "durationSeconds": 982514
         },
         "characters": [
           {
@@ -1122,7 +1122,7 @@
         "remaining": {
           "startsAt": "2026-07-29T03:00:00.000Z",
           "endsAt": "2026-08-19T03:59:59.000Z",
-          "durationSeconds": 428493
+          "durationSeconds": 428113
         },
         "characters": [
           {
@@ -1693,39 +1693,39 @@
           "id": "zzz-hoyo-ann-3d5f728e1856",
           "title": "\"Marcel Anniversary Gift\" Event Details",
           "type": "event",
-          "start": "2026-07-27T05:45:00.000Z",
-          "end": "2026-09-08T22:00:00.000Z",
+          "start": "2026-07-27T12:45:00.000Z",
+          "end": "2026-09-09T05:00:00.000Z",
           "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=220"
         },
         {
           "id": "zzz-hoyo-ann-c3848dccb384",
           "title": "\"Filmgoer Thank-You Gift\" Event Details",
           "type": "event",
-          "start": "2026-07-27T05:30:00.000Z",
-          "end": "2026-09-08T22:00:00.000Z",
+          "start": "2026-07-27T12:30:00.000Z",
+          "end": "2026-09-09T05:00:00.000Z",
           "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=226"
         },
         {
           "id": "zzz-hoyo-ann-17f16d0daaf4",
           "title": "Version 3.1 New Stock in the Store",
           "type": "event",
-          "start": "2026-07-27T05:00:00.000Z",
-          "end": "2026-09-08T22:00:00.000Z",
+          "start": "2026-07-27T12:00:00.000Z",
+          "end": "2026-09-09T05:00:00.000Z",
           "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=219"
         },
         {
           "id": "zzz-hoyo-ann-424df948a6d9",
           "title": "New Story: Season 3 Chapter 2 \"The Long Goodbye\"",
           "type": "event",
-          "start": "2026-07-27T04:45:00.000Z",
-          "end": "2026-09-08T22:00:00.000Z",
+          "start": "2026-07-27T11:45:00.000Z",
+          "end": "2026-09-09T05:00:00.000Z",
           "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=227"
         },
         {
           "id": "zzz-hoyo-ann-44796e8ea65a",
           "title": "V3.1 Limited-Time Channels",
           "type": "event",
-          "start": "2026-07-27T04:30:00.000Z",
+          "start": "2026-07-27T11:30:00.000Z",
           "end": "2026-09-08T13:59:59.000Z",
           "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=218"
         },
@@ -1769,7 +1769,7 @@
         "remaining": {
           "startsAt": "2026-07-30T09:00:00.000Z",
           "endsAt": "2026-08-19T10:59:00.000Z",
-          "durationSeconds": 453634
+          "durationSeconds": 453254
         },
         "characters": [
           {
@@ -2357,7 +2357,7 @@
         "remaining": {
           "startsAt": "2026-08-09T04:00:00.000Z",
           "endsAt": "2026-09-01T21:59:59.000Z",
-          "durationSeconds": 1616493
+          "durationSeconds": 1616113
         },
         "characters": [
           {

@@ -31914,7 +31914,7 @@
     "name": "Thousandfold Deliverance",
     "rarity": 5,
     "type": 1,
-    "description": "Endless stretches the Netherworld, the long night lasts forever Myriad souls lie hushed, all sounds fade together\nWhen the chilling, golden rays illuminate the Nether gate, the sunken dreams of old shall finally reveal in the light.",
+    "description": "Endless stretches the Netherworld; the long night knows no end. Ten thousand souls lie hushed, and all sound fades to silence.\nWhen cold, golden rays illuminate the Nether Gate, the sunken dreams of ages past shall at last be brought to light.",
     "attack": 412,
     "subStat": "HP",
     "assets": {},
@@ -33279,8 +33279,8 @@
       }
     },
     "effect": {
-      "name": "Call Upon Stars and Ghosts",
-      "description": "All-Attribute DMG Bonus is increased by {0}. When casting Intro Skill or gaining a Shield, gain 1 stack of Nature's Order and 1 stack of Cradle of Life. This effect can be triggered via gaining a Shield once every 0.5s, stackable for up to {1} stacks, lasting for {2}s.\nNature's Order: Crit. DMG is increased by {3}, up to {4}. When Nature's Order reahces {10} stacks, the Crit. Rate of Heavy Attack DMG is increased by {11}\nCradle of Life: When casting a Heavy Attack, consume up to {5} stacks of Cradle of Life. For every {6} stack of Cradle of Life consumed, Heavy Attack DMG ignores {7} of the target's DEF, up to {8}. The effect lasts for {9}s.",
+      "name": "Hark, Spirits and Stars",
+      "description": "Grants {0} All-Attribute DMG Bonus. Casting Intro Skill or gaining a Shield grants 1 stack of Nature's Order and 1 stack of Cradle of Life. This effect can be triggered via gaining a Shield once every 0.5s, stacking up to <SapTag=1>{1}</SapTag> {Cus:Sap,S=time P=times SapTag=1}, lasting for {2}s. Switching to another Resonator ends both Nature's Order and Cradle of Life immediately.\nNature's Order: Crit. DMG is increased by {3}, up to {4}. When Nature's Order reaches <SapTag=A>{10}</SapTag> {Cus:Sap,S=stack P=stacks SapTag=A}, the Crit. Rate of Heavy Attack DMG is increased by {11}.\nCradle of Life: Casting Heavy Attack consumes up to {5} stacks of Cradle of Life. For every <SapTag=6>{6}</SapTag> {Cus:Sap,S=stack P=stacks SapTag=6} of Cradle of Life consumed, Heavy Attack DMG ignores {7} of the target's DEF, up to {8}. The effect lasts for {9}s.",
       "params": [
         [
           "12%",
@@ -33304,18 +33304,18 @@
           "7"
         ],
         [
+          "4%",
+          "5%",
           "6%",
-          "7.5%",
-          "9%",
-          "10.5%",
-          "12%"
+          "7%",
+          "8%"
         ],
         [
+          "24%",
+          "30%",
           "36%",
-          "45%",
-          "54%",
-          "63%",
-          "72%"
+          "42%",
+          "48%"
         ],
         [
           "2",
@@ -33558,7 +33558,7 @@
       ]
     },
     "liveComparison": {
-      "currentHash": "bd982124f857d32223832485921d834b957af2713ca299dfcf273c25cf7f79c9"
+      "currentHash": "0ad00e1b3413706acaa5b7d47a7f045bacd28acbaa5a2c5b8b281588a9016608"
     }
   },
   {

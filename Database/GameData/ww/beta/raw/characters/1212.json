@@ -930,33 +930,6 @@
             "name": "Dodge Counter - Nether Dive DMG",
             "param": [
               [
-                "37.51%+37.51%+50.01%",
-                "40.59%+40.59%+54.12%",
-                "43.66%+43.66%+58.22%",
-                "47.97%+47.97%+63.96%",
-                "51.05%+51.05%+68.06%",
-                "54.58%+54.58%+72.77%",
-                "59.50%+59.50%+79.34%",
-                "64.42%+64.42%+85.90%",
-                "69.35%+69.35%+92.46%",
-                "74.57%+74.57%+99.43%",
-                "80.72%+80.72%+107.63%",
-                "86.88%+86.88%+115.83%",
-                "93.03%+93.03%+124.03%",
-                "99.18%+99.18%+132.24%",
-                "105.33%+105.33%+140.44%",
-                "111.48%+111.48%+148.64%",
-                "117.63%+117.63%+156.84%",
-                "123.78%+123.78%+165.04%",
-                "129.93%+129.93%+173.24%",
-                "136.09%+136.09%+181.45%"
-              ]
-            ]
-          },
-          "11": {
-            "name": "Dodge Counter - Light Watch DMG",
-            "param": [
-              [
                 "25.00%*4",
                 "27.05%*4",
                 "29.10%*4",
@@ -977,6 +950,33 @@
                 "82.49%*4",
                 "86.59%*4",
                 "90.68%*4"
+              ]
+            ]
+          },
+          "11": {
+            "name": "Dodge Counter - Light Watch DMG",
+            "param": [
+              [
+                "37.51%+37.51%+50.01%",
+                "40.59%+40.59%+54.12%",
+                "43.66%+43.66%+58.22%",
+                "47.97%+47.97%+63.96%",
+                "51.05%+51.05%+68.06%",
+                "54.58%+54.58%+72.77%",
+                "59.50%+59.50%+79.34%",
+                "64.42%+64.42%+85.90%",
+                "69.35%+69.35%+92.46%",
+                "74.57%+74.57%+99.43%",
+                "80.72%+80.72%+107.63%",
+                "86.88%+86.88%+115.83%",
+                "93.03%+93.03%+124.03%",
+                "99.18%+99.18%+132.24%",
+                "105.33%+105.33%+140.44%",
+                "111.48%+111.48%+148.64%",
+                "117.63%+117.63%+156.84%",
+                "123.78%+123.78%+165.04%",
+                "129.93%+129.93%+173.24%",
+                "136.09%+136.09%+181.45%"
               ]
             ]
           },
@@ -1031,6 +1031,33 @@
                 "30+25",
                 "30+25",
                 "30+25"
+              ]
+            ]
+          },
+          "14": {
+            "name": "Shadow Step STA Cost",
+            "param": [
+              [
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20"
               ]
             ]
           }
@@ -1942,9 +1969,10 @@
       ],
       "skill": {
         "name": "Malevolent Encounter",
-        "desc": "<size=40><color=Title>Resonance Skill - Encroaching Yin</color></size>\nWhile in the <color=Highlight>Yin Vessel</color> state, <color=Highlight>Resonance Skill - Encroaching Yin</color> is available, which deals <color=Fire>Fusion DMG</color>.\n<color=Highlight>Resonance Skill - Encroaching Yin</color> can be cast in mid-air.\n<size=10></size>\n<size=40><color=Title>Resonance Skill - Scorching Yang</color></size>\nWhile in the <color=Highlight>Yang Font</color> state, <color=Highlight>Resonance Skill - Scorching Yang</color> is available, which deals <color=Fire>Fusion DMG</color>.\n<color=Highlight>Resonance Skill - Scorching Yang</color> can be cast in mid-air.\n<size=10></size>\n<size=40><color=Title>Cleanse of Impurity</color></size>\nCasting <color=Highlight>Resonance Skill - Encroaching Yin</color> and <color=Highlight>Resonance Skill - Scorching Yang</color> grants <color=Highlight>Cleanse of Impurity</color> for {0}s or until one of the following conditions is met:\n- Switching to another Resonator.\n- Switching to <color=Highlight>Yin Vessel</color> or <color=Highlight>Yang Font</color> states.\n<size=10></size>\n<size=40><color=Title>Resonance Skill - Netherworld Traverse</color></size>\nWhile in <color=Highlight>Yin Vessel</color> state with <color=Highlight>Cleanse of Impurity</color>, {Cus:Ipt,Touch=tap PC=press Gamepad=press} or hold <color=Highlight>Normal Attack</color> in mid-air to cast <color=Highlight>Resonance Skill - Netherworld Traverse</color>, which deals <color=Fire>Fusion DMG</color>, consider Heavy Attack DMG, and restore <SapTag=1>{1}</SapTag> {Cus:Sap,S=point P=points SapTag=1} of <color=Highlight><te href=121202>Qi</te></color>.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} or hold <color=Highlight>Normal Attack</color> shortly after casting this skill to cast <color=Highlight>Basic Attack - Drink Soul Stage 2</color>.\n<size=10></size>\n<size=40><color=Title>Resonance Skill - Afterlife's Guide</color></size>\nWhile in <color=Highlight>Yang Font</color> state with <color=Highlight>Cleanse of Impurity</color>,  {Cus:Ipt,Touch=tap PC=press Gamepad=press} or hold <color=Highlight>Normal Attack</color> in mid-air to cast <color=Highlight>Resonance Skill - Afterlife's Guide</color>, which deals <color=Fire>Fusion DMG</color>, consider Heavy Attack DMG, and restore <SapTag=2>{2}</SapTag> {Cus:Sap,S=point P=points SapTag=2} of <color=Highlight><te href=121202>Qi</te></color>.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} <color=Highlight>Normal Attack</color> shortly after casting this skill to cast <color=Highlight>Basic Attack - Devil's Bane Stage 2</color>,",
+        "desc": "<size=40><color=Title>Resonance Skill - Encroaching Yin</color></size>\nWhile in the <color=Highlight>Yin Vessel</color> state, <color=Highlight>Resonance Skill - Encroaching Yin</color> is available, which deals <color=Fire>Fusion DMG</color>.\n<color=Highlight>Resonance Skill - Encroaching Yin</color> can be cast in mid-air.\n<size=10></size>\n<size=40><color=Title>Resonance Skill - Scorching Yang</color></size>\nWhile in the <color=Highlight>Yang Font</color> state, <color=Highlight>Resonance Skill - Scorching Yang</color> is available, which deals <color=Fire>Fusion DMG</color>.\n<color=Highlight>Resonance Skill - Scorching Yang</color> can be cast in mid-air.\n<size=10></size>\n<size=40><color=Title>Cleanse of Impurity</color></size>\nCasting <color=Highlight>Resonance Skill - Encroaching Yin</color> or <color=Highlight>Resonance Skill - Scorching Yang</color> grants <color=Highlight>Cleanse of Impurity</color> for {0}s or until one of the following conditions is met:\n- Switching to another Resonator.\n- Switching to the <color=Highlight>Yin Vessel</color> or <color=Highlight>Yang Font</color> state.\n- Casting <color=Highlight>Resonance Skill - Netherworld Traverse</color> or <color=Highlight>Resonance Skill - Afterlife's Guide</color>.\n<size=10></size>\n<size=40><color=Title>Resonance Skill - Netherworld Traverse</color></size>\nWhile in the <color=Highlight>Yin Vessel</color> state with <color=Highlight>Cleanse of Impurity</color>, {Cus:Ipt,Touch=tap PC=press Gamepad=press} or hold <color=Highlight>Normal Attack</color> in mid-air to cast <color=Highlight>Resonance Skill - Netherworld Traverse</color>, dealing <color=Fire>Fusion DMG</color>, considered Heavy Attack DMG. Casting <color=Highlight>Resonance Skill - Netherworld Traverse</color>,  restores <SapTag=1>{1}</SapTag> {Cus:Sap,S=point P=points SapTag=1} of <color=Highlight><te href=121202>Qi</te></color>.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} or hold <color=Highlight>Normal Attack</color> shortly after casting this skill to cast <color=Highlight>Basic Attack - Drink Soul Stage 2</color>.\n<size=10></size>\n<size=40><color=Title>Resonance Skill - Afterlife's Guide</color></size>\nWhile in the <color=Highlight>Yang Font</color> state with <color=Highlight>Cleanse of Impurity</color>, {Cus:Ipt,Touch=tap PC=press Gamepad=press} or hold <color=Highlight>Normal Attack</color> in mid-air to cast <color=Highlight>Resonance Skill - Afterlife's Guide</color>, which deals <color=Fire>Fusion DMG</color>, considered Heavy Attack DMG, and restores <SapTag=2>{2}</SapTag> {Cus:Sap,S=point P=points SapTag=2} of <color=Highlight><te href=121202>Qi</te></color>.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} or hold <color=Highlight>Normal Attack</color> shortly after casting this skill to cast <color=Highlight>Basic Attack - Devil's Bane Stage 2</color>.",
         "param": [
           "4",
+          "100",
           "100",
           "100"
         ],
@@ -1953,8 +1981,8 @@
         "icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconJingran/SP_IconJingranB1.SP_IconJingranB1",
         "type": "Resonance Skill",
         "level": {
-          "14": {
-            "name": "Ground Encroaching Yin DMG",
+          "15": {
+            "name": "Encroaching Yin DMG",
             "param": [
               [
                 "33.00%+16.50%*3",
@@ -1980,7 +2008,7 @@
               ]
             ]
           },
-          "15": {
+          "16": {
             "name": "Netherworld Traverse DMG",
             "param": [
               [
@@ -2007,8 +2035,8 @@
               ]
             ]
           },
-          "16": {
-            "name": "Ground Scorching Yang DMG",
+          "17": {
+            "name": "Scorching Yang DMG",
             "param": [
               [
                 "33.00%+16.50%*3",
@@ -2034,7 +2062,7 @@
               ]
             ]
           },
-          "17": {
+          "18": {
             "name": "Afterlife's Guide DMG",
             "param": [
               [
@@ -2061,7 +2089,7 @@
               ]
             ]
           },
-          "18": {
+          "19": {
             "name": "Encroaching Yin Cooldown",
             "param": [
               [
@@ -2089,7 +2117,7 @@
             ],
             "format": "{0}s"
           },
-          "19": {
+          "20": {
             "name": "Scorching Yang Cooldown",
             "param": [
               [
@@ -2865,7 +2893,7 @@
       ],
       "skill": {
         "name": "Burial of Thousand Souls",
-        "desc": "<color=Highlight>Resonance Liberation - Burial of Thousand Souls</color> can be cast in mid-air close to the ground.\nAttack the target, dealing <color=Fire>Fusion DMG</color>, considered Heavy Attack DMG, and granting <SapTag=0>{0}</SapTag> {Cus:Sap,S=point P=points SapTag=0} of <color=Highlight><te href=121206>Fire of Life</te></color>:\nGain the following effects after casting this skill:\n- If Jingran's current HP is above {1} of the Max HP, reduce his current HP to {2} of the Max HP.\n- Gain <SapTag=3>{3}</SapTag> {Cus:Sap,S=point P=points SapTag=3} of <color=Highlight><te href=121202>Qi</te></color>.\n- Gain <SapTag=4>{4}</SapTag> {Cus:Sap,S=stack P=stacks SapTag=4} of <color=Highlight>Wayfarer's Mark</color>.\n- Enter the <color=Highlight><te href=121203>Yinghuo</te></color> state for {5}s.\n<size=10></size>\n<size=40><color=Title>Wayfarer's Mark</color></size>\nMax {6} stacks.\nCasting <color=Highlight>Heavy Attack - Soul Raid</color> or <color=Highlight>Heavy Attack - Stardome Meander</color> restores <SapTag=7>{7}</SapTag> {Cus:Sap,S=point P=points SapTag=7} of <color=Highlight><te href=121202>Qi</te></color> and reduces <SapTag=8>{8}</SapTag> {Cus:Sap,S=stack P=stacks SapTag=8} of <color=Highlight>Wayfarer's Mark</color>. This effect lasts for {9}s.\n<size=10></size>\n<size=40><color=Title>Yinghuo</color></size>\n- Casting <color=Highlight>Heavy Attack - Soul Raid</color> or <color=Highlight>Heavy Attack - Stardome Meander</color> summons <color=Highlight>Chimei Wangliang</color> on hit to attack the targets, dealing <color=Fire>Fusion DMG</color>, considered Heavy Attack DMG. This effect can be triggered once per <color=Highlight>Heavy Attack - Soul Raid</color> and <color=Highlight>Heavy Attack - Stardome Meander</color>\n- All <color=Highlight><color=Highlight><te href=121206>Fire of Life</te></color></color> will be removed as <color=Highlight><te href=121203>Yinghuo</te></color> ends.",
+        "desc": "<color=Highlight>Resonance Liberation - Burial of Thousand Souls</color> can be cast in mid-air close to the ground.\nAttack the target, dealing <color=Fire>Fusion DMG</color>, considered Heavy Attack DMG, and granting <SapTag=0>{0}</SapTag> {Cus:Sap,S=point P=points SapTag=0} of <color=Highlight><te href=121206>Fire of Life</te></color>.\nGain the following effects after casting this skill:\n- If Jingran's current HP is above {1} of the Max HP, reduce his current HP to {2} of the Max HP.\n- Gain <SapTag=3>{3}</SapTag> {Cus:Sap,S=point P=points SapTag=3} of <color=Highlight><te href=121202>Qi</te></color>.\n- Gain <SapTag=4>{4}</SapTag> {Cus:Sap,S=stack P=stacks SapTag=4} of <color=Highlight>Wayfarer's Mark</color>.\n- Enter the <color=Highlight><te href=121203>Yinghuo</te></color> state for {5}s.\n<size=10></size>\n<size=40><color=Title>Wayfarer's Mark</color></size>\nMax {6} stacks.\nCasting <color=Highlight>Heavy Attack - Soul Raid</color> or <color=Highlight>Heavy Attack - Stardome Meander</color> restores <SapTag=7>{7}</SapTag> {Cus:Sap,S=point P=points SapTag=7} of <color=Highlight><te href=121202>Qi</te></color> and reduces <SapTag=8>{8}</SapTag> {Cus:Sap,S=stack P=stacks SapTag=8} of <color=Highlight>Wayfarer's Mark</color>. This effect lasts for {9}s.\n<size=10></size>\n<size=40><color=Title>Yinghuo</color></size>\n- Casting <color=Highlight>Heavy Attack - Soul Raid</color> or <color=Highlight>Heavy Attack - Stardome Meander</color> summons <color=Highlight>Chimei Wangliang</color> on hit to attack the targets, dealing <color=Fire>Fusion DMG</color>, considered Heavy Attack DMG. This effect can be triggered once per <color=Highlight>Heavy Attack - Soul Raid</color> and <color=Highlight>Heavy Attack - Stardome Meander</color>.\n- All <color=Highlight><te href=121206>Fire of Life</te></color> will be removed as <color=Highlight><te href=121203>Yinghuo</te></color> ends.\n<size=10></size>",
         "param": [
           "100",
           "50%",
@@ -2878,12 +2906,12 @@
           "1",
           "15"
         ],
-        "simple_desc": "Deal <color=Fire>Fusion DMG</color>. Reduce HP and enter an enhanced state.\n<size=10></size>\nIn the enhanced state, ATK is increased. <color=Highlight>Enhanced Heavy Attack</color> gains bonus DMG Multiplier. Casting <color=Highlight>Enhanced Heavy Attack</color> additionally restores <color=Highlight>Qi</color>.",
+        "simple_desc": "Deal <color=Fire>Fusion DMG</color>. Reduce HP and enter an enhanced state.\n<size=10></size>\nIn the enhanced state, the DMG Multiplier of <color=Highlight>Enhanced Heavy Attack</color> is increased. Casting <color=Highlight>Enhanced Heavy Attack</color> additionally restores <color=Highlight>Qi</color>.",
         "simple_param": [],
         "icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconJingran/SP_IconJingranC1.SP_IconJingranC1",
         "type": "Resonance Liberation",
         "level": {
-          "20": {
+          "21": {
             "name": "Burial of Thousand Souls DMG",
             "param": [
               [
@@ -2910,7 +2938,7 @@
               ]
             ]
           },
-          "21": {
+          "22": {
             "name": "Chimei Wangliang DMG",
             "param": [
               [
@@ -2937,7 +2965,7 @@
               ]
             ]
           },
-          "24": {
+          "25": {
             "name": "Cooldown",
             "param": [
               [
@@ -2965,7 +2993,7 @@
             ],
             "format": "{0}s"
           },
-          "25": {
+          "26": {
             "name": "Resonance Cost",
             "param": [
               [
@@ -2992,7 +3020,7 @@
               ]
             ]
           },
-          "26": {
+          "27": {
             "name": "Concerto Regen",
             "param": [
               [
@@ -3289,7 +3317,7 @@
       ],
       "skill": {
         "name": "Hark the Dust",
-        "desc": "Casting <color=Highlight>Intro Skill - Question the Tombs</color>, <color=Highlight>Resonance Skill - Encroaching Yin</color> and <color=Highlight>Resonance Skill - Scorching Yang</color> grants<color=Highlight>Earth Charm</color>.\n<size=10></size>\n<size=40><color=Title>Earth Charm</color>\nFor {0}, if Jingran is the active Resonator in the team, gain an unstackable Shield equal to {1} Max HP+{2} that lasts for {3}s every {4}s when dealing damage. This Shield will not be passed on to the incoming Resonator.\nWhile Jingran is in the <color=Highlight><te href=121203>Yinghuo</te></color> state, if he is the active Resonator in the team, he gains a unstackable Shield equal to {5} Max HP+{6}, for {7}s. This effect can be triggered once every {8}s. This Shield will not be passed on to the incoming Resonator.",
+        "desc": "Casting <color=Highlight>Intro Skill - Question the Tombs</color>, <color=Highlight>Resonance Skill - Encroaching Yin</color>, or <color=Highlight>Resonance Skill - Scorching Yang</color> grants <color=Highlight>Earth Charm</color>.\n<size=10></size>\n<size=40><color=Title>Earth Charm</color></size>\nFor {0}s, if Jingran is the active Resonator in the team, gain an unstackable Shield equal to {1} of Max HP + {2} that lasts for {3}s when dealing damage. This effect can be triggered once every {4}s. This Shield will not be passed on to the incoming Resonator.\nWhile Jingran is in the <color=Highlight><te href=121203>Yinghuo</te></color> state, if he is the active Resonator in the team, he gains an unstackable Shield equal to {5} of Max HP + {6} that lasts for {7}s when dealing damage. This effect can be triggered once every {8}s. This Shield will not be passed on to the incoming Resonator.",
         "param": [
           "15",
           "1.6%",
@@ -3301,7 +3329,7 @@
           "5",
           "0.5"
         ],
-        "simple_desc": "Jingran gains Shield upon dealing damage by casting <color=Highlight>Intro Skill</color> and <color=Highlight>Resonance Skill</color>.",
+        "simple_desc": "After casting <color=Highlight>Intro Skill</color> or <color=Highlight>Resonance Skill</color>, Jingran gains a Shield when dealing damage.",
         "simple_param": [],
         "icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconJingran/SP_IconJingranD1.SP_IconJingranD1",
         "type": "Inherent Skill",
@@ -3353,7 +3381,7 @@
       ],
       "skill": {
         "name": "Trace the Vestige",
-        "desc": "Upon engaging in combat, if Jingran's <color=Highlight><te href=121201>Ghost Shroud</te></color> is below {0} points, restore it to {1} points. This effect can be triggered once every {2}s.\nWhen nearby Resonators in the team other than Jingran gains a Shield, Jingran gains <SapTag=3>{3}</SapTag> {Cus:Sap,S=point P=points SapTag=3} of <color=Highlight><te href=121201>Ghost Shroud</te></color>. This effect can be triggered once every {4}s.\n<size=10></size>\n<size=40><color=Title>Fixation</color></size>\nUpon engaging in combat, Jingran gains <color=Highlight><te href=121204>Fixation</te></color>. This effect can be triggered once every {5}s.\nCasting <color=Highlight>Outro Skill - Rising Fortune and Ebbing Sha</color> grants <color=Highlight><te href=121204>Fixation</te></color>.\nWhen nearby Resonators in the team other than Jingran gains a Shield, Jingran gains <SapTag=6>{6}</SapTag> {Cus:Sap,S=point P=points SapTag=6} of <color=Highlight><te href=121201>Ghost Shroud</te></color>, removing <color=Highlight><te href=121204>Fixation</te></color>.",
+        "desc": "Upon entering combat, if Jingran's <color=Highlight><te href=121201>Ghost Shroud</te></color> is below {0} points, restore it to {1} points. This effect can be triggered once every {2}s.\nWhen nearby Resonators in the team other than Jingran gain a Shield, Jingran gains <SapTag=3>{3}</SapTag> {Cus:Sap,S=point P=points SapTag=3} of <color=Highlight><te href=121201>Ghost Shroud</te></color>. This effect can be triggered once every {4}s.\n<size=10></size>\n<size=40><color=Title>Fixation</color></size>\n- Upon entering combat, Jingran gains <color=Highlight><te href=121204>Fixation</te></color>. This effect can be triggered once every {5}s.\n- Casting <color=Highlight>Outro Skill - Rising Fortune and Ebbing Evil</color> grants <color=Highlight><te href=121204>Fixation</te></color>.\n- When nearby Resonators in the team other than Jingran gain a Shield, Jingran gains <SapTag=6>{6}</SapTag> {Cus:Sap,S=point P=points SapTag=6} of <color=Highlight><te href=121201>Ghost Shroud</te></color> and removes <color=Highlight><te href=121204>Fixation</te></color>.",
         "param": [
           "25",
           "25",
@@ -3363,7 +3391,7 @@
           "4",
           "15"
         ],
-        "simple_desc": "Upon engaging in combat,  if Jingran's <color=Highlight>Ghost Shroud</color> is below 25 points, restore it to 25 points.\n<size=10></size>\nWhen nearby Resonators in the team other than Jingran gains a Shield, Jingran gains <color=Highlight>Ghost Shroud</color>.\n<size=10></size>\nUpon engaging in combat or casting <color=Highlight>Outro Skill</color>, Jingran gains a Buff. While the Buff is active, when nearby Resonators in the team other than Jingran gains a Shield, Jingran additionally gains <color=Highlight>Ghost Shroud</color> and removes the Buff.",
+        "simple_desc": "Upon entering combat, if Jingran's <color=Highlight>Ghost Shroud</color> is below 25 points, restore it to 25 points.\n<size=10></size>\nWhen nearby Resonators in the team other than Jingran gain a Shield, Jingran gains <color=Highlight>Ghost Shroud</color>.\n<size=10></size>\nUpon entering combat or casting <color=Highlight>Outro Skill</color>, Jingran gains a buff. While this buff is active, when nearby Resonators in the team other than Jingran gain a Shield, Jingran additionally gains <color=Highlight>Ghost Shroud</color> and removes the buff.",
         "simple_param": [],
         "icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconJingran/SP_IconJingranD2.SP_IconJingranD2",
         "type": "Inherent Skill",
@@ -3413,7 +3441,7 @@
       ],
       "skill": {
         "name": "Question the Tombs",
-        "desc": "Attack the target, dealing <color=Fire>Fusion DMG</color> and gain <SapTag=0>{0}</SapTag> {Cus:Sap,S=point P=points SapTag=0} of <color=Highlight><te href=121202>Qi</te></color>. Consume and convert all <color=Highlight><te href=121201>Ghost Shroud</te></color> to equal stacks of <color=Highlight>Fortune in Disguise</color>\nWhile in the <color=Highlight>Yin Vessel</color> state, {Cus:Ipt,Touch=tap PC=press Gamepad=press} or hold <color=Highlight>Normal Attack</color> shortly after casting this skill to cast <color=Highlight>Basic Attack - Drink Soul Stage 2</color>.\nWhile in the <color=Highlight>Yang Font</color> state, {Cus:Ipt,Touch=tap PC=press Gamepad=press} or hold <color=Highlight>Normal Attack</color> shortly after casting this skill to cast <color=Highlight>Basic Attack - Devil's Bane Stage 2</color>.\n<size=10></size>\n<size=40><color=Title>Fortune in Disguise</color></size>\nMax {1} stacks. Each stack of <color=Highlight>Fortune in Disguise</color> grants additional Fusion DMG Bonus based on Jingran's Max HP: For every {2} points of Max HP, Jingran gains {3} additional Fusion DMG Bonus for {5}s, up to {4} for each stack of <color=Highlight>Fortune in Disguise</color>.\nSwitching to another Resonator ends the effect.\n<size=10></size>\n<size=40><color=Title>Ghost Shroud</color></size>\n- Max {6} points.\n- When nearby Resonators in the team gain a Shield, Jingran gains <SapTag=7>{7}</SapTag> {Cus:Sap,S=point P=points SapTag=7} of <color=Highlight><te href=121201>Ghost Shroud</te></color>. This effect can be triggered once every {8}s.",
+        "desc": "Attack the target, dealing <color=Fire>Fusion DMG</color> and gaining <SapTag=0>{0}</SapTag> {Cus:Sap,S=point P=points SapTag=0} of <color=Highlight><te href=121202>Qi</te></color>. Consume and convert all <color=Highlight><te href=121201>Ghost Shroud</te></color> to equal stacks of <color=Highlight>Fortune in Disguise</color>.\nWhile in the <color=Highlight>Yin Vessel</color> state, {Cus:Ipt,Touch=tap PC=press Gamepad=press} or hold <color=Highlight>Normal Attack</color> shortly after casting this skill to cast <color=Highlight>Basic Attack - Drink Soul Stage 2</color>.\nWhile in the <color=Highlight>Yang Font</color> state, {Cus:Ipt,Touch=tap PC=press Gamepad=press} or hold <color=Highlight>Normal Attack</color> shortly after casting this skill to cast <color=Highlight>Basic Attack - Devil's Bane Stage 2</color>.\n<size=10></size>\n<size=40><color=Title>Fortune in Disguise</color></size>\nMax {1} stacks. Each stack of <color=Highlight>Fortune in Disguise</color> grants additional Fusion DMG Bonus based on Jingran's Max HP: For every {2} points of Max HP, Jingran gains {3} additional Fusion DMG Bonus for {5}s, up to {4} for each stack of <color=Highlight>Fortune in Disguise</color>.\nSwitching to another Resonator ends the effect.\n<size=10></size>\n<size=40><color=Title>Ghost Shroud</color></size>\n- Max {6} points.\n- When Jingran gains a Shield, he gains <SapTag=7>{7}</SapTag> {Cus:Sap,S=point P=points SapTag=7} of <color=Highlight><te href=121201>Ghost Shroud</te></color>. This effect can be triggered once every {8}s.",
         "param": [
           "100",
           "50",
@@ -3430,7 +3458,7 @@
         "icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconJingran/SP_IconJingranQTE.SP_IconJingranQTE",
         "type": "Intro Skill",
         "level": {
-          "27": {
+          "28": {
             "name": "Skill DMG",
             "param": [
               [
@@ -3457,7 +3485,7 @@
               ]
             ]
           },
-          "28": {
+          "29": {
             "name": "Concerto Regen",
             "param": [
               [
@@ -3688,7 +3716,7 @@
       ],
       "skill": {
         "name": "Upstream Along Santu",
-        "desc": "<size=40><color=Title>Qi Modulation</color></size>\nJingran switches between the <color=Highlight>Yin Vessel</color> and <color=Highlight>Yang Font</color> states by casting <color=Highlight>Heavy Attack - Soul Raid</color> or <color=Highlight>Heavy Attack - Stardome Meander</color>. Jingran is in the <color=Highlight>Yang Font</color> state by default.\n<size=10></size>\n<size=40><color=Title>Heavy Attack - Soul Raid</color></size>\nWhen Jingran holds {0} points of <color=Highlight><te href=121202>Qi</te></color> while in the <color=Highlight>Yin Vessel</color> state, <color=Highlight>hold Resonance Skill</color> to consume <SapTag=1>{1}</SapTag> {Cus:Sap,S=point P=points SapTag=1} of <color=Highlight><te href=121202>Qi</te></color> to cast <color=Highlight>Heavy Attack - Soul Raid</color>, which deals <color=Fire>Fusion DMG</color>.\nAfter casting <size=40><color=Title>Heavy Attack - Soul Raid</color></size>, Jingran switches to the <color=Highlight>Yang Font</color> state.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} <color=Highlight>Normal Attack</color> shortly after casting this skill to cast <color=Highlight>Basic Attack - Devil's Bane Stage 2</color>, \n<size=10></size>\n<size=40><color=Title>Heavy Attack - Stardome Meander</color></size>\nWhen Jingran holds {2} points of <color=Highlight><te href=121202>Qi</te></color> while in the <color=Highlight>Yang Font</color> state, <color=Highlight>hold Resonance Skill</color> to consume <SapTag=3>{3}</SapTag> {Cus:Sap,S=point P=points SapTag=3} of <color=Highlight><te href=121202>Qi</te></color> to cast <color=Highlight>Heavy Attack - Stardome Meander</color>, which deals <color=Fire>Fusion DMG</color>.\nAfter casting <color=Highlight>Heavy Attack - Stardome Meander</color>, Jingran switches to the <color=Highlight>Yin Vessel</color> state.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} <color=Highlight>Normal Attack</color> shortly after casting this skill to cast <color=Highlight>Basic Attack - Drink Soul Stage 2</color>.\n<color=Highlight>Heavy Attack - Stardome Meander</color> can be cast in mid-air.\n<size=10></size>\n<size=40><color=Title>Qi</color></size>\nMax {4} points.\n- Casting <color=Highlight>Basic Attack - Drink Soul Stage 3</color>, <color=Highlight>Basic Attack - Drink Soul Stage 4</color>, <color=Highlight>Basic Attack - Devil's Bane Stage 3</color> or<color=Highlight>Basic Attack - Devil's Bane Stage 4</color> restores <SapTag=5>{5}</SapTag> {Cus:Sap,S=point P=points SapTag=5} of <color=Highlight><te href=121202>Qi</te></color>.\n- Casting <color=Highlight>Dodge Counter - Nether Dive</color>, <color=Highlight>Dodge Counter - Light Watch</color>, <color=Highlight>Resonance Skill - Netherworld Traverse</color>, <color=Highlight>Resonance Skill - Afterlife's Guide</color>, or <color=Highlight>Intro Skill - Question the Tombs</color> restores <SapTag=6>{6}</SapTag> {Cus:Sap,S=point P=points SapTag=6} of <color=Highlight><te href=121202>Qi</te></color>.\n- Casting <color=Highlight>Resonance Liberation - Burial of Thousand Souls</color> or casting <color=Highlight>Heavy Attack - Soul Raid</color> or <color=Highlight>Heavy Attack - Stardome Meander</color> with <color=Highlight>Wayfarer's Mark</color> restores <SapTag=7>{7}</SapTag> {Cus:Sap,S=point P=points SapTag=7} of <color=Highlight><te href=121202>Qi</te></color>.\n<size=10></size>\n<size=40><color=Title>Fire of Life</color></size>\nMax {8} points.\n- Casting <color=Highlight>Resonance Liberation - Burial of Thousand Souls</color> grants <SapTag=9>{9}</SapTag> {Cus:Sap,S=point P=points SapTag=9} of <color=Highlight><te href=121206>Fire of Life</te></color>.\n- All <color=Highlight><te href=121206>Fire of Life</te></color> is cleared when <color=Highlight><te href=121203>Yinghuo</te></color> ends.\nWhile in <color=Highlight><te href=121203>Yinghuo</te></color>, if <color=Highlight><te href=121206>Fire of Life</te></color> is not at {10}, casting <color=Highlight>Heavy Attack - Soul Raid</color> or <color=Highlight>Heavy Attack - Stardome Meander</color> consumes <SapTag=A>{11}</SapTag> {Cus:Sap,S=point P=points SapTag=A} <color=Highlight><te href=121206>Fire of Life</te></color> and the DMG Multiplier of this <color=Highlight>Heavy Attack - Soul Raid</color> or <color=Highlight>Heavy Attack - Stardome Meander</color> is increased based Jingran's Max HP: The DMG Multiplier of this <color=Highlight>Heavy Attack - Soul Raid</color> or <color=Highlight>Heavy Attack - Stardome Meander</color> is increased for every {13} points of Jingran's Max HP over {12}. Up to {14} points of Jingran's Max HP count towards this effect.\n<size=10></size>\n<size=40><color=Title>Nether to Light</color></size>\n- Jingran's DEF remains {15} at all times.\n- Jingran gains bonus Healing based on Max HP: For every {16} of Max HP, Jingran receives {17} bonus Healing, up to {18}.\n- Jingran gains Fusion DMG Bonus based on Max HP: For every {19} of Max HP, Jingran receives {20} bonus Healing, up to {21}. \n<size=10></size>\n<size=40><color=Title>Yang Changes, Yin Unites</color></size>\nGain additional ATK based on Max HP: For every {22} of Max HP, Jingran gains {23} additional ATK, up to {24}.",
+        "desc": "<size=40><color=Title>Qi Modulation</color></size>\nJingran switches between the <color=Highlight>Yin Vessel</color> and <color=Highlight>Yang Font</color> states by casting <color=Highlight>Heavy Attack - Soul Raid</color> or <color=Highlight>Heavy Attack - Stardome Meander</color>. Jingran is in the <color=Highlight>Yang Font</color> state by default.\n<size=10></size>\n<size=40><color=Title>Heavy Attack - Soul Raid</color></size>\nWhen Jingran holds {0} points of <color=Highlight><te href=121202>Qi</te></color> while in the <color=Highlight>Yin Vessel</color> state, <color=Highlight>hold Normal Attack</color> to consume <SapTag=1>{1}</SapTag> {Cus:Sap,S=point P=points SapTag=1} of <color=Highlight><te href=121202>Qi</te></color> to cast <color=Highlight>Heavy Attack - Soul Raid</color>, dealing <color=Fire>Fusion DMG</color>.\nAfter casting <color=Highlight>Heavy Attack - Soul Raid</color>, Jingran switches to the <color=Highlight>Yang Font</color> state.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} or hold <color=Highlight>Normal Attack</color> shortly after casting this skill to cast <color=Highlight>Basic Attack - Devil's Bane Stage 2</color>.\n<size=10></size>\n<size=40><color=Title>Heavy Attack - Stardome Meander</color></size>\nWhen Jingran holds {2} points of <color=Highlight><te href=121202>Qi</te></color> while in the <color=Highlight>Yang Font</color> state, <color=Highlight>hold Normal Attack</color> to consume <SapTag=3>{3}</SapTag> {Cus:Sap,S=point P=points SapTag=3} of <color=Highlight><te href=121202>Qi</te></color> to cast <color=Highlight>Heavy Attack - Stardome Meander</color>, dealing <color=Fire>Fusion DMG</color>.\nAfter casting <color=Highlight>Heavy Attack - Stardome Meander</color>, Jingran switches to the <color=Highlight>Yin Vessel</color> state.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} or hold <color=Highlight>Normal Attack</color> shortly after casting this skill to cast <color=Highlight>Basic Attack - Drink Soul Stage 2</color>.\n<color=Highlight>Heavy Attack - Stardome Meander</color> can be cast in mid-air.\n<size=10></size>\n<size=40><color=Title>Qi</color></size>\nMax {4} points.\n- Casting <color=Highlight>Basic Attack - Drink Soul Stage 3</color>, <color=Highlight>Basic Attack - Drink Soul Stage 4</color>, <color=Highlight>Basic Attack - Devil's Bane Stage 3</color>, or <color=Highlight>Basic Attack - Devil's Bane Stage 4</color> restores <SapTag=5>{5}</SapTag> {Cus:Sap,S=point P=points SapTag=5} of <color=Highlight><te href=121202>Qi</te></color>.\n- Casting <color=Highlight>Dodge Counter - Nether Dive</color>, <color=Highlight>Dodge Counter - Light Watch</color>, <color=Highlight>Resonance Skill - Netherworld Traverse</color>, <color=Highlight>Resonance Skill - Afterlife's Guide</color>, or <color=Highlight>Intro Skill - Question the Tombs</color> restores <SapTag=6>{6}</SapTag> {Cus:Sap,S=point P=points SapTag=6} of <color=Highlight><te href=121202>Qi</te></color>.\n- Casting <color=Highlight>Resonance Liberation - Burial of Thousand Souls</color> or casting <color=Highlight>Heavy Attack - Soul Raid</color> or <color=Highlight>Heavy Attack - Stardome Meander</color> with <color=Highlight>Wayfarer's Mark</color> restores <SapTag=7>{7}</SapTag> {Cus:Sap,S=point P=points SapTag=7} of <color=Highlight><te href=121202>Qi</te></color>.\n<size=10></size>\n<size=40><color=Title>Fire of Life</color></size>\nMax {8} points.\n- Casting <color=Highlight>Resonance Liberation - Burial of Thousand Souls</color> grants <SapTag=9>{9}</SapTag> {Cus:Sap,S=point P=points SapTag=9} of <color=Highlight><te href=121206>Fire of Life</te></color>.\n- All <color=Highlight><te href=121206>Fire of Life</te></color> is cleared when <color=Highlight><te href=121203>Yinghuo</te></color> ends.\nWhile in <color=Highlight><te href=121203>Yinghuo</te></color>, if <color=Highlight><te href=121206>Fire of Life</te></color> is not at <SapTag=A>{10}</SapTag> {Cus:Sap,S=point P=points SapTag=A}, casting <color=Highlight>Heavy Attack - Soul Raid</color> or <color=Highlight>Heavy Attack - Stardome Meander</color> consumes <SapTag=B>{11}</SapTag> {Cus:Sap,S=point P=points SapTag=B} of <color=Highlight><te href=121206>Fire of Life</te></color>, and the DMG Multiplier of this <color=Highlight>Heavy Attack - Soul Raid</color> or <color=Highlight>Heavy Attack - Stardome Meander</color> is increased based on Jingran's Max HP: The DMG Multiplier of this <color=Highlight>Heavy Attack - Soul Raid</color> or <color=Highlight>Heavy Attack - Stardome Meander</color> is increased for every <SapTag=C>{13}</SapTag> {Cus:Sap,S=point P=points SapTag=C} of Jingran's Max HP over {12}. Up to {14} points of Jingran's Max HP count towards this effect.\n<size=10></size>\n<size=40><color=Title>Nether to Light</color></size>\n- Jingran's DEF is fixed at {15}.\n- Jingran gains Incoming Healing Bonus based on Max HP: For every <SapTag=D>{16}</SapTag> {Cus:Sap,S=point P=points SapTag=D} of Max HP, Jingran receives {17} Incoming Healing Bonus, up to {18}.\n- Jingran gains Fusion DMG Bonus based on Max HP: For every <SapTag=E>{19}</SapTag> {Cus:Sap,S=point P=points SapTag=E} of Max HP, Jingran receives {20} Fusion DMG Bonus, up to {21}.\n<size=10></size>\n<size=40><color=Title>Yang Changes, Yin Unites</color></size>\nJingran gains additional ATK based on Max HP: For every <SapTag=F>{22}</SapTag> {Cus:Sap,S=point P=points SapTag=F} of Max HP, Jingran gains {23} additional ATK, up to {24}.",
         "param": [
           "300",
           "300",
@@ -3716,12 +3744,66 @@
           "36",
           "1800"
         ],
-        "simple_desc": "- Jingran's DEF remains 0. Jingran gains additional ATK, Fusion DMG Bonus increase and bonus Healing based on Max HP.\n<size=10></size>\n<size=40><color=Title>Enhanced Heavy Attack - Yin</color></size>\nWhen <color=Highlight>Qi</color> is full, <color=Highlight>hold Normal Attack</color> to cast <color=Highlight>Enhanced Heavy Attack - Yin</color> before switching to the Yang state.\n<size=10></size>\n<size=40><color=Title>Enhanced Heavy Attack</color></size>\nWhen <color=Highlight>Qi</color> is full, <color=Highlight>hold Normal Attack</color> to cast <color=Highlight>Enhanced Heavy Attack - Yang</color> before switching to the Yin state.\n<size=10></size>\n<size=40><color=Title>Qi</color></size>\nCast <color=Highlight>Basic Attack Stage 3</color>, <color=Highlight>Basic Attack Stage 4</color>, <color=Highlight>Dodge Counter</color>, <color=Highlight>Resonance Skill Chained Attack</color>, <color=Highlight>Intro Skill</color>, <color=Highlight>Resonance Liberation</color> and <color=Highlight>Enhanced Heavy Attacks</color> in the <color=Highlight>Resonance Liberation</color> state.",
+        "simple_desc": "- Jingran's DEF is fixed at 0. Jingran gains additional ATK, Fusion DMG Bonus, and Incoming Healing Bonus based on Max HP.\n<size=10></size>\n<size=40><color=Title>Enhanced Heavy Attack - Yin</color></size>\nWhen <color=Highlight>Qi</color> is full, <color=Highlight>hold Normal Attack</color> to cast <color=Highlight>Enhanced Heavy Attack - Yin</color> and switch to the Yang state.\n<size=10></size>\n<size=40><color=Title>Enhanced Heavy Attack - Yang</color></size>\nWhen <color=Highlight>Qi</color> is full, <color=Highlight>hold Normal Attack</color> to cast <color=Highlight>Enhanced Heavy Attack - Yang</color> and switch to the Yin state.\n<size=10></size>\n<size=40><color=Title>Qi</color></size>\nCast <color=Highlight>Basic Attack Stage 3</color>, <color=Highlight>Basic Attack Stage 4</color>, <color=Highlight>Dodge Counter</color>, <color=Highlight>Chained Resonance Skill</color>, <color=Highlight>Intro Skill</color>, <color=Highlight>Resonance Liberation</color>, and <color=Highlight>Enhanced Heavy Attacks</color> in the <color=Highlight>Resonance Liberation</color> state to restore <color=Highlight>Qi</color>.",
         "simple_param": [],
         "icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconJingran/SP_IconJingranY.SP_IconJingranY",
         "type": "Forte Circuit",
         "level": {
-          "29": {
+          "23": {
+            "name": "Heavy Attack - Soul Raid DMG Increase per 1,000 Max HP",
+            "param": [
+              [
+                "0.75%*2+0.96%*3+6.26%",
+                "0.81%*2+1.04%*3+6.77%",
+                "0.87%*2+1.12%*3+7.29%",
+                "0.95%*2+1.23%*3+8.01%",
+                "1.02%*2+1.30%*3+8.52%",
+                "1.09%*2+1.39%*3+9.11%",
+                "1.18%*2+1.52%*3+9.93%",
+                "1.28%*2+1.64%*3+10.75%",
+                "1.38%*2+1.77%*3+11.57%",
+                "1.48%*2+1.90%*3+12.44%",
+                "1.60%*2+2.06%*3+13.47%",
+                "1.72%*2+2.22%*3+14.50%",
+                "1.85%*2+2.37%*3+15.52%",
+                "1.97%*2+2.53%*3+16.55%",
+                "2.09%*2+2.69%*3+17.57%",
+                "2.21%*2+2.84%*3+18.60%",
+                "2.33%*2+3.00%*3+19.63%",
+                "2.45%*2+3.15%*3+20.65%",
+                "2.58%*2+3.31%*3+21.68%",
+                "2.70%*2+3.47%*3+22.71%"
+              ]
+            ]
+          },
+          "24": {
+            "name": "Heavy Attack - Stardome Meander DMG Increase per 1,000 Max HP",
+            "param": [
+              [
+                "1.09%+1.09%+2.18%+6.53%",
+                "1.18%+1.18%+2.36%+7.07%",
+                "1.27%+1.27%+2.54%+7.60%",
+                "1.40%+1.40%+2.79%+8.35%",
+                "1.49%+1.49%+2.97%+8.89%",
+                "1.59%+1.59%+3.17%+9.50%",
+                "1.73%+1.73%+3.46%+10.36%",
+                "1.87%+1.87%+3.74%+11.22%",
+                "2.02%+2.02%+4.03%+12.07%",
+                "2.17%+2.17%+4.33%+12.98%",
+                "2.35%+2.35%+4.69%+14.06%",
+                "2.53%+2.53%+5.05%+15.13%",
+                "2.70%+2.70%+5.40%+16.20%",
+                "2.88%+2.88%+5.76%+17.27%",
+                "3.06%+3.06%+6.12%+18.34%",
+                "3.24%+3.24%+6.47%+19.41%",
+                "3.42%+3.42%+6.83%+20.48%",
+                "3.60%+3.60%+7.19%+21.55%",
+                "3.77%+3.77%+7.54%+22.62%",
+                "3.95%+3.95%+7.90%+23.69%"
+              ]
+            ]
+          },
+          "30": {
             "name": "Heavy Attack - Soul Raid DMG",
             "param": [
               [
@@ -3748,7 +3830,7 @@
               ]
             ]
           },
-          "30": {
+          "31": {
             "name": "Heavy Attack - Stardome Meander DMG",
             "param": [
               [
@@ -3772,60 +3854,6 @@
                 "39.90%+39.90%+79.80%+239.39%",
                 "41.89%+41.89%+83.77%+251.29%",
                 "43.87%+43.87%+87.73%+263.19%"
-              ]
-            ]
-          },
-          "31": {
-            "name": "Aerial Encroaching Yin DMG",
-            "param": [
-              [
-                "0.75%*2+0.96%*3+6.26%",
-                "0.81%*2+1.04%*3+6.77%",
-                "0.87%*2+1.12%*3+7.29%",
-                "0.95%*2+1.23%*3+8.01%",
-                "1.02%*2+1.30%*3+8.52%",
-                "1.09%*2+1.39%*3+9.11%",
-                "1.18%*2+1.52%*3+9.93%",
-                "1.28%*2+1.64%*3+10.75%",
-                "1.38%*2+1.77%*3+11.57%",
-                "1.48%*2+1.90%*3+12.44%",
-                "1.60%*2+2.06%*3+13.47%",
-                "1.72%*2+2.22%*3+14.50%",
-                "1.85%*2+2.37%*3+15.52%",
-                "1.97%*2+2.53%*3+16.55%",
-                "2.09%*2+2.69%*3+17.57%",
-                "2.21%*2+2.84%*3+18.60%",
-                "2.33%*2+3.00%*3+19.63%",
-                "2.45%*2+3.15%*3+20.65%",
-                "2.58%*2+3.31%*3+21.68%",
-                "2.70%*2+3.47%*3+22.71%"
-              ]
-            ]
-          },
-          "32": {
-            "name": "Aerial Scorching Yang DMG",
-            "param": [
-              [
-                "1.09%+1.09%+2.18%+6.53%",
-                "1.18%+1.18%+2.36%+7.07%",
-                "1.27%+1.27%+2.54%+7.60%",
-                "1.40%+1.40%+2.79%+8.35%",
-                "1.49%+1.49%+2.97%+8.89%",
-                "1.59%+1.59%+3.17%+9.50%",
-                "1.73%+1.73%+3.46%+10.36%",
-                "1.87%+1.87%+3.74%+11.22%",
-                "2.02%+2.02%+4.03%+12.07%",
-                "2.17%+2.17%+4.33%+12.98%",
-                "2.35%+2.35%+4.69%+14.06%",
-                "2.53%+2.53%+5.05%+15.13%",
-                "2.70%+2.70%+5.40%+16.20%",
-                "2.88%+2.88%+5.76%+17.27%",
-                "3.06%+3.06%+6.12%+18.34%",
-                "3.24%+3.24%+6.47%+19.41%",
-                "3.42%+3.42%+6.83%+20.48%",
-                "3.60%+3.60%+7.19%+21.55%",
-                "3.77%+3.77%+7.54%+22.62%",
-                "3.95%+3.95%+7.90%+23.69%"
               ]
             ]
           }
@@ -4896,7 +4924,7 @@
         }
       ],
       "skill": {
-        "name": "Rising Fortune and Ebbing Sha",
+        "name": "Rising Fortune and Ebbing Evil",
         "desc": "Deal <color=Fire>Fusion DMG</color> equal to {0} of Jingran's ATK.",
         "param": [
           "795%"
@@ -5216,7 +5244,7 @@
   "chains": {
     "1": {
       "name": "Yin and Yang in Harmony, the Ultimate Law of Being",
-      "desc": "The DMG Multipliers of <color=Highlight>Resonance Skill - Encroaching Yin</color>, <color=Highlight>Resonance Skill - Netherworld Traverse</color>, <color=Highlight>Resonance Skill - Scorching Yang</color>, and <color=Highlight>Resonance Skill - Afterlife's Guide</color> are increased by {0}.\n<color=Highlight>Resonance Skill - Encroaching Yin</color>, <color=Highlight>Resonance Skill - Netherworld Traverse</color>, <color=Highlight>Resonance Skill - Scorching Yang</color>, and <color=Highlight>Resonance Skill - Afterlife's Guide</color> are now immune to interruprtions.",
+      "desc": "The DMG Multipliers of <color=Highlight>Resonance Skill - Encroaching Yin</color>, <color=Highlight>Resonance Skill - Netherworld Traverse</color>, <color=Highlight>Resonance Skill - Scorching Yang</color>, and <color=Highlight>Resonance Skill - Afterlife's Guide</color> are increased by {0}.\n<color=Highlight>Resonance Skill - Encroaching Yin</color>, <color=Highlight>Resonance Skill - Netherworld Traverse</color>, <color=Highlight>Resonance Skill - Scorching Yang</color>, and <color=Highlight>Resonance Skill - Afterlife's Guide</color> are now immune to interruption.",
       "param": [
         "80%"
       ],
@@ -5224,7 +5252,7 @@
     },
     "2": {
       "name": "A Solitary Lantern, Across Lands Shade-Trodden",
-      "desc": "The DMG Multipliers of <color=Highlight>Heavy Attack - Soul Raid</color> and <color=Highlight>Heavy Attack - Stardome Meander</color> are increased by {0}. While in the <color=Highlight><te href=121203>Yinghuo</te></color> state, the DMG Multiplier increase effect via <color=Highlight><te href=121206>Fire of Life</te></color> on <color=Highlight>Heavy Attack - Soul Raid</color> and <color=Highlight>Heavy Attack - Stardome Meander</color> is increased by {1}.\n<size=10></size>\nUpon engaging in a combat, Jingran gains the following effects, triggered once every {2}s:\n- Gain <SapTag=3>{3}</SapTag> {Cus:Sap,S=point P=points SapTag=3} of <color=Highlight><te href=121202>Qi</te></color>.\n- Jingran gains <color=Highlight>Netherworld's Boon</color>.\n<size=10></size>\n<size=40><color=Title>Netherworld's Boon</color></size>\nCasting <color=Highlight>Heavy Attack - Soul Raid</color> or <color=Highlight>Heavy Attack - Stardome Meander</color> restores Resonance Energy by {4} of the Max and the grants <color=Highlight>Heavy Attack - Soul Raid</color> or <color=Highlight>Heavy Attack - Stardome Meander</color> {5} DMG Amplification for {6}s.",
+      "desc": "The DMG Multipliers of <color=Highlight>Heavy Attack - Soul Raid</color> and <color=Highlight>Heavy Attack - Stardome Meander</color> are increased by {0}. While in the <color=Highlight><te href=121203>Yinghuo</te></color> state, the DMG Multiplier increase effect via <color=Highlight><te href=121206>Fire of Life</te></color> on <color=Highlight>Heavy Attack - Soul Raid</color> and <color=Highlight>Heavy Attack - Stardome Meander</color> is increased by {1}.\n<size=10></size>\nUpon entering combat, Jingran gains the following effects, triggered once every {2}s:\n- Gains <SapTag=3>{3}</SapTag> {Cus:Sap,S=point P=points SapTag=3} of <color=Highlight><te href=121202>Qi</te></color>.\n- Gains <color=Highlight>Netherworld's Boon</color>.\n<size=10></size>\n<size=40><color=Title>Netherworld's Boon</color></size>\nCasting <color=Highlight>Heavy Attack - Soul Raid</color> or <color=Highlight>Heavy Attack - Stardome Meander</color> restores {4} of Max Resonance Energy and grants <color=Highlight>Heavy Attack - Soul Raid</color> or <color=Highlight>Heavy Attack - Stardome Meander</color> {5} DMG Amplification for {6}s.",
       "param": [
         "46%",
         "46%",
@@ -5237,7 +5265,7 @@
       "icon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_JingranM2_UI.T_IconDevice_JingranM2_UI"
     },
     "3": {
-      "name": "World’s Course Shifts, Each to Their Rightful Paths",
+      "name": "World's Course Shifts, Each to Their Rightful Paths",
       "desc": "When Jingran casts <color=Highlight>Heavy Attack - Soul Raid</color> or <color=Highlight>Heavy Attack - Stardome Meander</color>, gain <SapTag=0>{0}</SapTag> {Cus:Sap,S=point P=points SapTag=0} of <color=Highlight><te href=121201>Ghost Shroud</te></color>.\n<size=10></size>\nWhen Jingran casts <color=Highlight>Resonance Liberation - Burial of Thousand Souls</color>,<color=Highlight><te href=121205>Yang Changes, Yin Unites</te></color> is replaced by <color=Highlight>Yin-Yang Everflow</color>.\n<size=10></size>\n<size=40><color=Title>Yin-Yang Everflow</color></size>\nJingran gains additional ATK based on Max HP: For every {1} points of Jingran's Max HP,  gain {2} additional ATK, up to {3}.",
       "param": [
         "5",
@@ -5268,7 +5296,7 @@
     },
     "6": {
       "name": "As Favors and Feuds Fade, New Stories Await",
-      "desc": "Targets take {0} more Heavy Attack DMG from Jingran.\n<size=10></size>\nThe DMG Multiplier of <color=Highlight>Chimei Wangliang</color> is increased by {1}.\n<size=10></size>\nDuring <color=Highlight><te href=121203>Yinghuo</te></color>, if Jingran is the active Resonator in the team, upon dealing damage, Jingran summons <color=Highlight>Chimei Wangliang</color> to attack the targets, dealing <color=Fire>Fusion DMG</color>, considered Heavy Attack DMG.\n<size=10></size>\n<color=Highlight>Chimei Wangliang</color> can be summoned this way at an interval of {2}s for up to 8 times. The available summon charges of <color=Highlight>Chimei Wangliang</color> reset when one of the following conditions is met:\n- <color=Highlight><te href=121203>Yinghuo</te></color> ends.\n- <color=Highlight><te href=121203>Yinghuo</te></color is removed.\n- <color=Highlight><te href=121203>Yinghuo</te></color is obtained.",
+      "desc": "Targets take {0} more Heavy Attack DMG from Jingran.\n<size=10></size>\nThe DMG Multiplier of <color=Highlight>Chimei Wangliang</color> is increased by {1}.\n<size=10></size>\nUpon entering the <color=Highlight><te href=121203>Yinghuo</te></color> state, Jingran gains the <color=Highlight>Parade of Thousand Souls</color> effect for {2}s. During this effect, if Jingran is the active Resonator in the team, upon dealing damage, Jingran summons <color=Highlight>Chimei Wangliang</color> to attack the targets, dealing <color=Fire>Fusion DMG</color>, considered Heavy Attack DMG.\n<size=10></size>\n<color=Highlight>Chimei Wangliang</color> can be summoned this way at an interval of {3}s for up to 8 times. <color=Highlight>Parade of Thousand Souls</color> ends and the available summon charges of <color=Highlight>Chimei Wangliang</color> reset when either of the following conditions is met:\n- Cast <color=Highlight>Resonance Liberation - Burial of Thousand Souls</color>.\n- <color=Highlight><te href=121203>Yinghuo</te></color> ends or is removed.",
       "param": [
         "40%",
         "80%",
@@ -5403,16 +5431,16 @@
   },
   "forte_new": {
     "features": [
-      "Deals significant Heavy Attack DMG.",
-      "Continuously converts <color=Highlight>Shield</color> to buff effects.",
-      "Obtains additional ATK, Fusion DMG Bonus, Healing, and DMG Multipliers based on Max HP."
+      "Deal significant Heavy Attack DMG.",
+      "Continuously convert <color=Highlight>Shield</color> to buff effects.",
+      "Obtain additional ATK, Fusion DMG Bonus, Healing, and DMG Multipliers based on Max HP."
     ],
     "instructions": {
       "121201": {
         "name": "Forte Gauge",
         "desc": {
           "121207": {
-            "desc": "Restore <color=Highlight>Qi</color> by casting <color=Highlight>Basic Attack Stage 3</color>, <color=Highlight>Basic Attack Stage 4</color>, <color=Highlight>Resonance Skill - Netherworld Traverse</color>, <color=Highlight>Resonance Skill - Afterlife's Guide</color>, <color=Highlight>Intro Skill</color>, <color=Highlight>Resonance Liberation</color> and <color=Highlight>Heavy Attack - Soul Raid</color> and <color=Highlight>Heavy Attack - Stardome Meander</color> while in Resonance Liberation.",
+            "desc": "Restore <color=Highlight>Qi</color> by casting <color=Highlight>Basic Attack Stage 3</color>, <color=Highlight>Basic Attack Stage 4</color>, <color=Highlight>Dodge Counter - Nether Dive</color>, <color=Highlight>Dodge Counter - Light Watch</color>, <color=Highlight>Resonance Skill - Netherworld Traverse</color>, <color=Highlight>Resonance Skill - Afterlife's Guide</color>, <color=Highlight>Intro Skill</color>, <color=Highlight>Resonance Liberation</color>, or <color=Highlight>Heavy Attack - Soul Raid</color> and <color=Highlight>Heavy Attack - Stardome Meander</color> while in the Resonance Liberation state.",
             "input_list": [],
             "image_list": [
               "/Game/Aki/UI/UIResources/UiRole/Image/T_RoleSkillTreeJingran.T_RoleSkillTreeJingran"

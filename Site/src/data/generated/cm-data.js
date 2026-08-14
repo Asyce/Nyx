@@ -68,7 +68,7 @@ const CM_BETA_META = {
     "changedCount": 1
   },
   "wuwa": {
-    "version": "3.6.5",
+    "version": "3.6.7",
     "liveVersion": "3.5",
     "newCount": 0,
     "changedCount": 2

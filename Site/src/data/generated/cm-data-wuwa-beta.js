@@ -7,7 +7,7 @@
 (function(){
   window.CM_CFG_BETA = window.CM_CFG_BETA || {};
   window.CM_CFG_BETA["wuwa"] = {
-  "version": "3.6.5",
+  "version": "3.6.7",
   "liveVersion": "3.5",
   "newCount": 0,
   "changedCount": 2,
@@ -143,7 +143,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "3.6.5",
+        "version": "3.6.7",
         "sections": [
           {
             "title": "Skills",
@@ -2962,7 +2962,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "3.6.5",
+        "version": "3.6.7",
         "sections": [
           {
             "title": "Skills",

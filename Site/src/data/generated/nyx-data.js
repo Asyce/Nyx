@@ -4,9 +4,9 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-08-14T15:39:56.694Z",
+  "generatedAt": "2026-08-14T21:17:43.403Z",
   "codes": {
-    "updated": "2026-08-14T14:10:41.704Z",
+    "updated": "2026-08-14T21:17:21.162Z",
     "maxAgeDays": 28,
     "games": {
       "gi": [
@@ -153,6 +153,20 @@ var NYX_DB = {
       ],
       "hsr": [
         {
+          "code": "2TKRKAR6YG2K",
+          "reward": "100 Stellar Jade and 50k Credits",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Stellar Jade",
+            "needle": "stellar jade",
+            "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
+          },
+          "added": "2026-08-14",
+          "firstSeen": "2026-08-14T21:17:21.162Z",
+          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=2TKRKAR6YG2K",
+          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=2TKRKAR6YG2K"
+        },
+        {
           "code": "2TKRKAR6YG2X",
           "reward": "Stellar Jade x100, Credit x50000",
           "premium": true,
@@ -168,7 +182,7 @@ var NYX_DB = {
         },
         {
           "code": "LSJ9JARPZH33",
-          "reward": "100 stellar jade and five traveler's guides",
+          "reward": "100 Stellar Jade and Five Traveler S Guides",
           "premium": true,
           "premiumCurrency": {
             "name": "Stellar Jade",
@@ -182,7 +196,7 @@ var NYX_DB = {
         },
         {
           "code": "YAJQ2TR6ZY2P",
-          "reward": "Stellar Jade x100, Refined Aether x4",
+          "reward": "100 Stellar Jade and Four Refined Aether",
           "premium": true,
           "premiumCurrency": {
             "name": "Stellar Jade",
@@ -169123,6 +169137,20 @@ var NYX_DB = {
       ],
       "codes": [
         {
+          "code": "2TKRKAR6YG2K",
+          "reward": "100 Stellar Jade and 50k Credits",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Stellar Jade",
+            "needle": "stellar jade",
+            "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
+          },
+          "added": "2026-08-14",
+          "firstSeen": "2026-08-14T21:17:21.162Z",
+          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=2TKRKAR6YG2K",
+          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=2TKRKAR6YG2K"
+        },
+        {
           "code": "2TKRKAR6YG2X",
           "reward": "Stellar Jade x100, Credit x50000",
           "premium": true,
@@ -169138,7 +169166,7 @@ var NYX_DB = {
         },
         {
           "code": "LSJ9JARPZH33",
-          "reward": "100 stellar jade and five traveler's guides",
+          "reward": "100 Stellar Jade and Five Traveler S Guides",
           "premium": true,
           "premiumCurrency": {
             "name": "Stellar Jade",
@@ -169152,7 +169180,7 @@ var NYX_DB = {
         },
         {
           "code": "YAJQ2TR6ZY2P",
-          "reward": "Stellar Jade x100, Refined Aether x4",
+          "reward": "100 Stellar Jade and Four Refined Aether",
           "premium": true,
           "premiumCurrency": {
             "name": "Stellar Jade",

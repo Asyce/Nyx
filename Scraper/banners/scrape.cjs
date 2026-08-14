@@ -19,7 +19,6 @@ const GAMES = [
     name: 'Honkai: Star Rail',
     game8Url: 'https://game8.co/games/Honkai-Star-Rail/archives/408381',
     game8RoadmapUrl: 'https://game8.co/games/Honkai-Star-Rail/archives/415899',
-    roadmapNames: ['Pearl', 'Nihilux'],
     fallbackUrl: 'https://prydwen.gg/star-rail/',
     // Prydwen was preferred because game8 used to mix light cones into the HSR
     // character list, but Prydwen has been answering 403 to this scraper on
@@ -37,7 +36,6 @@ const GAMES = [
     name: 'Genshin Impact',
     game8Url: 'https://game8.co/games/Genshin-Impact/archives/305012',
     game8RoadmapUrl: 'https://game8.co/games/Genshin-Impact/archives/307054',
-    roadmapNames: ['Vesna', 'Vodyanitsa', 'Mitya', 'Valeriy', 'Tsaritsa', 'Danica', 'Noy'],
     defaultHourUtc: 10,  // 18:00 UTC+8
     tzOffsetHours: 8,
   },
@@ -46,7 +44,6 @@ const GAMES = [
     name: 'Wuthering Waves',
     game8Url: 'https://game8.co/games/Wuthering-Waves/archives/453303',
     game8RoadmapUrl: 'https://game8.co/games/Wuthering-Waves/archives/452883',
-    roadmapNames: ['Qingxiao', 'Jingran', 'Suoming', 'Hsin'],
     defaultHourUtc: 10,  // 18:00 UTC+8
     tzOffsetHours: 8,
   },
@@ -55,7 +52,6 @@ const GAMES = [
     name: 'Zenless Zone Zero',
     game8Url: 'https://game8.co/games/Zenless-Zone-Zero/archives/435687',
     game8RoadmapUrl: 'https://game8.co/games/Zenless-Zone-Zero/archives/460160',
-    roadmapNames: ['Claret', 'Roxy', 'Sunbringer', 'Phoenix', 'The Storyteller'],
     defaultHourUtc: 10,  // 18:00 UTC+8
     tzOffsetHours: 8,
   },
@@ -79,6 +75,12 @@ const FETCH_HEADERS = {
   'Accept-Language': 'en-US,en;q=0.9',
 };
 const FETCH_TIMEOUT_MS = 20_000;
+const HTML_MAX_BYTES = 8_000_000;
+const HTML_SOURCE_URLS = new Set([
+  ...GAMES.flatMap((game) => [game.game8Url, game.game8RoadmapUrl, game.game8UpcomingUrl, game.fallbackUrl]),
+  'https://perlica.moe/operators',
+  'https://arknightsendfield.gg/',
+].filter(Boolean));
 
 class SourceUnavailableError extends Error {
   constructor(message, options) {
@@ -91,17 +93,82 @@ class SourceUnavailableError extends Error {
 // Helpers
 // ---------------------------------------------------------------------------
 
-async function fetchHtml(url) {
+function approvedHtmlUrl(value) {
   try {
-    const res = await fetch(url, { headers: FETCH_HEADERS, signal: AbortSignal.timeout(FETCH_TIMEOUT_MS) });
-    if (!res.ok) throw new SourceUnavailableError(`HTTP ${res.status} for ${url}`);
-    return await res.text();
+    const parsed = new URL(value);
+    const normalized = parsed.toString();
+    return normalized === value && HTML_SOURCE_URLS.has(normalized) ? normalized : null;
+  } catch {
+    return null;
+  }
+}
+
+async function fetchBoundedBytes(sourceUrl, {
+  fetchImpl = globalThis.fetch,
+  maxBytes,
+  timeoutMs = FETCH_TIMEOUT_MS,
+  label = 'request',
+} = {}) {
+  if (!Number.isSafeInteger(maxBytes) || maxBytes <= 0) throw new TypeError(`${label} byte limit must be a positive safe integer`);
+  if (!Number.isSafeInteger(timeoutMs) || timeoutMs <= 0) throw new TypeError(`${label} timeout must be a positive safe integer`);
+
+  const controller = new AbortController();
+  let timer;
+  const timeout = new Promise((_, reject) => {
+    timer = setTimeout(() => {
+      controller.abort();
+      reject(new Error(`${label} request timed out after ${timeoutMs}ms`));
+    }, timeoutMs);
+  });
+  try {
+    const response = await Promise.race([
+      fetchImpl(sourceUrl, { headers:FETCH_HEADERS, redirect:'error', signal:controller.signal }),
+      timeout,
+    ]);
+    if (!response?.ok) throw new Error(`HTTP ${response?.status ?? 'unknown'}`);
+    if (response.redirected === true || response.url !== sourceUrl) throw new Error(`${label} source redirected`);
+    const declaredLength = Number(response.headers?.get?.('content-length'));
+    if (Number.isFinite(declaredLength) && declaredLength > maxBytes) throw new Error(`unexpected size ${declaredLength}`);
+    if (!response.body || typeof response.body.getReader !== 'function') throw new Error(`${label} response has no bounded stream`);
+
+    const reader = response.body.getReader();
+    const chunks = [];
+    let total = 0;
+    try {
+      while (true) {
+        const { done, value } = await Promise.race([reader.read(), timeout]);
+        if (done) break;
+        const chunk = Buffer.from(value);
+        total += chunk.length;
+        if (total > maxBytes) {
+          Promise.resolve(reader.cancel?.(`${label} byte limit exceeded`)).catch(() => {});
+          throw new Error(`unexpected size ${total}`);
+        }
+        chunks.push(chunk);
+      }
+    } finally {
+      reader.releaseLock?.();
+    }
+    if (!total) throw new Error('empty response');
+    return Buffer.concat(chunks, total);
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
+async function fetchHtml(url, {
+  fetchImpl = globalThis.fetch,
+  maxBytes = HTML_MAX_BYTES,
+  timeoutMs = FETCH_TIMEOUT_MS,
+} = {}) {
+  const approvedUrl = approvedHtmlUrl(url);
+  if (!approvedUrl) throw new SourceUnavailableError(`HTML source URL is not approved: ${url}`);
+  try {
+    const bytes = await fetchBoundedBytes(approvedUrl, { fetchImpl, maxBytes, timeoutMs, label:'HTML' });
+    return new TextDecoder('utf-8', { fatal:true }).decode(bytes);
   } catch (err) {
     if (err instanceof SourceUnavailableError) throw err;
-    if (err?.name === 'AbortError' || err?.name === 'TimeoutError' || err instanceof TypeError) {
-      throw new SourceUnavailableError(`Fetch failed for ${url}: ${err.message}`, { cause: err });
-    }
-    throw err;
+    throw new SourceUnavailableError(`Fetch failed for ${url}: ${err.message}`, { cause: err });
   }
 }
 
@@ -1217,6 +1284,35 @@ function requiredCurrentSourceFailures(gameIds, currentSourceSuccesses, optional
   return gameIds.filter((id) => !optional.has(id) && !succeeded.has(id));
 }
 
+function roadmapSnapshot(scraped, previous, checkedAt) {
+  if (scraped === null) {
+    return {
+      roadmap:previous?.roadmap ?? [],
+      roadmapFreshness:previous?.roadmapFreshness ?? null,
+    };
+  }
+  return {
+    roadmap:scraped,
+    roadmapFreshness:{ source:'game8', checkedAt, lastSuccessfulFetch:checkedAt },
+  };
+}
+
+function teaserSnapshot(scraped, previous, checkedAt) {
+  const previousRows = (previous?.upcoming ?? [])
+    .filter((phase) => phase?.teased === true && phase?.start == null && phase?.end == null)
+    .flatMap((phase) => phase.characters ?? []);
+  if (scraped === null) {
+    return {
+      teased:previousRows,
+      teaserFreshness:previous?.teaserFreshness ?? null,
+    };
+  }
+  return {
+    teased:scraped,
+    teaserFreshness:{ source:'game8', checkedAt, lastSuccessfulFetch:checkedAt },
+  };
+}
+
 async function main() {
   const checkedAt = new Date().toISOString();
   // Load existing JSON so we can preserve games that fail to scrape
@@ -1307,13 +1403,16 @@ async function main() {
     });
     // Teased-but-unscheduled operators go last, and only names the dated
     // phases do not already cover — a real schedule always wins.
+    let teaserFreshness = null;
     if (game.game8UpcomingUrl) {
-      const teased = await scrapeGame8UpcomingCharacters(game.game8UpcomingUrl);
+      const scrapedTeased = await scrapeGame8UpcomingCharacters(game.game8UpcomingUrl);
+      const snapshot = teaserSnapshot(scrapedTeased, old, checkedAt);
+      teaserFreshness = snapshot.teaserFreshness;
       const known = new Set([
         ...currentChars, ...nextChars,
         ...upcomingEnriched.flatMap((u) => u.characters),
       ].map((c) => normName(c.name || c)));
-      const fresh = teased.filter((row) => !known.has(normName(row.name)));
+      const fresh = snapshot.teased.filter((row) => !known.has(normName(row.name)));
       if (fresh.length) {
         upcomingEnriched = [...upcomingEnriched, { characters: fresh, start: null, end: null, teased: true }];
       }
@@ -1324,9 +1423,12 @@ async function main() {
       ...nextChars,
       ...upcomingEnriched.flatMap((phase) => phase.characters),
     ].map((row) => normName(row.name || row)));
-    const roadmap = game.game8RoadmapUrl
-      ? (await scrapeGame8RoadmapCharacters(game.game8RoadmapUrl, game, roadmapKnown) ?? old?.roadmap ?? [])
-      : old?.roadmap ?? [];
+    const scrapedRoadmap = game.game8RoadmapUrl
+      ? await scrapeGame8RoadmapCharacters(game.game8RoadmapUrl, game, roadmapKnown)
+      : null;
+    const { roadmap, roadmapFreshness } = game.game8RoadmapUrl
+      ? roadmapSnapshot(scrapedRoadmap, old, checkedAt)
+      : { roadmap:old?.roadmap ?? [], roadmapFreshness:null };
 
     // Endfield: enrich each sub-banner the same way + drop any that
     // ended up with zero matched characters after enrichment (heuristic
@@ -1402,6 +1504,8 @@ async function main() {
       },
       upcoming: upcomingEnriched,
       ...(roadmap.length ? { roadmap } : {}),
+      ...(roadmapFreshness ? { roadmapFreshness } : {}),
+      ...(teaserFreshness ? { teaserFreshness } : {}),
     });
   }
 
@@ -1495,21 +1599,22 @@ const ROADMAP_SECTIONS = {
 
 const ROADMAP_JUNK = /^(?:unknown|[1-6][- ]?star|[sabc][- ]?rank|anemo|geo|electro|dendro|hydro|pyro|cryo|physical|quantum|imaginary|fire|ice|wind|lightning|ether|electric|spectro|havoc|aero|glacio|fusion|sword|claymore|polearm|bow|catalyst|broadblade|gauntlets?|pistols?|rectifier|attack|stun|anomaly|support|defense|rupture|hunt|harmony|nihility|preservation|abundance|destruction|erudition|remembrance|elation|the hunt|the harmony|the nihility|the preservation|the abundance|the destruction|the erudition|the remembrance|the elation)$/i;
 
-function parseGame8RoadmapCharacters(html, gameId) {
+function parseGame8RoadmapCharacters(html, gameId, catalog = new Set()) {
   const sectionPattern = ROADMAP_SECTIONS[gameId];
   if (!sectionPattern) return [];
   const $ = cheerio.load(String(html || ''));
   const out = [];
   const seen = new Set();
-  const add = (name, image, hint) => {
+  const words = (value) => normalizeText(stripTags(value)).toLowerCase().normalize('NFKD').replace(/[^a-z0-9]+/g, ' ').trim();
+  const add = (name, image, hint, imageAlt) => {
     const cleanName = normalizeText(name);
     const key = normName(cleanName);
     if (!key || seen.has(key) || cleanName.length > 70 || ROADMAP_JUNK.test(cleanName)) return;
-    let host = '';
-    try { host = new URL(image).hostname; } catch { host = ''; }
-    if (!TEASER_ART_HOSTS.has(host)) return;
+    const approvedImage = approvedTeaserArtUrl(image);
+    if (!approvedImage) return;
+    if (!catalog.has(key) && !` ${words(imageAlt)} `.includes(` ${words(cleanName)} `)) return;
     seen.add(key);
-    out.push({ name:cleanName, image, hint:normalizeText(hint) || null });
+    out.push({ name:cleanName, image:approvedImage, hint:normalizeText(hint) || null });
   };
 
   $('h2').filter((_, heading) => sectionPattern.test(normalizeText($(heading).text()))).each((_, heading) => {
@@ -1518,20 +1623,37 @@ function parseGame8RoadmapCharacters(html, gameId) {
     while (node.length && !node.is('h2')) {
       if (node.is('h3,h4')) {
         hint = normalizeText(node.text());
-        // Some character sections use a full-width picture rather than a
-        // linked icon (Claret and Roxy). Trust it only when the picture's alt
-        // text repeats the character named by the heading.
+        // Game8 uses either an unlinked character picture named by the
+        // heading or a linked card whose text is newer than a stale heading.
         const match = hint.match(/^(.+?)\s+(?:Release\b|in Version\b)/i);
         if (match) {
-          const image = node.nextUntil('h2,h3,h4').find('table img[data-src]').first();
-          const remote = image.attr('data-src');
-          if (remote && normName(image.attr('alt')).includes(normName(match[1]))) add(match[1], remote, hint);
+          const block = node.nextUntil('h2,h3,h4');
+          if (/\s(?:and|&)\s/i.test(match[1])) {
+            block.find('table a:has(img[data-src])').each((_, candidate) => {
+              const anchor = $(candidate);
+              const name = normalizeText(anchor.text());
+              if (!` ${words(match[1])} `.includes(` ${words(name)} `)) return;
+              const image = anchor.find('img[data-src]').first();
+              add(name, image.attr('data-src'), hint, image.attr('alt'));
+            });
+          } else {
+            const image = block.find('table img[data-src]').first();
+            const anchor = image.closest('a');
+            const name = normalizeText(anchor.text()) || match[1];
+            const remote = image.attr('data-src');
+            if (remote) add(name, remote, hint, image.attr('alt'));
+          }
         }
       }
-      node.find('table a:has(img)').addBack('table a:has(img)').each((_, anchor) => {
-        const image = $(anchor).find('img').first();
-        add($(anchor).text(), image.attr('data-src'), hint);
-      });
+      // A named release section's table describes that character's faction,
+      // element, and role. The heading image above is the character identity;
+      // table links are identities only in general multi-character sections.
+      if (!/^.+?\s+(?:Release\b|in Version\b)/i.test(hint)) {
+        node.find('table a:has(img)').addBack('table a:has(img)').each((_, anchor) => {
+          const image = $(anchor).find('img').first();
+          add($(anchor).text(), image.attr('data-src'), hint, image.attr('alt'));
+        });
+      }
       node = node.next();
     }
   });
@@ -1553,45 +1675,69 @@ const TEASER_ART_TYPES = [
   { ext: 'gif',  mime: 'image/gif',  test: (b) => b.length > 6 && b.toString('ascii', 0, 3) === 'GIF' },
 ];
 
+function approvedTeaserArtUrl(value) {
+  try {
+    const parsed = new URL(value);
+    if (parsed.protocol !== 'https:'
+      || !TEASER_ART_HOSTS.has(parsed.hostname.toLowerCase())
+      || parsed.username
+      || parsed.password
+      || parsed.port
+      || parsed.search
+      || parsed.hash) return null;
+    return parsed.toString();
+  } catch {
+    return null;
+  }
+}
+
+async function fetchTeaserArt(sourceUrl, {
+  fetchImpl = globalThis.fetch,
+  maxBytes = TEASER_ART_MAX_BYTES,
+  timeoutMs = FETCH_TIMEOUT_MS,
+} = {}) {
+  const approvedUrl = approvedTeaserArtUrl(sourceUrl);
+  if (!approvedUrl || approvedUrl !== sourceUrl) throw new Error(`teaser art URL is not approved: ${sourceUrl}`);
+  return fetchBoundedBytes(approvedUrl, { fetchImpl, maxBytes, timeoutMs, label:'teaser art' });
+}
+
 function teaserArtType(buffer) {
   return TEASER_ART_TYPES.find((type) => type.test(buffer)) || null;
 }
 
 // Content-addressed: the same still keeps the same filename across runs, so a
 // re-scrape neither re-downloads nor churns the committed tree.
-async function localizeTeaserArt(bucket, rows, logger = console) {
-  const dir = path.join(TEASER_ART_DIR, bucket);
+async function localizeTeaserArt(bucket, rows, logger = console, {
+  fetchArtImpl = fetchTeaserArt,
+  artRoot = TEASER_ART_DIR,
+  provenanceFile = TEASER_ART_PROVENANCE,
+} = {}) {
+  const dir = path.join(artRoot, bucket);
   const provenance = [];
+  const pendingFiles = [];
   const out = [];
   for (const row of rows) {
     const remote = row && row.image ? String(row.image) : '';
-    let host = '';
-    try { host = new URL(remote).hostname; } catch { host = ''; }
-    if (!remote || !TEASER_ART_HOSTS.has(host)) {
+    const approvedRemote = approvedTeaserArtUrl(remote);
+    if (!approvedRemote) {
       // An unknown host means the page shape changed; ship the name with no
       // picture rather than fetching from wherever it now points.
-      if (remote) logger.log(`[${bucket}] teaser art host not allowed for "${row.name}" (${host || 'unparseable'})`);
-      out.push({ ...row, image: remote && TEASER_ART_HOSTS.has(host) ? remote : null });
+      if (remote) logger.log(`[${bucket}] teaser art URL not allowed for "${row.name}"`);
+      out.push({ ...row, image:null });
       continue;
     }
     try {
-      const res = await fetch(remote, { headers: FETCH_HEADERS, signal: AbortSignal.timeout(FETCH_TIMEOUT_MS) });
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      const buffer = Buffer.from(await res.arrayBuffer());
-      if (!buffer.length || buffer.length > TEASER_ART_MAX_BYTES) throw new Error(`unexpected size ${buffer.length}`);
+      const buffer = await fetchArtImpl(approvedRemote);
       const type = teaserArtType(buffer);
       if (!type) throw new Error('not an image');
       const digest = require('crypto').createHash('sha256').update(buffer).digest('hex');
       const file = `${digest.slice(0, 32)}.${type.ext}`;
       const dest = path.join(dir, file);
-      if (!fs.existsSync(dest)) {
-        fs.mkdirSync(dir, { recursive: true });
-        fs.writeFileSync(dest, buffer);
-      }
+      pendingFiles.push({ dest, buffer });
       provenance.push({
         name: row.name,
         localPath: `/assets/banners/${bucket}/${file}`,
-        sourceUrl: remote,
+        sourceUrl: approvedRemote,
         sourceSha256: digest,
         sourceBytes: buffer.length,
         mediaType: type.mime,
@@ -1599,36 +1745,63 @@ async function localizeTeaserArt(bucket, rows, logger = console) {
       // The site needs the local copy (its CSP blocks the publisher CDN); the
       // launcher fetches and re-encodes art itself and wants the original, so
       // both are kept rather than one overwriting the other.
-      out.push({ ...row, image: `/assets/banners/${bucket}/${file}`, imageSource: remote });
+      out.push({ ...row, image: `/assets/banners/${bucket}/${file}`, imageSource:approvedRemote });
     } catch (err) {
       logger.log(`[${bucket}] teaser art unavailable for "${row.name}": ${err.message}`);
       out.push({ ...row, image: null });
     }
   }
-  if (provenance.length) {
-    fs.mkdirSync(path.dirname(TEASER_ART_PROVENANCE), { recursive: true });
-    const previous = fs.existsSync(TEASER_ART_PROVENANCE)
-      ? JSON.parse(fs.readFileSync(TEASER_ART_PROVENANCE, 'utf8'))
+  if (completeLocalizedSnapshot(bucket, out)) {
+    const previous = fs.existsSync(provenanceFile)
+      ? JSON.parse(fs.readFileSync(provenanceFile, 'utf8'))
       : { buckets: {} };
+    for (const { dest, buffer } of pendingFiles) {
+      if (fs.existsSync(dest)) continue;
+      fs.mkdirSync(path.dirname(dest), { recursive: true });
+      fs.writeFileSync(dest, buffer);
+    }
     previous.buckets = previous.buckets || {};
     previous.buckets[bucket] = provenance.sort((a, b) => (a.name > b.name ? 1 : -1));
     previous.generatedAt = new Date().toISOString();
     previous.policy = 'Teaser stills are copied to our own origin because the site CSP blocks publisher CDNs. Filenames are the source sha256 prefix.';
-    fs.writeFileSync(TEASER_ART_PROVENANCE, `${JSON.stringify(previous, null, 2)}\n`);
+    fs.mkdirSync(path.dirname(provenanceFile), { recursive: true });
+    fs.writeFileSync(provenanceFile, `${JSON.stringify(previous, null, 2)}\n`);
   }
   return out;
 }
 
-async function scrapeGame8UpcomingCharacters(url, logger = console, bucket = 'ae') {
+function completeLocalizedSnapshot(bucket, rows) {
+  if (!Array.isArray(rows)) return null;
+  const prefix = `/assets/banners/${bucket}/`;
+  return rows.every((row) => typeof row?.image === 'string'
+    && row.image.startsWith(prefix)
+    && /^[a-f0-9]{32}\.(?:png|jpg|webp|gif)$/.test(row.image.slice(prefix.length)))
+    ? rows
+    : null;
+}
+
+async function scrapeGame8UpcomingCharacters(url, logger = console, bucket = 'ae', {
+  fetchHtmlImpl = fetchHtml,
+  localizeImpl = localizeTeaserArt,
+} = {}) {
   try {
-    const html = await fetchHtml(url);
+    const html = await fetchHtmlImpl(url);
     const rows = parseGame8UpcomingCharacters(html);
+    if (!rows.length) {
+      logger.log('[endfield] game8 upcoming parser found no candidates; preserving prior data');
+      return null;
+    }
     logger.log(`[endfield] game8 upcoming characters: ${rows.length} found`);
-    return await localizeTeaserArt(bucket, rows, logger);
+    const localized = completeLocalizedSnapshot(bucket, await localizeImpl(bucket, rows, logger));
+    if (!localized) {
+      logger.log('[endfield] game8 upcoming art incomplete; preserving prior data');
+      return null;
+    }
+    return localized;
   } catch (err) {
     // Never fatal: a teaser list is a bonus, not a requirement.
     logger.log(`[endfield] game8 upcoming characters unavailable: ${err.message}`);
-    return [];
+    return null;
   }
 }
 
@@ -1650,23 +1823,29 @@ function localRoadmapNames(gameId) {
   return names;
 }
 
-async function scrapeGame8RoadmapCharacters(url, game, excluded = new Set(), logger = console) {
+async function scrapeGame8RoadmapCharacters(url, game, excluded = new Set(), logger = console, {
+  fetchHtmlImpl = fetchHtml,
+  localizeImpl = localizeTeaserArt,
+} = {}) {
   const gameId = game.id;
   try {
-    const html = await fetchHtml(url);
-    const approved = new Set((game.roadmapNames || []).map(normName));
+    const html = await fetchHtmlImpl(url);
     const catalog = localRoadmapNames(gameId);
-    const parsed = parseGame8RoadmapCharacters(html, gameId);
+    const parsed = parseGame8RoadmapCharacters(html, gameId, catalog);
     if (!parsed.length) {
       logger.log(`[${gameId}] game8 roadmap parser found no candidates; preserving prior data`);
       return null;
     }
     const rows = parsed.filter((row) => {
       const name = normName(row.name);
-      return !excluded.has(name) && (approved.has(name) || catalog.has(name));
+      return !excluded.has(name);
     });
     logger.log(`[${gameId}] game8 roadmap characters: ${rows.length} found`);
-    const localized = await localizeTeaserArt(gameId, rows, logger);
+    const localized = completeLocalizedSnapshot(gameId, await localizeImpl(gameId, rows, logger));
+    if (!localized) {
+      logger.log(`[${gameId}] game8 roadmap art incomplete; preserving prior data`);
+      return null;
+    }
     return localized.map((row) => ({ ...row, source:'game8', sourceUrl:url }));
   } catch (err) {
     // Optional: preserve the last successful roadmap when this page is down.
@@ -1693,10 +1872,17 @@ if (require.main === module) {
 }
 
 module.exports = {
+  completeLocalizedSnapshot,
+  fetchHtml,
+  fetchTeaserArt,
   requiredCurrentSourceFailures,
   SourceUnavailableError,
   localizeTeaserArt,
   parseGame8RoadmapCharacters,
   parseGame8UpcomingCharacters,
+  roadmapSnapshot,
+  scrapeGame8RoadmapCharacters,
+  scrapeGame8UpcomingCharacters,
+  teaserSnapshot,
   runCli
 };

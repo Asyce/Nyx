@@ -1,14 +1,14 @@
 {
-  "checkedAt": "2026-08-13T13:21:44.402Z",
-  "updated": "2026-08-13T13:21:44.402Z",
+  "checkedAt": "2026-08-14T04:06:56.603Z",
+  "updated": "2026-08-14T04:06:56.603Z",
   "games": [
     {
       "id": "hsr",
       "name": "Honkai: Star Rail",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-08-13T13:21:44.402Z",
-        "lastSuccessfulFetch": "2026-08-13T13:21:44.402Z",
+        "checkedAt": "2026-08-14T04:06:56.603Z",
+        "lastSuccessfulFetch": "2026-08-14T04:06:56.603Z",
         "source": "game8"
       },
       "current": {
@@ -114,15 +114,20 @@
           "source": "game8",
           "sourceUrl": "https://game8.co/games/Honkai-Star-Rail/archives/415899"
         }
-      ]
+      ],
+      "roadmapFreshness": {
+        "source": "game8",
+        "checkedAt": "2026-08-14T04:06:56.603Z",
+        "lastSuccessfulFetch": "2026-08-14T04:06:56.603Z"
+      }
     },
     {
       "id": "genshin",
       "name": "Genshin Impact",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-08-13T13:21:44.402Z",
-        "lastSuccessfulFetch": "2026-08-13T13:21:44.402Z",
+        "checkedAt": "2026-08-14T04:06:56.603Z",
+        "lastSuccessfulFetch": "2026-08-14T04:06:56.603Z",
         "source": "game8"
       },
       "current": {
@@ -215,6 +220,38 @@
       ],
       "roadmap": [
         {
+          "name": "Alice",
+          "image": "/assets/banners/genshin/6547ae5643cabb528dc333b57e6913f6.png",
+          "hint": "Characters That Appear in the Story",
+          "imageSource": "https://img.game8.co/4226271/b2008ad7d738ab74ad24d0b112c6dc9a.png/show",
+          "source": "game8",
+          "sourceUrl": "https://game8.co/games/Genshin-Impact/archives/307054"
+        },
+        {
+          "name": "Dainsleif",
+          "image": "/assets/banners/genshin/afa049120deb9bb971c2398cd7f1ea98.png",
+          "hint": "Characters That Appear in the Story",
+          "imageSource": "https://img.game8.co/3295010/ab8f71b69adfdb2e479eed626aa17009.png/show",
+          "source": "game8",
+          "sourceUrl": "https://game8.co/games/Genshin-Impact/archives/307054"
+        },
+        {
+          "name": "Pantalone",
+          "image": "/assets/banners/genshin/05aa86240a66ec6bd5c097373af92c75.png",
+          "hint": "Characters That Appear in the Story",
+          "imageSource": "https://img.game8.co/3547114/6d53a278cee17b1905053e49f64126f8.png/show",
+          "source": "game8",
+          "sourceUrl": "https://game8.co/games/Genshin-Impact/archives/307054"
+        },
+        {
+          "name": "Rerir",
+          "image": "/assets/banners/genshin/e97496825dac0c5a75b2da2087a13742.png",
+          "hint": "Characters That Appear in the Story",
+          "imageSource": "https://img.game8.co/4275048/f8cca0e2d0af4f192067a4deeaf1450e.png/show",
+          "source": "game8",
+          "sourceUrl": "https://game8.co/games/Genshin-Impact/archives/307054"
+        },
+        {
           "name": "Vesna",
           "image": "/assets/banners/genshin/0337246ce778ffd2dbd49ef89e98c850.png",
           "hint": "Characters from Official Channels",
@@ -255,6 +292,22 @@
           "sourceUrl": "https://game8.co/games/Genshin-Impact/archives/307054"
         },
         {
+          "name": "Pulcinella",
+          "image": "/assets/banners/genshin/4fc7003735f484a65249863c9c2705f2.png",
+          "hint": "Characters from Official Channels",
+          "imageSource": "https://img.game8.co/3547107/01f4c97b40f61ada48e67064abb2d2ee.png/show",
+          "source": "game8",
+          "sourceUrl": "https://game8.co/games/Genshin-Impact/archives/307054"
+        },
+        {
+          "name": "Pierro",
+          "image": "/assets/banners/genshin/ead7070e5d899c4cbb95ea612e9f7ef3.png",
+          "hint": "Characters from Official Channels",
+          "imageSource": "https://img.game8.co/3547108/95df31eba5740cf2f9fd04a1bd6fd665.png/show",
+          "source": "game8",
+          "sourceUrl": "https://game8.co/games/Genshin-Impact/archives/307054"
+        },
+        {
           "name": "Tsaritsa",
           "image": "/assets/banners/genshin/cdefdbb52093ca1327576623c156a77e.png",
           "hint": "Characters Mentioned In-Game",
@@ -270,15 +323,20 @@
           "source": "game8",
           "sourceUrl": "https://game8.co/games/Genshin-Impact/archives/307054"
         }
-      ]
+      ],
+      "roadmapFreshness": {
+        "source": "game8",
+        "checkedAt": "2026-08-14T04:06:56.603Z",
+        "lastSuccessfulFetch": "2026-08-14T04:06:56.603Z"
+      }
     },
     {
       "id": "wuwa",
       "name": "Wuthering Waves",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-08-13T13:21:44.402Z",
-        "lastSuccessfulFetch": "2026-08-13T13:21:44.402Z",
+        "checkedAt": "2026-08-14T04:06:56.603Z",
+        "lastSuccessfulFetch": "2026-08-14T04:06:56.603Z",
         "source": "game8"
       },
       "current": {
@@ -401,15 +459,20 @@
           "source": "game8",
           "sourceUrl": "https://game8.co/games/Wuthering-Waves/archives/452883"
         }
-      ]
+      ],
+      "roadmapFreshness": {
+        "source": "game8",
+        "checkedAt": "2026-08-14T04:06:56.603Z",
+        "lastSuccessfulFetch": "2026-08-14T04:06:56.603Z"
+      }
     },
     {
       "id": "zzz",
       "name": "Zenless Zone Zero",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-08-13T13:21:44.402Z",
-        "lastSuccessfulFetch": "2026-08-13T13:21:44.402Z",
+        "checkedAt": "2026-08-14T04:06:56.603Z",
+        "lastSuccessfulFetch": "2026-08-14T04:06:56.603Z",
         "source": "game8"
       },
       "current": {
@@ -518,15 +581,20 @@
           "source": "game8",
           "sourceUrl": "https://game8.co/games/Zenless-Zone-Zero/archives/460160"
         }
-      ]
+      ],
+      "roadmapFreshness": {
+        "source": "game8",
+        "checkedAt": "2026-08-14T04:06:56.603Z",
+        "lastSuccessfulFetch": "2026-08-14T04:06:56.603Z"
+      }
     },
     {
       "id": "endfield",
       "name": "Arknights: Endfield",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-08-13T13:21:44.402Z",
-        "lastSuccessfulFetch": "2026-08-13T13:21:44.402Z",
+        "checkedAt": "2026-08-14T04:06:56.603Z",
+        "lastSuccessfulFetch": "2026-08-14T04:06:56.603Z",
         "source": "game8"
       },
       "current": {
@@ -571,7 +639,12 @@
           "end": null,
           "teased": true
         }
-      ]
+      ],
+      "teaserFreshness": {
+        "source": "game8",
+        "checkedAt": "2026-08-14T04:06:56.603Z",
+        "lastSuccessfulFetch": "2026-08-14T04:06:56.603Z"
+      }
     }
   ]
 }

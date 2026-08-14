@@ -46,6 +46,22 @@
     ],
     "genshin": [
       {
+        "name": "Alice",
+        "localPath": "/assets/banners/genshin/6547ae5643cabb528dc333b57e6913f6.png",
+        "sourceUrl": "https://img.game8.co/4226271/b2008ad7d738ab74ad24d0b112c6dc9a.png/show",
+        "sourceSha256": "6547ae5643cabb528dc333b57e6913f63457c4ac36860e9735becde24e72dcc0",
+        "sourceBytes": 26846,
+        "mediaType": "image/png"
+      },
+      {
+        "name": "Dainsleif",
+        "localPath": "/assets/banners/genshin/afa049120deb9bb971c2398cd7f1ea98.png",
+        "sourceUrl": "https://img.game8.co/3295010/ab8f71b69adfdb2e479eed626aa17009.png/show",
+        "sourceSha256": "afa049120deb9bb971c2398cd7f1ea983717896ef8610e8486168a41a804a83c",
+        "sourceBytes": 22397,
+        "mediaType": "image/png"
+      },
+      {
         "name": "Danica",
         "localPath": "/assets/banners/genshin/b289e61a8574531fb41e42073bafa9f1.png",
         "sourceUrl": "https://img.game8.co/4574404/63b9c5087e220e3d773d6ca7d5ebd02c.png/show",
@@ -67,6 +83,38 @@
         "sourceUrl": "https://img.game8.co/4543303/278c7446ead442a16054999404cf4463.png/show",
         "sourceSha256": "c234b9b143af0e8200c8183ad61c2d8f44ed0db3baf23f7151c640de0664bcb1",
         "sourceBytes": 258577,
+        "mediaType": "image/png"
+      },
+      {
+        "name": "Pantalone",
+        "localPath": "/assets/banners/genshin/05aa86240a66ec6bd5c097373af92c75.png",
+        "sourceUrl": "https://img.game8.co/3547114/6d53a278cee17b1905053e49f64126f8.png/show",
+        "sourceSha256": "05aa86240a66ec6bd5c097373af92c7531e5db15ce8310d935ed8c472bd8b3e9",
+        "sourceBytes": 22132,
+        "mediaType": "image/png"
+      },
+      {
+        "name": "Pierro",
+        "localPath": "/assets/banners/genshin/ead7070e5d899c4cbb95ea612e9f7ef3.png",
+        "sourceUrl": "https://img.game8.co/3547108/95df31eba5740cf2f9fd04a1bd6fd665.png/show",
+        "sourceSha256": "ead7070e5d899c4cbb95ea612e9f7ef301c38a405c09857a403c753515b84be3",
+        "sourceBytes": 19430,
+        "mediaType": "image/png"
+      },
+      {
+        "name": "Pulcinella",
+        "localPath": "/assets/banners/genshin/4fc7003735f484a65249863c9c2705f2.png",
+        "sourceUrl": "https://img.game8.co/3547107/01f4c97b40f61ada48e67064abb2d2ee.png/show",
+        "sourceSha256": "4fc7003735f484a65249863c9c2705f2a8277071ed532f629b7ccc58091a9493",
+        "sourceBytes": 22461,
+        "mediaType": "image/png"
+      },
+      {
+        "name": "Rerir",
+        "localPath": "/assets/banners/genshin/e97496825dac0c5a75b2da2087a13742.png",
+        "sourceUrl": "https://img.game8.co/4275048/f8cca0e2d0af4f192067a4deeaf1450e.png/show",
+        "sourceSha256": "e97496825dac0c5a75b2da2087a137429914ca76fcf466a4800dc5a0bb3ded88",
+        "sourceBytes": 23485,
         "mediaType": "image/png"
       },
       {
@@ -171,6 +219,6 @@
       }
     ]
   },
-  "generatedAt": "2026-08-13T13:21:57.584Z",
+  "generatedAt": "2026-08-14T04:07:09.224Z",
   "policy": "Teaser stills are copied to our own origin because the site CSP blocks publisher CDNs. Filenames are the source sha256 prefix."
 }

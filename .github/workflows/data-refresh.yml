@@ -144,14 +144,39 @@ jobs:
         working-directory: Site
         run: npm run generate:data && npm run refresh:launcher
 
+      - name: Refresh and verify official launcher backgrounds
+        id: launcher_visuals
+        working-directory: Site
+        run: |
+          npm run generate:launcher-visuals
+          npm run verify:launcher-visuals:source
+          if [ -n "$(git status --porcelain -- src/data/generated/launcher-visuals src/data/generated/launcher-visuals-v1.json)" ]; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      # A background-only update still needs a newly timestamped launcher feed;
+      # otherwise the normal build correctly rejects the old 15-minute snapshot.
+      - name: Refresh launcher feeds for a background-only snapshot
+        if: ${{ steps.data_commit.outputs.changed != 'true' && steps.launcher_visuals.outputs.changed == 'true' }}
+        working-directory: Site
+        run: npm run generate:data && npm run refresh:launcher
+
       - name: Commit refreshed launcher snapshot
         id: launcher_snapshot
-        if: ${{ steps.data_commit.outputs.changed == 'true' }}
+        if: ${{ steps.data_commit.outputs.changed == 'true' || steps.launcher_visuals.outputs.changed == 'true' }}
         run: |
+          git config user.name "pengo-bot"
+          git config user.email "bot@pengo.gg"
           git add Site/src/data/generated/nyx-data.js Site/src/data/generated/launcher-codes-v1.json Site/src/data/generated/launcher-banners-v1.json
-          git add -A Site/src/data/generated/launcher-art
+          git add -A Site/src/data/generated/launcher-art Site/src/data/generated/launcher-visuals Site/src/data/generated/launcher-visuals-v1.json
           if ! git diff --cached --quiet; then
-            git commit --amend --no-edit
+            if [ "${{ steps.data_commit.outputs.changed }}" = "true" ]; then
+              git commit --amend --no-edit
+            else
+              git commit -m "chore(data): refresh launcher backgrounds [skip ci]"
+            fi
           fi
           echo "fresh=true" >> "$GITHUB_OUTPUT"
           echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
@@ -174,6 +199,15 @@ jobs:
       - name: Push verified data
         if: ${{ steps.launcher_snapshot.outputs.fresh == 'true' }}
         run: git push
+
+      # Content-addressed assets go first; the verified mutable manifest goes last.
+      - name: Publish launcher backgrounds to Pengo R2
+        if: ${{ env.CF_API_TOKEN != '' }}
+        working-directory: Site
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
+        run: npm run sync:launcher-visuals:r2 -- --apply
 
       - name: Additively sync Database assets to R2
         id: r2_sync

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "0826d13ca56342b1291ff8eb885ca84ab1804df399d93afb68027db999d89e33",
-  "generatedAt": "2026-08-14T04:21:43.682Z",
+  "revision": "7d65e53218d7b5f83ce961cd28e95c1505d0afea0239bcc0485e06cc74d3add5",
+  "generatedAt": "2026-08-14T04:33:28.159Z",
   "health": {
     "status": "ok",
     "games": {
@@ -43,7 +43,7 @@
         "remaining": {
           "startsAt": "2026-08-12T03:00:00.000Z",
           "endsAt": "2026-09-01T09:59:59.000Z",
-          "durationSeconds": 1575495
+          "durationSeconds": 1574790
         },
         "characters": [
           {
@@ -537,7 +537,7 @@
         "remaining": {
           "startsAt": "2026-08-05T11:00:00.000Z",
           "endsAt": "2026-08-25T14:00:00.000Z",
-          "durationSeconds": 985096
+          "durationSeconds": 984391
         },
         "characters": [
           {
@@ -1015,6 +1015,14 @@
       ],
       "news": [
         {
+          "id": "hsr-hoyo-ann-78033264de9f",
+          "title": "Version 4.5 \"To Roll the Stars in Astropolis\" Special Program Preview",
+          "type": "event",
+          "start": "2026-08-14T04:00:00.000Z",
+          "end": "2026-08-14T12:00:00.000Z",
+          "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1341"
+        },
+        {
           "id": "hsr-hoyo-ann-093f57d0dc07",
           "title": "Fate[UBW] Collaboration Warp Details",
           "type": "banner",
@@ -1026,7 +1034,7 @@
           "id": "hsr-hoyo-ann-59582dfb96bb",
           "title": "Version 4.4 Event Warp: Phase II",
           "type": "banner",
-          "start": "2026-08-03T22:00:00.000Z",
+          "start": "2026-08-04T04:00:00.000Z",
           "end": "2026-08-25T14:00:00.000Z",
           "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1294"
         },
@@ -1042,41 +1050,33 @@
           "id": "hsr-hoyo-ann-38b45482599c",
           "title": "\"Imagenae: Holy Grail War\" Event Details",
           "type": "event",
-          "start": "2026-07-22T21:00:00.000Z",
-          "end": "2026-08-25T16:00:00.000Z",
+          "start": "2026-07-23T03:00:00.000Z",
+          "end": "2026-08-25T22:00:00.000Z",
           "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1304"
         },
         {
           "id": "hsr-hoyo-ann-12c1a7a21c89",
           "title": "\"Antigraft Brickbuster\": Complete hacking operations to obtain Self-Modeling Resins, Tracks of Destiny, Stellar Jades, and more!",
           "type": "event",
-          "start": "2026-07-13T21:30:00.000Z",
-          "end": "2026-08-25T13:59:00.000Z",
+          "start": "2026-07-14T03:30:00.000Z",
+          "end": "2026-08-25T19:59:00.000Z",
           "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1301"
         },
         {
           "id": "hsr-hoyo-ann-5869c3577b20",
           "title": "\"Currency Wars: Zero-Sum Game\" Season Expansion Details V4.4",
           "type": "event",
-          "start": "2026-07-12T22:00:00.000Z",
-          "end": "2026-11-10T16:00:00.000Z",
+          "start": "2026-07-13T04:00:00.000Z",
+          "end": "2026-11-10T22:00:00.000Z",
           "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1296"
         },
         {
           "id": "hsr-hoyo-ann-ca5a1c47222c",
           "title": "Version 4.4 Store Update",
           "type": "event",
-          "start": "2026-07-03T07:00:00.000Z",
-          "end": "2026-08-25T16:00:00.000Z",
+          "start": "2026-07-03T13:00:00.000Z",
+          "end": "2026-08-25T22:00:00.000Z",
           "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1299"
-        },
-        {
-          "id": "hsr-hoyo-ann-df1a5352d767",
-          "title": "Stellar Companions: Log in to receive Golden Companion Spirit ×1",
-          "type": "event",
-          "start": "2026-04-10T06:55:00.000Z",
-          "end": "2026-08-25T16:00:00.000Z",
-          "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1232"
         }
       ],
       "codes": [
@@ -1122,7 +1122,7 @@
         "remaining": {
           "startsAt": "2026-07-29T03:00:00.000Z",
           "endsAt": "2026-08-19T03:59:59.000Z",
-          "durationSeconds": 430695
+          "durationSeconds": 429990
         },
         "characters": [
           {
@@ -1693,39 +1693,39 @@
           "id": "zzz-hoyo-ann-3d5f728e1856",
           "title": "\"Marcel Anniversary Gift\" Event Details",
           "type": "event",
-          "start": "2026-07-27T12:45:00.000Z",
-          "end": "2026-09-09T05:00:00.000Z",
+          "start": "2026-07-27T05:45:00.000Z",
+          "end": "2026-09-08T22:00:00.000Z",
           "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=220"
         },
         {
           "id": "zzz-hoyo-ann-c3848dccb384",
           "title": "\"Filmgoer Thank-You Gift\" Event Details",
           "type": "event",
-          "start": "2026-07-27T12:30:00.000Z",
-          "end": "2026-09-09T05:00:00.000Z",
+          "start": "2026-07-27T05:30:00.000Z",
+          "end": "2026-09-08T22:00:00.000Z",
           "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=226"
         },
         {
           "id": "zzz-hoyo-ann-17f16d0daaf4",
           "title": "Version 3.1 New Stock in the Store",
           "type": "event",
-          "start": "2026-07-27T12:00:00.000Z",
-          "end": "2026-09-09T05:00:00.000Z",
+          "start": "2026-07-27T05:00:00.000Z",
+          "end": "2026-09-08T22:00:00.000Z",
           "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=219"
         },
         {
           "id": "zzz-hoyo-ann-424df948a6d9",
           "title": "New Story: Season 3 Chapter 2 \"The Long Goodbye\"",
           "type": "event",
-          "start": "2026-07-27T11:45:00.000Z",
-          "end": "2026-09-09T05:00:00.000Z",
+          "start": "2026-07-27T04:45:00.000Z",
+          "end": "2026-09-08T22:00:00.000Z",
           "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=227"
         },
         {
           "id": "zzz-hoyo-ann-44796e8ea65a",
           "title": "V3.1 Limited-Time Channels",
           "type": "event",
-          "start": "2026-07-27T11:30:00.000Z",
+          "start": "2026-07-27T04:30:00.000Z",
           "end": "2026-09-08T13:59:59.000Z",
           "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=218"
         },
@@ -1769,7 +1769,7 @@
         "remaining": {
           "startsAt": "2026-07-30T09:00:00.000Z",
           "endsAt": "2026-08-19T10:59:00.000Z",
-          "durationSeconds": 455836
+          "durationSeconds": 455131
         },
         "characters": [
           {
@@ -2357,7 +2357,7 @@
         "remaining": {
           "startsAt": "2026-08-09T04:00:00.000Z",
           "endsAt": "2026-09-01T21:59:59.000Z",
-          "durationSeconds": 1618695
+          "durationSeconds": 1617990
         },
         "characters": [
           {

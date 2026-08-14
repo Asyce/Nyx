@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "game": "zzz",
-  "generatedAt": "2026-08-13T17:52:02.263Z",
+  "generatedAt": "2026-08-14T04:31:38.128Z",
   "source": {
     "name": "Zenless Zone Zero Official",
     "endpoint": "sg-announcement-api.hoyoverse.com getAnnList+getAnnContent"
@@ -30,7 +30,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1243",
         "kind": "official-announcement-api",
         "recordId": "1243",
-        "fetchedAt": "2026-08-13T17:52:07.716Z",
+        "fetchedAt": "2026-08-14T04:31:47.150Z",
         "priority": 1
       },
       "confidence": "high",
@@ -74,7 +74,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1241",
         "kind": "official-announcement-api",
         "recordId": "1241",
-        "fetchedAt": "2026-08-13T17:52:07.716Z",
+        "fetchedAt": "2026-08-14T04:31:47.150Z",
         "priority": 1
       },
       "confidence": "high",
@@ -109,8 +109,8 @@
       "id": "zzz-hoyo-ann-3d5f728e1856",
       "title": "\"Marcel Anniversary Gift\" Event Details",
       "type": "event",
-      "start": "2026-07-27T12:45:00.000Z",
-      "end": "2026-09-09T05:00:00.000Z",
+      "start": "2026-07-27T05:45:00.000Z",
+      "end": "2026-09-08T22:00:00.000Z",
       "server": "europe",
       "timezone": "UTC+01:00",
       "source": {
@@ -118,7 +118,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=220",
         "kind": "official-announcement-api",
         "recordId": "220",
-        "fetchedAt": "2026-08-13T17:52:07.716Z",
+        "fetchedAt": "2026-08-14T04:31:47.150Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -129,14 +129,14 @@
       "description": null,
       "windowsByRegion": {
         "europe": {
-          "start": "2026-07-27T12:45:00.000Z",
-          "end": "2026-09-09T05:00:00.000Z",
+          "start": "2026-07-27T05:45:00.000Z",
+          "end": "2026-09-08T22:00:00.000Z",
           "timezone": "UTC+01:00",
           "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=220"
         },
         "asia": {
-          "start": "2026-07-27T05:45:00.000Z",
-          "end": "2026-09-08T22:00:00.000Z",
+          "start": "2026-07-26T22:45:00.000Z",
+          "end": "2026-09-08T15:00:00.000Z",
           "timezone": "UTC+08:00",
           "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=220"
         },
@@ -153,8 +153,8 @@
       "id": "zzz-hoyo-ann-c3848dccb384",
       "title": "\"Filmgoer Thank-You Gift\" Event Details",
       "type": "event",
-      "start": "2026-07-27T12:30:00.000Z",
-      "end": "2026-09-09T05:00:00.000Z",
+      "start": "2026-07-27T05:30:00.000Z",
+      "end": "2026-09-08T22:00:00.000Z",
       "server": "europe",
       "timezone": "UTC+01:00",
       "source": {
@@ -162,7 +162,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=226",
         "kind": "official-announcement-api",
         "recordId": "226",
-        "fetchedAt": "2026-08-13T17:52:07.716Z",
+        "fetchedAt": "2026-08-14T04:31:47.150Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -173,14 +173,14 @@
       "description": null,
       "windowsByRegion": {
         "europe": {
-          "start": "2026-07-27T12:30:00.000Z",
-          "end": "2026-09-09T05:00:00.000Z",
+          "start": "2026-07-27T05:30:00.000Z",
+          "end": "2026-09-08T22:00:00.000Z",
           "timezone": "UTC+01:00",
           "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=226"
         },
         "asia": {
-          "start": "2026-07-27T05:30:00.000Z",
-          "end": "2026-09-08T22:00:00.000Z",
+          "start": "2026-07-26T22:30:00.000Z",
+          "end": "2026-09-08T15:00:00.000Z",
           "timezone": "UTC+08:00",
           "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=226"
         }
@@ -191,8 +191,8 @@
       "id": "zzz-hoyo-ann-17f16d0daaf4",
       "title": "Version 3.1 New Stock in the Store",
       "type": "event",
-      "start": "2026-07-27T12:00:00.000Z",
-      "end": "2026-09-09T05:00:00.000Z",
+      "start": "2026-07-27T05:00:00.000Z",
+      "end": "2026-09-08T22:00:00.000Z",
       "server": "europe",
       "timezone": "UTC+01:00",
       "source": {
@@ -200,7 +200,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=219",
         "kind": "official-announcement-api",
         "recordId": "219",
-        "fetchedAt": "2026-08-13T17:52:07.716Z",
+        "fetchedAt": "2026-08-14T04:31:47.150Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -211,14 +211,14 @@
       "description": null,
       "windowsByRegion": {
         "europe": {
-          "start": "2026-07-27T12:00:00.000Z",
-          "end": "2026-09-09T05:00:00.000Z",
+          "start": "2026-07-27T05:00:00.000Z",
+          "end": "2026-09-08T22:00:00.000Z",
           "timezone": "UTC+01:00",
           "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=219"
         },
         "asia": {
-          "start": "2026-07-27T05:00:00.000Z",
-          "end": "2026-09-08T22:00:00.000Z",
+          "start": "2026-07-26T22:00:00.000Z",
+          "end": "2026-09-08T15:00:00.000Z",
           "timezone": "UTC+08:00",
           "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=219"
         },
@@ -235,8 +235,8 @@
       "id": "zzz-hoyo-ann-424df948a6d9",
       "title": "New Story: Season 3 Chapter 2 \"The Long Goodbye\"",
       "type": "event",
-      "start": "2026-07-27T11:45:00.000Z",
-      "end": "2026-09-09T05:00:00.000Z",
+      "start": "2026-07-27T04:45:00.000Z",
+      "end": "2026-09-08T22:00:00.000Z",
       "server": "europe",
       "timezone": "UTC+01:00",
       "source": {
@@ -244,7 +244,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=227",
         "kind": "official-announcement-api",
         "recordId": "227",
-        "fetchedAt": "2026-08-13T17:52:07.716Z",
+        "fetchedAt": "2026-08-14T04:31:47.150Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -255,14 +255,14 @@
       "description": null,
       "windowsByRegion": {
         "europe": {
-          "start": "2026-07-27T11:45:00.000Z",
-          "end": "2026-09-09T05:00:00.000Z",
+          "start": "2026-07-27T04:45:00.000Z",
+          "end": "2026-09-08T22:00:00.000Z",
           "timezone": "UTC+01:00",
           "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=227"
         },
         "asia": {
-          "start": "2026-07-27T04:45:00.000Z",
-          "end": "2026-09-08T22:00:00.000Z",
+          "start": "2026-07-26T21:45:00.000Z",
+          "end": "2026-09-08T15:00:00.000Z",
           "timezone": "UTC+08:00",
           "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=227"
         },
@@ -279,7 +279,7 @@
       "id": "zzz-hoyo-ann-44796e8ea65a",
       "title": "V3.1 Limited-Time Channels",
       "type": "event",
-      "start": "2026-07-27T11:30:00.000Z",
+      "start": "2026-07-27T04:30:00.000Z",
       "end": "2026-09-08T13:59:59.000Z",
       "server": "europe",
       "timezone": "UTC+01:00",
@@ -288,7 +288,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=218",
         "kind": "official-announcement-api",
         "recordId": "218",
-        "fetchedAt": "2026-08-13T17:52:07.716Z",
+        "fetchedAt": "2026-08-14T04:31:47.150Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -299,13 +299,13 @@
       "description": null,
       "windowsByRegion": {
         "europe": {
-          "start": "2026-07-27T11:30:00.000Z",
+          "start": "2026-07-27T04:30:00.000Z",
           "end": "2026-09-08T13:59:59.000Z",
           "timezone": "UTC+01:00",
           "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=218"
         },
         "asia": {
-          "start": "2026-07-27T04:30:00.000Z",
+          "start": "2026-07-26T21:30:00.000Z",
           "end": "2026-09-08T06:59:59.000Z",
           "timezone": "UTC+08:00",
           "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=218"
@@ -577,7 +577,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1236",
         "kind": "official-announcement-api",
         "recordId": "1236",
-        "fetchedAt": "2026-08-13T17:52:07.716Z",
+        "fetchedAt": "2026-08-14T04:31:47.150Z",
         "priority": 1
       },
       "confidence": "low",
@@ -602,7 +602,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1238",
         "kind": "official-announcement-api",
         "recordId": "1238",
-        "fetchedAt": "2026-08-13T17:52:07.716Z",
+        "fetchedAt": "2026-08-14T04:31:47.150Z",
         "priority": 1
       },
       "confidence": "low",
@@ -627,7 +627,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1242",
         "kind": "official-announcement-api",
         "recordId": "1242",
-        "fetchedAt": "2026-08-13T17:52:07.716Z",
+        "fetchedAt": "2026-08-14T04:31:47.150Z",
         "priority": 1
       },
       "confidence": "low",
@@ -652,7 +652,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1237",
         "kind": "official-announcement-api",
         "recordId": "1237",
-        "fetchedAt": "2026-08-13T17:52:07.716Z",
+        "fetchedAt": "2026-08-14T04:31:47.150Z",
         "priority": 1
       },
       "confidence": "low",
@@ -677,7 +677,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1234",
         "kind": "official-announcement-api",
         "recordId": "1234",
-        "fetchedAt": "2026-08-13T17:52:07.716Z",
+        "fetchedAt": "2026-08-14T04:31:47.150Z",
         "priority": 1
       },
       "confidence": "low",
@@ -702,7 +702,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1239",
         "kind": "official-announcement-api",
         "recordId": "1239",
-        "fetchedAt": "2026-08-13T17:52:07.716Z",
+        "fetchedAt": "2026-08-14T04:31:47.150Z",
         "priority": 1
       },
       "confidence": "low",
@@ -727,7 +727,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1240",
         "kind": "official-announcement-api",
         "recordId": "1240",
-        "fetchedAt": "2026-08-13T17:52:07.716Z",
+        "fetchedAt": "2026-08-14T04:31:47.150Z",
         "priority": 1
       },
       "confidence": "low",

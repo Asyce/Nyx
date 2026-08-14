@@ -2050,30 +2050,6 @@ function cmSharedIdentityGender(gameKey, ch, gender){
     || (gameKey === 'wuwa' && (id === 'wuwa-rover' || baseName === 'rover'));
 }
 
-function cmKitEntryGroups(entries){
-  const rows = (entries || []).filter(Boolean);
-  const counts = new Map();
-  rows.forEach((entry) => {
-    const key = entry.type || '';
-    if (key) counts.set(key, (counts.get(key) || 0) + 1);
-  });
-  const shouldGroup = [...counts.values()].some((count) => count > 1);
-  if (!shouldGroup) return [{ label:'', entries:rows }];
-  const groups = [];
-  const byLabel = new Map();
-  rows.forEach((entry) => {
-    const label = entry.type || 'Other';
-    let group = byLabel.get(label);
-    if (!group) {
-      group = { label, entries:[] };
-      byLabel.set(label, group);
-      groups.push(group);
-    }
-    group.entries.push(entry);
-  });
-  return groups;
-}
-
 function cmSearchExtra(ch){
   const forms = Array.isArray(ch?.forms) ? ch.forms : [];
   return [
@@ -2269,10 +2245,171 @@ function cmKitEntryIcon(gameKey, skillIcons, sectionTitle, entry, entryIndex){
     if (iconIndex !== undefined && skillIcons?.[iconIndex]) return skillIcons[iconIndex];
   }
   if (gameKey === 'ae' && String(sectionTitle || '').toLowerCase() === 'combat skills' && skillIcons?.[entryIndex]) return skillIcons[entryIndex];
-  return '../../assets/icon/nyx_logo.png';
+  return null;
 }
 
-function CharacterKitEntry({ entry, entryIndex, sectionTitle, gameKey, characterName, skillIcons, groupLabel }){
+function cmKitDisplayText(value){
+  return String(value || '').replace(/\\r\\n|\\n|\\r/g, '\n').replace(/\r/g, '').trim();
+}
+
+function cmKitDescriptionBlocks(value){
+  const text = cmKitDisplayText(value);
+  const blocks = [];
+  let cursor = 0;
+  for (const raw of text.split(/\n{2,}/)) {
+    const rawStart = text.indexOf(raw, cursor);
+    cursor = rawStart + raw.length;
+    const leading = raw.length - raw.trimStart().length;
+    const content = raw.trim();
+    if (!content) continue;
+    const start = rawStart + leading;
+    const lineBreak = content.indexOf('\n');
+    const firstLine = lineBreak > 0 ? content.slice(0, lineBreak).trim() : '';
+    const heading = firstLine && firstLine.length <= 88 && firstLine.split(/\s+/).length <= 12 && !/[.!?]$/.test(firstLine)
+      ? firstLine
+      : '';
+    const body = heading ? content.slice(lineBreak + 1).trim() : content;
+    const bodyOffset = heading ? content.indexOf(body, lineBreak + 1) : 0;
+    blocks.push({ heading, headingStart:start, body, bodyStart:start + bodyOffset });
+  }
+  return blocks;
+}
+
+function cmKitTermDefinitions(sections){
+  const byName = new Map();
+  const add = (label, definition) => {
+    const name = String(label || '').trim();
+    const body = cmKitDisplayText(definition);
+    const key = name.toLocaleLowerCase();
+    if (name.length < 3 || name.length > 100 || body.length < 8 || byName.has(key)) return;
+    byName.set(key, { label:name, definition:body });
+  };
+  (sections || []).forEach((section) => (section?.entries || []).forEach((entry) => {
+    add(entry?.name, entry?.desc);
+    cmKitDescriptionBlocks(entry?.desc).forEach((block) => {
+      if (block.heading) add(block.heading, block.body);
+    });
+  }));
+  return [...byName.values()].sort((a, b) => b.label.length - a.label.length);
+}
+
+function cmKitFindTerms(text, terms, skipTerm){
+  const lower = text.toLocaleLowerCase();
+  const matches = [];
+  const word = (value) => /[\p{L}\p{N}]/u.test(value || '');
+  for (const term of terms || []) {
+    if (term.label.toLocaleLowerCase() === String(skipTerm || '').toLocaleLowerCase()) continue;
+    const needle = term.label.toLocaleLowerCase();
+    let from = 0;
+    while (needle && (from = lower.indexOf(needle, from)) >= 0) {
+      const end = from + needle.length;
+      const bounded = !word(text[from - 1]) && !word(text[end]);
+      const overlaps = matches.some((row) => from < row.end && end > row.start);
+      if (bounded && !overlaps) matches.push({ start:from, end, term });
+      from = end;
+    }
+  }
+  const semantic = [
+    ['pyro', /\b(?:AoE\s+)?(?:Pyro|Fire|Heat|Fusion)\s+(?:DMG|Damage|RES|Resistance|Penetration)\b/giu],
+    ['hydro', /\b(?:AoE\s+)?(?:Hydro|Water)\s+(?:DMG|Damage|RES|Resistance|Penetration)\b/giu],
+    ['cryo', /\b(?:AoE\s+)?(?:Cryo|Ice|Frost|Glacio)\s+(?:DMG|Damage|RES|Resistance|Penetration)\b/giu],
+    ['electro', /\b(?:AoE\s+)?(?:Electro|Electric|Thunder|Lightning)\s+(?:DMG|Damage|RES|Resistance|Penetration)\b/giu],
+    ['anemo', /\b(?:AoE\s+)?(?:Anemo|Wind|Aero)\s+(?:DMG|Damage|RES|Resistance|Penetration)\b/giu],
+    ['geo', /\b(?:AoE\s+)?(?:Geo|Rock)\s+(?:DMG|Damage|RES|Resistance|Penetration)\b/giu],
+    ['dendro', /\b(?:AoE\s+)?(?:Dendro|Nature)\s+(?:DMG|Damage|RES|Resistance|Penetration)\b/giu],
+    ['quantum', /\b(?:AoE\s+)?Quantum\s+(?:DMG|Damage|RES|Resistance|Penetration)\b/giu],
+    ['imaginary', /\b(?:AoE\s+)?Imaginary\s+(?:DMG|Damage|RES|Resistance|Penetration)\b/giu],
+    ['physical', /\b(?:AoE\s+)?Physical\s+(?:DMG|Damage|RES|Resistance|Penetration)\b/giu],
+    ['ether', /\b(?:AoE\s+)?Ether\s+(?:DMG|Damage|RES|Resistance|Penetration)\b/giu],
+    ['havoc', /\b(?:AoE\s+)?Havoc\s+(?:DMG|Damage|RES|Resistance|Penetration)\b/giu],
+    ['spectro', /\b(?:AoE\s+)?Spectro\s+(?:DMG|Damage|RES|Resistance|Penetration)\b/giu],
+  ];
+  semantic.forEach(([tone, pattern]) => {
+    for (const match of text.matchAll(pattern)) {
+      const start = match.index;
+      const end = start + match[0].length;
+      if (!matches.some((row) => start < row.end && end > row.start)) matches.push({ start, end, tone });
+    }
+  });
+  for (const match of text.matchAll(/(?:^|\n)([A-Z][A-Z0-9 /'-]{2,32}:)/g)) {
+    const start = match.index + match[0].length - match[1].length;
+    const end = start + match[1].length;
+    if (!matches.some((row) => start < row.end && end > row.start)) matches.push({ start, end, tone:'accent' });
+  }
+  return matches.sort((a, b) => a.start - b.start || b.end - a.end);
+}
+
+function CMKitStyledText({ text, start, format }){
+  const end = start + text.length;
+  const marks = (format || []).filter((row) => row?.end > start && row?.start < end);
+  const boundaries = [...new Set([start, end, ...marks.flatMap((row) => [Math.max(start, row.start), Math.min(end, row.end)])])].sort((a, b) => a - b);
+  return boundaries.slice(0, -1).map((left, index) => {
+    const right = boundaries[index + 1];
+    const active = marks.filter((row) => row.start <= left && row.end >= right);
+    const tone = active.find((row) => row.tone)?.tone;
+    const classes = [
+      tone ? `is-${tone}` : active.some((row) => row.kind === 'term') ? 'is-accent' : '',
+      active.some((row) => row.kind === 'strong') ? 'is-strong' : '',
+      active.some((row) => row.kind === 'em') ? 'is-em' : '',
+      active.some((row) => row.kind === 'underline') ? 'is-underline' : '',
+    ].filter(Boolean).join(' ');
+    const value = text.slice(left - start, right - start);
+    return classes ? <span className={classes} key={`${left}-${right}`}>{value}</span> : <React.Fragment key={`${left}-${right}`}>{value}</React.Fragment>;
+  });
+}
+
+function CMKitTerm({ term, children }){
+  const id = `cm-kit-term-${React.useId().replace(/:/g, '')}`;
+  return (
+    <span className="cm-kit-term">
+      <button type="button" aria-describedby={id}>{children}</button>
+      <span className="cm-kit-term-tip" id={id} role="tooltip"><b>{term.label}</b><span>{term.definition}</span></span>
+    </span>
+  );
+}
+
+function CMKitInlineText({ text, start, format, terms, skipTerm }){
+  const matches = cmKitFindTerms(text, terms, skipTerm);
+  const nodes = [];
+  let cursor = 0;
+  matches.forEach((match, index) => {
+    if (match.start > cursor) {
+      const value = text.slice(cursor, match.start);
+      nodes.push(<CMKitStyledText key={`plain-${index}`} text={value} start={start + cursor} format={format} />);
+    }
+    const value = text.slice(match.start, match.end);
+    const styled = <CMKitStyledText text={value} start={start + match.start} format={format} />;
+    nodes.push(match.term
+      ? <CMKitTerm key={`term-${index}`} term={match.term}>{styled}</CMKitTerm>
+      : <span className={`is-${match.tone}`} key={`tone-${index}`}>{styled}</span>);
+    cursor = match.end;
+  });
+  if (cursor < text.length) nodes.push(<CMKitStyledText key="plain-last" text={text.slice(cursor)} start={start + cursor} format={format} />);
+  return nodes;
+}
+
+function CMKitDescription({ text, format, terms }){
+  const blocks = cmKitDescriptionBlocks(text);
+  if (!blocks.length) return null;
+  return (
+    <div className="cm-kit-copy">
+      {blocks.map((block, index) => (
+        <p key={`${block.heading || 'copy'}-${index}`}>
+          {block.heading && (
+            <strong className="cm-kit-copy-heading">
+              <CMKitInlineText text={block.heading} start={block.headingStart} format={format} terms={terms} skipTerm={block.heading} />
+            </strong>
+          )}
+          <span className="cm-kit-copy-body">
+            <CMKitInlineText text={block.body} start={block.bodyStart} format={format} terms={terms} />
+          </span>
+        </p>
+      ))}
+    </div>
+  );
+}
+
+function CharacterKitEntry({ entry, entryIndex, sectionTitle, gameKey, characterName, skillIcons, groupLabel, terms }){
   const labels = cmKitLevelLabels(entry);
   const [levelIndex, setLevelIndex] = React.useState(() => cmKitLevelIndex(labels));
   const rangeId = React.useId();
@@ -2282,16 +2419,18 @@ function CharacterKitEntry({ entry, entryIndex, sectionTitle, gameKey, character
     ? levelIndex
     : cmKitMatchingIndex(levelRows.map((row) => row.label), selectedLabel, levelIndex);
   const description = levelRows[descriptionIndex]?.text || entry?.desc;
+  const descriptionFormat = levelRows[descriptionIndex]?.format || entry?.descFormat || [];
+  const icon = cmKitEntryIcon(gameKey, skillIcons, sectionTitle, entry, entryIndex);
   return (
     <article className="cm-kit-entry">
       <div className="cm-kit-entry-head">
-        <img src={cmKitEntryIcon(gameKey, skillIcons, sectionTitle, entry, entryIndex)} alt="" draggable="false" />
+        {icon && <img src={icon} alt="" draggable="false" />}
         <div>
           {entry.type && entry.type !== groupLabel && <span>{entry.type}</span>}
           <b>{entry.name || 'Skill'}</b>
         </div>
       </div>
-      {description && <p>{description}</p>}
+      {description && <CMKitDescription text={description} format={descriptionFormat} terms={terms} />}
       {Array.isArray(entry.stats) && entry.stats.length > 0 && (
         <dl className="cm-kit-stats">
           {entry.stats.map((stat, index) => (
@@ -2301,7 +2440,7 @@ function CharacterKitEntry({ entry, entryIndex, sectionTitle, gameKey, character
       )}
       {labels.length > 1 && (
         <details className="cm-kit-levels">
-          <summary>Skill level values</summary>
+          <summary>{entry.scaling?.length ? 'Multiplier table' : 'Level values'}</summary>
           <div className="cm-kit-level-detail">
             <div className="cm-kit-level-control">
               <label htmlFor={rangeId}>{characterName || 'Character'} {entry.name || 'skill'} level</label>
@@ -2334,6 +2473,7 @@ function CharacterKitEntry({ entry, entryIndex, sectionTitle, gameKey, character
 
 function CharacterKitPanel({ kit, baseStats, facts, gameKey, characterName, skillIcons, emptyText }){
   const sections = (kit?.sections || []).filter((section) => (section?.entries || []).length);
+  const terms = React.useMemo(() => cmKitTermDefinitions(sections), [kit]);
   const hasProfile = cmHasProfile(baseStats, facts);
   if (!sections.length && !hasProfile) return <div className="cm-empty">{emptyText || 'No character kit data available yet.'}</div>;
   const versionParts = kit ? [
@@ -2348,17 +2488,12 @@ function CharacterKitPanel({ kit, baseStats, facts, gameKey, characterName, skil
       {sections.map((section, si) => (
         <div className="cm-kit-section" key={section.title || si}>
           <div className="cm-kit-section-title">{section.title || 'Kit'}</div>
-          {cmKitEntryGroups(section.entries).map((group, gi) => (
-            <div className="cm-kit-type-group" key={(group.label || 'all') + gi}>
-              {group.label && <div className="cm-kit-type-title">{group.label}</div>}
-              <div className="cm-kit-list">
-                {(group.entries || []).map((entry, ei) => (
-                  <CharacterKitEntry key={`${characterName || 'character'}-${section.title || si}-${entry.name || 'entry'}-${ei}`} entry={entry} entryIndex={ei} sectionTitle={section.title}
-                                     gameKey={gameKey} characterName={characterName} skillIcons={skillIcons} groupLabel={group.label} />
-                ))}
-              </div>
-            </div>
-          ))}
+          <div className="cm-kit-list" style={{ '--cm-kit-columns':Math.min(3, section.entries?.length || 1) }}>
+            {(section.entries || []).map((entry, ei) => (
+              <CharacterKitEntry key={`${characterName || 'character'}-${section.title || si}-${entry.name || 'entry'}-${ei}`} entry={entry} entryIndex={ei} sectionTitle={section.title}
+                                 gameKey={gameKey} characterName={characterName} skillIcons={skillIcons} groupLabel="" terms={terms} />
+            ))}
+          </div>
         </div>
       ))}
       {!sections.length && <div className="cm-empty">{emptyText || 'No character kit data available yet.'}</div>}

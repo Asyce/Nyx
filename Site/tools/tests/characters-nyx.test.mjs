@@ -326,6 +326,17 @@ test('all character profiles use generic sourced checkpoints and the shared leve
     assert.equal(entries.length, expected.entries, `${expected.name} entry count`);
     assert.equal(entries.filter((entry) => entry.levels?.length || entry.scaling?.length).length, expected.controls, `${expected.name} level-control count`);
   }
+  const allKitEntries = Object.values(configs).flatMap((config) => config.roster
+    .flatMap((character) => (character.kit?.sections || []).flatMap((section) => section.entries || [])));
+  assert.ok(allKitEntries.length > 0);
+  const allKitText = allKitEntries.flatMap((entry) => [entry.desc, ...(entry.levels || []).map((row) => row.text)].filter(Boolean));
+  assert.ok(allKitText.every((text) => !/\\n|\\r/.test(text)), 'escaped line breaks are normalized before rendering');
+  assert.ok(allKitText.every((text) => !/[ \t]+\n|\n{3,}|<+\/?(?:color|b|i|u|unbreak)(?:=|>)/i.test(text)), 'known source markup and whitespace artifacts are removed');
+  const formatted = allKitEntries.flatMap((entry) => [entry.descFormat, ...(entry.levels || []).map((row) => row.format)].filter(Array.isArray));
+  assert.ok(formatted.length > 0, 'source emphasis is preserved as safe ranges');
+  assert.ok(formatted.flat().every((row) => Number.isInteger(row.start) && Number.isInteger(row.end) && row.end > row.start), 'format ranges are valid');
+  assert.ok(allKitEntries.every((entry) => (entry.descFormat || []).every((row) => row.end <= (entry.desc || '').length)
+    && (entry.levels || []).every((level) => (level.format || []).every((row) => row.end <= (level.text || '').length))), 'format ranges stay inside their text');
   const duplicateLevelEntry = zzz.roster.flatMap((character) => (character.kit?.sections || []).flatMap((section) => section.entries || []))
     .find((entry) => (entry.levels || []).some((row, index, rows) => rows.slice(0, index).some((candidate) => candidate.label === row.label && candidate.text !== row.text)));
   assert.ok(duplicateLevelEntry, 'ZZZ keeps distinct descriptions that share a visible level label');
@@ -335,13 +346,26 @@ test('all character profiles use generic sourced checkpoints and the shared leve
   assert.match(materials, /function cmKitLevelLabels[\s\S]*labels\.length > longest\.length/, 'future skills choose the longest source label list');
   assert.match(materials, /function cmKitMatchingIndex[\s\S]*String\(label\) === String\(selectedLabel\)/, 'scaling uses exact source-column matching');
   assert.match(materials, /levelRows\.length === labels\.length[\s\S]*\? levelIndex[\s\S]*: cmKitMatchingIndex/, 'description sliders preserve duplicate-label source rows by position');
-  assert.match(materials, /<summary>Skill level values<\/summary>/);
+  assert.match(materials, /entry\.scaling\?\.length \? 'Multiplier table' : 'Level values'/);
   assert.match(materials, /<CharacterProfile key=\{characterName \|\| gameKey\}/, 'profile level resets when the selected character changes');
-  assert.match(materials, /'\.\.\/\.\.\/assets\/icon\/nyx_logo\.png'/, 'missing skill art gets a local Nyx fallback');
+  assert.doesNotMatch(materials, /assets\/icon\/nyx_logo\.png/, 'missing skill art leaves no fake icon');
+  assert.match(materials, /\{icon && <img src=\{icon\}/, 'skill art only renders when a real icon exists');
+  assert.doesNotMatch(materials, /cmKitEntryGroups|cm-kit-type-title/, 'section type pills never duplicate card labels');
+  assert.match(materials, /section\.entries\?\.length[\s\S]*section\.entries \|\| \[\]/, 'every section uses one shared card grid');
+  assert.match(materials, /function CMKitDescription\([\s\S]*function CharacterKitEntry\(/, 'all descriptions use the shared rich-text renderer');
+  assert.match(materials, /row\.kind === 'term'\) \? 'is-accent'/, 'source-linked terms keep visible emphasis');
+  assert.match(materials, /\['pyro', \/\\b\(\?:AoE[\s\S]*\['spectro'/, 'unsourced element damage phrases still receive game-correct colors');
+  assert.match(materials, /Pyro\|Fire\|Heat\|Fusion[\s\S]*Cryo\|Ice\|Frost\|Glacio[\s\S]*Electro\|Electric/, 'game-specific element aliases share their correct semantic colors');
+  assert.match(materials, /text\.matchAll\(\/\(\?:\^\|\\n\)\(\[A-Z\]/, 'plain source labels receive the same readable emphasis');
+  assert.match(materials, /aria-describedby=\{id\}[\s\S]*role="tooltip"/, 'defined terms expose keyboard-readable tooltips');
+  assert.doesNotMatch(materials, /dangerouslySetInnerHTML/, 'source formatting is rendered as React text, never injected HTML');
   assert.doesNotMatch(materials, /cm-kit-level-row|cm-kit-scale-scroll/, 'only selected source values render');
   assert.match(generator, /function endfieldPrydwenKitSections\(page\)/);
   assert.match(generator, /const page = endfieldPageForCharacter\(ch\);[\s\S]*buildEndfieldKit\(ch, page\)[\s\S]*endfieldProfileData\(ch, page\)/, 'future Endfield rows use their matching local page without name routing');
-  assert.match(css, /\.cm-kit-list\{[^}]*grid-template-columns:minmax\(0, 1fr\)/, 'kit cards are full width');
+  assert.match(css, /\.cm-kit-list\{[^}]*repeat\(var\(--cm-kit-columns,1\),minmax\(0,1fr\)\)/, 'kit cards use the shared capped column layout');
+  assert.doesNotMatch(css, /\.cm-kit-type-title/, 'duplicate type pills have no styling residue');
+  assert.match(css, /@media \(max-width:1050px\)[\s\S]*auto-fit/, 'kit cards collapse responsively');
+  assert.match(css, /\.cm-kit-term:hover \.cm-kit-term-tip,[\s\S]*\.cm-kit-term:focus-within/, 'term explanations work with pointer and keyboard focus');
   assert.match(css, /@media \(prefers-reduced-motion:reduce\)[\s\S]*\.cm-kit-levels/);
 });
 

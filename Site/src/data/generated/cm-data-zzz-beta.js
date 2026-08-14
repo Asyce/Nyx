@@ -155,6 +155,20 @@
                 "name": "Basic Attack: Penetrating Shock",
                 "type": "Basic",
                 "desc": "Press to activate:\nPerform up to five slashes ahead, dealing Electric DMG. After the 4th attack hits the enemy, repeatedly press or hold to quickly pass through enemies in front up to 5 times.\n\nPress to activate:\nPerform up to five slashes ahead, dealing Electric DMG.\nOn the 3rd hit of the Basic Attack, enemies are continuously pulled in.\nAfter the 4th attack hits the enemy, repeatedly press or hold to quickly pass through enemies in front up to 5 times.",
+                "descFormat": [
+                  {
+                    "start": 61,
+                    "end": 73,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 255,
+                    "end": 267,
+                    "kind": "tone",
+                    "tone": "electro"
+                  }
+                ],
                 "scaling": [
                   {
                     "title": "Skill Level Scaling",
@@ -424,6 +438,14 @@
                 "name": "Dash Attack: Torrent",
                 "type": "Dodge",
                 "desc": "Press during a dodge to activate:\nPerform a horizontal slash forward, then follow up with a thrust attack, dealing Electric DMG.",
+                "descFormat": [
+                  {
+                    "start": 115,
+                    "end": 127,
+                    "kind": "tone",
+                    "tone": "electro"
+                  }
+                ],
                 "scaling": [
                   {
                     "title": "Skill Level Scaling",
@@ -484,6 +506,50 @@
                 "name": "Dodge Counter: Ground Flash Counter",
                 "type": "Dodge",
                 "desc": "Press during a Perfect Dodge to activate:\nRepeatedly slash enemies in front, dealing Electric DMG.\nCharacter is invulnerable while using this skill.\n\nPress during a Perfect Dodge to activate:\nPerform consecutive slashes at enemies in front, dealing Electric DMG. On hit, gain the Voltage Overload state for 15s. Repeated triggers refresh the duration.\nWhile in the Voltage Overload state, dodge performance is enhanced. Additionally, when using Basic Attack/Dash Attack/Dodge Counter, if the enemy target has White Thunder, pressing will immediately cancel the current skill and launch Special Attack: Azure Flash.\nWhile in this state, if the enemy does not have White Thunder, press to directly launch EX Special Attack: Sundering Bolt.\nCharacter is invulnerable while using this skill.",
+                "descFormat": [
+                  {
+                    "start": 15,
+                    "end": 28,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 85,
+                    "end": 97,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 165,
+                    "end": 178,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 249,
+                    "end": 261,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 509,
+                    "end": 522,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 586,
+                    "end": 613,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 663,
+                    "end": 676,
+                    "kind": "tone",
+                    "tone": "electro"
+                  }
+                ],
                 "scaling": [
                   {
                     "title": "Skill Level Scaling",
@@ -544,6 +610,14 @@
                 "name": "Quick Assist: Cloud Flash",
                 "type": "Assist",
                 "desc": "When the active character is launched, press to activate:\nRepeatedly slash enemies in front, dealing Electric DMG.\nCharacter is invulnerable while using this skill.",
+                "descFormat": [
+                  {
+                    "start": 101,
+                    "end": 113,
+                    "kind": "tone",
+                    "tone": "electro"
+                  }
+                ],
                 "scaling": [
                   {
                     "title": "Skill Level Scaling",
@@ -681,6 +755,20 @@
                 "name": "Assist Follow-Up: Conducting Blow",
                 "type": "Assist",
                 "desc": "Press after a Defensive Assist to activate:\nDash forward and unleash a series of slashes at enemies ahead, dealing Electric DMG.\nCharacter is invulnerable while using this skill.",
+                "descFormat": [
+                  {
+                    "start": 14,
+                    "end": 30,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 115,
+                    "end": 127,
+                    "kind": "tone",
+                    "tone": "electro"
+                  }
+                ],
                 "scaling": [
                   {
                     "title": "Skill Level Scaling",
@@ -741,6 +829,14 @@
                 "name": "Special Attack: Celestial Thunder",
                 "type": "Special",
                 "desc": "Press to activate:\nDash diagonally forward, then unleash a cross slash, dealing Electric DMG.\nAnti-Interrupt level is increased while using this skill.",
+                "descFormat": [
+                  {
+                    "start": 80,
+                    "end": 92,
+                    "kind": "tone",
+                    "tone": "electro"
+                  }
+                ],
                 "scaling": [
                   {
                     "title": "Skill Level Scaling",
@@ -801,6 +897,50 @@
                 "name": "Special Attack: Azure Flash",
                 "type": "Special",
                 "desc": "When Soldier 0 - Anby's attacks hit an enemy, they apply the Silver Star mark and charges the target\nFor every one-third of charge, the enemy receives 1 stack of White Thunder, stacking up to 3 times.\nWhen the enemy has White Thunder, press to activate:\nQuickly dash forward, slashing through enemies and dealing multiple hits of Electric DMG.\nWhen the skill hits an enemy, it will consume 1 stack of White Thunder to trigger an Aftershock that deals 1 extra instance of Electric DMG.\nCharacter is invulnerable while using this skill.",
+                "descFormat": [
+                  {
+                    "start": 61,
+                    "end": 72,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 162,
+                    "end": 175,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 220,
+                    "end": 233,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 330,
+                    "end": 342,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 401,
+                    "end": 414,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 429,
+                    "end": 439,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 471,
+                    "end": 483,
+                    "kind": "tone",
+                    "tone": "electro"
+                  }
+                ],
                 "scaling": [
                   {
                     "title": "Skill Level Scaling",
@@ -895,6 +1035,26 @@
                 "name": "Special Attack: Thunder Smite",
                 "type": "Special",
                 "desc": "When the additional damage from White Thunder triggers 3 times on the same enemy:\nA lightning strike will fall at the enemy's location, dealing Electric DMG to enemies within range.\nThis DMG is considered Aftershock DMG.",
+                "descFormat": [
+                  {
+                    "start": 32,
+                    "end": 45,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 144,
+                    "end": 156,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 205,
+                    "end": 215,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ],
                 "scaling": [
                   {
                     "title": "Skill Level Scaling",
@@ -955,6 +1115,32 @@
                 "name": "Special Attack: Azure Flash - Boundary",
                 "type": "Special",
                 "desc": "When Special Attack: Thunder Smite DMG is triggered:\nIf EX Special Attack: Sundering Bolt or Special Attack: Azure Flash is currently being used, then Special Attack: Azure Flash - Boundary will automatically trigger when the current skill ends, unleashing a flurry of slashes that deal multiple instances of Electric DMG. This skill counts as an Aftershock.\nCharacter is invulnerable while using this skill.",
+                "descFormat": [
+                  {
+                    "start": 5,
+                    "end": 34,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 151,
+                    "end": 189,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 309,
+                    "end": 321,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 347,
+                    "end": 357,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ],
                 "scaling": [
                   {
                     "title": "Skill Level Scaling",
@@ -1015,6 +1201,20 @@
                 "name": "EX Special Attack: Sundering Bolt",
                 "type": "Special",
                 "desc": "With enough energy, hold to activate:\nCombines her twin swords and throws them forward for a high-speed slash, dealing massive Electric DMG.\nWhen the skill hits an enemy, it will fully charge Silver Star.\nCharacter is invulnerable while using this skill.",
+                "descFormat": [
+                  {
+                    "start": 127,
+                    "end": 139,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 192,
+                    "end": 203,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ],
                 "scaling": [
                   {
                     "title": "Skill Level Scaling",
@@ -1075,6 +1275,20 @@
                 "name": "Chain Attack: Leaping Thunderstrike",
                 "type": "Chain",
                 "desc": "When a Chain Attack is triggered, select the character to activate:\nLeap forward, then quickly dive and perform a cross slash, dealing massive Electric DMG.\nCharacter is invulnerable while using this skill.",
+                "descFormat": [
+                  {
+                    "start": 7,
+                    "end": 19,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 143,
+                    "end": 155,
+                    "kind": "tone",
+                    "tone": "electro"
+                  }
+                ],
                 "scaling": [
                   {
                     "title": "Skill Level Scaling",
@@ -1135,6 +1349,26 @@
                 "name": "Ultimate: Voidstrike",
                 "type": "Chain",
                 "desc": "When Decibel Rating is at Maximum, press to activate:\nPerform a powerful series of slashes at a large area in front, followed by a lightning strike, dealing massive Electric DMG.\nWhen the skill hits an enemy, it will fully charge Silver Star.\nCharacter is invulnerable while using this skill.",
+                "descFormat": [
+                  {
+                    "start": 26,
+                    "end": 33,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 165,
+                    "end": 177,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 230,
+                    "end": 241,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ],
                 "scaling": [
                   {
                     "title": "Skill Level Scaling",
@@ -1200,62 +1434,710 @@
                 "name": "Core Passive: Voltage Gap",
                 "type": "Core Passive",
                 "desc": "Soldier 0 - Anby's DMG against enemies with the Silver Star mark increases by 25%. After an enemy is marked with Silver Star, the CRIT DMG received from Aftershock attacks is further increased by 30% of Soldier 0 - Anby's CRIT DMG.",
+                "descFormat": [
+                  {
+                    "start": 48,
+                    "end": 59,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 78,
+                    "end": 81,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 113,
+                    "end": 124,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 153,
+                    "end": 163,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 196,
+                    "end": 199,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ],
                 "levels": [
                   {
                     "label": "Lv. 1",
-                    "text": "Soldier 0 - Anby's DMG against enemies with the Silver Star mark increases by 12.5%. After an enemy is marked with Silver Star, the CRIT DMG received from Aftershock attacks is further increased by 15% of Soldier 0 - Anby's CRIT DMG."
+                    "text": "Soldier 0 - Anby's DMG against enemies with the Silver Star mark increases by 12.5%. After an enemy is marked with Silver Star, the CRIT DMG received from Aftershock attacks is further increased by 15% of Soldier 0 - Anby's CRIT DMG.",
+                    "format": [
+                      {
+                        "start": 48,
+                        "end": 59,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 78,
+                        "end": 83,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 115,
+                        "end": 126,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 155,
+                        "end": 165,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 198,
+                        "end": 201,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
                   },
                   {
                     "label": "Lv. 1",
-                    "text": "Soldier 0 - Anby deals 12.5% more DMG to enemies marked with Silver Star. When an enemy is afflicted with Silver Star, they take additional CRIT DMG from Aftershocks, equal to 15% of Soldier 0 - Anby's CRIT DMG. When marked with a Silver Star, DMG from allies' Aftershocks builds Silver Star charge on the enemy. This effect can trigger once every 5s.\nThe Aftershock CRIT DMG bonus from Silver Star is further increased by 5% of Soldier 0 - Anby's CRIT DMG. When an enemy afflicted with White Thunder is defeated, automatically unleash Special Attack: Thunder Smite on the nearest enemy target."
+                    "text": "Soldier 0 - Anby deals 12.5% more DMG to enemies marked with Silver Star. When an enemy is afflicted with Silver Star, they take additional CRIT DMG from Aftershocks, equal to 15% of Soldier 0 - Anby's CRIT DMG. When marked with a Silver Star, DMG from allies' Aftershocks builds Silver Star charge on the enemy. This effect can trigger once every 5s.\nThe Aftershock CRIT DMG bonus from Silver Star is further increased by 5% of Soldier 0 - Anby's CRIT DMG. When an enemy afflicted with White Thunder is defeated, automatically unleash Special Attack: Thunder Smite on the nearest enemy target.",
+                    "format": [
+                      {
+                        "start": 23,
+                        "end": 28,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 61,
+                        "end": 72,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 106,
+                        "end": 117,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 154,
+                        "end": 165,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 176,
+                        "end": 179,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 261,
+                        "end": 272,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 279,
+                        "end": 291,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 487,
+                        "end": 500,
+                        "kind": "tone",
+                        "tone": "electro"
+                      },
+                      {
+                        "start": 536,
+                        "end": 565,
+                        "kind": "tone",
+                        "tone": "electro"
+                      }
+                    ]
                   },
                   {
                     "label": "Lv. 2",
-                    "text": "Soldier 0 - Anby's DMG against enemies with the Silver Star mark increases by 14.5%. After an enemy is marked with Silver Star, the CRIT DMG received from Aftershock attacks is further increased by 17.5% of Soldier 0 - Anby's CRIT DMG."
+                    "text": "Soldier 0 - Anby's DMG against enemies with the Silver Star mark increases by 14.5%. After an enemy is marked with Silver Star, the CRIT DMG received from Aftershock attacks is further increased by 17.5% of Soldier 0 - Anby's CRIT DMG.",
+                    "format": [
+                      {
+                        "start": 48,
+                        "end": 59,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 78,
+                        "end": 83,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 115,
+                        "end": 126,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 155,
+                        "end": 165,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 198,
+                        "end": 203,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
                   },
                   {
                     "label": "Lv. 2",
-                    "text": "Soldier 0 - Anby deals 14.5% more DMG to enemies marked with Silver Star. When an enemy is afflicted with Silver Star, they take additional CRIT DMG from Aftershocks, equal to 17.5% of Soldier 0 - Anby's CRIT DMG. When marked with a Silver Star, DMG from allies' Aftershocks builds Silver Star charge on the enemy. This effect can trigger once every 5s.\nThe Aftershock CRIT DMG bonus from Silver Star is further increased by 5% of Soldier 0 - Anby's CRIT DMG. When an enemy afflicted with White Thunder is defeated, automatically unleash Special Attack: Thunder Smite on the nearest enemy target."
+                    "text": "Soldier 0 - Anby deals 14.5% more DMG to enemies marked with Silver Star. When an enemy is afflicted with Silver Star, they take additional CRIT DMG from Aftershocks, equal to 17.5% of Soldier 0 - Anby's CRIT DMG. When marked with a Silver Star, DMG from allies' Aftershocks builds Silver Star charge on the enemy. This effect can trigger once every 5s.\nThe Aftershock CRIT DMG bonus from Silver Star is further increased by 5% of Soldier 0 - Anby's CRIT DMG. When an enemy afflicted with White Thunder is defeated, automatically unleash Special Attack: Thunder Smite on the nearest enemy target.",
+                    "format": [
+                      {
+                        "start": 23,
+                        "end": 28,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 61,
+                        "end": 72,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 106,
+                        "end": 117,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 154,
+                        "end": 165,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 176,
+                        "end": 181,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 263,
+                        "end": 274,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 281,
+                        "end": 293,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 489,
+                        "end": 502,
+                        "kind": "tone",
+                        "tone": "electro"
+                      },
+                      {
+                        "start": 538,
+                        "end": 567,
+                        "kind": "tone",
+                        "tone": "electro"
+                      }
+                    ]
                   },
                   {
                     "label": "Lv. 3",
-                    "text": "Soldier 0 - Anby's DMG against enemies with the Silver Star mark increases by 16.5%. After an enemy is marked with Silver Star, the CRIT DMG received from Aftershock attacks is further increased by 20% of Soldier 0 - Anby's CRIT DMG."
+                    "text": "Soldier 0 - Anby's DMG against enemies with the Silver Star mark increases by 16.5%. After an enemy is marked with Silver Star, the CRIT DMG received from Aftershock attacks is further increased by 20% of Soldier 0 - Anby's CRIT DMG.",
+                    "format": [
+                      {
+                        "start": 48,
+                        "end": 59,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 78,
+                        "end": 83,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 115,
+                        "end": 126,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 155,
+                        "end": 165,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 198,
+                        "end": 201,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
                   },
                   {
                     "label": "Lv. 3",
-                    "text": "Soldier 0 - Anby deals 16.5% more DMG to enemies marked with Silver Star. When an enemy is afflicted with Silver Star, they take additional CRIT DMG from Aftershocks, equal to 20% of Soldier 0 - Anby's CRIT DMG. When marked with a Silver Star, DMG from allies' Aftershocks builds Silver Star charge on the enemy. This effect can trigger once every 5s.\nThe Aftershock CRIT DMG bonus from Silver Star is further increased by 5% of Soldier 0 - Anby's CRIT DMG. When an enemy afflicted with White Thunder is defeated, automatically unleash Special Attack: Thunder Smite on the nearest enemy target."
+                    "text": "Soldier 0 - Anby deals 16.5% more DMG to enemies marked with Silver Star. When an enemy is afflicted with Silver Star, they take additional CRIT DMG from Aftershocks, equal to 20% of Soldier 0 - Anby's CRIT DMG. When marked with a Silver Star, DMG from allies' Aftershocks builds Silver Star charge on the enemy. This effect can trigger once every 5s.\nThe Aftershock CRIT DMG bonus from Silver Star is further increased by 5% of Soldier 0 - Anby's CRIT DMG. When an enemy afflicted with White Thunder is defeated, automatically unleash Special Attack: Thunder Smite on the nearest enemy target.",
+                    "format": [
+                      {
+                        "start": 23,
+                        "end": 28,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 61,
+                        "end": 72,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 106,
+                        "end": 117,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 154,
+                        "end": 165,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 176,
+                        "end": 179,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 261,
+                        "end": 272,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 279,
+                        "end": 291,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 487,
+                        "end": 500,
+                        "kind": "tone",
+                        "tone": "electro"
+                      },
+                      {
+                        "start": 536,
+                        "end": 565,
+                        "kind": "tone",
+                        "tone": "electro"
+                      }
+                    ]
                   },
                   {
                     "label": "Lv. 4",
-                    "text": "Soldier 0 - Anby's DMG against enemies with the Silver Star mark increases by 18.8%. After an enemy is marked with Silver Star, the CRIT DMG received from Aftershock attacks is further increased by 22.5% of Soldier 0 - Anby's CRIT DMG."
+                    "text": "Soldier 0 - Anby's DMG against enemies with the Silver Star mark increases by 18.8%. After an enemy is marked with Silver Star, the CRIT DMG received from Aftershock attacks is further increased by 22.5% of Soldier 0 - Anby's CRIT DMG.",
+                    "format": [
+                      {
+                        "start": 48,
+                        "end": 59,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 78,
+                        "end": 83,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 115,
+                        "end": 126,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 155,
+                        "end": 165,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 198,
+                        "end": 203,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
                   },
                   {
                     "label": "Lv. 4",
-                    "text": "Soldier 0 - Anby deals 18.8% more DMG to enemies marked with Silver Star. When an enemy is afflicted with Silver Star, they take additional CRIT DMG from Aftershocks, equal to 22.5% of Soldier 0 - Anby's CRIT DMG. When marked with a Silver Star, DMG from allies' Aftershocks builds Silver Star charge on the enemy. This effect can trigger once every 5s.\nThe Aftershock CRIT DMG bonus from Silver Star is further increased by 5% of Soldier 0 - Anby's CRIT DMG. When an enemy afflicted with White Thunder is defeated, automatically unleash Special Attack: Thunder Smite on the nearest enemy target."
+                    "text": "Soldier 0 - Anby deals 18.8% more DMG to enemies marked with Silver Star. When an enemy is afflicted with Silver Star, they take additional CRIT DMG from Aftershocks, equal to 22.5% of Soldier 0 - Anby's CRIT DMG. When marked with a Silver Star, DMG from allies' Aftershocks builds Silver Star charge on the enemy. This effect can trigger once every 5s.\nThe Aftershock CRIT DMG bonus from Silver Star is further increased by 5% of Soldier 0 - Anby's CRIT DMG. When an enemy afflicted with White Thunder is defeated, automatically unleash Special Attack: Thunder Smite on the nearest enemy target.",
+                    "format": [
+                      {
+                        "start": 23,
+                        "end": 28,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 61,
+                        "end": 72,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 106,
+                        "end": 117,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 154,
+                        "end": 165,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 176,
+                        "end": 181,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 263,
+                        "end": 274,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 281,
+                        "end": 293,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 489,
+                        "end": 502,
+                        "kind": "tone",
+                        "tone": "electro"
+                      },
+                      {
+                        "start": 538,
+                        "end": 567,
+                        "kind": "tone",
+                        "tone": "electro"
+                      }
+                    ]
                   },
                   {
                     "label": "Lv. 5",
-                    "text": "Soldier 0 - Anby's DMG against enemies with the Silver Star mark increases by 20.8%. After an enemy is marked with Silver Star, the CRIT DMG received from Aftershock attacks is further increased by 25% of Soldier 0 - Anby's CRIT DMG."
+                    "text": "Soldier 0 - Anby's DMG against enemies with the Silver Star mark increases by 20.8%. After an enemy is marked with Silver Star, the CRIT DMG received from Aftershock attacks is further increased by 25% of Soldier 0 - Anby's CRIT DMG.",
+                    "format": [
+                      {
+                        "start": 48,
+                        "end": 59,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 78,
+                        "end": 83,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 115,
+                        "end": 126,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 155,
+                        "end": 165,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 198,
+                        "end": 201,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
                   },
                   {
                     "label": "Lv. 5",
-                    "text": "Soldier 0 - Anby deals 20.8% more DMG to enemies marked with Silver Star. When an enemy is afflicted with Silver Star, they take additional CRIT DMG from Aftershocks, equal to 25% of Soldier 0 - Anby's CRIT DMG. When marked with a Silver Star, DMG from allies' Aftershocks builds Silver Star charge on the enemy. This effect can trigger once every 5s.\nThe Aftershock CRIT DMG bonus from Silver Star is further increased by 5% of Soldier 0 - Anby's CRIT DMG. When an enemy afflicted with White Thunder is defeated, automatically unleash Special Attack: Thunder Smite on the nearest enemy target."
+                    "text": "Soldier 0 - Anby deals 20.8% more DMG to enemies marked with Silver Star. When an enemy is afflicted with Silver Star, they take additional CRIT DMG from Aftershocks, equal to 25% of Soldier 0 - Anby's CRIT DMG. When marked with a Silver Star, DMG from allies' Aftershocks builds Silver Star charge on the enemy. This effect can trigger once every 5s.\nThe Aftershock CRIT DMG bonus from Silver Star is further increased by 5% of Soldier 0 - Anby's CRIT DMG. When an enemy afflicted with White Thunder is defeated, automatically unleash Special Attack: Thunder Smite on the nearest enemy target.",
+                    "format": [
+                      {
+                        "start": 23,
+                        "end": 28,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 61,
+                        "end": 72,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 106,
+                        "end": 117,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 154,
+                        "end": 165,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 176,
+                        "end": 179,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 261,
+                        "end": 272,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 279,
+                        "end": 291,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 487,
+                        "end": 500,
+                        "kind": "tone",
+                        "tone": "electro"
+                      },
+                      {
+                        "start": 536,
+                        "end": 565,
+                        "kind": "tone",
+                        "tone": "electro"
+                      }
+                    ]
                   },
                   {
                     "label": "Lv. 6",
-                    "text": "Soldier 0 - Anby's DMG against enemies with the Silver Star mark increases by 23%. After an enemy is marked with Silver Star, the CRIT DMG received from Aftershock attacks is further increased by 27.5% of Soldier 0 - Anby's CRIT DMG."
+                    "text": "Soldier 0 - Anby's DMG against enemies with the Silver Star mark increases by 23%. After an enemy is marked with Silver Star, the CRIT DMG received from Aftershock attacks is further increased by 27.5% of Soldier 0 - Anby's CRIT DMG.",
+                    "format": [
+                      {
+                        "start": 48,
+                        "end": 59,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 78,
+                        "end": 81,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 113,
+                        "end": 124,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 153,
+                        "end": 163,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 196,
+                        "end": 201,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
                   },
                   {
                     "label": "Lv. 6",
-                    "text": "Soldier 0 - Anby deals 23% more DMG to enemies marked with Silver Star. When an enemy is afflicted with Silver Star, they take additional CRIT DMG from Aftershocks, equal to 27.5% of Soldier 0 - Anby's CRIT DMG. When marked with a Silver Star, DMG from allies' Aftershocks builds Silver Star charge on the enemy. This effect can trigger once every 5s.\nThe Aftershock CRIT DMG bonus from Silver Star is further increased by 5% of Soldier 0 - Anby's CRIT DMG. When an enemy afflicted with White Thunder is defeated, automatically unleash Special Attack: Thunder Smite on the nearest enemy target."
+                    "text": "Soldier 0 - Anby deals 23% more DMG to enemies marked with Silver Star. When an enemy is afflicted with Silver Star, they take additional CRIT DMG from Aftershocks, equal to 27.5% of Soldier 0 - Anby's CRIT DMG. When marked with a Silver Star, DMG from allies' Aftershocks builds Silver Star charge on the enemy. This effect can trigger once every 5s.\nThe Aftershock CRIT DMG bonus from Silver Star is further increased by 5% of Soldier 0 - Anby's CRIT DMG. When an enemy afflicted with White Thunder is defeated, automatically unleash Special Attack: Thunder Smite on the nearest enemy target.",
+                    "format": [
+                      {
+                        "start": 23,
+                        "end": 26,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 59,
+                        "end": 70,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 104,
+                        "end": 115,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 152,
+                        "end": 163,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 174,
+                        "end": 179,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 261,
+                        "end": 272,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 279,
+                        "end": 291,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 487,
+                        "end": 500,
+                        "kind": "tone",
+                        "tone": "electro"
+                      },
+                      {
+                        "start": 536,
+                        "end": 565,
+                        "kind": "tone",
+                        "tone": "electro"
+                      }
+                    ]
                   },
                   {
                     "label": "Lv. 7",
-                    "text": "Soldier 0 - Anby's DMG against enemies with the Silver Star mark increases by 25%. After an enemy is marked with Silver Star, the CRIT DMG received from Aftershock attacks is further increased by 30% of Soldier 0 - Anby's CRIT DMG."
+                    "text": "Soldier 0 - Anby's DMG against enemies with the Silver Star mark increases by 25%. After an enemy is marked with Silver Star, the CRIT DMG received from Aftershock attacks is further increased by 30% of Soldier 0 - Anby's CRIT DMG.",
+                    "format": [
+                      {
+                        "start": 48,
+                        "end": 59,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 78,
+                        "end": 81,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 113,
+                        "end": 124,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 153,
+                        "end": 163,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 196,
+                        "end": 199,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
                   },
                   {
                     "label": "Lv. 7",
-                    "text": "Soldier 0 - Anby deals 25% more DMG to enemies marked with Silver Star. When an enemy is afflicted with Silver Star, they take additional CRIT DMG from Aftershocks, equal to 30% of Soldier 0 - Anby's CRIT DMG. When marked with a Silver Star, DMG from allies' Aftershocks builds Silver Star charge on the enemy. This effect can trigger once every 5s.\nThe Aftershock CRIT DMG bonus from Silver Star is further increased by 5% of Soldier 0 - Anby's CRIT DMG. When an enemy afflicted with White Thunder is defeated, automatically unleash Special Attack: Thunder Smite on the nearest enemy target."
+                    "text": "Soldier 0 - Anby deals 25% more DMG to enemies marked with Silver Star. When an enemy is afflicted with Silver Star, they take additional CRIT DMG from Aftershocks, equal to 30% of Soldier 0 - Anby's CRIT DMG. When marked with a Silver Star, DMG from allies' Aftershocks builds Silver Star charge on the enemy. This effect can trigger once every 5s.\nThe Aftershock CRIT DMG bonus from Silver Star is further increased by 5% of Soldier 0 - Anby's CRIT DMG. When an enemy afflicted with White Thunder is defeated, automatically unleash Special Attack: Thunder Smite on the nearest enemy target.",
+                    "format": [
+                      {
+                        "start": 23,
+                        "end": 26,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 59,
+                        "end": 70,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 104,
+                        "end": 115,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 152,
+                        "end": 163,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 174,
+                        "end": 177,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 259,
+                        "end": 270,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 277,
+                        "end": 289,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 485,
+                        "end": 498,
+                        "kind": "tone",
+                        "tone": "electro"
+                      },
+                      {
+                        "start": 534,
+                        "end": 563,
+                        "kind": "tone",
+                        "tone": "electro"
+                      }
+                    ]
                   }
                 ]
               },
@@ -1263,62 +2145,578 @@
                 "name": "Additional Ability: Voltage Surge",
                 "type": "Additional Ability",
                 "desc": "When another character in your squad is a Stun or Support character:\nSoldier 0 - Anby's CRIT Rate increases by 10%. When Soldier 0 - Anby is the active character, all squad members' Aftershock DMG to enemies with a Silver Star mark increases by 25%.",
+                "descFormat": [
+                  {
+                    "start": 42,
+                    "end": 46,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 50,
+                    "end": 57,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 182,
+                    "end": 192,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 215,
+                    "end": 226,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ],
                 "levels": [
                   {
                     "label": "Lv. 1",
-                    "text": "When another character in your squad is a Stun or Support character:\nSoldier 0 - Anby's CRIT Rate increases by 10%. When Soldier 0 - Anby is the active character, all squad members' Aftershock DMG to enemies with a Silver Star mark increases by 25%."
+                    "text": "When another character in your squad is a Stun or Support character:\nSoldier 0 - Anby's CRIT Rate increases by 10%. When Soldier 0 - Anby is the active character, all squad members' Aftershock DMG to enemies with a Silver Star mark increases by 25%.",
+                    "format": [
+                      {
+                        "start": 42,
+                        "end": 46,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 50,
+                        "end": 57,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 182,
+                        "end": 192,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 215,
+                        "end": 226,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
                   },
                   {
                     "label": "Lv. 1",
-                    "text": "When another character in your squad is a Stun or Support character:\nSoldier 0 - Anby's CRIT Rate increases by 10%. When the current active character is Soldier 0 - Anby, all squad members' Aftershocks deal 25% more DMG to enemies marked with Silver Star.\nSoldier 0 - Anby's Chain Attack and Ultimate are treated as Aftershock DMG."
+                    "text": "When another character in your squad is a Stun or Support character:\nSoldier 0 - Anby's CRIT Rate increases by 10%. When the current active character is Soldier 0 - Anby, all squad members' Aftershocks deal 25% more DMG to enemies marked with Silver Star.\nSoldier 0 - Anby's Chain Attack and Ultimate are treated as Aftershock DMG.",
+                    "format": [
+                      {
+                        "start": 42,
+                        "end": 46,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 50,
+                        "end": 57,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 190,
+                        "end": 201,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 243,
+                        "end": 254,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 275,
+                        "end": 287,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 292,
+                        "end": 300,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 316,
+                        "end": 326,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
                   },
                   {
                     "label": "Lv. 2",
-                    "text": "When another character in your squad is a Stun or Support character:\nSoldier 0 - Anby's CRIT Rate increases by 10%. When Soldier 0 - Anby is the active character, all squad members' Aftershock DMG to enemies with a Silver Star mark increases by 25%."
+                    "text": "When another character in your squad is a Stun or Support character:\nSoldier 0 - Anby's CRIT Rate increases by 10%. When Soldier 0 - Anby is the active character, all squad members' Aftershock DMG to enemies with a Silver Star mark increases by 25%.",
+                    "format": [
+                      {
+                        "start": 42,
+                        "end": 46,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 50,
+                        "end": 57,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 182,
+                        "end": 192,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 215,
+                        "end": 226,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
                   },
                   {
                     "label": "Lv. 2",
-                    "text": "When another character in your squad is a Stun or Support character:\nSoldier 0 - Anby's CRIT Rate increases by 10%. When the current active character is Soldier 0 - Anby, all squad members' Aftershocks deal 25% more DMG to enemies marked with Silver Star.\nSoldier 0 - Anby's Chain Attack and Ultimate are treated as Aftershock DMG."
+                    "text": "When another character in your squad is a Stun or Support character:\nSoldier 0 - Anby's CRIT Rate increases by 10%. When the current active character is Soldier 0 - Anby, all squad members' Aftershocks deal 25% more DMG to enemies marked with Silver Star.\nSoldier 0 - Anby's Chain Attack and Ultimate are treated as Aftershock DMG.",
+                    "format": [
+                      {
+                        "start": 42,
+                        "end": 46,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 50,
+                        "end": 57,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 190,
+                        "end": 201,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 243,
+                        "end": 254,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 275,
+                        "end": 287,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 292,
+                        "end": 300,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 316,
+                        "end": 326,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
                   },
                   {
                     "label": "Lv. 3",
-                    "text": "When another character in your squad is a Stun or Support character:\nSoldier 0 - Anby's CRIT Rate increases by 10%. When Soldier 0 - Anby is the active character, all squad members' Aftershock DMG to enemies with a Silver Star mark increases by 25%."
+                    "text": "When another character in your squad is a Stun or Support character:\nSoldier 0 - Anby's CRIT Rate increases by 10%. When Soldier 0 - Anby is the active character, all squad members' Aftershock DMG to enemies with a Silver Star mark increases by 25%.",
+                    "format": [
+                      {
+                        "start": 42,
+                        "end": 46,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 50,
+                        "end": 57,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 182,
+                        "end": 192,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 215,
+                        "end": 226,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
                   },
                   {
                     "label": "Lv. 3",
-                    "text": "When another character in your squad is a Stun or Support character:\nSoldier 0 - Anby's CRIT Rate increases by 10%. When the current active character is Soldier 0 - Anby, all squad members' Aftershocks deal 25% more DMG to enemies marked with Silver Star.\nSoldier 0 - Anby's Chain Attack and Ultimate are treated as Aftershock DMG."
+                    "text": "When another character in your squad is a Stun or Support character:\nSoldier 0 - Anby's CRIT Rate increases by 10%. When the current active character is Soldier 0 - Anby, all squad members' Aftershocks deal 25% more DMG to enemies marked with Silver Star.\nSoldier 0 - Anby's Chain Attack and Ultimate are treated as Aftershock DMG.",
+                    "format": [
+                      {
+                        "start": 42,
+                        "end": 46,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 50,
+                        "end": 57,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 190,
+                        "end": 201,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 243,
+                        "end": 254,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 275,
+                        "end": 287,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 292,
+                        "end": 300,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 316,
+                        "end": 326,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
                   },
                   {
                     "label": "Lv. 4",
-                    "text": "When another character in your squad is a Stun or Support character:\nSoldier 0 - Anby's CRIT Rate increases by 10%. When Soldier 0 - Anby is the active character, all squad members' Aftershock DMG to enemies with a Silver Star mark increases by 25%."
+                    "text": "When another character in your squad is a Stun or Support character:\nSoldier 0 - Anby's CRIT Rate increases by 10%. When Soldier 0 - Anby is the active character, all squad members' Aftershock DMG to enemies with a Silver Star mark increases by 25%.",
+                    "format": [
+                      {
+                        "start": 42,
+                        "end": 46,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 50,
+                        "end": 57,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 182,
+                        "end": 192,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 215,
+                        "end": 226,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
                   },
                   {
                     "label": "Lv. 4",
-                    "text": "When another character in your squad is a Stun or Support character:\nSoldier 0 - Anby's CRIT Rate increases by 10%. When the current active character is Soldier 0 - Anby, all squad members' Aftershocks deal 25% more DMG to enemies marked with Silver Star.\nSoldier 0 - Anby's Chain Attack and Ultimate are treated as Aftershock DMG."
+                    "text": "When another character in your squad is a Stun or Support character:\nSoldier 0 - Anby's CRIT Rate increases by 10%. When the current active character is Soldier 0 - Anby, all squad members' Aftershocks deal 25% more DMG to enemies marked with Silver Star.\nSoldier 0 - Anby's Chain Attack and Ultimate are treated as Aftershock DMG.",
+                    "format": [
+                      {
+                        "start": 42,
+                        "end": 46,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 50,
+                        "end": 57,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 190,
+                        "end": 201,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 243,
+                        "end": 254,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 275,
+                        "end": 287,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 292,
+                        "end": 300,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 316,
+                        "end": 326,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
                   },
                   {
                     "label": "Lv. 5",
-                    "text": "When another character in your squad is a Stun or Support character:\nSoldier 0 - Anby's CRIT Rate increases by 10%. When Soldier 0 - Anby is the active character, all squad members' Aftershock DMG to enemies with a Silver Star mark increases by 25%."
+                    "text": "When another character in your squad is a Stun or Support character:\nSoldier 0 - Anby's CRIT Rate increases by 10%. When Soldier 0 - Anby is the active character, all squad members' Aftershock DMG to enemies with a Silver Star mark increases by 25%.",
+                    "format": [
+                      {
+                        "start": 42,
+                        "end": 46,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 50,
+                        "end": 57,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 182,
+                        "end": 192,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 215,
+                        "end": 226,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
                   },
                   {
                     "label": "Lv. 5",
-                    "text": "When another character in your squad is a Stun or Support character:\nSoldier 0 - Anby's CRIT Rate increases by 10%. When the current active character is Soldier 0 - Anby, all squad members' Aftershocks deal 25% more DMG to enemies marked with Silver Star.\nSoldier 0 - Anby's Chain Attack and Ultimate are treated as Aftershock DMG."
+                    "text": "When another character in your squad is a Stun or Support character:\nSoldier 0 - Anby's CRIT Rate increases by 10%. When the current active character is Soldier 0 - Anby, all squad members' Aftershocks deal 25% more DMG to enemies marked with Silver Star.\nSoldier 0 - Anby's Chain Attack and Ultimate are treated as Aftershock DMG.",
+                    "format": [
+                      {
+                        "start": 42,
+                        "end": 46,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 50,
+                        "end": 57,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 190,
+                        "end": 201,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 243,
+                        "end": 254,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 275,
+                        "end": 287,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 292,
+                        "end": 300,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 316,
+                        "end": 326,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
                   },
                   {
                     "label": "Lv. 6",
-                    "text": "When another character in your squad is a Stun or Support character:\nSoldier 0 - Anby's CRIT Rate increases by 10%. When Soldier 0 - Anby is the active character, all squad members' Aftershock DMG to enemies with a Silver Star mark increases by 25%."
+                    "text": "When another character in your squad is a Stun or Support character:\nSoldier 0 - Anby's CRIT Rate increases by 10%. When Soldier 0 - Anby is the active character, all squad members' Aftershock DMG to enemies with a Silver Star mark increases by 25%.",
+                    "format": [
+                      {
+                        "start": 42,
+                        "end": 46,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 50,
+                        "end": 57,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 182,
+                        "end": 192,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 215,
+                        "end": 226,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
                   },
                   {
                     "label": "Lv. 6",
-                    "text": "When another character in your squad is a Stun or Support character:\nSoldier 0 - Anby's CRIT Rate increases by 10%. When the current active character is Soldier 0 - Anby, all squad members' Aftershocks deal 25% more DMG to enemies marked with Silver Star.\nSoldier 0 - Anby's Chain Attack and Ultimate are treated as Aftershock DMG."
+                    "text": "When another character in your squad is a Stun or Support character:\nSoldier 0 - Anby's CRIT Rate increases by 10%. When the current active character is Soldier 0 - Anby, all squad members' Aftershocks deal 25% more DMG to enemies marked with Silver Star.\nSoldier 0 - Anby's Chain Attack and Ultimate are treated as Aftershock DMG.",
+                    "format": [
+                      {
+                        "start": 42,
+                        "end": 46,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 50,
+                        "end": 57,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 190,
+                        "end": 201,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 243,
+                        "end": 254,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 275,
+                        "end": 287,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 292,
+                        "end": 300,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 316,
+                        "end": 326,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
                   },
                   {
                     "label": "Lv. 7",
-                    "text": "When another character in your squad is a Stun or Support character:\nSoldier 0 - Anby's CRIT Rate increases by 10%. When Soldier 0 - Anby is the active character, all squad members' Aftershock DMG to enemies with a Silver Star mark increases by 25%."
+                    "text": "When another character in your squad is a Stun or Support character:\nSoldier 0 - Anby's CRIT Rate increases by 10%. When Soldier 0 - Anby is the active character, all squad members' Aftershock DMG to enemies with a Silver Star mark increases by 25%.",
+                    "format": [
+                      {
+                        "start": 42,
+                        "end": 46,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 50,
+                        "end": 57,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 182,
+                        "end": 192,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 215,
+                        "end": 226,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
                   },
                   {
                     "label": "Lv. 7",
-                    "text": "When another character in your squad is a Stun or Support character:\nSoldier 0 - Anby's CRIT Rate increases by 10%. When the current active character is Soldier 0 - Anby, all squad members' Aftershocks deal 25% more DMG to enemies marked with Silver Star.\nSoldier 0 - Anby's Chain Attack and Ultimate are treated as Aftershock DMG."
+                    "text": "When another character in your squad is a Stun or Support character:\nSoldier 0 - Anby's CRIT Rate increases by 10%. When the current active character is Soldier 0 - Anby, all squad members' Aftershocks deal 25% more DMG to enemies marked with Silver Star.\nSoldier 0 - Anby's Chain Attack and Ultimate are treated as Aftershock DMG.",
+                    "format": [
+                      {
+                        "start": 42,
+                        "end": 46,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 50,
+                        "end": 57,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 190,
+                        "end": 201,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 243,
+                        "end": 254,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 275,
+                        "end": 287,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 292,
+                        "end": 300,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 316,
+                        "end": 326,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
                   }
                 ]
               }
@@ -1330,32 +2728,212 @@
               {
                 "name": "Static Charge",
                 "type": "Mindscape 1",
-                "desc": "When Soldier 0 - Anby uses an EX Special Attack to hit an enemy, it triggers the additional DMG from White Thunder 3 times. This effect does not consume any White Thunder stacks."
+                "desc": "When Soldier 0 - Anby uses an EX Special Attack to hit an enemy, it triggers the additional DMG from White Thunder 3 times. This effect does not consume any White Thunder stacks.",
+                "descFormat": [
+                  {
+                    "start": 30,
+                    "end": 47,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 101,
+                    "end": 114,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 157,
+                    "end": 170,
+                    "kind": "tone",
+                    "tone": "electro"
+                  }
+                ]
               },
               {
                 "name": "Fail-Safe Protocol",
                 "type": "Mindscape 2",
-                "desc": "Soldier 0 - Anby's CRIT Rate increases by 12%. When she uses her Ultimate, she gains 6 stacks of Thunder's Cry (max 6 stacks). With Thunder's Cry, when using Special Attack: Azure Flash to hit an enemy with White Thunder, it will consume 1 stack of Thunder's Cry instead. Only 1 stack of Thunder's Cry will be consumed when a single use of a skill hits multiple enemies, and consuming Thunder's Cry will still activate the additional DMG from White Thunder.\nAfter activating potential, every 3 stacks of Thunder's Cry consumed, the next Special Attack: Azure Flash - Boundary will be activated faster."
+                "desc": "Soldier 0 - Anby's CRIT Rate increases by 12%. When she uses her Ultimate, she gains 6 stacks of Thunder's Cry (max 6 stacks). With Thunder's Cry, when using Special Attack: Azure Flash to hit an enemy with White Thunder, it will consume 1 stack of Thunder's Cry instead. Only 1 stack of Thunder's Cry will be consumed when a single use of a skill hits multiple enemies, and consuming Thunder's Cry will still activate the additional DMG from White Thunder.\nAfter activating potential, every 3 stacks of Thunder's Cry consumed, the next Special Attack: Azure Flash - Boundary will be activated faster.",
+                "descFormat": [
+                  {
+                    "start": 65,
+                    "end": 73,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 97,
+                    "end": 110,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 132,
+                    "end": 145,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 158,
+                    "end": 185,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 207,
+                    "end": 220,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 249,
+                    "end": 262,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 288,
+                    "end": 301,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 385,
+                    "end": 398,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 443,
+                    "end": 456,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 504,
+                    "end": 517,
+                    "kind": "tone",
+                    "tone": "electro"
+                  }
+                ]
               },
               {
                 "name": "Past Glory",
                 "type": "Mindscape 3",
-                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2",
+                "descFormat": [
+                  {
+                    "start": 0,
+                    "end": 12,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 14,
+                    "end": 19,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 21,
+                    "end": 27,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 29,
+                    "end": 43,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 49,
+                    "end": 61,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ]
               },
               {
                 "name": "Silver Reverb",
                 "type": "Mindscape 4",
-                "desc": "When hitting an enemy marked with Silver Star, Soldier 0 - Anby ignores 12% of the target's Electric RES."
+                "desc": "When hitting an enemy marked with Silver Star, Soldier 0 - Anby ignores 12% of the target's Electric RES.",
+                "descFormat": [
+                  {
+                    "start": 34,
+                    "end": 45,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 92,
+                    "end": 104,
+                    "kind": "tone",
+                    "tone": "electro"
+                  }
+                ]
               },
               {
                 "name": "Director's Cut",
                 "type": "Mindscape 5",
-                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2",
+                "descFormat": [
+                  {
+                    "start": 0,
+                    "end": 12,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 14,
+                    "end": 19,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 21,
+                    "end": 27,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 29,
+                    "end": 43,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 49,
+                    "end": 61,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ]
               },
               {
                 "name": "Prequel Protagonist",
                 "type": "Mindscape 6",
-                "desc": "Upon triggering 6 instances of White Thunder's additional DMG, an electromagnetic vortex will be generated, dealing 1,000% of Soldier 0 - Anby's ATK as Electric DMG against the target and surrounding enemies. This DMG is considered Aftershock DMG."
+                "desc": "Upon triggering 6 instances of White Thunder's additional DMG, an electromagnetic vortex will be generated, dealing 1,000% of Soldier 0 - Anby's ATK as Electric DMG against the target and surrounding enemies. This DMG is considered Aftershock DMG.",
+                "descFormat": [
+                  {
+                    "start": 31,
+                    "end": 44,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 152,
+                    "end": 164,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 232,
+                    "end": 242,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ]
               }
             ]
           }
@@ -2950,6 +4528,20 @@
                 "name": "Basic Attack: Knight's Technique",
                 "type": "Basic",
                 "desc": "Press to activate:\nPerforms up to four attacks forward, dealing Physical DMG.\nDuring the 4th hit, press to use Special Attack: Drive Suppression, reducing HP consumption by 50%.\nRestores a small amount of HP on hit.",
+                "descFormat": [
+                  {
+                    "start": 64,
+                    "end": 76,
+                    "kind": "tone",
+                    "tone": "physical"
+                  },
+                  {
+                    "start": 111,
+                    "end": 144,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ],
                 "scaling": [
                   {
                     "title": "Skill Level Scaling",
@@ -3112,6 +4704,20 @@
                 "name": "Basic Attack: Full-Throttle Starlight",
                 "type": "Basic",
                 "desc": "With enough Determination, hold to activate:\nCharges forward on the motorcycle, then fires a laser beam, dealing massive Physical DMG.\nCharacter is invulnerable while using this skill.",
+                "descFormat": [
+                  {
+                    "start": 12,
+                    "end": 25,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 121,
+                    "end": 133,
+                    "kind": "tone",
+                    "tone": "physical"
+                  }
+                ],
                 "scaling": [
                   {
                     "title": "Skill Level Scaling",
@@ -3176,12 +4782,64 @@
               {
                 "name": "Dodge: Through the Galaxy",
                 "type": "Dodge",
-                "desc": "During Special Attack: Drive Suppression, drag the or hold to activate:\nDrifts with the motorcycle, enabling Perfect Dodges for a brief duration.\nIf a Perfect Dodge is successfully triggered, it immediately chains into Dodge Counter: Afterfire Spin.\nDuring this skill, continue dragging the or holding to continue drifting.\nDuring this skill, the duration of Special Attack: Drive Suppression will continue, and upon reaching the maximum duration, it automatically chains into EX Special Attack: Cool Wheelie.\nIf the skill ends early, it automatically chains into Special Attack: Run Wild.\nCharacter is briefly invulnerable and Anti-Interrupt Level increases during this skill."
+                "desc": "During Special Attack: Drive Suppression, drag the or hold to activate:\nDrifts with the motorcycle, enabling Perfect Dodges for a brief duration.\nIf a Perfect Dodge is successfully triggered, it immediately chains into Dodge Counter: Afterfire Spin.\nDuring this skill, continue dragging the or holding to continue drifting.\nDuring this skill, the duration of Special Attack: Drive Suppression will continue, and upon reaching the maximum duration, it automatically chains into EX Special Attack: Cool Wheelie.\nIf the skill ends early, it automatically chains into Special Attack: Run Wild.\nCharacter is briefly invulnerable and Anti-Interrupt Level increases during this skill.",
+                "descFormat": [
+                  {
+                    "start": 7,
+                    "end": 40,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 109,
+                    "end": 123,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 151,
+                    "end": 164,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 219,
+                    "end": 248,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 359,
+                    "end": 392,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 477,
+                    "end": 508,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 564,
+                    "end": 588,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ]
               },
               {
                 "name": "Dash Attack: Starlight Retribution",
                 "type": "Dodge",
                 "desc": "Press during a dodge to activate:\nPerforms a quick forward slash, dealing Physical DMG.",
+                "descFormat": [
+                  {
+                    "start": 74,
+                    "end": 86,
+                    "kind": "tone",
+                    "tone": "physical"
+                  }
+                ],
                 "scaling": [
                   {
                     "title": "Skill Level Scaling",
@@ -3242,6 +4900,32 @@
                 "name": "Dodge Counter: Duel King",
                 "type": "Dodge",
                 "desc": "Press during a Perfect Dodge to activate:\nFires a blast from his arm cannon, dealing Physical DMG.\nIf this skill is triggered via a Perfect Dodge, hitting an enemy restores 10% of Max HP, and it can be chained into the 4th hit of Basic Attack: Knight's Technique.\nCharacter is invulnerable while using this skill.",
+                "descFormat": [
+                  {
+                    "start": 15,
+                    "end": 28,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 85,
+                    "end": 97,
+                    "kind": "tone",
+                    "tone": "physical"
+                  },
+                  {
+                    "start": 132,
+                    "end": 145,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 230,
+                    "end": 262,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ],
                 "scaling": [
                   {
                     "title": "Skill Level Scaling",
@@ -3302,6 +4986,32 @@
                 "name": "Dodge Counter: Afterfire Spin",
                 "type": "Dodge",
                 "desc": "During Dodge: Through the Galaxy, trigger a Perfect Dodge to activate:\nSpins with the bike to deal Physical DMG to surrounding enemies.\nAfter using this skill, it automatically chains into EX Special Attack: Cool Wheelie.\nCharacter is invulnerable while using this skill.",
+                "descFormat": [
+                  {
+                    "start": 7,
+                    "end": 32,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 44,
+                    "end": 57,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 99,
+                    "end": 111,
+                    "kind": "tone",
+                    "tone": "physical"
+                  },
+                  {
+                    "start": 189,
+                    "end": 220,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ],
                 "scaling": [
                   {
                     "title": "Skill Level Scaling",
@@ -3362,6 +5072,20 @@
                 "name": "Quick Assist: Starlight - Power of Bonds",
                 "type": "Assist",
                 "desc": "When the active character is launched, press to activate:\nFires a blast from his arm cannon ahead, dealing Physical DMG. When HP is above 25%, this skill is replaced with Special Attack: Drive Suppression. This effect can trigger once every 5s.\nCharacter is invulnerable while using this skill.",
+                "descFormat": [
+                  {
+                    "start": 107,
+                    "end": 119,
+                    "kind": "tone",
+                    "tone": "physical"
+                  },
+                  {
+                    "start": 171,
+                    "end": 204,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ],
                 "scaling": [
                   {
                     "title": "Skill Level Scaling",
@@ -3499,6 +5223,20 @@
                 "name": "Assist Follow-Up: Villain's Exit",
                 "type": "Assist",
                 "desc": "Press after a Defensive Assist to activate:\nKicks the motorcycle at the target, dealing massive Physical DMG.\nCharacter is invulnerable while using this skill.",
+                "descFormat": [
+                  {
+                    "start": 14,
+                    "end": 30,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 96,
+                    "end": 108,
+                    "kind": "tone",
+                    "tone": "physical"
+                  }
+                ],
                 "scaling": [
                   {
                     "title": "Skill Level Scaling",
@@ -3559,6 +5297,32 @@
                 "name": "Special Attack: Drive Suppression",
                 "type": "Special",
                 "desc": "When HP is above 25%, press to activate:\nConsumes HP equal to 16% of Max HP to summon a motorcycle and swiftly crash into enemies, continuously dealing Physical DMG.\nIf attacked by an enemy as the active character shortly upon activating this skill, triggers a block, negating the attack and restoring 5 Determination.\nAfter triggering a block, immediately chains into EX Special Attack: Cool Wheelie.\nAfter the skill continues for a while, it automatically chains into EX Special Attack: Cool Wheelie.\nAnti-Interrupt level is increased while using this skill.",
+                "descFormat": [
+                  {
+                    "start": 152,
+                    "end": 164,
+                    "kind": "tone",
+                    "tone": "physical"
+                  },
+                  {
+                    "start": 304,
+                    "end": 317,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 369,
+                    "end": 400,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 470,
+                    "end": 501,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ],
                 "scaling": [
                   {
                     "title": "Skill Level Scaling",
@@ -3619,6 +5383,26 @@
                 "name": "Special Attack: Run Wild",
                 "type": "Special",
                 "desc": "Triggers automatically when Dodge: Through the Galaxy is interrupted:\nKicks his motorcycle at enemies, dealing Physical DMG.\nAfter using this skill, it can be chained into Dodge Counter: Duel King.\nAnti-Interrupt level is increased while using this skill.",
+                "descFormat": [
+                  {
+                    "start": 28,
+                    "end": 53,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 111,
+                    "end": 123,
+                    "kind": "tone",
+                    "tone": "physical"
+                  },
+                  {
+                    "start": 172,
+                    "end": 196,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ],
                 "scaling": [
                   {
                     "title": "Skill Level Scaling",
@@ -3679,6 +5463,38 @@
                 "name": "EX Special Attack: Cool Wheelie",
                 "type": "Special",
                 "desc": "Triggers automatically when Special Attack: Drive Suppression reaches its maximum duration or a block is triggered:\nLifts the motorcycle to attack enemies, dealing Physical DMG.\nOn hit, restores an additional 8 Determination.\nAfter using this skill, with enough Adrenaline, press or hold to chain into EX Special Attack: Rocking Footwork.\nAfter the skill animation ends, automatically chains into Special Attack: Run Wild.\nCharacter is invulnerable while using this skill.",
+                "descFormat": [
+                  {
+                    "start": 28,
+                    "end": 61,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 164,
+                    "end": 176,
+                    "kind": "tone",
+                    "tone": "physical"
+                  },
+                  {
+                    "start": 211,
+                    "end": 224,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 302,
+                    "end": 337,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 397,
+                    "end": 421,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ],
                 "scaling": [
                   {
                     "title": "Skill Level Scaling",
@@ -3739,6 +5555,14 @@
                 "name": "EX Special Attack: High-Traction Wheels",
                 "type": "Special",
                 "desc": "With enough Adrenaline, hold to activate:\nSlams down with the motorcycle, dealing Physical DMG.\nRestores 30% of Max HP upon activating this skill.\nCharacter is invulnerable while using this skill.",
+                "descFormat": [
+                  {
+                    "start": 82,
+                    "end": 94,
+                    "kind": "tone",
+                    "tone": "physical"
+                  }
+                ],
                 "scaling": [
                   {
                     "title": "Skill Level Scaling",
@@ -3799,6 +5623,20 @@
                 "name": "EX Special Attack: Rocking Footwork",
                 "type": "Special",
                 "desc": "After activating EX Special Attack: Cool Wheelie and with enough Adrenaline, press or hold to activate:\nUses the motorcycle and hand cannon for a combined attack, dealing Physical DMG.\nUpon activating this skill, restore 15% of Max HP.\nCharacter is invulnerable while using this skill.",
+                "descFormat": [
+                  {
+                    "start": 17,
+                    "end": 48,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 171,
+                    "end": 183,
+                    "kind": "tone",
+                    "tone": "physical"
+                  }
+                ],
                 "scaling": [
                   {
                     "title": "Skill Level Scaling",
@@ -3859,6 +5697,26 @@
                 "name": "Chain Attack: Knight's Swagger",
                 "type": "Chain",
                 "desc": "When a Chain Attack is triggered, select the character to activate:\nLaunches a series of attacks forward, dealing massive Physical DMG.\nUpon activating this skill, gains 15 Determination.\nCharacter is invulnerable while using this skill.",
+                "descFormat": [
+                  {
+                    "start": 7,
+                    "end": 19,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 122,
+                    "end": 134,
+                    "kind": "tone",
+                    "tone": "physical"
+                  },
+                  {
+                    "start": 173,
+                    "end": 186,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ],
                 "scaling": [
                   {
                     "title": "Skill Level Scaling",
@@ -3919,6 +5777,20 @@
                 "name": "Ultimate: Starlight Knight Flying Kick",
                 "type": "Chain",
                 "desc": "When Decibel Rating is at Maximum, press to activate:\nLeaps into the air and delivers a flying kick at the target, dealing massive Physical DMG.\nCharacter is invulnerable while using this skill.",
+                "descFormat": [
+                  {
+                    "start": 26,
+                    "end": 33,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 131,
+                    "end": 143,
+                    "kind": "tone",
+                    "tone": "physical"
+                  }
+                ],
                 "scaling": [
                   {
                     "title": "Skill Level Scaling",
@@ -3984,34 +5856,914 @@
                 "name": "Core Passive: Knight's Resolve",
                 "type": "Core Passive",
                 "desc": "Starlight - Billy gains extra Sheer Force based on his Max HP, with every 1 point of Max HP increasing Sheer Force by 0.1. All Physical DMG Starlight - Billy deals is Sheer DMG, ignoring enemy DEF and using his Sheer Force stat as the DMG Multiplier.\nStarlight - Billy restores 60 Adrenaline upon entering the battlefield. In Investigation Zone Mode, this effect can trigger once every 180s.\nWhen his HP is greater than 25%, press to consume HP and activate Special Attack: Drive Suppression. While in combat, each use of this skill increases his CRIT DMG by 90% for 45s. Repeated triggers refresh the duration. When HP is at or below 25%, the DMG he takes is reduced by 50%.\nStarlight - Billy gains Determination when his attacks hit enemies, with the amount depending on the skill used. Determination regenerates slowly while in combat, and is capped at 120. Hitting an enemy with EX Special Attack: Cool Wheelie, activating Chain Attack: Knight's Swagger, or triggering a block restores additional Determination. Triggering a Perfect Dodge by any means restores 3 Determination. This effect can trigger once every 0.5s.\nWhen Determination is greater than or equal to 100, hold to consume 100 Determination and activate Basic Attack: Full-Throttle Starlight.\nHitting an enemy with Basic Attack: Knight's Technique restores a small amount of HP. Hitting an enemy with Dodge Counter: Duel King activated through a Perfect Dodge restores HP. Using EX Special Attack: High-Traction Wheels or EX Special Attack: Rocking Footwork restores HP.",
+                "descFormat": [
+                  {
+                    "start": 127,
+                    "end": 139,
+                    "kind": "tone",
+                    "tone": "physical"
+                  },
+                  {
+                    "start": 458,
+                    "end": 491,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 559,
+                    "end": 562,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 700,
+                    "end": 713,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 789,
+                    "end": 802,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 883,
+                    "end": 914,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 927,
+                    "end": 957,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 1001,
+                    "end": 1014,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 1029,
+                    "end": 1042,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 1067,
+                    "end": 1080,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 1128,
+                    "end": 1141,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 1195,
+                    "end": 1208,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 1222,
+                    "end": 1259,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 1283,
+                    "end": 1315,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 1369,
+                    "end": 1393,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 1414,
+                    "end": 1427,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 1447,
+                    "end": 1486,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 1490,
+                    "end": 1525,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ],
                 "levels": [
                   {
                     "label": "Lv. 1",
-                    "text": "Starlight - Billy gains extra Sheer Force based on his Max HP, with every 1 point of Max HP increasing Sheer Force by 0.1. All Physical DMG Starlight - Billy deals is Sheer DMG, ignoring enemy DEF and using his Sheer Force stat as the DMG Multiplier.\nStarlight - Billy restores 60 Adrenaline upon entering the battlefield. In Investigation Zone Mode, this effect can trigger once every 180s.\nWhen his HP is greater than 25%, press to consume HP and activate Special Attack: Drive Suppression. While in combat, each use of this skill increases his CRIT DMG by 45% for 45s. Repeated triggers refresh the duration. When HP is at or below 25%, the DMG he takes is reduced by 50%.\nStarlight - Billy gains Determination when his attacks hit enemies, with the amount depending on the skill used. Determination regenerates slowly while in combat, and is capped at 120. Hitting an enemy with EX Special Attack: Cool Wheelie, activating Chain Attack: Knight's Swagger, or triggering a block restores additional Determination. Triggering a Perfect Dodge by any means restores 3 Determination. This effect can trigger once every 0.5s.\nWhen Determination is greater than or equal to 100, hold to consume 100 Determination and activate Basic Attack: Full-Throttle Starlight.\nHitting an enemy with Basic Attack: Knight's Technique restores a small amount of HP. Hitting an enemy with Dodge Counter: Duel King activated through a Perfect Dodge restores HP. Using EX Special Attack: High-Traction Wheels or EX Special Attack: Rocking Footwork restores HP."
+                    "text": "Starlight - Billy gains extra Sheer Force based on his Max HP, with every 1 point of Max HP increasing Sheer Force by 0.1. All Physical DMG Starlight - Billy deals is Sheer DMG, ignoring enemy DEF and using his Sheer Force stat as the DMG Multiplier.\nStarlight - Billy restores 60 Adrenaline upon entering the battlefield. In Investigation Zone Mode, this effect can trigger once every 180s.\nWhen his HP is greater than 25%, press to consume HP and activate Special Attack: Drive Suppression. While in combat, each use of this skill increases his CRIT DMG by 45% for 45s. Repeated triggers refresh the duration. When HP is at or below 25%, the DMG he takes is reduced by 50%.\nStarlight - Billy gains Determination when his attacks hit enemies, with the amount depending on the skill used. Determination regenerates slowly while in combat, and is capped at 120. Hitting an enemy with EX Special Attack: Cool Wheelie, activating Chain Attack: Knight's Swagger, or triggering a block restores additional Determination. Triggering a Perfect Dodge by any means restores 3 Determination. This effect can trigger once every 0.5s.\nWhen Determination is greater than or equal to 100, hold to consume 100 Determination and activate Basic Attack: Full-Throttle Starlight.\nHitting an enemy with Basic Attack: Knight's Technique restores a small amount of HP. Hitting an enemy with Dodge Counter: Duel King activated through a Perfect Dodge restores HP. Using EX Special Attack: High-Traction Wheels or EX Special Attack: Rocking Footwork restores HP.",
+                    "format": [
+                      {
+                        "start": 127,
+                        "end": 139,
+                        "kind": "tone",
+                        "tone": "physical"
+                      },
+                      {
+                        "start": 458,
+                        "end": 491,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 559,
+                        "end": 562,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 700,
+                        "end": 713,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 789,
+                        "end": 802,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 883,
+                        "end": 914,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 927,
+                        "end": 957,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1001,
+                        "end": 1014,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1029,
+                        "end": 1042,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1067,
+                        "end": 1080,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1128,
+                        "end": 1141,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1195,
+                        "end": 1208,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1222,
+                        "end": 1259,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1283,
+                        "end": 1315,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1369,
+                        "end": 1393,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1414,
+                        "end": 1427,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1447,
+                        "end": 1486,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1490,
+                        "end": 1525,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
                   },
                   {
                     "label": "Lv. 2",
-                    "text": "Starlight - Billy gains extra Sheer Force based on his Max HP, with every 1 point of Max HP increasing Sheer Force by 0.1. All Physical DMG Starlight - Billy deals is Sheer DMG, ignoring enemy DEF and using his Sheer Force stat as the DMG Multiplier.\nStarlight - Billy restores 60 Adrenaline upon entering the battlefield. In Investigation Zone Mode, this effect can trigger once every 180s.\nWhen his HP is greater than 25%, press to consume HP and activate Special Attack: Drive Suppression. While in combat, each use of this skill increases his CRIT DMG by 53% for 45s. Repeated triggers refresh the duration. When HP is at or below 25%, the DMG he takes is reduced by 50%.\nStarlight - Billy gains Determination when his attacks hit enemies, with the amount depending on the skill used. Determination regenerates slowly while in combat, and is capped at 120. Hitting an enemy with EX Special Attack: Cool Wheelie, activating Chain Attack: Knight's Swagger, or triggering a block restores additional Determination. Triggering a Perfect Dodge by any means restores 3 Determination. This effect can trigger once every 0.5s.\nWhen Determination is greater than or equal to 100, hold to consume 100 Determination and activate Basic Attack: Full-Throttle Starlight.\nHitting an enemy with Basic Attack: Knight's Technique restores a small amount of HP. Hitting an enemy with Dodge Counter: Duel King activated through a Perfect Dodge restores HP. Using EX Special Attack: High-Traction Wheels or EX Special Attack: Rocking Footwork restores HP."
+                    "text": "Starlight - Billy gains extra Sheer Force based on his Max HP, with every 1 point of Max HP increasing Sheer Force by 0.1. All Physical DMG Starlight - Billy deals is Sheer DMG, ignoring enemy DEF and using his Sheer Force stat as the DMG Multiplier.\nStarlight - Billy restores 60 Adrenaline upon entering the battlefield. In Investigation Zone Mode, this effect can trigger once every 180s.\nWhen his HP is greater than 25%, press to consume HP and activate Special Attack: Drive Suppression. While in combat, each use of this skill increases his CRIT DMG by 53% for 45s. Repeated triggers refresh the duration. When HP is at or below 25%, the DMG he takes is reduced by 50%.\nStarlight - Billy gains Determination when his attacks hit enemies, with the amount depending on the skill used. Determination regenerates slowly while in combat, and is capped at 120. Hitting an enemy with EX Special Attack: Cool Wheelie, activating Chain Attack: Knight's Swagger, or triggering a block restores additional Determination. Triggering a Perfect Dodge by any means restores 3 Determination. This effect can trigger once every 0.5s.\nWhen Determination is greater than or equal to 100, hold to consume 100 Determination and activate Basic Attack: Full-Throttle Starlight.\nHitting an enemy with Basic Attack: Knight's Technique restores a small amount of HP. Hitting an enemy with Dodge Counter: Duel King activated through a Perfect Dodge restores HP. Using EX Special Attack: High-Traction Wheels or EX Special Attack: Rocking Footwork restores HP.",
+                    "format": [
+                      {
+                        "start": 127,
+                        "end": 139,
+                        "kind": "tone",
+                        "tone": "physical"
+                      },
+                      {
+                        "start": 458,
+                        "end": 491,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 559,
+                        "end": 562,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 700,
+                        "end": 713,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 789,
+                        "end": 802,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 883,
+                        "end": 914,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 927,
+                        "end": 957,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1001,
+                        "end": 1014,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1029,
+                        "end": 1042,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1067,
+                        "end": 1080,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1128,
+                        "end": 1141,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1195,
+                        "end": 1208,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1222,
+                        "end": 1259,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1283,
+                        "end": 1315,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1369,
+                        "end": 1393,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1414,
+                        "end": 1427,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1447,
+                        "end": 1486,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1490,
+                        "end": 1525,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
                   },
                   {
                     "label": "Lv. 3",
-                    "text": "Starlight - Billy gains extra Sheer Force based on his Max HP, with every 1 point of Max HP increasing Sheer Force by 0.1. All Physical DMG Starlight - Billy deals is Sheer DMG, ignoring enemy DEF and using his Sheer Force stat as the DMG Multiplier.\nStarlight - Billy restores 60 Adrenaline upon entering the battlefield. In Investigation Zone Mode, this effect can trigger once every 180s.\nWhen his HP is greater than 25%, press to consume HP and activate Special Attack: Drive Suppression. While in combat, each use of this skill increases his CRIT DMG by 60% for 45s. Repeated triggers refresh the duration. When HP is at or below 25%, the DMG he takes is reduced by 50%.\nStarlight - Billy gains Determination when his attacks hit enemies, with the amount depending on the skill used. Determination regenerates slowly while in combat, and is capped at 120. Hitting an enemy with EX Special Attack: Cool Wheelie, activating Chain Attack: Knight's Swagger, or triggering a block restores additional Determination. Triggering a Perfect Dodge by any means restores 3 Determination. This effect can trigger once every 0.5s.\nWhen Determination is greater than or equal to 100, hold to consume 100 Determination and activate Basic Attack: Full-Throttle Starlight.\nHitting an enemy with Basic Attack: Knight's Technique restores a small amount of HP. Hitting an enemy with Dodge Counter: Duel King activated through a Perfect Dodge restores HP. Using EX Special Attack: High-Traction Wheels or EX Special Attack: Rocking Footwork restores HP."
+                    "text": "Starlight - Billy gains extra Sheer Force based on his Max HP, with every 1 point of Max HP increasing Sheer Force by 0.1. All Physical DMG Starlight - Billy deals is Sheer DMG, ignoring enemy DEF and using his Sheer Force stat as the DMG Multiplier.\nStarlight - Billy restores 60 Adrenaline upon entering the battlefield. In Investigation Zone Mode, this effect can trigger once every 180s.\nWhen his HP is greater than 25%, press to consume HP and activate Special Attack: Drive Suppression. While in combat, each use of this skill increases his CRIT DMG by 60% for 45s. Repeated triggers refresh the duration. When HP is at or below 25%, the DMG he takes is reduced by 50%.\nStarlight - Billy gains Determination when his attacks hit enemies, with the amount depending on the skill used. Determination regenerates slowly while in combat, and is capped at 120. Hitting an enemy with EX Special Attack: Cool Wheelie, activating Chain Attack: Knight's Swagger, or triggering a block restores additional Determination. Triggering a Perfect Dodge by any means restores 3 Determination. This effect can trigger once every 0.5s.\nWhen Determination is greater than or equal to 100, hold to consume 100 Determination and activate Basic Attack: Full-Throttle Starlight.\nHitting an enemy with Basic Attack: Knight's Technique restores a small amount of HP. Hitting an enemy with Dodge Counter: Duel King activated through a Perfect Dodge restores HP. Using EX Special Attack: High-Traction Wheels or EX Special Attack: Rocking Footwork restores HP.",
+                    "format": [
+                      {
+                        "start": 127,
+                        "end": 139,
+                        "kind": "tone",
+                        "tone": "physical"
+                      },
+                      {
+                        "start": 458,
+                        "end": 491,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 559,
+                        "end": 562,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 700,
+                        "end": 713,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 789,
+                        "end": 802,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 883,
+                        "end": 914,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 927,
+                        "end": 957,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1001,
+                        "end": 1014,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1029,
+                        "end": 1042,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1067,
+                        "end": 1080,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1128,
+                        "end": 1141,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1195,
+                        "end": 1208,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1222,
+                        "end": 1259,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1283,
+                        "end": 1315,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1369,
+                        "end": 1393,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1414,
+                        "end": 1427,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1447,
+                        "end": 1486,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1490,
+                        "end": 1525,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
                   },
                   {
                     "label": "Lv. 4",
-                    "text": "Starlight - Billy gains extra Sheer Force based on his Max HP, with every 1 point of Max HP increasing Sheer Force by 0.1. All Physical DMG Starlight - Billy deals is Sheer DMG, ignoring enemy DEF and using his Sheer Force stat as the DMG Multiplier.\nStarlight - Billy restores 60 Adrenaline upon entering the battlefield. In Investigation Zone Mode, this effect can trigger once every 180s.\nWhen his HP is greater than 25%, press to consume HP and activate Special Attack: Drive Suppression. While in combat, each use of this skill increases his CRIT DMG by 68% for 45s. Repeated triggers refresh the duration. When HP is at or below 25%, the DMG he takes is reduced by 50%.\nStarlight - Billy gains Determination when his attacks hit enemies, with the amount depending on the skill used. Determination regenerates slowly while in combat, and is capped at 120. Hitting an enemy with EX Special Attack: Cool Wheelie, activating Chain Attack: Knight's Swagger, or triggering a block restores additional Determination. Triggering a Perfect Dodge by any means restores 3 Determination. This effect can trigger once every 0.5s.\nWhen Determination is greater than or equal to 100, hold to consume 100 Determination and activate Basic Attack: Full-Throttle Starlight.\nHitting an enemy with Basic Attack: Knight's Technique restores a small amount of HP. Hitting an enemy with Dodge Counter: Duel King activated through a Perfect Dodge restores HP. Using EX Special Attack: High-Traction Wheels or EX Special Attack: Rocking Footwork restores HP."
+                    "text": "Starlight - Billy gains extra Sheer Force based on his Max HP, with every 1 point of Max HP increasing Sheer Force by 0.1. All Physical DMG Starlight - Billy deals is Sheer DMG, ignoring enemy DEF and using his Sheer Force stat as the DMG Multiplier.\nStarlight - Billy restores 60 Adrenaline upon entering the battlefield. In Investigation Zone Mode, this effect can trigger once every 180s.\nWhen his HP is greater than 25%, press to consume HP and activate Special Attack: Drive Suppression. While in combat, each use of this skill increases his CRIT DMG by 68% for 45s. Repeated triggers refresh the duration. When HP is at or below 25%, the DMG he takes is reduced by 50%.\nStarlight - Billy gains Determination when his attacks hit enemies, with the amount depending on the skill used. Determination regenerates slowly while in combat, and is capped at 120. Hitting an enemy with EX Special Attack: Cool Wheelie, activating Chain Attack: Knight's Swagger, or triggering a block restores additional Determination. Triggering a Perfect Dodge by any means restores 3 Determination. This effect can trigger once every 0.5s.\nWhen Determination is greater than or equal to 100, hold to consume 100 Determination and activate Basic Attack: Full-Throttle Starlight.\nHitting an enemy with Basic Attack: Knight's Technique restores a small amount of HP. Hitting an enemy with Dodge Counter: Duel King activated through a Perfect Dodge restores HP. Using EX Special Attack: High-Traction Wheels or EX Special Attack: Rocking Footwork restores HP.",
+                    "format": [
+                      {
+                        "start": 127,
+                        "end": 139,
+                        "kind": "tone",
+                        "tone": "physical"
+                      },
+                      {
+                        "start": 458,
+                        "end": 491,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 559,
+                        "end": 562,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 700,
+                        "end": 713,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 789,
+                        "end": 802,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 883,
+                        "end": 914,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 927,
+                        "end": 957,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1001,
+                        "end": 1014,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1029,
+                        "end": 1042,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1067,
+                        "end": 1080,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1128,
+                        "end": 1141,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1195,
+                        "end": 1208,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1222,
+                        "end": 1259,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1283,
+                        "end": 1315,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1369,
+                        "end": 1393,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1414,
+                        "end": 1427,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1447,
+                        "end": 1486,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1490,
+                        "end": 1525,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
                   },
                   {
                     "label": "Lv. 5",
-                    "text": "Starlight - Billy gains extra Sheer Force based on his Max HP, with every 1 point of Max HP increasing Sheer Force by 0.1. All Physical DMG Starlight - Billy deals is Sheer DMG, ignoring enemy DEF and using his Sheer Force stat as the DMG Multiplier.\nStarlight - Billy restores 60 Adrenaline upon entering the battlefield. In Investigation Zone Mode, this effect can trigger once every 180s.\nWhen his HP is greater than 25%, press to consume HP and activate Special Attack: Drive Suppression. While in combat, each use of this skill increases his CRIT DMG by 75% for 45s. Repeated triggers refresh the duration. When HP is at or below 25%, the DMG he takes is reduced by 50%.\nStarlight - Billy gains Determination when his attacks hit enemies, with the amount depending on the skill used. Determination regenerates slowly while in combat, and is capped at 120. Hitting an enemy with EX Special Attack: Cool Wheelie, activating Chain Attack: Knight's Swagger, or triggering a block restores additional Determination. Triggering a Perfect Dodge by any means restores 3 Determination. This effect can trigger once every 0.5s.\nWhen Determination is greater than or equal to 100, hold to consume 100 Determination and activate Basic Attack: Full-Throttle Starlight.\nHitting an enemy with Basic Attack: Knight's Technique restores a small amount of HP. Hitting an enemy with Dodge Counter: Duel King activated through a Perfect Dodge restores HP. Using EX Special Attack: High-Traction Wheels or EX Special Attack: Rocking Footwork restores HP."
+                    "text": "Starlight - Billy gains extra Sheer Force based on his Max HP, with every 1 point of Max HP increasing Sheer Force by 0.1. All Physical DMG Starlight - Billy deals is Sheer DMG, ignoring enemy DEF and using his Sheer Force stat as the DMG Multiplier.\nStarlight - Billy restores 60 Adrenaline upon entering the battlefield. In Investigation Zone Mode, this effect can trigger once every 180s.\nWhen his HP is greater than 25%, press to consume HP and activate Special Attack: Drive Suppression. While in combat, each use of this skill increases his CRIT DMG by 75% for 45s. Repeated triggers refresh the duration. When HP is at or below 25%, the DMG he takes is reduced by 50%.\nStarlight - Billy gains Determination when his attacks hit enemies, with the amount depending on the skill used. Determination regenerates slowly while in combat, and is capped at 120. Hitting an enemy with EX Special Attack: Cool Wheelie, activating Chain Attack: Knight's Swagger, or triggering a block restores additional Determination. Triggering a Perfect Dodge by any means restores 3 Determination. This effect can trigger once every 0.5s.\nWhen Determination is greater than or equal to 100, hold to consume 100 Determination and activate Basic Attack: Full-Throttle Starlight.\nHitting an enemy with Basic Attack: Knight's Technique restores a small amount of HP. Hitting an enemy with Dodge Counter: Duel King activated through a Perfect Dodge restores HP. Using EX Special Attack: High-Traction Wheels or EX Special Attack: Rocking Footwork restores HP.",
+                    "format": [
+                      {
+                        "start": 127,
+                        "end": 139,
+                        "kind": "tone",
+                        "tone": "physical"
+                      },
+                      {
+                        "start": 458,
+                        "end": 491,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 559,
+                        "end": 562,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 700,
+                        "end": 713,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 789,
+                        "end": 802,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 883,
+                        "end": 914,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 927,
+                        "end": 957,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1001,
+                        "end": 1014,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1029,
+                        "end": 1042,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1067,
+                        "end": 1080,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1128,
+                        "end": 1141,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1195,
+                        "end": 1208,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1222,
+                        "end": 1259,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1283,
+                        "end": 1315,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1369,
+                        "end": 1393,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1414,
+                        "end": 1427,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1447,
+                        "end": 1486,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1490,
+                        "end": 1525,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
                   },
                   {
                     "label": "Lv. 6",
-                    "text": "Starlight - Billy gains extra Sheer Force based on his Max HP, with every 1 point of Max HP increasing Sheer Force by 0.1. All Physical DMG Starlight - Billy deals is Sheer DMG, ignoring enemy DEF and using his Sheer Force stat as the DMG Multiplier.\nStarlight - Billy restores 60 Adrenaline upon entering the battlefield. In Investigation Zone Mode, this effect can trigger once every 180s.\nWhen his HP is greater than 25%, press to consume HP and activate Special Attack: Drive Suppression. While in combat, each use of this skill increases his CRIT DMG by 83% for 45s. Repeated triggers refresh the duration. When HP is at or below 25%, the DMG he takes is reduced by 50%.\nStarlight - Billy gains Determination when his attacks hit enemies, with the amount depending on the skill used. Determination regenerates slowly while in combat, and is capped at 120. Hitting an enemy with EX Special Attack: Cool Wheelie, activating Chain Attack: Knight's Swagger, or triggering a block restores additional Determination. Triggering a Perfect Dodge by any means restores 3 Determination. This effect can trigger once every 0.5s.\nWhen Determination is greater than or equal to 100, hold to consume 100 Determination and activate Basic Attack: Full-Throttle Starlight.\nHitting an enemy with Basic Attack: Knight's Technique restores a small amount of HP. Hitting an enemy with Dodge Counter: Duel King activated through a Perfect Dodge restores HP. Using EX Special Attack: High-Traction Wheels or EX Special Attack: Rocking Footwork restores HP."
+                    "text": "Starlight - Billy gains extra Sheer Force based on his Max HP, with every 1 point of Max HP increasing Sheer Force by 0.1. All Physical DMG Starlight - Billy deals is Sheer DMG, ignoring enemy DEF and using his Sheer Force stat as the DMG Multiplier.\nStarlight - Billy restores 60 Adrenaline upon entering the battlefield. In Investigation Zone Mode, this effect can trigger once every 180s.\nWhen his HP is greater than 25%, press to consume HP and activate Special Attack: Drive Suppression. While in combat, each use of this skill increases his CRIT DMG by 83% for 45s. Repeated triggers refresh the duration. When HP is at or below 25%, the DMG he takes is reduced by 50%.\nStarlight - Billy gains Determination when his attacks hit enemies, with the amount depending on the skill used. Determination regenerates slowly while in combat, and is capped at 120. Hitting an enemy with EX Special Attack: Cool Wheelie, activating Chain Attack: Knight's Swagger, or triggering a block restores additional Determination. Triggering a Perfect Dodge by any means restores 3 Determination. This effect can trigger once every 0.5s.\nWhen Determination is greater than or equal to 100, hold to consume 100 Determination and activate Basic Attack: Full-Throttle Starlight.\nHitting an enemy with Basic Attack: Knight's Technique restores a small amount of HP. Hitting an enemy with Dodge Counter: Duel King activated through a Perfect Dodge restores HP. Using EX Special Attack: High-Traction Wheels or EX Special Attack: Rocking Footwork restores HP.",
+                    "format": [
+                      {
+                        "start": 127,
+                        "end": 139,
+                        "kind": "tone",
+                        "tone": "physical"
+                      },
+                      {
+                        "start": 458,
+                        "end": 491,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 559,
+                        "end": 562,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 700,
+                        "end": 713,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 789,
+                        "end": 802,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 883,
+                        "end": 914,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 927,
+                        "end": 957,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1001,
+                        "end": 1014,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1029,
+                        "end": 1042,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1067,
+                        "end": 1080,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1128,
+                        "end": 1141,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1195,
+                        "end": 1208,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1222,
+                        "end": 1259,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1283,
+                        "end": 1315,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1369,
+                        "end": 1393,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1414,
+                        "end": 1427,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1447,
+                        "end": 1486,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1490,
+                        "end": 1525,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
                   },
                   {
                     "label": "Lv. 7",
-                    "text": "Starlight - Billy gains extra Sheer Force based on his Max HP, with every 1 point of Max HP increasing Sheer Force by 0.1. All Physical DMG Starlight - Billy deals is Sheer DMG, ignoring enemy DEF and using his Sheer Force stat as the DMG Multiplier.\nStarlight - Billy restores 60 Adrenaline upon entering the battlefield. In Investigation Zone Mode, this effect can trigger once every 180s.\nWhen his HP is greater than 25%, press to consume HP and activate Special Attack: Drive Suppression. While in combat, each use of this skill increases his CRIT DMG by 90% for 45s. Repeated triggers refresh the duration. When HP is at or below 25%, the DMG he takes is reduced by 50%.\nStarlight - Billy gains Determination when his attacks hit enemies, with the amount depending on the skill used. Determination regenerates slowly while in combat, and is capped at 120. Hitting an enemy with EX Special Attack: Cool Wheelie, activating Chain Attack: Knight's Swagger, or triggering a block restores additional Determination. Triggering a Perfect Dodge by any means restores 3 Determination. This effect can trigger once every 0.5s.\nWhen Determination is greater than or equal to 100, hold to consume 100 Determination and activate Basic Attack: Full-Throttle Starlight.\nHitting an enemy with Basic Attack: Knight's Technique restores a small amount of HP. Hitting an enemy with Dodge Counter: Duel King activated through a Perfect Dodge restores HP. Using EX Special Attack: High-Traction Wheels or EX Special Attack: Rocking Footwork restores HP."
+                    "text": "Starlight - Billy gains extra Sheer Force based on his Max HP, with every 1 point of Max HP increasing Sheer Force by 0.1. All Physical DMG Starlight - Billy deals is Sheer DMG, ignoring enemy DEF and using his Sheer Force stat as the DMG Multiplier.\nStarlight - Billy restores 60 Adrenaline upon entering the battlefield. In Investigation Zone Mode, this effect can trigger once every 180s.\nWhen his HP is greater than 25%, press to consume HP and activate Special Attack: Drive Suppression. While in combat, each use of this skill increases his CRIT DMG by 90% for 45s. Repeated triggers refresh the duration. When HP is at or below 25%, the DMG he takes is reduced by 50%.\nStarlight - Billy gains Determination when his attacks hit enemies, with the amount depending on the skill used. Determination regenerates slowly while in combat, and is capped at 120. Hitting an enemy with EX Special Attack: Cool Wheelie, activating Chain Attack: Knight's Swagger, or triggering a block restores additional Determination. Triggering a Perfect Dodge by any means restores 3 Determination. This effect can trigger once every 0.5s.\nWhen Determination is greater than or equal to 100, hold to consume 100 Determination and activate Basic Attack: Full-Throttle Starlight.\nHitting an enemy with Basic Attack: Knight's Technique restores a small amount of HP. Hitting an enemy with Dodge Counter: Duel King activated through a Perfect Dodge restores HP. Using EX Special Attack: High-Traction Wheels or EX Special Attack: Rocking Footwork restores HP.",
+                    "format": [
+                      {
+                        "start": 127,
+                        "end": 139,
+                        "kind": "tone",
+                        "tone": "physical"
+                      },
+                      {
+                        "start": 458,
+                        "end": 491,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 559,
+                        "end": 562,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 700,
+                        "end": 713,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 789,
+                        "end": 802,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 883,
+                        "end": 914,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 927,
+                        "end": 957,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1001,
+                        "end": 1014,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1029,
+                        "end": 1042,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1067,
+                        "end": 1080,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1128,
+                        "end": 1141,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1195,
+                        "end": 1208,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1222,
+                        "end": 1259,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1283,
+                        "end": 1315,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1369,
+                        "end": 1393,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1414,
+                        "end": 1427,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1447,
+                        "end": 1486,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1490,
+                        "end": 1525,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
                   }
                 ]
               },
@@ -4019,6 +6771,80 @@
                 "name": "Additional Ability: Blazing Starlight",
                 "type": "Additional Ability",
                 "desc": "When another character in your squad is a Stun, Defense, or Support character:\nHitting an enemy with EX Special Attack: Cool Wheelie, the 4th hit of Basic Attack: Knight's Technique, Chain Attack, or Ultimate grants 1 stack of Starlight for 45s, up to a maximum of 2 stacks, Only one stack can be obtained per use of a skill. Each stack increases the DMG of Chain Attacks, Ultimates, EX Special Attacks, and Basic Attack: Full-Throttle Starlight by 20%.",
+                "descFormat": [
+                  {
+                    "start": 42,
+                    "end": 46,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 48,
+                    "end": 55,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 60,
+                    "end": 67,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 101,
+                    "end": 132,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 149,
+                    "end": 181,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 183,
+                    "end": 195,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 200,
+                    "end": 208,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 227,
+                    "end": 236,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 358,
+                    "end": 371,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 373,
+                    "end": 382,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 384,
+                    "end": 402,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 408,
+                    "end": 445,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ],
                 "levels": []
               }
             ]
@@ -4029,32 +6855,248 @@
               {
                 "name": "Heroic Entrance",
                 "type": "Mindscape 1",
-                "desc": "Core Passive: Knight's Resolve restores an additional 60 Adrenaline upon entering the battlefield. Hitting an enemy with an EX Special Attack causes Starlight - Billy's DMG to ignore 18% Physical RES for 45s. Repeated triggers refresh the duration."
+                "desc": "Core Passive: Knight's Resolve restores an additional 60 Adrenaline upon entering the battlefield. Hitting an enemy with an EX Special Attack causes Starlight - Billy's DMG to ignore 18% Physical RES for 45s. Repeated triggers refresh the duration.",
+                "descFormat": [
+                  {
+                    "start": 0,
+                    "end": 30,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 124,
+                    "end": 141,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 187,
+                    "end": 199,
+                    "kind": "tone",
+                    "tone": "physical"
+                  }
+                ]
               },
               {
                 "name": "Wasteland Automaton",
                 "type": "Mindscape 2",
-                "desc": "Increases the DMG dealt by Basic Attack: Full-Throttle Starlight, EX Special Attack: Cool Wheelie, and Ultimate: Starlight Knight Flying Kick by 50%. Activating EX Special Attack: Rocking Footwork, EX Special Attack: High-Traction Wheels, or hitting a Stunned enemy with Special Attack: Drive Suppression grants the Turbocharged effect: Special Attack: Drive Suppression consumes this effect to immediately follow up with EX Special Attack: Cool Wheelie, and increases that instance's CRIT DMG by 50%. Only 1 stack of Turbocharged can be held."
+                "desc": "Increases the DMG dealt by Basic Attack: Full-Throttle Starlight, EX Special Attack: Cool Wheelie, and Ultimate: Starlight Knight Flying Kick by 50%. Activating EX Special Attack: Rocking Footwork, EX Special Attack: High-Traction Wheels, or hitting a Stunned enemy with Special Attack: Drive Suppression grants the Turbocharged effect: Special Attack: Drive Suppression consumes this effect to immediately follow up with EX Special Attack: Cool Wheelie, and increases that instance's CRIT DMG by 50%. Only 1 stack of Turbocharged can be held.",
+                "descFormat": [
+                  {
+                    "start": 27,
+                    "end": 64,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 66,
+                    "end": 97,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 103,
+                    "end": 141,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 161,
+                    "end": 196,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 198,
+                    "end": 237,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 271,
+                    "end": 304,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 316,
+                    "end": 328,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 337,
+                    "end": 370,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 422,
+                    "end": 453,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 518,
+                    "end": 530,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ]
               },
               {
                 "name": "Knight's Chivalry",
                 "type": "Mindscape 3",
-                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2",
+                "descFormat": [
+                  {
+                    "start": 0,
+                    "end": 12,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 14,
+                    "end": 19,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 21,
+                    "end": 27,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 29,
+                    "end": 43,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 49,
+                    "end": 61,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ]
               },
               {
                 "name": "Flames of Justice",
                 "type": "Mindscape 4",
-                "desc": "While in combat, each use of Special Attack: Drive Suppression increases Starlight - Billy's CRIT DMG by 8%, stacking up to 2 times and lasting 45s. Repeated triggers reset the duration. If HP is below 35% and Starlight - Billy is not the active character, he continuously recovers HP, up to 35%."
+                "desc": "While in combat, each use of Special Attack: Drive Suppression increases Starlight - Billy's CRIT DMG by 8%, stacking up to 2 times and lasting 45s. Repeated triggers reset the duration. If HP is below 35% and Starlight - Billy is not the active character, he continuously recovers HP, up to 35%.",
+                "descFormat": [
+                  {
+                    "start": 29,
+                    "end": 62,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ]
               },
               {
                 "name": "Radiant Armaments",
                 "type": "Mindscape 5",
-                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2",
+                "descFormat": [
+                  {
+                    "start": 0,
+                    "end": 12,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 14,
+                    "end": 19,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 21,
+                    "end": 27,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 29,
+                    "end": 43,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 49,
+                    "end": 61,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ]
               },
               {
                 "name": "Starlight Knight",
                 "type": "Mindscape 6",
-                "desc": "Ultimate: Starlight Knight Flying Kick and Basic Attack: Full-Throttle Starlight's Sheer DMG increases by 18%. Landing the 4th hit of Basic Attack: Knight's Technique, EX Special Attack: Cool Wheelie, or Chain Attack: Knight's Swagger grants 1 stack of Brilliant Starlight, stacking up to 6 times, and gaining at most 1 stack per skill use. When using Ultimate: Starlight Knight Flying Kick or Basic Attack: Full-Throttle Starlight, consumes up to 2 stacks of Brilliant Starlight, with each stack consumed causing that skill's final hit to deal 100% Sheer Force as additional Physical DMG."
+                "desc": "Ultimate: Starlight Knight Flying Kick and Basic Attack: Full-Throttle Starlight's Sheer DMG increases by 18%. Landing the 4th hit of Basic Attack: Knight's Technique, EX Special Attack: Cool Wheelie, or Chain Attack: Knight's Swagger grants 1 stack of Brilliant Starlight, stacking up to 6 times, and gaining at most 1 stack per skill use. When using Ultimate: Starlight Knight Flying Kick or Basic Attack: Full-Throttle Starlight, consumes up to 2 stacks of Brilliant Starlight, with each stack consumed causing that skill's final hit to deal 100% Sheer Force as additional Physical DMG.",
+                "descFormat": [
+                  {
+                    "start": 0,
+                    "end": 38,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 43,
+                    "end": 80,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 134,
+                    "end": 166,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 168,
+                    "end": 199,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 204,
+                    "end": 234,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 253,
+                    "end": 272,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 352,
+                    "end": 390,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 394,
+                    "end": 431,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 460,
+                    "end": 479,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 576,
+                    "end": 588,
+                    "kind": "tone",
+                    "tone": "physical"
+                  }
+                ]
               }
             ]
           }
@@ -5681,6 +8723,176 @@
                 "name": "Basic Attack: Smash 'n' Bash",
                 "type": "Basic",
                 "desc": "Press to activate:\nUnleashes up to 4 strikes, dealing Physical DMG.\nWhen Koleda has the Furnace Fire effect, she can launch an enhanced Basic Attack after the 2nd hit, consuming the Furnace Fire effect and dealing massive Fire DMG.\nWhen Koleda and Ben are deployed together, executing an enhanced Basic Attack will trigger a coordinated attack from both, further increasing the move's power;\nKoleda is invulnerable during the Basic Attack's 4th hit and enhanced Basic Attack.\n\nPress to activate:\nUnleashes up to four Strikes forward, dealing Physical DMG;\nWhen Koleda has the [Furnace Fire] effect, she can launch an Enhanced [Basic Attack] after the 2nd hit, consuming the [Furnace Fire] effect and dealing massive Fire DMG;\nThe Enhanced [Basic Attack] consists of two parts. After launching the 1st part, press or hold to chain into the 2nd part, and the follow-up attack effect of the 1st Enhanced [Basic Attack] is strengthened;\nThe [Furnace Fire] effect can stack up to 2 times. Launching an Enhanced [Basic Attack] consumes all [Furnace Fire] stacks;\nWhen [Furnace Fire] is consumed, DMG dealt by the whole squad's Agents is increased by 35%, lasting 40s. Repeated triggers refresh the duration. Additionally, for each stack of [Furnace Fire] consumed, the DMG dealt by the 2nd Enhanced [Basic Attack] is increased by 10%, and the Daze inflicted is increased by 20%;\nIf an Agent switch is performed during the 1st Enhanced [Basic Attack], Koleda will automatically launch the 2nd Enhanced [Basic Attack] on-field;\nWhen Koleda and Ben are both in the squad, launching an Enhanced [Basic Attack] without switching Agents during the 1st Enhanced [Basic Attack] will trigger a Coordinated Attack performed by both, further increasing the skill's power;\nCharacter is invulnerable during the 4th hit of the [Basic Attack] and during the Enhanced [Basic Attack];\nThe invulnerability duration of the 2nd Enhanced [Basic Attack] is extended.",
+                "descFormat": [
+                  {
+                    "start": 54,
+                    "end": 66,
+                    "kind": "tone",
+                    "tone": "physical"
+                  },
+                  {
+                    "start": 88,
+                    "end": 100,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  },
+                  {
+                    "start": 136,
+                    "end": 148,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 182,
+                    "end": 194,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  },
+                  {
+                    "start": 222,
+                    "end": 230,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  },
+                  {
+                    "start": 297,
+                    "end": 309,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 426,
+                    "end": 440,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 462,
+                    "end": 474,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 542,
+                    "end": 554,
+                    "kind": "tone",
+                    "tone": "physical"
+                  },
+                  {
+                    "start": 576,
+                    "end": 590,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  },
+                  {
+                    "start": 626,
+                    "end": 640,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 674,
+                    "end": 688,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  },
+                  {
+                    "start": 716,
+                    "end": 724,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  },
+                  {
+                    "start": 739,
+                    "end": 753,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 901,
+                    "end": 915,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 937,
+                    "end": 951,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  },
+                  {
+                    "start": 1006,
+                    "end": 1020,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 1034,
+                    "end": 1048,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  },
+                  {
+                    "start": 1062,
+                    "end": 1076,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  },
+                  {
+                    "start": 1234,
+                    "end": 1248,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  },
+                  {
+                    "start": 1293,
+                    "end": 1307,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 1429,
+                    "end": 1443,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 1495,
+                    "end": 1509,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 1585,
+                    "end": 1599,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 1649,
+                    "end": 1663,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 1807,
+                    "end": 1821,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 1846,
+                    "end": 1860,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 1911,
+                    "end": 1925,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ],
                 "scaling": [
                   {
                     "title": "Skill Level Scaling",
@@ -5950,6 +9162,32 @@
                 "name": "Dash Attack: Tremble!",
                 "type": "Dodge",
                 "desc": "Press during a Dodge to activate:\nStrikes enemies in front, dealing Physical DMG.\n\nPress during a dodge to activate:\nStrike forward, dealing Physical DMG.\nDuring this skill, if holding [Furnace Fire], Anti-Interrupt level is increased. Hold to chain into an Enhanced [Basic Attack].",
+                "descFormat": [
+                  {
+                    "start": 68,
+                    "end": 80,
+                    "kind": "tone",
+                    "tone": "physical"
+                  },
+                  {
+                    "start": 141,
+                    "end": 153,
+                    "kind": "tone",
+                    "tone": "physical"
+                  },
+                  {
+                    "start": 185,
+                    "end": 199,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  },
+                  {
+                    "start": 267,
+                    "end": 281,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ],
                 "scaling": [
                   {
                     "title": "Skill Level Scaling",
@@ -6010,6 +9248,20 @@
                 "name": "Dodge Counter: Don't Look Down on Me",
                 "type": "Dodge",
                 "desc": "Press during a Perfect Dodge to activate:\nStrikes enemies in front and creates an explosion, dealing Fire DMG.\nCharacter is invulnerable while using this skill.",
+                "descFormat": [
+                  {
+                    "start": 15,
+                    "end": 28,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 101,
+                    "end": 109,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  }
+                ],
                 "scaling": [
                   {
                     "title": "Skill Level Scaling",
@@ -6070,6 +9322,14 @@
                 "name": "Quick Assist: Coming Thru!",
                 "type": "Assist",
                 "desc": "When the active character is launched, press to activate:\nStrikes enemies in front, dealing Fire DMG.\nCharacter is invulnerable while using this skill.",
+                "descFormat": [
+                  {
+                    "start": 92,
+                    "end": 100,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  }
+                ],
                 "scaling": [
                   {
                     "title": "Skill Level Scaling",
@@ -6130,6 +9390,14 @@
                 "name": "Defensive Assist: Protective Hammer",
                 "type": "Assist",
                 "desc": "When the character on field is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nThis skill excels at parrying enemy attacks and reduces the consumption of Assist Points when the character is under intense attacks.\nCharacter is invulnerable while using this skill.",
+                "descFormat": [
+                  {
+                    "start": 197,
+                    "end": 210,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ],
                 "scaling": [
                   {
                     "title": "Skill Level Scaling",
@@ -6207,6 +9475,26 @@
                 "name": "Assist Follow-Up: Hammer Bell",
                 "type": "Assist",
                 "desc": "Press after a Defensive Assist to activate:\nKoleda charges and strikes enemies in front, dealing Fire DMG and obtaining Furnace Fire effect.\nCharacter is invulnerable while using this skill.",
+                "descFormat": [
+                  {
+                    "start": 14,
+                    "end": 30,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 97,
+                    "end": 105,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  },
+                  {
+                    "start": 120,
+                    "end": 132,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  }
+                ],
                 "scaling": [
                   {
                     "title": "Skill Level Scaling",
@@ -6267,6 +9555,62 @@
                 "name": "Special Attack: Hammer Time",
                 "type": "Special",
                 "desc": "Press to activate:\nStrikes enemies in front and triggers an explosion, dealing Fire DMG.\nThis skill launches faster and triggers an explosion when used after the 2nd or 4th hit of Koleda's Basic Attack or enhanced Basic Attack.\nWhen Koleda and Ben are both in your squad, and this skill is quickly launched after an enhanced Basic Attack, they team up to launch a coordinated attack, further increasing the power of the skill.\nAnti-Interrupt level is increased while using this skill.\n\nPress to activate:\nStrikes enemies in front and triggers an explosion, dealing Fire DMG.\nThis skill launches faster and triggers an explosion when used after the 2nd or 4th hit of Koleda's [Basic Attack] or enhanced [Basic Attack].\nDuring the 2nd hit of [Basic Attack], hold to directly trigger the explosion.\nWhen Koleda and Ben are both in your squad, and this skill is quickly launched after an enhanced [Basic Attack], they team up to launch a Coordinated Attack, further increasing the power of the skill.\nAnti-Interrupt level is increased while using this skill.",
+                "descFormat": [
+                  {
+                    "start": 79,
+                    "end": 87,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  },
+                  {
+                    "start": 189,
+                    "end": 201,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 214,
+                    "end": 226,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 325,
+                    "end": 337,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 565,
+                    "end": 573,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  },
+                  {
+                    "start": 675,
+                    "end": 689,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 702,
+                    "end": 716,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 740,
+                    "end": 754,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 893,
+                    "end": 907,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ],
                 "scaling": [
                   {
                     "title": "Skill Level Scaling",
@@ -6395,6 +9739,74 @@
                 "name": "EX Special Attack: Boiling Furnace",
                 "type": "Special",
                 "desc": "With enough Energy, press to activate:\nStrikes enemies in front and triggers a powerful explosion, dealing massive Fire DMG. Koleda also gains the Furnace Fire effect.\nThis skill activates faster and triggers an explosion when used after the 2nd or 4th hit of Koleda's Basic Attack or enhanced Basic Attack.\nWhen Koleda and Ben are both in your squad and this skill is quickly launched after an enhanced Basic Attack, they team up to launch a coordinated attack, further increasing the power of the skill.\nCharacter is invulnerable while using this skill.\n\nWith enough Energy, press to activate:\nStrikes enemies in front and triggers a powerful explosion, dealing massive Fire DMG. Koleda also gains the Furnace Fire effect.\nThis skill activates faster and triggers an explosion when used after the 2nd or 4th hit of Koleda's Basic Attack or enhanced Basic Attack. Daze inflicted by the explosion triggered this way is increased by 10%.\nWhen Koleda and Ben are both in your squad and this skill is quickly launched after an enhanced Basic Attack, they team up to launch a Coordinated Attack, further increasing the power of the skill.\nCharacter is invulnerable while using this skill. Hold to chain into Dash Attack: Tremble!.",
+                "descFormat": [
+                  {
+                    "start": 115,
+                    "end": 123,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  },
+                  {
+                    "start": 147,
+                    "end": 159,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  },
+                  {
+                    "start": 269,
+                    "end": 281,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 294,
+                    "end": 306,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 404,
+                    "end": 416,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 672,
+                    "end": 680,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  },
+                  {
+                    "start": 704,
+                    "end": 716,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  },
+                  {
+                    "start": 826,
+                    "end": 838,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 851,
+                    "end": 863,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 1033,
+                    "end": 1045,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 1204,
+                    "end": 1225,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ],
                 "scaling": [
                   {
                     "title": "Skill Level Scaling",
@@ -6523,6 +9935,26 @@
                 "name": "Chain Attack: Natural Disaster",
                 "type": "Chain",
                 "desc": "When a Chain Attack is triggered, select the character to activate:\nUnleashes a powerful explosion on enemies in a large area, dealing massive Fire DMG while also obtaining the Furnace Fire effect.\nCharacter is invulnerable while using this skill.",
+                "descFormat": [
+                  {
+                    "start": 7,
+                    "end": 19,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 143,
+                    "end": 151,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  },
+                  {
+                    "start": 177,
+                    "end": 189,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  }
+                ],
                 "scaling": [
                   {
                     "title": "Skill Level Scaling",
@@ -6583,6 +10015,26 @@
                 "name": "Ultimate: Hammerquake",
                 "type": "Chain",
                 "desc": "When Decibel Rating is at Maximum, press to activate:\nUnleashes a powerful explosion on enemies in a large area in front, dealing massive Fire DMG while also obtaining the Furnace Fire effect.\nKoleda and Ben can team up when fighting together to launch a coordinated attack, further increasing the power of the attack.\nCharacter is invulnerable while using this skill.",
+                "descFormat": [
+                  {
+                    "start": 26,
+                    "end": 33,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 138,
+                    "end": 146,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  },
+                  {
+                    "start": 172,
+                    "end": 184,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  }
+                ],
                 "scaling": [
                   {
                     "title": "Skill Level Scaling",
@@ -6682,34 +10134,242 @@
                 "name": "Core Passive: Demolition Hammer",
                 "type": "Core Passive",
                 "desc": "When Koleda uses her EX Special Attack or consumes Furnace Fire to use an enhanced Basic Attack, the Daze she deals increases by 60%.",
+                "descFormat": [
+                  {
+                    "start": 21,
+                    "end": 38,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 51,
+                    "end": 63,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  },
+                  {
+                    "start": 83,
+                    "end": 95,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 129,
+                    "end": 132,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ],
                 "levels": [
                   {
                     "label": "Lv. 1",
-                    "text": "When Koleda uses her EX Special Attack or consumes Furnace Fire to use an enhanced Basic Attack, the Daze she deals increases by 30%."
+                    "text": "When Koleda uses her EX Special Attack or consumes Furnace Fire to use an enhanced Basic Attack, the Daze she deals increases by 30%.",
+                    "format": [
+                      {
+                        "start": 21,
+                        "end": 38,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 51,
+                        "end": 63,
+                        "kind": "tone",
+                        "tone": "pyro"
+                      },
+                      {
+                        "start": 83,
+                        "end": 95,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 129,
+                        "end": 132,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
                   },
                   {
                     "label": "Lv. 2",
-                    "text": "When Koleda uses her EX Special Attack or consumes Furnace Fire to use an enhanced Basic Attack, the Daze she deals increases by 35%."
+                    "text": "When Koleda uses her EX Special Attack or consumes Furnace Fire to use an enhanced Basic Attack, the Daze she deals increases by 35%.",
+                    "format": [
+                      {
+                        "start": 21,
+                        "end": 38,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 51,
+                        "end": 63,
+                        "kind": "tone",
+                        "tone": "pyro"
+                      },
+                      {
+                        "start": 83,
+                        "end": 95,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 129,
+                        "end": 132,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
                   },
                   {
                     "label": "Lv. 3",
-                    "text": "When Koleda uses her EX Special Attack or consumes Furnace Fire to use an enhanced Basic Attack, the Daze she deals increases by 40%."
+                    "text": "When Koleda uses her EX Special Attack or consumes Furnace Fire to use an enhanced Basic Attack, the Daze she deals increases by 40%.",
+                    "format": [
+                      {
+                        "start": 21,
+                        "end": 38,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 51,
+                        "end": 63,
+                        "kind": "tone",
+                        "tone": "pyro"
+                      },
+                      {
+                        "start": 83,
+                        "end": 95,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 129,
+                        "end": 132,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
                   },
                   {
                     "label": "Lv. 4",
-                    "text": "When Koleda uses her EX Special Attack or consumes Furnace Fire to use an enhanced Basic Attack, the Daze she deals increases by 45%."
+                    "text": "When Koleda uses her EX Special Attack or consumes Furnace Fire to use an enhanced Basic Attack, the Daze she deals increases by 45%.",
+                    "format": [
+                      {
+                        "start": 21,
+                        "end": 38,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 51,
+                        "end": 63,
+                        "kind": "tone",
+                        "tone": "pyro"
+                      },
+                      {
+                        "start": 83,
+                        "end": 95,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 129,
+                        "end": 132,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
                   },
                   {
                     "label": "Lv. 5",
-                    "text": "When Koleda uses her EX Special Attack or consumes Furnace Fire to use an enhanced Basic Attack, the Daze she deals increases by 50%."
+                    "text": "When Koleda uses her EX Special Attack or consumes Furnace Fire to use an enhanced Basic Attack, the Daze she deals increases by 50%.",
+                    "format": [
+                      {
+                        "start": 21,
+                        "end": 38,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 51,
+                        "end": 63,
+                        "kind": "tone",
+                        "tone": "pyro"
+                      },
+                      {
+                        "start": 83,
+                        "end": 95,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 129,
+                        "end": 132,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
                   },
                   {
                     "label": "Lv. 6",
-                    "text": "When Koleda uses her EX Special Attack or consumes Furnace Fire to use an enhanced Basic Attack, the Daze she deals increases by 55%."
+                    "text": "When Koleda uses her EX Special Attack or consumes Furnace Fire to use an enhanced Basic Attack, the Daze she deals increases by 55%.",
+                    "format": [
+                      {
+                        "start": 21,
+                        "end": 38,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 51,
+                        "end": 63,
+                        "kind": "tone",
+                        "tone": "pyro"
+                      },
+                      {
+                        "start": 83,
+                        "end": 95,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 129,
+                        "end": 132,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
                   },
                   {
                     "label": "Lv. 7",
-                    "text": "When Koleda uses her EX Special Attack or consumes Furnace Fire to use an enhanced Basic Attack, the Daze she deals increases by 60%."
+                    "text": "When Koleda uses her EX Special Attack or consumes Furnace Fire to use an enhanced Basic Attack, the Daze she deals increases by 60%.",
+                    "format": [
+                      {
+                        "start": 21,
+                        "end": 38,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 51,
+                        "end": 63,
+                        "kind": "tone",
+                        "tone": "pyro"
+                      },
+                      {
+                        "start": 83,
+                        "end": 95,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 129,
+                        "end": 132,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
                   }
                 ]
               },
@@ -6717,62 +10377,404 @@
                 "name": "Additional Ability: Belobog Management",
                 "type": "Additional Ability",
                 "desc": "When another character in your squad shares the same Attribute or Faction or is a Rupture character:\nWhen the explosion from Koleda's EX Special Attack hits an enemy, it applies a debuff to the target. While the target is Stunned, Chain Attacks deal 35% more DMG to the target. This effect can stack up to 2 times and resets when the Stunned effect ends.",
+                "descFormat": [
+                  {
+                    "start": 82,
+                    "end": 89,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 134,
+                    "end": 151,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 231,
+                    "end": 244,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ],
                 "levels": [
                   {
                     "label": "Lv. 1",
-                    "text": "When another character in your squad shares the same Attribute or Faction or is a Rupture character:\nWhen the explosion from Koleda's EX Special Attack hits an enemy, it applies a debuff to the target. While the target is Stunned, Chain Attacks deal 35% more DMG to the target. This effect can stack up to 2 times and resets when the Stunned effect ends."
+                    "text": "When another character in your squad shares the same Attribute or Faction or is a Rupture character:\nWhen the explosion from Koleda's EX Special Attack hits an enemy, it applies a debuff to the target. While the target is Stunned, Chain Attacks deal 35% more DMG to the target. This effect can stack up to 2 times and resets when the Stunned effect ends.",
+                    "format": [
+                      {
+                        "start": 82,
+                        "end": 89,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 134,
+                        "end": 151,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 231,
+                        "end": 244,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
                   },
                   {
                     "label": "Lv. 1",
-                    "text": "When another character in your squad shares the same Attribute or Faction or is a Rupture or Armorer character:\nWhen the explosion from Koleda's EX Special Attack hits an enemy, it applies a debuff to the target. While the target is Stunned, Chain Attacks deal 35% more DMG to the target. This effect can stack up to 2 times and resets when the Stunned effect ends."
+                    "text": "When another character in your squad shares the same Attribute or Faction or is a Rupture or Armorer character:\nWhen the explosion from Koleda's EX Special Attack hits an enemy, it applies a debuff to the target. While the target is Stunned, Chain Attacks deal 35% more DMG to the target. This effect can stack up to 2 times and resets when the Stunned effect ends.",
+                    "format": [
+                      {
+                        "start": 82,
+                        "end": 89,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 93,
+                        "end": 100,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 145,
+                        "end": 162,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 242,
+                        "end": 255,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
                   },
                   {
                     "label": "Lv. 2",
-                    "text": "When another character in your squad shares the same Attribute or Faction or is a Rupture character:\nWhen the explosion from Koleda's EX Special Attack hits an enemy, it applies a debuff to the target. While the target is Stunned, Chain Attacks deal 35% more DMG to the target. This effect can stack up to 2 times and resets when the Stunned effect ends."
+                    "text": "When another character in your squad shares the same Attribute or Faction or is a Rupture character:\nWhen the explosion from Koleda's EX Special Attack hits an enemy, it applies a debuff to the target. While the target is Stunned, Chain Attacks deal 35% more DMG to the target. This effect can stack up to 2 times and resets when the Stunned effect ends.",
+                    "format": [
+                      {
+                        "start": 82,
+                        "end": 89,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 134,
+                        "end": 151,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 231,
+                        "end": 244,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
                   },
                   {
                     "label": "Lv. 2",
-                    "text": "When another character in your squad shares the same Attribute or Faction or is a Rupture or Armorer character:\nWhen the explosion from Koleda's EX Special Attack hits an enemy, it applies a debuff to the target. While the target is Stunned, Chain Attacks deal 35% more DMG to the target. This effect can stack up to 2 times and resets when the Stunned effect ends."
+                    "text": "When another character in your squad shares the same Attribute or Faction or is a Rupture or Armorer character:\nWhen the explosion from Koleda's EX Special Attack hits an enemy, it applies a debuff to the target. While the target is Stunned, Chain Attacks deal 35% more DMG to the target. This effect can stack up to 2 times and resets when the Stunned effect ends.",
+                    "format": [
+                      {
+                        "start": 82,
+                        "end": 89,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 93,
+                        "end": 100,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 145,
+                        "end": 162,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 242,
+                        "end": 255,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
                   },
                   {
                     "label": "Lv. 3",
-                    "text": "When another character in your squad shares the same Attribute or Faction or is a Rupture character:\nWhen the explosion from Koleda's EX Special Attack hits an enemy, it applies a debuff to the target. While the target is Stunned, Chain Attacks deal 35% more DMG to the target. This effect can stack up to 2 times and resets when the Stunned effect ends."
+                    "text": "When another character in your squad shares the same Attribute or Faction or is a Rupture character:\nWhen the explosion from Koleda's EX Special Attack hits an enemy, it applies a debuff to the target. While the target is Stunned, Chain Attacks deal 35% more DMG to the target. This effect can stack up to 2 times and resets when the Stunned effect ends.",
+                    "format": [
+                      {
+                        "start": 82,
+                        "end": 89,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 134,
+                        "end": 151,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 231,
+                        "end": 244,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
                   },
                   {
                     "label": "Lv. 3",
-                    "text": "When another character in your squad shares the same Attribute or Faction or is a Rupture or Armorer character:\nWhen the explosion from Koleda's EX Special Attack hits an enemy, it applies a debuff to the target. While the target is Stunned, Chain Attacks deal 35% more DMG to the target. This effect can stack up to 2 times and resets when the Stunned effect ends."
+                    "text": "When another character in your squad shares the same Attribute or Faction or is a Rupture or Armorer character:\nWhen the explosion from Koleda's EX Special Attack hits an enemy, it applies a debuff to the target. While the target is Stunned, Chain Attacks deal 35% more DMG to the target. This effect can stack up to 2 times and resets when the Stunned effect ends.",
+                    "format": [
+                      {
+                        "start": 82,
+                        "end": 89,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 93,
+                        "end": 100,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 145,
+                        "end": 162,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 242,
+                        "end": 255,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
                   },
                   {
                     "label": "Lv. 4",
-                    "text": "When another character in your squad shares the same Attribute or Faction or is a Rupture character:\nWhen the explosion from Koleda's EX Special Attack hits an enemy, it applies a debuff to the target. While the target is Stunned, Chain Attacks deal 35% more DMG to the target. This effect can stack up to 2 times and resets when the Stunned effect ends."
+                    "text": "When another character in your squad shares the same Attribute or Faction or is a Rupture character:\nWhen the explosion from Koleda's EX Special Attack hits an enemy, it applies a debuff to the target. While the target is Stunned, Chain Attacks deal 35% more DMG to the target. This effect can stack up to 2 times and resets when the Stunned effect ends.",
+                    "format": [
+                      {
+                        "start": 82,
+                        "end": 89,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 134,
+                        "end": 151,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 231,
+                        "end": 244,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
                   },
                   {
                     "label": "Lv. 4",
-                    "text": "When another character in your squad shares the same Attribute or Faction or is a Rupture or Armorer character:\nWhen the explosion from Koleda's EX Special Attack hits an enemy, it applies a debuff to the target. While the target is Stunned, Chain Attacks deal 35% more DMG to the target. This effect can stack up to 2 times and resets when the Stunned effect ends."
+                    "text": "When another character in your squad shares the same Attribute or Faction or is a Rupture or Armorer character:\nWhen the explosion from Koleda's EX Special Attack hits an enemy, it applies a debuff to the target. While the target is Stunned, Chain Attacks deal 35% more DMG to the target. This effect can stack up to 2 times and resets when the Stunned effect ends.",
+                    "format": [
+                      {
+                        "start": 82,
+                        "end": 89,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 93,
+                        "end": 100,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 145,
+                        "end": 162,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 242,
+                        "end": 255,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
                   },
                   {
                     "label": "Lv. 5",
-                    "text": "When another character in your squad shares the same Attribute or Faction or is a Rupture character:\nWhen the explosion from Koleda's EX Special Attack hits an enemy, it applies a debuff to the target. While the target is Stunned, Chain Attacks deal 35% more DMG to the target. This effect can stack up to 2 times and resets when the Stunned effect ends."
+                    "text": "When another character in your squad shares the same Attribute or Faction or is a Rupture character:\nWhen the explosion from Koleda's EX Special Attack hits an enemy, it applies a debuff to the target. While the target is Stunned, Chain Attacks deal 35% more DMG to the target. This effect can stack up to 2 times and resets when the Stunned effect ends.",
+                    "format": [
+                      {
+                        "start": 82,
+                        "end": 89,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 134,
+                        "end": 151,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 231,
+                        "end": 244,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
                   },
                   {
                     "label": "Lv. 5",
-                    "text": "When another character in your squad shares the same Attribute or Faction or is a Rupture or Armorer character:\nWhen the explosion from Koleda's EX Special Attack hits an enemy, it applies a debuff to the target. While the target is Stunned, Chain Attacks deal 35% more DMG to the target. This effect can stack up to 2 times and resets when the Stunned effect ends."
+                    "text": "When another character in your squad shares the same Attribute or Faction or is a Rupture or Armorer character:\nWhen the explosion from Koleda's EX Special Attack hits an enemy, it applies a debuff to the target. While the target is Stunned, Chain Attacks deal 35% more DMG to the target. This effect can stack up to 2 times and resets when the Stunned effect ends.",
+                    "format": [
+                      {
+                        "start": 82,
+                        "end": 89,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 93,
+                        "end": 100,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 145,
+                        "end": 162,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 242,
+                        "end": 255,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
                   },
                   {
                     "label": "Lv. 6",
-                    "text": "When another character in your squad shares the same Attribute or Faction or is a Rupture character:\nWhen the explosion from Koleda's EX Special Attack hits an enemy, it applies a debuff to the target. While the target is Stunned, Chain Attacks deal 35% more DMG to the target. This effect can stack up to 2 times and resets when the Stunned effect ends."
+                    "text": "When another character in your squad shares the same Attribute or Faction or is a Rupture character:\nWhen the explosion from Koleda's EX Special Attack hits an enemy, it applies a debuff to the target. While the target is Stunned, Chain Attacks deal 35% more DMG to the target. This effect can stack up to 2 times and resets when the Stunned effect ends.",
+                    "format": [
+                      {
+                        "start": 82,
+                        "end": 89,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 134,
+                        "end": 151,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 231,
+                        "end": 244,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
                   },
                   {
                     "label": "Lv. 6",
-                    "text": "When another character in your squad shares the same Attribute or Faction or is a Rupture or Armorer character:\nWhen the explosion from Koleda's EX Special Attack hits an enemy, it applies a debuff to the target. While the target is Stunned, Chain Attacks deal 35% more DMG to the target. This effect can stack up to 2 times and resets when the Stunned effect ends."
+                    "text": "When another character in your squad shares the same Attribute or Faction or is a Rupture or Armorer character:\nWhen the explosion from Koleda's EX Special Attack hits an enemy, it applies a debuff to the target. While the target is Stunned, Chain Attacks deal 35% more DMG to the target. This effect can stack up to 2 times and resets when the Stunned effect ends.",
+                    "format": [
+                      {
+                        "start": 82,
+                        "end": 89,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 93,
+                        "end": 100,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 145,
+                        "end": 162,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 242,
+                        "end": 255,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
                   },
                   {
                     "label": "Lv. 7",
-                    "text": "When another character in your squad shares the same Attribute or Faction or is a Rupture character:\nWhen the explosion from Koleda's EX Special Attack hits an enemy, it applies a debuff to the target. While the target is Stunned, Chain Attacks deal 35% more DMG to the target. This effect can stack up to 2 times and resets when the Stunned effect ends."
+                    "text": "When another character in your squad shares the same Attribute or Faction or is a Rupture character:\nWhen the explosion from Koleda's EX Special Attack hits an enemy, it applies a debuff to the target. While the target is Stunned, Chain Attacks deal 35% more DMG to the target. This effect can stack up to 2 times and resets when the Stunned effect ends.",
+                    "format": [
+                      {
+                        "start": 82,
+                        "end": 89,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 134,
+                        "end": 151,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 231,
+                        "end": 244,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
                   },
                   {
                     "label": "Lv. 7",
-                    "text": "When another character in your squad shares the same Attribute or Faction or is a Rupture or Armorer character:\nWhen the explosion from Koleda's EX Special Attack hits an enemy, it applies a debuff to the target. While the target is Stunned, Chain Attacks deal 35% more DMG to the target. This effect can stack up to 2 times and resets when the Stunned effect ends."
+                    "text": "When another character in your squad shares the same Attribute or Faction or is a Rupture or Armorer character:\nWhen the explosion from Koleda's EX Special Attack hits an enemy, it applies a debuff to the target. While the target is Stunned, Chain Attacks deal 35% more DMG to the target. This effect can stack up to 2 times and resets when the Stunned effect ends.",
+                    "format": [
+                      {
+                        "start": 82,
+                        "end": 89,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 93,
+                        "end": 100,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 145,
+                        "end": 162,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 242,
+                        "end": 255,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
                   }
                 ]
               }
@@ -6784,32 +10786,176 @@
               {
                 "name": "Beat of the Hammer",
                 "type": "Mindscape 1",
-                "desc": "After the 2nd or 4th hit of Koleda's Basic Attack or her enhanced Basic Attack, quickly use a Special Attack or EX Special Attack to increase the Daze dealt by 15%."
+                "desc": "After the 2nd or 4th hit of Koleda's Basic Attack or her enhanced Basic Attack, quickly use a Special Attack or EX Special Attack to increase the Daze dealt by 15%.",
+                "descFormat": [
+                  {
+                    "start": 37,
+                    "end": 49,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 66,
+                    "end": 78,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 94,
+                    "end": 108,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 112,
+                    "end": 129,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ]
               },
               {
                 "name": "Kinetic Recovery",
                 "type": "Mindscape 2",
-                "desc": "When Koleda's EX Special Attack hits an enemy, she recovers 60 Energy. Can trigger once every 45s."
+                "desc": "When Koleda's EX Special Attack hits an enemy, she recovers 60 Energy. Can trigger once every 45s.",
+                "descFormat": [
+                  {
+                    "start": 14,
+                    "end": 31,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ]
               },
               {
                 "name": "\"Mind Your Own!\"",
                 "type": "Mindscape 3",
-                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2",
+                "descFormat": [
+                  {
+                    "start": 0,
+                    "end": 12,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 14,
+                    "end": 19,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 21,
+                    "end": 27,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 29,
+                    "end": 43,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 49,
+                    "end": 61,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ]
               },
               {
                 "name": "Furnace's Glow",
                 "type": "Mindscape 4",
-                "desc": "Koleda gains one stack of Charge (max 2 stacks) when consuming Furnace Fire to use her Enhanced Basic Attack. When her Chain Attack: Natural Disaster or Ultimate: Hammerquake hits an enemy, she consumes all stacks of Charge to increase the attack's DMG by 18% per stack."
+                "desc": "Koleda gains one stack of Charge (max 2 stacks) when consuming Furnace Fire to use her Enhanced Basic Attack. When her Chain Attack: Natural Disaster or Ultimate: Hammerquake hits an enemy, she consumes all stacks of Charge to increase the attack's DMG by 18% per stack.",
+                "descFormat": [
+                  {
+                    "start": 63,
+                    "end": 75,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  },
+                  {
+                    "start": 96,
+                    "end": 108,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 119,
+                    "end": 149,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 153,
+                    "end": 174,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ]
               },
               {
                 "name": "\"You Dare Underestimate Me?\"",
                 "type": "Mindscape 5",
-                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2",
+                "descFormat": [
+                  {
+                    "start": 0,
+                    "end": 12,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 14,
+                    "end": 19,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 21,
+                    "end": 27,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 29,
+                    "end": 43,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 49,
+                    "end": 61,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ]
               },
               {
                 "name": "Saturated Blast",
                 "type": "Mindscape 6",
-                "desc": "When EX Special Attack, Chain Attack, or Ultimate triggers an explosion that hits an enemy, it deals additional DMG equal to 360% of Koleda's ATK."
+                "desc": "When EX Special Attack, Chain Attack, or Ultimate triggers an explosion that hits an enemy, it deals additional DMG equal to 360% of Koleda's ATK.",
+                "descFormat": [
+                  {
+                    "start": 5,
+                    "end": 22,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 24,
+                    "end": 36,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 41,
+                    "end": 49,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ]
               }
             ]
           }

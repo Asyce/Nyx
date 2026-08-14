@@ -4,15 +4,15 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-08-14T03:17:38.406Z",
+  "generatedAt": "2026-08-14T03:57:13.938Z",
   "codes": {
-    "updated": "2026-08-13T17:51:31.335Z",
+    "updated": "2026-08-14T03:56:57.589Z",
     "maxAgeDays": 28,
     "games": {
       "gi": [
         {
           "code": "GS70XRNWFB",
-          "reward": "Mora x 30000, Hero's Wit x 3, Fine Enhancement Ore x 5",
+          "reward": "30000 Mora, 3 Hero S Wit, 5 Fine Enhancement Ore",
           "premium": false,
           "premiumCurrency": {
             "name": "Primogems",
@@ -25,8 +25,8 @@ var NYX_DB = {
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=GS70XRNWFB"
         },
         {
-          "code": "MySnezhnayaCareer",
-          "reward": "160 Primogem, 20000 Mora, 3 Hero's Wit",
+          "code": "MYSNEZHNAYACAREER",
+          "reward": "160 Primogem, 20000 Mora, 3 Hero S Wit",
           "premium": true,
           "premiumCurrency": {
             "name": "Primogems",
@@ -35,8 +35,8 @@ var NYX_DB = {
           },
           "added": "2026-08-13",
           "firstSeen": "2026-08-13T07:48:02.606Z",
-          "sourceUrl": "https://www.crimsonwitch.com/codes/Genshin_Impact",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=MySnezhnayaCareer"
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=MYSNEZHNAYACAREER",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=MYSNEZHNAYACAREER"
         },
         {
           "code": "XVIZDH2B9WGX",
@@ -5509,7 +5509,7 @@ var NYX_DB = {
       "codes": [
         {
           "code": "GS70XRNWFB",
-          "reward": "Mora x 30000, Hero's Wit x 3, Fine Enhancement Ore x 5",
+          "reward": "30000 Mora, 3 Hero S Wit, 5 Fine Enhancement Ore",
           "premium": false,
           "premiumCurrency": {
             "name": "Primogems",
@@ -5522,8 +5522,8 @@ var NYX_DB = {
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=GS70XRNWFB"
         },
         {
-          "code": "MySnezhnayaCareer",
-          "reward": "160 Primogem, 20000 Mora, 3 Hero's Wit",
+          "code": "MYSNEZHNAYACAREER",
+          "reward": "160 Primogem, 20000 Mora, 3 Hero S Wit",
           "premium": true,
           "premiumCurrency": {
             "name": "Primogems",
@@ -5532,8 +5532,8 @@ var NYX_DB = {
           },
           "added": "2026-08-13",
           "firstSeen": "2026-08-13T07:48:02.606Z",
-          "sourceUrl": "https://www.crimsonwitch.com/codes/Genshin_Impact",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=MySnezhnayaCareer"
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=MYSNEZHNAYACAREER",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=MYSNEZHNAYACAREER"
         },
         {
           "code": "XVIZDH2B9WGX",

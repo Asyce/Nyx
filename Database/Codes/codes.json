@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T17:51:31.335Z",
+  "generatedAt": "2026-08-14T03:56:57.589Z",
   "maxAgeDays": 28,
   "games": [
     {
@@ -9,27 +9,23 @@
       "redeemBase": "https://genshin.hoyoverse.com/en/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/GI/codes/",
-      "lastSuccessfulFetch": "2026-08-13T17:51:31.335Z",
+      "lastSuccessfulFetch": "2026-08-14T03:56:57.551Z",
       "codes": [
         {
           "code": "GS70XRNWFB",
-          "rewards": "Mora x 30000, Hero's Wit x 3, Fine Enhancement Ore x 5",
+          "rewards": "30000 Mora, 3 Hero S Wit, 5 Fine Enhancement Ore",
           "added": "2026-08-13",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=GS70XRNWFB",
-          "hoyoVerified": true,
           "premium": false,
           "premium100": false,
           "cwSeen": true,
           "firstSeen": "2026-08-13T07:48:02.606Z"
         },
         {
-          "code": "MySnezhnayaCareer",
-          "rewards": "160 Primogem, 20000 Mora, 3 Hero's Wit",
+          "code": "MYSNEZHNAYACAREER",
+          "rewards": "160 Primogem, 20000 Mora, 3 Hero S Wit",
           "added": "2026-08-13",
-          "sourceUrl": "https://www.crimsonwitch.com/codes/Genshin_Impact",
-          "regionLocked": null,
-          "expires": null,
-          "variants": [],
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=MYSNEZHNAYACAREER",
           "premium": true,
           "premium100": false,
           "cwSeen": true,
@@ -153,7 +149,7 @@
       "redeemBase": "https://hsr.hoyoverse.com/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/HSR/codes/",
-      "lastSuccessfulFetch": "2026-08-13T17:51:30.958Z",
+      "lastSuccessfulFetch": "2026-08-14T03:56:57.589Z",
       "codes": [
         {
           "code": "4TKSX77Y58QK",
@@ -282,7 +278,7 @@
       "redeemBase": "https://zenless.hoyoverse.com/redemption?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/ZZZ/codes/",
-      "lastSuccessfulFetch": "2026-08-13T17:51:31.293Z",
+      "lastSuccessfulFetch": "2026-08-14T03:56:57.101Z",
       "codes": [
         {
           "code": "ZENLESSGIFT",
@@ -334,7 +330,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Terminal > Settings > Other Settings > Redemption Code",
       "sourceUrl": "https://nexus-codes.app/games/WUWA/codes/",
-      "lastSuccessfulFetch": "2026-08-13T17:51:30.855Z",
+      "lastSuccessfulFetch": "2026-08-14T03:56:56.973Z",
       "codes": [
         {
           "code": "ETERNALFLAME",
@@ -388,7 +384,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Settings > Account > Exchange Code",
       "sourceUrl": "https://nexus-codes.app/games/ARKEN/codes/",
-      "lastSuccessfulFetch": "2026-08-13T17:51:30.906Z",
+      "lastSuccessfulFetch": "2026-08-14T03:56:56.999Z",
       "codes": [
         {
           "code": "ENDFIELDRENEW",

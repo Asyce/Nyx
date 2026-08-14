@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "5db8a4cf4b14c945eae339e0a647b063f2dd2b63406797416388a6f9ec8c6768",
-  "generatedAt": "2026-08-14T10:34:00.405Z",
+  "revision": "8c14195b1e6b5fbf1531d89fcbe5e2b4ab2f03da468b87b32e94729a4b8ecea9",
+  "generatedAt": "2026-08-14T12:42:55.198Z",
   "health": {
     "status": "ok",
     "games": {
@@ -43,7 +43,7 @@
         "remaining": {
           "startsAt": "2026-08-12T03:00:00.000Z",
           "endsAt": "2026-09-01T09:59:59.000Z",
-          "durationSeconds": 1553158
+          "durationSeconds": 1545423
         },
         "characters": [
           {
@@ -537,7 +537,7 @@
         "remaining": {
           "startsAt": "2026-08-05T11:00:00.000Z",
           "endsAt": "2026-08-25T14:00:00.000Z",
-          "durationSeconds": 962759
+          "durationSeconds": 955024
         },
         "characters": [
           {
@@ -1081,6 +1081,12 @@
       ],
       "codes": [
         {
+          "code": "LSJ9JARPZH33",
+          "added": "2026-08-14",
+          "amount": 100,
+          "currency": "Stellar Jade"
+        },
+        {
           "code": "5S6ZHRWTDNJB",
           "added": "2026-08-11",
           "amount": 60,
@@ -1103,12 +1109,6 @@
           "added": "2026-08-11",
           "amount": 60,
           "currency": "Stellar Jade"
-        },
-        {
-          "code": "IFYOUAREREADINGTHIS",
-          "added": "2026-08-11",
-          "amount": 60,
-          "currency": "Stellar Jade"
         }
       ]
     },
@@ -1122,7 +1122,7 @@
         "remaining": {
           "startsAt": "2026-07-29T03:00:00.000Z",
           "endsAt": "2026-08-19T03:59:59.000Z",
-          "durationSeconds": 408358
+          "durationSeconds": 400623
         },
         "characters": [
           {
@@ -1769,7 +1769,7 @@
         "remaining": {
           "startsAt": "2026-07-30T09:00:00.000Z",
           "endsAt": "2026-08-19T10:59:00.000Z",
-          "durationSeconds": 433499
+          "durationSeconds": 425764
         },
         "characters": [
           {
@@ -2357,7 +2357,7 @@
         "remaining": {
           "startsAt": "2026-08-09T04:00:00.000Z",
           "endsAt": "2026-09-01T21:59:59.000Z",
-          "durationSeconds": 1596358
+          "durationSeconds": 1588623
         },
         "characters": [
           {

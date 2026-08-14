@@ -2211,6 +2211,321 @@
             ]
           }
         ],
+        "ascensionStages": [
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "41100041",
+                "name": "LF Polygon Core",
+                "qty": 4,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_004_1_UI.webp",
+                "source": "Clamorlings or Tranquilites / Forgery Challenge / Masked Reverie",
+                "sourceDetails": [
+                  {
+                    "name": "Clamorlings or Tranquilites"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  },
+                  {
+                    "name": "Masked Reverie"
+                  }
+                ]
+              }
+            ],
+            "cost": 5000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "41100042",
+                "name": "MF Polygon Core",
+                "qty": 4,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_004_2_UI.webp",
+                "source": "Clamorlings or Tranquilites / Forgery Challenge / Masked Reverie",
+                "sourceDetails": [
+                  {
+                    "name": "Clamorlings or Tranquilites"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  },
+                  {
+                    "name": "Masked Reverie"
+                  }
+                ]
+              },
+              {
+                "id": "41400174",
+                "name": "Platinum Core",
+                "qty": 3,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_006_UI.webp",
+                "source": "Sentry Construct / Sentry Construct - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Sentry Construct",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_33012_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601150",
+                "name": "Sword Acorus",
+                "qty": 4,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_044_UI.webp",
+                "source": "Collection Spots / Rosemary's Apothecary / Overworld Collection",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Rosemary's Apothecary"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  }
+                ]
+              }
+            ],
+            "cost": 10000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "41100042",
+                "name": "MF Polygon Core",
+                "qty": 8,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_004_2_UI.webp",
+                "source": "Clamorlings or Tranquilites / Forgery Challenge / Masked Reverie",
+                "sourceDetails": [
+                  {
+                    "name": "Clamorlings or Tranquilites"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  },
+                  {
+                    "name": "Masked Reverie"
+                  }
+                ]
+              },
+              {
+                "id": "41400174",
+                "name": "Platinum Core",
+                "qty": 6,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_006_UI.webp",
+                "source": "Sentry Construct / Sentry Construct - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Sentry Construct",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_33012_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601150",
+                "name": "Sword Acorus",
+                "qty": 8,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_044_UI.webp",
+                "source": "Collection Spots / Rosemary's Apothecary / Overworld Collection",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Rosemary's Apothecary"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  }
+                ]
+              }
+            ],
+            "cost": 15000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "41100043",
+                "name": "HF Polygon Core",
+                "qty": 4,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_004_3_UI.webp",
+                "source": "Clamorlings or Tranquilites",
+                "sourceDetails": [
+                  {
+                    "name": "Clamorlings or Tranquilites"
+                  }
+                ]
+              },
+              {
+                "id": "41400174",
+                "name": "Platinum Core",
+                "qty": 9,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_006_UI.webp",
+                "source": "Sentry Construct / Sentry Construct - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Sentry Construct",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_33012_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601150",
+                "name": "Sword Acorus",
+                "qty": 12,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_044_UI.webp",
+                "source": "Collection Spots / Rosemary's Apothecary / Overworld Collection",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Rosemary's Apothecary"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  }
+                ]
+              }
+            ],
+            "cost": 20000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "41100043",
+                "name": "HF Polygon Core",
+                "qty": 8,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_004_3_UI.webp",
+                "source": "Clamorlings or Tranquilites",
+                "sourceDetails": [
+                  {
+                    "name": "Clamorlings or Tranquilites"
+                  }
+                ]
+              },
+              {
+                "id": "41400174",
+                "name": "Platinum Core",
+                "qty": 12,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_006_UI.webp",
+                "source": "Sentry Construct / Sentry Construct - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Sentry Construct",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_33012_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601150",
+                "name": "Sword Acorus",
+                "qty": 16,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_044_UI.webp",
+                "source": "Collection Spots / Rosemary's Apothecary / Overworld Collection",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Rosemary's Apothecary"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  }
+                ]
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 90,
+            "items": [
+              {
+                "id": "41100044",
+                "name": "FF Polygon Core",
+                "qty": 4,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_004_4_UI.webp",
+                "source": "Clamorlings or Tranquilites",
+                "sourceDetails": [
+                  {
+                    "name": "Clamorlings or Tranquilites"
+                  }
+                ]
+              },
+              {
+                "id": "41400174",
+                "name": "Platinum Core",
+                "qty": 16,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_006_UI.webp",
+                "source": "Sentry Construct / Sentry Construct - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Sentry Construct",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_33012_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601150",
+                "name": "Sword Acorus",
+                "qty": 20,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_044_UI.webp",
+                "source": "Collection Spots / Rosemary's Apothecary / Overworld Collection",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Rosemary's Apothecary"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  }
+                ]
+              }
+            ],
+            "cost": 80000
+          }
+        ],
         "talents": [
           {
             "id": "41100041",
@@ -5004,6 +5319,318 @@
                 "name": "Huaxu Apothecary"
               }
             ]
+          }
+        ],
+        "ascensionStages": [
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "41100091",
+                "name": "LF Autopuppet Kernel",
+                "qty": 4,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_013_1_UI.webp",
+                "source": "Autopuppets / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Autopuppet Scout",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_1003_UI.webp"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              }
+            ],
+            "cost": 5000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "41100092",
+                "name": "MF Autopuppet Kernel",
+                "qty": 4,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_013_2_UI.webp",
+                "source": "Autopuppets / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Autopuppet Scout",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_1003_UI.webp"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400334",
+                "name": "Solidarity's Loneflame",
+                "qty": 3,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_029_UI.webp",
+                "source": "Myriad Snare: Rustfire Chassis / Myriad Snare: Rustfire Chassis - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Myriad Snare: Rustfire Chassis",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34030_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601610",
+                "name": "Flowborne Dream",
+                "qty": 4,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_087_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Huaxu Apothecary",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Huaxu Apothecary"
+                  }
+                ]
+              }
+            ],
+            "cost": 10000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "41100092",
+                "name": "MF Autopuppet Kernel",
+                "qty": 8,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_013_2_UI.webp",
+                "source": "Autopuppets / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Autopuppet Scout",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_1003_UI.webp"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400334",
+                "name": "Solidarity's Loneflame",
+                "qty": 6,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_029_UI.webp",
+                "source": "Myriad Snare: Rustfire Chassis / Myriad Snare: Rustfire Chassis - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Myriad Snare: Rustfire Chassis",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34030_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601610",
+                "name": "Flowborne Dream",
+                "qty": 8,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_087_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Huaxu Apothecary",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Huaxu Apothecary"
+                  }
+                ]
+              }
+            ],
+            "cost": 15000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "41100093",
+                "name": "HF Autopuppet Kernel",
+                "qty": 4,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_013_3_UI.webp",
+                "source": "Autopuppets",
+                "sourceDetails": [
+                  {
+                    "name": "Autopuppet Scout",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_1003_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "41400334",
+                "name": "Solidarity's Loneflame",
+                "qty": 9,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_029_UI.webp",
+                "source": "Myriad Snare: Rustfire Chassis / Myriad Snare: Rustfire Chassis - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Myriad Snare: Rustfire Chassis",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34030_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601610",
+                "name": "Flowborne Dream",
+                "qty": 12,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_087_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Huaxu Apothecary",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Huaxu Apothecary"
+                  }
+                ]
+              }
+            ],
+            "cost": 20000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "41100093",
+                "name": "HF Autopuppet Kernel",
+                "qty": 8,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_013_3_UI.webp",
+                "source": "Autopuppets",
+                "sourceDetails": [
+                  {
+                    "name": "Autopuppet Scout",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_1003_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "41400334",
+                "name": "Solidarity's Loneflame",
+                "qty": 12,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_029_UI.webp",
+                "source": "Myriad Snare: Rustfire Chassis / Myriad Snare: Rustfire Chassis - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Myriad Snare: Rustfire Chassis",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34030_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601610",
+                "name": "Flowborne Dream",
+                "qty": 16,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_087_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Huaxu Apothecary",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Huaxu Apothecary"
+                  }
+                ]
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 90,
+            "items": [
+              {
+                "id": "41100094",
+                "name": "FF Autopuppet Kernel",
+                "qty": 4,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_013_4_UI.webp",
+                "source": "Autopuppets",
+                "sourceDetails": [
+                  {
+                    "name": "Autopuppet Scout",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_1003_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "41400334",
+                "name": "Solidarity's Loneflame",
+                "qty": 16,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_029_UI.webp",
+                "source": "Myriad Snare: Rustfire Chassis / Myriad Snare: Rustfire Chassis - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Myriad Snare: Rustfire Chassis",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34030_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601610",
+                "name": "Flowborne Dream",
+                "qty": 20,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_087_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Huaxu Apothecary",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Huaxu Apothecary"
+                  }
+                ]
+              }
+            ],
+            "cost": 80000
           }
         ],
         "talents": [

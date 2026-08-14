@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "game": "zzz",
+  "generatedAt": "2026-08-14T11:41:08.650Z",
+  "source": {
+    "wiki": "https://zenless-zone-zero.fandom.com/api.php",
+    "page": "Agent EXP Material",
+    "section": "Agent Leveling"
+  },
+  "currency": null,
+  "maxLevel": 60,
+  "stages": [
+    {
+      "cap": 10,
+      "exp": 6000,
+      "cost": 0,
+      "items": [
+        {
+          "id": "300003",
+          "name": "Senior Investigator Log",
+          "qty": 2,
+          "rarity": 3,
+          "icon": "GameData/zzz/assets/items/RoleExp03.webp"
+        }
+      ]
+    },
+    {
+      "cap": 20,
+      "exp": 30000,
+      "cost": 0,
+      "items": [
+        {
+          "id": "300003",
+          "name": "Senior Investigator Log",
+          "qty": 10,
+          "rarity": 3,
+          "icon": "GameData/zzz/assets/items/RoleExp03.webp"
+        }
+      ]
+    },
+    {
+      "cap": 30,
+      "exp": 90000,
+      "cost": 0,
+      "items": [
+        {
+          "id": "300003",
+          "name": "Senior Investigator Log",
+          "qty": 30,
+          "rarity": 3,
+          "icon": "GameData/zzz/assets/items/RoleExp03.webp"
+        }
+      ]
+    },
+    {
+      "cap": 40,
+      "exp": 225000,
+      "cost": 0,
+      "items": [
+        {
+          "id": "300003",
+          "name": "Senior Investigator Log",
+          "qty": 75,
+          "rarity": 3,
+          "icon": "GameData/zzz/assets/items/RoleExp03.webp"
+        }
+      ]
+    },
+    {
+      "cap": 50,
+      "exp": 450000,
+      "cost": 0,
+      "items": [
+        {
+          "id": "300003",
+          "name": "Senior Investigator Log",
+          "qty": 150,
+          "rarity": 3,
+          "icon": "GameData/zzz/assets/items/RoleExp03.webp"
+        }
+      ]
+    },
+    {
+      "cap": 60,
+      "exp": 900000,
+      "cost": 0,
+      "items": [
+        {
+          "id": "300003",
+          "name": "Senior Investigator Log",
+          "qty": 300,
+          "rarity": 3,
+          "icon": "GameData/zzz/assets/items/RoleExp03.webp"
+        }
+      ]
+    }
+  ]
+}

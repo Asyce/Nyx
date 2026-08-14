@@ -207,3 +207,80 @@ test('emergency date conditions compare R2 upload time at HTTP whole-second prec
   }), env, {});
   assert.equal(writeThenCache.status, 304);
 });
+
+/* ---- /api/asset/<key>: same-origin proxy for the gallery lightbox ----
+   The page CSP is `connect-src 'self'`, so the gallery cannot fetch bytes
+   straight from assets.pengo.gg to build a download or a clipboard image.
+   This route exists only to bridge that, and must stay narrow enough that it
+   can never be used as a general-purpose proxy. */
+
+const OBJECT_KEY = `objects/sha256/ab/${'a'.repeat(64)}.webp`;
+
+function stubAssetFetch(recorder, response) {
+  const original = globalThis.fetch;
+  globalThis.fetch = async (input, init) => {
+    recorder.push({ url: String(input), method: init?.method });
+    return response();
+  };
+  return () => { globalThis.fetch = original; };
+}
+
+test('the asset proxy streams a content-addressed object back from the site origin', async () => {
+  const calls = [];
+  const restore = stubAssetFetch(calls, () => new Response('image bytes', {
+    status: 200,
+    headers: { 'Content-Type': 'image/webp', 'Content-Length': '11' },
+  }));
+  try {
+    const response = await worker.fetch(new Request(`https://pengo.gg/api/asset/${OBJECT_KEY}`), {}, {});
+    assert.equal(response.status, 200);
+    assert.equal(await response.text(), 'image bytes');
+    assert.equal(response.headers.get('content-type'), 'image/webp');
+    assert.equal(response.headers.get('x-content-type-options'), 'nosniff');
+    // No Access-Control-Allow-Origin: this is for our own page, not other sites.
+    assert.equal(response.headers.get('access-control-allow-origin'), null);
+    assert.deepEqual(calls.map((call) => call.url), [`https://assets.pengo.gg/${OBJECT_KEY}`]);
+  } finally {
+    restore();
+  }
+});
+
+test('the asset proxy refuses anything that is not a content-addressed object key', async () => {
+  const calls = [];
+  const restore = stubAssetFetch(calls, () => new Response('should never be fetched', { status: 200 }));
+  try {
+    const rejected = [
+      '/api/asset/legacy/Database/Art/Hero.png',        // legacy alias, not an object key
+      '/api/asset/objects/sha256/ab/short.webp',        // malformed hash
+      `/api/asset/objects/sha256/ab/${'a'.repeat(64)}.svg`, // scriptable type
+      `/api/asset/objects/sha256/AB/${'A'.repeat(64)}.webp`, // wrong case
+      `/api/asset/objects/sha256/ab/${'a'.repeat(64)}.webp/../../../secret`,
+    ];
+    for (const path of rejected) {
+      const response = await worker.fetch(new Request(`https://pengo.gg${path}`), {}, {});
+      assert.equal(response.status, 400, `expected 400 for ${path}`);
+    }
+    // A dot-segment escape never even reaches the handler: the URL parser
+    // normalises it out of the /api/asset/ prefix, so it falls through to 404.
+    const traversal = await worker.fetch(new Request('https://pengo.gg/api/asset/../../etc/passwd'), {}, {});
+    assert.equal(traversal.status, 404);
+    assert.deepEqual(calls, [], 'no upstream request may be made for a rejected key');
+  } finally {
+    restore();
+  }
+});
+
+test('the asset proxy is read-only and reports a missing object honestly', async () => {
+  const calls = [];
+  const restore = stubAssetFetch(calls, () => new Response('nope', { status: 404 }));
+  try {
+    const post = await worker.fetch(new Request(`https://pengo.gg/api/asset/${OBJECT_KEY}`, { method: 'POST' }), {}, {});
+    assert.equal(post.status, 405);
+    assert.equal(calls.length, 0);
+
+    const missing = await worker.fetch(new Request(`https://pengo.gg/api/asset/${OBJECT_KEY}`), {}, {});
+    assert.equal(missing.status, 404);
+  } finally {
+    restore();
+  }
+});

@@ -2984,6 +2984,108 @@
             ]
           }
         ],
+        "ascensionStages": [
+          {
+            "cap": 20,
+            "items": [
+              {
+                "id": "100211",
+                "name": "Basic Attack Certification Seal",
+                "qty": 4,
+                "rar": 1,
+                "kind": "gem",
+                "icon": "../../Database/GameData/zzz/assets/items/AvatarRankDamage01.webp",
+                "source": "Combat Simulation - Agent Promotion",
+                "sourceDetails": [
+                  {
+                    "name": "Combat Simulation - Agent Promotion"
+                  }
+                ]
+              }
+            ],
+            "cost": 24000
+          },
+          {
+            "cap": 30,
+            "items": [
+              {
+                "id": "100221",
+                "name": "Advanced Attack Certification Seal",
+                "qty": 12,
+                "rar": 3,
+                "kind": "gem",
+                "icon": "../../Database/GameData/zzz/assets/items/AvatarRankDamage02.webp",
+                "source": "Combat Simulation - Agent Promotion",
+                "sourceDetails": [
+                  {
+                    "name": "Combat Simulation - Agent Promotion"
+                  }
+                ]
+              }
+            ],
+            "cost": 56000
+          },
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "100221",
+                "name": "Advanced Attack Certification Seal",
+                "qty": 20,
+                "rar": 3,
+                "kind": "gem",
+                "icon": "../../Database/GameData/zzz/assets/items/AvatarRankDamage02.webp",
+                "source": "Combat Simulation - Agent Promotion",
+                "sourceDetails": [
+                  {
+                    "name": "Combat Simulation - Agent Promotion"
+                  }
+                ]
+              }
+            ],
+            "cost": 120000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "100231",
+                "name": "Pioneer's Certification Seal",
+                "qty": 10,
+                "rar": 4,
+                "kind": "gem",
+                "icon": "../../Database/GameData/zzz/assets/items/AvatarRankDamage03.webp",
+                "source": "Combat Simulation - Agent Promotion",
+                "sourceDetails": [
+                  {
+                    "name": "Combat Simulation - Agent Promotion"
+                  }
+                ]
+              }
+            ],
+            "cost": 200000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "100231",
+                "name": "Pioneer's Certification Seal",
+                "qty": 20,
+                "rar": 4,
+                "kind": "gem",
+                "icon": "../../Database/GameData/zzz/assets/items/AvatarRankDamage03.webp",
+                "source": "Combat Simulation - Agent Promotion",
+                "sourceDetails": [
+                  {
+                    "name": "Combat Simulation - Agent Promotion"
+                  }
+                ]
+              }
+            ],
+            "cost": 400000
+          }
+        ],
         "talents": [
           {
             "id": "100113",
@@ -7147,6 +7249,108 @@
             ]
           }
         ],
+        "ascensionStages": [
+          {
+            "cap": 20,
+            "items": [
+              {
+                "id": "100216",
+                "name": "Basic Rupture Certification Seal",
+                "qty": 4,
+                "rar": 1,
+                "kind": "gem",
+                "icon": "../../Database/GameData/zzz/assets/items/AvatarRankRuin01.webp",
+                "source": "Combat Simulation - Agent Promotion",
+                "sourceDetails": [
+                  {
+                    "name": "Combat Simulation - Agent Promotion"
+                  }
+                ]
+              }
+            ],
+            "cost": 24000
+          },
+          {
+            "cap": 30,
+            "items": [
+              {
+                "id": "100226",
+                "name": "Advanced Rupture Certification Seal",
+                "qty": 12,
+                "rar": 3,
+                "kind": "gem",
+                "icon": "../../Database/GameData/zzz/assets/items/AvatarRankRuin02.webp",
+                "source": "Combat Simulation - Agent Promotion",
+                "sourceDetails": [
+                  {
+                    "name": "Combat Simulation - Agent Promotion"
+                  }
+                ]
+              }
+            ],
+            "cost": 56000
+          },
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "100226",
+                "name": "Advanced Rupture Certification Seal",
+                "qty": 20,
+                "rar": 3,
+                "kind": "gem",
+                "icon": "../../Database/GameData/zzz/assets/items/AvatarRankRuin02.webp",
+                "source": "Combat Simulation - Agent Promotion",
+                "sourceDetails": [
+                  {
+                    "name": "Combat Simulation - Agent Promotion"
+                  }
+                ]
+              }
+            ],
+            "cost": 120000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "100236",
+                "name": "Arbiter Certification Seal",
+                "qty": 10,
+                "rar": 4,
+                "kind": "gem",
+                "icon": "../../Database/GameData/zzz/assets/items/AvatarRankRuin03.webp",
+                "source": "Combat Simulation - Agent Promotion",
+                "sourceDetails": [
+                  {
+                    "name": "Combat Simulation - Agent Promotion"
+                  }
+                ]
+              }
+            ],
+            "cost": 200000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "100236",
+                "name": "Arbiter Certification Seal",
+                "qty": 20,
+                "rar": 4,
+                "kind": "gem",
+                "icon": "../../Database/GameData/zzz/assets/items/AvatarRankRuin03.webp",
+                "source": "Combat Simulation - Agent Promotion",
+                "sourceDetails": [
+                  {
+                    "name": "Combat Simulation - Agent Promotion"
+                  }
+                ]
+              }
+            ],
+            "cost": 400000
+          }
+        ],
         "talents": [
           {
             "id": "100110",
@@ -11004,6 +11208,108 @@
                 "name": "Combat Simulation - Agent Promotion"
               }
             ]
+          }
+        ],
+        "ascensionStages": [
+          {
+            "cap": 20,
+            "items": [
+              {
+                "id": "100212",
+                "name": "Basic Stun Certification Seal",
+                "qty": 4,
+                "rar": 1,
+                "kind": "gem",
+                "icon": "../../Database/GameData/zzz/assets/items/AvatarRankStun01.webp",
+                "source": "Combat Simulation - Agent Promotion",
+                "sourceDetails": [
+                  {
+                    "name": "Combat Simulation - Agent Promotion"
+                  }
+                ]
+              }
+            ],
+            "cost": 24000
+          },
+          {
+            "cap": 30,
+            "items": [
+              {
+                "id": "100222",
+                "name": "Advanced Stun Certification Seal",
+                "qty": 12,
+                "rar": 3,
+                "kind": "gem",
+                "icon": "../../Database/GameData/zzz/assets/items/AvatarRankStun02.webp",
+                "source": "Combat Simulation - Agent Promotion",
+                "sourceDetails": [
+                  {
+                    "name": "Combat Simulation - Agent Promotion"
+                  }
+                ]
+              }
+            ],
+            "cost": 56000
+          },
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "100222",
+                "name": "Advanced Stun Certification Seal",
+                "qty": 20,
+                "rar": 3,
+                "kind": "gem",
+                "icon": "../../Database/GameData/zzz/assets/items/AvatarRankStun02.webp",
+                "source": "Combat Simulation - Agent Promotion",
+                "sourceDetails": [
+                  {
+                    "name": "Combat Simulation - Agent Promotion"
+                  }
+                ]
+              }
+            ],
+            "cost": 120000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "100232",
+                "name": "Buster Certification Seal",
+                "qty": 10,
+                "rar": 4,
+                "kind": "gem",
+                "icon": "../../Database/GameData/zzz/assets/items/AvatarRankStun03.webp",
+                "source": "Combat Simulation - Agent Promotion",
+                "sourceDetails": [
+                  {
+                    "name": "Combat Simulation - Agent Promotion"
+                  }
+                ]
+              }
+            ],
+            "cost": 200000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "100232",
+                "name": "Buster Certification Seal",
+                "qty": 20,
+                "rar": 4,
+                "kind": "gem",
+                "icon": "../../Database/GameData/zzz/assets/items/AvatarRankStun03.webp",
+                "source": "Combat Simulation - Agent Promotion",
+                "sourceDetails": [
+                  {
+                    "name": "Combat Simulation - Agent Promotion"
+                  }
+                ]
+              }
+            ],
+            "cost": 400000
           }
         ],
         "talents": [

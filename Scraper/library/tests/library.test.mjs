@@ -104,8 +104,11 @@ function mockLibraryFetch() {
       return { ok:true, json:async () => ({ query:{ categorymembers:Array.from({ length:count }, (_, index) => ({ pageid:index + 1, ns:0, title:`${game} Book ${index}` })) } }) };
     }
     const titles = (parsed.searchParams.get('titles') || '').split('|');
-    return { ok:true, json:async () => ({ query:{ pages:titles.map((title, index) => ({
-      pageid:index + 1, ns:0, title, fullurl:`https://wiki.test/${encodeURIComponent(title)}`,
+    // Page ids are globally unique on a real wiki and are what the Library sorts
+    // on, so derive them from the title rather than the position in this batch
+    // (batches are 40 titles wide, so per-batch indexes would collide).
+    return { ok:true, json:async () => ({ query:{ pages:titles.map((title) => ({
+      pageid:Number(String(title).match(/(\d+)$/)?.[1] ?? 0) + 1, ns:0, title, fullurl:`https://wiki.test/${encodeURIComponent(title)}`,
       thumbnail:{ source:'https://icons.test/shared.webp' },
       revisions:[{ slots:{ main:{ content:game === 'gi'
         ? `{{Book Collection Infobox\n|image=Shared.png\n}}\n==Vol. 1==\nFirst volume ${title.endsWith('0') ? 'Tanuki' : ''}\n==Vol 2==\nSecond volume`
@@ -126,6 +129,11 @@ test('full sync dedupes category rows and shared icons while preserving multi-vo
   assert.equal(JSON.parse(fs.readFileSync(path.join(rootDir, 'Database', 'Library', 'hsr', 'hsr-book-0.json'))).volumes.length, 2);
   const hsrIndex = JSON.parse(fs.readFileSync(path.join(rootDir, 'Database', 'Library', 'hsr', 'index.json')));
   assert.equal(hsrIndex.entries.some((row) => /^\||'{2}/.test(row.name)), false);
+  // Every entry carries the wiki page id, which is what the Library sorts on to
+  // put the newest book first — without it the list can only be alphabetical.
+  const giIndex = JSON.parse(fs.readFileSync(path.join(rootDir, 'Database', 'Library', 'gi', 'index.json')));
+  assert.equal(giIndex.entries.every((row) => Number.isInteger(row.sortId) && row.sortId > 0), true, 'every book has a sortId');
+  assert.equal(new Set(giIndex.entries.map((row) => row.sortId)).size, giIndex.entries.length, 'sortIds are distinct');
   const giSearch = JSON.parse(fs.readFileSync(path.join(rootDir, 'Database', 'Library', 'gi', 'search-index.json')));
   const hsrSearch = JSON.parse(fs.readFileSync(path.join(rootDir, 'Database', 'Library', 'hsr', 'search-index.json')));
   assert.equal(nyxLibrarySearchMatches(giSearch, 'tanu').get('gi-book-0')?.volumeKey, 'vol-1');

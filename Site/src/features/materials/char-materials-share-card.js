@@ -10,108 +10,9 @@ const NYX_MATERIALS_CARD_TILES_PER_LINE = 8;
 const NYX_MATERIALS_CARD_MAX_LEVEL = { gi:90, hsr:80, zzz:60, wuwa:90, ae:80 };
 const NYX_MATERIALS_CARD_ROUTES = { gi:'genshin', hsr:'hsr', zzz:'zzz', wuwa:'wuwa', ae:'endfield' };
 
-// Max-level EXP packs. Nanoka supplies the local icons and GI/ZZZ/WuWa curves;
-// missing totals are fixed from the HSR, WuWa, and Endfield wiki leveling tables.
-const NYX_MATERIALS_CARD_LEVELING = {
-  gi:{
-    character:{ cost:1673400, items:[
-      { id:'104001', name:"Wanderer's Advice", qty:12, rar:2, kind:'exp', icon:'../../Database/GameData/gi/assets/items/UI_ItemIcon_104001.webp' },
-      { id:'104002', name:"Adventurer's Experience", qty:11, rar:3, kind:'exp', icon:'../../Database/GameData/gi/assets/items/UI_ItemIcon_104002.webp' },
-      { id:'104003', name:"Hero's Wit", qty:415, rar:4, kind:'exp', icon:'../../Database/GameData/gi/assets/items/UI_ItemIcon_104003.webp' },
-    ] },
-    weapon:{
-      3:{ cost:398840, items:[
-        { id:'104011', name:'Enhancement Ore', qty:1, rar:1, kind:'exp', icon:'../../Database/GameData/gi/assets/items/UI_ItemIcon_104011.webp' },
-        { id:'104012', name:'Fine Enhancement Ore', qty:4, rar:2, kind:'exp', icon:'../../Database/GameData/gi/assets/items/UI_ItemIcon_104012.webp' },
-        { id:'104013', name:'Mystic Enhancement Ore', qty:398, rar:3, kind:'exp', icon:'../../Database/GameData/gi/assets/items/UI_ItemIcon_104013.webp' },
-      ] },
-      4:{ cost:604280, items:[
-        { id:'104011', name:'Enhancement Ore', qty:2, rar:1, kind:'exp', icon:'../../Database/GameData/gi/assets/items/UI_ItemIcon_104011.webp' },
-        { id:'104012', name:'Fine Enhancement Ore', qty:1, rar:2, kind:'exp', icon:'../../Database/GameData/gi/assets/items/UI_ItemIcon_104012.webp' },
-        { id:'104013', name:'Mystic Enhancement Ore', qty:604, rar:3, kind:'exp', icon:'../../Database/GameData/gi/assets/items/UI_ItemIcon_104013.webp' },
-      ] },
-      5:{ cost:906480, items:[
-        { id:'104011', name:'Enhancement Ore', qty:2, rar:1, kind:'exp', icon:'../../Database/GameData/gi/assets/items/UI_ItemIcon_104011.webp' },
-        { id:'104012', name:'Fine Enhancement Ore', qty:2, rar:2, kind:'exp', icon:'../../Database/GameData/gi/assets/items/UI_ItemIcon_104012.webp' },
-        { id:'104013', name:'Mystic Enhancement Ore', qty:906, rar:3, kind:'exp', icon:'../../Database/GameData/gi/assets/items/UI_ItemIcon_104013.webp' },
-      ] },
-    },
-  },
-  hsr:{
-    character:{ cost:580100, items:[
-      { id:'211', name:'Travel Encounters', qty:16, rar:2, kind:'exp', icon:'../../Database/GameData/hsr/assets/items/211.webp' },
-      { id:'212', name:'Adventure Log', qty:9, rar:3, kind:'exp', icon:'../../Database/GameData/hsr/assets/items/212.webp' },
-      { id:'213', name:"Traveler's Guide", qty:287, rar:4, kind:'exp', icon:'../../Database/GameData/hsr/assets/items/213.webp' },
-    ] },
-    weapon:{
-      3:{ cost:299750, items:[
-        { id:'221', name:'Sparse Aether', qty:7, rar:2, kind:'exp', icon:'../../Database/GameData/hsr/assets/items/221.webp' },
-        { id:'222', name:'Condensed Aether', qty:7, rar:3, kind:'exp', icon:'../../Database/GameData/hsr/assets/items/222.webp' },
-        { id:'223', name:'Refined Aether', qty:97, rar:4, kind:'exp', icon:'../../Database/GameData/hsr/assets/items/223.webp' },
-      ] },
-      4:{ cost:399250, items:[
-        { id:'221', name:'Sparse Aether', qty:9, rar:2, kind:'exp', icon:'../../Database/GameData/hsr/assets/items/221.webp' },
-        { id:'222', name:'Condensed Aether', qty:7, rar:3, kind:'exp', icon:'../../Database/GameData/hsr/assets/items/222.webp' },
-        { id:'223', name:'Refined Aether', qty:130, rar:4, kind:'exp', icon:'../../Database/GameData/hsr/assets/items/223.webp' },
-      ] },
-      5:{ cost:498500, items:[
-        { id:'221', name:'Sparse Aether', qty:14, rar:2, kind:'exp', icon:'../../Database/GameData/hsr/assets/items/221.webp' },
-        { id:'222', name:'Condensed Aether', qty:9, rar:3, kind:'exp', icon:'../../Database/GameData/hsr/assets/items/222.webp' },
-        { id:'223', name:'Refined Aether', qty:162, rar:4, kind:'exp', icon:'../../Database/GameData/hsr/assets/items/223.webp' },
-      ] },
-    },
-  },
-  zzz:{
-    character:{ cost:0, items:[
-      { id:'300003', name:'Senior Investigator Log', qty:300, rar:3, kind:'exp', icon:'../../Database/GameData/zzz/assets/items/RoleExp03.webp' },
-    ] },
-    weapon:{
-      3:{ cost:0, items:[{ id:'301003', name:'W-Engine Energy Module', qty:160, rar:3, kind:'exp', icon:'../../Database/GameData/zzz/assets/items/WeaponExp03.webp' }] },
-      4:{ cost:0, items:[{ id:'301003', name:'W-Engine Energy Module', qty:200, rar:3, kind:'exp', icon:'../../Database/GameData/zzz/assets/items/WeaponExp03.webp' }] },
-    },
-  },
-  wuwa:{
-    character:{ cost:853300, items:[
-      { id:'43010001', name:'Basic Resonance Potion', qty:2, rar:2, kind:'exp', icon:'../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_exp_1_UI.webp' },
-      { id:'43010003', name:'Advanced Resonance Potion', qty:2, rar:4, kind:'exp', icon:'../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_exp_3_UI.webp' },
-      { id:'43010004', name:'Premium Resonance Potion', qty:121, rar:5, kind:'exp', icon:'../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_exp_4_UI.webp' },
-    ] },
-    weapon:{
-      3:{ cost:549600, items:[
-        { id:'43020002', name:'Medium Energy Core', qty:2, rar:3, kind:'exp', icon:'../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Exp_2_UI.webp' },
-        { id:'43020003', name:'Advanced Energy Core', qty:1, rar:4, kind:'exp', icon:'../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Exp_3_UI.webp' },
-        { id:'43020004', name:'Premium Energy Core', qty:68, rar:5, kind:'exp', icon:'../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Exp_4_UI.webp' },
-      ] },
-      4:{ cost:916000, items:[
-        { id:'43020001', name:'Basic Energy Core', qty:2, rar:2, kind:'exp', icon:'../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Exp_1_UI.webp' },
-        { id:'43020003', name:'Advanced Energy Core', qty:1, rar:4, kind:'exp', icon:'../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Exp_3_UI.webp' },
-        { id:'43020004', name:'Premium Energy Core', qty:114, rar:5, kind:'exp', icon:'../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Exp_4_UI.webp' },
-      ] },
-      5:{ cost:1077200, items:[
-        { id:'43020001', name:'Basic Energy Core', qty:2, rar:2, kind:'exp', icon:'../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Exp_1_UI.webp' },
-        { id:'43020002', name:'Medium Energy Core', qty:1, rar:3, kind:'exp', icon:'../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Exp_2_UI.webp' },
-        { id:'43020003', name:'Advanced Energy Core', qty:1, rar:4, kind:'exp', icon:'../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Exp_3_UI.webp' },
-        { id:'43020004', name:'Premium Energy Core', qty:134, rar:5, kind:'exp', icon:'../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Exp_4_UI.webp' },
-      ] },
-    },
-  },
-  ae:{
-    character:{ cost:0, items:[
-      { id:'ae:Elementary_Combat_Record', name:'Elementary Combat Record', qty:1, rar:1, kind:'exp', icon:'../../Database/EndfieldWiki/endfield/material-icons/Elementary_Combat_Record.png' },
-      { id:'ae:Intermediate_Combat_Record', name:'Intermediate Combat Record', qty:7, rar:2, kind:'exp', icon:'../../Database/EndfieldWiki/endfield/material-icons/Intermediate_Combat_Record.png' },
-      { id:'ae:Advanced_Combat_Record', name:'Advanced Combat Record', qty:74, rar:3, kind:'exp', icon:'../../Database/EndfieldWiki/endfield/material-icons/Advanced_Combat_Record.png' },
-      { id:'ae:Elementary_Cognitive_Carrier', name:'Elementary Cognitive Carrier', qty:6, rar:4, kind:'exp', icon:'../../Database/EndfieldWiki/endfield/material-icons/Elementary_Cognitive_Carrier.png' },
-      { id:'ae:Advanced_Cognitive_Carrier', name:'Advanced Cognitive Carrier', qty:46, rar:5, kind:'exp', icon:'../../Database/EndfieldWiki/endfield/material-icons/Advanced_Cognitive_Carrier.png' },
-      { id:'ae:T-Creds', name:'T-Creds', qty:146440, rar:4, kind:'currency', icon:'../../Database/EndfieldWiki/endfield/assets/items/t-creds.png' },
-    ] },
-    weapon:{ default:{ cost:0, items:[
-      { id:'ae:Arms_Inspector', name:'Arms Inspector', qty:4, rar:2, kind:'exp', icon:'../../Database/EndfieldWiki/endfield/material-icons/Arms_Inspector.png' },
-      { id:'ae:Arms_INSP_Kit', name:'Arms INSP Kit', qty:3, rar:3, kind:'exp', icon:'../../Database/EndfieldWiki/endfield/material-icons/Arms_INSP_Kit.png' },
-      { id:'ae:Arms_INSP_Set', name:'Arms INSP Set', qty:120, rar:4, kind:'exp', icon:'../../Database/EndfieldWiki/endfield/material-icons/Arms_INSP_Set.png' },
-      { id:'ae:T-Creds', name:'T-Creds', qty:123850, rar:4, kind:'currency', icon:'../../Database/EndfieldWiki/endfield/assets/items/t-creds.png' },
-    ] } },
-  },
-};
+// Level-up EXP comes from char-materials-leveling.js (nyxCharacterLeveling /
+// nyxWeaponLeveling), which the character page reads too — the two disagreed
+// until 2026-08-14, when only this image added it.
 
 function nyxMaterialsCardQueryValue(value){
   if (value === undefined || value === null) return null;
@@ -160,10 +61,14 @@ function nyxBuildMaterialsCardModel({ gameKey, view, cfg, activeWeapon, midLabel
   const req = cmRequirements(gameKey, view, targets ? { targets } : undefined);
   if (!req) throw new Error('Character material data is unavailable.');
 
-  const leveling = NYX_MATERIALS_CARD_LEVELING[gameKey] || {};
-  const characterLeveling = leveling.character || {};
+  // The card is always the maxed build, so it asks for the same level the
+  // character page's slider sits at when pulled all the way right. Both go
+  // through the one accessor, so the image and the page cannot disagree —
+  // which they did until 2026-08-14, when only the image added level-up EXP.
+  const maxLevel = NYX_MATERIALS_CARD_MAX_LEVEL[gameKey];
+  const characterLeveling = nyxCharacterLeveling(gameKey, maxLevel, maxLevel) || {};
   const weaponLeveling = activeWeapon
-    ? (leveling.weapon?.[Number(activeWeapon.rarity)] || leveling.weapon?.default || {})
+    ? (nyxWeaponLeveling(gameKey, activeWeapon.rarity, maxLevel, maxLevel) || {})
     : {};
   const ascensionItems = gameKey === 'ae' && view.req?.promotionStages?.length
     ? view.req.promotionStages.slice(0, 3).flatMap((stage) => stage.items || [])

@@ -51,7 +51,10 @@ async function loadMaterialsShareCard(){
     cmMetaIconSrc:() => null,
     cmWeaponRowLabel:(gameKey) => gameKey === 'hsr' ? 'Light Cone' : gameKey === 'zzz' ? 'W-Engine' : 'Weapon',
   };
-  vm.runInNewContext(`${await read('src/features/materials/char-materials-share-card.js')}
+  // The EXP table is its own bundle file so the character page and this card
+  // quote the same numbers; load it first, exactly as the bundle order does.
+  vm.runInNewContext(`${await read('src/features/materials/char-materials-leveling.js')}
+    ${await read('src/features/materials/char-materials-share-card.js')}
     this.shareCardApi = { nyxBuildMaterialsCardModel, nyxMaterialsCardFitWrappedText, nyxMaterialsCardUrl, nyxParseMaterialsCardSearch };`, context);
   return { ...context.shareCardApi, requirementCalls, currencyCosts };
 }
@@ -77,12 +80,14 @@ test('Characters tabs share the shell control and pinned favourites stay on Rost
     read('src/styles/game-page-shared.css'),
   ]);
   assert.match(components, /function GPSectionNavButton/);
-  assert.ok((app.match(/<GPSectionNavButton/g) || []).length >= 6, 'game and Nyx shell navigation use the shared control');
+  // Was >= 6; the Beta section was removed from the rail 2026-08-14.
+  assert.ok((app.match(/<GPSectionNavButton/g) || []).length >= 5, 'game and Nyx shell navigation use the shared control');
+  assert.doesNotMatch(app, /label="Beta"/, 'the Beta rail page is gone (user 2026-08-14)');
   assert.match(materials, /<GPSectionNavButton key=\{t\.k\}/);
   assert.match(materials, /curTab === 'roster' && pinnedFavourites/);
   assert.doesNotMatch(materials, /cm-tab-orbit/);
   assert.ok(materials.indexOf('curTab === \'roster\' && pinnedFavourites') > materials.indexOf('<div className="cm-body">'), 'favourites scroll with the roster body');
-  assert.match(materials, /<span className="cm-character-tabs">[\s\S]*className="cm-detail-back"[\s\S]*>Materials<\/button>[\s\S]*>Character Kit<\/button>[\s\S]*>Gallery<\/button>/, 'Back, Materials, Character Kit, and Gallery share one row');
+  assert.match(materials, /<span className="cm-character-tabs">[\s\S]*className="cm-detail-back"[\s\S]*>Materials<\/button>[\s\S]*>Character Kit<\/button>[\s\S]*>Story<\/button>[\s\S]*>Gallery<\/button>/, 'Back, Materials, Character Kit, Story, and Gallery share one row, in that order');
   // 2026-08-09: tabs hug their own label instead of sharing one width — equal
   // 1fr columns made the active-tab underline far wider than the word.
   assert.match(css, /\.cm-tabs\{[^}]*display:inline-flex/, 'each tab sizes to its own label (2026-08-09)');
@@ -104,8 +109,13 @@ test('character pages expose clean artwork and keep guide actions below maxed to
   assert.match(materials, /return 'Light Cone';[\s\S]*return 'W-Engine';[\s\S]*return 'Weapon';/);
   const total = materials.indexOf('<div className="cm-ledger-row total">');
   const actions = materials.indexOf('<CMMaterialsShareCard', total);
-  assert.ok(total >= 0 && actions > total, 'Download Guide and Link render inside the Total row');
-  assert.match(css, /\.cm-share-actions\{[^}]*grid-column:2/);
+  assert.ok(total >= 0 && actions > total, 'the share actions render inside the Total row');
+  // 2026-08-14: moved from the right of the Total row to its left column, under
+  // the "Total" label and section checkboxes, at the user's request.
+  assert.match(css, /\.cm-share-actions\{[^}]*grid-column:1/);
+  assert.match(css, /\.cm-share-actions\{[^}]*justify-content:flex-start/);
+  assert.match(materials, />Download Material Image<\/button>/, 'the button says what it downloads');
+  assert.doesNotMatch(materials, /Download Guide/);
   assert.match(css, /\.cm-character-gallery\{/);
 });
 
@@ -342,7 +352,12 @@ test('all character profiles use generic sourced checkpoints and the shared leve
   assert.ok(duplicateLevelEntry, 'ZZZ keeps distinct descriptions that share a visible level label');
   assert.equal((materials.match(/function CharacterKitPanel\(/g) || []).length, 1, 'one shared kit renderer');
   assert.equal((materials.match(/<CharacterKitPanel\b/g) || []).length, 1, 'every character route uses the shared kit renderer');
-  assert.match(materials, /checkpoints\.length > 1[\s\S]*type="range"/, 'profile ranges are disabled when fewer than two checkpoints exist');
+  // 2026-08-14: the profile slider, the per-skill slider and the Ascension
+  // target-level slider are one component, so the "one stop means no track"
+  // rule lives there instead of being repeated at each call site.
+  assert.equal((materials.match(/function CMLevelSlider\(/g) || []).length, 1, 'one shared level slider');
+  assert.match(materials, /function CMLevelSlider\([\s\S]*stops\.length > 1[\s\S]*type="range"/, 'a slider with one stop renders a value, not a dead track');
+  assert.ok((materials.match(/<CMLevelSlider\b/g) || []).length >= 3, 'profile, skill levels, and Ascension all use the shared slider');
   assert.match(materials, /function cmKitLevelLabels[\s\S]*labels\.length > longest\.length/, 'future skills choose the longest source label list');
   assert.match(materials, /function cmKitMatchingIndex[\s\S]*String\(label\) === String\(selectedLabel\)/, 'scaling uses exact source-column matching');
   assert.match(materials, /levelRows\.length === labels\.length[\s\S]*\? levelIndex[\s\S]*: cmKitMatchingIndex/, 'description sliders preserve duplicate-label source rows by position');
@@ -616,12 +631,14 @@ test('materials share cards stay stateless, bundle-local, and wired through the 
   ]);
   assert.match(shareCard, /const NYX_MATERIALS_CARD_WIDTH = 2000;/);
   assert.doesNotMatch(shareCard, /devicePixelRatio|\bfetch\s*\(|\bClipboardItem\b|cmMatSourceDetails|weeklyBosses|Object\.assign\(window|window\.nyx/i);
+  const levelingEntry = build.indexOf("'features/materials/char-materials-leveling.js'");
   const materialsEntry = build.indexOf("'features/materials/char-materials.jsx'");
   const shareEntry = build.indexOf("'features/materials/char-materials-share-card.js'");
   const appEntry = build.indexOf("'app/nyx-app.jsx'");
+  assert.ok(levelingEntry >= 0 && levelingEntry < materialsEntry, 'the shared EXP table loads before both of its consumers');
   assert.ok(materialsEntry >= 0 && materialsEntry < shareEntry && shareEntry < appEntry, 'share helpers load after materials helpers and before their route consumers');
   assert.match(materials, /function CMMaterialsShareCard\(/);
-  assert.match(materials, />Download Guide<\/button>/);
+  assert.match(materials, />Download Material Image<\/button>/);
   assert.match(materials, />Link<\/button>/);
   assert.match(materials, /navigator\.clipboard\.writeText\(shareUrl\)/);
   assert.match(materials, /window\.prompt\('Copy this share link:', shareUrl\)/);

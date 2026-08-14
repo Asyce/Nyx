@@ -74,6 +74,794 @@ const CM_BETA_META = {
     "changedCount": 2
   }
 };
+const CM_LEVELING = {
+  "gi": {
+    "maxLevel": 90,
+    "currency": "Mora",
+    "stages": [
+      {
+        "cap": 20,
+        "cost": 24200,
+        "items": [
+          {
+            "id": "104003",
+            "name": "Hero's Wit",
+            "qty": 6,
+            "rar": 4,
+            "kind": "exp",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104003.webp"
+          },
+          {
+            "id": "104001",
+            "name": "Wanderer's Advice",
+            "qty": 1,
+            "rar": 2,
+            "kind": "exp",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104001.webp"
+          }
+        ]
+      },
+      {
+        "cap": 40,
+        "cost": 140000,
+        "items": [
+          {
+            "id": "104003",
+            "name": "Hero's Wit",
+            "qty": 34,
+            "rar": 4,
+            "kind": "exp",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104003.webp"
+          },
+          {
+            "id": "104002",
+            "name": "Adventurer's Experience",
+            "qty": 3,
+            "rar": 3,
+            "kind": "exp",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104002.webp"
+          },
+          {
+            "id": "104001",
+            "name": "Wanderer's Advice",
+            "qty": 5,
+            "rar": 2,
+            "kind": "exp",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104001.webp"
+          }
+        ]
+      },
+      {
+        "cap": 50,
+        "cost": 256000,
+        "items": [
+          {
+            "id": "104003",
+            "name": "Hero's Wit",
+            "qty": 63,
+            "rar": 4,
+            "kind": "exp",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104003.webp"
+          },
+          {
+            "id": "104002",
+            "name": "Adventurer's Experience",
+            "qty": 3,
+            "rar": 3,
+            "kind": "exp",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104002.webp"
+          },
+          {
+            "id": "104001",
+            "name": "Wanderer's Advice",
+            "qty": 5,
+            "rar": 2,
+            "kind": "exp",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104001.webp"
+          }
+        ]
+      },
+      {
+        "cap": 60,
+        "cost": 427200,
+        "items": [
+          {
+            "id": "104003",
+            "name": "Hero's Wit",
+            "qty": 105,
+            "rar": 4,
+            "kind": "exp",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104003.webp"
+          },
+          {
+            "id": "104002",
+            "name": "Adventurer's Experience",
+            "qty": 6,
+            "rar": 3,
+            "kind": "exp",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104002.webp"
+          },
+          {
+            "id": "104001",
+            "name": "Wanderer's Advice",
+            "qty": 5,
+            "rar": 2,
+            "kind": "exp",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104001.webp"
+          }
+        ]
+      },
+      {
+        "cap": 70,
+        "cost": 666200,
+        "items": [
+          {
+            "id": "104003",
+            "name": "Hero's Wit",
+            "qty": 164,
+            "rar": 4,
+            "kind": "exp",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104003.webp"
+          },
+          {
+            "id": "104002",
+            "name": "Adventurer's Experience",
+            "qty": 9,
+            "rar": 3,
+            "kind": "exp",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104002.webp"
+          },
+          {
+            "id": "104001",
+            "name": "Wanderer's Advice",
+            "qty": 6,
+            "rar": 2,
+            "kind": "exp",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104001.webp"
+          }
+        ]
+      },
+      {
+        "cap": 80,
+        "cost": 988600,
+        "items": [
+          {
+            "id": "104003",
+            "name": "Hero's Wit",
+            "qty": 244,
+            "rar": 4,
+            "kind": "exp",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104003.webp"
+          },
+          {
+            "id": "104002",
+            "name": "Adventurer's Experience",
+            "qty": 11,
+            "rar": 3,
+            "kind": "exp",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104002.webp"
+          },
+          {
+            "id": "104001",
+            "name": "Wanderer's Advice",
+            "qty": 8,
+            "rar": 2,
+            "kind": "exp",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104001.webp"
+          }
+        ]
+      },
+      {
+        "cap": 90,
+        "cost": 1673400,
+        "items": [
+          {
+            "id": "104003",
+            "name": "Hero's Wit",
+            "qty": 415,
+            "rar": 4,
+            "kind": "exp",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104003.webp"
+          },
+          {
+            "id": "104002",
+            "name": "Adventurer's Experience",
+            "qty": 11,
+            "rar": 3,
+            "kind": "exp",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104002.webp"
+          },
+          {
+            "id": "104001",
+            "name": "Wanderer's Advice",
+            "qty": 12,
+            "rar": 2,
+            "kind": "exp",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104001.webp"
+          }
+        ]
+      }
+    ]
+  },
+  "hsr": {
+    "maxLevel": 80,
+    "currency": "Credit",
+    "stages": [
+      {
+        "cap": 20,
+        "cost": 11300,
+        "items": [
+          {
+            "id": "213",
+            "name": "Traveler's Guide",
+            "qty": 5,
+            "rar": 5,
+            "kind": "exp",
+            "icon": "../../Database/GameData/hsr/assets/items/213.webp"
+          },
+          {
+            "id": "212",
+            "name": "Adventure Log",
+            "qty": 2,
+            "rar": 3,
+            "kind": "exp",
+            "icon": "../../Database/GameData/hsr/assets/items/212.webp"
+          },
+          {
+            "id": "211",
+            "name": "Travel Encounters",
+            "qty": 3,
+            "rar": 2,
+            "kind": "exp",
+            "icon": "../../Database/GameData/hsr/assets/items/211.webp"
+          }
+        ]
+      },
+      {
+        "cap": 30,
+        "cost": 29100,
+        "items": [
+          {
+            "id": "213",
+            "name": "Traveler's Guide",
+            "qty": 13,
+            "rar": 5,
+            "kind": "exp",
+            "icon": "../../Database/GameData/hsr/assets/items/213.webp"
+          },
+          {
+            "id": "212",
+            "name": "Adventure Log",
+            "qty": 5,
+            "rar": 3,
+            "kind": "exp",
+            "icon": "../../Database/GameData/hsr/assets/items/212.webp"
+          },
+          {
+            "id": "211",
+            "name": "Travel Encounters",
+            "qty": 6,
+            "rar": 2,
+            "kind": "exp",
+            "icon": "../../Database/GameData/hsr/assets/items/211.webp"
+          }
+        ]
+      },
+      {
+        "cap": 40,
+        "cost": 49800,
+        "items": [
+          {
+            "id": "213",
+            "name": "Traveler's Guide",
+            "qty": 23,
+            "rar": 5,
+            "kind": "exp",
+            "icon": "../../Database/GameData/hsr/assets/items/213.webp"
+          },
+          {
+            "id": "212",
+            "name": "Adventure Log",
+            "qty": 6,
+            "rar": 3,
+            "kind": "exp",
+            "icon": "../../Database/GameData/hsr/assets/items/212.webp"
+          },
+          {
+            "id": "211",
+            "name": "Travel Encounters",
+            "qty": 8,
+            "rar": 2,
+            "kind": "exp",
+            "icon": "../../Database/GameData/hsr/assets/items/211.webp"
+          }
+        ]
+      },
+      {
+        "cap": 50,
+        "cost": 88800,
+        "items": [
+          {
+            "id": "213",
+            "name": "Traveler's Guide",
+            "qty": 42,
+            "rar": 5,
+            "kind": "exp",
+            "icon": "../../Database/GameData/hsr/assets/items/213.webp"
+          },
+          {
+            "id": "212",
+            "name": "Adventure Log",
+            "qty": 8,
+            "rar": 3,
+            "kind": "exp",
+            "icon": "../../Database/GameData/hsr/assets/items/212.webp"
+          },
+          {
+            "id": "211",
+            "name": "Travel Encounters",
+            "qty": 8,
+            "rar": 2,
+            "kind": "exp",
+            "icon": "../../Database/GameData/hsr/assets/items/211.webp"
+          }
+        ]
+      },
+      {
+        "cap": 60,
+        "cost": 171100,
+        "items": [
+          {
+            "id": "213",
+            "name": "Traveler's Guide",
+            "qty": 83,
+            "rar": 5,
+            "kind": "exp",
+            "icon": "../../Database/GameData/hsr/assets/items/213.webp"
+          },
+          {
+            "id": "212",
+            "name": "Adventure Log",
+            "qty": 8,
+            "rar": 3,
+            "kind": "exp",
+            "icon": "../../Database/GameData/hsr/assets/items/212.webp"
+          },
+          {
+            "id": "211",
+            "name": "Travel Encounters",
+            "qty": 11,
+            "rar": 2,
+            "kind": "exp",
+            "icon": "../../Database/GameData/hsr/assets/items/211.webp"
+          }
+        ]
+      },
+      {
+        "cap": 70,
+        "cost": 303800,
+        "items": [
+          {
+            "id": "213",
+            "name": "Traveler's Guide",
+            "qty": 149,
+            "rar": 5,
+            "kind": "exp",
+            "icon": "../../Database/GameData/hsr/assets/items/213.webp"
+          },
+          {
+            "id": "212",
+            "name": "Adventure Log",
+            "qty": 9,
+            "rar": 3,
+            "kind": "exp",
+            "icon": "../../Database/GameData/hsr/assets/items/212.webp"
+          },
+          {
+            "id": "211",
+            "name": "Travel Encounters",
+            "qty": 13,
+            "rar": 2,
+            "kind": "exp",
+            "icon": "../../Database/GameData/hsr/assets/items/211.webp"
+          }
+        ]
+      },
+      {
+        "cap": 80,
+        "cost": 580100,
+        "items": [
+          {
+            "id": "213",
+            "name": "Traveler's Guide",
+            "qty": 287,
+            "rar": 5,
+            "kind": "exp",
+            "icon": "../../Database/GameData/hsr/assets/items/213.webp"
+          },
+          {
+            "id": "212",
+            "name": "Adventure Log",
+            "qty": 9,
+            "rar": 3,
+            "kind": "exp",
+            "icon": "../../Database/GameData/hsr/assets/items/212.webp"
+          },
+          {
+            "id": "211",
+            "name": "Travel Encounters",
+            "qty": 16,
+            "rar": 2,
+            "kind": "exp",
+            "icon": "../../Database/GameData/hsr/assets/items/211.webp"
+          }
+        ]
+      }
+    ]
+  },
+  "zzz": {
+    "maxLevel": 60,
+    "currency": null,
+    "stages": [
+      {
+        "cap": 10,
+        "cost": 0,
+        "items": [
+          {
+            "id": "300003",
+            "name": "Senior Investigator Log",
+            "qty": 2,
+            "rar": 3,
+            "kind": "exp",
+            "icon": "../../Database/GameData/zzz/assets/items/RoleExp03.webp"
+          }
+        ]
+      },
+      {
+        "cap": 20,
+        "cost": 0,
+        "items": [
+          {
+            "id": "300003",
+            "name": "Senior Investigator Log",
+            "qty": 10,
+            "rar": 3,
+            "kind": "exp",
+            "icon": "../../Database/GameData/zzz/assets/items/RoleExp03.webp"
+          }
+        ]
+      },
+      {
+        "cap": 30,
+        "cost": 0,
+        "items": [
+          {
+            "id": "300003",
+            "name": "Senior Investigator Log",
+            "qty": 30,
+            "rar": 3,
+            "kind": "exp",
+            "icon": "../../Database/GameData/zzz/assets/items/RoleExp03.webp"
+          }
+        ]
+      },
+      {
+        "cap": 40,
+        "cost": 0,
+        "items": [
+          {
+            "id": "300003",
+            "name": "Senior Investigator Log",
+            "qty": 75,
+            "rar": 3,
+            "kind": "exp",
+            "icon": "../../Database/GameData/zzz/assets/items/RoleExp03.webp"
+          }
+        ]
+      },
+      {
+        "cap": 50,
+        "cost": 0,
+        "items": [
+          {
+            "id": "300003",
+            "name": "Senior Investigator Log",
+            "qty": 150,
+            "rar": 3,
+            "kind": "exp",
+            "icon": "../../Database/GameData/zzz/assets/items/RoleExp03.webp"
+          }
+        ]
+      },
+      {
+        "cap": 60,
+        "cost": 0,
+        "items": [
+          {
+            "id": "300003",
+            "name": "Senior Investigator Log",
+            "qty": 300,
+            "rar": 3,
+            "kind": "exp",
+            "icon": "../../Database/GameData/zzz/assets/items/RoleExp03.webp"
+          }
+        ]
+      }
+    ]
+  },
+  "wuwa": {
+    "maxLevel": 90,
+    "currency": "Shell Credit",
+    "stages": [
+      {
+        "cap": 20,
+        "cost": 11655,
+        "items": [
+          {
+            "id": "43010001",
+            "name": "Basic Resonance Potion",
+            "qty": 3,
+            "rar": 2,
+            "kind": "exp",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_exp_1_UI.webp"
+          },
+          {
+            "id": "43010002",
+            "name": "Medium Resonance Potion",
+            "qty": 1,
+            "rar": 3,
+            "kind": "exp",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_exp_2_UI.webp"
+          },
+          {
+            "id": "43010003",
+            "name": "Advanced Resonance Potion",
+            "qty": 1,
+            "rar": 4,
+            "kind": "exp",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_exp_3_UI.webp"
+          },
+          {
+            "id": "43010004",
+            "name": "Premium Resonance Potion",
+            "qty": 1,
+            "rar": 5,
+            "kind": "exp",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_exp_4_UI.webp"
+          }
+        ]
+      },
+      {
+        "cap": 40,
+        "cost": 73080,
+        "items": [
+          {
+            "id": "43010001",
+            "name": "Basic Resonance Potion",
+            "qty": 5,
+            "rar": 2,
+            "kind": "exp",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_exp_1_UI.webp"
+          },
+          {
+            "id": "43010002",
+            "name": "Medium Resonance Potion",
+            "qty": 3,
+            "rar": 3,
+            "kind": "exp",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_exp_2_UI.webp"
+          },
+          {
+            "id": "43010003",
+            "name": "Advanced Resonance Potion",
+            "qty": 2,
+            "rar": 4,
+            "kind": "exp",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_exp_3_UI.webp"
+          },
+          {
+            "id": "43010004",
+            "name": "Premium Resonance Potion",
+            "qty": 9,
+            "rar": 5,
+            "kind": "exp",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_exp_4_UI.webp"
+          }
+        ]
+      },
+      {
+        "cap": 50,
+        "cost": 138985,
+        "items": [
+          {
+            "id": "43010001",
+            "name": "Basic Resonance Potion",
+            "qty": 6,
+            "rar": 2,
+            "kind": "exp",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_exp_1_UI.webp"
+          },
+          {
+            "id": "43010002",
+            "name": "Medium Resonance Potion",
+            "qty": 3,
+            "rar": 3,
+            "kind": "exp",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_exp_2_UI.webp"
+          },
+          {
+            "id": "43010003",
+            "name": "Advanced Resonance Potion",
+            "qty": 3,
+            "rar": 4,
+            "kind": "exp",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_exp_3_UI.webp"
+          },
+          {
+            "id": "43010004",
+            "name": "Premium Resonance Potion",
+            "qty": 18,
+            "rar": 5,
+            "kind": "exp",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_exp_4_UI.webp"
+          }
+        ]
+      },
+      {
+        "cap": 60,
+        "cost": 239295,
+        "items": [
+          {
+            "id": "43010001",
+            "name": "Basic Resonance Potion",
+            "qty": 7,
+            "rar": 2,
+            "kind": "exp",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_exp_1_UI.webp"
+          },
+          {
+            "id": "43010002",
+            "name": "Medium Resonance Potion",
+            "qty": 5,
+            "rar": 3,
+            "kind": "exp",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_exp_2_UI.webp"
+          },
+          {
+            "id": "43010003",
+            "name": "Advanced Resonance Potion",
+            "qty": 3,
+            "rar": 4,
+            "kind": "exp",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_exp_3_UI.webp"
+          },
+          {
+            "id": "43010004",
+            "name": "Premium Resonance Potion",
+            "qty": 32,
+            "rar": 5,
+            "kind": "exp",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_exp_4_UI.webp"
+          }
+        ]
+      },
+      {
+        "cap": 70,
+        "cost": 383845,
+        "items": [
+          {
+            "id": "43010001",
+            "name": "Basic Resonance Potion",
+            "qty": 9,
+            "rar": 2,
+            "kind": "exp",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_exp_1_UI.webp"
+          },
+          {
+            "id": "43010002",
+            "name": "Medium Resonance Potion",
+            "qty": 6,
+            "rar": 3,
+            "kind": "exp",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_exp_2_UI.webp"
+          },
+          {
+            "id": "43010003",
+            "name": "Advanced Resonance Potion",
+            "qty": 4,
+            "rar": 4,
+            "kind": "exp",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_exp_3_UI.webp"
+          },
+          {
+            "id": "43010004",
+            "name": "Premium Resonance Potion",
+            "qty": 52,
+            "rar": 5,
+            "kind": "exp",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_exp_4_UI.webp"
+          }
+        ]
+      },
+      {
+        "cap": 80,
+        "cost": 584185,
+        "items": [
+          {
+            "id": "43010001",
+            "name": "Basic Resonance Potion",
+            "qty": 11,
+            "rar": 2,
+            "kind": "exp",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_exp_1_UI.webp"
+          },
+          {
+            "id": "43010002",
+            "name": "Medium Resonance Potion",
+            "qty": 7,
+            "rar": 3,
+            "kind": "exp",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_exp_2_UI.webp"
+          },
+          {
+            "id": "43010003",
+            "name": "Advanced Resonance Potion",
+            "qty": 5,
+            "rar": 4,
+            "kind": "exp",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_exp_3_UI.webp"
+          },
+          {
+            "id": "43010004",
+            "name": "Premium Resonance Potion",
+            "qty": 80,
+            "rar": 5,
+            "kind": "exp",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_exp_4_UI.webp"
+          }
+        ]
+      },
+      {
+        "cap": 90,
+        "cost": 853300,
+        "items": [
+          {
+            "id": "43010001",
+            "name": "Basic Resonance Potion",
+            "qty": 12,
+            "rar": 2,
+            "kind": "exp",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_exp_1_UI.webp"
+          },
+          {
+            "id": "43010002",
+            "name": "Medium Resonance Potion",
+            "qty": 7,
+            "rar": 3,
+            "kind": "exp",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_exp_2_UI.webp"
+          },
+          {
+            "id": "43010003",
+            "name": "Advanced Resonance Potion",
+            "qty": 6,
+            "rar": 4,
+            "kind": "exp",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_exp_3_UI.webp"
+          },
+          {
+            "id": "43010004",
+            "name": "Premium Resonance Potion",
+            "qty": 118,
+            "rar": 5,
+            "kind": "exp",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_exp_4_UI.webp"
+          }
+        ]
+      }
+    ]
+  }
+};
 const CM_LOADS = window.__NYX_CM_LOADS || {};
 const CM_BETA_LOADS = window.__NYX_CM_BETA_LOADS || {};
 window.CM_CFG_BETA = window.CM_CFG_BETA || {};
@@ -131,4 +919,4 @@ function ensureNyxCmGames(keys) {
   return Promise.all((keys || []).map((key) => loadNyxCmGame(key)));
 }
 
-Object.assign(window, { CM_CFG, CM_RAR, CM_ELEM, CM_GAME_FILES, CM_GAME_LABELS, CM_BETA_FILES, CM_BETA_META, loadNyxCmGame, loadNyxCmBeta, ensureNyxCmGames, __NYX_CM_LOADS: CM_LOADS, __NYX_CM_BETA_LOADS: CM_BETA_LOADS });
+Object.assign(window, { CM_CFG, CM_RAR, CM_ELEM, CM_LEVELING, CM_GAME_FILES, CM_GAME_LABELS, CM_BETA_FILES, CM_BETA_META, loadNyxCmGame, loadNyxCmBeta, ensureNyxCmGames, __NYX_CM_LOADS: CM_LOADS, __NYX_CM_BETA_LOADS: CM_BETA_LOADS });

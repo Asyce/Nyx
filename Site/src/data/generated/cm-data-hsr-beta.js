@@ -1554,6 +1554,124 @@
             "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
           }
         ],
+        "ascensionStages": [
+          {
+            "cap": 30,
+            "items": [
+              {
+                "id": "116001",
+                "name": "Whimsy Wax",
+                "qty": 5,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
+              }
+            ],
+            "cost": 4000
+          },
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "116001",
+                "name": "Whimsy Wax",
+                "qty": 10,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
+              }
+            ],
+            "cost": 8000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "110432",
+                "name": "Radiant Prominence",
+                "qty": 3,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110432.webp"
+              },
+              {
+                "id": "116002",
+                "name": "Dreamweave Steel",
+                "qty": 6,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+              }
+            ],
+            "cost": 16000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "110432",
+                "name": "Radiant Prominence",
+                "qty": 7,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110432.webp"
+              },
+              {
+                "id": "116002",
+                "name": "Dreamweave Steel",
+                "qty": 9,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "110432",
+                "name": "Radiant Prominence",
+                "qty": 20,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110432.webp"
+              },
+              {
+                "id": "116003",
+                "name": "Lucid Awl",
+                "qty": 6,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
+              }
+            ],
+            "cost": 80000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "110432",
+                "name": "Radiant Prominence",
+                "qty": 35,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110432.webp"
+              },
+              {
+                "id": "116003",
+                "name": "Lucid Awl",
+                "qty": 9,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
+              }
+            ],
+            "cost": 160000
+          }
+        ],
         "talents": [
           {
             "id": "116001",
@@ -3445,6 +3563,124 @@
             "rar": 5,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
+          }
+        ],
+        "ascensionStages": [
+          {
+            "cap": 30,
+            "items": [
+              {
+                "id": "116001",
+                "name": "Whimsy Wax",
+                "qty": 5,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
+              }
+            ],
+            "cost": 4000
+          },
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "116001",
+                "name": "Whimsy Wax",
+                "qty": 10,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
+              }
+            ],
+            "cost": 8000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "110432",
+                "name": "Radiant Prominence",
+                "qty": 3,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110432.webp"
+              },
+              {
+                "id": "116002",
+                "name": "Dreamweave Steel",
+                "qty": 6,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+              }
+            ],
+            "cost": 16000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "110432",
+                "name": "Radiant Prominence",
+                "qty": 7,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110432.webp"
+              },
+              {
+                "id": "116002",
+                "name": "Dreamweave Steel",
+                "qty": 9,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "110432",
+                "name": "Radiant Prominence",
+                "qty": 20,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110432.webp"
+              },
+              {
+                "id": "116003",
+                "name": "Lucid Awl",
+                "qty": 6,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
+              }
+            ],
+            "cost": 80000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "110432",
+                "name": "Radiant Prominence",
+                "qty": 35,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110432.webp"
+              },
+              {
+                "id": "116003",
+                "name": "Lucid Awl",
+                "qty": 9,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
+              }
+            ],
+            "cost": 160000
           }
         ],
         "talents": [
@@ -5540,6 +5776,124 @@
             "icon": "../../Database/GameData/hsr/assets/items/114013.webp"
           }
         ],
+        "ascensionStages": [
+          {
+            "cap": 30,
+            "items": [
+              {
+                "id": "114011",
+                "name": "Tatters of Thought",
+                "qty": 5,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/114011.webp"
+              }
+            ],
+            "cost": 4000
+          },
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "114011",
+                "name": "Tatters of Thought",
+                "qty": 10,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/114011.webp"
+              }
+            ],
+            "cost": 8000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "110443",
+                "name": "Sneering Harlequin",
+                "qty": 3,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110443.webp"
+              },
+              {
+                "id": "114012",
+                "name": "Fragments of Impression",
+                "qty": 6,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/114012.webp"
+              }
+            ],
+            "cost": 16000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "110443",
+                "name": "Sneering Harlequin",
+                "qty": 7,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110443.webp"
+              },
+              {
+                "id": "114012",
+                "name": "Fragments of Impression",
+                "qty": 9,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/114012.webp"
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "110443",
+                "name": "Sneering Harlequin",
+                "qty": 20,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110443.webp"
+              },
+              {
+                "id": "114013",
+                "name": "Shards of Desires",
+                "qty": 6,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/114013.webp"
+              }
+            ],
+            "cost": 80000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "110443",
+                "name": "Sneering Harlequin",
+                "qty": 35,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110443.webp"
+              },
+              {
+                "id": "114013",
+                "name": "Shards of Desires",
+                "qty": 9,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/114013.webp"
+              }
+            ],
+            "cost": 160000
+          }
+        ],
         "talents": [
           {
             "id": "114011",
@@ -7304,6 +7658,124 @@
             "rar": 5,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/114003.webp"
+          }
+        ],
+        "ascensionStages": [
+          {
+            "cap": 30,
+            "items": [
+              {
+                "id": "114001",
+                "name": "Dream Collection Component",
+                "qty": 5,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/114001.webp"
+              }
+            ],
+            "cost": 4000
+          },
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "114001",
+                "name": "Dream Collection Component",
+                "qty": 10,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/114001.webp"
+              }
+            ],
+            "cost": 8000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "110435",
+                "name": "Charred Bud of Twilight",
+                "qty": 3,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110435.webp"
+              },
+              {
+                "id": "114002",
+                "name": "Dream Flow Valve",
+                "qty": 6,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/114002.webp"
+              }
+            ],
+            "cost": 16000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "110435",
+                "name": "Charred Bud of Twilight",
+                "qty": 7,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110435.webp"
+              },
+              {
+                "id": "114002",
+                "name": "Dream Flow Valve",
+                "qty": 9,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/114002.webp"
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "110435",
+                "name": "Charred Bud of Twilight",
+                "qty": 20,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110435.webp"
+              },
+              {
+                "id": "114003",
+                "name": "Dream Making Engine",
+                "qty": 6,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/114003.webp"
+              }
+            ],
+            "cost": 80000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "110435",
+                "name": "Charred Bud of Twilight",
+                "qty": 35,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110435.webp"
+              },
+              {
+                "id": "114003",
+                "name": "Dream Making Engine",
+                "qty": 9,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/114003.webp"
+              }
+            ],
+            "cost": 160000
           }
         ],
         "talents": [
@@ -9322,6 +9794,124 @@
             "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
           }
         ],
+        "ascensionStages": [
+          {
+            "cap": 30,
+            "items": [
+              {
+                "id": "116001",
+                "name": "Whimsy Wax",
+                "qty": 5,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
+              }
+            ],
+            "cost": 4000
+          },
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "116001",
+                "name": "Whimsy Wax",
+                "qty": 10,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
+              }
+            ],
+            "cost": 8000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "110431",
+                "name": "Invasive Clot",
+                "qty": 3,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110431.webp"
+              },
+              {
+                "id": "116002",
+                "name": "Dreamweave Steel",
+                "qty": 6,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+              }
+            ],
+            "cost": 16000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "110431",
+                "name": "Invasive Clot",
+                "qty": 7,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110431.webp"
+              },
+              {
+                "id": "116002",
+                "name": "Dreamweave Steel",
+                "qty": 9,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "110431",
+                "name": "Invasive Clot",
+                "qty": 20,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110431.webp"
+              },
+              {
+                "id": "116003",
+                "name": "Lucid Awl",
+                "qty": 6,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
+              }
+            ],
+            "cost": 80000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "110431",
+                "name": "Invasive Clot",
+                "qty": 35,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110431.webp"
+              },
+              {
+                "id": "116003",
+                "name": "Lucid Awl",
+                "qty": 9,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
+              }
+            ],
+            "cost": 160000
+          }
+        ],
         "talents": [
           {
             "id": "116001",
@@ -11228,6 +11818,124 @@
             "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
           }
         ],
+        "ascensionStages": [
+          {
+            "cap": 30,
+            "items": [
+              {
+                "id": "116001",
+                "name": "Whimsy Wax",
+                "qty": 5,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
+              }
+            ],
+            "cost": 4000
+          },
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "116001",
+                "name": "Whimsy Wax",
+                "qty": 10,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
+              }
+            ],
+            "cost": 8000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "110431",
+                "name": "Invasive Clot",
+                "qty": 3,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110431.webp"
+              },
+              {
+                "id": "116002",
+                "name": "Dreamweave Steel",
+                "qty": 6,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+              }
+            ],
+            "cost": 16000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "110431",
+                "name": "Invasive Clot",
+                "qty": 7,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110431.webp"
+              },
+              {
+                "id": "116002",
+                "name": "Dreamweave Steel",
+                "qty": 9,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "110431",
+                "name": "Invasive Clot",
+                "qty": 20,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110431.webp"
+              },
+              {
+                "id": "116003",
+                "name": "Lucid Awl",
+                "qty": 6,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
+              }
+            ],
+            "cost": 80000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "110431",
+                "name": "Invasive Clot",
+                "qty": 35,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110431.webp"
+              },
+              {
+                "id": "116003",
+                "name": "Lucid Awl",
+                "qty": 9,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
+              }
+            ],
+            "cost": 160000
+          }
+        ],
         "talents": [
           {
             "id": "116001",
@@ -12974,6 +13682,124 @@
             "rar": 5,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
+          }
+        ],
+        "ascensionStages": [
+          {
+            "cap": 30,
+            "items": [
+              {
+                "id": "115011",
+                "name": "Ethereal Omen",
+                "qty": 5,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/115011.webp"
+              }
+            ],
+            "cost": 4000
+          },
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "115011",
+                "name": "Ethereal Omen",
+                "qty": 10,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/115011.webp"
+              }
+            ],
+            "cost": 8000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "110435",
+                "name": "Charred Bud of Twilight",
+                "qty": 3,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110435.webp"
+              },
+              {
+                "id": "115012",
+                "name": "Echoing Wail",
+                "qty": 6,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/115012.webp"
+              }
+            ],
+            "cost": 16000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "110435",
+                "name": "Charred Bud of Twilight",
+                "qty": 7,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110435.webp"
+              },
+              {
+                "id": "115012",
+                "name": "Echoing Wail",
+                "qty": 9,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/115012.webp"
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "110435",
+                "name": "Charred Bud of Twilight",
+                "qty": 20,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110435.webp"
+              },
+              {
+                "id": "115013",
+                "name": "Eternal Lament",
+                "qty": 6,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
+              }
+            ],
+            "cost": 80000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "110435",
+                "name": "Charred Bud of Twilight",
+                "qty": 35,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110435.webp"
+              },
+              {
+                "id": "115013",
+                "name": "Eternal Lament",
+                "qty": 9,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
+              }
+            ],
+            "cost": 160000
           }
         ],
         "talents": [
@@ -14781,6 +15607,124 @@
             "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
           }
         ],
+        "ascensionStages": [
+          {
+            "cap": 30,
+            "items": [
+              {
+                "id": "116001",
+                "name": "Whimsy Wax",
+                "qty": 5,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
+              }
+            ],
+            "cost": 4000
+          },
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "116001",
+                "name": "Whimsy Wax",
+                "qty": 10,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
+              }
+            ],
+            "cost": 8000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "110434",
+                "name": "Thunder Strum",
+                "qty": 3,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110434.webp"
+              },
+              {
+                "id": "116002",
+                "name": "Dreamweave Steel",
+                "qty": 6,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+              }
+            ],
+            "cost": 16000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "110434",
+                "name": "Thunder Strum",
+                "qty": 7,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110434.webp"
+              },
+              {
+                "id": "116002",
+                "name": "Dreamweave Steel",
+                "qty": 9,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "110434",
+                "name": "Thunder Strum",
+                "qty": 20,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110434.webp"
+              },
+              {
+                "id": "116003",
+                "name": "Lucid Awl",
+                "qty": 6,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
+              }
+            ],
+            "cost": 80000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "110434",
+                "name": "Thunder Strum",
+                "qty": 35,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110434.webp"
+              },
+              {
+                "id": "116003",
+                "name": "Lucid Awl",
+                "qty": 9,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
+              }
+            ],
+            "cost": 160000
+          }
+        ],
         "talents": [
           {
             "id": "116001",
@@ -16582,6 +17526,124 @@
             "rar": 5,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
+          }
+        ],
+        "ascensionStages": [
+          {
+            "cap": 30,
+            "items": [
+              {
+                "id": "115011",
+                "name": "Ethereal Omen",
+                "qty": 5,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/115011.webp"
+              }
+            ],
+            "cost": 4000
+          },
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "115011",
+                "name": "Ethereal Omen",
+                "qty": 10,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/115011.webp"
+              }
+            ],
+            "cost": 8000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "110436",
+                "name": "Darkveil Moonlight",
+                "qty": 3,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110436.webp"
+              },
+              {
+                "id": "115012",
+                "name": "Echoing Wail",
+                "qty": 6,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/115012.webp"
+              }
+            ],
+            "cost": 16000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "110436",
+                "name": "Darkveil Moonlight",
+                "qty": 7,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110436.webp"
+              },
+              {
+                "id": "115012",
+                "name": "Echoing Wail",
+                "qty": 9,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/115012.webp"
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "110436",
+                "name": "Darkveil Moonlight",
+                "qty": 20,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110436.webp"
+              },
+              {
+                "id": "115013",
+                "name": "Eternal Lament",
+                "qty": 6,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
+              }
+            ],
+            "cost": 80000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "110436",
+                "name": "Darkveil Moonlight",
+                "qty": 35,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110436.webp"
+              },
+              {
+                "id": "115013",
+                "name": "Eternal Lament",
+                "qty": 9,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
+              }
+            ],
+            "cost": 160000
           }
         ],
         "talents": [
@@ -18446,6 +19508,152 @@
             "icon": "../../Database/GameData/hsr/assets/items/115003.webp"
           }
         ],
+        "ascensionStages": [
+          {
+            "cap": 30,
+            "items": [
+              {
+                "id": "115001",
+                "name": "Fear-Stomped Flesh",
+                "qty": 5,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/115001.webp"
+              }
+            ],
+            "cost": 4000
+          },
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "115001",
+                "name": "Fear-Stomped Flesh",
+                "qty": 10,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/115001.webp"
+              }
+            ],
+            "cost": 8000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "110433",
+                "name": "Sea Siren's Torn Fin",
+                "qty": 3,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110433.webp",
+                "source": "Lady of Crashing Waves",
+                "sourceDetails": [
+                  {
+                    "name": "Lady of Crashing Waves",
+                    "icon": "../../Database/GameData/hsr/assets/monsters/Monster_4053010.webp"
+                  }
+                ]
+              },
+              {
+                "id": "115002",
+                "name": "Courage-Torn Chest",
+                "qty": 6,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/115002.webp"
+              }
+            ],
+            "cost": 16000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "110433",
+                "name": "Sea Siren's Torn Fin",
+                "qty": 7,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110433.webp",
+                "source": "Lady of Crashing Waves",
+                "sourceDetails": [
+                  {
+                    "name": "Lady of Crashing Waves",
+                    "icon": "../../Database/GameData/hsr/assets/monsters/Monster_4053010.webp"
+                  }
+                ]
+              },
+              {
+                "id": "115002",
+                "name": "Courage-Torn Chest",
+                "qty": 9,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/115002.webp"
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "110433",
+                "name": "Sea Siren's Torn Fin",
+                "qty": 20,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110433.webp",
+                "source": "Lady of Crashing Waves",
+                "sourceDetails": [
+                  {
+                    "name": "Lady of Crashing Waves",
+                    "icon": "../../Database/GameData/hsr/assets/monsters/Monster_4053010.webp"
+                  }
+                ]
+              },
+              {
+                "id": "115003",
+                "name": "Glory-Aspersed Torso",
+                "qty": 6,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/115003.webp"
+              }
+            ],
+            "cost": 80000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "110433",
+                "name": "Sea Siren's Torn Fin",
+                "qty": 35,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110433.webp",
+                "source": "Lady of Crashing Waves",
+                "sourceDetails": [
+                  {
+                    "name": "Lady of Crashing Waves",
+                    "icon": "../../Database/GameData/hsr/assets/monsters/Monster_4053010.webp"
+                  }
+                ]
+              },
+              {
+                "id": "115003",
+                "name": "Glory-Aspersed Torso",
+                "qty": 9,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/115003.webp"
+              }
+            ],
+            "cost": 160000
+          }
+        ],
         "talents": [
           {
             "id": "115001",
@@ -20274,6 +21482,124 @@
             "icon": "../../Database/GameData/hsr/assets/items/115003.webp"
           }
         ],
+        "ascensionStages": [
+          {
+            "cap": 30,
+            "items": [
+              {
+                "id": "115001",
+                "name": "Fear-Stomped Flesh",
+                "qty": 5,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/115001.webp"
+              }
+            ],
+            "cost": 4000
+          },
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "115001",
+                "name": "Fear-Stomped Flesh",
+                "qty": 10,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/115001.webp"
+              }
+            ],
+            "cost": 8000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "110431",
+                "name": "Invasive Clot",
+                "qty": 3,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110431.webp"
+              },
+              {
+                "id": "115002",
+                "name": "Courage-Torn Chest",
+                "qty": 6,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/115002.webp"
+              }
+            ],
+            "cost": 16000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "110431",
+                "name": "Invasive Clot",
+                "qty": 7,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110431.webp"
+              },
+              {
+                "id": "115002",
+                "name": "Courage-Torn Chest",
+                "qty": 9,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/115002.webp"
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "110431",
+                "name": "Invasive Clot",
+                "qty": 20,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110431.webp"
+              },
+              {
+                "id": "115003",
+                "name": "Glory-Aspersed Torso",
+                "qty": 6,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/115003.webp"
+              }
+            ],
+            "cost": 80000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "110431",
+                "name": "Invasive Clot",
+                "qty": 35,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110431.webp"
+              },
+              {
+                "id": "115003",
+                "name": "Glory-Aspersed Torso",
+                "qty": 9,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/115003.webp"
+              }
+            ],
+            "cost": 160000
+          }
+        ],
         "talents": [
           {
             "id": "115001",
@@ -22017,6 +23343,124 @@
             "rar": 5,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/115003.webp"
+          }
+        ],
+        "ascensionStages": [
+          {
+            "cap": 30,
+            "items": [
+              {
+                "id": "115001",
+                "name": "Fear-Stomped Flesh",
+                "qty": 5,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/115001.webp"
+              }
+            ],
+            "cost": 4000
+          },
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "115001",
+                "name": "Fear-Stomped Flesh",
+                "qty": 10,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/115001.webp"
+              }
+            ],
+            "cost": 8000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "110431",
+                "name": "Invasive Clot",
+                "qty": 3,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110431.webp"
+              },
+              {
+                "id": "115002",
+                "name": "Courage-Torn Chest",
+                "qty": 6,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/115002.webp"
+              }
+            ],
+            "cost": 16000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "110431",
+                "name": "Invasive Clot",
+                "qty": 7,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110431.webp"
+              },
+              {
+                "id": "115002",
+                "name": "Courage-Torn Chest",
+                "qty": 9,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/115002.webp"
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "110431",
+                "name": "Invasive Clot",
+                "qty": 20,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110431.webp"
+              },
+              {
+                "id": "115003",
+                "name": "Glory-Aspersed Torso",
+                "qty": 6,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/115003.webp"
+              }
+            ],
+            "cost": 80000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "110431",
+                "name": "Invasive Clot",
+                "qty": 35,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110431.webp"
+              },
+              {
+                "id": "115003",
+                "name": "Glory-Aspersed Torso",
+                "qty": 9,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/115003.webp"
+              }
+            ],
+            "cost": 160000
           }
         ],
         "talents": [
@@ -23858,6 +25302,152 @@
             "rar": 5,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
+          }
+        ],
+        "ascensionStages": [
+          {
+            "cap": 30,
+            "items": [
+              {
+                "id": "115011",
+                "name": "Ethereal Omen",
+                "qty": 5,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/115011.webp"
+              }
+            ],
+            "cost": 4000
+          },
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "115011",
+                "name": "Ethereal Omen",
+                "qty": 10,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/115011.webp"
+              }
+            ],
+            "cost": 8000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "110433",
+                "name": "Sea Siren's Torn Fin",
+                "qty": 3,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110433.webp",
+                "source": "Lady of Crashing Waves",
+                "sourceDetails": [
+                  {
+                    "name": "Lady of Crashing Waves",
+                    "icon": "../../Database/GameData/hsr/assets/monsters/Monster_4053010.webp"
+                  }
+                ]
+              },
+              {
+                "id": "115012",
+                "name": "Echoing Wail",
+                "qty": 6,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/115012.webp"
+              }
+            ],
+            "cost": 16000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "110433",
+                "name": "Sea Siren's Torn Fin",
+                "qty": 7,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110433.webp",
+                "source": "Lady of Crashing Waves",
+                "sourceDetails": [
+                  {
+                    "name": "Lady of Crashing Waves",
+                    "icon": "../../Database/GameData/hsr/assets/monsters/Monster_4053010.webp"
+                  }
+                ]
+              },
+              {
+                "id": "115012",
+                "name": "Echoing Wail",
+                "qty": 9,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/115012.webp"
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "110433",
+                "name": "Sea Siren's Torn Fin",
+                "qty": 20,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110433.webp",
+                "source": "Lady of Crashing Waves",
+                "sourceDetails": [
+                  {
+                    "name": "Lady of Crashing Waves",
+                    "icon": "../../Database/GameData/hsr/assets/monsters/Monster_4053010.webp"
+                  }
+                ]
+              },
+              {
+                "id": "115013",
+                "name": "Eternal Lament",
+                "qty": 6,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
+              }
+            ],
+            "cost": 80000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "110433",
+                "name": "Sea Siren's Torn Fin",
+                "qty": 35,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110433.webp",
+                "source": "Lady of Crashing Waves",
+                "sourceDetails": [
+                  {
+                    "name": "Lady of Crashing Waves",
+                    "icon": "../../Database/GameData/hsr/assets/monsters/Monster_4053010.webp"
+                  }
+                ]
+              },
+              {
+                "id": "115013",
+                "name": "Eternal Lament",
+                "qty": 9,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
+              }
+            ],
+            "cost": 160000
           }
         ],
         "talents": [
@@ -26107,6 +27697,124 @@
             "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
           }
         ],
+        "ascensionStages": [
+          {
+            "cap": 30,
+            "items": [
+              {
+                "id": "115011",
+                "name": "Ethereal Omen",
+                "qty": 5,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/115011.webp"
+              }
+            ],
+            "cost": 4000
+          },
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "115011",
+                "name": "Ethereal Omen",
+                "qty": 10,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/115011.webp"
+              }
+            ],
+            "cost": 8000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "110431",
+                "name": "Invasive Clot",
+                "qty": 3,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110431.webp"
+              },
+              {
+                "id": "115012",
+                "name": "Echoing Wail",
+                "qty": 6,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/115012.webp"
+              }
+            ],
+            "cost": 16000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "110431",
+                "name": "Invasive Clot",
+                "qty": 7,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110431.webp"
+              },
+              {
+                "id": "115012",
+                "name": "Echoing Wail",
+                "qty": 9,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/115012.webp"
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "110431",
+                "name": "Invasive Clot",
+                "qty": 20,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110431.webp"
+              },
+              {
+                "id": "115013",
+                "name": "Eternal Lament",
+                "qty": 6,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
+              }
+            ],
+            "cost": 80000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "110431",
+                "name": "Invasive Clot",
+                "qty": 35,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110431.webp"
+              },
+              {
+                "id": "115013",
+                "name": "Eternal Lament",
+                "qty": 9,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
+              }
+            ],
+            "cost": 160000
+          }
+        ],
         "talents": [
           {
             "id": "115011",
@@ -28285,6 +29993,124 @@
             "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
           }
         ],
+        "ascensionStages": [
+          {
+            "cap": 30,
+            "items": [
+              {
+                "id": "116001",
+                "name": "Whimsy Wax",
+                "qty": 5,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
+              }
+            ],
+            "cost": 4000
+          },
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "116001",
+                "name": "Whimsy Wax",
+                "qty": 10,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
+              }
+            ],
+            "cost": 8000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "110437",
+                "name": "Harbinger of Strife",
+                "qty": 3,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110437.webp"
+              },
+              {
+                "id": "116002",
+                "name": "Dreamweave Steel",
+                "qty": 6,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+              }
+            ],
+            "cost": 16000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "110437",
+                "name": "Harbinger of Strife",
+                "qty": 7,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110437.webp"
+              },
+              {
+                "id": "116002",
+                "name": "Dreamweave Steel",
+                "qty": 9,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "110437",
+                "name": "Harbinger of Strife",
+                "qty": 20,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110437.webp"
+              },
+              {
+                "id": "116003",
+                "name": "Lucid Awl",
+                "qty": 6,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
+              }
+            ],
+            "cost": 80000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "110437",
+                "name": "Harbinger of Strife",
+                "qty": 35,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110437.webp"
+              },
+              {
+                "id": "116003",
+                "name": "Lucid Awl",
+                "qty": 9,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
+              }
+            ],
+            "cost": 160000
+          }
+        ],
         "talents": [
           {
             "id": "116001",
@@ -30347,6 +32173,124 @@
             "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
           }
         ],
+        "ascensionStages": [
+          {
+            "cap": 30,
+            "items": [
+              {
+                "id": "116001",
+                "name": "Whimsy Wax",
+                "qty": 5,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
+              }
+            ],
+            "cost": 4000
+          },
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "116001",
+                "name": "Whimsy Wax",
+                "qty": 10,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
+              }
+            ],
+            "cost": 8000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "110432",
+                "name": "Radiant Prominence",
+                "qty": 3,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110432.webp"
+              },
+              {
+                "id": "116002",
+                "name": "Dreamweave Steel",
+                "qty": 6,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+              }
+            ],
+            "cost": 16000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "110432",
+                "name": "Radiant Prominence",
+                "qty": 7,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110432.webp"
+              },
+              {
+                "id": "116002",
+                "name": "Dreamweave Steel",
+                "qty": 9,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "110432",
+                "name": "Radiant Prominence",
+                "qty": 20,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110432.webp"
+              },
+              {
+                "id": "116003",
+                "name": "Lucid Awl",
+                "qty": 6,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
+              }
+            ],
+            "cost": 80000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "110432",
+                "name": "Radiant Prominence",
+                "qty": 35,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110432.webp"
+              },
+              {
+                "id": "116003",
+                "name": "Lucid Awl",
+                "qty": 9,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
+              }
+            ],
+            "cost": 160000
+          }
+        ],
         "talents": [
           {
             "id": "116001",
@@ -32041,6 +33985,148 @@
             "rar": 5,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/114013.webp"
+          }
+        ],
+        "ascensionStages": [
+          {
+            "cap": 30,
+            "items": [
+              {
+                "id": "114011",
+                "name": "Tatters of Thought",
+                "qty": 5,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/114011.webp"
+              }
+            ],
+            "cost": 4000
+          },
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "114011",
+                "name": "Tatters of Thought",
+                "qty": 10,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/114011.webp"
+              }
+            ],
+            "cost": 8000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "110427",
+                "name": "Chordal Mirage",
+                "qty": 3,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110427.webp",
+                "source": "The silver strings from the red instruments carried by the troupe",
+                "sourceDetails": [
+                  {
+                    "name": "The silver strings from the red instruments carried by the troupe"
+                  }
+                ]
+              },
+              {
+                "id": "114012",
+                "name": "Fragments of Impression",
+                "qty": 6,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/114012.webp"
+              }
+            ],
+            "cost": 16000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "110427",
+                "name": "Chordal Mirage",
+                "qty": 7,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110427.webp",
+                "source": "The silver strings from the red instruments carried by the troupe",
+                "sourceDetails": [
+                  {
+                    "name": "The silver strings from the red instruments carried by the troupe"
+                  }
+                ]
+              },
+              {
+                "id": "114012",
+                "name": "Fragments of Impression",
+                "qty": 9,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/114012.webp"
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "110427",
+                "name": "Chordal Mirage",
+                "qty": 20,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110427.webp",
+                "source": "The silver strings from the red instruments carried by the troupe",
+                "sourceDetails": [
+                  {
+                    "name": "The silver strings from the red instruments carried by the troupe"
+                  }
+                ]
+              },
+              {
+                "id": "114013",
+                "name": "Shards of Desires",
+                "qty": 6,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/114013.webp"
+              }
+            ],
+            "cost": 80000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "110427",
+                "name": "Chordal Mirage",
+                "qty": 35,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110427.webp",
+                "source": "The silver strings from the red instruments carried by the troupe",
+                "sourceDetails": [
+                  {
+                    "name": "The silver strings from the red instruments carried by the troupe"
+                  }
+                ]
+              },
+              {
+                "id": "114013",
+                "name": "Shards of Desires",
+                "qty": 9,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/114013.webp"
+              }
+            ],
+            "cost": 160000
           }
         ],
         "talents": [
@@ -33855,6 +35941,124 @@
             "rar": 5,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/114013.webp"
+          }
+        ],
+        "ascensionStages": [
+          {
+            "cap": 30,
+            "items": [
+              {
+                "id": "114011",
+                "name": "Tatters of Thought",
+                "qty": 5,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/114011.webp"
+              }
+            ],
+            "cost": 4000
+          },
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "114011",
+                "name": "Tatters of Thought",
+                "qty": 10,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/114011.webp"
+              }
+            ],
+            "cost": 8000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "110432",
+                "name": "Radiant Prominence",
+                "qty": 3,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110432.webp"
+              },
+              {
+                "id": "114012",
+                "name": "Fragments of Impression",
+                "qty": 6,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/114012.webp"
+              }
+            ],
+            "cost": 16000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "110432",
+                "name": "Radiant Prominence",
+                "qty": 7,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110432.webp"
+              },
+              {
+                "id": "114012",
+                "name": "Fragments of Impression",
+                "qty": 9,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/114012.webp"
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "110432",
+                "name": "Radiant Prominence",
+                "qty": 20,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110432.webp"
+              },
+              {
+                "id": "114013",
+                "name": "Shards of Desires",
+                "qty": 6,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/114013.webp"
+              }
+            ],
+            "cost": 80000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "110432",
+                "name": "Radiant Prominence",
+                "qty": 35,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110432.webp"
+              },
+              {
+                "id": "114013",
+                "name": "Shards of Desires",
+                "qty": 9,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/114013.webp"
+              }
+            ],
+            "cost": 160000
           }
         ],
         "talents": [
@@ -35680,6 +37884,152 @@
             "rar": 5,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
+          }
+        ],
+        "ascensionStages": [
+          {
+            "cap": 30,
+            "items": [
+              {
+                "id": "115011",
+                "name": "Ethereal Omen",
+                "qty": 5,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/115011.webp"
+              }
+            ],
+            "cost": 4000
+          },
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "115011",
+                "name": "Ethereal Omen",
+                "qty": 10,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/115011.webp"
+              }
+            ],
+            "cost": 8000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "110433",
+                "name": "Sea Siren's Torn Fin",
+                "qty": 3,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110433.webp",
+                "source": "Lady of Crashing Waves",
+                "sourceDetails": [
+                  {
+                    "name": "Lady of Crashing Waves",
+                    "icon": "../../Database/GameData/hsr/assets/monsters/Monster_4053010.webp"
+                  }
+                ]
+              },
+              {
+                "id": "115012",
+                "name": "Echoing Wail",
+                "qty": 6,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/115012.webp"
+              }
+            ],
+            "cost": 16000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "110433",
+                "name": "Sea Siren's Torn Fin",
+                "qty": 7,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110433.webp",
+                "source": "Lady of Crashing Waves",
+                "sourceDetails": [
+                  {
+                    "name": "Lady of Crashing Waves",
+                    "icon": "../../Database/GameData/hsr/assets/monsters/Monster_4053010.webp"
+                  }
+                ]
+              },
+              {
+                "id": "115012",
+                "name": "Echoing Wail",
+                "qty": 9,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/115012.webp"
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "110433",
+                "name": "Sea Siren's Torn Fin",
+                "qty": 20,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110433.webp",
+                "source": "Lady of Crashing Waves",
+                "sourceDetails": [
+                  {
+                    "name": "Lady of Crashing Waves",
+                    "icon": "../../Database/GameData/hsr/assets/monsters/Monster_4053010.webp"
+                  }
+                ]
+              },
+              {
+                "id": "115013",
+                "name": "Eternal Lament",
+                "qty": 6,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
+              }
+            ],
+            "cost": 80000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "110433",
+                "name": "Sea Siren's Torn Fin",
+                "qty": 35,
+                "rar": 5,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110433.webp",
+                "source": "Lady of Crashing Waves",
+                "sourceDetails": [
+                  {
+                    "name": "Lady of Crashing Waves",
+                    "icon": "../../Database/GameData/hsr/assets/monsters/Monster_4053010.webp"
+                  }
+                ]
+              },
+              {
+                "id": "115013",
+                "name": "Eternal Lament",
+                "qty": 9,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
+              }
+            ],
+            "cost": 160000
           }
         ],
         "talents": [

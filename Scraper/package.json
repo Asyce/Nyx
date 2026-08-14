@@ -11,7 +11,7 @@
     "codes:watch:deep": "node ./codes/scrape.cjs --active-only --deep --change-gated",
     "codes:diff": "node ./codes/semantic-diff.cjs",
     "codes:test": "node --test codes/tests/",
-    "test": "node --test codes/tests/ banners/tests/ wonderland/tests/ library/tests/ banner-history/tests/ events/tests/ achievements/tests/ prydwen/ gamedata/tests/",
+    "test": "node --test codes/tests/ banners/tests/ wonderland/tests/ library/tests/ leveling/tests/ banner-history/tests/ events/tests/ achievements/tests/ prydwen/ gamedata/tests/",
     "achievements:test": "node --test achievements/tests/",
     "banners:history": "node ./banner-history/index.mjs",
     "banners:history:test": "node --test banner-history/tests/",
@@ -43,7 +43,9 @@
     "wiki:titles:hsr": "node ./wiki-titles/scrape.mjs --game hsr",
     "wiki:titles:wuwa": "node ./wiki-titles/scrape.mjs --game wuwa",
     "wiki:titles:ww": "node ./wiki-titles/scrape.mjs --game ww",
-    "wiki:titles:zzz": "node ./wiki-titles/scrape.mjs --game zzz"
+    "wiki:titles:zzz": "node ./wiki-titles/scrape.mjs --game zzz",
+    "leveling": "node ./leveling/scrape.mjs",
+    "leveling:test": "node --test leveling/tests/"
   },
   "engines": {
     "node": ">=20"

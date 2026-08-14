@@ -21,6 +21,24 @@ const GAME_CONFIG = {
   },
 };
 
+/* ---- Recency ----------------------------------------------------------
+   The Library index carried no date at all, so it could only be listed
+   alphabetically — which buried every recent book (user 2026-08-14).
+
+   The signal used is the wiki's own page id, which MediaWiki hands out in
+   creation order: Genshin's launch-era books sit around 16,000 while a 6.x book
+   is above 470,000. It comes back from the page query the scraper already
+   makes, so it costs nothing and covers every book.
+
+   The in-game item id was the other candidate and is a truer "released in"
+   marker, but it only reaches a fifth of HSR's readables — most are pure lore
+   pages with no item behind them — and mixing two id scales in one sort order
+   is meaningless. One uniform signal beats a more precise one with holes. */
+function libraryPageSortId(page) {
+  const id = Number(page?.pageid);
+  return Number.isFinite(id) && id > 0 ? id : null;
+}
+
 export function slugify(value) {
   const slug = String(value || '').normalize('NFKD').toLowerCase()
     .replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
@@ -334,6 +352,7 @@ function pageToBook(game, page, generatedAt) {
     game,
     id:slugify(page.title),
     name,
+    sortId:libraryPageSortId(page),
     sourceUrl:page.fullurl || null,
     scrapedAt:generatedAt,
     iconUrl:page.thumbnail?.source || page.original?.source || null,
@@ -417,7 +436,7 @@ export async function runLibrarySync({ rootDir = DEFAULT_ROOT, fetchImpl = fetch
       }
       const index = {
         schemaVersion:1, game, generatedAt, count:deduped.length,
-        entries:deduped.map((book) => ({ id:book.id, name:book.name, icon:book.icon, file:`${book.id}.json`, volumeCount:book.volumes.length, volumeLabels:book.volumes.map((volume) => volume.label), volumeKeys:book.volumes.map((volume) => volume.volumeKey) })),
+        entries:deduped.map((book) => ({ id:book.id, name:book.name, icon:book.icon, file:`${book.id}.json`, sortId:book.sortId ?? null, volumeCount:book.volumes.length, volumeLabels:book.volumes.map((volume) => volume.label), volumeKeys:book.volumes.map((volume) => volume.volumeKey) })),
       };
       await fs.writeFile(path.join(gameDir, 'index.json'), JSON.stringify(index, null, 2) + '\n');
       const searchIndex = buildLibrarySearchIndex(deduped, game, generatedAt);

@@ -215,6 +215,7 @@ function cmSpecialUnitVisible(gameKey, ch, prefs){
   return !safe[gameKey] || safe[gameKey][unitKey] !== false;
 }
 
+
 // Genshin ascension is 6 phases unlocked at Lv 20/40/50/60/70/80, each capping
 // the level at 40/50/60/70/80/90. The material quantities per phase are
 // universal (identical for every character — only the gem/boss/specialty/mob
@@ -269,6 +270,61 @@ function cmGiAscensionForLevel(ascItems, ascCost, targetLevel){
     if (qty > 0) out.push({ ...m, qty });
   });
   return { items:out, cost:sumTo(CM_GI_ASC_PATTERN.mora) };
+}
+
+// Sourced per-phase ascension costs (req.ascensionStages, built by
+// generate-site-data.mjs). Every game ships them, so the target-level maths
+// above is no longer Genshin-only — the Genshin pattern stays as the fallback
+// for any payload generated before the field existed.
+//
+// A stage's `cap` is the level it unlocks, so the bill for a target level is
+// every stage whose cap it reaches.
+function cmAscensionForLevel(stages, ascItems, ascCost, targetLevel, gameKey){
+  const rows = Array.isArray(stages) ? stages.filter((row) => row && Number(row.cap)) : [];
+  if (!rows.length) {
+    return gameKey === 'gi'
+      ? cmGiAscensionForLevel(ascItems, ascCost, targetLevel)
+      : { items:ascItems || [], cost:Number(ascCost || 0) };
+  }
+  const level = Number(targetLevel);
+  const reached = rows.filter((row) => Number(row.cap) <= level);
+  if (reached.length === rows.length) return { items:ascItems || [], cost:Number(ascCost || 0) };
+  const byKey = new Map();
+  let cost = 0;
+  for (const stage of reached) {
+    cost += Number(stage.cost || 0);
+    for (const item of stage.items || []) {
+      const key = item.id !== undefined && item.id !== null ? `id:${item.id}` : `name:${String(item.name || item.n).toLowerCase()}`;
+      const current = byKey.get(key);
+      if (current) current.qty += Number(item.qty || 0);
+      else byKey.set(key, { ...item, qty:Number(item.qty || 0) });
+    }
+  }
+  return { items:[...byKey.values()].filter((item) => item.qty > 0), cost };
+}
+
+// The level-up EXP bill for a target level (char-materials-leveling.js).
+function cmLevelingForTarget(gameKey, targetLevel, maxLevel, kind = 'character', rarity = null){
+  const entry = kind === 'weapon'
+    ? nyxWeaponLeveling(gameKey, rarity, targetLevel, maxLevel)
+    : nyxCharacterLeveling(gameKey, targetLevel, maxLevel);
+  return entry && (entry.items?.length || entry.cost) ? entry : null;
+}
+
+// True when this game's level-up costs are sourced per band rather than only at
+// max — decides whether the Ascension row can promise EXP at every slider stop.
+function cmHasSourcedLeveling(gameKey){
+  return !!nyxLevelingStages(gameKey);
+}
+
+// Selectable target levels: "1" (nothing ascended) plus each phase's cap.
+function cmAscensionLevelStops(stages, gameKey){
+  const caps = (Array.isArray(stages) ? stages : [])
+    .map((row) => Number(row?.cap)).filter((cap) => Number.isFinite(cap) && cap > 0);
+  if (caps.length) return [1, ...[...new Set(caps)].sort((a, b) => a - b)];
+  // Genshin's fallback pattern knows its own breakpoints.
+  if (gameKey === 'gi') return [1, 40, 50, 60, 70, 80, 90];
+  return [];
 }
 
 const NYX_SEARCH_ALIASES = {
@@ -587,6 +643,9 @@ function cmRequirements(gameKey, ch, opts){
       : Number(ch.req.talentCost || Math.max(0, Number(ch.req.currency || 0) - ascCost - weaponCost));
     return {
       ascension: ch.req.ascension || [],
+      // Per-phase costs, so the Ascension row can price a target level rather
+      // than always quoting the bill to max.
+      ascensionStages: ch.req.ascensionStages || null,
       talents: targeted ? targeted.items : (ch.req.talents || []),
       weapon: ch.req.weapon || null,
       ascCost,
@@ -2148,6 +2207,30 @@ const CM_PROFILE_FACTS = {
   ae: [['faction', 'Faction'], ['birthday', 'Birthday']],
 };
 
+/* One level slider for the whole character page: the kit Profile block, each
+   kit skill's level values, and the Ascension row on the Materials tab. All
+   three used to be hand-rolled; the Ascension one was a typed number box that
+   only Genshin had (user 2026-08-14). `stops` is the list of selectable values
+   and the slider indexes into it, so irregular scales (Lv 1 / 40 / 50 / ... )
+   move one notch at a time instead of dragging through dead numbers. */
+function CMLevelSlider({ label, stops, value, onChange, format, className = 'cm-kit-level-control' }){
+  const rangeId = React.useId();
+  const index = Math.max(0, stops.indexOf(value));
+  const text = format ? format(value) : String(value);
+  return (
+    <div className={className}>
+      <label htmlFor={rangeId}>{label}</label>
+      {stops.length > 1 ? (
+        <React.Fragment>
+          <input id={rangeId} type="range" min="0" max={stops.length - 1} step="1" value={index}
+                 aria-valuetext={text} onChange={(event) => onChange(stops[Number(event.target.value)])} />
+          <output htmlFor={rangeId}>{text}</output>
+        </React.Fragment>
+      ) : <output>{text}</output>}
+    </div>
+  );
+}
+
 function cmProfileValue(key, value){
   const n = Number(value);
   if (!Number.isFinite(n)) return '—';
@@ -2176,7 +2259,6 @@ function cmProfileCheckpoints(baseStats){
 function CharacterProfile({ gameKey, baseStats, facts, characterName }){
   const checkpoints = cmProfileCheckpoints(baseStats);
   const [levelIndex, setLevelIndex] = React.useState(Math.max(0, checkpoints.length - 1));
-  const rangeId = React.useId();
   const checkpoint = checkpoints[Math.min(levelIndex, Math.max(0, checkpoints.length - 1))] || {};
   const statRows = CM_PROFILE_STATS.filter(([key]) => checkpoints.some((row) => Number.isFinite(Number(row[key]))));
   const factRows = (CM_PROFILE_FACTS[gameKey] || CM_PROFILE_FACTS.ae)
@@ -2193,16 +2275,14 @@ function CharacterProfile({ gameKey, baseStats, facts, characterName }){
       )}
       {statRows.length > 0 && (
         <div className="cm-profile-stat-grid">
-          <div className="cm-profile-level-control">
-            <label htmlFor={rangeId}>{characterName || 'Character'} profile level</label>
-            {checkpoints.length > 1 ? (
-              <React.Fragment>
-                <input id={rangeId} type="range" min="0" max={checkpoints.length - 1} step="1" value={levelIndex}
-                       aria-valuetext={checkpoint.label} onChange={(event) => setLevelIndex(Number(event.target.value))} />
-                <output htmlFor={rangeId}>{checkpoint.label}</output>
-              </React.Fragment>
-            ) : <output>{checkpoint.label}</output>}
-          </div>
+          <CMLevelSlider
+            className="cm-profile-level-control"
+            label={`${characterName || 'Character'} profile level`}
+            stops={checkpoints.map((row, index) => index)}
+            value={Math.min(levelIndex, Math.max(0, checkpoints.length - 1))}
+            onChange={setLevelIndex}
+            format={(index) => checkpoints[index]?.label || ''}
+          />
           <table className="cm-profile-stat-table">
             <thead><tr><th>Base Stat</th><th>{checkpoint.label}</th></tr></thead>
             <tbody>
@@ -2412,7 +2492,6 @@ function CMKitDescription({ text, format, terms }){
 function CharacterKitEntry({ entry, entryIndex, sectionTitle, gameKey, characterName, skillIcons, groupLabel, terms }){
   const labels = cmKitLevelLabels(entry);
   const [levelIndex, setLevelIndex] = React.useState(() => cmKitLevelIndex(labels));
-  const rangeId = React.useId();
   const selectedLabel = labels[Math.min(levelIndex, Math.max(0, labels.length - 1))] || '';
   const levelRows = entry?.levels || [];
   const descriptionIndex = levelRows.length === labels.length
@@ -2442,12 +2521,13 @@ function CharacterKitEntry({ entry, entryIndex, sectionTitle, gameKey, character
         <details className="cm-kit-levels">
           <summary>{entry.scaling?.length ? 'Multiplier table' : 'Level values'}</summary>
           <div className="cm-kit-level-detail">
-            <div className="cm-kit-level-control">
-              <label htmlFor={rangeId}>{characterName || 'Character'} {entry.name || 'skill'} level</label>
-              <input id={rangeId} type="range" min="0" max={labels.length - 1} step="1" value={levelIndex}
-                     aria-valuetext={selectedLabel} onChange={(event) => setLevelIndex(Number(event.target.value))} />
-              <output htmlFor={rangeId}>{selectedLabel}</output>
-            </div>
+            <CMLevelSlider
+              label={`${characterName || 'Character'} ${entry.name || 'skill'} level`}
+              stops={labels.map((row, index) => index)}
+              value={Math.min(levelIndex, Math.max(0, labels.length - 1))}
+              onChange={setLevelIndex}
+              format={(index) => labels[index] || ''}
+            />
             {(entry.scaling || []).map((scaling, scalingIndex) => {
               const valueIndex = cmKitMatchingIndex(scaling.columns, selectedLabel, levelIndex);
               return (
@@ -2507,6 +2587,90 @@ function cmCharacterGalleryItems(base, view){
     { key:'profile', label:'Profile', src:view?.originalIcon || view?.icon || view?.circle || base?.icon || base?.circle },
     { key:'splash', label:'Splash Art', src:view?.originalArt || view?.art || view?.card || base?.art || base?.card },
   ].filter((item) => nyxSafeImageSrc(item.src));
+}
+
+/* ---------------- Story tab (Genshin only) ----------------
+   Character Stories and Voice Lines, matching what Nanoka shows, plus the voice
+   cast which the site had nowhere else. The corpus is ~7 MB across the roster,
+   so it is not in the character bundle — each character's file is fetched the
+   first time its Story tab is opened, the same way the Library loads a book. */
+const CM_STORY_GAMES = new Set(['gi']);
+const CM_STORY_VA_LABELS = { japanese:'Japanese', english:'English', chinese:'Chinese', korean:'Korean' };
+
+function cmStoryKey(gameKey, view){
+  if (!CM_STORY_GAMES.has(gameKey)) return null;
+  const key = String(view?.id || '').replace(/^gi-/, '');
+  return /^[0-9]+(?:-[0-9]+)?$/.test(key) ? key : null;
+}
+
+function CMStorySection({ title, entries, defaultOpen }){
+  if (!entries.length) return null;
+  return (
+    <div className="cm-kit-section">
+      <div className="cm-kit-section-title">{title}</div>
+      <div className="cm-story-list">
+        {entries.map((entry, index) => (
+          <details className="cm-story-entry" key={`${entry.title}-${index}`} open={defaultOpen && index === 0}>
+            <summary>
+              <b>{entry.title}</b>
+              {entry.unlock?.length > 0 && <span>{entry.unlock.join(' · ')}</span>}
+            </summary>
+            <p>{entry.text}</p>
+          </details>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+function CharacterStoryPanel({ storyKey, name }){
+  const [state, setState] = React.useState({ loading:true, data:null, error:null });
+  const [attempt, setAttempt] = React.useState(0);
+
+  React.useEffect(() => {
+    if (!storyKey) return undefined;
+    const controller = new AbortController();
+    setState({ loading:true, data:null, error:null });
+    fetch(`/data/story/gi/${storyKey}.json`, { signal:controller.signal, credentials:'same-origin' })
+      .then((response) => { if (!response.ok) throw new Error(`Story returned ${response.status}`); return response.json(); })
+      .then((data) => {
+        if (data?.game !== 'gi' || !Array.isArray(data.stories) || !Array.isArray(data.quotes)) throw new Error('This story record is invalid.');
+        setState({ loading:false, data, error:null });
+      })
+      .catch((error) => { if (error.name !== 'AbortError') setState({ loading:false, data:null, error:error.message || 'Story could not be loaded.' }); });
+    return () => controller.abort();
+  }, [storyKey, attempt]);
+
+  if (state.loading) return <div className="cm-empty" role="status" aria-live="polite">{'Loading ' + (name || 'character') + '’s story…'}</div>;
+  if (state.error) {
+    return (
+      <div className="cm-empty" role="alert">
+        <p>{state.error}</p>
+        <button type="button" className="cm-story-retry" onClick={() => setAttempt((value) => value + 1)}>Try again</button>
+      </div>
+    );
+  }
+  const data = state.data || {};
+  const va = (data.va || []).filter((row) => row?.name);
+  if (!data.stories?.length && !data.quotes?.length && !va.length) return <div className="cm-empty">No story data available for this character yet.</div>;
+  return (
+    <div className="cm-kit-panel cm-story-panel">
+      {va.length > 0 && (
+        <section className="cm-kit-profile">
+          <div className="cm-kit-section-title">Voice Cast</div>
+          <div className="cm-profile-facts">
+            {va.map((row) => (
+              <span key={row.language}>
+                <b>{CM_STORY_VA_LABELS[row.language] || row.language}</b><em>{row.name}</em>
+              </span>
+            ))}
+          </div>
+        </section>
+      )}
+      <CMStorySection title="Character Stories" entries={data.stories || []} defaultOpen />
+      <CMStorySection title="Voice Lines" entries={data.quotes || []} />
+    </div>
+  );
 }
 
 function CharacterGalleryPanel({ items, name }){
@@ -2654,7 +2818,7 @@ function CMMaterialsShareCard({ gameKey, view, cfg, activeWeapon, midLabel, shar
     return (
       <div className="cm-share-actions">
         <button type="button" disabled={busy || !!unavailable} onClick={() => renderCard(true)}>
-          {busy ? 'Rendering…' : 'Download Guide'}
+          {busy ? 'Rendering…' : 'Download Material Image'}
         </button>
         <button type="button" disabled={!shareUrl} onClick={copyLink}>Link</button>
         {(renderState.message || copyMessage) && (
@@ -2672,7 +2836,7 @@ function CMMaterialsShareCard({ gameKey, view, cfg, activeWeapon, midLabel, shar
     <div className="cm-share-preview" aria-busy={renderState.status === 'busy'}>
       <div className="cm-share-preview-actions">
         <button type="button" onClick={onBack}><span>{'\u2039'}</span> Back</button>
-        <button type="button" disabled={!ready} onClick={() => cmDownloadMaterialsCard(blobRef.current, nyxMaterialsCardFilename({ gameKey, view }))}>Download Guide</button>
+        <button type="button" disabled={!ready} onClick={() => cmDownloadMaterialsCard(blobRef.current, nyxMaterialsCardFilename({ gameKey, view }))}>Download Material Image</button>
         <button type="button" disabled={!shareUrl} onClick={copyLink}>Link</button>
         {renderState.status === 'error' && !unavailable && <button type="button" onClick={() => renderCard(false)}>Retry</button>}
       </div>
@@ -2711,7 +2875,10 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
   const [day, setDay] = React.useState(() => { const d = new Date().getDay(); return d === 0 ? 6 : d - 1; }); // 0=Mon..6=Sun
   const [giPreset, setGiPreset] = React.useState('10-10-10');
   const [giTargets, setGiTargets] = React.useState([10, 10, 10]);
-  const [giAscLevel, setGiAscLevel] = React.useState(90);
+  // Target ascension level. Genshin-only until 2026-08-14; now every game with
+  // sourced per-phase costs gets it, so the state is keyed by game and resets
+  // to that game's max when you switch.
+  const [ascLevel, setAscLevel] = React.useState(null);
   const [hsrTargets, setHsrTargets] = React.useState([6, 10, 10, 10]);
   const [hsrMax, setHsrMax] = React.useState(true);
   const [zzzTargets, setZzzTargets] = React.useState([12, 12, 12, 12, 12, 6]);
@@ -3187,10 +3354,26 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
   const talentTargets = gk === 'gi' ? giTargets
     : (gk === 'hsr' ? hsrTalentTargets : (gk === 'zzz' ? zzzTalentTargets : activePreset.targets));
   const req = view ? cmRequirements(gk, view, { targets:talentTargets }) : null;
-  const giAsc = (gk === 'gi' && req && req.ascension) ? cmGiAscensionForLevel(req.ascension, req.ascCost, giAscLevel) : null;
-  const ascItems = giAsc ? giAsc.items : (req?.ascension || []);
-  const ascItemsCost = giAsc ? giAsc.cost : (req?.ascCost || 0);
-  const ascReq = req ? cmReqItems([cmCurrencyMat(cfg, ascItemsCost), ...ascItems]) : [];
+  const ascStops = cmAscensionLevelStops(req?.ascensionStages, gk);
+  const ascMaxLevel = ascStops.length ? ascStops[ascStops.length - 1] : (CM_GAME_MAX_LEVEL[gk] || 90);
+  // Fall back to this character's max whenever the chosen level is not one of
+  // its stops — covers the first render and switching to a game with a
+  // different ladder (ZZZ tops out at 60, HSR at 80).
+  const ascTargetLevel = ascStops.includes(ascLevel) ? ascLevel : ascMaxLevel;
+  const asc = req ? cmAscensionForLevel(req.ascensionStages, req.ascension, req.ascCost, ascTargetLevel, gk) : null;
+  const ascItems = asc ? asc.items : (req?.ascension || []);
+  const ascItemsCost = asc ? asc.cost : (req?.ascCost || 0);
+  // Level-up EXP packs. The downloadable image has always folded these into its
+  // Ascension section; the page never did, so the two disagreed (user
+  // 2026-08-14). Both now read one table.
+  const charLeveling = cmLevelingForTarget(gk, ascTargetLevel, ascMaxLevel);
+  const ascReq = req
+    ? cmReqItems([
+      cmCurrencyMat(cfg, ascItemsCost + Number(charLeveling?.cost || 0)),
+      ...ascItems,
+      ...(charLeveling?.items || []),
+    ])
+    : [];
   const talentReq = req ? cmReqItems([cmCurrencyMat(cfg, req.talentCost), ...(req.talents || [])]) : [];
   const weaponOptions = view && !noReliableInfo ? (cfg.weapons || []).filter((weapon) => cmWeaponCompatible(gk, view, weapon)) : [];
   const weaponPickKey = view ? `${gk}:${cmHiddenKey(view)}` : null;
@@ -3221,7 +3404,18 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
   const activeWeapon = sharedCard
     ? (sharedWeaponProvided ? sharedWeapon : (signatureWeapon || fallbackWeapon))
     : (pickedWeapon || signatureWeapon || fallbackWeapon);
-  const weaponReq = activeWeapon ? cmReqItems([cmCurrencyMat(cfg, activeWeapon.cost || req?.weaponCost), ...(activeWeapon.items || [])]) : [];
+  // Same gap as the character row: the image includes the weapon's own EXP
+  // materials, the page did not.
+  const weaponLeveling = activeWeapon
+    ? cmLevelingForTarget(gk, ascTargetLevel, ascMaxLevel, 'weapon', activeWeapon.rarity)
+    : null;
+  const weaponReq = activeWeapon
+    ? cmReqItems([
+      cmCurrencyMat(cfg, Number(activeWeapon.cost || req?.weaponCost || 0) + Number(weaponLeveling?.cost || 0)),
+      ...(activeWeapon.items || []),
+      ...(weaponLeveling?.items || []),
+    ])
+    : [];
   const totalIncludeKey = view ? `${gk}:${cmHiddenKey(view)}` : null;
   const ledgerInclude = {
     ...CM_DEFAULT_TOTAL_INCLUDE,
@@ -3253,6 +3447,9 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
     || cmHasProfile(view?.baseStats, view?.facts);
   const characterGalleryItems = cmCharacterGalleryItems(materialSel, view);
   const hasGallery = characterGalleryItems.length > 0;
+  // Genshin only for now — it is the one game whose GameData ships character
+  // stories and voice lines.
+  const storyKey = cmStoryKey(gk, view);
   const kitEmptyText = noReliableInfo
     ? 'Currently no reliable information available for this unit. The kit will update automatically when a trusted source has data.'
     : 'No character kit data available yet.';
@@ -3673,6 +3870,10 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
                         )}
                         <button type="button" className={detailTab === 'materials' ? 'on' : ''} onClick={() => setDetailTab('materials')}>Materials</button>
                         <button type="button" className={detailTab === 'kit' ? 'on' : ''} disabled={!hasKit} title={hasKit ? 'Character Kit' : 'No kit data available yet'} onClick={() => hasKit && setDetailTab('kit')}>Character Kit</button>
+                        {storyKey && (
+                          <button type="button" className={detailTab === 'story' ? 'on' : ''} title="Story"
+                                  onClick={() => setDetailTab('story')}>Story</button>
+                        )}
                         <button type="button" className={detailTab === 'gallery' ? 'on' : ''} disabled={!hasGallery} title={hasGallery ? 'Gallery' : 'No artwork available yet'} onClick={() => hasGallery && setDetailTab('gallery')}>Gallery</button>
                       </span>
                     </div>
@@ -3722,6 +3923,8 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
                 ) : detailTab === 'kit' ? (
                   <CharacterKitPanel kit={view?.kit} baseStats={view?.baseStats} facts={view?.facts} gameKey={gk}
                                      characterName={view?.n} skillIcons={view?.skillIcons} emptyText={kitEmptyText} />
+                ) : detailTab === 'story' ? (
+                  <CharacterStoryPanel key={storyKey} storyKey={storyKey} name={view?.n} />
                 ) : detailTab === 'gallery' ? (
                   <CharacterGalleryPanel items={characterGalleryItems} name={view?.n} />
                 ) : sharedCard ? (
@@ -3784,16 +3987,29 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
                   {hasAscData && (
                     <div className="cm-ledger-row">
                       <div className="cm-ledger-label"><b>Ascension</b>
-                        {gk === 'gi'
-                          ? <label className="cm-asc-level" title="Type a target level (1-90)"><span className="lv">Lv</span>
-                              <CMNumberInput
-                                min={1} max={90}
-                                ariaLabel="Ascension target level"
-                                value={giAscLevel}
-                                onCommit={(v) => setGiAscLevel(v)}
-                              />
-                            </label>
+                        {/* The same slider the Character Kit tab uses, so both
+                            tabs answer "at what level?" the same way. Games
+                            without sourced per-phase costs keep the plain
+                            max-level line. */}
+                        {ascStops.length > 1
+                          ? <CMLevelSlider
+                              className="cm-kit-level-control cm-asc-level-slider"
+                              label="Ascension target level"
+                              stops={ascStops}
+                              value={ascTargetLevel}
+                              onChange={setAscLevel}
+                              format={(level) => `Lv. ${level}`}
+                            />
                           : <span>Lv.{CM_GAME_MAX_LEVEL[gk] || 90}</span>}
+                        {/* Only claim EXP when some is actually in the row:
+                            at Lv 1 there is nothing to level yet. */}
+                        {ascStops.length > 1 && (charLeveling || !cmHasSourcedLeveling(gk)) && (
+                          <em className="cm-asc-exp-note">
+                            {charLeveling
+                              ? `Includes level-up EXP to Lv. ${ascTargetLevel}`
+                              : `Level-up EXP is only sourced for Lv. ${ascMaxLevel}`}
+                          </em>
+                        )}
                       </div>
                       <div className="cm-mats cm-ledger-mats">{ascReq.length > 0
                         ? ascReq.map((m, i) => <MatTile key={i} m={m} />)

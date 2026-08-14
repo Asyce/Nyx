@@ -1,0 +1,262 @@
+{
+  "schemaVersion": 1,
+  "game": "wuwa",
+  "generatedAt": "2026-08-14T11:41:08.650Z",
+  "source": {
+    "wiki": "https://wutheringwaves.fandom.com/api.php",
+    "page": "Resonator/Leveling",
+    "section": "Leveling Resonators"
+  },
+  "currency": {
+    "name": "Shell Credit",
+    "id": "2"
+  },
+  "maxLevel": 90,
+  "stages": [
+    {
+      "cap": 20,
+      "exp": 33300,
+      "cost": 11655,
+      "items": [
+        {
+          "id": "43010001",
+          "name": "Basic Resonance Potion",
+          "qty": 3,
+          "rarity": 2,
+          "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_exp_1_UI.webp"
+        },
+        {
+          "id": "43010002",
+          "name": "Medium Resonance Potion",
+          "qty": 1,
+          "rarity": 3,
+          "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_exp_2_UI.webp"
+        },
+        {
+          "id": "43010003",
+          "name": "Advanced Resonance Potion",
+          "qty": 1,
+          "rarity": 4,
+          "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_exp_3_UI.webp"
+        },
+        {
+          "id": "43010004",
+          "name": "Premium Resonance Potion",
+          "qty": 1,
+          "rarity": 5,
+          "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_exp_4_UI.webp"
+        }
+      ]
+    },
+    {
+      "cap": 40,
+      "exp": 208800,
+      "cost": 73080,
+      "items": [
+        {
+          "id": "43010001",
+          "name": "Basic Resonance Potion",
+          "qty": 5,
+          "rarity": 2,
+          "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_exp_1_UI.webp"
+        },
+        {
+          "id": "43010002",
+          "name": "Medium Resonance Potion",
+          "qty": 3,
+          "rarity": 3,
+          "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_exp_2_UI.webp"
+        },
+        {
+          "id": "43010003",
+          "name": "Advanced Resonance Potion",
+          "qty": 2,
+          "rarity": 4,
+          "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_exp_3_UI.webp"
+        },
+        {
+          "id": "43010004",
+          "name": "Premium Resonance Potion",
+          "qty": 9,
+          "rarity": 5,
+          "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_exp_4_UI.webp"
+        }
+      ]
+    },
+    {
+      "cap": 50,
+      "exp": 397100,
+      "cost": 138985,
+      "items": [
+        {
+          "id": "43010001",
+          "name": "Basic Resonance Potion",
+          "qty": 6,
+          "rarity": 2,
+          "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_exp_1_UI.webp"
+        },
+        {
+          "id": "43010002",
+          "name": "Medium Resonance Potion",
+          "qty": 3,
+          "rarity": 3,
+          "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_exp_2_UI.webp"
+        },
+        {
+          "id": "43010003",
+          "name": "Advanced Resonance Potion",
+          "qty": 3,
+          "rarity": 4,
+          "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_exp_3_UI.webp"
+        },
+        {
+          "id": "43010004",
+          "name": "Premium Resonance Potion",
+          "qty": 18,
+          "rarity": 5,
+          "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_exp_4_UI.webp"
+        }
+      ]
+    },
+    {
+      "cap": 60,
+      "exp": 683700,
+      "cost": 239295,
+      "items": [
+        {
+          "id": "43010001",
+          "name": "Basic Resonance Potion",
+          "qty": 7,
+          "rarity": 2,
+          "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_exp_1_UI.webp"
+        },
+        {
+          "id": "43010002",
+          "name": "Medium Resonance Potion",
+          "qty": 5,
+          "rarity": 3,
+          "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_exp_2_UI.webp"
+        },
+        {
+          "id": "43010003",
+          "name": "Advanced Resonance Potion",
+          "qty": 3,
+          "rarity": 4,
+          "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_exp_3_UI.webp"
+        },
+        {
+          "id": "43010004",
+          "name": "Premium Resonance Potion",
+          "qty": 32,
+          "rarity": 5,
+          "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_exp_4_UI.webp"
+        }
+      ]
+    },
+    {
+      "cap": 70,
+      "exp": 1096700,
+      "cost": 383845,
+      "items": [
+        {
+          "id": "43010001",
+          "name": "Basic Resonance Potion",
+          "qty": 9,
+          "rarity": 2,
+          "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_exp_1_UI.webp"
+        },
+        {
+          "id": "43010002",
+          "name": "Medium Resonance Potion",
+          "qty": 6,
+          "rarity": 3,
+          "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_exp_2_UI.webp"
+        },
+        {
+          "id": "43010003",
+          "name": "Advanced Resonance Potion",
+          "qty": 4,
+          "rarity": 4,
+          "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_exp_3_UI.webp"
+        },
+        {
+          "id": "43010004",
+          "name": "Premium Resonance Potion",
+          "qty": 52,
+          "rarity": 5,
+          "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_exp_4_UI.webp"
+        }
+      ]
+    },
+    {
+      "cap": 80,
+      "exp": 1669100,
+      "cost": 584185,
+      "items": [
+        {
+          "id": "43010001",
+          "name": "Basic Resonance Potion",
+          "qty": 11,
+          "rarity": 2,
+          "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_exp_1_UI.webp"
+        },
+        {
+          "id": "43010002",
+          "name": "Medium Resonance Potion",
+          "qty": 7,
+          "rarity": 3,
+          "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_exp_2_UI.webp"
+        },
+        {
+          "id": "43010003",
+          "name": "Advanced Resonance Potion",
+          "qty": 5,
+          "rarity": 4,
+          "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_exp_3_UI.webp"
+        },
+        {
+          "id": "43010004",
+          "name": "Premium Resonance Potion",
+          "qty": 80,
+          "rarity": 5,
+          "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_exp_4_UI.webp"
+        }
+      ]
+    },
+    {
+      "cap": 90,
+      "exp": 2438000,
+      "cost": 853300,
+      "items": [
+        {
+          "id": "43010001",
+          "name": "Basic Resonance Potion",
+          "qty": 12,
+          "rarity": 2,
+          "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_exp_1_UI.webp"
+        },
+        {
+          "id": "43010002",
+          "name": "Medium Resonance Potion",
+          "qty": 7,
+          "rarity": 3,
+          "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_exp_2_UI.webp"
+        },
+        {
+          "id": "43010003",
+          "name": "Advanced Resonance Potion",
+          "qty": 6,
+          "rarity": 4,
+          "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_exp_3_UI.webp"
+        },
+        {
+          "id": "43010004",
+          "name": "Premium Resonance Potion",
+          "qty": 118,
+          "rarity": 5,
+          "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_exp_4_UI.webp"
+        }
+      ]
+    }
+  ]
+}

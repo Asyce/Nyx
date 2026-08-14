@@ -1,0 +1,938 @@
+{
+  "schemaVersion": 1,
+  "game": "gi",
+  "count": 133,
+  "entries": [
+    {
+      "id": "gi-10000150",
+      "key": "10000150",
+      "name": "Odette",
+      "stories": 8,
+      "quotes": 76
+    },
+    {
+      "id": "gi-10000148",
+      "key": "10000148",
+      "name": "Alyosha",
+      "stories": 8,
+      "quotes": 70
+    },
+    {
+      "id": "gi-10000133",
+      "key": "10000133",
+      "name": "Sandrone",
+      "stories": 8,
+      "quotes": 79
+    },
+    {
+      "id": "gi-10000129",
+      "key": "10000129",
+      "name": "Lohen",
+      "stories": 8,
+      "quotes": 76
+    },
+    {
+      "id": "gi-10000131",
+      "key": "10000131",
+      "name": "Nicole",
+      "stories": 8,
+      "quotes": 67
+    },
+    {
+      "id": "gi-10000132",
+      "key": "10000132",
+      "name": "Prune",
+      "stories": 8,
+      "quotes": 79
+    },
+    {
+      "id": "gi-10000130",
+      "key": "10000130",
+      "name": "Linnea",
+      "stories": 8,
+      "quotes": 71
+    },
+    {
+      "id": "gi-10000128",
+      "key": "10000128",
+      "name": "Varka",
+      "stories": 8,
+      "quotes": 91
+    },
+    {
+      "id": "gi-10000126",
+      "key": "10000126",
+      "name": "Zibai",
+      "stories": 8,
+      "quotes": 71
+    },
+    {
+      "id": "gi-10000127",
+      "key": "10000127",
+      "name": "Illuga",
+      "stories": 8,
+      "quotes": 71
+    },
+    {
+      "id": "gi-10000125",
+      "key": "10000125",
+      "name": "Columbina",
+      "stories": 8,
+      "quotes": 77
+    },
+    {
+      "id": "gi-10000123",
+      "key": "10000123",
+      "name": "Durin",
+      "stories": 8,
+      "quotes": 83
+    },
+    {
+      "id": "gi-10000124",
+      "key": "10000124",
+      "name": "Jahoda",
+      "stories": 8,
+      "quotes": 64
+    },
+    {
+      "id": "gi-10000122",
+      "key": "10000122",
+      "name": "Nefer",
+      "stories": 8,
+      "quotes": 72
+    },
+    {
+      "id": "gi-10000120",
+      "key": "10000120",
+      "name": "Flins",
+      "stories": 8,
+      "quotes": 70
+    },
+    {
+      "id": "gi-10000119",
+      "key": "10000119",
+      "name": "Lauma",
+      "stories": 8,
+      "quotes": 69
+    },
+    {
+      "id": "gi-10000121",
+      "key": "10000121",
+      "name": "Aino",
+      "stories": 8,
+      "quotes": 73
+    },
+    {
+      "id": "gi-10000116",
+      "key": "10000116",
+      "name": "Ineffa",
+      "stories": 8,
+      "quotes": 72
+    },
+    {
+      "id": "gi-10000114",
+      "key": "10000114",
+      "name": "Skirk",
+      "stories": 8,
+      "quotes": 71
+    },
+    {
+      "id": "gi-10000115",
+      "key": "10000115",
+      "name": "Dahlia",
+      "stories": 8,
+      "quotes": 67
+    },
+    {
+      "id": "gi-10000112",
+      "key": "10000112",
+      "name": "Escoffier",
+      "stories": 8,
+      "quotes": 73
+    },
+    {
+      "id": "gi-10000113",
+      "key": "10000113",
+      "name": "Ifa",
+      "stories": 8,
+      "quotes": 69
+    },
+    {
+      "id": "gi-10000111",
+      "key": "10000111",
+      "name": "Varesa",
+      "stories": 8,
+      "quotes": 78
+    },
+    {
+      "id": "gi-10000110",
+      "key": "10000110",
+      "name": "Iansan",
+      "stories": 8,
+      "quotes": 68
+    },
+    {
+      "id": "gi-10000109",
+      "key": "10000109",
+      "name": "Yumemizuki Mizuki",
+      "stories": 8,
+      "quotes": 72
+    },
+    {
+      "id": "gi-10000108",
+      "key": "10000108",
+      "name": "Lan Yan",
+      "stories": 8,
+      "quotes": 68
+    },
+    {
+      "id": "gi-10000107",
+      "key": "10000107",
+      "name": "Citlali",
+      "stories": 8,
+      "quotes": 69
+    },
+    {
+      "id": "gi-10000106",
+      "key": "10000106",
+      "name": "Mavuika",
+      "stories": 8,
+      "quotes": 74
+    },
+    {
+      "id": "gi-10000104",
+      "key": "10000104",
+      "name": "Chasca",
+      "stories": 8,
+      "quotes": 66
+    },
+    {
+      "id": "gi-10000105",
+      "key": "10000105",
+      "name": "Ororon",
+      "stories": 8,
+      "quotes": 67
+    },
+    {
+      "id": "gi-10000103",
+      "key": "10000103",
+      "name": "Xilonen",
+      "stories": 8,
+      "quotes": 67
+    },
+    {
+      "id": "gi-10000101",
+      "key": "10000101",
+      "name": "Kinich",
+      "stories": 8,
+      "quotes": 78
+    },
+    {
+      "id": "gi-10000102",
+      "key": "10000102",
+      "name": "Mualani",
+      "stories": 8,
+      "quotes": 76
+    },
+    {
+      "id": "gi-10000100",
+      "key": "10000100",
+      "name": "Kachina",
+      "stories": 8,
+      "quotes": 70
+    },
+    {
+      "id": "gi-10000099",
+      "key": "10000099",
+      "name": "Emilie",
+      "stories": 8,
+      "quotes": 69
+    },
+    {
+      "id": "gi-10000095",
+      "key": "10000095",
+      "name": "Sigewinne",
+      "stories": 8,
+      "quotes": 76
+    },
+    {
+      "id": "gi-10000098",
+      "key": "10000098",
+      "name": "Clorinde",
+      "stories": 8,
+      "quotes": 70
+    },
+    {
+      "id": "gi-10000097",
+      "key": "10000097",
+      "name": "Sethos",
+      "stories": 8,
+      "quotes": 69
+    },
+    {
+      "id": "gi-10000096",
+      "key": "10000096",
+      "name": "Arlecchino",
+      "stories": 8,
+      "quotes": 75
+    },
+    {
+      "id": "gi-10000094",
+      "key": "10000094",
+      "name": "Chiori",
+      "stories": 8,
+      "quotes": 68
+    },
+    {
+      "id": "gi-10000093",
+      "key": "10000093",
+      "name": "Xianyun",
+      "stories": 8,
+      "quotes": 70
+    },
+    {
+      "id": "gi-10000092",
+      "key": "10000092",
+      "name": "Gaming",
+      "stories": 8,
+      "quotes": 71
+    },
+    {
+      "id": "gi-10000090",
+      "key": "10000090",
+      "name": "Chevreuse",
+      "stories": 8,
+      "quotes": 70
+    },
+    {
+      "id": "gi-10000091",
+      "key": "10000091",
+      "name": "Navia",
+      "stories": 8,
+      "quotes": 75
+    },
+    {
+      "id": "gi-10000089",
+      "key": "10000089",
+      "name": "Furina",
+      "stories": 7,
+      "quotes": 71
+    },
+    {
+      "id": "gi-10000088",
+      "key": "10000088",
+      "name": "Charlotte",
+      "stories": 8,
+      "quotes": 69
+    },
+    {
+      "id": "gi-10000086",
+      "key": "10000086",
+      "name": "Wriothesley",
+      "stories": 8,
+      "quotes": 66
+    },
+    {
+      "id": "gi-10000087",
+      "key": "10000087",
+      "name": "Neuvillette",
+      "stories": 8,
+      "quotes": 75
+    },
+    {
+      "id": "gi-10000085",
+      "key": "10000085",
+      "name": "Freminet",
+      "stories": 8,
+      "quotes": 72
+    },
+    {
+      "id": "gi-10000084",
+      "key": "10000084",
+      "name": "Lyney",
+      "stories": 8,
+      "quotes": 72
+    },
+    {
+      "id": "gi-10000083",
+      "key": "10000083",
+      "name": "Lynette",
+      "stories": 8,
+      "quotes": 72
+    },
+    {
+      "id": "gi-10000061",
+      "key": "10000061",
+      "name": "Kirara",
+      "stories": 8,
+      "quotes": 70
+    },
+    {
+      "id": "gi-10000082",
+      "key": "10000082",
+      "name": "Baizhu",
+      "stories": 8,
+      "quotes": 71
+    },
+    {
+      "id": "gi-10000081",
+      "key": "10000081",
+      "name": "Kaveh",
+      "stories": 8,
+      "quotes": 68
+    },
+    {
+      "id": "gi-10000080",
+      "key": "10000080",
+      "name": "Mika",
+      "stories": 8,
+      "quotes": 77
+    },
+    {
+      "id": "gi-10000079",
+      "key": "10000079",
+      "name": "Dehya",
+      "stories": 8,
+      "quotes": 69
+    },
+    {
+      "id": "gi-10000078",
+      "key": "10000078",
+      "name": "Alhaitham",
+      "stories": 8,
+      "quotes": 67
+    },
+    {
+      "id": "gi-10000077",
+      "key": "10000077",
+      "name": "Yaoyao",
+      "stories": 8,
+      "quotes": 71
+    },
+    {
+      "id": "gi-10000075",
+      "key": "10000075",
+      "name": "Wanderer",
+      "stories": 8,
+      "quotes": 85
+    },
+    {
+      "id": "gi-10000076",
+      "key": "10000076",
+      "name": "Faruzan",
+      "stories": 8,
+      "quotes": 68
+    },
+    {
+      "id": "gi-10000074",
+      "key": "10000074",
+      "name": "Layla",
+      "stories": 8,
+      "quotes": 66
+    },
+    {
+      "id": "gi-10000073",
+      "key": "10000073",
+      "name": "Nahida",
+      "stories": 8,
+      "quotes": 76
+    },
+    {
+      "id": "gi-10000070",
+      "key": "10000070",
+      "name": "Nilou",
+      "stories": 8,
+      "quotes": 67
+    },
+    {
+      "id": "gi-10000071",
+      "key": "10000071",
+      "name": "Cyno",
+      "stories": 8,
+      "quotes": 76
+    },
+    {
+      "id": "gi-10000072",
+      "key": "10000072",
+      "name": "Candace",
+      "stories": 8,
+      "quotes": 70
+    },
+    {
+      "id": "gi-10000068",
+      "key": "10000068",
+      "name": "Dori",
+      "stories": 8,
+      "quotes": 74
+    },
+    {
+      "id": "gi-10000069",
+      "key": "10000069",
+      "name": "Tighnari",
+      "stories": 8,
+      "quotes": 76
+    },
+    {
+      "id": "gi-10000067",
+      "key": "10000067",
+      "name": "Collei",
+      "stories": 8,
+      "quotes": 70
+    },
+    {
+      "id": "gi-10000059",
+      "key": "10000059",
+      "name": "Shikanoin Heizou",
+      "stories": 8,
+      "quotes": 68
+    },
+    {
+      "id": "gi-10000065",
+      "key": "10000065",
+      "name": "Kuki Shinobu",
+      "stories": 8,
+      "quotes": 67
+    },
+    {
+      "id": "gi-10000060",
+      "key": "10000060",
+      "name": "Yelan",
+      "stories": 8,
+      "quotes": 71
+    },
+    {
+      "id": "gi-10000066",
+      "key": "10000066",
+      "name": "Kamisato Ayato",
+      "stories": 8,
+      "quotes": 70
+    },
+    {
+      "id": "gi-10000058",
+      "key": "10000058",
+      "name": "Yae Miko",
+      "stories": 8,
+      "quotes": 74
+    },
+    {
+      "id": "gi-10000063",
+      "key": "10000063",
+      "name": "Shenhe",
+      "stories": 8,
+      "quotes": 73
+    },
+    {
+      "id": "gi-10000064",
+      "key": "10000064",
+      "name": "Yun Jin",
+      "stories": 8,
+      "quotes": 69
+    },
+    {
+      "id": "gi-10000057",
+      "key": "10000057",
+      "name": "Arataki Itto",
+      "stories": 8,
+      "quotes": 73
+    },
+    {
+      "id": "gi-10000055",
+      "key": "10000055",
+      "name": "Gorou",
+      "stories": 8,
+      "quotes": 71
+    },
+    {
+      "id": "gi-10000050",
+      "key": "10000050",
+      "name": "Thoma",
+      "stories": 8,
+      "quotes": 72
+    },
+    {
+      "id": "gi-10000054",
+      "key": "10000054",
+      "name": "Sangonomiya Kokomi",
+      "stories": 8,
+      "quotes": 69
+    },
+    {
+      "id": "gi-10000052",
+      "key": "10000052",
+      "name": "Raiden Shogun",
+      "stories": 8,
+      "quotes": 78
+    },
+    {
+      "id": "gi-10000056",
+      "key": "10000056",
+      "name": "Kujou Sara",
+      "stories": 8,
+      "quotes": 74
+    },
+    {
+      "id": "gi-10000049",
+      "key": "10000049",
+      "name": "Yoimiya",
+      "stories": 8,
+      "quotes": 75
+    },
+    {
+      "id": "gi-10000053",
+      "key": "10000053",
+      "name": "Sayu",
+      "stories": 8,
+      "quotes": 78
+    },
+    {
+      "id": "gi-10000002",
+      "key": "10000002",
+      "name": "Kamisato Ayaka",
+      "stories": 8,
+      "quotes": 71
+    },
+    {
+      "id": "gi-10000047",
+      "key": "10000047",
+      "name": "Kaedehara Kazuha",
+      "stories": 8,
+      "quotes": 73
+    },
+    {
+      "id": "gi-10000051",
+      "key": "10000051",
+      "name": "Eula",
+      "stories": 8,
+      "quotes": 79
+    },
+    {
+      "id": "gi-10000048",
+      "key": "10000048",
+      "name": "Yanfei",
+      "stories": 8,
+      "quotes": 67
+    },
+    {
+      "id": "gi-10000045",
+      "key": "10000045",
+      "name": "Rosaria",
+      "stories": 8,
+      "quotes": 70
+    },
+    {
+      "id": "gi-10000046",
+      "key": "10000046",
+      "name": "Hu Tao",
+      "stories": 8,
+      "quotes": 77
+    },
+    {
+      "id": "gi-10000026",
+      "key": "10000026",
+      "name": "Xiao",
+      "stories": 8,
+      "quotes": 72
+    },
+    {
+      "id": "gi-10000037",
+      "key": "10000037",
+      "name": "Ganyu",
+      "stories": 8,
+      "quotes": 78
+    },
+    {
+      "id": "gi-10000038",
+      "key": "10000038",
+      "name": "Albedo",
+      "stories": 8,
+      "quotes": 67
+    },
+    {
+      "id": "gi-10000030",
+      "key": "10000030",
+      "name": "Zhongli",
+      "stories": 8,
+      "quotes": 77
+    },
+    {
+      "id": "gi-10000044",
+      "key": "10000044",
+      "name": "Xinyan",
+      "stories": 8,
+      "quotes": 69
+    },
+    {
+      "id": "gi-10000033",
+      "key": "10000033",
+      "name": "Tartaglia",
+      "stories": 8,
+      "quotes": 82
+    },
+    {
+      "id": "gi-10000039",
+      "key": "10000039",
+      "name": "Diona",
+      "stories": 8,
+      "quotes": 80
+    },
+    {
+      "id": "gi-10000005-2",
+      "key": "10000005-2",
+      "name": "Traveler",
+      "stories": 8,
+      "quotes": 254
+    },
+    {
+      "id": "gi-10000005-3",
+      "key": "10000005-3",
+      "name": "Traveler",
+      "stories": 8,
+      "quotes": 254
+    },
+    {
+      "id": "gi-10000005-4",
+      "key": "10000005-4",
+      "name": "Traveler",
+      "stories": 8,
+      "quotes": 254
+    },
+    {
+      "id": "gi-10000005-5",
+      "key": "10000005-5",
+      "name": "Traveler",
+      "stories": 8,
+      "quotes": 254
+    },
+    {
+      "id": "gi-10000005-6",
+      "key": "10000005-6",
+      "name": "Traveler",
+      "stories": 8,
+      "quotes": 254
+    },
+    {
+      "id": "gi-10000005-7",
+      "key": "10000005-7",
+      "name": "Traveler",
+      "stories": 8,
+      "quotes": 254
+    },
+    {
+      "id": "gi-10000005-8",
+      "key": "10000005-8",
+      "name": "Traveler",
+      "stories": 8,
+      "quotes": 254
+    },
+    {
+      "id": "gi-10000007-2",
+      "key": "10000007-2",
+      "name": "Traveler",
+      "stories": 8,
+      "quotes": 254
+    },
+    {
+      "id": "gi-10000007-3",
+      "key": "10000007-3",
+      "name": "Traveler",
+      "stories": 8,
+      "quotes": 254
+    },
+    {
+      "id": "gi-10000007-4",
+      "key": "10000007-4",
+      "name": "Traveler",
+      "stories": 8,
+      "quotes": 254
+    },
+    {
+      "id": "gi-10000007-5",
+      "key": "10000007-5",
+      "name": "Traveler",
+      "stories": 8,
+      "quotes": 254
+    },
+    {
+      "id": "gi-10000007-6",
+      "key": "10000007-6",
+      "name": "Traveler",
+      "stories": 8,
+      "quotes": 254
+    },
+    {
+      "id": "gi-10000007-7",
+      "key": "10000007-7",
+      "name": "Traveler",
+      "stories": 8,
+      "quotes": 254
+    },
+    {
+      "id": "gi-10000007-8",
+      "key": "10000007-8",
+      "name": "Traveler",
+      "stories": 8,
+      "quotes": 254
+    },
+    {
+      "id": "gi-10000016",
+      "key": "10000016",
+      "name": "Diluc",
+      "stories": 8,
+      "quotes": 73
+    },
+    {
+      "id": "gi-10000003",
+      "key": "10000003",
+      "name": "Jean",
+      "stories": 8,
+      "quotes": 72
+    },
+    {
+      "id": "gi-10000042",
+      "key": "10000042",
+      "name": "Keqing",
+      "stories": 8,
+      "quotes": 84
+    },
+    {
+      "id": "gi-10000029",
+      "key": "10000029",
+      "name": "Klee",
+      "stories": 8,
+      "quotes": 74
+    },
+    {
+      "id": "gi-10000041",
+      "key": "10000041",
+      "name": "Mona",
+      "stories": 8,
+      "quotes": 67
+    },
+    {
+      "id": "gi-10000035",
+      "key": "10000035",
+      "name": "Qiqi",
+      "stories": 8,
+      "quotes": 70
+    },
+    {
+      "id": "gi-10000022",
+      "key": "10000022",
+      "name": "Venti",
+      "stories": 8,
+      "quotes": 76
+    },
+    {
+      "id": "gi-10000021",
+      "key": "10000021",
+      "name": "Amber",
+      "stories": 8,
+      "quotes": 79
+    },
+    {
+      "id": "gi-10000014",
+      "key": "10000014",
+      "name": "Barbara",
+      "stories": 8,
+      "quotes": 71
+    },
+    {
+      "id": "gi-10000024",
+      "key": "10000024",
+      "name": "Beidou",
+      "stories": 8,
+      "quotes": 71
+    },
+    {
+      "id": "gi-10000032",
+      "key": "10000032",
+      "name": "Bennett",
+      "stories": 8,
+      "quotes": 73
+    },
+    {
+      "id": "gi-10000036",
+      "key": "10000036",
+      "name": "Chongyun",
+      "stories": 8,
+      "quotes": 67
+    },
+    {
+      "id": "gi-10000031",
+      "key": "10000031",
+      "name": "Fischl",
+      "stories": 8,
+      "quotes": 68
+    },
+    {
+      "id": "gi-10000015",
+      "key": "10000015",
+      "name": "Kaeya",
+      "stories": 8,
+      "quotes": 76
+    },
+    {
+      "id": "gi-10000006",
+      "key": "10000006",
+      "name": "Lisa",
+      "stories": 8,
+      "quotes": 75
+    },
+    {
+      "id": "gi-10000027",
+      "key": "10000027",
+      "name": "Ningguang",
+      "stories": 8,
+      "quotes": 76
+    },
+    {
+      "id": "gi-10000034",
+      "key": "10000034",
+      "name": "Noelle",
+      "stories": 8,
+      "quotes": 69
+    },
+    {
+      "id": "gi-10000020",
+      "key": "10000020",
+      "name": "Razor",
+      "stories": 8,
+      "quotes": 66
+    },
+    {
+      "id": "gi-10000043",
+      "key": "10000043",
+      "name": "Sucrose",
+      "stories": 8,
+      "quotes": 70
+    },
+    {
+      "id": "gi-10000023",
+      "key": "10000023",
+      "name": "Xiangling",
+      "stories": 8,
+      "quotes": 74
+    },
+    {
+      "id": "gi-10000025",
+      "key": "10000025",
+      "name": "Xingqiu",
+      "stories": 8,
+      "quotes": 77
+    },
+    {
+      "id": "gi-10000143",
+      "key": "10000143",
+      "name": "Vesna",
+      "stories": 0,
+      "quotes": 77
+    },
+    {
+      "id": "gi-10000140",
+      "key": "10000140",
+      "name": "Vodyanitsa",
+      "stories": 0,
+      "quotes": 74
+    }
+  ]
+}

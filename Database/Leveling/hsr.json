@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "generatedAt": "2026-08-14T11:41:08.650Z",
+  "source": {
+    "wiki": "https://honkai-star-rail.fandom.com/api.php",
+    "page": "Character EXP",
+    "section": "Leveling Characters"
+  },
+  "currency": {
+    "name": "Credit",
+    "id": "2"
+  },
+  "maxLevel": 80,
+  "stages": [
+    {
+      "cap": 20,
+      "exp": 112510,
+      "cost": 11300,
+      "items": [
+        {
+          "id": "213",
+          "name": "Traveler's Guide",
+          "qty": 5,
+          "rarity": "VeryRare",
+          "icon": "GameData/hsr/assets/items/213.webp"
+        },
+        {
+          "id": "212",
+          "name": "Adventure Log",
+          "qty": 2,
+          "rarity": "Rare",
+          "icon": "GameData/hsr/assets/items/212.webp"
+        },
+        {
+          "id": "211",
+          "name": "Travel Encounters",
+          "qty": 3,
+          "rarity": "NotNormal",
+          "icon": "GameData/hsr/assets/items/211.webp"
+        }
+      ]
+    },
+    {
+      "cap": 30,
+      "exp": 290420,
+      "cost": 29100,
+      "items": [
+        {
+          "id": "213",
+          "name": "Traveler's Guide",
+          "qty": 13,
+          "rarity": "VeryRare",
+          "icon": "GameData/hsr/assets/items/213.webp"
+        },
+        {
+          "id": "212",
+          "name": "Adventure Log",
+          "qty": 5,
+          "rarity": "Rare",
+          "icon": "GameData/hsr/assets/items/212.webp"
+        },
+        {
+          "id": "211",
+          "name": "Travel Encounters",
+          "qty": 6,
+          "rarity": "NotNormal",
+          "icon": "GameData/hsr/assets/items/211.webp"
+        }
+      ]
+    },
+    {
+      "cap": 40,
+      "exp": 497340,
+      "cost": 49800,
+      "items": [
+        {
+          "id": "213",
+          "name": "Traveler's Guide",
+          "qty": 23,
+          "rarity": "VeryRare",
+          "icon": "GameData/hsr/assets/items/213.webp"
+        },
+        {
+          "id": "212",
+          "name": "Adventure Log",
+          "qty": 6,
+          "rarity": "Rare",
+          "icon": "GameData/hsr/assets/items/212.webp"
+        },
+        {
+          "id": "211",
+          "name": "Travel Encounters",
+          "qty": 8,
+          "rarity": "NotNormal",
+          "icon": "GameData/hsr/assets/items/211.webp"
+        }
+      ]
+    },
+    {
+      "cap": 50,
+      "exp": 886730,
+      "cost": 88800,
+      "items": [
+        {
+          "id": "213",
+          "name": "Traveler's Guide",
+          "qty": 42,
+          "rarity": "VeryRare",
+          "icon": "GameData/hsr/assets/items/213.webp"
+        },
+        {
+          "id": "212",
+          "name": "Adventure Log",
+          "qty": 8,
+          "rarity": "Rare",
+          "icon": "GameData/hsr/assets/items/212.webp"
+        },
+        {
+          "id": "211",
+          "name": "Travel Encounters",
+          "qty": 8,
+          "rarity": "NotNormal",
+          "icon": "GameData/hsr/assets/items/211.webp"
+        }
+      ]
+    },
+    {
+      "cap": 60,
+      "exp": 1708870,
+      "cost": 171100,
+      "items": [
+        {
+          "id": "213",
+          "name": "Traveler's Guide",
+          "qty": 83,
+          "rarity": "VeryRare",
+          "icon": "GameData/hsr/assets/items/213.webp"
+        },
+        {
+          "id": "212",
+          "name": "Adventure Log",
+          "qty": 8,
+          "rarity": "Rare",
+          "icon": "GameData/hsr/assets/items/212.webp"
+        },
+        {
+          "id": "211",
+          "name": "Travel Encounters",
+          "qty": 11,
+          "rarity": "NotNormal",
+          "icon": "GameData/hsr/assets/items/211.webp"
+        }
+      ]
+    },
+    {
+      "cap": 70,
+      "exp": 3034920,
+      "cost": 303800,
+      "items": [
+        {
+          "id": "213",
+          "name": "Traveler's Guide",
+          "qty": 149,
+          "rarity": "VeryRare",
+          "icon": "GameData/hsr/assets/items/213.webp"
+        },
+        {
+          "id": "212",
+          "name": "Adventure Log",
+          "qty": 9,
+          "rarity": "Rare",
+          "icon": "GameData/hsr/assets/items/212.webp"
+        },
+        {
+          "id": "211",
+          "name": "Travel Encounters",
+          "qty": 13,
+          "rarity": "NotNormal",
+          "icon": "GameData/hsr/assets/items/211.webp"
+        }
+      ]
+    },
+    {
+      "cap": 80,
+      "exp": 5797920,
+      "cost": 580100,
+      "items": [
+        {
+          "id": "213",
+          "name": "Traveler's Guide",
+          "qty": 287,
+          "rarity": "VeryRare",
+          "icon": "GameData/hsr/assets/items/213.webp"
+        },
+        {
+          "id": "212",
+          "name": "Adventure Log",
+          "qty": 9,
+          "rarity": "Rare",
+          "icon": "GameData/hsr/assets/items/212.webp"
+        },
+        {
+          "id": "211",
+          "name": "Travel Encounters",
+          "qty": 16,
+          "rarity": "NotNormal",
+          "icon": "GameData/hsr/assets/items/211.webp"
+        }
+      ]
+    }
+  ]
+}

@@ -45,8 +45,28 @@
             "entries": [
               {
                 "name": "Light Step",
-                "type": "Talent",
-                "desc": "Normal Attack\\nPerforms up to 6 rapid strikes.\\n\\nCharged Attack\\nConsumes a certain amount of Stamina to leap into the air, then launch a swift trample-kick to the opponent in front.\\n\\nPlunging Attack\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+                "type": "Normal Attack",
+                "desc": "Normal Attack\nPerforms up to 6 rapid strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to leap into the air, then launch a swift trample-kick to the opponent in front.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+                "descFormat": [
+                  {
+                    "start": 0,
+                    "end": 13,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 47,
+                    "end": 61,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 181,
+                    "end": 196,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ],
                 "icon": "../../Database/GameData/gi/assets/skills/Skill_A_01.webp",
                 "scaling": [
                   {
@@ -275,8 +295,94 @@
               },
               {
                 "name": "Spirit Blade Inception",
-                "type": "Talent",
-                "desc": "Vesna raises her weapon up high, awakening the power of the spirit blade and dealing AoE Anemo DMG around her. Then, she enters the Spirit Blade state and gains two orbs of Spirit Blade Force.\\n\\nSpirit Blade\\n\u00b7 DMG dealt by Vesna with her Normal Attacks, Charged Attacks, and Plunging Attacks are all converted to Anemo DMG. This DMG cannot be overridden by another elemental infusion. She also summons the Spirit Feather against the opponent, dealing Anemo DMG. Vesna regenerates Spirit Blade Force each time she summons the Spirit Feather.\\n\u00b7 Vesna can consume Spirit Blade Force to unleash a special Elemental Skill where both she and the spirit blade deal Anemo DMG to the opponent at the same time, and each time she unleashes this special Elemental Skill in the same instance of Spirit Blade, its level increases from first Spirit Blade Pierce to Spirit Blade Plunge, and then finally to Spirit Blade Dance.\\nBeing in the Spirit Blade state increases Vesna's Interruption RES, and when she exits the state, all Spirit Blade Force accumulated is cleared.\\nRadiance: Stellar Swirl: Spirit blades turn into Stellar spirit blades instead, which deal to the opponent Anemo DMG that is considered Stellar Swirl reaction DMG.\\n\\nSpirit Blade Dance may be unleashed up to 3 times each time the Spirit Blade state is activated, and Vesna immediately exits the state upon the third use.",
+                "type": "Elemental Skill",
+                "desc": "Vesna raises her weapon up high, awakening the power of the spirit blade and dealing AoE Anemo DMG around her. Then, she enters the Spirit Blade state and gains two orbs of Spirit Blade Force.\n\nSpirit Blade\n\u00b7 DMG dealt by Vesna with her Normal Attacks, Charged Attacks, and Plunging Attacks are all converted to Anemo DMG. This DMG cannot be overridden by another elemental infusion. She also summons the Spirit Feather against the opponent, dealing Anemo DMG. Vesna regenerates Spirit Blade Force each time she summons the Spirit Feather.\n\u00b7 Vesna can consume Spirit Blade Force to unleash a special Elemental Skill where both she and the spirit blade deal Anemo DMG to the opponent at the same time, and each time she unleashes this special Elemental Skill in the same instance of Spirit Blade, its level increases from first Spirit Blade Pierce to Spirit Blade Plunge, and then finally to Spirit Blade Dance.\nBeing in the Spirit Blade state increases Vesna's Interruption RES, and when she exits the state, all Spirit Blade Force accumulated is cleared.\nRadiance: Stellar Swirl: Spirit blades turn into Stellar spirit blades instead, which deal to the opponent Anemo DMG that is considered Stellar Swirl reaction DMG.\n\nSpirit Blade Dance may be unleashed up to 3 times each time the Spirit Blade state is activated, and Vesna immediately exits the state upon the third use.",
+                "descFormat": [
+                  {
+                    "start": 85,
+                    "end": 98,
+                    "kind": "tone",
+                    "tone": "anemo"
+                  },
+                  {
+                    "start": 132,
+                    "end": 144,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 132,
+                    "end": 144,
+                    "kind": "term",
+                    "term": "N11430001"
+                  },
+                  {
+                    "start": 194,
+                    "end": 206,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 312,
+                    "end": 321,
+                    "kind": "tone",
+                    "tone": "anemo"
+                  },
+                  {
+                    "start": 405,
+                    "end": 419,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 450,
+                    "end": 459,
+                    "kind": "tone",
+                    "tone": "anemo"
+                  },
+                  {
+                    "start": 657,
+                    "end": 666,
+                    "kind": "tone",
+                    "tone": "anemo"
+                  },
+                  {
+                    "start": 827,
+                    "end": 846,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 850,
+                    "end": 869,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 891,
+                    "end": 909,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 1056,
+                    "end": 1079,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 1105,
+                    "end": 1126,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 1163,
+                    "end": 1172,
+                    "kind": "tone",
+                    "tone": "anemo"
+                  }
+                ],
                 "icon": "../../Database/GameData/gi/assets/skills/Skill_S_Vesna_01.webp",
                 "scaling": [
                   {
@@ -485,8 +591,28 @@
               },
               {
                 "name": "Spirit Blade Burst",
-                "type": "Talent",
-                "desc": "Vesna summons multiple spirit blades for a spectacular Spirit Blade Burst in front of her. This deals to the opponent AoE Anemo DMG as well as regenerates for her one orb of Spirit Blade Force.\\nRadiance: Stellar Swirl: The spirit blades become Stellar spirit blades that deal to the opponent Anemo DMG considered as Stellar Swirl reaction DMG instead.",
+                "type": "Elemental Burst",
+                "desc": "Vesna summons multiple spirit blades for a spectacular Spirit Blade Burst in front of her. This deals to the opponent AoE Anemo DMG as well as regenerates for her one orb of Spirit Blade Force.\nRadiance: Stellar Swirl: The spirit blades become Stellar spirit blades that deal to the opponent Anemo DMG considered as Stellar Swirl reaction DMG instead.",
+                "descFormat": [
+                  {
+                    "start": 118,
+                    "end": 131,
+                    "kind": "tone",
+                    "tone": "anemo"
+                  },
+                  {
+                    "start": 194,
+                    "end": 217,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 292,
+                    "end": 301,
+                    "kind": "tone",
+                    "tone": "anemo"
+                  }
+                ],
                 "icon": "../../Database/GameData/gi/assets/skills/Skill_E_Vesna_01.webp",
                 "scaling": [
                   {
@@ -581,22 +707,144 @@
               {
                 "name": "Unruffled",
                 "type": "Passive Talent",
-                "desc": "After Vesna unleashes Spirit Blade Pierce, Spirit Blade Plunge, Spirit Blade Dance, or her Elemental Burst Spirit Blade Burst, she gains 1 stack of \"Unruffled\" that lasts 20s. Max 6 stacks. All existing stacks of Unruffled are cleared when Vesna unleashes the Elemental Skill Spirit Blade Inception or when she leaves the field.\\nEach stack of Unruffled increases all DMG dealt by Vesna with spirit blades and Stellar spirit blades by 10% of the original, up to 160% of the original."
+                "desc": "After Vesna unleashes Spirit Blade Pierce, Spirit Blade Plunge, Spirit Blade Dance, or her Elemental Burst Spirit Blade Burst, she gains 1 stack of \"Unruffled\" that lasts 20s. Max 6 stacks. All existing stacks of Unruffled are cleared when Vesna unleashes the Elemental Skill Spirit Blade Inception or when she leaves the field.\nEach stack of Unruffled increases all DMG dealt by Vesna with spirit blades and Stellar spirit blades by 10% of the original, up to 160% of the original.",
+                "descFormat": [
+                  {
+                    "start": 22,
+                    "end": 41,
+                    "kind": "term",
+                    "term": "N11430001"
+                  },
+                  {
+                    "start": 22,
+                    "end": 41,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 43,
+                    "end": 62,
+                    "kind": "term",
+                    "term": "N11430001"
+                  },
+                  {
+                    "start": 43,
+                    "end": 62,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 64,
+                    "end": 82,
+                    "kind": "term",
+                    "term": "N11430001"
+                  },
+                  {
+                    "start": 64,
+                    "end": 82,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 107,
+                    "end": 125,
+                    "kind": "term",
+                    "term": "S11435"
+                  },
+                  {
+                    "start": 107,
+                    "end": 125,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 276,
+                    "end": 298,
+                    "kind": "term",
+                    "term": "S11432"
+                  },
+                  {
+                    "start": 276,
+                    "end": 298,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 391,
+                    "end": 404,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 409,
+                    "end": 430,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ]
               },
               {
                 "name": "Effortless",
                 "type": "Passive Talent",
-                "desc": "Radiance: Stellar Swirl: Based on the Elemental Type of characters in the party (including Vesna herself), Vesna will gain the following buffs:\\n\u00b7 Every Cryo or Anemo character in the party increases Vesna's ATK by 6%; and\\n\u00b7 For every character of other Elemental Types in the party, Vesna gets a 25-point Elemental Mastery boost instead."
+                "desc": "Radiance: Stellar Swirl: Based on the Elemental Type of characters in the party (including Vesna herself), Vesna will gain the following buffs:\n\u00b7 Every Cryo or Anemo character in the party increases Vesna's ATK by 6%; and\n\u00b7 For every character of other Elemental Types in the party, Vesna gets a 25-point Elemental Mastery boost instead.",
+                "descFormat": [
+                  {
+                    "start": 0,
+                    "end": 23,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 152,
+                    "end": 156,
+                    "kind": "tone",
+                    "tone": "cryo"
+                  },
+                  {
+                    "start": 160,
+                    "end": 165,
+                    "kind": "tone",
+                    "tone": "anemo"
+                  }
+                ]
               },
               {
                 "name": "Stellar Jubilee: Radiant Fae",
                 "type": "Passive Talent",
-                "desc": "When party members trigger Cryo Swirl, it will be changed to a Stellar Swirl reaction, and party members' Base DMG for the Stellar Swirl will be increased based on Vesna's ATK: Every 100 ATK she has increases the Base Stellar Swirl DMG by 0.7%. The maximum increase that can be gained this way is 14%.\\nAfter a nearby party member triggers a Stellar Swirl reaction, Vesna enters the Radiance: Stellar Swirl state for 8s."
+                "desc": "When party members trigger Cryo Swirl, it will be changed to a Stellar Swirl reaction, and party members' Base DMG for the Stellar Swirl will be increased based on Vesna's ATK: Every 100 ATK she has increases the Base Stellar Swirl DMG by 0.7%. The maximum increase that can be gained this way is 14%.\nAfter a nearby party member triggers a Stellar Swirl reaction, Vesna enters the Radiance: Stellar Swirl state for 8s.",
+                "descFormat": [
+                  {
+                    "start": 382,
+                    "end": 405,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ]
               },
               {
                 "name": "Featherlight",
                 "type": "Passive Talent",
-                "desc": "When not in combat, Vesna can enter the Coursing state through the following ways:\\n\u00b7 Enter Coursing state by holding Sprint and then performing a dash for a certain distance; or\\n\u00b7 Enter Coursing state by holding Jump and then swiftly flying/rising for a certain distance.\\n\\nCoursing\\n\u00b7 Hovers in the air while consuming Stamina. During this time:\\n\u00b7 Jump: Consumes Stamina for one swift flying movement; and\\n\u00b7 Sprint: Consumes Stamina for a swift dash over a short distance.\\n\u00b7 Vesna will exit the state when Elemental Skill or Normal Attack is tapped or when Stamina is exhausted. If Normal Attack is tapped while she is still in the air, she will perform a Plunging Attack.\\n\u00b7 Including the swift flying movement Vesna performs while entering the Coursing state, Vesna can perform up to three such movements each time the state is triggered.\\n\\nAdditionally, when Vesna is off-field in Snezhnaya, switching in Vesna and unleashing Shining Entrance while the currently active party member is in the air will cause Vesna to immediately enter the Coursing state, as well as regenerate for her 50 Stamina.\\nShining Entrance can be used once every 10s."
+                "desc": "When not in combat, Vesna can enter the Coursing state through the following ways:\n\u00b7 Enter Coursing state by holding Sprint and then performing a dash for a certain distance; or\n\u00b7 Enter Coursing state by holding Jump and then swiftly flying/rising for a certain distance.\n\nCoursing\n\u00b7 Hovers in the air while consuming Stamina. During this time:\n\u00b7 Jump: Consumes Stamina for one swift flying movement; and\n\u00b7 Sprint: Consumes Stamina for a swift dash over a short distance.\n\u00b7 Vesna will exit the state when Elemental Skill or Normal Attack is tapped or when Stamina is exhausted. If Normal Attack is tapped while she is still in the air, she will perform a Plunging Attack.\n\u00b7 Including the swift flying movement Vesna performs while entering the Coursing state, Vesna can perform up to three such movements each time the state is triggered.\n\nAdditionally, when Vesna is off-field in Snezhnaya, switching in Vesna and unleashing Shining Entrance while the currently active party member is in the air will cause Vesna to immediately enter the Coursing state, as well as regenerate for her 50 Stamina.\nShining Entrance can be used once every 10s.",
+                "descFormat": [
+                  {
+                    "start": 40,
+                    "end": 48,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 273,
+                    "end": 281,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 926,
+                    "end": 942,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ]
               }
             ]
           },
@@ -606,32 +854,182 @@
               {
                 "name": "C1",
                 "type": "Constellation 1",
-                "desc": "Vesna gains 1 Spirit Blade Dance usage in the Spirit Blade state, and the first use of Spirit Blade Dance while in this state will not consume any Spirit Blade Force.\\nAdditionally, Vesna deals 20% more Stellar Swirl reaction DMG while in the Spirit Blade state."
+                "desc": "Vesna gains 1 Spirit Blade Dance usage in the Spirit Blade state, and the first use of Spirit Blade Dance while in this state will not consume any Spirit Blade Force.\nAdditionally, Vesna deals 20% more Stellar Swirl reaction DMG while in the Spirit Blade state.",
+                "descFormat": [
+                  {
+                    "start": 46,
+                    "end": 58,
+                    "kind": "term",
+                    "term": "N11430001"
+                  },
+                  {
+                    "start": 46,
+                    "end": 58,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 87,
+                    "end": 105,
+                    "kind": "term",
+                    "term": "N11430001"
+                  },
+                  {
+                    "start": 87,
+                    "end": 105,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ]
               },
               {
                 "name": "C2",
                 "type": "Constellation 2",
-                "desc": "Enhances the effects of the Ascension Talent Unruffled as follows: Vesna gains the max number of Unruffled stacks as soon as she enters the Spirit Blade state.\\nAdditionally, when Vesna is at max Unruffled stacks, her ATK is increased by 60%."
+                "desc": "Enhances the effects of the Ascension Talent Unruffled as follows: Vesna gains the max number of Unruffled stacks as soon as she enters the Spirit Blade state.\nAdditionally, when Vesna is at max Unruffled stacks, her ATK is increased by 60%.",
+                "descFormat": [
+                  {
+                    "start": 45,
+                    "end": 54,
+                    "kind": "term",
+                    "term": "P1432101"
+                  },
+                  {
+                    "start": 45,
+                    "end": 54,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 140,
+                    "end": 152,
+                    "kind": "term",
+                    "term": "N11430001"
+                  },
+                  {
+                    "start": 140,
+                    "end": 152,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ]
               },
               {
                 "name": "C3",
                 "type": "Constellation 3",
-                "desc": "Increases the Level of the Elemental Skill Spirit Blade Inception by 3.\\nMaximum upgrade level is 15."
+                "desc": "Increases the Level of the Elemental Skill Spirit Blade Inception by 3.\nMaximum upgrade level is 15.",
+                "descFormat": [
+                  {
+                    "start": 43,
+                    "end": 65,
+                    "kind": "term",
+                    "term": "S11432"
+                  },
+                  {
+                    "start": 43,
+                    "end": 65,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ]
               },
               {
                 "name": "C4",
                 "type": "Constellation 4",
-                "desc": "Increases the effects of Vesna's Ascension Talent Effortless by 200%."
+                "desc": "Increases the effects of Vesna's Ascension Talent Effortless by 200%.",
+                "descFormat": [
+                  {
+                    "start": 50,
+                    "end": 60,
+                    "kind": "term",
+                    "term": "P1432201"
+                  },
+                  {
+                    "start": 50,
+                    "end": 60,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ]
               },
               {
                 "name": "C5",
                 "type": "Constellation 5",
-                "desc": "Increases the Level of the Elemental Burst Spirit Blade Burst by 3.\\nMaximum upgrade level is 15."
+                "desc": "Increases the Level of the Elemental Burst Spirit Blade Burst by 3.\nMaximum upgrade level is 15.",
+                "descFormat": [
+                  {
+                    "start": 43,
+                    "end": 61,
+                    "kind": "term",
+                    "term": "S11435"
+                  },
+                  {
+                    "start": 43,
+                    "end": 61,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ]
               },
               {
                 "name": "C6",
                 "type": "Constellation 6",
-                "desc": "Tapping Elemental Skill or Normal Attack in the 5s after using Spirit Blade Dance allows Vesna to go on to unleash Spirit Blade Tread:\\n\u00b7 Deals Anemo DMG at 150% ATK, while also unleashing the Stellar spirit blade which deals Anemo DMG at 200% ATK. The latter DMG is also considered Stellar Swirl reaction DMG.\\n\u00b7 If Vesna is in the Spirit Blade state at the time of the attack, she will also summon the Spirit Feather.\\nStellar spirit blades generated by Spirit Blade Tread are also enhanced by Ascension Talent 1.\\n\\nAdditionally, Vesna's Stellar Swirl reaction DMG is elevated by 20%\u3002"
+                "desc": "Tapping Elemental Skill or Normal Attack in the 5s after using Spirit Blade Dance allows Vesna to go on to unleash Spirit Blade Tread:\n\u00b7 Deals Anemo DMG at 150% ATK, while also unleashing the Stellar spirit blade which deals Anemo DMG at 200% ATK. The latter DMG is also considered Stellar Swirl reaction DMG.\n\u00b7 If Vesna is in the Spirit Blade state at the time of the attack, she will also summon the Spirit Feather.\nStellar spirit blades generated by Spirit Blade Tread are also enhanced by Ascension Talent 1.\n\nAdditionally, Vesna's Stellar Swirl reaction DMG is elevated by 20%\u3002",
+                "descFormat": [
+                  {
+                    "start": 63,
+                    "end": 81,
+                    "kind": "term",
+                    "term": "N11430001"
+                  },
+                  {
+                    "start": 63,
+                    "end": 81,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 115,
+                    "end": 133,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 143,
+                    "end": 152,
+                    "kind": "tone",
+                    "tone": "anemo"
+                  },
+                  {
+                    "start": 192,
+                    "end": 212,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 225,
+                    "end": 234,
+                    "kind": "tone",
+                    "tone": "anemo"
+                  },
+                  {
+                    "start": 402,
+                    "end": 416,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 566,
+                    "end": 574,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 566,
+                    "end": 574,
+                    "kind": "term",
+                    "term": "N11190007"
+                  }
+                ]
               }
             ]
           }
@@ -2666,8 +3064,34 @@
             "entries": [
               {
                 "name": "Waltz of the Water Imp",
-                "type": "Talent",
-                "desc": "Normal Attack\\nPerforms up to 4 soundwave attacks that deal Hydro DMG.\\n\\nCharged Attack\\nConsumes a certain amount of Stamina to fire bubbleballs which deal Hydro DMG after a short casting time.",
+                "type": "Normal Attack",
+                "desc": "Normal Attack\nPerforms up to 4 soundwave attacks that deal Hydro DMG.\n\nCharged Attack\nConsumes a certain amount of Stamina to fire bubbleballs which deal Hydro DMG after a short casting time.",
+                "descFormat": [
+                  {
+                    "start": 0,
+                    "end": 13,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 59,
+                    "end": 68,
+                    "kind": "tone",
+                    "tone": "hydro"
+                  },
+                  {
+                    "start": 71,
+                    "end": 85,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 154,
+                    "end": 163,
+                    "kind": "tone",
+                    "tone": "hydro"
+                  }
+                ],
                 "icon": "../../Database/GameData/gi/assets/skills/Skill_A_Catalyst_MD.webp",
                 "scaling": [
                   {
@@ -2856,8 +3280,40 @@
               },
               {
                 "name": "Overture of the Water Imp",
-                "type": "Talent",
-                "desc": "Vodyanitsa turns into a mermaid, dealing an instance of Hydro DMG. Then, she enters the Microphone Summons state, and summons and performs with a microphone again and again for a period of time. During this time, the microphone periodically appears on the field and attacks the opponent alongside currently active characters to deal Hydro DMG and reduce the opponent's Hydro RES and Cryo RES.\\nDuring the time the microphone is being summoned, the currently active character's Interruption RES is enhanced, and they are also periodically healed.",
+                "type": "Elemental Skill",
+                "desc": "Vodyanitsa turns into a mermaid, dealing an instance of Hydro DMG. Then, she enters the Microphone Summons state, and summons and performs with a microphone again and again for a period of time. During this time, the microphone periodically appears on the field and attacks the opponent alongside currently active characters to deal Hydro DMG and reduce the opponent's Hydro RES and Cryo RES.\nDuring the time the microphone is being summoned, the currently active character's Interruption RES is enhanced, and they are also periodically healed.",
+                "descFormat": [
+                  {
+                    "start": 56,
+                    "end": 65,
+                    "kind": "tone",
+                    "tone": "hydro"
+                  },
+                  {
+                    "start": 88,
+                    "end": 106,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 333,
+                    "end": 342,
+                    "kind": "tone",
+                    "tone": "hydro"
+                  },
+                  {
+                    "start": 369,
+                    "end": 378,
+                    "kind": "tone",
+                    "tone": "hydro"
+                  },
+                  {
+                    "start": 383,
+                    "end": 391,
+                    "kind": "tone",
+                    "tone": "cryo"
+                  }
+                ],
                 "icon": "../../Database/GameData/gi/assets/skills/Skill_S_Vodyanitsa_01.webp",
                 "scaling": [
                   {
@@ -3066,8 +3522,16 @@
               },
               {
                 "name": "Aria of the Water Imp",
-                "type": "Talent",
-                "desc": "Vodyanitsa sings to her heart's content, dealing to the opponent AoE Hydro DMG.\\nThe DMG dealt with this attack is enhanced if she is performing with a microphone.",
+                "type": "Elemental Burst",
+                "desc": "Vodyanitsa sings to her heart's content, dealing to the opponent AoE Hydro DMG.\nThe DMG dealt with this attack is enhanced if she is performing with a microphone.",
+                "descFormat": [
+                  {
+                    "start": 65,
+                    "end": 78,
+                    "kind": "tone",
+                    "tone": "hydro"
+                  }
+                ],
                 "icon": "../../Database/GameData/gi/assets/skills/Skill_E_Vodyanitsa_01.webp",
                 "scaling": [
                   {
@@ -3182,17 +3646,63 @@
               {
                 "name": "Ascension Talent 1",
                 "type": "Passive Talent",
-                "desc": "During the Elemental Skill, any Anemograna generated by the party is turned into a Mutant Anemograna, which reduces the Anemo RES of nearby opponents by 30% for 6s when it is formed and when it explodes."
+                "desc": "During the Elemental Skill, any Anemograna generated by the party is turned into a Mutant Anemograna, which reduces the Anemo RES of nearby opponents by 30% for 6s when it is formed and when it explodes.",
+                "descFormat": [
+                  {
+                    "start": 83,
+                    "end": 100,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 120,
+                    "end": 129,
+                    "kind": "tone",
+                    "tone": "anemo"
+                  }
+                ]
               },
               {
                 "name": "Ascension Talent 2",
                 "type": "Passive Talent",
-                "desc": "When entering the Microphone Summons state, Vodyanitsa gains 17 Solo stacks and 10 Concerto stacks."
+                "desc": "When entering the Microphone Summons state, Vodyanitsa gains 17 Solo stacks and 10 Concerto stacks.",
+                "descFormat": [
+                  {
+                    "start": 18,
+                    "end": 36,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 64,
+                    "end": 68,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 64,
+                    "end": 68,
+                    "kind": "term",
+                    "term": "N11400001"
+                  },
+                  {
+                    "start": 83,
+                    "end": 91,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 83,
+                    "end": 91,
+                    "kind": "term",
+                    "term": "N11400002"
+                  }
+                ]
               },
               {
                 "name": "Passive Talent",
                 "type": "Passive Talent",
-                "desc": "Holding the Elemental Skill when not in combat consumes Stamina, allowing Vodyanitsa to move quickly while in mermaid form. During this time, she can move along the water surface for some time. Vodyanitsa will exit this state when Stamina is used up or when the Elemental Skill is used again.\\nAdditionally, Vodyanitsa can consume greater Stamina to move even faster while swimming..."
+                "desc": "Holding the Elemental Skill when not in combat consumes Stamina, allowing Vodyanitsa to move quickly while in mermaid form. During this time, she can move along the water surface for some time. Vodyanitsa will exit this state when Stamina is used up or when the Elemental Skill is used again.\nAdditionally, Vodyanitsa can consume greater Stamina to move even faster while swimming..."
               },
               {
                 "name": "Life Talent",
@@ -3212,27 +3722,131 @@
               {
                 "name": "C2",
                 "type": "Constellation 2",
-                "desc": "Every microphone attack, Vodyanitsa also gains the Ensemble effect, which increases the CRIT DMG of Hydro DMG and Cryo DMG dealt by the active character by 50% for 5s.\\nIf there are any, or have been any, Mutant Anemograna on the field, Ensemble will become the Variation effect instead, increasing Stellar Swirl reaction DMG dealt by the currently active character by 60% for 5s.\\nAdditionally, the duration of the Elemental Skill's Microphone Summons is extended by 9s."
+                "desc": "Every microphone attack, Vodyanitsa also gains the Ensemble effect, which increases the CRIT DMG of Hydro DMG and Cryo DMG dealt by the active character by 50% for 5s.\nIf there are any, or have been any, Mutant Anemograna on the field, Ensemble will become the Variation effect instead, increasing Stellar Swirl reaction DMG dealt by the currently active character by 60% for 5s.\nAdditionally, the duration of the Elemental Skill's Microphone Summons is extended by 9s.",
+                "descFormat": [
+                  {
+                    "start": 51,
+                    "end": 59,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 100,
+                    "end": 109,
+                    "kind": "tone",
+                    "tone": "hydro"
+                  },
+                  {
+                    "start": 114,
+                    "end": 122,
+                    "kind": "tone",
+                    "tone": "cryo"
+                  },
+                  {
+                    "start": 204,
+                    "end": 221,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 236,
+                    "end": 244,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 261,
+                    "end": 270,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 432,
+                    "end": 450,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ]
               },
               {
                 "name": "C3",
                 "type": "Constellation 3",
-                "desc": "Increases the Level of the Elemental Skill by 3.\\nMaximum upgrade level is 15."
+                "desc": "Increases the Level of the Elemental Skill by 3.\nMaximum upgrade level is 15.",
+                "descFormat": [
+                  {
+                    "start": 27,
+                    "end": 42,
+                    "kind": "term",
+                    "term": "S11402"
+                  },
+                  {
+                    "start": 27,
+                    "end": 42,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ]
               },
               {
                 "name": "C4",
                 "type": "Constellation 4",
-                "desc": "Each time Vodyanitsa performs healing, different effects are granted depending on the healed character's HP:\\n\u00b7 When the healed character's HP is below 40%, the current instance of healing is boosted by 50%;\\n\u00b7 When the healed character's HP is higher than 40%, Vodyanitsa's HP is increased by 20% for 6s. Max 3 stacks, and each stack's duration is independent of the others'."
+                "desc": "Each time Vodyanitsa performs healing, different effects are granted depending on the healed character's HP:\n\u00b7 When the healed character's HP is below 40%, the current instance of healing is boosted by 50%;\n\u00b7 When the healed character's HP is higher than 40%, Vodyanitsa's HP is increased by 20% for 6s. Max 3 stacks, and each stack's duration is independent of the others'."
               },
               {
                 "name": "C5",
                 "type": "Constellation 5",
-                "desc": "Increases the Level of the Elemental Burst by 3.\\nMaximum upgrade level is 15."
+                "desc": "Increases the Level of the Elemental Burst by 3.\nMaximum upgrade level is 15.",
+                "descFormat": [
+                  {
+                    "start": 27,
+                    "end": 42,
+                    "kind": "term",
+                    "term": "S11405"
+                  },
+                  {
+                    "start": 27,
+                    "end": 42,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ]
               },
               {
                 "name": "C6",
                 "type": "Constellation 6",
-                "desc": "At C2, the Ensemble and Variation effects will apply to all nearby party members.\\nAdditionally, when the Elemental Skill's Microphone Summons is active, Stellar Swirl DMG dealt by nearby party members is elevated by 25% while Hydro DMG and Cryo DMG are increased by 50%."
+                "desc": "At C2, the Ensemble and Variation effects will apply to all nearby party members.\nAdditionally, when the Elemental Skill's Microphone Summons is active, Stellar Swirl DMG dealt by nearby party members is elevated by 25% while Hydro DMG and Cryo DMG are increased by 50%.",
+                "descFormat": [
+                  {
+                    "start": 11,
+                    "end": 19,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 24,
+                    "end": 33,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 123,
+                    "end": 141,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 226,
+                    "end": 235,
+                    "kind": "tone",
+                    "tone": "hydro"
+                  },
+                  {
+                    "start": 240,
+                    "end": 248,
+                    "kind": "tone",
+                    "tone": "cryo"
+                  }
+                ]
               }
             ]
           }

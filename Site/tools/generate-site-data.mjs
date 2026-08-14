@@ -143,23 +143,118 @@ function cleanText(s, len = 220) {
     .slice(0, len);
 }
 
+function kitTextTone(color, text) {
+  const value = String(color || '').toLowerCase();
+  const words = String(text || '').toLowerCase();
+  const semantic = [
+    ['pyro', /\b(?:pyro|fire|heat|fusion)\b/], ['hydro', /\b(?:hydro|water)\b/],
+    ['cryo', /\b(?:cryo|ice|frost|glacio)\b/], ['electro', /\b(?:electro|electric|thunder|lightning)\b/],
+    ['anemo', /\b(?:anemo|wind|aero)\b/], ['geo', /\b(?:geo|rock)\b/],
+    ['dendro', /\b(?:dendro|nature)\b/], ['quantum', /\bquantum\b/],
+    ['imaginary', /\bimaginary\b/], ['physical', /\bphysical\b/],
+    ['ether', /\bether\b/], ['havoc', /\b(?:havoc|dark)\b/], ['spectro', /\b(?:spectro|light)\b/],
+  ].find(([, pattern]) => pattern.test(words))?.[0];
+  if (semantic) return semantic;
+  if (/title|#ffd780|#f29e38|#dbc291/.test(value)) return 'accent';
+  if (/wind/.test(value)) return 'anemo';
+  if (/fire/.test(value)) return 'pyro';
+  if (/thunder/.test(value)) return 'electro';
+  if (/ice/.test(value)) return 'cryo';
+  if (/dark/.test(value)) return 'havoc';
+  if (/light/.test(value)) return 'spectro';
+  return /highlight|#37ffff/.test(value) ? 'info' : 'accent';
+}
+
+function kitTextData(s, len = 2600) {
+  const source = String(s || '')
+    .replace(/\\r\\n|\\n|\\r/g, '\n')
+    .replace(/\r/g, '');
+  const token = /<+br\s*\/?>|<+\/(?:p|div|li|h\d)>|<+color=([^>]+)>|<+\/(color)>|<+(b|i|u|unbreak)>|<+\/(b|i|u|unbreak)>|\{LINK#([^}]+)\}|\{\/(LINK)\}/gi;
+  const open = [];
+  const format = [];
+  let text = '';
+  let cursor = 0;
+  const append = (value) => {
+    text += String(value || '')
+      .replace(/<IconMap:[^>]+>/gi, '')
+      .replace(/<[^>]+>/g, '')
+      .replace(/\{Cus:Ipt[^}]*\}/gi, '')
+      .replace(/\{RUBY_[^}]+\}/g, '')
+      .replace(/\{[A-Z][A-Z0-9_]*(?:#[^}]*)?\}/g, '')
+      .replace(/\{\/[A-Z][A-Z0-9_]*\}/g, '');
+  };
+  const close = (kind) => {
+    const index = open.map((row) => row.kind).lastIndexOf(kind);
+    if (index < 0) return;
+    const row = open.splice(index, 1)[0];
+    if (text.length <= row.start) return;
+    const mark = { start:row.start, end:text.length, kind };
+    if (kind === 'tone') mark.tone = kitTextTone(row.value, text.slice(row.start));
+    if (kind === 'term') mark.term = row.value;
+    format.push(mark);
+  };
+  for (const match of source.matchAll(token)) {
+    append(source.slice(cursor, match.index));
+    const raw = match[0];
+    if (/^<+br|^<+\/(?:p|div|li|h\d)/i.test(raw)) append('\n');
+    else if (match[1]) open.push({ kind:'tone', value:match[1], start:text.length });
+    else if (match[2]) close('tone');
+    else if (match[3]) {
+      const kind = /^(?:b|unbreak)$/i.test(match[3]) ? 'strong' : /^i$/i.test(match[3]) ? 'em' : 'underline';
+      open.push({ kind, start:text.length });
+    } else if (match[4]) {
+      const kind = /^(?:b|unbreak)$/i.test(match[4]) ? 'strong' : /^i$/i.test(match[4]) ? 'em' : 'underline';
+      close(kind);
+    } else if (match[5]) open.push({ kind:'term', value:match[5], start:text.length });
+    else if (match[6]) close('term');
+    cursor = match.index + raw.length;
+  }
+  append(source.slice(cursor));
+  while (open.length) close(open[open.length - 1].kind);
+  const map = Array(text.length + 1).fill(0);
+  let normalized = '';
+  for (let index = 0; index < text.length;) {
+    const start = normalized.length;
+    const char = text[index];
+    if (char === ' ' || char === '\t') {
+      let end = index + 1;
+      while (end < text.length && (text[end] === ' ' || text[end] === '\t')) end += 1;
+      const replacement = text[end] === '\n' ? '' : end - index > 1 ? ' ' : char;
+      for (let boundary = index; boundary < end; boundary += 1) map[boundary] = start;
+      normalized += replacement;
+      map[end] = normalized.length;
+      index = end;
+      continue;
+    }
+    if (char === '\n') {
+      let end = index + 1;
+      while (end < text.length && text[end] === '\n') end += 1;
+      const count = Math.min(2, end - index);
+      for (let boundary = index; boundary <= end; boundary += 1) map[boundary] = start + Math.min(count, boundary - index);
+      normalized += '\n'.repeat(count);
+      index = end;
+      continue;
+    }
+    map[index] = start;
+    normalized += char;
+    map[index + 1] = normalized.length;
+    index += 1;
+  }
+  const leading = normalized.match(/^\s*/)?.[0].length || 0;
+  text = normalized.trim().slice(0, len);
+  const cleanFormat = format
+    .map((row) => ({
+      ...row,
+      start:Math.max(0, Math.min(text.length, (map[row.start] ?? normalized.length) - leading)),
+      end:Math.max(0, Math.min(text.length, (map[row.end] ?? normalized.length) - leading)),
+    }))
+    .filter((row) => row.end > row.start)
+    .sort((a, b) => a.start - b.start || b.end - a.end);
+  return { text, format:cleanFormat };
+}
+
 function cleanKitText(s, len = 2600) {
-  return String(s || '')
-    .replace(/\r/g, '')
-    .replace(/<br\s*\/?>/gi, '\n')
-    .replace(/<\/(?:p|div|li|h\d)>/gi, '\n')
-    .replace(/<IconMap:[^>]+>/gi, '')
-    .replace(/<[^>]+>/g, '')
-    .replace(/\{Cus:Ipt[^}]*\}/gi, '')
-    .replace(/\{RUBY_[^}]+\}/g, '')
-    .replace(/\{\/?LINK[^}]*\}/gi, '')
-    .replace(/\{[A-Z][A-Z0-9_]*(?:#[^}]*)?\}/g, '')
-    .replace(/\{\/[A-Z][A-Z0-9_]*\}/g, '')
-    .replace(/[ \t]+\n/g, '\n')
-    .replace(/\n{3,}/g, '\n\n')
-    .replace(/[ \t]{2,}/g, ' ')
-    .trim()
-    .slice(0, len);
+  return kitTextData(s, len).text;
 }
 
 function cleanKitName(s, len = 120) {
@@ -190,12 +285,13 @@ function cleanKitLevels(levels = []) {
   const seen = new Set();
   for (const row of Array.isArray(levels) ? levels : []) {
     const label = cleanKitName(row?.label || row?.level || '', 40);
-    const text = cleanKitText(row?.text || row?.desc || '', 5000);
+    const parsed = kitTextData(row?.text || row?.desc || '', 5000);
+    const text = parsed.text;
     if (!label || !text) continue;
     const key = `${label}:${normKey(text)}`;
     if (seen.has(key)) continue;
     seen.add(key);
-    out.push({ label, text });
+    out.push({ label, text, ...(parsed.format.length ? { format:parsed.format } : {}) });
   }
   const uniqueTexts = new Set(out.map((row) => normKey(row.text)).filter(Boolean));
   return uniqueTexts.size > 1 ? out : [];
@@ -233,7 +329,8 @@ function kitSource(game, source = 'Game data') {
 }
 
 function kitEntry({ name, type, desc, icon, params, stats, levels, scaling }) {
-  const body = cleanKitText(applyKitParams(desc, params));
+  const parsed = kitTextData(applyKitParams(desc, params));
+  const body = parsed.text;
   const cleanLevels = cleanKitLevels(levels);
   const cleanScaling = cleanKitScaling(scaling);
   if (!name && !body && !cleanLevels.length && !cleanScaling.length) return null;
@@ -241,6 +338,7 @@ function kitEntry({ name, type, desc, icon, params, stats, levels, scaling }) {
     name: cleanKitName(name || type || 'Skill'),
     ...(type ? { type: cleanKitName(type, 80) } : {}),
     ...(body ? { desc: body } : {}),
+    ...(parsed.format.length ? { descFormat: parsed.format } : {}),
     ...(icon ? { icon } : {}),
     ...(Array.isArray(stats) && stats.length ? { stats } : {}),
     ...(cleanLevels.length ? { levels: cleanLevels } : {}),
@@ -267,12 +365,20 @@ function dedupeKitEntries(entries) {
     if (!entry.desc) continue;
     if (!existing.desc) {
       existing.desc = entry.desc;
+      if (entry.descFormat?.length) existing.descFormat = entry.descFormat;
       continue;
     }
     const current = normKey(existing.desc);
     const next = normKey(entry.desc);
     if (next && !current.includes(next) && !next.includes(current)) {
-      existing.desc = cleanKitText(`${existing.desc}\n\n${entry.desc}`, 5000);
+      const offset = existing.desc.length + 2;
+      existing.desc = `${existing.desc}\n\n${entry.desc}`.slice(0, 5000);
+      const mergedFormat = [
+        ...(existing.descFormat || []),
+        ...(entry.descFormat || []).map((row) => ({ ...row, start:row.start + offset, end:row.end + offset })),
+      ].filter((row) => row.start < existing.desc.length)
+        .map((row) => ({ ...row, end:Math.min(row.end, existing.desc.length) }));
+      if (mergedFormat.length) existing.descFormat = mergedFormat;
     }
   }
   return out;
@@ -2338,9 +2444,9 @@ function buildGiKit(raw) {
   if (!raw) return null;
   const sections = [];
   const skills = (raw.skills || [])
-    .map((skill) => kitEntry({
+    .map((skill, index) => kitEntry({
       name: skill?.name,
-      type: 'Talent',
+      type: ['Normal Attack', 'Elemental Skill', 'Elemental Burst'][index] || 'Talent',
       desc: skill?.desc,
       icon: giSkillIcon(skill),
       scaling: [giPromoteScaling(skill)].filter(Boolean),

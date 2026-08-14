@@ -152,6 +152,122 @@
                 "name": "Routine Negotiation",
                 "type": "Normal Attack",
                 "desc": "Basic Attack\nPerform up to 4 consecutive attacks to deal Spectro DMG.\nAfter performing Basic Attack Stage 3, Normal Attack at the right time to perform Basic Attack Breakthrough, which can be followed by Basic Attack Stage 4 by Normal Attack again.\n\nHeavy Attack\nConsume STA to attack the target, dealing Spectro DMG. Normal Attack within a certain time to perform Basic Attack Stage 3.\n\nMid-air Attack\nConsume STA to perform a plunging attack, dealing Spectro DMG. Normal Attack within a certain time to perform Basic Attack Stage 3.\n\nDodge Counter\n Normal Attack within a certain time after a successful Dodge to attack the target, dealing Spectro DMG. Then Normal Attack at the right time to cast Basic Attack Breakthrough.",
+                "descFormat": [
+                  {
+                    "start": 0,
+                    "end": 12,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 57,
+                    "end": 68,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 87,
+                    "end": 107,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 109,
+                    "end": 122,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 165,
+                    "end": 177,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 204,
+                    "end": 224,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 250,
+                    "end": 262,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 305,
+                    "end": 316,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 318,
+                    "end": 331,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 365,
+                    "end": 385,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 388,
+                    "end": 402,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 453,
+                    "end": 464,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 466,
+                    "end": 479,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 513,
+                    "end": 533,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 536,
+                    "end": 549,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 551,
+                    "end": 564,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 642,
+                    "end": 653,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 660,
+                    "end": 673,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 713,
+                    "end": 725,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  }
+                ],
                 "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorFist.webp",
                 "scaling": [
                   {
@@ -437,6 +553,164 @@
                 "name": "Restless Watch",
                 "type": "Resonance Skill",
                 "desc": "Standard Defense Protocol\nAttack the target to deal Spectro DMG and enter a block stance. This state ends early if Zani is switched off the field. Normal Attack within a certain time to perform Basic Attack Stage 3, recovering 10 points of Redundant Energy and Stagnating the target on hit.\nWhen attacked by an enemy while in block stance, reduce this instance of damage by 100% and Stagnate nearby targets, then cast Pinpoint Strike, dealing Spectro DMG and further reducing their Vibration Strength by {0}. DMG taken by Zani is reduced by {3} within the next {2}s.\n\nCrisis Response Protocol\nWhen Zani is not in Inferno Mode and has full Redundant Energy, her Resonance Skill is replaced with Resonance Skill Crisis Response Protocol.\nHold Resonance Skill to enter Ready Stance. While in Ready Stance, Zani is immune to interruption. This state ends early if Zani is switched off the field. After releasing Resonance Skill button or when the stance duration ends, consume all Redundant Energy to cast Targeted Action, dealing Spectro DMG, which is also considered Spectro Frazzle DMG.\nWhen attacked by an enemy in while in Ready Stance, reduce this instance of damage by 100% and consume all Redundant Energy to cast Forcible Riposte, dealing Spectro DMG (also considered Spectro Frazzle DMG), Stagnating the target, and further reducing their Vibration Strength by {1}. DMG taken by Zani is reduced by {3} within the next {2}s.\nCasting Targeted Action or Forcible Riposte sends Zani into Sunburst mode and inflicts a stack of Heliacal Ember upon the target on hit. The last stage of the attack recovers Blaze.\n\nSunburst\nThe Spectro Frazzle DMG dealt by Zani to the target is Amplified by {4}.",
+                "descFormat": [
+                  {
+                    "start": 0,
+                    "end": 25,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 52,
+                    "end": 63,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 147,
+                    "end": 160,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 194,
+                    "end": 214,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 418,
+                    "end": 433,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 443,
+                    "end": 454,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 568,
+                    "end": 592,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 613,
+                    "end": 625,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 661,
+                    "end": 676,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 710,
+                    "end": 734,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 741,
+                    "end": 756,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 766,
+                    "end": 778,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 789,
+                    "end": 801,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 908,
+                    "end": 923,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1002,
+                    "end": 1017,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1027,
+                    "end": 1038,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1065,
+                    "end": 1084,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1124,
+                    "end": 1136,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1218,
+                    "end": 1234,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1244,
+                    "end": 1255,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1273,
+                    "end": 1292,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1438,
+                    "end": 1453,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1457,
+                    "end": 1473,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1490,
+                    "end": 1498,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1613,
+                    "end": 1621,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 1626,
+                    "end": 1641,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  }
+                ],
                 "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconZanni/SP_IconZanniB1.webp",
                 "scaling": [
                   {
@@ -722,6 +996,74 @@
                 "name": "Between Dawn and Dusk",
                 "type": "Resonance Liberation",
                 "desc": "Rekindle\nDeal Spectro DMG and enter Inferno Mode, increasing Max Blaze from {0} to {1} and granting {2} Blazes. When in Inferno Mode, the DMG Multiplier of Basic Attack is increased.\n\nThe Last Stand\nWhen in Inferno Mode, Resonance Liberation The Last Stand becomes available when Blaze is lower than {3} or after {4}s in Inferno Mode.\nCasting Resonance Liberation The Last Stand deals Spectro DMG and ends the Inferno Mode.",
+                "descFormat": [
+                  {
+                    "start": 0,
+                    "end": 8,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 14,
+                    "end": 25,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 36,
+                    "end": 48,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 120,
+                    "end": 132,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 184,
+                    "end": 198,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 207,
+                    "end": 219,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 242,
+                    "end": 256,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 321,
+                    "end": 333,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 364,
+                    "end": 378,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 385,
+                    "end": 396,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 410,
+                    "end": 422,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  }
+                ],
                 "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconZanni/SP_IconZanniC1.webp",
                 "scaling": [
                   {
@@ -957,6 +1299,290 @@
                 "name": "There Will Be A Light",
                 "type": "Forte Circuit",
                 "desc": "Heliacal Ember\nWhen Zani is in the team and a nearby Resonator inflicts Spectro Frazzle upon a target, immediately trigger the DMG of all Spectro Frazzle stacks and convert Spectro Frazzle into an equal number of Heliacal Embers. Every time the conversion happens, Zani obtains Blaze based on the stacks of Heliacal Ember inflicted. Heliacal Ember is capped at {0} stacks, with each stack lasting for {1}s. Heliacal Ember stacks are counted toward the Spectro Frazzle stacks for the Eternal Radiance Sonata Effect.\n\nScorching Light\nWhen Zani is in Inferno Mode, Heavy Slash - Daybreak, Heavy Slash - Dawning, Heavy Slash - Nightfall, and Heavy Slash - Lightsmash become available, which deal Spectro DMG that is considered both Heavy Attack DMG and Spectro Frazzle DMG.\nWhen Blaze is no less than {2}, Resonance Skill Standard Defense Protocol is replaced with Resonance Skill Scorching Light.\nHold Resonance Skill to enter Ready Stance, during which Zani is immune to interruption. This state ends early when Zani is switched off the field. While in Ready Stance, release Resonance Skill button within a certain time to consume Blaze and perform Heavy Slash - Daybreak.\nWhen attacked in a certain time after entering Ready Stance, reduce this instance of damage by 100% and Stagnate nearby targets, then perform Heavy Slash - Lightsmash, consuming Blazes and further reducing their Vibration Strength by {3}. Zani's DMG taken within the next {4}s is reduced by {5}.\nAfter casting Heavy Slash - Lightsmash, Basic Attack is replaced with Heavy Slash - Nightfall, consuming up to {6} Blazes on hit, with each Blaze increasing the DMG Multiplier of Heavy Slash - Nightfall. If Heavy Slash - Nightfall Stage 1 is interrupted, Basic Attack again to cast Heavy Slash - Nightfall Stage 2.\nUpon releasing the button after a certain time or when Ready Stance ends, immediately perform Heavy Slash - Nightfall.\nWhen Blaze is no less than {2}, Basic Attack is replaced with Heavy Slash - Daybreak. After entering Inferno Mode, casting Basic Attack immediately replaces the current Basic Attack with Resonance Skill Scorching Light. Hold Basic Attack to enter Ready Stance.\nAfter performing Heavy Slash - Daybreak, Basic Attack immediately to perform Heavy Slash - Dawning at the cost of Blaze.\nAfter performing Heavy Slash - Dawning, Basic Attack is replaced with Heavy Slash - Nightfall.\nIf Basic Attack is not replaced with Heavy Slash - Nightfall after a successful Dodge and Zani has no less than {2} Blazes, Normal Attack within a certain time to perform Heavy Slash - Lightsmash at the cost of Blazes.\n\nRe",
+                "descFormat": [
+                  {
+                    "start": 0,
+                    "end": 14,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 72,
+                    "end": 87,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 516,
+                    "end": 531,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 548,
+                    "end": 560,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 562,
+                    "end": 584,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 586,
+                    "end": 607,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 609,
+                    "end": 632,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 638,
+                    "end": 662,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 692,
+                    "end": 703,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 749,
+                    "end": 764,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 818,
+                    "end": 843,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 877,
+                    "end": 892,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 899,
+                    "end": 914,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 924,
+                    "end": 936,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1051,
+                    "end": 1063,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1073,
+                    "end": 1088,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1147,
+                    "end": 1169,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1218,
+                    "end": 1230,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1313,
+                    "end": 1337,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1481,
+                    "end": 1505,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1507,
+                    "end": 1519,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1537,
+                    "end": 1560,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1646,
+                    "end": 1669,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1674,
+                    "end": 1705,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1722,
+                    "end": 1734,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1749,
+                    "end": 1780,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1837,
+                    "end": 1849,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1876,
+                    "end": 1899,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1933,
+                    "end": 1945,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1963,
+                    "end": 1985,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2002,
+                    "end": 2014,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2024,
+                    "end": 2036,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2070,
+                    "end": 2082,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2104,
+                    "end": 2119,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2126,
+                    "end": 2138,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2148,
+                    "end": 2160,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2179,
+                    "end": 2201,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2203,
+                    "end": 2215,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2239,
+                    "end": 2260,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2300,
+                    "end": 2321,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2323,
+                    "end": 2335,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2353,
+                    "end": 2376,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2381,
+                    "end": 2393,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2415,
+                    "end": 2438,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2502,
+                    "end": 2515,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2549,
+                    "end": 2573,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2598,
+                    "end": 2600,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ],
                 "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconZanni/SP_IconZanniY.webp",
                 "scaling": [
                   {
@@ -1167,6 +1793,14 @@
                 "name": "Immediate Execution",
                 "type": "Intro Skill",
                 "desc": "Attack the target, dealing Spectro DMG.",
+                "descFormat": [
+                  {
+                    "start": 27,
+                    "end": 38,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  }
+                ],
                 "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconZanni/SP_IconZanniQTE.webp",
                 "scaling": [
                   {
@@ -1252,6 +1886,26 @@
                 "name": "Beacon For the Future",
                 "type": "Outro Skill",
                 "desc": "Attack the target, dealing Spectro DMG equal to {0} of Zani's ATK and removing all stacks of Heliacal Ember inflicted upon the target. Each stack increases the DMG dealt by {1}. This DMG is considered Spectro Frazzle DMG. The Spectro DMG dealt by other Resonators in the team to the target marked by Heliacal Ember is Amplified by {2} for {3}s.",
+                "descFormat": [
+                  {
+                    "start": 27,
+                    "end": 38,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 201,
+                    "end": 216,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 300,
+                    "end": 314,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  }
+                ],
                 "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconZanni/SP_IconZanniT.webp"
               },
               {
@@ -1268,12 +1922,34 @@
                 "name": "Quick Response",
                 "type": "Inherent Skill",
                 "desc": "Casting Intro Skill Immediate Execution gives {0} Spectro DMG Bonus for {1}s.",
+                "descFormat": [
+                  {
+                    "start": 20,
+                    "end": 39,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  }
+                ],
                 "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconZanni/SP_IconZanniD1.webp"
               },
               {
                 "name": "Tune Break: Gauntlets",
                 "type": "Tune Break",
                 "desc": "When the target's Off-Tune Level is full, the Resonator may cast Tune Break on the target.",
+                "descFormat": [
+                  {
+                    "start": 18,
+                    "end": 32,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 65,
+                    "end": 75,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  }
+                ],
                 "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconWeakPointBreakFist.webp"
               }
             ]
@@ -1284,32 +1960,146 @@
               {
                 "name": "When the Alarm Clock Rings",
                 "type": "Sequence 1",
-                "desc": "Casting Targeted Action or Forcible Riposte gives a {0} Spectro DMG Bonus for {1}s.\nResonance Skill Heavy Slash - Nightfall can't be interrupted."
+                "desc": "Casting Targeted Action or Forcible Riposte gives a {0} Spectro DMG Bonus for {1}s.\nResonance Skill Heavy Slash - Nightfall can't be interrupted.",
+                "descFormat": [
+                  {
+                    "start": 8,
+                    "end": 23,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 27,
+                    "end": 43,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 100,
+                    "end": 123,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  }
+                ]
               },
               {
                 "name": "Stale Bread With Energy Drink",
                 "type": "Sequence 2",
-                "desc": "Crit. Rate is increased by {0}.\nThe DMG Multiplier of Targeted Action and Forcible Riposte is increased by {1}."
+                "desc": "Crit. Rate is increased by {0}.\nThe DMG Multiplier of Targeted Action and Forcible Riposte is increased by {1}.",
+                "descFormat": [
+                  {
+                    "start": 54,
+                    "end": 69,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 74,
+                    "end": 90,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  }
+                ]
               },
               {
                 "name": "Each Day A New Commute",
                 "type": "Sequence 3",
-                "desc": "When in Inferno Mode, every {0} Blazes consumed increases the last stage DMG Multiplier of the subsequent Resonance Liberation The Last Stand by {1}, maxed at {2}."
+                "desc": "When in Inferno Mode, every {0} Blazes consumed increases the last stage DMG Multiplier of the subsequent Resonance Liberation The Last Stand by {1}, maxed at {2}.",
+                "descFormat": [
+                  {
+                    "start": 8,
+                    "end": 20,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 127,
+                    "end": 141,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  }
+                ]
               },
               {
                 "name": "More Efficiency, Less Drama",
                 "type": "Sequence 4",
-                "desc": "When Intro Skill Immediate Execution is cast, the ATK of all Resonators in the team is increased by {0} for {1}s."
+                "desc": "When Intro Skill Immediate Execution is cast, the ATK of all Resonators in the team is increased by {0} for {1}s.",
+                "descFormat": [
+                  {
+                    "start": 17,
+                    "end": 36,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  }
+                ]
               },
               {
                 "name": "Delivered In Full On Time",
                 "type": "Sequence 5",
-                "desc": "The DMG Multiplier of Resonance Liberation Rekindle is increased by {0}."
+                "desc": "The DMG Multiplier of Resonance Liberation Rekindle is increased by {0}.",
+                "descFormat": [
+                  {
+                    "start": 43,
+                    "end": 51,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  }
+                ]
               },
               {
                 "name": "First Things First? Clock Out!",
                 "type": "Sequence 6",
-                "desc": "The DMG Multipliers of Heavy Slash - Daybreak, Heavy Slash- Dawning, Heavy Slash - Nightfall, and Heavy Slash - Lightsmash are increased by {0}. Every Blaze consumed increases the DMG Multiplier of Heavy Slash - Nightfall by {0} on hit.\nGain following effects when in Inferno Mode:\n- When Blaze is lower than {1}, restore {2} Blazes immediately. This effect is triggered once in Inferno Mode.\n- Within {3}s after entering Inferno Mode, Zani will remain standing with at least 1 HP if hit by a fatal blow."
+                "desc": "The DMG Multipliers of Heavy Slash - Daybreak, Heavy Slash- Dawning, Heavy Slash - Nightfall, and Heavy Slash - Lightsmash are increased by {0}. Every Blaze consumed increases the DMG Multiplier of Heavy Slash - Nightfall by {0} on hit.\nGain following effects when in Inferno Mode:\n- When Blaze is lower than {1}, restore {2} Blazes immediately. This effect is triggered once in Inferno Mode.\n- Within {3}s after entering Inferno Mode, Zani will remain standing with at least 1 HP if hit by a fatal blow.",
+                "descFormat": [
+                  {
+                    "start": 23,
+                    "end": 45,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 47,
+                    "end": 67,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 69,
+                    "end": 92,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 98,
+                    "end": 122,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 198,
+                    "end": 221,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 268,
+                    "end": 280,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 379,
+                    "end": 391,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 422,
+                    "end": 434,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  }
+                ]
               }
             ]
           }
@@ -1866,6 +2656,80 @@
                 "name": "Unraveled Spring",
                 "type": "Normal Attack",
                 "desc": "Basic Attack - Zephyr Stance\n repeatedly or hold Normal Attack to perform up to 4 consecutive attacks, dealing Glacio DMG and restoring Cloud Breath on hit.\n\nMid-air Attack - Zephyr Stance\nConsume STA to perform Plunging Attack, dealing Glacio DMG.\n\nDodge Counter - Zephyr Stance\n Normal Attack shortly after a successful Dodge to attack the target, dealing Glacio DMG and restoring Cloud Breath on hit.\n Normal Attack shortly after casting this skill to perform Basic Attack - Zephyr Stance Stage 4.",
+                "descFormat": [
+                  {
+                    "start": 0,
+                    "end": 28,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 49,
+                    "end": 62,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 111,
+                    "end": 121,
+                    "kind": "tone",
+                    "tone": "cryo"
+                  },
+                  {
+                    "start": 136,
+                    "end": 148,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 158,
+                    "end": 188,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 237,
+                    "end": 247,
+                    "kind": "tone",
+                    "tone": "cryo"
+                  },
+                  {
+                    "start": 250,
+                    "end": 279,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 281,
+                    "end": 294,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 358,
+                    "end": 368,
+                    "kind": "tone",
+                    "tone": "cryo"
+                  },
+                  {
+                    "start": 383,
+                    "end": 395,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 405,
+                    "end": 418,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 463,
+                    "end": 499,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  }
+                ],
                 "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorMagic.webp",
                 "scaling": [
                   {
@@ -2076,6 +2940,182 @@
                 "name": "Vernal Screen",
                 "type": "Resonance Skill",
                 "desc": "Resonance Skill - Zephyr Stance\nWhile in Zephyr Stance and Cloud Breath is not full, Resonance Skill to have Suisui thrust forward, dealing Glacio DMG. If Suisui is the active Resonator while casting the skill, restore Cloud Breath.\nCan be cast in mid-air close to the ground.\nThis skill shares a Cooldown with Resonance Skill - Drizzle Stance.\n\nAwakening Spring\nWhile in Zephyr Stance and at full Cloud Breath, Resonance Skill - Zephyr Stance is replaced with Awakening Spring. Casting this skill consumes all Cloud Breath, pulls in nearby targets, and sends Suisui into Drizzle Stance, dealing Glacio DMG and inflicting Glacio Chafe on the target 1 time on hit.\n\nEnrichment\nCasting Awakening Spring or Intro Skill - Tinkling Jade grants all nearby Resonators in the team 1 stack of Enrichment. This effect can be triggered once every 25s. Incoming Resonators receive healing from Suisui at the cost of Enrichment.\n\nResonance Skill - Drizzle Stance\nWhile in Drizzle Stance, Resonance Skill - Zephyr Stance is replaced with Resonance Skill - Drizzle Stance.\n Resonance Skill to have Suisui thrust forward, dealing Glacio DMG. If Suisui is the active Resonator while casting the skill, restore Floral Epistle.\nCan be cast in mid-air close to the ground.\nThis skill shares a Cooldown with Resonance Skill - Zephyr Stance.",
+                "descFormat": [
+                  {
+                    "start": 0,
+                    "end": 31,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 41,
+                    "end": 54,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 59,
+                    "end": 71,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 85,
+                    "end": 100,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 140,
+                    "end": 150,
+                    "kind": "tone",
+                    "tone": "cryo"
+                  },
+                  {
+                    "start": 219,
+                    "end": 231,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 311,
+                    "end": 343,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 346,
+                    "end": 362,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 372,
+                    "end": 385,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 398,
+                    "end": 410,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 412,
+                    "end": 443,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 461,
+                    "end": 477,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 511,
+                    "end": 523,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 572,
+                    "end": 586,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 596,
+                    "end": 606,
+                    "kind": "tone",
+                    "tone": "cryo"
+                  },
+                  {
+                    "start": 622,
+                    "end": 634,
+                    "kind": "tone",
+                    "tone": "cryo"
+                  },
+                  {
+                    "start": 665,
+                    "end": 675,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 684,
+                    "end": 700,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 704,
+                    "end": 731,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 784,
+                    "end": 794,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 904,
+                    "end": 914,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 917,
+                    "end": 949,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 959,
+                    "end": 973,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 975,
+                    "end": 1006,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1024,
+                    "end": 1056,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1059,
+                    "end": 1074,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1114,
+                    "end": 1124,
+                    "kind": "tone",
+                    "tone": "cryo"
+                  },
+                  {
+                    "start": 1193,
+                    "end": 1207,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1287,
+                    "end": 1318,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  }
+                ],
                 "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconSuisui/SP_IconSuisuiB1.webp",
                 "scaling": [
                   {
@@ -2261,6 +3301,92 @@
                 "name": "Song of Thoroughfare",
                 "type": "Resonance Liberation",
                 "desc": "Casting the skill deploys Ceaseless Landscape that lasts for 30s. When Ceaseless Landscape is active, Suisui enters the Roaming Transcendent state when casting Outro Skill - Rippling Waters.\nCeaseless Landscape grants all nearby Resonators in the team the following enhancements:\n- Inflicting a target with Spectro Frazzle, Fusion Burst, Glacio Chafe, and Aero Erosion, or dealing the corresponding Negative Status DMG increases the max stack limit of the corresponding Negative Status the target can receive by 3 for {0}s. This effect does not stack.\n- Inflicting a target with Electro Flare or dealing the corresponding Negative Status DMG increases the max stack limits of Electro Flare and Electro Rage the target can receive by 3 for {1}s. This effect does not stack.\n- Consuming Havoc Bane stacks on the target after landing a skill allows the Resonator's Havoc DMG to ignore the target's DEF by {2} and Havoc RES by {3} for {4}s. This effect does not stack.\nCan be cast in mid-air close to the ground.",
+                "descFormat": [
+                  {
+                    "start": 26,
+                    "end": 45,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 71,
+                    "end": 90,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 120,
+                    "end": 140,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 160,
+                    "end": 189,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 191,
+                    "end": 210,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 307,
+                    "end": 322,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 324,
+                    "end": 336,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  },
+                  {
+                    "start": 338,
+                    "end": 350,
+                    "kind": "tone",
+                    "tone": "cryo"
+                  },
+                  {
+                    "start": 356,
+                    "end": 368,
+                    "kind": "tone",
+                    "tone": "anemo"
+                  },
+                  {
+                    "start": 470,
+                    "end": 485,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 579,
+                    "end": 592,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 676,
+                    "end": 689,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 694,
+                    "end": 706,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 785,
+                    "end": 795,
+                    "kind": "tone",
+                    "tone": "havoc"
+                  }
+                ],
                 "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconSuisui/SP_IconSuisuiC1.webp",
                 "scaling": [
                   {
@@ -2396,6 +3522,374 @@
                 "name": "Lambent Gold",
                 "type": "Forte Circuit",
                 "desc": "Zephyr Stance\nSuisui is in Zephyr Stance by default. When in Zephyr Stance, Suisui can obtain Cloud Breath through certain skills.\n\nDrizzle Stance\nEntering Drizzle Stance clears all Floral Epistle.\nDuring Drizzle Stance:\n- Suisui unlocks new combat moves and restores Floral Epistle through certain skills.\n-Suisui gains increased resistance to interruption.\n- Normal Attack within a certain time after triggering a successful Dodge via Dodge skills to cast Basic Attack - Drizzle Stance Stage 1.\nAfter entering Drizzle Stance for 15s, Suisui ends Drizzle Stance and clears all Floral Epistle upon exiting the state.\n\nDodge - Parting Mist\nWhile performing attacks on the ground, Dodge to cast Dodge - Parting Mist at the cost of STA.\nWhen in Zephyr Stance, triggering a successful Dodge while casting Dodge - Parting Mist restores Cloud Breath. Normal Attack shortly after triggering the Dodge to cast Dodge Counter - Zephyr Stance.\n- When in Drizzle Stance, triggering a successful Dodge while casting Dodge - Parting Mist restores Floral Epistle, and does not reset the cycle of Basic Attack - Drizzle Stance within a certain period.\n\nBasic Attack - Drizzle Stance\nWhen in Drizzle Stance, Basic Attack - Zephyr Stance is replaced with Basic Attack - Drizzle Stance.\n Normal Attack repeatedly to perform up to 4 consecutive attacks, dealing Glacio DMG and restoring Floral Epistle on hit.\nWhen casting Basic Attack - Drizzle Stance Stage 3, continuously pull in nearby targets.\nBasic Attack - Drizzle Stance Stage 4 inflicts Glacio Chafe 1 time on the target on hit.\n\nHeavy Attack - Drizzle Stance\nConsume STA to attack the target, dealing Glacio DMG and restoring Floral Epistle on hit.\n\nIlluminating Dew\nWhen in Drizzle Stance, keep holding Normal Attack after casting Heavy Attack - Drizzle Stance to cast this skill.\nConsume STA to perform Plunging Attack, dealing Glacio DMG.\n\nSwallow's Cut\nWhen in Drizzle Stance, cast this skill in one of the following ways:\n- Release the Normal Attack button while casting Heavy Attack - Drizzle Stance.\n- Normal Attack while Suisui is mid-air.\nConsume STA to perform Plunging Attack, dealing Glacio DMG.\n\nCloud Breath\nMax {0} points.\nWhen in Zephyr Stance:\n- Basic Attack - Zephyr Stance and Dodge Counter - Zephyr Stance restore Cloud Breath on hit.\n- Casting Resonance Skill - Zephyr Stance restores {1} {Cus:Sap,S=point P=points SapTag=1} of Cloud Breath when Suisui is the active Resonator in the team.\n- Triggering a successful Dodge while casting Dodge - Parting Mist restores {2} {Cus:Sap,S=point P=points SapTag=2} of Cloud Breath.\n\nFloral Epistle\n",
+                "descFormat": [
+                  {
+                    "start": 0,
+                    "end": 13,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 27,
+                    "end": 40,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 61,
+                    "end": 74,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 94,
+                    "end": 106,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 132,
+                    "end": 146,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 156,
+                    "end": 170,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 182,
+                    "end": 196,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 205,
+                    "end": 219,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 268,
+                    "end": 282,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 361,
+                    "end": 374,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 437,
+                    "end": 449,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 458,
+                    "end": 495,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 512,
+                    "end": 526,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 548,
+                    "end": 562,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 578,
+                    "end": 592,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 618,
+                    "end": 638,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 679,
+                    "end": 684,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 693,
+                    "end": 713,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 742,
+                    "end": 755,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 801,
+                    "end": 821,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 831,
+                    "end": 843,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 845,
+                    "end": 858,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 902,
+                    "end": 931,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 943,
+                    "end": 957,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1003,
+                    "end": 1023,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1033,
+                    "end": 1047,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1081,
+                    "end": 1110,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1137,
+                    "end": 1166,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 1175,
+                    "end": 1189,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1191,
+                    "end": 1219,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1237,
+                    "end": 1266,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1269,
+                    "end": 1282,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1342,
+                    "end": 1352,
+                    "kind": "tone",
+                    "tone": "cryo"
+                  },
+                  {
+                    "start": 1367,
+                    "end": 1381,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1403,
+                    "end": 1440,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1479,
+                    "end": 1516,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1526,
+                    "end": 1538,
+                    "kind": "tone",
+                    "tone": "cryo"
+                  },
+                  {
+                    "start": 1569,
+                    "end": 1598,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 1641,
+                    "end": 1651,
+                    "kind": "tone",
+                    "tone": "cryo"
+                  },
+                  {
+                    "start": 1666,
+                    "end": 1680,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1690,
+                    "end": 1706,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 1715,
+                    "end": 1729,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1744,
+                    "end": 1757,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1772,
+                    "end": 1801,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1870,
+                    "end": 1880,
+                    "kind": "tone",
+                    "tone": "cryo"
+                  },
+                  {
+                    "start": 1883,
+                    "end": 1896,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 1905,
+                    "end": 1919,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1981,
+                    "end": 1994,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2016,
+                    "end": 2045,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2049,
+                    "end": 2062,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2136,
+                    "end": 2146,
+                    "kind": "tone",
+                    "tone": "cryo"
+                  },
+                  {
+                    "start": 2149,
+                    "end": 2161,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 2186,
+                    "end": 2199,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2203,
+                    "end": 2231,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2236,
+                    "end": 2265,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2274,
+                    "end": 2286,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2305,
+                    "end": 2336,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2389,
+                    "end": 2401,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2497,
+                    "end": 2517,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2570,
+                    "end": 2582,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2585,
+                    "end": 2599,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ],
                 "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconSuisui/SP_IconSuisuiY.webp",
                 "scaling": [
                   {
@@ -2706,6 +4200,32 @@
                 "name": "Tinkling Jade",
                 "type": "Intro Skill",
                 "desc": "Attack the target, dealing Glacio DMG, and inflict Glacio Chafe 1 time on the target.\nWhile casting this skill, consume all Cloud Breath to pull in nearby targets and enter Drizzle Stance.",
+                "descFormat": [
+                  {
+                    "start": 27,
+                    "end": 37,
+                    "kind": "tone",
+                    "tone": "cryo"
+                  },
+                  {
+                    "start": 51,
+                    "end": 63,
+                    "kind": "tone",
+                    "tone": "cryo"
+                  },
+                  {
+                    "start": 124,
+                    "end": 136,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 173,
+                    "end": 187,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  }
+                ],
                 "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconSuisui/SP_IconSuisuiQTE.webp",
                 "scaling": [
                   {
@@ -2791,6 +4311,278 @@
                 "name": "Rippling Waters",
                 "type": "Outro Skill",
                 "desc": "Resonators in the team gain {0} All DMG Amplification for 30s.\n\nSuisui enters Roaming Transcendent when Ceaseless Landscape is active.\nSuisui exits Drizzle Stance and consumes all Floral Epistle and unlocks the following effects based on the amount of Floral Epistle consumed:\n\n0 Floral Epistle consumed:\n- All nearby Resonators in the team gain Reflecting Shadows for 6s. Resonators with Reflecting Shadows have increased resistance to interruption.\n\nAt least 200 Floral Epistle consumed:\n- If Ceaseless Landscape is active, Suisui may perform Plume Step for the first time within a certain time into her Transcendent Dance while in Roaming Transcendent.\n\nAt least 400 Floral Epistle consumed:\n- During this Roaming Transcendent state, the active Resonator within the Ceaseless Landscape deals more DMG if they have Reflecting Shadows. For every {2} of Suisui's Energy Regen over {1}, the Resonator deals {3} more DMG, up to {4}.\n- If Ceaseless Landscape is active, Suisui may perform the second Plume Step within a certain time into her Transcendent Dance while in Roaming Transcendent.\n\nAt least 600 Floral Epistle consumed:\n- When Suisui performs the first Plume Step, all nearby active Resonators in the team within the Ceaseless Landscape gain the following effects for the duration of this Roaming Transcendent:\n- When they cast Outro Skill, Suisui grants the incoming Resonator Undulating Mist. When Resonators with Undulating Mist consume Negative Status or Electro Rage stacks on the target, they gain an ATK increase: For every {6} of Suisui's Energy Regen over {5}, the Resonator's ATK is increased by {7} for {9}s, up to {8}. Undulating Mist lasts for 14s or until the Resonator is switched off the field. When Undulating Mist is removed, the ATK increase effect is also removed.\n- If Ceaseless Landscape is active, Suisui may perform the third Plume Step within a certain time into her Transcendent Dance while in Roaming Transcendent.\n\nRoaming Transcendent\nLasts for {10}s.\nDuring Roaming Transcendent, Suisui will merge with Ceaseless Landscape and start a Transcendent Dance, during which she will perform Plume Steps at intervals based on the amount of Floral Epistle consumed when Outro Skill - Rippling Waters is cast.\nWhen Suisui is the active Resonator in the team, she stops the Transcendent Dance.\nWhen Ceaseless Landscape isn't active, she will exit the Roaming Transcendent state.\n\nPlume Step\nPerforming Plume Step grants Reflecting Shadows to all nearby Resonators in the team for 6s, inflicts 1 stack of Glacio Chafe on all enemies within the Ceaseless Landscape, and heal",
+                "descFormat": [
+                  {
+                    "start": 78,
+                    "end": 98,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 104,
+                    "end": 123,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 148,
+                    "end": 162,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 180,
+                    "end": 194,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 252,
+                    "end": 266,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 280,
+                    "end": 294,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 346,
+                    "end": 364,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 389,
+                    "end": 407,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 465,
+                    "end": 479,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 495,
+                    "end": 514,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 545,
+                    "end": 555,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 634,
+                    "end": 654,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 670,
+                    "end": 684,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 709,
+                    "end": 729,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 769,
+                    "end": 788,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 817,
+                    "end": 835,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 936,
+                    "end": 955,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 997,
+                    "end": 1007,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1067,
+                    "end": 1087,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1103,
+                    "end": 1117,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1161,
+                    "end": 1171,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1225,
+                    "end": 1244,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1297,
+                    "end": 1317,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1386,
+                    "end": 1401,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1424,
+                    "end": 1439,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1448,
+                    "end": 1463,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1467,
+                    "end": 1479,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 1639,
+                    "end": 1654,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1724,
+                    "end": 1739,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1798,
+                    "end": 1817,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1858,
+                    "end": 1868,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1928,
+                    "end": 1948,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1951,
+                    "end": 1971,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 1996,
+                    "end": 2016,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2041,
+                    "end": 2060,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2123,
+                    "end": 2134,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2171,
+                    "end": 2185,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2200,
+                    "end": 2229,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2327,
+                    "end": 2346,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2379,
+                    "end": 2399,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2408,
+                    "end": 2418,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 2430,
+                    "end": 2440,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2448,
+                    "end": 2466,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2532,
+                    "end": 2544,
+                    "kind": "tone",
+                    "tone": "cryo"
+                  },
+                  {
+                    "start": 2571,
+                    "end": 2590,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  }
+                ],
                 "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconSuisui/SP_IconSuisuiT.webp"
               },
               {
@@ -2807,12 +4599,64 @@
                 "name": "Sky Over Water",
                 "type": "Inherent Skill",
                 "desc": "Consuming Enrichment grants the Resonator {0} {Cus:Sap,S=stack P=stacks SapTag=0} of Spring's Birth, up to {1} stacks. When the Resonator with Spring's Birth is not at full HP, restore their HP by {3} + {4} of Suisui's Max HP at the cost of 1 stack of Spring's Birth every {2}s.\n\nWhen Resonance Skill - Awakening Spring and Intro Skill - Tinkling Jade hit a target, they additionally restore {5} points of Concerto Energy and {6} points of Resonance Energy, and increase the attack's Crit. Rate by {7} and Glacio DMG by {8}. This effect can be triggered up to once every 25s.",
+                "descFormat": [
+                  {
+                    "start": 10,
+                    "end": 20,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 85,
+                    "end": 99,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 143,
+                    "end": 157,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 252,
+                    "end": 266,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 285,
+                    "end": 319,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 324,
+                    "end": 351,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  }
+                ],
                 "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconSuisui/SP_IconSuisuiD1.webp"
               },
               {
                 "name": "Tune Break: Rectifier",
                 "type": "Tune Break",
                 "desc": "When the target's Off-Tune Level is full, the Resonator may cast Tune Break on the target.",
+                "descFormat": [
+                  {
+                    "start": 18,
+                    "end": 32,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 65,
+                    "end": 75,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  }
+                ],
                 "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconWeakPointBreakMagic.webp"
               }
             ]
@@ -2823,32 +4667,236 @@
               {
                 "name": "Mountains Washed Into Paintings",
                 "type": "Sequence 1",
-                "desc": "Resonators with Undulating Mist also gain ATK increase after inflicting Negative Status or dealing Negative Status DMG.\nThe duration of Reflecting Shadows obtained through the third Plume Step is extended by {1}.\nBasic Attack - Drizzle Stance, Heavy Attack - Drizzle Stance, Plunging Attack - Illuminating Dew and Plunging Attack - Swallow's Cut are immune to interruption."
+                "desc": "Resonators with Undulating Mist also gain ATK increase after inflicting Negative Status or dealing Negative Status DMG.\nThe duration of Reflecting Shadows obtained through the third Plume Step is extended by {1}.\nBasic Attack - Drizzle Stance, Heavy Attack - Drizzle Stance, Plunging Attack - Illuminating Dew and Plunging Attack - Swallow's Cut are immune to interruption.",
+                "descFormat": [
+                  {
+                    "start": 16,
+                    "end": 31,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 72,
+                    "end": 87,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 99,
+                    "end": 118,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 136,
+                    "end": 154,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 182,
+                    "end": 192,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 213,
+                    "end": 242,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 244,
+                    "end": 273,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 275,
+                    "end": 309,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 314,
+                    "end": 345,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  }
+                ]
               },
               {
                 "name": "Clouds Pour Like Molten Gold",
                 "type": "Sequence 2",
-                "desc": "All nearby Resonators in the team within the Ceaseless Landscape have their Crit. DMG increased by {0} for 30s after performing the following actions:\n- Inflicting Spectro Frazzle, Fusion Burst, Glacio Chafe, Aero Erosion, and Electro Flare, or dealing the corresponding Negative Status DMG.\n- Consuming Havoc Bane stacks on the target.\nWhen the active Resonator is not in the Ceaseless Landscape, this Crit. DMG bonus effect is disabled."
+                "desc": "All nearby Resonators in the team within the Ceaseless Landscape have their Crit. DMG increased by {0} for 30s after performing the following actions:\n- Inflicting Spectro Frazzle, Fusion Burst, Glacio Chafe, Aero Erosion, and Electro Flare, or dealing the corresponding Negative Status DMG.\n- Consuming Havoc Bane stacks on the target.\nWhen the active Resonator is not in the Ceaseless Landscape, this Crit. DMG bonus effect is disabled.",
+                "descFormat": [
+                  {
+                    "start": 45,
+                    "end": 64,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 164,
+                    "end": 179,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 181,
+                    "end": 193,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  },
+                  {
+                    "start": 195,
+                    "end": 207,
+                    "kind": "tone",
+                    "tone": "cryo"
+                  },
+                  {
+                    "start": 209,
+                    "end": 221,
+                    "kind": "tone",
+                    "tone": "anemo"
+                  },
+                  {
+                    "start": 227,
+                    "end": 240,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 304,
+                    "end": 314,
+                    "kind": "tone",
+                    "tone": "havoc"
+                  },
+                  {
+                    "start": 377,
+                    "end": 396,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  }
+                ]
               },
               {
                 "name": "Sparse Curtains Invite Evening Glow",
                 "type": "Sequence 3",
-                "desc": "Normal Attack shortly after casting Resonance Skill - Drizzle Stance to cast Basic Attack - Drizzle Stance Stage 4.\n\nCasting Resonance Skill - Drizzle Stance grants Kingfisher. Switching to another Resonator ends this effect. Casting Basic Attack - Drizzle Stance Stage 4 consumes Kingfisher to restore {0} points of Concerto Energy and {1} points of Floral Epistle. Kingfisher can be consumed up to once every {2}s."
+                "desc": "Normal Attack shortly after casting Resonance Skill - Drizzle Stance to cast Basic Attack - Drizzle Stance Stage 4.\n\nCasting Resonance Skill - Drizzle Stance grants Kingfisher. Switching to another Resonator ends this effect. Casting Basic Attack - Drizzle Stance Stage 4 consumes Kingfisher to restore {0} points of Concerto Energy and {1} points of Floral Epistle. Kingfisher can be consumed up to once every {2}s.",
+                "descFormat": [
+                  {
+                    "start": 0,
+                    "end": 13,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 36,
+                    "end": 68,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 77,
+                    "end": 114,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 125,
+                    "end": 157,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 165,
+                    "end": 175,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 234,
+                    "end": 271,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 281,
+                    "end": 291,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 351,
+                    "end": 365,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 367,
+                    "end": 377,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  }
+                ]
               },
               {
                 "name": "Autumn Mountains in Choir Sing",
                 "type": "Sequence 4",
-                "desc": "Healing provided by Enrichment and Spring's Birth are increased by {0}."
+                "desc": "Healing provided by Enrichment and Spring's Birth are increased by {0}.",
+                "descFormat": [
+                  {
+                    "start": 20,
+                    "end": 30,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 35,
+                    "end": 49,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  }
+                ]
               },
               {
                 "name": "I Long To Ride The Eastern Wind",
                 "type": "Sequence 5",
-                "desc": "The DMG Multipliers of Basic Attack - Drizzle Stance and Heavy Attack - Drizzle Stance are increased by {0}."
+                "desc": "The DMG Multipliers of Basic Attack - Drizzle Stance and Heavy Attack - Drizzle Stance are increased by {0}.",
+                "descFormat": [
+                  {
+                    "start": 23,
+                    "end": 52,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 57,
+                    "end": 86,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  }
+                ]
               },
               {
                 "name": "Staying True To This Splendid Realm",
                 "type": "Sequence 6",
-                "desc": "The Crit. DMG of Intro Skill - Tinkling Jade and Resonance Skill - Awakening Spring is increased by {0}."
+                "desc": "The Crit. DMG of Intro Skill - Tinkling Jade and Resonance Skill - Awakening Spring is increased by {0}.",
+                "descFormat": [
+                  {
+                    "start": 17,
+                    "end": 44,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 49,
+                    "end": 83,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  }
+                ]
               }
             ]
           }

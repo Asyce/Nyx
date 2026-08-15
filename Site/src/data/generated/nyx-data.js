@@ -4,9 +4,9 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-08-15T14:47:44.335Z",
+  "generatedAt": "2026-08-15T16:14:23.048Z",
   "codes": {
-    "updated": "2026-08-14T21:17:21.162Z",
+    "updated": "2026-08-15T16:14:03.055Z",
     "maxAgeDays": 28,
     "games": {
       "gi": [
@@ -165,48 +165,6 @@ var NYX_DB = {
           "firstSeen": "2026-08-14T21:17:21.162Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=2TKRKAR6YG2K",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=2TKRKAR6YG2K"
-        },
-        {
-          "code": "2TKRKAR6YG2X",
-          "reward": "Stellar Jade x100, Credit x50000",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Stellar Jade",
-            "needle": "stellar jade",
-            "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
-          },
-          "added": "2026-08-14",
-          "firstSeen": "2026-08-14T12:42:35.680Z",
-          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=2TKRKAR6YG2X",
-          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=2TKRKAR6YG2X"
-        },
-        {
-          "code": "LSJ9JARPZH33",
-          "reward": "100 Stellar Jade and Five Traveler S Guides",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Stellar Jade",
-            "needle": "stellar jade",
-            "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
-          },
-          "added": "2026-08-14",
-          "firstSeen": "2026-08-14T12:42:35.680Z",
-          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=LSJ9JARPZH33",
-          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=LSJ9JARPZH33"
-        },
-        {
-          "code": "YAJQ2TR6ZY2P",
-          "reward": "100 Stellar Jade and Four Refined Aether",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Stellar Jade",
-            "needle": "stellar jade",
-            "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
-          },
-          "added": "2026-08-14",
-          "firstSeen": "2026-08-14T12:42:35.680Z",
-          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=YAJQ2TR6ZY2P",
-          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=YAJQ2TR6ZY2P"
         },
         {
           "code": "4TKSX77Y58QK",
@@ -530,7 +488,7 @@ var NYX_DB = {
       "hsr": {
         "name": "Honkai: Star Rail",
         "freshness": {
-          "status": "fresh",
+          "status": "stale",
           "checkedAt": "2026-08-14T04:06:56.603Z",
           "lastSuccessfulFetch": "2026-08-14T04:06:56.603Z",
           "lastValidUpdate": "2026-08-14T04:06:56.603Z",
@@ -721,7 +679,7 @@ var NYX_DB = {
       "gi": {
         "name": "Genshin Impact",
         "freshness": {
-          "status": "fresh",
+          "status": "stale",
           "checkedAt": "2026-08-14T04:06:56.603Z",
           "lastSuccessfulFetch": "2026-08-14T04:06:56.603Z",
           "lastValidUpdate": "2026-08-14T04:06:56.603Z",
@@ -1034,7 +992,7 @@ var NYX_DB = {
       "wuwa": {
         "name": "Wuthering Waves",
         "freshness": {
-          "status": "fresh",
+          "status": "stale",
           "checkedAt": "2026-08-14T04:06:56.603Z",
           "lastSuccessfulFetch": "2026-08-14T04:06:56.603Z",
           "lastValidUpdate": "2026-08-14T04:06:56.603Z",
@@ -1215,7 +1173,7 @@ var NYX_DB = {
       "zzz": {
         "name": "Zenless Zone Zero",
         "freshness": {
-          "status": "fresh",
+          "status": "stale",
           "checkedAt": "2026-08-14T04:06:56.603Z",
           "lastSuccessfulFetch": "2026-08-14T04:06:56.603Z",
           "lastValidUpdate": "2026-08-14T04:06:56.603Z",
@@ -1437,7 +1395,7 @@ var NYX_DB = {
       "ae": {
         "name": "Arknights: Endfield",
         "freshness": {
-          "status": "fresh",
+          "status": "stale",
           "checkedAt": "2026-08-14T04:06:56.603Z",
           "lastSuccessfulFetch": "2026-08-14T04:06:56.603Z",
           "lastValidUpdate": "2026-08-14T04:06:56.603Z",
@@ -5802,7 +5760,7 @@ var NYX_DB = {
       "banners": {
         "name": "Genshin Impact",
         "freshness": {
-          "status": "fresh",
+          "status": "stale",
           "checkedAt": "2026-08-14T04:06:56.603Z",
           "lastSuccessfulFetch": "2026-08-14T04:06:56.603Z",
           "lastValidUpdate": "2026-08-14T04:06:56.603Z",
@@ -169162,48 +169120,6 @@ var NYX_DB = {
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=2TKRKAR6YG2K"
         },
         {
-          "code": "2TKRKAR6YG2X",
-          "reward": "Stellar Jade x100, Credit x50000",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Stellar Jade",
-            "needle": "stellar jade",
-            "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
-          },
-          "added": "2026-08-14",
-          "firstSeen": "2026-08-14T12:42:35.680Z",
-          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=2TKRKAR6YG2X",
-          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=2TKRKAR6YG2X"
-        },
-        {
-          "code": "LSJ9JARPZH33",
-          "reward": "100 Stellar Jade and Five Traveler S Guides",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Stellar Jade",
-            "needle": "stellar jade",
-            "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
-          },
-          "added": "2026-08-14",
-          "firstSeen": "2026-08-14T12:42:35.680Z",
-          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=LSJ9JARPZH33",
-          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=LSJ9JARPZH33"
-        },
-        {
-          "code": "YAJQ2TR6ZY2P",
-          "reward": "100 Stellar Jade and Four Refined Aether",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Stellar Jade",
-            "needle": "stellar jade",
-            "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
-          },
-          "added": "2026-08-14",
-          "firstSeen": "2026-08-14T12:42:35.680Z",
-          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=YAJQ2TR6ZY2P",
-          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=YAJQ2TR6ZY2P"
-        },
-        {
           "code": "4TKSX77Y58QK",
           "reward": "30 stellar jade, three traveler's guides, five condensed aether, four lost gold fragments, and 20k credits",
           "premium": true,
@@ -169347,7 +169263,7 @@ var NYX_DB = {
       "banners": {
         "name": "Honkai: Star Rail",
         "freshness": {
-          "status": "fresh",
+          "status": "stale",
           "checkedAt": "2026-08-14T04:06:56.603Z",
           "lastSuccessfulFetch": "2026-08-14T04:06:56.603Z",
           "lastValidUpdate": "2026-08-14T04:06:56.603Z",
@@ -175103,7 +175019,7 @@ var NYX_DB = {
       "banners": {
         "name": "Zenless Zone Zero",
         "freshness": {
-          "status": "fresh",
+          "status": "stale",
           "checkedAt": "2026-08-14T04:06:56.603Z",
           "lastSuccessfulFetch": "2026-08-14T04:06:56.603Z",
           "lastValidUpdate": "2026-08-14T04:06:56.603Z",
@@ -180173,7 +180089,7 @@ var NYX_DB = {
       "banners": {
         "name": "Wuthering Waves",
         "freshness": {
-          "status": "fresh",
+          "status": "stale",
           "checkedAt": "2026-08-14T04:06:56.603Z",
           "lastSuccessfulFetch": "2026-08-14T04:06:56.603Z",
           "lastValidUpdate": "2026-08-14T04:06:56.603Z",
@@ -185382,7 +185298,7 @@ var NYX_DB = {
       "banners": {
         "name": "Arknights: Endfield",
         "freshness": {
-          "status": "fresh",
+          "status": "stale",
           "checkedAt": "2026-08-14T04:06:56.603Z",
           "lastSuccessfulFetch": "2026-08-14T04:06:56.603Z",
           "lastValidUpdate": "2026-08-14T04:06:56.603Z",

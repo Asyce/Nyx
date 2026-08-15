@@ -4,7 +4,7 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-08-15T09:55:22.569Z",
+  "generatedAt": "2026-08-15T14:47:44.335Z",
   "codes": {
     "updated": "2026-08-14T21:17:21.162Z",
     "maxAgeDays": 28,
@@ -1346,6 +1346,17 @@ var NYX_DB = {
             "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole10.webp",
             "namecard": null,
             "rarity": "A",
+            "debut": true,
+            "debutAt": null
+          },
+          {
+            "name": "Roxy",
+            "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle68.webp",
+            "iconFallback": null,
+            "iconZoom": false,
+            "art": "../../Database/Prydwen/zzz/assets/characters/roxy-493c2cf722ad.webp",
+            "namecard": null,
+            "rarity": "S",
             "debut": true,
             "debutAt": null
           }
@@ -175223,6 +175234,17 @@ var NYX_DB = {
             "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole10.webp",
             "namecard": null,
             "rarity": "A",
+            "debut": true,
+            "debutAt": null
+          },
+          {
+            "name": "Roxy",
+            "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle68.webp",
+            "iconFallback": null,
+            "iconZoom": false,
+            "art": "../../Database/Prydwen/zzz/assets/characters/roxy-493c2cf722ad.webp",
+            "namecard": null,
+            "rarity": "S",
             "debut": true,
             "debutAt": null
           }

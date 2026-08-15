@@ -1,5 +1,9 @@
 [
   {
+    "path": "GameData/zzz/assets/agents/role-icons/IconRole68.webp",
+    "gamedataAssetPath": "IconRole68.webp"
+  },
+  {
     "path": "GameData/zzz/assets/monsters/Monster_UVARaven.webp",
     "gamedataAssetPath": "Monster_UVARaven.webp"
   },
@@ -80,6 +84,18 @@
     "gamedataAssetPath": "Zenkov_Currency_Season.webp"
   },
   {
+    "path": "GameData/zzz/assets/items/IconRolePiece68.webp",
+    "gamedataAssetPath": "IconRolePiece68.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/items/ExBigBoss011.webp",
+    "gamedataAssetPath": "ExBigBoss011.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/items/ExSmallBoss016.webp",
+    "gamedataAssetPath": "ExSmallBoss016.webp"
+  },
+  {
     "path": "GameData/zzz/assets/items/Analeptic.webp",
     "gamedataAssetPath": "Analeptic.webp"
   },
@@ -90,6 +106,10 @@
   {
     "path": "GameData/zzz/assets/items/BuffRandom.webp",
     "gamedataAssetPath": "BuffRandom.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/items/S_EngineFreePick.webp",
+    "gamedataAssetPath": "S_EngineFreePick.webp"
   },
   {
     "path": "GameData/zzz/assets/items/SuitFool01.webp",
@@ -136,6 +156,30 @@
     "gamedataAssetPath": "CardDailyUse1651.webp"
   },
   {
+    "path": "GameData/zzz/assets/items/Relic107.webp",
+    "gamedataAssetPath": "Relic107.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/items/Relic108.webp",
+    "gamedataAssetPath": "Relic108.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/items/Relic109.webp",
+    "gamedataAssetPath": "Relic109.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/items/Relic110.webp",
+    "gamedataAssetPath": "Relic110.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/items/Relic111.webp",
+    "gamedataAssetPath": "Relic111.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/items/Relic112.webp",
+    "gamedataAssetPath": "Relic112.webp"
+  },
+  {
     "path": "GameData/zzz/assets/items/IconWallpaperPiece12.webp",
     "gamedataAssetPath": "IconWallpaperPiece12.webp"
   },
@@ -150,6 +194,10 @@
   {
     "path": "GameData/zzz/assets/items/ItemProfile2014.webp",
     "gamedataAssetPath": "ItemProfile2014.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/items/LiveWallpaper63.webp",
+    "gamedataAssetPath": "LiveWallpaper63.webp"
   },
   {
     "path": "GameData/zzz/assets/items/LiveWallpaper62.webp",
@@ -186,6 +234,14 @@
   {
     "path": "GameData/zzz/assets/items/Zenkov_CollectionA_004.webp",
     "gamedataAssetPath": "Zenkov_CollectionA_004.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/items/IconDigibooLKX.webp",
+    "gamedataAssetPath": "IconDigibooLKX.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/items/IconDigibooFON.webp",
+    "gamedataAssetPath": "IconDigibooFON.webp"
   },
   {
     "path": "GameData/zzz/assets/items/icon_Wise_Back_WaistOrnament_Default.webp",

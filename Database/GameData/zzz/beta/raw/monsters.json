@@ -413,7 +413,7 @@
     "icon": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_Greatsworder.png",
     "rarity": 1,
     "group": 290,
-    "en": "Air Patrol Vanguard",
+    "en": "Sky Patrol Vanguard",
     "desc": "CardDesc_10041",
     "ko": "BriefName_Monster_Greatsworder",
     "zh": "空巡先锋",
@@ -427,7 +427,7 @@
     "desc": "CardDesc_10042",
     "ko": "BriefName_Monster_Halberdier",
     "zh": "空巡枪骑",
-    "ja": "空巡槍兵"
+    "ja": "空巡キャバリア"
   },
   "10043": {
     "icon": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_RoscaSolider.png",
@@ -437,13 +437,13 @@
     "desc": "CardDesc_10043",
     "ko": "BriefName_Monster_RoscaSolider",
     "zh": "空巡近卫",
-    "ja": "空巡近衛兵"
+    "ja": "空巡近衛"
   },
   "10044": {
     "icon": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_EvolvedCannoneer.png",
     "rarity": 1,
     "group": 205,
-    "en": "Special Offensive·Grenadier Jaeger",
+    "en": "Special Offensive · Grenadier Jaeger",
     "desc": "CardDesc_10044",
     "ko": "BriefName_Monster_EvolvedCannoneer",
     "zh": "特战·掷弹猎兵",
@@ -473,7 +473,7 @@
     "icon": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_EvolvedHeavyJaeger.png",
     "rarity": 1,
     "group": 205,
-    "en": "Special Offensive · Guard Jaeger",
+    "en": "Special Offensive·Guard Jaeger",
     "desc": "CardDesc_10047",
     "ko": "BriefName_Monster_EvolvedHeavyJaeger",
     "zh": "特战·戍卫猎兵",
@@ -853,7 +853,7 @@
     "icon": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_EvolvedFootRover.png",
     "rarity": 2,
     "group": 205,
-    "en": "Special Offensive · Lightfoot Rover",
+    "en": "Special Offensive · \"Lightfoot Rover\"",
     "desc": "CardDesc_20037",
     "ko": "BriefName_Monster_EvolvedFootRover",
     "zh": "特战·「捷足巡游者」",
@@ -1427,7 +1427,7 @@
     "desc": "CardDesc_30055",
     "ko": "BriefName_Monster_HACMecha",
     "zh": "自律战术单位·「征服者」",
-    "ja": "自律戦術ユニット・「コンカラー」"
+    "ja": "自律戦術ユニット・「征服者」"
   },
   "35001": {
     "icon": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_Nineveh.png",

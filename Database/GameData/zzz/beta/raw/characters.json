@@ -1549,8 +1549,15 @@
     "icon": "",
     "potential": [],
     "en": "Avatar_Female_Size02_Claret",
-    "skin": {},
-    "desc": "Partner_ProfileDesc_1611",
+    "skin": {
+      "3116110": {
+        "name": "AvatarSkin_Claret_Name_000",
+        "desc": "AvatarSkin_Claret_Desc_000",
+        "obtain_desc": "",
+        "image": "IconRole1611"
+      }
+    },
+    "desc": "...",
     "ko": "Avatar_Female_Size02_Claret",
     "zh": "克拉蕾",
     "ja": "Avatar_Female_Size02_Claret"
@@ -1570,7 +1577,7 @@
         "name": "AvatarSkin_Pryce_Name_000",
         "desc": "AvatarSkin_Pryce_Desc_000",
         "obtain_desc": "",
-        "image": "IconRole60"
+        "image": "IconRole68"
       }
     },
     "desc": "...",

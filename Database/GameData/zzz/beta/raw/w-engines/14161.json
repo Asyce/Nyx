@@ -3,7 +3,7 @@
   "code_name": "Weapon_S_1611",
   "name": "Crimson Thirst",
   "desc": "...",
-  "desc2": "Equip to increase Armorer Agents' combat capabilities",
+  "desc2": "Equipping this boosts the combat capabilities of Armorer Agents",
   "desc3": "...",
   "rarity": 4,
   "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIconWeapon/UnPacker/Weapon_S_1611.png",
@@ -359,23 +359,23 @@
   "talents": {
     "1": {
       "name": "...",
-      "desc": "The equipper's CRIT Rate increases by 25%; <color=#2EB6FF>Electric DMG</color> increases by 15%; when the equipper launches an <color=#FFFFFF>[EX Special Attack]</color> or triggers <color=#FFFFFF>[Maim]</color>, the <color=#2EB6FF>Electric Sharp DMG</color> dealt increases by 15%, lasting 40s, repeated triggers reset the duration."
+      "desc": "The equipper's CRIT Rate increases by 25%; <color=#2EB6FF>Electric DMG</color> increases by 15%; when the equipper launches an <color=#FFFFFF>[EX Special Attack]</color> or triggers <color=#FFFFFF>[Maim]</color>, the <color=#2EB6FF>Electric Sharp DMG</color> dealt increases by 12%, lasting 40s, repeated triggers reset the duration."
     },
     "2": {
       "name": "...",
-      "desc": "The equipper's CRIT Rate increases by 28.7%; <color=#2EB6FF>Electric DMG</color> increases by 17.5%; when the equipper uses an <color=#FFFFFF>[EX Special Attack]</color> or triggers <color=#FFFFFF>[Maim]</color>, <color=#2EB6FF>Electric Sharp DMG</color> increases by 17%, lasting 40s, repeated triggers reset the duration."
+      "desc": "The equipper's CRIT Rate increases by 27.5%; <color=#2EB6FF>Electric DMG</color> increases by 17.5%; when the equipper launches an <color=#FFFFFF>[EX Special Attack]</color> or triggers <color=#FFFFFF>[Maim]</color>, <color=#2EB6FF>Electric Sharp DMG</color> increases by 14%, lasting 40s, repeated triggers reset the duration."
     },
     "3": {
       "name": "...",
-      "desc": "The equipper's CRIT Rate increases by 32.5%; <color=#2EB6FF>Electric DMG</color> increases by 20%; when the equipper launches an <color=#FFFFFF>[EX Special Attack]</color> or triggers <color=#FFFFFF>[Maim]</color>, <color=#2EB6FF>Electric Sharp DMG</color> dealt increases by 19%, lasting 40s, repeated triggers reset the duration."
+      "desc": "The equipper's CRIT Rate increases by 30%; <color=#2EB6FF>Electric DMG</color> increases by 20%; when the equipper launches an <color=#FFFFFF>[EX Special Attack]</color> or triggers <color=#FFFFFF>[Maim]</color>, <color=#2EB6FF>Electric Sharp DMG</color> dealt increases by 16%, lasting 40s, repeated triggers reset the duration."
     },
     "4": {
       "name": "...",
-      "desc": "The equipper's CRIT Rate increases by 36.2%; <color=#2EB6FF>Electric DMG</color> increases by 22.5%; when the equipper uses an <color=#FFFFFF>[EX Special Attack]</color> or triggers <color=#FFFFFF>[Maim]</color>, <color=#2EB6FF>Electric Sharp DMG</color> increases by 21%, lasting 40s, repeated triggers reset the duration."
+      "desc": "The equipper's CRIT Rate increases by 32.5%; <color=#2EB6FF>Electric DMG</color> increases by 22.5%; When the equipper launches an <color=#FFFFFF>[EX Special Attack]</color> or triggers <color=#FFFFFF>[Maim]</color>, the <color=#2EB6FF>Electric Sharp DMG</color> dealt increases by 18%, lasting 40s, repeated triggers reset the duration."
     },
     "5": {
       "name": "...",
-      "desc": "The equipper's CRIT Rate increases by 40%; <color=#2EB6FF>Electric DMG</color> increases by 25%; When the equipper launches an <color=#FFFFFF>[EX Special Attack]</color> or triggers <color=#FFFFFF>[Maim]</color>, the <color=#2EB6FF>Electric Sharp DMG</color> dealt increases by 23%, lasting 40s, repeated triggers reset the duration."
+      "desc": "The equipper's CRIT Rate increases by 35%; <color=#2EB6FF>Electric DMG</color> increases by 25%; when the equipper launches an <color=#FFFFFF>[EX Special Attack]</color> or triggers <color=#FFFFFF>[Maim]</color>, <color=#2EB6FF>Electric Sharp DMG</color> dealt increases by 20%, lasting 40s, repeated triggers reset the duration."
     }
   }
 }

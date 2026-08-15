@@ -8372,7 +8372,7 @@
           {
             "itemId": "101016",
             "quantity": 2,
-            "name": "Item_WeaponBreak_16_name",
+            "name": "Armorer Component",
             "rarity": 1,
             "type": {
               "10": "RESOURCE"
@@ -8401,7 +8401,7 @@
           {
             "itemId": "101026",
             "quantity": 7,
-            "name": "Item_WeaponBreak_26_name",
+            "name": "Reinforced Armorer Component",
             "rarity": 2,
             "type": {
               "10": "RESOURCE"
@@ -8430,7 +8430,7 @@
           {
             "itemId": "101026",
             "quantity": 12,
-            "name": "Item_WeaponBreak_26_name",
+            "name": "Reinforced Armorer Component",
             "rarity": 2,
             "type": {
               "10": "RESOURCE"
@@ -8459,7 +8459,7 @@
           {
             "itemId": "101036",
             "quantity": 6,
-            "name": "Item_WeaponBreak_36_name",
+            "name": "Blasting Armorer Component",
             "rarity": 3,
             "type": {
               "10": "RESOURCE"
@@ -8488,7 +8488,7 @@
           {
             "itemId": "101036",
             "quantity": 12,
-            "name": "Item_WeaponBreak_36_name",
+            "name": "Blasting Armorer Component",
             "rarity": 3,
             "type": {
               "10": "RESOURCE"
@@ -8503,27 +8503,27 @@
     "talents": {
       "1": {
         "name": "...",
-        "desc": "Upon launching an <color=#FFFFFF>[EX Special Attack]</color>, [Basic Attack] DMG increases by <color=#2BAD00>18%</color> for 10s. Repeated triggers reset the duration."
+        "desc": "When an <color=#FFFFFF>[EX Special Attack]</color> is used, [Basic Attack] DMG increases by <color=#2BAD00>18%</color> for 10 seconds; repeated triggers reset the duration."
       },
       "2": {
         "name": "...",
-        "desc": "Upon launching an <color=#FFFFFF>[EX Special Attack]</color>, [Basic Attack] DMG increases by <color=#2BAD00>21%</color> for 10s. Repeated triggers reset the duration."
+        "desc": "When an <color=#FFFFFF>[EX Special Attack]</color> is used, [Basic Attack] DMG increases by <color=#2BAD00>21%</color> for 10 seconds; repeated triggers reset the duration."
       },
       "3": {
         "name": "...",
-        "desc": "Upon launching an <color=#FFFFFF>[EX Special Attack]</color>, [Basic Attack] DMG increases by <color=#2BAD00>24%</color> for 10s. Repeated triggers reset the duration."
+        "desc": "When an <color=#FFFFFF>[EX Special Attack]</color> is activated, [Basic Attack] DMG increases by <color=#2BAD00>24%</color> for 10s; repeated triggers reset the duration."
       },
       "4": {
         "name": "...",
-        "desc": "Upon launching an <color=#FFFFFF>[EX Special Attack]</color>, [Basic Attack] DMG increases by <color=#2BAD00>27%</color> for 10s. Repeated triggers reset the duration."
+        "desc": "When an <color=#FFFFFF>[EX Special Attack]</color> is used, [Basic Attack] DMG increases by <color=#2BAD00>27%</color> for 10 seconds; repeated triggers reset the duration."
       },
       "5": {
         "name": "...",
-        "desc": "Upon launching an <color=#FFFFFF>[EX Special Attack]</color>, [Basic Attack] DMG increases by <color=#2BAD00>30%</color> for 10s. Repeated triggers reset the duration."
+        "desc": "When an <color=#FFFFFF>[EX Special Attack]</color> is activated, [Basic Attack] DMG increases by <color=#2BAD00>30%</color> for 10s; repeated triggers reset the duration."
       }
     },
     "liveComparison": {
-      "currentHash": "8860d2483fea20c768c31ca0fdf34dd19e063fa0fcb92608d3499b75beed5305"
+      "currentHash": "abf90e46a259c182bdecdc7a66c0545f99ebc016ef863cfbb65fecf5224058c8"
     }
   },
   {
@@ -17432,7 +17432,7 @@
           {
             "itemId": "101016",
             "quantity": 3,
-            "name": "Item_WeaponBreak_16_name",
+            "name": "Armorer Component",
             "rarity": 1,
             "type": {
               "10": "RESOURCE"
@@ -17461,7 +17461,7 @@
           {
             "itemId": "101026",
             "quantity": 10,
-            "name": "Item_WeaponBreak_26_name",
+            "name": "Reinforced Armorer Component",
             "rarity": 2,
             "type": {
               "10": "RESOURCE"
@@ -17490,7 +17490,7 @@
           {
             "itemId": "101026",
             "quantity": 16,
-            "name": "Item_WeaponBreak_26_name",
+            "name": "Reinforced Armorer Component",
             "rarity": 2,
             "type": {
               "10": "RESOURCE"
@@ -17519,7 +17519,7 @@
           {
             "itemId": "101036",
             "quantity": 8,
-            "name": "Item_WeaponBreak_36_name",
+            "name": "Blasting Armorer Component",
             "rarity": 3,
             "type": {
               "10": "RESOURCE"
@@ -17548,7 +17548,7 @@
           {
             "itemId": "101036",
             "quantity": 16,
-            "name": "Item_WeaponBreak_36_name",
+            "name": "Blasting Armorer Component",
             "rarity": 3,
             "type": {
               "10": "RESOURCE"
@@ -17563,27 +17563,27 @@
     "talents": {
       "1": {
         "name": "...",
-        "desc": "DEF increases by <color=#2BAD00>8%</color>; when casting <color=#FFFFFF>[EX Special Attack]</color>, DEF additionally increases by <color=#2BAD00>8%</color> for 15 sec. Repeated triggers reset the duration."
+        "desc": "DEF increases by <color=#2BAD00>8%</color>; when casting <color=#FFFFFF>[EX Special Attack]</color>, DEF additionally increases by <color=#2BAD00>8%</color> for 40 sec; repeated triggers reset the duration."
       },
       "2": {
         "name": "...",
-        "desc": "DEF increases by <color=#2BAD00>9%</color>; when using <color=#FFFFFF>[EX Special Attack]</color>, DEF additionally increases by <color=#2BAD00>9%</color> for 15 sec. Repeated triggers reset the duration."
+        "desc": "DEF increases by <color=#2BAD00>9%</color>; when casting <color=#FFFFFF>[EX Special Attack]</color>, DEF additionally increases by <color=#2BAD00>9%</color> for 40 sec; repeated triggers reset the duration."
       },
       "3": {
         "name": "...",
-        "desc": "DEF increases by <color=#2BAD00>10%</color>; when using <color=#FFFFFF>[EX Special Attack]</color>, DEF additionally increases by <color=#2BAD00>10%</color> for 15 sec. Repeated triggers reset the duration."
+        "desc": "DEF increases by <color=#2BAD00>10%</color>; when casting <color=#FFFFFF>[EX Special Attack]</color>, DEF additionally increases by <color=#2BAD00>10%</color> for 40 sec. Repeated triggers reset the duration."
       },
       "4": {
         "name": "...",
-        "desc": "DEF increases by <color=#2BAD00>11%</color>; when using <color=#FFFFFF>[EX Special Attack]</color>, DEF additionally increases by <color=#2BAD00>11%</color> for 15 sec. Repeated triggers reset the duration."
+        "desc": "DEF increases by <color=#2BAD00>11%</color>; when casting <color=#FFFFFF>[EX Special Attack]</color>, DEF additionally increases by <color=#2BAD00>11%</color> for 40 sec; repeated triggers reset the duration."
       },
       "5": {
         "name": "...",
-        "desc": "DEF increases by <color=#2BAD00>12%</color>; when using <color=#FFFFFF>[EX Special Attack]</color>, DEF additionally increases by <color=#2BAD00>12%</color> for 15 sec. Repeated triggers reset the duration."
+        "desc": "DEF increases by <color=#2BAD00>12%</color>; when casting <color=#FFFFFF>[EX Special Attack]</color>, DEF additionally increases by <color=#2BAD00>12%</color> for 40 sec; repeated triggers reset the duration."
       }
     },
     "liveComparison": {
-      "currentHash": "8fd570ad03b53fc1d7b7dab0b67611b82ba9d97433555faef56acc3bc5ce2029"
+      "currentHash": "017f29f174dc00c4a17abeb7c9efcb987ec93e296b04a0a6bd05183035a9cdd7"
     }
   },
   {
@@ -19563,7 +19563,7 @@
           {
             "itemId": "101016",
             "quantity": 3,
-            "name": "Item_WeaponBreak_16_name",
+            "name": "Armorer Component",
             "rarity": 1,
             "type": {
               "10": "RESOURCE"
@@ -19592,7 +19592,7 @@
           {
             "itemId": "101026",
             "quantity": 10,
-            "name": "Item_WeaponBreak_26_name",
+            "name": "Reinforced Armorer Component",
             "rarity": 2,
             "type": {
               "10": "RESOURCE"
@@ -19621,7 +19621,7 @@
           {
             "itemId": "101026",
             "quantity": 16,
-            "name": "Item_WeaponBreak_26_name",
+            "name": "Reinforced Armorer Component",
             "rarity": 2,
             "type": {
               "10": "RESOURCE"
@@ -19650,7 +19650,7 @@
           {
             "itemId": "101036",
             "quantity": 8,
-            "name": "Item_WeaponBreak_36_name",
+            "name": "Blasting Armorer Component",
             "rarity": 3,
             "type": {
               "10": "RESOURCE"
@@ -19679,7 +19679,7 @@
           {
             "itemId": "101036",
             "quantity": 16,
-            "name": "Item_WeaponBreak_36_name",
+            "name": "Blasting Armorer Component",
             "rarity": 3,
             "type": {
               "10": "RESOURCE"
@@ -19702,19 +19702,19 @@
       },
       "3": {
         "name": "...",
-        "desc": "When the equipper's CRIT Rate exceeds <color=#2BAD00>100%</color>, every 1% of CRIT Rate above that increases DMG dealt by the equipper by <color=#2BAD00>0.64%</color>, up to a max increase of <color=#2BAD00>32%</color>."
+        "desc": "When the equipper's CRIT Rate exceeds <color=#2BAD00>100%</color>, every 1% of CRIT Rate over the limit increases DMG dealt by the equipper by <color=#2BAD00>0.64%</color>, up to a max of <color=#2BAD00>32%</color>."
       },
       "4": {
         "name": "...",
-        "desc": "When the equipper's CRIT Rate exceeds <color=#2BAD00>100%</color>, every 1% of CRIT Rate above that increases DMG dealt by the equipper by <color=#2BAD00>0.72%</color>, up to a max increase of <color=#2BAD00>36%</color>."
+        "desc": "When the equipper's CRIT Rate exceeds <color=#2BAD00>100%</color>, every 1% of CRIT Rate over the limit increases DMG dealt by the equipper by <color=#2BAD00>0.72%</color>, up to a max of <color=#2BAD00>36%</color>."
       },
       "5": {
         "name": "...",
-        "desc": "When the equipper's CRIT Rate exceeds <color=#2BAD00>100%</color>, every 1% of CRIT Rate above that increases DMG dealt by the equipper by <color=#2BAD00>0.8%</color>, up to a max increase of <color=#2BAD00>40%</color>."
+        "desc": "When the equipper's CRIT Rate exceeds <color=#2BAD00>100%</color>, every 1% of CRIT Rate over the limit increases DMG dealt by the equipper by <color=#2BAD00>0.8%</color>, up to a max of <color=#2BAD00>40%</color>."
       }
     },
     "liveComparison": {
-      "currentHash": "e432a9e49e1e2c4ed5858b547ddda46a4b3fda753506c797029ed3c4987cada9"
+      "currentHash": "8e474f577a2b527f8a0ca9455d63f810962f9cdc8b1d21bdfb9bf2a320e4d28f"
     }
   },
   {
@@ -52608,7 +52608,7 @@
           {
             "itemId": "101016",
             "quantity": 4,
-            "name": "Item_WeaponBreak_16_name",
+            "name": "Armorer Component",
             "rarity": 1,
             "type": {
               "10": "RESOURCE"
@@ -52637,7 +52637,7 @@
           {
             "itemId": "101026",
             "quantity": 12,
-            "name": "Item_WeaponBreak_26_name",
+            "name": "Reinforced Armorer Component",
             "rarity": 2,
             "type": {
               "10": "RESOURCE"
@@ -52666,7 +52666,7 @@
           {
             "itemId": "101026",
             "quantity": 20,
-            "name": "Item_WeaponBreak_26_name",
+            "name": "Reinforced Armorer Component",
             "rarity": 2,
             "type": {
               "10": "RESOURCE"
@@ -52695,7 +52695,7 @@
           {
             "itemId": "101036",
             "quantity": 10,
-            "name": "Item_WeaponBreak_36_name",
+            "name": "Blasting Armorer Component",
             "rarity": 3,
             "type": {
               "10": "RESOURCE"
@@ -52724,7 +52724,7 @@
           {
             "itemId": "101036",
             "quantity": 20,
-            "name": "Item_WeaponBreak_36_name",
+            "name": "Blasting Armorer Component",
             "rarity": 3,
             "type": {
               "10": "RESOURCE"
@@ -52739,27 +52739,27 @@
     "talents": {
       "1": {
         "name": "...",
-        "desc": "The equipper's CRIT Rate increases by 25%; <color=#2EB6FF>Electric DMG</color> increases by 15%; when the equipper launches an <color=#FFFFFF>[EX Special Attack]</color> or triggers <color=#FFFFFF>[Maim]</color>, the <color=#2EB6FF>Electric Sharp DMG</color> dealt increases by 15%, lasting 40s, repeated triggers reset the duration."
+        "desc": "The equipper's CRIT Rate increases by 25%; <color=#2EB6FF>Electric DMG</color> increases by 15%; when the equipper launches an <color=#FFFFFF>[EX Special Attack]</color> or triggers <color=#FFFFFF>[Maim]</color>, the <color=#2EB6FF>Electric Sharp DMG</color> dealt increases by 12%, lasting 40s, repeated triggers reset the duration."
       },
       "2": {
         "name": "...",
-        "desc": "The equipper's CRIT Rate increases by 28.7%; <color=#2EB6FF>Electric DMG</color> increases by 17.5%; when the equipper uses an <color=#FFFFFF>[EX Special Attack]</color> or triggers <color=#FFFFFF>[Maim]</color>, <color=#2EB6FF>Electric Sharp DMG</color> increases by 17%, lasting 40s, repeated triggers reset the duration."
+        "desc": "The equipper's CRIT Rate increases by 27.5%; <color=#2EB6FF>Electric DMG</color> increases by 17.5%; when the equipper launches an <color=#FFFFFF>[EX Special Attack]</color> or triggers <color=#FFFFFF>[Maim]</color>, <color=#2EB6FF>Electric Sharp DMG</color> increases by 14%, lasting 40s, repeated triggers reset the duration."
       },
       "3": {
         "name": "...",
-        "desc": "The equipper's CRIT Rate increases by 32.5%; <color=#2EB6FF>Electric DMG</color> increases by 20%; when the equipper launches an <color=#FFFFFF>[EX Special Attack]</color> or triggers <color=#FFFFFF>[Maim]</color>, <color=#2EB6FF>Electric Sharp DMG</color> dealt increases by 19%, lasting 40s, repeated triggers reset the duration."
+        "desc": "The equipper's CRIT Rate increases by 30%; <color=#2EB6FF>Electric DMG</color> increases by 20%; when the equipper launches an <color=#FFFFFF>[EX Special Attack]</color> or triggers <color=#FFFFFF>[Maim]</color>, <color=#2EB6FF>Electric Sharp DMG</color> dealt increases by 16%, lasting 40s, repeated triggers reset the duration."
       },
       "4": {
         "name": "...",
-        "desc": "The equipper's CRIT Rate increases by 36.2%; <color=#2EB6FF>Electric DMG</color> increases by 22.5%; when the equipper uses an <color=#FFFFFF>[EX Special Attack]</color> or triggers <color=#FFFFFF>[Maim]</color>, <color=#2EB6FF>Electric Sharp DMG</color> increases by 21%, lasting 40s, repeated triggers reset the duration."
+        "desc": "The equipper's CRIT Rate increases by 32.5%; <color=#2EB6FF>Electric DMG</color> increases by 22.5%; When the equipper launches an <color=#FFFFFF>[EX Special Attack]</color> or triggers <color=#FFFFFF>[Maim]</color>, the <color=#2EB6FF>Electric Sharp DMG</color> dealt increases by 18%, lasting 40s, repeated triggers reset the duration."
       },
       "5": {
         "name": "...",
-        "desc": "The equipper's CRIT Rate increases by 40%; <color=#2EB6FF>Electric DMG</color> increases by 25%; When the equipper launches an <color=#FFFFFF>[EX Special Attack]</color> or triggers <color=#FFFFFF>[Maim]</color>, the <color=#2EB6FF>Electric Sharp DMG</color> dealt increases by 23%, lasting 40s, repeated triggers reset the duration."
+        "desc": "The equipper's CRIT Rate increases by 35%; <color=#2EB6FF>Electric DMG</color> increases by 25%; when the equipper launches an <color=#FFFFFF>[EX Special Attack]</color> or triggers <color=#FFFFFF>[Maim]</color>, <color=#2EB6FF>Electric Sharp DMG</color> dealt increases by 20%, lasting 40s, repeated triggers reset the duration."
       }
     },
     "liveComparison": {
-      "currentHash": "1a629525c7ca06ad536029b399752bb56a58e647c8adcff42412e4d3fca7b32f"
+      "currentHash": "d432b27537791f5759e56698b9147d40391f2be22a104c4a8c75c97f418ab23f"
     }
   },
   {
@@ -53271,27 +53271,27 @@
     "talents": {
       "1": {
         "name": "...",
-        "desc": "Increases the equipper's CRIT Rate by <color=#2BAD00>24%</color>. DMG dealt ignores <color=#2BAD00>15%</color> of the target's <color=#A6C5FD>Wind Attribute RES</color>. When the equipper launches an <color=#FFFFFF>[EX Special Attack]</color> that deals <color=#A6C5FD>Wind</color> DMG, Daze inflicted increases by <color=#2BAD00>36%</color>, and DMG dealt by all other members of the squad increases by <color=#2BAD00>20%</color> for 50s. Repeated triggers reset the duration. The DMG increase effect is unique across the whole squad."
+        "desc": "Increases the equipper's CRIT Rate by <color=#2BAD00>24%</color>. DMG dealt ignores <color=#2BAD00>15%</color> of the target's <color=#A6C5FD>Wind Attribute RES</color>. When the equipper launches an <color=#FFFFFF>[EX Special Attack]</color> that deals <color=#A6C5FD>Wind</color> DMG, the Daze inflicted is increased by <color=#2BAD00>24%</color>, and DMG dealt by all other characters in the squad is increased by <color=#2BAD00>20%</color>, lasting 40s. Repeated triggers reset the duration. The DMG increase effect is unique across the whole squad."
       },
       "2": {
         "name": "...",
-        "desc": "Increases the equipper's CRIT Rate by <color=#2BAD00>24%</color>. DMG dealt ignores <color=#2BAD00>17.3%</color> of the target's <color=#A6C5FD>Wind Attribute RES</color>. When the equipper launches an <color=#FFFFFF>[EX Special Attack]</color> that deals <color=#A6C5FD>Wind</color> DMG, the Daze inflicted is increased by <color=#2BAD00>41.4%</color>, and DMG dealt by all other characters in the squad is increased by <color=#2BAD00>23%</color>, lasting 50s. Repeated triggers reset the duration. The DMG boost effect is unique across the whole squad."
+        "desc": "Increases the equipper's CRIT Rate by <color=#2BAD00>26%</color>. DMG dealt ignores <color=#2BAD00>17.3%</color> of the target's <color=#A6C5FD>Wind Attribute RES</color>. When the equipper launches an <color=#FFFFFF>[EX Special Attack]</color> that deals <color=#A6C5FD>Wind</color> DMG, Daze inflicted increases by <color=#2BAD00>27.6%</color>, and DMG dealt by all other characters in the squad increases by <color=#2BAD00>23%</color> for 40s. Repeated triggers reset the duration. The DMG increase effect is unique across the whole squad."
       },
       "3": {
         "name": "...",
-        "desc": "Increases the equipper's CRIT Rate by <color=#2BAD00>24%</color>. DMG dealt ignores <color=#2BAD00>19.5%</color> of the target's <color=#A6C5FD>Wind Attribute RES</color>. When the equipper launches an <color=#FFFFFF>[EX Special Attack]</color> that deals <color=#A6C5FD>Wind</color> DMG, Daze inflicted increases by <color=#2BAD00>46.8%</color>, and DMG dealt by all other members of the squad increases by <color=#2BAD00>26%</color> for 50s. Repeated triggers reset the duration. The DMG increase effect is unique across the whole squad."
+        "desc": "Increases the equipper's CRIT Rate by <color=#2BAD00>28%</color>. DMG dealt ignores <color=#2BAD00>19.5%</color> of the target's <color=#A6C5FD>Wind Attribute RES</color>. When the equipper launches an <color=#FFFFFF>[EX Special Attack]</color> that deals <color=#A6C5FD>Wind</color> DMG, the Daze inflicted increases by <color=#2BAD00>31.2%</color>, and DMG dealt by all other characters in the squad increases by <color=#2BAD00>26%</color> for 40s. Repeated triggers reset the duration. The DMG increase effect is unique across the whole squad."
       },
       "4": {
         "name": "...",
-        "desc": "Increases the equipper's CRIT Rate by <color=#2BAD00>24%</color>. DMG dealt ignores <color=#2BAD00>21.8%</color> of the target's <color=#A6C5FD>Wind Attribute RES</color>. When the equipper launches an <color=#FFFFFF>[EX Special Attack]</color> that deals <color=#A6C5FD>Wind</color> DMG, the Daze inflicted is increased by <color=#2BAD00>52.2%</color>, and DMG dealt by all other characters in the squad is increased by <color=#2BAD00>29%</color>, lasting 50s. Repeated triggers reset the duration. The DMG boost effect is unique across the whole squad."
+        "desc": "Increases the equipper's CRIT Rate by <color=#2BAD00>30%</color>. DMG dealt ignores <color=#2BAD00>21.8%</color> of the target's <color=#A6C5FD>Wind Attribute RES</color>. When the equipper launches an <color=#FFFFFF>[EX Special Attack]</color> that deals <color=#A6C5FD>Wind</color> DMG, the Daze inflicted is increased by <color=#2BAD00>34.8%</color>, and DMG dealt by all other characters in the squad is increased by <color=#2BAD00>29%</color>, lasting 40s. Repeated triggers reset the duration. The DMG increase effect is unique across the whole squad."
       },
       "5": {
         "name": "...",
-        "desc": "Increases the equipper's CRIT Rate by <color=#2BAD00>24%</color>. DMG dealt ignores <color=#2BAD00>24%</color> of the target's <color=#A6C5FD>Wind Attribute RES</color>. When the equipper launches an <color=#FFFFFF>[EX Special Attack]</color> that deals <color=#A6C5FD>Wind</color> DMG, the Daze inflicted is increased by <color=#2BAD00>57.6%</color>, and DMG dealt by all other characters in the squad is increased by <color=#2BAD00>32%</color>, lasting 50s. Repeated triggers reset the duration. The DMG increase effect is unique across the whole squad."
+        "desc": "Increases the equipper's CRIT Rate by <color=#2BAD00>32%</color>. DMG dealt ignores <color=#2BAD00>24%</color> of the target's <color=#A6C5FD>Wind Attribute RES</color>. When the equipper launches an <color=#FFFFFF>[EX Special Attack]</color> that deals <color=#A6C5FD>Wind</color> DMG, Daze inflicted increases by <color=#2BAD00>38.4%</color>, and DMG dealt by all other characters in the squad increases by <color=#2BAD00>32%</color> for 40s. Repeated triggers reset the duration. The DMG increase effect is unique across the whole squad."
       }
     },
     "liveComparison": {
-      "currentHash": "e99f5713e6377067e4a705341ec0454efc7992665d7b427ab0b74577de3a85dc"
+      "currentHash": "6ce7a1ebed2b0130cddc39b16717e5b068031abb9a763a1121321059e8709766"
     }
   }
 ]

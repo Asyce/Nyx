@@ -639,7 +639,7 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/IconDigibooFood.png",
     "rank": 3,
     "class": 1,
-    "name": "Staple Foods"
+    "name": "Food"
   },
   "463": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/IconDigibooSnack.png",
@@ -1110,7 +1110,7 @@
     "name": "Avatar_Female_Size02_Claret"
   },
   "1621": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconRolePiece/UnPacker/IconRolePiece58.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconRolePiece/UnPacker/IconRolePiece68.png",
     "rank": 4,
     "class": 3,
     "name": "Avatar_Female_Size01_Pryce"
@@ -1497,10 +1497,10 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconRolePiece/UnPacker/IconRolePiece69.png",
     "rank": 4,
     "class": 4,
-    "name": "Agent Focus: Claret"
+    "name": "Agent Focus · Claret"
   },
   "5621": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconRolePiece/UnPacker/IconRolePiece58.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconRolePiece/UnPacker/IconRolePiece68.png",
     "rank": 4,
     "class": 4,
     "name": "Avatar_Female_Size01_Pryce_Piece"
@@ -5853,7 +5853,7 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/AvatarRankArmorer01.png",
     "rank": 1,
     "class": 10,
-    "name": "Item_AvatarBreakMaterial_17_name"
+    "name": "Beginner Armorer Certification Seal"
   },
   "100221": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/AvatarRankDamage02.png",
@@ -5895,7 +5895,7 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/AvatarRankArmorer02.png",
     "rank": 2,
     "class": 10,
-    "name": "Item_AvatarBreakMaterial_27_name"
+    "name": "High-Grade Armorer Certification Seal"
   },
   "100231": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/AvatarRankDamage03.png",
@@ -5937,7 +5937,7 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/AvatarRankArmorer03.png",
     "rank": 3,
     "class": 10,
-    "name": "Item_AvatarBreakMaterial_37_name"
+    "name": "Blade Bearer Certification Seal"
   },
   "100941": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/UltimateSkill.png",
@@ -6003,7 +6003,7 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankArmorer01.png",
     "rank": 1,
     "class": 10,
-    "name": "Item_WeaponBreak_16_name"
+    "name": "Armorer Component"
   },
   "101020": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankDamage02.png",
@@ -6045,7 +6045,7 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankArmorer02.png",
     "rank": 2,
     "class": 10,
-    "name": "Item_WeaponBreak_26_name"
+    "name": "Reinforced Armorer Component"
   },
   "101030": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankDamage03.png",
@@ -6087,7 +6087,7 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankArmorer03.png",
     "rank": 3,
     "class": 10,
-    "name": "Item_WeaponBreak_36_name"
+    "name": "Blasting Armorer Component"
   },
   "102010": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/BangbooBreakthrough01.png",
@@ -6214,10 +6214,10 @@
     "boss": true
   },
   "110011": {
-    "icon": "",
+    "icon": "ExBigBoss011",
     "rank": 4,
     "class": 10,
-    "name": "Item_BigBoss011_name",
+    "name": "Forged Away Core",
     "boss": true
   },
   "110501": {
@@ -6326,10 +6326,10 @@
     "boss": true
   },
   "110516": {
-    "icon": "",
+    "icon": "ExSmallBoss016",
     "rank": 3,
     "class": 10,
-    "name": "Item_SmallBoss016_name",
+    "name": "Higher Dimensional Data: Simulated Core",
     "boss": true
   },
   "120001": {
@@ -10575,7 +10575,7 @@
     "name": "Buff for Display"
   },
   "900006": {
-    "icon": "",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/S_EngineFreePick.png",
     "rank": 4,
     "class": 29,
     "name": "Item_Weapon_Choose_Show"
@@ -13278,7 +13278,7 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardRuin.png",
     "rank": 3,
     "class": 31,
-    "name": "TarotCard_1006002_name"
+    "name": "[Armorer] Unstoppable Edge"
   },
   "1010101": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardBurn12.png",
@@ -18782,6 +18782,42 @@
     "class": 80,
     "name": "[Sigrid] Dancing Spearhead"
   },
+  "1350311": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic107.png",
+    "rank": 4,
+    "class": 80,
+    "name": "[Claret] Riftforge Onslaught"
+  },
+  "1350312": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic108.png",
+    "rank": 4,
+    "class": 80,
+    "name": "[Claret] Crimson-Eyed Bat Shadow"
+  },
+  "1350313": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic109.png",
+    "rank": 4,
+    "class": 80,
+    "name": "[Claret] Scarlet Fever Night"
+  },
+  "1350321": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic110.png",
+    "rank": 4,
+    "class": 80,
+    "name": "[Roxy] Lead-Forged Mastery"
+  },
+  "1350322": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic111.png",
+    "rank": 4,
+    "class": 80,
+    "name": "[Roxy] Eternal Night's Slumber"
+  },
+  "1350323": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic112.png",
+    "rank": 4,
+    "class": 80,
+    "name": "[Roxy] Lantern Night Wanderer"
+  },
   "1351001": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Activity/Ver1_7/Flower/UnPacker/SLot1_1.png",
     "rank": 1,
@@ -20706,13 +20742,13 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/IconWallpaperPiece12.png",
     "rank": 4,
     "class": 109,
-    "name": "\"3.2BP\" Theme"
+    "name": "Sidebar_Decoration_Item_1359025"
   },
   "1359026": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/IconPendantPiece12.png",
     "rank": 4,
     "class": 110,
-    "name": "\"3.2BP\" Pendant"
+    "name": "Sidebar_Decoration_Item_1359026"
   },
   "1360001": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/RiduBoo/RiduBooItemIcon/UnPacker/ActivityMarcelRemake_BangbooSkinVoucher.png",
@@ -24309,7 +24345,7 @@
     "name": "Dynamic Wallpaper: {0}"
   },
   "3510058": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconRoleTrust/UnPacker/LiveWallpaper61.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconRoleTrust/UnPacker/LiveWallpaper63.png",
     "rank": 4,
     "class": 67,
     "name": "Dynamic Wallpaper: {0}"
@@ -25646,6 +25682,12 @@
     "class": 77,
     "name": "Title \"{0}\""
   },
+  "3800246": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/TitleIcon.png",
+    "rank": 4,
+    "class": 77,
+    "name": "Title \"{0}\""
+  },
   "3900001": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBangbooPiece/UnPacker/IconBangbooDefenseUnknown.png",
     "rank": 3,
@@ -26389,6 +26431,12 @@
     "rank": 3,
     "class": 72,
     "name": "MessageItem_4000213_name"
+  },
+  "4000214": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/PoliceOfficerLetter07.png",
+    "rank": 3,
+    "class": 72,
+    "name": "MessageItem_4000214_name"
   },
   "4100001": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardBangbooObservaboo.png",
@@ -29634,7 +29682,7 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponB_006.png",
     "rank": 2,
     "class": 132,
-    "name": "Blasting Gear: Defense (Discarded)"
+    "name": "[Fragile] Advanced Gear · Armorer-Lv.20"
   },
   "4320111": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponB_001.png",
@@ -29676,7 +29724,7 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponB_006.png",
     "rank": 2,
     "class": 132,
-    "name": "ZKItem_4320117_Name"
+    "name": "[Fragile] Advanced Gear: Armorer-Lv.30"
   },
   "4320120": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponB_007.png",
@@ -29724,7 +29772,7 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponA_006.png",
     "rank": 3,
     "class": 132,
-    "name": "Specialized Gear: Attack - Modified - Lv. 30"
+    "name": "[Fragile] Blasting Gear·Armorer-Lv.30"
   },
   "4320131": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponA_001.png",
@@ -29766,7 +29814,7 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponA_006.png",
     "rank": 3,
     "class": 132,
-    "name": "Specialized Gear - Attack: Modified - Lv. 40"
+    "name": "[Fragile] Blasting Gear: Armorer-Lv.40"
   },
   "4320150": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponB_007.png",
@@ -29832,7 +29880,7 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_009.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4320160_Name"
+    "name": "[Fragile] High-Grade Gear: Armorer-Lv.40"
   },
   "4320171": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_001.png",
@@ -29892,7 +29940,7 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_009.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4320180_Name"
+    "name": "[Fragile] High-Grade Gear: Armorer-Lv.50"
   },
   "4320271": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponZ_001.png",
@@ -29952,7 +30000,7 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponZ_009.png",
     "rank": 5,
     "class": 132,
-    "name": "ZKItem_4320280_Name"
+    "name": "Legendary Gear·Armorer-Lv.60"
   },
   "4321001": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_008.png",
@@ -30084,19 +30132,19 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4321022_Name"
+    "name": "[Fragile][Yanagi] Ruten Reflector-Lv.50"
   },
   "4321023": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4321023_Name"
+    "name": "[Vulnerable][Claret]-Lv.50"
   },
   "4321024": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4321024_Name"
+    "name": "[Vulnerable][Roxy]-Lv.50"
   },
   "4322001": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_008.png",
@@ -30228,19 +30276,19 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002.png",
     "rank": 5,
     "class": 132,
-    "name": "ZKItem_4322022_Name"
+    "name": "[Yanagi]Ruten Mirror-Lv.60"
   },
   "4322023": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002.png",
     "rank": 5,
     "class": 132,
-    "name": "ZKItem_4322023_Name"
+    "name": "[Claret]-Lv.60"
   },
   "4322024": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002.png",
     "rank": 5,
     "class": 132,
-    "name": "ZKItem_4322024_Name"
+    "name": "[Roxy]-Lv.60"
   },
   "4323101": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponC_001.png",
@@ -30306,7 +30354,7 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponB_006.png",
     "rank": 2,
     "class": 132,
-    "name": "ZKItem_4323111_Name"
+    "name": "[Fragile] Advanced Gear · Armorer-Lv.25"
   },
   "4323121": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponA_001.png",
@@ -30348,7 +30396,7 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponA_006.png",
     "rank": 3,
     "class": 132,
-    "name": "ZKItem_4323127_Name"
+    "name": "[Fragile] Blasting Gear: Armorer-Lv.35"
   },
   "4323151": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_001.png",
@@ -30408,7 +30456,7 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_009.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4323160_Name"
+    "name": "[Fragile] High-Grade Gear: Armorer-Lv.45"
   },
   "4325201": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponB_001.png",
@@ -30450,7 +30498,7 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponB_006.png",
     "rank": 2,
     "class": 132,
-    "name": "ZKItem_4325207_Name"
+    "name": "Advanced Gear·Armorer-Lv.20"
   },
   "4325301": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponA_001.png",
@@ -30492,7 +30540,7 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponA_006.png",
     "rank": 3,
     "class": 132,
-    "name": "ZKItem_4325307_Name"
+    "name": "Blasting Gear·Armorer-Lv.30"
   },
   "4325401": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_001.png",
@@ -30552,7 +30600,7 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_009.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4325410_Name"
+    "name": "High-Grade Gear·Armorer-Lv.40"
   },
   "4325501": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_001.png",
@@ -30612,7 +30660,7 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_009.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4325510_Name"
+    "name": "High-Grade Gear·Armorer-Lv.50"
   },
   "4326001": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_008.png",
@@ -30744,19 +30792,19 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4326022_Name"
+    "name": "[Yanagi]Ruten Mirror-Lv.50"
   },
   "4326023": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4326023_Name"
+    "name": "[Claret]-Lv.50"
   },
   "4326024": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4326024_Name"
+    "name": "[Roxy]-Lv.50"
   },
   "4331001": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_EquipErosion_001.png",
@@ -31482,7 +31530,7 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_008_Blueprint.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4350220_Name"
+    "name": "[Blueprint] High-Grade Gear · Armorer-Lv.40"
   },
   "4350221": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_001_Blueprint.png",
@@ -31542,7 +31590,7 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_008_Blueprint.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4350230_Name"
+    "name": "[Blueprint] High-Grade Gear · Armorer-Lv.50"
   },
   "4350231": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponZ_001_Blueprint.png",
@@ -31602,7 +31650,7 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponZ_009_Blueprint.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4350240_Name"
+    "name": "[Blueprint] Legendary Gear · Armorer-Lv.60"
   },
   "4350301": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_008_Blueprint.png",
@@ -31734,19 +31782,19 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002_Blueprint.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4350322_Name"
+    "name": "[Blueprint][Yanagi] Ruten Reflector-Lv.50"
   },
   "4350323": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002_Blueprint.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4350323_Name"
+    "name": "[Blueprint][Claret]-Lv.50"
   },
   "4350324": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002_Blueprint.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4350324_Name"
+    "name": "[Blueprint][Roxy]-Lv.50"
   },
   "4350501": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_008_Blueprint.png",
@@ -31878,19 +31926,19 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002_Blueprint.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4350522_Name"
+    "name": "[Blueprint][Yanagi] Ruten Reflection - Lv.60"
   },
   "4350523": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002_Blueprint.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4350523_Name"
+    "name": "[Blueprint][Claret]-Lv.60"
   },
   "4350524": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002_Blueprint.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4350524_Name"
+    "name": "[Blueprint][Roxy]-Lv.60"
   },
   "4360001": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_001.png",
@@ -32167,6 +32215,12 @@
     "rank": 3,
     "class": 130,
     "name": "Hematite Shard"
+  },
+  "4360047": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_CollectionA_005.png",
+    "rank": 5,
+    "class": 130,
+    "name": "ZKItem_4360047_Name"
   },
   "4360084": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_022.png",
@@ -32841,16 +32895,16 @@
     "name": "Item_SummerTideTreasure_019"
   },
   "4390000": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/Activity_RunLetter01.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/IconDigibooLKX.png",
     "rank": 3,
     "class": 144,
-    "name": "Commemoration Item A"
+    "name": "Naturalist's Commemoration Medal"
   },
   "4390001": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/Activity_RunLetter03.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/IconDigibooFON.png",
     "rank": 3,
     "class": 144,
-    "name": "Commemoration Item B"
+    "name": "Flight Feather Agent's Commemoration Medal"
   },
   "10007030": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardBlunt09.png",

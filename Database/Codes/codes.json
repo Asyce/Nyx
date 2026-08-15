@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T16:14:03.055Z",
+  "generatedAt": "2026-08-15T20:13:06.168Z",
   "maxAgeDays": 28,
   "games": [
     {
@@ -9,7 +9,7 @@
       "redeemBase": "https://genshin.hoyoverse.com/en/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/GI/codes/",
-      "lastSuccessfulFetch": "2026-08-15T16:13:37.155Z",
+      "lastSuccessfulFetch": "2026-08-15T20:12:25.870Z",
       "codes": [
         {
           "code": "GS70XRNWFB",
@@ -149,8 +149,21 @@
       "redeemBase": "https://hsr.hoyoverse.com/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/HSR/codes/",
-      "lastSuccessfulFetch": "2026-08-15T16:14:03.055Z",
+      "lastSuccessfulFetch": "2026-08-15T20:13:06.168Z",
       "codes": [
+        {
+          "code": "NSJR3B97ZZ5X",
+          "rewards": "50 Stellar Jade, 10000 Credit",
+          "added": "2026-08-15",
+          "sourceUrl": "https://www.crimsonwitch.com/codes/Honkai_Star_Rail",
+          "regionLocked": null,
+          "expires": null,
+          "variants": [],
+          "premium": true,
+          "premium100": false,
+          "cwSeen": true,
+          "firstSeen": "2026-08-15T20:13:06.168Z"
+        },
         {
           "code": "2TKRKAR6YG2K",
           "rewards": "100 Stellar Jade and 50k Credits",
@@ -160,6 +173,26 @@
           "premium100": true,
           "cwSeen": false,
           "firstSeen": "2026-08-14T21:17:21.162Z"
+        },
+        {
+          "code": "LSJ9JARPZH33",
+          "rewards": "100 Stellar Jade and Five Traveler S Guides",
+          "added": "2026-08-14",
+          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=LSJ9JARPZH33",
+          "premium": true,
+          "premium100": true,
+          "cwSeen": false,
+          "firstSeen": "2026-08-15T20:13:06.168Z"
+        },
+        {
+          "code": "YAJQ2TR6ZY2P",
+          "rewards": "100 Stellar Jade and Four Refined Aether",
+          "added": "2026-08-14",
+          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=YAJQ2TR6ZY2P",
+          "premium": true,
+          "premium100": true,
+          "cwSeen": false,
+          "firstSeen": "2026-08-15T20:13:06.168Z"
         },
         {
           "code": "4TKSX77Y58QK",
@@ -288,7 +321,7 @@
       "redeemBase": "https://zenless.hoyoverse.com/redemption?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/ZZZ/codes/",
-      "lastSuccessfulFetch": "2026-08-15T16:13:37.170Z",
+      "lastSuccessfulFetch": "2026-08-15T20:12:26.181Z",
       "codes": [
         {
           "code": "ZENLESSGIFT",
@@ -340,7 +373,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Terminal > Settings > Other Settings > Redemption Code",
       "sourceUrl": "https://nexus-codes.app/games/WUWA/codes/",
-      "lastSuccessfulFetch": "2026-08-15T16:13:36.814Z",
+      "lastSuccessfulFetch": "2026-08-15T20:12:25.855Z",
       "codes": [
         {
           "code": "ETERNALFLAME",
@@ -394,7 +427,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Settings > Account > Exchange Code",
       "sourceUrl": "https://nexus-codes.app/games/ARKEN/codes/",
-      "lastSuccessfulFetch": "2026-08-15T16:13:36.847Z",
+      "lastSuccessfulFetch": "2026-08-15T20:12:25.893Z",
       "codes": [
         {
           "code": "ENDFIELDRENEW",

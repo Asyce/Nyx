@@ -4,12 +4,26 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-08-16T13:25:45.407Z",
+  "generatedAt": "2026-08-16T15:13:28.990Z",
   "codes": {
-    "updated": "2026-08-16T13:25:25.054Z",
+    "updated": "2026-08-16T15:13:08.563Z",
     "maxAgeDays": 28,
     "games": {
       "gi": [
+        {
+          "code": "BALLETCOLLAB",
+          "reward": "30 Primogem, 10000 Mora, 3 Hero's Wit, 3 Mystic Enhancement Ore",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Primogems",
+            "needle": "primogem",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
+          },
+          "added": "2026-08-16",
+          "firstSeen": "2026-08-16T13:24:44.154Z",
+          "sourceUrl": "https://www.crimsonwitch.com/codes/Genshin_Impact",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=BALLETCOLLAB"
+        },
         {
           "code": "GS70XRNWFB",
           "reward": "30000 Mora, 3 Hero S Wit, 5 Fine Enhancement Ore",
@@ -5663,6 +5677,20 @@ var NYX_DB = {
         }
       ],
       "codes": [
+        {
+          "code": "BALLETCOLLAB",
+          "reward": "30 Primogem, 10000 Mora, 3 Hero's Wit, 3 Mystic Enhancement Ore",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Primogems",
+            "needle": "primogem",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
+          },
+          "added": "2026-08-16",
+          "firstSeen": "2026-08-16T13:24:44.154Z",
+          "sourceUrl": "https://www.crimsonwitch.com/codes/Genshin_Impact",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=BALLETCOLLAB"
+        },
         {
           "code": "GS70XRNWFB",
           "reward": "30000 Mora, 3 Hero S Wit, 5 Fine Enhancement Ore",

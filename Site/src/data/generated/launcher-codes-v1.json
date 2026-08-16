@@ -1,8 +1,14 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-16T13:25:25.054Z",
+  "generatedAt": "2026-08-16T15:13:08.563Z",
   "games": {
     "gi": [
+      {
+        "code": "BALLETCOLLAB",
+        "added": "2026-08-16",
+        "amount": 30,
+        "currency": "Primogems"
+      },
       {
         "code": "MYSNEZHNAYACAREER",
         "added": "2026-08-13",
@@ -23,12 +29,6 @@
       },
       {
         "code": "Everwinter",
-        "added": "2026-07-31",
-        "amount": 100,
-        "currency": "Primogems"
-      },
-      {
-        "code": "OntoSnezhnaya",
         "added": "2026-07-31",
         "amount": 100,
         "currency": "Primogems"
@@ -115,5 +115,5 @@
       }
     ]
   },
-  "revision": "5465ea90405db313e3e127bf0b101e4c1e524ce631bf059443c3272a04208a7f"
+  "revision": "7fa26ddf3663f62052e5ef88e649e9f0a62900f77fa9cd2e14c9d510b6b04408"
 }

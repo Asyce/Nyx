@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T13:25:25.054Z",
+  "generatedAt": "2026-08-16T15:13:08.563Z",
   "maxAgeDays": 28,
   "games": [
     {
@@ -9,17 +9,19 @@
       "redeemBase": "https://genshin.hoyoverse.com/en/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/GI/codes/",
-      "lastSuccessfulFetch": "2026-08-16T13:24:44.154Z",
+      "lastSuccessfulFetch": "2026-08-16T15:12:28.522Z",
       "codes": [
         {
           "code": "BALLETCOLLAB",
-          "rewards": "",
+          "rewards": "30 Primogem, 10000 Mora, 3 Hero's Wit, 3 Mystic Enhancement Ore",
           "added": "2026-08-16",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=BALLETCOLLAB",
-          "hoyoVerified": true,
-          "premium": false,
+          "sourceUrl": "https://www.crimsonwitch.com/codes/Genshin_Impact",
+          "regionLocked": null,
+          "expires": null,
+          "variants": [],
+          "premium": true,
           "premium100": false,
-          "cwSeen": false,
+          "cwSeen": true,
           "firstSeen": "2026-08-16T13:24:44.154Z"
         },
         {
@@ -149,7 +151,7 @@
       "redeemBase": "https://hsr.hoyoverse.com/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/HSR/codes/",
-      "lastSuccessfulFetch": "2026-08-16T13:25:25.054Z",
+      "lastSuccessfulFetch": "2026-08-16T15:13:08.563Z",
       "codes": [
         {
           "code": "NSJR3B97ZZ5X",
@@ -321,7 +323,7 @@
       "redeemBase": "https://zenless.hoyoverse.com/redemption?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/ZZZ/codes/",
-      "lastSuccessfulFetch": "2026-08-16T13:24:44.157Z",
+      "lastSuccessfulFetch": "2026-08-16T15:12:28.803Z",
       "codes": [
         {
           "code": "ZENLESSGIFT",
@@ -373,7 +375,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Terminal > Settings > Other Settings > Redemption Code",
       "sourceUrl": "https://nexus-codes.app/games/WUWA/codes/",
-      "lastSuccessfulFetch": "2026-08-16T13:24:43.782Z",
+      "lastSuccessfulFetch": "2026-08-16T15:12:28.485Z",
       "codes": [
         {
           "code": "ETERNALFLAME",
@@ -427,7 +429,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Settings > Account > Exchange Code",
       "sourceUrl": "https://nexus-codes.app/games/ARKEN/codes/",
-      "lastSuccessfulFetch": "2026-08-16T13:24:43.795Z",
+      "lastSuccessfulFetch": "2026-08-16T15:12:28.529Z",
       "codes": [
         {
           "code": "ENDFIELDRENEW",

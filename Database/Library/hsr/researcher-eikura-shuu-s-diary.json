@@ -3,8 +3,9 @@
   "game": "hsr",
   "id": "researcher-eikura-shuu-s-diary",
   "name": "Researcher Eikura Shuu's Diary",
+  "sortId": 3066,
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Researcher_Eikura_Shuu%27s_Diary",
-  "scrapedAt": "2026-08-12T08:09:31.284Z",
+  "scrapedAt": "2026-08-16T07:24:06.474Z",
   "volumes": [
     {
       "id": "1",

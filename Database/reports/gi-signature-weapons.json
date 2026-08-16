@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-12T08:08:20.059Z",
-  "startedAt": "2026-08-12T08:07:41.720Z",
+  "generatedAt": "2026-08-16T07:22:48.658Z",
+  "startedAt": "2026-08-16T07:21:49.421Z",
   "dryRun": false,
   "source": "GameWith character build pages + web consensus fallback",
   "sourcePage": "https://gamewith.net/genshin-impact/article/show/22357",
@@ -15,6 +15,18 @@
       "name": "Alyosha",
       "rarity": 4,
       "weaponType": "Polearm",
+      "channel": "beta"
+    },
+    {
+      "name": "Vesna",
+      "rarity": 5,
+      "weaponType": "Sword",
+      "channel": "beta"
+    },
+    {
+      "name": "Vodyanitsa",
+      "rarity": 5,
+      "weaponType": "Catalyst",
       "channel": "beta"
     }
   ],
@@ -35,24 +47,10 @@
         {
           "weaponId": "13509",
           "weaponName": "Engulfing Lightning",
-          "sourceCount": 2,
-          "signatureSourceCount": 1,
-          "score": 3,
+          "sourceCount": 1,
+          "signatureSourceCount": 0,
+          "score": 1,
           "sources": [
-            {
-              "character": "Alyosha",
-              "weaponId": "13509",
-              "weaponName": "Engulfing Lightning",
-              "matchedAlias": "Engulfing Lightning",
-              "kind": "signature",
-              "strength": 2,
-              "matchedText": "start, you'll want to find a good polearm weapon for Alyosha to employ during combat. As a 4-star unit, he does not have a signature 5-star weapon, but the best option for him is Engulfing Lightning, Raiden Shogun's signature polearm. This weapon gives the user Energy Recharge, which Alyosha will need because of how important his Burst is to his rotation. F",
-              "title": "Genshin Impact: Alyosha Character Builds (Weapons, Artifacts, Team ...",
-              "url": "https://screenrant.com/genshin-impact-alyosha-builds-weapons-artifacts-team-comps/",
-              "domain": "screenrant.com",
-              "query": "Alyosha Genshin Impact signature weapon",
-              "searchProvider": "bing-rss"
-            },
             {
               "character": "Alyosha",
               "weaponId": "13509",
@@ -64,6 +62,29 @@
               "title": "Alyosha Guide and Best Builds - Genshin Impact - Icy Veins",
               "url": "https://www.icy-veins.com/genshin-impact/alyosha-guide-best-builds",
               "domain": "icy-veins.com",
+              "query": "Alyosha Genshin Impact signature weapon",
+              "searchProvider": "bing-rss"
+            }
+          ]
+        },
+        {
+          "weaponId": "13432",
+          "weaponName": "Tamayuratei no Ohanashi",
+          "sourceCount": 1,
+          "signatureSourceCount": 0,
+          "score": 1,
+          "sources": [
+            {
+              "character": "Alyosha",
+              "weaponId": "13432",
+              "weaponName": "Tamayuratei no Ohanashi",
+              "matchedAlias": "Tamayuratei no Ohanashi",
+              "kind": "best-weapon",
+              "strength": 1,
+              "matchedText": "portive or utility weapons like Symphonist or Favonius Lance are still viable premium options.Free-to-Play Friendly (F2P Weapons) for AlyoshaWeaponHow to GetRatingBest F2P (Event) Tamayuratei No OhanashiReward From Past Event (Enchanted Tales of the Mikawa Festival)- Similar to Engulfing Lightning, this is a weapon that grants ER (via the main-stat) and ATK",
+              "title": "Alyosha Best Build Guide - GameWith",
+              "url": "https://gamewith.net/genshin-impact/article/show/76471",
+              "domain": "gamewith.net",
               "query": "Alyosha Genshin Impact signature weapon",
               "searchProvider": "bing-rss"
             }
@@ -132,32 +153,24 @@
           "matchedText": "w are Alyosha's best weapons. Alyosha mainly wants Energy Recharge to use his Elemental Burst every rotation, while also benefiting from ATK due to his healing and damage scaling. Engulfing Lightning R1 Timeless Dream: Eternal Stove Base ATK: 608 Energy Recharge: 55.1% ATK increased by 28% / 35% / 42% / 49% / 56% of Energy Recharge over the base 100%. You ca"
         },
         {
-          "title": "Genshin Impact Alyosha Best Build Guide - Game Rant",
-          "url": "https://gamerant.com/genshin-impact-gi-alyosha-build-best-artifact-weapon-constellation/",
-          "domain": "gamerant.com",
+          "title": "Alyosha Best Team Compositions and Character Synergies",
+          "url": "https://www.icy-veins.com/genshin-impact/alyosha-team-guide",
+          "domain": "icy-veins.com",
           "query": "Alyosha Genshin Impact signature weapon",
           "searchProvider": "bing-rss",
           "status": "no-match"
         },
         {
-          "title": "Genshin Impact: Alyosha Character Builds (Weapons, Artifacts, Team ...",
-          "url": "https://screenrant.com/genshin-impact-alyosha-builds-weapons-artifacts-team-comps/",
-          "domain": "screenrant.com",
+          "title": "Alyosha Best Build Guide - GameWith",
+          "url": "https://gamewith.net/genshin-impact/article/show/76471",
+          "domain": "gamewith.net",
           "query": "Alyosha Genshin Impact signature weapon",
           "searchProvider": "bing-rss",
           "status": "matched",
-          "weaponId": "13509",
-          "weaponName": "Engulfing Lightning",
-          "kind": "signature",
-          "matchedText": "start, you'll want to find a good polearm weapon for Alyosha to employ during combat. As a 4-star unit, he does not have a signature 5-star weapon, but the best option for him is Engulfing Lightning, Raiden Shogun's signature polearm. This weapon gives the user Energy Recharge, which Alyosha will need because of how important his Burst is to his rotation. F"
-        },
-        {
-          "title": "Alyosha Guide - Best Weapons, Artifacts, and Team Comps",
-          "url": "https://www.ign.com/wikis/genshin-impact/Alyosha_Guide_-_Best_Weapons,_Artifacts,_and_Team_Comps",
-          "domain": "ign.com",
-          "query": "Alyosha Genshin Impact signature weapon",
-          "searchProvider": "bing-rss",
-          "status": "no-match"
+          "weaponId": "13432",
+          "weaponName": "Tamayuratei no Ohanashi",
+          "kind": "best-weapon",
+          "matchedText": "portive or utility weapons like Symphonist or Favonius Lance are still viable premium options.Free-to-Play Friendly (F2P Weapons) for AlyoshaWeaponHow to GetRatingBest F2P (Event) Tamayuratei No OhanashiReward From Past Event (Enchanted Tales of the Mikawa Festival)- Similar to Engulfing Lightning, this is a weapon that grants ER (via the main-stat) and ATK"
         }
       ],
       "consensusSearchQueries": [
@@ -166,13 +179,255 @@
         "Alyosha Genshin Impact Polearm signature"
       ],
       "consensusSearchErrors": []
+    },
+    {
+      "character": "Vesna",
+      "status": "no-explicit-signature-phrase",
+      "characterPage": "https://gamewith.net/genshin-impact/article/show/76472",
+      "consensusStatus": "no-consensus-signature",
+      "consensusCandidates": [
+        {
+          "weaponId": "11436",
+          "weaponName": "Emberwell",
+          "sourceCount": 1,
+          "signatureSourceCount": 1,
+          "score": 2,
+          "sources": [
+            {
+              "character": "Vesna",
+              "weaponId": "11436",
+              "weaponName": "Emberwell",
+              "matchedAlias": "Emberwell",
+              "kind": "signature",
+              "strength": 2,
+              "matchedText": "nded Talent Priority Recommended Rotation What is the Best Weapon for Vesna? Best-in-Slot: Unnamed Signature Sword Best 5-Star Alternative: Primordial Jade Cutter Best F2P Option: Emberwell Alternative Craftable: Finale of the Deep Which Gear and Stats Maximize Vesna's Damage? Best Artifact Set: Scarlet Proof Alternative: Viridescent Venerer Best Main Stats",
+              "title": "Vesna Build Guide: Best Weapons, Gear, Teams, and Rotation | Genshin ...",
+              "url": "https://buffhub.com/blog/genshin-impact/genshin-impact-vesna-build-guide.html",
+              "domain": "buffhub.com",
+              "query": "Vesna Genshin Impact signature weapon",
+              "searchProvider": "bing-rss"
+            }
+          ]
+        }
+      ],
+      "consensusSources": [
+        {
+          "title": "Vesna Genshin Impact kit",
+          "url": "https://www.u7buy.com/blog/genshin-impact-vesna-kit/",
+          "domain": "u7buy.com",
+          "query": "source-template",
+          "searchProvider": "source-template",
+          "status": "no-match"
+        },
+        {
+          "title": "Vesna Genshin Impact materials",
+          "url": "https://www.u7buy.com/blog/genshin-impact-vesna-materials/",
+          "domain": "u7buy.com",
+          "query": "source-template",
+          "searchProvider": "source-template",
+          "status": "no-match"
+        },
+        {
+          "title": "Vesna Genshin Impact leaks",
+          "url": "https://www.enjoygm.com/blog/genshin-impact/vesna-leaks",
+          "domain": "enjoygm.com",
+          "query": "source-template",
+          "searchProvider": "source-template",
+          "status": "no-match"
+        },
+        {
+          "title": "Vesna Genshin Impact leak build guide",
+          "url": "https://www.topuplive.com/news/genshin-impact-vesna-leaks.html",
+          "domain": "topuplive.com",
+          "query": "source-template",
+          "searchProvider": "source-template",
+          "status": "no-match"
+        },
+        {
+          "title": "Vesna Genshin Impact kit and constellations",
+          "url": "https://beebom.com/genshin-impact-vesna-kit-constellations/",
+          "domain": "beebom.com",
+          "query": "source-template",
+          "searchProvider": "source-template",
+          "status": "no-match"
+        },
+        {
+          "title": "Vesna Build Guide: Best Weapons, Gear, Teams, and Rotation | Genshin ...",
+          "url": "https://buffhub.com/blog/genshin-impact/genshin-impact-vesna-build-guide.html",
+          "domain": "buffhub.com",
+          "query": "Vesna Genshin Impact signature weapon",
+          "searchProvider": "bing-rss",
+          "status": "matched",
+          "weaponId": "11436",
+          "weaponName": "Emberwell",
+          "kind": "signature",
+          "matchedText": "nded Talent Priority Recommended Rotation What is the Best Weapon for Vesna? Best-in-Slot: Unnamed Signature Sword Best 5-Star Alternative: Primordial Jade Cutter Best F2P Option: Emberwell Alternative Craftable: Finale of the Deep Which Gear and Stats Maximize Vesna's Damage? Best Artifact Set: Scarlet Proof Alternative: Viridescent Venerer Best Main Stats"
+        },
+        {
+          "title": "Genshin 7.1 Banners - Vodyanitsa and Vesna leaks and release date",
+          "url": "https://www.u7buy.com/blog/genshin-impact-7-1-banners/",
+          "domain": "u7buy.com",
+          "query": "Vesna Genshin Impact signature weapon",
+          "searchProvider": "bing-rss",
+          "status": "no-match"
+        }
+      ],
+      "consensusSearchQueries": [
+        "Vesna Genshin Impact signature weapon",
+        "Vesna Genshin Impact best weapon signature",
+        "Vesna Genshin Impact Sword signature",
+        "Vesna Genshin Impact Weapon: Sword",
+        "Vesna Genshin Impact Weapon: Sword signature"
+      ],
+      "consensusSearchErrors": []
+    },
+    {
+      "character": "Vodyanitsa",
+      "status": "no-explicit-signature-phrase",
+      "characterPage": "https://gamewith.net/genshin-impact/article/show/73767",
+      "consensusStatus": "no-consensus-signature",
+      "consensusCandidates": [
+        {
+          "weaponId": "14406",
+          "weaponName": "Prototype Amber",
+          "sourceCount": 1,
+          "signatureSourceCount": 1,
+          "score": 2,
+          "sources": [
+            {
+              "character": "Vodyanitsa",
+              "weaponId": "14406",
+              "weaponName": "Prototype Amber",
+              "matchedAlias": "Prototype Amber",
+              "kind": "signature",
+              "strength": 2,
+              "matchedText": "tal Burst: Aria of the Water Imp Recommended Talent Priority Recommended Rotation What is the Best Weapon for Vodyanitsa? Best-in-Slot: Unnamed Signature Catalyst Best F2P Option: Prototype Amber Best Budget Support Option: Thrilling Tales of Dragon Slayers Which Gear and Stats Maximize Vodyanitsa's Support? Best Pre-Release Placeholder: Tenacity of the Mill",
+              "title": "Vodyanitsa Build Guide: Best Weapons, Gear, Teams, and Rotation ...",
+              "url": "https://buffhub.com/blog/genshin-impact/genshin-impact-vodyanitsa-build-guide.html",
+              "domain": "buffhub.com",
+              "query": "Vodyanitsa Genshin Impact signature weapon",
+              "searchProvider": "bing-rss"
+            }
+          ]
+        }
+      ],
+      "consensusSources": [
+        {
+          "title": "Vodyanitsa Genshin Impact kit",
+          "url": "https://www.u7buy.com/blog/genshin-impact-vodyanitsa-kit/",
+          "domain": "u7buy.com",
+          "query": "source-template",
+          "searchProvider": "source-template",
+          "status": "no-match"
+        },
+        {
+          "title": "Vodyanitsa Genshin Impact materials",
+          "url": "https://www.u7buy.com/blog/genshin-impact-vodyanitsa-materials/",
+          "domain": "u7buy.com",
+          "query": "source-template",
+          "searchProvider": "source-template",
+          "status": "no-match"
+        },
+        {
+          "title": "Vodyanitsa Genshin Impact leaks",
+          "url": "https://www.enjoygm.com/blog/genshin-impact/vodyanitsa-leaks",
+          "domain": "enjoygm.com",
+          "query": "source-template",
+          "searchProvider": "source-template",
+          "status": "no-match"
+        },
+        {
+          "title": "Vodyanitsa Genshin Impact leak build guide",
+          "url": "https://www.topuplive.com/news/genshin-impact-vodyanitsa-leaks.html",
+          "domain": "topuplive.com",
+          "query": "source-template",
+          "searchProvider": "source-template",
+          "status": "no-match"
+        },
+        {
+          "title": "Vodyanitsa Genshin Impact kit and constellations",
+          "url": "https://beebom.com/genshin-impact-vodyanitsa-kit-constellations/",
+          "domain": "beebom.com",
+          "query": "source-template",
+          "searchProvider": "source-template",
+          "status": "no-match"
+        },
+        {
+          "title": "Genshin Impact | Vodyanitsa - Release Date & Who Is?",
+          "url": "https://gamewith.net/genshin-impact/article/show/73767",
+          "domain": "gamewith.net",
+          "query": "Vodyanitsa Genshin Impact signature weapon",
+          "searchProvider": "bing-rss",
+          "status": "no-match"
+        },
+        {
+          "title": "Genshin Impact Vodyanitsa: Leaked Kit and Stellar Swirl Support Role",
+          "url": "https://allthings.how/genshin-impact-vodyanitsa-leaked-kit-and-stellar-swirl-support-role/",
+          "domain": "allthings.how",
+          "query": "Vodyanitsa Genshin Impact signature weapon",
+          "searchProvider": "bing-rss",
+          "status": "no-match"
+        },
+        {
+          "title": "Vodyanitsa Build Guide: Best Weapons, Gear, Teams, and Rotation ...",
+          "url": "https://buffhub.com/blog/genshin-impact/genshin-impact-vodyanitsa-build-guide.html",
+          "domain": "buffhub.com",
+          "query": "Vodyanitsa Genshin Impact signature weapon",
+          "searchProvider": "bing-rss",
+          "status": "matched",
+          "weaponId": "14406",
+          "weaponName": "Prototype Amber",
+          "kind": "signature",
+          "matchedText": "tal Burst: Aria of the Water Imp Recommended Talent Priority Recommended Rotation What is the Best Weapon for Vodyanitsa? Best-in-Slot: Unnamed Signature Catalyst Best F2P Option: Prototype Amber Best Budget Support Option: Thrilling Tales of Dragon Slayers Which Gear and Stats Maximize Vodyanitsa's Support? Best Pre-Release Placeholder: Tenacity of the Mill"
+        },
+        {
+          "title": "Genshin Impact Vodyanitsa signature weapon stats and ... - Sportskeeda",
+          "url": "https://www.sportskeeda.com/esports/genshin-impact-vodyanitsa-signature-weapon-stats-passive",
+          "domain": "sportskeeda.com",
+          "query": "Vodyanitsa Genshin Impact signature weapon",
+          "searchProvider": "bing-rss",
+          "status": "no-match"
+        },
+        {
+          "title": "Genshin 7.1 Banners: Vesna, Vodyanitsa, Reruns & Pull Guide",
+          "url": "https://www.gamsgo.com/blog/genshin-impact-7-1-banners",
+          "domain": "gamsgo.com",
+          "query": "Vodyanitsa Genshin Impact signature weapon",
+          "searchProvider": "bing-rss",
+          "status": "no-match"
+        },
+        {
+          "title": "Genshin Impact 7.1 Leaks Reveal Early Vodyanitsa Kit Details and ...",
+          "url": "https://gamesandchill.com/en/leaks/genshin-impact-71-leaks-reveal-early-vodyanitsa-kit-details-and-possible-banner-changes/",
+          "domain": "gamesandchill.com",
+          "query": "Vodyanitsa Genshin Impact signature weapon",
+          "searchProvider": "bing-rss",
+          "status": "no-match"
+        },
+        {
+          "title": "Vodyanitsa Build – Full Kit, Builds, and Best Teams | Genshin Impact",
+          "url": "https://www.ldshop.gg/blog/genshin-impact/vodyanitsa-build.html",
+          "domain": "ldshop.gg",
+          "query": "Vodyanitsa Genshin Impact signature weapon",
+          "searchProvider": "bing-rss",
+          "status": "no-match"
+        }
+      ],
+      "consensusSearchQueries": [
+        "Vodyanitsa Genshin Impact signature weapon",
+        "Vodyanitsa Genshin Impact best weapon signature",
+        "Vodyanitsa Genshin Impact Catalyst signature",
+        "Vodyanitsa Genshin Impact Weapon: Catalyst",
+        "Vodyanitsa Genshin Impact Weapon: Catalyst signature"
+      ],
+      "consensusSearchErrors": []
     }
   ],
   "summary": {
-    "targets": 1,
+    "targets": 3,
     "found": 0,
     "added": 0,
     "skipped": 1,
-    "unresolved": 1
+    "unresolved": 3
   }
 }

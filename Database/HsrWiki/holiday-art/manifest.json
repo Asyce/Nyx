@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T08:08:59.412Z",
+  "generatedAt": "2026-08-16T07:23:22.642Z",
   "source": "Honkai: Star Rail Wiki / Fandom MediaWiki API",
   "sourceExample": "https://honkai-star-rail.fandom.com/wiki/Kafka/Media",
   "requestedWidth": 1600,
@@ -1890,6 +1890,13 @@
           "mime": "image/png"
         }
       ]
+    },
+    {
+      "name": "Pearl",
+      "key": "pearl",
+      "page": "Pearl/Media",
+      "status": "fallback",
+      "artworks": []
     },
     {
       "name": "Pela",

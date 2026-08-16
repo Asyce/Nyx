@@ -3,8 +3,9 @@
   "game": "hsr",
   "id": "arena-maintenance-log",
   "name": "Arena Maintenance Log",
+  "sortId": 84813,
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Arena_Maintenance_Log",
-  "scrapedAt": "2026-08-12T08:09:31.284Z",
+  "scrapedAt": "2026-08-16T07:24:06.474Z",
   "volumes": [
     {
       "id": "1",

@@ -3,8 +3,9 @@
   "game": "hsr",
   "id": "new-londinium-s-transport-log-record",
   "name": "New Londinium's Transport Log Record",
+  "sortId": 56735,
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/New_Londinium%27s_Transport_Log_Record",
-  "scrapedAt": "2026-08-12T08:09:31.284Z",
+  "scrapedAt": "2026-08-16T07:24:06.474Z",
   "volumes": [
     {
       "id": "1",

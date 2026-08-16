@@ -3,8 +3,9 @@
   "game": "hsr",
   "id": "nihilux-s-debt-statement",
   "name": "Nihilux's Debt Statement",
+  "sortId": 140770,
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Nihilux%27s_Debt_Statement",
-  "scrapedAt": "2026-08-12T08:09:31.284Z",
+  "scrapedAt": "2026-08-16T07:24:06.474Z",
   "volumes": [
     {
       "id": "1",

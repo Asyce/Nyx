@@ -3,8 +3,9 @@
   "game": "hsr",
   "id": "non-random-treasure-map",
   "name": "Non-Random Treasure Map",
+  "sortId": 137903,
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Non-Random_Treasure_Map",
-  "scrapedAt": "2026-08-12T08:09:31.284Z",
+  "scrapedAt": "2026-08-16T07:24:06.474Z",
   "volumes": [
     {
       "id": "1",

@@ -1,56 +1,57 @@
 {
   "schemaVersion": 1,
   "game": "gi",
-  "generatedAt": "2026-08-12T08:09:31.284Z",
-  "count": 118,
+  "generatedAt": "2026-08-16T07:24:06.474Z",
+  "count": 120,
   "entries": [
     {
       "id": "of-mountains-and-seas",
       "name": "\"Of Mountains and Seas\"",
       "icon": "icons/97f87110a0ea39356321db8aeb22afb948a00f830bd7e4e6fb1bfe951eca8d43.webp",
       "file": "of-mountains-and-seas.json",
+      "sortId": 17506,
       "volumeCount": 1,
       "volumeLabels": [
         "Text"
       ],
       "volumeKeys": [
         "text"
-      ],
-      "sortId": 17506
+      ]
     },
     {
       "id": "1000-years-of-loneliness",
       "name": "1000 Years of Loneliness",
       "icon": "icons/b84ce9765311e8dacc22b2e17aa5ab33e3e9675c84c6c4702fa28fdacbf0c702.webp",
       "file": "1000-years-of-loneliness.json",
+      "sortId": 3103,
       "volumeCount": 1,
       "volumeLabels": [
         "Text"
       ],
       "volumeKeys": [
         "text"
-      ],
-      "sortId": 3103
+      ]
     },
     {
       "id": "a-brief-history-of-the-pale-starborn",
       "name": "A Brief History of the Pale Starborn",
       "icon": "icons/007a3a7c899a0c5f8999bb7fcd2de7e797756c579dc401ad0360da0df9767d15.webp",
       "file": "a-brief-history-of-the-pale-starborn.json",
+      "sortId": 431296,
       "volumeCount": 1,
       "volumeLabels": [
         "Vol. 1"
       ],
       "volumeKeys": [
         "vol-1"
-      ],
-      "sortId": 431296
+      ]
     },
     {
       "id": "a-drunkard-s-tale",
       "name": "A Drunkard's Tale",
       "icon": "icons/4037e54b68a41c886a3cb72e18f7f3b7618173a676623aa1d4dbf03cc990a027.webp",
       "file": "a-drunkard-s-tale.json",
+      "sortId": 16477,
       "volumeCount": 4,
       "volumeLabels": [
         "Vol. 1",
@@ -63,14 +64,14 @@
         "vol-2",
         "vol-3",
         "vol-4"
-      ],
-      "sortId": 16477
+      ]
     },
     {
       "id": "a-legend-of-sword",
       "name": "A Legend of Sword",
       "icon": "icons/01f696ef52036053e59a6e710a363a86adb10168e0f58b9d1512a2647fc337ac.webp",
       "file": "a-legend-of-sword.json",
+      "sortId": 67347,
       "volumeCount": 6,
       "volumeLabels": [
         "Vol. 1",
@@ -87,42 +88,42 @@
         "vol-4",
         "vol-5",
         "vol-6"
-      ],
-      "sortId": 67347
+      ]
     },
     {
       "id": "a-nameless-adventurer-s-notes",
       "name": "A Nameless Adventurer's Notes",
       "icon": "icons/6a8be978a8094fc38981f7d3f23ccc3c48c16ce314d4ab5abda06a3280f62f31.webp",
       "file": "a-nameless-adventurer-s-notes.json",
+      "sortId": 344626,
       "volumeCount": 1,
       "volumeLabels": [
         "Text"
       ],
       "volumeKeys": [
         "text"
-      ],
-      "sortId": 344626
+      ]
     },
     {
       "id": "a-preliminary-study-of-sangonomiya-folk-belief",
       "name": "A Preliminary Study of Sangonomiya Folk Belief",
       "icon": "icons/b3bb2a30bc5c8484f1b5e98f39c7e7e7cc3203491e9576eafeb4b8116359a4a2.webp",
       "file": "a-preliminary-study-of-sangonomiya-folk-belief.json",
+      "sortId": 98223,
       "volumeCount": 1,
       "volumeLabels": [
         "Text"
       ],
       "volumeKeys": [
         "text"
-      ],
-      "sortId": 98223
+      ]
     },
     {
       "id": "a-thousand-nights",
       "name": "A Thousand Nights",
       "icon": "icons/1f45be6b36628b7143506a19da8b0a1d0f24aeb1bd32e274321831fd07f9094f.webp",
       "file": "a-thousand-nights.json",
+      "sortId": 173966,
       "volumeCount": 6,
       "volumeLabels": [
         "Vol. 1",
@@ -139,84 +140,84 @@
         "vol-4",
         "vol-5",
         "vol-6"
-      ],
-      "sortId": 173966
+      ]
     },
     {
       "id": "along-with-divinity-prologue",
       "name": "Along with Divinity: Prologue",
       "icon": "icons/89169e0d0fbb969755eb29fcd4b8697f07ef0b99d1fbdd2804fea2343dec52bf.webp",
       "file": "along-with-divinity-prologue.json",
+      "sortId": 5695,
       "volumeCount": 1,
       "volumeLabels": [
         "Text"
       ],
       "volumeKeys": [
         "text"
-      ],
-      "sortId": 5695
+      ]
     },
     {
       "id": "an-ode-to-khvarena",
       "name": "An Ode to Khvarena",
       "icon": "icons/11f5fd36aee22abcac95d20eabbc8d6b68525d20f5764390e0b81c41988f1da0.webp",
       "file": "an-ode-to-khvarena.json",
+      "sortId": 155884,
       "volumeCount": 1,
       "volumeLabels": [
         "Text"
       ],
       "volumeKeys": [
         "text"
-      ],
-      "sortId": 155884
+      ]
     },
     {
       "id": "ancient-investigation-journal-part-i",
       "name": "Ancient Investigation Journal: Part I",
       "icon": "icons/def32feee94856e0511e276ad3b6db4bd07d844b2fff4a64829d2c5b50f021a1.webp",
       "file": "ancient-investigation-journal-part-i.json",
+      "sortId": 20185,
       "volumeCount": 1,
       "volumeLabels": [
         "Text"
       ],
       "volumeKeys": [
         "text"
-      ],
-      "sortId": 20185
+      ]
     },
     {
       "id": "ancient-investigation-journal-part-ii",
       "name": "Ancient Investigation Journal: Part II",
       "icon": "icons/def32feee94856e0511e276ad3b6db4bd07d844b2fff4a64829d2c5b50f021a1.webp",
       "file": "ancient-investigation-journal-part-ii.json",
+      "sortId": 20187,
       "volumeCount": 1,
       "volumeLabels": [
         "Text"
       ],
       "volumeKeys": [
         "text"
-      ],
-      "sortId": 20187
+      ]
     },
     {
       "id": "ancient-investigation-journal-part-iii",
       "name": "Ancient Investigation Journal: Part III",
       "icon": "icons/def32feee94856e0511e276ad3b6db4bd07d844b2fff4a64829d2c5b50f021a1.webp",
       "file": "ancient-investigation-journal-part-iii.json",
+      "sortId": 20184,
       "volumeCount": 1,
       "volumeLabels": [
         "Text"
       ],
       "volumeKeys": [
         "text"
-      ],
-      "sortId": 20184
+      ]
     },
     {
       "id": "anecdota-septentrionalis",
       "name": "Anecdota Septentrionalis",
       "icon": "icons/58f97cb1c503465d99acf51ede0c0ecb447ecaf25b43ea7c806501d560937782.webp",
       "file": "anecdota-septentrionalis.json",
+      "sortId": 303283,
       "volumeCount": 3,
       "volumeLabels": [
         "Vol. 1",
@@ -227,14 +228,14 @@
         "vol-1",
         "vol-2",
         "vol-3"
-      ],
-      "sortId": 303283
+      ]
     },
     {
       "id": "ballads-of-the-squire",
       "name": "Ballads of the Squire",
       "icon": "icons/95d9ac369af7fd1cb3622833ac0060ee5c95af63458fc4cf752e48668c2e1b83.webp",
       "file": "ballads-of-the-squire.json",
+      "sortId": 16469,
       "volumeCount": 2,
       "volumeLabels": [
         "Vol. 1",
@@ -243,28 +244,28 @@
       "volumeKeys": [
         "vol-1",
         "vol-2"
-      ],
-      "sortId": 16469
+      ]
     },
     {
       "id": "biography-of-gunnhildr",
       "name": "Biography of Gunnhildr",
       "icon": "icons/b9558824d822ac295009eefee1c0cf77f5826c07cb23232f896efe49ab2233a8.webp",
       "file": "biography-of-gunnhildr.json",
+      "sortId": 3100,
       "volumeCount": 1,
       "volumeLabels": [
         "Text"
       ],
       "volumeKeys": [
         "text"
-      ],
-      "sortId": 3100
+      ]
     },
     {
       "id": "breeze-amidst-the-forest",
       "name": "Breeze Amidst the Forest",
       "icon": "icons/7fe4318c383ca2e59b4b5c0ca13204b9013f916c3449a97c57bc949d8c6610cb.webp",
       "file": "breeze-amidst-the-forest.json",
+      "sortId": 16483,
       "volumeCount": 2,
       "volumeLabels": [
         "Vol. 1",
@@ -273,14 +274,14 @@
       "volumeKeys": [
         "vol-1",
         "vol-2"
-      ],
-      "sortId": 16483
+      ]
     },
     {
       "id": "conch-echoes",
       "name": "Conch Echoes",
       "icon": "icons/9be28f36e717424d2a6c109960cbd02181cfd4ad9e1347988ed153c529db57eb.webp",
       "file": "conch-echoes.json",
+      "sortId": 404301,
       "volumeCount": 2,
       "volumeLabels": [
         "Vol. 1",
@@ -289,14 +290,14 @@
       "volumeKeys": [
         "vol-1",
         "vol-2"
-      ],
-      "sortId": 404301
+      ]
     },
     {
       "id": "customs-of-liyue",
       "name": "Customs of Liyue",
       "icon": "icons/07aeb5e0a0af5bf83fc864fc561543f61fdea6ed8174d3519a86ab8b1dd2afa7.webp",
       "file": "customs-of-liyue.json",
+      "sortId": 16481,
       "volumeCount": 3,
       "volumeLabels": [
         "Vol. 1",
@@ -307,28 +308,28 @@
         "vol-1",
         "vol-2",
         "vol-3"
-      ],
-      "sortId": 16481
+      ]
     },
     {
       "id": "debates-on-the-viceroy-of-the-east",
       "name": "Debates on the \"Viceroy of the East\"",
       "icon": "icons/0f5ee45fc0acba56aeb3309f5dd05b1dcca2791421daab0764f316822770c92d.webp",
       "file": "debates-on-the-viceroy-of-the-east.json",
+      "sortId": 98232,
       "volumeCount": 1,
       "volumeLabels": [
         "Text"
       ],
       "volumeKeys": [
         "text"
-      ],
-      "sortId": 98232
+      ]
     },
     {
       "id": "diary-of-roald-the-adventurer",
       "name": "Diary of Roald the Adventurer",
       "icon": "icons/dcacc2f479e3c1e3ce4d184f5617515957b785e8b6c8a30305ceee6e8b1ce413.webp",
       "file": "diary-of-roald-the-adventurer.json",
+      "sortId": 16451,
       "volumeCount": 11,
       "volumeLabels": [
         "Vol. 1",
@@ -355,14 +356,14 @@
         "vol-9",
         "vol-10",
         "vol-11"
-      ],
-      "sortId": 16451
+      ]
     },
     {
       "id": "draft-hilichurl-ballads",
       "name": "Draft Hilichurl Ballads",
       "icon": "icons/63eccc9250caa2576aad6492a7c24f9d57e968123aaac256f9f5675f44ff1927.webp",
       "file": "draft-hilichurl-ballads.json",
+      "sortId": 16473,
       "volumeCount": 3,
       "volumeLabels": [
         "Vol. 1",
@@ -373,28 +374,28 @@
         "vol-1",
         "vol-2",
         "vol-3"
-      ],
-      "sortId": 16473
+      ]
     },
     {
       "id": "dreams-of-the-ancient-capital",
       "name": "Dreams of the Ancient Capital",
       "icon": "icons/8df79f2dabee55f542ff93e04118e540b1052d955ef79b99f272cd39ee86dde0.webp",
       "file": "dreams-of-the-ancient-capital.json",
+      "sortId": 318780,
       "volumeCount": 1,
       "volumeLabels": [
         "Text"
       ],
       "volumeKeys": [
         "text"
-      ],
-      "sortId": 318780
+      ]
     },
     {
       "id": "fables-de-fontaine",
       "name": "Fables de Fontaine",
       "icon": "icons/7adbba13b5fb52ea9c4dcf119e3d76c9f51b2671cc39826fe08425894589f9b4.webp",
       "file": "fables-de-fontaine.json",
+      "sortId": 243837,
       "volumeCount": 3,
       "volumeLabels": [
         "Vol. 1",
@@ -405,14 +406,14 @@
         "vol-1",
         "vol-2",
         "vol-3"
-      ],
-      "sortId": 243837
+      ]
     },
     {
       "id": "fires-of-autumn-twilight",
       "name": "Fires of Autumn Twilight",
       "icon": "icons/7fb01e974ac87ec52c351a9556365189787d201e41cff7421eff60c5bdc5b673.webp",
       "file": "fires-of-autumn-twilight.json",
+      "sortId": 344940,
       "volumeCount": 3,
       "volumeLabels": [
         "Vol. 1",
@@ -423,56 +424,42 @@
         "vol-1",
         "vol-2",
         "vol-3"
-      ],
-      "sortId": 344940
+      ]
     },
     {
       "id": "first-apprentice-of-guhua",
       "name": "First Apprentice of Guhua",
       "icon": "icons/feeab2e93527d988de286a32ca886974a78613368424d9b26327cf9c883b54e9.webp",
       "file": "first-apprentice-of-guhua.json",
+      "sortId": 7303,
       "volumeCount": 1,
       "volumeLabels": [
         "Text"
       ],
       "volumeKeys": [
         "text"
-      ],
-      "sortId": 7303
+      ]
     },
     {
       "id": "flowers-for-princess-fischl",
       "name": "Flowers for Princess Fischl",
       "icon": "icons/bb5f02b77b6a869be5f5f24c1e255ca9eaf564f27b05144fd63395faf3586483.webp",
       "file": "flowers-for-princess-fischl.json",
+      "sortId": 89258,
       "volumeCount": 1,
       "volumeLabels": [
         "Vol. 1"
       ],
       "volumeKeys": [
         "vol-1"
-      ],
-      "sortId": 89258
+      ]
     },
     {
-      "id": "gliding-instruction-manual",
-      "name": "Gliding Instruction Manual",
-      "icon": "icons/8feb1476af79370ff7c9c26da53f3ee5948ea5264cb2ebd25d3a3abdfa2b2aae.webp",
-      "file": "gliding-instruction-manual.json",
-      "volumeCount": 1,
-      "volumeLabels": [
-        "Text"
-      ],
-      "volumeKeys": [
-        "text"
-      ],
-      "sortId": 5556
-    },
-    {
-      "id": "glimpses-of-mysterious-inazuma",
-      "name": "Glimpses of Mysterious Inazuma",
-      "icon": "icons/63b9ba7bdab082461e8ce429be1700daf473e044a0c3b959df14625d3581849f.webp",
-      "file": "glimpses-of-mysterious-inazuma.json",
+      "id": "general-history-of-snezhnaya",
+      "name": "General History of Snezhnaya",
+      "icon": "icons/03bc53ee0efd597e5275e59d3f44a5efb60b5aed93ff3b8bf800ca345d663042.webp",
+      "file": "general-history-of-snezhnaya.json",
+      "sortId": 478722,
       "volumeCount": 2,
       "volumeLabels": [
         "Vol. 1",
@@ -481,28 +468,58 @@
       "volumeKeys": [
         "vol-1",
         "vol-2"
-      ],
-      "sortId": 362903
+      ]
     },
     {
-      "id": "handy-handbook-of-hilichurlian",
-      "name": "Handy Handbook of Hilichurlian",
-      "icon": "icons/babda7658989624419caa206bf6cc6dae2bf1736474dee450afa439a79f3ba41.webp",
-      "file": "handy-handbook-of-hilichurlian.json",
+      "id": "gliding-instruction-manual",
+      "name": "Gliding Instruction Manual",
+      "icon": "icons/8feb1476af79370ff7c9c26da53f3ee5948ea5264cb2ebd25d3a3abdfa2b2aae.webp",
+      "file": "gliding-instruction-manual.json",
+      "sortId": 5556,
       "volumeCount": 1,
       "volumeLabels": [
         "Text"
       ],
       "volumeKeys": [
         "text"
+      ]
+    },
+    {
+      "id": "glimpses-of-mysterious-inazuma",
+      "name": "Glimpses of Mysterious Inazuma",
+      "icon": "icons/63b9ba7bdab082461e8ce429be1700daf473e044a0c3b959df14625d3581849f.webp",
+      "file": "glimpses-of-mysterious-inazuma.json",
+      "sortId": 362903,
+      "volumeCount": 2,
+      "volumeLabels": [
+        "Vol. 1",
+        "Vol. 2"
       ],
-      "sortId": 45901
+      "volumeKeys": [
+        "vol-1",
+        "vol-2"
+      ]
+    },
+    {
+      "id": "handy-handbook-of-hilichurlian",
+      "name": "Handy Handbook of Hilichurlian",
+      "icon": "icons/babda7658989624419caa206bf6cc6dae2bf1736474dee450afa439a79f3ba41.webp",
+      "file": "handy-handbook-of-hilichurlian.json",
+      "sortId": 45901,
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ],
+      "volumeKeys": [
+        "text"
+      ]
     },
     {
       "id": "heart-of-clear-springs",
       "name": "Heart of Clear Springs",
       "icon": "icons/ad305142b74efe2d1aa2d6336d4ac2b67d8299f99c14f6d46245ab96464ee98f.webp",
       "file": "heart-of-clear-springs.json",
+      "sortId": 16472,
       "volumeCount": 4,
       "volumeLabels": [
         "Vol. 1",
@@ -515,14 +532,14 @@
         "vol-2",
         "vol-3",
         "vol-4"
-      ],
-      "sortId": 16472
+      ]
     },
     {
       "id": "heart-s-desire",
       "name": "Heart's Desire",
       "icon": "icons/c90bf529d34b30238d228b89c9221194bd022c7a2896302cecffbf4cdd9028a2.webp",
       "file": "heart-s-desire.json",
+      "sortId": 16471,
       "volumeCount": 4,
       "volumeLabels": [
         "Vol. 1",
@@ -535,14 +552,14 @@
         "vol-2",
         "vol-3",
         "vol-4"
-      ],
-      "sortId": 16471
+      ]
     },
     {
       "id": "hex-hound",
       "name": "Hex & Hound",
       "icon": "icons/b9b83a9a9f170e23317de5aca1c7e781c8cf81c9df6b01a675718ee85d44f8ea.webp",
       "file": "hex-hound.json",
+      "sortId": 16475,
       "volumeCount": 11,
       "volumeLabels": [
         "Vol. 1",
@@ -569,14 +586,14 @@
         "vol-9",
         "vol-10",
         "vol-11"
-      ],
-      "sortId": 16475
+      ]
     },
     {
       "id": "hilichurl-ballad-selection",
       "name": "Hilichurl Ballad Selection",
       "icon": "icons/eaddd65244d3824aa584912c73613d3a24b5712e8591658b7c314ea7b1e1463d.webp",
       "file": "hilichurl-ballad-selection.json",
+      "sortId": 16448,
       "volumeCount": 2,
       "volumeLabels": [
         "Vol. 1",
@@ -585,14 +602,14 @@
       "volumeKeys": [
         "vol-1",
         "vol-2"
-      ],
-      "sortId": 16448
+      ]
     },
     {
       "id": "hilichurl-cultural-customs",
       "name": "Hilichurl Cultural Customs",
       "icon": "icons/5d1efdcf7c7d27545cb82098a0d714525930cf578aade805ec7065840b1f45d5.webp",
       "file": "hilichurl-cultural-customs.json",
+      "sortId": 16468,
       "volumeCount": 4,
       "volumeLabels": [
         "Vol. 1",
@@ -605,42 +622,42 @@
         "vol-2",
         "vol-3",
         "vol-4"
-      ],
-      "sortId": 16468
+      ]
     },
     {
       "id": "history-of-kings-and-clans-prologue",
       "name": "History of Kings and Clans: Prologue",
       "icon": "icons/bc614a8062bf98d6adf571b2c74b76c0dd28bdfc2917ed89b0d73949f42a3d1f.webp",
       "file": "history-of-kings-and-clans-prologue.json",
+      "sortId": 7302,
       "volumeCount": 1,
       "volumeLabels": [
         "Text"
       ],
       "volumeKeys": [
         "text"
-      ],
-      "sortId": 7302
+      ]
     },
     {
       "id": "humor-from-tianheng",
       "name": "Humor From Tianheng",
       "icon": "icons/06f788852ad725793bb6dcf9694becd9df4127f766ec183a4f4c6dd1a55992c1.webp",
       "file": "humor-from-tianheng.json",
+      "sortId": 10165,
       "volumeCount": 1,
       "volumeLabels": [
         "Text"
       ],
       "volumeKeys": [
         "text"
-      ],
-      "sortId": 10165
+      ]
     },
     {
       "id": "hymns-of-the-far-north",
       "name": "Hymns of the Far North",
       "icon": "icons/93c901386b497dc9503cb525b46fd6507d12dc6b67d65b3dfe4fc1d4f118b4f9.webp",
       "file": "hymns-of-the-far-north.json",
+      "sortId": 397124,
       "volumeCount": 3,
       "volumeLabels": [
         "Vol. 1",
@@ -651,42 +668,42 @@
         "vol-1",
         "vol-2",
         "vol-3"
-      ],
-      "sortId": 397124
+      ]
     },
     {
       "id": "king-of-invokations-book",
       "name": "King of Invokations",
       "icon": "icons/3b6f6851fa082bc6cf8edc4715b0fc48c128849fe4d17468e219adfe96e995d9.webp",
       "file": "king-of-invokations-book.json",
+      "sortId": 230420,
       "volumeCount": 1,
       "volumeLabels": [
         "Text"
       ],
       "volumeKeys": [
         "text"
-      ],
-      "sortId": 159838
+      ]
     },
     {
       "id": "knights-of-favonius-handbook-5th-edition",
       "name": "Knights of Favonius Handbook - 5th Edition",
       "icon": "icons/9358f3a1065f435d68486aeb073306e92e19e87b7a45d55f5d2d321b0703392e.webp",
       "file": "knights-of-favonius-handbook-5th-edition.json",
+      "sortId": 4266,
       "volumeCount": 1,
       "volumeLabels": [
         "Text"
       ],
       "volumeKeys": [
         "text"
-      ],
-      "sortId": 4266
+      ]
     },
     {
       "id": "kompore-the-cunning",
       "name": "Kompore the Cunning",
       "icon": "icons/6037b2d94fbc9124404c7e2431d9ff039e86202cfe56c3f102fb1a8f331e8b55.webp",
       "file": "kompore-the-cunning.json",
+      "sortId": 369201,
       "volumeCount": 3,
       "volumeLabels": [
         "Vol. 1",
@@ -697,14 +714,14 @@
         "vol-1",
         "vol-2",
         "vol-3"
-      ],
-      "sortId": 369201
+      ]
     },
     {
       "id": "la-chanson-d-erinnyes",
       "name": "La Chanson d'Erinnyes",
       "icon": "icons/761a4575d2ae849533c7500e671272cba559f4952d30abb8f0f182a95c88fa57.webp",
       "file": "la-chanson-d-erinnyes.json",
+      "sortId": 266773,
       "volumeCount": 3,
       "volumeLabels": [
         "Vol. 1",
@@ -715,14 +732,14 @@
         "vol-1",
         "vol-2",
         "vol-3"
-      ],
-      "sortId": 266773
+      ]
     },
     {
       "id": "legend-of-the-lone-sword",
       "name": "Legend of the Lone Sword",
       "icon": "icons/4a43015a04a14b09ab0a1bfee787ee42b9f274ffda2176e36e635ead92cdfd81.webp",
       "file": "legend-of-the-lone-sword.json",
+      "sortId": 16480,
       "volumeCount": 7,
       "volumeLabels": [
         "Vol. 1",
@@ -741,14 +758,14 @@
         "vol-1-2",
         "vol-2-2",
         "vol-3-2"
-      ],
-      "sortId": 16480
+      ]
     },
     {
       "id": "legend-of-the-shattered-halberd",
       "name": "Legend of the Shattered Halberd",
       "icon": "icons/45147808ddc8c37f4c226ddc968be1aed6e9e4be51fe78a08098e7c6c3f65159.webp",
       "file": "legend-of-the-shattered-halberd.json",
+      "sortId": 16470,
       "volumeCount": 6,
       "volumeLabels": [
         "Vol. 1",
@@ -765,56 +782,56 @@
         "vol-4",
         "vol-5",
         "vol-6"
-      ],
-      "sortId": 16470
+      ]
     },
     {
       "id": "let-s-go-dodoco",
       "name": "Let's Go, Dodoco!",
       "icon": "icons/b565d8574c240a0bfa8d9c3f1dda260687f7e3a6a58a46056b4695970ed8dad4.webp",
       "file": "let-s-go-dodoco.json",
+      "sortId": 130546,
       "volumeCount": 1,
       "volumeLabels": [
         "Text"
       ],
       "volumeKeys": [
         "text"
-      ],
-      "sortId": 130546
+      ]
     },
     {
       "id": "linling-s-anthology-of-selected-poetry",
       "name": "Linling's Anthology of Selected Poetry",
       "icon": "icons/69bdbc73a508d2313715f96b8b9caff53c5bbbc0af9ded17eb3890c16f9734bf.webp",
       "file": "linling-s-anthology-of-selected-poetry.json",
+      "sortId": 12948,
       "volumeCount": 1,
       "volumeLabels": [
         "Text"
       ],
       "volumeKeys": [
         "text"
-      ],
-      "sortId": 12948
+      ]
     },
     {
       "id": "lost-adventure-notebook",
       "name": "Lost Adventure Notebook",
       "icon": "icons/dcacc2f479e3c1e3ce4d184f5617515957b785e8b6c8a30305ceee6e8b1ce413.webp",
       "file": "lost-adventure-notebook.json",
+      "sortId": 36651,
       "volumeCount": 1,
       "volumeLabels": [
         "Text"
       ],
       "volumeKeys": [
         "text"
-      ],
-      "sortId": 36651
+      ]
     },
     {
       "id": "maawe-and-monetoo",
       "name": "Maawe and Monetoo",
       "icon": "icons/ab4fecd96b2d89a3eed86a2cd13cab0f8b4c76a1780c306b8733a1ab00b82587.webp",
       "file": "maawe-and-monetoo.json",
+      "sortId": 329352,
       "volumeCount": 3,
       "volumeLabels": [
         "Vol. 1",
@@ -825,28 +842,28 @@
         "vol-1",
         "vol-2",
         "vol-3"
-      ],
-      "sortId": 329352
+      ]
     },
     {
       "id": "meadow-of-gems",
       "name": "Meadow of Gems",
       "icon": "icons/018c1e1c59f4c4bee00280107a1df8f1ae14a0f618c3a1c2fb332b5b254a4c08.webp",
       "file": "meadow-of-gems.json",
+      "sortId": 21101,
       "volumeCount": 1,
       "volumeLabels": [
         "Text"
       ],
       "volumeKeys": [
         "text"
-      ],
-      "sortId": 21101
+      ]
     },
     {
       "id": "men-of-lithin",
       "name": "Men of Lithin",
       "icon": "icons/909a0937cb67608c07317ceb23612fc83c8663c3fa9b85c99971b85e449bcb9d.webp",
       "file": "men-of-lithin.json",
+      "sortId": 361306,
       "volumeCount": 3,
       "volumeLabels": [
         "Vol. 1",
@@ -857,14 +874,14 @@
         "vol-1",
         "vol-2",
         "vol-3"
-      ],
-      "sortId": 361306
+      ]
     },
     {
       "id": "moongazer-s-engraving",
       "name": "Moongazer's Engraving",
       "icon": "icons/68d1503023d68632f2de6a7632b47125c70b96b82fce4982c14a75a451a51db3.webp",
       "file": "moongazer-s-engraving.json",
+      "sortId": 471314,
       "volumeCount": 2,
       "volumeLabels": [
         "Vol. 1",
@@ -873,14 +890,14 @@
       "volumeKeys": [
         "vol-1",
         "vol-2"
-      ],
-      "sortId": 471314
+      ]
     },
     {
       "id": "moonlit-bamboo-forest",
       "name": "Moonlit Bamboo Forest",
       "icon": "icons/8c659c9a445118790deebbd648d945c89dc690ca110de979456bc148c768fb17.webp",
       "file": "moonlit-bamboo-forest.json",
+      "sortId": 16476,
       "volumeCount": 4,
       "volumeLabels": [
         "Vol. 1",
@@ -893,28 +910,28 @@
         "vol-2",
         "vol-3",
         "vol-4"
-      ],
-      "sortId": 16476
+      ]
     },
     {
       "id": "mountainous-miscellany",
       "name": "Mountainous Miscellany",
       "icon": "icons/517d678bfeb483948eb3e3fc019e4b72848ca81e3960a93022058ecea154392b.webp",
       "file": "mountainous-miscellany.json",
+      "sortId": 112875,
       "volumeCount": 1,
       "volumeLabels": [
         "Text"
       ],
       "volumeKeys": [
         "text"
-      ],
-      "sortId": 112875
+      ]
     },
     {
       "id": "mt-lingmeng-gossip",
       "name": "Mt. Lingmeng Gossip",
       "icon": "icons/e25a64c92e08ec95b45296f7acf611496efea7b7b1d5c1d840c41384a5e47234.webp",
       "file": "mt-lingmeng-gossip.json",
+      "sortId": 346932,
       "volumeCount": 3,
       "volumeLabels": [
         "Vol. 1",
@@ -925,14 +942,14 @@
         "vol-1",
         "vol-2",
         "vol-3"
-      ],
-      "sortId": 346932
+      ]
     },
     {
       "id": "new-chronicles-of-the-six-kitsune",
       "name": "New Chronicles of the Six Kitsune",
       "icon": "icons/bd99d793f8c8e675a2db725842b6daf706a7942e49c2e61348e13b2401357b3e.webp",
       "file": "new-chronicles-of-the-six-kitsune.json",
+      "sortId": 67387,
       "volumeCount": 6,
       "volumeLabels": [
         "Vol. 1",
@@ -949,42 +966,42 @@
         "vol-4",
         "vol-5",
         "vol-6"
-      ],
-      "sortId": 67387
+      ]
     },
     {
       "id": "night-murmurs-from-the-far-border",
       "name": "Night Murmurs From the Far Border",
       "icon": "icons/f6c4cc913e9baf3a7caa2481101c393972ff438f7dd3ec65a351f880f0051b37.webp",
       "file": "night-murmurs-from-the-far-border.json",
+      "sortId": 432294,
       "volumeCount": 1,
       "volumeLabels": [
         "Vol. 1"
       ],
       "volumeKeys": [
         "vol-1"
-      ],
-      "sortId": 432294
+      ]
     },
     {
       "id": "onibudou",
       "name": "Onibudou",
       "icon": "icons/517d678bfeb483948eb3e3fc019e4b72848ca81e3960a93022058ecea154392b.webp",
       "file": "onibudou.json",
+      "sortId": 90481,
       "volumeCount": 1,
       "volumeLabels": [
         "Text"
       ],
       "volumeKeys": [
         "text"
-      ],
-      "sortId": 90481
+      ]
     },
     {
       "id": "perinheri",
       "name": "Perinheri",
       "icon": "icons/2c877cd6ad0c490caa7b8d7da5e154b599ae5fa49804ebf586fdfa295b479a6e.webp",
       "file": "perinheri.json",
+      "sortId": 296677,
       "volumeCount": 2,
       "volumeLabels": [
         "Vol. 1",
@@ -993,70 +1010,90 @@
       "volumeKeys": [
         "vol-1",
         "vol-2"
-      ],
-      "sortId": 296677
+      ]
     },
     {
       "id": "pharmacist-s-notebook-i",
       "name": "Pharmacist's Notebook (I)",
       "icon": "icons/bbeb44e0486faf57525e657063e0ff15aa94805074186a5cdd45f18096508575.webp",
       "file": "pharmacist-s-notebook-i.json",
+      "sortId": 73606,
       "volumeCount": 1,
       "volumeLabels": [
         "Text"
       ],
       "volumeKeys": [
         "text"
-      ],
-      "sortId": 73606
+      ]
     },
     {
       "id": "pharmacist-s-notebook-ii",
       "name": "Pharmacist's Notebook (II)",
       "icon": "icons/bbeb44e0486faf57525e657063e0ff15aa94805074186a5cdd45f18096508575.webp",
       "file": "pharmacist-s-notebook-ii.json",
+      "sortId": 73607,
       "volumeCount": 1,
       "volumeLabels": [
         "Text"
       ],
       "volumeKeys": [
         "text"
-      ],
-      "sortId": 73607
+      ]
     },
     {
       "id": "pharmacist-s-notebook-iii",
       "name": "Pharmacist's Notebook (III)",
       "icon": "icons/bbeb44e0486faf57525e657063e0ff15aa94805074186a5cdd45f18096508575.webp",
       "file": "pharmacist-s-notebook-iii.json",
+      "sortId": 73608,
       "volumeCount": 1,
       "volumeLabels": [
         "Text"
       ],
       "volumeKeys": [
         "text"
+      ]
+    },
+    {
+      "id": "polestar-ballet-anthology",
+      "name": "Polestar Ballet Anthology",
+      "icon": "icons/90bc95039e3c61e3dd637627777bed89f4c3fa865606b8910231f97320552402.webp",
+      "file": "polestar-ballet-anthology.json",
+      "sortId": 479042,
+      "volumeCount": 4,
+      "volumeLabels": [
+        "Vol. 1",
+        "Vol. 2",
+        "Vol. 3",
+        "Vol. 4"
       ],
-      "sortId": 73608
+      "volumeKeys": [
+        "vol-1",
+        "vol-2",
+        "vol-3",
+        "vol-4"
+      ]
     },
     {
       "id": "pretty-please-kitsune-guuji",
       "name": "Pretty Please, Kitsune Guuji?",
       "icon": "icons/b5584050621b32c988f420c536c9abcf3fe29c152dd2cfb841ee41a53a7736ae.webp",
       "file": "pretty-please-kitsune-guuji.json",
+      "sortId": 130567,
       "volumeCount": 1,
       "volumeLabels": [
         "Text"
       ],
       "volumeKeys": [
         "text"
-      ],
-      "sortId": 130567
+      ]
     },
     {
       "id": "princess-mina-of-the-fallen-nation",
       "name": "Princess Mina of the Fallen Nation",
       "icon": "icons/86b294eed28ffc230ce6de4b4ca9aa806c5177d55693d665bd075a091e34e230.webp",
       "file": "princess-mina-of-the-fallen-nation.json",
+      "sortId": 89257,
       "volumeCount": 6,
       "volumeLabels": [
         "Vol. 1",
@@ -1073,70 +1110,70 @@
         "vol-4",
         "vol-5",
         "vol-6"
-      ],
-      "sortId": 89257
+      ]
     },
     {
       "id": "ragged-notebook-time-and-wind",
       "name": "Ragged Notebook",
       "icon": "icons/ea940ffc2bfa79b8fda3e3abc1f3bb3f6cb32ffe4e6d117cbf7aa3e18cdebe9e.webp",
       "file": "ragged-notebook-time-and-wind.json",
+      "sortId": 7995,
       "volumeCount": 1,
       "volumeLabels": [
         "Text"
       ],
       "volumeKeys": [
         "text"
-      ],
-      "sortId": 112867
+      ]
     },
     {
       "id": "ragged-notebook-bygones-times-like-dust-passing",
       "name": "Ragged Notebook",
       "icon": "icons/bbeb44e0486faf57525e657063e0ff15aa94805074186a5cdd45f18096508575.webp",
       "file": "ragged-notebook-bygones-times-like-dust-passing.json",
+      "sortId": 112851,
       "volumeCount": 1,
       "volumeLabels": [
         "Text"
       ],
       "volumeKeys": [
         "text"
-      ],
-      "sortId": 112867
+      ]
     },
     {
       "id": "rangi-nui-s-end",
       "name": "Rangi Nui's End",
       "icon": "icons/34efc85f88e321f0d89972039fb19ed6b8df3b82d3b4afbf00a092140ffeff75.webp",
       "file": "rangi-nui-s-end.json",
+      "sortId": 369203,
       "volumeCount": 1,
       "volumeLabels": [
         "Vol. 1"
       ],
       "volumeKeys": [
         "vol-1"
-      ],
-      "sortId": 369203
+      ]
     },
     {
       "id": "records-of-a-changing-village",
       "name": "Records of a Changing Village",
       "icon": "icons/517d678bfeb483948eb3e3fc019e4b72848ca81e3960a93022058ecea154392b.webp",
       "file": "records-of-a-changing-village.json",
+      "sortId": 112871,
       "volumeCount": 1,
       "volumeLabels": [
         "Text"
       ],
       "volumeKeys": [
         "text"
-      ],
-      "sortId": 112871
+      ]
     },
     {
       "id": "records-of-hanan-pacha",
       "name": "Records of Hanan Pacha",
       "icon": "icons/8289ed5d5f64f2bf6e9eea4978ddb49de2b131d24ba126e1a60bffd055ee83e1.webp",
       "file": "records-of-hanan-pacha.json",
+      "sortId": 329356,
       "volumeCount": 3,
       "volumeLabels": [
         "Vol. 1",
@@ -1147,14 +1184,14 @@
         "vol-1",
         "vol-2",
         "vol-3"
-      ],
-      "sortId": 329356
+      ]
     },
     {
       "id": "records-of-jueyun",
       "name": "Records of Jueyun",
       "icon": "icons/299f3bcfcb084faf4cc0009a1c3108b15c1008e65b711479f04658b9f44f61a4.webp",
       "file": "records-of-jueyun.json",
+      "sortId": 16443,
       "volumeCount": 8,
       "volumeLabels": [
         "Vol. 1",
@@ -1175,14 +1212,14 @@
         "vol-6",
         "vol-1-2",
         "vol-3-2"
-      ],
-      "sortId": 16443
+      ]
     },
     {
       "id": "records-of-the-gallant",
       "name": "Records of the Gallant",
       "icon": "icons/688b3edc6d74584a349f24debff26b4e46339e77555c9891c91db0f66717616a.webp",
       "file": "records-of-the-gallant.json",
+      "sortId": 16482,
       "volumeCount": 2,
       "volumeLabels": [
         "Vol. 1",
@@ -1191,14 +1228,14 @@
       "volumeKeys": [
         "vol-1",
         "vol-2"
-      ],
-      "sortId": 16482
+      ]
     },
     {
       "id": "rex-incognito",
       "name": "Rex Incognito",
       "icon": "icons/70f0837cec5bfb7f2eafa34116d0af7176e8e7b43de8fc2e8481f23d49b5996a.webp",
       "file": "rex-incognito.json",
+      "sortId": 16479,
       "volumeCount": 4,
       "volumeLabels": [
         "Vol. 1",
@@ -1211,14 +1248,14 @@
         "vol-2",
         "vol-3",
         "vol-4"
-      ],
-      "sortId": 16479
+      ]
     },
     {
       "id": "robben-versus-chesterton-iridescent-brooch",
       "name": "Robben versus Chesterton: Iridescent Brooch",
       "icon": "icons/2417109afdcff9794aec51fc0d5c29698c5a9e5fda7df27f56125d87b53d319e.webp",
       "file": "robben-versus-chesterton-iridescent-brooch.json",
+      "sortId": 244959,
       "volumeCount": 3,
       "volumeLabels": [
         "Vol 1",
@@ -1229,42 +1266,42 @@
         "vol-1",
         "vol-2",
         "vol-3"
-      ],
-      "sortId": 244959
+      ]
     },
     {
       "id": "sacred-sakura-cleansing-summary",
       "name": "Sacred Sakura Cleansing Summary",
       "icon": "icons/517d678bfeb483948eb3e3fc019e4b72848ca81e3960a93022058ecea154392b.webp",
       "file": "sacred-sakura-cleansing-summary.json",
+      "sortId": 67445,
       "volumeCount": 1,
       "volumeLabels": [
         "Text"
       ],
       "volumeKeys": [
         "text"
-      ],
-      "sortId": 67445
+      ]
     },
     {
       "id": "sangonomiya-chronicles",
       "name": "Sangonomiya Chronicles",
       "icon": "icons/f29e34b08f88edc3289fe8336af6abc4a49c5588ea6d49d224b6a56a8038e117.webp",
       "file": "sangonomiya-chronicles.json",
+      "sortId": 67405,
       "volumeCount": 1,
       "volumeLabels": [
         "Text"
       ],
       "volumeKeys": [
         "text"
-      ],
-      "sortId": 67405
+      ]
     },
     {
       "id": "scroll-of-streaming-song",
       "name": "Scroll of Streaming Song",
       "icon": "icons/af7ca141d09a86fcaa3aeb5a1c0197890a04597f56a7af4d2aefc386fe323232.webp",
       "file": "scroll-of-streaming-song.json",
+      "sortId": 155745,
       "volumeCount": 3,
       "volumeLabels": [
         "Vol. 1",
@@ -1275,28 +1312,28 @@
         "vol-1",
         "vol-2",
         "vol-3"
-      ],
-      "sortId": 155745
+      ]
     },
     {
       "id": "shogun-almighty-reborn-as-raiden-with-unlimited-power",
       "name": "Shogun Almighty: Reborn as Raiden With Unlimited Power",
       "icon": "icons/dd72752e59a50ad89c754ce5c149217ae2ddf9fc7f9775f6b22022617619d0b8.webp",
       "file": "shogun-almighty-reborn-as-raiden-with-unlimited-power.json",
+      "sortId": 130570,
       "volumeCount": 1,
       "volumeLabels": [
         "Text"
       ],
       "volumeKeys": [
         "text"
-      ],
-      "sortId": 130570
+      ]
     },
     {
       "id": "someone-s-diary",
       "name": "Someone's Diary",
       "icon": "icons/517d678bfeb483948eb3e3fc019e4b72848ca81e3960a93022058ecea154392b.webp",
       "file": "someone-s-diary.json",
+      "sortId": 16452,
       "volumeCount": 12,
       "volumeLabels": [
         "Vol. 1",
@@ -1325,42 +1362,42 @@
         "vol-4-2",
         "vol-5-2",
         "vol-6-2"
-      ],
-      "sortId": 16452
+      ]
     },
     {
       "id": "somewhat-aged-copy-of-tequil-the-brave",
       "name": "Somewhat Aged Copy of \"Tequil the Brave\"",
       "icon": "icons/19269349b26b54b3a013ac8348a9ee5a2e462e24c054338a94c3bca8f9488f92.webp",
       "file": "somewhat-aged-copy-of-tequil-the-brave.json",
+      "sortId": 337743,
       "volumeCount": 1,
       "volumeLabels": [
         "Text"
       ],
       "volumeKeys": [
         "text"
-      ],
-      "sortId": 337743
+      ]
     },
     {
       "id": "spanking-new-copy-of-tequil-the-brave",
       "name": "Spanking New Copy of \"Tequil the Brave\"",
       "icon": "icons/083542cf7ea2ad69c55abd34e2579546a822bf1d03a136e79cad07fb42e82668.webp",
       "file": "spanking-new-copy-of-tequil-the-brave.json",
+      "sortId": 337745,
       "volumeCount": 1,
       "volumeLabels": [
         "Text"
       ],
       "volumeKeys": [
         "text"
-      ],
-      "sortId": 337745
+      ]
     },
     {
       "id": "springs-of-hidden-jade",
       "name": "Springs of Hidden Jade",
       "icon": "icons/fa3323d68564857628427d5afde14d14072320d2e0cfb299b4e4bf73a9d6eac0.webp",
       "file": "springs-of-hidden-jade.json",
+      "sortId": 345337,
       "volumeCount": 2,
       "volumeLabels": [
         "Vol. 1",
@@ -1369,28 +1406,28 @@
       "volumeKeys": [
         "vol-1",
         "vol-2"
-      ],
-      "sortId": 345337
+      ]
     },
     {
       "id": "stone-tablet-compilations-vol-i",
       "name": "Stone Tablet Compilations: Vol. I",
       "icon": "icons/effb2372760581472891fecee2f282ec1ac381946ea069e50237fb7cd572a6dd.webp",
       "file": "stone-tablet-compilations-vol-i.json",
+      "sortId": 6419,
       "volumeCount": 1,
       "volumeLabels": [
         "Text"
       ],
       "volumeKeys": [
         "text"
-      ],
-      "sortId": 6419
+      ]
     },
     {
       "id": "string-of-pearls",
       "name": "String of Pearls",
       "icon": "icons/4eac2dc51357f41a62aeec065e6e77e1b4f3ac366fd452e226c8dc4dbe14581f.webp",
       "file": "string-of-pearls.json",
+      "sortId": 19871,
       "volumeCount": 8,
       "volumeLabels": [
         "Vol. 1",
@@ -1411,14 +1448,14 @@
         "vol-1-2",
         "vol-4-2",
         "vol-5-2"
-      ],
-      "sortId": 19871
+      ]
     },
     {
       "id": "sundjatta-s-first-foray",
       "name": "Sundjatta's First Foray",
       "icon": "icons/56337f1ba36e7cfcd4aa3884016e8870c03fee734fc5df9e42f5238f330d695b.webp",
       "file": "sundjatta-s-first-foray.json",
+      "sortId": 368315,
       "volumeCount": 3,
       "volumeLabels": [
         "Vol. 1",
@@ -1429,28 +1466,28 @@
         "vol-1",
         "vol-2",
         "vol-3"
-      ],
-      "sortId": 368315
+      ]
     },
     {
       "id": "tales-carried-by-the-northwind",
       "name": "Tales Carried by the Northwind",
       "icon": "icons/a9fc0c39a82fc66a8f278813a61cce70051f6164361f66cf0f9e736625a004b5.webp",
       "file": "tales-carried-by-the-northwind.json",
+      "sortId": 432148,
       "volumeCount": 1,
       "volumeLabels": [
         "Vol. 1"
       ],
       "volumeKeys": [
         "vol-1"
-      ],
-      "sortId": 432148
+      ]
     },
     {
       "id": "tales-from-the-waves",
       "name": "Tales From the Waves",
       "icon": "icons/079e6ac5fc9b3346de5281f52af707f1c16b1e2364e6dab6f52ee530ca0ce963.webp",
       "file": "tales-from-the-waves.json",
+      "sortId": 16474,
       "volumeCount": 3,
       "volumeLabels": [
         "Vol. 1",
@@ -1461,14 +1498,14 @@
         "vol-1",
         "vol-2",
         "vol-3"
-      ],
-      "sortId": 16474
+      ]
     },
     {
       "id": "tales-of-a-snow-winged-goose",
       "name": "Tales of a Snow-Winged Goose",
       "icon": "icons/2d14a161d9bacbaa35847a9ca6329c4bca3dd783545aa330a2ddbc241bb7cca2.webp",
       "file": "tales-of-a-snow-winged-goose.json",
+      "sortId": 271416,
       "volumeCount": 3,
       "volumeLabels": [
         "Vol. 1",
@@ -1479,14 +1516,14 @@
         "vol-1",
         "vol-2",
         "vol-3"
-      ],
-      "sortId": 271416
+      ]
     },
     {
       "id": "teyvat-travel-guide",
       "name": "Teyvat Travel Guide",
       "icon": "icons/cab1ce029b30f4511b3901673b9df126a9c5228bdcf1ceec8597f32e63c12488.webp",
       "file": "teyvat-travel-guide.json",
+      "sortId": 16484,
       "volumeCount": 3,
       "volumeLabels": [
         "Vol. 1",
@@ -1497,14 +1534,14 @@
         "vol-1",
         "vol-2",
         "vol-3"
-      ],
-      "sortId": 16484
+      ]
     },
     {
       "id": "the-boar-princess",
       "name": "The Boar Princess",
       "icon": "icons/60add156873a1073d9ca35678159835ea1470a904d02c15c63a3aeb1fcf5854e.webp",
       "file": "the-boar-princess.json",
+      "sortId": 16449,
       "volumeCount": 7,
       "volumeLabels": [
         "Vol. 1",
@@ -1523,14 +1560,14 @@
         "vol-5",
         "vol-6",
         "vol-7"
-      ],
-      "sortId": 16449
+      ]
     },
     {
       "id": "the-byakuyakoku-collection",
       "name": "The Byakuyakoku Collection",
       "icon": "icons/d596c7f21e56d378a91336513aa43357e3d67ae6f9189689f58973ec3c888c60.webp",
       "file": "the-byakuyakoku-collection.json",
+      "sortId": 113109,
       "volumeCount": 5,
       "volumeLabels": [
         "Vol. 1",
@@ -1545,14 +1582,14 @@
         "vol-3",
         "vol-4",
         "vol-5"
-      ],
-      "sortId": 113109
+      ]
     },
     {
       "id": "the-fall-of-the-faded-castle",
       "name": "The Fall of the Faded Castle",
       "icon": "icons/fb7ccc1c3922b980a41783ef8281b88741303e1bdd30361f3ca924b46b7182c6.webp",
       "file": "the-fall-of-the-faded-castle.json",
+      "sortId": 266806,
       "volumeCount": 3,
       "volumeLabels": [
         "Vol. 1",
@@ -1563,14 +1600,14 @@
         "vol-1",
         "vol-2",
         "vol-3"
-      ],
-      "sortId": 266806
+      ]
     },
     {
       "id": "the-feline-firm",
       "name": "The Feline Firm",
       "icon": "icons/3ba8de79d94517df009d988abee33ccca1e7bc4a398450a06be15e31916a4daa.webp",
       "file": "the-feline-firm.json",
+      "sortId": 309240,
       "volumeCount": 8,
       "volumeLabels": [
         "Vol. 1",
@@ -1591,14 +1628,14 @@
         "vol-6",
         "vol-7",
         "vol-8"
-      ],
-      "sortId": 309240
+      ]
     },
     {
       "id": "the-folio-of-foliage",
       "name": "The Folio of Foliage",
       "icon": "icons/c632afab22dcab3a12dcb125d5ac38787ca169b6fba3e564c5fe369f2eb1da4f.webp",
       "file": "the-folio-of-foliage.json",
+      "sortId": 155741,
       "volumeCount": 6,
       "volumeLabels": [
         "Vol. 1",
@@ -1615,14 +1652,14 @@
         "vol-1-2",
         "vol-2-2",
         "vol-3-2"
-      ],
-      "sortId": 155741
+      ]
     },
     {
       "id": "the-fox-in-the-dandelion-sea",
       "name": "The Fox in the Dandelion Sea",
       "icon": "icons/fb41af9bbb53edc169fd23755d4eed2e2d5f174b6ab2277c8eb6eb2f56f74b08.webp",
       "file": "the-fox-in-the-dandelion-sea.json",
+      "sortId": 16447,
       "volumeCount": 11,
       "volumeLabels": [
         "Vol. 1",
@@ -1649,14 +1686,14 @@
         "vol-9",
         "vol-10",
         "vol-11"
-      ],
-      "sortId": 16447
+      ]
     },
     {
       "id": "the-headless-coquitao",
       "name": "The Headless Coquitao",
       "icon": "icons/545c56517962ccc4c2cdeacf8db81dd2b64a1fbe7d5a0d6d599457bb356f67a5.webp",
       "file": "the-headless-coquitao.json",
+      "sortId": 368386,
       "volumeCount": 2,
       "volumeLabels": [
         "Vol. 1",
@@ -1665,14 +1702,14 @@
       "volumeKeys": [
         "vol-1",
         "vol-2"
-      ],
-      "sortId": 368386
+      ]
     },
     {
       "id": "the-history-of-the-decline-and-fall-of-remuria",
       "name": "The History of the Decline and Fall of Remuria",
       "icon": "icons/46e8ee9ae866f63ef6cafd63b9e87de264b1b1ba65ac560f4cbcfa64ee7cb68f.webp",
       "file": "the-history-of-the-decline-and-fall-of-remuria.json",
+      "sortId": 244811,
       "volumeCount": 3,
       "volumeLabels": [
         "Vol. 1",
@@ -1683,28 +1720,28 @@
         "vol-1",
         "vol-2",
         "vol-3"
-      ],
-      "sortId": 244811
+      ]
     },
     {
       "id": "the-lay-of-al-ahmar",
       "name": "The Lay of Al-Ahmar",
       "icon": "icons/8e603148f976df3206cc8af9f20d598782b95f79364aafc473bacb65a1c29308.webp",
       "file": "the-lay-of-al-ahmar.json",
+      "sortId": 155886,
       "volumeCount": 1,
       "volumeLabels": [
         "Text"
       ],
       "volumeKeys": [
         "text"
-      ],
-      "sortId": 155886
+      ]
     },
     {
       "id": "the-legend-of-vennessa",
       "name": "The Legend of Vennessa",
       "icon": "icons/e7b13001c9063cd5c43e1659fd5acab4bd265d9af98a77dab8ca8cb973cafcfe.webp",
       "file": "the-legend-of-vennessa.json",
+      "sortId": 16446,
       "volumeCount": 2,
       "volumeLabels": [
         "Vol. 1",
@@ -1713,14 +1750,14 @@
       "volumeKeys": [
         "vol-1",
         "vol-2"
-      ],
-      "sortId": 16446
+      ]
     },
     {
       "id": "the-legends-of-reed-miller-thief-extraordinaire",
       "name": "The Legends of Reed Miller, Thief Extraordinaire",
       "icon": "icons/1898cf559c2605c29e69fb461bf12ae736321ece6e8d2c0ae2980ac08fc3ae27.webp",
       "file": "the-legends-of-reed-miller-thief-extraordinaire.json",
+      "sortId": 396977,
       "volumeCount": 3,
       "volumeLabels": [
         "Vol. 1",
@@ -1731,28 +1768,28 @@
         "vol-1",
         "vol-2",
         "vol-3"
-      ],
-      "sortId": 396977
+      ]
     },
     {
       "id": "the-life-of-mouun-the-shrine-maiden",
       "name": "The Life of Mouun the Shrine Maiden",
       "icon": "icons/e8358d2bd1c75d00fb854e6ea34164789fa03d82cfdac65b62c7f7ba9a9a00b8.webp",
       "file": "the-life-of-mouun-the-shrine-maiden.json",
+      "sortId": 98229,
       "volumeCount": 1,
       "volumeLabels": [
         "Text"
       ],
       "volumeKeys": [
         "text"
-      ],
-      "sortId": 98229
+      ]
     },
     {
       "id": "the-little-witch-and-the-undying-fire",
       "name": "The Little Witch and the Undying Fire",
       "icon": "icons/7cdaa23896b200f99ad33c48a8cb7d72e16f02a3251c4c795b4119ac6a09860f.webp",
       "file": "the-little-witch-and-the-undying-fire.json",
+      "sortId": 309239,
       "volumeCount": 7,
       "volumeLabels": [
         "Vol. 1",
@@ -1771,28 +1808,28 @@
         "vol-5",
         "vol-6",
         "vol-7"
-      ],
-      "sortId": 309239
+      ]
     },
     {
       "id": "the-mondstadt-tower",
       "name": "The Mondstadt Tower",
       "icon": "icons/d575a51b76020794871a7734cfe63786fad459c774eee30c832a510d68bc0d93.webp",
       "file": "the-mondstadt-tower.json",
+      "sortId": 16450,
       "volumeCount": 1,
       "volumeLabels": [
         "Vol. 1"
       ],
       "volumeKeys": [
         "vol-1"
-      ],
-      "sortId": 16450
+      ]
     },
     {
       "id": "the-pale-princess-and-the-six-pygmies",
       "name": "The Pale Princess and the Six Pygmies",
       "icon": "icons/3fb143bbc30b8d4892ef63a0b2c558b7b979340265367ac21953ba9b297dd4ee.webp",
       "file": "the-pale-princess-and-the-six-pygmies.json",
+      "sortId": 16478,
       "volumeCount": 7,
       "volumeLabels": [
         "Vol. 1",
@@ -1811,14 +1848,14 @@
         "vol-5",
         "vol-6",
         "vol-7"
-      ],
-      "sortId": 16478
+      ]
     },
     {
       "id": "the-saga-of-hamavaran",
       "name": "The Saga of Hamavaran",
       "icon": "icons/e9c558ca6c8b5bbd49e6d2380e33c23561e2b5375aed63176f9b6c78c2ad1f7e.webp",
       "file": "the-saga-of-hamavaran.json",
+      "sortId": 67394,
       "volumeCount": 3,
       "volumeLabels": [
         "Vol. 1",
@@ -1829,70 +1866,70 @@
         "vol-1",
         "vol-2",
         "vol-3"
-      ],
-      "sortId": 67394
+      ]
     },
     {
       "id": "the-serpent-and-drakes-of-tokoyokoku",
       "name": "The Serpent and Drakes of Tokoyokoku",
       "icon": "icons/3420f4c85e8f59b12c80e490f3d52831681eba50c13722496babb66d654c2215.webp",
       "file": "the-serpent-and-drakes-of-tokoyokoku.json",
+      "sortId": 104728,
       "volumeCount": 1,
       "volumeLabels": [
         "Text"
       ],
       "volumeKeys": [
         "text"
-      ],
-      "sortId": 104728
+      ]
     },
     {
       "id": "the-shepherd-and-the-magic-bottle",
       "name": "The Shepherd and the Magic Bottle",
       "icon": "icons/5b43e83784e50712f19145e00372b41682b222ead842eb612db92f4bfef4eafa.webp",
       "file": "the-shepherd-and-the-magic-bottle.json",
+      "sortId": 156959,
       "volumeCount": 1,
       "volumeLabels": [
         "Text"
       ],
       "volumeKeys": [
         "text"
-      ],
-      "sortId": 156959
+      ]
     },
     {
       "id": "the-tale-of-kuntur",
       "name": "The Tale of Kuntur",
       "icon": "icons/edcce0aa90dcb2e1fb5574456457d8c729262c4e512b8c06ca548ab85c57ba90.webp",
       "file": "the-tale-of-kuntur.json",
+      "sortId": 346491,
       "volumeCount": 1,
       "volumeLabels": [
         "Vol. 1"
       ],
       "volumeKeys": [
         "vol-1"
-      ],
-      "sortId": 346491
+      ]
     },
     {
       "id": "the-tale-of-qoyllor-and-ukuku",
       "name": "The Tale of Qoyllor and Ukuku",
       "icon": "icons/edcce0aa90dcb2e1fb5574456457d8c729262c4e512b8c06ca548ab85c57ba90.webp",
       "file": "the-tale-of-qoyllor-and-ukuku.json",
+      "sortId": 329360,
       "volumeCount": 1,
       "volumeLabels": [
         "Vol. 1"
       ],
       "volumeKeys": [
         "vol-1"
-      ],
-      "sortId": 329360
+      ]
     },
     {
       "id": "the-tale-of-shiruyeh-and-shirin",
       "name": "The Tale of Shiruyeh and Shirin",
       "icon": "icons/67ccd0cc4dfa27099eee673ce44bf2019a39a566b7b47088774188342ba6855e.webp",
       "file": "the-tale-of-shiruyeh-and-shirin.json",
+      "sortId": 155740,
       "volumeCount": 2,
       "volumeLabels": [
         "Vol. 1",
@@ -1901,14 +1938,14 @@
       "volumeKeys": [
         "vol-1",
         "vol-2"
-      ],
-      "sortId": 155740
+      ]
     },
     {
       "id": "the-two-musketeers",
       "name": "The Two Musketeers",
       "icon": "icons/5d17d2a23b36e56ccba7c18be562e9414230d7f399ce7c3bbd99f136ddf542a2.webp",
       "file": "the-two-musketeers.json",
+      "sortId": 278893,
       "volumeCount": 3,
       "volumeLabels": [
         "Vol. 1",
@@ -1919,42 +1956,42 @@
         "vol-1",
         "vol-2",
         "vol-3"
-      ],
-      "sortId": 278893
+      ]
     },
     {
       "id": "the-volcano-lord-and-the-shadow-pins",
       "name": "The Volcano Lord and the Shadow Pins",
       "icon": "icons/4a05b0a1a8cdd89925c3df55ee2d1fc25debb78f6689409d6e4f619cdcb1a93b.webp",
       "file": "the-volcano-lord-and-the-shadow-pins.json",
+      "sortId": 329359,
       "volumeCount": 1,
       "volumeLabels": [
         "Vol. 1"
       ],
       "volumeKeys": [
         "vol-1"
-      ],
-      "sortId": 329359
+      ]
     },
     {
       "id": "thick-notebook",
       "name": "Thick Notebook",
       "icon": "icons/dcacc2f479e3c1e3ce4d184f5617515957b785e8b6c8a30305ceee6e8b1ce413.webp",
       "file": "thick-notebook.json",
+      "sortId": 7999,
       "volumeCount": 1,
       "volumeLabels": [
         "Text"
       ],
       "volumeKeys": [
         "text"
-      ],
-      "sortId": 7999
+      ]
     },
     {
       "id": "time-trekker",
       "name": "Time Trekker",
       "icon": "icons/7255ad6f5236c18340ffd7d444c7825900887e6daa1ed0384c784ec5d1de187d.webp",
       "file": "time-trekker.json",
+      "sortId": 289067,
       "volumeCount": 3,
       "volumeLabels": [
         "Vol. 1",
@@ -1965,14 +2002,14 @@
         "vol-1",
         "vol-2",
         "vol-3"
-      ],
-      "sortId": 289067
+      ]
     },
     {
       "id": "toki-alley-tales",
       "name": "Toki Alley Tales",
       "icon": "icons/aa2953865e5e8e5ba72397f49940be59fe42af9ecc308c066740de654eab8d16.webp",
       "file": "toki-alley-tales.json",
+      "sortId": 71591,
       "volumeCount": 6,
       "volumeLabels": [
         "Vol. 1",
@@ -1989,28 +2026,28 @@
         "vol-4",
         "vol-5",
         "vol-6"
-      ],
-      "sortId": 71591
+      ]
     },
     {
       "id": "treasured-tales-of-the-chouken-shinkageuchi",
       "name": "Treasured Tales of the Chouken Shinkageuchi",
       "icon": "icons/0b6cb8d0bc4111ecf5eadabd1bc50a8a4a6efa3bfb1c05ea7c8195942ad44567.webp",
       "file": "treasured-tales-of-the-chouken-shinkageuchi.json",
+      "sortId": 97011,
       "volumeCount": 1,
       "volumeLabels": [
         "Vol. 1"
       ],
       "volumeKeys": [
         "vol-1"
-      ],
-      "sortId": 97011
+      ]
     },
     {
       "id": "vera-s-melancholy",
       "name": "Vera's Melancholy",
       "icon": "icons/feeab2e93527d988de286a32ca886974a78613368424d9b26327cf9c883b54e9.webp",
       "file": "vera-s-melancholy.json",
+      "sortId": 16444,
       "volumeCount": 12,
       "volumeLabels": [
         "Vol. 1",
@@ -2039,50 +2076,49 @@
         "vol-10",
         "vol-11",
         "vol-12"
-      ],
-      "sortId": 16444
+      ]
     },
     {
       "id": "verses-of-equilibrium",
       "name": "Verses of Equilibrium",
       "icon": "icons/bea803fa5096ec3c6838cf191a48fbfe27c985e27596e04e52754bdc4e57069a.webp",
       "file": "verses-of-equilibrium.json",
+      "sortId": 6435,
       "volumeCount": 1,
       "volumeLabels": [
         "Text"
       ],
       "volumeKeys": [
         "text"
-      ],
-      "sortId": 6435
+      ]
     },
     {
       "id": "wind-courage-and-wings-book",
       "name": "Wind, Courage, and Wings",
       "icon": "icons/ecbe334f047253101de91fa127c4bb12d70236b4c89edd08cca642c67f6a52d5.webp",
       "file": "wind-courage-and-wings-book.json",
+      "sortId": 4038,
       "volumeCount": 1,
       "volumeLabels": [
         "Text"
       ],
       "volumeKeys": [
         "text"
-      ],
-      "sortId": 5669
+      ]
     },
     {
       "id": "yakshas-the-guardian-adepti",
       "name": "Yakshas: The Guardian Adepti",
       "icon": "icons/d58ba359e1a8bcd838fc00b58ad8586263635fa5a62c1c2f563ba3bc8f1b0d7f.webp",
       "file": "yakshas-the-guardian-adepti.json",
+      "sortId": 15909,
       "volumeCount": 1,
       "volumeLabels": [
         "Text"
       ],
       "volumeKeys": [
         "text"
-      ],
-      "sortId": 15909
+      ]
     }
   ]
 }

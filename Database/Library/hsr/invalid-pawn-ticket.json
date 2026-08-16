@@ -3,8 +3,9 @@
   "game": "hsr",
   "id": "invalid-pawn-ticket",
   "name": "Invalid Pawn Ticket",
+  "sortId": 44522,
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Invalid_Pawn_Ticket",
-  "scrapedAt": "2026-08-12T08:09:31.284Z",
+  "scrapedAt": "2026-08-16T07:24:06.474Z",
   "volumes": [
     {
       "id": "1",

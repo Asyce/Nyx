@@ -3,8 +3,9 @@
   "game": "gi",
   "id": "thick-notebook",
   "name": "Thick Notebook",
+  "sortId": 7999,
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/Thick_Notebook",
-  "scrapedAt": "2026-08-12T08:09:31.284Z",
+  "scrapedAt": "2026-08-16T07:24:06.474Z",
   "volumes": [
     {
       "id": "1",

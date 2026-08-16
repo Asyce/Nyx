@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T08:07:30.810Z",
+  "generatedAt": "2026-08-16T07:21:38.456Z",
   "source": "Genshin Impact Wiki / Fandom MediaWiki API",
   "sourceExample": "https://genshin-impact.fandom.com/wiki/Ifa/Gallery",
   "requestedWidth": 1800,
@@ -5385,6 +5385,18 @@
           "originalWidth": 3000,
           "originalHeight": 3000,
           "mime": "image/png"
+        },
+        {
+          "file": "Navia Birthday 2026.jpg",
+          "title": "Navia Birthday 2026.jpg (2.04 MB)",
+          "localAsset": "GenshinWiki/birthday-art/navia/03-Navia Birthday 2026.jpg",
+          "sourcePage": "https://genshin-impact.fandom.com/wiki/Navia/Gallery",
+          "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Navia_Birthday_2026.jpg",
+          "width": 1800,
+          "height": 1800,
+          "originalWidth": 3000,
+          "originalHeight": 3000,
+          "mime": "image/jpeg"
         }
       ]
     },

@@ -475,13 +475,19 @@
   },
   {
     "name": "Lucy",
-    "pageTitle": "Agent Focus: Lucy",
+    "pageTitle": "Luciana de Montefio",
     "aliases": [
       "Lucy",
       "1151"
     ],
-    "releaseDate": null,
+    "releaseDate": "2024-07-04",
     "releasePatch": "1.0",
+    "voiceActors": {
+      "english": "imdb:nm4716053|Elsie Lovelock",
+      "chinese": "https://zh.moegirl.org.cn/zh/闲踏梧桐|Xian Ta Wutong (闲踏梧桐)",
+      "japanese": "Ayaka Asai|Asai Ayaka (朝井 彩加)",
+      "korean": "Kim Mi-so (김미소)"
+    },
     "categories": [
       "Category:Released in Version 1.0",
       "Category:Version"

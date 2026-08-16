@@ -1122,6 +1122,25 @@
     ]
   },
   {
+    "name": "Pearl",
+    "pageTitle": "Pearl",
+    "aliases": [
+      "Pearl",
+      "pearl"
+    ],
+    "releaseDate": "|relatives =",
+    "releasePatch": "1.6",
+    "voiceActors": {
+      "english": "imdb:nm11767862|Cat Protano",
+      "chinese": "https://zh.moegirl.org.cn/zh-hans/苏婉|Su Wan (苏婉)",
+      "japanese": "Kiyono Yasuno|Yasuno Kiyono (安野希世乃)",
+      "korean": "https://en.namu.wiki/w/여윤미|Yeo Yoon-mi (여윤미)"
+    },
+    "categories": [
+      "Category:Introduced in Version 1.6"
+    ]
+  },
+  {
     "name": "Pela",
     "pageTitle": "Pela",
     "aliases": [

@@ -1,0 +1,178 @@
+{
+  "id": "characters:pearl",
+  "provider": "Prydwen",
+  "game": "hsr",
+  "gameName": "Honkai: Star Rail",
+  "collection": "characters",
+  "recordType": "detail",
+  "slug": "pearl",
+  "name": "Pearl",
+  "title": "Pearl Best Build Guide",
+  "sourcePath": "/star-rail/characters/pearl",
+  "contentStatus": "beta",
+  "statusLabels": [
+    "4.6"
+  ],
+  "scrapedAt": "2026-08-16T05:50:35.480Z",
+  "updatedText": "12/August/2026",
+  "meta": {
+    "title": "Pearl Best Build Guide | Honkai: Star Rail",
+    "description": ""
+  },
+  "facts": {
+    "rarity": 5,
+    "element": "Ice",
+    "path": "Elation"
+  },
+  "assets": [
+    {
+      "id": "d9dc8a262aee",
+      "sourceHash": "d9dc8a262aee",
+      "kind": "characters",
+      "name": "Pearl",
+      "fileStem": "pearl-card",
+      "path": "Prydwen/hsr/assets/characters/pearl-d9dc8a262aee.webp",
+      "width": 640,
+      "height": 800
+    },
+    {
+      "id": "b1158304697b",
+      "sourceHash": "b1158304697b",
+      "kind": "characters",
+      "name": "Pearl",
+      "fileStem": "pearl-full",
+      "path": "Prydwen/hsr/assets/characters/pearl-b1158304697b.webp",
+      "width": 600,
+      "height": 750
+    }
+  ],
+  "sections": [
+    {
+      "id": "pearl-best-build-guide-0",
+      "level": 1,
+      "heading": "Pearl Best Build Guide",
+      "text": "Last updated: 12/August/2026",
+      "assets": [
+        {
+          "id": "d9dc8a262aee",
+          "sourceHash": "d9dc8a262aee",
+          "kind": "characters",
+          "name": "Pearl",
+          "fileStem": "pearl-card",
+          "path": "Prydwen/hsr/assets/characters/pearl-d9dc8a262aee.webp",
+          "width": 640,
+          "height": 800
+        }
+      ]
+    },
+    {
+      "id": "introduction-1",
+      "level": 2,
+      "heading": "Introduction",
+      "text": "Best guide and build for Pearl from HSR (Honkai: Star Rail). Pearl is a 5 ★ character from the Ice element who follows the Path of Elation .\n\n To learn more about Pearl check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.",
+      "assets": []
+    },
+    {
+      "id": "video-guide-2",
+      "level": 2,
+      "heading": "Video guide",
+      "text": "This character has no video guide yet.\n\n To learn more about Pearl check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.",
+      "assets": []
+    },
+    {
+      "id": "calculations-7",
+      "level": 2,
+      "heading": "Calculations",
+      "text": "Profile",
+      "assets": []
+    },
+    {
+      "id": "skills-8",
+      "level": 2,
+      "heading": "Skills",
+      "text": "Pearl skills aren't available yet. They will be added when the character is released.",
+      "assets": []
+    },
+    {
+      "id": "major-traces-9",
+      "level": 2,
+      "heading": "Major Traces",
+      "text": "Pearl traces aren't available yet. They will be added when the character is released.",
+      "assets": []
+    },
+    {
+      "id": "minor-traces-total-10",
+      "level": 2,
+      "heading": "Minor Traces (total)",
+      "text": "Pearl traces aren't available yet. They will be added when the character is released.",
+      "assets": []
+    },
+    {
+      "id": "eidolons-11",
+      "level": 2,
+      "heading": "Eidolons",
+      "text": "E 1\n\n Eidolon 1",
+      "assets": []
+    },
+    {
+      "id": "stats-and-materials-12",
+      "level": 2,
+      "heading": "Stats and materials",
+      "text": "Pearl Stats and Materials aren't available yet. They will be added when the character is released.",
+      "assets": []
+    },
+    {
+      "id": "cv-13",
+      "level": 2,
+      "heading": "CV",
+      "text": "ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -",
+      "assets": []
+    },
+    {
+      "id": "gallery-14",
+      "level": 2,
+      "heading": "Gallery",
+      "text": "Review",
+      "assets": [
+        {
+          "id": "b1158304697b",
+          "sourceHash": "b1158304697b",
+          "kind": "characters",
+          "name": "Pearl",
+          "fileStem": "pearl-full",
+          "path": "Prydwen/hsr/assets/characters/pearl-b1158304697b.webp",
+          "width": 600,
+          "height": 750
+        }
+      ]
+    },
+    {
+      "id": "review-15",
+      "level": 2,
+      "heading": "Review",
+      "text": "Review for Pearl is not available yet. It will be added when the character is released.\n\n Build and teams",
+      "assets": []
+    },
+    {
+      "id": "build-and-teams-16",
+      "level": 2,
+      "heading": "Build and teams",
+      "text": "Build recommendations and team compositions for Pearl are not available yet. They will be added when the character is released.\n\n MoC/PF/AS Statistics",
+      "assets": []
+    }
+  ],
+  "recommendations": {
+    "teams": {
+      "label": "Teams",
+      "sections": [
+        {
+          "heading": "Build and teams",
+          "text": "Build recommendations and team compositions for Pearl are not available yet. They will be added when the character is released.\n\n MoC/PF/AS Statistics",
+          "assets": []
+        }
+      ]
+    }
+  },
+  "tables": [],
+  "text": "Pearl Best Build Guide | Honkai: Star Rail\n \n\n Honkai: Star Rail\n Home Database Characters Light Cones Relic Sets Banners NEW\n Tier Lists Tier List\n Endgame Memory of Chaos Pure Fiction Apocalyptic Shadow Anomaly Arbitration\n Tools Patch Timeline\n Guides Guides\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Honkai: Star Rail\n /\n Characters\n /\n Pearl\n Pearl Best Build Guide\n Last updated: 12/August/2026\n\n Introduction\n Best guide and build for Pearl from HSR (Honkai: Star Rail). Pearl is a 5 ★ character from the Ice element who follows the Path of Elation .\n\n To learn more about Pearl check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Video guide\n This character has no video guide yet.\n\n To learn more about Pearl check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Kit\n\n Review\n\n Build and teams\n\n MoC/PF/AS Statistics\n\n Calculations\n\n Profile\n\n Skills\n Pearl skills aren't available yet. They will be added when the character is released.\n\n Major Traces\n Pearl traces aren't available yet. They will be added when the character is released.\n\n Minor Traces (total)\n Pearl traces aren't available yet. They will be added when the character is released.\n\n Eidolons\n E 1\n\n Eidolon 1\n\n Stats and materials\n Pearl Stats and Materials aren't available yet. They will be added when the character is released.\n\n CV\n ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -\n\n Gallery\n\n Review\n\n Review\n Review for Pearl is not available yet. It will be added when the character is released.\n\n Build and teams\n\n Build and teams\n Build recommendations and team compositions for Pearl are not available yet. They will be added when the character is released.\n\n MoC/PF/AS Statistics\n\n MoC/PF/AS Statistics"
+}

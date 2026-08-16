@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T15:35:31.319Z",
+  "generatedAt": "2026-08-16T05:52:34.997Z",
   "source": "GachaBase beta changelog",
   "games": {
     "zzz": {
@@ -7,7 +7,7 @@
       "label": "Zenless Zone Zero",
       "source": "GachaBase beta changelog",
       "sourceUrl": "https://zzz.gachabase.net/changelog/beta?lang=en",
-      "scrapedAt": "2026-08-11T15:35:30.675Z",
+      "scrapedAt": "2026-08-16T05:52:34.391Z",
       "title": "Changelog - v3.2.X | Zenless Zone Zero | Gachabase",
       "categoryLinks": [
         {
@@ -84,22 +84,297 @@
           "type": "items",
           "href": "https://zzz.gachabase.net/items/other-items/beta?lang=en",
           "text": "Other Items"
+        },
+        {
+          "type": "agents",
+          "href": "https://zzz.gachabase.net/agents/1621/1621/beta?lang=en",
+          "text": "Pryce"
+        },
+        {
+          "type": "agents",
+          "href": "https://zzz.gachabase.net/agents/1611/1611/beta?lang=en",
+          "text": "Claret"
+        },
+        {
+          "type": "w-engines",
+          "href": "https://zzz.gachabase.net/w-engines/14162/14162/beta?lang=en",
+          "text": "..."
         }
       ],
       "counts": {
-        "entries": 127,
+        "entries": 147,
         "byType": {
-          "agents": 100,
-          "w-engines": 22,
+          "agents": 114,
+          "w-engines": 28,
           "bangboo": 1,
           "drive-discs": 4
         },
         "byStatus": {
-          "updated": 124,
+          "updated": 144,
           "new": 3
         }
       },
       "entries": [
+        {
+          "game": "zzz",
+          "type": "agents",
+          "id": "1611",
+          "rarity": null,
+          "name": "Claret",
+          "iconHash": "46041a1fd403c311377d75602a84f8f0",
+          "status": "updated",
+          "href": "https://zzz.gachabase.net/agents/1611/1611/beta/3.2.3/18254958",
+          "diff": "https://zzz.gachabase.net/diff/agents/1611/1611?prev=beta_3.2.3_18252831&cur=beta_3.2.3_18254958",
+          "betaVersion": "3.2.3",
+          "revision": "18254958"
+        },
+        {
+          "game": "zzz",
+          "type": "agents",
+          "id": "1621",
+          "rarity": null,
+          "name": "Pryce",
+          "iconHash": null,
+          "status": "updated",
+          "href": "https://zzz.gachabase.net/agents/1621/1621/beta/3.2.3/18254958",
+          "diff": "https://zzz.gachabase.net/diff/agents/1621/1621?prev=beta_3.2.3_18252831&cur=beta_3.2.3_18254958",
+          "betaVersion": "3.2.3",
+          "revision": "18254958"
+        },
+        {
+          "game": "zzz",
+          "type": "agents",
+          "id": "1101",
+          "rarity": null,
+          "name": "Koleda",
+          "iconHash": "49acf5cd330ed18abe9e58c6003ae6e6",
+          "status": "updated",
+          "href": "https://zzz.gachabase.net/agents/1101/koleda/beta/3.2.3/18252831",
+          "diff": "https://zzz.gachabase.net/diff/agents/1101/koleda?prev=beta_3.2.3_18249573&cur=beta_3.2.3_18252831",
+          "betaVersion": "3.2.3",
+          "revision": "18252831"
+        },
+        {
+          "game": "zzz",
+          "type": "agents",
+          "id": "1611",
+          "rarity": null,
+          "name": "Claret",
+          "iconHash": "46041a1fd403c311377d75602a84f8f0",
+          "status": "updated",
+          "href": "https://zzz.gachabase.net/agents/1611/1611/beta/3.2.3/18252831",
+          "diff": "https://zzz.gachabase.net/diff/agents/1611/1611?prev=beta_3.2.3_18249573&cur=beta_3.2.3_18252831",
+          "betaVersion": "3.2.3",
+          "revision": "18252831"
+        },
+        {
+          "game": "zzz",
+          "type": "agents",
+          "id": "1621",
+          "rarity": null,
+          "name": "Pryce",
+          "iconHash": null,
+          "status": "updated",
+          "href": "https://zzz.gachabase.net/agents/1621/1621/beta/3.2.3/18252831",
+          "diff": "https://zzz.gachabase.net/diff/agents/1621/1621?prev=beta_3.2.3_18249573&cur=beta_3.2.3_18252831",
+          "betaVersion": "3.2.3",
+          "revision": "18252831"
+        },
+        {
+          "game": "zzz",
+          "type": "w-engines",
+          "id": "14161",
+          "rarity": null,
+          "name": "Crimson Thirst",
+          "iconHash": "dfc2834e8f47bcfaeb696d3db8eaed27",
+          "status": "updated",
+          "href": "https://zzz.gachabase.net/w-engines/14161/crimson-thirst/beta/3.2.3/18252831",
+          "diff": "https://zzz.gachabase.net/diff/w-engines/14161/crimson-thirst?prev=beta_3.2.3_18249573&cur=beta_3.2.3_18252831",
+          "betaVersion": "3.2.3",
+          "revision": "18252831"
+        },
+        {
+          "game": "zzz",
+          "type": "agents",
+          "id": "1621",
+          "rarity": null,
+          "name": "Pryce",
+          "iconHash": null,
+          "status": "updated",
+          "href": "https://zzz.gachabase.net/agents/1621/1621/beta/3.2.3/18249573",
+          "diff": "https://zzz.gachabase.net/diff/agents/1621/1621?prev=beta_3.2.3_18247000&cur=beta_3.2.3_18249573",
+          "betaVersion": "3.2.3",
+          "revision": "18249573"
+        },
+        {
+          "game": "zzz",
+          "type": "agents",
+          "id": "1101",
+          "rarity": null,
+          "name": "Koleda",
+          "iconHash": "49acf5cd330ed18abe9e58c6003ae6e6",
+          "status": "updated",
+          "href": "https://zzz.gachabase.net/agents/1101/koleda/beta/3.2.3/18244196",
+          "diff": "https://zzz.gachabase.net/diff/agents/1101/koleda?prev=beta_3.2.3_18228181&cur=beta_3.2.3_18244196",
+          "betaVersion": "3.2.3",
+          "revision": "18244196"
+        },
+        {
+          "game": "zzz",
+          "type": "agents",
+          "id": "1611",
+          "rarity": null,
+          "name": "Claret",
+          "iconHash": "46041a1fd403c311377d75602a84f8f0",
+          "status": "updated",
+          "href": "https://zzz.gachabase.net/agents/1611/1611/beta/3.2.3/18244196",
+          "diff": "https://zzz.gachabase.net/diff/agents/1611/1611?prev=beta_3.2.3_18228181&cur=beta_3.2.3_18244196",
+          "betaVersion": "3.2.3",
+          "revision": "18244196"
+        },
+        {
+          "game": "zzz",
+          "type": "agents",
+          "id": "1621",
+          "rarity": null,
+          "name": "Pryce",
+          "iconHash": null,
+          "status": "updated",
+          "href": "https://zzz.gachabase.net/agents/1621/1621/beta/3.2.3/18244196",
+          "diff": "https://zzz.gachabase.net/diff/agents/1621/1621?prev=beta_3.2.3_18228181&cur=beta_3.2.3_18244196",
+          "betaVersion": "3.2.3",
+          "revision": "18244196"
+        },
+        {
+          "game": "zzz",
+          "type": "w-engines",
+          "id": "12016",
+          "rarity": null,
+          "name": "[Lunar] Semiluna",
+          "iconHash": "721f3fcdecff99e79cd30be5820ef002",
+          "status": "updated",
+          "href": "https://zzz.gachabase.net/w-engines/12016/lunar-semiluna/beta/3.2.3/18244196",
+          "diff": "https://zzz.gachabase.net/diff/w-engines/12016/lunar-semiluna?prev=beta_3.2.3_18228181&cur=beta_3.2.3_18244196",
+          "betaVersion": "3.2.3",
+          "revision": "18244196"
+        },
+        {
+          "game": "zzz",
+          "type": "w-engines",
+          "id": "13017",
+          "rarity": null,
+          "name": "Catty Luck",
+          "iconHash": "8e96323a6580054391f843ac1ec772a7",
+          "status": "updated",
+          "href": "https://zzz.gachabase.net/w-engines/13017/catty-luck/beta/3.2.3/18244196",
+          "diff": "https://zzz.gachabase.net/diff/w-engines/13017/catty-luck?prev=beta_3.2.3_18228181&cur=beta_3.2.3_18244196",
+          "betaVersion": "3.2.3",
+          "revision": "18244196"
+        },
+        {
+          "game": "zzz",
+          "type": "w-engines",
+          "id": "13021",
+          "rarity": null,
+          "name": "Bloodmarrow Coffer",
+          "iconHash": "746a9f2e4198d8f6cff078eb95f6d074",
+          "status": "updated",
+          "href": "https://zzz.gachabase.net/w-engines/13021/bloodmarrow-coffer/beta/3.2.3/18244196",
+          "diff": "https://zzz.gachabase.net/diff/w-engines/13021/bloodmarrow-coffer?prev=beta_3.2.3_18228181&cur=beta_3.2.3_18244196",
+          "betaVersion": "3.2.3",
+          "revision": "18244196"
+        },
+        {
+          "game": "zzz",
+          "type": "w-engines",
+          "id": "14161",
+          "rarity": null,
+          "name": "Crimson Thirst",
+          "iconHash": "dfc2834e8f47bcfaeb696d3db8eaed27",
+          "status": "updated",
+          "href": "https://zzz.gachabase.net/w-engines/14161/crimson-thirst/beta/3.2.3/18244196",
+          "diff": "https://zzz.gachabase.net/diff/w-engines/14161/crimson-thirst?prev=beta_3.2.3_18228181&cur=beta_3.2.3_18244196",
+          "betaVersion": "3.2.3",
+          "revision": "18244196"
+        },
+        {
+          "game": "zzz",
+          "type": "w-engines",
+          "id": "14162",
+          "rarity": null,
+          "name": "...",
+          "iconHash": "d9b01b6fd82d507d866137a816f83ba9",
+          "status": "updated",
+          "href": "https://zzz.gachabase.net/w-engines/14162/14162/beta/3.2.3/18244196",
+          "diff": "https://zzz.gachabase.net/diff/w-engines/14162/14162?prev=beta_3.2.3_18228181&cur=beta_3.2.3_18244196",
+          "betaVersion": "3.2.3",
+          "revision": "18244196"
+        },
+        {
+          "game": "zzz",
+          "type": "agents",
+          "id": "1021",
+          "rarity": null,
+          "name": "...",
+          "iconHash": "dc36ffad7092e2295bf5421a10edf8e0",
+          "status": "updated",
+          "href": "https://zzz.gachabase.net/agents/1021/1021/beta/3.2.3/18228181",
+          "diff": "https://zzz.gachabase.net/diff/agents/1021/1021?prev=beta_3.2.2_18097913&cur=beta_3.2.3_18228181",
+          "betaVersion": "3.2.3",
+          "revision": "18228181"
+        },
+        {
+          "game": "zzz",
+          "type": "agents",
+          "id": "1031",
+          "rarity": null,
+          "name": "...",
+          "iconHash": "2d98e884f851589eb9bc114d66900543",
+          "status": "updated",
+          "href": "https://zzz.gachabase.net/agents/1031/1031/beta/3.2.3/18228181",
+          "diff": "https://zzz.gachabase.net/diff/agents/1031/1031?prev=beta_3.2.2_18097913&cur=beta_3.2.3_18228181",
+          "betaVersion": "3.2.3",
+          "revision": "18228181"
+        },
+        {
+          "game": "zzz",
+          "type": "agents",
+          "id": "1101",
+          "rarity": null,
+          "name": "Koleda",
+          "iconHash": "49acf5cd330ed18abe9e58c6003ae6e6",
+          "status": "updated",
+          "href": "https://zzz.gachabase.net/agents/1101/koleda/beta/3.2.3/18228181",
+          "diff": "https://zzz.gachabase.net/diff/agents/1101/koleda?prev=beta_3.2.2_18097913&cur=beta_3.2.3_18228181",
+          "betaVersion": "3.2.3",
+          "revision": "18228181"
+        },
+        {
+          "game": "zzz",
+          "type": "agents",
+          "id": "1611",
+          "rarity": null,
+          "name": "Claret",
+          "iconHash": "46041a1fd403c311377d75602a84f8f0",
+          "status": "updated",
+          "href": "https://zzz.gachabase.net/agents/1611/1611/beta/3.2.3/18228181",
+          "diff": "https://zzz.gachabase.net/diff/agents/1611/1611?prev=beta_3.2.2_18097913&cur=beta_3.2.3_18228181",
+          "betaVersion": "3.2.3",
+          "revision": "18228181"
+        },
+        {
+          "game": "zzz",
+          "type": "agents",
+          "id": "1621",
+          "rarity": null,
+          "name": "Pryce",
+          "iconHash": null,
+          "status": "updated",
+          "href": "https://zzz.gachabase.net/agents/1621/1621/beta/3.2.3/18228181",
+          "diff": "https://zzz.gachabase.net/diff/agents/1621/1621?prev=beta_3.2.2_18097913&cur=beta_3.2.3_18228181",
+          "betaVersion": "3.2.3",
+          "revision": "18228181"
+        },
         {
           "game": "zzz",
           "type": "agents",
@@ -1755,7 +2030,7 @@
       "label": "Honkai: Star Rail",
       "source": "GachaBase beta changelog",
       "sourceUrl": "https://hsr.gachabase.net/changelog/beta?lang=en",
-      "scrapedAt": "2026-08-11T15:35:30.910Z",
+      "scrapedAt": "2026-08-16T05:52:34.775Z",
       "title": "Changelog - v4.4.5X | Honkai: Star Rail | Gachabase",
       "categoryLinks": [
         {
@@ -3352,19 +3627,25 @@
           "betaVersion": "6.7.50",
           "revision": "46041974"
         }
-      ]
+      ],
+      "stale": true,
+      "freshness": {
+        "ok": false,
+        "message": "No GachaBase beta entries parsed for gi",
+        "checkedAt": "2026-08-16T05:52:34.997Z"
+      }
     }
   },
   "counts": {
-    "entries": 229,
+    "entries": 249,
     "byGame": {
-      "zzz": 127,
+      "zzz": 147,
       "hsr": 37,
       "gi": 65
     },
     "byType": {
-      "zzz:agents": 100,
-      "zzz:w-engines": 22,
+      "zzz:agents": 114,
+      "zzz:w-engines": 28,
       "zzz:bangboo": 1,
       "zzz:drive-discs": 4,
       "hsr:characters": 26,
@@ -3374,11 +3655,271 @@
       "gi:artifacts": 11
     },
     "byStatus": {
-      "updated": 207,
+      "updated": 227,
       "new": 22
     }
   },
   "entries": [
+    {
+      "game": "zzz",
+      "type": "agents",
+      "id": "1611",
+      "rarity": null,
+      "name": "Claret",
+      "iconHash": "46041a1fd403c311377d75602a84f8f0",
+      "status": "updated",
+      "href": "https://zzz.gachabase.net/agents/1611/1611/beta/3.2.3/18254958",
+      "diff": "https://zzz.gachabase.net/diff/agents/1611/1611?prev=beta_3.2.3_18252831&cur=beta_3.2.3_18254958",
+      "betaVersion": "3.2.3",
+      "revision": "18254958"
+    },
+    {
+      "game": "zzz",
+      "type": "agents",
+      "id": "1621",
+      "rarity": null,
+      "name": "Pryce",
+      "iconHash": null,
+      "status": "updated",
+      "href": "https://zzz.gachabase.net/agents/1621/1621/beta/3.2.3/18254958",
+      "diff": "https://zzz.gachabase.net/diff/agents/1621/1621?prev=beta_3.2.3_18252831&cur=beta_3.2.3_18254958",
+      "betaVersion": "3.2.3",
+      "revision": "18254958"
+    },
+    {
+      "game": "zzz",
+      "type": "agents",
+      "id": "1101",
+      "rarity": null,
+      "name": "Koleda",
+      "iconHash": "49acf5cd330ed18abe9e58c6003ae6e6",
+      "status": "updated",
+      "href": "https://zzz.gachabase.net/agents/1101/koleda/beta/3.2.3/18252831",
+      "diff": "https://zzz.gachabase.net/diff/agents/1101/koleda?prev=beta_3.2.3_18249573&cur=beta_3.2.3_18252831",
+      "betaVersion": "3.2.3",
+      "revision": "18252831"
+    },
+    {
+      "game": "zzz",
+      "type": "agents",
+      "id": "1611",
+      "rarity": null,
+      "name": "Claret",
+      "iconHash": "46041a1fd403c311377d75602a84f8f0",
+      "status": "updated",
+      "href": "https://zzz.gachabase.net/agents/1611/1611/beta/3.2.3/18252831",
+      "diff": "https://zzz.gachabase.net/diff/agents/1611/1611?prev=beta_3.2.3_18249573&cur=beta_3.2.3_18252831",
+      "betaVersion": "3.2.3",
+      "revision": "18252831"
+    },
+    {
+      "game": "zzz",
+      "type": "agents",
+      "id": "1621",
+      "rarity": null,
+      "name": "Pryce",
+      "iconHash": null,
+      "status": "updated",
+      "href": "https://zzz.gachabase.net/agents/1621/1621/beta/3.2.3/18252831",
+      "diff": "https://zzz.gachabase.net/diff/agents/1621/1621?prev=beta_3.2.3_18249573&cur=beta_3.2.3_18252831",
+      "betaVersion": "3.2.3",
+      "revision": "18252831"
+    },
+    {
+      "game": "zzz",
+      "type": "w-engines",
+      "id": "14161",
+      "rarity": null,
+      "name": "Crimson Thirst",
+      "iconHash": "dfc2834e8f47bcfaeb696d3db8eaed27",
+      "status": "updated",
+      "href": "https://zzz.gachabase.net/w-engines/14161/crimson-thirst/beta/3.2.3/18252831",
+      "diff": "https://zzz.gachabase.net/diff/w-engines/14161/crimson-thirst?prev=beta_3.2.3_18249573&cur=beta_3.2.3_18252831",
+      "betaVersion": "3.2.3",
+      "revision": "18252831"
+    },
+    {
+      "game": "zzz",
+      "type": "agents",
+      "id": "1621",
+      "rarity": null,
+      "name": "Pryce",
+      "iconHash": null,
+      "status": "updated",
+      "href": "https://zzz.gachabase.net/agents/1621/1621/beta/3.2.3/18249573",
+      "diff": "https://zzz.gachabase.net/diff/agents/1621/1621?prev=beta_3.2.3_18247000&cur=beta_3.2.3_18249573",
+      "betaVersion": "3.2.3",
+      "revision": "18249573"
+    },
+    {
+      "game": "zzz",
+      "type": "agents",
+      "id": "1101",
+      "rarity": null,
+      "name": "Koleda",
+      "iconHash": "49acf5cd330ed18abe9e58c6003ae6e6",
+      "status": "updated",
+      "href": "https://zzz.gachabase.net/agents/1101/koleda/beta/3.2.3/18244196",
+      "diff": "https://zzz.gachabase.net/diff/agents/1101/koleda?prev=beta_3.2.3_18228181&cur=beta_3.2.3_18244196",
+      "betaVersion": "3.2.3",
+      "revision": "18244196"
+    },
+    {
+      "game": "zzz",
+      "type": "agents",
+      "id": "1611",
+      "rarity": null,
+      "name": "Claret",
+      "iconHash": "46041a1fd403c311377d75602a84f8f0",
+      "status": "updated",
+      "href": "https://zzz.gachabase.net/agents/1611/1611/beta/3.2.3/18244196",
+      "diff": "https://zzz.gachabase.net/diff/agents/1611/1611?prev=beta_3.2.3_18228181&cur=beta_3.2.3_18244196",
+      "betaVersion": "3.2.3",
+      "revision": "18244196"
+    },
+    {
+      "game": "zzz",
+      "type": "agents",
+      "id": "1621",
+      "rarity": null,
+      "name": "Pryce",
+      "iconHash": null,
+      "status": "updated",
+      "href": "https://zzz.gachabase.net/agents/1621/1621/beta/3.2.3/18244196",
+      "diff": "https://zzz.gachabase.net/diff/agents/1621/1621?prev=beta_3.2.3_18228181&cur=beta_3.2.3_18244196",
+      "betaVersion": "3.2.3",
+      "revision": "18244196"
+    },
+    {
+      "game": "zzz",
+      "type": "w-engines",
+      "id": "12016",
+      "rarity": null,
+      "name": "[Lunar] Semiluna",
+      "iconHash": "721f3fcdecff99e79cd30be5820ef002",
+      "status": "updated",
+      "href": "https://zzz.gachabase.net/w-engines/12016/lunar-semiluna/beta/3.2.3/18244196",
+      "diff": "https://zzz.gachabase.net/diff/w-engines/12016/lunar-semiluna?prev=beta_3.2.3_18228181&cur=beta_3.2.3_18244196",
+      "betaVersion": "3.2.3",
+      "revision": "18244196"
+    },
+    {
+      "game": "zzz",
+      "type": "w-engines",
+      "id": "13017",
+      "rarity": null,
+      "name": "Catty Luck",
+      "iconHash": "8e96323a6580054391f843ac1ec772a7",
+      "status": "updated",
+      "href": "https://zzz.gachabase.net/w-engines/13017/catty-luck/beta/3.2.3/18244196",
+      "diff": "https://zzz.gachabase.net/diff/w-engines/13017/catty-luck?prev=beta_3.2.3_18228181&cur=beta_3.2.3_18244196",
+      "betaVersion": "3.2.3",
+      "revision": "18244196"
+    },
+    {
+      "game": "zzz",
+      "type": "w-engines",
+      "id": "13021",
+      "rarity": null,
+      "name": "Bloodmarrow Coffer",
+      "iconHash": "746a9f2e4198d8f6cff078eb95f6d074",
+      "status": "updated",
+      "href": "https://zzz.gachabase.net/w-engines/13021/bloodmarrow-coffer/beta/3.2.3/18244196",
+      "diff": "https://zzz.gachabase.net/diff/w-engines/13021/bloodmarrow-coffer?prev=beta_3.2.3_18228181&cur=beta_3.2.3_18244196",
+      "betaVersion": "3.2.3",
+      "revision": "18244196"
+    },
+    {
+      "game": "zzz",
+      "type": "w-engines",
+      "id": "14161",
+      "rarity": null,
+      "name": "Crimson Thirst",
+      "iconHash": "dfc2834e8f47bcfaeb696d3db8eaed27",
+      "status": "updated",
+      "href": "https://zzz.gachabase.net/w-engines/14161/crimson-thirst/beta/3.2.3/18244196",
+      "diff": "https://zzz.gachabase.net/diff/w-engines/14161/crimson-thirst?prev=beta_3.2.3_18228181&cur=beta_3.2.3_18244196",
+      "betaVersion": "3.2.3",
+      "revision": "18244196"
+    },
+    {
+      "game": "zzz",
+      "type": "w-engines",
+      "id": "14162",
+      "rarity": null,
+      "name": "...",
+      "iconHash": "d9b01b6fd82d507d866137a816f83ba9",
+      "status": "updated",
+      "href": "https://zzz.gachabase.net/w-engines/14162/14162/beta/3.2.3/18244196",
+      "diff": "https://zzz.gachabase.net/diff/w-engines/14162/14162?prev=beta_3.2.3_18228181&cur=beta_3.2.3_18244196",
+      "betaVersion": "3.2.3",
+      "revision": "18244196"
+    },
+    {
+      "game": "zzz",
+      "type": "agents",
+      "id": "1021",
+      "rarity": null,
+      "name": "...",
+      "iconHash": "dc36ffad7092e2295bf5421a10edf8e0",
+      "status": "updated",
+      "href": "https://zzz.gachabase.net/agents/1021/1021/beta/3.2.3/18228181",
+      "diff": "https://zzz.gachabase.net/diff/agents/1021/1021?prev=beta_3.2.2_18097913&cur=beta_3.2.3_18228181",
+      "betaVersion": "3.2.3",
+      "revision": "18228181"
+    },
+    {
+      "game": "zzz",
+      "type": "agents",
+      "id": "1031",
+      "rarity": null,
+      "name": "...",
+      "iconHash": "2d98e884f851589eb9bc114d66900543",
+      "status": "updated",
+      "href": "https://zzz.gachabase.net/agents/1031/1031/beta/3.2.3/18228181",
+      "diff": "https://zzz.gachabase.net/diff/agents/1031/1031?prev=beta_3.2.2_18097913&cur=beta_3.2.3_18228181",
+      "betaVersion": "3.2.3",
+      "revision": "18228181"
+    },
+    {
+      "game": "zzz",
+      "type": "agents",
+      "id": "1101",
+      "rarity": null,
+      "name": "Koleda",
+      "iconHash": "49acf5cd330ed18abe9e58c6003ae6e6",
+      "status": "updated",
+      "href": "https://zzz.gachabase.net/agents/1101/koleda/beta/3.2.3/18228181",
+      "diff": "https://zzz.gachabase.net/diff/agents/1101/koleda?prev=beta_3.2.2_18097913&cur=beta_3.2.3_18228181",
+      "betaVersion": "3.2.3",
+      "revision": "18228181"
+    },
+    {
+      "game": "zzz",
+      "type": "agents",
+      "id": "1611",
+      "rarity": null,
+      "name": "Claret",
+      "iconHash": "46041a1fd403c311377d75602a84f8f0",
+      "status": "updated",
+      "href": "https://zzz.gachabase.net/agents/1611/1611/beta/3.2.3/18228181",
+      "diff": "https://zzz.gachabase.net/diff/agents/1611/1611?prev=beta_3.2.2_18097913&cur=beta_3.2.3_18228181",
+      "betaVersion": "3.2.3",
+      "revision": "18228181"
+    },
+    {
+      "game": "zzz",
+      "type": "agents",
+      "id": "1621",
+      "rarity": null,
+      "name": "Pryce",
+      "iconHash": null,
+      "status": "updated",
+      "href": "https://zzz.gachabase.net/agents/1621/1621/beta/3.2.3/18228181",
+      "diff": "https://zzz.gachabase.net/diff/agents/1621/1621?prev=beta_3.2.2_18097913&cur=beta_3.2.3_18228181",
+      "betaVersion": "3.2.3",
+      "revision": "18228181"
+    },
     {
       "game": "zzz",
       "type": "agents",

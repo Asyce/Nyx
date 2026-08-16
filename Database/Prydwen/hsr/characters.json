@@ -296,9 +296,9 @@
     "sourcePath": "/star-rail/characters/aventurine-waveflair",
     "contentStatus": "beta",
     "statusLabels": [
-      "4.X"
+      "4.5"
     ],
-    "updatedText": "30/June/2026",
+    "updatedText": "12/August/2026",
     "facts": {
       "rarity": 5,
       "element": "Quantum",
@@ -1823,6 +1823,33 @@
     "assetCount": 37
   },
   {
+    "id": "pearl",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Pearl",
+    "slug": "pearl",
+    "sourcePath": "/star-rail/characters/pearl",
+    "contentStatus": "beta",
+    "statusLabels": [
+      "4.6"
+    ],
+    "updatedText": "12/August/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Ice",
+      "path": "Elation"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/pearl-d9dc8a262aee.webp",
+      "full": "Prydwen/hsr/assets/characters/pearl-b1158304697b.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/pearl.json",
+    "recommendationSections": [
+      "teams"
+    ],
+    "assetCount": 2
+  },
+  {
     "id": "pela",
     "provider": "Prydwen",
     "game": "hsr",
@@ -2026,9 +2053,9 @@
     "sourcePath": "/star-rail/characters/robin-summeretto",
     "contentStatus": "beta",
     "statusLabels": [
-      "4.X"
+      "4.5"
     ],
-    "updatedText": "30/June/2026",
+    "updatedText": "12/August/2026",
     "facts": {
       "rarity": 5,
       "element": "Wind",

@@ -1,6 +1,6 @@
 {
   "game": "hsr",
-  "updatedAt": "2026-08-11T15:33:50.046Z",
+  "updatedAt": "2026-08-16T05:50:35.480Z",
   "hashes": {
     "records": {
       "characters:acheron": "8e83e2818ab1e1917960baf829d32f18cc29dde67eb8af6b1ea80b63ae13f48c",
@@ -12,7 +12,7 @@
       "characters:ashveil": "dc8883de52f8357f4b0d516053d646c7aa8f6746036cebd80c76617a2536c756",
       "characters:asta": "ee0a9df4a025fbef4702497fea1c0770c5b3e8cfd45f481346eb82d5815e331d",
       "characters:aventurine": "e3471d0fd218c1f989cbae688e27f502f33e40e8c84bf217db7310a3844437fd",
-      "characters:aventurine-waveflair": "bdbb269e919a8c4852bfc901c7870d834150779bafda7cfba900c099998b9345",
+      "characters:aventurine-waveflair": "49606cbe60700d5ebbd4cd717e709a019d726d8818bdc735c1d39039244d37f2",
       "characters:bailu": "5a2fd9ab9f7c37499724e0e0d2116a95ddce8449e664cf68f1466945ae2d2903",
       "characters:black-swan": "17b4c93e625435fbf3b93ce51c8a494974a731dba53b5fcd208e0cf9f63d9119",
       "characters:blade": "d36c5dd0d708b8bbb69931e882d974a8e852ae301b4c7cecef47d268d1b0530a",
@@ -30,7 +30,7 @@
       "characters:evanescia": "740b16f05b40b7be9768ebc506b11544c711c4c8db88df8ebcf41b7b7e27b13e",
       "characters:feixiao": "c908605ce728c5b1a4c38543f0094d15091b095b66febbd603a3f284ef7d1006",
       "characters:firefly": "bd9ecbbfacb34b0857225c53d4b2bbda1e06fdee5e3271632f7b9beb8c0cc61a",
-      "characters:fu-xuan": "fae4868498ae511ead504b99db315d55434eabaaa70279d30eaaade9619de8cf",
+      "characters:fu-xuan": "6e612d54cb272c3071138f7f52e2f199361d11fb976f296507af87657af4bcd2",
       "characters:gallagher": "0cb8849186987d6489858fc04ec416b51d93e3fc59d4fe7f2b50023b4fec3e8e",
       "characters:gepard": "0ac8052db727c96a3c112f82ea586934fbcdcef3d5356f3b5b12050dcccf27e8",
       "characters:gilgamesh": "3fcd062b1e10a108ac1adaa75b719b9abb0167862326ce5c17e4d2318c9f8418",
@@ -60,13 +60,14 @@
       "characters:moze": "413921756f99a2bc4b2da53163887c16b3c6d19725ea23ed12148f342be3c32e",
       "characters:mydei": "3220f9ec86cc2dd395792d6f7b8529565b80cd704510e61c6a70c4d07ae2792b",
       "characters:natasha": "8179aaad56aa62d08a0a7f9d2d121ba07f25113d59b2ac0f41a8429efbc9b435",
+      "characters:pearl": "9c0d041525ea6fe016184d533b6e70fa2b9856eeca36921e721680852a12b8e4",
       "characters:pela": "7e381b76f205626ece219907afe89844ecd39fea778215308c4574551234deb8",
       "characters:phainon": "aed7f0f7c54cd87788bb8e76a49f6a44549e5ed5e71d2e6214060fe9e7994deb",
       "characters:qingque": "e9416886016257dc6a52a24b92452852e2b8e848fdb8f02780a3a60488eab300",
       "characters:rappa": "3e4f8f47e090067b65a3f362c2144c90467cec83209fe937bcdd0b052882c9c6",
       "characters:rin-tohsaka": "7fa364e606be73443ca8d49a52ecfaf1cbb3f6f60fb87cc885d6960b4ab1dc0a",
       "characters:robin": "d09131f8d5e0c1c3774b016449804b91eaae04811124892b27fbad6ddb976154",
-      "characters:robin-summeretto": "6234161cec8cd583012e8609fb08fd7c694eb1a97ce7274d63dacf1514d46b4a",
+      "characters:robin-summeretto": "331998be50e3b491402c057519d038ec8dfb2eb19358ed29218ae7e8395f15e4",
       "characters:ruan-mei": "633d0eefc50ef55f82116df69d1c43c0570544fcbc375287098be96c740faf09",
       "characters:saber": "d91c413396e2fb8c18ec3b01bbe512edc41c526faeccd26a9c89265e578a8393",
       "characters:sampo": "70df2f6cb6170964471c7c186ae2b899bc2d72d45673c3ae541f8933aad7dfba",
@@ -82,7 +83,7 @@
       "characters:the-herta": "d844435a5f3b8f141a09bbb00d12840a8f25df3f04f961b69b3e62a7831306d7",
       "characters:tingyun": "6d8cc65eaee483f8776c08c0f6c3d25e744e45d82d76aeb9cc48cf1c0dd09339",
       "characters:tingyun-fugue": "f213d0eb5bac4de4dda72b4c4cfcb7d98488e29e1782fb963e5858029b72948c",
-      "characters:topaz": "bfa55d7d7c145f4d281d589b143ff1ba939d47bb7c25e2a2b16a18484e8031bf",
+      "characters:topaz": "019d475df77a7250fc328d8f3c79917ce0ce0676a87eb2547956506c68bb4468",
       "characters:trailblazer-destruction": "608f0fc5e255754768da7ea6c1bc1e8768d4d0d4a750a7590f55f7b3cd3f1a2a",
       "characters:trailblazer-elation": "1180a0e88a29a4dcc798fcd524ded149c7d345961ed4d53012d2f282fc49e26a",
       "characters:trailblazer-harmony": "afa6591cdf8a1367232d25b8b92022271a8624928355dd477ec400d276d3ccee",
@@ -95,8 +96,8 @@
       "characters:yao-guang": "c47ce007da1eb2d68d847dd3e62ca5c9ff9b665026fa76a705db7fd36527f646",
       "characters:yukong": "dfcf93cf3dc24060a3e43d11536f47f9c8326fa0ab47e42d9705438fe48ed480",
       "characters:yunli": "6791370fc35a4f3522f462bd0d09bc4f0754a92ac8e58dad9e25b6de6e32d87f",
-      "collection:characters": "50da90886bad597871850ab836d32af918e96220d6ce934cf57d05a7ddbea466",
-      "collection:light-cones": "94bec82361c5ab989b211b952181f5e814a189e6bdd4ecd01de91b8262dda194",
+      "collection:characters": "7a48ae7233d6f7483762c8e067b1f2f2b46e93e6764da8df6c9b949a06af804e",
+      "collection:light-cones": "4e1b5e6afbbea043fa4b0fd853e90e54cd94b5ca906d964e0e578b3f02c207d5",
       "collection:relic-sets": "3e8915d8aa453f2bbe77105968ca1f3596204fb6eaa30d5d1d2295db21a3e4ae"
     }
   }

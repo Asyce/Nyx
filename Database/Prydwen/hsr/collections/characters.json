@@ -11,8 +11,8 @@
   "sourcePath": "/star-rail/characters",
   "contentStatus": "live",
   "statusLabels": [],
-  "scrapedAt": "2026-08-11T15:33:50.046Z",
-  "updatedText": "24/July/2026",
+  "scrapedAt": "2026-08-16T05:50:35.480Z",
+  "updatedText": "12/August/2026",
   "meta": {
     "title": "Honkai Star Rail Characters - Builds, Relics & Teams",
     "description": ""
@@ -760,6 +760,16 @@
       "height": 400
     },
     {
+      "id": "d9dc8a262aee",
+      "sourceHash": "d9dc8a262aee",
+      "kind": "characters",
+      "name": "Pearl",
+      "fileStem": "pearl-card",
+      "path": "Prydwen/hsr/assets/characters/pearl-d9dc8a262aee.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
       "id": "4023dca6dfde",
       "sourceHash": "4023dca6dfde",
       "kind": "characters",
@@ -1115,14 +1125,14 @@
       "id": "honkai-star-rail-characters-build-guides-0",
       "level": 1,
       "heading": "Honkai Star Rail Characters & Build Guides",
-      "text": "Browse all Honkai Star Rail characters with build guides, Relics, Light Cones, teams, Eidolons, elements, Paths, and Trace priority.\n Last updated: 24/July/2026",
+      "text": "Browse all Honkai Star Rail characters with build guides, Relics, Light Cones, teams, Eidolons, elements, Paths, and Trace priority.\n Last updated: 12/August/2026",
       "assets": []
     },
     {
       "id": "all-honkai-star-rail-characters-1",
       "level": 2,
       "heading": "All Honkai Star Rail Characters",
-      "text": "Showing 92 Characters\n ×\n 4 ★ 5 ★\n\n Reset\n\n Acheron\n\n Aglaea\n\n Anaxa\n\n Archer\n\n Argenti\n\n Arlan\n\n Ashveil\n\n Asta\n\n Aventurine\n\n Aventurine Waveflair 4.X\n\n Bailu\n\n Black Swan\n\n Blade\n\n Boothill\n\n Bronya\n\n Castorice\n\n Cerydra\n\n Cipher\n\n Clara\n\n Cyrene\n\n Dan Heng\n\n Dan Heng • Imbibitor Lunae\n\n Dan Heng • Permansor Terrae\n\n Dr. Ratio\n\n Evanescia\n\n Feixiao\n\n Firefly\n\n Fu Xuan\n\n Gallagher\n\n Gepard\n\n Gilgamesh New\n\n Guinaifen\n\n Hanya\n\n Herta\n\n Himeko\n\n Himeko Nova\n\n Hook\n\n Huohuo\n\n Hyacine\n\n Hysilens\n\n Jade\n\n Jiaoqiu\n\n Jing Yuan\n\n Jingliu\n\n Kafka\n\n Lingsha\n\n Luka\n\n Luocha\n\n Lynx\n\n March 7th\n\n March 7th • Evernight\n\n March 7th • The Hunt\n\n Misha\n\n Mortenax Blade\n\n Moze\n\n Mydei\n\n Natasha\n\n Pela\n\n Phainon\n\n Qingque\n\n Rappa\n\n Rin Tohsaka New\n\n Robin\n\n Robin Summeretto 4.X\n\n Ruan Mei\n\n Saber\n\n Sampo\n\n Seele\n\n Serval\n\n Silver Wolf\n\n Silver Wolf • Lv. 999\n\n Sparkle\n\n Sparxie\n\n Sunday\n\n Sushang\n\n The Dahlia\n\n The Herta\n\n Tingyun\n\n Tingyun • Fugue\n\n Topaz & Numby\n\n Trailblazer • Destruction\n\n Trailblazer • Elation\n\n Trailblazer • Harmony\n\n Trailblazer • Preservation\n\n Trailblazer • Remembrance\n\n Tribbie\n\n Welt\n\n Xueyi\n\n Yanqing\n\n Yao Guang\n\n Yukong\n\n Yunli",
+      "text": "Showing 93 Characters\n ×\n 4 ★ 5 ★\n\n Reset\n\n Acheron\n\n Aglaea\n\n Anaxa\n\n Archer\n\n Argenti\n\n Arlan\n\n Ashveil\n\n Asta\n\n Aventurine\n\n Aventurine Waveflair 4.5\n\n Bailu\n\n Black Swan\n\n Blade\n\n Boothill\n\n Bronya\n\n Castorice\n\n Cerydra\n\n Cipher\n\n Clara\n\n Cyrene\n\n Dan Heng\n\n Dan Heng • Imbibitor Lunae\n\n Dan Heng • Permansor Terrae\n\n Dr. Ratio\n\n Evanescia\n\n Feixiao\n\n Firefly\n\n Fu Xuan\n\n Gallagher\n\n Gepard\n\n Gilgamesh New\n\n Guinaifen\n\n Hanya\n\n Herta\n\n Himeko\n\n Himeko Nova\n\n Hook\n\n Huohuo\n\n Hyacine\n\n Hysilens\n\n Jade\n\n Jiaoqiu\n\n Jing Yuan\n\n Jingliu\n\n Kafka\n\n Lingsha\n\n Luka\n\n Luocha\n\n Lynx\n\n March 7th\n\n March 7th • Evernight\n\n March 7th • The Hunt\n\n Misha\n\n Mortenax Blade\n\n Moze\n\n Mydei\n\n Natasha\n\n Pearl 4.6\n\n Pela\n\n Phainon\n\n Qingque\n\n Rappa\n\n Rin Tohsaka New\n\n Robin\n\n Robin Summeretto 4.5\n\n Ruan Mei\n\n Saber\n\n Sampo\n\n Seele\n\n Serval\n\n Silver Wolf\n\n Silver Wolf • Lv. 999\n\n Sparkle\n\n Sparxie\n\n Sunday\n\n Sushang\n\n The Dahlia\n\n The Herta\n\n Tingyun\n\n Tingyun • Fugue\n\n Topaz & Numby\n\n Trailblazer • Destruction\n\n Trailblazer • Elation\n\n Trailblazer • Harmony\n\n Trailblazer • Preservation\n\n Trailblazer • Remembrance\n\n Tribbie\n\n Welt\n\n Xueyi\n\n Yanqing\n\n Yao Guang\n\n Yukong\n\n Yunli",
       "assets": [
         {
           "id": "e0db16ed6c66",
@@ -1855,6 +1865,16 @@
           "height": 400
         },
         {
+          "id": "d9dc8a262aee",
+          "sourceHash": "d9dc8a262aee",
+          "kind": "characters",
+          "name": "Pearl",
+          "fileStem": "pearl-card",
+          "path": "Prydwen/hsr/assets/characters/pearl-d9dc8a262aee.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
           "id": "4023dca6dfde",
           "sourceHash": "4023dca6dfde",
           "kind": "characters",
@@ -2209,7 +2229,7 @@
   ],
   "recommendations": {},
   "tables": [],
-  "text": "Honkai Star Rail Characters - Builds, Relics & Teams\n \n\n Honkai: Star Rail\n Home Database Characters Light Cones Relic Sets Banners NEW\n Tier Lists Tier List\n Endgame Memory of Chaos Pure Fiction Apocalyptic Shadow Anomaly Arbitration\n Tools Patch Timeline\n Guides Guides\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Honkai Star Rail\n /\n Characters List\n\n Honkai Star Rail Characters & Build Guides\n Browse all Honkai Star Rail characters with build guides, Relics, Light Cones, teams, Eidolons, elements, Paths, and Trace priority.\n Last updated: 24/July/2026\n\n All Honkai Star Rail Characters\n Showing 92 Characters\n ×\n 4 ★ 5 ★\n\n Reset\n\n Acheron\n\n Aglaea\n\n Anaxa\n\n Archer\n\n Argenti\n\n Arlan\n\n Ashveil\n\n Asta\n\n Aventurine\n\n Aventurine Waveflair 4.X\n\n Bailu\n\n Black Swan\n\n Blade\n\n Boothill\n\n Bronya\n\n Castorice\n\n Cerydra\n\n Cipher\n\n Clara\n\n Cyrene\n\n Dan Heng\n\n Dan Heng • Imbibitor Lunae\n\n Dan Heng • Permansor Terrae\n\n Dr. Ratio\n\n Evanescia\n\n Feixiao\n\n Firefly\n\n Fu Xuan\n\n Gallagher\n\n Gepard\n\n Gilgamesh New\n\n Guinaifen\n\n Hanya\n\n Herta\n\n Himeko\n\n Himeko Nova\n\n Hook\n\n Huohuo\n\n Hyacine\n\n Hysilens\n\n Jade\n\n Jiaoqiu\n\n Jing Yuan\n\n Jingliu\n\n Kafka\n\n Lingsha\n\n Luka\n\n Luocha\n\n Lynx\n\n March 7th\n\n March 7th • Evernight\n\n March 7th • The Hunt\n\n Misha\n\n Mortenax Blade\n\n Moze\n\n Mydei\n\n Natasha\n\n Pela\n\n Phainon\n\n Qingque\n\n Rappa\n\n Rin Tohsaka New\n\n Robin\n\n Robin Summeretto 4.X\n\n Ruan Mei\n\n Saber\n\n Sampo\n\n Seele\n\n Serval\n\n Silver Wolf\n\n Silver Wolf • Lv. 999\n\n Sparkle\n\n Sparxie\n\n Sunday\n\n Sushang\n\n The Dahlia\n\n The Herta\n\n Tingyun\n\n Tingyun • Fugue\n\n Topaz & Numby\n\n Trailblazer • Destruction\n\n Trailblazer • Elation\n\n Trailblazer • Harmony\n\n Trailblazer • Preservation\n\n Trailblazer • Remembrance\n\n Tribbie\n\n Welt\n\n Xueyi\n\n Yanqing\n\n Yao Guang\n\n Yukong\n\n Yunli",
+  "text": "Honkai Star Rail Characters - Builds, Relics & Teams\n \n\n Honkai: Star Rail\n Home Database Characters Light Cones Relic Sets Banners NEW\n Tier Lists Tier List\n Endgame Memory of Chaos Pure Fiction Apocalyptic Shadow Anomaly Arbitration\n Tools Patch Timeline\n Guides Guides\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Honkai Star Rail\n /\n Characters List\n\n Honkai Star Rail Characters & Build Guides\n Browse all Honkai Star Rail characters with build guides, Relics, Light Cones, teams, Eidolons, elements, Paths, and Trace priority.\n Last updated: 12/August/2026\n\n All Honkai Star Rail Characters\n Showing 93 Characters\n ×\n 4 ★ 5 ★\n\n Reset\n\n Acheron\n\n Aglaea\n\n Anaxa\n\n Archer\n\n Argenti\n\n Arlan\n\n Ashveil\n\n Asta\n\n Aventurine\n\n Aventurine Waveflair 4.5\n\n Bailu\n\n Black Swan\n\n Blade\n\n Boothill\n\n Bronya\n\n Castorice\n\n Cerydra\n\n Cipher\n\n Clara\n\n Cyrene\n\n Dan Heng\n\n Dan Heng • Imbibitor Lunae\n\n Dan Heng • Permansor Terrae\n\n Dr. Ratio\n\n Evanescia\n\n Feixiao\n\n Firefly\n\n Fu Xuan\n\n Gallagher\n\n Gepard\n\n Gilgamesh New\n\n Guinaifen\n\n Hanya\n\n Herta\n\n Himeko\n\n Himeko Nova\n\n Hook\n\n Huohuo\n\n Hyacine\n\n Hysilens\n\n Jade\n\n Jiaoqiu\n\n Jing Yuan\n\n Jingliu\n\n Kafka\n\n Lingsha\n\n Luka\n\n Luocha\n\n Lynx\n\n March 7th\n\n March 7th • Evernight\n\n March 7th • The Hunt\n\n Misha\n\n Mortenax Blade\n\n Moze\n\n Mydei\n\n Natasha\n\n Pearl 4.6\n\n Pela\n\n Phainon\n\n Qingque\n\n Rappa\n\n Rin Tohsaka New\n\n Robin\n\n Robin Summeretto 4.5\n\n Ruan Mei\n\n Saber\n\n Sampo\n\n Seele\n\n Serval\n\n Silver Wolf\n\n Silver Wolf • Lv. 999\n\n Sparkle\n\n Sparxie\n\n Sunday\n\n Sushang\n\n The Dahlia\n\n The Herta\n\n Tingyun\n\n Tingyun • Fugue\n\n Topaz & Numby\n\n Trailblazer • Destruction\n\n Trailblazer • Elation\n\n Trailblazer • Harmony\n\n Trailblazer • Preservation\n\n Trailblazer • Remembrance\n\n Tribbie\n\n Welt\n\n Xueyi\n\n Yanqing\n\n Yao Guang\n\n Yukong\n\n Yunli",
   "entries": [
     {
       "id": "acheron",
@@ -2286,11 +2306,11 @@
     {
       "id": "aventurine-waveflair",
       "slug": "aventurine-waveflair",
-      "name": "Aventurine Waveflair 4.X",
+      "name": "Aventurine Waveflair 4.5",
       "sourcePath": "/star-rail/characters/aventurine-waveflair",
       "contentStatus": "beta",
       "statusLabels": [
-        "4.X"
+        "4.5"
       ]
     },
     {
@@ -2672,6 +2692,16 @@
       "statusLabels": []
     },
     {
+      "id": "pearl",
+      "slug": "pearl",
+      "name": "Pearl 4.6",
+      "sourcePath": "/star-rail/characters/pearl",
+      "contentStatus": "beta",
+      "statusLabels": [
+        "4.6"
+      ]
+    },
+    {
       "id": "pela",
       "slug": "pela",
       "name": "Pela",
@@ -2724,11 +2754,11 @@
     {
       "id": "robin-summeretto",
       "slug": "robin-summeretto",
-      "name": "Robin Summeretto 4.X",
+      "name": "Robin Summeretto 4.5",
       "sourcePath": "/star-rail/characters/robin-summeretto",
       "contentStatus": "beta",
       "statusLabels": [
-        "4.X"
+        "4.5"
       ]
     },
     {
@@ -2956,7 +2986,7 @@
       "statusLabels": []
     }
   ],
-  "detailPagesScraped": 92,
-  "detailPagesTotal": 92,
+  "detailPagesScraped": 93,
+  "detailPagesTotal": 93,
   "staleDetailPagesRemoved": 0
 }

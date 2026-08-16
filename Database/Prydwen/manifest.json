@@ -1,29 +1,29 @@
 {
   "provider": "Prydwen",
-  "generatedAt": "2026-08-11T15:33:50.046Z",
+  "generatedAt": "2026-08-16T05:50:35.480Z",
   "games": {
     "hsr": {
       "game": "hsr",
       "gameName": "Honkai: Star Rail",
       "counts": {
         "collections": 3,
-        "records": 95,
-        "characters": 92,
-        "assetsPlanned": 730,
+        "records": 96,
+        "characters": 93,
+        "assetsPlanned": 734,
         "errors": 0
       },
       "assets": {
-        "requested": 730,
-        "downloaded": 0,
+        "requested": 734,
+        "downloaded": 4,
         "cached": 730,
         "missing": 0
       },
       "changes": {
         "records": {
-          "added": 0,
+          "added": 1,
           "removed": 0,
-          "changed": 2,
-          "unchanged": 93
+          "changed": 6,
+          "unchanged": 89
         }
       }
     },
@@ -34,12 +34,12 @@
         "collections": 3,
         "records": 63,
         "characters": 60,
-        "assetsPlanned": 517,
+        "assetsPlanned": 535,
         "errors": 0
       },
       "assets": {
-        "requested": 517,
-        "downloaded": 0,
+        "requested": 535,
+        "downloaded": 18,
         "cached": 517,
         "missing": 0
       },
@@ -47,8 +47,8 @@
         "records": {
           "added": 0,
           "removed": 0,
-          "changed": 0,
-          "unchanged": 63
+          "changed": 2,
+          "unchanged": 61
         }
       }
     },
@@ -72,8 +72,8 @@
         "records": {
           "added": 0,
           "removed": 0,
-          "changed": 0,
-          "unchanged": 68
+          "changed": 59,
+          "unchanged": 9
         }
       }
     },
@@ -84,12 +84,12 @@
         "collections": 3,
         "records": 34,
         "characters": 31,
-        "assetsPlanned": 323,
+        "assetsPlanned": 329,
         "errors": 0
       },
       "assets": {
-        "requested": 323,
-        "downloaded": 0,
+        "requested": 329,
+        "downloaded": 6,
         "cached": 319,
         "missing": 4
       },
@@ -97,8 +97,8 @@
         "records": {
           "added": 0,
           "removed": 0,
-          "changed": 0,
-          "unchanged": 34
+          "changed": 7,
+          "unchanged": 27
         }
       }
     }

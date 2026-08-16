@@ -3,9 +3,9 @@
   "game": "hsr",
   "collection": "characters",
   "sourcePath": "/star-rail/characters",
-  "scrapedAt": "2026-08-11T15:33:50.046Z",
-  "detailPagesTotal": 92,
-  "detailPagesScraped": 92,
+  "scrapedAt": "2026-08-16T05:50:35.480Z",
+  "detailPagesTotal": 93,
+  "detailPagesScraped": 93,
   "staleDetailPagesRemoved": 0,
   "items": [
     {
@@ -83,11 +83,11 @@
     {
       "id": "aventurine-waveflair",
       "slug": "aventurine-waveflair",
-      "name": "Aventurine Waveflair 4.X",
+      "name": "Aventurine Waveflair 4.5",
       "sourcePath": "/star-rail/characters/aventurine-waveflair",
       "contentStatus": "beta",
       "statusLabels": [
-        "4.X"
+        "4.5"
       ]
     },
     {
@@ -469,6 +469,16 @@
       "statusLabels": []
     },
     {
+      "id": "pearl",
+      "slug": "pearl",
+      "name": "Pearl 4.6",
+      "sourcePath": "/star-rail/characters/pearl",
+      "contentStatus": "beta",
+      "statusLabels": [
+        "4.6"
+      ]
+    },
+    {
       "id": "pela",
       "slug": "pela",
       "name": "Pela",
@@ -521,11 +531,11 @@
     {
       "id": "robin-summeretto",
       "slug": "robin-summeretto",
-      "name": "Robin Summeretto 4.X",
+      "name": "Robin Summeretto 4.5",
       "sourcePath": "/star-rail/characters/robin-summeretto",
       "contentStatus": "beta",
       "statusLabels": [
-        "4.X"
+        "4.5"
       ]
     },
     {

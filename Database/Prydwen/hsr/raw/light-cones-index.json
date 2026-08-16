@@ -3,7 +3,7 @@
   "game": "hsr",
   "collection": "light-cones",
   "sourcePath": "/star-rail/light-cones",
-  "scrapedAt": "2026-08-11T15:33:50.046Z",
+  "scrapedAt": "2026-08-16T05:50:35.480Z",
   "detailPagesTotal": 0,
   "detailPagesScraped": 0,
   "staleDetailPagesRemoved": 0,
@@ -1553,6 +1553,20 @@
       "text": "Return to Darkness\nRarity: 4 ★\nPath: Hunt\nIncreases the wearer's CRIT Rate by 12/15/18/21/24% . After a CRIT Hit, there is a 16 /20/24/28/32 % fixed chance to dispel 1 buff on the target enemy. This effect can only trigger once per attack.\nHP\n+ 846\nATK\n+ 529\nDEF\n+ 330"
     },
     {
+      "id": "rise-and-sing",
+      "name": "Rise and Sing",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/rise-and-sing-d4b8faf42f4f.webp",
+      "assetId": "d4b8faf42f4f",
+      "fields": {
+        "rarity": "5 ★",
+        "path": "Remembrance"
+      },
+      "text": "Rise and Sing\nRarity: 5 ★\nPath: Remembrance\nComing Soon!\nStats for this Light Cone aren't available yet."
+    },
+    {
       "id": "river-flows-in-spring",
       "name": "River Flows in Spring",
       "kind": "light-cones",
@@ -1761,6 +1775,20 @@
         "path": "Hunt"
       },
       "text": "Subscribe for More!\nRarity: 4 ★\nPath: Hunt\nIncreases the DMG of the wearer's Basic ATK and Skill by 24 /30/36/42/48 % . This effect increases by an extra 24 /30/36/42/48 % when the wearer's current Energy reaches its max level.\nHP\n+ 952\nATK\n+ 476\nDEF\n+ 330"
+    },
+    {
+      "id": "summer-rides-the-surf",
+      "name": "Summer Rides the Surf",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/summer-rides-the-surf-fe01144b099a.webp",
+      "assetId": "fe01144b099a",
+      "fields": {
+        "rarity": "5 ★",
+        "path": "Elation"
+      },
+      "text": "Summer Rides the Surf\nRarity: 5 ★\nPath: Elation\nComing Soon!\nStats for this Light Cone aren't available yet."
     },
     {
       "id": "sweat-now-cry-less",

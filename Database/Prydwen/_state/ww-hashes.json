@@ -1,6 +1,6 @@
 {
   "game": "ww",
-  "updatedAt": "2026-08-11T15:33:50.046Z",
+  "updatedAt": "2026-08-16T05:50:35.480Z",
   "hashes": {
     "records": {
       "characters:aalto": "f9e7fd9f276741ac049d619543148bf11706968379e55b2af8663f98d577233b",
@@ -50,7 +50,7 @@
       "characters:rover-spectro": "829ede93743d96ccf6c9494a97abb31bd94a19fb074066a096a8b1be105d8c5f",
       "characters:sanhua": "8975135ae51a86d1ef3b6207284842272cf9905eeb1ec14548fcd1f9f4518c1c",
       "characters:sigrika": "c24f82c7fa8b99623ce7267b5f36d055f7e59e0636e726dd433f8639dc887be0",
-      "characters:suisui": "6484d908e0277301aa39717f5982fe9f52301a799c5185c9d68ffe4d955c5602",
+      "characters:suisui": "f6dc6686b486b3175a82fdb3891536f7a3539a9ee5776de0b896309536a2f1c5",
       "characters:suoming": "d38c2e4c682ded03db5ccf20ab0135c21532d999cf9e8f593ab6737d81a0ad70",
       "characters:taoqi": "5db322e8195c0d5869bd71e46929d08650fe80259462edcb9d2d134a179fdf05",
       "characters:the-shorekeeper": "271de050463d3280f6c32ce9879a01093d45e323992dc53395d0659778e920e8",
@@ -64,7 +64,7 @@
       "characters:zani": "6aee9c7670dd4336b252864c5277fd6de7c42b4c502a85d5c635f453b69651bd",
       "characters:zhezhi": "774129cd8cdd87cba35476e62ec997dfe4c4eeff884f6a6d4acddde9f1b77cd0",
       "collection:characters": "40a9ea3e6b40c34e738a46551231bb3e316e29972a7b2e8fb633a585f6a8069e",
-      "collection:echoes": "2bbc841003cd905d189e8ba303fcc566b43d9d60c27861f7504e422d1a38a33d",
+      "collection:echoes": "fedfe4c0c5405d86fc7f58c7b7ad5603a87da61d4f699478e8cdbc95443162d3",
       "collection:weapons": "9a41ee2ec7605abd0f205d1337b7513b0d6d2772ffaea1cb543eff7a9584f7b5"
     }
   }

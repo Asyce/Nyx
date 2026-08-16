@@ -1,21 +1,64 @@
 {
   "provider": "Prydwen",
   "game": "endfield",
-  "generatedAt": "2026-08-11T15:33:50.046Z",
+  "generatedAt": "2026-08-16T05:50:35.480Z",
   "summary": {
     "records": {
       "added": 0,
       "removed": 0,
-      "changed": 0,
-      "unchanged": 34
+      "changed": 7,
+      "unchanged": 27
     }
   },
   "sections": {
     "records": {
       "added": [],
       "removed": [],
-      "changed": [],
-      "unchanged": 34,
+      "changed": [
+        {
+          "id": "characters:laevatain",
+          "name": "Laevatain",
+          "previousHash": "722fa25eefa27b574bc4c2a31ee000eaca68c5db5fef5241ebb96d105b4095da",
+          "currentHash": "ee5ed811da6e3fd8ced7db0d88e86ff348229cd620693be677e30230f7b0c6a2"
+        },
+        {
+          "id": "characters:last-rite",
+          "name": "Last Rite",
+          "previousHash": "688a5686db7a9af84438ad49e801c74b23483e96cb4ad3763074d757d3f42906",
+          "currentHash": "2f3b5dca1c70fe053c4985ea918b49d5228867f140452e234a28ee719f8ec260"
+        },
+        {
+          "id": "characters:liino",
+          "name": "Liino",
+          "previousHash": "561e673dff87907817f534868eb68b35f1442912de79a04179b946f3a623389f",
+          "currentHash": "26f9a9ca8d8a9f1cde59665a1d938bba02f293529dfe587470091611c57a43a5"
+        },
+        {
+          "id": "characters:tangtang",
+          "name": "Tangtang",
+          "previousHash": "2e6c936f47fe205d93b206ff5b4a962f32198a0d9d74d25b10eca0d9311d7cab",
+          "currentHash": "32e9ba51e9da9e24339f2dad13d959494a43a8f431275ead84d7a6ee34f4fad2"
+        },
+        {
+          "id": "characters:wulfgard",
+          "name": "Wulfgard",
+          "previousHash": "7d55aee2172d33afa5577d42d8ae0f45cb1fdd7a75e733b4bb18afe70b9622ae",
+          "currentHash": "22892f26b8a5d5051201c26b1ee0874faab89f348f9ddfd8b9b3a8209a233bd8"
+        },
+        {
+          "id": "collection:characters",
+          "name": "Arknights: Endfield Characters Build Guides",
+          "previousHash": "3f0c5102d34b3417d2d49b5e7eab465ec463a55be210a3710c516c40029752b9",
+          "currentHash": "44ba2b61c12da17b5cdd6ac1ab91553122029719ca2f90bdb4120550b84d61e6"
+        },
+        {
+          "id": "collection:gear",
+          "name": "Arknights: Endfield Gear List",
+          "previousHash": "7953c03440c5e9710f74c23eec40cd5c179d039ebc5d895735de78a16bcc4a73",
+          "currentHash": "4752b48d7944315e3d2d5e1ff1aa73e93153ee5a312e183edd8ea883cac7f6d6"
+        }
+      ],
+      "unchanged": 27,
       "totals": {
         "previous": 34,
         "current": 34

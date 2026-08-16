@@ -2,7 +2,7 @@
   "provider": "Prydwen",
   "game": "ww",
   "gameName": "Wuthering Waves",
-  "scrapedAt": "2026-08-11T15:33:50.046Z",
+  "scrapedAt": "2026-08-16T05:50:35.480Z",
   "sample": null,
   "source": {
     "site": "prydwen.gg",
@@ -12,7 +12,7 @@
     "collections": 3,
     "records": 63,
     "characters": 60,
-    "assetsPlanned": 517,
+    "assetsPlanned": 535,
     "errors": 0
   },
   "files": {
@@ -24,8 +24,8 @@
     "missingAssets": "Prydwen/ww/missing-assets.json"
   },
   "assets": {
-    "requested": 517,
-    "downloaded": 0,
+    "requested": 535,
+    "downloaded": 18,
     "cached": 517,
     "missing": 0
   },

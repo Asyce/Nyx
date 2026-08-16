@@ -1,37 +1,68 @@
 {
   "provider": "Prydwen",
   "game": "hsr",
-  "generatedAt": "2026-08-11T15:33:50.046Z",
+  "generatedAt": "2026-08-16T05:50:35.480Z",
   "summary": {
     "records": {
-      "added": 0,
+      "added": 1,
       "removed": 0,
-      "changed": 2,
-      "unchanged": 93
+      "changed": 6,
+      "unchanged": 89
     }
   },
   "sections": {
     "records": {
-      "added": [],
+      "added": [
+        {
+          "id": "characters:pearl",
+          "name": "Pearl",
+          "previousHash": null,
+          "currentHash": "9c0d041525ea6fe016184d533b6e70fa2b9856eeca36921e721680852a12b8e4"
+        }
+      ],
       "removed": [],
       "changed": [
         {
-          "id": "characters:fu-xuan",
-          "name": "Fu Xuan",
-          "previousHash": "6e612d54cb272c3071138f7f52e2f199361d11fb976f296507af87657af4bcd2",
-          "currentHash": "fae4868498ae511ead504b99db315d55434eabaaa70279d30eaaade9619de8cf"
+          "id": "characters:aventurine-waveflair",
+          "name": "Aventurine Waveflair",
+          "previousHash": "bdbb269e919a8c4852bfc901c7870d834150779bafda7cfba900c099998b9345",
+          "currentHash": "49606cbe60700d5ebbd4cd717e709a019d726d8818bdc735c1d39039244d37f2"
         },
         {
-          "id": "characters:jade",
-          "name": "Jade",
-          "previousHash": "a32967852188b65595bbd0a0109283424b038f06ecc26492c3e2a26615c1abc8",
-          "currentHash": "5f3d8c10693f879f16bdc30fd719ba027ec214f3aebd9079aa31b0956dfe9250"
+          "id": "characters:fu-xuan",
+          "name": "Fu Xuan",
+          "previousHash": "fae4868498ae511ead504b99db315d55434eabaaa70279d30eaaade9619de8cf",
+          "currentHash": "6e612d54cb272c3071138f7f52e2f199361d11fb976f296507af87657af4bcd2"
+        },
+        {
+          "id": "characters:robin-summeretto",
+          "name": "Robin Summeretto",
+          "previousHash": "6234161cec8cd583012e8609fb08fd7c694eb1a97ce7274d63dacf1514d46b4a",
+          "currentHash": "331998be50e3b491402c057519d038ec8dfb2eb19358ed29218ae7e8395f15e4"
+        },
+        {
+          "id": "characters:topaz",
+          "name": "Topaz & Numby",
+          "previousHash": "bfa55d7d7c145f4d281d589b143ff1ba939d47bb7c25e2a2b16a18484e8031bf",
+          "currentHash": "019d475df77a7250fc328d8f3c79917ce0ce0676a87eb2547956506c68bb4468"
+        },
+        {
+          "id": "collection:characters",
+          "name": "Honkai Star Rail Characters & Build Guides",
+          "previousHash": "50da90886bad597871850ab836d32af918e96220d6ce934cf57d05a7ddbea466",
+          "currentHash": "7a48ae7233d6f7483762c8e067b1f2f2b46e93e6764da8df6c9b949a06af804e"
+        },
+        {
+          "id": "collection:light-cones",
+          "name": "Honkai: Star Rail Light Cones",
+          "previousHash": "94bec82361c5ab989b211b952181f5e814a189e6bdd4ecd01de91b8262dda194",
+          "currentHash": "4e1b5e6afbbea043fa4b0fd853e90e54cd94b5ca906d964e0e578b3f02c207d5"
         }
       ],
-      "unchanged": 93,
+      "unchanged": 89,
       "totals": {
         "previous": 95,
-        "current": 95
+        "current": 96
       }
     }
   }

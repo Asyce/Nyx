@@ -4,9 +4,9 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-08-16T03:59:22.692Z",
+  "generatedAt": "2026-08-16T05:53:15.751Z",
   "codes": {
-    "updated": "2026-08-15T20:13:06.168Z",
+    "updated": "2026-08-16T05:52:59.584Z",
     "maxAgeDays": 28,
     "games": {
       "gi": [
@@ -109,20 +109,6 @@ var NYX_DB = {
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=GS70YTASTJ"
         },
         {
-          "code": "Everwinter",
-          "reward": "x100 Primogems and x10 Mystic Enchancement Ore",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Primogems",
-            "needle": "primogem",
-            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
-          },
-          "added": "2026-07-31",
-          "firstSeen": "2026-08-11T17:38:17.483Z",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=Everwinter",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=Everwinter"
-        },
-        {
           "code": "Odettte0812",
           "reward": "x100 Primogems and x50,000 Mora",
           "premium": true,
@@ -135,20 +121,6 @@ var NYX_DB = {
           "firstSeen": "2026-08-01T21:03:08.107Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=Odettte0812",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=Odettte0812"
-        },
-        {
-          "code": "OntoSnezhnaya",
-          "reward": "x100 Primogems and x5 Hero S Wit",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Primogems",
-            "needle": "primogem",
-            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
-          },
-          "added": "2026-07-31",
-          "firstSeen": "2026-08-11T17:38:17.483Z",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=OntoSnezhnaya",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=OntoSnezhnaya"
         }
       ],
       "hsr": [
@@ -179,34 +151,6 @@ var NYX_DB = {
           "firstSeen": "2026-08-14T21:17:21.162Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=2TKRKAR6YG2K",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=2TKRKAR6YG2K"
-        },
-        {
-          "code": "LSJ9JARPZH33",
-          "reward": "100 Stellar Jade and Five Traveler S Guides",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Stellar Jade",
-            "needle": "stellar jade",
-            "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
-          },
-          "added": "2026-08-14",
-          "firstSeen": "2026-08-15T20:13:06.168Z",
-          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=LSJ9JARPZH33",
-          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=LSJ9JARPZH33"
-        },
-        {
-          "code": "YAJQ2TR6ZY2P",
-          "reward": "100 Stellar Jade and Four Refined Aether",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Stellar Jade",
-            "needle": "stellar jade",
-            "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
-          },
-          "added": "2026-08-14",
-          "firstSeen": "2026-08-15T20:13:06.168Z",
-          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=YAJQ2TR6ZY2P",
-          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=YAJQ2TR6ZY2P"
         },
         {
           "code": "4TKSX77Y58QK",
@@ -525,16 +469,17 @@ var NYX_DB = {
   },
   "banners": {
     "updated": "2026-08-14T04:06:56.603Z",
-    "checkedAt": "2026-08-14T04:06:56.603Z",
+    "checkedAt": "2026-08-16T05:52:46.401Z",
     "games": {
       "hsr": {
         "name": "Honkai: Star Rail",
         "freshness": {
           "status": "stale",
-          "checkedAt": "2026-08-14T04:06:56.603Z",
+          "checkedAt": "2026-08-16T05:52:46.401Z",
           "lastSuccessfulFetch": "2026-08-14T04:06:56.603Z",
           "lastValidUpdate": "2026-08-14T04:06:56.603Z",
-          "source": "game8"
+          "source": "game8",
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
           "phase": "4.4 Phase 2",
@@ -695,7 +640,7 @@ var NYX_DB = {
             "iconZoom": false,
             "art": "/assets/banners/hsr/pearl-splash-3c9ede1f47fc14b1.png",
             "namecard": null,
-            "rarity": null,
+            "rarity": 5,
             "debut": true,
             "debutAt": null,
             "hint": "Robin - Summeretto Release in Phase 1 of Version 4.6",
@@ -722,10 +667,11 @@ var NYX_DB = {
         "name": "Genshin Impact",
         "freshness": {
           "status": "stale",
-          "checkedAt": "2026-08-14T04:06:56.603Z",
+          "checkedAt": "2026-08-16T05:52:46.401Z",
           "lastSuccessfulFetch": "2026-08-14T04:06:56.603Z",
           "lastValidUpdate": "2026-08-14T04:06:56.603Z",
-          "source": "game8"
+          "source": "game8",
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
           "phase": "7.0 Phase 1",
@@ -1035,10 +981,11 @@ var NYX_DB = {
         "name": "Wuthering Waves",
         "freshness": {
           "status": "stale",
-          "checkedAt": "2026-08-14T04:06:56.603Z",
+          "checkedAt": "2026-08-16T05:52:46.401Z",
           "lastSuccessfulFetch": "2026-08-14T04:06:56.603Z",
           "lastValidUpdate": "2026-08-14T04:06:56.603Z",
-          "source": "game8"
+          "source": "game8",
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
           "phase": "3.5 Phase 2",
@@ -1216,10 +1163,11 @@ var NYX_DB = {
         "name": "Zenless Zone Zero",
         "freshness": {
           "status": "stale",
-          "checkedAt": "2026-08-14T04:06:56.603Z",
+          "checkedAt": "2026-08-16T05:52:46.401Z",
           "lastSuccessfulFetch": "2026-08-14T04:06:56.603Z",
           "lastValidUpdate": "2026-08-14T04:06:56.603Z",
-          "source": "game8"
+          "source": "game8",
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
           "phase": "3.1 Phase 1",
@@ -1438,10 +1386,11 @@ var NYX_DB = {
         "name": "Arknights: Endfield",
         "freshness": {
           "status": "stale",
-          "checkedAt": "2026-08-14T04:06:56.603Z",
+          "checkedAt": "2026-08-16T05:52:46.401Z",
           "lastSuccessfulFetch": "2026-08-14T04:06:56.603Z",
           "lastValidUpdate": "2026-08-14T04:06:56.603Z",
-          "source": "game8"
+          "source": "game8",
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
           "phase": "1.4 Phase 2",
@@ -5757,20 +5706,6 @@ var NYX_DB = {
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=GS70YTASTJ"
         },
         {
-          "code": "Everwinter",
-          "reward": "x100 Primogems and x10 Mystic Enchancement Ore",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Primogems",
-            "needle": "primogem",
-            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
-          },
-          "added": "2026-07-31",
-          "firstSeen": "2026-08-11T17:38:17.483Z",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=Everwinter",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=Everwinter"
-        },
-        {
           "code": "Odettte0812",
           "reward": "x100 Primogems and x50,000 Mora",
           "premium": true,
@@ -5783,30 +5718,17 @@ var NYX_DB = {
           "firstSeen": "2026-08-01T21:03:08.107Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=Odettte0812",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=Odettte0812"
-        },
-        {
-          "code": "OntoSnezhnaya",
-          "reward": "x100 Primogems and x5 Hero S Wit",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Primogems",
-            "needle": "primogem",
-            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
-          },
-          "added": "2026-07-31",
-          "firstSeen": "2026-08-11T17:38:17.483Z",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=OntoSnezhnaya",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=OntoSnezhnaya"
         }
       ],
       "banners": {
         "name": "Genshin Impact",
         "freshness": {
           "status": "stale",
-          "checkedAt": "2026-08-14T04:06:56.603Z",
+          "checkedAt": "2026-08-16T05:52:46.401Z",
           "lastSuccessfulFetch": "2026-08-14T04:06:56.603Z",
           "lastValidUpdate": "2026-08-14T04:06:56.603Z",
-          "source": "game8"
+          "source": "game8",
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
           "phase": "7.0 Phase 1",
@@ -165914,14 +165836,14 @@ var NYX_DB = {
     "hsr": {
       "name": "Honkai: Star Rail",
       "icon": "../assets/icon/hsricon.png",
-      "rosterCount": 90,
+      "rosterCount": 91,
       "collections": [
         {
           "key": "light-cones",
           "title": "Light Cones",
-          "updatedText": "24/July/2026",
+          "updatedText": "15/August/2026",
           "source": "Prydwen",
-          "count": 169,
+          "count": 171,
           "items": [
             {
               "id": "a-dream-scented-in-wheat",
@@ -167422,6 +167344,19 @@ var NYX_DB = {
               "labels": []
             },
             {
+              "id": "rise-and-sing",
+              "name": "Rise and Sing",
+              "kind": "light-cones",
+              "art": "../../Database/Prydwen/hsr/assets/light-cones/rise-and-sing-d4b8faf42f4f.webp",
+              "fields": {
+                "rarity": "5 \u2605",
+                "path": "Remembrance"
+              },
+              "text": "Rise and Sing\nRarity: 5 \u2605\nPath: Remembrance\nComing Soon!\nStats for this Light Cone aren't available yet.",
+              "status": "live",
+              "labels": []
+            },
+            {
               "id": "river-flows-in-spring",
               "name": "River Flows in Spring",
               "kind": "light-cones",
@@ -167621,6 +167556,19 @@ var NYX_DB = {
               "status": "live",
               "labels": [],
               "released": "2023-06-07"
+            },
+            {
+              "id": "summer-rides-the-surf",
+              "name": "Summer Rides the Surf",
+              "kind": "light-cones",
+              "art": "../../Database/Prydwen/hsr/assets/light-cones/summer-rides-the-surf-fe01144b099a.webp",
+              "fields": {
+                "rarity": "5 \u2605",
+                "path": "Elation"
+              },
+              "text": "Summer Rides the Surf\nRarity: 5 \u2605\nPath: Elation\nComing Soon!\nStats for this Light Cone aren't available yet.",
+              "status": "live",
+              "labels": []
             },
             {
               "id": "sweat-now-cry-less",
@@ -169176,34 +169124,6 @@ var NYX_DB = {
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=2TKRKAR6YG2K"
         },
         {
-          "code": "LSJ9JARPZH33",
-          "reward": "100 Stellar Jade and Five Traveler S Guides",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Stellar Jade",
-            "needle": "stellar jade",
-            "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
-          },
-          "added": "2026-08-14",
-          "firstSeen": "2026-08-15T20:13:06.168Z",
-          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=LSJ9JARPZH33",
-          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=LSJ9JARPZH33"
-        },
-        {
-          "code": "YAJQ2TR6ZY2P",
-          "reward": "100 Stellar Jade and Four Refined Aether",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Stellar Jade",
-            "needle": "stellar jade",
-            "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
-          },
-          "added": "2026-08-14",
-          "firstSeen": "2026-08-15T20:13:06.168Z",
-          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=YAJQ2TR6ZY2P",
-          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=YAJQ2TR6ZY2P"
-        },
-        {
           "code": "4TKSX77Y58QK",
           "reward": "30 stellar jade, three traveler's guides, five condensed aether, four lost gold fragments, and 20k credits",
           "premium": true,
@@ -169348,10 +169268,11 @@ var NYX_DB = {
         "name": "Honkai: Star Rail",
         "freshness": {
           "status": "stale",
-          "checkedAt": "2026-08-14T04:06:56.603Z",
+          "checkedAt": "2026-08-16T05:52:46.401Z",
           "lastSuccessfulFetch": "2026-08-14T04:06:56.603Z",
           "lastValidUpdate": "2026-08-14T04:06:56.603Z",
-          "source": "game8"
+          "source": "game8",
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
           "phase": "4.4 Phase 2",
@@ -169512,7 +169433,7 @@ var NYX_DB = {
             "iconZoom": false,
             "art": "/assets/banners/hsr/pearl-splash-3c9ede1f47fc14b1.png",
             "namecard": null,
-            "rarity": null,
+            "rarity": 5,
             "debut": true,
             "debutAt": null,
             "hint": "Robin - Summeretto Release in Phase 1 of Version 4.6",
@@ -169536,6 +169457,48 @@ var NYX_DB = {
         ]
       },
       "roster": [
+        {
+          "id": "hsr-aventurine-waveflair",
+          "name": "Aventurine Waveflair",
+          "aliases": [],
+          "title": "Over the Glided Tides",
+          "rarity": 5,
+          "element": "Quantum",
+          "role": "Elation",
+          "icon": "../../Database/GameData/hsr/assets/characters/round/1513.webp",
+          "art": "../../Database/GameData/hsr/assets/characters/draw-card/1513.webp",
+          "facts": {
+            "title": "Over the Glided Tides"
+          },
+          "forms": []
+        },
+        {
+          "id": "hsr-pearl",
+          "name": "Pearl",
+          "aliases": [],
+          "rarity": 5,
+          "element": "Ice",
+          "role": "Elation",
+          "icon": null,
+          "art": "../../Database/Prydwen/hsr/assets/characters/pearl-b1158304697b.webp",
+          "facts": {},
+          "forms": []
+        },
+        {
+          "id": "hsr-robin-summeretto",
+          "name": "Robin Summeretto",
+          "aliases": [],
+          "title": "Summer Chorus",
+          "rarity": 5,
+          "element": "Wind",
+          "role": "Remembrance",
+          "icon": "../../Database/GameData/hsr/assets/characters/round/1512.webp",
+          "art": "../../Database/GameData/hsr/assets/characters/draw-card/1512.webp",
+          "facts": {
+            "title": "Summer Chorus"
+          },
+          "forms": []
+        },
         {
           "id": "hsr-gilgamesh",
           "name": "Gilgamesh",
@@ -169610,30 +169573,6 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23059.webp"
           ],
-          "forms": []
-        },
-        {
-          "id": "hsr-aventurine-waveflair",
-          "name": "Aventurine Waveflair",
-          "aliases": [],
-          "rarity": 5,
-          "element": "Quantum",
-          "role": "Elation",
-          "icon": "../../Database/GameData/hsr/assets/characters/round/1513.webp",
-          "art": "../../Database/GameData/hsr/assets/characters/draw-card/1513.webp",
-          "facts": {},
-          "forms": []
-        },
-        {
-          "id": "hsr-robin-summeretto",
-          "name": "Robin Summeretto",
-          "aliases": [],
-          "rarity": 5,
-          "element": "Wind",
-          "role": "Remembrance",
-          "icon": "../../Database/GameData/hsr/assets/characters/round/1512.webp",
-          "art": "../../Database/GameData/hsr/assets/characters/draw-card/1512.webp",
-          "facts": {},
           "forms": []
         },
         {
@@ -175104,10 +175043,11 @@ var NYX_DB = {
         "name": "Zenless Zone Zero",
         "freshness": {
           "status": "stale",
-          "checkedAt": "2026-08-14T04:06:56.603Z",
+          "checkedAt": "2026-08-16T05:52:46.401Z",
           "lastSuccessfulFetch": "2026-08-14T04:06:56.603Z",
           "lastValidUpdate": "2026-08-14T04:06:56.603Z",
-          "source": "game8"
+          "source": "game8",
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
           "phase": "3.1 Phase 1",
@@ -175323,6 +175263,22 @@ var NYX_DB = {
         ]
       },
       "roster": [
+        {
+          "id": "zzz-sigrid",
+          "name": "Sigrid",
+          "aliases": [],
+          "rarity": "S",
+          "element": "Ice",
+          "role": "Attack",
+          "icon": "../../Database/Prydwen/zzz/assets/characters/sigrid-30ecebbe136b.webp",
+          "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole66.webp",
+          "facts": {
+            "fullName": "Sigrid de L'Azur",
+            "faction": "Roscaelifer",
+            "birthday": "April 23"
+          },
+          "forms": []
+        },
         {
           "id": "zzz-alice",
           "name": "Alice",
@@ -176306,22 +176262,6 @@ var NYX_DB = {
             "faction": "Hollow Special Operations Section 6",
             "birthday": "January 23",
             "title": "Take a Break"
-          },
-          "forms": []
-        },
-        {
-          "id": "zzz-sigrid",
-          "name": "Sigrid",
-          "aliases": [],
-          "rarity": "S",
-          "element": "Ice",
-          "role": "Attack",
-          "icon": "../../Database/Prydwen/zzz/assets/characters/sigrid-30ecebbe136b.webp",
-          "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole66.webp",
-          "facts": {
-            "fullName": "Sigrid de L'Azur",
-            "faction": "Roscaelifer",
-            "birthday": "April 23"
           },
           "forms": []
         }
@@ -180174,10 +180114,11 @@ var NYX_DB = {
         "name": "Wuthering Waves",
         "freshness": {
           "status": "stale",
-          "checkedAt": "2026-08-14T04:06:56.603Z",
+          "checkedAt": "2026-08-16T05:52:46.401Z",
           "lastSuccessfulFetch": "2026-08-14T04:06:56.603Z",
           "lastValidUpdate": "2026-08-14T04:06:56.603Z",
-          "source": "game8"
+          "source": "game8",
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
           "phase": "3.5 Phase 2",
@@ -182684,9 +182625,9 @@ var NYX_DB = {
         {
           "key": "gear",
           "title": "Gear",
-          "updatedText": "16/July/2026",
+          "updatedText": "14/August/2026",
           "source": "Prydwen",
-          "count": 152,
+          "count": 158,
           "items": [
             {
               "id": "aethertech-analysis-band",
@@ -183116,7 +183057,7 @@ var NYX_DB = {
               "id": "bonekrusha-mask-t2",
               "name": "Bonekrusha Mask T2",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-13-05e2c42ad2a9.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-158-a0081030bf56.webp",
               "fields": {
                 "level": "70",
                 "type": "Kit",
@@ -183133,7 +183074,7 @@ var NYX_DB = {
               "id": "bonekrusha-poncho",
               "name": "Bonekrusha Poncho",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-14-878ac8b93409.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-156-6f20614b4ef4.webp",
               "fields": {
                 "level": "70",
                 "type": "Armor",
@@ -183150,7 +183091,7 @@ var NYX_DB = {
               "id": "bonekrusha-poncho-t1",
               "name": "Bonekrusha Poncho T1",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-139-6b91c70d34fd.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-157-1c3265c2b9a9.webp",
               "fields": {
                 "level": "70",
                 "type": "Armor",
@@ -183167,7 +183108,7 @@ var NYX_DB = {
               "id": "bonekrusha-wristband",
               "name": "Bonekrusha Wristband",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-15-926e3820f36c.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-155-5315100d6527.webp",
               "fields": {
                 "level": "70",
                 "type": "Gloves",
@@ -183185,7 +183126,7 @@ var NYX_DB = {
               "id": "bonekrusha-wristband-t1",
               "name": "Bonekrusha Wristband T1",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-140-a7d37211c7be.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-153-522fbeee1190.webp",
               "fields": {
                 "level": "70",
                 "type": "Gloves",
@@ -183196,6 +183137,108 @@ var NYX_DB = {
                 "electric_dmg": "+ 19.20%"
               },
               "text": "Bonekrusha Wristband T1\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nAgility :\n+ 65\nStrength :\n+ 43\nCryo DMG :\n+ 19.20%\nElectric DMG :\n+ 19.20%\nGear Set (3-PC)\nBonekrusha\nAttack + 15% . When the wearer casts a combo skill, gain 1 stack of Bonekrushing Smash that grants DMG +30% to the next battle skill cast. Bonekrushing Smash can stack 2 time(s).",
+              "status": "live",
+              "labels": []
+            },
+            {
+              "id": "catastrophe-filter",
+              "name": "Catastrophe Filter",
+              "kind": "gear",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-154-194b63b2cdeb.webp",
+              "fields": {
+                "level": "70",
+                "type": "Kit",
+                "def": "+ 15",
+                "will": "+ 23",
+                "intellect": "+ 15",
+                "arts_intensity": "+ 29"
+              },
+              "text": "Catastrophe Filter\nLevel: 70\nType: Kit\nDEF: + 15\nGear Attributes\nWill :\n+ 23\nIntellect :\n+ 15\nArts Intensity :\n+ 29\nGear Set (3-PC)\nCatastrophe\nUltimate Gain Efficiency + 20% . The wearer casts a battle skill, the action returns 50 SP. This effect only triggers 1 time per battle.",
+              "status": "live",
+              "labels": []
+            },
+            {
+              "id": "catastrophe-gauze-cartridge",
+              "name": "Catastrophe Gauze Cartridge",
+              "kind": "gear",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-13-05e2c42ad2a9.webp",
+              "fields": {
+                "level": "70",
+                "type": "Kit",
+                "def": "+ 15",
+                "strength": "+ 23",
+                "intellect": "+ 15",
+                "ultimate_dmg": "+ 36.80%"
+              },
+              "text": "Catastrophe Gauze Cartridge\nLevel: 70\nType: Kit\nDEF: + 15\nGear Attributes\nStrength :\n+ 23\nIntellect :\n+ 15\nUltimate DMG :\n+ 36.80%\nGear Set (3-PC)\nCatastrophe\nUltimate Gain Efficiency + 20% . The wearer casts a battle skill, the action returns 50 SP. This effect only triggers 1 time per battle.",
+              "status": "live",
+              "labels": []
+            },
+            {
+              "id": "catastrophe-gauze-cartridge-t1",
+              "name": "Catastrophe Gauze Cartridge T1",
+              "kind": "gear",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-14-878ac8b93409.webp",
+              "fields": {
+                "level": "70",
+                "type": "Kit",
+                "def": "+ 15",
+                "strength": "+ 23",
+                "will": "+ 15",
+                "secondary_attribute": "+ 14.70%"
+              },
+              "text": "Catastrophe Gauze Cartridge T1\nLevel: 70\nType: Kit\nDEF: + 15\nGear Attributes\nStrength :\n+ 23\nWill :\n+ 15\nSecondary Attribute :\n+ 14.70%\nGear Set (3-PC)\nCatastrophe\nUltimate Gain Efficiency + 20% . The wearer casts a battle skill, the action returns 50 SP. This effect only triggers 1 time per battle.",
+              "status": "live",
+              "labels": []
+            },
+            {
+              "id": "catastrophe-gloves",
+              "name": "Catastrophe Gloves",
+              "kind": "gear",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-139-6b91c70d34fd.webp",
+              "fields": {
+                "level": "70",
+                "type": "Gloves",
+                "def": "+ 30",
+                "will": "+ 46",
+                "intellect": "+ 30",
+                "arts_intensity": "+ 24"
+              },
+              "text": "Catastrophe Gloves\nLevel: 70\nType: Gloves\nDEF: + 30\nGear Attributes\nWill :\n+ 46\nIntellect :\n+ 30\nArts Intensity :\n+ 24\nGear Set (3-PC)\nCatastrophe\nUltimate Gain Efficiency + 20% . The wearer casts a battle skill, the action returns 50 SP. This effect only triggers 1 time per battle.",
+              "status": "live",
+              "labels": []
+            },
+            {
+              "id": "catastrophe-heavy-armor",
+              "name": "Catastrophe Heavy Armor",
+              "kind": "gear",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-15-926e3820f36c.webp",
+              "fields": {
+                "level": "70",
+                "type": "Armor",
+                "def": "+ 40",
+                "strength": "+ 61",
+                "intellect": "+ 41",
+                "ultimate_dmg": "+ 18.40%"
+              },
+              "text": "Catastrophe Heavy Armor\nLevel: 70\nType: Armor\nDEF: + 40\nGear Attributes\nStrength :\n+ 61\nIntellect :\n+ 41\nUltimate DMG :\n+ 18.40%\nGear Set (3-PC)\nCatastrophe\nUltimate Gain Efficiency + 20% . The wearer casts a battle skill, the action returns 50 SP. This effect only triggers 1 time per battle.",
+              "status": "live",
+              "labels": []
+            },
+            {
+              "id": "catastrophe-heavy-armor-t1",
+              "name": "Catastrophe Heavy Armor T1",
+              "kind": "gear",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-140-a7d37211c7be.webp",
+              "fields": {
+                "level": "70",
+                "type": "Armor",
+                "def": "+ 40",
+                "strength": "+ 61",
+                "will": "+ 41",
+                "ultimate_gain_efficiency": "+ 8.80%"
+              },
+              "text": "Catastrophe Heavy Armor T1\nLevel: 70\nType: Armor\nDEF: + 40\nGear Attributes\nStrength :\n+ 61\nWill :\n+ 41\nUltimate Gain Efficiency :\n+ 8.80%\nGear Set (3-PC)\nCatastrophe\nUltimate Gain Efficiency + 20% . The wearer casts a battle skill, the action returns 50 SP. This effect only triggers 1 time per battle.",
               "status": "live",
               "labels": []
             },
@@ -185383,10 +185426,11 @@ var NYX_DB = {
         "name": "Arknights: Endfield",
         "freshness": {
           "status": "stale",
-          "checkedAt": "2026-08-14T04:06:56.603Z",
+          "checkedAt": "2026-08-16T05:52:46.401Z",
           "lastSuccessfulFetch": "2026-08-14T04:06:56.603Z",
           "lastValidUpdate": "2026-08-14T04:06:56.603Z",
-          "source": "game8"
+          "source": "game8",
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
           "phase": "1.4 Phase 2",

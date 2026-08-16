@@ -1,6 +1,6 @@
 {
   "game": "endfield",
-  "updatedAt": "2026-08-11T15:33:50.046Z",
+  "updatedAt": "2026-08-16T05:50:35.480Z",
   "hashes": {
     "records": {
       "characters:akekuri": "d1b3f1ae8765949a6a9c52b452d7b27b2513c1ed35339d523d2b48f47df17570",
@@ -19,23 +19,23 @@
       "characters:estella": "989c884cdbd8ea0eae7e83db766e5c874214768c4fe5b0956a4b7f81e549c4a5",
       "characters:fluorite": "3b11bf5d7a14f469dfae7fad75346aceadcbb06e8c9f3952635a3e822fd9e632",
       "characters:gilberta": "55b22b6c5cc9c95b634c12450e4d43a8a547190b14a50f4af68934dc16c388e0",
-      "characters:laevatain": "722fa25eefa27b574bc4c2a31ee000eaca68c5db5fef5241ebb96d105b4095da",
-      "characters:last-rite": "688a5686db7a9af84438ad49e801c74b23483e96cb4ad3763074d757d3f42906",
+      "characters:laevatain": "ee5ed811da6e3fd8ced7db0d88e86ff348229cd620693be677e30230f7b0c6a2",
+      "characters:last-rite": "2f3b5dca1c70fe053c4985ea918b49d5228867f140452e234a28ee719f8ec260",
       "characters:lifeng": "9862e55b9959fab9f7502b6799aa301b72fafd55a6548fc616325fb4fc531497",
-      "characters:liino": "561e673dff87907817f534868eb68b35f1442912de79a04179b946f3a623389f",
+      "characters:liino": "26f9a9ca8d8a9f1cde59665a1d938bba02f293529dfe587470091611c57a43a5",
       "characters:mi-fu": "3b71209f84bed4818495346a14a1a3ff64d39d0afbfddea4facc52f234fe2f4b",
       "characters:perlica": "3f6e9548f5be8f2ae921cf31caa10b5e368339c7fd034ce83acd7ce0a028b1d6",
       "characters:pogranichnik": "2abff6755d05b77b718ad8df0017653e28cf8b00a08d5e57c775c905a00c9c28",
       "characters:rossi": "e59268098077856128aa8d994768c52370169aff4b62fffd09a78d0a80f2857c",
       "characters:si": "00d9b7b8634027db03dbf86e39143141765e5c53174eeb862730143f3745b513",
       "characters:snowshine": "4d334020f057a6af9d14f9acb5d0ab33d595c78e0d9b5c99644c59d76321068e",
-      "characters:tangtang": "2e6c936f47fe205d93b206ff5b4a962f32198a0d9d74d25b10eca0d9311d7cab",
-      "characters:wulfgard": "7d55aee2172d33afa5577d42d8ae0f45cb1fdd7a75e733b4bb18afe70b9622ae",
+      "characters:tangtang": "32e9ba51e9da9e24339f2dad13d959494a43a8f431275ead84d7a6ee34f4fad2",
+      "characters:wulfgard": "22892f26b8a5d5051201c26b1ee0874faab89f348f9ddfd8b9b3a8209a233bd8",
       "characters:xaihi": "b13e4bb0d24dc32ffdf9c0a9215476cd685107ef128ef6a760142dab5d33a36b",
       "characters:yvonne": "da3c7f2bc73be86dc78449886c99643c2205e300e0d3b41f6ee01037941609de",
       "characters:zhuang-fangyi": "11f3bd997683ec5adc833744513a76eb89ba9b2edabc46a8ca78509858ca4c08",
-      "collection:characters": "3f0c5102d34b3417d2d49b5e7eab465ec463a55be210a3710c516c40029752b9",
-      "collection:gear": "7953c03440c5e9710f74c23eec40cd5c179d039ebc5d895735de78a16bcc4a73",
+      "collection:characters": "44ba2b61c12da17b5cdd6ac1ab91553122029719ca2f90bdb4120550b84d61e6",
+      "collection:gear": "4752b48d7944315e3d2d5e1ff1aa73e93153ee5a312e183edd8ea883cac7f6d6",
       "collection:weapons": "c9828d963cda48f65c6a66ade245fb72b004991ebc6b6320471d2e40065a3080"
     }
   }

@@ -3,7 +3,7 @@
   "game": "ww",
   "collection": "echoes",
   "sourcePath": "/wuthering-waves/echoes",
-  "scrapedAt": "2026-08-11T15:33:50.046Z",
+  "scrapedAt": "2026-08-16T05:50:35.480Z",
   "detailPagesTotal": 0,
   "detailPagesScraped": 0,
   "staleDetailPagesRemoved": 0,
@@ -97,6 +97,21 @@
         "sets": ""
       },
       "text": "Aero Prism\nClass: Elite\nCost: 3\nSets:"
+    },
+    {
+      "id": "aureate-picket",
+      "name": "Aureate Picket",
+      "kind": "echoes",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "class": "Elite",
+        "cost": "3",
+        "sets": ""
+      },
+      "text": "Aureate Picket\nClass: Elite\nCost: 3\nSets:"
     },
     {
       "id": "autopuppet-scout",
@@ -639,6 +654,66 @@
       "text": "Flora Reindeer\nClass: Elite\nCost: 3\nSets:"
     },
     {
+      "id": "fog-lionarch",
+      "name": "Fog Lionarch",
+      "kind": "echoes",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "class": "Overlord",
+        "cost": "4",
+        "sets": ""
+      },
+      "text": "Fog Lionarch\nClass: Overlord\nCost: 4\nSets:"
+    },
+    {
+      "id": "fog-lionarch-body",
+      "name": "Fog Lionarch: Body",
+      "kind": "echoes",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "class": "Elite",
+        "cost": "3",
+        "sets": ""
+      },
+      "text": "Fog Lionarch: Body\nClass: Elite\nCost: 3\nSets:"
+    },
+    {
+      "id": "fog-lionarch-head",
+      "name": "Fog Lionarch: Head",
+      "kind": "echoes",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "class": "Elite",
+        "cost": "3",
+        "sets": ""
+      },
+      "text": "Fog Lionarch: Head\nClass: Elite\nCost: 3\nSets:"
+    },
+    {
+      "id": "forbidden-bastion",
+      "name": "Forbidden Bastion",
+      "kind": "echoes",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "class": "Overlord",
+        "cost": "4",
+        "sets": ""
+      },
+      "text": "Forbidden Bastion\nClass: Overlord\nCost: 4\nSets:"
+    },
+    {
       "id": "frostbite-coleoid",
       "name": "Frostbite Coleoid",
       "kind": "echoes",
@@ -1127,6 +1202,96 @@
       "text": "Kerasaur\nClass: Elite\nCost: 3\nSets:"
     },
     {
+      "id": "kernel-puppet-anger",
+      "name": "Kernel Puppet: Anger",
+      "kind": "echoes",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "class": "Elite",
+        "cost": "3",
+        "sets": ""
+      },
+      "text": "Kernel Puppet: Anger\nClass: Elite\nCost: 3\nSets:"
+    },
+    {
+      "id": "kernel-puppet-fright",
+      "name": "Kernel Puppet: Fright",
+      "kind": "echoes",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "class": "Elite",
+        "cost": "3",
+        "sets": ""
+      },
+      "text": "Kernel Puppet: Fright\nClass: Elite\nCost: 3\nSets:"
+    },
+    {
+      "id": "kernel-puppet-grief",
+      "name": "Kernel Puppet: Grief",
+      "kind": "echoes",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "class": "Elite",
+        "cost": "3",
+        "sets": ""
+      },
+      "text": "Kernel Puppet: Grief\nClass: Elite\nCost: 3\nSets:"
+    },
+    {
+      "id": "kernel-puppet-joy",
+      "name": "Kernel Puppet: Joy",
+      "kind": "echoes",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "class": "Elite",
+        "cost": "3",
+        "sets": ""
+      },
+      "text": "Kernel Puppet: Joy\nClass: Elite\nCost: 3\nSets:"
+    },
+    {
+      "id": "kernel-puppet-reflection",
+      "name": "Kernel Puppet: Reflection",
+      "kind": "echoes",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "class": "Elite",
+        "cost": "3",
+        "sets": ""
+      },
+      "text": "Kernel Puppet: Reflection\nClass: Elite\nCost: 3\nSets:"
+    },
+    {
+      "id": "kernel-puppet-worry",
+      "name": "Kernel Puppet: Worry",
+      "kind": "echoes",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "class": "Elite",
+        "cost": "3",
+        "sets": ""
+      },
+      "text": "Kernel Puppet: Worry\nClass: Elite\nCost: 3\nSets:"
+    },
+    {
       "id": "kronablight",
       "name": "Kronablight",
       "kind": "echoes",
@@ -1343,6 +1508,21 @@
         "sets": ""
       },
       "text": "Mourning Aix\nClass: Overlord\nCost: 4\nSets:"
+    },
+    {
+      "id": "myriad-snare-rustfire-chassis",
+      "name": "Myriad Snare: Rustfire Chassis",
+      "kind": "echoes",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "class": "Calamity",
+        "cost": "4",
+        "sets": ""
+      },
+      "text": "Myriad Snare: Rustfire Chassis\nClass: Calamity\nCost: 4\nSets:"
     },
     {
       "id": "nameless-explorer",
@@ -1780,6 +1960,21 @@
       "text": "Pilgrim's Shell\nClass: Elite\nCost: 3\nSets:"
     },
     {
+      "id": "porcelain-picket",
+      "name": "Porcelain Picket",
+      "kind": "echoes",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "class": "Elite",
+        "cost": "3",
+        "sets": ""
+      },
+      "text": "Porcelain Picket\nClass: Elite\nCost: 3\nSets:"
+    },
+    {
       "id": "questless-knight",
       "name": "Questless Knight",
       "kind": "echoes",
@@ -2088,6 +2283,36 @@
       "text": "Sigillum\nClass: Calamity\nCost: 4\nSets:"
     },
     {
+      "id": "smiter",
+      "name": "Smiter",
+      "kind": "echoes",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "class": "Elite",
+        "cost": "3",
+        "sets": ""
+      },
+      "text": "Smiter\nClass: Elite\nCost: 3\nSets:"
+    },
+    {
+      "id": "smolder",
+      "name": "Smolder",
+      "kind": "echoes",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "class": "Elite",
+        "cost": "3",
+        "sets": ""
+      },
+      "text": "Smolder\nClass: Elite\nCost: 3\nSets:"
+    },
+    {
       "id": "snip-snap",
       "name": "Snip Snap",
       "kind": "echoes",
@@ -2169,6 +2394,21 @@
         "sets": ""
       },
       "text": "Spectro Prism\nClass: Elite\nCost: 3\nSets:"
+    },
+    {
+      "id": "stone-picket",
+      "name": "Stone Picket",
+      "kind": "echoes",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "class": "Elite",
+        "cost": "3",
+        "sets": ""
+      },
+      "text": "Stone Picket\nClass: Elite\nCost: 3\nSets:"
     },
     {
       "id": "stonewall-bracer",

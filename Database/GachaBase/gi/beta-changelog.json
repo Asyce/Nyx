@@ -971,5 +971,11 @@
       "betaVersion": "6.7.50",
       "revision": "46041974"
     }
-  ]
+  ],
+  "stale": true,
+  "freshness": {
+    "ok": false,
+    "message": "No GachaBase beta entries parsed for gi",
+    "checkedAt": "2026-08-16T05:52:34.997Z"
+  }
 }

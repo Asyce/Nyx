@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-16T05:52:59.584Z",
+  "generatedAt": "2026-08-16T06:24:23.749Z",
   "games": {
     "gi": [
       {
@@ -22,7 +22,13 @@
         "currency": "Primogems"
       },
       {
-        "code": "Odettte0812",
+        "code": "Everwinter",
+        "added": "2026-07-31",
+        "amount": 100,
+        "currency": "Primogems"
+      },
+      {
+        "code": "OntoSnezhnaya",
         "added": "2026-07-31",
         "amount": 100,
         "currency": "Primogems"
@@ -36,6 +42,18 @@
         "currency": "Stellar Jade"
       },
       {
+        "code": "LSJ9JARPZH33",
+        "added": "2026-08-14",
+        "amount": 100,
+        "currency": "Stellar Jade"
+      },
+      {
+        "code": "YAJQ2TR6ZY2P",
+        "added": "2026-08-14",
+        "amount": 100,
+        "currency": "Stellar Jade"
+      },
+      {
         "code": "2TKRKAR6YG2K",
         "added": "2026-08-14",
         "amount": 100,
@@ -43,18 +61,6 @@
       },
       {
         "code": "5S6ZHRWTDNJB",
-        "added": "2026-08-11",
-        "amount": 60,
-        "currency": "Stellar Jade"
-      },
-      {
-        "code": "4TKSX77Y58QK",
-        "added": "2026-08-11",
-        "amount": 30,
-        "currency": "Stellar Jade"
-      },
-      {
-        "code": "CREATIONNYMPH",
         "added": "2026-08-11",
         "amount": 60,
         "currency": "Stellar Jade"
@@ -109,5 +115,5 @@
       }
     ]
   },
-  "revision": "14d17c248b3e21ae89639f767e034ad3c5bfeeeb4e4133733d811afa44114a56"
+  "revision": "3fe8af2762a6c537b07bbca59c6d4976a45a5728f05416c72c599e21f66e0b1d"
 }

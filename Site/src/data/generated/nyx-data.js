@@ -4,9 +4,9 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-08-16T05:53:15.751Z",
+  "generatedAt": "2026-08-16T06:24:44.581Z",
   "codes": {
-    "updated": "2026-08-16T05:52:59.584Z",
+    "updated": "2026-08-16T06:24:23.749Z",
     "maxAgeDays": 28,
     "games": {
       "gi": [
@@ -109,6 +109,20 @@ var NYX_DB = {
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=GS70YTASTJ"
         },
         {
+          "code": "Everwinter",
+          "reward": "x100 Primogems and x10 Mystic Enchancement Ore",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Primogems",
+            "needle": "primogem",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
+          },
+          "added": "2026-07-31",
+          "firstSeen": "2026-08-16T06:24:00.973Z",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=Everwinter",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=Everwinter"
+        },
+        {
           "code": "Odettte0812",
           "reward": "x100 Primogems and x50,000 Mora",
           "premium": true,
@@ -121,6 +135,20 @@ var NYX_DB = {
           "firstSeen": "2026-08-01T21:03:08.107Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=Odettte0812",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=Odettte0812"
+        },
+        {
+          "code": "OntoSnezhnaya",
+          "reward": "x100 Primogems and x5 Hero S Wit",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Primogems",
+            "needle": "primogem",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
+          },
+          "added": "2026-07-31",
+          "firstSeen": "2026-08-16T06:24:00.973Z",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=OntoSnezhnaya",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=OntoSnezhnaya"
         }
       ],
       "hsr": [
@@ -151,6 +179,34 @@ var NYX_DB = {
           "firstSeen": "2026-08-14T21:17:21.162Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=2TKRKAR6YG2K",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=2TKRKAR6YG2K"
+        },
+        {
+          "code": "LSJ9JARPZH33",
+          "reward": "100 Stellar Jade and Five Traveler S Guides",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Stellar Jade",
+            "needle": "stellar jade",
+            "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
+          },
+          "added": "2026-08-14",
+          "firstSeen": "2026-08-16T06:24:23.748Z",
+          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=LSJ9JARPZH33",
+          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=LSJ9JARPZH33"
+        },
+        {
+          "code": "YAJQ2TR6ZY2P",
+          "reward": "100 Stellar Jade and Four Refined Aether",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Stellar Jade",
+            "needle": "stellar jade",
+            "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
+          },
+          "added": "2026-08-14",
+          "firstSeen": "2026-08-16T06:24:23.748Z",
+          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=YAJQ2TR6ZY2P",
+          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=YAJQ2TR6ZY2P"
         },
         {
           "code": "4TKSX77Y58QK",
@@ -5706,6 +5762,20 @@ var NYX_DB = {
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=GS70YTASTJ"
         },
         {
+          "code": "Everwinter",
+          "reward": "x100 Primogems and x10 Mystic Enchancement Ore",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Primogems",
+            "needle": "primogem",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
+          },
+          "added": "2026-07-31",
+          "firstSeen": "2026-08-16T06:24:00.973Z",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=Everwinter",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=Everwinter"
+        },
+        {
           "code": "Odettte0812",
           "reward": "x100 Primogems and x50,000 Mora",
           "premium": true,
@@ -5718,6 +5788,20 @@ var NYX_DB = {
           "firstSeen": "2026-08-01T21:03:08.107Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=Odettte0812",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=Odettte0812"
+        },
+        {
+          "code": "OntoSnezhnaya",
+          "reward": "x100 Primogems and x5 Hero S Wit",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Primogems",
+            "needle": "primogem",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
+          },
+          "added": "2026-07-31",
+          "firstSeen": "2026-08-16T06:24:00.973Z",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=OntoSnezhnaya",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=OntoSnezhnaya"
         }
       ],
       "banners": {
@@ -169122,6 +169206,34 @@ var NYX_DB = {
           "firstSeen": "2026-08-14T21:17:21.162Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=2TKRKAR6YG2K",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=2TKRKAR6YG2K"
+        },
+        {
+          "code": "LSJ9JARPZH33",
+          "reward": "100 Stellar Jade and Five Traveler S Guides",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Stellar Jade",
+            "needle": "stellar jade",
+            "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
+          },
+          "added": "2026-08-14",
+          "firstSeen": "2026-08-16T06:24:23.748Z",
+          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=LSJ9JARPZH33",
+          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=LSJ9JARPZH33"
+        },
+        {
+          "code": "YAJQ2TR6ZY2P",
+          "reward": "100 Stellar Jade and Four Refined Aether",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Stellar Jade",
+            "needle": "stellar jade",
+            "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
+          },
+          "added": "2026-08-14",
+          "firstSeen": "2026-08-16T06:24:23.748Z",
+          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=YAJQ2TR6ZY2P",
+          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=YAJQ2TR6ZY2P"
         },
         {
           "code": "4TKSX77Y58QK",

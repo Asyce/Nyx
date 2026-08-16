@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "de7b651821537416f90e4080df323c41027f031ec4d31eb84227f7951e316af3",
-  "generatedAt": "2026-08-16T05:53:17.410Z",
+  "revision": "150fc553597e6a0c748d0f6a187ddb561f2df300d3af4d7861837e1f22029ac7",
+  "generatedAt": "2026-08-16T06:24:46.172Z",
   "health": {
     "status": "ok",
     "games": {
@@ -43,7 +43,7 @@
         "remaining": {
           "startsAt": "2026-08-12T03:00:00.000Z",
           "endsAt": "2026-09-01T09:59:59.000Z",
-          "durationSeconds": 1397201
+          "durationSeconds": 1395312
         },
         "characters": [
           {
@@ -366,7 +366,13 @@
           "currency": "Primogems"
         },
         {
-          "code": "Odettte0812",
+          "code": "Everwinter",
+          "added": "2026-07-31",
+          "amount": 100,
+          "currency": "Primogems"
+        },
+        {
+          "code": "OntoSnezhnaya",
           "added": "2026-07-31",
           "amount": 100,
           "currency": "Primogems"
@@ -383,7 +389,7 @@
         "remaining": {
           "startsAt": "2026-08-05T11:00:00.000Z",
           "endsAt": "2026-08-25T14:00:00.000Z",
-          "durationSeconds": 806802
+          "durationSeconds": 804913
         },
         "characters": [
           {
@@ -778,6 +784,18 @@
           "currency": "Stellar Jade"
         },
         {
+          "code": "LSJ9JARPZH33",
+          "added": "2026-08-14",
+          "amount": 100,
+          "currency": "Stellar Jade"
+        },
+        {
+          "code": "YAJQ2TR6ZY2P",
+          "added": "2026-08-14",
+          "amount": 100,
+          "currency": "Stellar Jade"
+        },
+        {
           "code": "2TKRKAR6YG2K",
           "added": "2026-08-14",
           "amount": 100,
@@ -785,18 +803,6 @@
         },
         {
           "code": "5S6ZHRWTDNJB",
-          "added": "2026-08-11",
-          "amount": 60,
-          "currency": "Stellar Jade"
-        },
-        {
-          "code": "4TKSX77Y58QK",
-          "added": "2026-08-11",
-          "amount": 30,
-          "currency": "Stellar Jade"
-        },
-        {
-          "code": "CREATIONNYMPH",
           "added": "2026-08-11",
           "amount": 60,
           "currency": "Stellar Jade"
@@ -813,7 +819,7 @@
         "remaining": {
           "startsAt": "2026-07-29T03:00:00.000Z",
           "endsAt": "2026-08-19T03:59:59.000Z",
-          "durationSeconds": 252401
+          "durationSeconds": 250512
         },
         "characters": [
           {
@@ -1147,7 +1153,7 @@
         "remaining": {
           "startsAt": "2026-07-30T09:00:00.000Z",
           "endsAt": "2026-08-19T10:59:00.000Z",
-          "durationSeconds": 277542
+          "durationSeconds": 275653
         },
         "characters": [
           {
@@ -1481,7 +1487,7 @@
         "remaining": {
           "startsAt": "2026-08-09T04:00:00.000Z",
           "endsAt": "2026-09-01T21:59:59.000Z",
-          "durationSeconds": 1440401
+          "durationSeconds": 1438512
         },
         "characters": [
           {

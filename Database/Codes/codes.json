@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T05:52:59.584Z",
+  "generatedAt": "2026-08-16T06:24:23.749Z",
   "maxAgeDays": 28,
   "games": [
     {
@@ -9,7 +9,7 @@
       "redeemBase": "https://genshin.hoyoverse.com/en/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/GI/codes/",
-      "lastSuccessfulFetch": "2026-08-16T05:52:59.584Z",
+      "lastSuccessfulFetch": "2026-08-16T06:24:00.973Z",
       "codes": [
         {
           "code": "GS70XRNWFB",
@@ -100,6 +100,16 @@
           "firstSeen": "2026-08-12T07:46:42.167Z"
         },
         {
+          "code": "Everwinter",
+          "rewards": "x100 Primogems and x10 Mystic Enchancement Ore",
+          "added": "2026-07-31",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=Everwinter",
+          "premium": true,
+          "premium100": false,
+          "cwSeen": false,
+          "firstSeen": "2026-08-16T06:24:00.973Z"
+        },
+        {
           "code": "Odettte0812",
           "rewards": "x100 Primogems and x50,000 Mora",
           "added": "2026-07-31",
@@ -108,6 +118,16 @@
           "premium100": false,
           "cwSeen": false,
           "firstSeen": "2026-08-01T21:03:08.107Z"
+        },
+        {
+          "code": "OntoSnezhnaya",
+          "rewards": "x100 Primogems and x5 Hero S Wit",
+          "added": "2026-07-31",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=OntoSnezhnaya",
+          "premium": true,
+          "premium100": false,
+          "cwSeen": false,
+          "firstSeen": "2026-08-16T06:24:00.973Z"
         }
       ]
     },
@@ -118,7 +138,7 @@
       "redeemBase": "https://hsr.hoyoverse.com/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/HSR/codes/",
-      "lastSuccessfulFetch": "2026-08-16T05:52:51.623Z",
+      "lastSuccessfulFetch": "2026-08-16T06:24:23.748Z",
       "codes": [
         {
           "code": "NSJR3B97ZZ5X",
@@ -142,6 +162,26 @@
           "premium100": true,
           "cwSeen": false,
           "firstSeen": "2026-08-14T21:17:21.162Z"
+        },
+        {
+          "code": "LSJ9JARPZH33",
+          "rewards": "100 Stellar Jade and Five Traveler S Guides",
+          "added": "2026-08-14",
+          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=LSJ9JARPZH33",
+          "premium": true,
+          "premium100": true,
+          "cwSeen": false,
+          "firstSeen": "2026-08-16T06:24:23.748Z"
+        },
+        {
+          "code": "YAJQ2TR6ZY2P",
+          "rewards": "100 Stellar Jade and Four Refined Aether",
+          "added": "2026-08-14",
+          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=YAJQ2TR6ZY2P",
+          "premium": true,
+          "premium100": true,
+          "cwSeen": false,
+          "firstSeen": "2026-08-16T06:24:23.748Z"
         },
         {
           "code": "4TKSX77Y58QK",
@@ -270,7 +310,7 @@
       "redeemBase": "https://zenless.hoyoverse.com/redemption?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/ZZZ/codes/",
-      "lastSuccessfulFetch": "2026-08-16T05:52:53.212Z",
+      "lastSuccessfulFetch": "2026-08-16T06:24:01.304Z",
       "codes": [
         {
           "code": "ZENLESSGIFT",
@@ -322,7 +362,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Terminal > Settings > Other Settings > Redemption Code",
       "sourceUrl": "https://nexus-codes.app/games/WUWA/codes/",
-      "lastSuccessfulFetch": "2026-08-16T05:52:54.013Z",
+      "lastSuccessfulFetch": "2026-08-16T06:24:00.938Z",
       "codes": [
         {
           "code": "ETERNALFLAME",
@@ -376,7 +416,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Settings > Account > Exchange Code",
       "sourceUrl": "https://nexus-codes.app/games/ARKEN/codes/",
-      "lastSuccessfulFetch": "2026-08-16T05:52:55.610Z",
+      "lastSuccessfulFetch": "2026-08-16T06:24:00.948Z",
       "codes": [
         {
           "code": "ENDFIELDRENEW",

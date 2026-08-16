@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "5f1593f4a5c02008b0d7db2921367da35dd4805795c328e2806c28f1766596ca",
-  "generatedAt": "2026-08-15T20:13:23.255Z",
+  "revision": "c263669ba380fcda18b37cfce35740bb10a9c6dfcb29e7e7de9bb6f014314f7a",
+  "generatedAt": "2026-08-16T03:59:24.348Z",
   "health": {
     "status": "ok",
     "games": {
@@ -43,7 +43,7 @@
         "remaining": {
           "startsAt": "2026-08-12T03:00:00.000Z",
           "endsAt": "2026-09-01T09:59:59.000Z",
-          "durationSeconds": 1431995
+          "durationSeconds": 1404034
         },
         "characters": [
           {
@@ -430,6 +430,14 @@
       ],
       "news": [
         {
+          "id": "gi-hoyo-ann-3538e6f5101f",
+          "title": "Participate in \"Spooky Summer Adventures\" to obtain the \"Spooky Boo Hat\" cosmetic",
+          "type": "event",
+          "start": "2026-08-17T11:00:00.000Z",
+          "end": "2026-09-04T02:59:00.000Z",
+          "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21829"
+        },
+        {
           "id": "gi-hoyo-ann-03ff7c741c30",
           "title": "\"The Godforsaken Frostlands\" Event: Complete Exploration Missions Within the Specified Duration to Obtain an Additional Primogems ×400",
           "type": "event",
@@ -484,14 +492,6 @@
           "start": "2026-08-12T03:00:00.000Z",
           "end": "2026-09-21T02:59:00.000Z",
           "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21828"
-        },
-        {
-          "id": "gi-hoyo-ann-d9fdacc2d761",
-          "title": "\"Frostfarer\" Event Details",
-          "type": "event",
-          "start": "2026-08-12T03:00:00.000Z",
-          "end": "2026-09-21T02:59:00.000Z",
-          "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21818"
         }
       ],
       "codes": [
@@ -537,7 +537,7 @@
         "remaining": {
           "startsAt": "2026-08-05T11:00:00.000Z",
           "endsAt": "2026-08-25T14:00:00.000Z",
-          "durationSeconds": 841596
+          "durationSeconds": 813635
         },
         "characters": [
           {
@@ -1122,7 +1122,7 @@
         "remaining": {
           "startsAt": "2026-07-29T03:00:00.000Z",
           "endsAt": "2026-08-19T03:59:59.000Z",
-          "durationSeconds": 287195
+          "durationSeconds": 259234
         },
         "characters": [
           {
@@ -1693,39 +1693,39 @@
           "id": "zzz-hoyo-ann-3d5f728e1856",
           "title": "\"Marcel Anniversary Gift\" Event Details",
           "type": "event",
-          "start": "2026-07-27T05:45:00.000Z",
-          "end": "2026-09-08T22:00:00.000Z",
+          "start": "2026-07-27T12:45:00.000Z",
+          "end": "2026-09-09T05:00:00.000Z",
           "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=220"
         },
         {
           "id": "zzz-hoyo-ann-c3848dccb384",
           "title": "\"Filmgoer Thank-You Gift\" Event Details",
           "type": "event",
-          "start": "2026-07-27T05:30:00.000Z",
-          "end": "2026-09-08T22:00:00.000Z",
+          "start": "2026-07-27T12:30:00.000Z",
+          "end": "2026-09-09T05:00:00.000Z",
           "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=226"
         },
         {
           "id": "zzz-hoyo-ann-17f16d0daaf4",
           "title": "Version 3.1 New Stock in the Store",
           "type": "event",
-          "start": "2026-07-27T05:00:00.000Z",
-          "end": "2026-09-08T22:00:00.000Z",
+          "start": "2026-07-27T12:00:00.000Z",
+          "end": "2026-09-09T05:00:00.000Z",
           "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=219"
         },
         {
           "id": "zzz-hoyo-ann-424df948a6d9",
           "title": "New Story: Season 3 Chapter 2 \"The Long Goodbye\"",
           "type": "event",
-          "start": "2026-07-27T04:45:00.000Z",
-          "end": "2026-09-08T22:00:00.000Z",
+          "start": "2026-07-27T11:45:00.000Z",
+          "end": "2026-09-09T05:00:00.000Z",
           "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=227"
         },
         {
           "id": "zzz-hoyo-ann-44796e8ea65a",
           "title": "V3.1 Limited-Time Channels",
           "type": "event",
-          "start": "2026-07-27T04:30:00.000Z",
+          "start": "2026-07-27T11:30:00.000Z",
           "end": "2026-09-08T13:59:59.000Z",
           "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=218"
         },
@@ -1769,7 +1769,7 @@
         "remaining": {
           "startsAt": "2026-07-30T09:00:00.000Z",
           "endsAt": "2026-08-19T10:59:00.000Z",
-          "durationSeconds": 312336
+          "durationSeconds": 284375
         },
         "characters": [
           {
@@ -2357,7 +2357,7 @@
         "remaining": {
           "startsAt": "2026-08-09T04:00:00.000Z",
           "endsAt": "2026-09-01T21:59:59.000Z",
-          "durationSeconds": 1475195
+          "durationSeconds": 1447234
         },
         "characters": [
           {

@@ -51073,28 +51073,28 @@
   },
   {
     "id": "1341075",
-    "contentStatus": "live",
-    "name": "Choice_1341075_name",
+    "contentStatus": "beta_changed",
+    "name": "Claret",
     "rarity": 4,
     "type": {},
-    "description": "Choice_1341075_des",
+    "description": "Use \"Ether Dewdrops\" on \"Claret\"",
     "assets": {},
     "liveComparison": {
       "liveHash": "90959b8781989d1dc3073081d47d7eb7294610117e8642f9c956e74fd523e3e5",
-      "currentHash": "90959b8781989d1dc3073081d47d7eb7294610117e8642f9c956e74fd523e3e5"
+      "currentHash": "e468ecca8a536d5918273394ab8d4af0e2ee7cbc976533368427482971c9aad2"
     }
   },
   {
     "id": "1341076",
-    "contentStatus": "live",
-    "name": "Choice_1341076_name",
+    "contentStatus": "beta_changed",
+    "name": "Roxy",
     "rarity": 4,
     "type": {},
-    "description": "Choice_1341076_des",
+    "description": "Use \"Ether Dewdrops\" on \"Roxy\"",
     "assets": {},
     "liveComparison": {
       "liveHash": "9ebccbac90acd368b9b9f8fdcaf0d17bbe24aff61f94ee6048d9cc6a1e142b17",
-      "currentHash": "9ebccbac90acd368b9b9f8fdcaf0d17bbe24aff61f94ee6048d9cc6a1e142b17"
+      "currentHash": "e99e92a2a90cb905f2934848e6f0cfdd369f6e99d416391195d8785cda6f2c9a"
     }
   },
   {
@@ -54122,10 +54122,10 @@
     "name": "[Claret] Riftforge Onslaught",
     "rarity": 4,
     "type": {},
-    "description": "When Claret's initial ATK exceeds 1,500, every 1 point of ATK over that threshold increases DEF by 1.3. This effect does not stack across different Gears. Claret's <color=#2BAD00>[Maim] DMG is increased by 20%</color>, and even when the target has not entered a Stunned state, Daze Vulnerability can still be triggered.",
+    "description": "When Claret's initial ATK exceeds 1,500, every 1 point of ATK over the threshold increases DEF by 1.3. This effect does not stack across different Gear; Claret's <color=#2BAD00>[Maim] DMG is increased by 20%</color>, and when the target is not Stunned, [Maim] will also factor in the Daze Vulnerability bonus.",
     "assets": {},
     "liveComparison": {
-      "currentHash": "a1258a1eadf969c890265d00fc912e8ae96d6d9dd76eaa48b8c9c79e900c1365"
+      "currentHash": "24c49857121531cd3b88ddf8ede3bce429a9a3903b067089c5f1d1d8fcc4aaf4"
     }
   },
   {
@@ -54134,10 +54134,10 @@
     "name": "[Claret] Crimson-Eyed Bat Shadow",
     "rarity": 4,
     "type": {},
-    "description": "When Claret's initial ATK exceeds 1,500, every 1 point of ATK above that increases DEF by 1.3. This effect does not stack across different Gears. Claret's Gash Buildup Rate is reduced by 30%. <color=#FFFFFF>[Basic Attack: Blood Bloom Oath - Star Forge]</color> and <color=#FFFFFF>[Basic Attack: Blood Bloom Oath - Crouching Axe]</color> deal <color=#2BAD00>40% increased Sharp DMG</color>. When Perfect Dodge is triggered while in the [Crimson Engrave] state, [Crimson Engrave] duration is extended by 3s. This can be triggered at most once every 5s.",
+    "description": "When Claret's initial ATK exceeds 1,500, every 1 point of ATK over that threshold increases DEF by 1.3. This effect does not stack across different Gears. Claret's Gash Buildup Rate is reduced by 30%, <color=#FFFFFF>[Basic Attack: Blood Oath - Star Forge]</color> and <color=#FFFFFF>[Basic Attack: Blood Oath - Crescent Axe]</color> deal <color=#2BAD00>40% increased Sharp DMG</color>. When Perfect Dodge is triggered while in the [Crimson Engrave] state, [Crimson Engrave] duration is extended by 3s. This can be triggered at most once every 5s.",
     "assets": {},
     "liveComparison": {
-      "currentHash": "4775d5624d279889459cb92b307f13f5387e1cdb7cf7394ab65ec1631cc7b00f"
+      "currentHash": "fb00533bbcc5541e2d2f3e88537e4d564462350aac1b2708de58a8db8e9f4b43"
     }
   },
   {
@@ -54158,10 +54158,10 @@
     "name": "[Roxy] Lead-Forged Mastery",
     "rarity": 4,
     "type": {},
-    "description": "The buff granted to the whole squad after <color=#FFFFFF>[Cleanse]</color> in <color=#FFFFFF>[Core Passive: First Embrace Under the Moon]</color> <color=#2BAD00>additionally increases ATK by 600 points</color>. The ATK increase effect can stack up to 1 time. Additionally, <color=#2BAD00>Roxy can also receive the buff after <color=#FFFFFF>[Cleanse]</color></color>.",
+    "description": "The squad-wide buff granted after <color=#FFFFFF>[Cleanse]</color> in <color=#FFFFFF>[Core Passive: First Embrace Under the Moon]</color> <color=#2BAD00>additionally increases ATK by 800</color>. The ATK increase effect can stack up to 1 time.",
     "assets": {},
     "liveComparison": {
-      "currentHash": "c8d76bb70184b56bfd32401b31efd274b92c71c4a15ba1f27d9a8c9570436798"
+      "currentHash": "d36cdc6dd313d6d6cde1779ebf41eb474234f7a3fd17459056b8b71d140620e9"
     }
   },
   {
@@ -85985,12 +85985,12 @@
     "name": "[Vulnerable][Roxy]-Lv.50",
     "rarity": 4,
     "type": {},
-    "description": "Roxy's exclusive Tactical Prism. When holding <IconMap:Icon_SpecialReady> to activate <color=#FFFFFF>[EX Special Attack: Watch for Windchill]</color>, for each second held, this skill's <color=#2BAD00>DMG and Daze are increased by 10%/8%</color> respectively, up to a maximum of 30%/30%; when this skill hits an enemy, the target's DEF is reduced by <color=#2BAD00>16%</color> for 30s.",
+    "description": "Roxy's exclusive Tactical Prism. When holding <IconMap:Icon_SpecialReady> to activate <color=#FFFFFF>[EX Special Attack: Watch for Windchill]</color>, for each second held, this skill's <color=#2BAD00>DMG and Daze are increased by 10%/6%</color> respectively, up to a maximum of 30%/18%; when this skill hits an enemy, the target's DEF is reduced by <color=#2BAD00>16%</color> for 30s.",
     "assets": {
       "icon": "GameData/zzz/assets/items/Zenkov_WeaponAvatar_002.webp"
     },
     "liveComparison": {
-      "currentHash": "bec732dee1b31bfcd81e6fbcb086a058156281a026915de447db55a9220e4188"
+      "currentHash": "8c47a41a588dacc8d4983faad6458026b37ae13506a5001a68bfefc840aecffc"
     }
   },
   {
@@ -86342,12 +86342,12 @@
     "name": "[Roxy]-Lv.60",
     "rarity": 5,
     "type": {},
-    "description": "Roxy's exclusive Tactical Prism. When holding <IconMap:Icon_SpecialReady> to activate <color=#FFFFFF>[EX Special Attack: Watch for Windchill]</color>, for each second held, this skill's <color=#2BAD00>DMG and Daze are increased by 10%/8%</color> respectively, up to a maximum of 30%/30%; when this skill hits an enemy, the target's DEF is reduced by <color=#2BAD00>16%</color> for 30s.",
+    "description": "Roxy's exclusive Tactical Prism. When holding <IconMap:Icon_SpecialReady> to activate <color=#FFFFFF>[EX Special Attack: Watch for Windchill]</color>, for each second held, this skill's <color=#2BAD00>DMG and Daze are increased by 10%/6%</color> respectively, up to a maximum of 30%/18%; when this skill hits an enemy, the target's DEF is reduced by <color=#2BAD00>16%</color> for 30s.",
     "assets": {
       "icon": "GameData/zzz/assets/items/Zenkov_WeaponAvatar_002.webp"
     },
     "liveComparison": {
-      "currentHash": "34b236a7f4784192e03a684463a7a28d166e6fd512e4cd051281dc1199d1f8cb"
+      "currentHash": "fcb1b6d86894193e755ec406d9788de8a0b3c7174cc2f45ed1ef7a21fe679fca"
     }
   },
   {
@@ -87622,12 +87622,12 @@
     "name": "[Roxy]-Lv.50",
     "rarity": 4,
     "type": {},
-    "description": "Roxy's exclusive Tactical Prism. When holding <IconMap:Icon_SpecialReady> to activate <color=#FFFFFF>[EX Special Attack: Watch for Windchill]</color>, for each second held, this skill's <color=#2BAD00>DMG and Daze are increased by 10%/8%</color> respectively, up to a maximum of 30%/30%; when this skill hits an enemy, the target's DEF is reduced by <color=#2BAD00>16%</color> for 30s.",
+    "description": "Roxy's exclusive Tactical Prism. When holding <IconMap:Icon_SpecialReady> to activate <color=#FFFFFF>[EX Special Attack: Watch for Windchill]</color>, for each second held, this skill's <color=#2BAD00>DMG and Daze are increased by 10%/6%</color> respectively, up to a maximum of 30%/18%; when this skill hits an enemy, the target's DEF is reduced by <color=#2BAD00>16%</color> for 30s.",
     "assets": {
       "icon": "GameData/zzz/assets/items/Zenkov_WeaponAvatar_002.webp"
     },
     "liveComparison": {
-      "currentHash": "71d665dafc781f71526ba7160615436a193767fe41a8122980e1852570f4342d"
+      "currentHash": "247f25ad866c79b9b3c39be6a2fce952062102f0146243d0e25357b8566a73cb"
     }
   },
   {

@@ -11850,8 +11850,8 @@
           "physical": 0.1
         },
         "base": {
-          "hp": 747.12,
-          "atk": 30.144,
+          "hp": 1793.088,
+          "atk": 25.12,
           "def": 500,
           "em": 0
         }
@@ -11859,7 +11859,7 @@
     },
     "liveComparison": {
       "liveHash": "f78db8b0ac15822bb548fafa249df26068c69b64c852fc0d4b74b696be352fe6",
-      "currentHash": "4cd4cef81a229281dacbd6af1c03800d3edb66f4d8af5b6faed27ddc6ca45b2a"
+      "currentHash": "011fa08d1412800d63898ace201b5ffdb8306ab257a99f954123c08741f6000c"
     }
   },
   {

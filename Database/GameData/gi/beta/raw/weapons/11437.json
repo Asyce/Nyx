@@ -343,7 +343,7 @@
   "refinement": {
     "1": {
       "name": "",
-      "desc": "In the 12s after using Elemental Skill: each time an attack hits the opponent, ATK is increased by <color=#99FFFFFF>4%</color> while Elemental Mastery is increased by <color=#99FFFFFF>20</color> for 6s. This effect can trigger once every second, max 3 stacks. The aforementioned effect can trigger even when the equipping character is not on the field, and if the character is in the Radiance: Stellar-Conduct or Radiance: Stellar Swirl state, the buff is changed to a <color=#99FFFFFF>6%</color> ATK and <color=#99FFFFFF>8%</color>Stellar-Conduct/Stellar Swirl reaction DMG increase instead.",
+      "desc": "In the 12s after using Elemental Skill: Each time an attack hits the opponent, ATK is increased by <color=#99FFFFFF>4%</color> while Elemental Mastery is increased by <color=#99FFFFFF>20</color> for 6s. This effect can trigger once every second, max 3 stacks. The aforementioned effect can trigger even when the equipping character is not on the field, and if the character is in the Radiance: Stellar-Conduct or Radiance: Stellar Swirl state, the buff is changed to a <color=#99FFFFFF>6%</color> ATK and <color=#99FFFFFF>8%</color>Stellar-Conduct/Stellar Swirl reaction DMG increase instead.",
       "param_list": [
         12,
         6,
@@ -357,7 +357,7 @@
     },
     "2": {
       "name": "",
-      "desc": "In the 12s after using Elemental Skill: each time an attack hits the opponent, ATK is increased by <color=#99FFFFFF>5%</color> while Elemental Mastery is increased by <color=#99FFFFFF>25</color> for 6s. This effect can trigger once every second, max 3 stacks. The aforementioned effect can trigger even when the equipping character is not on the field, and if the character is in the Radiance: Stellar-Conduct or Radiance: Stellar Swirl state, the buff is changed to a <color=#99FFFFFF>7.5%</color> ATK and <color=#99FFFFFF>10%</color>Stellar-Conduct/Stellar Swirl reaction DMG increase instead.",
+      "desc": "In the 12s after using Elemental Skill: Each time an attack hits the opponent, ATK is increased by <color=#99FFFFFF>5%</color> while Elemental Mastery is increased by <color=#99FFFFFF>25</color> for 6s. This effect can trigger once every second, max 3 stacks. The aforementioned effect can trigger even when the equipping character is not on the field, and if the character is in the Radiance: Stellar-Conduct or Radiance: Stellar Swirl state, the buff is changed to a <color=#99FFFFFF>7.5%</color> ATK and <color=#99FFFFFF>10%</color>Stellar-Conduct/Stellar Swirl reaction DMG increase instead.",
       "param_list": [
         12,
         6,
@@ -371,7 +371,7 @@
     },
     "3": {
       "name": "",
-      "desc": "In the 12s after using Elemental Skill: each time an attack hits the opponent, ATK is increased by <color=#99FFFFFF>6%</color> while Elemental Mastery is increased by <color=#99FFFFFF>30</color> for 6s. This effect can trigger once every second, max 3 stacks. The aforementioned effect can trigger even when the equipping character is not on the field, and if the character is in the Radiance: Stellar-Conduct or Radiance: Stellar Swirl state, the buff is changed to a <color=#99FFFFFF>9%</color> ATK and <color=#99FFFFFF>12%</color>Stellar-Conduct/Stellar Swirl reaction DMG increase instead.",
+      "desc": "In the 12s after using Elemental Skill: Each time an attack hits the opponent, ATK is increased by <color=#99FFFFFF>6%</color> while Elemental Mastery is increased by <color=#99FFFFFF>30</color> for 6s. This effect can trigger once every second, max 3 stacks. The aforementioned effect can trigger even when the equipping character is not on the field, and if the character is in the Radiance: Stellar-Conduct or Radiance: Stellar Swirl state, the buff is changed to a <color=#99FFFFFF>9%</color> ATK and <color=#99FFFFFF>12%</color>Stellar-Conduct/Stellar Swirl reaction DMG increase instead.",
       "param_list": [
         12,
         6,
@@ -385,7 +385,7 @@
     },
     "4": {
       "name": "",
-      "desc": "In the 12s after using Elemental Skill: each time an attack hits the opponent, ATK is increased by <color=#99FFFFFF>7%</color> while Elemental Mastery is increased by <color=#99FFFFFF>35</color> for 6s. This effect can trigger once every second, max 3 stacks. The aforementioned effect can trigger even when the equipping character is not on the field, and if the character is in the Radiance: Stellar-Conduct or Radiance: Stellar Swirl state, the buff is changed to a <color=#99FFFFFF>10.5%</color> ATK and <color=#99FFFFFF>14%</color>Stellar-Conduct/Stellar Swirl reaction DMG increase instead.",
+      "desc": "In the 12s after using Elemental Skill: Each time an attack hits the opponent, ATK is increased by <color=#99FFFFFF>7%</color> while Elemental Mastery is increased by <color=#99FFFFFF>35</color> for 6s. This effect can trigger once every second, max 3 stacks. The aforementioned effect can trigger even when the equipping character is not on the field, and if the character is in the Radiance: Stellar-Conduct or Radiance: Stellar Swirl state, the buff is changed to a <color=#99FFFFFF>10.5%</color> ATK and <color=#99FFFFFF>14%</color>Stellar-Conduct/Stellar Swirl reaction DMG increase instead.",
       "param_list": [
         12,
         6,
@@ -399,7 +399,7 @@
     },
     "5": {
       "name": "",
-      "desc": "In the 12s after using Elemental Skill: each time an attack hits the opponent, ATK is increased by <color=#99FFFFFF>8%</color> while Elemental Mastery is increased by <color=#99FFFFFF>40</color> for 6s. This effect can trigger once every second, max 3 stacks. The aforementioned effect can trigger even when the equipping character is not on the field, and if the character is in the Radiance: Stellar-Conduct or Radiance: Stellar Swirl state, the buff is changed to a <color=#99FFFFFF>12%</color> ATK and <color=#99FFFFFF>16%</color>Stellar-Conduct/Stellar Swirl reaction DMG increase instead.",
+      "desc": "In the 12s after using Elemental Skill: Each time an attack hits the opponent, ATK is increased by <color=#99FFFFFF>8%</color> while Elemental Mastery is increased by <color=#99FFFFFF>40</color> for 6s. This effect can trigger once every second, max 3 stacks. The aforementioned effect can trigger even when the equipping character is not on the field, and if the character is in the Radiance: Stellar-Conduct or Radiance: Stellar Swirl state, the buff is changed to a <color=#99FFFFFF>12%</color> ATK and <color=#99FFFFFF>16%</color>Stellar-Conduct/Stellar Swirl reaction DMG increase instead.",
       "param_list": [
         12,
         6,
@@ -552,5 +552,12 @@
       "cost": 45000
     }
   },
-  "story": {}
+  "story": {
+    "291437": {
+      "zh": "ART/UI/Readable/CHS/Weapon11437",
+      "en": "ART/UI/Readable/EN/Weapon11437_EN",
+      "ja": "ART/UI/Readable/JP/Weapon11437_JP",
+      "ko": "ART/UI/Readable/KR/Weapon11437_KR"
+    }
+  }
 }

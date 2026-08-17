@@ -1531,7 +1531,7 @@
   },
   "200": {
     "name": "Victory Emblem",
-    "desc": "A ticket representing confidence. Cast it for the team you think will win the battle!",
+    "desc": "An emblem symbolizing your faith. Cast it for the team you believe will win the battle!",
     "rank": 3,
     "icon": "UI_ItemIcon_200",
     "item_type": "ITEM_VIRTUAL",
@@ -2258,7 +2258,7 @@
   },
   "404": {
     "name": "Festive Fever",
-    "desc": "Fanfare increases as the gala's popularity grows. Once it reaches a certain amount, it can be exchanged for corresponding material rewards.",
+    "desc": "As the gala continues to gain popularity, the Festive Fever gauge will gradually increase. Reach certain milestones to exchange your accumulated Festive Fever for corresponding rewards.",
     "rank": 3,
     "icon": "UI_ItemIcon_404",
     "item_type": "ITEM_VIRTUAL",
@@ -85371,8 +85371,8 @@
     "type": "Quest Item"
   },
   "121623": {
-    "name": "？？？",
-    "desc": "",
+    "name": "???",
+    "desc": "???",
     "rank": 3,
     "icon": "UI_ItemIcon_121623",
     "item_type": "ITEM_MATERIAL",
@@ -85385,8 +85385,8 @@
     "type": "Quest Item"
   },
   "121624": {
-    "name": "？？？",
-    "desc": "",
+    "name": "???",
+    "desc": "???",
     "rank": 2,
     "icon": "UI_ItemIcon_121624",
     "item_type": "ITEM_MATERIAL",
@@ -86602,7 +86602,7 @@
   "121713": {
     "name": "???",
     "desc": "???",
-    "rank": 3,
+    "rank": 4,
     "icon": "UI_ItemIcon_121713",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_NONE",
@@ -86633,21 +86633,7 @@
     "rank": 2,
     "icon": "UI_ItemIcon_121715",
     "item_type": "ITEM_MATERIAL",
-    "material_type": "MATERIAL_QUEST",
-    "jump_descs": [],
-    "source_list": [],
-    "title": "",
-    "effect": "",
-    "special": "",
-    "type": "Quest Item"
-  },
-  "121716": {
-    "name": "???",
-    "desc": "???",
-    "rank": 2,
-    "icon": "UI_ItemIcon_121716",
-    "item_type": "ITEM_MATERIAL",
-    "material_type": "MATERIAL_QUEST",
+    "material_type": "MATERIAL_CHEST",
     "jump_descs": [],
     "source_list": [],
     "title": "",
@@ -89281,8 +89267,8 @@
     "type": ""
   },
   "140019": {
-    "name": "Snezhnaya Wind Glider",
-    "desc": "???",
+    "name": "Wings of Starry Winterfrost",
+    "desc": "A stylized wind glider gifted to you as a mark of Snezhnaya's acknowledgment and recognition.",
     "rank": 4,
     "icon": "UI_FlycloakIcon_Snezhnaya",
     "item_type": "ITEM_MATERIAL",
@@ -98618,7 +98604,7 @@
     "material_type": "MATERIAL_NAMECARD",
     "jump_descs": [],
     "source_list": [
-      "???"
+      "Reward for reaching Friendship 10 with Vodyanitsa"
     ],
     "title": "",
     "effect": "",
@@ -102564,7 +102550,7 @@
   "223301": {
     "name": "Construct Appearance: Jack Frost",
     "desc": "An appearance variant for the \"Prime Ice Construct: Cube.\"\\nJack Frost appears utterly obsessed with fashioning bizarre icy creations in their own image. Even with a structure as simple as a cube, they have poured immense effort into incorporating their own distinct features.",
-    "rank": 3,
+    "rank": 4,
     "icon": "UI_ItemIcon_223301",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_NONE",
@@ -102578,7 +102564,7 @@
   "223302": {
     "name": "Construct Appearance: Polyarbear",
     "desc": "Appearance of the \"Prime Ice Construct: Storage Device.\"\\nThere is an old saying among hunters that goes: \"If a bear holds it close, you know it's a treasure.\"\\nWhile the idea of wresting anything away from a real Polyarbear sounds terrifying, a mere storage unit modeled after one shouldn't pose much of a threat... right?",
-    "rank": 3,
+    "rank": 4,
     "icon": "UI_ItemIcon_223302",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_NONE",
@@ -102592,7 +102578,7 @@
   "223303": {
     "name": "Construct Appearance: The Ballerina",
     "desc": "An appearance variant for the \"Prime Ice Construct: Ambient Bollard.\"\\nWhen watching a performance, one's emotions naturally ebb and flow with every graceful movement of the ballet dancer. Each viewing instills a profound sense of inner strength.\\nPerhaps it was born from this very sentiment that this particular Prime Ice Construct appearance was designed.",
-    "rank": 3,
+    "rank": 4,
     "icon": "UI_ItemIcon_223303",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_NONE",
@@ -102606,7 +102592,7 @@
   "223304": {
     "name": "Construct Appearance: The Hound",
     "desc": "An appearance variant for the \"Prime Ice Construct: Ambient Bollard.\"\\nContinuous buffs come not only from ambient bollards, but from the companions by our side. Sometimes, their mere presence provides a strength that far surpasses any magical enhancement... That being said, it would be wonderful if these bollards could follow us around just like a real companion.",
-    "rank": 3,
+    "rank": 4,
     "icon": "UI_ItemIcon_223304",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_NONE",
@@ -102620,7 +102606,7 @@
   "223305": {
     "name": "Construct Appearance: The Tides",
     "desc": "An appearance variant for the \"Prime Ice Construct: Ambient Bollard.\"\\nThey say that if you stand near a bollard crafted in this likeness, you can sometimes hear the faint murmur of the tides. Yet, the structure itself makes no sound; the melody belongs entirely to your mind and imagination, just like a song that suddenly echoes in your heart on a quiet night.",
-    "rank": 3,
+    "rank": 4,
     "icon": "UI_ItemIcon_223305",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_NONE",
@@ -105376,7 +105362,7 @@
     "type": ""
   },
   "318205": {
-    "name": "Relaxed Readiness",
+    "name": "Ready and Relaxed",
     "desc": "",
     "rank": 3,
     "icon": "UI_ItemIcon_223018",
@@ -105418,7 +105404,7 @@
     "type": ""
   },
   "318208": {
-    "name": "Enjoy Food",
+    "name": "Savoring the Meal",
     "desc": "",
     "rank": 3,
     "icon": "UI_ItemIcon_223018",
@@ -105432,7 +105418,7 @@
     "type": ""
   },
   "318209": {
-    "name": "Valiant Battle Pose",
+    "name": "Valiant Battle Stance",
     "desc": "",
     "rank": 3,
     "icon": "UI_ItemIcon_223018",
@@ -105446,7 +105432,7 @@
     "type": ""
   },
   "318210": {
-    "name": "Hearty Drink",
+    "name": "Drinking Deep",
     "desc": "",
     "rank": 3,
     "icon": "UI_ItemIcon_223018",
@@ -105460,7 +105446,7 @@
     "type": ""
   },
   "318211": {
-    "name": "Please enjoy the food",
+    "name": "Please, Dig In",
     "desc": "",
     "rank": 3,
     "icon": "UI_ItemIcon_223018",
@@ -105474,7 +105460,7 @@
     "type": ""
   },
   "318212": {
-    "name": "Eagerly Awaiting",
+    "name": "Eagerly Waiting",
     "desc": "",
     "rank": 3,
     "icon": "UI_ItemIcon_223018",
@@ -136788,9 +136774,9 @@
     "type": "Furnishing Blueprint"
   },
   "380485": {
-    "name": "（test）逐月节灯笼A",
+    "name": "「月彩满通衢」",
     "desc": "",
-    "rank": 3,
+    "rank": 4,
     "icon": "UI_ItemIcon_Home_Common",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_FURNITURE_FORMULA",
@@ -136802,9 +136788,9 @@
     "type": "Furnishing Blueprint"
   },
   "380486": {
-    "name": "（test）逐月节灯笼B",
+    "name": "「钱途闪闪」",
     "desc": "",
-    "rank": 3,
+    "rank": 4,
     "icon": "UI_ItemIcon_Home_Common",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_FURNITURE_FORMULA",
@@ -142544,7 +142530,7 @@
   "384526": {
     "name": "???",
     "desc": "???",
-    "rank": 3,
+    "rank": 4,
     "icon": "UI_ItemIcon_Home_Common",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_FURNITURE_FORMULA",
@@ -143690,7 +143676,7 @@
     "type": "Furnishing Blueprint"
   },
   "390343": {
-    "name": "（test）海屑镇摊位1",
+    "name": "城镇小摊-「新鲜之味」",
     "desc": "",
     "rank": 3,
     "icon": "UI_ItemIcon_Home_Common",
@@ -143704,7 +143690,7 @@
     "type": "Furnishing Blueprint"
   },
   "390344": {
-    "name": "（test）海屑镇摊位2",
+    "name": "城镇小摊-「节约时间」",
     "desc": "",
     "rank": 3,
     "icon": "UI_ItemIcon_Home_Common",
@@ -143718,7 +143704,7 @@
     "type": "Furnishing Blueprint"
   },
   "390345": {
-    "name": "（test）海屑镇摊位3",
+    "name": "城镇小摊-「惬意时刻」",
     "desc": "",
     "rank": 3,
     "icon": "UI_ItemIcon_Home_Common",
@@ -154584,7 +154570,7 @@
   "394852": {
     "name": "???",
     "desc": "???",
-    "rank": 3,
+    "rank": 4,
     "icon": "UI_ItemIcon_Home_Common",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_FURNITURE_FORMULA",

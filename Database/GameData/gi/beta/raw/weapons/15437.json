@@ -552,5 +552,12 @@
       "cost": 45000
     }
   },
-  "story": {}
+  "story": {
+    "295437": {
+      "zh": "ART/UI/Readable/CHS/Weapon15437",
+      "en": "ART/UI/Readable/EN/Weapon15437_EN",
+      "ja": "ART/UI/Readable/JP/Weapon15437_JP",
+      "ko": "ART/UI/Readable/KR/Weapon15437_KR"
+    }
+  }
 }

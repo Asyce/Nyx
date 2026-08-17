@@ -9974,6 +9974,319 @@
   ],
   "roster": [
     {
+      "id": "hsr-aventurine-waveflair",
+      "n": "Aventurine Waveflair",
+      "localizedNames": {
+        "en": "Aventurine \u2022 Waveflair",
+        "zh": "\u7802\u91d1\u2022\u620f\u6d6a",
+        "ja": "\u30a2\u30d9\u30f3\u30c1\u30e5\u30ea\u30f3\u30fb\u6ce2\u3068\u622f\u308c\u308b\u590f",
+        "ko": "\uc5b4\ubca4\uce04\ub9b0\u2022\uc6e8\uc774\ube0c"
+      },
+      "title": "Over the Glided Tides",
+      "slug": "aventurine-waveflair",
+      "updated": 1786492800000,
+      "sourceOrder": 0,
+      "icon": "../../Database/GameData/hsr/assets/characters/round/1513.webp",
+      "art": "../../Database/GameData/hsr/assets/characters/draw-card/1513.webp",
+      "card": "../../Database/Prydwen/hsr/assets/characters/aventurine-waveflair-0fb8df0c48dc.webp",
+      "status": "beta",
+      "labels": [
+        "4.5"
+      ],
+      "r": 5,
+      "el": "Quantum",
+      "path": "Elation",
+      "baseStats": {
+        "level1": {
+          "hp": 158.4,
+          "atk": 66,
+          "def": 82.5,
+          "speed": 107,
+          "critRate": 0.05,
+          "critDmg": 0.5
+        },
+        "max": {
+          "level": 80,
+          "hp": 1164.24,
+          "atk": 485.1,
+          "def": 606.38,
+          "speed": 107,
+          "critRate": 0.05,
+          "critDmg": 0.5
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 158.4,
+            "atk": 66,
+            "def": 82.5,
+            "speed": 107,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 20/30",
+            "level": 20,
+            "cap": 30,
+            "hp": 372.24,
+            "atk": 155.1,
+            "def": 193.88,
+            "speed": 107,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 30/40",
+            "level": 30,
+            "cap": 40,
+            "hp": 514.8,
+            "atk": 214.5,
+            "def": 268.13,
+            "speed": 107,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 657.36,
+            "atk": 273.9,
+            "def": 342.38,
+            "speed": 107,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 799.92,
+            "atk": 333.3,
+            "def": 416.63,
+            "speed": 107,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 942.48,
+            "atk": 392.7,
+            "def": 490.88,
+            "speed": 107,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 1085.04,
+            "atk": 452.1,
+            "def": 565.13,
+            "speed": 107,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 80/80",
+            "level": 80,
+            "cap": 80,
+            "hp": 1164.24,
+            "atk": 485.1,
+            "def": 606.38,
+            "speed": 107,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          }
+        ]
+      },
+      "facts": {
+        "title": "Over the Glided Tides"
+      },
+      "upcoming": true,
+      "reliableData": false,
+      "noReliableInfo": true,
+      "recent": false
+    },
+    {
+      "id": "hsr-pearl",
+      "n": "Pearl",
+      "localizedNames": {
+        "en": "Pearl"
+      },
+      "slug": "pearl",
+      "releasePatch": "1.6",
+      "updated": 1786492800000,
+      "sourceOrder": 0,
+      "voiceActors": {
+        "english": "imdb:nm11767862|Cat Protano",
+        "japanese": "Kiyono Yasuno|Yasuno Kiyono (\u5b89\u91ce\u5e0c\u4e16\u4e43)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hans/\u82cf\u5a49|Su Wan (\u82cf\u5a49)",
+        "korean": "https://en.namu.wiki/w/\uc5ec\uc724\ubbf8|Yeo Yoon-mi (\uc5ec\uc724\ubbf8)"
+      },
+      "icon": null,
+      "art": "../../Database/Prydwen/hsr/assets/characters/pearl-b1158304697b.webp",
+      "card": "../../Database/Prydwen/hsr/assets/characters/pearl-d9dc8a262aee.webp",
+      "status": "beta",
+      "labels": [
+        "4.6"
+      ],
+      "r": 5,
+      "el": "Ice",
+      "path": "Elation",
+      "baseStats": {},
+      "facts": {},
+      "upcoming": true,
+      "reliableData": false,
+      "noReliableInfo": true,
+      "recent": false
+    },
+    {
+      "id": "hsr-robin-summeretto",
+      "n": "Robin Summeretto",
+      "localizedNames": {
+        "en": "Robin \u2022 Summeretto",
+        "zh": "\u77e5\u66f4\u9e1f\u2022\u6674\u6b4c",
+        "ja": "\u30ed\u30d3\u30f3\u30fb\u590f\u7a7a\u306e\u6b4c",
+        "ko": "\ub85c\ube48\u2022\uc11c\uba38\ub808\ud1a0"
+      },
+      "title": "Summer Chorus",
+      "slug": "robin-summeretto",
+      "updated": 1786492800000,
+      "sourceOrder": 0,
+      "icon": "../../Database/GameData/hsr/assets/characters/round/1512.webp",
+      "art": "../../Database/GameData/hsr/assets/characters/draw-card/1512.webp",
+      "card": "../../Database/Prydwen/hsr/assets/characters/robin-summeretto-50f73fbdd44b.webp",
+      "status": "beta",
+      "labels": [
+        "4.5"
+      ],
+      "r": 5,
+      "el": "Wind",
+      "path": "Remembrance",
+      "baseStats": {
+        "level1": {
+          "hp": 163.68,
+          "atk": 81.84,
+          "def": 66,
+          "speed": 95,
+          "critRate": 0.05,
+          "critDmg": 0.5
+        },
+        "max": {
+          "level": 80,
+          "hp": 1203.05,
+          "atk": 601.52,
+          "def": 485.1,
+          "speed": 95,
+          "critRate": 0.05,
+          "critDmg": 0.5
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 163.68,
+            "atk": 81.84,
+            "def": 66,
+            "speed": 95,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 20/30",
+            "level": 20,
+            "cap": 30,
+            "hp": 384.65,
+            "atk": 192.32,
+            "def": 155.1,
+            "speed": 95,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 30/40",
+            "level": 30,
+            "cap": 40,
+            "hp": 531.96,
+            "atk": 265.98,
+            "def": 214.5,
+            "speed": 95,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 679.27,
+            "atk": 339.64,
+            "def": 273.9,
+            "speed": 95,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 826.58,
+            "atk": 413.29,
+            "def": 333.3,
+            "speed": 95,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 973.9,
+            "atk": 486.95,
+            "def": 392.7,
+            "speed": 95,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 1121.21,
+            "atk": 560.6,
+            "def": 452.1,
+            "speed": 95,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 80/80",
+            "level": 80,
+            "cap": 80,
+            "hp": 1203.05,
+            "atk": 601.52,
+            "def": 485.1,
+            "speed": 95,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          }
+        ]
+      },
+      "facts": {
+        "title": "Summer Chorus"
+      },
+      "upcoming": true,
+      "reliableData": false,
+      "noReliableInfo": true,
+      "recent": false
+    },
+    {
       "id": "hsr-gilgamesh",
       "n": "Gilgamesh",
       "localizedNames": {
@@ -18660,280 +18973,6 @@
         }
       },
       "recent": 1
-    },
-    {
-      "id": "hsr-aventurine-waveflair",
-      "n": "Aventurine Waveflair",
-      "localizedNames": {
-        "en": "Aventurine \u2022 Waveflair",
-        "zh": "\u7802\u91d1\u2022\u620f\u6d6a",
-        "ja": "\u30a2\u30d9\u30f3\u30c1\u30e5\u30ea\u30f3\u30fb\u6ce2\u3068\u622f\u308c\u308b\u590f",
-        "ko": "\uc5b4\ubca4\uce04\ub9b0\u2022\uc6e8\uc774\ube0c"
-      },
-      "slug": "aventurine-waveflair",
-      "updated": 1782777600000,
-      "sourceOrder": 0,
-      "icon": "../../Database/GameData/hsr/assets/characters/round/1513.webp",
-      "art": "../../Database/GameData/hsr/assets/characters/draw-card/1513.webp",
-      "card": "../../Database/Prydwen/hsr/assets/characters/aventurine-waveflair-0fb8df0c48dc.webp",
-      "status": "beta",
-      "labels": [
-        "4.X"
-      ],
-      "r": 5,
-      "el": "Quantum",
-      "path": "Elation",
-      "baseStats": {
-        "level1": {
-          "hp": 158.4,
-          "atk": 66,
-          "def": 82.5,
-          "speed": 107,
-          "critRate": 0.05,
-          "critDmg": 0.5
-        },
-        "max": {
-          "level": 80,
-          "hp": 1164.24,
-          "atk": 485.1,
-          "def": 606.38,
-          "speed": 107,
-          "critRate": 0.05,
-          "critDmg": 0.5
-        },
-        "levels": [
-          {
-            "label": "Lv. 1/20",
-            "level": 1,
-            "cap": 20,
-            "hp": 158.4,
-            "atk": 66,
-            "def": 82.5,
-            "speed": 107,
-            "critRate": 0.05,
-            "critDmg": 0.5
-          },
-          {
-            "label": "Lv. 20/30",
-            "level": 20,
-            "cap": 30,
-            "hp": 372.24,
-            "atk": 155.1,
-            "def": 193.88,
-            "speed": 107,
-            "critRate": 0.05,
-            "critDmg": 0.5
-          },
-          {
-            "label": "Lv. 30/40",
-            "level": 30,
-            "cap": 40,
-            "hp": 514.8,
-            "atk": 214.5,
-            "def": 268.13,
-            "speed": 107,
-            "critRate": 0.05,
-            "critDmg": 0.5
-          },
-          {
-            "label": "Lv. 40/50",
-            "level": 40,
-            "cap": 50,
-            "hp": 657.36,
-            "atk": 273.9,
-            "def": 342.38,
-            "speed": 107,
-            "critRate": 0.05,
-            "critDmg": 0.5
-          },
-          {
-            "label": "Lv. 50/60",
-            "level": 50,
-            "cap": 60,
-            "hp": 799.92,
-            "atk": 333.3,
-            "def": 416.63,
-            "speed": 107,
-            "critRate": 0.05,
-            "critDmg": 0.5
-          },
-          {
-            "label": "Lv. 60/70",
-            "level": 60,
-            "cap": 70,
-            "hp": 942.48,
-            "atk": 392.7,
-            "def": 490.88,
-            "speed": 107,
-            "critRate": 0.05,
-            "critDmg": 0.5
-          },
-          {
-            "label": "Lv. 70/80",
-            "level": 70,
-            "cap": 80,
-            "hp": 1085.04,
-            "atk": 452.1,
-            "def": 565.13,
-            "speed": 107,
-            "critRate": 0.05,
-            "critDmg": 0.5
-          },
-          {
-            "label": "Lv. 80/80",
-            "level": 80,
-            "cap": 80,
-            "hp": 1164.24,
-            "atk": 485.1,
-            "def": 606.38,
-            "speed": 107,
-            "critRate": 0.05,
-            "critDmg": 0.5
-          }
-        ]
-      },
-      "facts": {},
-      "upcoming": true,
-      "reliableData": false,
-      "noReliableInfo": true,
-      "recent": false
-    },
-    {
-      "id": "hsr-robin-summeretto",
-      "n": "Robin Summeretto",
-      "localizedNames": {
-        "en": "Robin \u2022 Summeretto",
-        "zh": "\u77e5\u66f4\u9e1f\u2022\u6674\u6b4c",
-        "ja": "\u30ed\u30d3\u30f3\u30fb\u590f\u7a7a\u306e\u6b4c",
-        "ko": "\ub85c\ube48\u2022\uc11c\uba38\ub808\ud1a0"
-      },
-      "slug": "robin-summeretto",
-      "updated": 1782777600000,
-      "sourceOrder": 0,
-      "icon": "../../Database/GameData/hsr/assets/characters/round/1512.webp",
-      "art": "../../Database/GameData/hsr/assets/characters/draw-card/1512.webp",
-      "card": "../../Database/Prydwen/hsr/assets/characters/robin-summeretto-50f73fbdd44b.webp",
-      "status": "beta",
-      "labels": [
-        "4.X"
-      ],
-      "r": 5,
-      "el": "Wind",
-      "path": "Remembrance",
-      "baseStats": {
-        "level1": {
-          "hp": 163.68,
-          "atk": 81.84,
-          "def": 66,
-          "speed": 95,
-          "critRate": 0.05,
-          "critDmg": 0.5
-        },
-        "max": {
-          "level": 80,
-          "hp": 1203.05,
-          "atk": 601.52,
-          "def": 485.1,
-          "speed": 95,
-          "critRate": 0.05,
-          "critDmg": 0.5
-        },
-        "levels": [
-          {
-            "label": "Lv. 1/20",
-            "level": 1,
-            "cap": 20,
-            "hp": 163.68,
-            "atk": 81.84,
-            "def": 66,
-            "speed": 95,
-            "critRate": 0.05,
-            "critDmg": 0.5
-          },
-          {
-            "label": "Lv. 20/30",
-            "level": 20,
-            "cap": 30,
-            "hp": 384.65,
-            "atk": 192.32,
-            "def": 155.1,
-            "speed": 95,
-            "critRate": 0.05,
-            "critDmg": 0.5
-          },
-          {
-            "label": "Lv. 30/40",
-            "level": 30,
-            "cap": 40,
-            "hp": 531.96,
-            "atk": 265.98,
-            "def": 214.5,
-            "speed": 95,
-            "critRate": 0.05,
-            "critDmg": 0.5
-          },
-          {
-            "label": "Lv. 40/50",
-            "level": 40,
-            "cap": 50,
-            "hp": 679.27,
-            "atk": 339.64,
-            "def": 273.9,
-            "speed": 95,
-            "critRate": 0.05,
-            "critDmg": 0.5
-          },
-          {
-            "label": "Lv. 50/60",
-            "level": 50,
-            "cap": 60,
-            "hp": 826.58,
-            "atk": 413.29,
-            "def": 333.3,
-            "speed": 95,
-            "critRate": 0.05,
-            "critDmg": 0.5
-          },
-          {
-            "label": "Lv. 60/70",
-            "level": 60,
-            "cap": 70,
-            "hp": 973.9,
-            "atk": 486.95,
-            "def": 392.7,
-            "speed": 95,
-            "critRate": 0.05,
-            "critDmg": 0.5
-          },
-          {
-            "label": "Lv. 70/80",
-            "level": 70,
-            "cap": 80,
-            "hp": 1121.21,
-            "atk": 560.6,
-            "def": 452.1,
-            "speed": 95,
-            "critRate": 0.05,
-            "critDmg": 0.5
-          },
-          {
-            "label": "Lv. 80/80",
-            "level": 80,
-            "cap": 80,
-            "hp": 1203.05,
-            "atk": 601.52,
-            "def": 485.1,
-            "speed": 95,
-            "critRate": 0.05,
-            "critDmg": 0.5
-          }
-        ]
-      },
-      "facts": {},
-      "upcoming": true,
-      "reliableData": false,
-      "noReliableInfo": true,
-      "recent": false
     },
     {
       "id": "hsr-evanescia",
@@ -187423,7 +187462,7 @@
   ],
   "boss": {
     "title": "Echo of War",
-    "count": 90
+    "count": 91
   },
   "bossGroups": [
     {
@@ -187479,6 +187518,7 @@
         "Ice build guides"
       ],
       "chars": [
+        "Pearl",
         "Cyrene",
         "Gepard",
         "Jingliu",
@@ -187540,8 +187580,8 @@
         "Quantum build guides"
       ],
       "chars": [
-        "Rin Tohsaka",
         "Aventurine Waveflair",
+        "Rin Tohsaka",
         "Archer",
         "Castorice",
         "Cipher",

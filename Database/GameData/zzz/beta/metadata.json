@@ -3,21 +3,19 @@
   "game": "zzz",
   "gameName": "Zenless Zone Zero",
   "channel": "beta",
-  "version": "3.2.3+18244196",
+  "version": "3.2.3+18283617",
   "liveVersion": "3.1",
-  "betaVersion": "3.2.3+18244196",
+  "betaVersion": "3.2.3+18283617",
   "availableVersions": [
     "3.1",
     "3.2.0+17782873",
-    "3.2.1+17919471",
     "3.2.1+17934514",
-    "3.2.2+18082220",
-    "3.2.2+18088156",
-    "3.2.2+18094568",
     "3.2.2+18097913",
-    "3.2.3+18244196"
+    "3.2.3+18244196",
+    "3.2.3+18259966",
+    "3.2.3+18283617"
   ],
-  "scrapedAt": "2026-08-15T14:43:47.720Z",
+  "scrapedAt": "2026-08-17T14:50:27.029Z",
   "counts": {
     "agents": 59,
     "wEngines": 100,
@@ -113,8 +111,8 @@
   "contentStatus": "Beta records are compared to Live and marked live, beta, or beta_changed.",
   "assets": {
     "requested": 3040,
-    "downloaded": 1,
-    "cached": 2975,
+    "downloaded": 0,
+    "cached": 2976,
     "missing": 64,
     "missingAssets": [
       {

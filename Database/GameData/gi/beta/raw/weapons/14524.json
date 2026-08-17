@@ -343,13 +343,13 @@
   "refinement": {
     "1": {
       "name": "7.1 Promo Weapon",
-      "desc": "Increases Healing Bonus by <color=#99FFFFFF>8%</color>.\\nWhen the equipping character performs healing, they receive 1 stack of the \"Hymn of the Water Imp\" effect, which increases their Max HP by <color=#99FFFFFF>5%</color>. Additionally, every 1,000 Max HP the equipping character has over 40,000 will also increase the active character's ATK by <color=#99FFFFFF>0.25%</color>, up to <color=#99FFFFFF>5%</color> in total.\\nHymn of the Water Imp lasts 8s, max 3 stacks. Each stack's duration is independent of the others'.\\nWhen a nearby party member triggers a Frozen or Stellar Swirl reaction, any currently active instances of Hymn of the Water Imp, as well as any instances that come into effect within the next 5s, become \"Triumph of the Water Imp\" instead, which further increases Max HP and ATK by 75%.\\nThe aforementioned effects can trigger even when the equipping character is not on the field.",
+      "desc": "Increases Healing Bonus by <color=#99FFFFFF>8%</color>.\\nWhen the equipping character performs healing, they receive 1 stack of the \"Hymn of the Water Imp\" effect, which increases their Max HP by <color=#99FFFFFF>5%</color>. Additionally, every 1,000 Max HP the equipping character has over 40,000 will also increase the active character's ATK by <color=#99FFFFFF>0.25%</color>, up to <color=#99FFFFFF>5%</color> in total.\\nHymn of the Water Imp lasts 8s, max 3 stacks. Each stack's duration is independent of the others'.\\nWhen a nearby party member triggers a Frozen or Stellar Swirl reaction, any currently active instances of Hymn of the Water Imp, as well as any instances that come into effect within the next 5s, become \"Triumph of the Water Imp\" instead, which further increases the Max HP and ATK increase by 75%.\\nThe aforementioned effects can trigger even when the equipping character is not on the field.",
       "param_list": [
-        0.05,
+        0.04,
         40000,
-        0.0025,
-        0.05,
-        8,
+        0.004,
+        0.08,
+        10,
         3,
         5,
         0.75
@@ -357,13 +357,13 @@
     },
     "2": {
       "name": "7.1 Promo Weapon",
-      "desc": "Increases Healing Bonus by <color=#99FFFFFF>10%</color>.\\nWhen the equipping character performs healing, they receive 1 stack of the \"Hymn of the Water Imp\" effect, which increases their Max HP by <color=#99FFFFFF>6%</color>. Additionally, every 1,000 Max HP the equipping character has over 40,000 will also increase the active character's ATK by <color=#99FFFFFF>0.325%</color>, up to <color=#99FFFFFF>6.5%</color> in total.\\nHymn of the Water Imp lasts 8s, max 3 stacks. Each stack's duration is independent of the others'.\\nWhen a nearby party member triggers a Frozen or Stellar Swirl reaction, any currently active instances of Hymn of the Water Imp, as well as any instances that come into effect within the next 5s, become \"Triumph of the Water Imp\" instead, which further increases Max HP and ATK by 75%.\\nThe aforementioned effects can trigger even when the equipping character is not on the field.",
+      "desc": "Increases Healing Bonus by <color=#99FFFFFF>10%</color>.\\nWhen the equipping character performs healing, they receive 1 stack of the \"Hymn of the Water Imp\" effect, which increases their Max HP by <color=#99FFFFFF>6%</color>. Additionally, every 1,000 Max HP the equipping character has over 40,000 will also increase the active character's ATK by <color=#99FFFFFF>0.325%</color>, up to <color=#99FFFFFF>6.5%</color> in total.\\nHymn of the Water Imp lasts 8s, max 3 stacks. Each stack's duration is independent of the others'.\\nWhen a nearby party member triggers a Frozen or Stellar Swirl reaction, any currently active instances of Hymn of the Water Imp, as well as any instances that come into effect within the next 5s, become \"Triumph of the Water Imp\" instead, which further increases the Max HP and ATK increase by 75%.\\nThe aforementioned effects can trigger even when the equipping character is not on the field.",
       "param_list": [
-        0.06,
+        0.05,
         40000,
-        0.00325,
-        0.065,
-        8,
+        0.005,
+        0.1,
+        10,
         3,
         5,
         0.75
@@ -371,13 +371,13 @@
     },
     "3": {
       "name": "7.1 Promo Weapon",
-      "desc": "Increases Healing Bonus by <color=#99FFFFFF>12%</color>.\\nWhen the equipping character performs healing, they receive 1 stack of the \"Hymn of the Water Imp\" effect, which increases their Max HP by <color=#99FFFFFF>7%</color>. Additionally, every 1,000 Max HP the equipping character has over 40,000 will also increase the active character's ATK by <color=#99FFFFFF>0.4%</color>, up to <color=#99FFFFFF>8%</color> in total.\\nHymn of the Water Imp lasts 8s, max 3 stacks. Each stack's duration is independent of the others'.\\nWhen a nearby party member triggers a Frozen or Stellar Swirl reaction, any currently active instances of Hymn of the Water Imp, as well as any instances that come into effect within the next 5s, become \"Triumph of the Water Imp\" instead, which further increases Max HP and ATK by 75%.\\nThe aforementioned effects can trigger even when the equipping character is not on the field.",
+      "desc": "Increases Healing Bonus by <color=#99FFFFFF>12%</color>.\\nWhen the equipping character performs healing, they receive 1 stack of the \"Hymn of the Water Imp\" effect, which increases their Max HP by <color=#99FFFFFF>7%</color>. Additionally, every 1,000 Max HP the equipping character has over 40,000 will also increase the active character's ATK by <color=#99FFFFFF>0.4%</color>, up to <color=#99FFFFFF>8%</color> in total.\\nHymn of the Water Imp lasts 8s, max 3 stacks. Each stack's duration is independent of the others'.\\nWhen a nearby party member triggers a Frozen or Stellar Swirl reaction, any currently active instances of Hymn of the Water Imp, as well as any instances that come into effect within the next 5s, become \"Triumph of the Water Imp\" instead, which further increases the Max HP and ATK increase by 75%.\\nThe aforementioned effects can trigger even when the equipping character is not on the field.",
       "param_list": [
-        0.07,
+        0.06,
         40000,
-        0.004,
-        0.08,
-        8,
+        0.006,
+        0.12,
+        10,
         3,
         5,
         0.75
@@ -385,13 +385,13 @@
     },
     "4": {
       "name": "7.1 Promo Weapon",
-      "desc": "Increases Healing Bonus by <color=#99FFFFFF>14%</color>.\\nWhen the equipping character performs healing, they receive 1 stack of the \"Hymn of the Water Imp\" effect, which increases their Max HP by <color=#99FFFFFF>8%</color>. Additionally, every 1,000 Max HP the equipping character has over 40,000 will also increase the active character's ATK by <color=#99FFFFFF>0.475%</color>, up to <color=#99FFFFFF>9.5%</color> in total.\\nHymn of the Water Imp lasts 8s, max 3 stacks. Each stack's duration is independent of the others'.\\nWhen a nearby party member triggers a Frozen or Stellar Swirl reaction, any currently active instances of Hymn of the Water Imp, as well as any instances that come into effect within the next 5s, become \"Triumph of the Water Imp\" instead, which further increases Max HP and ATK by 75%.\\nThe aforementioned effects can trigger even when the equipping character is not on the field.",
+      "desc": "Increases Healing Bonus by <color=#99FFFFFF>14%</color>.\\nWhen the equipping character performs healing, they receive 1 stack of the \"Hymn of the Water Imp\" effect, which increases their Max HP by <color=#99FFFFFF>8%</color>. Additionally, every 1,000 Max HP the equipping character has over 40,000 will also increase the active character's ATK by <color=#99FFFFFF>0.475%</color>, up to <color=#99FFFFFF>9.5%</color> in total.\\nHymn of the Water Imp lasts 8s, max 3 stacks. Each stack's duration is independent of the others'.\\nWhen a nearby party member triggers a Frozen or Stellar Swirl reaction, any currently active instances of Hymn of the Water Imp, as well as any instances that come into effect within the next 5s, become \"Triumph of the Water Imp\" instead, which further increases the Max HP and ATK increase by 75%.\\nThe aforementioned effects can trigger even when the equipping character is not on the field.",
       "param_list": [
-        0.08,
+        0.07,
         40000,
-        0.00475,
-        0.095,
-        8,
+        0.007,
+        0.14,
+        10,
         3,
         5,
         0.75
@@ -399,13 +399,13 @@
     },
     "5": {
       "name": "7.1 Promo Weapon",
-      "desc": "Increases Healing Bonus by <color=#99FFFFFF>16%</color>.\\nWhen the equipping character performs healing, they receive 1 stack of the \"Hymn of the Water Imp\" effect, which increases their Max HP by <color=#99FFFFFF>9%</color>. Additionally, every 1,000 Max HP the equipping character has over 40,000 will also increase the active character's ATK by <color=#99FFFFFF>0.55%</color>, up to <color=#99FFFFFF>11%</color> in total.\\nHymn of the Water Imp lasts 8s, max 3 stacks. Each stack's duration is independent of the others'.\\nWhen a nearby party member triggers a Frozen or Stellar Swirl reaction, any currently active instances of Hymn of the Water Imp, as well as any instances that come into effect within the next 5s, become \"Triumph of the Water Imp\" instead, which further increases Max HP and ATK by 75%.\\nThe aforementioned effects can trigger even when the equipping character is not on the field.",
+      "desc": "Increases Healing Bonus by <color=#99FFFFFF>16%</color>.\\nWhen the equipping character performs healing, they receive 1 stack of the \"Hymn of the Water Imp\" effect, which increases their Max HP by <color=#99FFFFFF>9%</color>. Additionally, every 1,000 Max HP the equipping character has over 40,000 will also increase the active character's ATK by <color=#99FFFFFF>0.55%</color>, up to <color=#99FFFFFF>11%</color> in total.\\nHymn of the Water Imp lasts 8s, max 3 stacks. Each stack's duration is independent of the others'.\\nWhen a nearby party member triggers a Frozen or Stellar Swirl reaction, any currently active instances of Hymn of the Water Imp, as well as any instances that come into effect within the next 5s, become \"Triumph of the Water Imp\" instead, which further increases the Max HP and ATK increase by 75%.\\nThe aforementioned effects can trigger even when the equipping character is not on the field.",
       "param_list": [
-        0.09,
+        0.08,
         40000,
-        0.0055,
-        0.11,
-        8,
+        0.008,
+        0.16,
+        10,
         3,
         5,
         0.75
@@ -552,5 +552,12 @@
       "cost": 65000
     }
   },
-  "story": {}
+  "story": {
+    "294524": {
+      "zh": "ART/UI/Readable/CHS/Weapon14524",
+      "en": "ART/UI/Readable/EN/Weapon14524_EN",
+      "ja": "ART/UI/Readable/JP/Weapon14524_JP",
+      "ko": "ART/UI/Readable/KR/Weapon14524_KR"
+    }
+  }
 }

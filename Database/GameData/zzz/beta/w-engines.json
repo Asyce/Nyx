@@ -52739,27 +52739,27 @@
     "talents": {
       "1": {
         "name": "...",
-        "desc": "The equipper's CRIT Rate increases by 25%; <color=#2EB6FF>Electric DMG</color> increases by 15%; when the equipper launches an <color=#FFFFFF>[EX Special Attack]</color> or triggers <color=#FFFFFF>[Maim]</color>, the <color=#2EB6FF>Electric Sharp DMG</color> dealt increases by 12%, lasting 40s, repeated triggers reset the duration."
+        "desc": "The equipper's CRIT Rate increases by <color=#2BAD00>25%</color>; <color=#2EB6FF>Electric DMG</color> increases by <color=#2BAD00>15%</color>; when the equipper launches an <color=#FFFFFF>[EX Special Attack]</color> or triggers <color=#FFFFFF>[Maim]</color>, the <color=#2EB6FF>Electric Sharp DMG</color> dealt increases by <color=#2BAD00>12%</color>, lasting 40s. Repeated triggers reset the duration."
       },
       "2": {
         "name": "...",
-        "desc": "The equipper's CRIT Rate increases by 27.5%; <color=#2EB6FF>Electric DMG</color> increases by 17.5%; when the equipper launches an <color=#FFFFFF>[EX Special Attack]</color> or triggers <color=#FFFFFF>[Maim]</color>, <color=#2EB6FF>Electric Sharp DMG</color> increases by 14%, lasting 40s, repeated triggers reset the duration."
+        "desc": "The equipper's CRIT Rate increases by <color=#2BAD00>27.5%</color>; <color=#2EB6FF>Electric DMG</color> increases by <color=#2BAD00>17.5%</color>; when the equipper launches an <color=#FFFFFF>[EX Special Attack]</color> or triggers <color=#FFFFFF>[Maim]</color>, the <color=#2EB6FF>Electric Sharp DMG</color> dealt increases by <color=#2BAD00>14%</color>, lasting 40s. Repeated triggers reset the duration."
       },
       "3": {
         "name": "...",
-        "desc": "The equipper's CRIT Rate increases by 30%; <color=#2EB6FF>Electric DMG</color> increases by 20%; when the equipper launches an <color=#FFFFFF>[EX Special Attack]</color> or triggers <color=#FFFFFF>[Maim]</color>, <color=#2EB6FF>Electric Sharp DMG</color> dealt increases by 16%, lasting 40s, repeated triggers reset the duration."
+        "desc": "The equipper's CRIT Rate increases by <color=#2BAD00>30%</color>; <color=#2EB6FF>Electric DMG</color> increases by <color=#2BAD00>20%</color>; when the equipper launches an <color=#FFFFFF>[EX Special Attack]</color> or triggers <color=#FFFFFF>[Maim]</color>, the <color=#2EB6FF>Electric Sharp DMG</color> dealt increases by <color=#2BAD00>16%</color>, lasting 40s. Repeated triggers reset the duration."
       },
       "4": {
         "name": "...",
-        "desc": "The equipper's CRIT Rate increases by 32.5%; <color=#2EB6FF>Electric DMG</color> increases by 22.5%; When the equipper launches an <color=#FFFFFF>[EX Special Attack]</color> or triggers <color=#FFFFFF>[Maim]</color>, the <color=#2EB6FF>Electric Sharp DMG</color> dealt increases by 18%, lasting 40s, repeated triggers reset the duration."
+        "desc": "The equipper's CRIT Rate increases by <color=#2BAD00>32.5%</color>; <color=#2EB6FF>Electric DMG</color> increases by <color=#2BAD00>22.5%</color>; when the equipper launches an <color=#FFFFFF>[EX Special Attack]</color> or triggers <color=#FFFFFF>[Maim]</color>, the <color=#2EB6FF>Electric Sharp DMG</color> dealt increases by <color=#2BAD00>18%</color>, lasting 40s. Repeated triggers reset the duration."
       },
       "5": {
         "name": "...",
-        "desc": "The equipper's CRIT Rate increases by 35%; <color=#2EB6FF>Electric DMG</color> increases by 25%; when the equipper launches an <color=#FFFFFF>[EX Special Attack]</color> or triggers <color=#FFFFFF>[Maim]</color>, <color=#2EB6FF>Electric Sharp DMG</color> dealt increases by 20%, lasting 40s, repeated triggers reset the duration."
+        "desc": "The equipper's CRIT Rate increases by <color=#2BAD00>35%</color>; <color=#2EB6FF>Electric DMG</color> increases by <color=#2BAD00>25%</color>; when the equipper launches an <color=#FFFFFF>[EX Special Attack]</color> or triggers <color=#FFFFFF>[Maim]</color>, the <color=#2EB6FF>Electric Sharp DMG</color> dealt increases by <color=#2BAD00>20%</color>, lasting 40s. Repeated triggers reset the duration."
       }
     },
     "liveComparison": {
-      "currentHash": "d432b27537791f5759e56698b9147d40391f2be22a104c4a8c75c97f418ab23f"
+      "currentHash": "3f4bca6fa7a0195bc9ade87a02d47fa5d3e0a098ba59c0853fabae7a7b47dea3"
     }
   },
   {
@@ -53271,27 +53271,27 @@
     "talents": {
       "1": {
         "name": "...",
-        "desc": "Increases the equipper's CRIT Rate by <color=#2BAD00>24%</color>. DMG dealt ignores <color=#2BAD00>15%</color> of the target's <color=#A6C5FD>Wind Attribute RES</color>. When the equipper launches an <color=#FFFFFF>[EX Special Attack]</color> that deals <color=#A6C5FD>Wind</color> DMG, the Daze inflicted is increased by <color=#2BAD00>24%</color>, and DMG dealt by all other characters in the squad is increased by <color=#2BAD00>20%</color>, lasting 40s. Repeated triggers reset the duration. The DMG increase effect is unique across the whole squad."
+        "desc": "Increases the equipper's CRIT Rate by <color=#2BAD00>24%</color>. DMG dealt ignores <color=#2BAD00>15%</color> of the target's <color=#A6C5FD>Wind Attribute RES</color>. When the equipper launches an <color=#FFFFFF>[EX Special Attack]</color> that deals <color=#A6C5FD>Wind</color> DMG, the Daze inflicted is increased by <color=#2BAD00>24%</color>, and DMG dealt by all other characters in the squad is increased by <color=#2BAD00>25%</color>, lasting 40s. Repeated triggers reset the duration. The DMG increase effect is unique across the whole squad."
       },
       "2": {
         "name": "...",
-        "desc": "Increases the equipper's CRIT Rate by <color=#2BAD00>26%</color>. DMG dealt ignores <color=#2BAD00>17.3%</color> of the target's <color=#A6C5FD>Wind Attribute RES</color>. When the equipper launches an <color=#FFFFFF>[EX Special Attack]</color> that deals <color=#A6C5FD>Wind</color> DMG, Daze inflicted increases by <color=#2BAD00>27.6%</color>, and DMG dealt by all other characters in the squad increases by <color=#2BAD00>23%</color> for 40s. Repeated triggers reset the duration. The DMG increase effect is unique across the whole squad."
+        "desc": "Increases the equipper's CRIT Rate by <color=#2BAD00>26%</color>. DMG dealt ignores <color=#2BAD00>17.3%</color> of the target's <color=#A6C5FD>Wind Attribute RES</color>. When the equipper launches an <color=#FFFFFF>[EX Special Attack]</color> that deals <color=#A6C5FD>Wind</color> DMG, Daze inflicted increases by <color=#2BAD00>27.6%</color>, and DMG dealt by all other characters in the squad increases by <color=#2BAD00>28.5%</color> for 40s. Repeated triggers reset the duration. The DMG increase effect is unique across the whole squad."
       },
       "3": {
         "name": "...",
-        "desc": "Increases the equipper's CRIT Rate by <color=#2BAD00>28%</color>. DMG dealt ignores <color=#2BAD00>19.5%</color> of the target's <color=#A6C5FD>Wind Attribute RES</color>. When the equipper launches an <color=#FFFFFF>[EX Special Attack]</color> that deals <color=#A6C5FD>Wind</color> DMG, the Daze inflicted increases by <color=#2BAD00>31.2%</color>, and DMG dealt by all other characters in the squad increases by <color=#2BAD00>26%</color> for 40s. Repeated triggers reset the duration. The DMG increase effect is unique across the whole squad."
+        "desc": "Increases the equipper's CRIT Rate by <color=#2BAD00>28%</color>. DMG dealt ignores <color=#2BAD00>19.5%</color> of the target's <color=#A6C5FD>Wind Attribute RES</color>. When the equipper launches an <color=#FFFFFF>[EX Special Attack]</color> that deals <color=#A6C5FD>Wind</color> DMG, the Daze inflicted increases by <color=#2BAD00>31.2%</color>, and DMG dealt by all other characters in the squad increases by <color=#2BAD00>32%</color> for 40s. Repeated triggers reset the duration. The DMG increase effect is unique across the whole squad."
       },
       "4": {
         "name": "...",
-        "desc": "Increases the equipper's CRIT Rate by <color=#2BAD00>30%</color>. DMG dealt ignores <color=#2BAD00>21.8%</color> of the target's <color=#A6C5FD>Wind Attribute RES</color>. When the equipper launches an <color=#FFFFFF>[EX Special Attack]</color> that deals <color=#A6C5FD>Wind</color> DMG, the Daze inflicted is increased by <color=#2BAD00>34.8%</color>, and DMG dealt by all other characters in the squad is increased by <color=#2BAD00>29%</color>, lasting 40s. Repeated triggers reset the duration. The DMG increase effect is unique across the whole squad."
+        "desc": "Increases the equipper's CRIT Rate by <color=#2BAD00>30%</color>. DMG dealt ignores <color=#2BAD00>21.8%</color> of the target's <color=#A6C5FD>Wind Attribute RES</color>. When the equipper launches an <color=#FFFFFF>[EX Special Attack]</color> that deals <color=#A6C5FD>Wind</color> DMG, the Daze inflicted is increased by <color=#2BAD00>34.8%</color>, and DMG dealt by all other characters in the squad is increased by <color=#2BAD00>35.5%</color>, lasting 40s. Repeated triggers reset the duration. The DMG increase effect is unique across the whole squad."
       },
       "5": {
         "name": "...",
-        "desc": "Increases the equipper's CRIT Rate by <color=#2BAD00>32%</color>. DMG dealt ignores <color=#2BAD00>24%</color> of the target's <color=#A6C5FD>Wind Attribute RES</color>. When the equipper launches an <color=#FFFFFF>[EX Special Attack]</color> that deals <color=#A6C5FD>Wind</color> DMG, Daze inflicted increases by <color=#2BAD00>38.4%</color>, and DMG dealt by all other characters in the squad increases by <color=#2BAD00>32%</color> for 40s. Repeated triggers reset the duration. The DMG increase effect is unique across the whole squad."
+        "desc": "Increases the equipper's CRIT Rate by <color=#2BAD00>32%</color>. DMG dealt ignores <color=#2BAD00>24%</color> of the target's <color=#A6C5FD>Wind Attribute RES</color>. When the equipper launches an <color=#FFFFFF>[EX Special Attack]</color> that deals <color=#A6C5FD>Wind</color> DMG, Daze inflicted increases by <color=#2BAD00>38.4%</color>, and DMG dealt by all other characters in the squad increases by <color=#2BAD00>40%</color> for 40s. Repeated triggers reset the duration. The DMG increase effect is unique across the whole squad."
       }
     },
     "liveComparison": {
-      "currentHash": "6ce7a1ebed2b0130cddc39b16717e5b068031abb9a763a1121321059e8709766"
+      "currentHash": "ddb7364c6c2f6c7a5430cfbc5979488c1dbfbb380b9421a7c60608f46e3fd4c6"
     }
   }
 ]

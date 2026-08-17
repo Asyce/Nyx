@@ -31810,8 +31810,8 @@
   },
   "1341075": {
     "id": 1341075,
-    "name": "Choice_1341075_name",
-    "desc": "Choice_1341075_des",
+    "name": "Claret",
+    "desc": "Use \"Ether Dewdrops\" on \"Claret\"",
     "desc2": "",
     "class": {},
     "rarity": 4,
@@ -31819,8 +31819,8 @@
   },
   "1341076": {
     "id": 1341076,
-    "name": "Choice_1341076_name",
-    "desc": "Choice_1341076_des",
+    "name": "Roxy",
+    "desc": "Use \"Ether Dewdrops\" on \"Roxy\"",
     "desc2": "",
     "class": {},
     "rarity": 4,
@@ -33713,7 +33713,7 @@
   "1350311": {
     "id": 1350311,
     "name": "[Claret] Riftforge Onslaught",
-    "desc": "When Claret's initial ATK exceeds 1,500, every 1 point of ATK over that threshold increases DEF by 1.3. This effect does not stack across different Gears. Claret's <color=#2BAD00>[Maim] DMG is increased by 20%</color>, and even when the target has not entered a Stunned state, Daze Vulnerability can still be triggered.",
+    "desc": "When Claret's initial ATK exceeds 1,500, every 1 point of ATK over the threshold increases DEF by 1.3. This effect does not stack across different Gear; Claret's <color=#2BAD00>[Maim] DMG is increased by 20%</color>, and when the target is not Stunned, [Maim] will also factor in the Daze Vulnerability bonus.",
     "desc2": "",
     "class": {},
     "rarity": 4,
@@ -33722,7 +33722,7 @@
   "1350312": {
     "id": 1350312,
     "name": "[Claret] Crimson-Eyed Bat Shadow",
-    "desc": "When Claret's initial ATK exceeds 1,500, every 1 point of ATK above that increases DEF by 1.3. This effect does not stack across different Gears. Claret's Gash Buildup Rate is reduced by 30%. <color=#FFFFFF>[Basic Attack: Blood Bloom Oath - Star Forge]</color> and <color=#FFFFFF>[Basic Attack: Blood Bloom Oath - Crouching Axe]</color> deal <color=#2BAD00>40% increased Sharp DMG</color>. When Perfect Dodge is triggered while in the [Crimson Engrave] state, [Crimson Engrave] duration is extended by 3s. This can be triggered at most once every 5s.",
+    "desc": "When Claret's initial ATK exceeds 1,500, every 1 point of ATK over that threshold increases DEF by 1.3. This effect does not stack across different Gears. Claret's Gash Buildup Rate is reduced by 30%, <color=#FFFFFF>[Basic Attack: Blood Oath - Star Forge]</color> and <color=#FFFFFF>[Basic Attack: Blood Oath - Crescent Axe]</color> deal <color=#2BAD00>40% increased Sharp DMG</color>. When Perfect Dodge is triggered while in the [Crimson Engrave] state, [Crimson Engrave] duration is extended by 3s. This can be triggered at most once every 5s.",
     "desc2": "",
     "class": {},
     "rarity": 4,
@@ -33740,7 +33740,7 @@
   "1350321": {
     "id": 1350321,
     "name": "[Roxy] Lead-Forged Mastery",
-    "desc": "The buff granted to the whole squad after <color=#FFFFFF>[Cleanse]</color> in <color=#FFFFFF>[Core Passive: First Embrace Under the Moon]</color> <color=#2BAD00>additionally increases ATK by 600 points</color>. The ATK increase effect can stack up to 1 time. Additionally, <color=#2BAD00>Roxy can also receive the buff after <color=#FFFFFF>[Cleanse]</color></color>.",
+    "desc": "The squad-wide buff granted after <color=#FFFFFF>[Cleanse]</color> in <color=#FFFFFF>[Core Passive: First Embrace Under the Moon]</color> <color=#2BAD00>additionally increases ATK by 800</color>. The ATK increase effect can stack up to 1 time.",
     "desc2": "",
     "class": {},
     "rarity": 4,
@@ -53814,7 +53814,7 @@
   "4321024": {
     "id": 4321024,
     "name": "[Vulnerable][Roxy]-Lv.50",
-    "desc": "Roxy's exclusive Tactical Prism. When holding <IconMap:Icon_SpecialReady> to activate <color=#FFFFFF>[EX Special Attack: Watch for Windchill]</color>, for each second held, this skill's <color=#2BAD00>DMG and Daze are increased by 10%/8%</color> respectively, up to a maximum of 30%/30%; when this skill hits an enemy, the target's DEF is reduced by <color=#2BAD00>16%</color> for 30s.",
+    "desc": "Roxy's exclusive Tactical Prism. When holding <IconMap:Icon_SpecialReady> to activate <color=#FFFFFF>[EX Special Attack: Watch for Windchill]</color>, for each second held, this skill's <color=#2BAD00>DMG and Daze are increased by 10%/6%</color> respectively, up to a maximum of 30%/18%; when this skill hits an enemy, the target's DEF is reduced by <color=#2BAD00>16%</color> for 30s.",
     "desc2": "",
     "class": {},
     "rarity": 4,
@@ -54030,7 +54030,7 @@
   "4322024": {
     "id": 4322024,
     "name": "[Roxy]-Lv.60",
-    "desc": "Roxy's exclusive Tactical Prism. When holding <IconMap:Icon_SpecialReady> to activate <color=#FFFFFF>[EX Special Attack: Watch for Windchill]</color>, for each second held, this skill's <color=#2BAD00>DMG and Daze are increased by 10%/8%</color> respectively, up to a maximum of 30%/30%; when this skill hits an enemy, the target's DEF is reduced by <color=#2BAD00>16%</color> for 30s.",
+    "desc": "Roxy's exclusive Tactical Prism. When holding <IconMap:Icon_SpecialReady> to activate <color=#FFFFFF>[EX Special Attack: Watch for Windchill]</color>, for each second held, this skill's <color=#2BAD00>DMG and Daze are increased by 10%/6%</color> respectively, up to a maximum of 30%/18%; when this skill hits an enemy, the target's DEF is reduced by <color=#2BAD00>16%</color> for 30s.",
     "desc2": "",
     "class": {},
     "rarity": 5,
@@ -54804,7 +54804,7 @@
   "4326024": {
     "id": 4326024,
     "name": "[Roxy]-Lv.50",
-    "desc": "Roxy's exclusive Tactical Prism. When holding <IconMap:Icon_SpecialReady> to activate <color=#FFFFFF>[EX Special Attack: Watch for Windchill]</color>, for each second held, this skill's <color=#2BAD00>DMG and Daze are increased by 10%/8%</color> respectively, up to a maximum of 30%/30%; when this skill hits an enemy, the target's DEF is reduced by <color=#2BAD00>16%</color> for 30s.",
+    "desc": "Roxy's exclusive Tactical Prism. When holding <IconMap:Icon_SpecialReady> to activate <color=#FFFFFF>[EX Special Attack: Watch for Windchill]</color>, for each second held, this skill's <color=#2BAD00>DMG and Daze are increased by 10%/6%</color> respectively, up to a maximum of 30%/18%; when this skill hits an enemy, the target's DEF is reduced by <color=#2BAD00>16%</color> for 30s.",
     "desc2": "",
     "class": {},
     "rarity": 4,

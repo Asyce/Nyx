@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T14:47:45.370Z",
+  "generatedAt": "2026-08-17T14:54:16.337Z",
   "policy": "Every generated Database row is counted. Released rows remain visible when art or description is missing; only rows with no usable localized display name or proven internal/test provenance are quarantined.",
   "coverage": {
     "before": {
@@ -152,13 +152,13 @@
       "scope": "inline",
       "game": "hsr",
       "collection": "light-cones",
-      "sourceCount": 169,
-      "normalizedCount": 169,
+      "sourceCount": 171,
+      "normalizedCount": 171,
       "quarantinedCount": 0,
       "routedCount": 0,
-      "approvedSourceCount": 169,
-      "generatedCount": 169,
-      "localArtCount": 169,
+      "approvedSourceCount": 171,
+      "generatedCount": 171,
+      "localArtCount": 171,
       "missingArtCount": 0
     },
     {
@@ -256,13 +256,13 @@
       "scope": "inline",
       "game": "ae",
       "collection": "gear",
-      "sourceCount": 152,
-      "normalizedCount": 152,
+      "sourceCount": 158,
+      "normalizedCount": 158,
       "quarantinedCount": 0,
       "routedCount": 0,
-      "approvedSourceCount": 152,
-      "generatedCount": 152,
-      "localArtCount": 131,
+      "approvedSourceCount": 158,
+      "generatedCount": 158,
+      "localArtCount": 137,
       "missingArtCount": 21
     },
     {

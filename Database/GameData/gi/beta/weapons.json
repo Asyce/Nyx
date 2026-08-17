@@ -24490,7 +24490,7 @@
     "refinements": {
       "1": {
         "name": "",
-        "desc": "In the 12s after using Elemental Skill: each time an attack hits the opponent, ATK is increased by <color=#99FFFFFF>4%</color> while Elemental Mastery is increased by <color=#99FFFFFF>20</color> for 6s. This effect can trigger once every second, max 3 stacks. The aforementioned effect can trigger even when the equipping character is not on the field, and if the character is in the Radiance: Stellar-Conduct or Radiance: Stellar Swirl state, the buff is changed to a <color=#99FFFFFF>6%</color> ATK and <color=#99FFFFFF>8%</color>Stellar-Conduct/Stellar Swirl reaction DMG increase instead.",
+        "desc": "In the 12s after using Elemental Skill: Each time an attack hits the opponent, ATK is increased by <color=#99FFFFFF>4%</color> while Elemental Mastery is increased by <color=#99FFFFFF>20</color> for 6s. This effect can trigger once every second, max 3 stacks. The aforementioned effect can trigger even when the equipping character is not on the field, and if the character is in the Radiance: Stellar-Conduct or Radiance: Stellar Swirl state, the buff is changed to a <color=#99FFFFFF>6%</color> ATK and <color=#99FFFFFF>8%</color>Stellar-Conduct/Stellar Swirl reaction DMG increase instead.",
         "param_list": [
           12,
           6,
@@ -24504,7 +24504,7 @@
       },
       "2": {
         "name": "",
-        "desc": "In the 12s after using Elemental Skill: each time an attack hits the opponent, ATK is increased by <color=#99FFFFFF>5%</color> while Elemental Mastery is increased by <color=#99FFFFFF>25</color> for 6s. This effect can trigger once every second, max 3 stacks. The aforementioned effect can trigger even when the equipping character is not on the field, and if the character is in the Radiance: Stellar-Conduct or Radiance: Stellar Swirl state, the buff is changed to a <color=#99FFFFFF>7.5%</color> ATK and <color=#99FFFFFF>10%</color>Stellar-Conduct/Stellar Swirl reaction DMG increase instead.",
+        "desc": "In the 12s after using Elemental Skill: Each time an attack hits the opponent, ATK is increased by <color=#99FFFFFF>5%</color> while Elemental Mastery is increased by <color=#99FFFFFF>25</color> for 6s. This effect can trigger once every second, max 3 stacks. The aforementioned effect can trigger even when the equipping character is not on the field, and if the character is in the Radiance: Stellar-Conduct or Radiance: Stellar Swirl state, the buff is changed to a <color=#99FFFFFF>7.5%</color> ATK and <color=#99FFFFFF>10%</color>Stellar-Conduct/Stellar Swirl reaction DMG increase instead.",
         "param_list": [
           12,
           6,
@@ -24518,7 +24518,7 @@
       },
       "3": {
         "name": "",
-        "desc": "In the 12s after using Elemental Skill: each time an attack hits the opponent, ATK is increased by <color=#99FFFFFF>6%</color> while Elemental Mastery is increased by <color=#99FFFFFF>30</color> for 6s. This effect can trigger once every second, max 3 stacks. The aforementioned effect can trigger even when the equipping character is not on the field, and if the character is in the Radiance: Stellar-Conduct or Radiance: Stellar Swirl state, the buff is changed to a <color=#99FFFFFF>9%</color> ATK and <color=#99FFFFFF>12%</color>Stellar-Conduct/Stellar Swirl reaction DMG increase instead.",
+        "desc": "In the 12s after using Elemental Skill: Each time an attack hits the opponent, ATK is increased by <color=#99FFFFFF>6%</color> while Elemental Mastery is increased by <color=#99FFFFFF>30</color> for 6s. This effect can trigger once every second, max 3 stacks. The aforementioned effect can trigger even when the equipping character is not on the field, and if the character is in the Radiance: Stellar-Conduct or Radiance: Stellar Swirl state, the buff is changed to a <color=#99FFFFFF>9%</color> ATK and <color=#99FFFFFF>12%</color>Stellar-Conduct/Stellar Swirl reaction DMG increase instead.",
         "param_list": [
           12,
           6,
@@ -24532,7 +24532,7 @@
       },
       "4": {
         "name": "",
-        "desc": "In the 12s after using Elemental Skill: each time an attack hits the opponent, ATK is increased by <color=#99FFFFFF>7%</color> while Elemental Mastery is increased by <color=#99FFFFFF>35</color> for 6s. This effect can trigger once every second, max 3 stacks. The aforementioned effect can trigger even when the equipping character is not on the field, and if the character is in the Radiance: Stellar-Conduct or Radiance: Stellar Swirl state, the buff is changed to a <color=#99FFFFFF>10.5%</color> ATK and <color=#99FFFFFF>14%</color>Stellar-Conduct/Stellar Swirl reaction DMG increase instead.",
+        "desc": "In the 12s after using Elemental Skill: Each time an attack hits the opponent, ATK is increased by <color=#99FFFFFF>7%</color> while Elemental Mastery is increased by <color=#99FFFFFF>35</color> for 6s. This effect can trigger once every second, max 3 stacks. The aforementioned effect can trigger even when the equipping character is not on the field, and if the character is in the Radiance: Stellar-Conduct or Radiance: Stellar Swirl state, the buff is changed to a <color=#99FFFFFF>10.5%</color> ATK and <color=#99FFFFFF>14%</color>Stellar-Conduct/Stellar Swirl reaction DMG increase instead.",
         "param_list": [
           12,
           6,
@@ -24546,7 +24546,7 @@
       },
       "5": {
         "name": "",
-        "desc": "In the 12s after using Elemental Skill: each time an attack hits the opponent, ATK is increased by <color=#99FFFFFF>8%</color> while Elemental Mastery is increased by <color=#99FFFFFF>40</color> for 6s. This effect can trigger once every second, max 3 stacks. The aforementioned effect can trigger even when the equipping character is not on the field, and if the character is in the Radiance: Stellar-Conduct or Radiance: Stellar Swirl state, the buff is changed to a <color=#99FFFFFF>12%</color> ATK and <color=#99FFFFFF>16%</color>Stellar-Conduct/Stellar Swirl reaction DMG increase instead.",
+        "desc": "In the 12s after using Elemental Skill: Each time an attack hits the opponent, ATK is increased by <color=#99FFFFFF>8%</color> while Elemental Mastery is increased by <color=#99FFFFFF>40</color> for 6s. This effect can trigger once every second, max 3 stacks. The aforementioned effect can trigger even when the equipping character is not on the field, and if the character is in the Radiance: Stellar-Conduct or Radiance: Stellar Swirl state, the buff is changed to a <color=#99FFFFFF>12%</color> ATK and <color=#99FFFFFF>16%</color>Stellar-Conduct/Stellar Swirl reaction DMG increase instead.",
         "param_list": [
           12,
           6,
@@ -24771,8 +24771,16 @@
         ]
       }
     },
+    "story": {
+      "291437": {
+        "zh": "ART/UI/Readable/CHS/Weapon11437",
+        "en": "ART/UI/Readable/EN/Weapon11437_EN",
+        "ja": "ART/UI/Readable/JP/Weapon11437_JP",
+        "ko": "ART/UI/Readable/KR/Weapon11437_KR"
+      }
+    },
     "liveComparison": {
-      "currentHash": "6ba1e4e559a0fb4fda10f4f1ab129c189e0fe73957a0e669f50d28094245f45c"
+      "currentHash": "f36175976cfbee6fc7a26155fcf0b603144fee6c759d3c819f014f04136a8d09"
     }
   },
   {
@@ -25407,8 +25415,16 @@
         ]
       }
     },
+    "story": {
+      "291438": {
+        "zh": "ART/UI/Readable/CHS/Weapon11438",
+        "en": "ART/UI/Readable/EN/Weapon11438_EN",
+        "ja": "ART/UI/Readable/JP/Weapon11438_JP",
+        "ko": "ART/UI/Readable/KR/Weapon11438_KR"
+      }
+    },
     "liveComparison": {
-      "currentHash": "5799f67544b09609cff38866848f77f391c0b81d97b781c36b5ffdb6499d9b86"
+      "currentHash": "b79a283275603781a05ed14c40ff08f9fe6b385675727743b185068ff2c29b66"
     }
   },
   {
@@ -37683,8 +37699,16 @@
         ]
       }
     },
+    "story": {
+      "291522": {
+        "zh": "ART/UI/Readable/CHS/Weapon11522",
+        "en": "ART/UI/Readable/EN/Weapon11522_EN",
+        "ja": "ART/UI/Readable/JP/Weapon11522_JP",
+        "ko": "ART/UI/Readable/KR/Weapon11522_KR"
+      }
+    },
     "liveComparison": {
-      "currentHash": "e1c16910eab08cc1f6526518fc55fb298259c2e54495b16c2dc26dde289a498c"
+      "currentHash": "d559809b4f4910e6d52355b5b1054e4dd3a82c74f33ade592db47dfe3db29a24"
     }
   },
   {
@@ -115962,7 +115986,7 @@
     "refinements": {
       "1": {
         "name": "",
-        "desc": "For every Cryo character in the party, the equipping character's Elemental Mastery is increased by <color=#99FFFFFF>24</color>. For every Electro character in the party, ATK is increased by <color=#99FFFFFF>4.8%</color>. Cryo character buffs are applied first. If the equipping character is in the Radiance: Stellar-Conduct or Radiance: Stellar Swirl state, each Cryo or Electro character in the party will grant the equipping character <color=#99FFFFFF>20</color> Elemental Mastery and a <color=#99FFFFFF>6%</color> Stellar-Conduct/Stellar Swirl reaction DMG increase. This boost can be obtained for a maximum of 4 characters in the party.",
+        "desc": "For every Cryo character in the party, the equipping character's Elemental Mastery is increased by <color=#99FFFFFF>24</color>. For every Electro character in the party, ATK is increased by <color=#99FFFFFF>4.8%</color>. Cryo character buffs are applied first. If the equipping character is in the Radiance: Stellar-Conduct or Radiance: Stellar Swirl state, each Cryo or Electro character in the party will instead grant the equipping character <color=#99FFFFFF>20</color> Elemental Mastery and a <color=#99FFFFFF>6%</color> Stellar-Conduct/Stellar Swirl reaction DMG increase. This boost can be obtained for a maximum of 4 characters in the party.",
         "param_list": [
           24,
           0.048,
@@ -115976,7 +116000,7 @@
       },
       "2": {
         "name": "",
-        "desc": "For every Cryo character in the party, the equipping character's Elemental Mastery is increased by <color=#99FFFFFF>30</color>. For every Electro character in the party, ATK is increased by <color=#99FFFFFF>6%</color>. Cryo character buffs are applied first. If the equipping character is in the Radiance: Stellar-Conduct or Radiance: Stellar Swirl state, each Cryo or Electro character in the party will grant the equipping character <color=#99FFFFFF>25</color> Elemental Mastery and a <color=#99FFFFFF>7.5%</color> Stellar-Conduct/Stellar Swirl reaction DMG increase. This boost can be obtained for a maximum of 4 characters in the party.",
+        "desc": "For every Cryo character in the party, the equipping character's Elemental Mastery is increased by <color=#99FFFFFF>30</color>. For every Electro character in the party, ATK is increased by <color=#99FFFFFF>6%</color>. Cryo character buffs are applied first. If the equipping character is in the Radiance: Stellar-Conduct or Radiance: Stellar Swirl state, each Cryo or Electro character in the party will instead grant the equipping character <color=#99FFFFFF>25</color> Elemental Mastery and a <color=#99FFFFFF>7.5%</color> Stellar-Conduct/Stellar Swirl reaction DMG increase. This boost can be obtained for a maximum of 4 characters in the party.",
         "param_list": [
           30,
           0.06,
@@ -115990,7 +116014,7 @@
       },
       "3": {
         "name": "",
-        "desc": "For every Cryo character in the party, the equipping character's Elemental Mastery is increased by <color=#99FFFFFF>36</color>. For every Electro character in the party, ATK is increased by <color=#99FFFFFF>7.2%</color>. Cryo character buffs are applied first. If the equipping character is in the Radiance: Stellar-Conduct or Radiance: Stellar Swirl state, each Cryo or Electro character in the party will grant the equipping character <color=#99FFFFFF>30</color> Elemental Mastery and a <color=#99FFFFFF>9%</color> Stellar-Conduct/Stellar Swirl reaction DMG increase. This boost can be obtained for a maximum of 4 characters in the party.",
+        "desc": "For every Cryo character in the party, the equipping character's Elemental Mastery is increased by <color=#99FFFFFF>36</color>. For every Electro character in the party, ATK is increased by <color=#99FFFFFF>7.2%</color>. Cryo character buffs are applied first. If the equipping character is in the Radiance: Stellar-Conduct or Radiance: Stellar Swirl state, each Cryo or Electro character in the party will instead grant the equipping character <color=#99FFFFFF>30</color> Elemental Mastery and a <color=#99FFFFFF>9%</color> Stellar-Conduct/Stellar Swirl reaction DMG increase. This boost can be obtained for a maximum of 4 characters in the party.",
         "param_list": [
           36,
           0.072,
@@ -116004,7 +116028,7 @@
       },
       "4": {
         "name": "",
-        "desc": "For every Cryo character in the party, the equipping character's Elemental Mastery is increased by <color=#99FFFFFF>42</color>. For every Electro character in the party, ATK is increased by <color=#99FFFFFF>8.4%</color>. Cryo character buffs are applied first. If the equipping character is in the Radiance: Stellar-Conduct or Radiance: Stellar Swirl state, each Cryo or Electro character in the party will grant the equipping character <color=#99FFFFFF>30</color> Elemental Mastery and a <color=#99FFFFFF>10.5%</color> Stellar-Conduct/Stellar Swirl reaction DMG increase. This boost can be obtained for a maximum of 4 characters in the party.",
+        "desc": "For every Cryo character in the party, the equipping character's Elemental Mastery is increased by <color=#99FFFFFF>42</color>. For every Electro character in the party, ATK is increased by <color=#99FFFFFF>8.4%</color>. Cryo character buffs are applied first. If the equipping character is in the Radiance: Stellar-Conduct or Radiance: Stellar Swirl state, each Cryo or Electro character in the party will instead grant the equipping character <color=#99FFFFFF>35</color> Elemental Mastery and a <color=#99FFFFFF>10.5%</color> Stellar-Conduct/Stellar Swirl reaction DMG increase. This boost can be obtained for a maximum of 4 characters in the party.",
         "param_list": [
           42,
           0.084,
@@ -116018,7 +116042,7 @@
       },
       "5": {
         "name": "",
-        "desc": "For every Cryo character in the party, the equipping character's Elemental Mastery is increased by <color=#99FFFFFF>48</color>. For every Electro character in the party, ATK is increased by <color=#99FFFFFF>9.6%</color>. Cryo character buffs are applied first. If the equipping character is in the Radiance: Stellar-Conduct or Radiance: Stellar Swirl state, each Cryo or Electro character in the party will grant the equipping character <color=#99FFFFFF>40</color> Elemental Mastery and a <color=#99FFFFFF>12%</color> Stellar-Conduct/Stellar Swirl reaction DMG increase. This boost can be obtained for a maximum of 4 characters in the party.",
+        "desc": "For every Cryo character in the party, the equipping character's Elemental Mastery is increased by <color=#99FFFFFF>48</color>. For every Electro character in the party, ATK is increased by <color=#99FFFFFF>9.6%</color>. Cryo character buffs are applied first. If the equipping character is in the Radiance: Stellar-Conduct or Radiance: Stellar Swirl state, each Cryo or Electro character in the party will instead grant the equipping character <color=#99FFFFFF>40</color> Elemental Mastery and a <color=#99FFFFFF>12%</color> Stellar-Conduct/Stellar Swirl reaction DMG increase. This boost can be obtained for a maximum of 4 characters in the party.",
         "param_list": [
           48,
           0.096,
@@ -116243,8 +116267,16 @@
         ]
       }
     },
+    "story": {
+      "294437": {
+        "zh": "ART/UI/Readable/CHS/Weapon14437",
+        "en": "ART/UI/Readable/EN/Weapon14437_EN",
+        "ja": "ART/UI/Readable/JP/Weapon14437_JP",
+        "ko": "ART/UI/Readable/KR/Weapon14437_KR"
+      }
+    },
     "liveComparison": {
-      "currentHash": "57c3f1aef1a6ccf005e4b9676c183a11f552fc7ff437b638414af02358ea298e"
+      "currentHash": "e4cb339ed7c0887949636e78ecc0c1fb0ffc18bb7a300cbe63066b29e5b42a4c"
     }
   },
   {
@@ -128872,13 +128904,13 @@
     "refinements": {
       "1": {
         "name": "7.1 Promo Weapon",
-        "desc": "Increases Healing Bonus by <color=#99FFFFFF>8%</color>.\\nWhen the equipping character performs healing, they receive 1 stack of the \"Hymn of the Water Imp\" effect, which increases their Max HP by <color=#99FFFFFF>5%</color>. Additionally, every 1,000 Max HP the equipping character has over 40,000 will also increase the active character's ATK by <color=#99FFFFFF>0.25%</color>, up to <color=#99FFFFFF>5%</color> in total.\\nHymn of the Water Imp lasts 8s, max 3 stacks. Each stack's duration is independent of the others'.\\nWhen a nearby party member triggers a Frozen or Stellar Swirl reaction, any currently active instances of Hymn of the Water Imp, as well as any instances that come into effect within the next 5s, become \"Triumph of the Water Imp\" instead, which further increases Max HP and ATK by 75%.\\nThe aforementioned effects can trigger even when the equipping character is not on the field.",
+        "desc": "Increases Healing Bonus by <color=#99FFFFFF>8%</color>.\\nWhen the equipping character performs healing, they receive 1 stack of the \"Hymn of the Water Imp\" effect, which increases their Max HP by <color=#99FFFFFF>5%</color>. Additionally, every 1,000 Max HP the equipping character has over 40,000 will also increase the active character's ATK by <color=#99FFFFFF>0.25%</color>, up to <color=#99FFFFFF>5%</color> in total.\\nHymn of the Water Imp lasts 8s, max 3 stacks. Each stack's duration is independent of the others'.\\nWhen a nearby party member triggers a Frozen or Stellar Swirl reaction, any currently active instances of Hymn of the Water Imp, as well as any instances that come into effect within the next 5s, become \"Triumph of the Water Imp\" instead, which further increases the Max HP and ATK increase by 75%.\\nThe aforementioned effects can trigger even when the equipping character is not on the field.",
         "param_list": [
-          0.05,
+          0.04,
           40000,
-          0.0025,
-          0.05,
-          8,
+          0.004,
+          0.08,
+          10,
           3,
           5,
           0.75
@@ -128886,13 +128918,13 @@
       },
       "2": {
         "name": "7.1 Promo Weapon",
-        "desc": "Increases Healing Bonus by <color=#99FFFFFF>10%</color>.\\nWhen the equipping character performs healing, they receive 1 stack of the \"Hymn of the Water Imp\" effect, which increases their Max HP by <color=#99FFFFFF>6%</color>. Additionally, every 1,000 Max HP the equipping character has over 40,000 will also increase the active character's ATK by <color=#99FFFFFF>0.325%</color>, up to <color=#99FFFFFF>6.5%</color> in total.\\nHymn of the Water Imp lasts 8s, max 3 stacks. Each stack's duration is independent of the others'.\\nWhen a nearby party member triggers a Frozen or Stellar Swirl reaction, any currently active instances of Hymn of the Water Imp, as well as any instances that come into effect within the next 5s, become \"Triumph of the Water Imp\" instead, which further increases Max HP and ATK by 75%.\\nThe aforementioned effects can trigger even when the equipping character is not on the field.",
+        "desc": "Increases Healing Bonus by <color=#99FFFFFF>10%</color>.\\nWhen the equipping character performs healing, they receive 1 stack of the \"Hymn of the Water Imp\" effect, which increases their Max HP by <color=#99FFFFFF>6%</color>. Additionally, every 1,000 Max HP the equipping character has over 40,000 will also increase the active character's ATK by <color=#99FFFFFF>0.325%</color>, up to <color=#99FFFFFF>6.5%</color> in total.\\nHymn of the Water Imp lasts 8s, max 3 stacks. Each stack's duration is independent of the others'.\\nWhen a nearby party member triggers a Frozen or Stellar Swirl reaction, any currently active instances of Hymn of the Water Imp, as well as any instances that come into effect within the next 5s, become \"Triumph of the Water Imp\" instead, which further increases the Max HP and ATK increase by 75%.\\nThe aforementioned effects can trigger even when the equipping character is not on the field.",
         "param_list": [
-          0.06,
+          0.05,
           40000,
-          0.00325,
-          0.065,
-          8,
+          0.005,
+          0.1,
+          10,
           3,
           5,
           0.75
@@ -128900,13 +128932,13 @@
       },
       "3": {
         "name": "7.1 Promo Weapon",
-        "desc": "Increases Healing Bonus by <color=#99FFFFFF>12%</color>.\\nWhen the equipping character performs healing, they receive 1 stack of the \"Hymn of the Water Imp\" effect, which increases their Max HP by <color=#99FFFFFF>7%</color>. Additionally, every 1,000 Max HP the equipping character has over 40,000 will also increase the active character's ATK by <color=#99FFFFFF>0.4%</color>, up to <color=#99FFFFFF>8%</color> in total.\\nHymn of the Water Imp lasts 8s, max 3 stacks. Each stack's duration is independent of the others'.\\nWhen a nearby party member triggers a Frozen or Stellar Swirl reaction, any currently active instances of Hymn of the Water Imp, as well as any instances that come into effect within the next 5s, become \"Triumph of the Water Imp\" instead, which further increases Max HP and ATK by 75%.\\nThe aforementioned effects can trigger even when the equipping character is not on the field.",
+        "desc": "Increases Healing Bonus by <color=#99FFFFFF>12%</color>.\\nWhen the equipping character performs healing, they receive 1 stack of the \"Hymn of the Water Imp\" effect, which increases their Max HP by <color=#99FFFFFF>7%</color>. Additionally, every 1,000 Max HP the equipping character has over 40,000 will also increase the active character's ATK by <color=#99FFFFFF>0.4%</color>, up to <color=#99FFFFFF>8%</color> in total.\\nHymn of the Water Imp lasts 8s, max 3 stacks. Each stack's duration is independent of the others'.\\nWhen a nearby party member triggers a Frozen or Stellar Swirl reaction, any currently active instances of Hymn of the Water Imp, as well as any instances that come into effect within the next 5s, become \"Triumph of the Water Imp\" instead, which further increases the Max HP and ATK increase by 75%.\\nThe aforementioned effects can trigger even when the equipping character is not on the field.",
         "param_list": [
-          0.07,
+          0.06,
           40000,
-          0.004,
-          0.08,
-          8,
+          0.006,
+          0.12,
+          10,
           3,
           5,
           0.75
@@ -128914,13 +128946,13 @@
       },
       "4": {
         "name": "7.1 Promo Weapon",
-        "desc": "Increases Healing Bonus by <color=#99FFFFFF>14%</color>.\\nWhen the equipping character performs healing, they receive 1 stack of the \"Hymn of the Water Imp\" effect, which increases their Max HP by <color=#99FFFFFF>8%</color>. Additionally, every 1,000 Max HP the equipping character has over 40,000 will also increase the active character's ATK by <color=#99FFFFFF>0.475%</color>, up to <color=#99FFFFFF>9.5%</color> in total.\\nHymn of the Water Imp lasts 8s, max 3 stacks. Each stack's duration is independent of the others'.\\nWhen a nearby party member triggers a Frozen or Stellar Swirl reaction, any currently active instances of Hymn of the Water Imp, as well as any instances that come into effect within the next 5s, become \"Triumph of the Water Imp\" instead, which further increases Max HP and ATK by 75%.\\nThe aforementioned effects can trigger even when the equipping character is not on the field.",
+        "desc": "Increases Healing Bonus by <color=#99FFFFFF>14%</color>.\\nWhen the equipping character performs healing, they receive 1 stack of the \"Hymn of the Water Imp\" effect, which increases their Max HP by <color=#99FFFFFF>8%</color>. Additionally, every 1,000 Max HP the equipping character has over 40,000 will also increase the active character's ATK by <color=#99FFFFFF>0.475%</color>, up to <color=#99FFFFFF>9.5%</color> in total.\\nHymn of the Water Imp lasts 8s, max 3 stacks. Each stack's duration is independent of the others'.\\nWhen a nearby party member triggers a Frozen or Stellar Swirl reaction, any currently active instances of Hymn of the Water Imp, as well as any instances that come into effect within the next 5s, become \"Triumph of the Water Imp\" instead, which further increases the Max HP and ATK increase by 75%.\\nThe aforementioned effects can trigger even when the equipping character is not on the field.",
         "param_list": [
-          0.08,
+          0.07,
           40000,
-          0.00475,
-          0.095,
-          8,
+          0.007,
+          0.14,
+          10,
           3,
           5,
           0.75
@@ -128928,13 +128960,13 @@
       },
       "5": {
         "name": "7.1 Promo Weapon",
-        "desc": "Increases Healing Bonus by <color=#99FFFFFF>16%</color>.\\nWhen the equipping character performs healing, they receive 1 stack of the \"Hymn of the Water Imp\" effect, which increases their Max HP by <color=#99FFFFFF>9%</color>. Additionally, every 1,000 Max HP the equipping character has over 40,000 will also increase the active character's ATK by <color=#99FFFFFF>0.55%</color>, up to <color=#99FFFFFF>11%</color> in total.\\nHymn of the Water Imp lasts 8s, max 3 stacks. Each stack's duration is independent of the others'.\\nWhen a nearby party member triggers a Frozen or Stellar Swirl reaction, any currently active instances of Hymn of the Water Imp, as well as any instances that come into effect within the next 5s, become \"Triumph of the Water Imp\" instead, which further increases Max HP and ATK by 75%.\\nThe aforementioned effects can trigger even when the equipping character is not on the field.",
+        "desc": "Increases Healing Bonus by <color=#99FFFFFF>16%</color>.\\nWhen the equipping character performs healing, they receive 1 stack of the \"Hymn of the Water Imp\" effect, which increases their Max HP by <color=#99FFFFFF>9%</color>. Additionally, every 1,000 Max HP the equipping character has over 40,000 will also increase the active character's ATK by <color=#99FFFFFF>0.55%</color>, up to <color=#99FFFFFF>11%</color> in total.\\nHymn of the Water Imp lasts 8s, max 3 stacks. Each stack's duration is independent of the others'.\\nWhen a nearby party member triggers a Frozen or Stellar Swirl reaction, any currently active instances of Hymn of the Water Imp, as well as any instances that come into effect within the next 5s, become \"Triumph of the Water Imp\" instead, which further increases the Max HP and ATK increase by 75%.\\nThe aforementioned effects can trigger even when the equipping character is not on the field.",
         "param_list": [
-          0.09,
+          0.08,
           40000,
-          0.0055,
-          0.11,
-          8,
+          0.008,
+          0.16,
+          10,
           3,
           5,
           0.75
@@ -129153,8 +129185,16 @@
         ]
       }
     },
+    "story": {
+      "294524": {
+        "zh": "ART/UI/Readable/CHS/Weapon14524",
+        "en": "ART/UI/Readable/EN/Weapon14524_EN",
+        "ja": "ART/UI/Readable/JP/Weapon14524_JP",
+        "ko": "ART/UI/Readable/KR/Weapon14524_KR"
+      }
+    },
     "liveComparison": {
-      "currentHash": "4895be5cdfcb052a4c5fc833997df1235eaf5826fd6246d2cfe00576730e8f66"
+      "currentHash": "3975fecdc723f9eb73915728559ea1783a06a63d87edbcf25f9004fe979828a2"
     }
   },
   {
@@ -153339,8 +153379,16 @@
         ]
       }
     },
+    "story": {
+      "295437": {
+        "zh": "ART/UI/Readable/CHS/Weapon15437",
+        "en": "ART/UI/Readable/EN/Weapon15437_EN",
+        "ja": "ART/UI/Readable/JP/Weapon15437_JP",
+        "ko": "ART/UI/Readable/KR/Weapon15437_KR"
+      }
+    },
     "liveComparison": {
-      "currentHash": "83ace7e0e9f79a5e4dab6936a07a984086a2138cbfe573df20253af737dae691"
+      "currentHash": "95433415f88556bba2c33f790e52e9c2ae35d84e8a8c07af26052626f7aed857"
     }
   },
   {

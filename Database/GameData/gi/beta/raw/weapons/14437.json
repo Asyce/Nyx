@@ -343,7 +343,7 @@
   "refinement": {
     "1": {
       "name": "",
-      "desc": "For every Cryo character in the party, the equipping character's Elemental Mastery is increased by <color=#99FFFFFF>24</color>. For every Electro character in the party, ATK is increased by <color=#99FFFFFF>4.8%</color>. Cryo character buffs are applied first. If the equipping character is in the Radiance: Stellar-Conduct or Radiance: Stellar Swirl state, each Cryo or Electro character in the party will grant the equipping character <color=#99FFFFFF>20</color> Elemental Mastery and a <color=#99FFFFFF>6%</color> Stellar-Conduct/Stellar Swirl reaction DMG increase. This boost can be obtained for a maximum of 4 characters in the party.",
+      "desc": "For every Cryo character in the party, the equipping character's Elemental Mastery is increased by <color=#99FFFFFF>24</color>. For every Electro character in the party, ATK is increased by <color=#99FFFFFF>4.8%</color>. Cryo character buffs are applied first. If the equipping character is in the Radiance: Stellar-Conduct or Radiance: Stellar Swirl state, each Cryo or Electro character in the party will instead grant the equipping character <color=#99FFFFFF>20</color> Elemental Mastery and a <color=#99FFFFFF>6%</color> Stellar-Conduct/Stellar Swirl reaction DMG increase. This boost can be obtained for a maximum of 4 characters in the party.",
       "param_list": [
         24,
         0.048,
@@ -357,7 +357,7 @@
     },
     "2": {
       "name": "",
-      "desc": "For every Cryo character in the party, the equipping character's Elemental Mastery is increased by <color=#99FFFFFF>30</color>. For every Electro character in the party, ATK is increased by <color=#99FFFFFF>6%</color>. Cryo character buffs are applied first. If the equipping character is in the Radiance: Stellar-Conduct or Radiance: Stellar Swirl state, each Cryo or Electro character in the party will grant the equipping character <color=#99FFFFFF>25</color> Elemental Mastery and a <color=#99FFFFFF>7.5%</color> Stellar-Conduct/Stellar Swirl reaction DMG increase. This boost can be obtained for a maximum of 4 characters in the party.",
+      "desc": "For every Cryo character in the party, the equipping character's Elemental Mastery is increased by <color=#99FFFFFF>30</color>. For every Electro character in the party, ATK is increased by <color=#99FFFFFF>6%</color>. Cryo character buffs are applied first. If the equipping character is in the Radiance: Stellar-Conduct or Radiance: Stellar Swirl state, each Cryo or Electro character in the party will instead grant the equipping character <color=#99FFFFFF>25</color> Elemental Mastery and a <color=#99FFFFFF>7.5%</color> Stellar-Conduct/Stellar Swirl reaction DMG increase. This boost can be obtained for a maximum of 4 characters in the party.",
       "param_list": [
         30,
         0.06,
@@ -371,7 +371,7 @@
     },
     "3": {
       "name": "",
-      "desc": "For every Cryo character in the party, the equipping character's Elemental Mastery is increased by <color=#99FFFFFF>36</color>. For every Electro character in the party, ATK is increased by <color=#99FFFFFF>7.2%</color>. Cryo character buffs are applied first. If the equipping character is in the Radiance: Stellar-Conduct or Radiance: Stellar Swirl state, each Cryo or Electro character in the party will grant the equipping character <color=#99FFFFFF>30</color> Elemental Mastery and a <color=#99FFFFFF>9%</color> Stellar-Conduct/Stellar Swirl reaction DMG increase. This boost can be obtained for a maximum of 4 characters in the party.",
+      "desc": "For every Cryo character in the party, the equipping character's Elemental Mastery is increased by <color=#99FFFFFF>36</color>. For every Electro character in the party, ATK is increased by <color=#99FFFFFF>7.2%</color>. Cryo character buffs are applied first. If the equipping character is in the Radiance: Stellar-Conduct or Radiance: Stellar Swirl state, each Cryo or Electro character in the party will instead grant the equipping character <color=#99FFFFFF>30</color> Elemental Mastery and a <color=#99FFFFFF>9%</color> Stellar-Conduct/Stellar Swirl reaction DMG increase. This boost can be obtained for a maximum of 4 characters in the party.",
       "param_list": [
         36,
         0.072,
@@ -385,7 +385,7 @@
     },
     "4": {
       "name": "",
-      "desc": "For every Cryo character in the party, the equipping character's Elemental Mastery is increased by <color=#99FFFFFF>42</color>. For every Electro character in the party, ATK is increased by <color=#99FFFFFF>8.4%</color>. Cryo character buffs are applied first. If the equipping character is in the Radiance: Stellar-Conduct or Radiance: Stellar Swirl state, each Cryo or Electro character in the party will grant the equipping character <color=#99FFFFFF>30</color> Elemental Mastery and a <color=#99FFFFFF>10.5%</color> Stellar-Conduct/Stellar Swirl reaction DMG increase. This boost can be obtained for a maximum of 4 characters in the party.",
+      "desc": "For every Cryo character in the party, the equipping character's Elemental Mastery is increased by <color=#99FFFFFF>42</color>. For every Electro character in the party, ATK is increased by <color=#99FFFFFF>8.4%</color>. Cryo character buffs are applied first. If the equipping character is in the Radiance: Stellar-Conduct or Radiance: Stellar Swirl state, each Cryo or Electro character in the party will instead grant the equipping character <color=#99FFFFFF>35</color> Elemental Mastery and a <color=#99FFFFFF>10.5%</color> Stellar-Conduct/Stellar Swirl reaction DMG increase. This boost can be obtained for a maximum of 4 characters in the party.",
       "param_list": [
         42,
         0.084,
@@ -399,7 +399,7 @@
     },
     "5": {
       "name": "",
-      "desc": "For every Cryo character in the party, the equipping character's Elemental Mastery is increased by <color=#99FFFFFF>48</color>. For every Electro character in the party, ATK is increased by <color=#99FFFFFF>9.6%</color>. Cryo character buffs are applied first. If the equipping character is in the Radiance: Stellar-Conduct or Radiance: Stellar Swirl state, each Cryo or Electro character in the party will grant the equipping character <color=#99FFFFFF>40</color> Elemental Mastery and a <color=#99FFFFFF>12%</color> Stellar-Conduct/Stellar Swirl reaction DMG increase. This boost can be obtained for a maximum of 4 characters in the party.",
+      "desc": "For every Cryo character in the party, the equipping character's Elemental Mastery is increased by <color=#99FFFFFF>48</color>. For every Electro character in the party, ATK is increased by <color=#99FFFFFF>9.6%</color>. Cryo character buffs are applied first. If the equipping character is in the Radiance: Stellar-Conduct or Radiance: Stellar Swirl state, each Cryo or Electro character in the party will instead grant the equipping character <color=#99FFFFFF>40</color> Elemental Mastery and a <color=#99FFFFFF>12%</color> Stellar-Conduct/Stellar Swirl reaction DMG increase. This boost can be obtained for a maximum of 4 characters in the party.",
       "param_list": [
         48,
         0.096,
@@ -552,5 +552,12 @@
       "cost": 45000
     }
   },
-  "story": {}
+  "story": {
+    "294437": {
+      "zh": "ART/UI/Readable/CHS/Weapon14437",
+      "en": "ART/UI/Readable/EN/Weapon14437_EN",
+      "ja": "ART/UI/Readable/JP/Weapon14437_JP",
+      "ko": "ART/UI/Readable/KR/Weapon14437_KR"
+    }
+  }
 }

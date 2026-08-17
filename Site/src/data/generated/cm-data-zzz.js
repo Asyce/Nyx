@@ -2949,6 +2949,4081 @@
   ],
   "roster": [
     {
+      "id": "zzz-sigrid",
+      "n": "Sigrid",
+      "localizedNames": {
+        "en": "Sigrid",
+        "zh": "\u5e0c\u683c\u8389\u5fb7",
+        "ja": "\u30b7\u30b0\u30ea\u30c3\u30c9",
+        "ko": "\uc2dc\uadf8\ub9ac\ub4dc"
+      },
+      "slug": "sigrid",
+      "releasePatch": "2.7",
+      "updated": 1786665600000,
+      "sourceOrder": 0,
+      "voiceActors": {
+        "english": "imdb:nm8792229|Dani Chambers",
+        "japanese": "Y\u016bko Kaida|Kaida Y\u016bko (\u7532\u6590\u7530 \u88d5\u5b50)",
+        "chinese": "https://zh.moegirl.org.cn/\u8d3a\u82e5\u5e06|He Ruofan (\u8d3a\u82e5\u5e06)",
+        "korean": "https://namu.wiki/w/\uac15\ud574\ub098|Kang Hae-na (\uac15\ud574\ub098)"
+      },
+      "icon": "../../Database/Prydwen/zzz/assets/characters/sigrid-30ecebbe136b.webp",
+      "portraitProvenance": {
+        "status": "announced",
+        "sourceUrl": "https://www.hoyolab.com/article_pre/18014398241023132"
+      },
+      "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole66.webp",
+      "card": "../../Database/Prydwen/zzz/assets/characters/sigrid-30ecebbe136b.webp",
+      "status": "beta",
+      "labels": [
+        "3.1"
+      ],
+      "r": "S",
+      "el": "Ice",
+      "spec": "Attack",
+      "tag": "Unknown",
+      "baseStats": {
+        "level1": {
+          "hp": 626,
+          "atk": 135,
+          "def": 49,
+          "critRate": 0.05,
+          "critDmg": 0.5,
+          "impact": 93,
+          "anomalyProficiency": 92,
+          "anomalyMastery": 90
+        },
+        "max": {
+          "level": 60,
+          "hp": 7788.7,
+          "atk": 863.21,
+          "def": 606.6,
+          "critRate": 0.05,
+          "critDmg": 0.5,
+          "impact": 93,
+          "anomalyProficiency": 92,
+          "anomalyMastery": 90
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/10",
+            "level": 1,
+            "cap": 10,
+            "hp": 626,
+            "atk": 135,
+            "def": 49,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "impact": 93,
+            "anomalyProficiency": 92,
+            "anomalyMastery": 90
+          },
+          {
+            "label": "Lv. 10/20",
+            "level": 10,
+            "cap": 20,
+            "hp": 1820.8,
+            "atk": 257.32,
+            "def": 141.58,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "impact": 93,
+            "anomalyProficiency": 92,
+            "anomalyMastery": 90
+          },
+          {
+            "label": "Lv. 20/30",
+            "level": 20,
+            "cap": 30,
+            "hp": 3099.58,
+            "atk": 387.9,
+            "def": 241.79,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "impact": 93,
+            "anomalyProficiency": 92,
+            "anomalyMastery": 90
+          },
+          {
+            "label": "Lv. 30/40",
+            "level": 30,
+            "cap": 40,
+            "hp": 4379.36,
+            "atk": 519.48,
+            "def": 340.99,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "impact": 93,
+            "anomalyProficiency": 92,
+            "anomalyMastery": 90
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 5659.14,
+            "atk": 650.05,
+            "def": 441.19,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "impact": 93,
+            "anomalyProficiency": 92,
+            "anomalyMastery": 90
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 6938.92,
+            "atk": 780.63,
+            "def": 540.39,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "impact": 93,
+            "anomalyProficiency": 92,
+            "anomalyMastery": 90
+          },
+          {
+            "label": "Lv. 60/60",
+            "level": 60,
+            "cap": 60,
+            "hp": 7788.7,
+            "atk": 863.21,
+            "def": 606.6,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "impact": 93,
+            "anomalyProficiency": 92,
+            "anomalyMastery": 90
+          }
+        ]
+      },
+      "facts": {
+        "fullName": "Sigrid de L'Azur",
+        "faction": "Roscaelifer",
+        "birthday": "April 23"
+      },
+      "skillIcons": [
+        "../../Database/GameData/zzz/assets/skills/Icon_Normal.webp",
+        "../../Database/GameData/zzz/assets/skills/Icon_Evade.webp",
+        "../../Database/GameData/zzz/assets/skills/Icon_Switch.webp",
+        "../../Database/GameData/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
+        "../../Database/GameData/zzz/assets/skills/Icon_UltimateReady.webp"
+      ],
+      "kit": {
+        "source": "Game data",
+        "channel": "beta",
+        "version": "3.2.3+18283617",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Basic Attack: Frost-Tipped Spear",
+                "type": "Basic",
+                "desc": "Press to activate:\nLaunches up to four forward slashes, dealing Ice DMG.\nThe 4th hit of Basic Attack: Frost-Tipped Spear is considered an attack.",
+                "descFormat": [
+                  {
+                    "start": 64,
+                    "end": 71,
+                    "kind": "tone",
+                    "tone": "cryo"
+                  },
+                  {
+                    "start": 88,
+                    "end": 120,
+                    "kind": "tone",
+                    "tone": "cryo"
+                  }
+                ],
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "1st-Hit DMG Multiplier",
+                        "values": [
+                          "77%",
+                          "84%",
+                          "91%",
+                          "98%",
+                          "105%",
+                          "112%",
+                          "119%",
+                          "126%",
+                          "133%",
+                          "140%",
+                          "147%",
+                          "154%"
+                        ]
+                      },
+                      {
+                        "label": "2nd-Hit DMG Multiplier",
+                        "values": [
+                          "143.8%",
+                          "156.9%",
+                          "170%",
+                          "183.1%",
+                          "196.2%",
+                          "209.3%",
+                          "222.4%",
+                          "235.5%",
+                          "248.6%",
+                          "261.7%",
+                          "274.8%",
+                          "287.9%"
+                        ]
+                      },
+                      {
+                        "label": "3rd-Hit DMG Multiplier",
+                        "values": [
+                          "101.4%",
+                          "110.7%",
+                          "120%",
+                          "129.3%",
+                          "138.6%",
+                          "147.9%",
+                          "157.2%",
+                          "166.5%",
+                          "175.8%",
+                          "185.1%",
+                          "194.4%",
+                          "203.7%"
+                        ]
+                      },
+                      {
+                        "label": "4th-Hit DMG Multiplier",
+                        "values": [
+                          "221%",
+                          "241.1%",
+                          "261.2%",
+                          "281.3%",
+                          "301.4%",
+                          "321.5%",
+                          "341.6%",
+                          "361.7%",
+                          "381.8%",
+                          "401.9%",
+                          "422%",
+                          "442.1%"
+                        ]
+                      },
+                      {
+                        "label": "1st-Hit Daze Multiplier",
+                        "values": [
+                          "45.4%",
+                          "47.5%",
+                          "49.6%",
+                          "51.7%",
+                          "53.8%",
+                          "55.9%",
+                          "58%",
+                          "60.1%",
+                          "62.2%",
+                          "64.3%",
+                          "66.4%",
+                          "68.5%"
+                        ]
+                      },
+                      {
+                        "label": "2nd-Hit Daze Multiplier",
+                        "values": [
+                          "88.7%",
+                          "92.8%",
+                          "96.9%",
+                          "101%",
+                          "105.1%",
+                          "109.2%",
+                          "113.3%",
+                          "117.4%",
+                          "121.5%",
+                          "125.6%",
+                          "129.7%",
+                          "133.8%"
+                        ]
+                      },
+                      {
+                        "label": "3rd-Hit Daze Multiplier",
+                        "values": [
+                          "55.8%",
+                          "58.4%",
+                          "61%",
+                          "63.6%",
+                          "66.2%",
+                          "68.8%",
+                          "71.4%",
+                          "74%",
+                          "76.6%",
+                          "79.2%",
+                          "81.8%",
+                          "84.4%"
+                        ]
+                      },
+                      {
+                        "label": "4th-Hit Daze Multiplier",
+                        "values": [
+                          "138.5%",
+                          "144.8%",
+                          "151.1%",
+                          "157.4%",
+                          "163.7%",
+                          "170%",
+                          "176.3%",
+                          "182.6%",
+                          "188.9%",
+                          "195.2%",
+                          "201.5%",
+                          "207.8%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Basic Attack: Converging Spear",
+                "type": "Basic",
+                "desc": "While in the state and Basic Attack: Converging Spear can be used, hold to activate:\nLaunches the corresponding Basic Attack: Converging Spear based on the current stage, dealing Ice DMG.\nBasic Attack: Converging Spear has three stages. Each use advances it to the next stage. After performing the third stage of Basic Attack: Converging Spear, it resets to the first stage.\nIf Sigrid is attacked while charging the 1st or 2nd stage of Basic Attack: Converging Spear, she blocks with her shield. On a successful block, the attack's DMG is negated, the next Basic Attack: Converging Spear deals 100% more Daze, the state is refreshed, and she gains one use of Basic Attack: Converging Spear. Press after a successful block to perform the corresponding stage of Basic Attack: Converging Spear.\nBasic Attack: Converging Spear performed after Basic Attack: Frost-Tipped Spear retains the current stage of Basic Attack: Frost-Tipped Spear.\nDMG taken is reduced by 60% during this skill.\nAnti-Interrupt level is increased while using this skill.\nCharacter is invulnerable during the third stage of Basic Attack: Converging Spear.",
+                "descFormat": [
+                  {
+                    "start": 23,
+                    "end": 53,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 112,
+                    "end": 142,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 179,
+                    "end": 186,
+                    "kind": "tone",
+                    "tone": "cryo"
+                  },
+                  {
+                    "start": 188,
+                    "end": 218,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 313,
+                    "end": 343,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 436,
+                    "end": 466,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 557,
+                    "end": 587,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 659,
+                    "end": 689,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 760,
+                    "end": 790,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 792,
+                    "end": 822,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 839,
+                    "end": 871,
+                    "kind": "tone",
+                    "tone": "cryo"
+                  },
+                  {
+                    "start": 901,
+                    "end": 933,
+                    "kind": "tone",
+                    "tone": "cryo"
+                  },
+                  {
+                    "start": 1092,
+                    "end": 1122,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ]
+              },
+              {
+                "name": "Basic Attack: Converging Spear 1st Stage",
+                "type": "Basic",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "358.3%",
+                          "390.9%",
+                          "423.5%",
+                          "456.1%",
+                          "488.7%",
+                          "521.3%",
+                          "553.9%",
+                          "586.5%",
+                          "619.1%",
+                          "651.7%",
+                          "684.3%",
+                          "716.9%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "86.3%",
+                          "90.3%",
+                          "94.3%",
+                          "98.3%",
+                          "102.3%",
+                          "106.3%",
+                          "110.3%",
+                          "114.3%",
+                          "118.3%",
+                          "122.3%",
+                          "126.3%",
+                          "130.3%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Basic Attack: Converging Spear 2nd Stage",
+                "type": "Basic",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "609.1%",
+                          "664.5%",
+                          "719.9%",
+                          "775.3%",
+                          "830.7%",
+                          "886.1%",
+                          "941.5%",
+                          "996.9%",
+                          "1052.3%",
+                          "1107.7%",
+                          "1163.1%",
+                          "1218.5%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "143.1%",
+                          "149.7%",
+                          "156.3%",
+                          "162.9%",
+                          "169.5%",
+                          "176.1%",
+                          "182.7%",
+                          "189.3%",
+                          "195.9%",
+                          "202.5%",
+                          "209.1%",
+                          "215.7%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Basic Attack: Converging Spear 3rd Stage",
+                "type": "Basic",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "814.6%",
+                          "888.7%",
+                          "962.8%",
+                          "1036.9%",
+                          "1111%",
+                          "1185.1%",
+                          "1259.2%",
+                          "1333.3%",
+                          "1407.4%",
+                          "1481.5%",
+                          "1555.6%",
+                          "1629.7%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "196.2%",
+                          "205.2%",
+                          "214.2%",
+                          "223.2%",
+                          "232.2%",
+                          "241.2%",
+                          "250.2%",
+                          "259.2%",
+                          "268.2%",
+                          "277.2%",
+                          "286.2%",
+                          "295.2%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Dodge: Cloudstep",
+                "type": "Dodge",
+                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dash Attack: Windchase",
+                "type": "Dodge",
+                "desc": "Press during a dodge to activate:\nPerforms a forward cleaving slash, dealing Physical DMG.",
+                "descFormat": [
+                  {
+                    "start": 77,
+                    "end": 89,
+                    "kind": "tone",
+                    "tone": "physical"
+                  }
+                ],
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "119%",
+                          "129.9%",
+                          "140.8%",
+                          "151.7%",
+                          "162.6%",
+                          "173.5%",
+                          "184.4%",
+                          "195.3%",
+                          "206.2%",
+                          "217.1%",
+                          "228%",
+                          "238.9%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "46.8%",
+                          "49%",
+                          "51.2%",
+                          "53.4%",
+                          "55.6%",
+                          "57.8%",
+                          "60%",
+                          "62.2%",
+                          "64.4%",
+                          "66.6%",
+                          "68.8%",
+                          "71%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Dodge Counter: Counterthrust",
+                "type": "Dodge",
+                "desc": "Press during a Perfect Dodge to activate:\nCondenses frost around the spearhead before unleashing a powerful counterattack, dealing Ice DMG.\nWhen performed after Basic Attack: Frost-Tipped Spear, Dodge Counter: Counterthrust retains the current stage of Basic Attack: Frost-Tipped Spear.\nThis skill is considered an attack.\nCharacter is invulnerable while using this skill.",
+                "descFormat": [
+                  {
+                    "start": 15,
+                    "end": 28,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 131,
+                    "end": 138,
+                    "kind": "tone",
+                    "tone": "cryo"
+                  },
+                  {
+                    "start": 161,
+                    "end": 193,
+                    "kind": "tone",
+                    "tone": "cryo"
+                  },
+                  {
+                    "start": 195,
+                    "end": 223,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 253,
+                    "end": 285,
+                    "kind": "tone",
+                    "tone": "cryo"
+                  }
+                ],
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "243.1%",
+                          "265.2%",
+                          "287.3%",
+                          "309.4%",
+                          "331.5%",
+                          "353.6%",
+                          "375.7%",
+                          "397.8%",
+                          "419.9%",
+                          "442%",
+                          "464.1%",
+                          "486.2%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "172.3%",
+                          "180.2%",
+                          "188.1%",
+                          "196%",
+                          "203.9%",
+                          "211.8%",
+                          "219.7%",
+                          "227.6%",
+                          "235.5%",
+                          "243.4%",
+                          "251.3%",
+                          "259.2%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Quick Assist: Iron Sentinel",
+                "type": "Assist",
+                "desc": "When the active character is launched, press to activate:\nCondenses ice before lunging forward, dealing Ice DMG.\nCharacter is invulnerable while using this skill.",
+                "descFormat": [
+                  {
+                    "start": 104,
+                    "end": 111,
+                    "kind": "tone",
+                    "tone": "cryo"
+                  }
+                ],
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "39.7%",
+                          "43.4%",
+                          "47.1%",
+                          "50.8%",
+                          "54.5%",
+                          "58.2%",
+                          "61.9%",
+                          "65.6%",
+                          "69.3%",
+                          "73%",
+                          "76.7%",
+                          "80.4%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "31.2%",
+                          "32.7%",
+                          "34.2%",
+                          "35.7%",
+                          "37.2%",
+                          "38.7%",
+                          "40.2%",
+                          "41.7%",
+                          "43.2%",
+                          "44.7%",
+                          "46.2%",
+                          "47.7%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Defensive Assist: Dauntless Cold",
+                "type": "Assist",
+                "desc": "When the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Light Defensive Daze Multiplier",
+                        "values": [
+                          "271.3%",
+                          "283.7%",
+                          "296.1%",
+                          "308.5%",
+                          "320.9%",
+                          "333.3%",
+                          "345.7%",
+                          "358.1%",
+                          "370.5%",
+                          "382.9%",
+                          "395.3%",
+                          "407.7%"
+                        ]
+                      },
+                      {
+                        "label": "Heavy Defensive Daze Multiplier",
+                        "values": [
+                          "342.8%",
+                          "358.4%",
+                          "374%",
+                          "389.6%",
+                          "405.2%",
+                          "420.8%",
+                          "436.4%",
+                          "452%",
+                          "467.6%",
+                          "483.2%",
+                          "498.8%",
+                          "514.4%"
+                        ]
+                      },
+                      {
+                        "label": "Chain Defensive Daze Multiplier",
+                        "values": [
+                          "166.8%",
+                          "174.4%",
+                          "182%",
+                          "189.6%",
+                          "197.2%",
+                          "204.8%",
+                          "212.4%",
+                          "220%",
+                          "227.6%",
+                          "235.2%",
+                          "242.8%",
+                          "250.4%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Assist Follow-Up: Devouring Frost",
+                "type": "Assist",
+                "desc": "Press after a Defensive Assist to activate:\nSwings the spear upward before following with a powerful downward attack, dealing massive Ice DMG.\nThis skill is considered an attack.\nCharacter is invulnerable while using this skill.",
+                "descFormat": [
+                  {
+                    "start": 14,
+                    "end": 30,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 134,
+                    "end": 141,
+                    "kind": "tone",
+                    "tone": "cryo"
+                  }
+                ],
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "514.9%",
+                          "561.8%",
+                          "608.7%",
+                          "655.6%",
+                          "702.5%",
+                          "749.4%",
+                          "796.3%",
+                          "843.2%",
+                          "890.1%",
+                          "937%",
+                          "983.9%",
+                          "1030.8%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "353.8%",
+                          "369.9%",
+                          "386%",
+                          "402.1%",
+                          "418.2%",
+                          "434.3%",
+                          "450.4%",
+                          "466.5%",
+                          "482.6%",
+                          "498.7%",
+                          "514.8%",
+                          "530.9%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Special Attack: Frostflower",
+                "type": "Special",
+                "desc": "Press to activate:\nPerforms three forward thrusts, dealing Ice DMG.\nAnti-Interrupt level is increased while using this skill.",
+                "descFormat": [
+                  {
+                    "start": 59,
+                    "end": 66,
+                    "kind": "tone",
+                    "tone": "cryo"
+                  }
+                ],
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "53.7%",
+                          "58.6%",
+                          "63.5%",
+                          "68.4%",
+                          "73.3%",
+                          "78.2%",
+                          "83.1%",
+                          "88%",
+                          "92.9%",
+                          "97.8%",
+                          "102.7%",
+                          "107.6%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "42.2%",
+                          "44.2%",
+                          "46.2%",
+                          "48.2%",
+                          "50.2%",
+                          "52.2%",
+                          "54.2%",
+                          "56.2%",
+                          "58.2%",
+                          "60.2%",
+                          "62.2%",
+                          "64.2%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "EX Special Attack: Scattered Jade",
+                "type": "Special",
+                "desc": "With enough Energy and while not in the state, press to activate:\nPerforms a series of powerful stabs ahead, dealing massive Ice DMG.\nThis skill is considered an attack.\nCharacter is invulnerable while using this skill.",
+                "descFormat": [
+                  {
+                    "start": 125,
+                    "end": 132,
+                    "kind": "tone",
+                    "tone": "cryo"
+                  }
+                ],
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "438.8%",
+                          "478.7%",
+                          "518.6%",
+                          "558.5%",
+                          "598.4%",
+                          "638.3%",
+                          "678.2%",
+                          "718.1%",
+                          "758%",
+                          "797.9%",
+                          "837.8%",
+                          "877.7%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "274.3%",
+                          "286.8%",
+                          "299.3%",
+                          "311.8%",
+                          "324.3%",
+                          "336.8%",
+                          "349.3%",
+                          "361.8%",
+                          "374.3%",
+                          "386.8%",
+                          "399.3%",
+                          "411.8%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "EX Special Attack: Shattered Jade",
+                "type": "Special",
+                "desc": "With enough Energy and while in the state, press to activate:\nPerforms a series of powerful lunging stabs ahead, dealing massive Ice DMG.\nThis skill is considered an attack.\nCharacter is invulnerable while using this skill.",
+                "descFormat": [
+                  {
+                    "start": 129,
+                    "end": 136,
+                    "kind": "tone",
+                    "tone": "cryo"
+                  }
+                ],
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "1047.8%",
+                          "1143.1%",
+                          "1238.4%",
+                          "1333.7%",
+                          "1429%",
+                          "1524.3%",
+                          "1619.6%",
+                          "1714.9%",
+                          "1810.2%",
+                          "1905.5%",
+                          "2000.8%",
+                          "2096.1%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "362.6%",
+                          "379.1%",
+                          "395.6%",
+                          "412.1%",
+                          "428.6%",
+                          "445.1%",
+                          "461.6%",
+                          "478.1%",
+                          "494.6%",
+                          "511.1%",
+                          "527.6%",
+                          "544.1%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Chain Attack: Encroaching Ice",
+                "type": "Chain",
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nPerforms a powerful piercing attack against enemies ahead, dealing massive Ice DMG.\nUpon activating this skill, gains the Tempered effect, increasing the DMG dealt by subsequent Basic Attack: Converging Spear attacks by 20% for 50s.\nWhen the current skill hits a Stunned elite or boss enemy for the first time, the current stage of Basic Attack: Converging Spear is recorded and then reset before entering the state. While in , 's duration will not be reduced. Hold to continuously activate the 1st through 3rd stage of Basic Attack: Converging Spear. After activating the 3rd stage of Basic Attack: Converging Spear, ends and Basic Attack: Converging Spear's stage is restored to the recorded stage.\n can trigger at most once against the same target before the target recovers from Stun.\nThis skill is considered an attack.\nWhile in the state, Basic Attack: Converging Spear does not trigger the Chain Attack window when hitting Stunned enemies.\nCharacter is invulnerable while using this skill.",
+                "descFormat": [
+                  {
+                    "start": 7,
+                    "end": 19,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 143,
+                    "end": 150,
+                    "kind": "tone",
+                    "tone": "cryo"
+                  },
+                  {
+                    "start": 190,
+                    "end": 198,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 246,
+                    "end": 276,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 400,
+                    "end": 430,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 588,
+                    "end": 618,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 654,
+                    "end": 684,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 695,
+                    "end": 725,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 913,
+                    "end": 943,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ],
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "943.7%",
+                          "1029.5%",
+                          "1115.3%",
+                          "1201.1%",
+                          "1286.9%",
+                          "1372.7%",
+                          "1458.5%",
+                          "1544.3%",
+                          "1630.1%",
+                          "1715.9%",
+                          "1801.7%",
+                          "1887.5%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "137.6%",
+                          "143.9%",
+                          "150.2%",
+                          "156.5%",
+                          "162.8%",
+                          "169.1%",
+                          "175.4%",
+                          "181.7%",
+                          "188%",
+                          "194.3%",
+                          "200.6%",
+                          "206.9%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Ultimate: Frozen Heavens",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nGathers the power of extreme cold before unleashing a devastating series of lunging attacks, dealing massive Ice DMG.\nThis skill is considered an attack.\nCharacter is invulnerable while using this skill.",
+                "descFormat": [
+                  {
+                    "start": 26,
+                    "end": 33,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 163,
+                    "end": 170,
+                    "kind": "tone",
+                    "tone": "cryo"
+                  }
+                ],
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "2189.8%",
+                          "2388.9%",
+                          "2588%",
+                          "2787.1%",
+                          "2986.2%",
+                          "3185.3%",
+                          "3384.4%",
+                          "3583.5%",
+                          "3782.6%",
+                          "3981.7%",
+                          "4180.8%",
+                          "4379.9%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "265.8%",
+                          "277.9%",
+                          "290%",
+                          "302.1%",
+                          "314.2%",
+                          "326.3%",
+                          "338.4%",
+                          "350.5%",
+                          "362.6%",
+                          "374.7%",
+                          "386.8%",
+                          "398.9%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Core Skill",
+            "entries": [
+              {
+                "name": "Core Passive: Sky Knight",
+                "type": "Core Passive",
+                "desc": "The 4th hit of the Basic Attack, the EX Special Attack, Assist Follow-Up, Chain Attack, Ultimate, and Dodge Counter are considered attacks.\nWhenever Sigrid uses and hits an enemy with any in combat while not in the state, she enters the state and gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhile in the state, when Sigrid hits an enemy with an skill, the state is refreshed and she gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhen triggering or refreshing , its duration decreases as the stage of Basic Attack: Converging Spear increases. At stage 1/2/3, its duration is 8/7/6s.\nWhen ends, the stage of Basic Attack: Converging Spear is reduced by one, to a minimum of stage 1.\nActivating or refreshing increases Sigrid's CRIT Rate by 66% for 8s. Repeated triggers extend the duration by 8s, up to a maximum of 40s.\nWhen Sigrid hits a Stunned enemy while in , the Stun DMG Multiplier of her DMG dealt to the target is increased by 20%.",
+                "descFormat": [
+                  {
+                    "start": 19,
+                    "end": 31,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 37,
+                    "end": 54,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 56,
+                    "end": 72,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 74,
+                    "end": 86,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 88,
+                    "end": 96,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 102,
+                    "end": 115,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 262,
+                    "end": 292,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 424,
+                    "end": 454,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 550,
+                    "end": 580,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 624,
+                    "end": 625,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 626,
+                    "end": 627,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 628,
+                    "end": 629,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 656,
+                    "end": 686,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 788,
+                    "end": 791,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 796,
+                    "end": 797,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 841,
+                    "end": 842,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 864,
+                    "end": 866,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ],
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "The 4th hit of the Basic Attack, the EX Special Attack, Assist Follow-Up, Chain Attack, Ultimate, and Dodge Counter are considered attacks.\nWhenever Sigrid uses and hits an enemy with any in combat while not in the state, she enters the state and gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhile in the state, when Sigrid hits an enemy with an skill, the state is refreshed and she gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhen triggering or refreshing , its duration decreases as the stage of Basic Attack: Converging Spear increases. At stage 1/2/3, its duration is 8/7/6s.\nWhen ends, the stage of Basic Attack: Converging Spear is reduced by one, to a minimum of stage 1.\nActivating or refreshing increases Sigrid's CRIT Rate by 33% for 8s. Repeated triggers extend the duration by 8s, up to a maximum of 40s.\nWhen Sigrid hits a Stunned enemy while in , the Stun DMG Multiplier of her DMG dealt to the target is increased by 20%.",
+                    "format": [
+                      {
+                        "start": 19,
+                        "end": 31,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 37,
+                        "end": 54,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 56,
+                        "end": 72,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 74,
+                        "end": 86,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 88,
+                        "end": 96,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 102,
+                        "end": 115,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 262,
+                        "end": 292,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 424,
+                        "end": 454,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 550,
+                        "end": 580,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 624,
+                        "end": 625,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 626,
+                        "end": 627,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 628,
+                        "end": 629,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 656,
+                        "end": 686,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 788,
+                        "end": 791,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 796,
+                        "end": 797,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 841,
+                        "end": 842,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 864,
+                        "end": 866,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "The 4th hit of the Basic Attack, the EX Special Attack, Assist Follow-Up, Chain Attack, Ultimate, and Dodge Counter are considered attacks.\nWhenever Sigrid uses and hits an enemy with any in combat while not in the state, she enters the state and gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhile in the state, when Sigrid hits an enemy with an skill, the state is refreshed and she gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhen triggering or refreshing , its duration decreases as the stage of Basic Attack: Converging Spear increases. At stage 1/2/3, its duration is 8/7/6s.\nWhen ends, the stage of Basic Attack: Converging Spear is reduced by one, to a minimum of stage 1.\nActivating or refreshing increases Sigrid's CRIT Rate by 39% for 8s. Repeated triggers extend the duration by 8s, up to a maximum of 40s.\nWhen Sigrid hits a Stunned enemy while in , the Stun DMG Multiplier of her DMG dealt to the target is increased by 20%.",
+                    "format": [
+                      {
+                        "start": 19,
+                        "end": 31,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 37,
+                        "end": 54,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 56,
+                        "end": 72,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 74,
+                        "end": 86,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 88,
+                        "end": 96,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 102,
+                        "end": 115,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 262,
+                        "end": 292,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 424,
+                        "end": 454,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 550,
+                        "end": 580,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 624,
+                        "end": 625,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 626,
+                        "end": 627,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 628,
+                        "end": 629,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 656,
+                        "end": 686,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 788,
+                        "end": 791,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 796,
+                        "end": 797,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 841,
+                        "end": 842,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 864,
+                        "end": 866,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "The 4th hit of the Basic Attack, the EX Special Attack, Assist Follow-Up, Chain Attack, Ultimate, and Dodge Counter are considered attacks.\nWhenever Sigrid uses and hits an enemy with any in combat while not in the state, she enters the state and gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhile in the state, when Sigrid hits an enemy with an skill, the state is refreshed and she gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhen triggering or refreshing , its duration decreases as the stage of Basic Attack: Converging Spear increases. At stage 1/2/3, its duration is 8/7/6s.\nWhen ends, the stage of Basic Attack: Converging Spear is reduced by one, to a minimum of stage 1.\nActivating or refreshing increases Sigrid's CRIT Rate by 44% for 8s. Repeated triggers extend the duration by 8s, up to a maximum of 40s.\nWhen Sigrid hits a Stunned enemy while in , the Stun DMG Multiplier of her DMG dealt to the target is increased by 20%.",
+                    "format": [
+                      {
+                        "start": 19,
+                        "end": 31,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 37,
+                        "end": 54,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 56,
+                        "end": 72,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 74,
+                        "end": 86,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 88,
+                        "end": 96,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 102,
+                        "end": 115,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 262,
+                        "end": 292,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 424,
+                        "end": 454,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 550,
+                        "end": 580,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 624,
+                        "end": 625,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 626,
+                        "end": 627,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 628,
+                        "end": 629,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 656,
+                        "end": 686,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 788,
+                        "end": 791,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 796,
+                        "end": 797,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 841,
+                        "end": 842,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 864,
+                        "end": 866,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "The 4th hit of the Basic Attack, the EX Special Attack, Assist Follow-Up, Chain Attack, Ultimate, and Dodge Counter are considered attacks.\nWhenever Sigrid uses and hits an enemy with any in combat while not in the state, she enters the state and gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhile in the state, when Sigrid hits an enemy with an skill, the state is refreshed and she gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhen triggering or refreshing , its duration decreases as the stage of Basic Attack: Converging Spear increases. At stage 1/2/3, its duration is 8/7/6s.\nWhen ends, the stage of Basic Attack: Converging Spear is reduced by one, to a minimum of stage 1.\nActivating or refreshing increases Sigrid's CRIT Rate by 50% for 8s. Repeated triggers extend the duration by 8s, up to a maximum of 40s.\nWhen Sigrid hits a Stunned enemy while in , the Stun DMG Multiplier of her DMG dealt to the target is increased by 20%.",
+                    "format": [
+                      {
+                        "start": 19,
+                        "end": 31,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 37,
+                        "end": 54,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 56,
+                        "end": 72,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 74,
+                        "end": 86,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 88,
+                        "end": 96,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 102,
+                        "end": 115,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 262,
+                        "end": 292,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 424,
+                        "end": 454,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 550,
+                        "end": 580,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 624,
+                        "end": 625,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 626,
+                        "end": 627,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 628,
+                        "end": 629,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 656,
+                        "end": 686,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 788,
+                        "end": 791,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 796,
+                        "end": 797,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 841,
+                        "end": 842,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 864,
+                        "end": 866,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "The 4th hit of the Basic Attack, the EX Special Attack, Assist Follow-Up, Chain Attack, Ultimate, and Dodge Counter are considered attacks.\nWhenever Sigrid uses and hits an enemy with any in combat while not in the state, she enters the state and gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhile in the state, when Sigrid hits an enemy with an skill, the state is refreshed and she gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhen triggering or refreshing , its duration decreases as the stage of Basic Attack: Converging Spear increases. At stage 1/2/3, its duration is 8/7/6s.\nWhen ends, the stage of Basic Attack: Converging Spear is reduced by one, to a minimum of stage 1.\nActivating or refreshing increases Sigrid's CRIT Rate by 55% for 8s. Repeated triggers extend the duration by 8s, up to a maximum of 40s.\nWhen Sigrid hits a Stunned enemy while in , the Stun DMG Multiplier of her DMG dealt to the target is increased by 20%.",
+                    "format": [
+                      {
+                        "start": 19,
+                        "end": 31,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 37,
+                        "end": 54,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 56,
+                        "end": 72,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 74,
+                        "end": 86,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 88,
+                        "end": 96,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 102,
+                        "end": 115,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 262,
+                        "end": 292,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 424,
+                        "end": 454,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 550,
+                        "end": 580,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 624,
+                        "end": 625,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 626,
+                        "end": 627,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 628,
+                        "end": 629,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 656,
+                        "end": 686,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 788,
+                        "end": 791,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 796,
+                        "end": 797,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 841,
+                        "end": 842,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 864,
+                        "end": 866,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "The 4th hit of the Basic Attack, the EX Special Attack, Assist Follow-Up, Chain Attack, Ultimate, and Dodge Counter are considered attacks.\nWhenever Sigrid uses and hits an enemy with any in combat while not in the state, she enters the state and gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhile in the state, when Sigrid hits an enemy with an skill, the state is refreshed and she gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhen triggering or refreshing , its duration decreases as the stage of Basic Attack: Converging Spear increases. At stage 1/2/3, its duration is 8/7/6s.\nWhen ends, the stage of Basic Attack: Converging Spear is reduced by one, to a minimum of stage 1.\nActivating or refreshing increases Sigrid's CRIT Rate by 61% for 8s. Repeated triggers extend the duration by 8s, up to a maximum of 40s.\nWhen Sigrid hits a Stunned enemy while in , the Stun DMG Multiplier of her DMG dealt to the target is increased by 20%.",
+                    "format": [
+                      {
+                        "start": 19,
+                        "end": 31,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 37,
+                        "end": 54,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 56,
+                        "end": 72,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 74,
+                        "end": 86,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 88,
+                        "end": 96,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 102,
+                        "end": 115,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 262,
+                        "end": 292,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 424,
+                        "end": 454,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 550,
+                        "end": 580,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 624,
+                        "end": 625,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 626,
+                        "end": 627,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 628,
+                        "end": 629,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 656,
+                        "end": 686,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 788,
+                        "end": 791,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 796,
+                        "end": 797,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 841,
+                        "end": 842,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 864,
+                        "end": 866,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "The 4th hit of the Basic Attack, the EX Special Attack, Assist Follow-Up, Chain Attack, Ultimate, and Dodge Counter are considered attacks.\nWhenever Sigrid uses and hits an enemy with any in combat while not in the state, she enters the state and gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhile in the state, when Sigrid hits an enemy with an skill, the state is refreshed and she gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhen triggering or refreshing , its duration decreases as the stage of Basic Attack: Converging Spear increases. At stage 1/2/3, its duration is 8/7/6s.\nWhen ends, the stage of Basic Attack: Converging Spear is reduced by one, to a minimum of stage 1.\nActivating or refreshing increases Sigrid's CRIT Rate by 66% for 8s. Repeated triggers extend the duration by 8s, up to a maximum of 40s.\nWhen Sigrid hits a Stunned enemy while in , the Stun DMG Multiplier of her DMG dealt to the target is increased by 20%.",
+                    "format": [
+                      {
+                        "start": 19,
+                        "end": 31,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 37,
+                        "end": 54,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 56,
+                        "end": 72,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 74,
+                        "end": 86,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 88,
+                        "end": 96,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 102,
+                        "end": 115,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 262,
+                        "end": 292,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 424,
+                        "end": 454,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 550,
+                        "end": 580,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 624,
+                        "end": 625,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 626,
+                        "end": 627,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 628,
+                        "end": 629,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 656,
+                        "end": 686,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 788,
+                        "end": 791,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 796,
+                        "end": 797,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 841,
+                        "end": 842,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 864,
+                        "end": 866,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Additional Ability: Legion of the Skies",
+                "type": "Additional Ability",
+                "desc": "When another character in your squad is a Support or Stun character:\nSigrid's ATK increases by 120. This effect scales with character level, with each level providing an additional increase of 12, up to a maximum increase of 840.\nDMG increases by 15% when hitting enemies in the Contamination state.",
+                "descFormat": [
+                  {
+                    "start": 42,
+                    "end": 49,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 53,
+                    "end": 57,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 247,
+                    "end": 250,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 279,
+                    "end": 292,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ],
+                "levels": []
+              }
+            ]
+          },
+          {
+            "title": "Mindscape Cinema",
+            "entries": [
+              {
+                "name": "Long, Long Ago",
+                "type": "Mindscape 1",
+                "desc": "Upon activating the 3rd stage of Basic Attack: Converging Spear, enters the and gains 1 additional activation of Basic Attack: Converging Spear. When activations exceed the stored Basic Attack: Converging Spear's activation limit, the next Basic Attack: Converging Spear's final hit deals an additional 100% of ATK as Ice DMG. Sigrid's ATK increases by 25%.",
+                "descFormat": [
+                  {
+                    "start": 33,
+                    "end": 63,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 113,
+                    "end": 143,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 180,
+                    "end": 210,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 240,
+                    "end": 270,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 303,
+                    "end": 307,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 318,
+                    "end": 325,
+                    "kind": "tone",
+                    "tone": "cryo"
+                  },
+                  {
+                    "start": 336,
+                    "end": 339,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 353,
+                    "end": 356,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ]
+              },
+              {
+                "name": "Legend's First Act",
+                "type": "Mindscape 2",
+                "desc": "PEN Ratio of attacks and Basic Attack: Converging Spear increases by 24%. The duration of is extended by 2s. Sigrid's Decibel Generation Rate increases by 10%.",
+                "descFormat": [
+                  {
+                    "start": 25,
+                    "end": 55,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 69,
+                    "end": 72,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ]
+              },
+              {
+                "name": "Protector of Miracles",
+                "type": "Mindscape 3",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2",
+                "descFormat": [
+                  {
+                    "start": 0,
+                    "end": 12,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 14,
+                    "end": 19,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 21,
+                    "end": 27,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 29,
+                    "end": 43,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 49,
+                    "end": 61,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ]
+              },
+              {
+                "name": "Hero in Training",
+                "type": "Mindscape 4",
+                "desc": "Each time is refreshed, DMG dealt increases by 18% for 8s. Repeated triggers extend the duration by 8s, up to a maximum of 40s.",
+                "descFormat": [
+                  {
+                    "start": 47,
+                    "end": 50,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 55,
+                    "end": 56,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 100,
+                    "end": 101,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 123,
+                    "end": 125,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ]
+              },
+              {
+                "name": "Skybound Oath",
+                "type": "Mindscape 5",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2",
+                "descFormat": [
+                  {
+                    "start": 0,
+                    "end": 12,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 14,
+                    "end": 19,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 21,
+                    "end": 27,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 29,
+                    "end": 43,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 49,
+                    "end": 61,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ]
+              },
+              {
+                "name": "Knight of the Skies",
+                "type": "Mindscape 6",
+                "desc": "When Basic Attack: Converging Spear's 1st/2nd/3rd stage's final hit lands, it deals an additional 80%/90%/100% ATK as Ice DMG. There is no more limit on the number of times Sigrid can enter the state upon hitting a Stunned enemy with Chain Attack: Encroaching Ice. state's Basic Attack: Converging Spear will activate faster.",
+                "descFormat": [
+                  {
+                    "start": 5,
+                    "end": 35,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 98,
+                    "end": 101,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 102,
+                    "end": 105,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 106,
+                    "end": 110,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 118,
+                    "end": 125,
+                    "kind": "tone",
+                    "tone": "cryo"
+                  },
+                  {
+                    "start": 234,
+                    "end": 263,
+                    "kind": "tone",
+                    "tone": "cryo"
+                  },
+                  {
+                    "start": 273,
+                    "end": 303,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "req": {
+        "ascension": [
+          {
+            "id": "100211",
+            "name": "Basic Attack Certification Seal",
+            "qty": 4,
+            "rar": 1,
+            "kind": "gem",
+            "icon": "../../Database/GameData/zzz/assets/items/AvatarRankDamage01.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          },
+          {
+            "id": "100221",
+            "name": "Advanced Attack Certification Seal",
+            "qty": 32,
+            "rar": 3,
+            "kind": "gem",
+            "icon": "../../Database/GameData/zzz/assets/items/AvatarRankDamage02.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          },
+          {
+            "id": "100231",
+            "name": "Pioneer's Certification Seal",
+            "qty": 30,
+            "rar": 4,
+            "kind": "gem",
+            "icon": "../../Database/GameData/zzz/assets/items/AvatarRankDamage03.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          }
+        ],
+        "ascensionStages": [
+          {
+            "cap": 20,
+            "items": [
+              {
+                "id": "100211",
+                "name": "Basic Attack Certification Seal",
+                "qty": 4,
+                "rar": 1,
+                "kind": "gem",
+                "icon": "../../Database/GameData/zzz/assets/items/AvatarRankDamage01.webp",
+                "source": "Combat Simulation - Agent Promotion",
+                "sourceDetails": [
+                  {
+                    "name": "Combat Simulation - Agent Promotion"
+                  }
+                ]
+              }
+            ],
+            "cost": 24000
+          },
+          {
+            "cap": 30,
+            "items": [
+              {
+                "id": "100221",
+                "name": "Advanced Attack Certification Seal",
+                "qty": 12,
+                "rar": 3,
+                "kind": "gem",
+                "icon": "../../Database/GameData/zzz/assets/items/AvatarRankDamage02.webp",
+                "source": "Combat Simulation - Agent Promotion",
+                "sourceDetails": [
+                  {
+                    "name": "Combat Simulation - Agent Promotion"
+                  }
+                ]
+              }
+            ],
+            "cost": 56000
+          },
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "100221",
+                "name": "Advanced Attack Certification Seal",
+                "qty": 20,
+                "rar": 3,
+                "kind": "gem",
+                "icon": "../../Database/GameData/zzz/assets/items/AvatarRankDamage02.webp",
+                "source": "Combat Simulation - Agent Promotion",
+                "sourceDetails": [
+                  {
+                    "name": "Combat Simulation - Agent Promotion"
+                  }
+                ]
+              }
+            ],
+            "cost": 120000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "100231",
+                "name": "Pioneer's Certification Seal",
+                "qty": 10,
+                "rar": 4,
+                "kind": "gem",
+                "icon": "../../Database/GameData/zzz/assets/items/AvatarRankDamage03.webp",
+                "source": "Combat Simulation - Agent Promotion",
+                "sourceDetails": [
+                  {
+                    "name": "Combat Simulation - Agent Promotion"
+                  }
+                ]
+              }
+            ],
+            "cost": 200000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "100231",
+                "name": "Pioneer's Certification Seal",
+                "qty": 20,
+                "rar": 4,
+                "kind": "gem",
+                "icon": "../../Database/GameData/zzz/assets/items/AvatarRankDamage03.webp",
+                "source": "Combat Simulation - Agent Promotion",
+                "sourceDetails": [
+                  {
+                    "name": "Combat Simulation - Agent Promotion"
+                  }
+                ]
+              }
+            ],
+            "cost": 400000
+          }
+        ],
+        "talents": [
+          {
+            "id": "100112",
+            "name": "Basic Freeze Chip",
+            "qty": 25,
+            "rar": 1,
+            "kind": "book",
+            "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce01.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100122",
+            "name": "Advanced Freeze Chip",
+            "qty": 75,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100132",
+            "name": "Specialized Freeze Chip",
+            "qty": 250,
+            "rar": 4,
+            "kind": "book",
+            "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100941",
+            "name": "Hamster Cage Pass",
+            "qty": 5,
+            "rar": 5,
+            "kind": "crown",
+            "icon": "../../Database/GameData/zzz/assets/items/UltimateSkill.webp",
+            "source": "Event / New Eridu City Fund",
+            "sourceDetails": [
+              {
+                "name": "Event / New Eridu City Fund"
+              }
+            ]
+          },
+          {
+            "id": "110007",
+            "name": "Crimson Miasma Spike",
+            "qty": 9,
+            "rar": 5,
+            "kind": "weekly",
+            "icon": "../../Database/GameData/zzz/assets/items/ExBigBoss007.webp",
+            "sprite": "../../Database/GameData/zzz/assets/items/ExBigBoss007.webp",
+            "source": "Corrupted Wandering Hunter",
+            "sourceDetails": [
+              {
+                "name": "Wandering Hunter",
+                "icon": "../../Database/GameData/zzz/assets/monsters/Monster_WanderingHunter.webp"
+              }
+            ]
+          },
+          {
+            "id": "110512",
+            "name": "Higher Dimensional Data: Corrupted Dreamsteel",
+            "qty": 60,
+            "rar": 4,
+            "kind": "boss",
+            "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss012.webp",
+            "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss012.webp",
+            "source": "Miasmic Doppelganger - Komano Manato / Expert Challenge",
+            "sourceDetails": [
+              {
+                "name": "Doppelganger Komano Manato",
+                "icon": "../../Database/GameData/zzz/assets/monsters/Monster_NoranoEgo_Slime.webp"
+              },
+              {
+                "name": "Expert Challenge"
+              }
+            ]
+          }
+        ],
+        "talentStages": [
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100112",
+                  "name": "Basic Freeze Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100112",
+                  "name": "Basic Freeze Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/GameData/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100112",
+                  "name": "Basic Freeze Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100112",
+                  "name": "Basic Freeze Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/GameData/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100112",
+                  "name": "Basic Freeze Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100112",
+                  "name": "Basic Freeze Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/GameData/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100112",
+                  "name": "Basic Freeze Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100112",
+                  "name": "Basic Freeze Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/GameData/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100112",
+                  "name": "Basic Freeze Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100112",
+                  "name": "Basic Freeze Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/GameData/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 5000,
+              "items": []
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "110512",
+                  "name": "Higher Dimensional Data: Corrupted Dreamsteel",
+                  "qty": 2,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss012.webp",
+                  "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss012.webp",
+                  "source": "Miasmic Doppelganger - Komano Manato / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Doppelganger Komano Manato",
+                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_NoranoEgo_Slime.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 28000,
+              "items": [
+                {
+                  "id": "110512",
+                  "name": "Higher Dimensional Data: Corrupted Dreamsteel",
+                  "qty": 4,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss012.webp",
+                  "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss012.webp",
+                  "source": "Miasmic Doppelganger - Komano Manato / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Doppelganger Komano Manato",
+                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_NoranoEgo_Slime.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 60000,
+              "items": [
+                {
+                  "id": "110007",
+                  "name": "Crimson Miasma Spike",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/zzz/assets/items/ExBigBoss007.webp",
+                  "sprite": "../../Database/GameData/zzz/assets/items/ExBigBoss007.webp",
+                  "source": "Corrupted Wandering Hunter",
+                  "sourceDetails": [
+                    {
+                      "name": "Wandering Hunter",
+                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_WanderingHunter.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "110512",
+                  "name": "Higher Dimensional Data: Corrupted Dreamsteel",
+                  "qty": 9,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss012.webp",
+                  "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss012.webp",
+                  "source": "Miasmic Doppelganger - Komano Manato / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Doppelganger Komano Manato",
+                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_NoranoEgo_Slime.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 100000,
+              "items": [
+                {
+                  "id": "110007",
+                  "name": "Crimson Miasma Spike",
+                  "qty": 3,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/zzz/assets/items/ExBigBoss007.webp",
+                  "sprite": "../../Database/GameData/zzz/assets/items/ExBigBoss007.webp",
+                  "source": "Corrupted Wandering Hunter",
+                  "sourceDetails": [
+                    {
+                      "name": "Wandering Hunter",
+                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_WanderingHunter.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "110512",
+                  "name": "Higher Dimensional Data: Corrupted Dreamsteel",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss012.webp",
+                  "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss012.webp",
+                  "source": "Miasmic Doppelganger - Komano Manato / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Doppelganger Komano Manato",
+                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_NoranoEgo_Slime.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 200000,
+              "items": [
+                {
+                  "id": "110007",
+                  "name": "Crimson Miasma Spike",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/zzz/assets/items/ExBigBoss007.webp",
+                  "sprite": "../../Database/GameData/zzz/assets/items/ExBigBoss007.webp",
+                  "source": "Corrupted Wandering Hunter",
+                  "sourceDetails": [
+                    {
+                      "name": "Wandering Hunter",
+                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_WanderingHunter.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "110512",
+                  "name": "Higher Dimensional Data: Corrupted Dreamsteel",
+                  "qty": 30,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss012.webp",
+                  "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss012.webp",
+                  "source": "Miasmic Doppelganger - Komano Manato / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Doppelganger Komano Manato",
+                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_NoranoEgo_Slime.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        ],
+        "ascCost": 800000,
+        "talentCost": 2905000,
+        "currency": 3705000
+      },
+      "recent": 1,
+      "recentFallback": 1
+    },
+    {
       "id": "zzz-alice",
       "n": "Alice",
       "localizedNames": {
@@ -44222,9 +48297,7 @@
           ],
           "cost": 400000
         }
-      },
-      "recent": 1,
-      "recentFallback": 1
+      }
     },
     {
       "id": "zzz-evelyn",
@@ -197414,11 +201487,15 @@
       },
       "title": "Little Boars, Coming Right Up",
       "slug": "lucy",
+      "release": 1720051200000,
       "releasePatch": "1.0",
       "updated": 1785283200000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "Courtney Lin"
+        "english": "imdb:nm4716053|Elsie Lovelock",
+        "japanese": "Ayaka Asai|Asai Ayaka (\u671d\u4e95 \u5f69\u52a0)",
+        "chinese": "https://zh.moegirl.org.cn/zh/\u95f2\u8e0f\u68a7\u6850|Xian Ta Wutong (\u95f2\u8e0f\u68a7\u6850)",
+        "korean": "Kim Mi-so (\uae40\ubbf8\uc18c)"
       },
       "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle27.webp",
       "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole27.webp",
@@ -225911,4079 +229988,6 @@
           ],
           "cost": 320000
         }
-      }
-    },
-    {
-      "id": "zzz-sigrid",
-      "n": "Sigrid",
-      "localizedNames": {
-        "en": "Sigrid",
-        "zh": "\u5e0c\u683c\u8389\u5fb7",
-        "ja": "\u30b7\u30b0\u30ea\u30c3\u30c9",
-        "ko": "\uc2dc\uadf8\ub9ac\ub4dc"
-      },
-      "slug": "sigrid",
-      "releasePatch": "2.7",
-      "updated": 1781913600000,
-      "sourceOrder": 0,
-      "voiceActors": {
-        "english": "imdb:nm8792229|Dani Chambers",
-        "japanese": "Y\u016bko Kaida|Kaida Y\u016bko (\u7532\u6590\u7530 \u88d5\u5b50)",
-        "chinese": "https://zh.moegirl.org.cn/\u8d3a\u82e5\u5e06|He Ruofan (\u8d3a\u82e5\u5e06)",
-        "korean": "https://namu.wiki/w/\uac15\ud574\ub098|Kang Hae-na (\uac15\ud574\ub098)"
-      },
-      "icon": "../../Database/Prydwen/zzz/assets/characters/sigrid-30ecebbe136b.webp",
-      "portraitProvenance": {
-        "status": "announced",
-        "sourceUrl": "https://www.hoyolab.com/article_pre/18014398241023132"
-      },
-      "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole66.webp",
-      "card": "../../Database/Prydwen/zzz/assets/characters/sigrid-30ecebbe136b.webp",
-      "status": "beta",
-      "labels": [
-        "3.1"
-      ],
-      "r": "S",
-      "el": "Ice",
-      "spec": "Attack",
-      "tag": "Unknown",
-      "baseStats": {
-        "level1": {
-          "hp": 626,
-          "atk": 135,
-          "def": 49,
-          "critRate": 0.05,
-          "critDmg": 0.5,
-          "impact": 93,
-          "anomalyProficiency": 92,
-          "anomalyMastery": 90
-        },
-        "max": {
-          "level": 60,
-          "hp": 7788.7,
-          "atk": 863.21,
-          "def": 606.6,
-          "critRate": 0.05,
-          "critDmg": 0.5,
-          "impact": 93,
-          "anomalyProficiency": 92,
-          "anomalyMastery": 90
-        },
-        "levels": [
-          {
-            "label": "Lv. 1/10",
-            "level": 1,
-            "cap": 10,
-            "hp": 626,
-            "atk": 135,
-            "def": 49,
-            "critRate": 0.05,
-            "critDmg": 0.5,
-            "impact": 93,
-            "anomalyProficiency": 92,
-            "anomalyMastery": 90
-          },
-          {
-            "label": "Lv. 10/20",
-            "level": 10,
-            "cap": 20,
-            "hp": 1820.8,
-            "atk": 257.32,
-            "def": 141.58,
-            "critRate": 0.05,
-            "critDmg": 0.5,
-            "impact": 93,
-            "anomalyProficiency": 92,
-            "anomalyMastery": 90
-          },
-          {
-            "label": "Lv. 20/30",
-            "level": 20,
-            "cap": 30,
-            "hp": 3099.58,
-            "atk": 387.9,
-            "def": 241.79,
-            "critRate": 0.05,
-            "critDmg": 0.5,
-            "impact": 93,
-            "anomalyProficiency": 92,
-            "anomalyMastery": 90
-          },
-          {
-            "label": "Lv. 30/40",
-            "level": 30,
-            "cap": 40,
-            "hp": 4379.36,
-            "atk": 519.48,
-            "def": 340.99,
-            "critRate": 0.05,
-            "critDmg": 0.5,
-            "impact": 93,
-            "anomalyProficiency": 92,
-            "anomalyMastery": 90
-          },
-          {
-            "label": "Lv. 40/50",
-            "level": 40,
-            "cap": 50,
-            "hp": 5659.14,
-            "atk": 650.05,
-            "def": 441.19,
-            "critRate": 0.05,
-            "critDmg": 0.5,
-            "impact": 93,
-            "anomalyProficiency": 92,
-            "anomalyMastery": 90
-          },
-          {
-            "label": "Lv. 50/60",
-            "level": 50,
-            "cap": 60,
-            "hp": 6938.92,
-            "atk": 780.63,
-            "def": 540.39,
-            "critRate": 0.05,
-            "critDmg": 0.5,
-            "impact": 93,
-            "anomalyProficiency": 92,
-            "anomalyMastery": 90
-          },
-          {
-            "label": "Lv. 60/60",
-            "level": 60,
-            "cap": 60,
-            "hp": 7788.7,
-            "atk": 863.21,
-            "def": 606.6,
-            "critRate": 0.05,
-            "critDmg": 0.5,
-            "impact": 93,
-            "anomalyProficiency": 92,
-            "anomalyMastery": 90
-          }
-        ]
-      },
-      "facts": {
-        "fullName": "Sigrid de L'Azur",
-        "faction": "Roscaelifer",
-        "birthday": "April 23"
-      },
-      "skillIcons": [
-        "../../Database/GameData/zzz/assets/skills/Icon_Normal.webp",
-        "../../Database/GameData/zzz/assets/skills/Icon_Evade.webp",
-        "../../Database/GameData/zzz/assets/skills/Icon_Switch.webp",
-        "../../Database/GameData/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
-        "../../Database/GameData/zzz/assets/skills/Icon_UltimateReady.webp"
-      ],
-      "kit": {
-        "source": "Game data",
-        "channel": "beta",
-        "version": "3.2.3+18244196",
-        "sections": [
-          {
-            "title": "Skills",
-            "entries": [
-              {
-                "name": "Basic Attack: Frost-Tipped Spear",
-                "type": "Basic",
-                "desc": "Press to activate:\nLaunches up to four forward slashes, dealing Ice DMG.\nThe 4th hit of Basic Attack: Frost-Tipped Spear is considered an attack.",
-                "descFormat": [
-                  {
-                    "start": 64,
-                    "end": 71,
-                    "kind": "tone",
-                    "tone": "cryo"
-                  },
-                  {
-                    "start": 88,
-                    "end": 120,
-                    "kind": "tone",
-                    "tone": "cryo"
-                  }
-                ],
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "1st-Hit DMG Multiplier",
-                        "values": [
-                          "77%",
-                          "84%",
-                          "91%",
-                          "98%",
-                          "105%",
-                          "112%",
-                          "119%",
-                          "126%",
-                          "133%",
-                          "140%",
-                          "147%",
-                          "154%"
-                        ]
-                      },
-                      {
-                        "label": "2nd-Hit DMG Multiplier",
-                        "values": [
-                          "143.8%",
-                          "156.9%",
-                          "170%",
-                          "183.1%",
-                          "196.2%",
-                          "209.3%",
-                          "222.4%",
-                          "235.5%",
-                          "248.6%",
-                          "261.7%",
-                          "274.8%",
-                          "287.9%"
-                        ]
-                      },
-                      {
-                        "label": "3rd-Hit DMG Multiplier",
-                        "values": [
-                          "101.4%",
-                          "110.7%",
-                          "120%",
-                          "129.3%",
-                          "138.6%",
-                          "147.9%",
-                          "157.2%",
-                          "166.5%",
-                          "175.8%",
-                          "185.1%",
-                          "194.4%",
-                          "203.7%"
-                        ]
-                      },
-                      {
-                        "label": "4th-Hit DMG Multiplier",
-                        "values": [
-                          "221%",
-                          "241.1%",
-                          "261.2%",
-                          "281.3%",
-                          "301.4%",
-                          "321.5%",
-                          "341.6%",
-                          "361.7%",
-                          "381.8%",
-                          "401.9%",
-                          "422%",
-                          "442.1%"
-                        ]
-                      },
-                      {
-                        "label": "1st-Hit Daze Multiplier",
-                        "values": [
-                          "45.4%",
-                          "47.5%",
-                          "49.6%",
-                          "51.7%",
-                          "53.8%",
-                          "55.9%",
-                          "58%",
-                          "60.1%",
-                          "62.2%",
-                          "64.3%",
-                          "66.4%",
-                          "68.5%"
-                        ]
-                      },
-                      {
-                        "label": "2nd-Hit Daze Multiplier",
-                        "values": [
-                          "88.7%",
-                          "92.8%",
-                          "96.9%",
-                          "101%",
-                          "105.1%",
-                          "109.2%",
-                          "113.3%",
-                          "117.4%",
-                          "121.5%",
-                          "125.6%",
-                          "129.7%",
-                          "133.8%"
-                        ]
-                      },
-                      {
-                        "label": "3rd-Hit Daze Multiplier",
-                        "values": [
-                          "55.8%",
-                          "58.4%",
-                          "61%",
-                          "63.6%",
-                          "66.2%",
-                          "68.8%",
-                          "71.4%",
-                          "74%",
-                          "76.6%",
-                          "79.2%",
-                          "81.8%",
-                          "84.4%"
-                        ]
-                      },
-                      {
-                        "label": "4th-Hit Daze Multiplier",
-                        "values": [
-                          "138.5%",
-                          "144.8%",
-                          "151.1%",
-                          "157.4%",
-                          "163.7%",
-                          "170%",
-                          "176.3%",
-                          "182.6%",
-                          "188.9%",
-                          "195.2%",
-                          "201.5%",
-                          "207.8%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Basic Attack: Converging Spear",
-                "type": "Basic",
-                "desc": "While in the state and Basic Attack: Converging Spear can be used, hold to activate:\nLaunches the corresponding Basic Attack: Converging Spear based on the current stage, dealing Ice DMG.\nBasic Attack: Converging Spear has three stages. Each use advances it to the next stage. After performing the third stage of Basic Attack: Converging Spear, it resets to the first stage.\nIf Sigrid is attacked while charging the 1st or 2nd stage of Basic Attack: Converging Spear, she blocks with her shield. On a successful block, the attack's DMG is negated, the next Basic Attack: Converging Spear deals 100% more Daze, the state is refreshed, and she gains one use of Basic Attack: Converging Spear. Press after a successful block to perform the corresponding stage of Basic Attack: Converging Spear.\nBasic Attack: Converging Spear performed after Basic Attack: Frost-Tipped Spear retains the current stage of Basic Attack: Frost-Tipped Spear.\nDMG taken is reduced by 60% during this skill.\nAnti-Interrupt level is increased while using this skill.\nCharacter is invulnerable during the third stage of Basic Attack: Converging Spear.",
-                "descFormat": [
-                  {
-                    "start": 23,
-                    "end": 53,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 112,
-                    "end": 142,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 179,
-                    "end": 186,
-                    "kind": "tone",
-                    "tone": "cryo"
-                  },
-                  {
-                    "start": 188,
-                    "end": 218,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 313,
-                    "end": 343,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 436,
-                    "end": 466,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 557,
-                    "end": 587,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 659,
-                    "end": 689,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 760,
-                    "end": 790,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 792,
-                    "end": 822,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 839,
-                    "end": 871,
-                    "kind": "tone",
-                    "tone": "cryo"
-                  },
-                  {
-                    "start": 901,
-                    "end": 933,
-                    "kind": "tone",
-                    "tone": "cryo"
-                  },
-                  {
-                    "start": 1092,
-                    "end": 1122,
-                    "kind": "tone",
-                    "tone": "accent"
-                  }
-                ]
-              },
-              {
-                "name": "Basic Attack: Converging Spear 1st Stage",
-                "type": "Basic",
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "358.3%",
-                          "390.9%",
-                          "423.5%",
-                          "456.1%",
-                          "488.7%",
-                          "521.3%",
-                          "553.9%",
-                          "586.5%",
-                          "619.1%",
-                          "651.7%",
-                          "684.3%",
-                          "716.9%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "86.3%",
-                          "90.3%",
-                          "94.3%",
-                          "98.3%",
-                          "102.3%",
-                          "106.3%",
-                          "110.3%",
-                          "114.3%",
-                          "118.3%",
-                          "122.3%",
-                          "126.3%",
-                          "130.3%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Basic Attack: Converging Spear 2nd Stage",
-                "type": "Basic",
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "609.1%",
-                          "664.5%",
-                          "719.9%",
-                          "775.3%",
-                          "830.7%",
-                          "886.1%",
-                          "941.5%",
-                          "996.9%",
-                          "1052.3%",
-                          "1107.7%",
-                          "1163.1%",
-                          "1218.5%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "143.1%",
-                          "149.7%",
-                          "156.3%",
-                          "162.9%",
-                          "169.5%",
-                          "176.1%",
-                          "182.7%",
-                          "189.3%",
-                          "195.9%",
-                          "202.5%",
-                          "209.1%",
-                          "215.7%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Basic Attack: Converging Spear 3rd Stage",
-                "type": "Basic",
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "814.6%",
-                          "888.7%",
-                          "962.8%",
-                          "1036.9%",
-                          "1111%",
-                          "1185.1%",
-                          "1259.2%",
-                          "1333.3%",
-                          "1407.4%",
-                          "1481.5%",
-                          "1555.6%",
-                          "1629.7%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "196.2%",
-                          "205.2%",
-                          "214.2%",
-                          "223.2%",
-                          "232.2%",
-                          "241.2%",
-                          "250.2%",
-                          "259.2%",
-                          "268.2%",
-                          "277.2%",
-                          "286.2%",
-                          "295.2%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Dodge: Cloudstep",
-                "type": "Dodge",
-                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
-              },
-              {
-                "name": "Dash Attack: Windchase",
-                "type": "Dodge",
-                "desc": "Press during a dodge to activate:\nPerforms a forward cleaving slash, dealing Physical DMG.",
-                "descFormat": [
-                  {
-                    "start": 77,
-                    "end": 89,
-                    "kind": "tone",
-                    "tone": "physical"
-                  }
-                ],
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "119%",
-                          "129.9%",
-                          "140.8%",
-                          "151.7%",
-                          "162.6%",
-                          "173.5%",
-                          "184.4%",
-                          "195.3%",
-                          "206.2%",
-                          "217.1%",
-                          "228%",
-                          "238.9%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "46.8%",
-                          "49%",
-                          "51.2%",
-                          "53.4%",
-                          "55.6%",
-                          "57.8%",
-                          "60%",
-                          "62.2%",
-                          "64.4%",
-                          "66.6%",
-                          "68.8%",
-                          "71%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Dodge Counter: Counterthrust",
-                "type": "Dodge",
-                "desc": "Press during a Perfect Dodge to activate:\nCondenses frost around the spearhead before unleashing a powerful counterattack, dealing Ice DMG.\nWhen performed after Basic Attack: Frost-Tipped Spear, Dodge Counter: Counterthrust retains the current stage of Basic Attack: Frost-Tipped Spear.\nThis skill is considered an attack.\nCharacter is invulnerable while using this skill.",
-                "descFormat": [
-                  {
-                    "start": 15,
-                    "end": 28,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 131,
-                    "end": 138,
-                    "kind": "tone",
-                    "tone": "cryo"
-                  },
-                  {
-                    "start": 161,
-                    "end": 193,
-                    "kind": "tone",
-                    "tone": "cryo"
-                  },
-                  {
-                    "start": 195,
-                    "end": 223,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 253,
-                    "end": 285,
-                    "kind": "tone",
-                    "tone": "cryo"
-                  }
-                ],
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "243.1%",
-                          "265.2%",
-                          "287.3%",
-                          "309.4%",
-                          "331.5%",
-                          "353.6%",
-                          "375.7%",
-                          "397.8%",
-                          "419.9%",
-                          "442%",
-                          "464.1%",
-                          "486.2%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "172.3%",
-                          "180.2%",
-                          "188.1%",
-                          "196%",
-                          "203.9%",
-                          "211.8%",
-                          "219.7%",
-                          "227.6%",
-                          "235.5%",
-                          "243.4%",
-                          "251.3%",
-                          "259.2%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Quick Assist: Iron Sentinel",
-                "type": "Assist",
-                "desc": "When the active character is launched, press to activate:\nCondenses ice before lunging forward, dealing Ice DMG.\nCharacter is invulnerable while using this skill.",
-                "descFormat": [
-                  {
-                    "start": 104,
-                    "end": 111,
-                    "kind": "tone",
-                    "tone": "cryo"
-                  }
-                ],
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "39.7%",
-                          "43.4%",
-                          "47.1%",
-                          "50.8%",
-                          "54.5%",
-                          "58.2%",
-                          "61.9%",
-                          "65.6%",
-                          "69.3%",
-                          "73%",
-                          "76.7%",
-                          "80.4%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "31.2%",
-                          "32.7%",
-                          "34.2%",
-                          "35.7%",
-                          "37.2%",
-                          "38.7%",
-                          "40.2%",
-                          "41.7%",
-                          "43.2%",
-                          "44.7%",
-                          "46.2%",
-                          "47.7%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Defensive Assist: Dauntless Cold",
-                "type": "Assist",
-                "desc": "When the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill.",
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "Light Defensive Daze Multiplier",
-                        "values": [
-                          "271.3%",
-                          "283.7%",
-                          "296.1%",
-                          "308.5%",
-                          "320.9%",
-                          "333.3%",
-                          "345.7%",
-                          "358.1%",
-                          "370.5%",
-                          "382.9%",
-                          "395.3%",
-                          "407.7%"
-                        ]
-                      },
-                      {
-                        "label": "Heavy Defensive Daze Multiplier",
-                        "values": [
-                          "342.8%",
-                          "358.4%",
-                          "374%",
-                          "389.6%",
-                          "405.2%",
-                          "420.8%",
-                          "436.4%",
-                          "452%",
-                          "467.6%",
-                          "483.2%",
-                          "498.8%",
-                          "514.4%"
-                        ]
-                      },
-                      {
-                        "label": "Chain Defensive Daze Multiplier",
-                        "values": [
-                          "166.8%",
-                          "174.4%",
-                          "182%",
-                          "189.6%",
-                          "197.2%",
-                          "204.8%",
-                          "212.4%",
-                          "220%",
-                          "227.6%",
-                          "235.2%",
-                          "242.8%",
-                          "250.4%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Assist Follow-Up: Devouring Frost",
-                "type": "Assist",
-                "desc": "Press after a Defensive Assist to activate:\nSwings the spear upward before following with a powerful downward attack, dealing massive Ice DMG.\nThis skill is considered an attack.\nCharacter is invulnerable while using this skill.",
-                "descFormat": [
-                  {
-                    "start": 14,
-                    "end": 30,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 134,
-                    "end": 141,
-                    "kind": "tone",
-                    "tone": "cryo"
-                  }
-                ],
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "514.9%",
-                          "561.8%",
-                          "608.7%",
-                          "655.6%",
-                          "702.5%",
-                          "749.4%",
-                          "796.3%",
-                          "843.2%",
-                          "890.1%",
-                          "937%",
-                          "983.9%",
-                          "1030.8%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "353.8%",
-                          "369.9%",
-                          "386%",
-                          "402.1%",
-                          "418.2%",
-                          "434.3%",
-                          "450.4%",
-                          "466.5%",
-                          "482.6%",
-                          "498.7%",
-                          "514.8%",
-                          "530.9%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Special Attack: Frostflower",
-                "type": "Special",
-                "desc": "Press to activate:\nPerforms three forward thrusts, dealing Ice DMG.\nAnti-Interrupt level is increased while using this skill.",
-                "descFormat": [
-                  {
-                    "start": 59,
-                    "end": 66,
-                    "kind": "tone",
-                    "tone": "cryo"
-                  }
-                ],
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "53.7%",
-                          "58.6%",
-                          "63.5%",
-                          "68.4%",
-                          "73.3%",
-                          "78.2%",
-                          "83.1%",
-                          "88%",
-                          "92.9%",
-                          "97.8%",
-                          "102.7%",
-                          "107.6%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "42.2%",
-                          "44.2%",
-                          "46.2%",
-                          "48.2%",
-                          "50.2%",
-                          "52.2%",
-                          "54.2%",
-                          "56.2%",
-                          "58.2%",
-                          "60.2%",
-                          "62.2%",
-                          "64.2%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "EX Special Attack: Scattered Jade",
-                "type": "Special",
-                "desc": "With enough Energy and while not in the state, press to activate:\nPerforms a series of powerful stabs ahead, dealing massive Ice DMG.\nThis skill is considered an attack.\nCharacter is invulnerable while using this skill.",
-                "descFormat": [
-                  {
-                    "start": 125,
-                    "end": 132,
-                    "kind": "tone",
-                    "tone": "cryo"
-                  }
-                ],
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "438.8%",
-                          "478.7%",
-                          "518.6%",
-                          "558.5%",
-                          "598.4%",
-                          "638.3%",
-                          "678.2%",
-                          "718.1%",
-                          "758%",
-                          "797.9%",
-                          "837.8%",
-                          "877.7%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "274.3%",
-                          "286.8%",
-                          "299.3%",
-                          "311.8%",
-                          "324.3%",
-                          "336.8%",
-                          "349.3%",
-                          "361.8%",
-                          "374.3%",
-                          "386.8%",
-                          "399.3%",
-                          "411.8%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "EX Special Attack: Shattered Jade",
-                "type": "Special",
-                "desc": "With enough Energy and while in the state, press to activate:\nPerforms a series of powerful lunging stabs ahead, dealing massive Ice DMG.\nThis skill is considered an attack.\nCharacter is invulnerable while using this skill.",
-                "descFormat": [
-                  {
-                    "start": 129,
-                    "end": 136,
-                    "kind": "tone",
-                    "tone": "cryo"
-                  }
-                ],
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "1047.8%",
-                          "1143.1%",
-                          "1238.4%",
-                          "1333.7%",
-                          "1429%",
-                          "1524.3%",
-                          "1619.6%",
-                          "1714.9%",
-                          "1810.2%",
-                          "1905.5%",
-                          "2000.8%",
-                          "2096.1%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "362.6%",
-                          "379.1%",
-                          "395.6%",
-                          "412.1%",
-                          "428.6%",
-                          "445.1%",
-                          "461.6%",
-                          "478.1%",
-                          "494.6%",
-                          "511.1%",
-                          "527.6%",
-                          "544.1%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Chain Attack: Encroaching Ice",
-                "type": "Chain",
-                "desc": "When a Chain Attack is triggered, select the character to activate:\nPerforms a powerful piercing attack against enemies ahead, dealing massive Ice DMG.\nUpon activating this skill, gains the Tempered effect, increasing the DMG dealt by subsequent Basic Attack: Converging Spear attacks by 20% for 50s.\nWhen the current skill hits a Stunned elite or boss enemy for the first time, the current stage of Basic Attack: Converging Spear is recorded and then reset before entering the state. While in , 's duration will not be reduced. Hold to continuously activate the 1st through 3rd stage of Basic Attack: Converging Spear. After activating the 3rd stage of Basic Attack: Converging Spear, ends and Basic Attack: Converging Spear's stage is restored to the recorded stage.\n can trigger at most once against the same target before the target recovers from Stun.\nThis skill is considered an attack.\nWhile in the state, Basic Attack: Converging Spear does not trigger the Chain Attack window when hitting Stunned enemies.\nCharacter is invulnerable while using this skill.",
-                "descFormat": [
-                  {
-                    "start": 7,
-                    "end": 19,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 143,
-                    "end": 150,
-                    "kind": "tone",
-                    "tone": "cryo"
-                  },
-                  {
-                    "start": 190,
-                    "end": 198,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 246,
-                    "end": 276,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 400,
-                    "end": 430,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 588,
-                    "end": 618,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 654,
-                    "end": 684,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 695,
-                    "end": 725,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 913,
-                    "end": 943,
-                    "kind": "tone",
-                    "tone": "accent"
-                  }
-                ],
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "943.7%",
-                          "1029.5%",
-                          "1115.3%",
-                          "1201.1%",
-                          "1286.9%",
-                          "1372.7%",
-                          "1458.5%",
-                          "1544.3%",
-                          "1630.1%",
-                          "1715.9%",
-                          "1801.7%",
-                          "1887.5%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "137.6%",
-                          "143.9%",
-                          "150.2%",
-                          "156.5%",
-                          "162.8%",
-                          "169.1%",
-                          "175.4%",
-                          "181.7%",
-                          "188%",
-                          "194.3%",
-                          "200.6%",
-                          "206.9%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Ultimate: Frozen Heavens",
-                "type": "Chain",
-                "desc": "When Decibel Rating is at Maximum, press to activate:\nGathers the power of extreme cold before unleashing a devastating series of lunging attacks, dealing massive Ice DMG.\nThis skill is considered an attack.\nCharacter is invulnerable while using this skill.",
-                "descFormat": [
-                  {
-                    "start": 26,
-                    "end": 33,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 163,
-                    "end": 170,
-                    "kind": "tone",
-                    "tone": "cryo"
-                  }
-                ],
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "2189.8%",
-                          "2388.9%",
-                          "2588%",
-                          "2787.1%",
-                          "2986.2%",
-                          "3185.3%",
-                          "3384.4%",
-                          "3583.5%",
-                          "3782.6%",
-                          "3981.7%",
-                          "4180.8%",
-                          "4379.9%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "265.8%",
-                          "277.9%",
-                          "290%",
-                          "302.1%",
-                          "314.2%",
-                          "326.3%",
-                          "338.4%",
-                          "350.5%",
-                          "362.6%",
-                          "374.7%",
-                          "386.8%",
-                          "398.9%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "title": "Core Skill",
-            "entries": [
-              {
-                "name": "Core Passive: Sky Knight",
-                "type": "Core Passive",
-                "desc": "The 4th hit of the Basic Attack, the EX Special Attack, Assist Follow-Up, Chain Attack, Ultimate, and Dodge Counter are considered attacks.\nWhenever Sigrid uses and hits an enemy with any in combat while not in the state, she enters the state and gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhile in the state, when Sigrid hits an enemy with an skill, the state is refreshed and she gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhen triggering or refreshing , its duration decreases as the stage of Basic Attack: Converging Spear increases. At stage 1/2/3, its duration is 8/7/6s.\nWhen ends, the stage of Basic Attack: Converging Spear is reduced by one, to a minimum of stage 1.\nActivating or refreshing increases Sigrid's CRIT Rate by 66% for 8s. Repeated triggers extend the duration by 8s, up to a maximum of 40s.\nWhen Sigrid hits a Stunned enemy while in , the Stun DMG Multiplier of her DMG dealt to the target is increased by 20%.",
-                "descFormat": [
-                  {
-                    "start": 19,
-                    "end": 31,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 37,
-                    "end": 54,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 56,
-                    "end": 72,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 74,
-                    "end": 86,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 88,
-                    "end": 96,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 102,
-                    "end": 115,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 262,
-                    "end": 292,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 424,
-                    "end": 454,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 550,
-                    "end": 580,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 624,
-                    "end": 625,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 626,
-                    "end": 627,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 628,
-                    "end": 629,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 656,
-                    "end": 686,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 788,
-                    "end": 791,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 796,
-                    "end": 797,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 841,
-                    "end": 842,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 864,
-                    "end": 866,
-                    "kind": "tone",
-                    "tone": "accent"
-                  }
-                ],
-                "levels": [
-                  {
-                    "label": "Lv. 1",
-                    "text": "The 4th hit of the Basic Attack, the EX Special Attack, Assist Follow-Up, Chain Attack, Ultimate, and Dodge Counter are considered attacks.\nWhenever Sigrid uses and hits an enemy with any in combat while not in the state, she enters the state and gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhile in the state, when Sigrid hits an enemy with an skill, the state is refreshed and she gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhen triggering or refreshing , its duration decreases as the stage of Basic Attack: Converging Spear increases. At stage 1/2/3, its duration is 8/7/6s.\nWhen ends, the stage of Basic Attack: Converging Spear is reduced by one, to a minimum of stage 1.\nActivating or refreshing increases Sigrid's CRIT Rate by 33% for 8s. Repeated triggers extend the duration by 8s, up to a maximum of 40s.\nWhen Sigrid hits a Stunned enemy while in , the Stun DMG Multiplier of her DMG dealt to the target is increased by 20%.",
-                    "format": [
-                      {
-                        "start": 19,
-                        "end": 31,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 37,
-                        "end": 54,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 56,
-                        "end": 72,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 74,
-                        "end": 86,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 88,
-                        "end": 96,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 102,
-                        "end": 115,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 262,
-                        "end": 292,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 424,
-                        "end": 454,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 550,
-                        "end": 580,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 624,
-                        "end": 625,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 626,
-                        "end": 627,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 628,
-                        "end": 629,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 656,
-                        "end": 686,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 788,
-                        "end": 791,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 796,
-                        "end": 797,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 841,
-                        "end": 842,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 864,
-                        "end": 866,
-                        "kind": "tone",
-                        "tone": "accent"
-                      }
-                    ]
-                  },
-                  {
-                    "label": "Lv. 2",
-                    "text": "The 4th hit of the Basic Attack, the EX Special Attack, Assist Follow-Up, Chain Attack, Ultimate, and Dodge Counter are considered attacks.\nWhenever Sigrid uses and hits an enemy with any in combat while not in the state, she enters the state and gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhile in the state, when Sigrid hits an enemy with an skill, the state is refreshed and she gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhen triggering or refreshing , its duration decreases as the stage of Basic Attack: Converging Spear increases. At stage 1/2/3, its duration is 8/7/6s.\nWhen ends, the stage of Basic Attack: Converging Spear is reduced by one, to a minimum of stage 1.\nActivating or refreshing increases Sigrid's CRIT Rate by 39% for 8s. Repeated triggers extend the duration by 8s, up to a maximum of 40s.\nWhen Sigrid hits a Stunned enemy while in , the Stun DMG Multiplier of her DMG dealt to the target is increased by 20%.",
-                    "format": [
-                      {
-                        "start": 19,
-                        "end": 31,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 37,
-                        "end": 54,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 56,
-                        "end": 72,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 74,
-                        "end": 86,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 88,
-                        "end": 96,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 102,
-                        "end": 115,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 262,
-                        "end": 292,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 424,
-                        "end": 454,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 550,
-                        "end": 580,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 624,
-                        "end": 625,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 626,
-                        "end": 627,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 628,
-                        "end": 629,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 656,
-                        "end": 686,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 788,
-                        "end": 791,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 796,
-                        "end": 797,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 841,
-                        "end": 842,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 864,
-                        "end": 866,
-                        "kind": "tone",
-                        "tone": "accent"
-                      }
-                    ]
-                  },
-                  {
-                    "label": "Lv. 3",
-                    "text": "The 4th hit of the Basic Attack, the EX Special Attack, Assist Follow-Up, Chain Attack, Ultimate, and Dodge Counter are considered attacks.\nWhenever Sigrid uses and hits an enemy with any in combat while not in the state, she enters the state and gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhile in the state, when Sigrid hits an enemy with an skill, the state is refreshed and she gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhen triggering or refreshing , its duration decreases as the stage of Basic Attack: Converging Spear increases. At stage 1/2/3, its duration is 8/7/6s.\nWhen ends, the stage of Basic Attack: Converging Spear is reduced by one, to a minimum of stage 1.\nActivating or refreshing increases Sigrid's CRIT Rate by 44% for 8s. Repeated triggers extend the duration by 8s, up to a maximum of 40s.\nWhen Sigrid hits a Stunned enemy while in , the Stun DMG Multiplier of her DMG dealt to the target is increased by 20%.",
-                    "format": [
-                      {
-                        "start": 19,
-                        "end": 31,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 37,
-                        "end": 54,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 56,
-                        "end": 72,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 74,
-                        "end": 86,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 88,
-                        "end": 96,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 102,
-                        "end": 115,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 262,
-                        "end": 292,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 424,
-                        "end": 454,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 550,
-                        "end": 580,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 624,
-                        "end": 625,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 626,
-                        "end": 627,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 628,
-                        "end": 629,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 656,
-                        "end": 686,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 788,
-                        "end": 791,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 796,
-                        "end": 797,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 841,
-                        "end": 842,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 864,
-                        "end": 866,
-                        "kind": "tone",
-                        "tone": "accent"
-                      }
-                    ]
-                  },
-                  {
-                    "label": "Lv. 4",
-                    "text": "The 4th hit of the Basic Attack, the EX Special Attack, Assist Follow-Up, Chain Attack, Ultimate, and Dodge Counter are considered attacks.\nWhenever Sigrid uses and hits an enemy with any in combat while not in the state, she enters the state and gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhile in the state, when Sigrid hits an enemy with an skill, the state is refreshed and she gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhen triggering or refreshing , its duration decreases as the stage of Basic Attack: Converging Spear increases. At stage 1/2/3, its duration is 8/7/6s.\nWhen ends, the stage of Basic Attack: Converging Spear is reduced by one, to a minimum of stage 1.\nActivating or refreshing increases Sigrid's CRIT Rate by 50% for 8s. Repeated triggers extend the duration by 8s, up to a maximum of 40s.\nWhen Sigrid hits a Stunned enemy while in , the Stun DMG Multiplier of her DMG dealt to the target is increased by 20%.",
-                    "format": [
-                      {
-                        "start": 19,
-                        "end": 31,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 37,
-                        "end": 54,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 56,
-                        "end": 72,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 74,
-                        "end": 86,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 88,
-                        "end": 96,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 102,
-                        "end": 115,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 262,
-                        "end": 292,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 424,
-                        "end": 454,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 550,
-                        "end": 580,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 624,
-                        "end": 625,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 626,
-                        "end": 627,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 628,
-                        "end": 629,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 656,
-                        "end": 686,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 788,
-                        "end": 791,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 796,
-                        "end": 797,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 841,
-                        "end": 842,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 864,
-                        "end": 866,
-                        "kind": "tone",
-                        "tone": "accent"
-                      }
-                    ]
-                  },
-                  {
-                    "label": "Lv. 5",
-                    "text": "The 4th hit of the Basic Attack, the EX Special Attack, Assist Follow-Up, Chain Attack, Ultimate, and Dodge Counter are considered attacks.\nWhenever Sigrid uses and hits an enemy with any in combat while not in the state, she enters the state and gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhile in the state, when Sigrid hits an enemy with an skill, the state is refreshed and she gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhen triggering or refreshing , its duration decreases as the stage of Basic Attack: Converging Spear increases. At stage 1/2/3, its duration is 8/7/6s.\nWhen ends, the stage of Basic Attack: Converging Spear is reduced by one, to a minimum of stage 1.\nActivating or refreshing increases Sigrid's CRIT Rate by 55% for 8s. Repeated triggers extend the duration by 8s, up to a maximum of 40s.\nWhen Sigrid hits a Stunned enemy while in , the Stun DMG Multiplier of her DMG dealt to the target is increased by 20%.",
-                    "format": [
-                      {
-                        "start": 19,
-                        "end": 31,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 37,
-                        "end": 54,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 56,
-                        "end": 72,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 74,
-                        "end": 86,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 88,
-                        "end": 96,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 102,
-                        "end": 115,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 262,
-                        "end": 292,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 424,
-                        "end": 454,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 550,
-                        "end": 580,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 624,
-                        "end": 625,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 626,
-                        "end": 627,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 628,
-                        "end": 629,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 656,
-                        "end": 686,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 788,
-                        "end": 791,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 796,
-                        "end": 797,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 841,
-                        "end": 842,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 864,
-                        "end": 866,
-                        "kind": "tone",
-                        "tone": "accent"
-                      }
-                    ]
-                  },
-                  {
-                    "label": "Lv. 6",
-                    "text": "The 4th hit of the Basic Attack, the EX Special Attack, Assist Follow-Up, Chain Attack, Ultimate, and Dodge Counter are considered attacks.\nWhenever Sigrid uses and hits an enemy with any in combat while not in the state, she enters the state and gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhile in the state, when Sigrid hits an enemy with an skill, the state is refreshed and she gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhen triggering or refreshing , its duration decreases as the stage of Basic Attack: Converging Spear increases. At stage 1/2/3, its duration is 8/7/6s.\nWhen ends, the stage of Basic Attack: Converging Spear is reduced by one, to a minimum of stage 1.\nActivating or refreshing increases Sigrid's CRIT Rate by 61% for 8s. Repeated triggers extend the duration by 8s, up to a maximum of 40s.\nWhen Sigrid hits a Stunned enemy while in , the Stun DMG Multiplier of her DMG dealt to the target is increased by 20%.",
-                    "format": [
-                      {
-                        "start": 19,
-                        "end": 31,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 37,
-                        "end": 54,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 56,
-                        "end": 72,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 74,
-                        "end": 86,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 88,
-                        "end": 96,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 102,
-                        "end": 115,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 262,
-                        "end": 292,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 424,
-                        "end": 454,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 550,
-                        "end": 580,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 624,
-                        "end": 625,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 626,
-                        "end": 627,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 628,
-                        "end": 629,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 656,
-                        "end": 686,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 788,
-                        "end": 791,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 796,
-                        "end": 797,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 841,
-                        "end": 842,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 864,
-                        "end": 866,
-                        "kind": "tone",
-                        "tone": "accent"
-                      }
-                    ]
-                  },
-                  {
-                    "label": "Lv. 7",
-                    "text": "The 4th hit of the Basic Attack, the EX Special Attack, Assist Follow-Up, Chain Attack, Ultimate, and Dodge Counter are considered attacks.\nWhenever Sigrid uses and hits an enemy with any in combat while not in the state, she enters the state and gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhile in the state, when Sigrid hits an enemy with an skill, the state is refreshed and she gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhen triggering or refreshing , its duration decreases as the stage of Basic Attack: Converging Spear increases. At stage 1/2/3, its duration is 8/7/6s.\nWhen ends, the stage of Basic Attack: Converging Spear is reduced by one, to a minimum of stage 1.\nActivating or refreshing increases Sigrid's CRIT Rate by 66% for 8s. Repeated triggers extend the duration by 8s, up to a maximum of 40s.\nWhen Sigrid hits a Stunned enemy while in , the Stun DMG Multiplier of her DMG dealt to the target is increased by 20%.",
-                    "format": [
-                      {
-                        "start": 19,
-                        "end": 31,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 37,
-                        "end": 54,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 56,
-                        "end": 72,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 74,
-                        "end": 86,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 88,
-                        "end": 96,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 102,
-                        "end": 115,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 262,
-                        "end": 292,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 424,
-                        "end": 454,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 550,
-                        "end": 580,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 624,
-                        "end": 625,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 626,
-                        "end": 627,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 628,
-                        "end": 629,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 656,
-                        "end": 686,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 788,
-                        "end": 791,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 796,
-                        "end": 797,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 841,
-                        "end": 842,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 864,
-                        "end": 866,
-                        "kind": "tone",
-                        "tone": "accent"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Additional Ability: Legion of the Skies",
-                "type": "Additional Ability",
-                "desc": "When another character in your squad is a Support or Stun character:\nSigrid's ATK increases by 120. This effect scales with character level, with each level providing an additional increase of 12, up to a maximum increase of 840.\nDMG increases by 15% when hitting enemies in the Contamination state.",
-                "descFormat": [
-                  {
-                    "start": 42,
-                    "end": 49,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 53,
-                    "end": 57,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 247,
-                    "end": 250,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 279,
-                    "end": 292,
-                    "kind": "tone",
-                    "tone": "accent"
-                  }
-                ],
-                "levels": []
-              }
-            ]
-          },
-          {
-            "title": "Mindscape Cinema",
-            "entries": [
-              {
-                "name": "Long, Long Ago",
-                "type": "Mindscape 1",
-                "desc": "Upon activating the 3rd stage of Basic Attack: Converging Spear, enters the and gains 1 additional activation of Basic Attack: Converging Spear. When activations exceed the stored Basic Attack: Converging Spear's activation limit, the next Basic Attack: Converging Spear's final hit deals an additional 100% of ATK as Ice DMG. Sigrid's ATK increases by 25%.",
-                "descFormat": [
-                  {
-                    "start": 33,
-                    "end": 63,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 113,
-                    "end": 143,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 180,
-                    "end": 210,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 240,
-                    "end": 270,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 303,
-                    "end": 307,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 318,
-                    "end": 325,
-                    "kind": "tone",
-                    "tone": "cryo"
-                  },
-                  {
-                    "start": 336,
-                    "end": 339,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 353,
-                    "end": 356,
-                    "kind": "tone",
-                    "tone": "accent"
-                  }
-                ]
-              },
-              {
-                "name": "Legend's First Act",
-                "type": "Mindscape 2",
-                "desc": "PEN Ratio of attacks and Basic Attack: Converging Spear increases by 24%. The duration of is extended by 2s. Sigrid's Decibel Generation Rate increases by 10%.",
-                "descFormat": [
-                  {
-                    "start": 25,
-                    "end": 55,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 69,
-                    "end": 72,
-                    "kind": "tone",
-                    "tone": "accent"
-                  }
-                ]
-              },
-              {
-                "name": "Protector of Miracles",
-                "type": "Mindscape 3",
-                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2",
-                "descFormat": [
-                  {
-                    "start": 0,
-                    "end": 12,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 14,
-                    "end": 19,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 21,
-                    "end": 27,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 29,
-                    "end": 43,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 49,
-                    "end": 61,
-                    "kind": "tone",
-                    "tone": "accent"
-                  }
-                ]
-              },
-              {
-                "name": "Hero in Training",
-                "type": "Mindscape 4",
-                "desc": "Each time is refreshed, DMG dealt increases by 18% for 8s. Repeated triggers extend the duration by 8s, up to a maximum of 40s.",
-                "descFormat": [
-                  {
-                    "start": 47,
-                    "end": 50,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 55,
-                    "end": 56,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 100,
-                    "end": 101,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 123,
-                    "end": 125,
-                    "kind": "tone",
-                    "tone": "accent"
-                  }
-                ]
-              },
-              {
-                "name": "Skybound Oath",
-                "type": "Mindscape 5",
-                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2",
-                "descFormat": [
-                  {
-                    "start": 0,
-                    "end": 12,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 14,
-                    "end": 19,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 21,
-                    "end": 27,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 29,
-                    "end": 43,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 49,
-                    "end": 61,
-                    "kind": "tone",
-                    "tone": "accent"
-                  }
-                ]
-              },
-              {
-                "name": "Knight of the Skies",
-                "type": "Mindscape 6",
-                "desc": "When Basic Attack: Converging Spear's 1st/2nd/3rd stage's final hit lands, it deals an additional 80%/90%/100% ATK as Ice DMG. There is no more limit on the number of times Sigrid can enter the state upon hitting a Stunned enemy with Chain Attack: Encroaching Ice. state's Basic Attack: Converging Spear will activate faster.",
-                "descFormat": [
-                  {
-                    "start": 5,
-                    "end": 35,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 98,
-                    "end": 101,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 102,
-                    "end": 105,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 106,
-                    "end": 110,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 118,
-                    "end": 125,
-                    "kind": "tone",
-                    "tone": "cryo"
-                  },
-                  {
-                    "start": 234,
-                    "end": 263,
-                    "kind": "tone",
-                    "tone": "cryo"
-                  },
-                  {
-                    "start": 273,
-                    "end": 303,
-                    "kind": "tone",
-                    "tone": "accent"
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      "req": {
-        "ascension": [
-          {
-            "id": "100211",
-            "name": "Basic Attack Certification Seal",
-            "qty": 4,
-            "rar": 1,
-            "kind": "gem",
-            "icon": "../../Database/GameData/zzz/assets/items/AvatarRankDamage01.webp",
-            "source": "Combat Simulation - Agent Promotion",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Promotion"
-              }
-            ]
-          },
-          {
-            "id": "100221",
-            "name": "Advanced Attack Certification Seal",
-            "qty": 32,
-            "rar": 3,
-            "kind": "gem",
-            "icon": "../../Database/GameData/zzz/assets/items/AvatarRankDamage02.webp",
-            "source": "Combat Simulation - Agent Promotion",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Promotion"
-              }
-            ]
-          },
-          {
-            "id": "100231",
-            "name": "Pioneer's Certification Seal",
-            "qty": 30,
-            "rar": 4,
-            "kind": "gem",
-            "icon": "../../Database/GameData/zzz/assets/items/AvatarRankDamage03.webp",
-            "source": "Combat Simulation - Agent Promotion",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Promotion"
-              }
-            ]
-          }
-        ],
-        "ascensionStages": [
-          {
-            "cap": 20,
-            "items": [
-              {
-                "id": "100211",
-                "name": "Basic Attack Certification Seal",
-                "qty": 4,
-                "rar": 1,
-                "kind": "gem",
-                "icon": "../../Database/GameData/zzz/assets/items/AvatarRankDamage01.webp",
-                "source": "Combat Simulation - Agent Promotion",
-                "sourceDetails": [
-                  {
-                    "name": "Combat Simulation - Agent Promotion"
-                  }
-                ]
-              }
-            ],
-            "cost": 24000
-          },
-          {
-            "cap": 30,
-            "items": [
-              {
-                "id": "100221",
-                "name": "Advanced Attack Certification Seal",
-                "qty": 12,
-                "rar": 3,
-                "kind": "gem",
-                "icon": "../../Database/GameData/zzz/assets/items/AvatarRankDamage02.webp",
-                "source": "Combat Simulation - Agent Promotion",
-                "sourceDetails": [
-                  {
-                    "name": "Combat Simulation - Agent Promotion"
-                  }
-                ]
-              }
-            ],
-            "cost": 56000
-          },
-          {
-            "cap": 40,
-            "items": [
-              {
-                "id": "100221",
-                "name": "Advanced Attack Certification Seal",
-                "qty": 20,
-                "rar": 3,
-                "kind": "gem",
-                "icon": "../../Database/GameData/zzz/assets/items/AvatarRankDamage02.webp",
-                "source": "Combat Simulation - Agent Promotion",
-                "sourceDetails": [
-                  {
-                    "name": "Combat Simulation - Agent Promotion"
-                  }
-                ]
-              }
-            ],
-            "cost": 120000
-          },
-          {
-            "cap": 50,
-            "items": [
-              {
-                "id": "100231",
-                "name": "Pioneer's Certification Seal",
-                "qty": 10,
-                "rar": 4,
-                "kind": "gem",
-                "icon": "../../Database/GameData/zzz/assets/items/AvatarRankDamage03.webp",
-                "source": "Combat Simulation - Agent Promotion",
-                "sourceDetails": [
-                  {
-                    "name": "Combat Simulation - Agent Promotion"
-                  }
-                ]
-              }
-            ],
-            "cost": 200000
-          },
-          {
-            "cap": 60,
-            "items": [
-              {
-                "id": "100231",
-                "name": "Pioneer's Certification Seal",
-                "qty": 20,
-                "rar": 4,
-                "kind": "gem",
-                "icon": "../../Database/GameData/zzz/assets/items/AvatarRankDamage03.webp",
-                "source": "Combat Simulation - Agent Promotion",
-                "sourceDetails": [
-                  {
-                    "name": "Combat Simulation - Agent Promotion"
-                  }
-                ]
-              }
-            ],
-            "cost": 400000
-          }
-        ],
-        "talents": [
-          {
-            "id": "100112",
-            "name": "Basic Freeze Chip",
-            "qty": 25,
-            "rar": 1,
-            "kind": "book",
-            "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce01.webp",
-            "source": "Combat Simulation - Agent Skills",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Skills"
-              }
-            ]
-          },
-          {
-            "id": "100122",
-            "name": "Advanced Freeze Chip",
-            "qty": 75,
-            "rar": 3,
-            "kind": "book",
-            "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
-            "source": "Combat Simulation - Agent Skills",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Skills"
-              }
-            ]
-          },
-          {
-            "id": "100132",
-            "name": "Specialized Freeze Chip",
-            "qty": 250,
-            "rar": 4,
-            "kind": "book",
-            "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
-            "source": "Combat Simulation - Agent Skills",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Skills"
-              }
-            ]
-          },
-          {
-            "id": "100941",
-            "name": "Hamster Cage Pass",
-            "qty": 5,
-            "rar": 5,
-            "kind": "crown",
-            "icon": "../../Database/GameData/zzz/assets/items/UltimateSkill.webp",
-            "source": "Event / New Eridu City Fund",
-            "sourceDetails": [
-              {
-                "name": "Event / New Eridu City Fund"
-              }
-            ]
-          },
-          {
-            "id": "110007",
-            "name": "Crimson Miasma Spike",
-            "qty": 9,
-            "rar": 5,
-            "kind": "weekly",
-            "icon": "../../Database/GameData/zzz/assets/items/ExBigBoss007.webp",
-            "sprite": "../../Database/GameData/zzz/assets/items/ExBigBoss007.webp",
-            "source": "Corrupted Wandering Hunter",
-            "sourceDetails": [
-              {
-                "name": "Wandering Hunter",
-                "icon": "../../Database/GameData/zzz/assets/monsters/Monster_WanderingHunter.webp"
-              }
-            ]
-          },
-          {
-            "id": "110512",
-            "name": "Higher Dimensional Data: Corrupted Dreamsteel",
-            "qty": 60,
-            "rar": 4,
-            "kind": "boss",
-            "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss012.webp",
-            "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss012.webp",
-            "source": "Miasmic Doppelganger - Komano Manato / Expert Challenge",
-            "sourceDetails": [
-              {
-                "name": "Doppelganger Komano Manato",
-                "icon": "../../Database/GameData/zzz/assets/monsters/Monster_NoranoEgo_Slime.webp"
-              },
-              {
-                "name": "Expert Challenge"
-              }
-            ]
-          }
-        ],
-        "talentStages": [
-          [
-            {
-              "cost": 2000,
-              "items": [
-                {
-                  "id": "100112",
-                  "name": "Basic Freeze Chip",
-                  "qty": 2,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 3000,
-              "items": [
-                {
-                  "id": "100112",
-                  "name": "Basic Freeze Chip",
-                  "qty": 3,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 6000,
-              "items": [
-                {
-                  "id": "100122",
-                  "name": "Advanced Freeze Chip",
-                  "qty": 2,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 9000,
-              "items": [
-                {
-                  "id": "100122",
-                  "name": "Advanced Freeze Chip",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 12000,
-              "items": [
-                {
-                  "id": "100122",
-                  "name": "Advanced Freeze Chip",
-                  "qty": 4,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 18000,
-              "items": [
-                {
-                  "id": "100122",
-                  "name": "Advanced Freeze Chip",
-                  "qty": 6,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 45000,
-              "items": [
-                {
-                  "id": "100132",
-                  "name": "Specialized Freeze Chip",
-                  "qty": 5,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 67500,
-              "items": [
-                {
-                  "id": "100132",
-                  "name": "Specialized Freeze Chip",
-                  "qty": 8,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 90000,
-              "items": [
-                {
-                  "id": "100132",
-                  "name": "Specialized Freeze Chip",
-                  "qty": 10,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 112500,
-              "items": [
-                {
-                  "id": "100132",
-                  "name": "Specialized Freeze Chip",
-                  "qty": 12,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 135000,
-              "items": [
-                {
-                  "id": "100132",
-                  "name": "Specialized Freeze Chip",
-                  "qty": 15,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                },
-                {
-                  "id": "100941",
-                  "name": "Hamster Cage Pass",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "crown",
-                  "icon": "../../Database/GameData/zzz/assets/items/UltimateSkill.webp",
-                  "source": "Event / New Eridu City Fund",
-                  "sourceDetails": [
-                    {
-                      "name": "Event / New Eridu City Fund"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          [
-            {
-              "cost": 2000,
-              "items": [
-                {
-                  "id": "100112",
-                  "name": "Basic Freeze Chip",
-                  "qty": 2,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 3000,
-              "items": [
-                {
-                  "id": "100112",
-                  "name": "Basic Freeze Chip",
-                  "qty": 3,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 6000,
-              "items": [
-                {
-                  "id": "100122",
-                  "name": "Advanced Freeze Chip",
-                  "qty": 2,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 9000,
-              "items": [
-                {
-                  "id": "100122",
-                  "name": "Advanced Freeze Chip",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 12000,
-              "items": [
-                {
-                  "id": "100122",
-                  "name": "Advanced Freeze Chip",
-                  "qty": 4,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 18000,
-              "items": [
-                {
-                  "id": "100122",
-                  "name": "Advanced Freeze Chip",
-                  "qty": 6,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 45000,
-              "items": [
-                {
-                  "id": "100132",
-                  "name": "Specialized Freeze Chip",
-                  "qty": 5,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 67500,
-              "items": [
-                {
-                  "id": "100132",
-                  "name": "Specialized Freeze Chip",
-                  "qty": 8,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 90000,
-              "items": [
-                {
-                  "id": "100132",
-                  "name": "Specialized Freeze Chip",
-                  "qty": 10,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 112500,
-              "items": [
-                {
-                  "id": "100132",
-                  "name": "Specialized Freeze Chip",
-                  "qty": 12,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 135000,
-              "items": [
-                {
-                  "id": "100132",
-                  "name": "Specialized Freeze Chip",
-                  "qty": 15,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                },
-                {
-                  "id": "100941",
-                  "name": "Hamster Cage Pass",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "crown",
-                  "icon": "../../Database/GameData/zzz/assets/items/UltimateSkill.webp",
-                  "source": "Event / New Eridu City Fund",
-                  "sourceDetails": [
-                    {
-                      "name": "Event / New Eridu City Fund"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          [
-            {
-              "cost": 2000,
-              "items": [
-                {
-                  "id": "100112",
-                  "name": "Basic Freeze Chip",
-                  "qty": 2,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 3000,
-              "items": [
-                {
-                  "id": "100112",
-                  "name": "Basic Freeze Chip",
-                  "qty": 3,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 6000,
-              "items": [
-                {
-                  "id": "100122",
-                  "name": "Advanced Freeze Chip",
-                  "qty": 2,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 9000,
-              "items": [
-                {
-                  "id": "100122",
-                  "name": "Advanced Freeze Chip",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 12000,
-              "items": [
-                {
-                  "id": "100122",
-                  "name": "Advanced Freeze Chip",
-                  "qty": 4,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 18000,
-              "items": [
-                {
-                  "id": "100122",
-                  "name": "Advanced Freeze Chip",
-                  "qty": 6,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 45000,
-              "items": [
-                {
-                  "id": "100132",
-                  "name": "Specialized Freeze Chip",
-                  "qty": 5,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 67500,
-              "items": [
-                {
-                  "id": "100132",
-                  "name": "Specialized Freeze Chip",
-                  "qty": 8,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 90000,
-              "items": [
-                {
-                  "id": "100132",
-                  "name": "Specialized Freeze Chip",
-                  "qty": 10,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 112500,
-              "items": [
-                {
-                  "id": "100132",
-                  "name": "Specialized Freeze Chip",
-                  "qty": 12,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 135000,
-              "items": [
-                {
-                  "id": "100132",
-                  "name": "Specialized Freeze Chip",
-                  "qty": 15,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                },
-                {
-                  "id": "100941",
-                  "name": "Hamster Cage Pass",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "crown",
-                  "icon": "../../Database/GameData/zzz/assets/items/UltimateSkill.webp",
-                  "source": "Event / New Eridu City Fund",
-                  "sourceDetails": [
-                    {
-                      "name": "Event / New Eridu City Fund"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          [
-            {
-              "cost": 2000,
-              "items": [
-                {
-                  "id": "100112",
-                  "name": "Basic Freeze Chip",
-                  "qty": 2,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 3000,
-              "items": [
-                {
-                  "id": "100112",
-                  "name": "Basic Freeze Chip",
-                  "qty": 3,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 6000,
-              "items": [
-                {
-                  "id": "100122",
-                  "name": "Advanced Freeze Chip",
-                  "qty": 2,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 9000,
-              "items": [
-                {
-                  "id": "100122",
-                  "name": "Advanced Freeze Chip",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 12000,
-              "items": [
-                {
-                  "id": "100122",
-                  "name": "Advanced Freeze Chip",
-                  "qty": 4,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 18000,
-              "items": [
-                {
-                  "id": "100122",
-                  "name": "Advanced Freeze Chip",
-                  "qty": 6,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 45000,
-              "items": [
-                {
-                  "id": "100132",
-                  "name": "Specialized Freeze Chip",
-                  "qty": 5,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 67500,
-              "items": [
-                {
-                  "id": "100132",
-                  "name": "Specialized Freeze Chip",
-                  "qty": 8,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 90000,
-              "items": [
-                {
-                  "id": "100132",
-                  "name": "Specialized Freeze Chip",
-                  "qty": 10,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 112500,
-              "items": [
-                {
-                  "id": "100132",
-                  "name": "Specialized Freeze Chip",
-                  "qty": 12,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 135000,
-              "items": [
-                {
-                  "id": "100132",
-                  "name": "Specialized Freeze Chip",
-                  "qty": 15,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                },
-                {
-                  "id": "100941",
-                  "name": "Hamster Cage Pass",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "crown",
-                  "icon": "../../Database/GameData/zzz/assets/items/UltimateSkill.webp",
-                  "source": "Event / New Eridu City Fund",
-                  "sourceDetails": [
-                    {
-                      "name": "Event / New Eridu City Fund"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          [
-            {
-              "cost": 2000,
-              "items": [
-                {
-                  "id": "100112",
-                  "name": "Basic Freeze Chip",
-                  "qty": 2,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 3000,
-              "items": [
-                {
-                  "id": "100112",
-                  "name": "Basic Freeze Chip",
-                  "qty": 3,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 6000,
-              "items": [
-                {
-                  "id": "100122",
-                  "name": "Advanced Freeze Chip",
-                  "qty": 2,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 9000,
-              "items": [
-                {
-                  "id": "100122",
-                  "name": "Advanced Freeze Chip",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 12000,
-              "items": [
-                {
-                  "id": "100122",
-                  "name": "Advanced Freeze Chip",
-                  "qty": 4,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 18000,
-              "items": [
-                {
-                  "id": "100122",
-                  "name": "Advanced Freeze Chip",
-                  "qty": 6,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 45000,
-              "items": [
-                {
-                  "id": "100132",
-                  "name": "Specialized Freeze Chip",
-                  "qty": 5,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 67500,
-              "items": [
-                {
-                  "id": "100132",
-                  "name": "Specialized Freeze Chip",
-                  "qty": 8,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 90000,
-              "items": [
-                {
-                  "id": "100132",
-                  "name": "Specialized Freeze Chip",
-                  "qty": 10,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 112500,
-              "items": [
-                {
-                  "id": "100132",
-                  "name": "Specialized Freeze Chip",
-                  "qty": 12,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 135000,
-              "items": [
-                {
-                  "id": "100132",
-                  "name": "Specialized Freeze Chip",
-                  "qty": 15,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                },
-                {
-                  "id": "100941",
-                  "name": "Hamster Cage Pass",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "crown",
-                  "icon": "../../Database/GameData/zzz/assets/items/UltimateSkill.webp",
-                  "source": "Event / New Eridu City Fund",
-                  "sourceDetails": [
-                    {
-                      "name": "Event / New Eridu City Fund"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          [
-            {
-              "cost": 5000,
-              "items": []
-            },
-            {
-              "cost": 12000,
-              "items": [
-                {
-                  "id": "110512",
-                  "name": "Higher Dimensional Data: Corrupted Dreamsteel",
-                  "qty": 2,
-                  "rar": 4,
-                  "kind": "boss",
-                  "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss012.webp",
-                  "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss012.webp",
-                  "source": "Miasmic Doppelganger - Komano Manato / Expert Challenge",
-                  "sourceDetails": [
-                    {
-                      "name": "Doppelganger Komano Manato",
-                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_NoranoEgo_Slime.webp"
-                    },
-                    {
-                      "name": "Expert Challenge"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 28000,
-              "items": [
-                {
-                  "id": "110512",
-                  "name": "Higher Dimensional Data: Corrupted Dreamsteel",
-                  "qty": 4,
-                  "rar": 4,
-                  "kind": "boss",
-                  "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss012.webp",
-                  "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss012.webp",
-                  "source": "Miasmic Doppelganger - Komano Manato / Expert Challenge",
-                  "sourceDetails": [
-                    {
-                      "name": "Doppelganger Komano Manato",
-                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_NoranoEgo_Slime.webp"
-                    },
-                    {
-                      "name": "Expert Challenge"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 60000,
-              "items": [
-                {
-                  "id": "110007",
-                  "name": "Crimson Miasma Spike",
-                  "qty": 2,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/GameData/zzz/assets/items/ExBigBoss007.webp",
-                  "sprite": "../../Database/GameData/zzz/assets/items/ExBigBoss007.webp",
-                  "source": "Corrupted Wandering Hunter",
-                  "sourceDetails": [
-                    {
-                      "name": "Wandering Hunter",
-                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_WanderingHunter.webp"
-                    }
-                  ]
-                },
-                {
-                  "id": "110512",
-                  "name": "Higher Dimensional Data: Corrupted Dreamsteel",
-                  "qty": 9,
-                  "rar": 4,
-                  "kind": "boss",
-                  "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss012.webp",
-                  "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss012.webp",
-                  "source": "Miasmic Doppelganger - Komano Manato / Expert Challenge",
-                  "sourceDetails": [
-                    {
-                      "name": "Doppelganger Komano Manato",
-                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_NoranoEgo_Slime.webp"
-                    },
-                    {
-                      "name": "Expert Challenge"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 100000,
-              "items": [
-                {
-                  "id": "110007",
-                  "name": "Crimson Miasma Spike",
-                  "qty": 3,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/GameData/zzz/assets/items/ExBigBoss007.webp",
-                  "sprite": "../../Database/GameData/zzz/assets/items/ExBigBoss007.webp",
-                  "source": "Corrupted Wandering Hunter",
-                  "sourceDetails": [
-                    {
-                      "name": "Wandering Hunter",
-                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_WanderingHunter.webp"
-                    }
-                  ]
-                },
-                {
-                  "id": "110512",
-                  "name": "Higher Dimensional Data: Corrupted Dreamsteel",
-                  "qty": 15,
-                  "rar": 4,
-                  "kind": "boss",
-                  "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss012.webp",
-                  "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss012.webp",
-                  "source": "Miasmic Doppelganger - Komano Manato / Expert Challenge",
-                  "sourceDetails": [
-                    {
-                      "name": "Doppelganger Komano Manato",
-                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_NoranoEgo_Slime.webp"
-                    },
-                    {
-                      "name": "Expert Challenge"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 200000,
-              "items": [
-                {
-                  "id": "110007",
-                  "name": "Crimson Miasma Spike",
-                  "qty": 4,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/GameData/zzz/assets/items/ExBigBoss007.webp",
-                  "sprite": "../../Database/GameData/zzz/assets/items/ExBigBoss007.webp",
-                  "source": "Corrupted Wandering Hunter",
-                  "sourceDetails": [
-                    {
-                      "name": "Wandering Hunter",
-                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_WanderingHunter.webp"
-                    }
-                  ]
-                },
-                {
-                  "id": "110512",
-                  "name": "Higher Dimensional Data: Corrupted Dreamsteel",
-                  "qty": 30,
-                  "rar": 4,
-                  "kind": "boss",
-                  "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss012.webp",
-                  "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss012.webp",
-                  "source": "Miasmic Doppelganger - Komano Manato / Expert Challenge",
-                  "sourceDetails": [
-                    {
-                      "name": "Doppelganger Komano Manato",
-                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_NoranoEgo_Slime.webp"
-                    },
-                    {
-                      "name": "Expert Challenge"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        ],
-        "ascCost": 800000,
-        "talentCost": 2905000,
-        "currency": 3705000
       }
     }
   ],

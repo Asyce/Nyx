@@ -3,27 +3,28 @@
   "game": "gi",
   "gameName": "Genshin Impact",
   "channel": "beta",
-  "version": "7.0.50",
+  "version": "7.0.51",
   "liveVersion": "7.0",
-  "betaVersion": "7.0.50",
+  "betaVersion": "7.0.51",
   "availableVersions": [
     "7.0",
-    "7.0.50"
+    "7.0.50",
+    "7.0.51"
   ],
-  "scrapedAt": "2026-08-12T15:19:42.072Z",
+  "scrapedAt": "2026-08-17T14:50:05.856Z",
   "counts": {
     "characters": 150,
     "weapons": 286,
     "artifacts": 65,
     "monsters": 585,
-    "items": 10511
+    "items": 10510
   },
   "sourceCounts": {
     "characters": 150,
     "weapons": 286,
     "artifacts": 65,
     "monsters": 585,
-    "items": 10511
+    "items": 10510
   },
   "newInManifest": {
     "character": [
@@ -256,17 +257,17 @@
     "items": "GameData/gi/beta/items.json",
     "raw": "GameData/gi/beta/raw"
   },
-  "assetsPlanned": 8692,
+  "assetsPlanned": 8691,
   "betaOmissions": {
     "count": 0,
     "records": []
   },
   "contentStatus": "Beta records are compared to Live and marked live, beta, or beta_changed.",
   "assets": {
-    "requested": 8692,
-    "downloaded": 80,
-    "cached": 7052,
-    "missing": 1560,
+    "requested": 8691,
+    "downloaded": 0,
+    "cached": 7132,
+    "missing": 1559,
     "missingAssets": [
       {
         "path": "GameData/gi/assets/characters/cards/UI_AvatarIcon_MannequinBoy_Card.webp",
@@ -1227,10 +1228,6 @@
       {
         "path": "GameData/gi/assets/items/UI_ItemIcon_121714.webp",
         "gamedataAssetPath": "UI_ItemIcon_121714.webp"
-      },
-      {
-        "path": "GameData/gi/assets/items/UI_ItemIcon_121716.webp",
-        "gamedataAssetPath": "UI_ItemIcon_121716.webp"
       },
       {
         "path": "GameData/gi/assets/items/UI_ItemIcon_108904.webp",

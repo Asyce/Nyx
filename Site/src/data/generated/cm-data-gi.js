@@ -56764,10 +56764,10 @@
       "release": 1786406400000,
       "releasePatch": "7.0",
       "voiceActors": {
-        "english": "imdb:nm8517409|Kevin Andrew Rivera",
         "japanese": "Gen Sat\u014d|Sato Gen (\u4f50\u85e4 \u5143)",
         "chinese": "https://zh.moegirl.org.cn/\u738b\u8f85\u5e73|Wang Fuping (\u738b\u8f85\u5e73)",
-        "korean": "https://namu.wiki/w/\uae40\ud61c\uc131(\uc131\uc6b0)|Kim Hye-sung (\uae40\ud61c\uc131)"
+        "korean": "https://namu.wiki/w/\uae40\ud61c\uc131(\uc131\uc6b0)|Kim Hye-sung (\uae40\ud61c\uc131)",
+        "english": "Kevin Andrew Rivera"
       },
       "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Alyosha_Circle.webp",
       "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Alyosha.webp",
@@ -59916,10 +59916,10 @@
       "tag": "SNEZHNAYA STAR",
       "release": 1782777600000,
       "voiceActors": {
-        "english": "imdb:nm3069800|Deneen Melody",
         "japanese": "Mariko Honda|Honda Mariko (\u672c\u591a\u771f\u68a8\u5b50)",
         "chinese": "https://zh.moegirl.org.cn/\u6d2a\u6d77\u5929|Hong Haitian (\u6d2a\u6d77\u5929)",
-        "korean": "ko:\uac15\uc740\uc560|Kang Eun-ae (\uac15\uc740\uc560)"
+        "korean": "ko:\uac15\uc740\uc560|Kang Eun-ae (\uac15\uc740\uc560)",
+        "english": "Deneen Melody"
       },
       "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_MarionetteNew_Circle.webp",
       "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_MarionetteNew.webp",
@@ -203373,7 +203373,8 @@
       "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Navia.webp",
       "birthdayArtPool": [
         "../../Database/GenshinWiki/birthday-art/navia/01-Navia Birthday 2024.png",
-        "../../Database/GenshinWiki/birthday-art/navia/02-Navia Birthday 2025.png"
+        "../../Database/GenshinWiki/birthday-art/navia/02-Navia Birthday 2025.png",
+        "../../Database/GenshinWiki/birthday-art/navia/03-Navia Birthday 2026.jpg"
       ],
       "namecard": "../../Database/GenshinWiki/namecards/Navia.png",
       "skillIcons": [
@@ -429669,10 +429670,10 @@
       "release": 1600142400000,
       "releasePatch": "1.0",
       "voiceActors": {
-        "english": "Sean Chiplock",
         "japanese": "Kensho Ono|Ono Kensho (\u5c0f\u91ce\u8ce2\u7ae0)",
         "chinese": "https://zh.moegirl.org.cn/\u9a6c\u6d0b|Ma Yang (\u9a6c\u6d0b)",
-        "korean": "ko:\ucd5c\uc2b9\ud6c8|Choi Seung-hoon (\ucd5c\uc2b9\ud6c8)"
+        "korean": "ko:\ucd5c\uc2b9\ud6c8|Choi Seung-hoon (\ucd5c\uc2b9\ud6c8)",
+        "english": "Sean Chiplock"
       },
       "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Diluc_Circle.webp",
       "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Diluc.webp",

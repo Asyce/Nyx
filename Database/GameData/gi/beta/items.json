@@ -1463,12 +1463,12 @@
     "name": "Victory Emblem",
     "rarity": 3,
     "type": "ITEM_VIRTUAL",
-    "description": "A ticket representing confidence. Cast it for the team you think will win the battle!",
+    "description": "An emblem symbolizing your faith. Cast it for the team you believe will win the battle!",
     "assets": {
       "icon": "GameData/gi/assets/items/UI_ItemIcon_200.webp"
     },
     "liveComparison": {
-      "currentHash": "f75bffea19955814a5ddc0e13bc10e63d92525429916f0142cef518af24de266"
+      "currentHash": "3541051d409c63a62c2fbe20c0b10d4281c5abe5280778192860f4200a05e40e"
     }
   },
   {
@@ -2198,12 +2198,12 @@
     "name": "Festive Fever",
     "rarity": 3,
     "type": "ITEM_VIRTUAL",
-    "description": "Fanfare increases as the gala's popularity grows. Once it reaches a certain amount, it can be exchanged for corresponding material rewards.",
+    "description": "As the gala continues to gain popularity, the Festive Fever gauge will gradually increase. Reach certain milestones to exchange your accumulated Festive Fever for corresponding rewards.",
     "assets": {
       "icon": "GameData/gi/assets/items/UI_ItemIcon_404.webp"
     },
     "liveComparison": {
-      "currentHash": "4e3b2ac02401b3dd7f481cfd071bc4a039d83a6b7e0aefe6d72f07e2957664da"
+      "currentHash": "6160a68a3ac10d0ccb87f185c0ff3cb0be1f22416e62ac9e91df24a5327aa64b"
     }
   },
   {
@@ -84716,23 +84716,25 @@
   {
     "id": "121623",
     "contentStatus": "beta",
-    "name": "？？？",
+    "name": "???",
     "rarity": 3,
     "type": "Quest Item",
+    "description": "???",
     "assets": {},
     "liveComparison": {
-      "currentHash": "7ba1e1d92bd5f49300bb3717af5bfa84abe74b68ae4becd538f5078110c774f7"
+      "currentHash": "d2e8ba375967493dbde1b570471914518d67859a3d089cc435b7e31610ffc880"
     }
   },
   {
     "id": "121624",
     "contentStatus": "beta",
-    "name": "？？？",
+    "name": "???",
     "rarity": 2,
     "type": "Quest Item",
+    "description": "???",
     "assets": {},
     "liveComparison": {
-      "currentHash": "cca79ca65f7b6c849888338695c377eb34d0939731d4af862a4e447da330aeee"
+      "currentHash": "38040c32bc3a01206fd2a7b32ae4790502f726d55cf72e6a6ea56aeff9a0f8b3"
     }
   },
   {
@@ -85928,12 +85930,12 @@
     "id": "121713",
     "contentStatus": "beta",
     "name": "???",
-    "rarity": 3,
+    "rarity": 4,
     "type": "Prime Ice Construct Appearance",
     "description": "???",
     "assets": {},
     "liveComparison": {
-      "currentHash": "aab8915f7362e5a66fff986333b7807b1ca8f441769f675009fa05001e6dd0aa"
+      "currentHash": "a2bb05ae3f26bd9bd7f928bd5b1b62b3f9325a55b5ee5c0a154adc14743b743b"
     }
   },
   {
@@ -85960,18 +85962,6 @@
     },
     "liveComparison": {
       "currentHash": "f1cf998067db7129ba545be15669926442d3f7c51bb30c1fdedd71f4f5853eff"
-    }
-  },
-  {
-    "id": "121716",
-    "contentStatus": "beta",
-    "name": "???",
-    "rarity": 2,
-    "type": "Quest Item",
-    "description": "???",
-    "assets": {},
-    "liveComparison": {
-      "currentHash": "2a0e600ce9a07ac1f186b773fba9b6bdf99860f06e712a88e2958ebc8a987311"
     }
   },
   {
@@ -88526,15 +88516,15 @@
   {
     "id": "140019",
     "contentStatus": "beta",
-    "name": "Snezhnaya Wind Glider",
+    "name": "Wings of Starry Winterfrost",
     "rarity": 4,
     "type": "ITEM_MATERIAL",
-    "description": "???",
+    "description": "A stylized wind glider gifted to you as a mark of Snezhnaya's acknowledgment and recognition.",
     "assets": {
       "icon": "GameData/gi/assets/items/UI_FlycloakIcon_Snezhnaya.webp"
     },
     "liveComparison": {
-      "currentHash": "b6853397696214d87d711525f6597f9c8701f121d74e700ca6f816c70edb07b4"
+      "currentHash": "cb84d8e8484ed33638553cda84f2c6871bce5dbacf889faf46f83282b9caccfd"
     }
   },
   {
@@ -101923,9 +101913,9 @@
   },
   {
     "id": "223301",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Construct Appearance: Jack Frost",
-    "rarity": 3,
+    "rarity": 4,
     "type": "Prime Ice Construct Appearance",
     "description": "An appearance variant for the \"Prime Ice Construct: Cube.\"\\nJack Frost appears utterly obsessed with fashioning bizarre icy creations in their own image. Even with a structure as simple as a cube, they have poured immense effort into incorporating their own distinct features.",
     "assets": {
@@ -101933,14 +101923,14 @@
     },
     "liveComparison": {
       "liveHash": "2a976df942cb5b3f941f59b3fd5c666094c350d464fcc6b1bc511f44f1d27cf4",
-      "currentHash": "2a976df942cb5b3f941f59b3fd5c666094c350d464fcc6b1bc511f44f1d27cf4"
+      "currentHash": "0a5a73c31c70033c85731cf7cd2e6fc3955abb0d765cdfc9ff139856ede7b777"
     }
   },
   {
     "id": "223302",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Construct Appearance: Polyarbear",
-    "rarity": 3,
+    "rarity": 4,
     "type": "Prime Ice Construct Appearance",
     "description": "Appearance of the \"Prime Ice Construct: Storage Device.\"\\nThere is an old saying among hunters that goes: \"If a bear holds it close, you know it's a treasure.\"\\nWhile the idea of wresting anything away from a real Polyarbear sounds terrifying, a mere storage unit modeled after one shouldn't pose much of a threat... right?",
     "assets": {
@@ -101948,14 +101938,14 @@
     },
     "liveComparison": {
       "liveHash": "9570c17119cfac6e2d12738b8f0b3fedc7f13ce839f21792185ba73a4e78b8a6",
-      "currentHash": "9570c17119cfac6e2d12738b8f0b3fedc7f13ce839f21792185ba73a4e78b8a6"
+      "currentHash": "854fe78fd3cd5af99bb8d79aa9df6d06b85815ec9ea76bac6e90e6b7ff53c30f"
     }
   },
   {
     "id": "223303",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Construct Appearance: The Ballerina",
-    "rarity": 3,
+    "rarity": 4,
     "type": "Prime Ice Construct Appearance",
     "description": "An appearance variant for the \"Prime Ice Construct: Ambient Bollard.\"\\nWhen watching a performance, one's emotions naturally ebb and flow with every graceful movement of the ballet dancer. Each viewing instills a profound sense of inner strength.\\nPerhaps it was born from this very sentiment that this particular Prime Ice Construct appearance was designed.",
     "assets": {
@@ -101963,14 +101953,14 @@
     },
     "liveComparison": {
       "liveHash": "43100d77e977121fbcb1054d99b94a5ca52f589ff0227dea63c20cf46a6cb2d1",
-      "currentHash": "43100d77e977121fbcb1054d99b94a5ca52f589ff0227dea63c20cf46a6cb2d1"
+      "currentHash": "5939f818414bbb159a958163a1768ab730a066f33680d0dc4b29a569eccbbd0c"
     }
   },
   {
     "id": "223304",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Construct Appearance: The Hound",
-    "rarity": 3,
+    "rarity": 4,
     "type": "Prime Ice Construct Appearance",
     "description": "An appearance variant for the \"Prime Ice Construct: Ambient Bollard.\"\\nContinuous buffs come not only from ambient bollards, but from the companions by our side. Sometimes, their mere presence provides a strength that far surpasses any magical enhancement... That being said, it would be wonderful if these bollards could follow us around just like a real companion.",
     "assets": {
@@ -101978,14 +101968,14 @@
     },
     "liveComparison": {
       "liveHash": "395b454333fd599938f079107aea5ecadeb0d4fa5ee2c3ac8827429b296a4fe7",
-      "currentHash": "395b454333fd599938f079107aea5ecadeb0d4fa5ee2c3ac8827429b296a4fe7"
+      "currentHash": "0a724b7532031790724f2e34b4dbe209a6ca26f434c3d47ed9a53d85fd220bbb"
     }
   },
   {
     "id": "223305",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Construct Appearance: The Tides",
-    "rarity": 3,
+    "rarity": 4,
     "type": "Prime Ice Construct Appearance",
     "description": "An appearance variant for the \"Prime Ice Construct: Ambient Bollard.\"\\nThey say that if you stand near a bollard crafted in this likeness, you can sometimes hear the faint murmur of the tides. Yet, the structure itself makes no sound; the melody belongs entirely to your mind and imagination, just like a song that suddenly echoes in your heart on a quiet night.",
     "assets": {
@@ -101993,7 +101983,7 @@
     },
     "liveComparison": {
       "liveHash": "f77b0abd69ecd085b24fc08144899726ddb1093c6f1903a9fb21befecd76065b",
-      "currentHash": "f77b0abd69ecd085b24fc08144899726ddb1093c6f1903a9fb21befecd76065b"
+      "currentHash": "37a443855a356c115cfbc2190c154520535088228b57cc06f7a3cc06779adec0"
     }
   },
   {
@@ -104743,14 +104733,14 @@
   {
     "id": "318205",
     "contentStatus": "beta",
-    "name": "Relaxed Readiness",
+    "name": "Ready and Relaxed",
     "rarity": 3,
     "type": "ITEM_MATERIAL",
     "assets": {
       "icon": "GameData/gi/assets/items/UI_ItemIcon_223018.webp"
     },
     "liveComparison": {
-      "currentHash": "b090fc80cd44286248278e19a10796bbf3e0209d2c5f3bb02eee2477c1f91c35"
+      "currentHash": "550a061c163396748c1e3352bbe10eb2db9036cd118ac37934a8eb33e03d7533"
     }
   },
   {
@@ -104782,66 +104772,66 @@
   {
     "id": "318208",
     "contentStatus": "beta",
-    "name": "Enjoy Food",
+    "name": "Savoring the Meal",
     "rarity": 3,
     "type": "ITEM_MATERIAL",
     "assets": {
       "icon": "GameData/gi/assets/items/UI_ItemIcon_223018.webp"
     },
     "liveComparison": {
-      "currentHash": "cb361f42f638646c84b0e4082dc5ad47fd6eb970eb85c22c3b0b4967ed7ce54b"
+      "currentHash": "ceefba75cf8147d6e58e57b904d048bcad4e146933deadc51a5246f1ff40d594"
     }
   },
   {
     "id": "318209",
     "contentStatus": "beta",
-    "name": "Valiant Battle Pose",
+    "name": "Valiant Battle Stance",
     "rarity": 3,
     "type": "ITEM_MATERIAL",
     "assets": {
       "icon": "GameData/gi/assets/items/UI_ItemIcon_223018.webp"
     },
     "liveComparison": {
-      "currentHash": "9a15df51c06542e39a336232c0d60bc50ffb037d3752725dcdd50f5f2b92c69a"
+      "currentHash": "71ddf0f10c13dc98fec084d1b763a15b349d406f9120bef279494b9c50de68d7"
     }
   },
   {
     "id": "318210",
     "contentStatus": "beta",
-    "name": "Hearty Drink",
+    "name": "Drinking Deep",
     "rarity": 3,
     "type": "ITEM_MATERIAL",
     "assets": {
       "icon": "GameData/gi/assets/items/UI_ItemIcon_223018.webp"
     },
     "liveComparison": {
-      "currentHash": "8f1af067464b0364225bc147b98adebcf7f99467b5b0435053d2d07b7e00082b"
+      "currentHash": "6b26850ff8f019cce61474eb318dfc0a2dbbfa7094bbad0c2f23a1123f6169c0"
     }
   },
   {
     "id": "318211",
     "contentStatus": "beta",
-    "name": "Please enjoy the food",
+    "name": "Please, Dig In",
     "rarity": 3,
     "type": "ITEM_MATERIAL",
     "assets": {
       "icon": "GameData/gi/assets/items/UI_ItemIcon_223018.webp"
     },
     "liveComparison": {
-      "currentHash": "7094c938e766ffd8ef6a624cf4f85f29a2406b6bb40334d8166230d1a0f66a18"
+      "currentHash": "c69f70e24ac196287188cd306f01d022262cc46d3467abe731173685604f15a0"
     }
   },
   {
     "id": "318212",
     "contentStatus": "beta",
-    "name": "Eagerly Awaiting",
+    "name": "Eagerly Waiting",
     "rarity": 3,
     "type": "ITEM_MATERIAL",
     "assets": {
       "icon": "GameData/gi/assets/items/UI_ItemIcon_223018.webp"
     },
     "liveComparison": {
-      "currentHash": "da04797faf76d7115432e07c1a951f18ece51527c2038b993ad4417ca699a6ba"
+      "currentHash": "5c7ce62ae31885a3441fc69cda848bb09697b435376af18b926eb8d8209008cd"
     }
   },
   {
@@ -135587,27 +135577,27 @@
   {
     "id": "380485",
     "contentStatus": "beta",
-    "name": "（test）逐月节灯笼A",
-    "rarity": 3,
+    "name": "「月彩满通衢」",
+    "rarity": 4,
     "type": "Furnishing Blueprint",
     "assets": {
       "icon": "GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
     },
     "liveComparison": {
-      "currentHash": "a522975beae4de850425a54a5869e2d01edfa70ff1e8697c6b6f14ba6314f610"
+      "currentHash": "a133408b4578a0047fe608314b6e5d17c37c79b41649f55e5843e3d6b38907f2"
     }
   },
   {
     "id": "380486",
     "contentStatus": "beta",
-    "name": "（test）逐月节灯笼B",
-    "rarity": 3,
+    "name": "「钱途闪闪」",
+    "rarity": 4,
     "type": "Furnishing Blueprint",
     "assets": {
       "icon": "GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
     },
     "liveComparison": {
-      "currentHash": "f8e79a2793b06e573ac7e9a491b15cdb005116197a43d1733e090b1ea4799024"
+      "currentHash": "2d2a5d6b7571a64ba10474a9a0b01bd54f4feae35cf139e5768d29cd847ca5db"
     }
   },
   {
@@ -141749,14 +141739,14 @@
     "id": "384526",
     "contentStatus": "beta",
     "name": "???",
-    "rarity": 3,
+    "rarity": 4,
     "type": "Furnishing Blueprint",
     "description": "???",
     "assets": {
       "icon": "GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
     },
     "liveComparison": {
-      "currentHash": "a95617c7019f21daf35c09140f9a268c48755a3fa29539c3ef382631b6bc35a2"
+      "currentHash": "a85022234504845684ba352f0251e382d1fe4e4c62ba3f4e45be5526465aac19"
     }
   },
   {
@@ -142977,40 +142967,40 @@
   {
     "id": "390343",
     "contentStatus": "beta",
-    "name": "（test）海屑镇摊位1",
+    "name": "城镇小摊-「新鲜之味」",
     "rarity": 3,
     "type": "Furnishing Blueprint",
     "assets": {
       "icon": "GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
     },
     "liveComparison": {
-      "currentHash": "d274e6b6652aeedfa6aaefc7bf263044f02934c658366c8efa968caf053408bc"
+      "currentHash": "0b8e43a6fe8802bbe043a5831aa99d6a6ee6e0935e9ae8ac95ad102ab0aab8b9"
     }
   },
   {
     "id": "390344",
     "contentStatus": "beta",
-    "name": "（test）海屑镇摊位2",
+    "name": "城镇小摊-「节约时间」",
     "rarity": 3,
     "type": "Furnishing Blueprint",
     "assets": {
       "icon": "GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
     },
     "liveComparison": {
-      "currentHash": "440073a90c9f46d5e32e0f3d3fbf0b2f086feb2b6ff2b8c8276c68c24cce4b0c"
+      "currentHash": "d400d0c08d5edcee694abe84ebeb12a1149dcc46930941cdb5883d7fc881fae5"
     }
   },
   {
     "id": "390345",
     "contentStatus": "beta",
-    "name": "（test）海屑镇摊位3",
+    "name": "城镇小摊-「惬意时刻」",
     "rarity": 3,
     "type": "Furnishing Blueprint",
     "assets": {
       "icon": "GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
     },
     "liveComparison": {
-      "currentHash": "3519d74a001d081057e6284811d0bbc1ce54fd282323c9b4fb2346eaaab5d796"
+      "currentHash": "60c462e5fda5792daca03ecfe5551f91ade3967170b9151d54694b1415a056b6"
     }
   },
   {
@@ -154642,14 +154632,14 @@
     "id": "394852",
     "contentStatus": "beta",
     "name": "???",
-    "rarity": 3,
+    "rarity": 4,
     "type": "Furnishing Blueprint",
     "description": "???",
     "assets": {
       "icon": "GameData/gi/assets/items/UI_ItemIcon_Home_Common.webp"
     },
     "liveComparison": {
-      "currentHash": "4ba198df8ef52211fa103f929dd2b3e3bdf4b22c5fcd3e2cd45a9ff318d812db"
+      "currentHash": "75ac9966df1baa9165d7107ce1ed585304c53bc103ec878affbcad8b223b4e61"
     }
   }
 ]

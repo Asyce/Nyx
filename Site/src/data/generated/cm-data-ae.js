@@ -22430,14 +22430,14 @@
       ],
       "aeSkillItems": [
         {
-          "id": "gear:bonekrusha-poncho",
-          "name": "Bonekrusha Poncho",
-          "n": "Bonekrusha Poncho",
+          "id": "gear:catastrophe-gauze-cartridge-t1",
+          "name": "Catastrophe Gauze Cartridge T1",
+          "n": "Catastrophe Gauze Cartridge T1",
           "kind": "gear",
           "rar": 4,
           "icon": "../../Database/Prydwen/endfield/assets/gear/gear-14-878ac8b93409.webp",
           "assetId": "878ac8b93409",
-          "type": "Armor",
+          "type": "Kit",
           "source": "Prydwen recommendation"
         }
       ],
@@ -30375,9 +30375,9 @@
       ],
       "aeSkillItems": [
         {
-          "id": "gear:bonekrusha-mask-t2",
-          "name": "Bonekrusha Mask T2",
-          "n": "Bonekrusha Mask T2",
+          "id": "gear:catastrophe-gauze-cartridge",
+          "name": "Catastrophe Gauze Cartridge",
+          "n": "Catastrophe Gauze Cartridge",
           "kind": "gear",
           "rar": 4,
           "icon": "../../Database/Prydwen/endfield/assets/gear/gear-13-05e2c42ad2a9.webp",
@@ -35790,14 +35790,14 @@
       ],
       "aeSkillItems": [
         {
-          "id": "gear:bonekrusha-poncho",
-          "name": "Bonekrusha Poncho",
-          "n": "Bonekrusha Poncho",
+          "id": "gear:catastrophe-gauze-cartridge-t1",
+          "name": "Catastrophe Gauze Cartridge T1",
+          "n": "Catastrophe Gauze Cartridge T1",
           "kind": "gear",
           "rar": 4,
           "icon": "../../Database/Prydwen/endfield/assets/gear/gear-14-878ac8b93409.webp",
           "assetId": "878ac8b93409",
-          "type": "Armor",
+          "type": "Kit",
           "source": "Prydwen recommendation"
         }
       ],
@@ -53194,14 +53194,14 @@
       ],
       "aeSkillItems": [
         {
-          "id": "gear:bonekrusha-poncho",
-          "name": "Bonekrusha Poncho",
-          "n": "Bonekrusha Poncho",
+          "id": "gear:catastrophe-gauze-cartridge-t1",
+          "name": "Catastrophe Gauze Cartridge T1",
+          "n": "Catastrophe Gauze Cartridge T1",
           "kind": "gear",
           "rar": 4,
           "icon": "../../Database/Prydwen/endfield/assets/gear/gear-14-878ac8b93409.webp",
           "assetId": "878ac8b93409",
-          "type": "Armor",
+          "type": "Kit",
           "source": "Prydwen recommendation"
         }
       ],
@@ -55852,14 +55852,14 @@
       ],
       "aeSkillItems": [
         {
-          "id": "gear:bonekrusha-poncho-t1",
-          "name": "Bonekrusha Poncho T1",
-          "n": "Bonekrusha Poncho T1",
+          "id": "gear:catastrophe-gloves",
+          "name": "Catastrophe Gloves",
+          "n": "Catastrophe Gloves",
           "kind": "gear",
           "rar": 4,
           "icon": "../../Database/Prydwen/endfield/assets/gear/gear-139-6b91c70d34fd.webp",
           "assetId": "6b91c70d34fd",
-          "type": "Armor",
+          "type": "Gloves",
           "source": "Prydwen recommendation"
         }
       ],
@@ -58442,14 +58442,14 @@
       ],
       "aeSkillItems": [
         {
-          "id": "gear:bonekrusha-wristband",
-          "name": "Bonekrusha Wristband",
-          "n": "Bonekrusha Wristband",
+          "id": "gear:catastrophe-heavy-armor",
+          "name": "Catastrophe Heavy Armor",
+          "n": "Catastrophe Heavy Armor",
           "kind": "gear",
           "rar": 4,
           "icon": "../../Database/Prydwen/endfield/assets/gear/gear-15-926e3820f36c.webp",
           "assetId": "926e3820f36c",
-          "type": "Gloves",
+          "type": "Armor",
           "source": "Prydwen recommendation"
         }
       ],
@@ -59801,14 +59801,14 @@
       ],
       "aeSkillItems": [
         {
-          "id": "gear:bonekrusha-wristband",
-          "name": "Bonekrusha Wristband",
-          "n": "Bonekrusha Wristband",
+          "id": "gear:catastrophe-heavy-armor",
+          "name": "Catastrophe Heavy Armor",
+          "n": "Catastrophe Heavy Armor",
           "kind": "gear",
           "rar": 4,
           "icon": "../../Database/Prydwen/endfield/assets/gear/gear-15-926e3820f36c.webp",
           "assetId": "926e3820f36c",
-          "type": "Gloves",
+          "type": "Armor",
           "source": "Prydwen recommendation"
         }
       ],

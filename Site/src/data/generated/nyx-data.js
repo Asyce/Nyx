@@ -4,7 +4,7 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-08-17T04:01:37.674Z",
+  "generatedAt": "2026-08-17T05:22:01.018Z",
   "codes": {
     "updated": "2026-08-17T03:42:00.435Z",
     "maxAgeDays": 28,
@@ -638,20 +638,63 @@ var NYX_DB = {
         },
         "next": {
           "phase": "4.5 Phase 1",
-          "teased": false,
-          "start": "2026-08-25T16:00:00.000Z",
-          "end": "2026-09-16T16:00:00.000Z",
+          "start": "2026-08-26T03:00:00.000Z",
+          "end": "2026-09-12T03:59:00.000Z",
           "characters": [
             {
-              "name": "Robin \u2022 Summeretto",
-              "icon": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1512.webp",
+              "name": "Hyacine",
+              "icon": "../../Database/GameData/hsr/assets/characters/round/1409.webp",
               "iconFallback": null,
               "iconZoom": false,
-              "art": "https://static.nanoka.cc/assets/hsr/avatardrawcard/1512.webp",
+              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1409.webp",
+              "namecard": null,
+              "rarity": 5,
+              "debut": false,
+              "debutAt": "2025-05-21"
+            },
+            {
+              "name": "Dan Heng",
+              "icon": "../../Database/GameData/hsr/assets/characters/round/1002.webp",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1002.webp",
+              "namecard": null,
+              "rarity": 4,
+              "debut": false,
+              "debutAt": "2023-06-07"
+            },
+            {
+              "name": "Qingque",
+              "icon": "../../Database/GameData/hsr/assets/characters/round/1201.webp",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1201.webp",
+              "namecard": null,
+              "rarity": 4,
+              "debut": false,
+              "debutAt": "2023-06-28"
+            },
+            {
+              "name": "Gallagher",
+              "icon": "../../Database/GameData/hsr/assets/characters/round/1301.webp",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1301.webp",
+              "namecard": null,
+              "rarity": 4,
+              "debut": false,
+              "debutAt": "2024-03-27"
+            },
+            {
+              "name": "Robin Summeretto",
+              "icon": "../../Database/GameData/hsr/assets/characters/round/1512.webp",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1512.webp",
               "namecard": null,
               "rarity": 5,
               "debut": true,
-              "debutAt": null
+              "debutAt": "2026-08-26"
             }
           ],
           "subBanners": []
@@ -688,7 +731,7 @@ var NYX_DB = {
             "namecard": null,
             "rarity": 5,
             "debut": true,
-            "debutAt": null
+            "debutAt": "2026-09-12"
           },
           {
             "name": "Robin Summeretto",
@@ -699,7 +742,7 @@ var NYX_DB = {
             "namecard": null,
             "rarity": 5,
             "debut": true,
-            "debutAt": null
+            "debutAt": "2026-08-26"
           }
         ],
         "roadmap": [
@@ -167466,7 +167509,8 @@ var NYX_DB = {
               },
               "text": "Rise and Sing\nRarity: 5 \u2605\nPath: Remembrance\nComing Soon!\nStats for this Light Cone aren't available yet.",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2026-08-26"
             },
             {
               "id": "river-flows-in-spring",
@@ -167680,7 +167724,8 @@ var NYX_DB = {
               },
               "text": "Summer Rides the Surf\nRarity: 5 \u2605\nPath: Elation\nComing Soon!\nStats for this Light Cone aren't available yet.",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2026-09-12"
             },
             {
               "id": "sweat-now-cry-less",
@@ -169501,20 +169546,63 @@ var NYX_DB = {
         },
         "next": {
           "phase": "4.5 Phase 1",
-          "teased": false,
-          "start": "2026-08-25T16:00:00.000Z",
-          "end": "2026-09-16T16:00:00.000Z",
+          "start": "2026-08-26T03:00:00.000Z",
+          "end": "2026-09-12T03:59:00.000Z",
           "characters": [
             {
-              "name": "Robin \u2022 Summeretto",
-              "icon": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1512.webp",
+              "name": "Hyacine",
+              "icon": "../../Database/GameData/hsr/assets/characters/round/1409.webp",
               "iconFallback": null,
               "iconZoom": false,
-              "art": "https://static.nanoka.cc/assets/hsr/avatardrawcard/1512.webp",
+              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1409.webp",
+              "namecard": null,
+              "rarity": 5,
+              "debut": false,
+              "debutAt": "2025-05-21"
+            },
+            {
+              "name": "Dan Heng",
+              "icon": "../../Database/GameData/hsr/assets/characters/round/1002.webp",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1002.webp",
+              "namecard": null,
+              "rarity": 4,
+              "debut": false,
+              "debutAt": "2023-06-07"
+            },
+            {
+              "name": "Qingque",
+              "icon": "../../Database/GameData/hsr/assets/characters/round/1201.webp",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1201.webp",
+              "namecard": null,
+              "rarity": 4,
+              "debut": false,
+              "debutAt": "2023-06-28"
+            },
+            {
+              "name": "Gallagher",
+              "icon": "../../Database/GameData/hsr/assets/characters/round/1301.webp",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1301.webp",
+              "namecard": null,
+              "rarity": 4,
+              "debut": false,
+              "debutAt": "2024-03-27"
+            },
+            {
+              "name": "Robin Summeretto",
+              "icon": "../../Database/GameData/hsr/assets/characters/round/1512.webp",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1512.webp",
               "namecard": null,
               "rarity": 5,
               "debut": true,
-              "debutAt": null
+              "debutAt": "2026-08-26"
             }
           ],
           "subBanners": []
@@ -169551,7 +169639,7 @@ var NYX_DB = {
             "namecard": null,
             "rarity": 5,
             "debut": true,
-            "debutAt": null
+            "debutAt": "2026-09-12"
           },
           {
             "name": "Robin Summeretto",
@@ -169562,7 +169650,7 @@ var NYX_DB = {
             "namecard": null,
             "rarity": 5,
             "debut": true,
-            "debutAt": null
+            "debutAt": "2026-08-26"
           }
         ],
         "roadmap": [

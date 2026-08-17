@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-13T06:05:47.031Z",
+  "generatedAt": "2026-08-17T05:21:17.088Z",
   "games": {
     "gi": {
       "count": 294,
@@ -325,15 +325,15 @@
       "contentHash": "662751ec97318c6f4fed0bfc11ac494d311a73502915ca02d1f19d4ec5ea5b74"
     },
     "hsr": {
-      "count": 218,
-      "character": 109,
-      "weapon": 108,
+      "count": 226,
+      "character": 113,
+      "weapon": 112,
       "mixed": 1,
       "permanent": 2,
       "confirmed": 218,
       "dateRange": {
         "start": "2023-04-25T02:00:00.000Z",
-        "end": "2026-08-25T20:00:00.000Z"
+        "end": "2026-09-27T19:59:59.000Z"
       },
       "revisions": [
         "maintained-wiki:212364",
@@ -517,7 +517,6 @@
         "maintained-wiki:429843",
         "maintained-wiki:430081",
         "maintained-wiki:430084",
-        "maintained-wiki:430088",
         "maintained-wiki:430089",
         "maintained-wiki:430090",
         "maintained-wiki:430091",
@@ -540,8 +539,6 @@
         "maintained-wiki:449059",
         "maintained-wiki:449855",
         "maintained-wiki:449875",
-        "maintained-wiki:453828",
-        "maintained-wiki:456005",
         "maintained-wiki:456511",
         "maintained-wiki:456512",
         "maintained-wiki:456658",
@@ -552,8 +549,19 @@
         "maintained-wiki:457618",
         "maintained-wiki:457622",
         "maintained-wiki:457624",
-        "maintained-wiki:459155",
-        "maintained-wiki:459156"
+        "maintained-wiki:460100",
+        "maintained-wiki:460101",
+        "maintained-wiki:460102",
+        "maintained-wiki:460103",
+        "maintained-wiki:460107",
+        "maintained-wiki:460144",
+        "maintained-wiki:460145",
+        "maintained-wiki:460146",
+        "maintained-wiki:460147",
+        "maintained-wiki:460148",
+        "maintained-wiki:460149",
+        "maintained-wiki:460150",
+        "maintained-wiki:460151"
       ],
       "officialRevisions": [
         "official-latest:41938646",
@@ -573,7 +581,7 @@
         "official-latest:45842578",
         "official-latest:46135086"
       ],
-      "contentHash": "f40d8604aed02a584151c9b20db71f5caeb30c39d9d4f7624d23f70869b1cdac"
+      "contentHash": "4cbe84e699dc0ad06e7731cedb2af737e2ca5e0e2ddf50df13e391432cdc3541"
     },
     "zzz": {
       "count": 132,

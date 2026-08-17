@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "8fd05abbfed1771e4f1a78bf6cefb24eb167d596a0a95847eb4302c32f937881",
-  "generatedAt": "2026-08-17T03:42:21.546Z",
+  "revision": "907b9de682902fcf0ada305444d5a5cd2861a2aab587103b8d9702377c6e638e",
+  "generatedAt": "2026-08-17T04:01:39.323Z",
   "health": {
     "status": "ok",
     "games": {
@@ -43,7 +43,7 @@
         "remaining": {
           "startsAt": "2026-08-12T03:00:00.000Z",
           "endsAt": "2026-09-01T09:59:59.000Z",
-          "durationSeconds": 1318657
+          "durationSeconds": 1317499
         },
         "characters": [
           {
@@ -282,6 +282,14 @@
       "upcoming": [],
       "news": [
         {
+          "id": "gi-hoyo-ann-7025ba0e34e8",
+          "title": "Stygian Onslaught Event: Disturbance-affected Ley Line challenges",
+          "type": "challenge",
+          "start": "2026-08-19T09:00:00.000Z",
+          "end": "2026-09-22T02:59:00.000Z",
+          "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21847"
+        },
+        {
           "id": "gi-hoyo-ann-3538e6f5101f",
           "title": "Participate in \"Spooky Summer Adventures\" to obtain the \"Spooky Boo Hat\" cosmetic",
           "type": "event",
@@ -336,14 +344,6 @@
           "start": "2026-08-12T03:00:00.000Z",
           "end": "2026-09-01T16:59:00.000Z",
           "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21803"
-        },
-        {
-          "id": "gi-hoyo-ann-97d85a301135",
-          "title": "\"Wonderland Treasures: Phantasmagoric Discourse\": New Manekin Cosmetics Now Available",
-          "type": "event",
-          "start": "2026-08-12T03:00:00.000Z",
-          "end": "2026-09-21T02:59:00.000Z",
-          "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21828"
         }
       ],
       "codes": [
@@ -389,7 +389,7 @@
         "remaining": {
           "startsAt": "2026-08-05T11:00:00.000Z",
           "endsAt": "2026-08-25T14:00:00.000Z",
-          "durationSeconds": 728258
+          "durationSeconds": 727100
         },
         "characters": [
           {
@@ -715,8 +715,8 @@
           "id": "hsr-hoyo-ann-2d4f031c718c",
           "title": "Version 4.5 \"To Roll the Stars in Astropolis\" Highlights Page Is Now Online",
           "type": "event",
-          "start": "2026-08-14T19:45:00.000Z",
-          "end": "2026-08-17T23:00:00.000Z",
+          "start": "2026-08-14T12:45:00.000Z",
+          "end": "2026-08-17T16:00:00.000Z",
           "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1352"
         },
         {
@@ -739,7 +739,7 @@
           "id": "hsr-hoyo-ann-59582dfb96bb",
           "title": "Version 4.4 Event Warp: Phase II",
           "type": "banner",
-          "start": "2026-08-04T11:00:00.000Z",
+          "start": "2026-08-04T04:00:00.000Z",
           "end": "2026-08-25T14:00:00.000Z",
           "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1294"
         },
@@ -755,24 +755,24 @@
           "id": "hsr-hoyo-ann-38b45482599c",
           "title": "\"Imagenae: Holy Grail War\" Event Details",
           "type": "event",
-          "start": "2026-07-23T10:00:00.000Z",
-          "end": "2026-08-26T05:00:00.000Z",
+          "start": "2026-07-23T03:00:00.000Z",
+          "end": "2026-08-25T22:00:00.000Z",
           "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1304"
         },
         {
           "id": "hsr-hoyo-ann-12c1a7a21c89",
           "title": "\"Antigraft Brickbuster\": Complete hacking operations to obtain Self-Modeling Resins, Tracks of Destiny, Stellar Jades, and more!",
           "type": "event",
-          "start": "2026-07-14T10:30:00.000Z",
-          "end": "2026-08-26T02:59:00.000Z",
+          "start": "2026-07-14T03:30:00.000Z",
+          "end": "2026-08-25T19:59:00.000Z",
           "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1301"
         },
         {
           "id": "hsr-hoyo-ann-5869c3577b20",
           "title": "\"Currency Wars: Zero-Sum Game\" Season Expansion Details V4.4",
           "type": "event",
-          "start": "2026-07-13T11:00:00.000Z",
-          "end": "2026-11-11T05:00:00.000Z",
+          "start": "2026-07-13T04:00:00.000Z",
+          "end": "2026-11-10T22:00:00.000Z",
           "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1296"
         }
       ],
@@ -819,7 +819,7 @@
         "remaining": {
           "startsAt": "2026-07-29T03:00:00.000Z",
           "endsAt": "2026-08-19T03:59:59.000Z",
-          "durationSeconds": 173857
+          "durationSeconds": 172699
         },
         "characters": [
           {
@@ -1058,11 +1058,43 @@
       "upcoming": [],
       "news": [
         {
+          "id": "zzz-hoyo-ann-07e95dba8b38",
+          "title": "\"Crispy Meal Deployment Plan\" Event Details",
+          "type": "event",
+          "start": "2026-08-19T09:00:00.000Z",
+          "end": "2026-09-07T02:59:00.000Z",
+          "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1275"
+        },
+        {
+          "id": "zzz-hoyo-ann-679aff04a2b2",
+          "title": "\"The Great En-Nah Giveaway!\" Event Details",
+          "type": "event",
+          "start": "2026-08-19T09:00:00.000Z",
+          "end": "2026-09-08T02:59:00.000Z",
+          "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1274"
+        },
+        {
+          "id": "zzz-hoyo-ann-5963b2d080b1",
+          "title": "V3.1 Limited-Time Channels (Phase II)",
+          "type": "event",
+          "start": "2026-08-17T04:00:00.000Z",
+          "end": "2026-09-08T13:59:00.000Z",
+          "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=231"
+        },
+        {
+          "id": "zzz-hoyo-ann-d5df8c2348bf",
+          "title": "Version 3.1 New Stock in the Store",
+          "type": "event",
+          "start": "2026-08-17T04:00:00.000Z",
+          "end": "2026-09-08T21:59:00.000Z",
+          "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=230"
+        },
+        {
           "id": "zzz-hoyo-ann-6e42a70461e4",
           "title": "\"Extensive Patrol: Triple Bounty\" Event Details",
           "type": "event",
-          "start": "2026-08-12T03:00:00.000Z",
-          "end": "2026-08-17T02:59:00.000Z",
+          "start": "2026-08-12T09:00:00.000Z",
+          "end": "2026-08-17T08:59:00.000Z",
           "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1243"
         },
         {
@@ -1077,49 +1109,17 @@
           "id": "zzz-hoyo-ann-3d5f728e1856",
           "title": "\"Marcel Anniversary Gift\" Event Details",
           "type": "event",
-          "start": "2026-07-27T12:45:00.000Z",
-          "end": "2026-09-09T05:00:00.000Z",
+          "start": "2026-07-27T05:45:00.000Z",
+          "end": "2026-09-08T22:00:00.000Z",
           "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=220"
         },
         {
           "id": "zzz-hoyo-ann-c3848dccb384",
           "title": "\"Filmgoer Thank-You Gift\" Event Details",
           "type": "event",
-          "start": "2026-07-27T12:30:00.000Z",
-          "end": "2026-09-09T05:00:00.000Z",
+          "start": "2026-07-27T05:30:00.000Z",
+          "end": "2026-09-08T22:00:00.000Z",
           "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=226"
-        },
-        {
-          "id": "zzz-hoyo-ann-17f16d0daaf4",
-          "title": "Version 3.1 New Stock in the Store",
-          "type": "event",
-          "start": "2026-07-27T12:00:00.000Z",
-          "end": "2026-09-09T05:00:00.000Z",
-          "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=219"
-        },
-        {
-          "id": "zzz-hoyo-ann-424df948a6d9",
-          "title": "New Story: Season 3 Chapter 2 \"The Long Goodbye\"",
-          "type": "event",
-          "start": "2026-07-27T11:45:00.000Z",
-          "end": "2026-09-09T05:00:00.000Z",
-          "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=227"
-        },
-        {
-          "id": "zzz-hoyo-ann-44796e8ea65a",
-          "title": "V3.1 Limited-Time Channels",
-          "type": "event",
-          "start": "2026-07-27T11:30:00.000Z",
-          "end": "2026-09-08T13:59:59.000Z",
-          "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=218"
-        },
-        {
-          "id": "zzz-hoyo-ann-ceed88e3718a",
-          "title": "\"Data Bounty: Combat Simulation\" Event Details",
-          "type": "challenge",
-          "start": "2026-07-22T03:00:00.000Z",
-          "end": "2026-07-27T02:59:00.000Z",
-          "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1227"
         }
       ],
       "codes": [
@@ -1153,7 +1153,7 @@
         "remaining": {
           "startsAt": "2026-07-30T09:00:00.000Z",
           "endsAt": "2026-08-19T10:59:00.000Z",
-          "durationSeconds": 198998
+          "durationSeconds": 197840
         },
         "characters": [
           {
@@ -1487,7 +1487,7 @@
         "remaining": {
           "startsAt": "2026-08-09T04:00:00.000Z",
           "endsAt": "2026-09-01T21:59:59.000Z",
-          "durationSeconds": 1361857
+          "durationSeconds": 1360699
         },
         "characters": [
           {

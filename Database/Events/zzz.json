@@ -1,36 +1,212 @@
 {
   "schemaVersion": 1,
   "game": "zzz",
-  "generatedAt": "2026-08-16T03:58:26.994Z",
+  "generatedAt": "2026-08-17T04:00:35.350Z",
   "source": {
     "name": "Zenless Zone Zero Official",
     "endpoint": "sg-announcement-api.hoyoverse.com getAnnList+getAnnContent"
   },
   "counts": {
-    "total": 20,
+    "total": 23,
     "needs_review": 7,
     "banner": 0,
     "byType": {
-      "event": 19,
+      "event": 22,
       "challenge": 1
     }
   },
   "events": [
     {
       "game": "zzz",
+      "id": "zzz-hoyo-ann-07e95dba8b38",
+      "title": "\"Crispy Meal Deployment Plan\" Event Details",
+      "type": "event",
+      "start": "2026-08-19T09:00:00.000Z",
+      "end": "2026-09-07T02:59:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Zenless Zone Zero Official",
+        "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1275",
+        "kind": "official-announcement-api",
+        "recordId": "1275",
+        "fetchedAt": "2026-08-17T04:00:44.375Z",
+        "priority": 1
+      },
+      "confidence": "high",
+      "scheduleStatus": "exact",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "/assets/events/zzz/d9c0d07fc83cd5b560e5557295a793980ab37aecfc89b823420e666a18fbb485.jpg",
+      "description": "Event Duration 2026/08/19 10:00 (server time) – 2026/09/07 03:59 (server time) Event Rewards Requirements Reach Inter-Knot Lv. 20 and complete Main Story Chapter 1 - Intermission to participate Event Details • During the event, Proxies…",
+      "windowsByRegion": {
+        "europe": {
+          "start": "2026-08-19T09:00:00.000Z",
+          "end": "2026-09-07T02:59:00.000Z",
+          "timezone": "UTC+01:00",
+          "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1275"
+        },
+        "asia": {
+          "start": "2026-08-19T02:00:00.000Z",
+          "end": "2026-09-06T19:59:00.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1275"
+        },
+        "america": {
+          "start": "2026-08-19T15:00:00.000Z",
+          "end": "2026-09-07T08:59:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1275"
+        }
+      }
+    },
+    {
+      "game": "zzz",
+      "id": "zzz-hoyo-ann-679aff04a2b2",
+      "title": "\"The Great En-Nah Giveaway!\" Event Details",
+      "type": "event",
+      "start": "2026-08-19T09:00:00.000Z",
+      "end": "2026-09-08T02:59:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Zenless Zone Zero Official",
+        "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1274",
+        "kind": "official-announcement-api",
+        "recordId": "1274",
+        "fetchedAt": "2026-08-17T04:00:44.375Z",
+        "priority": 1
+      },
+      "confidence": "high",
+      "scheduleStatus": "exact",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "/assets/events/zzz/b36624567eaca93c3131bc7777a831ec84fb05b510150206cf5417919afa9cdc.jpg",
+      "description": "Event Duration 2026/08/19 10:00 (server time) – 2026/09/08 03:59 (server time) Requirements Reach Inter-Knot Lv. 5, complete the Main Story Prologue \"The Hare and the Proxy,\" and unlock the Event feature to participate Event Details •…",
+      "windowsByRegion": {
+        "europe": {
+          "start": "2026-08-19T09:00:00.000Z",
+          "end": "2026-09-08T02:59:00.000Z",
+          "timezone": "UTC+01:00",
+          "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1274"
+        },
+        "asia": {
+          "start": "2026-08-19T02:00:00.000Z",
+          "end": "2026-09-07T19:59:00.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1274"
+        },
+        "america": {
+          "start": "2026-08-19T15:00:00.000Z",
+          "end": "2026-09-08T08:59:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1274"
+        }
+      }
+    },
+    {
+      "game": "zzz",
+      "id": "zzz-hoyo-ann-5963b2d080b1",
+      "title": "V3.1 Limited-Time Channels (Phase II)",
+      "type": "event",
+      "start": "2026-08-17T04:00:00.000Z",
+      "end": "2026-09-08T13:59:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Zenless Zone Zero Official",
+        "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=231",
+        "kind": "official-announcement-api",
+        "recordId": "231",
+        "fetchedAt": "2026-08-17T04:00:44.375Z",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "scheduleStatus": "exact",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": null,
+      "description": null,
+      "windowsByRegion": {
+        "europe": {
+          "start": "2026-08-17T04:00:00.000Z",
+          "end": "2026-09-08T13:59:00.000Z",
+          "timezone": "UTC+01:00",
+          "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=231"
+        },
+        "asia": {
+          "start": "2026-08-17T04:00:00.000Z",
+          "end": "2026-09-08T06:59:00.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=231"
+        },
+        "america": {
+          "start": "2026-08-17T04:00:00.000Z",
+          "end": "2026-09-08T19:59:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=231"
+        }
+      }
+    },
+    {
+      "game": "zzz",
+      "id": "zzz-hoyo-ann-d5df8c2348bf",
+      "title": "Version 3.1 New Stock in the Store",
+      "type": "event",
+      "start": "2026-08-17T04:00:00.000Z",
+      "end": "2026-09-08T21:59:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Zenless Zone Zero Official",
+        "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=230",
+        "kind": "official-announcement-api",
+        "recordId": "230",
+        "fetchedAt": "2026-08-17T04:00:44.375Z",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "scheduleStatus": "exact",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "/assets/events/zzz/f83b38cf9aaa040bd113219e8777154edba05d8501b4e7b095b87e9b267a9681.jpg",
+      "description": null,
+      "windowsByRegion": {
+        "europe": {
+          "start": "2026-08-17T04:00:00.000Z",
+          "end": "2026-09-08T21:59:00.000Z",
+          "timezone": "UTC+01:00",
+          "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=230"
+        },
+        "asia": {
+          "start": "2026-08-17T04:00:00.000Z",
+          "end": "2026-09-08T21:59:00.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=230"
+        },
+        "america": {
+          "start": "2026-08-17T04:00:00.000Z",
+          "end": "2026-09-08T21:59:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=230"
+        }
+      }
+    },
+    {
+      "game": "zzz",
       "id": "zzz-hoyo-ann-6e42a70461e4",
       "title": "\"Extensive Patrol: Triple Bounty\" Event Details",
       "type": "event",
-      "start": "2026-08-12T03:00:00.000Z",
-      "end": "2026-08-17T02:59:00.000Z",
-      "server": "europe",
-      "timezone": "UTC+01:00",
+      "start": "2026-08-12T09:00:00.000Z",
+      "end": "2026-08-17T08:59:00.000Z",
+      "server": "america",
+      "timezone": "UTC-05:00",
       "source": {
         "name": "Zenless Zone Zero Official",
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1243",
         "kind": "official-announcement-api",
         "recordId": "1243",
-        "fetchedAt": "2026-08-16T03:58:33.903Z",
+        "fetchedAt": "2026-08-17T04:00:44.375Z",
         "priority": 1
       },
       "confidence": "high",
@@ -40,18 +216,6 @@
       "image": "/assets/events/zzz/93f4a319e483639edc3d07097f7d3c492a680a717d7c339743354aab4814a107.jpg",
       "description": "Event Duration 2026/08/12 04:00 (server time) – 2026/08/17 03:59 (server time) Requirements Complete the Inter-Knot Reputation Rank-Up Mission \"Path of the Proxy I\", reach Inter-Knot Lv. 21, and unlock Area Patrol to participate. Event…",
       "windowsByRegion": {
-        "europe": {
-          "start": "2026-08-12T03:00:00.000Z",
-          "end": "2026-08-17T02:59:00.000Z",
-          "timezone": "UTC+01:00",
-          "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1243"
-        },
-        "asia": {
-          "start": "2026-08-11T20:00:00.000Z",
-          "end": "2026-08-16T19:59:00.000Z",
-          "timezone": "UTC+08:00",
-          "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1243"
-        },
         "america": {
           "start": "2026-08-12T09:00:00.000Z",
           "end": "2026-08-17T08:59:00.000Z",
@@ -74,7 +238,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1241",
         "kind": "official-announcement-api",
         "recordId": "1241",
-        "fetchedAt": "2026-08-16T03:58:33.903Z",
+        "fetchedAt": "2026-08-17T04:00:44.375Z",
         "priority": 1
       },
       "confidence": "high",
@@ -109,8 +273,8 @@
       "id": "zzz-hoyo-ann-3d5f728e1856",
       "title": "\"Marcel Anniversary Gift\" Event Details",
       "type": "event",
-      "start": "2026-07-27T12:45:00.000Z",
-      "end": "2026-09-09T05:00:00.000Z",
+      "start": "2026-07-27T05:45:00.000Z",
+      "end": "2026-09-08T22:00:00.000Z",
       "server": "europe",
       "timezone": "UTC+01:00",
       "source": {
@@ -118,7 +282,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=220",
         "kind": "official-announcement-api",
         "recordId": "220",
-        "fetchedAt": "2026-08-16T03:58:33.903Z",
+        "fetchedAt": "2026-08-17T04:00:44.375Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -129,8 +293,8 @@
       "description": null,
       "windowsByRegion": {
         "europe": {
-          "start": "2026-07-27T12:45:00.000Z",
-          "end": "2026-09-09T05:00:00.000Z",
+          "start": "2026-07-27T05:45:00.000Z",
+          "end": "2026-09-08T22:00:00.000Z",
           "timezone": "UTC+01:00",
           "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=220"
         },
@@ -153,8 +317,8 @@
       "id": "zzz-hoyo-ann-c3848dccb384",
       "title": "\"Filmgoer Thank-You Gift\" Event Details",
       "type": "event",
-      "start": "2026-07-27T12:30:00.000Z",
-      "end": "2026-09-09T05:00:00.000Z",
+      "start": "2026-07-27T05:30:00.000Z",
+      "end": "2026-09-08T22:00:00.000Z",
       "server": "europe",
       "timezone": "UTC+01:00",
       "source": {
@@ -162,7 +326,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=226",
         "kind": "official-announcement-api",
         "recordId": "226",
-        "fetchedAt": "2026-08-16T03:58:33.903Z",
+        "fetchedAt": "2026-08-17T04:00:44.375Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -173,8 +337,8 @@
       "description": null,
       "windowsByRegion": {
         "europe": {
-          "start": "2026-07-27T12:30:00.000Z",
-          "end": "2026-09-09T05:00:00.000Z",
+          "start": "2026-07-27T05:30:00.000Z",
+          "end": "2026-09-08T22:00:00.000Z",
           "timezone": "UTC+01:00",
           "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=226"
         },
@@ -188,55 +352,11 @@
     },
     {
       "game": "zzz",
-      "id": "zzz-hoyo-ann-17f16d0daaf4",
-      "title": "Version 3.1 New Stock in the Store",
-      "type": "event",
-      "start": "2026-07-27T12:00:00.000Z",
-      "end": "2026-09-09T05:00:00.000Z",
-      "server": "europe",
-      "timezone": "UTC+01:00",
-      "source": {
-        "name": "Zenless Zone Zero Official",
-        "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=219",
-        "kind": "official-announcement-api",
-        "recordId": "219",
-        "fetchedAt": "2026-08-16T03:58:33.903Z",
-        "priority": 1
-      },
-      "confidence": "medium",
-      "scheduleStatus": "exact",
-      "permanence": "timed",
-      "needs_review": false,
-      "image": "/assets/events/zzz/fd8f049f3885ef1003d9fb89d8ae5533ed006ed6b488751ae41ffa30a11db79b.jpg",
-      "description": null,
-      "windowsByRegion": {
-        "europe": {
-          "start": "2026-07-27T12:00:00.000Z",
-          "end": "2026-09-09T05:00:00.000Z",
-          "timezone": "UTC+01:00",
-          "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=219"
-        },
-        "asia": {
-          "start": "2026-07-27T05:00:00.000Z",
-          "end": "2026-09-08T22:00:00.000Z",
-          "timezone": "UTC+08:00",
-          "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=219"
-        },
-        "america": {
-          "start": "2026-07-27T05:00:00.000Z",
-          "end": "2026-09-08T22:00:00.000Z",
-          "timezone": "UTC-05:00",
-          "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=219"
-        }
-      }
-    },
-    {
-      "game": "zzz",
       "id": "zzz-hoyo-ann-424df948a6d9",
       "title": "New Story: Season 3 Chapter 2 \"The Long Goodbye\"",
       "type": "event",
-      "start": "2026-07-27T11:45:00.000Z",
-      "end": "2026-09-09T05:00:00.000Z",
+      "start": "2026-07-27T04:45:00.000Z",
+      "end": "2026-09-08T22:00:00.000Z",
       "server": "europe",
       "timezone": "UTC+01:00",
       "source": {
@@ -244,7 +364,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=227",
         "kind": "official-announcement-api",
         "recordId": "227",
-        "fetchedAt": "2026-08-16T03:58:33.903Z",
+        "fetchedAt": "2026-08-17T04:00:44.375Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -255,8 +375,8 @@
       "description": null,
       "windowsByRegion": {
         "europe": {
-          "start": "2026-07-27T11:45:00.000Z",
-          "end": "2026-09-09T05:00:00.000Z",
+          "start": "2026-07-27T04:45:00.000Z",
+          "end": "2026-09-08T22:00:00.000Z",
           "timezone": "UTC+01:00",
           "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=227"
         },
@@ -279,7 +399,7 @@
       "id": "zzz-hoyo-ann-44796e8ea65a",
       "title": "V3.1 Limited-Time Channels",
       "type": "event",
-      "start": "2026-07-27T11:30:00.000Z",
+      "start": "2026-07-27T04:30:00.000Z",
       "end": "2026-09-08T13:59:59.000Z",
       "server": "europe",
       "timezone": "UTC+01:00",
@@ -288,7 +408,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=218",
         "kind": "official-announcement-api",
         "recordId": "218",
-        "fetchedAt": "2026-08-16T03:58:33.903Z",
+        "fetchedAt": "2026-08-17T04:00:44.375Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -299,7 +419,7 @@
       "description": null,
       "windowsByRegion": {
         "europe": {
-          "start": "2026-07-27T11:30:00.000Z",
+          "start": "2026-07-27T04:30:00.000Z",
           "end": "2026-09-08T13:59:59.000Z",
           "timezone": "UTC+01:00",
           "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=218"
@@ -577,7 +697,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1236",
         "kind": "official-announcement-api",
         "recordId": "1236",
-        "fetchedAt": "2026-08-16T03:58:33.903Z",
+        "fetchedAt": "2026-08-17T04:00:44.375Z",
         "priority": 1
       },
       "confidence": "low",
@@ -602,7 +722,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1238",
         "kind": "official-announcement-api",
         "recordId": "1238",
-        "fetchedAt": "2026-08-16T03:58:33.903Z",
+        "fetchedAt": "2026-08-17T04:00:44.375Z",
         "priority": 1
       },
       "confidence": "low",
@@ -627,7 +747,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1242",
         "kind": "official-announcement-api",
         "recordId": "1242",
-        "fetchedAt": "2026-08-16T03:58:33.903Z",
+        "fetchedAt": "2026-08-17T04:00:44.375Z",
         "priority": 1
       },
       "confidence": "low",
@@ -652,7 +772,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1237",
         "kind": "official-announcement-api",
         "recordId": "1237",
-        "fetchedAt": "2026-08-16T03:58:33.903Z",
+        "fetchedAt": "2026-08-17T04:00:44.375Z",
         "priority": 1
       },
       "confidence": "low",
@@ -677,7 +797,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1234",
         "kind": "official-announcement-api",
         "recordId": "1234",
-        "fetchedAt": "2026-08-16T03:58:33.903Z",
+        "fetchedAt": "2026-08-17T04:00:44.375Z",
         "priority": 1
       },
       "confidence": "low",
@@ -702,7 +822,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1239",
         "kind": "official-announcement-api",
         "recordId": "1239",
-        "fetchedAt": "2026-08-16T03:58:33.903Z",
+        "fetchedAt": "2026-08-17T04:00:44.375Z",
         "priority": 1
       },
       "confidence": "low",
@@ -727,7 +847,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1240",
         "kind": "official-announcement-api",
         "recordId": "1240",
-        "fetchedAt": "2026-08-16T03:58:33.903Z",
+        "fetchedAt": "2026-08-17T04:00:44.375Z",
         "priority": 1
       },
       "confidence": "low",

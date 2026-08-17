@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T15:13:08.563Z",
+  "generatedAt": "2026-08-17T03:42:00.435Z",
   "maxAgeDays": 28,
   "games": [
     {
@@ -9,8 +9,19 @@
       "redeemBase": "https://genshin.hoyoverse.com/en/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/GI/codes/",
-      "lastSuccessfulFetch": "2026-08-16T15:12:28.522Z",
+      "lastSuccessfulFetch": "2026-08-17T03:41:40.675Z",
       "codes": [
+        {
+          "code": "Y1INABQB6DEX",
+          "rewards": "",
+          "added": "2026-08-17",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=Y1INABQB6DEX",
+          "hoyoVerified": true,
+          "premium": false,
+          "premium100": false,
+          "cwSeen": true,
+          "firstSeen": "2026-08-17T03:41:40.675Z"
+        },
         {
           "code": "BALLETCOLLAB",
           "rewards": "30 Primogem, 10000 Mora, 3 Hero's Wit, 3 Mystic Enhancement Ore",
@@ -151,7 +162,7 @@
       "redeemBase": "https://hsr.hoyoverse.com/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/HSR/codes/",
-      "lastSuccessfulFetch": "2026-08-16T15:13:08.563Z",
+      "lastSuccessfulFetch": "2026-08-17T03:42:00.435Z",
       "codes": [
         {
           "code": "NSJR3B97ZZ5X",
@@ -323,7 +334,7 @@
       "redeemBase": "https://zenless.hoyoverse.com/redemption?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/ZZZ/codes/",
-      "lastSuccessfulFetch": "2026-08-16T15:12:28.803Z",
+      "lastSuccessfulFetch": "2026-08-17T03:41:40.981Z",
       "codes": [
         {
           "code": "ZENLESSGIFT",
@@ -375,7 +386,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Terminal > Settings > Other Settings > Redemption Code",
       "sourceUrl": "https://nexus-codes.app/games/WUWA/codes/",
-      "lastSuccessfulFetch": "2026-08-16T15:12:28.485Z",
+      "lastSuccessfulFetch": "2026-08-17T03:41:40.592Z",
       "codes": [
         {
           "code": "ETERNALFLAME",
@@ -429,7 +440,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Settings > Account > Exchange Code",
       "sourceUrl": "https://nexus-codes.app/games/ARKEN/codes/",
-      "lastSuccessfulFetch": "2026-08-16T15:12:28.529Z",
+      "lastSuccessfulFetch": "2026-08-17T03:41:40.615Z",
       "codes": [
         {
           "code": "ENDFIELDRENEW",

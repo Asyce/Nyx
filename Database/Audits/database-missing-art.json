@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T14:54:16.337Z",
+  "generatedAt": "2026-08-18T15:02:59.085Z",
   "policy": "Every generated Database row is counted. Released rows remain visible when art or description is missing; only rows with no usable localized display name or proven internal/test provenance are quarantined.",
   "coverage": {
     "before": {
@@ -10,7 +10,7 @@
       ],
       "summaryCount": 32,
       "missingArtCount": 800,
-      "quarantinedCount": 492
+      "quarantinedCount": 493
     },
     "after": {
       "scopes": [
@@ -20,7 +20,7 @@
       ],
       "summaryCount": 32,
       "missingArtCount": 800,
-      "quarantinedCount": 492,
+      "quarantinedCount": 493,
       "intentionalFallbackCount": 800,
       "displayArtMissingCount": 0
     }
@@ -101,25 +101,25 @@
     {
       "game": "wuwa",
       "collection": "monsters",
-      "sourceCount": 288,
-      "normalizedCount": 288,
+      "sourceCount": 302,
+      "normalizedCount": 302,
       "quarantinedCount": 1,
       "routedCount": 0,
-      "approvedSourceCount": 287,
-      "generatedCount": 287,
-      "localArtCount": 284,
+      "approvedSourceCount": 301,
+      "generatedCount": 301,
+      "localArtCount": 298,
       "missingArtCount": 3
     },
     {
       "game": "wuwa",
       "collection": "items",
-      "sourceCount": 2303,
-      "normalizedCount": 2303,
-      "quarantinedCount": 18,
+      "sourceCount": 2345,
+      "normalizedCount": 2345,
+      "quarantinedCount": 19,
       "routedCount": 0,
-      "approvedSourceCount": 2285,
-      "generatedCount": 2285,
-      "localArtCount": 2276,
+      "approvedSourceCount": 2326,
+      "generatedCount": 2326,
+      "localArtCount": 2317,
       "missingArtCount": 9
     },
     {
@@ -230,13 +230,13 @@
       "scope": "inline",
       "game": "wuwa",
       "collection": "echoes",
-      "sourceCount": 180,
-      "normalizedCount": 180,
+      "sourceCount": 181,
+      "normalizedCount": 181,
       "quarantinedCount": 0,
       "routedCount": 0,
-      "approvedSourceCount": 180,
-      "generatedCount": 180,
-      "localArtCount": 180,
+      "approvedSourceCount": 181,
+      "generatedCount": 181,
+      "localArtCount": 181,
       "missingArtCount": 0
     },
     {
@@ -11472,7 +11472,7 @@
       "reason": "The released generated record has no usable local art reference and no approved source URL or filename was available; the record remains visible with a neutral fallback."
     }
   ],
-  "quarantinedCount": 492,
+  "quarantinedCount": 493,
   "quarantinedRecords": [
     {
       "game": "gi",
@@ -14988,6 +14988,18 @@
         "field": "icon",
         "value": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Task_029_UI.T_IconTask_Task_029_UI"
       },
+      "sourceUrl": null,
+      "localDestination": null,
+      "result": "quarantined",
+      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+    },
+    {
+      "game": "wuwa",
+      "collection": "items",
+      "recordId": "89400006",
+      "name": "89400006",
+      "releaseStatus": "no-localized-display-name",
+      "sourceIconField": null,
       "sourceUrl": null,
       "localDestination": null,
       "result": "quarantined",

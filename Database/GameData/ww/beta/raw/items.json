@@ -1389,7 +1389,7 @@
       57
     ],
     "type": 7,
-    "name": "Weekly Subscription"
+    "name": "New Voyage Weekly Subscription"
   },
   "51001": {
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_007_UI.T_IconGiftPack_007_UI",
@@ -2039,6 +2039,18 @@
     "type": 7,
     "name": "Shaftpost Yard's Battlesong Collection"
   },
+  "51058": {
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
+    "rank": 5,
+    "tag": [
+      "Supply Chest"
+    ],
+    "tagnum": [
+      16
+    ],
+    "type": 7,
+    "name": "Shaftpost Yard's Tuning Collection"
+  },
   "52001": {
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "rank": 5,
@@ -2531,6 +2543,30 @@
     "type": 7,
     "name": "Upon Rosy Clouds"
   },
+  "55005": {
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_7_a_UI.T_IconRoleHead256_7_a_UI",
+    "rank": 5,
+    "tag": [
+      "Supply Chest"
+    ],
+    "tagnum": [
+      16
+    ],
+    "type": 7,
+    "name": "Cloudbloom"
+  },
+  "55006": {
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_7_a_UI.T_IconRoleHead256_7_a_UI",
+    "rank": 5,
+    "tag": [
+      "Supply Chest"
+    ],
+    "tagnum": [
+      16
+    ],
+    "type": 7,
+    "name": "Snowpaw"
+  },
   "31000010": {
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_cdtq_UI.T_IconA_cdtq_UI",
     "rank": 3,
@@ -2589,7 +2625,7 @@
       21
     ],
     "type": 6,
-    "name": "Stay tuned"
+    "name": "test/Leaf"
   },
   "31000015": {
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_cdtq_UI.T_IconA_cdtq_UI",
@@ -3760,7 +3796,7 @@
     "name": "Solidarity's Loneflame"
   },
   "41400344": {
-    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMout/T_IconMout_L_029_UI.T_IconMout_L_029_UI",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMout/T_IconMout_L_030_UI.T_IconMout_L_030_UI",
     "rank": 4,
     "tag": [
       "Resonator Ascension Material"
@@ -3769,7 +3805,7 @@
       7
     ],
     "type": 4,
-    "name": ""
+    "name": "Forged Empyrean's Sigh"
   },
   "42100001": {
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconCook/T_IconCook_YJ_001_UI.T_IconCook_YJ_001_UI",
@@ -6539,7 +6575,7 @@
       22
     ],
     "type": 4,
-    "name": "Stay tuned"
+    "name": "test/Universal Echo"
   },
   "44010028": {
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_currency_6_UI.T_IconA_currency_6_UI",
@@ -6551,7 +6587,7 @@
       22
     ],
     "type": 4,
-    "name": "Stay tuned"
+    "name": "test/Golden Universal Echo"
   },
   "44010029": {
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_1014_UI.T_IconMonsterHead_1014_UI",
@@ -6935,19 +6971,7 @@
       47
     ],
     "type": 4,
-    "name": "Stay tuned"
-  },
-  "44010064": {
-    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_31102_UI.T_IconMonsterGoods_SG_31102_UI",
-    "rank": 5,
-    "tag": [
-      "Phantom Appearance"
-    ],
-    "tagnum": [
-      47
-    ],
-    "type": 4,
-    "name": "Stay tuned"
+    "name": "Phantom: Myriad Snare: Rustfire Chassis"
   },
   "50000038": {
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_01_UI.T_IconGiftPack_dj_01_UI",
@@ -7730,7 +7754,7 @@
     "name": "Gleaner's Ascension Supply III"
   },
   "50000215": {
-    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_003_UI.T_IconGiftPack_003_UI",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_Act_CumulativeRechargeGift_UI.T_IconA_Act_CumulativeRechargeGift_UI",
     "rank": 5,
     "tag": [
       "Supply Chest"
@@ -12181,6 +12205,66 @@
     "type": 6,
     "name": "\"Untitled 18 - Brancesi, 2021\""
   },
+  "71200015": {
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Task_245_UI.T_IconTask_Task_245_UI",
+    "rank": 5,
+    "tag": [
+      "Quest Item"
+    ],
+    "tagnum": [
+      21
+    ],
+    "type": 6,
+    "name": "Qingfu Pendant"
+  },
+  "71200016": {
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Task_247_UI.T_IconTask_Task_247_UI",
+    "rank": 5,
+    "tag": [
+      "Quest Item"
+    ],
+    "tagnum": [
+      21
+    ],
+    "type": 6,
+    "name": "Sword Talisman Pendant"
+  },
+  "71200017": {
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Task_248_UI.T_IconTask_Task_248_UI",
+    "rank": 5,
+    "tag": [
+      "Quest Item"
+    ],
+    "tagnum": [
+      21
+    ],
+    "type": 6,
+    "name": "\"Swordcraft of the Golden-Eyed One\""
+  },
+  "71200018": {
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconCook/T_IconCook_SP_30_UI.T_IconCook_SP_30_UI",
+    "rank": 4,
+    "tag": [
+      "Quest Item"
+    ],
+    "tagnum": [
+      21
+    ],
+    "type": 6,
+    "name": "Moonlit Splendor"
+  },
+  "71200019": {
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Task_246_UI.T_IconTask_Task_246_UI",
+    "rank": 5,
+    "tag": [
+      "Quest Item"
+    ],
+    "tagnum": [
+      21
+    ],
+    "type": 6,
+    "name": "Mirage Seeker's Tales (Advance Copy)"
+  },
   "71210001": {
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_023_UI.T_IconTask_023_UI",
     "rank": 5,
@@ -12935,7 +13019,7 @@
       21
     ],
     "type": 6,
-    "name": "Stay tuned"
+    "name": "Talisman"
   },
   "71300515": {
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Task_033_UI.T_IconTask_Task_033_UI",
@@ -12947,31 +13031,7 @@
       21
     ],
     "type": 6,
-    "name": "Stay tuned"
-  },
-  "71300516": {
-    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Task_033_UI.T_IconTask_Task_033_UI",
-    "rank": 4,
-    "tag": [
-      "Quest Item"
-    ],
-    "tagnum": [
-      21
-    ],
-    "type": 6,
-    "name": "Stay tuned"
-  },
-  "71300517": {
-    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Task_033_UI.T_IconTask_Task_033_UI",
-    "rank": 4,
-    "tag": [
-      "Quest Item"
-    ],
-    "tagnum": [
-      21
-    ],
-    "type": 6,
-    "name": "Stay tuned"
+    "name": "Lyu Yi's Ledger"
   },
   "71320001": {
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconRouge/T_IconRouge_032_UI.T_IconRouge_032_UI",
@@ -14162,7 +14222,7 @@
     "name": "Reveler Captain's Seal"
   },
   "71500099": {
-    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMowing/T_IconMowing_43.T_IconMowing_43",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMowing/T_IconMowing_58.T_IconMowing_58",
     "rank": 5,
     "tag": [
       "Token"
@@ -14171,7 +14231,7 @@
       50
     ],
     "type": 0,
-    "name": ""
+    "name": "Lamp That Illuminates the Illusion"
   },
   "71500100": {
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMowing/T_IconMowing_46.T_IconMowing_46",
@@ -14210,7 +14270,7 @@
     "name": "Reveler Captain's Seal"
   },
   "71500103": {
-    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMowing/T_IconMowing_43.T_IconMowing_43",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMowing/T_IconMowing_58.T_IconMowing_58",
     "rank": 5,
     "tag": [
       "Token"
@@ -14219,10 +14279,10 @@
       50
     ],
     "type": 0,
-    "name": ""
+    "name": "Lamp That Illuminates the Illusion"
   },
   "71500104": {
-    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMowing/T_IconMowing_45.T_IconMowing_45",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMowing/T_IconMowing_54.T_IconMowing_54",
     "rank": 5,
     "tag": [
       "Token"
@@ -14231,7 +14291,7 @@
       50
     ],
     "type": 0,
-    "name": ""
+    "name": "The Wish with Husk Alone"
   },
   "71500105": {
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMowing/T_IconMowing_50.T_IconMowing_50",
@@ -15095,7 +15155,7 @@
       15
     ],
     "type": 0,
-    "name": "Stay tuned"
+    "name": ""
   },
   "72010100": {
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Level_002_4_UI.T_IconTask_Level_002_4_UI",
@@ -17016,6 +17076,30 @@
     ],
     "type": 1,
     "name": "Gilded Jadeite"
+  },
+  "80001090": {
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconCook/T_IconCook_SP_31_UI.T_IconCook_SP_31_UI",
+    "rank": 4,
+    "tag": [
+      "Dish"
+    ],
+    "tagnum": [
+      23
+    ],
+    "type": 1,
+    "name": "Mengzhou Fish in Vinegar"
+  },
+  "80001091": {
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconCook/T_IconCook_SP_30_UI.T_IconCook_SP_30_UI",
+    "rank": 3,
+    "tag": [
+      "Dish"
+    ],
+    "tagnum": [
+      23
+    ],
+    "type": 1,
+    "name": "Moonlit Splendor"
   },
   "80001096": {
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconCook/T_IconCook_102_UI.T_IconCook_102_UI",
@@ -19607,6 +19691,102 @@
     "type": 7,
     "name": "When Brilliance Returns"
   },
+  "80110539": {
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMst/T_IconMst_009_UI.T_IconMst_009_UI",
+    "rank": 4,
+    "tag": [
+      "Melody Box"
+    ],
+    "tagnum": [
+      49
+    ],
+    "type": 7,
+    "name": "Clarity of the Transcendent"
+  },
+  "80110540": {
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMst/T_IconMst_009_UI.T_IconMst_009_UI",
+    "rank": 4,
+    "tag": [
+      "Melody Box"
+    ],
+    "tagnum": [
+      49
+    ],
+    "type": 7,
+    "name": "Upstream of Light"
+  },
+  "80110541": {
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMst/T_IconMst_009_UI.T_IconMst_009_UI",
+    "rank": 4,
+    "tag": [
+      "Melody Box"
+    ],
+    "tagnum": [
+      49
+    ],
+    "type": 7,
+    "name": "Vessels Upon the Sky"
+  },
+  "80110542": {
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMst/T_IconMst_009_UI.T_IconMst_009_UI",
+    "rank": 4,
+    "tag": [
+      "Melody Box"
+    ],
+    "tagnum": [
+      49
+    ],
+    "type": 7,
+    "name": "Shifting Clouds"
+  },
+  "80110543": {
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMst/T_IconMst_009_UI.T_IconMst_009_UI",
+    "rank": 4,
+    "tag": [
+      "Melody Box"
+    ],
+    "tagnum": [
+      49
+    ],
+    "type": 7,
+    "name": "Mirage of Yesterdays"
+  },
+  "80110544": {
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMst/T_IconMst_009_UI.T_IconMst_009_UI",
+    "rank": 4,
+    "tag": [
+      "Melody Box"
+    ],
+    "tagnum": [
+      49
+    ],
+    "type": 7,
+    "name": "Skyend Passage"
+  },
+  "80110545": {
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMst/T_IconMst_009_UI.T_IconMst_009_UI",
+    "rank": 4,
+    "tag": [
+      "Melody Box"
+    ],
+    "tagnum": [
+      49
+    ],
+    "type": 7,
+    "name": "Hymn of the Forged Empyrean"
+  },
+  "80110546": {
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMst/T_IconMst_009_UI.T_IconMst_009_UI",
+    "rank": 4,
+    "tag": [
+      "Melody Box"
+    ],
+    "tagnum": [
+      49
+    ],
+    "type": 7,
+    "name": "Sword of Mortals"
+  },
   "80110601": {
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMst/T_IconMst_009_UI.T_IconMst_009_UI",
     "rank": 4,
@@ -20435,6 +20615,30 @@
     "type": 0,
     "name": "Lightning in Prism"
   },
+  "80130066": {
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_Title_04_UI.T_IconA_Title_04_UI",
+    "rank": 5,
+    "tag": [
+      "Title"
+    ],
+    "tagnum": [
+      51
+    ],
+    "type": 0,
+    "name": "Immortal's Mortal Dream"
+  },
+  "80130067": {
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_Title_04_UI.T_IconA_Title_04_UI",
+    "rank": 5,
+    "tag": [
+      "Title"
+    ],
+    "tagnum": [
+      51
+    ],
+    "type": 0,
+    "name": "Dust and Nether"
+  },
   "80131001": {
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_Title_05_UI.T_IconA_Title_05_UI",
     "rank": 5,
@@ -20592,7 +20796,7 @@
     "name": "\"Until We Meet Again\""
   },
   "80131014": {
-    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_Title_MowingTower35_UI.T_IconA_Title_MowingTower35_UI",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_Title_14_UI.T_IconA_Title_14_UI",
     "rank": 5,
     "tag": [
       "Title"
@@ -20601,7 +20805,7 @@
       51
     ],
     "type": 0,
-    "name": ""
+    "name": "Resonance! Best Combo"
   },
   "80200001": {
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_Act_Xia04_UI.T_IconA_Act_Xia04_UI",
@@ -21372,40 +21576,40 @@
     "name": "Constable Token"
   },
   "80700041": {
-    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/Activity/Activity33/Infrastructure/T_IconA_Infrastructure_01_UI.T_IconA_Infrastructure_01_UI",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Task_251_UI.T_IconTask_Task_251_UI",
     "rank": 5,
     "tag": [
-      "Stay tuned"
+      "Expedition Motorbike Display Theme"
     ],
     "tagnum": [
       63
     ],
     "type": 0,
-    "name": "Stay tuned"
+    "name": "Startorch Academy Garage Key"
   },
   "80700042": {
-    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/Activity/Activity33/Infrastructure/T_IconA_Infrastructure_01_UI.T_IconA_Infrastructure_01_UI",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Task_250_UI.T_IconTask_Task_250_UI",
     "rank": 5,
     "tag": [
-      "Stay tuned"
+      "Expedition Motorbike Display Theme"
     ],
     "tagnum": [
       63
     ],
     "type": 0,
-    "name": "Stay tuned"
+    "name": "Land of Xuanfang Garage Key"
   },
   "80700051": {
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Task_249_UI.T_IconTask_Task_249_UI",
     "rank": 5,
     "tag": [
-      "Stay tuned"
+      "Instrument"
     ],
     "tagnum": [
       64
     ],
     "type": 7,
-    "name": "Stay tuned"
+    "name": "Wish for Peace - Drifting Resonance"
   },
   "80800001": {
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMoto/T_IconMoto_017_UI.T_IconMoto_017_UI",
@@ -21564,84 +21768,84 @@
     "name": "Fest Decor Collection VIII"
   },
   "89101001": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon17.T_MotoDIYStickerIcon17",
     "rank": 4,
-    "name": "Blue Indigo"
+    "name": "Student Abby!"
   },
   "89101002": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon29.T_MotoDIYStickerIcon29",
     "rank": 4,
-    "name": "Blue Indigo"
+    "name": "Carefree Rainbow"
   },
   "89101003": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "rank": 4,
-    "name": "Blue Indigo"
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon34.T_MotoDIYStickerIcon34",
+    "rank": 5,
+    "name": "Farewell to Yesterday"
   },
   "89101004": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "rank": 4,
-    "name": "Blue Indigo"
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon39.T_MotoDIYStickerIcon39",
+    "rank": 5,
+    "name": "Girl with Exostrider"
   },
   "89101005": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "rank": 4,
-    "name": "Blue Indigo"
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon59.T_MotoDIYStickerIcon59",
+    "rank": 5,
+    "name": "Singer in Deepspace"
   },
   "89101006": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "rank": 4,
-    "name": "Blue Indigo"
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon54.T_MotoDIYStickerIcon54",
+    "rank": 5,
+    "name": "Lunar Causality"
   },
   "89101007": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "rank": 4,
-    "name": "Blue Indigo"
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon49.T_MotoDIYStickerIcon49",
+    "rank": 5,
+    "name": "Horizon Lookout"
   },
   "89101008": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon37.T_MotoDIYStickerIcon37",
     "rank": 4,
-    "name": "Blue Indigo"
+    "name": "Wuther as One"
   },
   "89101009": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "rank": 4,
-    "name": "Blue Indigo"
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon65.T_MotoDIYStickerIcon65",
+    "rank": 5,
+    "name": "QUEEN"
   },
   "89101010": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "rank": 4,
-    "name": "Blue Indigo"
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon61.T_MotoDIYStickerIcon61",
+    "rank": 5,
+    "name": "VIOLET"
   },
   "89101011": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon69.T_MotoDIYStickerIcon69",
     "rank": 4,
-    "name": "Blue Indigo"
+    "name": "Call from Beyond the Stars"
   },
   "89101012": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "rank": 4,
-    "name": "Blue Indigo"
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon79.T_MotoDIYStickerIcon79",
+    "rank": 5,
+    "name": "Snow, Moon, and Flowers"
   },
   "89101013": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon82.T_MotoDIYStickerIcon82",
     "rank": 4,
-    "name": "Blue Indigo"
+    "name": "Flowers For You"
   },
   "89101994": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon25.T_MotoDIYStickerIcon25",
     "rank": 4,
-    "name": "Blue Indigo"
+    "name": "Bright Yellow"
   },
   "89101995": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon27.T_MotoDIYStickerIcon27",
     "rank": 4,
-    "name": "Blue Indigo"
+    "name": "Vermilion"
   },
   "89101996": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon26.T_MotoDIYStickerIcon26",
     "rank": 4,
-    "name": "Blue Indigo"
+    "name": "Deep Purple"
   },
   "89101998": {
     "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
@@ -21654,79 +21858,79 @@
     "name": "Ink Black"
   },
   "89102001": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon31.T_MotoDIYStickerIcon31",
     "rank": 4,
-    "name": "Blue Indigo"
+    "name": "Student Abby!"
   },
   "89102002": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon36.T_MotoDIYStickerIcon36",
     "rank": 4,
-    "name": "Blue Indigo"
+    "name": "Carefree Rainbow"
   },
   "89102003": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "rank": 4,
-    "name": "Blue Indigo"
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon30.T_MotoDIYStickerIcon30",
+    "rank": 5,
+    "name": "Farewell to Yesterday"
   },
   "89102004": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "rank": 4,
-    "name": "Blue Indigo"
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon40.T_MotoDIYStickerIcon40",
+    "rank": 5,
+    "name": "Girl with Exostrider"
   },
   "89102005": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "rank": 4,
-    "name": "Blue Indigo"
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon60.T_MotoDIYStickerIcon60",
+    "rank": 5,
+    "name": "Singer in Deepspace"
   },
   "89102006": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "rank": 4,
-    "name": "Blue Indigo"
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon55.T_MotoDIYStickerIcon55",
+    "rank": 5,
+    "name": "Lunar Causality"
   },
   "89102007": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "rank": 4,
-    "name": "Blue Indigo"
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon48.T_MotoDIYStickerIcon48",
+    "rank": 5,
+    "name": "Horizon Lookout"
   },
   "89102008": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "rank": 4,
-    "name": "Blue Indigo"
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon66.T_MotoDIYStickerIcon66",
+    "rank": 5,
+    "name": "QUEEN"
   },
   "89102009": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "rank": 4,
-    "name": "Blue Indigo"
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon62.T_MotoDIYStickerIcon62",
+    "rank": 5,
+    "name": "VIOLET"
   },
   "89102010": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon70.T_MotoDIYStickerIcon70",
     "rank": 4,
-    "name": "Blue Indigo"
+    "name": "Call from Beyond the Stars"
   },
   "89102011": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "rank": 4,
-    "name": "Blue Indigo"
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon80.T_MotoDIYStickerIcon80",
+    "rank": 5,
+    "name": "Snow, Moon, and Flowers"
   },
   "89102012": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon83.T_MotoDIYStickerIcon83",
     "rank": 4,
-    "name": "Blue Indigo"
+    "name": "Flowers For You"
   },
   "89102994": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon25.T_MotoDIYStickerIcon25",
     "rank": 4,
-    "name": "Blue Indigo"
+    "name": "Bright Yellow"
   },
   "89102995": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon27.T_MotoDIYStickerIcon27",
     "rank": 4,
-    "name": "Blue Indigo"
+    "name": "Vermilion"
   },
   "89102996": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon26.T_MotoDIYStickerIcon26",
     "rank": 4,
-    "name": "Blue Indigo"
+    "name": "Deep Purple"
   },
   "89102998": {
     "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
@@ -21739,354 +21943,354 @@
     "name": "Ink Black"
   },
   "89103001": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon32.T_MotoDIYStickerIcon32",
     "rank": 4,
-    "name": "Blue Indigo"
+    "name": "Student Abby!"
   },
   "89103002": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon08.T_MotoDIYStickerIcon08",
     "rank": 4,
-    "name": "Blue Indigo"
+    "name": "Lemming Charge"
   },
   "89103003": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon33.T_MotoDIYStickerIcon33",
     "rank": 4,
-    "name": "Blue Indigo"
+    "name": "Carefree Rainbow"
   },
   "89103004": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "rank": 4,
-    "name": "Blue Indigo"
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon35.T_MotoDIYStickerIcon35",
+    "rank": 5,
+    "name": "Farewell to Yesterday"
   },
   "89103005": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon07.T_MotoDIYStickerIcon07",
     "rank": 4,
-    "name": "Blue Indigo"
+    "name": "Cube Expert"
   },
   "89103006": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon11.T_MotoDIYStickerIcon11",
     "rank": 4,
-    "name": "Blue Indigo"
+    "name": "Chuu! Chuluu?"
   },
   "89103007": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon03.T_MotoDIYStickerIcon03",
     "rank": 4,
-    "name": "Blue Indigo"
+    "name": "Companionship"
   },
   "89103008": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon16.T_MotoDIYStickerIcon16",
     "rank": 4,
-    "name": "Blue Indigo"
+    "name": "No. 1 Biker"
   },
   "89103010": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon12.T_MotoDIYStickerIcon12",
     "rank": 4,
-    "name": "Blue Indigo"
+    "name": "Happy Soliskin Family"
   },
   "89103011": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon13.T_MotoDIYStickerIcon13",
     "rank": 4,
-    "name": "Blue Indigo"
+    "name": "Studious Soliskin"
   },
   "89103012": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon10.T_MotoDIYStickerIcon10",
     "rank": 4,
-    "name": "Blue Indigo"
+    "name": "Low Fuel"
   },
   "89103013": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon04.T_MotoDIYStickerIcon04",
     "rank": 4,
-    "name": "Blue Indigo"
+    "name": "Repletion"
   },
   "89103014": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon14.T_MotoDIYStickerIcon14",
     "rank": 4,
-    "name": "Blue Indigo"
+    "name": "Dhalifa's Smile"
   },
   "89103015": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon15.T_MotoDIYStickerIcon15",
     "rank": 4,
-    "name": "Blue Indigo"
+    "name": "The Shimmer Comes"
   },
   "89103016": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon18.T_MotoDIYStickerIcon18",
     "rank": 4,
-    "name": "Blue Indigo"
+    "name": "Makoto Yuki"
   },
   "89103017": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon19.T_MotoDIYStickerIcon19",
     "rank": 4,
-    "name": "Blue Indigo"
+    "name": "Aigis"
   },
   "89103018": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon21.T_MotoDIYStickerIcon21",
     "rank": 4,
-    "name": "Blue Indigo"
+    "name": "Joker"
   },
   "89103019": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon20.T_MotoDIYStickerIcon20",
     "rank": 4,
-    "name": "Blue Indigo"
+    "name": "Mona"
   },
   "89103020": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon23.T_MotoDIYStickerIcon23",
     "rank": 4,
-    "name": "Blue Indigo"
+    "name": "Sonic"
   },
   "89103021": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon22.T_MotoDIYStickerIcon22",
     "rank": 4,
-    "name": "Blue Indigo"
+    "name": "Shadow"
   },
   "89103022": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon09.T_MotoDIYStickerIcon09",
     "rank": 4,
-    "name": "Blue Indigo"
+    "name": "Curiosity Takes Flight"
   },
   "89103023": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon05.T_MotoDIYStickerIcon05",
     "rank": 4,
-    "name": "Blue Indigo"
+    "name": "A Cozy Break"
   },
   "89103024": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon06.T_MotoDIYStickerIcon06",
     "rank": 4,
-    "name": "Blue Indigo"
+    "name": "Warmed Up Abby"
   },
   "89103025": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon02.T_MotoDIYStickerIcon02",
     "rank": 4,
-    "name": "Blue Indigo"
+    "name": "A Fleeting Encounter"
   },
   "89103026": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon42.T_MotoDIYStickerIcon42",
     "rank": 4,
-    "name": "Blue Indigo"
+    "name": "Reactor Shadow"
   },
   "89103027": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon43.T_MotoDIYStickerIcon43",
     "rank": 4,
-    "name": "Blue Indigo"
+    "name": "Observer's Eye"
   },
   "89103028": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon44.T_MotoDIYStickerIcon44",
     "rank": 4,
-    "name": "Blue Indigo"
+    "name": "Silent Array"
   },
   "89103029": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon46.T_MotoDIYStickerIcon46",
     "rank": 4,
-    "name": "Blue Indigo"
+    "name": "Flash Freeze"
   },
   "89103030": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon41.T_MotoDIYStickerIcon41",
     "rank": 4,
-    "name": "Blue Indigo"
+    "name": "Ingenuity"
   },
   "89103031": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon50.T_MotoDIYStickerIcon50",
     "rank": 4,
-    "name": "Blue Indigo"
+    "name": "On Thin Ice"
   },
   "89103032": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon51.T_MotoDIYStickerIcon51",
     "rank": 4,
-    "name": "Blue Indigo"
+    "name": "Flux Wings"
   },
   "89103033": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon45.T_MotoDIYStickerIcon45",
     "rank": 4,
-    "name": "Blue Indigo"
+    "name": "Follow the Sunlight"
   },
   "89103034": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon52.T_MotoDIYStickerIcon52",
     "rank": 4,
-    "name": "Blue Indigo"
+    "name": "MOOMOOSSI"
   },
   "89103035": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "rank": 4,
-    "name": "Blue Indigo"
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon67.T_MotoDIYStickerIcon67",
+    "rank": 5,
+    "name": "QUEEN"
   },
   "89103036": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "rank": 4,
-    "name": "Blue Indigo"
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon64.T_MotoDIYStickerIcon64",
+    "rank": 5,
+    "name": "VIOLET"
   },
   "89103038": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon01.T_MotoDIYStickerIcon01",
     "rank": 4,
-    "name": "Blue Indigo"
+    "name": "Melting into the Cobalt Blue Snow"
   },
   "89103039": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon68.T_MotoDIYStickerIcon68",
     "rank": 4,
-    "name": "Blue Indigo"
+    "name": "After Party Smiles"
   },
   "89103040": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon63.T_MotoDIYStickerIcon63",
     "rank": 4,
-    "name": "Blue Indigo"
+    "name": "Memories of the Stars"
   },
   "89103041": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "rank": 4,
-    "name": "Blue Indigo"
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon81.T_MotoDIYStickerIcon81",
+    "rank": 5,
+    "name": "Snow, Moon, and Flowers"
   },
   "89103042": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon84.T_MotoDIYStickerIcon84",
     "rank": 4,
-    "name": "Blue Indigo"
+    "name": "Flowers For You"
   },
   "89103043": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon78.T_MotoDIYStickerIcon78",
     "rank": 4,
-    "name": "Blue Indigo"
+    "name": "Resident Evil"
   },
   "89103044": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon71.T_MotoDIYStickerIcon71",
     "rank": 4,
-    "name": "Blue Indigo"
+    "name": "PRAGMATA"
   },
   "89103045": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon76.T_MotoDIYStickerIcon76",
     "rank": 4,
-    "name": "Blue Indigo"
+    "name": "Hinata Shoyo"
   },
   "89103046": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon77.T_MotoDIYStickerIcon77",
     "rank": 4,
-    "name": "Blue Indigo"
+    "name": "Kageyama Tobio"
   },
   "89103047": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon73.T_MotoDIYStickerIcon73",
     "rank": 4,
-    "name": "Blue Indigo"
+    "name": "Soshiro Hoshina"
   },
   "89103048": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon74.T_MotoDIYStickerIcon74",
     "rank": 4,
-    "name": "Blue Indigo"
+    "name": "Kaiju No. 8"
   },
   "89103049": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon75.T_MotoDIYStickerIcon75",
     "rank": 4,
-    "name": "Blue Indigo"
+    "name": "Riders Republic"
   },
   "89103050": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon72.T_MotoDIYStickerIcon72",
     "rank": 4,
-    "name": "Blue Indigo"
+    "name": "Angry Birds"
   },
   "89103051": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon87.T_MotoDIYStickerIcon87",
     "rank": 4,
-    "name": "Blue Indigo"
+    "name": "Far Reaches of Aurora"
   },
   "89103052": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon89.T_MotoDIYStickerIcon89",
     "rank": 4,
-    "name": "Blue Indigo"
+    "name": "Ever True"
   },
   "89103053": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon88.T_MotoDIYStickerIcon88",
     "rank": 4,
-    "name": "Blue Indigo"
+    "name": "We Promise, We Deliver"
   },
   "89103054": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon86.T_MotoDIYStickerIcon86",
     "rank": 4,
-    "name": "Blue Indigo"
+    "name": "Radiate into the Depths"
   },
   "89103055": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon90.T_MotoDIYStickerIcon90",
     "rank": 4,
-    "name": "Blue Indigo"
+    "name": "Where This Heart Comes From"
   },
   "89103056": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon85.T_MotoDIYStickerIcon85",
     "rank": 4,
-    "name": "Blue Indigo"
+    "name": "Seamless"
   },
   "89103058": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon93.T_MotoDIYStickerIcon93",
     "rank": 4,
-    "name": "Blue Indigo"
+    "name": "Finish Line"
   },
   "89103059": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon99.T_MotoDIYStickerIcon99",
     "rank": 4,
-    "name": "Blue Indigo"
+    "name": "Pagoda Puppet"
   },
   "89103060": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon98.T_MotoDIYStickerIcon98",
     "rank": 4,
-    "name": "Blue Indigo"
+    "name": "Autopuppets, Unite!"
   },
   "89103061": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon97.T_MotoDIYStickerIcon97",
     "rank": 4,
-    "name": "Blue Indigo"
+    "name": "Rebuilding Auto Empire"
   },
   "89103062": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon100.T_MotoDIYStickerIcon100",
     "rank": 4,
-    "name": "Blue Indigo"
+    "name": "Wind-Laced Feathers"
   },
   "89103063": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon101.T_MotoDIYStickerIcon101",
     "rank": 4,
-    "name": "Blue Indigo"
+    "name": "Silky Afterglow"
   },
   "89103064": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon96.T_MotoDIYStickerIcon96",
     "rank": 4,
-    "name": "Blue Indigo"
+    "name": "Escape From Duckov"
   },
   "89103065": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon103.T_MotoDIYStickerIcon103",
     "rank": 4,
-    "name": "Blue Indigo"
+    "name": "Cloud Voyage"
   },
   "89103066": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon104.T_MotoDIYStickerIcon104",
     "rank": 4,
-    "name": "Blue Indigo"
+    "name": "Jadie the Mightiest Autopuppet"
   },
   "89103926": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "rank": 4,
-    "name": "Blue Indigo"
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon38.T_MotoDIYStickerIcon38",
+    "rank": 5,
+    "name": "Girl with Exostrider"
   },
   "89103927": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "rank": 4,
-    "name": "Blue Indigo"
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon58.T_MotoDIYStickerIcon58",
+    "rank": 5,
+    "name": "Singer in Deepspace"
   },
   "89103928": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "rank": 4,
-    "name": "Blue Indigo"
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon53.T_MotoDIYStickerIcon53",
+    "rank": 5,
+    "name": "Lunar Causality"
   },
   "89103929": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "rank": 4,
-    "name": "Blue Indigo"
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon47.T_MotoDIYStickerIcon47",
+    "rank": 5,
+    "name": "Horizon Lookout"
   },
   "89103994": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon25.T_MotoDIYStickerIcon25",
     "rank": 4,
-    "name": "Blue Indigo"
+    "name": "Bright Yellow"
   },
   "89103995": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon27.T_MotoDIYStickerIcon27",
     "rank": 4,
-    "name": "Blue Indigo"
+    "name": "Vermilion"
   },
   "89103996": {
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon26.T_MotoDIYStickerIcon26",
     "rank": 4,
-    "name": "Blue Indigo"
+    "name": "Deep Purple"
   },
   "89103998": {
     "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
@@ -22122,6 +22326,11 @@
     "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon102.T_MotoDIYStickerIcon102",
     "rank": 5,
     "name": "Cloud Ride"
+  },
+  "89400006": {
+    "icon": "",
+    "rank": 1,
+    "name": ""
   },
   "89500001": {
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/Activity/Activity33/CatapultStory/T_IconA_Act_Experience_UI.T_IconA_Act_Experience_UI",

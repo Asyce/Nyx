@@ -3,31 +3,26 @@
   "game": "ww",
   "gameName": "Wuthering Waves",
   "channel": "beta",
-  "version": "3.6.7",
-  "liveVersion": "3.5",
-  "betaVersion": "3.6.7",
+  "version": "3.6",
+  "liveVersion": "3.6",
+  "betaVersion": "3.6",
   "availableVersions": [
-    "3.5",
-    "3.6.1",
-    "3.6.1+8296177",
-    "3.6.5",
-    "3.6.6",
-    "3.6.7"
+    "3.6"
   ],
-  "scrapedAt": "2026-08-14T15:36:02.406Z",
+  "scrapedAt": "2026-08-18T14:59:57.993Z",
   "counts": {
-    "characters": 60,
+    "characters": 62,
     "weapons": 131,
-    "echoes": 183,
-    "monsters": 293,
-    "items": 2327
+    "echoes": 181,
+    "monsters": 302,
+    "items": 2345
   },
   "sourceCounts": {
     "characters": 62,
     "weapons": 131,
-    "echoes": 183,
-    "monsters": 293,
-    "items": 2327
+    "echoes": 181,
+    "monsters": 302,
+    "items": 2345
   },
   "newInManifest": {
     "character": [
@@ -39,25 +34,37 @@
       21020106
     ],
     "echo": [
-      6000219,
-      6000220,
       6000221
     ],
     "monster": [
       310001030,
       320000690,
+      340000113,
+      340000123,
+      340000142,
+      340000172,
+      340000212,
+      340000213,
+      340000221,
+      340000222,
+      340000252,
+      340000261,
       340000320,
-      350000430,
-      350000440
+      350000430
     ],
     "item": [
+      51058,
+      55005,
+      55006,
       41400344,
       44010063,
-      44010064,
+      71200015,
+      71200016,
+      71200017,
+      71200018,
+      71200019,
       71300514,
       71300515,
-      71300516,
-      71300517,
       71500098,
       71500099,
       71500100,
@@ -66,14 +73,27 @@
       71500103,
       71500104,
       71500105,
+      80001090,
+      80001091,
+      80110539,
+      80110540,
+      80110541,
+      80110542,
+      80110543,
+      80110544,
+      80110545,
+      80110546,
+      80130066,
+      80130067,
       80131014,
       80700041,
       80700042,
       80700051,
       89103065,
-      89103066
+      89103066,
+      89400006
     ],
-    "hotfix": "3.5.5"
+    "hotfix": "3.6.4"
   },
   "files": {
     "characters": "GameData/ww/beta/characters.json",
@@ -83,33 +103,10 @@
     "items": "GameData/ww/beta/items.json",
     "raw": "GameData/ww/beta/raw"
   },
-  "assetsPlanned": 2917,
+  "assetsPlanned": 3025,
   "betaOmissions": {
-    "count": 2,
-    "records": [
-      {
-        "section": "characters",
-        "id": "1212",
-        "name": "Stay tuned",
-        "missingAssets": [
-          "GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_74_UI.webp",
-          "GameData/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Jingran_UI.webp",
-          "GameData/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodySuiSui.webp",
-          "GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleJingran.webp"
-        ]
-      },
-      {
-        "section": "characters",
-        "id": "1413",
-        "name": "Qingxiao",
-        "missingAssets": [
-          "GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_73_UI.webp",
-          "GameData/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Qingxiao_UI.webp",
-          "GameData/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodySuiSui.webp",
-          "GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleQingxiao.webp"
-        ]
-      }
-    ]
+    "count": 0,
+    "records": []
   },
   "contentStatus": "Beta records are compared to Live and marked live, beta, or beta_changed."
 }

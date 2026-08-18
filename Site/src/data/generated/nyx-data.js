@@ -4,7 +4,7 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-08-18T10:00:12.047Z",
+  "generatedAt": "2026-08-18T15:02:58.247Z",
   "codes": {
     "updated": "2026-08-18T00:40:57.915Z",
     "maxAgeDays": 28,
@@ -1188,7 +1188,7 @@ var NYX_DB = {
               "icon": "/assets/banners/wuwa/qingxiao-icon-4a0339409ff85cad.png",
               "iconFallback": null,
               "iconZoom": false,
-              "art": "../../Database/Prydwen/ww/assets/characters/qingxiao-df2ddd77ec24.webp",
+              "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleQingxiao.webp",
               "namecard": null,
               "rarity": 5,
               "debut": true,
@@ -1244,10 +1244,10 @@ var NYX_DB = {
         "roadmap": [
           {
             "name": "Jingran",
-            "icon": "/assets/banners/wuwa/a0e1e743f0d6efa832282a01068b456a.png",
+            "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_74_UI.webp",
             "iconFallback": null,
             "iconZoom": false,
-            "art": "../../Database/Prydwen/ww/assets/characters/jingran-2b0e720255d4.webp",
+            "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleJingran.webp",
             "namecard": null,
             "rarity": 5,
             "debut": true,
@@ -178349,7 +178349,7 @@ var NYX_DB = {
           "key": "echoes",
           "title": "Echoes",
           "source": "GameData",
-          "count": 180,
+          "count": 181,
           "items": [
             {
               "id": "ww-echo-6000038",
@@ -179876,6 +179876,17 @@ var NYX_DB = {
               "text": "340000310"
             },
             {
+              "id": "ww-echo-6000221",
+              "name": "Calamity Effigy",
+              "kind": "echo",
+              "art": "../../Database/GameData/ww/assets/echoes/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34032_UI.webp",
+              "fields": {
+                "rarity": "Unknown",
+                "cost": 2
+              },
+              "text": "340000320"
+            },
+            {
               "id": "ww-echo-390070051",
               "name": "Vanguard Junrock",
               "kind": "echo",
@@ -180450,7 +180461,7 @@ var NYX_DB = {
               "icon": "/assets/banners/wuwa/qingxiao-icon-4a0339409ff85cad.png",
               "iconFallback": null,
               "iconZoom": false,
-              "art": "../../Database/Prydwen/ww/assets/characters/qingxiao-df2ddd77ec24.webp",
+              "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleQingxiao.webp",
               "namecard": null,
               "rarity": 5,
               "debut": true,
@@ -180506,10 +180517,10 @@ var NYX_DB = {
         "roadmap": [
           {
             "name": "Jingran",
-            "icon": "/assets/banners/wuwa/a0e1e743f0d6efa832282a01068b456a.png",
+            "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_74_UI.webp",
             "iconFallback": null,
             "iconZoom": false,
-            "art": "../../Database/Prydwen/ww/assets/characters/jingran-2b0e720255d4.webp",
+            "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleJingran.webp",
             "namecard": null,
             "rarity": 5,
             "debut": true,
@@ -180882,6 +180893,21 @@ var NYX_DB = {
           "forms": []
         },
         {
+          "id": "ww-qingxiao",
+          "name": "Qingxiao",
+          "aliases": [],
+          "rarity": 5,
+          "element": "Aero",
+          "role": "Sword",
+          "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_73_UI.webp",
+          "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleQingxiao.webp",
+          "facts": {
+            "nation": "Huanglong",
+            "influence": "Ministry of War"
+          },
+          "forms": []
+        },
+        {
           "id": "ww-sigrika",
           "name": "Sigrika",
           "aliases": [],
@@ -181173,6 +181199,21 @@ var NYX_DB = {
             "nation": "New Federation",
             "influence": "\"Ghost Hounds\"",
             "title": "Phantom Hunters"
+          },
+          "forms": []
+        },
+        {
+          "id": "ww-jingran",
+          "name": "Jingran",
+          "aliases": [],
+          "rarity": 5,
+          "element": "Fusion",
+          "role": "Broadblade",
+          "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_74_UI.webp",
+          "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleJingran.webp",
+          "facts": {
+            "nation": "Huanglong",
+            "influence": "Nethermancer"
           },
           "forms": []
         },
@@ -181521,30 +181562,6 @@ var NYX_DB = {
           "facts": {
             "title": "The Moon Fox"
           },
-          "forms": []
-        },
-        {
-          "id": "ww-jingran",
-          "name": "Jingran",
-          "aliases": [],
-          "rarity": 5,
-          "element": "Fusion",
-          "role": "Broadblade",
-          "icon": null,
-          "art": "../../Database/Prydwen/ww/assets/characters/jingran-2b0e720255d4.webp",
-          "facts": {},
-          "forms": []
-        },
-        {
-          "id": "ww-qingxiao",
-          "name": "Qingxiao",
-          "aliases": [],
-          "rarity": 5,
-          "element": "Aero",
-          "role": "Sword",
-          "icon": null,
-          "art": "../../Database/Prydwen/ww/assets/characters/qingxiao-df2ddd77ec24.webp",
-          "facts": {},
           "forms": []
         },
         {

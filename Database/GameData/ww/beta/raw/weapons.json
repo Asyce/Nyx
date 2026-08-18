@@ -1547,10 +1547,10 @@
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconWeapon/T_IconWeapon80080009_UI.T_IconWeapon80080009_UI",
     "rank": 5,
     "type": 2,
-    "en": "",
-    "desc": "",
-    "ko": "",
-    "zh": "",
-    "ja": ""
+    "en": "Projection: Blade of a Thousand Arts",
+    "desc": "A projection that reshapes the sword.\nThe silhouette of this sword clearly echoes ancient Huanglong craftsmanship, yet its creator gave it a radical redesign: swapping the traditional metallic edge for an ultra-fine energy jet.\nMuch like other entities from the Endstate Matrix, a familiar weapon has been digitally warped into something entirely unprecedented.",
+    "ko": "투영 · 수천의 기예가 벼린 칼날",
+    "zh": "投影·千技成锋",
+    "ja": "投影・千技の鋭鋒"
   }
 }

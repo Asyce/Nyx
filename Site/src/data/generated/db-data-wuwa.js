@@ -12,7 +12,7 @@
       "key": "monsters",
       "title": "Monsters",
       "source": "GameData",
-      "count": 287,
+      "count": 301,
       "items": [
         {
           "id": "ww-mon-310000010",
@@ -1230,6 +1230,17 @@
           "text": "A Tacet Discord that attacks targets at range within the Tacet Field."
         },
         {
+          "id": "ww-mon-310001030",
+          "name": "Jade Nether Serpent",
+          "kind": "monster",
+          "art": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31103_UI.webp",
+          "fields": {
+            "rarity": "1 \u2605",
+            "element": "Fusion"
+          },
+          "text": "Autopuppets responsible for detaining and transporting Reverberations within the Censure Courts. Usually, they disguise themselves as antiques and only reveal their serpent form when approached. Sightings of them has declined over the years."
+        },
+        {
           "id": "ww-mon-320000010",
           "name": "Stonewall Bracer",
           "kind": "monster",
@@ -1996,6 +2007,17 @@
           "text": "Within the Censure Court lies an Autopuppet hailed as the Censure Court's Apparatus.\" Legends tell it bears an enormous form and is especially formidable in strength."
         },
         {
+          "id": "ww-mon-320000690",
+          "name": "Skywatch Lancer",
+          "kind": "monster",
+          "art": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32069_UI.webp",
+          "fields": {
+            "rarity": "2 \u2605",
+            "element": "Aero"
+          },
+          "text": "Clad in steel feather armor, wielding a lance. It excels at proving covering firing from the sky. But its existence seems to only be found in the historical records of the Land of Xuanfang."
+        },
+        {
           "id": "ww-mon-330000010",
           "name": "Tempest Mephis",
           "kind": "monster",
@@ -2337,6 +2359,17 @@
           "text": "A special Tacet Discord that lurks in the intricate network of the Dreamscape Nodes."
         },
         {
+          "id": "ww-mon-340000113",
+          "name": "Phantom of Sunken Reverie",
+          "kind": "monster",
+          "art": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_33021_UI.webp",
+          "fields": {
+            "rarity": "2 \u2605",
+            "element": "Glacio"
+          },
+          "text": "A special Tacet Discord that lurks in the intricate network of the Dreamscape Nodes."
+        },
+        {
           "id": "ww-mon-340000120",
           "name": "Fleurdelys",
           "kind": "monster",
@@ -2361,6 +2394,17 @@
         {
           "id": "ww-mon-340000122",
           "name": "Fleurdelys",
+          "kind": "monster",
+          "art": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34012_UI.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "element": "Aero"
+          },
+          "text": "The otherworldly being that slumbers atop Avinoleum, a prophecy bestowed upon the mortal realm by the Divinity."
+        },
+        {
+          "id": "ww-mon-340000123",
+          "name": "Vessel of the Fallen Dream",
           "kind": "monster",
           "art": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34012_UI.webp",
           "fields": {
@@ -2396,6 +2440,17 @@
           "name": "Lioness of Glory",
           "kind": "monster",
           "art": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_QX_33022_UI.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "element": "Fusion"
+          },
+          "text": "The guardian of Septimont, dwelling within the ancient arena. A lioness of battle, forged from stone and echoing roar."
+        },
+        {
+          "id": "ww-mon-340000142",
+          "name": "Apex Champion of the Citadel",
+          "kind": "monster",
+          "art": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_33022_UI.webp",
           "fields": {
             "rarity": "3 \u2605",
             "element": "Fusion"
@@ -2451,6 +2506,17 @@
           "name": "The False Sovereign",
           "kind": "monster",
           "art": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_QX_34017_UI.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "element": "Electro"
+          },
+          "text": "A humanoid shell formed of black sludge. It takes its place among the prey, patiently awaiting the hunters it was made to devour."
+        },
+        {
+          "id": "ww-mon-340000172",
+          "name": "Eternal Husk of Sovereign",
+          "kind": "monster",
+          "art": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34017_UI.webp",
           "fields": {
             "rarity": "3 \u2605",
             "element": "Electro"
@@ -2535,6 +2601,27 @@
           "text": "The Spacetrek Collective's first detection array built at Sundermere to monitor and stabilize the Reactor Drive's energy state in real time."
         },
         {
+          "id": "ww-mon-340000212",
+          "name": "Star Gazer of Silent Void",
+          "kind": "monster",
+          "art": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34021_UI.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "element": "Spectro"
+          },
+          "text": "The Spacetrek Collective's first detection array built at Sundermere to monitor and stabilize the Reactor Drive's energy state in real time."
+        },
+        {
+          "id": "ww-mon-340000213",
+          "name": "Star Gazer of Silent Void",
+          "kind": "monster",
+          "art": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34021_UI.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "The Spacetrek Collective's first detection array built at Sundermere to monitor and stabilize the Reactor Drive's energy state in real time."
+        },
+        {
           "id": "ww-mon-340000220",
           "name": "Reactor Husk",
           "kind": "monster",
@@ -2542,6 +2629,27 @@
           "fields": {
             "rarity": "3 \u2605",
             "element": "Fusion"
+          },
+          "text": "A Reactor Drive component. When the Drive's immune response is triggered, its battle logic will activate to eliminate all intruders."
+        },
+        {
+          "id": "ww-mon-340000221",
+          "name": "Feral Meltdown",
+          "kind": "monster",
+          "art": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34022_UI.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "element": "Fusion"
+          },
+          "text": "A Reactor Drive component. When the Drive's immune response is triggered, its battle logic will activate to eliminate all intruders."
+        },
+        {
+          "id": "ww-mon-340000222",
+          "name": "Feral Meltdown",
+          "kind": "monster",
+          "art": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34022_UI.webp",
+          "fields": {
+            "rarity": "3 \u2605"
           },
           "text": "A Reactor Drive component. When the Drive's immune response is triggered, its battle logic will activate to eliminate all intruders."
         },
@@ -2590,8 +2698,29 @@
           "text": "A wordless black mech, lost and longing to return home."
         },
         {
+          "id": "ww-mon-340000252",
+          "name": "Stellar Wayfarer",
+          "kind": "monster",
+          "art": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34025_0_UI.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "A wordless black mech, lost and longing to return home."
+        },
+        {
           "id": "ww-mon-340000260",
           "name": "Nameless Explorer",
+          "kind": "monster",
+          "art": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34026_UI.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "element": "Aero"
+          },
+          "text": "An ancient remnant entombed under the permafrost, a prisoner by its own hand."
+        },
+        {
+          "id": "ww-mon-340000261",
+          "name": "Desolate Apparition",
           "kind": "monster",
           "art": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34026_UI.webp",
           "fields": {
@@ -2686,6 +2815,17 @@
             "element": "Havoc"
           },
           "text": "A massive Autopuppet formed by absorbing the buildings of the Censure Court, bound by the battlefields of old, and bringing down merciless blades upon the enemies before it."
+        },
+        {
+          "id": "ww-mon-340000320",
+          "name": "Calamity Effigy",
+          "kind": "monster",
+          "art": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34032_UI.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "element": "Aero"
+          },
+          "text": "A mystic Autopuppet that strolls in the sky. An epitome of mechanist arts at their peak."
         },
         {
           "id": "ww-mon-350000010",
@@ -3141,6 +3281,17 @@
           "text": "A Tacet Discord that engages in close combat within the Tacet Field.",
           "artStatus": "intentional-fallback",
           "artSource": "neutral-database-placeholder"
+        },
+        {
+          "id": "ww-mon-350000430",
+          "name": "Phantom: Myriad Snare: Rustfire Chassis",
+          "kind": "monster",
+          "art": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_SG_34030_UI.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "element": "Fusion"
+          },
+          "text": "A ruined giant shadow lurking within the Skyworks. It has nearly been forgotten, yet still clings to the directive to wipe out the Tacet Discords to the bitter end."
         }
       ]
     },
@@ -3148,7 +3299,7 @@
       "key": "items",
       "title": "Items",
       "source": "GameData",
-      "count": 2285,
+      "count": 2326,
       "items": [
         {
           "id": "ww-item-1",
@@ -5190,6 +5341,17 @@
           "text": "Obtain to receive the items inside."
         },
         {
+          "id": "ww-item-51058",
+          "name": "Shaftpost Yard's Tuning Collection",
+          "kind": "item",
+          "art": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.webp",
+          "fields": {
+            "rarity": "5 \u2605",
+            "type": "Supply Chest"
+          },
+          "text": "Obtain to receive the items inside."
+        },
+        {
           "id": "ww-item-52001",
           "name": "Awakening Bundle (For Pre-Sales)",
           "kind": "item",
@@ -5370,6 +5532,17 @@
           "name": "New Voyage Battlesong Pack",
           "kind": "item",
           "art": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.webp",
+          "fields": {
+            "rarity": "5 \u2605",
+            "type": "Supply Chest"
+          },
+          "text": "Obtain to receive the items inside."
+        },
+        {
+          "id": "ww-item-52020",
+          "name": "Returnee's Forgery Aid",
+          "kind": "item",
+          "art": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_097_UI.webp",
           "fields": {
             "rarity": "5 \u2605",
             "type": "Supply Chest"
@@ -5641,6 +5814,28 @@
           "text": "Used to unlock the corresponding Echo Aspect set."
         },
         {
+          "id": "ww-item-55005",
+          "name": "Cloudbloom",
+          "kind": "item",
+          "art": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_7_a_UI.webp",
+          "fields": {
+            "rarity": "5 \u2605",
+            "type": "Supply Chest"
+          },
+          "text": "Used to unlock the corresponding Echo Aspect set."
+        },
+        {
+          "id": "ww-item-55006",
+          "name": "Snowpaw",
+          "kind": "item",
+          "art": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_7_a_UI.webp",
+          "fields": {
+            "rarity": "5 \u2605",
+            "type": "Supply Chest"
+          },
+          "text": "Used to unlock the corresponding Echo Aspect set."
+        },
+        {
           "id": "ww-item-10001102",
           "name": "Sanhua's Waveband",
           "kind": "item",
@@ -5852,6 +6047,17 @@
           "text": "Can be used to activate Denia's Resonance Chain."
         },
         {
+          "id": "ww-item-10001212",
+          "name": "Jingran's Waveband",
+          "kind": "item",
+          "art": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_Part_1629_UI.webp",
+          "fields": {
+            "rarity": "5 \u2605",
+            "type": "Waveband"
+          },
+          "text": "Used to activate Jingran's Resonance Chain."
+        },
+        {
           "id": "ww-item-10001301",
           "name": "Calcharo's Waveband",
           "kind": "item",
@@ -6061,6 +6267,17 @@
             "type": "Waveband"
           },
           "text": "Can be used to activate Sigrika's Resonance Chain."
+        },
+        {
+          "id": "ww-item-10001413",
+          "name": "Qingxiao's Waveband",
+          "kind": "item",
+          "art": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_Part_1630_UI.webp",
+          "fields": {
+            "rarity": "5 \u2605",
+            "type": "Waveband"
+          },
+          "text": "Used to activate Qingxiao's Resonance Chain."
         },
         {
           "id": "ww-item-10001500",
@@ -7372,6 +7589,17 @@
             "type": "Resonator Ascension Material"
           },
           "text": "Myriad Snare: Rustfire Chassis's drop, used for Resonator Ascension."
+        },
+        {
+          "id": "ww-item-41400344",
+          "name": "Forged Empyrean's Sigh",
+          "kind": "item",
+          "art": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_030_UI.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Resonator Ascension Material"
+          },
+          "text": "Calamity Effigy's drop, used for Resonator Ascension."
         },
         {
           "id": "ww-item-42100001",
@@ -10231,7 +10459,7 @@
             "rarity": "4 \u2605",
             "type": "Special Token"
           },
-          "text": "Special drops from the Huanglong region, which can be used to exchange for various items in the Souvenir Store."
+          "text": "Special drops from the Jinzhou, Huanglong region, which can be used to exchange for various items in the Souvenir Store."
         },
         {
           "id": "ww-item-44010026",
@@ -10579,6 +10807,17 @@
           "name": "Phantom: Smiter",
           "kind": "item",
           "art": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_31090_UI.webp",
+          "fields": {
+            "rarity": "5 \u2605",
+            "type": "Phantom Appearance"
+          },
+          "text": "Unlocks the Phantom Appearance of the corresponding Echo."
+        },
+        {
+          "id": "ww-item-44010063",
+          "name": "Phantom: Myriad Snare: Rustfire Chassis",
+          "kind": "item",
+          "art": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_34030_UI.webp",
           "fields": {
             "rarity": "5 \u2605",
             "type": "Phantom Appearance"
@@ -11832,7 +12071,7 @@
           "id": "ww-item-50000215",
           "name": "5-Star Weapon Supply Chest - New Voyage",
           "kind": "item",
-          "art": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_003_UI.webp",
+          "art": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_Act_CumulativeRechargeGift_UI.webp",
           "fields": {
             "rarity": "5 \u2605",
             "type": "Supply Chest"
@@ -12244,7 +12483,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Frosty Resolve.\n\n2pcs Set: Resonance Skill DMG +12%.\n\n5pcs Set: Casting Resonance Liberation grants 30% Glacio DMG Bonus and 30% Resonance Skill DMG Bonus for 6s."
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Frosty Resolve.\n\n2pcs Set: Resonance Skill DMG +12%.\n\n5pcs Set: Casting Resonance Skill grants 22.5% Glacio DMG Bonus for 15s and casting Resonance Liberation increases Resonance Skill DMG by 18%, lasting for 5s. This effect stacks up to 2 times."
         },
         {
           "id": "ww-item-50001093",
@@ -12299,7 +12538,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Frosty Resolve.\n\n2pcs Set: Resonance Skill DMG +12%.\n\n5pcs Set: Casting Resonance Liberation grants 30% Glacio DMG Bonus and 30% Resonance Skill DMG Bonus for 6s."
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Frosty Resolve.\n\n2pcs Set: Resonance Skill DMG +12%.\n\n5pcs Set: Casting Resonance Skill grants 22.5% Glacio DMG Bonus for 15s and casting Resonance Liberation increases Resonance Skill DMG by 18%, lasting for 5s. This effect stacks up to 2 times."
         },
         {
           "id": "ww-item-50001098",
@@ -13839,7 +14078,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Heart of Evil's Purge\n\n2pcs Set: Aero DMG +10%.\n\n5pcs Set: Inflicting Tune Strain - Shifting inreases Crit. DMG by 20% and Aero DMG Bonus by 30% for 15s."
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Heart of Evil's Purge\n\n2pcs Set: Aero DMG +10%.\n\n5pcs Set: Inflicting Tune Strain - Shifting increases Crit. DMG by 20% and Aero DMG Bonus by 30% for 15s."
         },
         {
           "id": "ww-item-50032003",
@@ -13874,7 +14113,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Heart of Evil's Purge\n\n2pcs Set: Aero DMG +10%.\n\n5pcs Set: Inflicting Tune Strain - Shifting inreases Crit. DMG by 20% and Aero DMG Bonus by 30% for 15s.",
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Heart of Evil's Purge\n\n2pcs Set: Aero DMG +10%.\n\n5pcs Set: Inflicting Tune Strain - Shifting increases Crit. DMG by 20% and Aero DMG Bonus by 30% for 15s.",
           "artStatus": "intentional-fallback",
           "artSource": "neutral-database-placeholder"
         },
@@ -17401,6 +17640,61 @@
           "text": "A painting from another world. Is it a real piece? Hell knows."
         },
         {
+          "id": "ww-item-71200015",
+          "name": "Qingfu Pendant",
+          "kind": "item",
+          "art": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconTask/T_IconTask_Task_245_UI.webp",
+          "fields": {
+            "rarity": "5 \u2605",
+            "type": "Quest Item"
+          },
+          "text": "A mysterious pendant retrieved from the Fogveil Pagoda. Seems to be a clue left behind by Cat of the Nether Lamp."
+        },
+        {
+          "id": "ww-item-71200016",
+          "name": "Sword Talisman Pendant",
+          "kind": "item",
+          "art": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconTask/T_IconTask_Task_247_UI.webp",
+          "fields": {
+            "rarity": "5 \u2605",
+            "type": "Quest Item"
+          },
+          "text": "A keepsake gifted to you by Qingxiao. This jade sword glimmers with a chilling, emerald glow."
+        },
+        {
+          "id": "ww-item-71200017",
+          "name": "\"Swordcraft of the Golden-Eyed One\"",
+          "kind": "item",
+          "art": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconTask/T_IconTask_Task_248_UI.webp",
+          "fields": {
+            "rarity": "5 \u2605",
+            "type": "Quest Item"
+          },
+          "text": "An old swordcraft manual. Many of the sword moves pictured within seem familiar to you."
+        },
+        {
+          "id": "ww-item-71200018",
+          "name": "Moonlit Splendor",
+          "kind": "item",
+          "art": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconCook/T_IconCook_SP_30_UI.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Quest Item"
+          },
+          "text": "A confection Yanshu asked you to give to Jingran. Seems to be fresh out of the oven."
+        },
+        {
+          "id": "ww-item-71200019",
+          "name": "Mirage Seeker's Tales (Advance Copy)",
+          "kind": "item",
+          "art": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconTask/T_IconTask_Task_246_UI.webp",
+          "fields": {
+            "rarity": "5 \u2605",
+            "type": "Quest Item"
+          },
+          "text": "An advance copy of a novel found on a Cloud Shuttle, recounting the strange encounters of a Nethermancer across Mirage Realms. It seems someone has jotted down a few comments on some pages."
+        },
+        {
           "id": "ww-item-71210001",
           "name": "Treasure Map to Sword of Courage",
           "kind": "item",
@@ -18081,6 +18375,28 @@
             "type": "Quest Item"
           },
           "text": "Data gathered across Fogveil Pagoda, required to unlock the path to the Fogveil Pivot."
+        },
+        {
+          "id": "ww-item-71300514",
+          "name": "Talisman",
+          "kind": "item",
+          "art": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_Act_Navigation12_UI.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Quest Item"
+          },
+          "text": "A \"talisman\" discovered by Ministry of War personnel while investigating the \"Soul Summoning\" ritual. It can be used to pinpoint where the ritual is being held."
+        },
+        {
+          "id": "ww-item-71300515",
+          "name": "Lyu Yi's Ledger",
+          "kind": "item",
+          "art": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconTask/T_IconTask_Task_033_UI.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Quest Item"
+          },
+          "text": "The ledger of Lyu Yi, recording his day-to-day expenses."
         },
         {
           "id": "ww-item-71320001",
@@ -19151,6 +19467,94 @@
         },
         {
           "id": "ww-item-71500097",
+          "name": "The Scale of Heart and Soul",
+          "kind": "item",
+          "art": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMowing/T_IconMowing_50.webp",
+          "fields": {
+            "rarity": "5 \u2605",
+            "type": "Token"
+          },
+          "text": "Inflicting Tune Strain - Shifting increases the Resonator's total DMG dealt by 40% for 30s.\nDealing Tune Break DMG grants 30% All-Attribute DMG Bonus plus an additional 30% Aero DMG Bonus to all Resonators in the team for 30s.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
+        },
+        {
+          "id": "ww-item-71500098",
+          "name": "Reveler Captain's Seal",
+          "kind": "item",
+          "art": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMowing/T_IconMowing_18.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Token"
+          },
+          "text": "Amplifies all Attribute DMG by 25%.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
+        },
+        {
+          "id": "ww-item-71500099",
+          "name": "Lamp That Illuminates the Illusion",
+          "kind": "item",
+          "art": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMowing/T_IconMowing_58.webp",
+          "fields": {
+            "rarity": "5 \u2605",
+            "type": "Token"
+          },
+          "text": "Gaining Shield grants the Resonator 3% Fusion DMG Bonus and increases their total Heavy Attack DMG by 2.5% for 3s, stacking up to 15 times. Retriggering this effect refreshes the duration.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
+        },
+        {
+          "id": "ww-item-71500100",
+          "name": "The Eye That Gazes into the Abyss",
+          "kind": "item",
+          "art": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMowing/T_IconMowing_46.webp",
+          "fields": {
+            "rarity": "5 \u2605",
+            "type": "Token"
+          },
+          "text": "Enemies take 50% more total Glacio Chafe DMG.\nInflicting Glacio Chafe on the enemies increases total Glacio DMG by 50% for 5s.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
+        },
+        {
+          "id": "ww-item-71500101",
+          "name": "The Scale of Heart and Soul",
+          "kind": "item",
+          "art": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMowing/T_IconMowing_50.webp",
+          "fields": {
+            "rarity": "5 \u2605",
+            "type": "Token"
+          },
+          "text": "Inflicting Tune Strain - Shifting increases the Resonator's total DMG dealt by 40% for 30s.\nDealing Tune Break DMG grants 30% All-Attribute DMG Bonus plus an additional 30% Aero DMG Bonus to all Resonators in the team for 30s.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
+        },
+        {
+          "id": "ww-item-71500102",
+          "name": "Reveler Captain's Seal",
+          "kind": "item",
+          "art": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMowing/T_IconMowing_18.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Token"
+          },
+          "text": "Amplifies all Attribute DMG by 25%.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
+        },
+        {
+          "id": "ww-item-71500103",
+          "name": "Lamp That Illuminates the Illusion",
+          "kind": "item",
+          "art": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMowing/T_IconMowing_58.webp",
+          "fields": {
+            "rarity": "5 \u2605",
+            "type": "Token"
+          },
+          "text": "Gaining Shield grants the Resonator 3% Fusion DMG Bonus and increases their total Heavy Attack DMG by 2.5% for 3s, stacking up to 15 times. Retriggering this effect refreshes the duration.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
+        },
+        {
+          "id": "ww-item-71500104",
+          "name": "The Wish with Husk Alone",
+          "kind": "item",
+          "art": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMowing/T_IconMowing_54.webp",
+          "fields": {
+            "rarity": "5 \u2605",
+            "type": "Token"
+          },
+          "text": "Enemies take 30% more total Electro DMG.\nResonators deal 30% more total Electro DMG for 15s upon casting Intro Skill.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
+        },
+        {
+          "id": "ww-item-71500105",
           "name": "The Scale of Heart and Soul",
           "kind": "item",
           "art": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMowing/T_IconMowing_50.webp",
@@ -21127,7 +21531,7 @@
             "rarity": "4 \u2605",
             "type": "Dish"
           },
-          "text": "Increases ATK of all Resonators in the team by 25% for 30m. Only effective on your own Resonators in Co-op Mode."
+          "text": "Increases ATK of all Resonators in the team by 30% for 30m. Only effective on your own Resonators in Co-op Mode."
         },
         {
           "id": "ww-item-80000097",
@@ -21691,6 +22095,28 @@
           "text": "Grants 44% Resonance Liberation DMG Bonus to all Resonators in the team for 30m. Only effective on your own Resonators in Co-op Mode."
         },
         {
+          "id": "ww-item-80001090",
+          "name": "Mengzhou Fish in Vinegar",
+          "kind": "item",
+          "art": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconCook/T_IconCook_SP_31_UI.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Dish"
+          },
+          "text": "Increases Energy Regen of all Resonators in the team by 34% for 30 min. Only effective on your own Resonators in Co-op Mode."
+        },
+        {
+          "id": "ww-item-80001091",
+          "name": "Moonlit Splendor",
+          "kind": "item",
+          "art": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconCook/T_IconCook_SP_30_UI.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Dish"
+          },
+          "text": "Increases ATK of all Resonators in the team by 28% for 30 min. Only effective on your own Resonators in Co-op Mode."
+        },
+        {
           "id": "ww-item-80001096",
           "name": "The Secret of Delicacy",
           "kind": "item",
@@ -21699,7 +22125,7 @@
             "rarity": "4 \u2605",
             "type": "Dish"
           },
-          "text": "Increases ATK of all Resonators in the team by 28%, lasting for 30m. Only effective on your own Resonators in Co-op Mode."
+          "text": "Increases ATK of all Resonators in the team by 33%, lasting for 30m. Only effective on your own Resonators in Co-op Mode."
         },
         {
           "id": "ww-item-80004001",
@@ -22513,7 +22939,7 @@
             "rarity": "3 \u2605",
             "type": "Recipe"
           },
-          "text": "Used to learn how to cook Jade Mushroom Soup."
+          "text": "Used to learn how to cook Skelecanth Tartare."
         },
         {
           "id": "ww-item-80010069",
@@ -22524,7 +22950,7 @@
             "rarity": "3 \u2605",
             "type": "Recipe"
           },
-          "text": "Used to learn how to cook Cloudward Stew."
+          "text": "Used to learn how to cook Lichen Salad."
         },
         {
           "id": "ww-item-80010070",
@@ -22535,7 +22961,7 @@
             "rarity": "3 \u2605",
             "type": "Recipe"
           },
-          "text": "Used to learn how to cook Sizzling Jade Stir-fry."
+          "text": "Used to learn how to cook Pine Needle Soda."
         },
         {
           "id": "ww-item-80010071",
@@ -22546,7 +22972,7 @@
             "rarity": "3 \u2605",
             "type": "Recipe"
           },
-          "text": "Used to learn how to cook Crab Braised Fish."
+          "text": "Used to learn how to cook Honeypot Jam."
         },
         {
           "id": "ww-item-80010072",
@@ -22557,7 +22983,7 @@
             "rarity": "4 \u2605",
             "type": "Recipe"
           },
-          "text": "Used to learn how to cook Little Snowy Moons."
+          "text": "Used to learn how to cook Smoked Meat Stew."
         },
         {
           "id": "ww-item-80010073",
@@ -22568,7 +22994,7 @@
             "rarity": "3 \u2605",
             "type": "Recipe"
           },
-          "text": "Used to learn how to cook Stir-Fried Trio."
+          "text": "Used to learn how to cook Grilled Fern Spore."
         },
         {
           "id": "ww-item-80010074",
@@ -22579,7 +23005,7 @@
             "rarity": "3 \u2605",
             "type": "Recipe"
           },
-          "text": "Used to learn how to cook Flavor Under Heaven."
+          "text": "Used to learn how to cook Fruit Crackle."
         },
         {
           "id": "ww-item-80010075",
@@ -22590,7 +23016,7 @@
             "rarity": "4 \u2605",
             "type": "Recipe"
           },
-          "text": "Used to learn how to cook Brocade Pearl Meatballs."
+          "text": "Used to learn how to cook \"Crack & Bolt\" fish jars."
         },
         {
           "id": "ww-item-80010076",
@@ -22601,7 +23027,7 @@
             "rarity": "4 \u2605",
             "type": "Recipe"
           },
-          "text": "Used to learn how to cook Memories of Autumn."
+          "text": "Used to learn how to cook \"Munchie-More\" Bun."
         },
         {
           "id": "ww-item-80010077",
@@ -22612,7 +23038,7 @@
             "rarity": "3 \u2605",
             "type": "Recipe"
           },
-          "text": "Used to learn how to cook Jade Broth Noodles."
+          "text": "Used to learn how to cook Complete Nutrition Squeezy Jelly."
         },
         {
           "id": "ww-item-80010078",
@@ -22623,7 +23049,7 @@
             "rarity": "3 \u2605",
             "type": "Recipe"
           },
-          "text": "Used to learn how to cook Immortal's Medley Tribute."
+          "text": "Used to learn how to cook Lahai-Roi Special Plant Milk."
         },
         {
           "id": "ww-item-80010079",
@@ -23008,7 +23434,7 @@
             "rarity": "4 \u2605",
             "type": "Consumable"
           },
-          "text": "Used to Instantly revive the selected Resonator. Can only be used once every 60s. Only effective on your own Resonators in Co-op Mode."
+          "text": "Used to instantly revive all Resonators in the team. Can only be used once every 60 min. Only effective on your own Resonators in Co-op Mode."
         },
         {
           "id": "ww-item-80050000",
@@ -25277,6 +25703,94 @@
           "text": "Background music of the Bird-Return Garden in Autumn."
         },
         {
+          "id": "ww-item-80110539",
+          "name": "Clarity of the Transcendent",
+          "kind": "item",
+          "art": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMst/T_IconMst_009_UI.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Melody Box"
+          },
+          "text": "Background music played when standing against the falling sky."
+        },
+        {
+          "id": "ww-item-80110540",
+          "name": "Upstream of Light",
+          "kind": "item",
+          "art": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMst/T_IconMst_009_UI.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Melody Box"
+          },
+          "text": "Background music played when heading to the lightway."
+        },
+        {
+          "id": "ww-item-80110541",
+          "name": "Vessels Upon the Sky",
+          "kind": "item",
+          "art": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMst/T_IconMst_009_UI.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Melody Box"
+          },
+          "text": "Background music played when exploring the Ren Realm."
+        },
+        {
+          "id": "ww-item-80110542",
+          "name": "Shifting Clouds",
+          "kind": "item",
+          "art": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMst/T_IconMst_009_UI.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Melody Box"
+          },
+          "text": "Background music played when crossing the Skyend Barrier."
+        },
+        {
+          "id": "ww-item-80110543",
+          "name": "Mirage of Yesterdays",
+          "kind": "item",
+          "art": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMst/T_IconMst_009_UI.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Melody Box"
+          },
+          "text": "Background music played when exploring the Di Realm."
+        },
+        {
+          "id": "ww-item-80110544",
+          "name": "Skyend Passage",
+          "kind": "item",
+          "art": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMst/T_IconMst_009_UI.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Melody Box"
+          },
+          "text": "Background music played when crossing the final Skyend Barrier."
+        },
+        {
+          "id": "ww-item-80110545",
+          "name": "Hymn of the Forged Empyrean",
+          "kind": "item",
+          "art": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMst/T_IconMst_009_UI.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Melody Box"
+          },
+          "text": "Background music played during the battle against Calamity Effigy."
+        },
+        {
+          "id": "ww-item-80110546",
+          "name": "Sword of Mortals",
+          "kind": "item",
+          "art": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMst/T_IconMst_009_UI.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Melody Box"
+          },
+          "text": "Background music played during the final showdown with Calamity Effigy."
+        },
+        {
           "id": "ww-item-80110601",
           "name": "Ode to the Nameless Martyr",
           "kind": "item",
@@ -26036,6 +26550,28 @@
           "text": "This is the shape held in the prism, the heart sunk to the abyss, and now, along with hope and tomorrow, it is entrusted to you. The riddle that was never yours to solve now awaits an answer none could have foretold."
         },
         {
+          "id": "ww-item-80130066",
+          "name": "Immortal's Mortal Dream",
+          "kind": "item",
+          "art": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_Title_04_UI.webp",
+          "fields": {
+            "rarity": "5 \u2605",
+            "type": "Title"
+          },
+          "text": "She has carried a sword across centuries and watched the world make and unmake its bonds, over and over, in joy and in grief. And just as the last of the dream was thinning, the lamplight of the mortal world made her turn and look back."
+        },
+        {
+          "id": "ww-item-80130067",
+          "name": "Dust and Nether",
+          "kind": "item",
+          "art": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_Title_04_UI.webp",
+          "fields": {
+            "rarity": "5 \u2605",
+            "type": "Title"
+          },
+          "text": "A lamp to go by, an eye to judge by. What he learns of life and what he takes from death, he takes alone. He kneels to no god and calls on no ghost."
+        },
+        {
           "id": "ww-item-80131001",
           "name": "Catcher in the Tide",
           "kind": "item",
@@ -26169,7 +26705,7 @@
         },
         {
           "id": "ww-item-80131013",
-          "name": "Until We Meet Again",
+          "name": "\"Until We Meet Again\"",
           "kind": "item",
           "art": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_Title_MowingTower35_UI.webp",
           "fields": {
@@ -26177,6 +26713,17 @@
             "type": "Title"
           },
           "text": "A limited-time title from Endstate Matrix: Adversity Vanguard. Obtainable at any Challenge Stage and remains active until the end of the current stage."
+        },
+        {
+          "id": "ww-item-80131014",
+          "name": "Resonance! Best Combo",
+          "kind": "item",
+          "art": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_Title_14_UI.webp",
+          "fields": {
+            "rarity": "5 \u2605",
+            "type": "Title"
+          },
+          "text": "Clear Scenario 6: Efficient Annihilation in \"Resonance Sim Realm\""
         },
         {
           "id": "ww-item-80200001",
@@ -26870,6 +27417,39 @@
             "type": "Consumable"
           },
           "text": "A small token resembling ancient currency. Can be used to exchange for supplies at the Yard Exchange."
+        },
+        {
+          "id": "ww-item-80700041",
+          "name": "Startorch Academy Garage Key",
+          "kind": "item",
+          "art": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconTask/T_IconTask_Task_251_UI.webp",
+          "fields": {
+            "rarity": "5 \u2605",
+            "type": "Expedition Motorbike Display Theme"
+          },
+          "text": "Used to change the Expedition Motorbike's Display Theme to the Expedition Motorbike garage at Startorch Academy."
+        },
+        {
+          "id": "ww-item-80700042",
+          "name": "Land of Xuanfang Garage Key",
+          "kind": "item",
+          "art": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconTask/T_IconTask_Task_250_UI.webp",
+          "fields": {
+            "rarity": "5 \u2605",
+            "type": "Expedition Motorbike Display Theme"
+          },
+          "text": "Used to change the Expedition Motorbike's Display Theme to the Cloud Ride garage in the Land of Xuanfang."
+        },
+        {
+          "id": "ww-item-80700051",
+          "name": "Wish for Peace - Drifting Resonance",
+          "kind": "item",
+          "art": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconTask/T_IconTask_Task_249_UI.webp",
+          "fields": {
+            "rarity": "5 \u2605",
+            "type": "Instrument"
+          },
+          "text": "A gracefully crafted seven-string guqin, given to you by Qingxiao as an initiation gift. Within its strings linger the words she never spoke aloud to you. Interact to use."
         },
         {
           "id": "ww-item-80800001",
@@ -28064,6 +28644,28 @@
           "name": "Escape From Duckov",
           "kind": "item",
           "art": "../../Database/GameData/ww/assets/items/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon96.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Premium Livery"
+          },
+          "text": "Used to decorate the expedition motorbike's front and rear."
+        },
+        {
+          "id": "ww-item-89103065",
+          "name": "Cloud Voyage",
+          "kind": "item",
+          "art": "../../Database/GameData/ww/assets/items/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon103.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Premium Livery"
+          },
+          "text": "Used to decorate the expedition motorbike's front and rear."
+        },
+        {
+          "id": "ww-item-89103066",
+          "name": "Jadie the Mightiest Autopuppet",
+          "kind": "item",
+          "art": "../../Database/GameData/ww/assets/items/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon104.webp",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Premium Livery"

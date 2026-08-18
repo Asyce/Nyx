@@ -2127,7 +2127,7 @@
       32
     ],
     "name": "Purchase Connoisseur Channel",
-    "desc": "Unlocks the Insider Channel of the Pioneer Podcast.\r\n\r\nComplete the Podcast Tasks for various rewards.",
+    "desc": "Unlocks the Insider Channel of the Pioneer Podcast.\n\nComplete the Podcast Tasks for various rewards.",
     "bg": "Start listening to the Pioneer Podcast now to gain valuable insights for your outdoor adventures!",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_cdtq_UI.T_IconA_cdtq_UI",
     "source": []
@@ -2143,7 +2143,7 @@
       32
     ],
     "name": "Insider Channel Key",
-    "desc": "Unlocks the Insider Channel of the Pioneer Podcast.\r\n\r\nComplete the Podcast Tasks for various rewards.",
+    "desc": "Unlocks the Insider Channel of the Pioneer Podcast.\n\nComplete the Podcast Tasks for various rewards.",
     "bg": "Standard physical key issued by the Pioneer Association for the Insider Channel.\n\"Welcome to the Insider Channel! Coming up next is the morning news express...\"",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_zl_02_UI.T_IconA_zl_02_UI",
     "source": []
@@ -2159,7 +2159,7 @@
       32
     ],
     "name": "Connoisseur Key",
-    "desc": "Unlocks the Insider Channel of the Pioneer Podcast and get additional privilege rewards.\r\n\r\nComplete the Podcast Tasks for various rewards.",
+    "desc": "Unlocks the Insider Channel of the Pioneer Podcast and get additional privilege rewards.\n\nComplete the Podcast Tasks for various rewards.",
     "bg": "Special Deluxe Keycode for the Pioneer Podcast's Connoisseur Channel.\n\"Start listening to the Pioneer Podcast now to gain valuable insights for your outdoor adventures!\"",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_zl_03_UI.T_IconA_zl_03_UI",
     "source": []
@@ -2254,7 +2254,7 @@
     "tag_num": [
       57
     ],
-    "name": "Weekly Subscription",
+    "name": "New Voyage Weekly Subscription",
     "desc": "Used to claim login rewards on specific days within 15 days.",
     "bg": "Get unlimited access to the Celestial Observatory for a specified period with this pass.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_zk_01_UI.T_IconA_zk_01_UI",
@@ -2434,7 +2434,7 @@
     ],
     "name": "Magisterial Radiant Aid",
     "desc": "Obtain to receive the items inside.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_12_UI.T_IconGiftPack_dj_12_UI",
     "source": [],
     "giftpack": {
@@ -2464,7 +2464,7 @@
     ],
     "name": "Magisterial Forging Aid",
     "desc": "Obtain to receive the items inside.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_13_UI.T_IconGiftPack_dj_13_UI",
     "source": [],
     "giftpack": {
@@ -2494,7 +2494,7 @@
     ],
     "name": "Blake Bloom's Radiant Aid",
     "desc": "Obtain to receive the items inside.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -2524,7 +2524,7 @@
     ],
     "name": "Blake Bloom's Forging Aid",
     "desc": "Obtain to receive the items inside.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_18_UI.T_IconGiftPack_dj_18_UI",
     "source": [],
     "giftpack": {
@@ -2554,7 +2554,7 @@
     ],
     "name": "Champion's Radiant Collection I",
     "desc": "Obtain to receive the items inside.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_27_UI.T_IconGiftPack_dj_27_UI",
     "source": [],
     "giftpack": {
@@ -2584,7 +2584,7 @@
     ],
     "name": "Champion's Forging Collection",
     "desc": "Obtain to receive the items inside.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_28_UI.T_IconGiftPack_dj_28_UI",
     "source": [],
     "giftpack": {
@@ -2614,7 +2614,7 @@
     ],
     "name": "Traveler's Tube Aid",
     "desc": "Obtain to receive the items inside.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_033_UI.T_IconGiftPack_033_UI",
     "source": [],
     "giftpack": {
@@ -2644,7 +2644,7 @@
     ],
     "name": "Sage's Tube Support",
     "desc": "Obtain to receive the items inside.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_035_UI.T_IconGiftPack_035_UI",
     "source": [],
     "giftpack": {
@@ -2674,7 +2674,7 @@
     ],
     "name": "Sage's Solvent Aid",
     "desc": "Obtain to receive the items inside.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -2704,7 +2704,7 @@
     ],
     "name": "Champion's Radiant Collection II",
     "desc": "Obtain to receive the items inside.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -2734,7 +2734,7 @@
     ],
     "name": "Vault's Radiant Collection III",
     "desc": "Obtain to receive the items inside.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -2768,7 +2768,7 @@
     ],
     "name": "Champion's Monthly Aid",
     "desc": "Obtain to receive the items inside.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -2802,7 +2802,7 @@
     ],
     "name": "Vault's Tide Collection",
     "desc": "Obtain to receive the items inside.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -2836,7 +2836,7 @@
     ],
     "name": "Pioneer's Special Bounty I",
     "desc": "Obtain to receive the items inside.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -2866,7 +2866,7 @@
     ],
     "name": "Pioneer's Special Bounty II",
     "desc": "Obtain to receive the items inside.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -2896,7 +2896,7 @@
     ],
     "name": "Pioneer's Special Bounty III",
     "desc": "Obtain to receive the items inside.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -2926,7 +2926,7 @@
     ],
     "name": "Pioneer's Special Bounty IV",
     "desc": "Obtain to receive the items inside.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -2956,7 +2956,7 @@
     ],
     "name": "Pioneer's Special Bounty V",
     "desc": "Obtain to receive the items inside.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -2986,7 +2986,7 @@
     ],
     "name": "Pioneer's Special Bounty VI",
     "desc": "Obtain to receive the items inside.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -3016,7 +3016,7 @@
     ],
     "name": "Pioneer's Special Bounty VII",
     "desc": "Obtain to receive the items inside.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -3046,7 +3046,7 @@
     ],
     "name": "Reunion's Tidal Aid",
     "desc": "Obtain to receive the items inside.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_052_UI.T_IconGiftPack_052_UI",
     "source": [],
     "giftpack": {
@@ -3080,7 +3080,7 @@
     ],
     "name": "Reunion's Tidal Collection",
     "desc": "Obtain to receive the items inside.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_053_UI.T_IconGiftPack_053_UI",
     "source": [],
     "giftpack": {
@@ -3110,7 +3110,7 @@
     ],
     "name": "Reunion's EXP Aid",
     "desc": "Obtain to receive the items inside.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_054_UI.T_IconGiftPack_054_UI",
     "source": [],
     "giftpack": {
@@ -3144,7 +3144,7 @@
     ],
     "name": "Reunion's Forgery Aid",
     "desc": "Obtain to receive the items inside.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_055_UI.T_IconGiftPack_055_UI",
     "source": [],
     "giftpack": {
@@ -3178,7 +3178,7 @@
     ],
     "name": "Reunion's Sealed Tube Aid",
     "desc": "Obtain to receive the items inside.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_061_UI.T_IconGiftPack_061_UI",
     "source": [],
     "giftpack": {
@@ -3212,7 +3212,7 @@
     ],
     "name": "Reunion's Shell Credit Aid",
     "desc": "Obtain to receive the items inside.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_051_UI.T_IconGiftPack_051_UI",
     "source": [],
     "giftpack": {
@@ -3238,7 +3238,7 @@
     ],
     "name": "New Voyage Radiant Lightpack",
     "desc": "Obtain to receive the items inside.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -3272,7 +3272,7 @@
     ],
     "name": "New Voyage Radiant Heavypack",
     "desc": "Obtain to receive the items inside.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -3306,7 +3306,7 @@
     ],
     "name": "Champion's Battlesong Collection",
     "desc": "Obtain to receive the items inside.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -3340,7 +3340,7 @@
     ],
     "name": "Truthseeker's Battlesong Collection",
     "desc": "Obtain to receive the items inside.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -3374,7 +3374,7 @@
     ],
     "name": "Truthseeker's Battlesong Collection II",
     "desc": "Obtain to receive the items inside.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -3408,7 +3408,7 @@
     ],
     "name": "Spacetrek Prep Protocol",
     "desc": "Obtain to receive the items inside.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -3442,7 +3442,7 @@
     ],
     "name": "Astro-Calibration Protocol",
     "desc": "Obtain to receive the items inside.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -3472,7 +3472,7 @@
     ],
     "name": "Truthseeker's Radiant Collection I",
     "desc": "Obtain to receive the items inside.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -3502,7 +3502,7 @@
     ],
     "name": "Truthseeker's Radiant Collection II",
     "desc": "Obtain to receive the items inside.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -3532,7 +3532,7 @@
     ],
     "name": "Truthseeker's Radiant Collection III",
     "desc": "Obtain to receive the items inside.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -3566,7 +3566,7 @@
     ],
     "name": "Truthseeker's Forging Collection",
     "desc": "Obtain to receive the items inside.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -3596,7 +3596,7 @@
     ],
     "name": "Truthseeker's Tidal Collection",
     "desc": "Obtain to receive the items inside.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -3630,7 +3630,7 @@
     ],
     "name": "TARD-E's Monthly Aid",
     "desc": "Obtain to receive the items inside.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -3664,7 +3664,7 @@
     ],
     "name": "Truthseeker's Tuning Collection",
     "desc": "Obtain to receive the items inside.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -3698,7 +3698,7 @@
     ],
     "name": "Renegade's Shadowforge Collection I",
     "desc": "Obtain to receive the items inside.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -3724,7 +3724,7 @@
     ],
     "name": "Renegade's Dreamcatcher Collection",
     "desc": "Obtain to receive the items inside.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -3754,7 +3754,7 @@
     ],
     "name": "Renegade's Shadowforge Collection II",
     "desc": "Obtain to receive the items inside.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -3784,7 +3784,7 @@
     ],
     "name": "Jade Steed's Radiant Chest",
     "desc": "Obtain to receive the items inside.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -3814,7 +3814,7 @@
     ],
     "name": "Shaftpost Yard's Radiant Chest",
     "desc": "Obtain to receive the items inside.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -3844,7 +3844,7 @@
     ],
     "name": "Jade Steed's Forging Chest",
     "desc": "Obtain to receive the items inside.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -3874,7 +3874,7 @@
     ],
     "name": "Shaftpost Yard's Monthly Aid",
     "desc": "Obtain to receive the items inside.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -3908,7 +3908,7 @@
     ],
     "name": "Xuanfang's Support Ration",
     "desc": "Obtain to receive the items inside.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -3942,7 +3942,7 @@
     ],
     "name": "Shaftpost Yard's Battlesong Collection",
     "desc": "Obtain to receive the items inside.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -3964,6 +3964,40 @@
       "available_num": 1
     }
   },
+  "51058": {
+    "id": 51058,
+    "rarity": 5,
+    "type": 7,
+    "tag": [
+      "Supply Chest"
+    ],
+    "tag_num": [
+      16
+    ],
+    "name": "Shaftpost Yard's Tuning Collection",
+    "desc": "Obtain to receive the items inside.",
+    "bg": "",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
+    "source": [],
+    "giftpack": {
+      "key": 4,
+      "content": [
+        {
+          "key": 3,
+          "value": 600
+        },
+        {
+          "key": 36000014,
+          "value": 300
+        },
+        {
+          "key": 36000004,
+          "value": 40
+        }
+      ],
+      "available_num": 1
+    }
+  },
   "52001": {
     "id": 52001,
     "rarity": 5,
@@ -3976,7 +4010,7 @@
     ],
     "name": "Awakening Bundle (For Pre-Sales)",
     "desc": "Obtain to receive the items inside.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -4026,7 +4060,7 @@
     ],
     "name": "Awakening Bundle",
     "desc": "Obtain to receive the items inside.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -4072,7 +4106,7 @@
     ],
     "name": "Adventurer's Starter Pack",
     "desc": "Obtain to receive the items inside.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -4110,7 +4144,7 @@
     ],
     "name": "Quality Adventurer's Starter Pack",
     "desc": "Obtain to receive the items inside.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -4148,7 +4182,7 @@
     ],
     "name": "Returnee's Radiant Aid",
     "desc": "Obtain to receive the items inside.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_057_UI.T_IconGiftPack_057_UI",
     "source": [],
     "giftpack": {
@@ -4178,7 +4212,7 @@
     ],
     "name": "Returnee's Radiant Collection",
     "desc": "Obtain to receive the items inside.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_058_UI.T_IconGiftPack_058_UI",
     "source": [],
     "giftpack": {
@@ -4204,7 +4238,7 @@
     ],
     "name": "Returnee's Solvent Aid",
     "desc": "Obtain to receive the items inside.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_057_UI.T_IconGiftPack_057_UI",
     "source": [],
     "giftpack": {
@@ -4230,7 +4264,7 @@
     ],
     "name": "Returnee's Shell Credit Aid",
     "desc": "Obtain to receive the items inside.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_056_UI.T_IconGiftPack_056_UI",
     "source": [],
     "giftpack": {
@@ -4256,7 +4290,7 @@
     ],
     "name": "Returnee's Forgery Aid",
     "desc": "Obtain to receive the items inside.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_059_UI.T_IconGiftPack_059_UI",
     "source": [],
     "giftpack": {
@@ -4290,7 +4324,7 @@
     ],
     "name": "Returnee's Forgery Aid",
     "desc": "Obtain to receive the items inside.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -4328,7 +4362,7 @@
     ],
     "name": "Returnee's Forgery Aid",
     "desc": "Obtain to receive the items inside.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -4374,7 +4408,7 @@
     ],
     "name": "Adventurer's Starter Pack",
     "desc": "Obtain to receive the items inside.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -4412,7 +4446,7 @@
     ],
     "name": "Returnee's Forgery Aid",
     "desc": "Obtain to receive the items inside.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -4450,7 +4484,7 @@
     ],
     "name": "To the New World - World Tour Concert Pack",
     "desc": "Obtain to receive the items inside.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -4484,7 +4518,7 @@
     ],
     "name": "New Voyage Starter Pack",
     "desc": "Obtain to receive the items inside.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -4518,7 +4552,7 @@
     ],
     "name": "New Voyage Radiant Pack",
     "desc": "Obtain to receive the items inside.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -4552,7 +4586,7 @@
     ],
     "name": "New Voyage Battlesong Pack",
     "desc": "Obtain to receive the items inside.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -4590,8 +4624,8 @@
     ],
     "name": "Returnee's Forgery Aid",
     "desc": "Obtain to receive the items inside.",
-    "bg": "Stay tuned",
-    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_003_UI.T_IconGiftPack_003_UI",
+    "bg": "",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_097_UI.T_IconGiftPack_097_UI",
     "source": []
   },
   "53001": {
@@ -5342,6 +5376,58 @@
       "available_num": 1
     }
   },
+  "55005": {
+    "id": 55005,
+    "rarity": 5,
+    "type": 7,
+    "tag": [
+      "Supply Chest"
+    ],
+    "tag_num": [
+      16
+    ],
+    "name": "Cloudbloom",
+    "desc": "Used to unlock the corresponding Echo Aspect set.",
+    "bg": "Once bound by thorns, these wings now break free, soaring into the boundless sea of clouds.\nThe old laws no longer hold sway, for they will carry you to the farthest skies of freedom.",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_7_a_UI.T_IconRoleHead256_7_a_UI",
+    "source": [],
+    "giftpack": {
+      "key": 4,
+      "content": [
+        {
+          "key": 80870013,
+          "value": 1
+        }
+      ],
+      "available_num": 1
+    }
+  },
+  "55006": {
+    "id": 55006,
+    "rarity": 5,
+    "type": 7,
+    "tag": [
+      "Supply Chest"
+    ],
+    "tag_num": [
+      16
+    ],
+    "name": "Snowpaw",
+    "desc": "Used to unlock the corresponding Echo Aspect set.",
+    "bg": "Once bound by thorns, these wings now break free, soaring into the boundless sea of clouds.\nThe old laws no longer hold sway, for they will carry you to the farthest skies of freedom.",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_7_a_UI.T_IconRoleHead256_7_a_UI",
+    "source": [],
+    "giftpack": {
+      "key": 4,
+      "content": [
+        {
+          "key": 80870014,
+          "value": 1
+        }
+      ],
+      "available_num": 1
+    }
+  },
   "10001102": {
     "id": 10001102,
     "rarity": 4,
@@ -5694,10 +5780,10 @@
     "tag_num": [
       30
     ],
-    "name": "Stay tuned",
-    "desc": "Stay tuned",
+    "name": "Jingran's Waveband",
+    "desc": "Used to activate Jingran's Resonance Chain.",
     "bg": "A Resonator's Forte is composed of countless Wavebands. When these Wavebands form a complete Resonance Chain, the Resonator can unleash their full power.",
-    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconRup/T_IconRup_Part_1626_UI.T_IconRup_Part_1626_UI",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconRup/T_IconRup_Part_1629_UI.T_IconRup_Part_1629_UI",
     "source": [
       "Convene"
     ]
@@ -6057,7 +6143,7 @@
     "name": "Qingxiao's Waveband",
     "desc": "Used to activate Qingxiao's Resonance Chain.",
     "bg": "A Resonator's Forte is composed of countless Wavebands. When these Wavebands form a complete Resonance Chain, the Resonator can unleash their full power.",
-    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconRup/T_IconRup_Part_1626_UI.T_IconRup_Part_1626_UI",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconRup/T_IconRup_Part_1630_UI.T_IconRup_Part_1630_UI",
     "source": [
       "Convene"
     ]
@@ -6464,8 +6550,8 @@
     "tag_num": [
       21
     ],
-    "name": "Stay tuned",
-    "desc": "Stay tuned",
+    "name": "test/Leaf",
+    "desc": "test/A Leaf",
     "bg": "Leaf",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Task_010_1_UI.T_IconTask_Task_010_1_UI",
     "source": []
@@ -8414,13 +8500,13 @@
     "tag_num": [
       7
     ],
-    "name": "",
-    "desc": "",
-    "bg": "",
-    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMout/T_IconMout_L_029_UI.T_IconMout_L_029_UI",
+    "name": "Forged Empyrean's Sigh",
+    "desc": "Calamity Effigy's drop, used for Resonator Ascension.",
+    "bg": "Cast aside all that is useless, exhaust all that can be used, and so reach a perfection beyond human understanding.\nYet since it never understood emotion, it could never rise above emotion either.\nIt walked the Way to its end and found nothing further. Only a sigh, drifting off on the wind.",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMout/T_IconMout_L_030_UI.T_IconMout_L_030_UI",
     "source": [
-      "Myriad Snare: Rustfire Chassis",
-      "Myriad Snare: Rustfire Chassis - Early Access"
+      "Calamity Effigy",
+      "Calamity Effigy - Early Access"
     ]
   },
   "42100001": {
@@ -12205,7 +12291,6 @@
     "bg": "The Land of Xuanfang is rich in jade. Locals see the Jadeplume Eagle as a spiritual creature bound to the jade, and guard it closely. If a fallen Jade Egg is found, they will try to return it to its nest. Only those confirmed abandoned are treated as a gift from the wild and used with care. Once the chicks hatch, the remaining jade‑calcified shells become even more precious. They are carved into ornaments for children, carrying the blessing: \"May you spread your wings and soar.\"",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconC/T_IconC_084_UI.T_IconC_084_UI",
     "source": [
-      "Collection Spots",
       "Overworld Collection",
       "Huaxu Apothecary"
     ]
@@ -12225,7 +12310,6 @@
     "bg": "Once Climber Shoots emerge from the ground, they gradually take on the straight appearance of ordinary bamboo shoots, their color shifting from black to green. Locals associate them with a wondrous artifact in Huanglong legends capable of connecting people's hearts, viewing the shoots as an auspicious ingredient that blesses children with sharp senses and deep empathy.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconC/T_IconC_080_UI.T_IconC_080_UI",
     "source": [
-      "Collection Spots",
       "Overworld Collection",
       "Huaxu Apothecary"
     ]
@@ -12245,7 +12329,6 @@
     "bg": "Hard and dense, the Jade Hexahedron is a superb energy-conducting medium, frequently mined for use in mechanics and residential construction. When selecting a site for a Autopuppet factory, the builders will specifically choose an area rich in Jade Hexahedron veins to meet the immense power demands of its automated operations.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconC/T_IconC_082_UI.T_IconC_082_UI",
     "source": [
-      "Collection Spots",
       "Overworld Collection",
       "Huaxu Apothecary"
     ]
@@ -12265,7 +12348,6 @@
     "bg": "The White Jade Beauty is difficult to preserve. Once touched or bruised, the damaged area rapidly oozes a striking cyan-blue hue, resembling a clouded jewel or a cracked jade plate. \nThough delicious, it is mildly toxic. Eating it raw causes dizziness and vomiting, so it must be fully cooked before consumption. To ensure safety, eateries often take diners' utensils away while the mushrooms are cooking to prevent them from sneaking a premature bite.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconC/T_IconC_079_UI.T_IconC_079_UI",
     "source": [
-      "Collection Spots",
       "Overworld Collection",
       "Huaxu Apothecary"
     ]
@@ -12285,7 +12367,6 @@
     "bg": "Every Opus Stone is made thanks to the rigorous selection process of Opus Otters. Uncut stones with dull acoustics or messy textures are discarded along the water's edge, becoming \"Otter Castaways\" occasionally found by travelers.\nThe people of Mengzhou carefully polish Opus Stones of varying pitches, crafting them into lithophones and wind chimes hung beneath eaves or by the water. Whenever the chimes ring, nearby Opus Otters often pause their work to listen closely. If the mood strikes them, they will even knock on their own stones in harmony, as if jamming a song with a kindred spirit.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconC/T_IconC_081_UI.T_IconC_081_UI",
     "source": [
-      "Collection Spots",
       "Overworld Collection",
       "Huaxu Apothecary"
     ]
@@ -12305,7 +12386,6 @@
     "bg": "The Leafweaver has a delicate frame and a pale golden hue. As a \"professional weaver,\" it cuts leaves or petals to construct intricately designed, spiral tower-like nests. On sunny afternoons in the Land of Xuanfang, one can often spot busy Leafweavers fluttering through the air, carrying leaves several times larger than their own bodies.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconC/T_IconC_086_UI.T_IconC_086_UI",
     "source": [
-      "Collection Spots",
       "Overworld Collection",
       "Huaxu Apothecary"
     ]
@@ -12325,7 +12405,6 @@
     "bg": "The Floral Crest Jade is encased in a shell of dense, incredibly hard black jade. Twistscales grind away at this outer layer using their own scales, polishing it over and over until the surface gleams like a mirror. Eventually the shell flakes off in one smooth piece, revealing the \"jade chrysanthemum\" beneath—fully intact and vivid with color.\nCherishing the stone's delicate veining, the people of Mengzhou have long taken to displaying these Twistscale-polished jades in their homes, where they sit upon desks as quiet, elegant treasures.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconC/T_IconC_085_UI.T_IconC_085_UI",
     "source": [
-      "Collection Spots",
       "Overworld Collection",
       "Huaxu Apothecary"
     ]
@@ -12389,7 +12468,8 @@
     "source": [
       "Supply Pack",
       "Collection Spots",
-      "Overworld Collection"
+      "Overworld Collection",
+      "Huaxu Apothecary"
     ]
   },
   "43010001": {
@@ -13568,8 +13648,8 @@
       15
     ],
     "name": "Wood-textured Shard",
-    "desc": "Stay tuned",
-    "bg": "Stay tuned",
+    "desc": "Special drops from the Jinzhou, Huanglong region, which can be used to exchange for various items in the Souvenir Store.",
+    "bg": "Across Jinzhou, ancient buildings were traditionally built using wood, but it proved to be insufficient in meeting modern strength requirements. Hence, Jinzhou began to explore alternative building materials that could replicate the traditional wooden texture while providing sturdiness.\nThese Wood-textured Shards can be found throughout Jinzhou, with varying shapes and origins – from houses and shops to military camps and academies. Although uncovering the stories behind them is a challenging task, the Pioneer Association relentlessly pursues this endeavor. Each shard holds a piece of history waiting to be discovered.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_currency_4_UI.T_IconA_currency_4_UI",
     "source": [
       "Exploring Solaris-3"
@@ -13603,8 +13683,8 @@
     "tag_num": [
       22
     ],
-    "name": "Stay tuned",
-    "desc": "Stay tuned",
+    "name": "test/Universal Echo",
+    "desc": "test/Universal Echoes can substitute any Echo consumed during Tuning.",
     "bg": "Echo Details",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_currency_6_UI.T_IconA_currency_6_UI",
     "source": [
@@ -13622,8 +13702,8 @@
     "tag_num": [
       22
     ],
-    "name": "Stay tuned",
-    "desc": "Stay tuned",
+    "name": "test/Golden Universal Echo",
+    "desc": "test/Golden Universal Echoes can substitute any Echo consumed during Tuning.",
     "bg": "Echo Details",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_currency_6_UI.T_IconA_currency_6_UI",
     "source": [
@@ -13643,7 +13723,7 @@
     ],
     "name": "Phantom: Impermanence Heron",
     "desc": "Unlocks the Phantom Appearance of the corresponding Echo.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_1014_UI.T_IconMonsterHead_1014_UI",
     "source": [
       "Illusive Store"
@@ -13661,7 +13741,7 @@
     ],
     "name": "Phantom: Dreamless",
     "desc": "Unlocks the Phantom Appearance of the corresponding Echo.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_998_1_UI.T_IconMonsterHead_998_1_UI",
     "source": [
       "Illusive Store"
@@ -13697,7 +13777,7 @@
     ],
     "name": "Phantom: Lorelei",
     "desc": "Unlocks the Phantom Appearance of the corresponding Echo.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_33011_UI.T_IconMonsterGoods_SG_33011_UI",
     "source": [
       "Unavailable now"
@@ -13715,7 +13795,7 @@
     ],
     "name": "Phantom: Nimbus Wraith",
     "desc": "Unlocks the Phantom Appearance of the corresponding Echo.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_31044_UI.T_IconMonsterGoods_SG_31044_UI",
     "source": [
       "Trial Store"
@@ -13733,7 +13813,7 @@
     ],
     "name": "Phantom: Crownless",
     "desc": "Unlocks the Phantom Appearance of the corresponding Echo.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_9991_UI.T_IconMonsterGoods_SG_9991_UI",
     "source": [
       "\"Dreaming Deep\" Event"
@@ -13751,7 +13831,7 @@
     ],
     "name": "Phantom: Nightmare Crownless",
     "desc": "Unlocks the Phantom Appearance of the corresponding Echo.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_33018_UI.T_IconMonsterGoods_SG_33018_UI",
     "source": [
       "\"Dreaming Deep\" Event"
@@ -13769,7 +13849,7 @@
     ],
     "name": "Phantom: Chest Mimic",
     "desc": "Unlocks the Phantom Appearance of the corresponding Echo.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_31048_UI.T_IconMonsterGoods_SG_31048_UI",
     "source": [
       "Unavailable now"
@@ -13787,7 +13867,7 @@
     ],
     "name": "Phantom: Fae Ignis",
     "desc": "Unlocks the Phantom Appearance of the corresponding Echo.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_31043_UI.T_IconMonsterGoods_SG_31043_UI",
     "source": [
       "Banners Never Fall"
@@ -13805,7 +13885,7 @@
     ],
     "name": "Phantom: Cuddle Wuddle",
     "desc": "Unlocks the Phantom Appearance of the corresponding Echo.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_32030_UI.T_IconMonsterGoods_SG_32030_UI",
     "source": [
       "Unavailable now"
@@ -13823,7 +13903,7 @@
     ],
     "name": "Phantom: Nightmare Inferno Rider",
     "desc": "Unlocks the Phantom Appearance of the corresponding Echo.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_33019_UI.T_IconMonsterGoods_SG_33019_UI",
     "source": [
       "Unavailable now"
@@ -13937,7 +14017,7 @@
     ],
     "name": "Phantom: Fallacy of No Return",
     "desc": "Unlocks the Phantom Appearance of the corresponding Echo.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_350_UI.T_IconMonsterGoods_SG_350_UI",
     "source": [
       "Unavailable now"
@@ -13955,7 +14035,7 @@
     ],
     "name": "Phantom: Kerasaur",
     "desc": "Unlocks the Phantom Appearance of the corresponding Echo.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_31062_UI.T_IconMonsterGoods_SG_31062_UI",
     "source": [
       "Overworld Exploration"
@@ -13973,7 +14053,7 @@
     ],
     "name": "Phantom: Chop Chop",
     "desc": "Unlocks the Phantom Appearance of the corresponding Echo.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_32028_UI.T_IconMonsterGoods_SG_32028_UI",
     "source": [
       "Peaks of Prestige: Rekindled Duel"
@@ -13991,7 +14071,7 @@
     ],
     "name": "Phantom: The False Sovereign",
     "desc": "Unlocks the Phantom Appearance of the corresponding Echo.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_34017_UI.T_IconMonsterGoods_SG_34017_UI",
     "source": [
       "Unavailable now"
@@ -14009,7 +14089,7 @@
     ],
     "name": "Phantom: Zip Zap",
     "desc": "Unlocks the Phantom Appearance of the corresponding Echo.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_31082_UI.T_IconMonsterGoods_SG_31082_UI",
     "source": [
       "Event"
@@ -14027,7 +14107,7 @@
     ],
     "name": "Phantom: Twin Nova - Nebulous Cannon",
     "desc": "Unlocks the Phantom Appearance of the corresponding Echo.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_32049_UI.T_IconMonsterGoods_SG_32049_UI",
     "source": [
       "\"Operation: Frontier Renewal\" Event"
@@ -14045,7 +14125,7 @@
     ],
     "name": "Phantom: Twin Nova - Collapsar Blade",
     "desc": "Unlocks the Phantom Appearance of the corresponding Echo.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_32050_UI.T_IconMonsterGoods_SG_32050_UI",
     "source": [
       "\"Operation: Frontier Renewal\" Event"
@@ -14063,7 +14143,7 @@
     ],
     "name": "Phantom: Sigillum",
     "desc": "Unlocks the Phantom Appearance of the corresponding Echo.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_34025_UI.T_IconMonsterGoods_SG_34025_UI",
     "source": [
       "\"Where Stars Cascade Down\" Event"
@@ -14081,7 +14161,7 @@
     ],
     "name": "Phantom: Iceglint Dancer",
     "desc": "Unlocks the Phantom Appearance of the corresponding Echo.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_31083_UI.T_IconMonsterGoods_SG_31083_UI",
     "source": [
       "Overworld Exploration"
@@ -14099,7 +14179,7 @@
     ],
     "name": "Phantom: Reactor Husk",
     "desc": "Unlocks the Phantom Appearance of the corresponding Echo.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_34022_UI.T_IconMonsterGoods_SG_34022_UI",
     "source": [
       "Star Bouncing"
@@ -14117,7 +14197,7 @@
     ],
     "name": "Phantom: Kronaclaw",
     "desc": "Unlocks the Phantom Appearance of the corresponding Echo.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_32060_UI.T_IconMonsterGoods_SG_32060_UI",
     "source": [
       "Complete Exploration Quest \"A Perfect Day for Flying\""
@@ -14135,7 +14215,7 @@
     ],
     "name": "Phantom: Glommoth",
     "desc": "Unlocks the Phantom Appearance of the corresponding Echo.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_32061_UI.T_IconMonsterGoods_SG_32061_UI",
     "source": []
   },
@@ -14151,7 +14231,7 @@
     ],
     "name": "Phantom: Forbidden Bastion",
     "desc": "Unlocks the Phantom Appearance of the corresponding Echo.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_32068_UI.T_IconMonsterGoods_SG_32068_UI",
     "source": [
       "Complete \"Faithful Heart Tested at Skyfall\""
@@ -14169,7 +14249,7 @@
     ],
     "name": "Phantom: Smiter",
     "desc": "Unlocks the Phantom Appearance of the corresponding Echo.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_31090_UI.T_IconMonsterGoods_SG_31090_UI",
     "source": [
       "\"Mingshen Notices\" event"
@@ -14185,26 +14265,10 @@
     "tag_num": [
       47
     ],
-    "name": "Stay tuned",
+    "name": "Phantom: Myriad Snare: Rustfire Chassis",
     "desc": "Unlocks the Phantom Appearance of the corresponding Echo.",
-    "bg": "Stay tuned",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_34030_UI.T_IconMonsterGoods_SG_34030_UI",
-    "source": []
-  },
-  "44010064": {
-    "id": 44010064,
-    "rarity": 5,
-    "type": 4,
-    "tag": [
-      "Phantom Appearance"
-    ],
-    "tag_num": [
-      47
-    ],
-    "name": "Stay tuned",
-    "desc": "Unlocks the Phantom Appearance of the corresponding Echo.",
-    "bg": "Stay tuned",
-    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_31102_UI.T_IconMonsterGoods_SG_31102_UI",
     "source": []
   },
   "50000031": {
@@ -14920,7 +14984,7 @@
       16
     ],
     "name": "Morphable Echo - Freezing Frost",
-    "desc": "Open to obtain a random Echo of the following Sonata Effect: Freezing Frost.\r\n2pcs Set: Glacio DMG + 10%.\r\n5pcs Set: Glacio DMG + 10% after releasing Basic Attack or Heavy Attack. This effect stacks up to 3 times, each stack lasts 15s.",
+    "desc": "Open to obtain a random Echo of the following Sonata Effect: Freezing Frost.\n2pcs Set: Glacio DMG + 10%.\n5pcs Set: Glacio DMG + 10% after releasing Basic Attack or Heavy Attack. This effect stacks up to 3 times, each stack lasts 15s.",
     "bg": "Chills are emanating from the crevice...",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_shlb_05_UI.T_IconA_shlb_05_UI",
     "source": []
@@ -14938,7 +15002,7 @@
       16
     ],
     "name": "Morphable Echo - Molten Rift",
-    "desc": "Open to obtain a random Echo of the following Sonata Effect: Molten Rift.\r\n2pcs Set: Fusion DMG + 10%.\r\n5pcs Set: Fusion DMG + 30% for 15s after releasing Resonance Skill.",
+    "desc": "Open to obtain a random Echo of the following Sonata Effect: Molten Rift.\n2pcs Set: Fusion DMG + 10%.\n5pcs Set: Fusion DMG + 30% for 15s after releasing Resonance Skill.",
     "bg": "Flames are flickering and rising in the crevice...",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_shlb_06_UI.T_IconA_shlb_06_UI",
     "source": []
@@ -14956,7 +15020,7 @@
       16
     ],
     "name": "Morphable Echo - Void Thunder",
-    "desc": "Open to obtain a random Echo of the following Sonata Effect: Void Thunder.\r\n2pcs Set: Electro DMG + 10%.\r\n5pcs Set: Electro DMG + 15% after releasing Heavy Attack or Resonance Skill. This effect stacks up to 2 times, each stack lasts 15s.",
+    "desc": "Open to obtain a random Echo of the following Sonata Effect: Void Thunder.\n2pcs Set: Electro DMG + 10%.\n5pcs Set: Electro DMG + 15% after releasing Heavy Attack or Resonance Skill. This effect stacks up to 2 times, each stack lasts 15s.",
     "bg": "Thunder is rumbling in the crevice...",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_shlb_07_UI.T_IconA_shlb_07_UI",
     "source": []
@@ -14974,7 +15038,7 @@
       16
     ],
     "name": "Morphable Echo - Sierra Gale",
-    "desc": "Open to obtain a random Echo of the following Sonata Effect: Sierra Gale.\r\n2pcs Set: Aero DMG + 10%.\r\n5pcs Set: Aero DMG + 30% for 15s after releasing Intro Skill.",
+    "desc": "Open to obtain a random Echo of the following Sonata Effect: Sierra Gale.\n2pcs Set: Aero DMG + 10%.\n5pcs Set: Aero DMG + 30% for 15s after releasing Intro Skill.",
     "bg": "A gust of wind is howling through the crevice...",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_shlb_08_UI.T_IconA_shlb_08_UI",
     "source": []
@@ -14992,7 +15056,7 @@
       16
     ],
     "name": "Morphable Echo - Celestial Light",
-    "desc": "Open to obtain a random Echo of the following Sonata Effect: Celestial Light.\r\n2pcs Set: Spectro DMG + 10%.\r\n5pcs Set: Spectro DMG + 30% for 15s after releasing Intro Skill.",
+    "desc": "Open to obtain a random Echo of the following Sonata Effect: Celestial Light.\n2pcs Set: Spectro DMG + 10%.\n5pcs Set: Spectro DMG + 30% for 15s after releasing Intro Skill.",
     "bg": "Dazzling rays of light are emanating from the crevice...",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_shlb_09_UI.T_IconA_shlb_09_UI",
     "source": []
@@ -15010,7 +15074,7 @@
       16
     ],
     "name": "Morphable Echo - Havoc Eclipse",
-    "desc": "Open to obtain a random Echo of the following Sonata Effect: Havoc Eclipse.\r\n2pcs Set: Havoc DMG + 10%.\r\n5pcs Set: Havoc DMG + 7.5% after releasing Basic Attack or Heavy Attack. This effect stacks up to 4 times, each stack lasts 15s.",
+    "desc": "Open to obtain a random Echo of the following Sonata Effect: Havoc Eclipse.\n2pcs Set: Havoc DMG + 10%.\n5pcs Set: Havoc DMG + 7.5% after releasing Basic Attack or Heavy Attack. This effect stacks up to 4 times, each stack lasts 15s.",
     "bg": "The chaos seems to devour everything in the crevice...",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_shlb_10_UI.T_IconA_shlb_10_UI",
     "source": []
@@ -15046,7 +15110,7 @@
       16
     ],
     "name": "Morphable Echo - Moonlit Clouds",
-    "desc": "Open to obtain a random Echo of the following Sonata Effect: Moonlit Clouds.\r\n2pcs Set: Energy Regen + 10%.\r\n5pcs Set: After using Outro Skill, increases the ATK of the next Resonator by 22.5% for 15s.",
+    "desc": "Open to obtain a random Echo of the following Sonata Effect: Moonlit Clouds.\n2pcs Set: Energy Regen + 10%.\n5pcs Set: After using Outro Skill, increases the ATK of the next Resonator by 22.5% for 15s.",
     "bg": "A bright moon seems to hide in the crevice...",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_shlb_12_UI.T_IconA_shlb_12_UI",
     "source": []
@@ -15082,7 +15146,7 @@
       16
     ],
     "name": "Morphable Echo - Freezing Frost",
-    "desc": "Open to obtain a random Echo of the following Sonata Effect: Freezing Frost.\r\n2pcs Set: Glacio DMG + 10%.\r\n5pcs Set: Glacio DMG + 10% after releasing Basic Attack or Heavy Attack. This effect stacks up to 3 times, each stack lasts 15s.",
+    "desc": "Open to obtain a random Echo of the following Sonata Effect: Freezing Frost.\n2pcs Set: Glacio DMG + 10%.\n5pcs Set: Glacio DMG + 10% after releasing Basic Attack or Heavy Attack. This effect stacks up to 3 times, each stack lasts 15s.",
     "bg": "Chills are emanating from the crevice...",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_shlb_05_UI.T_IconA_shlb_05_UI",
     "source": []
@@ -15100,7 +15164,7 @@
       16
     ],
     "name": "Morphable Echo - Molten Rift",
-    "desc": "Open to obtain a random Echo of the following Sonata Effect: Molten Rift.\r\n2pcs Set: Fusion DMG + 10%.\r\n5pcs Set: Fusion DMG + 30% for 15s after releasing Resonance Skill.",
+    "desc": "Open to obtain a random Echo of the following Sonata Effect: Molten Rift.\n2pcs Set: Fusion DMG + 10%.\n5pcs Set: Fusion DMG + 30% for 15s after releasing Resonance Skill.",
     "bg": "Flames are flickering and rising in the crevice...",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_shlb_06_UI.T_IconA_shlb_06_UI",
     "source": []
@@ -15118,7 +15182,7 @@
       16
     ],
     "name": "Morphable Echo - Void Thunder",
-    "desc": "Open to obtain a random Echo of the following Sonata Effect: Void Thunder.\r\n2pcs Set: Electro DMG + 10%.\r\n5pcs Set: Electro DMG + 15% after releasing Heavy Attack or Resonance Skill. This effect stacks up to 2 times, each stack lasts 15s.",
+    "desc": "Open to obtain a random Echo of the following Sonata Effect: Void Thunder.\n2pcs Set: Electro DMG + 10%.\n5pcs Set: Electro DMG + 15% after releasing Heavy Attack or Resonance Skill. This effect stacks up to 2 times, each stack lasts 15s.",
     "bg": "Thunder is rumbling in the crevice...",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_shlb_07_UI.T_IconA_shlb_07_UI",
     "source": []
@@ -15136,7 +15200,7 @@
       16
     ],
     "name": "Morphable Echo - Sierra Gale",
-    "desc": "Open to obtain a random Echo of the following Sonata Effect: Sierra Gale.\r\n2pcs Set: Aero DMG + 10%.\r\n5pcs Set: Aero DMG + 30% for 15s after releasing Intro Skill.",
+    "desc": "Open to obtain a random Echo of the following Sonata Effect: Sierra Gale.\n2pcs Set: Aero DMG + 10%.\n5pcs Set: Aero DMG + 30% for 15s after releasing Intro Skill.",
     "bg": "A gust of wind is howling through the crevice...",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_shlb_08_UI.T_IconA_shlb_08_UI",
     "source": []
@@ -15154,7 +15218,7 @@
       16
     ],
     "name": "Morphable Echo - Celestial Light",
-    "desc": "Open to obtain a random Echo of the following Sonata Effect: Celestial Light.\r\n2pcs Set: Spectro DMG + 10%.\r\n5pcs Set: Spectro DMG + 30% for 15s after releasing Intro Skill.",
+    "desc": "Open to obtain a random Echo of the following Sonata Effect: Celestial Light.\n2pcs Set: Spectro DMG + 10%.\n5pcs Set: Spectro DMG + 30% for 15s after releasing Intro Skill.",
     "bg": "Dazzling rays of light are emanating from the crevice...",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_shlb_09_UI.T_IconA_shlb_09_UI",
     "source": []
@@ -15172,7 +15236,7 @@
       16
     ],
     "name": "Morphable Echo - Havoc Eclipse",
-    "desc": "Open to obtain a random Echo of the following Sonata Effect: Havoc Eclipse.\r\n2pcs Set: Havoc DMG + 10%.\r\n5pcs Set: Havoc DMG + 7.5% after releasing Basic Attack or Heavy Attack. This effect stacks up to 4 times, each stack lasts 15s.",
+    "desc": "Open to obtain a random Echo of the following Sonata Effect: Havoc Eclipse.\n2pcs Set: Havoc DMG + 10%.\n5pcs Set: Havoc DMG + 7.5% after releasing Basic Attack or Heavy Attack. This effect stacks up to 4 times, each stack lasts 15s.",
     "bg": "The chaos seems to devour everything in the crevice...",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_shlb_10_UI.T_IconA_shlb_10_UI",
     "source": []
@@ -15208,7 +15272,7 @@
       16
     ],
     "name": "Morphable Echo - Moonlit Clouds",
-    "desc": "Open to obtain a random Echo of the following Sonata Effect: Moonlit Clouds.\r\n2pcs Set: Energy Regen + 10%.\r\n5pcs Set: After using Outro Skill, increases the ATK of the next Resonator by 22.5% for 15s.",
+    "desc": "Open to obtain a random Echo of the following Sonata Effect: Moonlit Clouds.\n2pcs Set: Energy Regen + 10%.\n5pcs Set: After using Outro Skill, increases the ATK of the next Resonator by 22.5% for 15s.",
     "bg": "A bright moon seems to hide in the crevice...",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_shlb_12_UI.T_IconA_shlb_12_UI",
     "source": []
@@ -18222,7 +18286,7 @@
     "name": "5-Star Weapon Supply Chest - New Voyage",
     "desc": "Open to claim one of the following weapons: <color=Rare5>Lustrous Razor, Emerald of Genesis, Static Mist, Abyss Surges, Cosmic Ripples, Laser Shearer, Radiance Cleaver, Phasic Homogenizer, Pulsation Bracer, Boson Astrolabe.</color>",
     "bg": "",
-    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_003_UI.T_IconGiftPack_003_UI",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_Act_CumulativeRechargeGift_UI.T_IconA_Act_CumulativeRechargeGift_UI",
     "source": [],
     "giftpack": {
       "key": 2,
@@ -20144,7 +20208,7 @@
       16
     ],
     "name": "Morphable Echo - Frosty Resolve",
-    "desc": "Open to obtain a random Echo of the following Sonata Effect: Frosty Resolve.\n\n2pcs Set: Resonance Skill DMG +12%.\n\n5pcs Set: Casting Resonance Liberation grants 30% Glacio DMG Bonus and 30% Resonance Skill DMG Bonus for 6s.",
+    "desc": "Open to obtain a random Echo of the following Sonata Effect: Frosty Resolve.\n\n2pcs Set: Resonance Skill DMG +12%.\n\n5pcs Set: Casting Resonance Skill grants 22.5% Glacio DMG Bonus for 15s and casting Resonance Liberation increases Resonance Skill DMG by 18%, lasting for 5s. This effect stacks up to 2 times.",
     "bg": "Between the cracks, crystalline ice blooms...",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_shlb_18_UI.T_IconA_shlb_18_UI",
     "source": []
@@ -20234,7 +20298,7 @@
       16
     ],
     "name": "Morphable Echo - Frosty Resolve",
-    "desc": "Open to obtain a random Echo of the following Sonata Effect: Frosty Resolve.\n\n2pcs Set: Resonance Skill DMG +12%.\n\n5pcs Set: Casting Resonance Liberation grants 30% Glacio DMG Bonus and 30% Resonance Skill DMG Bonus for 6s.",
+    "desc": "Open to obtain a random Echo of the following Sonata Effect: Frosty Resolve.\n\n2pcs Set: Resonance Skill DMG +12%.\n\n5pcs Set: Casting Resonance Skill grants 22.5% Glacio DMG Bonus for 15s and casting Resonance Liberation increases Resonance Skill DMG by 18%, lasting for 5s. This effect stacks up to 2 times.",
     "bg": "Between the cracks, crystalline ice blooms...",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_shlb_18_UI.T_IconA_shlb_18_UI",
     "source": []
@@ -20684,7 +20748,7 @@
       16
     ],
     "name": "Morphable Echo - Molten Rift",
-    "desc": "Open to obtain a random Echo of the following Sonata Effect: Molten Rift.\r\n2pcs Set: Fusion DMG + 10%.\r\n5pcs Set: Fusion DMG + 30% for 15s after releasing Resonance Skill.",
+    "desc": "Open to obtain a random Echo of the following Sonata Effect: Molten Rift.\n2pcs Set: Fusion DMG + 10%.\n5pcs Set: Fusion DMG + 30% for 15s after releasing Resonance Skill.",
     "bg": "Flames are flickering and rising in the crevice...",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_shlb_06_UI.T_IconA_shlb_06_UI",
     "source": []
@@ -20702,7 +20766,7 @@
       16
     ],
     "name": "Morphable Echo - Void Thunder",
-    "desc": "Open to obtain a random Echo of the following Sonata Effect: Void Thunder.\r\n2pcs Set: Electro DMG + 10%.\r\n5pcs Set: Electro DMG + 15% after releasing Heavy Attack or Resonance Skill. This effect stacks up to 2 times, each stack lasts 15s.",
+    "desc": "Open to obtain a random Echo of the following Sonata Effect: Void Thunder.\n2pcs Set: Electro DMG + 10%.\n5pcs Set: Electro DMG + 15% after releasing Heavy Attack or Resonance Skill. This effect stacks up to 2 times, each stack lasts 15s.",
     "bg": "Thunder is rumbling in the crevice...",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_shlb_07_UI.T_IconA_shlb_07_UI",
     "source": []
@@ -20720,7 +20784,7 @@
       16
     ],
     "name": "Morphable Echo - Sierra Gale",
-    "desc": "Open to obtain a random Echo of the following Sonata Effect: Sierra Gale.\r\n2pcs Set: Aero DMG + 10%.\r\n5pcs Set: Aero DMG + 30% for 15s after releasing Intro Skill.",
+    "desc": "Open to obtain a random Echo of the following Sonata Effect: Sierra Gale.\n2pcs Set: Aero DMG + 10%.\n5pcs Set: Aero DMG + 30% for 15s after releasing Intro Skill.",
     "bg": "A gust of wind is howling through the crevice...",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_shlb_08_UI.T_IconA_shlb_08_UI",
     "source": []
@@ -20738,7 +20802,7 @@
       16
     ],
     "name": "Morphable Echo - Celestial Light",
-    "desc": "Open to obtain a random Echo of the following Sonata Effect: Celestial Light.\r\n2pcs Set: Spectro DMG + 10%.\r\n5pcs Set: Spectro DMG + 30% for 15s after releasing Intro Skill.",
+    "desc": "Open to obtain a random Echo of the following Sonata Effect: Celestial Light.\n2pcs Set: Spectro DMG + 10%.\n5pcs Set: Spectro DMG + 30% for 15s after releasing Intro Skill.",
     "bg": "Dazzling rays of light are emanating from the crevice...",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_shlb_09_UI.T_IconA_shlb_09_UI",
     "source": []
@@ -20756,7 +20820,7 @@
       16
     ],
     "name": "Morphable Echo - Havoc Eclipse",
-    "desc": "Open to obtain a random Echo of the following Sonata Effect: Havoc Eclipse.\r\n2pcs Set: Havoc DMG + 10%.\r\n5pcs Set: Havoc DMG + 7.5% after releasing Basic Attack or Heavy Attack. This effect stacks up to 4 times, each stack lasts 15s.",
+    "desc": "Open to obtain a random Echo of the following Sonata Effect: Havoc Eclipse.\n2pcs Set: Havoc DMG + 10%.\n5pcs Set: Havoc DMG + 7.5% after releasing Basic Attack or Heavy Attack. This effect stacks up to 4 times, each stack lasts 15s.",
     "bg": "The chaos seems to devour everything in the crevice...",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_shlb_10_UI.T_IconA_shlb_10_UI",
     "source": []
@@ -20792,7 +20856,7 @@
       16
     ],
     "name": "Morphable Echo - Moonlit Clouds",
-    "desc": "Open to obtain a random Echo of the following Sonata Effect: Moonlit Clouds.\r\n2pcs Set: Energy Regen + 10%.\r\n5pcs Set: After using Outro Skill, increases the ATK of the next Resonator by 22.5% for 15s.",
+    "desc": "Open to obtain a random Echo of the following Sonata Effect: Moonlit Clouds.\n2pcs Set: Energy Regen + 10%.\n5pcs Set: After using Outro Skill, increases the ATK of the next Resonator by 22.5% for 15s.",
     "bg": "A bright moon seems to hide in the crevice...",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_shlb_12_UI.T_IconA_shlb_12_UI",
     "source": []
@@ -28099,6 +28163,86 @@
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Task_220_UI.T_IconTask_Task_220_UI",
     "source": []
   },
+  "71200015": {
+    "id": 71200015,
+    "rarity": 5,
+    "type": 6,
+    "tag": [
+      "Quest Item"
+    ],
+    "tag_num": [
+      21
+    ],
+    "name": "Qingfu Pendant",
+    "desc": "A mysterious pendant retrieved from the Fogveil Pagoda. Seems to be a clue left behind by Cat of the Nether Lamp.",
+    "bg": "The copper coins strung together are known as Yin coins in Mengzhou's folk culture.",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Task_245_UI.T_IconTask_Task_245_UI",
+    "source": []
+  },
+  "71200016": {
+    "id": 71200016,
+    "rarity": 5,
+    "type": 6,
+    "tag": [
+      "Quest Item"
+    ],
+    "tag_num": [
+      21
+    ],
+    "name": "Sword Talisman Pendant",
+    "desc": "A keepsake gifted to you by Qingxiao. This jade sword glimmers with a chilling, emerald glow.",
+    "bg": "A few strands of pure, tranquil Sword Intent reside within this jade pendant. Held in the palm, its gentle frequency brushes over the body and mind like a soft breeze.\n\nMany years ago, Jingwei the Perfected entrusted Qingxiao with a jade pendant bearing the legacy of her teachings. Now, Qingxiao has placed a pendant she carved herself into your hands. It stands as both a token of your bond as master and disciple, and a keepsake of the journey you have shared.",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Task_247_UI.T_IconTask_Task_247_UI",
+    "source": []
+  },
+  "71200017": {
+    "id": 71200017,
+    "rarity": 5,
+    "type": 6,
+    "tag": [
+      "Quest Item"
+    ],
+    "tag_num": [
+      21
+    ],
+    "name": "\"Swordcraft of the Golden-Eyed One\"",
+    "desc": "An old swordcraft manual. Many of the sword moves pictured within seem familiar to you.",
+    "bg": "A swordcraft manual with gentle Sword Energy soaked into it. Despite the passage of many years, only slight wear is evident along its edges. Its keeper must have treasured it greatly.",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Task_248_UI.T_IconTask_Task_248_UI",
+    "source": []
+  },
+  "71200018": {
+    "id": 71200018,
+    "rarity": 4,
+    "type": 6,
+    "tag": [
+      "Quest Item"
+    ],
+    "tag_num": [
+      21
+    ],
+    "name": "Moonlit Splendor",
+    "desc": "A confection Yanshu asked you to give to Jingran. Seems to be fresh out of the oven.",
+    "bg": "A full moon-shaped steamed rice cake made from rice batter. Snow-white, soft, and pleasantly springy, it is garnished with slivers of candied red and green peel resembling twin rainbows upon fresh snow, hence the name \"Moonlit Splendor.\"",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconCook/T_IconCook_SP_30_UI.T_IconCook_SP_30_UI",
+    "source": []
+  },
+  "71200019": {
+    "id": 71200019,
+    "rarity": 5,
+    "type": 6,
+    "tag": [
+      "Quest Item"
+    ],
+    "tag_num": [
+      21
+    ],
+    "name": "Mirage Seeker's Tales (Advance Copy)",
+    "desc": "An advance copy of a novel found on a Cloud Shuttle, recounting the strange encounters of a Nethermancer across Mirage Realms. It seems someone has jotted down a few comments on some pages.",
+    "bg": "Since its debut, Mirage Seeker's Tales has seen multiple collected volumes published and garnered a loyal following across Mengzhou. The author halted serialization several months ago, claiming to be \"away gathering inspiration\"—a decision that has left countless readers clamoring for the next chapter.",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Task_246_UI.T_IconTask_Task_246_UI",
+    "source": []
+  },
   "71210001": {
     "id": 71210001,
     "rarity": 5,
@@ -29103,9 +29247,9 @@
     "tag_num": [
       21
     ],
-    "name": "Stay tuned",
-    "desc": "",
-    "bg": "",
+    "name": "Talisman",
+    "desc": "A \"talisman\" discovered by Ministry of War personnel while investigating the \"Soul Summoning\" ritual. It can be used to pinpoint where the ritual is being held.",
+    "bg": "\"But honestly, it's all a scam. They just dress up pretty words to prey on people's longing and love, doing all the bad stuff.\"",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_Act_Navigation12_UI.T_IconA_Act_Navigation12_UI",
     "source": []
   },
@@ -29119,41 +29263,9 @@
     "tag_num": [
       21
     ],
-    "name": "Stay tuned",
-    "desc": "",
-    "bg": "",
-    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Task_033_UI.T_IconTask_Task_033_UI",
-    "source": []
-  },
-  "71300516": {
-    "id": 71300516,
-    "rarity": 4,
-    "type": 6,
-    "tag": [
-      "Quest Item"
-    ],
-    "tag_num": [
-      21
-    ],
-    "name": "Stay tuned",
-    "desc": "",
-    "bg": "",
-    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Task_033_UI.T_IconTask_Task_033_UI",
-    "source": []
-  },
-  "71300517": {
-    "id": 71300517,
-    "rarity": 4,
-    "type": 6,
-    "tag": [
-      "Quest Item"
-    ],
-    "tag_num": [
-      21
-    ],
-    "name": "Stay tuned",
-    "desc": "",
-    "bg": "",
+    "name": "Lyu Yi's Ledger",
+    "desc": "The ledger of Lyu Yi, recording his day-to-day expenses.",
+    "bg": "What's written in it goes well beyond the daily necessities.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Task_033_UI.T_IconTask_Task_033_UI",
     "source": []
   },
@@ -30947,10 +31059,10 @@
     "tag_num": [
       50
     ],
-    "name": "",
-    "desc": "",
-    "bg": "",
-    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMowing/T_IconMowing_43.T_IconMowing_43",
+    "name": "Lamp That Illuminates the Illusion",
+    "desc": "Gaining Shield grants the Resonator 3% Fusion DMG Bonus and increases their total Heavy Attack DMG by 2.5% for 3s, stacking up to 15 times. Retriggering this effect refreshes the duration.\n\nThis Token can be used up to <color=#fee388>2</color> times in Whimpering Wastes.",
+    "bg": "The audience settled into their seats. The performer lit the lamp. A lively shadow sprang onto the screen. He cleared his throat, ready to sing. Yet what slipped from his lips was something he had never heard.",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMowing/T_IconMowing_58.T_IconMowing_58",
     "source": [
       "Whimpering Wastes"
     ]
@@ -31019,10 +31131,10 @@
     "tag_num": [
       50
     ],
-    "name": "",
-    "desc": "",
-    "bg": "",
-    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMowing/T_IconMowing_43.T_IconMowing_43",
+    "name": "Lamp That Illuminates the Illusion",
+    "desc": "Gaining Shield grants the Resonator 3% Fusion DMG Bonus and increases their total Heavy Attack DMG by 2.5% for 3s, stacking up to 15 times. Retriggering this effect refreshes the duration.\n\nThis Token can be used up to <color=#fee388>2</color> times in Whimpering Wastes.",
+    "bg": "The audience settled into their seats. The performer lit the lamp. A lively shadow sprang onto the screen. He cleared his throat, ready to sing. Yet what slipped from his lips was something he had never heard.",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMowing/T_IconMowing_58.T_IconMowing_58",
     "source": [
       "Whimpering Wastes"
     ]
@@ -31037,10 +31149,10 @@
     "tag_num": [
       50
     ],
-    "name": "",
-    "desc": "",
-    "bg": "",
-    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMowing/T_IconMowing_45.T_IconMowing_45",
+    "name": "The Wish with Husk Alone",
+    "desc": "Enemies take 30% more total Electro DMG.\nResonators deal 30% more total Electro DMG for 15s upon casting Intro Skill.\n\nThis Token can be used up to <color=#fee388>2</color> times in Whimpering Wastes.",
+    "bg": "Once, a woodcutter set off alone into the mountains to fell a tree that scraped the sky. For decades, no one saw him again. When he finally returned, giant timber in hand, he found the city had grown into a forest of steel, and the wood he'd spent his life harvesting was worth nothing at all.",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMowing/T_IconMowing_54.T_IconMowing_54",
     "source": [
       "Whimpering Wastes"
     ]
@@ -32241,9 +32353,9 @@
     "tag_num": [
       15
     ],
-    "name": "Stay tuned",
-    "desc": "Stay tuned",
-    "bg": "Stay tuned",
+    "name": "",
+    "desc": "",
+    "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_72010042_UI.T_IconA_72010042_UI",
     "source": []
   },
@@ -35103,6 +35215,42 @@
       "Cooking"
     ]
   },
+  "80001090": {
+    "id": 80001090,
+    "rarity": 4,
+    "type": 1,
+    "tag": [
+      "Dish"
+    ],
+    "tag_num": [
+      23
+    ],
+    "name": "Mengzhou Fish in Vinegar",
+    "desc": "Increases Energy Regen of all Resonators in the team by 34% for 30 min. Only effective on your own Resonators in Co-op Mode.",
+    "bg": "Made with fresh live fish from the Luo River, this dish is gently poached over a low flame and dressed in a traditional sweet-and-sour sauce. It gleams a glossy red, its flesh silver-white at every cut—delicate on the tongue, with a bright tangy-sweetness. The recipe is an old one, and though no shortage of variations have appeared over the years, only the original may be called \"Mengzhou Fish in Vinegar.\"\nAt the Waking Moon Festival in Yuan Fortress long ago, Qingxiao once tasted this dish at the famed restaurant Yuan's Flavors. Lanterns filled the city that night; dragons and fishes of light danced above the crowds, and every face wore a smile. A century later, fewer and fewer can cook it the way it tasted back then. Qingxiao has tried her own hand at it, but never managed to bring back the taste she remembers.",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconCook/T_IconCook_SP_31_UI.T_IconCook_SP_31_UI",
+    "source": [
+      "Cooking"
+    ]
+  },
+  "80001091": {
+    "id": 80001091,
+    "rarity": 3,
+    "type": 1,
+    "tag": [
+      "Dish"
+    ],
+    "tag_num": [
+      23
+    ],
+    "name": "Moonlit Splendor",
+    "desc": "Increases ATK of all Resonators in the team by 28% for 30 min. Only effective on your own Resonators in Co-op Mode.",
+    "bg": "This snow-white steamed rice cake is round as a full moon, soft and springy, and scattered with candied green and red threads like twin rainbows fallen across snow. Hence the name \"Moonlit Splendor.\" Lightly sweet and dense on the tongue, the fragrance of rice and sugar from it melts slowly between the teeth.\nThis confection is created by the wife of Jingran's Shifu, Granny Yanshu, and is his favorite. His little sister always says the cake is sickly sweet. Jingran disagrees, and every time he cups one in his hands and bites down, the satisfaction shows in his whole face.",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconCook/T_IconCook_SP_30_UI.T_IconCook_SP_30_UI",
+    "source": [
+      "Cooking"
+    ]
+  },
   "80001096": {
     "id": 80001096,
     "rarity": 4,
@@ -36304,8 +36452,8 @@
       24
     ],
     "name": "Skelecanth Tartare Recipe",
-    "desc": "Used to learn how to cook Jade Mushroom Soup.",
-    "bg": "A recipe that details how to cook Jade Mushroom Soup.",
+    "desc": "Used to learn how to cook Skelecanth Tartare.",
+    "bg": "A recipe that details how to cook Skelecanth Tartare.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconCook/T_IconCook_036_UI.T_IconCook_036_UI",
     "source": []
   },
@@ -36320,8 +36468,8 @@
       24
     ],
     "name": "Lichen Salad Recipe",
-    "desc": "Used to learn how to cook Cloudward Stew.",
-    "bg": "A recipe that details how to cook Cloudward Stew.",
+    "desc": "Used to learn how to cook Lichen Salad.",
+    "bg": "A recipe that details how to cook Lichen Salad.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconCook/T_IconCook_036_UI.T_IconCook_036_UI",
     "source": []
   },
@@ -36336,8 +36484,8 @@
       24
     ],
     "name": "Pine Needle Soda Recipe",
-    "desc": "Used to learn how to cook Sizzling Jade Stir-fry.",
-    "bg": "A recipe that details how to cook Sizzling Jade Stir-fry.",
+    "desc": "Used to learn how to cook Pine Needle Soda.",
+    "bg": "A recipe that details how to cook Pine Needle Soda.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconCook/T_IconCook_036_UI.T_IconCook_036_UI",
     "source": []
   },
@@ -36352,8 +36500,8 @@
       24
     ],
     "name": "Honeypot Jam Recipe",
-    "desc": "Used to learn how to cook Crab Braised Fish.",
-    "bg": "A recipe that details how to cook Crab Braised Fish.",
+    "desc": "Used to learn how to cook Honeypot Jam.",
+    "bg": "A recipe that details how to cook Honeypot Jam.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconCook/T_IconCook_036_UI.T_IconCook_036_UI",
     "source": []
   },
@@ -36368,8 +36516,8 @@
       24
     ],
     "name": "Smoked Meat Stew Recipe",
-    "desc": "Used to learn how to cook Little Snowy Moons.",
-    "bg": "A recipe that details how to cook Little Snowy Moons.",
+    "desc": "Used to learn how to cook Smoked Meat Stew.",
+    "bg": "A recipe that details how to cook Smoked Meat Stew.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconCook/T_IconCook_036_UI.T_IconCook_036_UI",
     "source": []
   },
@@ -36384,8 +36532,8 @@
       24
     ],
     "name": "Grilled Fern Spore Recipe",
-    "desc": "Used to learn how to cook Stir-Fried Trio.",
-    "bg": "A recipe that details how to cook Stir-Fried Trio.",
+    "desc": "Used to learn how to cook Grilled Fern Spore.",
+    "bg": "A recipe that details how to cook Grilled Fern Spore.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconCook/T_IconCook_036_UI.T_IconCook_036_UI",
     "source": []
   },
@@ -36400,8 +36548,8 @@
       24
     ],
     "name": "Fruit Crackle Recipe",
-    "desc": "Used to learn how to cook Flavor Under Heaven.",
-    "bg": "A recipe that details how to cook Flavor Under Heaven.",
+    "desc": "Used to learn how to cook Fruit Crackle.",
+    "bg": "A recipe that details how to cook Fruit Crackle.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconCook/T_IconCook_036_UI.T_IconCook_036_UI",
     "source": []
   },
@@ -36416,8 +36564,8 @@
       24
     ],
     "name": "\"Crack & Bolt\" Fish Jar Recipe",
-    "desc": "Used to learn how to cook Brocade Pearl Meatballs.",
-    "bg": "A recipe that details how to cook Brocade Pearl Meatballs.",
+    "desc": "Used to learn how to cook \"Crack & Bolt\" fish jars.",
+    "bg": "A recipe that details how to cook \"Crack & Bolt\" fish jar.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconCook/T_IconCook_036_UI.T_IconCook_036_UI",
     "source": []
   },
@@ -36432,8 +36580,8 @@
       24
     ],
     "name": "\"Munchie-More\" Bun Recipe",
-    "desc": "Used to learn how to cook Memories of Autumn.",
-    "bg": "A recipe that details how to cook Memories of Autumn.",
+    "desc": "Used to learn how to cook \"Munchie-More\" Bun.",
+    "bg": "A recipe that details how to cook \"Munchie-More\" Bun.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconCook/T_IconCook_036_UI.T_IconCook_036_UI",
     "source": []
   },
@@ -36448,8 +36596,8 @@
       24
     ],
     "name": "Complete Nutrition Squeezy Jelly Recipe",
-    "desc": "Used to learn how to cook Jade Broth Noodles.",
-    "bg": "A recipe that details how to cook Jade Broth Noodles.",
+    "desc": "Used to learn how to cook Complete Nutrition Squeezy Jelly.",
+    "bg": "A recipe that details how to cook Complete Nutrition Squeezy Jelly.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconCook/T_IconCook_036_UI.T_IconCook_036_UI",
     "source": []
   },
@@ -36464,8 +36612,8 @@
       24
     ],
     "name": "Lahai-Roi Special Plant Milk Recipe",
-    "desc": "Used to learn how to cook Immortal's Medley Tribute.",
-    "bg": "A recipe that details how to cook Immortal's Medley Tribute.",
+    "desc": "Used to learn how to cook Lahai-Roi Special Plant Milk.",
+    "bg": "A recipe that details how to cook Lahai-Roi Special Plant Milk.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconCook/T_IconCook_036_UI.T_IconCook_036_UI",
     "source": []
   },
@@ -40439,6 +40587,134 @@
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMst/T_IconMst_009_UI.T_IconMst_009_UI",
     "source": []
   },
+  "80110539": {
+    "id": 80110539,
+    "rarity": 4,
+    "type": 7,
+    "tag": [
+      "Melody Box"
+    ],
+    "tag_num": [
+      49
+    ],
+    "name": "Clarity of the Transcendent",
+    "desc": "Background music played when standing against the falling sky.",
+    "bg": "Complete Main Quest \"Song of the Heart Sword\" to unlock",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMst/T_IconMst_009_UI.T_IconMst_009_UI",
+    "source": []
+  },
+  "80110540": {
+    "id": 80110540,
+    "rarity": 4,
+    "type": 7,
+    "tag": [
+      "Melody Box"
+    ],
+    "tag_num": [
+      49
+    ],
+    "name": "Upstream of Light",
+    "desc": "Background music played when heading to the lightway.",
+    "bg": "Complete Main Quest \"Song of the Heart Sword\" to unlock",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMst/T_IconMst_009_UI.T_IconMst_009_UI",
+    "source": []
+  },
+  "80110541": {
+    "id": 80110541,
+    "rarity": 4,
+    "type": 7,
+    "tag": [
+      "Melody Box"
+    ],
+    "tag_num": [
+      49
+    ],
+    "name": "Vessels Upon the Sky",
+    "desc": "Background music played when exploring the Ren Realm.",
+    "bg": "Complete Main Quest \"Song of the Heart Sword\" to unlock",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMst/T_IconMst_009_UI.T_IconMst_009_UI",
+    "source": []
+  },
+  "80110542": {
+    "id": 80110542,
+    "rarity": 4,
+    "type": 7,
+    "tag": [
+      "Melody Box"
+    ],
+    "tag_num": [
+      49
+    ],
+    "name": "Shifting Clouds",
+    "desc": "Background music played when crossing the Skyend Barrier.",
+    "bg": "Complete Main Quest \"Song of the Heart Sword\" to unlock",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMst/T_IconMst_009_UI.T_IconMst_009_UI",
+    "source": []
+  },
+  "80110543": {
+    "id": 80110543,
+    "rarity": 4,
+    "type": 7,
+    "tag": [
+      "Melody Box"
+    ],
+    "tag_num": [
+      49
+    ],
+    "name": "Mirage of Yesterdays",
+    "desc": "Background music played when exploring the Di Realm.",
+    "bg": "Complete Main Quest \"Song of the Heart Sword\" to unlock",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMst/T_IconMst_009_UI.T_IconMst_009_UI",
+    "source": []
+  },
+  "80110544": {
+    "id": 80110544,
+    "rarity": 4,
+    "type": 7,
+    "tag": [
+      "Melody Box"
+    ],
+    "tag_num": [
+      49
+    ],
+    "name": "Skyend Passage",
+    "desc": "Background music played when crossing the final Skyend Barrier.",
+    "bg": "Complete Main Quest \"Song of the Heart Sword\" to unlock",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMst/T_IconMst_009_UI.T_IconMst_009_UI",
+    "source": []
+  },
+  "80110545": {
+    "id": 80110545,
+    "rarity": 4,
+    "type": 7,
+    "tag": [
+      "Melody Box"
+    ],
+    "tag_num": [
+      49
+    ],
+    "name": "Hymn of the Forged Empyrean",
+    "desc": "Background music played during the battle against Calamity Effigy.",
+    "bg": "Complete Main Quest \"Song of the Heart Sword\" to unlock",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMst/T_IconMst_009_UI.T_IconMst_009_UI",
+    "source": []
+  },
+  "80110546": {
+    "id": 80110546,
+    "rarity": 4,
+    "type": 7,
+    "tag": [
+      "Melody Box"
+    ],
+    "tag_num": [
+      49
+    ],
+    "name": "Sword of Mortals",
+    "desc": "Background music played during the final showdown with Calamity Effigy.",
+    "bg": "Complete Main Quest \"Song of the Heart Sword\" to unlock",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMst/T_IconMst_009_UI.T_IconMst_009_UI",
+    "source": []
+  },
   "80110601": {
     "id": 80110601,
     "rarity": 4,
@@ -41543,6 +41819,38 @@
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_Title_04_UI.T_IconA_Title_04_UI",
     "source": []
   },
+  "80130066": {
+    "id": 80130066,
+    "rarity": 5,
+    "type": 0,
+    "tag": [
+      "Title"
+    ],
+    "tag_num": [
+      51
+    ],
+    "name": "Immortal's Mortal Dream",
+    "desc": "She has carried a sword across centuries and watched the world make and unmake its bonds, over and over, in joy and in grief. And just as the last of the dream was thinning, the lamplight of the mortal world made her turn and look back.",
+    "bg": "Fully activate Qingxiao's Resonance Chain",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_Title_04_UI.T_IconA_Title_04_UI",
+    "source": []
+  },
+  "80130067": {
+    "id": 80130067,
+    "rarity": 5,
+    "type": 0,
+    "tag": [
+      "Title"
+    ],
+    "tag_num": [
+      51
+    ],
+    "name": "Dust and Nether",
+    "desc": "A lamp to go by, an eye to judge by. What he learns of life and what he takes from death, he takes alone. He kneels to no god and calls on no ghost.",
+    "bg": "Fully activate Jingran's Resonance Chain",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_Title_04_UI.T_IconA_Title_04_UI",
+    "source": []
+  },
   "80131001": {
     "id": 80131001,
     "rarity": 5,
@@ -41761,10 +42069,10 @@
     "tag_num": [
       51
     ],
-    "name": "",
-    "desc": "",
-    "bg": "",
-    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_Title_MowingTower35_UI.T_IconA_Title_MowingTower35_UI",
+    "name": "Resonance! Best Combo",
+    "desc": "Clear Scenario 6: Efficient Annihilation in \"Resonance Sim Realm\"",
+    "bg": "Come, the battle begins! The terms of victory are set!",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_Title_14_UI.T_IconA_Title_14_UI",
     "source": []
   },
   "80200001": {
@@ -42825,17 +43133,17 @@
     "rarity": 5,
     "type": 0,
     "tag": [
-      "Stay tuned"
+      "Expedition Motorbike Display Theme"
     ],
     "tag_num": [
       63
     ],
-    "name": "Stay tuned",
-    "desc": "Stay tuned",
-    "bg": "Stay tuned",
-    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/Activity/Activity33/Infrastructure/T_IconA_Infrastructure_01_UI.T_IconA_Infrastructure_01_UI",
+    "name": "Startorch Academy Garage Key",
+    "desc": "Used to change the Expedition Motorbike's Display Theme to the Expedition Motorbike garage at Startorch Academy.",
+    "bg": "Who wouldn't want their own parking spot at Startorch Academy?",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Task_251_UI.T_IconTask_Task_251_UI",
     "source": [
-      "Stay tuned"
+      "Complete Main Quest \"Beneath a Melting Night Sky\" and claim it in the Startorch Academy chat window on WavesLine"
     ]
   },
   "80700042": {
@@ -42843,17 +43151,17 @@
     "rarity": 5,
     "type": 0,
     "tag": [
-      "Stay tuned"
+      "Expedition Motorbike Display Theme"
     ],
     "tag_num": [
       63
     ],
-    "name": "Stay tuned",
-    "desc": "Stay tuned",
-    "bg": "Stay tuned",
-    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/Activity/Activity33/Infrastructure/T_IconA_Infrastructure_01_UI.T_IconA_Infrastructure_01_UI",
+    "name": "Land of Xuanfang Garage Key",
+    "desc": "Used to change the Expedition Motorbike's Display Theme to the Cloud Ride garage in the Land of Xuanfang.",
+    "bg": "If you intend to use a Cloud Ride, be sure to service it before and after every high-altitude operation. —Ministry of Development Guide to High-Altitude Operations",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Task_250_UI.T_IconTask_Task_250_UI",
     "source": [
-      "Stay tuned"
+      "Complete Main Quest \"Song of the Heart Sword\" and claim it in the Xuanfang Ministry of Development chat window on WavesLine"
     ]
   },
   "80700051": {
@@ -42861,17 +43169,17 @@
     "rarity": 5,
     "type": 7,
     "tag": [
-      "Stay tuned"
+      "Instrument"
     ],
     "tag_num": [
       64
     ],
-    "name": "Stay tuned",
-    "desc": "Stay tuned",
-    "bg": "Stay tuned",
+    "name": "Wish for Peace - Drifting Resonance",
+    "desc": "A gracefully crafted seven-string guqin, given to you by Qingxiao as an initiation gift. Within its strings linger the words she never spoke aloud to you. Interact to use.",
+    "bg": "A vessel of Sword Intent, this guqin is forever wreathed in wisps of cloud. A single stroke sings clear and true, like the ringing of a sword. Centuries ago, Qingxiao came upon a pair of rare materials, found nowhere else, meant for crafting guqin. Carved for days under pure Sword Energy, they could be shaped into something that mirrors the heart of its owner. One became the guqin she plays daily. The other she kept safe, revealed to the world only now.\n\"If one day I meet someone who truly understands my music… then this guqin shall be my gift.\"",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Task_249_UI.T_IconTask_Task_249_UI",
     "source": [
-      "Stay tuned"
+      "Complete Chapter IV - Segue \"The Nethermancer's Requiem\" and read the WavesLine message"
     ]
   },
   "80800001": {
@@ -43090,10 +43398,12 @@
     "tag": [
       "Premium Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Student Abby!",
     "desc": "Used to decorate the expedition motorbike's left fender.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon17.T_MotoDIYStickerIcon17",
+    "source": [
+      "Upgrade Vehicle Modding Level"
+    ]
   },
   "89101002": {
     "id": 89101002,
@@ -43101,65 +43411,77 @@
     "tag": [
       "Premium Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Carefree Rainbow",
     "desc": "Used to decorate the expedition motorbike's left fender.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon29.T_MotoDIYStickerIcon29",
+    "source": [
+      "Complete Main Quest \"What Burns Beneath Frostlands\""
+    ]
   },
   "89101003": {
     "id": 89101003,
-    "rarity": 4,
+    "rarity": 5,
     "tag": [
-      "Premium Livery"
+      "Custom Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Farewell to Yesterday",
     "desc": "Used to decorate the expedition motorbike's left fender.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon34.T_MotoDIYStickerIcon34",
+    "source": [
+      "Unavailable now"
+    ]
   },
   "89101004": {
     "id": 89101004,
-    "rarity": 4,
+    "rarity": 5,
     "tag": [
-      "Premium Livery"
+      "Custom Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Girl with Exostrider",
     "desc": "Used to decorate the expedition motorbike's left fender.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon39.T_MotoDIYStickerIcon39",
+    "source": [
+      "Purchase from Store"
+    ]
   },
   "89101005": {
     "id": 89101005,
-    "rarity": 4,
+    "rarity": 5,
     "tag": [
-      "Premium Livery"
+      "Custom Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Singer in Deepspace",
     "desc": "Used to decorate the expedition motorbike's left fender.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon59.T_MotoDIYStickerIcon59",
+    "source": [
+      "Unavailable now"
+    ]
   },
   "89101006": {
     "id": 89101006,
-    "rarity": 4,
+    "rarity": 5,
     "tag": [
-      "Premium Livery"
+      "Custom Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Lunar Causality",
     "desc": "Used to decorate the expedition motorbike's left fender.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon54.T_MotoDIYStickerIcon54",
+    "source": [
+      "Unavailable now"
+    ]
   },
   "89101007": {
     "id": 89101007,
-    "rarity": 4,
+    "rarity": 5,
     "tag": [
-      "Premium Livery"
+      "Custom Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Horizon Lookout",
     "desc": "Used to decorate the expedition motorbike's left fender.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon49.T_MotoDIYStickerIcon49",
+    "source": [
+      "Unavailable now"
+    ]
   },
   "89101008": {
     "id": 89101008,
@@ -43167,32 +43489,38 @@
     "tag": [
       "Premium Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Wuther as One",
     "desc": "Used to decorate the expedition motorbike's left fender.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon37.T_MotoDIYStickerIcon37",
+    "source": [
+      "Live Operations"
+    ]
   },
   "89101009": {
     "id": 89101009,
-    "rarity": 4,
+    "rarity": 5,
     "tag": [
-      "Premium Livery"
+      "Custom Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "QUEEN",
     "desc": "Used to decorate the expedition motorbike's left fender.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon65.T_MotoDIYStickerIcon65",
+    "source": [
+      "Unavailable now"
+    ]
   },
   "89101010": {
     "id": 89101010,
-    "rarity": 4,
+    "rarity": 5,
     "tag": [
-      "Premium Livery"
+      "Custom Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "VIOLET",
     "desc": "Used to decorate the expedition motorbike's left fender.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon61.T_MotoDIYStickerIcon61",
+    "source": [
+      "Unavailable now"
+    ]
   },
   "89101011": {
     "id": 89101011,
@@ -43200,21 +43528,25 @@
     "tag": [
       "Premium Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Call from Beyond the Stars",
     "desc": "Used to decorate the expedition motorbike's left fender.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon69.T_MotoDIYStickerIcon69",
+    "source": [
+      "Recurring Challenge \"Endstate Matrix: Doomsday Cycle\""
+    ]
   },
   "89101012": {
     "id": 89101012,
-    "rarity": 4,
+    "rarity": 5,
     "tag": [
-      "Premium Livery"
+      "Custom Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Snow, Moon, and Flowers",
     "desc": "Used to decorate the expedition motorbike's left fender.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon79.T_MotoDIYStickerIcon79",
+    "source": [
+      "Purchase from Store"
+    ]
   },
   "89101013": {
     "id": 89101013,
@@ -43222,10 +43554,12 @@
     "tag": [
       "Premium Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Flowers For You",
     "desc": "Used to decorate the expedition motorbike's left fender.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon82.T_MotoDIYStickerIcon82",
+    "source": [
+      "Unavailable now"
+    ]
   },
   "89101994": {
     "id": 89101994,
@@ -43233,9 +43567,9 @@
     "tag": [
       "Premium Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Bright Yellow",
     "desc": "Used to decorate the expedition motorbike's left fender.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon25.T_MotoDIYStickerIcon25",
     "source": []
   },
   "89101995": {
@@ -43244,9 +43578,9 @@
     "tag": [
       "Premium Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Vermilion",
     "desc": "Used to decorate the expedition motorbike's left fender.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon27.T_MotoDIYStickerIcon27",
     "source": []
   },
   "89101996": {
@@ -43255,10 +43589,12 @@
     "tag": [
       "Premium Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Deep Purple",
     "desc": "Used to decorate the expedition motorbike's left fender.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon26.T_MotoDIYStickerIcon26",
+    "source": [
+      "Upgrade Vehicle Modding Level"
+    ]
   },
   "89101998": {
     "id": 89101998,
@@ -43290,10 +43626,12 @@
     "tag": [
       "Premium Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Student Abby!",
     "desc": "Used to decorate the expedition motorbike's right fender.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon31.T_MotoDIYStickerIcon31",
+    "source": [
+      "Upgrade Vehicle Modding Level"
+    ]
   },
   "89102002": {
     "id": 89102002,
@@ -43301,87 +43639,103 @@
     "tag": [
       "Premium Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Carefree Rainbow",
     "desc": "Used to decorate the expedition motorbike's right fender.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon36.T_MotoDIYStickerIcon36",
+    "source": [
+      "Complete Main Quest \"What Burns Beneath Frostlands\""
+    ]
   },
   "89102003": {
     "id": 89102003,
-    "rarity": 4,
+    "rarity": 5,
     "tag": [
-      "Premium Livery"
+      "Custom Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Farewell to Yesterday",
     "desc": "Used to decorate the expedition motorbike's right fender.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon30.T_MotoDIYStickerIcon30",
+    "source": [
+      "Unavailable now"
+    ]
   },
   "89102004": {
     "id": 89102004,
-    "rarity": 4,
+    "rarity": 5,
     "tag": [
-      "Premium Livery"
+      "Custom Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Girl with Exostrider",
     "desc": "Used to decorate the expedition motorbike's right fender.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon40.T_MotoDIYStickerIcon40",
+    "source": [
+      "Purchase from Store"
+    ]
   },
   "89102005": {
     "id": 89102005,
-    "rarity": 4,
+    "rarity": 5,
     "tag": [
-      "Premium Livery"
+      "Custom Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Singer in Deepspace",
     "desc": "Used to decorate the expedition motorbike's right fender.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon60.T_MotoDIYStickerIcon60",
+    "source": [
+      "Unavailable now"
+    ]
   },
   "89102006": {
     "id": 89102006,
-    "rarity": 4,
+    "rarity": 5,
     "tag": [
-      "Premium Livery"
+      "Custom Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Lunar Causality",
     "desc": "Used to decorate the expedition motorbike's right fender.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon55.T_MotoDIYStickerIcon55",
+    "source": [
+      "Unavailable now"
+    ]
   },
   "89102007": {
     "id": 89102007,
-    "rarity": 4,
+    "rarity": 5,
     "tag": [
-      "Premium Livery"
+      "Custom Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Horizon Lookout",
     "desc": "Used to decorate the expedition motorbike's right fender.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon48.T_MotoDIYStickerIcon48",
+    "source": [
+      "Unavailable now"
+    ]
   },
   "89102008": {
     "id": 89102008,
-    "rarity": 4,
+    "rarity": 5,
     "tag": [
-      "Premium Livery"
+      "Custom Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "QUEEN",
     "desc": "Used to decorate the expedition motorbike's right fender.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon66.T_MotoDIYStickerIcon66",
+    "source": [
+      "Unavailable now"
+    ]
   },
   "89102009": {
     "id": 89102009,
-    "rarity": 4,
+    "rarity": 5,
     "tag": [
-      "Premium Livery"
+      "Custom Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "VIOLET",
     "desc": "Used to decorate the expedition motorbike's right fender.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon62.T_MotoDIYStickerIcon62",
+    "source": [
+      "Unavailable now"
+    ]
   },
   "89102010": {
     "id": 89102010,
@@ -43389,21 +43743,25 @@
     "tag": [
       "Premium Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Call from Beyond the Stars",
     "desc": "Used to decorate the expedition motorbike's right fender.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon70.T_MotoDIYStickerIcon70",
+    "source": [
+      "Recurring Challenge \"Endstate Matrix: Doomsday Cycle\""
+    ]
   },
   "89102011": {
     "id": 89102011,
-    "rarity": 4,
+    "rarity": 5,
     "tag": [
-      "Premium Livery"
+      "Custom Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Snow, Moon, and Flowers",
     "desc": "Used to decorate the expedition motorbike's right fender.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon80.T_MotoDIYStickerIcon80",
+    "source": [
+      "Purchase from Store"
+    ]
   },
   "89102012": {
     "id": 89102012,
@@ -43411,10 +43769,12 @@
     "tag": [
       "Premium Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Flowers For You",
     "desc": "Used to decorate the expedition motorbike's right fender.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon83.T_MotoDIYStickerIcon83",
+    "source": [
+      "Unavailable now"
+    ]
   },
   "89102994": {
     "id": 89102994,
@@ -43422,9 +43782,9 @@
     "tag": [
       "Premium Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Bright Yellow",
     "desc": "Used to decorate the expedition motorbike's right fender.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon25.T_MotoDIYStickerIcon25",
     "source": []
   },
   "89102995": {
@@ -43433,9 +43793,9 @@
     "tag": [
       "Premium Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Vermilion",
     "desc": "Used to decorate the expedition motorbike's right fender.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon27.T_MotoDIYStickerIcon27",
     "source": []
   },
   "89102996": {
@@ -43444,10 +43804,12 @@
     "tag": [
       "Premium Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Deep Purple",
     "desc": "Used to decorate the expedition motorbike's right fender.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon26.T_MotoDIYStickerIcon26",
+    "source": [
+      "Upgrade Vehicle Modding Level"
+    ]
   },
   "89102998": {
     "id": 89102998,
@@ -43479,10 +43841,12 @@
     "tag": [
       "Premium Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Student Abby!",
     "desc": "Used to decorate the expedition motorbike's front and rear.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon32.T_MotoDIYStickerIcon32",
+    "source": [
+      "Upgrade Vehicle Modding Level"
+    ]
   },
   "89103002": {
     "id": 89103002,
@@ -43490,10 +43854,12 @@
     "tag": [
       "Premium Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Lemming Charge",
     "desc": "Used to decorate the expedition motorbike's front and rear.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon08.T_MotoDIYStickerIcon08",
+    "source": [
+      "Complete Quest \"The Lost Melody\""
+    ]
   },
   "89103003": {
     "id": 89103003,
@@ -43501,21 +43867,25 @@
     "tag": [
       "Premium Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Carefree Rainbow",
     "desc": "Used to decorate the expedition motorbike's front and rear.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon33.T_MotoDIYStickerIcon33",
+    "source": [
+      "Complete Main Quest \"What Burns Beneath Frostlands\""
+    ]
   },
   "89103004": {
     "id": 89103004,
-    "rarity": 4,
+    "rarity": 5,
     "tag": [
-      "Premium Livery"
+      "Custom Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Farewell to Yesterday",
     "desc": "Used to decorate the expedition motorbike's front and rear.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon35.T_MotoDIYStickerIcon35",
+    "source": [
+      "Unavailable now"
+    ]
   },
   "89103005": {
     "id": 89103005,
@@ -43523,10 +43893,12 @@
     "tag": [
       "Premium Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Cube Expert",
     "desc": "Used to decorate the expedition motorbike's front and rear.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon07.T_MotoDIYStickerIcon07",
+    "source": [
+      "Complete Quest \"More Than Decoration\""
+    ]
   },
   "89103006": {
     "id": 89103006,
@@ -43534,10 +43906,12 @@
     "tag": [
       "Premium Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Chuu! Chuluu?",
     "desc": "Used to decorate the expedition motorbike's front and rear.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon11.T_MotoDIYStickerIcon11",
+    "source": [
+      "Complete Quest \"Where Light Takes Shape\""
+    ]
   },
   "89103007": {
     "id": 89103007,
@@ -43545,10 +43919,12 @@
     "tag": [
       "Premium Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Companionship",
     "desc": "Used to decorate the expedition motorbike's front and rear.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon03.T_MotoDIYStickerIcon03",
+    "source": [
+      "Quest \"Catch the Winds\""
+    ]
   },
   "89103008": {
     "id": 89103008,
@@ -43556,10 +43932,12 @@
     "tag": [
       "Premium Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "No. 1 Biker",
     "desc": "Used to decorate the expedition motorbike's front and rear.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon16.T_MotoDIYStickerIcon16",
+    "source": [
+      "Complete Quest \"No. 1 Biker\""
+    ]
   },
   "89103010": {
     "id": 89103010,
@@ -43567,10 +43945,12 @@
     "tag": [
       "Premium Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Happy Soliskin Family",
     "desc": "Used to decorate the expedition motorbike's front and rear.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon12.T_MotoDIYStickerIcon12",
+    "source": [
+      "Deliver Soliseeds"
+    ]
   },
   "89103011": {
     "id": 89103011,
@@ -43578,10 +43958,12 @@
     "tag": [
       "Premium Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Studious Soliskin",
     "desc": "Used to decorate the expedition motorbike's front and rear.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon13.T_MotoDIYStickerIcon13",
+    "source": [
+      "Complete Quest \"Return to Light\""
+    ]
   },
   "89103012": {
     "id": 89103012,
@@ -43589,10 +43971,12 @@
     "tag": [
       "Premium Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Low Fuel",
     "desc": "Used to decorate the expedition motorbike's front and rear.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon10.T_MotoDIYStickerIcon10",
+    "source": [
+      "Collect Tapes of Last Words"
+    ]
   },
   "89103013": {
     "id": 89103013,
@@ -43600,10 +43984,12 @@
     "tag": [
       "Premium Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Repletion",
     "desc": "Used to decorate the expedition motorbike's front and rear.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon04.T_MotoDIYStickerIcon04",
+    "source": [
+      "Complete Quest \"Squeezy not Smiley\""
+    ]
   },
   "89103014": {
     "id": 89103014,
@@ -43611,10 +43997,12 @@
     "tag": [
       "Premium Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Dhalifa's Smile",
     "desc": "Used to decorate the expedition motorbike's front and rear.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon14.T_MotoDIYStickerIcon14",
+    "source": [
+      "Complete Quest \"Spacetrek Observatory: Overwatch Phase\""
+    ]
   },
   "89103015": {
     "id": 89103015,
@@ -43622,10 +44010,12 @@
     "tag": [
       "Premium Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "The Shimmer Comes",
     "desc": "Used to decorate the expedition motorbike's front and rear.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon15.T_MotoDIYStickerIcon15",
+    "source": [
+      "Complete all Void Storm Reinforcement assignments"
+    ]
   },
   "89103016": {
     "id": 89103016,
@@ -43633,10 +44023,12 @@
     "tag": [
       "Premium Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Makoto Yuki",
     "desc": "Used to decorate the expedition motorbike's front and rear.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon18.T_MotoDIYStickerIcon18",
+    "source": [
+      "Unavailable now"
+    ]
   },
   "89103017": {
     "id": 89103017,
@@ -43644,10 +44036,12 @@
     "tag": [
       "Premium Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Aigis",
     "desc": "Used to decorate the expedition motorbike's front and rear.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon19.T_MotoDIYStickerIcon19",
+    "source": [
+      "Unavailable now"
+    ]
   },
   "89103018": {
     "id": 89103018,
@@ -43655,10 +44049,12 @@
     "tag": [
       "Premium Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Joker",
     "desc": "Used to decorate the expedition motorbike's front and rear.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon21.T_MotoDIYStickerIcon21",
+    "source": [
+      "Unavailable now"
+    ]
   },
   "89103019": {
     "id": 89103019,
@@ -43666,10 +44062,12 @@
     "tag": [
       "Premium Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Mona",
     "desc": "Used to decorate the expedition motorbike's front and rear.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon20.T_MotoDIYStickerIcon20",
+    "source": [
+      "Unavailable now"
+    ]
   },
   "89103020": {
     "id": 89103020,
@@ -43677,10 +44075,12 @@
     "tag": [
       "Premium Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Sonic",
     "desc": "Used to decorate the expedition motorbike's front and rear.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon23.T_MotoDIYStickerIcon23",
+    "source": [
+      "Unavailable now"
+    ]
   },
   "89103021": {
     "id": 89103021,
@@ -43688,10 +44088,12 @@
     "tag": [
       "Premium Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Shadow",
     "desc": "Used to decorate the expedition motorbike's front and rear.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon22.T_MotoDIYStickerIcon22",
+    "source": [
+      "Unavailable now"
+    ]
   },
   "89103022": {
     "id": 89103022,
@@ -43699,10 +44101,12 @@
     "tag": [
       "Premium Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Curiosity Takes Flight",
     "desc": "Used to decorate the expedition motorbike's front and rear.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon09.T_MotoDIYStickerIcon09",
+    "source": [
+      "Complete Quest \"Unparalleled Mechascout\""
+    ]
   },
   "89103023": {
     "id": 89103023,
@@ -43710,10 +44114,12 @@
     "tag": [
       "Premium Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "A Cozy Break",
     "desc": "Used to decorate the expedition motorbike's front and rear.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon05.T_MotoDIYStickerIcon05",
+    "source": [
+      "Complete all stargazing events"
+    ]
   },
   "89103024": {
     "id": 89103024,
@@ -43721,10 +44127,12 @@
     "tag": [
       "Premium Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Warmed Up Abby",
     "desc": "Used to decorate the expedition motorbike's front and rear.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon06.T_MotoDIYStickerIcon06",
+    "source": [
+      "Complete all stargazing events"
+    ]
   },
   "89103025": {
     "id": 89103025,
@@ -43732,10 +44140,12 @@
     "tag": [
       "Premium Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "A Fleeting Encounter",
     "desc": "Used to decorate the expedition motorbike's front and rear.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon02.T_MotoDIYStickerIcon02",
+    "source": [
+      "Live Operations"
+    ]
   },
   "89103026": {
     "id": 89103026,
@@ -43743,10 +44153,12 @@
     "tag": [
       "Premium Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Reactor Shadow",
     "desc": "Used to decorate the expedition motorbike's front and rear.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon42.T_MotoDIYStickerIcon42",
+    "source": [
+      "Unavailable now"
+    ]
   },
   "89103027": {
     "id": 89103027,
@@ -43754,10 +44166,12 @@
     "tag": [
       "Premium Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Observer's Eye",
     "desc": "Used to decorate the expedition motorbike's front and rear.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon43.T_MotoDIYStickerIcon43",
+    "source": [
+      "Unavailable now"
+    ]
   },
   "89103028": {
     "id": 89103028,
@@ -43765,10 +44179,12 @@
     "tag": [
       "Premium Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Silent Array",
     "desc": "Used to decorate the expedition motorbike's front and rear.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon44.T_MotoDIYStickerIcon44",
+    "source": [
+      "Unavailable now"
+    ]
   },
   "89103029": {
     "id": 89103029,
@@ -43776,10 +44192,12 @@
     "tag": [
       "Premium Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Flash Freeze",
     "desc": "Used to decorate the expedition motorbike's front and rear.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon46.T_MotoDIYStickerIcon46",
+    "source": [
+      "Complete Quest \"Fracture the Frozen Mirror\""
+    ]
   },
   "89103030": {
     "id": 89103030,
@@ -43787,10 +44205,12 @@
     "tag": [
       "Premium Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Ingenuity",
     "desc": "Used to decorate the expedition motorbike's front and rear.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon41.T_MotoDIYStickerIcon41",
+    "source": [
+      "Solve all Smartprint Cube puzzles in the Frostlands Surface"
+    ]
   },
   "89103031": {
     "id": 89103031,
@@ -43798,10 +44218,12 @@
     "tag": [
       "Premium Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "On Thin Ice",
     "desc": "Used to decorate the expedition motorbike's front and rear.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon50.T_MotoDIYStickerIcon50",
+    "source": [
+      "Deliver Soliseeds"
+    ]
   },
   "89103032": {
     "id": 89103032,
@@ -43809,10 +44231,12 @@
     "tag": [
       "Premium Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Flux Wings",
     "desc": "Used to decorate the expedition motorbike's front and rear.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon51.T_MotoDIYStickerIcon51",
+    "source": [
+      "Complete Quest \"The Song of Ice and Steel\""
+    ]
   },
   "89103033": {
     "id": 89103033,
@@ -43820,10 +44244,12 @@
     "tag": [
       "Premium Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Follow the Sunlight",
     "desc": "Used to decorate the expedition motorbike's front and rear.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon45.T_MotoDIYStickerIcon45",
+    "source": [
+      "Complete Afterstory \"All That Sunlight Touches\""
+    ]
   },
   "89103034": {
     "id": 89103034,
@@ -43831,32 +44257,38 @@
     "tag": [
       "Premium Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "MOOMOOSSI",
     "desc": "Used to decorate the expedition motorbike's front and rear.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon52.T_MotoDIYStickerIcon52",
+    "source": [
+      "Live Operations"
+    ]
   },
   "89103035": {
     "id": 89103035,
-    "rarity": 4,
+    "rarity": 5,
     "tag": [
-      "Premium Livery"
+      "Custom Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "QUEEN",
     "desc": "Used to decorate the expedition motorbike's front and rear.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon67.T_MotoDIYStickerIcon67",
+    "source": [
+      "Unavailable now"
+    ]
   },
   "89103036": {
     "id": 89103036,
-    "rarity": 4,
+    "rarity": 5,
     "tag": [
-      "Premium Livery"
+      "Custom Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "VIOLET",
     "desc": "Used to decorate the expedition motorbike's front and rear.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon64.T_MotoDIYStickerIcon64",
+    "source": [
+      "Unavailable now"
+    ]
   },
   "89103038": {
     "id": 89103038,
@@ -43864,10 +44296,12 @@
     "tag": [
       "Premium Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Melting into the Cobalt Blue Snow",
     "desc": "Used to decorate the expedition motorbike's front and rear.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon01.T_MotoDIYStickerIcon01",
+    "source": [
+      "Complete \"A Snowbound Order from Cobalt Blue\""
+    ]
   },
   "89103039": {
     "id": 89103039,
@@ -43875,10 +44309,12 @@
     "tag": [
       "Premium Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "After Party Smiles",
     "desc": "Used to decorate the expedition motorbike's front and rear.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon68.T_MotoDIYStickerIcon68",
+    "source": [
+      "Complete \"Gold Suspended in Shadows\""
+    ]
   },
   "89103040": {
     "id": 89103040,
@@ -43886,21 +44322,25 @@
     "tag": [
       "Premium Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Memories of the Stars",
     "desc": "Used to decorate the expedition motorbike's front and rear.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon63.T_MotoDIYStickerIcon63",
+    "source": [
+      "\"Whispers Between Stars\" Event"
+    ]
   },
   "89103041": {
     "id": 89103041,
-    "rarity": 4,
+    "rarity": 5,
     "tag": [
-      "Premium Livery"
+      "Custom Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Snow, Moon, and Flowers",
     "desc": "Used to decorate the expedition motorbike's front and rear.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon81.T_MotoDIYStickerIcon81",
+    "source": [
+      "Purchase from Store"
+    ]
   },
   "89103042": {
     "id": 89103042,
@@ -43908,10 +44348,12 @@
     "tag": [
       "Premium Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Flowers For You",
     "desc": "Used to decorate the expedition motorbike's front and rear.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon84.T_MotoDIYStickerIcon84",
+    "source": [
+      "Unavailable now"
+    ]
   },
   "89103043": {
     "id": 89103043,
@@ -43919,10 +44361,12 @@
     "tag": [
       "Premium Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Resident Evil",
     "desc": "Used to decorate the expedition motorbike's front and rear.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon78.T_MotoDIYStickerIcon78",
+    "source": [
+      "Unavailable now"
+    ]
   },
   "89103044": {
     "id": 89103044,
@@ -43930,10 +44374,12 @@
     "tag": [
       "Premium Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "PRAGMATA",
     "desc": "Used to decorate the expedition motorbike's front and rear.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon71.T_MotoDIYStickerIcon71",
+    "source": [
+      "Unavailable now"
+    ]
   },
   "89103045": {
     "id": 89103045,
@@ -43941,10 +44387,12 @@
     "tag": [
       "Premium Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Hinata Shoyo",
     "desc": "Used to decorate the expedition motorbike's front and rear.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon76.T_MotoDIYStickerIcon76",
+    "source": [
+      "Unavailable now"
+    ]
   },
   "89103046": {
     "id": 89103046,
@@ -43952,10 +44400,12 @@
     "tag": [
       "Premium Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Kageyama Tobio",
     "desc": "Used to decorate the expedition motorbike's front and rear.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon77.T_MotoDIYStickerIcon77",
+    "source": [
+      "Unavailable now"
+    ]
   },
   "89103047": {
     "id": 89103047,
@@ -43963,10 +44413,12 @@
     "tag": [
       "Premium Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Soshiro Hoshina",
     "desc": "Used to decorate the expedition motorbike's front and rear.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon73.T_MotoDIYStickerIcon73",
+    "source": [
+      "Unavailable now"
+    ]
   },
   "89103048": {
     "id": 89103048,
@@ -43974,10 +44426,12 @@
     "tag": [
       "Premium Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Kaiju No. 8",
     "desc": "Used to decorate the expedition motorbike's front and rear.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon74.T_MotoDIYStickerIcon74",
+    "source": [
+      "Unavailable now"
+    ]
   },
   "89103049": {
     "id": 89103049,
@@ -43985,10 +44439,12 @@
     "tag": [
       "Premium Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Riders Republic",
     "desc": "Used to decorate the expedition motorbike's front and rear.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon75.T_MotoDIYStickerIcon75",
+    "source": [
+      "Unavailable now"
+    ]
   },
   "89103050": {
     "id": 89103050,
@@ -43996,10 +44452,12 @@
     "tag": [
       "Premium Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Angry Birds",
     "desc": "Used to decorate the expedition motorbike's front and rear.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon72.T_MotoDIYStickerIcon72",
+    "source": [
+      "Unavailable now"
+    ]
   },
   "89103051": {
     "id": 89103051,
@@ -44007,10 +44465,12 @@
     "tag": [
       "Premium Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Far Reaches of Aurora",
     "desc": "Used to decorate the expedition motorbike's front and rear.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon87.T_MotoDIYStickerIcon87",
+    "source": [
+      "Complete Exploration Quest \"A Perfect Day for Flying\""
+    ]
   },
   "89103052": {
     "id": 89103052,
@@ -44018,10 +44478,12 @@
     "tag": [
       "Premium Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Ever True",
     "desc": "Used to decorate the expedition motorbike's front and rear.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon89.T_MotoDIYStickerIcon89",
+    "source": [
+      "Complete Exploration Quest \"Broken Dimmr Heart\""
+    ]
   },
   "89103053": {
     "id": 89103053,
@@ -44029,10 +44491,12 @@
     "tag": [
       "Premium Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "We Promise, We Deliver",
     "desc": "Used to decorate the expedition motorbike's front and rear.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon88.T_MotoDIYStickerIcon88",
+    "source": [
+      "Witness the birth of the expedition motorbike prototype"
+    ]
   },
   "89103054": {
     "id": 89103054,
@@ -44040,10 +44504,12 @@
     "tag": [
       "Premium Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Radiate into the Depths",
     "desc": "Used to decorate the expedition motorbike's front and rear.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon86.T_MotoDIYStickerIcon86",
+    "source": [
+      "\"Into the Land of Paradox\" event"
+    ]
   },
   "89103055": {
     "id": 89103055,
@@ -44051,10 +44517,12 @@
     "tag": [
       "Premium Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Where This Heart Comes From",
     "desc": "Used to decorate the expedition motorbike's front and rear.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon90.T_MotoDIYStickerIcon90",
+    "source": [
+      "Complete Main Quest \"Starlights from Yesterdays\""
+    ]
   },
   "89103056": {
     "id": 89103056,
@@ -44062,10 +44530,12 @@
     "tag": [
       "Premium Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Seamless",
     "desc": "Used to decorate the expedition motorbike's front and rear.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon85.T_MotoDIYStickerIcon85",
+    "source": [
+      "Complete \"Beneath a Melting Night Sky\""
+    ]
   },
   "89103058": {
     "id": 89103058,
@@ -44073,10 +44543,12 @@
     "tag": [
       "Premium Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Finish Line",
     "desc": "Used to decorate the expedition motorbike's front and rear.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon93.T_MotoDIYStickerIcon93",
+    "source": [
+      "Unavailable now"
+    ]
   },
   "89103059": {
     "id": 89103059,
@@ -44084,10 +44556,12 @@
     "tag": [
       "Premium Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Pagoda Puppet",
     "desc": "Used to decorate the expedition motorbike's front and rear.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon99.T_MotoDIYStickerIcon99",
+    "source": [
+      "Autopuppets in Fog Veiled Chambers"
+    ]
   },
   "89103060": {
     "id": 89103060,
@@ -44095,10 +44569,12 @@
     "tag": [
       "Premium Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Autopuppets, Unite!",
     "desc": "Used to decorate the expedition motorbike's front and rear.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon98.T_MotoDIYStickerIcon98",
+    "source": [
+      "The Last Squarefield Sparring"
+    ]
   },
   "89103061": {
     "id": 89103061,
@@ -44106,10 +44582,12 @@
     "tag": [
       "Premium Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Rebuilding Auto Empire",
     "desc": "Used to decorate the expedition motorbike's front and rear.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon97.T_MotoDIYStickerIcon97",
+    "source": [
+      "Collect all Automatons"
+    ]
   },
   "89103062": {
     "id": 89103062,
@@ -44117,10 +44595,12 @@
     "tag": [
       "Premium Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Wind-Laced Feathers",
     "desc": "Used to decorate the expedition motorbike's front and rear.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon100.T_MotoDIYStickerIcon100",
+    "source": [
+      "Complete Main Quest \"The Chant of Unseen Ties\""
+    ]
   },
   "89103063": {
     "id": 89103063,
@@ -44128,10 +44608,12 @@
     "tag": [
       "Premium Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Silky Afterglow",
     "desc": "Used to decorate the expedition motorbike's front and rear.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon101.T_MotoDIYStickerIcon101",
+    "source": [
+      "Complete Side Quest \"A Chill Day Out\""
+    ]
   },
   "89103064": {
     "id": 89103064,
@@ -44139,10 +44621,12 @@
     "tag": [
       "Premium Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Escape From Duckov",
     "desc": "Used to decorate the expedition motorbike's front and rear.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon96.T_MotoDIYStickerIcon96",
+    "source": [
+      "Unavailable now"
+    ]
   },
   "89103065": {
     "id": 89103065,
@@ -44150,10 +44634,12 @@
     "tag": [
       "Premium Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Cloud Voyage",
     "desc": "Used to decorate the expedition motorbike's front and rear.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon103.T_MotoDIYStickerIcon103",
+    "source": [
+      "Complete Main Quest \"Song of the Heart Sword\""
+    ]
   },
   "89103066": {
     "id": 89103066,
@@ -44161,54 +44647,64 @@
     "tag": [
       "Premium Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Jadie the Mightiest Autopuppet",
     "desc": "Used to decorate the expedition motorbike's front and rear.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon104.T_MotoDIYStickerIcon104",
+    "source": [
+      "Complete Main Quest \"Song of the Heart Sword\""
+    ]
   },
   "89103926": {
     "id": 89103926,
-    "rarity": 4,
+    "rarity": 5,
     "tag": [
-      "Premium Livery"
+      "Custom Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Girl with Exostrider",
     "desc": "Used to decorate the expedition motorbike's front and rear.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon38.T_MotoDIYStickerIcon38",
+    "source": [
+      "Purchase from Store"
+    ]
   },
   "89103927": {
     "id": 89103927,
-    "rarity": 4,
+    "rarity": 5,
     "tag": [
-      "Premium Livery"
+      "Custom Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Singer in Deepspace",
     "desc": "Used to decorate the expedition motorbike's front and rear.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon58.T_MotoDIYStickerIcon58",
+    "source": [
+      "Unavailable now"
+    ]
   },
   "89103928": {
     "id": 89103928,
-    "rarity": 4,
+    "rarity": 5,
     "tag": [
-      "Premium Livery"
+      "Custom Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Lunar Causality",
     "desc": "Used to decorate the expedition motorbike's front and rear.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon53.T_MotoDIYStickerIcon53",
+    "source": [
+      "Unavailable now"
+    ]
   },
   "89103929": {
     "id": 89103929,
-    "rarity": 4,
+    "rarity": 5,
     "tag": [
-      "Premium Livery"
+      "Custom Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Horizon Lookout",
     "desc": "Used to decorate the expedition motorbike's front and rear.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon47.T_MotoDIYStickerIcon47",
+    "source": [
+      "Unavailable now"
+    ]
   },
   "89103994": {
     "id": 89103994,
@@ -44216,9 +44712,9 @@
     "tag": [
       "Premium Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Bright Yellow",
     "desc": "Used to decorate the expedition motorbike's front and rear.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon25.T_MotoDIYStickerIcon25",
     "source": []
   },
   "89103995": {
@@ -44227,9 +44723,9 @@
     "tag": [
       "Premium Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Vermilion",
     "desc": "Used to decorate the expedition motorbike's front and rear.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon27.T_MotoDIYStickerIcon27",
     "source": []
   },
   "89103996": {
@@ -44238,10 +44734,12 @@
     "tag": [
       "Premium Livery"
     ],
-    "name": "Blue Indigo",
+    "name": "Deep Purple",
     "desc": "Used to decorate the expedition motorbike's front and rear.",
-    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon24.T_MotoDIYStickerIcon24",
-    "source": []
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon26.T_MotoDIYStickerIcon26",
+    "source": [
+      "Upgrade Vehicle Modding Level"
+    ]
   },
   "89103998": {
     "id": 89103998,
@@ -44329,6 +44827,17 @@
     "source": [
       "Activate the Resonance Nexus in Shaftpost Yard during Main Quest"
     ]
+  },
+  "89400006": {
+    "id": 89400006,
+    "rarity": 1,
+    "tag": [
+      ""
+    ],
+    "name": "",
+    "desc": "",
+    "icon": "",
+    "source": []
   },
   "89500001": {
     "id": 89500001,

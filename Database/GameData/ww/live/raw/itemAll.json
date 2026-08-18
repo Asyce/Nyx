@@ -2127,7 +2127,7 @@
       32
     ],
     "name": "Purchase Connoisseur Channel",
-    "desc": "Unlocks the Insider Channel of the Pioneer Podcast.\r\n\r\nComplete the Podcast Tasks for various rewards.",
+    "desc": "Unlocks the Insider Channel of the Pioneer Podcast.\n\nComplete the Podcast Tasks for various rewards.",
     "bg": "Start listening to the Pioneer Podcast now to gain valuable insights for your outdoor adventures!",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_cdtq_UI.T_IconA_cdtq_UI",
     "source": []
@@ -2143,7 +2143,7 @@
       32
     ],
     "name": "Insider Channel Key",
-    "desc": "Unlocks the Insider Channel of the Pioneer Podcast.\r\n\r\nComplete the Podcast Tasks for various rewards.",
+    "desc": "Unlocks the Insider Channel of the Pioneer Podcast.\n\nComplete the Podcast Tasks for various rewards.",
     "bg": "Standard physical key issued by the Pioneer Association for the Insider Channel.\n\"Welcome to the Insider Channel! Coming up next is the morning news express...\"",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_zl_02_UI.T_IconA_zl_02_UI",
     "source": []
@@ -2159,7 +2159,7 @@
       32
     ],
     "name": "Connoisseur Key",
-    "desc": "Unlocks the Insider Channel of the Pioneer Podcast and get additional privilege rewards.\r\n\r\nComplete the Podcast Tasks for various rewards.",
+    "desc": "Unlocks the Insider Channel of the Pioneer Podcast and get additional privilege rewards.\n\nComplete the Podcast Tasks for various rewards.",
     "bg": "Special Deluxe Keycode for the Pioneer Podcast's Connoisseur Channel.\n\"Start listening to the Pioneer Podcast now to gain valuable insights for your outdoor adventures!\"",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_zl_03_UI.T_IconA_zl_03_UI",
     "source": []
@@ -3964,6 +3964,40 @@
       "available_num": 1
     }
   },
+  "51058": {
+    "id": 51058,
+    "rarity": 5,
+    "type": 7,
+    "tag": [
+      "Supply Chest"
+    ],
+    "tag_num": [
+      16
+    ],
+    "name": "Shaftpost Yard's Tuning Collection",
+    "desc": "Obtain to receive the items inside.",
+    "bg": "",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
+    "source": [],
+    "giftpack": {
+      "key": 4,
+      "content": [
+        {
+          "key": 3,
+          "value": 600
+        },
+        {
+          "key": 36000014,
+          "value": 300
+        },
+        {
+          "key": 36000004,
+          "value": 40
+        }
+      ],
+      "available_num": 1
+    }
+  },
   "52001": {
     "id": 52001,
     "rarity": 5,
@@ -4577,6 +4611,22 @@
       ],
       "available_num": 1
     }
+  },
+  "52020": {
+    "id": 52020,
+    "rarity": 5,
+    "type": 7,
+    "tag": [
+      "Supply Chest"
+    ],
+    "tag_num": [
+      16
+    ],
+    "name": "Returnee's Forgery Aid",
+    "desc": "Obtain to receive the items inside.",
+    "bg": "",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_097_UI.T_IconGiftPack_097_UI",
+    "source": []
   },
   "53001": {
     "id": 53001,
@@ -5326,6 +5376,58 @@
       "available_num": 1
     }
   },
+  "55005": {
+    "id": 55005,
+    "rarity": 5,
+    "type": 7,
+    "tag": [
+      "Supply Chest"
+    ],
+    "tag_num": [
+      16
+    ],
+    "name": "Cloudbloom",
+    "desc": "Used to unlock the corresponding Echo Aspect set.",
+    "bg": "Once bound by thorns, these wings now break free, soaring into the boundless sea of clouds.\nThe old laws no longer hold sway, for they will carry you to the farthest skies of freedom.",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_7_a_UI.T_IconRoleHead256_7_a_UI",
+    "source": [],
+    "giftpack": {
+      "key": 4,
+      "content": [
+        {
+          "key": 80870013,
+          "value": 1
+        }
+      ],
+      "available_num": 1
+    }
+  },
+  "55006": {
+    "id": 55006,
+    "rarity": 5,
+    "type": 7,
+    "tag": [
+      "Supply Chest"
+    ],
+    "tag_num": [
+      16
+    ],
+    "name": "Snowpaw",
+    "desc": "Used to unlock the corresponding Echo Aspect set.",
+    "bg": "Once bound by thorns, these wings now break free, soaring into the boundless sea of clouds.\nThe old laws no longer hold sway, for they will carry you to the farthest skies of freedom.",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_7_a_UI.T_IconRoleHead256_7_a_UI",
+    "source": [],
+    "giftpack": {
+      "key": 4,
+      "content": [
+        {
+          "key": 80870014,
+          "value": 1
+        }
+      ],
+      "available_num": 1
+    }
+  },
   "10001102": {
     "id": 10001102,
     "rarity": 4,
@@ -5668,6 +5770,24 @@
       "Convene"
     ]
   },
+  "10001212": {
+    "id": 10001212,
+    "rarity": 5,
+    "type": 7,
+    "tag": [
+      "Waveband"
+    ],
+    "tag_num": [
+      30
+    ],
+    "name": "Jingran's Waveband",
+    "desc": "Used to activate Jingran's Resonance Chain.",
+    "bg": "A Resonator's Forte is composed of countless Wavebands. When these Wavebands form a complete Resonance Chain, the Resonator can unleash their full power.",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconRup/T_IconRup_Part_1629_UI.T_IconRup_Part_1629_UI",
+    "source": [
+      "Convene"
+    ]
+  },
   "10001301": {
     "id": 10001301,
     "rarity": 5,
@@ -6006,6 +6126,24 @@
     "desc": "Can be used to activate Sigrika's Resonance Chain.",
     "bg": "A Resonator's Forte is composed of countless Wavebands. When these Wavebands form a complete Resonance Chain, the Resonator can unleash their full power.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconRup/T_IconRup_Part_1621_UI.T_IconRup_Part_1621_UI",
+    "source": [
+      "Convene"
+    ]
+  },
+  "10001413": {
+    "id": 10001413,
+    "rarity": 5,
+    "type": 7,
+    "tag": [
+      "Waveband"
+    ],
+    "tag_num": [
+      30
+    ],
+    "name": "Qingxiao's Waveband",
+    "desc": "Used to activate Qingxiao's Resonance Chain.",
+    "bg": "A Resonator's Forte is composed of countless Wavebands. When these Wavebands form a complete Resonance Chain, the Resonator can unleash their full power.",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconRup/T_IconRup_Part_1630_UI.T_IconRup_Part_1630_UI",
     "source": [
       "Convene"
     ]
@@ -8350,6 +8488,25 @@
     "source": [
       "Myriad Snare: Rustfire Chassis",
       "Myriad Snare: Rustfire Chassis - Early Access"
+    ]
+  },
+  "41400344": {
+    "id": 41400344,
+    "rarity": 4,
+    "type": 4,
+    "tag": [
+      "Resonator Ascension Material"
+    ],
+    "tag_num": [
+      7
+    ],
+    "name": "Forged Empyrean's Sigh",
+    "desc": "Calamity Effigy's drop, used for Resonator Ascension.",
+    "bg": "Cast aside all that is useless, exhaust all that can be used, and so reach a perfection beyond human understanding.\nYet since it never understood emotion, it could never rise above emotion either.\nIt walked the Way to its end and found nothing further. Only a sigh, drifting off on the wind.",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMout/T_IconMout_L_030_UI.T_IconMout_L_030_UI",
+    "source": [
+      "Calamity Effigy",
+      "Calamity Effigy - Early Access"
     ]
   },
   "42100001": {
@@ -12311,7 +12468,8 @@
     "source": [
       "Supply Pack",
       "Collection Spots",
-      "Overworld Collection"
+      "Overworld Collection",
+      "Huaxu Apothecary"
     ]
   },
   "43010001": {
@@ -13490,8 +13648,8 @@
       15
     ],
     "name": "Wood-textured Shard",
-    "desc": "Special drops from the Huanglong region, which can be used to exchange for various items in the Souvenir Store.",
-    "bg": "\"In the Huanglong region, ancient buildings were traditionally built using wood, but it proved to be insufficient in meeting modern strength requirements. Hence, Huanglong began to explore alternative building materials that could replicate the traditional wooden texture while providing sturdiness.\nThese Wood-textured Shards can be found all throughout the region, with varying shapes and origins – from houses and shops to military camps and academies. Although uncovering the stories behind them is a challenging task, the Pioneer Association relentlessly pursues this endeavor. Each shard holds a piece of history waiting to be discovered.",
+    "desc": "Special drops from the Jinzhou, Huanglong region, which can be used to exchange for various items in the Souvenir Store.",
+    "bg": "Across Jinzhou, ancient buildings were traditionally built using wood, but it proved to be insufficient in meeting modern strength requirements. Hence, Jinzhou began to explore alternative building materials that could replicate the traditional wooden texture while providing sturdiness.\nThese Wood-textured Shards can be found throughout Jinzhou, with varying shapes and origins – from houses and shops to military camps and academies. Although uncovering the stories behind them is a challenging task, the Pioneer Association relentlessly pursues this endeavor. Each shard holds a piece of history waiting to be discovered.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_currency_4_UI.T_IconA_currency_4_UI",
     "source": [
       "Exploring Solaris-3"
@@ -14096,6 +14254,22 @@
     "source": [
       "\"Mingshen Notices\" event"
     ]
+  },
+  "44010063": {
+    "id": 44010063,
+    "rarity": 5,
+    "type": 4,
+    "tag": [
+      "Phantom Appearance"
+    ],
+    "tag_num": [
+      47
+    ],
+    "name": "Phantom: Myriad Snare: Rustfire Chassis",
+    "desc": "Unlocks the Phantom Appearance of the corresponding Echo.",
+    "bg": "",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_34030_UI.T_IconMonsterGoods_SG_34030_UI",
+    "source": []
   },
   "50000031": {
     "id": 50000031,
@@ -14810,7 +14984,7 @@
       16
     ],
     "name": "Morphable Echo - Freezing Frost",
-    "desc": "Open to obtain a random Echo of the following Sonata Effect: Freezing Frost.\r\n2pcs Set: Glacio DMG + 10%.\r\n5pcs Set: Glacio DMG + 10% after releasing Basic Attack or Heavy Attack. This effect stacks up to 3 times, each stack lasts 15s.",
+    "desc": "Open to obtain a random Echo of the following Sonata Effect: Freezing Frost.\n2pcs Set: Glacio DMG + 10%.\n5pcs Set: Glacio DMG + 10% after releasing Basic Attack or Heavy Attack. This effect stacks up to 3 times, each stack lasts 15s.",
     "bg": "Chills are emanating from the crevice...",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_shlb_05_UI.T_IconA_shlb_05_UI",
     "source": []
@@ -14828,7 +15002,7 @@
       16
     ],
     "name": "Morphable Echo - Molten Rift",
-    "desc": "Open to obtain a random Echo of the following Sonata Effect: Molten Rift.\r\n2pcs Set: Fusion DMG + 10%.\r\n5pcs Set: Fusion DMG + 30% for 15s after releasing Resonance Skill.",
+    "desc": "Open to obtain a random Echo of the following Sonata Effect: Molten Rift.\n2pcs Set: Fusion DMG + 10%.\n5pcs Set: Fusion DMG + 30% for 15s after releasing Resonance Skill.",
     "bg": "Flames are flickering and rising in the crevice...",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_shlb_06_UI.T_IconA_shlb_06_UI",
     "source": []
@@ -14846,7 +15020,7 @@
       16
     ],
     "name": "Morphable Echo - Void Thunder",
-    "desc": "Open to obtain a random Echo of the following Sonata Effect: Void Thunder.\r\n2pcs Set: Electro DMG + 10%.\r\n5pcs Set: Electro DMG + 15% after releasing Heavy Attack or Resonance Skill. This effect stacks up to 2 times, each stack lasts 15s.",
+    "desc": "Open to obtain a random Echo of the following Sonata Effect: Void Thunder.\n2pcs Set: Electro DMG + 10%.\n5pcs Set: Electro DMG + 15% after releasing Heavy Attack or Resonance Skill. This effect stacks up to 2 times, each stack lasts 15s.",
     "bg": "Thunder is rumbling in the crevice...",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_shlb_07_UI.T_IconA_shlb_07_UI",
     "source": []
@@ -14864,7 +15038,7 @@
       16
     ],
     "name": "Morphable Echo - Sierra Gale",
-    "desc": "Open to obtain a random Echo of the following Sonata Effect: Sierra Gale.\r\n2pcs Set: Aero DMG + 10%.\r\n5pcs Set: Aero DMG + 30% for 15s after releasing Intro Skill.",
+    "desc": "Open to obtain a random Echo of the following Sonata Effect: Sierra Gale.\n2pcs Set: Aero DMG + 10%.\n5pcs Set: Aero DMG + 30% for 15s after releasing Intro Skill.",
     "bg": "A gust of wind is howling through the crevice...",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_shlb_08_UI.T_IconA_shlb_08_UI",
     "source": []
@@ -14882,7 +15056,7 @@
       16
     ],
     "name": "Morphable Echo - Celestial Light",
-    "desc": "Open to obtain a random Echo of the following Sonata Effect: Celestial Light.\r\n2pcs Set: Spectro DMG + 10%.\r\n5pcs Set: Spectro DMG + 30% for 15s after releasing Intro Skill.",
+    "desc": "Open to obtain a random Echo of the following Sonata Effect: Celestial Light.\n2pcs Set: Spectro DMG + 10%.\n5pcs Set: Spectro DMG + 30% for 15s after releasing Intro Skill.",
     "bg": "Dazzling rays of light are emanating from the crevice...",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_shlb_09_UI.T_IconA_shlb_09_UI",
     "source": []
@@ -14900,7 +15074,7 @@
       16
     ],
     "name": "Morphable Echo - Havoc Eclipse",
-    "desc": "Open to obtain a random Echo of the following Sonata Effect: Havoc Eclipse.\r\n2pcs Set: Havoc DMG + 10%.\r\n5pcs Set: Havoc DMG + 7.5% after releasing Basic Attack or Heavy Attack. This effect stacks up to 4 times, each stack lasts 15s.",
+    "desc": "Open to obtain a random Echo of the following Sonata Effect: Havoc Eclipse.\n2pcs Set: Havoc DMG + 10%.\n5pcs Set: Havoc DMG + 7.5% after releasing Basic Attack or Heavy Attack. This effect stacks up to 4 times, each stack lasts 15s.",
     "bg": "The chaos seems to devour everything in the crevice...",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_shlb_10_UI.T_IconA_shlb_10_UI",
     "source": []
@@ -14936,7 +15110,7 @@
       16
     ],
     "name": "Morphable Echo - Moonlit Clouds",
-    "desc": "Open to obtain a random Echo of the following Sonata Effect: Moonlit Clouds.\r\n2pcs Set: Energy Regen + 10%.\r\n5pcs Set: After using Outro Skill, increases the ATK of the next Resonator by 22.5% for 15s.",
+    "desc": "Open to obtain a random Echo of the following Sonata Effect: Moonlit Clouds.\n2pcs Set: Energy Regen + 10%.\n5pcs Set: After using Outro Skill, increases the ATK of the next Resonator by 22.5% for 15s.",
     "bg": "A bright moon seems to hide in the crevice...",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_shlb_12_UI.T_IconA_shlb_12_UI",
     "source": []
@@ -14972,7 +15146,7 @@
       16
     ],
     "name": "Morphable Echo - Freezing Frost",
-    "desc": "Open to obtain a random Echo of the following Sonata Effect: Freezing Frost.\r\n2pcs Set: Glacio DMG + 10%.\r\n5pcs Set: Glacio DMG + 10% after releasing Basic Attack or Heavy Attack. This effect stacks up to 3 times, each stack lasts 15s.",
+    "desc": "Open to obtain a random Echo of the following Sonata Effect: Freezing Frost.\n2pcs Set: Glacio DMG + 10%.\n5pcs Set: Glacio DMG + 10% after releasing Basic Attack or Heavy Attack. This effect stacks up to 3 times, each stack lasts 15s.",
     "bg": "Chills are emanating from the crevice...",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_shlb_05_UI.T_IconA_shlb_05_UI",
     "source": []
@@ -14990,7 +15164,7 @@
       16
     ],
     "name": "Morphable Echo - Molten Rift",
-    "desc": "Open to obtain a random Echo of the following Sonata Effect: Molten Rift.\r\n2pcs Set: Fusion DMG + 10%.\r\n5pcs Set: Fusion DMG + 30% for 15s after releasing Resonance Skill.",
+    "desc": "Open to obtain a random Echo of the following Sonata Effect: Molten Rift.\n2pcs Set: Fusion DMG + 10%.\n5pcs Set: Fusion DMG + 30% for 15s after releasing Resonance Skill.",
     "bg": "Flames are flickering and rising in the crevice...",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_shlb_06_UI.T_IconA_shlb_06_UI",
     "source": []
@@ -15008,7 +15182,7 @@
       16
     ],
     "name": "Morphable Echo - Void Thunder",
-    "desc": "Open to obtain a random Echo of the following Sonata Effect: Void Thunder.\r\n2pcs Set: Electro DMG + 10%.\r\n5pcs Set: Electro DMG + 15% after releasing Heavy Attack or Resonance Skill. This effect stacks up to 2 times, each stack lasts 15s.",
+    "desc": "Open to obtain a random Echo of the following Sonata Effect: Void Thunder.\n2pcs Set: Electro DMG + 10%.\n5pcs Set: Electro DMG + 15% after releasing Heavy Attack or Resonance Skill. This effect stacks up to 2 times, each stack lasts 15s.",
     "bg": "Thunder is rumbling in the crevice...",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_shlb_07_UI.T_IconA_shlb_07_UI",
     "source": []
@@ -15026,7 +15200,7 @@
       16
     ],
     "name": "Morphable Echo - Sierra Gale",
-    "desc": "Open to obtain a random Echo of the following Sonata Effect: Sierra Gale.\r\n2pcs Set: Aero DMG + 10%.\r\n5pcs Set: Aero DMG + 30% for 15s after releasing Intro Skill.",
+    "desc": "Open to obtain a random Echo of the following Sonata Effect: Sierra Gale.\n2pcs Set: Aero DMG + 10%.\n5pcs Set: Aero DMG + 30% for 15s after releasing Intro Skill.",
     "bg": "A gust of wind is howling through the crevice...",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_shlb_08_UI.T_IconA_shlb_08_UI",
     "source": []
@@ -15044,7 +15218,7 @@
       16
     ],
     "name": "Morphable Echo - Celestial Light",
-    "desc": "Open to obtain a random Echo of the following Sonata Effect: Celestial Light.\r\n2pcs Set: Spectro DMG + 10%.\r\n5pcs Set: Spectro DMG + 30% for 15s after releasing Intro Skill.",
+    "desc": "Open to obtain a random Echo of the following Sonata Effect: Celestial Light.\n2pcs Set: Spectro DMG + 10%.\n5pcs Set: Spectro DMG + 30% for 15s after releasing Intro Skill.",
     "bg": "Dazzling rays of light are emanating from the crevice...",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_shlb_09_UI.T_IconA_shlb_09_UI",
     "source": []
@@ -15062,7 +15236,7 @@
       16
     ],
     "name": "Morphable Echo - Havoc Eclipse",
-    "desc": "Open to obtain a random Echo of the following Sonata Effect: Havoc Eclipse.\r\n2pcs Set: Havoc DMG + 10%.\r\n5pcs Set: Havoc DMG + 7.5% after releasing Basic Attack or Heavy Attack. This effect stacks up to 4 times, each stack lasts 15s.",
+    "desc": "Open to obtain a random Echo of the following Sonata Effect: Havoc Eclipse.\n2pcs Set: Havoc DMG + 10%.\n5pcs Set: Havoc DMG + 7.5% after releasing Basic Attack or Heavy Attack. This effect stacks up to 4 times, each stack lasts 15s.",
     "bg": "The chaos seems to devour everything in the crevice...",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_shlb_10_UI.T_IconA_shlb_10_UI",
     "source": []
@@ -15098,7 +15272,7 @@
       16
     ],
     "name": "Morphable Echo - Moonlit Clouds",
-    "desc": "Open to obtain a random Echo of the following Sonata Effect: Moonlit Clouds.\r\n2pcs Set: Energy Regen + 10%.\r\n5pcs Set: After using Outro Skill, increases the ATK of the next Resonator by 22.5% for 15s.",
+    "desc": "Open to obtain a random Echo of the following Sonata Effect: Moonlit Clouds.\n2pcs Set: Energy Regen + 10%.\n5pcs Set: After using Outro Skill, increases the ATK of the next Resonator by 22.5% for 15s.",
     "bg": "A bright moon seems to hide in the crevice...",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_shlb_12_UI.T_IconA_shlb_12_UI",
     "source": []
@@ -18112,7 +18286,7 @@
     "name": "5-Star Weapon Supply Chest - New Voyage",
     "desc": "Open to claim one of the following weapons: <color=Rare5>Lustrous Razor, Emerald of Genesis, Static Mist, Abyss Surges, Cosmic Ripples, Laser Shearer, Radiance Cleaver, Phasic Homogenizer, Pulsation Bracer, Boson Astrolabe.</color>",
     "bg": "",
-    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_003_UI.T_IconGiftPack_003_UI",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_Act_CumulativeRechargeGift_UI.T_IconA_Act_CumulativeRechargeGift_UI",
     "source": [],
     "giftpack": {
       "key": 2,
@@ -20034,7 +20208,7 @@
       16
     ],
     "name": "Morphable Echo - Frosty Resolve",
-    "desc": "Open to obtain a random Echo of the following Sonata Effect: Frosty Resolve.\n\n2pcs Set: Resonance Skill DMG +12%.\n\n5pcs Set: Casting Resonance Liberation grants 30% Glacio DMG Bonus and 30% Resonance Skill DMG Bonus for 6s.",
+    "desc": "Open to obtain a random Echo of the following Sonata Effect: Frosty Resolve.\n\n2pcs Set: Resonance Skill DMG +12%.\n\n5pcs Set: Casting Resonance Skill grants 22.5% Glacio DMG Bonus for 15s and casting Resonance Liberation increases Resonance Skill DMG by 18%, lasting for 5s. This effect stacks up to 2 times.",
     "bg": "Between the cracks, crystalline ice blooms...",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_shlb_18_UI.T_IconA_shlb_18_UI",
     "source": []
@@ -20124,7 +20298,7 @@
       16
     ],
     "name": "Morphable Echo - Frosty Resolve",
-    "desc": "Open to obtain a random Echo of the following Sonata Effect: Frosty Resolve.\n\n2pcs Set: Resonance Skill DMG +12%.\n\n5pcs Set: Casting Resonance Liberation grants 30% Glacio DMG Bonus and 30% Resonance Skill DMG Bonus for 6s.",
+    "desc": "Open to obtain a random Echo of the following Sonata Effect: Frosty Resolve.\n\n2pcs Set: Resonance Skill DMG +12%.\n\n5pcs Set: Casting Resonance Skill grants 22.5% Glacio DMG Bonus for 15s and casting Resonance Liberation increases Resonance Skill DMG by 18%, lasting for 5s. This effect stacks up to 2 times.",
     "bg": "Between the cracks, crystalline ice blooms...",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_shlb_18_UI.T_IconA_shlb_18_UI",
     "source": []
@@ -20574,7 +20748,7 @@
       16
     ],
     "name": "Morphable Echo - Molten Rift",
-    "desc": "Open to obtain a random Echo of the following Sonata Effect: Molten Rift.\r\n2pcs Set: Fusion DMG + 10%.\r\n5pcs Set: Fusion DMG + 30% for 15s after releasing Resonance Skill.",
+    "desc": "Open to obtain a random Echo of the following Sonata Effect: Molten Rift.\n2pcs Set: Fusion DMG + 10%.\n5pcs Set: Fusion DMG + 30% for 15s after releasing Resonance Skill.",
     "bg": "Flames are flickering and rising in the crevice...",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_shlb_06_UI.T_IconA_shlb_06_UI",
     "source": []
@@ -20592,7 +20766,7 @@
       16
     ],
     "name": "Morphable Echo - Void Thunder",
-    "desc": "Open to obtain a random Echo of the following Sonata Effect: Void Thunder.\r\n2pcs Set: Electro DMG + 10%.\r\n5pcs Set: Electro DMG + 15% after releasing Heavy Attack or Resonance Skill. This effect stacks up to 2 times, each stack lasts 15s.",
+    "desc": "Open to obtain a random Echo of the following Sonata Effect: Void Thunder.\n2pcs Set: Electro DMG + 10%.\n5pcs Set: Electro DMG + 15% after releasing Heavy Attack or Resonance Skill. This effect stacks up to 2 times, each stack lasts 15s.",
     "bg": "Thunder is rumbling in the crevice...",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_shlb_07_UI.T_IconA_shlb_07_UI",
     "source": []
@@ -20610,7 +20784,7 @@
       16
     ],
     "name": "Morphable Echo - Sierra Gale",
-    "desc": "Open to obtain a random Echo of the following Sonata Effect: Sierra Gale.\r\n2pcs Set: Aero DMG + 10%.\r\n5pcs Set: Aero DMG + 30% for 15s after releasing Intro Skill.",
+    "desc": "Open to obtain a random Echo of the following Sonata Effect: Sierra Gale.\n2pcs Set: Aero DMG + 10%.\n5pcs Set: Aero DMG + 30% for 15s after releasing Intro Skill.",
     "bg": "A gust of wind is howling through the crevice...",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_shlb_08_UI.T_IconA_shlb_08_UI",
     "source": []
@@ -20628,7 +20802,7 @@
       16
     ],
     "name": "Morphable Echo - Celestial Light",
-    "desc": "Open to obtain a random Echo of the following Sonata Effect: Celestial Light.\r\n2pcs Set: Spectro DMG + 10%.\r\n5pcs Set: Spectro DMG + 30% for 15s after releasing Intro Skill.",
+    "desc": "Open to obtain a random Echo of the following Sonata Effect: Celestial Light.\n2pcs Set: Spectro DMG + 10%.\n5pcs Set: Spectro DMG + 30% for 15s after releasing Intro Skill.",
     "bg": "Dazzling rays of light are emanating from the crevice...",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_shlb_09_UI.T_IconA_shlb_09_UI",
     "source": []
@@ -20646,7 +20820,7 @@
       16
     ],
     "name": "Morphable Echo - Havoc Eclipse",
-    "desc": "Open to obtain a random Echo of the following Sonata Effect: Havoc Eclipse.\r\n2pcs Set: Havoc DMG + 10%.\r\n5pcs Set: Havoc DMG + 7.5% after releasing Basic Attack or Heavy Attack. This effect stacks up to 4 times, each stack lasts 15s.",
+    "desc": "Open to obtain a random Echo of the following Sonata Effect: Havoc Eclipse.\n2pcs Set: Havoc DMG + 10%.\n5pcs Set: Havoc DMG + 7.5% after releasing Basic Attack or Heavy Attack. This effect stacks up to 4 times, each stack lasts 15s.",
     "bg": "The chaos seems to devour everything in the crevice...",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_shlb_10_UI.T_IconA_shlb_10_UI",
     "source": []
@@ -20682,7 +20856,7 @@
       16
     ],
     "name": "Morphable Echo - Moonlit Clouds",
-    "desc": "Open to obtain a random Echo of the following Sonata Effect: Moonlit Clouds.\r\n2pcs Set: Energy Regen + 10%.\r\n5pcs Set: After using Outro Skill, increases the ATK of the next Resonator by 22.5% for 15s.",
+    "desc": "Open to obtain a random Echo of the following Sonata Effect: Moonlit Clouds.\n2pcs Set: Energy Regen + 10%.\n5pcs Set: After using Outro Skill, increases the ATK of the next Resonator by 22.5% for 15s.",
     "bg": "A bright moon seems to hide in the crevice...",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_shlb_12_UI.T_IconA_shlb_12_UI",
     "source": []
@@ -22632,7 +22806,7 @@
       16
     ],
     "name": "Morphable Heart of Evil's Purge",
-    "desc": "Open to obtain a random Echo of the following Sonata Effect: Heart of Evil's Purge\n \n2pcs Set: Aero DMG +10%.\n\n5pcs Set: Inflicting Tune Strain - Shifting inreases Crit. DMG by 20% and Aero DMG Bonus by 30% for 15s.",
+    "desc": "Open to obtain a random Echo of the following Sonata Effect: Heart of Evil's Purge\n \n2pcs Set: Aero DMG +10%.\n\n5pcs Set: Inflicting Tune Strain - Shifting increases Crit. DMG by 20% and Aero DMG Bonus by 30% for 15s.",
     "bg": "The footprints in the rift will never fade...",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_shlb_36_UI.T_IconA_shlb_36_UI",
     "source": []
@@ -22686,7 +22860,7 @@
       16
     ],
     "name": "Morphable Heart of Evil's Purge",
-    "desc": "Open to obtain a random Echo of the following Sonata Effect: Heart of Evil's Purge\n \n2pcs Set: Aero DMG +10%.\n\n5pcs Set: Inflicting Tune Strain - Shifting inreases Crit. DMG by 20% and Aero DMG Bonus by 30% for 15s.",
+    "desc": "Open to obtain a random Echo of the following Sonata Effect: Heart of Evil's Purge\n \n2pcs Set: Aero DMG +10%.\n\n5pcs Set: Inflicting Tune Strain - Shifting increases Crit. DMG by 20% and Aero DMG Bonus by 30% for 15s.",
     "bg": "The footprints in the rift will never fade...",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_shlb_40_UI.T_IconA_shlb_40_UI",
     "source": []
@@ -27989,6 +28163,86 @@
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Task_220_UI.T_IconTask_Task_220_UI",
     "source": []
   },
+  "71200015": {
+    "id": 71200015,
+    "rarity": 5,
+    "type": 6,
+    "tag": [
+      "Quest Item"
+    ],
+    "tag_num": [
+      21
+    ],
+    "name": "Qingfu Pendant",
+    "desc": "A mysterious pendant retrieved from the Fogveil Pagoda. Seems to be a clue left behind by Cat of the Nether Lamp.",
+    "bg": "The copper coins strung together are known as Yin coins in Mengzhou's folk culture.",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Task_245_UI.T_IconTask_Task_245_UI",
+    "source": []
+  },
+  "71200016": {
+    "id": 71200016,
+    "rarity": 5,
+    "type": 6,
+    "tag": [
+      "Quest Item"
+    ],
+    "tag_num": [
+      21
+    ],
+    "name": "Sword Talisman Pendant",
+    "desc": "A keepsake gifted to you by Qingxiao. This jade sword glimmers with a chilling, emerald glow.",
+    "bg": "A few strands of pure, tranquil Sword Intent reside within this jade pendant. Held in the palm, its gentle frequency brushes over the body and mind like a soft breeze.\n\nMany years ago, Jingwei the Perfected entrusted Qingxiao with a jade pendant bearing the legacy of her teachings. Now, Qingxiao has placed a pendant she carved herself into your hands. It stands as both a token of your bond as master and disciple, and a keepsake of the journey you have shared.",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Task_247_UI.T_IconTask_Task_247_UI",
+    "source": []
+  },
+  "71200017": {
+    "id": 71200017,
+    "rarity": 5,
+    "type": 6,
+    "tag": [
+      "Quest Item"
+    ],
+    "tag_num": [
+      21
+    ],
+    "name": "\"Swordcraft of the Golden-Eyed One\"",
+    "desc": "An old swordcraft manual. Many of the sword moves pictured within seem familiar to you.",
+    "bg": "A swordcraft manual with gentle Sword Energy soaked into it. Despite the passage of many years, only slight wear is evident along its edges. Its keeper must have treasured it greatly.",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Task_248_UI.T_IconTask_Task_248_UI",
+    "source": []
+  },
+  "71200018": {
+    "id": 71200018,
+    "rarity": 4,
+    "type": 6,
+    "tag": [
+      "Quest Item"
+    ],
+    "tag_num": [
+      21
+    ],
+    "name": "Moonlit Splendor",
+    "desc": "A confection Yanshu asked you to give to Jingran. Seems to be fresh out of the oven.",
+    "bg": "A full moon-shaped steamed rice cake made from rice batter. Snow-white, soft, and pleasantly springy, it is garnished with slivers of candied red and green peel resembling twin rainbows upon fresh snow, hence the name \"Moonlit Splendor.\"",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconCook/T_IconCook_SP_30_UI.T_IconCook_SP_30_UI",
+    "source": []
+  },
+  "71200019": {
+    "id": 71200019,
+    "rarity": 5,
+    "type": 6,
+    "tag": [
+      "Quest Item"
+    ],
+    "tag_num": [
+      21
+    ],
+    "name": "Mirage Seeker's Tales (Advance Copy)",
+    "desc": "An advance copy of a novel found on a Cloud Shuttle, recounting the strange encounters of a Nethermancer across Mirage Realms. It seems someone has jotted down a few comments on some pages.",
+    "bg": "Since its debut, Mirage Seeker's Tales has seen multiple collected volumes published and garnered a loyal following across Mengzhou. The author halted serialization several months ago, claiming to be \"away gathering inspiration\"—a decision that has left countless readers clamoring for the next chapter.",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Task_246_UI.T_IconTask_Task_246_UI",
+    "source": []
+  },
   "71210001": {
     "id": 71210001,
     "rarity": 5,
@@ -28981,6 +29235,38 @@
     "desc": "Data gathered across Fogveil Pagoda, required to unlock the path to the Fogveil Pivot.",
     "bg": "A modular part containing the Purging Mill Data. There are three such pieces in total, each storing data for the Chamber, the Lockpit, and the Purging Mill respectively. Only by gathering all three can the path to the Fogveil Pivot be opened.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Task_240_UI.T_IconTask_Task_240_UI",
+    "source": []
+  },
+  "71300514": {
+    "id": 71300514,
+    "rarity": 4,
+    "type": 6,
+    "tag": [
+      "Quest Item"
+    ],
+    "tag_num": [
+      21
+    ],
+    "name": "Talisman",
+    "desc": "A \"talisman\" discovered by Ministry of War personnel while investigating the \"Soul Summoning\" ritual. It can be used to pinpoint where the ritual is being held.",
+    "bg": "\"But honestly, it's all a scam. They just dress up pretty words to prey on people's longing and love, doing all the bad stuff.\"",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_Act_Navigation12_UI.T_IconA_Act_Navigation12_UI",
+    "source": []
+  },
+  "71300515": {
+    "id": 71300515,
+    "rarity": 4,
+    "type": 6,
+    "tag": [
+      "Quest Item"
+    ],
+    "tag_num": [
+      21
+    ],
+    "name": "Lyu Yi's Ledger",
+    "desc": "The ledger of Lyu Yi, recording his day-to-day expenses.",
+    "bg": "What's written in it goes well beyond the daily necessities.",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Task_033_UI.T_IconTask_Task_033_UI",
     "source": []
   },
   "71320001": {
@@ -30729,6 +31015,150 @@
   },
   "71500097": {
     "id": 71500097,
+    "rarity": 5,
+    "type": 0,
+    "tag": [
+      "Token"
+    ],
+    "tag_num": [
+      50
+    ],
+    "name": "The Scale of Heart and Soul",
+    "desc": "Inflicting Tune Strain - Shifting increases the Resonator's total DMG dealt by 40% for 30s.\nDealing Tune Break DMG grants 30% All-Attribute DMG Bonus plus an additional 30% Aero DMG Bonus to all Resonators in the team for 30s.\n\nThis Token can be used up to <color=#fee388>2</color> times in Whimpering Wastes.",
+    "bg": "The left plate, blanketed in dust. The right, scabbed. Your Honor, please place your weight.",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMowing/T_IconMowing_50.T_IconMowing_50",
+    "source": [
+      "Whimpering Wastes"
+    ]
+  },
+  "71500098": {
+    "id": 71500098,
+    "rarity": 4,
+    "type": 0,
+    "tag": [
+      "Token"
+    ],
+    "tag_num": [
+      50
+    ],
+    "name": "Reveler Captain's Seal",
+    "desc": "Amplifies all Attribute DMG by 25%.\n\nThis Token can be used up to <color=#fee388>2</color> times in Whimpering Wastes.",
+    "bg": "Evil sank their ship, trying to stifle their joy. Instead, they turned their last moments into a fiery celebration, singing and dancing atop the blazing sea.",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMowing/T_IconMowing_18.T_IconMowing_18",
+    "source": [
+      "Whimpering Wastes"
+    ]
+  },
+  "71500099": {
+    "id": 71500099,
+    "rarity": 5,
+    "type": 0,
+    "tag": [
+      "Token"
+    ],
+    "tag_num": [
+      50
+    ],
+    "name": "Lamp That Illuminates the Illusion",
+    "desc": "Gaining Shield grants the Resonator 3% Fusion DMG Bonus and increases their total Heavy Attack DMG by 2.5% for 3s, stacking up to 15 times. Retriggering this effect refreshes the duration.\n\nThis Token can be used up to <color=#fee388>2</color> times in Whimpering Wastes.",
+    "bg": "The audience settled into their seats. The performer lit the lamp. A lively shadow sprang onto the screen. He cleared his throat, ready to sing. Yet what slipped from his lips was something he had never heard.",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMowing/T_IconMowing_58.T_IconMowing_58",
+    "source": [
+      "Whimpering Wastes"
+    ]
+  },
+  "71500100": {
+    "id": 71500100,
+    "rarity": 5,
+    "type": 0,
+    "tag": [
+      "Token"
+    ],
+    "tag_num": [
+      50
+    ],
+    "name": "The Eye That Gazes into the Abyss",
+    "desc": "Enemies take 50% more total Glacio Chafe DMG.\nInflicting Glacio Chafe on the enemies increases total Glacio DMG by 50% for 5s.\n\nThis Token can be used up to <color=#fee388>2</color> times in Whimpering Wastes.",
+    "bg": "Deep within the pupil stands an inverted lighthouse. When you gaze into it, does that black tide gaze into you as well?",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMowing/T_IconMowing_46.T_IconMowing_46",
+    "source": [
+      "Whimpering Wastes"
+    ]
+  },
+  "71500101": {
+    "id": 71500101,
+    "rarity": 5,
+    "type": 0,
+    "tag": [
+      "Token"
+    ],
+    "tag_num": [
+      50
+    ],
+    "name": "The Scale of Heart and Soul",
+    "desc": "Inflicting Tune Strain - Shifting increases the Resonator's total DMG dealt by 40% for 30s.\nDealing Tune Break DMG grants 30% All-Attribute DMG Bonus plus an additional 30% Aero DMG Bonus to all Resonators in the team for 30s.\n\nThis Token can be used up to <color=#fee388>2</color> times in Whimpering Wastes.",
+    "bg": "The left plate, blanketed in dust. The right, scabbed. Your Honor, please place your weight.",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMowing/T_IconMowing_50.T_IconMowing_50",
+    "source": [
+      "Whimpering Wastes"
+    ]
+  },
+  "71500102": {
+    "id": 71500102,
+    "rarity": 4,
+    "type": 0,
+    "tag": [
+      "Token"
+    ],
+    "tag_num": [
+      50
+    ],
+    "name": "Reveler Captain's Seal",
+    "desc": "Amplifies all Attribute DMG by 25%.\n\nThis Token can be used up to <color=#fee388>2</color> times in Whimpering Wastes.",
+    "bg": "Evil sank their ship, trying to stifle their joy. Instead, they turned their last moments into a fiery celebration, singing and dancing atop the blazing sea.",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMowing/T_IconMowing_18.T_IconMowing_18",
+    "source": [
+      "Whimpering Wastes"
+    ]
+  },
+  "71500103": {
+    "id": 71500103,
+    "rarity": 5,
+    "type": 0,
+    "tag": [
+      "Token"
+    ],
+    "tag_num": [
+      50
+    ],
+    "name": "Lamp That Illuminates the Illusion",
+    "desc": "Gaining Shield grants the Resonator 3% Fusion DMG Bonus and increases their total Heavy Attack DMG by 2.5% for 3s, stacking up to 15 times. Retriggering this effect refreshes the duration.\n\nThis Token can be used up to <color=#fee388>2</color> times in Whimpering Wastes.",
+    "bg": "The audience settled into their seats. The performer lit the lamp. A lively shadow sprang onto the screen. He cleared his throat, ready to sing. Yet what slipped from his lips was something he had never heard.",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMowing/T_IconMowing_58.T_IconMowing_58",
+    "source": [
+      "Whimpering Wastes"
+    ]
+  },
+  "71500104": {
+    "id": 71500104,
+    "rarity": 5,
+    "type": 0,
+    "tag": [
+      "Token"
+    ],
+    "tag_num": [
+      50
+    ],
+    "name": "The Wish with Husk Alone",
+    "desc": "Enemies take 30% more total Electro DMG.\nResonators deal 30% more total Electro DMG for 15s upon casting Intro Skill.\n\nThis Token can be used up to <color=#fee388>2</color> times in Whimpering Wastes.",
+    "bg": "Once, a woodcutter set off alone into the mountains to fell a tree that scraped the sky. For decades, no one saw him again. When he finally returned, giant timber in hand, he found the city had grown into a forest of steel, and the wood he'd spent his life harvesting was worth nothing at all.",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMowing/T_IconMowing_54.T_IconMowing_54",
+    "source": [
+      "Whimpering Wastes"
+    ]
+  },
+  "71500105": {
+    "id": 71500105,
     "rarity": 5,
     "type": 0,
     "tag": [
@@ -33860,7 +34290,7 @@
       23
     ],
     "name": "Jade Broth Noodles",
-    "desc": "Increases ATK of all Resonators in the team by 25% for 30m. Only effective on your own Resonators in Co-op Mode.",
+    "desc": "Increases ATK of all Resonators in the team by 30% for 30m. Only effective on your own Resonators in Co-op Mode.",
     "bg": "Fine noodles, thin as silver silk, are dropped into boiling water, blanched in an instant, then nestled neatly into a bowl. Large chunks of meat, slow-braised to a melt-in-your-mouth tenderness, rest atop the noodles. The broth, clarified to crystal clarity with White Jade Beauty mushrooms and rich stock, carries a faint, lingering whisper of cooking wine.\n\nIt is the most common meal you'll find across the Land of Xuanfang. Utterly ordinary in appearance, yet it delivers a depth of flavor that surprises with the very first bite. As some have put it: \"The mildest flavors hold the truest essence. The ultimate delicacy is pure simplicity.\"",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconCook/T_IconCook_105_UI.T_IconCook_105_UI",
     "source": [
@@ -34785,6 +35215,42 @@
       "Cooking"
     ]
   },
+  "80001090": {
+    "id": 80001090,
+    "rarity": 4,
+    "type": 1,
+    "tag": [
+      "Dish"
+    ],
+    "tag_num": [
+      23
+    ],
+    "name": "Mengzhou Fish in Vinegar",
+    "desc": "Increases Energy Regen of all Resonators in the team by 34% for 30 min. Only effective on your own Resonators in Co-op Mode.",
+    "bg": "Made with fresh live fish from the Luo River, this dish is gently poached over a low flame and dressed in a traditional sweet-and-sour sauce. It gleams a glossy red, its flesh silver-white at every cut—delicate on the tongue, with a bright tangy-sweetness. The recipe is an old one, and though no shortage of variations have appeared over the years, only the original may be called \"Mengzhou Fish in Vinegar.\"\nAt the Waking Moon Festival in Yuan Fortress long ago, Qingxiao once tasted this dish at the famed restaurant Yuan's Flavors. Lanterns filled the city that night; dragons and fishes of light danced above the crowds, and every face wore a smile. A century later, fewer and fewer can cook it the way it tasted back then. Qingxiao has tried her own hand at it, but never managed to bring back the taste she remembers.",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconCook/T_IconCook_SP_31_UI.T_IconCook_SP_31_UI",
+    "source": [
+      "Cooking"
+    ]
+  },
+  "80001091": {
+    "id": 80001091,
+    "rarity": 3,
+    "type": 1,
+    "tag": [
+      "Dish"
+    ],
+    "tag_num": [
+      23
+    ],
+    "name": "Moonlit Splendor",
+    "desc": "Increases ATK of all Resonators in the team by 28% for 30 min. Only effective on your own Resonators in Co-op Mode.",
+    "bg": "This snow-white steamed rice cake is round as a full moon, soft and springy, and scattered with candied green and red threads like twin rainbows fallen across snow. Hence the name \"Moonlit Splendor.\" Lightly sweet and dense on the tongue, the fragrance of rice and sugar from it melts slowly between the teeth.\nThis confection is created by the wife of Jingran's Shifu, Granny Yanshu, and is his favorite. His little sister always says the cake is sickly sweet. Jingran disagrees, and every time he cups one in his hands and bites down, the satisfaction shows in his whole face.",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconCook/T_IconCook_SP_30_UI.T_IconCook_SP_30_UI",
+    "source": [
+      "Cooking"
+    ]
+  },
   "80001096": {
     "id": 80001096,
     "rarity": 4,
@@ -34796,7 +35262,7 @@
       23
     ],
     "name": "The Secret of Delicacy",
-    "desc": "Increases ATK of all Resonators in the team by 28%, lasting for 30m. Only effective on your own Resonators in Co-op Mode.",
+    "desc": "Increases ATK of all Resonators in the team by 33%, lasting for 30m. Only effective on your own Resonators in Co-op Mode.",
     "bg": "The egg noodles Yangyang makes, tasting exactly as she remembers her mother's did.\n\nBack in her hometown, Yangyang's schedule was always packed to the brim. Still unsure of where her path would lead, she was constantly trying to squeeze out every last second, desperate to add any edge that might carry her forward.  But no matter how late she came home from vocal lessons, walking back under a starlit sky, a steaming bowl of egg noodles was always waiting for her on the table. Sometimes there would be two bowls, which meant her father had also worked late into the night. And sometimes, there would be three, because her older sister, who was supposed to be fast asleep, would inevitably catch the scent of the noodles and coax her mother into making her a midnight meal.\n\nTo Yangyang, that bowl of egg noodles means home, love, and all the quiet warmth folded into everyday life.\n\nIt's the flavor that carried her all the way to where she is now, and the exact taste she wishes to pass on to someone special, someday.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconCook/T_IconCook_102_UI.T_IconCook_102_UI",
     "source": [
@@ -35986,8 +36452,8 @@
       24
     ],
     "name": "Skelecanth Tartare Recipe",
-    "desc": "Used to learn how to cook Jade Mushroom Soup.",
-    "bg": "A recipe that details how to cook Jade Mushroom Soup.",
+    "desc": "Used to learn how to cook Skelecanth Tartare.",
+    "bg": "A recipe that details how to cook Skelecanth Tartare.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconCook/T_IconCook_036_UI.T_IconCook_036_UI",
     "source": []
   },
@@ -36002,8 +36468,8 @@
       24
     ],
     "name": "Lichen Salad Recipe",
-    "desc": "Used to learn how to cook Cloudward Stew.",
-    "bg": "A recipe that details how to cook Cloudward Stew.",
+    "desc": "Used to learn how to cook Lichen Salad.",
+    "bg": "A recipe that details how to cook Lichen Salad.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconCook/T_IconCook_036_UI.T_IconCook_036_UI",
     "source": []
   },
@@ -36018,8 +36484,8 @@
       24
     ],
     "name": "Pine Needle Soda Recipe",
-    "desc": "Used to learn how to cook Sizzling Jade Stir-fry.",
-    "bg": "A recipe that details how to cook Sizzling Jade Stir-fry.",
+    "desc": "Used to learn how to cook Pine Needle Soda.",
+    "bg": "A recipe that details how to cook Pine Needle Soda.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconCook/T_IconCook_036_UI.T_IconCook_036_UI",
     "source": []
   },
@@ -36034,8 +36500,8 @@
       24
     ],
     "name": "Honeypot Jam Recipe",
-    "desc": "Used to learn how to cook Crab Braised Fish.",
-    "bg": "A recipe that details how to cook Crab Braised Fish.",
+    "desc": "Used to learn how to cook Honeypot Jam.",
+    "bg": "A recipe that details how to cook Honeypot Jam.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconCook/T_IconCook_036_UI.T_IconCook_036_UI",
     "source": []
   },
@@ -36050,8 +36516,8 @@
       24
     ],
     "name": "Smoked Meat Stew Recipe",
-    "desc": "Used to learn how to cook Little Snowy Moons.",
-    "bg": "A recipe that details how to cook Little Snowy Moons.",
+    "desc": "Used to learn how to cook Smoked Meat Stew.",
+    "bg": "A recipe that details how to cook Smoked Meat Stew.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconCook/T_IconCook_036_UI.T_IconCook_036_UI",
     "source": []
   },
@@ -36066,8 +36532,8 @@
       24
     ],
     "name": "Grilled Fern Spore Recipe",
-    "desc": "Used to learn how to cook Stir-Fried Trio.",
-    "bg": "A recipe that details how to cook Stir-Fried Trio.",
+    "desc": "Used to learn how to cook Grilled Fern Spore.",
+    "bg": "A recipe that details how to cook Grilled Fern Spore.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconCook/T_IconCook_036_UI.T_IconCook_036_UI",
     "source": []
   },
@@ -36082,8 +36548,8 @@
       24
     ],
     "name": "Fruit Crackle Recipe",
-    "desc": "Used to learn how to cook Flavor Under Heaven.",
-    "bg": "A recipe that details how to cook Flavor Under Heaven.",
+    "desc": "Used to learn how to cook Fruit Crackle.",
+    "bg": "A recipe that details how to cook Fruit Crackle.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconCook/T_IconCook_036_UI.T_IconCook_036_UI",
     "source": []
   },
@@ -36098,8 +36564,8 @@
       24
     ],
     "name": "\"Crack & Bolt\" Fish Jar Recipe",
-    "desc": "Used to learn how to cook Brocade Pearl Meatballs.",
-    "bg": "A recipe that details how to cook Brocade Pearl Meatballs.",
+    "desc": "Used to learn how to cook \"Crack & Bolt\" fish jars.",
+    "bg": "A recipe that details how to cook \"Crack & Bolt\" fish jar.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconCook/T_IconCook_036_UI.T_IconCook_036_UI",
     "source": []
   },
@@ -36114,8 +36580,8 @@
       24
     ],
     "name": "\"Munchie-More\" Bun Recipe",
-    "desc": "Used to learn how to cook Memories of Autumn.",
-    "bg": "A recipe that details how to cook Memories of Autumn.",
+    "desc": "Used to learn how to cook \"Munchie-More\" Bun.",
+    "bg": "A recipe that details how to cook \"Munchie-More\" Bun.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconCook/T_IconCook_036_UI.T_IconCook_036_UI",
     "source": []
   },
@@ -36130,8 +36596,8 @@
       24
     ],
     "name": "Complete Nutrition Squeezy Jelly Recipe",
-    "desc": "Used to learn how to cook Jade Broth Noodles.",
-    "bg": "A recipe that details how to cook Jade Broth Noodles.",
+    "desc": "Used to learn how to cook Complete Nutrition Squeezy Jelly.",
+    "bg": "A recipe that details how to cook Complete Nutrition Squeezy Jelly.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconCook/T_IconCook_036_UI.T_IconCook_036_UI",
     "source": []
   },
@@ -36146,8 +36612,8 @@
       24
     ],
     "name": "Lahai-Roi Special Plant Milk Recipe",
-    "desc": "Used to learn how to cook Immortal's Medley Tribute.",
-    "bg": "A recipe that details how to cook Immortal's Medley Tribute.",
+    "desc": "Used to learn how to cook Lahai-Roi Special Plant Milk.",
+    "bg": "A recipe that details how to cook Lahai-Roi Special Plant Milk.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconCook/T_IconCook_036_UI.T_IconCook_036_UI",
     "source": []
   },
@@ -36761,7 +37227,7 @@
       10
     ],
     "name": "Revival Elixir Combination",
-    "desc": "Used to Instantly revive the selected Resonator. Can only be used once every 60s. Only effective on your own Resonators in Co-op Mode.",
+    "desc": "Used to instantly revive all Resonators in the team. Can only be used once every 60 min. Only effective on your own Resonators in Co-op Mode.",
     "bg": "Combination Revival Potion\n\n[Effect] Stabilizes the Resonator's condition to a certain extent and aids in their recovery.\n\n[Precautions] Long intervals between doses are recommended. Excessive use within a short period is not advisable.\n\n[Warning] Prohibited to use in combination with the same type of potion or any frequency stabilizing potions.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconRup/T_IconRup_Skup_006_4_UI.T_IconRup_Skup_006_4_UI",
     "source": [
@@ -40121,6 +40587,134 @@
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMst/T_IconMst_009_UI.T_IconMst_009_UI",
     "source": []
   },
+  "80110539": {
+    "id": 80110539,
+    "rarity": 4,
+    "type": 7,
+    "tag": [
+      "Melody Box"
+    ],
+    "tag_num": [
+      49
+    ],
+    "name": "Clarity of the Transcendent",
+    "desc": "Background music played when standing against the falling sky.",
+    "bg": "Complete Main Quest \"Song of the Heart Sword\" to unlock",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMst/T_IconMst_009_UI.T_IconMst_009_UI",
+    "source": []
+  },
+  "80110540": {
+    "id": 80110540,
+    "rarity": 4,
+    "type": 7,
+    "tag": [
+      "Melody Box"
+    ],
+    "tag_num": [
+      49
+    ],
+    "name": "Upstream of Light",
+    "desc": "Background music played when heading to the lightway.",
+    "bg": "Complete Main Quest \"Song of the Heart Sword\" to unlock",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMst/T_IconMst_009_UI.T_IconMst_009_UI",
+    "source": []
+  },
+  "80110541": {
+    "id": 80110541,
+    "rarity": 4,
+    "type": 7,
+    "tag": [
+      "Melody Box"
+    ],
+    "tag_num": [
+      49
+    ],
+    "name": "Vessels Upon the Sky",
+    "desc": "Background music played when exploring the Ren Realm.",
+    "bg": "Complete Main Quest \"Song of the Heart Sword\" to unlock",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMst/T_IconMst_009_UI.T_IconMst_009_UI",
+    "source": []
+  },
+  "80110542": {
+    "id": 80110542,
+    "rarity": 4,
+    "type": 7,
+    "tag": [
+      "Melody Box"
+    ],
+    "tag_num": [
+      49
+    ],
+    "name": "Shifting Clouds",
+    "desc": "Background music played when crossing the Skyend Barrier.",
+    "bg": "Complete Main Quest \"Song of the Heart Sword\" to unlock",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMst/T_IconMst_009_UI.T_IconMst_009_UI",
+    "source": []
+  },
+  "80110543": {
+    "id": 80110543,
+    "rarity": 4,
+    "type": 7,
+    "tag": [
+      "Melody Box"
+    ],
+    "tag_num": [
+      49
+    ],
+    "name": "Mirage of Yesterdays",
+    "desc": "Background music played when exploring the Di Realm.",
+    "bg": "Complete Main Quest \"Song of the Heart Sword\" to unlock",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMst/T_IconMst_009_UI.T_IconMst_009_UI",
+    "source": []
+  },
+  "80110544": {
+    "id": 80110544,
+    "rarity": 4,
+    "type": 7,
+    "tag": [
+      "Melody Box"
+    ],
+    "tag_num": [
+      49
+    ],
+    "name": "Skyend Passage",
+    "desc": "Background music played when crossing the final Skyend Barrier.",
+    "bg": "Complete Main Quest \"Song of the Heart Sword\" to unlock",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMst/T_IconMst_009_UI.T_IconMst_009_UI",
+    "source": []
+  },
+  "80110545": {
+    "id": 80110545,
+    "rarity": 4,
+    "type": 7,
+    "tag": [
+      "Melody Box"
+    ],
+    "tag_num": [
+      49
+    ],
+    "name": "Hymn of the Forged Empyrean",
+    "desc": "Background music played during the battle against Calamity Effigy.",
+    "bg": "Complete Main Quest \"Song of the Heart Sword\" to unlock",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMst/T_IconMst_009_UI.T_IconMst_009_UI",
+    "source": []
+  },
+  "80110546": {
+    "id": 80110546,
+    "rarity": 4,
+    "type": 7,
+    "tag": [
+      "Melody Box"
+    ],
+    "tag_num": [
+      49
+    ],
+    "name": "Sword of Mortals",
+    "desc": "Background music played during the final showdown with Calamity Effigy.",
+    "bg": "Complete Main Quest \"Song of the Heart Sword\" to unlock",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMst/T_IconMst_009_UI.T_IconMst_009_UI",
+    "source": []
+  },
   "80110601": {
     "id": 80110601,
     "rarity": 4,
@@ -41225,6 +41819,38 @@
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_Title_04_UI.T_IconA_Title_04_UI",
     "source": []
   },
+  "80130066": {
+    "id": 80130066,
+    "rarity": 5,
+    "type": 0,
+    "tag": [
+      "Title"
+    ],
+    "tag_num": [
+      51
+    ],
+    "name": "Immortal's Mortal Dream",
+    "desc": "She has carried a sword across centuries and watched the world make and unmake its bonds, over and over, in joy and in grief. And just as the last of the dream was thinning, the lamplight of the mortal world made her turn and look back.",
+    "bg": "Fully activate Qingxiao's Resonance Chain",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_Title_04_UI.T_IconA_Title_04_UI",
+    "source": []
+  },
+  "80130067": {
+    "id": 80130067,
+    "rarity": 5,
+    "type": 0,
+    "tag": [
+      "Title"
+    ],
+    "tag_num": [
+      51
+    ],
+    "name": "Dust and Nether",
+    "desc": "A lamp to go by, an eye to judge by. What he learns of life and what he takes from death, he takes alone. He kneels to no god and calls on no ghost.",
+    "bg": "Fully activate Jingran's Resonance Chain",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_Title_04_UI.T_IconA_Title_04_UI",
+    "source": []
+  },
   "80131001": {
     "id": 80131001,
     "rarity": 5,
@@ -41427,10 +42053,26 @@
     "tag_num": [
       51
     ],
-    "name": "Until We Meet Again",
+    "name": "\"Until We Meet Again\"",
     "desc": "A limited-time title from Endstate Matrix: Adversity Vanguard. Obtainable at any Challenge Stage and remains active until the end of the current stage.",
     "bg": "Having walked through the long night, you now have a heart to call your own. From here, the sea of stars is boundless, and the world is made new.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_Title_MowingTower35_UI.T_IconA_Title_MowingTower35_UI",
+    "source": []
+  },
+  "80131014": {
+    "id": 80131014,
+    "rarity": 5,
+    "type": 0,
+    "tag": [
+      "Title"
+    ],
+    "tag_num": [
+      51
+    ],
+    "name": "Resonance! Best Combo",
+    "desc": "Clear Scenario 6: Efficient Annihilation in \"Resonance Sim Realm\"",
+    "bg": "Come, the battle begins! The terms of victory are set!",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_Title_14_UI.T_IconA_Title_14_UI",
     "source": []
   },
   "80200001": {
@@ -42485,6 +43127,60 @@
     "bg": "An official token issued to Constables. It functions as currency to trade for supplies at Shaftpost Yard, but is barred from circulation within the Hold. These tokens are generally distributed as a stipend upon the successful resolution of a case.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_currency_10_UI.T_IconA_currency_10_UI",
     "source": []
+  },
+  "80700041": {
+    "id": 80700041,
+    "rarity": 5,
+    "type": 0,
+    "tag": [
+      "Expedition Motorbike Display Theme"
+    ],
+    "tag_num": [
+      63
+    ],
+    "name": "Startorch Academy Garage Key",
+    "desc": "Used to change the Expedition Motorbike's Display Theme to the Expedition Motorbike garage at Startorch Academy.",
+    "bg": "Who wouldn't want their own parking spot at Startorch Academy?",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Task_251_UI.T_IconTask_Task_251_UI",
+    "source": [
+      "Complete Main Quest \"Beneath a Melting Night Sky\" and claim it in the Startorch Academy chat window on WavesLine"
+    ]
+  },
+  "80700042": {
+    "id": 80700042,
+    "rarity": 5,
+    "type": 0,
+    "tag": [
+      "Expedition Motorbike Display Theme"
+    ],
+    "tag_num": [
+      63
+    ],
+    "name": "Land of Xuanfang Garage Key",
+    "desc": "Used to change the Expedition Motorbike's Display Theme to the Cloud Ride garage in the Land of Xuanfang.",
+    "bg": "If you intend to use a Cloud Ride, be sure to service it before and after every high-altitude operation. —Ministry of Development Guide to High-Altitude Operations",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Task_250_UI.T_IconTask_Task_250_UI",
+    "source": [
+      "Complete Main Quest \"Song of the Heart Sword\" and claim it in the Xuanfang Ministry of Development chat window on WavesLine"
+    ]
+  },
+  "80700051": {
+    "id": 80700051,
+    "rarity": 5,
+    "type": 7,
+    "tag": [
+      "Instrument"
+    ],
+    "tag_num": [
+      64
+    ],
+    "name": "Wish for Peace - Drifting Resonance",
+    "desc": "A gracefully crafted seven-string guqin, given to you by Qingxiao as an initiation gift. Within its strings linger the words she never spoke aloud to you. Interact to use.",
+    "bg": "A vessel of Sword Intent, this guqin is forever wreathed in wisps of cloud. A single stroke sings clear and true, like the ringing of a sword. Centuries ago, Qingxiao came upon a pair of rare materials, found nowhere else, meant for crafting guqin. Carved for days under pure Sword Energy, they could be shaped into something that mirrors the heart of its owner. One became the guqin she plays daily. The other she kept safe, revealed to the world only now.\n\"If one day I meet someone who truly understands my music… then this guqin shall be my gift.\"",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Task_249_UI.T_IconTask_Task_249_UI",
+    "source": [
+      "Complete Chapter IV - Segue \"The Nethermancer's Requiem\" and read the WavesLine message"
+    ]
   },
   "80800001": {
     "id": 80800001,
@@ -43929,7 +44625,33 @@
     "desc": "Used to decorate the expedition motorbike's front and rear.",
     "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon96.T_MotoDIYStickerIcon96",
     "source": [
-      "Live Operations"
+      "Unavailable now"
+    ]
+  },
+  "89103065": {
+    "id": 89103065,
+    "rarity": 4,
+    "tag": [
+      "Premium Livery"
+    ],
+    "name": "Cloud Voyage",
+    "desc": "Used to decorate the expedition motorbike's front and rear.",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon103.T_MotoDIYStickerIcon103",
+    "source": [
+      "Complete Main Quest \"Song of the Heart Sword\""
+    ]
+  },
+  "89103066": {
+    "id": 89103066,
+    "rarity": 4,
+    "tag": [
+      "Premium Livery"
+    ],
+    "name": "Jadie the Mightiest Autopuppet",
+    "desc": "Used to decorate the expedition motorbike's front and rear.",
+    "icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon104.T_MotoDIYStickerIcon104",
+    "source": [
+      "Complete Main Quest \"Song of the Heart Sword\""
     ]
   },
   "89103926": {
@@ -44105,6 +44827,17 @@
     "source": [
       "Activate the Resonance Nexus in Shaftpost Yard during Main Quest"
     ]
+  },
+  "89400006": {
+    "id": 89400006,
+    "rarity": 1,
+    "tag": [
+      ""
+    ],
+    "name": "",
+    "desc": "",
+    "icon": "",
+    "source": []
   },
   "89500001": {
     "id": 89500001,

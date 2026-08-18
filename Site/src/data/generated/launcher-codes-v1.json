@@ -1,8 +1,14 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-17T03:42:00.435Z",
+  "generatedAt": "2026-08-18T00:40:57.915Z",
   "games": {
     "gi": [
+      {
+        "code": "Y1INABQB6DEX",
+        "added": "2026-08-17",
+        "amount": 60,
+        "currency": "Primogems"
+      },
       {
         "code": "BALLETCOLLAB",
         "added": "2026-08-16",
@@ -25,12 +31,6 @@
         "code": "2BJ64QRZ7RT8",
         "added": "2026-08-07",
         "amount": 60,
-        "currency": "Primogems"
-      },
-      {
-        "code": "Everwinter",
-        "added": "2026-07-31",
-        "amount": 100,
         "currency": "Primogems"
       }
     ],
@@ -115,5 +115,5 @@
       }
     ]
   },
-  "revision": "a8ae7ff455ba0bfdbca25e9836feb018ebde171107dde1c91ea55015d80f6865"
+  "revision": "f50d89599d0f6002b9b14868302accacb89ab5621b334ae2c7772717d808abe5"
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T03:42:00.435Z",
+  "generatedAt": "2026-08-18T00:40:57.915Z",
   "maxAgeDays": 28,
   "games": [
     {
@@ -9,27 +9,23 @@
       "redeemBase": "https://genshin.hoyoverse.com/en/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/GI/codes/",
-      "lastSuccessfulFetch": "2026-08-17T03:41:40.675Z",
+      "lastSuccessfulFetch": "2026-08-18T00:40:57.355Z",
       "codes": [
         {
           "code": "Y1INABQB6DEX",
-          "rewards": "",
+          "rewards": "60 Primogems, 5 Adventurer S Experience",
           "added": "2026-08-17",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=Y1INABQB6DEX",
-          "hoyoVerified": true,
-          "premium": false,
+          "premium": true,
           "premium100": false,
           "cwSeen": true,
           "firstSeen": "2026-08-17T03:41:40.675Z"
         },
         {
           "code": "BALLETCOLLAB",
-          "rewards": "30 Primogem, 10000 Mora, 3 Hero's Wit, 3 Mystic Enhancement Ore",
+          "rewards": "30 Primogems, 10,000 Mora, 3 Hero S Wit, 3 Mystic Enhancement Ore",
           "added": "2026-08-16",
-          "sourceUrl": "https://www.crimsonwitch.com/codes/Genshin_Impact",
-          "regionLocked": null,
-          "expires": null,
-          "variants": [],
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=BALLETCOLLAB",
           "premium": true,
           "premium100": false,
           "cwSeen": true,
@@ -162,16 +158,13 @@
       "redeemBase": "https://hsr.hoyoverse.com/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/HSR/codes/",
-      "lastSuccessfulFetch": "2026-08-17T03:42:00.435Z",
+      "lastSuccessfulFetch": "2026-08-18T00:40:57.915Z",
       "codes": [
         {
           "code": "NSJR3B97ZZ5X",
           "rewards": "50 Stellar Jade, 10000 Credit",
           "added": "2026-08-15",
-          "sourceUrl": "https://www.crimsonwitch.com/codes/Honkai_Star_Rail",
-          "regionLocked": null,
-          "expires": null,
-          "variants": [],
+          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=NSJR3B97ZZ5X",
           "premium": true,
           "premium100": false,
           "cwSeen": true,
@@ -209,10 +202,9 @@
         },
         {
           "code": "4TKSX77Y58QK",
-          "rewards": "30 stellar jade, three traveler's guides, five condensed aether, four lost gold fragments, and 20k credits",
+          "rewards": "30 Stellar Jade, Three Traveler S Guides, Five Condensed Aether, Four Lost Gold Fragments, and 20k Credits",
           "added": "2026-08-11",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=4TKSX77Y58QK",
-          "hoyoVerified": true,
           "premium": true,
           "premium100": false,
           "cwSeen": false,
@@ -220,10 +212,9 @@
         },
         {
           "code": "5S6ZHRWTDNJB",
-          "rewards": "60 stellar jade",
+          "rewards": "60 Stellar Jade",
           "added": "2026-08-11",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=5S6ZHRWTDNJB",
-          "hoyoVerified": true,
           "premium": true,
           "premium100": false,
           "cwSeen": false,
@@ -307,9 +298,10 @@
         },
         {
           "code": "BESTCOFFEEEVER",
-          "rewards": "Three Traveler S Guides and Two Express Special Blend Rustic Infusion",
+          "rewards": "three traveler's guides and two express special blend: rustic infusion",
           "added": "2026-07-20",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=BESTCOFFEEEVER",
+          "hoyoVerified": true,
           "premium": false,
           "premium100": false,
           "cwSeen": true,
@@ -334,7 +326,7 @@
       "redeemBase": "https://zenless.hoyoverse.com/redemption?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/ZZZ/codes/",
-      "lastSuccessfulFetch": "2026-08-17T03:41:40.981Z",
+      "lastSuccessfulFetch": "2026-08-18T00:40:57.435Z",
       "codes": [
         {
           "code": "ZENLESSGIFT",
@@ -386,7 +378,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Terminal > Settings > Other Settings > Redemption Code",
       "sourceUrl": "https://nexus-codes.app/games/WUWA/codes/",
-      "lastSuccessfulFetch": "2026-08-17T03:41:40.592Z",
+      "lastSuccessfulFetch": "2026-08-18T00:40:57.290Z",
       "codes": [
         {
           "code": "ETERNALFLAME",
@@ -440,7 +432,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Settings > Account > Exchange Code",
       "sourceUrl": "https://nexus-codes.app/games/ARKEN/codes/",
-      "lastSuccessfulFetch": "2026-08-17T03:41:40.615Z",
+      "lastSuccessfulFetch": "2026-08-18T00:40:57.323Z",
       "codes": [
         {
           "code": "ENDFIELDRENEW",

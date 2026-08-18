@@ -4,15 +4,29 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-08-17T14:54:15.348Z",
+  "generatedAt": "2026-08-18T00:41:18.611Z",
   "codes": {
-    "updated": "2026-08-17T03:42:00.435Z",
+    "updated": "2026-08-18T00:40:57.915Z",
     "maxAgeDays": 28,
     "games": {
       "gi": [
         {
+          "code": "Y1INABQB6DEX",
+          "reward": "60 Primogems, 5 Adventurer S Experience",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Primogems",
+            "needle": "primogem",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
+          },
+          "added": "2026-08-17",
+          "firstSeen": "2026-08-17T03:41:40.675Z",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=Y1INABQB6DEX",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=Y1INABQB6DEX"
+        },
+        {
           "code": "BALLETCOLLAB",
-          "reward": "30 Primogem, 10000 Mora, 3 Hero's Wit, 3 Mystic Enhancement Ore",
+          "reward": "30 Primogems, 10,000 Mora, 3 Hero S Wit, 3 Mystic Enhancement Ore",
           "premium": true,
           "premiumCurrency": {
             "name": "Primogems",
@@ -21,7 +35,7 @@ var NYX_DB = {
           },
           "added": "2026-08-16",
           "firstSeen": "2026-08-16T13:24:44.154Z",
-          "sourceUrl": "https://www.crimsonwitch.com/codes/Genshin_Impact",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=BALLETCOLLAB",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=BALLETCOLLAB"
         },
         {
@@ -177,7 +191,7 @@ var NYX_DB = {
           },
           "added": "2026-08-15",
           "firstSeen": "2026-08-15T20:13:06.168Z",
-          "sourceUrl": "https://www.crimsonwitch.com/codes/Honkai_Star_Rail",
+          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=NSJR3B97ZZ5X",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=NSJR3B97ZZ5X"
         },
         {
@@ -224,7 +238,7 @@ var NYX_DB = {
         },
         {
           "code": "4TKSX77Y58QK",
-          "reward": "30 stellar jade, three traveler's guides, five condensed aether, four lost gold fragments, and 20k credits",
+          "reward": "30 Stellar Jade, Three Traveler S Guides, Five Condensed Aether, Four Lost Gold Fragments, and 20k Credits",
           "premium": true,
           "premiumCurrency": {
             "name": "Stellar Jade",
@@ -238,7 +252,7 @@ var NYX_DB = {
         },
         {
           "code": "5S6ZHRWTDNJB",
-          "reward": "60 stellar jade",
+          "reward": "60 Stellar Jade",
           "premium": true,
           "premiumCurrency": {
             "name": "Stellar Jade",
@@ -336,7 +350,7 @@ var NYX_DB = {
         },
         {
           "code": "BESTCOFFEEEVER",
-          "reward": "Three Traveler S Guides and Two Express Special Blend Rustic Infusion",
+          "reward": "three traveler's guides and two express special blend: rustic infusion",
           "premium": false,
           "premiumCurrency": {
             "name": "Stellar Jade",
@@ -5721,8 +5735,22 @@ var NYX_DB = {
       ],
       "codes": [
         {
+          "code": "Y1INABQB6DEX",
+          "reward": "60 Primogems, 5 Adventurer S Experience",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Primogems",
+            "needle": "primogem",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
+          },
+          "added": "2026-08-17",
+          "firstSeen": "2026-08-17T03:41:40.675Z",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=Y1INABQB6DEX",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=Y1INABQB6DEX"
+        },
+        {
           "code": "BALLETCOLLAB",
-          "reward": "30 Primogem, 10000 Mora, 3 Hero's Wit, 3 Mystic Enhancement Ore",
+          "reward": "30 Primogems, 10,000 Mora, 3 Hero S Wit, 3 Mystic Enhancement Ore",
           "premium": true,
           "premiumCurrency": {
             "name": "Primogems",
@@ -5731,7 +5759,7 @@ var NYX_DB = {
           },
           "added": "2026-08-16",
           "firstSeen": "2026-08-16T13:24:44.154Z",
-          "sourceUrl": "https://www.crimsonwitch.com/codes/Genshin_Impact",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=BALLETCOLLAB",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=BALLETCOLLAB"
         },
         {
@@ -169263,7 +169291,7 @@ var NYX_DB = {
           },
           "added": "2026-08-15",
           "firstSeen": "2026-08-15T20:13:06.168Z",
-          "sourceUrl": "https://www.crimsonwitch.com/codes/Honkai_Star_Rail",
+          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=NSJR3B97ZZ5X",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=NSJR3B97ZZ5X"
         },
         {
@@ -169310,7 +169338,7 @@ var NYX_DB = {
         },
         {
           "code": "4TKSX77Y58QK",
-          "reward": "30 stellar jade, three traveler's guides, five condensed aether, four lost gold fragments, and 20k credits",
+          "reward": "30 Stellar Jade, Three Traveler S Guides, Five Condensed Aether, Four Lost Gold Fragments, and 20k Credits",
           "premium": true,
           "premiumCurrency": {
             "name": "Stellar Jade",
@@ -169324,7 +169352,7 @@ var NYX_DB = {
         },
         {
           "code": "5S6ZHRWTDNJB",
-          "reward": "60 stellar jade",
+          "reward": "60 Stellar Jade",
           "premium": true,
           "premiumCurrency": {
             "name": "Stellar Jade",
@@ -169422,7 +169450,7 @@ var NYX_DB = {
         },
         {
           "code": "BESTCOFFEEEVER",
-          "reward": "Three Traveler S Guides and Two Express Special Blend Rustic Infusion",
+          "reward": "three traveler's guides and two express special blend: rustic infusion",
           "premium": false,
           "premiumCurrency": {
             "name": "Stellar Jade",

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "6e74f3853c5dce3360b9215df7706c2e09126c911fe974652d01154be6511a38",
-  "generatedAt": "2026-08-18T00:41:21.066Z",
+  "revision": "5114c315bc3d78b203f1096841203baf1b510bae142196b4842e4407571fea86",
+  "generatedAt": "2026-08-18T03:57:27.286Z",
   "health": {
     "status": "ok",
     "games": {
@@ -43,7 +43,7 @@
         "remaining": {
           "startsAt": "2026-08-12T03:00:00.000Z",
           "endsAt": "2026-09-01T09:59:59.000Z",
-          "durationSeconds": 1243117
+          "durationSeconds": 1231351
         },
         "characters": [
           {
@@ -389,7 +389,7 @@
         "remaining": {
           "startsAt": "2026-08-05T11:00:00.000Z",
           "endsAt": "2026-08-25T14:00:00.000Z",
-          "durationSeconds": 652718
+          "durationSeconds": 640952
         },
         "characters": [
           {
@@ -819,7 +819,7 @@
         "remaining": {
           "startsAt": "2026-07-29T03:00:00.000Z",
           "endsAt": "2026-08-19T03:59:59.000Z",
-          "durationSeconds": 98317
+          "durationSeconds": 86551
         },
         "characters": [
           {
@@ -1077,7 +1077,7 @@
           "id": "zzz-hoyo-ann-5963b2d080b1",
           "title": "V3.1 Limited-Time Channels (Phase II)",
           "type": "event",
-          "start": "2026-08-17T04:00:00.000Z",
+          "start": "2026-08-17T11:00:00.000Z",
           "end": "2026-09-08T13:59:00.000Z",
           "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=231"
         },
@@ -1085,8 +1085,8 @@
           "id": "zzz-hoyo-ann-d5df8c2348bf",
           "title": "Version 3.1 New Stock in the Store",
           "type": "event",
-          "start": "2026-08-17T04:00:00.000Z",
-          "end": "2026-09-08T21:59:00.000Z",
+          "start": "2026-08-17T11:00:00.000Z",
+          "end": "2026-09-09T04:59:00.000Z",
           "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=230"
         },
         {
@@ -1109,16 +1109,16 @@
           "id": "zzz-hoyo-ann-3d5f728e1856",
           "title": "\"Marcel Anniversary Gift\" Event Details",
           "type": "event",
-          "start": "2026-07-27T05:45:00.000Z",
-          "end": "2026-09-08T22:00:00.000Z",
+          "start": "2026-07-27T12:45:00.000Z",
+          "end": "2026-09-09T05:00:00.000Z",
           "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=220"
         },
         {
           "id": "zzz-hoyo-ann-c3848dccb384",
           "title": "\"Filmgoer Thank-You Gift\" Event Details",
           "type": "event",
-          "start": "2026-07-27T05:30:00.000Z",
-          "end": "2026-09-08T22:00:00.000Z",
+          "start": "2026-07-27T12:30:00.000Z",
+          "end": "2026-09-09T05:00:00.000Z",
           "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=226"
         }
       ],
@@ -1153,7 +1153,7 @@
         "remaining": {
           "startsAt": "2026-07-30T09:00:00.000Z",
           "endsAt": "2026-08-19T10:59:00.000Z",
-          "durationSeconds": 123458
+          "durationSeconds": 111692
         },
         "characters": [
           {
@@ -1487,7 +1487,7 @@
         "remaining": {
           "startsAt": "2026-08-09T04:00:00.000Z",
           "endsAt": "2026-09-01T21:59:59.000Z",
-          "durationSeconds": 1286317
+          "durationSeconds": 1274551
         },
         "characters": [
           {

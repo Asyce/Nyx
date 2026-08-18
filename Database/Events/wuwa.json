@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "game": "wuwa",
-  "generatedAt": "2026-08-17T04:00:35.350Z",
+  "generatedAt": "2026-08-18T03:56:13.874Z",
   "source": {
     "name": "Wuthering Waves Official",
     "endpoint": "hw-media-cdn-mingchao.kurogame.com ArticleMenu.json + article/*.json"
@@ -32,7 +32,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5125",
         "kind": "official-article-api",
         "recordId": "5125",
-        "fetchedAt": "2026-08-17T04:00:52.786Z",
+        "fetchedAt": "2026-08-18T03:56:30.921Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -63,7 +63,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5065",
         "kind": "official-article-api",
         "recordId": "5065",
-        "fetchedAt": "2026-08-17T04:00:53.615Z",
+        "fetchedAt": "2026-08-18T03:56:31.753Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -94,7 +94,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5076",
         "kind": "official-article-api",
         "recordId": "5076",
-        "fetchedAt": "2026-08-17T04:00:53.344Z",
+        "fetchedAt": "2026-08-18T03:56:31.476Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -125,7 +125,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5236",
         "kind": "official-article-api",
         "recordId": "5236",
-        "fetchedAt": "2026-08-17T04:00:51.150Z",
+        "fetchedAt": "2026-08-18T03:56:29.239Z",
         "priority": 1
       },
       "confidence": "high",
@@ -157,7 +157,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5227",
         "kind": "official-article-api",
         "recordId": "5227",
-        "fetchedAt": "2026-08-17T04:00:51.425Z",
+        "fetchedAt": "2026-08-18T03:56:29.535Z",
         "priority": 1
       },
       "confidence": "high",
@@ -189,7 +189,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5220",
         "kind": "official-article-api",
         "recordId": "5220",
-        "fetchedAt": "2026-08-17T04:00:51.697Z",
+        "fetchedAt": "2026-08-18T03:56:29.812Z",
         "priority": 1
       },
       "confidence": "high",
@@ -221,7 +221,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5039",
         "kind": "official-article-api",
         "recordId": "5039",
-        "fetchedAt": "2026-08-17T04:00:53.888Z",
+        "fetchedAt": "2026-08-18T03:56:32.032Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -252,7 +252,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5056",
         "kind": "official-article-api",
         "recordId": "5056",
-        "fetchedAt": "2026-08-17T04:00:54.160Z",
+        "fetchedAt": "2026-08-18T03:56:32.310Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -283,7 +283,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5047",
         "kind": "official-article-api",
         "recordId": "5047",
-        "fetchedAt": "2026-08-17T04:00:54.430Z",
+        "fetchedAt": "2026-08-18T03:56:32.592Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -314,7 +314,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5129",
         "kind": "official-article-api",
         "recordId": "5129",
-        "fetchedAt": "2026-08-17T04:00:52.244Z",
+        "fetchedAt": "2026-08-18T03:56:30.367Z",
         "priority": 1
       },
       "confidence": "high",
@@ -346,7 +346,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4844",
         "kind": "official-article-api",
         "recordId": "4844",
-        "fetchedAt": "2026-08-17T04:00:57.042Z",
+        "fetchedAt": "2026-08-18T03:56:35.093Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -377,7 +377,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4852",
         "kind": "official-article-api",
         "recordId": "4852",
-        "fetchedAt": "2026-08-17T04:00:56.767Z",
+        "fetchedAt": "2026-08-18T03:56:34.816Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -408,7 +408,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4836",
         "kind": "official-article-api",
         "recordId": "4836",
-        "fetchedAt": "2026-08-17T04:00:57.317Z",
+        "fetchedAt": "2026-08-18T03:56:35.371Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -439,7 +439,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4860",
         "kind": "official-article-api",
         "recordId": "4860",
-        "fetchedAt": "2026-08-17T04:00:56.496Z",
+        "fetchedAt": "2026-08-18T03:56:34.539Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -470,7 +470,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4792",
         "kind": "official-article-api",
         "recordId": "4792",
-        "fetchedAt": "2026-08-17T04:00:56.109Z",
+        "fetchedAt": "2026-08-18T03:56:34.260Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -501,7 +501,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4916",
         "kind": "official-article-api",
         "recordId": "4916",
-        "fetchedAt": "2026-08-17T04:00:54.700Z",
+        "fetchedAt": "2026-08-18T03:56:32.870Z",
         "priority": 1
       },
       "confidence": "high",
@@ -533,7 +533,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4885",
         "kind": "official-article-api",
         "recordId": "4885",
-        "fetchedAt": "2026-08-17T04:00:55.243Z",
+        "fetchedAt": "2026-08-18T03:56:33.428Z",
         "priority": 1
       },
       "confidence": "high",
@@ -565,7 +565,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4894",
         "kind": "official-article-api",
         "recordId": "4894",
-        "fetchedAt": "2026-08-17T04:00:54.972Z",
+        "fetchedAt": "2026-08-18T03:56:33.147Z",
         "priority": 1
       },
       "confidence": "high",
@@ -597,7 +597,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4695",
         "kind": "official-article-api",
         "recordId": "4695",
-        "fetchedAt": "2026-08-17T04:00:57.588Z",
+        "fetchedAt": "2026-08-18T03:56:35.648Z",
         "priority": 1
       },
       "confidence": "high",
@@ -629,7 +629,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4720",
         "kind": "official-article-api",
         "recordId": "4720",
-        "fetchedAt": "2026-08-17T04:00:58.133Z",
+        "fetchedAt": "2026-08-18T03:56:36.205Z",
         "priority": 1
       },
       "confidence": "high",
@@ -661,7 +661,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4712",
         "kind": "official-article-api",
         "recordId": "4712",
-        "fetchedAt": "2026-08-17T04:00:58.421Z",
+        "fetchedAt": "2026-08-18T03:56:36.481Z",
         "priority": 1
       },
       "confidence": "high",
@@ -693,7 +693,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4691",
         "kind": "official-article-api",
         "recordId": "4691",
-        "fetchedAt": "2026-08-17T04:00:57.861Z",
+        "fetchedAt": "2026-08-18T03:56:35.928Z",
         "priority": 1
       },
       "confidence": "high",
@@ -725,7 +725,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4591",
         "kind": "official-article-api",
         "recordId": "4591",
-        "fetchedAt": "2026-08-17T04:01:00.505Z",
+        "fetchedAt": "2026-08-18T03:56:39.367Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -756,7 +756,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4654",
         "kind": "official-article-api",
         "recordId": "4654",
-        "fetchedAt": "2026-08-17T04:00:58.761Z",
+        "fetchedAt": "2026-08-18T03:56:36.803Z",
         "priority": 1
       },
       "confidence": "high",
@@ -788,7 +788,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4644",
         "kind": "official-article-api",
         "recordId": "4644",
-        "fetchedAt": "2026-08-17T04:00:59.048Z",
+        "fetchedAt": "2026-08-18T03:56:37.082Z",
         "priority": 1
       },
       "confidence": "high",
@@ -820,7 +820,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4636",
         "kind": "official-article-api",
         "recordId": "4636",
-        "fetchedAt": "2026-08-17T04:00:59.342Z",
+        "fetchedAt": "2026-08-18T03:56:37.360Z",
         "priority": 1
       },
       "confidence": "high",
@@ -852,7 +852,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4627",
         "kind": "official-article-api",
         "recordId": "4627",
-        "fetchedAt": "2026-08-17T04:00:59.648Z",
+        "fetchedAt": "2026-08-18T03:56:37.639Z",
         "priority": 1
       },
       "confidence": "high",
@@ -884,7 +884,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4506",
         "kind": "official-article-api",
         "recordId": "4506",
-        "fetchedAt": "2026-08-17T04:01:00.808Z",
+        "fetchedAt": "2026-08-18T03:56:39.647Z",
         "priority": 1
       },
       "confidence": "high",
@@ -916,7 +916,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4493",
         "kind": "official-article-api",
         "recordId": "4493",
-        "fetchedAt": "2026-08-17T04:01:01.080Z",
+        "fetchedAt": "2026-08-18T03:56:40.166Z",
         "priority": 1
       },
       "confidence": "high",
@@ -948,7 +948,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4458",
         "kind": "official-article-api",
         "recordId": "4458",
-        "fetchedAt": "2026-08-17T04:01:01.658Z",
+        "fetchedAt": "2026-08-18T03:56:40.723Z",
         "priority": 1
       },
       "confidence": "high",
@@ -980,7 +980,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4466",
         "kind": "official-article-api",
         "recordId": "4466",
-        "fetchedAt": "2026-08-17T04:01:01.369Z",
+        "fetchedAt": "2026-08-18T03:56:40.445Z",
         "priority": 1
       },
       "confidence": "high",
@@ -1012,7 +1012,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4368",
         "kind": "official-article-api",
         "recordId": "4368",
-        "fetchedAt": "2026-08-17T04:01:02.832Z",
+        "fetchedAt": "2026-08-18T03:56:41.847Z",
         "priority": 1
       },
       "confidence": "high",
@@ -1044,7 +1044,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4355",
         "kind": "official-article-api",
         "recordId": "4355",
-        "fetchedAt": "2026-08-17T04:01:03.121Z",
+        "fetchedAt": "2026-08-18T03:56:42.128Z",
         "priority": 1
       },
       "confidence": "high",
@@ -1076,7 +1076,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4321",
         "kind": "official-article-api",
         "recordId": "4321",
-        "fetchedAt": "2026-08-17T04:01:04.232Z",
+        "fetchedAt": "2026-08-18T03:56:46.856Z",
         "priority": 1
       },
       "confidence": "high",
@@ -1108,7 +1108,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4329",
         "kind": "official-article-api",
         "recordId": "4329",
-        "fetchedAt": "2026-08-17T04:01:03.934Z",
+        "fetchedAt": "2026-08-18T03:56:45.686Z",
         "priority": 1
       },
       "confidence": "high",
@@ -1140,7 +1140,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4345",
         "kind": "official-article-api",
         "recordId": "4345",
-        "fetchedAt": "2026-08-17T04:01:03.393Z",
+        "fetchedAt": "2026-08-18T03:56:43.309Z",
         "priority": 1
       },
       "confidence": "high",
@@ -1172,7 +1172,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4337",
         "kind": "official-article-api",
         "recordId": "4337",
-        "fetchedAt": "2026-08-17T04:01:03.663Z",
+        "fetchedAt": "2026-08-18T03:56:44.490Z",
         "priority": 1
       },
       "confidence": "high",
@@ -1204,7 +1204,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4196",
         "kind": "official-article-api",
         "recordId": "4196",
-        "fetchedAt": "2026-08-17T04:01:07.103Z",
+        "fetchedAt": "2026-08-18T03:56:51.725Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -1235,7 +1235,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4204",
         "kind": "official-article-api",
         "recordId": "4204",
-        "fetchedAt": "2026-08-17T04:01:06.831Z",
+        "fetchedAt": "2026-08-18T03:56:50.555Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -1266,7 +1266,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4167",
         "kind": "official-article-api",
         "recordId": "4167",
-        "fetchedAt": "2026-08-17T04:01:06.559Z",
+        "fetchedAt": "2026-08-18T03:56:49.358Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -1297,7 +1297,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4256",
         "kind": "official-article-api",
         "recordId": "4256",
-        "fetchedAt": "2026-08-17T04:01:04.815Z",
+        "fetchedAt": "2026-08-18T03:56:47.415Z",
         "priority": 1
       },
       "confidence": "high",
@@ -1329,7 +1329,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4264",
         "kind": "official-article-api",
         "recordId": "4264",
-        "fetchedAt": "2026-08-17T04:01:04.523Z",
+        "fetchedAt": "2026-08-18T03:56:47.136Z",
         "priority": 1
       },
       "confidence": "high",
@@ -1361,7 +1361,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4275",
         "kind": "official-article-api",
         "recordId": "4275",
-        "fetchedAt": "2026-08-17T04:01:05.104Z",
+        "fetchedAt": "2026-08-18T03:56:47.696Z",
         "priority": 1
       },
       "confidence": "high",
@@ -1393,7 +1393,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4224",
         "kind": "official-article-api",
         "recordId": "4224",
-        "fetchedAt": "2026-08-17T04:01:05.394Z",
+        "fetchedAt": "2026-08-18T03:56:47.974Z",
         "priority": 1
       },
       "confidence": "high",
@@ -1425,7 +1425,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4064",
         "kind": "official-article-api",
         "recordId": "4064",
-        "fetchedAt": "2026-08-17T04:01:07.392Z",
+        "fetchedAt": "2026-08-18T03:56:52.006Z",
         "priority": 1
       },
       "confidence": "high",
@@ -1585,7 +1585,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4049",
         "kind": "official-article-api",
         "recordId": "4049",
-        "fetchedAt": "2026-08-17T04:01:07.662Z",
+        "fetchedAt": "2026-08-18T03:56:53.154Z",
         "priority": 1
       },
       "confidence": "high",
@@ -1617,7 +1617,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4041",
         "kind": "official-article-api",
         "recordId": "4041",
-        "fetchedAt": "2026-08-17T04:01:07.933Z",
+        "fetchedAt": "2026-08-18T03:56:54.366Z",
         "priority": 1
       },
       "confidence": "high",
@@ -6902,7 +6902,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5150",
         "kind": "official-article-api",
         "recordId": "5150",
-        "fetchedAt": "2026-08-17T04:00:51.973Z",
+        "fetchedAt": "2026-08-18T03:56:30.090Z",
         "priority": 1
       },
       "confidence": "low",
@@ -6974,7 +6974,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4626",
         "kind": "official-article-api",
         "recordId": "4626",
-        "fetchedAt": "2026-08-17T04:00:59.940Z",
+        "fetchedAt": "2026-08-18T03:56:37.921Z",
         "priority": 1
       },
       "confidence": "low",
@@ -7070,7 +7070,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4236",
         "kind": "official-article-api",
         "recordId": "4236",
-        "fetchedAt": "2026-08-17T04:01:05.683Z",
+        "fetchedAt": "2026-08-18T03:56:48.256Z",
         "priority": 1
       },
       "confidence": "low",
@@ -7094,7 +7094,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4233",
         "kind": "official-article-api",
         "recordId": "4233",
-        "fetchedAt": "2026-08-17T04:01:05.992Z",
+        "fetchedAt": "2026-08-18T03:56:48.535Z",
         "priority": 1
       },
       "confidence": "low",
@@ -7454,7 +7454,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4823",
         "kind": "official-article-api",
         "recordId": "4823",
-        "fetchedAt": "2026-08-17T04:00:55.517Z",
+        "fetchedAt": "2026-08-18T03:56:33.706Z",
         "priority": 1
       },
       "confidence": "low",
@@ -7502,7 +7502,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5094",
         "kind": "official-article-api",
         "recordId": "5094",
-        "fetchedAt": "2026-08-17T04:00:52.515Z",
+        "fetchedAt": "2026-08-18T03:56:30.645Z",
         "priority": 1
       },
       "confidence": "low",
@@ -7550,7 +7550,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4386",
         "kind": "official-article-api",
         "recordId": "4386",
-        "fetchedAt": "2026-08-17T04:01:02.542Z",
+        "fetchedAt": "2026-08-18T03:56:41.565Z",
         "priority": 1
       },
       "confidence": "low",
@@ -7766,7 +7766,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5009",
         "kind": "official-article-api",
         "recordId": "5009",
-        "fetchedAt": "2026-08-17T04:00:53.057Z",
+        "fetchedAt": "2026-08-18T03:56:31.199Z",
         "priority": 1
       },
       "confidence": "low",
@@ -7814,7 +7814,7 @@
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4451",
         "kind": "official-article-api",
         "recordId": "4451",
-        "fetchedAt": "2026-08-17T04:01:01.958Z",
+        "fetchedAt": "2026-08-18T03:56:41.001Z",
         "priority": 1
       },
       "confidence": "low",

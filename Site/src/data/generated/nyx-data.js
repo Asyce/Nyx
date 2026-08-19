@@ -4,7 +4,7 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-08-18T15:02:58.247Z",
+  "generatedAt": "2026-08-19T09:41:13.840Z",
   "codes": {
     "updated": "2026-08-18T00:40:57.915Z",
     "maxAgeDays": 28,
@@ -1297,20 +1297,20 @@ var NYX_DB = {
           "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
-          "phase": "3.1 Phase 1",
+          "phase": "3.1 Phase 2",
           "start": "2026-07-29T03:00:00.000Z",
           "end": "2026-09-08T06:59:59.000Z",
           "characters": [
             {
-              "name": "Aria",
-              "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle57.webp",
+              "name": "Remielle",
+              "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle67.webp",
               "iconFallback": null,
               "iconZoom": false,
-              "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole57.webp",
+              "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole67.webp",
               "namecard": null,
               "rarity": "S",
-              "debut": false,
-              "debutAt": "2026-03-04"
+              "debut": true,
+              "debutAt": "2026-07-29"
             },
             {
               "name": "Piper",
@@ -1334,25 +1334,6 @@ var NYX_DB = {
               "debut": false,
               "debutAt": "2024-09-04"
             },
-            {
-              "name": "Remielle",
-              "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle67.webp",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole67.webp",
-              "namecard": null,
-              "rarity": "S",
-              "debut": true,
-              "debutAt": "2026-07-29"
-            }
-          ],
-          "subBanners": []
-        },
-        "next": {
-          "phase": "3.1 Phase 2",
-          "start": "2026-08-19T04:00:00.000Z",
-          "end": "2026-09-08T06:59:59.000Z",
-          "characters": [
             {
               "name": "Dialyn",
               "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle54.webp",
@@ -1396,6 +1377,26 @@ var NYX_DB = {
               "rarity": "S",
               "debut": true,
               "debutAt": "2026-08-19"
+            }
+          ],
+          "subBanners": []
+        },
+        "next": {
+          "phase": null,
+          "teased": false,
+          "start": "2026-08-19T10:00:00.000Z",
+          "end": "2026-09-08T10:00:00.000Z",
+          "characters": [
+            {
+              "name": "Sigrid",
+              "icon": "../../Database/Prydwen/zzz/assets/characters/sigrid-30ecebbe136b.webp",
+              "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect66.webp",
+              "iconZoom": true,
+              "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole66.webp",
+              "namecard": null,
+              "rarity": "S",
+              "debut": true,
+              "debutAt": null
             }
           ],
           "subBanners": []
@@ -125182,8 +125183,8 @@ var NYX_DB = {
         ]
       },
       "wonderland": {
-        "updated": "2026-08-07T08:04:06.112Z",
-        "version": "6.7.54",
+        "updated": "2026-08-19T07:32:12.709Z",
+        "version": "7.0.51",
         "langMap": {
           "slot": {
             "none": "Voice-Overs",
@@ -125226,9 +125227,9 @@ var NYX_DB = {
           }
         },
         "counts": {
-          "costumes": 641,
-          "suits": 204,
-          "items": 1513
+          "costumes": 665,
+          "suits": 230,
+          "items": 1596
         },
         "costumes": [
           {
@@ -127108,6 +127109,25 @@ var NYX_DB = {
             "nameMissing": false
           },
           {
+            "id": "263935",
+            "name": "Cloud From the Peaks",
+            "kind": "Costume",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_FacialMakeup_P0458.webp",
+            "rank": "Purple",
+            "type": "",
+            "body": [
+              "Girl",
+              "Boy"
+            ],
+            "color": [
+              "Red"
+            ],
+            "slot": [
+              "Facial Makeup"
+            ],
+            "nameMissing": false
+          },
+          {
             "id": "262590",
             "name": "Color Whimsy",
             "kind": "Costume",
@@ -127377,6 +127397,42 @@ var NYX_DB = {
             ],
             "slot": [
               "Footwear"
+            ],
+            "nameMissing": false
+          },
+          {
+            "id": "263003",
+            "name": "Craftsman's Focus",
+            "kind": "Costume",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Face_P0437.webp",
+            "rank": "Purple",
+            "type": "",
+            "body": [
+              "Boy"
+            ],
+            "color": [
+              "Black"
+            ],
+            "slot": [
+              "Eye Shape"
+            ],
+            "nameMissing": false
+          },
+          {
+            "id": "263004",
+            "name": "Craftsman's Focus",
+            "kind": "Costume",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Face_P0437.webp",
+            "rank": "Purple",
+            "type": "",
+            "body": [
+              "Girl"
+            ],
+            "color": [
+              "Brown"
+            ],
+            "slot": [
+              "Eye Shape"
             ],
             "nameMissing": false
           },
@@ -127784,6 +127840,25 @@ var NYX_DB = {
             "nameMissing": false
           },
           {
+            "id": "262694",
+            "name": "Dark-Chasing Edge",
+            "kind": "Costume",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Eyebrow_P0455.webp",
+            "rank": "Purple",
+            "type": "",
+            "body": [
+              "Girl",
+              "Boy"
+            ],
+            "color": [
+              "Brown"
+            ],
+            "slot": [
+              "Eyebrows"
+            ],
+            "nameMissing": false
+          },
+          {
             "id": "264108",
             "name": "Dawn Clouds",
             "kind": "Costume",
@@ -128183,6 +128258,63 @@ var NYX_DB = {
             ],
             "slot": [
               "Iris"
+            ],
+            "nameMissing": false
+          },
+          {
+            "id": "262756",
+            "name": "Dreambuilder's Chisel",
+            "kind": "Costume",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Eyebrow_P0435.webp",
+            "rank": "Purple",
+            "type": "",
+            "body": [
+              "Girl",
+              "Boy"
+            ],
+            "color": [
+              "Red"
+            ],
+            "slot": [
+              "Eyebrows"
+            ],
+            "nameMissing": false
+          },
+          {
+            "id": "262758",
+            "name": "Dreampainter's Brush",
+            "kind": "Costume",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Eyebrow_P0436.webp",
+            "rank": "Purple",
+            "type": "",
+            "body": [
+              "Girl",
+              "Boy"
+            ],
+            "color": [
+              "Red"
+            ],
+            "slot": [
+              "Eyebrows"
+            ],
+            "nameMissing": false
+          },
+          {
+            "id": "263728",
+            "name": "Drifting Mist Veil",
+            "kind": "Costume",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_EyeShadow_P0459.webp",
+            "rank": "Purple",
+            "type": "",
+            "body": [
+              "Girl",
+              "Boy"
+            ],
+            "color": [
+              "White"
+            ],
+            "slot": [
+              "Eye Makeup"
             ],
             "nameMissing": false
           },
@@ -128880,6 +129012,26 @@ var NYX_DB = {
             "nameMissing": false
           },
           {
+            "id": "263310",
+            "name": "First Light of Dawn",
+            "kind": "Costume",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Pupil_P0457.webp",
+            "rank": "Purple",
+            "type": "",
+            "body": [
+              "Girl",
+              "Boy"
+            ],
+            "color": [
+              "Red",
+              "Yellow"
+            ],
+            "slot": [
+              "Iris"
+            ],
+            "nameMissing": false
+          },
+          {
             "id": "262433",
             "name": "Fluffy Buns: Cerulean",
             "kind": "Costume",
@@ -129523,6 +129675,84 @@ var NYX_DB = {
             ],
             "slot": [
               "Iris"
+            ],
+            "nameMissing": false
+          },
+          {
+            "id": "263230",
+            "name": "Illusion Trick - Blue & Yellow",
+            "kind": "Costume",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Pupil_P0430.webp",
+            "rank": "Purple",
+            "type": "",
+            "body": [
+              "Girl",
+              "Boy"
+            ],
+            "color": [
+              "Yellow",
+              "Blue"
+            ],
+            "slot": [
+              "Iris"
+            ],
+            "nameMissing": false
+          },
+          {
+            "id": "263224",
+            "name": "Illusion Trick - Red & Blue",
+            "kind": "Costume",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Pupil_P0429.webp",
+            "rank": "Purple",
+            "type": "",
+            "body": [
+              "Girl",
+              "Boy"
+            ],
+            "color": [
+              "Red",
+              "Blue"
+            ],
+            "slot": [
+              "Iris"
+            ],
+            "nameMissing": false
+          },
+          {
+            "id": "262623",
+            "name": "Illusion's Whisper - Light Orange",
+            "kind": "Costume",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Eyebrow_P0424.webp",
+            "rank": "Purple",
+            "type": "",
+            "body": [
+              "Girl",
+              "Boy"
+            ],
+            "color": [
+              "Yellow"
+            ],
+            "slot": [
+              "Eyebrows"
+            ],
+            "nameMissing": false
+          },
+          {
+            "id": "262625",
+            "name": "Illusion's Whisper - Pink",
+            "kind": "Costume",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Eyebrow_P0425.webp",
+            "rank": "Purple",
+            "type": "",
+            "body": [
+              "Girl",
+              "Boy"
+            ],
+            "color": [
+              "Red"
+            ],
+            "slot": [
+              "Eyebrows"
             ],
             "nameMissing": false
           },
@@ -130632,6 +130862,25 @@ var NYX_DB = {
             "nameMissing": false
           },
           {
+            "id": "264269",
+            "name": "Melancholy Teardrop Glasses",
+            "kind": "Costume",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Eyewear_P0451.webp",
+            "rank": "Purple",
+            "type": "",
+            "body": [
+              "Girl",
+              "Boy"
+            ],
+            "color": [
+              "Black"
+            ],
+            "slot": [
+              "Eye Accessory"
+            ],
+            "nameMissing": false
+          },
+          {
             "id": "263605",
             "name": "Midnight Incantation",
             "kind": "Costume",
@@ -130703,6 +130952,82 @@ var NYX_DB = {
             ],
             "slot": [
               "Iris"
+            ],
+            "nameMissing": false
+          },
+          {
+            "id": "263919",
+            "name": "Miracle Stars - Brilliant Light",
+            "kind": "Costume",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_FacialMakeup_P0433.webp",
+            "rank": "Purple",
+            "type": "",
+            "body": [
+              "Girl",
+              "Boy"
+            ],
+            "color": [
+              "Red"
+            ],
+            "slot": [
+              "Facial Makeup"
+            ],
+            "nameMissing": false
+          },
+          {
+            "id": "263912",
+            "name": "Miracle Stars - Radiant Spirit",
+            "kind": "Costume",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_FacialMakeup_P0431.webp",
+            "rank": "Purple",
+            "type": "",
+            "body": [
+              "Girl",
+              "Boy"
+            ],
+            "color": [
+              "Red"
+            ],
+            "slot": [
+              "Facial Makeup"
+            ],
+            "nameMissing": false
+          },
+          {
+            "id": "263916",
+            "name": "Miracle Stars - Shadow",
+            "kind": "Costume",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_FacialMakeup_P0432.webp",
+            "rank": "Purple",
+            "type": "",
+            "body": [
+              "Girl",
+              "Boy"
+            ],
+            "color": [
+              "Blue"
+            ],
+            "slot": [
+              "Facial Makeup"
+            ],
+            "nameMissing": false
+          },
+          {
+            "id": "263921",
+            "name": "Miracle Stars - Twilight Beauty",
+            "kind": "Costume",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_FacialMakeup_P0434.webp",
+            "rank": "Purple",
+            "type": "",
+            "body": [
+              "Girl",
+              "Boy"
+            ],
+            "color": [
+              "Blue"
+            ],
+            "slot": [
+              "Facial Makeup"
             ],
             "nameMissing": false
           },
@@ -132212,6 +132537,42 @@ var NYX_DB = {
             ],
             "slot": [
               "Iris"
+            ],
+            "nameMissing": false
+          },
+          {
+            "id": "262942",
+            "name": "Radiant Flourish",
+            "kind": "Costume",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Face_P0428.webp",
+            "rank": "Purple",
+            "type": "",
+            "body": [
+              "Boy"
+            ],
+            "color": [
+              "Black"
+            ],
+            "slot": [
+              "Eye Shape"
+            ],
+            "nameMissing": false
+          },
+          {
+            "id": "262943",
+            "name": "Radiant Flourish",
+            "kind": "Costume",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Face_P0428.webp",
+            "rank": "Purple",
+            "type": "",
+            "body": [
+              "Girl"
+            ],
+            "color": [
+              "Black"
+            ],
+            "slot": [
+              "Eye Shape"
             ],
             "nameMissing": false
           },
@@ -134532,6 +134893,46 @@ var NYX_DB = {
             "nameMissing": false
           },
           {
+            "id": "263295",
+            "name": "Spinning Dream",
+            "kind": "Costume",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Pupil_P0438.webp",
+            "rank": "Purple",
+            "type": "",
+            "body": [
+              "Girl",
+              "Boy"
+            ],
+            "color": [
+              "Blue",
+              "Red"
+            ],
+            "slot": [
+              "Iris"
+            ],
+            "nameMissing": false
+          },
+          {
+            "id": "264274",
+            "name": "Spooky Boo Hat",
+            "kind": "Costume",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Headwear_P0512.webp",
+            "rank": "Purple",
+            "type": "",
+            "body": [
+              "Girl",
+              "Boy"
+            ],
+            "color": [
+              "White",
+              "Blue"
+            ],
+            "slot": [
+              "Headwear"
+            ],
+            "nameMissing": false
+          },
+          {
             "id": "261651",
             "name": "Sprout Mid-Calf Boots",
             "kind": "Costume",
@@ -134636,6 +135037,44 @@ var NYX_DB = {
             ],
             "slot": [
               "Bottom"
+            ],
+            "nameMissing": false
+          },
+          {
+            "id": "262627",
+            "name": "Stage Whisper - Light Orange",
+            "kind": "Costume",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Eyebrow_P0426.webp",
+            "rank": "Purple",
+            "type": "",
+            "body": [
+              "Girl",
+              "Boy"
+            ],
+            "color": [
+              "Yellow"
+            ],
+            "slot": [
+              "Eyebrows"
+            ],
+            "nameMissing": false
+          },
+          {
+            "id": "262629",
+            "name": "Stage Whisper - Pink",
+            "kind": "Costume",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Eyebrow_P0427.webp",
+            "rank": "Purple",
+            "type": "",
+            "body": [
+              "Girl",
+              "Boy"
+            ],
+            "color": [
+              "Red"
+            ],
+            "slot": [
+              "Eyebrows"
             ],
             "nameMissing": false
           },
@@ -134962,6 +135401,24 @@ var NYX_DB = {
             ],
             "color": [
               "Black"
+            ],
+            "slot": [
+              "Eye Shape"
+            ],
+            "nameMissing": false
+          },
+          {
+            "id": "263013",
+            "name": "Swallowtail Willow",
+            "kind": "Costume",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Face_P0456.webp",
+            "rank": "Purple",
+            "type": "",
+            "body": [
+              "Girl"
+            ],
+            "color": [
+              "Brown"
             ],
             "slot": [
               "Eye Shape"
@@ -137021,6 +137478,41 @@ var NYX_DB = {
         ],
         "suits": [
           {
+            "id": "265465",
+            "name": "Amber Nectar",
+            "kind": "Set",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0171.webp",
+            "rank": "Purple",
+            "type": "",
+            "body": [
+              "Girl"
+            ],
+            "color": [
+              "Yellow",
+              "White"
+            ],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265466",
+            "name": "Amber Nectar",
+            "kind": "Set",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0171.webp",
+            "rank": "Purple",
+            "type": "",
+            "body": [
+              "Boy"
+            ],
+            "color": [
+              "Yellow",
+              "Brown",
+              "White"
+            ],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
             "id": "265018",
             "name": "Astral Beacon",
             "kind": "Set",
@@ -137116,6 +137608,41 @@ var NYX_DB = {
             "color": [
               "Green",
               "Brown"
+            ],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265481",
+            "name": "Azure Mountainshade",
+            "kind": "Set",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0189.webp",
+            "rank": "Purple",
+            "type": "",
+            "body": [
+              "Girl"
+            ],
+            "color": [
+              "Blue",
+              "Yellow",
+              "Gray"
+            ],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265482",
+            "name": "Azure Mountainshade",
+            "kind": "Set",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0189.webp",
+            "rank": "Purple",
+            "type": "",
+            "body": [
+              "Boy"
+            ],
+            "color": [
+              "Blue",
+              "Gray"
             ],
             "slot": [],
             "nameMissing": false
@@ -137619,6 +138146,39 @@ var NYX_DB = {
             "nameMissing": false
           },
           {
+            "id": "265362",
+            "name": "Cloudbound Flight",
+            "kind": "Set",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0001.webp",
+            "rank": "Purple",
+            "type": "",
+            "body": [
+              "Girl"
+            ],
+            "color": [
+              "Blue",
+              "Orange"
+            ],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265363",
+            "name": "Cloudbound Journey",
+            "kind": "Set",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0001.webp",
+            "rank": "Purple",
+            "type": "",
+            "body": [
+              "Boy"
+            ],
+            "color": [
+              "Blue"
+            ],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
             "id": "265225",
             "name": "Comedy Performance",
             "kind": "Set",
@@ -137682,6 +138242,40 @@ var NYX_DB = {
             ],
             "color": [
               "Brown"
+            ],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265392",
+            "name": "Crowned by the Breeze",
+            "kind": "Set",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0157.webp",
+            "rank": "Purple",
+            "type": "",
+            "body": [
+              "Girl"
+            ],
+            "color": [
+              "Green",
+              "White"
+            ],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265393",
+            "name": "Crowned by the Breeze",
+            "kind": "Set",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0157.webp",
+            "rank": "Purple",
+            "type": "",
+            "body": [
+              "Boy"
+            ],
+            "color": [
+              "Green",
+              "White"
             ],
             "slot": [],
             "nameMissing": false
@@ -138167,6 +138761,38 @@ var NYX_DB = {
             "nameMissing": false
           },
           {
+            "id": "265507",
+            "name": "Fun Under Open Skies",
+            "kind": "Set",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0198.webp",
+            "rank": "Blue",
+            "type": "",
+            "body": [
+              "Girl"
+            ],
+            "color": [
+              "Brown"
+            ],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265508",
+            "name": "Fun Under Open Skies",
+            "kind": "Set",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0198.webp",
+            "rank": "Blue",
+            "type": "",
+            "body": [
+              "Boy"
+            ],
+            "color": [
+              "Brown"
+            ],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
             "id": "265229",
             "name": "Galaxy Wanderer",
             "kind": "Set",
@@ -138560,6 +139186,40 @@ var NYX_DB = {
             "color": [
               "Purple",
               "Black"
+            ],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265459",
+            "name": "Letter Crane Courier",
+            "kind": "Set",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0168.webp",
+            "rank": "Purple",
+            "type": "",
+            "body": [
+              "Girl"
+            ],
+            "color": [
+              "Blue",
+              "White"
+            ],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265460",
+            "name": "Letter Crane Courier",
+            "kind": "Set",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0168.webp",
+            "rank": "Purple",
+            "type": "",
+            "body": [
+              "Boy"
+            ],
+            "color": [
+              "Blue",
+              "White"
             ],
             "slot": [],
             "nameMissing": false
@@ -139214,6 +139874,40 @@ var NYX_DB = {
             "nameMissing": false
           },
           {
+            "id": "265445",
+            "name": "Precision Strike",
+            "kind": "Set",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0176.webp",
+            "rank": "Blue",
+            "type": "",
+            "body": [
+              "Girl"
+            ],
+            "color": [
+              "Blue",
+              "White"
+            ],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265446",
+            "name": "Precision Strike",
+            "kind": "Set",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0176.webp",
+            "rank": "Blue",
+            "type": "",
+            "body": [
+              "Boy"
+            ],
+            "color": [
+              "Blue",
+              "White"
+            ],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
             "id": "265103",
             "name": "Prelude to Spring",
             "kind": "Set",
@@ -139584,6 +140278,42 @@ var NYX_DB = {
             "nameMissing": false
           },
           {
+            "id": "265449",
+            "name": "Scary Cat",
+            "kind": "Set",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0177.webp",
+            "rank": "Blue",
+            "type": "",
+            "body": [
+              "Girl"
+            ],
+            "color": [
+              "Black",
+              "Blue",
+              "Gray"
+            ],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265450",
+            "name": "Scary Cat",
+            "kind": "Set",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0177.webp",
+            "rank": "Blue",
+            "type": "",
+            "body": [
+              "Boy"
+            ],
+            "color": [
+              "Black",
+              "Blue",
+              "Gray"
+            ],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
             "id": "265055",
             "name": "Scorching Roar",
             "kind": "Set",
@@ -139691,6 +140421,38 @@ var NYX_DB = {
             ],
             "color": [
               "Multi-Colored"
+            ],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265455",
+            "name": "Sleuth's Verdict",
+            "kind": "Set",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0170.webp",
+            "rank": "Purple",
+            "type": "",
+            "body": [
+              "Girl"
+            ],
+            "color": [
+              "Brown"
+            ],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265456",
+            "name": "Sleuth's Verdict",
+            "kind": "Set",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0170.webp",
+            "rank": "Purple",
+            "type": "",
+            "body": [
+              "Boy"
+            ],
+            "color": [
+              "Brown"
             ],
             "slot": [],
             "nameMissing": false
@@ -140166,6 +140928,40 @@ var NYX_DB = {
             "nameMissing": false
           },
           {
+            "id": "265457",
+            "name": "Twilight Phantom Thief",
+            "kind": "Set",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0167.webp",
+            "rank": "Purple",
+            "type": "",
+            "body": [
+              "Girl"
+            ],
+            "color": [
+              "Blue",
+              "Purple"
+            ],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265458",
+            "name": "Twilight Phantom Thief",
+            "kind": "Set",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0167.webp",
+            "rank": "Purple",
+            "type": "",
+            "body": [
+              "Boy"
+            ],
+            "color": [
+              "Blue",
+              "Purple"
+            ],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
             "id": "265315",
             "name": "Verdant Chase",
             "kind": "Set",
@@ -140197,6 +140993,42 @@ var NYX_DB = {
               "Orange",
               "Black",
               "Blue"
+            ],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265451",
+            "name": "Warrior of the Winning Hand",
+            "kind": "Set",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0173.webp",
+            "rank": "Blue",
+            "type": "",
+            "body": [
+              "Girl"
+            ],
+            "color": [
+              "Red",
+              "White",
+              "Black"
+            ],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265452",
+            "name": "Warrior of the Winning Hand",
+            "kind": "Set",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0173.webp",
+            "rank": "Blue",
+            "type": "",
+            "body": [
+              "Boy"
+            ],
+            "color": [
+              "Red",
+              "White",
+              "Gray"
             ],
             "slot": [],
             "nameMissing": false
@@ -140263,6 +141095,78 @@ var NYX_DB = {
             ],
             "color": [
               "Yellow"
+            ],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265064",
+            "name": "Whimsical Spectacle",
+            "kind": "Set",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0165.webp",
+            "rank": "Orange",
+            "type": "",
+            "body": [
+              "Girl"
+            ],
+            "color": [
+              "Red",
+              "White",
+              "Brown"
+            ],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265065",
+            "name": "Whimsical Spectacle",
+            "kind": "Set",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0165.webp",
+            "rank": "Orange",
+            "type": "",
+            "body": [
+              "Boy"
+            ],
+            "color": [
+              "Red",
+              "White",
+              "Brown"
+            ],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265066",
+            "name": "Whimsical Spectacle - Sugarcube Sleight",
+            "kind": "Set",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0166.webp",
+            "rank": "Orange",
+            "type": "",
+            "body": [
+              "Girl"
+            ],
+            "color": [
+              "Red",
+              "Black",
+              "Blue"
+            ],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265067",
+            "name": "Whimsical Spectacle - Sugarcube Sleight",
+            "kind": "Set",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0166.webp",
+            "rank": "Orange",
+            "type": "",
+            "body": [
+              "Boy"
+            ],
+            "color": [
+              "Red",
+              "White",
+              "Blue"
             ],
             "slot": [],
             "nameMissing": false
@@ -140801,6 +141705,18 @@ var NYX_DB = {
             "nameMissing": false
           },
           {
+            "id": "258539",
+            "name": "Chronicle Cache: Elite",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Optional_Suit_S0168.webp",
+            "rank": "4",
+            "type": "Material Type Unrepeatable Selectable Chest",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
             "id": "258501",
             "name": "Chronicle Cache: Exceptional",
             "kind": "Inventory Item",
@@ -140961,6 +141877,30 @@ var NYX_DB = {
             "name": "Chronicle Cache: Exceptional",
             "kind": "Inventory Item",
             "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Optional_Suit_S0147.webp",
+            "rank": "3",
+            "type": "Material Type Unrepeatable Selectable Chest",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "258537",
+            "name": "Chronicle Cache: Exceptional",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Optional_Suit_S0176.webp",
+            "rank": "3",
+            "type": "Material Type Unrepeatable Selectable Chest",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "258538",
+            "name": "Chronicle Cache: Exceptional",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Optional_Suit_S0177.webp",
             "rank": "3",
             "type": "Material Type Unrepeatable Selectable Chest",
             "body": [],
@@ -145273,6 +146213,18 @@ var NYX_DB = {
             "nameMissing": false
           },
           {
+            "id": "258021",
+            "name": "Cosmetic Bundle: \"Cloudbound\"",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Optional_Suit_S0001.webp",
+            "rank": "4",
+            "type": "Material Type Bundle",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
             "id": "258005",
             "name": "Cosmetic Bundle: \"Comedy Performance\"",
             "kind": "Inventory Item",
@@ -145285,10 +146237,34 @@ var NYX_DB = {
             "nameMissing": false
           },
           {
+            "id": "258020",
+            "name": "Cosmetic Bundle: \"Dreamy Summer Leisure\"",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Optional_Suit_S0143.webp",
+            "rank": "4",
+            "type": "Material Type Bundle",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
             "id": "258003",
             "name": "Cosmetic Bundle: \"Free Silver Star\"",
             "kind": "Inventory Item",
             "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Optional_Suit_S0075.webp",
+            "rank": "3",
+            "type": "Material Type Bundle",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "258023",
+            "name": "Cosmetic Bundle: \"Fun Under Open Skies\"",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Optional_Suit_S0198.webp",
             "rank": "3",
             "type": "Material Type Bundle",
             "body": [],
@@ -145397,6 +146373,18 @@ var NYX_DB = {
             "name": "Cosmetic Bundle: \"Triumphal Golden Apple\"",
             "kind": "Inventory Item",
             "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Optional_Suit_S0107.webp",
+            "rank": "3",
+            "type": "Material Type Bundle",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "258022",
+            "name": "Cosmetic Bundle: \"Warrior of the Winning Hand\"",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Optional_Suit_S0173.webp",
             "rank": "3",
             "type": "Material Type Bundle",
             "body": [],
@@ -145981,6 +146969,30 @@ var NYX_DB = {
             "nameMissing": false
           },
           {
+            "id": "264269",
+            "name": "General Cosmetic - Melancholy Teardrop Glasses",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Eyewear_P0451.webp",
+            "rank": "4",
+            "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "264274",
+            "name": "General Cosmetic - Spooky Boo Hat",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Headwear_P0512.webp",
+            "rank": "4",
+            "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
             "id": "263712",
             "name": "General Eye Makeup - \"Brilliant Turquoise: Matte\"",
             "kind": "Inventory Item",
@@ -146081,6 +147093,18 @@ var NYX_DB = {
             "name": "General Eye Makeup - \"Unyielding Warrior: Dark Flame\"",
             "kind": "Inventory Item",
             "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_EyeShadow_P0324.webp",
+            "rank": "4",
+            "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "263728",
+            "name": "General Eye Makeup - Drifting Mist Veil",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_EyeShadow_P0459.webp",
             "rank": "4",
             "type": "Material Costume",
             "body": [],
@@ -147133,6 +148157,90 @@ var NYX_DB = {
             "nameMissing": false
           },
           {
+            "id": "262694",
+            "name": "General Eyebrows - Dark-Chasing Edge",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Eyebrow_P0455.webp",
+            "rank": "4",
+            "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "262756",
+            "name": "General Eyebrows - Dreambuilder's Chisel",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Eyebrow_P0435.webp",
+            "rank": "4",
+            "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "262758",
+            "name": "General Eyebrows - Dreampainter's Brush",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Eyebrow_P0436.webp",
+            "rank": "4",
+            "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "262623",
+            "name": "General Eyebrows - Illusion's Whisper: Light Orange",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Eyebrow_P0424.webp",
+            "rank": "4",
+            "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "262625",
+            "name": "General Eyebrows - Illusion's Whisper: Pink",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Eyebrow_P0425.webp",
+            "rank": "4",
+            "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "262627",
+            "name": "General Eyebrows - Stage Whisper: Light Orange",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Eyebrow_P0426.webp",
+            "rank": "4",
+            "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "262629",
+            "name": "General Eyebrows - Stage Whisper: Pink",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Eyebrow_P0427.webp",
+            "rank": "4",
+            "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
             "id": "263947",
             "name": "General Facial Makeup - \"Aura Blush: Falling Blossoms\"",
             "kind": "Inventory Item",
@@ -147305,6 +148413,66 @@ var NYX_DB = {
             "name": "General Facial Makeup - \"Verdant Dew Gleam\"",
             "kind": "Inventory Item",
             "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_FacialMakeup_P0484.webp",
+            "rank": "4",
+            "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "263935",
+            "name": "General Facial Makeup - Cloud From the Peaks",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_FacialMakeup_P0458.webp",
+            "rank": "4",
+            "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "263919",
+            "name": "General Facial Makeup - Miracle Stars: Brilliant Light",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_FacialMakeup_P0433.webp",
+            "rank": "4",
+            "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "263912",
+            "name": "General Facial Makeup - Miracle Stars: Radiant Spirit",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_FacialMakeup_P0431.webp",
+            "rank": "4",
+            "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "263916",
+            "name": "General Facial Makeup - Miracle Stars: Shadow",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_FacialMakeup_P0432.webp",
+            "rank": "4",
+            "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "263921",
+            "name": "General Facial Makeup - Miracle Stars: Twilight Beauty",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_FacialMakeup_P0434.webp",
             "rank": "4",
             "type": "Material Costume",
             "body": [],
@@ -147889,6 +149057,54 @@ var NYX_DB = {
             "nameMissing": false
           },
           {
+            "id": "263310",
+            "name": "General Iris - First Light of Dawn",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Pupil_P0457.webp",
+            "rank": "4",
+            "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "263230",
+            "name": "General Iris - Illusion Trick: Blue & Yellow",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Pupil_P0430.webp",
+            "rank": "4",
+            "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "263224",
+            "name": "General Iris - Illusion Trick: Red & Blue",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Pupil_P0429.webp",
+            "rank": "4",
+            "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "263295",
+            "name": "General Iris - Spinning Dream",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Pupil_P0438.webp",
+            "rank": "4",
+            "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
             "id": "263613",
             "name": "General Lipstick - \"Festive Pumpkin\"",
             "kind": "Inventory Item",
@@ -148351,6 +149567,42 @@ var NYX_DB = {
             "art": "../../Database/GameData/gi/beyond/assets/UI_ItemIcon_250012.webp",
             "rank": "3",
             "type": "Material Normal",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "251209",
+            "name": "Magic Chessboard",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_UGC_Transfer_BP_SuperRare_S0166.webp",
+            "rank": "4",
+            "type": "Material Transfer Effect",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "250480",
+            "name": "Magic Hour",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_UGC_Emoji_S0166_Girl_01.webp",
+            "rank": "5",
+            "type": "Material Emoji",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "250479",
+            "name": "Magic Time",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_UGC_Emoji_S0166_Boy_01.webp",
+            "rank": "5",
+            "type": "Material Emoji",
             "body": [],
             "color": [],
             "slot": [],
@@ -152257,6 +153509,126 @@ var NYX_DB = {
             "nameMissing": false
           },
           {
+            "id": "265466",
+            "name": "Manekin Cosmetic - Amber Nectar",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0171.webp",
+            "rank": "4",
+            "type": "Material Costume Suit",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "280078",
+            "name": "Manekin Cosmetic - Amber Nectar Short Hair",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Hair_S0171.webp",
+            "rank": "4",
+            "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "280080",
+            "name": "Manekin Cosmetic - Amber Nectar Short Socks",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_LegAcc_S0171.webp",
+            "rank": "4",
+            "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "280079",
+            "name": "Manekin Cosmetic - Amber Nectar Sun Hat",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Headwear_S0171.webp",
+            "rank": "4",
+            "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "280081",
+            "name": "Manekin Cosmetic - Amber Nectar Waist Pack",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_WaistAcc_S0171.webp",
+            "rank": "4",
+            "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "280076",
+            "name": "Manekin Cosmetic - Amber Nectar Work Overalls",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Top_S0171.webp",
+            "rank": "4",
+            "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "280077",
+            "name": "Manekin Cosmetic - Amber Nectar Work Shoes",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Shoe_S0171.webp",
+            "rank": "4",
+            "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265482",
+            "name": "Manekin Cosmetic - Azure Mountainshade",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0189.webp",
+            "rank": "4",
+            "type": "Material Costume Suit",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265363",
+            "name": "Manekin Cosmetic - Cloudbound Journey",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0001.webp",
+            "rank": "4",
+            "type": "Material Costume Suit",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265393",
+            "name": "Manekin Cosmetic - Crowned by the Breeze",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0157.webp",
+            "rank": "4",
+            "type": "Material Costume Suit",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
             "id": "260075",
             "name": "Manekin Cosmetic - Dignified Formal Shirt: Ash White",
             "kind": "Inventory Item",
@@ -152269,12 +153641,108 @@ var NYX_DB = {
             "nameMissing": false
           },
           {
+            "id": "265508",
+            "name": "Manekin Cosmetic - Fun Under Open Skies",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0198.webp",
+            "rank": "3",
+            "type": "Material Costume Suit",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265460",
+            "name": "Manekin Cosmetic - Letter Crane Courier",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0168.webp",
+            "rank": "4",
+            "type": "Material Costume Suit",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
             "id": "260055",
             "name": "Manekin Cosmetic - Palm Tree Casual Shirt: Marine Blue",
             "kind": "Inventory Item",
             "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Top_P0224.webp",
             "rank": "2",
             "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265446",
+            "name": "Manekin Cosmetic - Precision Strike",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0176.webp",
+            "rank": "3",
+            "type": "Material Costume Suit",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265450",
+            "name": "Manekin Cosmetic - Scary Cat",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0177.webp",
+            "rank": "3",
+            "type": "Material Costume Suit",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265456",
+            "name": "Manekin Cosmetic - Sleuth's Verdict",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0170.webp",
+            "rank": "4",
+            "type": "Material Costume Suit",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265458",
+            "name": "Manekin Cosmetic - Twilight Phantom Thief",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0167.webp",
+            "rank": "4",
+            "type": "Material Costume Suit",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265452",
+            "name": "Manekin Cosmetic - Warrior of the Winning Hand",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0173.webp",
+            "rank": "3",
+            "type": "Material Costume Suit",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265065",
+            "name": "Manekin Cosmetic - Whimsical Spectacle",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0165.webp",
+            "rank": "5",
+            "type": "Material Costume Suit",
             "body": [],
             "color": [],
             "slot": [],
@@ -152323,6 +153791,18 @@ var NYX_DB = {
             "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Shoe_S0009.webp",
             "rank": "3",
             "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265067",
+            "name": "Manekin Cosmetic: Whimsical Spectacle - Sugarcube Sleight",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0166.webp",
+            "rank": "5",
+            "type": "Material Costume Suit",
             "body": [],
             "color": [],
             "slot": [],
@@ -152658,6 +154138,30 @@ var NYX_DB = {
             "kind": "Inventory Item",
             "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Face_P0144.webp",
             "rank": "2",
+            "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "263003",
+            "name": "Manekin Eye Shape - Craftsman's Focus",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Face_P0437.webp",
+            "rank": "4",
+            "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "262942",
+            "name": "Manekin Eye Shape - Radiant Flourish",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Face_P0428.webp",
+            "rank": "4",
             "type": "Material Costume",
             "body": [],
             "color": [],
@@ -156553,6 +158057,150 @@ var NYX_DB = {
             "nameMissing": false
           },
           {
+            "id": "265465",
+            "name": "Manekina Cosmetic - Amber Nectar",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0171.webp",
+            "rank": "4",
+            "type": "Material Costume Suit",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "280073",
+            "name": "Manekina Cosmetic - Amber Nectar Hair Ornament",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Headwear_S0171.webp",
+            "rank": "4",
+            "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "280074",
+            "name": "Manekina Cosmetic - Amber Nectar Long Socks",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_LegAcc_S0171.webp",
+            "rank": "4",
+            "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "280072",
+            "name": "Manekina Cosmetic - Amber Nectar Short Hair",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Hair_S0171.webp",
+            "rank": "4",
+            "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "280070",
+            "name": "Manekina Cosmetic - Amber Nectar Short Skirt",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Bottom_S0171.webp",
+            "rank": "4",
+            "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "280075",
+            "name": "Manekina Cosmetic - Amber Nectar Waist Pack",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_WaistAcc_S0171.webp",
+            "rank": "4",
+            "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "280069",
+            "name": "Manekina Cosmetic - Amber Nectar Work Overalls",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Top_S0171.webp",
+            "rank": "4",
+            "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "280071",
+            "name": "Manekina Cosmetic - Amber Nectar Work Shoes",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Shoe_S0171.webp",
+            "rank": "4",
+            "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265481",
+            "name": "Manekina Cosmetic - Azure Mountainshade",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0189.webp",
+            "rank": "4",
+            "type": "Material Costume Suit",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265362",
+            "name": "Manekina Cosmetic - Cloudbound Flight",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0001.webp",
+            "rank": "4",
+            "type": "Material Costume Suit",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265392",
+            "name": "Manekina Cosmetic - Crowned by the Breeze",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0157.webp",
+            "rank": "4",
+            "type": "Material Costume Suit",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265507",
+            "name": "Manekina Cosmetic - Fun Under Open Skies",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0198.webp",
+            "rank": "3",
+            "type": "Material Costume Suit",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
             "id": "260028",
             "name": "Manekina Cosmetic - Knit Bubble Sleeve Blouse: Cloud White",
             "kind": "Inventory Item",
@@ -156571,6 +158219,90 @@ var NYX_DB = {
             "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Top_P0103.webp",
             "rank": "2",
             "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265459",
+            "name": "Manekina Cosmetic - Letter Crane Courier",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0168.webp",
+            "rank": "4",
+            "type": "Material Costume Suit",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265445",
+            "name": "Manekina Cosmetic - Precision Strike",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0176.webp",
+            "rank": "3",
+            "type": "Material Costume Suit",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265449",
+            "name": "Manekina Cosmetic - Scary Cat",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0177.webp",
+            "rank": "3",
+            "type": "Material Costume Suit",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265455",
+            "name": "Manekina Cosmetic - Sleuth's Verdict",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0170.webp",
+            "rank": "4",
+            "type": "Material Costume Suit",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265457",
+            "name": "Manekina Cosmetic - Twilight Phantom Thief",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0167.webp",
+            "rank": "4",
+            "type": "Material Costume Suit",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265451",
+            "name": "Manekina Cosmetic - Warrior of the Winning Hand",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0173.webp",
+            "rank": "3",
+            "type": "Material Costume Suit",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265064",
+            "name": "Manekina Cosmetic - Whimsical Spectacle",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0165.webp",
+            "rank": "5",
+            "type": "Material Costume Suit",
             "body": [],
             "color": [],
             "slot": [],
@@ -156619,6 +158351,18 @@ var NYX_DB = {
             "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Shoe_S0009.webp",
             "rank": "3",
             "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265066",
+            "name": "Manekina Cosmetic: Whimsical Spectacle - Sugarcube Sleight",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0166.webp",
+            "rank": "5",
+            "type": "Material Costume Suit",
             "body": [],
             "color": [],
             "slot": [],
@@ -156997,6 +158741,42 @@ var NYX_DB = {
             "nameMissing": false
           },
           {
+            "id": "263004",
+            "name": "Manekina Eye Shape - Craftsman's Focus",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Face_P0437.webp",
+            "rank": "4",
+            "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "262943",
+            "name": "Manekina Eye Shape - Radiant Flourish",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Face_P0428.webp",
+            "rank": "4",
+            "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "263013",
+            "name": "Manekina Eye Shape - Swallowtail Willow",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Face_P0456.webp",
+            "rank": "4",
+            "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
             "id": "263910",
             "name": "Manekina Facial Makeup - \"Rose's Remembrance\"",
             "kind": "Inventory Item",
@@ -157069,6 +158849,18 @@ var NYX_DB = {
             "nameMissing": false
           },
           {
+            "id": "251010",
+            "name": "Miracle Theater: Light and Shadow Spectacle",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_HallThemeIcon_Msqy.webp",
+            "rank": "4",
+            "type": "Material Hall Unlock",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
             "id": "250005",
             "name": "Muse Infuse",
             "kind": "Inventory Item",
@@ -157086,6 +158878,18 @@ var NYX_DB = {
             "kind": "Inventory Item",
             "art": "../../Database/GameData/gi/beyond/assets/UI_UGC_Emoji_S0058_Boy_01.webp",
             "rank": "5",
+            "type": "Material Emoji",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "250477",
+            "name": "Nailed It",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_UGC_Emoji_Rare_18.webp",
+            "rank": "3",
             "type": "Material Emoji",
             "body": [],
             "color": [],
@@ -157135,6 +158939,18 @@ var NYX_DB = {
             "art": "../../Database/GameData/gi/beyond/assets/UI_UGC_ActionIcon_UAggression01.webp",
             "rank": "3",
             "type": "Material Pose",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "250478",
+            "name": "Paper Crane Ride",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_UGC_Emoji_SuperRare_24.webp",
+            "rank": "4",
+            "type": "Material Emoji",
             "body": [],
             "color": [],
             "slot": [],
@@ -157345,6 +159161,18 @@ var NYX_DB = {
             "nameMissing": false
           },
           {
+            "id": "258541",
+            "name": "Random Try-On Cape: Manekin Cosmetic",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_ItemIcon_BydBox_4.webp",
+            "rank": "4",
+            "type": "Material Type Drop Extra Chest",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
             "id": "258505",
             "name": "Random Try-On Cape: Manekina Cosmetic",
             "kind": "Inventory Item",
@@ -157418,6 +159246,18 @@ var NYX_DB = {
           },
           {
             "id": "258535",
+            "name": "Random Try-On Cape: Manekina Cosmetic",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_ItemIcon_BydBox_4.webp",
+            "rank": "4",
+            "type": "Material Type Drop Extra Chest",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "258540",
             "name": "Random Try-On Cape: Manekina Cosmetic",
             "kind": "Inventory Item",
             "art": "../../Database/GameData/gi/beyond/assets/UI_ItemIcon_BydBox_4.webp",
@@ -157609,6 +159449,20 @@ var NYX_DB = {
             "color": [],
             "slot": [],
             "nameMissing": false
+          },
+          {
+            "id": "275392",
+            "name": "Set Catalog - \"Crowned by the Breeze\"",
+            "kind": "Inventory Item",
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "rank": "4",
+            "type": "Material Costume Drawing",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false,
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "275024",
@@ -158145,6 +159999,30 @@ var NYX_DB = {
             "nameMissing": false
           },
           {
+            "id": "257041",
+            "name": "Try-On Cape: Cloudbound Flight",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0001.webp",
+            "rank": "4",
+            "type": "Material Trial Costume Suit",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "257042",
+            "name": "Try-On Cape: Cloudbound Journey",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0001.webp",
+            "rank": "4",
+            "type": "Material Trial Costume Suit",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
             "id": "257027",
             "name": "Try-On Cape: Comedy Performance",
             "kind": "Inventory Item",
@@ -158257,6 +160135,30 @@ var NYX_DB = {
             "name": "Try-On Cape: Invigorating Chill",
             "kind": "Inventory Item",
             "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0191.webp",
+            "rank": "4",
+            "type": "Material Trial Costume Suit",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "257043",
+            "name": "Try-On Cape: Letter Crane Courier",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0168.webp",
+            "rank": "4",
+            "type": "Material Trial Costume Suit",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "257044",
+            "name": "Try-On Cape: Letter Crane Courier",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0168.webp",
             "rank": "4",
             "type": "Material Trial Costume Suit",
             "body": [],
@@ -175306,20 +177208,20 @@ var NYX_DB = {
           "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
-          "phase": "3.1 Phase 1",
+          "phase": "3.1 Phase 2",
           "start": "2026-07-29T03:00:00.000Z",
           "end": "2026-09-08T06:59:59.000Z",
           "characters": [
             {
-              "name": "Aria",
-              "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle57.webp",
+              "name": "Remielle",
+              "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle67.webp",
               "iconFallback": null,
               "iconZoom": false,
-              "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole57.webp",
+              "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole67.webp",
               "namecard": null,
               "rarity": "S",
-              "debut": false,
-              "debutAt": "2026-03-04"
+              "debut": true,
+              "debutAt": "2026-07-29"
             },
             {
               "name": "Piper",
@@ -175343,25 +177245,6 @@ var NYX_DB = {
               "debut": false,
               "debutAt": "2024-09-04"
             },
-            {
-              "name": "Remielle",
-              "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle67.webp",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole67.webp",
-              "namecard": null,
-              "rarity": "S",
-              "debut": true,
-              "debutAt": "2026-07-29"
-            }
-          ],
-          "subBanners": []
-        },
-        "next": {
-          "phase": "3.1 Phase 2",
-          "start": "2026-08-19T04:00:00.000Z",
-          "end": "2026-09-08T06:59:59.000Z",
-          "characters": [
             {
               "name": "Dialyn",
               "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle54.webp",
@@ -175405,6 +177288,26 @@ var NYX_DB = {
               "rarity": "S",
               "debut": true,
               "debutAt": "2026-08-19"
+            }
+          ],
+          "subBanners": []
+        },
+        "next": {
+          "phase": null,
+          "teased": false,
+          "start": "2026-08-19T10:00:00.000Z",
+          "end": "2026-09-08T10:00:00.000Z",
+          "characters": [
+            {
+              "name": "Sigrid",
+              "icon": "../../Database/Prydwen/zzz/assets/characters/sigrid-30ecebbe136b.webp",
+              "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect66.webp",
+              "iconZoom": true,
+              "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole66.webp",
+              "namecard": null,
+              "rarity": "S",
+              "debut": true,
+              "debutAt": null
             }
           ],
           "subBanners": []

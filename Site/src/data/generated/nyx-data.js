@@ -4,7 +4,7 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-08-19T09:41:13.840Z",
+  "generatedAt": "2026-08-19T10:04:28.800Z",
   "codes": {
     "updated": "2026-08-18T00:40:57.915Z",
     "maxAgeDays": 28,
@@ -1381,26 +1381,7 @@ var NYX_DB = {
           ],
           "subBanners": []
         },
-        "next": {
-          "phase": null,
-          "teased": false,
-          "start": "2026-08-19T10:00:00.000Z",
-          "end": "2026-09-08T10:00:00.000Z",
-          "characters": [
-            {
-              "name": "Sigrid",
-              "icon": "../../Database/Prydwen/zzz/assets/characters/sigrid-30ecebbe136b.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect66.webp",
-              "iconZoom": true,
-              "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole66.webp",
-              "namecard": null,
-              "rarity": "S",
-              "debut": true,
-              "debutAt": null
-            }
-          ],
-          "subBanners": []
-        },
+        "next": null,
         "upcoming": [],
         "beta": [
           {
@@ -177292,26 +177273,7 @@ var NYX_DB = {
           ],
           "subBanners": []
         },
-        "next": {
-          "phase": null,
-          "teased": false,
-          "start": "2026-08-19T10:00:00.000Z",
-          "end": "2026-09-08T10:00:00.000Z",
-          "characters": [
-            {
-              "name": "Sigrid",
-              "icon": "../../Database/Prydwen/zzz/assets/characters/sigrid-30ecebbe136b.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect66.webp",
-              "iconZoom": true,
-              "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole66.webp",
-              "namecard": null,
-              "rarity": "S",
-              "debut": true,
-              "debutAt": null
-            }
-          ],
-          "subBanners": []
-        },
+        "next": null,
         "upcoming": [],
         "beta": [
           {

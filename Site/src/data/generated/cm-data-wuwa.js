@@ -16629,7 +16629,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -18966,7 +18966,7 @@
               {
                 "name": "Let the Azure Keep Its Light",
                 "type": "Sequence 6",
-                "desc": "After Yangyang: Xuanling inflicts Havoc Bane on a target, gain Voice Flux for {0}s. While Voice Flux is active, the Heavy Attack DMG from Yangyang: Xuanling is increased by {1}.\n\nCasting Resonance Skill - Sword Stance Flow: Azure or Resonance Skill - Sword Stance Flow: Feather grants Still as Withered Wood for {2}s. While Still as Withered Wood is active, if Yangyang: Xuanling is on the field, then after nearby Resonators in the team inflict Glacio Chafe, Fusion Burst, Electro Flare, Aero Erosion, Spectro Frazzle, or Havoc Bane, Yangyang: Xuanling summons Shadow of Xuanling: Still as Withered Wood to attack the target, dealing Havoc DMG equal to {3} of Yangyang: Xuanling's ATK. The DMG of Shadow of Xuanling: Still as Withered Wood is considered Heavy Attack DMG and is guaranteed to be a critical hit.\n\nShadow of Xuanling: Still as Withered Wood can be summoned once every {4}s, and Still as Withered Wood expires after it is summoned {5} times. When Still as Withered Wood expires or is removed, reset the available summon charges of Shadow of Xuanling: Still as Withered Wood. Still as Withered Wood has a Cooldown of {6}s.",
+                "desc": "After Yangyang: Xuanling inflicts Havoc Bane on a target, gain Voice Flux for {0}s. While Voice Flux is active, targets take {1} more Heavy Attack DMG from Yangyang: Xuanling.\n\nCasting Resonance Skill - Sword Stance Flow: Azure or Resonance Skill - Sword Stance Flow: Feather grants Still as Withered Wood for {2}s. While Still as Withered Wood is active, if Yangyang: Xuanling is on the field, then after nearby Resonators in the team inflict Glacio Chafe, Fusion Burst, Electro Flare, Aero Erosion, Spectro Frazzle, or Havoc Bane, Yangyang: Xuanling summons Shadow of Xuanling: Still as Withered Wood to attack the target, dealing Havoc DMG equal to {3} of Yangyang: Xuanling's ATK. The DMG of Shadow of Xuanling: Still as Withered Wood is considered Heavy Attack DMG and is guaranteed to be a critical hit.\n\nShadow of Xuanling: Still as Withered Wood can be summoned once every {4}s, and Still as Withered Wood expires after it is summoned {5} times. When Still as Withered Wood expires or is removed, reset the available summon charges of Shadow of Xuanling: Still as Withered Wood. Still as Withered Wood has a Cooldown of {6}s.",
                 "descFormat": [
                   {
                     "start": 34,
@@ -18987,116 +18987,116 @@
                     "tone": "spectro"
                   },
                   {
-                    "start": 187,
-                    "end": 229,
+                    "start": 185,
+                    "end": 227,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 233,
-                    "end": 277,
+                    "start": 231,
+                    "end": 275,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 285,
-                    "end": 307,
+                    "start": 283,
+                    "end": 305,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 324,
-                    "end": 346,
+                    "start": 322,
+                    "end": 344,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 446,
-                    "end": 458,
+                    "start": 444,
+                    "end": 456,
                     "kind": "tone",
                     "tone": "cryo"
                   },
                   {
-                    "start": 460,
-                    "end": 472,
+                    "start": 458,
+                    "end": 470,
                     "kind": "tone",
                     "tone": "pyro"
                   },
                   {
-                    "start": 474,
-                    "end": 487,
+                    "start": 472,
+                    "end": 485,
                     "kind": "tone",
                     "tone": "electro"
                   },
                   {
-                    "start": 489,
-                    "end": 501,
+                    "start": 487,
+                    "end": 499,
                     "kind": "tone",
                     "tone": "anemo"
                   },
                   {
-                    "start": 503,
-                    "end": 518,
+                    "start": 501,
+                    "end": 516,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 523,
-                    "end": 533,
+                    "start": 521,
+                    "end": 531,
                     "kind": "tone",
                     "tone": "havoc"
                   },
                   {
-                    "start": 562,
-                    "end": 604,
+                    "start": 560,
+                    "end": 602,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 635,
-                    "end": 644,
+                    "start": 633,
+                    "end": 642,
                     "kind": "tone",
                     "tone": "havoc"
                   },
                   {
-                    "start": 698,
-                    "end": 740,
+                    "start": 696,
+                    "end": 738,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 755,
-                    "end": 771,
+                    "start": 753,
+                    "end": 769,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 813,
-                    "end": 855,
+                    "start": 811,
+                    "end": 853,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 893,
-                    "end": 915,
+                    "start": 891,
+                    "end": 913,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 961,
-                    "end": 983,
+                    "start": 959,
+                    "end": 981,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 1045,
-                    "end": 1087,
+                    "start": 1043,
+                    "end": 1085,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 1089,
-                    "end": 1111,
+                    "start": 1087,
+                    "end": 1109,
                     "kind": "tone",
                     "tone": "spectro"
                   }
@@ -19946,7 +19946,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -22807,7 +22807,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -25613,7 +25613,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -27668,7 +27668,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -29789,7 +29789,7 @@
           "kit": {
             "source": "Game data",
             "channel": "live",
-            "version": "3.6",
+            "version": "3.6+365",
             "sections": [
               {
                 "title": "Skills",
@@ -31909,7 +31909,7 @@
           "kit": {
             "source": "Game data",
             "channel": "live",
-            "version": "3.6",
+            "version": "3.6+365",
             "sections": [
               {
                 "title": "Skills",
@@ -34231,7 +34231,7 @@
           "kit": {
             "source": "Game data",
             "channel": "live",
-            "version": "3.6",
+            "version": "3.6+365",
             "sections": [
               {
                 "title": "Skills",
@@ -36473,7 +36473,7 @@
           "kit": {
             "source": "Game data",
             "channel": "live",
-            "version": "3.6",
+            "version": "3.6+365",
             "sections": [
               {
                 "title": "Skills",
@@ -39436,7 +39436,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -42173,7 +42173,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -44357,7 +44357,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -46511,7 +46511,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -50334,7 +50334,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -53131,7 +53131,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -56405,7 +56405,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -59885,7 +59885,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -62701,7 +62701,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -65070,7 +65070,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -67477,7 +67477,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -69824,7 +69824,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -71960,8 +71960,16 @@
         "ko": "\uccad\ucd08"
       },
       "slug": "qingxiao",
+      "release": 1787184000000,
+      "releasePatch": "3.6",
       "updated": 1784246400000,
       "sourceOrder": 1413,
+      "voiceActors": {
+        "english": "imdb:nm2830835|Kirsty Rider",
+        "japanese": "Hitomi Nabatame|Nabatame Hitomi (ja=\u751f\u5929\u76ee \u4ec1\u7f8e)",
+        "chinese": "https://zh.moegirl.org.cn/\u59dc\u8d3a|Jiang He (zh=\u59dc\u8d3a)",
+        "korean": "https://namu.wiki/w/\ubc15\ub9ac\ub098|Park Ri-na (ko=\ubc15\ub9ac\ub098)"
+      },
       "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_73_UI.webp",
       "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleQingxiao.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/qingxiao-4f6ce581004d.webp",
@@ -72065,7 +72073,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -73038,7 +73046,7 @@
               {
                 "name": "Formless Heart Sword",
                 "type": "Forte Circuit",
-                "desc": "Ephemeral Transcendence\nWhile Qingxiao is in the Ephemeral Transcendence state, Basic Attack - Ephemeral Transcendence and Dodge Counter - Ephemeral Transcendence become available.\n\nBasic Attack - Ephemeral Transcendence\n repeatedly or hold Normal Attack to perform up to 4 consecutive attacks, dealing Aero DMG.\nBefore Heavy Attack - Heaven's Reckoning: Ephemeral Transcendence becomes available, this skill's DMG Multiplier is increased by {0}.\nCan be cast in mid-air.\n\nDodge Counter - Ephemeral Transcendence\n or hold Normal Attack within a certain time after a successful Dodge to attack the target, dealing Aero DMG.\nBefore Heavy Attack - Heaven's Reckoning: Ephemeral Transcendence becomes available, this skill's DMG Multiplier is increased by {0}.\nCan be cast in mid-air.\n\nHeavy Attack - Heaven's Reckoning: Ephemeral Transcendence\nWhen Heart Sword Intent is full, Heavy Attack - Heaven's Reckoning: Ephemeral Transcendence becomes available. Hold Normal Attack to cast the skill, dealing Aero DMG.\nCasting this skill consumes all Heart Sword Intent and ends the Ephemeral Transcendence state.\n\nMindlock\nMindlock stacks up to {1} times.\nEach time when a Resonator in the team inflicts Tune Strain - Interfered on a target, inflict {2} {Cus:Sap,S=stack P=stacks SapTag=2} of Mindlock on the target.\nFor each stack of Mindlock on the target, DMG taken from Qingxiao's following skills is Amplified by {3}, with an additional {5} per stack for the first {4} {Cus:Sap,S=stack P=stacks SapTag=4}.\n- Heavy Attack - Stringblade, Basic Attack - Ephemeral Transcendence, Dodge Counter - Ephemeral Transcendence, Heavy Attack - Heaven's Reckoning: Ephemeral Transcendence, Resonance Liberation - Billows Beneath Heaven.\n\nHeaven's Clarity\nUpon entering combat or casting Resonance Liberation Billows Beneath Heaven, gain Heaven's Clarity.\nWhen Sheathed Stance/Drawn Stance moves deal damage, the rates at which Qin Heart/Sword Cadence are obtained increase by {16}.\nWhen casting Heavy Attack - Stringblade, inflict {6} {Cus:Sap,S=stack P=stacks SapTag=6} of Mindlock on nearby targets, and enhance the next Heavy Attack - Heaven's Reckoning: Ephemeral Transcendence: its DMG Multiplier is increased by {7} and it builds additional Off-Tune Level on the target. Switching to another Resonator ends the Heavy Attack - Heaven's Reckoning: Ephemeral Transcendence enhancement.\nCasting Heavy Attack - Heaven's Reckoning: Ephemeral Transcendence removes Heaven's Clarity.\n\nSwordlight Ward\nCasting Intro Skill - Tonality Shift or Heavy Attack - Stringblade grants {8} {Cus:Sap,S=stack P=stacks SapTag=8} of Swo",
+                "desc": "Ephemeral Transcendence\nWhile Qingxiao is in the Ephemeral Transcendence state, Basic Attack - Ephemeral Transcendence and Dodge Counter - Ephemeral Transcendence become available.\n\nBasic Attack - Ephemeral Transcendence\n repeatedly or hold Normal Attack to perform up to 4 consecutive attacks, dealing Aero DMG.\nBefore Heavy Attack - Heaven's Reckoning: Ephemeral Transcendence becomes available, this skill's DMG Multiplier is increased by {0}.\nCan be cast in mid-air.\n\nDodge Counter - Ephemeral Transcendence\n or hold Normal Attack within a certain time after a successful Dodge to attack the target, dealing Aero DMG.\nBefore Heavy Attack - Heaven's Reckoning: Ephemeral Transcendence becomes available, this skill's DMG Multiplier is increased by {0}.\nCan be cast in mid-air.\n\nHeavy Attack - Heaven's Reckoning: Ephemeral Transcendence\nWhen Heart Sword Intent is full, Heavy Attack - Heaven's Reckoning: Ephemeral Transcendence becomes available. Hold Normal Attack to cast the skill, dealing Aero DMG.\nCasting this skill consumes all Heart Sword Intent and ends the Ephemeral Transcendence state.\n\nMindlock\nMindlock stacks up to {1} times.\nEach time a Resonator in the team inflicts Tune Strain - Interfered on a target, inflict {2} {Cus:Sap,S=stack P=stacks SapTag=2} of Mindlock on the target.\nFor each stack of Mindlock on the target, DMG taken from Qingxiao's following skills is Amplified by {3}, with an additional {5} per stack for the first {4} {Cus:Sap,S=stack P=stacks SapTag=4}.\n- Heavy Attack - Stringblade, Basic Attack - Ephemeral Transcendence, Dodge Counter - Ephemeral Transcendence, Heavy Attack - Heaven's Reckoning: Ephemeral Transcendence, Resonance Liberation - Billows Beneath Heaven.\n\nHeaven's Clarity\nUpon entering combat or casting Resonance Liberation Billows Beneath Heaven, gain Heaven's Clarity.\nWhen Sheathed Stance/Drawn Stance skills deal damage, the rates at which Qin Heart/Sword Cadence are obtained increase by {16}.\nWhen casting Heavy Attack - Stringblade, inflict {6} {Cus:Sap,S=stack P=stacks SapTag=6} of Mindlock on nearby targets, and enhance the next Heavy Attack - Heaven's Reckoning: Ephemeral Transcendence: its DMG Multiplier is increased by {7} and it builds additional Off-Tune Level on the target. Switching to another Resonator ends the Heavy Attack - Heaven's Reckoning: Ephemeral Transcendence enhancement.\nCasting Heavy Attack - Heaven's Reckoning: Ephemeral Transcendence removes Heaven's Clarity.\n\nSwordlight Ward\nCasting Intro Skill - Tonality Shift or Heavy Attack - Stringblade grants {8} {Cus:Sap,S=stack P=stacks SapTag=8} of Swordli",
                 "descFormat": [
                   {
                     "start": 0,
@@ -73167,151 +73175,151 @@
                     "tone": "spectro"
                   },
                   {
-                    "start": 1193,
-                    "end": 1217,
+                    "start": 1188,
+                    "end": 1212,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 1282,
-                    "end": 1290,
+                    "start": 1277,
+                    "end": 1285,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 1324,
-                    "end": 1332,
+                    "start": 1319,
+                    "end": 1327,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 1502,
-                    "end": 1528,
+                    "start": 1497,
+                    "end": 1523,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 1530,
-                    "end": 1568,
+                    "start": 1525,
+                    "end": 1563,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 1570,
-                    "end": 1609,
+                    "start": 1565,
+                    "end": 1604,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 1611,
-                    "end": 1669,
+                    "start": 1606,
+                    "end": 1664,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 1671,
-                    "end": 1716,
+                    "start": 1666,
+                    "end": 1711,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 1719,
-                    "end": 1735,
+                    "start": 1714,
+                    "end": 1730,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 1789,
-                    "end": 1811,
+                    "start": 1784,
+                    "end": 1806,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 1818,
-                    "end": 1834,
+                    "start": 1813,
+                    "end": 1829,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 1841,
-                    "end": 1856,
+                    "start": 1836,
+                    "end": 1851,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 1857,
-                    "end": 1869,
+                    "start": 1852,
+                    "end": 1864,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 1908,
-                    "end": 1917,
+                    "start": 1904,
+                    "end": 1913,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 1918,
-                    "end": 1931,
+                    "start": 1914,
+                    "end": 1927,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 1976,
-                    "end": 2002,
+                    "start": 1972,
+                    "end": 1998,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 2055,
-                    "end": 2063,
+                    "start": 2051,
+                    "end": 2059,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 2104,
-                    "end": 2162,
+                    "start": 2100,
+                    "end": 2158,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 2298,
-                    "end": 2356,
+                    "start": 2294,
+                    "end": 2352,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 2378,
-                    "end": 2436,
+                    "start": 2374,
+                    "end": 2432,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 2445,
-                    "end": 2461,
+                    "start": 2441,
+                    "end": 2457,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 2464,
-                    "end": 2479,
+                    "start": 2460,
+                    "end": 2475,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 2488,
-                    "end": 2516,
+                    "start": 2484,
+                    "end": 2512,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 2520,
-                    "end": 2546,
+                    "start": 2516,
+                    "end": 2542,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 2597,
+                    "start": 2593,
                     "end": 2600,
                     "kind": "tone",
                     "tone": "spectro"
@@ -73551,7 +73559,7 @@
               {
                 "name": "Tonality Shift",
                 "type": "Intro Skill",
-                "desc": "Deal Aero DMG. Upon casting, gain {0} {Cus:Sap,S=point P=points SapTag=0} of Sword Cadence and gain Resonant Chime.\n\nResonant Chime\nCasting Resonance Skill - Severing Note: Judgement grants {1} {Cus:Sap,S=point P=points SapTag=1} of Qin Heart and removes Resonant Chime.",
+                "desc": "Deal Aero DMG. Casting the skill restores {0} {Cus:Sap,S=point P=points SapTag=0} of Sword Cadence and grants Resonant Chime.\n\nResonant Chime\nCasting Resonance Skill - Severing Note: Judgement grants {1} {Cus:Sap,S=point P=points SapTag=1} of Qin Heart and removes Resonant Chime.",
                 "descFormat": [
                   {
                     "start": 5,
@@ -73560,38 +73568,38 @@
                     "tone": "anemo"
                   },
                   {
-                    "start": 77,
-                    "end": 90,
+                    "start": 85,
+                    "end": 98,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 100,
-                    "end": 114,
+                    "start": 110,
+                    "end": 124,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 117,
-                    "end": 131,
+                    "start": 127,
+                    "end": 141,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 140,
-                    "end": 182,
+                    "start": 150,
+                    "end": 192,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 233,
-                    "end": 242,
+                    "start": 243,
+                    "end": 252,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 255,
-                    "end": 269,
+                    "start": 265,
+                    "end": 279,
                     "kind": "tone",
                     "tone": "spectro"
                   }
@@ -73911,7 +73919,7 @@
               {
                 "name": "Like Clouds That Meet and Drift Apart",
                 "type": "Sequence 1",
-                "desc": "Crit. Rate is increased by {0}.\n\nThe max stack limit of Swordlight Ward is increased to {1}. Casting Heavy Attack - Stringblade additionally grants {2} {Cus:Sap,S=stack P=stacks SapTag=2} of Swordlight Ward.\n\nUpon entering combat, gain {3} {Cus:Sap,S=stack P=stacks SapTag=3} of Exorcising Seal.\nAfter Basic Attack - Stringblade, Mid-air Attack - Stringblade, or Basic Attack - Ephemeral Transcendence deals damage, if Qingxiao has Exorcising Seal, remove Exorcising Seal and trigger Juque Perdition, dealing Aero DMG equal to {4} of Qingxiao's ATK, considered Basic Attack DMG. This effect can be triggered up to once per second. For each stack of Exorcising Seal removed, the target takes {5} more DMG from Juque Perdition for {6}s.\nExorcising Seal stacks up to {7} times.",
+                "desc": "Crit. Rate is increased by {0}.\n\nThe max stack limit of Swordlight Ward is increased to {1}. Casting Heavy Attack - Stringblade additionally grants {2} {Cus:Sap,S=stack P=stacks SapTag=2} of Swordlight Ward.\n\nUpon entering combat, gain {3} {Cus:Sap,S=stack P=stacks SapTag=3} of Exorcising Seal.\nAfter Basic Attack - Stringblade, Mid-air Attack - Stringblade, or Basic Attack - Ephemeral Transcendence deals damage, if Qingxiao has Exorcising Seal, remove all Exorcising Seal stacks and trigger Juque Perdition, dealing Aero DMG equal to {4} of Qingxiao's ATK, considered Basic Attack DMG. This effect can be triggered up to once per second. For each stack of Exorcising Seal removed, the target takes {5} more DMG from Juque Perdition for {6}s.\nExorcising Seal stacks up to {7} times.",
                 "descFormat": [
                   {
                     "start": 56,
@@ -73962,38 +73970,38 @@
                     "tone": "spectro"
                   },
                   {
-                    "start": 456,
-                    "end": 471,
+                    "start": 460,
+                    "end": 475,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 484,
-                    "end": 499,
+                    "start": 495,
+                    "end": 510,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 509,
-                    "end": 517,
+                    "start": 520,
+                    "end": 528,
                     "kind": "tone",
                     "tone": "anemo"
                   },
                   {
-                    "start": 649,
-                    "end": 664,
+                    "start": 660,
+                    "end": 675,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 709,
-                    "end": 724,
+                    "start": 720,
+                    "end": 735,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 735,
-                    "end": 750,
+                    "start": 746,
+                    "end": 761,
                     "kind": "tone",
                     "tone": "spectro"
                   }
@@ -74958,7 +74966,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -77840,7 +77848,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -80120,7 +80128,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -83200,7 +83208,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -86854,7 +86862,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -89046,7 +89054,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -91626,7 +91634,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -93842,7 +93850,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -95767,7 +95775,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -97700,7 +97708,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -101087,7 +101095,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -103480,7 +103488,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -106485,7 +106493,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -108895,7 +108903,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -111339,7 +111347,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -113722,7 +113730,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -115932,7 +115940,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -118205,8 +118213,14 @@
         "ko": "\uacbd\uc5f0"
       },
       "slug": "jingran",
+      "releasePatch": "3.6",
       "updated": 1784246400000,
       "sourceOrder": 1212,
+      "voiceActors": {
+        "japanese": "Kengo Kawanishi|Kawanishi Kengo (ja=\u6cb3\u897f \u5065\u543e)",
+        "chinese": "|voiceJP = Kengo Kawanishi|Kawanishi Kengo (ja=\u6cb3\u897f \u5065\u543e)",
+        "korean": "}}"
+      },
       "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_74_UI.webp",
       "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleJingran.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/jingran-0e6d2cc79ad5.webp",
@@ -118310,7 +118324,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -118318,7 +118332,7 @@
               {
                 "name": "Edge of Life and Death",
                 "type": "Normal Attack",
-                "desc": "Basic Attack - Drink Soul\nWhile in the Yin Vessel state, perform up to 4 consecutive attacks, dealing Fusion DMG.\nCasting Basic Attack - Drink Soul Stage 3 restores {0} {Cus:Sap,S=point P=points SapTag=0} of Qi, dealing Heavy Attack DMG.\nCasting Basic Attack - Drink Soul Stage 4 restores {1} {Cus:Sap,S=point P=points SapTag=1} of Qi, dealing Heavy Attack DMG.\n\nBasic Attack - Devil's Bane\nWhile in the Yang Font state, perform up to 4 consecutive attacks, dealing Fusion DMG.\nCasting Basic Attack - Devil's Bane Stage 3 restores {2} {Cus:Sap,S=point P=points SapTag=2} of Qi, dealing Heavy Attack DMG.\nCasting Basic Attack - Devil's Bane Stage 4 restores {3} {Cus:Sap,S=point P=points SapTag=3} of Qi, dealing Heavy Attack DMG.\n\nMid-air Attack\nConsume STA to perform a Plunging Attack in the air, dealing Fusion DMG.\nWhile in the Yin Vessel state, or hold Normal Attack shortly after casting this skill to cast Basic Attack - Drink Soul Stage 2.\nWhile in the Yang Font state, or hold Normal Attack shortly after casting this skill to cast Basic Attack - Devil's Bane Stage 2.\n\nDodge Counter - Nether Dive\nWhile in the Yin Vessel state, Normal Attack shortly after a successful Dodge to attack the target, dealing Fusion DMG.\nCasting Dodge Counter - Nether Dive restores {4} {Cus:Sap,S=point P=points SapTag=4} of Qi, dealing Heavy Attack DMG.\n Normal Attack shortly after casting this skill to cast Basic Attack - Drink Soul Stage 4.\n\nDodge Counter - Light Watch\nWhile in the Yang Font state, Normal Attack shortly after a successful Dodge to attack the target, dealing Fusion DMG.\nCasting Dodge Counter - Light Watch restores {5} {Cus:Sap,S=point P=points SapTag=5} of Qi, dealing Heavy Attack DMG.\n Normal Attack shortly after casting this skill to cast Basic Attack - Devil's Bane Stage 4.\n\nShadow Step\nWhile in combat and on the ground, Dodge with directional input to cast Shadow Step, dealing fix amount of Fusion DMG, considered Basic Attack DMG. This instance of damage is not affect by any DMG Bonus effects. Successful Dodge may be triggered within a certain time into the action of this skill.\nWhile in the Yin Vessel state, Normal Attack shortly after casting this skill to cast Basic Attack - Drink Soul Stage 2.\nWhile in the Yang Font state, Normal Attack shortly after casting this skill to cast Basic Attack - Devil's Bane Stage 2.",
+                "desc": "Basic Attack - Drink Soul\nWhile in the Yin Vessel state, perform up to 4 consecutive attacks, dealing Fusion DMG.\nCasting Basic Attack - Drink Soul Stage 3 restores {0} {Cus:Sap,S=point P=points SapTag=0} of Qi, dealing Heavy Attack DMG.\nCasting Basic Attack - Drink Soul Stage 4 restores {1} {Cus:Sap,S=point P=points SapTag=1} of Qi, dealing Heavy Attack DMG.\n\nBasic Attack - Devil's Bane\nWhile in the Yang Font state, perform up to 4 consecutive attacks, dealing Fusion DMG.\nCasting Basic Attack - Devil's Bane Stage 3 restores {2} {Cus:Sap,S=point P=points SapTag=2} of Qi, dealing Heavy Attack DMG.\nCasting Basic Attack - Devil's Bane Stage 4 restores {3} {Cus:Sap,S=point P=points SapTag=3} of Qi, dealing Heavy Attack DMG.\n\nMid-air Attack\nConsume STA to perform a Plunging Attack in the air, dealing Fusion DMG.\nWhile in the Yin Vessel state, or hold Normal Attack shortly after casting this skill to cast Basic Attack - Drink Soul Stage 2.\nWhile in the Yang Font state, or hold Normal Attack shortly after casting this skill to cast Basic Attack - Devil's Bane Stage 2.\n\nDodge Counter - Nether Dive\nWhile in the Yin Vessel state, or hold Normal Attack shortly after a successful Dodge to attack the target, dealing Fusion DMG.\nCasting Dodge Counter - Nether Dive restores {4} {Cus:Sap,S=point P=points SapTag=4} of Qi, dealing Heavy Attack DMG.\n or hold Normal Attack shortly after casting this skill to cast Basic Attack - Drink Soul Stage 4.\n\nDodge Counter - Light Watch\nWhile in the Yang Font state, or hold Normal Attack shortly after a successful Dodge to attack the target, dealing Fusion DMG.\nCasting Dodge Counter - Light Watch restores {5} {Cus:Sap,S=point P=points SapTag=5} of Qi, dealing Heavy Attack DMG.\n or hold Normal Attack shortly after casting this skill to cast Basic Attack - Devil's Bane Stage 4.\n\nShadow Step\nWhile in combat and on the ground, Dodge with directional input to cast Shadow Step, dealing a fixed amount of Fusion DMG, considered Basic Attack DMG. This instance of damage is not affected by any DMG Bonus effects. A successful Dodge may be triggered within a certain time during the action of this skill.\nWhile in the Yin Vessel state, or hold Normal Attack shortly after casting this skill to cast Basic Attack - Drink Soul Stage 2.\nWhile in the Yang Font state, or hold Normal Attack shortly after casting this skill to cast Basic Attack - Devil's Bane Stage 2.",
                 "descFormat": [
                   {
                     "start": 0,
@@ -118465,146 +118479,146 @@
                     "tone": "spectro"
                   },
                   {
-                    "start": 1138,
-                    "end": 1151,
+                    "start": 1146,
+                    "end": 1159,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 1215,
-                    "end": 1225,
+                    "start": 1223,
+                    "end": 1233,
                     "kind": "tone",
                     "tone": "pyro"
                   },
                   {
-                    "start": 1235,
-                    "end": 1262,
+                    "start": 1243,
+                    "end": 1270,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 1315,
-                    "end": 1317,
+                    "start": 1323,
+                    "end": 1325,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 1346,
-                    "end": 1359,
+                    "start": 1362,
+                    "end": 1375,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 1401,
-                    "end": 1434,
+                    "start": 1417,
+                    "end": 1450,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 1437,
-                    "end": 1464,
+                    "start": 1453,
+                    "end": 1480,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 1478,
-                    "end": 1487,
+                    "start": 1494,
+                    "end": 1503,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 1495,
-                    "end": 1508,
+                    "start": 1519,
+                    "end": 1532,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 1572,
-                    "end": 1582,
+                    "start": 1596,
+                    "end": 1606,
                     "kind": "tone",
                     "tone": "pyro"
                   },
                   {
-                    "start": 1592,
-                    "end": 1619,
+                    "start": 1616,
+                    "end": 1643,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 1672,
-                    "end": 1674,
+                    "start": 1696,
+                    "end": 1698,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 1703,
-                    "end": 1716,
+                    "start": 1735,
+                    "end": 1748,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 1758,
-                    "end": 1793,
+                    "start": 1790,
+                    "end": 1825,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 1796,
-                    "end": 1807,
+                    "start": 1828,
+                    "end": 1839,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 1843,
-                    "end": 1848,
+                    "start": 1874,
+                    "end": 1880,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 1880,
-                    "end": 1891,
+                    "start": 1912,
+                    "end": 1923,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 1915,
-                    "end": 1925,
+                    "start": 1951,
+                    "end": 1961,
                     "kind": "tone",
                     "tone": "pyro"
                   },
                   {
-                    "start": 2120,
-                    "end": 2130,
+                    "start": 2162,
+                    "end": 2172,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 2138,
-                    "end": 2151,
+                    "start": 2188,
+                    "end": 2201,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 2193,
-                    "end": 2226,
+                    "start": 2243,
+                    "end": 2276,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 2241,
-                    "end": 2250,
+                    "start": 2291,
+                    "end": 2300,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 2258,
-                    "end": 2271,
+                    "start": 2316,
+                    "end": 2329,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 2313,
-                    "end": 2348,
+                    "start": 2371,
+                    "end": 2406,
                     "kind": "tone",
                     "tone": "spectro"
                   }
@@ -118993,7 +119007,7 @@
               {
                 "name": "Malevolent Encounter",
                 "type": "Resonance Skill",
-                "desc": "Resonance Skill - Encroaching Yin\nWhile in the Yin Vessel state, Resonance Skill - Encroaching Yin is available, which deals Fusion DMG.\nResonance Skill - Encroaching Yin can be cast in mid-air.\n\nResonance Skill - Scorching Yang\nWhile in the Yang Font state, Resonance Skill - Scorching Yang is available, which deals Fusion DMG.\nResonance Skill - Scorching Yang can be cast in mid-air.\n\nCleanse of Impurity\nCasting Resonance Skill - Encroaching Yin or Resonance Skill - Scorching Yang grants Cleanse of Impurity for {0}s or until one of the following conditions is met:\n- Switching to another Resonator.\n- Switching to the Yin Vessel or Yang Font state.\n- Casting Resonance Skill - Netherworld Traverse or Resonance Skill - Afterlife's Guide.\n\nResonance Skill - Netherworld Traverse\nWhile in the Yin Vessel state with Cleanse of Impurity, or hold Normal Attack in mid-air to cast Resonance Skill - Netherworld Traverse, dealing Fusion DMG, considered Heavy Attack DMG.\nCasting Resonance Skill - Netherworld Traverse, restores {1} {Cus:Sap,S=point P=points SapTag=1} of Qi.\n or hold Normal Attack shortly after casting this skill to cast Basic Attack - Drink Soul Stage 2.\n\nResonance Skill - Afterlife's Guide\nWhile in the Yang Font state with Cleanse of Impurity, or hold Normal Attack in mid-air to cast Resonance Skill - Afterlife's Guide, dealing Fusion DMG, considered Heavy Attack DMG.\n Casting Resonance Skill - Afterlife's Guide restores {2} {Cus:Sap,S=point P=points SapTag=2} of Qi.\n or hold Normal Attack shortly after casting this skill to cast Basic Attack - Devil's Bane Stage 2.",
+                "desc": "Resonance Skill - Encroaching Yin\nWhile in the Yin Vessel state, Resonance Skill - Encroaching Yin is available, which deals Fusion DMG.\nResonance Skill - Encroaching Yin can be cast in mid-air.\n\nResonance Skill - Scorching Yang\nWhile in the Yang Font state, Resonance Skill - Scorching Yang is available, which deals Fusion DMG.\nResonance Skill - Scorching Yang can be cast in mid-air.\n\nCleanse of Impurity\nCasting Resonance Skill - Encroaching Yin or Resonance Skill - Scorching Yang grants Cleanse of Impurity for {0}s or until one of the following conditions is met:\n- Switching to another Resonator.\n- Switching to the Yin Vessel or Yang Font state.\n- Casting Resonance Skill - Netherworld Traverse or Resonance Skill - Afterlife's Guide.\n\nResonance Skill - Netherworld Traverse\nWhile in the Yin Vessel state with Cleanse of Impurity, or hold Normal Attack in mid-air to cast Resonance Skill - Netherworld Traverse, dealing Fusion DMG, considered Heavy Attack DMG.\nCasting Resonance Skill - Netherworld Traverse restores {1} {Cus:Sap,S=point P=points SapTag=1} of Qi.\n or hold Normal Attack shortly after casting this skill to cast Basic Attack - Drink Soul Stage 2.\n\nResonance Skill - Afterlife's Guide\nWhile in the Yang Font state with Cleanse of Impurity, or hold Normal Attack in mid-air to cast Resonance Skill - Afterlife's Guide, dealing Fusion DMG, considered Heavy Attack DMG.\nCasting Resonance Skill - Afterlife's Guide restores {2} {Cus:Sap,S=point P=points SapTag=2} of Qi.\n or hold Normal Attack shortly after casting this skill to cast Basic Attack - Devil's Bane Stage 2.",
                 "descFormat": [
                   {
                     "start": 0,
@@ -119146,80 +119160,80 @@
                     "tone": "spectro"
                   },
                   {
-                    "start": 1070,
-                    "end": 1072,
+                    "start": 1069,
+                    "end": 1071,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 1083,
-                    "end": 1096,
+                    "start": 1082,
+                    "end": 1095,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 1138,
-                    "end": 1171,
+                    "start": 1137,
+                    "end": 1170,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 1174,
-                    "end": 1209,
+                    "start": 1173,
+                    "end": 1208,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 1223,
-                    "end": 1232,
+                    "start": 1222,
+                    "end": 1231,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 1244,
-                    "end": 1263,
+                    "start": 1243,
+                    "end": 1262,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 1273,
-                    "end": 1286,
+                    "start": 1272,
+                    "end": 1285,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 1306,
-                    "end": 1341,
+                    "start": 1305,
+                    "end": 1340,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 1351,
-                    "end": 1361,
+                    "start": 1350,
+                    "end": 1360,
                     "kind": "tone",
                     "tone": "pyro"
                   },
                   {
-                    "start": 1401,
-                    "end": 1436,
+                    "start": 1399,
+                    "end": 1434,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 1489,
-                    "end": 1491,
+                    "start": 1487,
+                    "end": 1489,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 1502,
-                    "end": 1515,
+                    "start": 1500,
+                    "end": 1513,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 1557,
-                    "end": 1592,
+                    "start": 1555,
+                    "end": 1590,
                     "kind": "tone",
                     "tone": "spectro"
                   }
@@ -119408,7 +119422,7 @@
               {
                 "name": "Burial of Thousand Souls",
                 "type": "Resonance Liberation",
-                "desc": "Resonance Liberation - Burial of Thousand Souls can be cast in mid-air close to the ground.\nAttack the target, dealing Fusion DMG, considered Heavy Attack DMG, and granting {0} {Cus:Sap,S=point P=points SapTag=0} of Fire of Life.\nGain the following effects after casting this skill:\n- If Jingran's current HP is above {1} of the Max HP, reduce his current HP to {2} of the Max HP.\n- Gain {3} {Cus:Sap,S=point P=points SapTag=3} of Qi.\n- Gain {4} {Cus:Sap,S=stack P=stacks SapTag=4} of Wayfarer's Mark.\n- Enter the Yinghuo state for {5}s.\n\nWayfarer's Mark\nMax {6} stacks.\nCasting Heavy Attack - Soul Raid or Heavy Attack - Stardome Meander restores {7} {Cus:Sap,S=point P=points SapTag=7} of Qi and reduces {8} {Cus:Sap,S=stack P=stacks SapTag=8} of Wayfarer's Mark. This effect lasts for {9}s.\n\nYinghuo\n- Dealing damage with Heavy Attack - Soul Raid or Heavy Attack - Stardome Meander summons Chimei Wangliang to attack the targets, which deals Fusion DMG, considered Heavy Attack DMG. This effect can be triggered once per Heavy Attack - Soul Raid and Heavy Attack - Stardome Meander.\n- All Fire of Life will be removed as Yinghuo ends.",
+                "desc": "Resonance Liberation - Burial of Thousand Souls can be cast in mid-air close to the ground.\nAttack the target, dealing Fusion DMG, considered Heavy Attack DMG, and granting {0} {Cus:Sap,S=point P=points SapTag=0} of Fire of Life.\nGain the following effects after casting this skill:\n- If Jingran's current HP is above {1} of the Max HP, reduce his current HP to {2} of the Max HP.\n- Gain {3} {Cus:Sap,S=point P=points SapTag=3} of Qi.\n- Gain {4} {Cus:Sap,S=stack P=stacks SapTag=4} of Wayfarer's Mark.\n- Enter the Yinghuo state for {5}s.\n\nWayfarer's Mark\nMax {6} stacks.\nCasting Heavy Attack - Soul Raid or Heavy Attack - Stardome Meander restores {7} {Cus:Sap,S=point P=points SapTag=7} of Qi and reduces {8} {Cus:Sap,S=stack P=stacks SapTag=8} of Wayfarer's Mark. This effect lasts for {9}s.\n\nYinghuo\n- Dealing damage with Heavy Attack - Soul Raid or Heavy Attack - Stardome Meander summons Chimei Wangliang to attack the targets, which deals Fusion DMG, considered Heavy Attack DMG. This effect can be triggered once per Heavy Attack - Soul Raid or Heavy Attack - Stardome Meander.\n- All Fire of Life will be removed as Yinghuo ends.",
                 "descFormat": [
                   {
                     "start": 0,
@@ -119513,20 +119527,20 @@
                     "tone": "spectro"
                   },
                   {
-                    "start": 1053,
-                    "end": 1084,
+                    "start": 1052,
+                    "end": 1083,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 1092,
-                    "end": 1104,
+                    "start": 1091,
+                    "end": 1103,
                     "kind": "tone",
                     "tone": "pyro"
                   },
                   {
-                    "start": 1124,
-                    "end": 1131,
+                    "start": 1123,
+                    "end": 1130,
                     "kind": "tone",
                     "tone": "spectro"
                   }
@@ -120645,7 +120659,7 @@
               {
                 "name": "World's Course Shifts, Each to Their Rightful Paths",
                 "type": "Sequence 3",
-                "desc": "When Jingran casts Heavy Attack - Soul Raid or Heavy Attack - Stardome Meander, gain {0} {Cus:Sap,S=point P=points SapTag=0} of Ghost Shroud.\n\nWhen Jingran casts Resonance Liberation - Burial of Thousand Souls,Yang Changes, Yin Unites is replaced by Yin-Yang Everflow for {1}s.\n\nYin-Yang Everflow\nJingran gains additional ATK based on Max HP: For every {2} {Cus:Sap,S=point P=points SapTag=2} of Jingran's Max HP, gain {3} additional ATK, up to {4}.",
+                "desc": "When Jingran casts Heavy Attack - Soul Raid or Heavy Attack - Stardome Meander, gain {0} {Cus:Sap,S=point P=points SapTag=0} of Ghost Shroud.\n\nWhen Jingran casts Resonance Liberation - Burial of Thousand Souls, Yang Changes, Yin Unites is replaced by Yin-Yang Everflow for {1}s.\n\nYin-Yang Everflow\nJingran gains additional ATK based on Max HP: For every {2} {Cus:Sap,S=point P=points SapTag=2} of Jingran's Max HP, gain {3} additional ATK, up to {4}.",
                 "descFormat": [
                   {
                     "start": 19,
@@ -120672,20 +120686,20 @@
                     "tone": "spectro"
                   },
                   {
-                    "start": 210,
-                    "end": 234,
+                    "start": 211,
+                    "end": 235,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 250,
-                    "end": 267,
+                    "start": 251,
+                    "end": 268,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 279,
-                    "end": 296,
+                    "start": 280,
+                    "end": 297,
                     "kind": "tone",
                     "tone": "accent"
                   }
@@ -121461,7 +121475,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -124693,7 +124707,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -128557,7 +128571,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -131219,7 +131233,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -134481,7 +134495,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -135438,7 +135452,7 @@
               {
                 "name": "Fire-Kissed Glory",
                 "type": "Resonance Liberation",
-                "desc": "Attack the target and deal Fusion DMG. Performing this attack consumes all Wolfaith and restores {0} points of Wolflame. Use Basic Attack or Resonance Skill in time to cast Resonance Skill Foebreaker.\nCan be performed in mid-air close to the ground.\nPerforming this skill strengthens all Resonators in the team. Within {1}s:\n- All Resonators in the team gain Pack Hunt effect.\n- If the active Resonator is hit or launched into the air, they immediately recover and are considered to have successfully dodged the attack when they are on the ground. Can be triggered up to 3 times.\n\nPack Hunt\nResonators with Pack Hunt gain a {2} ATK increase, and {3} Fusion DMG Bonus when they attack Overlord Class or Calamity Class targets (Both are non-stackable). If there are {7} Fusion Resonators in the team, the Fusion DMG Bonus against Overlord Class or Calamity Class targets additionally increases by {8}. When the active Resonator casts Intro Skill, Pack Hunt is enhanced, granting an additional {4} ATK increase to all Resonators in the team, up to a maximum of {5}.\nIf Lupa's Pack Hunt reaches its cap within its duration, she enters Wild Hunt and Intro Skill Nowhere to Run! becomes available. Wild Hunt can be triggered once per Pack Hunt.\n\nResonance Skill - Foebreaker\nConsume all Wolflame to perform Foebreaker, dealing Fusion DMG and entering Burning Matchpoint state.\n\nBurning Matchpoint\nNormal Attacks retore {6} more Wolflame on hit. Cannot perform Resonance Skill Shewolf's Hunt and Resonance Skill Feral Fang in this state.",
+                "desc": "Attack the target and deal Fusion DMG. Performing this attack consumes all Wolfaith and restores {0} points of Wolflame. Use Basic Attack or Resonance Skill in time to cast Resonance Skill Foebreaker.\nCan be performed in mid-air close to the ground.\nPerforming this skill strengthens all Resonators in the team. Within {1}s:\n- All Resonators in the team gain Pack Hunt effect.\n- If the active Resonator is hit or launched into the air, they immediately recover and are considered to have successfully dodged the attack when they are on the ground. Can be triggered up to 3 times.\n\nPack Hunt\nResonators with Pack Hunt gain a {2} ATK increase, and {3} Fusion DMG Bonus when they attack Overlord Class or Calamity Class targets (Both are non-stackable). If there are {7} Fusion Resonators in the team, the Fusion DMG Bonus against Overlord Class or Calamity Class targets additionally increases by {8}. When the active Resonator casts Intro Skill, Pack Hunt is enhanced, granting an additional {4} ATK increase to all Resonators in the team, up to a maximum of {5}.\nIf Lupa's Pack Hunt reaches its cap within its duration, she enters Wild Hunt and Intro Skill Nowhere to Run! becomes available. Wild Hunt can be triggered once per Pack Hunt.\n\nResonance Skill - Foebreaker\nConsume all Wolflame to perform Foebreaker, dealing Fusion DMG and entering Burning Matchpoint state.\n\nBurning Matchpoint\nNormal Attacks restore {6} more Wolflame on hit. Cannot perform Resonance Skill Shewolf's Hunt and Resonance Skill Feral Fang in this state.",
                 "descFormat": [
                   {
                     "start": 27,
@@ -135543,14 +135557,14 @@
                     "tone": "accent"
                   },
                   {
-                    "start": 1470,
-                    "end": 1484,
+                    "start": 1471,
+                    "end": 1485,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 1505,
-                    "end": 1515,
+                    "start": 1506,
+                    "end": 1516,
                     "kind": "tone",
                     "tone": "spectro"
                   }
@@ -137327,7 +137341,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -139928,7 +139942,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -142183,7 +142197,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -144185,7 +144199,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -146539,7 +146553,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -148467,7 +148481,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -151564,7 +151578,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -154606,7 +154620,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -158175,7 +158189,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -160807,7 +160821,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -163234,7 +163248,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -165482,7 +165496,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -167804,7 +167818,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -169815,7 +169829,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",

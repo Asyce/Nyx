@@ -3,13 +3,14 @@
   "game": "ww",
   "gameName": "Wuthering Waves",
   "channel": "live",
-  "version": "3.6",
-  "liveVersion": "3.6",
-  "betaVersion": "3.6",
+  "version": "3.6+365",
+  "liveVersion": "3.6+365",
+  "betaVersion": "3.6+365",
   "availableVersions": [
-    "3.6"
+    "3.6",
+    "3.6+365"
   ],
-  "scrapedAt": "2026-08-18T14:59:51.945Z",
+  "scrapedAt": "2026-08-19T15:02:36.241Z",
   "counts": {
     "characters": 62,
     "weapons": 131,
@@ -111,8 +112,8 @@
   "contentStatus": "All records are Live records from the GameData live manifest version.",
   "assets": {
     "requested": 3025,
-    "downloaded": 53,
-    "cached": 2912,
+    "downloaded": 0,
+    "cached": 2965,
     "missing": 60,
     "missingAssets": [
       {

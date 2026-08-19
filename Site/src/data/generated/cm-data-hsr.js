@@ -99967,7 +99967,8 @@
       "holidayArtPool": [
         "../../Database/HsrWiki/holiday-art/ruanmei/01-Chinese New Year 2024 Ruan Mei.png",
         "../../Database/HsrWiki/holiday-art/ruanmei/02-Valentine's Day 2024 Ruan Mei.png",
-        "../../Database/HsrWiki/holiday-art/ruanmei/03-Chinese New Year 2025.png"
+        "../../Database/HsrWiki/holiday-art/ruanmei/03-Chinese New Year 2025.png",
+        "../../Database/HsrWiki/holiday-art/ruanmei/04-Qixi Festival 2026.png"
       ],
       "signatureLightCone": {
         "id": "23019",

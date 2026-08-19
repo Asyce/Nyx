@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "81e9dd587cb081d5a9c43538cdc3e419969d86a9689004b847fd9ebc77826e0f",
-  "generatedAt": "2026-08-19T10:04:30.434Z",
+  "revision": "a2d7330bf7718cc5e25c582303362b56315eac0ebd16291db725b72011cf8192",
+  "generatedAt": "2026-08-19T15:06:24.286Z",
   "health": {
     "status": "ok",
     "games": {
@@ -43,7 +43,7 @@
         "remaining": {
           "startsAt": "2026-08-12T03:00:00.000Z",
           "endsAt": "2026-09-01T09:59:59.000Z",
-          "durationSeconds": 1122928
+          "durationSeconds": 1104814
         },
         "characters": [
           {
@@ -389,7 +389,7 @@
         "remaining": {
           "startsAt": "2026-08-05T11:00:00.000Z",
           "endsAt": "2026-08-25T14:00:00.000Z",
-          "durationSeconds": 532529
+          "durationSeconds": 514415
         },
         "characters": [
           {
@@ -819,7 +819,7 @@
         "remaining": {
           "startsAt": "2026-07-29T03:00:00.000Z",
           "endsAt": "2026-09-08T06:59:59.000Z",
-          "durationSeconds": 1716928
+          "durationSeconds": 1698814
         },
         "characters": [
           {
@@ -1061,15 +1061,15 @@
     },
     "wuwa": {
       "game": "wuwa",
-      "region": "europe",
+      "region": "america",
       "current": {
         "phase": "3.5",
-        "start": "2026-07-30T09:00:00.000Z",
-        "end": "2026-08-19T10:59:00.000Z",
+        "start": "2026-07-30T15:00:00.000Z",
+        "end": "2026-08-19T16:59:00.000Z",
         "remaining": {
-          "startsAt": "2026-07-30T09:00:00.000Z",
-          "endsAt": "2026-08-19T10:59:00.000Z",
-          "durationSeconds": 3269
+          "startsAt": "2026-07-30T15:00:00.000Z",
+          "endsAt": "2026-08-19T16:59:00.000Z",
+          "durationSeconds": 6755
         },
         "characters": [
           {
@@ -1403,7 +1403,7 @@
         "remaining": {
           "startsAt": "2026-08-09T04:00:00.000Z",
           "endsAt": "2026-09-01T21:59:59.000Z",
-          "durationSeconds": 1166128
+          "durationSeconds": 1148014
         },
         "characters": [
           {

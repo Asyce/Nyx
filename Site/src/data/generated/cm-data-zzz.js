@@ -2958,7 +2958,8 @@
         "ko": "\uc2dc\uadf8\ub9ac\ub4dc"
       },
       "slug": "sigrid",
-      "releasePatch": "2.7",
+      "release": 1787097600000,
+      "releasePatch": "3.1",
       "updated": 1786665600000,
       "sourceOrder": 0,
       "voiceActors": {
@@ -101021,7 +101022,6 @@
       },
       "title": "Patience of a Cat",
       "slug": "nekomata",
-      "releasePatch": "1.0",
       "updated": 1785283200000,
       "sourceOrder": 0,
       "voiceActors": {
@@ -108894,9 +108894,16 @@
       },
       "title": "Peach-Flavored Flash Suppressor",
       "slug": "orphie-and-magus",
+      "release": 1758672000000,
       "releasePatch": "2.2",
       "updated": 1785283200000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Dawn M. Bennett",
+        "japanese": "Yume Miyamoto|Miyamoto Yume (\u5bae\u672c \u4f91\u82bd)",
+        "chinese": "https://mzh.moegirl.org.cn/zh-hans/\u5218\u5341\u56db|Liu Shisi (\u5218\u5341\u56db)",
+        "korean": "https://namu.wiki/w/\ub958\uc9c0\uc544|Ryu Ji-a (\ub958\uc9c0\uc544)"
+      },
       "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle49.webp",
       "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole49.webp",
       "card": "../../Database/GameData/zzz/assets/agents/icons/IconRole49.webp",
@@ -185631,8 +185638,8 @@
       },
       "title": "Ending Theme",
       "slug": "anby-demara",
-      "release": 1720051200000,
-      "releasePatch": "1.0",
+      "release": 1741737600000,
+      "releasePatch": "1.6",
       "updated": 1785283200000,
       "sourceOrder": 0,
       "voiceActors": {

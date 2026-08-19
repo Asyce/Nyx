@@ -1,5 +1,34 @@
 [
   {
+    "id": "265465",
+    "name": "Amber Nectar",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0171",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Yellow",
+      "White"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0171.webp"
+  },
+  {
+    "id": "265466",
+    "name": "Amber Nectar",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0171",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Yellow",
+      "Brown",
+      "White"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0171.webp"
+  },
+  {
     "id": "265018",
     "name": "Astral Beacon",
     "rank": "Purple",
@@ -80,6 +109,35 @@
       "Brown"
     ],
     "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0038.webp"
+  },
+  {
+    "id": "265481",
+    "name": "Azure Mountainshade",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0189",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Blue",
+      "Yellow",
+      "Gray"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0189.webp"
+  },
+  {
+    "id": "265482",
+    "name": "Azure Mountainshade",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0189",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Blue",
+      "Gray"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0189.webp"
   },
   {
     "id": "265062",
@@ -490,6 +548,33 @@
     "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0101.webp"
   },
   {
+    "id": "265362",
+    "name": "Cloudbound Flight",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0001",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Blue",
+      "Orange"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0001.webp"
+  },
+  {
+    "id": "265363",
+    "name": "Cloudbound Journey",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0001",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Blue"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0001.webp"
+  },
+  {
     "id": "265225",
     "name": "Comedy Performance",
     "rank": "Purple",
@@ -544,6 +629,34 @@
       "Brown"
     ],
     "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0089.webp"
+  },
+  {
+    "id": "265392",
+    "name": "Crowned by the Breeze",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0157",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Green",
+      "White"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0157.webp"
+  },
+  {
+    "id": "265393",
+    "name": "Crowned by the Breeze",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0157",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Green",
+      "White"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0157.webp"
   },
   {
     "id": "265024",
@@ -939,6 +1052,32 @@
     "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0117.webp"
   },
   {
+    "id": "265507",
+    "name": "Fun Under Open Skies",
+    "rank": "Blue",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0198",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Brown"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0198.webp"
+  },
+  {
+    "id": "265508",
+    "name": "Fun Under Open Skies",
+    "rank": "Blue",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0198",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Brown"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0198.webp"
+  },
+  {
     "id": "265229",
     "name": "Galaxy Wanderer",
     "rank": "Purple",
@@ -1263,6 +1402,34 @@
       "Black"
     ],
     "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0120.webp"
+  },
+  {
+    "id": "265459",
+    "name": "Letter Crane Courier",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0168",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Blue",
+      "White"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0168.webp"
+  },
+  {
+    "id": "265460",
+    "name": "Letter Crane Courier",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0168",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Blue",
+      "White"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0168.webp"
   },
   {
     "id": "265326",
@@ -1797,6 +1964,34 @@
     "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0130.webp"
   },
   {
+    "id": "265445",
+    "name": "Precision Strike",
+    "rank": "Blue",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0176",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Blue",
+      "White"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0176.webp"
+  },
+  {
+    "id": "265446",
+    "name": "Precision Strike",
+    "rank": "Blue",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0176",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Blue",
+      "White"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0176.webp"
+  },
+  {
     "id": "265103",
     "name": "Prelude to Spring",
     "rank": "Purple",
@@ -2101,6 +2296,36 @@
     "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0027.webp"
   },
   {
+    "id": "265449",
+    "name": "Scary Cat",
+    "rank": "Blue",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0177",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Black",
+      "Blue",
+      "Gray"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0177.webp"
+  },
+  {
+    "id": "265450",
+    "name": "Scary Cat",
+    "rank": "Blue",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0177",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Black",
+      "Blue",
+      "Gray"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0177.webp"
+  },
+  {
     "id": "265055",
     "name": "Scorching Roar",
     "rank": "Blue",
@@ -2190,6 +2415,32 @@
       "Multi"
     ],
     "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0115.webp"
+  },
+  {
+    "id": "265455",
+    "name": "Sleuth's Verdict",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0170",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Brown"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0170.webp"
+  },
+  {
+    "id": "265456",
+    "name": "Sleuth's Verdict",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0170",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Brown"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0170.webp"
   },
   {
     "id": "265020",
@@ -2578,6 +2829,34 @@
     "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0107.webp"
   },
   {
+    "id": "265457",
+    "name": "Twilight Phantom Thief",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0167",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Blue",
+      "Purple"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0167.webp"
+  },
+  {
+    "id": "265458",
+    "name": "Twilight Phantom Thief",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0167",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Blue",
+      "Purple"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0167.webp"
+  },
+  {
     "id": "265315",
     "name": "Verdant Chase",
     "rank": "Blue",
@@ -2606,6 +2885,36 @@
       "Blue"
     ],
     "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0175.webp"
+  },
+  {
+    "id": "265451",
+    "name": "Warrior of the Winning Hand",
+    "rank": "Blue",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0173",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Red",
+      "White",
+      "Black"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0173.webp"
+  },
+  {
+    "id": "265452",
+    "name": "Warrior of the Winning Hand",
+    "rank": "Blue",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0173",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Red",
+      "White",
+      "Gray"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0173.webp"
   },
   {
     "id": "265338",
@@ -2660,6 +2969,66 @@
       "Yellow"
     ],
     "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0049.webp"
+  },
+  {
+    "id": "265064",
+    "name": "Whimsical Spectacle",
+    "rank": "Orange",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0165",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Red",
+      "White",
+      "Brown"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0165.webp"
+  },
+  {
+    "id": "265065",
+    "name": "Whimsical Spectacle",
+    "rank": "Orange",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0165",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Red",
+      "White",
+      "Brown"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0165.webp"
+  },
+  {
+    "id": "265066",
+    "name": "Whimsical Spectacle - Sugarcube Sleight",
+    "rank": "Orange",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0166",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Red",
+      "Black",
+      "Blue"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0166.webp"
+  },
+  {
+    "id": "265067",
+    "name": "Whimsical Spectacle - Sugarcube Sleight",
+    "rank": "Orange",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0166",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Red",
+      "White",
+      "Blue"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0166.webp"
   },
   {
     "id": "265105",

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "5114c315bc3d78b203f1096841203baf1b510bae142196b4842e4407571fea86",
-  "generatedAt": "2026-08-18T15:02:59.586Z",
+  "revision": "81e9dd587cb081d5a9c43538cdc3e419969d86a9689004b847fd9ebc77826e0f",
+  "generatedAt": "2026-08-19T07:32:44.568Z",
   "health": {
     "status": "ok",
     "games": {
@@ -43,7 +43,7 @@
         "remaining": {
           "startsAt": "2026-08-12T03:00:00.000Z",
           "endsAt": "2026-09-01T09:59:59.000Z",
-          "durationSeconds": 1191419
+          "durationSeconds": 1132034
         },
         "characters": [
           {
@@ -389,7 +389,7 @@
         "remaining": {
           "startsAt": "2026-08-05T11:00:00.000Z",
           "endsAt": "2026-08-25T14:00:00.000Z",
-          "durationSeconds": 601020
+          "durationSeconds": 541635
         },
         "characters": [
           {
@@ -815,72 +815,13 @@
       "current": {
         "phase": "3.1",
         "start": "2026-07-29T03:00:00.000Z",
-        "end": "2026-08-19T03:59:59.000Z",
+        "end": "2026-09-08T06:59:59.000Z",
         "remaining": {
           "startsAt": "2026-07-29T03:00:00.000Z",
-          "endsAt": "2026-08-19T03:59:59.000Z",
-          "durationSeconds": 46619
+          "endsAt": "2026-09-08T06:59:59.000Z",
+          "durationSeconds": 1726034
         },
         "characters": [
-          {
-            "id": "1501",
-            "name": "Aria",
-            "rarity": 5,
-            "limited": true,
-            "debut": "2026-03-04T04:00:00.000Z",
-            "icon": {
-              "id": "1501-icon",
-              "source": "character-icon",
-              "path": "/launcher-art/535effcd8f6f07d6461e360add5397bce60e0dbb65c1184e67d8a9393d6f8148.webp",
-              "url": "https://pengo.gg/dist/launcher-art/535effcd8f6f07d6461e360add5397bce60e0dbb65c1184e67d8a9393d6f8148.webp",
-              "mime": "image/webp",
-              "size": 8306,
-              "dimensions": {
-                "width": 142,
-                "height": 142
-              },
-              "sha256": "535effcd8f6f07d6461e360add5397bce60e0dbb65c1184e67d8a9393d6f8148",
-              "transparentBounds": {
-                "left": 0,
-                "top": 0,
-                "right": 142,
-                "bottom": 142
-              },
-              "placement": {
-                "anchor": "center",
-                "fit": "cover",
-                "x": 0.5,
-                "y": 0.5
-              }
-            },
-            "variants": [
-              {
-                "id": "1501-splash",
-                "source": "splash",
-                "path": "/launcher-art/b196f0f3f81a46277dd95347d18a5524f7b560f4a5346950b7c3041f79d858dd.webp",
-                "url": "https://pengo.gg/dist/launcher-art/b196f0f3f81a46277dd95347d18a5524f7b560f4a5346950b7c3041f79d858dd.webp",
-                "mime": "image/webp",
-                "size": 272768,
-                "dimensions": {
-                  "width": 1050,
-                  "height": 2018
-                },
-                "sha256": "b196f0f3f81a46277dd95347d18a5524f7b560f4a5346950b7c3041f79d858dd",
-                "transparentBounds": {
-                  "left": 0,
-                  "top": 0,
-                  "right": 1050,
-                  "bottom": 2018
-                },
-                "placement": {
-                  "anchor": "center",
-                  "fit": "contain",
-                  "x": 0.74,
-                  "y": 0.52
-                }
-              }
-            ]
-          },
           {
             "id": "1581",
             "name": "Remielle Dan",
@@ -1001,33 +942,8 @@
           ]
         },
         "selectedCharacterId": "1581",
-        "selectionReason": "newer-limited-debut",
+        "selectionReason": "highest-rarity",
         "variants": [
-          {
-            "id": "1501-splash",
-            "source": "splash",
-            "path": "/launcher-art/b196f0f3f81a46277dd95347d18a5524f7b560f4a5346950b7c3041f79d858dd.webp",
-            "url": "https://pengo.gg/dist/launcher-art/b196f0f3f81a46277dd95347d18a5524f7b560f4a5346950b7c3041f79d858dd.webp",
-            "mime": "image/webp",
-            "size": 272768,
-            "dimensions": {
-              "width": 1050,
-              "height": 2018
-            },
-            "sha256": "b196f0f3f81a46277dd95347d18a5524f7b560f4a5346950b7c3041f79d858dd",
-            "transparentBounds": {
-              "left": 0,
-              "top": 0,
-              "right": 1050,
-              "bottom": 2018
-            },
-            "placement": {
-              "anchor": "center",
-              "fit": "contain",
-              "x": 0.74,
-              "y": 0.52
-            }
-          },
           {
             "id": "1581-splash",
             "source": "splash",
@@ -1153,7 +1069,7 @@
         "remaining": {
           "startsAt": "2026-07-30T09:00:00.000Z",
           "endsAt": "2026-08-19T10:59:00.000Z",
-          "durationSeconds": 71760
+          "durationSeconds": 12375
         },
         "characters": [
           {
@@ -1487,7 +1403,7 @@
         "remaining": {
           "startsAt": "2026-08-09T04:00:00.000Z",
           "endsAt": "2026-09-01T21:59:59.000Z",
-          "durationSeconds": 1234619
+          "durationSeconds": 1175234
         },
         "characters": [
           {

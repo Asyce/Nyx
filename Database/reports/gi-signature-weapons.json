@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-16T07:22:48.658Z",
-  "startedAt": "2026-08-16T07:21:49.421Z",
+  "generatedAt": "2026-08-19T07:31:02.331Z",
+  "startedAt": "2026-08-19T07:30:06.520Z",
   "dryRun": false,
   "source": "GameWith character build pages + web consensus fallback",
   "sourcePage": "https://gamewith.net/genshin-impact/article/show/22357",
@@ -66,29 +66,6 @@
               "searchProvider": "bing-rss"
             }
           ]
-        },
-        {
-          "weaponId": "13432",
-          "weaponName": "Tamayuratei no Ohanashi",
-          "sourceCount": 1,
-          "signatureSourceCount": 0,
-          "score": 1,
-          "sources": [
-            {
-              "character": "Alyosha",
-              "weaponId": "13432",
-              "weaponName": "Tamayuratei no Ohanashi",
-              "matchedAlias": "Tamayuratei no Ohanashi",
-              "kind": "best-weapon",
-              "strength": 1,
-              "matchedText": "portive or utility weapons like Symphonist or Favonius Lance are still viable premium options.Free-to-Play Friendly (F2P Weapons) for AlyoshaWeaponHow to GetRatingBest F2P (Event) Tamayuratei No OhanashiReward From Past Event (Enchanted Tales of the Mikawa Festival)- Similar to Engulfing Lightning, this is a weapon that grants ER (via the main-stat) and ATK",
-              "title": "Alyosha Best Build Guide - GameWith",
-              "url": "https://gamewith.net/genshin-impact/article/show/76471",
-              "domain": "gamewith.net",
-              "query": "Alyosha Genshin Impact signature weapon",
-              "searchProvider": "bing-rss"
-            }
-          ]
         }
       ],
       "consensusSources": [
@@ -141,6 +118,14 @@
           "status": "no-match"
         },
         {
+          "title": "Alyosha | Genshin Impact Wiki | Fandom",
+          "url": "https://genshin-impact.fandom.com/wiki/Alyosha",
+          "domain": "genshin-impact.fandom.com",
+          "query": "Alyosha Genshin Impact signature weapon",
+          "searchProvider": "bing-rss",
+          "status": "no-match"
+        },
+        {
           "title": "Alyosha Guide and Best Builds - Genshin Impact - Icy Veins",
           "url": "https://www.icy-veins.com/genshin-impact/alyosha-guide-best-builds",
           "domain": "icy-veins.com",
@@ -153,24 +138,28 @@
           "matchedText": "w are Alyosha's best weapons. Alyosha mainly wants Energy Recharge to use his Elemental Burst every rotation, while also benefiting from ATK due to his healing and damage scaling. Engulfing Lightning R1 Timeless Dream: Eternal Stove Base ATK: 608 Energy Recharge: 55.1% ATK increased by 28% / 35% / 42% / 49% / 56% of Energy Recharge over the base 100%. You ca"
         },
         {
-          "title": "Alyosha Best Team Compositions and Character Synergies",
-          "url": "https://www.icy-veins.com/genshin-impact/alyosha-team-guide",
+          "title": "Alyosha Guide, Profile, Talents and Constellations",
+          "url": "https://www.icy-veins.com/genshin-impact/alyosha-profile-talents-constellations",
           "domain": "icy-veins.com",
           "query": "Alyosha Genshin Impact signature weapon",
           "searchProvider": "bing-rss",
           "status": "no-match"
         },
         {
-          "title": "Alyosha Best Build Guide - GameWith",
-          "url": "https://gamewith.net/genshin-impact/article/show/76471",
-          "domain": "gamewith.net",
+          "title": "Genshin Impact Alyosha Build - Genshin.gg",
+          "url": "https://genshin.gg/characters/alyosha/",
+          "domain": "genshin.gg",
           "query": "Alyosha Genshin Impact signature weapon",
           "searchProvider": "bing-rss",
-          "status": "matched",
-          "weaponId": "13432",
-          "weaponName": "Tamayuratei no Ohanashi",
-          "kind": "best-weapon",
-          "matchedText": "portive or utility weapons like Symphonist or Favonius Lance are still viable premium options.Free-to-Play Friendly (F2P Weapons) for AlyoshaWeaponHow to GetRatingBest F2P (Event) Tamayuratei No OhanashiReward From Past Event (Enchanted Tales of the Mikawa Festival)- Similar to Engulfing Lightning, this is a weapon that grants ER (via the main-stat) and ATK"
+          "status": "no-match"
+        },
+        {
+          "title": "Genshin Impact Alyosha Best Build Guide - vgtimes.com",
+          "url": "https://vgtimes.com/guides/164250-genshin-impact-alyosha-best-build-guide.html",
+          "domain": "vgtimes.com",
+          "query": "Alyosha Genshin Impact signature weapon",
+          "searchProvider": "bing-rss",
+          "status": "no-match"
         }
       ],
       "consensusSearchQueries": [
@@ -185,31 +174,7 @@
       "status": "no-explicit-signature-phrase",
       "characterPage": "https://gamewith.net/genshin-impact/article/show/76472",
       "consensusStatus": "no-consensus-signature",
-      "consensusCandidates": [
-        {
-          "weaponId": "11436",
-          "weaponName": "Emberwell",
-          "sourceCount": 1,
-          "signatureSourceCount": 1,
-          "score": 2,
-          "sources": [
-            {
-              "character": "Vesna",
-              "weaponId": "11436",
-              "weaponName": "Emberwell",
-              "matchedAlias": "Emberwell",
-              "kind": "signature",
-              "strength": 2,
-              "matchedText": "nded Talent Priority Recommended Rotation What is the Best Weapon for Vesna? Best-in-Slot: Unnamed Signature Sword Best 5-Star Alternative: Primordial Jade Cutter Best F2P Option: Emberwell Alternative Craftable: Finale of the Deep Which Gear and Stats Maximize Vesna's Damage? Best Artifact Set: Scarlet Proof Alternative: Viridescent Venerer Best Main Stats",
-              "title": "Vesna Build Guide: Best Weapons, Gear, Teams, and Rotation | Genshin ...",
-              "url": "https://buffhub.com/blog/genshin-impact/genshin-impact-vesna-build-guide.html",
-              "domain": "buffhub.com",
-              "query": "Vesna Genshin Impact signature weapon",
-              "searchProvider": "bing-rss"
-            }
-          ]
-        }
-      ],
+      "consensusCandidates": [],
       "consensusSources": [
         {
           "title": "Vesna Genshin Impact kit",
@@ -252,21 +217,49 @@
           "status": "no-match"
         },
         {
-          "title": "Vesna Build Guide: Best Weapons, Gear, Teams, and Rotation | Genshin ...",
-          "url": "https://buffhub.com/blog/genshin-impact/genshin-impact-vesna-build-guide.html",
-          "domain": "buffhub.com",
+          "title": "Vesna Profile, Talents and Constellations - Icy Veins",
+          "url": "https://www.icy-veins.com/genshin-impact/vesna-profile-talents-constellations",
+          "domain": "icy-veins.com",
           "query": "Vesna Genshin Impact signature weapon",
           "searchProvider": "bing-rss",
-          "status": "matched",
-          "weaponId": "11436",
-          "weaponName": "Emberwell",
-          "kind": "signature",
-          "matchedText": "nded Talent Priority Recommended Rotation What is the Best Weapon for Vesna? Best-in-Slot: Unnamed Signature Sword Best 5-Star Alternative: Primordial Jade Cutter Best F2P Option: Emberwell Alternative Craftable: Finale of the Deep Which Gear and Stats Maximize Vesna's Damage? Best Artifact Set: Scarlet Proof Alternative: Viridescent Venerer Best Main Stats"
+          "status": "no-match"
         },
         {
-          "title": "Genshin 7.1 Banners - Vodyanitsa and Vesna leaks and release date",
+          "title": "Genshin 7.1 Banners - Vesna and Vodyanitsa leaks and release date",
           "url": "https://www.u7buy.com/blog/genshin-impact-7-1-banners/",
           "domain": "u7buy.com",
+          "query": "Vesna Genshin Impact signature weapon",
+          "searchProvider": "bing-rss",
+          "status": "no-match"
+        },
+        {
+          "title": "Genshin Impact | Vesna - Release Date & Who Is? - GameWith",
+          "url": "https://gamewith.net/genshin-impact/article/show/76472",
+          "domain": "gamewith.net",
+          "query": "Vesna Genshin Impact signature weapon",
+          "searchProvider": "bing-rss",
+          "status": "no-match"
+        },
+        {
+          "title": "Genshin Impact Vesna kit leaked: Talents, passive, and constellations",
+          "url": "https://www.sportskeeda.com/esports/genshin-impact-vesna-kit-leaked-talents-passive-constellations",
+          "domain": "sportskeeda.com",
+          "query": "Vesna Genshin Impact signature weapon",
+          "searchProvider": "bing-rss",
+          "status": "no-match"
+        },
+        {
+          "title": "Genshin 7.0 Banners: Odette, Alyosha, Reruns & Pull Guide",
+          "url": "https://www.gamsgo.com/blog/genshin-impact-7-0-banners",
+          "domain": "gamsgo.com",
+          "query": "Vesna Genshin Impact signature weapon",
+          "searchProvider": "bing-rss",
+          "status": "no-match"
+        },
+        {
+          "title": "Genshin Impact Vesna Rarity and Element Revealed | Beebom",
+          "url": "https://beebom.com/genshin-impact-vesna-rarity-and-element-revealed/",
+          "domain": "beebom.com",
           "query": "Vesna Genshin Impact signature weapon",
           "searchProvider": "bing-rss",
           "status": "no-match"
@@ -286,31 +279,7 @@
       "status": "no-explicit-signature-phrase",
       "characterPage": "https://gamewith.net/genshin-impact/article/show/73767",
       "consensusStatus": "no-consensus-signature",
-      "consensusCandidates": [
-        {
-          "weaponId": "14406",
-          "weaponName": "Prototype Amber",
-          "sourceCount": 1,
-          "signatureSourceCount": 1,
-          "score": 2,
-          "sources": [
-            {
-              "character": "Vodyanitsa",
-              "weaponId": "14406",
-              "weaponName": "Prototype Amber",
-              "matchedAlias": "Prototype Amber",
-              "kind": "signature",
-              "strength": 2,
-              "matchedText": "tal Burst: Aria of the Water Imp Recommended Talent Priority Recommended Rotation What is the Best Weapon for Vodyanitsa? Best-in-Slot: Unnamed Signature Catalyst Best F2P Option: Prototype Amber Best Budget Support Option: Thrilling Tales of Dragon Slayers Which Gear and Stats Maximize Vodyanitsa's Support? Best Pre-Release Placeholder: Tenacity of the Mill",
-              "title": "Vodyanitsa Build Guide: Best Weapons, Gear, Teams, and Rotation ...",
-              "url": "https://buffhub.com/blog/genshin-impact/genshin-impact-vodyanitsa-build-guide.html",
-              "domain": "buffhub.com",
-              "query": "Vodyanitsa Genshin Impact signature weapon",
-              "searchProvider": "bing-rss"
-            }
-          ]
-        }
-      ],
+      "consensusCandidates": [],
       "consensusSources": [
         {
           "title": "Vodyanitsa Genshin Impact kit",
@@ -350,66 +319,6 @@
           "domain": "beebom.com",
           "query": "source-template",
           "searchProvider": "source-template",
-          "status": "no-match"
-        },
-        {
-          "title": "Genshin Impact | Vodyanitsa - Release Date & Who Is?",
-          "url": "https://gamewith.net/genshin-impact/article/show/73767",
-          "domain": "gamewith.net",
-          "query": "Vodyanitsa Genshin Impact signature weapon",
-          "searchProvider": "bing-rss",
-          "status": "no-match"
-        },
-        {
-          "title": "Genshin Impact Vodyanitsa: Leaked Kit and Stellar Swirl Support Role",
-          "url": "https://allthings.how/genshin-impact-vodyanitsa-leaked-kit-and-stellar-swirl-support-role/",
-          "domain": "allthings.how",
-          "query": "Vodyanitsa Genshin Impact signature weapon",
-          "searchProvider": "bing-rss",
-          "status": "no-match"
-        },
-        {
-          "title": "Vodyanitsa Build Guide: Best Weapons, Gear, Teams, and Rotation ...",
-          "url": "https://buffhub.com/blog/genshin-impact/genshin-impact-vodyanitsa-build-guide.html",
-          "domain": "buffhub.com",
-          "query": "Vodyanitsa Genshin Impact signature weapon",
-          "searchProvider": "bing-rss",
-          "status": "matched",
-          "weaponId": "14406",
-          "weaponName": "Prototype Amber",
-          "kind": "signature",
-          "matchedText": "tal Burst: Aria of the Water Imp Recommended Talent Priority Recommended Rotation What is the Best Weapon for Vodyanitsa? Best-in-Slot: Unnamed Signature Catalyst Best F2P Option: Prototype Amber Best Budget Support Option: Thrilling Tales of Dragon Slayers Which Gear and Stats Maximize Vodyanitsa's Support? Best Pre-Release Placeholder: Tenacity of the Mill"
-        },
-        {
-          "title": "Genshin Impact Vodyanitsa signature weapon stats and ... - Sportskeeda",
-          "url": "https://www.sportskeeda.com/esports/genshin-impact-vodyanitsa-signature-weapon-stats-passive",
-          "domain": "sportskeeda.com",
-          "query": "Vodyanitsa Genshin Impact signature weapon",
-          "searchProvider": "bing-rss",
-          "status": "no-match"
-        },
-        {
-          "title": "Genshin 7.1 Banners: Vesna, Vodyanitsa, Reruns & Pull Guide",
-          "url": "https://www.gamsgo.com/blog/genshin-impact-7-1-banners",
-          "domain": "gamsgo.com",
-          "query": "Vodyanitsa Genshin Impact signature weapon",
-          "searchProvider": "bing-rss",
-          "status": "no-match"
-        },
-        {
-          "title": "Genshin Impact 7.1 Leaks Reveal Early Vodyanitsa Kit Details and ...",
-          "url": "https://gamesandchill.com/en/leaks/genshin-impact-71-leaks-reveal-early-vodyanitsa-kit-details-and-possible-banner-changes/",
-          "domain": "gamesandchill.com",
-          "query": "Vodyanitsa Genshin Impact signature weapon",
-          "searchProvider": "bing-rss",
-          "status": "no-match"
-        },
-        {
-          "title": "Vodyanitsa Build – Full Kit, Builds, and Best Teams | Genshin Impact",
-          "url": "https://www.ldshop.gg/blog/genshin-impact/vodyanitsa-build.html",
-          "domain": "ldshop.gg",
-          "query": "Vodyanitsa Genshin Impact signature weapon",
-          "searchProvider": "bing-rss",
           "status": "no-match"
         }
       ],

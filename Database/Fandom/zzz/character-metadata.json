@@ -22,13 +22,13 @@
   },
   {
     "name": "Anby",
-    "pageTitle": "Anby Demara",
+    "pageTitle": "Soldier 0 - Anby",
     "aliases": [
       "Anby",
       "1011"
     ],
-    "releaseDate": "2024-07-04",
-    "releasePatch": "1.0",
+    "releaseDate": "2025-03-12",
+    "releasePatch": "1.6",
     "voiceActors": {
       "english": "imdb:nm7430885|Sam Slade",
       "chinese": "https://mzh.moegirl.org.cn/zh-hans/宴宁|Yanning (宴宁)",
@@ -36,7 +36,8 @@
       "korean": "ko:김보나|Kim Bo-na (김보나)"
     },
     "categories": [
-      "Category:Released in Version 1.0",
+      "Category:Introduced in Version 1.5",
+      "Category:Released in Version 1.6",
       "Category:Version"
     ]
   },
@@ -578,17 +579,14 @@
   },
   {
     "name": "Nekomata",
-    "pageTitle": "Agent Focus: Nekomata",
+    "pageTitle": "Tutorial/(Character Intro) Nekomata",
     "aliases": [
       "Nekomata",
       "1021"
     ],
     "releaseDate": null,
-    "releasePatch": "1.0",
-    "categories": [
-      "Category:Released in Version 1.0",
-      "Category:Version"
-    ]
+    "releasePatch": null,
+    "categories": []
   },
   {
     "name": "Nicole",
@@ -631,14 +629,21 @@
   },
   {
     "name": "Orphie & Magus",
-    "pageTitle": "Agent Focus: Orphie & Magus",
+    "pageTitle": "Orphie Magnusson & Magus",
     "aliases": [
       "Orphie & Magus",
       "1301"
     ],
-    "releaseDate": null,
+    "releaseDate": "2025-09-24",
     "releasePatch": "2.2",
+    "voiceActors": {
+      "english": "Dawn M. Bennett",
+      "chinese": "https://mzh.moegirl.org.cn/zh-hans/刘十四|Liu Shisi (刘十四)",
+      "japanese": "Yume Miyamoto|Miyamoto Yume (宮本 侑芽)",
+      "korean": "https://namu.wiki/w/류지아|Ryu Ji-a (류지아)"
+    },
     "categories": [
+      "Category:Introduced in Version 1.0",
       "Category:Released in Version 2.2",
       "Category:Version"
     ]
@@ -842,8 +847,8 @@
       "Sigrid",
       "1591"
     ],
-    "releaseDate": "|name = Sigrid de L'Azur",
-    "releasePatch": "2.7",
+    "releaseDate": "2026-08-19",
+    "releasePatch": "3.1",
     "voiceActors": {
       "english": "imdb:nm8792229|Dani Chambers",
       "chinese": "https://zh.moegirl.org.cn/贺若帆|He Ruofan (贺若帆)",
@@ -851,7 +856,9 @@
       "korean": "https://namu.wiki/w/강해나|Kang Hae-na (강해나)"
     },
     "categories": [
-      "Category:Introduced in Version 2.7"
+      "Category:Introduced in Version 2.7",
+      "Category:Released in Version 3.1",
+      "Category:Version"
     ]
   },
   {

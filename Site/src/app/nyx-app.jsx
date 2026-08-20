@@ -5106,6 +5106,7 @@ function NyxApp(){
       if (event.defaultPrevented || event.ctrlKey || event.metaKey) return;
       if (Math.abs(event.deltaY) < 1 || Math.abs(event.deltaX) > Math.abs(event.deltaY) * 1.2) return;
       const target = event.target instanceof Element ? event.target : null;
+      if (target?.closest('.gp-ovb-scroll')) return;
       const closestContent = target && contentScrollTargets
         .map((selector) => target.closest(selector))
         .find((el) => canScrollY(el, event.deltaY));

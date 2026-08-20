@@ -738,7 +738,7 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
    and letting it scroll takes it out of the height calculation, so the phase
    columns size to their own content again. */
 .gp-ovb-col.is-announced .gp-ovb-body{ max-height:340px; }
-.gp-ovb-scroll{ min-height:0; flex:1 1 auto; overflow-y:auto; display:flex; flex-direction:column; gap:var(--nyx-space-8);
+.gp-ovb-scroll{ min-height:0; flex:1 1 auto; overflow-y:auto; overscroll-behavior:contain; display:flex; flex-direction:column; gap:var(--nyx-space-8);
   scrollbar-width:thin; scrollbar-color:var(--nyx-color-border-active) transparent; }
 /* Pins live outside the scroller so they are always visible at the foot of the
    column and never push the cap. They are a running joke, not schedule data,

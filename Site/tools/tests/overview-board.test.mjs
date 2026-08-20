@@ -58,6 +58,11 @@ test('the Genshin plan and bottom pin order stay explicit', () => {
   assert.match(sharedCss, /\.gp-ovb-pins > \.gp-ovb-row\{[^}]*flex:1 1 0;[^}]*min-width:0/);
 });
 
+test('the banner list owns its wheel scrolling', () => {
+  assert.match(sharedCss, /\.gp-ovb-scroll\{[^}]*overscroll-behavior:contain/);
+  assert.match(appSource, /const target = event\.target instanceof Element \? event\.target : null;\s*if \(target\?\.closest\('\.gp-ovb-scroll'\)\) return;/);
+});
+
 test('every shipped banner character carries a debut verdict', () => {
   const games = Object.keys(banners);
   assert.ok(games.length >= 4, `expected banner data for most games, got ${games.join(',') || 'none'}`);

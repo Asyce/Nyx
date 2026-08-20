@@ -744,7 +744,7 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
    column and never push the cap. They are a running joke, not schedule data,
    so they run at two thirds the height of a real row and leave the space to
    the entries that mean something. */
-.gp-ovb-pins{ flex:0 0 auto; display:flex; flex-direction:column; gap:var(--nyx-space-6); margin-top:var(--nyx-space-2); }
+.gp-ovb-pins{ flex:0 0 auto; display:flex; flex-direction:row; gap:var(--nyx-space-6); margin-top:var(--nyx-space-2); }
 .gp-ovb-pins .gp-ovb-row{ min-height:40px; opacity:.6; }
 .gp-ovb-pins .gp-ovb-row img{ width:28px; height:28px; }
 .gp-ovb-pins .gp-ovb-row-body{ padding:var(--nyx-space-4) var(--nyx-space-10); gap:var(--nyx-space-8); }
@@ -754,8 +754,8 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
    (user 2026-08-09): a row is exactly its 44px icon plus padding, so four or
    five fit in the space that used to hold two. */
 .gp-ovb-body > .gp-ovb-row,
-.gp-ovb-scroll > .gp-ovb-row,
-.gp-ovb-pins > .gp-ovb-row{ flex:0 0 auto; }
+.gp-ovb-scroll > .gp-ovb-row{ flex:0 0 auto; }
+.gp-ovb-pins > .gp-ovb-row{ flex:1 1 0; min-width:0; }
 /* The card is a flex column so its body fills the stretched height — without
    this the body keeps its content height and the countdown footer rides up
    under the name instead of sitting at the bottom. */

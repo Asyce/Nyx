@@ -45,6 +45,19 @@ function sourceConst(name) {
   throw new Error(`${name} is incomplete`);
 }
 
+test('the Genshin plan and bottom pin order stay explicit', () => {
+  const box = { window:{} };
+  vm.createContext(box);
+  vm.runInContext(`${sourceConst('BANNER_PLAN_LABELS')} ${sourceConst('BANNER_COPIUM_PINS')} window.values = { labels:BANNER_PLAN_LABELS.gi, pins:BANNER_COPIUM_PINS.gi };`, box);
+  assert.deepEqual(JSON.parse(JSON.stringify(box.window.values)), {
+    labels:{ vesna:'7.1 Phase 1', vodyanitsa:'7.1 Phase 2' },
+    pins:['Alice', 'Dainsleif'],
+  });
+  assert.match(appSource, /label:row\.column\?\.label \|\| BANNER_PLAN_LABELS\[cfg\.key\]/);
+  assert.match(sharedCss, /\.gp-ovb-pins\{[^}]*flex-direction:row/);
+  assert.match(sharedCss, /\.gp-ovb-pins > \.gp-ovb-row\{[^}]*flex:1 1 0;[^}]*min-width:0/);
+});
+
 test('every shipped banner character carries a debut verdict', () => {
   const games = Object.keys(banners);
   assert.ok(games.length >= 4, `expected banner data for most games, got ${games.join(',') || 'none'}`);
@@ -297,6 +310,7 @@ test('the five-column model matches each requested game roadmap', () => {
     ${sourceFunction('bannerApplyPlanLabels')}
     ${sourceConst('BANNER_ROADMAP_DENY')}
     ${sourceConst('BANNER_COPIUM_PINS')}
+    ${sourceConst('BANNER_PLAN_LABELS')}
     ${sourceFunction('bannerRoadmapAllowed')}
     ${sourceFunction('overviewBannerPins')}
     ${sourceFunction('overviewBannerBoard')}
@@ -313,7 +327,7 @@ test('the five-column model matches each requested game roadmap', () => {
   assert.equal(gi.next.heroes[0].name, 'Flins');
   assert.deepEqual(names(gi.next.others), ['Ineffa']);
   assert.deepEqual(gi.planned.map((column) => column.heroes[0].name), ['Vesna', 'Vodyanitsa']);
-  assert.deepEqual(gi.planned.map((column) => column.label), ['7.1 Phase ?', '7.1 Phase ?']);
+  assert.deepEqual(gi.planned.map((column) => column.label), ['7.1 Phase 1', '7.1 Phase 2']);
   assert.ok(gi.planned.every((column) => column.start === null && column.end === null));
   assert.deepEqual(names(gi.future).slice(0, 5), ['Mitya', 'Valeriy', 'The Tsaritsa Anastasya Feodorovna Snezhnaya', 'Danica', 'Noy']);
 
@@ -381,6 +395,7 @@ test('story NPCs never reach Announced, and the copium pair is pinned separately
     ${sourceFunction('bannerApplyPlanLabels')}
     ${sourceConst('BANNER_ROADMAP_DENY')}
     ${sourceConst('BANNER_COPIUM_PINS')}
+    ${sourceConst('BANNER_PLAN_LABELS')}
     ${sourceFunction('bannerRoadmapAllowed')}
     ${sourceFunction('overviewBannerPins')}
     ${sourceFunction('overviewBannerBoard')}
@@ -394,7 +409,7 @@ test('story NPCs never reach Announced, and the copium pair is pinned separately
   assert.deepEqual(listed.filter((name) => ['Mitya', 'Noy'].includes(name)).sort(), ['Mitya', 'Noy'], 'real roadmap names survive');
   // The two the user keeps as a joke come back as a separate pinned list, so
   // the board can render them under the real entries with a "copium" note.
-  assert.deepEqual(board.pinned.map((row) => row.name), ['Dainsleif', 'Alice']);
+  assert.deepEqual(board.pinned.map((row) => row.name), ['Alice', 'Dainsleif']);
   // Other games have neither a denylist nor pins.
   assert.deepEqual(JSON.parse(JSON.stringify(box.window.board)).pinned.length, 2);
 });

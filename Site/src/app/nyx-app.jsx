@@ -904,7 +904,8 @@ const BANNER_ROADMAP_DENY = {
 // ...and the two the user wants kept as a joke, pinned under the real entries
 // with a "copium" note. Sourced from `group.pinned` when the scraper has run;
 // otherwise recovered from the roadmap rows the denylist above just removed.
-const BANNER_COPIUM_PINS = { gi:['Dainsleif', 'Alice'] };
+const BANNER_COPIUM_PINS = { gi:['Alice', 'Dainsleif'] };
+const BANNER_PLAN_LABELS = { gi:{ vesna:'7.1 Phase 1', vodyanitsa:'7.1 Phase 2' } };
 
 function bannerRoadmapAllowed(cfg, unit){
   const deny = BANNER_ROADMAP_DENY[cfg.key];
@@ -957,7 +958,7 @@ function overviewBannerBoard(cfg){
   const planned = rows.slice(0, 2).map((row) => ({
     ...(row.column || {}),
     status:'upcoming',
-    label:row.column?.label || null,
+    label:row.column?.label || BANNER_PLAN_LABELS[cfg.key]?.[normalizeUnitName(row.unit?.name)] || null,
     phaseUnknown:row.source === 'beta' && !row.column?.label,
     hint:row.hint,
     start:NaN,

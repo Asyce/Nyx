@@ -472,8 +472,10 @@ test('released and announced ZZZ portraits are local, status-correct, and Mavuik
   assert.match(materials, /onError=\{\(\) => setSourceIndex/);
 });
 
-test('ZZZ identities and structured HSR/ZZZ/WuWa signature links survive future data refreshes', async () => {
-  const [hsr, zzz, zzzBeta, wuwa, cmBase] = await Promise.all([
+test('structured GI/HSR/ZZZ/WuWa signature links and ZZZ identities survive future data refreshes', async () => {
+  const [gi, giBeta, hsr, zzz, zzzBeta, wuwa, cmBase] = await Promise.all([
+    loadGenerated('cm-data-gi.js', 'gi'),
+    loadGenerated('cm-data-gi-beta.js', 'gi', true),
     loadGenerated('cm-data-hsr.js', 'hsr'),
     loadGenerated('cm-data-zzz.js', 'zzz'),
     loadGenerated('cm-data-zzz-beta.js', 'zzz', true),
@@ -481,6 +483,22 @@ test('ZZZ identities and structured HSR/ZZZ/WuWa signature links survive future 
     read('src/data/generated/cm-data.js'),
   ]);
   const betaMeta = JSON.parse(cmBase.match(/const CM_BETA_META = (\{[\s\S]*?\});\s*const CM_LEVELING/)?.[1] || '{}');
+  const giVodyanitsa = giBeta.roster.find((ch) => ch.n === 'Vodyanitsa');
+  const giVesna = giBeta.roster.find((ch) => ch.n === 'Vesna');
+  assert.equal(giVodyanitsa?.signatureWeaponId, '14524');
+  assert.equal(giVodyanitsa?.signatureWeaponName, '?');
+  assert.equal(giVodyanitsa?.signatureWeapon?.educated, true);
+  assert.equal(giVesna?.signatureWeaponId, '11522');
+  assert.equal(giVesna?.signatureWeaponName, '?');
+  assert.equal(giVesna?.signatureWeapon?.educated, true);
+  const giBetaWeapons = new Map((giBeta.weapons || []).map((weapon) => [String(weapon.id), weapon]));
+  assert.equal(giBetaWeapons.get('14524')?.name, '?');
+  assert.equal(giBetaWeapons.get('11522')?.name, '?');
+  assert.equal(giBetaWeapons.get('390002')?.name, '?', 'ID-only beta weapon labels stay hidden');
+  const giMavuika = gi.roster.find((ch) => ch.n === 'Mavuika');
+  assert.equal(giMavuika?.signatureWeaponId, '12514', 'explicit signature mappings still win');
+  assert.equal(giMavuika?.signatureWeaponName, 'A Thousand Blazing Suns');
+  assert.notEqual(giMavuika?.signatureWeapon?.educated, true);
   assert.equal(betaMeta.zzz?.newCount, zzzBeta.roster.filter((ch) => ch.betaStatus === 'new').length);
   assert.equal(betaMeta.zzz?.changedCount, zzzBeta.roster.filter((ch) => ch.betaStatus === 'changed').length);
   const betaNew = new Set(zzzBeta.roster.filter((ch) => ch.betaStatus === 'new').map((ch) => ch.n));

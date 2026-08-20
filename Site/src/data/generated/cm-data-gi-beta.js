@@ -1348,6 +1348,14 @@
         "nation": "Snezhnaya Star"
       },
       "book": "Glory",
+      "signatureWeapon": {
+        "id": "11522",
+        "name": "?",
+        "educated": true
+      },
+      "signatureWeaponId": "11522",
+      "signatureWeaponName": "?",
+      "signatureWeaponEducated": true,
       "req": {
         "ascension": [
           {
@@ -4775,6 +4783,14 @@
         "nation": "Snezhnaya"
       },
       "book": "Fortitude",
+      "signatureWeapon": {
+        "id": "14524",
+        "name": "?",
+        "educated": true
+      },
+      "signatureWeaponId": "14524",
+      "signatureWeaponName": "?",
+      "signatureWeaponEducated": true,
       "req": {
         "ascension": [
           {
@@ -6932,7 +6948,7 @@
   "weapons": [
     {
       "id": "14524",
-      "name": "Weapon: Catalyst",
+      "name": "?",
       "rarity": 5,
       "weaponType": "Catalyst",
       "type": "Catalyst",
@@ -7180,7 +7196,7 @@
     },
     {
       "id": "11522",
-      "name": "Weapon: Sword",
+      "name": "?",
       "rarity": 5,
       "weaponType": "Sword",
       "type": "Sword",
@@ -7356,7 +7372,7 @@
     },
     {
       "id": "15437",
-      "name": "Weapon: Bow",
+      "name": "?",
       "rarity": 4,
       "weaponType": "Bow",
       "type": "Bow",
@@ -7580,7 +7596,7 @@
     },
     {
       "id": "14437",
-      "name": "Weapon: Catalyst",
+      "name": "?",
       "rarity": 4,
       "weaponType": "Catalyst",
       "type": "Catalyst",
@@ -7779,30 +7795,8 @@
       "cost": 150000
     },
     {
-      "id": "390002",
-      "name": "390002",
-      "rarity": 4,
-      "weaponType": "Sword",
-      "type": "Sword",
-      "icon": "../../Database/GameData/gi/assets/weapons/icons/UI_EquipIcon_Sword_WeaponQuestSnezhnaya01.webp",
-      "art": "../../Database/GameData/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Sword_WeaponQuestSnezhnaya01.webp",
-      "items": [],
-      "cost": 0
-    },
-    {
-      "id": "390003",
-      "name": "390003",
-      "rarity": 4,
-      "weaponType": "Sword",
-      "type": "Sword",
-      "icon": "../../Database/GameData/gi/assets/weapons/icons/UI_EquipIcon_Sword_WeaponQuestSnezhnaya02.webp",
-      "art": "../../Database/GameData/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Sword_WeaponQuestSnezhnaya02.webp",
-      "items": [],
-      "cost": 0
-    },
-    {
       "id": "11437",
-      "name": "Weapon: Sword",
+      "name": "?",
       "rarity": 4,
       "weaponType": "Sword",
       "type": "Sword",
@@ -7978,7 +7972,7 @@
     },
     {
       "id": "11438",
-      "name": "Weapon: Sword",
+      "name": "?",
       "rarity": 4,
       "weaponType": "Sword",
       "type": "Sword",
@@ -8211,6 +8205,28 @@
         }
       ],
       "cost": 150000
+    },
+    {
+      "id": "390002",
+      "name": "?",
+      "rarity": 4,
+      "weaponType": "Sword",
+      "type": "Sword",
+      "icon": "../../Database/GameData/gi/assets/weapons/icons/UI_EquipIcon_Sword_WeaponQuestSnezhnaya01.webp",
+      "art": "../../Database/GameData/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Sword_WeaponQuestSnezhnaya01.webp",
+      "items": [],
+      "cost": 0
+    },
+    {
+      "id": "390003",
+      "name": "?",
+      "rarity": 4,
+      "weaponType": "Sword",
+      "type": "Sword",
+      "icon": "../../Database/GameData/gi/assets/weapons/icons/UI_EquipIcon_Sword_WeaponQuestSnezhnaya02.webp",
+      "art": "../../Database/GameData/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Sword_WeaponQuestSnezhnaya02.webp",
+      "items": [],
+      "cost": 0
     }
   ]
 };

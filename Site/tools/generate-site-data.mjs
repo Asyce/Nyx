@@ -2469,7 +2469,7 @@ function buildGiWeaponRoster() {
       const type = weaponMap[weapon.type] || weapon.type || 'Weapon';
       return {
         id: String(weapon.id),
-        name: cleanText(weapon.name, 90),
+        name: sanitizeGiWeaponName(weapon.name),
         rarity: rarityNumber(weapon.rarity, 0),
         weaponType: type,
         type,
@@ -2542,19 +2542,75 @@ function buildGiKit(raw) {
   return sections.length ? { ...kitSource('gi'), sections } : null;
 }
 
+function sanitizeGiWeaponName(value) {
+  const name = cleanText(value, 90);
+  return !name || /^\d+$/.test(name) || looksLikeTextMapKey(name) || /^weapon(?:\s*:\s*.+)?$/i.test(name) ? '?' : name;
+}
+
 function loadGiSignatureMap() {
   const rel = 'AsIveHoarded/gi-signatures.json';
-  if (!exists(rel)) return new Map();
-  const src = readJson(rel);
-  const rows = src.signatures || src;
   const map = new Map();
-  for (const [name, entry] of Object.entries(rows || {})) {
-    if (!name || !entry?.weaponId) continue;
-    map.set(normKey(name), {
-      id: String(entry.weaponId),
-      name: cleanText(entry.weaponName || '', 90),
-      build: cleanText(entry.build || '', 90) || undefined,
-      educated: !!entry.educated,
+  if (exists(rel)) {
+    const src = readJson(rel);
+    const rows = src.signatures || src;
+    for (const [name, entry] of Object.entries(rows || {})) {
+      if (!name || !entry?.weaponId) continue;
+      map.set(normKey(name), {
+        id: String(entry.weaponId),
+        name: sanitizeGiWeaponName(entry.weaponName || ''),
+        build: cleanText(entry.build || '', 90) || undefined,
+        educated: !!entry.educated,
+      });
+    }
+  }
+
+  const manifest = exists('GameData/manifest.json') ? readJson('GameData/manifest.json') : {};
+  const overviewRel = `GameData/gi/${nch()}/overview.json`;
+  const overview = exists(overviewRel) ? readJson(overviewRel) : {};
+  const cohort = manifest.gi?.new || overview.newInManifest || {};
+  const newCharacterIds = new Set((cohort.character || []).map((id) => String(id)));
+  const newWeaponIds = new Set((cohort.weapon || []).map((id) => String(id)));
+  if (!newCharacterIds.size || !newWeaponIds.size) return map;
+
+  const charactersRel = `GameData/gi/${nch()}/characters.json`;
+  const weaponsRel = `GameData/gi/${nch()}/weapons.json`;
+  if (!exists(charactersRel) || !exists(weaponsRel)) return map;
+  const characters = readJson(charactersRel)
+    .filter((ch) => newCharacterIds.has(String(ch?.id))
+      && ch?.name
+      && rarityNumber(ch.rarity, 0) === 5
+      && weaponMap[ch.weapon]);
+  const weapons = readJson(weaponsRel)
+    .filter((weapon) => newWeaponIds.has(String(weapon?.id))
+      && weapon?.name
+      && rarityNumber(weapon.rarity, 0) === 5
+      && weapon?.type);
+  const charactersByType = new Map();
+  const weaponsByType = new Map();
+  for (const character of characters) {
+    const type = character.weapon;
+    const rows = charactersByType.get(type) || [];
+    rows.push(character);
+    charactersByType.set(type, rows);
+  }
+  for (const weapon of weapons) {
+    const type = weapon.type;
+    const rows = weaponsByType.get(type) || [];
+    rows.push(weapon);
+    weaponsByType.set(type, rows);
+  }
+  for (const [type, characterRows] of charactersByType) {
+    const weaponRows = weaponsByType.get(type) || [];
+    if (characterRows.length !== 1 || weaponRows.length !== 1) continue;
+    const character = characterRows[0];
+    const weapon = weaponRows[0];
+    const name = cleanText(resolvedCharacterName(character), 120);
+    const key = normKey(name);
+    if (!key || map.has(key)) continue;
+    map.set(key, {
+      id: String(weapon.id),
+      name: sanitizeGiWeaponName(weapon.name),
+      educated: true,
     });
   }
   return map;

@@ -424,6 +424,40 @@ test('released and announced ZZZ portraits are local, status-correct, and Mavuik
   assert.match(materials, /onError=\{\(\) => setSourceIndex/);
 });
 
+test('ZZZ identities and structured ZZZ/WuWa signature links survive future data refreshes', async () => {
+  const [zzz, zzzBeta, wuwa] = await Promise.all([
+    loadGenerated('cm-data-zzz.js', 'zzz'),
+    loadGenerated('cm-data-zzz-beta.js', 'zzz', true),
+    loadGenerated('cm-data-wuwa.js', 'wuwa'),
+  ]);
+  const betaNew = new Set(zzzBeta.roster.filter((ch) => ch.betaStatus === 'new').map((ch) => ch.n));
+  assert.equal(betaNew.has('Soldier 0 - Anby'), false, 'released Soldier 0 is not resurfaced as new beta');
+  assert.equal(betaNew.has('Starlight - Billy'), false, 'released Starlight Billy is not resurfaced as new beta');
+  assert.equal(betaNew.has('Roxy'), true);
+  assert.equal(betaNew.has('Claret'), true);
+  assert.equal(zzz.roster.find((ch) => ch.n === 'Roxy')?.upcoming, true, 'Roxy stays an upcoming placeholder in Live');
+  assert.equal(zzz.roster.find((ch) => ch.n === 'Claret')?.upcoming, true, 'Claret stays an upcoming placeholder in Live');
+
+  const zzzCharacter = (name) => zzzBeta.roster.find((ch) => ch.n === name) || zzz.roster.find((ch) => ch.n === name);
+  const roxy = zzzCharacter('Roxy');
+  const claret = zzzCharacter('Claret');
+  assert.equal(roxy?.facts?.fullName, 'Roxy Ifrita Pryce');
+  assert.doesNotMatch(JSON.stringify(roxy), /"fullName":"\.\.\."/);
+  assert.ok(claret?.icon || claret?.card, 'Claret keeps trusted local Prydwen art');
+  assert.ok((await fs.stat(localAsset(claret.icon || claret.card))).size > 0, 'Claret art exists locally');
+  assert.equal(zzzCharacter('Sigrid')?.signatureWeaponName, "Knight's Extolment");
+  assert.equal(zzzCharacter('Anby')?.signatureWeaponName, 'Demara Battery Mark II');
+  assert.equal(zzzCharacter('Anby: Soldier 0')?.status, 'live');
+  assert.equal(zzzCharacter('Anby: Soldier 0')?.signatureWeaponName, 'Severed Innocence');
+  assert.equal(zzzCharacter('Billy - Starlight')?.status, 'live');
+
+  const wuwaCharacter = (name) => wuwa.roster.find((ch) => ch.n === name);
+  assert.equal(wuwaCharacter('Qingxiao')?.signatureWeaponName, 'Glint of Clouds');
+  assert.equal(wuwaCharacter('Jingran')?.signatureWeaponName, 'Thousandfold Deliverance');
+  assert.equal(wuwaCharacter('Xiangli Yao')?.signatureWeaponName, "Verity's Handle");
+  assert.equal(wuwaCharacter('Qingxiao')?.signatureWeapon?.educated, true, 'WuWa recommendations remain explicitly educated');
+});
+
 test('materials share URLs round-trip unknown selections in deterministic order', async () => {
   const { nyxMaterialsCardUrl, nyxParseMaterialsCardSearch } = await loadMaterialsShareCard();
   const href = nyxMaterialsCardUrl({

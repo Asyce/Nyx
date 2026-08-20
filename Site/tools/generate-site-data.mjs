@@ -527,6 +527,11 @@ function resolvedCharacterName(ch) {
   return raw.replace(/^Avatar_[A-Za-z]+_Size\d+_/i, '').replace(/_En$/i, '').replace(/_/g, ' ').trim() || raw;
 }
 
+function zzzNameOrderAlias(value) {
+  const words = String(value || '').toLowerCase().match(/[a-z0-9]+/g) || [];
+  return words.length > 1 ? words.sort().join(' ') : undefined;
+}
+
 function gamedataCharacterAliases(game, ch) {
   const key = game === 'wuwa' ? 'ww' : game;
   const id = String(ch?.id || '');
@@ -553,8 +558,13 @@ function gamedataCharacterAliases(game, ch) {
 
   if (key === 'ww' && name && !/^the\s+/i.test(name)) aliases.push(`The ${name}`);
 
-  // GameData names agent 1261 "Jane"; Prydwen (and the game's UI) use "Jane Doe".
-  if (key === 'zzz' && id === '1261') aliases.push('Jane Doe');
+  if (key === 'zzz') {
+    // Prydwen and GameData sometimes reverse variant names ("Billy - Starlight"
+    // vs "Starlight - Billy"). A sorted token alias keeps future variants joined.
+    aliases.push(zzzNameOrderAlias(name), zzzNameOrderAlias(resolved));
+    // GameData names agent 1261 "Jane"; Prydwen (and the game's UI) use "Jane Doe".
+    if (id === '1261') aliases.push('Jane Doe');
+  }
 
   return uniq(aliases.map((alias) => cleanText(alias, 120)).filter(Boolean));
 }
@@ -958,11 +968,14 @@ function loadWikiTitleCache() {
   const src = readJson(rel);
   for (const [game, group] of Object.entries(src.games || {})) {
     const key = game === 'ww' ? 'wuwa' : game;
-    cache[key] = new Map();
+    const title = new Map();
+    const pageTitle = new Map();
     for (const entry of group.entries || []) {
-      if (!entry?.name || !entry.title) continue;
-      cache[key].set(normKey(entry.name), cleanText(entry.title, 90));
+      if (!entry?.name) continue;
+      if (entry.title) title.set(normKey(entry.name), cleanText(entry.title, 90));
+      if (entry.pageTitle) pageTitle.set(normKey(entry.name), cleanText(entry.pageTitle, 120));
     }
+    cache[key] = { title, pageTitle };
   }
   return cache;
 }
@@ -1315,7 +1328,7 @@ const MANUAL_OVERVIEW_ART_ZOOM = {
 function titleOverride(game, name) {
   const key = game === 'ww' ? 'wuwa' : game;
   const normalized = normKey(name);
-  return WIKI_TITLE_CACHE[key]?.get(normalized) || MANUAL_CHARACTER_TITLE_OVERRIDES[key]?.[normalized] || undefined;
+  return WIKI_TITLE_CACHE[key]?.title?.get(normalized) || MANUAL_CHARACTER_TITLE_OVERRIDES[key]?.[normalized] || undefined;
 }
 
 function displayTitle(game, source, facts = {}) {
@@ -1810,7 +1823,7 @@ function profileNumber(value, digits = 2) {
 
 function profileText(value, max = 120) {
   const text = cleanText(value, max);
-  if (!text || /^(?:unknown|none|n\/a|-+|\?+|[■□]+)$/i.test(text)) return undefined;
+  if (!text || /^(?:unknown|none|n\/a|-+|\?+|\.+|[■□]+)$/i.test(text)) return undefined;
   return text;
 }
 
@@ -2100,12 +2113,16 @@ function localAvatarOverlay(game, channel = nch()) {
 }
 
 function trustedPrydwenIcon(game, ch) {
-  const rel = ch?.art?.icon;
-  if (!rel) return null;
   const slug = normKey(ch?.slug || ch?.id || ch?.name);
-  const base = normKey(path.basename(String(rel)).replace(/-[a-f0-9]+\.[a-z0-9]+$/i, ''));
-  if (!slug || !base || !base.includes(slug)) return null;
-  return dbAsset(rel);
+  if (!slug) return null;
+  for (const rel of [ch?.art?.icon, ch?.art?.card, ch?.art?.full]) {
+    if (!rel) continue;
+    const base = normKey(path.basename(String(rel)).replace(/-[a-f0-9]+\.[a-z0-9]+$/i, ''));
+    if (!base || !base.includes(slug)) continue;
+    const asset = dbAsset(rel);
+    if (asset) return asset;
+  }
+  return null;
 }
 
 function materialLookup(mat, lookup) {
@@ -2992,7 +3009,7 @@ function zzzWEngineType(engine) {
 function buildZzzWEngineRoster() {
   if (!exists(`GameData/zzz/${nch()}/w-engines.json`)) return [];
   return readJson(`GameData/zzz/${nch()}/w-engines.json`)
-    .filter((engine) => engine?.name && rarityNumber(engine.rarity, 0) >= 3)
+    .filter((engine) => profileText(engine?.name) && rarityNumber(engine.rarity, 0) >= 3)
     .map((engine) => {
       const summed = sumZzzWEngineMaterials(engine);
       const type = zzzWEngineType(engine);
@@ -3009,6 +3026,40 @@ function buildZzzWEngineRoster() {
       };
     })
     .sort((a, b) => b.rarity - a.rarity || String(a.weaponType || '').localeCompare(String(b.weaponType || '')) || a.name.localeCompare(b.name));
+}
+
+function loadZzzBetaIdentityMap() {
+  const out = new Map();
+  if (GAMEDATA_CHANNEL !== 'beta' || !exists('GachaBase/zzz/beta-changelog.json')) return out;
+  for (const row of readJson('GachaBase/zzz/beta-changelog.json').entries || []) {
+    if (row?.game !== 'zzz' || row?.type !== 'agents' || row?.id === undefined || !row?.name) continue;
+    const id = String(row.id);
+    if (!out.has(id)) out.set(id, { id, name: cleanText(row.name, 120) });
+  }
+  return out;
+}
+
+function buildZzzGameDataSignatureMap() {
+  const out = new Map();
+  const agentRel = `GameData/zzz/${nch()}/agents.json`;
+  const engineRel = `GameData/zzz/${nch()}/w-engines.json`;
+  if (!exists(agentRel) || !exists(engineRel)) return out;
+  const agents = new Map(readJson(agentRel).filter((agent) => agent?.id !== undefined).map((agent) => [String(agent.id), agent]));
+  const fallback = loadZzzBetaIdentityMap();
+  const weapons = new Map(buildZzzWEngineRoster().map((weapon) => [String(weapon.id), weapon]));
+  for (const engine of readJson(engineRel)) {
+    const match = String(engine?.codeName || '').match(/^Weapon_[SA]_(\d+)$/i);
+    if (!match) continue;
+    const agent = agents.get(match[1]) || (!agents.has(match[1]) ? fallback.get(match[1]) : null);
+    const weapon = weapons.get(String(engine.id));
+    if (!agent?.name || !weapon) continue;
+    setNamedMapEntry(out, agent.name, {
+      ...weapon,
+      source: 'GameData W-Engine ownership',
+      educated: false,
+    }, gamedataCharacterAliases('zzz', agent));
+  }
+  return out;
 }
 
 function sumWuwaWeaponMaterials(weapon) {
@@ -3039,6 +3090,28 @@ function buildWuwaWeaponRoster() {
       };
     })
     .sort((a, b) => b.rarity - a.rarity || String(a.weaponType || '').localeCompare(String(b.weaponType || '')) || a.name.localeCompare(b.name));
+}
+
+function buildWuwaGameDataSignatureMap() {
+  const out = new Map();
+  const characterRel = `GameData/ww/${nch()}/characters.json`;
+  if (!exists(characterRel)) return out;
+  const weapons = new Map(buildWuwaWeaponRoster().map((weapon) => [String(weapon.id), weapon]));
+  for (const ch of readJson(characterRel)) {
+    if (Number(ch?.rarity) !== 5) continue;
+    const rawRel = `GameData/ww/${nch()}/raw/characters/${ch.id}.json`;
+    if (!ch?.name || !exists(rawRel)) continue;
+    const raw = readJson(rawRel);
+    const firstId = raw?.recommend?.weapon?.[0];
+    const weapon = weapons.get(String(firstId?.id ?? firstId));
+    if (!weapon || Number(weapon.rarity) !== 5 || /^210[1-5]0015$/.test(String(weapon.id))) continue;
+    setNamedMapEntry(out, ch.name, {
+      ...weapon,
+      source: 'GameData recommendation',
+      educated: true,
+    }, gamedataCharacterAliases('ww', ch));
+  }
+  return out;
 }
 
 const weaponRosterCache = new Map();
@@ -3546,17 +3619,22 @@ function buildPrydwenRoster(game, mapFacts, reqByName = null, skillIconsByName =
   // (which arrive without icons/data). Other games keep the full Prydwen roster.
   const chars = (game === 'zzz' ? rawChars.filter((ch) => {
     const official = ZZZ_OFFICIAL_CHARACTER_PORTRAITS.get(normKey(ch.name));
-    return overlay.has(normKey(ch.name)) || official?.status === 'released' || (GAMEDATA_CHANNEL === 'beta' && official?.status === 'announced');
+    return overlay.has(normKey(ch.name))
+      || overlay.has(normKey(zzzNameOrderAlias(ch.name)))
+      || official?.status === 'released'
+      || (GAMEDATA_CHANNEL === 'beta' && official?.status === 'announced')
+      || trustedPrydwenIcon(game, ch);
   }) : rawChars).map((ch) => {
     const mapped = mapFacts(ch.facts || {});
-    const primaryLocal = overlay.get(normKey(ch.name));
-    const betaLocal = betaOverlay?.get(normKey(ch.name)) || null;
+    const zzzAliasKey = game === 'zzz' ? normKey(zzzNameOrderAlias(ch.name)) : null;
+    const primaryLocal = overlay.get(normKey(ch.name)) || (zzzAliasKey ? overlay.get(zzzAliasKey) : null);
+    const betaLocal = betaOverlay?.get(normKey(ch.name)) || (zzzAliasKey ? betaOverlay?.get(zzzAliasKey) : null) || null;
     // ZZZ beta-status agents can have a live placeholder stub while beta has the
     // real kit. Other games let Nanoka's live row win as soon as it appears.
     const selectedOverlay = chooseCharacterOverlay({
       game,
       primary: primaryLocal,
-      beta: betaLocal,
+      beta: primaryLocal ? betaLocal : null,
       sourceStatus: ch.contentStatus,
     });
     const local = selectedOverlay.local;
@@ -3571,13 +3649,13 @@ function buildPrydwenRoster(game, mapFacts, reqByName = null, skillIconsByName =
     const meta = fandom.get(normKey(ch.name));
     const officialPortrait = game === 'zzz' ? ZZZ_OFFICIAL_CHARACTER_PORTRAITS.get(normKey(ch.name)) : null;
     const isBetaChar = Boolean(effectiveStatus && effectiveStatus !== 'live' && officialPortrait?.status !== 'released');
-    const lookupByName = (map) => map?.get(String(ch.name || '').toLowerCase()) || map?.get(normKey(ch.name)) || null;
-    const req = (isBetaChar && lookupByName(betaReqByName)) || lookupByName(reqByName);
+    const lookupByName = (map) => map?.get(String(ch.name || '').toLowerCase()) || map?.get(normKey(ch.name)) || (zzzAliasKey ? map?.get(zzzAliasKey) : null) || null;
+    const req = (isBetaChar && primaryLocal && lookupByName(betaReqByName)) || lookupByName(reqByName);
     const skillIcons = lookupByName(skillIconsByName) || (game === 'zzz' ? ZZZ_SKILL_ICONS : null);
-    const kit = (isBetaChar && lookupByName(betaKitByName)) || lookupByName(kitByName);
-    const gamedataSignature = signatureByName?.get(String(ch.name || '').toLowerCase()) || signatureByName?.get(normKey(ch.name)) || null;
+    const kit = (isBetaChar && primaryLocal && lookupByName(betaKitByName)) || lookupByName(kitByName);
+    const gamedataSignature = lookupByName(signatureByName);
     const signatureLightCone = game === 'hsr' ? (hsrSignatureForCharacter(ch.name, mapped.path) || gamedataSignature) : null;
-    const signatureEquipment = signatureLightCone ? null : prydwenRecommendedEquipment(game, ch);
+    const signatureEquipment = signatureLightCone ? null : (gamedataSignature || prydwenRecommendedEquipment(game, ch));
     const signatureDisplay = signatureLightCone || signatureEquipment;
     const signatureReq = signatureLightCone ? (signatureLightCone.items ? signatureLightCone : hsrLightConeReqMap?.get(normKey(signatureLightCone.name))) : signatureEquipment;
     const holidayArtPool = game === 'hsr' ? (HSR_HOLIDAY_ART.get(normKey(ch.name)) || []) : [];
@@ -3589,6 +3667,7 @@ function buildPrydwenRoster(game, mapFacts, reqByName = null, skillIconsByName =
     const hasReliableData = !!(primaryLocal || req || kit);
     const upcomingOnly = effectiveStatus && effectiveStatus !== 'live' && !hasReliableData;
     const title = local?.title || displayTitle(overlayGame, ch, ch.facts || {});
+    const wikiFullName = game === 'zzz' ? WIKI_TITLE_CACHE.zzz?.pageTitle?.get(normKey(ch.name)) : null;
     const mergedReq = req || signatureReq
       ? {
           ...(req || {}),
@@ -3633,7 +3712,7 @@ function buildPrydwenRoster(game, mapFacts, reqByName = null, skillIconsByName =
           name: signatureDisplay.name,
           path: signatureDisplay.path,
           type: signatureDisplay.weaponType || signatureDisplay.type,
-          educated: false,
+          educated: Boolean(signatureDisplay.educated),
         },
         signatureWeaponId: signatureDisplay.id,
         signatureWeaponName: signatureDisplay.name,
@@ -3646,7 +3725,11 @@ function buildPrydwenRoster(game, mapFacts, reqByName = null, skillIconsByName =
       labels: ch.statusLabels || [],
       ...mapped,
       baseStats: local?.baseStats || {},
-      facts: { ...(local?.facts || {}), ...(title ? { title } : {}) },
+      facts: {
+        ...(local?.facts || {}),
+        ...(!local?.facts?.fullName && wikiFullName && normKey(wikiFullName) !== normKey(ch.name) ? { fullName:wikiFullName } : {}),
+        ...(title ? { title } : {}),
+      },
       ...(skillIcons ? { skillIcons } : {}),
       ...(kit ? { kit } : {}),
       ...(upcomingOnly ? {
@@ -3729,7 +3812,7 @@ function buildPrydwenRoster(game, mapFacts, reqByName = null, skillIconsByName =
             name: signatureLightCone.name,
             path: signatureLightCone.path,
             type: signatureLightCone.weaponType || signatureLightCone.type,
-            educated: false,
+            educated: Boolean(signatureLightCone.educated),
           },
           signatureWeaponId: signatureLightCone.id,
           signatureWeaponName: signatureLightCone.name,
@@ -3749,7 +3832,7 @@ function buildPrydwenRoster(game, mapFacts, reqByName = null, skillIconsByName =
     const have = new Set(chars.map((c) => normKey(c.n)));
     const firstVal = (v) => (v && typeof v === 'object' ? Object.values(v)[0] : v);
     for (const ag of readJson(`GameData/zzz/${nch()}/agents.json`)) {
-      if (!/^beta/.test(String(ag.contentStatus || '').toLowerCase())) continue;
+      if (String(ag.contentStatus || '').toLowerCase() !== 'beta') continue;
       const display = cleanText(resolvedCharacterName(ag), 120);
       // Match against every known alias, not just the display name — GameData's
       // "Jane" is Prydwen's "Jane Doe", and a display-only check would resurface
@@ -6282,8 +6365,8 @@ function buildRostersForChannel(channel) {
     const rawRosters = {
       gi: buildGiRoster(),
       hsr: buildPrydwenRoster('hsr', (f) => ({ r: f.rarity, el: f.element, path: f.path }), buildHsrReqMap(), buildHsrSkillIconMap(), buildHsrGameDataSignatureMap(), buildHsrKitMap()),
-      zzz: buildPrydwenRoster('zzz', (f) => ({ r: f.rarity, el: f.attribute, spec: f.specialty, tag: f.faction }), buildZzzReqMap(), null, null, buildZzzKitMap()),
-      wuwa: buildPrydwenRoster('ww', (f) => ({ r: f.rarity, el: f.element, w: f.weapon }), buildWuwaReqMap(), buildWuwaSkillIconMap(), null, buildWuwaKitMap()),
+      zzz: buildPrydwenRoster('zzz', (f) => ({ r: f.rarity, el: f.attribute, spec: f.specialty, tag: f.faction }), buildZzzReqMap(), null, buildZzzGameDataSignatureMap(), buildZzzKitMap()),
+      wuwa: buildPrydwenRoster('ww', (f) => ({ r: f.rarity, el: f.element, w: f.weapon }), buildWuwaReqMap(), buildWuwaSkillIconMap(), buildWuwaGameDataSignatureMap(), buildWuwaKitMap()),
       ae: buildEndfieldRoster(),
     };
     return Object.fromEntries(

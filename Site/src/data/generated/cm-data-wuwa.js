@@ -16526,7 +16526,7 @@
         "id": "21020096",
         "name": "Azure Oath",
         "type": "Sword",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21020096",
       "signatureWeaponName": "Azure Oath",
@@ -19844,7 +19844,7 @@
         "id": "21050066",
         "name": "Lethean Elegy",
         "type": "Rectifier",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21050066",
       "signatureWeaponName": "Lethean Elegy",
@@ -22703,7 +22703,7 @@
         "id": "21050056",
         "name": "Whispers of Sirens",
         "type": "Rectifier",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21050056",
       "signatureWeaponName": "Whispers of Sirens",
@@ -25509,7 +25509,7 @@
         "id": "21040026",
         "name": "Tragicomedy",
         "type": "Gauntlets",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21040026",
       "signatureWeaponName": "Tragicomedy",
@@ -34132,7 +34132,7 @@
             "id": "21020046",
             "name": "Bloodpact's Pledge",
             "type": "Sword",
-            "educated": false
+            "educated": true
           },
           "signatureWeaponId": "21020046",
           "signatureWeaponName": "Bloodpact's Pledge",
@@ -39334,7 +39334,7 @@
         "id": "21020026",
         "name": "Red Spring",
         "type": "Sword",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21020026",
       "signatureWeaponName": "Red Spring",
@@ -46409,7 +46409,7 @@
         "id": "21030056",
         "name": "Spectral Trigger",
         "type": "Pistols",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21030056",
       "signatureWeaponName": "Spectral Trigger",
@@ -50231,7 +50231,7 @@
         "id": "21040056",
         "name": "Daybreaker's Spine",
         "type": "Gauntlets",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21040056",
       "signatureWeaponName": "Daybreaker's Spine",
@@ -53028,7 +53028,7 @@
         "id": "21030046",
         "name": "Spectrum Blaster",
         "type": "Pistols",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21030046",
       "signatureWeaponName": "Spectrum Blaster",
@@ -56302,7 +56302,7 @@
         "id": "21010056",
         "name": "Kumokiri",
         "type": "Broadblade",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21010056",
       "signatureWeaponName": "Kumokiri",
@@ -59782,7 +59782,7 @@
         "id": "21040036",
         "name": "Blazing Justice",
         "type": "Gauntlets",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21040036",
       "signatureWeaponName": "Blazing Justice",
@@ -62598,7 +62598,7 @@
         "id": "21050046",
         "name": "Luminous Hymn",
         "type": "Rectifier",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21050046",
       "signatureWeaponName": "Luminous Hymn",
@@ -64966,7 +64966,7 @@
         "id": "21050036",
         "name": "Stellar Symphony",
         "type": "Rectifier",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21050036",
       "signatureWeaponName": "Stellar Symphony",
@@ -71973,6 +71973,14 @@
       "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_73_UI.webp",
       "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleQingxiao.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/qingxiao-4f6ce581004d.webp",
+      "signatureWeapon": {
+        "id": "21020106",
+        "name": "Glint of Clouds",
+        "type": "Sword",
+        "educated": true
+      },
+      "signatureWeaponId": "21020106",
+      "signatureWeaponName": "Glint of Clouds",
       "status": "beta",
       "labels": [
         "3.6"
@@ -74831,7 +74839,145 @@
         ],
         "ascCost": 170000,
         "talentCost": 2030000,
-        "currency": 2200000
+        "currency": 2530000,
+        "weapon": {
+          "name": "Glint of Clouds",
+          "icon": "../../Database/GameData/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020106_UI.webp",
+          "art": "../../Database/GameData/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020106_UI.webp",
+          "items": [
+            {
+              "id": "41100071",
+              "name": "LF Mech Core",
+              "qty": 6,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_025_UI.webp",
+              "source": "Clamorling TDs in Lahai-Roi / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Clamorling TDs in Lahai-Roi"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100072",
+              "name": "MF Mech Core",
+              "qty": 6,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_026_UI.webp",
+              "source": "Clamorling TDs in Lahai-Roi / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Clamorling TDs in Lahai-Roi"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100073",
+              "name": "HF Mech Core",
+              "qty": 10,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_027_UI.webp",
+              "source": "Clamorling TDs in Lahai-Roi",
+              "sourceDetails": [
+                {
+                  "name": "Clamorling TDs in Lahai-Roi"
+                }
+              ]
+            },
+            {
+              "id": "41100074",
+              "name": "FF Mech Core",
+              "qty": 12,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_028_UI.webp",
+              "source": "Clamorling TDs in Lahai-Roi",
+              "sourceDetails": [
+                {
+                  "name": "Clamorling TDs in Lahai-Roi"
+                }
+              ]
+            },
+            {
+              "id": "43021011",
+              "name": "Broken Wing Polarizer",
+              "qty": 6,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_1_UI.webp",
+              "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Forsaken Remnants",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Cloudfall Chasm"
+                },
+                {
+                  "name": "Forgery Challenge: Forsaken Remnants"
+                }
+              ]
+            },
+            {
+              "id": "43021012",
+              "name": "Monowing Polarizer",
+              "qty": 8,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_2_UI.webp",
+              "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Forsaken Remnants",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Cloudfall Chasm"
+                },
+                {
+                  "name": "Forgery Challenge: Forsaken Remnants"
+                }
+              ]
+            },
+            {
+              "id": "43021013",
+              "name": "Polywing Polarizer",
+              "qty": 6,
+              "rar": 4,
+              "kind": "book",
+              "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_3_UI.webp",
+              "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Forsaken Remnants",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Cloudfall Chasm"
+                },
+                {
+                  "name": "Forgery Challenge: Forsaken Remnants"
+                }
+              ]
+            },
+            {
+              "id": "43021014",
+              "name": "Layered Wing Polarizer",
+              "qty": 20,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_4_UI.webp",
+              "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Forsaken Remnants",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Cloudfall Chasm"
+                },
+                {
+                  "name": "Forgery Challenge: Forsaken Remnants"
+                }
+              ]
+            }
+          ],
+          "cost": 330000
+        }
       },
       "recent": 1
     },
@@ -74863,7 +75009,7 @@
         "id": "21040066",
         "name": "Solsworn Ciphers",
         "type": "Gauntlets",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21040066",
       "signatureWeaponName": "Solsworn Ciphers",
@@ -77745,7 +77891,7 @@
         "id": "21020066",
         "name": "Emerald Sentence",
         "type": "Sword",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21020066",
       "signatureWeaponName": "Emerald Sentence",
@@ -80025,7 +80171,7 @@
         "id": "21040046",
         "name": "Moongazer's Sigil",
         "type": "Gauntlets",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21040046",
       "signatureWeaponName": "Moongazer's Sigil",
@@ -83105,7 +83251,7 @@
         "id": "21020056",
         "name": "Defier's Thorn",
         "type": "Sword",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21020056",
       "signatureWeaponName": "Defier's Thorn",
@@ -86759,7 +86905,7 @@
         "id": "21030026",
         "name": "Woodland Aria",
         "type": "Pistols",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21030026",
       "signatureWeaponName": "Woodland Aria",
@@ -91530,7 +91676,7 @@
         "id": "21010016",
         "name": "Verdant Summit",
         "type": "Broadblade",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21010016",
       "signatureWeaponName": "Verdant Summit",
@@ -97607,7 +97753,7 @@
         "id": "21030066",
         "name": "Skull Thrasher",
         "type": "Pistols",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21030066",
       "signatureWeaponName": "Skull Thrasher",
@@ -103385,7 +103531,7 @@
         "id": "21010046",
         "name": "Thunderflare Dominion",
         "type": "Broadblade",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21010046",
       "signatureWeaponName": "Thunderflare Dominion",
@@ -106387,13 +106533,13 @@
       "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleXiangliyao.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/xiangli-yao-de2311c30de7.webp",
       "signatureWeapon": {
-        "id": "21040046",
-        "name": "Moongazer's Sigil",
+        "id": "21040016",
+        "name": "Verity's Handle",
         "type": "Gauntlets",
-        "educated": false
+        "educated": true
       },
-      "signatureWeaponId": "21040046",
-      "signatureWeaponName": "Moongazer's Sigil",
+      "signatureWeaponId": "21040016",
+      "signatureWeaponName": "Verity's Handle",
       "status": "live",
       "labels": [],
       "r": 5,
@@ -108629,9 +108775,9 @@
         "talentCost": 2030000,
         "currency": 2530000,
         "weapon": {
-          "name": "Moongazer's Sigil",
-          "icon": "../../Database/GameData/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21040046_UI.webp",
-          "art": "../../Database/GameData/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21040046_UI.webp",
+          "name": "Verity's Handle",
+          "icon": "../../Database/GameData/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21040016_UI.webp",
+          "art": "../../Database/GameData/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21040016_UI.webp",
           "items": [
             {
               "id": "41100021",
@@ -108799,7 +108945,7 @@
         "id": "21010026",
         "name": "Ages of Harvest",
         "type": "Broadblade",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21010026",
       "signatureWeaponName": "Ages of Harvest",
@@ -113626,7 +113772,7 @@
         "id": "21050016",
         "name": "Stringmaster",
         "type": "Rectifier",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21050016",
       "signatureWeaponName": "Stringmaster",
@@ -118224,6 +118370,14 @@
       "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_74_UI.webp",
       "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleJingran.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/jingran-0e6d2cc79ad5.webp",
+      "signatureWeapon": {
+        "id": "21010076",
+        "name": "Thousandfold Deliverance",
+        "type": "Broadblade",
+        "educated": true
+      },
+      "signatureWeaponId": "21010076",
+      "signatureWeaponName": "Thousandfold Deliverance",
       "status": "beta",
       "labels": [
         "3.6"
@@ -121341,7 +121495,145 @@
         ],
         "ascCost": 170000,
         "talentCost": 2030000,
-        "currency": 2200000
+        "currency": 2530000,
+        "weapon": {
+          "name": "Thousandfold Deliverance",
+          "icon": "../../Database/GameData/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21010076_UI.webp",
+          "art": "../../Database/GameData/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21010076_UI.webp",
+          "items": [
+            {
+              "id": "41100081",
+              "name": "Fractured Exoswarm Pendant",
+              "qty": 6,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_1_UI.webp",
+              "source": "Roya Outcasts / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Roya Outcasts"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100082",
+              "name": "Worn Exoswarm Pendant",
+              "qty": 6,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_2_UI.webp",
+              "source": "Roya Outcasts / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Roya Outcasts"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100083",
+              "name": "Chipped Exoswarm Pendant",
+              "qty": 10,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_3_UI.webp",
+              "source": "Roya Outcasts",
+              "sourceDetails": [
+                {
+                  "name": "Roya Outcasts"
+                }
+              ]
+            },
+            {
+              "id": "41100084",
+              "name": "Intact Exoswarm Pendant",
+              "qty": 12,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_4_UI.webp",
+              "source": "Roya Outcasts",
+              "sourceDetails": [
+                {
+                  "name": "Roya Outcasts"
+                }
+              ]
+            },
+            {
+              "id": "43021041",
+              "name": "LF Carved Crystal",
+              "qty": 6,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_011_1_UI.webp",
+              "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Corroded Remnants",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Cloudfall Chasm"
+                },
+                {
+                  "name": "Forgery Challenge: Corroded Remnants"
+                }
+              ]
+            },
+            {
+              "id": "43021042",
+              "name": "MF Carved Crystal",
+              "qty": 8,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_011_2_UI.webp",
+              "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Corroded Remnants",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Cloudfall Chasm"
+                },
+                {
+                  "name": "Forgery Challenge: Corroded Remnants"
+                }
+              ]
+            },
+            {
+              "id": "43021043",
+              "name": "HF Carved Crystal",
+              "qty": 6,
+              "rar": 4,
+              "kind": "book",
+              "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_011_3_UI.webp",
+              "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Corroded Remnants",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Cloudfall Chasm"
+                },
+                {
+                  "name": "Forgery Challenge: Corroded Remnants"
+                }
+              ]
+            },
+            {
+              "id": "43021044",
+              "name": "FF Carved Crystal",
+              "qty": 20,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_011_4_UI.webp",
+              "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Corroded Remnants",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Cloudfall Chasm"
+                },
+                {
+                  "name": "Forgery Challenge: Corroded Remnants"
+                }
+              ]
+            }
+          ],
+          "cost": 330000
+        }
       },
       "recent": 1
     },
@@ -121372,7 +121664,7 @@
         "id": "21050076",
         "name": "Forged Dwarf Star",
         "type": "Rectifier",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21050076",
       "signatureWeaponName": "Forged Dwarf Star",
@@ -124604,7 +124896,7 @@
         "id": "21020076",
         "name": "Everbright Polestar",
         "type": "Sword",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21020076",
       "signatureWeaponName": "Everbright Polestar",
@@ -128468,7 +128760,7 @@
         "id": "21010066",
         "name": "Starfield Calibrator",
         "type": "Broadblade",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21010066",
       "signatureWeaponName": "Starfield Calibrator",
@@ -131130,7 +131422,7 @@
         "id": "21030036",
         "name": "Lux & Umbra",
         "type": "Pistols",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21030036",
       "signatureWeaponName": "Lux & Umbra",
@@ -134392,7 +134684,7 @@
         "id": "21010036",
         "name": "Wildfire Mark",
         "type": "Broadblade",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21010036",
       "signatureWeaponName": "Wildfire Mark",
@@ -137238,7 +137530,7 @@
         "id": "21020036",
         "name": "Unflickering Valor",
         "type": "Sword",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21020036",
       "signatureWeaponName": "Unflickering Valor",
@@ -139838,7 +140130,7 @@
         "id": "21020016",
         "name": "Blazing Brilliance",
         "type": "Sword",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21020016",
       "signatureWeaponName": "Blazing Brilliance",
@@ -148376,7 +148668,7 @@
         "id": "21050096",
         "name": "Firstlight's Herald",
         "type": "Rectifier",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21050096",
       "signatureWeaponName": "Firstlight's Herald",
@@ -151475,7 +151767,7 @@
         "id": "21050086",
         "name": "Freeze Frame",
         "type": "Rectifier",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21050086",
       "signatureWeaponName": "Freeze Frame",
@@ -154517,7 +154809,7 @@
         "id": "21020086",
         "name": "Frostburn",
         "type": "Sword",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21020086",
       "signatureWeaponName": "Frostburn",
@@ -158086,7 +158378,7 @@
         "id": "21030016",
         "name": "The Last Dance",
         "type": "Pistols",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21030016",
       "signatureWeaponName": "The Last Dance",
@@ -163144,7 +163436,7 @@
         "id": "21050026",
         "name": "Rime-Draped Sprouts",
         "type": "Rectifier",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21050026",
       "signatureWeaponName": "Rime-Draped Sprouts",
@@ -171792,7 +172084,8 @@
       "slug": "hsin",
       "updated": 1781481600000,
       "sourceOrder": 0,
-      "icon": null,
+      "icon": "../../Database/Prydwen/ww/assets/characters/hsin-ca1c715d65d0.webp",
+      "iconZoom": 1.18,
       "art": "../../Database/Prydwen/ww/assets/characters/hsin-652a82fc04a8.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/hsin-ca1c715d65d0.webp",
       "status": "beta",
@@ -171817,7 +172110,8 @@
       "slug": "suoming",
       "updated": 1781481600000,
       "sourceOrder": 0,
-      "icon": null,
+      "icon": "../../Database/Prydwen/ww/assets/characters/suoming-21bccf295a95.webp",
+      "iconZoom": 1.18,
       "art": "../../Database/Prydwen/ww/assets/characters/suoming-bb9eb3850344.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/suoming-21bccf295a95.webp",
       "status": "beta",

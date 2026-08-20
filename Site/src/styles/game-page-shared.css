@@ -47,24 +47,6 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
 .gp *{ box-sizing:border-box; margin:0; padding:0; }
 
 /* Shared contracts stay dormant until their feature-by-feature migrations. */
-.nyx-btn{
-  appearance:none; display:inline-flex; align-items:center; justify-content:center; gap:var(--nyx-space-8);
-  clip-path:var(--nyx-clip-control); text-transform:uppercase; letter-spacing:var(--nyx-tracking-control);
-  min-height:38px; box-sizing:border-box; border:0; border-radius:0;
-  padding:var(--nyx-space-8) var(--nyx-space-14); color:var(--nyx-color-control-text);
-  background:var(--nyx-color-control-surface); box-shadow:var(--nyx-shadow-control);
-  font:var(--nyx-compat-font-872b97fb43e6); letter-spacing:var(--nyx-compat-tracking-p04em);
-  text-decoration:none; cursor:pointer;
-  transition:border-color .16s ease,background-color .16s ease,color .16s ease,filter .16s ease,transform .16s ease;
-}
-.nyx-btn:hover{ color:var(--nyx-color-text-max); background:var(--nyx-color-control-surface-hover); }
-.nyx-btn:focus-visible{ outline:var(--nyx-focus-ring); outline-offset:var(--nyx-focus-offset); }
-.nyx-btn:active{ transform:translateY(1px); }
-.nyx-btn:disabled,.nyx-btn[aria-disabled="true"]{ cursor:not-allowed; opacity:.48; }
-.nyx-btn--primary{ color:var(--nyx-color-text-max); background:var(--nyx-color-control-active); }
-.nyx-btn--primary:hover{ background:var(--nyx-color-control-active); filter:brightness(1.07); }
-.nyx-btn--icon{ width:34px; min-width:34px; height:34px; min-height:34px; padding:0; }
-
 .nyx-input{
   min-height:38px; box-sizing:border-box; border:1px solid var(--nyx-color-border-strong);
   border-radius:var(--nyx-radius-control); outline:0; padding:var(--nyx-space-8) var(--nyx-space-12);
@@ -1529,7 +1511,7 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
    plate; the whole group (and the right-hand Pengo icon) link to the index */
 /* Compact/default positioning; the desktop shell applies the shared +64px move below. */
 .gp-topbar .tb-brand{ position:absolute; top:50%; left:24px; transform:translateY(-50%); z-index:6;
-  display:inline-flex; align-items:center; height:96px; padding:0 var(--nyx-space-28) 0 var(--nyx-space-12); text-decoration:none; }
+  display:inline-flex; align-items:center; height:96px; padding:0 var(--nyx-space-28) 0 var(--nyx-space-12); text-decoration:none; pointer-events:none; }
 .gp-topbar .tb-brand .plate{ position:absolute; left:-14px; top:50%; transform:translateY(-50%);
   width:448px; height:86px; pointer-events:none;
   background:url('../../assets/decor/achievement_cycle.png') center/100% 100% no-repeat;
@@ -1554,7 +1536,7 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
 /* The word is the only clickable part of the brand (user 2026-08-09). */
 .gp-topbar .tb-brand .wm{ position:relative; z-index:2; font-family:var(--nyx-font-display); font-size:var(--nyx-type-display-large); line-height:.9;
   letter-spacing:var(--nyx-compat-tracking-p06em); color:var(--nyx-compat-color-hex-f7f4ff); text-shadow:var(--nyx-compat-shadow-text-af39948cc325);
-  text-decoration:none; cursor:pointer; }
+  text-decoration:none; cursor:pointer; pointer-events:auto; }
 .gp-topbar .tb-brand .wm:hover{ color:var(--nyx-color-text-max); text-shadow:var(--nyx-compat-shadow-text-ece6b39df816); }
 .gp-topbar .tb-brand .wm:focus-visible{ outline:2px solid var(--nyx-color-text-max); outline-offset:4px; }
 /* right — Pengo icon, also links to the index */
@@ -3751,17 +3733,14 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 .gp-aside-time .nyx-time-pref{ width:100%; }
 .gp-aside-time .nyx-time-pref-switch{ width:100%; box-sizing:border-box; }
 .gp-aside-time .nyx-time-pref-popover{ left:0; right:0; }
-/* Plain compact text choices: EU / NA / ASIA, then Custom.
-   The active choice glows rather than filling.
-   Deliberately NOT named *-buttons: the shared control chrome near the end of
-   this file hexagon-clips every button inside .nyx-time-pref-buttons. */
+/* Plain compact text choices: EU / NA / ASIA, then Custom. */
 .nyx-time-pref-switch{ display:flex; align-items:center; }
 .nyx-time-pref-regions{
   display:inline-flex; align-items:center; height:32px; padding:0;
 }
 /* A quiet divider separates Custom from the server choices. */
 .nyx-time-pref-div{
-  width:1px; height:12px; flex:none; margin:0 var(--nyx-space-8);
+  width:1px; height:12px; flex:none; margin:0 var(--nyx-space-4);
   background:var(--nyx-compat-color-fe41f066fa45);
 }
 .nyx-time-pref-switch button{
@@ -3773,8 +3752,8 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 }
 /* Slash separators between the three server buttons only — the divider element
    already separates Custom. */
-.nyx-time-pref-regions button + button:not(.nyx-time-pref-custom)::before{
-  content:"/"; margin:0 var(--nyx-space-4); color:var(--nyx-compat-color-fe41f066fa45); text-shadow:none;
+.nyx-time-pref-regions button:nth-of-type(-n+2)::after{
+  content:"/"; margin-left:var(--nyx-space-2); color:var(--nyx-compat-color-fe41f066fa45); text-shadow:none;
 }
 .nyx-time-pref-switch button:hover{ color:var(--nyx-color-text-soft); }
 .nyx-time-pref-regions button.on,
@@ -6839,8 +6818,8 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 .cm-days button.on::after{
   content:""; position:absolute; left:var(--nyx-space-4); right:var(--nyx-space-4); bottom:2px; height:2px;
   border-radius:2px;
-  background:linear-gradient(90deg, transparent, var(--nyx-color-accent-bright) 22%,
-    var(--nyx-color-accent-bright) 78%, transparent);
+  background:linear-gradient(90deg, transparent, var(--nyx-color-accent-bright) 12%,
+    var(--nyx-color-accent-bright) 88%, transparent);
   box-shadow:0 0 10px rgba(139,123,255,.75), 0 0 20px rgba(139,123,255,.35);
 }
 
@@ -7017,8 +6996,8 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
   .stage.is-compact-stage .gp-topbar .tb-brand .brand-mark{ gap:var(--nyx-space-6); }
   .stage.is-compact-stage .gp-topbar .tb-brand .wm{ font-size:var(--nyx-compat-size-26px); }
   .stage.is-compact-stage .gp-topbar .tb-center{ margin-left:var(--nyx-compat-spacing-128px); max-width:calc(100vw - 184px); }
-  .stage.is-compact-stage .nyx-time-pref-buttons button{ min-width:32px; height:30px; padding:0 var(--nyx-space-6); font-size:var(--nyx-type-caption); }
-  .stage.is-compact-stage .nyx-time-pref-buttons button:last-child{ min-width:52px; }
+  .stage.is-compact-stage .nyx-time-pref-switch button{ min-width:32px; height:30px; padding:0 var(--nyx-space-6); font-size:var(--nyx-type-caption); }
+  .stage.is-compact-stage .nyx-time-pref-switch button:last-child{ min-width:52px; }
   .stage.is-compact-stage .nyx-time-pref-popover{ top:72px; right:8px; width:min(300px,calc(100vw - 16px)); }
   .stage.is-compact-stage .gp-corner{ right:8px; top:8px; }
   .stage.is-compact-stage .gp-corner .tb-pengo.corner{ width:40px; height:40px; }
@@ -7506,12 +7485,12 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 .achievement-reward{display:grid;grid-template-columns:auto auto;align-items:center;justify-items:end;min-width:72px;text-align:right}.achievement-reward img{grid-row:1/3;width:25px;height:25px;margin-right:var(--nyx-space-6);object-fit:contain}.achievement-reward b{color:var(--ach-gold);font-size:var(--nyx-type-body)}.achievement-reward small{grid-column:2;color:var(--nyx-compat-color-hex-777080);font-size:var(--nyx-compat-size-7px);letter-spacing:var(--nyx-compat-tracking-p05em);text-transform:uppercase}
 .achievement-row-detail{grid-column:2/-1;display:grid;grid-template-columns:minmax(220px,1fr) minmax(260px,.75fr);gap:var(--nyx-space-18);margin:var(--nyx-space-2) 0 var(--nyx-space-4);padding:var(--nyx-space-14) var(--nyx-space-16);border:1px solid var(--nyx-compat-color-eb8a84a2f940);border-radius:var(--nyx-compat-radius-11px);background:var(--nyx-compat-color-5fc5e6e19a67)}.achievement-row-detail>div>span{color:var(--ach-accent);font-size:var(--nyx-compat-size-8px);font-weight:var(--nyx-weight-extrabold);letter-spacing:var(--nyx-compat-tracking-p12em);text-transform:uppercase}.achievement-row-detail p{margin:var(--nyx-space-6) 0 0;color:var(--nyx-compat-color-hex-b5aebe);font-size:var(--nyx-compat-size-11px);line-height:1.55}.achievement-row-detail dl{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--nyx-compat-spacing-9px);margin:0}.achievement-row-detail dl>div{min-width:0}.achievement-row-detail dt{color:var(--nyx-compat-color-hex-716a7d);font-size:var(--nyx-compat-size-7px);font-weight:var(--nyx-weight-extrabold);letter-spacing:var(--nyx-compat-tracking-p08em);text-transform:uppercase}.achievement-row-detail dd{overflow-wrap:anywhere;margin:var(--nyx-space-4) 0 0;color:var(--nyx-compat-color-hex-c7c0d0);font-size:var(--nyx-compat-size-9p5px)}
 .achievement-empty,.achievement-zero-guide{display:grid;justify-items:center;gap:var(--nyx-compat-spacing-7px);padding:var(--nyx-compat-spacing-42px) var(--nyx-space-20);color:var(--nyx-compat-color-hex-8e869a);text-align:center}.achievement-empty-seal{width:56px;height:56px;margin-bottom:var(--nyx-space-4)}.achievement-empty strong,.achievement-zero-guide strong{color:var(--nyx-compat-color-hex-ddd6e8);font:var(--nyx-compat-font-cd3d319cfe7f)}.achievement-empty span,.achievement-zero-guide span{font-size:var(--nyx-type-label)}.achievement-empty button,.achievement-zero-guide button{margin-top:var(--nyx-compat-spacing-5px)}.achievement-zero-guide{border-top:1px solid var(--nyx-compat-color-8caa693a1d6f);background:var(--nyx-compat-color-a39b8af67668)}
-.achievement-load-more{display:grid!important;justify-items:center;gap:var(--nyx-space-4);min-height:56px!important;margin:var(--nyx-space-10) var(--nyx-compat-spacing-15px)!important;border-style:dashed!important;background:var(--nyx-compat-color-885f85cc3a5a)!important}.achievement-load-more span{color:var(--nyx-compat-color-hex-777080);font-size:var(--nyx-compat-size-8px);font-weight:var(--nyx-compat-weight-500)}
+.achievement-load-more{display:grid!important;justify-items:center;gap:var(--nyx-space-4);min-height:56px!important;margin:var(--nyx-space-10) var(--nyx-compat-spacing-15px)!important}.achievement-load-more span{color:var(--nyx-compat-color-hex-777080);font-size:var(--nyx-compat-size-8px);font-weight:var(--nyx-compat-weight-500)}
 .achievement-disclaimer{padding:var(--nyx-space-12);color:var(--nyx-compat-color-hex-6d6675);font-size:var(--nyx-compat-size-8px);line-height:1.65}
 .achievement-manage-layer{position:fixed;z-index:90;inset:0;display:flex;justify-content:flex-end}.achievement-manage-scrim{position:absolute!important;inset:0;min-height:100%!important;border:0!important;border-radius:0!important;background:var(--nyx-compat-color-44837c62bfcc)!important;backdrop-filter:blur(5px)}
 .achievement-manage{position:relative;z-index:1;width:min(520px,100vw);height:100%;overflow-y:auto;border-left:1px solid var(--nyx-compat-color-a0d022bb7dfc);background:radial-gradient(circle at 80% 0,var(--nyx-compat-color-c00f3dba3ae7),transparent 30%),var(--nyx-compat-color-hex-0b0918);box-shadow:var(--nyx-compat-shadow-box-16f45bc51428);animation:achievement-sheet-in .2s ease-out}
 @keyframes achievement-sheet-in{from{transform:translateX(28px);opacity:.55}}
-.achievement-manage>header{position:sticky;z-index:2;top:0;display:flex;align-items:center;justify-content:space-between;padding:var(--nyx-space-20) var(--nyx-compat-spacing-22px);border-bottom:1px solid var(--nyx-compat-color-0d923d38199d);background:var(--nyx-compat-color-4cfe955755e4);backdrop-filter:blur(12px)}.achievement-manage>header h2{margin:var(--nyx-space-4) 0 0;color:var(--nyx-color-text-max);font:var(--nyx-compat-font-2a6c6516c849)}.achievement-manage-close{display:grid;width:40px;min-height:40px!important;place-items:center;padding:0!important;border-radius:50%!important;font-size:var(--nyx-type-section)!important}
+.achievement-manage>header{position:sticky;z-index:2;top:0;display:flex;align-items:center;justify-content:space-between;padding:var(--nyx-space-20) var(--nyx-compat-spacing-22px);border-bottom:1px solid var(--nyx-compat-color-0d923d38199d);background:var(--nyx-compat-color-4cfe955755e4);backdrop-filter:blur(12px)}.achievement-manage>header h2{margin:var(--nyx-space-4) 0 0;color:var(--nyx-color-text-max);font:var(--nyx-compat-font-2a6c6516c849)}.achievement-manage-close{display:grid;width:40px;min-height:40px!important;place-items:center;padding:0!important;border-radius:0;font-size:var(--nyx-type-section)!important}
 .achievement-manage>nav{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--nyx-space-6);padding:var(--nyx-space-12) var(--nyx-space-18);border-bottom:1px solid var(--nyx-compat-color-1ef7f9315602)}.achievement-manage>nav button{border-color:transparent;background:transparent;color:var(--nyx-compat-color-hex-91899f)}.achievement-manage>nav button.on{border-color:var(--nyx-compat-color-12376054c278);background:var(--nyx-compat-color-c00f3dba3ae7);color:var(--nyx-compat-color-hex-f2edff)}
 .achievement-manage-section{display:grid;gap:var(--nyx-space-16);padding:var(--nyx-compat-spacing-22px)}.achievement-manage-intro{display:grid;gap:var(--nyx-compat-spacing-5px)}.achievement-manage-intro h3{margin:0;color:var(--nyx-compat-color-hex-eee9f6);font:var(--nyx-compat-font-d3044a79dc0a)}.achievement-manage-intro p{margin:var(--nyx-space-2) 0 0;color:var(--nyx-compat-color-hex-9991a6);font-size:var(--nyx-compat-size-11px);line-height:1.6}
 .achievement-file-button{position:relative}.achievement-manage-section>.achievement-file-button{justify-self:start;min-height:44px}.achievement-file-button input{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
@@ -7532,7 +7511,7 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
   .achievement-archive{grid-template-columns:1fr;gap:var(--nyx-space-10)}.achievement-atlas{position:static;display:none;max-height:min(70vh,620px)}.achievement-atlas.open{display:flex}.achievement-atlas nav>button{min-height:62px}.achievement-ledger{max-height:none;overflow:visible}.achievement-ledger-heading{grid-template-columns:54px minmax(0,1fr);gap:var(--nyx-space-12);padding:var(--nyx-compat-spacing-15px)}.achievement-ledger-icon{width:50px;height:50px}.achievement-ledger-heading h2{font-size:var(--nyx-compat-size-21px)}.achievement-category-actions{display:grid;grid-template-columns:1fr 1fr}.achievement-category-actions button{min-height:44px}.achievement-inline-confirm{grid-column:1/-1;display:grid;grid-template-columns:1fr 1fr;max-width:none}.achievement-inline-confirm span{grid-column:1/-1}
   .achievement-filter-bar,.achievement-hsr .achievement-filter-bar{grid-template-columns:repeat(2,minmax(0,1fr));padding:var(--nyx-space-12)}.achievement-search,.achievement-status-filter{grid-column:1/-1}.achievement-status-filter button{min-height:44px}.achievement-filter-bar :is(input,select){min-height:44px}.achievement-result-strip{padding-inline:var(--nyx-space-12)}
   .achievement-row{grid-template-columns:44px minmax(0,1fr) auto;gap:var(--nyx-space-8);padding:var(--nyx-compat-spacing-11px) var(--nyx-space-10)}.achievement-row .achievement-check{width:44px;min-height:44px}.achievement-row-main>strong{font-size:var(--nyx-compat-size-13px)}.achievement-row-main>span:last-child{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}.achievement-row-meta em{max-width:130px}.achievement-reward{min-width:48px}.achievement-reward small{display:none}.achievement-row-detail{grid-column:1/-1;grid-template-columns:1fr;gap:var(--nyx-space-12)}.achievement-row-detail dl{grid-template-columns:repeat(2,minmax(0,1fr))}
-  .achievement-profile-tools select,.achievement-manage :is(button,input,select){min-height:44px}.achievement-manage{width:100vw}.achievement-manage>header{padding:var(--nyx-compat-spacing-17px)}.achievement-manage-section{padding:var(--nyx-space-18)}.achievement-manage>nav{padding-inline:var(--nyx-space-12)}.achievement-manage-close{width:44px!important}.achievement-profile-form{grid-template-columns:1fr}.achievement-profile-form button{grid-column:1}.achievement-create-profile{grid-template-columns:1fr}.achievement-manage .achievement-import-preview{grid-template-columns:repeat(2,1fr)}.achievement-backup-actions{display:grid}.achievement-backup-actions>*{width:100%}
+  .achievement-profile-tools select,.achievement-manage :is(button,input,select){min-height:44px}.achievement-manage{width:100vw}.achievement-manage>header{padding:var(--nyx-compat-spacing-17px)}.achievement-manage-section{padding:var(--nyx-space-18)}.achievement-manage>nav{padding-inline:var(--nyx-space-12)}.achievement-manage-close{width:44px!important;min-height:44px!important}.achievement-profile-form{grid-template-columns:1fr}.achievement-profile-form button{grid-column:1}.achievement-create-profile{grid-template-columns:1fr}.achievement-manage .achievement-import-preview{grid-template-columns:repeat(2,1fr)}.achievement-backup-actions{display:grid}.achievement-backup-actions>*{width:100%}
 }
 @media (max-width:420px){.achievement-observatory{grid-template-columns:1fr}.achievement-astral-seal{width:88px}.achievement-observatory-copy{grid-column:1}.achievement-profile-tools{grid-template-columns:1fr}.achievement-manage-button{min-height:44px}.achievement-filter-bar,.achievement-hsr .achievement-filter-bar{grid-template-columns:1fr}.achievement-search,.achievement-status-filter{grid-column:1}.achievement-row{grid-template-columns:42px minmax(0,1fr)}.achievement-reward{grid-column:2;display:flex;justify-items:start;justify-self:start;gap:var(--nyx-space-4)}.achievement-row-detail{grid-column:1/-1}.achievement-category-actions{grid-template-columns:1fr}.achievement-inline-confirm{grid-template-columns:1fr}.achievement-inline-confirm>*{grid-column:1}.achievement-manage>nav button{padding-inline:var(--nyx-space-6);font-size:var(--nyx-type-label)}}
 @media (prefers-reduced-motion:reduce){.achievement-page *{animation:none!important;transition:none!important}.achievement-manage{animation:none}}
@@ -7603,7 +7582,7 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 .achievement-toolbar .achievement-status-filter{display:grid;grid-template-columns:repeat(3,auto);gap:var(--nyx-compat-spacing-3px);padding:var(--nyx-compat-spacing-3px);border:1px solid var(--nyx-compat-color-c201d2dab2c4);border-radius:var(--nyx-radius-card);background:var(--nyx-compat-color-99cc84676c14)}
 .achievement-toolbar .achievement-status-filter button{min-height:34px;padding:var(--nyx-compat-spacing-7px) var(--nyx-space-12);border:0;background:transparent;color:var(--nyx-compat-color-hex-847b90)}
 .achievement-toolbar .achievement-status-filter button.on{background:var(--ach-paper-sel);color:var(--ach-paper-ink);box-shadow:var(--nyx-compat-shadow-box-4928ac5770ed)}
-.achievement-gallery-toggle{min-height:42px!important;white-space:nowrap}
+.achievement-gallery-toggle{min-height:var(--nyx-size-control);white-space:nowrap}
 
 .achievement-category-gallery{
   display:grid;
@@ -7847,8 +7826,6 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 .achievement-row-detail>div>span{color:var(--ach-accent)}.achievement-row-detail p,.achievement-row-detail dd{color:var(--ach-paper-ink)}.achievement-row-detail dt{color:var(--ach-paper-muted)}
 .achievement-empty,.achievement-zero-guide{color:var(--ach-paper-muted)}
 .achievement-empty strong,.achievement-zero-guide strong{color:var(--ach-paper-ink)}
-.achievement-load-more{margin:var(--nyx-space-8);border-color:var(--ach-paper-line)!important;background:var(--ach-paper-field)!important;color:var(--ach-paper-ink)!important}
-
 @media(max-width:1180px){.achievement-archive{grid-template-columns:minmax(300px,340px) minmax(0,1fr)}.achievement-row-main>strong{font-size:var(--nyx-type-lead)}}
 @media(max-width:760px){.achievement-archive{grid-template-columns:1fr}.achievement-atlas-search,.achievement-atlas-check{display:flex}.achievement-ledger{clip-path:none}.achievement-row-main>strong{font-size:var(--nyx-compat-size-15px)}}
 
@@ -7962,15 +7939,32 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 .cm-chan-switch{padding:0;border-radius:0;background:transparent;box-shadow:none}
 .cm-chan-switch::before{display:none}
 
-.gp-fn-row,.gp-fn-row:hover,.gp-fn-row.on,.gp-fn-row:focus-visible {
+.gp-side-nav .gp-fn-row,.gp-side-nav .gp-fn-row:hover,.gp-side-nav .gp-fn-row.on,.gp-side-nav .gp-fn-row:focus-visible {
   clip-path:none;
   border-radius:0;
   background:transparent;
   box-shadow:none;
+  transform:none;
 }
-.gp-fn-row.on{color:var(--nyx-color-text-max);text-shadow:var(--nyx-compat-shadow-text-d64b9a7534db)}
-.gp-fn-row:hover{color:var(--nyx-color-text-max);background:linear-gradient(90deg,var(--nyx-compat-color-87c0bf79f667),transparent 72%)}
-.gp-game-rail :is(a,button):focus-visible,.gp-game-rail-icons :is(a,button):focus-visible {
+.gp-side-nav .gp-fn-row .dia{
+  display:block; width:16px; height:14px; flex:0 0 16px; opacity:0;
+  background:linear-gradient(165deg,var(--nyx-compat-color-hex-d3c8ff),var(--nyx-compat-color-hex-8b79ea));
+  -webkit-mask:url('../../assets/icon/nyx_logo.png') center/contain no-repeat;
+  mask:url('../../assets/icon/nyx_logo.png') center/contain no-repeat;
+  filter:none; transition:opacity .18s ease,filter .18s ease;
+}
+.gp-side-nav .gp-fn-row.on .dia{
+  opacity:1;
+  filter:drop-shadow(0 0 4px rgba(183,170,255,.75)) drop-shadow(0 0 9px rgba(139,123,255,.35));
+}
+.gp-side-nav .gp-fn-row>span:last-child{position:relative}
+.gp-side-nav .gp-fn-row:is(:hover,:focus-visible,.on){color:var(--nyx-color-text-max);text-shadow:0 0 8px rgba(183,170,255,.35)}
+.gp-side-nav .gp-fn-row:is(:hover,:focus-visible,.on)>span:last-child::after{
+  content:"";position:absolute;left:-6px;width:calc(100% + 12px - .18em);bottom:calc(var(--nyx-space-6) * -1);height:2px;
+  background:linear-gradient(90deg,transparent,var(--nyx-color-accent-bright) 12%,var(--nyx-color-accent-bright) 88%,transparent);
+  box-shadow:0 0 10px rgba(139,123,255,.75),0 0 20px rgba(139,123,255,.35);
+}
+.gp .gp-game-rail :is(a,button):focus-visible,.gp .gp-game-rail-icons :is(a,button):focus-visible {
   outline:2px solid var(--nyx-color-text-max);
   outline-offset:3px;
   border-radius:50%;
@@ -8055,125 +8049,196 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 /* ===== shared ordinary chrome =====
    Feature-specific geometry and artwork stay local. These final groups make
    ordinary controls and surfaces consume one behavior and token contract. */
-.gp :is(button,a,[role="button"],input,select,textarea):focus-visible{
+.gp :is(button:not(:where(.cm-chan-option,.cm-favourite-star)),a,[role="button"],input,select,textarea):focus-visible,
+:is(button:not(:where(.cm-chan-option,.cm-favourite-star)),a,[role="button"],input,select,textarea):focus-visible{
   outline:var(--nyx-focus-ring); outline-offset:var(--nyx-focus-offset);
 }
-.gp :is(button,input,select,textarea):disabled,
-.gp [aria-disabled="true"]{ cursor:not-allowed; opacity:.48; }
+:is(button,input,select,textarea):disabled,
+[aria-disabled="true"]{ cursor:not-allowed; opacity:.48; }
 
 :is(
   .gp-code .cp,.gp-code .mark,.gp-reset-form button,
-  .nyx-time-pref-buttons button,.pm-action,.pm-reset,.pm-icon-search button,.pm-select-trigger,
-  .pm-select-menu button,.pm-reset-confirm button,.nyx-beta-card button,.beta-diff-actions button,
+  .nyx-time-pref-switch button,.pm-action,.pm-reset,.pm-icon-search button,.pm-select-trigger,
+  .pm-select-menu button,.pm-reset-confirm button,.pm-collab-expand,.nyx-beta-card button,
   .gt-import-tab,.gt-go,.gt-method-action,.gt-cmd button,.gt-sync-row button,.gt-sync-delete,
   .gt-title-import,.gt-mode-tabs button,.gt-filter-pills button,.gt-pity-filters button,
   .cm-fopt,.cm-hide-menu button,.cm-presets button,.cm-form-row button,
   .cm-character-tabs button,.cm-trace-max,.cm-custom-back,.cm-detail-back,.cm-detail-custom,
+  .cm-ledger-customize-entry button,.cm-weapon-pick,.cm-weapon-options button,.cm-total-checks button,
   .cm-unfav-actions button,.nyx-img-choice-head button,.nyx-img-flips button,.nyx-img-actions button,
-  .nyx-img-pickpreview-actions button,.nyx-img-library-head button,
-  .ntl-tools > button,.ntl-marker-form > button,.ntl-results > button,.ntl-gi-search-runs button,
-  .ntl-gi-layer-buttons button,.db-filter-button,.db-filter-pop-head button,.db-filter-group button,
-  .db-tabs button,.db-filter-row button,.db-load-state button,.db-load-more,.wonder-tabs button,
+  .nyx-img-editor-head label span,.nyx-img-pickpreview-actions button,.nyx-img-library-head button,.cm-share-actions button,
+  .cm-share-preview-actions button,.cm-story-retry,
+  .db-filter-button,.db-filter-pop-head button,.db-filter-group button,.db-tabs button,
+  .db-filter-row button,.db-load-state button,.db-load-more,.db-rarity-toggle,.wonder-tabs button,
   .wonder-filter-row button,.wonder-back,.tcg-filter-button,.tcg-filter-pop-head button,
   .tcg-active-filters button,.tcg-tabs button,.tcg-back,.pot-tabs button,.pot-back,
+  .pot-extra-toggle,.gallery-lightbox-actions button,
   .library-status button,.library-back,.library-volumes button,.library-count-row button,
-  .library-annotation-toolbar button,.library-annotation-overflow button,
+  .library-annotation-toolbar button:not(.library-highlight-swatch),.library-annotation-overflow button,
   .library-annotation-message button,.library-stale-marks button,.library-note-actions button,
-  .bcal-add,.bcal-toggle,.bcal-nav,.bcal-today-btn,.bcal-icon-field > button,
+  .bcal-add,.bcal-toggle,.bcal-today-btn,.bcal-icon-field > button,
   .bcal-dialog-actions button,.bcal-file,.achievement-manage-button,.achievement-notice button,
-  .achievement-gallery-toggle,.achievement-inline-confirm button,.achievement-manage > nav button,
+  .achievement-gallery-toggle,.achievement-status-filter button,.achievement-category-actions button,
+  .achievement-result-strip button,.achievement-empty button,.achievement-zero-guide button,
+  .achievement-load-more,.achievement-inline-confirm button,.achievement-manage > nav button,
   .achievement-file-button,.achievement-import-actions button,.achievement-profile-form button,
   .achievement-create-profile button,.achievement-danger-zone > button,
   .achievement-danger-confirm button,.achievement-backup-actions > :is(button,.achievement-file-button)
 ){
-  appearance:none; display:inline-flex; align-items:center; justify-content:center; gap:var(--nyx-space-8);
-  min-height:var(--nyx-size-control); box-sizing:border-box; border:0; border-radius:0;
-  clip-path:var(--nyx-clip-control);
-  padding:var(--nyx-space-8) var(--nyx-space-18); color:var(--nyx-color-control-text);
-  background:var(--nyx-color-control-surface);
-  font:var(--nyx-compat-font-872b97fb43e6); letter-spacing:var(--nyx-tracking-control);
-  text-transform:uppercase; text-decoration:none; cursor:pointer;
-  transition:border-color .16s ease,background-color .16s ease,color .16s ease,filter .16s ease,transform .16s ease;
+  position:relative; appearance:none; display:inline-flex; align-items:center; justify-content:center;
+  gap:var(--nyx-space-8); min-height:var(--nyx-size-control); box-sizing:border-box;
+  border:0; border-radius:0; clip-path:none; overflow:visible; padding:var(--nyx-space-8) var(--nyx-space-18);
+  color:var(--nyx-color-text-faint); background-color:transparent; background-image:none;
+  box-shadow:none; filter:none; transform:none;
+  font-family:var(--nyx-font-display); font-size:var(--nyx-type-small); font-weight:var(--nyx-weight-regular);
+  letter-spacing:.18em; line-height:1.2; text-transform:uppercase; text-decoration:none; cursor:pointer;
+  transition:color .18s ease,text-shadow .18s ease;
 }
 :is(
   .gp-code .cp,.gp-code .mark,.gp-reset-form button,
-  .nyx-time-pref-buttons button,.pm-action,.pm-reset,.pm-icon-search button,.pm-select-trigger,
-  .pm-select-menu button,.pm-reset-confirm button,.nyx-beta-card button,.beta-diff-actions button,
+  .nyx-time-pref-switch button,.pm-action,.pm-reset,.pm-icon-search button,.pm-select-trigger,
+  .pm-select-menu button,.pm-reset-confirm button,.pm-collab-expand,.nyx-beta-card button,
   .gt-import-tab,.gt-go,.gt-method-action,.gt-cmd button,.gt-sync-row button,.gt-sync-delete,
   .gt-title-import,.gt-mode-tabs button,.gt-filter-pills button,.gt-pity-filters button,
   .cm-fopt,.cm-hide-menu button,.cm-presets button,.cm-form-row button,
   .cm-character-tabs button,.cm-trace-max,.cm-custom-back,.cm-detail-back,.cm-detail-custom,
+  .cm-ledger-customize-entry button,.cm-weapon-pick,.cm-weapon-options button,.cm-total-checks button,
   .cm-unfav-actions button,.nyx-img-choice-head button,.nyx-img-flips button,.nyx-img-actions button,
-  .nyx-img-pickpreview-actions button,.nyx-img-library-head button,
-  .ntl-tools > button,.ntl-marker-form > button,.ntl-results > button,.ntl-gi-search-runs button,
-  .ntl-gi-layer-buttons button,.db-filter-button,.db-filter-pop-head button,.db-filter-group button,
-  .db-tabs button,.db-filter-row button,.db-load-state button,.db-load-more,.wonder-tabs button,
+  .nyx-img-editor-head label span,.nyx-img-pickpreview-actions button,.nyx-img-library-head button,.cm-share-actions button,
+  .cm-share-preview-actions button,.cm-story-retry,
+  .db-filter-button,.db-filter-pop-head button,.db-filter-group button,.db-tabs button,
+  .db-filter-row button,.db-load-state button,.db-load-more,.db-rarity-toggle,.wonder-tabs button,
   .wonder-filter-row button,.wonder-back,.tcg-filter-button,.tcg-filter-pop-head button,
   .tcg-active-filters button,.tcg-tabs button,.tcg-back,.pot-tabs button,.pot-back,
+  .pot-extra-toggle,.gallery-lightbox-actions button,
   .library-status button,.library-back,.library-volumes button,.library-count-row button,
-  .library-annotation-toolbar button,.library-annotation-overflow button,
+  .library-annotation-toolbar button:not(.library-highlight-swatch),.library-annotation-overflow button,
   .library-annotation-message button,.library-stale-marks button,.library-note-actions button,
-  .bcal-add,.bcal-toggle,.bcal-nav,.bcal-today-btn,.bcal-icon-field > button,
+  .bcal-add,.bcal-toggle,.bcal-today-btn,.bcal-icon-field > button,
   .bcal-dialog-actions button,.bcal-file,.achievement-manage-button,.achievement-notice button,
-  .achievement-gallery-toggle,.achievement-inline-confirm button,.achievement-manage > nav button,
+  .achievement-gallery-toggle,.achievement-status-filter button,.achievement-category-actions button,
+  .achievement-result-strip button,.achievement-empty button,.achievement-zero-guide button,
+  .achievement-load-more,.achievement-inline-confirm button,.achievement-manage > nav button,
   .achievement-file-button,.achievement-import-actions button,.achievement-profile-form button,
   .achievement-create-profile button,.achievement-danger-zone > button,
   .achievement-danger-confirm button,.achievement-backup-actions > :is(button,.achievement-file-button)
-):hover{ color:var(--nyx-color-text-max); background:var(--nyx-color-control-surface-hover); }
-:is(
-  .gp-code .cp,.gp-code .mark,.gp-reset-form button,
-  .nyx-time-pref-buttons button,.pm-action,.pm-reset,.pm-icon-search button,.pm-select-trigger,
-  .pm-select-menu button,.pm-reset-confirm button,.nyx-beta-card button,.beta-diff-actions button,
-  .gt-import-tab,.gt-go,.gt-method-action,.gt-cmd button,.gt-sync-row button,.gt-sync-delete,
-  .gt-title-import,.gt-mode-tabs button,.gt-filter-pills button,.gt-pity-filters button,
-  .cm-fopt,.cm-hide-menu button,.cm-presets button,.cm-form-row button,
-  .cm-character-tabs button,.cm-trace-max,.cm-custom-back,.cm-detail-back,.cm-detail-custom,
-  .cm-unfav-actions button,.nyx-img-choice-head button,.nyx-img-flips button,.nyx-img-actions button,
-  .nyx-img-pickpreview-actions button,.nyx-img-library-head button,
-  .ntl-tools > button,.ntl-marker-form > button,.ntl-results > button,.ntl-gi-search-runs button,
-  .ntl-gi-layer-buttons button,.db-filter-button,.db-filter-pop-head button,.db-filter-group button,
-  .db-tabs button,.db-filter-row button,.db-load-state button,.db-load-more,.wonder-tabs button,
-  .wonder-filter-row button,.wonder-back,.tcg-filter-button,.tcg-filter-pop-head button,
-  .tcg-active-filters button,.tcg-tabs button,.tcg-back,.pot-tabs button,.pot-back,
-  .library-status button,.library-back,.library-volumes button,.library-count-row button,
-  .library-annotation-toolbar button,.library-annotation-overflow button,
-  .library-annotation-message button,.library-stale-marks button,.library-note-actions button,
-  .bcal-add,.bcal-toggle,.bcal-nav,.bcal-today-btn,.bcal-icon-field > button,
-  .bcal-dialog-actions button,.bcal-file,.achievement-manage-button,.achievement-notice button,
-  .achievement-gallery-toggle,.achievement-inline-confirm button,.achievement-manage > nav button,
-  .achievement-file-button,.achievement-import-actions button,.achievement-profile-form button,
-  .achievement-create-profile button,.achievement-danger-zone > button,
-  .achievement-danger-confirm button,.achievement-backup-actions > :is(button,.achievement-file-button)
-):active{ transform:translateY(1px); }
+):is(:hover,:focus-visible,:active,.on,[aria-current="page"],[aria-selected="true"],[aria-pressed="true"],[aria-expanded="true"]){
+  color:var(--nyx-color-text-max); background-color:transparent;
+  background-image:linear-gradient(90deg,transparent,var(--nyx-color-accent-bright) 12%,var(--nyx-color-accent-bright) 88%,transparent);
+  background-position:center bottom 2px; background-repeat:no-repeat; background-size:calc(100% - 24px) 2px;
+  box-shadow:none; filter:none; text-shadow:0 0 8px rgba(183,170,255,.35); transform:none;
+}
+.nyx-time-pref-switch .nyx-time-pref-regions button{
+  gap:0; padding-inline:var(--nyx-space-4);
+}
+.nyx-time-pref-switch .nyx-time-pref-regions button:nth-child(n):is(:hover,:focus-visible,:active,.on,[aria-pressed="true"],[aria-expanded="true"]){
+  background-size:100% 2px;
+}
+.nyx-img-editor-head label:focus-within span{
+  color:var(--nyx-color-text-max); background-color:transparent;
+  background-image:linear-gradient(90deg,transparent,var(--nyx-color-accent-bright) 12%,var(--nyx-color-accent-bright) 88%,transparent);
+  background-position:center bottom 2px; background-repeat:no-repeat; background-size:calc(100% - 24px) 2px;
+  outline:var(--nyx-focus-ring); outline-offset:var(--nyx-focus-offset);
+  text-shadow:0 0 8px rgba(183,170,255,.35);
+}
 
 :is(.gt-go,.pm-action.primary,.pm-reset-confirm button.primary,.nyx-beta-card button.primary,
-  .beta-diff-actions button.primary,.nyx-img-actions button.primary,.nyx-img-pickpreview-actions button.apply,
-  .bcal-dialog-actions button.primary,.achievement-import-actions button.primary,
+  .nyx-img-actions button.primary,.nyx-img-pickpreview-actions button.apply,
+  .library-note-actions button:first-child,.bcal-dialog-actions button.primary,.achievement-import-actions button:first-child,
   .achievement-create-profile button,.achievement-profile-form button[type="submit"]){
-  color:var(--nyx-color-text-max); background:var(--nyx-color-control-active);
+  color:var(--nyx-color-text-max); background-color:transparent;
+  background-image:linear-gradient(90deg,transparent,var(--nyx-color-accent-bright) 12%,var(--nyx-color-accent-bright) 88%,transparent);
+  background-position:center bottom 2px; background-repeat:no-repeat; background-size:calc(100% - 24px) 2px;
+  box-shadow:none; filter:none; text-shadow:0 0 8px rgba(183,170,255,.35); transform:none;
 }
-:is(.gt-mode-tabs button.on,.gt-filter-pills button.on,.gt-pity-filters button.on,
-  .cm-presets button.on,.cm-character-tabs button.on,.db-tabs button.on,
-  .wonder-tabs button.on,.tcg-tabs button.on,.pot-tabs button.on,.achievement-manage > nav button.on){
-  color:var(--nyx-color-text-max); background:var(--nyx-color-control-active);
-}
-:is(.gt-sync-delete,.achievement-danger-zone > button,.achievement-danger-confirm button:first-of-type){
-  color:var(--nyx-color-chip-danger); background:var(--nyx-color-chip-danger-surface);
-  box-shadow:var(--nyx-compat-shadow-box-d0ffda305757);
+:is(.gt-sync-delete,.pm-reset-all .pm-reset.danger,
+  .pm-reset-confirm[aria-label="Reset all Nyx settings"] button.primary,
+  .cm-hide-menu button.clear,.cm-unfav-actions button.danger,.nyx-img-library-head button,
+  .library-note-actions button.danger,.library-stale-marks button,
+  .bcal-dialog-actions button.danger,.gp-reset-tile.custom button:last-child,
+  .achievement-category-actions > .achievement-quiet-button,
+  .achievement-import-preview:has(.achievement-replace-confirm) .achievement-import-actions button:first-child,
+  .achievement-danger-zone > button,.achievement-danger-confirm button:first-of-type):nth-child(n){
+  color:var(--nyx-color-danger); background-color:transparent;
+  background-image:linear-gradient(90deg,transparent,var(--nyx-color-danger) 12%,var(--nyx-color-danger) 88%,transparent);
+  background-position:center bottom 2px; background-repeat:no-repeat; background-size:calc(100% - 24px) 2px;
+  box-shadow:none; filter:none; text-shadow:0 0 8px rgba(222,120,146,.3); transform:none;
 }
 
-:is(.gt-x,.cm-x,.cm-pop-close,.cm-tool,.ntl-gi-modal-close,.db-modal-close,
-  .library-note-close,.library-annotation-close,.bcal-dialog-close,.achievement-manage-close,
-  .gp-search .x){
-  appearance:none; display:inline-grid; place-items:center; width:var(--nyx-size-icon); min-width:var(--nyx-size-icon);
-  height:var(--nyx-size-icon); min-height:var(--nyx-size-icon); box-sizing:border-box; border:0;
-  border-radius:var(--nyx-radius-control); padding:0; color:var(--nyx-color-control-text);
-  background:var(--nyx-color-control-surface); box-shadow:var(--nyx-shadow-control); cursor:pointer;
-  transition:background-color .16s ease,color .16s ease,transform .16s ease;
+:is(.gt-x,.cc-copy,.cm-x,.cm-pop-close,.cm-tool,.cm-search .x,.db-modal-close,.library-note-close,
+  .library-note-popover-head button,
+  .library-annotation-close,.bcal-dialog-close,.achievement-manage-close,.gp-search .x,
+  .gp-reset-tile.custom button,.pm-stepper button,.db-group-toggle,.achievement-check,.bcal-nav,
+  .gp-oev-modal-x,.gp-oban-supports-help,
+  .gp-ovb-modal-close){
+  appearance:none; display:inline-grid; place-items:center; min-width:var(--nyx-size-icon);
+  min-height:var(--nyx-size-icon); box-sizing:border-box; border:0; border-radius:0; clip-path:none; padding:0;
+  color:var(--nyx-color-control-text);
+  background-color:transparent; background-image:none; box-shadow:none; filter:none; transform:none;
+  cursor:pointer; transition:color .18s ease,text-shadow .18s ease;
 }
-:is(.gt-x,.cm-x,.cm-pop-close,.cm-tool,.ntl-gi-modal-close,.db-modal-close,
-  .library-note-close,.library-annotation-close,.bcal-dialog-close,.achievement-manage-close,
-  .gp-search .x):hover{ color:var(--nyx-color-text-max); background:var(--nyx-color-control-surface-hover); }
+:is(.gt-x,.cc-copy,.cm-x,.cm-pop-close,.cm-tool,.cm-search .x,.db-modal-close,.library-note-close,
+  .library-note-popover-head button,
+  .library-annotation-close,.bcal-dialog-close,.achievement-manage-close,.gp-search .x,
+  .gp-reset-tile.custom button,.pm-stepper button,.db-group-toggle,.achievement-check,.bcal-nav,
+  .gp-oev-modal-x,.gp-oban-supports-help,
+  .gp-ovb-modal-close):is(:hover,:focus-visible,:active,.on,[aria-current="page"],[aria-selected="true"],[aria-pressed="true"],[aria-expanded="true"]){
+  color:var(--nyx-color-text-max); background-color:transparent;
+  background-image:linear-gradient(90deg,transparent,var(--nyx-color-accent-bright) 12%,var(--nyx-color-accent-bright) 88%,transparent);
+  background-position:center bottom 1px; background-repeat:no-repeat; background-size:calc(100% - 8px) 2px;
+  box-shadow:none; filter:none; text-shadow:0 0 8px rgba(183,170,255,.35); transform:none;
+}
+:is(.gt-x,.cc-copy,.cm-x,.cm-pop-close,.cm-tool,.cm-search .x,.db-modal-close,.library-note-close,
+  .library-note-popover-head button,
+  .library-annotation-close,.bcal-dialog-close,.achievement-manage-close,.gp-search .x,
+  .gp-reset-tile.custom button,.pm-stepper button,.db-group-toggle,.achievement-check,.bcal-nav,
+  .gp-oev-modal-x,.gp-oban-supports-help,
+  .gp-ovb-modal-close):focus-visible{
+  outline:var(--nyx-focus-ring); outline-offset:var(--nyx-focus-offset);
+}
+
+/* Settings rows keep their grid layout, but use the same flat rail as every
+   other ordinary control. Icon/image pickers remain structural. */
+.nyx-pengo-menu.as-tab :is(.pm-row,.pm-action,.pm-reset,.pm-choice-set button,.pm-collab-expand){
+  appearance:none; min-height:var(--nyx-size-control); border:0; border-radius:0; clip-path:none;
+  color:var(--nyx-color-text-faint); background-color:transparent; background-image:none;
+  box-shadow:none; filter:none; transform:none;
+}
+.nyx-pengo-menu.as-tab :is(.pm-row,.pm-action,.pm-reset:not(.danger),.pm-choice-set button,.pm-collab-expand):is(:hover,:focus-visible,:active,.on,[aria-pressed="true"],[aria-expanded="true"]){
+  color:var(--nyx-color-text-max); background-color:transparent;
+  background-image:linear-gradient(90deg,transparent,var(--nyx-color-accent-bright) 12%,var(--nyx-color-accent-bright) 88%,transparent);
+  background-position:center bottom 2px; background-repeat:no-repeat; background-size:calc(100% - 24px) 2px;
+  box-shadow:none; text-shadow:0 0 8px rgba(183,170,255,.35); transform:none;
+}
+.nyx-pengo-menu.as-tab .pm-row .pm-state,
+.nyx-pengo-menu.as-tab .pm-row.media.pause .pm-state,
+.nyx-pengo-menu.as-tab .pm-row.media.stop .pm-state{
+  border-radius:0; background:transparent; box-shadow:none;
+}
+.nyx-pengo-menu.as-tab .pm-stepper{
+  min-height:var(--nyx-size-control); grid-template-columns:var(--nyx-size-control) minmax(0,1fr) var(--nyx-size-control);
+  border-radius:0; background:transparent; box-shadow:none;
+}
+.nyx-pengo-menu.as-tab .pm-stepper :is(button,input){ height:var(--nyx-size-control); }
+.gp-reset-tile.custom{
+  padding-right:calc(var(--nyx-size-icon) + var(--nyx-size-icon) + var(--nyx-space-16));
+}
+.gp-reset-tile.custom button{ top:calc((100% - var(--nyx-size-icon)) / 2); right:var(--nyx-space-6); }
+.gp-reset-tile.custom button[aria-pressed]{ right:calc(var(--nyx-size-icon) + var(--nyx-space-10)); }
+.cm-weapon-options button:nth-child(n){
+  display:grid; grid-template-columns:28px minmax(0,1fr); justify-content:initial; text-align:left;
+}
+.cm-num-step{
+  border-radius:0; clip-path:none; color:var(--nyx-color-control-text);
+  background-color:transparent; background-image:none; box-shadow:none; filter:none; transform:none;
+  transition:color .18s ease,text-shadow .18s ease;
+}
+.cm-num-step:is(:hover,:focus-visible,:active){
+  color:var(--nyx-color-text-max); background-color:transparent;
+  background-image:linear-gradient(90deg,transparent,var(--nyx-color-accent-bright),transparent);
+  background-position:center bottom; background-repeat:no-repeat; background-size:calc(100% - 2px) 1px;
+  box-shadow:none; text-shadow:0 0 8px rgba(183,170,255,.35); transform:none;
+}
 
 :is(
   .gp-reset-form input,.gp-reset-form select,.nyx-time-pref-popover select,.pm-icon-search input,
@@ -8186,7 +8251,7 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
   .achievement-toolbar input,.achievement-toolbar select,.achievement-manage input,.achievement-manage select
 ){
   min-height:var(--nyx-size-control); box-sizing:border-box; border:1px solid var(--nyx-color-border-strong);
-  border-radius:var(--nyx-radius-control); outline:0; padding:var(--nyx-space-8) var(--nyx-space-12);
+  border-radius:var(--nyx-radius-control); padding:var(--nyx-space-8) var(--nyx-space-12);
   color:var(--nyx-color-heading); background:var(--nyx-color-input-surface);
   font:var(--nyx-compat-font-8182614572fa);
 }
@@ -8252,7 +8317,7 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 .library-text-match{ color:var(--nyx-color-chip-info); background:var(--nyx-color-chip-info-surface); }
 
 :is(.ntl-block,.ntl-marker > button,.ntl-gi-mini,.db-card,.wonder-card,.tcg-card,.pot-card,
-  .library-tile,.library-cover,.bcal-chip,.cm-cell-open,.cm-favourite-star):focus-visible{
+  .library-tile,.library-cover,.bcal-chip,.cm-cell-open):focus-visible{
   outline:var(--nyx-focus-ring); outline-offset:var(--nyx-focus-offset);
 }
 
@@ -8326,11 +8391,15 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
   letter-spacing:.18em; text-transform:uppercase; line-height:1.2; text-align:center;
   transition:color .18s ease, text-shadow .18s ease;
 }
+@media (max-width:760px){
+  :is(.cm-tabs .gp-section-nav-button, .cm-character-tabs button, .gt-mode-tabs button, .gt-import-tab, .db-tabs button,
+    .wonder-tabs button, .tcg-tabs button, .pot-tabs button):nth-child(n){ min-height:var(--nyx-size-control); }
+}
 :is(.cm-tabs .gp-section-nav-button, .cm-character-tabs button, .gt-mode-tabs button, .gt-import-tab, .db-tabs button,
   .wonder-tabs button, .tcg-tabs button, .pot-tabs button):nth-child(n):hover,
 :is(.cm-tabs .gp-section-nav-button, .cm-character-tabs button, .gt-mode-tabs button, .gt-import-tab, .db-tabs button,
   .wonder-tabs button, .tcg-tabs button, .pot-tabs button):nth-child(n):focus-visible{
-  color:var(--nyx-color-text-soft); background:transparent; box-shadow:none; transform:none; outline:none;
+  color:var(--nyx-color-text-soft); background:transparent; box-shadow:none; transform:none;
 }
 :is(.cm-tabs .gp-section-nav-button.on, .cm-character-tabs button.on, .gt-mode-tabs button.on, .gt-import-tab.on, .db-tabs button.on,
   .wonder-tabs button.on, .tcg-tabs button.on, .pot-tabs button.on):nth-child(n){
@@ -8342,8 +8411,8 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
   .wonder-tabs button.on, .tcg-tabs button.on, .pot-tabs button.on):nth-child(n)::after{
   content:""; position:absolute; left:var(--nyx-space-4); right:var(--nyx-space-4); bottom:2px; height:2px;
   border-radius:2px;
-  background:linear-gradient(90deg, transparent, var(--nyx-color-accent-bright) 22%,
-    var(--nyx-color-accent-bright) 78%, transparent);
+  background:linear-gradient(90deg, transparent, var(--nyx-color-accent-bright) 12%,
+    var(--nyx-color-accent-bright) 88%, transparent);
   box-shadow:0 0 10px rgba(139,123,255,.75), 0 0 20px rgba(139,123,255,.35);
 }
 /* The emblem that straddled the old rail was removed 2026-08-08; the
@@ -8381,13 +8450,13 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 .gp-oban-supports-label{ display:inline-flex; align-items:center; gap:var(--nyx-space-6); }
 .gp-oban-supports-help{
   width:16px; height:16px; flex:none; display:inline-flex; align-items:center; justify-content:center;
-  border:1px solid var(--nyx-compat-color-97cd05e0c6e8); border-radius:50%;
-  background:var(--nyx-compat-color-e1b276e64ad6); color:var(--nyx-compat-color-hex-cfc4ff);
+  border:0; border-radius:0; background-color:transparent; box-shadow:none;
+  color:var(--nyx-compat-color-hex-cfc4ff);
   font-family:var(--nyx-compat-family-bbbd64e38bdd); font-size:var(--nyx-type-caption); line-height:1;
   cursor:pointer; padding:0;
 }
 .gp-oban-supports-help:hover,
-.gp-oban-supports-help:focus-visible{ color:var(--nyx-color-text-max); border-color:var(--nyx-compat-color-d489b77ef351); }
+.gp-oban-supports-help:focus-visible{ color:var(--nyx-color-text-max); }
 /* Loss-rate explainer overlay. */
 .gp-ovb-modal{
   position:fixed; inset:0; z-index:80; display:flex; align-items:center; justify-content:center;
@@ -8401,6 +8470,6 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 .gp-ovb-modal-box img{ display:block; max-width:100%; height:auto; border-radius:var(--nyx-radius-control); }
 .gp-ovb-modal-close{
   position:absolute; top:var(--nyx-space-6); right:var(--nyx-space-8);
-  width:28px; height:28px; border:0; border-radius:50%; cursor:pointer;
-  background:var(--nyx-compat-color-e1b276e64ad6); color:var(--nyx-color-text-max); font-size:var(--nyx-type-body); line-height:1;
+  width:28px; height:28px; border:0; border-radius:0; cursor:pointer;
+  background-color:transparent; box-shadow:none; color:var(--nyx-color-text-max); font-size:var(--nyx-type-body); line-height:1;
 }

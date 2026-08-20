@@ -2268,31 +2268,35 @@ function CharacterProfile({ gameKey, baseStats, facts, characterName }){
   return (
     <section className="cm-kit-profile" aria-labelledby="cm-profile-title">
       <div className="cm-kit-section-title" id="cm-profile-title">Profile</div>
-      {factRows.length > 0 && (
-        <div className="cm-profile-facts">
-          {factRows.map((row) => <span key={row.key}><b>{row.label}</b><em>{row.value}</em></span>)}
-        </div>
-      )}
-      {statRows.length > 0 && (
-        <div className="cm-profile-stat-grid">
-          <CMLevelSlider
-            className="cm-profile-level-control"
-            label={`${characterName || 'Character'} profile level`}
-            stops={checkpoints.map((row, index) => index)}
-            value={Math.min(levelIndex, Math.max(0, checkpoints.length - 1))}
-            onChange={setLevelIndex}
-            format={(index) => checkpoints[index]?.label || ''}
-          />
-          <table className="cm-profile-stat-table">
-            <thead><tr><th>Base Stat</th><th>{checkpoint.label}</th></tr></thead>
-            <tbody>
-              {statRows.map(([key, label]) => (
-                <tr key={key}><th scope="row">{label}</th><td>{cmProfileValue(key, checkpoint[key])}</td></tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
-      )}
+      <div className="cm-profile-layout">
+        {statRows.length > 0 && (
+          <div className="cm-profile-stat-grid">
+            <CMLevelSlider
+              className="cm-profile-level-control"
+              label={`${characterName || 'Character'} profile level`}
+              stops={checkpoints.map((row, index) => index)}
+              value={Math.min(levelIndex, Math.max(0, checkpoints.length - 1))}
+              onChange={setLevelIndex}
+              format={(index) => checkpoints[index]?.label || ''}
+            />
+            <table className="cm-profile-stat-table">
+              <thead><tr><th>Base Stat</th><th>{checkpoint.label}</th></tr></thead>
+              <tbody>
+                {statRows.map(([key, label]) => (
+                  <tr key={key}><th scope="row">{label}</th><td>{cmProfileValue(key, checkpoint[key])}</td></tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        )}
+        {factRows.length > 0 && (
+          <dl className="cm-profile-details">
+            {factRows.map((row) => (
+              <div key={row.key}><dt>{row.label}</dt><dd>{row.value}</dd></div>
+            ))}
+          </dl>
+        )}
+      </div>
     </section>
   );
 }

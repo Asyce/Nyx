@@ -316,6 +316,7 @@ test('all character profiles use generic sourced checkpoints and the shared leve
     read('tools/generate-site-data.mjs'), read('src/styles/game-page-shared.css'),
   ]);
   const configs = { gi, hsr, zzz, wuwa, ae };
+  const profileRenderer = materials.match(/function CharacterProfile\([\s\S]*?(?=\nfunction cmKitLevelLabels\()/)?.[0] || '';
   const legacyMaxLevels = { gi:90, hsr:80, zzz:60, wuwa:90 };
   const targets = {
     gi:{ name:'Odette', labels:['Lv. 1/20', 'Lv. 20/40', 'Lv. 40/50', 'Lv. 50/60', 'Lv. 60/70', 'Lv. 70/80', 'Lv. 80/90', 'Lv. 90/90'], sections:3, entries:13, controls:3 },
@@ -363,6 +364,12 @@ test('all character profiles use generic sourced checkpoints and the shared leve
   assert.match(materials, /levelRows\.length === labels\.length[\s\S]*\? levelIndex[\s\S]*: cmKitMatchingIndex/, 'description sliders preserve duplicate-label source rows by position');
   assert.match(materials, /entry\.scaling\?\.length \? 'Multiplier table' : 'Level values'/);
   assert.match(materials, /<CharacterProfile key=\{characterName \|\| gameKey\}/, 'profile level resets when the selected character changes');
+  assert.equal((materials.match(/function CharacterProfile\(/g) || []).length, 1, 'one shared profile renderer covers every game');
+  assert.match(profileRenderer, /<div className="cm-profile-layout">/, 'the shared profile uses the dossier layout');
+  assert.ok(profileRenderer.indexOf('className="cm-profile-stat-grid"') < profileRenderer.indexOf('className="cm-profile-details"'), 'stats render before facts');
+  assert.match(profileRenderer, /CM_PROFILE_FACTS\[gameKey\] \|\| CM_PROFILE_FACTS\.ae/, 'future characters use the shared game facts map');
+  assert.match(profileRenderer, /<dl className="cm-profile-details">[\s\S]*<div key=\{row\.key\}><dt>\{row\.label\}<\/dt><dd>\{row\.value\}<\/dd><\/div>/, 'profile facts use definition-list rows');
+  assert.doesNotMatch(profileRenderer, /cm-profile-facts/, 'profile facts do not reuse the Voice Cast pill class');
   assert.doesNotMatch(materials, /assets\/icon\/nyx_logo\.png/, 'missing skill art leaves no fake icon');
   assert.match(materials, /\{icon && <img src=\{icon\}/, 'skill art only renders when a real icon exists');
   assert.doesNotMatch(materials, /cmKitEntryGroups|cm-kit-type-title/, 'section type pills never duplicate card labels');
@@ -378,6 +385,12 @@ test('all character profiles use generic sourced checkpoints and the shared leve
   assert.match(generator, /function endfieldPrydwenKitSections\(page\)/);
   assert.match(generator, /const page = endfieldPageForCharacter\(ch\);[\s\S]*buildEndfieldKit\(ch, page\)[\s\S]*endfieldProfileData\(ch, page\)/, 'future Endfield rows use their matching local page without name routing');
   assert.match(css, /\.cm-kit-list\{[^}]*repeat\(var\(--cm-kit-columns,1\),minmax\(0,1fr\)\)/, 'kit cards use the shared capped column layout');
+  assert.match(css, /\.cm-profile-layout\{[^}]*grid-template-columns:minmax\(0,\s*2fr\) minmax\(240px,\s*1fr\)[^}]*align-items:start/, 'desktop profiles use the shared two-column dossier');
+  assert.match(css, /@media \(max-width:760px\)\{\s*\.cm-profile-layout\{[^}]*grid-template-columns:minmax\(0,\s*1fr\)/, 'narrow profiles stack stats before facts');
+  assert.match(css, /\.cm-profile-level-control label,\s*\.cm-profile-level-control output\{[^}]*font-size:var\(--nyx-type-small\)/, 'profile slider text is at least the small token');
+  assert.match(css, /\.cm-profile-stat-table tbody th\{[^}]*font-size:var\(--nyx-type-body\)/, 'profile stat labels use body-size text');
+  assert.match(css, /\.cm-profile-stat-table tbody td\{[^}]*font-size:var\(--nyx-compat-size-15px\)/, 'profile stat numbers are larger than body text');
+  assert.doesNotMatch(css.match(/\.cm-profile-details\{([^}]*)\}/)?.[1] || '', /(?:background|box-shadow|border-radius)\s*:/, 'profile facts have no filled or raised container');
   assert.doesNotMatch(css, /\.cm-kit-type-title/, 'duplicate type pills have no styling residue');
   assert.match(css, /@media \(max-width:1050px\)[\s\S]*auto-fit/, 'kit cards collapse responsively');
   assert.match(css, /\.cm-kit-term:hover \.cm-kit-term-tip,[\s\S]*\.cm-kit-term:focus-within/, 'term explanations work with pointer and keyboard focus');

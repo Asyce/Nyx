@@ -6171,6 +6171,32 @@ function bannerRoadmapCharacters(rosters, key, rows, runCounts) {
   }).filter(Boolean);
 }
 
+function mergePatchOnlyRoadmapIntoNext(current, next, roadmap) {
+  const currentMatch = String(current?.phase || '').trim().match(/^(\d+(?:\.\d+)+)\s+Phase\s+1$/i);
+  if (!currentMatch || !next?.characters?.length) return;
+  const version = currentMatch[1];
+  const nextLabel = String(next.phase || '').trim();
+  const labeledNext = nextLabel.match(/^(\d+(?:\.\d+)+)\s+Phase\s+2$/i);
+  if (nextLabel && labeledNext?.[1] !== version) return;
+  const seen = new Set([...(current.characters || []), ...next.characters]
+    .map((row) => rosterNameKey(row?.name)).filter(Boolean));
+  const additions = [];
+  for (const row of roadmap || []) {
+    const name = rosterNameKey(row?.name);
+    if (!name || seen.has(name)) continue;
+    const hint = String(row?.hint || '');
+    const versions = [...hint.matchAll(/\b(?:(?:Version|Patch)\s*|Release\s+in\s+)(\d+(?:\.\d+)+)\b/gi)]
+      .map((match) => match[1]);
+    const phases = [...hint.matchAll(/\bPhase\s*(\d+)\b/gi)].map((match) => Number(match[1]));
+    if (!versions.length || versions.some((value) => value !== version) || phases.some((value) => value !== 2)) continue;
+    additions.push(row);
+    seen.add(name);
+  }
+  if (!additions.length) return;
+  if (!nextLabel) next.phase = `${version} Phase 2`;
+  next.characters = [...additions, ...next.characters];
+}
+
 // Community banner pages occasionally publish a typo'd year (2026-08-08: the
 // Genshin 7.0 Phase 1 end read "2206-09-01"). A date years out is not a
 // schedule, and shipping it means a countdown claiming 180 years.
@@ -6328,6 +6354,8 @@ function buildBannersData(rosters, betaDeltas = {}) {
     const scrapedCurrent = normalizeBannerPhase(rosters, key, group.current, runCounts);
     const scrapedNext = normalizeBannerPhase(rosters, key, group.next, runCounts);
     const official = officialPhases(key, rosters, runCounts, now);
+    const roadmapRows = group.roadmap || [];
+    const roadmap = bannerRoadmapCharacters(rosters, key, roadmapRows.filter((row) => !row?.pinned), runCounts);
     // The official feed wins for what is live and what is confirmed next. Keep
     // the community phase label ("6.7 Phase 2") only when it describes the same
     // banner — otherwise the label belongs to a phase that already ended.
@@ -6364,6 +6392,7 @@ function buildBannersData(rosters, betaDeltas = {}) {
     // 2) Re-thread current/next/upcoming from the timeline and compute honest
     //    freshness (drops expired-as-current, merges identical windows).
     games[key] = reflowBannerGroup(normalized, now);
+    mergePatchOnlyRoadmapIntoNext(games[key].current, games[key].next, roadmap);
     if (teased.length) games[key].upcoming = [...(games[key].upcoming || []), ...teased];
     const beta = (betaDeltas[key]?.roster || [])
       .filter((row) => row?.betaStatus === 'new')
@@ -6379,8 +6408,6 @@ function buildBannersData(rosters, betaDeltas = {}) {
     // joke (Genshin's Dainsleif + Alice). The scraper flags them inside
     // `roadmap` so they localize their art like everyone else; the split is a
     // display decision, so it happens here.
-    const roadmapRows = group.roadmap || [];
-    const roadmap = bannerRoadmapCharacters(rosters, key, roadmapRows.filter((row) => !row?.pinned), runCounts);
     if (roadmap.length) games[key].roadmap = roadmap;
     const pinned = bannerRoadmapCharacters(rosters, key, roadmapRows.filter((row) => row?.pinned), runCounts);
     if (pinned.length) games[key].pinned = pinned;

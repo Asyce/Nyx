@@ -19,14 +19,14 @@ const banners = sandbox.window.NYX_DB?.banners?.games || {};
 const GAMES = ['gi', 'hsr', 'zzz', 'wuwa', 'ae'];
 const phases = (group) => [group?.current, group?.next, ...(group?.upcoming || [])].filter(Boolean);
 
-function sourceFunction(name) {
-  const from = appSource.indexOf(`function ${name}`);
+function sourceFunction(name, source = appSource) {
+  const from = source.indexOf(`function ${name}`);
   assert.ok(from >= 0, `${name} not found`);
-  const open = appSource.indexOf('{', from);
+  const open = source.indexOf('{', from);
   let depth = 0;
-  for (let index = open; index < appSource.length; index += 1) {
-    if (appSource[index] === '{') depth += 1;
-    else if (appSource[index] === '}' && --depth === 0) return appSource.slice(from, index + 1);
+  for (let index = open; index < source.length; index += 1) {
+    if (source[index] === '{') depth += 1;
+    else if (source[index] === '}' && --depth === 0) return source.slice(from, index + 1);
   }
   throw new Error(`${name} is incomplete`);
 }
@@ -114,6 +114,38 @@ test('what is live comes from the official history, not the community scrape', (
   // the payload is rebuilt on a schedule, so between a phase rollover and the
   // next refresh it is legitimately behind. Asserting freshness here would fail
   // the build at every phase boundary.
+});
+
+test('a patch-only roadmap character joins the known second phase', () => {
+  const box = { window:{} };
+  vm.createContext(box);
+  vm.runInContext(`
+    ${sourceFunction('rosterNameKey', generator)}
+    ${sourceFunction('mergePatchOnlyRoadmapIntoNext', generator)}
+    window.merge = mergePatchOnlyRoadmapIntoNext;
+  `, box);
+  const current = { phase:'3.6 Phase 1', characters:[{ name:'Qingxiao' }] };
+  const next = { phase:null, characters:[{ name:'Hiyuki' }, { name:'Mornye' }] };
+  const roadmap = [
+    { name:'Jingran', hint:'Qingxiao and Jingran in Version 3.6' },
+    { name:'Qing Xiao', hint:'Version 3.6' },
+    { name:'Hiyuki', hint:'Version 3.6 Phase 2' },
+    { name:'Too Early', hint:'Version 3.6 Phase 1' },
+    { name:'Later Patch', hint:'Version 3.7 Phase 2' },
+  ];
+
+  box.window.merge(current, next, roadmap);
+  assert.equal(next.phase, '3.6 Phase 2');
+  assert.deepEqual(Array.from(next.characters, (row) => row.name), ['Jingran', 'Hiyuki', 'Mornye']);
+
+  const labeled = { phase:'3.6 Phase 2', characters:[{ name:'Hiyuki' }, { name:'Mornye' }] };
+  box.window.merge(current, labeled, [{ name:'Camellya', hint:'Patch 3.6 Phase 2' }]);
+  assert.deepEqual(Array.from(labeled.characters, (row) => row.name), ['Camellya', 'Hiyuki', 'Mornye']);
+
+  const otherPatch = { phase:'3.7 Phase 1', characters:[{ name:'Hiyuki' }, { name:'Mornye' }] };
+  box.window.merge(current, otherPatch, roadmap);
+  assert.equal(otherPatch.phase, '3.7 Phase 1');
+  assert.deepEqual(Array.from(otherPatch.characters, (row) => row.name), ['Hiyuki', 'Mornye']);
 });
 
 test('the board splits each phase into a headline banner and the rest', () => {

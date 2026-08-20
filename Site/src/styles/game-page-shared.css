@@ -7846,7 +7846,7 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
     border:0;
     background:transparent;
   }
-  .gp-topbar .tb-brand .plate{left:12px;width:316px;opacity:.56}
+  .gp-topbar .tb-brand .plate{left:-52px;width:316px;opacity:.56}
   .gp-topbar .tb-brand .brand-mark{width:100%;justify-content:flex-start;gap:var(--nyx-compat-spacing-22px)}
   .gp-topbar .tb-brand .wm{font-size:var(--nyx-compat-size-46px)}
 

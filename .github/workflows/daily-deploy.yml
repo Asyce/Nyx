@@ -113,15 +113,39 @@ jobs:
         run: npm run smoke:deploy
 
       - name: Push verified launcher snapshot
+        id: pushed_launcher_snapshot
         if: ${{ steps.launcher_snapshot.outputs.fresh == 'true' }}
-        run: git push
+        env:
+          PENGO_DATABASE_ASSET_MODE: ${{ vars.DATABASE_ASSET_MODE || 'local' }}
+        run: |
+          for attempt in 1 2 3; do
+            if git push origin HEAD:main; then
+              echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+            if [ "$attempt" -eq 3 ]; then
+              echo "::error::main changed during all three verified push attempts"
+              exit 1
+            fi
+            git fetch origin main
+            git switch --detach origin/main
+            git lfs pull
+            (cd Site && npm ci --no-audit --no-fund && npm run generate:data && npm run refresh:launcher)
+            git add Site/src/data/generated/nyx-data.js Site/src/data/generated/launcher-codes-v1.json Site/src/data/generated/launcher-banners-v1.json
+            git add -A Site/src/data/generated/launcher-art
+            if ! git diff --cached --quiet; then
+              git commit -m "chore(data): refresh daily launcher snapshot [skip ci]"
+            fi
+            sha="$(git rev-parse HEAD)"
+            (cd Site && PENGO_DEPLOY_COMMIT="$sha" npm run build:deploy && npm run smoke:deploy)
+          done
 
       - name: Additively sync Database assets to R2
         id: r2_sync
         if: ${{ steps.launcher_snapshot.outputs.fresh == 'true' && env.DATABASE_ASSET_MODE != 'local' }}
         working-directory: Site
         env:
-          PENGO_DEPLOY_COMMIT: ${{ steps.launcher_snapshot.outputs.sha }}
+          PENGO_DEPLOY_COMMIT: ${{ steps.pushed_launcher_snapshot.outputs.sha }}
           R2_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
           R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
           R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
@@ -162,8 +186,45 @@ jobs:
         run: npm run smoke:deploy
 
       - name: Push exact deployment snapshot
+        id: pushed_deployment_snapshot
         if: ${{ steps.deployment_snapshot.outputs.fresh == 'true' }}
-        run: git push
+        env:
+          PENGO_DATABASE_ASSET_MODE: ${{ vars.DATABASE_ASSET_MODE || 'local' }}
+          R2_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
+          R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+        run: |
+          for attempt in 1 2 3; do
+            if git push origin HEAD:main; then
+              echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+            if [ "$attempt" -eq 3 ]; then
+              echo "::error::main changed during all three verified push attempts"
+              exit 1
+            fi
+            git fetch origin main
+            git switch --detach origin/main
+            git lfs pull
+            (cd Site && npm ci --no-audit --no-fund && npm run generate:data && npm run refresh:launcher)
+            git add Site/src/data/generated/nyx-data.js Site/src/data/generated/launcher-codes-v1.json Site/src/data/generated/launcher-banners-v1.json
+            git add -A Site/src/data/generated/launcher-art
+            if ! git diff --cached --quiet; then
+              git commit -m "chore(data): refresh retry launcher snapshot [skip ci]"
+            fi
+            launcher_sha="$(git rev-parse HEAD)"
+            if [ "$PENGO_DATABASE_ASSET_MODE" != "local" ]; then
+              (cd Site && PENGO_DEPLOY_COMMIT="$launcher_sha" npm run sync:database-assets:r2 -- --apply)
+              (cd Site && npm run generate:data && npm run refresh:launcher)
+              git add Site/src/data/generated/nyx-data.js Site/src/data/generated/launcher-codes-v1.json Site/src/data/generated/launcher-banners-v1.json
+              git add -A Site/src/data/generated/launcher-art
+              if ! git diff --cached --quiet; then
+                git commit -m "chore(data): refresh retry deployment snapshot [skip ci]"
+              fi
+            fi
+            sha="$(git rev-parse HEAD)"
+            (cd Site && PENGO_DEPLOY_COMMIT="$sha" npm run build:deploy && npm run smoke:deploy)
+          done
 
       - name: Deploy to Cloudflare
         if: ${{ steps.deployment_snapshot.outputs.fresh == 'true' && env.CF_API_TOKEN != '' }}
